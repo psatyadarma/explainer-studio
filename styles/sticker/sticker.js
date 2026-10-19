@@ -68,5 +68,20 @@
   // Count-up number formatted as Indonesian rupiah
   K.rupiah = (n) => 'Rp' + Math.round(n).toLocaleString('id-ID');
 
+  // One shared SVG filter for illustration stickers: dilate alpha -> white outline, plus soft shadow.
+  K.installFilters = () => {
+    if (document.getElementById('stk')) return;
+    const d = document.createElement('div');
+    d.innerHTML = `<svg width="0" height="0" style="position:absolute"><defs>
+      <filter id="stk" x="-20%" y="-20%" width="140%" height="140%">
+        <feMorphology in="SourceAlpha" operator="dilate" radius="8" result="d"/>
+        <feFlood flood-color="#fff"/><feComposite in2="d" operator="in" result="o"/>
+        <feGaussianBlur in="d" stdDeviation="10" result="b"/><feOffset in="b" dy="14" result="bo"/>
+        <feFlood flood-color="#1B2430" flood-opacity=".22"/><feComposite in2="bo" operator="in" result="sh"/>
+        <feMerge><feMergeNode in="sh"/><feMergeNode in="o"/><feMergeNode in="SourceGraphic"/></feMerge>
+      </filter></defs></svg>`;
+    document.body.appendChild(d.firstChild);
+  };
+  document.addEventListener('DOMContentLoaded', K.installFilters);
   window.K = K;
 })();

@@ -40,11 +40,14 @@ const silent = out.replace(/\.mp4$/, '.silent.mp4');
 const ff = spawn('ffmpeg', ['-y', '-loglevel', 'error', '-f', 'image2pipe', '-framerate', String(FPS), '-i', '-',
   '-c:v', 'libx264', '-preset', 'medium', '-crf', '18', '-pix_fmt', 'yuv420p', silent], { stdio: ['pipe', 'inherit', 'inherit'] });
 
+const cdp = await page.context().newCDPSession(page);
+const grab = async () => Buffer.from((await cdp.send('Page.captureScreenshot',
+  { format: 'jpeg', quality: 88, optimizeForSpeed: true, fromSurface: true })).data, 'base64');
 const total = Math.round((to - from) * FPS);
 const t0 = Date.now();
 for (let i = 0; i < total; i++) {
   await page.evaluate((t) => window.seek(t), from + i / FPS);
-  const buf = await page.screenshot({ type: 'jpeg', quality: 92 });
+  const buf = await grab();
   if (!ff.stdin.write(buf)) await new Promise((r) => ff.stdin.once('drain', r));
   if (i % (FPS * 2) === 0) console.log(`frame ${i}/${total} (${((Date.now() - t0) / 1000).toFixed(0)}s)`);
 }

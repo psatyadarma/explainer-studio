@@ -27,7 +27,7 @@
   <div id="world">
     <!-- HOOK -->
     <div id="headline" class="abs headline" style="left:540px; top:620px; width:820px; font-size:96px;"></div>
-    <div id="cup" class="abs sticker" style="left:540px; top:1040px;">
+    <div id="cup" class="abs sticker-svg" style="left:540px; top:1040px;">
       <svg width="420" height="520" viewBox="0 0 420 520">
         <path d="M150 60 q-25 -30 0 -55 M210 60 q-25 -30 0 -55 M270 60 q-25 -30 0 -55" stroke="#C9C2B3" stroke-width="12" fill="none" stroke-linecap="round"/>
         <rect x="70" y="80" width="280" height="44" rx="16" fill="#1B2430"/>
@@ -70,15 +70,15 @@
       <path id="road" d="M170 220 C 380 180, 300 520, 520 470 S 700 520, 740 470" stroke="#3E5568" stroke-width="16"
             stroke-dasharray="10 26" stroke-linecap="round" fill="none"/>
     </svg>
-    <div id="wh" class="abs sticker" style="left:1400px; top:2300px;">
+    <div id="wh" class="abs sticker-svg" style="left:1400px; top:2300px;">
       <svg width="230" height="190" viewBox="0 0 230 190"><path d="M10 80 L115 15 L220 80 L220 180 L10 180 Z" fill="#3E5568"/>
       <rect x="70" y="100" width="90" height="80" fill="#F3EFE6"/><path d="M70 125 H160 M70 150 H160" stroke="#3E5568" stroke-width="8"/></svg>
     </div>
-    <div id="shop" class="abs sticker" style="left:2000px; top:2660px;">
+    <div id="shop" class="abs sticker-svg" style="left:2000px; top:2660px;">
       <svg width="240" height="210" viewBox="0 0 240 210"><rect x="20" y="70" width="200" height="130" fill="#fff" stroke="#1B2430" stroke-width="8"/>
       <path d="M10 70 L40 15 H200 L230 70 Z" fill="#FF5A36"/><rect x="90" y="120" width="60" height="80" fill="#1B2430"/></svg>
     </div>
-    <div id="truck" class="abs sticker" style="left:1400px; top:2300px;">
+    <div id="truck" class="abs sticker-svg" style="left:1400px; top:2300px;">
       <svg width="190" height="120" viewBox="0 0 190 120"><rect x="5" y="15" width="115" height="70" rx="10" fill="#FF5A36"/>
       <path d="M120 40 H160 L185 65 V85 H120 Z" fill="#1B2430"/><circle cx="40" cy="95" r="20" fill="#1B2430"/><circle cx="150" cy="95" r="20" fill="#1B2430"/></svg>
     </div>
@@ -153,7 +153,7 @@ function seek(t) {
   // ---- price chart: bars grow, numbers count up
   K.pop($('ctitle'), t, at('price', 0.1), Infinity, -2);
   const vals = [18000, 25000, 32000], H = 560, max = 32000;
-  const bt = [K.word('price', 'naik'), (K.word('price', 'naik') + K.word('price', 'jadi')) / 2, K.word('price', 'jadi')];
+  const bt = [at('price', 0.35), (at('price', 0.35) + K.word('price', 'jadi')) / 2, K.word('price', 'jadi')];
   const bars = $('chart');
   if (!bars.dataset.made) {
     bars.dataset.made = 1;
@@ -165,7 +165,7 @@ function seek(t) {
     const h = H * (v / max) * g;
     $('bar' + i).style.height = Math.max(0, h) + 'px';
     const ve = $('v' + i);
-    ve.textContent = K.rupiah(Math.min(v, v * K.clamp(g)) / 1000 * 1000);
+    ve.textContent = K.rupiah(g > 0.97 ? v : Math.round(v * K.clamp(g) / 500) * 500);
     ve.style.top = (1270 - Math.max(0, h) - 50) + 'px';
     ve.style.opacity = t > bt[i] - 0.1 ? 1 : 0;
     $('y' + i).style.opacity = t > at('price', 0.1) ? 1 : 0;
