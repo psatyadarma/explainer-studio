@@ -33,6 +33,16 @@ Search each of these every morning (last 24–48 h), not just generic "berita ha
 - Fact-check feeds: Komdigi hoaks, Cek Fakta.
 - Categories: markets, economy/policy, business, tech, politics & law, national news, environment/disasters, global-with-Indonesia-impact.
 
+## Agent pipeline (from 20 Oct 2026)
+Roles live in `.claude/agents/` (shared researcher rules: `.claude/shared/researcher-common.md`). The main chat is the coordinator and the user's only contact; agents never message the user. Hand-offs are files in `accounts/rangkumindong/daily/<date>/`, progress in its `status.json` (`engine/day.py`).
+1. 06:00 WITA: `day.py init` → 4 researchers in parallel (news-markets, news-politics, news-business, news-national; Sonnet) → each writes `sweep-<area>.json`, validated by `day.py check`. Rerun any that fail or come back thin.
+2. `day.py merge` adds new events to `events.csv` (dedup) and renders `events.md`.
+3. writer (mode ideas) → `ideas.md` (exactly 5) → fact-checker on ideas → coordinator sends ideas + any fact-check flags to the user.
+4. User picks → writer (mode draft) → video folder with `script.json`, `draft.md`, `post.json`, `claims.json` → fact-checker → fixes applied → draft sent for approval.
+5. After approval: production scripts (voice, render, mix) and self-check by the coordinator; posting script only after "OK post".
+6. Analyst: metrics at 24 h / 72 h, weekly review on Sunday.
+Weekly long video ("Rangkumin Seminggu", Sat 08:00 WITA): writer + fact-checker Friday morning → after approval, chapter-builders in parallel (one per chapter) → assemble → editor reviews the whole cut → fixes → render → schedule.
+
 ## Continuity (videos build on each other)
 - Before picking topics, check `storylines/` for active stories with new developments or milestones due.
 - Follow-up videos: hook references the last episode ("Minggu lalu IHSG anjlok 11%. Sekarang…"), show a small "PART n" badge, reuse the same chart/visual language, and link the previous video in the pinned comment.

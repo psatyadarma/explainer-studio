@@ -1,0 +1,127 @@
+{
+  "area": "politics",
+  "run_date": "2026-10-19",
+  "checked": ["Presiden / Keppres / Perpres", "Wapres", "Istana / Mensesneg / rapat kabinet", "cabinet reshuffle", "DPR bills (RUU)", "DPR hearings / recess", "MPR / DPD", "MK", "MA", "Komisi Yudisial", "KPK", "Kejagung", "Polri / Kapolri", "TNI", "KPU / Bawaslu / pilkada", "party moves", "ministry policy (Kemnaker UMP)", "regional heads in national news", "demonstrations", "labour / UMP", "Komnas HAM", "storyline gibran-ijazah-mk", "storyline cabinet-reshuffles", "storyline corruption-cases", "storyline prabowo-2-years"],
+  "events": [
+    {
+      "date": "2026-10-15",
+      "category": "POL",
+      "event": "KPK names Klaten Bupati Hamenang Wajar Ismoyo, Central Java BPK head Ahmad Luthfi Rahmatullah and private party M. Amin Wahyu Utomo suspects after a 15 Oct sting (OTT) and detains them for 20 days on 16 Oct; KPK alleges five clusters of bribery and gratification including payment to remove an audit finding.",
+      "key_numbers": "OTT 15 Oct in Klaten and Jakarta · 20 other people secured · Rp1.9 miliar cash seized · alleged Rp400 juta to BPK head to drop a Rp5 miliar honorarium-overpayment finding in FY2025 audit · >Rp2 miliar procurement fees · Rp245 juta galian C permits · >=Rp1.8 miliar from regional enterprises since 2025 · >=Rp280 juta from BPKPAD staff · 3 detained 20 days (16 Oct)",
+      "storyline": "corruption-cases",
+      "update_of": "E0048",
+      "status": "verified",
+      "sources": [
+        {"label": "InvestorTrust", "url": "https://investortrust.id/national/119591/jadi-tersangka-kpk-bupati-klaten-hamenang-dan-kepala-bpk-jateng-dijebloskan-ke-tahanan"},
+        {"label": "Justisio", "url": "https://justisio.com/berita/2026-10-16-kpk-tahan-bupati-klaten-hamenang-usai-ott-dugaan-suap-audit-bpk"},
+        {"label": "RCTI+", "url": "https://www.rctiplus.com/news/detail/inews/5495601/kpk-tetapkan-bupati-klaten-hamenang-wajar-ismoyo-tersangka-suap-dan-gratifikasi"}
+      ],
+      "why_it_matters": "A regional head and the state auditor's own provincial chief caught together shows how audit results can allegedly be bought, which affects how much people can trust local government accounts.",
+      "video_potential": 4,
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-10-14",
+      "category": "POL",
+      "event": "KPK names five suspects (one woman, four men) and detains them after the 13 Oct sting at BNPB; BNPB Sestama Rustian was questioned but remains a witness and was allowed to leave.",
+      "key_numbers": "14 people caught in OTT on 13 Oct · 5 named suspects and detained (14 Oct) · Rustian status: witness · identities and roles of the five not disclosed at time of reporting",
+      "storyline": "corruption-cases",
+      "update_of": "E0047",
+      "status": "verified",
+      "sources": [
+        {"label": "iNews", "url": "https://www.inews.id/news/nasional/breaking-news-kpk-tahan-5-tersangka-terkait-ott-di-bnpb"},
+        {"label": "RCTI+", "url": "https://www.rctiplus.com/news/detail/inews/5493700/kpk-sudah-tetapkan-sejumlah-tersangka-usai-ott-bnpb--siapa-saja-"}
+      ],
+      "why_it_matters": "The case concerns emergency disaster funds, money meant for victims, and the agency head was replaced two days later.",
+      "video_potential": 3,
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-10-06",
+      "category": "POL",
+      "event": "DPR plenary makes the Asset Forfeiture Bill (RUU Perampasan Aset) a DPR initiative bill; Komisi III says it will pass by 15 Dec 2026 at the latest, with DIM discussion with the government starting 10 Nov after recess.",
+      "key_numbers": "326 of 576 members attended · 8 factions gave written positions · 62 public hearings (RDPU) + 8 working visits since Sep 2025 · recess 9 Oct–9 Nov · DIM talks from 10 Nov · target passage 15 Dec 2026",
+      "storyline": "asset-forfeiture-bill",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "Justisio", "url": "https://justisio.com/berita/2026-10-06-ruu-perampasan-aset-resmi-jadi-usul-inisiatif-dpr-target-rampung-15-de"},
+        {"label": "Metro TV (Antara)", "url": "https://www.metrotvnews.com/read/KRXCz69l-dpr-bahas-dim-ruu-perampasan-aset-november-2026"}
+      ],
+      "why_it_matters": "The law would let the state seize assets from corruption and other crimes without waiting for a criminal conviction; Habiburokhman said it must not be used against political opponents.",
+      "video_potential": 4,
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-10",
+      "category": "POL",
+      "event": "DPR Komisi III and the government are scheduled to begin the DIM (issues list) discussion on the Asset Forfeiture Bill at the start of the next session after recess.",
+      "key_numbers": "DPR recess 9 Oct–9 Nov · DIM start 10 Nov · target passage by 15 Dec 2026",
+      "storyline": "asset-forfeiture-bill",
+      "update_of": "",
+      "status": "upcoming",
+      "sources": [
+        {"label": "Metro TV (Antara)", "url": "https://www.metrotvnews.com/read/KRXCz69l-dpr-bahas-dim-ruu-perampasan-aset-november-2026"},
+        {"label": "Justisio", "url": "https://justisio.com/berita/2026-10-06-ruu-perampasan-aset-resmi-jadi-usul-inisiatif-dpr-target-rampung-15-de"}
+      ],
+      "why_it_matters": "This is the next checkpoint for whether the bill really passes within about five weeks.",
+      "video_potential": 2,
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-16",
+      "category": "POL",
+      "event": "Prabowo chairs a limited cabinet meeting at Istana Bogor ahead of the government's second anniversary on 20 Oct; ministers gave few details, saying it was about togetherness and monitoring Asta Cita programmes.",
+      "key_numbers": "about 2 hours (c. 19:00–22:00 WIB) · anniversary 20 Oct 2026 · Housing Minister Maruarar Sirait invited the President to a 2.4 juta roof-tile event in Majalengka (8 Nov) and a 71,000-house event in Malang (17 Dec)",
+      "storyline": "prabowo-2-years",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "RCTI+", "url": "https://www.rctiplus.com/news/detail/inews/5495619/ini-isi-rapat-kabinet-di-istana-bogor-jelang-2-tahun-pemerintahan-prabowo"},
+        {"label": "RCTI+ IDX Channel", "url": "https://www.rctiplus.com/news/detail/idxchannel/5495660/digelar-dua-jam--ini-isi-rapat-kabinet-prabowo-di-istana-bogor-jumat-malam"}
+      ],
+      "why_it_matters": "It sets the scene for the two-year evaluation on 20 Oct, a day after the stock market fell below 5,000 and a day after the eighth reshuffle.",
+      "video_potential": 2,
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-15",
+      "category": "POL",
+      "event": "KSPI and Partai Buruh announce staggered rallies from 15 to 30 Oct in 38 provinces demanding a 7.5%-9.5% minimum wage rise for 2027 and provincial minimum wages (UMP/UMSP) set by 1 Nov 2026.",
+      "key_numbers": "7.5%–9.5% UMP 2027 demand · rallies 15–30 Oct in 38 provinces · tens of thousands expected · UMP/UMSP by 1 Nov 2026 · severance demand: at least 1x statutory, not 0.5x · outsourcing limited to 4 job types (cleaning, security, drivers, catering)",
+      "storyline": "ump-2027",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "Katadata", "url": "https://katadata.co.id/berita/industri/6ace17814957a/siap-siap-buruh-bakal-demo-tuntut-kenaikan-ump-2027-hingga-9-5"}
+      ],
+      "why_it_matters": "It decides how much monthly pay rises for millions of workers in 2027, at a time when inflation is 3.28% and layoffs are being reported.",
+      "video_potential": 4,
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-01",
+      "category": "POL",
+      "event": "Unions' deadline for provinces to set 2027 UMP and UMSP (1 Nov); government has not yet published a formula or figure in the sources found.",
+      "key_numbers": "deadline 1 Nov 2026 · union demand 7.5%–9.5% · BI-Rate and inflation context: inflation 3.28% y/y (Sep)",
+      "storyline": "ump-2027",
+      "update_of": "",
+      "status": "upcoming",
+      "sources": [
+        {"label": "Katadata", "url": "https://katadata.co.id/berita/industri/6ace17814957a/siap-siap-buruh-bakal-demo-tuntut-kenaikan-ump-2027-hingga-9-5"}
+      ],
+      "why_it_matters": "Wage announcements normally follow in November, and the Labour Minister's stance will show whether the demand is met.",
+      "video_potential": 3,
+      "sensitivity": "normal"
+    }
+  ],
+  "gaps": [
+    "Nothing fresh found for the last 48 hours (17-19 Oct) on KPK, Kejagung, MK, MA, Komnas HAM, KPU/Bawaslu or party moves: search results were mostly older articles; worth a second look on Detik/Kompas politics and hukum front pages.",
+    "KPK BNPB case: identities, roles and amounts for the 5 suspects not found; also not confirmed whether the Rustian-witness status changed.",
+    "7th reshuffle (1 Oct): Goodnews article lists Dudung Abdurachman as Menko Polkam (Keppres 104/105/P 2026) and being replaced as Kepala Staf Kepresidenan; E0006 does not mention it and the article is unclear. Needs checking.",
+    "Third October reshuffle (Kompas 16 Oct analysis says three in October) not identified; the 8th (15 Oct) used Keppres 105/106 for TNI posts per RCTI+, which conflicts with 105 cited for the 1 Oct reshuffle: Keppres numbers unverified.",
+    "Demo in front of DPR 6-8 Oct (E0012): Kompas page blocked to fetch; who and what demands still unverified.",
+    "Menaker Yassierli's response to the 2027 UMP demand not found (the Fortune article found was from Aug 2025 about 2026 UMP).",
+    "Prabowo's programme for 20 Oct anniversary (ceremony, speech, travel) not found."
+  ]
+}

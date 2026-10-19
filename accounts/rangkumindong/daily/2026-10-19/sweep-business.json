@@ -1,0 +1,240 @@
+{
+  "area": "business",
+  "run_date": "2026-10-19",
+  "checked": [
+    "Danantara", "BUMN (Pertamina, PLN, Telkom, Garuda, bank BUMN)", "privatisation/merger (GoTo-Grab, Danantara)",
+    "Big corporates earnings (bank jumbo Q3 preview)", "PHK / layoffs", "PKPU / pailit", "Startups (GoTo, Grab, Shopee, TikTok Shop, funding, shutdowns)",
+    "Komdigi (PSE registration, platform blocking, data leaks, PDP, AI policy)", "Bali Tech Week", "Telco / data centres / AI / semiconductor investment",
+    "Food staples prices (PIHPS)", "Airfare / avtur", "Car sales (Gaikindo)", "Motorbike sales (AISI)", "Housing/KPR",
+    "BKPM / investment / smelter / EV battery / nickel", "Marketplace tax PPh 22", "APBN / macro (Kemenkeu)", "Storylines: batam-blackout, startup-funding, tax-policy, msci-reclassification (bank angle)"
+  ],
+  "events": [
+    {
+      "date": "2026-10-14",
+      "category": "BIZ",
+      "event": "PLN replaces CEO Darmawan Prasodjo with Suroso Isnandar (exchange filing 14 Oct) after the Batam blackout, and Danantara moves PLN Batam under its direct management to improve reliability and responsiveness.",
+      "key_numbers": "Blackout began 12 Oct, ~16 hours · >411,000 customers affected · Batam ~1.3 juta residents · rolling blackouts still on Wed 14 Oct because demand exceeded capacity · Darmawan CEO since Dec 2021 · Suroso 30+ years at PLN",
+      "storyline": "batam-blackout",
+      "update_of": "E0019",
+      "status": "partial",
+      "sources": [
+        {"label": "The Star (Bloomberg)", "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/15/indonesia-replaces-state-electricity-chief-after-16-hour-blackout-in-batam"},
+        {"label": "Fortune IDN", "url": "https://www.fortuneidn.com/news/danantara-ambil-alih-pln-batam-usai-blackout-00-my5jv-s99jbt"},
+        {"label": "Kontan", "url": "https://industri.kontan.co.id/news/blackout-batam-rosan-minta-pln-sempurnakan-rencana-cadangan-hadapi-gangguan-listrik"}
+      ],
+      "why_it_matters": "A single blackout cost the head of the national electricity company his job and put Batam, a data-centre hub, under Danantara.",
+      "video_potential": 4,
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-11",
+      "category": "ECO",
+      "event": "Kemnaker data show 63,789 workers laid off (PHK) in January-September 2026, based on Job Loss Guarantee (JKP) reports, with West Java highest.",
+      "key_numbers": "63,789 PHK Jan-Sep 2026 · Jawa Barat 13,044 · Banten 7,733 · Jawa Timur 6,154 · Jawa Tengah 5,585 · DKI Jakarta 4,587 · earlier cut-off: 32,389 for Jan-Jun 2026",
+      "storyline": "consumer-health",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "RCTI+ / Okezone", "url": "https://www.rctiplus.com/news/detail/ekonomi/5491407/63-789-pekerja-di-ri-kena-phk-hingga-september-2026--jabar-terbanyak"},
+        {"label": "CNN Indonesia", "url": "https://cnnindonesia.com/ekonomi/20261012071310-92-1414227/daftar-5-provinsi-dengan-angka-phk-terbanyak"},
+        {"label": "Pojoksatu", "url": "https://pojoksatu.id/nasional/jawa-barat-tertinggi-kemnaker-ungkap-data-63-789-korban-phk-hingga-september-2026"}
+      ],
+      "why_it_matters": "Layoffs roughly doubled in one quarter by this count, which ties directly to weaker spending power and pinjol risk.",
+      "video_potential": 4,
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-16",
+      "category": "BIZ",
+      "event": "The four big banks (BBCA, BBRI, BBNI, BMRI) fall sharply during the 16 Oct IHSG crash after the MSCI Standalone proposal, with BBCA hardest hit; foreign selling was concentrated in BBCA and BBRI.",
+      "key_numbers": "Intraday 16 Oct (14:00 WIB): BBCA −13.99% · BBRI −12.58% · BBNI −11.44% · BMRI −8.54% · IHSG −10.76% at that time · foreign net sell BBCA Rp2.32 T, BBRI Rp1.14 T (close) · NOTE: the source's price columns do not reconcile with its percentages",
+      "storyline": "msci-reclassification",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "Kontan", "url": "https://keuangan.kontan.co.id/news/saham-big-banks-berguguran-ihsg-anjlok-1076-setelah-pengumuman-msci"},
+        {"label": "Investortrust (via storyline file)", "url": "https://investortrust.id/market/119709/ihsg-dibuka-jatuh-4-9-bei-bakal-kena-trading-halt-pagi-ini"}
+      ],
+      "why_it_matters": "These banks hold most Indonesians' salary accounts and many retail portfolios, so the MSCI shock hits ordinary investors.",
+      "video_potential": 3,
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-15",
+      "category": "BIZ",
+      "event": "Ahead of Q3 results, bank-only profits through August 2026 show Mandiri (BMRI) growing fastest while BCA grows slowest; analysts expect BMRI to lead Q3 growth and BBCA to stay largest.",
+      "key_numbers": "Net profit Jan-Aug 2026 (bank-only): BBCA Rp40.17 T (+2.85% y/y) · BMRI Rp37.48 T (+22.41%) · BBRI Rp32.61 T (+6.63%) · BBNI Rp14.32 T (+6.89%) · Q3 report dates not stated",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "Katadata", "url": "https://katadata.co.id/finansial/bursa/6ad0829458d74/proyeksi-kinerja-4-bank-jumbo-bbca-bbbri-bmri-bbni-di-kuartal-iii"}
+      ],
+      "why_it_matters": "Q3 earnings land right after the crash and will show whether the sell-off matches fundamentals.",
+      "video_potential": 3,
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-08",
+      "category": "BIZ",
+      "event": "Garuda Indonesia's EGM appoints Thomas Sugiarto Oentoro (ex-Vice President Director, ex-INA CRO) as President Director, replacing Glenny Kairupan who becomes President Commissioner; six directors and five commissioners also named.",
+      "key_numbers": "H1 2026: revenue US$1.80 B (+16%) · net loss US$113 M (−23.2%) · EBIT US$74 M (+12.7%) · fuel expense +43.6% · fleet 104 aircraft (end-Jun)",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "KabarBursa", "url": "https://www.kabarbursa.com/market-hari-ini/thomas-sugiarto-oentoro-naik-pimpin-garuda-giaa-ini-jejak-kariernya"}
+      ],
+      "why_it_matters": "Garuda is still loss-making, and fuel costs are its biggest pressure.",
+      "video_potential": 2,
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-14",
+      "category": "BIZ",
+      "event": "Telkom says it is accelerating the streamlining of 50 subsidiaries as part of its TLKM 30 plan to become a strategic holding, and asks the government to speed up regulations under PP 38/2026 on BUMN.",
+      "key_numbers": "50 entities · 24 done by end H1 2026 · 26 left, target 2026 · 4 segments (B2C, B2B Infrastructure, B2B ICT, International) · valuation target Rp550+ T by 2030 · EBITDA margin >50% in Q2 2026 (per article)",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "KabarBursa", "url": "https://www.kabarbursa.com/market-hari-ini/telkom-tlkm-akselerasi-streamlining-fokuskan-portofolio-pada-bisnis-inti"}
+      ],
+      "why_it_matters": "It shows how state firms are being cut down to core businesses, which affects jobs and Telkomsel/IndiHome customers.",
+      "video_potential": 2,
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-08",
+      "category": "BIZ",
+      "event": "Prabowo witnesses the first export of EV batteries made at IWIP (Weda Bay, Central Halmahera) and groundbreaking of nickel downstream projects, with Rosan Roeslani reporting on 10 strategic projects.",
+      "key_numbers": "10 projects US$10.2 B (≈Rp180 T): 4 done US$3.4 B + 6 groundbreaking US$6.8 B · IWIP investment ~US$20 B → ~US$27 B · IWIP exports ~US$11 B · IWIP+IMIP exports ~US$28 B ≈10% of national exports · >10,000 new jobs · 117,000 workers in area",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/news/20261008132321-4-774403/perdana-prabowo-saksikan-ekspor-baterai-ev-ri"}
+      ],
+      "why_it_matters": "It is the headline proof of the nickel-to-battery downstreaming strategy that the government keeps citing.",
+      "video_potential": 3,
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-08",
+      "category": "ECO",
+      "event": "Bahlil says the government is considering a moratorium on new smelters that only make semi-finished products, pushing processing toward final goods.",
+      "key_numbers": "Smelters at ~50-60% processing depth · nickel oversupply ~2.5 juta ton · nickel exports US$3.3 B (2017-18) → US$34 B (2023) → US$38-40 B projected 2026 · oil lifting 600-610k bpd vs consumption ~1.6 juta bpd · B50 and E20 (2027-28) planned",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "KabarBursa", "url": "https://www.kabarbursa.com/makro/bahlil-kaji-moratorium-smelter-setengah-jadi-hilirisasi-didorong-ke-produk-akhir"}
+      ],
+      "why_it_matters": "A smelter moratorium would change where new nickel and battery investment goes, and it is only under review so far.",
+      "video_potential": 2,
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-13",
+      "category": "BIZ",
+      "event": "Gaikindo: wholesale car sales in September 2026 were 79,540 units, up 28.1% y/y but down 2.71% m/m; January-September total 679,020 units, up 21%.",
+      "key_numbers": "79,540 units (Sep) · −2.71% m/m from 81,757 (Aug) · +28.1% y/y · Jan-Sep 679,020 (+21% y/y)",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "Databoks Katadata", "url": "https://databoks.katadata.co.id/transportasi-logistik/statistik/6acd8e21d958f/penjualan-wholesale-mobil-di-indonesia-september-2026-naik-dibanding-tahun-lalu"},
+        {"label": "Kontan (headline only)", "url": "https://industri.kontan.co.id/news/penjualan-mobil-januari-september-2026-tembus-679020-unit-naik-21"}
+      ],
+      "why_it_matters": "Car sales are rising strongly even as layoffs and a weak rupiah dominate the mood, a contradiction worth explaining.",
+      "video_potential": 3,
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-13",
+      "category": "BIZ",
+      "event": "AISI: motorbike domestic sales in September 2026 reached 654,343 units, the highest of the year so far, with exports also up.",
+      "key_numbers": "654,343 units · +9.7% m/m · +15.36% y/y · exports 55,098 CBU (+9.63% m/m, +25.43% y/y) · publication date approximate",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "Databoks Katadata", "url": "https://databoks.katadata.co.id/transportasi-logistik/statistik/6ac854d1424c4/penjualan-dan-ekspor-sepeda-motor-indonesia-menguat-pada-september-2026"}
+      ],
+      "why_it_matters": "Motorbikes are the everyday vehicle for most households, so this is a read on ordinary demand.",
+      "video_potential": 2,
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-15",
+      "category": "ECO",
+      "event": "PIHPS national averages on 15 Oct show rice and cooking oil rising while chilli and beef ease.",
+      "key_numbers": "Beras medium I Rp17,100/kg (+3.01%) · medium II Rp16,950 (+0.89%) · beras bawah II Rp15,400 (+4.76%) · minyak goreng curah Rp21,350 (+4.65%) · kemasan Rp24,000-24,750 (+1.9%) · cabai rawit merah Rp97,600 (−5.29%) · cabai merah keriting Rp83,600 (−0.65%) · telur Rp29,450 (−0.84%) · daging sapi Rp144,300-150,050 (−0.17% to −1.61%) · ayam Rp40,900 (−1.33%) (day-on-day, 11:00 WIB)",
+      "storyline": "",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "Bisnis (PIHPS BI data)", "url": "https://ekonomi.bisnis.com/read/20261015/12/2012877/harga-pangan-15-oktober-2026-cabai-turun-beras-naik"}
+      ],
+      "why_it_matters": "Rice and cooking oil are the two staples every household buys, and both are climbing while the rupiah weakens.",
+      "video_potential": 4,
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-01",
+      "category": "BIZ",
+      "event": "Ministry of Transport lets airlines add a fuel surcharge of up to 40% above the upper fare limit on domestic economy tickets from 1 Oct 2026.",
+      "key_numbers": "Surcharge up to 40% (letter AU.005/913/DJPU/2026, KM 1041/2026) · national average avtur Rp23,315/liter · avtur CGK Rp22,471/liter (from Rp21,102, +6.49%, from 1 Sep) · Garuda H1 fuel expense +43.6%",
+      "storyline": "fuel-oil",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "Investortrust", "url": "https://investortrust.id/business/118141/fuel-surcharge-tiket-pesawat-oktober-40-harga-avtur-naik-tipis-dibanding-september"}
+      ],
+      "why_it_matters": "Plane tickets can cost up to 40% more than the legal cap, which hits anyone flying domestically.",
+      "video_potential": 3,
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-01",
+      "category": "TECH",
+      "event": "Komdigi gave seven private platforms (PO Haryanto, PO Handoyo, Rosalia Indah, Roti'O, Sriwijaya Air, Sudiro Tungga Jaya, FatSecret) a 1 Oct deadline to register as PSE or face access cut-off; outcome not found.",
+      "key_numbers": "25 PSEs warned in total · 16 registered (incl. Whoosh/KCIC, TransJakarta) · 7 listed at risk · Pelita Air and Shopify committed to register · deadline 1 Oct 2026",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "Selular.ID", "url": "https://selular.id/2026/09/terancam-diblokir-1-oktober-ini-7-platform-yang-diperingatkan-komdigi/"}
+      ],
+      "why_it_matters": "Familiar brands such as Sriwijaya Air could be blocked if they did not register.",
+      "video_potential": 2,
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-05",
+      "category": "ECO",
+      "event": "Deputy Finance Minister Suahasil gives a macro snapshot: September manufacturing PMI back in expansion, trade surplus US$3.5 B through September, and fiscal deficit at 0.93% of GDP through August; the September APBN KiTa report was due before 11 Oct.",
+      "key_numbers": "PMI Sep 52 (Aug 49.8, Jul 50.2) · inflation 3.28% y/y · trade surplus US$3.5 B Jan-Sep · growth H1 5.45%, Q2 5.29% (target 6%) · through Aug: revenue Rp2,055.6 T (65.2%), tax Rp1,409 T (59.8%), spending Rp2,295.7 T, deficit Rp240.1 T (0.93% GDP) · 2026 deficit target Rp638.8 T (2.48%)",
+      "storyline": "growth-outlook",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "KabarBursa", "url": "https://www.kabarbursa.com/makro/suahasil-ungkap-apbn-september-ada-perubahan-menarik"}
+      ],
+      "why_it_matters": "It is the official counter-narrative to the market panic: factories are growing and the deficit is under control.",
+      "video_potential": 2,
+      "sensitivity": "normal"
+    }
+  ],
+  "gaps": [
+    "Searches returned almost nothing dated 17-19 Oct for business; the engine surfaced mostly 8-16 Oct items, so same-day corporate news (earnings, PHK at named firms, PKPU/pailit rulings) may be missed.",
+    "No 2026 news found on GoTo-Grab merger (only 2025 articles), Shopee/TikTok Shop, Bukalapak, startup shutdowns or new funding rounds.",
+    "No new Danantara announcements, Pertamina or bank-BUMN privatisation news found for the window; Danantara/PLN Batam is the only one.",
+    "No data leak, PDP law or AI policy news found; Komdigi PSE deadline outcome (1 Oct) unknown.",
+    "Bank Q3 2026 report dates not confirmed; BCA/BRI/Mandiri results likely land within days of the crash and deserve a re-check.",
+    "BBCA/BBRI/BMRI/BBNI price columns in the Kontan crash article do not reconcile with its percentages; get closing numbers from IDX.",
+    "Kontan car-sales page could not be fetched (figures taken from Databoks); motorbike publication date approximate.",
+    "PT GNI nickel layoffs (~1,900 workers at risk) appeared in Aug 2026 results only; current status not checked.",
+    "Seen in snippets but not opened: Komdigi/Bali Tech Week announcements (infopublik, bisnis 13 Oct), Pertamina-BP AKR fuel supply, Tokopedia/marketplace tax complaints."
+  ]
+}
