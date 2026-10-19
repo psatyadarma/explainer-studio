@@ -80,5 +80,15 @@
       "tagline": "assets/voice/tagline-cahaya.mp3",
       "note": "soft R; consider alternative if needed"
     }
+  },
+  "script_style": {
+    "tone": "conversational, explaining to a friend; short sentences; hooks like 'Jadi gini.', 'Pemicunya? X.', 'Nah,'; dramatic beats for key numbers",
+    "delivery": "per-line ElevenLabs v3 tags (shocked/serious/skeptical/reassuring/playful)",
+    "max_pause_s": 0.24,
+    "target_wpm": [
+      150,
+      170
+    ],
+    "approved": "2026-10-19 (v3 punchy)"
   }
 }

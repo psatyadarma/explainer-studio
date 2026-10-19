@@ -211,12 +211,12 @@ function seek(t) {
   K.pop($('c3'), t, W('l1', 'anjlok'), at('l2', -0.3), 1);
   const cv = K.easeOut(K.prog(t, W('l1', 'anjlok'), 2.2));
   $('c3v').textContent = Math.round(K.lerp(5863.77, 5185.10, cv)).toLocaleString('id-ID');
-  K.pop($('c4'), t, W('l1', 'sehari'), at('l2', -0.3), 3);
+  K.pop($('c4'), t, W('l1', 'dalam'), at('l2', -0.3), 3);
 
   // D: MSCI
   K.pop($('msci'), t, W('l2', 'msci'), Infinity, -2);
   K.pop($('d1'), t, W('l2', 'penyusun'), Infinity, 2);
-  K.pop($('globe'), t, W('l2', 'global') - 0.4, Infinity, -6);
+  K.pop($('globe'), t, W('l2', 'dunia') - 0.4, Infinity, -6);
   K.pop($('bag'), t, W('l2', 'dana'), Infinity, 6);
   K.pop($('d2'), t, W('l2', 'patokan'), Infinity, -2);
 
@@ -240,7 +240,7 @@ function seek(t) {
   const gv = K.easeOut(K.prog(t, W('l6', 'rp334') - 0.3, 1.1));
   $('g1').textContent = 'Rp' + (3.34 * gv).toFixed(2).replace('.', ',') + ' T';
   K.pop($('g1'), t, W('l6', 'rp334') - 0.3, Infinity, -2);
-  K.pop($('g2'), t, W('l6', 'satu'), Infinity, 3);
+  K.pop($('g2'), t, W('l6', 'cuma'), Infinity, 3);
 
   // H: timeline
   K.pop($('h0'), t, at('l8', 0), Infinity, -2);
