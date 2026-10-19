@@ -1,0 +1,373 @@
+{
+  "area": "national",
+  "run_date": "2026-10-19",
+  "checked": [
+    "Kompas terpopuler (page cache stale, not usable)",
+    "Detik terpopuler",
+    "CNN Indonesia",
+    "Tempo (stale)",
+    "Antara terpopuler",
+    "CNBC Indonesia latest",
+    "Kontan (stale)",
+    "Bisnis terpopuler",
+    "Liputan6 index 18 & 19 Oct",
+    "social media trending (no usable outlet roundup found)",
+    "BMKG/earthquakes",
+    "karhutla/haze/BNPB",
+    "Anak Krakatau/volcanoes",
+    "floods/landslides (nothing new found)",
+    "transport KRL/MRT (only TransJakarta busway item)",
+    "BPJS/KRIS (nothing new for window)",
+    "haji 2027 (only older July items)",
+    "education/Sekolah Rakyat",
+    "crime/public safety",
+    "Komdigi hoaks",
+    "Liputan6 Cek Fakta",
+    "storylines: gibran-ijazah-mk, msci-reclassification"
+  ],
+  "events": [
+    {
+      "date": "2026-10-17",
+      "category": "ENV",
+      "event": "Kemenhub reports forest-fire smoke has disrupted 2,458 domestic flights at 29 airports since 11 Aug, up from 2,021 on 13 Oct.",
+      "key_numbers": "2,458 domestic flights affected (1,080 delayed · 1,324 cancelled/postponed · 22 diverted) · 29 airports · +437 since 13 Oct · 14 international flights cancelled (Singapore–Pontianak/Palembang) · 22 perintis flights cancelled 16 Oct · period 11 Aug–17 Oct 2026",
+      "storyline": "karhutla",
+      "update_of": "E0021",
+      "status": "verified",
+      "sources": [
+        {
+          "label": "Bisnis",
+          "url": "https://ekonomi.bisnis.com/read/20261018/98/2013499/asap-karhutla-selimuti-29-bandara-2458-penerbangan-delay-hingga-dibatalkan"
+        }
+      ],
+      "why_it_matters": "Haze is now hitting ordinary travel plans across Sumatra, Kalimantan, Sulawesi, Maluku and Papua.",
+      "video_potential": 4,
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-16",
+      "category": "ENV",
+      "event": "BMKG satellite shows forest-fire smoke from Kalimantan and Sumatra reaching Banten, West Java and Jakarta; Governor Pramono puts Jakarta hospitals and puskesmas on standby.",
+      "key_numbers": "31 hospitals · 44 puskesmas · 292 puskesmas pembantu on standby · BMKG image released 16 Oct 10:00 · air quality worse for 2-3 days (Pramono) · BMKG: satellite smoke does not equal ground-level PM2.5; Liputan6 18 Oct: Jakarta air still unhealthy in some areas though smoke moving away",
+      "storyline": "karhutla",
+      "update_of": "E0021",
+      "status": "verified",
+      "sources": [
+        {
+          "label": "RCTI+",
+          "url": "https://www.rctiplus.com/news/detail/inews/5495668/asap-karhutla-masuk-jakarta--pramono-siagakan-31-rumah-sakit-dan-44-puskesmas"
+        },
+        {
+          "label": "Metro TV",
+          "url": "https://www.metrotvnews.com/read/NG9CwWRQ-bmkg-deteksi-sebaran-asap-karhutla-masuk-jakarta-hingga-jabar"
+        }
+      ],
+      "why_it_matters": "The haze is no longer a Kalimantan/Sumatra problem; Java's biggest city is breathing it.",
+      "video_potential": 5,
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-19",
+      "category": "ENV",
+      "event": "Malaysian PM Anwar Ibrahim says Indonesian haze has harmed health and closed schools in some Malaysian states, proposes an ASEAN haze mechanism and offers help.",
+      "key_numbers": "'tens of thousands' of Indonesian personnel deployed (Anwar) · school closures in some Malaysian states (no count)",
+      "storyline": "karhutla",
+      "update_of": "E0021",
+      "status": "partial",
+      "sources": [
+        {
+          "label": "CNBC Indonesia",
+          "url": "https://www.cnbcindonesia.com/news/20261019085909-4-777325/anwar-ibrahim-respons-kebakaran-hutan-lahan-ri-katakan-ini"
+        }
+      ],
+      "why_it_matters": "Transboundary haze becomes a diplomatic issue for Indonesia with Malaysia and Singapore.",
+      "video_potential": 3,
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-19",
+      "category": "ENV",
+      "event": "MUI Deputy Chair Cholil Nafis calls the fires at 'emergency' level, urges Prabowo to prioritise them and asks for firm law enforcement against land burners, citing MUI Fatwa 30/2016 (burning forests is haram).",
+      "key_numbers": "Fatwa No. 30/2016 · statement dated 19 Oct",
+      "storyline": "karhutla",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {
+          "label": "CNN Indonesia",
+          "url": "https://www.cnnindonesia.com/nasional/20261019081223-20-1416871/serukan-taubat-nasuha-mui-minta-pemerintah-serius-urus-karhutla"
+        }
+      ],
+      "why_it_matters": "Religious authority joins pressure on government; adds to Golkar call for national-disaster status (E0034).",
+      "video_potential": 3,
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-14",
+      "category": "ENV",
+      "event": "CELIOS estimates Jan–Aug 2026 karhutla losses of Rp39.29–123.1 T depending on how health costs are counted; BNPB still fighting 639.23 ha in six priority provinces as of 13 Oct.",
+      "key_numbers": "Total Rp39.29–123.1 T · physical/economic Rp29.54 T · ISPA health cost Rp9.75 T (diagnosed, ~1.78 M people) to Rp93.56 T (broad) · Central Kalimantan loss ≈49.1% of its 2026 PDRB · regional tax revenue risk up to Rp269.86 miliar · ~202,010 ha burned nationally (Aug data) · 639.23 ha active, Tanjung Puting 513.89 ha",
+      "storyline": "karhutla",
+      "update_of": "E0021",
+      "status": "verified",
+      "sources": [
+        {
+          "label": "KabarBursa",
+          "url": "https://www.kabarbursa.com/makro/karhutla-2026-ancam-ekonomi-kerugian-capai-rp1231-triliun"
+        }
+      ],
+      "why_it_matters": "Puts a rupiah figure on the haze; strong numbers for an explainer.",
+      "video_potential": 4,
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-19",
+      "category": "ENV",
+      "event": "BRIN researcher explains why peat and forest fires are so hard to put out: underground smouldering, limited water bombing, smoke blocking aerial work; recommends keeping peat wet and holding concession holders accountable.",
+      "key_numbers": "Source: Yayan Hadiyan, BRIN Pusat Riset Ekologi",
+      "storyline": "karhutla",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {
+          "label": "Liputan6",
+          "url": "https://www.liputan6.com/news/read/8316211/analisis-brin-soal-kebakaran-hutan-sulit-dipadamkan"
+        }
+      ],
+      "why_it_matters": "Explains to ordinary people why the fires keep burning despite thousands of personnel.",
+      "video_potential": 3,
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-18",
+      "category": "ENV",
+      "event": "Anak Krakatau erupts 8 times on 18 Oct, ash up to 500 m; stays at Level III (Siaga).",
+      "key_numbers": "8 eruptions · ash 100–500 m above summit (657 m asl) · no entry within 5 km, 1 km of new islands",
+      "storyline": "volcanoes",
+      "update_of": "E0010",
+      "status": "verified",
+      "sources": [
+        {
+          "label": "Liputan6",
+          "url": "https://www.liputan6.com/news/read/8316036/anak-krakatau-meletus-8-kali-kolom-abu-capai-500-meter"
+        }
+      ],
+      "why_it_matters": "Confirms the Level III status is active, with eruptions continuing.",
+      "video_potential": 2,
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-19",
+      "category": "ECO",
+      "event": "Bahlil says Pertalite stock has dropped to 16-18 days (norm 20) as drivers shift from Pertamax to cheaper Pertalite; target back to 20 days within about a week.",
+      "key_numbers": "Pertalite 16–18 days vs 20-day norm · recovery ≈1 week · Pertalite Rp10,000 vs Pertamax Rp15,950 (E0005)",
+      "storyline": "fuel-oil",
+      "update_of": "E0005",
+      "status": "partial",
+      "sources": [
+        {
+          "label": "CNBC Indonesia",
+          "url": "https://www.cnbcindonesia.com/news/20261019075810-4-777308/stok-bbm-ri-16-18-hari-bahlil-buka-suara"
+        }
+      ],
+      "why_it_matters": "Fuel-stock worries are a daily-life issue; also fuels hoaxes about Pertalite.",
+      "video_potential": 4,
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-16",
+      "category": "NEWS",
+      "event": "Government postpones mandatory halal certification phases that were due 18 Oct 2026, to 2028 for most food, beverage and consumer products (revision of PP 42/2024).",
+      "key_numbers": "Food/beverage/slaughter services: 18 Oct 2028 · micro-small businesses: 17 Oct 2028 · cosmetics, herbal, supplements etc.: 17 Oct 2028 · OTC drugs: 17 Oct 2029 · prescription drugs: 17 Oct 2034 · BPJPH Reg 4/2026 on foreign products to be revoked",
+      "storyline": "halal-deadline",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {
+          "label": "Katadata",
+          "url": "https://katadata.co.id/berita/nasional/6ad249f646c58/pemerintah-tunda-kewajiban-sertifikasi-halal-hingga-2028"
+        },
+        {
+          "label": "Liputan6 index 18 Oct",
+          "url": "https://www.liputan6.com/indeks/2026/10/18"
+        }
+      ],
+      "why_it_matters": "Affects every food seller and consumer product maker, especially small businesses.",
+      "video_potential": 4,
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-16",
+      "category": "NEWS",
+      "event": "Bharada Valdo is shot and stabbed to death at Polairud HQ, Pondok Cabe, South Tangerang; fellow Bharada Andika Rahmadani is detained; on 19 Oct Menko Polkam Dudung says Polri recruitment and psychological screening will be evaluated and Komisi III urges mental tests for armed officers.",
+      "key_numbers": "Incident 16 Oct ~04:40 WIB · motive unconfirmed (alleged bullying per initial report/family lawyer; family suspects premeditation) · Polda Metro Jaya investigating",
+      "storyline": "police-internal-violence",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {
+          "label": "Liputan6 (Dudung)",
+          "url": "https://www.liputan6.com/news/read/8316375/menko-dudung-buka-suara-soal-insiden-polisi-tembak-polisi-di-markas-polairud"
+        },
+        {
+          "label": "Liputan6 (Komisi III)",
+          "url": "https://www.liputan6.com/news/read/8316361/polisi-tembak-polisi-komisi-iii-desak-tes-kejiwaan-anggota"
+        }
+      ],
+      "why_it_matters": "Raises questions about firearms control and mental screening in the police, amid the Polri leadership reshuffle.",
+      "video_potential": 3,
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-10-18",
+      "category": "NEWS",
+      "event": "Former Polri international relations chief Irjen (Purn) Napoleon Bonaparte dies of illness; buried in Cikeas on 19 Oct.",
+      "key_numbers": "Died 18 Oct 10:32 WIB · convicted 2021 in Djoko Tjandra Interpol red-notice bribery case, 4 years · paroled Apr 2023",
+      "storyline": "",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {
+          "label": "Detik",
+          "url": "https://news.detik.com/berita/d-8712842/mantan-kadivhubinter-polri-napoleon-bonaparte-meninggal-dunia"
+        },
+        {
+          "label": "Liputan6 index 18 Oct",
+          "url": "https://www.liputan6.com/indeks/2026/10/18"
+        }
+      ],
+      "why_it_matters": "Closes a chapter of one of Indonesia's best-known police corruption cases; heavily read today.",
+      "video_potential": 2,
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-10-19",
+      "category": "NEWS",
+      "event": "Detik reports lawyer Kamaruddin Simanjuntak (known for the Ferdy Sambo case) has died after illness involving repeated dialysis hospital visits.",
+      "key_numbers": "Detik 'terpopuler' #1 and #2 on 19 Oct (~11:30–13:30 WIB); family earlier denied a death rumour (undated)",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {
+          "label": "Detik terpopuler list (headlines only)",
+          "url": "https://www.detik.com/terpopuler"
+        },
+        {
+          "label": "Babel Insight (earlier rumour denied)",
+          "url": "https://www.babelinsight.id/keluarga-bantah-rumor-kamaruddin-simanjuntak-meninggal"
+        }
+      ],
+      "why_it_matters": "Top-read story; check before using given earlier false rumour.",
+      "video_potential": 2,
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-10-19",
+      "category": "POL",
+      "event": "East Jakarta court hears interlocutory ruling in Roy Suryo's slander/ITE trial over Jokowi's diploma; Detik headline says the defence objection (nota perlawanan/eksepsi) was rejected and Roy Suryo asked Jokowi to show the original diploma at trial.",
+      "key_numbers": "Hearing 19 Oct 09:00 WIB, PN Jakarta Timur · charges: fitnah, pencemaran nama baik, ITE · prosecution called 'fake 99.9%' claim a matter for trial",
+      "storyline": "jokowi-ijazah-roy-suryo",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {
+          "label": "RCTI+/Okezone (hearing set)",
+          "url": "https://www.rctiplus.com/news/detail/okezone/5487021/sidang-putusan-sela-roy-suryo-di-kasus-ijazah-jokowi-digelar-senin-19-oktober"
+        },
+        {
+          "label": "Detik terpopuler list (headlines only)",
+          "url": "https://www.detik.com/terpopuler"
+        }
+      ],
+      "why_it_matters": "Case moves to evidence stage; diploma disputes (Jokowi, Gibran) remain top political talk.",
+      "video_potential": 4,
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-10-18",
+      "category": "POL",
+      "event": "Komisi II DPR member Ahmad Doli Kurnia says Komisi II will review the alleged 'pasal selundupan' in PKPU 19/2023 (Pasal 18(3)) that exempts candidates with a university degree from showing a foreign high-school diploma; critics link it to Gibran's 2024 candidacy.",
+      "key_numbers": "PKPU 19/2023 Pasal 18(3) and 13(1)r · UU 7/2017 Pasal 169r · remarks 18 Oct; MK hearing 1 Oct; ex-KPU chair Hasyim Asy'ari denies engineering",
+      "storyline": "gibran-ijazah-mk",
+      "update_of": "E0044",
+      "status": "partial",
+      "sources": [
+        {
+          "label": "Liputan6",
+          "url": "https://www.liputan6.com/news/read/8316108/komisi-ii-dpr-siapkan-evaluasi-pasal-syarat-pendidikan-capres-cawapres"
+        }
+      ],
+      "why_it_matters": "The Gibran diploma issue shifts from the MK ruling to a parliamentary review of KPU rules.",
+      "video_potential": 4,
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-10-19",
+      "category": "POL",
+      "event": "KPK probes the role of Klaten regent Hamenang Wajar Ismoyo's younger brother, who kept a blue barrel with Rp934 juta; funds allegedly mix procurement bribes, OPD/BUMD gratuities and quarry income; BPK Central Java audit-fixing cluster.",
+      "key_numbers": "Rp934 juta in barrel · ~Rp1.9 miliar total cash seized · two other suspects · regent detained 16 Oct · May 2026 BPK audit report allegedly omitted findings",
+      "storyline": "corruption-cases",
+      "update_of": "E0048",
+      "status": "partial",
+      "sources": [
+        {
+          "label": "Liputan6",
+          "url": "https://www.liputan6.com/news/read/8316113/kpk-usut-peran-adik-bupati-klaten-di-balik-tong-biru-berisi-rp-934-juta"
+        }
+      ],
+      "why_it_matters": "Visual detail (money in a blue barrel) with a BPK audit-bribery angle.",
+      "video_potential": 4,
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-10-19",
+      "category": "NEWS",
+      "event": "Cek Fakta Liputan6: viral claim that Prabowo is closing the MBG free-meal programme due to an economic crisis is a hoax; the fake Kompas headline does not exist and BGN has made no such announcement.",
+      "key_numbers": "Facebook post 18 Oct · Finance Minister Suahasil 9 Oct: efficiency, not budget cut · other recent hoaxes: Pertalite price to Rp13,500 (24 Sep post), 'Pertalite sachet powder' (13 Oct), fake Jasa Marga job link",
+      "storyline": "hoax-tracker",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {
+          "label": "Liputan6 Cek Fakta (MBG)",
+          "url": "https://www.liputan6.com/cek-fakta/read/8316202/cek-fakta-hoaks-artikel-presiden-prabowo-akan-tutup-program-mbg-karena-krisis-ekonomi"
+        },
+        {
+          "label": "Liputan6 Cek Fakta (Pertalite)",
+          "url": "https://www.liputan6.com/cek-fakta/read/8316124/kumpulan-hoaks-seputar-pertalite-simak-daftarnya"
+        }
+      ],
+      "why_it_matters": "Fake news around MBG and fuel prices spreads fast during economic worries.",
+      "video_potential": 4,
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-18",
+      "category": "POL",
+      "event": "PPI survey finds 65.4% of respondents satisfied with the Prabowo government, ahead of the 2-year mark on 20 Oct (contrasts with SMRC 51.1% cited in E0036).",
+      "key_numbers": "65.4% satisfied (PPI) · SMRC 51.1% (Jul 2026, as cited)",
+      "storyline": "prabowo-2-years",
+      "update_of": "E0036",
+      "status": "partial",
+      "sources": [
+        {
+          "label": "Liputan6 index 18 Oct (headline)",
+          "url": "https://www.liputan6.com/indeks/2026/10/18"
+        }
+      ],
+      "why_it_matters": "Conflicting polls will frame the 2-year anniversary debate.",
+      "video_potential": 3,
+      "sensitivity": "normal"
+    }
+  ],
+  "gaps": [
+    "Roy Suryo 19 Oct ruling and Kamaruddin Simanjuntak death only seen as Detik headlines; article pages not retrieved, confirm before use",
+    "Kompas, Tempo, Kontan homepages returned stale cached content; Kompas/Tempo terpopuler not captured",
+    "No news outlet roundup of X/TikTok trends found for 17-19 Oct",
+    "Detik terpopuler item 'lahan bekas karhutla di Sumbar ditanami sawit' not retrieved (Kalbar 2,400 ha case earlier found, date unknown)",
+    "Gunung Latimojong (Sulsel) fire 7 days, Mount Lawu ~100 ha fire (Liputan6 18 Oct), Jakarta AQI numbers not verified",
+    "Mafindo and Komdigi hoax pages for Oct not retrievable via search",
+    "Haji 2027 cost (Kemenhaj proposed Rp107.3 juta, jemaah Rp42.9 juta; Fortune says jemaah Rp23.2 juta) unclear final figure and date"
+  ]
+}
