@@ -58,6 +58,9 @@ Weekly long video ("Rangkumin Seminggu", Sat 08:00 WITA): writer + fact-checker 
 - User approves the **draft** before any render. A draft always contains: topic + angle, full script (subtitle text), visual plan, sources, and the **captions**: IG caption (with hashtags), YouTube title (+ #Shorts), YouTube description, tags, and the sources first comment.
 - Captions: hook line + 3 bullet summary + vote question + "Bukan ajakan jual/beli saham" (market topics) + "Sumber di komentar" + 6–8 hashtags incl. #rangkumindong. Same numbers as the video.
 - User gives "OK post" (with time slot) before anything is published.
+- **Early slots:** if the post time is before 10:00 WITA (e.g. the weekly video, Sat 08:00), the finished video and captions go to the user the evening before, so "OK post" can be given before bed and the post is scheduled overnight.
+- **TikTok, manual until it's connected (24 Oct 2026):** with every finished video, send the MP4 plus a ready-to-paste TikTok caption (same text as IG; TikTok links aren't clickable, so sources go in a comment the user posts and pins). The user posts it by hand.
+- **Covers/thumbnails:** Shorts/Reels: the first frame is designed to work as the cover (hook text big and readable); when the IG cover can be set via Upload-Post, use a still of the hook frame. Weekly long video: a custom 1280×720 thumbnail (big number or face-free sticker composition + 3–4 word title) is part of its draft.
 - Posting via Upload-Post (engine/post.py, profile "Rangkumindong"): IG Reels + YouTube Shorts (#Shorts in title). TikTok: user warms the account up manually until 24 Oct 2026, then connect it to Upload-Post (AI-generated label on). Pin a sources comment.
 ## Experiments (parallel A/B, started 20 Oct 2026)
 Goal: learn fast without waiting weeks per variable. Every video carries experiment tags in `video-log.md`.
