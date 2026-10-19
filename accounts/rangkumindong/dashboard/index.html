@@ -1,0 +1,454 @@
+<style>
+#dash-root { --dash-gutter: clamp(12px, 3vw, 32px); }
+.rd { font-family: var(--font-anthropic-sans); color: var(--color-fg); display: flex; flex-direction: column; gap: var(--cds-gap-lg); max-width: 1280px; margin-inline: auto; }
+.rd-head { display: flex; flex-direction: column; gap: var(--cds-gap-xs); }
+.rd-title { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); margin: 0; text-wrap: balance; }
+.rd-take { color: var(--color-fg-muted); margin: 0; font-size: var(--cds-font-size-body); }
+.rd-tabs { display: flex; flex-wrap: wrap; gap: var(--cds-gap-xs); border-bottom: 1px solid var(--color-border-line); }
+.rd-tab { font: inherit; font-size: var(--cds-font-size-body); background: none; border: 0; border-bottom: 2px solid transparent; padding: var(--cds-pad-sm) var(--cds-pad-md); color: var(--color-fg-muted); cursor: pointer; }
+.rd-tab[aria-selected="true"] { color: var(--color-fg); border-bottom-color: var(--color-fg); }
+.rd-tab:focus-visible { outline: 2px solid var(--color-fg); outline-offset: 2px; }
+.rd-page { display: flex; flex-direction: column; gap: var(--cds-gap-lg); }
+.rd-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 20rem), 1fr)); gap: var(--cds-gap-md); }
+.rd-tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 9.5rem), 1fr)); gap: var(--cds-gap-md); }
+.rd-card { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-lg); display: flex; flex-direction: column; gap: var(--cds-gap-sm); min-width: 0; }
+.rd-card h2, .rd-card h3 { margin: 0; font-size: var(--cds-font-size-heading); font-weight: var(--cds-font-weight-medium); }
+.rd-note { margin: 0; color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); }
+.rd-big { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); font-variant-numeric: tabular-nums; line-height: 1.1; min-height: 1.1em; }
+.rd-label { color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); }
+.rd-steps { display: grid; grid-template-columns: repeat(15, 1fr); gap: 3px; min-height: 10px; }
+.rd-steps i { height: 10px; border-radius: 3px; background: var(--cds-chart-grid); }
+.rd-steps i.done { background: var(--cds-chart-muted); }
+.rd-steps i.now { background: var(--color-fg); }
+.rd-stepline { display: flex; flex-wrap: wrap; gap: var(--cds-gap-sm) var(--cds-gap-lg); font-size: var(--cds-font-size-body); }
+.rd-stepline b { font-weight: var(--cds-font-weight-medium); }
+.rd-chips { display: flex; flex-wrap: wrap; gap: var(--cds-gap-sm); }
+.rd-chip { display: inline-flex; align-items: center; gap: 6px; font-size: var(--cds-font-size-caption); border: 1px solid var(--color-border-line); border-radius: 999px; padding: 3px 10px; }
+.rd-chip::before { content: ""; width: .5rem; height: .5rem; border-radius: 50%; background: var(--cds-chart-muted); }
+.rd-chip.ok::before { background: var(--color-ok); }
+.rd-chip.warn::before { background: var(--color-warn); }
+.rd-chip.bad::before { background: var(--color-bad); }
+.rd-tablebox { overflow: auto; max-height: 34rem; }
+.rd table { width: 100%; border-collapse: collapse; font-size: var(--cds-font-size-caption); font-variant-numeric: tabular-nums; }
+.rd th { text-align: left; font-weight: var(--cds-font-weight-medium); color: var(--color-fg-muted); padding: 6px 8px; border-bottom: 1px solid var(--color-border-line); position: sticky; top: 0; background: var(--color-panel); white-space: nowrap; }
+.rd td { padding: 6px 8px; border-bottom: 1px solid var(--color-border-line); vertical-align: top; }
+.rd td.num, .rd th.num { text-align: right; }
+.rd td.wrap { min-width: 14rem; }
+.rd .pill { display: inline-block; border-radius: 999px; padding: 1px 8px; border: 1px solid var(--color-border-line); white-space: nowrap; }
+.rd .pill.ok { color: var(--color-ok); } .rd .pill.warn { color: var(--color-warn); } .rd .pill.bad { color: var(--color-bad); }
+.rd .star { color: var(--color-warn); }
+.rd-search { font: inherit; font-size: var(--cds-font-size-body); padding: 6px 10px; border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); background: var(--color-bg); color: var(--color-fg); width: min(100%, 22rem); }
+.rd-filters { display: flex; flex-wrap: wrap; gap: var(--cds-gap-sm); align-items: center; }
+.rd-fbtn { font: inherit; font-size: var(--cds-font-size-caption); border: 1px solid var(--color-border-line); background: none; color: var(--color-fg-muted); border-radius: 999px; padding: 3px 10px; cursor: pointer; }
+.rd-fbtn[aria-pressed="true"] { color: var(--color-fg); border-color: var(--color-fg); }
+.rd-chart { position: relative; min-height: 240px; }
+.rd-tip { position: absolute; pointer-events: none; background: var(--cds-surface-popover); border: 1px solid var(--cds-border); border-radius: var(--cds-radius); box-shadow: var(--cds-shadow-popover); padding: var(--cds-pad-xs) var(--cds-pad-sm); font-size: var(--cds-font-size-caption); white-space: nowrap; }
+.rd-tip .d { color: var(--cds-text-secondary); }
+.rd-legend { display: flex; flex-wrap: wrap; gap: var(--cds-gap-md); font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+.rd-legend span { display: inline-flex; align-items: center; gap: 6px; }
+.rd-legend i { width: 10px; height: 10px; border-radius: 3px; display: inline-block; }
+.rd-empty { color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); margin: 0; }
+.rd a { color: inherit; }
+[data-dash-source-state=empty] { color: transparent; }
+[data-dash-source-state=refreshing] { opacity: .5; transition: opacity var(--cds-dur-slow); }
+.rd-fail { display: flex; align-items: center; justify-content: center; gap: 6px; color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); min-height: inherit; }
+.rd-fail::before { content: ""; width: .375rem; height: .375rem; border-radius: 50%; background: var(--color-bad); }
+@media (max-width: 640px) { .rd .hide-sm { display: none; } }
+</style>
+
+<div class="rd">
+  <header class="rd-head" id="top">
+    <h1 class="rd-title">Rangkumin Dong Studio</h1>
+    <p class="rd-take dash-skeleton" id="takeaway" data-source="latest_day">—</p>
+  </header>
+
+  <nav class="rd-tabs" role="tablist" aria-label="Sections">
+    <button class="rd-tab" role="tab" id="tab-today" aria-controls="today" aria-selected="true">Today</button>
+    <button class="rd-tab" role="tab" id="tab-health" aria-controls="health" aria-selected="false">Pipeline health</button>
+    <button class="rd-tab" role="tab" id="tab-videos" aria-controls="videos" aria-selected="false">Videos &amp; A/B tests</button>
+    <button class="rd-tab" role="tab" id="tab-events" aria-controls="events" aria-selected="false">Events</button>
+  </nav>
+
+  <!-- TODAY -->
+  <section class="rd-page" id="today" role="tabpanel" aria-labelledby="tab-today">
+    <div class="rd-card" id="progress-card">
+      <h2>Latest run · <span data-source="latest_day" data-field="date" data-row="0" class="dash-skeleton">—</span></h2>
+      <div class="rd-steps" id="steps" data-source="latest_day"></div>
+      <div class="rd-stepline">
+        <span>Done: <b data-source="latest_day" data-field="last_step" data-row="0">—</b></span>
+        <span>Next: <b data-source="latest_day" data-field="next_step" data-row="0">—</b></span>
+        <span><b data-source="latest_day" data-field="steps_done" data-row="0">—</b> of <span data-source="latest_day" data-field="steps_total" data-row="0">—</span> steps</span>
+      </div>
+    </div>
+
+    <div class="rd-tiles" id="today-tiles">
+      <div class="rd-card"><span class="rd-label">Events found</span><span class="rd-big dash-skeleton" data-source="latest_day" data-field="events_found" data-row="0">—</span><span class="rd-note">by 4 researchers</span></div>
+      <div class="rd-card"><span class="rd-label">New to the database</span><span class="rd-big dash-skeleton" data-source="latest_day" data-field="events_new" data-row="0">—</span><span class="rd-note"><span data-source="latest_day" data-field="duplicates" data-row="0">—</span> duplicates skipped</span></div>
+      <div class="rd-card"><span class="rd-label">Ideas offered</span><span class="rd-big dash-skeleton" data-source="latest_day" data-field="ideas" data-row="0">—</span><span class="rd-note">target: exactly 5</span></div>
+      <div class="rd-card"><span class="rd-label">Fact-check fixes</span><span class="rd-big dash-skeleton" data-source="latest_day" data-field="factcheck_fixes" data-row="0">—</span><span class="rd-note">errors caught before you saw them</span></div>
+      <div class="rd-card"><span class="rd-label">Research areas OK</span><span class="rd-big dash-skeleton" data-source="latest_day" data-field="areas_ok" data-row="0">—</span><span class="rd-note">of 4 passed validation</span></div>
+    </div>
+
+    <div class="rd-grid">
+      <div class="rd-card" id="ideas-card">
+        <h2>Ideas offered</h2>
+        <p class="rd-note">Latest run, ranked. ★ = recommended.</p>
+        <div class="rd-tablebox">
+          <table id="ideas-table" data-source="latest_ideas" data-row-key="rank">
+            <thead><tr><th class="num" data-field="rank">#</th><th data-field="title">Idea</th><th data-field="storyline" class="hide-sm">Storyline</th><th data-field="sensitivity">Sensitivity</th></tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+      <div class="rd-card" id="arms-card">
+        <h2>Upcoming A/B arms</h2>
+        <p class="rd-note">Next 7 days: voice, post time (WITA) and hook type.</p>
+        <div class="rd-tablebox">
+          <table id="arms-table" data-source="experiments" data-row-key="date">
+            <thead><tr><th data-field="date">Date</th><th data-field="voice">Voice</th><th data-field="slot">Slot</th><th data-field="hook">Hook</th></tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HEALTH -->
+  <section class="rd-page" id="health" role="tabpanel" aria-labelledby="tab-health" hidden>
+    <div class="rd-card" id="health-card">
+      <h2>Research health · latest run</h2>
+      <p class="rd-note">Each area should validate, find at least 5 events and search its whole checklist. Many gaps means sources couldn't be read or verified.</p>
+      <div class="rd-chips" id="health-chips" data-source="health"></div>
+    </div>
+    <div class="rd-card" id="events-chart-card">
+      <h2>Events found per day, by area</h2>
+      <p class="rd-note">From each researcher's file. A sudden drop in one area usually means a blocked source or a thin search.</p>
+      <div class="rd-legend" id="area-legend" data-source="runs"></div>
+      <div class="rd-chart" id="area-chart" data-source="runs"></div>
+    </div>
+    <div class="rd-grid">
+      <div class="rd-card" id="runs-card">
+        <h2>Research runs</h2>
+        <p class="rd-note">One row per day and area. Checked = checklist items searched; gaps = things seen but not verified.</p>
+        <div class="rd-tablebox">
+          <table id="runs-table" data-source="runs" data-row-key="date,area">
+            <thead><tr><th data-field="date">Date</th><th data-field="area">Area</th><th class="num" data-field="events">Events</th><th class="num" data-field="verified">Verified</th><th class="num hide-sm" data-field="partial">Partial</th><th class="num hide-sm" data-field="high_sensitivity">High-sens.</th><th class="num" data-field="checked">Checked</th><th class="num" data-field="gaps">Gaps</th><th data-field="valid">Valid</th></tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+      <div class="rd-card" id="days-card">
+        <h2>Daily runs</h2>
+        <p class="rd-note">How far each day got, and what the fact-checker caught.</p>
+        <div class="rd-tablebox">
+          <table id="days-table" data-source="days" data-row-key="date">
+            <thead><tr><th data-field="date">Date</th><th class="num" data-field="events_found">Found</th><th class="num" data-field="events_new">New</th><th class="num" data-field="ideas">Ideas</th><th class="num" data-field="factcheck_fixes">Fixes</th><th data-field="last_step">Reached</th></tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VIDEOS -->
+  <section class="rd-page" id="videos" role="tabpanel" aria-labelledby="tab-videos" hidden>
+    <div class="rd-card" id="videos-card">
+      <h2>Videos</h2>
+      <p class="rd-note">Every drafted or posted video, its A/B arm and the subtitle-sync check (negative = highlight slightly early, which is intended).</p>
+      <div class="rd-tablebox">
+        <table id="videos-table" data-source="videos" data-row-key="folder">
+          <thead><tr><th data-field="date">Date</th><th data-field="title">Video</th><th data-field="status">Status</th><th data-field="voice">Voice</th><th data-field="slot" class="hide-sm">Slot</th><th data-field="hook" class="hide-sm">Hook</th><th class="num hide-sm" data-field="length_s">Length (s)</th><th data-field="qa_sync">Sync</th><th class="num hide-sm" data-field="sync_median_ms">Offset (ms)</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+    <div class="rd-card" id="ab-card">
+      <h2>A/B results: average % watched at 24 h</h2>
+      <p class="rd-note">Per arm, averaged over every video and platform with 24-hour numbers. A variable is decided when one value leads by 15% or more over at least 5 videos each.</p>
+      <p class="rd-empty" id="ab-empty" hidden>No 24-hour numbers yet. The first appear a day after video #1 goes live.</p>
+      <div class="rd-chart" id="ab-chart" data-source="arms" style="min-height:180px"></div>
+    </div>
+  </section>
+
+  <!-- EVENTS -->
+  <section class="rd-page" id="events" role="tabpanel" aria-labelledby="tab-events" hidden>
+    <div class="rd-card" id="events-card">
+      <h2>Events database</h2>
+      <p class="rd-note">Last 30 days plus upcoming. The researchers add to it every morning; ideas are built from it.</p>
+      <div class="rd-filters">
+        <input class="rd-search" id="ev-search" type="search" placeholder="Search events, numbers, storylines" aria-label="Search events">
+        <div class="rd-filters" id="ev-cats" role="group" aria-label="Category"></div>
+      </div>
+      <div class="rd-tablebox">
+        <table id="events-table" data-source="events" data-row-key="id">
+          <thead><tr><th data-field="id" class="hide-sm">ID</th><th data-field="date">Date</th><th data-field="category">Cat.</th><th data-field="event">Event</th><th data-field="key_numbers" class="hide-sm">Key numbers</th><th data-field="storyline" class="hide-sm">Storyline</th><th data-field="status">Status</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <p class="rd-note" id="ev-count" data-source="events"></p>
+    </div>
+  </section>
+</div>
+
+<script>
+dash.calc('latest_day', {
+  inputs: ['days'],
+  title: 'Latest daily run',
+  description: 'The most recent row of the daily runs.',
+  fn: (days) => days.length ? [days.slice().sort((a, b) => a.date < b.date ? -1 : 1)[days.length - 1]] : [],
+});
+dash.calc('latest_ideas', {
+  inputs: ['ideas'],
+  title: 'Ideas from the latest run',
+  description: 'The ideas offered on the most recent date.',
+  fn: (ideas) => {
+    const last = ideas.reduce((m, r) => (r.date > m ? r.date : m), '');
+    return ideas.filter((r) => r.date === last).sort((a, b) => a.rank - b.rank);
+  },
+});
+dash.calc('health', {
+  inputs: ['runs'],
+  title: 'Research health',
+  description: 'Per area on the latest date: bad if the file failed validation, warning if under 5 events or over 12 gaps.',
+  fn: (runs) => {
+    const last = runs.reduce((m, r) => (r.date > m ? r.date : m), '');
+    return runs.filter((r) => r.date === last).map((r) => ({
+      area: r.area,
+      status: !r.valid ? 'bad' : (r.events < 5 || r.gaps > 12) ? 'warn' : 'ok',
+      events: r.events,
+      gaps: r.gaps,
+    }));
+  },
+});
+dash.calc('arms', {
+  inputs: ['videos', 'metrics'],
+  title: 'Watch time by A/B arm',
+  description: 'Average % watched at 24 h for each value of voice, slot and hook, over videos with numbers.',
+  fn: (videos, metrics) => {
+    const byFolder = Object.fromEntries(videos.map((v) => [v.folder, v]));
+    const acc = {};
+    metrics.filter((m) => Number(m.hours) === 24 && m.avg_watch_pct != null).forEach((m) => {
+      const v = byFolder[m.folder];
+      if (!v) return;
+      [['voice', v.voice], ['slot', v.slot], ['hook', v.hook]].forEach(([variable, value]) => {
+        const k = variable + '|' + value;
+        acc[k] = acc[k] || { variable, value, sum: 0, n: 0, vids: {} };
+        acc[k].sum += Number(m.avg_watch_pct); acc[k].n += 1; acc[k].vids[m.folder] = 1;
+      });
+    });
+    return Object.values(acc).map((a) => ({ variable: a.variable, value: a.value, avg_watch_pct: a.sum / a.n, videos: Object.keys(a.vids).length }));
+  },
+});
+
+(() => {
+  const fmtDate = (s) => d3.utcFormat('%a %-d %b')(new Date(s + 'T00:00:00Z'));
+  const AREAS = ['markets', 'politics', 'business', 'national'];
+  const AREA_LABEL = { markets: 'Markets & economy', politics: 'Politics & law', business: 'Business & tech', national: 'National & viral' };
+  const CAT = { MKT: 'Markets', ECO: 'Economy', BIZ: 'Business', TECH: 'Tech', POL: 'Politics', NEWS: 'National', ENV: 'Environment', GLB: 'Global' };
+  const failLine = (el) => { el.replaceChildren(); const d = document.createElement('div'); d.className = 'rd-fail'; d.textContent = 'Failed to load'; el.appendChild(d); };
+  const unskel = (root) => root.querySelectorAll('.dash-skeleton').forEach((e) => e.classList.remove('dash-skeleton'));
+
+  // tabs
+  const tabs = [...document.querySelectorAll('.rd-tab')];
+  const show = (id) => {
+    tabs.forEach((t) => { const on = t.getAttribute('aria-controls') === id; t.setAttribute('aria-selected', on); document.getElementById(t.getAttribute('aria-controls')).hidden = !on; });
+    dash.setLink(id);
+    draw();
+  };
+  tabs.forEach((t) => t.addEventListener('click', () => show(t.getAttribute('aria-controls'))));
+
+  // cell helpers
+  const td = (tr, text, cls) => { const c = document.createElement('td'); if (cls) c.className = cls; c.textContent = text == null || text === '' ? '—' : text; tr.appendChild(c); return c; };
+  const pill = (tr, text, kind) => { const c = document.createElement('td'); const s = document.createElement('span'); s.className = 'pill ' + (kind || ''); s.textContent = text; c.appendChild(s); tr.appendChild(c); };
+
+  function drawToday() {
+    const ld = dash.data('latest_day');
+    const take = document.getElementById('takeaway');
+    if (ld.status === 'ok' && ld.data.length) {
+      const r = ld.data[0];
+      take.textContent = `${fmtDate(r.date)}: ${r.steps_done} of ${r.steps_total} steps done. Next: ${r.next_step}.`;
+      const steps = document.getElementById('steps');
+      steps.replaceChildren(...d3.range(r.steps_total).map((i) => { const e = document.createElement('i'); if (i < r.steps_done - 1) e.className = 'done'; else if (i === r.steps_done - 1) e.className = 'now'; return e; }));
+      document.querySelectorAll('[data-source="latest_day"][data-field]').forEach((el) => {
+        if (el.id === 'takeaway') return;
+        const v = r[el.dataset.field];
+        el.textContent = el.dataset.field === 'date' ? r.date : (v == null ? '—' : (typeof v === 'number' ? d3.format(',')(v) : v));
+      });
+      unskel(document);
+    } else if (ld.status === 'error') { take.textContent = 'Latest run failed to load.'; take.classList.remove('dash-skeleton'); }
+
+    const li = dash.data('latest_ideas');
+    const tb = document.querySelector('#ideas-table tbody');
+    tb.replaceChildren();
+    if (li.status === 'ok') li.data.forEach((r) => {
+      const tr = document.createElement('tr');
+      td(tr, String(r.rank), 'num');
+      const c = td(tr, '', 'wrap'); c.textContent = '';
+      if (r.recommended) { const s = document.createElement('span'); s.className = 'star'; s.textContent = '★ '; c.appendChild(s); }
+      c.appendChild(document.createTextNode(r.title));
+      td(tr, r.storyline, 'hide-sm');
+      pill(tr, r.sensitivity || '—', r.sensitivity === 'high' ? 'bad' : r.sensitivity === 'medium' ? 'warn' : 'ok');
+      tb.appendChild(tr);
+    });
+
+    const ex = dash.data('experiments');
+    const at = document.querySelector('#arms-table tbody');
+    at.replaceChildren();
+    if (ex.status === 'ok') {
+      const today = d3.utcFormat('%Y-%m-%d')(new Date(Date.now() + 8 * 3600e3));
+      ex.data.filter((r) => r.date >= today).slice(0, 7).forEach((r) => {
+        const tr = document.createElement('tr');
+        td(tr, r.date); td(tr, r.voice); td(tr, r.slot); td(tr, r.hook);
+        at.appendChild(tr);
+      });
+    }
+  }
+
+  function drawHealth() {
+    const h = dash.data('health');
+    const chips = document.getElementById('health-chips');
+    chips.replaceChildren();
+    if (h.status === 'ok') AREAS.forEach((a) => {
+      const r = h.data.find((x) => x.area === a);
+      if (!r) return;
+      const s = document.createElement('span');
+      s.className = 'rd-chip ' + r.status;
+      s.textContent = `${AREA_LABEL[a]}: ${r.events} events, ${r.gaps} gaps`;
+      chips.appendChild(s);
+    });
+    else if (h.status === 'error') failLine(chips);
+
+    const runs = dash.data('runs');
+    const chartEl = document.getElementById('area-chart');
+    const legend = document.getElementById('area-legend');
+    if (runs.status === 'ok') {
+      legend.replaceChildren(...AREAS.map((a, i) => { const s = document.createElement('span'); const k = document.createElement('i'); k.style.background = dash.colors[i]; s.append(k, AREA_LABEL[a]); return s; }));
+      drawAreaChart(chartEl, runs.data);
+      const tb = document.querySelector('#runs-table tbody');
+      tb.replaceChildren();
+      runs.data.slice().sort((a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : AREAS.indexOf(a.area) - AREAS.indexOf(b.area))).forEach((r) => {
+        const tr = document.createElement('tr');
+        td(tr, r.date); td(tr, r.area); td(tr, r.events, 'num'); td(tr, r.verified, 'num'); td(tr, r.partial, 'num hide-sm'); td(tr, r.high_sensitivity, 'num hide-sm'); td(tr, r.checked, 'num'); td(tr, r.gaps, 'num');
+        pill(tr, r.valid ? 'yes' : 'no', r.valid ? 'ok' : 'bad');
+        tb.appendChild(tr);
+      });
+    } else if (runs.status === 'error') failLine(chartEl);
+
+    const days = dash.data('days');
+    const dt = document.querySelector('#days-table tbody');
+    dt.replaceChildren();
+    if (days.status === 'ok') days.data.slice().sort((a, b) => (a.date < b.date ? 1 : -1)).forEach((r) => {
+      const tr = document.createElement('tr');
+      td(tr, r.date); td(tr, r.events_found, 'num'); td(tr, r.events_new, 'num'); td(tr, r.ideas, 'num'); td(tr, r.factcheck_fixes, 'num'); td(tr, r.last_step);
+      dt.appendChild(tr);
+    });
+  }
+
+  function drawAreaChart(el, rows) {
+    el.replaceChildren();
+    const W = el.clientWidth || 600, H = 240, m = { t: 10, r: 8, b: 26, l: 30 };
+    const dates = [...new Set(rows.map((r) => r.date))].sort().slice(-14);
+    const max = d3.max(rows, (r) => r.events) || 1;
+    const x0 = d3.scaleBand(dates, [m.l, W - m.r]).paddingInner(0.25).paddingOuter(0.1);
+    const x1 = d3.scaleBand(AREAS, [0, x0.bandwidth()]).padding(0.12);
+    const y = d3.scaleLinear([0, max], [H - m.b, m.t]).nice();
+    const svg = d3.select(el).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`).attr('role', 'img').attr('aria-label', 'Events found per day by area');
+    svg.append('g').selectAll('line').data(y.ticks(4)).join('line').attr('x1', m.l).attr('x2', W - m.r).attr('y1', y).attr('y2', y).attr('stroke', 'var(--cds-chart-grid)');
+    svg.append('g').selectAll('text').data(y.ticks(4)).join('text').attr('x', m.l - 6).attr('y', y).attr('dy', '0.32em').attr('text-anchor', 'end').attr('fill', 'var(--color-fg-muted)').style('font-size', 'var(--cds-font-size-caption)').text(d3.format(','));
+    const tip = d3.select(el).append('div').attr('class', 'rd-tip').style('display', 'none');
+    const g = svg.append('g');
+    rows.filter((r) => dates.includes(r.date)).forEach((r) => {
+      const bw = Math.min(x1.bandwidth(), 32);
+      const bx = x0(r.date) + x1(r.area) + (x1.bandwidth() - bw) / 2;
+      g.append('rect').attr('x', bx).attr('width', bw).attr('y', y(r.events)).attr('height', Math.max(0, y(0) - y(r.events))).attr('rx', 4)
+        .attr('fill', dash.colors[AREAS.indexOf(r.area)])
+        .on('mousemove', (ev) => {
+          const [px, py] = d3.pointer(ev, el);
+          tip.style('display', null).html('');
+          tip.append('div').attr('class', 'd').text(fmtDate(r.date));
+          tip.append('div').text(`${AREA_LABEL[r.area]}: ${r.events} events`);
+          const tw = tip.node().offsetWidth;
+          tip.style('left', Math.min(Math.max(0, px + 12), el.clientWidth - tw) + 'px').style('top', Math.max(0, py - 40) + 'px');
+        })
+        .on('mouseleave', () => tip.style('display', 'none'));
+    });
+    const step = Math.ceil(dates.length / Math.max(1, Math.floor((W - m.l - m.r) / 70)));
+    svg.append('g').selectAll('text').data(dates.filter((_, i) => i % step === 0)).join('text')
+      .attr('x', (d) => x0(d) + x0.bandwidth() / 2).attr('y', H - 8).attr('text-anchor', 'middle').attr('fill', 'var(--color-fg-muted)').style('font-size', 'var(--cds-font-size-caption)').text((d) => d3.utcFormat('%-d %b')(new Date(d + 'T00:00:00Z')));
+  }
+
+  function drawVideos() {
+    const v = dash.data('videos');
+    const tb = document.querySelector('#videos-table tbody');
+    tb.replaceChildren();
+    if (v.status === 'ok') v.data.slice().sort((a, b) => (a.date < b.date ? 1 : -1)).forEach((r) => {
+      const tr = document.createElement('tr');
+      tr.dataset.key = r.folder;
+      td(tr, r.date);
+      const c = td(tr, '', 'wrap'); c.textContent = r.title;
+      pill(tr, r.status, r.status === 'posted' ? 'ok' : '');
+      td(tr, r.voice); td(tr, r.slot, 'hide-sm'); td(tr, r.hook, 'hide-sm'); td(tr, r.length_s, 'num hide-sm');
+      pill(tr, r.qa_sync || 'not run', r.qa_sync === 'PASS' ? 'ok' : r.qa_sync === 'FIX' ? 'bad' : '');
+      td(tr, r.sync_median_ms == null ? '' : d3.format('+')(r.sync_median_ms), 'num hide-sm');
+      tb.appendChild(tr);
+    });
+
+    const a = dash.data('arms');
+    const el = document.getElementById('ab-chart');
+    const empty = document.getElementById('ab-empty');
+    el.replaceChildren();
+    if (a.status !== 'ok') { if (a.status === 'error') failLine(el); return; }
+    empty.hidden = a.data.length > 0;
+    if (!a.data.length) { el.style.minHeight = '0'; return; }
+    el.style.minHeight = '180px';
+    const rows = a.data.slice().sort((p, q) => (p.variable + p.value < q.variable + q.value ? -1 : 1));
+    const W = el.clientWidth || 600, rh = 26, H = rows.length * rh + 10, lw = 150;
+    const x = d3.scaleLinear([0, d3.max(rows, (r) => r.avg_watch_pct) || 1], [lw, W - 60]);
+    const svg = d3.select(el).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`);
+    rows.forEach((r, i) => {
+      const yy = i * rh + 4;
+      svg.append('text').attr('x', 0).attr('y', yy + 13).attr('fill', 'var(--color-fg-muted)').style('font-size', 'var(--cds-font-size-caption)').text(`${r.variable}: ${r.value} (${r.videos})`);
+      svg.append('rect').attr('x', lw).attr('y', yy + 2).attr('height', 16).attr('width', Math.max(0, x(r.avg_watch_pct) - lw)).attr('rx', 4).attr('fill', dash.colors[['voice', 'slot', 'hook'].indexOf(r.variable)]);
+      svg.append('text').attr('x', x(r.avg_watch_pct) + 6).attr('y', yy + 14).attr('fill', 'var(--color-fg)').style('font-size', 'var(--cds-font-size-caption)').text(d3.format('.1f')(r.avg_watch_pct) + '%');
+    });
+  }
+
+  // events
+  let evCat = null;
+  const search = document.getElementById('ev-search');
+  search.addEventListener('input', () => drawEvents());
+  function drawEvents() {
+    const e = dash.data('events');
+    const tb = document.querySelector('#events-table tbody');
+    const cats = document.getElementById('ev-cats');
+    tb.replaceChildren();
+    if (e.status !== 'ok') return;
+    if (!cats.children.length) {
+      const mk = (code, label) => { const b = document.createElement('button'); b.className = 'rd-fbtn'; b.type = 'button'; b.textContent = label; b.setAttribute('aria-pressed', String(evCat === code)); b.addEventListener('click', () => { evCat = code; [...cats.children].forEach((x) => x.setAttribute('aria-pressed', String(x === b))); drawEvents(); }); return b; };
+      cats.append(mk(null, 'All'), ...Object.keys(CAT).filter((c) => e.data.some((r) => r.category === c)).map((c) => mk(c, CAT[c])));
+    }
+    const q = search.value.trim().toLowerCase();
+    const rows = e.data.filter((r) => (!evCat || r.category === evCat) && (!q || [r.event, r.key_numbers, r.storyline, r.id].join(' ').toLowerCase().includes(q)))
+      .sort((a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : 0));
+    rows.forEach((r) => {
+      const tr = document.createElement('tr');
+      td(tr, r.id, 'hide-sm'); td(tr, r.date); td(tr, CAT[r.category] || r.category);
+      td(tr, r.event, 'wrap'); td(tr, r.key_numbers, 'wrap hide-sm'); td(tr, r.storyline, 'hide-sm');
+      pill(tr, r.upcoming ? 'upcoming' : r.status, r.status === 'verified' ? 'ok' : r.status === 'partial' ? 'warn' : '');
+      tb.appendChild(tr);
+    });
+    document.getElementById('ev-count').textContent = `${d3.format(',')(rows.length)} of ${d3.format(',')(e.data.length)} events shown`;
+  }
+
+  function draw() {
+    const visible = tabs.find((t) => t.getAttribute('aria-selected') === 'true').getAttribute('aria-controls');
+    drawToday();
+    if (visible === 'health') drawHealth();
+    if (visible === 'videos') drawVideos();
+    if (visible === 'events') drawEvents();
+  }
+  dash.onData(draw);
+  const named = location.hash.slice(1);
+  if (['today', 'health', 'videos', 'events'].includes(named)) show(named);
+})();
+</script>

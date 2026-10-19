@@ -5,7 +5,7 @@
   "merge": "done",
   "ideas": "done",
   "ideas_factcheck": "done",
-  "ideas_sent": "todo",
+  "ideas_sent": "done",
   "picked": "todo",
   "draft": "todo",
   "draft_factcheck": "todo",
@@ -20,5 +20,9 @@
  "notes": [
   "07:36Z dry run",
   "07:52Z test run; ideas revised after 9 fixes"
- ]
+ ],
+ "merge_stats": {
+  "new": 66,
+  "duplicates": 6
+ }
 }

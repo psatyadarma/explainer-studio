@@ -29,6 +29,12 @@ Updated: Mon 19 Oct 2026, 17:15 WITA. Each daily run is a fresh session with no 
 - **Tue 20 Oct arm:** Cahaya · 12:30 WITA · shock-number hook · tech rotation.
 - **Weekly long video** "Rangkumin Seminggu": 6–10 min, 16:9, **Sat 08:00 WITA**, first one Sat 24 Oct. The draft goes to the user Friday morning, and the final video Friday evening for "OK post". Still to build before Friday: a 16:9 version of the sticker style (`styles/sticker/weekly/`), chapter assembly, parallel rendering, and a 1280×720 thumbnail template.
 
+## Dashboard: "Rangkumin Dong Studio"
+- URL: https://claude.ai/artifact/QidT9TTTnwGZX49Y4gqpW7 (Dashboard artifact; private to the user). Tabs: Today, Pipeline health, Videos & A/B tests, Events.
+- Data = 7 JSON files made by `python3 -I engine/dash_export.py accounts/rangkumindong` (→ `accounts/rangkumindong/dashboard/data/`): runs, days, ideas, videos, metrics, events, experiments. The page itself is `accounts/rangkumindong/dashboard/index.html` (stored in the dashboard as `files/index.html`).
+- **Refresh** (after the ideas are sent, after posting, and after the analyst runs): run the export, then for each file: upload it with the Artifact tool (`url` = the dashboard, `asset: true`, `file_path` = the JSON file; one call per file) and `ArtifactData update` collection `datasets`, doc `<name>` with `{source: {kind: "file", url: <returned /_blob/… url>, name: "<name>.json", format: "json"}, updated: {at: <ISO time>, by: "Claude (daily run)"}}` (read the doc first for its `version`). Then delete the previous file with Artifact `action: "delete"`, `path` = the old blob id.
+- Metrics come from `knowledge/metrics.csv` (date, folder, platform, hours, views, avg_watch_pct, hold_3s_pct, shares, saves, follows), written by the analyst.
+
 ## Scheduled
 - Daily ~06:00 WITA: "Rangkumin Dong daily" (fresh session).
 - Mon 19 Oct 19:20 WITA (in the original chat): check that video #1 went live and send the links.

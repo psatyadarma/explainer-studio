@@ -106,6 +106,11 @@ def merge(acct, date):
     if new:
         ev.add(k, tmp)
     ev.render(k)
+    st = d / "status.json"
+    if st.exists():
+        j = json.loads(st.read_text())
+        j["merge_stats"] = {"new": len(new), "duplicates": skipped}
+        st.write_text(json.dumps(j, indent=1, ensure_ascii=False))
     print(f"merged {len(new)} new events, skipped {skipped} duplicates")
 
 
