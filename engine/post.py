@@ -62,8 +62,11 @@ def main():
                ("privacyStatus", "public"), ("selfDeclaredMadeForKids", "false")]
     for t in post.get("tags", []):
         fields.append(("tags[]", t))
-    # Instagram Reels
-    fields += [("media_type", "REELS"), ("share_to_feed", "true")]
+    # Instagram Reels (caption = instagram_title, falls back to title)
+    fields += [("media_type", "REELS"), ("share_to_feed", "true"), ("instagram_title", post["caption"][:2200])]
+    # Sources as an automatic first comment on every platform
+    if post.get("pinned_comment"):
+        fields.append(("first_comment", post["pinned_comment"]))
     # TikTok: keep account default privacy; direct post
     fields += [("post_mode", "DIRECT_POST")]
     if when:
