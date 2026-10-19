@@ -1,0 +1,16 @@
+{
+  "name": "Rangkumin Dong",
+  "handles": {"instagram": "@rangkumindong", "tiktok": "@rangkumindong", "youtube": "@RangkuminDong-d2m"},
+  "tagline": "Berita ribet? Rangkumin dong.",
+  "language": "id",
+  "style": "sticker",
+  "colors": {"accent": "#FF5A36", "highlight": "#FFD23F", "paper": "#F3EFE6", "ink": "#1B2430", "slate": "#3E5568"},
+  "length_seconds": [60, 90],
+  "topic_rotation": {"mon": "pasar & ekonomi", "tue": "teknologi", "wed": "bisnis", "thu": "politik (netral, bersumber)", "fri": "viral / wildcard"},
+  "ab_tests": [
+    {"variable": "voice", "arms": ["male", "female"], "block_days": 7, "status": "planned"},
+    {"variable": "post_time", "arms": ["12:00-13:00 WITA", "19:00-21:00 WITA"], "block_days": 14, "status": "planned"},
+    {"variable": "hook", "arms": ["question", "shock number"], "status": "planned"},
+    {"variable": "length", "arms": ["60s", "90s"], "status": "planned"}
+  ]
+}

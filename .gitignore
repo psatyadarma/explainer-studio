@@ -1,0 +1,7 @@
+node_modules/
+out/
+*.wav
+!assets/**/*.wav
+models/
+tests/*/out/
+tests/*/build/

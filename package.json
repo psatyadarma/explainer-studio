@@ -1,0 +1,9 @@
+{
+  "name": "explainer-studio",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@sparticuz/chromium": "*",
+    "playwright-core": "*"
+  }
+}
