@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>IHSG di bawah 5.000 & MSCI — Rangkumin Dong</title>
+<link rel="stylesheet" href="../../../../styles/sticker/sticker.css">
+<script src="../../../../styles/sticker/sticker.js"></script>
+<script src="build/timing.js"></script>
+<script src="build/map.js"></script>
+<style>
+  .big { font-weight: 900; letter-spacing: -6px; line-height: .9; white-space: nowrap; }
+  .card { background: #fff; border-radius: 34px; padding: 34px 40px; }
+  .lbl { font-weight: 800; font-size: 40px; color: var(--slate); white-space: nowrap; }
+  .shelf { width: 420px; height: 470px; border-radius: 34px; border: 6px dashed var(--slate); display: flex;
+           align-items: flex-start; justify-content: center; padding-top: 34px; font-weight: 900; font-size: 46px; text-align: center; line-height: 1.05; }
+  .reason { width: 860px; display: flex; gap: 30px; align-items: center; font-weight: 800; font-size: 50px; line-height: 1.1; }
+  .node { width: 46px; height: 46px; border-radius: 50%; background: var(--ink); }
+  .node.acc { background: var(--accent); }
+  .team { width: 400px; height: 300px; border-radius: 34px; background: #fff; display: flex; flex-direction: column;
+          align-items: center; justify-content: center; gap: 14px; font-weight: 900; font-size: 54px; text-align: center; line-height: 1.05; }
+  #endcard { position: absolute; inset: 0; z-index: 8; display: flex; flex-direction: column; align-items: center; justify-content: center;
+             gap: 34px; background: var(--paper); }
+  #endcard .logo { background: var(--accent); color: #fff; font-weight: 900; font-size: 116px; letter-spacing: -4px;
+                   padding: 30px 58px 40px; border-radius: 44px; line-height: .95; text-align: center; transform: rotate(-3deg); }
+  #endcard .tl { font-weight: 800; font-size: 54px; color: var(--slate); }
+  #endcard .h { font-weight: 900; font-size: 50px; background: var(--ink); color: #fff; padding: 12px 26px; border-radius: 16px; }
+  #endcard .src { font-weight: 700; font-size: 30px; color: var(--slate); margin-top: 30px; text-align: center; line-height: 1.4; }
+  #subs { font-size: 56px; }
+  #demo { font-size: 26px; }
+</style>
+</head>
+<body>
+<div id="stage">
+  <div id="world">
+    <!-- ZONE A (540,960): IHSG chart -->
+    <div id="hA" class="abs headline" style="left:540px; top:560px; width:900px; font-size:92px;">IHSG jatuh ke bawah <span class="acc">5.000</span></div>
+    <svg id="chart" class="abs" style="left:540px; top:1010px;" width="900" height="560" viewBox="0 0 900 560"></svg>
+    <div id="tag7" class="abs tag accent sticker" style="left:820px; top:930px;">−4,31% hari ini</div>
+
+    <!-- ZONE B (1700,960): map -->
+    <svg id="map" class="abs" style="left:1700px; top:1000px;" width="1000" height="520" viewBox="0 0 1000 520"></svg>
+    <div id="qB" class="abs tag sticker" style="left:1700px; top:640px;">Masih "Emerging Market"?</div>
+    <div id="stamp" class="abs stamp sticker" style="left:1700px; top:980px; font-size:92px;">Rangkumin dong!</div>
+    <svg id="flows" class="abs" style="left:1700px; top:1000px;" width="1000" height="520" viewBox="0 0 1000 520"></svg>
+    <div id="tag5" class="abs tag accent sticker" style="left:1700px; top:1340px;">Dana global berpotensi keluar</div>
+
+    <!-- ZONE C (540,2500): -11.57% -->
+    <div id="c1" class="abs lbl" style="left:540px; top:2170px;">Jumat, 16 Oktober 2026</div>
+    <div id="c2" class="abs big" style="left:540px; top:2420px; font-size:230px; color:var(--accent);">−11,57%</div>
+    <div id="c3" class="abs card sticker" style="left:540px; top:2730px; display:flex; gap:26px; align-items:center;">
+      <span class="lbl">IHSG ditutup di</span><span id="c3v" style="font-weight:900;font-size:76px;letter-spacing:-2px">5.864</span></div>
+    <div id="c4" class="abs tag sticker" style="left:540px; top:2900px;">dalam 1 hari</div>
+
+    <!-- ZONE D (1700,2500): MSCI -->
+    <div id="msci" class="abs sticker" style="left:1700px; top:2400px; background:var(--ink); color:#fff; font-weight:900; font-size:150px;
+         letter-spacing:-4px; padding:30px 60px 40px; border-radius:40px;">MSCI</div>
+    <div id="d1" class="abs tag light sticker" style="left:1700px; top:2650px;">Penyusun indeks global</div>
+    <div id="globe" class="abs sticker-svg" style="left:1400px; top:2190px;">
+      <svg width="170" height="170" viewBox="0 0 170 170"><circle cx="85" cy="85" r="78" fill="#3E5568"/>
+      <path d="M7 85 H163 M85 7 C40 50 40 120 85 163 M85 7 C130 50 130 120 85 163 M20 45 H150 M20 125 H150" stroke="#F3EFE6" stroke-width="7" fill="none"/></svg></div>
+    <div id="bag" class="abs sticker-svg" style="left:2010px; top:2210px;">
+      <svg width="170" height="180" viewBox="0 0 170 180"><path d="M60 10 H110 L95 45 H75 Z" fill="#B98B5B"/>
+      <path d="M75 45 H95 C150 70 170 120 150 160 Q140 175 120 175 H50 Q30 175 20 160 C0 120 20 70 75 45 Z" fill="#FF5A36"/>
+      <text x="85" y="140" text-anchor="middle" font-family="Inter Display, Inter" font-weight="900" font-size="70" fill="#fff">$</text></svg></div>
+    <div id="d2" class="abs tag sticker" style="left:1700px; top:2820px;">Patokan dana investor global</div>
+
+    <!-- ZONE E (540,4000): reclassification -->
+    <div id="e0" class="abs tag sticker" style="left:540px; top:3660px;">Usulan MSCI · 15 Okt 2026</div>
+    <div id="shelf1" class="abs shelf" style="left:300px; top:4060px;">Emerging<br>Market</div>
+    <div id="shelf2" class="abs shelf" style="left:780px; top:4060px; border-color:var(--accent); color:var(--accent);">Standalone<br>Market</div>
+    <div id="arrowE" class="abs" style="left:540px; top:4060px; font-weight:900; font-size:90px; color:var(--accent);">→</div>
+    <svg id="mini" class="abs" style="left:300px; top:4140px;" width="360" height="190" viewBox="0 0 1000 520"></svg>
+
+    <!-- ZONE F (1700,4000): reasons -->
+    <div id="f0" class="abs tag light sticker" style="left:1700px; top:3680px;">Alasannya</div>
+    <div id="f1" class="abs reason card sticker" style="left:1700px; top:3930px;">
+      <svg width="120" height="120" viewBox="0 0 120 120"><ellipse cx="60" cy="60" rx="54" ry="34" fill="none" stroke="#1B2430" stroke-width="10"/>
+      <circle cx="60" cy="60" r="16" fill="#1B2430"/><path d="M15 105 L105 15" stroke="#FF5A36" stroke-width="12" stroke-linecap="round"/></svg>
+      <span>Kepemilikan saham<br>kurang transparan</span></div>
+    <div id="f2" class="abs reason card sticker" style="left:1700px; top:4230px;">
+      <svg width="120" height="120" viewBox="0 0 120 120"><path d="M15 40 H90 M70 20 L92 40 L70 60 M105 80 H30 M50 60 L28 80 L50 100" stroke="#1B2430" stroke-width="10" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span>Dugaan transaksi<br>terkoordinasi</span></div>
+
+    <!-- ZONE G (540,5500): foreign net sell -->
+    <div id="g0" class="abs lbl" style="left:540px; top:5240px;">Investor asing jual bersih</div>
+    <div id="g1" class="abs big" style="left:540px; top:5470px; font-size:200px;">Rp3,34 T</div>
+    <div id="g2" class="abs tag accent sticker" style="left:540px; top:5700px;">dalam 1 hari</div>
+
+    <!-- ZONE H (1700,5500): timeline -->
+    <div id="h0" class="abs tag light sticker" style="left:1700px; top:5170px;">Belum final</div>
+    <svg id="tl" class="abs" style="left:1700px; top:5500px;" width="900" height="40" viewBox="0 0 900 40">
+      <line id="tlLine" x1="110" y1="20" x2="790" y2="20" stroke="#1B2430" stroke-width="10" stroke-linecap="round"/></svg>
+    <div id="n0" class="abs node" style="left:1360px; top:5500px;"></div>
+    <div id="n1" class="abs node" style="left:1700px; top:5500px;"></div>
+    <div id="n2" class="abs node acc" style="left:2040px; top:5500px;"></div>
+    <div id="t0" class="abs card sticker" style="left:1360px; top:5330px; padding:18px 24px; text-align:center;"><div class="lbl" style="font-size:30px">15 Okt 2026</div><b style="font-size:38px">Usulan</b></div>
+    <div id="t1" class="abs card sticker" style="left:1700px; top:5680px; padding:18px 24px; text-align:center;"><div class="lbl" style="font-size:30px">30 Apr 2027</div><b style="font-size:38px">Batas masukan</b></div>
+    <div id="t2" class="abs card sticker" style="left:2040px; top:5330px; padding:18px 24px; text-align:center; background:var(--accent); color:#fff;"><div class="lbl" style="font-size:30px;color:#fff">30 Jun 2027</div><b style="font-size:38px">Keputusan</b></div>
+
+    <!-- ZONE I (540,7000): free float ring -->
+    <svg id="ring" class="abs" style="left:540px; top:6950px;" width="460" height="460" viewBox="0 0 460 460">
+      <circle cx="230" cy="230" r="190" fill="none" stroke="#E7E2D6" stroke-width="56"/>
+      <circle id="ringArc" cx="230" cy="230" r="190" fill="none" stroke="#FF5A36" stroke-width="56" stroke-linecap="round" transform="rotate(-90 230 230)"/>
+      <text id="ringTxt" x="230" y="262" text-anchor="middle" font-family="Inter Display, Inter" font-weight="900" font-size="120" fill="#1B2430">0%</text></svg>
+    <div id="i1" class="abs tag sticker" style="left:540px; top:6620px;">Target free float minimal</div>
+    <div id="i2" class="abs lbl" style="left:540px; top:7250px;">saham yang beredar di publik</div>
+
+    <!-- ZONE J (1700,7000): CTA -->
+    <div id="teamA" class="abs team sticker" style="left:1700px; top:6740px;"><span style="font-size:42px;color:var(--slate)">TIM</span>Keburu</div>
+    <div id="vs" class="abs" style="left:1700px; top:7000px; font-weight:900; font-size:90px; color:var(--accent);">VS</div>
+    <div id="teamB" class="abs team sticker" style="left:1700px; top:7260px; background:var(--accent); color:#fff;"><span style="font-size:42px;opacity:.8">TIM</span>Nggak keburu</div>
+  </div>
+
+  <div id="brand"><div class="dot"></div><b>Rangkumin Dong</b></div>
+  <div id="demo">Bukan ajakan jual/beli saham</div>
+  <div id="subs"></div>
+  <div id="endcard">
+    <div class="logo">RANGKUMIN<br>DONG</div>
+    <div class="tl">Berita ribet? Rangkumin dong.</div>
+    <div class="h">@rangkumindong</div>
+    <div class="src">Sumber: MSCI (15/10/2026), CNN Indonesia,<br>Investor Trust, Fortune IDN</div>
+  </div>
+  <div id="progress"></div>
+</div>
+
+<script>
+const $ = (id) => document.getElementById(id);
+const T = window.TIMING;
+window.DURATION = T.duration;
+const at = K.at, W = K.word;
+const NS = 'http://www.w3.org/2000/svg';
+const mk = (parent, tag, attrs) => { const e = document.createElementNS(NS, tag); for (const k in attrs) e.setAttribute(k, attrs[k]); parent.appendChild(e); return e; };
+
+// ---- chart: three real data points only
+const pts = [{ d: 'Kam 15/10', v: 5863.77 }, { d: 'Jum 16/10', v: 5185.10 }, { d: 'Sen 19/10', v: 4961.88 }];
+const yOf = (v) => 470 - (v - 4700) / (6100 - 4700) * 420, xOf = (i) => 110 + i * 340;
+const ch = $('chart');
+mk(ch, 'line', { x1: 40, x2: 880, y1: yOf(5000), y2: yOf(5000), stroke: '#3E5568', 'stroke-width': 5, 'stroke-dasharray': '16 14' });
+mk(ch, 'text', { x: 50, y: yOf(5000) + 44, 'text-anchor': 'start', 'font-family': 'Inter', 'font-weight': 800, 'font-size': 34, fill: '#3E5568' }).textContent = '5.000';
+const seg = [0, 1].map((i) => mk(ch, 'line', { x1: xOf(i), y1: yOf(pts[i].v), x2: xOf(i + 1), y2: yOf(pts[i + 1].v), stroke: '#1B2430', 'stroke-width': 12, 'stroke-linecap': 'round' }));
+const dots = pts.map((p, i) => mk(ch, 'circle', { cx: xOf(i), cy: yOf(p.v), r: 20, fill: i === 2 ? '#FF5A36' : '#1B2430', stroke: '#fff', 'stroke-width': 7 }));
+const vals = pts.map((p, i) => { const t = mk(ch, 'text', { x: xOf(i), y: yOf(p.v) - 38, 'text-anchor': 'middle', 'font-family': 'Inter Display, Inter', 'font-weight': 900, 'font-size': 46, fill: i === 2 ? '#FF5A36' : '#1B2430' });
+  t.textContent = ['5.864', '5.185', '4.961'][i]; return t; });
+pts.forEach((p, i) => mk(ch, 'text', { x: xOf(i), y: 545, 'text-anchor': 'middle', 'font-family': 'Inter', 'font-weight': 800, 'font-size': 32, fill: '#3E5568' }).textContent = p.d);
+
+// ---- maps
+const M = window.MAP;
+mk($('map'), 'path', { d: M.others, fill: '#E2DCCF', stroke: '#F3EFE6', 'stroke-width': 2 });
+const indo = mk($('map'), 'path', { d: M.target, fill: '#FF5A36', stroke: '#fff', 'stroke-width': 7, 'stroke-linejoin': 'round' });
+mk($('mini'), 'path', { d: M.target, fill: '#1B2430', stroke: '#fff', 'stroke-width': 18, 'stroke-linejoin': 'round' });
+const [cx, cy] = M.centroid;
+const flowDirs = [[-1, -0.7], [0.2, -1], [1, -0.6], [1, 0.4], [-1, 0.3]];
+const flows = flowDirs.map(([dx, dy]) => {
+  const g = mk($('flows'), 'g', {});
+  const len = 330, x2 = cx + dx * len, y2 = cy + dy * len * 0.7;
+  mk(g, 'line', { x1: cx, y1: cy, x2, y2, stroke: '#1B2430', 'stroke-width': 10, 'stroke-linecap': 'round', 'stroke-dasharray': '4 22' });
+  const coin = mk(g, 'g', {});
+  mk(coin, 'circle', { r: 30, fill: '#FFD23F', stroke: '#fff', 'stroke-width': 6 });
+  mk(coin, 'text', { y: 13, 'text-anchor': 'middle', 'font-family': 'Inter', 'font-weight': 900, 'font-size': 36, fill: '#1B2430' }).textContent = '$';
+  return { coin, x2, y2 };
+});
+const C = 2 * Math.PI * 190; $('ringArc').setAttribute('stroke-dasharray', C);
+
+function show(el, on) { el.style.opacity = on ? 1 : 0; }
+
+function seek(t) {
+  // camera: zone centres; screen content sits above the subtitles
+  const Z = (x, y, z = 1.2) => ({ x, y: y + 200 / z, z });
+  const keys = [
+    { t: 0, ...Z(540, 960) },
+    { t: at('h2', -0.25), ...Z(1700, 960) },
+    { t: at('l1', -0.3), ...Z(540, 2500) },
+    { t: at('l2', -0.3), ...Z(1700, 2500) },
+    { t: at('l3', -0.3), ...Z(540, 4000, 1.1) },
+    { t: at('l4', -0.3), ...Z(1700, 4000, 1.1) },
+    { t: at('l5', -0.3), ...Z(1700, 960) },
+    { t: at('l6', -0.3), ...Z(540, 5500) },
+    { t: at('l7', -0.3), ...Z(540, 960) },
+    { t: at('l8', -0.3), ...Z(1700, 5500, 1.05) },
+    { t: at('l9', -0.3), ...Z(540, 7000) },
+    { t: at('cta', -0.3), ...Z(1700, 7000, 1.1) },
+  ];
+  K.camera($('world'), keys, t, 1080, 1920, 0.75);
+
+  // A: hook chart (all three points visible from frame 0 for the cover), re-emphasised at l7
+  const l7 = at('l7');
+  const pulse = 1 + 0.18 * Math.max(0, Math.sin((t - l7) * 9)) * (t > l7 && t < l7 + 2 ? 1 : 0);
+  dots[2].setAttribute('r', 20 * pulse + (t < 2.8 ? 6 * Math.abs(Math.sin(t * 5)) : 0));
+  $('hA').style.opacity = 1;
+  K.pop($('tag7'), t, W('l7', '431') - 0.05, Infinity, -3);
+  if (t < at('l7')) $('tag7').style.opacity = 0;
+
+  // B: map + stamp + flows
+  const mp = K.spring(t - at('h2', -0.2), 160, 18);
+  $('map').style.transform = `translate(-50%,-50%) scale(${0.68 + 0.12 * mp})`;
+  $('flows').style.transform = 'translate(-50%,-50%) scale(0.8)';
+  $('map').style.opacity = K.clamp((t - at('h2', -0.25)) / 0.2);
+  K.pop($('qB'), t, W('h2', 'dikeluarin'), at('rd', -0.05), -3);
+  K.pop($('stamp'), t, at('rd', -0.05), at('l1', -0.2), -6);
+  const fp = K.prog(t, at('l5', 0.1), 2.6);
+  flows.forEach((f, i) => {
+    const k = K.easeInOut(K.clamp(fp * 1.2 - i * 0.08));
+    f.coin.setAttribute('transform', `translate(${K.lerp(cx, f.x2, k)},${K.lerp(cy, f.y2, k)}) scale(${t > at('l5') ? 1 : 0})`);
+    f.coin.parentNode.style.opacity = t > at('l5') && t < at('l6') ? 1 : 0;
+  });
+  K.pop($('tag5'), t, W('l5', 'berpotensi'), at('l6', -0.2), -2);
+
+  // C: -11.57%
+  K.pop($('c1'), t, at('l1', 0), at('l2', -0.3));
+  K.pop($('c2'), t, at('l1', 0.05), at('l2', -0.3), -2);
+  K.pop($('c3'), t, W('l1', 'anjlok'), at('l2', -0.3), 1);
+  const cv = K.easeOut(K.prog(t, W('l1', 'anjlok'), 2.2));
+  $('c3v').textContent = Math.round(K.lerp(5863.77, 5185.10, cv)).toLocaleString('id-ID');
+  K.pop($('c4'), t, W('l1', 'dalam'), at('l2', -0.3), 3);
+
+  // D: MSCI
+  K.pop($('msci'), t, W('l2', 'msci'), Infinity, -2);
+  K.pop($('d1'), t, W('l2', 'penyusun'), Infinity, 2);
+  K.pop($('globe'), t, W('l2', 'dunia') - 0.4, Infinity, -6);
+  K.pop($('bag'), t, W('l2', 'dana'), Infinity, 6);
+  K.pop($('d2'), t, W('l2', 'patokan'), Infinity, -2);
+
+  // E: reclassification — mini map moves from Emerging to Standalone
+  K.pop($('e0'), t, at('l3', 0), Infinity, -2);
+  K.pop($('shelf1'), t, W('l3', 'emerging') - 0.3, Infinity, 0);
+  K.pop($('shelf2'), t, W('l3', 'standalone') - 0.3, Infinity, 0);
+  const mv = K.easeInOut(K.prog(t, W('l3', 'standalone'), 0.8));
+  $('mini').style.left = K.lerp(300, 780, mv) + 'px';
+  $('mini').style.opacity = t > W('l3', 'emerging') - 0.2 ? 1 : 0;
+  $('mini').style.transform = `translate(-50%,-50%) rotate(${Math.sin(mv * Math.PI) * -8}deg) scale(${1 + Math.sin(mv * Math.PI) * 0.12})`;
+  $('arrowE').style.opacity = mv > 0.05 ? 1 : 0;
+
+  // F: reasons
+  K.pop($('f0'), t, at('l4', 0), Infinity, -2);
+  K.pop($('f1'), t, W('l4', 'kepemilikan'), Infinity, -1);
+  K.pop($('f2'), t, W('l4', 'dugaan'), Infinity, 1);
+
+  // G: Rp3,34 T
+  K.pop($('g0'), t, at('l6', 0), Infinity);
+  const gv = K.easeOut(K.prog(t, W('l6', 'rp334') - 0.3, 1.1));
+  $('g1').textContent = 'Rp' + (3.34 * gv).toFixed(2).replace('.', ',') + ' T';
+  K.pop($('g1'), t, W('l6', 'rp334') - 0.3, Infinity, -2);
+  K.pop($('g2'), t, W('l6', 'cuma'), Infinity, 3);
+
+  // H: timeline
+  K.pop($('h0'), t, at('l8', 0), Infinity, -2);
+  const tp = K.easeInOut(K.prog(t, at('l8', 0), at('l8b') + 2 - at('l8')));
+  $('tlLine').setAttribute('x2', 110 + 680 * tp);
+  [['n0', 't0', at('l8', 0.2)], ['n1', 't1', W('l8', '30')], ['n2', 't2', W('l8b', '30')]].forEach(([n, c, tt], i) => {
+    K.pop($(n), t, tt - 0.1, Infinity, 0); K.pop($(c), t, tt - 0.05, Infinity, [-2, 2, -2][i]);
+  });
+
+  // I: 15% ring
+  K.pop($('i1'), t, at('l9', 0.2), Infinity, -2);
+  const rp = K.easeOut(K.prog(t, W('l9', 'minimal'), 1.0));
+  $('ringArc').setAttribute('stroke-dashoffset', C * (1 - 0.15 * rp));
+  $('ringTxt').textContent = Math.round(15 * rp) + '%';
+  K.pop($('ring'), t, W('l9', 'free') - 0.4, Infinity, 0);
+  K.pop($('i2'), t, W('l9', 'minimal') + 0.4, Infinity, 0);
+
+  // J: CTA
+  K.pop($('teamA'), t, W('cta', 'keburu'), Infinity, -3);
+  K.pop($('vs'), t, W('cta', 'sebelum'), Infinity, 0);
+  K.pop($('teamB'), t, W('cta', 'komen') - 0.2, Infinity, 3);
+
+  // end
+  const ep = K.prog(t, at('end', -0.15), 0.3);
+  $('endcard').style.opacity = ep;
+  $('endcard').querySelector('.logo').style.transform = `rotate(-3deg) scale(${0.6 + 0.4 * K.spring(t - at('end', -0.15))})`;
+  K.subtitles($('subs'), t);
+  $('subs').style.visibility = ep > 0.5 ? 'hidden' : 'visible';
+  $('progress').style.width = (100 * t / window.DURATION) + '%';
+  return true;
+}
+window.seek = seek;
+seek(0);
+</script>
+</body>
+</html>

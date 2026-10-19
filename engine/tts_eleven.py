@@ -9,7 +9,7 @@ Usage: python3 -I engine/tts_eleven.py <project> <account_dir> [male|female]
 - Writes build/voice.wav, build/timing.json, build/timing.js (same contract as tts.py).
 - Key: ELEVENLABS_API_KEY from env or ~/.config/explainer-studio/.env (never in the repo).
 """
-import base64, json, os, re, subprocess, sys, urllib.request
+import base64, difflib, json, os, re, subprocess, sys, urllib.request
 from pathlib import Path
 import numpy as np
 import soundfile as sf
@@ -47,7 +47,7 @@ def tts(text, voice_id, model, direction, settings=None):
         data=json.dumps(body).encode(), headers={**({"xi-api-key": key()} if key() else {}), "Content-Type": "application/json"})
     r = json.load(urllib.request.urlopen(req, timeout=300))
     off = len(direction) + 1 if direction else 0
-    al = r.get("normalized_alignment") or r["alignment"]
+    al = r.get("alignment") or r["normalized_alignment"]  # raw alignment: indices match our request text
     return decode(base64.b64decode(r["audio_base64"])), al, off
 
 
@@ -95,6 +95,43 @@ def norm(w):
     return re.sub(r"[^\w]", "", w.lower())
 
 
+def word_times(text, say, a, chars, st, en):
+    """Timing for each subtitle word, taken from the spoken ('say') words' real alignment.
+
+    Subtitle words and spoken words are matched with a sequence diff: identical words take their own
+    timing; a differing run (e.g. "11,57" vs "sebelas koma lima tujuh", "MSCI" vs "em es si ai") takes the
+    time span of the spoken run it replaces, split by word length. No proportional guessing across the line.
+    """
+    # spoken words with their char spans in the request text (offset a)
+    sw = []
+    for m in re.finditer(r"\S+", say):
+        i0, i1 = a + m.start(), min(a + m.end() - 1, len(st) - 1)
+        if i0 >= len(st):
+            break
+        sw.append((m.group(), st[i0], en[i1]))
+    tw = text.split()
+    if not sw:
+        return []
+    sm = difflib.SequenceMatcher(None, [norm(w) for w in tw], [norm(w[0]) for w in sw], autojunk=False)
+    res = [None] * len(tw)
+    for op, i1, i2, j1, j2 in sm.get_opcodes():
+        if op == "equal":
+            for k in range(i2 - i1):
+                res[i1 + k] = (sw[j1 + k][1], sw[j1 + k][2])
+        elif i2 > i1:  # replace / delete: share the spoken span (or a zero-length point) by word length
+            if j2 > j1:
+                s0, s1 = sw[j1][1], sw[j2 - 1][2]
+            else:
+                p = sw[j1 - 1][2] if j1 > 0 else sw[0][1]
+                s0 = s1 = p
+            lens = [max(1, len(w)) for w in tw[i1:i2]]
+            tot, acc = sum(lens), 0
+            for k, L in enumerate(lens):
+                res[i1 + k] = (s0 + (s1 - s0) * acc / tot, s0 + (s1 - s0) * (acc + L) / tot)
+                acc += L
+    return [{"w": w, "start": round(r[0], 3), "end": round(r[1], 3)} for w, r in zip(tw, res)]
+
+
 def segment(lines, voice, direction):
     """Generate one request for several lines; return audio and per-line/word timings (relative)."""
     parts, spans, pos = [], [], 0
@@ -115,24 +152,7 @@ def segment(lines, voice, direction):
         if not idx:
             continue
         ls, le = st[idx[0]], en[idx[-1]]
-        say = ln.get("say", ln["text"])
-        words = ln["text"].split()
-        wl = []
-        if "say" not in ln:  # exact word timings
-            p = a
-            for w in words:
-                j = say.find(w, p - a)
-                if j < 0:
-                    break
-                ws, we = a + j, a + j + len(w) - 1
-                wl.append({"w": w, "start": round(st[ws], 3), "end": round(en[min(we, len(en) - 1)], 3)})
-                p = a + j + len(w)
-        if len(wl) != len(words):  # proportional fallback for lines with a pronunciation override
-            wts = [max(1, len(re.findall(r"[aiueoAIUEO]+", w))) + 0.3 for w in words]
-            tot, acc, wl = sum(wts), 0, []
-            for w, k in zip(words, wts):
-                s0 = ls + (le - ls) * acc / tot; acc += k
-                wl.append({"w": w, "start": round(s0, 3), "end": round(ls + (le - ls) * acc / tot, 3)})
+        wl = word_times(ln["text"], ln.get("say", ln["text"]), a, chars, st, en)
         out.append({"id": ln["id"], "text": ln["text"], "start": round(ls, 3), "end": round(le, 3), "words": wl})
     max_gap = voice.get("max_pause", 0.24)
     audio, tm = compress_pauses(audio, max_gap)

@@ -1,0 +1,821 @@
+{
+ "duration": 70.64,
+ "voice": "Pratama",
+ "lines": [
+  {
+   "id": "h1",
+   "text": "IHSG jatuh ke bawah 5.000.",
+   "start": 0.498,
+   "end": 2.751,
+   "words": [
+    {
+     "w": "IHSG",
+     "start": 0.498,
+     "end": 0.991
+    },
+    {
+     "w": "jatuh",
+     "start": 1.071,
+     "end": 1.391
+    },
+    {
+     "w": "ke",
+     "start": 1.418,
+     "end": 1.471
+    },
+    {
+     "w": "bawah",
+     "start": 1.551,
+     "end": 1.871
+    },
+    {
+     "w": "5.000.",
+     "start": 1.931,
+     "end": 2.751
+    }
+   ]
+  },
+  {
+   "id": "h2",
+   "text": "Indonesia beneran mau “dikeluarin” dari pasar negara berkembang?",
+   "start": 3.441,
+   "end": 5.928,
+   "words": [
+    {
+     "w": "Indonesia",
+     "start": 3.441,
+     "end": 3.527
+    },
+    {
+     "w": "beneran",
+     "start": 3.567,
+     "end": 3.847
+    },
+    {
+     "w": "mau",
+     "start": 3.887,
+     "end": 4.006
+    },
+    {
+     "w": "“dikeluarin”",
+     "start": 4.007,
+     "end": 4.568
+    },
+    {
+     "w": "dari",
+     "start": 4.6,
+     "end": 4.728
+    },
+    {
+     "w": "pasar",
+     "start": 4.768,
+     "end": 4.968
+    },
+    {
+     "w": "negara",
+     "start": 5.008,
+     "end": 5.288
+    },
+    {
+     "w": "berkembang?",
+     "start": 5.336,
+     "end": 5.928
+    }
+   ]
+  },
+  {
+   "id": "rd",
+   "text": "Rangkumin dong!",
+   "start": 6.132,
+   "end": 7.091,
+   "words": [
+    {
+     "w": "Rangkumin",
+     "start": 6.132,
+     "end": 6.612
+    },
+    {
+     "w": "dong!",
+     "start": 6.612,
+     "end": 7.091
+    }
+   ]
+  },
+  {
+   "id": "l1",
+   "text": "Jadi gini. Jumat kemarin, IHSG anjlok 11,57 persen. Dalam. Satu. Hari.",
+   "start": 7.668451247165533,
+   "end": 14.081451247165532,
+   "words": [
+    {
+     "w": "Jadi",
+     "start": 7.668,
+     "end": 7.788
+    },
+    {
+     "w": "gini.",
+     "start": 7.828,
+     "end": 8.221
+    },
+    {
+     "w": "Jumat",
+     "start": 8.358,
+     "end": 8.658
+    },
+    {
+     "w": "kemarin,",
+     "start": 8.718,
+     "end": 9.298
+    },
+    {
+     "w": "IHSG",
+     "start": 9.338,
+     "end": 9.858
+    },
+    {
+     "w": "anjlok",
+     "start": 9.938,
+     "end": 10.258
+    },
+    {
+     "w": "11,57",
+     "start": 10.311,
+     "end": 11.418
+    },
+    {
+     "w": "persen.",
+     "start": 11.442,
+     "end": 11.698
+    },
+    {
+     "w": "Dalam.",
+     "start": 11.801,
+     "end": 12.688
+    },
+    {
+     "w": "Satu.",
+     "start": 12.788,
+     "end": 13.328
+    },
+    {
+     "w": "Hari.",
+     "start": 13.401,
+     "end": 14.081
+    }
+   ]
+  },
+  {
+   "id": "l2",
+   "text": "Pemicunya? MSCI. Penyusun indeks yang jadi patokan dana-dana raksasa dunia.",
+   "start": 14.367451247165533,
+   "end": 18.718451247165532,
+   "words": [
+    {
+     "w": "Pemicunya?",
+     "start": 14.367,
+     "end": 14.738
+    },
+    {
+     "w": "MSCI.",
+     "start": 14.851,
+     "end": 15.721
+    },
+    {
+     "w": "Penyusun",
+     "start": 15.721,
+     "end": 16.158
+    },
+    {
+     "w": "indeks",
+     "start": 16.206,
+     "end": 16.478
+    },
+    {
+     "w": "yang",
+     "start": 16.494,
+     "end": 16.558
+    },
+    {
+     "w": "jadi",
+     "start": 16.638,
+     "end": 16.798
+    },
+    {
+     "w": "patokan",
+     "start": 16.838,
+     "end": 17.278
+    },
+    {
+     "w": "dana-dana",
+     "start": 17.318,
+     "end": 17.838
+    },
+    {
+     "w": "raksasa",
+     "start": 17.878,
+     "end": 18.238
+    },
+    {
+     "w": "dunia.",
+     "start": 18.278,
+     "end": 18.718
+    }
+   ]
+  },
+  {
+   "id": "l3",
+   "text": "15 Oktober, MSCI ngusulin status Indonesia turun: dari Emerging Market, jadi Standalone Market.",
+   "start": 18.997451247165532,
+   "end": 24.931451247165533,
+   "words": [
+    {
+     "w": "15",
+     "start": 18.997,
+     "end": 19.179
+    },
+    {
+     "w": "Oktober,",
+     "start": 19.249,
+     "end": 19.899
+    },
+    {
+     "w": "MSCI",
+     "start": 19.926,
+     "end": 20.379
+    },
+    {
+     "w": "ngusulin",
+     "start": 20.406,
+     "end": 20.859
+    },
+    {
+     "w": "status",
+     "start": 20.916,
+     "end": 21.259
+    },
+    {
+     "w": "Indonesia",
+     "start": 21.299,
+     "end": 21.659
+    },
+    {
+     "w": "turun:",
+     "start": 21.719,
+     "end": 22.211
+    },
+    {
+     "w": "dari",
+     "start": 22.249,
+     "end": 22.569
+    },
+    {
+     "w": "Emerging",
+     "start": 22.622,
+     "end": 22.969
+    },
+    {
+     "w": "Market,",
+     "start": 23.038,
+     "end": 23.689
+    },
+    {
+     "w": "jadi",
+     "start": 23.729,
+     "end": 24.009
+    },
+    {
+     "w": "Standalone",
+     "start": 24.062,
+     "end": 24.489
+    },
+    {
+     "w": "Market.",
+     "start": 24.546,
+     "end": 24.931
+    }
+   ]
+  },
+  {
+   "id": "l4",
+   "text": "Kenapa? Kepemilikan saham dianggap kurang transparan. Terus, ada dugaan transaksi yang… terkoordinasi.",
+   "start": 25.139451247165532,
+   "end": 32.061451247165536,
+   "words": [
+    {
+     "w": "Kenapa?",
+     "start": 25.139,
+     "end": 25.771
+    },
+    {
+     "w": "Kepemilikan",
+     "start": 25.771,
+     "end": 26.449
+    },
+    {
+     "w": "saham",
+     "start": 26.529,
+     "end": 26.929
+    },
+    {
+     "w": "dianggap",
+     "start": 26.982,
+     "end": 27.409
+    },
+    {
+     "w": "kurang",
+     "start": 27.449,
+     "end": 27.649
+    },
+    {
+     "w": "transparan.",
+     "start": 27.702,
+     "end": 28.369
+    },
+    {
+     "w": "Terus,",
+     "start": 28.401,
+     "end": 29.169
+    },
+    {
+     "w": "ada",
+     "start": 29.269,
+     "end": 29.569
+    },
+    {
+     "w": "dugaan",
+     "start": 29.609,
+     "end": 29.889
+    },
+    {
+     "w": "transaksi",
+     "start": 29.942,
+     "end": 30.529
+    },
+    {
+     "w": "yang…",
+     "start": 30.609,
+     "end": 31.169
+    },
+    {
+     "w": "terkoordinasi.",
+     "start": 31.209,
+     "end": 32.061
+    }
+   ]
+  },
+  {
+   "id": "l5",
+   "text": "Nah, kalau jadi, dana global yang ngikutin indeks MSCI berpotensi cabut dari saham Indonesia.",
+   "start": 32.345451247165535,
+   "end": 38.12145124716553,
+   "words": [
+    {
+     "w": "Nah,",
+     "start": 32.345,
+     "end": 32.529
+    },
+    {
+     "w": "kalau",
+     "start": 32.589,
+     "end": 32.849
+    },
+    {
+     "w": "jadi,",
+     "start": 32.929,
+     "end": 33.489
+    },
+    {
+     "w": "dana",
+     "start": 33.541,
+     "end": 33.969
+    },
+    {
+     "w": "global",
+     "start": 34.026,
+     "end": 34.369
+    },
+    {
+     "w": "yang",
+     "start": 34.385,
+     "end": 34.449
+    },
+    {
+     "w": "ngikutin",
+     "start": 34.476,
+     "end": 34.849
+    },
+    {
+     "w": "indeks",
+     "start": 34.897,
+     "end": 35.169
+    },
+    {
+     "w": "MSCI",
+     "start": 35.222,
+     "end": 35.889
+    },
+    {
+     "w": "berpotensi",
+     "start": 35.949,
+     "end": 36.529
+    },
+    {
+     "w": "cabut",
+     "start": 36.629,
+     "end": 37.009
+    },
+    {
+     "w": "dari",
+     "start": 37.057,
+     "end": 37.249
+    },
+    {
+     "w": "saham",
+     "start": 37.276,
+     "end": 37.489
+    },
+    {
+     "w": "Indonesia.",
+     "start": 37.545,
+     "end": 38.121
+    }
+   ]
+  },
+  {
+   "id": "l6",
+   "text": "Asing udah jual bersih Rp3,34 triliun. Cuma sehari.",
+   "start": 38.467451247165535,
+   "end": 42.59145124716554,
+   "words": [
+    {
+     "w": "Asing",
+     "start": 38.467,
+     "end": 38.579
+    },
+    {
+     "w": "udah",
+     "start": 38.632,
+     "end": 38.819
+    },
+    {
+     "w": "jual",
+     "start": 38.859,
+     "end": 39.059
+    },
+    {
+     "w": "bersih",
+     "start": 39.107,
+     "end": 39.379
+    },
+    {
+     "w": "Rp3,34",
+     "start": 39.459,
+     "end": 40.579
+    },
+    {
+     "w": "triliun.",
+     "start": 40.632,
+     "end": 40.979
+    },
+    {
+     "w": "Cuma",
+     "start": 41.501,
+     "end": 42.039
+    },
+    {
+     "w": "sehari.",
+     "start": 42.119,
+     "end": 42.591
+    }
+   ]
+  },
+  {
+   "id": "l7",
+   "text": "Hari ini? IHSG dibuka turun lagi 4,31 persen, ke 4.961.",
+   "start": 42.848451247165535,
+   "end": 49.001451247165534,
+   "words": [
+    {
+     "w": "Hari",
+     "start": 42.848,
+     "end": 42.891
+    },
+    {
+     "w": "ini?",
+     "start": 42.991,
+     "end": 43.351
+    },
+    {
+     "w": "IHSG",
+     "start": 43.351,
+     "end": 44.061
+    },
+    {
+     "w": "dibuka",
+     "start": 44.101,
+     "end": 44.541
+    },
+    {
+     "w": "turun",
+     "start": 44.581,
+     "end": 44.861
+    },
+    {
+     "w": "lagi",
+     "start": 44.925,
+     "end": 45.181
+    },
+    {
+     "w": "4,31",
+     "start": 45.261,
+     "end": 46.141
+    },
+    {
+     "w": "persen,",
+     "start": 46.189,
+     "end": 46.761
+    },
+    {
+     "w": "ke",
+     "start": 46.788,
+     "end": 46.841
+    },
+    {
+     "w": "4.961.",
+     "start": 46.894,
+     "end": 49.001
+    }
+   ]
+  },
+  {
+   "id": "l8",
+   "text": "Tapi tenang, ini belum final. Masukan dibuka sampai 30 April 2027,",
+   "start": 49.11545124716553,
+   "end": 54.141451247165534,
+   "words": [
+    {
+     "w": "Tapi",
+     "start": 49.115,
+     "end": 49.291
+    },
+    {
+     "w": "tenang,",
+     "start": 49.351,
+     "end": 49.851
+    },
+    {
+     "w": "ini",
+     "start": 49.931,
+     "end": 50.171
+    },
+    {
+     "w": "belum",
+     "start": 50.211,
+     "end": 50.411
+    },
+    {
+     "w": "final.",
+     "start": 50.478,
+     "end": 50.931
+    },
+    {
+     "w": "Masukan",
+     "start": 50.991,
+     "end": 51.531
+    },
+    {
+     "w": "dibuka",
+     "start": 51.571,
+     "end": 51.931
+    },
+    {
+     "w": "sampai",
+     "start": 51.979,
+     "end": 52.251
+    },
+    {
+     "w": "30",
+     "start": 52.291,
+     "end": 52.811
+    },
+    {
+     "w": "April",
+     "start": 52.851,
+     "end": 53.051
+    },
+    {
+     "w": "2027,",
+     "start": 53.091,
+     "end": 54.141
+    }
+   ]
+  },
+  {
+   "id": "l8b",
+   "text": "keputusannya paling lambat 30 Juni 2027.",
+   "start": 54.17845124716553,
+   "end": 57.72145124716553,
+   "words": [
+    {
+     "w": "keputusannya",
+     "start": 54.178,
+     "end": 55.031
+    },
+    {
+     "w": "paling",
+     "start": 55.111,
+     "end": 55.431
+    },
+    {
+     "w": "lambat",
+     "start": 55.479,
+     "end": 55.831
+    },
+    {
+     "w": "30",
+     "start": 55.871,
+     "end": 56.431
+    },
+    {
+     "w": "Juni",
+     "start": 56.471,
+     "end": 56.631
+    },
+    {
+     "w": "2027.",
+     "start": 56.671,
+     "end": 57.721
+    }
+   ]
+  },
+  {
+   "id": "l9",
+   "text": "Jadi masih ada waktu buat beres-beres. Salah satunya: target free float minimal 15 persen.",
+   "start": 57.95145124716554,
+   "end": 63.15145124716553,
+   "words": [
+    {
+     "w": "Jadi",
+     "start": 57.951,
+     "end": 58.371
+    },
+    {
+     "w": "masih",
+     "start": 58.424,
+     "end": 58.691
+    },
+    {
+     "w": "ada",
+     "start": 58.731,
+     "end": 58.851
+    },
+    {
+     "w": "waktu",
+     "start": 58.904,
+     "end": 59.171
+    },
+    {
+     "w": "buat",
+     "start": 59.198,
+     "end": 59.331
+    },
+    {
+     "w": "beres-beres.",
+     "start": 59.371,
+     "end": 60.021
+    },
+    {
+     "w": "Salah",
+     "start": 60.081,
+     "end": 60.381
+    },
+    {
+     "w": "satunya:",
+     "start": 60.421,
+     "end": 60.861
+    },
+    {
+     "w": "target",
+     "start": 60.931,
+     "end": 61.321
+    },
+    {
+     "w": "free",
+     "start": 61.381,
+     "end": 61.603
+    },
+    {
+     "w": "float",
+     "start": 61.603,
+     "end": 61.881
+    },
+    {
+     "w": "minimal",
+     "start": 61.931,
+     "end": 62.281
+    },
+    {
+     "w": "15",
+     "start": 62.321,
+     "end": 62.601
+    },
+    {
+     "w": "persen.",
+     "start": 62.665,
+     "end": 63.151
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "text": "Menurut kamu, keburu nggak dibenerin sebelum Juni 2027? Komen!",
+   "start": 63.406451247165535,
+   "end": 67.40145124716553,
+   "words": [
+    {
+     "w": "Menurut",
+     "start": 63.406,
+     "end": 63.581
+    },
+    {
+     "w": "kamu,",
+     "start": 63.645,
+     "end": 63.981
+    },
+    {
+     "w": "keburu",
+     "start": 64.061,
+     "end": 64.461
+    },
+    {
+     "w": "nggak",
+     "start": 64.488,
+     "end": 64.621
+    },
+    {
+     "w": "dibenerin",
+     "start": 64.681,
+     "end": 65.181
+    },
+    {
+     "w": "sebelum",
+     "start": 65.234,
+     "end": 65.501
+    },
+    {
+     "w": "Juni",
+     "start": 65.565,
+     "end": 65.821
+    },
+    {
+     "w": "2027?",
+     "start": 65.841,
+     "end": 66.841
+    },
+    {
+     "w": "Komen!",
+     "start": 66.958,
+     "end": 67.401
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "text": "Follow Rangkumin Dong, biar nggak ketinggalan!",
+   "start": 67.72445124716553,
+   "end": 69.83145124716553,
+   "words": [
+    {
+     "w": "Follow",
+     "start": 67.724,
+     "end": 67.751
+    },
+    {
+     "w": "Rangkumin",
+     "start": 67.831,
+     "end": 68.231
+    },
+    {
+     "w": "Dong,",
+     "start": 68.279,
+     "end": 68.591
+    },
+    {
+     "w": "biar",
+     "start": 68.631,
+     "end": 68.791
+    },
+    {
+     "w": "nggak",
+     "start": 68.818,
+     "end": 68.991
+    },
+    {
+     "w": "ketinggalan!",
+     "start": 69.011,
+     "end": 69.831
+    }
+   ]
+  }
+ ]
+}

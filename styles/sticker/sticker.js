@@ -58,10 +58,13 @@
       box.innerHTML = L.words.map((w, i) => `<span data-i="${i}">${w.w}</span>`).join(' ');
     }
     box.style.opacity = 1;
+    // Highlight leads the voice slightly: viewers perceive a highlight that lands exactly on the
+    // word onset as late (and frames are quantised to 1/30 s). Override per video with window.SUB_LEAD.
+    const tt = t + (window.SUB_LEAD ?? 0.08);
     box.querySelectorAll('span').forEach((s) => {
       const w = L.words[+s.dataset.i];
-      s.classList.toggle('on', t >= w.start && t < w.end + 0.05);
-      s.classList.toggle('said', t >= w.start);
+      s.classList.toggle('on', tt >= w.start && tt < w.end + 0.05);
+      s.classList.toggle('said', tt >= w.start);
     });
   };
 
