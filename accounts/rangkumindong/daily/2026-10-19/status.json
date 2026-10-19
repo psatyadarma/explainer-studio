@@ -4,7 +4,7 @@
   "sweep": "done",
   "merge": "done",
   "ideas": "done",
-  "ideas_factcheck": "running",
+  "ideas_factcheck": "done",
   "ideas_sent": "todo",
   "picked": "todo",
   "draft": "todo",
@@ -18,6 +18,7 @@
   "knowledge": "todo"
  },
  "notes": [
-  "07:36Z dry run"
+  "07:36Z dry run",
+  "07:52Z test run; ideas revised after 9 fixes"
  ]
 }
