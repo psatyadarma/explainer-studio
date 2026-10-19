@@ -21,6 +21,11 @@
 - Pauses capped at 0.24 s; target ~150–170 spoken wpm.
 - Voice A/B: male Pratama vs female Cahaya, 7-day blocks. Taglines are fixed recordings in `assets/voice/`.
 
+## Topic selection (daily)
+- Maintain `events.md`: every morning add new events from the last 24–48 h (date, category, key numbers, storyline, status, sources), resolve "Open checks", move rows older than 14 days to the archive.
+- Generate ideas from the **whole 14-day window** (not just today): new developments, follow-ups on active storylines, upcoming dated events (e.g. BI RDG), and explainers that connect several events.
+- Send the user **exactly 5** ideas, ranked, with one marked recommended.
+
 ## Continuity (videos build on each other)
 - Before picking topics, check `storylines/` for active stories with new developments or milestones due.
 - Follow-up videos: hook references the last episode ("Minggu lalu IHSG anjlok 11%. Sekarang…"), show a small "PART n" badge, reuse the same chart/visual language, and link the previous video in the pinned comment.
