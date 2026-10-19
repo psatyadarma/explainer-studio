@@ -45,8 +45,11 @@
     }
     // gentle drift so holds never feel frozen
     const dz = 1 + 0.012 * Math.sin(t * 0.7);
-    const z = c.z * dz;
-    world.style.transform = `translate(${W / 2}px,${H / 2}px) scale(${z}) translate(${-c.x}px,${-c.y}px)`;
+    // Frame: zoom out a little and aim above centre so everything stays inside the platforms' safe area
+    // (clear of TikTok/IG buttons and captions, and inside the 3:4 profile-grid crop). Override per video.
+    const fz = window.FRAME_ZOOM ?? 0.88, cy = window.FRAME_CY ?? 960;
+    const z = c.z * dz * fz;
+    world.style.transform = `translate(${W / 2}px,${cy}px) scale(${z}) translate(${-c.x}px,${-c.y}px)`;
   };
 
   // Subtitles: current line, yellow highlight on the word being spoken.

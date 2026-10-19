@@ -10,7 +10,7 @@
 - 60–90 s, 1080×1920, 30 fps. Sticker Explainer style (mg-styles-15 #07, MIT): cut-out stickers with white outline, flat icons, exact charts, one moving camera between zones, counters, word-highlight subtitles.
 - Colours: paper #F3EFE6 · ink #1B2430 · slate #3E5568 · accent #FF5A36 · highlight #FFD23F.
 - Structure: hook (shock number or question, first frame must work as a cover) → fixed tagline "Rangkumin dong!" → 4–8 beats → "what happens next" → vote CTA ("Tim A atau Tim B? Komen!") → end card with sources.
-- New visual every 2–4 s. Safe area: keep content above y≈1300 and away from the right 170 px (platform UI).
+- New visual every 2–4 s. **Safe area (from 19 Oct):** the camera frames each zone at 0.88× zoom, so zones need ~120 px clear space around them. Keep headlines, numbers and labels inside x 60–920 and y 240–1480: below the top bar, clear of the right-hand buttons and the bottom caption, and inside the 3:4 profile-grid crop (y 240–1680). Subtitles sit at y 1290, 56 px, max 3 lines. Check with `engine/safezone.py`.
 - Always show "Bukan ajakan jual/beli saham" on market/stock topics.
 
 ## Script & delivery ("punchy", approved 19 Oct)
@@ -64,7 +64,8 @@ Weekly long video ("Rangkumin Seminggu", Sat 08:00 WITA): writer + fact-checker 
 - Captions: hook line + 3 bullet summary + vote question + "Bukan ajakan jual/beli saham" (market topics) + "Sumber di komentar" + 6–8 hashtags incl. #rangkumindong. Same numbers as the video.
 - User gives "OK post" (with time slot) before anything is published.
 - **Early slots:** if the post time is before 10:00 WITA (e.g. the weekly video, Sat 08:00), the finished video and captions go to the user the evening before, so "OK post" can be given before bed and the post is scheduled overnight.
-- **TikTok, manual until it's connected (24 Oct 2026):** with every finished video, send the MP4 plus a ready-to-paste TikTok caption (same text as IG; TikTok links aren't clickable, so sources go in a comment the user posts and pins). The user posts it by hand.
+- **TikTok captions: at most 5 hashtags** (TikTok's limit). Pick the 5 strongest, always including #rangkumindong. IG/YouTube keep 6–8.
+- **TikTok, manual until it's connected (24 Oct 2026):** with every finished video, send the MP4 plus a ready-to-paste TikTok caption (IG text with ≤5 hashtags; TikTok links aren't clickable, so sources go in a comment the user posts and pins). The user posts it by hand.
 - **Covers/thumbnails:** Shorts/Reels: the first frame is designed to work as the cover (hook text big and readable); when the IG cover can be set via Upload-Post, use a still of the hook frame. Weekly long video: a custom 1280×720 thumbnail (big number or face-free sticker composition + 3–4 word title) is part of its draft.
 - Posting via Upload-Post (engine/post.py, profile "Rangkumindong"): IG Reels + YouTube Shorts (#Shorts in title). TikTok: user warms the account up manually until 24 Oct 2026, then connect it to Upload-Post (AI-generated label on). Pin a sources comment.
 ## Experiments (parallel A/B, started 20 Oct 2026)
