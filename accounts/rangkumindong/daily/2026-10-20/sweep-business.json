@@ -1,0 +1,295 @@
+{
+  "area": "business",
+  "run_date": "2026-10-20",
+  "checked": [
+    "Danantara/BUMN",
+    "BUMN Pertamina PLN Telkom Garuda banks",
+    "Big corporates earnings/PHK/PKPU",
+    "Startups GoTo Grab Shopee TikTok Shop",
+    "Komdigi regulation / data leaks / PDP / AI policy",
+    "Telco / data centres / AI / semiconductors",
+    "Consumer prices (food, airfare, phones, data plans)",
+    "Trade and investment / smelters / EV",
+    "Storylines MSCI and Gibran ijazah (BIZ/TECH angles)",
+    "Tech: Coretax, SATUSEHAT, scams/phishing, phone prices, ojol, pinjol, Starlink, cyber (BSSN)"
+  ],
+  "events": [
+    {
+      "date": "2026-10-19",
+      "category": "BIZ",
+      "event": "Danantara's Dony Oskaria says after being summoned to the Palace that Danantara Investment will buy more shares of listed BUMN with strong fundamentals after the MSCI-driven sell-off, naming no targets or amounts.",
+      "key_numbers": "IHSG close 19 Oct 4,996.61 (-188.50 pts, -3.64%) · LQ45 488.46 (-3.95%) · 691 stocks fell vs 103 rose · turnover Rp25.17 T · no target companies or amount disclosed",
+      "storyline": "msci-reclassification",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {
+          "label": "CNBC Indonesia",
+          "url": "https://www.cnbcindonesia.com/market/20261019170353-17-777598/dony-oskaria-dipanggil-ke-istana-danantara-siap-borong-saham-bumn"
+        },
+        {
+          "label": "Antara",
+          "url": "https://www.antaranews.com/berita/5797149/danantara-bakal-tambah-kepemilikan-saham-bumn"
+        },
+        {
+          "label": "Suara.com",
+          "url": "https://www.suara.com/bisnis/2026/10/19/205021/ihsg-terjun-bebas-danantara-akan-guyur-duit-ke-bursa-dan-incar-saham-saham-ini"
+        }
+      ],
+      "why_it_matters": "Shows whether state money will be used to cushion the stock market crash and what it means for BUMN share prices.",
+      "video_potential": 4,
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-19",
+      "category": "TECH",
+      "event": "Danantara says it wants to move from leasing land to owning parts of the AI data-centre value chain (chips, AI controllers), targeting over Rp30 trillion of economic value, and will push deals at its DTIIF forum on 26-28 Oct.",
+      "key_numbers": "Rp30 T+ (~US$1.7 B) · per 100 MW: land lease only = revenue US$100-150 M vs strategic partnership = US$1.5-1.7 B (investment US$3-4 B) · chip/controller supply queue 16-48 months · DTIIF 26-28 Oct Jakarta, 1,500+ participants · Arm signed cooperation",
+      "storyline": "ai-data-centres",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {
+          "label": "Okezone",
+          "url": "https://economy.okezone.com/read/2026/10/19/320/3248872/danantara-bidik-sektor-data-center-rp30-triliun-bukan-sekadar-sewa-lahan"
+        },
+        {
+          "label": "Sindonews",
+          "url": "https://ekbis.sindonews.com/read/1762375/34/bukan-sekadar-sewa-lahan-danantara-bidik-nilai-ekonomi-data-center-rp30-triliun-1792411854"
+        }
+      ],
+      "why_it_matters": "Indonesia wants more than rent from the AI boom, but data centres use lots of power and water.",
+      "video_potential": 3,
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-19",
+      "category": "TECH",
+      "event": "Katadata reports Nvidia is exploring a US$4.5 billion data-centre/AI investment in Batam, per Airlangga Hartarto; the plan is still at discussion stage while a BDx data-centre project at Jatiluhur was halted over permits.",
+      "key_numbers": "US$4.5 B (~Rp81.2 T) · Indonesia operating data-centre capacity 600-700 MW · pipeline 1.3 GW / US$15-20 B · BDx CGK4 Jatiluhur up to 640 MW, groundbreaking 22 Sep then halted (AMDAL/PBG) · Zankore (Indosat) target 1 GW in 3 years",
+      "storyline": "ai-data-centres",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {
+          "label": "Katadata",
+          "url": "https://katadata.co.id/digital/teknologi/6ad57167ef366/raksasa-cip-nvidia-disebut-jajaki-investasi-rp-81-triliun-di-batam"
+        },
+        {
+          "label": "Selular.id",
+          "url": "https://selular.id/2026/10/deretan-data-center-ai-raksasa-di-indonesia-investasi-tembus-rp80-triliun/"
+        }
+      ],
+      "why_it_matters": "Huge AI money may come to Batam, but critics link data centres to blackouts and water use.",
+      "video_potential": 4,
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-19",
+      "category": "TECH",
+      "event": "Komdigi opens Bali Tech Week 2026 in Sanur; Minister Meutya Hafid sets out three pillars (connected, growing, protected) and cites internet and digital-economy figures. (update of E0035)",
+      "key_numbers": "~235 M internet users (81.72% penetration) · 4G covers 98.96% of population · digital GMV US$99 B in 2025 (+14%) · Garuda Spark 178 programs, 15,700 talents, Rp429.5 B investment · BTW 19-23 Oct, 4,000+ participants, 1,000 foreign delegates",
+      "storyline": "startup-funding",
+      "update_of": "E0035",
+      "status": "verified",
+      "sources": [
+        {
+          "label": "Antara",
+          "url": "https://www.antaranews.com/berita/5796745/menkomdigi-bahas-3-arah-transformasi-digital-ri-di-bali-tech-week-2026"
+        },
+        {
+          "label": "Medcom",
+          "url": "https://www.medcom.id/teknologi/news-teknologi/JKR2rl3K-bali-tech-week-2026-resmi-dibuka-meutya-hafid-tegaskan-transformasi-digital-yang-terhubung-tumbuh-dan-terjaga"
+        }
+      ],
+      "why_it_matters": "Government's digital agenda and investor pitch for the year.",
+      "video_potential": 2,
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-19",
+      "category": "TECH",
+      "event": "Komdigi says it has acted on more than 4.2 million online-gambling website content items as of October 2026, at the ICANN87 opening in Bali.",
+      "key_numbers": "4.2 M+ content items acted on (Oct 2026) · ICANN87 17-22 Oct, Nusa Dua",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {
+          "label": "Detik Bali",
+          "url": "https://www.detik.com/bali/berita/d-8713656/meutya-hafid-komdigi-tindak-4-2-juta-konten-situs-judol-hingga-oktober-2026"
+        }
+      ],
+      "why_it_matters": "Shows scale of the judol crackdown, though blocking has not ended the problem.",
+      "video_potential": 2,
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-13",
+      "category": "TECH",
+      "event": "Komdigi (Deputy Minister Nezar Patria) is preparing a derivative rule under Perpres 27/2026 (issued 8 Oct) setting a formula, not fixed min/max tariffs, for ojol food and goods delivery fees, due before 31 Dec 2026.",
+      "key_numbers": "Perpres 27/2026 issued 8 Oct 2026 · derivative rule targeted before 31 Dec 2026 · fee depends on weight/dimension/type of goods",
+      "storyline": "ojol-regulation",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {
+          "label": "Warta Ekonomi",
+          "url": "https://wartaekonomi.co.id/read640515/komdigi-siapkan-formula-ongkir-ojol-aturan-turunan-terbit-sebelum-akhir-2026"
+        },
+        {
+          "label": "Katadata",
+          "url": "https://katadata.co.id/digital/startup/6ac74dada28c8/komdigi-akan-buat-aturan-tarif-ojol-antar-makanan-dan-barang"
+        }
+      ],
+      "why_it_matters": "Could change what you pay for GoFood/GrabFood delivery and what drivers earn.",
+      "video_potential": 4,
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-25",
+      "category": "TECH",
+      "event": "Under Ministerial Regulation 3/2026, e-commerce platforms such as Shopee and TikTok Shop must cut admin/commission fees by at least 50% for verified micro and small domestic-product sellers from 25 Oct, applied through Sapa UMKM.",
+      "key_numbers": "At least 50% fee cut · starts 25 Oct 2026 · verification up to 10 days · payout within 5 days · micro: capital up to Rp1 B or sales up to Rp2 B · small: sales up to Rp15 B · Kepmen UMKM 398/2026",
+      "storyline": "",
+      "update_of": "",
+      "status": "upcoming",
+      "sources": [
+        {
+          "label": "Bisnis.com",
+          "url": "https://ekonomi.bisnis.com/read/20261017/12/2013449/mulai-25-oktober-umkm-dapat-potongan-50-biaya-admin-shopee-tiktok-shop-cs"
+        }
+      ],
+      "why_it_matters": "Online sellers can get lower fees; important for UMKM sellers and consumers watching prices.",
+      "video_potential": 4,
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-15",
+      "category": "TECH",
+      "event": "OJK data show pinjol (P2P lending) bad-loan ratio TWP90 at 4.73% in August 2026, close to the 5% threshold, with 16 operators above 5%; OJK is drafting rules to protect lenders after operator failures.",
+      "key_numbers": "Outstanding Rp106.94 T (+22.07% y/y) · TWP90 4.73% (2.60% Aug 2025; 4.32% Jul 2026) · 16 operators above 5% · draft: default threshold 90 to 180 days, pooling fund 5% of net fees, liquidation reserve 20% of min equity",
+      "storyline": "consumer-health",
+      "update_of": "E0011",
+      "status": "verified",
+      "sources": [
+        {
+          "label": "Periskop",
+          "url": "https://periskop.id/fintech/20261015/pinjol-tembus-rp10694-triliun-kredit-macet-dekati-batas-aman-ojk"
+        },
+        {
+          "label": "CNBC Indonesia",
+          "url": "https://www.cnbcindonesia.com/market/20261013164947-17-775801/banyak-pinjol-bangkrut-ojk-siapkan-aturan-baru-lindungi-lender"
+        }
+      ],
+      "why_it_matters": "Rising defaults on online loans signal strain on household finances.",
+      "video_potential": 3,
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-09",
+      "category": "TECH",
+      "event": "SpaceX agreed to buy up to 14 MHz paired 800 MHz spectrum for Starlink Mobile; CNBC Indonesia flags a possible future threat to Telkomsel, Indosat and XLSmart, though nothing is announced for Indonesia.",
+      "key_numbers": "14 MHz paired 800 MHz (announced 8 Oct) · Komdigi 700 MHz/2.6 GHz auction: XL Rp1.06 T (30 MHz), Telkomsel Rp642.5 B (20 MHz), Indosat Rp507.48 B (20 MHz)",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {
+          "label": "CNBC Indonesia",
+          "url": "https://www.cnbcindonesia.com/tech/20261009094728-37-774646/starlink-mulai-rebut-bisnis-seluler-warning-buat-telkomsel-indosat-xl"
+        }
+      ],
+      "why_it_matters": "Speculative, but could reshape mobile competition and prices in the longer term.",
+      "video_potential": 2,
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-16",
+      "category": "BIZ",
+      "event": "Ceramic association Asaki says gas supply restrictions are cutting production and spreading layoffs: about 500 laid off in July and about 900 on furlough.",
+      "key_numbers": "~1,400-1,500 workers affected · 500 laid off July · 900 furloughed · utilisation below 70% in Oct (75% Jan-Aug; target 78-80%) · may fall to ~60% Nov-Dec",
+      "storyline": "layoffs",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {
+          "label": "CNBC Indonesia",
+          "url": "https://www.cnbcindonesia.com/news/20261016154039-4-776945/900-buruh-keramik-terancam-phk-bos-pengusaha-ungkap-penyebabnya"
+        }
+      ],
+      "why_it_matters": "Another sign of factory job cuts, this time from energy supply.",
+      "video_potential": 3,
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-19",
+      "category": "ECO",
+      "event": "PIHPS national averages for 19 Oct show chilli and shallot prices jumping while rice super grades, eggs and chicken ease.",
+      "key_numbers": "Cabai merah keriting Rp126,400/kg (+43.07%) · cabai rawit merah Rp119,250 (+13.25%) · bawang merah Rp43,800 (+18.38%) · daging sapi I Rp159,250 (+4.39%) · minyak kemasan merek 1 Rp25,750 (+5.75%) · telur Rp29,100 (-2.02%) · ayam Rp40,150 (-2.67%) · changes vs previous day",
+      "storyline": "consumer-health",
+      "update_of": "E0088",
+      "status": "partial",
+      "sources": [
+        {
+          "label": "Suara.com",
+          "url": "https://www.suara.com/bisnis/2026/10/19/102629/harga-pangan-nasional-hari-ini-cabai-keriting-tembus-rp126400-per-kg-bawang-merah-naik-18-persen"
+        }
+      ],
+      "why_it_matters": "Chilli and shallots hit household kitchens; daily moves can be noisy so confirm with later data.",
+      "video_potential": 3,
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-20",
+      "category": "BIZ",
+      "event": "BCA (BBCA) is scheduled to release Q3 2026 results on 20 Oct, the first big bank, followed by BBNI 23 Oct, BMRI 27 Oct, BRIS 29 Oct and BBRI/BBTN/BDMN 30 Oct; BRI Danareksa warns tightening liquidity could pressure H2 profit.",
+      "key_numbers": "BBCA 20 Oct · BBNI 23 Oct · BMRI 27 Oct · BRIS 29 Oct · BBRI, BBTN, BDMN 30 Oct",
+      "storyline": "",
+      "update_of": "",
+      "status": "upcoming",
+      "sources": [
+        {
+          "label": "IDX Channel",
+          "url": "https://www.idxchannel.com/market-news/potensi-jadwal-rilis-kinerja-kuartal-iii-2026-bank-besar-analis-soroti-likuiditas"
+        }
+      ],
+      "why_it_matters": "Bank results will show how hard the market crash and weak demand hit the biggest lenders.",
+      "video_potential": 3,
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-01",
+      "category": "TECH",
+      "event": "DJP changed Coretax tax-return correction scheme to 'replace' from 1 Oct 2026 (PER-12/PJ/2026), and taxpayers complained about a new Coretax interface and unresponsive menus on 12-13 Oct; DJP says the issue is fixed.",
+      "key_numbers": "Replace scheme from 1 Oct 2026 · PER-12/PJ/2026 · complaint count not given",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {
+          "label": "Bisnis.com",
+          "url": "https://ekonomi.bisnis.com/read/20261001/259/2008769/djp-ubah-skema-pembetulan-spt-di-coretax-mulai-1-oktober-2026"
+        },
+        {
+          "label": "Periskop",
+          "url": "https://periskop.id/makro/20261012/wajib-pajak-keluhkan-tampilan-baru-coretax"
+        }
+      ],
+      "why_it_matters": "Government tax app problems affect many taxpayers and businesses.",
+      "video_potential": 2,
+      "sensitivity": "normal"
+    }
+  ],
+  "gaps": [
+    "Outlet index pages (inet.detik.com, cnbcindonesia.com/tech, katadata.co.id/digital, dailysocial.id, techinasia.com/indonesia, cnnindonesia.com/teknologi) could not be fetched (permission/provenance error); tech was covered via targeted WebSearch plus article fetches, so the last 48 h of tech headlines may be incomplete.",
+    "No news found for GoTo-Grab merger, Shopee/Bukalapak funding or startup shutdowns since 8 Oct; only 2025 or older articles surfaced.",
+    "No news found for PKPU/pailit of named companies since 15 Oct (search returned only court/MK pages).",
+    "Komdigi data-leak/illegal personal data sales probe (detik, 2 Oct) was older than the window and has no new development found; Komdigi PSE 1 Oct deadline outcome still unknown.",
+    "No SATUSEHAT, AI-policy (Perpres AI) or new scam-wave news found within 48 h; Perpres AI status last seen only in older articles.",
+    "iPhone prices 19 Oct reported 'stable' (Mediakompeten snippet); Kompas article blocked by robots, so not included.",
+    "Airfare: fuel surcharge up to 40% (E0089) still applies; no new airfare news found for 18-19 Oct.",
+    "Suara.com labels 19 Oct as Sunday though it is Monday; PIHPS daily % changes are volatile, treat as partial. Kompas 'Komdigi ancam blokir 7 PSE' could not be opened (robots).",
+    "Seen not opened: ICANN87 Bali domain items, Starlink-Mentawai Komdigi deal (Aug), BDx Jatiluhur halt details beyond Selular summary."
+  ]
+}

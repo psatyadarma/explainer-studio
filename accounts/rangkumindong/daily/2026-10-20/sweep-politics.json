@@ -1,0 +1,228 @@
+{
+ "area": "politics",
+ "run_date": "2026-10-20",
+ "checked": [
+  "Presiden",
+  "Wapres",
+  "Istana/rapat kabinet",
+  "cabinet reshuffle",
+  "DPR/MPR/DPD (bills, paripurna, recess)",
+  "MK",
+  "MA",
+  "Komisi Yudisial",
+  "KPK",
+  "Kejagung",
+  "Polri",
+  "TNI",
+  "KPU/Bawaslu/pilkada",
+  "party moves",
+  "ministries (Kemnaker UMP)",
+  "regional heads",
+  "demonstrations (BEM UI, KSPI)",
+  "labour/UMP",
+  "Komnas HAM",
+  "storylines gibran-ijazah-mk, cabinet-reshuffles, corruption-cases, prabowo-2-years"
+ ],
+ "events": [
+  {
+   "date": "2026-10-15",
+   "category": "POL",
+   "event": "The Constitutional Court (MK) fully grants a petition against the Military Courts Law (UU 31/1997), ruling that soldiers who commit ordinary crimes should be tried in civilian courts and ordering lawmakers to revise the law within two years.",
+   "key_numbers": "Decision 260/PUU-XXIII/2025 · read 15 Oct 2026 · challenged: Pasal 9 angka 1, Pasal 43(3), Pasal 127 · deadline: 2 years (about Oct 2028) or the provisions lose binding force · petitioners Lenny Damanik and Eva Meliani Pasaribu",
+   "storyline": "mk-peradilan-militer",
+   "update_of": "",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "RCTI+",
+     "url": "https://www.rctiplus.com/news/detail/nasional/5494828/mk-kabulkan-gugatan-uu-peradilan-militer--sistem-peradilan-prajurit-tni-harus-ditata-ulang"
+    },
+    {
+     "label": "RCTI+/iNews",
+     "url": "https://www.rctiplus.com/news/detail/inews/5494913/mk-putuskan-prajurit-tni-bisa-diadili-di-peradilan-umum--dpr--perkuat-revisi-uu-peradilan-militer"
+    },
+    {
+     "label": "Katadata",
+     "url": "https://katadata.co.id/berita/nasional/6ad1ddd463098/empat-poin-putusan-mk-soal-uu-peradilan-militer-harus-direvisi-dalam-dua-tahun"
+    }
+   ],
+   "why_it_matters": "Soldiers accused of crimes like narcotics, domestic violence or corruption could face ordinary courts instead of military ones, a long-running impunity debate.",
+   "video_potential": 4,
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-10-16",
+   "category": "POL",
+   "event": "After the MK Military Courts ruling, TNI Army spokesperson Maj. Gen. Muhammad Nas says the TNI will comply, and PDIP's TB Hasanuddin (DPR Komisi I) says the ruling strengthens the case for revising the Military Courts Law.",
+   "key_numbers": "TNI: complies with all MK rulings · Wapang Maruli said to be studying the ruling · revision deadline 2 years",
+   "storyline": "mk-peradilan-militer",
+   "update_of": "",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "InvestorTrust",
+     "url": "https://investortrust.id/national/119495/tni-pastikan-tunduk-pada-putusan-mk-soal-peradilan-militer"
+    },
+    {
+     "label": "RCTI+/iNews",
+     "url": "https://www.rctiplus.com/news/detail/inews/5494913/mk-putuskan-prajurit-tni-bisa-diadili-di-peradilan-umum--dpr--perkuat-revisi-uu-peradilan-militer"
+    },
+    {
+     "label": "InvestorTrust",
+     "url": "https://investortrust.id/national/119478/wapang-maruli-pelajari-putusan-mk-soal-prajurit-tni-pelaku-pidana-diadili-di-peradilan-umum"
+    }
+   ],
+   "why_it_matters": "Shows how the military and parliament will respond to a ruling that limits military jurisdiction.",
+   "video_potential": 2,
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-10-19",
+   "category": "POL",
+   "event": "MK holds a hearing on a challenge to Pasal 160(3) of the new KUHAP (UU 20/2025) limiting repeated pretrial (praperadilan) filings; the government asks the court to reject it, saying the limit applies only to filings with the same substance.",
+   "key_numbers": "Case 317/PUU-XXIV/2026 · hearing 19 Oct 2026 · 7 petitioners (advocate Jahmada Girsang named) · government represented by Deputy Law Minister Edward Omar Sharif Hiariej · no ruling date reported",
+   "storyline": "",
+   "update_of": "",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "Okezone",
+     "url": "https://digital.okezone.com/view/2026/10/19/1/106336/mk-gelar-sidang-uji-materiil-aturan-praperadilan-berulang"
+    }
+   ],
+   "why_it_matters": "Decides how often suspects can challenge detention or suspect status in court under the new KUHAP.",
+   "video_potential": 2,
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-10-16",
+   "category": "POL",
+   "event": "Kejagung (Attorney General's Office) says investigators examined 116 witnesses before naming the PT Toba Pulp Lestari director a suspect; it alleges under-invoicing through HS-code changes and bribing tax examiners, and the suspect is detained at Salemba until 4 Nov. (update of E0049)",
+   "key_numbers": "State loss estimated about Rp2 triliun · 116 witnesses · Rp500 juta deposited to Jampidsus account · detention 20 days, 16 Oct–4 Nov 2026 · charges under new KUHP Pasal 603 and Tipikor Law Pasal 18 · no response from company or suspect in source",
+   "storyline": "corruption-cases",
+   "update_of": "E0049",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "Suara.com",
+     "url": "https://www.suara.com/news/2026/10/16/175158/manipulasi-kode-produk-hingga-suap-pemeriksa-pajak-direktur-tpl-jadi-tersangka"
+    },
+    {
+     "label": "Mata Hukum",
+     "url": "https://matahukum.net/kejaksaan-agung-tahan-direktur-pt-tpl-tersangka-korupsi-transfer-pricing-rugikan-negara-2-triliun/"
+    }
+   ],
+   "why_it_matters": "A tax-evasion-style corruption case with alleged bribery of tax examiners and a Rp2 triliun loss estimate.",
+   "video_potential": 3,
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-10-06",
+   "category": "POL",
+   "event": "Kejagung names new suspects in the BGN (National Nutrition Agency) electric-motorbike procurement case under the MBG free-meals programme, including TNI Kolonel Budi Utomo as commitment-making official (PPK) and private company executives.",
+   "key_numbers": "BPKP preliminary state-loss estimate about Rp10 triliun (still being calculated) · 25,644 units planned, revised to 21,000 · 2,117 realised by Mar 2026 (figures from one source) · five suspects in cluster, three private parties",
+   "storyline": "corruption-cases",
+   "update_of": "",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "Justisio",
+     "url": "https://justisio.com/berita/2026-10-06-kejagung-tetapkan-tiga-tersangka-baru-korupsi-motor-listrik-bgn"
+    },
+    {
+     "label": "Okezone/RCTI+",
+     "url": "https://www.rctiplus.com/news/detail/okezone/5485241/kejagung-tetapkan-3-tersangka-baru-dalam-kasus-dugaan-korupsi-motor-listrik-mbg"
+    }
+   ],
+   "why_it_matters": "Links corruption allegations to the flagship free-meals programme, which is central to the two-year review of Prabowo.",
+   "video_potential": 4,
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-10-06",
+   "category": "POL",
+   "event": "DPR plenary passes the Employment Protection Bill (RUU Perlindungan Ketenagakerjaan) into law by voice vote, following up MK decision 168/PUU-21/2023; Labour Minister Yassierli says it strengthens worker protection while considering business continuity.",
+   "key_numbers": "23 chapters · 313 articles · 9th plenary of Masa Persidangan I 2026-2027 · 6 Oct 2026 · no criticism reported in source",
+   "storyline": "",
+   "update_of": "",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "RCTI+/iNews",
+     "url": "https://www.rctiplus.com/news/detail/inews/5487649/tok--dpr-sahkan-uu-perlindungan-ketenagakerjaan-di-sidang-paripurna"
+    },
+    {
+     "label": "Okezone",
+     "url": "https://economy.okezone.com/read/2026/10/06/320/3246234/tok-dpr-sahkan-ruu-pelindungan-ketenagakerjaan-hari-ini"
+    }
+   ],
+   "why_it_matters": "A new labour protection law affecting workers' status, social security and safety, as unions rally over 2027 wages.",
+   "video_potential": 3,
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-10-08",
+   "category": "POL",
+   "event": "DPR closes Masa Persidangan I 2026-2027 at its 10th plenary, chaired by Deputy Speaker Sufmi Dasco Ahmad, and extends deliberation of the International Private Law Bill (RUU Hukum Perdata Internasional).",
+   "key_numbers": "291 members signed in (265 present, 26 on leave) · recess 9 Oct–9 Nov per existing records",
+   "storyline": "",
+   "update_of": "E0066",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "Okezone/RCTI+",
+     "url": "https://www.rctiplus.com/news/detail/okezone/5489197/dpr-gelar-paripurna-penutupan-masa-sidang--291-anggota-hadir"
+    }
+   ],
+   "why_it_matters": "DPR is in recess until early November, so bills like Asset Forfeiture wait until then.",
+   "video_potential": 1,
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-10-20",
+   "category": "POL",
+   "event": "BEM UI (University of Indonesia student executive body) plans demonstrations at two points in Jakarta on 20 Oct, marking two years of the Prabowo-Gibran government.",
+   "key_numbers": "Two sites in Jakarta · 20 Oct 2026 · demands and locations not read (Kompas page blocked)",
+   "storyline": "prabowo-2-years",
+   "update_of": "",
+   "status": "upcoming",
+   "sources": [
+    {
+     "label": "Kompas",
+     "url": "https://megapolitan.kompas.com/read/2026/10/19/14293781/bem-ui-akan-demo-2-tahun-prabowo-gibran-di-2-titik-jakarta-besok-ini"
+    }
+   ],
+   "why_it_matters": "Student protest on the anniversary day is a test of public mood after the satisfaction-poll debate.",
+   "video_potential": 3,
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-10-19",
+   "category": "POL",
+   "event": "Antara publishes an assessment of the Prabowo-Gibran two years, saying programme scale does not always match service quality and that oversight and follow-up on field problems are key; related headlines cite MBG reaching over 57 million children.",
+   "key_numbers": "MBG over 57 juta children (headline only) · anniversary 20 Oct 2026 · 15 Oct inauguration of new deputy ministers and BNPB head",
+   "storyline": "prabowo-2-years",
+   "update_of": "E0038",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "Antara",
+     "url": "https://www.antaranews.com/berita/5797465/dua-tahun-prabowo-gibran-sinergi-mengawal-program-prioritas"
+    }
+   ],
+   "why_it_matters": "Frames how the government will present its record on the anniversary.",
+   "video_potential": 2,
+   "sensitivity": "normal"
+  }
+ ],
+ "gaps": [
+  "Outlet index pages (Detik, CNN Indonesia, Antara politik, CNBC Indonesia) could not be fetched: permission not granted or robots-blocked; Kompas article pages also blocked. Coverage of the last 48 h relies on WebSearch and may lag 1-3 days.",
+  "KPK: no new development found for 18-19 Oct beyond E0047/E0048/E0065/E0069/E0115 (BNPB and Klaten cases); Kompas 19 Oct analysis 'OTT Berulang' exists but could not be read. Worth a second look at KPK for 19-20 Oct.",
+  "Kejagung: no item newer than 16 Oct (TPL) found; Kejagung's own site not readable.",
+  "MK: no new ruling found for 17-19 Oct apart from the 19 Oct praperadilan hearing; MK Military Courts ruling (15 Oct) was not in the DB.",
+  "MA, Komisi Yudisial, Komnas HAM, KPU/Bawaslu, Wapres Gibran activities, Keppres/Perpres: no news found since 15 Oct.",
+  "BEM UI demo 20 Oct: demands and locations not verified (Kompas page blocked). Prabowo's actual 20 Oct anniversary programme still not found.",
+  "Menaker response to 2027 UMP demand: idxchannel/Katadata article exists ('Buruh Minta UMP 2027 hingga 9,5%, Ini Kata Menaker') but could not be read.",
+  "Event dates for the MBG motorbike case (6 Oct) and labour law (6 Oct) are older than 48 h; included because not in DB under POL. Motorbike figures come from a single secondary source."
+ ]
+}

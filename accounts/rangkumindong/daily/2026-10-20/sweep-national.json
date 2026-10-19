@@ -1,0 +1,427 @@
+{
+  "area": "national",
+  "run_date": "2026-10-20",
+  "checked": [
+    "Kompas terpopuler (search only, site blocked/stale)",
+    "Detik terpopuler (WebFetch blocked)",
+    "CNN Indonesia (search + article pages)",
+    "Tempo (search only)",
+    "Antara terkini (index read)",
+    "CNBC Indonesia (article pages)",
+    "Kontan (article fetch failed)",
+    "Bisnis (not national-relevant)",
+    "Liputan6 index and Cek Fakta",
+    "social media trending (Peringatan Darurat poster; no outlet roundup of X/TikTok)",
+    "BMKG/earthquakes (Flores sequence)",
+    "volcanoes (Semeru, Anak Krakatau)",
+    "karhutla/haze/BNPB/Kemenhut",
+    "floods/landslides/BMKG season outlook",
+    "KRL/Transjakarta",
+    "BPJS (iuran unchanged for October, nothing new)",
+    "haji 2027 (BPIH agreed 7 Oct, outside window)",
+    "education/Sekolah Rakyat/beasiswa (nothing new)",
+    "MBG poisoning",
+    "crime/public safety",
+    "Komdigi hoaks / Cek Fakta / ANTARA Anti Hoax",
+    "storylines: gibran-ijazah-mk (no new item found), msci-reclassification (markets area)"
+  ],
+  "events": [
+    {
+      "date": "2026-10-20",
+      "category": "POL",
+      "event": "Student groups led by BEM UI and the civil-society coalition Komite Sadar plan protests at Tugu Tani and Tugu Proklamasi in Jakarta on the second anniversary of the Prabowo-Gibran government, demanding that karhutla and floods be declared national disasters, among other points.",
+      "key_numbers": "Date 20 Oct 2026 · about 500 people expected at Tugu Tani (BEM UI chair) · coalition's own survey of 560 respondents (not national): 78.8% rate the government as failed, 83.5% cite deforestation and fires, 71.1% high food prices, 70.6% corruption, 67.4% education costs, 62.7% curbs on free expression · demands include national-disaster status for karhutla, revoking permits of companies behind environmental damage, lower education/health costs · 'Peringatan Darurat' Garuda poster recirculating on social media (symbol from Aug 2024) · police guarding access routes to Jakarta and stations in Tangerang (headline only)",
+      "storyline": "prabowo-2-years",
+      "update_of": "E0036",
+      "status": "upcoming",
+      "sources": [
+        {
+          "label": "AFU (demands, 500 people)",
+          "url": "https://afu.id/nasional/demo-20-oktober-500-massa-diperkirakan-serbu-tugu-tani-apa-tuntutannya"
+        },
+        {
+          "label": "NU Online (Komite Sadar, survey)",
+          "url": "https://www.nu.or.id/nasional/masyarakat-sipil-gelar-aksi-di-tugu-proklamasi-dan-tugu-tani-besok-soroti-dua-tahun-pemerintahan-prabowo-gibran-aWOxd"
+        },
+        {
+          "label": "Kompas (BEM UI demo, headline)",
+          "url": "https://megapolitan.kompas.com/read/2026/10/19/14293781/bem-ui-akan-demo-2-tahun-prabowo-gibran-di-2-titik-jakarta-besok-ini"
+        },
+        {
+          "label": "Warta Bela Negara (Peringatan Darurat poster)",
+          "url": "https://wartabelanegara.com/garuda-biru-peringatan-darurat-demo-20-oktober-2026/"
+        }
+      ],
+      "why_it_matters": "Students are using the government's two-year mark to push fires, prices and corruption onto the national agenda; the survey is the coalition's own, not a national poll.",
+      "video_potential": 4,
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-10-19",
+      "category": "POL",
+      "event": "East Jakarta District Court rejects Roy Suryo's objection (eksepsi) to the indictment in the slander/ITE trial over Jokowi's diploma and orders the trial to proceed to witness examination. (update of E0113)",
+      "key_numbers": "Interlocutory ruling 19 Oct 2026, panel led by Christina Endarwati · case 300/Pid.B/2026/PN Jakarta Timur · next hearing Wed 28 Oct 2026 09:00 WIB (witnesses) · primary charge Art. 433(1) with 441(1) of the new KUHP (Law 1/2023, defamation); subsidiary Art. 35 with 51(1) ITE Law (as amended by Law 1/2026); also Art. 32 with 48(1) ITE · charges read 17 Sep 2026 · Kompas headline: 3 witnesses prepared · allegations, trial ongoing",
+      "storyline": "jokowi-ijazah-roy-suryo",
+      "update_of": "E0113",
+      "status": "verified",
+      "sources": [
+        {
+          "label": "CNN Indonesia",
+          "url": "https://www.cnnindonesia.com/nasional/20261019115014-12-1416979/hakim-tolak-eksepsi-roy-suryo-sidang-kasus-ijazah-jokowi-berlanjut"
+        },
+        {
+          "label": "Kompas (headline)",
+          "url": "https://megapolitan.kompas.com/read/2026/10/19/12552131/hakim-tolak-eksepsi-roy-suryo-sidang-kasus-ijazah-jokowi-lanjut-ke"
+        },
+        {
+          "label": "iNews",
+          "url": "https://www.inews.id/news/nasional/breaking-news-eksepsi-roy-suryo-tak-diterima-perkara-ijazah-jokowi-lanjut-ke-pembuktian"
+        }
+      ],
+      "why_it_matters": "Confirms the E0113 headline: the diploma-slander trial now moves to evidence and witnesses on 28 Oct.",
+      "video_potential": 3,
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-10-19",
+      "category": "NEWS",
+      "event": "Lawyer Kamaruddin Simanjuntak, known for representing the family of Brigadir J in the Ferdy Sambo case, dies at RS Pelni, Jakarta. (update of E0112)",
+      "key_numbers": "Died Mon 19 Oct 2026 about 03:00 WIB (per fellow lawyer Martin Lukas Simanjuntak) · RS Pelni, Central Jakarta · had undergone routine dialysis for several years, cause of death not stated · lying in state at Ukrida funeral home · burial details not stated",
+      "storyline": "",
+      "update_of": "E0112",
+      "status": "verified",
+      "sources": [
+        {
+          "label": "CNBC Indonesia",
+          "url": "https://www.cnbcindonesia.com/news/20261019130739-4-777456/kabar-duka-pengacara-kamaruddin-simanjuntak-meninggal"
+        },
+        {
+          "label": "Detik",
+          "url": "https://news.detik.com/berita/d-8713429/pengacara-kamaruddin-simanjuntak-meninggal-dunia"
+        },
+        {
+          "label": "Kompas (headline)",
+          "url": "https://nasional.kompas.com/read/2026/10/19/12323361/kamaruddin-simanjuntak-meninggal-kolega-kenang-sosoknya-yang-pemberani"
+        }
+      ],
+      "why_it_matters": "One of the best-known lawyers of the Sambo case; this confirms and upgrades the earlier Detik-only report.",
+      "video_potential": 3,
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-19",
+      "category": "ENV",
+      "event": "BMKG records a run of Flores Sea quakes north of Labuan Bajo (M5.3 on 18 Oct, M4.5-4.8 on 19 Oct), still counted as aftershocks of the M7.7 Flores earthquake of 15 Aug 2026; no tsunami potential and no damage reported.",
+      "key_numbers": "M5.3 on 18 Oct 15:00 WIB, 60 km from Labuan Bajo, depth 10 km, MMI IV-V in Manggarai · 19 Oct: M4.8 (16:45 WIB), M4.7 (17:10), M4.5 (19:06), 45-60 km north of Labuan Bajo, depth about 5 km · main shock M7.7 (15 Aug 2026) · more than 22,300 aftershocks, largest M6.2 · Flores Back-Arc Thrust · BMKG Kupang calls it normal energy release",
+      "storyline": "",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {
+          "label": "CNN Indonesia",
+          "url": "https://www.cnnindonesia.com/nasional/20261019201623-20-1417273/flores-masih-terus-diguncang-rangkaian-gempa"
+        },
+        {
+          "label": "ANTARA Makassar",
+          "url": "https://makassar.antaranews.com/berita/640729/labuan-bajo-diguncang-gempa"
+        },
+        {
+          "label": "Totabuan (M5.3, headline)",
+          "url": "https://totabuan.news/info-bmkg/gempa-magnitudo-5-3-guncang-labuanbajo-ntt/"
+        }
+      ],
+      "why_it_matters": "Two months after a M7.7 quake, Flores is still shaking daily; residents are told to avoid already cracked buildings.",
+      "video_potential": 3,
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-19",
+      "category": "ENV",
+      "event": "Jakarta Governor Pramono Anung puts 367 health facilities on standby for people affected by forest-fire smoke, including residents without a Jakarta ID, as BMKG says the smoke is moving away from Banten and Greater Jakarta. (update of E0103)",
+      "key_numbers": "367 facilities = 31 hospitals + 44 puskesmas + 292 puskesmas pembantu · water-mist units 179 across 145 buildings · cloud seeding an option · remote learning, outdoor limits only if air worsens · no ISPA counts or AQI in source · BMKG 19 Oct: smoke 'now safe' in Banten, residual smoke 10,000-18,000 ft over west Banten coast · smoke reached west Java/Jakarta on 16 Oct · some Jakarta monitors 'moderate to unhealthy' PM2.5",
+      "storyline": "karhutla",
+      "update_of": "E0103",
+      "status": "verified",
+      "sources": [
+        {
+          "label": "Liputan6",
+          "url": "https://www.liputan6.com/news/read/8316433/pramono-izinkan-warga-non-ktp-dki-terdampak-asap-berobat-di-rs-jakarta"
+        },
+        {
+          "label": "Media Kampung (BMKG Banten)",
+          "url": "https://mediakampung.com/peristiwa/meka-20261020156510/asap-karhutla-dikabarkan-menjauh-dari-banten/"
+        },
+        {
+          "label": "Suara (BMKG, Jakarta air)",
+          "url": "https://www.suara.com/news/2026/10/19/124426/asap-karhutla-mulai-menjauh-jakarta-tetap-waspada-hadapi-ancaman-polusi-udara"
+        }
+      ],
+      "why_it_matters": "Jakarta is preparing for haze health effects even as the smoke drifts away; ID card no longer a barrier to treatment.",
+      "video_potential": 3,
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-18",
+      "category": "ENV",
+      "event": "Latest BNPB hotspot data show 7,118 hotspots in six priority provinces on 16 Oct, mostly Central Kalimantan, while Forestry Ministry SiPongi counts fall nationally to 270 on 17 Oct; BNPB and BMKG cloud seeding over South Sumatra used 2.4 tons of dry ice. (update of E0021)",
+      "key_numbers": "BNPB 16 Oct: 7,118 hotspots (Kalteng 4,686 · Sumsel 1,344 · Kalsel 481 · Kalbar 466 · Jambi 137 · Riau 4) + 221 fire spots · 1,150.51 ha burned in 24 h (Kalteng about 52%) · Kemenhut SiPongi 17 Oct 21:00 WIB: national 270 (from 354), six provinces 125 (from 177), Kalteng 92 (up from 19) · 61 aircraft (17 patrol/OMC, 44 water bombing) · OMC Sumsel 16-25 Oct, 2.4 tons dry ice over 15-16 Oct, 3 sorties, visibility 1,000 m to 3,000 m in Palembang · counting methods differ between BNPB and SiPongi",
+      "storyline": "karhutla",
+      "update_of": "E0021",
+      "status": "partial",
+      "sources": [
+        {
+          "label": "Periskop (BNPB)",
+          "url": "https://periskop.id/artikel/20261017/update-karhutla-bnpb-7118-hotspot-terdeteksi-di-sumatera-dan-kalimantan"
+        },
+        {
+          "label": "MCI News (Kemenhut SiPongi)",
+          "url": "https://mcinews.id/2026/10/18/hotspot-karhutla-turun-kemenhut-perkuat-pemadaman-di-kalimantan/"
+        },
+        {
+          "label": "ANTARA (dry ice)",
+          "url": "https://www.antaranews.com/berita/5793357/bnpb-habiskan-24-ton-dry-ice-untuk-atasi-asap-karhutla-sumsel"
+        }
+      ],
+      "why_it_matters": "Fire counts differ by agency and day; Central Kalimantan is where fires are still growing.",
+      "video_potential": 3,
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-15",
+      "category": "ENV",
+      "event": "Four people die fighting a forest fire in Bromo Tengger Semeru National Park after a sudden wind shift traps six personnel; experts question firefighting standard procedures.",
+      "key_numbers": "Fire reported 13 Oct 14:23 WIB, declared out 14 Oct 11:45, flare-up 15 Oct about 13:00 WIB · 4 dead (2 TNBTS staff incl. 1 Manggala Agni, 2 staff of a tourism-permit company), 2 seriously injured · 6 trapped, 5 escaped · started in farmland in Pusung Dawa block, Ngadirejo, Probolinggo · Kemenhut press release 16 Oct",
+      "storyline": "karhutla",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {
+          "label": "Kementerian Kehutanan",
+          "url": "https://www.kehutanan.go.id/news/kemenhut-berduka-atas-gugurnya-empat-petugas-dan-relawan-saat-pemadaman-karhutla-di-bromo"
+        },
+        {
+          "label": "ANTARA Bali",
+          "url": "https://bali.antaranews.com/amp/berita/415749/hutan-gunung-bromo-kembali-kebakaran-empat-relawan-tewas"
+        },
+        {
+          "label": "Okezone (experts on SOP)",
+          "url": "https://news.okezone.com/read/2026/10/18/337/3248521/4-petugas-tewas-di-bromo-ahli-soroti-standar-operasi-pemadaman-karhutla"
+        }
+      ],
+      "why_it_matters": "The human cost of the fire season: firefighters killed in a fire that had been declared out a day earlier.",
+      "video_potential": 3,
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-17",
+      "category": "ENV",
+      "event": "Mount Semeru keeps erupting at Level III (Siaga) with ash columns up to 1 km and more eruptions reported on 19 Oct.",
+      "key_numbers": "17 Oct: 04:52 WIB 700 m, 06:35 WIB 800 m (4,476 m asl), 10:42 WIB 1 km · Level III (Siaga) · no activity within 5 km of crater; no activity along Besuk Kobokan up to 13 km · pyroclastic flows/lahars may reach 17 km · Tempo headline: pyroclastic flow 4.5 km (date not confirmed) · 19 Oct eruptions per Katadata (headline)",
+      "storyline": "volcanoes",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {
+          "label": "ANTARA Kalsel",
+          "url": "https://kalsel.antaranews.com/berita/539645/tiga-kali-erupsi-letusan-semeru-hingga-1-km"
+        },
+        {
+          "label": "Katadata (19 Oct, headline)",
+          "url": "https://databoks.katadata.co.id/demografi/statistik/320f8e6d9a52250/gunung-semeru-kembali-erupsi-malam-ini-senin-19-oktober-2026"
+        },
+        {
+          "label": "Tempo (awan panas 4.5 km, headline)",
+          "url": "https://www.tempo.co/lingkungan/gunung-semeru-erupsi-muntahkan-awan-panas-4-5-km-2270212"
+        }
+      ],
+      "why_it_matters": "Routine but ongoing risk for Lumajang and Malang residents and climbers.",
+      "video_potential": 2,
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-19",
+      "category": "ENV",
+      "event": "BMKG warns that the shift from dry to rainy season brings flood and landslide risk, with El Nino making the 2026 dry season longer and drier and the rains arriving late over most of the country.",
+      "key_numbers": "About 61.08% of Indonesian land area to see a later-than-normal start to the rainy season · peak rainfall expected Dec-Feb · warnings from BMKG directors Teguh Rahayu and Fachry Radjab · no specific provinces named",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {
+          "label": "Bogor Today",
+          "url": "https://bogor-today.com/2026/10/19/bmkg-ingatkan-ancaman-banjir-dan-longsor-saat-peralihan-ke-musim-hujan/"
+        }
+      ],
+      "why_it_matters": "Rain would help put out fires but first brings floods and landslides on dry, burnt ground.",
+      "video_potential": 2,
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-19",
+      "category": "NEWS",
+      "event": "Bharada Andhika Rahmadani is detained over the killing of fellow officer Bharatu Valdo at Polairud HQ Pondok Cabe; Menko Polkam Dudung says the motive is unconfirmed and recruitment, including ideology and psychology screening, will be evaluated; some outlets report bullying as a possible motive. (update of E0110)",
+      "key_numbers": "Incident Fri 16 Oct 2026, Mako Polairud Pondok Cabe, South Tangerang · victim shot four times and cut on the neck per Suara/Realita reports (unconfirmed by police in source) · family suspects premeditated murder · Dudung statement 19 Oct 14:29 WIB · Komisi III urges psychological testing (headline) · allegation stage, no court step",
+      "storyline": "",
+      "update_of": "E0110",
+      "status": "partial",
+      "sources": [
+        {
+          "label": "Liputan6 (Dudung)",
+          "url": "https://www.liputan6.com/news/read/8316375/menko-dudung-buka-suara-soal-insiden-polisi-tembak-polisi-di-markas-polairud"
+        },
+        {
+          "label": "Suara (bullying report)",
+          "url": "https://www.suara.com/news/2026/10/19/102642/polisi-bunuh-polisi-karena-bully-bharatu-valdo-4-kali-didor-dan-digorok-junior"
+        },
+        {
+          "label": "InvestorTrust",
+          "url": "https://investortrust.id/national/119748/soal-kasus-polisi-tembak-polisi-di-markas-polairud-menko-dudung-soroti-emosi-dan-sistem-rekrutmen"
+        }
+      ],
+      "why_it_matters": "Raises questions about Polri recruitment, mental screening and bullying inside the force.",
+      "video_potential": 3,
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-10-18",
+      "category": "NEWS",
+      "event": "West Java police raid an illegal-drug factory in the Bizpark complex in Kopo, Bandung, making tramadol and hexymer tablets, with an estimated capacity of 8 million tablets per day and five suspects named.",
+      "key_numbers": "Capacity up to 8 million tablets/day (police estimate) · raw material could yield up to 256 million tablets · 600,000 ready tablets seized on first arrest (Fri 16 Oct, Purbaleunyi KM 125) bound for Jakarta · 5 suspects · raids 17-18 Oct · Kapolda Jabar Irjen Hengki",
+      "storyline": "",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {
+          "label": "ANTARA",
+          "url": "https://www.antaranews.com/berita/5795285/polda-jabar-bongkar-pabrik-obat-keras-produksi-8-juta-butir-per-hari"
+        },
+        {
+          "label": "Kompas Bandung (headline)",
+          "url": "https://bandung.kompas.com/read/2026/10/19/051650678/polda-jabar-bongkar-pabrik-tramadol-dan-hexymer-produksi-8-juta-butir-per"
+        },
+        {
+          "label": "Viva",
+          "url": "https://www.viva.co.id/berita/nasional/1936823-polda-jabar-bongkar-pabrik-obat-keras-ilegal-yang-produksi-8-juta-butir-per-hari-600-ribu-butir-siap-edar"
+        }
+      ],
+      "why_it_matters": "A single site able to flood the market with tens of millions of pills a week.",
+      "video_potential": 3,
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-19",
+      "category": "NEWS",
+      "event": "Free-meal (MBG) poisoning stays in the news: a student speaker cites more than 60,000 cases at the 2-year protests build-up, Bakom rejects a moratorium, and a Kompas report says E. coli was found on kitchen equipment at a Sukabumi SPPG.",
+      "key_numbers": "Student claim: over 60,000 poisoning cases, losses near Rp30 miliar (no source given) · JPPI earlier counted 40,759 victims in 36 provinces (Kompas.id headline, date not confirmed) · Sukabumi SMKN 1 Gunungguruh: 151 teachers and students (9 Oct) · Konawe Selatan: 144 students · Bakom (Syahganda Nainggolan) opposes a moratorium · BGN head Sudaryono 'improving'",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {
+          "label": "tvOne (Bakom, students)",
+          "url": "https://www.tvonenews.com/berita/nasional/473886-mahasiswa-soroti-kasus-keracunan-mbg-yang-terus-meningkat-bakom-ri-sebut-pembenahan-terus-dilakukan"
+        },
+        {
+          "label": "Kompas Bandung (E. coli, headline)",
+          "url": "https://bandung.kompas.com/read/2026/10/19/180000678/bakteri-e.-coli-ditemukan-di-peralatan-makan-sppg-sukabumi-diduga-penyebab"
+        },
+        {
+          "label": "Detik (Sukabumi 151)",
+          "url": "https://www.detik.com/jabar/berita/d-8697338/151-guru-dan-siswa-di-sukabumi-diduga-keracunan-mbg"
+        }
+      ],
+      "why_it_matters": "MBG food safety is a core criticism at the two-year mark; case totals differ by source and are unverified.",
+      "video_potential": 4,
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-10-19",
+      "category": "NEWS",
+      "event": "Cek Fakta: ANTARA and Liputan6 debunk three spreading hoaxes, a post that Prabowo will extend the MBG programme to Timor-Leste, a fake Jasa Marga job-vacancy link, and a free online SIM registration link.",
+      "key_numbers": "MBG-to-Timor-Leste: Threads post 8 Oct, no official statement; Prabowo-Ramos-Horta met 28 Aug 2026 · Jasa Marga vacancy: Instagram post 17 Oct, Rp7-12 juta salary lure, collects KTP name and Telegram number · SIM online link (Liputan6) · earlier hoaxes: MBG closure (E0116), Pertalite price · Komdigi (Angga Raka Prabowo, 18 Oct) denies that platforms restrict karhutla content",
+      "storyline": "hoax-tracker",
+      "update_of": "E0116",
+      "status": "verified",
+      "sources": [
+        {
+          "label": "ANTARA Anti Hoax",
+          "url": "https://antaranews.com/berita/5797021/hoaks-prabowo-putuskan-program-mbg-disalurkan-ke-timor-leste-atas-permintaan-presiden-timor-leste"
+        },
+        {
+          "label": "Liputan6 Cek Fakta (Jasa Marga)",
+          "url": "https://www.liputan6.com/cek-fakta/read/8316308/cek-fakta-hoaks-link-pendaftaran-lowongan-kerja-jasa-marga-2026"
+        },
+        {
+          "label": "Liputan6 Cek Fakta (SIM)",
+          "url": "https://www.liputan6.com/cek-fakta/read/8316382/cek-fakta-hoaks-link-pendaftaran-dan-pembuatan-sim-online-gratis"
+        },
+        {
+          "label": "Okezone (Komdigi on Instagram)",
+          "url": "https://news.okezone.com/read/2026/10/18/337/3248648/komdigi-bantah-batasi-konten-karhutla-di-instagram"
+        }
+      ],
+      "why_it_matters": "Fake job and service links are phishing attempts that ask for ID details.",
+      "video_potential": 3,
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-19",
+      "category": "NEWS",
+      "event": "KAI Commuter cancels seven Bogor-line KRL trips on 19 Oct because two train sets remain under repair by its engineers and PT INKA, adding to commuter complaints about repeated disruption.",
+      "key_numbers": "7 trips cancelled (1157, 1154, 1013A, 1014, 1124F, 1195F, 1192F) · 2 train sets under repair · earlier: 7 trips cancelled 16 Oct, one outlet says 10 trips · Kompas survey headline: Bogor-Jakarta passengers would pay more for fewer disruptions · RMOL: calls for INKA CEO to resign (opinion/political, not verified)",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {
+          "label": "Liputan6",
+          "url": "https://www.liputan6.com/news/read/8316013/7-perjalanan-krl-bogor-dibatalkan-hari-ini-cek-jadwalnya"
+        },
+        {
+          "label": "Kompas.id (headline)",
+          "url": "https://www.kompas.id/artikel/tujuh-perjalanan-krl-dibatalkan-senin-pagi-penumpang-kian-berdesakan"
+        },
+        {
+          "label": "Kompas (passengers, headline)",
+          "url": "https://megapolitan.kompas.com/read/2026/10/19/08000971/penumpang-krl-bogor-jakarta-rela-bayar-lebih-asalkan-kereta-bebas"
+        }
+      ],
+      "why_it_matters": "Daily Bogor-Jakarta commuters face recurring cancellations due to a train shortage.",
+      "video_potential": 3,
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-18",
+      "category": "NEWS",
+      "event": "Four PSS Sleman supporters die in a toll-road accident at KM 616 Ngawi-Kertosono (Madiun) on the way to the Persebaya match; both teams hold a minute's silence before the 2-2 draw in Surabaya.",
+      "key_numbers": "Sun 18 Oct 2026 · tol KM 616 Ngawi-Kertosono · 4 dead · match at Gelora Bung Tomo ended 2-2 · cause of accident not stated",
+      "storyline": "",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {
+          "label": "Detik Jatim",
+          "url": "https://www.detik.com/jatim/sepakbola/d-8712924/persebaya-ikut-berduka-4-suporter-pss-tewas-laka-di-tol-madiun"
+        },
+        {
+          "label": "ANTARA video",
+          "url": "https://www.antaranews.com/video/5795481/duka-selimuti-laga-persebaya-vs-pss-yang-berakhir-imbang-2-2"
+        }
+      ],
+      "why_it_matters": "Reminder of travel risk for away-match supporters; local rather than national story.",
+      "video_potential": 2,
+      "sensitivity": "normal"
+    }
+  ],
+  "gaps": [
+    "WebFetch of index pages (detik, detik terpopuler, cnnindonesia, cnbcindonesia) was blocked this run; most-read lists for 19-20 Oct not captured directly",
+    "Kompas pages (BEM UI demo, E. coli Sukabumi) and kompas.id could not be fetched; used headlines only (robots disallowed)",
+    "Police deployment numbers for the 20 Oct demonstrations not found; check results of the demo itself",
+    "MBG poisoning totals (60,000+ student claim vs JPPI 40,759) unverified; BGN official figure not found",
+    "Semeru 19 Oct eruption details and the 4.5 km pyroclastic flow date not verified",
+    "Jakarta AQI/ISPA numbers for 19-20 Oct not found; Gunung Latimojong and Lawu fires not rechecked",
+    "Sukabumi E. coli finding is a Kompas headline only; SPPG Sukabumi earlier 151-victim case dated 9 Oct",
+    "Haji 2027 BPIH (average Rp98.4-98.47 juta; jemaah pays Rp23.24 juta) was agreed around 7 Oct, outside the window, not reported as event",
+    "No gibran-ijazah-mk development found for 19-20 Oct beyond E0114 and E0070"
+  ]
+}

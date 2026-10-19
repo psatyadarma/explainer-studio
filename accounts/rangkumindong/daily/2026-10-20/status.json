@@ -1,0 +1,28 @@
+{
+ "date": "2026-10-20",
+ "steps": {
+  "sweep": "done",
+  "merge": "done",
+  "ideas": "done",
+  "ideas_factcheck": "done",
+  "ideas_sent": "done",
+  "picked": "todo",
+  "draft": "todo",
+  "draft_factcheck": "todo",
+  "draft_sent": "todo",
+  "approved": "todo",
+  "render": "todo",
+  "video_sent": "todo",
+  "ok_post": "todo",
+  "posted": "todo",
+  "knowledge": "todo"
+ },
+ "notes": [
+  "22:06Z 4 sweeps OK (13/9/13/15); outlet index pages often blocked; KPK nothing new",
+  "22:22Z ideas sent 06:25 WITA; 11 fact-check fixes applied"
+ ],
+ "merge_stats": {
+  "new": 50,
+  "duplicates": 0
+ }
+}

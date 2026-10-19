@@ -70,6 +70,16 @@
 "upcoming": false
 },
 {
+"id": "E0151",
+"date": "2026-10-01",
+"category": "TECH",
+"event": "DJP changed Coretax tax-return correction scheme to 'replace' from 1 Oct 2026 (PER-12/PJ/2026), and taxpayers complained about a new Coretax interface and unresponsive menus on 12-13 Oct; DJP says the issue is fixed.",
+"key_numbers": "Replace scheme from 1 Oct 2026 · PER-12/PJ/2026 · complaint count not given",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
 "id": "E0007",
 "date": "2026-10-02",
 "category": "MKT",
@@ -170,6 +180,26 @@
 "upcoming": false
 },
 {
+"id": "E0134",
+"date": "2026-10-06",
+"category": "POL",
+"event": "Kejagung names new suspects in the BGN (National Nutrition Agency) electric-motorbike procurement case under the MBG free-meals programme, including TNI Kolonel Budi Utomo as commitment-making official (PPK) and private company executives.",
+"key_numbers": "BPKP preliminary state-loss estimate about Rp10 triliun (still being calculated) · 25,644 units planned, revised to 21,000 · 2,117 realised by Mar 2026 (figures from one source) · five suspects in cluster, three private parties",
+"storyline": "corruption-cases",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0135",
+"date": "2026-10-06",
+"category": "POL",
+"event": "DPR plenary passes the Employment Protection Bill (RUU Perlindungan Ketenagakerjaan) into law by voice vote, following up MK decision 168/PUU-21/2023; Labour Minister Yassierli says it strengthens worker protection while considering business continuity.",
+"key_numbers": "23 chapters · 313 articles · 9th plenary of Masa Persidangan I 2026-2027 · 6 Oct 2026 · no criticism reported in source",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
 "id": "E0045",
 "date": "2026-10-07",
 "category": "POL",
@@ -230,6 +260,16 @@
 "upcoming": false
 },
 {
+"id": "E0136",
+"date": "2026-10-08",
+"category": "POL",
+"event": "DPR closes Masa Persidangan I 2026-2027 at its 10th plenary, chaired by Deputy Speaker Sufmi Dasco Ahmad, and extends deliberation of the International Private Law Bill (RUU Hukum Perdata Internasional). (update of E0066)",
+"key_numbers": "291 members signed in (265 present, 26 on leave) · recess 9 Oct–9 Nov per existing records",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
 "id": "E0002",
 "date": "2026-10-09",
 "category": "ECO",
@@ -277,6 +317,16 @@
 "key_numbers": "Deficit Rp319 T = 1.24% of GDP (0.9% in Aug) vs full-year target Rp689.1 T (2.68%) · revenue Rp2,341.5 T = 74.2% of target, +25.5% y/y · tax Rp1,847.7 T · PNBP Rp492.3 T · spending Rp2,660.5 T = 69.2%, +19% y/y · primary balance surplus Rp125.5 T · year-end deficit projection about 2.8% · deficit 14.13% lower than Sep 2025 (Rp371.5 T)",
 "storyline": "",
 "status": "verified",
+"upcoming": false
+},
+{
+"id": "E0147",
+"date": "2026-10-09",
+"category": "TECH",
+"event": "SpaceX agreed to buy up to 14 MHz paired 800 MHz spectrum for Starlink Mobile; CNBC Indonesia flags a possible future threat to Telkomsel, Indosat and XLSmart, though nothing is announced for Indonesia.",
+"key_numbers": "14 MHz paired 800 MHz (announced 8 Oct) · Komdigi 700 MHz/2.6 GHz auction: XL Rp1.06 T (30 MHz), Telkomsel Rp642.5 B (20 MHz), Indosat Rp507.48 B (20 MHz)",
+"storyline": "",
+"status": "partial",
 "upcoming": false
 },
 {
@@ -387,6 +437,16 @@
 "key_numbers": "654,343 units · +9.7% m/m · +15.36% y/y · exports 55,098 CBU (+9.63% m/m, +25.43% y/y) · publication date approximate",
 "storyline": "",
 "status": "partial",
+"upcoming": false
+},
+{
+"id": "E0144",
+"date": "2026-10-13",
+"category": "TECH",
+"event": "Komdigi (Deputy Minister Nezar Patria) is preparing a derivative rule under Perpres 27/2026 (issued 8 Oct) setting a formula, not fixed min/max tariffs, for ojol food and goods delivery fees, due before 31 Dec 2026.",
+"key_numbers": "Perpres 27/2026 issued 8 Oct 2026 · derivative rule targeted before 31 Dec 2026 · fee depends on weight/dimension/type of goods",
+"storyline": "ojol-regulation",
+"status": "verified",
 "upcoming": false
 },
 {
@@ -526,6 +586,36 @@
 "event": "PIHPS national averages on 15 Oct show rice and cooking oil rising while chilli and beef ease.",
 "key_numbers": "Beras medium I Rp17,100/kg (+3.01%) · medium II Rp16,950 (+0.89%) · beras bawah II Rp15,400 (+4.76%) · minyak goreng curah Rp21,350 (+4.65%) · kemasan Rp24,000-24,750 (+1.9%) · cabai rawit merah Rp97,600 (−5.29%) · cabai merah keriting Rp83,600 (−0.65%) · telur Rp29,450 (−0.84%) · daging sapi Rp144,300-150,050 (−0.17% to −1.61%) · ayam Rp40,900 (−1.33%) (day-on-day, 11:00 WIB)",
 "storyline": "",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0130",
+"date": "2026-10-15",
+"category": "POL",
+"event": "The Constitutional Court (MK) fully grants a petition against the Military Courts Law (UU 31/1997), ruling that soldiers who commit ordinary crimes should be tried in civilian courts and ordering lawmakers to revise the law within two years.",
+"key_numbers": "Decision 260/PUU-XXIII/2025 · read 15 Oct 2026 · challenged: Pasal 9 angka 1, Pasal 43(3), Pasal 127 · deadline: 2 years (about Oct 2028) or the provisions lose binding force · petitioners Lenny Damanik and Eva Meliani Pasaribu",
+"storyline": "mk-peradilan-militer",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0146",
+"date": "2026-10-15",
+"category": "TECH",
+"event": "OJK data show pinjol (P2P lending) bad-loan ratio TWP90 at 4.73% in August 2026, close to the 5% threshold, with 16 operators above 5%; OJK is drafting rules to protect lenders after operator failures. (update of E0011)",
+"key_numbers": "Outstanding Rp106.94 T (+22.07% y/y) · TWP90 4.73% (2.60% Aug 2025; 4.32% Jul 2026) · 16 operators above 5% · draft: default threshold 90 to 180 days, pooling fund 5% of net fees, liquidation reserve 20% of min equity",
+"storyline": "consumer-health",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0158",
+"date": "2026-10-15",
+"category": "ENV",
+"event": "Four people die fighting a forest fire in Bromo Tengger Semeru National Park after a sudden wind shift traps six personnel; experts question firefighting standard procedures.",
+"key_numbers": "Fire reported 13 Oct 14:23 WIB, declared out 14 Oct 11:45, flare-up 15 Oct about 13:00 WIB · 4 dead (2 TNBTS staff incl. 1 Manggala Agni, 2 staff of a tourism-permit company), 2 seriously injured · 6 trapped, 5 escaped · started in farmland in Pusung Dawa block, Ngadirejo, Probolinggo · Kemenhut press release 16 Oct",
+"storyline": "karhutla",
 "status": "verified",
 "upcoming": false
 },
@@ -710,6 +800,36 @@
 "upcoming": false
 },
 {
+"id": "E0131",
+"date": "2026-10-16",
+"category": "POL",
+"event": "After the MK Military Courts ruling, TNI Army spokesperson Maj. Gen. Muhammad Nas says the TNI will comply, and PDIP's TB Hasanuddin (DPR Komisi I) says the ruling strengthens the case for revising the Military Courts Law.",
+"key_numbers": "TNI: complies with all MK rulings · Wapang Maruli said to be studying the ruling · revision deadline 2 years",
+"storyline": "mk-peradilan-militer",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0133",
+"date": "2026-10-16",
+"category": "POL",
+"event": "Kejagung (Attorney General's Office) says investigators examined 116 witnesses before naming the PT Toba Pulp Lestari director a suspect; it alleges under-invoicing through HS-code changes and bribing tax examiners, and the suspect is detained at Salemba until 4 Nov. (update of E0049) (update of E0049)",
+"key_numbers": "State loss estimated about Rp2 triliun · 116 witnesses · Rp500 juta deposited to Jampidsus account · detention 20 days, 16 Oct–4 Nov 2026 · charges under new KUHP Pasal 603 and Tipikor Law Pasal 18 · no response from company or suspect in source",
+"storyline": "corruption-cases",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0148",
+"date": "2026-10-16",
+"category": "BIZ",
+"event": "Ceramic association Asaki says gas supply restrictions are cutting production and spreading layoffs: about 500 laid off in July and about 900 on furlough.",
+"key_numbers": "~1,400-1,500 workers affected · 500 laid off July · 900 furloughed · utilisation below 70% in Oct (75% Jan-Aug; target 78-80%) · may fall to ~60% Nov-Dec",
+"storyline": "layoffs",
+"status": "partial",
+"upcoming": false
+},
+{
 "id": "E0076",
 "date": "2026-10-17",
 "category": "POL",
@@ -747,6 +867,16 @@
 "key_numbers": "2,458 domestic flights affected (1,080 delayed · 1,324 cancelled/postponed · 22 diverted) · 29 airports · +437 since 13 Oct · 14 international flights cancelled (Singapore–Pontianak/Palembang) · 22 perintis flights cancelled 16 Oct · period 11 Aug–17 Oct 2026",
 "storyline": "karhutla",
 "status": "verified",
+"upcoming": false
+},
+{
+"id": "E0159",
+"date": "2026-10-17",
+"category": "ENV",
+"event": "Mount Semeru keeps erupting at Level III (Siaga) with ash columns up to 1 km and more eruptions reported on 19 Oct.",
+"key_numbers": "17 Oct: 04:52 WIB 700 m, 06:35 WIB 800 m (4,476 m asl), 10:42 WIB 1 km · Level III (Siaga) · no activity within 5 km of crater; no activity along Besuk Kobokan up to 13 km · pyroclastic flows/lahars may reach 17 km · Tempo headline: pyroclastic flow 4.5 km (date not confirmed) · 19 Oct eruptions per Katadata (headline)",
+"storyline": "volcanoes",
+"status": "partial",
 "upcoming": false
 },
 {
@@ -887,6 +1017,36 @@
 "key_numbers": "PKPU 19/2023 Pasal 18(3) and 13(1)r · UU 7/2017 Pasal 169r · remarks 18 Oct; MK hearing 1 Oct; ex-KPU chair Hasyim Asy'ari denies engineering",
 "storyline": "gibran-ijazah-mk",
 "status": "partial",
+"upcoming": false
+},
+{
+"id": "E0157",
+"date": "2026-10-18",
+"category": "ENV",
+"event": "Latest BNPB hotspot data show 7,118 hotspots in six priority provinces on 16 Oct, mostly Central Kalimantan, while Forestry Ministry SiPongi counts fall nationally to 270 on 17 Oct; BNPB and BMKG cloud seeding over South Sumatra used 2.4 tons of dry ice. (update of E0021) (update of E0021)",
+"key_numbers": "BNPB 16 Oct: 7,118 hotspots (Kalteng 4,686 · Sumsel 1,344 · Kalsel 481 · Kalbar 466 · Jambi 137 · Riau 4) + 221 fire spots · 1,150.51 ha burned in 24 h (Kalteng about 52%) · Kemenhut SiPongi 17 Oct 21:00 WIB: national 270 (from 354), six provinces 125 (from 177), Kalteng 92 (up from 19) · 61 aircraft (17 patrol/OMC, 44 water bombing) · OMC Sumsel 16-25 Oct, 2.4 tons dry ice over 15-16 Oct, 3 sorties, visibility 1,000 m to 3,000 m in Palembang · counting methods differ between BNPB and SiPongi",
+"storyline": "karhutla",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0162",
+"date": "2026-10-18",
+"category": "NEWS",
+"event": "West Java police raid an illegal-drug factory in the Bizpark complex in Kopo, Bandung, making tramadol and hexymer tablets, with an estimated capacity of 8 million tablets per day and five suspects named.",
+"key_numbers": "Capacity up to 8 million tablets/day (police estimate) · raw material could yield up to 256 million tablets · 600,000 ready tablets seized on first arrest (Fri 16 Oct, Purbaleunyi KM 125) bound for Jakarta · 5 suspects · raids 17-18 Oct · Kapolda Jabar Irjen Hengki",
+"storyline": "",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0166",
+"date": "2026-10-18",
+"category": "NEWS",
+"event": "Four PSS Sleman supporters die in a toll-road accident at KM 616 Ngawi-Kertosono (Madiun) on the way to the Persebaya match; both teams hold a minute's silence before the 2-2 draw in Surabaya.",
+"key_numbers": "Sun 18 Oct 2026 · tol KM 616 Ngawi-Kertosono · 4 dead · match at Gelora Bung Tomo ended 2-2 · cause of accident not stated",
+"storyline": "",
+"status": "verified",
 "upcoming": false
 },
 {
@@ -1070,6 +1230,296 @@
 "upcoming": false
 },
 {
+"id": "E0117",
+"date": "2026-10-19",
+"category": "MKT",
+"event": "IHSG closed down another 3.64% at 4,996.60, its lowest close in about 10 years, extending the MSCI-driven selloff after Friday's 11.57% crash; 656 stocks fell and only 100 rose. (update of E0032)",
+"key_numbers": "Close 4,996.60 (-188.49 pts, -3.64%) from 5,185.10 · intraday range 4,907.37-5,012.86 (open 4,961.88, -4.31%) · value Rp25.15 T, 33.08 B shares · breadth 100 up / 656 down / 43 flat · market cap Rp8,863 T (from Rp10,627 T on 2 Oct) · week to date -15.83%, YTD about -40%",
+"storyline": "msci-reclassification",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0118",
+"date": "2026-10-19",
+"category": "MKT",
+"event": "Foreign investors kept selling Indonesian stocks, with over Rp1 trillion net sold in the first session alone, led by BBCA, BBRI and TLKM; Kontan counts 2026 foreign net sell at about Rp88 T and IHSG as the worst of 35 exchanges compared by BEI.",
+"key_numbers": "Session I 19 Oct net sell >Rp1 T · BBCA Rp670.8 B · BBRI Rp515.2 B · TLKM Rp205.5 B · AADI Rp44.4 B · 2026 foreign net sell about Rp88 T · IHSG YTD -40.04% as of 16 Oct, 35th of 35 exchanges (Kontan, partly paywalled)",
+"storyline": "msci-reclassification",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0119",
+"date": "2026-10-19",
+"category": "MKT",
+"event": "BEI and OJK met MSCI by video call on 19 Oct; BEI would not disclose the discussion and instead announced two reforms: labelling 1% shareholders as affiliated or unaffiliated, and excluding High Shareholding Concentration (HSC) stocks from the IHSG calculation.",
+"key_numbers": "Meeting 15:30 WIB, 19 Oct · HSC stocks stay tradable but no longer move IHSG (already out of IDX30, LQ45, IDX80) · count of HSC stocks not confirmed (a related headline says 80) · 4 earlier reforms already done · OJK says MSCI review is in November",
+"storyline": "msci-reclassification",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0120",
+"date": "2026-10-19",
+"category": "MKT",
+"event": "BEI president director Jeffrey Hendrik argued Indonesia still meets all Emerging Market criteria and explained the ARB cut to 7% as a way to avoid trading halts and panic decisions, calling MSCI's Friday announcement unexpected. (update of E0051)",
+"key_numbers": "FX reserves US$146.3 B · market cap US$498 B · inflation 3.28% · 9 stocks in MSCI Standard Index · ARB 15% to 7% for stocks above Rp10 (SK BEI Kep-00157/BEI/10-2026) · ARA unchanged",
+"storyline": "msci-reclassification",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0121",
+"date": "2026-10-19",
+"category": "MKT",
+"event": "CUAN, BREN and DSSA each announced share buybacks after OJK's Rp2.1 T sanctions, and BCA announced a buyback window of 19-21 Oct, as listed companies try to support prices. (update of E0053)",
+"key_numbers": "CUAN up to Rp500 B (19 Oct-31 Dec 2026) · BREN up to Rp1 T (19 Oct-31 Dec 2026) · DSSA up to Rp1 T (19 Oct 2026-18 Jan 2027) · BCA buyback 19-21 Oct under programme approved 12 Mar 2026 (valid to 11 Mar 2027), amount not stated · fines: DSSA Rp1.5 T, BREN Rp500 B, CUAN Rp100 B",
+"storyline": "msci-reclassification",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0122",
+"date": "2026-10-19",
+"category": "MKT",
+"event": "Brokerages estimate foreign outflows if MSCI downgrades Indonesia to Standalone, and BCA Sekuritas cut its end-2027 IHSG target from 7,100 to 5,200.",
+"key_numbers": "BCA Sekuritas base case about US$5.2 B (about Rp94 T), optimistic US$3.5 B · Mirae Asset about US$3 B from passive funds · JPMorgan US$4.8 B passive, UBS warns active investors could add up to US$15 B (CNBC Indonesia, 19 Oct) · BCA Sekuritas view cut from Constructive to Neutral · Reuters: about US$65 B market value wiped out on 16 Oct · these are projections, not realised flows",
+"storyline": "msci-reclassification",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0123",
+"date": "2026-10-19",
+"category": "MKT",
+"event": "BEI president director said share pledges are outside capital market transactions after Bank Mandiri disclosed it lent against shares of two Haji Isam affiliates, JARR and PGUN, in connection with the Jhonlin Baratama acquisition of Bayan Resources (BYAN).",
+"key_numbers": "Mandiri disclosure dated 18 Oct · loan amount not disclosed · pledges made by individuals, not the companies · Mandiri says credit is for capex, financing and coal-sector needs, not buying shares · BEI cannot cancel the BYAN deal",
+"storyline": "msci-reclassification",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0124",
+"date": "2026-10-19",
+"category": "MKT",
+"event": "Rupiah closed at Rp18,046 per USD, slightly weaker, as markets expect further Fed tightening and wait for the Bank Indonesia decision. (update of E0055)",
+"key_numbers": "Spot close Rp18,046 (-19 pts, -0.11%) from Rp18,027 · JISDOR Rp18,050 (from Rp18,052) · 15 Oct close Rp17,938 · next Fed meeting 27-28 Oct",
+"storyline": "rupiah",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0126",
+"date": "2026-10-19",
+"category": "ECO",
+"event": "Finance Minister Suahasil Nazara said the 2026 deficit will be kept around 2.85% of GDP and that Q4 state spending will be about Rp1,300 T, higher than Rp1,200 T in Q4 2025, so year-end efficiency is not a spending freeze. (update of E0061)",
+"key_numbers": "Deficit about 2.85% of GDP (July outlook to DPR) · Q4 spending Rp1,300 T vs Rp1,200 T in Q4 2025 · tax revenue Jan-Sep Rp1,607.6 T (+24.1%) · state revenue Jan-Sep Rp2,341.5 T · bansos through Sep Rp115.8 T · debt issuance through Sep Rp494.3 T",
+"storyline": "",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0127",
+"date": "2026-10-19",
+"category": "GLB",
+"event": "Brent fell about 1.6% to roughly US$108 after the US waived some sanctions and tariffs on Russian exports tied to a diesel export deal, but Hormuz disruptions keep it near five-month highs. (update of E0093)",
+"key_numbers": "Brent $108.14 (-$1.72, -1.6%) intraday 19 Oct · WTI $100.54 (-0.86%) · Brent had settled at its highest since 19 May on Friday · Kpler: Gulf crude flows about 8.5 M bpd last week vs over 20 M bpd the week before · US midterms 3 Nov flagged as risk",
+"storyline": "fuel-oil",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0128",
+"date": "2026-10-19",
+"category": "ECO",
+"event": "Bahlil said coal has risen to US$154 per ton (calorie 633, benchmark not named) and the government will keep limited production relaxation; he also said Pertalite reserve is 16-18 days, expected to recover to 20 days within a week, as supply disruptions spread from Bali to parts of East Java.",
+"key_numbers": "Coal US$154/t (kalori 633) · Pertalite stock 16-18 days, target 20 days · RON 92/95/98 and diesel above 20 days · Pertalite Rp10,000 and Pertamax Rp15,950 unchanged · consumption shifted to Pertalite after non-subsidised prices rose from 11 Jun",
+"storyline": "fuel-oil",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0129",
+"date": "2026-10-19",
+"category": "GLB",
+"event": "China's Q3 GDP grew 4.5% y/y, beating forecasts, helped by a 36.3% jump in September exports.",
+"key_numbers": "GDP +4.5% y/y (Q2 4.3%) · +1.2% q/q · September exports +36.3% y/y",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0132",
+"date": "2026-10-19",
+"category": "POL",
+"event": "MK holds a hearing on a challenge to Pasal 160(3) of the new KUHAP (UU 20/2025) limiting repeated pretrial (praperadilan) filings; the government asks the court to reject it, saying the limit applies only to filings with the same substance.",
+"key_numbers": "Case 317/PUU-XXIV/2026 · hearing 19 Oct 2026 · 7 petitioners (advocate Jahmada Girsang named) · government represented by Deputy Law Minister Edward Omar Sharif Hiariej · no ruling date reported",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0138",
+"date": "2026-10-19",
+"category": "POL",
+"event": "Antara publishes an assessment of the Prabowo-Gibran two years, saying programme scale does not always match service quality and that oversight and follow-up on field problems are key; related headlines cite MBG reaching over 57 million children. (update of E0038)",
+"key_numbers": "MBG over 57 juta children (headline only) · anniversary 20 Oct 2026 · 15 Oct inauguration of new deputy ministers and BNPB head",
+"storyline": "prabowo-2-years",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0139",
+"date": "2026-10-19",
+"category": "BIZ",
+"event": "Danantara's Dony Oskaria says after being summoned to the Palace that Danantara Investment will buy more shares of listed BUMN with strong fundamentals after the MSCI-driven sell-off, naming no targets or amounts.",
+"key_numbers": "IHSG close 19 Oct 4,996.61 (-188.50 pts, -3.64%) · LQ45 488.46 (-3.95%) · 691 stocks fell vs 103 rose · turnover Rp25.17 T · no target companies or amount disclosed",
+"storyline": "msci-reclassification",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0140",
+"date": "2026-10-19",
+"category": "TECH",
+"event": "Danantara says it wants to move from leasing land to owning parts of the AI data-centre value chain (chips, AI controllers), targeting over Rp30 trillion of economic value, and will push deals at its DTIIF forum on 26-28 Oct.",
+"key_numbers": "Rp30 T+ (~US$1.7 B) · per 100 MW: land lease only = revenue US$100-150 M vs strategic partnership = US$1.5-1.7 B (investment US$3-4 B) · chip/controller supply queue 16-48 months · DTIIF 26-28 Oct Jakarta, 1,500+ participants · Arm signed cooperation",
+"storyline": "ai-data-centres",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0141",
+"date": "2026-10-19",
+"category": "TECH",
+"event": "Katadata reports Nvidia is exploring a US$4.5 billion data-centre/AI investment in Batam, per Airlangga Hartarto; the plan is still at discussion stage while a BDx data-centre project at Jatiluhur was halted over permits.",
+"key_numbers": "US$4.5 B (~Rp81.2 T) · Indonesia operating data-centre capacity 600-700 MW · pipeline 1.3 GW / US$15-20 B · BDx CGK4 Jatiluhur up to 640 MW, groundbreaking 22 Sep then halted (AMDAL/PBG) · Zankore (Indosat) target 1 GW in 3 years",
+"storyline": "ai-data-centres",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0142",
+"date": "2026-10-19",
+"category": "TECH",
+"event": "Komdigi opens Bali Tech Week 2026 in Sanur; Minister Meutya Hafid sets out three pillars (connected, growing, protected) and cites internet and digital-economy figures. (update of E0035) (update of E0035)",
+"key_numbers": "~235 M internet users (81.72% penetration) · 4G covers 98.96% of population · digital GMV US$99 B in 2025 (+14%) · Garuda Spark 178 programs, 15,700 talents, Rp429.5 B investment · BTW 19-23 Oct, 4,000+ participants, 1,000 foreign delegates",
+"storyline": "startup-funding",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0143",
+"date": "2026-10-19",
+"category": "TECH",
+"event": "Komdigi says it has acted on more than 4.2 million online-gambling website content items as of October 2026, at the ICANN87 opening in Bali.",
+"key_numbers": "4.2 M+ content items acted on (Oct 2026) · ICANN87 17-22 Oct, Nusa Dua",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0149",
+"date": "2026-10-19",
+"category": "ECO",
+"event": "PIHPS national averages for 19 Oct show chilli and shallot prices jumping while rice super grades, eggs and chicken ease. (update of E0088)",
+"key_numbers": "Cabai merah keriting Rp126,400/kg (+43.07%) · cabai rawit merah Rp119,250 (+13.25%) · bawang merah Rp43,800 (+18.38%) · daging sapi I Rp159,250 (+4.39%) · minyak kemasan merek 1 Rp25,750 (+5.75%) · telur Rp29,100 (-2.02%) · ayam Rp40,150 (-2.67%) · changes vs previous day",
+"storyline": "consumer-health",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0153",
+"date": "2026-10-19",
+"category": "POL",
+"event": "East Jakarta District Court rejects Roy Suryo's objection (eksepsi) to the indictment in the slander/ITE trial over Jokowi's diploma and orders the trial to proceed to witness examination. (update of E0113) (update of E0113)",
+"key_numbers": "Interlocutory ruling 19 Oct 2026, panel led by Christina Endarwati · case 300/Pid.B/2026/PN Jakarta Timur · next hearing Wed 28 Oct 2026 09:00 WIB (witnesses) · primary charge Art. 433(1) with 441(1) of the new KUHP (Law 1/2023, defamation); subsidiary Art. 35 with 51(1) ITE Law (as amended by Law 1/2026); also Art. 32 with 48(1) ITE · charges read 17 Sep 2026 · Kompas headline: 3 witnesses prepared · allegations, trial ongoing",
+"storyline": "jokowi-ijazah-roy-suryo",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0154",
+"date": "2026-10-19",
+"category": "NEWS",
+"event": "Lawyer Kamaruddin Simanjuntak, known for representing the family of Brigadir J in the Ferdy Sambo case, dies at RS Pelni, Jakarta. (update of E0112) (update of E0112)",
+"key_numbers": "Died Mon 19 Oct 2026 about 03:00 WIB (per fellow lawyer Martin Lukas Simanjuntak) · RS Pelni, Central Jakarta · had undergone routine dialysis for several years, cause of death not stated · lying in state at Ukrida funeral home · burial details not stated",
+"storyline": "",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0155",
+"date": "2026-10-19",
+"category": "ENV",
+"event": "BMKG records a run of Flores Sea quakes north of Labuan Bajo (M5.3 on 18 Oct, M4.5-4.8 on 19 Oct), still counted as aftershocks of the M7.7 Flores earthquake of 15 Aug 2026; no tsunami potential and no damage reported.",
+"key_numbers": "M5.3 on 18 Oct 15:00 WIB, 60 km from Labuan Bajo, depth 10 km, MMI IV-V in Manggarai · 19 Oct: M4.8 (16:45 WIB), M4.7 (17:10), M4.5 (19:06), 45-60 km north of Labuan Bajo, depth about 5 km · main shock M7.7 (15 Aug 2026) · more than 22,300 aftershocks, largest M6.2 · Flores Back-Arc Thrust · BMKG Kupang calls it normal energy release",
+"storyline": "",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0156",
+"date": "2026-10-19",
+"category": "ENV",
+"event": "Jakarta Governor Pramono Anung puts 367 health facilities on standby for people affected by forest-fire smoke, including residents without a Jakarta ID, as BMKG says the smoke is moving away from Banten and Greater Jakarta. (update of E0103) (update of E0103)",
+"key_numbers": "367 facilities = 31 hospitals + 44 puskesmas + 292 puskesmas pembantu · water-mist units 179 across 145 buildings · cloud seeding an option · remote learning, outdoor limits only if air worsens · no ISPA counts or AQI in source · BMKG 19 Oct: smoke 'now safe' in Banten, residual smoke 10,000-18,000 ft over west Banten coast · smoke reached west Java/Jakarta on 16 Oct · some Jakarta monitors 'moderate to unhealthy' PM2.5",
+"storyline": "karhutla",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0160",
+"date": "2026-10-19",
+"category": "ENV",
+"event": "BMKG warns that the shift from dry to rainy season brings flood and landslide risk, with El Nino making the 2026 dry season longer and drier and the rains arriving late over most of the country.",
+"key_numbers": "About 61.08% of Indonesian land area to see a later-than-normal start to the rainy season · peak rainfall expected Dec-Feb · warnings from BMKG directors Teguh Rahayu and Fachry Radjab · no specific provinces named",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0161",
+"date": "2026-10-19",
+"category": "NEWS",
+"event": "Bharada Andhika Rahmadani is detained over the killing of fellow officer Bharatu Valdo at Polairud HQ Pondok Cabe; Menko Polkam Dudung says the motive is unconfirmed and recruitment, including ideology and psychology screening, will be evaluated; some outlets report bullying as a possible motive. (update of E0110) (update of E0110)",
+"key_numbers": "Incident Fri 16 Oct 2026, Mako Polairud Pondok Cabe, South Tangerang · victim shot four times and cut on the neck per Suara/Realita reports (unconfirmed by police in source) · family suspects premeditated murder · Dudung statement 19 Oct 14:29 WIB · Komisi III urges psychological testing (headline) · allegation stage, no court step",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0163",
+"date": "2026-10-19",
+"category": "NEWS",
+"event": "Free-meal (MBG) poisoning stays in the news: a student speaker cites more than 60,000 cases at the 2-year protests build-up, Bakom rejects a moratorium, and a Kompas report says E. coli was found on kitchen equipment at a Sukabumi SPPG.",
+"key_numbers": "Student claim: over 60,000 poisoning cases, losses near Rp30 miliar (no source given) · JPPI earlier counted 40,759 victims in 36 provinces (Kompas.id headline, date not confirmed) · Sukabumi SMKN 1 Gunungguruh: 151 teachers and students (9 Oct) · Konawe Selatan: 144 students · Bakom (Syahganda Nainggolan) opposes a moratorium · BGN head Sudaryono 'improving'",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0164",
+"date": "2026-10-19",
+"category": "NEWS",
+"event": "Cek Fakta: ANTARA and Liputan6 debunk three spreading hoaxes, a post that Prabowo will extend the MBG programme to Timor-Leste, a fake Jasa Marga job-vacancy link, and a free online SIM registration link. (update of E0116)",
+"key_numbers": "MBG-to-Timor-Leste: Threads post 8 Oct, no official statement; Prabowo-Ramos-Horta met 28 Aug 2026 · Jasa Marga vacancy: Instagram post 17 Oct, Rp7-12 juta salary lure, collects KTP name and Telegram number · SIM online link (Liputan6) · earlier hoaxes: MBG closure (E0116), Pertalite price · Komdigi (Angga Raka Prabowo, 18 Oct) denies that platforms restrict karhutla content",
+"storyline": "hoax-tracker",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0165",
+"date": "2026-10-19",
+"category": "NEWS",
+"event": "KAI Commuter cancels seven Bogor-line KRL trips on 19 Oct because two train sets remain under repair by its engineers and PT INKA, adding to commuter complaints about repeated disruption.",
+"key_numbers": "7 trips cancelled (1157, 1154, 1013A, 1014, 1124F, 1195F, 1192F) · 2 train sets under repair · earlier: 7 trips cancelled 16 Oct, one outlet says 10 trips · Kompas survey headline: Bogor-Jakarta passengers would pay more for fewer disruptions · RMOL: calls for INKA CEO to resign (opinion/political, not verified)",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
 "id": "E0037",
 "date": "2026-10-20",
 "category": "ECO",
@@ -1090,12 +1540,62 @@
 "upcoming": true
 },
 {
+"id": "E0137",
+"date": "2026-10-20",
+"category": "POL",
+"event": "BEM UI (University of Indonesia student executive body) plans demonstrations at two points in Jakarta on 20 Oct, marking two years of the Prabowo-Gibran government.",
+"key_numbers": "Two sites in Jakarta · 20 Oct 2026 · demands and locations not read (Kompas page blocked)",
+"storyline": "prabowo-2-years",
+"status": "upcoming",
+"upcoming": true
+},
+{
+"id": "E0150",
+"date": "2026-10-20",
+"category": "BIZ",
+"event": "BCA (BBCA) is scheduled to release Q3 2026 results on 20 Oct, the first big bank, followed by BBNI 23 Oct, BMRI 27 Oct, BRIS 29 Oct and BBRI/BBTN/BDMN 30 Oct; BRI Danareksa warns tightening liquidity could pressure H2 profit.",
+"key_numbers": "BBCA 20 Oct · BBNI 23 Oct · BMRI 27 Oct · BRIS 29 Oct · BBRI, BBTN, BDMN 30 Oct",
+"storyline": "",
+"status": "upcoming",
+"upcoming": true
+},
+{
+"id": "E0152",
+"date": "2026-10-20",
+"category": "POL",
+"event": "Student groups led by BEM UI and the civil-society coalition Komite Sadar plan protests at Tugu Tani and Tugu Proklamasi in Jakarta on the second anniversary of the Prabowo-Gibran government, demanding that karhutla and floods be declared national disasters, among other points. (update of E0036)",
+"key_numbers": "Date 20 Oct 2026 · about 500 people expected at Tugu Tani (BEM UI chair) · coalition's own survey of 560 respondents (not national): 78.8% rate the government as failed, 83.5% cite deforestation and fires, 71.1% high food prices, 70.6% corruption, 67.4% education costs, 62.7% curbs on free expression · demands include national-disaster status for karhutla, revoking permits of companies behind environmental damage, lower education/health costs · 'Peringatan Darurat' Garuda poster recirculating on social media (symbol from Aug 2024) · police guarding access routes to Jakarta and stations in Tangerang (headline only)",
+"storyline": "prabowo-2-years",
+"status": "upcoming",
+"upcoming": true
+},
+{
 "id": "E0057",
 "date": "2026-10-21",
 "category": "ECO",
 "event": "Bank Indonesia holds its quarterly RDG on 20-21 October with the BI-Rate decision due on the second day (21 October), under rupiah above Rp18,000 and market turmoil. (update of E0037)",
 "key_numbers": "BI-Rate 5.75% (held 23 Sep, highest since Apr 2025) · decision/press conference 21 Oct · bank credit growth data also due 21 Oct · M2 money supply due 23 Oct · next RDG 17-18 Nov (announcement 18 Nov) · BI forex reserves US$146.3 B (end-Sep) · September inflation 3.28% y/y · economist consensus for this meeting not found",
 "storyline": "rupiah",
+"status": "upcoming",
+"upcoming": true
+},
+{
+"id": "E0125",
+"date": "2026-10-21",
+"category": "ECO",
+"event": "Bank Indonesia announces its October BI-Rate decision on 21 Oct (RDG 20-21 Oct); Kontan polls and analysts split between a hold at 5.75% and a 25 bp hike to 6.00%, with Citi calling a hike a possible pre-emptive step to stop equity outflows spreading to bonds and the rupiah. (update of E0057)",
+"key_numbers": "Current BI-Rate 5.75% (held 22-23 Sep) · possible 6.00% · Deposit Facility 4.75% · Lending Facility 6.50% · 10-year SBN yield 7.169% on 16 Oct (reports of 7.46% after the MSCI news are unverified) · rupiah about Rp18,046",
+"storyline": "rupiah",
+"status": "upcoming",
+"upcoming": true
+},
+{
+"id": "E0145",
+"date": "2026-10-25",
+"category": "TECH",
+"event": "Under Ministerial Regulation 3/2026, e-commerce platforms such as Shopee and TikTok Shop must cut admin/commission fees by at least 50% for verified micro and small domestic-product sellers from 25 Oct, applied through Sapa UMKM.",
+"key_numbers": "At least 50% fee cut · starts 25 Oct 2026 · verification up to 10 days · payout within 5 days · micro: capital up to Rp1 B or sales up to Rp2 B · small: sales up to Rp15 B · Kepmen UMKM 398/2026",
+"storyline": "",
 "status": "upcoming",
 "upcoming": true
 },
@@ -1111,13 +1611,13 @@
 },
 {
 "id": "E0039",
-"date": "2026-11-01",
+"date": "2026-10-01",
 "category": "ECO",
-"event": "Marketplaces start collecting 0.5% PPh 22 on domestic sellers' gross turnover (Tokopedia, Shopee, Lazada, Blibli named); individuals ≤Rp500 juta/yr turnover may be exempt",
-"key_numbers": "0.5%; previously postponed to 31 Oct",
+"event": "Marketplaces collect 0.5% PPh 22 on domestic sellers' gross turnover from 1 Oct 2026 (brought forward from 1 Nov; Tokopedia, Shopee, Lazada, Blibli named); individuals ≤Rp500 juta/yr turnover exempt with a statement letter",
+"key_numbers": "0.5% · start 1 Oct 2026 (DJP SP-23/2026; earlier 1 Aug, then 1 Nov) · ≤Rp500 juta exempt",
 "storyline": "tax-policy",
-"status": "upcoming",
-"upcoming": true
+"status": "verified",
+"upcoming": false
 },
 {
 "id": "E0040",

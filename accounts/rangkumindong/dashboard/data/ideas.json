@@ -38,5 +38,45 @@
 "recommended": false,
 "storyline": "new: karhutla",
 "sensitivity": "medium"
+},
+{
+"date": "2026-10-20",
+"rank": 1,
+"title": "IHSG PART 2: tutup di bawah 5.000, bursa tarik rem darurat",
+"recommended": true,
+"storyline": "msci-reclassification (part 1)",
+"sensitivity": "medium"
+},
+{
+"date": "2026-10-20",
+"rank": 2,
+"title": "Data center AI: Nvidia lirik Batam, Danantara mau lebih dari sewa lahan",
+"recommended": false,
+"storyline": "new: ai-data-centres",
+"sensitivity": "low"
+},
+{
+"date": "2026-10-20",
+"rank": 3,
+"title": "Rupiah Rp18.046: besok BI putuskan, tahan 5,75% atau naik ke 6%?",
+"recommended": false,
+"storyline": "new: rupiah",
+"sensitivity": "medium"
+},
+{
+"date": "2026-10-20",
+"rank": 4,
+"title": "Pinjol: Rp106,94 triliun utang, kredit macet mepet batas 5%",
+"recommended": false,
+"storyline": "new: consumer-health",
+"sensitivity": "medium"
+},
+{
+"date": "2026-10-20",
+"rank": 5,
+"title": "Jualan online: diskon admin 50% mulai 25 Okt, pajak 0,5% sudah jalan",
+"recommended": false,
+"storyline": "new: tax-policy",
+"sensitivity": "low"
 }
 ]
