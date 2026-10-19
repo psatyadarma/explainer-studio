@@ -43,6 +43,11 @@ Roles live in `.claude/agents/` (shared researcher rules: `.claude/shared/resear
 6. Analyst: metrics at 24 h / 72 h, weekly review on Sunday.
 Weekly long video ("Rangkumin Seminggu", Sat 08:00 WITA): writer + fact-checker Friday morning → after approval, chapter-builders in parallel (one per chapter) → assemble → editor reviews the whole cut → fixes → render → schedule.
 
+## Covered topics (no accidental repeats)
+- `knowledge/covered.csv` (via `engine/covered.py`) logs every idea **offered** and every video **drafted/posted**: date, title, angle, key numbers, storyline, PART, events, folder, status, links.
+- The writer runs `covered.py check` on every candidate. A posted topic only comes back with a real new development, as a follow-up (PART n). Ideas offered before but not picked are labelled so.
+- Coordinator updates status: offered → picked → drafted → posted (with links) or rejected.
+
 ## Continuity (videos build on each other)
 - Before picking topics, check `storylines/` for active stories with new developments or milestones due.
 - Follow-up videos: hook references the last episode ("Minggu lalu IHSG anjlok 11%. Sekarang…"), show a small "PART n" badge, reuse the same chart/visual language, and link the previous video in the pinned comment.

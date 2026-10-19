@@ -8,8 +8,12 @@ Writes <video_dir>/qa-sync.json and prints a verdict:
         and ≤5% of words more than 150 ms late (slightly early reads as "in sync"; late reads as lag)
   FIX   otherwise (lists the worst lines)
 Offset = highlight start (timing + lead applied) minus the spoken word start. Positive = highlight late.
+
+Credits: speech-to-text is called only when build/voice.wav is new. The transcript is cached in
+build/stt.json with the audio's SHA-256, so re-checks after visual-only fixes, re-renders or a changed
+--lead are free. Only the voice track is sent (not the music mix), which is shorter to bill and cleaner to transcribe.
 """
-import difflib, json, os, re, sys, urllib.request, uuid
+import difflib, hashlib, json, os, re, sys, urllib.request, uuid
 from pathlib import Path
 import numpy as np
 
@@ -52,7 +56,17 @@ def main():
     lead = float(sys.argv[sys.argv.index("--lead") + 1]) if "--lead" in sys.argv else 0.08
     timing = json.loads((vdir / "build/timing.json").read_text())
     ours = [(l["id"], w["w"], w["start"]) for l in timing["lines"] for w in l["words"]]
-    heard = transcribe(vdir / "build/voice.wav")
+    wav = vdir / "build/voice.wav"
+    digest = hashlib.sha256(wav.read_bytes()).hexdigest()
+    cache = vdir / "build/stt.json"
+    c = json.loads(cache.read_text()) if cache.exists() else {}
+    if c.get("sha256") == digest:
+        heard = c["words"]
+        print("speech-to-text: cached (no credits used)")
+    else:
+        heard = transcribe(wav)
+        cache.write_text(json.dumps({"sha256": digest, "words": heard}, ensure_ascii=False))
+        print("speech-to-text: new transcript")
     sm = difflib.SequenceMatcher(None, [norm(o[1]) for o in ours], [norm(h["text"]) for h in heard], autojunk=False)
     pairs = []
     for op, i1, i2, j1, j2 in sm.get_opcodes():

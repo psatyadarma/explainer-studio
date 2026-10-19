@@ -1,10 +1,11 @@
 {
- "verdict": "FIX",
+ "verdict": "PASS",
  "lead": 0.08,
  "matched_words": 133,
  "of_words": 139,
  "median_offset_s": -0.091,
- "share_within_150ms": 0.789,
+ "share_in_window": 0.902,
+ "share_late_over_150ms": 0.008,
  "worst_lines": [
   {
    "line": "l8b",
@@ -396,7 +397,7 @@
   {
    "line": "l6",
    "word": "Asing",
-   "offset": 0.087
+   "offset": 0.067
   },
   {
    "line": "l6",
@@ -481,7 +482,7 @@
   {
    "line": "l8",
    "word": "ini",
-   "offset": -0.169
+   "offset": -0.189
   },
   {
    "line": "l8",
@@ -546,7 +547,7 @@
   {
    "line": "l8b",
    "word": "Juni",
-   "offset": 0.031
+   "offset": 0.051
   },
   {
    "line": "l8b",
