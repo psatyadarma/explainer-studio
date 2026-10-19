@@ -9,6 +9,7 @@ Updated: Mon 19 Oct 2026, 17:15 WITA. Each daily run is a fresh session with no 
 - **Early posts:** if a post time is before 10:00 WITA, send the finished video and captions the evening before.
 - **TikTok (until it is connected on 24 Oct):** with every finished video, also send the MP4 and a TikTok caption for manual posting, plus a sources comment to pin.
 - Never enter passwords, create accounts or change security settings for the user.
+- **Computer on:** the user leaves their computer on with Chrome signed in to the social accounts. An evening task ("Rangkumin Dong IG insights", 20:07 WITA, requires that computer) reads Instagram Insights (read-only) into knowledge/metrics.csv. **Morning check:** if a posted video's Instagram 24 h/72 h row is missing from metrics.csv after its evening, warn the user in the morning message that their computer/Chrome may have been off or signed out.
 
 ## How the daily run works (from Tue 20 Oct)
 - Every day at ~06:00 WITA a **fresh scheduled session** starts by itself (scheduled task "Rangkumin Dong daily"). That session is that day's chat: the user gets a notification and replies in it to pick, approve and say "OK post".
@@ -37,6 +38,7 @@ Updated: Mon 19 Oct 2026, 17:15 WITA. Each daily run is a fresh session with no 
 
 ## Scheduled
 - Daily ~06:00 WITA: "Rangkumin Dong daily" (fresh session).
+- Daily 20:07 WITA: "Rangkumin Dong IG insights" (needs the user's computer; read-only Instagram Insights → metrics.csv).
 - Mon 19 Oct 19:20 WITA (in the original chat): check that video #1 went live and send the links.
 - Sat 24 Oct 09:00 WITA (in the original chat): TikTok warm-up done. The user connects TikTok to Upload-Post profile "Rangkumindong"; then add "tiktok" to `brand.json` posting.platforms and stop the manual TikTok sends.
 
