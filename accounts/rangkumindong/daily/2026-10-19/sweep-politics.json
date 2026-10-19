@@ -1,7 +1,43 @@
 {
   "area": "politics",
   "run_date": "2026-10-19",
-  "checked": ["Presiden / Keppres / Perpres", "Wapres", "Istana / Mensesneg / rapat kabinet", "cabinet reshuffle", "DPR bills (RUU)", "DPR hearings / recess", "MPR / DPD", "MK", "MA", "Komisi Yudisial", "KPK", "Kejagung", "Polri / Kapolri", "TNI", "KPU / Bawaslu / pilkada", "party moves", "ministry policy (Kemnaker UMP)", "regional heads in national news", "demonstrations", "labour / UMP", "Komnas HAM", "storyline gibran-ijazah-mk", "storyline cabinet-reshuffles", "storyline corruption-cases", "storyline prabowo-2-years"],
+  "checked": [
+    "Presiden / Keppres / Perpres",
+    "Wapres",
+    "Istana / Mensesneg / rapat kabinet",
+    "cabinet reshuffle",
+    "DPR bills (RUU)",
+    "DPR hearings / recess",
+    "MPR / DPD",
+    "MK",
+    "MA",
+    "Komisi Yudisial",
+    "KPK",
+    "Kejagung",
+    "Polri / Kapolri",
+    "TNI",
+    "KPU / Bawaslu / pilkada",
+    "party moves",
+    "ministry policy (Kemnaker UMP)",
+    "regional heads in national news",
+    "demonstrations",
+    "labour / UMP",
+    "Komnas HAM",
+    "storyline gibran-ijazah-mk",
+    "storyline cabinet-reshuffles",
+    "storyline corruption-cases",
+    "storyline prabowo-2-years",
+    "Kompas (blocked)",
+    "Detik index",
+    "CNN Indonesia nasional index",
+    "Antara politik index",
+    "Tempo (stale page)",
+    "kpk.go.id (not readable)",
+    "mkri.id",
+    "kejaksaan.go.id (blocked)",
+    "RUU Pemilu",
+    "party moves"
+  ],
   "events": [
     {
       "date": "2026-10-15",
@@ -12,9 +48,18 @@
       "update_of": "E0048",
       "status": "verified",
       "sources": [
-        {"label": "InvestorTrust", "url": "https://investortrust.id/national/119591/jadi-tersangka-kpk-bupati-klaten-hamenang-dan-kepala-bpk-jateng-dijebloskan-ke-tahanan"},
-        {"label": "Justisio", "url": "https://justisio.com/berita/2026-10-16-kpk-tahan-bupati-klaten-hamenang-usai-ott-dugaan-suap-audit-bpk"},
-        {"label": "RCTI+", "url": "https://www.rctiplus.com/news/detail/inews/5495601/kpk-tetapkan-bupati-klaten-hamenang-wajar-ismoyo-tersangka-suap-dan-gratifikasi"}
+        {
+          "label": "InvestorTrust",
+          "url": "https://investortrust.id/national/119591/jadi-tersangka-kpk-bupati-klaten-hamenang-dan-kepala-bpk-jateng-dijebloskan-ke-tahanan"
+        },
+        {
+          "label": "Justisio",
+          "url": "https://justisio.com/berita/2026-10-16-kpk-tahan-bupati-klaten-hamenang-usai-ott-dugaan-suap-audit-bpk"
+        },
+        {
+          "label": "RCTI+",
+          "url": "https://www.rctiplus.com/news/detail/inews/5495601/kpk-tetapkan-bupati-klaten-hamenang-wajar-ismoyo-tersangka-suap-dan-gratifikasi"
+        }
       ],
       "why_it_matters": "A regional head and the state auditor's own provincial chief caught together shows how audit results can allegedly be bought, which affects how much people can trust local government accounts.",
       "video_potential": 4,
@@ -29,8 +74,14 @@
       "update_of": "E0047",
       "status": "verified",
       "sources": [
-        {"label": "iNews", "url": "https://www.inews.id/news/nasional/breaking-news-kpk-tahan-5-tersangka-terkait-ott-di-bnpb"},
-        {"label": "RCTI+", "url": "https://www.rctiplus.com/news/detail/inews/5493700/kpk-sudah-tetapkan-sejumlah-tersangka-usai-ott-bnpb--siapa-saja-"}
+        {
+          "label": "iNews",
+          "url": "https://www.inews.id/news/nasional/breaking-news-kpk-tahan-5-tersangka-terkait-ott-di-bnpb"
+        },
+        {
+          "label": "RCTI+",
+          "url": "https://www.rctiplus.com/news/detail/inews/5493700/kpk-sudah-tetapkan-sejumlah-tersangka-usai-ott-bnpb--siapa-saja-"
+        }
       ],
       "why_it_matters": "The case concerns emergency disaster funds, money meant for victims, and the agency head was replaced two days later.",
       "video_potential": 3,
@@ -45,8 +96,14 @@
       "update_of": "",
       "status": "verified",
       "sources": [
-        {"label": "Justisio", "url": "https://justisio.com/berita/2026-10-06-ruu-perampasan-aset-resmi-jadi-usul-inisiatif-dpr-target-rampung-15-de"},
-        {"label": "Metro TV (Antara)", "url": "https://www.metrotvnews.com/read/KRXCz69l-dpr-bahas-dim-ruu-perampasan-aset-november-2026"}
+        {
+          "label": "Justisio",
+          "url": "https://justisio.com/berita/2026-10-06-ruu-perampasan-aset-resmi-jadi-usul-inisiatif-dpr-target-rampung-15-de"
+        },
+        {
+          "label": "Metro TV (Antara)",
+          "url": "https://www.metrotvnews.com/read/KRXCz69l-dpr-bahas-dim-ruu-perampasan-aset-november-2026"
+        }
       ],
       "why_it_matters": "The law would let the state seize assets from corruption and other crimes without waiting for a criminal conviction; Habiburokhman said it must not be used against political opponents.",
       "video_potential": 4,
@@ -61,8 +118,14 @@
       "update_of": "",
       "status": "upcoming",
       "sources": [
-        {"label": "Metro TV (Antara)", "url": "https://www.metrotvnews.com/read/KRXCz69l-dpr-bahas-dim-ruu-perampasan-aset-november-2026"},
-        {"label": "Justisio", "url": "https://justisio.com/berita/2026-10-06-ruu-perampasan-aset-resmi-jadi-usul-inisiatif-dpr-target-rampung-15-de"}
+        {
+          "label": "Metro TV (Antara)",
+          "url": "https://www.metrotvnews.com/read/KRXCz69l-dpr-bahas-dim-ruu-perampasan-aset-november-2026"
+        },
+        {
+          "label": "Justisio",
+          "url": "https://justisio.com/berita/2026-10-06-ruu-perampasan-aset-resmi-jadi-usul-inisiatif-dpr-target-rampung-15-de"
+        }
       ],
       "why_it_matters": "This is the next checkpoint for whether the bill really passes within about five weeks.",
       "video_potential": 2,
@@ -77,8 +140,14 @@
       "update_of": "",
       "status": "partial",
       "sources": [
-        {"label": "RCTI+", "url": "https://www.rctiplus.com/news/detail/inews/5495619/ini-isi-rapat-kabinet-di-istana-bogor-jelang-2-tahun-pemerintahan-prabowo"},
-        {"label": "RCTI+ IDX Channel", "url": "https://www.rctiplus.com/news/detail/idxchannel/5495660/digelar-dua-jam--ini-isi-rapat-kabinet-prabowo-di-istana-bogor-jumat-malam"}
+        {
+          "label": "RCTI+",
+          "url": "https://www.rctiplus.com/news/detail/inews/5495619/ini-isi-rapat-kabinet-di-istana-bogor-jelang-2-tahun-pemerintahan-prabowo"
+        },
+        {
+          "label": "RCTI+ IDX Channel",
+          "url": "https://www.rctiplus.com/news/detail/idxchannel/5495660/digelar-dua-jam--ini-isi-rapat-kabinet-prabowo-di-istana-bogor-jumat-malam"
+        }
       ],
       "why_it_matters": "It sets the scene for the two-year evaluation on 20 Oct, a day after the stock market fell below 5,000 and a day after the eighth reshuffle.",
       "video_potential": 2,
@@ -93,7 +162,10 @@
       "update_of": "",
       "status": "partial",
       "sources": [
-        {"label": "Katadata", "url": "https://katadata.co.id/berita/industri/6ace17814957a/siap-siap-buruh-bakal-demo-tuntut-kenaikan-ump-2027-hingga-9-5"}
+        {
+          "label": "Katadata",
+          "url": "https://katadata.co.id/berita/industri/6ace17814957a/siap-siap-buruh-bakal-demo-tuntut-kenaikan-ump-2027-hingga-9-5"
+        }
       ],
       "why_it_matters": "It decides how much monthly pay rises for millions of workers in 2027, at a time when inflation is 3.28% and layoffs are being reported.",
       "video_potential": 4,
@@ -108,11 +180,192 @@
       "update_of": "",
       "status": "upcoming",
       "sources": [
-        {"label": "Katadata", "url": "https://katadata.co.id/berita/industri/6ace17814957a/siap-siap-buruh-bakal-demo-tuntut-kenaikan-ump-2027-hingga-9-5"}
+        {
+          "label": "Katadata",
+          "url": "https://katadata.co.id/berita/industri/6ace17814957a/siap-siap-buruh-bakal-demo-tuntut-kenaikan-ump-2027-hingga-9-5"
+        }
       ],
       "why_it_matters": "Wage announcements normally follow in November, and the Labour Minister's stance will show whether the demand is met.",
       "video_potential": 3,
       "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-18",
+      "category": "POL",
+      "event": "KPK names five suspects in the BNPB emergency-fund (DSP) sting case, including BNPB expert staff Bima Setiawan (younger brother of former BNPB head Suharyanto), and says it will look for other parties and trace the money flow; ICW urges the probe to reach higher officials.",
+      "key_numbers": "5 suspects: Bima Setiawan, Richard Erlangga, Gabriel Purwaka Sigit (PPK), Syifa Nrika Ghifarin, Gery Prasetiawan · first 20-day detention 14 Oct–2 Nov · KPK coordinating with Puspom TNI on alleged involvement of active TNI members · DSP funds meant for karhutla (Kalimantan, Papua), NTT earthquake, Aceh/Sumatra floods · no sums stated · allegations, not proven in court",
+      "storyline": "corruption-cases",
+      "update_of": "E0047",
+      "status": "partial",
+      "sources": [
+        {
+          "label": "CNN Indonesia",
+          "url": "https://www.cnnindonesia.com/nasional/20261018154518-12-1416743/kpk-pastikan-cari-pihak-lain-telusuri-aliran-uang-di-kasus-dsp-bnpb"
+        },
+        {
+          "label": "iNews",
+          "url": "https://www.inews.id/news/nasional/breaking-news-kpk-tahan-5-tersangka-terkait-ott-di-bnpb"
+        }
+      ],
+      "why_it_matters": "The money was meant for disaster victims, and KPK has not ruled out higher-ups or military personnel.",
+      "video_potential": 4,
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-10-18",
+      "category": "POL",
+      "event": "Former members of DPR Komisi II (2019-2024), led by Golkar's Ahmad Doli Kurnia, say Article 18(3) of KPU Regulation (PKPU) 19/2023, nicknamed 'pasal Gibran banget' by petitioners in the MK diploma case, was never discussed in their consultation meetings with the KPU; Doli says the committee cannot investigate how it got in, and that the content is KPU's responsibility.",
+      "key_numbers": "Group met in Jakarta on 18 Oct · consultation letters from KPU dated 15 and 19 Sep (2023) · consultation meeting 20 Sep (2023) · covered 4 PKPU · MK case 01/PHPU.PRES-XXIV/2026",
+      "storyline": "gibran-ijazah-mk",
+      "update_of": "E0044",
+      "status": "partial",
+      "sources": [
+        {
+          "label": "CNN Indonesia (former Komisi II)",
+          "url": "https://www.cnnindonesia.com/nasional/20261019063903-32-1416853/eks-komisi-ii-dpr-kumpul-tegaskan-pasal-gibran-tak-pernah-dibahas"
+        },
+        {
+          "label": "CNN Indonesia (Doli chronology)",
+          "url": "https://www.cnnindonesia.com/nasional/20261018154903-32-1416742/blak-blakan-ahmad-doli-soal-kronologi-pasal-gibran-banget-di-pkpu"
+        }
+      ],
+      "why_it_matters": "It reopens the question of how a rule on candidate requirements ended up in a KPU regulation, a month after the MK ruled the petition inadmissible.",
+      "video_potential": 4,
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-10-18",
+      "category": "POL",
+      "event": "Prabowo receives UN Secretary-General Antonio Guterres at his Hambalang residence; the Cabinet Secretariat says Guterres praised Indonesia's foreign policy and aid to Palestinians and said farewell ahead of the end of his term in December 2026; Guterres also to honour Indonesian peacekeepers and speak at the Foreign Ministry.",
+      "key_numbers": "50 Indonesian peacekeepers died in UN service · Guterres's term ends Dec 2026 · Indonesian troops about to deploy to MINUSCA (Central African Republic) · visit to TNI peacekeeping training centre (PMPP) Bogor · speech at Foreign Ministry",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {
+          "label": "ANTARA (Setkab)",
+          "url": "https://www.antaranews.com/berita/5795533/sekretariat-kabinet-ungkap-isi-pertemuan-presiden-prabowo-sekjen-pbb"
+        },
+        {
+          "label": "ANTARA",
+          "url": "https://www.antaranews.com/berita/5795545/sekretariat-kabinet-sekjen-pbb-bermalam-di-hambalang"
+        }
+      ],
+      "why_it_matters": "A visit by the UN chief on the eve of the government's second anniversary gives the President a diplomatic showcase.",
+      "video_potential": 2,
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-18",
+      "category": "POL",
+      "event": "Two pollsters release two-year satisfaction surveys on Prabowo: Parameter Politik Indonesia finds 65.2% satisfied and Adidaya Institute 60.3% (VP Gibran 51.4%), contrasting with the SMRC figure of 51.1% cited by critics.",
+      "key_numbers": "PPI: 65.2% satisfied (62.3% puas + 2.9% sangat puas), n=1,200, MoE ±2.83%, fieldwork 26 Sep–6 Oct · Adidaya: Prabowo 60.3% satisfied / 36.2% dissatisfied; Gibran 51.4% / 44.8%; government overall 52.8% / 30.4%, n=1,240, MoE ±2.78%, fieldwork 15–21 Sep · PPI also: 62.2% agree with reshuffles, 67% trust in government (headlines)",
+      "storyline": "prabowo-2-years",
+      "update_of": "E0036",
+      "status": "partial",
+      "sources": [
+        {
+          "label": "ANTARA (PPI)",
+          "url": "https://www.antaranews.com/berita/5794757/survei-ppi-652-persen-puas-kinerja-presiden-prabowo"
+        },
+        {
+          "label": "ANTARA (Adidaya)",
+          "url": "https://www.antaranews.com/berita/5795453/survei-adidaya-603-persen-publik-puas-kinerja-presiden-prabowo"
+        }
+      ],
+      "why_it_matters": "Different pollsters give very different pictures of public satisfaction, which makes a good 'how to read a survey' explainer for the anniversary.",
+      "video_potential": 4,
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-18",
+      "category": "POL",
+      "event": "Bakom cites BPS data for the two-year mark: poverty rate 8.07% in March 2026, 22.93 million poor people, 920,000 fewer than March 2025.",
+      "key_numbers": "8.07% (Mar 2026) · 22.93 juta people · -920,000 vs Mar 2025 · 2021-2025: 10.14% → 8.47% · extreme poverty 2.14% → 0.85% · Gini 0.384 → 0.375 · government claim via Bakom, no independent assessment in source",
+      "storyline": "prabowo-2-years",
+      "update_of": "E0036",
+      "status": "partial",
+      "sources": [
+        {
+          "label": "ANTARA",
+          "url": "https://www.antaranews.com/berita/5794781/dua-tahun-prabowo-gibran-kemiskinan-turun-jadi-807-persen"
+        }
+      ],
+      "why_it_matters": "Clear official numbers on poverty for the anniversary; worth setting beside critics' claims.",
+      "video_potential": 3,
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-18",
+      "category": "POL",
+      "event": "DPR Komisi II's working committee (Panja) on the Election Bill (RUU Pemilu), formed 29 Sep, is discussing ten strategic issues including whether the parliamentary threshold rises from 4% to 5% and whether regional heads stay directly elected or go to DPRD; no decision yet.",
+      "key_numbers": "threshold 4% → 5% (proposed, under discussion) · 10 strategic issues, 5 priorities (national/regional election split, threshold, direct vs DPRD election of regional heads, seat numbers, KPU/Bawaslu size) · Panja formed 29 Sep, chair Bahtra Banong named 8 Oct",
+      "storyline": "ruu-pemilu",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {
+          "label": "ANTARA",
+          "url": "https://www.antaranews.com/berita/5795093/ruu-pemilu-apa-yang-sedang-dipertaruhkan-di-dpr"
+        }
+      ],
+      "why_it_matters": "The rules decide how ordinary people vote for president, DPR and governors in the next election.",
+      "video_potential": 3,
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-10-18",
+      "category": "POL",
+      "event": "Makassar Mayor Munafri Arifuddin, who resigned from Golkar on 5 Oct, returns his candidacy form to run for chair of Partai Demokrat in South Sulawesi; the regional conference (Musda) is scheduled for 23 Oct in Makassar.",
+      "key_numbers": "resigned Golkar 5 Oct · candidacy form returned 18 Oct · Musda 23 Oct · claims backing from 24 Demokrat district/city branches (unverified)",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {
+          "label": "CNN Indonesia",
+          "url": "https://www.cnnindonesia.com/nasional/20261018162553-32-1416755/mundur-dari-golkar-walkot-makassar-maju-calon-ketua-demokrat-sulsel"
+        }
+      ],
+      "why_it_matters": "A sitting mayor moving parties shows how regional politicians reposition around the national coalition.",
+      "video_potential": 2,
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-17",
+      "category": "POL",
+      "event": "A school headmaster in Glagah, Lamongan is allegedly punched by a student's parent reported to be a TNI member after a dispute over a student's missing socks; the victim, backed by LBH PCNU Lamongan, reported it to Subdenpom TNI Lamongan.",
+      "key_numbers": "incident 17 Oct · reported same evening · reported injuries: facial bruising near the eye, fractured nose · official forensic report (visum) pending · no TNI statement found · perpetrator's TNI membership as reported, not confirmed",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {
+          "label": "Detik",
+          "url": "https://news.detik.com/berita/d-8713370/kepsek-di-lamongan-diduga-dianiaya-oknum-tni-usai-tegur-siswa-soal-kaos-kaki"
+        }
+      ],
+      "why_it_matters": "A teacher allegedly assaulted by a soldier raises the question of how military-linked cases are handled, in military rather than civilian courts.",
+      "video_potential": 3,
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-10-16",
+      "category": "POL",
+      "event": "Polda Metro Jaya examines a police officer suspected of fatally shooting a fellow officer at the Polairud base in Pondok Cabe, South Tangerang; the victim's family lawyer calls it premeditated and says more than one person may be involved.",
+      "key_numbers": "shooting c. 05:30 WIB 16 Oct · handled by Subdit Jatanras Ditreskrimum Polda Metro Jaya · family lawyer: bayonet and firearm seized, may not involve only one person (allegation) · ranks reported inconsistently",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {
+          "label": "CNN Indonesia",
+          "url": "https://www.cnnindonesia.com/nasional/20261018202650-12-1416810/polisi-ditahan-atas-dugaan-bunuh-sesama-anggota-polisi"
+        }
+      ],
+      "why_it_matters": "A death inside the police force, days after a new Kapolri took office, puts internal discipline in the spotlight.",
+      "video_potential": 2,
+      "sensitivity": "high"
     }
   ],
   "gaps": [
@@ -122,6 +375,13 @@
     "Third October reshuffle (Kompas 16 Oct analysis says three in October) not identified; the 8th (15 Oct) used Keppres 105/106 for TNI posts per RCTI+, which conflicts with 105 cited for the 1 Oct reshuffle: Keppres numbers unverified.",
     "Demo in front of DPR 6-8 Oct (E0012): Kompas page blocked to fetch; who and what demands still unverified.",
     "Menaker Yassierli's response to the 2027 UMP demand not found (the Fortune article found was from Aug 2025 about 2026 UMP).",
-    "Prabowo's programme for 20 Oct anniversary (ceremony, speech, travel) not found."
+    "Prabowo's programme for 20 Oct anniversary (ceremony, speech, travel) not found.",
+    "Second pass: no news found for Kejagung since 15 Oct (kejaksaan.go.id blocked; no Kejagung item on Detik/CNN/Antara index pages).",
+    "No news found for MK since 6 Oct ruling beyond the Komisi II 'pasal Gibran' claim (mkri.id page showed no headlines); no news found for MA/Komisi Yudisial since the first pass.",
+    "No news found for KPU/Bawaslu actions or pilkada on 17-19 Oct (only RUU Pemilu panja and the old PKPU 19/2023 article); no news found for Wapres Gibran's own activities 17-19 Oct; no Keppres/Perpres found.",
+    "kompas.com and kpk.go.id could not be read; tempo.co returned a stale 2017 page; Antara index timestamps are relative so event dates are approximate.",
+    "CNN/Doli articles on PKPU 19/2023 contain inconsistent dates (e.g. consultation dates read as 2026 by the fetcher, MK Decision 90 'October 16'); I used 2023 consultation dates, but the chronology needs checking against the original text before any video.",
+    "Guterres meeting date unclear (Antara says Minggu (19/10) but published Mon 19 Oct 05:22): treated as 18 Oct.",
+    "Seen but not used: Napoleon Bonaparte (ex-Kadivhubinter, convicted in Djoko Tjandra red-notice bribery) died 18 Oct, buried Cikeas 19 Oct (Detik); Jokowi birthday greeting to Prabowo 18 Oct; Golkar legislator karhutla national disaster call (E0034, already in DB)."
   ]
 }

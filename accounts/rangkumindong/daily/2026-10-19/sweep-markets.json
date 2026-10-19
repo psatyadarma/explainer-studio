@@ -1,0 +1,262 @@
+{
+  "area": "markets",
+  "run_date": "2026-10-19",
+  "checked": [
+    "IHSG close and movers (16 Oct close, 19 Oct open)",
+    "Foreign net buy/sell (Friday session and YTD by stock)",
+    "LQ45 / big banks / Barito-group stocks",
+    "BEI/IDX announcements (ARB change, MSCI clarification, IPO rules)",
+    "Rupiah vs USD (spot; JISDOR not retrievable), BI intervention",
+    "SBN yields (no fresh figure found)",
+    "BI rate / RDG schedule and BI statements",
+    "OJK rules and sanctions (DSSA/BREN/CUAN fines, September multifinance/fintech sanctions)",
+    "LPS (nothing new found)",
+    "BPS releases and calendar (trade balance, inflation, release timing)",
+    "Kemenkeu / APBN (September realisation)",
+    "Subsidies, fuel and electricity prices (no change beyond E0005)",
+    "Commodities: coal HBA, CPO reference price, nickel (no fresh price found), oil Brent, gold Antam (E0033 already known)",
+    "MSCI / FTSE index changes",
+    "Rating agencies S&P / Moody's / Fitch (no new action in window)",
+    "Global with Indonesia impact: Fed / FOMC, Hormuz and oil, US tariffs (nothing fresh found), China (nothing fresh found)",
+    "Storylines: msci-reclassification, rupiah, fuel-oil, tax-policy (MKT/ECO/GLB)"
+  ],
+  "events": [
+    {
+      "date": "2026-10-19",
+      "category": "MKT",
+      "event": "BEI cuts the lower auto-rejection limit (ARB) to an asymmetric 7% for all stocks priced above Rp10, effective 19 October through 31 December 2026, with OJK support, after Friday's crash.",
+      "key_numbers": "ARB 15% → 7% (price tiers Rp11–200, >Rp200–5,000, >Rp5,000) · Rp1–10 tier unchanged at Rp1 · SK Kep-00157/BEI/10-2026 replaces Kep-00136/BEI/09-2026 · valid 19 Oct–31 Dec 2026, then re-evaluated · IHSG fell 11.57% to 5,185.11 on 16 Oct, largest one-day drop since 1998",
+      "storyline": "msci-reclassification",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "Bisnis", "url": "https://market.bisnis.com/read/20261019/7/2013651/bei-pangkas-batas-auto-rejection-bawah-arb-jadi-asimetris-7"},
+        {"label": "KabarBursa (market page headline)", "url": "https://www.kabarbursa.com/market-hari-ini"}
+      ],
+      "why_it_matters": "A saham can now fall at most 7% a day instead of 15%, which slows panic selling but also traps retail investors who want to exit.",
+      "video_potential": 4,
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-16",
+      "category": "MKT",
+      "event": "IHSG week of 12-16 Oct: index lost 14.91% in one week, with the 16 Oct close (-11.57%) the biggest one-day fall since the 1998 crisis; banks fell about 15% in a single session.",
+      "key_numbers": "Weekly -14.91% from 6,093.76 (9 Oct) to 5,185.10 (derived) · 16 Oct: -11.57%, intraday low 5,185.11, high 5,404.51, 812 fell / 11 rose / 140 unchanged · record one-day fall 8 Jan 1998 was -11.95% · BBCA -14.81% to Rp5,175, BBRI -14.84% to Rp2,640, BMRI -14.82% to Rp3,390, BBNI -12.90% to Rp2,970 · foreign net sell on 16 Oct: BBCA Rp2.3 T, BBRI Rp1.1 T, BMRI Rp868 miliar · foreign YTD net sell Rp110.7 T (big four banks about Rp68 T; BBCA about Rp34.4 T) per RTI · market value of about Rp1,000 T reportedly erased within an hour (headline only)",
+      "storyline": "msci-reclassification",
+      "update_of": "E0026",
+      "status": "verified",
+      "sources": [
+        {"label": "Bisnis (close)", "url": "https://market.bisnis.com/read/20261016/7/2013245/ihsg-ditutup-ambles-1157-ke-5185-usai-peringatan-msci"},
+        {"label": "Bisnis (foreign flows YTD)", "url": "https://market.bisnis.com/read/20261018/7/2013517/ihsg-ambruk-asing-net-sell-jumbo-di-saham-big-banks-bbca-bmri"},
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/ekonomi/20261019065409-92-1416856/ihsg-diramal-turun-lagi-hari-ini"}
+      ],
+      "why_it_matters": "Savings and pension funds that hold bank shares lost about a seventh of their value in five trading days.",
+      "video_potential": 4,
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-16",
+      "category": "MKT",
+      "event": "OJK imposes Rp2.1 trillion in administrative fines on DSSA (alleged planned stock manipulation 2023-2026), BREN and CUAN (alleged IPO allocations to affiliates under concealed identities), the same afternoon the IHSG crashed.",
+      "key_numbers": "DSSA Rp1.5 T · BREN Rp500 miliar · CUAN Rp100 miliar · total Rp2.1 T · DSSA probe summoned ≥12 securities directors, 15 individuals, 11 foreign entities · BREN/CUAN IPO probe: 4 underwriters, 3 custodian banks · Articles 91, 92 (DSSA) and 107 (BREN/CUAN) of the Capital Markets Law · a securities-company director's licence frozen · OJK sanctioned 835 parties Jan–mid-Oct 2026, total >Rp390 miliar · OJK says the fines come from an ongoing examination, not only recent market moves",
+      "storyline": "msci-reclassification",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "RMOL", "url": "https://rmol.id/read/2026/10/16/725208/ojk-denda-dssa-bren-cuan-rp2-1-triliun-sanksi-835-pihak-tembus-rp390-miliar"},
+        {"label": "Pasardana", "url": "https://pasardana.id/news/2026/10/16/geger-pasar-modal-ojk-denda-dssa-rp1-5-triliun-bren-rp500-miliar-dan-cuan-rp100-miliar"},
+        {"label": "Investortrust", "url": "https://investortrust.id/market/119535/ojk-jatuhkan-denda-rp-2-1-triliun-ke-dssa-bren-dan-cuan"}
+      ],
+      "why_it_matters": "These are exactly the 'coordinated trading' and 'opaque ownership' issues MSCI cited, so the fines show why foreign index providers are worried.",
+      "video_potential": 5,
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-10-18",
+      "category": "MKT",
+      "event": "OJK and the exchange SROs hold a Sunday 'consolidation dialogue' at BEI with analysts, economists, market players and finfluencers; BEI says it was caught off guard by MSCI and lists reform and fundamentals data in rebuttal.",
+      "key_numbers": "BEI, OJK and Danantara met MSCI and other index providers in Bangkok on 13 Oct with no warning signal · MSCI usually announces its review in early November (around 12 Nov), this came about a month earlier · disclosure threshold cut 5% → 1% · investor categories 9 → 39, published monthly on the 2nd · high-shareholding-concentration (HSC) board now covers market cap >Rp5 T (was Rp10 T), HSC stocks removed from LQ45, IDX30, IDX80 · tick size 50 → 1 from 28 Sep 2026 · short selling introduced · Q2 2026 GDP 5.29% · listed-company June revenue +15.94%, net income +16.25% · 74% of issuers profitable · P/E 9.4x vs Singapore 18.5x · market cap US$589 B (2nd in ASEAN) · 31.1 M investors (11.0% of population) · BEI says FTSE Russell kept Indonesia as secondary emerging and removed it from its Watch List in Oct 2026 (single-source claim)",
+      "storyline": "msci-reclassification",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "Bisnis (OJK dialogue)", "url": "https://market.bisnis.com/read/20261018/7/2013634/ojk-panggil-analis-ekonom-hadapi-tekanan-ihsg-dan-wacana-msci"},
+        {"label": "Bisnis (BEI clarification)", "url": "https://market.bisnis.com/read/20261019/7/2013640/bei-akan-melakukan-klarifikasi-ke-msci-hari-ini-investor-menyusul"},
+        {"label": "Katadata (BEI surprised)", "url": "https://katadata.co.id/finansial/bursa/6ad1c65891084/bei-kaget-msci-ancam-turunkan-status-pasar-ri-pengumuman-juga-lebih-cepat"}
+      ],
+      "why_it_matters": "Regulators are arguing that Indonesia's company earnings are strong and only the market structure is the problem, which is the core of the debate over the crash.",
+      "video_potential": 3,
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-19",
+      "category": "MKT",
+      "event": "BEI plans a virtual meeting with MSCI on the afternoon of 19 October to seek clarification of the Standalone proposal, followed by a press conference; institutional investors plan their own clarification calls.",
+      "key_numbers": "Zoom meeting afternoon 19 Oct (time not given) · BEI press conference to follow · MSCI feedback deadline 30 Apr 2027 · final decision by 30 Jun 2027",
+      "storyline": "msci-reclassification",
+      "update_of": "",
+      "status": "upcoming",
+      "sources": [
+        {"label": "Bisnis", "url": "https://market.bisnis.com/read/20261019/7/2013640/bei-akan-melakukan-klarifikasi-ke-msci-hari-ini-investor-menyusul"}
+      ],
+      "why_it_matters": "Whatever BEI says after the call can move the market tomorrow morning, so it decides how the story reads in the next video.",
+      "video_potential": 3,
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-16",
+      "category": "MKT",
+      "event": "Rupiah closes above Rp18,000 per USD on risk-off over the MSCI proposal; Bank Indonesia says it is intervening in NDF, spot, DNDF and buying SBN in the secondary market.",
+      "key_numbers": "Spot close Rp18,025/USD (-87 pts, -0.49%, Doo Financial Futures) · morning level Rp18,073 (-135 pts, -0.75%) · BI forex reserves US$146.3 B end-Sep 2026 · Bisnis short-term range forecast Rp18,000–18,200 · most Asian currencies strengthened that day (KRW +0.66%)",
+      "storyline": "rupiah",
+      "update_of": "E0028",
+      "status": "verified",
+      "sources": [
+        {"label": "RMOL (BI statement)", "url": "https://rmol.id/read/2026/10/16/725173/rupiah-jebol-rp18-073-per-dolar-as-bi-gencarkan-intervensi-valas-hingga-sbn"},
+        {"label": "Bisnis (19 Oct rupiah wrap)", "url": "https://market.bisnis.com/read/20261019/93/2013650/nilai-tukar-rupiah-terhadap-dolar-as-hari-ini-senin-19-oktober-2026"}
+      ],
+      "why_it_matters": "A weaker rupiah makes imported fuel, food and gadgets pricier for ordinary households.",
+      "video_potential": 3,
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-18",
+      "category": "BIZ",
+      "event": "Forbes-based figures reported by Bisnis show Prajogo Pangestu's net worth falling to about US$11.4 billion from US$39.8 billion at end-2025, as Barito-group stocks collapse; his affiliated issuers also plan buybacks of up to Rp2.5 trillion through December.",
+      "key_numbers": "Net worth US$39.8 B (end-2025) → US$11.4 B (about Rp205.5 T at Rp18,027), down about US$28 B / Rp504 T · BREN market cap Rp1,297 T (end-2025) → Rp387.98 T (Sep) → Rp248.17 T now, share price Rp1,855, -80.88% YTD (peak Rp9,700) · CUAN Rp60.7 T, -76.92% YTD · Barito group Rp610.65 T = 6.66% of IDX market cap · Robert Budi Hartono US$13.2 B (Forbes Real Time, 18 Oct), Prajogo now second · buyback up to Rp2.5 T by BREN, CUAN, BRPT through end-Dec 2026 (headline only)",
+      "storyline": "msci-reclassification",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "Bisnis", "url": "https://market.bisnis.com/read/20261018/7/2013550/imbas-msci-kekayaan-prajogo-menguap-rp500-triliun-sejak-awal-2026"},
+        {"label": "KabarBursa (buyback headline)", "url": "https://www.kabarbursa.com/market-hari-ini"}
+      ],
+      "why_it_matters": "It shows how much of the index's value sat in a few tightly held conglomerate stocks.",
+      "video_potential": 4,
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-10-21",
+      "category": "ECO",
+      "event": "Bank Indonesia holds its quarterly RDG on 20-21 October with the BI-Rate decision due on the second day (21 October), under rupiah above Rp18,000 and market turmoil.",
+      "key_numbers": "BI-Rate 5.75% (held 23 Sep, highest since Apr 2025) · decision/press conference 21 Oct · bank credit growth data also due 21 Oct · M2 money supply due 23 Oct · next RDG 17-18 Nov (announcement 18 Nov) · BI forex reserves US$146.3 B (end-Sep) · September inflation 3.28% y/y · economist consensus for this meeting not found",
+      "storyline": "rupiah",
+      "update_of": "E0037",
+      "status": "upcoming",
+      "sources": [
+        {"label": "Bisnis (RDG schedule 2026)", "url": "https://finansial.bisnis.com/read/20251222/11/1938911/jadwal-rapat-dewan-gubernur-rdg-bank-indonesia-2026-ini-daftar-lengkap-tanggal-resminya"},
+        {"label": "Bisnis (IHSG outlook, 21 Oct data)", "url": "https://market.bisnis.com/read/20261019/189/2013648/rekomendasi-saham-dan-pergerakan-ihsg-hari-ini-senin-19-oktober-2026"}
+      ],
+      "why_it_matters": "A rate hike would defend the rupiah but make mortgages and business loans costlier; a hold risks a weaker rupiah.",
+      "video_potential": 5,
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-28",
+      "category": "GLB",
+      "event": "US Fed meets 28 October after September minutes showed a majority of officials favouring another rate hike before year-end, with US Treasury yields at their highest since 2002.",
+      "key_numbers": "FOMC 28 Oct and 9 Dec 2026 · 16 of 18 officials expect at least one more hike in 2026 · core PCE Aug 3.0% y/y, headline PCE 3.4% y/y (target 2%) · Treasury yields highest since 2002 · current fed funds level not stated in source",
+      "storyline": "",
+      "update_of": "",
+      "status": "upcoming",
+      "sources": [
+        {"label": "Bisnis (FOMC minutes)", "url": "https://market.bisnis.com/read/20261008/7/2010804/fomc-minutes-buka-peluang-kenaikan-bunga-ihsg-dibayangi-tekanan"},
+        {"label": "BabyPips (minutes headline)", "url": "https://www.babypips.com/news/headline-sept-fomc-minutes-support-hawkish-stance-2026-10-08"}
+      ],
+      "why_it_matters": "Higher US rates pull money out of emerging markets such as Indonesia and pressure the rupiah on top of the MSCI worry.",
+      "video_potential": 3,
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-16",
+      "category": "GLB",
+      "event": "Brent climbs to about US$108 per barrel, the highest since mid-September, with Hormuz flows well below normal and Houthi attacks on Saudi Arabia adding to supply fears.",
+      "key_numbers": "Brent $108.28 on 16 Oct, up more than 5% on the week, below $109 on 18 Oct (Trading Economics stream) · Brent $106.65 and WTI $93.74 on 12 Oct (Reuters via KabarBursa) · Hormuz flows 11.62 M bpd in week to 13 Oct vs 17.15 M baseline · Houthi missile attack on Riyadh airport 10 Oct reportedly killed 13 · EIA Q4 2026 Brent forecast about $105; Goldman Dec 2026 forecast $90 · Pertamina kept October fuel prices unchanged",
+      "storyline": "fuel-oil",
+      "update_of": "E0001",
+      "status": "partial",
+      "sources": [
+        {"label": "Trading Economics", "url": "https://tradingeconomics.com/commodity/brent-crude-oil/news/581743"},
+        {"label": "KabarBursa (Reuters)", "url": "https://www.kabarbursa.com/market-hari-ini/houthi-gempur-arab-saudi-harga-minyak-brent-naik-ke-level-usd106-per-barel"}
+      ],
+      "why_it_matters": "Oil above US$100 and a weak rupiah squeeze Pertamina and the budget, raising the odds of higher fuel prices later.",
+      "video_potential": 3,
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-01",
+      "category": "ECO",
+      "event": "BPS reported the August 2026 trade surplus on 1 October; BPS now publishes trade data at the start of the month, so the scheduled 15 October September release (E0023) does not exist and September data is expected around early November.",
+      "key_numbers": "Aug 2026 surplus US$3.55 B · exports US$26.61 B (+6.72% y/y) · imports US$23.06 B (+19.09% y/y) · Jan–Aug surplus US$7.25 B, exports US$193.64 B (+4.74%), imports US$186.39 B (+19.84%) · July 2026 surplus US$120 juta after two deficit months · September release date inferred, not confirmed",
+      "storyline": "",
+      "update_of": "E0023",
+      "status": "partial",
+      "sources": [
+        {"label": "ANTARA", "url": "https://www.antaranews.com/berita/5766099/bps-catat-neraca-dagang-ri-hingga-agustus-surplus-725-miliar-dolar-as"},
+        {"label": "Investortrust (why BPS moved the schedule)", "url": "https://investortrust.id/macro/67628/alasan-bps-pindah-jadwal-penyampaian-data-neraca-perdagangan-ke-awal-bulan"},
+        {"label": "RCTI+ (July surplus)", "url": "https://www.rctiplus.com/news/detail/terkini/5463554/usai-defisit-dua-bulan--neraca-perdagangan-ri-surplus-usd120-juta-di-juli-2026"}
+      ],
+      "why_it_matters": "Imports growing about 19% a year while exports grow under 5% is why the trade surplus keeps shrinking and the rupiah lacks support.",
+      "video_potential": 2,
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-09",
+      "category": "ECO",
+      "event": "Kemenkeu reports the September 2026 APBN deficit at Rp319 trillion (1.24% of GDP), and Menkeu Suahasil Nazara says the budget is on track for a year-end deficit near 2.8%.",
+      "key_numbers": "Deficit Rp319 T = 1.24% of GDP (0.9% in Aug) vs full-year target Rp689.1 T (2.68%) · revenue Rp2,341.5 T = 74.2% of target, +25.5% y/y · tax Rp1,847.7 T · PNBP Rp492.3 T · spending Rp2,660.5 T = 69.2%, +19% y/y · primary balance surplus Rp125.5 T · year-end deficit projection about 2.8% · deficit 14.13% lower than Sep 2025 (Rp371.5 T)",
+      "storyline": "",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "Fortune IDN", "url": "https://www.fortuneidn.com/news/apbn-september-2026-defisit-rp319-triliun-menkeu-klaim-masih-on-track-00-my5jv-0tlf92"},
+        {"label": "DDTCNews", "url": "https://news.ddtc.co.id/berita/nasional/1823136/defisit-apbn-tembus-rp319-triliun-menkeu-suahasil-masih-on-track"}
+      ],
+      "why_it_matters": "The year-end projection of 2.8% is close to the legal 3% ceiling, which matters for rating agencies and SBN yields.",
+      "video_potential": 2,
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-05",
+      "category": "ECO",
+      "event": "OJK sanctioned 35 multifinance, 8 venture capital, 8 P2P-lending (pinjol) and 18 pawn companies in September 2026.",
+      "key_numbers": "69 entities (35 + 8 + 8 + 18) · 33 fines · 112 written warnings · period September 2026, reported 5 Oct",
+      "storyline": "consumer-health",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "Kontan", "url": "https://keuangan.kontan.co.id/news/ojk-beri-sanksi-kepada-35-multifinance-dan-8-fintech-lending-pada-september-2026"}
+      ],
+      "why_it_matters": "Pinjol and multifinance sanctions matter more now that default risk among borrowers is rising.",
+      "video_potential": 2,
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-01",
+      "category": "ECO",
+      "event": "Indonesia sets higher CPO reference price for October 2026 and a slightly lower first-half-October coal reference price (HBA).",
+      "key_numbers": "CPO reference US$1,042.15/t (+US$34.64, +3.44% from US$1,007.51) · CPO export duty US$178/t · export levy 12.5% (about US$130.27/t) · HBA (6,322 kcal) US$122.52/t vs 123.54 · HBA I US$90.60 vs 93.94 · HBA II US$63.45 vs 63.17 · HBA III US$43.84 vs 44.53 · Kepmen ESDM 384.K/MB.01/MEM.B/2026",
+      "storyline": "",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "RCTI+ (IDX Channel)", "url": "https://www.rctiplus.com/news/detail/idxchannel/5485305/harga-referensi-cpo-naik-di-oktober-2026--bea-keluar-usd178-per-metrik-ton"},
+        {"label": "Akurat", "url": "https://www.akurat.co/riil/895790/harga-batu-bara-acuan-oktober-2026-turun-ini-rinciannya"}
+      ],
+      "why_it_matters": "These reference prices set export duties and royalties, which feed state revenue from palm oil and coal.",
+      "video_potential": 1,
+      "sensitivity": "normal"
+    }
+  ],
+  "gaps": [
+    "IHSG closing level for Monday 19 Oct not available at run time (about 14:40 WIB, market still open); only the open is known. Open figures differ slightly: Fortune IDN -4.31% to 4,961.88 (E0032) vs KabarBursa -4.24% to 4,965.11.",
+    "JISDOR for 16 and 19 Oct not retrievable; spot rupiah figures only. No SBN yield figure for 16-19 Oct found.",
+    "MSCI consultation date: MSCI PR and our storyline say 15 Oct; Katadata text says 16 Oct. MSCI Indonesia weight in EM index: Bisnis gives 1.16% (31 Dec 2025) to 0.43% (30 Sep 2026), our E0026 says 1.10%; Bisnis also gives free-float cap -55% (US$119.1 B to US$53.4 B) and constituents 18 to 9. Check the MSCI PR before putting the weight number on screen.",
+    "A headline refers to a potential Rp54 T foreign outflow from MSCI reclassification; the article text was not read, so the figure is unverified. Bisnis analyst quote says most of the weight decline has already happened.",
+    "Political reactions seen only as headlines, not read: DPR Banggar chair Said Abdullah criticising MSCI (Bisnis 18 Oct; note a similar 29 Jan 2026 CNN article exists), a Wamenko Perekonomian 'serok sekarang' comment (Investortrust), Danantara buying stocks. Could be a political-sensitivity angle for a follow-up.",
+    "Trading Economics Brent stream mixes dates (labels 18 Oct as Monday; 18 Oct 2026 is a Sunday), so the 18 Oct level is uncertain. No Brent price for 19 Oct found.",
+    "Fed funds rate level and Fed-hike pricing not stated in sources; UOB headline 'more hikes ahead after October pause' not read.",
+    "E0022 Indonesia retail sales (14 Oct) actual not found. No fresh news found on US tariffs, China economy, nickel price, LPS, rating-agency actions (Moody's and Fitch outlooks were revised to negative in Feb and Mar 2026; S&P affirmed on 13 Jul) or SBN auctions.",
+    "Prajogo wealth figures are Forbes numbers as reported by one outlet (Bisnis); BREN market-cap path not cross-checked against IDX data."
+  ]
+}
