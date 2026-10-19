@@ -18,9 +18,11 @@ SR = 44100
 
 
 def key():
+    """Key from env or ~/.config/explainer-studio/.env. If neither exists, return None:
+    the cloud environment's network secret (header xi-api-key on api.elevenlabs.io) is attached by the proxy."""
     k = os.environ.get("ELEVENLABS_API_KEY")
-    if not k:
-        env = Path.home() / ".config/explainer-studio/.env"
+    env = Path.home() / ".config/explainer-studio/.env"
+    if not k and env.exists():
         for line in env.read_text().splitlines():
             if line.startswith("ELEVENLABS_API_KEY="):
                 k = line.split("=", 1)[1].strip()
@@ -42,7 +44,7 @@ def tts(text, voice_id, model, direction, settings=None):
         body["language_code"] = "id"
     req = urllib.request.Request(
         f"https://api.elevenlabs.io/v1/text-to-speech/{voice_id}/with-timestamps?output_format=mp3_44100_128",
-        data=json.dumps(body).encode(), headers={"xi-api-key": key(), "Content-Type": "application/json"})
+        data=json.dumps(body).encode(), headers={**({"xi-api-key": key()} if key() else {}), "Content-Type": "application/json"})
     r = json.load(urllib.request.urlopen(req, timeout=300))
     off = len(direction) + 1 if direction else 0
     al = r.get("normalized_alignment") or r["alignment"]

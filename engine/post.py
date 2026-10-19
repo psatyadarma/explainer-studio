@@ -19,14 +19,14 @@ API = "https://api.upload-post.com/api/upload"
 
 
 def key():
+    # Key from env or ~/.config/explainer-studio/.env; if absent, the cloud environment's network secret
+    # (Authorization: Apikey ... on api.upload-post.com) is attached by the proxy.
     k = os.environ.get("UPLOAD_POST_API_KEY")
-    if not k:
-        env = Path.home() / ".config/explainer-studio/.env"
+    env = Path.home() / ".config/explainer-studio/.env"
+    if not k and env.exists():
         for line in env.read_text().splitlines():
             if line.startswith("UPLOAD_POST_API_KEY="):
                 k = line.split("=", 1)[1].strip()
-    if not k:
-        sys.exit("UPLOAD_POST_API_KEY missing")
     return k
 
 
@@ -74,7 +74,7 @@ def main():
     if dry:
         print(json.dumps({"fields": fields, "video": str(video)}, indent=1, ensure_ascii=False)); return
     body, ctype = multipart(fields, [("video", video)])
-    req = urllib.request.Request(API, data=body, headers={"Authorization": f"Apikey {key()}", "Content-Type": ctype,
+    req = urllib.request.Request(API, data=body, headers={**({"Authorization": f"Apikey {key()}"} if key() else {}), "Content-Type": ctype,
                                                           "Idempotency-Key": req_id})
     try:
         r = json.load(urllib.request.urlopen(req, timeout=600))
