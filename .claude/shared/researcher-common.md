@@ -35,14 +35,22 @@ Path: `accounts/rangkumindong/daily/<RUN_DATE>/sweep-<AREA>.json` (the coordinat
       "status": "verified|partial|upcoming",
       "sources": [{"label": "Outlet", "url": "https://..."}],
       "why_it_matters": "One line for a general Indonesian audience",
-      "video_potential": 1,
+      "signals": {"spreading": 0, "wallet": 0, "surprise": 0, "visual": 0, "fresh": 0, "rivals": 0},
+      "spreading_evidence": "where you saw it trending, e.g. \"CNBC terpopuler #2\", or empty",
       "sensitivity": "normal|high"
     }
   ],
   "gaps": ["things you saw mentioned but could not verify"]
 }
 ```
-- `video_potential` 1–5: how well this would work as a 60–90 s explainer today (surprise, relevance to ordinary people, clear numbers, visual potential, trending).
+- `signals`, each 0, 1 or 2 (the virality rubric; see playbook → Topic selection):
+  - `spreading`: 2 = on an outlet's most-read list or reported trending on X/TikTok today; 1 = widely covered by several outlets; 0 = niche.
+  - `wallet`: 2 = changes what many ordinary people pay, earn or can do; 1 = affects a group (investors, sellers, a region); 0 = no direct effect.
+  - `surprise`: 2 = a shock number, a reversal, a conflict, or something people believe wrongly; 1 = notable; 0 = expected.
+  - `visual`: 2 = one clear number, map or chart that lands in 3 seconds; 1 = needs some setup; 0 = abstract.
+  - `fresh`: 2 = happened today/yesterday or has a date in the next 3 days; 1 = this week; 0 = older.
+  - `rivals`: 2 = few explainer accounts have covered it; 1 = some; 0 = everyone has. 
+  Score the angle that would make the best video, not the dullest reading of the story.
 - `sensitivity: high` for allegations, ongoing court cases, elections, SARA, named private individuals.
 - Aim for 5–15 events. Quality over quantity: no duplicates, no opinion pieces as events.
 - Validate before finishing: `python3 -I engine/day.py check accounts/rangkumindong/daily/<RUN_DATE>/sweep-<AREA>.json`. Fix until it prints OK.

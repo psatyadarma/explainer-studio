@@ -64,8 +64,11 @@ def check(path):
         src = e.get("sources") or []
         if not src or not all(isinstance(s, dict) and str(s.get("url", "")).startswith("http") and s.get("label") for s in src):
             errs.append(f"{p}.sources must be a list of {{label, url}} with real http(s) URLs")
-        if not isinstance(e.get("video_potential", 0), int) or not 1 <= e.get("video_potential", 0) <= 5:
-            errs.append(f"{p}.video_potential must be an integer 1-5")
+        sig = e.get("signals")
+        keys = ("spreading", "wallet", "surprise", "visual", "fresh", "rivals")
+        legacy = sig is None and isinstance(e.get("video_potential"), int) and str(j.get("run_date", "")) < "2026-10-21"
+        if not legacy and (not isinstance(sig, dict) or any(sig.get(k) not in (0, 1, 2) for k in keys)):
+            errs.append(f"{p}.signals must have {', '.join(keys)}, each 0, 1 or 2")
         if e.get("sensitivity", "normal") not in ("normal", "high"):
             errs.append(f"{p}.sensitivity must be normal|high")
     if errs:

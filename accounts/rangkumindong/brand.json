@@ -1,137 +1,140 @@
 {
-  "name": "Rangkumin Dong",
-  "handles": {
-    "instagram": "@rangkumindong",
-    "tiktok": "@rangkumindong",
-    "youtube": "@RangkuminDong-d2m"
+ "name": "Rangkumin Dong",
+ "handles": {
+  "instagram": "@rangkumindong",
+  "tiktok": "@rangkumindong",
+  "youtube": "@RangkuminDong-d2m"
+ },
+ "tagline": "Berita ribet? Rangkumin dong.",
+ "language": "id",
+ "style": "sticker",
+ "colors": {
+  "accent": "#FF5A36",
+  "highlight": "#FFD23F",
+  "paper": "#F3EFE6",
+  "ink": "#1B2430",
+  "slate": "#3E5568"
+ },
+ "length_seconds": [
+  60,
+  90
+ ],
+ "topic_rotation": {
+  "mon": "pasar, ekonomi & bisnis",
+  "tue": "teknologi",
+  "wed": "viral (berita umum yang lagi ramai)",
+  "thu": "politik (netral, bersumber)",
+  "fri": "wildcard (skor tertinggi, topik apa saja)",
+  "sat": "video mingguan \"Rangkumin Seminggu\" 08:00 + Short potongan bab terkuat",
+  "sun": "\"Minggu Depan\": apa yang perlu ditunggu minggu ini (jadwal BI, rilis data, sidang, tenggat)"
+ },
+ "voices": {
+  "male": {
+   "name": "Pratama",
+   "voice_id": "q8qwd1jY2jS3AWOBeq25",
+   "model": "eleven_v3",
+   "tagline": "assets/voice/tagline-pratama.mp3",
+   "settings": {
+    "stability": 0.0,
+    "similarity_boost": 0.8
+   }
   },
-  "tagline": "Berita ribet? Rangkumin dong.",
-  "language": "id",
-  "style": "sticker",
-  "colors": {
-    "accent": "#FF5A36",
-    "highlight": "#FFD23F",
-    "paper": "#F3EFE6",
-    "ink": "#1B2430",
-    "slate": "#3E5568"
-  },
-  "length_seconds": [
-    60,
-    90
-  ],
-  "topic_rotation": {
-    "mon": "pasar & ekonomi",
-    "tue": "teknologi",
-    "wed": "bisnis",
-    "thu": "politik (netral, bersumber)",
-    "fri": "viral / wildcard"
-  },
-  "voices": {
-    "male": {
-      "name": "Pratama",
-      "voice_id": "q8qwd1jY2jS3AWOBeq25",
-      "model": "eleven_v3",
-      "tagline": "assets/voice/tagline-pratama.mp3",
-      "settings": {
-        "stability": 0.0,
-        "similarity_boost": 0.8
-      }
-    },
-    "female": {
-      "name": "Cahaya",
-      "voice_id": "iWydkXKoiVtvdn4vLKp9",
-      "model": "eleven_v3",
-      "tagline": "assets/voice/tagline-cahaya.mp3",
-      "note": "soft R; consider alternative if needed"
-    }
-  },
-  "script_style": {
-    "tone": "conversational, explaining to a friend; short sentences; hooks like 'Jadi gini.', 'Pemicunya? X.', 'Nah,'; dramatic beats for key numbers",
-    "delivery": "per-line ElevenLabs v3 tags (shocked/serious/skeptical/reassuring/playful)",
-    "max_pause_s": 0.24,
-    "target_wpm": [
-      150,
-      170
-    ],
-    "approved": "2026-10-19 (v3 punchy)"
-  },
-  "upload_post_user": "Rangkumindong",
-  "posting": {
-    "platforms": [
-      "instagram",
-      "youtube"
-    ],
-    "tiktok": "warming up manually until 2026-10-24, then connect to Upload-Post and add 'tiktok'"
-  },
-  "experiments": {
-    "variables": {
-      "voice": [
-        "male:Pratama",
-        "female:Cahaya"
-      ],
-      "slot": [
-        "12:30",
-        "19:00"
-      ],
-      "hook": [
-        "question",
-        "shock_number"
-      ]
-    },
-    "schedule": [
-      {
-        "date": "2026-10-19",
-        "voice": "male:Pratama",
-        "slot": "19:00",
-        "hook": "question",
-        "note": "video #1 (already made)"
-      },
-      {
-        "date": "2026-10-20",
-        "voice": "female:Cahaya",
-        "slot": "12:30",
-        "hook": "shock_number"
-      },
-      {
-        "date": "2026-10-21",
-        "voice": "male:Pratama",
-        "slot": "12:30",
-        "hook": "shock_number"
-      },
-      {
-        "date": "2026-10-22",
-        "voice": "female:Cahaya",
-        "slot": "19:00",
-        "hook": "question"
-      },
-      {
-        "date": "2026-10-23",
-        "voice": "male:Pratama",
-        "slot": "19:00",
-        "hook": "shock_number"
-      },
-      {
-        "date": "2026-10-24",
-        "voice": "female:Cahaya",
-        "slot": "12:30",
-        "hook": "question"
-      },
-      {
-        "date": "2026-10-25",
-        "voice": "male:Pratama",
-        "slot": "12:30",
-        "hook": "question"
-      },
-      {
-        "date": "2026-10-26",
-        "voice": "female:Cahaya",
-        "slot": "19:00",
-        "hook": "shock_number"
-      }
-    ],
-    "repeat": "after 26 Oct, repeat the 8-day cycle with voice values swapped day-by-day",
-    "trial_reels": "use for high-value topics; B differs in one variable only",
-    "primary_metric": "avg_percent_watched",
-    "review": "weekly, Sunday"
+  "female": {
+   "name": "Cahaya",
+   "voice_id": "iWydkXKoiVtvdn4vLKp9",
+   "model": "eleven_v3",
+   "tagline": "assets/voice/tagline-cahaya.mp3",
+   "note": "soft R; consider alternative if needed"
   }
+ },
+ "script_style": {
+  "tone": "conversational, explaining to a friend; short sentences; hooks like 'Jadi gini.', 'Pemicunya? X.', 'Nah,'; dramatic beats for key numbers",
+  "delivery": "per-line ElevenLabs v3 tags (shocked/serious/skeptical/reassuring/playful)",
+  "max_pause_s": 0.24,
+  "target_wpm": [
+   150,
+   170
+  ],
+  "approved": "2026-10-19 (v3 punchy)"
+ },
+ "upload_post_user": "Rangkumindong",
+ "posting": {
+  "platforms": [
+   "instagram",
+   "youtube"
+  ],
+  "tiktok": "warming up manually until 2026-10-24, then connect to Upload-Post and add 'tiktok'"
+ },
+ "experiments": {
+  "variables": {
+   "voice": [
+    "male:Pratama",
+    "female:Cahaya"
+   ],
+   "slot": [
+    "12:30",
+    "19:00"
+   ],
+   "hook": [
+    "question",
+    "shock_number"
+   ]
+  },
+  "schedule": [
+   {
+    "date": "2026-10-19",
+    "voice": "male:Pratama",
+    "slot": "19:00",
+    "hook": "question",
+    "note": "video #1 (already made)"
+   },
+   {
+    "date": "2026-10-20",
+    "voice": "female:Cahaya",
+    "slot": "12:30",
+    "hook": "shock_number"
+   },
+   {
+    "date": "2026-10-21",
+    "voice": "male:Pratama",
+    "slot": "12:30",
+    "hook": "shock_number"
+   },
+   {
+    "date": "2026-10-22",
+    "voice": "female:Cahaya",
+    "slot": "19:00",
+    "hook": "question"
+   },
+   {
+    "date": "2026-10-23",
+    "voice": "male:Pratama",
+    "slot": "19:00",
+    "hook": "shock_number"
+   },
+   {
+    "date": "2026-10-24",
+    "voice": "female:Cahaya",
+    "slot": "12:30",
+    "hook": "question"
+   },
+   {
+    "date": "2026-10-25",
+    "voice": "male:Pratama",
+    "slot": "12:30",
+    "hook": "question"
+   },
+   {
+    "date": "2026-10-26",
+    "voice": "female:Cahaya",
+    "slot": "19:00",
+    "hook": "shock_number"
+   }
+  ],
+  "repeat": "after 26 Oct, repeat the 8-day cycle with voice values swapped day-by-day",
+  "trial_reels": "use for high-value topics; B differs in one variable only",
+  "primary_metric": "avg_percent_watched",
+  "review": "weekly, Sunday"
+ },
+ "topic_rotation_note": "Soft tiebreaker only: a clearly higher-scoring idea always beats the day's topic."
 }
