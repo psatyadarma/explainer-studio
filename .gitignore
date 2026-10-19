@@ -5,3 +5,5 @@ out/
 models/
 tests/*/out/
 tests/*/build/
+accounts/*/videos/*/out/
+accounts/*/videos/*/build/*.wav

@@ -1,0 +1,20 @@
+{
+  "lines": [
+    {"id": "h1", "text": "IHSG jatuh ke bawah 5.000.", "say": "I H S G jatuh, ke bawah lima ribu.", "pause": 0.2},
+    {"id": "h2", "text": "Indonesia mau “dikeluarin” dari pasar negara berkembang?", "say": "Indonesia mau dikeluarin, dari pasar negara berkembang?", "pause": 0.3},
+    {"id": "rd", "text": "Rangkumin dong!", "pause": 0.35},
+    {"id": "l1", "text": "Jumat lalu, IHSG anjlok 11,57 persen dalam sehari, ke level 5.185.", "say": "Jumat lalu, I H S G anjlok sebelas koma lima tujuh persen dalam sehari, ke level lima ribu seratus delapan puluh lima.", "pause": 0.3},
+    {"id": "l2", "text": "Pemicunya: MSCI, penyusun indeks yang jadi patokan dana investor global.", "say": "Pemicunya: em es si ai, penyusun indeks yang jadi patokan dana investor global.", "pause": 0.3},
+    {"id": "l3", "text": "15 Oktober, MSCI mengusulkan status Indonesia turun dari Emerging Market jadi Standalone Market.", "say": "Lima belas Oktober, em es si ai mengusulkan status Indonesia turun, dari imerjing market, jadi stendelon market.", "pause": 0.3},
+    {"id": "l4", "text": "Alasannya: kepemilikan saham dianggap kurang transparan, dan ada dugaan transaksi yang terkoordinasi.", "pause": 0.3},
+    {"id": "l5", "text": "Kalau jadi, dana global yang mengikuti indeks MSCI berpotensi keluar dari saham Indonesia.", "say": "Kalau jadi, dana global yang mengikuti indeks em es si ai, berpotensi keluar dari saham Indonesia.", "pause": 0.3},
+    {"id": "l6", "text": "Investor asing sudah jual bersih Rp3,34 triliun dalam satu hari.", "say": "Investor asing sudah jual bersih tiga koma tiga empat triliun rupiah, dalam satu hari.", "pause": 0.3},
+    {"id": "l7", "text": "Hari ini, IHSG dibuka turun lagi 4,31 persen, ke 4.961.", "say": "Hari ini, I H S G dibuka turun lagi empat koma tiga satu persen, ke empat ribu sembilan ratus enam puluh satu.", "pause": 0.35},
+    {"id": "l8", "text": "Tapi ini belum final. Masukan dibuka sampai 30 April 2027,", "say": "Tapi ini belum final. Masukan dibuka sampai tiga puluh April dua ribu dua puluh tujuh,", "pause": 0.15},
+    {"id": "l8b", "text": "dan keputusan paling lambat 30 Juni 2027.", "say": "dan keputusan paling lambat, tiga puluh Juni dua ribu dua puluh tujuh.", "pause": 0.3},
+    {"id": "l9", "text": "Pemerintah dan bursa masih punya waktu, misalnya lewat target free float minimal 15 persen.", "say": "Pemerintah dan bursa masih punya waktu, misalnya lewat target fri flout minimal lima belas persen.", "pause": 0.35},
+    {"id": "cta", "text": "Menurut kamu, keburu dibenerin sebelum Juni 2027? Komen!", "say": "Menurut kamu, keburu dibenerin sebelum Juni dua ribu dua puluh tujuh? Komen!", "pause": 0.3},
+    {"id": "end", "text": "Follow Rangkumin Dong, biar nggak ketinggalan."}
+  ],
+  "tail": 0.9
+}
