@@ -68,7 +68,9 @@ def main(project):
         idx = np.arange(int(len(v) * SR / vsr)) * vsr / SR
         v = np.interp(idx, np.arange(len(v)), v)
     dur = len(v) / SR
-    mix = v * 1.0 + bed(dur)
+    b0 = bed(dur)
+    b0 = np.pad(b0, (0, max(0, len(v) - len(b0))))[:len(v)]
+    mix = v * 1.0 + b0
     starts = {l["id"]: l["start"] for l in timing["lines"]}
     cues = json.loads((project / "sfx.json").read_text()) if (project / "sfx.json").exists() else []
     for c in cues:

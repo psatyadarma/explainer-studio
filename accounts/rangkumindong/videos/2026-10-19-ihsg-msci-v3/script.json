@@ -1,0 +1,21 @@
+{
+  "direction": "[energetic, conversational, fast-paced Indonesian content creator explaining news to a friend]",
+  "lines": [
+    {"id": "h1", "tag": "[shocked]", "text": "IHSG jatuh ke bawah 5.000.", "say": "I H S G jatuh ke bawah lima ribu!"},
+    {"id": "h2", "tag": "[curious, slightly dramatic]", "text": "Indonesia beneran mau “dikeluarin” dari pasar negara berkembang?", "say": "Indonesia beneran mau dikeluarin dari pasar negara berkembang?"},
+    {"id": "rd", "tagline": true, "text": "Rangkumin dong!"},
+    {"id": "l1", "tag": "[serious, punchy]", "text": "Jadi gini. Jumat kemarin, IHSG anjlok 11,57 persen. Dalam. Satu. Hari.", "say": "Jadi gini. Jumat kemarin, I H S G anjlok sebelas koma lima tujuh persen. Dalam. Satu. Hari."},
+    {"id": "l2", "tag": "[explaining, quick]", "text": "Pemicunya? MSCI. Penyusun indeks yang jadi patokan dana-dana raksasa dunia.", "say": "Pemicunya? Em es si ai. Penyusun indeks yang jadi patokan dana-dana raksasa dunia."},
+    {"id": "l3", "tag": "[matter-of-fact]", "text": "15 Oktober, MSCI ngusulin status Indonesia turun: dari Emerging Market, jadi Standalone Market.", "say": "Lima belas Oktober, em es si ai ngusulin status Indonesia turun: dari imerjing market, jadi stendelon market."},
+    {"id": "l4", "tag": "[skeptical, lowering voice at the end]", "text": "Kenapa? Kepemilikan saham dianggap kurang transparan. Terus, ada dugaan transaksi yang… terkoordinasi.", "say": "Kenapa? Kepemilikan saham dianggap kurang transparan. Terus, ada dugaan transaksi yang... terkoordinasi."},
+    {"id": "l5", "tag": "[concerned]", "text": "Nah, kalau jadi, dana global yang ngikutin indeks MSCI berpotensi cabut dari saham Indonesia.", "say": "Nah, kalau jadi, dana global yang ngikutin indeks em es si ai berpotensi cabut dari saham Indonesia."},
+    {"id": "l6", "tag": "[emphatic]", "text": "Asing udah jual bersih Rp3,34 triliun. Cuma sehari.", "say": "Asing udah jual bersih tiga koma tiga empat triliun rupiah. Cuma sehari."},
+    {"id": "l7", "tag": "[dramatic]", "text": "Hari ini? IHSG dibuka turun lagi 4,31 persen, ke 4.961.", "say": "Hari ini? I H S G dibuka turun lagi empat koma tiga satu persen, ke empat ribu sembilan ratus enam puluh satu."},
+    {"id": "l8", "tag": "[reassuring, relieved]", "text": "Tapi tenang, ini belum final. Masukan dibuka sampai 30 April 2027,", "say": "Tapi tenang, ini belum final. Masukan dibuka sampai tiga puluh April dua ribu dua puluh tujuh,"},
+    {"id": "l8b", "text": "keputusannya paling lambat 30 Juni 2027.", "say": "keputusannya paling lambat tiga puluh Juni dua ribu dua puluh tujuh."},
+    {"id": "l9", "tag": "[upbeat]", "text": "Jadi masih ada waktu buat beres-beres. Salah satunya: target free float minimal 15 persen.", "say": "Jadi masih ada waktu buat beres-beres. Salah satunya: target fri flout minimal lima belas persen."},
+    {"id": "cta", "tag": "[playful, asking the viewer]", "text": "Menurut kamu, keburu nggak dibenerin sebelum Juni 2027? Komen!", "say": "Menurut kamu, keburu nggak dibenerin sebelum Juni dua ribu dua puluh tujuh? Komen!"},
+    {"id": "end", "tag": "[friendly, upbeat]", "text": "Follow Rangkumin Dong, biar nggak ketinggalan!"}
+  ],
+  "tail": 0.9
+}
