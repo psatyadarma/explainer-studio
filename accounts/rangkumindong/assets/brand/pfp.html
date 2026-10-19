@@ -1,0 +1,26 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{width:1080px;height:1080px;overflow:hidden;font-family:"Inter Display","Inter",sans-serif}
+.v{width:1080px;height:1080px;display:none;align-items:center;justify-content:center;position:relative}
+.dots{position:absolute;inset:0;background:radial-gradient(circle at 1px 1px,rgba(62,85,104,.18) 3px,transparent 0) 0 0/54px 54px}
+/* A: stacked wordmark sticker */
+#A{background:#F3EFE6}
+#A .s{position:relative;background:#FF5A36;color:#fff;font-weight:900;font-size:118px;letter-spacing:-5px;line-height:.9;
+  padding:54px 64px 74px;border-radius:70px;text-align:center;transform:rotate(-4deg);
+  box-shadow:0 0 0 22px #fff,0 40px 60px rgba(27,36,48,.25)}
+/* B: monogram RD + speech tail */
+#B{background:#FF5A36}
+#B .b{position:relative;width:700px;height:560px;background:#fff;border-radius:150px;display:flex;align-items:center;justify-content:center;
+  font-weight:900;font-size:330px;letter-spacing:-18px;color:#1B2430;transform:rotate(-3deg)}
+#B .b:after{content:"";position:absolute;left:150px;bottom:-90px;border-left:70px solid transparent;border-right:70px solid transparent;border-top:120px solid #fff;transform:rotate(18deg)}
+#B .b span{color:#FF5A36}
+/* C: dark, yellow highlight */
+#C{background:#1B2430}
+#C .w{font-weight:900;font-size:170px;letter-spacing:-7px;line-height:1;color:#fff;text-align:center}
+#C .w .h{background:#FFD23F;color:#1B2430;padding:0 26px;border-radius:24px;display:inline-block;transform:rotate(-2deg);margin-top:20px}
+</style></head><body>
+<div class="v" id="A"><div class="dots"></div><div class="s">RANGKUMIN<br>DONG</div></div>
+<div class="v" id="B"><div class="b">R<span>D</span></div></div>
+<div class="v" id="C"><div class="w">RANGKUMIN<br><span class="h">DONG!</span></div></div>
+<script>window.show=(id)=>{document.querySelectorAll('.v').forEach(e=>e.style.display=e.id===id?'flex':'none')}</script>
+</body></html>

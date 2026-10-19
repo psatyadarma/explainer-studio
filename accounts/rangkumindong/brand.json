@@ -91,5 +91,12 @@
     ],
     "approved": "2026-10-19 (v3 punchy)"
   },
-  "upload_post_user": "rangkumindong"
+  "upload_post_user": "Rangkumindong",
+  "posting": {
+    "platforms": [
+      "instagram",
+      "youtube"
+    ],
+    "tiktok": "warming up manually until 2026-10-24, then connect to Upload-Post and add 'tiktok'"
+  }
 }
