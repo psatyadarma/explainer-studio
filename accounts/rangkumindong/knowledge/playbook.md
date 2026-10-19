@@ -33,6 +33,8 @@
 - Never invent data points for charts; plot only verified values.
 
 ## Approval & posting
-- User approves topic + script + style before any render. User gives "OK post" before anything is published.
+- User approves the **draft** before any render. A draft always contains: topic + angle, full script (subtitle text), visual plan, sources, and the **captions**: IG caption (with hashtags), YouTube title (+ #Shorts), YouTube description, tags, and the sources first comment.
+- Captions: hook line + 3 bullet summary + vote question + "Bukan ajakan jual/beli saham" (market topics) + "Sumber di komentar" + 6–8 hashtags incl. #rangkumindong. Same numbers as the video.
+- User gives "OK post" (with time slot) before anything is published.
 - Posting via Upload-Post (engine/post.py, profile "Rangkumindong"): IG Reels + YouTube Shorts (#Shorts in title). TikTok: user warms the account up manually until 24 Oct 2026, then connect it to Upload-Post (AI-generated label on). Pin a sources comment.
 - A/B post-time test: 12:00–13:00 WITA vs 19:00–21:00 WITA, 14-day blocks.
