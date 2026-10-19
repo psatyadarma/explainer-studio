@@ -28,3 +28,8 @@ Status: **ACTIVE** · Category: markets · Started: 15 Oct 2026
 - "Free float 15% itu apa, dan kenapa penting?"
 - "Siapa yang rugi kalau Indonesia jadi Standalone?" (passive funds, retail, issuers) — needs sourced estimates
 - Recap when IHSG recovers above 5,000 or hits a new low
+
+
+## Videos
+- **PART 1** — 19 Oct 2026, 19:00 WITA: "IHSG jatuh ke bawah 5.000: Indonesia mau dikeluarin MSCI?" · IG https://www.instagram.com/reel/DerGr2VijdH/ · YouTube https://www.youtube.com/watch?v=wecMGwOQoBo · TikTok @rangkumindong (manual). Covered: the 16 Oct −11.57% crash, MSCI's 15 Oct proposal (EM → Standalone), reasons, timeline to 30 Jun 2027, 15% free-float target.
+- Next milestone / PART 2 candidate: BEI's ARB cut to 7% (from 19 Oct), OJK sanctions on parties linked to DSSA/BREN/CUAN, BEI's clarification to MSCI.

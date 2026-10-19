@@ -2,5 +2,103 @@
  "success": true,
  "job_id": "c9034aea6b724d52b0322f7a6a7f51eb",
  "scheduled_date": "2026-10-19T19:00:00+08:00",
- "request_id": "Rangkumindong-2026-10-19-ihsg-msci-v3-sync"
+ "request_id": "Rangkumindong-2026-10-19-ihsg-msci-v3-sync",
+ "status": {
+  "status": "completed",
+  "completed": 2,
+  "total": 2,
+  "results": [
+   {
+    "user_email": "rangkumindong.id@gmail.com",
+    "profile_username": "Rangkumindong",
+    "platform": "youtube",
+    "media_type": "video",
+    "upload_timestamp": {
+     "$date": "2026-10-19T11:01:55.101Z"
+    },
+    "success": true,
+    "platform_post_id": "wecMGwOQoBo",
+    "post_url": "https://www.youtube.com/watch?v=wecMGwOQoBo",
+    "error_message": null,
+    "error_signature": null,
+    "error_code": null,
+    "failure_stage": null,
+    "media_size_bytes": 13138882,
+    "post_title": "IHSG di Bawah 5.000: Indonesia Mau \"Dikeluarin\" MSCI? #Shorts",
+    "post_caption": "IHSG jatuh ke bawah 5.000 😳 Indonesia beneran mau \"dikeluarin\" dari pasar negara berkembang?\n\nRangkumin dong 👇\n• Jumat (16/10) IHSG anjlok 11,57% dalam sehari\n• Pemicunya: MSCI mengusulkan status Indonesia turun dari Emerging Market jadi Standalone Market\n• Tapi belum final: keputusan paling lambat 30 Juni 2027\n\nMenurut kamu, keburu dibenerin sebelum Juni 2027? Komen 👇\n\nBukan ajakan jual/beli saham. Sumber di komentar.\n\n#IHSG #MSCI #saham #pasarmodal #investasi #ekonomi #beritaekonomi #rangkumindong\n\nSumber:\n1. MSCI press release, 15 Okt 2026 — usulan reklasifikasi, alasan, jadwal (masukan s.d. 30 Apr 2027, keputusan s.d. 30 Jun 2027), target free float 15%\n2. CNN Indonesia, 19 Okt 2026 — IHSG Jumat ditutup 5.185 (−11,57%)\n3. Investor Trust, 19 Okt 2026 — net sell asing Rp3,34 T (Jumat)\n4. Fortune IDN, 19 Okt 2026 — IHSG dibuka −4,31% ke 4.961,88\nKonten edukasi, bukan rekomendasi investasi.",
+    "is_async": false,
+    "dashboard": false,
+    "source": "api",
+    "client": "python_generic",
+    "client_version": null,
+    "video_was_transcoded": false,
+    "changes": [],
+    "prevalidation_metadata": {
+     "width": 1080,
+     "height": 1920,
+     "fps": 30.0,
+     "duration": 70.634,
+     "container": "mov,mp4,m4a,3gp,3g2,mj2",
+     "video_codec": "h264",
+     "audio_codec": "aac"
+    },
+    "target_linkedin_page_id": null,
+    "request_id": "Rangkumindong-2026-10-19-ihsg-msci-v3-sync",
+    "request_id_logs": "Rangkumindong-2026-10-19-ihsg-msci-v3-sync",
+    "job_id": "c9034aea6b724d52b0322f7a6a7f51eb",
+    "request_total_platforms": 2
+   },
+   {
+    "user_email": "rangkumindong.id@gmail.com",
+    "profile_username": "Rangkumindong",
+    "platform": "instagram",
+    "media_type": "video",
+    "upload_timestamp": {
+     "$date": "2026-10-19T11:03:21.573Z"
+    },
+    "success": true,
+    "platform_post_id": "18217026412346128",
+    "post_url": "https://www.instagram.com/reel/DerGr2VijdH/",
+    "error_message": null,
+    "error_signature": null,
+    "error_code": null,
+    "failure_stage": null,
+    "media_size_bytes": 13138882,
+    "post_title": "IHSG jatuh ke bawah 5.000 😳 Indonesia beneran mau \"dikeluarin\" dari pasar negara berkembang?\n\nRangkumin dong 👇\n• Jumat (16/10) IHSG anjlok 11,57% dalam sehari\n• Pemicunya: MSCI mengusulkan status Indonesia turun dari Emerging Market jadi Standalone Market\n• Tapi belum final: keputusan paling lambat 30 Juni 2027\n\nMenurut kamu, keburu dibenerin sebelum Juni 2027? Komen 👇\n\nBukan ajakan jual/beli saham. Sumber di komentar.\n\n#IHSG #MSCI #saham #pasarmodal #investasi #ekonomi #beritaekonomi #rangkumindong",
+    "post_caption": "IHSG jatuh ke bawah 5.000 😳 Indonesia beneran mau \"dikeluarin\" dari pasar negara berkembang?\n\nRangkumin dong 👇\n• Jumat (16/10) IHSG anjlok 11,57% dalam sehari\n• Pemicunya: MSCI mengusulkan status Indonesia turun dari Emerging Market jadi Standalone Market\n• Tapi belum final: keputusan paling lambat 30 Juni 2027\n\nMenurut kamu, keburu dibenerin sebelum Juni 2027? Komen 👇\n\nBukan ajakan jual/beli saham. Sumber di komentar.\n\n#IHSG #MSCI #saham #pasarmodal #investasi #ekonomi #beritaekonomi #rangkumindong",
+    "is_async": false,
+    "dashboard": false,
+    "source": "api",
+    "client": "python_generic",
+    "client_version": null,
+    "video_was_transcoded": false,
+    "changes": [],
+    "prevalidation_metadata": {
+     "width": 1080,
+     "height": 1920,
+     "fps": 30.0,
+     "duration": 70.634,
+     "container": "mov,mp4,m4a,3gp,3g2,mj2",
+     "video_codec": "h264",
+     "audio_codec": "aac"
+    },
+    "target_linkedin_page_id": null,
+    "request_id": "Rangkumindong-2026-10-19-ihsg-msci-v3-sync",
+    "request_id_logs": "Rangkumindong-2026-10-19-ihsg-msci-v3-sync",
+    "job_id": "c9034aea6b724d52b0322f7a6a7f51eb",
+    "request_total_platforms": 2
+   }
+  ],
+  "external_id": null,
+  "last_update": {
+   "$date": "2026-10-19T11:03:21.573Z"
+  },
+  "request_id": "Rangkumindong-2026-10-19-ihsg-msci-v3-sync"
+ },
+ "links": {
+  "youtube": "https://www.youtube.com/watch?v=wecMGwOQoBo",
+  "instagram": "https://www.instagram.com/reel/DerGr2VijdH/"
+ },
+ "posted_at": "2026-10-19T19:00:00+08:00",
+ "tiktok": "posted manually by the user"
 }
