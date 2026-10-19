@@ -39,7 +39,7 @@ Roles live in `.claude/agents/` (shared researcher rules: `.claude/shared/resear
 2. `day.py merge` adds new events to `events.csv` (dedup) and renders `events.md`.
 3. writer (mode ideas) → `ideas.md` (exactly 5) → fact-checker on ideas → coordinator sends ideas + any fact-check flags to the user.
 4. User picks → writer (mode draft) → video folder with `script.json`, `draft.md`, `post.json`, `claims.json` → fact-checker → fixes applied → draft sent for approval.
-5. After approval: production scripts (voice, render, mix) and self-check by the coordinator; posting script only after "OK post".
+5. After approval: production scripts (voice, render, mix) → **qa-reviewer** agent (subtitle sync via speech-to-text, visuals frame by frame, numbers vs approved draft, loudness, format, disclaimers) → fix and re-check until PASS → only then send the video to the user. Posting script only after "OK post".
 6. Analyst: metrics at 24 h / 72 h, weekly review on Sunday.
 Weekly long video ("Rangkumin Seminggu", Sat 08:00 WITA): writer + fact-checker Friday morning → after approval, chapter-builders in parallel (one per chapter) → assemble → editor reviews the whole cut → fixes → render → schedule.
 
