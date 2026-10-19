@@ -15,3 +15,5 @@ Checklist (search each separately):
 - Consumer prices people feel: food staples, airfare, housing, car/motorbike sales
 - Trade and investment: BKPM/Investasi, smelters, EV/battery, foreign investment deals
 - Active storylines in categories BIZ/TECH
+
+Tech coverage (Tuesday is the tech slot — at least 5 tech items if they exist): read the latest headlines directly from `https://inet.detik.com/`, `https://www.cnbcindonesia.com/tech`, `https://katadata.co.id/digital`, `https://dailysocial.id/`, `https://www.techinasia.com/indonesia` and `https://www.cnnindonesia.com/teknologi`. Include consumer tech people feel (app bans, outages, scams/phishing waves, price changes of phones/data plans, AI tools in Indonesian, government digital services like Coretax, INAPas, SATUSEHAT).
