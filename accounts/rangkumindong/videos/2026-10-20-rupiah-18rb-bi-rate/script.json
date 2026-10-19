@@ -1,0 +1,108 @@
+{
+ "direction": "[energetic, conversational, fast-paced Indonesian content creator explaining news to a friend; neutral on the BI decision, no prediction]",
+ "voice": "female:Cahaya",
+ "hook_type": "shock_number",
+ "lines": [
+  {
+   "id": "h1",
+   "tag": "[shocked]",
+   "text": "Rp18.046 per dolar.",
+   "say": "Delapan belas ribu empat puluh enam rupiah. Per satu dolar."
+  },
+  {
+   "id": "h2",
+   "tag": "[serious, urgent]",
+   "text": "Besok BI putuskan: bunga ditahan 5,75%, atau naik ke 6%?",
+   "say": "Besok, be i mutusin: bunga ditahan lima koma tujuh lima persen, atau naik ke enam?"
+  },
+  {
+   "id": "rd",
+   "tagline": true,
+   "text": "Rangkumin dong!"
+  },
+  {
+   "id": "l1",
+   "tag": "[curious, leaning in]",
+   "text": "Tapi tunggu. Rupiah tembus 18.000 itu… bukan pertama kali.",
+   "say": "Tapi tunggu. Rupiah tembus delapan belas ribu itu... bukan pertama kali."
+  },
+  {
+   "id": "l2",
+   "tag": "[matter-of-fact]",
+   "text": "4 Juni 2026: pertama kali ditutup di atas 18.000, di Rp18.049.",
+   "say": "Empat Juni, rupiah pertama kali ditutup di atas delapan belas ribu: delapan belas ribu empat puluh sembilan."
+  },
+  {
+   "id": "l3",
+   "tag": "[explaining, quick]",
+   "text": "Buat perbandingan: krisis 1998, puncaknya sekitar Rp16.800. Covid 2020: Rp16.575.",
+   "say": "Buat perbandingan: krisis sembilan delapan, puncaknya sekitar enam belas ribu delapan ratus. Covid dua ribu dua puluh: enam belas ribu lima ratus tujuh puluh lima."
+  },
+  {
+   "id": "l4",
+   "tag": "[serious]",
+   "text": "Tapi tahun 1998, rupiah kehilangan lebih dari 80% nilainya.",
+   "say": "Tapi tahun sembilan delapan, rupiah kehilangan lebih dari delapan puluh persen nilainya."
+  },
+  {
+   "id": "l5",
+   "tag": "[punchy]",
+   "text": "Terus, BI ngapain? Naikin bunga. Dua kali. Dalam 10 hari.",
+   "say": "Terus, be i ngapain? Naikin bunga. Dua kali. Dalam. Sepuluh. Hari."
+  },
+  {
+   "id": "l6",
+   "tag": "[quick, matter-of-fact]",
+   "text": "9 Juni ke 5,50%. 18 Juni ke 5,75%. Sejak Juli, ditahan.",
+   "say": "Sembilan Juni ke lima koma lima persen. Delapan belas Juni ke lima koma tujuh lima. Sejak Juli, ditahan."
+  },
+  {
+   "id": "l7",
+   "tag": "[serious]",
+   "text": "Bedanya sekarang? Pemicunya MSCI, plus The Fed yang masih buka peluang naikin bunga.",
+   "say": "Bedanya sekarang? Pemicunya em es si ai, plus The Fed yang masih buka peluang naikin bunga."
+  },
+  {
+   "id": "l8",
+   "tag": "[reassuring]",
+   "text": "Bantalannya: cadangan devisa US$146,3 miliar. Inflasi 3,28%, masih dalam target.",
+   "say": "Bantalannya: cadangan devisa seratus empat puluh enam koma tiga miliar dolar. Inflasi tiga koma dua delapan persen, masih dalam target."
+  },
+  {
+   "id": "l9",
+   "tag": "[clear, neutral]",
+   "text": "Jadi, besok ada dua opsi.",
+   "say": "Jadi, besok ada dua opsi."
+  },
+  {
+   "id": "l10",
+   "tag": "[explaining, neutral]",
+   "text": "Opsi 1: tahan di 5,75%. Sebagian ekonom, misalnya Danamon: rupiah dijaga lewat intervensi dulu.",
+   "say": "Opsi satu: tahan di lima koma tujuh lima. Sebagian ekonom, misalnya Danamon, bilang rupiah bisa dijaga lewat intervensi dulu."
+  },
+  {
+   "id": "l11",
+   "tag": "[explaining, neutral]",
+   "text": "Opsi 2: naik ke 6%, proyeksi Bloomberg Economics. Kata Citi, kenaikan itu langkah antisipasi, biar arus keluar dari pasar saham nggak merembet ke pasar obligasi.",
+   "say": "Opsi dua: naik ke enam persen, proyeksi Bloomberg Ikonomiks. Kata Citi, kenaikan itu langkah antisipasi, biar arus keluar dari pasar saham nggak merembet ke pasar obligasi."
+  },
+  {
+   "id": "l12",
+   "tag": "[matter-of-fact]",
+   "text": "Naik: pinjaman bisa makin mahal. Tahan: tekanan ke rupiah bisa berlanjut.",
+   "say": "Naik: pinjaman bisa makin mahal. Tahan: tekanan ke rupiah bisa berlanjut."
+  },
+  {
+   "id": "cta",
+   "tag": "[playful, asking the viewer]",
+   "text": "Kalau kamu BI: tahan atau naik? Komen!",
+   "say": "Kalau kamu be i: tahan, atau naik? Komen!"
+  },
+  {
+   "id": "end",
+   "tag": "[friendly, upbeat]",
+   "text": "Follow Rangkumin Dong, biar nggak ketinggalan!"
+  }
+ ],
+ "tail": 0.9
+}
