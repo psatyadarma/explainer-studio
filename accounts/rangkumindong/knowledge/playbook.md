@@ -26,6 +26,13 @@
 - Generate ideas from the **whole 14-day window** (not just today): new developments, follow-ups on active storylines, upcoming dated events (e.g. BI RDG), and explainers that connect several events.
 - Send the user **exactly 5** ideas, ranked, with one marked recommended.
 
+## Daily news sweep checklist (so nothing big is missed)
+Search each of these every morning (last 24–48 h), not just generic "berita hari ini":
+- Institutions: Presiden, **Wapres**, DPR/MPR, **MK**, MA, KPK, Kejagung, KPU/Bawaslu, Polri/TNI, BI, OJK, BEI, BPS, Kemenkeu, key ministries, Danantara/BUMN, regional heads.
+- Outlets' most-read / "terpopuler" lists: Kompas, Detik, CNN Indonesia, Tempo, Antara, CNBC Indonesia, Kontan, Bisnis.
+- Fact-check feeds: Komdigi hoaks, Cek Fakta.
+- Categories: markets, economy/policy, business, tech, politics & law, national news, environment/disasters, global-with-Indonesia-impact.
+
 ## Continuity (videos build on each other)
 - Before picking topics, check `storylines/` for active stories with new developments or milestones due.
 - Follow-up videos: hook references the last episode ("Minggu lalu IHSG anjlok 11%. Sekarang…"), show a small "PART n" badge, reuse the same chart/visual language, and link the previous video in the pinned comment.
