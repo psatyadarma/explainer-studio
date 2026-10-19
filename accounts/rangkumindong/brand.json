@@ -26,42 +26,6 @@
     "thu": "politik (netral, bersumber)",
     "fri": "viral / wildcard"
   },
-  "ab_tests": [
-    {
-      "variable": "voice",
-      "arms": [
-        "male:Pratama",
-        "female:Cahaya"
-      ],
-      "block_days": 7,
-      "status": "week 1 = male"
-    },
-    {
-      "variable": "post_time",
-      "arms": [
-        "12:00-13:00 WITA",
-        "19:00-21:00 WITA"
-      ],
-      "block_days": 14,
-      "status": "planned"
-    },
-    {
-      "variable": "hook",
-      "arms": [
-        "question",
-        "shock number"
-      ],
-      "status": "planned"
-    },
-    {
-      "variable": "length",
-      "arms": [
-        "60s",
-        "90s"
-      ],
-      "status": "planned"
-    }
-  ],
   "voices": {
     "male": {
       "name": "Pratama",
@@ -98,5 +62,76 @@
       "youtube"
     ],
     "tiktok": "warming up manually until 2026-10-24, then connect to Upload-Post and add 'tiktok'"
+  },
+  "experiments": {
+    "variables": {
+      "voice": [
+        "male:Pratama",
+        "female:Cahaya"
+      ],
+      "slot": [
+        "12:30",
+        "19:00"
+      ],
+      "hook": [
+        "question",
+        "shock_number"
+      ]
+    },
+    "schedule": [
+      {
+        "date": "2026-10-19",
+        "voice": "male:Pratama",
+        "slot": "19:00",
+        "hook": "question",
+        "note": "video #1 (already made)"
+      },
+      {
+        "date": "2026-10-20",
+        "voice": "female:Cahaya",
+        "slot": "12:30",
+        "hook": "shock_number"
+      },
+      {
+        "date": "2026-10-21",
+        "voice": "male:Pratama",
+        "slot": "12:30",
+        "hook": "shock_number"
+      },
+      {
+        "date": "2026-10-22",
+        "voice": "female:Cahaya",
+        "slot": "19:00",
+        "hook": "question"
+      },
+      {
+        "date": "2026-10-23",
+        "voice": "male:Pratama",
+        "slot": "19:00",
+        "hook": "shock_number"
+      },
+      {
+        "date": "2026-10-24",
+        "voice": "female:Cahaya",
+        "slot": "12:30",
+        "hook": "question"
+      },
+      {
+        "date": "2026-10-25",
+        "voice": "male:Pratama",
+        "slot": "12:30",
+        "hook": "question"
+      },
+      {
+        "date": "2026-10-26",
+        "voice": "female:Cahaya",
+        "slot": "19:00",
+        "hook": "shock_number"
+      }
+    ],
+    "repeat": "after 26 Oct, repeat the 8-day cycle with voice values swapped day-by-day",
+    "trial_reels": "use for high-value topics; B differs in one variable only",
+    "primary_metric": "avg_percent_watched",
+    "review": "weekly, Sunday"
   }
 }
