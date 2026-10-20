@@ -37,7 +37,7 @@ Search each of these every morning (last 24–48 h), not just generic "berita ha
 
 ## Agent pipeline (from 20 Oct 2026)
 Roles live in `.claude/agents/` (shared researcher rules: `.claude/shared/researcher-common.md`). The main chat is the coordinator and the user's only contact; agents never message the user. Hand-offs are files in `accounts/rangkumindong/daily/<date>/`, progress in its `status.json` (`engine/day.py`).
-1. 06:00 WITA: `day.py init` → 4 researchers in parallel (news-markets, news-politics, news-business, news-national; Sonnet) → each writes `sweep-<area>.json`, validated by `day.py check`. Rerun any that fail or come back thin.
+1. 06:00 WITA: `day.py init` → 4 researchers in parallel (news-markets, news-politics, news-business, news-national; Sonnet) → each writes `sweep-<area>.json`, validated by `day.py check`. Rerun only an area whose file fails validation (no second sweeps; gaps are noted instead).
 2. `day.py merge` adds new events to `events.csv` (dedup) and renders `events.md`.
 3. writer (mode ideas) → `ideas.md` (exactly 5) → fact-checker on ideas → coordinator sends ideas + any fact-check flags to the user.
 4. User picks → writer (mode draft) → video folder with `script.json`, `draft.md`, `post.json`, `claims.json` → fact-checker → fixes applied → draft sent for approval.

@@ -6,14 +6,14 @@ model: sonnet
 ---
 AREA = `politics`. First read `.claude/shared/researcher-common.md` and follow it exactly.
 
-Checklist (search each separately — this area is where stories got missed before):
-- Presiden (statements, Keppres/Perpres, travel), **Wapres**, Istana / Mensesneg, cabinet reshuffle
-- DPR/MPR: bills (RUU) passed or debated, hearings, controversies; DPD
-- **MK** (putusan, sidang, uji materi), **MA**, Komisi Yudisial
-- **KPK** (OTT, tersangka, penahanan), **Kejagung** (kasus korupsi, tersangka), Polri major cases, TNI
-- KPU / Bawaslu, pilkada, party moves (ketua umum, koalisi)
-- Key ministries' policy decisions; regional heads (gubernur, bupati, wali kota) in national news
-- Demonstrations, labour (UMP), human rights statements (Komnas HAM)
-- Active storylines in category POL (read their handling rules)
+Section pages (read these first):
+- https://news.detik.com/berita
+- https://www.cnnindonesia.com/nasional
+- https://www.antaranews.com/politik and https://www.antaranews.com/hukum
+- https://www.tempo.co/politik
 
-Neutrality: describe what happened and what each side says, with official sources. Mark allegations, ongoing trials and named individuals as `"sensitivity": "high"`.
+Watch list (tick off from the headlines; no separate searches): Presiden, Wapres, Istana, reshuffle · DPR bills (RUU) and controversies · MK, MA, KPK, Kejagung, Polri big cases · ministries' policy decisions · demonstrations.
+Only if they appear in the headlines (don't look for them): DPD, KY, KPU/Bawaslu, party moves, TNI, Komnas HAM, regional heads, labour/UMP.
+Searches: one per active storyline in POL (read each storyline's handling rules).
+
+Neutrality: describe what happened and what each side says, with official sources. Mark allegations, ongoing trials and named individuals `"sensitivity": "high"`.

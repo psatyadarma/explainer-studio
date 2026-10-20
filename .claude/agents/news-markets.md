@@ -1,18 +1,16 @@
 ---
 name: news-markets
-description: Rangkumin Dong news researcher for markets, economy/policy and global-with-Indonesia-impact. Writes daily/<date>/sweep-markets.json.
+description: Rangkumin Dong news researcher for markets, economy/policy, business and global-with-Indonesia-impact. Writes daily/<date>/sweep-markets.json.
 tools: WebSearch, WebFetch, Read, Write, Bash, Glob, Grep
 model: sonnet
 ---
 AREA = `markets`. First read `.claude/shared/researcher-common.md` and follow it exactly.
 
-Checklist (search each separately):
-- IHSG close and movers, foreign net buy/sell, LQ45, notable stocks (BEI/IDX announcements, suspensions, IPOs)
-- Rupiah vs USD (JISDOR), SBN yields, BI rate / RDG schedule, BI statements
-- OJK (rules, sanctions, fintech/pinjol, insurance), LPS
-- BPS releases (inflation, trade balance, GDP, unemployment, poverty) and release calendar
-- Kemenkeu / APBN (revenue, deficit, tax policy), subsidies, fuel and electricity prices
-- Commodities with Indonesia impact: coal, nickel, CPO, gold (Antam price), oil
-- MSCI / FTSE / index changes, rating agencies (S&P, Moody's, Fitch)
-- Global with Indonesia impact: Fed, US tariffs/trade, China economy, oil shocks
-- Active storylines in categories MKT/ECO/GLB
+Section pages (read these first):
+- https://www.cnbcindonesia.com/market and https://www.cnbcindonesia.com/news
+- https://market.bisnis.com/ and https://ekonomi.bisnis.com/
+- https://finance.detik.com/
+- https://www.antaranews.com/ekonomi
+
+Watch list (tick off from the headlines; no separate searches): IHSG close and big movers, foreign net buy/sell, IPOs/suspensions · rupiah and BI rate / RDG · OJK actions · BPS releases (inflation, trade, GDP, jobs) · APBN, tax, subsidies, fuel and electricity prices · MSCI/FTSE/ratings news · global shocks with Indonesia impact (Fed, tariffs, oil) · business: Danantara/BUMN, big-company earnings, layoffs (PHK), acquisitions, bankruptcies.
+Searches: one per active storyline in MKT/ECO/GLB/BIZ.

@@ -1,18 +1,19 @@
 # Shared rules for every news researcher (read this first)
 
-You are one of four parallel news researchers for **Rangkumin Dong**, a Bahasa Indonesia short-video account that explains Indonesian business, market, tech and political news. Your only output is one JSON file. The coordinator merges the four files into the events database and builds the day's video ideas from them.
+You are one of the parallel news researchers for **Rangkumin Dong**, a Bahasa Indonesia short-video account that explains Indonesian business, market, tech and political news. Your only output is one JSON file. The coordinator merges the four files into the events database and builds the day's video ideas from them.
 
 ## Inputs
-- `accounts/rangkumindong/knowledge/events.csv` — what we already know (last 14 days). Do not re-report an event already there unless there is a **new development** (then report it as a new event with `"update_of": "<id>"`).
-- `accounts/rangkumindong/knowledge/storylines/*.md` — active stories. Check each one in your area for new developments.
+- Known events: run `python3 -I engine/events.py window accounts/rangkumindong/knowledge 14` (one line per event). Don't read events.csv in full. Don't re-report a known event unless there is a **new development** (then report it as a new event with `"update_of": "<id>"`).
+- Active storylines: `accounts/rangkumindong/knowledge/storylines/*.md` in your categories (read the summary and latest-developments parts only).
 - Your area brief (the file that told you to read this one).
 
-## How to search
-- Window: the last 48 hours before the run date (Asia/Makassar time), plus anything scheduled in the next 14 days (mark `"status": "upcoming"`).
-- Search **every item on your checklist separately**, in Bahasa Indonesia first (e.g. "KPK hari ini", "putusan MK terbaru", "IHSG ditutup"), then English if useful. Generic "berita hari ini" searches are not enough — that is how big stories get missed.
-- Use WebSearch, then WebFetch the actual article for numbers. Never take numbers from a search snippet alone.
-- **Search engines lag 1–3 days on Indonesian news.** For the last 48 h, also WebFetch outlet index pages directly and read the latest headlines, e.g. `https://nasional.kompas.com/`, `https://news.detik.com/berita`, `https://www.cnnindonesia.com/nasional`, `https://www.antaranews.com/politik`, `https://www.cnbcindonesia.com/news`, `https://www.kontan.co.id/`, `https://www.tempo.co/` and the institution's own site (e.g. `https://www.kpk.go.id/id/berita`, `https://www.mkri.id/`, `https://www.kejaksaan.go.id/`). If one blocks you, try another. Known (19 Oct): detik, cnbcindonesia, bisnis, katadata, cnnindonesia work; kompas.com, kpk.go.id, kejaksaan.go.id and idx.co.id often can't be read; kontan.co.id may return a stale cache (check article dates).
-- If a checklist item yields nothing from the last 48 h after both methods, list it in `gaps` as "no news found for X since <date>" so the coordinator knows it was checked.
+## How to search (headlines first, from 21 Oct)
+Window: the last 48 hours before the run date (Asia/Makassar time), plus anything scheduled in the next 14 days (`"status": "upcoming"`).
+1. **Read the section pages** listed in your brief with WebFetch: each shows 30+ of the latest headlines, so one fetch covers many institutions at once. Search engines lag 1–3 days on Indonesian news, so this comes first. If a page fails or is stale (check article dates), use the next one. Known (19–20 Oct): detik, cnbcindonesia, bisnis, katadata, cnnindonesia, antaranews work; kompas.com and idx.co.id often can't be read; kontan.co.id may be a stale cache.
+2. **Tick off your "watch list"** from those headlines. These are topics to recognise, not separate searches. Record in `checked` what you scanned (pages + watch-list items seen).
+3. **One search per active storyline** in your categories (e.g. "gibran ijazah MK terbaru"), to catch developments that aren't on the front pages.
+4. **Open full articles only where needed:** for stories you'd score high on the rubric, or to get exact numbers. Never take numbers from a headline or search snippet alone.
+5. No second sweep: if something looks thin, note it in `gaps` instead of searching more.
 - Prefer primary sources (BI, OJK, BEI/IDX, BPS, ministries, court rulings, company filings) and major outlets (Kompas, Detik, CNN Indonesia, Tempo, Antara, CNBC Indonesia, Kontan, Bisnis, Katadata, Reuters, Bloomberg).
 - `status`: `verified` = 2+ independent sources agree, or one primary source; `partial` = one secondary source, or details unclear; `upcoming` = scheduled future event.
 

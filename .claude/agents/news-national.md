@@ -6,11 +6,12 @@ model: sonnet
 ---
 AREA = `national`. First read `.claude/shared/researcher-common.md` and follow it exactly.
 
-Checklist (search each separately):
-- Most-read / "terpopuler" lists: Kompas, Detik, CNN Indonesia, Tempo, Antara, CNBC Indonesia, Kontan, Bisnis — open each list and note the top stories
-- What is trending on Indonesian social media (X, TikTok, Instagram) as reported by news outlets
-- Disasters and environment: BMKG warnings, earthquakes, floods, forest fires/haze, pollution, BNPB updates
-- Public services and daily life: transport (KRL, MRT, mudik), health (BPJS, outbreaks), education (sekolah, PPDB, beasiswa), haji/umrah
-- Crime and public-safety stories of national scale (no gratuitous detail; `sensitivity: high` if named private individuals)
-- Fact-check feeds: Komdigi hoaks, Cek Fakta (Kompas/Tempo/Liputan6), Mafindo — list hoaxes that are spreading
-- Active storylines in categories NEWS/ENV
+Section pages (read these first):
+- https://news.detik.com/terpopuler (most-read) and https://www.cnbcindonesia.com/ (latest + popular)
+- https://www.cnnindonesia.com/nasional
+- https://www.antaranews.com/humaniora and https://www.antaranews.com/terkini
+- https://turnbackhoax.id/ or https://www.antaranews.com/cek-fakta (hoaxes spreading)
+
+Watch list (tick off from the headlines; no separate searches): what's on the most-read lists · what's trending on X/TikTok as reported by outlets · disasters and environment (BMKG, BNPB, floods, quakes, karhutla/haze, pollution) · public services people feel (transport, BPJS/health, schools) · viral incidents of national scale · hoaxes being debunked.
+Only if they appear in the headlines: crime, haji/umrah, education.
+Searches: one per active storyline in NEWS/ENV. Fill `spreading_evidence` carefully: this area feeds the Wednesday viral slot.
