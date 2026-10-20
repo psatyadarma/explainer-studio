@@ -11,12 +11,15 @@ The coordinator tells you RUN_DATE and MODE. Day folder: `accounts/rangkumindong
 
 ## MODE ideas
 Inputs: all `sweep-*.json` in the day folder + `python3 -I engine/events.py window accounts/rangkumindong/knowledge 14`.
-Write `ideas.md` with **exactly 5** ideas, ranked, one marked ⭐ recommended. Consider the whole 14-day window: new developments, storyline follow-ups ("PART n"), upcoming dated events, explainers connecting several events; weigh today's topic rotation but don't force it. **No accidental repeats:** for every candidate run `python3 -I engine/covered.py check accounts/rangkumindong/knowledge "<title + angle + key numbers>"`. If a posted video comes up, only keep the idea when there is a real new development, then frame it as a follow-up (PART n, hook referencing the earlier video). If it was offered before but not picked, say so ("ditawarkan 19 Okt") so the user knows.
+Write `ideas.md` with **exactly 5** ideas, ranked, one marked ⭐ recommended.
+**Scoring:** give every candidate the virality rubric score (playbook → Topic selection): six signals 0–2 (spreading, wallet, surprise, visual, fresh, rivals), total /12. Start from the researchers' `signals`, then re-check `spreading` yourself just before writing: WebFetch the latest headlines (cnbcindonesia.com, detik.com, cnnindonesia.com, antaranews.com) because stories move between the sweep and now. Score the strongest angle of a story (a conflict or a human story counts, not only a new number). Rank mainly by score; the day's topic only breaks near-ties (within 1 point); storyline follow-ups get +1 when the earlier part did well. Consider the whole 14-day window: new developments, storyline follow-ups ("PART n"), upcoming dated events, explainers connecting several events; weigh today's topic rotation but don't force it. **No accidental repeats:** for every candidate run `python3 -I engine/covered.py check accounts/rangkumindong/knowledge "<title + angle + key numbers>"`. If a posted video comes up, only keep the idea when there is a real new development, then frame it as a follow-up (PART n, hook referencing the earlier video). If it was offered before but not picked, say so ("ditawarkan 19 Okt") so the user knows.
 Per idea (phone-readable, short):
 - **Hook** in Bahasa Indonesia, written in today's hook type (question or shock number)
 - Why now (1 line) · key numbers · storyline (new / continues X, PART n) · sensitivity
 - 2+ source links (from the sweep/events, never invented)
 - Covered check: `NEW`, or what it repeats/continues (date + title)
+- **Score line:** `🔥 9/12 · spreading 2 · wallet 1 · surprise 2 · visual 2 · fresh 2 · rivals 0` plus the spreading evidence (e.g. "CNBC terbaru, 20 Okt")
+After the 5, add **"Runner-ups"**: the next 3 candidates with their score line and one sentence on what they'd be good for (e.g. "strong for Thursday", "good PART 2 if it develops"). Runner-ups are not rejected, only outranked today.
 Top line of the file: today's experiment arm (voice · slot · hook).
 
 ## MODE draft

@@ -27,7 +27,7 @@ Updated: Mon 19 Oct 2026, 17:15 WITA. Each daily run is a fresh session with no 
 ## Status
 - **Video #1** LIVE since Mon 19 Oct 19:00 WITA: IG https://www.instagram.com/reel/DerGr2VijdH/ · YouTube https://www.youtube.com/watch?v=wecMGwOQoBo · TikTok posted manually by the user. Sync-fixed render `videos/2026-10-19-ihsg-msci-v3-sync` (QA sync PASS, −91 ms). Metrics due: 24 h = Tue 20 Oct 19:00, 72 h = Thu 22 Oct 19:00. Upload-Post's status doesn't report the first comment; the user checks and pins it.
 - **Agent pipeline** built and tested on 19 Oct: 4 researchers → 72 events (66 new merged) → writer → fact-checker caught 9 errors (e.g. the marketplace tax actually started **1 Oct**, not 1 Nov) → revised ideas in `accounts/rangkumindong/daily/2026-10-19/ideas.md`. That was a test list for Tue 20 Oct; the user hasn't picked one. The 20 Oct run should do a fresh sweep and may reuse these ideas where still current.
-- **Tue 20 Oct arm:** Cahaya · 12:30 WITA · shock-number hook · tech rotation.
+- **New from 21 Oct:** virality rubric (6 signals × 0–2 = /12) on every idea + 3 runner-ups; weekly rhythm Mon markets/economy/business · Tue tech · Wed viral · Thu politics · Fri wildcard · Sat weekly video + chapter Short · Sun "Minggu Depan" (see playbook → Topic selection).
 - **Weekly long video** "Rangkumin Seminggu": 6–10 min, 16:9, **Sat 08:00 WITA**, first one Sat 24 Oct. The draft goes to the user Friday morning, and the final video Friday evening for "OK post". Still to build before Friday: a 16:9 version of the sticker style (`styles/sticker/weekly/`), chapter assembly, parallel rendering, and a 1280×720 thumbnail template.
 
 ## Dashboard: "Rangkumin Dong Studio"
@@ -43,6 +43,7 @@ Updated: Mon 19 Oct 2026, 17:15 WITA. Each daily run is a fresh session with no 
 - Sat 24 Oct 09:00 WITA (in the original chat): TikTok warm-up done. The user connects TikTok to Upload-Post profile "Rangkumindong"; then add "tiktok" to `brand.json` posting.platforms and stop the manual TikTok sends.
 
 ## Open items
+- **Wed 21 Oct ideas: the user asked to include karhutla** (it scored 10/12 on 20 Oct but was left out). Angles: ex-trade minister Lutfi vs Singapore ("your companies are the culprits": attribute it, include the companies' responses, never call a company guilty), 4 firefighters killed at Bromo Tengger Semeru, 7,118 hotspots (BNPB), Jakarta's 367 facilities on standby, Mendagri's statement. Refresh the numbers that morning.
 - Laptop folder `C:\Users\PRAWIRA SATYA DARMA\Documents\ai-projects\auto-video`: needs an access grant from the desktop app, then create `rangkumindong\` and copy the videos.
 - The researchers often can't read kompas.com, kpk.go.id, kejaksaan.go.id or idx.co.id. Tech coverage was thin, so the business researcher now has a tech checklist.
 - Possible event-database corrections from the 19 Oct sweep: E0023 (BPS trade data timing), E0026 (MSCI weight 1.10% vs 1.16%).
