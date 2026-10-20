@@ -18,3 +18,7 @@ No photos were downloaded and no other image source was used (per instructions).
 - Add `commons.wikimedia.org` and `upload.wikimedia.org` to the environment's network allowlist
   (Claude settings → environment / network access), then re-run the task; or
 - Download the files manually from Commons and drop them in `accounts/rangkumindong/assets/people/`.
+
+## Re-check 08:24 UTC
+Same result: both endpoints 000 (curl exit 56), proxy `connect_rejected` / 403 to CONNECT
+for `commons.wikimedia.org:443` and `upload.wikimedia.org:443`. Still blocked.
