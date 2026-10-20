@@ -1,6 +1,6 @@
 # Handoff: Rangkumin Dong (read this first in every session)
 
-Updated: Mon 19 Oct 2026, 17:15 WITA. Each daily run is a fresh session with no memory of earlier chats. **This file plus the playbook are the memory.** Whenever something here changes, update it, mirror it to the Video project (`claude/rangkumindong-handoff.md`), commit and push.
+Updated: Tue 20 Oct 2026, 12:55 WITA. Each daily run is a fresh session with no memory of earlier chats. **This file plus the playbook are the memory.** Whenever something here changes, update it, mirror it to the Video project (`claude/rangkumindong-handoff.md`), commit and push.
 
 ## Standing rules from the user
 - **Approval:** every video needs the user's OK on its draft (topic, script, style, captions) before rendering. Nothing is published without an explicit "OK post". The overall workflow can be improved without sign-off; flag big changes.
@@ -26,7 +26,9 @@ Updated: Mon 19 Oct 2026, 17:15 WITA. Each daily run is a fresh session with no 
 
 ## Status
 - **Video #1** LIVE since Mon 19 Oct 19:00 WITA: IG https://www.instagram.com/reel/DerGr2VijdH/ · YouTube https://www.youtube.com/watch?v=wecMGwOQoBo · TikTok posted manually by the user. Sync-fixed render `videos/2026-10-19-ihsg-msci-v3-sync` (QA sync PASS, −91 ms). Metrics due: 24 h = Tue 20 Oct 19:00, 72 h = Thu 22 Oct 19:00. Upload-Post's status doesn't report the first comment; the user checks and pins it.
-- **Agent pipeline** built and tested on 19 Oct: 4 researchers → 72 events (66 new merged) → writer → fact-checker caught 9 errors (e.g. the marketplace tax actually started **1 Oct**, not 1 Nov) → revised ideas in `accounts/rangkumindong/daily/2026-10-19/ideas.md`. That was a test list for Tue 20 Oct; the user hasn't picked one. The 20 Oct run should do a fresh sweep and may reuse these ideas where still current.
+- **Video #2** LIVE since Tue 20 Oct 12:30 WITA: "Rupiah Rp18.046: besok BI tahan 5,75% atau naik ke 6%?" · IG https://www.instagram.com/reel/Des-m-yj_hs/ · YouTube https://www.youtube.com/watch?v=InOYuXQUm64 · TikTok manual by the user. Folder `videos/2026-10-20-rupiah-18rb-bi-rate`, storyline `storylines/rupiah.md`. Metrics due: 24 h = Wed 21 Oct 12:30, 72 h = Fri 23 Oct 12:30. **Follow-up candidate Wed 21 Oct:** BI RDG result (~14:00 WIB) as rupiah PART 2.
+- **20 Oct run (first full pipeline day):** 4 sweeps (13/9/13/15 events, 50 merged) → 5 ideas, fact-check fixed 11 → user picked #3 (rupiah) with own angle "crossed 18k before?" → draft (5 fixes) → approved 07:51 → render → QA FIX ×2 then PASS → OK post 08:35 → live 12:30.
+- **Lessons 20 Oct:** (1) **Cahaya reads ~130 wpm**: 232 words came out at 110 s. Writers should aim for **≤190 spoken words for Cahaya**, or use `engine/retime.py <video> --cut <id> --speed 1.15–1.2` (no new TTS credits; tagline kept at 1.0x). (2) `engine/tts_eleven.py` needs `pip install soundfile`. (3) Subtitle lead 0.02 passed sync for Cahaya (default 0.08 was 138 ms early). (4) Long lines (>~20 words) need splitting into subtitle pages in build/timing.json; `K.subtitles` now picks the latest-started line so pages flip on time. (5) QA flags holds >4 s: plan a beat every 2–3 s on long lines.
 - **New from 21 Oct:** virality rubric (6 signals × 0–2 = /12) on every idea + 3 runner-ups; weekly rhythm Mon markets/economy/business · Tue tech · Wed viral · Thu politics · Fri wildcard · Sat weekly video + chapter Short · Sun "Minggu Depan" (see playbook → Topic selection).
 - **Weekly long video** "Rangkumin Seminggu": 6–10 min, 16:9, **Sat 08:00 WITA**, first one Sat 24 Oct. The draft goes to the user Friday morning, and the final video Friday evening for "OK post". Still to build before Friday: a 16:9 version of the sticker style (`styles/sticker/weekly/`), chapter assembly, parallel rendering, and a 1280×720 thumbnail template.
 
@@ -39,7 +41,7 @@ Updated: Mon 19 Oct 2026, 17:15 WITA. Each daily run is a fresh session with no 
 ## Scheduled
 - Daily ~06:00 WITA: "Rangkumin Dong daily" (fresh session).
 - Daily 20:07 WITA: "Rangkumin Dong IG insights" (needs the user's computer; read-only Instagram Insights → metrics.csv).
-- Mon 19 Oct 19:20 WITA (in the original chat): check that video #1 went live and send the links.
+- Tue 20 Oct 20:40 WITA (in the 20 Oct daily chat): analyst for video #1 24 h metrics, dashboard refresh.
 - Sat 24 Oct 09:00 WITA (in the original chat): TikTok warm-up done. The user connects TikTok to Upload-Post profile "Rangkumindong"; then add "tiktok" to `brand.json` posting.platforms and stop the manual TikTok sends.
 
 ## Open items
