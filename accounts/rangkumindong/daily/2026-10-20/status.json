@@ -13,7 +13,7 @@
   "approved": "done",
   "render": "done",
   "video_sent": "done",
-  "ok_post": "todo",
+  "ok_post": "done",
   "posted": "todo",
   "knowledge": "todo"
  },
@@ -24,7 +24,8 @@
   "23:48Z draft sent 07:50 WITA",
   "23:51Z user approved draft",
   "23:51Z user approved draft 07:51 WITA",
-  "00:33Z l4 cut + voice 1.18x to fit 88 s; QA PASS after 2 rounds"
+  "00:33Z l4 cut + voice 1.18x to fit 88 s; QA PASS after 2 rounds",
+  "00:36Z OK post 08:35; scheduled 12:30 WITA job 6589e197"
  ],
  "merge_stats": {
   "new": 50,
