@@ -1,0 +1,972 @@
+{
+ "duration": 109.899,
+ "voice": "Cahaya",
+ "lines": [
+  {
+   "id": "h1",
+   "text": "Rp18.046 per dolar.",
+   "start": 0.901,
+   "end": 4.2540000000000004,
+   "words": [
+    {
+     "w": "Rp18.046",
+     "start": 0.901,
+     "end": 3.26
+    },
+    {
+     "w": "per",
+     "start": 3.26,
+     "end": 3.454
+    },
+    {
+     "w": "dolar.",
+     "start": 3.761,
+     "end": 4.254
+    }
+   ]
+  },
+  {
+   "id": "h2",
+   "text": "Besok BI putuskan: bunga ditahan 5,75%, atau naik ke 6%?",
+   "start": 4.528,
+   "end": 10.478000000000002,
+   "words": [
+    {
+     "w": "Besok",
+     "start": 4.528,
+     "end": 5.008
+    },
+    {
+     "w": "BI",
+     "start": 5.061,
+     "end": 5.27
+    },
+    {
+     "w": "putuskan:",
+     "start": 5.27,
+     "end": 6.028
+    },
+    {
+     "w": "bunga",
+     "start": 6.108,
+     "end": 6.508
+    },
+    {
+     "w": "ditahan",
+     "start": 6.588,
+     "end": 7.148
+    },
+    {
+     "w": "5,75%,",
+     "start": 7.208,
+     "end": 8.958
+    },
+    {
+     "w": "atau",
+     "start": 9.022,
+     "end": 9.278
+    },
+    {
+     "w": "naik",
+     "start": 9.358,
+     "end": 9.678
+    },
+    {
+     "w": "ke",
+     "start": 9.731,
+     "end": 9.838
+    },
+    {
+     "w": "6%?",
+     "start": 9.902,
+     "end": 10.478
+    }
+   ]
+  },
+  {
+   "id": "rd",
+   "text": "Rangkumin dong!",
+   "start": 10.661,
+   "end": 12.048,
+   "words": [
+    {
+     "w": "Rangkumin",
+     "start": 10.661,
+     "end": 11.355
+    },
+    {
+     "w": "dong!",
+     "start": 11.355,
+     "end": 12.048
+    }
+   ]
+  },
+  {
+   "id": "l1",
+   "text": "Tapi tunggu. Rupiah tembus 18.000 itu… bukan pertama kali.",
+   "start": 12.815004535147395,
+   "end": 17.385004535147395,
+   "words": [
+    {
+     "w": "Tapi",
+     "start": 12.815,
+     "end": 12.845
+    },
+    {
+     "w": "tunggu.",
+     "start": 12.893,
+     "end": 13.448
+    },
+    {
+     "w": "Rupiah",
+     "start": 13.448,
+     "end": 13.945
+    },
+    {
+     "w": "tembus",
+     "start": 14.005,
+     "end": 14.265
+    },
+    {
+     "w": "18.000",
+     "start": 14.325,
+     "end": 15.225
+    },
+    {
+     "w": "itu…",
+     "start": 15.385,
+     "end": 16.065
+    },
+    {
+     "w": "bukan",
+     "start": 16.132,
+     "end": 16.425
+    },
+    {
+     "w": "pertama",
+     "start": 16.457,
+     "end": 16.745
+    },
+    {
+     "w": "kali.",
+     "start": 16.857,
+     "end": 17.385
+    }
+   ]
+  },
+  {
+   "id": "l2",
+   "text": "4 Juni 2026: pertama kali ditutup di atas 18.000, di Rp18.049.",
+   "start": 17.785004535147394,
+   "end": 24.479004535147396,
+   "words": [
+    {
+     "w": "4",
+     "start": 17.785,
+     "end": 18.049
+    },
+    {
+     "w": "Juni",
+     "start": 18.097,
+     "end": 18.769
+    },
+    {
+     "w": "2026:",
+     "start": 18.849,
+     "end": 19.249
+    },
+    {
+     "w": "pertama",
+     "start": 19.297,
+     "end": 19.649
+    },
+    {
+     "w": "kali",
+     "start": 19.713,
+     "end": 19.969
+    },
+    {
+     "w": "ditutup",
+     "start": 20.029,
+     "end": 20.529
+    },
+    {
+     "w": "di",
+     "start": 20.556,
+     "end": 20.609
+    },
+    {
+     "w": "atas",
+     "start": 20.689,
+     "end": 21.009
+    },
+    {
+     "w": "18.000,",
+     "start": 21.049,
+     "end": 22.168
+    },
+    {
+     "w": "di",
+     "start": 22.168,
+     "end": 22.519
+    },
+    {
+     "w": "Rp18.049.",
+     "start": 22.519,
+     "end": 24.479
+    }
+   ]
+  },
+  {
+   "id": "l3",
+   "text": "Buat perbandingan: krisis 1998, puncaknya sekitar Rp16.800. Covid 2020: Rp16.575.",
+   "start": 24.746004535147392,
+   "end": 35.29800453514739,
+   "words": [
+    {
+     "w": "Buat",
+     "start": 24.746,
+     "end": 24.879
+    },
+    {
+     "w": "perbandingan:",
+     "start": 24.919,
+     "end": 25.679
+    },
+    {
+     "w": "krisis",
+     "start": 25.818,
+     "end": 26.199
+    },
+    {
+     "w": "1998,",
+     "start": 26.259,
+     "end": 27.398
+    },
+    {
+     "w": "puncaknya",
+     "start": 27.409,
+     "end": 28.049
+    },
+    {
+     "w": "sekitar",
+     "start": 28.102,
+     "end": 28.529
+    },
+    {
+     "w": "Rp16.800.",
+     "start": 28.577,
+     "end": 30.799
+    },
+    {
+     "w": "Covid",
+     "start": 30.832,
+     "end": 30.999
+    },
+    {
+     "w": "2020:",
+     "start": 31.039,
+     "end": 32.522
+    },
+    {
+     "w": "Rp16.575.",
+     "start": 32.522,
+     "end": 35.298
+    }
+   ]
+  },
+  {
+   "id": "l4",
+   "text": "Tapi tahun 1998, rupiah kehilangan lebih dari 80% nilainya.",
+   "start": 35.40200453514739,
+   "end": 41.3290045351474,
+   "words": [
+    {
+     "w": "Tapi",
+     "start": 35.402,
+     "end": 35.909
+    },
+    {
+     "w": "tahun",
+     "start": 35.962,
+     "end": 36.229
+    },
+    {
+     "w": "1998,",
+     "start": 36.269,
+     "end": 37.429
+    },
+    {
+     "w": "rupiah",
+     "start": 37.488,
+     "end": 38.209
+    },
+    {
+     "w": "kehilangan",
+     "start": 38.262,
+     "end": 38.769
+    },
+    {
+     "w": "lebih",
+     "start": 38.849,
+     "end": 39.249
+    },
+    {
+     "w": "dari",
+     "start": 39.297,
+     "end": 39.489
+    },
+    {
+     "w": "80%",
+     "start": 39.549,
+     "end": 40.609
+    },
+    {
+     "w": "nilainya.",
+     "start": 40.669,
+     "end": 41.329
+    }
+   ]
+  },
+  {
+   "id": "l5",
+   "text": "Terus, BI ngapain? Naikin bunga. Dua kali. Dalam 10 hari.",
+   "start": 41.61500453514739,
+   "end": 47.809004535147395,
+   "words": [
+    {
+     "w": "Terus,",
+     "start": 41.615,
+     "end": 41.959
+    },
+    {
+     "w": "BI",
+     "start": 42.092,
+     "end": 42.36
+    },
+    {
+     "w": "ngapain?",
+     "start": 42.386,
+     "end": 42.999
+    },
+    {
+     "w": "Naikin",
+     "start": 43.098,
+     "end": 43.549
+    },
+    {
+     "w": "bunga.",
+     "start": 43.589,
+     "end": 44.109
+    },
+    {
+     "w": "Dua",
+     "start": 44.228,
+     "end": 44.499
+    },
+    {
+     "w": "kali.",
+     "start": 44.611,
+     "end": 45.248
+    },
+    {
+     "w": "Dalam",
+     "start": 45.248,
+     "end": 46.059
+    },
+    {
+     "w": "10",
+     "start": 46.158,
+     "end": 47.289
+    },
+    {
+     "w": "hari.",
+     "start": 47.377,
+     "end": 47.809
+    }
+   ]
+  },
+  {
+   "id": "l6",
+   "text": "9 Juni ke 5,50%. 18 Juni ke 5,75%. Sejak Juli, ditahan.",
+   "start": 48.01400453514739,
+   "end": 55.668004535147396,
+   "words": [
+    {
+     "w": "9",
+     "start": 48.014,
+     "end": 48.339
+    },
+    {
+     "w": "Juni",
+     "start": 48.435,
+     "end": 48.819
+    },
+    {
+     "w": "ke",
+     "start": 48.899,
+     "end": 49.059
+    },
+    {
+     "w": "5,50%.",
+     "start": 49.119,
+     "end": 50.608
+    },
+    {
+     "w": "18",
+     "start": 50.608,
+     "end": 51.229
+    },
+    {
+     "w": "Juni",
+     "start": 51.325,
+     "end": 51.709
+    },
+    {
+     "w": "ke",
+     "start": 51.869,
+     "end": 52.169
+    },
+    {
+     "w": "5,75%.",
+     "start": 52.229,
+     "end": 53.609
+    },
+    {
+     "w": "Sejak",
+     "start": 53.728,
+     "end": 54.149
+    },
+    {
+     "w": "Juli,",
+     "start": 54.245,
+     "end": 54.889
+    },
+    {
+     "w": "ditahan.",
+     "start": 54.959,
+     "end": 55.668
+    }
+   ]
+  },
+  {
+   "id": "l7",
+   "text": "Bedanya sekarang? Pemicunya MSCI, plus The Fed yang masih buka peluang naikin bunga.",
+   "start": 55.849004535147394,
+   "end": 62.309004535147395,
+   "words": [
+    {
+     "w": "Bedanya",
+     "start": 55.849,
+     "end": 56.129
+    },
+    {
+     "w": "sekarang?",
+     "start": 56.182,
+     "end": 56.849
+    },
+    {
+     "w": "Pemicunya",
+     "start": 56.918,
+     "end": 57.709
+    },
+    {
+     "w": "MSCI,",
+     "start": 57.789,
+     "end": 58.669
+    },
+    {
+     "w": "plus",
+     "start": 58.861,
+     "end": 59.269
+    },
+    {
+     "w": "The",
+     "start": 59.329,
+     "end": 59.509
+    },
+    {
+     "w": "Fed",
+     "start": 59.609,
+     "end": 59.909
+    },
+    {
+     "w": "yang",
+     "start": 59.957,
+     "end": 60.149
+    },
+    {
+     "w": "masih",
+     "start": 60.216,
+     "end": 60.549
+    },
+    {
+     "w": "buka",
+     "start": 60.602,
+     "end": 60.869
+    },
+    {
+     "w": "peluang",
+     "start": 60.929,
+     "end": 61.349
+    },
+    {
+     "w": "naikin",
+     "start": 61.429,
+     "end": 61.829
+    },
+    {
+     "w": "bunga.",
+     "start": 61.869,
+     "end": 62.309
+    }
+   ]
+  },
+  {
+   "id": "l8",
+   "text": "Bantalannya: cadangan devisa US$146,3 miliar. Inflasi 3,28%, masih dalam target.",
+   "start": 62.739004535147394,
+   "end": 72.76900453514739,
+   "words": [
+    {
+     "w": "Bantalannya:",
+     "start": 62.739,
+     "end": 63.488
+    },
+    {
+     "w": "cadangan",
+     "start": 63.489,
+     "end": 64.029
+    },
+    {
+     "w": "devisa",
+     "start": 64.109,
+     "end": 64.669
+    },
+    {
+     "w": "US$146,3",
+     "start": 64.749,
+     "end": 67.149
+    },
+    {
+     "w": "miliar.",
+     "start": 67.269,
+     "end": 67.789
+    },
+    {
+     "w": "Inflasi",
+     "start": 68.348,
+     "end": 69.089
+    },
+    {
+     "w": "3,28%,",
+     "start": 69.209,
+     "end": 71.409
+    },
+    {
+     "w": "masih",
+     "start": 71.476,
+     "end": 71.809
+    },
+    {
+     "w": "dalam",
+     "start": 71.862,
+     "end": 72.129
+    },
+    {
+     "w": "target.",
+     "start": 72.209,
+     "end": 72.769
+    }
+   ]
+  },
+  {
+   "id": "l9",
+   "text": "Jadi, besok ada dua opsi.",
+   "start": 73.0410045351474,
+   "end": 75.04900453514739,
+   "words": [
+    {
+     "w": "Jadi,",
+     "start": 73.041,
+     "end": 73.529
+    },
+    {
+     "w": "besok",
+     "start": 73.629,
+     "end": 74.089
+    },
+    {
+     "w": "ada",
+     "start": 74.129,
+     "end": 74.249
+    },
+    {
+     "w": "dua",
+     "start": 74.309,
+     "end": 74.489
+    },
+    {
+     "w": "opsi.",
+     "start": 74.569,
+     "end": 75.049
+    }
+   ]
+  },
+  {
+   "id": "l10",
+   "text": "Opsi 1: tahan di 5,75%. Sebagian ekonom, misalnya Danamon: rupiah dijaga lewat intervensi dulu.",
+   "start": 75.2920045351474,
+   "end": 84.2800045351474,
+   "words": [
+    {
+     "w": "Opsi",
+     "start": 75.292,
+     "end": 75.459
+    },
+    {
+     "w": "1:",
+     "start": 75.539,
+     "end": 76.249
+    },
+    {
+     "w": "tahan",
+     "start": 76.289,
+     "end": 76.649
+    },
+    {
+     "w": "di",
+     "start": 76.702,
+     "end": 76.809
+    },
+    {
+     "w": "5,75%.",
+     "start": 76.889,
+     "end": 78.318
+    },
+    {
+     "w": "Sebagian",
+     "start": 78.318,
+     "end": 78.86
+    },
+    {
+     "w": "ekonom,",
+     "start": 78.94,
+     "end": 79.66
+    },
+    {
+     "w": "misalnya",
+     "start": 79.72,
+     "end": 80.06
+    },
+    {
+     "w": "Danamon:",
+     "start": 80.12,
+     "end": 80.878
+    },
+    {
+     "w": "rupiah",
+     "start": 81.44,
+     "end": 81.96
+    },
+    {
+     "w": "dijaga",
+     "start": 82.26,
+     "end": 82.76
+    },
+    {
+     "w": "lewat",
+     "start": 82.84,
+     "end": 83.16
+    },
+    {
+     "w": "intervensi",
+     "start": 83.227,
+     "end": 83.88
+    },
+    {
+     "w": "dulu.",
+     "start": 83.92,
+     "end": 84.28
+    }
+   ]
+  },
+  {
+   "id": "l11",
+   "text": "Opsi 2: naik ke 6%, proyeksi Bloomberg Economics. Kata Citi, kenaikan itu langkah antisipasi, biar arus keluar dari pasar saham nggak merembet ke pasar obligasi.",
+   "start": 84.50800453514739,
+   "end": 97.0280045351474,
+   "words": [
+    {
+     "w": "Opsi",
+     "start": 84.508,
+     "end": 84.708
+    },
+    {
+     "w": "2:",
+     "start": 84.788,
+     "end": 85.268
+    },
+    {
+     "w": "naik",
+     "start": 85.368,
+     "end": 85.808
+    },
+    {
+     "w": "ke",
+     "start": 85.861,
+     "end": 85.968
+    },
+    {
+     "w": "6%,",
+     "start": 86.0,
+     "end": 86.768
+    },
+    {
+     "w": "proyeksi",
+     "start": 86.838,
+     "end": 87.538
+    },
+    {
+     "w": "Bloomberg",
+     "start": 87.594,
+     "end": 88.098
+    },
+    {
+     "w": "Economics.",
+     "start": 88.178,
+     "end": 89.058
+    },
+    {
+     "w": "Kata",
+     "start": 89.148,
+     "end": 89.448
+    },
+    {
+     "w": "Citi,",
+     "start": 89.528,
+     "end": 90.318
+    },
+    {
+     "w": "kenaikan",
+     "start": 90.358,
+     "end": 90.798
+    },
+    {
+     "w": "itu",
+     "start": 90.878,
+     "end": 91.118
+    },
+    {
+     "w": "langkah",
+     "start": 91.182,
+     "end": 91.598
+    },
+    {
+     "w": "antisipasi,",
+     "start": 91.651,
+     "end": 92.548
+    },
+    {
+     "w": "biar",
+     "start": 92.601,
+     "end": 93.028
+    },
+    {
+     "w": "arus",
+     "start": 93.081,
+     "end": 93.268
+    },
+    {
+     "w": "keluar",
+     "start": 93.348,
+     "end": 93.748
+    },
+    {
+     "w": "dari",
+     "start": 93.796,
+     "end": 93.988
+    },
+    {
+     "w": "pasar",
+     "start": 94.041,
+     "end": 94.308
+    },
+    {
+     "w": "saham",
+     "start": 94.388,
+     "end": 94.788
+    },
+    {
+     "w": "nggak",
+     "start": 94.868,
+     "end": 95.108
+    },
+    {
+     "w": "merembet",
+     "start": 95.148,
+     "end": 95.668
+    },
+    {
+     "w": "ke",
+     "start": 95.721,
+     "end": 95.828
+    },
+    {
+     "w": "pasar",
+     "start": 95.895,
+     "end": 96.228
+    },
+    {
+     "w": "obligasi.",
+     "start": 96.281,
+     "end": 97.028
+    }
+   ]
+  },
+  {
+   "id": "l12",
+   "text": "Naik: pinjaman bisa makin mahal. Tahan: tekanan ke rupiah bisa berlanjut.",
+   "start": 97.2840045351474,
+   "end": 102.8880045351474,
+   "words": [
+    {
+     "w": "Naik:",
+     "start": 97.284,
+     "end": 97.764
+    },
+    {
+     "w": "pinjaman",
+     "start": 97.864,
+     "end": 98.554
+    },
+    {
+     "w": "bisa",
+     "start": 98.618,
+     "end": 98.874
+    },
+    {
+     "w": "makin",
+     "start": 98.927,
+     "end": 99.194
+    },
+    {
+     "w": "mahal.",
+     "start": 99.254,
+     "end": 99.828
+    },
+    {
+     "w": "Tahan:",
+     "start": 99.828,
+     "end": 100.474
+    },
+    {
+     "w": "tekanan",
+     "start": 100.588,
+     "end": 101.134
+    },
+    {
+     "w": "ke",
+     "start": 101.161,
+     "end": 101.214
+    },
+    {
+     "w": "rupiah",
+     "start": 101.294,
+     "end": 101.774
+    },
+    {
+     "w": "bisa",
+     "start": 101.854,
+     "end": 102.174
+    },
+    {
+     "w": "berlanjut.",
+     "start": 102.234,
+     "end": 102.888
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "text": "Kalau kamu BI: tahan atau naik? Komen!",
+   "start": 102.9940045351474,
+   "end": 106.0180045351474,
+   "words": [
+    {
+     "w": "Kalau",
+     "start": 102.994,
+     "end": 103.194
+    },
+    {
+     "w": "kamu",
+     "start": 103.242,
+     "end": 103.434
+    },
+    {
+     "w": "BI:",
+     "start": 103.514,
+     "end": 103.954
+    },
+    {
+     "w": "tahan",
+     "start": 103.974,
+     "end": 104.554
+    },
+    {
+     "w": "atau",
+     "start": 104.618,
+     "end": 104.874
+    },
+    {
+     "w": "naik?",
+     "start": 104.927,
+     "end": 105.318
+    },
+    {
+     "w": "Komen!",
+     "start": 105.318,
+     "end": 106.018
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "text": "Follow Rangkumin Dong, biar nggak ketinggalan!",
+   "start": 106.4290045351474,
+   "end": 109.0440045351474,
+   "words": [
+    {
+     "w": "Follow",
+     "start": 106.429,
+     "end": 106.484
+    },
+    {
+     "w": "Rangkumin",
+     "start": 106.564,
+     "end": 106.964
+    },
+    {
+     "w": "Dong,",
+     "start": 107.028,
+     "end": 107.364
+    },
+    {
+     "w": "biar",
+     "start": 107.497,
+     "end": 107.844
+    },
+    {
+     "w": "nggak",
+     "start": 107.871,
+     "end": 108.044
+    },
+    {
+     "w": "ketinggalan!",
+     "start": 108.064,
+     "end": 109.044
+    }
+   ]
+  }
+ ]
+}

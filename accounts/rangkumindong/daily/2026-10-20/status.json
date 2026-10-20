@@ -10,9 +10,9 @@
   "draft": "done",
   "draft_factcheck": "done",
   "draft_sent": "done",
-  "approved": "todo",
-  "render": "todo",
-  "video_sent": "todo",
+  "approved": "done",
+  "render": "done",
+  "video_sent": "done",
   "ok_post": "todo",
   "posted": "todo",
   "knowledge": "todo"
@@ -21,7 +21,10 @@
   "22:06Z 4 sweeps OK (13/9/13/15); outlet index pages often blocked; KPK nothing new",
   "22:22Z ideas sent 06:25 WITA; 11 fact-check fixes applied",
   "23:34Z user picked 3 (rupiah/BI); wants history angle: rupiah crossed 18k before",
-  "23:48Z draft sent 07:50 WITA"
+  "23:48Z draft sent 07:50 WITA",
+  "23:51Z user approved draft",
+  "23:51Z user approved draft 07:51 WITA",
+  "00:33Z l4 cut + voice 1.18x to fit 88 s; QA PASS after 2 rounds"
  ],
  "merge_stats": {
   "new": 50,

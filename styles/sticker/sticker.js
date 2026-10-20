@@ -54,7 +54,8 @@
 
   // Subtitles: current line, yellow highlight on the word being spoken.
   K.subtitles = (box, t) => {
-    const L = window.TIMING.lines.find((l) => t >= l.start - 0.05 && t <= l.end + 0.35);
+    // latest line that has started wins (so a split subtitle page flips on its first word, not 0.35 s later)
+    const L = window.TIMING.lines.filter((l) => t >= l.start - 0.05 && t <= l.end + 0.35).pop();
     if (!L) { box.style.opacity = 0; return; }
     if (box.dataset.id !== L.id) {
       box.dataset.id = L.id;
