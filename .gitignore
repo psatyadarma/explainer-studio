@@ -7,3 +7,5 @@ tests/*/out/
 tests/*/build/
 accounts/*/videos/*/out/
 accounts/*/videos/*/build/*.wav
+accounts/*/videos/*/build/raw/
+__pycache__/
