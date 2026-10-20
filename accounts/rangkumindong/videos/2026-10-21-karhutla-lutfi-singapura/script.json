@@ -1,0 +1,120 @@
+{
+ "direction": "[energetic, conversational Indonesian content creator explaining news to a friend; strictly neutral between Indonesia, Singapore and the companies; every claim attributed; calm and respectful on the Bromo line]",
+ "voice": "male:Pratama",
+ "hook_type": "shock_number",
+ "lines": [
+  {
+   "id": "h1",
+   "tag": "[shocked]",
+   "text": "10 perusahaan Indonesia.",
+   "say": "Sepuluh perusahaan Indonesia."
+  },
+  {
+   "id": "h2",
+   "tag": "[serious, urgent]",
+   "text": "Disurati Singapura soal asap. Eks Mendag Lutfi balas: sebagian pemasok grup yang induknya justru di Singapura.",
+   "say": "Disurati Singapura soal asap. Eks Mendag Lutfi balas: sebagian pemasok grup yang induknya justru di Singapura."
+  },
+  {
+   "id": "rd",
+   "tagline": true,
+   "text": "Rangkumin dong!"
+  },
+  {
+   "id": "l1",
+   "tag": "[serious, punchy]",
+   "text": "Jadi gini. Per 16 Oktober, BNPB catat 7.118 titik panas di 6 provinsi.",
+   "say": "Jadi gini. Per enam belas Oktober, be en pe be catat tujuh ribu seratus delapan belas titik panas. Di enam provinsi."
+  },
+  {
+   "id": "l2",
+   "tag": "[somber, slow, quiet]",
+   "text": "Di Bromo, 4 orang tewas saat memadamkan api.",
+   "say": "Di Bromo, empat orang tewas... saat memadamkan api."
+  },
+  {
+   "id": "l3",
+   "tag": "[explaining]",
+   "text": "Asapnya nyebrang. Kata Singapura, sebagian asap di sana dari kebakaran di lahan 7 perusahaan Indonesia.",
+   "say": "Asapnya nyebrang. Kata Singapura, sebagian asap di sana dari kebakaran di lahan tujuh perusahaan Indonesia."
+  },
+  {
+   "id": "l4",
+   "tag": "[matter-of-fact, quick]",
+   "text": "16 Oktober: 7 perusahaan disurati. 19 Oktober: tambah 3. Jadi 10.",
+   "say": "Enam belas Oktober: tujuh perusahaan disurati. Sembilan belas Oktober: tambah tiga. Jadi sepuluh."
+  },
+  {
+   "id": "l5",
+   "tag": "[neutral]",
+   "text": "Isinya: padamkan api, stop membakar, kirim rencana. Belum ada putusan.",
+   "say": "Isinya: padamkan api, stop membakar, kirim rencana. Belum ada putusan."
+  },
+  {
+   "id": "l6",
+   "tag": "[curious, leaning in]",
+   "text": "Nah, Lutfi balas lewat Instagram.",
+   "say": "Nah, Lutfi balas lewat Instagram."
+  },
+  {
+   "id": "l7",
+   "tag": "[explaining, neutral]",
+   "text": "Katanya, 4 dari 7 perusahaan pertama itu pemasok grup konglomerat yang induknya di Singapura.",
+   "say": "Katanya, empat dari tujuh perusahaan pertama itu pemasok grup konglomerat yang induknya di Singapura."
+  },
+  {
+   "id": "l8",
+   "tag": "[neutral, reporting]",
+   "text": "Kata Lutfi: jangan nulis surat peringatan cuma buat nyenengin pemilih.",
+   "say": "Kata Lutfi: jangan nulis surat peringatan cuma buat nyenengin pemilih."
+  },
+  {
+   "id": "l9",
+   "tag": "[explaining]",
+   "text": "Pada 19 Oktober, Menteri Shanmugam bilang: pemeriksaan bakal sampai ke grup induk dan pemiliknya.",
+   "say": "Pada sembilan belas Oktober, Menteri Syanmugam bilang: pemeriksaan bakal sampai ke grup induk dan pemiliknya."
+  },
+  {
+   "id": "l11",
+   "tag": "[matter-of-fact]",
+   "text": "Lalu, dua perusahaan sawit lain yang tercatat di bursa Singapura membantah. Kata First Resources, sebagian api datang dari luar lahannya. Kata Kencana Agri, apinya merembet dari lahan sekitar.",
+   "say": "Lalu, dua perusahaan sawit lain yang tercatat di bursa Singapura membantah. Kata Ferst Risorsis, sebagian api datang dari luar lahannya. Kata Kencana Agri, apinya merembet dari lahan sekitar."
+  },
+  {
+   "id": "l12",
+   "tag": "[neutral]",
+   "text": "Kalau 10 perusahaan yang disurati Singapura? Tanggapannya belum kami temukan.",
+   "say": "Kalau sepuluh perusahaan yang disurati Singapura? Tanggapannya belum kami temukan."
+  },
+  {
+   "id": "l13",
+   "tag": "[serious]",
+   "text": "Kata Kapolri, 98 kasus karhutla korporasi masuk penyidikan. Ada dugaan pihak asing terlibat.",
+   "say": "Kata Kapolri, sembilan puluh delapan kasus karhutla korporasi masuk penyidikan. Ada dugaan pihak asing terlibat."
+  },
+  {
+   "id": "l14",
+   "tag": "[matter-of-fact]",
+   "text": "Mendagri Tito: tekanan finansial dari negara lain nggak masalah, asal lewat sistem hukum masing-masing.",
+   "say": "Mendagri Tito: tekanan finansial dari negara lain nggak masalah, asal lewat sistem hukum masing-masing."
+  },
+  {
+   "id": "l15",
+   "tag": "[reassuring, careful]",
+   "text": "Ingat: semua ini masih diusut. Belum ada yang diputus bersalah.",
+   "say": "Ingat: semua ini masih diusut. Belum ada yang diputus bersalah."
+  },
+  {
+   "id": "cta",
+   "tag": "[playful, asking the viewer]",
+   "text": "Menurut kamu, yang harus tanggung jawab: pemilik lahan, grup induknya, atau pengawasnya? Komen!",
+   "say": "Menurut kamu, yang harus tanggung jawab: pemilik lahan, grup induknya, atau pengawasnya? Komen!"
+  },
+  {
+   "id": "end",
+   "tag": "[friendly, upbeat]",
+   "text": "Follow Rangkumin Dong, biar nggak ketinggalan!"
+  }
+ ],
+ "tail": 0.9
+}
