@@ -19,7 +19,7 @@ Updated: Tue 20 Oct 2026, 12:55 WITA. Each daily run is a fresh session with no 
 
 ## Session setup (start of every run)
 1. `git clone https://github.com/psatyadarma/explainer-studio && cd explainer-studio && npm install` (playwright-core + @sparticuz/chromium; cdn.playwright.dev is blocked). Check that `ffmpeg` and `python3 -c "import numpy"` work, and install anything missing.
-2. Load the keys as above.
+2. Load the keys as above. If today's video uses a person cut-out: `pip install --break-system-packages rembg` and download the model once into ~/.u2net (see engine/cutout.py header; GitHub release, ~175 MB).
 3. Read: this file → `accounts/rangkumindong/knowledge/playbook.md` (incl. "Agent pipeline") → `brand.json` → `knowledge/video-log.md` → active `storylines/`.
 4. Agents: start them as general-purpose agents told to "Read .claude/agents/<role>.md and follow it exactly" (researchers on model sonnet). Don't rely on the custom agent types being registered.
 5. Anything that has to happen later the same day (e.g. checking a 19:00 post at 19:20) → `send_later` into this session.

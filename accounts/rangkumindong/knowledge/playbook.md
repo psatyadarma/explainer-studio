@@ -13,6 +13,13 @@
 - New visual every 2–4 s. **Safe area (from 19 Oct):** the camera frames each zone at 0.88× zoom, so zones need ~120 px clear space around them. Keep headlines, numbers and labels inside x 60–920 and y 240–1480: below the top bar, clear of the right-hand buttons and the bottom caption, and inside the 3:4 profile-grid crop (y 240–1680). Subtitles sit at y 1290, 56 px, max 3 lines. Check with `engine/safezone.py`.
 - Always show "Bukan ajakan jual/beli saham" on market/stock topics.
 
+## Real people as cut-outs (from 21 Oct; sample: tests/hook-person)
+- For stories with a clear face (a minister, CEO, official), the hook can show them as a large cut-out sticker: rising on a paper "ledge" that hides the waist-up crop, name tag ("Nama · jabatan"), 3-beat label-bar headline over the torso (black → yellow → white), objects flying in (smoke, flags, money, logos) and a callout arrow.
+- **Photos only from licensed sources:** Wikimedia Commons (public domain / CC0 / CC BY / CC BY-SA; Indonesian government official portraits are usually public domain), official government pages, company press kits. Never news-agency or random web photos.
+- Tools: `engine/commons.py search "<name>"` → `get "<File:…>" accounts/rangkumindong/assets/people <slug>` (saves `<slug>.json` with the credit), then `engine/cutout.py <slug>.jpg <slug>.png --kind person` (objects: `--kind object`). Reuse `assets/people/` before downloading again. Commons rate-limits: use standard thumbnail widths (960) and retry after a minute.
+- Show the credit small on screen while the photo is visible and in the end card/caption ("Foto: …, via Wikimedia Commons").
+- Rules: no fake quotes (attribute: "kata …"), no mocking or distorting edits, same treatment for all political sides, no private individuals.
+
 ## Script & delivery ("punchy", approved 19 Oct)
 - Conversational, explaining to a friend. Short sentences. Openers like "Jadi gini.", "Pemicunya? X.", "Nah,", "Tapi tenang,".
 - Dramatic beat on the key number ("Dalam. Satu. Hari.").

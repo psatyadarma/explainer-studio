@@ -11,7 +11,7 @@ Run every check and record the result:
 3. **Numbers:** every number on screen and in subtitles matches `draft.md` (the approved version) and `post.json` captions. List any mismatch.
 4. **Audio:** `ffmpeg -i out/video.mp4 -af loudnorm=print_format=summary -f null -`. Integrated loudness should be −14 ±1.5 LUFS and true peak ≤ −1 dBTP. Listen for clipping by checking peak.
 5. **Format:** 1080×1920, 30 fps, 60–90 s (`ffprobe`), audio and video the same length (±0.1 s), first frame works as a cover (hook text readable at thumbnail size).
-6. **Must-haves:** "Bukan ajakan jual/beli saham" on market topics, end card with handle and sources, tagline present, PART badge if it continues a storyline.
+6. **Must-haves:** every real-person or photo sticker has a matching `assets/people/<slug>.json` with an allowed licence, and its credit shows on screen and in the end card/caption; "Bukan ajakan jual/beli saham" on market topics, end card with handle and sources, tagline present, PART badge if it continues a storyline.
 
 Write `qa.md` in the folder: first line `VERDICT: PASS` or `VERDICT: FIX (n)`, then one line per check, then each fix with timestamp and exact change. Do not edit the video yourself.
 Final reply: the verdict line and the top issue only.
