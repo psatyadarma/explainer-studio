@@ -78,5 +78,45 @@
 "recommended": false,
 "storyline": "new: tax-policy",
 "sensitivity": "low"
+},
+{
+"date": "2026-10-21",
+"rank": 1,
+"title": "Karhutla: siapa yang harus bertanggung jawab atas asap? (Lutfi vs Singapura)",
+"recommended": true,
+"storyline": "karhutla",
+"sensitivity": ""
+},
+{
+"date": "2026-10-21",
+"rank": 2,
+"title": "Puing roket China sebesar 9 meter jatuh di kebun sawit Kalimantan",
+"recommended": false,
+"storyline": "new. **Sensitivity:** low-medium. Attrib",
+"sensitivity": "low"
+},
+{
+"date": "2026-10-21",
+"rank": 3,
+"title": "IHSG PART 2: meroket 5,65% sehari setelah anjlok, tapi masih terburuk di dunia",
+"recommended": false,
+"storyline": "msci-reclassification (part 2)",
+"sensitivity": "medium"
+},
+{
+"date": "2026-10-21",
+"rank": 4,
+"title": "Ojol: komisi turun 20% jadi 8%, tapi pendapatan belum tentu naik",
+"recommended": false,
+"storyline": "new. **Sensitivity:** medium (Prabowo's ",
+"sensitivity": "medium"
+},
+{
+"date": "2026-10-21",
+"rank": 5,
+"title": "Rupiah/BI PART 2: hasil RDG, tahan 5,75% atau naik ke 6%? (hanya slot 19:00)",
+"recommended": false,
+"storyline": "rupiah (part 2)",
+"sensitivity": "medium"
 }
 ]

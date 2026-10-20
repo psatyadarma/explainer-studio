@@ -1,0 +1,131 @@
+{
+  "area": "national",
+  "run_date": "2026-10-21",
+  "checked": ["Antara terkini (karhutla headlines)", "CNN Indonesia nasional (20 Oct)", "CNBC Indonesia latest (popular lists empty)", "detik terpopuler (fetch failed)", "turnbackhoax / Antara cek-fakta (not scanned)", "watch-list found: karhutla/haze, disasters (BNPB 2,179 bencana), ferry fire, student protests, haji-quota trial, judges", "karhutla user-requested refresh: BNPB hotspots, Bromo deaths, flights, Lutfi vs Singapore, company responses, Mendagri, Jakarta standby", "storyline files in knowledge/storylines (gibran-ijazah-mk, msci-reclassification, rupiah) are not national-area; no search run"],
+  "events": [
+    {
+      "date": "2026-10-20",
+      "category": "GLB",
+      "event": "Former Trade Minister Muhammad Lutfi, in an Instagram post on @m.lutfi, attacks Singapore's warning letters to seven Indonesian firms over haze as a show for voters and says Singapore-based parents control the concessions and have never been prosecuted under its Transboundary Haze Pollution Act.",
+      "key_numbers": "7 firms warned by Singapore (16 Oct) · 4 of 7 are suppliers to SGX-listed groups (per Lutfi) · First Resources and Bumitama Agri cited, S$10 bn (about Rp141 T) combined (detik, unit unclear) · Singapore tax 5-15% (Lutfi) · family office minimum US$20 m (Lutfi) · Greenpeace report Oct 2026 (4 of 5 major palm groups had hotspots, per Lutfi)",
+      "storyline": "karhutla",
+      "update_of": "E0098",
+      "status": "verified",
+      "sources": [
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/ekonomi/20261020083257-92-1417345/eks-mendag-ri-sentil-singapura-soal-karhutla-kantor-pusatnya-di-sana"},
+        {"label": "detikFinance", "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8714756/eks-menteri-kritik-singapura-soal-karhutla-4-dari-7-perusahaan-tercatat-di-sana"},
+        {"label": "CNN Indonesia (Presiden dan PM Singapura)", "url": "https://www.cnnindonesia.com/ekonomi/20261020122531-92-1417435/eks-mendag-ri-tuding-presiden-dan-pm-singapura-lembek-ke-miliarder"}
+      ],
+      "why_it_matters": "Indonesia-Singapore blame game over the haze now centres on who really owns the companies behind the fires.",
+      "signals": {"spreading": 2, "wallet": 0, "surprise": 2, "visual": 1, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "At least 4 CNN Indonesia/detik/Liputan6/Monitor pieces on 20 Oct; CNBC Indonesia market headline 'Eks Mendag...' same day",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-10-16",
+      "category": "BIZ",
+      "event": "Singapore-listed First Resources disputes that fires started on its Indonesian plantations (SGX statement 15 Oct), Bumitama Agri requests a trading halt, and both shares fall after a Greenpeace report linked them to burning concessions.",
+      "key_numbers": "Greenpeace report 5 Oct 2026 · First Resources -9.1% intraday to S$3.71 (16 Oct) · Bumitama Agri -7.5% to S$1.73 · Bumitama trading halt requested 16 Oct (per CNA via Mothership) · PM Lawrence Wong 15 Oct: investigating, Transboundary Haze Pollution Act (2014) may apply",
+      "storyline": "karhutla",
+      "update_of": "E0098",
+      "status": "partial",
+      "sources": [
+        {"label": "Mothership", "url": "https://mothership.sg/2026/10/two-singapore-listed-palm-oil-firms-greenpeace-report-indonesian-plantation-fires/"}
+      ],
+      "why_it_matters": "Shows haze now costs listed palm-oil companies real money, the angle Lutfi's remarks build on.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 2, "fresh": 1, "rivals": 2},
+      "spreading_evidence": "",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-10-20",
+      "category": "ENV",
+      "event": "State Secretary Prasetyo Hadi says the government is doing cloud seeding with salt and dry ice in several provinces to put out karhutla, with rain reported in Kalimantan districts.",
+      "key_numbers": "Kalbar since 22 Aug: 107 sorties · 98,800 kg salt · Kalteng since 26 Aug: 48 sorties · 43,800 kg salt · Kalsel since 10 Oct: 23 sorties · 23,000 kg salt · Kalsel rainfall 222.67 million m3 · Sumsel since 16 Oct: 8 sorties · 1,600 kg salt · 4,000 dry ice · Lampung 15-18 Oct: 6 sorties · 4,800 dry ice",
+      "storyline": "karhutla",
+      "update_of": "E0157",
+      "status": "partial",
+      "sources": [
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261020133123-20-1417470/pemerintah-modifikasi-cuaca-pakai-garam-dan-dry-ice-padamkan-karhutla"}
+      ],
+      "why_it_matters": "Shows how the government is trying to end the haze, and how large the effort is.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 0, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "CNN Indonesia nasional list 20 Oct 13:31",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-20",
+      "category": "ENV",
+      "event": "Palembang is again covered in thick karhutla smoke with air quality rated hazardous, per a CNN Indonesia photo report.",
+      "key_numbers": "Air quality category: berbahaya (figure not read) · CNN Indonesia 20 Oct 14:26 WIB",
+      "storyline": "karhutla",
+      "update_of": "E0021",
+      "status": "partial",
+      "sources": [
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261020142609-22-1417521/foto-asap-karhutla-di-palembang-pekat-lagi-kualitas-udara-berbahaya"}
+      ],
+      "why_it_matters": "Haze is not clearing despite cloud seeding and a fall in national hotspot counts.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 0, "visual": 2, "fresh": 2, "rivals": 0},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-20",
+      "category": "ENV",
+      "event": "A fire on Gunung Ringgit in the Arjuno-Welirang area, Pasuruan, East Java, burning since 16 Oct, is still spreading and is now about 2-3 km from residents' homes.",
+      "key_numbers": "Started Fri 16 Oct · 2-3 km from homes · area burned not yet surveyed · no casualties reported",
+      "storyline": "karhutla",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261020130547-20-1417460/api-karhutla-arjuno-welirang-mulai-dekati-permukiman-warga"}
+      ],
+      "why_it_matters": "East Java mountain fires (after Bromo, where four died) are spreading toward homes.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-20",
+      "category": "POL",
+      "event": "University students hold simultaneous demonstrations in Jakarta, Yogyakarta and Makassar on the second anniversary of the Prabowo-Gibran government.",
+      "key_numbers": "3 cities · 20 Oct 2026 (CNN Indonesia headline 13:29 WIB, article body not opened)",
+      "storyline": "prabowo-2-years",
+      "update_of": "E0137",
+      "status": "partial",
+      "sources": [
+        {"label": "CNN Indonesia nasional", "url": "https://www.cnnindonesia.com/nasional"}
+      ],
+      "why_it_matters": "Tests public mood on the government's two-year mark, with karhutla among the demands (per E0152).",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 0, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "CNN Indonesia nasional list; photo of banner protest at Bundaran HI 14:13",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-10-20",
+      "category": "NEWS",
+      "event": "ASDP ferry KMP Batumandi catches fire as it approaches Merak port and passengers are lowered by rope; the cause is under investigation.",
+      "key_numbers": "Cause not yet determined · casualty figures not read (CNBC Indonesia headlines only)",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/"}
+      ],
+      "why_it_matters": "Merak-Bakauheni is a main route for Java-Sumatra travellers and cargo.",
+      "signals": {"spreading": 2, "wallet": 0, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "CNBC Indonesia latest list, 4+ headlines within 1 hour on 20 Oct",
+      "sensitivity": "normal"
+    }
+  ],
+  "gaps": [
+    "No newer BNPB hotspot figure than E0157 (16 Oct: 7,118 in six priority provinces; SiPongi 270 on 17 Oct) was found; CNBC '2.179 bencana' headline (BNPB disaster tally to 20 Oct, 21 missing, 5.8 m displaced/affected) not opened.",
+    "No newer Kemenhub flight figure than E0102 (2,458 flights at 29 airports to 17 Oct) found; the search snippet 'Papua 16 airports, 1,067 cancelled' is from the 2,021-flight update (period to 13 Oct), already superseded.",
+    "Bromo Tengger Semeru: no new development; toll still 4 dead, 2 burned (RCTI+ 16 Oct). RCTI+ lists victims as 1 TNBTS staffer (Sukaris), 2 hotel workers, 1 more (Hendra, burns 50-60%), while E0158 says 2 TNBTS staff and 2 permit-company staff: check the breakdown before use. Police still checking accident vs arson.",
+    "No Singapore government or company response to Lutfi found as of 20 Oct (CNN and detik articles carry none). First Resources response is from 15 Oct, before his remarks. Lutfi's four companies are not named; the detik wording on whether First Resources and Bumitama are among the 7 is ambiguous. The Instagram post itself was not viewed.",
+    "Mendagri Tito: only 12 Oct instruction (ban land burning, emergency) and a Kompas.tv headline surfaced; no 20-21 Oct statement found. Kompas 19 Oct government response article blocked by robots.",
+    "No new Jakarta standby-facility figure beyond E0103 (31 hospitals, 44 puskesmas, 292 pustu); not re-searched.",
+    "detik terpopuler fetch failed and CNBC popular lists were empty, so spreading scores rely on headline frequency; hoax pages (turnbackhoax, Antara cek-fakta) not scanned.",
+    "Seen as headlines only, not opened: Hakim PN Cibinong dismissed for 129 days absent; Khalid Basalamah returns US$354k in haji-quota trial; Nusron Wahid Singapore/Malaysia trips (Imigrasi); Subagyo HS funeral at Mabes TNI AD with Prabowo; Kapolri says 98 corporate karhutla cases under investigation including foreign parties (Antara)."
+  ]
+}

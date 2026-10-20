@@ -1,0 +1,308 @@
+[
+ {
+  "date": "2026-10-21",
+  "category": "ECO",
+  "event": "Bank Indonesia is due to announce its October BI-Rate decision on 21 October after the 20-21 October RDG; the latest pre-decision polls lean towards a 25 bp hike to 6.00% but a hold at 5.75% remains a live alternative. (update of E0125) (update of E0125)",
+  "key_numbers": "Current BI-Rate 5.75% (cumulative +100 bp in May-Jun 2026 from 4.75%, held since July) · Bisnis BIG Consensus (20 Oct): 8 of 14 expect hike (7x +25 bp to 6.00%, 1x +50 bp to 6.25%), 6 of 14 hold; all 14 call stance hawkish · CNBC Indonesia Research poll (20 Oct): 10 of 13 expect +25 bp to 6.00%, 3 hold · BRI Danareksa Sekuritas and LPEM FEB UI expect hold at 5.75% · Sep inflation 3.28% y/y (core 2.84%) vs target 2.5% +/-1% · FX reserves US$146.3 B (end-Sep) · rupiah closed Rp17,995/US$ on 20 Oct · announcement time: about 14:00 WIB per coordinator, no source states a clock time yet",
+  "storyline": "rupiah",
+  "status": "upcoming",
+  "sources": "Bisnis (BIG Consensus Insights) <https://finansial.bisnis.com/read/20261020/11/2014274/big-consensus-insights-mayoritas-ekonom-proyeksi-bi-rate-naik> ; CNBC Indonesia Research <https://www.cnbcindonesia.com/research/20261020134553-128-777867/drama-msci-belum-berlalu-besok-ada-pengumuman-penting-buat-warga-ri> ; Warta Ekonomi <https://wartaekonomi.co.id/read641877/bi-diperkirakan-tahan-suku-bunga-acuan-pada-rdg-oktober-ini>"
+ },
+ {
+  "date": "2026-10-20",
+  "category": "MKT",
+  "event": "IHSG rebounded sharply on 20 October after three straight days of falls, led by state-owned bank and BUMN shares, after BEI said it will exclude High Shareholding Concentration (HSC) stocks from the index calculation and Danantara said it would buy BUMN shares; full-day close not yet confirmed. (update of E0117) (update of E0117)",
+  "key_numbers": "Open 5,129 (+2%+) · midday 5,193.03 (+196.42 pts, +3.93%) from 4,996.60 · lows around 4,900 earlier · BMRI +8.33% to Rp3,640 · SMGR +7.39% · BBRI +6.82% to Rp2,730 · BBNI +6.42% to Rp3,150 · JSMR +5.83% · Samuel Sekuritas simulation: IHSG +18.6% to 5,925 if all HSC stocks excluded (scenario, not forecast) · HSC stocks about 18% of IHSG weight, 80 stocks on list as of 13 Oct, effective date not announced",
+  "storyline": "msci-reclassification",
+  "status": "partial",
+  "sources": "Detik Finance <https://finance.detik.com/bursa-dan-valas/d-8715248/ihsg-terus-menguat-saham-saham-bumn-beterbangan> ; CNBC Indonesia <https://www.cnbcindonesia.com/market/20261020094709-19-777731/video-ihsg-rebound-berhasil-menguat-28-tembus-level-5100> ; Bisnis <https://market.bisnis.com/read/20261020/7/2013950/brief-insight-bei-keluarkan-saham-hsc-dari-ihsg-benarkah-indeks-bakal-rebound>"
+ },
+ {
+  "date": "2026-10-20",
+  "category": "MKT",
+  "event": "CNBC Indonesia headlines say the IHSG is the worst-performing of the world's stock exchanges this year, with a roughly 43% fall, even as foreign investors kept net selling blue chips on 20 October. (update of E0118)",
+  "key_numbers": "IHSG about -43% YTD per CNBC video headline (earlier E0118 had -40.04% as of 16 Oct, 35th of 35 exchanges) · foreign net selling continued in blue chips in the morning session of 20 Oct, with buying in mining stocks · market cap Rp8,863 T at 19 Oct close · aggregate foreign flow for 20 Oct not found",
+  "storyline": "msci-reclassification",
+  "status": "partial",
+  "sources": "CNBC Indonesia <https://www.cnbcindonesia.com/market/20261020100952-19-777739/video-anjlok-43-ihsg-resmi-jadi-bursa-saham-terburuk-di-dunia> ; CNBC Indonesia <https://www.cnbcindonesia.com/market/20261020084112-17-777701/asing-lanjut-net-sell-jumbo-ramai-ramai-lego-saham-blue-chip>"
+ },
+ {
+  "date": "2026-10-20",
+  "category": "MKT",
+  "event": "Fitch (Sovereign director George Xu) says weaker investor confidence and capital-market governance could add pressure to Indonesia's BBB/Negative sovereign rating, though it does not expect the MSCI consultation alone to hurt credit materially.",
+  "key_numbers": "Rating BBB, outlook Negative (cut from stable in March 2026) · FX reserves US$146.3 B end-Q3 2026 · BI net short FX position above US$32 B at end-Aug 2026 · Fitch expects governance reforms within weeks",
+  "storyline": "msci-reclassification",
+  "status": "partial",
+  "sources": "CNBC Indonesia <https://www.cnbcindonesia.com/market/20261020091241-17-777716/fitch-ikut-soroti-msci-status-pasar-ri-bisa-bebani-rating-utang>"
+ },
+ {
+  "date": "2026-10-20",
+  "category": "MKT",
+  "event": "Former trade minister Muhammad Lutfi alleges, without verified evidence, that Singapore's Temasek and GIC pressured MSCI to threaten Indonesia's downgrade so foreign funds could buy back cheaply.",
+  "key_numbers": "Lutfi claims foreign institutions already exited about 80% of the market (unverified) · names GIC's Rachel Goh in an Instagram post · CNBC notes no independent evidence",
+  "storyline": "msci-reclassification",
+  "status": "partial",
+  "sources": "CNBC Indonesia <https://www.cnbcindonesia.com/market/20261020103355-17-777750/eks-mendag-lutfi-duga-ada-manuver-asing-tekan-msci-downgrade-bursa-ri>"
+ },
+ {
+  "date": "2026-10-20",
+  "category": "MKT",
+  "event": "The rupiah closed slightly stronger on 20 October at Rp17,995 per US dollar after briefly trading above Rp18,000, ahead of the BI decision. (update of E0124) (update of E0124)",
+  "key_numbers": "Close Rp17,995/US$ (20 Oct) vs Rp18,046 close on 19 Oct · opened Rp18,010-18,015 · US 10-year Treasury yield about 5.10-5.14% · BI says swap/DNDF instruments drew US$8-9 B inflows · Destry: Fed hike probability for October is lower but still a risk · next FOMC 27-28 Oct",
+  "storyline": "rupiah",
+  "status": "partial",
+  "sources": "Bisnis (BIG Consensus, close figure) <https://finansial.bisnis.com/read/20261020/11/2014274/big-consensus-insights-mayoritas-ekonom-proyeksi-bi-rate-naik> ; Antara <https://www.antaranews.com/berita/5797629/bi-jaga-stabilitas-rupiah-di-tengah-gejolak-global> ; CNBC Indonesia <https://www.cnbcindonesia.com/market/20261020085746-17-777708/rupiah-dibuka-menguat-pagi-ini-dolar-as-turun-tipis-ke-rp18010>"
+ },
+ {
+  "date": "2026-10-20",
+  "category": "BIZ",
+  "event": "Alamtri Resources (ADRO) begins a Rp4 trillion share buyback on 20 October, joining other issuers supporting prices after the MSCI-driven sell-off. (update of E0121)",
+  "key_numbers": "ADRO buyback up to Rp4 T starting 20 Oct · earlier: BREN up to Rp1 T, DSSA up to Rp1 T, CUAN up to Rp500 B (E0121)",
+  "storyline": "msci-reclassification",
+  "status": "partial",
+  "sources": "Bisnis <https://market.bisnis.com/read/20261020/192/2013995/alamtri-adro-mulai-buyback-saham-hari-ini-2010-siapkan-dana-rp4-triliun>"
+ },
+ {
+  "date": "2026-10-20",
+  "category": "GLB",
+  "event": "Brent crude closed at about US$109.55 on 19 October after Houthi-claimed strikes on Saudi targets and Russian supply headlines; Bahlil says coal has hit a three-year high and the government is ready to lift production. (update of E0127) (update of E0127)",
+  "key_numbers": "Brent US$109.55 (-31 cents; intraday high US$110.70) · WTI US$103.66 (+US$2.25) · coal US$154/t (3-year high) · Indonesia coal output could reach 700 juta ton in 2026 with relaxation · Houthi claims unverified by Saudi Arabia · Saudi FII conference postponed",
+  "storyline": "fuel-oil",
+  "status": "partial",
+  "sources": "Bisnis <https://ekonomi.bisnis.com/read/20261020/44/2014033/harga-minyak-tembus-us109-per-barel-serangan-houthi-ke-saudi-picu-kekhawatiran> ; CNBC Indonesia <https://www.cnbcindonesia.com/news/20261020125846-4-777825/harga-batu-bara-melejit-tertinggi-3-tahun-bahlil-siap-kerek-produksi> ; Antara <https://www.antaranews.com/berita/5797925/harga-batu-bara-capai-154-dolar-as-per-ton-bahlil-harap-produksi-naik>"
+ },
+ {
+  "date": "2026-10-20",
+  "category": "ECO",
+  "event": "ESDM is watching Pertalite queues in East Java (Malang, Blitar) and securing supply to avoid a repeat of Bali, while Bahlil says national fuel stock is safe and queues in Bali and East Java are easing. (update of E0094) (update of E0094)",
+  "key_numbers": "Pertalite stock 16-18 days (E0128) · Bali queues blamed on late shipping from Java · Bahlil: oil around US$100+/bbl",
+  "storyline": "fuel-oil",
+  "status": "partial",
+  "sources": "Bisnis <https://ekonomi.bisnis.com/read/20261020/44/2014184/esdm-waspadai-antrean-bbm-di-jatim-malang-hingga-blitar-disorot> ; Antara <https://www.antaranews.com/video/5797901/bahlil-sebut-stok-bbm-nasional-aman-antrean-di-bali-dan-jatim-terurai> ; Detik Finance <https://finance.detik.com/energi/d-8714655/biang-kerok-masalah-bbm-di-bali-kapal-dari-jawa-terlambat-masuk>"
+ },
+ {
+  "date": "2026-10-20",
+  "category": "ECO",
+  "event": "Bank Indonesia flags volatile food inflation above 5% and says it will coordinate with the Agriculture Ministry, while CNBC Indonesia reports Indonesia's food inflation ranks third-worst among compared countries behind the Philippines and India. (update of E0149)",
+  "key_numbers": "Volatile food inflation about 5% · September headline 3.28% y/y · core 2.84% · target 2.5% +/-1% · cabai merah keriting Rp126,400/kg on 19 Oct (E0149)",
+  "storyline": "consumer-health",
+  "status": "partial",
+  "sources": "Bisnis <https://ekonomi.bisnis.com/read/20261020/9/2014002/bi-soroti-inflasi-pangan-tembus-5-koordinasi-dengan-kementan-diperkuat> ; CNBC Indonesia <https://www.cnbcindonesia.com/news/20261020132152-4-777848/inflasi-pangan-ri-masuk-3-besar-filipina-india-terparah>"
+ },
+ {
+  "date": "2026-10-20",
+  "category": "BIZ",
+  "event": "BCA (BBCA) was scheduled to release Q3 2026 results on 20 October, the first big bank to report during the sell-off; figures were not in the headlines scanned. (update of E0150) (update of E0150)",
+  "key_numbers": "BBNI 23 Oct · BMRI 27 Oct · BRIS 29 Oct · BBRI/BBTN/BDMN 30 Oct · BCA buyback window 19-21 Oct",
+  "storyline": "msci-reclassification",
+  "status": "upcoming",
+  "sources": "Bisnis <https://market.bisnis.com/>"
+ },
+ {
+  "date": "2026-10-20",
+  "category": "POL",
+  "event": "Immigration DG Hendarsam Marantoko confirms ATR/BPN Minister Nusron Wahid travelled to Singapore via Batam and Malaysia after skipping two KPK summons in an ATR/BPN corruption investigation, and says no travel ban (cekal) has been requested.",
+  "key_numbers": "Missed KPK examinations on 7 Oct and 15 Oct 2026 · max 2 summons before a bring-in order under new KUHAP · Immigration could not say whether he is back · no cekal request received",
+  "storyline": "kpk-nusron-atr-bpn",
+  "status": "verified",
+  "sources": "Liputan6 <https://www.liputan6.com/news/read/8317209/imigrasi-ungkap-nusron-wahid-telah-tinggalkan-indonesia> ; CNN Indonesia <https://www.cnnindonesia.com/nasional/20261020120337-12-1417427/imigrasi-ungkap-perjalanan-nusron-wahid-ke-singapura-dan-malaysia> ; Kompas <https://nasional.kompas.com/read/2026/10/20/12372421/nusron-wahid-ke-malaysia-dirjen-imigrasi-belum-tahu-kepulangannya>"
+ },
+ {
+  "date": "2026-10-20",
+  "category": "POL",
+  "event": "Students protest on the Prabowo-Gibran government's second anniversary: BEM UI at Tugu Tani in Jakarta, thousands at DPRD DIY in Yogyakarta, and protests planned at 33 points in Makassar, with demands centred on karhutla/flood disaster status, MBG/KDMP review and military role. (update of E0152)",
+  "key_numbers": "Jakarta 9,505 security personnel (7,660 Polri, 1,540 TNI) · Tugu Tani 15:00 WIB · Makassar 33 points, ~3,000 personnel · Yogyakarta 'ribuan' (thousands) · 5 demands listed by Kompas",
+  "storyline": "prabowo-2-years",
+  "status": "verified",
+  "sources": "CNN Indonesia <https://www.cnnindonesia.com/nasional/20261020132913-20-1417469/mahasiswa-demo-20-oktober-serentak-di-jakarta-yogya-dan-makassar> ; Kompas <https://megapolitan.kompas.com/read/2026/10/20/05000031/daftar-5-tuntutan-demo-2-tahun-prabowo-gibran-hari-ini-di-jakarta>"
+ },
+ {
+  "date": "2026-10-20",
+  "category": "POL",
+  "event": "Preacher Khalid Basalamah testifies at the Tipikor court in the 2023-2024 additional hajj quota corruption trial that his staff returned US$354,500 to KPK; former Religious Affairs Minister Yaqut Cholil Qoumas is among four defendants.",
+  "key_numbers": "US$354,500 returned (3,545 x US$100 notes) · KPK also seized US$200,000 · BPK-based state loss Rp622,090,207,166 · 4 defendants · 313 special hajj organizers (PIHK) allegedly benefited",
+  "storyline": "",
+  "status": "partial",
+  "sources": "CNN Indonesia <https://www.cnnindonesia.com/nasional/20261020124017-12-1417446/sidang-kuota-haji-khalid-basalamah-akui-kembalikan-354-ribu-dolar-as>"
+ },
+ {
+  "date": "2026-10-20",
+  "category": "POL",
+  "event": "Prabowo meets Chief of Staff Listyo Sigit Prabowo at Istana Merdeka and instructs him to oversee strategic priority programmes so they hit their targets, a day before the second-anniversary events.",
+  "key_numbers": "Listyo appointed KSP 1 Oct 2026 · meeting Mon 19 Oct 2026 · programmes cited: KDKMP, hospital construction incl. type C regional hospitals · met 13 labour union representatives in October",
+  "storyline": "prabowo-2-years",
+  "status": "partial",
+  "sources": "Antara <https://www.antaranews.com/berita/5797657/prabowo-instruksikan-listyo-kawal-program-strategis-agar-tepat-sasaran>"
+ },
+ {
+  "date": "2026-10-20",
+  "category": "POL",
+  "event": "A Majelis Kehormatan Hakim (MA and Komisi Yudisial) permanently dismisses, with pension rights, Cibinong District Court judge INS for 129 working days of unexcused absence and prior disciplinary record.",
+  "key_numbers": "129 working days absent · 3 earlier sanctions (2016, 2022, 2023) · 2-year non-hammer sanction from Aug 2023 not complied with · hearing 19 Oct 2026 · panel 3 MA + 4 KY members",
+  "storyline": "",
+  "status": "partial",
+  "sources": "CNN Indonesia <https://www.cnnindonesia.com/nasional/20261020144730-12-1417534/hakim-pn-cibinong-dipecat-karena-mangkir-kerja-129-hari>"
+ },
+ {
+  "date": "2026-10-20",
+  "category": "POL",
+  "event": "Bareskrim names five suspects in the blackout case that hit Batam-Bintan island.",
+  "key_numbers": "5 suspects · details of cause, roles and outage scale not read (headline only)",
+  "storyline": "",
+  "status": "partial",
+  "sources": "Antara <https://www.antaranews.com/berita/5799409/bareskrim-tetapkan-lima-tersangka-kasus-blackout-di-pulau-batam-bintan>"
+ },
+ {
+  "date": "2026-10-20",
+  "category": "POL",
+  "event": "Pomdam TT detains a TNI member as a suspect in a 46.93 kg crystal-meth (sabu) case in Riau.",
+  "key_numbers": "46.93 kg sabu · 1 TNI suspect (from headline only)",
+  "storyline": "",
+  "status": "partial",
+  "sources": "Antara <https://www.antaranews.com/berita/5799525/pomdam-tt-tahan-anggota-tni-tersangka-kasus-4693-kg-sabu-di-riau>"
+ },
+ {
+  "date": "2026-10-20",
+  "category": "TECH",
+  "event": "GoTo releases a free 27-billion-parameter AI language model (built on Google's Gemma 3) on Hugging Face that supports Indonesian, Javanese, Sundanese, Balinese and Batak Toba.",
+  "key_numbers": "27 billion parameters · 6 languages · 128,000-token context · needs ~54-60 GB GPU memory (Nvidia A100 80 GB recommended) · Gemma license, not fully open source",
+  "storyline": "",
+  "status": "partial",
+  "sources": "detikInet <https://inet.detik.com/cyberlife/d-8714893/goto-rilis-model-ai-27-miliar-parameter-bisa-bahasa-daerah>"
+ },
+ {
+  "date": "2026-10-19",
+  "category": "TECH",
+  "event": "Komdigi Deputy Minister Nezar Patria says the ministry is studying a ministerial regulation that would require labels on AI-generated content to curb fraud.",
+  "key_numbers": "Still under study, no timeline or penalties · National AI Roadmap 2026-2029 involves 400+ institutions · example: Hong Kong deepfake meeting fraud US$25 M, 15 transfers",
+  "storyline": "",
+  "status": "partial",
+  "sources": "CNN Indonesia <https://www.cnnindonesia.com/teknologi/20261019100403-192-1416926/cegah-penipuan-komdigi-kaji-aturan-wajib-beri-label-konten-ai>"
+ },
+ {
+  "date": "2026-10-20",
+  "category": "TECH",
+  "event": "Komdigi (Deputy Minister Angga Raka Prabowo) says it is studying telecom deregulation to cut regulatory costs that take 13-14% of mobile operators' revenue, with 2029 targets for broadband speed and 5G coverage.",
+  "key_numbers": "Regulatory cost 13-14% of operator revenue · industry growth room 5% · 2029 targets: up to 100 Mbps, 50% of households on home internet (wording garbled), 90% of kecamatan on fiber, 5G coverage 51% · 4G covers 98%+ of territory · no BHP/USO figures or legal instrument yet",
+  "storyline": "",
+  "status": "partial",
+  "sources": "CNBC Indonesia <https://www.cnbcindonesia.com/tech/20261020143744-37-777870/komdigi-lagi-lagi-janji-pangkas-beban-telkomsel-indosat-dan-xlsmart>"
+ },
+ {
+  "date": "2026-10-19",
+  "category": "TECH",
+  "event": "At the Bali Tech Week opening, Minister Bahlil Lahadalia says the government will issue a 'win-win' data-centre investment regulation under which foreign investors should partner with national and regional businesses; Komdigi's Meutya Hafid says AI factory and data-centre development must be coordinated with energy supply. (update of E0141)",
+  "key_numbers": "No investment, capacity or job figures given · no legal form or timeline · data centres use large electricity and water, limited jobs",
+  "storyline": "",
+  "status": "partial",
+  "sources": "CNBC Indonesia <https://www.cnbcindonesia.com/tech/20261020153537-37-777887/data-center-mau-diatur-investor-asing-diminta-gandeng-pengusaha-lokal> ; Katadata (BP Batam water rule, DPR review) <https://katadata.co.id/digital/teknologi/6ad5ea584115d/bp-batam-wajibkan-pengembang-data-center-bangun-instalasi-air-sendiri>"
+ },
+ {
+  "date": "2026-10-19",
+  "category": "TECH",
+  "event": "Indonesian iPhone Duo price and date remain unofficial: a Jakarta billboard says sales on 30 Oct and a leaked BRI document lists Rp43.99 M for 256 GB, while Bisnis says Indonesian delivery may only come next year; global pre-orders opened 16 Oct at US$1,999.",
+  "key_numbers": "Leaked BRI prices: 256 GB Rp43,999,000 · 512 GB Rp47,999,000 · 1 TB Rp55,999,000 · 2 TB Rp68,999,000 · US$1,999 (256 GB) to US$3,199 (2 TB) · global availability 23 Oct · IDC ~7 M units in 2026 · Counterpoint <=6 M units initially · some delivery estimates late Jan 2027 · Katadata's 'Rp36 M' is just US$ conversion",
+  "storyline": "",
+  "status": "partial",
+  "sources": "detikInet <https://inet.detik.com/consumer/d-8713753/iphone-duo-rilis-di-indonesia-30-oktober-2026-siapkan-dompet> ; Katadata <https://katadata.co.id/digital/gadget/6ad5a4fa5fa36/iphone-duo-seharga-rp-36-juta-ludes-dipesan-apple-berpotensi-kekurangan-stok> ; Bisnis <https://teknologi.bisnis.com/read/20261018/280/2013534/pre-order-membludak-iphone-duo-baru-bisa-dikirim-tahun-depan>"
+ },
+ {
+  "date": "2026-10-28",
+  "category": "TECH",
+  "event": "Apple will hold an event on 28 October where a touchscreen MacBook Pro is widely expected.",
+  "key_numbers": "Event 28 Oct 2026 · details taken from detik and CNBC Indonesia headlines only, article not opened",
+  "storyline": "",
+  "status": "upcoming",
+  "sources": "detikInet <https://inet.detik.com/consumer/d-8714839/apple-gelar-acara-28-oktober-macbook-pro-layar-sentuh-dinanti> ; CNBC Indonesia <https://www.cnbcindonesia.com/tech/20261020072559-37-777681/laptop-macbook-baru-dengan-touchscreen-akan-diluncurkan-minggu-depan>"
+ },
+ {
+  "date": "2026-10-19",
+  "category": "TECH",
+  "event": "DPR Komisi VII asks the government to evaluate the 8% ojol commission cap, citing driver complaints and a UGM survey that found lower commissions do not automatically raise drivers' net income; Komisi V warns that splitting oversight across three ministries risks delays. (update of E0144)",
+  "key_numbers": "Commission cut 20% to 8% (passenger services, from July) · drivers keep at least 92% · Prabowo said on 14 Aug that driver income rose 2-3x · UGM survey Sep-2 Oct 2026, five cities · implementing rules due by 31 Dec 2026 · Perpres 27/2026 announced 8 Oct · 3 ministries: Kemenhub, Komdigi, Kementerian UMKM",
+  "storyline": "",
+  "status": "partial",
+  "sources": "Katadata (Prabowo claim, DPR evaluation) <https://katadata.co.id/digital/startup/6ad5e4a42e4b2/prabowo-klaim-pendapatan-ojol-naik-berkat-komisi-8-dpr-minta-evaluasi> ; Katadata (three ministries) <https://katadata.co.id/digital/startup/6ad5e92ee8815/tiga-kementerian-kini-urus-ojol-dpr-minta-pengawasan-tak-tumpang-tindih>"
+ },
+ {
+  "date": "2026-10-19",
+  "category": "TECH",
+  "event": "Coordinating Minister Airlangga Hartarto sets a Harbolnas 2026 transaction target of Rp40 trillion, now counting online travel agents, ojol and social commerce as well as e-commerce.",
+  "key_numbers": "Target Rp40 T (~+10%) · 2025 realisation Rp36.4 T (target Rp35 T; +17% from Rp31.2 T in 2024) · local products Rp16.6 T (45.6%) in 2025 · Harbolnas dates 10-16 Dec (year not stated in article) · e-commerce market projected to grow 14%+ to US$71 B",
+  "storyline": "",
+  "status": "partial",
+  "sources": "Katadata <https://katadata.co.id/digital/e-commerce/6ad5753368c8c/pemerintah-target-belanja-online-akhir-tahun-harbolnas-capai-rp-40-triliun>"
+ },
+ {
+  "date": "2026-10-18",
+  "category": "TECH",
+  "event": "Security reports warn of Hirudo, an Android banking-trojan/remote-access malware that targets banking apps and spreads through fake shopping or entertainment apps, ads and fake download pages.",
+  "key_numbers": "No infection counts or losses reported · steals logins and SMS, uses Android accessibility features to control the phone · attributed to ThreatFabric (per Bisnis)",
+  "storyline": "",
+  "status": "partial",
+  "sources": "Bisnis <https://teknologi.bisnis.com/read/20261018/84/2013547/awas-malware-hirudo-incar-aplikasi-bank-di-hp-bisa-kuras-saldo-rekening>"
+ },
+ {
+  "date": "2026-10-20",
+  "category": "GLB",
+  "event": "Former Trade Minister Muhammad Lutfi, in an Instagram post on @m.lutfi, attacks Singapore's warning letters to seven Indonesian firms over haze as a show for voters and says Singapore-based parents control the concessions and have never been prosecuted under its Transboundary Haze Pollution Act. (update of E0098)",
+  "key_numbers": "7 firms warned by Singapore (16 Oct) · 4 of 7 are suppliers to SGX-listed groups (per Lutfi) · First Resources and Bumitama Agri cited, S$10 bn (about Rp141 T) combined (detik, unit unclear) · Singapore tax 5-15% (Lutfi) · family office minimum US$20 m (Lutfi) · Greenpeace report Oct 2026 (4 of 5 major palm groups had hotspots, per Lutfi)",
+  "storyline": "karhutla",
+  "status": "verified",
+  "sources": "CNN Indonesia <https://www.cnnindonesia.com/ekonomi/20261020083257-92-1417345/eks-mendag-ri-sentil-singapura-soal-karhutla-kantor-pusatnya-di-sana> ; detikFinance <https://finance.detik.com/berita-ekonomi-bisnis/d-8714756/eks-menteri-kritik-singapura-soal-karhutla-4-dari-7-perusahaan-tercatat-di-sana> ; CNN Indonesia (Presiden dan PM Singapura) <https://www.cnnindonesia.com/ekonomi/20261020122531-92-1417435/eks-mendag-ri-tuding-presiden-dan-pm-singapura-lembek-ke-miliarder>"
+ },
+ {
+  "date": "2026-10-16",
+  "category": "BIZ",
+  "event": "Singapore-listed First Resources disputes that fires started on its Indonesian plantations (SGX statement 15 Oct), Bumitama Agri requests a trading halt, and both shares fall after a Greenpeace report linked them to burning concessions. (update of E0098)",
+  "key_numbers": "Greenpeace report 5 Oct 2026 · First Resources -9.1% intraday to S$3.71 (16 Oct) · Bumitama Agri -7.5% to S$1.73 · Bumitama trading halt requested 16 Oct (per CNA via Mothership) · PM Lawrence Wong 15 Oct: investigating, Transboundary Haze Pollution Act (2014) may apply",
+  "storyline": "karhutla",
+  "status": "partial",
+  "sources": "Mothership <https://mothership.sg/2026/10/two-singapore-listed-palm-oil-firms-greenpeace-report-indonesian-plantation-fires/>"
+ },
+ {
+  "date": "2026-10-20",
+  "category": "ENV",
+  "event": "State Secretary Prasetyo Hadi says the government is doing cloud seeding with salt and dry ice in several provinces to put out karhutla, with rain reported in Kalimantan districts. (update of E0157)",
+  "key_numbers": "Kalbar since 22 Aug: 107 sorties · 98,800 kg salt · Kalteng since 26 Aug: 48 sorties · 43,800 kg salt · Kalsel since 10 Oct: 23 sorties · 23,000 kg salt · Kalsel rainfall 222.67 million m3 · Sumsel since 16 Oct: 8 sorties · 1,600 kg salt · 4,000 dry ice · Lampung 15-18 Oct: 6 sorties · 4,800 dry ice",
+  "storyline": "karhutla",
+  "status": "partial",
+  "sources": "CNN Indonesia <https://www.cnnindonesia.com/nasional/20261020133123-20-1417470/pemerintah-modifikasi-cuaca-pakai-garam-dan-dry-ice-padamkan-karhutla>"
+ },
+ {
+  "date": "2026-10-20",
+  "category": "ENV",
+  "event": "Palembang is again covered in thick karhutla smoke with air quality rated hazardous, per a CNN Indonesia photo report. (update of E0021)",
+  "key_numbers": "Air quality category: berbahaya (figure not read) · CNN Indonesia 20 Oct 14:26 WIB",
+  "storyline": "karhutla",
+  "status": "partial",
+  "sources": "CNN Indonesia <https://www.cnnindonesia.com/nasional/20261020142609-22-1417521/foto-asap-karhutla-di-palembang-pekat-lagi-kualitas-udara-berbahaya>"
+ },
+ {
+  "date": "2026-10-20",
+  "category": "ENV",
+  "event": "A fire on Gunung Ringgit in the Arjuno-Welirang area, Pasuruan, East Java, burning since 16 Oct, is still spreading and is now about 2-3 km from residents' homes.",
+  "key_numbers": "Started Fri 16 Oct · 2-3 km from homes · area burned not yet surveyed · no casualties reported",
+  "storyline": "karhutla",
+  "status": "partial",
+  "sources": "CNN Indonesia <https://www.cnnindonesia.com/nasional/20261020130547-20-1417460/api-karhutla-arjuno-welirang-mulai-dekati-permukiman-warga>"
+ },
+ {
+  "date": "2026-10-20",
+  "category": "POL",
+  "event": "University students hold simultaneous demonstrations in Jakarta, Yogyakarta and Makassar on the second anniversary of the Prabowo-Gibran government. (update of E0137)",
+  "key_numbers": "3 cities · 20 Oct 2026 (CNN Indonesia headline 13:29 WIB, article body not opened)",
+  "storyline": "prabowo-2-years",
+  "status": "partial",
+  "sources": "CNN Indonesia nasional <https://www.cnnindonesia.com/nasional>"
+ },
+ {
+  "date": "2026-10-20",
+  "category": "NEWS",
+  "event": "ASDP ferry KMP Batumandi catches fire as it approaches Merak port and passengers are lowered by rope; the cause is under investigation.",
+  "key_numbers": "Cause not yet determined · casualty figures not read (CNBC Indonesia headlines only)",
+  "storyline": "",
+  "status": "partial",
+  "sources": "CNBC Indonesia <https://www.cnbcindonesia.com/>"
+ }
+]

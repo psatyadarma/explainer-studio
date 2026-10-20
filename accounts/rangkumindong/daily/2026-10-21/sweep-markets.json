@@ -1,0 +1,202 @@
+{
+  "area": "markets",
+  "run_date": "2026-10-21",
+  "checked": ["cnbcindonesia.com/market", "cnbcindonesia.com/news", "market.bisnis.com", "ekonomi.bisnis.com", "finance.detik.com", "antaranews.com/ekonomi", "storyline: msci-reclassification", "storyline: rupiah", "watch-list found: IHSG close and movers, foreign net sell, rupiah, BI rate/RDG, MSCI/Fitch, Danantara/BUMN, oil/coal, fuel (Pertalite), PHK (global NAB only)", "watch-list not in headlines: BPS releases, OJK new actions, IPOs/suspensions, tax"],
+  "events": [
+    {
+      "date": "2026-10-21",
+      "category": "ECO",
+      "event": "Bank Indonesia is due to announce its October BI-Rate decision on 21 October after the 20-21 October RDG; the latest pre-decision polls lean towards a 25 bp hike to 6.00% but a hold at 5.75% remains a live alternative. (update of E0125)",
+      "key_numbers": "Current BI-Rate 5.75% (cumulative +100 bp in May-Jun 2026 from 4.75%, held since July) · Bisnis BIG Consensus (20 Oct): 8 of 14 expect hike (7x +25 bp to 6.00%, 1x +50 bp to 6.25%), 6 of 14 hold; all 14 call stance hawkish · CNBC Indonesia Research poll (20 Oct): 10 of 13 expect +25 bp to 6.00%, 3 hold · BRI Danareksa Sekuritas and LPEM FEB UI expect hold at 5.75% · Sep inflation 3.28% y/y (core 2.84%) vs target 2.5% +/-1% · FX reserves US$146.3 B (end-Sep) · rupiah closed Rp17,995/US$ on 20 Oct · announcement time: about 14:00 WIB per coordinator, no source states a clock time yet",
+      "storyline": "rupiah",
+      "update_of": "E0125",
+      "status": "upcoming",
+      "sources": [
+        {"label": "Bisnis (BIG Consensus Insights)", "url": "https://finansial.bisnis.com/read/20261020/11/2014274/big-consensus-insights-mayoritas-ekonom-proyeksi-bi-rate-naik"},
+        {"label": "CNBC Indonesia Research", "url": "https://www.cnbcindonesia.com/research/20261020134553-128-777867/drama-msci-belum-berlalu-besok-ada-pengumuman-penting-buat-warga-ri"},
+        {"label": "Warta Ekonomi", "url": "https://wartaekonomi.co.id/read641877/bi-diperkirakan-tahan-suku-bunga-acuan-pada-rdg-oktober-ini"}
+      ],
+      "why_it_matters": "A hike would lift loan and mortgage rates and aims to stop the rupiah sliding past Rp18,000; a hold risks more foreign outflows.",
+      "signals": {"spreading": 2, "wallet": 2, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 0},
+      "spreading_evidence": "Multiple outlets run RDG previews; CNBC Indonesia 'besok ada pengumuman penting'",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-20",
+      "category": "MKT",
+      "event": "IHSG rebounded sharply on 20 October after three straight days of falls, led by state-owned bank and BUMN shares, after BEI said it will exclude High Shareholding Concentration (HSC) stocks from the index calculation and Danantara said it would buy BUMN shares; full-day close not yet confirmed. (update of E0117)",
+      "key_numbers": "Open 5,129 (+2%+) · midday 5,193.03 (+196.42 pts, +3.93%) from 4,996.60 · lows around 4,900 earlier · BMRI +8.33% to Rp3,640 · SMGR +7.39% · BBRI +6.82% to Rp2,730 · BBNI +6.42% to Rp3,150 · JSMR +5.83% · Samuel Sekuritas simulation: IHSG +18.6% to 5,925 if all HSC stocks excluded (scenario, not forecast) · HSC stocks about 18% of IHSG weight, 80 stocks on list as of 13 Oct, effective date not announced",
+      "storyline": "msci-reclassification",
+      "update_of": "E0117",
+      "status": "partial",
+      "sources": [
+        {"label": "Detik Finance", "url": "https://finance.detik.com/bursa-dan-valas/d-8715248/ihsg-terus-menguat-saham-saham-bumn-beterbangan"},
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/market/20261020094709-19-777731/video-ihsg-rebound-berhasil-menguat-28-tembus-level-5100"},
+        {"label": "Bisnis", "url": "https://market.bisnis.com/read/20261020/7/2013950/brief-insight-bei-keluarkan-saham-hsc-dari-ihsg-benarkah-indeks-bakal-rebound"}
+      ],
+      "why_it_matters": "After the worst crash since 1998, people want to know if the bottom is in and whether the HSC exclusion is a real fix or just cosmetic.",
+      "signals": {"spreading": 2, "wallet": 1, "surprise": 2, "visual": 2, "fresh": 2, "rivals": 0},
+      "spreading_evidence": "CNBC Indonesia market page 6+ items on IHSG rebound/HSC; Detik IHSG top",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-20",
+      "category": "MKT",
+      "event": "CNBC Indonesia headlines say the IHSG is the worst-performing of the world's stock exchanges this year, with a roughly 43% fall, even as foreign investors kept net selling blue chips on 20 October.",
+      "key_numbers": "IHSG about -43% YTD per CNBC video headline (earlier E0118 had -40.04% as of 16 Oct, 35th of 35 exchanges) · foreign net selling continued in blue chips in the morning session of 20 Oct, with buying in mining stocks · market cap Rp8,863 T at 19 Oct close · aggregate foreign flow for 20 Oct not found",
+      "storyline": "msci-reclassification",
+      "update_of": "E0118",
+      "status": "partial",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/market/20261020100952-19-777739/video-anjlok-43-ihsg-resmi-jadi-bursa-saham-terburuk-di-dunia"},
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/market/20261020084112-17-777701/asing-lanjut-net-sell-jumbo-ramai-ramai-lego-saham-blue-chip"}
+      ],
+      "why_it_matters": "A single 'worst in the world' ranking is an easy-to-grasp measure of how far Indonesian retail portfolios have fallen.",
+      "signals": {"spreading": 2, "wallet": 1, "surprise": 2, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "Two CNBC Indonesia market videos on it, 20 Oct",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-20",
+      "category": "MKT",
+      "event": "Fitch (Sovereign director George Xu) says weaker investor confidence and capital-market governance could add pressure to Indonesia's BBB/Negative sovereign rating, though it does not expect the MSCI consultation alone to hurt credit materially.",
+      "key_numbers": "Rating BBB, outlook Negative (cut from stable in March 2026) · FX reserves US$146.3 B end-Q3 2026 · BI net short FX position above US$32 B at end-Aug 2026 · Fitch expects governance reforms within weeks",
+      "storyline": "msci-reclassification",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/market/20261020091241-17-777716/fitch-ikut-soroti-msci-status-pasar-ri-bisa-bebani-rating-utang"}
+      ],
+      "why_it_matters": "A rating downgrade would raise government borrowing costs and could weigh on the rupiah and everyday loan rates.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-20",
+      "category": "MKT",
+      "event": "Former trade minister Muhammad Lutfi alleges, without verified evidence, that Singapore's Temasek and GIC pressured MSCI to threaten Indonesia's downgrade so foreign funds could buy back cheaply.",
+      "key_numbers": "Lutfi claims foreign institutions already exited about 80% of the market (unverified) · names GIC's Rachel Goh in an Instagram post · CNBC notes no independent evidence",
+      "storyline": "msci-reclassification",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/market/20261020103355-17-777750/eks-mendag-lutfi-duga-ada-manuver-asing-tekan-msci-downgrade-bursa-ri"}
+      ],
+      "why_it_matters": "A conspiracy narrative is circulating about why the market crashed; viewers need to know what is claimed versus what is proven.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 2, "visual": 0, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-10-20",
+      "category": "MKT",
+      "event": "The rupiah closed slightly stronger on 20 October at Rp17,995 per US dollar after briefly trading above Rp18,000, ahead of the BI decision. (update of E0124)",
+      "key_numbers": "Close Rp17,995/US$ (20 Oct) vs Rp18,046 close on 19 Oct · opened Rp18,010-18,015 · US 10-year Treasury yield about 5.10-5.14% · BI says swap/DNDF instruments drew US$8-9 B inflows · Destry: Fed hike probability for October is lower but still a risk · next FOMC 27-28 Oct",
+      "storyline": "rupiah",
+      "update_of": "E0124",
+      "status": "partial",
+      "sources": [
+        {"label": "Bisnis (BIG Consensus, close figure)", "url": "https://finansial.bisnis.com/read/20261020/11/2014274/big-consensus-insights-mayoritas-ekonom-proyeksi-bi-rate-naik"},
+        {"label": "Antara", "url": "https://www.antaranews.com/berita/5797629/bi-jaga-stabilitas-rupiah-di-tengah-gejolak-global"},
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/market/20261020085746-17-777708/rupiah-dibuka-menguat-pagi-ini-dolar-as-turun-tipis-ke-rp18010"}
+      ],
+      "why_it_matters": "The Rp18,000 line is the psychological marker for import prices, fuel and travel costs.",
+      "signals": {"spreading": 1, "wallet": 2, "surprise": 0, "visual": 2, "fresh": 2, "rivals": 0},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-20",
+      "category": "BIZ",
+      "event": "Alamtri Resources (ADRO) begins a Rp4 trillion share buyback on 20 October, joining other issuers supporting prices after the MSCI-driven sell-off.",
+      "key_numbers": "ADRO buyback up to Rp4 T starting 20 Oct · earlier: BREN up to Rp1 T, DSSA up to Rp1 T, CUAN up to Rp500 B (E0121)",
+      "storyline": "msci-reclassification",
+      "update_of": "E0121",
+      "status": "partial",
+      "sources": [
+        {"label": "Bisnis", "url": "https://market.bisnis.com/read/20261020/192/2013995/alamtri-adro-mulai-buyback-saham-hari-ini-2010-siapkan-dana-rp4-triliun"}
+      ],
+      "why_it_matters": "Buybacks show how companies try to prop up share prices when foreign investors flee.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 0, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-20",
+      "category": "GLB",
+      "event": "Brent crude closed at about US$109.55 on 19 October after Houthi-claimed strikes on Saudi targets and Russian supply headlines; Bahlil says coal has hit a three-year high and the government is ready to lift production. (update of E0127)",
+      "key_numbers": "Brent US$109.55 (-31 cents; intraday high US$110.70) · WTI US$103.66 (+US$2.25) · coal US$154/t (3-year high) · Indonesia coal output could reach 700 juta ton in 2026 with relaxation · Houthi claims unverified by Saudi Arabia · Saudi FII conference postponed",
+      "storyline": "fuel-oil",
+      "update_of": "E0127",
+      "status": "partial",
+      "sources": [
+        {"label": "Bisnis", "url": "https://ekonomi.bisnis.com/read/20261020/44/2014033/harga-minyak-tembus-us109-per-barel-serangan-houthi-ke-saudi-picu-kekhawatiran"},
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/news/20261020125846-4-777825/harga-batu-bara-melejit-tertinggi-3-tahun-bahlil-siap-kerek-produksi"},
+        {"label": "Antara", "url": "https://www.antaranews.com/berita/5797925/harga-batu-bara-capai-154-dolar-as-per-ton-bahlil-harap-produksi-naik"}
+      ],
+      "why_it_matters": "High oil raises the subsidy bill and pump prices, while record coal helps exporters and the state budget.",
+      "signals": {"spreading": 1, "wallet": 2, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-20",
+      "category": "ECO",
+      "event": "ESDM is watching Pertalite queues in East Java (Malang, Blitar) and securing supply to avoid a repeat of Bali, while Bahlil says national fuel stock is safe and queues in Bali and East Java are easing. (update of E0094)",
+      "key_numbers": "Pertalite stock 16-18 days (E0128) · Bali queues blamed on late shipping from Java · Bahlil: oil around US$100+/bbl",
+      "storyline": "fuel-oil",
+      "update_of": "E0094",
+      "status": "partial",
+      "sources": [
+        {"label": "Bisnis", "url": "https://ekonomi.bisnis.com/read/20261020/44/2014184/esdm-waspadai-antrean-bbm-di-jatim-malang-hingga-blitar-disorot"},
+        {"label": "Antara", "url": "https://www.antaranews.com/video/5797901/bahlil-sebut-stok-bbm-nasional-aman-antrean-di-bali-dan-jatim-terurai"},
+        {"label": "Detik Finance", "url": "https://finance.detik.com/energi/d-8714655/biang-kerok-masalah-bbm-di-bali-kapal-dari-jawa-terlambat-masuk"}
+      ],
+      "why_it_matters": "Pertalite queues hit commuters and ojol drivers directly and could spread across Java.",
+      "signals": {"spreading": 1, "wallet": 2, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-20",
+      "category": "ECO",
+      "event": "Bank Indonesia flags volatile food inflation above 5% and says it will coordinate with the Agriculture Ministry, while CNBC Indonesia reports Indonesia's food inflation ranks third-worst among compared countries behind the Philippines and India.",
+      "key_numbers": "Volatile food inflation about 5% · September headline 3.28% y/y · core 2.84% · target 2.5% +/-1% · cabai merah keriting Rp126,400/kg on 19 Oct (E0149)",
+      "storyline": "consumer-health",
+      "update_of": "E0149",
+      "status": "partial",
+      "sources": [
+        {"label": "Bisnis", "url": "https://ekonomi.bisnis.com/read/20261020/9/2014002/bi-soroti-inflasi-pangan-tembus-5-koordinasi-dengan-kementan-diperkuat"},
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/news/20261020132152-4-777848/inflasi-pangan-ri-masuk-3-besar-filipina-india-terparah"}
+      ],
+      "why_it_matters": "Chilli and shallot prices are what households feel at the market, and food inflation also shapes BI's rate decision.",
+      "signals": {"spreading": 1, "wallet": 2, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "CNBC Indonesia news page: 'Cabai jadi barang langka' and food inflation items",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-20",
+      "category": "BIZ",
+      "event": "BCA (BBCA) was scheduled to release Q3 2026 results on 20 October, the first big bank to report during the sell-off; figures were not in the headlines scanned. (update of E0150)",
+      "key_numbers": "BBNI 23 Oct · BMRI 27 Oct · BRIS 29 Oct · BBRI/BBTN/BDMN 30 Oct · BCA buyback window 19-21 Oct",
+      "storyline": "msci-reclassification",
+      "update_of": "E0150",
+      "status": "upcoming",
+      "sources": [
+        {"label": "Bisnis", "url": "https://market.bisnis.com/"}
+      ],
+      "why_it_matters": "Bank earnings will show whether the sell-off reflects real profit damage or just panic.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 0, "visual": 0, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    }
+  ],
+  "gaps": [
+    "Exact clock time of BI's 21 Oct RDG announcement not stated by any source; ~14:00 WIB is from the coordinator, and BI usually announces the afternoon of day two. Result itself is not known as of this sweep.",
+    "IHSG full-day close for 20 Oct and aggregate foreign net flow for 20 Oct not found (only midday 5,193.03, +3.93%).",
+    "BCA Q3 2026 results (20 Oct) not found in scanned headlines.",
+    "Effective date and final list of HSC stock exclusion from IHSG not announced (80 vs 63 stocks cited in different sources).",
+    "Houthi strikes on Saudi targets are unverified claims."
+  ]
+}

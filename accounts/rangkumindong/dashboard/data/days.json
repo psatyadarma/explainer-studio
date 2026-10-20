@@ -24,5 +24,18 @@
 "ideas": 5,
 "factcheck_fixes": null,
 "areas_ok": 4
+},
+{
+"date": "2026-10-21",
+"steps_done": 5,
+"steps_total": 15,
+"last_step": "Ideas sent",
+"next_step": "Topic picked",
+"events_found": 34,
+"events_new": 34,
+"duplicates": 0,
+"ideas": 5,
+"factcheck_fixes": null,
+"areas_ok": 4
 }
 ]

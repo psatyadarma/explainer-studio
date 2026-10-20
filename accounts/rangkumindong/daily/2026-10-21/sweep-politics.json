@@ -1,0 +1,129 @@
+{
+  "area": "politics",
+  "run_date": "2026-10-21",
+  "checked": ["detik news/berita", "CNN Indonesia nasional", "Antara politik", "Antara hukum", "Tempo politik (blocked by robots, not read)", "Watch: Presiden/Istana (2-year mark, Listyo as KSP)", "Watch: demonstrations (20 Oct)", "Watch: KPK (Nusron Wahid summons, Klaten already known)", "Watch: Kejagung/Polri/TNI cases", "Watch: MA/KY judge discipline", "Storyline search: gibran-ijazah-mk (no new development found)"],
+  "events": [
+    {
+      "date": "2026-10-20",
+      "category": "POL",
+      "event": "Immigration DG Hendarsam Marantoko confirms ATR/BPN Minister Nusron Wahid travelled to Singapore via Batam and Malaysia after skipping two KPK summons in an ATR/BPN corruption investigation, and says no travel ban (cekal) has been requested.",
+      "key_numbers": "Missed KPK examinations on 7 Oct and 15 Oct 2026 · max 2 summons before a bring-in order under new KUHAP · Immigration could not say whether he is back · no cekal request received",
+      "storyline": "kpk-nusron-atr-bpn",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "Liputan6", "url": "https://www.liputan6.com/news/read/8317209/imigrasi-ungkap-nusron-wahid-telah-tinggalkan-indonesia"},
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261020120337-12-1417427/imigrasi-ungkap-perjalanan-nusron-wahid-ke-singapura-dan-malaysia"},
+        {"label": "Kompas", "url": "https://nasional.kompas.com/read/2026/10/20/12372421/nusron-wahid-ke-malaysia-dirjen-imigrasi-belum-tahu-kepulangannya"}
+      ],
+      "why_it_matters": "A sitting minister is being summoned by KPK and has not appeared; the next step (forced bring-in or travel ban) tests how the new KUHAP works on powerful officials.",
+      "signals": {"spreading": 2, "wallet": 0, "surprise": 2, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "Covered same day by CNN Indonesia, Kompas, Liputan6, Media Indonesia, IDN Times, Beritasatu",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-10-20",
+      "category": "POL",
+      "event": "Students protest on the Prabowo-Gibran government's second anniversary: BEM UI at Tugu Tani in Jakarta, thousands at DPRD DIY in Yogyakarta, and protests planned at 33 points in Makassar, with demands centred on karhutla/flood disaster status, MBG/KDMP review and military role.",
+      "key_numbers": "Jakarta 9,505 security personnel (7,660 Polri, 1,540 TNI) · Tugu Tani 15:00 WIB · Makassar 33 points, ~3,000 personnel · Yogyakarta 'ribuan' (thousands) · 5 demands listed by Kompas",
+      "storyline": "prabowo-2-years",
+      "update_of": "E0152",
+      "status": "verified",
+      "sources": [
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261020132913-20-1417469/mahasiswa-demo-20-oktober-serentak-di-jakarta-yogya-dan-makassar"},
+        {"label": "Kompas", "url": "https://megapolitan.kompas.com/read/2026/10/20/05000031/daftar-5-tuntutan-demo-2-tahun-prabowo-gibran-hari-ini-di-jakarta"}
+      ],
+      "why_it_matters": "Shows what students are asking of the government after two years, from haze and MBG to the military's civilian role.",
+      "signals": {"spreading": 2, "wallet": 1, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 0},
+      "spreading_evidence": "CNN Indonesia nasional feed (several items) and Kompas; photo reports from Bundaran HI",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-10-20",
+      "category": "POL",
+      "event": "Preacher Khalid Basalamah testifies at the Tipikor court in the 2023-2024 additional hajj quota corruption trial that his staff returned US$354,500 to KPK; former Religious Affairs Minister Yaqut Cholil Qoumas is among four defendants.",
+      "key_numbers": "US$354,500 returned (3,545 x US$100 notes) · KPK also seized US$200,000 · BPK-based state loss Rp622,090,207,166 · 4 defendants · 313 special hajj organizers (PIHK) allegedly benefited",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261020124017-12-1417446/sidang-kuota-haji-khalid-basalamah-akui-kembalikan-354-ribu-dolar-as"}
+      ],
+      "why_it_matters": "The hajj quota case touches the queue of pilgrims waiting years for departure; witness testimony shows where the money allegedly went.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "Two CNN Indonesia items on the page (photo report + report)",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-10-20",
+      "category": "POL",
+      "event": "Prabowo meets Chief of Staff Listyo Sigit Prabowo at Istana Merdeka and instructs him to oversee strategic priority programmes so they hit their targets, a day before the second-anniversary events.",
+      "key_numbers": "Listyo appointed KSP 1 Oct 2026 · meeting Mon 19 Oct 2026 · programmes cited: KDKMP, hospital construction incl. type C regional hospitals · met 13 labour union representatives in October",
+      "storyline": "prabowo-2-years",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "Antara", "url": "https://www.antaranews.com/berita/5797657/prabowo-instruksikan-listyo-kawal-program-strategis-agar-tepat-sasaran"}
+      ],
+      "why_it_matters": "Shows the former police chief now steering delivery of flagship programmes like MBG-era cooperatives and hospitals.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 0, "visual": 0, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "Antara politik #2",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-20",
+      "category": "POL",
+      "event": "A Majelis Kehormatan Hakim (MA and Komisi Yudisial) permanently dismisses, with pension rights, Cibinong District Court judge INS for 129 working days of unexcused absence and prior disciplinary record.",
+      "key_numbers": "129 working days absent · 3 earlier sanctions (2016, 2022, 2023) · 2-year non-hammer sanction from Aug 2023 not complied with · hearing 19 Oct 2026 · panel 3 MA + 4 KY members",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261020144730-12-1417534/hakim-pn-cibinong-dipecat-karena-mangkir-kerja-129-hari"}
+      ],
+      "why_it_matters": "Rare public look at how judges are disciplined, alongside a second judge sanctioned for immoral conduct the same day.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "CNN Indonesia nasional feed (two judge-sanction items)",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-20",
+      "category": "POL",
+      "event": "Bareskrim names five suspects in the blackout case that hit Batam-Bintan island.",
+      "key_numbers": "5 suspects · details of cause, roles and outage scale not read (headline only)",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "Antara", "url": "https://www.antaranews.com/berita/5799409/bareskrim-tetapkan-lima-tersangka-kasus-blackout-di-pulau-batam-bintan"}
+      ],
+      "why_it_matters": "A power outage on two islands leading to criminal suspects is unusual for ordinary residents who rely on the grid.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 0, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "Antara politik/hukum Terkini",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-10-20",
+      "category": "POL",
+      "event": "Pomdam TT detains a TNI member as a suspect in a 46.93 kg crystal-meth (sabu) case in Riau.",
+      "key_numbers": "46.93 kg sabu · 1 TNI suspect (from headline only)",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "Antara", "url": "https://www.antaranews.com/berita/5799525/pomdam-tt-tahan-anggota-tni-tersangka-kasus-4693-kg-sabu-di-riau"}
+      ],
+      "why_it_matters": "Adds to current debate on military discipline and civilian trial after the MK Military Courts ruling.",
+      "signals": {"spreading": 0, "wallet": 0, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "",
+      "sensitivity": "high"
+    }
+  ],
+  "gaps": [
+    "Tempo politik could not be read (robots disallowed).",
+    "gibran-ijazah-mk: search returned only the 6 Oct ruling and 15 Oct Kompas analysis, no new development found.",
+    "Nusron Wahid: the underlying ATR/BPN case, whether he has returned and his own explanation were not retrieved (Beritasatu pages failed); a Summarecon HGB case Land Cruiser seizure was mentioned in a related headline only.",
+    "Bareskrim Batam-Bintan blackout and Riau sabu items are from Antara headlines only.",
+    "Mentioned but not opened: death of retired general Subagyo Hadi Siswoyo (Prabowo paid respects at Mabes TNI AD 20 Oct); Prabowo-Gibran 2-year poll items (Poltracking, Indopol, PPI) partly covered by known E0072."
+  ]
+}

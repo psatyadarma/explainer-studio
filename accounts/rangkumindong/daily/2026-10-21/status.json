@@ -1,0 +1,27 @@
+{
+ "date": "2026-10-21",
+ "steps": {
+  "sweep": "done",
+  "merge": "done",
+  "ideas": "done",
+  "ideas_factcheck": "done",
+  "ideas_sent": "done",
+  "picked": "todo",
+  "draft": "todo",
+  "draft_factcheck": "todo",
+  "draft_sent": "todo",
+  "approved": "todo",
+  "render": "todo",
+  "video_sent": "todo",
+  "ok_post": "todo",
+  "posted": "todo",
+  "knowledge": "todo"
+ },
+ "notes": [
+  "21:58Z 4 sweeps OK (11/7/9/7), 34 merged; karhutla: no BNPB update since 16 Oct"
+ ],
+ "merge_stats": {
+  "new": 34,
+  "duplicates": 0
+ }
+}
