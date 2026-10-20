@@ -1,0 +1,88 @@
+[
+ {
+  "at": "h1",
+  "offset": 0,
+  "type": "thump"
+ },
+ {
+  "at": "rd",
+  "offset": 0,
+  "type": "thump"
+ },
+ {
+  "at": "end",
+  "offset": 0,
+  "type": "ding"
+ },
+ {
+  "at": "h2b",
+  "offset": -0.3,
+  "type": "whoosh"
+ },
+ {
+  "at": "l1",
+  "offset": -0.3,
+  "type": "whoosh"
+ },
+ {
+  "at": "l4",
+  "offset": -0.3,
+  "type": "whoosh"
+ },
+ {
+  "at": "l5",
+  "offset": 0.2,
+  "type": "whoosh"
+ },
+ {
+  "at": "l6",
+  "offset": -0.3,
+  "type": "whoosh"
+ },
+ {
+  "at": "l7",
+  "offset": -0.25,
+  "type": "whoosh"
+ },
+ {
+  "at": "l8",
+  "offset": -0.3,
+  "type": "whoosh"
+ },
+ {
+  "at": "l9",
+  "offset": -0.3,
+  "type": "whoosh"
+ },
+ {
+  "at": "l11",
+  "offset": -0.3,
+  "type": "whoosh"
+ },
+ {
+  "at": "l13",
+  "offset": -0.3,
+  "type": "whoosh"
+ },
+ {
+  "at": "cta",
+  "offset": -0.3,
+  "type": "whoosh"
+ },
+ {
+  "at": 2.182,
+  "type": "whoosh"
+ },
+ {
+  "at": 30.174,
+  "type": "pop"
+ },
+ {
+  "at": 66.79,
+  "type": "pop"
+ },
+ {
+  "at": 34.373,
+  "type": "thump"
+ }
+]

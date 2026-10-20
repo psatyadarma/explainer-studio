@@ -84,7 +84,7 @@ def main(project):
     raw = b / "mix.raw.wav"
     sf.write(raw, stereo, SR)
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(raw), "-af",
-                    "loudnorm=I=-14:TP=-1.0:LRA=11", "-ar", str(SR), str(b / "mix.wav")], check=True)
+                    "loudnorm=I=-14:TP=-2.0:LRA=11", "-ar", str(SR), str(b / "mix.wav")], check=True)
     raw.unlink()
     print("mix ->", b / "mix.wav")
 
