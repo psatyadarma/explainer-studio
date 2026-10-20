@@ -39,8 +39,8 @@ Search each of these every morning (last 24–48 h), not just generic "berita ha
 Roles live in `.claude/agents/` (shared researcher rules: `.claude/shared/researcher-common.md`). The main chat is the coordinator and the user's only contact; agents never message the user. Hand-offs are files in `accounts/rangkumindong/daily/<date>/`, progress in its `status.json` (`engine/day.py`).
 1. 06:00 WITA: `day.py init` → 4 researchers in parallel (news-markets, news-politics, news-business, news-national; Sonnet) → each writes `sweep-<area>.json`, validated by `day.py check`. Rerun only an area whose file fails validation (no second sweeps; gaps are noted instead).
 2. `day.py merge` adds new events to `events.csv` (dedup) and renders `events.md`.
-3. writer (mode ideas) → `ideas.md` (exactly 5) → fact-checker on ideas → coordinator sends ideas + any fact-check flags to the user.
-4. User picks → writer (mode draft) → video folder with `script.json`, `draft.md`, `post.json`, `claims.json` → fact-checker → fixes applied → draft sent for approval.
+3. writer (mode ideas, **Sonnet**) → `ideas.md` (exactly 5 + 3 runner-ups) → **light** fact-check (hooks and why-now only) → coordinator sends ideas + any fact-check flags to the user.
+4. User picks → writer (mode draft, Opus) → video folder with `script.json`, `draft.md`, `post.json`, `claims.json` → **full** fact-check → fixes applied → draft sent for approval.
 5. After approval: production scripts (voice, render, mix) → **qa-reviewer** agent (subtitle sync via speech-to-text, visuals frame by frame, numbers vs approved draft, loudness, format, disclaimers) → fix and re-check until PASS → only then send the video to the user. Posting script only after "OK post".
 6. Analyst: metrics at 24 h / 72 h, weekly review on Sunday.
 Weekly long video ("Rangkumin Seminggu", Sat 08:00 WITA): writer + fact-checker Friday morning → after approval, chapter-builders in parallel (one per chapter) → assemble → editor reviews the whole cut → fixes → render → schedule.

@@ -12,5 +12,5 @@ Section pages (read these first):
 - https://finance.detik.com/
 - https://www.antaranews.com/ekonomi
 
-Watch list (tick off from the headlines; no separate searches): IHSG close and big movers, foreign net buy/sell, IPOs/suspensions · rupiah and BI rate / RDG · OJK actions · BPS releases (inflation, trade, GDP, jobs) · APBN, tax, subsidies, fuel and electricity prices · MSCI/FTSE/ratings news · global shocks with Indonesia impact (Fed, tariffs, oil) · business: Danantara/BUMN, big-company earnings, layoffs (PHK), acquisitions, bankruptcies.
+Watch list (look for these in the headlines; dig deeper only when one appears): IHSG close and big movers, foreign net buy/sell, IPOs/suspensions · rupiah and BI rate / RDG · OJK actions · BPS releases (inflation, trade, GDP, jobs) · APBN, tax, subsidies, fuel and electricity prices · MSCI/FTSE/ratings news · global shocks with Indonesia impact (Fed, tariffs, oil) · business: Danantara/BUMN, big-company earnings, layoffs (PHK), acquisitions, bankruptcies.
 Searches: one per active storyline in MKT/ECO/GLB/BIZ.

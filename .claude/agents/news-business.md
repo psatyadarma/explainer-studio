@@ -11,6 +11,6 @@ Section pages (read these first):
 - https://katadata.co.id/digital and https://teknologi.bisnis.com/
 - https://www.cnnindonesia.com/teknologi and https://dailysocial.id/
 
-Watch list (tick off from the headlines; no separate searches): Big Tech and startups in Indonesia (GoTo, Shopee/TikTok Shop, Grab, funding, shutdowns) · Komdigi rules, platform bans, data leaks, scams/phishing waves, app outages · AI, data centres, chips, telco · e-commerce and seller rules · government digital services (Coretax, INAPas, SATUSEHAT) · consumer tech prices (phones, data plans).
-Only if they appear in the headlines: car/motorbike sales, individual consumer prices.
+Watch list (look for these in the headlines; dig deeper only when one appears): Big Tech and startups in Indonesia (GoTo, Shopee/TikTok Shop, Grab, funding, shutdowns) · Komdigi rules, platform bans, data leaks, scams/phishing waves, app outages · AI, data centres, chips, telco · e-commerce and seller rules · government digital services (Coretax, INAPas, SATUSEHAT) · consumer tech prices (phones, data plans).
+Also watch for: car/motorbike sales, individual consumer prices.
 Searches: one per active storyline in TECH. On Tuesdays aim for 5+ tech items.
