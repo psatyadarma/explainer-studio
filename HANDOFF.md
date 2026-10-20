@@ -44,7 +44,7 @@ Updated: Mon 19 Oct 2026, 17:15 WITA. Each daily run is a fresh session with no 
 
 ## Open items
 - **Wed 21 Oct ideas: the user asked to include karhutla** (it scored 10/12 on 20 Oct but was left out). Angles: ex-trade minister Lutfi vs Singapore ("your companies are the culprits": attribute it, include the companies' responses, never call a company guilty), 4 firefighters killed at Bromo Tengger Semeru, 7,118 hotspots (BNPB), Jakarta's 367 facilities on standby, Mendagri's statement. Refresh the numbers that morning.
-- Laptop folder `C:\Users\PRAWIRA SATYA DARMA\Documents\ai-projects\auto-video`: needs an access grant from the desktop app, then create `rangkumindong\` and copy the videos.
+- Laptop folder `C:\Users\PRAWIRA SATYA DARMA\Documents\ai-projects\auto-video` granted 20 Oct; video #1 copied to `rangkumindong\2026-10-19-ihsg-msci\` (video.mp4 + captions-and-sources.md). How later videos get there is still to decide with the user (daily session can't reach the laptop).
 - The researchers often can't read kompas.com, kpk.go.id, kejaksaan.go.id or idx.co.id. Tech coverage was thin, so the business researcher now has a tech checklist.
 - Possible event-database corrections from the 19 Oct sweep: E0023 (BPS trade data timing), E0026 (MSCI weight 1.10% vs 1.16%).
 - Optional: YouTube handle @rangkumin.dong; a dashboard for events/metrics; check Upload-Post's analytics and IG cover/Trial Reel fields when first needed.
