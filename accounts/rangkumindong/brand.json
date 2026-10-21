@@ -78,6 +78,11 @@
    "hook": [
     "question",
     "shock_number"
+   ],
+   "format": [
+    "standard",
+    "person_hook",
+    "short"
    ]
   },
   "schedule": [
@@ -86,55 +91,126 @@
     "voice": "male:Pratama",
     "slot": "19:00",
     "hook": "question",
-    "note": "video #1 (already made)"
+    "note": "video #1 (already made)",
+    "format": "standard"
    },
    {
     "date": "2026-10-20",
     "voice": "female:Cahaya",
     "slot": "12:30",
-    "hook": "shock_number"
+    "hook": "shock_number",
+    "format": "standard"
    },
    {
     "date": "2026-10-21",
     "voice": "male:Pratama",
     "slot": "12:30",
-    "hook": "shock_number"
+    "hook": "shock_number",
+    "format": "standard"
    },
    {
     "date": "2026-10-22",
     "voice": "female:Cahaya",
     "slot": "19:00",
-    "hook": "question"
+    "hook": "question",
+    "format": "standard"
    },
    {
     "date": "2026-10-23",
     "voice": "male:Pratama",
     "slot": "19:00",
-    "hook": "shock_number"
+    "hook": "shock_number",
+    "format": "person_hook"
    },
    {
     "date": "2026-10-24",
     "voice": "female:Cahaya",
     "slot": "12:30",
-    "hook": "question"
+    "hook": "question",
+    "format": "chapter_cut"
    },
    {
     "date": "2026-10-25",
     "voice": "male:Pratama",
     "slot": "12:30",
-    "hook": "question"
+    "hook": "question",
+    "format": "minggu_depan"
    },
    {
     "date": "2026-10-26",
     "voice": "female:Cahaya",
     "slot": "19:00",
-    "hook": "shock_number"
+    "hook": "shock_number",
+    "format": "short"
+   },
+   {
+    "date": "2026-10-27",
+    "voice": "female:Cahaya",
+    "slot": "19:00",
+    "hook": "question",
+    "format": "standard"
+   },
+   {
+    "date": "2026-10-28",
+    "voice": "male:Pratama",
+    "slot": "12:30",
+    "hook": "shock_number",
+    "format": "person_hook"
+   },
+   {
+    "date": "2026-10-29",
+    "voice": "female:Cahaya",
+    "slot": "12:30",
+    "hook": "shock_number",
+    "format": "short"
+   },
+   {
+    "date": "2026-10-30",
+    "voice": "male:Pratama",
+    "slot": "19:00",
+    "hook": "question",
+    "format": "standard"
+   },
+   {
+    "date": "2026-10-31",
+    "voice": "female:Cahaya",
+    "slot": "19:00",
+    "hook": "shock_number",
+    "format": "chapter_cut"
+   },
+   {
+    "date": "2026-11-01",
+    "voice": "male:Pratama",
+    "slot": "12:30",
+    "hook": "question",
+    "format": "minggu_depan"
+   },
+   {
+    "date": "2026-11-02",
+    "voice": "female:Cahaya",
+    "slot": "12:30",
+    "hook": "question",
+    "format": "person_hook"
+   },
+   {
+    "date": "2026-11-03",
+    "voice": "male:Pratama",
+    "slot": "19:00",
+    "hook": "shock_number",
+    "format": "short"
    }
   ],
-  "repeat": "after 26 Oct, repeat the 8-day cycle with voice values swapped day-by-day",
+  "repeat": "schedule rows are explicit through 2026-11-03; after that continue: voices swap every 8 days, format rotates person_hook → short → standard on weekdays",
   "trial_reels": "use for high-value topics; B differs in one variable only",
   "primary_metric": "avg_percent_watched",
-  "review": "weekly, Sunday"
+  "review": "weekly, Sunday",
+  "format_rules": {
+   "standard": "current sticker explainer, 60-90 s",
+   "person_hook": "standard body, but the first 2 s are a real-person cut-out hook (licensed photo, name tag, 3-beat label headline); if no licensed face fits the story, fall back to standard and log format=standard",
+   "short": "30-45 s, ~80-110 spoken words: hook, tagline, 2-3 beats, CTA; one zone per 5-8 s",
+   "chapter_cut": "Saturday: a Short cut from the weekly video (not part of the format test)",
+   "minggu_depan": "Sunday: week-ahead Short (not part of the format test)"
+  }
  },
  "topic_rotation_note": "Soft tiebreaker only: a clearly higher-scoring idea always beats the day's topic."
 }
