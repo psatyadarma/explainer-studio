@@ -169,6 +169,12 @@ def main(project, account, gender="male"):
     brand = json.loads((account / "brand.json").read_text())
     voice = brand["voices"][gender]
     direction = script.get("direction", "[engaging, conversational news explainer, clear]")
+    # eleven_v3 reads long bracketed directions aloud (21 Oct: +7.5 s spoken twice). Keep it a short tag.
+    if direction and len(direction) > 60:
+        short = direction.strip().strip("[]").split(";")[0].split(".")[0]
+        short = ", ".join(p.strip() for p in short.split(",")[:3])[:55].rstrip(", ")
+        print(f"tts_eleven: direction too long ({len(direction)} chars), using [{short}]", file=sys.stderr)
+        direction = f"[{short}]"
     lines = script["lines"]
     ti = next((i for i, l in enumerate(lines) if l.get("tagline") or l["id"] == "rd"), None)
     groups = [lines[:ti], lines[ti + 1:]] if ti is not None else [lines]

@@ -25,6 +25,11 @@
 - Dramatic beat on the key number ("Dalam. Satu. Hari.").
 - Every number on screen is spoken; every claim tied to a source.
 - Per-line ElevenLabs v3 tags (shocked / serious / skeptical / reassuring / playful). Numbers and acronyms spelled out in `say` ("em es si ai", "sebelas koma lima tujuh").
+- **Acronyms (user feedback 21 Oct, "BNPB"):**
+  - Spelled-out acronyms (BNPB, KPK, OJK, BMKG, BUMN, DPR…): write the letters in `say` as Indonesian letter names separated by spaces only, e.g. "Be En Pe Be", "Ka Pe Ka", "O Je Ka", "Be U Em En". **No full stops between letters** ("Be. En. Pe. Be." made ~200 ms gaps, which the user said is too slow). Fast-run spellings ("be en pe be" glued to the previous word) got heard as "BMKG".
+  - Put a **comma before the acronym** so there is a short breath after the previous word: "Per enam belas Oktober, Be En Pe Be catat …". The user wants a clear ~0.2 s pause *before* the acronym and the letters themselves **quick and tight** (approved: whole acronym ≈0.9 s, gaps between letters ≈35–40 ms).
+  - Acronyms that are normally said as words stay words: Bappenas, Basarnas, Kemenhut, Danantara, Polri ("pol-ri"), Satgas.
+  - If a take still comes out wrong, fix it without a new take: insert ~200 ms room tone before the first letter and speed only the letter run 1.3–1.45× (pitch kept), then shift timings (see videos/2026-10-21-karhutla-lutfi-singapura/build/pre-gap). Always listen-check acronyms with a short speech-to-text clip before QA.
 - Pauses capped at 0.24 s; target ~150–170 spoken wpm.
 - Voice A/B: male Pratama vs female Cahaya, 7-day blocks. Taglines are fixed recordings in `assets/voice/`.
 

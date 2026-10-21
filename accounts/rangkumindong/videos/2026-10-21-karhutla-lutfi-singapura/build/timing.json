@@ -1,5 +1,5 @@
 {
- "duration": 89.161,
+ "duration": 89.064,
  "voice": "Pratama",
  "lines": [
   {
@@ -143,7 +143,7 @@
    "id": "l1",
    "text": "Jadi gini. Per 16 Oktober, BNPB catat 7.118 titik panas",
    "start": 9.867,
-   "end": 15.335,
+   "end": 15.238,
    "words": [
     {
      "w": "Jadi",
@@ -173,1155 +173,1155 @@
     {
      "w": "BNPB",
      "start": 11.675,
-     "end": 12.67
+     "end": 12.567
     },
     {
      "w": "catat",
-     "start": 12.77,
-     "end": 13.109
+     "start": 12.673,
+     "end": 13.012
     },
     {
      "w": "7.118",
-     "start": 13.178,
-     "end": 14.604
+     "start": 13.081,
+     "end": 14.507
     },
     {
      "w": "titik",
-     "start": 14.63,
-     "end": 14.778
+     "start": 14.533,
+     "end": 14.681
     },
     {
      "w": "panas",
-     "start": 14.83,
-     "end": 15.335
+     "start": 14.733,
+     "end": 15.238
     }
    ]
   },
   {
    "id": "l1b",
    "text": "di 6 provinsi.",
-   "start": 15.404,
-   "end": 16.604,
+   "start": 15.307,
+   "end": 16.507,
    "words": [
     {
      "w": "di",
-     "start": 15.404,
-     "end": 15.561
+     "start": 15.307,
+     "end": 15.464
     },
     {
      "w": "6",
-     "start": 15.63,
-     "end": 15.909
+     "start": 15.533,
+     "end": 15.812
     },
     {
      "w": "provinsi.",
-     "start": 15.964,
-     "end": 16.604
+     "start": 15.867,
+     "end": 16.507
     }
    ]
   },
   {
    "id": "l2",
    "text": "Di Bromo, 4 orang tewas saat memadamkan api.",
-   "start": 16.883,
-   "end": 20.092,
+   "start": 16.786,
+   "end": 19.995,
    "words": [
     {
      "w": "Di",
-     "start": 16.883,
-     "end": 16.89
+     "start": 16.786,
+     "end": 16.793
     },
     {
      "w": "Bromo,",
-     "start": 16.963,
-     "end": 17.477
+     "start": 16.866,
+     "end": 17.38
     },
     {
      "w": "4",
-     "start": 17.539,
-     "end": 17.89
+     "start": 17.442,
+     "end": 17.793
     },
     {
      "w": "orang",
-     "start": 17.927,
-     "end": 18.11
+     "start": 17.83,
+     "end": 18.013
     },
     {
      "w": "tewas",
-     "start": 18.147,
-     "end": 18.917
+     "start": 18.05,
+     "end": 18.82
     },
     {
      "w": "saat",
-     "start": 18.961,
-     "end": 19.138
+     "start": 18.864,
+     "end": 19.041
     },
     {
      "w": "memadamkan",
-     "start": 19.174,
-     "end": 19.651
+     "start": 19.077,
+     "end": 19.554
     },
     {
      "w": "api.",
-     "start": 19.743,
-     "end": 20.092
+     "start": 19.646,
+     "end": 19.995
     }
    ]
   },
   {
    "id": "l3",
    "text": "Asapnya nyebrang. Kata Singapura,",
-   "start": 20.406,
-   "end": 22.211,
+   "start": 20.309,
+   "end": 22.114,
    "words": [
     {
      "w": "Asapnya",
-     "start": 20.406,
-     "end": 20.651
+     "start": 20.309,
+     "end": 20.554
     },
     {
      "w": "nyebrang.",
-     "start": 20.688,
-     "end": 21.294
+     "start": 20.591,
+     "end": 21.197
     },
     {
      "w": "Kata",
-     "start": 21.345,
-     "end": 21.55
+     "start": 21.248,
+     "end": 21.453
     },
     {
      "w": "Singapura,",
-     "start": 21.593,
-     "end": 22.211
+     "start": 21.496,
+     "end": 22.114
     }
    ]
   },
   {
    "id": "l3b",
    "text": "sebagian asap di sana dari kebakaran di lahan 7 perusahaan Indonesia.",
-   "start": 22.26,
-   "end": 25.734,
+   "start": 22.163,
+   "end": 25.637,
    "words": [
     {
      "w": "sebagian",
-     "start": 22.26,
-     "end": 22.651
+     "start": 22.163,
+     "end": 22.554
     },
     {
      "w": "asap",
-     "start": 22.7,
-     "end": 22.872
+     "start": 22.603,
+     "end": 22.775
     },
     {
      "w": "di",
-     "start": 22.92,
-     "end": 23.018
+     "start": 22.823,
+     "end": 22.921
     },
     {
      "w": "sana",
-     "start": 23.077,
-     "end": 23.312
+     "start": 22.98,
+     "end": 23.215
     },
     {
      "w": "dari",
-     "start": 23.341,
-     "end": 23.459
+     "start": 23.244,
+     "end": 23.362
     },
     {
      "w": "kebakaran",
-     "start": 23.507,
-     "end": 23.972
+     "start": 23.41,
+     "end": 23.875
     },
     {
      "w": "di",
-     "start": 23.997,
-     "end": 24.046
+     "start": 23.9,
+     "end": 23.949
     },
     {
      "w": "lahan",
-     "start": 24.094,
-     "end": 24.339
+     "start": 23.997,
+     "end": 24.242
     },
     {
      "w": "7",
-     "start": 24.413,
-     "end": 24.743
+     "start": 24.316,
+     "end": 24.646
     },
     {
      "w": "perusahaan",
-     "start": 24.771,
-     "end": 25.147
+     "start": 24.674,
+     "end": 25.05
     },
     {
      "w": "Indonesia.",
-     "start": 25.198,
-     "end": 25.734
+     "start": 25.101,
+     "end": 25.637
     }
    ]
   },
   {
    "id": "l4",
    "text": "16 Oktober: 7 perusahaan disurati. 19 Oktober: tambah 3. Jadi 10.",
-   "start": 26.039,
-   "end": 31.239,
+   "start": 25.942,
+   "end": 31.142,
    "words": [
     {
      "w": "16",
-     "start": 26.039,
-     "end": 26.266
+     "start": 25.942,
+     "end": 26.169
     },
     {
      "w": "Oktober:",
-     "start": 26.321,
-     "end": 26.991
+     "start": 26.224,
+     "end": 26.894
     },
     {
      "w": "7",
-     "start": 27.039,
-     "end": 27.284
+     "start": 26.942,
+     "end": 27.187
     },
     {
      "w": "perusahaan",
-     "start": 27.303,
-     "end": 27.725
+     "start": 27.206,
+     "end": 27.628
     },
     {
      "w": "disurati.",
-     "start": 27.78,
-     "end": 28.312
+     "start": 27.683,
+     "end": 28.215
     },
     {
      "w": "19",
-     "start": 28.383,
-     "end": 29.119
+     "start": 28.286,
+     "end": 29.022
     },
     {
      "w": "Oktober:",
-     "start": 29.151,
-     "end": 29.45
+     "start": 29.054,
+     "end": 29.353
     },
     {
      "w": "tambah",
-     "start": 29.523,
-     "end": 29.89
+     "start": 29.426,
+     "end": 29.793
     },
     {
      "w": "3.",
-     "start": 29.963,
-     "end": 30.355
+     "start": 29.866,
+     "end": 30.258
     },
     {
      "w": "Jadi",
-     "start": 30.431,
-     "end": 30.725
+     "start": 30.334,
+     "end": 30.628
     },
     {
      "w": "10.",
-     "start": 30.78,
-     "end": 31.239
+     "start": 30.683,
+     "end": 31.142
     }
    ]
   },
   {
    "id": "l5",
    "text": "Isinya: padamkan api, stop membakar, kirim rencana.",
-   "start": 31.47,
-   "end": 34.979,
+   "start": 31.373,
+   "end": 34.882,
    "words": [
     {
      "w": "Isinya:",
-     "start": 31.47,
-     "end": 32.0
+     "start": 31.373,
+     "end": 31.903
     },
     {
      "w": "padamkan",
-     "start": 32.037,
-     "end": 32.44
+     "start": 31.94,
+     "end": 32.343
     },
     {
      "w": "api,",
-     "start": 32.532,
-     "end": 32.881
+     "start": 32.435,
+     "end": 32.784
     },
     {
      "w": "stop",
-     "start": 32.969,
-     "end": 33.321
+     "start": 32.872,
+     "end": 33.224
     },
     {
      "w": "membakar,",
-     "start": 33.365,
-     "end": 34.101
+     "start": 33.268,
+     "end": 34.004
     },
     {
      "w": "kirim",
-     "start": 34.138,
-     "end": 34.394
+     "start": 34.041,
+     "end": 34.297
     },
     {
      "w": "rencana.",
-     "start": 34.443,
-     "end": 34.979
+     "start": 34.346,
+     "end": 34.882
     }
    ]
   },
   {
    "id": "l5b",
    "text": "Belum ada putusan.",
-   "start": 34.979,
-   "end": 36.119,
+   "start": 34.882,
+   "end": 36.022,
    "words": [
     {
      "w": "Belum",
-     "start": 34.979,
-     "end": 35.312
+     "start": 34.882,
+     "end": 35.215
     },
     {
      "w": "ada",
-     "start": 35.385,
-     "end": 35.605
+     "start": 35.288,
+     "end": 35.508
     },
     {
      "w": "putusan.",
-     "start": 35.642,
-     "end": 36.119
+     "start": 35.545,
+     "end": 36.022
     }
    ]
   },
   {
    "id": "l6",
    "text": "Nah, Lutfi balas lewat Instagram.",
-   "start": 36.533,
-   "end": 38.409,
+   "start": 36.436,
+   "end": 38.312,
    "words": [
     {
      "w": "Nah,",
-     "start": 36.533,
-     "end": 36.648
+     "start": 36.436,
+     "end": 36.551
     },
     {
      "w": "Lutfi",
-     "start": 36.758,
-     "end": 37.088
+     "start": 36.661,
+     "end": 36.991
     },
     {
      "w": "balas",
-     "start": 37.161,
-     "end": 37.528
+     "start": 37.064,
+     "end": 37.431
     },
     {
      "w": "lewat",
-     "start": 37.577,
-     "end": 37.749
+     "start": 37.48,
+     "end": 37.652
     },
     {
      "w": "Instagram.",
-     "start": 37.807,
-     "end": 38.409
+     "start": 37.71,
+     "end": 38.312
     }
    ]
   },
   {
    "id": "l7",
    "text": "Katanya, 4 dari 7 perusahaan pertama",
-   "start": 38.767,
-   "end": 40.694,
+   "start": 38.67,
+   "end": 40.597,
    "words": [
     {
      "w": "Katanya,",
-     "start": 38.767,
-     "end": 39.226
+     "start": 38.67,
+     "end": 39.129
     },
     {
      "w": "4",
-     "start": 39.274,
-     "end": 39.446
+     "start": 39.177,
+     "end": 39.349
     },
     {
      "w": "dari",
-     "start": 39.49,
-     "end": 39.666
+     "start": 39.393,
+     "end": 39.569
     },
     {
      "w": "7",
-     "start": 39.715,
-     "end": 39.96
+     "start": 39.618,
+     "end": 39.863
     },
     {
      "w": "perusahaan",
-     "start": 39.978,
-     "end": 40.253
+     "start": 39.881,
+     "end": 40.156
     },
     {
      "w": "pertama",
-     "start": 40.312,
-     "end": 40.694
+     "start": 40.215,
+     "end": 40.597
     }
    ]
   },
   {
    "id": "l7b",
    "text": "itu pemasok grup konglomerat yang induknya di Singapura.",
-   "start": 40.767,
-   "end": 43.438,
+   "start": 40.67,
+   "end": 43.341,
    "words": [
     {
      "w": "itu",
-     "start": 40.767,
-     "end": 40.987
+     "start": 40.67,
+     "end": 40.89
     },
     {
      "w": "pemasok",
-     "start": 41.024,
-     "end": 41.427
+     "start": 40.927,
+     "end": 41.33
     },
     {
      "w": "grup",
-     "start": 41.472,
-     "end": 41.648
+     "start": 41.375,
+     "end": 41.551
     },
     {
      "w": "konglomerat",
-     "start": 41.684,
-     "end": 42.235
+     "start": 41.587,
+     "end": 42.138
     },
     {
      "w": "yang",
-     "start": 42.264,
-     "end": 42.382
+     "start": 42.167,
+     "end": 42.285
     },
     {
      "w": "induknya",
-     "start": 42.426,
-     "end": 42.749
+     "start": 42.329,
+     "end": 42.652
     },
     {
      "w": "di",
-     "start": 42.773,
-     "end": 42.822
+     "start": 42.676,
+     "end": 42.725
     },
     {
      "w": "Singapura.",
-     "start": 42.874,
-     "end": 43.438
+     "start": 42.777,
+     "end": 43.341
     }
    ]
   },
   {
    "id": "l8",
    "text": "Kata Lutfi: jangan nulis surat peringatan cuma buat nyenengin pemilih.",
-   "start": 43.679,
-   "end": 47.207,
+   "start": 43.582,
+   "end": 47.11,
    "words": [
     {
      "w": "Kata",
-     "start": 43.679,
-     "end": 43.703
+     "start": 43.582,
+     "end": 43.606
     },
     {
      "w": "Lutfi:",
-     "start": 43.776,
-     "end": 44.216
+     "start": 43.679,
+     "end": 44.119
     },
     {
      "w": "jangan",
-     "start": 44.345,
-     "end": 44.712
+     "start": 44.248,
+     "end": 44.615
     },
     {
      "w": "nulis",
-     "start": 44.785,
-     "end": 45.005
+     "start": 44.688,
+     "end": 44.908
     },
     {
      "w": "surat",
-     "start": 45.042,
-     "end": 45.226
+     "start": 44.945,
+     "end": 45.129
     },
     {
      "w": "peringatan",
-     "start": 45.244,
-     "end": 45.739
+     "start": 45.147,
+     "end": 45.642
     },
     {
      "w": "cuma",
-     "start": 45.813,
-     "end": 46.106
+     "start": 45.716,
+     "end": 46.009
     },
     {
      "w": "buat",
-     "start": 46.18,
-     "end": 46.4
+     "start": 46.083,
+     "end": 46.303
     },
     {
      "w": "nyenengin",
-     "start": 46.425,
-     "end": 46.694
+     "start": 46.328,
+     "end": 46.597
     },
     {
      "w": "pemilih.",
-     "start": 46.749,
-     "end": 47.207
+     "start": 46.652,
+     "end": 47.11
     }
    ]
   },
   {
    "id": "l9",
    "text": "Pada 19 Oktober, Menteri Shanmugam bilang:",
-   "start": 47.408,
-   "end": 49.794,
+   "start": 47.311,
+   "end": 49.697,
    "words": [
     {
      "w": "Pada",
-     "start": 47.408,
-     "end": 47.518
+     "start": 47.311,
+     "end": 47.421
     },
     {
      "w": "19",
-     "start": 47.555,
-     "end": 48.179
+     "start": 47.458,
+     "end": 48.082
     },
     {
      "w": "Oktober,",
-     "start": 48.216,
-     "end": 48.546
+     "start": 48.119,
+     "end": 48.449
     },
     {
      "w": "Menteri",
-     "start": 48.583,
-     "end": 48.84
+     "start": 48.486,
+     "end": 48.743
     },
     {
      "w": "Shanmugam",
-     "start": 48.888,
-     "end": 49.353
+     "start": 48.791,
+     "end": 49.256
     },
     {
      "w": "bilang:",
-     "start": 49.408,
-     "end": 49.794
+     "start": 49.311,
+     "end": 49.697
     }
    ]
   },
   {
    "id": "l9b",
    "text": "pemeriksaan bakal sampai ke grup induk dan pemiliknya.",
-   "start": 49.832,
-   "end": 52.436,
+   "start": 49.735,
+   "end": 52.339,
    "words": [
     {
      "w": "pemeriksaan",
-     "start": 49.832,
-     "end": 50.454
+     "start": 49.735,
+     "end": 50.357
     },
     {
      "w": "bakal",
-     "start": 50.509,
-     "end": 50.748
+     "start": 50.412,
+     "end": 50.651
     },
     {
      "w": "sampai",
-     "start": 50.792,
-     "end": 51.041
+     "start": 50.695,
+     "end": 50.944
     },
     {
      "w": "ke",
-     "start": 51.09,
-     "end": 51.188
+     "start": 50.993,
+     "end": 51.091
     },
     {
      "w": "grup",
-     "start": 51.232,
-     "end": 51.408
+     "start": 51.135,
+     "end": 51.311
     },
     {
      "w": "induk",
-     "start": 51.452,
-     "end": 51.702
+     "start": 51.355,
+     "end": 51.605
     },
     {
      "w": "dan",
-     "start": 51.739,
-     "end": 51.849
+     "start": 51.642,
+     "end": 51.752
     },
     {
      "w": "pemiliknya.",
-     "start": 51.885,
-     "end": 52.436
+     "start": 51.788,
+     "end": 52.339
     }
    ]
   },
   {
    "id": "l11",
    "text": "Lalu, dua perusahaan sawit lain yang tercatat di bursa Singapura membantah.",
-   "start": 52.953,
-   "end": 56.181,
+   "start": 52.856,
+   "end": 56.084,
    "words": [
     {
      "w": "Lalu,",
-     "start": 52.953,
-     "end": 53.142
+     "start": 52.856,
+     "end": 53.045
     },
     {
      "w": "dua",
-     "start": 53.17,
-     "end": 53.252
+     "start": 53.073,
+     "end": 53.155
     },
     {
      "w": "perusahaan",
-     "start": 53.289,
-     "end": 53.693
+     "start": 53.192,
+     "end": 53.596
     },
     {
      "w": "sawit",
-     "start": 53.748,
-     "end": 53.986
+     "start": 53.651,
+     "end": 53.889
     },
     {
      "w": "lain",
-     "start": 54.03,
-     "end": 54.206
+     "start": 53.933,
+     "end": 54.109
     },
     {
      "w": "yang",
-     "start": 54.236,
-     "end": 54.353
+     "start": 54.139,
+     "end": 54.256
     },
     {
      "w": "tercatat",
-     "start": 54.408,
-     "end": 54.794
+     "start": 54.311,
+     "end": 54.697
     },
     {
      "w": "di",
-     "start": 54.818,
-     "end": 54.867
+     "start": 54.721,
+     "end": 54.77
     },
     {
      "w": "bursa",
-     "start": 54.904,
-     "end": 55.161
+     "start": 54.807,
+     "end": 55.064
     },
     {
      "w": "Singapura",
-     "start": 55.203,
-     "end": 55.527
+     "start": 55.106,
+     "end": 55.43
     },
     {
      "w": "membantah.",
-     "start": 55.572,
-     "end": 56.181
+     "start": 55.475,
+     "end": 56.084
     }
    ]
   },
   {
    "id": "l11b",
    "text": "Kata First Resources, sebagian api datang dari luar lahannya.",
-   "start": 56.206,
-   "end": 59.483,
+   "start": 56.109,
+   "end": 59.386,
    "words": [
     {
      "w": "Kata",
-     "start": 56.206,
-     "end": 56.5
+     "start": 56.109,
+     "end": 56.403
     },
     {
      "w": "First",
-     "start": 56.555,
-     "end": 56.855
+     "start": 56.458,
+     "end": 56.758
     },
     {
      "w": "Resources,",
-     "start": 56.855,
-     "end": 57.454
+     "start": 56.758,
+     "end": 57.357
     },
     {
      "w": "sebagian",
-     "start": 57.503,
-     "end": 57.894
+     "start": 57.406,
+     "end": 57.797
     },
     {
      "w": "api",
-     "start": 57.968,
-     "end": 58.188
+     "start": 57.871,
+     "end": 58.091
     },
     {
      "w": "datang",
-     "start": 58.243,
-     "end": 58.555
+     "start": 58.146,
+     "end": 58.458
     },
     {
      "w": "dari",
-     "start": 58.584,
-     "end": 58.702
+     "start": 58.487,
+     "end": 58.605
     },
     {
      "w": "luar",
-     "start": 58.739,
-     "end": 58.922
+     "start": 58.642,
+     "end": 58.825
     },
     {
      "w": "lahannya.",
-     "start": 58.977,
-     "end": 59.483
+     "start": 58.88,
+     "end": 59.386
     }
    ]
   },
   {
    "id": "l11c",
    "text": "Kata Kencana Agri, apinya merembet dari lahan sekitar.",
-   "start": 59.483,
-   "end": 62.392,
+   "start": 59.386,
+   "end": 62.295,
    "words": [
     {
      "w": "Kata",
-     "start": 59.483,
-     "end": 59.794
+     "start": 59.386,
+     "end": 59.697
     },
     {
      "w": "Kencana",
-     "start": 59.83,
-     "end": 60.087
+     "start": 59.733,
+     "end": 59.99
     },
     {
      "w": "Agri,",
-     "start": 60.161,
-     "end": 60.693
+     "start": 60.064,
+     "end": 60.596
     },
     {
      "w": "apinya",
-     "start": 60.741,
-     "end": 61.06
+     "start": 60.644,
+     "end": 60.963
     },
     {
      "w": "merembet",
-     "start": 61.096,
-     "end": 61.427
+     "start": 60.999,
+     "end": 61.33
     },
     {
      "w": "dari",
-     "start": 61.471,
-     "end": 61.647
+     "start": 61.374,
+     "end": 61.55
     },
     {
      "w": "lahan",
-     "start": 61.672,
-     "end": 61.867
+     "start": 61.575,
+     "end": 61.77
     },
     {
      "w": "sekitar.",
-     "start": 61.916,
-     "end": 62.392
+     "start": 61.819,
+     "end": 62.295
     }
    ]
   },
   {
    "id": "l12",
    "text": "Kalau 10 perusahaan yang disurati Singapura?",
-   "start": 62.524,
-   "end": 64.621,
+   "start": 62.427,
+   "end": 64.524,
    "words": [
     {
      "w": "Kalau",
-     "start": 62.524,
-     "end": 62.781
+     "start": 62.427,
+     "end": 62.684
     },
     {
      "w": "10",
-     "start": 62.836,
-     "end": 63.148
+     "start": 62.739,
+     "end": 63.051
     },
     {
      "w": "perusahaan",
-     "start": 63.184,
-     "end": 63.588
+     "start": 63.087,
+     "end": 63.491
     },
     {
      "w": "yang",
-     "start": 63.617,
-     "end": 63.735
+     "start": 63.52,
+     "end": 63.638
     },
     {
      "w": "disurati",
-     "start": 63.772,
-     "end": 64.102
+     "start": 63.675,
+     "end": 64.005
     },
     {
      "w": "Singapura?",
-     "start": 64.144,
-     "end": 64.621
+     "start": 64.047,
+     "end": 64.524
     }
    ]
   },
   {
    "id": "l12b",
    "text": "Tanggapannya belum kami temukan.",
-   "start": 64.621,
-   "end": 66.313,
+   "start": 64.524,
+   "end": 66.216,
    "words": [
     {
      "w": "Tanggapannya",
-     "start": 64.621,
-     "end": 65.285
+     "start": 64.524,
+     "end": 65.188
     },
     {
      "w": "belum",
-     "start": 65.347,
-     "end": 65.652
+     "start": 65.25,
+     "end": 65.555
     },
     {
      "w": "kami",
-     "start": 65.682,
-     "end": 65.799
+     "start": 65.585,
+     "end": 65.702
     },
     {
      "w": "temukan.",
-     "start": 65.836,
-     "end": 66.313
+     "start": 65.739,
+     "end": 66.216
     }
    ]
   },
   {
    "id": "l13",
    "text": "Kata Kapolri, 98 kasus karhutla korporasi masuk penyidikan.",
-   "start": 66.616,
-   "end": 70.575,
+   "start": 66.519,
+   "end": 70.478,
    "words": [
     {
      "w": "Kata",
-     "start": 66.616,
-     "end": 66.675
+     "start": 66.519,
+     "end": 66.578
     },
     {
      "w": "Kapolri,",
-     "start": 66.712,
-     "end": 67.409
+     "start": 66.615,
+     "end": 67.312
     },
     {
      "w": "98",
-     "start": 67.446,
-     "end": 68.216
+     "start": 67.349,
+     "end": 68.119
     },
     {
      "w": "kasus",
-     "start": 68.29,
-     "end": 68.583
+     "start": 68.193,
+     "end": 68.486
     },
     {
      "w": "karhutla",
-     "start": 68.639,
-     "end": 69.024
+     "start": 68.542,
+     "end": 68.927
     },
     {
      "w": "korporasi",
-     "start": 69.061,
-     "end": 69.538
+     "start": 68.964,
+     "end": 69.441
     },
     {
      "w": "masuk",
-     "start": 69.611,
-     "end": 69.905
+     "start": 69.514,
+     "end": 69.808
     },
     {
      "w": "penyidikan.",
-     "start": 69.949,
-     "end": 70.575
+     "start": 69.852,
+     "end": 70.478
     }
    ]
   },
   {
    "id": "l13b",
    "text": "Ada dugaan pihak asing terlibat.",
-   "start": 70.575,
-   "end": 72.428,
+   "start": 70.478,
+   "end": 72.331,
    "words": [
     {
      "w": "Ada",
-     "start": 70.575,
-     "end": 70.905
+     "start": 70.478,
+     "end": 70.808
     },
     {
      "w": "dugaan",
-     "start": 70.941,
-     "end": 71.272
+     "start": 70.844,
+     "end": 71.175
     },
     {
      "w": "pihak",
-     "start": 71.345,
-     "end": 71.565
+     "start": 71.248,
+     "end": 71.468
     },
     {
      "w": "asing",
-     "start": 71.639,
-     "end": 71.859
+     "start": 71.542,
+     "end": 71.762
     },
     {
      "w": "terlibat.",
-     "start": 71.914,
-     "end": 72.428
+     "start": 71.817,
+     "end": 72.331
     }
    ]
   },
   {
    "id": "l14",
    "text": "Mendagri Tito: tekanan finansial dari negara lain nggak masalah,",
-   "start": 72.728,
-   "end": 76.042,
+   "start": 72.631,
+   "end": 75.945,
    "words": [
     {
      "w": "Mendagri",
-     "start": 72.728,
-     "end": 72.978
+     "start": 72.631,
+     "end": 72.881
     },
     {
      "w": "Tito:",
-     "start": 73.015,
-     "end": 73.418
+     "start": 72.918,
+     "end": 73.321
     },
     {
      "w": "tekanan",
-     "start": 73.483,
-     "end": 73.923
+     "start": 73.386,
+     "end": 73.826
     },
     {
      "w": "finansial",
-     "start": 73.986,
-     "end": 74.437
+     "start": 73.889,
+     "end": 74.34
     },
     {
      "w": "dari",
-     "start": 74.481,
-     "end": 74.657
+     "start": 74.384,
+     "end": 74.56
     },
     {
      "w": "negara",
-     "start": 74.694,
-     "end": 74.95
+     "start": 74.597,
+     "end": 74.853
     },
     {
      "w": "lain",
-     "start": 75.009,
-     "end": 75.244
+     "start": 74.912,
+     "end": 75.147
     },
     {
      "w": "nggak",
-     "start": 75.269,
-     "end": 75.391
+     "start": 75.172,
+     "end": 75.294
     },
     {
      "w": "masalah,",
-     "start": 75.446,
-     "end": 76.042
+     "start": 75.349,
+     "end": 75.945
     }
    ]
   },
   {
    "id": "l14b",
    "text": "asal lewat sistem hukum masing-masing.",
-   "start": 76.14,
-   "end": 77.877,
+   "start": 76.043,
+   "end": 77.78,
    "words": [
     {
      "w": "asal",
-     "start": 76.14,
-     "end": 76.409
+     "start": 76.043,
+     "end": 76.312
     },
     {
      "w": "lewat",
-     "start": 76.458,
-     "end": 76.703
+     "start": 76.361,
+     "end": 76.606
     },
     {
      "w": "sistem",
-     "start": 76.734,
-     "end": 76.923
+     "start": 76.637,
+     "end": 76.826
     },
     {
      "w": "hukum",
-     "start": 76.96,
-     "end": 77.216
+     "start": 76.863,
+     "end": 77.119
     },
     {
      "w": "masing-masing.",
-     "start": 77.253,
-     "end": 77.877
+     "start": 77.156,
+     "end": 77.78
     }
    ]
   },
   {
    "id": "l15",
    "text": "Ingat: semua ini masih diusut. Belum ada yang diputus bersalah.",
-   "start": 78.171,
-   "end": 81.285,
+   "start": 78.074,
+   "end": 81.188,
    "words": [
     {
      "w": "Ingat:",
-     "start": 78.171,
-     "end": 78.578
+     "start": 78.074,
+     "end": 78.481
     },
     {
      "w": "semua",
-     "start": 78.615,
-     "end": 78.798
+     "start": 78.518,
+     "end": 78.701
     },
     {
      "w": "ini",
-     "start": 78.853,
-     "end": 79.018
+     "start": 78.756,
+     "end": 78.921
     },
     {
      "w": "masih",
-     "start": 79.067,
-     "end": 79.312
+     "start": 78.97,
+     "end": 79.215
     },
     {
      "w": "diusut.",
-     "start": 79.361,
-     "end": 79.731
+     "start": 79.264,
+     "end": 79.634
     },
     {
      "w": "Belum",
-     "start": 79.743,
-     "end": 80.037
+     "start": 79.646,
+     "end": 79.94
     },
     {
      "w": "ada",
-     "start": 80.11,
-     "end": 80.33
+     "start": 80.013,
+     "end": 80.233
     },
     {
      "w": "yang",
-     "start": 80.36,
-     "end": 80.477
+     "start": 80.263,
+     "end": 80.38
     },
     {
      "w": "diputus",
-     "start": 80.514,
-     "end": 80.771
+     "start": 80.417,
+     "end": 80.674
     },
     {
      "w": "bersalah.",
-     "start": 80.815,
-     "end": 81.285
+     "start": 80.718,
+     "end": 81.188
     }
    ]
   },
   {
    "id": "cta",
    "text": "Menurut kamu, yang harus tanggung jawab:",
-   "start": 81.561,
-   "end": 83.227,
+   "start": 81.464,
+   "end": 83.13,
    "words": [
     {
      "w": "Menurut",
-     "start": 81.561,
-     "end": 81.716
+     "start": 81.464,
+     "end": 81.619
     },
     {
      "w": "kamu,",
-     "start": 81.789,
-     "end": 82.156
+     "start": 81.692,
+     "end": 82.059
     },
     {
      "w": "yang",
-     "start": 82.2,
-     "end": 82.376
+     "start": 82.103,
+     "end": 82.279
     },
     {
      "w": "harus",
-     "start": 82.401,
-     "end": 82.523
+     "start": 82.304,
+     "end": 82.426
     },
     {
      "w": "tanggung",
-     "start": 82.552,
-     "end": 82.816
+     "start": 82.455,
+     "end": 82.719
     },
     {
      "w": "jawab:",
-     "start": 82.872,
-     "end": 83.227
+     "start": 82.775,
+     "end": 83.13
     }
    ]
   },
   {
    "id": "ctab",
    "text": "pemilik lahan, grup induknya, atau pengawasnya? Komen!",
-   "start": 83.239,
-   "end": 86.639,
+   "start": 83.142,
+   "end": 86.542,
    "words": [
     {
      "w": "pemilik",
-     "start": 83.239,
-     "end": 83.679
+     "start": 83.142,
+     "end": 83.582
     },
     {
      "w": "lahan,",
-     "start": 83.727,
-     "end": 84.202
+     "start": 83.63,
+     "end": 84.105
     },
     {
      "w": "grup",
-     "start": 84.253,
-     "end": 84.459
+     "start": 84.156,
+     "end": 84.362
     },
     {
      "w": "induknya,",
-     "start": 84.503,
-     "end": 84.972
+     "start": 84.406,
+     "end": 84.875
     },
     {
      "w": "atau",
-     "start": 85.061,
-     "end": 85.413
+     "start": 84.964,
+     "end": 85.316
     },
     {
      "w": "pengawasnya?",
-     "start": 85.457,
-     "end": 86.073
+     "start": 85.36,
+     "end": 85.976
     },
     {
      "w": "Komen!",
-     "start": 86.098,
-     "end": 86.639
+     "start": 86.001,
+     "end": 86.542
     }
    ]
   },
   {
    "id": "end",
    "text": "Follow Rangkumin Dong, biar nggak ketinggalan!",
-   "start": 86.99,
-   "end": 88.642,
+   "start": 86.893,
+   "end": 88.545,
    "words": [
     {
      "w": "Follow",
-     "start": 86.99,
-     "end": 87.027
+     "start": 86.893,
+     "end": 86.93
     },
     {
      "w": "Rangkumin",
-     "start": 87.064,
-     "end": 87.394
+     "start": 86.967,
+     "end": 87.297
     },
     {
      "w": "Dong,",
-     "start": 87.439,
-     "end": 87.688
+     "start": 87.342,
+     "end": 87.591
     },
     {
      "w": "biar",
-     "start": 87.737,
-     "end": 87.908
+     "start": 87.64,
+     "end": 87.811
     },
     {
      "w": "nggak",
-     "start": 87.933,
-     "end": 88.092
+     "start": 87.836,
+     "end": 87.995
     },
     {
      "w": "ketinggalan!",
-     "start": 88.11,
-     "end": 88.642
+     "start": 88.013,
+     "end": 88.545
     }
    ]
   }

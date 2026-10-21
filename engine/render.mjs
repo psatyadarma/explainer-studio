@@ -43,7 +43,7 @@ const ff = spawn('ffmpeg', ['-y', '-loglevel', 'error', '-f', 'image2pipe', '-fr
 const cdp = await page.context().newCDPSession(page);
 const grab = async () => Buffer.from((await cdp.send('Page.captureScreenshot',
   { format: 'jpeg', quality: 88, optimizeForSpeed: true, fromSurface: true })).data, 'base64');
-const total = Math.round((to - from) * FPS);
+const total = Math.ceil((to - from) * FPS - 1e-6); // never fewer frames than the audio needs
 const t0 = Date.now();
 for (let i = 0; i < total; i++) {
   await page.evaluate((t) => window.seek(t), from + i / FPS);
@@ -60,7 +60,7 @@ const audio = ['mix.wav', 'voice.wav'].map((f) => path.join(dir, 'build', f)).fi
 if (audio) {
   await new Promise((res, rej) => {
     const m = spawn('ffmpeg', ['-y', '-loglevel', 'error', '-i', silent, '-ss', String(from), '-i', audio,
-      '-c:v', 'copy', '-c:a', 'aac', '-b:a', '192k', '-ar', '48000', '-shortest', out], { stdio: 'inherit' });
+      '-c:v', 'copy', '-c:a', 'aac', '-b:a', '192k', '-ar', '48000', '-t', String(to - from), out], { stdio: 'inherit' });
     m.on('close', (c) => (c === 0 ? res() : rej(new Error('mux failed'))));
   });
 } else {
