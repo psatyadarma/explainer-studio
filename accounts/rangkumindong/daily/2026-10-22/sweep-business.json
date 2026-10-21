@@ -1,0 +1,243 @@
+{
+  "area": "business",
+  "run_date": "2026-10-22",
+  "checked": [
+    "inet.detik.com/business (scanned, 41 headlines)",
+    "detik.com/tag/komdigi (latest item 11 Oct, stale)",
+    "teknologi.bisnis.com (scanned, 46 headlines to 20 Oct)",
+    "katadata.co.id/indeks (only 3 tech items shown)",
+    "cnbcindonesia.com/tech, cnnindonesia.com/teknologi, dailysocial.id (not fetched; not returned by search with fetchable URLs)",
+    "WebSearch: Komdigi terbaru; indeks teknologi startup e-commerce",
+    "Watch-list hits: Komdigi rules (shadowban, data centre Perpres), data centres, scams (IASC), government digital services (Coretax, Perlinsos Digital), telco speed (Ookla)",
+    "Watch-list not seen in headlines: GoTo/Grab/Shopee/TikTok Shop news beyond known E0185/E0145, funding/shutdowns, data leaks, app outages, phone/data-plan prices beyond known iPhone Duo",
+    "No TECH storylines in knowledge/storylines; karhutla storyline used for shadowban item"
+  ],
+  "events": [
+    {
+      "date": "2026-10-21",
+      "category": "NEWS",
+      "event": "Komdigi Minister Meutya Hafid denies that Komdigi removed or requested removal of karhutla content, after celebrities and SAFEnet complained of suspected shadowbanning on Instagram/Threads and a removed TikTok video from Siak's regent.",
+      "key_numbers": "Tasya Farasya IG Story views >1 juta -> ~85.000 · Siak TikTok video removed after >5 juta views, later restored · Komdigi earlier admitted 486 content takedowns tied to Aug 2026 demonstrations",
+      "storyline": "karhutla",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {
+          "label": "Katadata",
+          "url": "https://katadata.co.id/digital/teknologi/6ad89992df56a/komdigi-buka-suara-soal-ramai-keluhan-dugaan-shadowban-konten-karhutla-di-medsos"
+        },
+        {
+          "label": "detikInet (headline)",
+          "url": "https://inet.detik.com/law-and-policy/d-8717933/isu-shadowban-karhutla-menkomdigi-sentil-platform-digital"
+        }
+      ],
+      "why_it_matters": "Many people suspect platforms hide posts about the smoke crisis; the government says it did not ask for removals.",
+      "signals": {
+        "spreading": 1,
+        "wallet": 1,
+        "surprise": 2,
+        "visual": 1,
+        "fresh": 2,
+        "rivals": 2
+      },
+      "spreading_evidence": "detikInet and Katadata tech front pages 21 Oct; celebrity posts",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-10-20",
+      "category": "TECH",
+      "event": "Ookla's Q3 2026 data shows Indonesia's median mobile download speed at 52.01 Mbps, up 43.4% year on year, ranking 5th of 7 in ASEAN, while 5G median speed of 126.48 Mbps ranks 6th of 7.",
+      "key_numbers": "Mobile median 52,01 Mbps (36,27 Mbps Q3 2025; 24,75 Mbps Q3 2023) · users >=100 Mbps 26% (12%) · 5G median 126,48 Mbps (+55,6%) · 5G availability 34,2% (6,9%) · ASEAN: Singapore 151,89, Malaysia 141,95, Vietnam 126,71, Thailand 110,78, Philippines 50,77 Mbps · 5G rollout concentrated in Jakarta/Java",
+      "storyline": "",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {
+          "label": "Bisnis.com",
+          "url": "https://teknologi.bisnis.com/read/20261020/101/2014246/ookla-kecepatan-internet-ri-naik-434-tembus-5201-mbps-kuartal-iii2026"
+        },
+        {
+          "label": "Bisnis.com (Komdigi reaction)",
+          "url": "https://teknologi.bisnis.com/read/20261020/101/2014245/komdigi-girang-kecepatan-internet-ri-meningkat-terkerek-5g-kuartal-iii2026"
+        }
+      ],
+      "why_it_matters": "Your mobile data is much faster than a year ago, but Indonesia still trails Malaysia, Vietnam and Thailand.",
+      "signals": {
+        "spreading": 1,
+        "wallet": 1,
+        "surprise": 1,
+        "visual": 2,
+        "fresh": 2,
+        "rivals": 1
+      },
+      "spreading_evidence": "Bisnis tekno featured stories 20 Oct (several articles)",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-21",
+      "category": "TECH",
+      "event": "LG CNS Indonesia's president director says early Coretax problems were resolved with a Korean technical team and the system is now more stable; the firm says it does not run daily operations.",
+      "key_numbers": "Coretax contract Rp1,23 triliun · consortium LG CNS + Qualysoft · nationwide use since Jan 2025 · LG CNS in Indonesia since 2006 · claim of stability not independently verified",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {
+          "label": "detikInet",
+          "url": "https://inet.detik.com/business/d-8716678/lg-cns-ungkap-cerita-di-balik-coretax-rp-1-23-triliun"
+        }
+      ],
+      "why_it_matters": "Coretax is the tax system every taxpayer must use; the vendor says it is now stable, but this is the vendor's own claim.",
+      "signals": {
+        "spreading": 1,
+        "wallet": 2,
+        "surprise": 1,
+        "visual": 1,
+        "fresh": 2,
+        "rivals": 1
+      },
+      "spreading_evidence": "detikInet front page",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-21",
+      "category": "TECH",
+      "event": "LG CNS Indonesia plans a data centre with Sinar Mas, with trial operation planned for 1 December 2026, and acknowledges public concern over electricity and water use.",
+      "key_numbers": "Trial operation 1 Des 2026 · no MW, investment or location disclosed · executive says facility will affect power and water use",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {
+          "label": "detikInet",
+          "url": "https://inet.detik.com/business/d-8717942/lg-cns-gandeng-sinar-mas-bangun-data-center-singgung-isu-listrik-dan-air"
+        }
+      ],
+      "why_it_matters": "Data centres compete with residents for power and water, a theme running through the Batam/Jatiluhur stories.",
+      "signals": {
+        "spreading": 1,
+        "wallet": 1,
+        "surprise": 1,
+        "visual": 0,
+        "fresh": 2,
+        "rivals": 2
+      },
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-20",
+      "category": "TECH",
+      "event": "Komdigi's Director General of Digital Infrastructure says a draft Perpres on data centres and submarine cables is being finalised after public consultation, aiming to shift data centres to eastern Indonesia beyond Batam and Java.",
+      "key_numbers": "No target date for issuing · Sulawesi and Kupang named as possible sites · energy, water and site suitability named as key variables · no investment figures",
+      "storyline": "",
+      "update_of": "E0188",
+      "status": "partial",
+      "sources": [
+        {
+          "label": "Bisnis.com",
+          "url": "https://teknologi.bisnis.com/read/20261020/101/2014210/komdigi-siapkan-perpres-data-center-dan-skkl-dorong-pemerataan-ke-indonesia-timur"
+        }
+      ],
+      "why_it_matters": "The rules will decide where AI data centres get built and who pays for the power.",
+      "signals": {
+        "spreading": 0,
+        "wallet": 0,
+        "surprise": 0,
+        "visual": 0,
+        "fresh": 2,
+        "rivals": 2
+      },
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-21",
+      "category": "TECH",
+      "event": "Indonesia Anti-Scam Centre (OJK) data shows 637,055 financial-fraud reports between 22 Nov 2024 and 31 Jul 2026, with 607,210 accounts blocked and Rp724.1 billion in fraud funds frozen.",
+      "key_numbers": "637.055 laporan · 1.179.881 rekening dilaporkan/diverifikasi · 607.210 rekening diblokir · Rp724,1 miliar diblokir · Rp204,3 miliar dikembalikan ke korban · period 22 Nov 2024-31 Jul 2026 · total victim losses not stated",
+      "storyline": "",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {
+          "label": "Katadata",
+          "url": "https://katadata.co.id/finansial/keuangan/6ad48ec957fd8/penipuan-keuangan-digital-makin-marak-ini-tips-dari-satgas-pasti"
+        }
+      ],
+      "why_it_matters": "Only about 28% of frozen funds have been returned (Rp204.3 B of Rp724.1 B); reporting fast matters if you are scammed.",
+      "signals": {
+        "spreading": 1,
+        "wallet": 2,
+        "surprise": 1,
+        "visual": 2,
+        "fresh": 2,
+        "rivals": 1
+      },
+      "spreading_evidence": "Katadata 21 Oct",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-20",
+      "category": "TECH",
+      "event": "BSSN's deputy head says at Bali Tech Week that BSSN still finds sensitive government data stored and exchanged unencrypted, ahead of the new Satu Data Indonesia law's data-sharing, including for social-protection programmes.",
+      "key_numbers": "Incident reporting required within 24 hours · six security aspects for Satu Data Indonesia law · BSSN cryptography roadmap 2027-2035",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {
+          "label": "Bisnis.com",
+          "url": "https://teknologi.bisnis.com/read/20261020/84/2014129/bssn-soroti-keamanan-integrasi-data-temukan-data-sensitif-belum-terenkripsi"
+        },
+        {
+          "label": "Bisnis.com (roadmap)",
+          "url": "https://teknologi.bisnis.com/read/20261020/84/2014119/bssn-siapkan-roadmap-kriptografi-2027-2035"
+        }
+      ],
+      "why_it_matters": "The state is about to pool citizens' data while its own cyber agency admits some is unencrypted.",
+      "signals": {
+        "spreading": 0,
+        "wallet": 1,
+        "surprise": 1,
+        "visual": 0,
+        "fresh": 2,
+        "rivals": 2
+      },
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-10",
+      "category": "TECH",
+      "event": "Katadata reports Prabowo will launch Perlinsos Digital on 10 November 2026, targeting 50 million recipients.",
+      "key_numbers": "Launch 10 Nov 2026 · 50 juta penerima target · article body not read (headline and summary only)",
+      "storyline": "",
+      "update_of": "E0041",
+      "status": "upcoming",
+      "sources": [
+        {
+          "label": "Katadata",
+          "url": "https://katadata.co.id/berita/nasional/6ad7a6394d4dc/prabowo-bakal-luncurkan-perlinsos-digital-10-november-sasar-50-juta-penerima"
+        }
+      ],
+      "why_it_matters": "Social aid (PKH/BPNT) is to move onto one digital system, affecting about 50 million people.",
+      "signals": {
+        "spreading": 1,
+        "wallet": 2,
+        "surprise": 1,
+        "visual": 1,
+        "fresh": 1,
+        "rivals": 2
+      },
+      "spreading_evidence": "Katadata Nasional 21 Oct",
+      "sensitivity": "normal"
+    }
+  ],
+  "gaps": [
+    "Detik Isu Shadowban article and Katadata Perlinsos article returned PROVENANCE_REQUIRED on fetch; shadowban details taken from Katadata, Perlinsos from the Katadata index summary only.",
+    "CNBC Indonesia tech, CNN Indonesia teknologi and DailySocial section pages were not read, so startup funding/shutdown news and car/motorbike sales may be missed; worth a rerun.",
+    "Detik 'Netflix PHK 1.000 karyawan' and 'Microsoft dituding ganti pekerja AS' are global stories, not recorded.",
+    "Meta AI reportedly claimed content was blocked at Komdigi's request; unverified."
+  ]
+}

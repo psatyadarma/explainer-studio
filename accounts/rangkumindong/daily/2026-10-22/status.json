@@ -1,0 +1,27 @@
+{
+ "date": "2026-10-22",
+ "steps": {
+  "sweep": "partial",
+  "merge": "done",
+  "ideas": "done",
+  "ideas_factcheck": "done",
+  "ideas_sent": "done",
+  "picked": "todo",
+  "draft": "todo",
+  "draft_factcheck": "todo",
+  "draft_sent": "todo",
+  "approved": "todo",
+  "render": "todo",
+  "video_sent": "todo",
+  "ok_post": "todo",
+  "posted": "todo",
+  "knowledge": "todo"
+ },
+ "notes": [
+  "22:05Z markets+politics sweeps empty: WebFetch PROVENANCE_REQUIRED on section pages (unattended, prompt unanswered); rerun with search-first workaround denied by auto-mode classifier for those two; business 8 + national 11 OK after search-first rerun"
+ ],
+ "merge_stats": {
+  "new": 19,
+  "duplicates": 0
+ }
+}

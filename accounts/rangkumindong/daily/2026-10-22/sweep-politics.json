@@ -1,0 +1,19 @@
+{
+  "area": "politics",
+  "run_date": "2026-10-22",
+  "checked": [
+    "BLOCKED (permission not granted, not read): news.detik.com/berita",
+    "BLOCKED: cnnindonesia.com/nasional",
+    "BLOCKED: antaranews.com/politik",
+    "BLOCKED: tempo.co/politik",
+    "WebSearch: gibran ijazah MK terbaru (undated results only, nothing verifiable as new)",
+    "WebSearch: general politics 21 Oct (no usable dated results)"
+  ],
+  "events": [],
+  "gaps": [
+    "All four section pages (detik, CNN Indonesia, Antara politik/hukum, Tempo) were blocked by WebFetch permission; no headlines scanned, so no events were reported rather than guessing.",
+    "Storyline gibran-ijazah-mk: search returned only undated pages (Katadata, RCTI+, Infopublik hoax check); no new development could be confirmed.",
+    "Storylines karhutla, rupiah, msci-reclassification not searched (not politics category, and no page access).",
+    "Rerun this area once WebFetch access to the section pages is granted."
+  ]
+}

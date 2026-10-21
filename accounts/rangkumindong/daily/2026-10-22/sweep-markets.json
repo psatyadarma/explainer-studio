@@ -1,0 +1,19 @@
+{
+  "area": "markets",
+  "run_date": "2026-10-22",
+  "checked": [
+    "cnbcindonesia.com/market (BLOCKED: fetch permission not granted)",
+    "market.bisnis.com (BLOCKED)",
+    "finance.detik.com (BLOCKED)",
+    "antaranews.com/ekonomi (BLOCKED)",
+    "WebSearch: IHSG close 21 Oct (only undated/older titles returned)",
+    "WebSearch: rupiah / foreign net sell (titles only, no dates or numbers)",
+    "WebSearch: MSCI Indonesia (titles only; latest dated item 14 Oct, outside window)"
+  ],
+  "events": [],
+  "gaps": [
+    "All four section pages were blocked (WebFetch PROVENANCE_REQUIRED), so no headlines from the 20-22 Oct window were read.",
+    "Search snippets gave titles only; no verified numbers for IHSG close, foreign flows, rupiah or MSCI. Nothing reported rather than guessed.",
+    "Search titles hint at: rupiah record-low and heavy foreign net sell (Kontan insight), MSCI downgrade proposal to standalone market with a November decision. Dates unconfirmed; needs a rerun with fetch access."
+  ]
+}

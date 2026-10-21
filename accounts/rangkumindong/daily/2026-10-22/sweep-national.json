@@ -1,0 +1,341 @@
+{
+ "area": "national",
+ "run_date": "2026-10-22",
+ "checked": [
+  "detik terpopuler (news.detik.com home snapshot)",
+  "Liputan6 terpopuler hari ini",
+  "ANTARA home (terkini, terpopuler, humaniora, cek fakta)",
+  "Liputan6 Cek Fakta",
+  "Kompas via search",
+  "watch list found: most-read, disasters/karhutla, BNPB, ferry fire, crime/smuggling, hoaxes, viral object, food prices",
+  "storyline search: karhutla"
+ ],
+ "events": [
+  {
+   "date": "2026-10-21",
+   "category": "POL",
+   "event": "KPK says Rp800 million in cash handed over by Hercules Rosario de Marshal's lawyer allegedly came from PT Summarecon Agung to secure its Bogor land and to lift a land-office blockade, with ATR/BPN officials alleged to have been bribed.",
+   "key_numbers": "Rp800 juta seized (KPK statement 15 Oct) · 8 suspects named (per article meta, details not read) · land in Bogor Regency",
+   "storyline": "",
+   "update_of": "",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "detikNews",
+     "url": "https://news.detik.com/berita/d-8718077/kpk-dapat-info-summarecon-beri-duit-ke-hercules-untuk-amankan-lahan"
+    },
+    {
+     "label": "detikNews (GRIB response)",
+     "url": "https://news.detik.com/berita/d-8718205/respons-kpk-grib-jelaskan-awal-mula-summarecon-beri-rp-800-juta-ke-hercules"
+    }
+   ],
+   "why_it_matters": "A listed property developer and a well-known ormas figure appear in a land-bribery probe, which matters to Summarecon shareholders and to anyone buying land or housing.",
+   "signals": {
+    "spreading": 2,
+    "wallet": 1,
+    "surprise": 2,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 2
+   },
+   "spreading_evidence": "detik terpopuler #1 and #2 (22 Oct snapshot)",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-10-20",
+   "category": "NEWS",
+   "event": "ASDP ferry KMP Batumandi caught fire near Merak port; Basarnas says all passengers were evacuated safely and ASDP says it will cover passengers' losses.",
+   "key_numbers": "420 passengers · 89 vehicles (Polda Banten, per headline) · all passengers evacuated (Basarnas Banten) · evacuation to Dermaga 6 Eksekutif, Merak",
+   "storyline": "",
+   "update_of": "E0200",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "ANTARA (Kemarin ...)",
+     "url": "https://www.antaranews.com/berita/5800901/kemarin-pemadaman-karhutla-hingga-evakuasi-penumpang-km-batumandi"
+    },
+    {
+     "label": "detikNews terpopuler #3",
+     "url": "https://news.detik.com/berita/d-8718169/cerita-nelayan-ikut-bantu-evakuasi-penumpang-kmp-batumandi-terbakar-di-merak"
+    },
+    {
+     "label": "detikNews",
+     "url": "https://news.detik.com/berita/d-8716562/8-fakta-kapal-feri-di-pelabuhan-merak-dilalap-api"
+    }
+   ],
+   "why_it_matters": "Merak-Bakauheni is the main Java-Sumatra crossing, so ferry safety affects millions of travellers and freight.",
+   "signals": {
+    "spreading": 2,
+    "wallet": 1,
+    "surprise": 1,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "detik terpopuler #3; ANTARA terpopuler (ASDP statement)",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-10-21",
+   "category": "NEWS",
+   "event": "Bareskrim (Dittipidter) reveals a smuggling ring that sent baby lobster seeds from Pangandaran via Depok repacking to Vietnam, allegedly 40 times in about four months.",
+   "key_numbers": "73,000 seeds intercepted · ~3.5 juta seeds estimated overall at Rp80,000 each = Rp280 miliar (detik; another detik story cites Rp178 miliar) · 40 operations · 4 months · UU 31/2004 Pasal 92, >5 years, possible TPPU",
+   "storyline": "",
+   "update_of": "",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "detikNews terpopuler #4",
+     "url": "https://news.detik.com/berita/d-8718225/penyelundup-73-ribu-lobster-ke-vietnam-sudah-beraksi-40-kali"
+    },
+    {
+     "label": "detikNews",
+     "url": "https://news.detik.com/berita/d-8718243/polisi-ungkap-modus-penyelundupan-73-ribu-benih-lobster-yang-dicegah-ke-vietnam"
+    }
+   ],
+   "why_it_matters": "Indonesia's lobster seed wealth is being exported illegally, and the value gap shows why the ban/quota debate keeps returning.",
+   "signals": {
+    "spreading": 2,
+    "wallet": 0,
+    "surprise": 2,
+    "visual": 2,
+    "fresh": 2,
+    "rivals": 2
+   },
+   "spreading_evidence": "detik terpopuler #4",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-10-21",
+   "category": "NEWS",
+   "event": "BRIN's Thomas Djamaluddin says metal debris found in a palm plantation in Kotawaringin Timur, Central Kalimantan, is from China's ZhuQue-2E rocket.",
+   "key_numbers": "Boom heard Sun 18 Oct · debris found Mon 19 Oct · BRIN statement Wed 21 Oct · second object found (dome-shaped, ~faded yellow, dimensions not given) · PT Agro Bukit plantation km 26",
+   "storyline": "",
+   "update_of": "",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "detikNews",
+     "url": "https://news.detik.com/berita/d-8716615/brin-ungkap-asal-logam-misterius-di-kebun-sawit-kalteng-sampah-roket-china"
+    }
+   ],
+   "why_it_matters": "Space junk landing near villages raises who is responsible and what Indonesians should do if they find it.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 0,
+    "surprise": 2,
+    "visual": 2,
+    "fresh": 2,
+    "rivals": 2
+   },
+   "spreading_evidence": "detik headline list; viral object photos (outlet-reported)",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-10-21",
+   "category": "ENV",
+   "event": "Police name 11 corporations as karhutla suspects, three of them foreign-owned, according to a Kompas headline.",
+   "key_numbers": "11 corporations · 3 foreign (headline only; article body blocked by robots)",
+   "storyline": "karhutla",
+   "update_of": "E0021",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "Kompas.com",
+     "url": "https://nasional.kompas.com/read/2026/10/21/20023401/polri-tetapkan-11-korporasi-jadi-tersangka-karhutla-3-di-antaranya"
+    }
+   ],
+   "why_it_matters": "First time the haze story shifts from smoke to who gets charged, including foreign firms, as Singapore and Malaysia press Jakarta.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 0,
+    "surprise": 2,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "Kompas headline surfaced via search; not confirmed on a most-read list",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-10-21",
+   "category": "ENV",
+   "event": "BNPB reports progress on karhutla in six priority provinces while Central Kalimantan remains the worst; a further 60 ha burn in Palolo, Sigi (Central Sulawesi) and the Forestry Ministry calls for public participation.",
+   "key_numbers": "454.25 ha extinguished of 1,024.33 ha target (as of 19 Oct) · ~570.08 ha still being handled · Kalteng target 452.49 ha: 63.10 ha out, 389.39 ha not yet · outside-priority areas 572.90 ha · Palolo Sigi 60 ha · inversion layer 6,000-7,000 ft",
+   "storyline": "karhutla",
+   "update_of": "E0157",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "ANTARA",
+     "url": "https://www.antaranews.com/berita/5800901/kemarin-pemadaman-karhutla-hingga-evakuasi-penumpang-km-batumandi"
+    },
+    {
+     "label": "ANTARA (Palolo Sigi)",
+     "url": "https://www.antaranews.com/berita/5801833/bnpb-60-hektare-hutan-terbakar-di-palolo-sigi"
+    },
+    {
+     "label": "ANTARA (Kemenhut)",
+     "url": "https://www.antaranews.com/berita/5801865/kemenhut-tekankan-pentingnya-partisipasi-publik-di-penanganan-karhutla"
+    }
+   ],
+   "why_it_matters": "Only about 44% of the target area is out, so haze and flight disruption are likely to continue.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 1,
+    "surprise": 1,
+    "visual": 2,
+    "fresh": 2,
+    "rivals": 0
+   },
+   "spreading_evidence": "ANTARA terkini #1 and #6 on 21 Oct",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-10-21",
+   "category": "POL",
+   "event": "KPK widens the BNPB disaster-fund (DSP) case: it says the alleged corruption is tied to procurement for fires, floods, landslides and aid for displaced people, with 8 locations searched and documents, money and vehicles seized.",
+   "key_numbers": "8 locations searched · KPK statement 20 Oct 22:51 WIB · fund misuse probed since 2022 · earlier 5 suspects (14 Oct)",
+   "storyline": "karhutla",
+   "update_of": "E0069",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "ANTARA video",
+     "url": "https://www.antaranews.com/video/5800509/kpk-korupsi-di-bnpb-terkait-penanganan-karhutla-hingga-banjir"
+    }
+   ],
+   "why_it_matters": "Money meant for fire and flood response is under corruption investigation while the fires are still burning.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 1,
+    "surprise": 2,
+    "visual": 0,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-10-21",
+   "category": "POL",
+   "event": "Pati Regent Sudewo (spelled Sudewa by ANTARA) is sentenced to 8.5 years in prison, per an ANTARA headline.",
+   "key_numbers": "8.5 years (headline only; fine and charges not read) · prosecutors had demanded 8.5 years and revocation of political rights (per search snippets)",
+   "storyline": "corruption-cases",
+   "update_of": "",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "ANTARA",
+     "url": "https://www.antaranews.com/berita/5801841/bupati-pati-sudewa-divonis-85-tahun-penjara"
+    }
+   ],
+   "why_it_matters": "Another regional head jailed in a year with many KPK stings.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 0,
+    "surprise": 0,
+    "visual": 0,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "ANTARA terkini on 22 Oct snapshot",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-10-20",
+   "category": "NEWS",
+   "event": "Central government sends five teams to look into the chilli price spike, while Transjakarta reroutes five routes around Balai Kota because of a protest.",
+   "key_numbers": "5 Kemendagri teams (19 Oct) · cabai merah keriting Rp126,400/kg on 19 Oct (+43.07%, per E0149) · 5 Transjakarta routes skip Balai Kota",
+   "storyline": "",
+   "update_of": "E0149",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "Liputan6 terpopuler #3",
+     "url": "https://berita.liputan6.com/peristiwa/read/8316347/5-tim-dikerahkan-kemendagri-telusuri-persoalan-harga-cabai"
+    },
+    {
+     "label": "ANTARA terpopuler",
+     "url": "https://www.antaranews.com/berita/5799253/lima-rute-transjakarta-tak-berhenti-di-balai-kota-imbas-unjuk-rasa"
+    }
+   ],
+   "why_it_matters": "Chilli at over Rp120,000/kg hits every household kitchen and warung.",
+   "signals": {
+    "spreading": 2,
+    "wallet": 2,
+    "surprise": 2,
+    "visual": 2,
+    "fresh": 1,
+    "rivals": 1
+   },
+   "spreading_evidence": "Liputan6 terpopuler #3 (19 Oct)",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-10-19",
+   "category": "NEWS",
+   "event": "Liputan6 Cek Fakta compiles fake job-vacancy posts using Jasa Marga, Pertamina and Ombudsman names that lead to forms asking for full name as on KTP and a Telegram number.",
+   "key_numbers": "Jasa Marga post on Instagram 17 Oct · Pertamina post on Facebook 29 Sep · Ombudsman post on Facebook 11 Aug · Jasa Marga says it recruits only via official site",
+   "storyline": "",
+   "update_of": "E0164",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "Liputan6 Cek Fakta",
+     "url": "https://www.liputan6.com/cek-fakta/read/8316434/hoaks-lowongan-kerja-marak-beredar-di-medsos-simak-faktanya-agar-tidak-tertipu"
+    }
+   ],
+   "why_it_matters": "Job-seekers can lose personal data and money to fake recruiters.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 1,
+    "surprise": 1,
+    "visual": 1,
+    "fresh": 1,
+    "rivals": 1
+   },
+   "spreading_evidence": "Liputan6 Cek Fakta list (several hoax items 19 Oct)",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-10-21",
+   "category": "NEWS",
+   "event": "Antara's Humaniora and terpopuler lists show MBG governance reform (BGN 'MBG 2.0') and Bulog-DPR food aid distribution covering three months' allocation.",
+   "key_numbers": "Bantuan pangan allocation for 3 months (amount per household not read)",
+   "storyline": "",
+   "update_of": "E0163",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "ANTARA Humaniora",
+     "url": "https://www.antaranews.com/berita/5801649/bgn-transformasi-tata-kelola-melalui-revolusi-mbg-20"
+    },
+    {
+     "label": "ANTARA terpopuler",
+     "url": "https://www.antaranews.com/berita/5799157/bulog-dan-dpr-luncurkan-penyaluran-bantuan-pangan-alokasi-tiga-bulan"
+    }
+   ],
+   "why_it_matters": "Free meals and rice aid reach millions of families, and BGN is under pressure over poisoning cases.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 2,
+    "surprise": 1,
+    "visual": 0,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "ANTARA terpopuler (Bulog item); headline only for MBG 2.0",
+   "sensitivity": "normal"
+  }
+ ],
+ "gaps": [
+  "Not fetched (not allowed/blocked): cnnindonesia.com/nasional, cnbcindonesia.com, turnbackhoax.id, antaranews.com/terkini direct, BMKG/BNPB quake pages (WebFetch refused them as unprovenanced)",
+  "Kompas 11-corporation karhutla article blocked by robots; no details on companies; rmol 15 Oct said 9 corporations and 223 individuals already suspects, worth reconciling",
+  "Pati regent verdict article and ASDP Batumandi compensation article refused (PROVENANCE_REQUIRED); verdict only from headline",
+  "Summarecon: 8 suspects mentioned in meta, no names or Summarecon response read",
+  "No trending X/TikTok report found; Respons viral Habib Alwi Assegaf sermon and Trump 'Mohammad' joke (detik most-comments) not opened",
+  "Transjakarta protest at Balai Kota: cause not read"
+ ]
+}
