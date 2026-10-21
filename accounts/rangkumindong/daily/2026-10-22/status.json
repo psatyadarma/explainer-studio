@@ -6,10 +6,10 @@
   "ideas": "done",
   "ideas_factcheck": "done",
   "ideas_sent": "done",
-  "picked": "todo",
-  "draft": "todo",
-  "draft_factcheck": "todo",
-  "draft_sent": "todo",
+  "picked": "done",
+  "draft": "done",
+  "draft_factcheck": "done",
+  "draft_sent": "done",
   "approved": "todo",
   "render": "todo",
   "video_sent": "todo",
@@ -18,7 +18,8 @@
   "knowledge": "todo"
  },
  "notes": [
-  "22:05Z markets+politics sweeps empty: WebFetch PROVENANCE_REQUIRED on section pages (unattended, prompt unanswered); rerun with search-first workaround denied by auto-mode classifier for those two; business 8 + national 11 OK after search-first rerun"
+  "22:05Z markets+politics sweeps empty: WebFetch PROVENANCE_REQUIRED on section pages (unattended, prompt unanswered); rerun with search-first workaround denied by auto-mode classifier for those two; business 8 + national 11 OK after search-first rerun",
+  "22:24Z user picked #2 definisi korupsi; asked to allow web fetches -> .claude/settings.json allow WebFetch, WebSearch"
  ],
  "merge_stats": {
   "new": 19,

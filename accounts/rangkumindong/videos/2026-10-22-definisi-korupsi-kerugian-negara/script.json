@@ -1,0 +1,90 @@
+{
+ "direction": "[calm, neutral explainer; every claim attributed]",
+ "voice": "female:Cahaya",
+ "hook_type": "question",
+ "lines": [
+  {
+   "id": "h1",
+   "tag": "[curious]",
+   "text": "“Kerugian negara” mau dihapus dari definisi korupsi?",
+   "say": "Kerugian negara mau dihapus dari definisi korupsi?"
+  },
+  {
+   "id": "h2",
+   "tag": "[intrigued]",
+   "text": "Belakangan Luhut bilang nggak. Lalu kenapa KPK keberatan?",
+   "say": "Belakangan Luhut bilang nggak. Lalu kenapa, Ka Pe Ka keberatan?"
+  },
+  {
+   "id": "rd",
+   "tagline": true,
+   "text": "Rangkumin dong!"
+  },
+  {
+   "id": "l1",
+   "tag": "[explaining]",
+   "text": "20 Oktober, Luhut bilang Presiden setuju kajian DEN soal definisi korupsi.",
+   "say": "Dua puluh Oktober, Luhut bilang Presiden setuju kajian, De E En, soal definisi korupsi."
+  },
+  {
+   "id": "l2",
+   "tag": "[neutral]",
+   "text": "Kata Luhut, versi PBB fokusnya suap, nggak bicara kerugian negara. Katanya, aturan ini memberatkan Danantara.",
+   "say": "Kata Luhut, versi, Pe Be Be, fokusnya suap, nggak bicara kerugian negara. Katanya, aturan ini memberatkan Danantara."
+  },
+  {
+   "id": "l4",
+   "tag": "[explaining]",
+   "text": "Aturannya: UU Tipikor Pasal 2 dan 3, sejak 2026 pindah ke KUHP baru (Pasal 603 dan 604). Memperkaya diri atau menyalahgunakan jabatan, yang merugikan keuangan negara.",
+   "say": "Aturannya: U U Tipikor, pasal dua dan tiga, sejak dua ribu dua puluh enam pindah ke, Ka U Ha Pe baru, pasal enam ratus tiga dan enam ratus empat. Memperkaya diri atau menyalahgunakan jabatan, yang merugikan keuangan negara."
+  },
+  {
+   "id": "l5",
+   "tag": "[explaining]",
+   "text": "Konvensi antikorupsi PBB nggak mensyaratkan kerugian negara. Isinya: suap, penggelapan, dan lainnya.",
+   "say": "Konvensi antikorupsi, Pe Be Be, nggak mensyaratkan kerugian negara. Isinya: suap, penggelapan, dan lainnya."
+  },
+  {
+   "id": "l6",
+   "tag": "[serious]",
+   "text": "Ketua KPK: kerugian negara harus tetap. Yang mendesak, pidanakan suap swasta dan memperdagangkan pengaruh.",
+   "say": "Ketua, Ka Pe Ka: kerugian negara harus tetap. Yang mendesak, pidanakan suap swasta, dan memperdagangkan pengaruh."
+  },
+  {
+   "id": "l7",
+   "tag": "[serious]",
+   "text": "Data ICW: 83 persen terdakwa korupsi 2024 dihukum pakai Pasal 2 dan 3.",
+   "say": "Data, I Ce We: delapan puluh tiga persen terdakwa korupsi dua ribu dua puluh empat dihukum pakai pasal dua dan tiga."
+  },
+  {
+   "id": "l8",
+   "tag": "[neutral]",
+   "text": "Pakar pidana Trisno Raharjo: keputusan bisnis yang sah jangan dipidana, tapi itu bukan alasan menghapus pasalnya.",
+   "say": "Pakar pidana Trisno Raharjo: keputusan bisnis yang sah jangan dipidana, tapi itu bukan alasan menghapus pasalnya."
+  },
+  {
+   "id": "l9",
+   "tag": "[matter-of-fact]",
+   "text": "Lalu Luhut klarifikasi: kerugian negara tetap jadi unsur. Usulnya, pembuktian diperjelas, keputusan bisnis beritikad baik dilindungi.",
+   "say": "Lalu Luhut klarifikasi: kerugian negara tetap jadi unsur. Usulnya, pembuktian diperjelas, keputusan bisnis beritikad baik dilindungi."
+  },
+  {
+   "id": "l10",
+   "tag": "[calm]",
+   "text": "Yusril: usul ini layak dipertimbangkan, tapi belum masuk Prolegnas. Belum ada draf RUU yang diumumkan.",
+   "say": "Yusril: usul ini layak dipertimbangkan, tapi belum masuk Prolegnas. Belum ada draf, Er U U, yang diumumkan."
+  },
+  {
+   "id": "cta",
+   "tag": "[playful]",
+   "text": "Pasal kerugian negara: Tim “sudah cukup” atau Tim “perlu diperbaiki”? Komen!",
+   "say": "Pasal kerugian negara: Tim sudah cukup, atau Tim perlu diperbaiki? Komen!"
+  },
+  {
+   "id": "end",
+   "tag": "[friendly]",
+   "text": "Follow Rangkumin Dong, biar nggak ketinggalan!"
+  }
+ ],
+ "tail": 0.9
+}
