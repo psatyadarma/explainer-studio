@@ -45,6 +45,8 @@ Updated: Tue 20 Oct 2026, 12:55 WITA. Each daily run is a fresh session with no 
 - Sat 24 Oct 09:00 WITA (in the original chat): TikTok warm-up done. The user connects TikTok to Upload-Post profile "Rangkumindong"; then add "tiktok" to `brand.json` posting.platforms and stop the manual TikTok sends.
 
 ## Open items
+- **Back pocket (user decides later):** (1) copying finished videos to the laptop via GitHub release files picked up by the 20:07 task; (2) a public portfolio repo: curated engine + style kit + sanitized agent prompts + README, with clean history, while this repo stays private (the user creates the empty public repo; it must never contain keys, the account email or the knowledge base).
+- **Ajarin Dong** (@ajarindong.id on IG/TikTok/YouTube, created 21 Oct; profile picture = option C, saved on the laptop): going live is being planned; see accounts/ajarindong/.
 - **Wed 21 Oct ideas: the user asked to include karhutla** (it scored 10/12 on 20 Oct but was left out). Angles: ex-trade minister Lutfi vs Singapore ("your companies are the culprits": attribute it, include the companies' responses, never call a company guilty), 4 firefighters killed at Bromo Tengger Semeru, 7,118 hotspots (BNPB), Jakarta's 367 facilities on standby, Mendagri's statement. Refresh the numbers that morning.
 - Laptop folder `C:\Users\PRAWIRA SATYA DARMA\Documents\ai-projects\auto-video` granted 20 Oct; video #1 copied to `rangkumindong\2026-10-19-ihsg-msci\` (video.mp4 + captions-and-sources.md). How later videos get there is still to decide with the user (daily session can't reach the laptop).
 - The researchers often can't read kompas.com, kpk.go.id, kejaksaan.go.id or idx.co.id. Tech coverage was thin, so the business researcher now has a tech checklist.
