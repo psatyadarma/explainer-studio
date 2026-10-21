@@ -22,5 +22,29 @@
 "shares": null,
 "saves": null,
 "follows": null
+},
+{
+"date": "2026-10-20",
+"folder": "videos/2026-10-20-rupiah-18rb-bi-rate",
+"platform": "instagram",
+"hours": 24,
+"views": 87,
+"avg_watch_pct": 3.1,
+"hold_3s_pct": null,
+"shares": 1,
+"saves": 1,
+"follows": null
+},
+{
+"date": "2026-10-20",
+"folder": "videos/2026-10-20-rupiah-18rb-bi-rate",
+"platform": "youtube",
+"hours": 24,
+"views": 5,
+"avg_watch_pct": null,
+"hold_3s_pct": null,
+"shares": null,
+"saves": null,
+"follows": null
 }
 ]

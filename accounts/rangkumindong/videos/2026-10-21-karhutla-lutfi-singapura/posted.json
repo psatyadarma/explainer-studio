@@ -2,5 +2,97 @@
  "success": true,
  "job_id": "bf61efe488fe46fab497a530ce68bdbf",
  "scheduled_date": "2026-10-21T19:00:00+08:00",
- "request_id": "Rangkumindong-2026-10-21-karhutla-lutfi-singapura"
+ "request_id": "Rangkumindong-2026-10-21-karhutla-lutfi-singapura",
+ "status": {
+  "status": "completed",
+  "completed": 2,
+  "total": 2,
+  "results": [
+   {
+    "user_email": "rangkumindong.id@gmail.com",
+    "profile_username": "Rangkumindong",
+    "platform": "youtube",
+    "media_type": "video",
+    "upload_timestamp": {
+     "$date": "2026-10-21T11:01:31.639Z"
+    },
+    "success": true,
+    "platform_post_id": "QmaiHm5TzJA",
+    "post_url": "https://www.youtube.com/watch?v=QmaiHm5TzJA",
+    "error_message": null,
+    "error_signature": null,
+    "error_code": null,
+    "failure_stage": null,
+    "media_size_bytes": 18550649,
+    "post_title": "10 Perusahaan RI Disurati Singapura soal Asap, Lutfi: Grup Induknya di Singapura #Shorts",
+    "post_caption": "10 perusahaan Indonesia disurati Singapura soal asap 🔥 Eks Mendag Lutfi balas: sebagian pemasok grup yang induknya justru di Singapura.\n\nRangkumin dong 👇\n• Per 16 Okt, BNPB catat 7.118 titik panas di 6 provinsi prioritas. Di Bromo, 4 orang tewas saat memadamkan api.\n• Singapura (NEA) kirim surat peringatan ke 7 perusahaan RI (16 Okt), lalu 3 lagi (19 Okt). Kata Singapura, sebagian asap di sana berasal dari kebakaran di lahan 7 perusahaan pertama. Belum ada putusan.\n• Kata Lutfi, 4 dari 7 perusahaan pertama adalah pemasok grup yang induknya di Singapura. Dua perusahaan sawit lain yang tercatat di bursa Singapura membantah: kata First Resources, sebagian api datang dari luar lahannya; kata Kencana Agri, apinya merembet dari lahan sekitar. Kata Kapolri, 98 kasus karhutla korporasi masuk penyidikan.\n\nMenurut kamu, yang harus tanggung jawab: pemilik lahan, grup induknya, atau pengawasnya? Komen 👇\n\nSemua masih dalam proses hukum, belum ada yang diputus bersalah. Sumber di komentar.\nFoto: Kementerian Perdagangan RI (domain publik); Lukasz Kobus / European Union (CC BY 4.0, dipotong & diedit), via Wikimedia Commons.\n\n#karhutla #kabutasap #asap #Singapura #lingkungan #beritaterkini #rangkumindong\n\nSumber:\n1. Periskop, 17 Okt 2026 (data Dashboard BNPB per 16 Okt): 7.118 titik panas di 6 provinsi prioritas\n2. Kemenhut, 16 Okt 2026: 4 orang tewas saat pemadaman karhutla di TN Bromo Tengger Semeru (15 Okt)\n3. CNN Indonesia, 20 Okt 2026: Menteri Grace Fu, sebagian asap di Singapura berasal dari kebakaran di lahan 7 perusahaan RI; denda/tindakan hukum dipertimbangkan\n4. detikFinance, 18 Okt 2026: daftar 7 perusahaan (NEA), Kencana Agri soal 62 ha dan api dari lahan sekitar\n5. Mothership & Malay Mail, 19 Okt 2026: NEA tambah 3 perusahaan, total 10; isi surat peringatan (THPA)\n6. detikFinance & CNN Indonesia, 20 Okt 2026: Instagram @m.lutfi, 4 dari 7 perusahaan pemasok grup yang induknya di Singapura\n7. AsiaOne & The Star, 19 Okt 2026: Menteri K. Shanmugam, pemeriksaan sampai ke grup induk dan pemilik\n8. Mothership, 16 Okt 2026: First Resources (pernyataan SGX 15 Okt) membantah api bermula di kebunnya, sebagian api disebut dari luar konsesi; Bumitama Agri belum memberi pernyataan\n9. Antara, 19 Okt 2026: Kapolri, 98 kasus korporasi karhutla masuk penyidikan, ada dugaan keterlibatan pihak asing\n10. Suara & CNN Indonesia, 19 Okt 2026: Mendagri Tito soal tekanan finansial dan tindakan tegas\nSemua pihak yang disebut belum diputus bersalah.",
+    "is_async": false,
+    "dashboard": false,
+    "source": "api",
+    "client": "python_generic",
+    "client_version": null,
+    "video_was_transcoded": false,
+    "changes": [],
+    "prevalidation_metadata": {
+     "width": 1080,
+     "height": 1920,
+     "fps": 30.0,
+     "duration": 89.067,
+     "container": "mov,mp4,m4a,3gp,3g2,mj2",
+     "video_codec": "h264",
+     "audio_codec": "aac"
+    },
+    "target_linkedin_page_id": null,
+    "request_id": "Rangkumindong-2026-10-21-karhutla-lutfi-singapura",
+    "request_id_logs": "Rangkumindong-2026-10-21-karhutla-lutfi-singapura",
+    "job_id": "bf61efe488fe46fab497a530ce68bdbf",
+    "request_total_platforms": 2
+   },
+   {
+    "user_email": "rangkumindong.id@gmail.com",
+    "profile_username": "Rangkumindong",
+    "platform": "instagram",
+    "media_type": "video",
+    "upload_timestamp": {
+     "$date": "2026-10-21T11:02:31.816Z"
+    },
+    "success": true,
+    "platform_post_id": "18071713259771731",
+    "post_url": "https://www.instagram.com/reel/DewQNdcEvnM/",
+    "error_message": null,
+    "error_signature": null,
+    "error_code": null,
+    "failure_stage": null,
+    "media_size_bytes": 18550649,
+    "post_title": "10 perusahaan Indonesia disurati Singapura soal asap 🔥 Eks Mendag Lutfi balas: sebagian pemasok grup yang induknya justru di Singapura.\n\nRangkumin dong 👇\n• Per 16 Okt, BNPB catat 7.118 titik panas di 6 provinsi prioritas. Di Bromo, 4 orang tewas saat memadamkan api.\n• Singapura (NEA) kirim surat peringatan ke 7 perusahaan RI (16 Okt), lalu 3 lagi (19 Okt). Kata Singapura, sebagian asap di sana berasal dari kebakaran di lahan 7 perusahaan pertama. Belum ada putusan.\n• Kata Lutfi, 4 dari 7 perusahaan pertama adalah pemasok grup yang induknya di Singapura. Dua perusahaan sawit lain yang tercatat di bursa Singapura membantah: kata First Resources, sebagian api datang dari luar lahannya; kata Kencana Agri, apinya merembet dari lahan sekitar. Kata Kapolri, 98 kasus karhutla korporasi masuk penyidikan.\n\nMenurut kamu, yang harus tanggung jawab: pemilik lahan, grup induknya, atau pengawasnya? Komen 👇\n\nSemua masih dalam proses hukum, belum ada yang diputus bersalah. Sumber di komentar.\nFoto: Kementerian Perdagangan RI (domain publik); Lukasz Kobus / European Union (CC BY 4.0, dipotong & diedit), via Wikimedia Commons.\n\n#karhutla #kabutasap #asap #Singapura #lingkungan #beritaterkini #rangkumindong",
+    "post_caption": "10 perusahaan Indonesia disurati Singapura soal asap 🔥 Eks Mendag Lutfi balas: sebagian pemasok grup yang induknya justru di Singapura.\n\nRangkumin dong 👇\n• Per 16 Okt, BNPB catat 7.118 titik panas di 6 provinsi prioritas. Di Bromo, 4 orang tewas saat memadamkan api.\n• Singapura (NEA) kirim surat peringatan ke 7 perusahaan RI (16 Okt), lalu 3 lagi (19 Okt). Kata Singapura, sebagian asap di sana berasal dari kebakaran di lahan 7 perusahaan pertama. Belum ada putusan.\n• Kata Lutfi, 4 dari 7 perusahaan pertama adalah pemasok grup yang induknya di Singapura. Dua perusahaan sawit lain yang tercatat di bursa Singapura membantah: kata First Resources, sebagian api datang dari luar lahannya; kata Kencana Agri, apinya merembet dari lahan sekitar. Kata Kapolri, 98 kasus karhutla korporasi masuk penyidikan.\n\nMenurut kamu, yang harus tanggung jawab: pemilik lahan, grup induknya, atau pengawasnya? Komen 👇\n\nSemua masih dalam proses hukum, belum ada yang diputus bersalah. Sumber di komentar.\nFoto: Kementerian Perdagangan RI (domain publik); Lukasz Kobus / European Union (CC BY 4.0, dipotong & diedit), via Wikimedia Commons.\n\n#karhutla #kabutasap #asap #Singapura #lingkungan #beritaterkini #rangkumindong",
+    "is_async": false,
+    "dashboard": false,
+    "source": "api",
+    "client": "python_generic",
+    "client_version": null,
+    "video_was_transcoded": false,
+    "changes": [],
+    "prevalidation_metadata": {
+     "width": 1080,
+     "height": 1920,
+     "fps": 30.0,
+     "duration": 89.067,
+     "container": "mov,mp4,m4a,3gp,3g2,mj2",
+     "video_codec": "h264",
+     "audio_codec": "aac"
+    },
+    "target_linkedin_page_id": null,
+    "request_id": "Rangkumindong-2026-10-21-karhutla-lutfi-singapura",
+    "request_id_logs": "Rangkumindong-2026-10-21-karhutla-lutfi-singapura",
+    "job_id": "bf61efe488fe46fab497a530ce68bdbf",
+    "request_total_platforms": 2
+   }
+  ],
+  "external_id": null,
+  "last_update": {
+   "$date": "2026-10-21T11:02:31.816Z"
+  },
+  "job_id": "bf61efe488fe46fab497a530ce68bdbf"
+ }
 }

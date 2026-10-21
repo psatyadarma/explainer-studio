@@ -24,7 +24,7 @@ Status: **ACTIVE** · Category: national/environment · Started: 19 Oct 2026 (id
 | to 17 Oct | 2.458 flights disrupted at 29 airports | E0102 |
 
 ## Videos
-- **21 Oct 2026** "10 perusahaan RI disurati Singapura soal asap, Lutfi: pemasok grup yang induknya di Singapura" (Pratama, shock number, 19:00) · folder `videos/2026-10-21-karhutla-lutfi-singapura` · links: see video-log after posting.
+- **21 Oct 2026** "10 perusahaan RI disurati Singapura soal asap, Lutfi: pemasok grup yang induknya di Singapura" (Pratama, shock number, 19:00) · folder `videos/2026-10-21-karhutla-lutfi-singapura` · IG https://www.instagram.com/reel/DewQNdcEvnM/ · YT https://www.youtube.com/watch?v=QmaiHm5TzJA
 
 ## Open / next milestones
 - Any reply from Singapore to Lutfi, or from the 10 NEA firms / Bumitama.
