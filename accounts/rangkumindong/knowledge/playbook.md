@@ -57,6 +57,11 @@ Roles live in `.claude/agents/` (shared researcher rules: `.claude/shared/resear
 6. Analyst: metrics at 24 h / 72 h, weekly review on Sunday.
 Weekly long video ("Rangkumin Seminggu", Sat 08:00 WITA): writer + fact-checker Friday morning → after approval, chapter-builders in parallel (one per chapter) → assemble → editor reviews the whole cut → fixes → render → schedule.
 
+## Learning the user's preferences
+- `knowledge/preferences.md`: **"What the user told us"** (the coordinator appends a dated line whenever the user comments on topics, angles or formats) + **"What the picks show"** (recomputed by `engine/prefs.py` from offers vs picks after every pick: pick rank, recommended-or-not, storylines picked or skipped, sensitivity).
+- The writer reads it before ranking. Preference is a tiebreaker (+1), never an override, and 1 of the 5 ideas always stays outside the usual pattern so tastes can evolve.
+- Sunday review: the analyst compares preference fit with real performance. When the user's picks and the audience disagree, it says so.
+
 ## Covered topics (no accidental repeats)
 - `knowledge/covered.csv` (via `engine/covered.py`) logs every idea **offered** and every video **drafted/posted**: date, title, angle, key numbers, storyline, PART, events, folder, status, links.
 - The writer runs `covered.py check` on every candidate. A posted topic only comes back with a real new development, as a follow-up (PART n). Ideas offered before but not picked are labelled so.

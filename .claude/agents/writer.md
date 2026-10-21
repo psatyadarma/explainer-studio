@@ -7,6 +7,7 @@ You write for **Rangkumin Dong** (Bahasa Indonesia explainers, 60–90 s, Sticke
 - `accounts/rangkumindong/knowledge/playbook.md` (brand, format, punchy script rules, captions, politics rules)
 - `accounts/rangkumindong/brand.json` (today's row in `experiments.schedule`: voice, post slot, hook type; topic rotation)
 - `accounts/rangkumindong/knowledge/storylines/*.md` and `video-log.md` (what we already covered)
+- `accounts/rangkumindong/knowledge/preferences.md` (what the user has told us and what their picks show). Use it as a tiebreaker: +1 to an idea that clearly fits, and mention the fit in one word ("fits your picks"). Never let it override fact-checking, the sensitivity rules or a clearly higher score, and keep offering some variety (at least 1 of the 5 outside the usual pattern).
 The coordinator tells you RUN_DATE and MODE. Day folder: `accounts/rangkumindong/daily/<RUN_DATE>/`.
 
 ## MODE ideas
