@@ -1,35 +1,44 @@
 VERDICT: PASS
 
-QA round 2 of out/video.mp4 (re-rendered 20 Oct 23:37), karhutla / Lutfi / Singapura. Both round-1 fixes are confirmed. Both optional items are done.
-
-## Round-1 fixes
-- Fix 1, true peak: FIXED. Now -1.5 dBTP (limit is -1.0); it was -0.6 dBTP.
-- Fix 2, Grace Fu credit gap: FIXED. Frames 25.0–25.9 s at 10 fps: the credit stays on screen through about 25.7 s. The "Kata Singapura" avatar has gone by then and the timeline pan has taken over. There is no frame where the avatar shows without its credit. index.html line 615 now reads `t < at('l4', 0.3)`.
-- Optional "=10": DONE. It pops at about 29.9 s, on "Jadi", and stays readable until the l5 pan at about 31.3 s (about 1.4 s, up from 0.8 s). It sits inside the safe area at x ≈ 700–890.
-- Optional end-card credit wrap: DONE. It now wraps cleanly into 3 lines: "Foto: Kementerian Perdagangan RI (domain publik);" / "Lukasz Kobus / European Union, CC BY 4.0 (dipotong & diedit)," / "via Wikimedia Commons".
+QA round 3 of out/video.mp4 (re-rendered 21 Oct 03:53), karhutla / Lutfi / Singapura. Since the round-2 PASS the only change is a re-voiced l1 (BNPB spelled out letter by letter, 1.15x). It was spliced in at +1.076 s, so everything after it moved by the same amount, SFX included. This round checks the splice and the shift. The rest of the video was confirmed in round 2.
 
 ## Checks
-1. Subtitle sync: PASS. Ran `qa_sync.py --lead 0.02` on the cached transcript. The lead matches `window.SUB_LEAD = 0.02` in index.html, the voice.wav SHA-256 matches build/stt.json, and no credits were used. Result: "PASS: median -39 ms (positive = highlight late), 94% of 200 matched words in [-200, +100] ms, 2% >150 ms late; worst lines: l1b -103 ms, l5b -91 ms, l12b -88 ms, h1 -74 ms, l1 -72 ms". Round 1 reported -99 ms because it used the default lead of 0.08. The voice track is the same.
-2. Visuals: PASS. Checked the contact sheet (`qa-sheet.png`), 34 full-size stills at line starts, and frame strips at 7.8–11.2, 25.0–25.9, 29.7–31.5, 35.4–38.8, 79.8–83.2 and 85.6–88.8 s.
-   - Settled frames have no overlapping or cut-off text.
-   - The longest near-empty frames are about 0.3–0.4 s (around 9.6, 36.0 and 38.3 s), well under the 2 s limit.
-   - No visual is held over 4 s.
-   - Safezone (`qa-safezone.png`, the 34 line-start stills): nothing important sits in the shaded zones once a frame settles. Partial elements at the frame edge appear only mid-pan, during zone camera moves.
-   - Cover: "10 perusahaan Indonesia" plus "disurati Singapura soal asap" is readable at thumbnail size.
-   - Brief cross-dissolve ghosts appear at 16.1–16.5 s (7.118 into the Bromo card) and at about 86.2–86.5 s (CTA into the end card). Both are acceptable.
-3. Numbers: PASS. On screen: 10, 7.118, "BNPB · per 16 Okt", 6 provinsi, 4 orang, 16 Okt / 7 perusahaan, 19 Okt / +3, =10, 4 dari 7, 19 Okt, 10 perusahaan, 98. All of them are spoken and match draft.md and post.json. The new labels "Sumatra", "Kalimantan" and "disurati NEA · belum ada putusan" follow the draft's visual spec and contain no numbers.
-4. Audio: PASS. Integrated -15.2 LUFS (inside -14 ±1.5), true peak -1.5 dBTP (limit -1.0), LRA 3.5 LU.
-5. Format: PASS. 1080×1920, 30 fps, 88.80 s (inside 60–90 s). Video 88.800 s vs audio 88.789 s, a 0.011 s difference.
-6. Must-haves: PASS.
-   - Licences: accounts/rangkumindong/assets/people/muhammad-lutfi.json is public domain; grace-fu.json is CC BY 4.0.
-   - On-screen credits: they show while each photo is visible, during the hook face-off, the Grace Fu avatar (until about 25.7 s) and the Lutfi Instagram scene (about 36.1–38.2 s).
-   - End card: it has the handle, the sources, both credits and "Semua pihak yang disebut belum diputus bersalah".
-   - Post captions: they carry the credits.
-   - Tagline: it appears at the rd beat and on the end card.
-   - Not needed: a market disclaimer (not a stock topic) and a PART badge (new storyline).
+1. Subtitle sync: PASS.
+   - Ran `qa_sync.py --lead 0.02`, which matches `window.SUB_LEAD`. The voice.wav SHA-256 matches build/stt.json, which is the shifted old transcript plus a fresh transcript of l1. No new credits were used.
+   - Result: "PASS: median -39 ms, 95% of 202 matched words in [-200, +100] ms, 1% >150 ms late; worst lines: l1b -133 ms, l1 -99 ms, l5b -91 ms, l12b -88 ms, h1 -74 ms".
+   - l1 detail: the only outlier is "7.118" at -359 ms. A waveform/spectral check shows that "tujuh" actually starts at about 13.82 s. The transcript's 14.04 s is late, so the real highlight lead is about 0.14 s early. That is fine.
+   - BNPB: the highlight starts at 11.48 s. Speech-to-text puts the word at 11.50–13.16 s.
+   - catat: highlight at 13.27 s, speech at about 13.38 s.
+   - Every highlight is either on the word or slightly early, which reads as in sync.
+2. BNPB clarity: PASS.
+   - Speech-to-text on the fresh clip transcribes it as "BNPB".
+   - The waveform shows four separate syllables, "be / en / pe / be" (about 11.5, 11.92, 12.46 and 12.92 s), with silences of about 0.2 s between the last three.
+   - The subtitle reads "BNPB · per 16 Okt", spelled correctly.
+3. Visuals after the shift: PASS. I checked a new contact sheet (qa-sheet.png) and frame strips at 10.6–16.3, 26.0–32.2, 35.3–38.6, 63.5–70.6 and 82.5–89.6 s. Every beat still lands on its word:
+   - The "BNPB · per 16 Okt" tag lands on "16".
+   - The 7.118 counter runs about 13.6–14.7 s, as "tujuh ribu…" is spoken.
+   - The fire icons and the "di 6 provinsi" tag land on l1b.
+   - The "Kata Singapura" avatar keeps its credit visible at 26.0 s.
+   - The l4 timeline (16 Okt → 7, 19 Okt → +3) lands on its words, and "=10" is on screen by 31.15 s with the spoken "10" at 31.3 s.
+   - The "BELUM ADA PUTUSAN" stamp lands on "Belum" (35.5 s).
+   - The Lutfi / Instagram scene runs about 37.2–38.6 s.
+   - The "?" with "tanggapan belum ditemukan" shows on l12b.
+   - The 98 counter lands on "98" (68 s).
+   - The CTA options appear in order with "Komen!".
+   - Nothing is overlapping, cut off or empty for long.
+4. SFX: PASS. The three absolute cues moved by +1.076 s, and the relative cues follow their lines:
+   - The pop at 31.25 s lands on "10." (31.30 s).
+   - The thump at 35.449 s lands on "Belum" (35.50 s).
+   - The pop at 67.866 s lands on "98" (67.97 s).
+   - The whoosh at 2.182 s comes before the splice, so it did not move.
+5. Numbers: PASS. The l1 text is the same as before: 16 Okt, BNPB, 7.118, 6 provinsi, all matching draft.md. No other text changed.
+6. Audio: PASS. Integrated -15.2 LUFS (inside -14 ±1.5), true peak -1.6 dBTP (limit -1.0), LRA 3.6 LU.
+7. Format: PASS. 1080×1920, 30 fps, video 89.667 s and audio 89.687 s (0.02 s apart). The length is 89.69 s, which is under 90 s but only 0.31 s inside the limit. The cover frame is unchanged.
+8. End card: PASS. It is fully on screen from about 87.6 s to 89.69 s, with the logo, the tagline "Berita ribet? Rangkumin dong.", @rangkumindong, the sources, both photo credits and "Semua pihak yang disebut belum diputus bersalah". The end ding is on the "end" line.
 
 ## Fixes
 None.
 
 ## Optional (not counted)
-- The end-card voice line ("Follow Rangkumin Dong, biar nggak ketinggalan!", 86.4–88.1 s) has no subtitle, because the end card replaces the subtitle area. This is fine if that is the house style; it was the same in round 1.
+- The first "be" of BNPB runs straight on from "Oktober" (no gap at about 11.2–11.7 s), while the other three letters have clear pauses. It is still understandable, and speech-to-text heard "BNPB", but its confidence was lower than for other words (logprob -0.63). A short pause after "Oktober," would make it crisper. Re-voicing l1 would cost credits, and any added time must keep the total ≤ 90 s, which leaves only about 0.3 s.
+- At about 87.3–87.6 s, the dissolve from the CTA into the end card briefly ghosts the "Follow Rangkumin Dong" subtitle. This is the same dissolve as in round 2, just shifted, and is acceptable.

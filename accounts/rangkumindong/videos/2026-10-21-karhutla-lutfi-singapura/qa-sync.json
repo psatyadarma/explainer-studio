@@ -1,15 +1,19 @@
 {
  "verdict": "PASS",
  "lead": 0.02,
- "matched_words": 200,
+ "matched_words": 202,
  "of_words": 215,
  "median_offset_s": -0.039,
- "share_in_window": 0.94,
- "share_late_over_150ms": 0.02,
+ "share_in_window": 0.946,
+ "share_late_over_150ms": 0.015,
  "worst_lines": [
   {
    "line": "l1b",
-   "median_offset_s": -0.103
+   "median_offset_s": -0.133
+  },
+  {
+   "line": "l1",
+   "median_offset_s": -0.099
   },
   {
    "line": "l5b",
@@ -22,10 +26,6 @@
   {
    "line": "h1",
    "median_offset_s": -0.074
-  },
-  {
-   "line": "l1",
-   "median_offset_s": -0.072
   }
  ],
  "pairs": [
@@ -132,52 +132,62 @@
   {
    "line": "l1",
    "word": "Jadi",
-   "offset": 0.027
+   "offset": -0.07
   },
   {
    "line": "l1",
    "word": "gini.",
-   "offset": -0.037
+   "offset": -0.091
   },
   {
    "line": "l1",
    "word": "Per",
-   "offset": -0.129
+   "offset": -0.126
   },
   {
    "line": "l1",
    "word": "16",
-   "offset": -0.099
+   "offset": -0.171
   },
   {
    "line": "l1",
    "word": "Oktober,",
-   "offset": 0.174
+   "offset": 0.049
+  },
+  {
+   "line": "l1",
+   "word": "BNPB",
+   "offset": -0.019
+  },
+  {
+   "line": "l1",
+   "word": "catat",
+   "offset": -0.147
   },
   {
    "line": "l1",
    "word": "7.118",
-   "offset": -0.268
+   "offset": -0.359
   },
   {
    "line": "l1",
    "word": "titik",
-   "offset": -0.133
+   "offset": -0.087
   },
   {
    "line": "l1",
    "word": "panas",
-   "offset": -0.045
+   "offset": -0.107
   },
   {
    "line": "l1b",
    "word": "di",
-   "offset": -0.131
+   "offset": -0.153
   },
   {
    "line": "l1b",
    "word": "provinsi.",
-   "offset": -0.074
+   "offset": -0.113
   },
   {
    "line": "l2",
