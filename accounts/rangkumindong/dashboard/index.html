@@ -105,7 +105,7 @@
         <p class="rd-note">Next 7 days: voice, post time (WITA) and hook type.</p>
         <div class="rd-tablebox">
           <table id="arms-table" data-source="experiments" data-row-key="date">
-            <thead><tr><th data-field="date">Date</th><th data-field="voice">Voice</th><th data-field="slot">Slot</th><th data-field="hook">Hook</th></tr></thead>
+            <thead><tr><th data-field="date">Date</th><th data-field="voice">Voice</th><th data-field="slot">Slot</th><th data-field="hook">Hook</th><th data-field="format">Format</th></tr></thead>
             <tbody></tbody>
           </table>
         </div>
@@ -157,7 +157,7 @@
       <p class="rd-note">Every drafted or posted video, its A/B arm and the subtitle-sync check (negative = highlight slightly early, which is intended).</p>
       <div class="rd-tablebox">
         <table id="videos-table" data-source="videos" data-row-key="folder">
-          <thead><tr><th data-field="date">Date</th><th data-field="title">Video</th><th data-field="status">Status</th><th data-field="voice">Voice</th><th data-field="slot" class="hide-sm">Slot</th><th data-field="hook" class="hide-sm">Hook</th><th class="num hide-sm" data-field="length_s">Length (s)</th><th data-field="qa_sync">Sync</th><th class="num hide-sm" data-field="sync_median_ms">Offset (ms)</th></tr></thead>
+          <thead><tr><th data-field="date">Date</th><th data-field="title">Video</th><th data-field="status">Status</th><th data-field="voice">Voice</th><th data-field="slot" class="hide-sm">Slot</th><th data-field="hook" class="hide-sm">Hook</th><th data-field="format">Format</th><th class="num hide-sm" data-field="length_s">Length (s)</th><th data-field="qa_sync">Sync</th><th class="num hide-sm" data-field="sync_median_ms">Offset (ms)</th></tr></thead>
           <tbody></tbody>
         </table>
       </div>
@@ -230,7 +230,7 @@ dash.calc('arms', {
     metrics.filter((m) => Number(m.hours) === 24 && m.avg_watch_pct != null).forEach((m) => {
       const v = byFolder[m.folder];
       if (!v) return;
-      [['voice', v.voice], ['slot', v.slot], ['hook', v.hook]].forEach(([variable, value]) => {
+      [['voice', v.voice], ['slot', v.slot], ['hook', v.hook], ['format', v.format]].forEach(([variable, value]) => {
         const k = variable + '|' + value;
         acc[k] = acc[k] || { variable, value, sum: 0, n: 0, vids: {} };
         acc[k].sum += Number(m.avg_watch_pct); acc[k].n += 1; acc[k].vids[m.folder] = 1;
@@ -298,7 +298,7 @@ dash.calc('arms', {
       const today = d3.utcFormat('%Y-%m-%d')(new Date(Date.now() + 8 * 3600e3));
       ex.data.filter((r) => r.date >= today).slice(0, 7).forEach((r) => {
         const tr = document.createElement('tr');
-        td(tr, r.date); td(tr, r.voice); td(tr, r.slot); td(tr, r.hook);
+        td(tr, r.date); td(tr, r.voice); td(tr, r.slot); td(tr, r.hook); td(tr, r.format);
         at.appendChild(tr);
       });
     }
@@ -387,7 +387,7 @@ dash.calc('arms', {
       td(tr, r.date);
       const c = td(tr, '', 'wrap'); c.textContent = r.title;
       pill(tr, r.status, r.status === 'posted' ? 'ok' : '');
-      td(tr, r.voice); td(tr, r.slot, 'hide-sm'); td(tr, r.hook, 'hide-sm'); td(tr, r.length_s, 'num hide-sm');
+      td(tr, r.voice); td(tr, r.slot, 'hide-sm'); td(tr, r.hook, 'hide-sm'); td(tr, r.format); td(tr, r.length_s, 'num hide-sm');
       pill(tr, r.qa_sync || 'not run', r.qa_sync === 'PASS' ? 'ok' : r.qa_sync === 'FIX' ? 'bad' : '');
       td(tr, r.sync_median_ms == null ? '' : d3.format('+')(r.sync_median_ms), 'num hide-sm');
       tb.appendChild(tr);
@@ -408,7 +408,7 @@ dash.calc('arms', {
     rows.forEach((r, i) => {
       const yy = i * rh + 4;
       svg.append('text').attr('x', 0).attr('y', yy + 13).attr('fill', 'var(--color-fg-muted)').style('font-size', 'var(--cds-font-size-caption)').text(`${r.variable}: ${r.value} (${r.videos})`);
-      svg.append('rect').attr('x', lw).attr('y', yy + 2).attr('height', 16).attr('width', Math.max(0, x(r.avg_watch_pct) - lw)).attr('rx', 4).attr('fill', dash.colors[['voice', 'slot', 'hook'].indexOf(r.variable)]);
+      svg.append('rect').attr('x', lw).attr('y', yy + 2).attr('height', 16).attr('width', Math.max(0, x(r.avg_watch_pct) - lw)).attr('rx', 4).attr('fill', dash.colors[['voice', 'slot', 'hook', 'format'].indexOf(r.variable)]);
       svg.append('text').attr('x', x(r.avg_watch_pct) + 6).attr('y', yy + 14).attr('fill', 'var(--color-fg)').style('font-size', 'var(--cds-font-size-caption)').text(d3.format('.1f')(r.avg_watch_pct) + '%');
     });
   }

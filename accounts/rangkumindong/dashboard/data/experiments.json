@@ -4,6 +4,7 @@
 "voice": "Pratama",
 "slot": "19:00",
 "hook": "question",
+"format": "standard",
 "cycle": 1
 },
 {
@@ -11,6 +12,7 @@
 "voice": "Cahaya",
 "slot": "12:30",
 "hook": "shock number",
+"format": "standard",
 "cycle": 1
 },
 {
@@ -18,6 +20,7 @@
 "voice": "Pratama",
 "slot": "12:30",
 "hook": "shock number",
+"format": "standard",
 "cycle": 1
 },
 {
@@ -25,6 +28,7 @@
 "voice": "Cahaya",
 "slot": "19:00",
 "hook": "question",
+"format": "standard",
 "cycle": 1
 },
 {
@@ -32,6 +36,7 @@
 "voice": "Pratama",
 "slot": "19:00",
 "hook": "shock number",
+"format": "person hook",
 "cycle": 1
 },
 {
@@ -39,6 +44,7 @@
 "voice": "Cahaya",
 "slot": "12:30",
 "hook": "question",
+"format": "chapter cut",
 "cycle": 1
 },
 {
@@ -46,6 +52,7 @@
 "voice": "Pratama",
 "slot": "12:30",
 "hook": "question",
+"format": "minggu depan",
 "cycle": 1
 },
 {
@@ -53,6 +60,7 @@
 "voice": "Cahaya",
 "slot": "19:00",
 "hook": "shock number",
+"format": "short",
 "cycle": 1
 },
 {
@@ -60,53 +68,173 @@
 "voice": "Cahaya",
 "slot": "19:00",
 "hook": "question",
-"cycle": 2
+"format": "standard",
+"cycle": 1
 },
 {
 "date": "2026-10-28",
 "voice": "Pratama",
 "slot": "12:30",
 "hook": "shock number",
-"cycle": 2
+"format": "person hook",
+"cycle": 1
 },
 {
 "date": "2026-10-29",
 "voice": "Cahaya",
 "slot": "12:30",
 "hook": "shock number",
-"cycle": 2
+"format": "short",
+"cycle": 1
 },
 {
 "date": "2026-10-30",
 "voice": "Pratama",
 "slot": "19:00",
 "hook": "question",
-"cycle": 2
+"format": "standard",
+"cycle": 1
 },
 {
 "date": "2026-10-31",
 "voice": "Cahaya",
 "slot": "19:00",
 "hook": "shock number",
-"cycle": 2
+"format": "chapter cut",
+"cycle": 1
 },
 {
 "date": "2026-11-01",
 "voice": "Pratama",
 "slot": "12:30",
 "hook": "question",
-"cycle": 2
+"format": "minggu depan",
+"cycle": 1
 },
 {
 "date": "2026-11-02",
 "voice": "Cahaya",
 "slot": "12:30",
 "hook": "question",
-"cycle": 2
+"format": "person hook",
+"cycle": 1
 },
 {
 "date": "2026-11-03",
 "voice": "Pratama",
+"slot": "19:00",
+"hook": "shock number",
+"format": "short",
+"cycle": 1
+},
+{
+"date": "2026-11-04",
+"voice": "Cahaya",
+"slot": "19:00",
+"hook": "question",
+"cycle": 2
+},
+{
+"date": "2026-11-05",
+"voice": "Pratama",
+"slot": "12:30",
+"hook": "shock number",
+"cycle": 2
+},
+{
+"date": "2026-11-06",
+"voice": "Cahaya",
+"slot": "12:30",
+"hook": "shock number",
+"cycle": 2
+},
+{
+"date": "2026-11-07",
+"voice": "Pratama",
+"slot": "19:00",
+"hook": "question",
+"cycle": 2
+},
+{
+"date": "2026-11-08",
+"voice": "Cahaya",
+"slot": "19:00",
+"hook": "shock number",
+"cycle": 2
+},
+{
+"date": "2026-11-09",
+"voice": "Pratama",
+"slot": "12:30",
+"hook": "question",
+"cycle": 2
+},
+{
+"date": "2026-11-10",
+"voice": "Cahaya",
+"slot": "12:30",
+"hook": "question",
+"cycle": 2
+},
+{
+"date": "2026-11-11",
+"voice": "Pratama",
+"slot": "19:00",
+"hook": "shock number",
+"cycle": 2
+},
+{
+"date": "2026-11-12",
+"voice": "Pratama",
+"slot": "19:00",
+"hook": "question",
+"cycle": 2
+},
+{
+"date": "2026-11-13",
+"voice": "Cahaya",
+"slot": "12:30",
+"hook": "shock number",
+"cycle": 2
+},
+{
+"date": "2026-11-14",
+"voice": "Pratama",
+"slot": "12:30",
+"hook": "shock number",
+"cycle": 2
+},
+{
+"date": "2026-11-15",
+"voice": "Cahaya",
+"slot": "19:00",
+"hook": "question",
+"cycle": 2
+},
+{
+"date": "2026-11-16",
+"voice": "Pratama",
+"slot": "19:00",
+"hook": "shock number",
+"cycle": 2
+},
+{
+"date": "2026-11-17",
+"voice": "Cahaya",
+"slot": "12:30",
+"hook": "question",
+"cycle": 2
+},
+{
+"date": "2026-11-18",
+"voice": "Pratama",
+"slot": "12:30",
+"hook": "question",
+"cycle": 2
+},
+{
+"date": "2026-11-19",
+"voice": "Cahaya",
 "slot": "19:00",
 "hook": "shock number",
 "cycle": 2

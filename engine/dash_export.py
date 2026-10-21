@@ -108,10 +108,14 @@ def videos(acct, k):
         if folder and (folder / "build/timing.json").exists():
             dur = json.loads((folder / "build/timing.json").read_text()).get("duration")
         arm = sched.get(r["date"], {})
+        fmt = ""
+        if folder and (folder / "script.json").exists():
+            fmt = json.loads((folder / "script.json").read_text()).get("format", "")
+        fmt = fmt or arm.get("format", "standard")
         links = p.get("links") or {}
         rows.append({"date": r["date"], "title": r["title"], "storyline": r["storyline"], "part": r["part"],
                      "status": r["status"], "voice": arm.get("voice", "").split(":")[-1], "slot": arm.get("slot", ""),
-                     "hook": arm.get("hook", "").replace("_", " "), "length_s": round(dur, 1) if dur else None,
+                     "hook": arm.get("hook", "").replace("_", " "), "format": fmt.replace("_", " "), "length_s": round(dur, 1) if dur else None,
                      "qa_sync": q.get("verdict"), "sync_median_ms": round(q["median_offset_s"] * 1000) if q else None,
                      "instagram": links.get("instagram", ""), "youtube": links.get("youtube", ""),
                      "folder": r["folder"]})
@@ -153,7 +157,7 @@ def main():
     runs, days = runs_and_days(acct)
     sched = json.loads((acct / "brand.json").read_text()).get("experiments", {}).get("schedule", [])
     exp = [{"date": r["date"], "voice": r["voice"].split(":")[-1], "slot": r["slot"], "hook": r["hook"].replace("_", " "),
-            "cycle": 1} for r in sched]
+            "format": r.get("format", "standard").replace("_", " "), "cycle": 1} for r in sched]
     # the rotation repeats with voices swapped (playbook → Experiments); show the next cycle too
     if sched:
         names = {"Pratama": "Cahaya", "Cahaya": "Pratama"}
