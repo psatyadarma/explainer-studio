@@ -1,0 +1,61 @@
+{
+ "name": "Ajarin Dong!",
+ "handles": {
+  "instagram": "@ajarindong.id",
+  "tiktok": "@ajarindong.id",
+  "youtube": "@ajarindong.id"
+ },
+ "tagline": "Bingung? Ajarin dong!",
+ "sibling": "rangkumindong",
+ "language": "id",
+ "style": "sticker (shared kit), accent blue",
+ "colors": {
+  "paper": "#F3EFE6",
+  "ink": "#1B2430",
+  "slate": "#3E5568",
+  "accent": "#2F5BEA",
+  "highlight": "#FFD23F"
+ },
+ "length_seconds": [
+  60,
+  90
+ ],
+ "format": "evergreen concept explainer: question hook -> one everyday analogy -> 3 simple steps -> 'kenapa ini muncul di berita' (link to the Rangkumin video) -> CTA follow both",
+ "voices": {
+  "male": {
+   "name": "Pratama",
+   "voice_id": "q8qwd1jY2jS3AWOBeq25",
+   "model": "eleven_v3",
+   "tagline": "assets/voice/tagline-pratama-a.mp3",
+   "settings": {
+    "stability": 0.0,
+    "similarity_boost": 0.8
+   }
+  },
+  "female": {
+   "name": "Cahaya",
+   "voice_id": "iWydkXKoiVtvdn4vLKp9",
+   "model": "eleven_v3",
+   "tagline": "assets/voice/tagline-cahaya-a.mp3",
+   "note": "soft R; consider alternative if needed"
+  }
+ },
+ "upload_post_user": "Ajarindong",
+ "posting": {
+  "platforms": [
+   "instagram",
+   "youtube"
+  ],
+  "days": [
+   "mon",
+   "wed",
+   "fri"
+  ],
+  "slot": "19:00",
+  "tiktok": "posted manually by the user during warm-up (from 21 Oct); connect to Upload-Post after ~5 days, then add 'tiktok'"
+ },
+ "cadence_note": "3 per week to start; ideas come in a weekly batch every Monday",
+ "experiments": {
+  "note": "start without A/B; voice alternates Cahaya/Pratama per video; revisit after 6 videos"
+ }
+}
