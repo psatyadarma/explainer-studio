@@ -8,12 +8,14 @@ _One dated line per piece of feedback about topics or angles. The coordinator ap
 - 2026-10-20: Business news belongs with markets/economy; Wednesday is for general viral news people are talking about.
 - 2026-10-20: Likes the virality rubric and wants it to keep learning from results.
 - 2026-10-20: Wants attention-grabbing hooks, e.g. real-person cut-outs like 90secondslab.
+- 2026-10-22: Picked #2 (definisi korupsi, politics/law, sensitivity high) over the recommended #1 (beras fortifikasi 11/12) on politics Thursday. Asked to allow web fetches so the sweeps stop failing.
 
 ## What the picks show
 
-_Recomputed by engine/prefs.py from 4 days of offers, 2 picks._
+_Recomputed by engine/prefs.py from 4 days of offers, 3 picks._
 
 - 2026-10-20: picked #3  "Rupiah Rp18.046: besok BI putuskan, tahan 5,75% atau naik ke 6%?", storyline rupiah
 - 2026-10-21: picked #?  "Karhutla: siapa yang tanggung jawab atas asap? (Lutfi vs Singapura)", storyline karhutla
+- 2026-10-22: picked #?  "Definisi korupsi mau diubah: kerugian negara dihapus?", storyline definisi-korupsi
 
-- Not enough picks yet for patterns (2/5). Rely on the explicit notes above.
+- Not enough picks yet for patterns (3/5). Rely on the explicit notes above.
