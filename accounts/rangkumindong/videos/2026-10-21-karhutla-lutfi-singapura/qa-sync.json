@@ -1,10 +1,10 @@
 {
  "verdict": "PASS",
  "lead": 0.02,
- "matched_words": 202,
+ "matched_words": 201,
  "of_words": 215,
  "median_offset_s": -0.039,
- "share_in_window": 0.946,
+ "share_in_window": 0.945,
  "share_late_over_150ms": 0.015,
  "worst_lines": [
   {
@@ -13,7 +13,7 @@
   },
   {
    "line": "l1",
-   "median_offset_s": -0.099
+   "median_offset_s": -0.107
   },
   {
    "line": "l5b",
@@ -142,27 +142,22 @@
   {
    "line": "l1",
    "word": "Per",
-   "offset": -0.126
+   "offset": -0.109
   },
   {
    "line": "l1",
    "word": "16",
-   "offset": -0.171
+   "offset": -0.174
   },
   {
    "line": "l1",
    "word": "Oktober,",
-   "offset": 0.049
-  },
-  {
-   "line": "l1",
-   "word": "BNPB",
-   "offset": -0.019
+   "offset": 0.046
   },
   {
    "line": "l1",
    "word": "catat",
-   "offset": -0.147
+   "offset": -0.13
   },
   {
    "line": "l1",
@@ -707,7 +702,7 @@
   {
    "line": "l11c",
    "word": "merembet",
-   "offset": 0.0
+   "offset": -0.0
   },
   {
    "line": "l11c",

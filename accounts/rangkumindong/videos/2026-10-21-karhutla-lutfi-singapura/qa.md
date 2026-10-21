@@ -1,48 +1,58 @@
 VERDICT: PASS
 
-QA round 4 of out/video.mp4 (re-rendered 21 Oct 04:27), karhutla / Lutfi / Singapura. Since the round-3 PASS, the only change is that three silent gaps inside "Be En Pe Be" in l1 were shortened (−0.409 s in total, crossfaded), and everything after them moved back by that amount. This round checks the cuts and the shift. The rest of the video was confirmed in rounds 2 and 3.
+QA round 5 of out/video.mp4 (re-rendered 21 Oct 04:44), karhutla / Lutfi / Singapura. Since the round-4 PASS, the only change is in l1 audio. A room-tone pause was inserted before "Be", and "Be En Pe Be" was sped up 1.3x with pitch preserved. Everything after moved earlier. This round checks the edit, the shift, and the length mismatch. The rest of the video was confirmed in rounds 2–4.
 
 ## Checks
 1. Subtitle sync: PASS.
-   - Ran `qa_sync.py --lead 0.02`, which matches `window.SUB_LEAD`. build/stt.json's sha256 matches the current voice.wav (e938929a…). It is the round-3 transcript shifted by −0.409 s after the cuts. "speech-to-text: cached (no credits used)".
-   - Result: "PASS: median -39 ms, 95% of 202 matched words in [-200, +100] ms, 1% >150 ms late; worst lines: l1b -133 ms, l1 -99 ms, l5b -91 ms, l12b -88 ms, h1 -74 ms".
-   - I checked the shift on the audio itself. Cross-correlating the new voice.wav against build/pre-tighten/voice.wav gives a shift of 0 before 11.7 s (corr 1.00). From 14 s to the end it gives exactly 0.409 s at every probe (14, 20, 40, 70 and 85 s; corr 0.93–0.995). So the shifted transcript is valid.
-2. Cuts (~11.7–12.5 s): PASS, with no clicks or artifacts.
-   - The cuts sit in the gaps at 11.71–11.78, 12.12–12.19 and 12.45–12.51 s. The old gaps were about 0.20 s each. They are now 0.06–0.07 s.
-   - A 2 ms peak trace across each gap shows a smooth fade to the usual noise floor (about −60 to −65 dBFS) and back. There are no spikes.
-   - High-pass energy in the gaps is not above the old ones: −33, −37 and −48.5 dB, against −34.8, −35 and −48.4 dB before.
-   - In the voice track, the highest HF bursts between 10.9 and 13.4 s are consonants: "Oktober" at 11.35 s, the plosive of the last "be" at 12.57 s, and the "c" of "catat" at 13.0 s. None of them is at a cut.
-   - The mix shows the same, plus an SFX transient at 11.40 s that comes before the first cut and is unchanged.
-3. BNPB clarity: PASS.
-   - There are still four separate letter bursts: be 11.48–11.70, en 11.78–12.10, pe 12.19–12.44 and be 12.50–12.76 s. Each is followed by a real silence (below −55 dBFS), and the pace is now a natural spelled-out rhythm.
-   - The 0.2 s pause before "catat" (12.78–12.97 s) was kept.
-   - Speech-to-text was not re-run on the new audio, to save credits. The letter syllables are unchanged; only the silence between them is shorter.
-4. Subtitle highlight for BNPB: PASS.
-   - In timing, BNPB runs 11.498–12.881 s, and the spoken word runs 11.48–12.78 s. The highlight is on the word for its whole length (strip frames at 11.3, 11.8, 12.3 and 12.4 s).
-   - The "catat" highlight starts at 12.88 s (frame 12.9 s), and the word is spoken at 12.98 s, about 0.1 s early. That is fine.
-   - The "7.118" highlight starts at 13.29 s, and "tujuh" is spoken at about 13.41 s.
-5. Visuals and beats after the shift: PASS. I checked a new contact sheet (qa-sheet.png) and frame strips at 10.8–15.4, 29.6–32.1, 34.6–37.1, 36.4–38.4, 66.6–69.1 and 86.6–88.6 s.
-   - The "BNPB · per 16 Okt" tag is in place.
-   - The 7.118 counter starts at about 13.2 s and reaches 7.118 by about 14.1 s, while "tujuh ribu…" is spoken.
-   - The l4 timeline shows +3 on "3." and "=10" by 30.6 s.
-   - The "BELUM ADA PUTUSAN" stamp is on "Belum" (35.1 s).
-   - The Lutfi photo with its credit, followed by the Instagram phone, runs 36.8–38.4 s.
-   - The 98 counter is on "98" (67.6 s).
-   - The CTA ends with "Komen!".
-   - The end card is fully on screen from about 87.4 s, with the logo, tagline, @rangkumindong, sources, photo credits and "Semua pihak yang disebut belum diputus bersalah".
-   - Nothing is overlapping, cut off or empty for long.
-6. SFX: PASS. I measured the onsets in build/mix.wav after removing the voice:
-   - The pop at 30.83 s lands on "10." (about 30.89 s).
-   - The thump at 35.03 s lands on "Belum" (about 35.09 s).
-   - The pop at 67.45 s lands on "98" (about 67.56 s).
-   - All three absolute cues in sfx.json moved by exactly −0.409 s. The whoosh at 2.182 s comes before the cuts, so it did not move. The relative cues follow the timing lines.
-7. Numbers: PASS. The text is unchanged (16 Okt, BNPB, 7.118, 6 provinsi, 7 + 3 = 10, 98) and matches draft.md.
-8. Audio: PASS. Integrated −15.2 LUFS (inside −14 ±1.5), true peak −1.7 dBTP (limit −1.0), LRA 3.8 LU.
-9. Format: PASS. 1080×1920, 30 fps, video 89.267 s and audio 89.258 s (0.009 s apart). The length is 89.27 s, which now leaves 0.73 s under the 90 s limit. The cover frame is unchanged.
+   - Ran `qa_sync.py --lead 0.02`, which matches `window.SUB_LEAD`. build/stt.json's sha256 matches the current voice.wav (54dc419f…). It is a composite: the cached words were shifted, and only 10.4–13.4 s was re-transcribed. The tool reported "speech-to-text: cached (no credits used)".
+   - Result: "PASS: median -39 ms, 95% of 201 matched words in [-200, +100] ms, 1% >150 ms late; worst lines: l1b -133 ms, l1 -107 ms, l5b -91 ms, l12b -88 ms, h1 -74 ms".
+2. Shift: PASS.
+   - I cross-correlated voice.wav against build/pre-gap/voice.wav. The shift is 0 up to about 11.4 s (corr 0.99–1.00). From 13 s to 88 s it is −0.1173 s at every probe (corr 1.00).
+   - timing.json and the absolute sfx.json cues moved by −0.111 s. That is 6 ms less than the audio moved, which is negligible.
+   - The voice length dropped from 89.278 s to 89.161 s.
+3. Edit artifacts (11.4–12.7 s): PASS. There are no clicks and no processed sound.
+   - **Splice in (11.474 s):** this is where "Oktober" ends. There is a fade of about 12 ms (−26 → −33 → −55 dBFS 2 ms peaks), with no step. In the old take, "Oktober" ran straight into "be", so the cut sits on the word boundary.
+   - **Pause:** 11.48–11.66 s (about 0.19 s), at −54 to −60 dBFS peaks. The room tone is a looped snippet of about 58 ms taken from the post-BNPB pause. It is about 2–3 dB hotter than the other pauses (mostly below 300 Hz).
+   - **Pause in the final mix:** the music bed under the pause is about −31 dB RMS, so the loop and the level step can't be heard.
+   - **Splice out (11.664 s):** "be" starts cleanly with its voicing bar.
+   - **Second-difference click scan (10.9–13.3 s):** the largest value is 116× the median. All the large values are at 10.98 s, which is unedited speech. The whole-file p99.99 is 258×, so nothing stands out.
+   - **Stretch quality:**
+     - The spectrogram shows clean harmonics with no smearing or phasiness.
+     - Pitch was compared on the time-aligned letters (new vs old): 90.9/90.2, 110/109, 103/103, 177/179, 107/105 Hz, so pitch is preserved.
+     - The spectral centroid barely moved (2082 vs 2130 Hz).
+   - **Letter separation:** the gaps between letters are now only about 30–40 ms. The fresh speech-to-text still hears four separate letters: B 11.68, N 12.02, P 12.22, B 12.52.
+   - **Pause before "catat":** 12.68–12.86 s, about 0.18 s, kept.
+4. BNPB highlight: PASS.
+   - In timing, BNPB runs 11.675–12.670 s, and the letters are spoken 11.66–12.66 s.
+   - In frames, "Oktober," is highlighted at 11.40 s. BNPB is highlighted at 11.65, 11.70, 12.20 and 12.60 s. "catat" is highlighted at 12.75 and 12.80 s; the word is spoken at about 12.86 s, so the highlight is about 0.1 s early, the same as before.
+   - "7.118" is highlighted from 13.18 s and "tujuh" starts at about 13.30 s. The counter reads 2.115 at 13.2 s and 7.118 at 14.2 s.
+5. Later beats and SFX: PASS.
+   - **Frames:**
+     - "=10" and "+3" are on the timeline by 30.70 s, with "10." highlighted at 30.85 s.
+     - The "BELUM ADA PUTUSAN" stamp lands at 35.10 s, on "Belum".
+     - The Lutfi photo with its credit, then the Instagram phone, appear at 36.80 and 38.00 s.
+     - The 98 counter starts at 67.35 s, when "98" is spoken (about 67.37 s).
+     - The end card is complete at 87.50 s and is the last frame (89.03 s).
+   - **SFX onsets measured in mix.wav:**
+     - whoosh at 2.18 s (unedited part)
+     - thump at 34.93 s, before "Belum" (35.08 s); same spacing as in round 4
+     - pop at 67.345 s, on "98"
+     - pop cue at 30.73 s, before "se-puluh" (30.84 s)
+   - All of these kept their round-4 relation within 6 ms. The new contact sheet (qa-sheet.png) shows nothing overlapping, cut off or empty.
+6. Numbers: PASS. The text is unchanged (16 Okt, BNPB, 7.118, 6 provinsi, 7 + 3 = 10, 98) and matches draft.md.
+7. Audio: PASS. Integrated −15.2 LUFS, true peak −1.5 dBTP (limit −1.0), LRA 3.7 LU.
+8. Format and length: PASS.
+   - 1080×1920 at 30 fps. The container is 89.161 s, under the 90 s limit.
+   - The video stream is 89.067 s (2672 frames) and the audio stream is 89.161 s. They are 0.094 s apart, which is inside the spec's ±0.1 s.
+   - The tail is **not cut**. The audio runs its full length (89.161 s, the same as mix.wav).
+   - The last 0.094 s of audio is the end of the ding fading out (−58 to −77 dB RMS), and players keep showing the last frame (the end card) over it.
+   - Why the video is short: `render.mjs` muxes with `-shortest` and `-c:v copy`. That dropped the last 3 frames of video.silent.mp4 (2675 frames, 89.167 s). Those 3 frames were identical end-card frames.
+   - The cover frame is the same as the silent render's (md5 match).
 
 ## Fixes
 None.
 
 ## Optional (not counted)
-- The pause between "pe" and the final "be" (about 40–60 ms, 12.45–12.51 s) is now the shortest of the three. It still reads as separate letters. Do not tighten it any further.
-- The CTA→end-card dissolve at about 87.0 s is the same as in round 3. It is acceptable.
+- The video vs audio gap of 0.094 s is inside the spec, but it is above the coordinator's ~0.05 s target. To close it, mux without `-shortest`, or with `-t 89.161`, so all 2675 frames are kept (89.167 s video vs 89.161 s audio).
+- The room-tone loop in the BNPB pause is 2–3 dB hotter than the natural pauses. It is masked in the mix. If the voice is ever used without the music bed, take one longer room-tone piece without a loop and lower it by about 3 dB.
+- With 1.3x, the gaps between the letters are about 30–40 ms. Do not speed this up any further.
