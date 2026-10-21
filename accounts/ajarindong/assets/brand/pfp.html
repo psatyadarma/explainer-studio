@@ -1,0 +1,21 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{width:1080px;height:1080px;overflow:hidden;font-family:"Inter Display","Inter",sans-serif}
+.v{width:1080px;height:1080px;display:none;align-items:center;justify-content:center;position:relative}
+/* bubble shared with Rangkumin Dong (sibling brand) */
+.b{position:relative;width:700px;height:560px;background:#fff;border-radius:150px;display:flex;align-items:center;justify-content:center;
+  font-weight:900;font-size:330px;letter-spacing:-18px;color:#1B2430;transform:rotate(-3deg)}
+.b:after{content:"";position:absolute;left:150px;bottom:-90px;border-left:70px solid transparent;border-right:70px solid transparent;border-top:120px solid #fff;transform:rotate(18deg)}
+/* A: blue (learning), D in blue */
+#A{background:#2F5BEA} #A .b span{color:#2F5BEA}
+/* B: teal green */
+#B{background:#11A37F} #B .b span{color:#11A37F}
+/* C: blue + yellow pencil underline (teaching mark) */
+#C{background:#2F5BEA} #C .b span{color:#2F5BEA}
+#C .u{position:absolute;left:190px;right:150px;bottom:105px;height:34px;background:#FFD23F;border-radius:17px;transform:rotate(-2deg)}
+</style></head><body>
+<div class="v" id="A"><div class="b">A<span>D</span></div></div>
+<div class="v" id="B"><div class="b">A<span>D</span></div></div>
+<div class="v" id="C"><div class="b">A<span>D</span><div class="u"></div></div></div>
+<script>window.show=(id)=>{document.querySelectorAll('.v').forEach(e=>e.style.display=e.id===id?'flex':'none')}</script>
+</body></html>
