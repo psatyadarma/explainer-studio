@@ -11,9 +11,11 @@ Files (each a JSON array of row objects):
   metrics.json      per video × platform × checkpoint (24 h / 72 h): views, avg % watched, 3-s hold, shares, saves, follows
   events.json       events database, last 30 days + upcoming
   experiments.json  the A/B schedule (voice, slot, hook) per date
-Then upload each file to the dashboard and point its dataset at it (see HANDOFF.md → Dashboard).
+Then upload ONLY the files listed on the "CHANGED:" line (hashes vs the last upload are kept in
+dashboard/data/.uploaded.json), and record them after uploading:
+  python3 -I engine/dash_export.py <account_dir> --mark runs ideas ...
 """
-import csv, datetime as dt, json, re, sys, subprocess
+import csv, datetime as dt, hashlib, json, re, sys, subprocess
 from pathlib import Path
 
 AREAS = ["markets", "politics", "business", "national"]
@@ -115,7 +117,7 @@ def videos(acct, k):
         links = p.get("links") or {}
         rows.append({"date": r["date"], "title": r["title"], "storyline": r["storyline"], "part": r["part"],
                      "status": r["status"], "voice": arm.get("voice", "").split(":")[-1], "slot": arm.get("slot", ""),
-                     "hook": arm.get("hook", "").replace("_", " "), "format": fmt.replace("_", " "), "length_s": round(dur, 1) if dur else None,
+                     "hook": arm.get("hook", "").replace("_", " "), "hook_b": arm.get("hook_b", "").replace("_", " "), "format": fmt.replace("_", " "), "length_s": round(dur, 1) if dur else None,
                      "qa_sync": q.get("verdict"), "sync_median_ms": round(q["median_offset_s"] * 1000) if q else None,
                      "instagram": links.get("instagram", ""), "youtube": links.get("youtube", ""),
                      "folder": r["folder"]})
@@ -153,6 +155,12 @@ def main():
     acct = Path(sys.argv[1])
     k = acct / "knowledge"
     out = acct / "dashboard" / "data"
+    up = out / ".uploaded.json"
+    if "--mark" in sys.argv:
+        seen = json.loads(up.read_text()) if up.exists() else {}
+        for n in sys.argv[sys.argv.index("--mark") + 1:]:
+            seen[n] = hashlib.sha256((out / f"{n}.json").read_bytes()).hexdigest()
+        up.write_text(json.dumps(seen, indent=1)); print("marked", len(seen)); return
     out.mkdir(parents=True, exist_ok=True)
     runs, days = runs_and_days(acct)
     sched = json.loads((acct / "brand.json").read_text()).get("experiments", {}).get("schedule", [])
@@ -168,9 +176,14 @@ def main():
                         "hook": r["hook"].replace("_", " "), "cycle": 2})
     data = {"runs": runs, "days": days, "ideas": ideas(acct), "videos": videos(acct, k), "metrics": metrics(k),
             "events": events(k), "experiments": exp}
+    seen = json.loads(up.read_text()) if up.exists() else {}
+    changed = []
     for name, rows in data.items():
         (out / f"{name}.json").write_text(json.dumps(rows, ensure_ascii=False, indent=0))
+        if hashlib.sha256((out / f"{name}.json").read_bytes()).hexdigest() != seen.get(name):
+            changed.append(name)
         print(f"{name}.json: {len(rows)} rows")
+    print("CHANGED: " + (" ".join(changed) or "none"))
 
 
 if __name__ == "__main__":
