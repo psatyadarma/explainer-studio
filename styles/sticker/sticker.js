@@ -53,7 +53,36 @@
   };
 
   // Subtitles: current line, yellow highlight on the word being spoken.
+  // Word mode (subtitle A/B from 23 Oct, after @mindwander_dot_id): 1-3 words at a time, big, centred, with a pop.
+  // Turned on by TIMING.subs === 'word' (set from brand.json schedule "subs") or window.SUB_MODE = 'word'.
+  K.chunks = (L) => {
+    if (L._chunks) return L._chunks;
+    const out = []; let cur = [];
+    const push = () => { if (cur.length) out.push({ text: cur.map((x) => x.w).join(' '), start: cur[0].start, end: cur[cur.length - 1].end }); cur = []; };
+    L.words.forEach((w) => {
+      const len = cur.map((x) => x.w).join(' ').length;
+      if (cur.length && (cur.length >= 2 || len + 1 + w.w.length > 12)) push();
+      cur.push(w);
+      if (/[.,!?;:…]$/.test(w.w)) push();
+    });
+    push();
+    return (L._chunks = out);
+  };
+  K.subtitlesWord = (box, t) => {
+    const lead = window.SUB_LEAD ?? 0.08, tt = t + lead;
+    const L = window.TIMING.lines.filter((l) => tt >= l.start - 0.05 && tt <= l.end + 0.3).pop();
+    if (!L) { box.style.opacity = 0; return; }
+    const cs = K.chunks(L);
+    const i = cs.reduce((k, c, j) => (tt >= c.start - 0.03 ? j : k), 0), c = cs[i];
+    const key = L.id + ':' + i;
+    if (box.dataset.id !== key) { box.dataset.id = key; box.innerHTML = `<b>${c.text}</b>`; }
+    const s = K.spring(tt - c.start + 0.03, 420, 22);
+    box.style.opacity = 1;
+    box.firstChild.style.transform = `scale(${0.82 + 0.18 * s})`;
+  };
+
   K.subtitles = (box, t) => {
+    if ((window.SUB_MODE || window.TIMING.subs) === 'word') { box.classList.add('word'); return K.subtitlesWord(box, t); }
     // latest line that has started wins (so a split subtitle page flips on its first word, not 0.35 s later)
     const L = window.TIMING.lines.filter((l) => t >= l.start - 0.05 && t <= l.end + 0.35).pop();
     if (!L) { box.style.opacity = 0; return; }

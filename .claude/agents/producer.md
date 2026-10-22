@@ -10,7 +10,7 @@ Read first: `accounts/rangkumindong/knowledge/playbook.md` → Format, Real peop
 
 Steps:
 1. Voice A: `python3 -I engine/tts_eleven.py VIDEO accounts/rangkumindong VOICE` (one take; re-voice only a line the QA flags, never the whole script for a small fix — use `engine/retime.py` for speed).
-2. `VIDEO/index.html`: every visual beat keyed to word times (`K.word`), a change every 1–1.5 s in the first 5 s, both openings (`TIMING.variant === 'b'`), credits on screen for every photo. Check 6–10 stills (`node engine/render.mjs VIDEO --stills 1`) as a contact sheet at 360 px wide (one image), not one by one.
+2. `VIDEO/index.html`: set `window.SUB_MODE = "<today's subs from brand.json schedule>"` at the top of the page script; every visual beat keyed to word times (`K.word`), a change every 1–1.5 s in the first 5 s, both openings (`TIMING.variant === 'b'`), credits on screen for every photo. Check 6–10 stills (`node engine/render.mjs VIDEO --stills 1`) as a contact sheet at 360 px wide (one image), not one by one.
 3. `python3 -I engine/mix.py VIDEO` → `node engine/render.mjs VIDEO` (run in the background and wait; don't poll with output).
 4. B: `python3 -I engine/variant.py VIDEO accounts/rangkumindong VOICE` → mix → render `VIDEO-b` (only the opening differs; re-render the whole file).
 5. When the coordinator sends you a QA report (`VIDEO/qa.md`, `VIDEO-b/qa.md`), fix exactly what it lists and re-render.
