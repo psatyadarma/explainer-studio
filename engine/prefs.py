@@ -10,7 +10,7 @@ preferences.md has two parts:
 The writer reads the whole file and uses it as a tiebreaker (+1 for a strong fit), never to override
 fact-checking, sensitivity rules or a clearly higher virality score.
 """
-import csv, re, sys
+import csv, json, re, sys
 from collections import Counter
 from pathlib import Path
 
@@ -40,6 +40,10 @@ def main():
     for d in days:
         offered = [r for r in rows if r["date"] == d]
         picked = [r for r in offered if r["status"] in ("picked", "drafted", "posted")]
+        st = Path(acct) / "daily" / d / "status.json"
+        if st.exists() and json.loads(st.read_text()).get("steps", {}).get("default_pick") == "done":
+            picked = []      # auto-picked on timeout: not the user's choice
+            lines.append(f"- {d}: no pick by the deadline (default #1 used; not counted)")
         meta = idea_meta(acct, d)
         for r in offered:
             story_off[r["storyline"] or "-"] += 1

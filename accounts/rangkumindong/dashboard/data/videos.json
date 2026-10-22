@@ -8,6 +8,7 @@
 "voice": "Pratama",
 "slot": "19:00",
 "hook": "question",
+"hook_b": "",
 "format": "standard",
 "length_s": 70.6,
 "qa_sync": "PASS",
@@ -25,6 +26,7 @@
 "voice": "Cahaya",
 "slot": "12:30",
 "hook": "shock number",
+"hook_b": "",
 "format": "standard",
 "length_s": 88.0,
 "qa_sync": "PASS",
@@ -42,6 +44,7 @@
 "voice": "Pratama",
 "slot": "12:30",
 "hook": "shock number",
+"hook_b": "",
 "format": "standard",
 "length_s": 89.1,
 "qa_sync": "PASS",
@@ -49,5 +52,23 @@
 "instagram": "",
 "youtube": "",
 "folder": "videos/2026-10-21-karhutla-lutfi-singapura"
+},
+{
+"date": "2026-10-22",
+"title": "Kerugian negara dihapus dari definisi korupsi? Kata Luhut, KPK, ICW, Yusril",
+"storyline": "definisi-korupsi",
+"part": "1",
+"status": "drafted",
+"voice": "Cahaya",
+"slot": "19:00",
+"hook": "question",
+"hook_b": "",
+"format": "standard",
+"length_s": 88.2,
+"qa_sync": "PASS",
+"sync_median_ms": -75,
+"instagram": "",
+"youtube": "",
+"folder": "videos/2026-10-22-definisi-korupsi-kerugian-negara"
 }
 ]

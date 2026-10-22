@@ -1,6 +1,6 @@
 // Render a video project folder to MP4.
 // The folder must contain index.html exposing window.seek(t) and window.DURATION.
-// Usage: node engine/render.mjs <projectDir> [--fps 30] [--out out/video.mp4] [--from 0 --to 5] [--stills 1]
+// Usage: node engine/render.mjs <projectDir> [--fps 30] [--out out/video.mp4] [--from 0 --to 5] [--stills 1] [--size 1920x1080]
 import { chromium } from 'playwright-core';
 import sparticuz from '@sparticuz/chromium';
 import { spawn } from 'node:child_process';
@@ -21,6 +21,9 @@ const page = await browser.newPage({ viewport: { width: 1080, height: 1920 }, de
 await page.goto('file://' + path.join(dir, 'index.html'));
 await page.evaluate(() => document.fonts.ready);
 await page.waitForFunction(() => typeof window.seek === 'function' && window.DURATION > 0);
+// 16:9 pages (weekly video, thumbnails) declare window.FRAME = {w, h}; --size WxH overrides.
+const size = opt('size', null) || await page.evaluate(() => window.FRAME ? `${window.FRAME.w}x${window.FRAME.h}` : null);
+if (size) { const [w, h] = size.split('x').map(Number); await page.setViewportSize({ width: w, height: h }); }
 const DUR = await page.evaluate(() => window.DURATION);
 const from = Number(opt('from', 0)), to = Number(opt('to', DUR));
 

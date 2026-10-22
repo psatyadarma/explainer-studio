@@ -1,7 +1,10 @@
 """Publish a finished video to TikTok, Instagram Reels and YouTube Shorts via Upload-Post.
 
 Usage:
-  python3 -I engine/post.py <video_dir> <account_dir> [--when "2026-10-20T12:30"] [--dry-run]
+  python3 -I engine/post.py <video_dir> <account_dir> [--when "2026-10-20T12:30"] [--trial] [--dry-run]
+
+--trial: Instagram only, as a Trial Reel shown to non-followers first (share_mode
+TRIAL_REELS_DONT_SHARE_TO_FOLLOWERS). Used for the opening B version (<folder>-b, made by engine/variant.py).
 
 Reads <video_dir>/post.json:
   {"caption": "...", "youtube_title": "... #Shorts", "youtube_description": "...", "tags": ["..."],
@@ -48,13 +51,14 @@ def main():
     vdir, adir = Path(args[0]), Path(args[1])
     when = args[args.index("--when") + 1] if "--when" in args else None
     dry = "--dry-run" in args
+    trial = "--trial" in args
     brand = json.loads((adir / "brand.json").read_text())
     post = json.loads((vdir / "post.json").read_text())
     video = vdir / "out" / "video.mp4"
     req_id = f"{brand.get('upload_post_user', 'acct')}-{vdir.name}"
     fields = [("user", brand["upload_post_user"]), ("title", post["caption"][:2200]),
               ("request_id", req_id), ("async_upload", "true")]
-    for p in post.get("platforms", ["tiktok", "instagram", "youtube"]):
+    for p in (["instagram"] if trial else post.get("platforms", ["tiktok", "instagram", "youtube"])):
         fields.append(("platform[]", p))
     # YouTube
     fields += [("youtube_title", post["youtube_title"][:100]),
@@ -64,6 +68,8 @@ def main():
         fields.append(("tags[]", t))
     # Instagram Reels (caption = instagram_title, falls back to title)
     fields += [("media_type", "REELS"), ("share_to_feed", "true"), ("instagram_title", post["caption"][:2200])]
+    if trial:
+        fields += [("share_mode", "TRIAL_REELS_DONT_SHARE_TO_FOLLOWERS")]
     # Sources as an automatic first comment on every platform
     if post.get("pinned_comment"):
         fields.append(("first_comment", post["pinned_comment"]))
@@ -80,7 +86,7 @@ def main():
         r = json.load(urllib.request.urlopen(req, timeout=600))
     except urllib.error.HTTPError as e:
         r = {"http_error": e.code, "body": e.read().decode(errors="replace")[:2000]}
-    (vdir / "posted.json").write_text(json.dumps(r, indent=1, ensure_ascii=False))
+    (vdir / ("posted-trial.json" if trial else "posted.json")).write_text(json.dumps(r, indent=1, ensure_ascii=False))
     print(json.dumps(r, indent=1, ensure_ascii=False))
 
 

@@ -1,0 +1,134 @@
+{
+ "duration": 9.551,
+ "lines": [
+  {
+   "id": "a1",
+   "text": "Harga satu gelas kopi susu naik.",
+   "start": 0.3,
+   "end": 2.475,
+   "words": [
+    {
+     "w": "Harga",
+     "start": 0.3,
+     "end": 0.691
+    },
+    {
+     "w": "satu",
+     "start": 0.691,
+     "end": 1.082
+    },
+    {
+     "w": "gelas",
+     "start": 1.082,
+     "end": 1.473
+    },
+    {
+     "w": "kopi",
+     "start": 1.473,
+     "end": 1.864
+    },
+    {
+     "w": "susu",
+     "start": 1.864,
+     "end": 2.255
+    },
+    {
+     "w": "naik.",
+     "start": 2.255,
+     "end": 2.475
+    }
+   ]
+  },
+  {
+   "id": "a2",
+   "text": "Dari delapan belas ribu, jadi tiga puluh dua ribu.",
+   "start": 2.725,
+   "end": 6.205,
+   "words": [
+    {
+     "w": "Dari",
+     "start": 2.725,
+     "end": 3.112
+    },
+    {
+     "w": "delapan",
+     "start": 3.112,
+     "end": 3.667
+    },
+    {
+     "w": "belas",
+     "start": 3.667,
+     "end": 4.054
+    },
+    {
+     "w": "ribu,",
+     "start": 4.054,
+     "end": 4.44
+    },
+    {
+     "w": "jadi",
+     "start": 4.44,
+     "end": 4.827
+    },
+    {
+     "w": "tiga",
+     "start": 4.827,
+     "end": 5.214
+    },
+    {
+     "w": "puluh",
+     "start": 5.214,
+     "end": 5.6
+    },
+    {
+     "w": "dua",
+     "start": 5.6,
+     "end": 5.819
+    },
+    {
+     "w": "ribu.",
+     "start": 5.819,
+     "end": 6.205
+    }
+   ]
+  },
+  {
+   "id": "a3",
+   "text": "Ini angka contoh, bukan data asli.",
+   "start": 6.455,
+   "end": 8.701,
+   "words": [
+    {
+     "w": "Ini",
+     "start": 6.455,
+     "end": 6.83
+    },
+    {
+     "w": "angka",
+     "start": 6.83,
+     "end": 7.204
+    },
+    {
+     "w": "contoh,",
+     "start": 7.204,
+     "end": 7.578
+    },
+    {
+     "w": "bukan",
+     "start": 7.578,
+     "end": 7.953
+    },
+    {
+     "w": "data",
+     "start": 7.953,
+     "end": 8.327
+    },
+    {
+     "w": "asli.",
+     "start": 8.327,
+     "end": 8.701
+    }
+   ]
+  }
+ ]
+}
