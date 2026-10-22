@@ -17,7 +17,7 @@ Updated: Thu 22 Oct 2026, 11:30 WITA. Each daily run is a fresh session with no 
 
 ## How the daily run works (from Tue 20 Oct)
 - Every day at ~06:00 WITA a **fresh scheduled session** starts by itself (scheduled task "Rangkumin Dong daily"). That session is that day's chat: the user gets a notification and replies in it to pick, approve and say "OK post".
-- **Keys:** the user keeps them in their private Video project as the doc `keys` (two lines: `ELEVENLABS_API_KEY=…`, `UPLOAD_POST_API_KEY=…`). Each session reads it with the Projects tool and writes it to `~/.config/explainer-studio/.env` (chmod 600). `engine/tts_eleven.py` and `engine/post.py` read that file. **Never print, echo, commit or send the values.** Verified from a scheduled session on 19 Oct: both APIs returned 200.
+- **Keys:** the user keeps them in their private Video project as the doc `claude/keys-all` (three lines: ElevenLabs, Upload-Post and Higgsfield keys; merged 22 Oct because two docs were both called `keys`). Each session reads it with the Projects tool and writes it to `~/.config/explainer-studio/.env` (chmod 600). `engine/tts_eleven.py` and `engine/post.py` read that file. **Never print, echo, commit or send the values.** Verified from a scheduled session on 19 Oct: both APIs returned 200.
 - Backup: sessions the user starts by hand in the "Default" environment also get both keys as network secrets, with no file needed. Scheduled sessions do not (tested 4×).
 - Rendered MP4s are not committed (`out/` is gitignored). They live in the day's session and on the platforms after posting.
 

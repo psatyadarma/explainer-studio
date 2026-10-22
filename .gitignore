@@ -9,3 +9,4 @@ accounts/*/videos/*/out/
 accounts/*/videos/*/build/*.wav
 accounts/*/videos/*/build/raw/
 __pycache__/
+.keys-all.tmp
