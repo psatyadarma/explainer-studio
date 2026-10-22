@@ -9,7 +9,7 @@
 ## Format
 - 60–90 s, 1080×1920, 30 fps. Sticker Explainer style (mg-styles-15 #07, MIT): cut-out stickers with white outline, flat icons, exact charts, one moving camera between zones, counters, word-highlight subtitles.
 - Colours: paper #F3EFE6 · ink #1B2430 · slate #3E5568 · accent #FF5A36 · highlight #FFD23F.
-- Structure (from 23 Oct): hook in today's hook style (first frame must work as a cover; see writer → Opening rules) → 4–8 beats → "what happens next" → **spoken tagline "Rangkumin dong!" at the end** (moved from ~7 s, where viewers were swiping; the "Rangkumin dong!" sticker may still pop silently during the hook) → → "what happens next" → vote CTA ("Tim A atau Tim B? Komen!") → end card with sources.
+- Structure (from 23 Oct): hook in today's hook style (first frame must work as a cover; see writer → Opening rules) → fixed tagline "Rangkumin dong!" right after the hook (kept as is — user 22 Oct: change only when the data says so) → 4–8 beats → "what happens next" → → "what happens next" → vote CTA ("Tim A atau Tim B? Komen!") → end card with sources.
 - New visual every 2–4 s. **Safe area (from 19 Oct):** the camera frames each zone at 0.88× zoom, so zones need ~120 px clear space around them. Keep headlines, numbers and labels inside x 60–920 and y 240–1480: below the top bar, clear of the right-hand buttons and the bottom caption, and inside the 3:4 profile-grid crop (y 240–1680). Subtitles sit at y 1290, 56 px, max 3 lines. Check with `engine/safezone.py`.
 - Always show "Bukan ajakan jual/beli saham" on market/stock topics.
 
