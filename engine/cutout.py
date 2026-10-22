@@ -1,6 +1,7 @@
 """Turn a photo into a sticker: background removed, white outline and soft shadow baked in, trimmed.
 
   python3 -I engine/cutout.py <in.jpg> <out.png> [--kind person|object] [--outline 14] [--shadow 1]
+        [--keep-ellipse cx,cy,rx,ry,ymax]   # drop background objects merged with the head (above ymax, outside the ellipse)
 
 --kind person uses rembg's u2net_human_seg (people), object uses isnet-general-use (products, logos, props).
 Models live in ~/.u2net (downloaded once from the rembg GitHub release, ~175 MB each):
@@ -29,6 +30,12 @@ def main():
     cut = remove(im, session=sess, post_process_mask=True)  # RGBA
     a = np.array(cut.split()[-1])
     a = np.where(a > 128, 255, 0).astype(np.uint8)  # crisp edge for the sticker look
+    ke = opt("keep-ellipse", "")
+    if ke:  # e.g. an emblem behind the head that segmentation merged with the person:
+        cx, cy, rx, ry, ymax = map(float, ke.split(","))  # above ymax keep only the head ellipse
+        yy, xx = np.mgrid[0:a.shape[0], 0:a.shape[1]]
+        inside = ((xx - cx) / rx) ** 2 + ((yy - cy) / ry) ** 2 <= 1
+        a[(yy < ymax) & ~inside] = 0
     alpha = Image.fromarray(a).filter(ImageFilter.GaussianBlur(0.8))
     cut.putalpha(alpha)
     pad = outline * 3 + 40

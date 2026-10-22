@@ -11,11 +11,11 @@ import json, re, sys, urllib.error, urllib.parse, urllib.request
 from pathlib import Path
 
 API = "https://commons.wikimedia.org/w/api.php"
-UA = {"User-Agent": "RangkuminDongBot/0.1 (https://github.com/psatyadarma/explainer-studio; news explainer videos) python-urllib"}
+UA = {"User-Agent": "RangkuminDongBot/0.1 (news explainer videos; no personal data in headers) python-urllib"}
 OK = re.compile(r"^(public domain|pd|cc0|cc by(-sa)? ?\d|cc-by(-sa)?-\d)", re.I)
 
 
-def fetch(url, tries=4):
+def fetch(url, tries=8):
     import time
     for k in range(tries):
         try:
@@ -23,7 +23,10 @@ def fetch(url, tries=4):
         except urllib.error.HTTPError as e:
             if e.code != 429 or k == tries - 1:
                 raise
-            time.sleep(5 * (k + 1))  # Commons rate limit: back off
+            # Commons rate limit: honour Retry-After (often 30-60 s on shared egress), else back off
+            wait = max(int(e.headers.get("Retry-After") or 0), 10 * (k + 1)) + 2
+            print(f"commons: 429, waiting {wait}s", file=sys.stderr)
+            time.sleep(wait)
 
 
 def api(**p):
