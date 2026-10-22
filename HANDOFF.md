@@ -1,9 +1,11 @@
 # Handoff: Rangkumin Dong (read this first in every session)
 
-Updated: Thu 22 Oct 2026, 06:45 WITA. Each daily run is a fresh session with no memory of earlier chats. **This file plus the playbook are the memory.** Whenever something here changes, update it, mirror it to the Video project (`claude/rangkumindong-handoff.md`), commit and push.
+Updated: Thu 22 Oct 2026, 11:30 WITA. Each daily run is a fresh session with no memory of earlier chats. **This file plus the playbook are the memory.** Whenever something here changes, update it, mirror it to the Video project (`claude/rangkumindong-handoff.md`), commit and push.
 
 ## Standing rules from the user
-- **Approval:** every video needs the user's OK on its draft (topic, script, style, captions) before rendering. Nothing is published without an explicit "OK post". The overall workflow can be improved without sign-off; flag big changes.
+- **Approval — two touches a day (from 23 Oct, user's decision 22 Oct):** (1) the user picks a topic; (2) the user says "OK post" on the finished video. There is **no separate draft approval** any more: after the pick, draft → full fact-check → render → QA run straight through, and the user gets the video together with a short draft summary (angle, key numbers, sources) and all captions. If the user asks for changes at that point, fix and re-render. If the user says "show me the draft first" for a topic, do that for that video. Nothing is published without an explicit "OK post" — never post on a timeout. The overall workflow can be improved without sign-off; flag big changes.
+- **Default pick (from 23 Oct):** if the user hasn't picked by the deadline — **09:00 WITA for a 12:30 slot, 14:00 WITA for a 19:00 slot** — take the ⭐ recommended idea, tell the user in one line ("Belum ada pilihan, jadi aku ambil #1 …; bilang kalau mau ganti"), mark it `picked` in covered.csv and run `engine/day.py status accounts/rangkumindong <date> default_pick=done`, and continue. Schedule the check with `send_later` right after sending the ideas. Default picks are **not** counted as the user's preference in prefs.py. If "OK post" hasn't come 30 min before the slot, send one reminder; if the slot passes, offer the next slot.
+- **Health check:** start every run with `python3 -I engine/health.py accounts/rangkumindong` and put any WARN line at the top of the morning message (ElevenLabs credit, Upload-Post connections, missing Instagram metrics, disk).
 - **Daily ideas:** exactly 5 ranked ideas, considering the last 14 days of events.
 - **Try first:** "please try do the actions before asking me to do it if you really cant do it".
 - **Early posts:** if a post time is before 10:00 WITA, send the finished video and captions the evening before.

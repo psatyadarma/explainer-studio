@@ -79,7 +79,7 @@ Weekly long video ("Rangkumin Seminggu", Sat 08:00 WITA): writer + fact-checker 
 - Never invent data points for charts; plot only verified values.
 
 ## Approval & posting
-- User approves the **draft** before any render. A draft always contains: topic + angle, full script (subtitle text), visual plan, sources, and the **captions**: IG caption (with hashtags), YouTube title (+ #Shorts), YouTube description, tags, and the sources first comment.
+- **Two touches (from 23 Oct):** the user picks a topic and gives "OK post" on the finished video; no separate draft approval (HANDOFF → Standing rules, incl. the default pick at 09:00 / 14:00 WITA). The draft is still written, fact-checked and sent **together with the video**. It always contains: topic + angle, full script (subtitle text), visual plan, sources, and the **captions**: IG caption (with hashtags), YouTube title (+ #Shorts), YouTube description, tags, and the sources first comment.
 - Captions: hook line + 3 bullet summary + vote question + "Bukan ajakan jual/beli saham" (market topics) + "Sumber di komentar" + 6–8 hashtags incl. #rangkumindong. Same numbers as the video.
 - User gives "OK post" (with time slot) before anything is published.
 - **Early slots:** if the post time is before 10:00 WITA (e.g. the weekly video, Sat 08:00), the finished video and captions go to the user the evening before, so "OK post" can be given before bed and the post is scheduled overnight.

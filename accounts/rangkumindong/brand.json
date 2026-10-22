@@ -212,5 +212,16 @@
    "minggu_depan": "Sunday: week-ahead Short (not part of the format test)"
   }
  },
- "topic_rotation_note": "Soft tiebreaker only: a clearly higher-scoring idea always beats the day's topic."
+ "topic_rotation_note": "Soft tiebreaker only: a clearly higher-scoring idea always beats the day's topic.",
+ "rubric_weights": {
+  "spreading": 1.0,
+  "wallet": 1.0,
+  "surprise": 1.0,
+  "visual": 1.0,
+  "fresh": 1.0,
+  "rivals": 1.0
+ },
+ "rubric_weights_log": [
+  "2026-10-22: all 1.0 (start); the analyst adjusts weekly once ≥8 videos have 72 h metrics"
+ ]
 }

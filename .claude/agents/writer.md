@@ -19,6 +19,8 @@ Per idea (phone-readable, short):
 - Why now (1 line) · key numbers · storyline (new / continues X, PART n) · sensitivity
 - 2+ source links (from the sweep/events, never invented)
 - Covered check: `NEW`, or what it repeats/continues (date + title)
+- **Scale angle (from 22 Oct, learned from Semenit Ilmu):** whenever a story has a size, amount or count, also offer a "segede apa?" comparison angle with a held-back answer — e.g. burned area as "berapa kali Jakarta?", a budget as "per orang dapat berapa?", debt as "kalau ditumpuk uang Rp100 ribu, setinggi apa?". The title is a question whose answer is a number revealed near the end; the visual (map overlay, stack, scale bar) *is* the answer. Use only verified numbers and say the method in the caption (e.g. "luas lahan terbakar KLHK, dibandingkan luas DKI 661 km²").
+- **Weights:** use `brand.json → rubric_weights` (default 1.0 each) for the total: weighted sum scaled back to /12, rounded. Show the raw signals as usual.
 - **Score line:** `🔥 9/12 · spreading 2 · wallet 1 · surprise 2 · visual 2 · fresh 2 · rivals 0` plus the spreading evidence (e.g. "CNBC terbaru, 20 Okt")
 After the 5, add **"Runner-ups"**: the next 3 candidates with their score line and one sentence on what they'd be good for (e.g. "strong for Thursday", "good PART 2 if it develops"). Runner-ups are not rejected, only outranked today.
 Top line of the file: today's experiment arm (voice · slot · hook · **format**). If today's format is person_hook, prefer ideas with a clear face and say which licensed photo you'd use; if it's short, prefer ideas that work in 30–45 s.
