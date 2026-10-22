@@ -13,14 +13,15 @@
   "approved": "done",
   "render": "done",
   "video_sent": "done",
-  "ok_post": "todo",
+  "ok_post": "done",
   "posted": "todo",
   "knowledge": "todo"
  },
  "notes": [
   "22:05Z markets+politics sweeps empty: WebFetch PROVENANCE_REQUIRED on section pages (unattended, prompt unanswered); rerun with search-first workaround denied by auto-mode classifier for those two; business 8 + national 11 OK after search-first rerun",
   "22:24Z user picked #2 definisi korupsi; asked to allow web fetches -> .claude/settings.json allow WebFetch, WebSearch",
-  "23:44Z approved 07:44 WITA"
+  "23:44Z approved 07:44 WITA",
+  "11:18Z OK post 19:18; scheduled 19:30 (slot arm 19:00 missed: cut-out rework, Commons rate limits ~9 h); job f0a302f6"
  ],
  "merge_stats": {
   "new": 19,
