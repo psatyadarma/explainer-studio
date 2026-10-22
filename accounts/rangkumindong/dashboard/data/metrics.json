@@ -46,5 +46,29 @@
 "shares": null,
 "saves": null,
 "follows": null
+},
+{
+"date": "2026-10-19",
+"folder": "videos/2026-10-19-ihsg-msci-v3-sync",
+"platform": "instagram",
+"hours": 72,
+"views": 103,
+"avg_watch_pct": 12.3,
+"hold_3s_pct": null,
+"shares": 0,
+"saves": 0,
+"follows": 0
+},
+{
+"date": "2026-10-21",
+"folder": "videos/2026-10-21-karhutla-lutfi-singapura",
+"platform": "instagram",
+"hours": 24,
+"views": 50,
+"avg_watch_pct": 30.8,
+"hold_3s_pct": null,
+"shares": 0,
+"saves": 1,
+"follows": 0
 }
 ]
