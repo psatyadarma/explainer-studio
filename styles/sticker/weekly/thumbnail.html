@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Rangkumin Seminggu — thumbnail</title>
+<link rel="stylesheet" href="{{ROOT}}styles/sticker/sticker.css">
+<style>
+  html, body { width: 1280px; height: 720px; }
+  #stage { background: radial-gradient(circle at 1px 1px, rgba(62,85,104,.16) 1.6px, transparent 0) 0 0 / 30px 30px, var(--paper); }
+  .num { position: absolute; left: 70px; top: 150px; font-weight: 900; font-size: 250px; letter-spacing: -10px; color: var(--accent); line-height: .9; }
+  .title { position: absolute; left: 70px; top: 420px; font-weight: 900; font-size: 92px; letter-spacing: -3px; line-height: 1; max-width: 760px; }
+  .badge { position: absolute; left: 70px; top: 60px; background: var(--ink); color: #fff; font-weight: 900; font-size: 40px; padding: 10px 22px; border-radius: 14px; }
+  .dates { position: absolute; left: 380px; top: 70px; font-weight: 800; font-size: 32px; color: var(--slate); }
+  .stk { position: absolute; right: 70px; top: 150px; display: flex; flex-direction: column; gap: 22px; align-items: flex-end; }
+  .stk div { background: #fff; border-radius: 20px; padding: 16px 26px; font-weight: 900; font-size: 46px; box-shadow: 0 0 0 9px #fff, 0 16px 26px rgba(27,36,48,.2); }
+  .stk div:nth-child(2) { transform: rotate(3deg); } .stk div:nth-child(1) { transform: rotate(-3deg); }
+</style>
+</head>
+<body>
+<div id="stage">
+  <div class="badge">SEMINGGU</div><div class="dates" id="dates">19–25 Okt 2026</div>
+  <div class="num" id="num">−11%</div>
+  <div class="title" id="title">IHSG, rupiah &amp; asap</div>
+  <div class="stk" id="stk"><div>IHSG</div><div>Rp18.046</div><div>Karhutla</div></div>
+</div>
+<script>
+// The coordinator edits these four values per week (3–4 word title, one big verified number, 2–4 topic stickers).
+window.FRAME = { w: 1280, h: 720 }; window.DURATION = 0.1; window.seek = () => {};
+</script>
+</body>
+</html>

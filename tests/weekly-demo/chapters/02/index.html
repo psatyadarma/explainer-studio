@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Rangkumin Seminggu — chapter</title>
+<!-- ../../../../ is replaced by engine/weekly.py init with the path back to the repo root -->
+<link rel="stylesheet" href="../../../../styles/sticker/sticker.css">
+<link rel="stylesheet" href="../../../../styles/sticker/weekly/weekly.css">
+<script src="../../../../styles/sticker/sticker.js"></script>
+<script src="build/timing.js"></script>
+<script src="../../build/week.js"></script>
+<script src="../../../../styles/sticker/weekly/weekly.js"></script>
+<style>
+  /* chapter-specific styles go here */
+  .stat { font-weight: 900; font-size: 190px; letter-spacing: -6px; color: var(--accent); }
+  .bar { position: absolute; bottom: 0; width: 150px; border-radius: 18px 18px 0 0; background: var(--slate); transform-origin: 50% 100%; }
+  .bar.hi { background: var(--accent); }
+  .lab { position: absolute; font-weight: 800; font-size: 38px; white-space: nowrap; transform: translateX(-50%); }
+</style>
+</head>
+<body>
+<div id="stage">
+  <div id="world">
+    <!-- ZONE A (x≈960): headline stat -->
+    <div id="statA" class="abs" style="left:960px; top:470px; text-align:center;">
+      <div class="stat" id="statNum">0</div>
+      <div class="tag light sticker" id="statLab" style="display:inline-block; margin-top:10px;">label</div>
+    </div>
+    <!-- ZONE B (x≈2960): bar chart -->
+    <div id="chart" class="abs" style="left:2960px; top:520px; width:900px; height:520px;"></div>
+  </div>
+  <div id="card"><div class="kicker" id="cKick"></div><div class="title" id="cTitle"></div><div class="sub" id="cSub"></div></div>
+  <div class="lower" id="lower1">Sumber<small>keterangan</small></div>
+  <div id="brand"><div class="dot"></div><b>Rangkumin Dong</b></div>
+  <div id="subs"></div>
+  <div id="progress"></div>
+</div>
+<script>
+// ---- chapter data (the chapter-builder replaces this block; every number must be in the script and verified) ----
+window.CHAPTER = Number(location.pathname.split('/').slice(-2)[0]);
+const DATA = { stat: 12, statLabel: 'Persen naik (contoh)', bars: [{label:'2024', v:9}, {label:'2025', v:10}, {label:'2026', v:12}] };          // e.g. bars: [{label:'2024', v: 12}, ...]
+// -----------------------------------------------------------------------------------------------
+const $ = (id) => document.getElementById(id);
+const T = window.TIMING; window.DURATION = T.duration;
+const ch = (window.WEEK?.chapters || []).find((c) => c.n === window.CHAPTER) || {};
+$('cKick').textContent = ch.kicker || ''; $('cTitle').textContent = ch.title || ''; $('cSub').textContent = window.WEEK?.dates || '';
+$('statLab').textContent = DATA.statLabel;
+const chart = $('chart'), max = Math.max(1, ...DATA.bars.map((b) => b.v));
+const bars = DATA.bars.map((b, i) => {
+  const x = 90 + i * (720 / Math.max(1, DATA.bars.length - 1 || 1));
+  const e = document.createElement('div'); e.className = 'bar' + (i === DATA.bars.length - 1 ? ' hi' : '');
+  Object.assign(e.style, { left: x - 75 + 'px', height: (b.v / max * 420) + 'px' }); chart.appendChild(e);
+  const l = document.createElement('div'); l.className = 'lab'; l.textContent = b.label; Object.assign(l.style, { left: x + 'px', top: '540px' }); chart.appendChild(l);
+  return e;
+});
+const L = T.lines, tB = L[Math.min(2, L.length - 1)].start;   // when to move to zone B (pick a line id in real chapters)
+
+function seek(t) {
+  K.cam16($('world'), [{ t: 0, x: 960, y: 540, z: 1 }, { t: tB, x: 2960, y: 540, z: 1 }], t);
+  K.titleCard($('card'), t, 2.0);
+  const s = K.spring(t - 2.1); $('statNum').textContent = Math.round(DATA.stat * K.clamp(K.prog(t, 2.1, 1.0))).toLocaleString('id-ID');
+  K.pop($('statA'), t, 2.1);
+  bars.forEach((e, i) => { e.style.transform = `scaleY(${K.spring(t - tB - 0.3 - i * 0.12)})`; });
+  K.lower($('lower1'), t, 3.0, Math.max(3.1, T.duration - 1.0));
+  K.subtitles($('subs'), t);
+  K.weekly(t);
+}
+window.seek = seek;
+</script>
+</body>
+</html>

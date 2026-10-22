@@ -55,7 +55,13 @@ Roles live in `.claude/agents/` (shared researcher rules: `.claude/shared/resear
 4. User picks → writer (mode draft, Opus) → video folder with `script.json`, `draft.md`, `post.json`, `claims.json` → **full** fact-check → fixes applied → draft sent for approval.
 5. After approval: production scripts (voice, render, mix) → **qa-reviewer** agent (subtitle sync via speech-to-text, visuals frame by frame, numbers vs approved draft, loudness, format, disclaimers) → fix and re-check until PASS → only then send the video to the user. Posting script only after "OK post".
 6. Analyst: metrics at 24 h / 72 h, weekly review on Sunday.
-Weekly long video ("Rangkumin Seminggu", Sat 08:00 WITA): writer + fact-checker Friday morning → after approval, chapter-builders in parallel (one per chapter) → assemble → editor reviews the whole cut → fixes → render → schedule.
+Weekly long video ("Rangkumin Seminggu", Sat 08:00 WITA), built with `engine/weekly.py` (tested 22 Oct on `tests/weekly-demo`: 1920×1080, 30 fps, −14 LUFS, YouTube chapters):
+  1. Friday morning: writer (week's script.json: chapter 0 intro with the tagline, 4–6 chapters of 60–90 s, a "minggu depan" chapter, outro) + fact-checker full.
+  2. `weekly.py init <week>` → `weekly.py voice <week> accounts/rangkumindong <male|female>` (voice + mix per chapter; writes build/week.js and build/youtube-chapters.txt).
+  3. chapter-builders in parallel, one per chapter (`.claude/agents/chapter-builder.md`).
+  4. `weekly.py render <week> --jobs 3` → `weekly.py assemble <week>` (one loudness pass; chapter list added to post.json's YouTube description) → editor agent → fixes → re-render only the changed chapters → assemble.
+  5. `weekly.py thumb <week>` (edit `<week>/thumbnail.html`: one big verified number, a 3–4 word title, 2–4 topic stickers).
+  6. Friday evening: send video + thumbnail + captions; default post at Sat 07:40 unless the user says otherwise (same safety rule).
 
 ## Learning the user's preferences
 - `knowledge/preferences.md`: **"What the user told us"** (the coordinator appends a dated line whenever the user comments on topics, angles or formats) + **"What the picks show"** (recomputed by `engine/prefs.py` from offers vs picks after every pick: pick rank, recommended-or-not, storylines picked or skipped, sensitivity).

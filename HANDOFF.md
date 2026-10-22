@@ -31,7 +31,7 @@ Updated: Thu 22 Oct 2026, 11:30 WITA. Each daily run is a fresh session with no 
 ## Status (keep this section under ~10 lines; history → knowledge/run-log.md)
 - Live: #1 IHSG/MSCI (19 Oct), #2 rupiah Rp18.046 (20 Oct), #3 karhutla/Lutfi (21 Oct); 22 Oct run in progress. Links, metrics and per-day details: covered.csv, metrics.csv, run-log.md.
 - IG avg % watched so far: 12.4% and 3.1% → retention is the focus (opening rules, daily opening A/B from 23 Oct).
-- Weekly long video "Rangkumin Seminggu": 6–10 min, 16:9, Sat 08:00 WITA, first one Sat 24 Oct; final video to the user Friday evening. Still to build before Friday: 16:9 sticker style (`styles/sticker/weekly/`), chapter assembly, parallel rendering, 1280×720 thumbnail template.
+- Weekly long video "Rangkumin Seminggu": 6–10 min, 16:9, Sat 08:00 WITA, first one Sat 24 Oct; final video to the user Friday evening. Built and tested 22 Oct: 16:9 style (`styles/sticker/weekly/`), chapter template, `engine/weekly.py` (init / voice / index / render in parallel / assemble / thumb), 1280×720 thumbnail; demo in `tests/weekly-demo`. See playbook → Agent pipeline → Weekly.
 - Each day: append a 3–5 line block to run-log.md (picks, counts, problems) instead of growing this file.
 
 ## Dashboard: "Rangkumin Dong Studio"

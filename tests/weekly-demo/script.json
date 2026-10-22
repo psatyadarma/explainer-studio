@@ -1,0 +1,14 @@
+{"title": "Rangkumin Seminggu", "dates": "DATA CONTOH", "direction": "[calm, clear]",
+ "chapters": [
+  {"n": 0, "kicker": "INTRO", "title": "Minggu ini", "lines": [
+    {"id": "i1", "text": "Ini rangkuman seminggu, versi contoh."},
+    {"id": "i2", "text": "Ada dua bab: harga kopi, dan ongkos kirim."}]},
+  {"n": 1, "kicker": "BAB 1", "title": "Harga kopi", "lines": [
+    {"id": "a1", "text": "Harga satu gelas kopi susu naik."},
+    {"id": "a2", "text": "Dari delapan belas ribu, jadi tiga puluh dua ribu."},
+    {"id": "a3", "text": "Ini angka contoh, bukan data asli."}]},
+  {"n": 2, "kicker": "BAB 2", "title": "Ongkos kirim", "lines": [
+    {"id": "b1", "text": "Ongkos kirim ikut naik tiap tahun."},
+    {"id": "b2", "text": "Bab ini juga pakai data contoh."},
+    {"id": "b3", "text": "Sampai jumpa minggu depan."}]}
+ ]}

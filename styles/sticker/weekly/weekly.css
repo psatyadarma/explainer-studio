@@ -1,0 +1,31 @@
+/* Rangkumin Seminggu — 16:9 (1920×1080) layer over the sticker kit. Load AFTER ../sticker.css. */
+html, body { width: 1920px; height: 1080px; }
+.abs { position: absolute; transform: translate(-50%, -50%); }
+#brand { left: 64px; top: 52px; }
+#subs { left: 260px; right: 260px; top: auto; bottom: 74px; font-size: 46px; line-height: 1.25; }
+#progress { height: 8px; }
+/* chapter ticks on the whole-video progress track */
+#track { position: absolute; left: 0; right: 0; bottom: 0; height: 8px; background: rgba(27,36,48,.08); z-index: 6; }
+#track i { position: absolute; top: -4px; width: 4px; height: 16px; background: var(--ink); border-radius: 2px; }
+/* chapter label, top right */
+#chap { position: absolute; right: 64px; top: 46px; z-index: 6; display: flex; gap: 12px; align-items: center;
+  font-weight: 800; font-size: 30px; color: var(--ink); }
+#chap .n { background: var(--ink); color: #fff; border-radius: 12px; padding: 6px 14px; }
+#chap .t { background: #fff; border-radius: 12px; padding: 6px 16px; box-shadow: 0 6px 14px rgba(27,36,48,.12); }
+/* full-screen chapter title card */
+#card { position: absolute; inset: 0; z-index: 8; display: flex; flex-direction: column; align-items: center; justify-content: center;
+  background: var(--paper); gap: 22px; }
+#card .kicker { font-weight: 800; font-size: 40px; color: var(--accent); letter-spacing: 1px; text-transform: uppercase; }
+#card .title { font-weight: 900; font-size: 120px; letter-spacing: -4px; line-height: 1; text-align: center; max-width: 1500px; }
+#card .sub { font-weight: 700; font-size: 40px; color: var(--slate); }
+/* lower third */
+.lower { position: absolute; left: 64px; bottom: 170px; z-index: 6; background: #fff; border-radius: 18px; padding: 16px 26px;
+  box-shadow: 0 0 0 8px #fff, 0 16px 26px rgba(27,36,48,.18); font-weight: 900; font-size: 40px; transform-origin: 0 50%; }
+.lower small { display: block; font-weight: 700; font-size: 26px; color: var(--slate); }
+/* chapter list (intro) */
+.toc { display: flex; flex-direction: column; gap: 18px; }
+.toc .row { display: flex; gap: 20px; align-items: center; font-weight: 800; font-size: 46px; background: #fff; border-radius: 20px;
+  padding: 16px 28px; box-shadow: 0 0 0 8px #fff, 0 14px 24px rgba(27,36,48,.16); transform-origin: 0 50%; }
+.toc .row b { background: var(--ink); color: #fff; border-radius: 12px; padding: 4px 14px; font-size: 36px; }
+/* thumbnail (1280×720) */
+body.thumb { width: 1280px; height: 720px; }
