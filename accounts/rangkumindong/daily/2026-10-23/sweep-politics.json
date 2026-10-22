@@ -1,0 +1,325 @@
+{
+ "area": "politics",
+ "run_date": "2026-10-23",
+ "checked": [
+  "detik berita (read via search-returned URL; snapshot ~20-22 Oct)",
+  "CNN Indonesia nasional (22 Oct items to 16:36 WIB)",
+  "ANTARA hukum (terpopuler/terkini, 22 Oct)",
+  "Tempo politik (page robots-blocked; headlines via search only)",
+  "ANTARA politik not separately read",
+  "Watch list found: Presiden/Istana, DPR (Komisi III/IX), KPK (Sumut roads, BNPB, Summarecon), Kejagung/MK/Polri none new in headlines, demonstrations (Surabaya), TNI",
+  "Storylines: definisi-korupsi, karhutla, gibran-ijazah-mk (search: nothing new after 20 Oct Okezone piece), rupiah/msci are not politics"
+ ],
+ "events": [
+  {
+   "date": "2026-10-21",
+   "category": "POL",
+   "event": "Prabowo, at a plenary cabinet meeting on 21 Oct and again at the TPAKD national meeting on 22 Oct, says foreign companies holding concessions are suspected of contributing to karhutla, orders permits of proven violators revoked, and says company names will be announced 'pada saatnya'.",
+   "key_numbers": "32 companies under forestry administrative sanctions (Forestry Minister Raja Juli Antoni, 21 Oct) · 6 Kalimantan firms newly suspended, largest burned area PT Hasil Kalimantan Jaya 4,803 ha of 36,745 ha concession · Prabowo: one firm violated 'up to 19 times', permits should go after 2 violations · no company named",
+   "storyline": "karhutla",
+   "update_of": "",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "ANTARA",
+     "url": "https://www.antaranews.com/berita/5805911/prabowo-curigai-perusahaan-asing-sebabkan-kebakaran-hutan-kalimantan"
+    },
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/nasional/20261022082802-20-1418252/prabowo-perintahkan-cabut-izin-32-perusahaan-kena-sanksi-karhutla"
+    },
+    {
+     "label": "CNBC Indonesia",
+     "url": "https://www.cnbcindonesia.com/news/20261022153704-4-778634/prabowo-ungkap-ada-indikasi-banyak-perusahaan-asing-terlibat-karhutla"
+    }
+   ],
+   "why_it_matters": "The President's first direct statement on who is accountable for the haze, after Singapore's notices to 10 firms.",
+   "signals": {
+    "spreading": 2,
+    "wallet": 1,
+    "surprise": 2,
+    "visual": 2,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "CNN Indonesia nasional top items 22 Oct; ANTARA Top News and video; Tempo politik",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-10-22",
+   "category": "POL",
+   "event": "Luhut's proposal to drop state loss from the definition of corruption draws more pushback: PKS legislators Nasir Djamil and Mardani Ali Sera (DPR Komisi III) oppose it, a Golkar-linked DPR member and a PUKAT UGM researcher weigh in, while Yusril calls it worth considering; no direct Palace statement yet.",
+   "key_numbers": "Nasir Djamil: 'ahistoris dan layak ditolak' · Soedeson Tandra (ANTARA headline): state loss must stay in the definition · PUKAT UGM: adopt UNCAC offences into UU Tipikor · Luhut's claim of Prabowo approval still unconfirmed by Palace",
+   "storyline": "definisi-korupsi",
+   "update_of": "",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "Suara.com",
+     "url": "https://www.suara.com/news/2026/10/22/170129/usul-unsur-kerugian-negara-dihapus-dari-korupsi-luhut-disentil-dua-politisi-pks"
+    },
+    {
+     "label": "ANTARA (hukum page headlines)",
+     "url": "https://www.antaranews.com/hukum"
+    },
+    {
+     "label": "Kompas",
+     "url": "https://nasional.kompas.com/read/2026/10/22/06353311/perubahan-definisi-korupsi-ala-luhut-pandjaitan-tuai-penolakan"
+    }
+   ],
+   "why_it_matters": "Whether the corruption law is softened affects how big graft cases are prosecuted.",
+   "signals": {
+    "spreading": 2,
+    "wallet": 1,
+    "surprise": 2,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "Detik DPR/KPK block and Tempo politik headlines 21-22 Oct",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-10-22",
+   "category": "POL",
+   "event": "KPK detains 7 of 8 suspects in the expanded North Sumatra road-project corruption case, including former BBPJN Sumut head Stanley Cicero Haggard Tuapattinaja; the eighth, Dicky Erlangga, skipped the summons and is called again on 26 Oct.",
+   "key_numbers": "7 detained for 20 days, 22 Oct–10 Nov · 8 suspects · 6 projects worth about Rp231.8 miliar · OTT 26 Jun 2025 · KPK says it may extend to North Sumatra provincial government and Ministry of PU parties",
+   "storyline": "corruption-cases",
+   "update_of": "",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "ANTARA",
+     "url": "https://www.antaranews.com/berita/5805403/kpk-tahan-7-dari-8-tersangka-pengembangan-kasus-jalan-sumut"
+    },
+    {
+     "label": "ANTARA",
+     "url": "https://antaranews.com/berita/5806007/kpk-berpeluang-kembangkan-kasus-jalan-sumut-ke-pihak-pemprov-dan-kementerian-pu"
+    }
+   ],
+   "why_it_matters": "Shows the road-building budget case widening to central-government road agency officials.",
+   "signals": {
+    "spreading": 2,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "ANTARA Terpopuler (2 items) 22 Oct",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-10-22",
+   "category": "POL",
+   "event": "TNI says it will follow up KPK's 20 Oct letter to Panglima Agus Subiyanto naming two active soldiers allegedly involved in the BNPB disaster-fund corruption case; KPK is awaiting TNI's reply.",
+   "key_numbers": "2 active soldiers · KPK letter 20 Oct · 5 civilian suspects named 14 Oct · KPK seizures Rp5.47 miliar (16 Oct) · Puspom TNI informed about ex-BNPB head Suharyanto's role",
+   "storyline": "corruption-cases",
+   "update_of": "E0215",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "ANTARA",
+     "url": "https://www.antaranews.com/berita/5803729/tni-akan-tindak-lanjuti-informasi-kpk-soal-dua-prajurit-terlibat-kasus-bnpb"
+    },
+    {
+     "label": "ANTARA (hukum page)",
+     "url": "https://www.antaranews.com/hukum"
+    }
+   ],
+   "why_it_matters": "Military personnel in a disaster-aid graft case raises the civil vs military court question after the MK ruling.",
+   "signals": {
+    "spreading": 2,
+    "wallet": 0,
+    "surprise": 2,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "ANTARA Terpopuler #1 22 Oct",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-10-22",
+   "category": "POL",
+   "event": "GRIB Jaya says, via lawyer Wilson Colling, that the Rp800 juta Hercules handed to KPK came from PT Summarecon Agung for a 65-ha land dispute in Bogor; KPK says it is tied to the alleged bribery over Summarecon's HGB at ATR/BPN.",
+   "key_numbers": "Rp800 juta · 65 ha · 12 SHM → 12 SHGB · KPK: 8 suspects incl. Summarecon President Director Adrianto Pitojo Adhi · OTT 14 Sep: 19 people, Rp106.3 miliar seized · intermediary named 'MW' (GRIB) vs 'NMB' (KPK)",
+   "storyline": "corruption-cases",
+   "update_of": "E0209",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/nasional/20261022122321-12-1418368/grib-jaya-ungkap-asal-usul-rp800-juta-yang-diserahkan-ke-kpk"
+    },
+    {
+     "label": "Wartaekonomi",
+     "url": "https://wartaekonomi.co.id/read642612/terkait-pt-summarecon-hercules-kembalikan-rp800-juta-ke-kpk-grib-jaya-ungkap-asal-usul-uangnya"
+    }
+   ],
+   "why_it_matters": "A mass-organisation chairman, a property giant and land-office officials are in one bribery file.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "CNN Indonesia nasional/hukum 22 Oct",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-10-22",
+   "category": "POL",
+   "event": "Madiun mayor (non-active) Maidi is sentenced to 5 years by the Surabaya Tipikor court in the CSR-extortion and project-fee case, 2 years 2 months below KPK's demand.",
+   "key_numbers": "5 years · fine Rp250 juta (3 months substitute) · demand 7 years 2 months · KPK demanded replacement money Rp8,005,384,790 (court order on it not confirmed)",
+   "storyline": "corruption-cases",
+   "update_of": "",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "ANTARA",
+     "url": "https://www.antaranews.com/berita/5805627/maidi-divonis-lima-tahun-dalam-perkara-pemerasan-berkedok-csr"
+    },
+    {
+     "label": "Detik",
+     "url": "https://news.detik.com/berita/d-8719435/walkot-madiun-maidi-divonis-5-tahun-bui-di-kasus-korupsi-dana-csr"
+    }
+   ],
+   "why_it_matters": "Another regional head jailed; sentences are shorter than prosecutors ask.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "ANTARA Foto and hukum page 22 Oct",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-10-22",
+   "category": "POL",
+   "event": "40 national figures file an amicus curiae at the Jakarta Tipikor court asking for acquittal of former Ombudsman chair Hery Susanto during the defence rejoinder; verdict is set for 5 Nov.",
+   "key_numbers": "Alleged bribes Rp4.85 miliar · demand 5 years 6 months + Rp300 juta fine + Rp4.19 miliar restitution · 40 amicus filers · verdict 5 Nov 2026",
+   "storyline": "corruption-cases",
+   "update_of": "",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "ANTARA",
+     "url": "https://www.antaranews.com/berita/5806087/sebanyak-40-tokoh-ajukan-amicus-curiae-untuk-eks-ketua-ombudsman"
+    },
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/nasional/20261022213625-12-1418621/40-tokoh-ajukan-amicus-curiae-minta-eks-ketua-ombudsman-dibebaskan"
+    }
+   ],
+   "why_it_matters": "Public figures pressing a court in an ongoing bribery trial over nickel-mining reports.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 0,
+    "fresh": 2,
+    "rivals": 2
+   },
+   "spreading_evidence": "CNN Indonesia 11:45 item; ANTARA hukum 22 Oct",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-10-22",
+   "category": "POL",
+   "event": "East Java police arrest 11 people accused of trying to provoke unrest at the student rally at Gedung Grahadi, Surabaya, which the police chief calls largely peaceful.",
+   "key_numbers": "11 arrested (2 students, 9 school dropouts) · thinner, arak, knuckle-dusters, phones seized · Polda Jatim chief Irjen Dekananto Eko Purwono",
+   "storyline": "protests-prabowo-2-years",
+   "update_of": "E0179",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "ANTARA Jatim",
+     "url": "https://jatim.antaranews.com/berita/1110323/polisi-tangkap-11-orang-terkait-dugaan-pemicu-kericuhan-di-surabaya"
+    },
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/nasional/20261022211043-12-1418617/polisi-tangkap-11-orang-diduga-mau-bikin-rusuh-aksi-di-surabaya"
+    }
+   ],
+   "why_it_matters": "Student protests continue beyond the 20 Oct anniversary; police frame arrests as separate from the students.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 2
+   },
+   "spreading_evidence": "ANTARA hukum Terkini 22 Oct",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-10-23",
+   "category": "POL",
+   "event": "Partai Demokrat's South Sulawesi regional conference (Musda) is scheduled in Makassar, where Mayor Munafri Arifuddin, who left Golkar on 5 Oct, is a candidate for provincial chair.",
+   "key_numbers": "Musda 23 Oct 2026 · Munafri resigned from Golkar 5 Oct",
+   "storyline": "party-moves",
+   "update_of": "E0075",
+   "status": "upcoming",
+   "sources": [
+    {
+     "label": "Existing record E0075",
+     "url": "https://news.detik.com/berita"
+    }
+   ],
+   "why_it_matters": "A sitting mayor switching party and seeking a regional chair post.",
+   "signals": {
+    "spreading": 0,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 0,
+    "fresh": 2,
+    "rivals": 2
+   },
+   "spreading_evidence": "",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-05",
+   "category": "POL",
+   "event": "Verdict date set for former Ombudsman chair Hery Susanto in the Jakarta Tipikor court.",
+   "key_numbers": "5 Nov 2026 · demand 5 years 6 months",
+   "storyline": "corruption-cases",
+   "update_of": "",
+   "status": "upcoming",
+   "sources": [
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/nasional"
+    },
+    {
+     "label": "ANTARA",
+     "url": "https://www.antaranews.com/berita/5806087/sebanyak-40-tokoh-ajukan-amicus-curiae-untuk-eks-ketua-ombudsman"
+    }
+   ],
+   "why_it_matters": "Next milestone in a closely watched bribery trial.",
+   "signals": {
+    "spreading": 0,
+    "wallet": 0,
+    "surprise": 0,
+    "visual": 0,
+    "fresh": 0,
+    "rivals": 2
+   },
+   "spreading_evidence": "",
+   "sensitivity": "high"
+  }
+ ],
+ "gaps": [
+  "Prabowo 'announce foreign company names' follow-up and Singapore reply not yet seen",
+  "Luhut definisi korupsi: Palace has not confirmed Prabowo approved; Kompas/Tempo pages unreadable (robots)",
+  "Hasn't verified DPR MBG kitchen closure proposal (Komisi IX) or KPK Sumut fund-flow numbers (Rp3.49 miliar fee from one outlet)",
+  "Slug names protests-prabowo-2-years and party-moves are proposed new slugs; E0075 source for Musda is a placeholder section URL"
+ ]
+}

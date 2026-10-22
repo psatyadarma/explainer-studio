@@ -1,0 +1,481 @@
+{
+ "title": "Rangkumin Seminggu",
+ "dates": "17–23 Okt 2026",
+ "direction": "[warm, clear weekly recap; neutral, attributed]",
+ "voice": "male:Pratama",
+ "format": "weekly",
+ "chapters": [
+  {
+   "n": 0,
+   "kicker": "INTRO",
+   "title": "Minggu ini",
+   "lines": [
+    {
+     "id": "i1",
+     "tag": "[energetic]",
+     "text": "Seminggu ini rame banget. Kamu ketinggalan yang mana?"
+    },
+    {
+     "id": "i2",
+     "tag": "[quick, building]",
+     "text": "IHSG bangkit dari titik terendahnya. BI ambil jalan tengah. Presiden bicara soal izin perusahaan karhutla.",
+     "say": "I H S G bangkit dari titik terendahnya. Be i ambil jalan tengah. Presiden bicara soal izin perusahaan karhutla."
+    },
+    {
+     "id": "i3",
+     "tag": "[quick, playful]",
+     "text": "Plus: debat definisi korupsi, isi dompet kamu, dan roket yang jatuh di kebun sawit."
+    },
+    {
+     "id": "rd",
+     "tagline": true,
+     "text": "Rangkumin dong!"
+    },
+    {
+     "id": "i4",
+     "tag": "[friendly]",
+     "text": "Ini Rangkumin Seminggu, 17 sampai 23 Oktober. Di akhir, ada tanggal-tanggal minggu depan yang wajib kamu catat.",
+     "say": "Ini Rangkumin Seminggu, tujuh belas sampai dua puluh tiga Oktober. Di akhir, ada tanggal-tanggal minggu depan yang wajib kamu catat."
+    }
+   ]
+  },
+  {
+   "n": 1,
+   "kicker": "BAB 1",
+   "title": "IHSG bangkit?",
+   "lines": [
+    {
+     "id": "a1",
+     "tag": "[serious]",
+     "text": "Senin kemarin kami bahas: IHSG jatuh ke bawah 5.000.",
+     "say": "Senin kemarin kami bahas: I H S G jatuh ke bawah lima ribu."
+    },
+    {
+     "id": "a2",
+     "tag": "[punchy]",
+     "text": "Hari itu, 19 Oktober, IHSG ditutup di 4.996. Terendah sejak Oktober 2020.",
+     "say": "Hari itu, sembilan belas Oktober, I H S G ditutup di empat ribu sembilan ratus sembilan puluh enam. Terendah sejak Oktober dua ribu dua puluh."
+    },
+    {
+     "id": "a3",
+     "tag": "[explaining]",
+     "text": "Bursa langsung pasang rem: batas turun harian saham dipersempit, dari 15 jadi 7 persen, sampai akhir Desember.",
+     "say": "Bursa langsung pasang rem: batas turun harian saham dipersempit, dari lima belas jadi tujuh persen, sampai akhir Desember."
+    },
+    {
+     "id": "a4",
+     "tag": "[explaining]",
+     "text": "BEI juga mau mengeluarkan saham yang kepemilikannya terlalu terpusat dari hitungan IHSG. Dan Danantara bilang siap beli saham BUMN.",
+     "say": "Be E I juga mau mengeluarkan saham yang kepemilikannya terlalu terpusat dari hitungan I H S G. Dan Danantara bilang siap beli saham Be U Em En."
+    },
+    {
+     "id": "a5",
+     "tag": "[surprised]",
+     "text": "Selasa, IHSG naik 5,65 persen. Dalam sehari.",
+     "say": "Selasa, I H S G naik lima koma enam lima persen. Dalam. Sehari."
+    },
+    {
+     "id": "a6",
+     "tag": "[upbeat]",
+     "text": "Rabu naik lagi. Kamis juga, ditutup di 5.387. Tiga hari naik berturut-turut.",
+     "say": "Rabu naik lagi. Kamis juga, ditutup di lima ribu tiga ratus delapan puluh tujuh. Tiga hari naik berturut-turut.",
+     "todo": "TODO-FRIDAY-CLOSE: update with Fri 23 Okt IHSG/foreign flow/rupiah close (factcheck.md 'Must update')"
+    },
+    {
+     "id": "a7",
+     "tag": "[leaning in]",
+     "text": "Tapi… investor asing belum balik. Kamis saja, mereka jual bersih Rp1,49 triliun.",
+     "say": "Tapi... investor asing belum balik. Kamis saja, mereka jual bersih satu koma empat sembilan triliun rupiah.",
+     "todo": "TODO-FRIDAY-CLOSE: update with Fri 23 Okt IHSG/foreign flow/rupiah close (factcheck.md 'Must update')"
+    },
+    {
+     "id": "a8",
+     "tag": "[matter-of-fact]",
+     "text": "Dan usulan MSCI masih jalan. Keputusannya paling lambat 30 Juni 2027.",
+     "say": "Dan usulan em es si ai masih jalan. Keputusannya paling lambat tiga puluh Juni dua ribu dua puluh tujuh."
+    },
+    {
+     "id": "a9",
+     "tag": "[calm]",
+     "text": "Ingat, ini bukan ajakan jual atau beli saham."
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "kicker": "BAB 2",
+   "title": "BI & rupiah",
+   "lines": [
+    {
+     "id": "b1",
+     "tag": "[playful]",
+     "text": "Selasa kemarin kami tanya: kalau kamu BI, tahan atau naik?",
+     "say": "Selasa kemarin kami tanya: kalau kamu be i, tahan, atau naik?"
+    },
+    {
+     "id": "b1b",
+     "tag": "[serious]",
+     "text": "Waktu itu rupiah baru saja ditutup Rp18.046 per dolar, Senin 19 Oktober.",
+     "say": "Waktu itu rupiah baru saja ditutup delapan belas ribu empat puluh enam rupiah per dolar, Senin sembilan belas Oktober."
+    },
+    {
+     "id": "b2",
+     "tag": "[clear]",
+     "text": "Rabu, BI jawab: BI-Rate ditahan di 5,75 persen.",
+     "say": "Rabu, be i jawab: be i rate ditahan di lima koma tujuh lima persen."
+    },
+    {
+     "id": "b3",
+     "tag": "[surprised]",
+     "text": "Padahal di survei Bisnis, 8 dari 14 ekonom menebak naik.",
+     "say": "Padahal di survei Bisnis, delapan dari empat belas ekonom menebak naik."
+    },
+    {
+     "id": "b4",
+     "tag": "[leaning in]",
+     "text": "Tapi ada yang naik: deposit facility, dari 4,75 jadi 5 persen.",
+     "say": "Tapi ada yang naik: deposit fasiliti, dari empat koma tujuh lima, jadi lima persen."
+    },
+    {
+     "id": "b5",
+     "tag": "[explaining]",
+     "text": "Gampangnya: itu bunga yang didapat bank kalau menyimpan dananya di BI. Lending facility tetap 6,5 persen.",
+     "say": "Gampangnya: itu bunga yang didapat bank kalau menyimpan dananya di be i. Lending fasiliti tetap enam koma lima persen."
+    },
+    {
+     "id": "b5b",
+     "tag": "[playful]",
+     "text": "Jadi jawabannya bukan tahan, bukan naik. Jalan tengah."
+    },
+    {
+     "id": "b6",
+     "tag": "[explaining]",
+     "text": "Kata BI, keputusan ini untuk menjaga rupiah di tengah ketidakpastian global.",
+     "say": "Kata be i, keputusan ini untuk menjaga rupiah di tengah ketidakpastian global."
+    },
+    {
+     "id": "b7",
+     "tag": "[reassuring]",
+     "text": "Buat kamu: suku bunga acuan nggak naik. Jadi patokan bunga kredit belum berubah."
+    },
+    {
+     "id": "b7b",
+     "tag": "[reassuring]",
+     "text": "Dan inflasi September 3,28 persen, masih dalam target BI.",
+     "say": "Dan inflasi September tiga koma dua delapan persen, masih dalam target be i."
+    },
+    {
+     "id": "b8",
+     "tag": "[serious]",
+     "text": "Tapi rupiah masih di atas 18 ribu. Rabu ditutup Rp18.022 per dolar.",
+     "say": "Tapi rupiah masih di atas delapan belas ribu. Rabu ditutup delapan belas ribu dua puluh dua rupiah per dolar.",
+     "todo": "TODO-FRIDAY-CLOSE: update with Fri 23 Okt IHSG/foreign flow/rupiah close (factcheck.md 'Must update')"
+    },
+    {
+     "id": "b9",
+     "tag": "[matter-of-fact]",
+     "text": "Ujian berikutnya: bank sentral Amerika, The Fed, rapat 27–28 Oktober.",
+     "say": "Ujian berikutnya: bank sentral Amerika, The Fed, rapat dua puluh tujuh sampai dua puluh delapan Oktober."
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "kicker": "BAB 3",
+   "title": "Karhutla",
+   "lines": [
+    {
+     "id": "c1",
+     "tag": "[serious]",
+     "text": "Rabu kemarin kami bahas: 10 perusahaan Indonesia disurati Singapura soal asap.",
+     "say": "Rabu kemarin kami bahas: sepuluh perusahaan Indonesia disurati Singapura soal asap."
+    },
+    {
+     "id": "c2",
+     "tag": "[leaning in]",
+     "text": "Minggu ini, Presiden Prabowo ikut bicara."
+    },
+    {
+     "id": "c3",
+     "tag": "[neutral, reporting]",
+     "text": "Di sidang kabinet, Rabu, ia minta semua izin perusahaan yang terbukti melanggar dicabut."
+    },
+    {
+     "id": "c4",
+     "tag": "[neutral, reporting]",
+     "text": "Kamis, Prabowo menyebut ada perusahaan yang melanggar sampai 19 kali, angka yang ia minta dicek lagi. Menurutnya, dua kali melanggar, cabut saja.",
+     "say": "Kamis, Prabowo menyebut ada perusahaan yang melanggar sampai sembilan belas kali, angka yang ia minta dicek lagi. Menurutnya, dua kali melanggar, cabut saja."
+    },
+    {
+     "id": "c5",
+     "tag": "[neutral]",
+     "text": "Ia juga menduga sejumlah perusahaan asing pemegang konsesi ikut menyumbang kebakaran. Namanya? Diumumkan pada saatnya, katanya."
+    },
+    {
+     "id": "c6",
+     "tag": "[matter-of-fact]",
+     "text": "Menteri Kehutanan Raja Juli Antoni: sudah 32 perusahaan kena sanksi administratif.",
+     "say": "Menteri Kehutanan Raja Juli Antoni: sudah tiga puluh dua perusahaan kena sanksi administratif."
+    },
+    {
+     "id": "c7",
+     "tag": "[matter-of-fact]",
+     "text": "Enam yang terbaru di Kalimantan Tengah, izinnya dibekukan. Yang terbakar paling luas: 4.803 hektare.",
+     "say": "Enam yang terbaru di Kalimantan Tengah, izinnya dibekukan. Yang terbakar paling luas: empat ribu delapan ratus tiga hektare."
+    },
+    {
+     "id": "c8",
+     "tag": "[concerned]",
+     "text": "Dan dampaknya ke warga: sampai 13 Oktober, tercatat 283.270 kasus ISPA di 7 provinsi.",
+     "say": "Dan dampaknya ke warga: sampai tiga belas Oktober, tercatat dua ratus delapan puluh tiga ribu, dua ratus tujuh puluh kasus I S P A. Di tujuh provinsi."
+    },
+    {
+     "id": "c8b",
+     "tag": "[matter-of-fact]",
+     "text": "Di udara juga: sejak 11 Agustus sampai 17 Oktober, 2.458 penerbangan terganggu di 29 bandara.",
+     "say": "Di udara juga: sejak sebelas Agustus sampai tujuh belas Oktober, dua ribu empat ratus lima puluh delapan penerbangan terganggu, di dua puluh sembilan bandara."
+    },
+    {
+     "id": "c9",
+     "tag": "[careful]",
+     "text": "Ingat: belum ada perusahaan yang diputus bersalah di pengadilan."
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "kicker": "BAB 4",
+   "title": "Definisi korupsi",
+   "lines": [
+    {
+     "id": "d1",
+     "tag": "[curious]",
+     "text": "Kamis kemarin kami bahas: “kerugian negara” mau dihapus dari definisi korupsi?",
+     "say": "Kamis kemarin kami bahas: kerugian negara mau dihapus dari definisi korupsi?"
+    },
+    {
+     "id": "d2",
+     "tag": "[explaining]",
+     "text": "Awalnya, 20 Oktober, Luhut bilang Presiden setuju kajian DEN: ikut versi PBB, yang fokusnya suap.",
+     "say": "Awalnya, dua puluh Oktober, Luhut bilang Presiden setuju kajian De E En: ikut versi Pe Be Be, yang fokusnya suap."
+    },
+    {
+     "id": "d3",
+     "tag": "[serious]",
+     "text": "Ketua KPK keberatan: kerugian negara harus tetap.",
+     "say": "Ketua Ka Pe Ka keberatan: kerugian negara harus tetap."
+    },
+    {
+     "id": "d4",
+     "tag": "[serious]",
+     "text": "Data ICW: 83 persen terdakwa korupsi 2024 dihukum pakai pasal kerugian negara.",
+     "say": "Data I Ce We: delapan puluh tiga persen terdakwa korupsi dua ribu dua puluh empat dihukum pakai pasal kerugian negara."
+    },
+    {
+     "id": "d4b",
+     "tag": "[explaining]",
+     "text": "Pasal itu, Pasal 2 dan 3 UU Tipikor, sejak 2026 pindah ke KUHP baru. Unsur kerugian negaranya tetap ada.",
+     "say": "Pasal itu, pasal dua dan tiga U U Tipikor, sejak dua ribu dua puluh enam pindah ke Ka U Ha Pe baru. Unsur kerugian negaranya tetap ada."
+    },
+    {
+     "id": "d5",
+     "tag": "[matter-of-fact]",
+     "text": "Lalu Luhut klarifikasi: kerugian negara tetap jadi unsur. Usulnya, pembuktian diperjelas, keputusan bisnis beritikad baik dilindungi."
+    },
+    {
+     "id": "d6",
+     "tag": "[neutral, reporting]",
+     "text": "Kamis, kritik datang dari dua anggota DPR. Nasir Djamil, anggota Komisi III dari PKS: usul itu ahistoris dan layak ditolak.",
+     "say": "Kamis, kritik datang dari dua anggota De Pe Er. Nasir Djamil, anggota Komisi tiga dari Pe Ka Es: usul itu ahistoris, dan layak ditolak."
+    },
+    {
+     "id": "d6b",
+     "tag": "[neutral, reporting]",
+     "text": "Rekan sefraksinya, Mardani Ali Sera: korupsi itu kejahatan luar biasa, aturannya justru harus diperkuat."
+    },
+    {
+     "id": "d7",
+     "tag": "[neutral]",
+     "text": "Di sisi lain, Yusril bilang usul ini layak dipertimbangkan."
+    },
+    {
+     "id": "d8",
+     "tag": "[calm]",
+     "text": "Statusnya: belum masuk Prolegnas, belum ada draf RUU yang diumumkan. Dan pernyataan langsung dari Presiden atau Istana belum kami temukan.",
+     "say": "Statusnya: belum masuk Prolegnas, belum ada draf Er U U yang diumumkan. Dan pernyataan langsung dari Presiden atau Istana belum kami temukan."
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "kicker": "BAB 5",
+   "title": "Dompet kamu",
+   "lines": [
+    {
+     "id": "e1",
+     "tag": "[friendly]",
+     "text": "Sekarang, yang nyangkut ke dompet."
+    },
+    {
+     "id": "e2",
+     "tag": "[punchy]",
+     "text": "Satu: pemerintah siapkan sekitar Rp31,8 triliun, berlaku sampai akhir tahun.",
+     "say": "Satu: pemerintah siapkan sekitar tiga puluh satu koma delapan triliun rupiah, berlaku sampai akhir tahun."
+    },
+    {
+     "id": "e3",
+     "tag": "[explaining, quick]",
+     "text": "Isinya: bantuan subsidi upah, bantuan beras 10 kilo, diskon transportasi Natal dan Tahun Baru, plus pembukaan rekening bank untuk warga usia 17 tahun ke atas.",
+     "say": "Isinya: bantuan subsidi upah, bantuan beras sepuluh kilo, diskon transportasi Natal dan Tahun Baru, plus pembukaan rekening bank untuk warga usia tujuh belas tahun ke atas."
+    },
+    {
+     "id": "e4",
+     "tag": "[matter-of-fact]",
+     "text": "Kata Menko Airlangga, tujuannya mendorong ekonomi mulai akhir tahun ini. Sebagian sudah dirinci: beras untuk sekitar 33 juta keluarga, BSU untuk sekitar 13 juta pekerja. Diskon Nataru-nya? Rinciannya belum diumumkan.",
+     "say": "Kata Menko Airlangga, tujuannya mendorong ekonomi mulai akhir tahun ini. Sebagian sudah dirinci: beras untuk sekitar tiga puluh tiga juta keluarga, B S U untuk sekitar tiga belas juta pekerja. Diskon Nataru-nya? Rinciannya belum diumumkan."
+    },
+    {
+     "id": "e5",
+     "tag": "[clear]",
+     "text": "Dua: upah minimum 2027. Serikat buruh minta naik 7,5 sampai 9,5 persen.",
+     "say": "Dua: upah minimum dua ribu dua puluh tujuh. Serikat buruh minta naik tujuh koma lima sampai sembilan koma lima persen."
+    },
+    {
+     "id": "e6",
+     "tag": "[neutral]",
+     "text": "Menaker Yassierli: formulanya ikut UU Ketenagakerjaan yang baru. Angkanya belum ada, dibahas dulu di Dewan Pengupahan.",
+     "say": "Menaker Yassierli: formulanya ikut U U Ketenagakerjaan yang baru. Angkanya belum ada, dibahas dulu di Dewan Pengupahan."
+    },
+    {
+     "id": "e7",
+     "tag": "[upbeat]",
+     "text": "Tiga, buat driver ojol: lewat Perpres 27 tahun 2026, sekarang boleh bermitra dengan lebih dari satu aplikasi sekaligus.",
+     "say": "Tiga, buat driver ojol: lewat Perpres dua puluh tujuh tahun dua ribu dua puluh enam, sekarang boleh bermitra dengan lebih dari satu aplikasi sekaligus."
+    },
+    {
+     "id": "e7b",
+     "tag": "[explaining, quick]",
+     "text": "Pengawasnya dibagi tiga: Kementerian UMKM untuk perjanjian kemitraan, Kemenhub untuk tarif penumpang, Komdigi untuk tarif antar barang dan makanan.",
+     "say": "Pengawasnya dibagi tiga: Kementerian U Em Ka Em untuk perjanjian kemitraan, Kemenhub untuk tarif penumpang, Komdigi untuk tarif antar barang dan makanan."
+    },
+    {
+     "id": "e8",
+     "tag": "[curious]",
+     "text": "Yang mana paling kerasa buat kamu?"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "kicker": "BAB 6",
+   "title": "Sekilas",
+   "lines": [
+    {
+     "id": "f1",
+     "tag": "[playful]",
+     "text": "Terakhir, dua kejadian yang bikin heboh."
+    },
+    {
+     "id": "f2",
+     "tag": "[storytelling]",
+     "text": "Minggu sore, 18 Oktober. Warga Kotawaringin Timur, Kalimantan Tengah, dengar dentuman keras.",
+     "say": "Minggu sore, delapan belas Oktober. Warga Kotawaringin Timur, Kalimantan Tengah, dengar dentuman keras."
+    },
+    {
+     "id": "f3",
+     "tag": "[curious]",
+     "text": "Besoknya, ketemu potongan logam besar di kebun sawit, di kilometer 26. Diduga bagian tangki bahan bakar.",
+     "say": "Besoknya, ketemu potongan logam besar di kebun sawit, di kilometer dua puluh enam. Diduga bagian tangki bahan bakar."
+    },
+    {
+     "id": "f4",
+     "tag": "[reveal]",
+     "text": "Kata peneliti BRIN Thomas Djamaluddin: itu sampah roket China, ZhuQue-2E. Lalu ditemukan objek kedua.",
+     "say": "Kata peneliti Brin, Thomas Djamaluddin: itu sampah roket China, Ju Cue dua E. Lalu ditemukan objek kedua."
+    },
+    {
+     "id": "f4b",
+     "tag": "[curious]",
+     "text": "Bentuknya seperti kubah, warnanya kuning pudar, paku kelingnya masih menempel."
+    },
+    {
+     "id": "f5",
+     "tag": "[serious]",
+     "text": "Selasa sore, 20 Oktober, kapal feri KMP Batumandi terbakar dekat Pelabuhan Merak.",
+     "say": "Selasa sore, dua puluh Oktober, kapal feri Ka Em Pe Batumandi terbakar dekat Pelabuhan Merak."
+    },
+    {
+     "id": "f6",
+     "tag": "[serious]",
+     "text": "Di manifes: 420 penumpang dan 89 kendaraan. Ada yang sampai lompat ke laut, lalu ditolong nelayan.",
+     "say": "Di manifes: empat ratus dua puluh penumpang, dan delapan puluh sembilan kendaraan. Ada yang sampai lompat ke laut, lalu ditolong nelayan."
+    },
+    {
+     "id": "f6b",
+     "tag": "[explaining]",
+     "text": "Penumpang dipindah ke kapal lain, KMP Royce 1, lalu dibawa ke Dermaga 6 Merak.",
+     "say": "Penumpang dipindah ke kapal lain, Ka Em Pe Royce satu, lalu dibawa ke Dermaga enam Merak."
+    },
+    {
+     "id": "f7",
+     "tag": "[reassuring]",
+     "text": "Semua penumpang dan awak berhasil dievakuasi, sebagian luka-luka. Titik awal apinya? Keterangannya masih beda-beda: ruang mesin atau dek kendaraan. Polisi masih menyelidiki."
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "kicker": "MINGGU DEPAN",
+   "title": "Catat tanggalnya",
+   "lines": [
+    {
+     "id": "g1",
+     "tag": "[friendly, brisk]",
+     "text": "Oke, minggu depan. Catat tanggalnya."
+    },
+    {
+     "id": "g2",
+     "tag": "[clear]",
+     "text": "Minggu, 25 Oktober: buat yang jualan online. UMKM yang lolos verifikasi dapat potongan biaya admin di e-commerce minimal 50 persen. Daftarnya lewat aplikasi SAPA UMKM, verifikasi paling lama 10 hari.",
+     "say": "Minggu, dua puluh lima Oktober: buat yang jualan online. U Em Ka Em yang lolos verifikasi dapat potongan biaya admin di e-commerce minimal lima puluh persen. Daftarnya lewat aplikasi Sapa U Em Ka Em, verifikasi paling lama sepuluh hari."
+    },
+    {
+     "id": "g4",
+     "tag": "[serious]",
+     "text": "27–28 Oktober: The Fed rapat. Hasilnya keluar Kamis dini hari, waktu Indonesia. Ini yang bisa menggerakkan rupiah.",
+     "say": "Dua puluh tujuh sampai dua puluh delapan Oktober: The Fed rapat. Hasilnya keluar Kamis dini hari, waktu Indonesia. Ini yang bisa menggerakkan rupiah."
+    },
+    {
+     "id": "g5",
+     "tag": "[matter-of-fact]",
+     "text": "Sampai 30 Oktober: aksi buruh soal upah minimum 2027 dijadwalkan berlanjut di 38 provinsi.",
+     "say": "Sampai tiga puluh Oktober: aksi buruh soal upah minimum dua ribu dua puluh tujuh dijadwalkan berlanjut di tiga puluh delapan provinsi."
+    },
+    {
+     "id": "g6",
+     "tag": "[matter-of-fact]",
+     "text": "Dan 17–18 November: rapat BI berikutnya.",
+     "say": "Dan tujuh belas sampai delapan belas November: rapat be i berikutnya."
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "kicker": "OUTRO",
+   "title": "Sampai Sabtu depan",
+   "lines": [
+    {
+     "id": "o1",
+     "tag": "[warm, asking the viewer]",
+     "text": "Dari semua cerita minggu ini, mana yang paling ngaruh ke hidup kamu? Tulis di komentar."
+    },
+    {
+     "id": "o2",
+     "tag": "[friendly, upbeat]",
+     "text": "Follow Rangkumin Dong. Rangkumin Seminggu, tiap Sabtu pagi!"
+    }
+   ],
+   "tail": 1.2
+  }
+ ]
+}

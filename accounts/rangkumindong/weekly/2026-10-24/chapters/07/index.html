@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Rangkumin Seminggu — chapter</title>
+<!-- ../../../../../../ is replaced by engine/weekly.py init with the path back to the repo root -->
+<link rel="stylesheet" href="../../../../../../styles/sticker/sticker.css">
+<link rel="stylesheet" href="../../../../../../styles/sticker/weekly/weekly.css">
+<script src="../../../../../../styles/sticker/sticker.js"></script>
+<script src="build/timing.js"></script>
+<script src="../../build/week.js"></script>
+<script src="../../../../../../styles/sticker/weekly/weekly.js"></script>
+<style>
+  /* Bab 7 — Minggu depan: a road of calendar pages, one zone per date */
+  .road { position: absolute; left: 300px; top: 190px; width: 8500px; height: 0; border-top: 10px dashed rgba(62,85,104,.35); }
+  .pin { width: 34px; height: 34px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 0 7px #fff; }
+  .cal { width: 400px; height: 470px; background: #fff; border-radius: 34px; overflow: hidden; display: flex; flex-direction: column; align-items: center; }
+  .cal .top { width: 100%; background: var(--accent); color: #fff; font-weight: 900; font-size: 46px; letter-spacing: 1px; text-align: center; padding: 22px 0 18px; text-transform: uppercase; }
+  .cal .day { font-weight: 900; font-size: 190px; letter-spacing: -8px; line-height: 1; margin-top: 46px; color: var(--ink); white-space: nowrap; }
+  .cal .day.sm { font-size: 118px; letter-spacing: -5px; margin-top: 82px; }
+  .cal .mon { font-weight: 900; font-size: 50px; color: var(--slate); margin-top: 18px; text-transform: uppercase; letter-spacing: 1px; }
+  .cal .rings { position: absolute; top: -18px; left: 0; right: 0; display: flex; justify-content: space-around; padding: 0 70px; }
+  .cal .rings i { width: 22px; height: 52px; border-radius: 11px; background: var(--ink); }
+  .cal .part { display: inline-block; }
+  .receipt { width: 640px; background: #fff; border-radius: 30px; padding: 40px 46px; }
+  .receipt h3 { font-weight: 900; font-size: 46px; letter-spacing: -1px; }
+  .receipt .row { display: flex; justify-content: space-between; align-items: center; font-weight: 800; font-size: 38px; color: var(--slate); margin-top: 26px; }
+  .receipt .ln { height: 22px; border-radius: 11px; background: var(--paper-2); }
+  .receipt .fee { color: var(--ink); position: relative; }
+  .receipt .strike { position: absolute; left: -8px; right: -8px; top: 50%; height: 8px; background: var(--accent); border-radius: 4px; transform-origin: 0 50%; }
+  .stamp small { display: block; font-size: 40px; letter-spacing: 0; font-weight: 800; text-align: center; margin-bottom: -4px; }
+  .phone { width: 300px; height: 520px; background: var(--ink); border-radius: 48px; padding: 22px; }
+  .phone .scr { width: 100%; height: 100%; background: var(--paper); border-radius: 30px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 22px; }
+  .phone .app { width: 140px; height: 140px; border-radius: 34px; background: var(--accent); color: #fff; font-weight: 900; font-size: 44px; display: flex; align-items: center; justify-content: center; }
+  .phone .nm { font-weight: 900; font-size: 40px; text-align: center; line-height: 1.05; }
+  .coin { width: 290px; height: 290px; border-radius: 50%; background: var(--hi); display: flex; align-items: center; justify-content: center; font-weight: 900; font-size: 120px; letter-spacing: -4px; color: var(--ink); border: 12px solid #E9B90A; }
+  .arr { font-weight: 900; font-size: 90px; color: var(--accent); }
+  .sign { width: 440px; background: #fff; border-radius: 22px; padding: 30px 20px; text-align: center; font-weight: 900; font-size: 58px; line-height: 1.02; letter-spacing: -1.5px; }
+  .sign .yr { display: inline-block; background: var(--accent); color: #fff; border-radius: 14px; padding: 2px 18px 8px; margin-top: 12px; font-size: 76px; }
+  .stick { position: absolute; left: 50%; top: 100%; width: 26px; height: 230px; margin-left: -13px; background: #B0793F; border-radius: 6px; z-index: -1; }
+  .dots { display: grid; grid-template-columns: repeat(8, 40px); gap: 14px; }
+  .dots i { width: 40px; height: 40px; border-radius: 50%; background: var(--slate); }
+  .bi { width: 280px; height: 280px; border-radius: 50%; background: var(--ink); color: #fff; font-weight: 900; font-size: 130px; letter-spacing: -4px; display: flex; align-items: center; justify-content: center; }
+</style>
+</head>
+<body>
+<div id="stage">
+  <div id="world">
+    <div class="road"></div>
+    <div class="abs pin" style="left:620px; top:195px"></div>
+    <div class="abs pin" style="left:4500px; top:195px"></div>
+    <div class="abs pin" style="left:6440px; top:195px"></div>
+    <div class="abs pin" style="left:8380px; top:195px"></div>
+
+    <!-- ZONE 1 (x≈960): Minggu 25 Oktober, UMKM jualan online -->
+    <div id="cal1" class="abs cal sticker" style="left:620px; top:530px">
+      <div class="top" id="c1a">Minggu</div><div class="day" id="c1b">25</div><div class="mon" id="c1c">Oktober</div>
+    </div>
+    <svg id="shop" class="abs sticker-svg" style="left:1300px; top:370px" width="420" height="340" viewBox="0 0 420 340">
+      <rect x="40" y="110" width="340" height="220" rx="16" fill="#fff"/>
+      <g><path d="M20 30 h380 l20 90 h-420z" fill="#FF5A36"/>
+        <path d="M76 30 h54 l8 90 h-70z M184 30 h54 l4 90 h-62z M292 30 h54 l12 90 h-70z" fill="#fff"/></g>
+      <rect x="20" y="10" width="380" height="30" rx="10" fill="#1B2430"/>
+      <rect x="80" y="170" width="120" height="160" rx="10" fill="#3E5568"/>
+      <rect x="230" y="170" width="110" height="90" rx="10" fill="#FFD23F"/>
+      <circle cx="180" cy="255" r="8" fill="#FFD23F"/>
+    </svg>
+    <div id="t1" class="abs tag light sticker" style="left:1300px; top:610px">jualan online</div>
+    <div id="t2" class="abs tag accent sticker" style="left:1300px; top:745px">UMKM ✓ lolos verifikasi</div>
+
+    <!-- ZONE 2 (x≈2900): potongan biaya admin, SAPA UMKM -->
+    <div id="rec" class="abs receipt sticker" style="left:2580px; top:420px">
+      <h3>Biaya admin e-commerce</h3>
+      <div class="row"><span class="ln" style="width:240px"></span><span class="ln" style="width:120px"></span></div>
+      <div class="row"><span class="ln" style="width:300px"></span><span class="ln" style="width:100px"></span></div>
+      <div class="row"><span>biaya admin</span><span class="ln" id="feebar" style="width:220px; background:var(--slate); display:block"></span></div>
+    </div>
+    <div id="st50" class="abs stamp sticker" style="left:2830px; top:705px"><small>minimal</small>−50%</div>
+    <div id="phone" class="abs phone sticker" style="left:3380px; top:420px">
+      <div class="scr"><div class="app">SAPA</div><div class="nm">SAPA<br>UMKM</div></div>
+    </div>
+    <div id="t10" class="abs tag sticker" style="left:3380px; top:780px">verifikasi ≤ 10 hari</div>
+
+    <!-- ZONE 3 (x≈4840): The Fed 27–28 Oktober -->
+    <div id="cal3" class="abs cal sticker" style="left:4500px; top:530px">
+      <div class="top" id="c3a">Oktober</div><div class="day sm" id="c3b">27–28</div><div class="mon" id="c3c">rapat The Fed</div>
+    </div>
+    <svg id="fed" class="abs sticker-svg" style="left:5080px; top:390px" width="380" height="300" viewBox="0 0 380 300">
+      <path d="M190 10 L370 90 H10z" fill="#3E5568"/>
+      <rect x="20" y="90" width="340" height="26" fill="#1B2430"/>
+      <g fill="#fff"><rect x="44" y="124" width="34" height="130"/><rect x="114" y="124" width="34" height="130"/><rect x="184" y="124" width="34" height="130"/><rect x="254" y="124" width="34" height="130"/><rect x="314" y="124" width="34" height="130" opacity="0"/></g>
+      <rect x="10" y="254" width="360" height="36" rx="6" fill="#1B2430"/>
+      <text x="190" y="78" text-anchor="middle" font-family="Inter Display, Inter, sans-serif" font-weight="900" font-size="34" fill="#fff">FED</text>
+    </svg>
+    <div id="t3" class="abs tag light sticker" style="left:5080px; top:590px">The Fed</div>
+    <div id="moon" class="abs tag sticker" style="left:5080px; top:760px">🌙 Kamis dini hari WIB</div>
+    <div id="coin" class="abs" style="left:5600px; top:470px; text-align:center">
+      <div class="arr" id="aUp">▲</div>
+      <div class="coin sticker">Rp</div>
+      <div class="arr" id="aDn">▼</div>
+    </div>
+
+    <!-- ZONE 4 (x≈6780): aksi buruh sampai 30 Oktober, 38 provinsi -->
+    <div id="cal4" class="abs cal sticker" style="left:6440px; top:530px">
+      <div class="top" id="c4a">Sampai</div><div class="day" id="c4b">30</div><div class="mon" id="c4c">Oktober</div>
+    </div>
+    <div id="sign" class="abs" style="left:7000px; top:400px">
+      <div class="sign sticker">UPAH<br>MINIMUM<br><span class="yr" id="yr">2027</span></div><div class="stick"></div>
+    </div>
+    <div id="t4" class="abs tag light sticker" style="left:7000px; top:780px">aksi buruh</div>
+    <div id="dots" class="abs dots" style="left:7520px; top:400px"></div>
+    <div id="t38" class="abs tag accent sticker" style="left:7520px; top:640px; font-size:60px">38 provinsi</div>
+
+    <!-- ZONE 5 (x≈8720): rapat BI 17–18 November -->
+    <div id="cal5" class="abs cal sticker" style="left:8380px; top:530px">
+      <div class="top" id="c5a">November</div><div class="day sm" id="c5b">17–18</div><div class="mon" id="c5c">rapat BI</div>
+    </div>
+    <div id="t5" class="abs tag light sticker" style="left:9020px; top:330px">Rapat Dewan Gubernur</div>
+    <div id="bi" class="abs bi sticker" style="left:9020px; top:560px">BI</div>
+    <div id="t6" class="abs tag accent sticker" style="left:9020px; top:800px">berikutnya</div>
+  </div>
+  <div id="card"><div class="kicker" id="cKick"></div><div class="title" id="cTitle"></div><div class="sub" id="cSub"></div></div>
+  <div class="lower" id="lw1">Kementerian UMKM<small>aturan potongan biaya admin</small></div>
+  <div class="lower" id="lw2">The Fed<small>jadwal rapat (federalreserve.gov)</small></div>
+  <div class="lower" id="lw3">KSPI &amp; Partai Buruh<small>jadwal aksi</small></div>
+  <div class="lower" id="lw4">Bank Indonesia<small>jadwal Rapat Dewan Gubernur</small></div>
+  <div id="brand"><div class="dot"></div><b>Rangkumin Dong</b></div>
+  <div id="subs"></div>
+  <div id="progress"></div>
+</div>
+<script>
+// ---- chapter data (every number is spoken and verified: factcheck #17, #18, #35, #40) ----
+window.CHAPTER = Number(location.pathname.split('/').slice(-2)[0]);
+const FALLBACK = { kicker: 'MINGGU DEPAN', title: 'Catat tanggalnya', dates: '17–23 Okt 2026' };   // used until build/week.js exists
+// -----------------------------------------------------------------------------------------------
+const $ = (id) => document.getElementById(id);
+const T = window.TIMING; window.DURATION = T.duration;
+const ch = (window.WEEK?.chapters || []).find((c) => c.n === window.CHAPTER) || FALLBACK;
+$('cKick').textContent = ch.kicker || ''; $('cTitle').textContent = ch.title || ''; $('cSub').textContent = window.WEEK?.dates || FALLBACK.dates;
+const dots = $('dots'); for (let i = 0; i < 38; i++) dots.appendChild(document.createElement('i'));
+const W = K.word;
+// Subtitle pages: split long lines at punctuation so subtitles stay on one row (≤ ~48 chars) and clear the visuals.
+K.pages = (lines, max = 48) => lines.flatMap((l) => {
+  const len = (ws) => ws.map((x) => x.w).join(' ').length;
+  const segs = []; let cur = [];
+  l.words.forEach((w, i) => {   // 1) break at punctuation once a page has some substance
+    cur.push(w);
+    if (/[.,:;!?]$/.test(w.w) && len(cur) >= 12 && i < l.words.length - 1) { segs.push(cur); cur = []; }
+  });
+  if (cur.length) segs.push(cur);
+  const out = [];
+  segs.forEach((sg) => {        // 2) split a too-long segment into balanced pieces
+    const n = Math.ceil(len(sg) / max), target = len(sg) / n; let piece = [];
+    sg.forEach((w) => { if (piece.length && len(piece.concat(w)) > target + 2) { out.push(piece); piece = []; } piece.push(w); });
+    out.push(piece);
+  });
+  return out.map((ws, k) => ({ id: l.id + '.' + k, start: ws[0].start, end: ws[ws.length - 1].end, words: ws }));
+});
+const SUBT = { ...T, lines: K.pages(T.lines) };
+
+// camera: one zone per date
+const cam = [
+  { t: 0, x: 960, y: 540, z: 1 },
+  { t: W('g2', 'potongan') - 0.5, x: 2900, y: 540, z: 1 },
+  { t: K.at('g4') - 0.35, x: 4840, y: 540, z: 1 },
+  { t: K.at('g5') - 0.35, x: 6780, y: 540, z: 1 },
+  { t: K.at('g6') - 0.3, x: 8720, y: 540, z: 1 },
+];
+// [id, time in, rotation]
+const pops = [
+  ['cal1', 1.9, -3], ['c1a', W('g2', 'minggu')], ['c1b', W('g2', '25')], ['c1c', W('g2', 'oktober')],
+  ['shop', W('g2', 'oktober'), 0], ['t1', W('g2', 'online'), -2], ['t2', W('g2', 'umkm'), 2],
+  ['rec', W('g2', 'potongan'), -2], ['st50', W('g2', '50'), -8],
+  ['phone', W('g2', 'sapa'), 4], ['t10', W('g2', '10'), -2],
+  ['cal3', K.at('g4'), 3], ['fed', W('g4', 'fed'), 0], ['t3', W('g4', 'fed') + 0.15, -3],
+  ['moon', W('g4', 'kamis'), 2], ['coin', W('g4', 'menggerakkan'), 0],
+  ['cal4', K.at('g5'), -3], ['c4b', W('g5', '30')], ['sign', W('g5', 'aksi'), -5], ['t4', W('g5', 'buruh'), 2],
+  ['yr', W('g5', '2027'), -4], ['t38', W('g5', '38'), -2],
+  ['cal5', K.at('g6'), 3], ['c5b', W('g6', '1718')], ['t5', W('g6', 'rapat'), -2], ['bi', W('g6', 'bi'), 0], ['t6', W('g6', 'berikutnya'), 3],
+];
+const inner = new Set(['c1a', 'c1b', 'c1c', 'c4b', 'c5b', 'yr']);
+const tDots = W('g5', 'dijadwalkan'), tDotsEnd = W('g5', '38');
+const tStrike = W('g2', '50');
+
+function seek(t) {
+  K.cam16($('world'), cam, t);
+  K.titleCard($('card'), t, 2.0);
+  pops.forEach(([id, tin, rot = 0]) => {
+    const e = $(id);
+    if (inner.has(id)) {   // parts inside a calendar/sign: plain spring scale, no centering translate
+      const s = K.spring(t - tin); e.style.opacity = t >= tin ? K.clamp((t - tin) / 0.08) : 0;
+      e.style.transform = `scale(${0.4 + 0.6 * s}) rotate(${rot}deg)`;
+    } else K.pop(e, t, tin, Infinity, rot);
+  });
+  { const k = K.easeOut(K.prog(t, tStrike, 0.6)); $('feebar').style.width = (220 - 110 * k) + 'px'; $('feebar').style.background = k > 0 ? 'var(--accent)' : 'var(--slate)'; }
+  // rupiah coin wobbles up/down
+  const ct = t - W('g4', 'menggerakkan');
+  $('aUp').style.transform = `translateY(${-10 * Math.max(0, Math.sin(ct * 5))}px)`;
+  $('aDn').style.transform = `translateY(${10 * Math.max(0, -Math.sin(ct * 5))}px)`;
+  // 38 dots fill in, one per province, finishing as "38" is spoken
+  [...dots.children].forEach((d, i) => {
+    const ti = tDots + (tDotsEnd - tDots) * i / 38;
+    d.style.transform = `scale(${K.spring(t - ti, 300, 20)})`;
+    d.style.background = t >= tDotsEnd ? 'var(--accent)' : 'var(--slate)';
+  });
+  K.lower($('lw1'), t, W('g2', 'umkm'), K.end('g2'));
+  K.lower($('lw2'), t, W('g4', 'fed'), K.at('g5') - 0.3);
+  K.lower($('lw3'), t, W('g5', 'aksi'), K.at('g6') - 0.3);
+  K.lower($('lw4'), t, W('g6', 'rapat'), T.duration + 1);
+  window.TIMING = SUBT; K.subtitles($('subs'), t); window.TIMING = T;
+  K.weekly(t);
+}
+K.end = (id) => K.line(id).end;
+window.seek = seek;
+</script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+{
+ "direction": "[warm, clear weekly recap; neutral, attributed]",
+ "lines": [
+  {
+   "id": "e1",
+   "tag": "[friendly]",
+   "text": "Sekarang, yang nyangkut ke dompet."
+  },
+  {
+   "id": "e2",
+   "tag": "[punchy]",
+   "text": "Satu: pemerintah siapkan sekitar Rp31,8 triliun, berlaku sampai akhir tahun.",
+   "say": "Satu: pemerintah siapkan sekitar tiga puluh satu koma delapan triliun rupiah, berlaku sampai akhir tahun."
+  },
+  {
+   "id": "e3",
+   "tag": "[explaining, quick]",
+   "text": "Isinya: bantuan subsidi upah, bantuan beras 10 kilo, diskon transportasi Natal dan Tahun Baru, plus pembukaan rekening bank untuk warga usia 17 tahun ke atas.",
+   "say": "Isinya: bantuan subsidi upah, bantuan beras sepuluh kilo, diskon transportasi Natal dan Tahun Baru, plus pembukaan rekening bank untuk warga usia tujuh belas tahun ke atas."
+  },
+  {
+   "id": "e4",
+   "tag": "[matter-of-fact]",
+   "text": "Kata Menko Airlangga, tujuannya mendorong ekonomi mulai akhir tahun ini. Sebagian sudah dirinci: beras untuk sekitar 33 juta keluarga, BSU untuk sekitar 13 juta pekerja. Diskon Nataru-nya? Rinciannya belum diumumkan.",
+   "say": "Kata Menko Airlangga, tujuannya mendorong ekonomi mulai akhir tahun ini. Sebagian sudah dirinci: beras untuk sekitar tiga puluh tiga juta keluarga, B S U untuk sekitar tiga belas juta pekerja. Diskon Nataru-nya? Rinciannya belum diumumkan."
+  },
+  {
+   "id": "e5",
+   "tag": "[clear]",
+   "text": "Dua: upah minimum 2027. Serikat buruh minta naik 7,5 sampai 9,5 persen.",
+   "say": "Dua: upah minimum dua ribu dua puluh tujuh. Serikat buruh minta naik tujuh koma lima sampai sembilan koma lima persen."
+  },
+  {
+   "id": "e6",
+   "tag": "[neutral]",
+   "text": "Menaker Yassierli: formulanya ikut UU Ketenagakerjaan yang baru. Angkanya belum ada, dibahas dulu di Dewan Pengupahan.",
+   "say": "Menaker Yassierli: formulanya ikut U U Ketenagakerjaan yang baru. Angkanya belum ada, dibahas dulu di Dewan Pengupahan."
+  },
+  {
+   "id": "e7",
+   "tag": "[upbeat]",
+   "text": "Tiga, buat driver ojol: lewat Perpres 27 tahun 2026, sekarang boleh bermitra dengan lebih dari satu aplikasi sekaligus.",
+   "say": "Tiga, buat driver ojol: lewat Perpres dua puluh tujuh tahun dua ribu dua puluh enam, sekarang boleh bermitra dengan lebih dari satu aplikasi sekaligus."
+  },
+  {
+   "id": "e7b",
+   "tag": "[explaining, quick]",
+   "text": "Pengawasnya dibagi tiga: Kementerian UMKM untuk perjanjian kemitraan, Kemenhub untuk tarif penumpang, Komdigi untuk tarif antar barang dan makanan.",
+   "say": "Pengawasnya dibagi tiga: Kementerian U Em Ka Em untuk perjanjian kemitraan, Kemenhub untuk tarif penumpang, Komdigi untuk tarif antar barang dan makanan."
+  },
+  {
+   "id": "e8",
+   "tag": "[curious]",
+   "text": "Yang mana paling kerasa buat kamu?"
+  }
+ ],
+ "tail": 0.6
+}

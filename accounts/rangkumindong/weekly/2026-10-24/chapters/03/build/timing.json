@@ -1,0 +1,741 @@
+{
+ "duration": 63.114,
+ "voice": "Pratama",
+ "lines": [
+  {
+   "id": "c1",
+   "text": "Rabu kemarin kami bahas: 10 perusahaan Indonesia disurati Singapura soal asap.",
+   "start": 0.173,
+   "end": 4.805,
+   "words": [
+    {
+     "w": "Rabu",
+     "start": 0.173,
+     "end": 0.313
+    },
+    {
+     "w": "kemarin",
+     "start": 0.353,
+     "end": 0.713
+    },
+    {
+     "w": "kami",
+     "start": 0.761,
+     "end": 0.953
+    },
+    {
+     "w": "bahas:",
+     "start": 0.993,
+     "end": 1.433
+    },
+    {
+     "w": "10",
+     "start": 1.573,
+     "end": 2.013
+    },
+    {
+     "w": "perusahaan",
+     "start": 2.053,
+     "end": 2.493
+    },
+    {
+     "w": "Indonesia",
+     "start": 2.549,
+     "end": 3.053
+    },
+    {
+     "w": "disurati",
+     "start": 3.113,
+     "end": 3.533
+    },
+    {
+     "w": "Singapura",
+     "start": 3.579,
+     "end": 4.013
+    },
+    {
+     "w": "soal",
+     "start": 4.093,
+     "end": 4.333
+    },
+    {
+     "w": "asap.",
+     "start": 4.413,
+     "end": 4.805
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "text": "Minggu ini, Presiden Prabowo ikut bicara.",
+   "start": 5.011,
+   "end": 7.415,
+   "words": [
+    {
+     "w": "Minggu",
+     "start": 5.011,
+     "end": 5.123
+    },
+    {
+     "w": "ini,",
+     "start": 5.183,
+     "end": 5.443
+    },
+    {
+     "w": "Presiden",
+     "start": 5.539,
+     "end": 6.013
+    },
+    {
+     "w": "Prabowo",
+     "start": 6.066,
+     "end": 6.493
+    },
+    {
+     "w": "ikut",
+     "start": 6.573,
+     "end": 6.813
+    },
+    {
+     "w": "bicara.",
+     "start": 6.873,
+     "end": 7.415
+    }
+   ]
+  },
+  {
+   "id": "c3",
+   "text": "Di sidang kabinet, Rabu, ia minta semua izin perusahaan yang terbukti melanggar dicabut.",
+   "start": 7.5520000000000005,
+   "end": 12.465,
+   "words": [
+    {
+     "w": "Di",
+     "start": 7.552,
+     "end": 7.579
+    },
+    {
+     "w": "sidang",
+     "start": 7.619,
+     "end": 7.819
+    },
+    {
+     "w": "kabinet,",
+     "start": 7.859,
+     "end": 8.299
+    },
+    {
+     "w": "Rabu,",
+     "start": 8.379,
+     "end": 9.009
+    },
+    {
+     "w": "ia",
+     "start": 9.062,
+     "end": 9.169
+    },
+    {
+     "w": "minta",
+     "start": 9.217,
+     "end": 9.489
+    },
+    {
+     "w": "semua",
+     "start": 9.542,
+     "end": 9.809
+    },
+    {
+     "w": "izin",
+     "start": 9.857,
+     "end": 10.049
+    },
+    {
+     "w": "perusahaan",
+     "start": 10.089,
+     "end": 10.609
+    },
+    {
+     "w": "yang",
+     "start": 10.641,
+     "end": 10.769
+    },
+    {
+     "w": "terbukti",
+     "start": 10.829,
+     "end": 11.249
+    },
+    {
+     "w": "melanggar",
+     "start": 11.289,
+     "end": 11.729
+    },
+    {
+     "w": "dicabut.",
+     "start": 11.829,
+     "end": 12.465
+    }
+   ]
+  },
+  {
+   "id": "c4",
+   "text": "Kamis, Prabowo menyebut ada perusahaan yang melanggar sampai 19 kali, angka yang ia minta dicek lagi. Menurutnya, dua kali melanggar, cabut saja.",
+   "start": 12.675,
+   "end": 21.538999999999998,
+   "words": [
+    {
+     "w": "Kamis,",
+     "start": 12.675,
+     "end": 13.179
+    },
+    {
+     "w": "Prabowo",
+     "start": 13.206,
+     "end": 13.579
+    },
+    {
+     "w": "menyebut",
+     "start": 13.611,
+     "end": 14.059
+    },
+    {
+     "w": "ada",
+     "start": 14.139,
+     "end": 14.379
+    },
+    {
+     "w": "perusahaan",
+     "start": 14.419,
+     "end": 14.939
+    },
+    {
+     "w": "yang",
+     "start": 14.971,
+     "end": 15.099
+    },
+    {
+     "w": "melanggar",
+     "start": 15.119,
+     "end": 15.499
+    },
+    {
+     "w": "sampai",
+     "start": 15.579,
+     "end": 16.059
+    },
+    {
+     "w": "19",
+     "start": 16.099,
+     "end": 16.659
+    },
+    {
+     "w": "kali,",
+     "start": 16.699,
+     "end": 17.039
+    },
+    {
+     "w": "angka",
+     "start": 17.099,
+     "end": 17.439
+    },
+    {
+     "w": "yang",
+     "start": 17.471,
+     "end": 17.599
+    },
+    {
+     "w": "ia",
+     "start": 17.652,
+     "end": 17.759
+    },
+    {
+     "w": "minta",
+     "start": 17.807,
+     "end": 18.079
+    },
+    {
+     "w": "dicek",
+     "start": 18.127,
+     "end": 18.399
+    },
+    {
+     "w": "lagi.",
+     "start": 18.447,
+     "end": 18.719
+    },
+    {
+     "w": "Menurutnya,",
+     "start": 18.785,
+     "end": 19.629
+    },
+    {
+     "w": "dua",
+     "start": 19.669,
+     "end": 19.789
+    },
+    {
+     "w": "kali",
+     "start": 19.837,
+     "end": 20.029
+    },
+    {
+     "w": "melanggar,",
+     "start": 20.069,
+     "end": 20.669
+    },
+    {
+     "w": "cabut",
+     "start": 20.729,
+     "end": 20.989
+    },
+    {
+     "w": "saja.",
+     "start": 21.053,
+     "end": 21.539
+    }
+   ]
+  },
+  {
+   "id": "c5",
+   "text": "Ia juga menduga sejumlah perusahaan asing pemegang konsesi ikut menyumbang kebakaran. Namanya? Diumumkan pada saatnya, katanya.",
+   "start": 21.608999999999998,
+   "end": 28.959,
+   "words": [
+    {
+     "w": "Ia",
+     "start": 21.609,
+     "end": 21.699
+    },
+    {
+     "w": "juga",
+     "start": 21.731,
+     "end": 21.859
+    },
+    {
+     "w": "menduga",
+     "start": 21.907,
+     "end": 22.419
+    },
+    {
+     "w": "sejumlah",
+     "start": 22.472,
+     "end": 22.819
+    },
+    {
+     "w": "perusahaan",
+     "start": 22.839,
+     "end": 23.299
+    },
+    {
+     "w": "asing",
+     "start": 23.379,
+     "end": 23.699
+    },
+    {
+     "w": "pemegang",
+     "start": 23.739,
+     "end": 24.099
+    },
+    {
+     "w": "konsesi",
+     "start": 24.139,
+     "end": 24.659
+    },
+    {
+     "w": "ikut",
+     "start": 24.766,
+     "end": 25.059
+    },
+    {
+     "w": "menyumbang",
+     "start": 25.107,
+     "end": 25.539
+    },
+    {
+     "w": "kebakaran.",
+     "start": 25.566,
+     "end": 26.179
+    },
+    {
+     "w": "Namanya?",
+     "start": 26.275,
+     "end": 26.849
+    },
+    {
+     "w": "Diumumkan",
+     "start": 26.955,
+     "end": 27.599
+    },
+    {
+     "w": "pada",
+     "start": 27.647,
+     "end": 27.839
+    },
+    {
+     "w": "saatnya,",
+     "start": 27.903,
+     "end": 28.399
+    },
+    {
+     "w": "katanya.",
+     "start": 28.459,
+     "end": 28.959
+    }
+   ]
+  },
+  {
+   "id": "c6",
+   "text": "Menteri Kehutanan Raja Juli Antoni: sudah 32 perusahaan kena sanksi administratif.",
+   "start": 29.211,
+   "end": 34.364999999999995,
+   "words": [
+    {
+     "w": "Menteri",
+     "start": 29.211,
+     "end": 29.371
+    },
+    {
+     "w": "Kehutanan",
+     "start": 29.411,
+     "end": 29.931
+    },
+    {
+     "w": "Raja",
+     "start": 29.971,
+     "end": 30.171
+    },
+    {
+     "w": "Juli",
+     "start": 30.219,
+     "end": 30.411
+    },
+    {
+     "w": "Antoni:",
+     "start": 30.478,
+     "end": 30.971
+    },
+    {
+     "w": "sudah",
+     "start": 31.064,
+     "end": 31.531
+    },
+    {
+     "w": "32",
+     "start": 31.571,
+     "end": 32.011
+    },
+    {
+     "w": "perusahaan",
+     "start": 32.071,
+     "end": 32.731
+    },
+    {
+     "w": "kena",
+     "start": 32.771,
+     "end": 33.051
+    },
+    {
+     "w": "sanksi",
+     "start": 33.131,
+     "end": 33.531
+    },
+    {
+     "w": "administratif.",
+     "start": 33.579,
+     "end": 34.365
+    }
+   ]
+  },
+  {
+   "id": "c7",
+   "text": "Enam yang terbaru di Kalimantan Tengah, izinnya dibekukan. Yang terbakar paling luas: 4.803 hektare.",
+   "start": 34.571,
+   "end": 41.184,
+   "words": [
+    {
+     "w": "Enam",
+     "start": 34.571,
+     "end": 34.704
+    },
+    {
+     "w": "yang",
+     "start": 34.736,
+     "end": 34.864
+    },
+    {
+     "w": "terbaru",
+     "start": 34.904,
+     "end": 35.344
+    },
+    {
+     "w": "di",
+     "start": 35.371,
+     "end": 35.424
+    },
+    {
+     "w": "Kalimantan",
+     "start": 35.464,
+     "end": 35.904
+    },
+    {
+     "w": "Tengah,",
+     "start": 35.984,
+     "end": 36.464
+    },
+    {
+     "w": "izinnya",
+     "start": 36.544,
+     "end": 36.944
+    },
+    {
+     "w": "dibekukan.",
+     "start": 36.984,
+     "end": 37.635
+    },
+    {
+     "w": "Yang",
+     "start": 37.635,
+     "end": 37.824
+    },
+    {
+     "w": "terbakar",
+     "start": 37.864,
+     "end": 38.224
+    },
+    {
+     "w": "paling",
+     "start": 38.264,
+     "end": 38.464
+    },
+    {
+     "w": "luas:",
+     "start": 38.517,
+     "end": 38.944
+    },
+    {
+     "w": "4.803",
+     "start": 39.051,
+     "end": 40.704
+    },
+    {
+     "w": "hektare.",
+     "start": 40.757,
+     "end": 41.184
+    }
+   ]
+  },
+  {
+   "id": "c8",
+   "text": "Dan dampaknya ke warga: sampai 13 Oktober, tercatat 283.270 kasus ISPA di 7 provinsi.",
+   "start": 41.382,
+   "end": 50.345,
+   "words": [
+    {
+     "w": "Dan",
+     "start": 41.382,
+     "end": 41.394
+    },
+    {
+     "w": "dampaknya",
+     "start": 41.458,
+     "end": 41.874
+    },
+    {
+     "w": "ke",
+     "start": 41.927,
+     "end": 42.034
+    },
+    {
+     "w": "warga:",
+     "start": 42.074,
+     "end": 42.514
+    },
+    {
+     "w": "sampai",
+     "start": 42.615,
+     "end": 43.164
+    },
+    {
+     "w": "13",
+     "start": 43.204,
+     "end": 43.804
+    },
+    {
+     "w": "Oktober,",
+     "start": 43.844,
+     "end": 44.284
+    },
+    {
+     "w": "tercatat",
+     "start": 44.324,
+     "end": 44.844
+    },
+    {
+     "w": "283.270",
+     "start": 44.904,
+     "end": 47.924
+    },
+    {
+     "w": "kasus",
+     "start": 47.974,
+     "end": 48.284
+    },
+    {
+     "w": "ISPA",
+     "start": 48.364,
+     "end": 49.004
+    },
+    {
+     "w": "di",
+     "start": 49.025,
+     "end": 49.194
+    },
+    {
+     "w": "7",
+     "start": 49.301,
+     "end": 49.754
+    },
+    {
+     "w": "provinsi.",
+     "start": 49.786,
+     "end": 50.345
+    }
+   ]
+  },
+  {
+   "id": "c8b",
+   "text": "Di udara juga: sejak 11 Agustus sampai 17 Oktober, 2.458 penerbangan terganggu di 29 bandara.",
+   "start": 50.677,
+   "end": 58.754,
+   "words": [
+    {
+     "w": "Di",
+     "start": 50.677,
+     "end": 50.7
+    },
+    {
+     "w": "udara",
+     "start": 50.711,
+     "end": 50.894
+    },
+    {
+     "w": "juga:",
+     "start": 50.958,
+     "end": 51.315
+    },
+    {
+     "w": "sejak",
+     "start": 51.401,
+     "end": 51.774
+    },
+    {
+     "w": "11",
+     "start": 51.827,
+     "end": 52.014
+    },
+    {
+     "w": "Agustus",
+     "start": 52.094,
+     "end": 52.574
+    },
+    {
+     "w": "sampai",
+     "start": 52.654,
+     "end": 53.054
+    },
+    {
+     "w": "17",
+     "start": 53.081,
+     "end": 53.374
+    },
+    {
+     "w": "Oktober,",
+     "start": 53.444,
+     "end": 54.254
+    },
+    {
+     "w": "2.458",
+     "start": 54.294,
+     "end": 56.014
+    },
+    {
+     "w": "penerbangan",
+     "start": 56.054,
+     "end": 56.574
+    },
+    {
+     "w": "terganggu",
+     "start": 56.614,
+     "end": 57.234
+    },
+    {
+     "w": "di",
+     "start": 57.287,
+     "end": 57.394
+    },
+    {
+     "w": "29",
+     "start": 57.434,
+     "end": 58.115
+    },
+    {
+     "w": "bandara.",
+     "start": 58.178,
+     "end": 58.754
+    }
+   ]
+  },
+  {
+   "id": "c9",
+   "text": "Ingat: belum ada perusahaan yang diputus bersalah di pengadilan.",
+   "start": 59.024,
+   "end": 62.594,
+   "words": [
+    {
+     "w": "Ingat:",
+     "start": 59.024,
+     "end": 59.394
+    },
+    {
+     "w": "belum",
+     "start": 59.434,
+     "end": 59.634
+    },
+    {
+     "w": "ada",
+     "start": 59.714,
+     "end": 59.954
+    },
+    {
+     "w": "perusahaan",
+     "start": 60.014,
+     "end": 60.594
+    },
+    {
+     "w": "yang",
+     "start": 60.626,
+     "end": 60.754
+    },
+    {
+     "w": "diputus",
+     "start": 60.794,
+     "end": 61.154
+    },
+    {
+     "w": "bersalah",
+     "start": 61.202,
+     "end": 61.634
+    },
+    {
+     "w": "di",
+     "start": 61.687,
+     "end": 61.794
+    },
+    {
+     "w": "pengadilan.",
+     "start": 61.826,
+     "end": 62.594
+    }
+   ]
+  }
+ ]
+}

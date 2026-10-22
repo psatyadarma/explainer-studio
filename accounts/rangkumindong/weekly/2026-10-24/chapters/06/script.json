@@ -1,0 +1,57 @@
+{
+ "direction": "[warm, clear weekly recap; neutral, attributed]",
+ "lines": [
+  {
+   "id": "f1",
+   "tag": "[playful]",
+   "text": "Terakhir, dua kejadian yang bikin heboh."
+  },
+  {
+   "id": "f2",
+   "tag": "[storytelling]",
+   "text": "Minggu sore, 18 Oktober. Warga Kotawaringin Timur, Kalimantan Tengah, dengar dentuman keras.",
+   "say": "Minggu sore, delapan belas Oktober. Warga Kotawaringin Timur, Kalimantan Tengah, dengar dentuman keras."
+  },
+  {
+   "id": "f3",
+   "tag": "[curious]",
+   "text": "Besoknya, ketemu potongan logam besar di kebun sawit, di kilometer 26. Diduga bagian tangki bahan bakar.",
+   "say": "Besoknya, ketemu potongan logam besar di kebun sawit, di kilometer dua puluh enam. Diduga bagian tangki bahan bakar."
+  },
+  {
+   "id": "f4",
+   "tag": "[reveal]",
+   "text": "Kata peneliti BRIN Thomas Djamaluddin: itu sampah roket China, ZhuQue-2E. Lalu ditemukan objek kedua.",
+   "say": "Kata peneliti Brin, Thomas Djamaluddin: itu sampah roket China, Ju Cue dua E. Lalu ditemukan objek kedua."
+  },
+  {
+   "id": "f4b",
+   "tag": "[curious]",
+   "text": "Bentuknya seperti kubah, warnanya kuning pudar, paku kelingnya masih menempel."
+  },
+  {
+   "id": "f5",
+   "tag": "[serious]",
+   "text": "Selasa sore, 20 Oktober, kapal feri KMP Batumandi terbakar dekat Pelabuhan Merak.",
+   "say": "Selasa sore, dua puluh Oktober, kapal feri Ka Em Pe Batumandi terbakar dekat Pelabuhan Merak."
+  },
+  {
+   "id": "f6",
+   "tag": "[serious]",
+   "text": "Di manifes: 420 penumpang dan 89 kendaraan. Ada yang sampai lompat ke laut, lalu ditolong nelayan.",
+   "say": "Di manifes: empat ratus dua puluh penumpang, dan delapan puluh sembilan kendaraan. Ada yang sampai lompat ke laut, lalu ditolong nelayan."
+  },
+  {
+   "id": "f6b",
+   "tag": "[explaining]",
+   "text": "Penumpang dipindah ke kapal lain, KMP Royce 1, lalu dibawa ke Dermaga 6 Merak.",
+   "say": "Penumpang dipindah ke kapal lain, Ka Em Pe Royce satu, lalu dibawa ke Dermaga enam Merak."
+  },
+  {
+   "id": "f7",
+   "tag": "[reassuring]",
+   "text": "Semua penumpang dan awak berhasil dievakuasi, sebagian luka-luka. Titik awal apinya? Keterangannya masih beda-beda: ruang mesin atau dek kendaraan. Polisi masih menyelidiki."
+  }
+ ],
+ "tail": 0.6
+}

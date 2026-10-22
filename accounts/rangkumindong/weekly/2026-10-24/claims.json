@@ -1,0 +1,398 @@
+[
+ {
+  "lines": "a1, a2, i2",
+  "claim": "IHSG closed at 4.996,60 on Mon 19 Oct 2026 (−3,64%), its lowest close since 6 Oct 2020 (Kontan: 'terendah sejak 6 Oktober 2020 atau lebih dari enam tahun'). Spoken '4.996 … terendah sejak Oktober 2020'. (Earlier '~10 tahun' was wrong; fixed per factcheck #1.)",
+  "numbers": "4.996,60; −3,64%; sejak 6 Okt 2020",
+  "sensitivity": "normal",
+  "status": "verified (events E0032 update)",
+  "sources": [
+   "https://insight.kontan.co.id/news/ihsg-terendah-6-tahun-waspadai-tekanan-jual-saham-big-caps-hari-ini-2010",
+   "https://market.bisnis.com/read/20261019/7/2013841/ihsg-ditutup-ambrol-lagi-kapitalisasi-pasar-tinggal-rp8863-triliun",
+   "https://investasi.kontan.co.id/news/ihsg-anjlok-364-ke-4996-pada-senin-19102026-mdka-ammn-mbma-top-losers-lq45",
+   "https://finance.detik.com/bursa-dan-valas/d-8714438/ihsg-seharian-melemah-ditutup-ke-level-4-900"
+  ]
+ },
+ {
+  "lines": "a3",
+  "claim": "BEI cut the lower auto-rejection limit (ARB) from 15% to an asymmetric 7% for stocks priced above Rp10, valid 19 Oct–31 Dec 2026 (SK Kep-00157/BEI/10-2026). Script simplifies to 'batas turun harian saham'.",
+  "numbers": "15% → 7%; s.d. 31 Des 2026",
+  "sensitivity": "normal",
+  "status": "verified",
+  "sources": [
+   "https://market.bisnis.com/read/20261019/7/2013651/bei-pangkas-batas-auto-rejection-bawah-arb-jadi-asimetris-7",
+   "https://finance.detik.com/bursa-dan-valas/d-8713663/bos-bursa-buka-bukaan-alasan-pangkas-batas-arb"
+  ]
+ },
+ {
+  "lines": "a4",
+  "claim": "BEI announced (19 Oct, after the MSCI call) it will exclude High Shareholding Concentration (HSC) stocks from the IHSG calculation; effective date not announced. Danantara (Dony Oskaria, 19 Oct) said it will buy more shares of listed BUMN; no targets or amounts. Script does NOT say these caused the rally.",
+  "numbers": "",
+  "sensitivity": "normal",
+  "status": "verified",
+  "sources": [
+   "https://www.emitennews.com/news/bei-temui-msci-ada-2-inisiatif-baru-hapus-saham-hsc-dari-ihsg",
+   "https://market.bisnis.com/read/20261020/7/2013950/brief-insight-bei-keluarkan-saham-hsc-dari-ihsg-benarkah-indeks-bakal-rebound",
+   "https://www.cnbcindonesia.com/market/20261019170353-17-777598/dony-oskaria-dipanggil-ke-istana-danantara-siap-borong-saham-bumn",
+   "https://www.antaranews.com/berita/5797149/danantara-bakal-tambah-kepemilikan-saham-bumn"
+  ]
+ },
+ {
+  "lines": "a5",
+  "claim": "Tue 20 Oct: IHSG closed 5.278,89, +282,28 pts, +5,65% (fact-checked 21 Oct).",
+  "numbers": "+5,65%; 5.278,89",
+  "sensitivity": "normal",
+  "status": "verified",
+  "sources": [
+   "https://www.viva.co.id/bisnis/1937300-ihsg-ditutup-meroket-565-persen-ke-527889-nilai-transaksi-tembus-rp25-triliun",
+   "https://infobanknews.com/ihsg-ditutup-lanjut-menguat-565-persen-ke-5-278-transaksi-saham-tembus-rp2654-t"
+  ]
+ },
+ {
+  "lines": "a6",
+  "claim": "Wed 21 Oct close 5.328 (+0,94%); Thu 22 Oct close 5.387,91 (+59,54 pts, +1,12%; Kontan 5.387,90 +1,11%), third straight gain. RE-CHECK Fri 23 Oct close before voice: if Friday also closes up, change a6 to 'empat hari'; if down, add the Friday close.",
+  "numbers": "5.328; 5.387,91; +1,12%; 3 hari",
+  "sensitivity": "normal",
+  "status": "verified (CNBC + Kontan read 22 Okt)",
+  "sources": [
+   "https://finance.detik.com/bursa-dan-valas/d-8717606/ihsg-ditutup-di-level-5-328-naik-0-94",
+   "https://www.cnbcindonesia.com/market/20261022160501-17-778649/ihsg-ditutup-menguat-112-ke-level-5387",
+   "https://investasi.kontan.co.id/news/asing-net-sell-rp-149-triliun-saat-ihsg-menguat-111-cek-saham-yang-banyak-dilepas"
+  ],
+  "todo": "TODO-FRIDAY-CLOSE"
+ },
+ {
+  "lines": "a7",
+  "claim": "Foreign investors net sold Rp1,49 T on 22 Oct even as IHSG rose (BBCA Rp624,61 M, TLKM Rp332,23 M, BBRI Rp257,92 M). 'Belum balik' = still net sellers that day.",
+  "numbers": "Rp1,49 T",
+  "sensitivity": "normal",
+  "status": "verified (Kontan read 22 Okt)",
+  "sources": [
+   "https://investasi.kontan.co.id/news/asing-net-sell-rp-149-triliun-saat-ihsg-menguat-111-cek-saham-yang-banyak-dilepas"
+  ],
+  "todo": "TODO-FRIDAY-CLOSE"
+ },
+ {
+  "lines": "a8",
+  "claim": "MSCI consultation (Emerging → Standalone) still open; feedback to 30 Apr 2027, decision by 30 Jun 2027.",
+  "numbers": "30 Jun 2027",
+  "sensitivity": "normal",
+  "status": "verified (19 Okt video)",
+  "sources": [
+   "https://www.msci.com/downloads/documents/press-releases/media-room/Indonesia_PR_Oct_26.pdf"
+  ]
+ },
+ {
+  "lines": "b1b",
+  "claim": "Rupiah closed Rp18.046 per US$ on Mon 19 Oct 2026 (reused from 20 Okt video).",
+  "numbers": "Rp18.046",
+  "sensitivity": "normal",
+  "status": "verified",
+  "sources": [
+   "https://www.antaranews.com/berita/5796589/rupiah-melemah-ke-rp18046-dipengaruhi-potensi-kebijakan-ketat-the-fed"
+  ]
+ },
+ {
+  "lines": "b2, b4, b5, b6, i2",
+  "claim": "BI RDG 20–21 Oct (announced Wed 21 Oct): BI-Rate held at 5,75%; Deposit Facility raised to 5,00% (+25 bp); Lending Facility unchanged at 6,50%. BI: to maintain rupiah stability amid global uncertainty ('menjaga stabilitas nilai tukar rupiah di tengah ketidakpastian global'). 'Jalan tengah' is our framing of hold + DF hike. Deposit Facility rose from 4,75% (now spoken in b4).",
+  "numbers": "5,75%; 5,00%; 6,50%; 4,75%",
+  "sensitivity": "normal",
+  "status": "verified (Bisnis read 22 Okt)",
+  "sources": [
+   "https://finansial.bisnis.com/read/20261021/11/2014413/breaking-bank-indonesia-tahan-bi-rate-575-pada-rdg-oktober-2026",
+   "https://www.liputan6.com/bisnis/read/8318080/bi-rate-tetap-di-575-tapi-deposit-facility-naik-jadi-5",
+   "https://finance.detik.com/foto-bisnis/d-8717658/bi-naikkan-suku-bunga-deposit-facility-jadi-5-persen-bi-rate-tetap-5-75-persen",
+   "https://investortrust.id/macro/119997/bi-tahan-bi-rate-di-level-5-75-naikkan-deposit-facility-ke-5"
+  ]
+ },
+ {
+  "lines": "b3",
+  "claim": "Bisnis BIG Consensus (20 Oct): 8 of 14 economists expected a hike (7× +25 bp to 6,00%, 1× +50 bp), 6 expected a hold.",
+  "numbers": "8 dari 14",
+  "sensitivity": "normal",
+  "status": "verified",
+  "sources": [
+   "https://finansial.bisnis.com/read/20261020/11/2014274/big-consensus-insights-mayoritas-ekonom-proyeksi-bi-rate-naik",
+   "https://finansial.bisnis.com/read/20261021/11/2014413/breaking-bank-indonesia-tahan-bi-rate-575-pada-rdg-oktober-2026"
+  ]
+ },
+ {
+  "lines": "b5",
+  "claim": "Deposit Facility = the rate BI pays banks that place funds at BI overnight (standard definition, plain-language).",
+  "numbers": "",
+  "sensitivity": "normal",
+  "status": "definition — fact-checker: confirm wording against a BI glossary page (none opened by the writer)",
+  "sources": [
+   "https://www.liputan6.com/bisnis/read/8318080/bi-rate-tetap-di-575-tapi-deposit-facility-naik-jadi-5"
+  ]
+ },
+ {
+  "lines": "b7",
+  "claim": "BI-Rate (the policy benchmark) unchanged, so the benchmark for loan rates did not move. Script does not claim bank loan rates won't change.",
+  "numbers": "",
+  "sensitivity": "normal",
+  "status": "derived from decision",
+  "sources": [
+   "https://finansial.bisnis.com/read/20261021/11/2014413/breaking-bank-indonesia-tahan-bi-rate-575-pada-rdg-oktober-2026"
+  ]
+ },
+ {
+  "lines": "b7b",
+  "claim": "September 2026 inflation 3,28% y/y, within BI's 2,5±1% target.",
+  "numbers": "3,28%",
+  "sensitivity": "normal",
+  "status": "verified (20 Okt video)",
+  "sources": [
+   "https://investortrust.id/macro/118018/bps-inflasi-september-2026-tembus-0-30-tahunan-3-28",
+   "https://www.liputan6.com/bisnis/read/8318080/bi-rate-tetap-di-575-tapi-deposit-facility-naik-jadi-5"
+  ]
+ },
+ {
+  "lines": "b8",
+  "claim": "Rupiah closed Rp18.022 per US$ on Wed 21 Oct (after the BI decision); opened 22 Oct at Rp18.033. Outlets differ for 22 Oct close (18.022 vs 18.060), so the script uses the 21 Oct close only.",
+  "numbers": "Rp18.022",
+  "sensitivity": "normal",
+  "status": "verified (Antara read 22 Okt, as previous close; Harian Haluan)",
+  "sources": [
+   "https://www.antaranews.com/berita/5803793/rupiah-melemah-dipengaruhi-keputusan-bi-tahan-suku-bunga",
+   "https://www.harianhaluan.com/bisnis/1017797476/rupiah-ditutup-melemah-ke-rp18022-per-dolar-as-usai-bi-tahan-bi-rate-575-persen"
+  ],
+  "todo": "TODO-FRIDAY-CLOSE"
+ },
+ {
+  "lines": "b9, g4",
+  "claim": "FOMC two-day meeting 27–28 Oct 2026, statement/press conference 28 Oct 14:00/14:30 ET = Thu 29 Oct ~01:00 WIB / 02:00 WITA ('Kamis dini hari waktu Indonesia').",
+  "numbers": "27–28 Okt",
+  "sensitivity": "normal",
+  "status": "verified (federalreserve.gov read 22 Okt)",
+  "sources": [
+   "https://www.federalreserve.gov/newsevents/2026-october.htm"
+  ]
+ },
+ {
+  "lines": "c1",
+  "claim": "Singapore NEA issued preventive-measure notices to 10 Indonesian companies (7 on 16 Oct, 3 on 19 Oct); reused from 21 Okt video.",
+  "numbers": "10",
+  "sensitivity": "high",
+  "status": "verified",
+  "sources": [
+   "https://mothership.sg/2026/10/preventive-measures-notice-3-indonesian-firms-haze/",
+   "https://www.malaymail.com/news/singapore/2026/10/19/ten-and-counting-singapore-agency-slaps-haze-notices-on-three-more-indonesian-companies/239739"
+  ]
+ },
+ {
+  "lines": "c3, i2",
+  "claim": "Prabowo at the Sidang Kabinet Paripurna, Istana Negara, Wed 21 Oct: 'kita akan cabut semua izin perusahaan-perusahaan melanggar' — permits of companies proven to violate and involved in fires to be revoked. An order, not a completed revocation.",
+  "numbers": "21 Okt",
+  "sensitivity": "high",
+  "status": "verified (CNN Indonesia read 22 Okt)",
+  "sources": [
+   "https://www.cnnindonesia.com/nasional/20261022082802-20-1418252/prabowo-perintahkan-cabut-izin-32-perusahaan-kena-sanksi-karhutla",
+   "https://www.cnbcindonesia.com/news/20261022153704-4-778634/prabowo-ungkap-ada-indikasi-banyak-perusahaan-asing-terlibat-karhutla"
+  ]
+ },
+ {
+  "lines": "c4, c5",
+  "claim": "Prabowo at Rakornas TPAKD 2026, JIExpo Jakarta, Thu 22 Oct: some companies violated up to 19 times; 'Kalau dua kali melanggar, cabut saja'; suspects several foreign concession-holding companies contributed to karhutla in Kalimantan and Sumatra; 'Nanti, pada saatnya kita umumkanlah nama-nama itu'. Attributed as his statement/suspicion; no company named. He hedged the 19 himself: 'Ini minta dicek lagi apa benar 19 kali' (CNN Indonesia) — now spoken in c4.",
+  "numbers": "19 kali; 2 kali",
+  "sensitivity": "high",
+  "status": "verified (ANTARA read 22 Okt)",
+  "sources": [
+   "https://www.antaranews.com/berita/5805911/prabowo-curigai-perusahaan-asing-sebabkan-kebakaran-hutan-kalimantan",
+   "https://www.cnbcindonesia.com/news/20261022153704-4-778634/prabowo-ungkap-ada-indikasi-banyak-perusahaan-asing-terlibat-karhutla",
+   "https://www.cnnindonesia.com/nasional/20261022160616-20-1418476/prabowo-ada-korporasi-asing-terkait-karhutla-19-kali-langgar-aturan"
+  ]
+ },
+ {
+  "lines": "c6, c7",
+  "claim": "Forestry Minister Raja Juli Antoni (21 Oct, Istana): 'Total per hari ini sudah ada 32 perusahaan yang kena sanksi administratif di sektor kehutanan' (sanctions range from permit revocation to suspension, some with ecosystem restoration). Six newly sanctioned Central Kalimantan firms (Gunung Mas, Kapuas, Pulang Pisau, Barito Utara) got suspension + restoration orders; largest burned area 4.803 ha (PT Hasil Kalimantan Jaya, concession 36.745 ha). Company name not spoken; on screen only if the user approves.",
+  "numbers": "32; 6; 4.803 ha",
+  "sensitivity": "high",
+  "status": "verified (CNN Indonesia read 22 Okt)",
+  "sources": [
+   "https://www.cnnindonesia.com/nasional/20261022082802-20-1418252/prabowo-perintahkan-cabut-izin-32-perusahaan-kena-sanksi-karhutla"
+  ]
+ },
+ {
+  "lines": "c8",
+  "claim": "Health Ministry: 283.270 ISPA (acute respiratory infection) cases in 63 regencies/cities, 7 provinces, Aug–13 Oct 2026. Not attributed to any company.",
+  "numbers": "283.270; 7 provinsi; s.d. 13 Okt",
+  "sensitivity": "normal",
+  "status": "verified (events E0021/E0157)",
+  "sources": [
+   "https://kabar24.bisnis.com/read/20261019/15/2013642/karhutla-sebaran-asap-dan-mitigasi-pemerintah",
+   "https://rmol.id/politik/read/2026/10/19/725434/legislator-golkar-dorong-karhutla-ditetapkan-sebagai-bencana-nasional"
+  ]
+ },
+ {
+  "lines": "c8b",
+  "claim": "Kemenhub: 2.458 domestic flights disrupted at 29 airports, 11 Aug–17 Oct 2026 (1.080 delayed, 1.324 cancelled/postponed, 22 diverted).",
+  "numbers": "2.458; 29",
+  "sensitivity": "normal",
+  "status": "verified",
+  "sources": [
+   "https://ekonomi.bisnis.com/read/20261018/98/2013499/asap-karhutla-selimuti-29-bandara-2458-penerbangan-delay-hingga-dibatalkan",
+   "https://kabar24.bisnis.com/read/20261019/15/2013642/karhutla-sebaran-asap-dan-mitigasi-pemerintah"
+  ]
+ },
+ {
+  "lines": "c9",
+  "claim": "No company has been found guilty in court; Singapore notices are preventive; Indonesian sanctions are administrative; police cases in penyidikan.",
+  "numbers": "",
+  "sensitivity": "high",
+  "status": "verified (21 Okt video claim + CNN 22 Okt)",
+  "sources": [
+   "https://mothership.sg/2026/10/preventive-measures-notice-3-indonesian-firms-haze/",
+   "https://www.antaranews.com/video/5797589/kapolri-98-kasus-korporasi-karhutla-masuk-penyidikan-ada-pihak-asing"
+  ]
+ },
+ {
+  "lines": "d1, d2",
+  "claim": "20 Oct: Luhut (Ketua DEN) said the President agreed with DEN's study on the corruption definition; the UN version focuses on bribery. Approval is Luhut's account only. Reused from 22 Okt video.",
+  "numbers": "20 Okt",
+  "sensitivity": "high",
+  "status": "verified",
+  "sources": [
+   "https://www.liputan6.com/bisnis/read/8317653/prabowo-setuju-ubah-definisi-korupsi",
+   "https://www.cnbcindonesia.com/news/20261020211227-4-777988/prabowo-setuju-usulan-luhut-definisi-korupsi-di-ri-akan-diubah"
+  ]
+ },
+ {
+  "lines": "d3",
+  "claim": "Ketua KPK Setyo Budiyanto (21 Oct): state loss must stay.",
+  "numbers": "",
+  "sensitivity": "high",
+  "status": "verified",
+  "sources": [
+   "https://www.suara.com/news/2026/10/21/171149/luhut-usul-kerugian-negara-bukan-korupsi-ketua-kpk-ungkap-hal-lebih-mendesak",
+   "https://nasional.kompas.com/read/2026/10/21/17061341/kpk-tak-setuju-kerugian-negara-dihilangkan-dari-definisi-korupsi"
+  ]
+ },
+ {
+  "lines": "d4, d4b",
+  "claim": "ICW: ~83% of defendants in 2024 corruption verdicts sentenced under Pasal 2 & 3 UU Tipikor (the state-loss articles). Since 2 Jan 2026 those articles moved to KUHP Pasal 603 & 604, state-loss element kept.",
+  "numbers": "83%; 2024; 2026",
+  "sensitivity": "high",
+  "status": "verified (22 Okt video)",
+  "sources": [
+   "https://go.kompas.com/read/2026/10/21/213642174/icw-rejects-luhuts-proposal-on-state-loss-if-removed-indonesia-appears-free-of",
+   "https://aclc.kpk.go.id/aksi-informasi/Eksplorasi/20260409-memahami-jenis-korupsi-pasca-penyesuaian-kuhp-terbaru"
+  ]
+ },
+ {
+  "lines": "d5",
+  "claim": "Luhut written clarification (21 Oct): 'Kerugian keuangan negara tetap menjadi unsur dalam UU Tipikor'; proposes clearer proof and protection of good-faith business decisions.",
+  "numbers": "",
+  "sensitivity": "high",
+  "status": "verified",
+  "sources": [
+   "https://kumparan.com/kumparannews/klarifikasi-dan-penjelasan-luhut-soal-definisi-korupsi-kerugian-negara-28Q28Uo8Vc8",
+   "https://www.cnbcindonesia.com/news/20261021184525-4-778368/penjelasan-luhut-soal-rencana-perubahan-definisi-korupsi-di-ri"
+  ]
+ },
+ {
+  "lines": "d6, d6b",
+  "claim": "Thu 22 Oct: Nasir Djamil (DPR Komisi III, PKS): 'Apapun alasannya usulan Pak Luhut ahistoris dan layak ditolak'. Mardani Ali Sera (DPR, PKS): 'Justru korupsi adalah kejahatan yang sangat luar biasa, harus betul-betul diberi penguatan.' Both attributed; Kompas also reports pushback. Script says 'dua anggota DPR' (individual PKS legislators, not a DPR position).",
+  "numbers": "22 Okt",
+  "sensitivity": "high",
+  "status": "verified (Suara read 22 Okt)",
+  "sources": [
+   "https://www.suara.com/news/2026/10/22/170129/usul-unsur-kerugian-negara-dihapus-dari-korupsi-luhut-disentil-dua-politisi-pks",
+   "https://nasional.kompas.com/read/2026/10/22/06353311/perubahan-definisi-korupsi-ala-luhut-pandjaitan-tuai-penolakan",
+   "https://www.idntimes.com/news/indonesia/anggota-dpr-tolak-usulan-luhut-soal-redifinisi-korupsi-00-xvwcc-p02qp1"
+  ]
+ },
+ {
+  "lines": "d7, d8",
+  "claim": "Yusril: idea 'layak dipertimbangkan' (CNBC 21 Okt); not in Prolegnas 'kalau enggak salah' (Liputan6 22 Okt); no draft RUU announced; no direct statement from the President or Palace found as of 22 Okt (re-check 23 Okt).",
+  "numbers": "",
+  "sensitivity": "high",
+  "status": "verified (22 Okt video + politics sweep 23 Okt)",
+  "sources": [
+   "https://www.cnbcindonesia.com/news/20261021200558-4-778377/yusril-pernyataan-luhut-soal-definisi-korupsi-layak-dipertimbangkan",
+   "https://liputan6.com/news/read/8318574/yusril-definisi-korupsi-di-indonesia-20-tahun-stagnan",
+   "https://www.suara.com/news/2026/10/22/170129/usul-unsur-kerugian-negara-dihapus-dari-korupsi-luhut-disentil-dua-politisi-pks"
+  ]
+ },
+ {
+  "lines": "e2, e3, e4",
+  "claim": "Menko Airlangga (21 Oct): about Rp31,8 T for bank accounts for citizens 17+, 10 kg rice aid, BSU and a Nataru transport discount, through end-2026, to boost growth from year-end. Already detailed earlier: rice aid ~Rp17,5 T for 33.244.408 KPM (desil 1–4; Airlangga 30 Sep, Akurat); BSU ~13,3 juta pekerja, Rp300 ribu/bulan for 3 months (Katadata 5 Okt). Nataru discount details not yet announced. Spoken: '~33 juta keluarga', '~13 juta pekerja'.",
+  "numbers": "Rp31,8 T; 10 kg; 17+; 33,2 juta KPM; 13,3 juta pekerja",
+  "sensitivity": "normal",
+  "status": "verified (fact-check #33–34)",
+  "sources": [
+   "https://www.antaranews.com/berita/5802793/pemerintah-siapkan-rp318-triliun-untuk-bansos-dan-diskon-nataru",
+   "https://finance.detik.com/berita-ekonomi-bisnis/d-8718185/rp-31-8-triliun-disiapkan-buat-bsu-beras-10-kg-hingga-diskon-nataru",
+   "https://akurat.co/nasional/895205/catat-ada-bantuan-beras-dan-subsidi-upah-ini-3-program-pemerintah-di-akhir-2026",
+   "https://katadata.co.id/amp/lifestyle/varia/6ac351d4ab82b/11-daftar-paket-stimulus-ekonomi-rp31-triliun-pemerintah",
+   "https://journalistindependent.com/2026/10/22/pemerintah-siapkan-rp318-triliun-untuk-bansos-dan-diskon-nataru-2026-ini-rinciannya/"
+  ]
+ },
+ {
+  "lines": "e5, e6, g5",
+  "claim": "KSPI/Partai Buruh propose a 7,5–9,5% UMP 2027 rise, with staggered rallies 15–30 Oct in 38 provinces. Menaker Yassierli (21 Oct): formula follows the new labour law, no percentage set; discussed first at LKS Tripnas then Depenas (national wage council); governors set it on regional wage-council input. No official announcement date found, so none spoken.",
+  "numbers": "7,5–9,5%; 38 provinsi; 15–30 Okt",
+  "sensitivity": "normal",
+  "status": "verified (CNN Indonesia read 22 Okt)",
+  "sources": [
+   "https://www.cnnindonesia.com/ekonomi/20261021205702-92-1418188/menaker-formula-ump-2027-mengacu-uu-baru",
+   "https://www.cnbcindonesia.com/news/20261021132146-4-778187/bocoran-terbaru-soal-upah-minimum-2027-dari-menaker-jadi-naik-95",
+   "https://katadata.co.id/berita/industri/6ace17814957a/siap-siap-buruh-bakal-demo-tuntut-kenaikan-ump-2027-hingga-9-5"
+  ]
+ },
+ {
+  "lines": "e7, e7b",
+  "claim": "Perpres 27/2026 Pasal 3(1): 'Pengemudi dapat melakukan Hubungan Kemitraan Platform dengan 1 (satu) atau lebih Perusahaan Aplikasi.' Oversight split: Kementerian UMKM (partnership agreements), Kemenhub (passenger fares), Komdigi (goods/food delivery fares). The 8% commission cap is NOT used (not confirmed in the article read).",
+  "numbers": "Perpres 27/2026",
+  "sensitivity": "normal",
+  "status": "verified (CNBC read 22 Okt)",
+  "sources": [
+   "https://www.cnbcindonesia.com/tech/20261021111253-37-778112/sekarang-ojol-boleh-kerja-di-banyak-aplikasi-sekaligus-ini-aturannya",
+   "https://katadata.co.id/digital/startup/6ad5e92ee8815/tiga-kementerian-kini-urus-ojol-dpr-minta-pengawasan-tak-tumpang-tindih"
+  ]
+ },
+ {
+  "lines": "f2, f3, f4, f4b",
+  "claim": "Residents heard a loud boom Sun 18 Oct; on Mon 19 Oct found a large metal piece believed to be part of a liquid-fuel tank in PT Agro Bukit's palm plantation, km 26, Kotawaringin Timur, Kalteng. BRIN's Thomas Djamaluddin: debris of China's ZhuQue-2E rocket; a second, dome-shaped, faded-yellow object with rivets attached was found. No injuries reported in the article (not claimed).",
+  "numbers": "18 Okt; 19 Okt; km 26",
+  "sensitivity": "normal",
+  "status": "verified (detikNews read 22 Okt + ANTARA Kaltim, CNBC)",
+  "sources": [
+   "https://news.detik.com/berita/d-8716615/brin-ungkap-asal-logam-misterius-di-kebun-sawit-kalteng-sampah-roket-china",
+   "https://kaltim.antaranews.com/berita/269213/brin-sebut-benda-langit-yang-jatuh-di-kebun-sawit-kalteng-merupakan-roket-china",
+   "https://www.cnbcindonesia.com/tech/20261020140726-37-777858/brin-ungkap-identitas-roket-china-yang-jatuh-di-kebun-sawit-kalimantan"
+  ]
+ },
+ {
+  "lines": "f5, f6, f6b, f7",
+  "claim": "KMP Batumandi caught fire near Merak port Tue 20 Oct ~16:00 WIB; manifest 420 passengers (393 in vehicles, 27 on foot), 89 vehicles; passengers and crew moved to KMP Royce 1 and brought to Dermaga 6 (Eksekutif) Merak; some jumped into the sea and were rescued by fishermen; all evacuated safely, some injured (count not given); cause under investigation, accounts differ (engine room vs upper vehicle deck).",
+  "numbers": "420; 89; 20 Okt",
+  "sensitivity": "normal",
+  "status": "verified (detikNews read 22 Okt + ANTARA)",
+  "sources": [
+   "https://news.detik.com/berita/d-8716562/8-fakta-kapal-feri-di-pelabuhan-merak-dilalap-api",
+   "https://www.antaranews.com/berita/5800901/kemarin-pemadaman-karhutla-hingga-evakuasi-penumpang-km-batumandi",
+   "https://news.detik.com/berita/d-8718169/cerita-nelayan-ikut-bantu-evakuasi-penumpang-kmp-batumandi-terbakar-di-merak"
+  ]
+ },
+ {
+  "lines": "g2",
+  "claim": "From 25 Oct 2026 (Permen UMKM 3/2026; Kepmen UMKM 398/2026), e-commerce platforms must cut admin/commission/basic store fees by at least 50% for verified micro and small businesses selling domestic products; register via the SAPA UMKM app; platform verification within 10 calendar days, discount applied within 5 days after verification.",
+  "numbers": "25 Okt; ≥50%; 10 hari",
+  "sensitivity": "normal",
+  "status": "verified (Investor Trust read 22 Okt; Bisnis page blocked)",
+  "sources": [
+   "https://investortrust.id/business/119621/kementerian-umkm-berlakukan-potongan-biaya-e-commerce-50-mulai-25-oktober",
+   "https://ekonomi.bisnis.com/read/20261017/12/2013449/mulai-25-oktober-umkm-dapat-potongan-50-biaya-admin-shopee-tiktok-shop-cs"
+  ]
+ },
+ {
+  "lines": "g6",
+  "claim": "Next BI RDG 17–18 Nov 2026 (announcement 18 Nov).",
+  "numbers": "17–18 Nov",
+  "sensitivity": "normal",
+  "status": "verified (BI schedule via Bisnis)",
+  "sources": [
+   "https://finansial.bisnis.com/read/20251222/11/1938911/jadwal-rapat-dewan-gubernur-rdg-bank-indonesia-2026-ini-daftar-lengkap-tanggal-resminya"
+  ]
+ }
+]

@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Rangkumin Seminggu — chapter</title>
+<!-- ../../../../../../ is replaced by engine/weekly.py init with the path back to the repo root -->
+<link rel="stylesheet" href="../../../../../../styles/sticker/sticker.css">
+<link rel="stylesheet" href="../../../../../../styles/sticker/weekly/weekly.css">
+<script src="../../../../../../styles/sticker/sticker.js"></script>
+<script src="build/timing.js"></script>
+<script src="build/map.js"></script>
+<script src="../../build/week.js"></script>
+<script src="../../../../../../styles/sticker/weekly/weekly.js"></script>
+<style>
+  .zone { position: absolute; width: 0; height: 0; }
+  .t1 { font-weight: 900; font-size: 64px; letter-spacing: -1.5px; white-space: nowrap; }
+  .big { font-weight: 900; font-size: 150px; letter-spacing: -5px; line-height: 1; color: var(--accent); white-space: nowrap; }
+  .card { background: #fff; border-radius: 28px; }
+  .pin { width: 34px; height: 34px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 0 7px #fff, 0 10px 18px rgba(27,36,48,.25); }
+  .chip { background: #fff; color: var(--ink); font-weight: 800; font-size: 46px; padding: 14px 28px; border-radius: 18px; white-space: nowrap;
+    box-shadow: 0 0 0 8px #fff, 0 14px 22px rgba(27,36,48,.18); display: flex; gap: 16px; align-items: center; }
+  .chip i { font-style: normal; width: 46px; height: 46px; border-radius: 50%; background: var(--accent); color: #fff; display: grid; place-items: center; font-size: 30px; }
+  .row { display: flex; align-items: center; gap: 30px; }
+  .lower { bottom: 205px; }
+  .boom { font-weight: 900; font-size: 120px; color: #fff; letter-spacing: -3px; }
+</style>
+</head>
+<body>
+<div id="stage">
+  <div id="world">
+    <!-- A (960,540): map, Kotawaringin Timur -->
+    <div class="zone" style="left:0; top:0;">
+      <svg id="mapA" class="abs" style="left:960px; top:520px;" width="1300" height="760" viewBox="0 0 1300 760"></svg>
+      <div id="aDate" class="abs tag sticker" style="left:960px; top:150px;">Minggu sore, 18 Okt</div>
+      <div id="aPin" class="abs pin"></div>
+      <div id="aLbl" class="abs tag light sticker" style="font-size:38px;">Kotawaringin Timur, Kalteng</div>
+      <div id="aBoom" class="abs sticker-svg"></div>
+    </div>
+    <!-- B (2960,540): plantation + metal fragment -->
+    <div class="zone" style="left:2000px; top:0;">
+      <div id="bWhen" class="abs tag sticker" style="left:960px; top:150px;">Besoknya</div>
+      <div id="bGround" class="abs" style="left:960px; top:700px; width:1500px; height:120px; border-radius:60px; background:#C9BC9C;"></div>
+      <div id="bPalms"></div>
+      <div id="bMetal" class="abs sticker-svg" style="left:1020px; top:560px;"></div>
+      <div id="bKm" class="abs sticker-svg" style="left:420px; top:500px;"></div>
+      <div id="bLbl" class="abs tag accent sticker" style="left:1060px; top:810px;">Diduga: bagian tangki bahan bakar</div>
+    </div>
+    <!-- C (4960,540): BRIN says rocket debris -->
+    <div class="zone" style="left:4000px; top:0;">
+      <div id="cQuote" class="abs card sticker" style="left:700px; top:330px; padding:28px 40px; max-width:900px;">
+        <div style="font-weight:800; font-size:32px; color:var(--slate);">Kata peneliti BRIN</div>
+        <div class="t1" style="font-size:68px;">“Itu sampah roket China”</div></div>
+      <div id="cRocket" class="abs sticker-svg" style="left:1440px; top:430px;"></div>
+      <div id="cName" class="abs tag accent sticker" style="left:1440px; top:770px; font-size:52px;">ZhuQue-2E</div>
+      <div id="cBits" class="abs" style="left:700px; top:650px;"></div>
+    </div>
+    <!-- D (6960,540): second object -->
+    <div class="zone" style="left:6000px; top:0;">
+      <div id="dTitle" class="abs tag sticker" style="left:960px; top:150px;">Lalu: objek kedua</div>
+      <div id="dDome" class="abs sticker-svg" style="left:620px; top:540px;"></div>
+      <div id="dC1" class="abs chip" style="left:1330px; top:360px;"><i>✓</i>Bentuk kubah</div>
+      <div id="dC2" class="abs chip" style="left:1330px; top:520px;"><i>✓</i>Kuning pudar</div>
+      <div id="dC3" class="abs chip" style="left:1330px; top:680px;"><i>✓</i>Paku keling menempel</div>
+    </div>
+    <!-- E (8960,540): map, Merak -->
+    <div class="zone" style="left:8000px; top:0;">
+      <svg id="mapE" class="abs" style="left:960px; top:560px;" width="1300" height="760" viewBox="0 0 1300 760"></svg>
+      <div id="eDate" class="abs tag sticker" style="left:960px; top:150px;">Selasa sore, 20 Okt</div>
+      <div id="ePin" class="abs pin"></div>
+      <div id="eLbl" class="abs tag light sticker" style="font-size:38px;">Pelabuhan Merak, Banten</div>
+    </div>
+    <!-- F (10960,540): ferry on fire -->
+    <div class="zone" style="left:10000px; top:0;">
+      <div id="fSea" class="abs" style="left:960px; top:760px; width:1600px; height:150px; border-radius:75px; background:#9CC3D5;"></div>
+      <div id="fShip" class="abs sticker-svg" style="left:960px; top:580px;"></div>
+      <div id="fFire" class="abs" style="left:960px; top:400px;"></div>
+      <div id="fName" class="abs tag sticker" style="left:960px; top:150px; font-size:54px;">KMP Batumandi</div>
+      <div id="fBurn" class="abs tag accent sticker" style="left:1500px; top:300px; transform-origin:50% 50%;">terbakar</div>
+    </div>
+    <!-- G (12960,540): manifest -->
+    <div class="zone" style="left:12000px; top:0;">
+      <div id="gCard" class="abs card sticker" style="left:960px; top:480px; width:1100px; height:600px;"></div>
+      <div id="gHead" class="abs tag sticker" style="left:960px; top:220px;">Di manifes</div>
+      <div id="gR1" class="abs row" style="left:960px; top:420px;"><div id="gI1" class="sticker-svg"></div><div class="big" id="gN1">420</div><div class="t1">penumpang</div></div>
+      <div id="gR2" class="abs row" style="left:960px; top:620px;"><div id="gI2" class="sticker-svg"></div><div class="big" id="gN2">89</div><div class="t1">kendaraan</div></div>
+    </div>
+    <!-- H (14960,540): jumped, rescued by fishermen -->
+    <div class="zone" style="left:14000px; top:0;">
+      <div id="hTitle" class="abs tag sticker" style="left:960px; top:150px;">Ada yang lompat ke laut</div>
+      <div id="hSea"></div>
+      <div id="hRing" class="abs sticker-svg" style="left:700px; top:560px;"></div>
+      <div id="hBoat" class="abs sticker-svg" style="left:1250px; top:520px;"></div>
+      <div id="hLbl" class="abs tag accent sticker" style="left:1250px; top:300px;">ditolong nelayan</div>
+    </div>
+    <!-- I (16960,540): transfer to Royce 1, Dermaga 6 -->
+    <div class="zone" style="left:16000px; top:0;">
+      <div id="iTitle" class="abs tag sticker" style="left:960px; top:150px;">Penumpang dipindah</div>
+      <div id="iA" class="abs sticker-svg" style="left:360px; top:480px;"></div>
+      <div id="iAl" class="abs tag light sticker" style="left:360px; top:660px; font-size:38px;">Batumandi</div>
+      <svg id="iArr1" class="abs" style="left:700px; top:480px;" width="200" height="60" viewBox="0 0 200 60"><path d="M10 30 H160 M135 8 L175 30 L135 52" fill="none" stroke="#1B2430" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <div id="iB" class="abs sticker-svg" style="left:1040px; top:480px;"></div>
+      <div id="iBl" class="abs tag accent sticker" style="left:1040px; top:660px; font-size:44px;">KMP Royce 1</div>
+      <svg id="iArr2" class="abs" style="left:1360px; top:480px;" width="200" height="60" viewBox="0 0 200 60"><path d="M10 30 H160 M135 8 L175 30 L135 52" fill="none" stroke="#1B2430" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <div id="iC" class="abs sticker-svg" style="left:1640px; top:480px;"></div>
+      <div id="iCl" class="abs tag sticker" style="left:1640px; top:660px; font-size:44px;">Dermaga 6 Merak</div>
+    </div>
+    <!-- J (18960,540): outcome + open question -->
+    <div class="zone" style="left:18000px; top:0;">
+      <div id="jOk" class="abs card sticker" style="left:960px; top:420px; padding:34px 50px; display:flex; gap:34px; align-items:center;">
+        <div style="width:130px; height:130px; border-radius:50%; background:#3F9A5A; color:#fff; display:grid; place-items:center; font-size:90px; font-weight:900;">✓</div>
+        <div><div class="t1" style="font-size:66px;">Semua dievakuasi</div><div style="font-weight:700; font-size:38px; color:var(--slate);">penumpang dan awak</div></div></div>
+      <div id="jHurt" class="abs tag accent sticker" style="left:960px; top:660px;">sebagian luka-luka</div>
+    </div>
+    <div class="zone" style="left:20000px; top:0;">
+      <div id="kQ" class="abs t1" style="left:960px; top:170px; font-size:96px; letter-spacing:-3px;">Titik awal apinya?</div>
+      <div id="kA" class="abs chip" style="left:560px; top:470px; font-size:56px; flex-direction:column; padding:26px 44px;"><div id="kAi" class="sticker-svg"></div>Ruang mesin</div>
+      <div id="kOr" class="abs t1" style="left:960px; top:470px; color:var(--slate); font-size:52px;">atau</div>
+      <div id="kB" class="abs chip" style="left:1360px; top:470px; font-size:56px; flex-direction:column; padding:26px 44px;"><div id="kBi" class="sticker-svg"></div>Dek kendaraan</div>
+      <div id="kNote" class="abs tag light sticker" style="left:960px; top:280px; font-size:34px;">keterangan masih beda-beda</div>
+      <div id="kPol" class="abs stamp sticker" style="left:960px; top:665px; font-size:72px; padding:18px 44px 24px;">Polisi masih menyelidiki</div>
+    </div>
+  </div>
+  <div id="card"><div class="kicker" id="cKick"></div><div class="title" id="cTitle"></div><div class="sub" id="cSub"></div></div>
+  <div class="lower" id="lower1">detikNews<small>Sumber</small></div>
+  <div class="lower" id="lower2">Thomas Djamaluddin<small>Peneliti BRIN</small></div>
+  <div class="lower" id="lower3">detikNews<small>Sumber · Polda Banten menyelidiki</small></div>
+  <div id="brand"><div class="dot"></div><b>Rangkumin Dong</b></div>
+  <div id="subs"></div>
+  <div id="progress"></div>
+</div>
+<script>
+// ---- chapter data: every number below is spoken in script.json and verified in factcheck.md row 38-39 ----
+window.CHAPTER = Number(location.pathname.split('/').slice(-2)[0]);
+const DATA = { passengers: 420, vehicles: 89 };
+// -----------------------------------------------------------------------------------------------
+const $ = (id) => document.getElementById(id);
+const T = window.TIMING; window.DURATION = T.duration;
+const ch = (window.WEEK?.chapters || []).find((c) => c.n === window.CHAPTER) || { kicker: 'BAB 6', title: 'Sekilas' };
+$('cKick').textContent = ch.kicker || ''; $('cTitle').textContent = ch.title || ''; $('cSub').textContent = window.WEEK?.dates || '';
+const W = K.word, A = K.at;
+const NS = 'http://www.w3.org/2000/svg';
+const mk = (p, tag, a) => { const e = document.createElementNS(NS, tag); for (const k in a) e.setAttribute(k, a[k]); p.appendChild(e); return e; };
+
+// ---- illustrations ----
+const palmSVG = (s) => `<svg width="${s}" height="${s * 1.2}" viewBox="0 0 100 120"><rect x="45" y="45" width="10" height="75" rx="5" fill="#7A5A3A"/>
+  <g fill="#4F7D46"><ellipse cx="28" cy="40" rx="28" ry="10" transform="rotate(-25 28 40)"/><ellipse cx="72" cy="40" rx="28" ry="10" transform="rotate(25 72 40)"/>
+  <ellipse cx="32" cy="30" rx="26" ry="9" transform="rotate(20 32 30)"/><ellipse cx="68" cy="30" rx="26" ry="9" transform="rotate(-20 68 30)"/><ellipse cx="50" cy="22" rx="9" ry="24"/></g></svg>`;
+const metalSVG = () => `<svg width="560" height="300" viewBox="0 0 560 300"><path d="M40 80 Q40 40 90 40 L420 40 L460 70 L440 95 L480 120 L450 150 L490 190 L440 230 L460 260 L90 260 Q40 260 40 220 Z" fill="#AEB7BF" stroke="#5D6B77" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M60 90 L430 90 M60 210 L440 210" stroke="#8C98A3" stroke-width="10"/><path d="M90 50 Q60 150 90 250" fill="none" stroke="#5D6B77" stroke-width="8"/>
+  <g fill="#5D6B77">${[130, 190, 250, 310, 370].map((x) => `<circle cx="${x}" cy="65" r="6"/><circle cx="${x}" cy="235" r="6"/>`).join('')}</g></svg>`;
+const kmSVG = () => `<svg width="220" height="330" viewBox="0 0 220 330"><rect x="100" y="140" width="20" height="190" fill="#5D6B77"/>
+  <rect x="10" y="10" width="200" height="150" rx="18" fill="#2E7D4F" stroke="#fff" stroke-width="8"/>
+  <text x="110" y="70" text-anchor="middle" font-family="Inter" font-weight="900" font-size="44" fill="#fff">KM</text>
+  <text x="110" y="135" text-anchor="middle" font-family="Inter" font-weight="900" font-size="66" fill="#fff">26</text></svg>`;
+const rocketSVG = () => `<svg width="260" height="640" viewBox="0 0 260 640"><path d="M130 10 Q190 70 190 160 L190 520 L70 520 L70 160 Q70 70 130 10 Z" fill="#fff" stroke="#1B2430" stroke-width="8"/>
+  <rect x="70" y="300" width="120" height="90" fill="#D9DEE3" stroke="#1B2430" stroke-width="6"/>
+  <path d="M70 430 L20 560 L70 520 Z M190 430 L240 560 L190 520 Z" fill="#FF5A36" stroke="#1B2430" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M95 520 L165 520 L150 560 L110 560 Z" fill="#3E5568"/>
+  <circle cx="130" cy="170" r="26" fill="#9CC3D5" stroke="#1B2430" stroke-width="6"/></svg>`;
+const domeSVG = () => `<svg width="560" height="380" viewBox="0 0 560 380"><path d="M40 320 Q40 40 280 40 Q520 40 520 320 Z" fill="#E3CF7A" stroke="#8A7A3E" stroke-width="10" stroke-linejoin="round"/>
+  <path d="M110 160 Q280 110 450 160" fill="none" stroke="#C9B461" stroke-width="10"/><path d="M90 230 Q280 190 470 230" fill="none" stroke="#C9B461" stroke-width="10"/>
+  <rect x="30" y="305" width="500" height="30" rx="10" fill="#C9B461" stroke="#8A7A3E" stroke-width="8"/>
+  <g fill="#6F6330">${Array.from({ length: 13 }, (_, i) => `<circle cx="${60 + i * 37}" cy="320" r="7"/>`).join('')}</g>
+  <ellipse cx="200" cy="110" rx="60" ry="18" fill="#F2E6B0" opacity=".7"/></svg>`;
+const shipSVG = (w, color = '#fff', smoke = false) => `<svg width="${w}" height="${w * 0.42}" viewBox="0 0 500 210">
+  <path d="M20 120 L480 120 L430 200 L60 200 Z" fill="#3E5568" stroke="#1B2430" stroke-width="7" stroke-linejoin="round"/>
+  <rect x="90" y="60" width="300" height="60" rx="8" fill="${color}" stroke="#1B2430" stroke-width="7"/>
+  <rect x="170" y="15" width="150" height="45" rx="8" fill="${color}" stroke="#1B2430" stroke-width="7"/>
+  <g fill="#9CC3D5">${[115, 165, 215, 265, 315, 355].map((x) => `<rect x="${x}" y="78" width="28" height="22" rx="4"/>`).join('')}</g>
+  <path d="M40 150 L460 150" stroke="#FF5A36" stroke-width="8"/>
+  ${smoke ? '<g fill="#7C858D" opacity=".85"><circle cx="230" cy="0" r="22"/><circle cx="262" cy="-14" r="28"/></g>' : ''}</svg>`;
+const flameSVG = (s) => `<svg width="${s}" height="${s * 1.3}" viewBox="0 0 100 130"><path d="M50 5 C70 40 95 55 90 90 C86 115 68 128 50 128 C32 128 14 115 10 90 C6 62 30 50 32 25 C42 40 46 48 50 5 Z" fill="#FF5A36"/>
+  <path d="M50 55 C62 75 72 85 70 102 C68 116 60 122 50 122 C40 122 32 116 30 102 C28 88 42 80 50 55 Z" fill="#FFD23F"/></svg>`;
+const personSVG = () => `<svg width="110" height="110" viewBox="0 0 100 100"><circle cx="50" cy="30" r="20" fill="#3E5568"/><path d="M15 95 Q15 58 50 58 Q85 58 85 95 Z" fill="#3E5568"/></svg>`;
+const carSVG = () => `<svg width="130" height="110" viewBox="0 0 120 100"><path d="M10 70 L10 50 L28 26 L92 26 L110 50 L110 70 Z" fill="#3E5568"/><rect x="34" y="33" width="52" height="18" rx="3" fill="#9CC3D5"/>
+  <circle cx="32" cy="74" r="13" fill="#1B2430"/><circle cx="88" cy="74" r="13" fill="#1B2430"/></svg>`;
+const ringSVG = () => `<svg width="260" height="260" viewBox="0 0 100 100"><circle cx="50" cy="50" r="38" fill="none" stroke="#FF5A36" stroke-width="20"/>
+  <g stroke="#fff" stroke-width="20"><path d="M50 12 v10" /><path d="M50 78 v10"/><path d="M12 50 h10"/><path d="M78 50 h10"/></g></svg>`;
+const boatSVG = () => `<svg width="460" height="280" viewBox="0 0 460 280"><path d="M20 170 L440 170 L390 260 L70 260 Z" fill="#2E7D4F" stroke="#1B2430" stroke-width="7" stroke-linejoin="round"/>
+  <rect x="215" y="40" width="10" height="130" fill="#7A5A3A"/><path d="M225 50 L330 160 L225 160 Z" fill="#fff" stroke="#1B2430" stroke-width="6"/>
+  <circle cx="140" cy="135" r="20" fill="#3E5568"/><path d="M110 170 Q110 150 140 150 Q170 150 170 170 Z" fill="#3E5568"/></svg>`;
+const pierSVG = () => `<svg width="280" height="200" viewBox="0 0 280 200"><rect x="10" y="60" width="260" height="40" rx="6" fill="#B08A5A" stroke="#1B2430" stroke-width="6"/>
+  <g fill="#7A5A3A">${[30, 90, 150, 210, 250].map((x) => `<rect x="${x}" y="100" width="16" height="90"/>`).join('')}</g>
+  <rect x="200" y="20" width="16" height="40" fill="#1B2430"/></svg>`;
+const engineSVG = () => `<svg width="130" height="110" viewBox="0 0 120 100"><rect x="15" y="25" width="90" height="60" rx="8" fill="#3E5568"/><rect x="35" y="10" width="50" height="18" rx="4" fill="#3E5568"/>
+  <circle cx="60" cy="55" r="18" fill="#9CC3D5"/><circle cx="60" cy="55" r="7" fill="#1B2430"/></svg>`;
+const boomSVG = () => `<svg width="380" height="300" viewBox="0 0 380 300"><path d="M190 10 L222 90 L310 40 L270 120 L370 140 L275 175 L330 265 L225 210 L190 295 L158 210 L55 265 L110 175 L10 140 L110 120 L70 40 L158 90 Z" fill="#FF5A36" stroke="#FFD23F" stroke-width="10" stroke-linejoin="round"/>
+  <text x="190" y="175" text-anchor="middle" font-family="Inter" font-weight="900" font-size="70" fill="#fff">DUAR!</text></svg>`;
+
+// ---- maps ----
+const drawMap = (svg, M) => { mk(svg, 'path', { d: M.others, fill: '#DCD5C6', stroke: '#fff', 'stroke-width': 3 });
+  mk(svg, 'path', { d: M.indo, fill: '#B9CDA8', stroke: '#fff', 'stroke-width': 4, 'stroke-linejoin': 'round' }); };
+drawMap($('mapA'), MAP.kal); drawMap($('mapE'), MAP.jawa);
+const mapPt = (M, k, zx, cx = 960, cy = 560) => [zx + cx - 650 + M.P[k][0], cy - 380 + M.P[k][1]];
+const [kx, ky] = mapPt(MAP.kal, 'kotim', 0, 960, 520), [mx, my] = mapPt(MAP.jawa, 'merak', 0);
+Object.assign($('aPin').style, { left: kx + 'px', top: ky + 'px' }); Object.assign($('aLbl').style, { left: kx + 'px', top: ky + 80 + 'px' });
+Object.assign($('aBoom').style, { left: kx + 230 + 'px', top: ky - 150 + 'px' }); $('aBoom').innerHTML = boomSVG();
+Object.assign($('ePin').style, { left: mx + 'px', top: my + 'px' }); Object.assign($('eLbl').style, { left: mx + 'px', top: my + 80 + 'px' });
+
+$('bMetal').innerHTML = metalSVG(); $('bKm').innerHTML = kmSVG();
+const PALMS = [[600, 470, 260], [1450, 450, 300], [1700, 520, 220], [250, 560, 200]].map(([x, y, s]) => {
+  const d = document.createElement('div'); d.className = 'abs sticker-svg'; d.style.cssText = `left:${x}px; top:${y}px;`; d.innerHTML = palmSVG(s);
+  $('bPalms').parentNode.insertBefore(d, $('bMetal')); return d; });
+$('cRocket').innerHTML = rocketSVG(); $('dDome').innerHTML = domeSVG();
+$('fShip').innerHTML = shipSVG(900);
+const FL = [[-180, 60, 120], [0, 0, 170], [170, 50, 130], [330, 120, 90]].map(([x, y, s]) => {
+  const d = document.createElement('div'); d.className = 'abs'; d.style.cssText = `left:${960 + x}px; top:${400 + y}px; transform-origin:50% 100%;`; d.innerHTML = flameSVG(s);
+  $('fFire').parentNode.insertBefore(d, $('fName')); return d; });
+$('gI1').innerHTML = personSVG(); $('gI2').innerHTML = carSVG();
+$('hRing').innerHTML = ringSVG(); $('hBoat').innerHTML = boatSVG();
+const WAVES = [0, 1, 2].map((i) => { const d = document.createElement('div'); d.className = 'abs';
+  d.style.cssText = `left:960px; top:${700 + i * 70}px; width:${1700 - i * 120}px; height:60px; border-radius:30px; background:${['#9CC3D5', '#86B4C9', '#6FA3BB'][i]};`;
+  $('hSea').parentNode.insertBefore(d, $('hRing')); return d; });
+$('iA').innerHTML = shipSVG(360, '#fff', true); $('iB').innerHTML = shipSVG(360, '#FFF3D6'); $('iC').innerHTML = pierSVG();
+$('kAi').innerHTML = engineSVG(); $('kBi').innerHTML = carSVG();
+
+// ---- timeline (word cues) ----
+const tB = A('f3'), tC = A('f4'), tD = W('f4', 'lalu'), tE = A('f5'), tF = W('f5', 'kapal'), tG = A('f6'), tH = W('f6', 'ada'), tI = A('f6b'), tJ = A('f7'), tK = W('f7', 'titik');
+const ZX = (n) => 960 + 2000 * n;
+const cam = [
+  { t: 0, x: 960, y: 540, z: 0.92 },
+  { t: W('f2', 'warga'), x: kx - 120, y: ky - 40, z: 1.25, dur: 1.4 },
+  { t: tB, x: ZX(1), y: 520, z: 1 }, { t: W('f3', 'diduga'), x: ZX(1) + 60, y: 560, z: 1.06, dur: 1.2 },
+  { t: tC, x: ZX(2), y: 540, z: 1 },
+  { t: tD, x: ZX(3), y: 520, z: 1 },
+  { t: tE, x: ZX(4), y: 540, z: 0.92 }, { t: W('f5', 'oktober') - 0.2, x: 8000 + mx + 60, y: my - 60, z: 1.2, dur: 1.2 },
+  { t: tF, x: ZX(5), y: 540, z: 1 },
+  { t: tG, x: ZX(6), y: 520, z: 1 },
+  { t: tH, x: ZX(7), y: 520, z: 1 },
+  { t: tI, x: ZX(8), y: 520, z: 1 },
+  { t: tJ, x: ZX(9), y: 520, z: 1 },
+  { t: tK, x: ZX(10), y: 540, z: 1 },
+];
+const fade = (el, t, tIn, tOut = Infinity) => { el.style.opacity = K.clamp((t - tIn) / 0.3) * (1 - K.clamp((t - tOut) / 0.3)); };
+const count = (el, v, t, t0) => { el.textContent = Math.round(v * K.easeOut(K.prog(t, t0, 0.8))).toLocaleString('id-ID'); };
+
+function seek(t) {
+  K.cam16($('world'), cam, t);
+  K.titleCard($('card'), t, 2.0);
+  // A
+  fade($('mapA'), t, 1.9);
+  K.pop($('aDate'), t, W('f2', '18') - 0.1);
+  K.pop($('aPin'), t, W('f2', 'warga')); K.pop($('aLbl'), t, W('f2', 'kotawaringin'));
+  const bt = W('f2', 'dentuman'); K.pop($('aBoom'), t, bt, Infinity, -6 + 3 * Math.sin(t * 40) * Math.exp(-4 * Math.max(0, t - bt)));
+  // B
+  K.pop($('bWhen'), t, tB + 0.05);
+  fade($('bGround'), t, tB - 0.4);
+  PALMS.forEach((p, i) => K.pop(p, t, tB + 0.1 + i * 0.12));
+  K.pop($('bMetal'), t, W('f3', 'potongan'), Infinity, -4);
+  K.pop($('bKm'), t, W('f3', 'kilometer'));
+  K.pop($('bLbl'), t, W('f3', 'diduga'));
+  // C
+  K.pop($('cQuote'), t, tC + 0.1, Infinity, -2);
+  K.pop($('cRocket'), t, W('f4', 'roket') - 0.1, Infinity, 8);
+  K.pop($('cName'), t, W('f4', 'zhuque'), Infinity, -3);
+  // D
+  K.pop($('dTitle'), t, tD + 0.1);
+  K.pop($('dDome'), t, W('f4', 'ditemukan'));
+  K.pop($('dC1'), t, W('f4b', 'kubah') - 0.1); K.pop($('dC2'), t, W('f4b', 'kuning') - 0.1); K.pop($('dC3'), t, W('f4b', 'paku') - 0.1);
+  // E
+  fade($('mapE'), t, tE - 0.4);
+  K.pop($('eDate'), t, W('f5', '20') - 0.1);
+  K.pop($('ePin'), t, tE + 0.2); K.pop($('eLbl'), t, tE + 0.35);
+  // F
+  fade($('fSea'), t, tF - 0.4);
+  K.pop($('fShip'), t, tF - 0.1);
+  K.pop($('fName'), t, W('f5', 'kmp') - 0.1);
+  const tf = W('f5', 'terbakar');
+  FL.forEach((f, i) => { const s = K.spring(t - tf - i * 0.1); f.style.opacity = t >= tf + i * 0.1 ? 1 : 0;
+    f.style.transform = `translate(-50%,-100%) scale(${s * (1 + 0.07 * Math.sin(t * 9 + i * 2))}, ${s * (1 + 0.1 * Math.sin(t * 7 + i))})`; });
+  K.pop($('fBurn'), t, tf, Infinity, 5);
+  // G
+  K.pop($('gCard'), t, tG - 0.1); K.pop($('gHead'), t, tG + 0.05);
+  K.pop($('gR1'), t, W('f6', '420') - 0.1); count($('gN1'), DATA.passengers, t, W('f6', '420'));
+  K.pop($('gR2'), t, W('f6', '89') - 0.1); count($('gN2'), DATA.vehicles, t, W('f6', '89'));
+  // H
+  K.pop($('hTitle'), t, W('f6', 'lompat') - 0.2);
+  WAVES.forEach((w, i) => { fade(w, t, tH - 0.3); w.style.transform = `translate(calc(-50% + ${Math.sin(t * 1.6 + i) * 24}px), -50%)`; });
+  K.pop($('hRing'), t, W('f6', 'laut') - 0.1, Infinity, Math.sin(t * 2) * 6);
+  K.pop($('hBoat'), t, W('f6', 'ditolong') - 0.15, Infinity, Math.sin(t * 1.8) * 2.5);
+  K.pop($('hLbl'), t, W('f6', 'nelayan') - 0.1, Infinity, -3);
+  // I
+  K.pop($('iTitle'), t, tI + 0.05);
+  K.pop($('iA'), t, tI + 0.1); K.pop($('iAl'), t, tI + 0.2);
+  K.pop($('iArr1'), t, W('f6b', 'kmp') - 0.3); K.pop($('iB'), t, W('f6b', 'kmp') - 0.1); K.pop($('iBl'), t, W('f6b', 'royce'));
+  K.pop($('iArr2'), t, W('f6b', 'dibawa')); K.pop($('iC'), t, W('f6b', 'dermaga') - 0.2); K.pop($('iCl'), t, W('f6b', 'dermaga'));
+  // J
+  K.pop($('jOk'), t, tJ + 0.05); K.pop($('jHurt'), t, W('f7', 'sebagian') - 0.1, Infinity, -2);
+  // K
+  K.pop($('kQ'), t, tK - 0.1);
+  K.pop($('kNote'), t, W('f7', 'keterangannya') - 0.1);
+  K.pop($('kA'), t, W('f7', 'ruang') - 0.15, Infinity, -2); K.pop($('kOr'), t, W('f7', 'atau') - 0.1); K.pop($('kB'), t, W('f7', 'dek') - 0.15, Infinity, 2);
+  K.pop($('kPol'), t, W('f7', 'polisi') - 0.1, Infinity, -3);
+  // lower thirds
+  K.lower($('lower1'), t, 3.0, tC - 0.4);
+  K.lower($('lower2'), t, W('f4', 'brin'), tD + 0.6);
+  K.lower($('lower3'), t, W('f5', 'oktober'), tI - 0.4);
+  K.subtitles($('subs'), t);
+  K.weekly(t);
+}
+window.seek = seek;
+</script>
+</body>
+</html>

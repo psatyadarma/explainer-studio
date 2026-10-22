@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Rangkumin Seminggu — chapter</title>
+<!-- ../../../../../../ is replaced by engine/weekly.py init with the path back to the repo root -->
+<link rel="stylesheet" href="../../../../../../styles/sticker/sticker.css">
+<link rel="stylesheet" href="../../../../../../styles/sticker/weekly/weekly.css">
+<script src="../../../../../../styles/sticker/sticker.js"></script>
+<script src="build/timing.js"></script>
+<script src="../../build/week.js"></script>
+<script src="../../../../../../styles/sticker/weekly/weekly.js"></script>
+<style>
+  /* Outro — ask for comments, then follow + schedule */
+  .bubble { width: 1060px; background: #fff; border-radius: 40px; padding: 44px 56px; font-weight: 900; font-size: 72px; line-height: 1.05; letter-spacing: -2px; text-align: center; }
+  .bubble:after { content: ''; position: absolute; left: 140px; bottom: -44px; border: 26px solid transparent; border-top: 30px solid #fff; border-left: 30px solid #fff; }
+  .bubble .acc { color: var(--accent); }
+  .chip { font-size: 38px; padding: 12px 22px; }
+  .input { width: 900px; height: 110px; background: #fff; border-radius: 55px; display: flex; align-items: center; gap: 22px; padding: 0 40px; font-weight: 800; font-size: 44px; color: var(--slate); }
+  .input .av { width: 66px; height: 66px; border-radius: 50%; background: var(--accent); flex: none; }
+  .input .cur { width: 5px; height: 52px; background: var(--ink); margin-left: -12px; }
+  .logo { display: flex; align-items: center; gap: 34px; white-space: nowrap; }
+  .logo .dot { width: 110px; height: 110px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 0 10px #fff; }
+  .logo b { font-weight: 900; font-size: 150px; letter-spacing: -6px; }
+  .follow { background: var(--accent); color: #fff; font-weight: 900; font-size: 64px; padding: 20px 60px 26px; border-radius: 60px; white-space: nowrap; }
+  .sat { width: 330px; height: 330px; background: #fff; border-radius: 34px; overflow: hidden; display: flex; flex-direction: column; align-items: center; }
+  .sat .top { width: 100%; background: var(--ink); color: #fff; font-weight: 900; font-size: 46px; text-align: center; padding: 18px 0 14px; letter-spacing: 1px; }
+  .sat .pg { font-weight: 900; font-size: 64px; color: var(--accent); margin-top: 4px; }
+</style>
+</head>
+<body>
+<div id="stage">
+  <div id="world">
+    <!-- ZONE A (x≈960): question + this week's chapters + comment box -->
+    <div id="bub" class="abs bubble sticker" style="left:960px; top:330px">Mana yang paling <span class="acc">ngaruh</span> ke hidup kamu?</div>
+    <div id="chips"></div>
+    <div id="inp" class="abs input sticker" style="left:960px; top:780px"><span class="av"></span><span id="typed"></span><span class="cur" id="cur"></span></div>
+
+    <!-- ZONE B (x≈2960): follow + schedule -->
+    <div id="logo" class="abs logo" style="left:2960px; top:300px"><span class="dot"></span><b>Rangkumin Dong</b></div>
+    <div id="fol" class="abs follow sticker" style="left:2700px; top:540px">+ Follow</div>
+    <div id="sem" class="abs tag sticker" style="left:2700px; top:720px; font-size:56px">Rangkumin Seminggu</div>
+    <div id="sat" class="abs sat sticker" style="left:3400px; top:640px">
+      <div class="top">SABTU</div>
+      <svg width="170" height="150" viewBox="0 0 170 150" style="margin-top:10px"><g stroke="#FFD23F" stroke-width="12" stroke-linecap="round"><path d="M85 14v20M30 40l14 14M140 40l-14 14M10 96h22M138 96h22"/></g><path d="M35 120a50 50 0 0 1 100 0z" fill="#FFD23F"/><rect x="10" y="118" width="150" height="10" rx="5" fill="#3E5568"/></svg>
+      <div class="pg">pagi</div>
+    </div>
+  </div>
+  <div id="card"><div class="kicker" id="cKick"></div><div class="title" id="cTitle"></div><div class="sub" id="cSub"></div></div>
+  <div id="brand"><div class="dot"></div><b>Rangkumin Dong</b></div>
+  <div id="subs"></div>
+  <div id="progress"></div>
+</div>
+<script>
+// ---- chapter data (no numbers on screen) ----
+window.CHAPTER = Number(location.pathname.split('/').slice(-2)[0]);
+const FALLBACK = { kicker: 'OUTRO', title: 'Sampai Sabtu depan', dates: '17–23 Okt 2026' };   // used until build/week.js exists
+// this week's chapter titles (script.json), shown without numbers; positions around the question bubble
+const CHIPS = [['IHSG bangkit?', 300, 540, -4], ['BI & rupiah', 640, 560, 3], ['Karhutla', 930, 545, -2], ['Definisi korupsi', 1250, 560, 4], ['Dompet kamu', 1630, 545, -3], ['Sekilas', 230, 770, 4]];
+// -----------------------------------------------------------------------------------------------
+const $ = (id) => document.getElementById(id);
+const T = window.TIMING; window.DURATION = T.duration;
+const ch = (window.WEEK?.chapters || []).find((c) => c.n === window.CHAPTER) || FALLBACK;
+$('cKick').textContent = ch.kicker || ''; $('cTitle').textContent = ch.title || ''; $('cSub').textContent = window.WEEK?.dates || FALLBACK.dates;
+const chips = CHIPS.map(([txt, x, y], i) => {
+  const e = document.createElement('div'); e.className = 'abs tag light sticker chip'; e.textContent = txt;
+  Object.assign(e.style, { left: x + 'px', top: y + 'px' }); $('world').appendChild(e); return e;
+});
+const W = K.word;
+// Subtitle pages: split long lines at punctuation so subtitles stay on one row (≤ ~48 chars) and clear the visuals.
+K.pages = (lines, max = 48) => lines.flatMap((l) => {
+  const len = (ws) => ws.map((x) => x.w).join(' ').length;
+  const segs = []; let cur = [];
+  l.words.forEach((w, i) => {   // 1) break at punctuation once a page has some substance
+    cur.push(w);
+    if (/[.,:;!?]$/.test(w.w) && len(cur) >= 12 && i < l.words.length - 1) { segs.push(cur); cur = []; }
+  });
+  if (cur.length) segs.push(cur);
+  const out = [];
+  segs.forEach((sg) => {        // 2) split a too-long segment into balanced pieces
+    const n = Math.ceil(len(sg) / max), target = len(sg) / n; let piece = [];
+    sg.forEach((w) => { if (piece.length && len(piece.concat(w)) > target + 2) { out.push(piece); piece = []; } piece.push(w); });
+    out.push(piece);
+  });
+  return out.map((ws, k) => ({ id: l.id + '.' + k, start: ws[0].start, end: ws[ws.length - 1].end, words: ws }));
+});
+const SUBT = { ...T, lines: K.pages(T.lines) };
+const cam = [{ t: 0, x: 960, y: 540, z: 1 }, { t: W('o2', 'follow') - 0.35, x: 2960, y: 540, z: 1 }];
+const pops = [['bub', 1.95, -2], ['inp', W('o1', 'tulis'), 1], ['logo', W('o2', 'follow') - 0.1, 0], ['fol', W('o2', 'follow') + 0.1, -4],
+  ['sem', W('o2', 'seminggu'), 2], ['sat', W('o2', 'sabtu'), 5]];
+const TYPE = 'Tulis di komentar…', tType = W('o1', 'tulis') + 0.15;
+
+function seek(t) {
+  K.cam16($('world'), cam, t);
+  K.titleCard($('card'), t, 2.0);
+  pops.forEach(([id, tin, rot]) => K.pop($(id), t, tin, Infinity, rot));
+  chips.forEach((e, i) => K.pop(e, t, 2.15 + i * 0.13, Infinity, CHIPS[i][3]));
+  $('typed').textContent = TYPE.slice(0, Math.floor(K.clamp((t - tType) / 0.6) * TYPE.length));
+  $('cur').style.opacity = Math.floor(t * 2.5) % 2 ? 0.2 : 1;
+  // follow button "presses" once, the sun sticker bobs
+  const pr = K.prog(t, W('o2', 'dong'), 0.3); $('fol').style.transform += ` scale(${1 - 0.08 * Math.sin(Math.PI * pr)})`;
+  window.TIMING = SUBT; K.subtitles($('subs'), t); window.TIMING = T;
+  K.weekly(t);
+}
+window.seek = seek;
+</script>
+</body>
+</html>

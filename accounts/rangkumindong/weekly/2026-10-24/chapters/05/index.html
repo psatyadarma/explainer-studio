@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Rangkumin Seminggu — chapter</title>
+<!-- ../../../../../../ is replaced by engine/weekly.py init with the path back to the repo root -->
+<link rel="stylesheet" href="../../../../../../styles/sticker/sticker.css">
+<link rel="stylesheet" href="../../../../../../styles/sticker/weekly/weekly.css">
+<script src="../../../../../../styles/sticker/sticker.js"></script>
+<script src="../../../../../../styles/sticker/characters/budi.js"></script>
+<script src="build/timing.js"></script>
+<script src="../../build/week.js"></script>
+<script src="../../../../../../styles/sticker/weekly/weekly.js"></script>
+<style>
+  /* chapter 05 — Dompet kamu */
+  .lower { bottom: auto; top: 118px; }
+  .big { font-weight: 900; font-size: 200px; letter-spacing: -7px; color: var(--accent); white-space: nowrap; line-height: 1; }
+  .num { font-weight: 900; font-size: 150px; letter-spacing: -5px; color: var(--accent); white-space: nowrap; line-height: 1; }
+  .h2 { font-weight: 900; font-size: 92px; letter-spacing: -3px; white-space: nowrap; line-height: 1; }
+  .card { background: #fff; border-radius: 28px; display: flex; align-items: center; gap: 26px; padding: 26px 34px; }
+  .card svg { flex: none; width: 130px; height: 130px; }
+  .card .tx { font-weight: 900; font-size: 46px; line-height: 1.08; letter-spacing: -1px; }
+  .card .tx small { display: block; font-weight: 700; font-size: 32px; color: var(--slate); letter-spacing: 0; margin-top: 6px; }
+  .badge { background: var(--accent); color: #fff; font-weight: 900; font-size: 46px; padding: 14px 26px; border-radius: 20px; white-space: nowrap; letter-spacing: -1px; }
+  .badge.ink { background: var(--ink); }
+  .quote { background: #fff; border-radius: 32px; padding: 46px 60px; width: 1180px; text-align: center; }
+  .quote .q { font-weight: 900; font-size: 78px; letter-spacing: -2.5px; line-height: 1.08; }
+  .quote .q em { font-style: normal; color: var(--accent); }
+  .col { background: #fff; border-radius: 28px; width: 480px; height: 430px; padding: 34px 30px; text-align: center; display: flex; flex-direction: column; align-items: center; gap: 18px; }
+  .col svg { width: 150px; height: 150px; }
+  .col .who { font-weight: 900; font-size: 44px; letter-spacing: -1px; line-height: 1.05; }
+  .col .what { font-weight: 800; font-size: 34px; color: var(--slate); line-height: 1.15; }
+  .chip { background: #fff; border-radius: 18px; padding: 16px 28px; font-weight: 800; font-size: 44px; white-space: nowrap; display: flex; gap: 16px; align-items: center; }
+  .chip b { background: var(--ink); color: #fff; border-radius: 12px; padding: 2px 14px; font-size: 36px; }
+  .link { position: absolute; height: 10px; background: var(--slate); border-radius: 5px; transform-origin: 0 50%; }
+  .phone { width: 110px; height: 170px; border-radius: 24px; background: var(--ink); padding: 12px 10px 24px; }
+  .phone i { display: block; width: 100%; height: 100%; border-radius: 12px; background: var(--accent); }
+  .phone.b i { background: var(--hi); } .phone.c i { background: #5FA8D3; }
+  .dim { filter: saturate(.3); }
+</style>
+</head>
+<body>
+<div id="stage">
+  <div id="world">
+    <!-- ZONE A (960,460): Rp31,8 T -->
+    <div id="aTag" class="abs tag accent sticker" style="left:960px; top:170px;">SATU · Paket akhir tahun</div>
+    <div id="aBudi" class="abs sticker-svg" style="left:420px; top:500px; width:300px; height:400px;"></div>
+    <div id="aStat" class="abs big" style="left:1150px; top:440px;">Rp0 T</div>
+    <div id="aWhen" class="abs tag light sticker" style="left:1150px; top:640px;">berlaku sampai akhir tahun</div>
+
+    <!-- ZONE B (2960,440): four programs -->
+    <div id="bHead" class="abs h2" style="left:2960px; top:95px;">Isinya</div>
+    <div id="b1" class="abs card sticker" style="left:2610px; top:270px; width:640px;"></div>
+    <div id="b2" class="abs card sticker" style="left:3310px; top:270px; width:640px;"></div>
+    <div id="b3" class="abs card sticker" style="left:2610px; top:540px; width:640px;"></div>
+    <div id="b4" class="abs card sticker" style="left:3310px; top:540px; width:640px;"></div>
+    <div id="bBadge2" class="abs badge sticker" style="left:3400px; top:150px;">~33 juta keluarga</div>
+    <div id="bBadge1" class="abs badge sticker" style="left:2700px; top:150px;">~13 juta pekerja</div>
+    <div id="bQ" class="abs num" style="left:2900px; top:480px; font-size:120px; color:var(--ink);">?</div>
+    <div id="bStamp" class="abs badge ink sticker" style="left:2620px; top:560px;">Rincian belum diumumkan</div>
+
+    <!-- ZONE C (2960,-700): Airlangga's aim -->
+    <div id="cQuote" class="abs quote sticker" style="left:2960px; top:-700px;">
+      <svg viewBox="0 0 200 120" width="220" height="132" style="margin-bottom:14px">
+        <path id="cLine" d="M10 105 L60 80 L100 88 L150 45 L190 18" stroke="#FF5A36" stroke-width="14" fill="none" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"/>
+        <path d="M168 14 L192 16 L188 40" stroke="#FF5A36" stroke-width="14" fill="none" stroke-linecap="round" stroke-linejoin="round" id="cHead" opacity="0"/>
+      </svg>
+      <div class="q">Tujuannya: <em>dorong ekonomi</em><br>mulai akhir tahun ini</div>
+    </div>
+
+    <!-- ZONE D (4960,440): UMP 2027, union ask -->
+    <div id="dTag" class="abs tag accent sticker" style="left:4960px; top:150px;">DUA · Upah minimum</div>
+    <div id="dHead" class="abs h2" style="left:4960px; top:300px;">UMP 2027</div>
+    <div id="dWho" class="abs tag light sticker" style="left:4960px; top:450px;">Usulan serikat buruh: naik</div>
+    <div id="dLo" class="abs num" style="left:4700px; top:620px;">7,5%</div>
+    <div id="dDash" class="abs num" style="left:4960px; top:620px; color:var(--ink);">–</div>
+    <div id="dHi" class="abs num" style="left:5230px; top:620px;">9,5%</div>
+
+    <!-- ZONE D2 (6760,440): government side -->
+    <div id="eTag" class="abs tag sticker" style="left:6760px; top:150px;">Pemerintah</div>
+    <div id="e1" class="abs chip sticker" style="left:6760px; top:300px;"><b>Formula</b>ikut UU Ketenagakerjaan baru</div>
+    <div id="e2" class="abs card sticker" style="left:6760px; top:480px; padding:20px 40px;">
+      <div class="num" style="color:var(--ink); font-size:120px;">?</div>
+      <div class="tx">Angkanya<br>belum ada</div>
+    </div>
+    <div id="e3" class="abs chip sticker" style="left:6760px; top:670px;"><b>Dibahas</b>Dewan Pengupahan</div>
+
+    <!-- ZONE E (8760,440): ojol -->
+    <div id="fTag" class="abs tag accent sticker" style="left:8760px; top:125px;">TIGA · Driver ojol</div>
+    <div id="fDriver" class="abs sticker-svg" style="left:8330px; top:395px; width:330px; height:330px;"></div>
+    <div id="fStamp" class="abs badge ink sticker" style="left:8330px; top:600px;">Perpres 27/2026</div>
+    <div id="fL1" class="link" style="left:8480px; top:390px; width:480px;"></div>
+    <div id="fL2" class="link" style="left:8480px; top:390px; width:460px;"></div>
+    <div id="fL3" class="link" style="left:8480px; top:390px; width:480px;"></div>
+    <div id="fP1" class="abs phone sticker" style="left:9000px; top:230px;"><i></i></div>
+    <div id="fP2" class="abs phone b sticker" style="left:9000px; top:395px;"><i></i></div>
+    <div id="fP3" class="abs phone c sticker" style="left:9000px; top:560px;"><i></i></div>
+    <div id="fCap" class="abs tag light sticker" style="left:9110px; top:395px; transform-origin:0 50%;">lebih dari satu<br>aplikasi</div>
+
+    <!-- ZONE F (10760,440): three overseers -->
+    <div id="gHead" class="abs h2" style="left:10760px; top:140px;">Pengawasnya dibagi tiga</div>
+    <div id="g1" class="abs col sticker" style="left:10220px; top:480px;"></div>
+    <div id="g2" class="abs col sticker" style="left:10760px; top:480px;"></div>
+    <div id="g3" class="abs col sticker" style="left:11300px; top:480px;"></div>
+
+    <!-- ZONE G (12760,440): question -->
+    <div id="hBudi" class="abs sticker-svg" style="left:12200px; top:470px; width:300px; height:400px;"></div>
+    <div id="hQ" class="abs h2" style="left:12960px; top:190px; font-size:80px;">Yang mana paling kerasa?</div>
+    <div id="h1" class="abs chip sticker" style="left:12960px; top:340px;"><b>1</b>Paket Rp31,8 T</div>
+    <div id="h2" class="abs chip sticker" style="left:12960px; top:480px;"><b>2</b>UMP 2027</div>
+    <div id="h3" class="abs chip sticker" style="left:12960px; top:620px;"><b>3</b>Ojol multi-aplikasi</div>
+  </div>
+  <div id="card"><div class="kicker" id="cKick"></div><div class="title" id="cTitle"></div><div class="sub" id="cSub"></div></div>
+  <div class="lower" id="lowA">Airlangga Hartarto<small>Menko Perekonomian</small></div>
+  <div class="lower" id="lowY">Yassierli<small>Menteri Ketenagakerjaan</small></div>
+  <div id="brand"><div class="dot"></div><b>Rangkumin Dong</b></div>
+  <div id="subs"></div>
+  <div id="progress"></div>
+</div>
+<script>
+// ---- chapter data: every number below is spoken in script.json and verified in claims.json ----
+// Rp31,8 T (Airlangga 21 Oct; Antara, detik) · beras 10 kg · rekening 17+ · ~33 juta keluarga (33.244.408 KPM) · ~13 juta pekerja (13,3 juta)
+// UMP 2027: KSPI/Partai Buruh 7,5–9,5% · Perpres 27/2026 Pasal 3(1) · oversight: Kementerian UMKM / Kemenhub / Komdigi
+window.CHAPTER = Number(location.pathname.split('/').slice(-2)[0]);
+const FALLBACK = { kicker: 'BAB 5', title: 'Dompet kamu' };   // used only until build/week.js exists
+const ICON = {
+  wage: '<svg viewBox="0 0 130 130"><rect x="10" y="30" width="110" height="74" rx="14" fill="#3E5568"/><rect x="22" y="44" width="40" height="10" rx="5" fill="#fff"/><rect x="22" y="62" width="62" height="8" rx="4" fill="#9FB3C3"/><circle cx="96" cy="80" r="20" fill="#FFD23F"/><text x="96" y="88" font-size="22" font-weight="900" text-anchor="middle" fill="#1B2430" font-family="Inter,sans-serif">Rp</text></svg>',
+  rice: '<svg viewBox="0 0 130 130"><path d="M30 40 Q65 22 100 40 L110 112 Q65 124 20 112 Z" fill="#E7E2D6" stroke="#1B2430" stroke-width="6"/><path d="M36 42 Q65 52 94 42" stroke="#1B2430" stroke-width="6" fill="none"/><rect x="38" y="66" width="54" height="30" rx="8" fill="#FF5A36"/><text x="65" y="88" font-size="22" font-weight="900" text-anchor="middle" fill="#fff" font-family="Inter,sans-serif">10 kg</text></svg>',
+  bus: '<svg viewBox="0 0 130 130"><rect x="16" y="22" width="98" height="78" rx="16" fill="#FF5A36"/><rect x="28" y="34" width="74" height="30" rx="6" fill="#fff"/><circle cx="38" cy="106" r="12" fill="#1B2430"/><circle cx="92" cy="106" r="12" fill="#1B2430"/><path d="M78 74 l22 0 -11 -12z" fill="#FFD23F"/><text x="44" y="88" font-size="22" font-weight="900" fill="#fff" font-family="Inter,sans-serif">%</text></svg>',
+  bank: '<svg viewBox="0 0 130 130"><path d="M65 14 L118 42 H12 Z" fill="#1B2430"/><rect x="22" y="48" width="12" height="44" fill="#3E5568"/><rect x="48" y="48" width="12" height="44" fill="#3E5568"/><rect x="72" y="48" width="12" height="44" fill="#3E5568"/><rect x="96" y="48" width="12" height="44" fill="#3E5568"/><rect x="12" y="96" width="106" height="14" rx="4" fill="#1B2430"/><circle cx="65" cy="32" r="6" fill="#FFD23F"/></svg>',
+  deal: '<svg viewBox="0 0 150 150"><rect x="30" y="16" width="90" height="118" rx="10" fill="#E7E2D6" stroke="#1B2430" stroke-width="6"/><rect x="46" y="40" width="58" height="8" rx="4" fill="#3E5568"/><rect x="46" y="58" width="58" height="8" rx="4" fill="#3E5568"/><rect x="46" y="76" width="40" height="8" rx="4" fill="#3E5568"/><path d="M50 112 q12 -18 22 0 t24 -4" stroke="#FF5A36" stroke-width="7" fill="none" stroke-linecap="round"/></svg>',
+  ride: '<svg viewBox="0 0 150 150"><circle cx="40" cy="108" r="22" fill="none" stroke="#1B2430" stroke-width="10"/><circle cx="112" cy="108" r="22" fill="none" stroke="#1B2430" stroke-width="10"/><path d="M40 108 L70 70 H102 L112 108" stroke="#3E5568" stroke-width="12" fill="none" stroke-linejoin="round"/><circle cx="76" cy="38" r="20" fill="#FF5A36"/><path d="M60 56 L80 70" stroke="#FF5A36" stroke-width="12" stroke-linecap="round"/></svg>',
+  food: '<svg viewBox="0 0 150 150"><rect x="22" y="44" width="106" height="84" rx="12" fill="#FF5A36"/><path d="M22 70 H128" stroke="#fff" stroke-width="6"/><path d="M52 44 q0 -26 23 -26 q23 0 23 26" stroke="#1B2430" stroke-width="8" fill="none"/><rect x="58" y="86" width="34" height="24" rx="6" fill="#FFD23F"/></svg>',
+  driver: '<svg viewBox="0 0 330 330"><circle cx="165" cy="165" r="150" fill="#FFD23F"/><path d="M95 150 q70 -110 140 0 v26 H95z" fill="#2F6E8F"/><rect x="88" y="168" width="154" height="26" rx="13" fill="#1B2430"/><path d="M120 196 q45 56 90 0" fill="#C98E62"/><path d="M70 300 q95 -90 190 0" fill="#2F6E8F"/><rect x="150" y="96" width="30" height="40" rx="8" fill="#FF5A36"/></svg>',
+};
+const PROG = [
+  { el: 'b1', icon: 'wage', t: 'Bantuan Subsidi Upah', s: 'BSU' },
+  { el: 'b2', icon: 'rice', t: 'Bantuan beras', s: '10 kg' },
+  { el: 'b3', icon: 'bus', t: 'Diskon transportasi', s: 'Natal & Tahun Baru' },
+  { el: 'b4', icon: 'bank', t: 'Buka rekening bank', s: 'warga usia 17+' },
+];
+const OVER = [
+  { el: 'g1', icon: 'deal', who: 'Kementerian UMKM', what: 'perjanjian kemitraan' },
+  { el: 'g2', icon: 'ride', who: 'Kemenhub', what: 'tarif penumpang' },
+  { el: 'g3', icon: 'food', who: 'Komdigi', what: 'tarif antar barang & makanan' },
+];
+// -----------------------------------------------------------------------------------------------
+const $ = (id) => document.getElementById(id);
+const T = window.TIMING; window.DURATION = T.duration;
+const ch = (window.WEEK?.chapters || []).find((c) => c.n === window.CHAPTER) || FALLBACK;
+$('cKick').textContent = ch.kicker || ''; $('cTitle').textContent = ch.title || ''; $('cSub').textContent = window.WEEK?.dates || '';
+PROG.forEach((p) => { $(p.el).innerHTML = ICON[p.icon] + `<div class="tx">${p.t}<small>${p.s}</small></div>`; });
+OVER.forEach((o) => { $(o.el).innerHTML = ICON[o.icon] + `<div class="who">${o.who}</div><div class="what">${o.what}</div>`; });
+$('fDriver').innerHTML = ICON.driver;
+const W = K.word, A = K.at;
+
+// beats
+const tA = 2.25, tB = A('e3') - 0.1, tC = A('e4') - 0.05, tB2 = W('e4', 'sebagian'), tD = A('e5') - 0.05, tD2 = A('e6') - 0.05,
+      tE = A('e7') - 0.05, tF = A('e7b') - 0.05, tG = A('e8') - 0.05;
+const keys = [
+  { t: 0, x: 960, y: 450, z: 1 },
+  { t: tB, x: 2960, y: 400, z: 1 },
+  { t: tC, x: 2960, y: -660, z: 1 },
+  { t: tB2, x: 2960, y: 400, z: 1, dur: 0.8 },
+  { t: W('e4', 'beras') - 0.3, x: 3030, y: 410, z: 1.1 },
+  { t: W('e4', 'bsu') - 0.3, x: 2890, y: 410, z: 1.1 },
+  { t: W('e4', 'diskon') - 0.1, x: 2940, y: 430, z: 1.1 },
+  { t: tD, x: 4960, y: 440, z: 1 },
+  { t: tD2, x: 6760, y: 440, z: 1 },
+  { t: tE, x: 8760, y: 400, z: 1 },
+  { t: W('e7', 'lebih') - 0.2, x: 8800, y: 400, z: 1.05 },
+  { t: tF, x: 10760, y: 440, z: 1 },
+  { t: tG, x: 12620, y: 440, z: 1, dur: 0.8 },
+];
+
+function seek(t) {
+  K.cam16($('world'), keys, t);
+  K.titleCard($('card'), t, 2.0);
+
+  // A — Rp31,8 T
+  K.pop($('aTag'), t, W('e2', 'satu') + 0.05, tB + 0.6, -2);
+  $('aBudi').innerHTML !== '' || ($('aBudi').innerHTML = K.budi('neutral'));
+  const bx = t >= W('e2', 'triliun') ? 'happy' : 'neutral';
+  if ($('aBudi').dataset.x !== bx) { $('aBudi').dataset.x = bx; $('aBudi').innerHTML = K.budi(bx); }
+  K.pop($('aBudi'), t, tA + 0.15, tB + 0.6, 3 * Math.sin(t * 2.2));
+  const k = K.easeOut(K.prog(t, W('e2', 'rp31'), 1.3));
+  $('aStat').textContent = 'Rp' + (31.8 * k).toFixed(1).replace('.', ',') + ' T';
+  K.pop($('aStat'), t, W('e2', 'rp31'), tB + 0.6);
+  K.pop($('aWhen'), t, W('e2', 'berlaku'), tB + 0.6, 2);
+
+  // B — four programs, later annotated
+  K.pop($('bHead'), t, tB, tC);
+  if (t >= tB2) $('bHead').style.opacity = 0;
+  const pIn = [W('e3', 'subsidi'), W('e3', 'beras'), W('e3', 'diskon'), W('e3', 'pembukaan')];
+  PROG.forEach((p, i) => {
+    K.pop($(p.el), t, pIn[i] - 0.1, tD + 0.6, 0);
+    // focus: in the annotation pass dim the cards not being talked about
+    let dim = false;
+    if (t >= W('e4', 'beras') - 0.3 && t < tD) {
+      const focus = t < W('e4', 'bsu') - 0.3 ? 1 : t < W('e4', 'diskon') - 0.1 ? 0 : 2;
+      dim = i !== focus;
+    }
+    const away = 1 - K.prog(t, tC, 0.3) + K.prog(t, tB2 + 0.45, 0.35);   // hidden while the camera is up at zone C
+    $(p.el).style.opacity = Math.min(+$(p.el).style.opacity, dim ? 0.45 : 1, K.clamp(away));
+  });
+  K.pop($('bBadge2'), t, W('e4', '33'), tD + 0.6, 4);
+  K.pop($('bBadge1'), t, W('e4', '13'), tD + 0.6, -4);
+  K.pop($('bQ'), t, W('e4', 'nataru'), tD + 0.6, 8);
+  K.pop($('bStamp'), t, W('e4', 'rinciannya'), tD + 0.6, -3);
+
+  // C — Airlangga's aim
+  K.pop($('cQuote'), t, tC + 0.35, tB2 + 0.6);
+  $('cLine').setAttribute('stroke-dashoffset', 1 - K.easeOut(K.prog(t, W('e4', 'mendorong'), 0.8)));
+  $('cHead').setAttribute('opacity', t >= W('e4', 'mendorong') + 0.7 ? 1 : 0);
+  K.lower($('lowA'), t, A('e4') + 0.1, tB2 - 0.2);
+
+  // D — UMP 2027
+  K.pop($('dTag'), t, A('e5'), tD2 + 0.6, -2);
+  K.pop($('dHead'), t, W('e5', 'minimum'), tD2 + 0.6);
+  K.pop($('dWho'), t, W('e5', 'serikat'), tD2 + 0.6, 1.5);
+  K.pop($('dLo'), t, W('e5', '75'), tD2 + 0.6, -3);
+  K.pop($('dDash'), t, W('e5', 'sampai'), tD2 + 0.6);
+  K.pop($('dHi'), t, W('e5', '95'), tD2 + 0.6, 3);
+
+  // D2 — government
+  K.pop($('eTag'), t, A('e6') + 0.2, tE + 0.6, 2);
+  K.pop($('e1'), t, W('e6', 'formulanya'), tE + 0.6);
+  K.pop($('e2'), t, W('e6', 'angkanya'), tE + 0.6, -2);
+  K.pop($('e3'), t, W('e6', 'dibahas'), tE + 0.6);
+  K.lower($('lowY'), t, A('e6') + 0.1, A('e6', 0) + 5.6);
+
+  // E — ojol
+  K.pop($('fTag'), t, A('e7'), tF + 0.6, -2);
+  K.pop($('fDriver'), t, W('e7', 'driver'), tF + 0.6, 3 * Math.sin(t * 2));
+  K.pop($('fStamp'), t, W('e7', 'perpres'), tF + 0.6, -4);
+  const lk = W('e7', 'lebih');
+  ['fL1', 'fL2', 'fL3'].forEach((id, i) => {
+    const s = K.easeOut(K.prog(t, lk - 0.35 + i * 0.15, 0.4));
+    const rot = (i - 1) * 18;
+    $(id).style.transform = `rotate(${rot}deg) scaleX(${s})`;
+    $(id).style.opacity = t < tF + 0.6 ? 1 : 0;
+  });
+  ['fP1', 'fP2', 'fP3'].forEach((id, i) => K.pop($(id), t, lk + i * 0.18, tF + 0.6, (i - 1) * 6));
+  K.pop($('fCap'), t, W('e7', 'aplikasi'), tF + 0.6, 2);
+  $('fCap').style.transform = $('fCap').style.transform.replace(/translate\([^)]*\)/, 'translate(0px, -50%)');
+
+  // F — three overseers
+  K.pop($('gHead'), t, A('e7b'), tG + 0.6);
+  const gIn = [W('e7b', 'kementerian'), W('e7b', 'kemenhub'), W('e7b', 'komdigi')];
+  OVER.forEach((o, i) => K.pop($(o.el), t, gIn[i] - 0.1, tG + 0.6, (i - 1) * 2));
+
+  // G — question
+  if (!$('hBudi').innerHTML) $('hBudi').innerHTML = K.budi('worried');
+  K.pop($('hBudi'), t, tG + 0.2, Infinity, -4 + 4 * Math.sin(t * 2.4));
+  K.pop($('hQ'), t, A('e8'));
+  ['h1', 'h2', 'h3'].forEach((id, i) => K.pop($(id), t, W('e8', 'kerasa') + i * 0.15, Infinity, (i - 1) * 1.5));
+
+  K.subtitles($('subs'), t);
+  K.weekly(t);
+}
+window.seek = seek;
+</script>
+</body>
+</html>

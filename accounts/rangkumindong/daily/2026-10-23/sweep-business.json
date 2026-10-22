@@ -1,0 +1,149 @@
+{
+  "area": "business",
+  "run_date": "2026-10-23",
+  "checked": ["detikInet (home + Most Popular)", "CNBC Indonesia Tech", "Katadata Digital", "CNN Indonesia Teknologi", "Bisnis teknologi (startup page failed to load; search listing only)", "DailySocial (search listing only)", "Watch list found: Komdigi rules/platform (karhutla shadowban, already E0201), ojol Perpres 27/2026, data centres, security/hack wave (PHP2Shell), AI, consumer tech prices (iPhone Duo), e-commerce scams", "Storyline search: karhutla shadowban (no new development beyond E0201)", "Not found in headlines: GoTo/Grab/Shopee corporate news, Coretax outage, pinjol new data, car/motorbike sales"],
+  "events": [
+    {
+      "date": "2026-10-21",
+      "category": "TECH",
+      "event": "PHP Foundation releases security fixes for two critical 'php2shell' flaws in the PHP core, found with AI by Wiz and Calif researchers, after details leaked; exploitation attempts reportedly climbed to millions and agencies in several countries issued warnings.",
+      "key_numbers": "PHP powers ~70% of websites worldwide (Wiz estimate) · patches released Wed 21 Oct 2026 · Cloudflare exploit attempts: thousands in 10 h before announcement → tens of thousands within 45 min → hundreds of thousands within 2 h → millions · affects WordPress, Laravel, Symfony, Drupal",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "Katadata", "url": "https://katadata.co.id/digital/teknologi/6ada5b122ddf7/celah-php-picu-jutaan-upaya-eksploitasi-hacker-apa-itu-php2shell-dan-bahayanya"},
+        {"label": "CNN Indonesia (headline)", "url": "https://www.cnnindonesia.com/teknologi/20261022083732-192-1418255/ai-temukan-celah-php-situs-pemerintah-eropa-ramai-ramai-offline"}
+      ],
+      "why_it_matters": "Most Indonesian websites, from shops to government portals, run on PHP, so owners must update the PHP runtime and users should expect phishing that rides the news.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 2, "visual": 1, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "Katadata ran 5+ articles on it as featured items; CNN Indonesia Teknologi headline 22 Oct",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-21",
+      "category": "TECH",
+      "event": "Perpres 27/2026 lets ojol drivers work with more than one app company at once and requires apps to pay drivers' share in real time after each job; the Ministry of MSMEs is designated to oversee partnership agreements.",
+      "key_numbers": "Perpres 27/2026 · Pasal 3(1): driver may partner with one or more platforms · Pasal 12: app fee max 8% (driver keeps 92%, previously 20% cut) · 14 mandatory partnership obligations (not listed) · commission rule effective 1 Jul 2026 per CNBC",
+      "storyline": "",
+      "update_of": "E0144",
+      "status": "partial",
+      "sources": [
+        {"label": "CNBC Indonesia (multi-app)", "url": "https://www.cnbcindonesia.com/tech/20261021111253-37-778112/sekarang-ojol-boleh-kerja-di-banyak-aplikasi-sekaligus-ini-aturannya"},
+        {"label": "CNBC Indonesia (real-time payout)", "url": "https://www.cnbcindonesia.com/tech/20261021152757-37-778256/aplikasi-harus-langsung-transfer-penghasilan-ojol-usai-order-selesai"}
+      ],
+      "why_it_matters": "Millions of ojol drivers and daily riders are affected by who gets paid how much, and how fast.",
+      "signals": {"spreading": 1, "wallet": 2, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-22",
+      "category": "NEWS",
+      "event": "BRIN says the object that fell in a palm-oil plantation near Sampit, Central Kalimantan, is debris from a Chinese rocket (reported as a ZQ-2E), described as car-sized.",
+      "key_numbers": "Debris reportedly car-sized · location: oil-palm plantation near Sampit, Kalteng · rocket model ZQ-2E per detikPedia headline (not verified in article body)",
+      "storyline": "",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/tech/20261020140726-37-777858/brin-ungkap-identitas-roket-china-yang-jatuh-di-kebun-sawit-kalimantan"},
+        {"label": "ANTARA Kaltim", "url": "https://kaltim.antaranews.com/berita/269213/brin-sebut-benda-langit-yang-jatuh-di-kebun-sawit-kalteng-merupakan-roket-china"},
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/teknologi/20261022133642-199-1418397/sampah-antariksa-roket-china-jatuh-di-kalimantan-apa-risikonya"}
+      ],
+      "why_it_matters": "A rocket stage landing on farmland raises who is liable for space debris and how safe it is.",
+      "signals": {"spreading": 2, "wallet": 0, "surprise": 2, "visual": 2, "fresh": 1, "rivals": 1},
+      "spreading_evidence": "detikInet Most Popular #2 on 22 Oct",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-21",
+      "category": "TECH",
+      "event": "Anthropic's draft IPO prospectus, per Reuters via CNBC Indonesia, shows a large first-half 2026 net loss, mostly from an accounting charge, alongside fast revenue growth; the IPO is planned for November.",
+      "key_numbers": "H1 2026 net loss US$80 B (~Rp1,449 T) vs US$13 B before · US$72 B of it is a non-cash accounting charge · FY2025 net loss US$42 B · operating loss US$8.1 B on revenue US$4.6 B (period unclear) · Q3 revenue +45% to US$16.8 B · investor valuation talk ~US$1.5 T · IPO planned Nov",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/tech/20261021153855-37-778264/rugi-raksasa-ai-lompat-rp1000-triliun-hanya-dalam-1-tahun"}
+      ],
+      "why_it_matters": "Shows how expensive the AI race is, and whether an AI bubble could hit markets and the data-centre boom coming to Indonesia.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 2, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "CNBC Indonesia Tech featured headline; detikInet Inet Flash video 21 Oct",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-21",
+      "category": "BIZ",
+      "event": "Data-centre buyers drive Puradelta Lestari (DMAS) land sales at Kota Deltamas, Cikarang, with Microsoft Operations Indonesia the biggest buyer.",
+      "key_numbers": "As of 30 Sep 2026: Microsoft Rp795.96 B (30.06%) · Digital Gayana Ekagrata Rp741.50 B · Princeton Digital Group Rp446.12 B · Indoedge Rp276.06 B · top four ~Rp2.26 T (85.35% of top-buyer list) · 9M 2026 revenue Rp2.65 T (~3.4x y/y) · industrial land Rp2.54 T (~96%)",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/tech/20261021145405-37-778237/data-center-serbu-kawasan-industri-ri-paling-besar-milik-microsoft"}
+      ],
+      "why_it_matters": "Shows the AI data-centre boom is already turning into real land deals near Jakarta, with power and water questions attached.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-23",
+      "category": "TECH",
+      "event": "Apple's Indonesian pre-order for the iPhone Duo is reported to open on 23 Oct 2026 at 09.00 WIB; the price is still unofficial.",
+      "key_numbers": "Pre-order 23 Oct 2026, 09.00 WIB (per detik and several outlets) · leaked/predicted prices Rp43.99 M (256 GB) to Rp68.9 M (top model, prediction) · global price US$1,999",
+      "storyline": "",
+      "update_of": "E0189",
+      "status": "partial",
+      "sources": [
+        {"label": "detikInet (headline)", "url": "https://inet.detik.com/"},
+        {"label": "Medcom", "url": "https://www.medcom.id/teknologi/news-teknologi/Zke1gyZk-pre-order-iphone-duo-di-indonesia-dibuka-23-oktober-ini-bocoran-harga-dan-spesifikasinya"},
+        {"label": "Pikiran Rakyat", "url": "https://jakartakota.pikiran-rakyat.com/tekno/pr-40210516982/pre-order-iphone-duo-dibuka-23-oktober-2026-harga-diprediksi-tembus-rp-689-juta"}
+      ],
+      "why_it_matters": "A foldable iPhone costing about the price of a small car is the headline for Indonesian gadget buyers.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 2, "visual": 2, "fresh": 2, "rivals": 0},
+      "spreading_evidence": "detikInet Gadget News and News Feed headlines; many outlets",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-22",
+      "category": "GLB",
+      "event": "A New Mexico court reportedly fines Meta about US$25 billion (~Rp450 T) over the Cambridge Analytica case, per a CNN Indonesia headline.",
+      "key_numbers": "US$25 B (~Rp450 T) per headline only · New Mexico court · article body not read",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "CNN Indonesia (headline only)", "url": "https://www.cnnindonesia.com/teknologi/20261022102302-185-1418317/meta-didenda-rp450-t-imbas-kasus-cambridge-analytica-di-new-mexico"}
+      ],
+      "why_it_matters": "A record-scale data-privacy fine reframes how costly it is for platforms to mishandle user data.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 2, "visual": 2, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-21",
+      "category": "TECH",
+      "event": "Apple commits up to US$100 million of US-recycled titanium over three years from Perryman Company for the iPhone Duo and other products, under its American Manufacturing Program; CNBC Indonesia's headline frames it as TKDN, although the deal concerns US content.",
+      "key_numbers": "Up to US$100 M (~Rp1.8 T) over 3 years · at least 80% recycled titanium · nearly 100 components from US firms in 12+ states · US$600 B four-year US pledge · TSMC Arizona >100 M chips for Apple in 2026",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/tech/20261021150246-37-778239/apple-habis-habisan-buat-tkdn-hp-lipat-keluar-rp18-triliun"}
+      ],
+      "why_it_matters": "Useful as a correction: the Rp1.8 T is Apple's US spending, not an Indonesian TKDN obligation.",
+      "signals": {"spreading": 0, "wallet": 0, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    }
+  ],
+  "gaps": [
+    "Katadata 22 Oct headlines not opened (fetch of three timed out): Kapasitas data center RI kalah dari Malaysia (nearly 5x gap), Indonesia-Tencent agreement on media and local games, viral Ibu Asih Laundry AI-agent social account, fake Shopee endorse scam, Pegadaian recruitment scam.",
+    "BSSN warning on PHP2Shell in Indonesia (Katadata headline) not read; check whether Indonesian government sites were affected.",
+    "Karhutla shadowban: Komdigi denial already in E0201; Instagram 'orang utan' search restriction (Katadata 21 Oct) not read and could be a linked angle.",
+    "Meta US$25 B New Mexico fine is from a CNN Indonesia headline only; the amount needs confirming.",
+    "Bisnis.com teknologi/startup and DailySocial pages could not be loaded; no startup funding or shutdown news checked.",
+    "No most-read list was available on CNBC Indonesia Tech or CNN Indonesia Teknologi."
+  ]
+}

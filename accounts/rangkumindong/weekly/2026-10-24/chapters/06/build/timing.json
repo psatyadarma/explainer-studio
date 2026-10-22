@@ -1,0 +1,688 @@
+{
+ "duration": 55.245,
+ "voice": "Pratama",
+ "lines": [
+  {
+   "id": "f1",
+   "text": "Terakhir, dua kejadian yang bikin heboh.",
+   "start": 0.157,
+   "end": 2.339,
+   "words": [
+    {
+     "w": "Terakhir,",
+     "start": 0.157,
+     "end": 0.587
+    },
+    {
+     "w": "dua",
+     "start": 0.627,
+     "end": 0.747
+    },
+    {
+     "w": "kejadian",
+     "start": 0.827,
+     "end": 1.307
+    },
+    {
+     "w": "yang",
+     "start": 1.339,
+     "end": 1.467
+    },
+    {
+     "w": "bikin",
+     "start": 1.547,
+     "end": 1.867
+    },
+    {
+     "w": "heboh.",
+     "start": 1.92,
+     "end": 2.339
+    }
+   ]
+  },
+  {
+   "id": "f2",
+   "text": "Minggu sore, 18 Oktober. Warga Kotawaringin Timur, Kalimantan Tengah, dengar dentuman keras.",
+   "start": 2.5140000000000002,
+   "end": 7.787,
+   "words": [
+    {
+     "w": "Minggu",
+     "start": 2.514,
+     "end": 2.607
+    },
+    {
+     "w": "sore,",
+     "start": 2.671,
+     "end": 3.007
+    },
+    {
+     "w": "18",
+     "start": 3.047,
+     "end": 3.487
+    },
+    {
+     "w": "Oktober.",
+     "start": 3.547,
+     "end": 4.047
+    },
+    {
+     "w": "Warga",
+     "start": 4.099,
+     "end": 4.507
+    },
+    {
+     "w": "Kotawaringin",
+     "start": 4.547,
+     "end": 5.107
+    },
+    {
+     "w": "Timur,",
+     "start": 5.137,
+     "end": 5.467
+    },
+    {
+     "w": "Kalimantan",
+     "start": 5.487,
+     "end": 5.867
+    },
+    {
+     "w": "Tengah,",
+     "start": 5.907,
+     "end": 6.267
+    },
+    {
+     "w": "dengar",
+     "start": 6.347,
+     "end": 6.747
+    },
+    {
+     "w": "dentuman",
+     "start": 6.811,
+     "end": 7.227
+    },
+    {
+     "w": "keras.",
+     "start": 7.307,
+     "end": 7.787
+    }
+   ]
+  },
+  {
+   "id": "f3",
+   "text": "Besoknya, ketemu potongan logam besar di kebun sawit, di kilometer 26. Diduga bagian tangki bahan bakar.",
+   "start": 8.046999999999999,
+   "end": 14.437,
+   "words": [
+    {
+     "w": "Besoknya,",
+     "start": 8.047,
+     "end": 8.477
+    },
+    {
+     "w": "ketemu",
+     "start": 8.557,
+     "end": 9.037
+    },
+    {
+     "w": "potongan",
+     "start": 9.097,
+     "end": 9.437
+    },
+    {
+     "w": "logam",
+     "start": 9.477,
+     "end": 9.677
+    },
+    {
+     "w": "besar",
+     "start": 9.744,
+     "end": 10.077
+    },
+    {
+     "w": "di",
+     "start": 10.104,
+     "end": 10.157
+    },
+    {
+     "w": "kebun",
+     "start": 10.184,
+     "end": 10.397
+    },
+    {
+     "w": "sawit,",
+     "start": 10.457,
+     "end": 10.877
+    },
+    {
+     "w": "di",
+     "start": 10.904,
+     "end": 10.957
+    },
+    {
+     "w": "kilometer",
+     "start": 11.017,
+     "end": 11.517
+    },
+    {
+     "w": "26.",
+     "start": 11.557,
+     "end": 12.389
+    },
+    {
+     "w": "Diduga",
+     "start": 12.389,
+     "end": 12.917
+    },
+    {
+     "w": "bagian",
+     "start": 12.997,
+     "end": 13.397
+    },
+    {
+     "w": "tangki",
+     "start": 13.445,
+     "end": 13.717
+    },
+    {
+     "w": "bahan",
+     "start": 13.757,
+     "end": 14.037
+    },
+    {
+     "w": "bakar.",
+     "start": 14.097,
+     "end": 14.437
+    }
+   ]
+  },
+  {
+   "id": "f4",
+   "text": "Kata peneliti BRIN Thomas Djamaluddin: itu sampah roket China, ZhuQue-2E. Lalu ditemukan objek kedua.",
+   "start": 14.743,
+   "end": 21.686999999999998,
+   "words": [
+    {
+     "w": "Kata",
+     "start": 14.743,
+     "end": 14.807
+    },
+    {
+     "w": "peneliti",
+     "start": 14.867,
+     "end": 15.287
+    },
+    {
+     "w": "BRIN",
+     "start": 15.34,
+     "end": 15.607
+    },
+    {
+     "w": "Thomas",
+     "start": 15.653,
+     "end": 15.927
+    },
+    {
+     "w": "Djamaluddin:",
+     "start": 15.967,
+     "end": 16.647
+    },
+    {
+     "w": "itu",
+     "start": 16.739,
+     "end": 17.147
+    },
+    {
+     "w": "sampah",
+     "start": 17.227,
+     "end": 17.627
+    },
+    {
+     "w": "roket",
+     "start": 17.68,
+     "end": 17.947
+    },
+    {
+     "w": "China,",
+     "start": 18.014,
+     "end": 18.507
+    },
+    {
+     "w": "ZhuQue-2E.",
+     "start": 18.614,
+     "end": 19.867
+    },
+    {
+     "w": "Lalu",
+     "start": 19.929,
+     "end": 20.327
+    },
+    {
+     "w": "ditemukan",
+     "start": 20.367,
+     "end": 20.807
+    },
+    {
+     "w": "objek",
+     "start": 20.887,
+     "end": 21.207
+    },
+    {
+     "w": "kedua.",
+     "start": 21.247,
+     "end": 21.687
+    }
+   ]
+  },
+  {
+   "id": "f4b",
+   "text": "Bentuknya seperti kubah, warnanya kuning pudar, paku kelingnya masih menempel.",
+   "start": 21.915,
+   "end": 26.197,
+   "words": [
+    {
+     "w": "Bentuknya",
+     "start": 21.915,
+     "end": 22.187
+    },
+    {
+     "w": "seperti",
+     "start": 22.227,
+     "end": 22.507
+    },
+    {
+     "w": "kubah,",
+     "start": 22.587,
+     "end": 23.067
+    },
+    {
+     "w": "warnanya",
+     "start": 23.115,
+     "end": 23.547
+    },
+    {
+     "w": "kuning",
+     "start": 23.587,
+     "end": 23.787
+    },
+    {
+     "w": "pudar,",
+     "start": 23.847,
+     "end": 24.437
+    },
+    {
+     "w": "paku",
+     "start": 24.477,
+     "end": 24.757
+    },
+    {
+     "w": "kelingnya",
+     "start": 24.797,
+     "end": 25.157
+    },
+    {
+     "w": "masih",
+     "start": 25.224,
+     "end": 25.557
+    },
+    {
+     "w": "menempel.",
+     "start": 25.597,
+     "end": 26.197
+    }
+   ]
+  },
+  {
+   "id": "f5",
+   "text": "Selasa sore, 20 Oktober, kapal feri KMP Batumandi terbakar dekat Pelabuhan Merak.",
+   "start": 26.436999999999998,
+   "end": 31.718999999999998,
+   "words": [
+    {
+     "w": "Selasa",
+     "start": 26.437,
+     "end": 26.697
+    },
+    {
+     "w": "sore,",
+     "start": 26.745,
+     "end": 27.017
+    },
+    {
+     "w": "20",
+     "start": 27.037,
+     "end": 27.497
+    },
+    {
+     "w": "Oktober,",
+     "start": 27.527,
+     "end": 27.817
+    },
+    {
+     "w": "kapal",
+     "start": 27.949,
+     "end": 28.377
+    },
+    {
+     "w": "feri",
+     "start": 28.437,
+     "end": 28.697
+    },
+    {
+     "w": "KMP",
+     "start": 28.804,
+     "end": 29.417
+    },
+    {
+     "w": "Batumandi",
+     "start": 29.477,
+     "end": 30.057
+    },
+    {
+     "w": "terbakar",
+     "start": 30.117,
+     "end": 30.697
+    },
+    {
+     "w": "dekat",
+     "start": 30.75,
+     "end": 30.937
+    },
+    {
+     "w": "Pelabuhan",
+     "start": 30.977,
+     "end": 31.337
+    },
+    {
+     "w": "Merak.",
+     "start": 31.377,
+     "end": 31.719
+    }
+   ]
+  },
+  {
+   "id": "f6",
+   "text": "Di manifes: 420 penumpang dan 89 kendaraan. Ada yang sampai lompat ke laut, lalu ditolong nelayan.",
+   "start": 31.869,
+   "end": 39.039,
+   "words": [
+    {
+     "w": "Di",
+     "start": 31.869,
+     "end": 31.887
+    },
+    {
+     "w": "manifes:",
+     "start": 31.927,
+     "end": 32.527
+    },
+    {
+     "w": "420",
+     "start": 32.619,
+     "end": 33.717
+    },
+    {
+     "w": "penumpang",
+     "start": 33.757,
+     "end": 34.357
+    },
+    {
+     "w": "dan",
+     "start": 34.377,
+     "end": 34.437
+    },
+    {
+     "w": "89",
+     "start": 34.497,
+     "end": 35.317
+    },
+    {
+     "w": "kendaraan.",
+     "start": 35.365,
+     "end": 36.037
+    },
+    {
+     "w": "Ada",
+     "start": 36.099,
+     "end": 36.427
+    },
+    {
+     "w": "yang",
+     "start": 36.459,
+     "end": 36.587
+    },
+    {
+     "w": "sampai",
+     "start": 36.635,
+     "end": 36.907
+    },
+    {
+     "w": "lompat",
+     "start": 36.947,
+     "end": 37.147
+    },
+    {
+     "w": "ke",
+     "start": 37.2,
+     "end": 37.307
+    },
+    {
+     "w": "laut,",
+     "start": 37.371,
+     "end": 37.707
+    },
+    {
+     "w": "lalu",
+     "start": 37.747,
+     "end": 38.027
+    },
+    {
+     "w": "ditolong",
+     "start": 38.067,
+     "end": 38.427
+    },
+    {
+     "w": "nelayan.",
+     "start": 38.507,
+     "end": 39.039
+    }
+   ]
+  },
+  {
+   "id": "f6b",
+   "text": "Penumpang dipindah ke kapal lain, KMP Royce 1, lalu dibawa ke Dermaga 6 Merak.",
+   "start": 39.196999999999996,
+   "end": 44.299,
+   "words": [
+    {
+     "w": "Penumpang",
+     "start": 39.197,
+     "end": 39.467
+    },
+    {
+     "w": "dipindah",
+     "start": 39.527,
+     "end": 39.867
+    },
+    {
+     "w": "ke",
+     "start": 39.894,
+     "end": 39.947
+    },
+    {
+     "w": "kapal",
+     "start": 40.007,
+     "end": 40.347
+    },
+    {
+     "w": "lain,",
+     "start": 40.379,
+     "end": 40.797
+    },
+    {
+     "w": "KMP",
+     "start": 40.877,
+     "end": 41.437
+    },
+    {
+     "w": "Royce",
+     "start": 41.497,
+     "end": 41.837
+    },
+    {
+     "w": "1,",
+     "start": 41.917,
+     "end": 42.397
+    },
+    {
+     "w": "lalu",
+     "start": 42.477,
+     "end": 42.797
+    },
+    {
+     "w": "dibawa",
+     "start": 42.837,
+     "end": 43.117
+    },
+    {
+     "w": "ke",
+     "start": 43.17,
+     "end": 43.277
+    },
+    {
+     "w": "Dermaga",
+     "start": 43.309,
+     "end": 43.677
+    },
+    {
+     "w": "6",
+     "start": 43.709,
+     "end": 43.837
+    },
+    {
+     "w": "Merak.",
+     "start": 43.897,
+     "end": 44.299
+    }
+   ]
+  },
+  {
+   "id": "f7",
+   "text": "Semua penumpang dan awak berhasil dievakuasi, sebagian luka-luka. Titik awal apinya? Keterangannya masih beda-beda: ruang mesin atau dek kendaraan. Polisi masih menyelidiki.",
+   "start": 44.515,
+   "end": 54.677,
+   "words": [
+    {
+     "w": "Semua",
+     "start": 44.515,
+     "end": 44.607
+    },
+    {
+     "w": "penumpang",
+     "start": 44.647,
+     "end": 45.087
+    },
+    {
+     "w": "dan",
+     "start": 45.107,
+     "end": 45.167
+    },
+    {
+     "w": "awak",
+     "start": 45.247,
+     "end": 45.567
+    },
+    {
+     "w": "berhasil",
+     "start": 45.629,
+     "end": 46.127
+    },
+    {
+     "w": "dievakuasi,",
+     "start": 46.167,
+     "end": 46.927
+    },
+    {
+     "w": "sebagian",
+     "start": 46.98,
+     "end": 47.407
+    },
+    {
+     "w": "luka-luka.",
+     "start": 47.447,
+     "end": 48.047
+    },
+    {
+     "w": "Titik",
+     "start": 48.139,
+     "end": 48.437
+    },
+    {
+     "w": "awal",
+     "start": 48.49,
+     "end": 48.677
+    },
+    {
+     "w": "apinya?",
+     "start": 48.73,
+     "end": 49.158
+    },
+    {
+     "w": "Keterangannya",
+     "start": 49.329,
+     "end": 49.987
+    },
+    {
+     "w": "masih",
+     "start": 50.04,
+     "end": 50.307
+    },
+    {
+     "w": "beda-beda:",
+     "start": 50.347,
+     "end": 51.047
+    },
+    {
+     "w": "ruang",
+     "start": 51.1,
+     "end": 51.287
+    },
+    {
+     "w": "mesin",
+     "start": 51.347,
+     "end": 51.687
+    },
+    {
+     "w": "atau",
+     "start": 51.783,
+     "end": 52.167
+    },
+    {
+     "w": "dek",
+     "start": 52.227,
+     "end": 52.407
+    },
+    {
+     "w": "kendaraan.",
+     "start": 52.439,
+     "end": 53.047
+    },
+    {
+     "w": "Polisi",
+     "start": 53.109,
+     "end": 53.557
+    },
+    {
+     "w": "masih",
+     "start": 53.624,
+     "end": 53.957
+    },
+    {
+     "w": "menyelidiki.",
+     "start": 53.989,
+     "end": 54.677
+    }
+   ]
+  }
+ ]
+}

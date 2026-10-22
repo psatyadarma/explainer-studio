@@ -1,0 +1,406 @@
+{
+ "duration": 36.843,
+ "voice": "Pratama",
+ "lines": [
+  {
+   "id": "g1",
+   "text": "Oke, minggu depan. Catat tanggalnya.",
+   "start": 0.203,
+   "end": 2.109,
+   "words": [
+    {
+     "w": "Oke,",
+     "start": 0.203,
+     "end": 0.579
+    },
+    {
+     "w": "minggu",
+     "start": 0.603,
+     "end": 0.779
+    },
+    {
+     "w": "depan.",
+     "start": 0.806,
+     "end": 1.099
+    },
+    {
+     "w": "Catat",
+     "start": 1.201,
+     "end": 1.549
+    },
+    {
+     "w": "tanggalnya.",
+     "start": 1.589,
+     "end": 2.109
+    }
+   ]
+  },
+  {
+   "id": "g2",
+   "text": "Minggu, 25 Oktober: buat yang jualan online. UMKM yang lolos verifikasi dapat potongan biaya admin di e-commerce minimal 50 persen. Daftarnya lewat aplikasi SAPA UMKM, verifikasi paling lama 10 hari.",
+   "start": 2.711,
+   "end": 16.230999999999998,
+   "words": [
+    {
+     "w": "Minggu,",
+     "start": 2.711,
+     "end": 3.179
+    },
+    {
+     "w": "25",
+     "start": 3.219,
+     "end": 3.899
+    },
+    {
+     "w": "Oktober:",
+     "start": 3.929,
+     "end": 4.261
+    },
+    {
+     "w": "buat",
+     "start": 4.261,
+     "end": 4.609
+    },
+    {
+     "w": "yang",
+     "start": 4.641,
+     "end": 4.769
+    },
+    {
+     "w": "jualan",
+     "start": 4.809,
+     "end": 5.089
+    },
+    {
+     "w": "online.",
+     "start": 5.158,
+     "end": 5.641
+    },
+    {
+     "w": "UMKM",
+     "start": 5.641,
+     "end": 6.329
+    },
+    {
+     "w": "yang",
+     "start": 6.377,
+     "end": 6.569
+    },
+    {
+     "w": "lolos",
+     "start": 6.629,
+     "end": 6.969
+    },
+    {
+     "w": "verifikasi",
+     "start": 7.009,
+     "end": 7.609
+    },
+    {
+     "w": "dapat",
+     "start": 7.702,
+     "end": 8.169
+    },
+    {
+     "w": "potongan",
+     "start": 8.209,
+     "end": 8.569
+    },
+    {
+     "w": "biaya",
+     "start": 8.622,
+     "end": 8.889
+    },
+    {
+     "w": "admin",
+     "start": 8.956,
+     "end": 9.289
+    },
+    {
+     "w": "di",
+     "start": 9.342,
+     "end": 9.449
+    },
+    {
+     "w": "e-commerce",
+     "start": 9.489,
+     "end": 10.089
+    },
+    {
+     "w": "minimal",
+     "start": 10.139,
+     "end": 10.489
+    },
+    {
+     "w": "50",
+     "start": 10.549,
+     "end": 11.089
+    },
+    {
+     "w": "persen.",
+     "start": 11.113,
+     "end": 11.369
+    },
+    {
+     "w": "Daftarnya",
+     "start": 11.491,
+     "end": 12.109
+    },
+    {
+     "w": "lewat",
+     "start": 12.136,
+     "end": 12.349
+    },
+    {
+     "w": "aplikasi",
+     "start": 12.402,
+     "end": 12.909
+    },
+    {
+     "w": "SAPA",
+     "start": 12.989,
+     "end": 13.309
+    },
+    {
+     "w": "UMKM,",
+     "start": 13.389,
+     "end": 14.109
+    },
+    {
+     "w": "verifikasi",
+     "start": 14.181,
+     "end": 14.799
+    },
+    {
+     "w": "paling",
+     "start": 14.839,
+     "end": 15.039
+    },
+    {
+     "w": "lama",
+     "start": 15.079,
+     "end": 15.359
+    },
+    {
+     "w": "10",
+     "start": 15.439,
+     "end": 15.959
+    },
+    {
+     "w": "hari.",
+     "start": 15.999,
+     "end": 16.231
+    }
+   ]
+  },
+  {
+   "id": "g4",
+   "text": "27–28 Oktober: The Fed rapat. Hasilnya keluar Kamis dini hari, waktu Indonesia. Ini yang bisa menggerakkan rupiah.",
+   "start": 16.415999999999997,
+   "end": 24.279,
+   "words": [
+    {
+     "w": "27–28",
+     "start": 16.416,
+     "end": 18.029
+    },
+    {
+     "w": "Oktober:",
+     "start": 18.109,
+     "end": 18.671
+    },
+    {
+     "w": "The",
+     "start": 18.671,
+     "end": 18.919
+    },
+    {
+     "w": "Fed",
+     "start": 19.019,
+     "end": 19.319
+    },
+    {
+     "w": "rapat.",
+     "start": 19.399,
+     "end": 19.841
+    },
+    {
+     "w": "Hasilnya",
+     "start": 19.841,
+     "end": 20.309
+    },
+    {
+     "w": "keluar",
+     "start": 20.349,
+     "end": 20.629
+    },
+    {
+     "w": "Kamis",
+     "start": 20.689,
+     "end": 20.949
+    },
+    {
+     "w": "dini",
+     "start": 20.989,
+     "end": 21.189
+    },
+    {
+     "w": "hari,",
+     "start": 21.253,
+     "end": 21.709
+    },
+    {
+     "w": "waktu",
+     "start": 21.742,
+     "end": 21.909
+    },
+    {
+     "w": "Indonesia.",
+     "start": 21.957,
+     "end": 22.469
+    },
+    {
+     "w": "Ini",
+     "start": 22.541,
+     "end": 22.839
+    },
+    {
+     "w": "yang",
+     "start": 22.871,
+     "end": 22.999
+    },
+    {
+     "w": "bisa",
+     "start": 23.047,
+     "end": 23.239
+    },
+    {
+     "w": "menggerakkan",
+     "start": 23.271,
+     "end": 23.719
+    },
+    {
+     "w": "rupiah.",
+     "start": 23.799,
+     "end": 24.279
+    }
+   ]
+  },
+  {
+   "id": "g5",
+   "text": "Sampai 30 Oktober: aksi buruh soal upah minimum 2027 dijadwalkan berlanjut di 38 provinsi.",
+   "start": 24.575999999999997,
+   "end": 32.022,
+   "words": [
+    {
+     "w": "Sampai",
+     "start": 24.576,
+     "end": 24.752
+    },
+    {
+     "w": "30",
+     "start": 24.832,
+     "end": 25.472
+    },
+    {
+     "w": "Oktober:",
+     "start": 25.512,
+     "end": 25.862
+    },
+    {
+     "w": "aksi",
+     "start": 25.962,
+     "end": 26.222
+    },
+    {
+     "w": "buruh",
+     "start": 26.302,
+     "end": 26.622
+    },
+    {
+     "w": "soal",
+     "start": 26.702,
+     "end": 26.942
+    },
+    {
+     "w": "upah",
+     "start": 26.995,
+     "end": 27.182
+    },
+    {
+     "w": "minimum",
+     "start": 27.242,
+     "end": 27.662
+    },
+    {
+     "w": "2027",
+     "start": 27.722,
+     "end": 28.942
+    },
+    {
+     "w": "dijadwalkan",
+     "start": 29.009,
+     "end": 29.702
+    },
+    {
+     "w": "berlanjut",
+     "start": 29.762,
+     "end": 30.262
+    },
+    {
+     "w": "di",
+     "start": 30.342,
+     "end": 30.502
+    },
+    {
+     "w": "38",
+     "start": 30.582,
+     "end": 31.302
+    },
+    {
+     "w": "provinsi.",
+     "start": 31.366,
+     "end": 32.022
+    }
+   ]
+  },
+  {
+   "id": "g6",
+   "text": "Dan 17–18 November: rapat BI berikutnya.",
+   "start": 32.384,
+   "end": 36.289,
+   "words": [
+    {
+     "w": "Dan",
+     "start": 32.384,
+     "end": 32.429
+    },
+    {
+     "w": "17–18",
+     "start": 32.642,
+     "end": 34.279
+    },
+    {
+     "w": "November:",
+     "start": 34.31,
+     "end": 34.639
+    },
+    {
+     "w": "rapat",
+     "start": 34.751,
+     "end": 35.329
+    },
+    {
+     "w": "BI",
+     "start": 35.382,
+     "end": 35.649
+    },
+    {
+     "w": "berikutnya.",
+     "start": 35.689,
+     "end": 36.289
+    }
+   ]
+  }
+ ]
+}

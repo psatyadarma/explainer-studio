@@ -1,0 +1,137 @@
+{
+ "duration": 8.325,
+ "voice": "Pratama",
+ "lines": [
+  {
+   "id": "o1",
+   "text": "Dari semua cerita minggu ini, mana yang paling ngaruh ke hidup kamu? Tulis di komentar.",
+   "start": 0.12,
+   "end": 4.119,
+   "words": [
+    {
+     "w": "Dari",
+     "start": 0.12,
+     "end": 0.206
+    },
+    {
+     "w": "semua",
+     "start": 0.259,
+     "end": 0.526
+    },
+    {
+     "w": "cerita",
+     "start": 0.566,
+     "end": 0.846
+    },
+    {
+     "w": "minggu",
+     "start": 0.878,
+     "end": 1.086
+    },
+    {
+     "w": "ini,",
+     "start": 1.146,
+     "end": 1.486
+    },
+    {
+     "w": "mana",
+     "start": 1.534,
+     "end": 1.726
+    },
+    {
+     "w": "yang",
+     "start": 1.758,
+     "end": 1.886
+    },
+    {
+     "w": "paling",
+     "start": 1.926,
+     "end": 2.126
+    },
+    {
+     "w": "ngaruh",
+     "start": 2.153,
+     "end": 2.366
+    },
+    {
+     "w": "ke",
+     "start": 2.393,
+     "end": 2.446
+    },
+    {
+     "w": "hidup",
+     "start": 2.466,
+     "end": 2.606
+    },
+    {
+     "w": "kamu?",
+     "start": 2.67,
+     "end": 3.006
+    },
+    {
+     "w": "Tulis",
+     "start": 3.086,
+     "end": 3.406
+    },
+    {
+     "w": "di",
+     "start": 3.433,
+     "end": 3.486
+    },
+    {
+     "w": "komentar.",
+     "start": 3.526,
+     "end": 4.119
+    }
+   ]
+  },
+  {
+   "id": "o2",
+   "text": "Follow Rangkumin Dong. Rangkumin Seminggu, tiap Sabtu pagi!",
+   "start": 4.325,
+   "end": 7.114,
+   "words": [
+    {
+     "w": "Follow",
+     "start": 4.325,
+     "end": 4.394
+    },
+    {
+     "w": "Rangkumin",
+     "start": 4.434,
+     "end": 4.794
+    },
+    {
+     "w": "Dong.",
+     "start": 4.826,
+     "end": 5.034
+    },
+    {
+     "w": "Rangkumin",
+     "start": 5.114,
+     "end": 5.594
+    },
+    {
+     "w": "Seminggu,",
+     "start": 5.634,
+     "end": 6.154
+    },
+    {
+     "w": "tiap",
+     "start": 6.207,
+     "end": 6.394
+    },
+    {
+     "w": "Sabtu",
+     "start": 6.434,
+     "end": 6.634
+    },
+    {
+     "w": "pagi!",
+     "start": 6.714,
+     "end": 7.114
+    }
+   ]
+  }
+ ]
+}

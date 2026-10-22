@@ -1,0 +1,50 @@
+{
+  "area": "national",
+  "run_date": "2026-10-23",
+  "checked": ["WebSearch for detik terpopuler (no usable section page returned)", "WebSearch for cnnindonesia nasional (no usable page)", "antaranews tag/terpopuler page (stale, Sep 2025)", "detik polling page (no news)", "BMKG/BNPB quake and flood search (databoks.katadata)", "cek fakta search (nothing current)", "storyline: karhutla (bisnis.com, nu.or.id, mongabay)", "watch-list topics found: karhutla/haze, quakes, health impact (ISPU/ISPA), flights disrupted"],
+  "events": [
+    {
+      "date": "2026-10-19",
+      "category": "ENV",
+      "event": "Bisnis.com summarises karhutla spread and government mitigation: Health Ministry counts 283,270 acute respiratory infection cases since August, and police plan to deploy 70,000 forest police.",
+      "key_numbers": "ARI cases 283,270 (Aug-13 Oct) in 7 provinces, 63 regencies/cities · ~63,700 children aged 0-5 · 12 regions in hazardous air category · 2,458 flights disrupted at 29 airports (11 Aug-17 Oct, +437 vs 13 Oct) · 70,000 forest police planned · 5,179 water-bombing flight cycles by 38 aircraft · ~500 peat hydrological units to be mapped",
+      "storyline": "karhutla",
+      "update_of": "E0021",
+      "status": "partial",
+      "sources": [{"label": "Bisnis.com", "url": "https://kabar24.bisnis.com/read/20261019/15/2013642/karhutla-sebaran-asap-dan-mitigasi-pemerintah"}],
+      "why_it_matters": "Haze now has a measurable health toll: hundreds of thousands of breathing infections, including many small children.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 2, "visual": 2, "fresh": 1, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-17",
+      "category": "ENV",
+      "event": "BMKG says dry conditions will continue 17-24 Oct and reports 478 high-confidence hotspots on 16 Oct, led by South Sumatra, with Central Kalimantan down sharply from 15 Oct.",
+      "key_numbers": "478 high-confidence hotspots (16 Oct) · South Sumatra 189 · East Java 89 · South Papua 63 · West Kalimantan 26 · Central Kalimantan 26 (from 485 on 15 Oct) · dry outlook 17-24 Oct",
+      "storyline": "karhutla",
+      "update_of": "E0021",
+      "status": "verified",
+      "sources": [{"label": "NU Online (citing BMKG)", "url": "https://nu.or.id/nasional/bmkg-sejumlah-wilayah-indonesia-berpotensi-kering-hingga-24-oktober-96ea8"}, {"label": "Bisnis.com", "url": "https://kabar24.bisnis.com/read/20261019/15/2013642/karhutla-sebaran-asap-dan-mitigasi-pemerintah"}],
+      "why_it_matters": "The dry spell through 24 Oct means haze and flight disruptions are unlikely to end soon.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 2, "fresh": 0, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-17",
+      "category": "ENV",
+      "event": "Palangka Raya extends its karhutla emergency status to 9 Nov after 909 fire incidents since 1 June.",
+      "key_numbers": "909 incidents (1 Jun-17 Oct) · 1,448.90 ha burned · emergency status to 9 Nov · Way Kambas fire burning since 15 Sep (25 hotspots inside park, Lampung 84 total)",
+      "storyline": "karhutla",
+      "update_of": "",
+      "status": "partial",
+      "sources": [{"label": "Bisnis.com", "url": "https://kabar24.bisnis.com/read/20261019/15/2013642/karhutla-sebaran-asap-dan-mitigasi-pemerintah"}, {"label": "Mongabay Indonesia", "url": "https://mongabay.co.id/2026/10/17/langit-kalteng-menguning-berselimut-asap-kebakaran-hutan-dan-gambut/"}],
+      "why_it_matters": "Local emergency status shows the haze is a months-long crisis in Kalimantan, not a passing event.",
+      "signals": {"spreading": 0, "wallet": 1, "surprise": 0, "visual": 1, "fresh": 0, "rivals": 2},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    }
+  ],
+  "gaps": ["Could not read detik, CNBC Indonesia, CNN Indonesia or Antara section pages (search returned no usable URLs or stale pages), so no most-read or trending evidence for 21-23 Oct", "No fresh 21-23 Oct national news beyond karhutla follow-ups was found; viral/hoax/crime/haji/education/transport coverage is unchecked", "Databoks showed Semeru erupting again and Labuan Bajo M4.5-4.8 quakes on 19 Oct (small, outside window), not reported as events", "Event dates are 16-19 Oct, older than the 48h window; the karhutla items rely on Bisnis 19 Oct and NU 17 Oct"]
+}

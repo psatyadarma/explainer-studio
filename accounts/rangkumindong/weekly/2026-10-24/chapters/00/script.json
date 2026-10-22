@@ -1,0 +1,33 @@
+{
+ "direction": "[warm, clear weekly recap; neutral, attributed]",
+ "lines": [
+  {
+   "id": "i1",
+   "tag": "[energetic]",
+   "text": "Seminggu ini rame banget. Kamu ketinggalan yang mana?"
+  },
+  {
+   "id": "i2",
+   "tag": "[quick, building]",
+   "text": "IHSG bangkit dari titik terendahnya. BI ambil jalan tengah. Presiden bicara soal izin perusahaan karhutla.",
+   "say": "I H S G bangkit dari titik terendahnya. Be i ambil jalan tengah. Presiden bicara soal izin perusahaan karhutla."
+  },
+  {
+   "id": "i3",
+   "tag": "[quick, playful]",
+   "text": "Plus: debat definisi korupsi, isi dompet kamu, dan roket yang jatuh di kebun sawit."
+  },
+  {
+   "id": "rd",
+   "tagline": true,
+   "text": "Rangkumin dong!"
+  },
+  {
+   "id": "i4",
+   "tag": "[friendly]",
+   "text": "Ini Rangkumin Seminggu, 17 sampai 23 Oktober. Di akhir, ada tanggal-tanggal minggu depan yang wajib kamu catat.",
+   "say": "Ini Rangkumin Seminggu, tujuh belas sampai dua puluh tiga Oktober. Di akhir, ada tanggal-tanggal minggu depan yang wajib kamu catat."
+  }
+ ],
+ "tail": 0.6
+}

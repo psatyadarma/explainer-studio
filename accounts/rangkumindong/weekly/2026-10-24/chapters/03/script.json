@@ -1,0 +1,62 @@
+{
+ "direction": "[warm, clear weekly recap; neutral, attributed]",
+ "lines": [
+  {
+   "id": "c1",
+   "tag": "[serious]",
+   "text": "Rabu kemarin kami bahas: 10 perusahaan Indonesia disurati Singapura soal asap.",
+   "say": "Rabu kemarin kami bahas: sepuluh perusahaan Indonesia disurati Singapura soal asap."
+  },
+  {
+   "id": "c2",
+   "tag": "[leaning in]",
+   "text": "Minggu ini, Presiden Prabowo ikut bicara."
+  },
+  {
+   "id": "c3",
+   "tag": "[neutral, reporting]",
+   "text": "Di sidang kabinet, Rabu, ia minta semua izin perusahaan yang terbukti melanggar dicabut."
+  },
+  {
+   "id": "c4",
+   "tag": "[neutral, reporting]",
+   "text": "Kamis, Prabowo menyebut ada perusahaan yang melanggar sampai 19 kali, angka yang ia minta dicek lagi. Menurutnya, dua kali melanggar, cabut saja.",
+   "say": "Kamis, Prabowo menyebut ada perusahaan yang melanggar sampai sembilan belas kali, angka yang ia minta dicek lagi. Menurutnya, dua kali melanggar, cabut saja."
+  },
+  {
+   "id": "c5",
+   "tag": "[neutral]",
+   "text": "Ia juga menduga sejumlah perusahaan asing pemegang konsesi ikut menyumbang kebakaran. Namanya? Diumumkan pada saatnya, katanya."
+  },
+  {
+   "id": "c6",
+   "tag": "[matter-of-fact]",
+   "text": "Menteri Kehutanan Raja Juli Antoni: sudah 32 perusahaan kena sanksi administratif.",
+   "say": "Menteri Kehutanan Raja Juli Antoni: sudah tiga puluh dua perusahaan kena sanksi administratif."
+  },
+  {
+   "id": "c7",
+   "tag": "[matter-of-fact]",
+   "text": "Enam yang terbaru di Kalimantan Tengah, izinnya dibekukan. Yang terbakar paling luas: 4.803 hektare.",
+   "say": "Enam yang terbaru di Kalimantan Tengah, izinnya dibekukan. Yang terbakar paling luas: empat ribu delapan ratus tiga hektare."
+  },
+  {
+   "id": "c8",
+   "tag": "[concerned]",
+   "text": "Dan dampaknya ke warga: sampai 13 Oktober, tercatat 283.270 kasus ISPA di 7 provinsi.",
+   "say": "Dan dampaknya ke warga: sampai tiga belas Oktober, tercatat dua ratus delapan puluh tiga ribu, dua ratus tujuh puluh kasus I S P A. Di tujuh provinsi."
+  },
+  {
+   "id": "c8b",
+   "tag": "[matter-of-fact]",
+   "text": "Di udara juga: sejak 11 Agustus sampai 17 Oktober, 2.458 penerbangan terganggu di 29 bandara.",
+   "say": "Di udara juga: sejak sebelas Agustus sampai tujuh belas Oktober, dua ribu empat ratus lima puluh delapan penerbangan terganggu, di dua puluh sembilan bandara."
+  },
+  {
+   "id": "c9",
+   "tag": "[careful]",
+   "text": "Ingat: belum ada perusahaan yang diputus bersalah di pengadilan."
+  }
+ ],
+ "tail": 0.6
+}

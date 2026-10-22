@@ -1,0 +1,191 @@
+{
+  "area": "markets",
+  "run_date": "2026-10-23",
+  "checked": [
+    "CNBC Indonesia market (via search results; section page fetch blocked)",
+    "detikFinance front page + Terpopuler",
+    "Bisnis market (via search results)",
+    "Antara ekonomi (search only, no headlines read)",
+    "Watch list found: IHSG close and foreign net sell, rupiah, BI RDG, OJK sanctions, MSCI, fuel prices, UMP/wages, stimulus/APBN, Bahlil energy policy",
+    "Storylines: msci-reclassification, rupiah (covered by market and BI searches); karhutla/gibran-ijazah-mk/definisi-korupsi are outside MKT/ECO/GLB/BIZ"
+  ],
+  "events": [
+    {
+      "date": "2026-10-22",
+      "category": "MKT",
+      "event": "IHSG closed up 1.12% at 5,387.91 for a third straight gain after opening about 2% lower, while foreign investors net sold about Rp1.49 trillion.",
+      "key_numbers": "Close 5,387.91 (+59.54 pts, +1.12%) · open 5,247.98 · intraday high 5,422.59 · 21 Oct close 5,328 (+0.94%) · foreign net sell Rp1.49 T (BBCA Rp624.6 B, TLKM Rp332.2 B, BBRI Rp257.9 B) · value Rp15.3-16.2 T (sources differ)",
+      "storyline": "msci-reclassification",
+      "update_of": "E0168",
+      "status": "verified",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/market/20261022160501-17-778649/ihsg-ditutup-menguat-112-ke-level-5387"},
+        {"label": "Kontan", "url": "https://investasi.kontan.co.id/news/asing-net-sell-rp-149-triliun-saat-ihsg-menguat-111-cek-saham-yang-banyak-dilepas"},
+        {"label": "detikFinance (21 Oct close)", "url": "https://finance.detik.com/bursa-dan-valas/d-8717606/ihsg-ditutup-di-level-5-328-naik-0-94"}
+      ],
+      "why_it_matters": "The index is bouncing off its decade low but foreigners are still selling, so the recovery is domestic-driven and fragile.",
+      "signals": {"spreading": 2, "wallet": 1, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 0},
+      "spreading_evidence": "Dominates CNBC Indonesia and detik market headlines",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-21",
+      "category": "ECO",
+      "event": "Bank Indonesia held the BI-Rate at 5.75% at its October RDG but raised the Deposit Facility rate to 5%, citing rupiah pressure, global uncertainty and tight US monetary policy.",
+      "key_numbers": "BI-Rate 5.75% (hold) · Deposit Facility 5.00% (+25 bp) · Lending Facility 6.50% unchanged · Sept inflation 3.28% y/y (core 2.88%, volatile food 5.03%) · bank credit +13.21% y/y (investment credit +23.2%) · 2026 growth range 4.9-5.7%",
+      "storyline": "rupiah",
+      "update_of": "E0167",
+      "status": "verified",
+      "sources": [
+        {"label": "Liputan6", "url": "https://www.liputan6.com/bisnis/read/8318080/bi-rate-tetap-di-575-tapi-deposit-facility-naik-jadi-5"},
+        {"label": "detikFinance", "url": "https://finance.detik.com/foto-bisnis/d-8717658/bi-naikkan-suku-bunga-deposit-facility-jadi-5-persen-bi-rate-tetap-5-75-persen"},
+        {"label": "Bisnis", "url": "https://finansial.bisnis.com/read/20261021/11/2014413/breaking-bank-indonesia-tahan-bi-rate-575-pada-rdg-oktober-2026"}
+      ],
+      "why_it_matters": "Polls leaned to a hike, but BI chose a quieter lever: the loan rate stays, while the floor rate banks earn on parked money rises.",
+      "signals": {"spreading": 2, "wallet": 2, "surprise": 2, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "Multiple outlets, detik photo/news headlines on 21 Oct",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-22",
+      "category": "MKT",
+      "event": "The rupiah weakened past Rp18,000 per US dollar after Bank Indonesia held its policy rate.",
+      "key_numbers": "Reported closes Rp18,022 and Rp18,060 per USD (outlets differ) · morning level Rp18,083 · 20 Oct close Rp17,995 (E0172)",
+      "storyline": "rupiah",
+      "update_of": "E0172",
+      "status": "partial",
+      "sources": [
+        {"label": "Antara", "url": "https://www.antaranews.com/berita/5803793/rupiah-melemah-dipengaruhi-keputusan-bi-tahan-suku-bunga"},
+        {"label": "Harian Haluan", "url": "https://www.harianhaluan.com/bisnis/1017797476/rupiah-ditutup-melemah-ke-rp18022-per-dolar-as-usai-bi-tahan-bi-rate-575-persen"}
+      ],
+      "why_it_matters": "Rp18,000 is a psychological line that makes imports, fuel and overseas tuition costlier.",
+      "signals": {"spreading": 1, "wallet": 2, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 0},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-21",
+      "category": "MKT",
+      "event": "OJK and Bareskrim detailed sanctions totalling Rp2.1 trillion in the DSSA, BREN and CUAN share cases, fining a market-manipulation customer and entities that hid the identities of share buyers.",
+      "key_numbers": "DSSA: PT SMT fined Rp1.5 T, nine brokers fined, one licence suspended 1 year · BREN: AH Ltd fined Rp500 B · CUAN: TC Pte Ltd fined Rp100 B, two brokers fined, one licence suspended 3 months · total Rp2.1 T",
+      "storyline": "msci-reclassification",
+      "update_of": "E0053",
+      "status": "partial",
+      "sources": [
+        {"label": "detikFinance", "url": "https://finance.detik.com/bursa-dan-valas/d-8718072/terbongkar-pihak-pihak-di-balik-kasus-saham-dssa-bren-dan-cuan"}
+      ],
+      "why_it_matters": "These stock-concentration cases are the core of MSCI's complaint about free float and transparency.",
+      "signals": {"spreading": 2, "wallet": 1, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "detikFinance Terpopuler #2",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-10-21",
+      "category": "MKT",
+      "event": "President Prabowo said Indonesia is not afraid of MSCI, and OJK's chief responded, as Airlangga called the market tremors not disruptive and MSCI's timeline runs to a June 2027 final decision.",
+      "key_numbers": "MSCI consultation until Apr 2027 · final decision by 30 Jun 2027 · IHSG 21 Oct close 5,328",
+      "storyline": "msci-reclassification",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "detikFinance", "url": "https://finance.detik.com/bursa-dan-valas/d-8717578/prabowo-ke-msci-bangsa-indonesia-tidak-takut-siapa-pun"},
+        {"label": "detikFinance (OJK response)", "url": "https://finance.detik.com/bursa-dan-valas/d-8717918/respons-bos-ojk-usai-prabowo-pidato-ri-tidak-takut-msci"},
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/market/20261022160501-17-778649/ihsg-ditutup-menguat-112-ke-level-5387"}
+      ],
+      "why_it_matters": "The president is now publicly part of the MSCI fight, which changes how markets and regulators will react.",
+      "signals": {"spreading": 2, "wallet": 1, "surprise": 1, "visual": 0, "fresh": 2, "rivals": 0},
+      "spreading_evidence": "detikFinance Terpopuler #4; most-commented list",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-10-21",
+      "category": "ECO",
+      "event": "Manpower Minister Yassierli said the 2027 minimum wage formula will follow the new labour law and no percentage is set, while unions propose a 7.5-9.5% rise.",
+      "key_numbers": "Union proposal 7.5-9.5% · union formula (inflation 3.20% + growth 5.43%) x index 0.9 = about 7.8% (our calc) · PP 49/2025 index 0.5-0.9 · new labour law passed by DPR 6 Oct · union protests 15-30 Oct in 38 provinces · wage setting reported scheduled around 1 Nov",
+      "storyline": "",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/news/20261021132146-4-778187/bocoran-terbaru-soal-upah-minimum-2027-dari-menaker-jadi-naik-95"},
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/ekonomi/20261021205702-92-1418188/menaker-formula-ump-2027-mengacu-uu-baru"},
+        {"label": "Bisnis", "url": "https://ekonomi.bisnis.com/read/20261022/12/2014674/menaker-sebut-formula-ump-2027-mengacu-uu-ketenagakerjaan-yang-baru"}
+      ],
+      "why_it_matters": "It decides how much monthly pay rises for millions of minimum-wage workers next year.",
+      "signals": {"spreading": 2, "wallet": 2, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "detikFinance headline, CNBC, CNN, Bisnis all ran it 21-22 Oct",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-21",
+      "category": "ECO",
+      "event": "Coordinating Minister Airlangga said the government has prepared about Rp31.8 trillion for a wage subsidy (BSU), rice aid and a Christmas-New Year transport discount running through end-2026.",
+      "key_numbers": "Total Rp31.8 T · rice aid 10 kg per recipient (reported as 10 kg for 3 months, extended to year-end) · per-programme amounts and eligibility not stated",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "detikFinance", "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8718185/rp-31-8-triliun-disiapkan-buat-bsu-beras-10-kg-hingga-diskon-nataru"}
+      ],
+      "why_it_matters": "Direct handouts and discounts are meant to prop up household spending in the last quarter.",
+      "signals": {"spreading": 2, "wallet": 2, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "detikFinance Terpopuler #3",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-21",
+      "category": "ECO",
+      "event": "Energy Minister Bahlil said the government is considering not extending gas exports to neighbouring countries so domestic needs come first, following Prabowo's 'survival mode' call at a cabinet plenary.",
+      "key_numbers": "Volumes, destinations and contract dates not stated · described as an option, not a decision",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "detikFinance", "url": "https://finance.detik.com/energi/d-8718097/bahlil-buka-opsi-setop-ekspor-gas-ke-negara-tetangga"}
+      ],
+      "why_it_matters": "Cutting gas exports would hit export earnings and neighbours such as Singapore, while energy security tightens at home.",
+      "signals": {"spreading": 2, "wallet": 1, "surprise": 2, "visual": 1, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "detikFinance Terpopuler #1",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-21",
+      "category": "ECO",
+      "event": "The government reiterated that Pertalite will not rise in price despite surging oil prices, after Deputy Energy Minister Yuliot said subsidised fuel prices are held through year-end.",
+      "key_numbers": "Oil about US$107 per barrel (end-Sep, US-Iran tension) · Brent about US$108-110 mid-Oct (E0127, E0174) · Pertalite and Biosolar price unchanged to end-2026 · Pertalite stock 16-18 days (E0128)",
+      "storyline": "",
+      "update_of": "E0094",
+      "status": "partial",
+      "sources": [
+        {"label": "detikFinance", "url": "https://finance.detik.com/energi/d-8718032/harga-minyak-meroket-pertalite-dipastikan-tidak-naik"},
+        {"label": "Infobanknews", "url": "https://infobanknews.com/harga-minyak-dunia-naik-ke-usd107-begini-nasib-pertalite-hingga-akhir-2026"}
+      ],
+      "why_it_matters": "Frozen pump prices protect wallets but push the subsidy bill and supply strain higher.",
+      "signals": {"spreading": 1, "wallet": 2, "surprise": 0, "visual": 1, "fresh": 2, "rivals": 0},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-23",
+      "category": "BIZ",
+      "event": "BBNI is scheduled to report Q3 2026 results on 23 October, with BMRI 27 Oct, BRIS 29 Oct and BBRI/BBTN/BDMN 30 Oct to follow amid the market sell-off.",
+      "key_numbers": "BBNI 23 Oct · BMRI 27 Oct · BRIS 29 Oct · BBRI, BBTN, BDMN 30 Oct · Fed meeting 28 Oct",
+      "storyline": "msci-reclassification",
+      "update_of": "E0150",
+      "status": "upcoming",
+      "sources": [
+        {"label": "Kontan (via E0150)", "url": "https://insight.kontan.co.id/news/laba-perbankan-di-kuartal-iii-berpotensi-tumbuh-lebih-baik"}
+      ],
+      "why_it_matters": "Bank earnings show whether the sell-off is hitting real profits or only share prices.",
+      "signals": {"spreading": 0, "wallet": 1, "surprise": 0, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    }
+  ],
+  "gaps": [
+    "CNBC Indonesia /market, Kompas, and several detik articles were blocked from WebFetch (provenance not approved); Bisnis and Antara section pages not read, only search results.",
+    "Headline-only, unverified: BI threatens to revoke merchant licences using QRIS for online gambling; Bapanas suspects fake fortified rice harms consumers Rp89 T; CIMB Niaga delisting rumour (Dirut denies); Jasa Marga buyback option; Danantara/BUMN buying; Menperin hybrid proposal.",
+    "BCA Q3 2026 results (due 20 Oct) not found in searches.",
+    "Rupiah 22 Oct close differs by outlet (Rp18,022 vs Rp18,060); official JISDOR not checked.",
+    "Prabowo's exact MSCI quotes and the date/venue of his speech not read from the full article."
+  ]
+}

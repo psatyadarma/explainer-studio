@@ -1,0 +1,61 @@
+{
+ "direction": "[warm, clear weekly recap; neutral, attributed]",
+ "lines": [
+  {
+   "id": "a1",
+   "tag": "[serious]",
+   "text": "Senin kemarin kami bahas: IHSG jatuh ke bawah 5.000.",
+   "say": "Senin kemarin kami bahas: I H S G jatuh ke bawah lima ribu."
+  },
+  {
+   "id": "a2",
+   "tag": "[punchy]",
+   "text": "Hari itu, 19 Oktober, IHSG ditutup di 4.996. Terendah sejak Oktober 2020.",
+   "say": "Hari itu, sembilan belas Oktober, I H S G ditutup di empat ribu sembilan ratus sembilan puluh enam. Terendah sejak Oktober dua ribu dua puluh."
+  },
+  {
+   "id": "a3",
+   "tag": "[explaining]",
+   "text": "Bursa langsung pasang rem: batas turun harian saham dipersempit, dari 15 jadi 7 persen, sampai akhir Desember.",
+   "say": "Bursa langsung pasang rem: batas turun harian saham dipersempit, dari lima belas jadi tujuh persen, sampai akhir Desember."
+  },
+  {
+   "id": "a4",
+   "tag": "[explaining]",
+   "text": "BEI juga mau mengeluarkan saham yang kepemilikannya terlalu terpusat dari hitungan IHSG. Dan Danantara bilang siap beli saham BUMN.",
+   "say": "Be E I juga mau mengeluarkan saham yang kepemilikannya terlalu terpusat dari hitungan I H S G. Dan Danantara bilang siap beli saham Be U Em En."
+  },
+  {
+   "id": "a5",
+   "tag": "[surprised]",
+   "text": "Selasa, IHSG naik 5,65 persen. Dalam sehari.",
+   "say": "Selasa, I H S G naik lima koma enam lima persen. Dalam. Sehari."
+  },
+  {
+   "id": "a6",
+   "tag": "[upbeat]",
+   "text": "Rabu naik lagi. Kamis juga, ditutup di 5.387. Tiga hari naik berturut-turut.",
+   "say": "Rabu naik lagi. Kamis juga, ditutup di lima ribu tiga ratus delapan puluh tujuh. Tiga hari naik berturut-turut.",
+   "todo": "TODO-FRIDAY-CLOSE: update with Fri 23 Okt IHSG/foreign flow/rupiah close (factcheck.md 'Must update')"
+  },
+  {
+   "id": "a7",
+   "tag": "[leaning in]",
+   "text": "Tapi… investor asing belum balik. Kamis saja, mereka jual bersih Rp1,49 triliun.",
+   "say": "Tapi... investor asing belum balik. Kamis saja, mereka jual bersih satu koma empat sembilan triliun rupiah.",
+   "todo": "TODO-FRIDAY-CLOSE: update with Fri 23 Okt IHSG/foreign flow/rupiah close (factcheck.md 'Must update')"
+  },
+  {
+   "id": "a8",
+   "tag": "[matter-of-fact]",
+   "text": "Dan usulan MSCI masih jalan. Keputusannya paling lambat 30 Juni 2027.",
+   "say": "Dan usulan em es si ai masih jalan. Keputusannya paling lambat tiga puluh Juni dua ribu dua puluh tujuh."
+  },
+  {
+   "id": "a9",
+   "tag": "[calm]",
+   "text": "Ingat, ini bukan ajakan jual atau beli saham."
+  }
+ ],
+ "tail": 0.6
+}

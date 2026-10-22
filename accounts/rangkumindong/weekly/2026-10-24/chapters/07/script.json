@@ -1,0 +1,35 @@
+{
+ "direction": "[warm, clear weekly recap; neutral, attributed]",
+ "lines": [
+  {
+   "id": "g1",
+   "tag": "[friendly, brisk]",
+   "text": "Oke, minggu depan. Catat tanggalnya."
+  },
+  {
+   "id": "g2",
+   "tag": "[clear]",
+   "text": "Minggu, 25 Oktober: buat yang jualan online. UMKM yang lolos verifikasi dapat potongan biaya admin di e-commerce minimal 50 persen. Daftarnya lewat aplikasi SAPA UMKM, verifikasi paling lama 10 hari.",
+   "say": "Minggu, dua puluh lima Oktober: buat yang jualan online. U Em Ka Em yang lolos verifikasi dapat potongan biaya admin di e-commerce minimal lima puluh persen. Daftarnya lewat aplikasi Sapa U Em Ka Em, verifikasi paling lama sepuluh hari."
+  },
+  {
+   "id": "g4",
+   "tag": "[serious]",
+   "text": "27–28 Oktober: The Fed rapat. Hasilnya keluar Kamis dini hari, waktu Indonesia. Ini yang bisa menggerakkan rupiah.",
+   "say": "Dua puluh tujuh sampai dua puluh delapan Oktober: The Fed rapat. Hasilnya keluar Kamis dini hari, waktu Indonesia. Ini yang bisa menggerakkan rupiah."
+  },
+  {
+   "id": "g5",
+   "tag": "[matter-of-fact]",
+   "text": "Sampai 30 Oktober: aksi buruh soal upah minimum 2027 dijadwalkan berlanjut di 38 provinsi.",
+   "say": "Sampai tiga puluh Oktober: aksi buruh soal upah minimum dua ribu dua puluh tujuh dijadwalkan berlanjut di tiga puluh delapan provinsi."
+  },
+  {
+   "id": "g6",
+   "tag": "[matter-of-fact]",
+   "text": "Dan 17–18 November: rapat BI berikutnya.",
+   "say": "Dan tujuh belas sampai delapan belas November: rapat be i berikutnya."
+  }
+ ],
+ "tail": 0.6
+}

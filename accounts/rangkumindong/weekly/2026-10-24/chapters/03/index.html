@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Rangkumin Seminggu — chapter</title>
+<!-- ../../../../../../ is replaced by engine/weekly.py init with the path back to the repo root -->
+<link rel="stylesheet" href="../../../../../../styles/sticker/sticker.css">
+<link rel="stylesheet" href="../../../../../../styles/sticker/weekly/weekly.css">
+<script src="../../../../../../styles/sticker/sticker.js"></script>
+<script src="build/timing.js"></script>
+<script src="../../build/week.js"></script>
+<script src="../../../../../../styles/sticker/weekly/weekly.js"></script>
+<style>
+  /* Bab 3 — Karhutla */
+  .stat { font-weight: 900; font-size: 190px; letter-spacing: -6px; color: var(--accent); line-height: 1; white-space: nowrap; }
+  .stat.ink { color: var(--ink); }
+  .stat small { font-size: 90px; letter-spacing: -2px; color: var(--ink); }
+  .lower { bottom: 200px; }
+  .tag.sm { font-size: 34px; padding: 10px 20px; border-radius: 14px; }
+  .card { background: #fff; border-radius: 28px; padding: 30px 40px; }
+  .permit { width: 520px; }
+  .permit h3 { font-weight: 900; font-size: 46px; letter-spacing: -1px; margin-bottom: 14px; }
+  .permit .ln { height: 18px; border-radius: 9px; background: #C9D3DC; margin: 14px 0; }
+  .permit .warn { display: inline-block; margin-top: 8px; font-weight: 800; font-size: 32px; color: #fff; background: var(--slate); border-radius: 10px; padding: 6px 14px; }
+  .tally { display: flex; gap: 46px; align-items: center; }
+  .tally .grp { position: relative; display: flex; gap: 18px; height: 170px; align-items: center; }
+  .tally i { display: block; width: 16px; height: 150px; border-radius: 8px; background: var(--ink); transform-origin: 50% 100%; }
+  .tally .slash { position: absolute; left: -16px; top: 70px; width: 160px; height: 16px; border-radius: 8px; background: var(--accent); transform: rotate(-24deg); transform-origin: 0 50%; }
+  .grid32 { display: grid; grid-template-columns: repeat(8, 76px); gap: 18px; }
+  .grid32 b { width: 76px; height: 76px; border-radius: 14px; background: var(--slate); display: block; }
+  .grid32 b.k { background: var(--accent); }
+  .redact { width: 230px; height: 64px; border-radius: 12px; background: var(--ink); color: #fff; font-weight: 900; font-size: 40px;
+    display: flex; align-items: center; justify-content: center; letter-spacing: 4px; }
+  .dots { display: flex; flex-wrap: wrap; gap: 14px; }
+  .dots b { display: block; width: 38px; height: 38px; border-radius: 50%; background: var(--accent); }
+  .dots.small { gap: 12px; } .dots.small b { width: 32px; height: 32px; }
+  .datebar { display: flex; align-items: center; gap: 0; }
+  .datebar .rail { width: 360px; height: 14px; background: var(--ink); border-radius: 7px; transform-origin: 0 50%; }
+  .hl { font-weight: 900; font-size: 92px; line-height: 1.05; letter-spacing: -3px; text-align: center; width: 1500px; }
+  .hl .w { display: inline-block; }
+  .hl .acc { color: var(--accent); }
+</style>
+</head>
+<body>
+<div id="stage">
+  <div id="world">
+    <!-- ZONE A (x≈960): Rabu kemarin — surat dari Singapura ke 10 perusahaan (c1) -->
+    <div id="aKick" class="abs tag sticker" style="left:960px; top:190px;">Rabu kemarin</div>
+    <div id="aEnv" class="abs sticker-svg" style="left:600px; top:470px;"></div>
+    <div id="aSG" class="abs tag light sticker" style="left:600px; top:690px;">dari Singapura · soal asap</div>
+    <div id="aNum" class="abs stat" style="left:1290px; top:430px;">10</div>
+    <div id="aLab" class="abs tag accent sticker" style="left:1290px; top:620px;">perusahaan Indonesia</div>
+
+    <!-- ZONE B (x≈2960): Prabowo, sidang kabinet — izin dicabut (c2, c3) -->
+    <div id="bMic" class="abs sticker-svg" style="left:2540px; top:420px;"></div>
+    <div id="bName" class="abs tag sticker" style="left:2540px; top:660px;">Presiden Prabowo</div>
+    <div id="bWhere" class="abs tag light sticker" style="left:3360px; top:190px;">Sidang kabinet · Rabu</div>
+    <div id="bPermit" class="abs card permit sticker" style="left:3360px; top:470px;">
+      <h3>IZIN PERUSAHAAN</h3><div class="ln"></div><div class="ln" style="width:80%"></div><div class="ln" style="width:60%"></div>
+      <span class="warn">terbukti melanggar</span>
+    </div>
+    <div id="bStamp" class="abs stamp" style="left:3400px; top:520px; font-size:96px;">DICABUT</div>
+
+    <!-- ZONE C (x≈4960): Kamis — "sampai 19 kali" + hedge (c4, first half) -->
+    <div id="cKick" class="abs tag sticker" style="left:4960px; top:170px;">Kamis · kata Prabowo</div>
+    <div id="cNum" class="abs stat" style="left:4440px; top:430px;">19<small> kali</small></div>
+    <div id="cTally" class="abs tally" style="left:5280px; top:430px;"></div>
+    <div id="cHedge" class="abs tag light sticker" style="left:4960px; top:690px; font-size:40px;">* angka ini ia minta <span style="color:var(--accent)">dicek lagi</span></div>
+    <!-- ZONE C2 (x≈4960, y≈1840): "dua kali melanggar, cabut saja" -->
+    <div id="c2Kick" class="abs tag light sticker" style="left:4960px; top:1470px;">Menurut Prabowo</div>
+    <div id="c2Two" class="abs card sticker" style="left:4560px; top:1790px; text-align:center;">
+      <div class="stat ink" style="font-size:170px;">2×</div><div style="font-weight:800; font-size:44px;">melanggar</div></div>
+    <div id="c2Arr" class="abs sticker-svg" style="left:4990px; top:1790px;"></div>
+    <div id="c2Cut" class="abs stamp" style="left:5420px; top:1790px;">CABUT</div>
+
+    <!-- ZONE D (x≈6960): dugaan perusahaan asing — nama belum diumumkan (c5). Kept apart from zone A. -->
+    <div id="dKick" class="abs tag sticker" style="left:6960px; top:170px;">Dugaan Prabowo</div>
+    <div id="dWho" class="abs tag accent sticker" style="left:6960px; top:310px;">perusahaan asing pemegang konsesi</div>
+    <div id="dF0" class="abs sticker-svg" style="left:6560px; top:500px;"></div>
+    <div id="dF1" class="abs sticker-svg" style="left:6960px; top:500px;"></div>
+    <div id="dF2" class="abs sticker-svg" style="left:7360px; top:500px;"></div>
+    <div id="dR0" class="abs redact" style="left:6560px; top:700px;">???</div>
+    <div id="dR1" class="abs redact" style="left:6960px; top:700px;">???</div>
+    <div id="dR2" class="abs redact" style="left:7360px; top:700px;">???</div>
+    <div id="dWhen" class="abs stamp" style="left:6960px; top:500px; font-size:78px;">diumumkan pada saatnya</div>
+
+    <!-- ZONE E (x≈8960): Menhut — 32 perusahaan disanksi, 6 di Kalteng dibekukan (c6, c7) -->
+    <div id="eNum" class="abs stat" style="left:8480px; top:360px;">32</div>
+    <div id="eLab" class="abs tag sticker" style="left:8480px; top:540px; text-align:center; line-height:1.15;">perusahaan kena<br>sanksi administratif</div>
+    <div id="eGrid" class="abs grid32" style="left:9400px; top:400px;"></div>
+    <div id="eKt" class="abs tag accent sticker" style="left:9400px; top:660px;">6 terbaru · Kalimantan Tengah</div>
+    <div id="eFrz" class="abs stamp" style="left:8480px; top:720px; font-size:62px; padding:16px 34px 22px; background:var(--ink);">izin dibekukan</div>
+    <!-- ZONE E2 (x≈8960, y≈1840): terbakar paling luas 4.803 ha -->
+    <div id="e2Kick" class="abs tag light sticker" style="left:8960px; top:1470px;">Yang terbakar paling luas</div>
+    <div id="e2Area" class="abs sticker-svg" style="left:8520px; top:1830px;"></div>
+    <div id="e2Num" class="abs stat" style="left:9400px; top:1780px;">0</div>
+    <div id="e2Lab" class="abs tag sticker" style="left:9400px; top:1940px;">hektare</div>
+
+    <!-- ZONE F (x≈10960): ISPA (c8) -->
+    <div id="fKick" class="abs tag sticker" style="left:10960px; top:170px;">Dampak ke warga</div>
+    <div id="fFace" class="abs sticker-svg" style="left:10420px; top:440px;"></div>
+    <div id="fDate" class="abs tag light sticker" style="left:11280px; top:300px;">sampai 13 Oktober</div>
+    <div id="fNum" class="abs stat" style="left:11280px; top:460px;">0</div>
+    <div id="fLab" class="abs tag accent sticker" style="left:11280px; top:620px;">kasus ISPA</div>
+    <div id="fProv" class="abs" style="left:10420px; top:700px; text-align:center;">
+      <div class="dots" id="fDots" style="justify-content:center; margin-bottom:12px;"></div>
+      <div class="tag light sticker sm" style="display:inline-block;">di 7 provinsi</div></div>
+
+    <!-- ZONE G (x≈12960): penerbangan (c8b) -->
+    <div id="gPlane" class="abs sticker-svg" style="left:12440px; top:370px;"></div>
+    <div id="gD1" class="abs tag light sticker sm" style="left:13020px; top:190px;">11 Agustus</div>
+    <div id="gRail" class="abs" style="left:13280px; top:190px; width:180px; height:14px; background:var(--ink); border-radius:7px; transform-origin:0 50%;"></div>
+    <div id="gD2" class="abs tag light sticker sm" style="left:13560px; top:190px;">17 Oktober</div>
+    <div id="gNum" class="abs stat" style="left:13290px; top:400px;">0</div>
+    <div id="gLab" class="abs tag accent sticker" style="left:13290px; top:570px;">penerbangan terganggu</div>
+    <div id="gAir" class="abs" style="left:12560px; top:680px; text-align:center;">
+      <div class="dots small" id="gDots" style="width:720px; justify-content:center; margin-bottom:12px;"></div>
+      <div class="tag light sticker sm" style="display:inline-block;">di 29 bandara</div></div>
+
+    <!-- ZONE H (x≈14960): belum ada putusan (c9) -->
+    <div id="hScale" class="abs sticker-svg" style="left:14960px; top:320px;"></div>
+    <div id="hHl" class="abs hl" style="left:14960px; top:620px;"></div>
+  </div>
+  <div id="card"><div class="kicker" id="cKick0"></div><div class="title" id="cTitle"></div><div class="sub" id="cSub"></div></div>
+  <div class="lower" id="lowB">Prabowo Subianto<small>Presiden RI</small></div>
+  <div class="lower" id="lowE">Raja Juli Antoni<small>Menteri Kehutanan</small></div>
+  <div class="lower" id="lowF">Sumber: Kemenkes<small>data kasus ISPA</small></div>
+  <div class="lower" id="lowG">Sumber: Kemenhub<small>penerbangan domestik</small></div>
+  <div id="brand"><div class="dot"></div><b>Rangkumin Dong</b></div>
+  <div id="subs"></div>
+  <div id="progress"></div>
+</div>
+<script>
+// ---- chapter data: every number below is spoken in the script and verified in factcheck.md (#21–#25) ----
+window.CHAPTER = 3;
+const DATA = { nea: 10, violations: 19, rule: 2, sanctioned: 32, kalteng: 6, burnHa: 4803, ispa: 283270, provinces: 7, flights: 2458, airports: 29 };
+// Fallback until build/week.js exists (weekly.py index runs after every chapter is voiced)
+const CH_FALLBACK = { n: 3, kicker: 'BAB 3', title: 'Karhutla' }, DATES_FALLBACK = '17–23 Okt 2026';
+// -----------------------------------------------------------------------------------------------
+const $ = (id) => document.getElementById(id);
+const T = window.TIMING; window.DURATION = T.duration;
+const at = K.at, W = K.word;
+const ch = (window.WEEK?.chapters || []).find((c) => c.n === window.CHAPTER) || CH_FALLBACK;
+$('cKick0').textContent = ch.kicker || ''; $('cTitle').textContent = ch.title || ''; $('cSub').textContent = window.WEEK?.dates || DATES_FALLBACK;
+
+// ---------- SVG builders ----------
+const envSVG = (w) => `<svg width="${w}" height="${Math.round(w * 0.66)}" viewBox="0 0 120 80"><rect x="3" y="3" width="114" height="74" rx="8" fill="#fff" stroke="#1B2430" stroke-width="5"/>
+  <path d="M6 8 L60 46 L114 8" fill="none" stroke="#1B2430" stroke-width="5" stroke-linejoin="round"/></svg>`;
+const micSVG = () => `<svg width="220" height="300" viewBox="0 0 220 300"><rect x="70" y="10" width="80" height="140" rx="40" fill="#1B2430"/>
+  ${[40, 64, 88, 112].map((y) => `<rect x="82" y="${y}" width="56" height="8" rx="4" fill="#3E5568"/>`).join('')}
+  <path d="M40 110 Q40 200 110 200 Q180 200 180 110" fill="none" stroke="#3E5568" stroke-width="14" stroke-linecap="round"/>
+  <rect x="102" y="200" width="16" height="60" fill="#3E5568"/><rect x="50" y="258" width="120" height="22" rx="8" fill="#1B2430"/></svg>`;
+const arrowSVG = () => `<svg width="200" height="90" viewBox="0 0 200 90"><path d="M10 45 H160" stroke="#1B2430" stroke-width="18" stroke-linecap="round"/>
+  <path d="M130 12 L185 45 L130 78" fill="none" stroke="#1B2430" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+const factorySVG = () => `<svg width="260" height="250" viewBox="0 -30 260 250"><rect x="180" y="20" width="36" height="110" fill="#3E5568"/>
+  <path d="M10 210 V100 L70 130 V100 L130 130 V100 L190 130 V90 H250 V210 Z" fill="#3E5568"/>
+  ${[40, 100, 160].map((x) => `<rect x="${x}" y="160" width="34" height="28" rx="4" fill="#C9D3DC"/>`).join('')}
+  <circle cx="198" cy="12" r="10" fill="#AEB8C2"/><circle cx="214" cy="0" r="7" fill="#C9CDD2"/>
+  <text x="92" y="84" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="900" font-size="64" fill="#FF5A36">?</text></svg>`;
+const fireSVG = (s) => `<svg width="${s}" height="${s * 1.2}" viewBox="0 0 50 60"><path d="M25 2 C30 16 44 22 44 38 A19 19 0 0 1 6 38 C6 28 12 22 16 16 C18 24 22 26 24 26 C22 18 22 10 25 2 Z" fill="#FF5A36"/>
+  <path d="M25 30 C28 36 34 38 34 45 A9 9 0 0 1 16 45 C16 40 20 37 25 30 Z" fill="#FFD23F"/></svg>`;
+const areaSVG = () => `<svg width="460" height="400" viewBox="0 0 460 400"><path d="M30 60 L250 20 L430 90 L410 330 L180 380 L40 300 Z" fill="#5A4636"/>
+  <path d="M30 60 L250 20 L430 90 L410 330 L180 380 L40 300 Z" fill="none" stroke="#1B2430" stroke-width="10" stroke-linejoin="round" stroke-dasharray="26 16"/>
+  ${[[120, 150], [240, 110], [330, 200], [200, 260], [110, 250], [320, 290]].map(([x, y]) => `<g transform="translate(${x - 25} ${y - 30})"><path d="M25 2 C30 16 44 22 44 38 A19 19 0 0 1 6 38 C6 28 12 22 16 16 C18 24 22 26 24 26 C22 18 22 10 25 2 Z" fill="#FF5A36"/><path d="M25 30 C28 36 34 38 34 45 A9 9 0 0 1 16 45 C16 40 20 37 25 30 Z" fill="#FFD23F"/></g>`).join('')}</svg>`;
+const faceSVG = () => `<svg width="300" height="320" viewBox="0 0 300 320"><circle cx="150" cy="150" r="120" fill="#E9C9A6"/>
+  <path d="M100 120 Q112 110 124 120 M176 120 Q188 110 200 120" stroke="#1B2430" stroke-width="9" fill="none" stroke-linecap="round"/>
+  <path d="M70 150 Q150 140 230 150 L222 210 Q150 250 78 210 Z" fill="#fff" stroke="#AEB8C2" stroke-width="6"/>
+  <path d="M95 175 H205 M100 198 H200" stroke="#C9D3DC" stroke-width="6" stroke-linecap="round"/>
+  <path d="M70 152 L32 132 M230 152 L268 132" stroke="#AEB8C2" stroke-width="6"/>
+  <circle cx="60" cy="40" r="26" fill="#AEB8C2" opacity=".8"/><circle cx="96" cy="22" r="20" fill="#C9CDD2" opacity=".8"/><circle cx="250" cy="44" r="24" fill="#AEB8C2" opacity=".8"/></svg>`;
+const planeSVG = () => `<svg width="380" height="300" viewBox="0 0 380 300"><g transform="rotate(-18 190 150)">
+  <path d="M30 150 Q30 128 60 128 H300 Q350 128 360 150 Q350 172 300 172 H60 Q30 172 30 150 Z" fill="#fff" stroke="#1B2430" stroke-width="8"/>
+  <path d="M160 132 L120 40 H160 L230 132 Z M160 168 L120 260 H160 L230 168 Z M50 132 L30 82 H60 L100 132 Z" fill="#3E5568"/>
+  ${[220, 250, 280].map((x) => `<circle cx="${x}" cy="150" r="7" fill="#3E5568"/>`).join('')}</g>
+  <circle cx="70" cy="60" r="30" fill="#AEB8C2"/><circle cx="104" cy="72" r="22" fill="#C9CDD2"/><circle cx="44" cy="78" r="20" fill="#C9CDD2"/></svg>`;
+const scaleSVG = () => `<svg width="300" height="230" viewBox="0 0 300 230"><rect x="142" y="40" width="16" height="170" fill="#1B2430"/><rect x="90" y="200" width="120" height="20" rx="6" fill="#1B2430"/>
+  <rect x="30" y="34" width="240" height="14" rx="7" fill="#3E5568"/>
+  <path d="M44 48 L14 120 H74 Z" fill="none" stroke="#3E5568" stroke-width="4"/><path d="M256 48 L226 120 H286 Z" fill="none" stroke="#3E5568" stroke-width="4"/>
+  <path d="M8 120 H80 Q44 150 8 120 Z" fill="#3E5568"/><path d="M220 120 H292 Q256 150 220 120 Z" fill="#3E5568"/>
+  <circle cx="150" cy="40" r="14" fill="#FFD23F" stroke="#1B2430" stroke-width="4"/></svg>`;
+
+// ---------- build static parts ----------
+$('aEnv').innerHTML = envSVG(380);
+$('bMic').innerHTML = micSVG();
+$('c2Arr').innerHTML = arrowSVG();
+['dF0', 'dF1', 'dF2'].forEach((id) => ($(id).innerHTML = factorySVG()));
+$('e2Area').innerHTML = areaSVG();
+$('fFace').innerHTML = faceSVG();
+$('gPlane').innerHTML = planeSVG();
+$('hScale').innerHTML = scaleSVG();
+// 19 tally marks: three groups of five + four
+const tally = $('cTally'), marks = [], slashes = [];
+[5, 5, 5, 4].forEach((n) => {
+  const g = document.createElement('div'); g.className = 'grp';
+  for (let i = 0; i < Math.min(n, 4); i++) { const m = document.createElement('i'); g.appendChild(m); marks.push(m); }
+  if (n === 5) { const s = document.createElement('div'); s.className = 'slash'; g.appendChild(s); marks.push(s); slashes.push(s); }
+  tally.appendChild(g);
+});
+const grid = $('eGrid'), cells = [];
+for (let i = 0; i < DATA.sanctioned; i++) { const b = document.createElement('b'); grid.appendChild(b); cells.push(b); }
+const mkDots = (box, n) => Array.from({ length: n }, () => { const b = document.createElement('b'); box.appendChild(b); return b; });
+const fDots = mkDots($('fDots'), DATA.provinces), gDots = mkDots($('gDots'), DATA.airports);
+const HL = [['Belum', 0], ['ada', 0], ['perusahaan', 0], ['yang', 0], ['<br>', 0], ['diputus', 1], ['bersalah', 1], ['di', 0], ['pengadilan.', 0]];
+$('hHl').innerHTML = HL.map(([w, a]) => (w === '<br>' ? '<br>' : `<span class="w${a ? ' acc' : ''}">${w}</span>`)).join(' ');
+const hWords = [...$('hHl').querySelectorAll('.w')];
+
+// ---------- beat times (from build/timing.json) ----------
+const B = {
+  a: Math.max(2.15, at('c1')), aEnv: Math.max(2.35, W('c1', 'disurati') - 0.1),
+  b: at('c2'), bWhere: at('c3'), bPermit: W('c3', 'izin'), bStamp: W('c3', 'dicabut'),
+  c: at('c4'), cTally: W('c4', 'melanggar'), c19: W('c4', '19'), cHedge: W('c4', 'angka'), c2: W('c4', 'menurutnya'), c2Two: W('c4', 'dua'), c2Cut: W('c4', 'cabut'),
+  d: at('c5'), dWho: W('c5', 'asing'), dName: W('c5', 'namanya'), dWhen: W('c5', 'diumumkan'),
+  e: at('c6'), e32: W('c6', '32'), eKt: at('c7'), eFrz: W('c7', 'dibekukan'), e2: W('c7', 'yang', 1), e2Num: W('c7', '4'), e2Lab: W('c7', 'hektare'),
+  f: at('c8'), fDate: W('c8', '13'), fNum: W('c8', '283'), fLab: W('c8', 'kasus'), fProv: W('c8', '7'),
+  g: at('c8b'), gD1: W('c8b', '11'), gD2: W('c8b', '17'), gNum: W('c8b', '2'), gLab: W('c8b', 'penerbangan'), gAir: W('c8b', '29'),
+  h: at('c9'),
+};
+const X = (n) => 960 + 2000 * n, Y2 = 1840;
+const CAM = [
+  { t: 0, x: X(0), y: 540, z: 1 },
+  { t: B.b - 0.35, x: X(1), y: 540, z: 1 },
+  { t: B.c - 0.35, x: X(2), y: 540, z: 1 },
+  { t: B.c2 - 0.25, x: X(2), y: Y2, z: 1, dur: 0.8 },
+  { t: B.d - 0.35, x: X(3), y: 540, z: 1 },
+  { t: B.e - 0.35, x: X(4), y: 540, z: 1 },
+  { t: B.e2 - 0.3, x: X(4), y: Y2, z: 1, dur: 0.8 },
+  { t: B.f - 0.35, x: X(5), y: 540, z: 1 },
+  { t: B.g - 0.35, x: X(6), y: 540, z: 1 },
+  { t: B.h - 0.35, x: X(7), y: 540, z: 1.04 },
+];
+// [id, tIn, tOut, rot]
+const POPS = [
+  ['aKick', B.a, Infinity, -2], ['aNum', B.a + 0.1], ['aLab', B.a + 0.25, Infinity, 2], ['aEnv', B.aEnv, Infinity, -6], ['aSG', B.aEnv + 0.4, Infinity, -2],
+  ['bMic', B.b], ['bName', W('c2', 'presiden'), Infinity, -2], ['bWhere', B.bWhere, Infinity, 2], ['bPermit', B.bPermit, Infinity, 1], ['bStamp', B.bStamp, Infinity, -12],
+  ['cKick', B.c, Infinity, -2], ['cNum', B.c19], ['cHedge', B.cHedge, Infinity, -1.5],
+  ['c2Kick', B.c2, Infinity, -2], ['c2Two', B.c2Two, Infinity, -3], ['c2Arr', B.c2Two + 0.35], ['c2Cut', B.c2Cut, Infinity, -8],
+  ['dKick', B.d, Infinity, -2], ['dF0', W('c5', 'sejumlah')], ['dF1', W('c5', 'sejumlah') + 0.15], ['dF2', W('c5', 'sejumlah') + 0.3],
+  ['dWho', B.dWho, Infinity, 1.5], ['dR0', B.dName], ['dR1', B.dName + 0.1], ['dR2', B.dName + 0.2], ['dWhen', B.dWhen, Infinity, -6],
+  ['eNum', B.e32], ['eLab', B.e32 + 0.3, Infinity, -2], ['eGrid', B.e32 - 0.1], ['eKt', B.eKt + 0.1, Infinity, 2], ['eFrz', B.eFrz, Infinity, -6],
+  ['e2Kick', B.e2, Infinity, -2], ['e2Area', B.e2 + 0.2, Infinity, -2], ['e2Num', B.e2Num], ['e2Lab', B.e2Lab, Infinity, 2],
+  ['fKick', B.f, Infinity, -2], ['fFace', B.f + 0.15], ['fDate', B.fDate, Infinity, 2], ['fNum', B.fNum], ['fLab', B.fLab, Infinity, -2], ['fProv', B.fProv],
+  ['gPlane', B.g], ['gD1', B.gD1, Infinity, -2], ['gD2', B.gD2, Infinity, 2], ['gNum', B.gNum], ['gLab', B.gLab, Infinity, -2], ['gAir', B.gAir],
+  ['hScale', B.h],
+];
+const count = (el, t, t0, dur, v) => { el.firstChild.nodeValue = Math.round(v * K.easeOut(K.prog(t, t0, dur))).toLocaleString('id-ID'); };
+
+function seek(t) {
+  K.cam16($('world'), CAM, t);
+  K.titleCard($('card'), t, 2.0);
+  POPS.forEach(([id, a, b = Infinity, r = 0]) => K.pop($(id), t, a, b, r));
+  // tally marks draw on one by one from "19"
+  marks.forEach((m, i) => {
+    const ti = B.cTally + (B.c19 - B.cTally) * i / (marks.length - 1);
+    const k = K.clamp(K.spring(t - ti, 400, 24), 0, 1.2);
+    m.style.opacity = t >= ti ? 1 : 0;
+    m.style.transform = slashes.includes(m) ? `rotate(-24deg) scaleX(${k})` : `scaleY(${k})`;
+  });
+  // 32 sanctioned companies; the newest 6 (Kalteng) turn orange
+  cells.forEach((c, i) => {
+    const s = K.spring(t - B.e32 - 0.02 * i, 300, 20);
+    c.style.transform = `scale(${s})`;
+    c.classList.toggle('k', i >= DATA.sanctioned - DATA.kalteng && t >= B.eKt + 0.05 * (i - 26));
+  });
+  count($('e2Num'), t, B.e2Num, 1.4, DATA.burnHa);
+  count($('fNum'), t, B.fNum, 1.6, DATA.ispa);
+  count($('gNum'), t, B.gNum, 1.4, DATA.flights);
+  fDots.forEach((d, i) => { d.style.transform = `scale(${K.spring(t - B.fProv - 0.06 * i, 300, 18)})`; });
+  gDots.forEach((d, i) => { d.style.transform = `scale(${K.spring(t - B.gAir - 0.025 * i, 300, 18)})`; });
+  $('gRail').style.opacity = t >= B.gD1 + 0.2 ? 1 : 0;
+  $('gRail').style.transform = `translate(-50%,-50%) scaleX(${K.easeOut(K.prog(t, B.gD1 + 0.2, B.gD2 - B.gD1))})`;
+  // headline words land as they are spoken
+  hWords.forEach((w, i) => {
+    const tw = (K.line('c9').words[i + 1] || { start: B.h }).start - 0.05;   // words[0] is "Ingat:"
+    const s = K.spring(t - tw, 320, 18);
+    w.style.opacity = t >= tw ? 1 : 0; w.style.transform = `translateY(${(1 - s) * 30}px) scale(${0.7 + 0.3 * s})`;
+  });
+  K.lower($('lowB'), t, W('c2', 'presiden'), B.c - 0.3);
+  K.lower($('lowE'), t, W('c6', 'raja'), B.eKt - 0.2);
+  K.lower($('lowF'), t, B.fDate, B.fProv - 0.35);
+  K.lower($('lowG'), t, B.gD1, B.gAir - 0.35);
+  K.subtitles($('subs'), t);
+  K.weekly(t);
+}
+window.seek = seek;
+</script>
+</body>
+</html>
