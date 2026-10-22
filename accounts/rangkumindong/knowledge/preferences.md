@@ -9,6 +9,7 @@ _One dated line per piece of feedback about topics or angles. The coordinator ap
 - 2026-10-20: Likes the virality rubric and wants it to keep learning from results.
 - 2026-10-20: Wants attention-grabbing hooks, e.g. real-person cut-outs like 90secondslab.
 - 2026-10-22: Picked #2 (definisi korupsi, politics/law, sensitivity high) over the recommended #1 (beras fortifikasi 11/12) on politics Thursday. Asked to allow web fetches so the sweeps stop failing.
+- 2026-10-22: Expects cut-outs of the real people mentioned in a video (asked "where is the cutout of the people mentioned" after a faceless draft). Default: every named public figure who speaks/acts in the video gets a licensed cut-out; anyone without a licensed photo keeps a name tag, and the draft says so up front so the user decides before render.
 
 ## What the picks show
 

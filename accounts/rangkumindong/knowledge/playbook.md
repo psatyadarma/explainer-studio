@@ -14,6 +14,7 @@
 - Always show "Bukan ajakan jual/beli saham" on market/stock topics.
 
 ## Real people as cut-outs (from 21 Oct; sample: tests/hook-person)
+- **Default from 22 Oct (user request):** every named public figure in the video gets a cut-out when a licensed photo exists. Fetch and cut out the photos **at draft time** (Commons rate-limits this server heavily: ~10 min per file, originals blocked; use 960/1280 thumbnails), list in draft.md who has a photo and who stays a name tag, and let the user decide before render. Equal treatment means the same size and style for everyone shown, not "no faces unless everyone has one".
 - For stories with a clear face (a minister, CEO, official), the hook can show them as a large cut-out sticker: rising on a paper "ledge" that hides the waist-up crop, name tag ("Nama · jabatan"), 3-beat label-bar headline over the torso (black → yellow → white), objects flying in (smoke, flags, money, logos) and a callout arrow.
 - **Photos only from licensed sources:** Wikimedia Commons (public domain / CC0 / CC BY / CC BY-SA; Indonesian government official portraits are usually public domain), official government pages, company press kits. Never news-agency or random web photos.
 - Tools: `engine/commons.py search "<name>"` → `get "<File:…>" accounts/rangkumindong/assets/people <slug>` (saves `<slug>.json` with the credit), then `engine/cutout.py <slug>.jpg <slug>.png --kind person` (objects: `--kind object`). Reuse `assets/people/` before downloading again. Commons rate-limits: use standard thumbnail widths (960) and retry after a minute.
