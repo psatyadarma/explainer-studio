@@ -206,7 +206,7 @@
   "review": "weekly, Sunday",
   "format_rules": {
    "standard": "current sticker explainer, 60-90 s",
-   "person_hook": "standard body, but the first 2 s are a real-person cut-out hook (licensed photo, name tag, 3-beat label headline); if no licensed face fits the story, fall back to standard and log format=standard",
+   "person_hook": "standard body, but the first 2 s are a real-person cut-out hook in the COLLAGE look (template tests/hook-collage: kraft ground, halftone cut-out with white scissor edge, ransom-letter headline, torn strips, 12 fps stop-motion), then the usual sticker body; if no licensed face fits the story, fall back to standard and log format=standard",
    "short": "30-45 s, ~80-110 spoken words: hook, tagline, 2-3 beats, CTA; one zone per 5-8 s",
    "chapter_cut": "Saturday: a Short cut from the weekly video (not part of the format test)",
    "minggu_depan": "Sunday: week-ahead Short (not part of the format test)"
