@@ -1,0 +1,83 @@
+[
+ {
+  "at": "h1",
+  "offset": 0,
+  "type": "thump"
+ },
+ {
+  "at": "rd",
+  "offset": 0,
+  "type": "thump"
+ },
+ {
+  "at": "end",
+  "offset": 0,
+  "type": "ding"
+ },
+ {
+  "at": "l1",
+  "offset": -0.3,
+  "type": "whoosh"
+ },
+ {
+  "at": "l2",
+  "offset": -0.3,
+  "type": "whoosh"
+ },
+ {
+  "at": "l4",
+  "offset": -0.3,
+  "type": "whoosh"
+ },
+ {
+  "at": "l5",
+  "offset": -0.35,
+  "type": "whoosh"
+ },
+ {
+  "at": "l6",
+  "offset": -0.3,
+  "type": "whoosh"
+ },
+ {
+  "at": "l7",
+  "offset": -0.3,
+  "type": "whoosh"
+ },
+ {
+  "at": "l8",
+  "offset": -0.3,
+  "type": "whoosh"
+ },
+ {
+  "at": "l9",
+  "offset": -0.3,
+  "type": "whoosh"
+ },
+ {
+  "at": "l10",
+  "offset": -0.3,
+  "type": "whoosh"
+ },
+ {
+  "at": "cta",
+  "offset": -0.3,
+  "type": "whoosh"
+ },
+ {
+  "at": 5.88,
+  "type": "pop"
+ },
+ {
+  "at": 51.618,
+  "type": "pop"
+ },
+ {
+  "at": 66.525,
+  "type": "thump"
+ },
+ {
+  "at": 79.012,
+  "type": "thump"
+ }
+]

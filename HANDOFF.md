@@ -9,6 +9,7 @@ Updated: Thu 22 Oct 2026, 06:45 WITA. Each daily run is a fresh session with no 
 - **Early posts:** if a post time is before 10:00 WITA, send the finished video and captions the evening before.
 - **TikTok (until it is connected on 24 Oct):** with every finished video, also send the MP4 and a TikTok caption for manual posting, plus a sources comment to pin.
 - Never enter passwords, create accounts or change security settings for the user.
+- **One message per update (22 Oct):** the user saw every update twice (the SendUserMessage in Indonesian plus the session's closing summary in English). Send the content once with SendUserMessage and end the turn with at most one short line that adds nothing new, or nothing at all.
 - **Computer on:** the user leaves their computer on with Chrome signed in to the social accounts. An evening task ("Rangkumin Dong IG insights", 20:07 WITA, requires that computer) reads Instagram Insights (read-only) into knowledge/metrics.csv. **Morning check:** if a posted video's Instagram 24 h/72 h row is missing from metrics.csv after its evening, warn the user in the morning message that their computer/Chrome may have been off or signed out.
 
 ## How the daily run works (from Tue 20 Oct)

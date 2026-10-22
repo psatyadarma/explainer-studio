@@ -3,6 +3,8 @@
 Reads <project>/build/voice.wav, build/timing.json and optional <project>/sfx.json:
   [{"at": "lineId" | seconds, "offset": 0.0, "type": "pop|whoosh|tick|thump|ding"}]
 Writes <project>/build/mix.wav (48 kHz stereo).
+Optional --deess: light de-esser on the voice only (band above 5 kHz, threshold -18 dBFS, 2:1, max -6 dB),
+for hot /s/ sibilants that push AAC true peak up (QA note 21 Oct). build/voice.wav itself is not changed.
 All sound is generated in code: free to use commercially, no licensing.
 """
 import json, subprocess, sys
@@ -59,7 +61,29 @@ def bed(dur, bpm=100):
     return out
 
 
-def main(project):
+def deess(v, sr=SR, f0=5000, thr=-18.0, ratio=2.0, max_cut=6.0):
+    """Split at f0 with a zero-phase filter (low + high == input exactly), turn down only the high band
+    where its 5 ms rms is above thr (attack 2 ms, release 40 ms)."""
+    from scipy.signal import butter, sosfiltfilt
+    hi = sosfiltfilt(butter(4, f0, "highpass", fs=sr, output="sos"), v)
+    lo = v - hi
+    w = int(0.005 * sr)
+    n = int(np.ceil(len(v) / w))
+    pad = np.pad(hi, (0, n * w - len(v)))
+    lev = 20 * np.log10(np.sqrt(np.mean(pad.reshape(n, w) ** 2, 1)) + 1e-9)
+    cut = np.clip((lev - thr) * (1 - 1 / ratio), 0, max_cut)
+    g = 10 ** (-np.repeat(cut, w)[:len(v)] / 20)
+    a, r = np.exp(-1 / (0.002 * sr)), np.exp(-1 / (0.040 * sr))
+    sm = np.empty_like(g); y = 1.0
+    for i in range(0, len(g), 32):  # block-wise smoothing is enough at 32 samples
+        x = g[i]
+        y = a * y + (1 - a) * x if x < y else r * y + (1 - r) * x
+        sm[i:i + 32] = y
+    print(f"de-ess: {np.mean(cut > 0) * 100:.1f}% of 5 ms frames reduced, max {cut.max():.1f} dB")
+    return lo + hi * sm
+
+
+def main(project, de_ess=False):
     project = Path(project)
     b = project / "build"
     timing = json.loads((b / "timing.json").read_text())
@@ -67,6 +91,8 @@ def main(project):
     if vsr != SR:
         idx = np.arange(int(len(v) * SR / vsr)) * vsr / SR
         v = np.interp(idx, np.arange(len(v)), v)
+    if de_ess:
+        v = deess(v)
     dur = len(v) / SR
     b0 = bed(dur)
     b0 = np.pad(b0, (0, max(0, len(v) - len(b0))))[:len(v)]
@@ -90,4 +116,4 @@ def main(project):
 
 
 if __name__ == "__main__":
-    main(sys.argv[1])
+    main(sys.argv[1], "--deess" in sys.argv[2:])

@@ -10,16 +10,17 @@
   "draft": "done",
   "draft_factcheck": "done",
   "draft_sent": "done",
-  "approved": "todo",
-  "render": "todo",
-  "video_sent": "todo",
+  "approved": "done",
+  "render": "done",
+  "video_sent": "done",
   "ok_post": "todo",
   "posted": "todo",
   "knowledge": "todo"
  },
  "notes": [
   "22:05Z markets+politics sweeps empty: WebFetch PROVENANCE_REQUIRED on section pages (unattended, prompt unanswered); rerun with search-first workaround denied by auto-mode classifier for those two; business 8 + national 11 OK after search-first rerun",
-  "22:24Z user picked #2 definisi korupsi; asked to allow web fetches -> .claude/settings.json allow WebFetch, WebSearch"
+  "22:24Z user picked #2 definisi korupsi; asked to allow web fetches -> .claude/settings.json allow WebFetch, WebSearch",
+  "23:44Z approved 07:44 WITA"
  ],
  "merge_stats": {
   "new": 19,
