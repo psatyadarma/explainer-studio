@@ -27,6 +27,12 @@ Top line of the file: today's experiment arm (voice · slot · hook · **format*
 
 ## MODE draft
 Input: the chosen idea number (and any notes from the user). Create the video folder `accounts/rangkumindong/videos/<RUN_DATE>-<slug>/` and write:
+**Opening rules (retention, from 23 Oct — IG viewers left after 2.7–8.8 s):**
+- The first spoken line states the stakes or the question in ≤8 words, starting at 0.0 s — not a bare number without context ("Rp18.046 per dolar." ✗ → "Rupiah tembus 18 ribu. Gaji kamu kena?" ✓). Today's hook type decides the flavour, the rule applies to all.
+- Frame 1 carries the whole premise as a big 2-line title card (≤6 words, e.g. "JAWA PINDAH KE EROPA"), readable as the cover; it stays on screen for the first ~3 s.
+- Something moves or changes every 1–1.5 s in the first 5 s (pop, zoom, number counting, map move). No logo intro, no "Halo", no "Jadi gini" restart after the hook.
+- Open a loop the video pays off near the end ("angka terakhirnya yang paling bikin kaget") and pay it off.
+
 1. `script.json` — include `"format": "<today's format>"` (standard / person_hook / short; if person_hook has no licensed face, use standard). For short: 80–110 spoken words. Same structure as `accounts/rangkumindong/videos/2026-10-19-ihsg-msci-v3/script.json` (study it): lines with id, text (subtitle), `say` overrides (numbers/acronyms spelled out), per-line `tag`, the tagline line. Punchy style, every on-screen number spoken, 150–170 wpm → 60–90 s. Continuity hook + PART badge if it continues a storyline.
 2. `draft.md` — for the user: topic + angle, full script (subtitle text), visual plan per zone (what's on screen, which chart/map/sticker; only verified numbers plotted; if a real person fits the hook, name them and the licensed photo to use, per playbook → Real people as cut-outs), sources list, captions (IG caption with hashtags, YouTube title + #Shorts, YouTube description, tags, sources first comment), estimated length, whether a Trial Reel B version is worth it.
 3. `post.json` — caption, youtube_title, youtube_description, tags, platforms (from brand.json posting.platforms), pinned_comment, tiktok_caption (same as caption but **at most 5 hashtags**, incl. #rangkumindong) — exactly the captions in draft.md.

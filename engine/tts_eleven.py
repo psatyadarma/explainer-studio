@@ -179,12 +179,20 @@ def main(project, account, gender="male"):
     ti = next((i for i, l in enumerate(lines) if l.get("tagline") or l["id"] == "rd"), None)
     groups = [lines[:ti], lines[ti + 1:]] if ti is not None else [lines]
 
-    lead, gap, tail = 0.3, script.get("tagline_gap", 0.25), script.get("tail", 1.0)
+    lead, gap, tail = 0.08, script.get("tagline_gap", 0.25), script.get("tail", 1.0)
     track = [np.zeros(int(lead * SR), np.float32)]
     t, timing = lead, []
     for gi, g in enumerate(groups):
         if g:
             audio, tl = segment(g, voice, direction)
+            if gi == 0:   # retention (22 Oct): no dead air before the first word
+                nz = np.where(np.abs(audio) > 0.01)[0]
+                cut = max(0, (nz[0] if len(nz) else 0) - int(0.03 * SR))
+                audio = audio[cut:]
+                for l in tl:
+                    l["start"] = round(l["start"] - cut / SR, 3); l["end"] = round(l["end"] - cut / SR, 3)
+                    for w in l["words"]:
+                        w["start"] = round(max(0, w["start"] - cut / SR), 3); w["end"] = round(w["end"] - cut / SR, 3)
             for l in tl:
                 l["start"] += t; l["end"] += t
                 for w in l["words"]:
