@@ -16,3 +16,5 @@ Read `accounts/rangkumindong/knowledge/playbook.md` (Experiments section), `bran
 Final reply: 3 lines max — the headline finding and any decision you recommend.
 
 **Opening A/B (from 23 Oct):** for each day also pull the B Trial Reel (`<folder>-b/posted-trial.json`, IG only) and log it in metrics.csv with folder `<folder>-b`. In the weekly review, compare A vs B per hook style (3-s hold first, then avg % watched), with wins per style.
+
+**Benchmarks (Sundays):** follow `accounts/rangkumindong/knowledge/benchmarks.md` (public pages only, read-only; via WebFetch/WebSearch, or the browser if the coordinator gives you one) and add a short "Benchmarks this week" section to the weekly review with at most 2 testable ideas.
