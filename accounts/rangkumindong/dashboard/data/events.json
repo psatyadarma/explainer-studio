@@ -900,6 +900,26 @@
 "upcoming": false
 },
 {
+"id": "E0248",
+"date": "2026-10-17",
+"category": "ENV",
+"event": "BMKG says dry conditions will continue 17-24 Oct and reports 478 high-confidence hotspots on 16 Oct, led by South Sumatra, with Central Kalimantan down sharply from 15 Oct. (update of E0021)",
+"key_numbers": "478 high-confidence hotspots (16 Oct) · South Sumatra 189 · East Java 89 · South Papua 63 · West Kalimantan 26 · Central Kalimantan 26 (from 485 on 15 Oct) · dry outlook 17-24 Oct",
+"storyline": "karhutla",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0249",
+"date": "2026-10-17",
+"category": "ENV",
+"event": "Palangka Raya extends its karhutla emergency status to 9 Nov after 909 fire incidents since 1 June.",
+"key_numbers": "909 incidents (1 Jun-17 Oct) · 1,448.90 ha burned · emergency status to 9 Nov · Way Kambas fire burning since 15 Sep (25 hotspots inside park, Lampung 84 total)",
+"storyline": "karhutla",
+"status": "partial",
+"upcoming": false
+},
+{
 "id": "E0031",
 "date": "2026-10-18",
 "category": "POL",
@@ -1610,6 +1630,16 @@
 "upcoming": false
 },
 {
+"id": "E0247",
+"date": "2026-10-19",
+"category": "ENV",
+"event": "Bisnis.com summarises karhutla spread and government mitigation: Health Ministry counts 283,270 acute respiratory infection cases since August, and police plan to deploy 70,000 forest police. (update of E0021)",
+"key_numbers": "ARI cases 283,270 (Aug-13 Oct) in 7 provinces, 63 regencies/cities · ~63,700 children aged 0-5 · 12 regions in hazardous air category · 2,458 flights disrupted at 29 airports (11 Aug-17 Oct, +437 vs 13 Oct) · 70,000 forest police planned · 5,179 water-bombing flight cycles by 38 aircraft · ~500 peat hydrological units to be mapped",
+"storyline": "karhutla",
+"status": "partial",
+"upcoming": false
+},
+{
 "id": "E0037",
 "date": "2026-10-20",
 "category": "ECO",
@@ -2108,6 +2138,276 @@
 "storyline": "",
 "status": "partial",
 "upcoming": false
+},
+{
+"id": "E0221",
+"date": "2026-10-21",
+"category": "ECO",
+"event": "Bank Indonesia held the BI-Rate at 5.75% at its October RDG but raised the Deposit Facility rate to 5%, citing rupiah pressure, global uncertainty and tight US monetary policy. (update of E0167)",
+"key_numbers": "BI-Rate 5.75% (hold) · Deposit Facility 5.00% (+25 bp) · Lending Facility 6.50% unchanged · Sept inflation 3.28% y/y (core 2.88%, volatile food 5.03%) · bank credit +13.21% y/y (investment credit +23.2%) · 2026 growth range 4.9-5.7%",
+"storyline": "rupiah",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0223",
+"date": "2026-10-21",
+"category": "MKT",
+"event": "OJK and Bareskrim detailed sanctions totalling Rp2.1 trillion in the DSSA, BREN and CUAN share cases, fining a market-manipulation customer and entities that hid the identities of share buyers. (update of E0053)",
+"key_numbers": "DSSA: PT SMT fined Rp1.5 T, nine brokers fined, one licence suspended 1 year · BREN: AH Ltd fined Rp500 B · CUAN: TC Pte Ltd fined Rp100 B, two brokers fined, one licence suspended 3 months · total Rp2.1 T",
+"storyline": "msci-reclassification",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0224",
+"date": "2026-10-21",
+"category": "MKT",
+"event": "President Prabowo said Indonesia is not afraid of MSCI, and OJK's chief responded, as Airlangga called the market tremors not disruptive and MSCI's timeline runs to a June 2027 final decision.",
+"key_numbers": "MSCI consultation until Apr 2027 · final decision by 30 Jun 2027 · IHSG 21 Oct close 5,328",
+"storyline": "msci-reclassification",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0225",
+"date": "2026-10-21",
+"category": "ECO",
+"event": "Manpower Minister Yassierli said the 2027 minimum wage formula will follow the new labour law and no percentage is set, while unions propose a 7.5-9.5% rise.",
+"key_numbers": "Union proposal 7.5-9.5% · union formula (inflation 3.20% + growth 5.43%) x index 0.9 = about 7.8% (our calc) · PP 49/2025 index 0.5-0.9 · new labour law passed by DPR 6 Oct · union protests 15-30 Oct in 38 provinces · wage setting reported scheduled around 1 Nov",
+"storyline": "",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0226",
+"date": "2026-10-21",
+"category": "ECO",
+"event": "Coordinating Minister Airlangga said the government has prepared about Rp31.8 trillion for a wage subsidy (BSU), rice aid and a Christmas-New Year transport discount running through end-2026.",
+"key_numbers": "Total Rp31.8 T · rice aid 10 kg per recipient (reported as 10 kg for 3 months, extended to year-end) · per-programme amounts and eligibility not stated",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0227",
+"date": "2026-10-21",
+"category": "ECO",
+"event": "Energy Minister Bahlil said the government is considering not extending gas exports to neighbouring countries so domestic needs come first, following Prabowo's 'survival mode' call at a cabinet plenary.",
+"key_numbers": "Volumes, destinations and contract dates not stated · described as an option, not a decision",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0228",
+"date": "2026-10-21",
+"category": "ECO",
+"event": "The government reiterated that Pertalite will not rise in price despite surging oil prices, after Deputy Energy Minister Yuliot said subsidised fuel prices are held through year-end. (update of E0094)",
+"key_numbers": "Oil about US$107 per barrel (end-Sep, US-Iran tension) · Brent about US$108-110 mid-Oct (E0127, E0174) · Pertalite and Biosolar price unchanged to end-2026 · Pertalite stock 16-18 days (E0128)",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0230",
+"date": "2026-10-21",
+"category": "POL",
+"event": "Prabowo, at a plenary cabinet meeting on 21 Oct and again at the TPAKD national meeting on 22 Oct, says foreign companies holding concessions are suspected of contributing to karhutla, orders permits of proven violators revoked, and says company names will be announced 'pada saatnya'.",
+"key_numbers": "32 companies under forestry administrative sanctions (Forestry Minister Raja Juli Antoni, 21 Oct) · 6 Kalimantan firms newly suspended, largest burned area PT Hasil Kalimantan Jaya 4,803 ha of 36,745 ha concession · Prabowo: one firm violated 'up to 19 times', permits should go after 2 violations · no company named",
+"storyline": "karhutla",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0239",
+"date": "2026-10-21",
+"category": "TECH",
+"event": "PHP Foundation releases security fixes for two critical 'php2shell' flaws in the PHP core, found with AI by Wiz and Calif researchers, after details leaked; exploitation attempts reportedly climbed to millions and agencies in several countries issued warnings.",
+"key_numbers": "PHP powers ~70% of websites worldwide (Wiz estimate) · patches released Wed 21 Oct 2026 · Cloudflare exploit attempts: thousands in 10 h before announcement → tens of thousands within 45 min → hundreds of thousands within 2 h → millions · affects WordPress, Laravel, Symfony, Drupal",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0240",
+"date": "2026-10-21",
+"category": "TECH",
+"event": "Perpres 27/2026 lets ojol drivers work with more than one app company at once and requires apps to pay drivers' share in real time after each job; the Ministry of MSMEs is designated to oversee partnership agreements. (update of E0144)",
+"key_numbers": "Perpres 27/2026 · Pasal 3(1): driver may partner with one or more platforms · Pasal 12: app fee max 8% (driver keeps 92%, previously 20% cut) · 14 mandatory partnership obligations (not listed) · commission rule effective 1 Jul 2026 per CNBC",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0242",
+"date": "2026-10-21",
+"category": "TECH",
+"event": "Anthropic's draft IPO prospectus, per Reuters via CNBC Indonesia, shows a large first-half 2026 net loss, mostly from an accounting charge, alongside fast revenue growth; the IPO is planned for November.",
+"key_numbers": "H1 2026 net loss US$80 B (~Rp1,449 T) vs US$13 B before · US$72 B of it is a non-cash accounting charge · FY2025 net loss US$42 B · operating loss US$8.1 B on revenue US$4.6 B (period unclear) · Q3 revenue +45% to US$16.8 B · investor valuation talk ~US$1.5 T · IPO planned Nov",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0243",
+"date": "2026-10-21",
+"category": "BIZ",
+"event": "Data-centre buyers drive Puradelta Lestari (DMAS) land sales at Kota Deltamas, Cikarang, with Microsoft Operations Indonesia the biggest buyer.",
+"key_numbers": "As of 30 Sep 2026: Microsoft Rp795.96 B (30.06%) · Digital Gayana Ekagrata Rp741.50 B · Princeton Digital Group Rp446.12 B · Indoedge Rp276.06 B · top four ~Rp2.26 T (85.35% of top-buyer list) · 9M 2026 revenue Rp2.65 T (~3.4x y/y) · industrial land Rp2.54 T (~96%)",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0246",
+"date": "2026-10-21",
+"category": "TECH",
+"event": "Apple commits up to US$100 million of US-recycled titanium over three years from Perryman Company for the iPhone Duo and other products, under its American Manufacturing Program; CNBC Indonesia's headline frames it as TKDN, although the deal concerns US content.",
+"key_numbers": "Up to US$100 M (~Rp1.8 T) over 3 years · at least 80% recycled titanium · nearly 100 components from US firms in 12+ states · US$600 B four-year US pledge · TSMC Arizona >100 M chips for Apple in 2026",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0220",
+"date": "2026-10-22",
+"category": "MKT",
+"event": "IHSG closed up 1.12% at 5,387.91 for a third straight gain after opening about 2% lower, while foreign investors net sold about Rp1.49 trillion. (update of E0168)",
+"key_numbers": "Close 5,387.91 (+59.54 pts, +1.12%) · open 5,247.98 · intraday high 5,422.59 · 21 Oct close 5,328 (+0.94%) · foreign net sell Rp1.49 T (BBCA Rp624.6 B, TLKM Rp332.2 B, BBRI Rp257.9 B) · value Rp15.3-16.2 T (sources differ)",
+"storyline": "msci-reclassification",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0222",
+"date": "2026-10-22",
+"category": "MKT",
+"event": "The rupiah weakened past Rp18,000 per US dollar after Bank Indonesia held its policy rate. (update of E0172)",
+"key_numbers": "Reported closes Rp18,022 and Rp18,060 per USD (outlets differ) · morning level Rp18,083 · 20 Oct close Rp17,995 (E0172)",
+"storyline": "rupiah",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0231",
+"date": "2026-10-22",
+"category": "POL",
+"event": "Luhut's proposal to drop state loss from the definition of corruption draws more pushback: PKS legislators Nasir Djamil and Mardani Ali Sera (DPR Komisi III) oppose it, a Golkar-linked DPR member and a PUKAT UGM researcher weigh in, while Yusril calls it worth considering; no direct Palace statement yet.",
+"key_numbers": "Nasir Djamil: 'ahistoris dan layak ditolak' · Soedeson Tandra (ANTARA headline): state loss must stay in the definition · PUKAT UGM: adopt UNCAC offences into UU Tipikor · Luhut's claim of Prabowo approval still unconfirmed by Palace",
+"storyline": "definisi-korupsi",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0232",
+"date": "2026-10-22",
+"category": "POL",
+"event": "KPK detains 7 of 8 suspects in the expanded North Sumatra road-project corruption case, including former BBPJN Sumut head Stanley Cicero Haggard Tuapattinaja; the eighth, Dicky Erlangga, skipped the summons and is called again on 26 Oct.",
+"key_numbers": "7 detained for 20 days, 22 Oct–10 Nov · 8 suspects · 6 projects worth about Rp231.8 miliar · OTT 26 Jun 2025 · KPK says it may extend to North Sumatra provincial government and Ministry of PU parties",
+"storyline": "corruption-cases",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0233",
+"date": "2026-10-22",
+"category": "POL",
+"event": "TNI says it will follow up KPK's 20 Oct letter to Panglima Agus Subiyanto naming two active soldiers allegedly involved in the BNPB disaster-fund corruption case; KPK is awaiting TNI's reply. (update of E0215)",
+"key_numbers": "2 active soldiers · KPK letter 20 Oct · 5 civilian suspects named 14 Oct · KPK seizures Rp5.47 miliar (16 Oct) · Puspom TNI informed about ex-BNPB head Suharyanto's role",
+"storyline": "corruption-cases",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0234",
+"date": "2026-10-22",
+"category": "POL",
+"event": "GRIB Jaya says, via lawyer Wilson Colling, that the Rp800 juta Hercules handed to KPK came from PT Summarecon Agung for a 65-ha land dispute in Bogor; KPK says it is tied to the alleged bribery over Summarecon's HGB at ATR/BPN. (update of E0209)",
+"key_numbers": "Rp800 juta · 65 ha · 12 SHM → 12 SHGB · KPK: 8 suspects incl. Summarecon President Director Adrianto Pitojo Adhi · OTT 14 Sep: 19 people, Rp106.3 miliar seized · intermediary named 'MW' (GRIB) vs 'NMB' (KPK)",
+"storyline": "corruption-cases",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0235",
+"date": "2026-10-22",
+"category": "POL",
+"event": "Madiun mayor (non-active) Maidi is sentenced to 5 years by the Surabaya Tipikor court in the CSR-extortion and project-fee case, 2 years 2 months below KPK's demand.",
+"key_numbers": "5 years · fine Rp250 juta (3 months substitute) · demand 7 years 2 months · KPK demanded replacement money Rp8,005,384,790 (court order on it not confirmed)",
+"storyline": "corruption-cases",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0236",
+"date": "2026-10-22",
+"category": "POL",
+"event": "40 national figures file an amicus curiae at the Jakarta Tipikor court asking for acquittal of former Ombudsman chair Hery Susanto during the defence rejoinder; verdict is set for 5 Nov.",
+"key_numbers": "Alleged bribes Rp4.85 miliar · demand 5 years 6 months + Rp300 juta fine + Rp4.19 miliar restitution · 40 amicus filers · verdict 5 Nov 2026",
+"storyline": "corruption-cases",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0237",
+"date": "2026-10-22",
+"category": "POL",
+"event": "East Java police arrest 11 people accused of trying to provoke unrest at the student rally at Gedung Grahadi, Surabaya, which the police chief calls largely peaceful. (update of E0179)",
+"key_numbers": "11 arrested (2 students, 9 school dropouts) · thinner, arak, knuckle-dusters, phones seized · Polda Jatim chief Irjen Dekananto Eko Purwono",
+"storyline": "protests-prabowo-2-years",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0241",
+"date": "2026-10-22",
+"category": "NEWS",
+"event": "BRIN says the object that fell in a palm-oil plantation near Sampit, Central Kalimantan, is debris from a Chinese rocket (reported as a ZQ-2E), described as car-sized.",
+"key_numbers": "Debris reportedly car-sized · location: oil-palm plantation near Sampit, Kalteng · rocket model ZQ-2E per detikPedia headline (not verified in article body)",
+"storyline": "",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0245",
+"date": "2026-10-22",
+"category": "GLB",
+"event": "A New Mexico court reportedly fines Meta about US$25 billion (~Rp450 T) over the Cambridge Analytica case, per a CNN Indonesia headline.",
+"key_numbers": "US$25 B (~Rp450 T) per headline only · New Mexico court · article body not read",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0229",
+"date": "2026-10-23",
+"category": "BIZ",
+"event": "BBNI is scheduled to report Q3 2026 results on 23 October, with BMRI 27 Oct, BRIS 29 Oct and BBRI/BBTN/BDMN 30 Oct to follow amid the market sell-off. (update of E0150)",
+"key_numbers": "BBNI 23 Oct · BMRI 27 Oct · BRIS 29 Oct · BBRI, BBTN, BDMN 30 Oct · Fed meeting 28 Oct",
+"storyline": "msci-reclassification",
+"status": "upcoming",
+"upcoming": true
+},
+{
+"id": "E0238",
+"date": "2026-10-23",
+"category": "POL",
+"event": "Partai Demokrat's South Sulawesi regional conference (Musda) is scheduled in Makassar, where Mayor Munafri Arifuddin, who left Golkar on 5 Oct, is a candidate for provincial chair. (update of E0075)",
+"key_numbers": "Musda 23 Oct 2026 · Munafri resigned from Golkar 5 Oct",
+"storyline": "party-moves",
+"status": "upcoming",
+"upcoming": true
+},
+{
+"id": "E0244",
+"date": "2026-10-23",
+"category": "TECH",
+"event": "Apple's Indonesian pre-order for the iPhone Duo is reported to open on 23 Oct 2026 at 09.00 WIB; the price is still unofficial. (update of E0189)",
+"key_numbers": "Pre-order 23 Oct 2026, 09.00 WIB (per detik and several outlets) · leaked/predicted prices Rp43.99 M (256 GB) to Rp68.9 M (top model, prediction) · global price US$1,999",
+"storyline": "",
+"status": "partial",
+"upcoming": true
 },
 {
 "id": "E0145",
