@@ -14,8 +14,8 @@
   "render": "done",
   "video_sent": "done",
   "ok_post": "done",
-  "posted": "todo",
-  "knowledge": "todo"
+  "posted": "done",
+  "knowledge": "done"
  },
  "notes": [
   "22:05Z markets+politics sweeps empty: WebFetch PROVENANCE_REQUIRED on section pages (unattended, prompt unanswered); rerun with search-first workaround denied by auto-mode classifier for those two; business 8 + national 11 OK after search-first rerun",
