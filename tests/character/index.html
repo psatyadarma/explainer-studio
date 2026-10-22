@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Character sample: Pak Budi</title>
+<link rel="stylesheet" href="../../styles/sticker/sticker.css">
+<script src="../../styles/sticker/sticker.js"></script>
+<style>
+  #sheet { position: absolute; inset: 0; display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 150px 1fr 1fr; padding: 60px 40px; gap: 10px; }
+  h1 { grid-column: 1 / 3; font-weight: 900; font-size: 64px; letter-spacing: -2px; text-align: center; align-self: center; }
+  h1 small { display: block; font-size: 30px; font-weight: 700; color: var(--slate); letter-spacing: 0; }
+  .cell { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; }
+  .cell svg { width: 470px; height: 600px; filter: url(#stk); overflow: visible; }
+  .cap { font-weight: 800; font-size: 36px; background: var(--ink); color: #fff; border-radius: 14px; padding: 6px 18px; }
+</style>
+</head>
+<body>
+<div id="stage">
+  <div id="sheet">
+    <h1>Pak Budi<small>karakter warga biasa untuk Rangkumin Dong (sampel)</small></h1>
+  </div>
+</div>
+<script>
+K.installFilters && K.installFilters();
+// Original character: an ordinary Indonesian office worker in his 40s. Flat sticker style, brand colours.
+// Parts are separate so pages can animate them (head tilt, blink, mouth swap, arms).
+function budi(expr) {
+  const skin = '#C98E62', skinD = '#B07A50', hair = '#1E1A17', shirt = '#2F6E8F', batik = '#FFD23F', ink = '#1B2430';
+  const brow = { neutral: ['M150 168 q25 -8 50 0', 'M250 168 q25 -8 50 0'], shocked: ['M148 150 q27 -18 54 -2', 'M248 148 q27 -16 54 2'],
+                 happy: ['M150 165 q25 -12 50 0', 'M250 165 q25 -12 50 0'], worried: ['M150 160 q25 4 50 -10', 'M250 150 q25 14 50 10'] }[expr];
+  const mouth = { neutral: '<path d="M200 262 q25 10 50 0" stroke="'+ink+'" stroke-width="9" fill="none" stroke-linecap="round"/>',
+                  shocked: '<ellipse cx="225" cy="272" rx="24" ry="30" fill="'+ink+'"/><ellipse cx="225" cy="284" rx="14" ry="10" fill="#E5675B"/>',
+                  happy: '<path d="M190 252 q35 44 70 0 z" fill="'+ink+'"/><path d="M200 256 q25 10 50 0" fill="#fff"/>',
+                  worried: '<path d="M198 274 q27 -18 54 0" stroke="'+ink+'" stroke-width="9" fill="none" stroke-linecap="round"/>' }[expr];
+  const eyes = expr === 'happy' ? '<path d="M158 205 q17 -16 34 0" stroke="'+ink+'" stroke-width="9" fill="none" stroke-linecap="round"/><path d="M258 205 q17 -16 34 0" stroke="'+ink+'" stroke-width="9" fill="none" stroke-linecap="round"/>'
+    : `<circle cx="175" cy="203" r="${expr === 'shocked' ? 13 : 10}" fill="${ink}"/><circle cx="275" cy="203" r="${expr === 'shocked' ? 13 : 10}" fill="${ink}"/>`;
+  const arms = { neutral: '<path d="M95 430 q-40 70 -20 140" stroke="'+shirt+'" stroke-width="54" fill="none" stroke-linecap="round"/><path d="M355 430 q40 70 20 140" stroke="'+shirt+'" stroke-width="54" fill="none" stroke-linecap="round"/>',
+    shocked: '<path d="M95 430 q-70 -40 -40 -150" stroke="'+shirt+'" stroke-width="54" fill="none" stroke-linecap="round"/><circle cx="60" cy="268" r="30" fill="'+skin+'"/><path d="M355 430 q70 -40 40 -150" stroke="'+shirt+'" stroke-width="54" fill="none" stroke-linecap="round"/><circle cx="390" cy="268" r="30" fill="'+skin+'"/>',
+    happy: '<path d="M95 430 q-40 70 -20 140" stroke="'+shirt+'" stroke-width="54" fill="none" stroke-linecap="round"/><path d="M355 430 q80 -30 70 -150" stroke="'+shirt+'" stroke-width="54" fill="none" stroke-linecap="round"/><circle cx="425" cy="270" r="30" fill="'+skin+'"/><path d="M412 238 l0 -34" stroke="'+skin+'" stroke-width="20" stroke-linecap="round"/>',
+    worried: '<path d="M95 430 q-30 40 60 40" stroke="'+shirt+'" stroke-width="54" fill="none" stroke-linecap="round"/><path d="M355 430 q30 40 -60 40" stroke="'+shirt+'" stroke-width="54" fill="none" stroke-linecap="round"/><rect x="170" y="440" width="110" height="70" rx="12" fill="#fff" stroke="'+ink+'" stroke-width="6"/><text x="225" y="486" font-size="30" font-weight="900" text-anchor="middle" fill="#FF5A36" font-family="Inter">Rp</text>' }[expr];
+  return `<svg viewBox="0 0 450 600">
+    <path d="M70 600 q0 -200 155 -200 q155 0 155 200 z" fill="${shirt}"/>
+    <g fill="${batik}" opacity=".9"><circle cx="150" cy="500" r="9"/><circle cx="300" cy="500" r="9"/><circle cx="225" cy="560" r="9"/><circle cx="120" cy="570" r="7"/><circle cx="330" cy="570" r="7"/>
+      <path d="M190 470 q35 -25 70 0 q-35 25 -70 0" /></g>
+    <path d="M190 400 l35 45 l35 -45 z" fill="#fff"/>
+    <rect x="198" y="340" width="54" height="70" rx="20" fill="${skinD}"/>
+    ${arms}
+    <ellipse cx="225" cy="215" rx="125" ry="140" fill="${skin}"/>
+    <ellipse cx="102" cy="220" rx="20" ry="30" fill="${skin}"/><ellipse cx="348" cy="220" rx="20" ry="30" fill="${skin}"/>
+    <path d="M100 190 q-5 -130 125 -130 q130 0 125 130 q-25 -70 -125 -75 q-100 5 -125 75 z" fill="${hair}"/>
+    <path d="M${brow[0].slice(1)}" stroke="${hair}" stroke-width="12" fill="none" stroke-linecap="round"/>
+    <path d="M${brow[1].slice(1)}" stroke="${hair}" stroke-width="12" fill="none" stroke-linecap="round"/>
+    <rect x="140" y="178" width="72" height="54" rx="18" fill="none" stroke="${ink}" stroke-width="7"/>
+    <rect x="240" y="178" width="72" height="54" rx="18" fill="none" stroke="${ink}" stroke-width="7"/>
+    <path d="M212 200 h28" stroke="${ink}" stroke-width="7"/>
+    ${eyes}
+    <path d="M225 220 q-8 22 6 26" stroke="${skinD}" stroke-width="7" fill="none" stroke-linecap="round"/>
+    <path d="M180 240 q45 12 90 0" stroke="${hair}" stroke-width="10" fill="none" stroke-linecap="round" opacity=".85"/>
+    ${mouth}
+    ${expr === 'worried' ? '<path d="M340 120 q10 20 0 32 q-10 -12 0 -32" fill="#7FC8F8"/>' : ''}
+  </svg>`;
+}
+const caps = { neutral: 'biasa', shocked: 'kaget', happy: 'senang', worried: 'cemas' };
+const sheet = document.getElementById('sheet');
+['neutral', 'shocked', 'happy', 'worried'].forEach((e) => {
+  const c = document.createElement('div'); c.className = 'cell';
+  c.innerHTML = budi(e) + `<div class="cap">${caps[e]}</div>`; sheet.appendChild(c);
+});
+window.DURATION = 0.1; window.seek = () => {};
+</script>
+</body>
+</html>
