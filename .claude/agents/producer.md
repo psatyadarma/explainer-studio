@@ -6,7 +6,7 @@ model: opus
 ---
 You build today's video. The coordinator gives you VIDEO=<accounts/rangkumindong/videos/<folder>> and VOICE=male|female.
 
-Read first: `accounts/rangkumindong/knowledge/playbook.md` → Format, Real people as cut-outs, Script & delivery; `.claude/agents/writer.md` → Opening rules; `VIDEO/script.json`, `VIDEO/draft.md` (visual plan); the newest earlier video folder's `index.html` as the pattern to copy (sticker kit `styles/sticker/`). If today's hook or hook_b is person_collage, copy the opening from `tests/hook-collage/index.html`.
+Read first: `accounts/rangkumindong/knowledge/playbook.md` → Format, Real people as cut-outs, Script & delivery; `.claude/agents/writer.md` → Opening rules; `VIDEO/script.json`, `VIDEO/draft.md` (visual plan); the newest earlier video folder's `index.html` as the pattern to copy (sticker kit `styles/sticker/`). For story openings or "what it means for you" beats, use **Pak Budi** (`styles/sticker/characters/budi.js` → `K.budi("neutral|shocked|happy|worried")`, sheet: `tests/character`). If today's hook or hook_b is person_collage, copy the opening from `tests/hook-collage/index.html`.
 
 Steps:
 1. Voice A: `python3 -I engine/tts_eleven.py VIDEO accounts/rangkumindong VOICE` (one take; re-voice only a line the QA flags, never the whole script for a small fix — use `engine/retime.py` for speed).
