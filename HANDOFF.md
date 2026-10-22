@@ -17,7 +17,7 @@ Updated: Thu 22 Oct 2026, 11:30 WITA. Each daily run is a fresh session with no 
 - **Computer on:** the user leaves their computer on with Chrome signed in to the social accounts. An evening task ("Rangkumin Dong IG insights", 20:07 WITA, requires that computer) reads Instagram Insights (read-only) into knowledge/metrics.csv. **Morning check:** if a posted video's Instagram 24 h/72 h row is missing from metrics.csv after its evening, warn the user in the morning message that their computer/Chrome may have been off or signed out.
 
 ## How the daily run works (from Tue 20 Oct)
-- Every day at ~06:00 WITA a **fresh scheduled session** starts by itself (scheduled task "Rangkumin Dong daily"). That session is that day's chat: the user gets a notification and replies in it to pick, approve and say "OK post".
+- Every day at ~05:04 WITA (moved from 05:52 on 22 Oct) a **fresh scheduled session** starts by itself (scheduled task "Rangkumin Dong daily"). That session is that day's chat: the user gets a notification and replies in it to pick, approve and say "OK post".
 - **Keys:** the user keeps them in their private Video project as the doc `claude/keys-all` (three lines: ElevenLabs, Upload-Post and Higgsfield keys; merged 22 Oct because two docs were both called `keys`). Each session reads it with the Projects tool and writes it to `~/.config/explainer-studio/.env` (chmod 600). `engine/tts_eleven.py` and `engine/post.py` read that file. **Never print, echo, commit or send the values.** Verified from a scheduled session on 19 Oct: both APIs returned 200.
 - Backup: sessions the user starts by hand in the "Default" environment also get both keys as network secrets, with no file needed. Scheduled sessions do not (tested 4×).
 - Rendered MP4s are not committed (`out/` is gitignored). They live in the day's session and on the platforms after posting.
@@ -42,7 +42,7 @@ Updated: Thu 22 Oct 2026, 11:30 WITA. Each daily run is a fresh session with no 
 - Metrics come from `knowledge/metrics.csv` (date, folder, platform, hours, views, avg_watch_pct, hold_3s_pct, shares, saves, follows), written by the analyst.
 
 ## Scheduled
-- Daily ~06:00 WITA: "Rangkumin Dong daily" (fresh session).
+- Daily 05:04 WITA: "Rangkumin Dong daily" (fresh session).
 - (PAUSED 22 Oct, back pocket) Mondays 06:52 WITA: "Ajarin Dong weekly" (fresh session: 5 concepts → user picks 3 → drafts → render → posts Mon/Wed/Fri 19:00 via Upload-Post profile "Ajarindong"; see accounts/ajarindong/knowledge/playbook.md).
 - Daily 20:07 WITA: "Rangkumin Dong IG insights" (needs the user's computer; read-only Instagram Insights → metrics.csv).
 - Sat 24 Oct 09:00 WITA (in the original chat): TikTok warm-up done. The user connects TikTok to Upload-Post profile "Rangkumindong"; then add "tiktok" to `brand.json` posting.platforms and stop the manual TikTok sends.
