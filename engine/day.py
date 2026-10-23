@@ -4,6 +4,10 @@
   python3 -I engine/day.py check <sweep.json>                     # validate one researcher file
   python3 -I engine/day.py merge <account_dir> <YYYY-MM-DD>       # add new events from all sweeps to events.csv (dedup), render events.md
   python3 -I engine/day.py status <account_dir> <YYYY-MM-DD> [step=value ...]   # show / set step status
+  python3 -I engine/day.py today <account_dir> <YYYY-MM-DD>       # today's brand.json bits only: schedule row,
+        # weekday topic, rubric weights, hook-style notes (instead of reading all of brand.json)
+  python3 -I engine/day.py candidates <account_dir> <YYYY-MM-DD>  # compact list of today's sweep events for the
+        # writer: score, signals, spreading evidence, short title, numbers, storyline, 2 source URLs (~1/3 of the raw JSON)
 
 Day folder: <account_dir>/daily/<date>/
   sweep-markets.json · sweep-politics.json · sweep-business.json · sweep-national.json   (researchers)
@@ -130,6 +134,50 @@ def status(acct, date, sets):
     print(" · ".join(f"{k}={v}" for k, v in j["steps"].items() if v != "todo") or "nothing done yet")
 
 
+def candidates(acct, date):
+    d = day_dir(acct, date)
+    rows = []
+    for area in AREAS:
+        f = d / f"sweep-{area}.json"
+        if not f.exists():
+            print(f"# missing sweep-{area}.json"); continue
+        j = json.loads(f.read_text())
+        for e in j["events"]:
+            s = e.get("signals", {})
+            rows.append((sum(s.values()), area, e))
+        if j.get("gaps"):
+            g = j["gaps"] if isinstance(j["gaps"], str) else "; ".join(map(str, j["gaps"]))
+            print(f"# gaps {area}: {cut(g, 200)}")
+    for tot, area, e in sorted(rows, key=lambda x: -x[0]):
+        s = e.get("signals", {})
+        sig = " ".join(f"{k[:2]}{v}" for k, v in s.items())
+        src = " ".join(x["url"] for x in e.get("sources", [])[:2])
+        print(f"[{tot}/12 {sig}] {area} {e['date'][5:10]} {e['category']} {e.get('status', '')[:1]}"
+              f"{' sens:' + e['sensitivity'] if e.get('sensitivity') not in (None, '', 'normal') else ''}"
+              f"{' ^' + e['update_of'] if e.get('update_of') else ''}{' #' + e['storyline'] if e.get('storyline') else ''}\n"
+              f"  {cut(e['event'], 160)}\n  n: {cut(e.get('key_numbers', ''), 180)}\n"
+              f"  trend: {cut(e.get('spreading_evidence', ''), 100)}\n  src: {src}")
+
+
+def today(acct, date):
+    b = json.loads((Path(acct) / "brand.json").read_text())
+    e = b.get("experiments", {})
+    row = next((r for r in e.get("schedule", []) if r.get("date") == date), None)
+    wd = dt.date.fromisoformat(date).strftime("%a").lower()
+    print("schedule:", json.dumps(row, ensure_ascii=False))
+    print("topic_today:", (b.get("topic_rotation") or {}).get(wd, ""))
+    print("rubric_weights:", json.dumps(b.get("rubric_weights", {}), ensure_ascii=False))
+    hs = e.get("hook_styles")
+    if hs and row:
+        pick = {k: v for k, v in (hs.items() if isinstance(hs, dict) else []) if k in (row.get("hook"), row.get("hook_b"))}
+        print("hook_styles:", json.dumps(pick or hs, ensure_ascii=False))
+
+
+def cut(s, n):
+    s = re.sub(r"\s+", " ", str(s)).strip()
+    return s if len(s) <= n else s[:n - 1] + "…"
+
+
 if __name__ == "__main__":
     c = sys.argv[1]
     if c == "init":
@@ -138,5 +186,9 @@ if __name__ == "__main__":
         check(sys.argv[2])
     elif c == "merge":
         merge(sys.argv[2], sys.argv[3])
+    elif c == "today":
+        today(sys.argv[2], sys.argv[3])
+    elif c == "candidates":
+        candidates(sys.argv[2], sys.argv[3])
     elif c == "status":
         status(sys.argv[2], sys.argv[3], sys.argv[4:])

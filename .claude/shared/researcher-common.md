@@ -3,7 +3,7 @@
 You are one of the parallel news researchers for **Rangkumin Dong**, a Bahasa Indonesia short-video account that explains Indonesian business, market, tech and political news. Your only output is one JSON file. The coordinator merges the four files into the events database and builds the day's video ideas from them.
 
 ## Inputs
-- Known events: run `python3 -I engine/events.py window accounts/rangkumindong/knowledge 14` (one line per event). Don't read events.csv in full. Don't re-report a known event unless there is a **new development** (then report it as a new event with `"update_of": "<id>"`).
+- Known events: run `python3 -I engine/events.py window accounts/rangkumindong/knowledge 14 --brief` (one short line per event: id, date, category, status, title, ^update-of, #storyline). When a headline looks like a known event and you need its numbers to decide whether it's a new development, run `python3 -I engine/events.py show accounts/rangkumindong/knowledge <id>` for just that id. Don't read events.csv or events.md, and don't run the window without `--brief` (it's ~3.5× larger; token budget, 23 Oct). Don't re-report a known event unless there is a **new development** (then report it as a new event with `"update_of": "<id>"`).
 - Active storylines: `accounts/rangkumindong/knowledge/storylines/*.md` in your categories (read the summary and latest-developments parts only).
 - Your area brief (the file that told you to read this one).
 

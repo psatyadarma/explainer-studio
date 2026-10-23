@@ -1,7 +1,10 @@
 """Events database tools. Source of truth: accounts/<acct>/knowledge/events.csv
 
   python3 -I engine/events.py render <knowledge_dir>              # regenerate events.md (readable view)
-  python3 -I engine/events.py window <knowledge_dir> [days=14]    # print events in the last N days + upcoming
+  python3 -I engine/events.py window <knowledge_dir> [days=14] [--brief] [--cats MKT,ECO]
+        # events in the last N days + upcoming. --brief: id, date, category, status, short title, storyline
+        # (no numbers/sources; ~70% smaller — use this, then `show` only the ids you need)
+  python3 -I engine/events.py show <knowledge_dir> <id> [<id> ...]   # full rows (numbers + sources) for chosen ids
   python3 -I engine/events.py add <knowledge_dir> <json-file>     # append rows (list of dicts), assigns ids
 
 Columns: id, date (YYYY-MM-DD, ranges as start), category (MKT ECO BIZ TECH POL NEWS ENV GLB),
@@ -62,11 +65,31 @@ def render(k):
     print(f"rendered events.md: {len(recent)} recent, {len(upcoming)} upcoming, {len(older)} archived")
 
 
-def window(k, days=14):
+def short(s, n):
+    s = re.sub(r"\s+", " ", s).strip()
+    return s if len(s) <= n else s[:n - 1].rstrip(" ,;.") + "…"
+
+
+def window(k, days=14, brief=False, cats=None):
     today = dt.date.today()
     for r in sorted(load(k), key=d):
-        if d(r) >= today - dt.timedelta(days=days):
+        if d(r) < today - dt.timedelta(days=days) or (cats and r["category"] not in cats):
+            continue
+        if brief:
+            upd = re.search(r"\(update of (E\d+)\)", r["event"])
+            title = short(re.sub(r"\s*\(update of E\d+\)", "", r["event"]), 90)
+            print(f"{r['id']} {r['date'][5:10]} {r['category']:4} {r['status'][:1]} {title}"
+                  + (f" ^{upd.group(1)}" if upd else "") + (f" #{r['storyline']}" if r["storyline"] else ""))
+        else:
             print(f"{r['id']} {r['date']} {r['category']:4} [{r['status']}] {r['event']} | {r['key_numbers']} | {r['storyline']}")
+
+
+def show(k, ids):
+    want = {i.upper() for i in ids}
+    for r in load(k):
+        if r["id"] in want:
+            print(f"{r['id']} {r['date']} {r['category']} [{r['status']}] {r['event']}\n  numbers: {r['key_numbers']}\n"
+                  f"  storyline: {r['storyline']}\n  sources: {r['sources']}")
 
 
 def add(k, path):
@@ -83,5 +106,15 @@ def add(k, path):
 
 if __name__ == "__main__":
     cmd, k = sys.argv[1], sys.argv[2]
-    {"render": lambda: render(k), "window": lambda: window(k, int(sys.argv[3]) if len(sys.argv) > 3 else 14),
-     "add": lambda: add(k, sys.argv[3])}[cmd]()
+    a = sys.argv[3:]
+    if cmd == "window":
+        cats = None
+        if "--cats" in a:
+            i = a.index("--cats"); cats = set(a[i + 1].upper().split(",")); del a[i:i + 2]
+        brief = "--brief" in a
+        a = [x for x in a if x != "--brief"]
+        window(k, int(a[0]) if a else 14, brief, cats)
+    elif cmd == "show":
+        show(k, a)
+    else:
+        {"render": lambda: render(k), "add": lambda: add(k, a[0])}[cmd]()
