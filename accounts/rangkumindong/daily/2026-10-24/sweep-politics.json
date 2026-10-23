@@ -1,0 +1,63 @@
+{
+  "area": "politics",
+  "run_date": "2026-10-24",
+  "checked": ["Section pages (detik, cnnindonesia, antaranews, tempo): not returned by any WebSearch, so not fetched", "Storyline search: definisi-korupsi (Luhut/KPK/MK)", "Storyline search: gibran-ijazah-mk (nothing new found)", "RUU Pemilu / Panja Komisi II (latest found 8 Oct, already known)", "KPK (North Sumatra road case already known as E0232)", "Kejagung, MK, DPR bills: RUU Kehutanan found", "UMP 2027 / labour rallies (no new item found)", "Istana / Prabowo / Wantimpres (inaugurated 2 Oct, out of window)"],
+  "events": [
+    {
+      "date": "2026-10-26",
+      "category": "POL",
+      "event": "The Constitutional Court (MK) holds a further hearing on a judicial review of the Elucidation of Article 603 KUHP (state-loss element), after KPK spokesperson Budi Prasetyo said on 22 Oct that state-loss calculation should not be limited to BPK.",
+      "key_numbers": "Hearing 26 Oct 2026 · Article 603 KUHP · Article 23E(1) UUD 1945 · MK Decision 31/PUU-X/2012 · petitioner retired Rear Adm. Leonardi (Perkara 206/PUU-XXIV/2026, per Hukumonline)",
+      "storyline": "definisi-korupsi",
+      "update_of": "",
+      "status": "upcoming",
+      "sources": [
+        {"label": "Hukumonline", "url": "https://www.hukumonline.com/berita/a/kpk--penghitungan-kerugian-keuangan-negara-tidak-hanya-dilakukan-bpk-lt6ad9dc829695a/"},
+        {"label": "RMOL", "url": "https://rmol.id/hukum/read/2026/10/22/725888/mk-harus-beri-makna-jelas-soal-pengaudit-kerugian-negara-selain-bpk"}
+      ],
+      "why_it_matters": "Who may declare 'kerugian negara' decides how corruption cases are proven, on top of the Luhut proposal to drop state loss from the definition.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-10-23",
+      "category": "POL",
+      "event": "Komisi IV DPR deputy chair Alex Indra Lukman says the Forestry Bill (RUU Kehutanan) can include prosecuting forest burning as 'terorisme ekologi', following Prabowo's call to study that classification.",
+      "key_numbers": "Revision of UU 41 (Forestry) finished at Komisi IV and harmonised at Baleg · next step: presidential letter (Surpres) · Prabowo instruction made 16 Sep 2026 limited meeting",
+      "storyline": "karhutla",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "Suara.com", "url": "https://www.suara.com/news/2026/10/23/185605/respons-instruksi-prabowo-dpr-buka-peluang-terorisme-ekologi-masuk-ruu-kehutanan"},
+        {"label": "Kompas.com (headline only)", "url": "https://nasional.kompas.com/read/2026/10/23/16135321/anggota-dpr-ide-prabowo-soal-terorisme-lingkungan-bisa-masuk-ruu-kehutanan"}
+      ],
+      "why_it_matters": "Haze-hit Indonesians may see harsher penalties for burners, but Walhi warns the label could criminalise small farmers.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 0, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-22",
+      "category": "POL",
+      "event": "Prosecutors demand 10 years' prison, a Rp500 million fine and dismissal from the military for Letjen TNI Widi Prasetijono, a former aide to Jokowi, in a Cilacap state-land sale (Caruy plantation) corruption trial at the Military High Court II Jakarta; this is a demand, not a verdict.",
+      "key_numbers": "Alleged state loss Rp237.09 billion · 716.2 hectares · restitution Rp21.05 billion · fine Rp500 juta · demand 10 years",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "Aktual.com", "url": "https://aktual.com/eks-ajudan-jokowi-dituntut-10-tahun-penjara-rugikan-negara-rp237-miliar/"}
+      ],
+      "why_it_matters": "A sitting-rank general tried over state-land sale, showing the state-loss element being used in a live case.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "",
+      "sensitivity": "high"
+    }
+  ],
+  "gaps": [
+    "No section page URL was returned by WebSearch, so detik, CNN Indonesia, Antara and Tempo front pages were not scanned; search results lag, so 23-24 Oct headlines are thin.",
+    "Nothing new found for Gibran ijazah, labour rallies (15-30 Oct) or RUU Pemilu beyond known events.",
+    "Kompas.com and Kompas.id articles blocked (robots); Kompas MK ruling ordering government, MA, BPK, KPK, Polri, Kejaksaan and BPKP to meet seen only as a headline, date and content unverified.",
+    "KPK summons Dicky Erlangga again on 26 Oct (North Sumatra road case, E0232): not logged separately."
+  ]
+}

@@ -2380,6 +2380,56 @@
 "upcoming": false
 },
 {
+"id": "E0255",
+"date": "2026-10-22",
+"category": "BIZ",
+"event": "Danantara CIO Pandu Sjahrir said Danantara has started buying shares through external investment partners during the MSCI sell-off and will keep buying while valuations stay attractive. (update of E0139)",
+"key_numbers": "Statement 22 Oct 2026 · no purchase amounts or stock names disclosed · partners chosen on track record, team quality and decision process",
+"storyline": "msci-reclassification",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0256",
+"date": "2026-10-22",
+"category": "MKT",
+"event": "About 336 regional and global foreign investors joined a Zoom session with OJK and BEI asking how they will respond to MSCI's possible downgrade; OJK promised stronger ownership transparency and tougher action on manipulation.",
+"key_numbers": "~336 investors · session on Monday 19 Oct · OJK's Hasan Fawzi spoke 22 Oct · no asset figures given",
+"storyline": "msci-reclassification",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0259",
+"date": "2026-10-22",
+"category": "POL",
+"event": "Prosecutors demand 10 years' prison, a Rp500 million fine and dismissal from the military for Letjen TNI Widi Prasetijono, a former aide to Jokowi, in a Cilacap state-land sale (Caruy plantation) corruption trial at the Military High Court II Jakarta; this is a demand, not a verdict.",
+"key_numbers": "Alleged state loss Rp237.09 billion · 716.2 hectares · restitution Rp21.05 billion · fine Rp500 juta · demand 10 years",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0263",
+"date": "2026-10-22",
+"category": "TECH",
+"event": "UMKM Minister Maman Abdurrahman said his ministry has until end-December 2026 to draft its derivative rule under Perpres 27/2026 on digital-platform transport and will weigh the fate of Gojek, Grab and Maxim without rushing. (update of E0144)",
+"key_numbers": "deadline end Dec 2026 · ~5 million ojol drivers registered, only ~1 million work regularly · 13-15 million UMKM merchants sell via the platforms · Kemenhub handles passenger fares, Komdigi handles goods-delivery fares, UMKM Ministry supervises partnership agreements",
+"storyline": "ojol-regulation",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0264",
+"date": "2026-10-22",
+"category": "TECH",
+"event": "Komdigi Deputy Minister Nezar Patria set out four follow-up agendas after Bali Tech Week 2026, including a national digital infrastructure map within 30 days and a review of telecom rules to allow new technologies such as LEO satellites. (update of E0142)",
+"key_numbers": "digital infrastructure map due within 30 days (fibre, submarine cables, satellites) · 4 agendas: infrastructure map, pilot projects with BUMN/corporates/UMKM, AI talent, regulation review · announced at Sovereign Tech Summit 2026, Denpasar, 22 Oct",
+"storyline": "startup-funding",
+"status": "partial",
+"upcoming": false
+},
+{
 "id": "E0229",
 "date": "2026-10-23",
 "category": "BIZ",
@@ -2410,12 +2460,222 @@
 "upcoming": false
 },
 {
+"id": "E0250",
+"date": "2026-10-23",
+"category": "MKT",
+"event": "IHSG closed up 0.95% on Friday 23 October and gained 4.90% over the week, recovering part of the MSCI-driven crash. (update of E0220)",
+"key_numbers": "Close 5,439.26 (+51.35 pts, +0.95%) on 23 Oct · week: 5,185.11 (16 Oct) to 5,439.26 = +4.90% · value Rp13.85 T · 401.84 juta lot · 506 up / 192 down / 265 flat · range 5,366.29-5,455.21",
+"storyline": "msci-reclassification",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0251",
+"date": "2026-10-23",
+"category": "MKT",
+"event": "OJK reported cumulative capital-market administrative fines of Rp2.23 trillion, calling the Rp1.5 trillion DSSA sanction the largest in its history; sanction letters were handed over on 21 Oct. (update of E0223)",
+"key_numbers": "Total fines Rp2.23 T as of 16 Oct · DSSA Rp1.5 T (trading) · BREN Rp500 M (IPO) · CUAN Rp100 M (IPO) · late-filing fines Rp293.78 M on 805 parties · 8 suspensions, 6 licence revocations · 122 open cases (1 Oct): 28 planning, 54 preliminary, 40 examination · party count conflicts: headline 116, body 166",
+"storyline": "msci-reclassification",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0252",
+"date": "2026-10-23",
+"category": "MKT",
+"event": "OJK chair Friderica Widyasari Dewi briefed President Prabowo in a cabinet session on MSCI's possible downgrade of Indonesia from Emerging to Standalone Market and the foreign selling that followed. (update of E0224)",
+"key_numbers": "Positive on 16 of 18 indicators vs other emerging markets · gaps: float requirement 15-25%, ownership disclosure ~1% vs >5% elsewhere, 39 investor types · foreign net sell Rp3.3 T over two days, Rp1 T the day before · domestic buybacks and retail drove the rebound",
+"storyline": "msci-reclassification",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0253",
+"date": "2026-10-23",
+"category": "MKT",
+"event": "BEI announced that stocks tagged High Shareholding Concentration (HSC) will be excluded from the IHSG calculation from 2 November 2026, a tag that already covers about 80 stocks including many conglomerate names. (update of E0051)",
+"key_numbers": "Effective 2 Nov 2026 · BEI Announcement Peng-00201/BEI.POP/10-2026 · ~80 HSC stocks · e.g. PGUN 99.95%, MPRO 99.99%, DCII 99.69%, SMAR 99.58%, DSSA 95.76%, BREN 97.31% HSC ratio · foreign investors still net-bought DSSA Rp45.88 M and CUAN Rp15.77 M in the morning session of 23 Oct",
+"storyline": "msci-reclassification",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0254",
+"date": "2026-10-23",
+"category": "ECO",
+"event": "Bank Indonesia said foreign capital has been leaving stocks, government bonds (SBN) and SRBI since MSCI's 16 Oct consultation paper, but it declined to give an amount and called the rupiah move 'manageable'. (update of E0222)",
+"key_numbers": "Rupiah Rp18,075/USD at 09:21 WIB 23 Oct (Bloomberg), prior close Rp18,060 · USD +8.29% vs rupiah year to date · foreign net sell Rp744.43 M in the morning session (buy Rp2.62 T vs sell Rp3.36 T) · BI plan: DNDF if investors hold off, spot intervention if they exit at once",
+"storyline": "rupiah",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0258",
+"date": "2026-10-23",
+"category": "POL",
+"event": "Komisi IV DPR deputy chair Alex Indra Lukman says the Forestry Bill (RUU Kehutanan) can include prosecuting forest burning as 'terorisme ekologi', following Prabowo's call to study that classification.",
+"key_numbers": "Revision of UU 41 (Forestry) finished at Komisi IV and harmonised at Baleg · next step: presidential letter (Surpres) · Prabowo instruction made 16 Sep 2026 limited meeting",
+"storyline": "karhutla",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0260",
+"date": "2026-10-23",
+"category": "TECH",
+"event": "Cybersecurity institute CISSReC reports 71 Indonesian .go.id government websites running vulnerable, end-of-support or hidden PHP versions exposed to the PHP2Shell remote-code-execution flaw, as Komdigi urges operators to update. (update of E0239)",
+"key_numbers": "597 .go.id sites checked 22 Oct; 529 responded, 68 did not · 11 unpatched PHP · 41 past end-of-support (PHP 5.4 to 8.1) · 19 hide their PHP version (incl. esdm.go.id, kemenperin.go.id, kemkes.go.id, setneg.go.id) · CVE-2026-109618 and CVE-2026-109619, both CVSS 9.2/10 · fixed in PHP 8.2.35, 8.3.36, 8.4.27, 8.5.12 (released 21 Oct) · ~70% of websites worldwide (~760 million) use PHP",
+"storyline": "",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0261",
+"date": "2026-10-23",
+"category": "TECH",
+"event": "Domain registry PANDI says it will work with BSSN to form a cyber incident response team (CSIRT) at each registrar after the PHP2Shell threat, while BSSN ran a readiness drill for government incident teams on 22 Oct. (update of E0239)",
+"key_numbers": "BSSN drill 22 Oct with 289 participants from government administration, health and economy sectors · PANDI patched its own systems · flaw allows unauthenticated remote code execution",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0265",
+"date": "2026-10-23",
+"category": "ENV",
+"event": "Prabowo allocates Rp240 billion to handle karhutla in West Kalimantan, per a CNN Indonesia headline. (update of E0021)",
+"key_numbers": "Rp240 billion · West Kalimantan · 23 Oct 2026",
+"storyline": "karhutla",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0266",
+"date": "2026-10-23",
+"category": "ENV",
+"event": "A forest fire on Gunung Sumbing has burned 779 hectares of forest and is not yet extinguished, per CNN Indonesia.",
+"key_numbers": "779 hectares · fire not yet out · 23 Oct 2026",
+"storyline": "karhutla",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0267",
+"date": "2026-10-23",
+"category": "NEWS",
+"event": "Kemenag prepares a distance-learning (PJJ) mechanism for pesantren on three islands affected by karhutla, per CNN Indonesia.",
+"key_numbers": "3 islands affected (names not confirmed) · 23 Oct 2026",
+"storyline": "karhutla",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0268",
+"date": "2026-10-23",
+"category": "POL",
+"event": "Haji and Umrah Minister Gus Irfan admits he appointed his own child as an expert staffer (tenaga ahli) at the Kemenhaj, per CNN Indonesia.",
+"key_numbers": "",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0269",
+"date": "2026-10-23",
+"category": "POL",
+"event": "KPK searched the house of Fadia Arafiq; her husband reportedly visited Jokowi the same day, per CNN Indonesia.",
+"key_numbers": "",
+"storyline": "corruption-cases",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0270",
+"date": "2026-10-23",
+"category": "POL",
+"event": "Hercules and Maruarar Sirait trade barbs over Tanah Abang land, per CNN Indonesia; follows the Rp800 million cash Hercules' lawyer handed to KPK. (update of E0209)",
+"key_numbers": "",
+"storyline": "corruption-cases",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0271",
+"date": "2026-10-23",
+"category": "NEWS",
+"event": "38 residents of Tidarsari, Magelang Selatan fell ill with food poisoning after eating siomai at a neighbourhood gathering; health office investigating.",
+"key_numbers": "38 people · symptoms mild to moderate · 1 or 3 still hospitalised (article inconsistent) · first report 20 Oct · samples sent to provincial lab",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0272",
+"date": "2026-10-23",
+"category": "GLB",
+"event": "A magnitude 7.0 earthquake struck Tibet, China at 22:33 local time on 22 Oct, per AFP via detik.",
+"key_numbers": "M7.0 · depth 10 km · ~390 km NE of Lhasa · China Level II emergency response · casualties unconfirmed (a related-link headline claims 16 dead, not verified)",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0273",
+"date": "2026-10-23",
+"category": "ENV",
+"event": "A DPRD member in Mempawah, West Kalimantan was named a suspect in a land-burning case and detained immediately, per detik. (update of E0021)",
+"key_numbers": "1 legislator detained · 23 Oct 2026",
+"storyline": "karhutla",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0274",
+"date": "2026-10-23",
+"category": "ENV",
+"event": "NTB provincial government threatens heavy sanctions over shrimp-pond waste dumped into the sea off Sumbawa, per detik.",
+"key_numbers": "",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0275",
+"date": "2026-10-23",
+"category": "NEWS",
+"event": "The search for Jessica, who drowned in Komodo National Park, was closed after 10 days without finding her, per detik.",
+"key_numbers": "10 days of search",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
 "id": "E0145",
 "date": "2026-10-25",
 "category": "TECH",
 "event": "Under Ministerial Regulation 3/2026, e-commerce platforms such as Shopee and TikTok Shop must cut admin/commission fees by at least 50% for verified micro and small domestic-product sellers from 25 Oct, applied through Sapa UMKM.",
 "key_numbers": "At least 50% fee cut · starts 25 Oct 2026 · verification up to 10 days · payout within 5 days · micro: capital up to Rp1 B or sales up to Rp2 B · small: sales up to Rp15 B · Kepmen UMKM 398/2026",
 "storyline": "",
+"status": "upcoming",
+"upcoming": true
+},
+{
+"id": "E0262",
+"date": "2026-10-25",
+"category": "BIZ",
+"event": "The Ministry of MSMEs (Menteri UMKM Maman Abdurrahman) announced a permanent discount of at least 50% on e-commerce platform admin fees for micro and small sellers of domestic products, starting 25 Oct 2026 and requiring registration in SAPA UMKM.",
+"key_numbers": "at least 50% off platform service fees · starts 25 Oct 2026, no end date · Kepmen signed 25 Sep 2026 · platforms pull SAPA UMKM data every Friday and have up to 10 days to verify · ready-to-eat food and domestic electronics excluded, fashion and handicrafts prioritised · announced 22 Oct",
+"storyline": "",
+"status": "upcoming",
+"upcoming": true
+},
+{
+"id": "E0257",
+"date": "2026-10-26",
+"category": "POL",
+"event": "The Constitutional Court (MK) holds a further hearing on a judicial review of the Elucidation of Article 603 KUHP (state-loss element), after KPK spokesperson Budi Prasetyo said on 22 Oct that state-loss calculation should not be limited to BPK.",
+"key_numbers": "Hearing 26 Oct 2026 · Article 603 KUHP · Article 23E(1) UUD 1945 · MK Decision 31/PUU-X/2012 · petitioner retired Rear Adm. Leonardi (Perkara 206/PUU-XXIV/2026, per Hukumonline)",
+"storyline": "definisi-korupsi",
 "status": "upcoming",
 "upcoming": true
 },
