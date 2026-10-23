@@ -49,27 +49,28 @@
  },
  {
   "lines": "a6",
-  "claim": "Wed 21 Oct close 5.328 (+0,94%); Thu 22 Oct close 5.387,91 (+59,54 pts, +1,12%; Kontan 5.387,90 +1,11%), third straight gain. RE-CHECK Fri 23 Oct close before voice: if Friday also closes up, change a6 to 'empat hari'; if down, add the Friday close.",
-  "numbers": "5.328; 5.387,91; +1,12%; 3 hari",
+  "claim": "Wed 21 Okt close 5.328,36 (+0,94%); Thu 22 Okt 5.387,91 (+1,12%); Fri 23 Okt 5.439,26 (+51,35 pts, +0,95%) → four straight gains (20–23 Okt). Spoken '5.439', 'empat hari naik berturut-turut'.",
+  "numbers": "5.328; 5.387,91; 5.439,26; +0,95%; 4 hari",
   "sensitivity": "normal",
-  "status": "verified (CNBC + Kontan read 22 Okt)",
+  "status": "verified (CNBC Indonesia + Investor Trust read 23 Okt ~17:20 WITA)",
   "sources": [
-   "https://finance.detik.com/bursa-dan-valas/d-8717606/ihsg-ditutup-di-level-5-328-naik-0-94",
+   "https://www.cnbcindonesia.com/market/20261023160756-17-778973/ihsg-ditutup-menguat-095-ke-level-5439",
+   "https://investortrust.id/market/120274/ihsg-kembali-melesat-ke-5-439-saham-ara-bertebaran-dipimpin-wmuu",
    "https://www.cnbcindonesia.com/market/20261022160501-17-778649/ihsg-ditutup-menguat-112-ke-level-5387",
-   "https://investasi.kontan.co.id/news/asing-net-sell-rp-149-triliun-saat-ihsg-menguat-111-cek-saham-yang-banyak-dilepas"
-  ],
-  "todo": "TODO-FRIDAY-CLOSE"
+   "https://www.cnbcindonesia.com/market/20261022064621-17-778410/ihsg-ditutup-menguat-094-asing-borong-10-saham-ini"
+  ]
  },
  {
   "lines": "a7",
-  "claim": "Foreign investors net sold Rp1,49 T on 22 Oct even as IHSG rose (BBCA Rp624,61 M, TLKM Rp332,23 M, BBRI Rp257,92 M). 'Belum balik' = still net sellers that day.",
-  "numbers": "Rp1,49 T",
+  "claim": "Foreign investors net sold Rp1,49 T on Thu 22 Okt (Kontan). Fri 23 Okt session I (morning): foreign net sell Rp744,43 M (Suara; Kompas 'Rp 744 miliar'). Full-day Friday foreign flow not yet reported at 17:20 WITA, so the script says 'Jumat siang'. 'Belum balik' kept because both data points are net sells.",
+  "numbers": "Rp1,49 T (22 Okt); Rp744 M (23 Okt, sesi I)",
   "sensitivity": "normal",
-  "status": "verified (Kontan read 22 Okt)",
+  "status": "verified (Kontan 22 Okt; Suara 23 Okt read; Kompas headline)",
   "sources": [
-   "https://investasi.kontan.co.id/news/asing-net-sell-rp-149-triliun-saat-ihsg-menguat-111-cek-saham-yang-banyak-dilepas"
-  ],
-  "todo": "TODO-FRIDAY-CLOSE"
+   "https://investasi.kontan.co.id/news/asing-net-sell-rp-149-triliun-saat-ihsg-menguat-111-cek-saham-yang-banyak-dilepas",
+   "https://www.suara.com/bisnis/2026/10/23/153904/ihsg-menguat-asing-masih-buru-saham-berstatus-hsc",
+   "https://money.kompas.com/read/2026/10/23/130528926/asing-jual-bersih-rp-744-miliar-saham-bbca-dan-bbri-terbanyak-dilepas"
+  ]
  },
  {
   "lines": "a8",
@@ -148,15 +149,14 @@
  },
  {
   "lines": "b8",
-  "claim": "Rupiah closed Rp18.022 per US$ on Wed 21 Oct (after the BI decision); opened 22 Oct at Rp18.033. Outlets differ for 22 Oct close (18.022 vs 18.060), so the script uses the 21 Oct close only.",
-  "numbers": "Rp18.022",
+  "claim": "Rupiah spot closed Rp18.080 per US$ on Fri 23 Okt (−20 pts, −0,11%, Bloomberg data), still above 18.000. (Wed 21 Okt 18.022; Thu 22 Okt 18.060.)",
+  "numbers": "Rp18.080; −0,11%",
   "sensitivity": "normal",
-  "status": "verified (Antara read 22 Okt, as previous close; Harian Haluan)",
+  "status": "verified (IDN Times read 23 Okt; Kontan headline, page fetch failed)",
   "sources": [
-   "https://www.antaranews.com/berita/5803793/rupiah-melemah-dipengaruhi-keputusan-bi-tahan-suku-bunga",
-   "https://www.harianhaluan.com/bisnis/1017797476/rupiah-ditutup-melemah-ke-rp18022-per-dolar-as-usai-bi-tahan-bi-rate-575-persen"
-  ],
-  "todo": "TODO-FRIDAY-CLOSE"
+   "https://www.idntimes.com/business/economy/rupiah-melemah-seharian-ditutup-ke-level-rp18-080-per-dolar-as-00-gshdq-csvxdt",
+   "https://investasi.kontan.co.id/news/rupiah-spot-ditutup-melemah-011-ke-rp-18080-per-dolar-as-pada-jumat-2310"
+  ]
  },
  {
   "lines": "b9, g4",

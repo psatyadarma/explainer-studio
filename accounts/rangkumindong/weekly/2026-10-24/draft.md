@@ -21,11 +21,11 @@ Ch 6 is at the short end (~57 s with pauses). If the render comes in under 60 s,
 
 ## Fact-check fixes applied (22 Okt night)
 All 5 FIXes from factcheck.md are in: a2 "terendah sejak Oktober 2020" (was "10 tahun", also in captions and pinned #1); b4 spoken "dari 4,75 jadi 5 persen"; c4 adds Prabowo's own hedge "angka yang ia minta dicek lagi"; d6 "dua anggota DPR"; e3/e4 rice aid ~33 juta keluarga, BSU ~13 juta pekerja, only the Nataru discount still undisclosed. Also: g3 (bank dates) dropped as unverified, and g5 now says "dijadwalkan berlanjut".
-**TODO-FRIDAY-CLOSE (after 16:15 WIB):** a6, a7, b8 in script.json (marked `todo`), the ch 1 chart's Friday point and the a7 stamp, the ch 2 rupiah card, the IHSG and rupiah bullets in post.json plus pinned #4 and #7, claims a6/a7/b8, the thumbnail number, and the Short-cut choice.
+**Friday close filled (23 Okt, 17:25 WITA):** IHSG closed 5.439,26 (+0,95%), the 4th straight gain (CNBC Indonesia, Investor Trust). Foreign investors net sold Rp744 M in session I (Suara, Kompas); the full-day figure wasn't out yet, hence "Jumat siang". Rupiah closed Rp18.080 (IDN Times, Kontan). Updated: a6, a7, b8, claims, post.json bullets, pinned #4 and #7, and the thumbnail.
 
 ## Before voice (Friday 23 Okt, re-check)
-1. **TODO-FRIDAY-CLOSE · IHSG Fri 23 Okt close** (a6): if it closes up again, use "Empat hari naik berturut-turut" and swap in Friday's close and Friday's foreign net sell (a7); if it closes down, keep Thursday's figures and add "Jumat …" with the close. Re-check MSCI for any interim note.
-2. **TODO-FRIDAY-CLOSE · Rupiah**: if Friday's JISDOR/close moves away from 18 ribu, update b8.
+1. ~~IHSG Fri 23 Okt close~~ done (see above). Previous note: (a6): if it closes up again, use "Empat hari naik berturut-turut" and swap in Friday's close and Friday's foreign net sell (a7); if it closes down, keep Thursday's figures and add "Jumat …" with the close. Re-check MSCI for any interim note.
+2. ~~Rupiah~~ done (Rp18.080). Previous note: if Friday's JISDOR/close moves away from 18 ribu, update b8.
 3. **Karhutla**: has the government named any companies? Has Singapore replied? Any court ruling? (c5, c9)
 4. **Definisi korupsi**: any direct statement from the President or Palace? (d8 says we haven't found one.)
 5. **Rp31,8 T**: any per-programme breakdown? If so, add one line to e4 (and to claims.json).
@@ -33,8 +33,8 @@ All 5 FIXes from factcheck.md are in: a2 "terendah sejak Oktober 2020" (was "10 
 
 ## Visual plan (for the chapter-builders)
 - **Ch 0:** big 2-line title card "RANGKUMIN SEMINGGU / 17–23 OKT", then 6 topic stickers popping in on i2–i3 (chart, bank, flame, gavel, wallet, rocket). Tagline sting.
-- **Ch 1:** reuse the 19 Okt IHSG line-chart look. Plot only verified closes: 9 Okt 6.093,76 · 16 Okt 5.185,10 · 19 Okt 4.996,60 · 20 Okt 5.278,89 · 21 Okt 5.328 · 22 Okt 5.387,91 (+ Fri 23 if confirmed). Brake sticker for ARB 15%→7%. "PART 2" badge. At a7, a red "asing: jual bersih Rp1,49 T" stamp over the rising line (the turn).
-- **Ch 2:** reuse the 20 Okt BI-rate staircase; two cards side by side, "BI-Rate 5,75% (tetap)" and "Deposit facility 4,75% → 5%" (4,75% is now spoken in b4). Bank-with-piggy-bank icon for b5. Rupiah ticker card "Rp18.022 · 21 Okt".
+- **Ch 1:** reuse the 19 Okt IHSG line-chart look. Plot only verified closes: 9 Okt 6.093,76 · 16 Okt 5.185,10 · 19 Okt 4.996,60 · 20 Okt 5.278,89 · 21 Okt 5.328 · 22 Okt 5.387,91 · 23 Okt 5.439,26. Brake sticker for ARB 15%→7%. "PART 2" badge. At a7, a red stamp over the rising line (the turn): "asing jual bersih · Kamis Rp1,49 T · Jumat sesi I Rp744 M".
+- **Ch 2:** reuse the 20 Okt BI-rate staircase; two cards side by side, "BI-Rate 5,75% (tetap)" and "Deposit facility 4,75% → 5%" (4,75% is now spoken in b4). Bank-with-piggy-bank icon for b5. Rupiah ticker card "Rp18.080 · 23 Okt".
 - **Ch 3:** map of Indonesia with Kalteng highlighted; a "32 perusahaan · sanksi administratif" counter; a "6 dibekukan" chip on Kalteng; a burned-area bar for 4.803 ha with no company name (name only if the user approves). ISPA counter, plane icons for 2.458. Calm palette, no SFX on c8. Quotes in neutral speech bubbles, each with a name tag and date.
 - **Ch 4:** reuse the 22 Okt cut-outs: **Luhut, Setyo Budiyanto, Yusril** (licences in post.json → photo_credits). **Nasir Djamil and Mardani Ali Sera get name tags only:** no licensed photo found yet. The cut-out/name-tag sizes must be equal on both sides (critics vs Yusril). Status card: "Prolegnas ✗ · Draf RUU ✗ · Pernyataan Istana ✗ (belum ditemukan)".
 - **Ch 5:** wallet sticker opening; three numbered cards (±Rp31,8 T with 4 icons, "beras ±33 juta keluarga · BSU ±13 juta pekerja" chips and a "diskon Nataru: rincian belum diumumkan" stamp · UMP "7,5–9,5% (usulan buruh)" vs "angka pemerintah: belum ada" · ojol helmet with 2–3 app phone icons). Generic app icons, no brand logos.
@@ -58,4 +58,4 @@ Exactly as in `post.json`: IG caption (8 hashtags incl. #rangkumindong), YouTube
 - Disclaimers: "Bukan ajakan jual/beli saham atau valas" · "belum ada perusahaan yang diputus bersalah" · Luhut's account of the President's approval.
 
 ## Short cut (Sat chapter_cut)
-The strongest standalone chapter for the Saturday Short is **ch 2 (BI jalan tengah)**: it pays off the 20 Okt question and has a clear "Tapi…" turn. Ch 1 is the alternative if Friday's IHSG close extends the streak.
+Use **ch 1 (IHSG bangkit?)** for the Saturday Short. It has a 4-day streak with a clear "Tapi… asing belum balik" turn, and it is PART 2 of our most-viewed storyline. Ch 2 (BI jalan tengah) is the backup.

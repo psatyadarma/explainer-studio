@@ -77,16 +77,14 @@
     {
      "id": "a6",
      "tag": "[upbeat]",
-     "text": "Rabu naik lagi. Kamis juga, ditutup di 5.387. Tiga hari naik berturut-turut.",
-     "say": "Rabu naik lagi. Kamis juga, ditutup di lima ribu tiga ratus delapan puluh tujuh. Tiga hari naik berturut-turut.",
-     "todo": "TODO-FRIDAY-CLOSE: update with Fri 23 Okt IHSG/foreign flow/rupiah close (factcheck.md 'Must update')"
+     "text": "Rabu naik lagi. Kamis juga. Jumat? Naik lagi, ditutup di 5.439. Empat hari naik berturut-turut.",
+     "say": "Rabu naik lagi. Kamis juga. Jumat? Naik lagi, ditutup di lima ribu empat ratus tiga puluh sembilan. Empat hari naik berturut-turut."
     },
     {
      "id": "a7",
      "tag": "[leaning in]",
-     "text": "Tapi… investor asing belum balik. Kamis saja, mereka jual bersih Rp1,49 triliun.",
-     "say": "Tapi... investor asing belum balik. Kamis saja, mereka jual bersih satu koma empat sembilan triliun rupiah.",
-     "todo": "TODO-FRIDAY-CLOSE: update with Fri 23 Okt IHSG/foreign flow/rupiah close (factcheck.md 'Must update')"
+     "text": "Tapi… investor asing belum balik. Kamis, mereka jual bersih Rp1,49 triliun. Jumat siang, masih jual bersih sekitar Rp744 miliar.",
+     "say": "Tapi... investor asing belum balik. Kamis, mereka jual bersih satu koma empat sembilan triliun rupiah. Jumat siang, masih jual bersih sekitar tujuh ratus empat puluh empat miliar."
     },
     {
      "id": "a8",
@@ -167,9 +165,8 @@
     {
      "id": "b8",
      "tag": "[serious]",
-     "text": "Tapi rupiah masih di atas 18 ribu. Rabu ditutup Rp18.022 per dolar.",
-     "say": "Tapi rupiah masih di atas delapan belas ribu. Rabu ditutup delapan belas ribu dua puluh dua rupiah per dolar.",
-     "todo": "TODO-FRIDAY-CLOSE: update with Fri 23 Okt IHSG/foreign flow/rupiah close (factcheck.md 'Must update')"
+     "text": "Tapi rupiah masih di atas 18 ribu. Jumat ditutup Rp18.080 per dolar.",
+     "say": "Tapi rupiah masih di atas delapan belas ribu. Jumat ditutup delapan belas ribu delapan puluh rupiah per dolar."
     },
     {
      "id": "b9",

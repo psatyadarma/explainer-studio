@@ -11,58 +11,292 @@
 <script src="../../build/week.js"></script>
 <script src="../../../../../../styles/sticker/weekly/weekly.js"></script>
 <style>
-  /* chapter-specific styles go here */
-  .stat { font-weight: 900; font-size: 190px; letter-spacing: -6px; color: var(--accent); }
-  .bar { position: absolute; bottom: 0; width: 150px; border-radius: 18px 18px 0 0; background: var(--slate); transform-origin: 50% 100%; }
-  .bar.hi { background: var(--accent); }
-  .lab { position: absolute; font-weight: 800; font-size: 38px; white-space: nowrap; transform: translateX(-50%); }
+  /* Bab 2 — BI & rupiah: poll -> BI-Rate held -> survey -> DF up -> corridor "jalan tengah" -> rupiah -> Fed */
+  .card { background: #fff; border-radius: 34px; padding: 34px 44px; text-align: center; }
+  .card h3 { font-weight: 900; font-size: 50px; letter-spacing: -1.5px; }
+  .card .k { font-weight: 800; font-size: 34px; color: var(--slate); letter-spacing: .5px; text-transform: uppercase; }
+  .big { font-weight: 900; font-size: 150px; letter-spacing: -6px; line-height: 1; color: var(--ink); white-space: nowrap; }
+  .big.acc { color: var(--accent); }
+  .mid { font-weight: 900; font-size: 96px; letter-spacing: -3px; line-height: 1; white-space: nowrap; }
+  .btn { display: inline-block; font-weight: 900; font-size: 58px; padding: 16px 40px 20px; border-radius: 22px; color: #fff; background: var(--slate); margin: 0 12px; }
+  .btn.acc { background: var(--accent); }
+  .inl { display: inline-block; }
+  .ppl { display: grid; grid-template-columns: repeat(7, 82px); gap: 18px 16px; }
+  .p { width: 82px; height: 112px; position: relative; }
+  .p::before { content: ''; position: absolute; left: 21px; top: 0; width: 40px; height: 40px; border-radius: 50%; background: inherit; }
+  .p::after { content: ''; position: absolute; left: 6px; top: 46px; width: 70px; height: 66px; border-radius: 34px 34px 12px 12px; background: inherit; }
+  .p { background: transparent; }
+  .p.slate { color: var(--slate); } .p.acc { color: var(--accent); }
+  .p.slate::before, .p.slate::after { background: var(--slate); }
+  .p.acc::before, .p.acc::after { background: var(--accent); }
+  .rail { position: absolute; left: 0; width: 900px; height: 0; border-top: 12px solid var(--slate); border-radius: 6px; }
+  .rail.ink { border-color: var(--ink); } .rail.acc { border-color: var(--accent); }
+  .rail.ghost { border-top: 8px dashed rgba(62,85,104,.45); }
+  .rlab { position: absolute; right: calc(100% + 26px); top: -36px; white-space: nowrap; font-size: 38px; padding: 10px 20px; }
+  .rval { position: absolute; left: calc(100% + 24px); top: -48px; font-weight: 900; font-size: 74px; letter-spacing: -2px; white-space: nowrap; }
+  .chip { font-weight: 900; font-size: 46px; padding: 12px 28px 16px; border-radius: 18px; background: #fff; white-space: nowrap; }
+  .chip .x { color: var(--accent); }
+  .coinR { width: 230px; height: 230px; border-radius: 50%; background: var(--hi); display: flex; align-items: center; justify-content: center; font-weight: 900; font-size: 96px; letter-spacing: -3px; color: var(--ink); border: 12px solid #E9B90A; }
+  .bi { width: 230px; height: 230px; border-radius: 50%; background: var(--ink); color: #fff; font-weight: 900; font-size: 110px; letter-spacing: -4px; display: flex; align-items: center; justify-content: center; }
+  .arr { font-weight: 900; font-size: 90px; color: var(--accent); }
+  .gauge { width: 720px; height: 70px; border-radius: 35px; background: var(--paper-2); position: relative; }
+  .gauge .band { position: absolute; top: 0; bottom: 0; border-radius: 35px; background: rgba(255,90,54,.28); border: 5px solid var(--accent); }
+  .needle { position: absolute; top: -40px; width: 14px; height: 150px; margin-left: -7px; border-radius: 7px; background: var(--ink); transform-origin: 50% 100%; }
+  .chart { width: 760px; height: 470px; background: #fff; border-radius: 34px; position: relative; }
+  .chart .ln { position: absolute; left: 40px; right: 40px; border-top: 8px dashed var(--slate); }
+  .chart .dot { position: absolute; width: 46px; height: 46px; margin: -23px 0 0 -23px; border-radius: 50%; box-shadow: 0 0 0 8px #fff; }
+  .chart .dl { position: absolute; transform: translateX(-50%); text-align: center; font-weight: 900; white-space: nowrap; }
+  .cal { width: 400px; height: 470px; background: #fff; border-radius: 34px; overflow: hidden; display: flex; flex-direction: column; align-items: center; }
+  .cal .top { width: 100%; background: var(--accent); color: #fff; font-weight: 900; font-size: 46px; letter-spacing: 1px; text-align: center; padding: 22px 0 18px; text-transform: uppercase; }
+  .cal .day { font-weight: 900; font-size: 118px; letter-spacing: -5px; line-height: 1; margin-top: 82px; color: var(--ink); white-space: nowrap; }
+  .cal .mon { font-weight: 900; font-size: 50px; color: var(--slate); margin-top: 18px; text-transform: uppercase; letter-spacing: 1px; }
 </style>
 </head>
 <body>
 <div id="stage">
   <div id="world">
-    <!-- ZONE A (x≈960): headline stat -->
-    <div id="statA" class="abs" style="left:960px; top:470px; text-align:center;">
-      <div class="stat" id="statNum">0</div>
-      <div class="tag light sticker" id="statLab" style="display:inline-block; margin-top:10px;">label</div>
+    <!-- ZONE 1 (x≈960): our Tuesday poll + Monday rupiah close -->
+    <div id="poll" class="abs card sticker" style="left:600px; top:470px; width:720px">
+      <div class="k" id="pK">Selasa kemarin</div>
+      <h3 style="margin:18px 0 34px">Kalau kamu BI?</h3>
+      <div style="display:flex; justify-content:center; gap:24px; white-space:nowrap"><span class="btn inl" id="pT" style="margin:0">TAHAN?</span><span class="btn acc inl" id="pN" style="margin:0">NAIK?</span></div>
     </div>
-    <!-- ZONE B (x≈2960): bar chart -->
-    <div id="chart" class="abs" style="left:2960px; top:520px; width:900px; height:520px;"></div>
+    <div id="rp1" class="abs card sticker" style="left:1380px; top:440px; width:640px">
+      <div class="k">rupiah per dolar AS</div>
+      <div class="big inl" id="rp1n" style="margin-top:14px">Rp18.046</div>
+    </div>
+    <div id="rp1d" class="abs tag sticker" style="left:1380px; top:680px">Senin, 19 Okt · ditutup</div>
+
+    <!-- ZONE 2 (x≈2900): BI-Rate held + survey -->
+    <div id="rate" class="abs card sticker" style="left:2500px; top:430px; width:600px">
+      <div class="k">BI-Rate</div>
+      <div class="big inl" id="rateN" style="margin-top:14px">5,75%</div>
+    </div>
+    <div id="held" class="abs stamp sticker" style="left:2560px; top:690px; font-size:84px; padding:18px 40px 24px">DITAHAN</div>
+    <div id="ppl" class="abs ppl" style="left:3340px; top:430px"></div>
+    <div id="sv1" class="abs tag accent sticker" style="left:3340px; top:220px; font-size:52px">8 dari 14 ekonom</div>
+    <div id="sv2" class="abs tag light sticker" style="left:3340px; top:650px">menebak ▲ naik</div>
+
+    <!-- ZONE 3 (x≈4840): deposit facility up + what it is -->
+    <div id="df" class="abs card sticker" style="left:4330px; top:450px; width:640px">
+      <div class="k">Deposit facility</div>
+      <div style="margin-top:20px; display:flex; align-items:center; justify-content:center; gap:22px">
+        <span class="mid inl" id="df1" style="color:var(--slate)">4,75%</span>
+        <span class="arr inl" id="dfA" style="font-size:72px">→</span>
+        <span class="mid inl" id="df2" style="color:var(--accent); font-size:120px">5%</span>
+      </div>
+    </div>
+    <div id="dfUp" class="abs tag accent sticker" style="left:4330px; top:700px">▲ naik</div>
+    <svg id="bank" class="abs sticker-svg" style="left:4930px; top:390px" width="300" height="250" viewBox="0 0 300 250">
+      <path d="M150 8 L290 70 H10z" fill="#3E5568"/>
+      <rect x="18" y="70" width="264" height="22" fill="#1B2430"/>
+      <g fill="#fff"><rect x="40" y="98" width="30" height="104"/><rect x="100" y="98" width="30" height="104"/><rect x="170" y="98" width="30" height="104"/><rect x="230" y="98" width="30" height="104"/></g>
+      <rect x="8" y="202" width="284" height="34" rx="6" fill="#1B2430"/>
+      <text x="150" y="60" text-anchor="middle" font-family="Inter Display, Inter, sans-serif" font-weight="900" font-size="30" fill="#fff">BANK</text>
+    </svg>
+    <div id="bankT" class="abs tag light sticker" style="left:4930px; top:610px">bank</div>
+    <div id="money" class="abs" style="left:5150px; top:400px">
+      <svg class="sticker-svg" width="150" height="110" viewBox="0 0 150 110"><rect x="4" y="10" width="142" height="90" rx="14" fill="#3E9A6A"/><circle cx="75" cy="55" r="24" fill="#fff" opacity=".85"/><text x="75" y="66" text-anchor="middle" font-family="Inter, sans-serif" font-weight="900" font-size="30" fill="#3E9A6A">Rp</text></svg>
+    </div>
+    <div id="simpan" class="abs tag sticker" style="left:5250px; top:250px">simpan dana →</div>
+    <div id="bi1" class="abs bi sticker" style="left:5560px; top:410px">BI</div>
+    <div id="coin" class="abs coinR sticker" style="left:5250px; top:660px; width:150px; height:150px; font-size:56px; border-width:9px">%</div>
+    <div id="bunga" class="abs tag accent sticker" style="left:5520px; top:690px">← bunga</div>
+
+    <!-- ZONE 4 (x≈6780): the corridor (proportional: 0,75 pt = 170 px) -->
+    <div id="corr" class="abs" style="left:6700px; top:500px; width:900px; height:0">
+      <div class="rail" id="rLF" style="top:-170px"><span class="rlab tag light sticker">Lending facility</span><span class="rval" style="color:var(--slate)">6,5%</span><span class="tag sticker" id="rLFt" style="position:absolute; left:340px; top:-82px; font-size:34px; padding:8px 18px">tetap</span></div>
+      <div class="rail ink" id="rBI" style="top:0"><span class="rlab tag sticker">BI-Rate</span><span class="rval">5,75%</span><span class="tag sticker" id="rBIt" style="position:absolute; left:340px; top:-82px; font-size:34px; padding:8px 18px">tetap</span></div>
+      <div class="rail ghost" id="rGh" style="top:227px"><span class="rval" style="color:rgba(62,85,104,.6); font-size:50px; top:-34px">4,75%</span></div>
+      <div class="rail acc" id="rDF" style="top:170px"><span class="rlab tag accent sticker">Deposit facility</span><span class="rval" style="color:var(--accent)">5%</span></div>
+    </div>
+        <div id="x1" class="abs chip sticker" style="left:6520px; top:170px">bukan tahan <span class="x">✗</span></div>
+    <div id="x2" class="abs chip sticker" style="left:7020px; top:170px">bukan naik <span class="x">✗</span></div>
+    <div id="mid" class="abs stamp sticker" style="left:6700px; top:840px; font-size:72px; padding:16px 36px 22px">JALAN TENGAH</div>
+
+    <!-- ZONE 5 (x≈8720): why (rupiah, global) + what it means for you -->
+    <svg id="globe" class="abs sticker-svg" style="left:8180px; top:430px" width="340" height="340" viewBox="0 0 340 340">
+      <circle cx="170" cy="170" r="160" fill="#3E5568"/>
+      <g fill="none" stroke="#fff" stroke-width="8" opacity=".55"><ellipse cx="170" cy="170" rx="70" ry="160"/><path d="M10 170h320M30 95h280M30 245h280"/></g>
+      <path d="M95 90c30-20 70-10 80 15s-25 35-45 45-10 45-35 40-40-50-0-100z M210 170c25-10 60 5 60 35s-30 55-55 45-25-70-5-80z" fill="#FFD23F" opacity=".9"/>
+    </svg>
+    <div id="q1" class="abs tag accent sticker" style="left:8010px; top:250px; font-size:64px; padding:4px 26px 10px">?</div>
+    <div id="q2" class="abs tag accent sticker" style="left:8370px; top:600px; font-size:64px; padding:4px 26px 10px">?</div>
+    <div id="globT" class="abs tag light sticker" style="left:8180px; top:720px">ketidakpastian global</div>
+    <svg id="shield" class="abs sticker-svg" style="left:8600px; top:470px" width="230" height="270" viewBox="0 0 230 270">
+      <path d="M115 6 L222 44 V130 C222 196 172 240 115 264 C58 240 8 196 8 130 V44z" fill="#FF5A36"/>
+      <text x="115" y="160" text-anchor="middle" font-family="Inter Display, Inter, sans-serif" font-weight="900" font-size="80" fill="#fff">Rp</text>
+    </svg>
+    <div id="shT" class="abs tag sticker" style="left:8600px; top:270px">menjaga rupiah</div>
+    <div id="loan" class="abs card sticker" style="left:9280px; top:440px; width:560px; text-align:left">
+      <div class="k">buat kamu</div>
+      <h3 style="margin-top:12px">Suku bunga acuan</h3>
+      <div class="chip" id="loan1" style="display:inline-block; background:var(--paper-2); margin-top:16px; font-size:42px">nggak naik</div>
+      <h3 style="margin-top:28px">Patokan bunga kredit</h3>
+    </div>
+    <div id="same" class="abs stamp sticker" style="left:9400px; top:740px; font-size:66px; padding:14px 34px 20px">belum berubah</div>
+
+    <!-- ZONE 6 (x≈10660): inflation inside target + rupiah still above 18 ribu -->
+    <div id="inf" class="abs card sticker" style="left:10240px; top:450px; width:820px; padding:40px 50px 52px">
+      <div class="k">Inflasi September</div>
+      <div class="big inl" id="infN" style="margin:12px 0 56px">3,28%</div>
+      <div class="gauge" id="gauge"><div class="band" id="band" style="left:216px; width:288px"></div><div class="needle" id="needle" style="left:472px"></div></div>
+      <div class="tag accent inl" id="tgt" style="margin-top:34px; font-size:38px">masih dalam target BI ✓</div>
+    </div>
+    <div id="chart" class="abs chart sticker" style="left:11170px; top:470px">
+      <div class="ln" id="l18" style="top:330px"></div>
+      <div class="dl tag light" id="l18t" style="left:110px; top:350px; font-size:32px; padding:6px 14px">18 ribu</div>
+      <div class="dot" id="d1" style="left:230px; top:220px; background:var(--slate)"></div>
+      <div class="dl" id="d1t" style="left:230px; top:90px; font-size:36px; color:var(--slate)">Senin<br>Rp18.046</div>
+      <div class="dot" id="d2" style="left:560px; top:140px; background:var(--accent)"></div>
+      <div class="dl" id="d2t" style="left:560px; top:250px; font-size:52px; color:var(--accent)">Jumat<br>Rp18.080</div>
+      <div class="dl tag" id="above" style="left:390px; top:400px; font-size:30px; padding:6px 16px">▲ masih di atas 18 ribu</div>
+    </div>
+    <div id="rpK" class="abs tag light sticker" style="left:11170px; top:180px">rupiah per dolar AS</div>
+
+    <!-- ZONE 7 (x≈12600): next test, the Fed 27–28 Oct -->
+    <div id="cal" class="abs cal sticker" style="left:12200px; top:520px">
+      <div class="top">Oktober</div><div class="day" id="calD">27–28</div><div class="mon">rapat The Fed</div>
+    </div>
+    <svg id="fed" class="abs sticker-svg" style="left:12780px; top:420px" width="360" height="290" viewBox="0 0 380 300">
+      <path d="M190 10 L370 90 H10z" fill="#3E5568"/>
+      <rect x="20" y="90" width="340" height="26" fill="#1B2430"/>
+      <g fill="#fff"><rect x="44" y="124" width="34" height="130"/><rect x="114" y="124" width="34" height="130"/><rect x="184" y="124" width="34" height="130"/><rect x="254" y="124" width="34" height="130"/><rect x="314" y="124" width="34" height="130" opacity="0"/></g>
+      <rect x="10" y="254" width="360" height="36" rx="6" fill="#1B2430"/>
+      <text x="190" y="78" text-anchor="middle" font-family="Inter Display, Inter, sans-serif" font-weight="900" font-size="34" fill="#fff">FED</text>
+    </svg>
+    <div id="fedT" class="abs tag light sticker" style="left:12780px; top:640px">bank sentral Amerika</div>
+    <div id="test" class="abs tag accent sticker" style="left:12600px; top:200px; font-size:52px">ujian berikutnya</div>
+    <div id="coinF" class="abs" style="left:13250px; top:450px; text-align:center">
+      <div class="arr" id="aUp">▲</div><div class="coinR sticker">Rp</div><div class="arr" id="aDn">▼</div>
+    </div>
   </div>
   <div id="card"><div class="kicker" id="cKick"></div><div class="title" id="cTitle"></div><div class="sub" id="cSub"></div></div>
-  <div class="lower" id="lower1">Sumber<small>keterangan</small></div>
+  <div class="lower" id="lw1">Kontan<small>penutupan rupiah, Senin</small></div>
+  <div class="lower" id="lw2">Bank Indonesia<small>Rapat Dewan Gubernur, Rabu</small></div>
+  <div class="lower" id="lw3">Bisnis<small>survei BIG Consensus</small></div>
+  <div class="lower" id="lw4">Bank Indonesia<small>alasan keputusan</small></div>
+  <div class="lower" id="lw5">BPS<small>inflasi tahunan September</small></div>
+  <div class="lower" id="lw6">Kontan · IDN Times<small>penutupan rupiah, Jumat</small></div>
+  <div class="lower" id="lw7">The Fed<small>jadwal rapat (federalreserve.gov)</small></div>
   <div id="brand"><div class="dot"></div><b>Rangkumin Dong</b></div>
   <div id="subs"></div>
   <div id="progress"></div>
 </div>
 <script>
-// ---- chapter data (the chapter-builder replaces this block; every number must be in the script and verified) ----
+// ---- chapter data (every number is spoken and verified: factcheck #9, #10, #11, #13, #15, Friday close, #17) ----
 window.CHAPTER = Number(location.pathname.split('/').slice(-2)[0]);
-const DATA = { stat: 0, statLabel: '', bars: [] };          // e.g. bars: [{label:'2024', v: 12}, ...]
+const FALLBACK = { kicker: 'BAB 2', title: 'BI & rupiah', dates: '17–23 Okt 2026' };
+// Inflation gauge: axis 0–5 % over 720 px; BI target band 1,5–3,5 % (drawn, not labelled); needle at 3,28 %.
+// Rupiah chart: only the two spoken closes (Mon 18.046, Fri 18.080) vs the spoken 18 ribu line; y: 17.990→330 px, 18.090→130 px.
 // -----------------------------------------------------------------------------------------------
 const $ = (id) => document.getElementById(id);
 const T = window.TIMING; window.DURATION = T.duration;
-const ch = (window.WEEK?.chapters || []).find((c) => c.n === window.CHAPTER) || {};
-$('cKick').textContent = ch.kicker || ''; $('cTitle').textContent = ch.title || ''; $('cSub').textContent = window.WEEK?.dates || '';
-$('statLab').textContent = DATA.statLabel;
-const chart = $('chart'), max = Math.max(1, ...DATA.bars.map((b) => b.v));
-const bars = DATA.bars.map((b, i) => {
-  const x = 90 + i * (720 / Math.max(1, DATA.bars.length - 1 || 1));
-  const e = document.createElement('div'); e.className = 'bar' + (i === DATA.bars.length - 1 ? ' hi' : '');
-  Object.assign(e.style, { left: x - 75 + 'px', height: (b.v / max * 420) + 'px' }); chart.appendChild(e);
-  const l = document.createElement('div'); l.className = 'lab'; l.textContent = b.label; Object.assign(l.style, { left: x + 'px', top: '540px' }); chart.appendChild(l);
-  return e;
+const ch = (window.WEEK?.chapters || []).find((c) => c.n === window.CHAPTER) || FALLBACK;
+$('cKick').textContent = ch.kicker || ''; $('cTitle').textContent = ch.title || ''; $('cSub').textContent = window.WEEK?.dates || FALLBACK.dates;
+{ const y = (v) => 360 - (v - 18000) * 2.5;   // 2,5 px per rupiah above the 18 ribu line
+  $('l18').style.top = y(18000) + 'px'; $('l18t').style.top = (y(18000) + 22) + 'px'; $('d1').style.top = y(18046) + 'px'; $('d2').style.top = y(18080) + 'px';
+  $('d1t').style.top = (y(18046) - 110) + 'px'; $('d2t').style.top = (y(18080) - 150) + 'px'; }
+{ const gx = (v) => v / 5 * 720; $('band').style.left = gx(1.5) + 'px'; $('band').style.width = (gx(3.5) - gx(1.5)) + 'px'; $('needle').style.left = gx(3.28) + 'px'; }
+const ppl = $('ppl'); for (let i = 0; i < 14; i++) { const p = document.createElement('div'); p.className = 'p ' + (i < 8 ? 'acc' : 'slate'); ppl.appendChild(p); }
+const W = K.word;
+K.end = (id) => K.line(id).end;
+// Subtitle pages: split long lines at punctuation so subtitles stay on one row (≤ ~48 chars) and clear the visuals.
+K.pages = (lines, max = 48) => lines.flatMap((l) => {
+  const len = (ws) => ws.map((x) => x.w).join(' ').length;
+  const segs = []; let cur = [];
+  l.words.forEach((w, i) => {
+    cur.push(w);
+    if (/[.,:;!?]$/.test(w.w) && len(cur) >= 12 && i < l.words.length - 1) { segs.push(cur); cur = []; }
+  });
+  if (cur.length) segs.push(cur);
+  const out = [];
+  segs.forEach((sg) => {
+    const n = Math.ceil(len(sg) / max), target = len(sg) / n; let piece = [];
+    sg.forEach((w) => { if (piece.length && len(piece.concat(w)) > target + 2) { out.push(piece); piece = []; } piece.push(w); });
+    out.push(piece);
+  });
+  return out.map((ws, k) => ({ id: l.id + '.' + k, start: ws[0].start, end: ws[ws.length - 1].end, words: ws }));
 });
-const L = T.lines, tB = L[Math.min(2, L.length - 1)].start;   // when to move to zone B (pick a line id in real chapters)
+const SUBT = { ...T, lines: K.pages(T.lines) };
+
+const cam = [
+  { t: 0, x: 960, y: 540, z: 1 },
+  { t: K.at('b2') - 0.35, x: 2900, y: 540, z: 1 },
+  { t: K.at('b4') - 0.3, x: 4840, y: 540, z: 1 },
+  { t: W('b5', 'lending') - 0.1, x: 6780, y: 540, z: 1 },
+  { t: K.at('b6') - 0.35, x: 8720, y: 540, z: 1 },
+  { t: K.at('b7b') - 0.35, x: 10660, y: 540, z: 1 },
+  { t: K.at('b9') - 0.35, x: 12600, y: 540, z: 1 },
+];
+// [id, time in, rotation]  (outer .abs elements)
+const pops = [
+  ['poll', 2.15, -2], ['rp1', W('b1b', 'rupiah'), 2], ['rp1d', W('b1b', 'senin'), -2],
+  ['rate', K.at('b2'), -2], ['held', W('b2', 'ditahan'), -7],
+  ['ppl', W('b3', '8'), 0], ['sv1', W('b3', '14'), -2], ['sv2', W('b3', 'menebak'), 2],
+  ['df', K.at('b4'), 2], ['dfUp', W('b4', '5'), -4],
+  ['bank', K.at('b5'), 0], ['bankT', K.at('b5') + 0.15, -2], ['coin', W('b5', 'bunga'), 0], ['bunga', W('b5', 'bunga') + 0.2, 3],
+  ['simpan', W('b5', 'menyimpan'), -2], ['money', W('b5', 'menyimpan'), 0], ['bi1', W('b5', 'dananya'), 0],
+  ['corr', W('b5', 'lending') + 0.2, 0], ['x1', W('b5b', 'tahan'), -3], ['x2', W('b5b', 'naik'), 3], ['mid', W('b5b', 'jalan'), -5],
+  ['globe', K.at('b6'), 0], ['shield', W('b6', 'menjaga'), 0], ['shT', W('b6', 'rupiah'), -2],
+  ['q1', W('b6', 'ketidakpastian'), -10], ['q2', W('b6', 'ketidakpastian') + 0.2, 8], ['globT', W('b6', 'global'), 2],
+  ['loan', K.at('b7'), -1], ['same', W('b7', 'belum'), -6],
+  ['inf', K.at('b7b'), -1], ['chart', K.at('b8'), 1], ['rpK', K.at('b8') + 0.2, -2],
+  ['test', K.at('b9'), -2], ['fed', W('b9', 'bank'), 0], ['fedT', W('b9', 'sentral'), 2], ['cal', W('b9', 'rapat'), 3], ['coinF', W('b9', 'rapat') + 0.5, 0],
+];
+// inner parts: plain spring scale, no centering translate
+const inner = [
+  ['pK', 2.3], ['pT', W('b1', 'tahan')], ['pN', W('b1', 'naik')], ['rp1n', W('b1b', 'rp18046')],
+  ['rateN', W('b2', '575')],
+  ['df1', W('b4', '475')], ['dfA', W('b4', 'jadi')], ['df2', W('b4', '5')],
+  ['rBI', W('b5', 'lending') + 0.3], ['rDF', W('b5', 'lending') + 0.45], ['rGh', W('b5', 'lending') + 1.6], ['rLF', W('b5', '65')],
+  ['rLFt', W('b5', 'tetap')], ['rBIt', W('b5b', 'tahan')],
+  ['loan1', W('b7', 'nggak')],
+  ['infN', W('b7b', '328')], ['gauge', W('b7b', '328')], ['tgt', W('b7b', 'target')],
+  ['l18', W('b8', '18')], ['l18t', W('b8', '18')], ['d1', W('b8', 'rupiah')], ['d1t', W('b8', 'rupiah')],
+  ['above', W('b8', 'atas')], ['d2', W('b8', 'rp18080')], ['d2t', W('b8', 'rp18080')],
+  ['calD', W('b9', '2728')],
+];
+const tMove = W('b5', 'menyimpan');
+const pplT = [W('b3', '8'), W('b3', '14')];
 
 function seek(t) {
-  K.cam16($('world'), [{ t: 0, x: 960, y: 540, z: 1 }, { t: tB, x: 2960, y: 540, z: 1 }], t);
+  K.cam16($('world'), cam, t);
   K.titleCard($('card'), t, 2.0);
-  const s = K.spring(t - 2.1); $('statNum').textContent = Math.round(DATA.stat * K.clamp(K.prog(t, 2.1, 1.0))).toLocaleString('id-ID');
-  K.pop($('statA'), t, 2.1);
-  bars.forEach((e, i) => { e.style.transform = `scaleY(${K.spring(t - tB - 0.3 - i * 0.12)})`; });
-  K.lower($('lower1'), t, 3.0, Math.max(3.1, T.duration - 1.0));
-  K.subtitles($('subs'), t);
+  pops.forEach(([id, tin, rot = 0]) => K.pop($(id), t, tin, Infinity, rot));
+  inner.forEach(([id, tin]) => {
+    const e = $(id), s = K.spring(t - tin);
+    e.style.opacity = t >= tin ? K.clamp((t - tin) / 0.08) : 0;
+    const rail = id === 'l18' || e.classList.contains('rail');
+    const base = rail ? `translateX(${(1 - s) * -70}px)` : `scale(${0.4 + 0.6 * s})`;
+    e.style.transform = (e.classList.contains('dl') ? 'translateX(-50%) ' : '') + base;
+  });
+  // survey: 8 orange people first (on "8"), remaining 6 on "14"
+  [...ppl.children].forEach((p, i) => {
+    const ti = i < 8 ? pplT[0] + i * 0.05 : pplT[1] + (i - 8) * 0.05;
+    p.style.transform = `scale(${K.spring(t - ti, 300, 20)})`;
+  });
+  // money slides from the bank to BI, then the interest coin floats back
+  { const k = K.easeInOut(K.prog(t, tMove, 1.0)); $('money').style.transform = `translate(-50%,-50%) translateX(${k * 230}px) scale(${0.4 + 0.6 * K.spring(t - tMove)})`; }
+  // DF rail rises from 4,75 (ghost) to 5
+  { const k = K.easeInOut(K.prog(t, W('b5', 'lending') + 0.9, 0.8)); $('rDF').style.top = (227 - 57 * k) + 'px'; }
+  // "jalan tengah": BI-Rate rail pulses
+  { const k = K.clamp((t - W('b5b', 'jalan')) / 0.3); $('rBI').style.borderTopWidth = (12 + 6 * k) + 'px'; }
+  // inflation needle swings in
+  { const s = K.spring(t - W('b7b', '328') - 0.1, 160, 14); $('needle').style.transform = `rotate(${(1 - s) * -70}deg)`; }
+  // globe ? marks bob; Fed coin wobbles
+  { const b = Math.sin(t * 3); $('q1').style.marginTop = (b * 8) + 'px'; $('q2').style.marginTop = (-b * 8) + 'px'; }
+  { const ct = t - W('b9', 'rapat') - 0.5;
+    $('aUp').style.transform = `translateY(${-10 * Math.max(0, Math.sin(ct * 5))}px)`;
+    $('aDn').style.transform = `translateY(${10 * Math.max(0, -Math.sin(ct * 5))}px)`; }
+  K.lower($('lw1'), t, W('b1b', 'rp18046'), K.at('b2') - 0.4);
+  K.lower($('lw2'), t, W('b2', 'bi'), K.at('b3') - 0.1);
+  K.lower($('lw3'), t, W('b3', 'bisnis'), K.at('b4') - 0.35);
+  K.lower($('lw4'), t, W('b6', 'keputusan'), K.at('b7') - 0.1);
+  K.lower($('lw5'), t, W('b7b', 'inflasi'), K.at('b8') - 0.35);
+  K.lower($('lw6'), t, W('b8', 'jumat'), K.at('b9') - 0.35);
+  K.lower($('lw7'), t, W('b9', 'fed'), T.duration + 1);
+  window.TIMING = SUBT; K.subtitles($('subs'), t); window.TIMING = T;
   K.weekly(t);
 }
 window.seek = seek;

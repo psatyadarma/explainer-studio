@@ -101,3 +101,16 @@ Nothing for Friday exists yet (checked Thu night). Re-run these lines after the 
 - Ch 3 handling follows the storyline rules: everything is attributed, there is "belum diputus bersalah", and no company name is spoken. Keep the c1 (NEA's 10) and c5 (Prabowo's "perusahaan asing") groups visually apart. No arrow or overlay linking them.
 - Blocked or unreadable this run (alternatives were used): viva.co.id (a5), detikFinance d-8717606 (a6), Kontan 19 Okt close article, msci.com PDF (permission timeouts); money.kompas.com and nasional.kompas.com (robots); Bisnis BIG Consensus 20 Okt and mediaindonesia (client error); IDX Channel bank schedule (not found).
 - Length: the fixes add about 25 spoken words (about 10 s). Ch 5 and Ch 3 stay under about 70 s.
+
+## Friday close check (23 Okt 2026, lines a6, a7, b8)
+VERDICT: PASS (0 issues)
+
+| Claim | Verdict | What the source says | Source |
+|---|---|---|---|
+| IHSG close 5.439 (5.439,26), +51,35 / +0,95% (a6, post bullet, pinned #4, thumbnail) | OK | CNBC: 5.439,26, +51,35 pts, +0,95%. Investor Trust: +51,35 (0,95%) to 5.439. | cnbcindonesia.com/market/20261023160756-17-778973/...; investortrust.id/market/120274/... |
+| "Empat hari naik berturut-turut" (20-23 Okt) | OK | Investor Trust: Friday continues Thursday's gain (+59,55 / 1,12% to 5.387). Tue/Wed gains from earlier checks (5.278,89, 5.328). Neither article states the count itself; it is derived. | investortrust.id; earlier claims a6 sources |
+| Thu foreign net sell Rp1,49 T (a7) | OK | Investor Trust: net sell about Rp1,49 T on Thu (BBCA, TLKM, BBRI). | investortrust.id |
+| Fri session-I foreign net sell ~Rp744 M (a7, post, pinned #4) | OK | Suara: net sell Rp744,43 miliar in Session I, Fri 23 Okt (Stockbit data). Kompas page blocked by robots; headline only (not opened by me). "Jumat siang" and "sesi I" wording is correct. Note: Suara published 15:39 WIB, so the figure may be a snapshot, and it is not a full-day figure; script and caption say so. | suara.com/bisnis/2026/10/23/153904/... |
+| Rupiah close Rp18.080, -0,11% (b8, post, pinned #7) | OK | IDN Times: Rp18.080/US$, weaker 20 pts / 0,11%, Fri 23 Okt. Still above 18.000. | idntimes.com/business/economy/rupiah-melemah-seharian-... |
+
+Consistency: script.json a6/a7/b8 text and say match chapters/01 and chapters/02 copies. post.json caption, YouTube and TikTok bullets agree with the script. Thumbnail 5.439 and "4 hari" match. "Bukan ajakan jual/beli saham atau valas" is present. Only one weak point: the 4-day streak and the Kompas figure rest on derived or secondary sources, which is acceptable.

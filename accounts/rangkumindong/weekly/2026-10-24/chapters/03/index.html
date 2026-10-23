@@ -139,6 +139,24 @@ const CH_FALLBACK = { n: 3, kicker: 'BAB 3', title: 'Karhutla' }, DATES_FALLBACK
 // -----------------------------------------------------------------------------------------------
 const $ = (id) => document.getElementById(id);
 const T = window.TIMING; window.DURATION = T.duration;
+// Subtitle pages: split long lines at punctuation so subtitles stay on one row (≤ ~48 chars) and clear the visuals.
+K.pages = (lines, max = 48) => lines.flatMap((l) => {
+  const len = (ws) => ws.map((x) => x.w).join(' ').length;
+  const segs = []; let cur = [];
+  l.words.forEach((w, i) => {   // 1) break at punctuation once a page has some substance
+    cur.push(w);
+    if (/[.,:;!?]$/.test(w.w) && len(cur) >= 12 && i < l.words.length - 1) { segs.push(cur); cur = []; }
+  });
+  if (cur.length) segs.push(cur);
+  const out = [];
+  segs.forEach((sg) => {        // 2) split a too-long segment into balanced pieces
+    const n = Math.ceil(len(sg) / max), target = len(sg) / n; let piece = [];
+    sg.forEach((w) => { if (piece.length && len(piece.concat(w)) > target + 2) { out.push(piece); piece = []; } piece.push(w); });
+    out.push(piece);
+  });
+  return out.map((ws, k) => ({ id: l.id + '.' + k, start: ws[0].start, end: ws[ws.length - 1].end, words: ws }));
+});
+const SUBT = { ...T, lines: K.pages(T.lines) };
 const at = K.at, W = K.word;
 const ch = (window.WEEK?.chapters || []).find((c) => c.n === window.CHAPTER) || CH_FALLBACK;
 $('cKick0').textContent = ch.kicker || ''; $('cTitle').textContent = ch.title || ''; $('cSub').textContent = window.WEEK?.dates || DATES_FALLBACK;
@@ -278,7 +296,7 @@ function seek(t) {
   K.lower($('lowE'), t, W('c6', 'raja'), B.eKt - 0.2);
   K.lower($('lowF'), t, B.fDate, B.fProv - 0.35);
   K.lower($('lowG'), t, B.gD1, B.gAir - 0.35);
-  K.subtitles($('subs'), t);
+  window.TIMING = SUBT; K.subtitles($('subs'), t); window.TIMING = T;
   K.weekly(t);
 }
 window.seek = seek;

@@ -11,58 +11,247 @@
 <script src="../../build/week.js"></script>
 <script src="../../../../../../styles/sticker/weekly/weekly.js"></script>
 <style>
-  /* chapter-specific styles go here */
-  .stat { font-weight: 900; font-size: 190px; letter-spacing: -6px; color: var(--accent); }
-  .bar { position: absolute; bottom: 0; width: 150px; border-radius: 18px 18px 0 0; background: var(--slate); transform-origin: 50% 100%; }
-  .bar.hi { background: var(--accent); }
-  .lab { position: absolute; font-weight: 800; font-size: 38px; white-space: nowrap; transform: translateX(-50%); }
+  /* Bab 1 — IHSG bangkit? fall chart → the brake → BEI/Danantara → the 4-day rebound → foreign selling → MSCI */
+  .panel { background: #fff; border-radius: 34px; }
+  .chartbox { width: 1240px; height: 560px; }
+  .chartbox svg { position: absolute; left: 0; top: 0; overflow: visible; }
+  .num { font-weight: 900; font-size: 120px; letter-spacing: -4px; line-height: 1; white-space: nowrap; }
+  .num.acc { color: var(--accent); }
+  .day { position: absolute; transform: translateX(-50%); font-weight: 900; font-size: 40px; color: var(--slate); white-space: nowrap; }
+  .lvl { position: absolute; font-weight: 900; font-size: 36px; color: var(--slate); white-space: nowrap; transform: translateY(-50%); }
+  .dropbar { position: absolute; top: 0; width: 200px; border-radius: 0 0 22px 22px; transform-origin: 50% 0; }
+  .dlab { position: absolute; transform: translateX(-50%); font-weight: 900; font-size: 92px; letter-spacing: -3px; white-space: nowrap; }
+  .tile { position: absolute; width: 96px; height: 96px; border-radius: 20px; background: var(--slate); }
+  .tile.hot { background: var(--accent); }
+  .box { width: 600px; height: 470px; border: 12px solid var(--ink); border-radius: 40px; background: rgba(255,255,255,.6); }
+  .box .lab { position: absolute; left: 50%; top: -44px; transform: translateX(-50%); }
+  .flow { position: absolute; left: 0; height: 110px; border-radius: 0 26px 26px 0; background: var(--accent); transform-origin: 0 50%; }
+  .flow-lab { position: absolute; font-weight: 900; font-size: 46px; white-space: nowrap; }
+  .flow-amt { position: absolute; font-weight: 900; font-size: 64px; letter-spacing: -2px; white-space: nowrap; color: var(--ink); transform: translateY(-50%); }
+  .cal { width: 400px; height: 470px; background: #fff; border-radius: 34px; overflow: hidden; display: flex; flex-direction: column; align-items: center; }
+  .cal .top { width: 100%; background: var(--accent); color: #fff; font-weight: 900; font-size: 46px; letter-spacing: 1px; text-align: center; padding: 22px 0 18px; text-transform: uppercase; }
+  .cal .d { font-weight: 900; font-size: 190px; letter-spacing: -8px; line-height: 1; margin-top: 46px; }
+  .cal .y { font-weight: 900; font-size: 64px; color: var(--slate); margin-top: 18px; letter-spacing: -1px; }
+  .doc { width: 460px; padding: 40px 44px; }
+  .doc h3 { font-weight: 900; font-size: 84px; letter-spacing: -3px; line-height: 1; }
+  .doc .ln { height: 22px; border-radius: 11px; background: var(--paper-2); margin-top: 22px; }
 </style>
 </head>
 <body>
 <div id="stage">
   <div id="world">
-    <!-- ZONE A (x≈960): headline stat -->
-    <div id="statA" class="abs" style="left:960px; top:470px; text-align:center;">
-      <div class="stat" id="statNum">0</div>
-      <div class="tag light sticker" id="statLab" style="display:inline-block; margin-top:10px;">label</div>
+    <!-- ZONE A (x≈960): the fall to 4.996 -->
+    <div id="chA" class="abs chartbox" style="left:960px; top:500px"><svg id="svgA" width="1240" height="560"></svg></div>
+    <div id="tIhsgA" class="abs tag sticker" style="left:520px; top:200px">IHSG</div>
+    <div id="dayA" class="abs tag light sticker" style="left:1360px; top:545px">Senin, 19 Okt</div>
+    <div id="numA" class="abs" style="left:1360px; top:770px"><div class="num acc" id="numAv">4.996</div></div>
+    <div id="lowA" class="abs tag accent sticker" style="left:1250px; top:250px">terendah sejak Oktober 2020</div>
+
+    <!-- ZONE B (x≈2960): the brake, daily drop limit 15% → 7% -->
+    <svg id="brake" class="abs sticker-svg" style="left:2330px; top:420px" width="300" height="380" viewBox="0 0 300 380">
+      <rect x="125" y="20" width="50" height="230" rx="18" fill="#3E5568"/>
+      <rect x="40" y="230" width="220" height="130" rx="30" fill="#1B2430"/>
+      <g fill="#3E5568"><rect x="70" y="262" width="160" height="14" rx="7"/><rect x="70" y="290" width="160" height="14" rx="7"/><rect x="70" y="318" width="160" height="14" rx="7"/></g>
+    </svg>
+    <div id="remT" class="abs tag accent sticker" style="left:2330px; top:690px">rem</div>
+    <div id="limT" class="abs tag sticker" style="left:3060px; top:200px">batas turun harian saham</div>
+    <div id="lim" class="abs" style="left:3060px; top:300px; width:720px; height:0">
+      <div style="position:absolute; left:0; right:0; top:-6px; height:12px; border-radius:6px; background:var(--ink)"></div>
+      <div id="bar15" class="dropbar" style="left:90px; height:375px; background:var(--slate)"></div>
+      <div id="bar7" class="dropbar" style="left:430px; height:175px; background:var(--accent)"></div>
+      <div id="l15" class="dlab" style="left:190px; top:395px">−15%</div>
+      <div id="l7" class="dlab" style="left:530px; top:195px; color:var(--accent)">−7%</div>
+      <div id="x15" style="position:absolute; left:60px; width:260px; top:440px; height:10px; border-radius:5px; background:var(--accent); transform-origin:0 50%"></div>
     </div>
-    <!-- ZONE B (x≈2960): bar chart -->
-    <div id="chart" class="abs" style="left:2960px; top:520px; width:900px; height:520px;"></div>
+    <div id="desT" class="abs tag light sticker" style="left:3600px; top:650px">sampai akhir Desember</div>
+
+    <!-- ZONE C (x≈4960): BEI out-of-index rule, Danantara ready to buy -->
+    <div id="beiT" class="abs tag sticker" style="left:4760px; top:200px">BEI</div>
+    <div id="box" class="abs box" style="left:4760px; top:520px"><div class="tag light sticker lab">hitungan IHSG</div><div id="tiles"></div></div>
+    <div id="hscT" class="abs tag accent sticker" style="left:4880px; top:830px">kepemilikan terlalu terpusat</div>
+    <svg id="cart" class="abs sticker-svg" style="left:5500px; top:430px" width="360" height="300" viewBox="0 0 360 300">
+      <path d="M20 40 h60 l40 170 h190 l30 -130 H100" fill="none" stroke="#1B2430" stroke-width="22" stroke-linejoin="round" stroke-linecap="round"/>
+      <rect x="120" y="90" width="80" height="100" rx="12" fill="#FF5A36"/><rect x="214" y="110" width="70" height="80" rx="12" fill="#3E5568"/>
+      <circle cx="140" cy="260" r="24" fill="#1B2430"/><circle cx="280" cy="260" r="24" fill="#1B2430"/>
+    </svg>
+    <div id="danT" class="abs tag sticker" style="left:5500px; top:230px">Danantara</div>
+    <div id="bumnT" class="abs tag accent sticker" style="left:5500px; top:660px">siap beli saham BUMN</div>
+
+    <!-- ZONE D (x≈6960): Mon–Fri rebound -->
+    <div id="chD" class="abs chartbox" style="left:7040px; top:470px"><svg id="svgD" width="1240" height="560"></svg></div>
+    <div id="pctD" class="abs stamp sticker" style="left:6640px; top:240px">+5,65%</div>
+    <div id="sehariT" class="abs tag light sticker" style="left:7150px; top:268px">dalam sehari</div>
+    <div id="numD" class="abs" style="left:7560px; top:190px"><div class="num acc" id="numDv">5.439</div></div>
+    <div id="streakT" class="abs tag sticker" style="left:7380px; top:545px">4 hari naik berturut-turut</div>
+
+    <!-- ZONE E (x≈8960): foreign investors still net selling -->
+    <svg id="globe" class="abs sticker-svg" style="left:8420px; top:330px" width="260" height="260" viewBox="0 0 260 260">
+      <circle cx="130" cy="130" r="115" fill="#3E5568"/>
+      <path d="M60 70 q40 -10 60 20 q10 30 -20 40 q-30 10 -20 50 q-30 -20 -40 -60z M150 50 q40 0 60 40 q-30 0 -40 30 q-20 -40 -20 -70z M170 160 q30 0 40 20 q-20 40 -50 40 q10 -30 10 -60z" fill="#FFD23F"/>
+    </svg>
+    <div id="asingT" class="abs tag sticker" style="left:8420px; top:560px">investor asing</div>
+    <div id="balikT" class="abs tag light sticker" style="left:8420px; top:690px">belum balik</div>
+    <div id="jbT" class="abs tag accent sticker" style="left:9180px; top:200px">jual bersih</div>
+    <div id="flows" class="abs" style="left:9180px; top:500px; width:820px; height:0">
+      <div id="fKam" class="flow-lab" style="left:0; top:-210px">Kamis</div>
+      <div id="bKam" class="flow" style="top:-150px; width:640px"></div>
+      <div id="aKam" class="flow-amt" style="left:660px; top:-95px">Rp1,49 T</div>
+      <div id="fJum" class="flow-lab" style="left:0; top:20px">Jumat siang</div>
+      <div id="bJum" class="flow" style="top:80px; width:320px"></div>
+      <div id="aJum" class="flow-amt" style="left:340px; top:135px">± Rp744 M</div>
+    </div>
+
+    <!-- ZONE F (x≈10960): MSCI proposal, decision by 30 June 2027 -->
+    <div id="msci" class="abs panel doc sticker" style="left:10620px; top:450px">
+      <h3>MSCI</h3><div class="ln" style="width:300px"></div><div class="ln" style="width:360px"></div><div class="ln" style="width:240px"></div>
+    </div>
+    <div id="usulT" class="abs tag sticker" style="left:10620px; top:220px">usulan</div>
+    <div id="jalanT" class="abs tag accent sticker" style="left:10620px; top:680px">masih jalan</div>
+    <div id="cal" class="abs cal sticker" style="left:11300px; top:470px"><div class="top">Juni</div><div class="d">30</div><div class="y">2027</div></div>
+    <div id="lambatT" class="abs tag light sticker" style="left:11300px; top:165px">paling lambat</div>
+    <div id="discT" class="abs tag light sticker" style="left:10960px; top:810px; font-size:48px">bukan ajakan jual atau beli saham</div>
   </div>
   <div id="card"><div class="kicker" id="cKick"></div><div class="title" id="cTitle"></div><div class="sub" id="cSub"></div></div>
-  <div class="lower" id="lower1">Sumber<small>keterangan</small></div>
+  <div class="lower" id="lw1">Bisnis · Kontan<small>penutupan IHSG 19 Oktober</small></div>
+  <div class="lower" id="lw2">Bursa Efek Indonesia<small>Kep-00157/BEI/10-2026</small></div>
+  <div class="lower" id="lw3">BEI · Danantara<small>pernyataan 19 Oktober</small></div>
+  <div class="lower" id="lw4">CNBC Indonesia · Investor Trust<small>penutupan IHSG 20–23 Oktober</small></div>
+  <div class="lower" id="lw5">Investor Trust · Suara (data Stockbit)<small>Jumat: sesi I</small></div>
+  <div class="lower" id="lw6">MSCI, via Kontan<small>jadwal konsultasi</small></div>
   <div id="brand"><div class="dot"></div><b>Rangkumin Dong</b></div>
   <div id="subs"></div>
   <div id="progress"></div>
 </div>
 <script>
-// ---- chapter data (the chapter-builder replaces this block; every number must be in the script and verified) ----
+// ---- chapter data (factcheck #1–#7, #43 and the Friday update rows) ----
+// Chart points are dated IHSG closes (factcheck #43, chart data only). On-screen labels show only spoken numbers.
 window.CHAPTER = Number(location.pathname.split('/').slice(-2)[0]);
-const DATA = { stat: 0, statLabel: '', bars: [] };          // e.g. bars: [{label:'2024', v: 12}, ...]
+const FALLBACK = { kicker: 'BAB 1', title: 'IHSG bangkit?', dates: '17–23 Okt 2026' };
+const FALL = [ { d: 0, v: 6093.76 }, { d: 5, v: 5185.10 }, { d: 6, v: 4996.60 } ];   // 9 Okt, 16 Okt, 19 Okt (trading-day index)
+const WEEKC = [ { lab: 'Sen', v: 4996.60 }, { lab: 'Sel', v: 5278.89 }, { lab: 'Rab', v: 5328.36 }, { lab: 'Kam', v: 5387.91 }, { lab: 'Jum', v: 5439.26 } ];
 // -----------------------------------------------------------------------------------------------
 const $ = (id) => document.getElementById(id);
 const T = window.TIMING; window.DURATION = T.duration;
-const ch = (window.WEEK?.chapters || []).find((c) => c.n === window.CHAPTER) || {};
-$('cKick').textContent = ch.kicker || ''; $('cTitle').textContent = ch.title || ''; $('cSub').textContent = window.WEEK?.dates || '';
-$('statLab').textContent = DATA.statLabel;
-const chart = $('chart'), max = Math.max(1, ...DATA.bars.map((b) => b.v));
-const bars = DATA.bars.map((b, i) => {
-  const x = 90 + i * (720 / Math.max(1, DATA.bars.length - 1 || 1));
-  const e = document.createElement('div'); e.className = 'bar' + (i === DATA.bars.length - 1 ? ' hi' : '');
-  Object.assign(e.style, { left: x - 75 + 'px', height: (b.v / max * 420) + 'px' }); chart.appendChild(e);
-  const l = document.createElement('div'); l.className = 'lab'; l.textContent = b.label; Object.assign(l.style, { left: x + 'px', top: '540px' }); chart.appendChild(l);
-  return e;
+const ch = (window.WEEK?.chapters || []).find((c) => c.n === window.CHAPTER) || FALLBACK;
+$('cKick').textContent = ch.kicker || ''; $('cTitle').textContent = ch.title || ''; $('cSub').textContent = window.WEEK?.dates || FALLBACK.dates;
+const W = K.word, E = (id) => K.line(id).end;
+const NS = 'http://www.w3.org/2000/svg';
+const svgEl = (p, tag, attrs) => { const e = document.createElementNS(NS, tag); for (const k in attrs) e.setAttribute(k, attrs[k]); p.appendChild(e); return e; };
+
+// Subtitle pages: split long lines at punctuation so subtitles stay on one row (≤ ~48 chars) — same as chapter 07.
+K.pages = (lines, max = 48) => lines.flatMap((l) => {
+  const len = (ws) => ws.map((x) => x.w).join(' ').length;
+  const segs = []; let cur = [];
+  l.words.forEach((w, i) => {
+    cur.push(w);
+    if (/[.,:;!?…]$/.test(w.w) && len(cur) >= 12 && i < l.words.length - 1) { segs.push(cur); cur = []; }
+  });
+  if (cur.length) segs.push(cur);
+  const out = [];
+  segs.forEach((sg) => {
+    const n = Math.ceil(len(sg) / max), target = len(sg) / n; let piece = [];
+    sg.forEach((w) => { if (piece.length && len(piece.concat(w)) > target + 2) { out.push(piece); piece = []; } piece.push(w); });
+    out.push(piece);
+  });
+  return out.map((ws, k) => ({ id: l.id + '.' + k, start: ws[0].start, end: ws[ws.length - 1].end, words: ws }));
 });
-const L = T.lines, tB = L[Math.min(2, L.length - 1)].start;   // when to move to zone B (pick a line id in real chapters)
+const SUBT = { ...T, lines: K.pages(T.lines) };
+
+// ---- Zone A chart: the fall ----
+const sA = $('svgA');
+const yA = (v) => 60 + (6200 - v) / (6200 - 4800) * 440, xA = (d) => 120 + d * 150;
+const lvlA = svgEl(sA, 'line', { x1: 40, x2: 1200, y1: yA(5000), y2: yA(5000), stroke: '#1B2430', 'stroke-width': 6, 'stroke-dasharray': '18 14', opacity: 0 });
+const lvlAlab = document.createElement('div'); lvlAlab.className = 'lvl'; lvlAlab.textContent = '5.000'; lvlAlab.style.left = '1215px'; lvlAlab.style.top = yA(5000) + 'px'; $('chA').appendChild(lvlAlab);
+const ptsA = FALL.map((p) => [xA(p.d), yA(p.v)]);
+const pathA = svgEl(sA, 'polyline', { points: ptsA.map((p) => p.join(',')).join(' '), fill: 'none', stroke: '#3E5568', 'stroke-width': 14, 'stroke-linejoin': 'round', 'stroke-linecap': 'round' });
+const lenA = ptsA.reduce((s, p, i) => i ? s + Math.hypot(p[0] - ptsA[i - 1][0], p[1] - ptsA[i - 1][1]) : 0, 0);
+pathA.setAttribute('stroke-dasharray', lenA);
+const dotA = svgEl(sA, 'circle', { cx: ptsA[2][0], cy: ptsA[2][1], r: 22, fill: '#FF5A36', stroke: '#fff', 'stroke-width': 8 });
+
+// ---- Zone D chart: Mon–Fri ----
+const sD = $('svgD');
+const yD = (v) => 80 + (5520 - v) / (5520 - 4920) * 400, xD = (i) => 130 + i * 245;
+const lvlD = svgEl(sD, 'line', { x1: 40, x2: 1200, y1: yD(5000), y2: yD(5000), stroke: '#1B2430', 'stroke-width': 6, 'stroke-dasharray': '18 14', opacity: .35 });
+const lvlDlab = document.createElement('div'); lvlDlab.className = 'lvl'; lvlDlab.textContent = '5.000'; lvlDlab.style.left = '1215px'; lvlDlab.style.top = yD(5000) + 'px'; lvlDlab.style.opacity = .6; $('chD').appendChild(lvlDlab);
+const ptsD = WEEKC.map((p, i) => [xD(i), yD(p.v)]);
+const segD = ptsD.slice(1).map((p, i) => svgEl(sD, 'line', { x1: ptsD[i][0], y1: ptsD[i][1], x2: ptsD[i][0], y2: ptsD[i][1], stroke: '#FF5A36', 'stroke-width': 14, 'stroke-linecap': 'round' }));
+const dotD = ptsD.map((p, i) => svgEl(sD, 'circle', { cx: p[0], cy: p[1], r: i === 0 || i === 4 ? 22 : 16, fill: i === 0 ? '#3E5568' : '#FF5A36', stroke: '#fff', 'stroke-width': 7 }));
+const dayD = WEEKC.map((p, i) => { const e = document.createElement('div'); e.className = 'day'; e.textContent = p.lab; e.style.left = xD(i) + 'px'; e.style.top = '520px'; $('chD').appendChild(e); return e; });
+const monLab = document.createElement('div'); monLab.className = 'flow-lab'; monLab.textContent = '4.996'; Object.assign(monLab.style, { left: (xD(0) - 70) + 'px', top: (yD(4996.6) + 30) + 'px', color: 'var(--slate)' }); $('chD').appendChild(monLab);
+const arrD = ptsD.slice(1).map((p, i) => { const e = document.createElement('div'); e.textContent = '▲'; Object.assign(e.style, { position: 'absolute', left: ((ptsD[i][0] + p[0]) / 2 - 22) + 'px', top: ((ptsD[i][1] + p[1]) / 2 + 30) + 'px', fontSize: '44px', fontWeight: 900, color: '#FF5A36' }); $('chD').appendChild(e); return e; });
+
+// ---- Zone C tiles: a 4×3 grid of stocks inside the IHSG box; one leaves ----
+const tiles = []; for (let r = 0; r < 3; r++) for (let c = 0; c < 4; c++) {
+  const e = document.createElement('div'); e.className = 'tile'; e.style.left = (60 + c * 120) + 'px'; e.style.top = (60 + r * 120) + 'px'; $('tiles').appendChild(e); tiles.push(e);
+}
+const hot = tiles[6];
+
+// ---- timings ----
+const tSen = W('a5', 'selasa'), tNaikTue = W('a5', 'naik'), tRab = W('a6', 'rabu'), tKam = W('a6', 'kamis'), tJum = W('a6', 'naik', 1);
+const cam = [
+  { t: 0, x: 960, y: 540, z: 1 },
+  { t: K.at('a3') - 0.4, x: 2960, y: 540, z: 1 },
+  { t: K.at('a4') - 0.35, x: 4960, y: 540, z: 1 },
+  { t: K.at('a5') - 0.35, x: 6960, y: 540, z: 1 },
+  { t: K.at('a7') - 0.3, x: 8960, y: 540, z: 1 },
+  { t: K.at('a8') - 0.3, x: 10960, y: 540, z: 1 },
+];
+// [id, time in, rotation]
+const pops = [
+  ['tIhsgA', 2.1, -3], ['dayA', W('a2', '19'), 3], ['numA', W('a2', '4996'), 0], ['lowA', W('a2', 'terendah'), -2],
+  ['brake', W('a3', 'rem'), 0], ['remT', W('a3', 'rem') + 0.1, -4], ['limT', W('a3', 'batas'), 2], ['desT', W('a3', 'desember'), -2],
+  ['beiT', K.at('a4'), -3], ['box', K.at('a4') + 0.15, 0], ['hscT', W('a4', 'kepemilikannya'), 2],
+  ['danT', W('a4', 'danantara'), 3], ['cart', W('a4', 'danantara') + 0.15, 0], ['bumnT', W('a4', 'siap'), -2],
+  ['chD', K.at('a5') - 0.2, 0], ['pctD', W('a5', '565'), -6], ['sehariT', W('a5', 'dalam'), 3], ['numD', W('a6', '5439'), 0], ['streakT', W('a6', 'empat'), -2],
+  ['globe', W('a7', 'investor'), 0], ['asingT', W('a7', 'asing'), -2], ['balikT', W('a7', 'belum'), 3], ['jbT', W('a7', 'jual'), -3],
+  ['usulT', W('a8', 'usulan'), -3], ['msci', W('a8', 'msci'), -2], ['jalanT', W('a8', 'masih'), 3],
+  ['lambatT', W('a8', 'paling'), 2], ['cal', W('a8', '30'), 3], ['discT', K.at('a9'), 0],
+];
 
 function seek(t) {
-  K.cam16($('world'), [{ t: 0, x: 960, y: 540, z: 1 }, { t: tB, x: 2960, y: 540, z: 1 }], t);
+  K.cam16($('world'), cam, t);
   K.titleCard($('card'), t, 2.0);
-  const s = K.spring(t - 2.1); $('statNum').textContent = Math.round(DATA.stat * K.clamp(K.prog(t, 2.1, 1.0))).toLocaleString('id-ID');
-  K.pop($('statA'), t, 2.1);
-  bars.forEach((e, i) => { e.style.transform = `scaleY(${K.spring(t - tB - 0.3 - i * 0.12)})`; });
-  K.lower($('lower1'), t, 3.0, Math.max(3.1, T.duration - 1.0));
-  K.subtitles($('subs'), t);
+  K.pop($('chA'), t, 2.0);
+  pops.forEach(([id, tin, rot = 0]) => K.pop($(id), t, tin, Infinity, rot));
+  // Zone A: line falls 2.2→4.0, 5.000 level appears as "5.000" is spoken, 19 Okt dot lands on "19"
+  pathA.setAttribute('stroke-dashoffset', lenA * (1 - K.easeInOut(K.prog(t, 2.2, W('a1', '5000') - 2.2))));
+  const tLvl = W('a1', '5000'); lvlA.setAttribute('opacity', K.clamp((t - tLvl) / 0.2)); lvlAlab.style.opacity = K.clamp((t - tLvl) / 0.2);
+  dotA.setAttribute('r', 22 * K.spring(t - tLvl));
+  { const k = K.easeOut(K.prog(t, W('a2', '4996'), 1.2)); $('numAv').textContent = Math.round(K.lerp(6093, 4996, k)).toLocaleString('id-ID'); }
+  // Zone B: two drop bars; 15% bar shrinks to 7% emphasis
+  { const t15 = W('a3', '15'), t7 = W('a3', '7');
+    $('bar15').style.transform = `scaleY(${K.spring(t - t15)})`; $('l15').style.opacity = K.clamp((t - t15) / 0.1);
+    $('bar15').style.opacity = t >= t7 ? 0.45 : 1; $('l15').style.color = t >= t7 ? 'rgba(27,36,48,.45)' : 'var(--ink)';
+    $('x15').style.transform = `scaleX(${K.easeOut(K.prog(t, t7, 0.3))})`;
+    $('bar7').style.transform = `scaleY(${K.spring(t - t7)})`; $('l7').style.opacity = K.clamp((t - t7 - 0.1) / 0.1); }
+  // Zone C: hot tile glows then leaves the IHSG box
+  { const tHot = W('a4', 'kepemilikannya'), tOut = W('a4', 'dari');
+    tiles.forEach((e, i) => { e.style.transform = `scale(${K.spring(t - K.at('a4') - 0.25 - i * 0.03)})`; });
+    hot.className = 'tile' + (t >= tHot ? ' hot' : '');
+    const o = K.easeInOut(K.prog(t, tOut, 0.8));
+    hot.style.transform = `translate(${o * -440}px, ${o * -40}px) scale(${K.spring(t - K.at('a4') - 0.43) * (1 + 0.15 * Math.sin(Math.max(0, t - tHot) * 9) * (1 - o))}) rotate(${o * 14}deg)`;
+    hot.style.boxShadow = t >= tHot ? '0 0 0 7px #fff' : 'none'; }
+  // Zone D: segments draw on the spoken day
+  { const ts = [tNaikTue, tRab, tKam, tJum];
+    dotD[0].setAttribute('r', 22 * K.spring(t - K.at('a5') + 0.1)); monLab.style.opacity = K.clamp((t - K.at('a5')) / 0.2);
+    dayD.forEach((e, i) => { e.style.opacity = i === 0 ? K.clamp((t - K.at('a5')) / 0.2) : K.clamp((t - ts[i - 1]) / 0.2); });
+    segD.forEach((s, i) => { const k = K.easeOut(K.prog(t, ts[i], 0.5));
+      s.setAttribute('x2', K.lerp(ptsD[i][0], ptsD[i + 1][0], k)); s.setAttribute('y2', K.lerp(ptsD[i][1], ptsD[i + 1][1], k));
+      dotD[i + 1].setAttribute('r', (i === 3 ? 22 : 16) * K.spring(t - ts[i] - 0.45)); dotD[i + 1].style.opacity = t >= ts[i] + 0.45 ? 1 : 0; });
+    const tS = W('a6', 'empat');
+    arrD.forEach((e, i) => { const s = K.spring(t - tS - i * 0.15); e.style.opacity = t >= tS + i * 0.15 ? 1 : 0; e.style.transform = `scale(${s})`; });
+    const k = K.easeOut(K.prog(t, W('a6', '5439'), 1.0)); $('numDv').textContent = Math.round(K.lerp(4996, 5439, k)).toLocaleString('id-ID'); }
+  // Zone E: outflow bars grow to the left-to-right proportional amounts (1,49 T vs 0,744 T)
+  { const tK = W('a7', 'kamis'), tKa = W('a7', 'rp149'), tJ = W('a7', 'jumat'), tJa = W('a7', 'rp744');
+    $('fKam').style.opacity = K.clamp((t - tK) / 0.15); $('bKam').style.transform = `scaleX(${K.easeOut(K.prog(t, tKa - 0.3, 0.7))})`; $('aKam').style.opacity = K.clamp((t - tKa) / 0.15);
+    $('fJum').style.opacity = K.clamp((t - tJ) / 0.15); $('bJum').style.transform = `scaleX(${K.easeOut(K.prog(t, tJa - 0.3, 0.7))})`; $('aJum').style.opacity = K.clamp((t - tJa) / 0.15); }
+  K.lower($('lw1'), t, W('a2', 'ditutup'), K.at('a3') - 0.3);
+  K.lower($('lw2'), t, W('a3', 'batas'), K.at('a4') - 0.3);
+  K.lower($('lw3'), t, W('a4', 'juga'), K.at('a5') - 0.3);
+  K.lower($('lw4'), t, W('a5', 'naik'), K.at('a7') - 0.3);
+  K.lower($('lw5'), t, W('a7', 'kamis'), K.at('a8') - 0.3);
+  K.lower($('lw6'), t, W('a8', 'keputusannya'), K.at('a9') - 0.2);
+  window.TIMING = SUBT; K.subtitles($('subs'), t); window.TIMING = T;
   K.weekly(t);
 }
 window.seek = seek;

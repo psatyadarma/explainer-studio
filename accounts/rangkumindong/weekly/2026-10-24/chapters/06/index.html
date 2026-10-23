@@ -135,6 +135,24 @@ const DATA = { passengers: 420, vehicles: 89 };
 // -----------------------------------------------------------------------------------------------
 const $ = (id) => document.getElementById(id);
 const T = window.TIMING; window.DURATION = T.duration;
+// Subtitle pages: split long lines at punctuation so subtitles stay on one row (≤ ~48 chars) and clear the visuals.
+K.pages = (lines, max = 48) => lines.flatMap((l) => {
+  const len = (ws) => ws.map((x) => x.w).join(' ').length;
+  const segs = []; let cur = [];
+  l.words.forEach((w, i) => {   // 1) break at punctuation once a page has some substance
+    cur.push(w);
+    if (/[.,:;!?]$/.test(w.w) && len(cur) >= 12 && i < l.words.length - 1) { segs.push(cur); cur = []; }
+  });
+  if (cur.length) segs.push(cur);
+  const out = [];
+  segs.forEach((sg) => {        // 2) split a too-long segment into balanced pieces
+    const n = Math.ceil(len(sg) / max), target = len(sg) / n; let piece = [];
+    sg.forEach((w) => { if (piece.length && len(piece.concat(w)) > target + 2) { out.push(piece); piece = []; } piece.push(w); });
+    out.push(piece);
+  });
+  return out.map((ws, k) => ({ id: l.id + '.' + k, start: ws[0].start, end: ws[ws.length - 1].end, words: ws }));
+});
+const SUBT = { ...T, lines: K.pages(T.lines) };
 const ch = (window.WEEK?.chapters || []).find((c) => c.n === window.CHAPTER) || { kicker: 'BAB 6', title: 'Sekilas' };
 $('cKick').textContent = ch.kicker || ''; $('cTitle').textContent = ch.title || ''; $('cSub').textContent = window.WEEK?.dates || '';
 const W = K.word, A = K.at;
@@ -295,7 +313,7 @@ function seek(t) {
   K.lower($('lower1'), t, 3.0, tC - 0.4);
   K.lower($('lower2'), t, W('f4', 'brin'), tD + 0.6);
   K.lower($('lower3'), t, W('f5', 'oktober'), tI - 0.4);
-  K.subtitles($('subs'), t);
+  window.TIMING = SUBT; K.subtitles($('subs'), t); window.TIMING = T;
   K.weekly(t);
 }
 window.seek = seek;

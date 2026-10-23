@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Rangkumin Seminggu — thumbnail</title>
+<link rel="stylesheet" href="../../../../../../styles/sticker/sticker.css">
+<style>
+  html, body { width: 1280px; height: 720px; }
+  #stage { background: radial-gradient(circle at 1px 1px, rgba(62,85,104,.16) 1.6px, transparent 0) 0 0 / 30px 30px, var(--paper); }
+  .title { position: absolute; right: 56px; top: 44px; width: 520px; text-align: right; font-weight: 900; font-size: 76px; letter-spacing: -3px; line-height: .98; color: var(--accent); }
+  .label { position: absolute; left: 64px; top: 110px; font-weight: 900; font-size: 38px; color: var(--slate); letter-spacing: 1px; }
+  .num { position: absolute; left: 50px; top: 160px; font-weight: 900; font-size: 236px; letter-spacing: -11px; color: var(--ink); line-height: .9; isolation: isolate; z-index: 1; }
+  .num::after { content: ""; position: absolute; left: 8px; right: 0; bottom: -10px; height: 34px; background: var(--hi); z-index: -1; border-radius: 6px; }
+  .num span { position: relative; }
+  .up { position: absolute; left: 64px; top: 420px; display: flex; align-items: center; gap: 14px; font-weight: 900; font-size: 64px; color: #1E9E57; }
+  .up i { font-style: normal; font-size: 58px; }
+  .dates { position: absolute; left: 64px; bottom: 54px; background: var(--ink); color: #fff; font-weight: 900; font-size: 34px; padding: 10px 22px; border-radius: 12px; letter-spacing: 1px; }
+  .stk { position: absolute; right: 50px; bottom: 50px; display: grid; grid-template-columns: auto auto; gap: 34px 30px; justify-items: center; align-items: center; }
+  .stk div { background: #fff; border-radius: 20px; padding: 12px 20px; font-weight: 900; font-size: 36px; white-space: nowrap; box-shadow: 0 0 0 8px #fff, 0 14px 24px rgba(27,36,48,.22); }
+  .stk em { font-style: normal; font-family: "Noto Color Emoji"; margin-right: 10px; }
+  .stk div:nth-child(1) { transform: rotate(-4deg); } .stk div:nth-child(2) { transform: rotate(3deg); }
+  .stk div:nth-child(3) { transform: rotate(2deg); } .stk div:nth-child(4) { transform: rotate(-3deg); }
+</style>
+</head>
+<body>
+<div id="stage">
+  <div class="title" id="title">SEMINGGU INI, KETINGGALAN?</div>
+  <div class="label">IHSG · 23 OKT</div>
+  <div class="num" id="num"><span>5.439</span></div>
+  <div class="up"><i>▲</i>4 hari</div>
+  <div class="dates" id="dates">17–23 OKT 2026</div>
+  <div class="stk" id="stk">
+    <div><em>🏦</em>BI 5,75%</div>
+    <div><em>🔥</em>32 perusahaan</div>
+    <div><em>⚖️</em>Definisi korupsi</div>
+    <div><em>🚀🌴</em>Roket jatuh?</div>
+  </div>
+</div>
+<script>
+// The coordinator edits these four values per week (3–4 word title, one big verified number, 2–4 topic stickers).
+window.FRAME = { w: 1280, h: 720 }; window.DURATION = 0.1; window.seek = () => {};
+</script>
+</body>
+</html>
