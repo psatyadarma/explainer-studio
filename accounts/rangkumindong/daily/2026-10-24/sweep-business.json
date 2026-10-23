@@ -1,0 +1,98 @@
+{
+  "area": "business",
+  "run_date": "2026-10-24",
+  "checked": ["WebSearch for detik inet and cnbcindonesia tech (section pages not returned)", "teknologi.bisnis.com (via article page: Berita Terkini and Terpopuler 23 Oct)", "CNN Indonesia teknologi (article page)", "katadata digital (articles)", "CNBC Indonesia tech (article page headlines)", "storyline searches: ojol-regulation, ai-data-centres, startup-funding, iPhone Duo", "watch-list topics found: Komdigi rules, data leaks/security wave, e-commerce seller rules, AI/data centres, consumer tech prices"],
+  "events": [
+    {
+      "date": "2026-10-23",
+      "category": "TECH",
+      "event": "Cybersecurity institute CISSReC reports 71 Indonesian .go.id government websites running vulnerable, end-of-support or hidden PHP versions exposed to the PHP2Shell remote-code-execution flaw, as Komdigi urges operators to update.",
+      "key_numbers": "597 .go.id sites checked 22 Oct; 529 responded, 68 did not · 11 unpatched PHP · 41 past end-of-support (PHP 5.4 to 8.1) · 19 hide their PHP version (incl. esdm.go.id, kemenperin.go.id, kemkes.go.id, setneg.go.id) · CVE-2026-109618 and CVE-2026-109619, both CVSS 9.2/10 · fixed in PHP 8.2.35, 8.3.36, 8.4.27, 8.5.12 (released 21 Oct) · ~70% of websites worldwide (~760 million) use PHP",
+      "storyline": "",
+      "update_of": "E0239",
+      "status": "verified",
+      "sources": [
+        {"label": "Katadata", "url": "https://katadata.co.id/digital/teknologi/6adb088a0755e/71-situs-pemerintah-indonesia-disebut-rentan-php2shell-ini-daftarnya"},
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/tech/20261022094711-37-778474/patch-php2shell-sudah-terbit-ini-versi-aman-dan-cara-update"},
+        {"label": "Bisnis.com", "url": "https://teknologi.bisnis.com/read/20261019/280/2013673/harga-dan-spesifikasi-iphone-duo-rilis-di-indonesia-tahun-depan"}
+      ],
+      "why_it_matters": "Government sites and, per Bisnis, some banks went offline over a bug that lets hackers take over servers, so personal data held by those sites could be at risk.",
+      "signals": {"spreading": 2, "wallet": 1, "surprise": 2, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "Bisnis tech terpopuler #4 and #5 on 23 Oct; CNBC Indonesia tech headlines 22-23 Oct",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-23",
+      "category": "TECH",
+      "event": "Domain registry PANDI says it will work with BSSN to form a cyber incident response team (CSIRT) at each registrar after the PHP2Shell threat, while BSSN ran a readiness drill for government incident teams on 22 Oct.",
+      "key_numbers": "BSSN drill 22 Oct with 289 participants from government administration, health and economy sectors · PANDI patched its own systems · flaw allows unauthenticated remote code execution",
+      "storyline": "",
+      "update_of": "E0239",
+      "status": "partial",
+      "sources": [
+        {"label": "Katadata", "url": "https://katadata.co.id/digital/teknologi/6adb3a9b625dd/pandi-dan-bssn-kaji-bentuk-tim-tanggap-mitigasi-serangan-hacker-imbas-php2shell"},
+        {"label": "Katadata (71 sites)", "url": "https://katadata.co.id/digital/teknologi/6adb088a0755e/71-situs-pemerintah-indonesia-disebut-rentan-php2shell-ini-daftarnya"}
+      ],
+      "why_it_matters": "Shows the official response to the PHP2Shell wave and who is responsible for protecting .id and .go.id sites.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 0, "visual": 0, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-25",
+      "category": "BIZ",
+      "event": "The Ministry of MSMEs (Menteri UMKM Maman Abdurrahman) announced a permanent discount of at least 50% on e-commerce platform admin fees for micro and small sellers of domestic products, starting 25 Oct 2026 and requiring registration in SAPA UMKM.",
+      "key_numbers": "at least 50% off platform service fees · starts 25 Oct 2026, no end date · Kepmen signed 25 Sep 2026 · platforms pull SAPA UMKM data every Friday and have up to 10 days to verify · ready-to-eat food and domestic electronics excluded, fashion and handicrafts prioritised · announced 22 Oct",
+      "storyline": "",
+      "update_of": "",
+      "status": "upcoming",
+      "sources": [
+        {"label": "Bisnis.com", "url": "https://teknologi.bisnis.com/read/20261023/84/2015022/diskon-50-biaya-admin-shopee-lazada-cs-berlaku-permanen-bagi-umkm-produk-lokal"}
+      ],
+      "why_it_matters": "Micro and small online sellers who make local products could pay half the platform fees from this weekend, but must register first.",
+      "signals": {"spreading": 1, "wallet": 2, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "Bisnis tech terpopuler #3 on 23 Oct",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-22",
+      "category": "TECH",
+      "event": "UMKM Minister Maman Abdurrahman said his ministry has until end-December 2026 to draft its derivative rule under Perpres 27/2026 on digital-platform transport and will weigh the fate of Gojek, Grab and Maxim without rushing.",
+      "key_numbers": "deadline end Dec 2026 · ~5 million ojol drivers registered, only ~1 million work regularly · 13-15 million UMKM merchants sell via the platforms · Kemenhub handles passenger fares, Komdigi handles goods-delivery fares, UMKM Ministry supervises partnership agreements",
+      "storyline": "ojol-regulation",
+      "update_of": "E0144",
+      "status": "partial",
+      "sources": [
+        {"label": "Bisnis.com", "url": "https://teknologi.bisnis.com/read/20261023/266/2015021/aturan-turunan-perpres-ojol-menteri-umkm-pertimbangkan-nasib-gojek-grab-cs"}
+      ],
+      "why_it_matters": "Rules on commissions, fares and protections for ojol drivers and food sellers are still being drafted by three ministries.",
+      "signals": {"spreading": 2, "wallet": 2, "surprise": 0, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "Bisnis tech terpopuler #1 on 23 Oct",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-22",
+      "category": "TECH",
+      "event": "Komdigi Deputy Minister Nezar Patria set out four follow-up agendas after Bali Tech Week 2026, including a national digital infrastructure map within 30 days and a review of telecom rules to allow new technologies such as LEO satellites.",
+      "key_numbers": "digital infrastructure map due within 30 days (fibre, submarine cables, satellites) · 4 agendas: infrastructure map, pilot projects with BUMN/corporates/UMKM, AI talent, regulation review · announced at Sovereign Tech Summit 2026, Denpasar, 22 Oct",
+      "storyline": "startup-funding",
+      "update_of": "E0142",
+      "status": "partial",
+      "sources": [
+        {"label": "Bisnis.com", "url": "https://teknologi.bisnis.com/read/20261023/101/2015133/4-agenda-lanjutan-usai-btw-2026-peta-infrastruktur-digital-hingga-revisi-aturan"}
+      ],
+      "why_it_matters": "Signals coming changes to telecom rules and satellite internet that affect connectivity and operators.",
+      "signals": {"spreading": 0, "wallet": 0, "surprise": 0, "visual": 0, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    }
+  ],
+  "gaps": [
+    "Section pages detik inet, cnbcindonesia/tech, katadata/digital, cnnindonesia/teknologi and dailysocial were not returned by search, so only article pages and the bisnis article sidebar were scanned.",
+    "Bisnis headline 'Situs Pemerintah hingga Bank Mendadak Offline' (23 Oct) and CNBC 'Website Pemerintah Tiba-Tiba Tutup Serentak, Intelijen Turun Tangan' (23 Oct): article pages failed to open, so which sites and banks went offline is unverified.",
+    "CNBC 22 Oct: Airlangga says AI industry could add Rp7,202 trillion to the economy: headline only, not opened.",
+    "Bisnis 23 Oct: TrendAI-NVIDIA hardware protection for Indonesia's AI Factory, and Komdigi on AI transparency: pages failed to open.",
+    "iPhone Duo: pre-order reportedly opened 23 Oct 09:00 WIB (Detik, 21 Oct) but Bisnis 19 Oct says official pre-order is not open and shipments may slip to 2027; official Indonesian price still unconfirmed (see E0244).",
+    "Only 5 events: no fresh GoTo, Grab or Shopee funding news found in searches."
+  ]
+}

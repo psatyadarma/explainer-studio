@@ -1,0 +1,148 @@
+{
+  "area": "markets",
+  "run_date": "2026-10-24",
+  "checked": ["detikFinance bursa-valas index (fetched)", "CNBC Indonesia (search only; section page not returned, IHSG close article fetched)", "Bisnis market (search + one article)", "Kontan weekly IHSG", "IHSG close and big movers", "foreign net buy/sell", "rupiah", "BI rate/RDG follow-up", "OJK actions", "MSCI storyline", "Brent/oil", "Fed", "BUMN/Danantara", "bank Q3 earnings (BBNI: nothing found)", "PHK (nothing new found)", "BPS releases (nothing new found)"],
+  "events": [
+    {
+      "date": "2026-10-23",
+      "category": "MKT",
+      "event": "IHSG closed up 0.95% on Friday 23 October and gained 4.90% over the week, recovering part of the MSCI-driven crash.",
+      "key_numbers": "Close 5,439.26 (+51.35 pts, +0.95%) on 23 Oct · week: 5,185.11 (16 Oct) to 5,439.26 = +4.90% · value Rp13.85 T · 401.84 juta lot · 506 up / 192 down / 265 flat · range 5,366.29-5,455.21",
+      "storyline": "msci-reclassification",
+      "update_of": "E0220",
+      "status": "verified",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/market/20261023160756-17-778973/ihsg-ditutup-menguat-095-ke-level-5439"},
+        {"label": "Kontan", "url": "https://investasi.kontan.co.id/news/ihsg-menguat-490-dalam-sepekan-simak-proyeksi-pekan-depan"},
+        {"label": "detikFinance", "url": "https://finance.detik.com/bursa-dan-valas/d-8720932/ihsg-ditutup-menguat-ke-5-439-jelang-akhir-pekan"}
+      ],
+      "why_it_matters": "The index is still far below its pre-MSCI level, so the rebound decides whether ordinary investors' portfolios recover.",
+      "signals": {"spreading": 2, "wallet": 1, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 0},
+      "spreading_evidence": "IHSG close covered by CNBC, detik, Tempo, Okezone, Suara, Kontan",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-23",
+      "category": "MKT",
+      "event": "OJK reported cumulative capital-market administrative fines of Rp2.23 trillion, calling the Rp1.5 trillion DSSA sanction the largest in its history; sanction letters were handed over on 21 Oct.",
+      "key_numbers": "Total fines Rp2.23 T as of 16 Oct · DSSA Rp1.5 T (trading) · BREN Rp500 M (IPO) · CUAN Rp100 M (IPO) · late-filing fines Rp293.78 M on 805 parties · 8 suspensions, 6 licence revocations · 122 open cases (1 Oct): 28 planning, 54 preliminary, 40 examination · party count conflicts: headline 116, body 166",
+      "storyline": "msci-reclassification",
+      "update_of": "E0223",
+      "status": "partial",
+      "sources": [
+        {"label": "detikFinance", "url": "https://finance.detik.com/bursa-dan-valas/d-8720741/116-pihak-langgar-aturan-pasar-modal-kena-denda-rp-2-23-t"}
+      ],
+      "why_it_matters": "Enforcement is the one weakness OJK admits to MSCI, so these fines are central to whether Indonesia gets downgraded.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-10-23",
+      "category": "MKT",
+      "event": "OJK chair Friderica Widyasari Dewi briefed President Prabowo in a cabinet session on MSCI's possible downgrade of Indonesia from Emerging to Standalone Market and the foreign selling that followed.",
+      "key_numbers": "Positive on 16 of 18 indicators vs other emerging markets · gaps: float requirement 15-25%, ownership disclosure ~1% vs >5% elsewhere, 39 investor types · foreign net sell Rp3.3 T over two days, Rp1 T the day before · domestic buybacks and retail drove the rebound",
+      "storyline": "msci-reclassification",
+      "update_of": "E0224",
+      "status": "partial",
+      "sources": [
+        {"label": "detikFinance", "url": "https://finance.detik.com/bursa-dan-valas/d-8721341/bos-ojk-lapor-prabowo-kondisi-bursa-usai-msci-buka-opsi-turun-kasta"}
+      ],
+      "why_it_matters": "The government is now treating the MSCI decision as a presidential-level issue that affects pensions, funds and the rupiah.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-23",
+      "category": "MKT",
+      "event": "BEI announced that stocks tagged High Shareholding Concentration (HSC) will be excluded from the IHSG calculation from 2 November 2026, a tag that already covers about 80 stocks including many conglomerate names.",
+      "key_numbers": "Effective 2 Nov 2026 · BEI Announcement Peng-00201/BEI.POP/10-2026 · ~80 HSC stocks · e.g. PGUN 99.95%, MPRO 99.99%, DCII 99.69%, SMAR 99.58%, DSSA 95.76%, BREN 97.31% HSC ratio · foreign investors still net-bought DSSA Rp45.88 M and CUAN Rp15.77 M in the morning session of 23 Oct",
+      "storyline": "msci-reclassification",
+      "update_of": "E0051",
+      "status": "partial",
+      "sources": [
+        {"label": "detikFinance (exclusion)", "url": "https://finance.detik.com/bursa-dan-valas/d-8719635/saham-hsc-segera-ditendang-dari-perhitungan-ihsg-ada-tanda-khusus"},
+        {"label": "detikFinance (conglomerate list)", "url": "https://finance.detik.com/bursa-dan-valas/d-8719751/deretan-saham-para-konglomerat-yang-masuk-daftar-hsc"},
+        {"label": "Suara.com", "url": "https://www.suara.com/bisnis/2026/10/23/153904/ihsg-menguat-asing-masih-buru-saham-berstatus-hsc"}
+      ],
+      "why_it_matters": "Stocks owned almost entirely by a few tycoons will stop moving the IHSG, which changes what the index really measures.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 2, "visual": 2, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "Several detik items on the HSC list in the last 24 hours",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-10-23",
+      "category": "ECO",
+      "event": "Bank Indonesia said foreign capital has been leaving stocks, government bonds (SBN) and SRBI since MSCI's 16 Oct consultation paper, but it declined to give an amount and called the rupiah move 'manageable'.",
+      "key_numbers": "Rupiah Rp18,075/USD at 09:21 WIB 23 Oct (Bloomberg), prior close Rp18,060 · USD +8.29% vs rupiah year to date · foreign net sell Rp744.43 M in the morning session (buy Rp2.62 T vs sell Rp3.36 T) · BI plan: DNDF if investors hold off, spot intervention if they exit at once",
+      "storyline": "rupiah",
+      "update_of": "E0222",
+      "status": "verified",
+      "sources": [
+        {"label": "detikFinance (BI)", "url": "https://finance.detik.com/bursa-dan-valas/d-8720535/bi-buka-bukaan-modal-asing-kabur-dari-saham-sbn-hingga-srbi"},
+        {"label": "detikFinance (rupiah)", "url": "https://finance.detik.com/bursa-dan-valas/d-8720102/dolar-as-makin-perkasa-rupiah-diseret-ke-rp-18-075"},
+        {"label": "Suara.com", "url": "https://www.suara.com/bisnis/2026/10/23/153904/ihsg-menguat-asing-masih-buru-saham-berstatus-hsc"}
+      ],
+      "why_it_matters": "A rupiah above Rp18,000 raises the cost of imported goods, fuel and dollar debt for ordinary Indonesians.",
+      "signals": {"spreading": 1, "wallet": 2, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-22",
+      "category": "BIZ",
+      "event": "Danantara CIO Pandu Sjahrir said Danantara has started buying shares through external investment partners during the MSCI sell-off and will keep buying while valuations stay attractive.",
+      "key_numbers": "Statement 22 Oct 2026 · no purchase amounts or stock names disclosed · partners chosen on track record, team quality and decision process",
+      "storyline": "msci-reclassification",
+      "update_of": "E0139",
+      "status": "partial",
+      "sources": [
+        {"label": "detikFinance", "url": "https://finance.detik.com/bursa-dan-valas/d-8719774/danantara-serok-saham-anjlok-imbas-msci-lewat-mitra"}
+      ],
+      "why_it_matters": "State money is being used to support the market, which raises the question of who carries the risk if prices keep falling.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 0, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-22",
+      "category": "MKT",
+      "event": "About 336 regional and global foreign investors joined a Zoom session with OJK and BEI asking how they will respond to MSCI's possible downgrade; OJK promised stronger ownership transparency and tougher action on manipulation.",
+      "key_numbers": "~336 investors · session on Monday 19 Oct · OJK's Hasan Fawzi spoke 22 Oct · no asset figures given",
+      "storyline": "msci-reclassification",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "detikFinance", "url": "https://finance.detik.com/bursa-dan-valas/d-8719580/336-investor-asing-colek-ojk-usai-msci-buka-opsi-bursa-ri-turun-kasta"}
+      ],
+      "why_it_matters": "It shows how many big overseas funds are watching whether Indonesia fixes its market rules.",
+      "signals": {"spreading": 0, "wallet": 0, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-23",
+      "category": "GLB",
+      "event": "Kontan's weekly outlook put Brent near US$114.39 per barrel amid Middle East tensions and flagged oil as an inflation risk, with the Fed decision due 29 Oct (WIB) and consensus expecting a hold at 4.00%.",
+      "key_numbers": "Brent ~US$114.39 (Kontan, 23 Oct) vs ~US$108-110 reported 19-20 Oct · Fed consensus hold at 4.00% (conflicts with E0058 saying majority favoured tightening)",
+      "storyline": "fuel-oil",
+      "update_of": "E0174",
+      "status": "partial",
+      "sources": [
+        {"label": "Kontan", "url": "https://investasi.kontan.co.id/news/ihsg-menguat-490-dalam-sepekan-simak-proyeksi-pekan-depan"}
+      ],
+      "why_it_matters": "Higher oil raises pressure on fuel subsidies, the rupiah and prices.",
+      "signals": {"spreading": 1, "wallet": 2, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    }
+  ],
+  "gaps": [
+    "Section pages for CNBC, Bisnis and Antara were not returned by search, so only detikFinance's index was scanned; most-read lists not seen.",
+    "OJK fine party count: headline says 116 parties, article body says 166; verify before use.",
+    "Brent figure (US$114.39 from Kontan) not confirmed by a second source; Fed date and stance (hold at 4.00% on 29 Oct vs E0058) conflict.",
+    "Buyback headlines (PTBA, BRI phase II Rp1 T, AMMN Rp1 T, TOBA Rp7.79 T injection) seen only as detik headlines, numbers not verified in articles.",
+    "BBNI Q3 results (due 23 Oct) not found; no new PHK, BPS or fuel-price items found."
+  ]
+}
