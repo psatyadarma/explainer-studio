@@ -49,7 +49,7 @@
     </div>
   </div>
   <div id="card"><div class="kicker" id="cKick"></div><div class="title" id="cTitle"></div><div class="sub" id="cSub"></div></div>
-  <div class="lower" id="lower1">Bab 7 · Minggu depan<small>tanggal yang wajib dicatat</small></div>
+  <div class="lower" id="lower1"><span id="lower1t">Minggu depan</span><small>tanggal yang wajib dicatat</small></div>
   <div id="brand"><div class="dot"></div><b>Rangkumin Dong</b></div>
   <div id="subs"></div>
   <div id="progress"></div>
@@ -116,6 +116,9 @@ const CAM = [
   { t: tC, x: 3160, y: 1745, z: 1, dur: 0.9 },
 ];
 
+// "Minggu depan" chapter start from build/week.js, so the label matches the YouTube chapter list
+{ const nx = (window.WEEK?.chapters || []).find((c) => /MINGGU DEPAN/i.test(c.kicker || ''));
+  if (nx) { const s0 = Math.round(nx.start); document.getElementById('lower1t').textContent = `Minggu depan · menit ${String(Math.floor(s0 / 60)).padStart(2, '0')}:${String(s0 % 60).padStart(2, '0')}`; } }
 function seek(t) {
   K.cam16($('world'), CAM, t);
   K.titleCard($('card'), t, 2.0);

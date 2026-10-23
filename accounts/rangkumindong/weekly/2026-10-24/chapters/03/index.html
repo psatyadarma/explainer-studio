@@ -226,7 +226,7 @@ const hWords = [...$('hHl').querySelectorAll('.w')];
 const B = {
   a: Math.max(2.15, at('c1')), aEnv: Math.max(2.35, W('c1', 'disurati') - 0.1),
   b: at('c2'), bWhere: at('c3'), bPermit: W('c3', 'izin'), bStamp: W('c3', 'dicabut'),
-  c: at('c4'), cTally: W('c4', 'melanggar'), c19: W('c4', '19'), cHedge: W('c4', 'angka'), c2: W('c4', 'menurutnya'), c2Two: W('c4', 'dua'), c2Cut: W('c4', 'cabut'),
+  c: at('c4'), cTally: W('c4', 'menyebut'), c19: W('c4', '19'), cHedge: W('c4', 'angka'), c2: W('c4', 'menurutnya'), c2Two: W('c4', 'dua'), c2Cut: W('c4', 'cabut'),
   d: at('c5'), dWho: W('c5', 'asing'), dName: W('c5', 'namanya'), dWhen: W('c5', 'diumumkan'),
   e: at('c6'), e32: W('c6', '32'), eKt: at('c7'), eFrz: W('c7', 'dibekukan'), e2: W('c7', 'yang', 1), e2Num: W('c7', '4'), e2Lab: W('c7', 'hektare'),
   f: at('c8'), fDate: W('c8', '13'), fNum: W('c8', '283'), fLab: W('c8', 'kasus'), fProv: W('c8', '7'),
@@ -254,7 +254,7 @@ const POPS = [
   ['c2Kick', B.c2, Infinity, -2], ['c2Two', B.c2Two, Infinity, -3], ['c2Arr', B.c2Two + 0.35], ['c2Cut', B.c2Cut, Infinity, -8],
   ['dKick', B.d, Infinity, -2], ['dF0', W('c5', 'sejumlah')], ['dF1', W('c5', 'sejumlah') + 0.15], ['dF2', W('c5', 'sejumlah') + 0.3],
   ['dWho', B.dWho, Infinity, 1.5], ['dR0', B.dName], ['dR1', B.dName + 0.1], ['dR2', B.dName + 0.2], ['dWhen', B.dWhen, Infinity, -6],
-  ['eNum', B.e32], ['eLab', B.e32 + 0.3, Infinity, -2], ['eGrid', B.e32 - 0.1], ['eKt', B.eKt + 0.1, Infinity, 2], ['eFrz', B.eFrz, Infinity, -6],
+  ['eNum', B.e32], ['eLab', B.e32 + 0.3, Infinity, -2], ['eGrid', B.e + 0.3], ['eKt', B.eKt + 0.1, Infinity, 2], ['eFrz', B.eFrz, Infinity, -6],
   ['e2Kick', B.e2, Infinity, -2], ['e2Area', B.e2 + 0.2, Infinity, -2], ['e2Num', B.e2Num], ['e2Lab', B.e2Lab, Infinity, 2],
   ['fKick', B.f, Infinity, -2], ['fFace', B.f + 0.15], ['fDate', B.fDate, Infinity, 2], ['fNum', B.fNum], ['fLab', B.fLab, Infinity, -2], ['fProv', B.fProv],
   ['gPlane', B.g], ['gD1', B.gD1, Infinity, -2], ['gD2', B.gD2, Infinity, 2], ['gNum', B.gNum], ['gLab', B.gLab, Infinity, -2], ['gAir', B.gAir],
@@ -275,7 +275,7 @@ function seek(t) {
   });
   // 32 sanctioned companies; the newest 6 (Kalteng) turn orange
   cells.forEach((c, i) => {
-    const s = K.spring(t - B.e32 - 0.02 * i, 300, 20);
+    const s = K.spring(t - B.e - 0.3 - 0.02 * i, 300, 20);   // grid builds while the minister is named; 32 lands on "32"
     c.style.transform = `scale(${s})`;
     c.classList.toggle('k', i >= DATA.sanctioned - DATA.kalteng && t >= B.eKt + 0.05 * (i - 26));
   });

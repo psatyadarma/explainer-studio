@@ -56,7 +56,7 @@
 window.CHAPTER = Number(location.pathname.split('/').slice(-2)[0]);
 const FALLBACK = { kicker: 'OUTRO', title: 'Sampai Sabtu depan', dates: '17–23 Okt 2026' };   // used until build/week.js exists
 // this week's chapter titles (script.json), shown without numbers; positions around the question bubble
-const CHIPS = [['IHSG bangkit?', 300, 540, -4], ['BI & rupiah', 640, 560, 3], ['Karhutla', 930, 545, -2], ['Definisi korupsi', 1250, 560, 4], ['Dompet kamu', 1630, 545, -3], ['Sekilas', 230, 770, 4]];
+const CHIPS = [['IHSG bangkit?', 560, 545, -4], ['BI & rupiah', 960, 560, 3], ['Karhutla', 1360, 545, -2], ['Definisi korupsi', 560, 680, 4], ['Dompet kamu', 960, 690, -3], ['Sekilas', 1360, 680, 3]];   // 2 rows of 3, centred
 // -----------------------------------------------------------------------------------------------
 const $ = (id) => document.getElementById(id);
 const T = window.TIMING; window.DURATION = T.duration;

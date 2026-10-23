@@ -73,7 +73,8 @@ def index(week):
     week_js = {"title": s.get("title", "Rangkumin Seminggu"), "dates": s.get("dates", ""), "chapters": out, "total": round(t, 3)}
     (week / "build").mkdir(exist_ok=True)
     (week / "build/week.js").write_text("window.WEEK = " + json.dumps(week_js, ensure_ascii=False) + ";\n")
-    yt = "\n".join(f"{fmt(c['start'])} {c['title'] or c['kicker'].title()}" for c in out)
+    # YouTube needs every chapter ≥ 10 s: a shorter one (e.g. the outro) folds into the chapter before it
+    yt = "\n".join(f"{fmt(c['start'])} {c['title'] or c['kicker'].title()}" for i, c in enumerate(out) if i == 0 or c["dur"] >= 10)
     (week / "build/youtube-chapters.txt").write_text(yt + "\n")
     print(f"index: {len(out)} chapters, total {fmt(t)}\n{yt}")
 
