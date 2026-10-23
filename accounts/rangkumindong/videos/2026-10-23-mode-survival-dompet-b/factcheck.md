@@ -1,0 +1,24 @@
+VERDICT: FIX (3 issues)
+
+Checked 22 Okt 2026 (MODE=full: script.json incl. hook_b, claims.json, post.json, draft.md). Highest sensitivity: **normal** (presidential and ministerial quotes, no allegations; attribution must stay exact).
+
+| Claim | Verdict | What the source actually says | Source |
+|---|---|---|---|
+| h1 / cover / captions: Negara masuk “mode survival” (with Prabowo cut-out on the cover) | FIX | Prabowo (Sidang Kabinet Paripurna, 21 Okt): "Kita sekarang berada dalam kondisi harus survival." CNN paraphrases it as "kondisi bertahan atau survival". The phrase "survival mode" is **Bahlil's** ("Ini survival mode", 22 Okt; the Jakarta Post's "We are in survival mode" is also Bahlil). "Mode survival" appears in Kompas.id's headline and in detik's own narration, not in any quote from Prabowo. Paraphrasing the substance is fair. Putting it in quote marks next to Prabowo's face makes it read as his verbatim words, and "Negara masuk" is stronger than "kondisi harus survival". | detik d-8718097; CNN 20261022104012; JP 22 Okt; detik d-8718996; CNBC 20261022143445 |
+| l1 Prabowo quote, Rabu malam, sidang kabinet di Istana | OK | Verbatim in detik (published 21 Okt, 21:58 WIB). CNN confirms the gist. | detik d-8718097; CNN |
+| l2 Bahlil: "Ya memang harus kita survival." | OK | Verbatim in detik (CNN: "Ya memang harus survival"). He said it to reporters at the Palace complex after the session. "Menimpali" is acceptable. | detik; CNN |
+| l3 Brent closed at US$109 on Monday | OK | Brent settled at US$109.55 on Mon 19 Okt. Note that it has since risen to about US$112–113 (22 Okt), so "109" is still correct only because the script dates it to Monday. | nationthailand.com/news/world/40072496; tradingeconomics |
+| l4–l5 gas export is an option, not a decision | OK | "Saya juga mungkin memikirkan untuk gas saya tidak perpanjang untuk ekspor ke negara tetangga." No countries are named. | detik; CNN; CNBC |
+| l6 Bahlil: BBM subsidi nggak naik | OK | "pemerintah berkomitmen untuk tidak ada kenaikan BBM subsidi" (21 Okt), with no end date. | detik d-8718032 |
+| l7 Wamen ESDM: held until end 2026 | FIX | Yuliot said on **29 Sep** (before Brent's latest jump): "sampai dengan akhir tahun kita mempertahankan ini tidak ada kenaikan untuk pertalite". Placed straight after Bahlil's 21 Okt line with no date, it reads as a fresh 21 Okt commitment. | infobanknews (29 Sep) |
+| l8–l9 Rp31,8 T until year-end: beras, BSU, Nataru | FIX (minor) | Airlangga (21 Okt): "Dananya sekitar Rp31,8 triliun… sampai dengan akhir tahun". He also listed a **bank-account opening programme** as item 1, so "Isinya:" followed by three items makes the list look complete when it isn't. The figure fits the 30 Sep ~Rp31 T package (beras Rp17,5 T + BSU ~Rp12 T + transport). | detik d-8718185; Antara 5802793; Katadata |
+| l10 KAI and Pelni 30% off for Nataru | OK | Two sources: CNBC 21 Okt, and the Kemenhub package of 22 Jun 2026 (KAI 30%, 22 Des–4 Jan; Pelni 30% of the base fare, 17 Des–10 Jan). claims.json says "dates not yet given", which is wrong; the dates exist. | CNBC 20261021141337; CNBC 20260622173337; infobanknews stimulus transportasi |
+| l11–l12 beras + BSU announced 30 Sep | OK | Okezone 30 Sep: Airlangga, after a limited meeting with Prabowo, announced BSU and the rice aid. Rice aid also continues the Feb–Mar and Jul–Sep rounds. | Okezone 30 Sep |
+| hb1 "30 kilo beras gratis" + l13–l14: 33,2 juta, 10 kg × 3 = 30 kg | OK | 33.244.408 KPM, desil 1–4, 10 kg/bulan, Okt–Des (Katadata). Bapanas: 10 kg/bulan Okt/Nov/Des, 33,24 juta keluarga, 997 ribu ton (= 30 kg each). Airlangga's own "10 kilo untuk 3 bulan" is ambiguous, but Bapanas settles it. | Katadata; rctiplus 5487628 (Bapanas, 6 Okt) |
+| l15 BSU 13,3 juta, Rp300 rb × 3 = Rp900 rb | OK | Matches. Paid once for Q4. The PMK was still pending on 30 Sep. | Okezone; Katadata |
+| Captions vs script | OK, apart from the FIXes above | Same figures. The Pertalite Rp10.000 figure appears in the caption only, not in the VO (acceptable). No market disclaimer is needed. | |
+
+## Exact replacements
+1. **h1** (text + say), cover title and caption first line: `Prabowo: kita “harus survival”. Dompet kamu kena apa?` (say: "Prabowo: kita harus survival. Dompet kamu kena apa?"). Cover: **“HARUS SURVIVAL” / DOMPETMU KENA APA?** If the team keeps "Negara masuk mode survival", drop the quote marks and the Prabowo cut-out from the hook. The **cta** "mode survival" can stay, but attribute it: `Kalau kamu pegang anggaran di “survival mode” ala Bahlil, apa yang didahulukan? Komen!`
+2. **l7**: `Akhir September, Wamen ESDM bilang: Pertalite ditahan sampai akhir 2026.` Caption: `Wamen ESDM (29 Sep): Pertalite ditahan sampai akhir 2026 (Rp10.000/liter).`
+3. **l9**: `Isinya antara lain: bantuan beras, subsidi upah (BSU), dan diskon tiket libur Nataru.` Caption: `…sekitar Rp31,8 T sampai akhir tahun, antara lain: bantuan beras, …`

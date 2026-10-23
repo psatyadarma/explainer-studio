@@ -1,0 +1,99 @@
+[
+ {
+  "claim": "h1 (\"Prabowo: kita 'harus survival'\", short form of his quote) + l1: President Prabowo said at the Sidang Kabinet Paripurna, Istana Kepresidenan Jakarta, Wednesday evening 21 Oct 2026: \"Kita sekarang berada dalam kondisi harus survival.\" Direct quote is from detikFinance; CNN Indonesia and Kompas.id (headline 'Presiden Prabowo Ingatkan Mode Survival') report Prabowo described a survival condition. The Jakarta Post's 'We are in survival mode' is Bahlil (English rendering via Kompas.com), not Prabowo. No outlet has an Indonesian 'mode bertahan' quote from either man, so the script does not use that wording.",
+  "numbers": "Rabu 21 Okt 2026",
+  "sources": [
+   "https://finance.detik.com/energi/d-8718097/bahlil-buka-opsi-setop-ekspor-gas-ke-negara-tetangga",
+   "https://www.cnnindonesia.com/ekonomi/20261022104012-85-1418322/bahlil-ancam-setop-ekspor-gas-ke-negara-tetangga",
+   "https://www.kompas.id/artikel/presiden-prabowo-ingatkan-mode-survival-bahlil-berencana-hentikan-ekspor-gas",
+   "https://thejakartapost.com/business/2026/10/22/indonesia-weighs-halt-of-gas-exports-as-nation-enters-survival-mode"
+  ]
+ },
+ {
+  "claim": "l2: Bahlil (Menko Hilirisasi & Transisi Energi, also Menteri ESDM) told reporters at the Palace complex the same day: \"Ya memang harus kita survival.\" (detik; CNN has \"Ya memang harus survival\"). On 22 Okt he repeated \"Ini survival mode\".",
+  "numbers": "21 Okt; 22 Okt",
+  "sources": [
+   "https://finance.detik.com/energi/d-8718097/bahlil-buka-opsi-setop-ekspor-gas-ke-negara-tetangga",
+   "https://www.cnnindonesia.com/ekonomi/20261022104012-85-1418322/bahlil-ancam-setop-ekspor-gas-ke-negara-tetangga",
+   "https://www.cnbcindonesia.com/news/20261022143445-4-778615/bahlil-tegas-mau-setop-ekspor-gas-ke-negara-tetangga-ini-alasannya",
+   "https://finance.detik.com/energi/d-8718996/produksi-gas-diprioritaskan-buat-domestik-bahlil-ini-survival-mode"
+  ]
+ },
+ {
+  "claim": "l3: Brent crude closed at about US$109.55 per barrel on Monday 19 Oct 2026 (intraday high US$110.70). Presented as background ('latarnya'), not as the stated reason for the President's remark.",
+  "numbers": "US$109 (109,55) · 19 Okt (Senin)",
+  "sources": [
+   "https://ekonomi.bisnis.com/read/20261020/44/2014033/harga-minyak-tembus-us109-per-barel-serangan-houthi-ke-saudi-picu-kekhawatiran",
+   "https://www.cnbcindonesia.com/news/20261020125846-4-777825/harga-batu-bara-melejit-tertinggi-3-tahun-bahlil-siap-kerek-produksi"
+  ]
+ },
+ {
+  "claim": "l4–l5: Bahlil said he 'might' not extend gas exports to neighbouring countries so domestic needs come first: \"Saya juga mungkin memikirkan untuk gas saya tidak perpanjang untuk ekspor ke negara tetangga.\" An option, not a decision; no countries, volumes or contract dates named (we name none).",
+  "numbers": "",
+  "sources": [
+   "https://finance.detik.com/energi/d-8718097/bahlil-buka-opsi-setop-ekspor-gas-ke-negara-tetangga",
+   "https://www.cnnindonesia.com/ekonomi/20261022104012-85-1418322/bahlil-ancam-setop-ekspor-gas-ke-negara-tetangga",
+   "https://www.idnfinancials.com/id/news/70677/indonesia-mode-survival-bahlil-jajaki-opsi-setop-ekspor-gas",
+   "https://www.cnbcindonesia.com/news/20261022143445-4-778615/bahlil-tegas-mau-setop-ekspor-gas-ke-negara-tetangga-ini-alasannya"
+  ]
+ },
+ {
+  "claim": "l6: Bahlil on 21 Okt: \"pemerintah berkomitmen untuk tidak ada kenaikan BBM subsidi, tidak ada kenaikan.\" (no end date in that quote)",
+  "numbers": "",
+  "sources": [
+   "https://finance.detik.com/energi/d-8718032/harga-minyak-meroket-pertalite-dipastikan-tidak-naik"
+  ]
+ },
+ {
+  "claim": "l7: 'Akhir September': Wamen ESDM Yuliot said Pertalite (and Biosolar) prices are held until end-2026 (reported 29 Sep 2026). Caption adds Pertalite Rp10.000/liter (Pertamina October price list).",
+  "numbers": "akhir 2026 · Pertalite Rp10.000/liter (caption only)",
+  "sources": [
+   "https://infobanknews.com/harga-minyak-dunia-naik-ke-usd107-begini-nasib-pertalite-hingga-akhir-2026",
+   "https://investortrust.id/business/117985/daftar-lengkap-harga-bbm-pertamina-oktober-2026",
+   "https://www.antaranews.com/berita/5797925/harga-batu-bara-capai-154-dolar-as-per-ton-bahlil-harap-produksi-naik"
+  ]
+ },
+ {
+  "claim": "l8–l9: Menko Perekonomian Airlangga, 21 Okt 2026 at the Palace after the cabinet session: about Rp31,8 triliun prepared for programmes through end-2026: rice aid (10 kg, 3 months), BSU, Nataru discounts (and a bank-account opening programme, not in the script). No official per-programme split of the Rp31,8 T was given on 21 Okt; Antara's quote is ambiguous on whether the figure covers all programmes, so the script says 'isinya antara lain' (the bank-account programme is not named) and drops 'sampai akhir tahun' from the VO (kept in caption).",
+  "numbers": "Rp31,8 triliun · sampai akhir 2026",
+  "sources": [
+   "https://www.antaranews.com/berita/5802793/pemerintah-siapkan-rp318-triliun-untuk-bansos-dan-diskon-nataru",
+   "https://finance.detik.com/berita-ekonomi-bisnis/d-8718185/rp-31-8-triliun-disiapkan-buat-bsu-beras-10-kg-hingga-diskon-nataru",
+   "https://www.suara.com/bisnis/2026/10/22/074543/pemerintah-siapkan-rp318-triliun-untuk-program-bantuan-hingga-diskon-nataru"
+  ]
+ },
+ {
+  "claim": "l10: Nataru 2026/2027 (Q4 2026): KAI train fares and Pelni sea fares discounted 30% (Airlangga, 21 Okt). Single article for the October figures; the June 2026 package also set KAI/Pelni at 30%. Specific dates not yet given.",
+  "numbers": "30%",
+  "sources": [
+   "https://www.cnbcindonesia.com/news/20261021141337-4-778205/hore-pemerintah-diskon-tiket-kereta-pesawat-kapal-di-libur-nataru",
+   "https://www.cnbcindonesia.com/news/20260622173337-4-744754/libur-sekolah-dan-nataru-tiket-kereta-sampai-kapal-pelni-didiskon-30"
+  ]
+ },
+ {
+  "claim": "l11–l12: The rice aid and BSU were first announced on 30 Sep 2026 by Airlangga after a limited meeting with Prabowo (package then 'sekitar Rp31 triliun'), i.e. before the 21 Okt 'survival' remarks. Rice aid continues earlier 2026 rounds.",
+  "numbers": "30 September",
+  "sources": [
+   "https://economy.okezone.com/read/2026/09/30/320/3245178/bsu-2026-cair-lagi-pekerja-dapat-rp900-000?page=all",
+   "https://katadata.co.id/amp/lifestyle/varia/6ac351d4ab82b/11-daftar-paket-stimulus-ekonomi-rp31-triliun-pemerintah",
+   "https://kabar24.bisnis.com/read/20260929/243/2008164/cekbansos.kemensos.go.id"
+  ]
+ },
+ {
+  "claim": "hook_b hb1 (\"30 kilo beras gratis\") + l13–l14: Rice aid: 33.244.408 KPM (families, desil 1–4), 10 kg per month Oct–Dec 2026 = 30 kg each.",
+  "numbers": "33,2 juta · 10 kg · 3 bulan · 30 kg",
+  "sources": [
+   "https://katadata.co.id/amp/lifestyle/varia/6ac351d4ab82b/11-daftar-paket-stimulus-ekonomi-rp31-triliun-pemerintah",
+   "https://kabar24.bisnis.com/read/20260929/243/2008164/cekbansos.kemensos.go.id",
+   "https://www.rctiplus.com/news/detail/terkini/5487628/997-ribu-ton-beras-disiapkan-untuk-program-bantuan-pangan-pada-oktober-desember-2026"
+  ]
+ },
+ {
+  "claim": "l15: BSU: Rp300.000 per month for 3 months, paid once (Rp900.000), about 13,3 juta workers (Airlangga, 30 Sep).",
+  "numbers": "13,3 juta · Rp300 ribu · 3 bulan · Rp900 ribu",
+  "sources": [
+   "https://economy.okezone.com/read/2026/09/30/320/3245178/bsu-2026-cair-lagi-pekerja-dapat-rp900-000?page=all",
+   "https://katadata.co.id/amp/lifestyle/varia/6ac351d4ab82b/11-daftar-paket-stimulus-ekonomi-rp31-triliun-pemerintah"
+  ]
+ }
+]

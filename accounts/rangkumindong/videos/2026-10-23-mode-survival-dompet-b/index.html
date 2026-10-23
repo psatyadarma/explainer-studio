@@ -1,0 +1,524 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Mode survival: dompet kamu kena apa? — Rangkumin Dong</title>
+<link rel="stylesheet" href="../../../../styles/sticker/sticker.css">
+<script src="../../../../styles/sticker/sticker.js"></script>
+<script src="../../../../styles/sticker/characters/budi.js"></script>
+<script>window.SUB_LEAD = 0.02; window.SUB_MODE = "word";</script>
+<script src="build/timing.js"></script>
+<style>
+  .zone { position: absolute; width: 1080px; height: 1920px; }
+  .big { font-weight: 900; letter-spacing: -6px; line-height: .9; white-space: nowrap; }
+  .lbl { font-weight: 800; font-size: 34px; color: var(--slate); white-space: nowrap; }
+  /* small name tag: identical size for every speaker (equal treatment) */
+  .ntag { width: 440px; height: 118px; background: #fff; border-radius: 26px; display: flex; align-items: center; gap: 18px;
+          padding: 0 22px 0 16px; box-shadow: 0 0 0 8px #fff, 0 16px 24px rgba(27,36,48,.22); }
+  .ntag .ic { flex: 0 0 80px; height: 80px; border-radius: 50%; background: var(--slate); display: flex; align-items: center; justify-content: center; overflow: hidden; }
+  .ntag .nm { font-weight: 900; font-size: 33px; line-height: 1.05; letter-spacing: -1px; white-space: nowrap; }
+  .ntag .rl { font-weight: 700; font-size: 24px; color: var(--slate); white-space: nowrap; margin-top: 4px; }
+  .ntag.noic { padding-left: 26px; }
+  /* real-person photo unit: identical size for every photographed speaker, same outline + paper ledge */
+  .pu { width: 400px; height: 500px; }
+  .pu .pimg { position: absolute; left: -40px; right: -40px; bottom: 40px; height: 480px; display: flex; justify-content: center; align-items: flex-end; overflow: hidden; }
+  .pu .pimg img { width: auto; display: block; }
+  .pu .pledge { position: absolute; left: -10px; right: -10px; bottom: 0; height: 60px; background: var(--paper-2); border-top: 6px solid #fff;
+                border-radius: 14px; box-shadow: 0 -10px 22px rgba(27,36,48,.10); }
+  #credit { position: absolute; left: 60px; width: 860px; top: 1226px; text-align: center; font-weight: 700; font-size: 21px; line-height: 1.3; color: var(--slate); z-index: 6; }
+  #credit span { background: rgba(243,239,230,.9); padding: 1px 8px; border-radius: 6px; }
+  .bub { position: absolute; background: #fff; border-radius: 34px; padding: 24px 34px 28px; text-align: center;
+         font-weight: 900; font-size: 54px; line-height: 1.08; letter-spacing: -1.5px; box-shadow: 0 0 0 9px #fff, 0 18px 26px rgba(27,36,48,.2); }
+  .bub::after { content: ""; position: absolute; bottom: -40px; border: 24px solid transparent; border-top: 26px solid #fff; }
+  .bub.tl::after { left: 120px; } .bub.tr::after { right: 120px; }
+  .bub small { display: block; font-weight: 700; font-size: 28px; color: var(--slate); letter-spacing: 0; margin-top: 10px; }
+  .chip { background: #fff; border-radius: 26px; padding: 16px 28px 20px; font-weight: 900; font-size: 46px; letter-spacing: -1px; white-space: nowrap;
+          box-shadow: 0 0 0 8px #fff, 0 14px 24px rgba(27,36,48,.18); display: flex; align-items: center; gap: 18px; }
+  .stampx { font-weight: 900; letter-spacing: -2px; color: var(--accent); border: 10px solid var(--accent); border-radius: 22px; padding: 6px 28px 12px;
+            white-space: nowrap; background: rgba(255,255,255,.92); }
+  .num { width: 86px; height: 86px; border-radius: 50%; background: var(--accent); color: #fff; font-weight: 900; font-size: 58px;
+         display: flex; align-items: center; justify-content: center; box-shadow: 0 0 0 8px #fff, 0 12px 20px rgba(27,36,48,.2); }
+  .cal { width: 260px; background: #fff; border-radius: 26px; overflow: hidden; text-align: center; box-shadow: 0 0 0 8px #fff, 0 16px 24px rgba(27,36,48,.22); }
+  .cal .top { background: var(--ink); color: #fff; font-weight: 900; font-size: 40px; padding: 10px 0 12px; letter-spacing: 1px; }
+  .cal .d { font-weight: 900; font-size: 130px; letter-spacing: -5px; line-height: 1; padding: 18px 0 22px; }
+  .cardbox { width: 300px; text-align: center; background: #fff; border-radius: 24px; padding: 14px 16px 18px; font-weight: 900; font-size: 40px;
+             box-shadow: 0 0 0 7px #fff, 0 12px 22px rgba(27,36,48,.16); display: flex; align-items: center; justify-content: center; gap: 12px; }
+  #endcard { position: absolute; inset: 0; z-index: 8; display: flex; flex-direction: column; align-items: center; justify-content: center;
+             gap: 26px; background: var(--paper); opacity: 0; }
+  #endcard .logo { background: var(--accent); color: #fff; font-weight: 900; font-size: 116px; letter-spacing: -4px;
+                   padding: 30px 58px 40px; border-radius: 44px; line-height: .95; text-align: center; transform: rotate(-3deg); }
+  #endcard .tl { font-weight: 800; font-size: 54px; color: var(--slate); }
+  #endcard .h { font-weight: 900; font-size: 50px; background: var(--ink); color: #fff; padding: 12px 26px; border-radius: 16px; }
+  #endcard .src { font-weight: 700; font-size: 27px; color: var(--slate); margin-top: 12px; text-align: center; line-height: 1.4; max-width: 880px; }
+</style>
+</head>
+<body>
+<div id="stage">
+  <div id="world">
+
+    <!-- A (0,0): hook / cover — title visible on frame 0 -->
+    <div class="zone" style="left:0; top:0;">
+      <div id="aHd" class="abs headline" style="left:490px; top:560px; width:960px;">
+        <div id="aL1" style="font-size:112px; color:var(--accent); white-space:nowrap;">“HARUS SURVIVAL”</div>
+        <div id="aL2" style="font-size:86px; white-space:nowrap;">DOMPETMU KENA APA?</div></div>
+      <div id="bHd" class="abs headline" style="left:490px; top:540px; width:960px;">
+        <div id="bL1" style="font-size:132px; color:var(--accent); white-space:nowrap;">30 KG BERAS</div>
+        <div id="bL2" style="font-size:96px; white-space:nowrap;">KAMU DAPAT?</div></div>
+      <div id="bLbl" class="abs tag light sticker" style="left:490px; top:790px; font-size:34px;">bansos Okt–Des · desil 1–4</div>
+      <div id="pA" class="abs pu" style="left:250px; top:1070px;"><div class="pimg"><img src="../../assets/people/prabowo-subianto.png" alt=""></div><div class="pledge"></div></div>
+      <div id="aTag" class="abs ntag noic" style="left:250px; top:1385px; width:400px;">
+        <div><div class="nm">Prabowo Subianto</div><div class="rl">Presiden</div></div></div>
+      <div id="bSacks" class="abs" style="left:260px; top:1150px; width:380px; height:520px;"></div>
+      <div id="aWal" class="abs sticker-svg" style="left:720px; top:960px;"></div>
+      <div id="aQ" class="abs tag accent sticker" style="left:860px; top:820px; font-size:70px; padding:6px 30px 12px;">?</div>
+      <div id="aGift" class="abs sticker-svg" style="left:740px; top:1310px;"></div>
+    </div>
+
+    <!-- B (2480,0): tagline -->
+    <div class="zone" style="left:2480px; top:0;">
+      <div id="stamp" class="abs stamp sticker" style="left:540px; top:960px; font-size:110px;">Rangkumin dong!</div>
+    </div>
+
+    <!-- C (0,2400): Istana, the two quotes -->
+    <div class="zone" style="left:0; top:2400px;">
+      <div id="cIst" class="abs sticker-svg" style="left:490px; top:560px;"></div>
+      <div id="cDate" class="abs tag accent sticker" style="left:490px; top:790px; font-size:44px; text-align:center; line-height:1.15;">Rabu 21 Okt<br><span style="font-size:34px; font-weight:700;">Sidang Kabinet Paripurna</span></div>
+      <div id="cB1" class="abs bub tl" style="left:490px; top:640px; width:900px;">“Kita sekarang berada dalam kondisi <span id="cHS" style="border-radius:10px; padding:0 6px;">harus survival</span>.”<small>Prabowo, 21 Okt</small></div>
+      <div id="cB2" class="abs bub tr" style="left:490px; top:640px; width:860px;">“Ya memang harus kita survival.”<small>Bahlil, 21 Okt</small></div>
+      <div id="pP" class="abs pu" style="left:255px; top:1070px;"><div class="pimg"><img src="../../assets/people/prabowo-subianto.png" alt=""></div><div class="pledge"></div></div>
+      <div id="pB" class="abs pu" style="left:735px; top:1070px;"><div class="pimg"><img src="../../assets/people/bahlil-lahadalia.png" alt=""></div><div class="pledge"></div></div>
+      <div id="cTP" class="abs ntag noic" style="left:255px; top:1385px; width:420px;"><div><div class="nm">Prabowo Subianto</div><div class="rl">Presiden</div></div></div>
+      <div id="cTB" class="abs ntag noic" style="left:735px; top:1385px; width:420px;"><div><div class="nm">Bahlil Lahadalia</div><div class="rl">Menteri ESDM</div></div></div>
+    </div>
+
+    <!-- D (1240,2400): Brent -->
+    <div class="zone" style="left:1240px; top:2400px;">
+      <div id="dLat" class="abs tag sticker" style="left:490px; top:470px; font-size:48px;">Latarnya?</div>
+      <div id="dBar" class="abs sticker-svg" style="left:490px; top:720px;"></div>
+      <div id="dSen" class="abs tag accent sticker" style="left:770px; top:620px; font-size:42px;">Senin</div>
+      <div id="dNum" class="abs big" style="left:490px; top:1060px; font-size:190px; color:var(--ink);">US$<span id="dNumV">0</span></div>
+      <div id="dPer" class="abs" style="left:490px; top:1205px; font-weight:900; font-size:56px; white-space:nowrap;">per barel</div>
+      <div id="dSrc" class="abs lbl" style="left:490px; top:1300px; font-size:30px;">Brent, tutup 19 Okt · Bisnis</div>
+    </div>
+
+    <!-- E (2480,2400): gas export option -->
+    <div class="zone" style="left:2480px; top:2400px;">
+      <div id="eOpsi" class="abs" style="left:490px; top:470px; font-weight:900; font-size:76px; letter-spacing:-2px; background:var(--hi); padding:6px 32px 14px; border-radius:18px; white-space:nowrap; box-shadow:0 0 0 8px #fff, 0 14px 22px rgba(27,36,48,.2);">OPSI</div>
+      <div id="eIdn" class="abs sticker-svg" style="left:280px; top:950px;"></div>
+      <div id="eIdnL" class="abs tag light sticker" style="left:280px; top:1110px; font-size:38px;">Indonesia</div>
+      <div id="eNb" class="abs" style="left:840px; top:800px; width:250px; height:200px; border:7px dashed #9AA6B1; border-radius:30px; background:rgba(255,255,255,.6);
+           display:flex; align-items:center; justify-content:center; text-align:center; font-weight:900; font-size:40px; line-height:1.05; color:var(--slate);">negara<br>tetangga</div>
+      <svg id="eArr" class="abs" style="left:590px; top:810px;"  width="300" height="60" viewBox="0 0 300 60"><path id="eArrP" d="M10 30 H260" stroke="#3E5568" stroke-width="10" stroke-dasharray="22 16" stroke-linecap="round"/><path d="M246 10 L282 30 L246 50" stroke="#3E5568" stroke-width="10" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <div id="eShip" class="abs sticker-svg" style="left:590px; top:930px;"></div>
+      <div id="eGas" class="abs tag sticker" style="left:600px; top:1040px; font-size:34px;">ekspor gas</div>
+      <div id="eX" class="abs" style="left:840px; top:620px; font-weight:900; font-size:150px; color:var(--accent); line-height:1;">?</div>
+      <div id="eDn" class="abs tag accent sticker" style="left:400px; top:1270px; font-size:46px;">dalam negeri dulu</div>
+      <div id="eBk" class="abs" style="left:490px; top:1410px; font-weight:900; font-size:60px; letter-spacing:-2px; color:#fff; background:var(--ink); padding:10px 30px 16px; border-radius:18px; white-space:nowrap;">BELUM KEPUTUSAN</div>
+    </div>
+
+    <!-- F (0,4800): wallet card 1, Pertalite -->
+    <div class="zone" style="left:0; top:4800px;">
+      <div id="fWal" class="abs sticker-svg" style="left:490px; top:520px;"></div>
+      <div id="fWalL" class="abs tag sticker" style="left:490px; top:700px; font-size:40px;">dompetmu</div>
+      <div id="fN1" class="abs num" style="left:130px; top:860px;">1</div>
+      <div id="fPump" class="abs sticker-svg" style="left:300px; top:1010px;"></div>
+      <div id="fPL" class="abs tag light sticker" style="left:300px; top:1215px; font-size:40px;">Pertalite</div>
+      <div id="fBbm" class="abs chip" style="left:720px; top:880px; font-size:40px;">BBM subsidi</div>
+      <div id="fSt" class="abs stampx" style="left:720px; top:1020px; font-size:80px;">NGGAK NAIK</div>
+      <div id="fKata" class="abs lbl" style="left:720px; top:1125px; font-size:30px;">kata Bahlil · 21 Okt</div>
+      <div id="fWam" class="abs ntag" style="left:540px; top:1395px; width:520px;"><div class="ic person"></div>
+        <div><div class="nm">Wamen ESDM</div><div class="rl">akhir September</div></div></div>
+      <div id="fTil" class="abs tag accent sticker" style="left:700px; top:1225px; font-size:40px;">ditahan sampai akhir 2026</div>
+    </div>
+
+    <!-- F2 (1240,4800): card 2, Airlangga's package -->
+    <div class="zone" style="left:1240px; top:4800px;">
+      <div id="gN2" class="abs num" style="left:120px; top:470px;">2</div>
+      <div id="pG" class="abs pu" style="left:255px; top:860px;"><div class="pimg"><img src="../../assets/people/airlangga-hartarto.png" alt=""></div><div class="pledge"></div></div>
+      <div id="gTag" class="abs ntag noic" style="left:255px; top:1175px; width:440px;"><div><div class="nm">Airlangga Hartarto</div><div class="rl">Menko Perekonomian</div></div></div>
+      <div id="gMoney" class="abs sticker-svg" style="left:735px; top:560px;"></div>
+      <div id="gSek" class="abs lbl" style="left:735px; top:700px; font-size:34px;">sekitar</div>
+      <div id="gNum" class="abs big" style="left:735px; top:790px; font-size:118px; letter-spacing:-5px;">Rp<span id="gNumV">0</span> T</div>
+      <div id="gAL" class="abs lbl" style="left:735px; top:905px; font-size:32px; color:var(--ink);">isinya antara lain:</div>
+      <div id="gI1" class="abs cardbox" style="left:735px; top:1000px;"><span id="gI1i"></span>beras</div>
+      <div id="gI2" class="abs cardbox" style="left:735px; top:1120px;"><span id="gI2i"></span>BSU</div>
+      <div id="gI3" class="abs cardbox" style="left:735px; top:1240px;"><span id="gI3i"></span>tiket Nataru</div>
+      <!-- lower part (l10): trains and ships -->
+      <div id="gTrain" class="abs sticker-svg" style="left:270px; top:1640px;"></div>
+      <div id="gShip" class="abs sticker-svg" style="left:720px; top:1640px;"></div>
+      <div id="gTL" class="abs tag light sticker" style="left:270px; top:1800px; font-size:38px;">kereta</div>
+      <div id="gSL" class="abs tag light sticker" style="left:720px; top:1800px; font-size:38px;">kapal Pelni</div>
+      <div id="gP1" class="abs stampx" style="left:330px; top:1950px; font-size:96px;">-30%</div>
+      <div id="gP2" class="abs stampx" style="left:780px; top:1950px; font-size:96px;">-30%</div>
+    </div>
+
+    <!-- G (2480,4800): the turn -->
+    <div class="zone" style="left:2480px; top:4800px;">
+      <div id="tHd" class="abs headline" style="left:490px; top:470px; font-size:68px; white-space:nowrap;">Tapi… <span class="acc">yang sering kelewat</span></div>
+      <svg id="tLine" class="abs" style="left:490px; top:830px;" width="860" height="20" viewBox="0 0 860 20"><path d="M10 10 H850" stroke="#9AA6B1" stroke-width="10" stroke-linecap="round"/></svg>
+      <div id="tC1" class="abs cal" style="left:240px; top:830px;"><div class="top">SEP</div><div class="d">30</div></div>
+      <svg id="tCirc" class="abs" style="left:240px; top:850px;" width="320" height="320" viewBox="0 0 320 320"><ellipse id="tCircP" cx="160" cy="160" rx="140" ry="130" fill="none" stroke="#E7212B" stroke-width="12" stroke-linecap="round" transform="rotate(-80 160 160)"/></svg>
+      <div id="tC2" class="abs cal" style="left:740px; top:830px;"><div class="top">OKT</div><div class="d">21</div></div>
+      <div id="tSurv" class="abs bub tr" style="left:740px; top:640px; font-size:40px; padding:14px 26px 18px;">“survival”</div>
+      <div id="tBer" class="abs cardbox" style="left:740px; top:1110px; width:260px;"><span id="tBi"></span>beras</div>
+      <div id="tBsu" class="abs cardbox" style="left:740px; top:1225px; width:260px;"><span id="tSi"></span>BSU</div>
+      <div id="tNew" class="abs stampx" style="left:490px; top:1380px; font-size:72px;">BUKAN HAL BARU</div>
+      <div id="tSeb" class="abs tag sticker" style="left:490px; top:470px; font-size:38px;">sebelum kata “survival” muncul</div>
+    </div>
+
+    <!-- H (0,7200): payoff 1, beras -->
+    <div class="zone" style="left:0; top:7200px;">
+      <div id="hHd" class="abs headline" style="left:490px; top:450px; font-size:84px; white-space:nowrap;">Kamu dapat apa?</div>
+      <div id="hBudi" class="abs sticker-svg" style="left:170px; top:900px; width:270px; height:360px;"></div>
+      <div id="hIl" class="abs lbl" style="left:170px; top:1110px; font-size:24px;">ilustrasi</div>
+      <div id="hGift" class="abs sticker-svg" style="left:600px; top:760px;"></div>
+      <div id="hKpm" class="abs tag sticker" style="left:600px; top:610px; font-size:40px; text-align:center; line-height:1.1;"><span id="hKpmV">0</span> juta keluarga<br><span style="font-size:28px; font-weight:700;">penerima · desil 1–4</span></div>
+      <div id="hSacks" class="abs" style="left:420px; top:1060px; width:380px; height:520px;"></div>
+      <div id="hTot" class="abs big" style="left:780px; top:1090px; font-size:150px; color:var(--accent);"><span id="hTotV">0</span> kg</div>
+      <div id="hPer" class="abs lbl" style="left:780px; top:1210px; font-size:34px; color:var(--ink);">10 kg × 3 bulan</div>
+    </div>
+
+    <!-- H2 (1240,7200): payoff 2, BSU -->
+    <div class="zone" style="left:1240px; top:7200px;">
+      <div id="bTag" class="abs tag sticker" style="left:490px; top:470px; font-size:46px;">BSU · subsidi upah</div>
+      <div id="bPk" class="abs" style="left:490px; top:640px; font-weight:900; font-size:76px; letter-spacing:-2px; white-space:nowrap;"><span id="bPkV">0</span> juta pekerja</div>
+      <div id="bNotes" class="abs" style="left:300px; top:1010px; width:420px; height:440px;"></div>
+      <div id="bTot" class="abs big" style="left:740px; top:1000px; font-size:118px; color:var(--accent); letter-spacing:-5px;">Rp<span id="bTotV">0</span><br><span style="font-size:76px; letter-spacing:-2px;">ribu</span></div>
+      <div id="bPer" class="abs lbl" style="left:740px; top:1230px; font-size:32px; color:var(--ink);">Rp300 rb × 3 bulan</div>
+    </div>
+
+    <!-- I (2480,7200): CTA -->
+    <div class="zone" style="left:2480px; top:7200px;">
+      <div id="iHd" class="abs headline" style="left:490px; top:560px; width:900px; font-size:72px; line-height:1.08;">Anggaran di<br><span class="acc">“mode survival”:</span><br>apa yang didahulukan?</div>
+      <div id="iWal" class="abs sticker-svg" style="left:300px; top:1060px;"></div>
+      <div id="iCom" class="abs sticker-svg" style="left:700px; top:1040px;"></div>
+      <div id="iK" class="abs tag accent sticker" style="left:700px; top:1270px; font-size:64px;">Komen!</div>
+    </div>
+  </div>
+
+  <div id="brand"><div class="dot"></div><b>Rangkumin Dong</b></div>
+  <div id="credit"></div>
+  <div id="subs"></div>
+  <div id="endcard">
+    <div class="logo">RANGKUMIN<br>DONG</div>
+    <div class="tl">Berita ribet? Rangkumin dong.</div>
+    <div class="h">@rangkumindong</div>
+    <div class="src">Sumber: detikFinance, CNN Indonesia, Kompas.id, The Jakarta Post,<br>CNBC Indonesia, Bisnis, Infobanknews, Antara, Suara, Okezone, Katadata<br>· lengkap di komentar</div>
+    <div class="src" style="font-size:23px; margin-top:0;">Foto: Prabowo: Kemensetneg RI; Bahlil: Kementerian Investasi RI;<br>Airlangga: Kemenperin RI (domain publik), via Wikimedia Commons</div>
+    <div class="src" style="font-size:30px; color:var(--ink); margin-top:0;">Semua kutipan sesuai sumber</div>
+  </div>
+  <div id="progress"></div>
+</div>
+
+<script>
+const $ = (id) => document.getElementById(id);
+const T = window.TIMING;
+window.DURATION = T.duration;
+const at = K.at, W = K.word;
+const VB = T.variant === 'b';
+const H1 = VB ? 'hb1' : 'h1', H2 = VB ? 'hb2' : 'h2';
+
+// ---------- SVG builders (generic icons, no logos) ----------
+const personSil = (s = 80) => `<svg width="${s}" height="${s}" viewBox="0 0 106 106"><circle cx="53" cy="40" r="19" fill="#fff"/><path d="M14 106 Q14 66 53 66 Q92 66 92 106 Z" fill="#fff"/></svg>`;
+const walletSVG = (s = 1) => `<svg width="${300 * s}" height="${220 * s}" viewBox="0 0 300 220">
+  <rect x="20" y="30" width="230" height="40" rx="14" fill="#2F7A45"/><rect x="40" y="18" width="190" height="40" rx="10" fill="#8DB580"/>
+  <rect x="10" y="50" width="270" height="160" rx="26" fill="#8A5A3C"/><rect x="10" y="50" width="270" height="34" rx="16" fill="#A06B48"/>
+  <rect x="190" y="100" width="100" height="64" rx="18" fill="#6E452D"/><circle cx="224" cy="132" r="12" fill="#FFD23F"/></svg>`;
+const giftSVG = (open = 0) => `<svg width="300" height="300" viewBox="0 0 300 300">
+  <g transform="translate(150 132) rotate(${-28 * open}) translate(${-150 + 80 * open} ${-132 - 70 * open})">
+    <rect x="30" y="100" width="240" height="56" rx="10" fill="#FF5A36"/><rect x="132" y="100" width="36" height="56" fill="#FFD23F"/>
+    <path d="M150 100 q-50 -60 -70 -20 q10 24 70 20 q50 -60 70 -20 q-10 24 -70 20" fill="#FFD23F"/></g>
+  <rect x="44" y="156" width="212" height="130" rx="12" fill="#E8492A"/><rect x="132" y="156" width="36" height="130" fill="#FFD23F"/>
+  <g opacity="${1 - open}"><rect x="120" y="196" width="60" height="50" rx="8" fill="#1B2430"/><path d="M132 198 v-14 a18 18 0 0 1 36 0 v14" stroke="#1B2430" stroke-width="9" fill="none"/>
+  <circle cx="150" cy="218" r="7" fill="#FFD23F"/></g></svg>`;
+const sackSVG = (lbl = '10 kg') => `<svg width="190" height="150" viewBox="0 0 190 150">
+  <path d="M30 30 Q24 14 44 14 H146 Q166 14 160 30 L172 120 Q176 142 150 142 H40 Q14 142 18 120 Z" fill="#F4EAD2" stroke="#B9A57A" stroke-width="6"/>
+  <path d="M40 30 H150" stroke="#B9A57A" stroke-width="6"/><rect x="40" y="58" width="110" height="56" rx="10" fill="#2F7A45"/>
+  <text x="95" y="98" text-anchor="middle" font-family="Inter" font-weight="900" font-size="34" fill="#fff">${lbl}</text></svg>`;
+const istanaSVG = () => `<svg width="300" height="240" viewBox="0 0 300 240"><rect x="146" y="6" width="5" height="62" fill="#1B2430"/>
+  <rect x="151" y="8" width="38" height="12" fill="#E7212B"/><rect x="151" y="20" width="38" height="12" fill="#fff" stroke="#DDD" stroke-width="1"/>
+  <path d="M30 104 L150 60 L270 104 Z" fill="#3E5568"/><rect x="34" y="104" width="232" height="14" fill="#3E5568"/>
+  ${[0, 1, 2, 3, 4, 5].map((i) => `<rect x="${50 + i * 38}" y="122" width="16" height="78" rx="3" fill="#fff" stroke="#3E5568" stroke-width="4"/>`).join('')}
+  <rect x="20" y="202" width="260" height="22" rx="6" fill="#1B2430"/></svg>`;
+const barrelSVG = () => `<svg width="230" height="270" viewBox="0 0 230 270">
+  <path d="M30 20 Q115 0 200 20 Q216 135 200 250 Q115 270 30 250 Q14 135 30 20 Z" fill="#1B2430"/>
+  <path d="M22 80 Q115 64 208 80 M20 190 Q115 206 210 190" stroke="#3E5568" stroke-width="14" fill="none"/>
+  <ellipse cx="115" cy="22" rx="85" ry="14" fill="#3E5568"/><circle cx="150" cy="22" r="8" fill="#1B2430"/>
+  <path d="M115 112 q-26 34 0 48 q26 -14 0 -48z" fill="#FFD23F"/></svg>`;
+const IDN = "M422.113,111.216L422.273,140.135L422.4,169.223L414.53,161.873L405.545,160.087L403.347,162.63L392.132,162.902L395.891,155.626L401.467,153.149L399.173,143.464L394.904,135.995L377.762,128.477L370.466,127.726L357.18,119.527L354.567,123.836L351.158,124.616L349.15,121.373L349.119,117.516L342.364,113.166L351.891,109.972L358.199,110.137L357.466,107.798L344.499,107.783L340.994,102.507L333.092,100.874L329.365,96.484L341.281,94.341L345.805,91.465L360.015,95.09L361.417,98.386L363.902,112.701L373.047,118.011L380.438,108.607L390.602,103.271L398.472,103.256L406.055,106.344L412.619,109.522ZM280.234,167.206L281.126,168.98L281.286,171.697L275.519,178.4L267.936,180.379L266.884,179.298L267.681,176.24L271.472,170.771ZM362.023,149.36L361.162,142.65L362.723,139.457L364.571,136.447L366.579,139.051L366.579,143.298ZM217.499,51.542L212.465,59.543L218.965,67.942L217.435,72.019L227.376,80.2L216.894,81.249L213.93,87.286L214.313,95.3L205.806,101.353L205.583,110.182L202.174,123.73L200.867,120.578L190.799,124.571L187.294,119.152L180.986,118.642L176.557,115.806L166.043,118.987L162.825,114.711L157.026,115.191L149.73,114.171L148.359,102.282L143.963,99.825L139.693,92.259L138.482,84.514L139.502,76.305L144.759,70.43L146.257,76.349L152.31,81.354L158.014,79.541L163.653,80.185L168.815,75.705L173.052,74.926L181.432,77.413L188.632,75.525L193.189,63.203L196.598,60.128L199.656,50.04L209.82,50.04ZM319.201,113.001L328.918,115.581L332.136,122.364L324.681,118.702L317.289,117.966L312.287,118.551L306.169,118.236L308.24,113.361ZM297.089,121.763L290.971,120.142L289.251,116.331L298.204,115.896L300.402,118.822ZM306.456,68.946L307.093,73.772L312.319,74.551L313.147,78.162L312.669,85.908L308.113,85.039L306.775,90.416L310.407,95.09L307.922,96.154L304.353,90.551L301.741,79.241L303.525,72.169ZM262.169,80.44L272.332,80.065L281.094,73.637L282.624,75.615L275.519,84.41L268.86,86.102L260.353,84.38L245.601,84.814L237.858,86.087L236.616,92.783L244.517,100.664L249.297,96.648L265.801,93.637L265.1,97.712L261.245,96.424L257.389,101.623L249.583,105.055L257.963,116.406L256.37,119.452L264.303,129.695L264.24,135.529L259.524,138.132L256.051,135.017L260.321,127.741L251.623,131.183L249.424,128.718L250.571,125.292L244.199,120.097L244.868,111.456L238.942,114.141L239.706,124.481L240.057,137.199L234.449,138.479L230.658,135.875L233.175,127.696L231.805,119.137L228.077,119.077L225.337,113.001L229.001,107.198L230.275,100.169L234.704,86.821L236.552,83.181L244.103,76.604L251.017,79.211ZM238.846,179.465L227.121,173.17L235.373,171.408L240.025,174.142L243.115,176.879L242.574,179.298ZM248.118,164.023L254.012,163.342L261.946,160.072L260.639,165.038L247.353,167.585L235.564,166.478L235.564,163.205L242.574,161.343ZM220.844,162.463L226.325,161.737L228.523,165.538L218.295,167.342L212.146,168.54L207.399,168.464L210.426,163.311L215.3,163.236L217.658,160.072ZM134.34,145.152L135.551,148.319L152.533,149.209L154.477,145.529L170.886,149.812L174.104,155.596L187.39,157.228L198.255,162.539L188.154,165.947L178.405,162.342L170.408,162.584L161.232,161.918L152.948,160.314L142.688,156.911L136.188,156.019L132.492,157.138L116.371,153.466L114.841,149.631L106.717,148.967L112.802,140.466L123.539,140.993L130.676,144.474ZM97.923,97.787L99.42,103.961L102.511,108.907L109.011,109.687L113.312,115.296L111.082,126.329L110.731,140.075L100.918,140.255L93.462,132.822L82.119,125.578L78.328,120.202L71.637,112.986L67.24,106.344L60.486,93.952L52.711,86.567L50.131,78.956L46.849,72.049L38.883,66.472L34.264,58.883L27.605,53.93L18.365,44.134L17.6,39.621L23.271,39.982L36.972,41.697L44.81,50.371L51.66,56.392L56.535,60.083L64.914,69.606L73.931,69.74L81.355,75.81L86.485,83.226L93.207,87.271L89.671,94.491L94.737,97.562Z";
+const islandsSVG = () => `<svg width="440" height="220" viewBox="0 0 440 220"><path d="${IDN}" fill="#8DB580" stroke="#2F7A45" stroke-width="3" stroke-linejoin="round"/></svg>`;
+const shipSVG = (c = '#3E5568', tanks = true) => `<svg width="230" height="130" viewBox="0 0 230 130">
+  ${tanks ? '<circle cx="70" cy="56" r="26" fill="#fff" stroke="#3E5568" stroke-width="6"/><circle cx="130" cy="56" r="26" fill="#fff" stroke="#3E5568" stroke-width="6"/>' :
+  '<rect x="60" y="30" width="110" height="46" rx="8" fill="#fff" stroke="#3E5568" stroke-width="6"/><rect x="74" y="42" width="18" height="14" fill="#9AA6B1"/><rect x="104" y="42" width="18" height="14" fill="#9AA6B1"/><rect x="134" y="42" width="18" height="14" fill="#9AA6B1"/><rect x="150" y="10" width="16" height="24" fill="#FF5A36"/>'}
+  <rect x="170" y="36" width="34" height="42" rx="6" fill="#1B2430"/>
+  <path d="M10 78 H220 L196 116 H34 Z" fill="${c}"/><path d="M0 122 Q30 112 60 122 T120 122 T180 122 T240 122" stroke="#5B8FB9" stroke-width="6" fill="none"/></svg>`;
+const pumpSVG = () => `<svg width="200" height="260" viewBox="0 0 200 260">
+  <rect x="30" y="20" width="110" height="220" rx="18" fill="#2F7A45"/><rect x="48" y="40" width="74" height="60" rx="8" fill="#fff"/>
+  <rect x="58" y="56" width="54" height="10" rx="4" fill="#1B2430"/><rect x="58" y="76" width="34" height="10" rx="4" fill="#9AA6B1"/>
+  <rect x="20" y="230" width="130" height="22" rx="8" fill="#1B2430"/>
+  <path d="M140 80 H160 Q176 80 176 96 V190 Q176 206 164 206 Q152 206 152 190 V140" stroke="#1B2430" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <rect x="146" y="118" width="22" height="34" rx="6" fill="#1B2430"/></svg>`;
+const moneySVG = () => `<svg width="260" height="170" viewBox="0 0 260 170">
+  ${[0, 1, 2, 3].map((i) => `<rect x="${20 + i * 6}" y="${110 - i * 26}" width="210" height="50" rx="10" fill="#8DB580" stroke="#2F7A45" stroke-width="5"/><circle cx="${125 + i * 6}" cy="${135 - i * 26}" r="13" fill="#2F7A45"/>`).join('')}</svg>`;
+const sackIc = (s = 50) => `<svg width="${s}" height="${s}" viewBox="0 0 50 50"><path d="M12 10 H38 L44 40 Q45 46 38 46 H12 Q5 46 6 40 Z" fill="#F4EAD2" stroke="#B9A57A" stroke-width="4"/><rect x="14" y="22" width="22" height="12" rx="3" fill="#2F7A45"/></svg>`;
+const slipIc = (s = 50) => `<svg width="${s}" height="${s}" viewBox="0 0 50 50"><path d="M8 4 H42 V46 L36 42 L30 46 L24 42 L18 46 L12 42 L8 46 Z" fill="#fff" stroke="#1B2430" stroke-width="4" stroke-linejoin="round"/><path d="M15 16 H35 M15 25 H35 M15 34 H27" stroke="#3E5568" stroke-width="4" stroke-linecap="round"/></svg>`;
+const ticketIc = (s = 50) => `<svg width="${s}" height="${s}" viewBox="0 0 50 50"><path d="M4 14 H46 V22 Q40 25 46 28 V36 H4 V28 Q10 25 4 22 Z" fill="#FFD23F" stroke="#C99A12" stroke-width="4" stroke-linejoin="round"/><path d="M30 16 V34" stroke="#C99A12" stroke-width="3" stroke-dasharray="3 3"/></svg>`;
+const trainSVG = () => `<svg width="300" height="170" viewBox="0 0 300 170">
+  <rect x="20" y="20" width="260" height="110" rx="30" fill="#FF5A36"/><rect x="20" y="70" width="260" height="14" fill="#fff"/>
+  ${[0, 1, 2, 3].map((i) => `<rect x="${44 + i * 58}" y="36" width="40" height="28" rx="6" fill="#C9D3DC"/>`).join('')}
+  <circle cx="80" cy="140" r="16" fill="#1B2430"/><circle cx="220" cy="140" r="16" fill="#1B2430"/><rect x="10" y="156" width="280" height="8" rx="4" fill="#3E5568"/></svg>`;
+const noteSVG = () => `<svg width="320" height="140" viewBox="0 0 320 140"><rect x="6" y="6" width="308" height="128" rx="14" fill="#8DB580" stroke="#2F7A45" stroke-width="6"/>
+  <circle cx="160" cy="70" r="34" fill="#2F7A45"/><text x="160" y="83" text-anchor="middle" font-family="Inter" font-weight="900" font-size="36" fill="#fff">Rp</text>
+  <text x="34" y="46" font-family="Inter" font-weight="900" font-size="30" fill="#1B2430">300 rb</text><text x="286" y="118" text-anchor="end" font-family="Inter" font-weight="900" font-size="30" fill="#1B2430">300 rb</text></svg>`;
+const commentSVG = () => `<svg width="260" height="230" viewBox="0 0 260 230"><path d="M20 30 Q20 10 40 10 H220 Q240 10 240 30 V150 Q240 170 220 170 H110 L60 214 L70 170 H40 Q20 170 20 150 Z" fill="#fff" stroke="#1B2430" stroke-width="8" stroke-linejoin="round"/>
+  <circle cx="80" cy="90" r="14" fill="#1B2430"/><circle cx="130" cy="90" r="14" fill="#1B2430"/><circle cx="180" cy="90" r="14" fill="#1B2430"/></svg>`;
+
+// ---------- static parts ----------
+document.querySelectorAll('.pu img').forEach((im) => { const f = () => { im.style.height = '470px'; }; im.complete ? f() : im.addEventListener('load', f); });
+document.querySelectorAll('.ic.person').forEach((d) => (d.innerHTML = personSil()));
+$('aWal').innerHTML = walletSVG(1); $('fWal').innerHTML = walletSVG(0.8); $('iWal').innerHTML = walletSVG(0.9);
+$('cIst').innerHTML = istanaSVG();
+$('dBar').innerHTML = barrelSVG();
+$('eIdn').innerHTML = islandsSVG();
+$('eShip').innerHTML = shipSVG('#3E5568', true);
+$('fPump').innerHTML = pumpSVG();
+$('gMoney').innerHTML = moneySVG();
+$('gI1i').innerHTML = sackIc(); $('gI2i').innerHTML = slipIc(); $('gI3i').innerHTML = ticketIc();
+$('tBi').innerHTML = sackIc(40); $('tSi').innerHTML = slipIc(40);
+$('gTrain').innerHTML = trainSVG(); $('gShip').innerHTML = shipSVG('#1B2430', false).replace('width="230" height="130"', 'width="300" height="170"');
+$('iCom').innerHTML = commentSVG();
+const mkStack = (box, n, html, dx, dy) => { box.innerHTML = Array.from({ length: n }, (_, i) =>
+  `<div class="sticker-svg" style="position:absolute; left:${dx(i)}px; top:${dy(i)}px; opacity:0;">${html}</div>`).join(''); return [...box.children]; };
+const bSacks = mkStack($('bSacks'), 3, sackSVG(), (i) => 95 + (i % 2) * 14 - 7, (i) => 360 - i * 128);
+const hSacks = mkStack($('hSacks'), 3, sackSVG(), (i) => 95 + (i % 2) * 14 - 7, (i) => 360 - i * 128);
+const bNotes = mkStack($('bNotes'), 3, noteSVG(), (i) => 50 + (i % 2) * 18, (i) => 300 - i * 150);
+['aHd', 'aTag', 'pA', 'aGift'].forEach((id) => (VB && id !== 'aGift') && ($(id).style.display = 'none'));
+['bHd', 'bLbl', 'bSacks'].forEach((id) => !VB && ($(id).style.display = 'none'));
+const tcl = $('tCircP').getTotalLength();
+
+let T_ = 0;
+function photo(el, tIn, tOut = Infinity) {
+  const o = K.clamp((T_ - tOut) / 0.25);
+  el.style.opacity = T_ >= tIn ? (1 - o) * K.clamp((T_ - tIn) / 0.1) : 0;
+  el.style.transform = `translate(-50%,-50%) scale(${0.92 + 0.08 * K.spring(T_ - tIn)})`;
+  const s = K.spring(T_ - tIn - 0.05, 150, 16);
+  el.querySelector('img').style.transform = `translateY(${(1 - s) * 470}px)`;
+}
+const CREDIT = { 'prabowo-subianto.png': 'Foto Prabowo: Kemensetneg RI (domain publik), via Wikimedia Commons',
+  'bahlil-lahadalia.png': 'Foto Bahlil: Kementerian Investasi RI (domain publik), via Wikimedia Commons',
+  'airlangga-hartarto.png': 'Foto Airlangga: Kemenperin RI (domain publik), via Wikimedia Commons' };
+const pulse = (el, tIn, amt = 0.12, rot = 0) => { const k = K.clamp((T_ - tIn) / 0.45); el.style.transform = `translate(-50%,-50%) scale(${1 + amt * Math.sin(Math.PI * k)}) rotate(${rot}deg)`; };
+const hi = (el, on) => { el.style.background = on ? '#FFD23F' : 'transparent'; };
+const drop = (el, t, tIn) => { const s = K.spring(t - tIn, 260, 16); el.style.opacity = t >= tIn ? 1 : 0; el.style.transform = `${el.classList.contains('abs') ? 'translate(-50%,-50%) ' : ''}translateY(${(1 - s) * -260}px)`; };
+const count = (el, t, t0, dur, v, dec = 0) => { const k = K.easeOut(K.prog(t, t0, dur)); el.textContent = (v * k).toFixed(dec).replace('.', ','); };
+
+function seek(t) {
+  T_ = t;
+  const Z = (x, y, z = 1.0) => ({ x, y: y + 200 / z, z });
+  const zc = (ox, oy) => Z(ox + 540, oy + 960);
+  const keys = [
+    { t: 0, ...zc(0, 0) },
+    { t: at('rd', -0.3), ...Z(2480 + 540, 960, 1.1) },
+    { t: at('l1', -0.3), ...zc(0, 2400) },
+    { t: at('l3', -0.3), ...zc(1240, 2400) },
+    { t: at('l4', -0.3), ...zc(2480, 2400) },
+    { t: at('l6', -0.3), ...zc(0, 4800) },
+    { t: at('l8', -0.3), ...zc(1240, 4800) },
+    { t: at('l10', -0.35), ...zc(1240, 4800 + 760) },
+    { t: at('l11', -0.3), ...zc(2480, 4800) },
+    { t: at('l13', -0.3), ...zc(0, 7200) },
+    { t: at('l15', -0.3), ...zc(1240, 7200) },
+    { t: at('cta', -0.3), ...zc(2480, 7200) },
+  ];
+  K.camera($('world'), keys, t, 1080, 1920, 0.85);
+
+  // ---------- A: hook (title on frame 0; something changes every ~1 s) ----------
+  const h1 = at(H1);
+  const th = 1 + 0.06 * Math.exp(-6 * Math.max(0, t - h1)) * Math.sin(Math.max(0, t - h1) * 14);
+  if (!VB) {
+    $('aHd').style.transform = `translate(-50%,-50%) scale(${th})`;
+    photo($('pA'), 0.75);
+    K.pop($('aTag'), t, 0.95, Infinity, -1);
+    $('aL1').style.textShadow = t > W('h1', 'harus') - 0.05 && t < at('h2') ? `0 0 ${10 + 8 * Math.sin(t * 9)}px rgba(255,210,63,.9)` : 'none';
+    drop($('aWal'), t, W('h1', 'dompet') - 0.2);
+    K.pop($('aQ'), t, W('h1', 'apa') - 0.1, Infinity, 8 * Math.sin(t * 3));
+  } else {
+    $('bHd').style.transform = `translate(-50%,-50%) scale(${th})`;
+    const sk = [W('hb1', '30') - 0.05, W('hb1', 'kilo') - 0.05, W('hb1', 'beras') - 0.05];
+    bSacks.forEach((el, i) => drop(el, t, sk[i]));
+    K.pop($('bLbl'), t, W('hb1', 'gratis') - 0.05, Infinity, -2);
+    drop($('aWal'), t, W('hb1', 'kamu') - 0.2);
+    K.pop($('aQ'), t, W('hb1', 'dapat') - 0.1, Infinity, 8 * Math.sin(t * 3));
+  }
+  const g0 = at(H2, -0.1);
+  K.pop($('aGift'), t, g0, Infinity, 0);
+  if (t > g0 + 0.3) { const wg = W(H2, 'paling'); const k = t > wg ? Math.exp(-3 * (t - wg)) : 0.25;
+    $('aGift').style.transform = `translate(-50%,-50%) rotate(${10 * k * Math.sin(t * 16)}deg)`; }
+  $('aGift').innerHTML = giftSVG(0);
+  if (t > W(H2, 'dompetmu') - 0.05) pulse($('aWal'), W(H2, 'dompetmu') - 0.05, 0.1);
+
+  // ---------- B: tagline ----------
+  K.pop($('stamp'), t, at('rd', -0.1), at('l1', -0.2), -6);
+
+  // ---------- C: Istana quotes ----------
+  const pr = W('l1', 'prabowo');
+  K.pop($('cIst'), t, at('l1', -0.1), pr + 0.55, 0);
+  K.pop($('cDate'), t, W('l1', 'sidang') - 0.1, pr + 0.55, -3);
+  photo($('pP'), pr - 0.25);
+  K.pop($('cTP'), t, pr - 0.05, Infinity, -1);
+  K.pop($('cB1'), t, W('l1', 'kita') - 0.1, W('l2', 'bahlil') + 0.3, 0);
+  hi($('cHS'), t > W('l1', 'harus') - 0.05);
+  photo($('pB'), W('l2', 'menteri') - 0.1);
+  K.pop($('cTB'), t, W('l2', 'bahlil') - 0.1, Infinity, 1);
+  K.pop($('cB2'), t, W('l2', 'ya') - 0.1, Infinity, 0);
+
+  // ---------- D: Brent ----------
+  K.pop($('dLat'), t, at('l3', -0.1), Infinity, -2);
+  K.pop($('dBar'), t, W('l3', 'minyak') - 0.1, Infinity, 0);
+  $('dBar').style.transform += ` rotate(${3 * Math.sin(t * 2)}deg)`;
+  K.pop($('dSen'), t, W('l3', 'senin') - 0.05, Infinity, 6);
+  K.pop($('dNum'), t, W('l3', 'ditutup') - 0.05, Infinity, 0);
+  count($('dNumV'), t, W('l3', '109') - 0.1, 0.8, 109);
+  K.pop($('dPer'), t, W('l3', 'per') - 0.05, Infinity, 0);
+  K.pop($('dSrc'), t, W('l3', 'barel') + 0.1, Infinity, 0);
+
+  // ---------- E: gas option ----------
+  K.pop($('eOpsi'), t, W('l4', 'opsi') - 0.1, Infinity, -3);
+  if (t > W('l5', 'opsi') - 0.05) pulse($('eOpsi'), W('l5', 'opsi') - 0.05, 0.12, -3);
+  K.pop($('eIdn'), t, at('l4', -0.15), Infinity, 0);
+  K.pop($('eIdnL'), t, at('l4', 0.1), Infinity, -2);
+  K.pop($('eNb'), t, W('l4', 'negara') - 0.1, Infinity, 0);
+  const ex = W('l4', 'ekspor') - 0.05;
+  $('eArr').style.opacity = K.clamp((t - ex) / 0.2);
+  $('eArrP').setAttribute('stroke-dashoffset', -t * 60);
+  // ship sails toward the neighbour, stops at "mungkin", turns back at "dalam negeri"
+  const back = W('l4', 'dalam') - 0.1;
+  const go = K.easeInOut(K.prog(t, ex, 1.4)) * 140 * (1 - K.easeInOut(K.prog(t, back, 0.9)));
+  const bk = K.easeInOut(K.prog(t, back, 0.9));
+  $('eShip').style.opacity = t >= ex ? 1 : 0;
+  $('eShip').style.transform = `translate(-50%,-50%) translateX(${go - 230 * bk}px) scaleX(${t > back + 0.1 ? -1 : 1}) rotate(${2 * Math.sin(t * 3)}deg)`;
+  K.pop($('eGas'), t, W('l4', 'gas') - 0.05, back, 0);
+  K.pop($('eX'), t, W('l4', 'mungkin') - 0.05, Infinity, 0);
+  if (t > W('l4', 'mungkin')) $('eX').style.transform += ` rotate(${8 * Math.sin(t * 4)}deg)`;
+  K.pop($('eDn'), t, back + 0.05, Infinity, -2);
+  const bks = W('l5', 'belum') - 0.1, bss = K.spring(t - bks, 320, 18);
+  $('eBk').style.opacity = t >= bks ? 1 : 0;
+  $('eBk').style.transform = `translate(-50%,-50%) scale(${2 - bss}) rotate(-3deg)`;
+
+  // ---------- F: card 1, Pertalite ----------
+  K.pop($('fWal'), t, at('l6', -0.15), Infinity, 0);
+  K.pop($('fWalL'), t, W('l6', 'dompetmu') - 0.05, Infinity, -2);
+  K.pop($('fN1'), t, W('l6', 'satu') - 0.1, Infinity, 0);
+  K.pop($('fPump'), t, W('l6', 'pertalite') - 0.15, Infinity, 0);
+  K.pop($('fPL'), t, W('l6', 'pertalite') - 0.05, Infinity, -2);
+  K.pop($('fBbm'), t, W('l6', 'bbm') - 0.1, Infinity, 1);
+  const fs = W('l6', 'nggak') - 0.05, fss = K.spring(t - fs, 320, 18);
+  $('fSt').style.opacity = t >= fs ? 1 : 0;
+  $('fSt').style.transform = `translate(-50%,-50%) scale(${2.2 - 1.2 * fss}) rotate(-6deg)`;
+  K.pop($('fKata'), t, W('l6', 'naik'), Infinity, 0);
+  K.pop($('fWam'), t, W('l7', 'wamen') - 0.1, Infinity, 1);
+  K.pop($('fTil'), t, W('l7', 'ditahan') - 0.05, Infinity, -2);
+  if (t > W('l7', '2026') - 0.05) pulse($('fTil'), W('l7', '2026') - 0.05, 0.1, -2);
+
+  // ---------- F2: card 2, package ----------
+  K.pop($('gN2'), t, at('l8', -0.1), at('l10', -0.35), 0);
+  photo($('pG'), W('l8', 'menko') - 0.2, at('l10', -0.35));
+  K.pop($('gTag'), t, W('l8', 'airlangga') - 0.05, at('l10', -0.35), -1);
+  K.pop($('gMoney'), t, W('l8', 'siapkan') - 0.1, at('l10', -0.35), 0);
+  K.pop($('gSek'), t, W('l8', 'sekitar') - 0.05, at('l10', -0.35), 0);
+  K.pop($('gNum'), t, W('l8', 'rp') - 0.1, at('l10', -0.35), 0);
+  count($('gNumV'), t, W('l8', 'rp') - 0.05, 1.3, 31.8, 1);
+  K.pop($('gAL'), t, at('l9', -0.05), at('l10', -0.35), 0);
+  K.pop($('gI1'), t, W('l9', 'beras') - 0.15, at('l10', -0.35), -2);
+  K.pop($('gI2'), t, W('l9', 'subsidi') - 0.1, at('l10', -0.35), 1);
+  K.pop($('gI3'), t, W('l9', 'diskon') - 0.1, at('l10', -0.35), -1);
+  K.pop($('gTrain'), t, W('l10', 'kereta') - 0.1, Infinity, 0);
+  K.pop($('gTL'), t, W('l10', 'kereta') + 0.05, Infinity, -2);
+  K.pop($('gShip'), t, W('l10', 'kapal') - 0.1, Infinity, 0);
+  K.pop($('gSL'), t, W('l10', 'pelni') - 0.05, Infinity, 2);
+  if (t > W('l10', 'kereta')) $('gTrain').style.transform += ` translateX(${6 * Math.sin(t * 5)}px)`;
+  if (t > W('l10', 'kapal')) $('gShip').style.transform += ` rotate(${3 * Math.sin(t * 2.5)}deg)`;
+  const p30 = W('l10', '30') - 0.08;
+  [['gP1', 0], ['gP2', 0.12]].forEach(([id, d]) => { const s = K.spring(t - p30 - d, 320, 18);
+    $(id).style.opacity = t >= p30 + d ? 1 : 0; $(id).style.transform = `translate(-50%,-50%) scale(${2 - s}) rotate(${d ? 6 : -6}deg)`; });
+
+  // ---------- G: the turn ----------
+  K.pop($('tHd'), t, at('l11', -0.1), at('l12', -0.15), 0);
+  K.pop($('tLine'), t, at('l11', 0.1), Infinity, 0);
+  K.pop($('tC2'), t, at('l11', 0.1), Infinity, 2);
+  K.pop($('tSurv'), t, W('l11', 'sering') - 0.05, Infinity, 0);
+  K.pop($('tC1'), t, W('l12', 'diumumkan') - 0.05, Infinity, -2);
+  const ci = W('l12', '30') - 0.05;
+  $('tCircP').setAttribute('stroke-dasharray', tcl); $('tCircP').setAttribute('stroke-dashoffset', tcl * (1 - K.easeOut(K.prog(t, ci, 0.55))));
+  $('tCirc').style.opacity = t >= ci ? 1 : 0;
+  // beras + BSU appear under 21 Okt, then slide back to 30 Sep
+  const sl = K.easeInOut(K.prog(t, W('l12', 'september') - 0.1, 0.7)) * -500;
+  K.pop($('tBer'), t, W('l11', 'beras') - 0.1, Infinity, -2); $('tBer').style.transform += ` translateX(${sl}px)`;
+  K.pop($('tBsu'), t, W('l11', 'bsu') - 0.1, Infinity, 2); $('tBsu').style.transform += ` translateX(${sl}px)`;
+  const nw = W('l11', 'bukan') - 0.05, nws = K.spring(t - nw, 320, 18);
+  $('tNew').style.opacity = t >= nw ? 1 : 0;
+  $('tNew').style.transform = `translate(-50%,-50%) scale(${2.1 - 1.1 * nws}) rotate(-4deg)`;
+  K.pop($('tSeb'), t, W('l12', 'sebelum') - 0.05, Infinity, 0);
+  if (t > W('l12', 'survival') - 0.05) pulse($('tSurv'), W('l12', 'survival') - 0.05, 0.15);
+
+  // ---------- H: payoff, beras ----------
+  K.pop($('hHd'), t, at('l13', -0.05), Infinity, 0);
+  const bud = t < W('l13', 'apa') ? 'neutral' : t < W('l14', 'total') ? 'neutral' : 'happy';
+  if ($('hBudi').dataset.e !== bud) { $('hBudi').innerHTML = K.budi(bud); $('hBudi').dataset.e = bud; }
+  K.pop($('hBudi'), t, W('l13', 'kamu') - 0.1, Infinity, -2);
+  if (t > W('l13', 'kamu')) $('hBudi').style.transform += ` translateY(${-6 * Math.abs(Math.sin(t * 3))}px)`;
+  K.pop($('hIl'), t, W('l13', 'kamu'), Infinity, 0);
+  const go2 = W('l14', 'beras') - 0.2, gop = K.easeOut(K.prog(t, go2, 0.5));
+  K.pop($('hGift'), t, W('l13', 'apa') - 0.15, Infinity, 0);
+  const gk = `${gop.toFixed(2)}`;
+  if ($('hGift').dataset.k !== gk) { $('hGift').innerHTML = giftSVG(gop); $('hGift').dataset.k = gk; }
+  if (t > W('l13', 'apa') && t < go2) $('hGift').style.transform = `translate(-50%,-50%) rotate(${6 * Math.sin(t * 14)}deg)`;
+  K.pop($('hKpm'), t, W('l13', '33') - 0.1, Infinity, 0);
+  count($('hKpmV'), t, W('l13', '33') - 0.05, 1.2, 33.2, 1);
+  const hs = [W('l14', '10') - 0.08, W('l14', 'tiga') - 0.05, W('l14', 'bulan') - 0.05];
+  hSacks.forEach((el, i) => drop(el, t, hs[i]));
+  K.pop($('hTot'), t, W('l14', 'total') - 0.05, Infinity, 0);
+  count($('hTotV'), t, W('l14', '30') - 0.1, 0.6, 30);
+  if (t > W('l14', 'kilo', 1)) pulse($('hTot'), W('l14', 'kilo', 1), 0.1);
+  K.pop($('hPer'), t, W('l14', 'total') + 0.2, Infinity, 0);
+
+  // ---------- H2: payoff, BSU ----------
+  K.pop($('bTag'), t, at('l15', -0.1), Infinity, -2);
+  K.pop($('bPk'), t, W('l15', '13') - 0.1, Infinity, 0);
+  count($('bPkV'), t, W('l15', '13') - 0.05, 1.0, 13.3, 1);
+  const ns = [W('l15', 'rp') - 0.08, W('l15', 'tiga') - 0.05, W('l15', 'bulan') - 0.05];
+  bNotes.forEach((el, i) => drop(el, t, ns[i]));
+  K.pop($('bTot'), t, W('l15', 'total') - 0.05, Infinity, 0);
+  count($('bTotV'), t, W('l15', 'rp', 1) - 0.1, 0.7, 900);
+  if (t > W('l15', 'ribu', 1)) pulse($('bTot'), W('l15', 'ribu', 1), 0.08);
+  K.pop($('bPer'), t, W('l15', 'total') + 0.2, Infinity, 0);
+
+  // ---------- I: CTA ----------
+  K.pop($('iHd'), t, at('cta', -0.05), Infinity, 0);
+  K.pop($('iWal'), t, W('cta', 'anggaran') - 0.1, Infinity, -4);
+  K.pop($('iCom'), t, W('cta', 'apa') - 0.1, Infinity, 3);
+  K.pop($('iK'), t, W('cta', 'komen') - 0.05, Infinity, -3);
+
+  // ---------- photo credits while a photo is visible ----------
+  const seen = new Set();
+  for (const id of ['pA', 'pP', 'pB', 'pG']) {
+    const el = $(id); if (el.style.display === 'none' || parseFloat(el.style.opacity || 0) < 0.3) continue;
+    const r = el.getBoundingClientRect(); if (r.bottom > 260 && r.top < 1250 && r.right > 0 && r.left < 1080) seen.add(el.querySelector('img').src.split('/').pop());
+  }
+  const cr = [...seen].map((k) => `<span>${CREDIT[k]}</span>`).join('<br>');
+  if ($('credit').dataset.c !== cr) { $('credit').innerHTML = cr; $('credit').dataset.c = cr; }
+
+  // ---------- end ----------
+  const en = K.prog(t, at('end', -0.15), 0.3);
+  $('endcard').style.opacity = en;
+  $('endcard').querySelector('.logo').style.transform = `rotate(-3deg) scale(${0.6 + 0.4 * K.spring(t - at('end', -0.15))})`;
+  K.subtitles($('subs'), t);
+  $('subs').style.visibility = en > 0.5 ? 'hidden' : 'visible';
+  $('progress').style.width = (100 * t / window.DURATION) + '%';
+  return true;
+}
+window.seek = seek;
+seek(0);
+</script>
+</body>
+</html>

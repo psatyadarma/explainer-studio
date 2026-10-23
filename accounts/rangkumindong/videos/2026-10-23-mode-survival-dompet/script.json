@@ -1,0 +1,149 @@
+{
+ "direction": "[clear, upbeat explainer; neutral; quotes attributed]",
+ "voice": "male:Pratama",
+ "format": "standard",
+ "hook_style": "question_reveal",
+ "subs": "word",
+ "lines": [
+  {
+   "id": "h1",
+   "tag": "[curious, urgent]",
+   "text": "Prabowo: kita “harus survival”. Dompet kamu kena apa?",
+   "say": "Prabowo: kita harus survival. Dompet kamu kena apa?"
+  },
+  {
+   "id": "h2",
+   "tag": "[teasing]",
+   "text": "Angka terakhirnya yang paling dekat ke dompetmu.",
+   "say": "Angka terakhirnya, yang paling dekat ke dompetmu."
+  },
+  {
+   "id": "rd",
+   "tagline": true,
+   "text": "Rangkumin dong!"
+  },
+  {
+   "id": "l1",
+   "tag": "[serious, punchy]",
+   "text": "Rabu malam, sidang kabinet di Istana. Prabowo: “Kita sekarang berada dalam kondisi harus survival.”",
+   "say": "Rabu malam, sidang kabinet di Istana. Prabowo: Kita sekarang berada dalam kondisi, harus survival."
+  },
+  {
+   "id": "l2",
+   "tag": "[matter-of-fact]",
+   "text": "Menteri ESDM Bahlil menimpali: “Ya memang harus kita survival.”",
+   "say": "Menteri, E Es De Em, Bahlil menimpali: Ya memang harus kita survival."
+  },
+  {
+   "id": "l3",
+   "tag": "[serious]",
+   "text": "Latarnya? Senin, minyak Brent ditutup 109 dolar per barel.",
+   "say": "Latarnya? Senin, minyak Brent ditutup seratus sembilan dolar per barel."
+  },
+  {
+   "id": "l4",
+   "tag": "[intrigued]",
+   "text": "Bahlil juga buka opsi: kontrak ekspor gas ke negara tetangga mungkin nggak diperpanjang. Dalam negeri dulu.",
+   "say": "Bahlil juga buka opsi: kontrak ekspor gas ke negara tetangga, mungkin nggak diperpanjang. Dalam negeri dulu."
+  },
+  {
+   "id": "l5",
+   "tag": "[calm]",
+   "text": "Masih opsi, belum keputusan.",
+   "say": "Masih opsi, belum keputusan."
+  },
+  {
+   "id": "l6",
+   "tag": "[reassuring]",
+   "text": "Nah, dompetmu. Satu: Pertalite. Kata Bahlil, BBM subsidi nggak naik.",
+   "say": "Nah, dompetmu. Satu: Pertalite. Kata Bahlil, Be Be Em subsidi nggak naik."
+  },
+  {
+   "id": "l7",
+   "tag": "[matter-of-fact]",
+   "text": "Akhir September, Wamen ESDM bilang: Pertalite ditahan sampai akhir 2026.",
+   "say": "Akhir September, Wamen, E Es De Em, bilang: Pertalite ditahan sampai akhir dua ribu dua puluh enam."
+  },
+  {
+   "id": "l8",
+   "tag": "[upbeat]",
+   "text": "Dua: Menko Airlangga siapkan sekitar Rp31,8 triliun.",
+   "say": "Dua: Menko Airlangga siapkan sekitar tiga puluh satu koma delapan triliun rupiah."
+  },
+  {
+   "id": "l9",
+   "tag": "[explaining, quick]",
+   "text": "Isinya antara lain: bantuan beras, subsidi upah (BSU), dan diskon tiket libur Nataru.",
+   "say": "Isinya antara lain: bantuan beras, subsidi upah, dan diskon tiket libur Nataru."
+  },
+  {
+   "id": "l10",
+   "tag": "[playful]",
+   "text": "Kereta dan kapal Pelni diskon 30 persen.",
+   "say": "Kereta dan kapal Pelni, diskon tiga puluh persen."
+  },
+  {
+   "id": "l11",
+   "tag": "[knowing, lowering voice]",
+   "text": "Tapi yang sering kelewat: beras dan BSU bukan hal baru.",
+   "say": "Tapi... yang sering kelewat: beras dan, Be Es U, bukan hal baru."
+  },
+  {
+   "id": "l12",
+   "tag": "[matter-of-fact]",
+   "text": "Diumumkan 30 September, sebelum kata “survival” muncul.",
+   "say": "Diumumkan tiga puluh September, sebelum kata survival muncul."
+  },
+  {
+   "id": "l13",
+   "tag": "[building up]",
+   "text": "Jadi, kamu dapat apa? Kalau keluargamu termasuk 33,2 juta penerima:",
+   "say": "Jadi, kamu dapat apa? Kalau keluargamu termasuk tiga puluh tiga koma dua juta penerima:"
+  },
+  {
+   "id": "l14",
+   "tag": "[emphatic]",
+   "text": "beras 10 kilo sebulan, tiga bulan. Total 30 kilo.",
+   "say": "beras sepuluh kilo sebulan, tiga bulan. Total. Tiga puluh. Kilo."
+  },
+  {
+   "id": "l15",
+   "tag": "[emphatic]",
+   "text": "Pekerja penerima BSU, 13,3 juta orang: Rp300 ribu sebulan, tiga bulan. Total Rp900 ribu.",
+   "say": "Pekerja penerima, Be Es U, tiga belas koma tiga juta orang: tiga ratus ribu sebulan, tiga bulan. Total. Sembilan ratus ribu rupiah."
+  },
+  {
+   "id": "cta",
+   "tag": "[playful, asking the viewer]",
+   "text": "Kalau kamu pegang anggaran di “mode survival”, apa yang didahulukan? Komen!",
+   "say": "Kalau kamu pegang anggaran di mode survival, apa yang didahulukan? Komen!"
+  },
+  {
+   "id": "end",
+   "tag": "[friendly, upbeat]",
+   "text": "Follow Rangkumin Dong, biar nggak ketinggalan!"
+  }
+ ],
+ "hook_b": {
+  "style": "shock_number",
+  "replace": [
+   "h1",
+   "h2"
+  ],
+  "lines": [
+   {
+    "id": "hb1",
+    "tag": "[shocked]",
+    "text": "30 kilo beras gratis. Kamu termasuk yang dapat?",
+    "say": "Tiga puluh kilo beras gratis. Kamu termasuk yang dapat?"
+   },
+   {
+    "id": "hb2",
+    "tag": "[teasing]",
+    "text": "Angka terakhirnya yang paling dekat ke dompetmu.",
+    "say": "Angka terakhirnya, yang paling dekat ke dompetmu."
+   }
+  ]
+ },
+ "tail": 0.9
+}
