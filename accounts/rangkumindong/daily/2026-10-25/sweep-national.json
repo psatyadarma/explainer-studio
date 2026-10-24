@@ -1,0 +1,176 @@
+{
+  "area": "national",
+  "run_date": "2026-10-25",
+  "checked": [
+    "detik terpopuler (cached 24 Okt 04:49 WIB, stale)",
+    "CNN Indonesia nasional (24 Okt 10:41-17:02)",
+    "Antara terkini/humaniora (via search, 24 Okt)",
+    "turnbackhoax / cek fakta (search only, nothing new in headlines)",
+    "BMKG weekly outlook 20-26 Okt",
+    "BMKG rainy-season outlook (CNN Indonesia 22 Okt)",
+    "Minggu Depan: Operasi Patuh, Hunter's Moon, BMKG outlook, holidays/deadlines",
+    "storyline karhutla (watch-list: disasters/environment found)",
+    "watch-list found: karhutla/haze, bullying/school, MBG, ferry/maritime SAR, traffic enforcement",
+    "storyline definisi-korupsi (only Yusril headline on CNN, covered by E0257 MK hearing 26 Okt)"
+  ],
+  "events": [
+    {
+      "date": "2026-10-26",
+      "category": "NEWS",
+      "event": "Korlantas Polri starts Operasi Patuh 2026 on 26 October, running to 8 November, with wrong-way (lawan arus) riding and driving as the main target.",
+      "key_numbers": "26 Oct-8 Nov 2026 (14 days) · focus: lawan arus · tilang supervised by Provos (per Wartakini)",
+      "storyline": "",
+      "update_of": "",
+      "status": "upcoming",
+      "sources": [
+        {"label": "CNN Indonesia nasional index (24 Okt 11:29)", "url": "https://www.cnnindonesia.com/nasional"},
+        {"label": "Sindonews", "url": "https://daerah.sindonews.com/read/1764267/174/cegah-lawan-arus-jadi-fokus-utama-operasi-patuh-26-oktober-8-november-2026-1792833057"},
+        {"label": "Periskop", "url": "https://periskop.id/nasional/20261024/korlantas-operasi-patuh-2026-lawan-arus"}
+      ],
+      "why_it_matters": "Millions of motorists and ojol drivers can be ticketed from Monday, so the rules and fines are worth knowing.",
+      "signals": {"spreading": 1, "wallet": 2, "surprise": 0, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "Reported by CNN Indonesia, Sindonews, Periskop, Tribrata News on 24 Oct",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-26",
+      "category": "ENV",
+      "event": "Hunter's Moon (full moon) rises on the evening of 26 October, and BMKG warns coastal residents of tidal flooding (rob) around the full moon.",
+      "key_numbers": "Moonrise 17:53 WIB 26 Oct · peak 23:58 WIB · moonset 05:10 WIB 27 Oct · best viewing from ~20:00 WIB",
+      "storyline": "",
+      "update_of": "",
+      "status": "upcoming",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/news/20261024084920-4-779090/jelang-hunter-moon-cek-prakiraan-cuaca-jakarta-hari-ini-dari-bmkg"}
+      ],
+      "why_it_matters": "A visible night-sky event on Monday, with a rob risk for coastal towns such as north Jakarta.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 0, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "CNBC Indonesia article 24 Oct; wider coverage by regional outlets",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-25",
+      "category": "ENV",
+      "event": "BMKG's weekly outlook for 20-26 October says hot, dry weather continues under a very strong El Nino and positive IOD, with heavy rain alerts only for Aceh and Papua Pegunungan (23-26 Oct); the next weekly outlook is due around 26-27 October.",
+      "key_numbers": "Max temp 38.5 C West Java (17 Oct) · Central Kalimantan hotspots 157 to 937 (18 to 19 Oct) · West Kalimantan 31 to 231 · South Sumatra 19 to 66 · East Java 10 to 36 · heavy-rain alert 23-26 Oct: Aceh, Papua Pegunungan · strong winds: Java, South Sumatra, Lampung, South Kalimantan, South Sulawesi",
+      "storyline": "karhutla",
+      "update_of": "E0248",
+      "status": "verified",
+      "sources": [
+        {"label": "BMKG weekly outlook 20-26 Okt", "url": "https://www.bmkg.go.id/cuaca/potensi-hujan-sepekan/prakiraan-cuaca-indonesia-sepekan-periode-20-26-oktober-2026-cuaca-panas-dan-kering-masih-berlangsung-peluang-hujan-tetap-ada-di-sejumlah-wilayah"}
+      ],
+      "why_it_matters": "It tells people why the haze is not clearing and which areas still face heat, fire, or sudden storms this week.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-22",
+      "category": "ENV",
+      "event": "BMKG head Teuku Faisal Fathani says the 2026/27 rainy season will arrive late, in November for some areas and December for others, with Central Kalimantan expected mid to late November; peak is December-February with more frequent heavy rain.",
+      "key_numbers": "Rainy season onset: Nov-Dec 2026 · Central Kalimantan: mid to late Nov · peak Dec-Feb · total rainfall near 30-year normal but season shorter",
+      "storyline": "karhutla",
+      "update_of": "E0248",
+      "status": "verified",
+      "sources": [
+        {"label": "CNN Indonesia (22 Okt)", "url": "https://www.cnnindonesia.com/teknologi/20261021190134-641-1418135/bmkg-prediksi-awal-musim-hujan-mundur-banjir-longsor-mengintai"},
+        {"label": "Periskop (24 Okt)", "url": "https://periskop.id/nasional/20261024/bmkg-prediksi-musim-hujan-2026"}
+      ],
+      "why_it_matters": "It means weeks more of smoke and fire risk, then a sharp switch to flood and landslide season.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 2, "fresh": 1, "rivals": 1},
+      "spreading_evidence": "Several outlets (CNN Indonesia, Periskop, regional NU/Jateng) 21-24 Oct",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-24",
+      "category": "ENV",
+      "event": "Central Kalimantan's emergency command post reports cumulative karhutla totals through 23 October, while thick smoke still covers Palangka Raya and Palembang and the Health Minister urges KN95 masks.",
+      "key_numbers": "Kalteng cumulative to 23 Oct: 6,952 incidents, 20,108.18 ha · 23 Oct alone: 51 incidents, 140.31 ha · Palangka Raya cumulative: 957 incidents, 1,286.94 ha · Palangka Raya emergency status to 9 Nov (E0249)",
+      "storyline": "karhutla",
+      "update_of": "E0249",
+      "status": "verified",
+      "sources": [
+        {"label": "Antara", "url": "https://www.antaranews.com/berita/5809275/asap-pekat-akibat-karhutla-masih-selimuti-palangka-raya-kalteng"},
+        {"label": "CNN Indonesia nasional index (24 Okt)", "url": "https://www.cnnindonesia.com/nasional"}
+      ],
+      "why_it_matters": "Smoke is hurting health, schools and traders' income, and the fire count is still rising.",
+      "signals": {"spreading": 2, "wallet": 1, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 0},
+      "spreading_evidence": "CNN Indonesia nasional: 5 of 20 latest headlines on karhutla/haze (24 Okt); Antara terkini",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-24",
+      "category": "ENV",
+      "event": "A fire on Gunung Ciremai (Kuningan, West Java) is reported at 10 fire points, and the West Java provincial government deploys water-bombing helicopters after the fire spread from about 5 hectares to tens of hectares.",
+      "key_numbers": "Fire first seen night of 21 Oct · from ~5 ha to tens of ha (23 Oct) · 10 fire points (24 Oct, per CNN Indonesia headline) · altitude ~1,000 m asl",
+      "storyline": "karhutla",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "Bisnis.com (23 Okt)", "url": "https://kabar24.bisnis.com/read/20261023/15/2015019/karhutla-di-gunung-ciremai-meluas-pemadaman-terkendala-medan-terjal"},
+        {"label": "CNN Indonesia nasional index (24 Okt)", "url": "https://www.cnnindonesia.com/nasional"}
+      ],
+      "why_it_matters": "The fires are now on a Java mountain close to dense population, not only in Kalimantan and Sumatra.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "Three separate CNN Indonesia headlines on 24 Oct",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-24",
+      "category": "NEWS",
+      "event": "Police in Tangerang Selatan investigate alleged bullying and extortion of 14 female students at SMP Negeri 10 Tangsel (Ciputat), reportedly forced by senior students to drink a homemade mixture; 3 needed hospital care.",
+      "key_numbers": "14 victims · 3 hospitalised · demanded Rp5,000-10,000 each · mixture reportedly vinegar, garlic, coffee (unconfirmed extras)",
+      "storyline": "",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261024144355-12-1419203/14-siswi-smp-tangsel-diduga-dicekoki-minuman-racikan-polisi-selidiki"},
+        {"label": "Kumparan", "url": "https://kumparan.com/kumparannews/viral-siswi-smp-diduga-dicekoki-minuman-racikan-oleh-kakak-kelas-polisi-usut"}
+      ],
+      "why_it_matters": "Parents want to know what schools and police must do when bullying turns into physical harm.",
+      "signals": {"spreading": 2, "wallet": 0, "surprise": 1, "visual": 0, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "Viral per Kumparan; multiple outlets (CNN, Kumparan, Kabar6, Metropolitan) 24 Oct",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-10-24",
+      "category": "NEWS",
+      "event": "Two SPPG (MBG free-meal kitchen) employees in Sumenep were arrested by police for allegedly taking meth (sabu) inside an MBG kitchen, according to Detik's most-read list.",
+      "key_numbers": "2 SPPG staff arrested · Sumenep, East Java",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "Detik terpopuler (24 Okt)", "url": "https://www.detik.com/terpopuler"}
+      ],
+      "why_it_matters": "MBG food safety and kitchen supervision are already under scrutiny, and this adds a new angle.",
+      "signals": {"spreading": 2, "wallet": 0, "surprise": 2, "visual": 0, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "Detik terpopuler #6 (24 Okt cache)",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-10-24",
+      "category": "POL",
+      "event": "Pollster IPO releases a survey finding 66 percent of the public satisfied with Prabowo's performance, with Gerindra topping party electability and PSI at 2.9 percent; Amran is rated the best minister and Raja Juli the worst.",
+      "key_numbers": "66% satisfied with Prabowo · PSI electability 2.9% · Gerindra highest, then PDIP and Golkar · best minister Amran, most popular Bahlil, worst Raja Juli",
+      "storyline": "prabowo-2-years",
+      "update_of": "E0072",
+      "status": "partial",
+      "sources": [
+        {"label": "CNN Indonesia: Survei IPO PSI", "url": "https://cnnindonesia.com/nasional/20261024185634-32-1419262/survei-ipo-elektablitas-psi-29-persen"},
+        {"label": "CNN Indonesia nasional index (24 Okt)", "url": "https://www.cnnindonesia.com/nasional"}
+      ],
+      "why_it_matters": "It is the latest public read on how voters rate the government after its second anniversary.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "Five separate CNN Indonesia headlines on the survey, 24 Okt",
+      "sensitivity": "high"
+    }
+  ],
+  "gaps": [
+    "BMKG's weekly outlook for 27 Oct-2 Nov is not yet published (usually out Monday); the 20-26 Oct outlook is the latest seen.",
+    "Could not confirm any national holiday or cuti bersama in 26 Oct-1 Nov; 28 Oct is Sumpah Pemuda (commemoration, not a holiday). Not verified against the SKB calendar.",
+    "Detik terpopuler page was a cached copy from 24 Oct 04:49 WIB, so 24-25 Oct most-read items are missing; turnbackhoax/cek fakta gave no fresh debunks in results.",
+    "Operasi Patuh details (personnel numbers, fine amounts) not retrieved: Periskop and Tribrata pages failed to load.",
+    "Not verified: Asian One Air plane skid in Intan Jaya (2 TNI hurt), BYD hitting an ojol rider, Yusril on the corruption-definition change."
+  ]
+}

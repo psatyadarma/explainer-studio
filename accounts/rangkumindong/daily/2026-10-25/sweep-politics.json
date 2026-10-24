@@ -1,0 +1,149 @@
+{
+  "area": "politics",
+  "run_date": "2026-10-25",
+  "checked": [
+    "detik section page (fetched, but stale: ~21-22 Oct snapshot)",
+    "antaranews politik/hukum, cnnindonesia nasional, tempo politik: WebSearch returned no fetchable section URL, not scanned",
+    "Minggu Depan sweep 26 Oct-1 Nov: MK, court dates, DPR session calendar, Sumpah Pemuda, KPK summons, UMP 2027, Polda Metro Jaya summons",
+    "Storyline search: definisi-korupsi (Yusril 24 Oct, MK 26 Oct hearing already known as E0257)",
+    "Storyline search: gibran-ijazah-mk (nothing new)",
+    "Storyline search: karhutla (Prabowo 'terorisme lingkungan' headline only)",
+    "KPK: North Sumatra road case (E0232), Widi Prasetijono tuntutan (E0259)",
+    "Labour rallies / UMP 2027 (E0068)",
+    "Watch list found in headlines: Prabowo/Istana, KPK, Polri, demonstrations, ministries' policy"
+  ],
+  "events": [
+    {
+      "date": "2026-10-26",
+      "category": "POL",
+      "event": "Coordinating Minister Yusril Ihza Mahendra is scheduled to attend a National Economic Council (DEN) invitation to hear DEN's fuller explanation of Luhut Pandjaitan's proposal to change the legal definition of corruption.",
+      "key_numbers": "Meeting Mon 26 Oct 2026 (time not given) · proposal concerns the state-loss (kerugian negara) element · Yusril 24 Oct: 'baru wacana' (only a discourse)",
+      "storyline": "definisi-korupsi",
+      "update_of": "E0231",
+      "status": "upcoming",
+      "sources": [{"label": "Okezone (24 Oct)", "url": "https://news.okezone.com/read/2026/10/24/337/3249986/yusril-perubahan-definisi-korupsi-perlu-dikaji-secara-hati-hati"}],
+      "why_it_matters": "Whether the state-loss rule behind most corruption convictions changes affects how every pejabat can be prosecuted; the first official reading of the idea comes this week.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "Kompas, Suara, Okezone, Media Indonesia analyses 22-24 Oct",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-10-24",
+      "category": "POL",
+      "event": "Yusril Ihza Mahendra says the DEN proposal to change the definition of corruption is only a preliminary idea (wacana) that needs careful study, especially on how it fits the UN Convention against Corruption (UNCAC) in substantive and procedural law.",
+      "key_numbers": "Statement Sat 24 Oct 2026 · amendment history cited: UU 31/1999 amended by UU 20/2001",
+      "storyline": "definisi-korupsi",
+      "update_of": "E0231",
+      "status": "partial",
+      "sources": [{"label": "Okezone (24 Oct)", "url": "https://news.okezone.com/read/2026/10/24/337/3249986/yusril-perubahan-definisi-korupsi-perlu-dikaji-secara-hati-hati"}],
+      "why_it_matters": "The minister overseeing law policy calls it an early idea, not a draft bill, which cools the debate over scrapping 'kerugian negara'.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 0, "visual": 0, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-10-26",
+      "category": "POL",
+      "event": "KPK re-summons suspect DE, work-unit head (Kasatker) of PJN 1 North Sumatra, who skipped the 22 Oct examination in the BBPJN North Sumatra road-tender bribery case.",
+      "key_numbers": "Re-summons Mon 26 Oct 2026 · 8 new suspects named 22 Oct, 13 suspects in total with the earlier five · tender scheme 2023-2025 · suspects identified by initials: SCH, RP, FS, HH, TRP, MM, MP, DE",
+      "storyline": "corruption-cases",
+      "update_of": "E0232",
+      "status": "upcoming",
+      "sources": [{"label": "Suara.com (22 Oct)", "url": "https://www.suara.com/news/2026/10/22/193306/kpk-tetapkan-8-tersangka-baru-kasus-bppjpn-sumut-1-mangkir-dari-panggilan"}],
+      "why_it_matters": "Shows whether KPK detains the one suspect who did not appear in a case tied to national road projects.",
+      "signals": {"spreading": 0, "wallet": 0, "surprise": 0, "visual": 0, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-10-27",
+      "category": "POL",
+      "event": "Polda Metro Jaya has rescheduled to Tuesday 27 Oct a 'clarification' summons of documentary director Dandhy Dwi Laksono over a complaint about the film 'Pesta Babi'; his legal team says he cannot attend because clarification invitations have no basis in KUHAP.",
+      "key_numbers": "Summons Tue 27 Oct 2026 (first set 19 Oct, invitation letter 9 Oct) · report LP/B/3843/V/2026/SPKT dated 29 May 2026 by Yasinta Moiwend ('Mama Sinta') · case at inquiry (penyelidikan) stage · LBH Merauke head JTW also to be summoned, reported under the personal data protection law (Pasal 65 and 67)",
+      "storyline": "",
+      "update_of": "",
+      "status": "upcoming",
+      "sources": [
+        {"label": "CNN Indonesia (23 Oct)", "url": "https://www.cnnindonesia.com/nasional/20261023200810-12-1419059/polisi-panggil-dandhy-laksono-pekan-depan-soal-film-pesta-babi"},
+        {"label": "Kompas Megapolitan (23 Oct, headline only)", "url": "https://megapolitan.kompas.com/read/2026/10/23/20111381/kasus-film-pesta-babi-berlanjut-dandhy-laksono-bakal-dimintai-klarifikasi"}
+      ],
+      "why_it_matters": "A test case on where the line between press/film freedom and criminal complaints sits, with Polri and Dandhy's lawyers (TAUD) citing different legal bases.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 0, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "Covered by CNN Indonesia, Kompas, Kumparan, Suara, IDN Times, Pikiran Rakyat 23-24 Oct",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-10-28",
+      "category": "POL",
+      "event": "East Jakarta District Court hears witness testimony in Roy Suryo's slander/ITE trial over former President Jokowi's diploma; the prosecution plans to call three witnesses and the defendant must attend.",
+      "key_numbers": "Hearing Wed 28 Oct 2026, 09:00 WIB, PN Jakarta Timur (Cakung) · 3 prosecution witnesses · 19 Oct: judges rejected the defence objection and moved to evidence stage · defence asked prosecutors to bring the diploma to court",
+      "storyline": "jokowi-ijazah-roy-suryo",
+      "update_of": "E0153",
+      "status": "upcoming",
+      "sources": [
+        {"label": "BitvOnline", "url": "https://www.bitvonline.com/hukum-dan-kriminal/80924/sidang-roy-suryo-28-oktober-jaksa-siapkan-tiga-saksi-dalam-kasus-ijazah-jokowi"},
+        {"label": "Suara.com (19 Oct)", "url": "https://www.suara.com/news/2026/10/19/143029/minggu-depan-kita-buka-bukaan-kubu-roy-suryo-minta-jaksa-bawa-ijazah-jokowi-ke-sidang"}
+      ],
+      "why_it_matters": "The trial enters the stage where testimony and evidence on the diploma claim are heard in open court.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 0},
+      "spreading_evidence": "Antara Foto, Suara, Kompas coverage of the 19 Oct session",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-10-28",
+      "category": "NEWS",
+      "event": "Indonesia marks the 98th Hari Sumpah Pemuda (Youth Pledge Day) on 28 Oct with ceremonies under the Kemenpora theme 'Patriotik, Gigih, Berempati: Pemuda untuk Indonesia'; it is not a national holiday.",
+      "key_numbers": "Wed 28 Oct 2026, ceremony from 08:00 · 98th anniversary (Youth Pledge 1928) · theme: Patriotik, Gigih, Berempati: Pemuda untuk Indonesia",
+      "storyline": "",
+      "update_of": "",
+      "status": "upcoming",
+      "sources": [
+        {"label": "Kemenpora circular (HSP ke-98)", "url": "https://image.kemenpora.go.id/2026/10/15/surat-edaran-tentang-pelaksanaan-hsp-ke-98-tahun-2026-DTFDr.pdf"},
+        {"label": "Detik", "url": "https://www.detik.com/edu/detikpedia/d-8717832/hari-sumpah-pemuda-2026-kapan-diperingati-cek-tanggal-dan-sejarah-peringatannya"}
+      ],
+      "why_it_matters": "Falls a week after student protests on the government's second anniversary, so youth-and-politics angles are likely to be in the news.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 0, "visual": 1, "fresh": 2, "rivals": 0},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-01",
+      "category": "ECO",
+      "event": "KSPI and Partai Buruh say the government is due to announce 2027 provincial minimum wages (UMP/UMSP) on 1 Nov while their wave of rallies in 38 provinces runs to 30 Oct demanding a 7.5-9.5% increase.",
+      "key_numbers": "Rallies 15-30 Oct 2026 in 38 provinces · demand: UMP/UMSP 2027 +7.5% to +9.5% · announcement date 1 Nov 2026 (per KSPI; CNN Indonesia describes it only as the unions' request) · Manpower Minister Yassierli: formula follows the new labour rules (E0225)",
+      "storyline": "ump-2027",
+      "update_of": "E0068",
+      "status": "upcoming",
+      "sources": [
+        {"label": "Pelita Karawang", "url": "https://www.pelitakarawang.com/2026/10/jelang-penetapan-1-november-2026-kspi.html"},
+        {"label": "CNN Indonesia (22 Oct)", "url": "https://cnnindonesia.com/ekonomi/20261022163811-92-1418495/pengusaha-respons-tuntutan-buruh-ump-2027-naik-hingga-95-persen"}
+      ],
+      "why_it_matters": "The UMP sets the pay floor for millions of workers in 2027, and employers (Kadin) say increases must track productivity.",
+      "signals": {"spreading": 1, "wallet": 2, "surprise": 0, "visual": 2, "fresh": 1, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-09",
+      "category": "POL",
+      "event": "DPR is in recess (reses) from 9 Oct to 9 Nov 2026 after closing Masa Persidangan I of the 2026-2027 session on 8 Oct, so no DPR plenary sessions are expected in the 26 Oct-1 Nov week.",
+      "key_numbers": "Masa Persidangan I closed 8 Oct 2026 · recess 9 Oct-9 Nov 2026 · Puan listed 13 issues incl. karhutla response and KUHP/KUHAP enforcement · Forestry Bill (RUU Kehutanan) awaits a presidential letter (Surpres)",
+      "storyline": "",
+      "update_of": "",
+      "status": "upcoming",
+      "sources": [{"label": "Liputan6 (8 Oct)", "url": "https://www.liputan6.com/news/read/8308695/tutup-masa-sidang-puan-ungkap-13-isu-yang-disorot-dpr"}],
+      "why_it_matters": "Explains why bills such as the Forestry Bill and Election Bill will not be passed this week; commission work and hearings can still occur.",
+      "signals": {"spreading": 0, "wallet": 0, "surprise": 0, "visual": 0, "fresh": 1, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    }
+  ],
+  "gaps": [
+    "Detik section page fetched but was a 21-22 Oct snapshot; CNN Indonesia, Antara and Tempo section pages were not returned by WebSearch so not scanned. 24-25 Oct headlines are thin.",
+    "Kompas headline 24 Oct 'Prabowo sebut pelaku karhutla terorisme lingkungan, revisi UU langsung direncanakan' seen but article blocked (robots); content unverified. Possible update of E0258.",
+    "No verdict/next-hearing date found for Letjen Widi Prasetijono (tuntutan 10 years, E0259), and no date for the DPR's return other than recess ending 9 Nov (next masa sidang start date not stated).",
+    "MK 26 Oct hearing on Article 603 KUHP elucidation already logged as E0257; not duplicated.",
+    "UMP 1 Nov announcement date comes from KSPI-side coverage; no government confirmation or legal deadline verified.",
+    "Dandhy Laksono 27 Oct: Pikiran Rakyat says Tuesday, CNN says 'pekan depan' plus Tuesday 27 Oct; one outlet (Suara) article not opened."
+  ]
+}

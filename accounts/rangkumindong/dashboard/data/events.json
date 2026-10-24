@@ -2430,6 +2430,26 @@
 "upcoming": false
 },
 {
+"id": "E0291",
+"date": "2026-10-22",
+"category": "TECH",
+"event": "The Pengadilan Niaga at PN Jakarta Pusat annulled the KPPU decision that found 97 P2P lending (pinjol) platforms guilty of price-fixing interest rates, saying the ceiling was OJK policy, not a cartel.",
+"key_numbers": "97 pinjol platforms · KPPU fine reported as Rp755 miliar (per Kontan/Monitor Indonesia headlines, not in CNBC text) · ruling read 22 Oct 2026 · KPPU ordered to pay court costs Rp23.592.000 · ceiling per AFPI guidelines 2018/2020/2021 and SEOJK 19/SEOJK.06/2023 effective 1 Jan 2024",
+"storyline": "",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0297",
+"date": "2026-10-22",
+"category": "ENV",
+"event": "BMKG head Teuku Faisal Fathani says the 2026/27 rainy season will arrive late, in November for some areas and December for others, with Central Kalimantan expected mid to late November; peak is December-February with more frequent heavy rain. (update of E0248)",
+"key_numbers": "Rainy season onset: Nov-Dec 2026 · Central Kalimantan: mid to late Nov · peak Dec-Feb · total rainfall near 30-year normal but season shorter",
+"storyline": "karhutla",
+"status": "verified",
+"upcoming": false
+},
+{
 "id": "E0229",
 "date": "2026-10-23",
 "category": "BIZ",
@@ -2650,6 +2670,76 @@
 "upcoming": false
 },
 {
+"id": "E0279",
+"date": "2026-10-23",
+"category": "GLB",
+"event": "Brent crude closed Friday 23 October at its highest in over five months as Houthi attacks on Saudi Arabia and reports of US-Israeli plans against Iran lifted prices. (update of E0174)",
+"key_numbers": "Brent US$117.38 per barrel (close) · WTI US$103.44, +3.99% · detik reported Brent US$115.18 (+1.8%) earlier in the session · ICP September 2026 US$112.81, +US$23.38 from August · APBN 2026 assumption US$70 · Pertalite Rp10,000, Pertamax Rp15,950 unchanged since 2 Sep (Jabodetabek)",
+"storyline": "fuel-oil",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0280",
+"date": "2026-10-23",
+"category": "MKT",
+"event": "Foreign investors net sold Indonesian shares worth Rp1.28 trillion in the week to 23 October even as the IHSG gained 4.9%. (update of E0250)",
+"key_numbers": "IHSG weekly +4.9% · foreign net sell Rp1.28 T for the week · 23 Oct close 5,439.26 (+0.95%) · value Rp13.85 T · 506 up / 192 down · foreign net sell Rp744.4 bn at midday 23 Oct (headline only)",
+"storyline": "msci-reclassification",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0292",
+"date": "2026-10-23",
+"category": "TECH",
+"event": "Komdigi's Digital Infrastructure DG Wayan Toni Supriyanto says Kupang and Bitung are candidate new data-centre hubs outside Java and Batam, and draft Perpres on data centres and undersea cables are in public consultation. (update of E0205)",
+"key_numbers": "Kupang and Bitung named · draft Perpres data centre and undersea cable in public consultation · no issuance date · horizon 2030 for AI support · Komdigi says 580 MW is not enough for AI sovereignty (per Feedberry headline)",
+"storyline": "ai-data-centres",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0298",
+"date": "2026-10-24",
+"category": "ENV",
+"event": "Central Kalimantan's emergency command post reports cumulative karhutla totals through 23 October, while thick smoke still covers Palangka Raya and Palembang and the Health Minister urges KN95 masks. (update of E0249)",
+"key_numbers": "Kalteng cumulative to 23 Oct: 6,952 incidents, 20,108.18 ha · 23 Oct alone: 51 incidents, 140.31 ha · Palangka Raya cumulative: 957 incidents, 1,286.94 ha · Palangka Raya emergency status to 9 Nov (E0249)",
+"storyline": "karhutla",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0299",
+"date": "2026-10-24",
+"category": "ENV",
+"event": "A fire on Gunung Ciremai (Kuningan, West Java) is reported at 10 fire points, and the West Java provincial government deploys water-bombing helicopters after the fire spread from about 5 hectares to tens of hectares.",
+"key_numbers": "Fire first seen night of 21 Oct · from ~5 ha to tens of ha (23 Oct) · 10 fire points (24 Oct, per CNN Indonesia headline) · altitude ~1,000 m asl",
+"storyline": "karhutla",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0300",
+"date": "2026-10-24",
+"category": "NEWS",
+"event": "Police in Tangerang Selatan investigate alleged bullying and extortion of 14 female students at SMP Negeri 10 Tangsel (Ciputat), reportedly forced by senior students to drink a homemade mixture; 3 needed hospital care.",
+"key_numbers": "14 victims · 3 hospitalised · demanded Rp5,000-10,000 each · mixture reportedly vinegar, garlic, coffee (unconfirmed extras)",
+"storyline": "",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0301",
+"date": "2026-10-24",
+"category": "POL",
+"event": "Pollster IPO releases a survey finding 66 percent of the public satisfied with Prabowo's performance, with Gerindra topping party electability and PSI at 2.9 percent; Amran is rated the best minister and Raja Juli the worst. (update of E0072)",
+"key_numbers": "66% satisfied with Prabowo · PSI electability 2.9% · Gerindra highest, then PDIP and Golkar · best minister Amran, most popular Bahlil, worst Raja Juli",
+"storyline": "prabowo-2-years",
+"status": "partial",
+"upcoming": false
+},
+{
 "id": "E0145",
 "date": "2026-10-25",
 "category": "TECH",
@@ -2670,12 +2760,82 @@
 "upcoming": true
 },
 {
+"id": "E0296",
+"date": "2026-10-25",
+"category": "ENV",
+"event": "BMKG's weekly outlook for 20-26 October says hot, dry weather continues under a very strong El Nino and positive IOD, with heavy rain alerts only for Aceh and Papua Pegunungan (23-26 Oct); the next weekly outlook is due around 26-27 October. (update of E0248)",
+"key_numbers": "Max temp 38.5 C West Java (17 Oct) · Central Kalimantan hotspots 157 to 937 (18 to 19 Oct) · West Kalimantan 31 to 231 · South Sumatra 19 to 66 · East Java 10 to 36 · heavy-rain alert 23-26 Oct: Aceh, Papua Pegunungan · strong winds: Java, South Sumatra, Lampung, South Kalimantan, South Sulawesi",
+"storyline": "karhutla",
+"status": "verified",
+"upcoming": true
+},
+{
 "id": "E0257",
 "date": "2026-10-26",
 "category": "POL",
 "event": "The Constitutional Court (MK) holds a further hearing on a judicial review of the Elucidation of Article 603 KUHP (state-loss element), after KPK spokesperson Budi Prasetyo said on 22 Oct that state-loss calculation should not be limited to BPK.",
 "key_numbers": "Hearing 26 Oct 2026 · Article 603 KUHP · Article 23E(1) UUD 1945 · MK Decision 31/PUU-X/2012 · petitioner retired Rear Adm. Leonardi (Perkara 206/PUU-XXIV/2026, per Hukumonline)",
 "storyline": "definisi-korupsi",
+"status": "upcoming",
+"upcoming": true
+},
+{
+"id": "E0282",
+"date": "2026-10-26",
+"category": "POL",
+"event": "Coordinating Minister Yusril Ihza Mahendra is scheduled to attend a National Economic Council (DEN) invitation to hear DEN's fuller explanation of Luhut Pandjaitan's proposal to change the legal definition of corruption. (update of E0231)",
+"key_numbers": "Meeting Mon 26 Oct 2026 (time not given) · proposal concerns the state-loss (kerugian negara) element · Yusril 24 Oct: 'baru wacana' (only a discourse)",
+"storyline": "definisi-korupsi",
+"status": "upcoming",
+"upcoming": true
+},
+{
+"id": "E0283",
+"date": "2026-10-26",
+"category": "POL",
+"event": "KPK re-summons suspect DE, work-unit head (Kasatker) of PJN 1 North Sumatra, who skipped the 22 Oct examination in the BBPJN North Sumatra road-tender bribery case. (update of E0232)",
+"key_numbers": "Re-summons Mon 26 Oct 2026 · 8 new suspects named 22 Oct, 13 suspects in total with the earlier five · tender scheme 2023-2025 · suspects identified by initials: SCH, RP, FS, HH, TRP, MM, MP, DE",
+"storyline": "corruption-cases",
+"status": "upcoming",
+"upcoming": true
+},
+{
+"id": "E0294",
+"date": "2026-10-26",
+"category": "NEWS",
+"event": "Korlantas Polri starts Operasi Patuh 2026 on 26 October, running to 8 November, with wrong-way (lawan arus) riding and driving as the main target.",
+"key_numbers": "26 Oct-8 Nov 2026 (14 days) · focus: lawan arus · tilang supervised by Provos (per Wartakini)",
+"storyline": "",
+"status": "upcoming",
+"upcoming": true
+},
+{
+"id": "E0295",
+"date": "2026-10-26",
+"category": "ENV",
+"event": "Hunter's Moon (full moon) rises on the evening of 26 October, and BMKG warns coastal residents of tidal flooding (rob) around the full moon.",
+"key_numbers": "Moonrise 17:53 WIB 26 Oct · peak 23:58 WIB · moonset 05:10 WIB 27 Oct · best viewing from ~20:00 WIB",
+"storyline": "",
+"status": "upcoming",
+"upcoming": true
+},
+{
+"id": "E0281",
+"date": "2026-10-27",
+"category": "BIZ",
+"event": "Bank Mandiri (BMRI) reported Q3 2026 net profit of Rp45.5 trillion, up 20.7% y/y, ahead of the 27 October date earlier listed for its results. (update of E0229)",
+"key_numbers": "Net profit Rp45.5 T, +20.7% y/y · loans (bank-only) Rp1,605.8 T, +16% · DPK Rp1,750.2 T, +17.7% · assets Rp2,404.1 T · NPL 0.98% · ROE 23.6% · CAR 18.4%",
+"storyline": "msci-reclassification",
+"status": "partial",
+"upcoming": true
+},
+{
+"id": "E0284",
+"date": "2026-10-27",
+"category": "POL",
+"event": "Polda Metro Jaya has rescheduled to Tuesday 27 Oct a 'clarification' summons of documentary director Dandhy Dwi Laksono over a complaint about the film 'Pesta Babi'; his legal team says he cannot attend because clarification invitations have no basis in KUHAP.",
+"key_numbers": "Summons Tue 27 Oct 2026 (first set 19 Oct, invitation letter 9 Oct) · report LP/B/3843/V/2026/SPKT dated 29 May 2026 by Yasinta Moiwend ('Mama Sinta') · case at inquiry (penyelidikan) stage · LBH Merauke head JTW also to be summoned, reported under the personal data protection law (Pasal 65 and 67)",
+"storyline": "",
 "status": "upcoming",
 "upcoming": true
 },
@@ -2695,6 +2855,106 @@
 "category": "TECH",
 "event": "Apple will hold an event on 28 October where a touchscreen MacBook Pro is widely expected.",
 "key_numbers": "Event 28 Oct 2026 · details taken from detik and CNBC Indonesia headlines only, article not opened",
+"storyline": "",
+"status": "upcoming",
+"upcoming": true
+},
+{
+"id": "E0277",
+"date": "2026-10-28",
+"category": "GLB",
+"event": "The US Fed holds its FOMC meeting on 27-28 October, with markets pricing a smaller chance of an October hike and a near-certain December hike. (update of E0058)",
+"key_numbers": "Fed funds range 3.75-4.00% after a 25 bp hike in September (12-0) · October hike odds ~32% (CME FedWatch), down from ~54% · December hike odds ~90% · decision 28 Oct (6:00 PM per tradingeconomics calendar, time zone not stated)",
+"storyline": "rupiah",
+"status": "upcoming",
+"upcoming": true
+},
+{
+"id": "E0285",
+"date": "2026-10-28",
+"category": "POL",
+"event": "East Jakarta District Court hears witness testimony in Roy Suryo's slander/ITE trial over former President Jokowi's diploma; the prosecution plans to call three witnesses and the defendant must attend. (update of E0153)",
+"key_numbers": "Hearing Wed 28 Oct 2026, 09:00 WIB, PN Jakarta Timur (Cakung) · 3 prosecution witnesses · 19 Oct: judges rejected the defence objection and moved to evidence stage · defence asked prosecutors to bring the diploma to court",
+"storyline": "jokowi-ijazah-roy-suryo",
+"status": "upcoming",
+"upcoming": true
+},
+{
+"id": "E0286",
+"date": "2026-10-28",
+"category": "NEWS",
+"event": "Indonesia marks the 98th Hari Sumpah Pemuda (Youth Pledge Day) on 28 Oct with ceremonies under the Kemenpora theme 'Patriotik, Gigih, Berempati: Pemuda untuk Indonesia'; it is not a national holiday.",
+"key_numbers": "Wed 28 Oct 2026, ceremony from 08:00 · 98th anniversary (Youth Pledge 1928) · theme: Patriotik, Gigih, Berempati: Pemuda untuk Indonesia",
+"storyline": "",
+"status": "upcoming",
+"upcoming": true
+},
+{
+"id": "E0293",
+"date": "2026-10-28",
+"category": "TECH",
+"event": "Apple is expected to hold an event on 28 Oct 2026 where a touchscreen MacBook Pro is widely rumoured; same day Huawei starts China sales of the Pura 90 Plus (preorders open). (update of E0190)",
+"key_numbers": "Apple event 28 Oct 2026 (rumour of touchscreen MacBook Pro, per Kompas/detik headlines) · Huawei Pura 90 Plus China sales 28 Oct, up to 12 GB RAM and 1 TB, price not stated, China only",
+"storyline": "",
+"status": "upcoming",
+"upcoming": true
+},
+{
+"id": "E0290",
+"date": "2026-10-30",
+"category": "TECH",
+"event": "Apple iPhone Duo preorders in Indonesia opened 23 Oct at 09.00 WIB and sold out at several official distributor sites by 11.00 WIB; official sales are scheduled from 30 October. (update of E0244)",
+"key_numbers": "256 GB Rp45.678.910 · 512 GB Rp51.999.000 · 1 TB Rp61.999.000 · 2 TB Rp75.999.000 · preorder sold out by 11.00 WIB 23 Oct · sales from 30 Oct 2026 · channels iBox, Digimap, Erajaya",
+"storyline": "",
+"status": "verified",
+"upcoming": true
+},
+{
+"id": "E0287",
+"date": "2026-11-01",
+"category": "ECO",
+"event": "KSPI and Partai Buruh say the government is due to announce 2027 provincial minimum wages (UMP/UMSP) on 1 Nov while their wave of rallies in 38 provinces runs to 30 Oct demanding a 7.5-9.5% increase. (update of E0068)",
+"key_numbers": "Rallies 15-30 Oct 2026 in 38 provinces · demand: UMP/UMSP 2027 +7.5% to +9.5% · announcement date 1 Nov 2026 (per KSPI; CNN Indonesia describes it only as the unions' request) · Manpower Minister Yassierli: formula follows the new labour rules (E0225)",
+"storyline": "ump-2027",
+"status": "upcoming",
+"upcoming": true
+},
+{
+"id": "E0289",
+"date": "2026-11-01",
+"category": "TECH",
+"event": "Tokopedia, Shopee, Lazada and Blibli are due to start withholding 0.5% PPh Pasal 22 on online sellers' gross turnover from 1 November 2026, after the DJP postponement that runs to 31 October.",
+"key_numbers": "0.5% of gross turnover (excl. PPN/PPnBM) · starts 1 Nov 2026 · postponement ran to 31 Oct 2026 · individual sellers up to Rp500 juta/year not withheld but must file a turnover statement · turnover counted across all platforms and offline · basis PMK 37/2025 · first set for 1 Jul 2026",
+"storyline": "ecommerce-seller-rules",
+"status": "upcoming",
+"upcoming": true
+},
+{
+"id": "E0276",
+"date": "2026-11-02",
+"category": "MKT",
+"event": "BEI will stop counting High Shareholding Concentration (HSC) stocks in the IHSG calculation from Monday 2 November 2026, and will move periodic index reviews to January/April/July/October. (update of E0253)",
+"key_numbers": "Effective 2 Nov 2026 · periodic reviews moved from Mar/Jun/Sep/Dec to Jan/Apr/Jul/Oct · results effective first trading day of Feb/May/Aug/Nov · incidental evaluations: stocks entering or leaving HSC adjusted immediately · one outlet reports 82 HSC stocks (unverified)",
+"storyline": "msci-reclassification",
+"status": "upcoming",
+"upcoming": true
+},
+{
+"id": "E0278",
+"date": "2026-11-02",
+"category": "ECO",
+"event": "BPS is expected to release October 2026 inflation on or around 2 November, after September inflation hit 3.28% y/y, the highest this year.",
+"key_numbers": "Sept 2026 inflation 3.28% y/y · 2.17% ytd · 0.30% m/m · CPI 112.31 (108.74 a year earlier) · September data released 1 Oct, 13:59 WIB · October release date not confirmed",
+"storyline": "consumer-health",
+"status": "upcoming",
+"upcoming": true
+},
+{
+"id": "E0288",
+"date": "2026-11-09",
+"category": "POL",
+"event": "DPR is in recess (reses) from 9 Oct to 9 Nov 2026 after closing Masa Persidangan I of the 2026-2027 session on 8 Oct, so no DPR plenary sessions are expected in the 26 Oct-1 Nov week.",
+"key_numbers": "Masa Persidangan I closed 8 Oct 2026 · recess 9 Oct-9 Nov 2026 · Puan listed 13 issues incl. karhutla response and KUHP/KUHAP enforcement · Forestry Bill (RUU Kehutanan) awaits a presidential letter (Surpres)",
 "storyline": "",
 "status": "upcoming",
 "upcoming": true

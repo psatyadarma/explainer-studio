@@ -1,0 +1,112 @@
+{
+  "area": "markets",
+  "run_date": "2026-10-25",
+  "checked": ["detik finance front page (scanned; IHSG, MSCI, oil, gas export, PHK found)", "CNBC Indonesia IHSG close 23 Oct", "cnbcindonesia/bisnis/kontan search results for week-ahead", "HSC 2 Nov rule (tirto, multiple outlets)", "Fed 27-28 Oct (pintu, tradingeconomics calendar)", "oil/Brent (detik, industry.co.id)", "BPS inflation September (Antara)", "BMRI Q3 results (investor.id)", "storylines: msci-reclassification, rupiah (covered via known events E0250-E0254)", "watch list found: IHSG close, foreign flow, MSCI/HSC, oil, Fed, BMRI earnings, gas export cut; not found on pages: rupiah close, BPS release, OJK new action"],
+  "events": [
+    {
+      "date": "2026-11-02",
+      "category": "MKT",
+      "event": "BEI will stop counting High Shareholding Concentration (HSC) stocks in the IHSG calculation from Monday 2 November 2026, and will move periodic index reviews to January/April/July/October.",
+      "key_numbers": "Effective 2 Nov 2026 · periodic reviews moved from Mar/Jun/Sep/Dec to Jan/Apr/Jul/Oct · results effective first trading day of Feb/May/Aug/Nov · incidental evaluations: stocks entering or leaving HSC adjusted immediately · one outlet reports 82 HSC stocks (unverified)",
+      "storyline": "msci-reclassification",
+      "update_of": "E0253",
+      "status": "upcoming",
+      "sources": [{"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/market/20261023160756-17-778973/ihsg-ditutup-menguat-095-ke-level-5439"}, {"label": "Tirto", "url": "https://tirto.id/bei-kecualikan-hsc-dari-ihsg-mulai-2-november-2026-hEaC"}],
+      "why_it_matters": "From next Monday the IHSG number people see is calculated differently, which can move the headline index and fund holdings that track it.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 1, "fresh": 1, "rivals": 1},
+      "spreading_evidence": "Covered by Media Indonesia, Tirto, Bisnis, Kontan, Metro TV, Kumparan",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-28",
+      "category": "GLB",
+      "event": "The US Fed holds its FOMC meeting on 27-28 October, with markets pricing a smaller chance of an October hike and a near-certain December hike.",
+      "key_numbers": "Fed funds range 3.75-4.00% after a 25 bp hike in September (12-0) · October hike odds ~32% (CME FedWatch), down from ~54% · December hike odds ~90% · decision 28 Oct (6:00 PM per tradingeconomics calendar, time zone not stated)",
+      "storyline": "rupiah",
+      "update_of": "E0058",
+      "status": "upcoming",
+      "sources": [{"label": "Pintu News", "url": "https://pintu.co.id/news/295280-fomc-27-28-oktober-2026-peluang-fed-naikkan-bunga-oktober-sempat-tembus-50-kini-sekitar-32"}, {"label": "Trading Economics", "url": "https://tradingeconomics.com/calendar?article=29376&importance=2&startdate=2026-10-23"}],
+      "why_it_matters": "A Fed hike pulls money out of emerging markets, adding pressure to a rupiah already above Rp18,000 per USD.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 0, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "Kompas Money 23 Oct on Fed and rupiah",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-29",
+      "category": "GLB",
+      "event": "Week-ahead global data and central-bank calendar: US Q3 advance GDP and September PCE on 29 Oct, ECB decision on 29 Oct, Bank of Japan decision on 30 Oct.",
+      "key_numbers": "US Q3 GDP consensus ~3.0% (prev 2.2%) · US PCE Sept forecast 0.5% m/m, 3.6% y/y · ECB deposit rate expected 2.5% (hold; hike possible in December) · BoJ policy rate expected 1.25% (hold) · times per tradingeconomics, time zone not stated",
+      "storyline": "",
+      "update_of": "",
+      "status": "upcoming",
+      "sources": [{"label": "Trading Economics", "url": "https://tradingeconomics.com/calendar?article=29376&importance=2&startdate=2026-10-23"}],
+      "why_it_matters": "Inflation and rate signals from the US, Europe and Japan decide whether foreign money keeps leaving Indonesian stocks and bonds.",
+      "signals": {"spreading": 0, "wallet": 0, "surprise": 0, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-02",
+      "category": "ECO",
+      "event": "BPS is expected to release October 2026 inflation on or around 2 November, after September inflation hit 3.28% y/y, the highest this year.",
+      "key_numbers": "Sept 2026 inflation 3.28% y/y · 2.17% ytd · 0.30% m/m · CPI 112.31 (108.74 a year earlier) · September data released 1 Oct, 13:59 WIB · October release date not confirmed",
+      "storyline": "consumer-health",
+      "update_of": "",
+      "status": "upcoming",
+      "sources": [{"label": "ANTARA", "url": "https://sultra.antaranews.com/berita/542064/bps-catat-inflasi-ri-328-persen-pada-september-2026"}],
+      "why_it_matters": "Prices of chilli, rice and fuel decide how far a household's money stretches, and BI is already warning on food inflation above 5%.",
+      "signals": {"spreading": 0, "wallet": 2, "surprise": 0, "visual": 2, "fresh": 1, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-23",
+      "category": "GLB",
+      "event": "Brent crude closed Friday 23 October at its highest in over five months as Houthi attacks on Saudi Arabia and reports of US-Israeli plans against Iran lifted prices.",
+      "key_numbers": "Brent US$117.38 per barrel (close) · WTI US$103.44, +3.99% · detik reported Brent US$115.18 (+1.8%) earlier in the session · ICP September 2026 US$112.81, +US$23.38 from August · APBN 2026 assumption US$70 · Pertalite Rp10,000, Pertamax Rp15,950 unchanged since 2 Sep (Jabodetabek)",
+      "storyline": "fuel-oil",
+      "update_of": "E0174",
+      "status": "verified",
+      "sources": [{"label": "Detik Finance", "url": "https://finance.detik.com/energi/d-8721484/harga-minyak-tembus-us-115-tertinggi-dalam-5-bulan"}, {"label": "Industry.co.id", "url": "https://www.industry.co.id/read/157925/harga-bbm-hari-ini-25-oktober-2026-brent-ditutup-menguat-di-us11738-dan-wti-ke-us10344-tertinggi-dalam-5-bulan-berikut-daftar-lengkap-pertamina-bp-shell-dan-vivo"}],
+      "why_it_matters": "Oil far above the US$70 budget assumption strains subsidies and the rupiah, even though Pertalite is promised not to rise this year.",
+      "signals": {"spreading": 1, "wallet": 2, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "Detik Finance energy headline; many outlets",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-23",
+      "category": "MKT",
+      "event": "Foreign investors net sold Indonesian shares worth Rp1.28 trillion in the week to 23 October even as the IHSG gained 4.9%.",
+      "key_numbers": "IHSG weekly +4.9% · foreign net sell Rp1.28 T for the week · 23 Oct close 5,439.26 (+0.95%) · value Rp13.85 T · 506 up / 192 down · foreign net sell Rp744.4 bn at midday 23 Oct (headline only)",
+      "storyline": "msci-reclassification",
+      "update_of": "E0250",
+      "status": "partial",
+      "sources": [{"label": "Detik Finance", "url": "https://finance.detik.com/"}, {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/market/20261023160756-17-778973/ihsg-ditutup-menguat-095-ke-level-5439"}],
+      "why_it_matters": "The rebound is led by local money and buybacks, not foreigners, so it is fragile ahead of the HSC change and MSCI decision.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 2, "fresh": 1, "rivals": 1},
+      "spreading_evidence": "Detik Finance front page headline",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-27",
+      "category": "BIZ",
+      "event": "Bank Mandiri (BMRI) reported Q3 2026 net profit of Rp45.5 trillion, up 20.7% y/y, ahead of the 27 October date earlier listed for its results.",
+      "key_numbers": "Net profit Rp45.5 T, +20.7% y/y · loans (bank-only) Rp1,605.8 T, +16% · DPK Rp1,750.2 T, +17.7% · assets Rp2,404.1 T · NPL 0.98% · ROE 23.6% · CAR 18.4%",
+      "storyline": "msci-reclassification",
+      "update_of": "E0229",
+      "status": "partial",
+      "sources": [{"label": "Investor.id", "url": "https://investor.id/market/459214/laba-bmri-tumbuh-207-hingga-kuartal-iii2026"}],
+      "why_it_matters": "Banks are the biggest weight in the IHSG, and strong profit gives the market a reason to hold on during the MSCI scare.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 0, "visual": 1, "fresh": 1, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    }
+  ],
+  "gaps": [
+    "BPS October inflation and Q3 GDP release dates not confirmed (typically 2 Nov and 5 Nov; check BPS schedule)",
+    "BMRI profit published 23 Oct although E0229 lists 27 Oct; BRIS 29 Oct and other bank results dates unverified",
+    "Count and weight of HSC stocks (one outlet says 82) not verified; bisnis/kontan pages unreadable",
+    "Rupiah close 23 Oct and any new BI/OJK action not found on pages scanned",
+    "Pertamina 1 Nov non-subsidised fuel price decision not yet announced"
+  ]
+}

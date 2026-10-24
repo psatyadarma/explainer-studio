@@ -1,0 +1,92 @@
+{
+  "area": "business",
+  "run_date": "2026-10-25",
+  "checked": ["inet.detik.com section page", "cnbcindonesia.com/tech section page", "Minggu Depan scan: tech/digital dated events 26 Oct-1 Nov", "watch list found: e-commerce seller rules, consumer tech prices, data centres, government digital/cyber, pinjol", "storyline searches: ojol-regulation, ai-data-centres, startup-funding (via Komdigi/data-centre searches)", "katadata, bisnis, cnnindonesia, dailysocial not separately fetched (search results only)"],
+  "events": [
+    {
+      "date": "2026-11-01",
+      "category": "TECH",
+      "event": "Tokopedia, Shopee, Lazada and Blibli are due to start withholding 0.5% PPh Pasal 22 on online sellers' gross turnover from 1 November 2026, after the DJP postponement that runs to 31 October.",
+      "key_numbers": "0.5% of gross turnover (excl. PPN/PPnBM) · starts 1 Nov 2026 · postponement ran to 31 Oct 2026 · individual sellers up to Rp500 juta/year not withheld but must file a turnover statement · turnover counted across all platforms and offline · basis PMK 37/2025 · first set for 1 Jul 2026",
+      "storyline": "ecommerce-seller-rules",
+      "update_of": "",
+      "status": "upcoming",
+      "sources": [{"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/news/20260928115107-4-771409/empat-e-commerce-mulai-pungut-pajak-per-1-november"}, {"label": "Liputan6", "url": "https://www.liputan6.com/bisnis/read/8294768/pajak-marketplace-berlaku-mulai-1-november-2026"}],
+      "why_it_matters": "Millions of online sellers above Rp500 juta turnover will see tax deducted automatically from sales, and many believe it is a new tax.",
+      "signals": {"spreading": 1, "wallet": 2, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-30",
+      "category": "TECH",
+      "event": "Apple iPhone Duo preorders in Indonesia opened 23 Oct at 09.00 WIB and sold out at several official distributor sites by 11.00 WIB; official sales are scheduled from 30 October.",
+      "key_numbers": "256 GB Rp45.678.910 · 512 GB Rp51.999.000 · 1 TB Rp61.999.000 · 2 TB Rp75.999.000 · preorder sold out by 11.00 WIB 23 Oct · sales from 30 Oct 2026 · channels iBox, Digimap, Erajaya",
+      "storyline": "",
+      "update_of": "E0244",
+      "status": "verified",
+      "sources": [{"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/tech/20261023124542-37-778889/harga-iphone-duo-di-ri-tembus-rp75-juta-preorder-buka-langsung-ludes"}, {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/teknologi/20261023113349-206-1418737/daftar-harga-iphone-duo-di-indonesia-tembus-rp75-juta"}, {"label": "Katadata", "url": "https://katadata.co.id/digital/gadget/6adaff74c7e74/pre-order-iphone-duo-harga-mulai-rp45-juta-hari-ini-stok-langsung-ludes"}],
+      "why_it_matters": "A phone priced up to Rp76 juta sold out in two hours, which says a lot about who is still spending.",
+      "signals": {"spreading": 2, "wallet": 1, "surprise": 2, "visual": 2, "fresh": 2, "rivals": 0},
+      "spreading_evidence": "Covered same day by CNBC Indonesia, CNN Indonesia, Katadata, detik, Suara",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-22",
+      "category": "TECH",
+      "event": "The Pengadilan Niaga at PN Jakarta Pusat annulled the KPPU decision that found 97 P2P lending (pinjol) platforms guilty of price-fixing interest rates, saying the ceiling was OJK policy, not a cartel.",
+      "key_numbers": "97 pinjol platforms · KPPU fine reported as Rp755 miliar (per Kontan/Monitor Indonesia headlines, not in CNBC text) · ruling read 22 Oct 2026 · KPPU ordered to pay court costs Rp23.592.000 · ceiling per AFPI guidelines 2018/2020/2021 and SEOJK 19/SEOJK.06/2023 effective 1 Jan 2024",
+      "storyline": "",
+      "update_of": "",
+      "status": "verified",
+      "sources": [{"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/market/20261023120231-17-778870/pengadilan-batalkan-putusan-kppu-soal-bunga-kartel-bunga-pinjol"}, {"label": "Antara", "url": "https://www.antaranews.com/berita/5809379/pengadilan-niaga-batalkan-putusan-kppu-soal-bunga-pinjol"}, {"label": "Kontan", "url": "https://keuangan.kontan.co.id/news/pengadilan-batalkan-putusan-kppu-denda-rp-755-miliar-ke-97-fintech-pinjol-gugur"}],
+      "why_it_matters": "Borrowers' loan interest stays under OJK's ceiling regime rather than a competition ruling, and KPPU may still appeal to the Supreme Court.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 2, "visual": 1, "fresh": 1, "rivals": 2},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-23",
+      "category": "TECH",
+      "event": "Komdigi's Digital Infrastructure DG Wayan Toni Supriyanto says Kupang and Bitung are candidate new data-centre hubs outside Java and Batam, and draft Perpres on data centres and undersea cables are in public consultation.",
+      "key_numbers": "Kupang and Bitung named · draft Perpres data centre and undersea cable in public consultation · no issuance date · horizon 2030 for AI support · Komdigi says 580 MW is not enough for AI sovereignty (per Feedberry headline)",
+      "storyline": "ai-data-centres",
+      "update_of": "E0205",
+      "status": "partial",
+      "sources": [{"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/tech/20261023101930-37-778811/kupang-dan-bitung-mau-dijadikan-pusat-data-center-baru-ri"}, {"label": "detikInet", "url": "https://inet.detik.com/law-and-policy/d-8719483/pemerintah-ingin-pusat-data-menyebar-ke-indonesia-timur-perpres-disiapkan/amp"}],
+      "why_it_matters": "Where AI data centres go decides where jobs, power and water demand land, and CNBC also frames them as competing with farmers for water.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 1, "fresh": 1, "rivals": 2},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-25",
+      "category": "TECH",
+      "event": "Under Ministerial Regulation 3/2026 (Kepmen UMKM 398/2026), e-commerce platforms must cut admin fees by at least 50% for verified micro and small sellers of domestic products from 25 Oct; still unreported whether the first sellers received it.",
+      "key_numbers": "At least 50% fee cut · starts 25 Oct 2026 · verification up to 10 days · payout within 5 days",
+      "storyline": "ecommerce-seller-rules",
+      "update_of": "E0145",
+      "status": "upcoming",
+      "sources": [{"label": "Bisnis.com", "url": "https://ekonomi.bisnis.com/read/20261017/12/2013449/mulai-25-oktober-umkm-dapat-potongan-50-biaya-admin-shopee-tiktok-shop-cs"}],
+      "why_it_matters": "Pair with the 1 Nov marketplace tax: sellers get a fee cut and a tax withholding in the same week.",
+      "signals": {"spreading": 1, "wallet": 2, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-28",
+      "category": "TECH",
+      "event": "Apple is expected to hold an event on 28 Oct 2026 where a touchscreen MacBook Pro is widely rumoured; same day Huawei starts China sales of the Pura 90 Plus (preorders open).",
+      "key_numbers": "Apple event 28 Oct 2026 (rumour of touchscreen MacBook Pro, per Kompas/detik headlines) · Huawei Pura 90 Plus China sales 28 Oct, up to 12 GB RAM and 1 TB, price not stated, China only",
+      "storyline": "",
+      "update_of": "E0190",
+      "status": "upcoming",
+      "sources": [{"label": "Kompas.com", "url": "https://tekno.kompas.com/read/2026/10/20/07010077/apple-gelar-acara-28-oktober-2026-rilis-macbook-pro-layar-sentuh-"}, {"label": "Antara", "url": "https://www.antaranews.com/berita/5807867/huawei-pura-90-plus-siap-debut-minggu-depan-ini-spesifikasinya"}],
+      "why_it_matters": "Gadget news ahead, but nothing is Indonesia-specific yet.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 0, "visual": 1, "fresh": 2, "rivals": 0},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    }
+  ],
+  "gaps": ["Kontan/Monitor Indonesia report the pinjol KPPU fine as Rp755 miliar but the CNBC article text does not state it; KPPU appeal not confirmed", "No other dated tech/digital policy start for 26-31 Oct found beyond the 1 Nov marketplace tax; Komdigi child-protection Permen 9/2026 phase-in dates not checked", "Government websites shutdown (PHP2Shell) investigation by intelligence agencies only seen as a CNBC headline; page fetch failed", "Apple 28 Oct event article not opened (Kompas blocked)"]
+}
