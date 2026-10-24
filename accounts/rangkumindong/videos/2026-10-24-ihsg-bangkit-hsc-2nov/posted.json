@@ -2,5 +2,97 @@
  "success": true,
  "job_id": "ba9ae0a33d9045819e257739b1bf5636",
  "scheduled_date": "2026-10-24T19:00:00+08:00",
- "request_id": "Rangkumindong-2026-10-24-ihsg-bangkit-hsc-2nov"
+ "request_id": "Rangkumindong-2026-10-24-ihsg-bangkit-hsc-2nov",
+ "status_check": {
+  "status": "completed",
+  "completed": 2,
+  "total": 2,
+  "results": [
+   {
+    "user_email": "rangkumindong.id@gmail.com",
+    "profile_username": "Rangkumindong",
+    "platform": "youtube",
+    "media_type": "video",
+    "upload_timestamp": {
+     "$date": "2026-10-24T11:00:45.607Z"
+    },
+    "success": true,
+    "platform_post_id": "TivUTiMxyV0",
+    "post_url": "https://www.youtube.com/watch?v=TivUTiMxyV0",
+    "error_message": null,
+    "error_signature": null,
+    "error_code": null,
+    "failure_stage": null,
+    "media_size_bytes": 12399487,
+    "post_title": "IHSG Naik 4,9% Seminggu, Tapi 2 November ~80 Saham Keluar dari Hitungan #Shorts",
+    "post_caption": "IHSG naik 4,9% seminggu. Udah aman buat kamu? 🤔\n\nRangkumin dong 👇\n• Senin 19 Okt IHSG ditutup 4.996, terendah sejak Oktober 2020. Bursa pasang rem: batas turun harian dipersempit dari 15% jadi 7%.\n• Lalu naik 4 hari beruntun: +5,65% Selasa, Jumat 23 Okt ditutup 5.439,26. Seminggu +4,9%. Tapi asing masih jual bersih: Kamis Rp1,49 T, Jumat Rp1,29 T.\n• Mulai 2 November, saham berstatus HSC (kepemilikan terpusat di segelintir pihak, sekitar 80 saham, mis. DSSA) dikeluarkan dari hitungan IHSG. Keputusan MSCI soal status Indonesia paling lambat 30 Juni 2027.\n\nMenurut kamu, IHSG sudah benar-benar pulih atau belum? Komen alasanmu 👇\n\nPART 3 dari cerita MSCI. Bukan ajakan jual/beli saham. Sumber di komentar.\n\n#IHSG #saham #BEI #MSCI #pasarmodal #beritaekonomi #rangkumindong\n\nSumber:\n1. Kontan, 23 Okt 2026: IHSG +4,90% sepekan, 5.185,11 → 5.439,26 https://investasi.kontan.co.id/news/ihsg-menguat-490-dalam-sepekan-simak-proyeksi-pekan-depan\n2. CNBC Indonesia, 23 Okt 2026: IHSG ditutup menguat 0,95% ke 5.439 https://www.cnbcindonesia.com/market/20261023160756-17-778973/ihsg-ditutup-menguat-095-ke-level-5439\n3. detikFinance, 23 Okt 2026: saham HSC dikeluarkan dari perhitungan IHSG mulai 2 Nov (Peng-00201/BEI.POP/10-2026) https://finance.detik.com/bursa-dan-valas/d-8719635/saham-hsc-segera-ditendang-dari-perhitungan-ihsg-ada-tanda-khusus · Antara https://www.antaranews.com/berita/5804269/bei-kecualikan-saham-hsc-dari-perhitungan-ihsg-efektif-2-november-2026\n4. detikFinance, 23 Okt 2026: 80 saham masuk kategori HSC https://finance.detik.com/bursa-dan-valas/d-8719751/deretan-saham-para-konglomerat-yang-masuk-daftar-hsc · Bisnis, 20 Okt 2026: daftar 80 saham HSC https://market.bisnis.com/read/20261020/7/2014091/daftar-80-saham-hsc-yang-bakal-keluar-dari-ihsg-ini-efeknya\n5. Emitennews: BEI temui MSCI, hapus saham HSC dari IHSG https://www.emitennews.com/news/bei-temui-msci-ada-2-inisiatif-baru-hapus-saham-hsc-dari-ihsg\n6. Kontan, 19 Okt 2026: IHSG 4.996, terendah sejak Okt 2020 https://investasi.kontan.co.id/news/ihsg-anjlok-364-ke-4996-pada-senin-19102026-mdka-ammn-mbma-top-losers-lq45\n7. Bisnis, 19 Okt 2026: ARB jadi 7% https://market.bisnis.com/read/20261019/7/2013651/bei-pangkas-batas-auto-rejection-bawah-arb-jadi-asimetris-7\n8. Viva, 20 Okt 2026: IHSG +5,65% https://www.viva.co.id/bisnis/1937300-ihsg-ditutup-meroket-565-persen-ke-527889-nilai-transaksi-tembus-rp25-triliun\n9. Kontan, 22 Okt 2026: asing net sell Rp1,49 T https://investasi.kontan.co.id/news/asing-net-sell-rp-149-triliun-saat-ihsg-menguat-111-cek-saham-yang-banyak-dilepas\n10. Viva, 24 Okt 2026: asing net sell Rp1,29 T pada Jumat 23 Okt https://www.viva.co.id/bisnis/1938206-asing-kembali-net-sell-rp129-triliun-saham-bbca-dilepas-rp766-miliar-saat-ihsg-menguat\n11. MSCI, 15 Okt 2026: konsultasi Emerging → Standalone, keputusan paling lambat 30 Jun 2027 https://www.msci.com/downloads/documents/press-releases/media-room/Indonesia_PR_Oct_26.pdf\n\nPART 1 (19 Okt): https://www.youtube.com/watch?v=wecMGwOQoBo · IG https://www.instagram.com/reel/DerGr2VijdH/\nBukan ajakan jual/beli saham.",
+    "is_async": false,
+    "dashboard": false,
+    "source": "api",
+    "client": "python_generic",
+    "client_version": null,
+    "video_was_transcoded": false,
+    "changes": [],
+    "prevalidation_metadata": {
+     "width": 1080,
+     "height": 1920,
+     "fps": 30.0,
+     "duration": 68.534,
+     "container": "mov,mp4,m4a,3gp,3g2,mj2",
+     "video_codec": "h264",
+     "audio_codec": "aac"
+    },
+    "target_linkedin_page_id": null,
+    "request_id": "Rangkumindong-2026-10-24-ihsg-bangkit-hsc-2nov",
+    "request_id_logs": "Rangkumindong-2026-10-24-ihsg-bangkit-hsc-2nov",
+    "job_id": "ba9ae0a33d9045819e257739b1bf5636",
+    "request_total_platforms": 2
+   },
+   {
+    "user_email": "rangkumindong.id@gmail.com",
+    "profile_username": "Rangkumindong",
+    "platform": "instagram",
+    "media_type": "video",
+    "upload_timestamp": {
+     "$date": "2026-10-24T11:02:32.816Z"
+    },
+    "success": true,
+    "platform_post_id": "18119596133096213",
+    "post_url": "https://www.instagram.com/reel/De3-lMjk0Wl/",
+    "error_message": null,
+    "error_signature": null,
+    "error_code": null,
+    "failure_stage": null,
+    "media_size_bytes": 12399487,
+    "post_title": "IHSG naik 4,9% seminggu. Udah aman buat kamu? 🤔\n\nRangkumin dong 👇\n• Senin 19 Okt IHSG ditutup 4.996, terendah sejak Oktober 2020. Bursa pasang rem: batas turun harian dipersempit dari 15% jadi 7%.\n• Lalu naik 4 hari beruntun: +5,65% Selasa, Jumat 23 Okt ditutup 5.439,26. Seminggu +4,9%. Tapi asing masih jual bersih: Kamis Rp1,49 T, Jumat Rp1,29 T.\n• Mulai 2 November, saham berstatus HSC (kepemilikan terpusat di segelintir pihak, sekitar 80 saham, mis. DSSA) dikeluarkan dari hitungan IHSG. Keputusan MSCI soal status Indonesia paling lambat 30 Juni 2027.\n\nMenurut kamu, IHSG sudah benar-benar pulih atau belum? Komen alasanmu 👇\n\nPART 3 dari cerita MSCI. Bukan ajakan jual/beli saham. Sumber di komentar.\n\n#IHSG #saham #BEI #MSCI #pasarmodal #beritaekonomi #rangkumindong",
+    "post_caption": "IHSG naik 4,9% seminggu. Udah aman buat kamu? 🤔\n\nRangkumin dong 👇\n• Senin 19 Okt IHSG ditutup 4.996, terendah sejak Oktober 2020. Bursa pasang rem: batas turun harian dipersempit dari 15% jadi 7%.\n• Lalu naik 4 hari beruntun: +5,65% Selasa, Jumat 23 Okt ditutup 5.439,26. Seminggu +4,9%. Tapi asing masih jual bersih: Kamis Rp1,49 T, Jumat Rp1,29 T.\n• Mulai 2 November, saham berstatus HSC (kepemilikan terpusat di segelintir pihak, sekitar 80 saham, mis. DSSA) dikeluarkan dari hitungan IHSG. Keputusan MSCI soal status Indonesia paling lambat 30 Juni 2027.\n\nMenurut kamu, IHSG sudah benar-benar pulih atau belum? Komen alasanmu 👇\n\nPART 3 dari cerita MSCI. Bukan ajakan jual/beli saham. Sumber di komentar.\n\n#IHSG #saham #BEI #MSCI #pasarmodal #beritaekonomi #rangkumindong",
+    "is_async": false,
+    "dashboard": false,
+    "source": "api",
+    "client": "python_generic",
+    "client_version": null,
+    "video_was_transcoded": false,
+    "changes": [],
+    "prevalidation_metadata": {
+     "width": 1080,
+     "height": 1920,
+     "fps": 30.0,
+     "duration": 68.534,
+     "container": "mov,mp4,m4a,3gp,3g2,mj2",
+     "video_codec": "h264",
+     "audio_codec": "aac"
+    },
+    "target_linkedin_page_id": null,
+    "request_id": "Rangkumindong-2026-10-24-ihsg-bangkit-hsc-2nov",
+    "request_id_logs": "Rangkumindong-2026-10-24-ihsg-bangkit-hsc-2nov",
+    "job_id": "ba9ae0a33d9045819e257739b1bf5636",
+    "request_total_platforms": 2
+   }
+  ],
+  "external_id": null,
+  "last_update": {
+   "$date": "2026-10-24T11:02:32.816Z"
+  },
+  "job_id": "ba9ae0a33d9045819e257739b1bf5636"
+ }
 }

@@ -21,3 +21,10 @@ History moved out of HANDOFF.md (22 Oct) so fresh sessions read less. Append one
 - Posted ~18:15 WITA at the user's request (slot 19:00): IG De1T7g3AGla, YT 4UDj48AzkDU, TikTok manual. Meta rejected the B Trial Reel (account below follower threshold); B saved, not posted.
 - Weekly "Rangkumin Seminggu" 17-23 Okt built (accounts/rangkumindong/weekly/2026-10-24, 7:24); awaiting user OK for Sat 08:00 (no auto-post, high sensitivity).
 - Token cuts: events.py window --brief/show, day.py candidates/today.
+
+## 24 Oct (Sat, #6 IHSG chapter cut PART 3; Pratama, kamu_stakes, subs block)
+- Weekly MP4 wasn't in this session, so it was re-rendered here (7:22). The weekly had already been scheduled and posted at 08:00 from the 23 Oct chat (IG De2y5UIDySU, YT HrNZE3CJlY4). The morning message wrongly said it was unposted and was corrected later. **Lesson:** `git fetch` and check the Upload-Post schedule again just before telling the user something isn't posted.
+- Sweeps: 27 events (8/3/5/11), 26 merged. Light fact-check made 3 fixes. No pick by 14:00, so ⭐ #1 was taken as the default. Full fact-check made 2 fixes (Friday foreign net sell for the full day was Rp1,29 T). QA returned FIX (cover counter, CTA showing under the end card), then PASS on A and B.
+- Auto-posted 19:00 (no reply): IG De3-lMjk0Wl, YT TivUTiMxyV0. B not posted (Trial Reels blocked).
+- **Engine bug:** subtitle timings from tts_eleven.py and variant.py came out ~0.8–1.2 s late against the voice. The producer re-timed them from the STT transcript with a scratchpad script. Fix this in the engine before the next video.
+- Metrics: survival (24 h) IG 492 views, ~28.4% watched; karhutla (72 h) IG 51 views, 30.6%; YT 90.5% on 186 views (treat with caution).

@@ -32,4 +32,5 @@ Status: **ACTIVE** · Category: markets · Started: 15 Oct 2026
 
 ## Videos
 - **PART 1** — 19 Oct 2026, 19:00 WITA: "IHSG jatuh ke bawah 5.000: Indonesia mau dikeluarin MSCI?" · IG https://www.instagram.com/reel/DerGr2VijdH/ · YouTube https://www.youtube.com/watch?v=wecMGwOQoBo · TikTok @rangkumindong (manual). Covered: the 16 Oct −11.57% crash, MSCI's 15 Oct proposal (EM → Standalone), reasons, timeline to 30 Jun 2027, 15% free-float target.
+- **PART 3** — 24 Oct 2026, 19:00 WITA: "IHSG naik 4,9% seminggu. Udah aman buat kamu?" (chapter cut) · IG https://www.instagram.com/reel/De3-lMjk0Wl/ · YouTube https://www.youtube.com/watch?v=TivUTiMxyV0 · TikTok manual. Covered: IHSG rally to 5.439,26 (+4,9% week; low 4.996 on 19 Oct, +5,65% Tue); foreign still net sell Rp1,49 T (Thu) / Rp1,29 T (Fri); BEI excludes ~80 HSC stocks from IHSG from 2 Nov; MSCI decision by 30 Jun 2027. Next watch: 2 Nov (HSC exclusion takes effect). Folder videos/2026-10-24-ihsg-bangkit-hsc-2nov.
 - Next milestone / PART 2 candidate: BEI's ARB cut to 7% (from 19 Oct), OJK sanctions on parties linked to DSSA/BREN/CUAN, BEI's clarification to MSCI.

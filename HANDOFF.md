@@ -1,6 +1,6 @@
 # Handoff: Rangkumin Dong (read this first in every session)
 
-Updated: Thu 22 Oct 2026, 11:30 WITA. Each daily run is a fresh session with no memory of earlier chats. **This file plus the playbook are the memory.** Whenever something here changes, update it, mirror it to the Video project (`claude/rangkumindong-handoff.md`), commit and push.
+Updated: Sat 24 Oct 2026, 19:30 WITA. Each daily run is a fresh session with no memory of earlier chats. **This file plus the playbook are the memory.** Whenever something here changes, update it, mirror it to the Video project (`claude/rangkumindong-handoff.md`), commit and push.
 
 ## Standing rules from the user
 - **Experiments from 23 Oct:** daily opening A/B (B = Instagram Trial Reel, `engine/variant.py` + `engine/post.py --trial`), slot fixed at 19:00 WITA, voice in weekly blocks. The "Rangkumin dong!" tagline stays right after the hook (user 22 Oct: only change it when the data says so). See playbook → Experiments 0.
@@ -34,7 +34,8 @@ Updated: Thu 22 Oct 2026, 11:30 WITA. Each daily run is a fresh session with no 
 ## Status (keep this section under ~10 lines; history → knowledge/run-log.md)
 - Live: #1 IHSG/MSCI (19 Oct), #2 rupiah Rp18.046 (20 Oct), #3 karhutla/Lutfi (21 Oct), #4 definisi korupsi (22 Oct 19:30, IG https://www.instagram.com/reel/Dey4SpKEY5J/ · YT https://www.youtube.com/watch?v=vSNSsBHAMe8), #5 harus survival (23 Oct ~18:15, posted early at user's request, IG https://www.instagram.com/reel/De1T7g3AGla/ · YT https://www.youtube.com/watch?v=4UDj48AzkDU; B not posted, Trial Reels blocked). Links, metrics and per-day details: covered.csv, metrics.csv, run-log.md.
 - IG avg % watched so far: 12.4% and 3.1% → retention is the focus (opening rules, daily opening A/B from 23 Oct).
-- Weekly long video "Rangkumin Seminggu": 6–10 min, 16:9, Sat 08:00 WITA; first one (17–23 Okt, 7:24) BUILT 23 Oct in `weekly/2026-10-24`, awaiting the user's OK for Sat 08:00 (no auto-post). Pipeline built 22 Oct: 16:9 style (`styles/sticker/weekly/`), chapter template, `engine/weekly.py` (init / voice / index / render in parallel / assemble / thumb), 1280×720 thumbnail; demo in `tests/weekly-demo`. See playbook → Agent pipeline → Weekly.
+- Weekly long video "Rangkumin Seminggu": 6–10 min, 16:9, Sat 08:00 WITA. The first one (17–23 Okt) went live 24 Oct 08:00 (IG De2y5UIDySU, YT HrNZE3CJlY4). See playbook → Agent pipeline → Weekly.
+- #6 IHSG chapter cut PART 3 auto-posted 24 Oct 19:00 (IG De3-lMjk0Wl, YT TivUTiMxyV0). **Open bug:** subtitle timings from tts_eleven/variant run ~1 s late (see run-log 24 Oct).
 - Each day: append a 3–5 line block to run-log.md (picks, counts, problems) instead of growing this file.
 
 ## Dashboard: "Rangkumin Dong Studio"

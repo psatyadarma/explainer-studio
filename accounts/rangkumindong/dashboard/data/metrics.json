@@ -118,5 +118,53 @@
 "shares": 0,
 "saves": null,
 "follows": 0
+},
+{
+"date": "2026-10-21",
+"folder": "videos/2026-10-21-karhutla-lutfi-singapura",
+"platform": "instagram",
+"hours": 72,
+"views": 51,
+"avg_watch_pct": 30.6,
+"hold_3s_pct": null,
+"shares": 0,
+"saves": 1,
+"follows": null
+},
+{
+"date": "2026-10-21",
+"folder": "videos/2026-10-21-karhutla-lutfi-singapura",
+"platform": "youtube",
+"hours": 72,
+"views": 186,
+"avg_watch_pct": 90.5,
+"hold_3s_pct": null,
+"shares": 0,
+"saves": null,
+"follows": 0
+},
+{
+"date": "2026-10-23",
+"folder": "videos/2026-10-23-mode-survival-dompet",
+"platform": "instagram",
+"hours": 24,
+"views": 492,
+"avg_watch_pct": 28.4,
+"hold_3s_pct": null,
+"shares": 0,
+"saves": 2,
+"follows": null
+},
+{
+"date": "2026-10-23",
+"folder": "videos/2026-10-23-mode-survival-dompet",
+"platform": "youtube",
+"hours": 24,
+"views": 1200,
+"avg_watch_pct": null,
+"hold_3s_pct": null,
+"shares": 0,
+"saves": null,
+"follows": 0
 }
 ]
