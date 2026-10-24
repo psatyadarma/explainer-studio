@@ -1,0 +1,120 @@
+[
+ {
+  "lines": "h1, hb1, b4, caption",
+  "claim": "IHSG gained 4,90% over the week: 5.185,11 (Fri 16 Okt) to 5.439,26 (Fri 23 Okt). Spoken '4,9%'.",
+  "numbers": "+4,90%; 5.185,11 → 5.439,26",
+  "sources": [
+   "https://investasi.kontan.co.id/news/ihsg-menguat-490-dalam-sepekan-simak-proyeksi-pekan-depan",
+   "https://www.cnbcindonesia.com/market/20261023160756-17-778973/ihsg-ditutup-menguat-095-ke-level-5439"
+  ]
+ },
+ {
+  "lines": "h2, hb2, t1, caption",
+  "claim": "BEI will exclude High Shareholding Concentration (HSC) stocks from the IHSG calculation, effective 2 November 2026 (Pengumuman Peng-00201/BEI.POP/10-2026, adjustment of IHSG evaluation criteria).",
+  "numbers": "2 Nov 2026",
+  "sources": [
+   "https://finance.detik.com/bursa-dan-valas/d-8719635/saham-hsc-segera-ditendang-dari-perhitungan-ihsg-ada-tanda-khusus",
+   "https://www.emitennews.com/news/bei-temui-msci-ada-2-inisiatif-baru-hapus-saham-hsc-dari-ihsg",
+   "https://www.antaranews.com/berita/5804269/bei-kecualikan-saham-hsc-dari-perhitungan-ihsg-efektif-2-november-2026",
+   "https://www.cnbcindonesia.com/market/20261022113510-17-778523/bei-ubah-aturan-mulai-2-november-saham-hsc-tak-masuk-kriteria-ihsg"
+  ]
+ },
+ {
+  "lines": "t1, caption",
+  "claim": "About 80 stocks are in the HSC category (detik: 'terdapat 80 saham dari berbagai konglomerasi yang masuk kategori HSC'). Spoken 'sekitar 80'.",
+  "numbers": "~80",
+  "sources": [
+   "https://finance.detik.com/bursa-dan-valas/d-8719751/deretan-saham-para-konglomerat-yang-masuk-daftar-hsc",
+   "https://www.kabarbursa.com/market-hari-ini/80-saham-hsc-dikeluarkan-dari-perhitungan-ihsg-evaluasi-rutin-tiga-bulanan.md",
+   "https://market.bisnis.com/read/20261020/7/2014091/daftar-80-saham-hsc-yang-bakal-keluar-dari-ihsg-ini-efeknya"
+  ],
+  "note": "Count moves (82–83 reported mid/late Okt); keep 'sekitar'."
+ },
+ {
+  "lines": "t2",
+  "claim": "HSC = ownership concentrated in a few parties ('sebagian besar saham suatu emiten dikuasai oleh segelintir pihak'); DSSA is on the HSC list (HSC ratio 95,76%).",
+  "numbers": "DSSA 95,76%",
+  "sources": [
+   "https://finance.detik.com/bursa-dan-valas/d-8719751/deretan-saham-para-konglomerat-yang-masuk-daftar-hsc",
+   "https://www.suara.com/bisnis/2026/10/23/153904/ihsg-menguat-asing-masih-buru-saham-berstatus-hsc"
+  ]
+ },
+ {
+  "lines": "t2",
+  "claim": "The HSC exclusion was announced by BEI after its 19 Oct video call with MSCI (BEI named it as one of two new initiatives after meeting MSCI). Script says only the timing, not that MSCI asked for it.",
+  "numbers": "19 Okt",
+  "sources": [
+   "https://www.emitennews.com/news/bei-temui-msci-ada-2-inisiatif-baru-hapus-saham-hsc-dari-ihsg",
+   "https://market.bisnis.com/read/20261020/7/2013950/brief-insight-bei-keluarkan-saham-hsc-dari-ihsg-benarkah-indeks-bakal-rebound"
+  ]
+ },
+ {
+  "lines": "t4",
+  "claim": "From 2 Nov the IHSG is calculated without the HSC stocks, so the index's composition differs from before. Framed as composition only; no claim on the size or direction of the effect.",
+  "numbers": "",
+  "sources": [
+   "https://finance.detik.com/bursa-dan-valas/d-8719635/saham-hsc-segera-ditendang-dari-perhitungan-ihsg-ada-tanda-khusus"
+  ]
+ },
+ {
+  "lines": "b1",
+  "claim": "IHSG closed at 4.996,61 on Mon 19 Okt 2026 (−3,64%), lowest close since 6 Oct 2020.",
+  "numbers": "4.996,61; sejak Okt 2020",
+  "sources": [
+   "https://insight.kontan.co.id/news/ihsg-terendah-6-tahun-waspadai-tekanan-jual-saham-big-caps-hari-ini-2010",
+   "https://investasi.kontan.co.id/news/ihsg-anjlok-364-ke-4996-pada-senin-19102026-mdka-ammn-mbma-top-losers-lq45"
+  ]
+ },
+ {
+  "lines": "b2",
+  "claim": "BEI cut the lower auto-rejection limit (ARB) from 15% to 7% (asymmetric, stocks above Rp10), 19 Okt–31 Des 2026. Script: 'batas turun harian saham dipersempit, dari 15 jadi 7 persen'.",
+  "numbers": "15% → 7%",
+  "sources": [
+   "https://market.bisnis.com/read/20261019/7/2013651/bei-pangkas-batas-auto-rejection-bawah-arb-jadi-asimetris-7",
+   "https://finance.detik.com/bursa-dan-valas/d-8713663/bos-bursa-buka-bukaan-alasan-pangkas-batas-arb"
+  ]
+ },
+ {
+  "lines": "b3",
+  "claim": "Tue 20 Okt: IHSG closed 5.278,89, +5,65%.",
+  "numbers": "+5,65%",
+  "sources": [
+   "https://www.viva.co.id/bisnis/1937300-ihsg-ditutup-meroket-565-persen-ke-527889-nilai-transaksi-tembus-rp25-triliun",
+   "https://infobanknews.com/ihsg-ditutup-lanjut-menguat-565-persen-ke-5-278-transaksi-saham-tembus-rp2654-t"
+  ]
+ },
+ {
+  "lines": "b4",
+  "claim": "Wed 21 Okt 5.328,36 (+0,94%), Thu 22 Okt 5.387,91 (+1,12%), Fri 23 Okt 5.439,26 (+0,95%): up every day 20–23 Okt.",
+  "numbers": "5.439,26",
+  "sources": [
+   "https://www.cnbcindonesia.com/market/20261023160756-17-778973/ihsg-ditutup-menguat-095-ke-level-5439",
+   "https://investortrust.id/market/120274/ihsg-kembali-melesat-ke-5-439-saham-ara-bertebaran-dipimpin-wmuu",
+   "https://www.cnbcindonesia.com/market/20261022160501-17-778649/ihsg-ditutup-menguat-112-ke-level-5387"
+  ]
+ },
+ {
+  "lines": "b5",
+  "claim": "Foreign investors net sold Rp1,49 T on Thu 22 Okt and Rp1,29 T on Fri 23 Okt (full day).",
+  "numbers": "Rp1,49 T; Rp1,29 T",
+  "sources": [
+   "https://investasi.kontan.co.id/news/asing-net-sell-rp-149-triliun-saat-ihsg-menguat-111-cek-saham-yang-banyak-dilepas",
+   "https://www.viva.co.id/bisnis/1938206-asing-kembali-net-sell-rp129-triliun-saham-bbca-dilepas-rp766-miliar-saat-ihsg-menguat",
+   "https://pusatdata.kontan.co.id/news/ihsg-menguat-hari-keempat-asing-tetap-net-sell-rp-129-triliun-pada-jumat-2310"
+  ]
+ },
+ {
+  "lines": "caption, pinned",
+  "claim": "MSCI consultation (Emerging → Standalone) still open; feedback by 30 Apr 2027, decision by 30 Jun 2027.",
+  "numbers": "30 Jun 2027",
+  "sources": [
+   "https://www.msci.com/downloads/documents/press-releases/media-room/Indonesia_PR_Oct_26.pdf"
+  ]
+ },
+ {
+  "lines": "disc, caption",
+  "claim": "Disclaimer: not an invitation to buy or sell stocks. No causal link claimed between BEI/Danantara measures and the rally.",
+  "numbers": "",
+  "sources": []
+ }
+]

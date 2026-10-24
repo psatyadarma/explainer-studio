@@ -1,0 +1,116 @@
+{
+  "direction": "[upbeat explainer, quick; neutral, no advice]",
+  "voice": "male:Pratama",
+  "format": "chapter_cut",
+  "source": "weekly/2026-10-24 ch 1 'IHSG bangkit?'",
+  "hook_style": "kamu_stakes",
+  "subs": "block",
+  "storyline": "msci-reclassification",
+  "part": 3,
+  "disclaimer": "Bukan ajakan jual/beli saham",
+  "lines": [
+    {
+      "id": "h1",
+      "tag": "[curious, urgent]",
+      "text": "IHSG naik 4,9% seminggu. Udah aman buat kamu?",
+      "say": "I H S G naik empat koma sembilan persen seminggu. Udah aman buat kamu?"
+    },
+    {
+      "id": "h2",
+      "tag": "[teasing]",
+      "text": "Tunggu tanggal 2 November dulu.",
+      "say": "Tunggu tanggal dua November dulu."
+    },
+    {
+      "id": "rd",
+      "tagline": true,
+      "text": "Rangkumin dong!"
+    },
+    {
+      "id": "b1",
+      "tag": "[serious]",
+      "text": "Senin kami bahas: IHSG jatuh ke 4.996, terendah sejak Oktober 2020.",
+      "say": "Senin kami bahas: I H S G jatuh ke empat ribu sembilan ratus sembilan puluh enam, terendah sejak Oktober dua ribu dua puluh."
+    },
+    {
+      "id": "b2",
+      "tag": "[explaining, quick]",
+      "text": "Bursa langsung pasang rem: batas turun harian saham dipersempit, dari 15 jadi 7 persen.",
+      "say": "Bursa langsung pasang rem: batas turun harian saham dipersempit, dari lima belas jadi tujuh persen."
+    },
+    {
+      "id": "b3",
+      "tag": "[surprised]",
+      "text": "Selasa, IHSG naik 5,65 persen. Dalam. Sehari.",
+      "say": "Selasa, I H S G naik lima koma enam lima persen. Dalam. Sehari."
+    },
+    {
+      "id": "b4",
+      "tag": "[upbeat]",
+      "text": "Rabu naik. Kamis naik. Jumat? Naik lagi, ditutup di 5.439.",
+      "say": "Rabu naik. Kamis naik. Jumat? Naik lagi, ditutup di lima ribu empat ratus tiga puluh sembilan."
+    },
+    {
+      "id": "b5",
+      "tag": "[matter-of-fact]",
+      "text": "Asing? Masih jual bersih. Kamis Rp1,49 triliun, Jumat Rp1,29 triliun.",
+      "say": "Asing? Masih jual bersih. Kamis satu koma empat sembilan triliun rupiah, Jumat satu koma dua sembilan triliun."
+    },
+    {
+      "id": "t1",
+      "tag": "[leaning in]",
+      "text": "Tapi… mulai 2 November, sekitar 80 saham dikeluarkan dari hitungan IHSG.",
+      "say": "Tapi... mulai dua November, sekitar delapan puluh saham dikeluarkan dari hitungan I H S G."
+    },
+    {
+      "id": "t2",
+      "tag": "[explaining]",
+      "text": "Saham yang kepemilikannya terpusat di segelintir pihak, seperti DSSA. Diumumkan setelah BEI bertemu MSCI.",
+      "say": "Saham yang kepemilikannya terpusat di segelintir pihak, seperti De Es Es A. Diumumkan setelah, Be E I bertemu em es si ai."
+    },
+    {
+      "id": "t4",
+      "tag": "[serious]",
+      "text": "Jadi angka IHSG yang kamu pantau bulan depan, isinya sudah beda.",
+      "say": "Jadi angka I H S G yang kamu pantau bulan depan, isinya sudah beda."
+    },
+    {
+      "id": "disc",
+      "tag": "[calm]",
+      "text": "Ingat, ini bukan ajakan jual atau beli saham."
+    },
+    {
+      "id": "cta",
+      "tag": "[playful, asking the viewer]",
+      "text": "Menurut kamu, IHSG sudah benar-benar pulih atau belum? Komen alasanmu!",
+      "say": "Menurut kamu, I H S G sudah benar-benar pulih, atau belum? Komen alasanmu!"
+    },
+    {
+      "id": "end",
+      "tag": "[friendly, upbeat]",
+      "text": "Follow Rangkumin Dong, biar nggak ketinggalan!"
+    }
+  ],
+  "hook_b": {
+    "style": "myth",
+    "replace": [
+      "h1",
+      "h2"
+    ],
+    "lines": [
+      {
+        "id": "hb1",
+        "tag": "[skeptical]",
+        "text": "Katanya IHSG udah pulih. Naik 4,9% seminggu.",
+        "say": "Katanya I H S G udah pulih. Naik empat koma sembilan persen seminggu."
+      },
+      {
+        "id": "hb2",
+        "tag": "[leaning in]",
+        "text": "Ternyata 2 November, hitungannya berubah.",
+        "say": "Ternyata dua November, hitungannya berubah."
+      }
+    ]
+  },
+  "tail": 0.9
+}

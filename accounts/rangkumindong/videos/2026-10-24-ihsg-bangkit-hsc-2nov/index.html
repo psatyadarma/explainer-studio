@@ -1,0 +1,424 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>IHSG bangkit? Tunggu 2 November — Rangkumin Dong</title>
+<link rel="stylesheet" href="../../../../styles/sticker/sticker.css">
+<script src="../../../../styles/sticker/sticker.js"></script>
+<script>window.SUB_LEAD = 0.08; window.SUB_MODE = "block";</script>
+<script src="build/timing.js"></script>
+<style>
+  .zone { position: absolute; width: 1080px; height: 1920px; }
+  .big { font-weight: 900; letter-spacing: -6px; line-height: .9; white-space: nowrap; }
+  .lbl { font-weight: 800; font-size: 34px; color: var(--slate); white-space: nowrap; }
+  .bub { position: absolute; background: #fff; border-radius: 34px; padding: 24px 34px 28px; text-align: center;
+         font-weight: 900; font-size: 54px; line-height: 1.08; letter-spacing: -1.5px; box-shadow: 0 0 0 9px #fff, 0 18px 26px rgba(27,36,48,.2); }
+  .bub::after { content: ""; position: absolute; bottom: -40px; left: 120px; border: 24px solid transparent; border-top: 26px solid #fff; }
+  .bub small { display: block; font-weight: 700; font-size: 28px; color: var(--slate); letter-spacing: 0; margin-top: 10px; }
+  .chip { background: #fff; border-radius: 26px; padding: 16px 28px 20px; font-weight: 900; font-size: 46px; letter-spacing: -1px; white-space: nowrap;
+          box-shadow: 0 0 0 8px #fff, 0 14px 24px rgba(27,36,48,.18); display: flex; align-items: center; gap: 18px; }
+  .stampx { font-weight: 900; letter-spacing: -2px; color: var(--accent); border: 10px solid var(--accent); border-radius: 22px; padding: 6px 28px 12px;
+            white-space: nowrap; background: rgba(255,255,255,.92); }
+  .cal { width: 250px; background: #fff; border-radius: 26px; overflow: hidden; text-align: center; box-shadow: 0 0 0 8px #fff, 0 16px 24px rgba(27,36,48,.22); }
+  .cal .top { background: var(--accent); color: #fff; font-weight: 900; font-size: 40px; padding: 10px 0 12px; letter-spacing: 1px; }
+  .cal .d { font-weight: 900; font-size: 130px; letter-spacing: -5px; line-height: 1; padding: 18px 0 22px; }
+  .chart { width: 820px; height: 540px; }
+  .chart svg { position: absolute; left: 0; top: 0; overflow: visible; }
+  .dl { position: absolute; transform: translateX(-50%); font-weight: 800; font-size: 28px; color: var(--slate); white-space: nowrap; }
+  .vl { position: absolute; transform: translate(-50%, -50%); font-weight: 900; font-size: 46px; letter-spacing: -1px; white-space: nowrap; }
+  .flow { position: absolute; left: 0; height: 84px; border-radius: 0 22px 22px 0; background: var(--accent); transform-origin: 0 50%; }
+  .flab { position: absolute; left: 0; font-weight: 900; font-size: 44px; white-space: nowrap; }
+  .famt { position: absolute; font-weight: 900; font-size: 60px; letter-spacing: -2px; white-space: nowrap; transform: translateY(-50%); }
+  .box { border: 12px solid var(--ink); border-radius: 36px;
+         background: repeating-linear-gradient(0deg, transparent 0 8px, rgba(255,255,255,.0) 8px 30px),
+                     radial-gradient(circle, #9AA6B1 0 9px, transparent 10px) 0 0 / 30px 30px, rgba(255,255,255,.75); }
+  .box .lab { position: absolute; left: 50%; top: -34px; transform: translateX(-50%); font-size: 36px; }
+  .tl { position: absolute; width: 26px; height: 26px; border-radius: 7px; background: var(--accent); box-shadow: 0 0 0 3px #fff; }
+  .tick { background: #fff; border-radius: 18px; padding: 8px 18px 12px; font-weight: 900; font-size: 34px; color: #2F7A45; white-space: nowrap;
+          box-shadow: 0 0 0 6px #fff, 0 10px 18px rgba(27,36,48,.16); }
+  .tcard { width: 380px; background: #fff; border-radius: 30px; text-align: center; padding: 26px 20px 30px; box-shadow: 0 0 0 9px #fff, 0 18px 26px rgba(27,36,48,.22); }
+  .tcard .tk { font-weight: 900; font-size: 120px; letter-spacing: -4px; line-height: 1; color: var(--ink); }
+  .tcard .sm { font-weight: 800; font-size: 30px; color: var(--slate); margin-top: 8px; }
+  #part { position: absolute; left: 60px; top: 236px; z-index: 5; background: var(--ink); color: #fff; font-weight: 900; font-size: 30px;
+          padding: 6px 16px 9px; border-radius: 12px; letter-spacing: 1px; }
+  #nadv { position: absolute; right: 160px; top: 236px; z-index: 5; background: rgba(255,255,255,.92); color: var(--slate); font-weight: 800; font-size: 25px;
+          padding: 7px 14px 9px; border-radius: 12px; border: 3px solid var(--slate); white-space: nowrap; }
+  #discBig { position: absolute; left: 540px; top: 760px; z-index: 6; width: 900px; text-align: center; background: var(--ink); color: #fff; font-weight: 900;
+             font-size: 68px; line-height: 1.1; letter-spacing: -1.5px; padding: 34px 30px 40px; border-radius: 30px; box-shadow: 0 0 0 10px #fff, 0 20px 30px rgba(27,36,48,.25); opacity: 0; }
+  #endcard { position: absolute; inset: 0; z-index: 8; display: flex; flex-direction: column; align-items: center; justify-content: center;
+             gap: 26px; background: var(--paper); opacity: 0; }
+  #endcard .logo { background: var(--accent); color: #fff; font-weight: 900; font-size: 116px; letter-spacing: -4px;
+                   padding: 30px 58px 40px; border-radius: 44px; line-height: .95; text-align: center; transform: rotate(-3deg); }
+  #endcard .tl2 { font-weight: 800; font-size: 54px; color: var(--slate); }
+  #endcard .h { font-weight: 900; font-size: 50px; background: var(--ink); color: #fff; padding: 12px 26px; border-radius: 16px; }
+  #endcard .src { font-weight: 700; font-size: 27px; color: var(--slate); margin-top: 12px; text-align: center; line-height: 1.4; max-width: 880px; }
+</style>
+</head>
+<body>
+<div id="stage">
+  <div id="world">
+
+    <!-- A (0,0): hook / cover -->
+    <div class="zone" style="left:0; top:0;">
+      <div id="aHd" class="abs headline" style="left:490px; top:600px; width:960px;">
+        <div style="font-size:124px; color:var(--accent); white-space:nowrap;">IHSG BANGKIT?</div>
+        <div style="font-size:112px; white-space:nowrap;">CEK 2 NOV</div></div>
+      <div id="bHd" class="abs headline" style="left:490px; top:600px; width:960px;">
+        <div style="font-size:124px; color:var(--accent); white-space:nowrap;">IHSG PULIH?</div>
+        <div style="font-size:112px; white-space:nowrap;">BELUM TENTU</div></div>
+      <div id="aArr" class="abs sticker-svg" style="left:240px; top:1010px;"></div>
+      <div id="aPct" class="abs big" style="left:560px; top:960px; font-size:150px; color:#2F7A45;">+<span id="aPctV">0,0</span>%</div>
+      <div id="aWk" class="abs tag light sticker" style="left:560px; top:1090px; font-size:40px;">seminggu · 16→23 Okt</div>
+      <div id="bBub" class="abs bub" style="left:560px; top:960px; width:600px;">“IHSG udah pulih!”<small>katanya · +4,9% seminggu</small></div>
+      <svg id="bStrike" class="abs" style="left:560px; top:960px;" width="640" height="200" viewBox="0 0 640 200"><path id="bStrikeP" d="M20 170 L620 30" stroke="#E7212B" stroke-width="22" stroke-linecap="round"/></svg>
+      <div id="aPhone" class="abs sticker-svg" style="left:250px; top:1290px;"></div>
+      <div id="aCal" class="abs cal" style="left:700px; top:1300px;"><div class="top">NOV</div><div class="d">2</div></div>
+      <div id="aQ" class="abs tag accent sticker" style="left:860px; top:1180px; font-size:80px; padding:6px 32px 14px;">?</div>
+    </div>
+
+    <!-- B (2480,0): tagline -->
+    <div class="zone" style="left:2480px; top:0;">
+      <div id="stamp" class="abs stamp sticker" style="left:540px; top:960px; font-size:110px;">Rangkumin dong!</div>
+    </div>
+
+    <!-- C (0,2400): the fall -->
+    <div class="zone" style="left:0; top:2400px;">
+      <div id="cSen" class="abs tag sticker" style="left:300px; top:470px; font-size:46px;">Senin, 19 Okt</div>
+      <div id="cIh" class="abs tag light sticker" style="left:700px; top:470px; font-size:46px;">IHSG</div>
+      <div id="cCh" class="abs chart" style="left:490px; top:880px;"><svg id="svgC" width="820" height="540"></svg></div>
+      <div id="cNum" class="abs big" style="left:640px; top:1290px; font-size:150px; color:var(--accent);"><span id="cNumV">6.093</span></div>
+      <div id="cLow" class="abs tag accent sticker" style="left:490px; top:1420px; font-size:42px;">terendah sejak Oktober 2020</div>
+    </div>
+
+    <!-- D (1240,2400): the brake -->
+    <div class="zone" style="left:1240px; top:2400px;">
+      <svg id="dBrake" class="abs sticker-svg" style="left:230px; top:620px;" width="220" height="280" viewBox="0 0 300 380">
+        <rect x="125" y="20" width="50" height="230" rx="18" fill="#3E5568"/>
+        <rect x="40" y="230" width="220" height="130" rx="30" fill="#1B2430"/>
+        <g fill="#3E5568"><rect x="70" y="262" width="160" height="14" rx="7"/><rect x="70" y="290" width="160" height="14" rx="7"/><rect x="70" y="318" width="160" height="14" rx="7"/></g>
+      </svg>
+      <div id="dRem" class="abs tag accent sticker" style="left:230px; top:800px; font-size:46px;">pasang rem</div>
+      <div id="dBei" class="abs tag sticker" style="left:640px; top:560px; font-size:46px;">Bursa (BEI)</div>
+      <div id="dLimT" class="abs tag light sticker" style="left:490px; top:960px; font-size:40px;">batas turun harian saham</div>
+      <div id="dLim" class="abs" style="left:490px; top:1040px; width:700px; height:0">
+        <div style="position:absolute; left:0; right:0; top:-6px; height:12px; border-radius:6px; background:var(--ink)"></div>
+        <div id="bar15" style="position:absolute; top:0; left:80px; width:200px; height:330px; border-radius:0 0 22px 22px; transform-origin:50% 0; background:var(--slate)"></div>
+        <div id="bar7" style="position:absolute; top:0; left:420px; width:200px; height:154px; border-radius:0 0 22px 22px; transform-origin:50% 0; background:var(--accent)"></div>
+        <div id="l15" class="vl" style="left:180px; top:390px; font-size:88px;">−15%</div>
+        <div id="l7" class="vl" style="left:520px; top:214px; font-size:88px; color:var(--accent)">−7%</div>
+        <div id="x15" style="position:absolute; left:60px; width:240px; top:390px; height:10px; border-radius:5px; background:var(--accent); transform-origin:0 50%"></div>
+      </div>
+      <svg id="dArr" class="abs" style="left:350px; top:1250px;" width="140" height="60" viewBox="0 0 140 60"><path d="M10 30 H110" stroke="#1B2430" stroke-width="10" stroke-linecap="round"/><path d="M96 10 L128 30 L96 50" stroke="#1B2430" stroke-width="10" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </div>
+
+    <!-- E (2480,2400): the rebound -->
+    <div class="zone" style="left:2480px; top:2400px;">
+      <div id="ePct" class="abs stamp sticker" style="left:330px; top:480px; font-size:96px; padding:18px 40px 26px;">+5,65%</div>
+      <div id="eSel" class="abs tag sticker" style="left:330px; top:610px; font-size:40px;">Selasa</div>
+      <div id="eDal" class="abs tag light sticker" style="left:740px; top:450px; font-size:50px;">DALAM.</div>
+      <div id="eSeh" class="abs tag accent sticker" style="left:760px; top:570px; font-size:50px;">SEHARI.</div>
+      <div id="eCh" class="abs chart" style="left:490px; top:960px;"><svg id="svgE" width="820" height="540"></svg></div>
+      <div id="eNum" class="abs big" style="left:640px; top:1390px; font-size:130px; color:#2F7A45;"><span id="eNumV">4.996</span></div>
+      <div id="eTut" class="abs lbl" style="left:640px; top:1300px; font-size:32px; color:var(--ink);">Jumat ditutup</div>
+    </div>
+
+    <!-- F (0,4800): foreign investors still net selling -->
+    <div class="zone" style="left:0; top:4800px;">
+      <svg id="fGlobe" class="abs sticker-svg" style="left:230px; top:560px;" width="220" height="220" viewBox="0 0 260 260">
+        <circle cx="130" cy="130" r="115" fill="#3E5568"/>
+        <path d="M60 70 q40 -10 60 20 q10 30 -20 40 q-30 10 -20 50 q-30 -20 -40 -60z M150 50 q40 0 60 40 q-30 0 -40 30 q-20 -40 -20 -70z M170 160 q30 0 40 20 q-20 40 -50 40 q10 -30 10 -60z" fill="#FFD23F"/>
+      </svg>
+      <div id="fAs" class="abs tag sticker" style="left:230px; top:720px; font-size:44px;">investor asing</div>
+      <div id="fJb" class="abs stampx" style="left:660px; top:600px; font-size:70px; transform:rotate(-4deg);">MASIH JUAL<br>BERSIH</div>
+      <div id="fFlows" class="abs" style="left:490px; top:1100px; width:820px; height:0">
+        <div id="fK" class="flab" style="top:-200px">Kamis</div>
+        <div id="bK" class="flow" style="top:-136px; width:540px"></div>
+        <div id="aK" class="famt" style="left:560px; top:-94px">Rp1,49 T</div>
+        <div id="fJ" class="flab" style="top:30px">Jumat</div>
+        <div id="bJ" class="flow" style="top:94px; width:467px"></div>
+        <div id="aJ" class="famt" style="left:487px; top:136px">Rp1,29 T</div>
+      </div>
+    </div>
+
+    <!-- G (1240,4800): the turn -->
+    <div class="zone" style="left:1240px; top:4800px;">
+      <div id="gTapi" class="abs headline" style="left:300px; top:520px; font-size:110px; color:var(--accent);">Tapi…</div>
+      <div id="gMul" class="abs tag sticker" style="left:700px; top:470px; font-size:38px;">mulai</div>
+      <div id="gCal" class="abs cal" style="left:740px; top:640px; width:220px;"><div class="top">NOV</div><div class="d" style="font-size:110px;">2</div></div>
+      <div id="gBox" class="abs box" style="left:390px; top:960px; width:600px; height:300px;"><div class="tag light sticker lab">hitungan IHSG</div></div>
+      <div id="gTiles" class="abs" style="left:390px; top:960px; width:314px; height:250px;"></div>
+      <div id="gCnt" class="abs" style="left:780px; top:1330px; text-align:center;">
+        <div class="lbl" style="font-size:34px; color:var(--ink);">sekitar</div>
+        <div class="big" style="font-size:150px; color:var(--accent);"><span id="gCntV">0</span></div>
+        <div class="lbl" style="font-size:40px; color:var(--ink);">saham</div></div>
+      <div id="gOut" class="abs tag accent sticker" style="left:800px; top:1140px; font-size:38px;">dikeluarkan</div>
+    </div>
+
+    <!-- H (2480,4800): what HSC means; DSSA; BEI ↔ MSCI -->
+    <div class="zone" style="left:2480px; top:4800px;">
+      <div id="hTc" class="abs tcard" style="left:290px; top:640px; width:340px;"><div class="tk" style="font-size:104px;">DSSA</div><div class="sm">salah satu saham HSC</div></div>
+      <svg id="hPie" class="abs sticker-svg" style="left:740px; top:620px;" width="230" height="230" viewBox="0 0 230 230">
+        <circle cx="115" cy="115" r="105" fill="#FF5A36"/>
+        <path d="M115 115 L115 10 A105 105 0 0 1 152 17 Z" fill="#9AA6B1"/>
+        <path d="M115 115 L152 17 A105 105 0 0 1 178 31 Z" fill="#C9D3DC"/></svg>
+      <div id="hSeg" class="abs tag sticker" style="left:490px; top:940px; font-size:40px; text-align:center; line-height:1.15;">kepemilikan terpusat<br>di segelintir pihak</div>
+      <div id="hBei" class="abs chip" style="left:270px; top:1210px; font-size:56px;">BEI</div>
+      <svg id="hArr" class="abs" style="left:490px; top:1210px;" width="170" height="60" viewBox="0 0 170 60"><path d="M30 30 H140" stroke="#1B2430" stroke-width="10" stroke-linecap="round"/><path d="M44 10 L14 30 L44 50 M126 10 L156 30 L126 50" stroke="#1B2430" stroke-width="10" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <div id="hMsci" class="abs chip" style="left:710px; top:1210px; font-size:56px;">MSCI</div>
+      <div id="hDate" class="abs tag accent sticker" style="left:490px; top:1340px; font-size:36px;">bertemu 19 Okt · lalu diumumkan</div>
+    </div>
+
+    <!-- I (0,7200): the index you watch is made of different stocks -->
+    <div class="zone" style="left:0; top:7200px;">
+      <div id="iPhone" class="abs sticker-svg" style="left:220px; top:600px;"></div>
+      <div id="iKp" class="abs tag sticker" style="left:620px; top:520px; font-size:42px;">angka IHSG yang kamu pantau</div>
+      <div id="iB1" class="abs box" style="left:270px; top:1000px; width:330px; height:280px;"><div class="tag light sticker lab" style="font-size:30px;">sampai Okt</div><div id="iT1" style="position:absolute; inset:0;"></div></div>
+      <div id="iB2" class="abs box" style="left:710px; top:1000px; width:330px; height:280px;"><div class="tag accent sticker lab" style="font-size:30px;">mulai 2 Nov</div></div>
+      <div id="iBeda" class="abs stampx" style="left:490px; top:1300px; font-size:84px;">ISINYA BEDA</div>
+    </div>
+
+    <!-- J (1240,7200): CTA -->
+    <div class="zone" style="left:1240px; top:7200px;">
+      <div id="jHd" class="abs headline" style="left:490px; top:600px; width:900px; font-size:84px; line-height:1.06;">IHSG sudah<br><span class="acc">benar-benar pulih</span><br>atau belum?</div>
+      <div id="jCom" class="abs sticker-svg" style="left:330px; top:1080px;"></div>
+      <div id="jQ" class="abs bub" style="left:700px; top:1020px; font-size:40px; padding:18px 26px 22px;">Udah pulih / belum?<small>kenapa?</small></div>
+      <div id="jK" class="abs tag accent sticker" style="left:660px; top:1240px; font-size:64px;">Komen!</div>
+    </div>
+  </div>
+
+  <div id="brand"><div class="dot"></div><b>Rangkumin Dong</b></div>
+  <div id="part">PART 3</div>
+  <div id="nadv">Bukan ajakan jual/beli saham</div>
+  <div id="discBig" class="abs">Bukan ajakan<br>jual/beli saham</div>
+  <div id="subs"></div>
+  <div id="endcard">
+    <div class="logo">RANGKUMIN<br>DONG</div>
+    <div class="tl2">Berita ribet? Rangkumin dong.</div>
+    <div class="h">@rangkumindong</div>
+    <div class="src">Sumber: Kontan, CNBC Indonesia, detikFinance, Antara,<br>Emitennews, Bisnis, Viva, Kabarbursa, MSCI<br>· lengkap di komentar</div>
+    <div class="src" style="font-size:30px; color:var(--ink); margin-top:0;">PART 3 cerita MSCI · Bukan ajakan jual/beli saham</div>
+  </div>
+  <div id="progress"></div>
+</div>
+
+<script>
+const $ = (id) => document.getElementById(id);
+const T = window.TIMING;
+window.DURATION = T.duration;
+const at = K.at, W = K.word;
+const VB = T.variant === 'b';
+const H1 = VB ? 'hb1' : 'h1', H2 = VB ? 'hb2' : 'h2';
+const NS = 'http://www.w3.org/2000/svg';
+const svgEl = (p, tag, attrs) => { const e = document.createElementNS(NS, tag); for (const k in attrs) e.setAttribute(k, attrs[k]); p.appendChild(e); return e; };
+
+// Block subtitles: split long lines at punctuation so a page stays ≤ 2 rows
+const pages = (lines, max = 50) => lines.flatMap((l) => {
+  const len = (ws) => ws.map((x) => x.w).join(' ').length;
+  if (len(l.words) <= max) return [l];
+  const segs = []; let cur = [];
+  l.words.forEach((w, i) => { cur.push(w); if (/[.,:;!?…]$/.test(w.w) && len(cur) >= 12 && i < l.words.length - 1) { segs.push(cur); cur = []; } });
+  if (cur.length) segs.push(cur);
+  const out = [];
+  segs.forEach((sg) => { const n = Math.ceil(len(sg) / max), target = len(sg) / n; let piece = [];
+    sg.forEach((w) => { if (piece.length && len(piece.concat(w)) > target + 2) { out.push(piece); piece = []; } piece.push(w); }); out.push(piece); });
+  // merge tiny neighbours back when they fit
+  const m = []; out.forEach((p) => { const last = m[m.length - 1]; if (last && len(last.concat(p)) <= max) m[m.length - 1] = last.concat(p); else m.push(p); });
+  return m.map((ws, k) => ({ id: l.id + '.' + k, start: ws[0].start, end: ws[ws.length - 1].end, words: ws }));
+});
+const SUBT = { ...T, lines: pages(T.lines) };
+
+// ---------- SVG builders ----------
+const arrowSVG = () => `<svg width="220" height="260" viewBox="0 0 220 260"><path d="M110 10 L205 120 H150 V250 H70 V120 H15 Z" fill="#2F7A45" stroke="#1E5A31" stroke-width="6" stroke-linejoin="round"/></svg>`;
+const phoneSVG = (up = true) => `<svg width="200" height="320" viewBox="0 0 200 320"><rect x="10" y="10" width="180" height="300" rx="28" fill="#1B2430"/>
+  <rect x="24" y="36" width="152" height="240" rx="10" fill="#fff"/><text x="38" y="74" font-family="Inter" font-weight="900" font-size="26" fill="#1B2430">IHSG</text>
+  <polyline points="36,220 66,236 92,180 120,170 146,150 166,120" fill="none" stroke="${up ? '#2F7A45' : '#E7212B'}" stroke-width="9" stroke-linejoin="round" stroke-linecap="round"/>
+  <text x="164" y="104" text-anchor="end" font-family="Inter" font-weight="900" font-size="24" fill="#2F7A45">▲</text><rect x="80" y="288" width="40" height="8" rx="4" fill="#3E5568"/></svg>`;
+const commentSVG = () => `<svg width="260" height="230" viewBox="0 0 260 230"><path d="M20 30 Q20 10 40 10 H220 Q240 10 240 30 V150 Q240 170 220 170 H110 L60 214 L70 170 H40 Q20 170 20 150 Z" fill="#fff" stroke="#1B2430" stroke-width="8" stroke-linejoin="round"/>
+  <circle cx="80" cy="90" r="14" fill="#1B2430"/><circle cx="130" cy="90" r="14" fill="#1B2430"/><circle cx="180" cy="90" r="14" fill="#1B2430"/></svg>`;
+$('aArr').innerHTML = arrowSVG(); $('aPhone').innerHTML = phoneSVG(); $('iPhone').innerHTML = phoneSVG(); $('jCom').innerHTML = commentSVG();
+['aHd', 'aPct', 'aWk', 'aArr'].forEach((id) => VB && ($(id).style.display = 'none'));
+['bHd', 'bBub', 'bStrike'].forEach((id) => !VB && ($(id).style.display = 'none'));
+
+// ---------- IHSG chart (dated closes, claims.json; labels only on spoken numbers) ----------
+const PTS = [[0, 6093.76], [5, 5185.11], [6, 4996.61], [7, 5278.89], [8, 5328.36], [9, 5387.91], [10, 5439.26]];  // trading-day index from 9 Okt
+const cx = (d) => 70 + d * 70, cy = (v) => 50 + (6200 - v) / (6200 - 4900) * 420;
+function chart(svg, host, mode) {
+  svgEl(svg, 'line', { x1: 30, x2: 800, y1: 490, y2: 490, stroke: '#9AA6B1', 'stroke-width': 6, 'stroke-linecap': 'round' });
+  [[0, '9 Okt'], [5, '16'], [6, '19'], [10, '23 Okt']].forEach(([d, s]) => { const e = document.createElement('div'); e.className = 'dl'; e.textContent = s; e.style.left = cx(d) + 'px'; e.style.top = '505px'; host.appendChild(e); });
+  const fall = PTS.slice(0, 3).map(([d, v]) => [cx(d), cy(v)]);
+  const pf = svgEl(svg, 'polyline', { points: fall.map((p) => p.join(',')).join(' '), fill: 'none', stroke: mode === 'fall' ? '#3E5568' : '#B8C1C9', 'stroke-width': 14, 'stroke-linejoin': 'round', 'stroke-linecap': 'round' });
+  const lenF = fall.reduce((s, p, i) => i ? s + Math.hypot(p[0] - fall[i - 1][0], p[1] - fall[i - 1][1]) : 0, 0);
+  pf.setAttribute('stroke-dasharray', lenF);
+  const segs = PTS.slice(3).map(([d, v], i) => { const a = PTS[2 + i]; return svgEl(svg, 'line', { x1: cx(a[0]), y1: cy(a[1]), x2: cx(a[0]), y2: cy(a[1]), stroke: '#2F7A45', 'stroke-width': 14, 'stroke-linecap': 'round' }); });
+  const low = svgEl(svg, 'circle', { cx: cx(6), cy: cy(4996.61), r: 0, fill: '#FF5A36', stroke: '#fff', 'stroke-width': 8 });
+  const dots = PTS.slice(3).map(([d, v]) => svgEl(svg, 'circle', { cx: cx(d), cy: cy(v), r: 0, fill: '#2F7A45', stroke: '#fff', 'stroke-width': 6 }));
+  return { pf, lenF, segs, low, dots };
+}
+const CC = chart($('svgC'), $('cCh'), 'fall');
+const CE = chart($('svgE'), $('eCh'), 'rebound');
+CE.pf.setAttribute('stroke-dashoffset', 0);
+CC.segs.forEach((s) => s.setAttribute('opacity', 0));
+const eLow = document.createElement('div'); eLow.className = 'vl'; eLow.textContent = '4.996'; Object.assign(eLow.style, { left: (cx(6) - 95) + 'px', top: (cy(4996.61) - 10) + 'px', color: 'var(--slate)', fontSize: '38px' }); $('eCh').appendChild(eLow);
+const ticks = ['Rab', 'Kam', 'Jum'].map((s, i) => { const e = document.createElement('div'); e.className = 'tick'; e.textContent = '✓ ' + s; const [d, v] = PTS[4 + i];
+  Object.assign(e.style, { position: 'absolute', left: cx(d) + 'px', top: (cy(v) - 70 - i * 64) + 'px', transform: 'translate(-50%,-50%)' }); $('eCh').appendChild(e); return e; });
+
+// ---------- turn: ~80 tiles inside the IHSG box ----------
+const gT = []; for (let r = 0; r < 8; r++) for (let c = 0; c < 10; c++) { const e = document.createElement('div'); e.className = 'tl'; e.style.left = (c * 32) + 'px'; e.style.top = (r * 32) + 'px'; $('gTiles').appendChild(e); gT.push(e); }
+const iT = []; for (let r = 0; r < 4; r++) for (let c = 0; c < 5; c++) { const e = document.createElement('div'); e.className = 'tl'; e.style.left = (60 + c * 44 + (r % 2) * 10) + 'px'; e.style.top = (40 + r * 48) + 'px'; $('iT1').appendChild(e); iT.push(e); }
+
+const pulse = (el, tIn, amt = 0.12, rot = 0) => { const k = K.clamp((T_ - tIn) / 0.45); el.style.transform = `translate(-50%,-50%) scale(${1 + amt * Math.sin(Math.PI * k)}) rotate(${rot}deg)`; };
+const slam = (el, t, tIn, rot = 0, from = 2) => { const s = K.spring(t - tIn, 320, 18); el.style.opacity = t >= tIn ? 1 : 0; el.style.transform = `translate(-50%,-50%) scale(${from - (from - 1) * s}) rotate(${rot}deg)`; };
+const fmt = (v) => Math.round(v).toLocaleString('id-ID');
+let T_ = 0;
+
+function seek(t) {
+  T_ = t;
+  const Z = (x, y, z = 1.0) => ({ x, y: y + 200 / z, z });
+  const zc = (ox, oy) => Z(ox + 540, oy + 960);
+  K.camera($('world'), [
+    { t: 0, ...zc(0, 0) },
+    { t: at('rd', -0.3), ...Z(2480 + 540, 960, 1.1) },
+    { t: at('b1', -0.3), ...zc(0, 2400) },
+    { t: at('b2', -0.3), ...zc(1240, 2400) },
+    { t: at('b3', -0.3), ...zc(2480, 2400) },
+    { t: at('b5', -0.3), ...zc(0, 4800) },
+    { t: at('t1', -0.3), ...zc(1240, 4800) },
+    { t: at('t2', -0.3), ...zc(2480, 4800) },
+    { t: at('t4', -0.3), ...zc(0, 7200) },
+    { t: at('cta', -0.3), ...zc(1240, 7200) },
+  ], t, 1080, 1920, 0.85);
+
+  // ---------- A: hook (title on frame 0; a change every ~1 s) ----------
+  const h1 = at(H1);
+  const th = 1 + 0.05 * Math.exp(-6 * Math.max(0, t - h1)) * Math.sin(Math.max(0, t - h1) * 14);
+  if (!VB) {
+    $('aHd').style.transform = `translate(-50%,-50%) scale(${th})`;
+    const ar = W('h1', 'naik') - 0.15, as = K.spring(t - ar, 260, 16);
+    $('aArr').style.opacity = t >= ar ? 1 : 0; $('aArr').style.transform = `translate(-50%,-50%) translateY(${(1 - as) * 200}px)`;
+    $('aPct').style.opacity = 1; $('aPctV').textContent = '4,9';
+    if (t > W('h1', '4') - 0.05) pulse($('aPct'), W('h1', '4') - 0.05, 0.14); else $('aPct').style.transform = 'translate(-50%,-50%)';
+    K.pop($('aWk'), t, W('h1', 'seminggu') - 0.05, Infinity, -2);
+    K.pop($('aPhone'), t, W('h1', 'udah') - 0.1, Infinity, -6);
+    if (t > W('h1', 'kamu') - 0.05) pulse($('aPhone'), W('h1', 'kamu') - 0.05, 0.12, -6);
+  } else {
+    $('bHd').style.transform = `translate(-50%,-50%) scale(${th})`;
+    K.pop($('bBub'), t, W('hb1', 'katanya') + 0.15, Infinity, -2);
+    if (t > W('hb1', 'naik') - 0.05) pulse($('bBub'), W('hb1', 'naik') - 0.05, 0.08, -2);
+    const st = W('hb2', 'ternyata') - 0.05, sk = K.easeOut(K.prog(t, st, 0.3));
+    $('bStrike').style.opacity = t >= st ? 1 : 0; $('bStrikeP').setAttribute('stroke-dasharray', 640); $('bStrikeP').setAttribute('stroke-dashoffset', 640 * (1 - sk));
+    K.pop($('aPhone'), t, W('hb1', 'pulih') - 0.1, Infinity, -6);
+  }
+  const cIn = W(H2, '2') - 0.12;
+  slam($('aCal'), t, Math.min(cIn, at(H2, 0.1)), 4, 2.2);
+  K.pop($('aQ'), t, VB ? W('hb2', 'berubah') - 0.1 : W('h2', 'dulu') - 0.15, Infinity, 8 * Math.sin(t * 3));
+
+  // ---------- B: tagline ----------
+  K.pop($('stamp'), t, at('rd', -0.1), at('b1', -0.2), -6);
+
+  // ---------- C: the fall ----------
+  K.pop($('cSen'), t, at('b1', -0.1), Infinity, -2);
+  K.pop($('cIh'), t, W('b1', 'ihsg') - 0.1, Infinity, 2);
+  K.pop($('cCh'), t, at('b1', 0.1), Infinity, 0);
+  const tJ = W('b1', 'jatuh') - 0.1, tN = W('b1', '4');
+  CC.pf.setAttribute('stroke-dashoffset', CC.lenF * (1 - K.easeInOut(K.prog(t, tJ, tN - tJ + 0.2))));
+  CC.low.setAttribute('r', 24 * K.spring(t - tN - 0.15));
+  K.pop($('cNum'), t, tN - 0.05, Infinity, 0);
+  $('cNumV').textContent = '4.996';
+  slam($('cLow'), t, W('b1', 'terendah') - 0.05, -2, 1.8);
+
+  // ---------- D: the brake ----------
+  K.pop($('dBei'), t, at('b2', -0.1), Infinity, -2);
+  K.pop($('dBrake'), t, W('b2', 'rem') - 0.15, Infinity, 0);
+  if (t > W('b2', 'rem')) $('dBrake').style.transform += ` rotate(${-14 * K.easeOut(K.prog(t, W('b2', 'rem'), 0.3))}deg)`;
+  K.pop($('dRem'), t, W('b2', 'pasang') - 0.05, Infinity, -3);
+  K.pop($('dLimT'), t, W('b2', 'batas') - 0.1, Infinity, 1);
+  { const t15 = W('b2', '15') - 0.05, t7 = W('b2', '7') - 0.05;
+    $('bar15').style.transform = `scaleY(${K.spring(t - t15)})`; $('l15').style.opacity = K.clamp((t - t15) / 0.1);
+    $('bar15').style.opacity = t >= t7 ? 0.45 : 1; $('l15').style.color = t >= t7 ? 'rgba(27,36,48,.45)' : 'var(--ink)';
+    $('x15').style.transform = `scaleX(${K.easeOut(K.prog(t, t7, 0.3))})`;
+    $('bar7').style.transform = `scaleY(${K.spring(t - t7)})`; $('l7').style.opacity = K.clamp((t - t7 - 0.05) / 0.1);
+    $('dArr').style.opacity = 0; }
+
+  // ---------- E: the rebound ----------
+  K.pop($('eCh'), t, at('b3', -0.2), Infinity, 0);
+  K.pop($('eSel'), t, at('b3', -0.05), Infinity, 3);
+  const segT = [W('b3', 'naik') - 0.05, W('b4', 'rabu') - 0.05, W('b4', 'kamis') - 0.05, W('b4', 'naik', 2) - 0.05];
+  CE.low.setAttribute('r', 22 * K.spring(t - at('b3', -0.1)));
+  CE.segs.forEach((s, i) => { const a = PTS[2 + i], b = PTS[3 + i], k = K.easeOut(K.prog(t, segT[i], 0.5));
+    s.setAttribute('opacity', t >= segT[i] ? 1 : 0); s.setAttribute('x2', K.lerp(cx(a[0]), cx(b[0]), k)); s.setAttribute('y2', K.lerp(cy(a[1]), cy(b[1]), k));
+    CE.dots[i].setAttribute('r', (i === 3 ? 22 : 16) * K.spring(t - segT[i] - 0.4)); });
+  eLow.style.opacity = K.clamp((t - at('b3')) / 0.2);
+  slam($('ePct'), t, W('b3', '5') - 0.08, -5, 2);
+  K.pop($('eDal'), t, W('b3', 'dalam') - 0.05, Infinity, -3);
+  K.pop($('eSeh'), t, W('b3', 'sehari') - 0.05, Infinity, 3);
+  ticks.forEach((e, i) => { const tt = [W('b4', 'naik'), W('b4', 'naik', 1), W('b4', 'naik', 2)][i] - 0.05; const s = K.spring(t - tt);
+    e.style.opacity = t >= tt ? 1 : 0; e.style.transform = `translate(-50%,-50%) scale(${0.4 + 0.6 * s}) rotate(${(i - 1) * 3}deg)`; });
+  K.pop($('eTut'), t, W('b4', 'ditutup') - 0.05, Infinity, 0);
+  K.pop($('eNum'), t, W('b4', 'ditutup') - 0.05, Infinity, 0);
+  $('eNumV').textContent = '5.439';
+
+  // ---------- F: foreign net selling ----------
+  K.pop($('fGlobe'), t, at('b5', -0.15), Infinity, 0);
+  if (t > at('b5')) $('fGlobe').style.transform += ` rotate(${6 * Math.sin(t * 2)}deg)`;
+  K.pop($('fAs'), t, at('b5', 0.1), Infinity, -2);
+  slam($('fJb'), t, W('b5', 'jual') - 0.05, -4, 2);
+  { const tK = W('b5', 'kamis') - 0.05, tKa = W('b5', 'rp1'), tJ2 = W('b5', 'jumat') - 0.05, tJa = W('b5', 'rp1', 1);
+    $('fK').style.opacity = K.clamp((t - tK) / 0.15); $('bK').style.transform = `scaleX(${K.easeOut(K.prog(t, tKa - 0.3, 0.7))})`; $('aK').style.opacity = K.clamp((t - tKa) / 0.15);
+    $('fJ').style.opacity = K.clamp((t - tJ2) / 0.15); $('bJ').style.transform = `scaleX(${K.easeOut(K.prog(t, tJa - 0.3, 0.7))})`; $('aJ').style.opacity = K.clamp((t - tJa) / 0.15); }
+
+  // ---------- G: the turn ----------
+  slam($('gTapi'), t, at('t1', -0.05), -3, 1.8);
+  K.pop($('gMul'), t, W('t1', 'mulai') - 0.1, Infinity, -2);
+  slam($('gCal'), t, W('t1', '2') - 0.1, 4, 2);
+  K.pop($('gBox'), t, W('t1', 'sekitar') - 0.25, Infinity, 0);
+  K.pop($('gCnt'), t, W('t1', '80') - 0.1, Infinity, 0);
+  $('gCntV').textContent = Math.round(80 * K.easeOut(K.prog(t, W('t1', '80') - 0.05, 0.6)));
+  { const tIn = W('t1', '80') - 0.1, tOut = W('t1', 'dikeluarkan') - 0.05, o = K.easeInOut(K.prog(t, tOut, 0.9));
+    gT.forEach((e, i) => { const s = K.spring(t - tIn - (i % 10) * 0.012 - Math.floor(i / 10) * 0.02);
+      e.style.opacity = t >= tIn ? 1 : 0;
+      e.style.transform = `translate(${o * (-90 + (i % 10) * 4)}px, ${o * (340 + Math.floor(i / 10) * 6)}px) scale(${0.3 + 0.7 * s}) rotate(${o * ((i * 37) % 30 - 15)}deg)`; });
+    $('gTiles').style.transform = 'translate(-50%,-50%)'; }
+  K.pop($('gOut'), t, W('t1', 'dikeluarkan') + 0.1, Infinity, -3);
+
+  // ---------- H: HSC, DSSA, BEI ↔ MSCI ----------
+  K.pop($('hPie'), t, W('t2', 'kepemilikannya') - 0.1, Infinity, 0);
+  if (t > W('t2', 'segelintir')) $('hPie').style.transform += ` rotate(${-10 + 4 * Math.sin(t * 3)}deg)`;
+  K.pop($('hSeg'), t, W('t2', 'terpusat') - 0.05, Infinity, -1);
+  slam($('hTc'), t, W('t2', 'dssa') - 0.25, -3, 1.6);
+  K.pop($('hBei'), t, W('t2', 'bei') - 0.1, Infinity, -3);
+  K.pop($('hMsci'), t, W('t2', 'msci') - 0.1, Infinity, 3);
+  K.pop($('hArr'), t, W('t2', 'bertemu') - 0.05, Infinity, 0);
+  K.pop($('hDate'), t, W('t2', 'diumumkan') - 0.05, Infinity, -1);
+
+  // ---------- I: the index is made of different stocks ----------
+  K.pop($('iPhone'), t, at('t4', -0.1), Infinity, -6);
+  K.pop($('iKp'), t, W('t4', 'angka') - 0.1, Infinity, 1);
+  K.pop($('iB1'), t, W('t4', 'bulan') - 0.3, Infinity, 0);
+  K.pop($('iB2'), t, W('t4', 'depan') - 0.1, Infinity, 0);
+  slam($('iBeda'), t, W('t4', 'isinya') - 0.05, -4, 2);
+
+  // ---------- disclaimer ----------
+  const dIn = at('disc', -0.1), dOut = at('cta', -0.2);
+  K.pop($('discBig'), t, dIn, dOut, -2);
+
+  // ---------- J: CTA ----------
+  const jOut = at('end', -0.4);
+  K.pop($('jHd'), t, at('cta', -0.05), jOut, 0);
+  K.pop($('jCom'), t, W('cta', 'pulih') - 0.1, jOut, -4);
+  K.pop($('jQ'), t, W('cta', 'atau') - 0.05, jOut, 2);
+  K.pop($('jK'), t, W('cta', 'komen') - 0.05, jOut, -3);
+
+  // ---------- end ----------
+  const en = K.prog(t, at('end', -0.15), 0.3);
+  $('endcard').style.opacity = en;
+  $('endcard').querySelector('.logo').style.transform = `rotate(-3deg) scale(${0.6 + 0.4 * K.spring(t - at('end', -0.15))})`;
+  window.TIMING = SUBT; K.subtitles($('subs'), t); window.TIMING = T;
+  $('subs').style.visibility = en > 0.5 ? 'hidden' : 'visible';
+  $('progress').style.width = (100 * t / window.DURATION) + '%';
+  return true;
+}
+window.seek = seek;
+seek(0);
+</script>
+</body>
+</html>

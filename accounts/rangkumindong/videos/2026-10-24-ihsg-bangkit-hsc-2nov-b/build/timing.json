@@ -1,0 +1,750 @@
+{
+ "duration": 68.837,
+ "voice": "Pratama",
+ "variant": "b",
+ "hook_style": "myth",
+ "lines": [
+  {
+   "id": "hb1",
+   "text": "Katanya IHSG udah pulih. Naik 4,9% seminggu.",
+   "start": 0.12,
+   "end": 3.58,
+   "words": [
+    {
+     "w": "Katanya",
+     "start": 0.12,
+     "end": 0.54
+    },
+    {
+     "w": "IHSG",
+     "start": 0.62,
+     "end": 1.1
+    },
+    {
+     "w": "udah",
+     "start": 1.14,
+     "end": 1.34
+    },
+    {
+     "w": "pulih.",
+     "start": 1.36,
+     "end": 1.7
+    },
+    {
+     "w": "Naik",
+     "start": 1.96,
+     "end": 2.14
+    },
+    {
+     "w": "4,9%",
+     "start": 2.18,
+     "end": 3.2
+    },
+    {
+     "w": "seminggu.",
+     "start": 3.26,
+     "end": 3.58
+    }
+   ]
+  },
+  {
+   "id": "hb2",
+   "text": "Ternyata 2 November, hitungannya berubah.",
+   "start": 3.8,
+   "end": 6.3,
+   "words": [
+    {
+     "w": "Ternyata",
+     "start": 3.8,
+     "end": 4.36
+    },
+    {
+     "w": "2",
+     "start": 4.5,
+     "end": 4.64
+    },
+    {
+     "w": "November,",
+     "start": 4.7,
+     "end": 5.22
+    },
+    {
+     "w": "hitungannya",
+     "start": 5.46,
+     "end": 5.88
+    },
+    {
+     "w": "berubah.",
+     "start": 5.9,
+     "end": 6.3
+    }
+   ]
+  },
+  {
+   "id": "rd",
+   "text": "Rangkumin dong!",
+   "start": 6.535,
+   "end": 7.494,
+   "words": [
+    {
+     "w": "Rangkumin",
+     "start": 6.535,
+     "end": 7.015
+    },
+    {
+     "w": "dong!",
+     "start": 7.015,
+     "end": 7.494
+    }
+   ]
+  },
+  {
+   "id": "b1",
+   "text": "Senin kami bahas: IHSG jatuh ke 4.996, terendah sejak Oktober 2020.",
+   "start": 7.86,
+   "end": 14.92,
+   "words": [
+    {
+     "w": "Senin",
+     "start": 7.86,
+     "end": 8.18
+    },
+    {
+     "w": "kami",
+     "start": 8.26,
+     "end": 8.48
+    },
+    {
+     "w": "bahas:",
+     "start": 8.52,
+     "end": 8.88
+    },
+    {
+     "w": "IHSG",
+     "start": 9.26,
+     "end": 10.02
+    },
+    {
+     "w": "jatuh",
+     "start": 10.12,
+     "end": 10.46
+    },
+    {
+     "w": "ke",
+     "start": 10.5,
+     "end": 10.54
+    },
+    {
+     "w": "4.996,",
+     "start": 10.58,
+     "end": 12.46
+    },
+    {
+     "w": "terendah",
+     "start": 12.74,
+     "end": 13.16
+    },
+    {
+     "w": "sejak",
+     "start": 13.18,
+     "end": 13.48
+    },
+    {
+     "w": "Oktober",
+     "start": 13.52,
+     "end": 14.0
+    },
+    {
+     "w": "2020.",
+     "start": 14.22,
+     "end": 14.92
+    }
+   ]
+  },
+  {
+   "id": "b2",
+   "text": "Bursa langsung pasang rem: batas turun harian saham dipersempit, dari 15 jadi 7 persen.",
+   "start": 15.16,
+   "end": 20.16,
+   "words": [
+    {
+     "w": "Bursa",
+     "start": 15.16,
+     "end": 15.42
+    },
+    {
+     "w": "langsung",
+     "start": 15.46,
+     "end": 15.7
+    },
+    {
+     "w": "pasang",
+     "start": 15.74,
+     "end": 15.94
+    },
+    {
+     "w": "rem:",
+     "start": 16.0,
+     "end": 16.16
+    },
+    {
+     "w": "batas",
+     "start": 16.5,
+     "end": 16.84
+    },
+    {
+     "w": "turun",
+     "start": 16.86,
+     "end": 17.08
+    },
+    {
+     "w": "harian",
+     "start": 17.12,
+     "end": 17.44
+    },
+    {
+     "w": "saham",
+     "start": 17.48,
+     "end": 17.76
+    },
+    {
+     "w": "dipersempit,",
+     "start": 17.78,
+     "end": 18.34
+    },
+    {
+     "w": "dari",
+     "start": 18.54,
+     "end": 18.7
+    },
+    {
+     "w": "15",
+     "start": 18.74,
+     "end": 19.32
+    },
+    {
+     "w": "jadi",
+     "start": 19.38,
+     "end": 19.56
+    },
+    {
+     "w": "7",
+     "start": 19.58,
+     "end": 19.82
+    },
+    {
+     "w": "persen.",
+     "start": 19.84,
+     "end": 20.16
+    }
+   ]
+  },
+  {
+   "id": "b3",
+   "text": "Selasa, IHSG naik 5,65 persen. Dalam. Sehari.",
+   "start": 20.44,
+   "end": 25.4,
+   "words": [
+    {
+     "w": "Selasa,",
+     "start": 20.44,
+     "end": 20.88
+    },
+    {
+     "w": "IHSG",
+     "start": 21.26,
+     "end": 21.9
+    },
+    {
+     "w": "naik",
+     "start": 21.94,
+     "end": 22.22
+    },
+    {
+     "w": "5,65",
+     "start": 22.26,
+     "end": 23.26
+    },
+    {
+     "w": "persen.",
+     "start": 23.32,
+     "end": 23.68
+    },
+    {
+     "w": "Dalam.",
+     "start": 24.06,
+     "end": 24.48
+    },
+    {
+     "w": "Sehari.",
+     "start": 24.86,
+     "end": 25.4
+    }
+   ]
+  },
+  {
+   "id": "b4",
+   "text": "Rabu naik. Kamis naik. Jumat? Naik lagi, ditutup di 5.439.",
+   "start": 25.68,
+   "end": 31.28,
+   "words": [
+    {
+     "w": "Rabu",
+     "start": 25.68,
+     "end": 25.98
+    },
+    {
+     "w": "naik.",
+     "start": 26.04,
+     "end": 26.3
+    },
+    {
+     "w": "Kamis",
+     "start": 26.48,
+     "end": 26.86
+    },
+    {
+     "w": "naik.",
+     "start": 26.92,
+     "end": 27.18
+    },
+    {
+     "w": "Jumat?",
+     "start": 27.4,
+     "end": 27.94
+    },
+    {
+     "w": "Naik",
+     "start": 28.0,
+     "end": 28.18
+    },
+    {
+     "w": "lagi,",
+     "start": 28.22,
+     "end": 28.82
+    },
+    {
+     "w": "ditutup",
+     "start": 28.88,
+     "end": 29.26
+    },
+    {
+     "w": "di",
+     "start": 29.3,
+     "end": 29.38
+    },
+    {
+     "w": "5.439.",
+     "start": 29.44,
+     "end": 31.28
+    }
+   ]
+  },
+  {
+   "id": "b5",
+   "text": "Asing? Masih jual bersih. Kamis Rp1,49 triliun, Jumat Rp1,29 triliun.",
+   "start": 31.6,
+   "end": 38.56,
+   "words": [
+    {
+     "w": "Asing?",
+     "start": 31.6,
+     "end": 31.9
+    },
+    {
+     "w": "Masih",
+     "start": 32.259,
+     "end": 32.5
+    },
+    {
+     "w": "jual",
+     "start": 32.56,
+     "end": 32.74
+    },
+    {
+     "w": "bersih.",
+     "start": 32.78,
+     "end": 33.08
+    },
+    {
+     "w": "Kamis",
+     "start": 33.3,
+     "end": 33.72
+    },
+    {
+     "w": "Rp1,49",
+     "start": 34.04,
+     "end": 35.22
+    },
+    {
+     "w": "triliun,",
+     "start": 35.24,
+     "end": 35.58
+    },
+    {
+     "w": "Jumat",
+     "start": 36.26,
+     "end": 36.68
+    },
+    {
+     "w": "Rp1,29",
+     "start": 36.9,
+     "end": 38.08
+    },
+    {
+     "w": "triliun.",
+     "start": 38.12,
+     "end": 38.56
+    }
+   ]
+  },
+  {
+   "id": "t1",
+   "text": "Tapi… mulai 2 November, sekitar 80 saham dikeluarkan dari hitungan IHSG.",
+   "start": 38.82,
+   "end": 44.54,
+   "words": [
+    {
+     "w": "Tapi…",
+     "start": 38.82,
+     "end": 39.64
+    },
+    {
+     "w": "mulai",
+     "start": 39.7,
+     "end": 40.0
+    },
+    {
+     "w": "2",
+     "start": 40.2,
+     "end": 40.24
+    },
+    {
+     "w": "November,",
+     "start": 40.28,
+     "end": 40.76
+    },
+    {
+     "w": "sekitar",
+     "start": 41.1,
+     "end": 41.46
+    },
+    {
+     "w": "80",
+     "start": 41.5,
+     "end": 41.98
+    },
+    {
+     "w": "saham",
+     "start": 42.04,
+     "end": 42.36
+    },
+    {
+     "w": "dikeluarkan",
+     "start": 42.4,
+     "end": 42.98
+    },
+    {
+     "w": "dari",
+     "start": 43.02,
+     "end": 43.18
+    },
+    {
+     "w": "hitungan",
+     "start": 43.2,
+     "end": 43.76
+    },
+    {
+     "w": "IHSG.",
+     "start": 43.86,
+     "end": 44.54
+    }
+   ]
+  },
+  {
+   "id": "t2",
+   "text": "Saham yang kepemilikannya terpusat di segelintir pihak, seperti DSSA. Diumumkan setelah BEI bertemu MSCI.",
+   "start": 44.86,
+   "end": 53.16,
+   "words": [
+    {
+     "w": "Saham",
+     "start": 44.86,
+     "end": 45.14
+    },
+    {
+     "w": "yang",
+     "start": 45.18,
+     "end": 45.24
+    },
+    {
+     "w": "kepemilikannya",
+     "start": 45.28,
+     "end": 45.92
+    },
+    {
+     "w": "terpusat",
+     "start": 45.94,
+     "end": 46.36
+    },
+    {
+     "w": "di",
+     "start": 46.4,
+     "end": 46.46
+    },
+    {
+     "w": "segelintir",
+     "start": 46.5,
+     "end": 46.9
+    },
+    {
+     "w": "pihak,",
+     "start": 46.98,
+     "end": 47.42
+    },
+    {
+     "w": "seperti",
+     "start": 47.48,
+     "end": 47.9
+    },
+    {
+     "w": "DSSA.",
+     "start": 48.02,
+     "end": 48.74
+    },
+    {
+     "w": "Diumumkan",
+     "start": 49.04,
+     "end": 49.6
+    },
+    {
+     "w": "setelah",
+     "start": 49.64,
+     "end": 50.28
+    },
+    {
+     "w": "BEI",
+     "start": 50.46,
+     "end": 51.38
+    },
+    {
+     "w": "bertemu",
+     "start": 51.44,
+     "end": 52.04
+    },
+    {
+     "w": "MSCI.",
+     "start": 52.22,
+     "end": 53.16
+    }
+   ]
+  },
+  {
+   "id": "t4",
+   "text": "Jadi angka IHSG yang kamu pantau bulan depan, isinya sudah beda.",
+   "start": 53.5,
+   "end": 58.24,
+   "words": [
+    {
+     "w": "Jadi",
+     "start": 53.5,
+     "end": 54.02
+    },
+    {
+     "w": "angka",
+     "start": 54.1,
+     "end": 54.4
+    },
+    {
+     "w": "IHSG",
+     "start": 54.5,
+     "end": 55.18
+    },
+    {
+     "w": "yang",
+     "start": 55.2,
+     "end": 55.3
+    },
+    {
+     "w": "kamu",
+     "start": 55.34,
+     "end": 55.56
+    },
+    {
+     "w": "pantau",
+     "start": 55.6,
+     "end": 55.98
+    },
+    {
+     "w": "bulan",
+     "start": 56.02,
+     "end": 56.2
+    },
+    {
+     "w": "depan,",
+     "start": 56.24,
+     "end": 56.86
+    },
+    {
+     "w": "isinya",
+     "start": 56.96,
+     "end": 57.56
+    },
+    {
+     "w": "sudah",
+     "start": 57.64,
+     "end": 57.86
+    },
+    {
+     "w": "beda.",
+     "start": 57.9,
+     "end": 58.24
+    }
+   ]
+  },
+  {
+   "id": "disc",
+   "text": "Ingat, ini bukan ajakan jual atau beli saham.",
+   "start": 58.46,
+   "end": 60.9,
+   "words": [
+    {
+     "w": "Ingat,",
+     "start": 58.46,
+     "end": 58.8
+    },
+    {
+     "w": "ini",
+     "start": 58.98,
+     "end": 59.1
+    },
+    {
+     "w": "bukan",
+     "start": 59.14,
+     "end": 59.36
+    },
+    {
+     "w": "ajakan",
+     "start": 59.44,
+     "end": 59.8
+    },
+    {
+     "w": "jual",
+     "start": 59.86,
+     "end": 60.18
+    },
+    {
+     "w": "atau",
+     "start": 60.26,
+     "end": 60.4
+    },
+    {
+     "w": "beli",
+     "start": 60.44,
+     "end": 60.56
+    },
+    {
+     "w": "saham.",
+     "start": 60.6,
+     "end": 60.9
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "text": "Menurut kamu, IHSG sudah benar-benar pulih atau belum? Komen alasanmu!",
+   "start": 61.16,
+   "end": 65.82,
+   "words": [
+    {
+     "w": "Menurut",
+     "start": 61.16,
+     "end": 61.42
+    },
+    {
+     "w": "kamu,",
+     "start": 61.46,
+     "end": 61.92
+    },
+    {
+     "w": "IHSG",
+     "start": 62.0,
+     "end": 62.68
+    },
+    {
+     "w": "sudah",
+     "start": 62.72,
+     "end": 62.9
+    },
+    {
+     "w": "benar-benar",
+     "start": 62.94,
+     "end": 63.4
+    },
+    {
+     "w": "pulih",
+     "start": 63.46,
+     "end": 63.96
+    },
+    {
+     "w": "atau",
+     "start": 64.04,
+     "end": 64.2
+    },
+    {
+     "w": "belum?",
+     "start": 64.239,
+     "end": 64.519
+    },
+    {
+     "w": "Komen",
+     "start": 64.819,
+     "end": 65.08
+    },
+    {
+     "w": "alasanmu!",
+     "start": 65.12,
+     "end": 65.82
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "text": "Follow Rangkumin Dong, biar nggak ketinggalan!",
+   "start": 65.88,
+   "end": 67.92,
+   "words": [
+    {
+     "w": "Follow",
+     "start": 65.88,
+     "end": 66.14
+    },
+    {
+     "w": "Rangkumin",
+     "start": 66.18,
+     "end": 66.56
+    },
+    {
+     "w": "Dong,",
+     "start": 66.62,
+     "end": 66.94
+    },
+    {
+     "w": "biar",
+     "start": 67.02,
+     "end": 67.18
+    },
+    {
+     "w": "nggak",
+     "start": 67.22,
+     "end": 67.32
+    },
+    {
+     "w": "ketinggalan!",
+     "start": 67.34,
+     "end": 67.92
+    }
+   ]
+  }
+ ]
+}
