@@ -1,0 +1,123 @@
+{
+  "direction": "[upbeat explainer, quick; neutral, no advice]",
+  "voice": "male:Pratama",
+  "format": "minggu_depan",
+  "hook_style": "question_reveal",
+  "subs": "word",
+  "storyline": "",
+  "part": null,
+  "disclaimer": null,
+  "lines": [
+    {
+      "id": "h1",
+      "tag": "[curious, urgent]",
+      "text": "4 tanggal minggu ini. Mana yang nyentuh dompetmu?",
+      "say": "Empat tanggal minggu ini. Mana yang nyentuh dompetmu?"
+    },
+    {
+      "id": "h2",
+      "tag": "[teasing]",
+      "text": "Jawabannya di akhir.",
+      "say": "Jawabannya di akhir."
+    },
+    {
+      "id": "rd",
+      "tagline": true,
+      "text": "Rangkumin dong!"
+    },
+    {
+      "id": "b1",
+      "tag": "[explaining, quick]",
+      "text": "Rabu, 28 Oktober, The Fed putuskan suku bunga Amerika.",
+      "say": "Rabu, dua puluh delapan Oktober, The Fed putuskan suku bunga Amerika."
+    },
+    {
+      "id": "b4",
+      "tag": "[playful]",
+      "text": "Jumat, 30 Oktober, iPhone Duo resmi dijual. Mulai Rp45,7 juta.",
+      "say": "Jumat, tiga puluh Oktober, Aifon Duo resmi dijual. Mulai empat puluh lima koma tujuh juta rupiah."
+    },
+    {
+      "id": "b5",
+      "tag": "[serious]",
+      "text": "Sekitar 2 November, BPS rilis inflasi. September: 3,28 persen.",
+      "say": "Sekitar dua November, Be Pe Es rilis inflasi. September: tiga koma dua delapan persen."
+    },
+    {
+      "id": "r1",
+      "tag": "[leaning in, reveal]",
+      "text": "Yang paling nyentuh dompet? Minggu, 1 November.",
+      "say": "Yang paling nyentuh dompet? Minggu, satu November."
+    },
+    {
+      "id": "u1",
+      "tag": "[explaining]",
+      "text": "Itu tanggal yang buruh minta buat pengumuman UMP 2027.",
+      "say": "Itu tanggal yang buruh minta, buat pengumuman, U Em Pe dua ribu dua puluh tujuh."
+    },
+    {
+      "id": "u2",
+      "tag": "[matter-of-fact]",
+      "text": "KSPI minta naik 7,5 sampai 9,5 persen.",
+      "say": "Ka Es Pe I minta naik tujuh koma lima sampai sembilan koma lima persen."
+    },
+    {
+      "id": "u3",
+      "tag": "[neutral]",
+      "text": "Per 21 Oktober, Menaker Yassierli belum umumkan tanggalnya.",
+      "say": "Per dua puluh satu Oktober, Menaker Yassierli belum umumkan tanggalnya."
+    },
+    {
+      "id": "t1",
+      "tag": "[leaning in]",
+      "text": "Tapi ada yang sudah jalan duluan.",
+      "say": "Tapi... ada yang sudah jalan duluan."
+    },
+    {
+      "id": "t2",
+      "tag": "[explaining]",
+      "text": "Sejak 1 Oktober, Tokopedia, Shopee, Lazada, Blibli motong pajak 0,5 persen dari omzet penjual online.",
+      "say": "Sejak satu Oktober, Tokopedia, Syopi, Lazada, Blibli motong pajak nol koma lima persen dari omzet penjual online."
+    },
+    {
+      "id": "r4",
+      "tag": "[reassuring]",
+      "text": "Perorangan beromzet sampai Rp500 juta setahun? Tidak dipotong.",
+      "say": "Perorangan beromzet sampai lima ratus juta rupiah setahun? Tidak dipotong."
+    },
+    {
+      "id": "cta",
+      "tag": "[playful, asking the viewer]",
+      "text": "Mana yang paling kerasa buat kamu? Komen ceritamu!",
+      "say": "Mana yang paling kerasa buat kamu? Komen ceritamu!"
+    },
+    {
+      "id": "end",
+      "tag": "[friendly, upbeat]",
+      "text": "Follow Rangkumin Dong, biar nggak ketinggalan!"
+    }
+  ],
+  "hook_b": {
+    "style": "person_collage",
+    "person": "yassierli",
+    "replace": [
+      "h1",
+      "h2"
+    ],
+    "lines": [
+      {
+        "id": "hb1",
+        "tag": "[curious, urgent]",
+        "text": "UMP 2027 naik berapa? Buruh minta diumumkan 1 November.",
+        "say": "U Em Pe dua ribu dua puluh tujuh naik berapa? Buruh minta diumumkan satu November."
+      },
+      {
+        "id": "hb2",
+        "tag": "[teasing]",
+        "text": "Per 21 Oktober, tanggalnya belum diumumkan.",
+        "say": "Per dua puluh satu Oktober, tanggalnya belum diumumkan."
+      }
+    ]
+  },
+  "tail": 0.9
+}

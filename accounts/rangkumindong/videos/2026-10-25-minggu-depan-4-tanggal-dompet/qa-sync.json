@@ -1,0 +1,563 @@
+{
+ "verdict": "PASS",
+ "lead": 0.08,
+ "matched_words": 106,
+ "of_words": 115,
+ "median_offset_s": -0.08,
+ "share_in_window": 1.0,
+ "share_late_over_150ms": 0.0,
+ "worst_lines": [
+  {
+   "line": "rd",
+   "median_offset_s": -0.092
+  },
+  {
+   "line": "h1",
+   "median_offset_s": -0.08
+  },
+  {
+   "line": "h2",
+   "median_offset_s": -0.08
+  },
+  {
+   "line": "b1",
+   "median_offset_s": -0.08
+  },
+  {
+   "line": "b4",
+   "median_offset_s": -0.08
+  }
+ ],
+ "pairs": [
+  {
+   "line": "h1",
+   "word": "tanggal",
+   "offset": -0.08
+  },
+  {
+   "line": "h1",
+   "word": "minggu",
+   "offset": -0.08
+  },
+  {
+   "line": "h1",
+   "word": "ini.",
+   "offset": -0.08
+  },
+  {
+   "line": "h1",
+   "word": "Mana",
+   "offset": -0.08
+  },
+  {
+   "line": "h1",
+   "word": "yang",
+   "offset": -0.08
+  },
+  {
+   "line": "h1",
+   "word": "nyentuh",
+   "offset": -0.08
+  },
+  {
+   "line": "h2",
+   "word": "Jawabannya",
+   "offset": -0.08
+  },
+  {
+   "line": "h2",
+   "word": "di",
+   "offset": -0.08
+  },
+  {
+   "line": "h2",
+   "word": "akhir.",
+   "offset": -0.08
+  },
+  {
+   "line": "rd",
+   "word": "Rangkumin",
+   "offset": -0.082
+  },
+  {
+   "line": "rd",
+   "word": "dong!",
+   "offset": -0.102
+  },
+  {
+   "line": "b1",
+   "word": "Rabu,",
+   "offset": -0.08
+  },
+  {
+   "line": "b1",
+   "word": "28",
+   "offset": -0.08
+  },
+  {
+   "line": "b1",
+   "word": "Oktober,",
+   "offset": -0.08
+  },
+  {
+   "line": "b1",
+   "word": "The",
+   "offset": -0.08
+  },
+  {
+   "line": "b1",
+   "word": "Fed",
+   "offset": -0.08
+  },
+  {
+   "line": "b1",
+   "word": "putuskan",
+   "offset": -0.08
+  },
+  {
+   "line": "b1",
+   "word": "suku",
+   "offset": -0.08
+  },
+  {
+   "line": "b1",
+   "word": "bunga",
+   "offset": -0.08
+  },
+  {
+   "line": "b1",
+   "word": "Amerika.",
+   "offset": -0.08
+  },
+  {
+   "line": "b4",
+   "word": "Jumat,",
+   "offset": -0.08
+  },
+  {
+   "line": "b4",
+   "word": "30",
+   "offset": -0.08
+  },
+  {
+   "line": "b4",
+   "word": "Oktober,",
+   "offset": -0.08
+  },
+  {
+   "line": "b4",
+   "word": "iPhone",
+   "offset": -0.08
+  },
+  {
+   "line": "b4",
+   "word": "Duo",
+   "offset": -0.08
+  },
+  {
+   "line": "b4",
+   "word": "resmi",
+   "offset": -0.08
+  },
+  {
+   "line": "b4",
+   "word": "dijual.",
+   "offset": -0.08
+  },
+  {
+   "line": "b4",
+   "word": "Mulai",
+   "offset": -0.08
+  },
+  {
+   "line": "b4",
+   "word": "juta.",
+   "offset": -0.08
+  },
+  {
+   "line": "b5",
+   "word": "Sekitar",
+   "offset": -0.08
+  },
+  {
+   "line": "b5",
+   "word": "2",
+   "offset": -0.08
+  },
+  {
+   "line": "b5",
+   "word": "November,",
+   "offset": -0.08
+  },
+  {
+   "line": "b5",
+   "word": "BPS",
+   "offset": -0.08
+  },
+  {
+   "line": "b5",
+   "word": "rilis",
+   "offset": -0.08
+  },
+  {
+   "line": "b5",
+   "word": "inflasi.",
+   "offset": -0.08
+  },
+  {
+   "line": "b5",
+   "word": "September:",
+   "offset": -0.08
+  },
+  {
+   "line": "b5",
+   "word": "persen.",
+   "offset": -0.08
+  },
+  {
+   "line": "r1",
+   "word": "Yang",
+   "offset": -0.08
+  },
+  {
+   "line": "r1",
+   "word": "paling",
+   "offset": -0.08
+  },
+  {
+   "line": "r1",
+   "word": "nyentuh",
+   "offset": -0.08
+  },
+  {
+   "line": "r1",
+   "word": "dompet?",
+   "offset": -0.08
+  },
+  {
+   "line": "r1",
+   "word": "Minggu,",
+   "offset": -0.08
+  },
+  {
+   "line": "r1",
+   "word": "1",
+   "offset": -0.08
+  },
+  {
+   "line": "r1",
+   "word": "November.",
+   "offset": -0.08
+  },
+  {
+   "line": "u1",
+   "word": "Itu",
+   "offset": -0.08
+  },
+  {
+   "line": "u1",
+   "word": "tanggal",
+   "offset": -0.08
+  },
+  {
+   "line": "u1",
+   "word": "yang",
+   "offset": -0.08
+  },
+  {
+   "line": "u1",
+   "word": "buruh",
+   "offset": -0.08
+  },
+  {
+   "line": "u1",
+   "word": "minta",
+   "offset": -0.08
+  },
+  {
+   "line": "u1",
+   "word": "buat",
+   "offset": -0.08
+  },
+  {
+   "line": "u1",
+   "word": "pengumuman",
+   "offset": -0.08
+  },
+  {
+   "line": "u1",
+   "word": "UMP",
+   "offset": -0.08
+  },
+  {
+   "line": "u1",
+   "word": "2027.",
+   "offset": -0.08
+  },
+  {
+   "line": "u2",
+   "word": "KSPI",
+   "offset": -0.08
+  },
+  {
+   "line": "u2",
+   "word": "minta",
+   "offset": -0.08
+  },
+  {
+   "line": "u2",
+   "word": "naik",
+   "offset": -0.08
+  },
+  {
+   "line": "u2",
+   "word": "sampai",
+   "offset": -0.08
+  },
+  {
+   "line": "u2",
+   "word": "persen.",
+   "offset": -0.08
+  },
+  {
+   "line": "u3",
+   "word": "Per",
+   "offset": -0.08
+  },
+  {
+   "line": "u3",
+   "word": "21",
+   "offset": -0.08
+  },
+  {
+   "line": "u3",
+   "word": "Oktober,",
+   "offset": -0.08
+  },
+  {
+   "line": "u3",
+   "word": "Menaker",
+   "offset": -0.08
+  },
+  {
+   "line": "u3",
+   "word": "Yassierli",
+   "offset": -0.08
+  },
+  {
+   "line": "u3",
+   "word": "belum",
+   "offset": -0.08
+  },
+  {
+   "line": "u3",
+   "word": "umumkan",
+   "offset": -0.08
+  },
+  {
+   "line": "u3",
+   "word": "tanggalnya.",
+   "offset": -0.08
+  },
+  {
+   "line": "t1",
+   "word": "Tapi",
+   "offset": -0.08
+  },
+  {
+   "line": "t1",
+   "word": "ada",
+   "offset": -0.08
+  },
+  {
+   "line": "t1",
+   "word": "yang",
+   "offset": -0.08
+  },
+  {
+   "line": "t1",
+   "word": "sudah",
+   "offset": -0.08
+  },
+  {
+   "line": "t1",
+   "word": "jalan",
+   "offset": -0.08
+  },
+  {
+   "line": "t1",
+   "word": "duluan.",
+   "offset": -0.08
+  },
+  {
+   "line": "t2",
+   "word": "Sejak",
+   "offset": -0.08
+  },
+  {
+   "line": "t2",
+   "word": "1",
+   "offset": -0.08
+  },
+  {
+   "line": "t2",
+   "word": "Oktober,",
+   "offset": -0.08
+  },
+  {
+   "line": "t2",
+   "word": "Tokopedia,",
+   "offset": -0.08
+  },
+  {
+   "line": "t2",
+   "word": "Shopee,",
+   "offset": -0.08
+  },
+  {
+   "line": "t2",
+   "word": "Lazada,",
+   "offset": -0.08
+  },
+  {
+   "line": "t2",
+   "word": "Blibli",
+   "offset": -0.08
+  },
+  {
+   "line": "t2",
+   "word": "motong",
+   "offset": -0.08
+  },
+  {
+   "line": "t2",
+   "word": "pajak",
+   "offset": -0.08
+  },
+  {
+   "line": "t2",
+   "word": "persen",
+   "offset": -0.08
+  },
+  {
+   "line": "t2",
+   "word": "dari",
+   "offset": -0.08
+  },
+  {
+   "line": "t2",
+   "word": "omzet",
+   "offset": -0.08
+  },
+  {
+   "line": "t2",
+   "word": "penjual",
+   "offset": -0.08
+  },
+  {
+   "line": "t2",
+   "word": "online.",
+   "offset": -0.08
+  },
+  {
+   "line": "r4",
+   "word": "Perorangan",
+   "offset": -0.08
+  },
+  {
+   "line": "r4",
+   "word": "beromzet",
+   "offset": -0.08
+  },
+  {
+   "line": "r4",
+   "word": "sampai",
+   "offset": -0.08
+  },
+  {
+   "line": "r4",
+   "word": "juta",
+   "offset": -0.08
+  },
+  {
+   "line": "r4",
+   "word": "setahun?",
+   "offset": -0.08
+  },
+  {
+   "line": "r4",
+   "word": "Tidak",
+   "offset": -0.08
+  },
+  {
+   "line": "r4",
+   "word": "dipotong.",
+   "offset": -0.08
+  },
+  {
+   "line": "cta",
+   "word": "Mana",
+   "offset": -0.08
+  },
+  {
+   "line": "cta",
+   "word": "yang",
+   "offset": -0.08
+  },
+  {
+   "line": "cta",
+   "word": "paling",
+   "offset": -0.08
+  },
+  {
+   "line": "cta",
+   "word": "kerasa",
+   "offset": -0.08
+  },
+  {
+   "line": "cta",
+   "word": "buat",
+   "offset": -0.08
+  },
+  {
+   "line": "cta",
+   "word": "kamu?",
+   "offset": -0.08
+  },
+  {
+   "line": "cta",
+   "word": "Komen",
+   "offset": -0.08
+  },
+  {
+   "line": "cta",
+   "word": "ceritamu!",
+   "offset": -0.08
+  },
+  {
+   "line": "end",
+   "word": "Follow",
+   "offset": -0.08
+  },
+  {
+   "line": "end",
+   "word": "Rangkumin",
+   "offset": -0.08
+  },
+  {
+   "line": "end",
+   "word": "Dong,",
+   "offset": -0.08
+  },
+  {
+   "line": "end",
+   "word": "biar",
+   "offset": -0.08
+  },
+  {
+   "line": "end",
+   "word": "ketinggalan!",
+   "offset": -0.08
+  }
+ ]
+}

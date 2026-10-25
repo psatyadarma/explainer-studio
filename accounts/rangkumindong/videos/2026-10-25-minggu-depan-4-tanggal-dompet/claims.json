@@ -1,0 +1,77 @@
+[
+ {
+  "claim": "KSPI/unions ask that UMP 2027 be announced on 1 November (a request, not an official schedule), demanding a 7.5–9.5% rise",
+  "numbers": "1 Nov · +7,5% s.d. +9,5%",
+  "sensitivity": "medium",
+  "sources": [
+   "https://cnnindonesia.com/ekonomi/20261022163811-92-1418495/pengusaha-respons-tuntutan-buruh-ump-2027-naik-hingga-95-persen",
+   "https://www.pelitakarawang.com/2026/10/jelang-penetapan-1-november-2026-kspi.html"
+  ]
+ },
+ {
+  "claim": "As of 21 October, Manpower Minister Yassierli had not announced a UMP 2027 date (said the formula follows the new labour law)",
+  "numbers": "per 21 Okt",
+  "sensitivity": "medium",
+  "sources": [
+   "https://cnnindonesia.com/ekonomi/20261021205702-92-1418188/menaker-formula-ump-2027-mengacu-uu-baru",
+   "https://finance.detik.com/berita-ekonomi-bisnis/d-8717972/bocoran-penetapan-formula-ump-2027"
+  ],
+  "note": "web search was unavailable at the rework; re-check for a newer Kemnaker statement before posting"
+ },
+ {
+  "claim": "Since 1 October 2026, Tokopedia, Shopee, Lazada and Blibli withhold PPh 22 0.5% of online sellers' gross turnover (DJP SP-23/2026)",
+  "numbers": "0,5% · since 1 Okt 2026",
+  "sensitivity": "low",
+  "sources": [
+   "https://pajak.go.id/id/siaran-pers/pemungutan-pph-pasal-22-melalui-marketplace-mulai-dilaksanakan-1-oktober-2026",
+   "https://news.ddtc.co.id/berita/nasional/1822926/sah-pemungutan-pph-22-marketplace-ternyata-sudah-berlaku-hari-ini",
+   "https://jawapos.com/ekonomi/2610030102/pajak-marketplace-berlaku-mulai-1-oktober-2026",
+   "https://www.cnbcindonesia.com/news/20260928115107-4-771409/empat-e-commerce-mulai-pungut-pajak-per-1-november"
+  ],
+  "note": "SP-23 itself not opened (fetch blocked); matched by title/URL per factcheck.md. E0289 (1 Nov) marked superseded by E0039."
+ },
+ {
+  "claim": "Individual sellers with turnover up to Rp500 juta/year are not withheld if they submit a statement letter",
+  "numbers": "Rp500 juta/tahun",
+  "sensitivity": "low",
+  "sources": [
+   "https://www.cnbcindonesia.com/news/20260928115107-4-771409/empat-e-commerce-mulai-pungut-pajak-per-1-november",
+   "https://ekonomi.bisnis.com/read/20260701/259/1984678/merchant-beromzet-sampai-rp500-juta-bebas-dari-pajak-e-commerce-begini-syaratnya"
+  ]
+ },
+ {
+  "claim": "US Fed decides rates on 28 October (FOMC 27–28 Oct, US time)",
+  "numbers": "28 Okt",
+  "sensitivity": "low",
+  "sources": [
+   "https://pintu.co.id/news/295280-fomc-27-28-oktober-2026-peluang-fed-naikkan-bunga-oktober-sempat-tembus-50-kini-sekitar-32",
+   "https://tradingeconomics.com/calendar?article=29376&importance=2&startdate=2026-10-23"
+  ]
+ },
+ {
+  "claim": "iPhone Duo official sales in Indonesia from 30 October; cheapest (256 GB) Rp45.678.910",
+  "numbers": "30 Okt · Rp45,7 juta",
+  "sensitivity": "low",
+  "sources": [
+   "https://www.cnbcindonesia.com/tech/20261023124542-37-778889/harga-iphone-duo-di-ri-tembus-rp75-juta-preorder-buka-langsung-ludes",
+   "https://www.cnnindonesia.com/teknologi/20261023113349-206-1418737/daftar-harga-iphone-duo-di-indonesia-tembus-rp75-juta"
+  ]
+ },
+ {
+  "claim": "BPS expected to release October inflation around 2 November (not confirmed); September inflation 3.28% y/y",
+  "numbers": "~2 Nov · 3,28%",
+  "sensitivity": "low",
+  "sources": [
+   "https://sultra.antaranews.com/berita/542064/bps-catat-inflasi-ri-328-persen-pada-september-2026"
+  ]
+ },
+ {
+  "claim": "Photo credit: Yassierli portrait, author Kementerian Perdagangan Republik Indonesia, public domain, Wikimedia Commons",
+  "numbers": "",
+  "sensitivity": "low",
+  "sources": [
+   "https://commons.wikimedia.org/wiki/File:Yassierli,_Menteri_Ketenagakerjaan_(2024).jpg"
+  ],
+  "note": "author field as returned by engine/commons.py search from the file page; re-check in yassierli.json once the download lands"
+ }
+]

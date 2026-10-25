@@ -1,0 +1,554 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>4 tanggal minggu ini — Rangkumin Dong</title>
+<link rel="stylesheet" href="../../../../styles/sticker/sticker.css">
+<script src="../../../../styles/sticker/sticker.js"></script>
+<script>window.SUB_LEAD = 0.08; window.SUB_MODE = "word";</script>
+<script src="build/timing.js"></script>
+<style>
+  .zone { position: absolute; width: 1080px; height: 1920px; }
+  .big { font-weight: 900; letter-spacing: -6px; line-height: .9; white-space: nowrap; }
+  .lbl { font-weight: 800; font-size: 34px; color: var(--slate); white-space: nowrap; text-align: center; }
+  .bub { position: absolute; background: #fff; border-radius: 34px; padding: 24px 34px 28px; text-align: center;
+         font-weight: 900; font-size: 54px; line-height: 1.08; letter-spacing: -1.5px; box-shadow: 0 0 0 9px #fff, 0 18px 26px rgba(27,36,48,.2); }
+  .bub::after { content: ""; position: absolute; bottom: -40px; left: 120px; border: 24px solid transparent; border-top: 26px solid #fff; }
+  .chip { background: #fff; border-radius: 26px; padding: 16px 28px 20px; font-weight: 900; font-size: 50px; letter-spacing: -1px; white-space: nowrap;
+          box-shadow: 0 0 0 8px #fff, 0 14px 24px rgba(27,36,48,.18); }
+  .stampx { font-weight: 900; letter-spacing: -2px; color: var(--accent); border: 10px solid var(--accent); border-radius: 22px; padding: 6px 28px 12px;
+            white-space: nowrap; background: rgba(255,255,255,.92); text-align: center; line-height: 1; }
+  .cal { width: 250px; background: #fff; border-radius: 26px; overflow: hidden; text-align: center; box-shadow: 0 0 0 8px #fff, 0 16px 24px rgba(27,36,48,.22); }
+  .cal .top { background: var(--accent); color: #fff; font-weight: 900; font-size: 40px; padding: 10px 0 12px; letter-spacing: 1px; }
+  .cal .d { font-weight: 900; font-size: 130px; letter-spacing: -5px; line-height: 1; padding: 18px 0 22px; color: var(--ink); }
+  .cal.s { width: 196px; border-radius: 22px; }
+  .cal.s .top { font-size: 32px; padding: 8px 0 10px; }
+  .cal.s .d { font-size: 100px; padding: 14px 0 18px; }
+  .cal.xs { width: 160px; border-radius: 20px; }
+  .cal.xs .top { font-size: 28px; padding: 6px 0 8px; }
+  .cal.xs .d { font-size: 80px; padding: 10px 0 12px; }
+  .cal.slate .top { background: var(--slate); }
+  .cal.ink .top { background: var(--ink); }
+  .qcov { position: absolute; inset: 0; background: var(--hi); display: flex; align-items: center; justify-content: center;
+          font-weight: 900; font-size: 150px; color: var(--ink); border-radius: 22px; transform-origin: 90% 10%; }
+  .cap { position: absolute; left: 50%; top: 100%; transform: translateX(-50%); margin-top: 18px; font-weight: 800; font-size: 28px; color: var(--slate); white-space: nowrap; }
+  .track { position: absolute; height: 34px; border-radius: 17px; background: #D9DEE3; }
+  .rng { position: absolute; height: 70px; border-radius: 22px; background: var(--accent); transform-origin: 0 50%; box-shadow: 0 0 0 7px #fff; }
+  .tk { position: absolute; transform: translateX(-50%); font-weight: 800; font-size: 28px; color: var(--slate); }
+  .vlab { position: absolute; transform: translate(-50%, -50%); font-weight: 900; font-size: 78px; letter-spacing: -2px; white-space: nowrap; }
+  .yP { position: absolute; transform-origin: 50% 100%; }
+  .yP img { width: 100%; display: block; filter: grayscale(1) contrast(1.3) brightness(1.06); }
+  .yP .ht { position: absolute; inset: 0; mix-blend-mode: multiply; -webkit-mask: url(../../assets/people/yassierli.png) 0 0 / 100% 100%;
+            background: radial-gradient(circle, rgba(23,19,14,.40) 1.9px, transparent 2.5px) 0 0 / 8px 8px, linear-gradient(rgba(214,160,90,.18), rgba(214,160,90,.18)); }
+  .ncard { background: #fff; border-radius: 26px; padding: 22px 34px 26px; text-align: center; box-shadow: 0 0 0 9px #fff, 0 18px 26px rgba(27,36,48,.22); }
+  .ncard b { display: block; font-weight: 900; font-size: 64px; letter-spacing: -1.5px; }
+  .ncard small { display: block; font-weight: 800; font-size: 30px; color: var(--slate); margin-top: 6px; }
+  .credit2 { font-weight: 700; font-size: 22px; color: var(--slate); white-space: nowrap; }
+
+  /* ---- B opening: collage cut-out (copied from tests/hook-collage, after mg-styles-15 #06, MIT) ---- */
+  #collage { position: absolute; inset: 0; z-index: 4; background: #E4D7BC; overflow: hidden; display: none; }
+  #collage .cols { position: absolute; background: repeating-linear-gradient(180deg, rgba(23,19,14,.13) 0 5px, transparent 5px 15px); }
+  #redblock { position: absolute; left: -160px; top: 300px; width: 1400px; height: 560px; background: #D6301F; transform: rotate(-9deg); box-shadow: 0 16px 26px rgba(23,19,14,.25); }
+  #redblock::after { content: ""; position: absolute; inset: 0; background: radial-gradient(circle, rgba(23,19,14,.18) 2.2px, transparent 2.8px) 0 0 / 11px 11px; }
+  #blkline { position: absolute; left: -100px; top: 905px; width: 1300px; height: 26px; background: #17130E; transform: rotate(-9deg); }
+  #cPerson { position: absolute; left: 600px; top: 0; width: 600px; transform-origin: 50% 100%; filter: url(#cut); }
+  #cPerson img { width: 100%; display: block; filter: grayscale(1) contrast(1.35) brightness(1.06); }
+  #cPerson .ht { position: absolute; inset: 0; mix-blend-mode: multiply; -webkit-mask: url(../../assets/people/yassierli.png) 0 0 / 100% 100%;
+    background: radial-gradient(circle, rgba(23,19,14,.42) 1.9px, transparent 2.5px) 0 0 / 8px 8px, linear-gradient(rgba(214,160,90,.18), rgba(214,160,90,.18)); }
+  #collage .rn { position: absolute; left: 56px; display: flex; gap: 4px; align-items: flex-end; }
+  #collage .rn i { font-style: normal; display: inline-block; text-align: center; line-height: 1; padding: 6px 8px 8px; box-shadow: 0 6px 10px rgba(23,19,14,.28); }
+  #collage .strip { position: absolute; padding: 14px 34px 20px; font-weight: 900; text-transform: uppercase; white-space: nowrap; box-shadow: 0 10px 16px rgba(23,19,14,.28); }
+  #collage .tape { position: absolute; width: 120px; height: 38px; background: rgba(238,226,170,.78); box-shadow: 0 2px 4px rgba(23,19,14,.15); }
+  #collage .label { position: absolute; background: #fff; padding: 14px 24px 16px; font-family: "Courier 10 Pitch", Courier, monospace;
+           font-weight: 700; font-size: 40px; color: #17130E; white-space: nowrap; box-shadow: 0 10px 16px rgba(23,19,14,.25); }
+  #collage .label small { display: block; font-size: 27px; font-weight: 400; margin-top: 4px; }
+  #ledge { position: absolute; left: -40px; top: 1236px; width: 1160px; height: 760px; background: #F1ECE0; box-shadow: 0 -10px 22px rgba(23,19,14,.22); }
+  #ledge::before { content: ""; position: absolute; left: 70px; right: 70px; top: 300px; bottom: 0; background: repeating-linear-gradient(180deg, rgba(23,19,14,.10) 0 4px, transparent 4px 13px); }
+  #cCredit { position: absolute; right: 190px; top: 1262px; font-weight: 700; font-size: 22px; color: #5b5144; }
+  #cCal { position: absolute; width: 180px; background: #fff; text-align: center; box-shadow: 0 10px 16px rgba(23,19,14,.28); }
+  #cCal .top { background: #17130E; color: #fff; font-weight: 900; font-size: 34px; padding: 6px 0 8px; }
+  #cCal .d { font-weight: 900; font-size: 96px; letter-spacing: -4px; line-height: 1; padding: 10px 0 14px; color: #D6301F; }
+  #cName2 { position: absolute; background: #fff; padding: 26px 34px 30px; font-family: "Courier 10 Pitch", Courier, monospace; font-weight: 700; font-size: 64px;
+            color: #17130E; text-align: center; box-shadow: 0 10px 16px rgba(23,19,14,.25); }
+  #cName2 small { display: block; font-size: 32px; font-weight: 400; margin-top: 8px; }
+  #cGrain { position: absolute; inset: 0; pointer-events: none; opacity: .28; mix-blend-mode: multiply; }
+
+  #endcard { position: absolute; inset: 0; z-index: 8; display: flex; flex-direction: column; align-items: center; justify-content: center;
+             gap: 26px; background: var(--paper); opacity: 0; }
+  #endcard .logo { background: var(--accent); color: #fff; font-weight: 900; font-size: 116px; letter-spacing: -4px;
+                   padding: 30px 58px 40px; border-radius: 44px; line-height: .95; text-align: center; transform: rotate(-3deg); }
+  #endcard .tl2 { font-weight: 800; font-size: 54px; color: var(--slate); }
+  #endcard .h { font-weight: 900; font-size: 50px; background: var(--ink); color: #fff; padding: 12px 26px; border-radius: 16px; }
+  #endcard .src { font-weight: 700; font-size: 27px; color: var(--slate); margin-top: 12px; text-align: center; line-height: 1.4; max-width: 880px; }
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute">
+  <filter id="cut" x="-5%" y="-5%" width="110%" height="110%">
+    <feMorphology in="SourceAlpha" operator="dilate" radius="9" result="d"/>
+    <feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="4" result="n"/>
+    <feDisplacementMap in="d" in2="n" scale="10" result="dd"/>
+    <feFlood flood-color="#FBF8F1"/><feComposite in2="dd" operator="in" result="edge"/>
+    <feGaussianBlur in="dd" stdDeviation="9" result="b"/><feOffset in="b" dy="14" result="bo"/>
+    <feFlood flood-color="#17130E" flood-opacity=".35"/><feComposite in2="bo" operator="in" result="sh"/>
+    <feMerge><feMergeNode in="sh"/><feMergeNode in="edge"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="paper"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="7"/>
+    <feColorMatrix values="0 0 0 0 .45  0 0 0 0 .38  0 0 0 0 .3  0 0 0 1.1 -.35"/></filter>
+</svg>
+<img id="yImg" src="../../assets/people/yassierli.png" alt="" style="display:none">
+<div id="stage">
+  <div id="world">
+
+    <!-- A (0,0): hook A / cover -->
+    <div class="zone" style="left:0; top:0;">
+      <div id="aHd" class="abs headline" style="left:490px; top:560px; width:960px;">
+        <div style="font-size:132px; white-space:nowrap;">4 TANGGAL</div>
+        <div style="font-size:132px; color:var(--accent); white-space:nowrap;">1 DOMPET</div></div>
+      <div id="aTiles"></div>
+      <div id="aWal" class="abs sticker-svg" style="left:300px; top:1230px;"></div>
+      <div id="aAkh" class="abs tag accent sticker" style="left:700px; top:1230px; font-size:44px;">dibuka di akhir</div>
+    </div>
+
+    <!-- tagline (2480,0) -->
+    <div class="zone" style="left:2480px; top:0;">
+      <div id="stamp" class="abs stamp sticker" style="left:540px; top:960px; font-size:110px;">Rangkumin dong!</div>
+    </div>
+
+    <!-- C (0,2400): 28 Okt, The Fed -->
+    <div class="zone" style="left:0; top:2400px;">
+      <div id="cDay" class="abs tag sticker" style="left:250px; top:400px; font-size:44px;">Rabu</div>
+      <div id="cCal28" class="abs cal" style="left:250px; top:620px;"><div class="top">OKT</div><div class="d">28</div></div>
+      <div id="cBank" class="abs sticker-svg" style="left:680px; top:600px;"></div>
+      <div id="cFed" class="abs chip" style="left:680px; top:850px;">The Fed</div>
+      <div id="cHd" class="abs headline" style="left:490px; top:1060px; font-size:82px; line-height:1.05;">putuskan<br><span class="acc">suku bunga</span></div>
+      <div id="cUs" class="abs tag light sticker" style="left:490px; top:1290px; font-size:38px;">rapat 27–28 Okt (waktu AS)</div>
+    </div>
+
+    <!-- D (1240,2400): 30 Okt, iPhone Duo -->
+    <div class="zone" style="left:1240px; top:2400px;">
+      <div id="dDay" class="abs tag sticker" style="left:250px; top:400px; font-size:44px;">Jumat</div>
+      <div id="dCal30" class="abs cal" style="left:250px; top:620px;"><div class="top">OKT</div><div class="d">30</div></div>
+      <div id="dPhone" class="abs sticker-svg" style="left:690px; top:600px;"></div>
+      <div id="dName" class="abs chip" style="left:690px; top:860px;">iPhone Duo</div>
+      <div id="dRes" class="abs stampx" style="left:490px; top:1010px; font-size:72px; transform:rotate(-4deg);">RESMI DIJUAL</div>
+      <div id="dPrice" class="abs" style="left:490px; top:1200px; text-align:center;">
+        <div class="lbl" style="color:var(--ink);">mulai</div>
+        <div class="big" style="font-size:124px; letter-spacing:-4px; color:var(--accent);"><span id="dPriceV">Rp0</span></div></div>
+      <div id="dCheap" class="abs tag light sticker" style="left:490px; top:1350px; font-size:36px;">termurah · 256 GB</div>
+    </div>
+
+    <!-- E (2480,2400): ~2 Nov, BPS inflation -->
+    <div class="zone" style="left:2480px; top:2400px;">
+      <div id="eSek" class="abs tag accent sticker" style="left:250px; top:400px; font-size:44px;">sekitar</div>
+      <div id="eCal2" class="abs cal" style="left:250px; top:620px;"><div class="top">NOV</div><div class="d">2</div></div>
+      <div id="eBps" class="abs chip" style="left:690px; top:520px; font-size:60px;">BPS</div>
+      <div id="eRil" class="abs tag sticker" style="left:690px; top:680px; font-size:44px;">rilis inflasi</div>
+      <div id="eBask" class="abs sticker-svg" style="left:250px; top:1090px;"></div>
+      <div id="eNum" class="abs big" style="left:640px; top:1080px; font-size:150px; color:var(--accent);"><span id="eNumV">0,00</span>%</div>
+      <div id="eLab" class="abs lbl" style="left:640px; top:1200px;">inflasi September (y/y) · BPS</div>
+    </div>
+
+    <!-- F (0,4800): reveal, 1 Nov -->
+    <div class="zone" style="left:0; top:4800px;">
+      <div id="fHd" class="abs headline" style="left:490px; top:440px; font-size:84px; line-height:1.05;">Paling nyentuh<br><span class="acc">dompet?</span></div>
+      <div id="fTiles"></div>
+      <div id="fBur" class="abs stampx" style="left:490px; top:1010px; font-size:76px; transform:rotate(-4deg);">BURUH MINTA</div>
+      <div id="fPeng" class="abs tag light sticker" style="left:490px; top:1150px; font-size:40px;">diumumkan tanggal ini</div>
+      <div id="fUmp" class="abs big" style="left:490px; top:1300px; font-size:130px; letter-spacing:-4px;">UMP <span style="color:var(--accent)">2027?</span></div>
+    </div>
+
+    <!-- F2 (1240,4800): KSPI range -->
+    <div class="zone" style="left:1240px; top:4800px;">
+      <div id="gKspi" class="abs chip" style="left:300px; top:470px; font-size:64px;">KSPI</div>
+      <div id="gMin" class="abs tag sticker" style="left:640px; top:470px; font-size:46px;">minta naik</div>
+      <div id="gBar" class="abs" style="left:490px; top:900px; width:840px; height:0;">
+        <div class="track" style="left:20px; width:800px; top:-17px;"></div>
+        <div id="gRng" class="rng" style="left:320px; width:400px; top:-35px;"></div>
+        <div id="gL1" class="vlab" style="left:320px; top:-130px;">7,5%</div>
+        <div id="gL2" class="vlab" style="left:720px; top:-130px; color:var(--accent);">9,5%</div>
+        <div class="tk" style="left:20px; top:40px;">6%</div><div class="tk" style="left:220px; top:40px;">7%</div><div class="tk" style="left:420px; top:40px;">8%</div>
+        <div class="tk" style="left:620px; top:40px;">9%</div><div class="tk" style="left:820px; top:40px;">10%</div>
+      </div>
+      <svg id="gUp" class="abs" style="left:490px; top:630px;" width="200" height="70" viewBox="0 0 200 70"><path d="M10 35 H170" stroke="#FF5A36" stroke-width="12" stroke-linecap="round"/><path d="M150 12 L186 35 L150 58" stroke="#FF5A36" stroke-width="12" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <div id="gNot" class="abs tag accent sticker" style="left:490px; top:1130px; font-size:42px;">tuntutan KSPI, bukan keputusan</div>
+    </div>
+
+    <!-- F3 (2480,4800): Menaker -->
+    <div class="zone" style="left:2480px; top:4800px;">
+      <div id="hPer" class="abs tag sticker" style="left:240px; top:420px; font-size:44px;">per 21 Okt</div>
+      <div id="hCal" class="abs cal s ink" style="left:220px; top:760px;"><div class="top">UMP 2027</div><div class="d">?</div></div>
+      <div id="hPhW" class="abs" style="left:640px; top:820px; width:400px; height:600px;">
+        <div id="hPh" class="yP" style="left:0; top:0; width:400px; filter:url(#cut);"><img id="hImg" src="../../assets/people/yassierli.png" alt=""><div class="ht"></div></div>
+      </div>
+      <div id="hNoPh" class="abs ncard" style="left:640px; top:780px;"><b>YASSIERLI</b><small>Menteri Ketenagakerjaan</small></div>
+      <div id="hName" class="abs tag light sticker" style="left:560px; top:1170px; font-size:38px;">Yassierli · Menteri Ketenagakerjaan</div>
+      <div id="hBel" class="abs tag accent sticker" style="left:490px; top:1290px; font-size:44px;">tanggal belum diumumkan</div>
+      <div id="hCred" class="abs credit2" style="left:490px; top:1380px;">Foto: Kementerian Perdagangan RI, domain publik, via Wikimedia Commons</div>
+    </div>
+
+    <!-- G (0,7200): the turn, marketplace tax -->
+    <div class="zone" style="left:0; top:7200px;">
+      <div id="tTapi" class="abs headline" style="left:240px; top:420px; font-size:110px; color:var(--accent);">Tapi…</div>
+      <div id="tMini"></div>
+      <div id="tCal" class="abs cal" style="left:250px; top:690px;"><div class="top">OKT</div><div class="d">1</div></div>
+      <div id="tJal" class="abs stampx" style="left:670px; top:690px; font-size:76px; transform:rotate(-5deg);">SUDAH<br>JALAN</div>
+      <div id="tC1" class="abs chip" style="left:270px; top:950px;">Tokopedia</div>
+      <div id="tC2" class="abs chip" style="left:710px; top:950px;">Shopee</div>
+      <div id="tC3" class="abs chip" style="left:270px; top:1080px;">Lazada</div>
+      <div id="tC4" class="abs chip" style="left:710px; top:1080px;">Blibli</div>
+      <div id="tPph" class="abs tag sticker" style="left:250px; top:1210px; font-size:40px;">potong PPh 22</div>
+      <div id="tPct" class="abs big" style="left:300px; top:1330px; font-size:130px; color:var(--accent);">0,5%</div>
+      <div id="tOmz" class="abs lbl" style="left:720px; top:1320px; font-size:40px; color:var(--ink); line-height:1.15;">dari omzet<br>penjual online</div>
+    </div>
+
+    <!-- G2 (1240,7200): individuals ≤ Rp500 juta -->
+    <div class="zone" style="left:1240px; top:7200px;">
+      <div id="rBox" class="abs sticker-svg" style="left:250px; top:560px;"></div>
+      <div id="rPer" class="abs tag sticker" style="left:250px; top:760px; font-size:42px;">perorangan</div>
+      <div id="rAmt" class="abs" style="left:680px; top:560px; text-align:center;">
+        <div class="lbl" style="color:var(--ink);">omzet sampai</div>
+        <div class="big" style="font-size:104px; letter-spacing:-3px;"><span id="rAmtV">Rp0</span></div>
+        <div id="rYr" class="lbl" style="color:var(--ink); font-size:40px;">juta / tahun</div></div>
+      <div id="rShield" class="abs sticker-svg" style="left:490px; top:1010px;"></div>
+      <div id="rTid" class="abs stampx" style="left:490px; top:1050px; font-size:80px; color:#2F7A45; border-color:#2F7A45; transform:rotate(-4deg);">TIDAK DIPOTONG</div>
+      <div id="rSur" class="abs tag light sticker" style="left:490px; top:1220px; font-size:38px;">asal serahkan surat pernyataan</div>
+    </div>
+
+    <!-- H (2480,7200): CTA -->
+    <div class="zone" style="left:2480px; top:7200px;">
+      <div id="jHd" class="abs headline" style="left:490px; top:430px; font-size:80px; line-height:1.06;">Mana yang paling<br><span class="acc">kerasa buat kamu?</span></div>
+      <div id="jTiles"></div>
+      <div id="jCom" class="abs sticker-svg" style="left:290px; top:1110px;"></div>
+      <div id="jK" class="abs bub" style="left:680px; top:1080px; font-size:52px;">Komen<br>ceritamu!</div>
+    </div>
+  </div>
+
+  <!-- B opening (screen space, collage) -->
+  <div id="collage">
+    <div class="cols" style="left:40px; top:200px; width:300px; height:1040px; transform:rotate(-2deg)"></div>
+    <div class="cols" style="left:380px; top:160px; width:300px; height:1080px; transform:rotate(1deg)"></div>
+    <div class="cols" style="left:720px; top:210px; width:330px; height:1040px; transform:rotate(-1deg)"></div>
+    <div id="redblock"></div>
+    <div id="blkline"></div>
+    <div id="cPerson"><img src="../../assets/people/yassierli.png" alt=""><div class="ht"></div></div>
+    <div id="cName2W" class="abs" style="left:440px; top:670px;"><div id="cName2">YASSIERLI<small>Menteri Ketenagakerjaan</small></div></div>
+    <div id="cSignW" class="abs" style="left:190px; top:450px;"><svg id="cSign" width="240" height="300" viewBox="0 0 240 300">
+      <rect x="110" y="150" width="20" height="150" fill="#8A6A44"/><rect x="10" y="10" width="220" height="160" fill="#fff" stroke="#17130E" stroke-width="6"/>
+      <text x="120" y="78" text-anchor="middle" font-family="Inter" font-weight="900" font-size="58" fill="#D6301F">UMP</text>
+      <text x="120" y="142" text-anchor="middle" font-family="Inter" font-weight="900" font-size="54" fill="#17130E">NAIK!</text></svg></div>
+    <div id="cCalW" class="abs" style="left:820px; top:420px;">
+      <div id="cCal" style="position:relative"><div class="top">NOV</div><div class="d">1?</div></div>
+      <div class="tape" style="left:-30px; top:-14px; transform:rotate(-24deg)"></div>
+      <div class="strip" id="cBur" style="left:-70px; top:178px; background:#17130E; color:#fff; font-size:34px; padding:8px 16px 12px;">buruh minta</div>
+    </div>
+    <svg id="cArrow" style="position:absolute; left:560px; top:560px;" width="220" height="200" viewBox="0 0 220 200">
+      <path id="cArrowP" d="M18 186 C 50 150, 70 110, 110 110 C 150 110, 140 60, 190 30" fill="none" stroke="#D6301F" stroke-width="13" stroke-linecap="round" stroke-dasharray="340" stroke-dashoffset="340"/>
+      <path id="cArrowH" d="M160 26 L194 26 L186 60" fill="none" stroke="#D6301F" stroke-width="13" stroke-linecap="round" stroke-linejoin="round" opacity="0"/></svg>
+    <div id="ledge"></div>
+    <div id="cNameW" class="abs" style="left:250px; top:700px;">
+      <div class="label" id="cName" style="position:relative">YASSIERLI<small>Menteri Ketenagakerjaan</small></div>
+      <div class="tape" style="left:-36px; top:-16px; transform:rotate(-30deg)"></div>
+      <div class="tape" style="right:-40px; bottom:-12px; transform:rotate(-26deg); width:100px"></div>
+    </div>
+    <div id="cPerW" class="abs" style="left:770px; top:1010px;"><div class="label" id="cPer" style="position:relative; font-size:30px; text-align:center;">per 21 Okt:<small>belum diumumkan</small></div></div>
+    <div id="cb1" class="rn" style="top:836px;"></div>
+    <div id="cb2" class="strip" style="left:76px; top:970px; background:#FFD23F; color:#17130E; font-size:82px; font-family:'GFS Baskerville','DejaVu Serif',serif;">naik</div>
+    <div id="cb3" class="strip" style="left:300px; top:1096px; background:#fff; color:#D6301F; font-size:72px; letter-spacing:-1px;">berapa?</div>
+    <div id="cCredit">Foto: Kemendag RI (domain publik), via Wikimedia Commons</div>
+    <svg id="cGrain" width="1080" height="1920"><rect width="1080" height="1920" filter="url(#paper)"/></svg>
+  </div>
+
+  <div id="brand"><div class="dot"></div><b>Rangkumin Dong</b></div>
+  <div id="subs"></div>
+  <div id="endcard">
+    <div class="logo">RANGKUMIN<br>DONG</div>
+    <div class="tl2">Berita ribet? Rangkumin dong.</div>
+    <div class="h">@rangkumindong</div>
+    <div class="src">Sumber: DJP (SP-23/2026), DDTC News, JawaPos, CNBC Indonesia,<br>CNN Indonesia, detikFinance, Pelita Karawang, Antara, Pintu News<br>· lengkap di komentar</div>
+    <div id="endCred" class="src" style="font-size:24px; margin-top:0;">Foto Yassierli: Kementerian Perdagangan RI, domain publik, via Wikimedia Commons</div>
+  </div>
+  <div id="progress"></div>
+</div>
+
+<script>
+const $ = (id) => document.getElementById(id);
+const T = window.TIMING;
+window.DURATION = T.duration;
+const at = K.at, W = K.word;
+const VB = T.variant === 'b';
+
+// ---------- SVG builders ----------
+const walletSVG = () => `<svg width="250" height="190" viewBox="0 0 250 190"><rect x="10" y="30" width="230" height="150" rx="26" fill="#8A5A3C"/>
+  <rect x="10" y="30" width="230" height="40" rx="20" fill="#A56E4A"/><rect x="40" y="10" width="150" height="50" rx="8" fill="#2F7A45" transform="rotate(-6 115 35)"/>
+  <rect x="150" y="88" width="100" height="60" rx="18" fill="#6E4630"/><circle cx="185" cy="118" r="12" fill="#FFD23F"/></svg>`;
+const bankSVG = () => `<svg width="300" height="270" viewBox="0 0 300 270"><path d="M150 30 L285 100 H15 Z" fill="#3E5568"/>
+  <rect x="25" y="100" width="250" height="18" fill="#2C3E4E"/>${[50, 100, 150, 200, 250].map((x) => `<rect x="${x - 14}" y="122" width="28" height="104" fill="#C9D3DC"/>`).join('')}
+  <rect x="15" y="226" width="270" height="30" rx="6" fill="#2C3E4E"/><rect x="146" y="0" width="6" height="40" fill="#1B2430"/>
+  <g transform="translate(152 2)"><rect width="66" height="40" fill="#fff"/>${[0, 2, 4, 6].map((i) => `<rect y="${i * 5.7}" width="66" height="5.7" fill="#E7212B"/>`).join('')}<rect width="28" height="22" fill="#2B4C9B"/></g></svg>`;
+const phoneSVG = () => `<svg width="190" height="320" viewBox="0 0 190 320"><rect x="10" y="10" width="170" height="300" rx="30" fill="#1B2430"/>
+  <rect x="22" y="24" width="146" height="272" rx="20" fill="#3E5568"/><rect x="22" y="24" width="146" height="272" rx="20" fill="url(#pg)"/>
+  <defs><linearGradient id="pg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF5A36"/><stop offset="1" stop-color="#FFD23F"/></linearGradient></defs>
+  <rect x="70" y="34" width="50" height="12" rx="6" fill="#1B2430"/><text x="95" y="180" text-anchor="middle" font-family="Inter" font-weight="900" font-size="40" fill="#fff">BARU</text></svg>`;
+const basketSVG = () => `<svg width="260" height="220" viewBox="0 0 260 220"><circle cx="90" cy="70" r="40" fill="#E7212B"/><circle cx="150" cy="60" r="36" fill="#2F7A45"/><circle cx="190" cy="84" r="30" fill="#FFD23F"/>
+  <path d="M60 40 q30 -40 60 0" stroke="#1E5A31" stroke-width="8" fill="none"/>
+  <path d="M20 100 H240 L215 205 H45 Z" fill="#C98E62"/><g stroke="#8A5A3C" stroke-width="7"><path d="M40 135 H220 M50 170 H210"/><path d="M85 100 L95 205 M130 100 V205 M175 100 L165 205"/></g></svg>`;
+const boxSVG = () => `<svg width="230" height="220" viewBox="0 0 230 220"><path d="M20 70 L115 30 L210 70 L115 110 Z" fill="#E0B47E"/><path d="M20 70 V170 L115 210 V110 Z" fill="#C98E62"/>
+  <path d="M210 70 V170 L115 210 V110 Z" fill="#B07A50"/><path d="M68 50 L162 90 V120" stroke="#F3EFE6" stroke-width="14" fill="none"/>
+  <rect x="135" y="140" width="56" height="34" rx="6" fill="#fff" transform="skewY(-22 160 157)"/></svg>`;
+const shieldSVG = () => `<svg width="300" height="340" viewBox="0 0 300 340"><path d="M150 10 L280 60 V160 Q280 270 150 330 Q20 270 20 160 V60 Z" fill="#2F7A45"/>
+  <path d="M150 34 L258 76 V160 Q258 252 150 304 Q42 252 42 160 V76 Z" fill="#3D9A58"/></svg>`;
+const commentSVG = () => `<svg width="260" height="230" viewBox="0 0 260 230"><path d="M20 30 Q20 10 40 10 H220 Q240 10 240 30 V150 Q240 170 220 170 H110 L60 214 L70 170 H40 Q20 170 20 150 Z" fill="#fff" stroke="#1B2430" stroke-width="8" stroke-linejoin="round"/>
+  <circle cx="80" cy="90" r="14" fill="#1B2430"/><circle cx="130" cy="90" r="14" fill="#1B2430"/><circle cx="180" cy="90" r="14" fill="#1B2430"/></svg>`;
+$('aWal').innerHTML = walletSVG(); $('cBank').innerHTML = bankSVG(); $('dPhone').innerHTML = phoneSVG(); $('eBask').innerHTML = basketSVG();
+$('rBox').innerHTML = boxSVG(); $('rShield').innerHTML = shieldSVG(); $('jCom').innerHTML = commentSVG();
+
+// ---------- calendar tiles ----------
+function tile(host, d, m, x, y, cls = 's', q = false, cap = '') {
+  const e = document.createElement('div'); e.className = 'abs cal ' + cls; e.style.left = x + 'px'; e.style.top = y + 'px';
+  e.innerHTML = `<div class="top">${m}</div><div class="d">${d}</div>` + (q ? '<div class="qcov">?</div>' : '') + (cap ? `<div class="cap">${cap}</div>` : '');
+  host.appendChild(e); return e;
+}
+const STRIP = [['28', 'OKT'], ['30', 'OKT'], ['1', 'NOV'], ['2', 'NOV']];
+const aT = STRIP.map(([d, m], i) => tile($('aTiles'), d, m, 160 + i * 220, 900, 's', i === 2));
+const fT = STRIP.map(([d, m], i) => tile($('fTiles'), d, m, 160 + i * 220, 760, 's', i === 2));
+const tM = STRIP.map(([d, m], i) => tile($('tMini'), d, m, 560 + i * 110, 430, 'xs slate'));
+tM.forEach((e) => { e.style.transform = 'translate(-50%,-50%) scale(.6)'; });
+const jT = [['1', 'OKT', 'pajak'], ['28', 'OKT', 'The Fed'], ['30', 'OKT', 'iPhone'], ['1', 'NOV', 'UMP?'], ['2', 'NOV', 'inflasi']]
+  .map(([d, m, c], i) => tile($('jTiles'), d, m, 140 + i * 175, 720, 'xs' + (i === 3 ? '' : ' slate'), false, c));
+
+// ---------- B opening helpers (seeded, stop-motion; from tests/hook-collage) ----------
+const hash = (s) => { let h = 2166136261; for (const c of String(s)) h = Math.imul(h ^ c.charCodeAt(0), 16777619); return h >>> 0; };
+const rnd = (s) => { let x = hash(s); x ^= x << 13; x ^= x >>> 17; x ^= x << 5; return ((x >>> 0) % 10000) / 10000; };
+const ST = (t) => Math.floor(t * 12 + 1e-6) / 12;
+const jit = (id, t, a = 2) => { const k = Math.floor(t * 12); return [(rnd(id + 'x' + k) - .5) * 2 * a, (rnd(id + 'y' + k) - .5) * 2 * a, (rnd(id + 'r' + k) - .5) * 1.2]; };
+function torn(el, seed, amp = 9, step = 26, sides = 'trbl') {
+  const w = el.offsetWidth, h = el.offsetHeight, P = [], j = (i) => (rnd(seed + i) * amp); let i = 0;
+  for (let x = 0; x <= w; x += step) P.push([x, sides.includes('t') ? j(i++) : 0]);
+  for (let y = 0; y <= h; y += step) P.push([w - (sides.includes('r') ? j(i++) : 0), y]);
+  for (let x = w; x >= 0; x -= step) P.push([x, h - (sides.includes('b') ? j(i++) : 0)]);
+  for (let y = h; y >= 0; y -= step) P.push([sides.includes('l') ? j(i++) : 0, y]);
+  el.style.clipPath = 'polygon(' + P.map(([x, y]) => `${x.toFixed(1)}px ${y.toFixed(1)}px`).join(',') + ')';
+}
+const LOOKS = [
+  { bg: '#17130E', c: '#fff', f: 'Inter', w: 900 }, { bg: '#F1ECE0', c: '#17130E', f: "'GFS Baskerville', serif", w: 700 },
+  { bg: '#D6301F', c: '#fff', f: 'Inter', w: 900 }, { bg: '#fff', c: '#17130E', f: "'DejaVu Serif', serif", w: 700 },
+  { bg: '#FFD23F', c: '#17130E', f: "'Bitstream Charter', serif", w: 700 }, { bg: '#F1ECE0', c: '#D6301F', f: 'Inter', w: 900 },
+];
+const letters = [];
+function slap(el, id, tIn, tOut, t, rot = 0, from = 1.35, centre = true) {
+  const q = ST(t), k = Math.floor((q - tIn) * 12 + 1e-6);
+  if (t < tIn || t >= tOut + 0.17) { el.style.opacity = 0; return; }
+  el.style.opacity = 1;
+  const s = k <= 0 ? from : k === 1 ? 0.94 : 1;
+  const [jx, jy, jr] = jit(id, t, k < 3 ? 3 : 1.4);
+  const out = t >= tOut ? Math.min(1, Math.floor((t - tOut) * 12 + 1) / 2) : 0;
+  el.style.transform = (centre ? 'translate(-50%,-50%) ' : '') + `translate(${jx + out * -1200}px, ${jy}px) rotate(${rot + jr + out * -12}deg) scale(${s})`;
+}
+const slapAbs = (el, id, tIn, tOut, t, rot = 0) => { slap(el, id, tIn, tOut, t, rot, 1.35, false); el.style.transformOrigin = '0 50%'; };
+
+let PH = false;   // licensed cut-out present?
+function setup() {
+  PH = $('yImg').naturalWidth > 0;
+  ['hPhW', 'hCred', 'hName'].forEach((id) => { if (!PH) $(id).style.display = 'none'; });
+  if (PH) $('hNoPh').style.display = 'none';
+  if (!PH) $('endCred').style.display = 'none';
+  if (VB) {
+    $('collage').style.display = 'block';
+    const b1 = $('cb1');
+    [...'UMP 2027'].forEach((ch, i) => {
+      if (ch === ' ') { const s = document.createElement('span'); s.style.width = '22px'; b1.appendChild(s); return; }
+      const L = LOOKS[Math.floor(rnd('lk' + i) * LOOKS.length)];
+      const e = document.createElement('i'); e.textContent = ch;
+      Object.assign(e.style, { background: L.bg, color: L.c, fontFamily: L.f, fontWeight: L.w, fontSize: (92 + rnd('fs' + i) * 18) + 'px' });
+      b1.appendChild(e); letters.push({ e, rot: (rnd('ro' + i) - .5) * 14, dy: (rnd('dy' + i) - .5) * 16, i: letters.length });
+    });
+    letters.forEach(({ e, i }) => torn(e, 'l' + i, 5, 12));
+    ['cb2', 'cb3', 'cBur', 'cName', 'cPer', 'cName2'].forEach((id) => torn($(id), id, 8, 22));
+    torn($('ledge'), 'ledge', 22, 30, 't');
+    torn($('cCal'), 'ccal', 6, 18);
+    document.querySelectorAll('#collage .tape').forEach((e, i) => torn(e, 'tp' + i, 6, 12, 'lr'));
+    if (PH) { $('cName2W').style.display = 'none'; } else { Object.assign($('cArrow').style, { left: '590px', top: '330px' }); ['cArrowP', 'cArrowH'].forEach((id) => $(id).setAttribute('stroke', '#FBF8F1')); $('cPerson').style.display = 'none'; $('cNameW').style.display = 'none'; $('cCredit').style.display = 'none'; }
+  }
+}
+
+const pulse = (el, tIn, amt = 0.12, rot = 0) => { const k = K.clamp((T_ - tIn) / 0.45); el.style.transform = `translate(-50%,-50%) scale(${1 + amt * Math.sin(Math.PI * k)}) rotate(${rot}deg)`; };
+const slam = (el, t, tIn, rot = 0, from = 2) => { const s = K.spring(t - tIn, 320, 18); el.style.opacity = t >= tIn ? 1 : 0; el.style.transform = `translate(-50%,-50%) scale(${from - (from - 1) * s}) rotate(${rot}deg)`; };
+const dec = (v, n) => v.toFixed(n).replace('.', ',');
+let T_ = 0;
+
+function seek(t) {
+  T_ = t;
+  const Z = (x, y, z = 1.0) => ({ x, y: y + 200 / z, z });
+  const zc = (ox, oy) => Z(ox + 540, oy + 960);
+  K.camera($('world'), [
+    { t: 0, ...zc(0, 0) },
+    { t: at('rd', -0.3), ...Z(2480 + 540, 960, 1.1) },
+    { t: at('b1', -0.3), ...zc(0, 2400) },
+    { t: at('b4', -0.3), ...zc(1240, 2400) },
+    { t: at('b5', -0.3), ...zc(2480, 2400) },
+    { t: at('r1', -0.3), ...zc(0, 4800) },
+    { t: at('u2', -0.3), ...zc(1240, 4800) },
+    { t: at('u3', -0.3), ...zc(2480, 4800) },
+    { t: at('t1', -0.3), ...zc(0, 7200) },
+    { t: at('r4', -0.3), ...zc(1240, 7200) },
+    { t: at('cta', -0.3), ...zc(2480, 7200) },
+  ], t, 1080, 1920, 0.6);
+  const rd = at('rd');
+
+  // ---------- hook A: title card on frame 0, a change every ~0.5 s ----------
+  if (!VB) {
+    const th = 1 + 0.05 * Math.exp(-6 * t) * Math.sin(t * 14);
+    $('aHd').style.transform = `translate(-50%,-50%) scale(${th})`;
+    const tt = [W('h1', 'tanggal') - 0.05, W('h1', 'minggu') - 0.05, W('h1', 'ini') - 0.05, W('h1', 'mana') - 0.05];
+    aT.forEach((e, i) => K.pop(e, t, tt[i], Infinity, [-3, 2, -2, 3][i]));
+    const qv = aT[2].querySelector('.qcov');
+    if (t > W('h1', 'nyentuh') - 0.05) { const k = K.clamp((t - W('h1', 'nyentuh') + 0.05) / 0.5); aT[2].style.transform += ` scale(${1 + 0.18 * Math.sin(Math.PI * k)})`; }
+    qv.style.transform = `rotate(${t > at('h2') ? 5 * Math.sin(t * 9) : 0}deg)`;
+    K.pop($('aWal'), t, W('h1', 'dompetmu') - 0.1, Infinity, 6 * Math.sin(t * 5));
+    K.pop($('aAkh'), t, at('h2', -0.05), Infinity, -3);
+  }
+
+  // ---------- hook B: collage (only the opening differs) ----------
+  if (VB) {
+    const q = ST(t), ex = at('rd', -0.2);
+    const ps = K.clamp(K.spring(q + 0.45, 140, 15));
+    const gone = t >= ex ? Math.min(1, Math.floor((t - ex) * 12 + 1) / 3) : 0;
+    $('collage').style.transform = `translateY(${gone * -1950}px)`;
+    $('collage').style.visibility = gone >= 1 ? 'hidden' : 'visible';
+    const [jx, jy, jr] = jit('p', t, t > W('hb2', 'tanggalnya') ? 2.5 : 1);
+    $('cPerson').style.transform = `translate(-50%, ${1430 - 1070 * ps + jy}px) translateX(${jx}px) rotate(${jr * .6 - 1}deg)`;
+    const rb = K.clamp(K.spring(q + 0.3, 200, 18));
+    $('redblock').style.transform = `rotate(-9deg) translateX(${(1 - rb) * -1300}px)`;
+    $('blkline').style.transform = `rotate(-9deg) translateX(${(1 - rb) * 1300}px)`;
+    letters.forEach(({ e, rot, dy, i }) => {
+      const k = Math.floor((q - (-0.6 + i * (1 / 24))) * 12), [x, y, r] = jit('L' + i, t, 1.2);
+      e.style.transform = `translate(${x}px, ${dy + y}px) rotate(${rot + r}deg) scale(${k <= 0 ? 1.4 : 1})`;
+    });
+    // title card "UMP 2027 / NAIK BERAPA?" is on the cover; strips re-slap on their words
+    const tn = W('hb1', 'naik'), tb = W('hb1', 'berapa');
+    slapAbs($('cb2'), 'cb2', t < tn - 0.05 ? -1 : tn - 0.05, Infinity, t, -3);
+    slapAbs($('cb3'), 'cb3', t < tb - 0.05 ? -1 : tb - 0.05, Infinity, t, 2.5);
+    if (PH) slap($('cNameW'), 'nm', 0.55, Infinity, t, -4); else slap($('cName2W'), 'nm2', -1, Infinity, t, -3);
+    slap($('cSignW'), 'sg', W('hb1', 'buruh') - 0.05, Infinity, t, -6);
+    const tc = W('hb1', '1') - 0.1;
+    slap($('cCalW'), 'cal', tc, Infinity, t, 5);
+    const ap = Math.floor(K.prog(q, tc + 0.1, 0.42) * 5) / 5;
+    $('cArrowP').setAttribute('stroke-dashoffset', 340 * (1 - ap));
+    $('cArrowH').setAttribute('opacity', ap >= 1 ? 1 : 0);
+    slap($('cPerW'), 'per', at('hb2', -0.05), Infinity, t, 3);
+  }
+
+  // ---------- tagline ----------
+  K.pop($('stamp'), t, at('rd', -0.1), at('b1', -0.2), -6);
+
+  // ---------- 28 Okt: The Fed ----------
+  slam($('cCal28'), t, at('b1', 0.3), -3, 1.4);
+  K.pop($('cDay'), t, at('b1', 0.4), Infinity, -3);
+  if (t > W('b1', '28')) pulse($('cCal28'), W('b1', '28') - 0.05, 0.1, -3);
+  K.pop($('cBank'), t, W('b1', 'the') - 0.15, Infinity, 0);
+  K.pop($('cFed'), t, W('b1', 'fed') - 0.05, Infinity, 2);
+  K.pop($('cHd'), t, W('b1', 'putuskan') - 0.05, Infinity, 0);
+  K.pop($('cUs'), t, W('b1', 'amerika') - 0.1, Infinity, -2);
+
+  // ---------- 30 Okt: iPhone Duo ----------
+  slam($('dCal30'), t, at('b4', 0.3), 3, 1.4);
+  K.pop($('dDay'), t, at('b4', 0.4), Infinity, 3);
+  K.pop($('dPhone'), t, W('b4', 'iphone') - 0.15, Infinity, -6 + 3 * Math.sin(t * 2));
+  K.pop($('dName'), t, W('b4', 'duo') - 0.05, Infinity, 2);
+  slam($('dRes'), t, W('b4', 'resmi') - 0.05, -4, 1.8);
+  K.pop($('dPrice'), t, W('b4', 'mulai') - 0.05, Infinity, 0);
+  { const s = W('b4', 'rp45') - 0.05, e = W('b4', 'juta') + 0.1, v = 45.7 * K.easeOut(K.prog(t, s, e - s));
+    $('dPriceV').textContent = 'Rp' + dec(v, 1) + ' juta'; }
+  K.pop($('dCheap'), t, W('b4', 'juta') + 0.05, Infinity, -2);
+
+  // ---------- ~2 Nov: BPS ----------
+  slam($('eCal2'), t, at('b5', 0.3), -3, 1.4);
+  K.pop($('eSek'), t, at('b5', 0.4), Infinity, -6);
+  K.pop($('eBps'), t, W('b5', 'bps') - 0.05, Infinity, 2);
+  K.pop($('eRil'), t, W('b5', 'rilis') - 0.05, Infinity, -2);
+  K.pop($('eBask'), t, W('b5', 'inflasi') - 0.05, Infinity, 4 * Math.sin(t * 3));
+  K.pop($('eLab'), t, W('b5', 'september') - 0.05, Infinity, 0);
+  K.pop($('eNum'), t, W('b5', 'september') - 0.05, Infinity, 0);
+  { const s = W('b5', '3') - 0.1; $('eNumV').textContent = dec(3.28 * K.easeOut(K.prog(t, s, 0.8)), 2); }
+
+  // ---------- reveal: 1 Nov ----------
+  K.pop($('fHd'), t, at('r1', -0.1), Infinity, 0);
+  fT.forEach((e, i) => K.pop(e, t, at('r1', 0.1 + i * 0.12), Infinity, [-3, 2, -2, 3][i]));
+  { const tq = W('r1', '1') - 0.1, k = K.easeOut(K.prog(t, tq, 0.45)), qv = fT[2].querySelector('.qcov');
+    if (t > W('r1', 'minggu') - 0.05 && t < tq) fT[2].style.transform += ` rotate(${4 * Math.sin(t * 22)}deg)`;
+    qv.style.opacity = 1 - k; qv.style.transform = `translate(${k * 160}px, ${-k * 260}px) rotate(${k * 40}deg)`;
+    if (t >= tq) { const s = K.spring(t - tq); fT[2].style.transform = `translate(-50%,-50%) scale(${1 + 0.28 * s}) rotate(-2deg)`; fT[2].style.zIndex = 2;
+      [0, 1, 3].forEach((i) => { fT[i].style.opacity = 1 - 0.6 * K.clamp((t - tq) / 0.3); }); } }
+  slam($('fBur'), t, W('u1', 'buruh') - 0.05, -4, 1.8);
+  K.pop($('fPeng'), t, W('u1', 'pengumuman') - 0.05, Infinity, 2);
+  slam($('fUmp'), t, W('u1', 'ump') - 0.05, 0, 1.6);
+
+  // ---------- KSPI range ----------
+  K.pop($('gKspi'), t, at('u2', -0.1), Infinity, -3);
+  K.pop($('gMin'), t, W('u2', 'minta') - 0.05, Infinity, 2);
+  K.pop($('gBar'), t, at('u2', 0.1), Infinity, 0);
+  K.pop($('gUp'), t, W('u2', 'naik') - 0.05, Infinity, 0);
+  { const t1 = W('u2', '7') - 0.05, t2 = W('u2', '9') - 0.05;
+    $('gL1').style.opacity = K.clamp((t - t1) / 0.12);
+    $('gRng').style.transform = `scaleX(${t < t1 ? 0 : 0.02 + 0.98 * K.easeOut(K.prog(t, t1 + 0.3, t2 - t1))})`;
+    $('gL2').style.opacity = K.clamp((t - t2) / 0.12); }
+  K.pop($('gNot'), t, W('u2', 'persen') - 0.05, Infinity, -2);
+
+  // ---------- Menaker (per 21 Okt) ----------
+  K.pop($('hPer'), t, at('u3', -0.1), Infinity, -3);
+  K.pop($('hCal'), t, W('u3', 'oktober') - 0.05, Infinity, -4);
+  if (PH) {
+    const tp = W('u3', 'menaker') - 0.2, s = K.spring(t - tp, 160, 15);
+    $('hPhW').style.opacity = t >= tp ? 1 : 0;
+    $('hPhW').style.transform = `translate(-50%,-50%) translateY(${(1 - s) * 200}px) rotate(-1deg)`;
+    K.pop($('hName'), t, W('u3', 'yassierli') - 0.05, Infinity, -2);
+    $('hCred').style.opacity = t >= tp ? 0.9 : 0; $('hCred').style.transform = 'translate(-50%,-50%)';
+  } else K.pop($('hNoPh'), t, W('u3', 'menaker') - 0.1, Infinity, -2);
+  slam($('hBel'), t, W('u3', 'belum') - 0.05, -3, 1.6);
+  if (t > W('u3', 'tanggalnya')) pulse($('hCal'), W('u3', 'tanggalnya') - 0.05, 0.14, -4);
+
+  // ---------- the turn: 1 Okt, marketplace tax ----------
+  slam($('tTapi'), t, at('t1', 0.25), -3, 1.4);
+  tM.forEach((e, i) => { const s = K.spring(t - (W('t1', 'ada') - 0.1 + i * 0.06)); e.style.opacity = t >= W('t1', 'ada') - 0.1 + i * 0.06 ? 0.75 : 0;
+    e.style.transform = `translate(-50%,-50%) scale(${0.3 + 0.3 * s})`; });
+  slam($('tCal'), t, W('t1', 'sudah') - 0.15, -4, 2);
+  slam($('tJal'), t, W('t1', 'jalan') - 0.05, -5, 1.8);
+  if (t > W('t2', '1')) pulse($('tCal'), W('t2', '1') - 0.05, 0.12, -4);
+  ['tokopedia', 'shopee', 'lazada', 'blibli'].forEach((w, i) => K.pop($('tC' + (i + 1)), t, W('t2', w) - 0.05, Infinity, [-2, 2, 2, -2][i]));
+  K.pop($('tPph'), t, W('t2', 'motong') - 0.05, Infinity, -2);
+  slam($('tPct'), t, W('t2', '0') - 0.05, -3, 1.8);
+  K.pop($('tOmz'), t, W('t2', 'omzet') - 0.1, Infinity, 0);
+
+  // ---------- individuals ≤ Rp500 juta ----------
+  K.pop($('rBox'), t, at('r4', -0.1), Infinity, -4);
+  K.pop($('rPer'), t, at('r4', 0.05), Infinity, -2);
+  K.pop($('rAmt'), t, W('r4', 'beromzet') - 0.05, Infinity, 0);
+  { const s = W('r4', 'rp500') - 0.05; $('rAmtV').textContent = 'Rp' + Math.round(500 * K.easeOut(K.prog(t, s, 0.6))); }
+  $('rYr').style.opacity = K.clamp((t - W('r4', 'setahun') + 0.05) / 0.12);
+  K.pop($('rShield'), t, W('r4', 'tidak') - 0.2, Infinity, 0);
+  slam($('rTid'), t, W('r4', 'tidak') - 0.05, -4, 1.8);
+  K.pop($('rSur'), t, W('r4', 'dipotong') + 0.25, Infinity, 2);
+
+  // ---------- CTA ----------
+  const jOut = at('end', -0.4);
+  K.pop($('jHd'), t, at('cta', -0.05), jOut, 0);
+  jT.forEach((e, i) => K.pop(e, t, at('cta', 0.1 + i * 0.1), jOut, [-3, 2, -2, 3, -2][i]));
+  K.pop($('jCom'), t, W('cta', 'kamu') - 0.1, jOut, -4);
+  K.pop($('jK'), t, W('cta', 'komen') - 0.05, jOut, 2);
+
+  // ---------- end ----------
+  const en = K.prog(t, at('end', -0.15), 0.3);
+  $('endcard').style.opacity = en;
+  $('endcard').querySelector('.logo').style.transform = `rotate(-3deg) scale(${0.6 + 0.4 * K.spring(t - at('end', -0.15))})`;
+  K.subtitles($('subs'), t);
+  $('subs').style.visibility = en > 0.5 ? 'hidden' : 'visible';
+  $('progress').style.width = (100 * t / window.DURATION) + '%';
+  return true;
+}
+// wait for the cut-out (or its absence) so every frame knows which layout to draw
+const img = $('yImg');
+new Promise((r) => { if (img.complete) r(); else { img.onload = r; img.onerror = r; } }).then(() => { setup(); window.seek = seek; seek(0); });
+</script>
+</body>
+</html>

@@ -1,0 +1,701 @@
+{
+ "duration": 57.308,
+ "voice": "Pratama",
+ "lines": [
+  {
+   "id": "h1",
+   "text": "4 tanggal minggu ini. Mana yang nyentuh dompetmu?",
+   "start": 0.8099999999999999,
+   "end": 3.3240000000000003,
+   "words": [
+    {
+     "w": "4",
+     "start": 0.81,
+     "end": 1.014
+    },
+    {
+     "w": "tanggal",
+     "start": 1.074,
+     "end": 1.77
+    },
+    {
+     "w": "minggu",
+     "start": 1.834,
+     "end": 1.941
+    },
+    {
+     "w": "ini.",
+     "start": 1.967,
+     "end": 2.154
+    },
+    {
+     "w": "Mana",
+     "start": 2.194,
+     "end": 2.354
+    },
+    {
+     "w": "yang",
+     "start": 2.394,
+     "end": 2.634
+    },
+    {
+     "w": "nyentuh",
+     "start": 2.714,
+     "end": 3.14
+    },
+    {
+     "w": "dompetmu?",
+     "start": 3.148,
+     "end": 3.324
+    }
+   ]
+  },
+  {
+   "id": "h2",
+   "text": "Jawabannya di akhir.",
+   "start": 4.124,
+   "end": 4.444,
+   "words": [
+    {
+     "w": "Jawabannya",
+     "start": 4.124,
+     "end": 4.444
+    },
+    {
+     "w": "di",
+     "start": 4.444,
+     "end": 4.444
+    },
+    {
+     "w": "akhir.",
+     "start": 4.444,
+     "end": 4.444
+    }
+   ]
+  },
+  {
+   "id": "rd",
+   "text": "Rangkumin dong!",
+   "start": 4.678,
+   "end": 5.637,
+   "words": [
+    {
+     "w": "Rangkumin",
+     "start": 4.678,
+     "end": 5.158
+    },
+    {
+     "w": "dong!",
+     "start": 5.158,
+     "end": 5.637
+    }
+   ]
+  },
+  {
+   "id": "b1",
+   "text": "Rabu, 28 Oktober, The Fed putuskan suku bunga Amerika.",
+   "start": 6.834120181405896,
+   "end": 10.754120181405895,
+   "words": [
+    {
+     "w": "Rabu,",
+     "start": 6.834,
+     "end": 7.004
+    },
+    {
+     "w": "28",
+     "start": 7.044,
+     "end": 8.284
+    },
+    {
+     "w": "Oktober,",
+     "start": 8.364,
+     "end": 8.924
+    },
+    {
+     "w": "The",
+     "start": 9.004,
+     "end": 9.164
+    },
+    {
+     "w": "Fed",
+     "start": 9.204,
+     "end": 9.324
+    },
+    {
+     "w": "putuskan",
+     "start": 9.384,
+     "end": 9.914
+    },
+    {
+     "w": "suku",
+     "start": 9.984,
+     "end": 10.297
+    },
+    {
+     "w": "bunga",
+     "start": 10.354,
+     "end": 10.381
+    },
+    {
+     "w": "Amerika.",
+     "start": 10.387,
+     "end": 10.754
+    }
+   ]
+  },
+  {
+   "id": "b4",
+   "text": "Jumat, 30 Oktober, iPhone Duo resmi dijual. Mulai Rp45,7 juta.",
+   "start": 11.274120181405895,
+   "end": 16.494120181405897,
+   "words": [
+    {
+     "w": "Jumat,",
+     "start": 11.274,
+     "end": 11.544
+    },
+    {
+     "w": "30",
+     "start": 11.574,
+     "end": 12.274
+    },
+    {
+     "w": "Oktober,",
+     "start": 12.354,
+     "end": 12.914
+    },
+    {
+     "w": "iPhone",
+     "start": 12.967,
+     "end": 13.314
+    },
+    {
+     "w": "Duo",
+     "start": 13.394,
+     "end": 13.684
+    },
+    {
+     "w": "resmi",
+     "start": 13.754,
+     "end": 14.171
+    },
+    {
+     "w": "dijual.",
+     "start": 14.224,
+     "end": 14.464
+    },
+    {
+     "w": "Mulai",
+     "start": 14.524,
+     "end": 14.704
+    },
+    {
+     "w": "Rp45,7",
+     "start": 14.784,
+     "end": 16.298
+    },
+    {
+     "w": "juta.",
+     "start": 16.302,
+     "end": 16.317
+    }
+   ]
+  },
+  {
+   "id": "b5",
+   "text": "Sekitar 2 November, BPS rilis inflasi. September: 3,28 persen.",
+   "start": 17.041120181405894,
+   "end": 21.700120181405897,
+   "words": [
+    {
+     "w": "Sekitar",
+     "start": 17.041,
+     "end": 17.547
+    },
+    {
+     "w": "2",
+     "start": 17.574,
+     "end": 17.814
+    },
+    {
+     "w": "November,",
+     "start": 17.867,
+     "end": 18.342
+    },
+    {
+     "w": "BPS",
+     "start": 18.39,
+     "end": 19.017
+    },
+    {
+     "w": "rilis",
+     "start": 19.017,
+     "end": 19.236
+    },
+    {
+     "w": "inflasi.",
+     "start": 19.372,
+     "end": 20.124
+    },
+    {
+     "w": "September:",
+     "start": 20.204,
+     "end": 20.724
+    },
+    {
+     "w": "3,28",
+     "start": 20.784,
+     "end": 21.665
+    },
+    {
+     "w": "persen.",
+     "start": 21.667,
+     "end": 21.7
+    }
+   ]
+  },
+  {
+   "id": "r1",
+   "text": "Yang paling nyentuh dompet? Minggu, 1 November.",
+   "start": 22.161120181405895,
+   "end": 24.442120181405894,
+   "words": [
+    {
+     "w": "Yang",
+     "start": 22.161,
+     "end": 22.274
+    },
+    {
+     "w": "paling",
+     "start": 22.334,
+     "end": 22.747
+    },
+    {
+     "w": "nyentuh",
+     "start": 22.774,
+     "end": 23.254
+    },
+    {
+     "w": "dompet?",
+     "start": 23.302,
+     "end": 23.654
+    },
+    {
+     "w": "Minggu,",
+     "start": 23.707,
+     "end": 24.217
+    },
+    {
+     "w": "1",
+     "start": 24.273,
+     "end": 24.277
+    },
+    {
+     "w": "November.",
+     "start": 24.278,
+     "end": 24.442
+    }
+   ]
+  },
+  {
+   "id": "u1",
+   "text": "Itu tanggal yang buruh minta buat pengumuman UMP 2027.",
+   "start": 25.082120181405894,
+   "end": 28.985120181405893,
+   "words": [
+    {
+     "w": "Itu",
+     "start": 25.082,
+     "end": 25.202
+    },
+    {
+     "w": "tanggal",
+     "start": 25.242,
+     "end": 25.562
+    },
+    {
+     "w": "yang",
+     "start": 25.642,
+     "end": 25.962
+    },
+    {
+     "w": "buruh",
+     "start": 26.002,
+     "end": 26.234
+    },
+    {
+     "w": "minta",
+     "start": 26.282,
+     "end": 26.602
+    },
+    {
+     "w": "buat",
+     "start": 26.682,
+     "end": 27.109
+    },
+    {
+     "w": "pengumuman",
+     "start": 27.162,
+     "end": 27.802
+    },
+    {
+     "w": "UMP",
+     "start": 27.882,
+     "end": 28.547
+    },
+    {
+     "w": "2027.",
+     "start": 28.547,
+     "end": 28.985
+    }
+   ]
+  },
+  {
+   "id": "u2",
+   "text": "KSPI minta naik 7,5 sampai 9,5 persen.",
+   "start": 30.068120181405895,
+   "end": 33.218120181405894,
+   "words": [
+    {
+     "w": "KSPI",
+     "start": 30.068,
+     "end": 30.561
+    },
+    {
+     "w": "minta",
+     "start": 30.615,
+     "end": 30.748
+    },
+    {
+     "w": "naik",
+     "start": 30.808,
+     "end": 31.188
+    },
+    {
+     "w": "7,5",
+     "start": 31.228,
+     "end": 31.868
+    },
+    {
+     "w": "sampai",
+     "start": 31.948,
+     "end": 32.228
+    },
+    {
+     "w": "9,5",
+     "start": 32.288,
+     "end": 32.967
+    },
+    {
+     "w": "persen.",
+     "start": 32.978,
+     "end": 33.218
+    }
+   ]
+  },
+  {
+   "id": "u3",
+   "text": "Per 21 Oktober, Menaker Yassierli belum umumkan tanggalnya.",
+   "start": 33.650120181405896,
+   "end": 37.1911201814059,
+   "words": [
+    {
+     "w": "Per",
+     "start": 33.65,
+     "end": 33.768
+    },
+    {
+     "w": "21",
+     "start": 33.838,
+     "end": 34.838
+    },
+    {
+     "w": "Oktober,",
+     "start": 34.898,
+     "end": 35.298
+    },
+    {
+     "w": "Menaker",
+     "start": 35.378,
+     "end": 35.698
+    },
+    {
+     "w": "Yassierli",
+     "start": 35.751,
+     "end": 36.278
+    },
+    {
+     "w": "belum",
+     "start": 36.328,
+     "end": 36.578
+    },
+    {
+     "w": "umumkan",
+     "start": 36.605,
+     "end": 36.904
+    },
+    {
+     "w": "tanggalnya.",
+     "start": 36.907,
+     "end": 37.191
+    }
+   ]
+  },
+  {
+   "id": "t1",
+   "text": "Tapi ada yang sudah jalan duluan.",
+   "start": 38.098120181405896,
+   "end": 39.39812018140589,
+   "words": [
+    {
+     "w": "Tapi",
+     "start": 38.098,
+     "end": 38.378
+    },
+    {
+     "w": "ada",
+     "start": 38.418,
+     "end": 38.538
+    },
+    {
+     "w": "yang",
+     "start": 38.578,
+     "end": 38.738
+    },
+    {
+     "w": "sudah",
+     "start": 38.818,
+     "end": 39.318
+    },
+    {
+     "w": "jalan",
+     "start": 39.323,
+     "end": 39.345
+    },
+    {
+     "w": "duluan.",
+     "start": 39.348,
+     "end": 39.398
+    }
+   ]
+  },
+  {
+   "id": "t2",
+   "text": "Sejak 1 Oktober, Tokopedia, Shopee, Lazada, Blibli motong pajak 0,5 persen dari omzet penjual online.",
+   "start": 40.218120181405894,
+   "end": 47.406120181405896,
+   "words": [
+    {
+     "w": "Sejak",
+     "start": 40.218,
+     "end": 40.658
+    },
+    {
+     "w": "1",
+     "start": 40.708,
+     "end": 40.998
+    },
+    {
+     "w": "Oktober,",
+     "start": 41.078,
+     "end": 41.931
+    },
+    {
+     "w": "Tokopedia,",
+     "start": 42.038,
+     "end": 43.131
+    },
+    {
+     "w": "Shopee,",
+     "start": 43.185,
+     "end": 43.717
+    },
+    {
+     "w": "Lazada,",
+     "start": 43.728,
+     "end": 44.248
+    },
+    {
+     "w": "Blibli",
+     "start": 44.308,
+     "end": 44.728
+    },
+    {
+     "w": "motong",
+     "start": 44.768,
+     "end": 45.048
+    },
+    {
+     "w": "pajak",
+     "start": 45.088,
+     "end": 45.344
+    },
+    {
+     "w": "0,5",
+     "start": 45.392,
+     "end": 46.155
+    },
+    {
+     "w": "persen",
+     "start": 46.181,
+     "end": 46.488
+    },
+    {
+     "w": "dari",
+     "start": 46.528,
+     "end": 46.745
+    },
+    {
+     "w": "omzet",
+     "start": 46.814,
+     "end": 47.168
+    },
+    {
+     "w": "penjual",
+     "start": 47.227,
+     "end": 47.263
+    },
+    {
+     "w": "online.",
+     "start": 47.264,
+     "end": 47.406
+    }
+   ]
+  },
+  {
+   "id": "r4",
+   "text": "Perorangan beromzet sampai Rp500 juta setahun? Tidak dipotong.",
+   "start": 48.1461201814059,
+   "end": 51.6431201814059,
+   "words": [
+    {
+     "w": "Perorangan",
+     "start": 48.146,
+     "end": 48.626
+    },
+    {
+     "w": "beromzet",
+     "start": 48.686,
+     "end": 49.106
+    },
+    {
+     "w": "sampai",
+     "start": 49.146,
+     "end": 49.426
+    },
+    {
+     "w": "Rp500",
+     "start": 49.506,
+     "end": 49.986
+    },
+    {
+     "w": "juta",
+     "start": 50.046,
+     "end": 50.306
+    },
+    {
+     "w": "setahun?",
+     "start": 50.906,
+     "end": 51.346
+    },
+    {
+     "w": "Tidak",
+     "start": 51.457,
+     "end": 51.586
+    },
+    {
+     "w": "dipotong.",
+     "start": 51.593,
+     "end": 51.643
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "text": "Mana yang paling kerasa buat kamu? Komen ceritamu!",
+   "start": 52.0461201814059,
+   "end": 54.35612018140589,
+   "words": [
+    {
+     "w": "Mana",
+     "start": 52.046,
+     "end": 52.259
+    },
+    {
+     "w": "yang",
+     "start": 52.313,
+     "end": 52.499
+    },
+    {
+     "w": "paling",
+     "start": 52.526,
+     "end": 52.862
+    },
+    {
+     "w": "kerasa",
+     "start": 52.926,
+     "end": 53.346
+    },
+    {
+     "w": "buat",
+     "start": 53.386,
+     "end": 53.546
+    },
+    {
+     "w": "kamu?",
+     "start": 53.586,
+     "end": 54.067
+    },
+    {
+     "w": "Komen",
+     "start": 54.067,
+     "end": 54.25
+    },
+    {
+     "w": "ceritamu!",
+     "start": 54.256,
+     "end": 54.356
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "text": "Follow Rangkumin Dong, biar nggak ketinggalan!",
+   "start": 54.8661201814059,
+   "end": 56.4661201814059,
+   "words": [
+    {
+     "w": "Follow",
+     "start": 54.866,
+     "end": 55.186
+    },
+    {
+     "w": "Rangkumin",
+     "start": 55.266,
+     "end": 55.686
+    },
+    {
+     "w": "Dong,",
+     "start": 55.706,
+     "end": 55.842
+    },
+    {
+     "w": "biar",
+     "start": 55.874,
+     "end": 56.066
+    },
+    {
+     "w": "nggak",
+     "start": 56.146,
+     "end": 56.466
+    },
+    {
+     "w": "ketinggalan!",
+     "start": 56.466,
+     "end": 56.466
+    }
+   ]
+  }
+ ]
+}
