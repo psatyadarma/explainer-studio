@@ -22,3 +22,11 @@ _Recomputed by engine/prefs.py from 5 days of offers, 4 picks._
 - 2026-10-23: picked #?  "Bahlil: mode bertahan, apa artinya buat dompet kamu? (Rp31,8 T, Pertalite tetap, opsi stop ekspor gas)", storyline survival-mode
 
 - Not enough picks yet for patterns (4/5). Rely on the explicit notes above.
+
+## What the audience shows
+
+_Analyst, 25 Oct (W43), 6 posted videos, tiny samples; treat as leaning, not decided._
+- Over-performed: wallet-angle explainers with a "kamu/dompet" payoff in the first line (survival 23 Oct: 506 IG views, 29% watched; IHSG chapter cut: 180 views, 27%). The weekly 16:9 got 599 IG views and 23 shares (best sharing), though only 15% watched of 7.4 min.
+- Under-performed: high-sensitivity politics with no wallet angle (definisi korupsi: 19 IG views, 12.5%, but YouTube 130 views and 47% watched) and jargon-led markets (rupiah/BI-Rate: 2.8% watched).
+- Pratama videos hold far better than Cahaya (24.7% vs 7.7% IG avg watched, n=4 vs 2, confounded by length and slot).
+- YouTube Shorts often out-views Instagram for the same video (survival 1,203 vs 506), so YouTube is the cleaner place to judge hooks.

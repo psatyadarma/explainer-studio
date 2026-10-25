@@ -1,6 +1,13 @@
 {
- "success": true,
- "job_id": "9ac329d045584d82b724925dd6cb367c",
- "scheduled_date": "2026-10-25T19:00:00+08:00",
- "request_id": "Rangkumindong-2026-10-25-minggu-depan-4-tanggal-dompet"
+  "success": true,
+  "job_id": "9ac329d045584d82b724925dd6cb367c",
+  "scheduled_date": "2026-10-25T19:00:00+08:00",
+  "request_id": "Rangkumindong-2026-10-25-minggu-depan-4-tanggal-dompet",
+  "status": "completed",
+  "links": {
+    "instagram": "https://www.instagram.com/reel/De6jT34jOCl/",
+    "youtube": "https://www.youtube.com/watch?v=i1OvbBvUfDw"
+  },
+  "posted_at": "2026-10-25T19:00+08:00",
+  "b_posted": false
 }

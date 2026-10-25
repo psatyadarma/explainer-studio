@@ -28,3 +28,10 @@ History moved out of HANDOFF.md (22 Oct) so fresh sessions read less. Append one
 - Auto-posted 19:00 (no reply): IG De3-lMjk0Wl, YT TivUTiMxyV0. B not posted (Trial Reels blocked).
 - **Engine bug:** subtitle timings from tts_eleven.py and variant.py came out ~0.8–1.2 s late against the voice. The producer re-timed them from the STT transcript with a scratchpad script. Fix this in the engine before the next video.
 - Metrics: survival (24 h) IG 492 views, ~28.4% watched; karhutla (72 h) IG 51 views, 30.6%; YT 90.5% on 186 views (treat with caution).
+
+## 25 Oct (Sun, #7 Minggu Depan "4 tanggal dompet"; Pratama, question_reveal, subs word)
+- Sweeps: 30 events (7/8/6/9), 26 merged; fixed a leftover merge marker in covered.csv. Light fact-check made 4 fixes. No pick by 14:00, so ⭐ #1 was the default.
+- Full fact-check: the marketplace PPh 22 0,5% has applied since **1 Okt** (DJP SP-23/2026), not 1 Nov, so the reveal became UMP 1 Nov ("buruh minta"). E0289 is marked superseded. pajak.go.id was unreadable here, so the date was matched by title/URL. QA: FIX for tiles clipping mid-pan, then PASS on A and B; the 57 s length was waived for minggu_depan (40–60 s).
+- Auto-posted 19:00 (no reply): IG De6jT34jOCl, YT i1OvbBvUfDw. B not posted (Trial Reels blocked). Yassierli's photo got Commons 429s, so B fell back to a name tag.
+- **Still open:** the subtitle-timing bug (~0.8 s late) in tts_eleven.py; the producer re-timed from STT again. Missing setup this session: soundfile, rembg.
+- Weekly review W43 (reviews/2026-W43.md): no variable decided. The analyst proposes replacing the blocked daily A/B with alternating-day hook styles on A only; waiting for the user's decision.

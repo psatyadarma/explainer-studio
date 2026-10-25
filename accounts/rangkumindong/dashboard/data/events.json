@@ -2747,7 +2747,7 @@
 "key_numbers": "At least 50% fee cut · starts 25 Oct 2026 · verification up to 10 days · payout within 5 days · micro: capital up to Rp1 B or sales up to Rp2 B · small: sales up to Rp15 B · Kepmen UMKM 398/2026",
 "storyline": "",
 "status": "upcoming",
-"upcoming": true
+"upcoming": false
 },
 {
 "id": "E0262",
@@ -2757,7 +2757,7 @@
 "key_numbers": "at least 50% off platform service fees · starts 25 Oct 2026, no end date · Kepmen signed 25 Sep 2026 · platforms pull SAPA UMKM data every Friday and have up to 10 days to verify · ready-to-eat food and domestic electronics excluded, fashion and handicrafts prioritised · announced 22 Oct",
 "storyline": "",
 "status": "upcoming",
-"upcoming": true
+"upcoming": false
 },
 {
 "id": "E0296",
@@ -2767,7 +2767,7 @@
 "key_numbers": "Max temp 38.5 C West Java (17 Oct) · Central Kalimantan hotspots 157 to 937 (18 to 19 Oct) · West Kalimantan 31 to 231 · South Sumatra 19 to 66 · East Java 10 to 36 · heavy-rain alert 23-26 Oct: Aceh, Papua Pegunungan · strong winds: Java, South Sumatra, Lampung, South Kalimantan, South Sulawesi",
 "storyline": "karhutla",
 "status": "verified",
-"upcoming": true
+"upcoming": false
 },
 {
 "id": "E0257",
@@ -2923,10 +2923,10 @@
 "id": "E0289",
 "date": "2026-11-01",
 "category": "TECH",
-"event": "Tokopedia, Shopee, Lazada and Blibli are due to start withholding 0.5% PPh Pasal 22 on online sellers' gross turnover from 1 November 2026, after the DJP postponement that runs to 31 October.",
+"event": "SUPERSEDED by E0039 (DJP SP-23/2026: withholding started 1 Oct 2026; this row's sources are dated before SP-23). Tokopedia, Shopee, Lazada and Blibli are due to start withholding 0.5% PPh Pasal 22 on online sellers' gross turnover from 1 November 2026, after the DJP postponement that runs to 31 October.",
 "key_numbers": "0.5% of gross turnover (excl. PPN/PPnBM) · starts 1 Nov 2026 · postponement ran to 31 Oct 2026 · individual sellers up to Rp500 juta/year not withheld but must file a turnover statement · turnover counted across all platforms and offline · basis PMK 37/2025 · first set for 1 Jul 2026",
 "storyline": "ecommerce-seller-rules",
-"status": "upcoming",
+"status": "superseded",
 "upcoming": true
 },
 {

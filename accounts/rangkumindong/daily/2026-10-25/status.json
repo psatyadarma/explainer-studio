@@ -15,7 +15,7 @@
   "video_sent": "done",
   "ok_post": "todo",
   "posted": "todo",
-  "knowledge": "todo",
+  "knowledge": "done",
   "sweeps": "done",
   "factcheck_light": "done",
   "default_pick": "done",
@@ -23,8 +23,10 @@
   "factcheck_full": "done",
   "produce": "done",
   "qa": "done",
-  "post": "scheduled",
-  "default_post": "done"
+  "post": "done",
+  "default_post": "done",
+  "analyst": "done",
+  "dashboard": "done"
  },
  "notes": [],
  "merge_stats": {
