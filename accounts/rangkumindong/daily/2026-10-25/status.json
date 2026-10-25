@@ -22,7 +22,9 @@
   "hooks": "done",
   "factcheck_full": "done",
   "produce": "done",
-  "qa": "done"
+  "qa": "done",
+  "post": "scheduled",
+  "default_post": "done"
  },
  "notes": [],
  "merge_stats": {
