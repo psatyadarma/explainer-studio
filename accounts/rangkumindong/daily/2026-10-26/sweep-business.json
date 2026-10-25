@@ -1,0 +1,203 @@
+{
+  "area": "business",
+  "run_date": "2026-10-26",
+  "checked": [
+    "detikInet",
+    "CNBC Indonesia Tech",
+    "Katadata Digital",
+    "Bisnis.com Tekno",
+    "CNN Indonesia Teknologi",
+    "DailySocial",
+    "Watch list found: Komdigi rules/AI labelling, data leaks/PHP2Shell, scams, data centres (known), ojol Perpres (known), chip/RAM consumer prices, Big Tech fines (Meta, known E0245), pinjol KPPU (known E0291), iPhone Duo (known)",
+    "No TECH storylines in storylines/ folder; ran 14-day known-events window instead"
+  ],
+  "events": [
+    {
+      "date": "2026-10-22",
+      "category": "TECH",
+      "event": "Komdigi, at a Jakarta discussion, asked platforms to label AI-generated content and be transparent about AI agents after the Threads account @IbuAsihLaundry went viral as a suspected AI bot that pro-Prabowo/MBG posts.",
+      "key_numbers": "Komdigi session 22 Oct 2026 · account allegedly named model 'Muse Spark' (Meta) and posted an Anthropic API-credit error · Komdigi: bot use alone is not a violation · expert Alfons Tanujaya: neat writing/high posting frequency does not prove AI",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {
+          "label": "Katadata",
+          "url": "https://katadata.co.id/digital/teknologi/6adb275818775/viral-akun-medsos-diduga-agen-ai-komdigi-minta-platform-beri-label-akal-imitasi"
+        },
+        {
+          "label": "Katadata (explainer, most-read)",
+          "url": "https://katadata.co.id/digital/teknologi/6ad9621b93eb8/viral-ibu-asih-laundry-bagaimana-cara-kerja-agen-ai-kelola-akun-medsos"
+        }
+      ],
+      "why_it_matters": "Shows how to spot AI-run political accounts and what the state wants platforms to do about them.",
+      "signals": {
+        "spreading": 2,
+        "wallet": 0,
+        "surprise": 2,
+        "visual": 1,
+        "fresh": 2,
+        "rivals": 2
+      },
+      "spreading_evidence": "Katadata terpopuler (2 Ibu Asih Laundry items)",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-10-23",
+      "category": "TECH",
+      "event": "Komdigi asked Meta to clarify after Meta.ai told users that karhutla content was restricted at Komdigi's request; Komdigi says it does not restrict or shadowban karhutla content.",
+      "key_numbers": "Komdigi remarks 22 Oct, reported 23 Oct 2026 · Menkomdigi denial video 21 Oct · Meta had not replied at publication · cites Surat Edaran Menkomdigi 9/2023 on AI ethics · draft Perpres on AI ethics and National AI Roadmap 2026-2029 in preparation",
+      "storyline": "karhutla",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {
+          "label": "Katadata",
+          "url": "https://katadata.co.id/digital/teknologi/6adb2e25a1629/komdigi-minta-meta-klarifikasi-jawaban-metaai-soal-konten-karhutla-dibatasi"
+        },
+        {
+          "label": "CNN Indonesia",
+          "url": "https://www.cnnindonesia.com/teknologi/20261023165632-185-1418956/komdigi-minta-klarifikasi-meta-soal-ai-ngaku-hapus-konten-karhutla"
+        },
+        {
+          "label": "detik",
+          "url": "https://inet.detik.com/cyberlife/d-8722213/heboh-jawaban-meta-ai-terkait-karhutla-ini-penjelasan-drone-emprit"
+        }
+      ],
+      "why_it_matters": "A chatbot's claim that the government is hiding haze content spread widely; the fact is the ministry denies it and Meta is silent.",
+      "signals": {
+        "spreading": 1,
+        "wallet": 0,
+        "surprise": 2,
+        "visual": 1,
+        "fresh": 2,
+        "rivals": 2
+      },
+      "spreading_evidence": "Covered by detik, Katadata, CNN Indonesia, CNBC",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-10-23",
+      "category": "TECH",
+      "event": "The PHP2Shell flaw disrupted sites worldwide as operators took pages offline to patch, including Japan's ANA, JR West and MUFG, several European government sites and Wikimedia systems; in Indonesia the Ministry of Industry (Kemenperin) temporarily shut its site.",
+      "key_numbers": "2 critical PHP flaws · PHP runs ~70% of websites · Wiz compares impact to Heartbleed (2014) · advisory 21 Oct, outages 22-23 Oct 2026 · Kemenperin shutdown per Bisnis headline 24 Oct (body not read)",
+      "storyline": "",
+      "update_of": "E0239",
+      "status": "partial",
+      "sources": [
+        {
+          "label": "Bisnis.com",
+          "url": "https://teknologi.bisnis.com/read/20261023/84/2015113/situs-pemerintah-hingga-bank-mendadak-offline-usai-ditemukan-kerentanan-di-php2shell"
+        },
+        {
+          "label": "Katadata",
+          "url": "https://katadata.co.id/digital/teknologi/6ada5bd0eaecc/as-cina-hingga-eropa-waswas-php2shell-dipakai-hacker-situs-pemerintah-ditutup"
+        },
+        {
+          "label": "Bisnis.com (Kemenperin)",
+          "url": "https://teknologi.bisnis.com/read/20261024/101/2015333/kemenperin-matikan-situs-sementara-gegara-kerentanan-php2shell"
+        }
+      ],
+      "why_it_matters": "A single bug in the software behind most websites forced banks, airlines and ministries offline, and Indonesian government sites are among the unpatched.",
+      "signals": {
+        "spreading": 2,
+        "wallet": 1,
+        "surprise": 2,
+        "visual": 1,
+        "fresh": 2,
+        "rivals": 1
+      },
+      "spreading_evidence": "Katadata terpopuler (3 PHP2Shell items); CNBC tech headlines",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-24",
+      "category": "TECH",
+      "event": "Counterpoint Research data reported by Bisnis.com show global PC shipments fell 21% y/y in Q3 2026 because DRAM and NAND memory costs pushed laptop prices up and buyers delayed purchases.",
+      "key_numbers": "57 million units in Q3 2026 (-21% y/y) · Lenovo 15 m (26.3%) · HP 10.3 m (18.1%) · Dell 7.6 m (13.3%) · Apple ~5.6 m laptops (-11%, 9.8% share) · Asus 5.2 m (+19.4% q/q) · Counterpoint sees Q4 down again, up to -27% for full 2026, flat 2027",
+      "storyline": "chip-ram-prices",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {
+          "label": "Bisnis.com (citing Counterpoint via GSMArena)",
+          "url": "https://teknologi.bisnis.com/read/20261024/280/2015363/pengiriman-pc-global-turun-21-pada-kuartal-iii2026"
+        }
+      ],
+      "why_it_matters": "Laptops and gadgets are getting pricier because memory chips cost more, and it is projected to last into 2027.",
+      "signals": {
+        "spreading": 0,
+        "wallet": 2,
+        "surprise": 1,
+        "visual": 2,
+        "fresh": 2,
+        "rivals": 1
+      },
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-22",
+      "category": "TECH",
+      "event": "Kemenekraf games director Luat Sihombing said rising chip and RAM prices are squeezing Indonesia's game industry and that the ministry is preparing incentives and a revision of Perpres 19/2024.",
+      "key_numbers": "Chip and RAM prices rising for 2 years · games could add up to US$3.3 bn (~Rp59 T) to GDP by 2030 · ~476,600 jobs by 2030 vs ~257,400 now (Tencent/Access Partnership white paper) · stated at WCCE 2026, 22 Oct",
+      "storyline": "chip-ram-prices",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {
+          "label": "Katadata",
+          "url": "https://katadata.co.id/digital/startup/6adb3be864f5b/industri-gim-tertekan-kenaikan-harga-cip-kementerian-ekraf-siapkan-insentif"
+        }
+      ],
+      "why_it_matters": "The memory-chip price rise is hitting game makers as well as laptop buyers.",
+      "signals": {
+        "spreading": 0,
+        "wallet": 1,
+        "surprise": 0,
+        "visual": 1,
+        "fresh": 2,
+        "rivals": 2
+      },
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-24",
+      "category": "GLB",
+      "event": "Malaysia bars civil servants from using Waze on official matters over fears that data could leak to Israel, per detik and CNBC Indonesia.",
+      "key_numbers": "Report dated 24 Oct 2026 · applies to ASN/PNS · reason: data-leak concern (Israel link) as reported",
+      "storyline": "",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {
+          "label": "CNBC Indonesia",
+          "url": "https://www.cnbcindonesia.com/tech/20261024002655-37-779068/malaysia-larang-pns-pakai-waze-khawatir-data-bocor-ke-israel"
+        },
+        {
+          "label": "detikInet",
+          "url": "https://inet.detik.com/cyberlife/d-8719481/asn-malaysia-dilarang-pakai-waze-ini-alasannya"
+        }
+      ],
+      "why_it_matters": "Raises the question of which everyday map and chat apps governments trust with location data.",
+      "signals": {
+        "spreading": 1,
+        "wallet": 0,
+        "surprise": 2,
+        "visual": 0,
+        "fresh": 2,
+        "rivals": 2
+      },
+      "spreading_evidence": "detik Editor's Pick; CNBC tech",
+      "sensitivity": "high"
+    }
+  ],
+  "gaps": [
+    "Bisnis 24 Oct 'Anak Buah Prabowo cari jalan tengah aturan turunan Perpres ojol' not readable (fetch failed); only headline, may be new development on E0263",
+    "Meta Rp451 T fine (Bisnis 23 Oct) article not readable; E0245 still headline-only, court/amount details unverified",
+    "detik 66% Indonesians scam victims / Rp9.1 T losses is Komdigi citing GASA 2025 and IASC from a 28 Sept focus group, not new",
+    "CNBC 23 Oct '1 dari 4 data center kekurangan air' and Reka AI unicorn (Bisnis 20 Oct) seen as headlines only, not opened",
+    "Starlink slowdown dispute Musk/Zelenskiy (CNN 25 Oct) is global, not covered"
+  ]
+}

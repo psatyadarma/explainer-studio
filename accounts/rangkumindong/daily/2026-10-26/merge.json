@@ -1,0 +1,200 @@
+[
+ {
+  "date": "2026-10-22",
+  "category": "ECO",
+  "event": "Bank Indonesia cut the average bank reserve requirement (GWM) by 2 percentage points alongside holding the BI-Rate and extending the LTV/FTV property-loan policy, while the rupiah still weakened. (update of E0221)",
+  "key_numbers": "GWM conventional banks 9% to 7% · sharia banks and units 7.5% to 5.5% · rupiah closed Rp18,060/USD on 22 Oct, down 38 points (0.21%) from Rp18,022 · SBN yields 5Y 7.21%, 10Y 7.43%, 15Y 7.42%, 20Y 7.41% · bond volume Rp24.39 T",
+  "storyline": "rupiah",
+  "status": "partial",
+  "sources": "Antara <https://www.antaranews.com/berita/5804557/rupiah-melemah-walau-bi-turunkan-gwm-dan-perpanjang-kebijakan-ltv-ftv> ; Antara (BI on GWM, liquidity) <https://www.antaranews.com/berita/5802605/perkuat-likuiditas-rupiah-bi-turunkan-gwm-rata-rata-sebesar-2-persen>"
+ },
+ {
+  "date": "2026-10-23",
+  "category": "MKT",
+  "event": "The rupiah closed Friday 23 October at Rp18,067 per USD, 0.01% weaker, and analysts see it testing Rp18,200 next week with oil prices as the main risk. (update of E0222)",
+  "key_numbers": "Rupiah Rp18,067/USD (-0.01%) on 23 Oct · forecast Rp18,200 for week of 26 Oct (Bisnis headline) · IHSG 5,439.26 on 23 Oct",
+  "storyline": "rupiah",
+  "status": "partial",
+  "sources": "Bisnis (IHSG week ahead) <https://market.bisnis.com/read/20261025/7/2015450/ihsg-pekan-depan-diproyeksi-uji-level-5500-5600> ; Bisnis (rupiah outlook, headline only) <https://market.bisnis.com/read/20261025/93/2015449/rupiah-diprediksi-sentuh-rp18200-pekan-depan-dibayangi-lonjakan-harga-minyak-dunia>"
+ },
+ {
+  "date": "2026-10-25",
+  "category": "MKT",
+  "event": "BEI said the MSCI proposal to move Indonesia from Emerging to Standalone is only a consultation, not a final decision, and that it will ask MSCI to clarify the basis for the announcement. (update of E0120)",
+  "key_numbers": "Consultation runs to 30 Apr 2027 · MSCI announced 15 Oct 2026 · HSC stocks excluded from IHSG from 2 Nov 2026",
+  "storyline": "msci-reclassification",
+  "status": "partial",
+  "sources": "Okezone <https://economy.okezone.com/read/2026/10/25/320/3250016/5-fakta-msci-soroti-pasar-saham-indonesia-begini-respons-ojk-dan-bei>"
+ },
+ {
+  "date": "2026-10-25",
+  "category": "POL",
+  "event": "PDI-P executive Deddy Sitorus replies to the Gibran volunteer group Relawan Militan Gibran 08 Nusantara, saying PDI-P has moved on from 2024 and only discusses Jokowi's family as a case study on betrayal, after PDI-P called the VP diploma row a burden on the government.",
+  "key_numbers": "Published 25 Oct 2026 08:50 WIB · volunteer chair Andi Azwan statement 24 Oct · 2 years of the Prabowo-Gibran government",
+  "storyline": "gibran-ijazah-mk",
+  "status": "verified",
+  "sources": "detikNews <https://news.detik.com/berita/d-8722841/pdip-balas-relawan-gibran-kami-tak-suka-berurusan-dengan-barang-bekas>"
+ },
+ {
+  "date": "2026-10-25",
+  "category": "POL",
+  "event": "BPK member (Anggota VI) Fathan Subchi, a former two-term PKB DPR member, has died, according to an announcement by PKB DPP.",
+  "key_numbers": "Announced Sun 25 Oct 2026 · DPR member 2014-2024 · cause and age not stated",
+  "storyline": "",
+  "status": "partial",
+  "sources": "detikNews <https://news.detik.com/berita/d-8723183/anggota-bpk-ri-fathan-subchi-meninggal-dunia>"
+ },
+ {
+  "date": "2026-10-25",
+  "category": "POL",
+  "event": "Former TNI Commander Adm. (Ret.) Widodo Adi Sutjipto is buried with a military ceremony at Kalibata heroes' cemetery, attended by SBY, Defense Minister Sjafrie and TNI Commander Agus Subiyanto.",
+  "key_numbers": "Burial 25 Oct 2026, 13:30 WIB · TNI Commander 1999-2002 · Menko Polhukam 2004-2009",
+  "storyline": "",
+  "status": "verified",
+  "sources": "detikNews <https://news.detik.com/berita/d-8723257/upacara-militer-iringi-pemakaman-mantan-panglima-tni-widodo-as-di-tmp-kalibata>"
+ },
+ {
+  "date": "2026-10-22",
+  "category": "POL",
+  "event": "DPR Commission III deputy chair Ahmad Sahroni (NasDem) backs Luhut's proposal that state loss should not count as corruption and urges a revision of the Tipikor Law; KPK chair Setyo Budiyanto on 21 Oct said the state-loss element must stay. (update of E0231)",
+  "key_numbers": "Luhut met Prabowo 20 Oct 2026 · Sahroni 22 Oct · KPK response 21 Oct · UNCAC ratified via UU 7/2006 · KPK says four UNCAC offences still need provisions",
+  "storyline": "definisi-korupsi",
+  "status": "verified",
+  "sources": "detikNews <https://news.detik.com/berita/d-8718355/sahroni-setuju-kerugian-negara-bukan-pidana-korupsi-dorong-revisi-uu-tipikor> ; RCTI+/iNews <https://www.rctiplus.com/news/detail/inews/5499200/respons-luhut--kpk-tegaskan-unsur-kerugian-negara-wajib-ada-di-definisi-korupsi>"
+ },
+ {
+  "date": "2026-10-22",
+  "category": "TECH",
+  "event": "Komdigi, at a Jakarta discussion, asked platforms to label AI-generated content and be transparent about AI agents after the Threads account @IbuAsihLaundry went viral as a suspected AI bot that pro-Prabowo/MBG posts.",
+  "key_numbers": "Komdigi session 22 Oct 2026 · account allegedly named model 'Muse Spark' (Meta) and posted an Anthropic API-credit error · Komdigi: bot use alone is not a violation · expert Alfons Tanujaya: neat writing/high posting frequency does not prove AI",
+  "storyline": "",
+  "status": "partial",
+  "sources": "Katadata <https://katadata.co.id/digital/teknologi/6adb275818775/viral-akun-medsos-diduga-agen-ai-komdigi-minta-platform-beri-label-akal-imitasi> ; Katadata (explainer, most-read) <https://katadata.co.id/digital/teknologi/6ad9621b93eb8/viral-ibu-asih-laundry-bagaimana-cara-kerja-agen-ai-kelola-akun-medsos>"
+ },
+ {
+  "date": "2026-10-23",
+  "category": "TECH",
+  "event": "Komdigi asked Meta to clarify after Meta.ai told users that karhutla content was restricted at Komdigi's request; Komdigi says it does not restrict or shadowban karhutla content.",
+  "key_numbers": "Komdigi remarks 22 Oct, reported 23 Oct 2026 · Menkomdigi denial video 21 Oct · Meta had not replied at publication · cites Surat Edaran Menkomdigi 9/2023 on AI ethics · draft Perpres on AI ethics and National AI Roadmap 2026-2029 in preparation",
+  "storyline": "karhutla",
+  "status": "verified",
+  "sources": "Katadata <https://katadata.co.id/digital/teknologi/6adb2e25a1629/komdigi-minta-meta-klarifikasi-jawaban-metaai-soal-konten-karhutla-dibatasi> ; CNN Indonesia <https://www.cnnindonesia.com/teknologi/20261023165632-185-1418956/komdigi-minta-klarifikasi-meta-soal-ai-ngaku-hapus-konten-karhutla> ; detik <https://inet.detik.com/cyberlife/d-8722213/heboh-jawaban-meta-ai-terkait-karhutla-ini-penjelasan-drone-emprit>"
+ },
+ {
+  "date": "2026-10-23",
+  "category": "TECH",
+  "event": "The PHP2Shell flaw disrupted sites worldwide as operators took pages offline to patch, including Japan's ANA, JR West and MUFG, several European government sites and Wikimedia systems; in Indonesia the Ministry of Industry (Kemenperin) temporarily shut its site. (update of E0239)",
+  "key_numbers": "2 critical PHP flaws · PHP runs ~70% of websites · Wiz compares impact to Heartbleed (2014) · advisory 21 Oct, outages 22-23 Oct 2026 · Kemenperin shutdown per Bisnis headline 24 Oct (body not read)",
+  "storyline": "",
+  "status": "partial",
+  "sources": "Bisnis.com <https://teknologi.bisnis.com/read/20261023/84/2015113/situs-pemerintah-hingga-bank-mendadak-offline-usai-ditemukan-kerentanan-di-php2shell> ; Katadata <https://katadata.co.id/digital/teknologi/6ada5bd0eaecc/as-cina-hingga-eropa-waswas-php2shell-dipakai-hacker-situs-pemerintah-ditutup> ; Bisnis.com (Kemenperin) <https://teknologi.bisnis.com/read/20261024/101/2015333/kemenperin-matikan-situs-sementara-gegara-kerentanan-php2shell>"
+ },
+ {
+  "date": "2026-10-24",
+  "category": "TECH",
+  "event": "Counterpoint Research data reported by Bisnis.com show global PC shipments fell 21% y/y in Q3 2026 because DRAM and NAND memory costs pushed laptop prices up and buyers delayed purchases.",
+  "key_numbers": "57 million units in Q3 2026 (-21% y/y) · Lenovo 15 m (26.3%) · HP 10.3 m (18.1%) · Dell 7.6 m (13.3%) · Apple ~5.6 m laptops (-11%, 9.8% share) · Asus 5.2 m (+19.4% q/q) · Counterpoint sees Q4 down again, up to -27% for full 2026, flat 2027",
+  "storyline": "chip-ram-prices",
+  "status": "partial",
+  "sources": "Bisnis.com (citing Counterpoint via GSMArena) <https://teknologi.bisnis.com/read/20261024/280/2015363/pengiriman-pc-global-turun-21-pada-kuartal-iii2026>"
+ },
+ {
+  "date": "2026-10-22",
+  "category": "TECH",
+  "event": "Kemenekraf games director Luat Sihombing said rising chip and RAM prices are squeezing Indonesia's game industry and that the ministry is preparing incentives and a revision of Perpres 19/2024.",
+  "key_numbers": "Chip and RAM prices rising for 2 years · games could add up to US$3.3 bn (~Rp59 T) to GDP by 2030 · ~476,600 jobs by 2030 vs ~257,400 now (Tencent/Access Partnership white paper) · stated at WCCE 2026, 22 Oct",
+  "storyline": "chip-ram-prices",
+  "status": "partial",
+  "sources": "Katadata <https://katadata.co.id/digital/startup/6adb3be864f5b/industri-gim-tertekan-kenaikan-harga-cip-kementerian-ekraf-siapkan-insentif>"
+ },
+ {
+  "date": "2026-10-24",
+  "category": "GLB",
+  "event": "Malaysia bars civil servants from using Waze on official matters over fears that data could leak to Israel, per detik and CNBC Indonesia.",
+  "key_numbers": "Report dated 24 Oct 2026 · applies to ASN/PNS · reason: data-leak concern (Israel link) as reported",
+  "storyline": "",
+  "status": "verified",
+  "sources": "CNBC Indonesia <https://www.cnbcindonesia.com/tech/20261024002655-37-779068/malaysia-larang-pns-pakai-waze-khawatir-data-bocor-ke-israel> ; detikInet <https://inet.detik.com/cyberlife/d-8719481/asn-malaysia-dilarang-pakai-waze-ini-alasannya>"
+ },
+ {
+  "date": "2026-10-25",
+  "category": "ENV",
+  "event": "Police data presented to Prabowo show 243 individuals and 13 corporations (CNN Indonesia headline says 14) named karhutla suspects, with licence revocation recommended in 23 corporate cases. (update of E0213)",
+  "key_numbers": "243 individual suspects from 286 reports (5,856 ha) · 13 corporate suspects from 100 reports (29,534.99 ha) · 23 corporate cases recommended for licence revocation · 11 suspect corporations hold 209,933 ha of concessions, 11,105.39 ha burned (8 in West Kalimantan, 2 Central, 1 South) · 22 corporations linked to foreign investment · data as of 20 Oct 18:00 WIB",
+  "storyline": "karhutla",
+  "status": "verified",
+  "sources": "CNN Indonesia <https://www.cnnindonesia.com/nasional/20261025154538-12-1419466/243-individu-dan-14-korporasi-jadi-tersangka-biang-kerok-karhutla> ; Tribrata News Polri <https://tribratanews.polri.go.id/blog/nasional-3/kapolri-tetapkan-13-korporasi-dan-243-orang-sebagai-tersangka-karhutla-107670>"
+ },
+ {
+  "date": "2026-10-25",
+  "category": "ENV",
+  "event": "CNBC Indonesia reports NASA flagging very high 2026 fire activity in Kalimantan and Papua, with Indonesian Papua emissions the third-highest on record. (update of E0021)",
+  "key_numbers": "Indonesian Papua emissions >35 million tons carbon (3rd after 2015, 1997) · PNG ~32 million tons through 17 Oct · Papua primary forest loss 27,000 ha in 2025 (~2x 2024) · rains expected early Nov",
+  "storyline": "karhutla",
+  "status": "partial",
+  "sources": "CNBC Indonesia <https://www.cnbcindonesia.com/news/20261025181234-4-779267/nasa-sorot-karhutla-ri-beri-peringatan-khusus>"
+ },
+ {
+  "date": "2026-10-25",
+  "category": "ENV",
+  "event": "Karhutla spreads on Java and in parks: Gunung Sumbing fire is out with 974 ha affected, while fires hit Way Kambas National Park and BNPB reports hotspots on Java; Jakarta governor Pramono claims pollution fell over two days after weather modification (OMC). (update of E0266)",
+  "key_numbers": "Gunung Sumbing 974 ha affected (779 ha on 23 Oct) · OMC 2 days in Jakarta · Menkes warns of PM2.5 danger in Palangka Raya",
+  "storyline": "karhutla",
+  "status": "partial",
+  "sources": "CNN Indonesia nasional <https://www.cnnindonesia.com/nasional> ; CNBC Indonesia <https://www.cnbcindonesia.com/news/20261025165703-4-779264/karhutla-melanda-pulau-jawa-bnpb-ungkap-titik-api> ; ANTARA <https://www.antaranews.com/video/5811123/pramono-sebut-polusi-udara-jakarta-turun-setelah-omc-dua-hari>"
+ },
+ {
+  "date": "2026-10-23",
+  "category": "NEWS",
+  "event": "Polri and BNN seize 1.16 tons of ketamine from the foreign-flagged tanker MT Global 168 in the Malacca Strait/Belawan area; eight crew detained, a Taiwanese national reportedly named a suspect.",
+  "key_numbers": "1.16 tons ketamine · Rp3.48 trillion estimated value · 8 crew detained · ship reportedly turned off AIS",
+  "storyline": "",
+  "status": "partial",
+  "sources": "detikNews <https://news.detik.com/berita/d-8720501/1-16-ton-ketamin-disita-dari-kapal-mt-global-168-nilainya-rp-3-48-t> ; Pikiran Rakyat <https://www.pikiran-rakyat.com/news/pr-0110520348/penyelundupan-116-ton-ketamin-di-belawan-terungkap-nilai-barang-bukti-rp348-triliun>"
+ },
+ {
+  "date": "2026-10-23",
+  "category": "NEWS",
+  "event": "A BYD electric car crashed into several vehicles and ran over online motorcycle-taxi driver Hasan Syukur on Jalan Panglima Polim, Blok M, South Jakarta; the driver, identified as S, was named a suspect on 25 Oct.",
+  "key_numbers": "About 16:48 WIB on 23 Oct · 6 vehicles involved · victim 56, broken left leg, surgery at RS Fatmawati · driver said he panicked, cause not concluded",
+  "storyline": "",
+  "status": "verified",
+  "sources": "CNN Indonesia <https://www.cnnindonesia.com/nasional/20261025132513-20-1419419/begini-kondisi-terbaru-sopir-ojol-yang-dilindas-mobil-byd-di-blok-m> ; Kompas.com <https://megapolitan.kompas.com/read/2026/10/25/15414221/sopir-byd-yang-tabrak-4-mobil-dan-lindas-ojol-di-blok-m-jadi-tersangka>"
+ },
+ {
+  "date": "2026-10-25",
+  "category": "NEWS",
+  "event": "The government, on Prabowo's order, postpones the mandatory halal certification for MSMEs from 18 Oct 2026 to 2028, announced by MSME Minister Maman Abdurrahman.",
+  "key_numbers": "Deadline 18 Oct 2026 moved to 2028 (2 years) · reason: many MSMEs had not reached the target, paperwork burden",
+  "storyline": "",
+  "status": "partial",
+  "sources": "ANTARA <https://www.antaranews.com/berita/5810927/pemerintah-tunda-kewajiban-sertifikasi-halal-umkm-hingga-2028>"
+ },
+ {
+  "date": "2026-10-25",
+  "category": "NEWS",
+  "event": "The government starts distributing rice aid covering October-December 2026 to 33.2 million recipients, said Food Coordinating Minister Zulkifli Hasan.",
+  "key_numbers": "33.2 million recipients (deciles 1-4) · 30 kg per recipient for 3 months (10 kg/month) · about 1 million tons of rice",
+  "storyline": "survival-mode",
+  "status": "partial",
+  "sources": "ANTARA <https://www.antaranews.com/berita/5810579/pemerintah-salurkan-bantuan-beras-untuk-332-juta-penerima>"
+ },
+ {
+  "date": "2026-10-25",
+  "category": "NEWS",
+  "event": "Kemenkes denies a viral narrative about an oxygen-cylinder photo and shortness of breath; separately ANTARA's latest hoax debunks (22 Oct) include fake claims that Prabowo announced a replacement for VP Gibran and that people need to be impoverished. (update of E0164)",
+  "key_numbers": "ANTARA debunks dated 22 Oct: 3 (Prabowo/Gibran replacement video, 'rakyat perlu dimiskinkan', Febrie Adriansyah freed)",
+  "storyline": "hoax-tracker",
+  "status": "verified",
+  "sources": "ANTARA Kemenkes <https://www.antaranews.com/berita/5810235/kemenkes-bantah-narasi-sesak-nafas-soal-foto-tabung-oksigen> ; ANTARA hoax <https://www.antaranews.com/berita/5805439/hoaks-video-prabowo-umumkan-nama-pengganti-wapres-gibran> ; ANTARA hoax <https://www.antaranews.com/berita/5805467/hoaks-prabowo-menyatakan-bahwa-rakyat-perlu-dimiskinkan>"
+ },
+ {
+  "date": "2026-10-24",
+  "category": "NEWS",
+  "event": "Police deploy sonar and drones to search for victims of a sunken boat at Labuan Bajo, and Basarnas recovers the body of a woman believed to be a foreigner at Nyang Nyang beach, Bali. (update of E0275)",
+  "key_numbers": "Details of victim count not in sources read",
+  "storyline": "",
+  "status": "partial",
+  "sources": "ANTARA <https://www.antaranews.com/berita/5809783/polisi-kerahkan-sonar-drone-cari-korban-kapal-tenggelam-di-labuan-bajo> ; ANTARA <https://www.antaranews.com/berita/5809759/basarnas-evakuasi-jenazah-perempuan-diduga-wna-di-pantai-nyang-nyang>"
+ }
+]

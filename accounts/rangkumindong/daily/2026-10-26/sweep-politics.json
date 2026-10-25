@@ -1,0 +1,239 @@
+{
+ "area": "politics",
+ "run_date": "2026-10-26",
+ "checked": [
+  "detik /berita and /daerah (fetched via search-returned URL)",
+  "WebSearch cnnindonesia/tempo/antara (no usable URLs)",
+  "gibran-ijazah-mk",
+  "definisi-korupsi",
+  "KPK",
+  "UMP 2027 labour rallies",
+  "RUU Kehutanan",
+  "Roy Suryo trial",
+  "known-events window 14d"
+ ],
+ "events": [
+  {
+   "date": "2026-10-25",
+   "category": "POL",
+   "event": "PDI-P executive Deddy Sitorus replies to the Gibran volunteer group Relawan Militan Gibran 08 Nusantara, saying PDI-P has moved on from 2024 and only discusses Jokowi's family as a case study on betrayal, after PDI-P called the VP diploma row a burden on the government.",
+   "key_numbers": "Published 25 Oct 2026 08:50 WIB · volunteer chair Andi Azwan statement 24 Oct · 2 years of the Prabowo-Gibran government",
+   "storyline": "gibran-ijazah-mk",
+   "update_of": "",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "detikNews",
+     "url": "https://news.detik.com/berita/d-8722841/pdip-balas-relawan-gibran-kami-tak-suka-berurusan-dengan-barang-bekas"
+    }
+   ],
+   "why_it_matters": "The Gibran diploma row is now a open PDI-P versus Jokowi-camp fight.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 0,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "Listed among detik's latest politics headlines 25 Oct",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-10-25",
+   "category": "POL",
+   "event": "BPK member (Anggota VI) Fathan Subchi, a former two-term PKB DPR member, has died, according to an announcement by PKB DPP.",
+   "key_numbers": "Announced Sun 25 Oct 2026 · DPR member 2014-2024 · cause and age not stated",
+   "storyline": "",
+   "update_of": "",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "detikNews",
+     "url": "https://news.detik.com/berita/d-8723183/anggota-bpk-ri-fathan-subchi-meninggal-dunia"
+    }
+   ],
+   "why_it_matters": "A sitting state audit board member dies, leaving a seat at BPK that must be filled.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 0,
+    "fresh": 2,
+    "rivals": 2
+   },
+   "spreading_evidence": "Listed among detik's latest headlines 25 Oct",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-10-25",
+   "category": "POL",
+   "event": "Former TNI Commander Adm. (Ret.) Widodo Adi Sutjipto is buried with a military ceremony at Kalibata heroes' cemetery, attended by SBY, Defense Minister Sjafrie and TNI Commander Agus Subiyanto.",
+   "key_numbers": "Burial 25 Oct 2026, 13:30 WIB · TNI Commander 1999-2002 · Menko Polhukam 2004-2009",
+   "storyline": "",
+   "update_of": "",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "detikNews",
+     "url": "https://news.detik.com/berita/d-8723257/upacara-militer-iringi-pemakaman-mantan-panglima-tni-widodo-as-di-tmp-kalibata"
+    }
+   ],
+   "why_it_matters": "Marks the passing of a figure from Indonesia's post-Reformasi security leadership.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 0,
+    "surprise": 0,
+    "visual": 0,
+    "fresh": 2,
+    "rivals": 2
+   },
+   "spreading_evidence": "",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-10-22",
+   "category": "POL",
+   "event": "DPR Commission III deputy chair Ahmad Sahroni (NasDem) backs Luhut's proposal that state loss should not count as corruption and urges a revision of the Tipikor Law; KPK chair Setyo Budiyanto on 21 Oct said the state-loss element must stay.",
+   "key_numbers": "Luhut met Prabowo 20 Oct 2026 · Sahroni 22 Oct · KPK response 21 Oct · UNCAC ratified via UU 7/2006 · KPK says four UNCAC offences still need provisions",
+   "storyline": "definisi-korupsi",
+   "update_of": "E0231",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "detikNews",
+     "url": "https://news.detik.com/berita/d-8718355/sahroni-setuju-kerugian-negara-bukan-pidana-korupsi-dorong-revisi-uu-tipikor"
+    },
+    {
+     "label": "RCTI+/iNews",
+     "url": "https://www.rctiplus.com/news/detail/inews/5499200/respons-luhut--kpk-tegaskan-unsur-kerugian-negara-wajib-ada-di-definisi-korupsi"
+    }
+   ],
+   "why_it_matters": "Changing what counts as corruption could limit which cases KPK and prosecutors can pursue.",
+   "signals": {
+    "spreading": 2,
+    "wallet": 0,
+    "surprise": 2,
+    "visual": 1,
+    "fresh": 1,
+    "rivals": 1
+   },
+   "spreading_evidence": "Multiple outlets, Luhut-KPK exchange widely covered",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-10-26",
+   "category": "POL",
+   "event": "The Constitutional Court (MK) is scheduled to hold a further hearing on the judicial review of the Elucidation of Article 603 KUHP (state-loss element); no outcome reported yet.",
+   "key_numbers": "Hearing 26 Oct 2026 · Perkara 206/PUU-XXIV/2026 · no new reporting found as of 25 Oct",
+   "storyline": "definisi-korupsi",
+   "update_of": "E0257",
+   "status": "upcoming",
+   "sources": [
+    {
+     "label": "Hukumonline",
+     "url": "https://www.hukumonline.com/berita/a/kpk--penghitungan-kerugian-keuangan-negara-tidak-hanya-dilakukan-bpk-lt6ad9dc829695a/"
+    }
+   ],
+   "why_it_matters": "The court case could decide who may calculate state loss in corruption cases.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 0,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-10-26",
+   "category": "POL",
+   "event": "KPK is scheduled to re-summon suspect DE in the BBPJN North Sumatra road-tender bribery case on 26 Oct; no new reporting found as of 25 Oct.",
+   "key_numbers": "Re-summons 26 Oct 2026 · 13 suspects in total",
+   "storyline": "corruption-cases",
+   "update_of": "E0283",
+   "status": "upcoming",
+   "sources": [
+    {
+     "label": "Suara.com",
+     "url": "https://www.suara.com/news/2026/10/22/193306/kpk-tetapkan-8-tersangka-baru-kasus-bppjpn-sumut-1-mangkir-dari-panggilan"
+    }
+   ],
+   "why_it_matters": "Shows how far the road-tender graft case is widening.",
+   "signals": {
+    "spreading": 0,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 0,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-10-27",
+   "category": "POL",
+   "event": "Polda Metro Jaya is scheduled to hold a clarification summons of director Dandhy Dwi Laksono over the film 'Pesta Babi' on 27 Oct; his legal team says he cannot attend.",
+   "key_numbers": "Summons 27 Oct 2026 · inquiry stage",
+   "storyline": "",
+   "update_of": "E0284",
+   "status": "upcoming",
+   "sources": [
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/nasional/20261023200810-12-1419059/polisi-panggil-dandhy-laksono-pekan-depan-soal-film-pesta-babi"
+    }
+   ],
+   "why_it_matters": "A test of how police treat complaints about a documentary film.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 0,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-10-28",
+   "category": "POL",
+   "event": "East Jakarta District Court is scheduled to hear three prosecution witnesses in Roy Suryo's trial over Jokowi's diploma on 28 Oct, after judges rejected the defence objection on 19 Oct.",
+   "key_numbers": "Hearing 28 Oct 2026 09:00 WIB · 3 witnesses",
+   "storyline": "jokowi-ijazah-roy-suryo",
+   "update_of": "E0285",
+   "status": "upcoming",
+   "sources": [
+    {
+     "label": "BitvOnline",
+     "url": "https://www.bitvonline.com/hukum-dan-kriminal/80924/sidang-roy-suryo-28-oktober-jaksa-siapkan-tiga-saksi-dalam-kasus-ijazah-jokowi"
+    },
+    {
+     "label": "RCTI+/Okezone",
+     "url": "https://www.rctiplus.com/news/detail/okezone/5487021/sidang-putusan-sela-roy-suryo-di-kasus-ijazah-jokowi-digelar-senin-19-oktober"
+    }
+   ],
+   "why_it_matters": "The trial moves into evidence, possibly including the diploma itself.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "",
+   "sensitivity": "high"
+  }
+ ],
+ "gaps": [
+  "CNN Indonesia, Tempo, Antara section pages not reachable",
+  "No new report found for KPK/UMP rallies/karhutla storylines beyond known events",
+  "Scheduled items E0257, E0283-E0285 not yet occurred as of 25 Oct",
+  "Kompas.tv blocked by robots"
+ ]
+}

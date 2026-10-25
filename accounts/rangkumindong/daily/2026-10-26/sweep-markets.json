@@ -1,0 +1,71 @@
+{
+  "area": "markets",
+  "run_date": "2026-10-26",
+  "checked": ["CNBC Indonesia market (section page blocked; read 23 Oct IHSG close article and search headlines)", "detikFinance front page", "Antara ekonomi", "Bisnis market (week-ahead article + related headline list)", "watch list found: IHSG close and week, rupiah, BI GWM/BI-Rate, OJK fines, MSCI/HSC, oil/Houthi, IPO pipeline, Fed/bank earnings schedule", "storyline search: msci-reclassification", "storyline search: rupiah", "ekonomi.bisnis.com not fetched; kontan/investor.id seen only as search results"],
+  "events": [
+    {
+      "date": "2026-10-22",
+      "category": "ECO",
+      "event": "Bank Indonesia cut the average bank reserve requirement (GWM) by 2 percentage points alongside holding the BI-Rate and extending the LTV/FTV property-loan policy, while the rupiah still weakened.",
+      "key_numbers": "GWM conventional banks 9% to 7% · sharia banks and units 7.5% to 5.5% · rupiah closed Rp18,060/USD on 22 Oct, down 38 points (0.21%) from Rp18,022 · SBN yields 5Y 7.21%, 10Y 7.43%, 15Y 7.42%, 20Y 7.41% · bond volume Rp24.39 T",
+      "storyline": "rupiah",
+      "update_of": "E0221",
+      "status": "partial",
+      "sources": [{"label": "Antara", "url": "https://www.antaranews.com/berita/5804557/rupiah-melemah-walau-bi-turunkan-gwm-dan-perpanjang-kebijakan-ltv-ftv"}, {"label": "Antara (BI on GWM, liquidity)", "url": "https://www.antaranews.com/berita/5802605/perkuat-likuiditas-rupiah-bi-turunkan-gwm-rata-rata-sebesar-2-persen"}],
+      "why_it_matters": "Looser reserve rules free up bank cash for loans, yet the rupiah kept sliding past Rp18,000, showing the pressure is from outside money flows.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 2, "fresh": 0, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-23",
+      "category": "MKT",
+      "event": "The rupiah closed Friday 23 October at Rp18,067 per USD, 0.01% weaker, and analysts see it testing Rp18,200 next week with oil prices as the main risk.",
+      "key_numbers": "Rupiah Rp18,067/USD (-0.01%) on 23 Oct · forecast Rp18,200 for week of 26 Oct (Bisnis headline) · IHSG 5,439.26 on 23 Oct",
+      "storyline": "rupiah",
+      "update_of": "E0222",
+      "status": "partial",
+      "sources": [{"label": "Bisnis (IHSG week ahead)", "url": "https://market.bisnis.com/read/20261025/7/2015450/ihsg-pekan-depan-diproyeksi-uji-level-5500-5600"}, {"label": "Bisnis (rupiah outlook, headline only)", "url": "https://market.bisnis.com/read/20261025/93/2015449/rupiah-diprediksi-sentuh-rp18200-pekan-depan-dibayangi-lonjakan-harga-minyak-dunia"}],
+      "why_it_matters": "A rupiah above Rp18,000 makes imports, fuel and dollar debt costlier for ordinary people and companies.",
+      "signals": {"spreading": 1, "wallet": 2, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-26",
+      "category": "MKT",
+      "event": "Phintraco Sekuritas expects the IHSG to test 5,500-5,600 in the week starting 26 October after a 4.90% weekly gain, with 5,400 as the key level and oil prices and the rupiah as risks.",
+      "key_numbers": "IHSG 5,439.26 on 23 Oct (+0.95%) · weekly +4.90% · target 5,500-5,600 · support 5,400 · all sectors up on Friday · daily value Rp13.85 T on 23 Oct",
+      "storyline": "msci-reclassification",
+      "update_of": "E0250",
+      "status": "upcoming",
+      "sources": [{"label": "Bisnis", "url": "https://market.bisnis.com/read/20261025/7/2015450/ihsg-pekan-depan-diproyeksi-uji-level-5500-5600"}, {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/market/20261023160756-17-778973/ihsg-ditutup-menguat-095-ke-level-5439"}],
+      "why_it_matters": "Shows whether the market rebound from the MSCI-driven slump to a pandemic-era low has legs before HSC stocks drop out of the index on 2 November.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 0, "visual": 2, "fresh": 2, "rivals": 0},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-25",
+      "category": "MKT",
+      "event": "BEI said the MSCI proposal to move Indonesia from Emerging to Standalone is only a consultation, not a final decision, and that it will ask MSCI to clarify the basis for the announcement.",
+      "key_numbers": "Consultation runs to 30 Apr 2027 · MSCI announced 15 Oct 2026 · HSC stocks excluded from IHSG from 2 Nov 2026",
+      "storyline": "msci-reclassification",
+      "update_of": "E0120",
+      "status": "partial",
+      "sources": [{"label": "Okezone", "url": "https://economy.okezone.com/read/2026/10/25/320/3250016/5-fakta-msci-soroti-pasar-saham-indonesia-begini-respons-ojk-dan-bei"}],
+      "why_it_matters": "Indonesia's market status, and billions of dollars of passive foreign money, hinge on a decision still months away.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 0, "visual": 0, "fresh": 2, "rivals": 0},
+      "spreading_evidence": "MSCI items among most-read on Bisnis and detik pages",
+      "sensitivity": "normal"
+    }
+  ],
+  "gaps": [
+    "Section pages blocked or unreadable: cnbcindonesia.com/market (permission timeout), ekonomi.bisnis.com not tried; several article fetches (Antara OJK fine, Antara BI GWM liquidity, HSC close) timed out",
+    "Antara headline 24 Oct: OJK fines total Rp2.52 T (vs Rp2.23 T in E0251); body not read, worth verifying",
+    "Okezone related headline: foreign net selling about Rp94.87 T in 2026 per BEI; Investortrust headline: GWM cut adds about Rp190 T bank liquidity; neither verified in a full article",
+    "Bisnis headline: three large-asset IPO candidates in the BEI queue; article failed to load",
+    "detik image caption hinted IHSG opened down about 4.31% at some point (likely older 19 Oct day), not verified",
+    "Q3 bank earnings (BMRI 27 Oct, BRIS 29 Oct) and FOMC 27-28 Oct already in events DB"
+  ]
+}
