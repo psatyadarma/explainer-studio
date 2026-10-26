@@ -2,5 +2,25 @@
  "success": true,
  "job_id": "3170d73f65884f03bb18fb07917f809d",
  "scheduled_date": "2026-10-26T19:00:00+08:00",
- "request_id": "Rangkumindong-2026-10-26-minyak-115-apbn-70-nombok"
+ "request_id": "Rangkumindong-2026-10-26-minyak-115-apbn-70-nombok",
+ "status": {
+  "job_id": "3170d73f65884f03bb18fb07917f809d",
+  "scheduled": "2026-10-26T19:00+08:00",
+  "results": [
+   {
+    "platform": "youtube",
+    "success": true,
+    "platform_post_id": "fjnB040O9oI",
+    "post_url": "https://www.youtube.com/watch?v=fjnB040O9oI",
+    "error_message": null
+   },
+   {
+    "platform": "instagram",
+    "success": true,
+    "platform_post_id": "18117152900009309",
+    "post_url": "https://www.instagram.com/reel/De9IFgyFfdc/",
+    "error_message": null
+   }
+  ]
+ }
 }

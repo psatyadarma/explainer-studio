@@ -35,3 +35,9 @@ History moved out of HANDOFF.md (22 Oct) so fresh sessions read less. Append one
 - Auto-posted 19:00 (no reply): IG De6jT34jOCl, YT i1OvbBvUfDw. B not posted (Trial Reels blocked). Yassierli's photo got Commons 429s, so B fell back to a name tag.
 - **Still open:** the subtitle-timing bug (~0.8 s late) in tts_eleven.py; the producer re-timed from STT again. Missing setup this session: soundfile, rembg.
 - Weekly review W43 (reviews/2026-W43.md): no variable decided. The analyst proposes replacing the blocked daily A/B with alternating-day hook styles on A only; waiting for the user's decision.
+
+## 26 Oct (Mon, #8 minyak >US$115 vs APBN US$70 "siapa yang nombok", survival PART 2; Pratama, shock_number, subs block, format short)
+- Sweeps: 28 events (4/8/6/10); politics failed validation (0 events, detik/antara fetch refused) and was rerun once. 22 merged. Light fact-check: 2 fixes (PC drop = Omdia/IDC; Fed = Sept projections); Brent stated "di atas US$115".
+- No pick by 14:00 → ⭐ #1 default. Hook critic switched A to the "ratusan triliun" line. Full fact-check: Rp376,8 T not energy-only (hook says "ratusan triliun"), "listrik nggak naik" dropped (Q4 tariff unannounced), Rp338 T dropped, kompensasi monthly vs subsidi periodic.
+- Producer fixed the subtitle-lag bug in `engine/tts_eleven.py segment()` (pin first word to speech onset, corrects lag >0,35 s); today's take wasn't late, SUB_LEAD 0.02. QA: 1 FIX round (stamp clipping, 3-line subs → ≤2 lines), then PASS.
+- Auto-posted 19:00 (no reply): IG De9IFgyFfdc, YT fjnB040O9oI. B made, not posted (Trial Reels blocked). Dashboard: 2 old blobs (runs, days) couldn't be deleted (permission denied) — harmless orphans.

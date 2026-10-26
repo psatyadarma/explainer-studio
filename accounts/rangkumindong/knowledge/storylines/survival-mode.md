@@ -18,8 +18,10 @@ Status: **ACTIVE** · Category: economy/energy · Started: 21 Oct 2026 (cabinet 
 
 ## Videos
 - **23 Oct 2026** "Prabowo: kita 'harus survival'. Dompet kamu kena apa?" (Pratama, question_reveal, posted ~18:15) · folder `videos/2026-10-23-mode-survival-dompet` · IG https://www.instagram.com/reel/De1T7g3AGla/ · YT https://www.youtube.com/watch?v=4UDj48AzkDU · B hook saved in `...-b`, not posted.
+- **26 Oct 2026** PART 2 "Ratusan triliun biar Pertalite tetap Rp10.000. Siapa yang nombok?" (Pratama, shock_number, short 42 s, auto-posted 19:00) · folder `videos/2026-10-26-minyak-115-apbn-70-nombok` · IG https://www.instagram.com/reel/De9IFgyFfdc/ · YT https://www.youtube.com/watch?v=fjnB040O9oI. Facts: Brent close US$117,38 (23 Okt), ICP Sep US$112,81, APBN assumption US$70, subsidi Rp222,5 T + kompensasi Rp154,4 T = Rp376,8 T to 30 Sep (subsidi split not published).
 
 ## Open / next milestones
 - Any formal decision on gas export contracts (which, when).
 - Any change to Pertalite/Biosolar prices before end-2026.
 - Per-programme split of the Rp31,8 T; Nataru discount dates; first BSU/rice payouts.
+- Energy-only split of subsidi Rp222,5 T; Q4 2026 electricity tariff decision; APBN 2026 outlook (Rp526 T projection unverified).
