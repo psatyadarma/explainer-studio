@@ -154,6 +154,21 @@ def segment(lines, voice, direction):
         ls, le = st[idx[0]], en[idx[-1]]
         wl = word_times(ln["text"], ln.get("say", ln["text"]), a, chars, st, en)
         out.append({"id": ln["id"], "text": ln["text"], "start": round(ls, 3), "end": round(le, 3), "words": wl})
+    # 26 Oct fix: eleven_v3 sometimes gives the unspoken bracket direction ~0.7-1.2 s of alignment time that is
+    # not in the audio, so every timing in the request came out late by a constant (24-25 Oct, vs STT).
+    # Anchor the first spoken word to the audio's speech onset (>-30 dB for 50 ms); only correct a clear lag.
+    if out:
+        win = int(0.01 * SR); n = len(audio) // win
+        rms = 20 * np.log10(np.sqrt(np.mean(audio[: n * win].reshape(n, win) ** 2, axis=1)) + 1e-9)
+        loud = rms > -30
+        onset = next((j * 0.01 for j in range(max(0, n - 5)) if loud[j:j + 5].all()), None)
+        lag = out[0]["start"] - onset if onset is not None else 0
+        if lag > 0.35:
+            print(f"tts_eleven: alignment {lag:.2f}s late vs audio onset, shifting timings", file=sys.stderr)
+            for l in out:
+                l["start"], l["end"] = round(max(0, l["start"] - lag), 3), round(max(0, l["end"] - lag), 3)
+                for w in l["words"]:
+                    w["start"], w["end"] = round(max(0, w["start"] - lag), 3), round(max(0, w["end"] - lag), 3)
     max_gap = voice.get("max_pause", 0.24)
     audio, tm = compress_pauses(audio, max_gap)
     for l in out:

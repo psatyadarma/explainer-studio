@@ -1,0 +1,91 @@
+{
+ "direction": "[quick, clear explainer; neutral, no blame]",
+ "voice": "male:Pratama",
+ "format": "short",
+ "hook_style": "shock_number",
+ "subs": "block",
+ "storyline": "survival-mode",
+ "part": 2,
+ "lines": [
+  {
+   "id": "h1",
+   "tag": "[shocked]",
+   "text": "Ratusan triliun dari APBN. Salah satunya biar Pertalite kamu tetap Rp10.000.",
+   "say": "Ratusan triliun dari A Pe Be En. Salah satunya biar Pertalite kamu tetap sepuluh ribu."
+  },
+  {
+   "id": "h2",
+   "tag": "[curious, leaning in]",
+   "text": "Minyak tembus 115 dolar. Siapa yang nombok?",
+   "say": "Minyak tembus seratus lima belas dolar. Siapa yang nombok?"
+  },
+  {
+   "id": "rd",
+   "tagline": true,
+   "text": "Rangkumin dong!"
+  },
+  {
+   "id": "l3",
+   "tag": "[emphatic]",
+   "text": "Padahal asumsi APBN 2026: 70 dolar.",
+   "say": "Padahal asumsi, A Pe Be En dua ribu dua puluh enam: tujuh puluh dolar."
+  },
+  {
+   "id": "l4",
+   "tag": "[calm]",
+   "text": "Tapi di SPBU, harga Pertalite nggak gerak.",
+   "say": "Tapi di, Es Pe Be U, harga Pertalite nggak gerak."
+  },
+  {
+   "id": "l5",
+   "tag": "[revealing]",
+   "text": "Nah, selisihnya ditanggung negara: subsidi dan kompensasi ke Pertamina dan PLN.",
+   "say": "Nah, selisihnya ditanggung negara: subsidi dan kompensasi ke Pertamina dan, Pe El En."
+  },
+  {
+   "id": "l6",
+   "tag": "[dramatic]",
+   "text": "Sampai September, kompensasi saja Rp154,4 triliun. Ditambah subsidi: Rp376,8 triliun.",
+   "say": "Sampai September, kompensasi saja seratus lima puluh empat koma empat triliun. Ditambah subsidi: tiga ratus tujuh puluh enam koma delapan triliun."
+  },
+  {
+   "id": "l7",
+   "tag": "[serious]",
+   "text": "Jadi yang nombok: APBN. Uang kita bersama.",
+   "say": "Jadi yang nombok: A Pe Be En. Uang kita bersama."
+  },
+  {
+   "id": "cta",
+   "tag": "[playful, asking the viewer]",
+   "text": "Kalau kamu pegang APBN, apa yang dikorbankan duluan? Komen!",
+   "say": "Kalau kamu pegang, A Pe Be En, apa yang dikorbankan duluan? Komen!"
+  },
+  {
+   "id": "end",
+   "tag": "[friendly, upbeat]",
+   "text": "Follow Rangkumin Dong, biar nggak ketinggalan!"
+  }
+ ],
+ "hook_b": {
+  "style": "kamu_stakes",
+  "replace": [
+   "h1",
+   "h2"
+  ],
+  "lines": [
+   {
+    "id": "hb1",
+    "tag": "[curious, urgent]",
+    "text": "Pertalite kamu tetap Rp10.000. Tapi siapa yang nombok?",
+    "say": "Pertalite kamu tetap sepuluh ribu. Tapi siapa yang nombok?"
+   },
+   {
+    "id": "hb2",
+    "tag": "[serious]",
+    "text": "Minyak dunia udah di atas 115 dolar.",
+    "say": "Minyak dunia udah di atas seratus lima belas dolar."
+   }
+  ]
+ },
+ "tail": 0.9
+}

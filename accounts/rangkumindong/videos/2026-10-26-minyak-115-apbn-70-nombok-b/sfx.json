@@ -1,0 +1,62 @@
+[
+ {
+  "at": 0.05,
+  "offset": 0,
+  "type": "thump"
+ },
+ {
+  "at": "rd",
+  "offset": 0,
+  "type": "thump"
+ },
+ {
+  "at": "end",
+  "offset": 0,
+  "type": "ding"
+ },
+ {
+  "at": "l3",
+  "offset": -0.3,
+  "type": "whoosh"
+ },
+ {
+  "at": "l4",
+  "offset": -0.3,
+  "type": "whoosh"
+ },
+ {
+  "at": "l5",
+  "offset": -0.3,
+  "type": "whoosh"
+ },
+ {
+  "at": "l6",
+  "offset": -0.3,
+  "type": "whoosh"
+ },
+ {
+  "at": "l7",
+  "offset": -0.3,
+  "type": "whoosh"
+ },
+ {
+  "at": "cta",
+  "offset": -0.3,
+  "type": "whoosh"
+ },
+ {
+  "at": "l4",
+  "offset": 2.15,
+  "type": "thump"
+ },
+ {
+  "at": "l6",
+  "offset": 5.35,
+  "type": "pop"
+ },
+ {
+  "at": "l7",
+  "offset": 0.35,
+  "type": "thump"
+ }
+]

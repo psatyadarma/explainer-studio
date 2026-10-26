@@ -1,0 +1,363 @@
+{
+ "verdict": "PASS",
+ "lead": 0.02,
+ "matched_words": 66,
+ "of_words": 73,
+ "median_offset_s": -0.072,
+ "share_in_window": 0.939,
+ "share_late_over_150ms": 0.0,
+ "worst_lines": [
+  {
+   "line": "l5",
+   "median_offset_s": -0.092
+  },
+  {
+   "line": "l3",
+   "median_offset_s": -0.085
+  },
+  {
+   "line": "l7",
+   "median_offset_s": -0.083
+  },
+  {
+   "line": "cta",
+   "median_offset_s": -0.075
+  },
+  {
+   "line": "hb1",
+   "median_offset_s": -0.072
+  }
+ ],
+ "pairs": [
+  {
+   "line": "hb1",
+   "word": "Pertalite",
+   "offset": 0.135
+  },
+  {
+   "line": "hb1",
+   "word": "kamu",
+   "offset": -0.078
+  },
+  {
+   "line": "hb1",
+   "word": "tetap",
+   "offset": -0.058
+  },
+  {
+   "line": "hb1",
+   "word": "Tapi",
+   "offset": -0.13
+  },
+  {
+   "line": "hb1",
+   "word": "siapa",
+   "offset": -0.055
+  },
+  {
+   "line": "hb1",
+   "word": "yang",
+   "offset": -0.072
+  },
+  {
+   "line": "hb1",
+   "word": "nombok?",
+   "offset": -0.088
+  },
+  {
+   "line": "hb2",
+   "word": "Minyak",
+   "offset": 0.042
+  },
+  {
+   "line": "hb2",
+   "word": "dunia",
+   "offset": -0.078
+  },
+  {
+   "line": "hb2",
+   "word": "udah",
+   "offset": -0.065
+  },
+  {
+   "line": "hb2",
+   "word": "di",
+   "offset": -0.085
+  },
+  {
+   "line": "hb2",
+   "word": "atas",
+   "offset": -0.03
+  },
+  {
+   "line": "hb2",
+   "word": "dolar.",
+   "offset": -0.078
+  },
+  {
+   "line": "rd",
+   "word": "Rangkumin",
+   "offset": -0.028
+  },
+  {
+   "line": "rd",
+   "word": "dong!",
+   "offset": -0.048
+  },
+  {
+   "line": "l3",
+   "word": "Padahal",
+   "offset": 0.091
+  },
+  {
+   "line": "l3",
+   "word": "asumsi",
+   "offset": -0.225
+  },
+  {
+   "line": "l3",
+   "word": "APBN",
+   "offset": -0.065
+  },
+  {
+   "line": "l3",
+   "word": "2026:",
+   "offset": -0.101
+  },
+  {
+   "line": "l3",
+   "word": "dolar.",
+   "offset": -0.085
+  },
+  {
+   "line": "l4",
+   "word": "Tapi",
+   "offset": 0.083
+  },
+  {
+   "line": "l4",
+   "word": "di",
+   "offset": -0.052
+  },
+  {
+   "line": "l4",
+   "word": "SPBU,",
+   "offset": -0.072
+  },
+  {
+   "line": "l4",
+   "word": "harga",
+   "offset": -0.025
+  },
+  {
+   "line": "l4",
+   "word": "Pertalite",
+   "offset": -0.097
+  },
+  {
+   "line": "l4",
+   "word": "gerak.",
+   "offset": -0.105
+  },
+  {
+   "line": "l5",
+   "word": "Nah,",
+   "offset": 0.02
+  },
+  {
+   "line": "l5",
+   "word": "selisihnya",
+   "offset": -0.084
+  },
+  {
+   "line": "l5",
+   "word": "ditanggung",
+   "offset": -0.105
+  },
+  {
+   "line": "l5",
+   "word": "negara:",
+   "offset": -0.045
+  },
+  {
+   "line": "l5",
+   "word": "subsidi",
+   "offset": -0.189
+  },
+  {
+   "line": "l5",
+   "word": "dan",
+   "offset": -0.105
+  },
+  {
+   "line": "l5",
+   "word": "kompensasi",
+   "offset": -0.121
+  },
+  {
+   "line": "l5",
+   "word": "ke",
+   "offset": -0.092
+  },
+  {
+   "line": "l5",
+   "word": "Pertamina",
+   "offset": -0.053
+  },
+  {
+   "line": "l5",
+   "word": "dan",
+   "offset": -0.065
+  },
+  {
+   "line": "l5",
+   "word": "PLN.",
+   "offset": -0.108
+  },
+  {
+   "line": "l6",
+   "word": "Sampai",
+   "offset": 0.049
+  },
+  {
+   "line": "l6",
+   "word": "September,",
+   "offset": -0.057
+  },
+  {
+   "line": "l6",
+   "word": "kompensasi",
+   "offset": -0.037
+  },
+  {
+   "line": "l6",
+   "word": "saja",
+   "offset": -0.025
+  },
+  {
+   "line": "l6",
+   "word": "triliun.",
+   "offset": -0.045
+  },
+  {
+   "line": "l6",
+   "word": "Ditambah",
+   "offset": -0.075
+  },
+  {
+   "line": "l6",
+   "word": "subsidi:",
+   "offset": -0.035
+  },
+  {
+   "line": "l6",
+   "word": "triliun.",
+   "offset": -0.082
+  },
+  {
+   "line": "l7",
+   "word": "Jadi",
+   "offset": -0.031
+  },
+  {
+   "line": "l7",
+   "word": "yang",
+   "offset": -0.083
+  },
+  {
+   "line": "l7",
+   "word": "nombok:",
+   "offset": -0.055
+  },
+  {
+   "line": "l7",
+   "word": "APBN.",
+   "offset": -0.105
+  },
+  {
+   "line": "l7",
+   "word": "Uang",
+   "offset": -0.209
+  },
+  {
+   "line": "l7",
+   "word": "kita",
+   "offset": -0.107
+  },
+  {
+   "line": "l7",
+   "word": "bersama.",
+   "offset": -0.067
+  },
+  {
+   "line": "cta",
+   "word": "Kalau",
+   "offset": 0.037
+  },
+  {
+   "line": "cta",
+   "word": "kamu",
+   "offset": -0.043
+  },
+  {
+   "line": "cta",
+   "word": "pegang",
+   "offset": -0.075
+  },
+  {
+   "line": "cta",
+   "word": "APBN,",
+   "offset": -0.075
+  },
+  {
+   "line": "cta",
+   "word": "apa",
+   "offset": -0.235
+  },
+  {
+   "line": "cta",
+   "word": "yang",
+   "offset": -0.089
+  },
+  {
+   "line": "cta",
+   "word": "dikorbankan",
+   "offset": -0.065
+  },
+  {
+   "line": "cta",
+   "word": "duluan?",
+   "offset": -0.065
+  },
+  {
+   "line": "cta",
+   "word": "Komen!",
+   "offset": -0.149
+  },
+  {
+   "line": "end",
+   "word": "Follow",
+   "offset": 0.074
+  },
+  {
+   "line": "end",
+   "word": "Rangkumin",
+   "offset": -0.085
+  },
+  {
+   "line": "end",
+   "word": "Dong,",
+   "offset": -0.077
+  },
+  {
+   "line": "end",
+   "word": "biar",
+   "offset": -0.072
+  },
+  {
+   "line": "end",
+   "word": "ketinggalan!",
+   "offset": -0.025
+  }
+ ]
+}
