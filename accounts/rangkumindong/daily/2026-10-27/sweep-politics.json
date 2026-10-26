@@ -1,0 +1,224 @@
+{
+ "area": "politics",
+ "run_date": "2026-10-27",
+ "checked": [
+  "detik /berita (fetched via search-returned URL; snapshot stale, ~21-22 Oct)",
+  "CNN Indonesia nasional (fetched, 26 Oct evening headlines)",
+  "ANTARA /hukum (fetched; /politik not fetched)",
+  "Tempo /politik (robots_disallowed; search snippets only)",
+  "known-events window 14d (--brief)",
+  "storyline: definisi-korupsi (found: Prabowo/Yusril study)",
+  "storyline: gibran-ijazah-mk (search only; no new development beyond E0305)",
+  "watch: Istana/Prabowo (corruption study, Mendagri/BMKG summons)",
+  "watch: KPK (Nusron summons)",
+  "watch: DPR RUU (Perampasan Aset Panja)",
+  "watch: MK (Peradilan Militer follow-up)",
+  "watch: Hajj ministry nepotism",
+  "UMP 2027 labour (search; nothing newer than E0225/E0068)",
+  "Kapolri vape ban (search; not new)"
+ ],
+ "events": [
+  {
+   "date": "2026-10-26",
+   "category": "POL",
+   "event": "Coordinating Minister Yusril Ihza Mahendra, after being summoned to the Istana, says President Prabowo asked for a deeper study of the corruption definition to align the Tipikor laws with UNCAC while stating that the state-loss element 'must not be forgotten'.",
+   "key_numbers": "Law 31/1999 and Law 20/2001 to be aligned with UNCAC (ratified 2006) · study team of law enforcers, academics and activists proposed, incl. Romli Atmasasmita · under-invoicing example: 20,000 t exported vs 10,000 t reported · meeting with DEN the same afternoon",
+   "storyline": "definisi-korupsi",
+   "update_of": "E0231",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "ANTARA Jatim",
+     "url": "https://jatim.antaranews.com/berita/1111783/prabowo-minta-kajian-definisi-korupsi-yang-sesuai-kondisi-indonesia"
+    },
+    {
+     "label": "ANTARA",
+     "url": "https://www.antaranews.com/berita/5812635/yusril-dipanggil-prabowo-ke-istana-siapkan-materi-definisi-korupsi"
+    },
+    {
+     "label": "Liputan6",
+     "url": "https://liputan6.com/news/read/8321672/yusril-menghadap-prabowo-bahas-perubahan-definisi-korupsi"
+    },
+    {
+     "label": "CNN Indonesia nasional",
+     "url": "https://www.cnnindonesia.com/nasional"
+    }
+   ],
+   "why_it_matters": "First account relayed from the Istana side after Luhut's claim: state loss stays, but the scope is to be widened (Yusril's account, not a Palace statement).",
+   "signals": {
+    "spreading": 2,
+    "wallet": 1,
+    "surprise": 2,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "Top of CNN Indonesia nasional list 26 Oct evening (two items); Kompas, Kontan, Kumparan, Liputan6 all carried it",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-10-26",
+   "category": "POL",
+   "event": "KPK spokesperson Budi Prasetyo says KPK will summon ATR/BPN Minister Nusron Wahid again 'secepatnya' as a witness in the HGB bribery and gratuity case, after he skipped two summonses; MAKI separately reported KPK leadership to the KPK Dewas.",
+   "key_numbers": "8 suspects named · summons skipped 7 Oct (ministry agenda) and 15 Oct (abroad, Singapore/Malaysia per CNN) · 4 of the suspects described by KPK as Nusron's trusted aides · initial detention 15 Sep-4 Oct 2026",
+   "storyline": "kpk-nusron-atr-bpn",
+   "update_of": "E0178",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/nasional/20261026184727-12-1419850/kpk-segera-panggil-nusron-lagi-lingkarannya-sudah-tersangka"
+    },
+    {
+     "label": "Suara.com",
+     "url": "https://www.suara.com/news/2026/10/26/191448/dua-kali-mangkir-kpk-akan-panggil-lagi-nusron-wahid-secepatnya"
+    }
+   ],
+   "why_it_matters": "A sitting minister has twice not shown up for KPK questioning while people around him are suspects; no date is set for the new summons.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 0,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-10-26",
+   "category": "POL",
+   "event": "DPR Commission III forms a Panja for the Asset Forfeiture Bill (RUU Perampasan Aset) chaired by Habiburokhman, and moves public hearings forward into the recess, aiming to pass the bill by 15 December 2026.",
+   "key_numbers": "Target: enacted by 15 Dec 2026 · Panja chair Habiburokhman, deputy Soedeson Tandra (Golkar) · ~20 civil-society groups to be heard in stages · DPR recess 9 Oct-9 Nov",
+   "storyline": "",
+   "update_of": "",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "Suara.com",
+     "url": "https://www.suara.com/news/2026/10/26/130921/ruu-perampasan-aset-dikebut-saat-reses-habiburokhman-pimpin-panja-target-desember-2026"
+    },
+    {
+     "label": "Liputan6",
+     "url": "https://www.liputan6.com/news/read/8321455/ruu-perampasan-aset-ditargetkan-tuntas-15-desember-2026"
+    },
+    {
+     "label": "Kompas.id",
+     "url": "https://www.kompas.id/artikel/ruu-perampasan-aset-jadi-usul-inisiatif-dpr-puan-optimistis-disahkan-15-desember-2026"
+    }
+   ],
+   "why_it_matters": "A bill long stalled in the DPR is now on a fixed schedule, alongside the debate over how corruption is defined.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-10-26",
+   "category": "POL",
+   "event": "Two sons of Haji and Umrah Minister Mochamad Irfan Yusuf (Gus Irfan) resign as expert staff at the ministry after public criticism of nepotism; Deputy Minister Dahnil Anzar Simanjuntak confirms receipt of the letters.",
+   "key_numbers": "2 resignations (Barbarossa Muhammad Farros, Gibran Muhammad Fawwaz) · helped unpaid from BP Haji's formation in late Oct 2024 per Dahnil · vacancies to be refilled",
+   "storyline": "",
+   "update_of": "E0268",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/nasional/20261026174932-20-1419832/ramai-dicap-nepotisme-dua-anak-menhaj-mundur-dari-posisi-tenaga-ahli"
+    },
+    {
+     "label": "Kompas",
+     "url": "https://nasional.kompas.com/read/2026/10/26/22390641/dua-anak-menteri-haji-mundur-dari-posisi-tenaga-ahli-di-kemenhaj"
+    }
+   ],
+   "why_it_matters": "Public pressure over a minister appointing family members led to a quick reversal.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 0,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-10-26",
+   "category": "POL",
+   "event": "President Prabowo summons Home Minister Tito Karnavian and BMKG head Teuku Faisal Fathani to the Istana to discuss karhutla, the El Nino outlook and hydrometeorological disaster preparedness.",
+   "key_numbers": "Rainy season about 20-30 days late due to El Nino · some areas get rain Nov-Dec, peak Dec-Feb · high cloud-growth potential in Central Kalimantan (next 5 days) and South Sumatra · cloud seeding with dry ice and NaCl on the President's instruction",
+   "storyline": "karhutla",
+   "update_of": "E0230",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/nasional/20261026170617-32-1419808/prabowo-panggil-mendagri-dan-kepala-bmkg-ke-istana"
+    },
+    {
+     "label": "detik",
+     "url": "https://news.detik.com/berita/d-8724696/prabowo-panggil-mendagri-hingga-kepala-bmkg-bahas-karhutla-dan-mitigasi-bencana"
+    }
+   ],
+   "why_it_matters": "Signals that the government expects fires to last until the rains arrive; outcome of the closed meeting not yet reported.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 1,
+    "surprise": 0,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-10-27",
+   "category": "POL",
+   "event": "Menkum Supratman asks the Ditjen Peraturan Perundang-undangan to study the consequences of the MK ruling ordering the Military Courts Law (UU 31/1997) to be amended within two years; PDI-P (Hasto) had backed the revision on 25 Oct.",
+   "key_numbers": "MK case 260/PUU-XXIII/2025 (cited as /2026 by ANTARA), ruling 15 Oct 2026 · amendment deadline: 2 years · ordinary crimes by soldiers to go to civilian courts",
+   "storyline": "mk-peradilan-militer",
+   "update_of": "E0130",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "Koran Jakarta",
+     "url": "https://koran-jakarta.com/2026-10-27/menkum-supratman-minta-ditjen-pp-kaji-konsekuensi-putusan-mk-soal-uu-peradilan-militer"
+    },
+    {
+     "label": "detik (ruling)",
+     "url": "https://news.detik.com/berita/d-8708714/mk-perintahkan-revisi-uu-peradilan-militer-tuntas-dalam-2-tahun"
+    },
+    {
+     "label": "ANTARA (PDI-P)",
+     "url": "https://www.antaranews.com/berita/5810819/pdip-dukung-revisi-uu-peradilan-militer-pascaputusan-mk"
+    }
+   ],
+   "why_it_matters": "The government's first formal step after the MK ruling that soldiers' ordinary crimes belong in civilian courts.",
+   "signals": {
+    "spreading": 0,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 0,
+    "fresh": 2,
+    "rivals": 2
+   },
+   "spreading_evidence": "ANTARA Hukum list 27 Oct (3 hours old at fetch)",
+   "sensitivity": "normal"
+  }
+ ],
+ "gaps": [
+  "Kompas and Tempo pages could not be read (robots); no Kompas/Tempo most-read lists seen",
+  "Husniah (ex-Gowa regent) pretrial motion and Komnas HAM gig-worker social-security calls seen as headlines only (CNN/ANTARA 26-27 Oct), not opened",
+  "Outcome of Prabowo's closed meeting with Tito and BMKG on 26 Oct and of the Yusril-DEN meeting not yet reported",
+  "Gibran diploma row: PKS plan to take it to DPR factions seen only on a stale detik snapshot; worth a check for a dated update"
+ ]
+}

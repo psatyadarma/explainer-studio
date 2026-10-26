@@ -2270,6 +2270,16 @@
 "upcoming": false
 },
 {
+"id": "E0343",
+"date": "2026-10-21",
+"category": "GLB",
+"event": "Malaysia banned civil servants from using Waze over fears of data reaching Israel, and PM Anwar Ibrahim urged the public to stop using it, pointing to local alternatives such as TuJu.",
+"key_numbers": "Waze founded 2008, acquired by Google 2013 · cited Citizen Lab report: Discover-Tech ads on 120,000+ websites and 75,000+ apps · France plans to drop Zoom/Teams in government by 2027",
+"storyline": "",
+"status": "verified",
+"upcoming": false
+},
+{
 "id": "E0220",
 "date": "2026-10-22",
 "category": "MKT",
@@ -2990,6 +3000,26 @@
 "upcoming": false
 },
 {
+"id": "E0338",
+"date": "2026-10-25",
+"category": "BIZ",
+"event": "Gaikindo September 2026 wholesale data, reported by CNBC Indonesia and Bisnis.com, show the electric BYD Atto 1 was Indonesia's best-selling car model, ahead of Daihatsu Gran Max Pick Up and Toyota Innova, while Gaikindo says LCGC cars are losing ground to EVs. (update of E0086)",
+"key_numbers": "BYD Atto 1 4,840 units (#1) · Gran Max Pick Up 4,145 · Kijang Innova 4,143 · Avanza 3,872 · Jaecoo J5 EV 3,276 (#5) · Geely EX2 1,890 · LCGC peak share 24% of national car sales · wholesale (factory to dealer), Sept 2026",
+"storyline": "",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0349",
+"date": "2026-10-25",
+"category": "NEWS",
+"event": "A Toyota Avanza rammed under a tronton truck on the Terpeka section of the Lampung toll road, killing six members of one family, including a Tulang Bawang police officer.",
+"key_numbers": "6 dead · 3 seriously injured · about 13:34 WIB 25 Oct · Terpeka section, Tulang Bawang Barat · cause not stated",
+"storyline": "",
+"status": "verified",
+"upcoming": false
+},
+{
 "id": "E0257",
 "date": "2026-10-26",
 "category": "POL",
@@ -3040,6 +3070,216 @@
 "upcoming": false
 },
 {
+"id": "E0324",
+"date": "2026-10-26",
+"category": "MKT",
+"event": "BEI announced that 81 High Shareholding Concentration (HSC) stocks will be excluded from the IHSG calculation from 2 November 2026, with BBCA, BBRI and ASII gaining weight. (update of E0276)",
+"key_numbers": "81 HSC stocks · ~18% of IHSG weight · effective 2 Nov 2026 · constituent period to 29 Jan 2027 · BBCA 8.75% to 9% · BBRI 7.93% to 9% · ASII 3.35% to 4.15% · names incl. BREN, BYAN, DSSA",
+"storyline": "msci-reclassification",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0325",
+"date": "2026-10-26",
+"category": "MKT",
+"event": "BEI expanded its HSC committee to nine members, adding five independent external members including a foreign investor representative, to improve credibility. (update of E0253)",
+"key_numbers": "9 members · 4 SRO + 5 independent · includes F. Chapman Taylor (ex-Capital Group), Joshua Arief Tanja (UBS Sekuritas), Prof. Mardiasmo",
+"storyline": "msci-reclassification",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0326",
+"date": "2026-10-26",
+"category": "MKT",
+"event": "The rupiah closed weaker at Rp18,135 per US dollar on 26 October as oil prices rose and fiscal worries grew. (update of E0303)",
+"key_numbers": "Rp18,135/USD (-0.30%, from Rp18,080) · JISDOR Rp18,116 · Brent US$116.20 on 23 Oct (highest since June 2022) · WTI US$102.50 · energy subsidy+compensation Rp376.8 T to Sep (+54.1% y/y) · ICP US$91.9 vs budget US$70 · each US$1 ICP ~Rp6.8 T deficit",
+"storyline": "rupiah",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0327",
+"date": "2026-10-26",
+"category": "BIZ",
+"event": "Danantara COO Dony Oskaria said bankruptcy is not an option for Pos Indonesia, which has defaulted on bonds and sukuk, and that it will be restructured into a logistics holding.",
+"key_numbers": "Rp400 B bond (coupon unpaid 28 Sep) · Rp1 T sukuk (installments unpaid 18 Sep, 8 Oct) · Fitch D(idn) · assets Rp18.92 T (30 Jun 2025) · cash Rp3.49 T · ~4,000 distribution channels",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0328",
+"date": "2026-10-26",
+"category": "BIZ",
+"event": "Bisnis.com reported Danantara will channel about Rp200 trillion of BUMN profits into investment rather than to the state budget (APBN).",
+"key_numbers": "Rp200 T BUMN profit to investment, not APBN (details not verified; article not retrievable)",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0329",
+"date": "2026-10-26",
+"category": "MKT",
+"event": "BEI scrapped trading suspensions to boost liquidity and OJK extended the buyback-without-RUPS policy to June 2027 (headlines only; articles not retrieved).",
+"key_numbers": "Buyback without RUPS extended to June 2027 · BEI removes stock trading suspension (details unverified)",
+"storyline": "msci-reclassification",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0330",
+"date": "2026-10-26",
+"category": "MKT",
+"event": "The IHSG weakened about 1.22% on 26 October, with BBCA to ANTM under pressure (close level and foreign flows not verified). (update of E0250)",
+"key_numbers": "-1.22% (Bisnis headline) · close level not retrieved",
+"storyline": "msci-reclassification",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0331",
+"date": "2026-10-26",
+"category": "ECO",
+"event": "The Finance Ministry opened the possibility that 2027 regional budget (APBD) deficits exceed the legal limit, under conditions (headline only; article blocked).",
+"key_numbers": "details unverified",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0332",
+"date": "2026-10-26",
+"category": "POL",
+"event": "Coordinating Minister Yusril Ihza Mahendra, after being summoned to the Istana, says President Prabowo asked for a deeper study of the corruption definition to align the Tipikor laws with UNCAC while stating that the state-loss element 'must not be forgotten'. (update of E0231)",
+"key_numbers": "Law 31/1999 and Law 20/2001 to be aligned with UNCAC (ratified 2006) · study team of law enforcers, academics and activists proposed, incl. Romli Atmasasmita · under-invoicing example: 20,000 t exported vs 10,000 t reported · meeting with DEN the same afternoon",
+"storyline": "definisi-korupsi",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0333",
+"date": "2026-10-26",
+"category": "POL",
+"event": "KPK spokesperson Budi Prasetyo says KPK will summon ATR/BPN Minister Nusron Wahid again 'secepatnya' as a witness in the HGB bribery and gratuity case, after he skipped two summonses; MAKI separately reported KPK leadership to the KPK Dewas. (update of E0178)",
+"key_numbers": "8 suspects named · summons skipped 7 Oct (ministry agenda) and 15 Oct (abroad, Singapore/Malaysia per CNN) · 4 of the suspects described by KPK as Nusron's trusted aides · initial detention 15 Sep-4 Oct 2026",
+"storyline": "kpk-nusron-atr-bpn",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0334",
+"date": "2026-10-26",
+"category": "POL",
+"event": "DPR Commission III forms a Panja for the Asset Forfeiture Bill (RUU Perampasan Aset) chaired by Habiburokhman, and moves public hearings forward into the recess, aiming to pass the bill by 15 December 2026.",
+"key_numbers": "Target: enacted by 15 Dec 2026 · Panja chair Habiburokhman, deputy Soedeson Tandra (Golkar) · ~20 civil-society groups to be heard in stages · DPR recess 9 Oct-9 Nov",
+"storyline": "",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0335",
+"date": "2026-10-26",
+"category": "POL",
+"event": "Two sons of Haji and Umrah Minister Mochamad Irfan Yusuf (Gus Irfan) resign as expert staff at the ministry after public criticism of nepotism; Deputy Minister Dahnil Anzar Simanjuntak confirms receipt of the letters. (update of E0268)",
+"key_numbers": "2 resignations (Barbarossa Muhammad Farros, Gibran Muhammad Fawwaz) · helped unpaid from BP Haji's formation in late Oct 2024 per Dahnil · vacancies to be refilled",
+"storyline": "",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0336",
+"date": "2026-10-26",
+"category": "POL",
+"event": "President Prabowo summons Home Minister Tito Karnavian and BMKG head Teuku Faisal Fathani to the Istana to discuss karhutla, the El Nino outlook and hydrometeorological disaster preparedness. (update of E0230)",
+"key_numbers": "Rainy season about 20-30 days late due to El Nino · some areas get rain Nov-Dec, peak Dec-Feb · high cloud-growth potential in Central Kalimantan (next 5 days) and South Sumatra · cloud seeding with dry ice and NaCl on the President's instruction",
+"storyline": "karhutla",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0339",
+"date": "2026-10-26",
+"category": "TECH",
+"event": "CNBC Indonesia, citing people familiar with the deal, reports OpenAI is close to a funding round of up to US$30 billion at a US$1.25 trillion valuation, led by UAE investors and Coatue, with completion expected next week.",
+"key_numbers": "Valuation US$1.25 trillion (~Rp22,600 T) · raise up to US$30 billion (~Rp542.6 T) · compute spend target US$600 billion by 2030 · IPO talked about for 2027",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0340",
+"date": "2026-10-26",
+"category": "TECH",
+"event": "Elvis Presley's copyright holders sued Anthropic, maker of Claude, in US federal court in Northern California, alleging songs were used without permission to train its AI.",
+"key_numbers": "4 songs named (Can't Help Falling in Love, A Little Less Conversation, Don't Be Cruel, Return to Sender) · no damages figure published",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0341",
+"date": "2026-10-26",
+"category": "TECH",
+"event": "CNBC Indonesia publishes a guide to checking whether someone used your NIK/KTP to take pinjol loans, via OJK's SLIK iDebku, with OJK complaint channels.",
+"key_numbers": "idebku.ojk.go.id (result by email, ~1 working day) · OJK contact 157 / WhatsApp 081-157-157-157 · related: 637,055 financial-fraud reports to IASC (E0206)",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0342",
+"date": "2026-10-26",
+"category": "TECH",
+"event": "CNBC Indonesia, citing Counterpoint Research, reports global PC shipments fell 21% y/y in Q3 2026 as memory costs lifted prices, with Counterpoint forecasting a 27% y/y drop in Q4 and flat 2027. (update of E0312)",
+"key_numbers": "Q3 shipments 57 million units, -21% y/y, -13.8% q/q · Lenovo 15 M (26.3%) · HP 10.3 M (-31%) · Dell 7.6 M · Apple 5.6 M (9.8% share) · ASUS 5.2 M · Q4 forecast -27% y/y",
+"storyline": "chip-ram-prices",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0345",
+"date": "2026-10-26",
+"category": "ENV",
+"event": "BNPB's acting data centre head Berton SP Panjaitan says fires are still burning over 4,000 ha in Sumatra and Kalimantan, including a 2,456 ha fire in Central Kalimantan. (update of E0021)",
+"key_numbers": "Sumatra 990 ha (South Sumatra 889 · Jambi 89 · Lampung 12) · Kalimantan about 3,392 ha still being handled as of 25 Oct · largest fire 2,456 ha Central Kalimantan · article total about 4,382 ha",
+"storyline": "karhutla",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0346",
+"date": "2026-10-26",
+"category": "ENV",
+"event": "Bakom data reported by Jurnas show police have named 257 karhutla suspects (243 individuals, 14 corporations) covering 35,025.62 ha of burned land, after Prabowo called the fires 'terorisme lingkungan' and ordered licences of proven violators revoked. (update of E0315)",
+"key_numbers": "257 suspects (243 individuals + 14 corporations) · 286 police reports (individuals), 104 (corporate) · 5,856.84 ha individuals + 29,168.78 ha corporate = 35,025.62 ha · national total as of 23 Oct: 41,554 ha burned, 19,708 hotspots, 14,873 ha extinguished · 67,933 personnel deployed",
+"storyline": "karhutla",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0347",
+"date": "2026-10-26",
+"category": "NEWS",
+"event": "ANTARA debunks a viral X screenshot claiming Prabowo urged Indonesians to boycott Facebook, Threads, Instagram and TikTok to protect the country's image. (update of E0164)",
+"key_numbers": "Image taken from the Presidential Secretariat video on the karhutla ratas, Istana Merdeka, 12 Oct 2026 · similar image circulated on Instagram 14 Oct",
+"storyline": "hoax-tracker",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0348",
+"date": "2026-10-26",
+"category": "POL",
+"event": "Coordinating Minister Yusril says Prabowo asked for a deeper study of how corruption is defined, aligned with UNCAC, but insists the state-loss element must stay.",
+"key_numbers": "Study to cover UU 31/1999 and UU 20/2001 · team of law enforcers, academics, activists (Yusril proposes Romli Atmasasmita) · keuangan negara definition for BUMN/subsidiaries called 'far more important'",
+"storyline": "definisi-korupsi",
+"status": "verified",
+"upcoming": false
+},
+{
 "id": "E0281",
 "date": "2026-10-27",
 "category": "BIZ",
@@ -3057,6 +3297,16 @@
 "key_numbers": "Summons Tue 27 Oct 2026 (first set 19 Oct, invitation letter 9 Oct) · report LP/B/3843/V/2026/SPKT dated 29 May 2026 by Yasinta Moiwend ('Mama Sinta') · case at inquiry (penyelidikan) stage · LBH Merauke head JTW also to be summoned, reported under the personal data protection law (Pasal 65 and 67)",
 "storyline": "",
 "status": "upcoming",
+"upcoming": true
+},
+{
+"id": "E0337",
+"date": "2026-10-27",
+"category": "POL",
+"event": "Menkum Supratman asks the Ditjen Peraturan Perundang-undangan to study the consequences of the MK ruling ordering the Military Courts Law (UU 31/1997) to be amended within two years; PDI-P (Hasto) had backed the revision on 25 Oct. (update of E0130)",
+"key_numbers": "MK case 260/PUU-XXIII/2025 (cited as /2026 by ANTARA), ruling 15 Oct 2026 · amendment deadline: 2 years · ordinary crimes by soldiers to go to civilian courts",
+"storyline": "mk-peradilan-militer",
+"status": "partial",
 "upcoming": true
 },
 {
@@ -3115,6 +3365,16 @@
 "category": "TECH",
 "event": "Apple is expected to hold an event on 28 Oct 2026 where a touchscreen MacBook Pro is widely rumoured; same day Huawei starts China sales of the Pura 90 Plus (preorders open). (update of E0190)",
 "key_numbers": "Apple event 28 Oct 2026 (rumour of touchscreen MacBook Pro, per Kompas/detik headlines) · Huawei Pura 90 Plus China sales 28 Oct, up to 12 GB RAM and 1 TB, price not stated, China only",
+"storyline": "",
+"status": "upcoming",
+"upcoming": true
+},
+{
+"id": "E0344",
+"date": "2026-10-28",
+"category": "TECH",
+"event": "Apple event expected 28 October with a touchscreen MacBook Pro; already tracked, relevant to Indonesian iPhone Duo pricing of up to Rp75 million. (update of E0190)",
+"key_numbers": "event 28 Oct 2026 · iPhone Duo Indonesia price up to Rp75 juta, preorder 23 Oct sold out",
 "storyline": "",
 "status": "upcoming",
 "upcoming": true

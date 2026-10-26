@@ -1,0 +1,98 @@
+{
+  "area": "national",
+  "run_date": "2026-10-27",
+  "checked": ["detik terpopuler", "CNN Indonesia nasional", "Antara humaniora + terkini + terpopuler", "CNBC Indonesia latest/popular", "Antara cek fakta", "storyline karhutla", "storyline definisi-korupsi", "storyline survival-mode (rice aid already E0321)", "watch list found: karhutla/BNPB, hoax debunk, road accident, nepotism row"],
+  "events": [
+    {
+      "date": "2026-10-26",
+      "category": "ENV",
+      "event": "BNPB's acting data centre head Berton SP Panjaitan says fires are still burning over 4,000 ha in Sumatra and Kalimantan, including a 2,456 ha fire in Central Kalimantan.",
+      "key_numbers": "Sumatra 990 ha (South Sumatra 889 · Jambi 89 · Lampung 12) · Kalimantan about 3,392 ha still being handled as of 25 Oct · largest fire 2,456 ha Central Kalimantan · article total about 4,382 ha",
+      "storyline": "karhutla",
+      "update_of": "E0021",
+      "status": "partial",
+      "sources": [{"label": "Okezone", "url": "https://news.okezone.com/read/2026/10/26/337/3250313/bnpb-catat-karhutla-masih-lahap-4-000-hektare-lebih-lahan-di-sumatera-dan-kalimantan"}],
+      "why_it_matters": "Haze and school/flight disruption continue while the rainy season is late.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 0, "visual": 1, "fresh": 2, "rivals": 0},
+      "spreading_evidence": "Karhutla stories on CNBC popular list (E0316/E0317 era) and Antara terpopuler (Way Kambas)",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-26",
+      "category": "ENV",
+      "event": "Bakom data reported by Jurnas show police have named 257 karhutla suspects (243 individuals, 14 corporations) covering 35,025.62 ha of burned land, after Prabowo called the fires 'terorisme lingkungan' and ordered licences of proven violators revoked.",
+      "key_numbers": "257 suspects (243 individuals + 14 corporations) · 286 police reports (individuals), 104 (corporate) · 5,856.84 ha individuals + 29,168.78 ha corporate = 35,025.62 ha · national total as of 23 Oct: 41,554 ha burned, 19,708 hotspots, 14,873 ha extinguished · 67,933 personnel deployed",
+      "storyline": "karhutla",
+      "update_of": "E0315",
+      "status": "partial",
+      "sources": [{"label": "Jurnas", "url": "https://www.jurnas.com/artikel/1667760/polisi-tetapkan-257-tersangka-karhutla-luas-lahan-terbakar-35-ribu-hektare"}],
+      "why_it_matters": "Shows how much of the burned area police tie to companies versus individuals, and the President's threat to revoke licences.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 2, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-10-26",
+      "category": "NEWS",
+      "event": "ANTARA debunks a viral X screenshot claiming Prabowo urged Indonesians to boycott Facebook, Threads, Instagram and TikTok to protect the country's image.",
+      "key_numbers": "Image taken from the Presidential Secretariat video on the karhutla ratas, Istana Merdeka, 12 Oct 2026 · similar image circulated on Instagram 14 Oct",
+      "storyline": "hoax-tracker",
+      "update_of": "E0164",
+      "status": "verified",
+      "sources": [{"label": "ANTARA Cek Fakta", "url": "https://www.antaranews.com/berita/5812511/hoaks-prabowo-minta-indonesia-boikot-media-sosial-agar-jaga-nama-baik-negara"}],
+      "why_it_matters": "Real footage from the haze crisis is being recycled with fake quotes.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "ANTARA cek fakta stream; other Prabowo hoaxes (MBG closure, Wapres replacement) in the same list",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-26",
+      "category": "POL",
+      "event": "Coordinating Minister Yusril says Prabowo asked for a deeper study of how corruption is defined, aligned with UNCAC, but insists the state-loss element must stay.",
+      "key_numbers": "Study to cover UU 31/1999 and UU 20/2001 · team of law enforcers, academics, activists (Yusril proposes Romli Atmasasmita) · keuangan negara definition for BUMN/subsidiaries called 'far more important'",
+      "storyline": "definisi-korupsi",
+      "update_of": "",
+      "status": "verified",
+      "sources": [{"label": "ANTARA", "url": "https://www.antaranews.com/berita/5813059/prabowo-minta-kajian-definisi-korupsi-yang-sesuai-kondisi-indonesia"}, {"label": "Kompas.id", "url": "https://www.kompas.id/artikel/menko-yusril-presiden-prabowo-minta-usulan-perubahan-definisi-korupsi-dikaji-mendalam"}],
+      "why_it_matters": "First direct word on the President's position after Luhut's 20 Oct claim that he agreed to change the definition.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 0, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "CNN Indonesia nasional list: 2 items (Prabowo review, Prabowo-Yusril meeting)",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-10-26",
+      "category": "NEWS",
+      "event": "Two sons of Hajj and Umrah Minister Mochamad Irfan Yusuf resign as expert staff at the ministry after public criticism of nepotism, confirmed by Deputy Minister Dahnil Anzar Simanjuntak.",
+      "key_numbers": "2 sons (Barbarossa Muhammad Farros, Gibran Muhammad Fawwaz) · helped unpaid about 3-4 months when BP Haji began with 2 people (late Oct 2024) · resignation letters received 26 Oct",
+      "storyline": "",
+      "update_of": "",
+      "status": "verified",
+      "sources": [{"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261026174932-20-1419832/ramai-dicap-nepotisme-dua-anak-menhaj-mundur-dari-posisi-tenaga-ahli"}, {"label": "Kompas", "url": "https://nasional.kompas.com/read/2026/10/26/22390641/dua-anak-menteri-haji-mundur-dari-posisi-tenaga-ahli-di-kemenhaj"}],
+      "why_it_matters": "Public pressure forced a quick reversal over family hires in a ministry that handles pilgrims' money.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 0, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "Covered by CNN Indonesia, Kompas, Radar Solo, Sinar Harapan, Pikiran Rakyat",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-10-25",
+      "category": "NEWS",
+      "event": "A Toyota Avanza rammed under a tronton truck on the Terpeka section of the Lampung toll road, killing six members of one family, including a Tulang Bawang police officer.",
+      "key_numbers": "6 dead · 3 seriously injured · about 13:34 WIB 25 Oct · Terpeka section, Tulang Bawang Barat · cause not stated",
+      "storyline": "",
+      "update_of": "",
+      "status": "verified",
+      "sources": [{"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261026171925-20-1419821/mobil-tabrak-tronton-hingga-masuk-kolong-di-tol-lampung-6-orang-tewas"}, {"label": "Detik", "url": "https://news.detik.com/berita/d-8723876/mobil-seruduk-tronton-hingga-masuk-kolong-di-tol-lampung-6-orang-tewas"}],
+      "why_it_matters": "Another deadly toll crash ahead of year-end travel and as Operasi Patuh starts.",
+      "signals": {"spreading": 2, "wallet": 0, "surprise": 0, "visual": 0, "fresh": 2, "rivals": 0},
+      "spreading_evidence": "Detik terpopuler #5 (26 Oct)",
+      "sensitivity": "normal"
+    }
+  ],
+  "gaps": [
+    "CNN Indonesia 26 Oct headline: forest fire in North Toraja burned hundreds of coffins at a traditional burial site; only the headline was seen, not opened.",
+    "Antara terkini: Jakarta governor says air pollution fell after two days of cloud seeding; PDIP calls for forest moratorium; not opened, no numbers.",
+    "CNN Indonesia 26 Oct: KPK plans to summon Minister Nusron Wahid again (ATR/BPN HGB Summarecon case, 8 suspects); belongs to the politics sweep, details only partly captured.",
+    "Other 26 Oct headlines not opened: Bobotoh death after Pakansari match arrest, Madiun murder motive, Freeport employee killing suspect arrested in Mimika, Ciledug Samsat luxury cars with unpaid tax.",
+    "No date-stamped most-read list could be read on detik beyond the top 9; CNBC popular list includes unverified items (Europe unrest, Houthi attack on holy cities) outside this area."
+  ]
+}

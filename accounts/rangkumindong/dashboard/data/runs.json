@@ -414,5 +414,57 @@
 "gaps": 4,
 "valid": true,
 "file": "ok"
+},
+{
+"date": "2026-10-27",
+"area": "markets",
+"events": 10,
+"verified": 1,
+"partial": 8,
+"upcoming": 1,
+"high_sensitivity": 0,
+"checked": 6,
+"gaps": 4,
+"valid": true,
+"file": "ok"
+},
+{
+"date": "2026-10-27",
+"area": "politics",
+"events": 6,
+"verified": 4,
+"partial": 2,
+"upcoming": 0,
+"high_sensitivity": 3,
+"checked": 14,
+"gaps": 4,
+"valid": true,
+"file": "ok"
+},
+{
+"date": "2026-10-27",
+"area": "business",
+"events": 7,
+"verified": 2,
+"partial": 4,
+"upcoming": 1,
+"high_sensitivity": 2,
+"checked": 8,
+"gaps": 4,
+"valid": true,
+"file": "ok"
+},
+{
+"date": "2026-10-27",
+"area": "national",
+"events": 6,
+"verified": 4,
+"partial": 2,
+"upcoming": 0,
+"high_sensitivity": 3,
+"checked": 9,
+"gaps": 5,
+"valid": true,
+"file": "ok"
 }
 ]

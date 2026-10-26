@@ -1,0 +1,128 @@
+{
+  "area": "business",
+  "run_date": "2026-10-27",
+  "checked": ["detikInet front page + Terpopuler", "CNBC Indonesia Tech", "Katadata Digital + Terpopuler", "Bisnis teknologi (search only, no section page)", "CNN Indonesia teknologi (not reached)", "DailySocial (not reached)", "watch list found: Komdigi rules, AI/data centres, chips/PC prices, consumer tech prices (iPhone Duo), car sales, scams/pinjol, e-commerce/Harbolnas", "storyline searches: ojol-regulation, ai-data-centres, startup-funding (GoTo-Grab), chip-ram-prices, Harbolnas"],
+  "events": [
+    {
+      "date": "2026-10-25",
+      "category": "BIZ",
+      "event": "Gaikindo September 2026 wholesale data, reported by CNBC Indonesia and Bisnis.com, show the electric BYD Atto 1 was Indonesia's best-selling car model, ahead of Daihatsu Gran Max Pick Up and Toyota Innova, while Gaikindo says LCGC cars are losing ground to EVs.",
+      "key_numbers": "BYD Atto 1 4,840 units (#1) · Gran Max Pick Up 4,145 · Kijang Innova 4,143 · Avanza 3,872 · Jaecoo J5 EV 3,276 (#5) · Geely EX2 1,890 · LCGC peak share 24% of national car sales · wholesale (factory to dealer), Sept 2026",
+      "storyline": "",
+      "update_of": "E0086",
+      "status": "verified",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/tech/20261025164427-37-779263/daftar-mobil-terlaris-2026-warga-ri-mulai-lupakan-lcgc-sejuta-umat"},
+        {"label": "Bisnis.com", "url": "https://otomotif.bisnis.com/read/20261025/46/2015542/20-mobil-terlaris-september-2026-byd-atto-gran-max-carry-hingga-suzuki-fronx"}
+      ],
+      "why_it_matters": "A Chinese EV now outsells Avanza and Innova, showing what Indonesian car buyers are switching to.",
+      "signals": {"spreading": 2, "wallet": 1, "surprise": 2, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "On CNBC Indonesia Tech front page 25 Oct; covered by Bisnis, Selular, Liputan6",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-26",
+      "category": "TECH",
+      "event": "CNBC Indonesia, citing people familiar with the deal, reports OpenAI is close to a funding round of up to US$30 billion at a US$1.25 trillion valuation, led by UAE investors and Coatue, with completion expected next week.",
+      "key_numbers": "Valuation US$1.25 trillion (~Rp22,600 T) · raise up to US$30 billion (~Rp542.6 T) · compute spend target US$600 billion by 2030 · IPO talked about for 2027",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/tech/20261026062801-37-779296/pemilik-chatgpt-selangkah-lagi-jadi-perusahaan-us--1-triliun"}
+      ],
+      "why_it_matters": "A single AI startup valued at more than most of Indonesia's whole stock market shows how big the AI bet is.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 2, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-26",
+      "category": "TECH",
+      "event": "Elvis Presley's copyright holders sued Anthropic, maker of Claude, in US federal court in Northern California, alleging songs were used without permission to train its AI.",
+      "key_numbers": "4 songs named (Can't Help Falling in Love, A Little Less Conversation, Don't Be Cruel, Return to Sender) · no damages figure published",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "Katadata (Antara)", "url": "https://katadata.co.id/digital/teknologi/6ade95cd91aba/claude-ai-anthropic-digugat-pelanggaran-hak-cipta-lagu-elvis-presley"}
+      ],
+      "why_it_matters": "Shows who owns the content AI learns from, a question that also affects Indonesian creators.",
+      "signals": {"spreading": 2, "wallet": 0, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "Katadata Digital Terpopuler #2",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-10-26",
+      "category": "TECH",
+      "event": "CNBC Indonesia publishes a guide to checking whether someone used your NIK/KTP to take pinjol loans, via OJK's SLIK iDebku, with OJK complaint channels.",
+      "key_numbers": "idebku.ojk.go.id (result by email, ~1 working day) · OJK contact 157 / WhatsApp 081-157-157-157 · related: 637,055 financial-fraud reports to IASC (E0206)",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/tech/20261024095227-37-779105/cara-mudah-cek-nik-ktp-dipakai-utang-pinjol-atau-tidak-oleh-orang-lain"},
+        {"label": "Kompas Tekno (headline only)", "url": "https://tekno.kompas.com/read/2026/10/26/12350057/link-dan-cara-cek-nik-yang-diam-diam-dipakai-pinjol-dan-judol-"}
+      ],
+      "why_it_matters": "Anyone's ID can be misused for loans in their name, and the check is free and takes minutes to start.",
+      "signals": {"spreading": 1, "wallet": 2, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 0},
+      "spreading_evidence": "Appears on both CNBC Tech and Kompas Tekno 24-26 Oct",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-26",
+      "category": "TECH",
+      "event": "CNBC Indonesia, citing Counterpoint Research, reports global PC shipments fell 21% y/y in Q3 2026 as memory costs lifted prices, with Counterpoint forecasting a 27% y/y drop in Q4 and flat 2027.",
+      "key_numbers": "Q3 shipments 57 million units, -21% y/y, -13.8% q/q · Lenovo 15 M (26.3%) · HP 10.3 M (-31%) · Dell 7.6 M · Apple 5.6 M (9.8% share) · ASUS 5.2 M · Q4 forecast -27% y/y",
+      "storyline": "chip-ram-prices",
+      "update_of": "E0312",
+      "status": "partial",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/tech/20261026125651-37-779457/komputer-tak-laku-di-mana-mana-pedagang-merana-jualan-laptop-susah"}
+      ],
+      "why_it_matters": "Laptops and PCs are getting pricier because of memory costs, and the forecast says it will get worse before it gets better.",
+      "signals": {"spreading": 1, "wallet": 2, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-21",
+      "category": "GLB",
+      "event": "Malaysia banned civil servants from using Waze over fears of data reaching Israel, and PM Anwar Ibrahim urged the public to stop using it, pointing to local alternatives such as TuJu.",
+      "key_numbers": "Waze founded 2008, acquired by Google 2013 · cited Citizen Lab report: Discover-Tech ads on 120,000+ websites and 75,000+ apps · France plans to drop Zoom/Teams in government by 2027",
+      "storyline": "",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/tech/20261024002655-37-779068/malaysia-larang-pns-pakai-waze-khawatir-data-bocor-ke-israel"},
+        {"label": "CNBC Indonesia Lifestyle", "url": "https://www.cnbcindonesia.com/lifestyle/20261021141513-33-778206/resmi-pns-dilarang-pakai-aplikasi-waze-diduga-terkait-israel"}
+      ],
+      "why_it_matters": "Indonesian drivers use Waze daily, so a neighbour banning it raises the question of who holds our location data.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 0, "fresh": 1, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-10-28",
+      "category": "TECH",
+      "event": "Apple event expected 28 October with a touchscreen MacBook Pro; already tracked, relevant to Indonesian iPhone Duo pricing of up to Rp75 million.",
+      "key_numbers": "event 28 Oct 2026 · iPhone Duo Indonesia price up to Rp75 juta, preorder 23 Oct sold out",
+      "storyline": "",
+      "update_of": "E0190",
+      "status": "upcoming",
+      "sources": [
+        {"label": "Katadata", "url": "https://katadata.co.id/digital/gadget/6adaff74c7e74/pre-order-iphone-duo-hari-ini-stok-langsung-ludes-meski-harga-capai-rp-75-juta"}
+      ],
+      "why_it_matters": "Apple's launch decides what the next round of gadget prices looks like in Indonesia.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 0},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    }
+  ],
+  "gaps": [
+    "Only 7 events, below the Tuesday 5+ aim being met thinly: CNN Indonesia teknologi, DailySocial and Bisnis section pages were not fetched",
+    "Harbolnas 2026 reported as 10-16 Dec (search snippet only, not opened); not added as event",
+    "GoTo-Grab merger talk appeared in search results but no dated Oct 2026 development was verified",
+    "detik Terpopuler item: US startup injecting AI-designed virus into humans (also on CNBC Tech 26 Oct) not opened; needs verification before use"
+  ]
+}
