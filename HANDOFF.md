@@ -1,6 +1,6 @@
 # Handoff: Rangkumin Dong (read this first in every session)
 
-Updated: Mon 26 Oct 2026, 19:35 WITA. Each daily run is a fresh session with no memory of earlier chats. **This file plus the playbook are the memory.** Whenever something here changes, update it, mirror it to the Video project (`claude/rangkumindong-handoff.md`), commit and push.
+Updated: Tue 27 Oct 2026, 19:40 WITA. Each daily run is a fresh session with no memory of earlier chats. **This file plus the playbook are the memory.** Whenever something here changes, update it, mirror it to the Video project (`claude/rangkumindong-handoff.md`), commit and push.
 
 ## Standing rules from the user
 - **Experiments from 23 Oct:** daily opening A/B (B = Instagram Trial Reel, `engine/variant.py` + `engine/post.py --trial`), slot fixed at 19:00 WITA, voice in weekly blocks. The "Rangkumin dong!" tagline stays right after the hook (user 22 Oct: only change it when the data says so). See playbook → Experiments 0.
@@ -38,6 +38,7 @@ Updated: Mon 26 Oct 2026, 19:35 WITA. Each daily run is a fresh session with no 
 - #6 IHSG chapter cut PART 3 auto-posted 24 Oct 19:00 (IG De3-lMjk0Wl, YT TivUTiMxyV0). Subtitle-lag bug fixed 26 Oct in `engine/tts_eleven.py segment()` (first word pinned to speech onset); confirm on the next real lag.
 - #7 Minggu Depan "4 tanggal dompet" auto-posted 25 Oct 19:00 (IG De6jT34jOCl, YT i1OvbBvUfDw). **Pending user decision:** W43 review proposes replacing the blocked daily opening A/B with alternating-day hook styles on A only (reviews/2026-W43.md).
 - #8 minyak >US$115 vs APBN US$70 (survival PART 2, format short 42 s) auto-posted 26 Oct 19:00 (IG De9IFgyFfdc, YT fjnB040O9oI); default pick, no reply all day.
+- #9 definisi korupsi PART 2 (user pick #5, sens high) posted 27 Oct 19:00 after user OK (IG De_s4bjCYcA, YT NbyJVwx49cU). User now allows auto-posting for all kinds of posts (Standing rules).
 - Each day: append a 3–5 line block to run-log.md (picks, counts, problems) instead of growing this file.
 
 ## Dashboard: "Rangkumin Dong Studio"

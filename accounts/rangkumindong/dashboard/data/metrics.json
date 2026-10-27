@@ -286,5 +286,77 @@
 "shares": 0,
 "saves": null,
 "follows": 0
+},
+{
+"date": "2026-10-27",
+"folder": "videos/2026-10-26-minyak-115-apbn-70-nombok",
+"platform": "instagram",
+"hours": 24,
+"views": 196,
+"avg_watch_pct": 28.7,
+"hold_3s_pct": null,
+"shares": 0,
+"saves": 1,
+"follows": null
+},
+{
+"date": "2026-10-27",
+"folder": "videos/2026-10-26-minyak-115-apbn-70-nombok",
+"platform": "youtube",
+"hours": 24,
+"views": 134,
+"avg_watch_pct": null,
+"hold_3s_pct": null,
+"shares": 0,
+"saves": null,
+"follows": 0
+},
+{
+"date": "2026-10-27",
+"folder": "videos/2026-10-24-ihsg-bangkit-hsc-2nov",
+"platform": "instagram",
+"hours": 72,
+"views": 188,
+"avg_watch_pct": 26.9,
+"hold_3s_pct": null,
+"shares": 0,
+"saves": 0,
+"follows": null
+},
+{
+"date": "2026-10-27",
+"folder": "videos/2026-10-24-ihsg-bangkit-hsc-2nov",
+"platform": "youtube",
+"hours": 72,
+"views": 165,
+"avg_watch_pct": 65.7,
+"hold_3s_pct": null,
+"shares": 0,
+"saves": null,
+"follows": 1
+},
+{
+"date": "2026-10-27",
+"folder": "weekly/2026-10-24",
+"platform": "instagram",
+"hours": 72,
+"views": 604,
+"avg_watch_pct": 15.4,
+"hold_3s_pct": null,
+"shares": 23,
+"saves": 2,
+"follows": null
+},
+{
+"date": "2026-10-27",
+"folder": "weekly/2026-10-24",
+"platform": "youtube",
+"hours": 72,
+"views": 4,
+"avg_watch_pct": 22.2,
+"hold_3s_pct": null,
+"shares": 0,
+"saves": null,
+"follows": 0
 }
 ]
