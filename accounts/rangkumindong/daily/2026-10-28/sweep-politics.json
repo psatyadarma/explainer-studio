@@ -1,0 +1,159 @@
+{
+ "area": "politics",
+ "run_date": "2026-10-28",
+ "checked": [
+  "Detik news front page",
+  "CNN Indonesia nasional/politik",
+  "ANTARA hukum + Politik kemarin",
+  "Tempo politik (blocked by robots)",
+  "known-events window",
+  "watch: demonstrations",
+  "watch: DPR bills (RUU Tipikor, RUU Pemilu)",
+  "watch: KPK (Nusron, Hercules: no new development)",
+  "watch: MK (military courts: covered)",
+  "watch: Gibran diploma polemic",
+  "storyline: definisi-korupsi",
+  "storyline: gibran-ijazah-mk",
+  "storyline: karhutla/survival-mode (no new politics item beyond known)"
+ ],
+ "events": [
+  {
+   "date": "2026-10-28",
+   "category": "POL",
+   "event": "Civil-society coalition Komite Sadar (Komite Selamatkan Daulat Rakyat) and student groups incl. BEM UI hold a rally on Sumpah Pemuda day at Bundaran HI, with police warning of traffic diversions around Gedung DPR/MPR, Monas and Tugu Tani; KSPI's Said Iqbal and Jakarta Governor Pramono urge a peaceful protest.",
+   "key_numbers": "28 Oct 2026, from 10:00 WIB · 5 Komite Sadar demands (national disaster declaration for karhutla, budget redirect from MBG/KDMP, lower education costs, end legal abuse, end militarisation) · 4 locations to avoid · Kapolri urges body cams for security personnel · turnout and deployment numbers not stated",
+   "storyline": "protests-prabowo-2-years",
+   "update_of": "E0152",
+   "status": "upcoming",
+   "sources": [
+    {
+     "label": "Liputan6",
+     "url": "https://www.liputan6.com/news/read/8322734/ada-demo-hari-sumpah-pemuda-di-jakarta-hindari-4-lokasi-ini"
+    },
+    {
+     "label": "tvOne News",
+     "url": "https://www.tvonenews.com/berita/475320-jelang-aksi-28-oktober-di-bundaran-hi-said-iqbal-minta-buruh-dan-mahasiswa-demonstrasi-damai-tanpa-kerusuhan"
+    },
+    {
+     "label": "Detik",
+     "url": "https://news.detik.com/berita/d-8727073/kspi-imbau-penyampaian-aspirasi-berjalan-damai-tanpa-kekerasan"
+    }
+   ],
+   "why_it_matters": "Second big street test for the Prabowo-Gibran government in a week, with demands that mix karhutla, MBG spending and civil liberties.",
+   "signals": {
+    "spreading": 2,
+    "wallet": 1,
+    "surprise": 1,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "Detik headlines 27 Oct (Pramono, Kapolri, KSPI); multiple outlets",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-10-27",
+   "category": "POL",
+   "event": "PKS (Sekjen Muhammad Kholid) says it will sound out other DPR factions on following up the MK ruling on VP Gibran's diploma, and PDIP (Sekjen Hasto Kristiyanto) says it is open to dialogue; Suara Merdeka reports talk of a hak angket with NasDem open to joining, while CNN Indonesia reports only dialogue.",
+   "key_numbers": "Hasto statement 25 Oct · Kholid statement dated 20 Oct in CNN text (as printed) · no seat counts or signature numbers reported · DPR in recess until 9 Nov 2026",
+   "storyline": "gibran-ijazah-mk",
+   "update_of": "E0305",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/nasional/20261027092510-32-1420005/pks-jajaki-sikap-soal-polemik-ijazah-gibran-pdip-buka-ruang-dialog"
+    },
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/nasional/20261025204808-32-1419503/pdip-sambut-ajakan-pks-usut-polemik-ijazah-wapres-gibran-di-dpr"
+    },
+    {
+     "label": "Suara Merdeka",
+     "url": "https://www.suaramerdeka.com/nasional/0417815308/pdip-dan-pks-gagas-penggunaan-hak-angkat-dpr-usut-ijazah-wapres-gibran-nasdem-buka-peluang-bergabung"
+    }
+   ],
+   "why_it_matters": "The diploma question moves from the court to the DPR, where only parties, not judges, can take it further.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 0,
+    "surprise": 2,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "Several CNN Indonesia headlines 25-27 Oct; Detik Komentar Terbanyak (PDIP vs relawan Gibran)",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-10-27",
+   "category": "POL",
+   "event": "Golkar's Ahmad Irawan (DPR Baleg) backs the planned UU Tipikor revision and wants wider offences (trading in influence, illicit enrichment, under-invoicing); Menko Yusril says the state-loss element will not be removed, only clarified, and that Luhut handed DEN's study to him and would also meet the DPR.",
+   "key_numbers": "Yusril: Pasal 2 and 3 called a 'pasal sapu jagat' · state-loss element stays per Yusril · no draft RUU or Prolegnas slot announced · Prabowo-ordered 'kajian mendalam' of 26 Oct still ongoing",
+   "storyline": "definisi-korupsi",
+   "update_of": "E0348",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "Detik",
+     "url": "https://news.detik.com/berita/d-8727092/anggota-baleg-dpr-dukung-revisi-uu-tipikor-dorong-perluasan-delik"
+    },
+    {
+     "label": "ANTARA",
+     "url": "https://www.antaranews.com/berita/5813599/politik-kemarin-kajian-definisi-korupsi-hingga-rapat-di-istana"
+    },
+    {
+     "label": "Bisnis",
+     "url": "https://kabar24.bisnis.com/read/20261027/16/2015704/revisi-uu-tipikor-mengemuka-pengamat-ingatkan-risiko-celah-hukum"
+    }
+   ],
+   "why_it_matters": "The idea shifts from 'delete state loss' to 'widen what counts as corruption', and DPR support is now on record.",
+   "signals": {
+    "spreading": 2,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "Detik Komentar Terbanyak 27 Oct (Sahroni/Baleg)",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-10-26",
+   "category": "POL",
+   "event": "Golkar's Ahmad Doli Kurnia (DPR Komisi II) says he does not agree with forming the KPU/Bawaslu selection committee (pansel) now while the Election Bill is unfinished, and floats two alternatives including a Perppu.",
+   "key_numbers": "Pansel for the 2027 KPU term · 2 options proposed (one reported as Perppu) · Panja RUU Pemilu formed 29 Sep",
+   "storyline": "ruu-pemilu",
+   "update_of": "E0074",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/nasional/20261026220436-32-1419910/doli-golkar-tak-setuju-pansel-kpu-dibentuk-sekarang"
+    },
+    {
+     "label": "Merdeka",
+     "url": "https://www.merdeka.com/politik/read/8321719/dpr-tak-setuju-pansel-kpu-dibentuk-sekarang-usulkan-2-jalan-keluar"
+    }
+   ],
+   "why_it_matters": "Delay in choosing election organisers could squeeze the timeline for the next election.",
+   "signals": {
+    "spreading": 0,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 0,
+    "fresh": 1,
+    "rivals": 2
+   },
+   "spreading_evidence": "",
+   "sensitivity": "normal"
+  }
+ ],
+ "gaps": [
+  "Tempo politik page could not be read (robots); Kejagung/MK had no fresh headlines on scanned pages",
+  "Whether a formal hak angket on Gibran's diploma has signatures is unverified; DPR in recess to 9 Nov",
+  "Turnout and police deployment numbers for 28 Oct rally unknown; outcome only known after the day",
+  "Kholid statement date (20 Oct) in CNN text looks inconsistent with 27 Oct article"
+ ]
+}

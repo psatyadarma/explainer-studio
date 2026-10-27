@@ -1,0 +1,198 @@
+{
+  "area": "markets",
+  "run_date": "2026-10-28",
+  "checked": ["CNBC Indonesia market page (27 Oct, 31 headlines; terpopuler list empty)", "detik finance front page (41 headlines + terpopuler/komentar terbanyak)", "Antara ekonomi (headlines + terpopuler)", "Bisnis market/ekonomi (search results only; article fetch failed)", "IHSG close and movers", "foreign flows", "rupiah / BI", "OJK / BEI actions on MSCI", "MSCI storyline", "rupiah storyline", "APBN / regional budget / tax", "gas and fuel / oil", "Danantara / BUMN / Kopdes", "bank Q3 earnings", "Fed FOMC (search)"],
+  "events": [
+    {
+      "date": "2026-10-27",
+      "category": "MKT",
+      "event": "The IHSG closed down 1.99% at 5,266.13 after falling about 3% intraday at 15:00 WIB, with 657 stocks falling against 101 rising, amid MSCI downgrade fears, foreign selling, a weak rupiah and a jump in the 10-year bond yield.",
+      "key_numbers": "Close 5,266.13 (-106.96 pts, -1.99%) · intraday high 5,418.14, low 5,182.37 · at 15:00 WIB 5,211.28 (-3.01%) · 10-year SBN yield 7.52%, highest since Nov 2022 · infrastructure -6.1%, basic materials -3.7%, technology -2.9% · turnover Rp16.23 T · month -13.98%, YTD -39.10% (detik) · breadth 101 up / 657 down (CNBC)",
+      "storyline": "msci-reclassification",
+      "update_of": "E0330",
+      "status": "verified",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/market/20261027160632-17-779905/akhiri-perdagangan-ihsg-ditutup-turun-199-ke-level-5266"},
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/market/20261027155002-17-779895/ihsg-ambles-3-sore-ini-analis-ungkap-penyebabnya"},
+        {"label": "detikFinance", "url": "https://finance.detik.com/bursa-dan-valas/d-8726459/ihsg-hari-ini-ditutup-melemah-ke-level-5-266"}
+      ],
+      "why_it_matters": "The index is down about 39% this year, which hits retail investors' portfolios and pension and fund holdings.",
+      "signals": {"spreading": 2, "wallet": 1, "surprise": 2, "visual": 2, "fresh": 2, "rivals": 0},
+      "spreading_evidence": "Several CNBC Indonesia 'Breaking' pieces and detik headlines on 27 Oct; Antara terpopuler has an IHSG item",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-27",
+      "category": "MKT",
+      "event": "The rupiah closed weaker at Rp18,145 per USD, 25 points from its record-low close of Rp18,170 set on 8 June 2026, while BI Governor Destry Damayanti pointed to the widening current account deficit.",
+      "key_numbers": "Close Rp18,145/USD (-0.19% from Rp18,110) · range Rp18,120-18,155 · record low close Rp18,170 on 8 Jun 2026 · DXY 102.122 · CAD Q2 2026 US$12.49 B (3.34% of GDP) vs US$3.58 B (0.97%) in Q1 · CME FedWatch ~73% chance of at least one hike by Dec",
+      "storyline": "rupiah",
+      "update_of": "E0326",
+      "status": "partial",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/market/20261027150114-17-779870/rupiah-akhiri-perdagangan-di-zona-merah-dolar-as-parkir-di-rp18145"}
+      ],
+      "why_it_matters": "A weaker rupiah makes imports, fuel and overseas trips pricier.",
+      "signals": {"spreading": 1, "wallet": 2, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-27",
+      "category": "MKT",
+      "event": "OJK chair Friderica Widyasari Dewi said enforcement is the only item MSCI flagged that does not yet meet expectations, with the other concerns on disclosure, transparency and liquidity met, and promised more details soon.",
+      "key_numbers": "Largest sanction Rp1.5 T (OJK calls it the biggest in capital-market history) · other sanctions Rp500 B and Rp100 B · BEI: HSC stocks excluded from IHSG calculation from 2 Nov 2026",
+      "storyline": "msci-reclassification",
+      "update_of": "E0252",
+      "status": "partial",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/market/20261027115838-17-779798/ojk-buka-bukaan-soal-1-hal-yang-jadi-catatan-msci-ke-bursa-ri"},
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/market/20261027152855-17-779884/soal-dana-asing-masih-lari-dari-bursa-ri-ini-kata-bei"}
+      ],
+      "why_it_matters": "Whether MSCI downgrades Indonesia to Standalone decides how much foreign money leaves the stock market.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 0, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-27",
+      "category": "BIZ",
+      "event": "Bank Mandiri disclosed a Rp40 trillion credit facility to Haji Isam's PT Jhonlin Baratama, secured partly by pledged JARR and PGUN shares, and said collateral covers 150% of the facility.",
+      "key_numbers": "Facility limit Rp40 T · drawn Rp17 T · collateral ratio 150% · collateral: fixed and non-fixed assets, JARR and PGUN shares, Jhonlin Baratama account · repayment based on existing coal cash flow",
+      "storyline": "",
+      "update_of": "E0101",
+      "status": "verified",
+      "sources": [
+        {"label": "detikFinance", "url": "https://finance.detik.com/bursa-dan-valas/d-8725615/perusahaan-haji-isam-dapat-pinjaman-rp-40-triliun-dari-bank-mandiri"},
+        {"label": "detikFinance", "url": "https://finance.detik.com/bursa-dan-valas/d-8726492/bank-mandiri-pastikan-pengelolaan-risiko-kredit-jhonlin-tetap-terjaga"}
+      ],
+      "why_it_matters": "A state bank lending against shares in a volatile market raises questions about risk to public money.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 2, "visual": 2, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "detik finance #3 headline",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-10-26",
+      "category": "ECO",
+      "event": "Energy Minister Bahlil said Indonesia cut pipeline gas exports to Singapore by 31 BBTUD, citing pipeline maintenance and domestic needs, and denied it was a dispute with Singapore.",
+      "key_numbers": "Total pipeline exports to Singapore 409.55 BBTUD · cut 31 BBTUD (~8%) · stated contract minimum ~91-92 BBTUD · Bahlil says the cut is above the minimum",
+      "storyline": "",
+      "update_of": "E0227",
+      "status": "verified",
+      "sources": [
+        {"label": "detikFinance", "url": "https://finance.detik.com/energi/d-8725370/dua-penyebab-ri-pangkas-ekspor-gas-ke-singapura"},
+        {"label": "detikFinance", "url": "https://finance.detik.com/energi/d-8726272/luhut-bantah-pengurangan-ekspor-gas-ri-bakal-picu-konflik-dengan-singapura"},
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/market/20261027144652-17-779868/hadapi-singapura-luhut-kita-harus-punya-posisi-yang-jelas"}
+      ],
+      "why_it_matters": "It adds to the Indonesia-Singapore tension over haze and the stock market, with energy as leverage.",
+      "signals": {"spreading": 2, "wallet": 1, "surprise": 2, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "Three detik/CNBC pieces on 27 Oct",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-27",
+      "category": "ECO",
+      "event": "Home Minister Tito Karnavian and Finance Minister Suahasil Nazara said some regions struggle to pay civil servants because personnel spending takes 40-50% of their budgets, and the centre will keep supporting them.",
+      "key_numbers": "Personnel spending 40-50% of APBD · additional TKD Rp20.5 T · TKD initial allocation Rp693 T, now ~Rp720 T · Rp10.6 T extra TKD for flood and landslide areas",
+      "storyline": "",
+      "update_of": "E0331",
+      "status": "verified",
+      "sources": [
+        {"label": "detikFinance", "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8726936/daerah-kesulitan-bayar-gaji-pegawai-dua-menteri-prabowo-buka-suara"},
+        {"label": "detikFinance", "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8726899/suntikan-dana-pusat-ke-daerah-tembus-rp-720-triliun"}
+      ],
+      "why_it_matters": "Local governments that cannot pay salaries may cut services, and it signals strain on public finances.",
+      "signals": {"spreading": 2, "wallet": 1, "surprise": 2, "visual": 1, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "detik finance terpopuler #1",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-08",
+      "category": "ECO",
+      "event": "The tax office (DJP) is running a programme that removes administrative tax penalties of up to 100% for late or corrected returns filed by 31 December 2026; it is not a tax amnesty and principal tax is still due.",
+      "key_numbers": "100% penalty cut for filings 8 Oct-31 Dec 2026 · 50% for 1 Jan-31 Mar 2027 · 25% for 1 Apr-30 Jun 2027 · covers annual SPT up to tax year 2025 and monthly SPT up to Sep 2026 · KEP-239/PJ/2026 (8 Oct 2026), PMK 71/2026",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "detikFinance", "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8725760/pengumuman-djp-hapus-denda-pajak-hingga-100-ini-syaratnya"}
+      ],
+      "why_it_matters": "Taxpayers with late or wrong returns can erase penalties if they act before year-end.",
+      "signals": {"spreading": 1, "wallet": 2, "surprise": 1, "visual": 2, "fresh": 1, "rivals": 2},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-10",
+      "category": "ECO",
+      "event": "Luhut Pandjaitan (DEN) said the digital social aid (bansos) system is planned to launch nationally on 10 November 2026, with 60 million people registered so far and a target of over 100 million by launch.",
+      "key_numbers": "60 million registered now · target >100 million by 10 Nov 2026 · all eligible by end-2026 · long-term shift from product subsidies to direct cash transfers",
+      "storyline": "",
+      "update_of": "",
+      "status": "upcoming",
+      "sources": [
+        {"label": "detikFinance", "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8726657/bansos-digital-meluncur-10-november-100-juta-warga-bakal-terdaftar"}
+      ],
+      "why_it_matters": "It could change who receives aid and how subsidies are paid.",
+      "signals": {"spreading": 2, "wallet": 2, "surprise": 1, "visual": 1, "fresh": 1, "rivals": 2},
+      "spreading_evidence": "detik finance terpopuler #5",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-27",
+      "category": "BIZ",
+      "event": "Danantara/BP BUMN head Dony Oskaria said the government plans to route subsidised LPG, Minyak Kita cooking oil and fertilizer through Kopdes Merah Putih cooperatives, supplied by Pertamina Patra Niaga and Pupuk Indonesia.",
+      "key_numbers": "Fertilizer 4-5 tons average order per cooperative · LPG volume and number of Kopdes not stated",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/market/20261027132021-17-779844/lpg-minyak-kita-hingga-pupuk-masuk-kopdes-merah-putih-ini-skema-bumn"}
+      ],
+      "why_it_matters": "It would change where ordinary people buy subsidised LPG, cooking oil and fertilizer.",
+      "signals": {"spreading": 1, "wallet": 2, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-27",
+      "category": "BIZ",
+      "event": "BCA reported Q3 2026 net profit of Rp45.2 trillion, and BNI reported nine-month net profit of Rp16.12 trillion with loans up 22.2% in Q3, per headlines only.",
+      "key_numbers": "BCA profit Rp45.2 T (detik headline) · BNI 9M-2026 net profit Rp16.12 T · BNI operating profit Rp27.5 T · BNI loans +22.2% · BSI buyback Rp500 B",
+      "storyline": "",
+      "update_of": "E0281",
+      "status": "partial",
+      "sources": [
+        {"label": "detikFinance", "url": "https://finance.detik.com/bursa-dan-valas/d-8726499/bca-cetak-laba-rp-45-2-triliun"},
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/market/20261027102612-18-779754/bni-cetak-rekor-laba-operasional-rp275-triliun-di-kuartal-iii-2026"}
+      ],
+      "why_it_matters": "Banks post record profits while the stock market is down 39% this year.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-28",
+      "category": "GLB",
+      "event": "The US Fed ends its FOMC meeting on 28 October, with markets expecting a hold but pricing a likely hike by December while Brent stays above US$115.",
+      "key_numbers": "CME FedWatch ~73% chance of at least one hike by Dec · Brent US$115.81 (-0.8%) and WTI US$101.76 on 27 Oct · US PCE due Thursday 29 Oct",
+      "storyline": "rupiah",
+      "update_of": "E0058",
+      "status": "upcoming",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/market/20261027150114-17-779870/rupiah-akhiri-perdagangan-di-zona-merah-dolar-as-parkir-di-rp18145"},
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/market/20261027160632-17-779905/akhiri-perdagangan-ihsg-ditutup-turun-199-ke-level-5266"}
+      ],
+      "why_it_matters": "A hawkish Fed would push the rupiah toward a new record low.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 0, "visual": 1, "fresh": 2, "rivals": 0},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    }
+  ],
+  "gaps": [
+    "Foreign net sell value for 27 Oct not found in articles read (CNBC/detik close pieces omit it; Kontan/Bisnis not fetchable)",
+    "Bisnis article on the 3% intraday drop failed to fetch; detik 'IHSG Rontok 3%, BREN-DSSA mentok' and Antara Danantara BUMN profit +18.4% blocked (permission), BCA Rp45.2 T unverified beyond headline",
+    "Headlines seen but not opened: Prabowo says Indonesia is 7th largest economy, Haji Isam / Jhonlin risk, Mubadala Andaman, Masela timeline, BI QRIS credit scoring, SBR015 Rp17 T, UEA 30 million barrels oil",
+    "No BPS release found in window; October inflation expected ~2 Nov (E0278)"
+  ]
+}

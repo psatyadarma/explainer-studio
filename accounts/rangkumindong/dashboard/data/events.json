@@ -280,6 +280,16 @@
 "upcoming": false
 },
 {
+"id": "E0356",
+"date": "2026-10-08",
+"category": "ECO",
+"event": "The tax office (DJP) is running a programme that removes administrative tax penalties of up to 100% for late or corrected returns filed by 31 December 2026; it is not a tax amnesty and principal tax is still due.",
+"key_numbers": "100% penalty cut for filings 8 Oct-31 Dec 2026 · 50% for 1 Jan-31 Mar 2027 · 25% for 1 Apr-30 Jun 2027 · covers annual SPT up to tax year 2025 and monthly SPT up to Sep 2026 · KEP-239/PJ/2026 (8 Oct 2026), PMK 71/2026",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
 "id": "E0002",
 "date": "2026-10-09",
 "category": "ECO",
@@ -3280,6 +3290,146 @@
 "upcoming": false
 },
 {
+"id": "E0354",
+"date": "2026-10-26",
+"category": "ECO",
+"event": "Energy Minister Bahlil said Indonesia cut pipeline gas exports to Singapore by 31 BBTUD, citing pipeline maintenance and domestic needs, and denied it was a dispute with Singapore. (update of E0227)",
+"key_numbers": "Total pipeline exports to Singapore 409.55 BBTUD · cut 31 BBTUD (~8%) · stated contract minimum ~91-92 BBTUD · Bahlil says the cut is above the minimum",
+"storyline": "",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0363",
+"date": "2026-10-26",
+"category": "POL",
+"event": "Golkar's Ahmad Doli Kurnia (DPR Komisi II) says he does not agree with forming the KPU/Bawaslu selection committee (pansel) now while the Election Bill is unfinished, and floats two alternatives including a Perppu. (update of E0074)",
+"key_numbers": "Pansel for the 2027 KPU term · 2 options proposed (one reported as Perppu) · Panja RUU Pemilu formed 29 Sep",
+"storyline": "ruu-pemilu",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0364",
+"date": "2026-10-26",
+"category": "TECH",
+"event": "Communications and Digital Minister Meutya Hafid said YouTube and Meta platforms (Instagram, Threads) are high-risk for children and should not be used by them, and wants platforms to self-rate and display age limits like film ratings.",
+"key_numbers": "Example rating '17 tahun ke atas' · criticised the common 13+ practice · no deadline or sanction stated · said at Kosgoro discussion, Senayan, 26 Oct 2026",
+"storyline": "child-online-protection",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0365",
+"date": "2026-10-26",
+"category": "TECH",
+"event": "Danantara presented more than 40 projects across six clusters at its Technology Innovation Investment Forum 2026, including a 1 GW data centre, AI chips with Arm, a national e-commerce platform, sovereign cloud and a national car and motorcycle project. (update of E0140)",
+"key_numbers": "40+ projects · 6 clusters · 1 GW data centre · 6 semiconductor sectors · Arm partnership to train 15,000 digital talents · no investment value given",
+"storyline": "ai-data-centres",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0366",
+"date": "2026-10-26",
+"category": "TECH",
+"event": "Deputy Minister Nezar Patria said Komdigi is concerned about AI-made short-drama content on social media that funnels users to paid apps with pornography, sexual violence and online gambling, and is considering involving the Film Censorship Board (LSF).",
+"key_numbers": "No figures given · shared dashboard with platforms · unregistered OTT apps targeted",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0367",
+"date": "2026-10-26",
+"category": "TECH",
+"event": "Komdigi urged platforms to be transparent about algorithms, moderation and AI use after claims that karhutla content was restricted, repeating that it never asked for takedowns and saying Meta AI chatbot answers are not proof of government orders. (update of E0310)",
+"key_numbers": "Moderation 'on content, not accounts' · Meta clarification requested (22-23 Oct) · 'trust but verify' for AI answers",
+"storyline": "karhutla",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0368",
+"date": "2026-10-26",
+"category": "TECH",
+"event": "The Ministry of Manpower (Kemnaker) warned of scams using the 2026 Bantuan Subsidi Upah (BSU) name via fake links on WhatsApp and Instagram, saying the only official site is bsu.kemnaker.go.id.",
+"key_numbers": "4 protective steps · no payout amount, loss or victim count given",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0369",
+"date": "2026-10-26",
+"category": "TECH",
+"event": "Komdigi's CSIRT warned organisations to patch the critical PHP2Shell flaws, saying firewalls alone are not enough and that active exploitation has been reported. (update of E0239)",
+"key_numbers": "CVE-2026-109618 and CVE-2026-109619 · CVSS v4.0 9.2 each · nearly all PHP versions since 5.4 · fixed in PHP 8.5.12, 8.4.27, 8.3.36, 8.2.35 · patch released 21 Oct",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0370",
+"date": "2026-10-26",
+"category": "GLB",
+"event": "Japan's GMO Internet Group and Park24 said they will compensate customers after major data breaches, as a wave of attacks linked to the PHP flaw and AI-driven hacking hits Japanese firms. (update of E0311)",
+"key_numbers": "GMO: 5,000 yen (~Rp577,000) per customer, shares -15% · Park24: 3,000 yen (~Rp346,000) per customer, loss up to 5.5 bn yen (~Rp634 bn) · 723 cyber incidents in Japan through 20 Oct 2026, above full-year 2024 and 2025",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0371",
+"date": "2026-10-26",
+"category": "TECH",
+"event": "Elon Musk said SpaceX signed a US$40 billion debt deal to buy Nvidia GPUs for its AI unit, and warned more than 200 AI cloud providers could fail or merge.",
+"key_numbers": "US$40 bn (~Rp724,460 T per CNBC) · chips due Q1-Q2 2027 · AI unit Q3 revenue US$7.56 bn vs US$813 M a year earlier (~9x) · 200+ AI cloud providers at risk",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0376",
+"date": "2026-10-26",
+"category": "NEWS",
+"event": "Government sets 11-13% discount on domestic economy airfares for Nataru via a 100% government-borne VAT (PPN DTP) on base fare and fuel surcharge.",
+"key_numbers": "11-13% discount · Rp722 billion budget · ~3.7 million passengers · flights 22 Dec 2026-10 Jan 2027 · tickets bought 20 Oct 2026-10 Jan 2027 (per CNBC)",
+"storyline": "",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0377",
+"date": "2026-10-26",
+"category": "NEWS",
+"event": "DKI Jakarta and Bekasi city extend the Bantargebang waste-site cooperation by five years, signed by Governor Pramono Anung and Mayor Tri Adhianto, with Jakarta contributing about Rp362 billion.",
+"key_numbers": "5-year extension · ~Rp362 billion · signed 26 Oct 2026 · ~4,000 (unit unstated, presumably tons) of waste going to Bantargebang",
+"storyline": "",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0378",
+"date": "2026-10-26",
+"category": "NEWS",
+"event": "A Tangerang mechanic, Yudariansyah, was billed for two years of vehicle tax on a McLaren 570S (B-570-H) registered in his name; Samsat Ciledug found he does not own it and blocked the data on 24 Oct.",
+"key_numbers": "Rp137.4 million tax arrears (per Medcom, Kumparan; Detik says 'hundreds of millions') · 2 years unpaid · address checked 23 Oct · data blocked 24 Oct",
+"storyline": "",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0379",
+"date": "2026-10-26",
+"category": "NEWS",
+"event": "Police and DPR react to alleged bullying of 13 female students at SMPN 10 Ciputat (Tangsel), who were reportedly forced by senior students to drink a coffee-vinegar mix after losing 'challenges'; 3 were hospitalised. (update of E0300)",
+"key_numbers": "13 victims · 3 hospitalised (stomach pain) · police comment 24 Oct · no suspect named in sources read",
+"storyline": "",
+"status": "verified",
+"upcoming": false
+},
+{
 "id": "E0281",
 "date": "2026-10-27",
 "category": "BIZ",
@@ -3307,6 +3457,136 @@
 "key_numbers": "MK case 260/PUU-XXIII/2025 (cited as /2026 by ANTARA), ruling 15 Oct 2026 · amendment deadline: 2 years · ordinary crimes by soldiers to go to civilian courts",
 "storyline": "mk-peradilan-militer",
 "status": "partial",
+"upcoming": false
+},
+{
+"id": "E0350",
+"date": "2026-10-27",
+"category": "MKT",
+"event": "The IHSG closed down 1.99% at 5,266.13 after falling about 3% intraday at 15:00 WIB, with 657 stocks falling against 101 rising, amid MSCI downgrade fears, foreign selling, a weak rupiah and a jump in the 10-year bond yield. (update of E0330)",
+"key_numbers": "Close 5,266.13 (-106.96 pts, -1.99%) · intraday high 5,418.14, low 5,182.37 · at 15:00 WIB 5,211.28 (-3.01%) · 10-year SBN yield 7.52%, highest since Nov 2022 · infrastructure -6.1%, basic materials -3.7%, technology -2.9% · turnover Rp16.23 T · month -13.98%, YTD -39.10% (detik) · breadth 101 up / 657 down (CNBC)",
+"storyline": "msci-reclassification",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0351",
+"date": "2026-10-27",
+"category": "MKT",
+"event": "The rupiah closed weaker at Rp18,145 per USD, 25 points from its record-low close of Rp18,170 set on 8 June 2026, while BI Governor Destry Damayanti pointed to the widening current account deficit. (update of E0326)",
+"key_numbers": "Close Rp18,145/USD (-0.19% from Rp18,110) · range Rp18,120-18,155 · record low close Rp18,170 on 8 Jun 2026 · DXY 102.122 · CAD Q2 2026 US$12.49 B (3.34% of GDP) vs US$3.58 B (0.97%) in Q1 · CME FedWatch ~73% chance of at least one hike by Dec",
+"storyline": "rupiah",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0352",
+"date": "2026-10-27",
+"category": "MKT",
+"event": "OJK chair Friderica Widyasari Dewi said enforcement is the only item MSCI flagged that does not yet meet expectations, with the other concerns on disclosure, transparency and liquidity met, and promised more details soon. (update of E0252)",
+"key_numbers": "Largest sanction Rp1.5 T (OJK calls it the biggest in capital-market history) · other sanctions Rp500 B and Rp100 B · BEI: HSC stocks excluded from IHSG calculation from 2 Nov 2026",
+"storyline": "msci-reclassification",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0353",
+"date": "2026-10-27",
+"category": "BIZ",
+"event": "Bank Mandiri disclosed a Rp40 trillion credit facility to Haji Isam's PT Jhonlin Baratama, secured partly by pledged JARR and PGUN shares, and said collateral covers 150% of the facility. (update of E0101)",
+"key_numbers": "Facility limit Rp40 T · drawn Rp17 T · collateral ratio 150% · collateral: fixed and non-fixed assets, JARR and PGUN shares, Jhonlin Baratama account · repayment based on existing coal cash flow",
+"storyline": "",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0355",
+"date": "2026-10-27",
+"category": "ECO",
+"event": "Home Minister Tito Karnavian and Finance Minister Suahasil Nazara said some regions struggle to pay civil servants because personnel spending takes 40-50% of their budgets, and the centre will keep supporting them. (update of E0331)",
+"key_numbers": "Personnel spending 40-50% of APBD · additional TKD Rp20.5 T · TKD initial allocation Rp693 T, now ~Rp720 T · Rp10.6 T extra TKD for flood and landslide areas",
+"storyline": "",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0358",
+"date": "2026-10-27",
+"category": "BIZ",
+"event": "Danantara/BP BUMN head Dony Oskaria said the government plans to route subsidised LPG, Minyak Kita cooking oil and fertilizer through Kopdes Merah Putih cooperatives, supplied by Pertamina Patra Niaga and Pupuk Indonesia.",
+"key_numbers": "Fertilizer 4-5 tons average order per cooperative · LPG volume and number of Kopdes not stated",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0359",
+"date": "2026-10-27",
+"category": "BIZ",
+"event": "BCA reported Q3 2026 net profit of Rp45.2 trillion, and BNI reported nine-month net profit of Rp16.12 trillion with loans up 22.2% in Q3, per headlines only. (update of E0281)",
+"key_numbers": "BCA profit Rp45.2 T (detik headline) · BNI 9M-2026 net profit Rp16.12 T · BNI operating profit Rp27.5 T · BNI loans +22.2% · BSI buyback Rp500 B",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0361",
+"date": "2026-10-27",
+"category": "POL",
+"event": "PKS (Sekjen Muhammad Kholid) says it will sound out other DPR factions on following up the MK ruling on VP Gibran's diploma, and PDIP (Sekjen Hasto Kristiyanto) says it is open to dialogue; Suara Merdeka reports talk of a hak angket with NasDem open to joining, while CNN Indonesia reports only dialogue. (update of E0305)",
+"key_numbers": "Hasto statement 25 Oct · Kholid statement dated 20 Oct in CNN text (as printed) · no seat counts or signature numbers reported · DPR in recess until 9 Nov 2026",
+"storyline": "gibran-ijazah-mk",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0362",
+"date": "2026-10-27",
+"category": "POL",
+"event": "Golkar's Ahmad Irawan (DPR Baleg) backs the planned UU Tipikor revision and wants wider offences (trading in influence, illicit enrichment, under-invoicing); Menko Yusril says the state-loss element will not be removed, only clarified, and that Luhut handed DEN's study to him and would also meet the DPR. (update of E0348)",
+"key_numbers": "Yusril: Pasal 2 and 3 called a 'pasal sapu jagat' · state-loss element stays per Yusril · no draft RUU or Prolegnas slot announced · Prabowo-ordered 'kajian mendalam' of 26 Oct still ongoing",
+"storyline": "definisi-korupsi",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0372",
+"date": "2026-10-27",
+"category": "ENV",
+"event": "Kemenhub says haze from karhutla disrupted 3,030 flights between 14 Aug and 25 Oct 2026, with about 1,700 (56%) cancelled, while stating no airport was closed. (update of E0102)",
+"key_numbers": "3,030 flights disrupted · ~1,700 cancelled (56%) · 154 routes · 14 Aug-25 Oct 2026 · earlier tally 2,458 flights at 29 airports (to 17 Oct)",
+"storyline": "karhutla",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0373",
+"date": "2026-10-27",
+"category": "ENV",
+"event": "Malaysia offers Indonesia one CL-415MP amphibious aircraft, one Mi-171 helicopter and 44 personnel to fight karhutla, discussed with BNPB head Kristomei Sianturi; Indonesia keeps operational control. (update of E0104)",
+"key_numbers": "1 amphibious aircraft · 1 helicopter · 44 personnel · earlier offer: CL-415MP + 3 helicopters + 50 personnel (undated) · national response 71,878 ground personnel and 63 air assets as of 25 Oct",
+"storyline": "karhutla",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0374",
+"date": "2026-10-27",
+"category": "NEWS",
+"event": "A Bogor-bound KRL at Jakarta Kota station emitted white smoke and a loud bang, reported by KAI to be caused by the pantograph; passengers panicked and ran, and videos went viral.",
+"key_numbers": "~19:55 WIB 27 Oct (article timestamp) · no casualties reported · cause per KAI: pantograf (final inspection pending)",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0375",
+"date": "2026-10-27",
+"category": "NEWS",
+"event": "A viral video shows a towing truck carrying a car at a Tol Cipali gate told to tap two toll cards; Tol Cipali operator apologised, said towing trucks pay only by their own vehicle class, and cited a gate-officer identification mismatch.",
+"key_numbers": "Rule: toll charged by towing truck's class, nothing for the carried car · fare amounts not reported",
+"storyline": "",
+"status": "verified",
 "upcoming": false
 },
 {
@@ -3380,6 +3660,16 @@
 "upcoming": true
 },
 {
+"id": "E0360",
+"date": "2026-10-28",
+"category": "POL",
+"event": "Civil-society coalition Komite Sadar (Komite Selamatkan Daulat Rakyat) and student groups incl. BEM UI hold a rally on Sumpah Pemuda day at Bundaran HI, with police warning of traffic diversions around Gedung DPR/MPR, Monas and Tugu Tani; KSPI's Said Iqbal and Jakarta Governor Pramono urge a peaceful protest. (update of E0152)",
+"key_numbers": "28 Oct 2026, from 10:00 WIB · 5 Komite Sadar demands (national disaster declaration for karhutla, budget redirect from MBG/KDMP, lower education costs, end legal abuse, end militarisation) · 4 locations to avoid · Kapolri urges body cams for security personnel · turnout and deployment numbers not stated",
+"storyline": "protests-prabowo-2-years",
+"status": "upcoming",
+"upcoming": true
+},
+{
 "id": "E0290",
 "date": "2026-10-30",
 "category": "TECH",
@@ -3445,6 +3735,16 @@
 "category": "TECH",
 "event": "Katadata reports Prabowo will launch Perlinsos Digital on 10 November 2026, targeting 50 million recipients. (update of E0041)",
 "key_numbers": "Launch 10 Nov 2026 · 50 juta penerima target · article body not read (headline and summary only)",
+"storyline": "",
+"status": "upcoming",
+"upcoming": true
+},
+{
+"id": "E0357",
+"date": "2026-11-10",
+"category": "ECO",
+"event": "Luhut Pandjaitan (DEN) said the digital social aid (bansos) system is planned to launch nationally on 10 November 2026, with 60 million people registered so far and a target of over 100 million by launch.",
+"key_numbers": "60 million registered now · target >100 million by 10 Nov 2026 · all eligible by end-2026 · long-term shift from product subsidies to direct cash transfers",
 "storyline": "",
 "status": "upcoming",
 "upcoming": true

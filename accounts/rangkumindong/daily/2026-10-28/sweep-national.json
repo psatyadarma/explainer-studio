@@ -1,0 +1,151 @@
+{
+  "area": "national",
+  "run_date": "2026-10-28",
+  "checked": ["detik terpopuler/news (27 Oct 09:04 WIB)", "CNBC Indonesia /news (27 Oct)", "CNN Indonesia /nasional (27 Oct)", "Antara cek fakta tag (stale, latest Aug 2026)", "Antara humaniora (search only)", "Watch list found: karhutla/haze, public transport (KRL, toll), viral incidents, education bullying, Nataru travel, Bantargebang", "Storyline search: karhutla (flights, Malaysia aid)", "Storyline headlines seen: definisi-korupsi (Luhut, Sahroni), not re-reported (already E0348)"],
+  "events": [
+    {
+      "date": "2026-10-27",
+      "category": "ENV",
+      "event": "Kemenhub says haze from karhutla disrupted 3,030 flights between 14 Aug and 25 Oct 2026, with about 1,700 (56%) cancelled, while stating no airport was closed.",
+      "key_numbers": "3,030 flights disrupted · ~1,700 cancelled (56%) · 154 routes · 14 Aug-25 Oct 2026 · earlier tally 2,458 flights at 29 airports (to 17 Oct)",
+      "storyline": "karhutla",
+      "update_of": "E0102",
+      "status": "verified",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/news/20261027082902-8-779713/video-kabut-asap-karhutla-ganggu-3030-penerbangan-1700-dibatalkan"},
+        {"label": "Kontan", "url": "https://industri.kontan.co.id/news/karhutla-ganggu-3030-penerbangan-kemenhub-pastikan-bandara-tetap-beroperasi"}
+      ],
+      "why_it_matters": "Haze is now costing travellers thousands of cancelled flights, just before the Nataru travel season.",
+      "signals": {"spreading": 2, "wallet": 1, "surprise": 2, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "CNBC Indonesia news list (top 15, 27 Oct); multiple regional outlets",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-27",
+      "category": "ENV",
+      "event": "Malaysia offers Indonesia one CL-415MP amphibious aircraft, one Mi-171 helicopter and 44 personnel to fight karhutla, discussed with BNPB head Kristomei Sianturi; Indonesia keeps operational control.",
+      "key_numbers": "1 amphibious aircraft · 1 helicopter · 44 personnel · earlier offer: CL-415MP + 3 helicopters + 50 personnel (undated) · national response 71,878 ground personnel and 63 air assets as of 25 Oct",
+      "storyline": "karhutla",
+      "update_of": "E0104",
+      "status": "verified",
+      "sources": [
+        {"label": "Antara", "url": "https://www.antaranews.com/berita/5815483/bnpb-bahas-dukungan-kerja-sama-malaysia-untuk-penanganan-karhutla"},
+        {"label": "Okezone", "url": "https://news.okezone.com/read/2026/10/27/337/3250542/atasi-karhutla-malaysia-tawarkan-bantuan-pesawat-amfibi-hingga-44-personel"},
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261027213701-20-1420343/bnpb-malaysia-tawarkan-bantuan-pesawat-dan-heli-atasi-karhutla"}
+      ],
+      "why_it_matters": "The country whose air is being choked by Indonesian haze is now offering to help put the fires out.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "CNN Indonesia nasional #1 (27 Oct)",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-27",
+      "category": "NEWS",
+      "event": "A Bogor-bound KRL at Jakarta Kota station emitted white smoke and a loud bang, reported by KAI to be caused by the pantograph; passengers panicked and ran, and videos went viral.",
+      "key_numbers": "~19:55 WIB 27 Oct (article timestamp) · no casualties reported · cause per KAI: pantograf (final inspection pending)",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261027193329-24-1420291/detik-detik-ledakan-krl-dan-kepanikan-di-stasiun-jakarta-kota"},
+        {"label": "Republika", "url": "https://ekonomi.republika.co.id/berita/tnki0m423/terdengar-suara-ledakan-di-atas-gerbong-krl-kai-akibat-pantograf"},
+        {"label": "Detik", "url": "https://news.detik.com/berita/d-8726821/krl-di-stasiun-jakarta-kota-keluarkan-asap-penumpang-dengar-ledakan"}
+      ],
+      "why_it_matters": "Millions of Jabodetabek commuters ride KRL daily, and it follows reports of overcrowding and cancelled trips.",
+      "signals": {"spreading": 2, "wallet": 1, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "Viral videos on social media per CNN Indonesia, Detik, iNews, IDN Times; CNN nasional list",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-27",
+      "category": "NEWS",
+      "event": "A viral video shows a towing truck carrying a car at a Tol Cipali gate told to tap two toll cards; Tol Cipali operator apologised, said towing trucks pay only by their own vehicle class, and cited a gate-officer identification mismatch.",
+      "key_numbers": "Rule: toll charged by towing truck's class, nothing for the carried car · fare amounts not reported",
+      "storyline": "",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "Detik", "url": "https://news.detik.com/berita/d-8727080/viral-truk-towing-bawa-mobil-diminta-bayar-2-kali-tol-cipali-buka-suara"},
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261027200233-20-1420311/mti-soroti-viral-polemik-truk-towing-bayar-dua-kartu-tol"}
+      ],
+      "why_it_matters": "Motorists can be wrongly charged at toll gates and should know the actual rule.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "Viral video; CNN Indonesia nasional list, Detik berita",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-26",
+      "category": "NEWS",
+      "event": "Government sets 11-13% discount on domestic economy airfares for Nataru via a 100% government-borne VAT (PPN DTP) on base fare and fuel surcharge.",
+      "key_numbers": "11-13% discount · Rp722 billion budget · ~3.7 million passengers · flights 22 Dec 2026-10 Jan 2027 · tickets bought 20 Oct 2026-10 Jan 2027 (per CNBC)",
+      "storyline": "",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/news/20261026202026-4-779654/ada-diskon-tiket-pesawat-11-13-saat-nataru-ini-jadwalnya"},
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/ekonomi/20261027071327-92-1419948/diskon-tiket-pesawat-nataru-hingga-13-persen-cek-jadwalnya"}
+      ],
+      "why_it_matters": "Cheaper Christmas and New Year flights, but only the VAT part is discounted, so the saving is limited.",
+      "signals": {"spreading": 2, "wallet": 2, "surprise": 0, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "CNBC Indonesia news list; covered by CNN, Suara, Investor.id, Bloomberg Technoz",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-26",
+      "category": "NEWS",
+      "event": "DKI Jakarta and Bekasi city extend the Bantargebang waste-site cooperation by five years, signed by Governor Pramono Anung and Mayor Tri Adhianto, with Jakarta contributing about Rp362 billion.",
+      "key_numbers": "5-year extension · ~Rp362 billion · signed 26 Oct 2026 · ~4,000 (unit unstated, presumably tons) of waste going to Bantargebang",
+      "storyline": "",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "Liputan6", "url": "https://www.liputan6.com/news/read/8321436/kerja-sama-sampah-bantargebang-diperpanjang-dki-kucurkan-rp-362-miliar"},
+        {"label": "Antara", "url": "https://www.antaranews.com/berita/5811991/dki-dan-bekasi-perpanjang-kerja-sama-pengelolaan-tpst-bantargebang"}
+      ],
+      "why_it_matters": "Jakarta's waste still depends on one landfill in Bekasi, and the cost to keep it open is large.",
+      "signals": {"spreading": 2, "wallet": 0, "surprise": 0, "visual": 1, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "Detik terpopuler news #1 (27 Oct)",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-26",
+      "category": "NEWS",
+      "event": "A Tangerang mechanic, Yudariansyah, was billed for two years of vehicle tax on a McLaren 570S (B-570-H) registered in his name; Samsat Ciledug found he does not own it and blocked the data on 24 Oct.",
+      "key_numbers": "Rp137.4 million tax arrears (per Medcom, Kumparan; Detik says 'hundreds of millions') · 2 years unpaid · address checked 23 Oct · data blocked 24 Oct",
+      "storyline": "",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "Detik", "url": "https://news.detik.com/berita/d-8724371/duduk-perkara-montir-di-tangerang-ditagih-pajak-mclaren-ratusan-juta"},
+        {"label": "Medcom", "url": "https://www.medcom.id/otomotif/mobil/GNGGpwvN-mclaren-nunggak-pajak-rp137-juta-atas-nama-montir-ini-faktanya"}
+      ],
+      "why_it_matters": "Anyone's identity can be used to register a vehicle, so people should check their own registered data.",
+      "signals": {"spreading": 2, "wallet": 1, "surprise": 2, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "Detik terpopuler news #5 and #7 (27 Oct)",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-10-26",
+      "category": "NEWS",
+      "event": "Police and DPR react to alleged bullying of 13 female students at SMPN 10 Ciputat (Tangsel), who were reportedly forced by senior students to drink a coffee-vinegar mix after losing 'challenges'; 3 were hospitalised.",
+      "key_numbers": "13 victims · 3 hospitalised (stomach pain) · police comment 24 Oct · no suspect named in sources read",
+      "storyline": "",
+      "update_of": "E0300",
+      "status": "verified",
+      "sources": [
+        {"label": "Detik", "url": "https://news.detik.com/berita/d-8725231/komisi-x-minta-aparat-cek-unsur-pidana-bullying-13-siswi-smp-ciputat-ekstrem"},
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261024171812-12-1419239/13-siswi-smp-di-ciputat-diduga-dipalak-dan-dipaksa-minum-kopi-cuka"}
+      ],
+      "why_it_matters": "School bullying keeps escalating to physical harm, and parents want to know what schools and police must do.",
+      "signals": {"spreading": 2, "wallet": 0, "surprise": 1, "visual": 0, "fresh": 1, "rivals": 1},
+      "spreading_evidence": "Detik terpopuler news #13 and #20 (27 Oct)",
+      "sensitivity": "high"
+    }
+  ],
+  "gaps": [
+    "No fresh hoax found: Antara cek-fakta tag page was stale (latest Aug 2026); turnbackhoax not checked",
+    "KPK examining BNPB Sestama and seizing procurement documents (CNN Indonesia, 27 Oct) not opened; may update E0047/E0065",
+    "Madiun murder-and-burning case, rig sinking (1 dead, 4 missing) and 'gluten free palsu' bakery case (2025 origin, new police statements 26 Oct) seen in headlines but not verified",
+    "Stok beras 25 juta ton (CNBC) and KRL overcrowding (Kemenhub urges KAI to add trains) not opened"
+  ]
+}
