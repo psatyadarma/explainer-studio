@@ -1,0 +1,1029 @@
+{
+ "duration": 81.366,
+ "voice": "Pratama",
+ "variant": "b",
+ "hook_style": "myth",
+ "lines": [
+  {
+   "id": "hb1",
+   "text": "Katanya korupsi mau dipersempit.",
+   "start": 0.232,
+   "end": 1.656,
+   "words": [
+    {
+     "w": "Katanya",
+     "start": 0.232,
+     "end": 0.416
+    },
+    {
+     "w": "korupsi",
+     "start": 0.456,
+     "end": 0.816
+    },
+    {
+     "w": "mau",
+     "start": 0.856,
+     "end": 0.976
+    },
+    {
+     "w": "dipersempit.",
+     "start": 1.036,
+     "end": 1.656
+    }
+   ]
+  },
+  {
+   "id": "hb2",
+   "text": "Kata Yusril, malah diperluas.",
+   "start": 1.874,
+   "end": 3.92,
+   "words": [
+    {
+     "w": "Kata",
+     "start": 1.874,
+     "end": 1.906
+    },
+    {
+     "w": "Yusril,",
+     "start": 1.946,
+     "end": 2.666
+    },
+    {
+     "w": "malah",
+     "start": 2.736,
+     "end": 3.026
+    },
+    {
+     "w": "diperluas.",
+     "start": 3.066,
+     "end": 3.92
+    }
+   ]
+  },
+  {
+   "id": "rd",
+   "text": "Rangkumin dong!",
+   "start": 4.092,
+   "end": 5.051,
+   "words": [
+    {
+     "w": "Rangkumin",
+     "start": 4.092,
+     "end": 4.571
+    },
+    {
+     "w": "dong!",
+     "start": 4.571,
+     "end": 5.051
+    }
+   ]
+  },
+  {
+   "id": "l1",
+   "text": "Minggu lalu, Luhut usul definisi korupsi ikut versi PBB, yang fokus ke suap.",
+   "start": 5.528,
+   "end": 10.85,
+   "words": [
+    {
+     "w": "Minggu",
+     "start": 5.529,
+     "end": 5.641
+    },
+    {
+     "w": "lalu,",
+     "start": 5.681,
+     "end": 6.211
+    },
+    {
+     "w": "Luhut",
+     "start": 6.251,
+     "end": 6.531
+    },
+    {
+     "w": "usul",
+     "start": 6.611,
+     "end": 6.931
+    },
+    {
+     "w": "definisi",
+     "start": 6.984,
+     "end": 7.411
+    },
+    {
+     "w": "korupsi",
+     "start": 7.451,
+     "end": 7.891
+    },
+    {
+     "w": "ikut",
+     "start": 7.971,
+     "end": 8.211
+    },
+    {
+     "w": "versi",
+     "start": 8.275,
+     "end": 8.691
+    },
+    {
+     "w": "PBB,",
+     "start": 8.771,
+     "end": 9.531
+    },
+    {
+     "w": "yang",
+     "start": 9.571,
+     "end": 9.731
+    },
+    {
+     "w": "fokus",
+     "start": 9.811,
+     "end": 10.291
+    },
+    {
+     "w": "ke",
+     "start": 10.344,
+     "end": 10.451
+    },
+    {
+     "w": "suap.",
+     "start": 10.504,
+     "end": 10.851
+    }
+   ]
+  },
+  {
+   "id": "l2",
+   "text": "Ketua KPK bilang kerugian negara harus tetap. Yusril bilang usul itu layak dipertimbangkan.",
+   "start": 11.11,
+   "end": 16.7,
+   "words": [
+    {
+     "w": "Ketua",
+     "start": 11.111,
+     "end": 11.391
+    },
+    {
+     "w": "KPK",
+     "start": 11.418,
+     "end": 11.951
+    },
+    {
+     "w": "bilang",
+     "start": 12.031,
+     "end": 12.351
+    },
+    {
+     "w": "kerugian",
+     "start": 12.391,
+     "end": 12.751
+    },
+    {
+     "w": "negara",
+     "start": 12.811,
+     "end": 13.151
+    },
+    {
+     "w": "harus",
+     "start": 13.191,
+     "end": 13.391
+    },
+    {
+     "w": "tetap.",
+     "start": 13.431,
+     "end": 13.791
+    },
+    {
+     "w": "Yusril",
+     "start": 13.811,
+     "end": 14.301
+    },
+    {
+     "w": "bilang",
+     "start": 14.361,
+     "end": 14.701
+    },
+    {
+     "w": "usul",
+     "start": 14.781,
+     "end": 15.101
+    },
+    {
+     "w": "itu",
+     "start": 15.181,
+     "end": 15.421
+    },
+    {
+     "w": "layak",
+     "start": 15.501,
+     "end": 15.821
+    },
+    {
+     "w": "dipertimbangkan.",
+     "start": 15.881,
+     "end": 16.701
+    }
+   ]
+  },
+  {
+   "id": "l3",
+   "text": "Lalu Luhut klarifikasi: kerugian negara tetap jadi unsur.",
+   "start": 17.066,
+   "end": 20.61,
+   "words": [
+    {
+     "w": "Lalu",
+     "start": 17.067,
+     "end": 17.101
+    },
+    {
+     "w": "Luhut",
+     "start": 17.181,
+     "end": 17.501
+    },
+    {
+     "w": "klarifikasi:",
+     "start": 17.533,
+     "end": 18.301
+    },
+    {
+     "w": "kerugian",
+     "start": 18.401,
+     "end": 18.851
+    },
+    {
+     "w": "negara",
+     "start": 18.891,
+     "end": 19.251
+    },
+    {
+     "w": "tetap",
+     "start": 19.351,
+     "end": 19.811
+    },
+    {
+     "w": "jadi",
+     "start": 19.891,
+     "end": 20.051
+    },
+    {
+     "w": "unsur.",
+     "start": 20.131,
+     "end": 20.611
+    }
+   ]
+  },
+  {
+   "id": "l4",
+   "text": "Senin, 26 Oktober, Yusril dipanggil ke Istana.",
+   "start": 20.86,
+   "end": 23.77,
+   "words": [
+    {
+     "w": "Senin,",
+     "start": 20.861,
+     "end": 21.051
+    },
+    {
+     "w": "26",
+     "start": 21.071,
+     "end": 21.371
+    },
+    {
+     "w": "Oktober,",
+     "start": 21.441,
+     "end": 22.091
+    },
+    {
+     "w": "Yusril",
+     "start": 22.131,
+     "end": 22.571
+    },
+    {
+     "w": "dipanggil",
+     "start": 22.611,
+     "end": 23.051
+    },
+    {
+     "w": "ke",
+     "start": 23.078,
+     "end": 23.131
+    },
+    {
+     "w": "Istana.",
+     "start": 23.211,
+     "end": 23.771
+    }
+   ]
+  },
+  {
+   "id": "l5",
+   "text": "Kata Yusril, Presiden minta kajian lebih mendalam, supaya UU Tipikor selaras dengan konvensi antikorupsi PBB.",
+   "start": 24.027,
+   "end": 31.56,
+   "words": [
+    {
+     "w": "Kata",
+     "start": 24.028,
+     "end": 24.071
+    },
+    {
+     "w": "Yusril,",
+     "start": 24.111,
+     "end": 24.751
+    },
+    {
+     "w": "Presiden",
+     "start": 24.791,
+     "end": 25.191
+    },
+    {
+     "w": "minta",
+     "start": 25.239,
+     "end": 25.511
+    },
+    {
+     "w": "kajian",
+     "start": 25.551,
+     "end": 25.911
+    },
+    {
+     "w": "lebih",
+     "start": 25.951,
+     "end": 26.151
+    },
+    {
+     "w": "mendalam,",
+     "start": 26.199,
+     "end": 26.711
+    },
+    {
+     "w": "supaya",
+     "start": 26.821,
+     "end": 27.641
+    },
+    {
+     "w": "UU",
+     "start": 27.721,
+     "end": 27.881
+    },
+    {
+     "w": "Tipikor",
+     "start": 27.941,
+     "end": 28.521
+    },
+    {
+     "w": "selaras",
+     "start": 28.621,
+     "end": 29.241
+    },
+    {
+     "w": "dengan",
+     "start": 29.275,
+     "end": 29.481
+    },
+    {
+     "w": "konvensi",
+     "start": 29.541,
+     "end": 30.041
+    },
+    {
+     "w": "antikorupsi",
+     "start": 30.101,
+     "end": 30.841
+    },
+    {
+     "w": "PBB.",
+     "start": 30.921,
+     "end": 31.561
+    }
+   ]
+  },
+  {
+   "id": "l6",
+   "text": "Dan menurut Yusril, Presiden menilai unsur kerugian negara tidak boleh dilupakan.",
+   "start": 31.73,
+   "end": 36.32,
+   "words": [
+    {
+     "w": "Dan",
+     "start": 31.731,
+     "end": 31.751
+    },
+    {
+     "w": "menurut",
+     "start": 31.811,
+     "end": 32.151
+    },
+    {
+     "w": "Yusril,",
+     "start": 32.191,
+     "end": 32.801
+    },
+    {
+     "w": "Presiden",
+     "start": 32.833,
+     "end": 33.201
+    },
+    {
+     "w": "menilai",
+     "start": 33.241,
+     "end": 33.681
+    },
+    {
+     "w": "unsur",
+     "start": 33.748,
+     "end": 34.081
+    },
+    {
+     "w": "kerugian",
+     "start": 34.141,
+     "end": 34.561
+    },
+    {
+     "w": "negara",
+     "start": 34.601,
+     "end": 34.961
+    },
+    {
+     "w": "tidak",
+     "start": 35.014,
+     "end": 35.281
+    },
+    {
+     "w": "boleh",
+     "start": 35.361,
+     "end": 35.601
+    },
+    {
+     "w": "dilupakan.",
+     "start": 35.661,
+     "end": 36.321
+    }
+   ]
+  },
+  {
+   "id": "l7",
+   "text": "Tim kajiannya diusulkan berisi penegak hukum, akademisi, dan aktivis. Salah satu usulan Yusril: Romli Atmasasmita.",
+   "start": 36.62,
+   "end": 44.13,
+   "words": [
+    {
+     "w": "Tim",
+     "start": 36.621,
+     "end": 36.651
+    },
+    {
+     "w": "kajiannya",
+     "start": 36.691,
+     "end": 37.291
+    },
+    {
+     "w": "diusulkan",
+     "start": 37.371,
+     "end": 38.011
+    },
+    {
+     "w": "berisi",
+     "start": 38.051,
+     "end": 38.411
+    },
+    {
+     "w": "penegak",
+     "start": 38.451,
+     "end": 38.811
+    },
+    {
+     "w": "hukum,",
+     "start": 38.851,
+     "end": 39.371
+    },
+    {
+     "w": "akademisi,",
+     "start": 39.428,
+     "end": 40.331
+    },
+    {
+     "w": "dan",
+     "start": 40.371,
+     "end": 40.491
+    },
+    {
+     "w": "aktivis.",
+     "start": 40.558,
+     "end": 41.291
+    },
+    {
+     "w": "Salah",
+     "start": 41.291,
+     "end": 41.551
+    },
+    {
+     "w": "satu",
+     "start": 41.599,
+     "end": 41.791
+    },
+    {
+     "w": "usulan",
+     "start": 41.844,
+     "end": 42.111
+    },
+    {
+     "w": "Yusril:",
+     "start": 42.151,
+     "end": 42.591
+    },
+    {
+     "w": "Romli",
+     "start": 42.651,
+     "end": 43.171
+    },
+    {
+     "w": "Atmasasmita.",
+     "start": 43.278,
+     "end": 44.131
+    }
+   ]
+  },
+  {
+   "id": "l8",
+   "text": "Tapi ini yang jarang dibahas: kata Yusril, definisinya justru perlu diperluas.",
+   "start": 44.468,
+   "end": 49.44,
+   "words": [
+    {
+     "w": "Tapi",
+     "start": 44.469,
+     "end": 44.541
+    },
+    {
+     "w": "ini",
+     "start": 44.601,
+     "end": 44.781
+    },
+    {
+     "w": "yang",
+     "start": 44.813,
+     "end": 44.941
+    },
+    {
+     "w": "jarang",
+     "start": 44.981,
+     "end": 45.181
+    },
+    {
+     "w": "dibahas:",
+     "start": 45.241,
+     "end": 45.821
+    },
+    {
+     "w": "kata",
+     "start": 45.941,
+     "end": 46.241
+    },
+    {
+     "w": "Yusril,",
+     "start": 46.281,
+     "end": 46.881
+    },
+    {
+     "w": "definisinya",
+     "start": 46.934,
+     "end": 47.681
+    },
+    {
+     "w": "justru",
+     "start": 47.761,
+     "end": 48.241
+    },
+    {
+     "w": "perlu",
+     "start": 48.301,
+     "end": 48.561
+    },
+    {
+     "w": "diperluas.",
+     "start": 48.601,
+     "end": 49.441
+    }
+   ]
+  },
+  {
+   "id": "l9",
+   "text": "Contoh dari Yusril: tambang ekspor 20 ribu ton, tapi lapor cuma 10 ribu.",
+   "start": 49.692,
+   "end": 54.78,
+   "words": [
+    {
+     "w": "Contoh",
+     "start": 49.693,
+     "end": 49.811
+    },
+    {
+     "w": "dari",
+     "start": 49.859,
+     "end": 50.051
+    },
+    {
+     "w": "Yusril:",
+     "start": 50.091,
+     "end": 50.611
+    },
+    {
+     "w": "tambang",
+     "start": 50.641,
+     "end": 51.061
+    },
+    {
+     "w": "ekspor",
+     "start": 51.141,
+     "end": 51.541
+    },
+    {
+     "w": "20",
+     "start": 51.601,
+     "end": 52.021
+    },
+    {
+     "w": "ribu",
+     "start": 52.061,
+     "end": 52.261
+    },
+    {
+     "w": "ton,",
+     "start": 52.341,
+     "end": 52.661
+    },
+    {
+     "w": "tapi",
+     "start": 52.757,
+     "end": 53.101
+    },
+    {
+     "w": "lapor",
+     "start": 53.141,
+     "end": 53.501
+    },
+    {
+     "w": "cuma",
+     "start": 53.621,
+     "end": 54.061
+    },
+    {
+     "w": "10",
+     "start": 54.101,
+     "end": 54.421
+    },
+    {
+     "w": "ribu.",
+     "start": 54.451,
+     "end": 54.781
+    }
+   ]
+  },
+  {
+   "id": "l10",
+   "text": "Jawaban pertanyaan tadi: menurut Yusril, kasus begini, juga penyelundupan besar dan kecurangan pajak, mungkin belum dihitung korupsi.",
+   "start": 54.97,
+   "end": 62.45,
+   "words": [
+    {
+     "w": "Jawaban",
+     "start": 54.971,
+     "end": 55.231
+    },
+    {
+     "w": "pertanyaan",
+     "start": 55.263,
+     "end": 55.711
+    },
+    {
+     "w": "tadi:",
+     "start": 55.751,
+     "end": 56.111
+    },
+    {
+     "w": "menurut",
+     "start": 56.221,
+     "end": 56.581
+    },
+    {
+     "w": "Yusril,",
+     "start": 56.621,
+     "end": 57.221
+    },
+    {
+     "w": "kasus",
+     "start": 57.281,
+     "end": 57.541
+    },
+    {
+     "w": "begini,",
+     "start": 57.608,
+     "end": 58.181
+    },
+    {
+     "w": "juga",
+     "start": 58.245,
+     "end": 58.501
+    },
+    {
+     "w": "penyelundupan",
+     "start": 58.549,
+     "end": 59.061
+    },
+    {
+     "w": "besar",
+     "start": 59.141,
+     "end": 59.541
+    },
+    {
+     "w": "dan",
+     "start": 59.581,
+     "end": 59.701
+    },
+    {
+     "w": "kecurangan",
+     "start": 59.754,
+     "end": 60.181
+    },
+    {
+     "w": "pajak,",
+     "start": 60.261,
+     "end": 60.771
+    },
+    {
+     "w": "mungkin",
+     "start": 60.811,
+     "end": 61.251
+    },
+    {
+     "w": "belum",
+     "start": 61.291,
+     "end": 61.491
+    },
+    {
+     "w": "dihitung",
+     "start": 61.518,
+     "end": 61.891
+    },
+    {
+     "w": "korupsi.",
+     "start": 61.931,
+     "end": 62.451
+    }
+   ]
+  },
+  {
+   "id": "l11",
+   "text": "Satu lagi, menurut laporan ANTARA, Yusril bertanya: uang negara yang sudah jadi modal BUMN, masih uang negara?",
+   "start": 62.77,
+   "end": 70.23,
+   "words": [
+    {
+     "w": "Satu",
+     "start": 62.771,
+     "end": 62.802
+    },
+    {
+     "w": "lagi,",
+     "start": 62.865,
+     "end": 63.371
+    },
+    {
+     "w": "menurut",
+     "start": 63.411,
+     "end": 63.691
+    },
+    {
+     "w": "laporan",
+     "start": 63.731,
+     "end": 64.091
+    },
+    {
+     "w": "ANTARA,",
+     "start": 64.151,
+     "end": 64.721
+    },
+    {
+     "w": "Yusril",
+     "start": 64.761,
+     "end": 65.121
+    },
+    {
+     "w": "bertanya:",
+     "start": 65.169,
+     "end": 65.681
+    },
+    {
+     "w": "uang",
+     "start": 65.821,
+     "end": 66.101
+    },
+    {
+     "w": "negara",
+     "start": 66.161,
+     "end": 66.581
+    },
+    {
+     "w": "yang",
+     "start": 66.613,
+     "end": 66.741
+    },
+    {
+     "w": "sudah",
+     "start": 66.781,
+     "end": 66.981
+    },
+    {
+     "w": "jadi",
+     "start": 67.021,
+     "end": 67.221
+    },
+    {
+     "w": "modal",
+     "start": 67.288,
+     "end": 67.861
+    },
+    {
+     "w": "BUMN,",
+     "start": 67.914,
+     "end": 68.821
+    },
+    {
+     "w": "masih",
+     "start": 68.931,
+     "end": 69.431
+    },
+    {
+     "w": "uang",
+     "start": 69.511,
+     "end": 69.671
+    },
+    {
+     "w": "negara?",
+     "start": 69.731,
+     "end": 70.231
+    }
+   ]
+  },
+  {
+   "id": "l12",
+   "text": "Sejauh ini belum ada draf RUU yang diumumkan.",
+   "start": 70.505,
+   "end": 73.581,
+   "words": [
+    {
+     "w": "Sejauh",
+     "start": 70.506,
+     "end": 70.782
+    },
+    {
+     "w": "ini",
+     "start": 70.842,
+     "end": 71.022
+    },
+    {
+     "w": "belum",
+     "start": 71.062,
+     "end": 71.262
+    },
+    {
+     "w": "ada",
+     "start": 71.322,
+     "end": 71.502
+    },
+    {
+     "w": "draf",
+     "start": 71.542,
+     "end": 71.982
+    },
+    {
+     "w": "RUU",
+     "start": 72.062,
+     "end": 72.662
+    },
+    {
+     "w": "yang",
+     "start": 72.686,
+     "end": 72.782
+    },
+    {
+     "w": "diumumkan.",
+     "start": 72.835,
+     "end": 73.582
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "text": "Kalau kamu ikut tim kajian, apa yang kamu masukkan ke definisi korupsi? Komen!",
+   "start": 73.803,
+   "end": 78.15,
+   "words": [
+    {
+     "w": "Kalau",
+     "start": 73.804,
+     "end": 73.988
+    },
+    {
+     "w": "kamu",
+     "start": 74.02,
+     "end": 74.148
+    },
+    {
+     "w": "ikut",
+     "start": 74.175,
+     "end": 74.308
+    },
+    {
+     "w": "tim",
+     "start": 74.348,
+     "end": 74.468
+    },
+    {
+     "w": "kajian,",
+     "start": 74.508,
+     "end": 75.278
+    },
+    {
+     "w": "apa",
+     "start": 75.358,
+     "end": 75.598
+    },
+    {
+     "w": "yang",
+     "start": 75.63,
+     "end": 75.758
+    },
+    {
+     "w": "kamu",
+     "start": 75.79,
+     "end": 75.918
+    },
+    {
+     "w": "masukkan",
+     "start": 75.958,
+     "end": 76.398
+    },
+    {
+     "w": "ke",
+     "start": 76.425,
+     "end": 76.478
+    },
+    {
+     "w": "definisi",
+     "start": 76.531,
+     "end": 76.958
+    },
+    {
+     "w": "korupsi?",
+     "start": 76.998,
+     "end": 77.439
+    },
+    {
+     "w": "Komen!",
+     "start": 77.581,
+     "end": 78.151
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "text": "Follow Rangkumin Dong, biar nggak ketinggalan!",
+   "start": 78.456,
+   "end": 80.497,
+   "words": [
+    {
+     "w": "Follow",
+     "start": 78.457,
+     "end": 78.498
+    },
+    {
+     "w": "Rangkumin",
+     "start": 78.538,
+     "end": 78.898
+    },
+    {
+     "w": "Dong,",
+     "start": 78.946,
+     "end": 79.338
+    },
+    {
+     "w": "biar",
+     "start": 79.405,
+     "end": 79.618
+    },
+    {
+     "w": "nggak",
+     "start": 79.671,
+     "end": 79.831
+    },
+    {
+     "w": "ketinggalan!",
+     "start": 79.845,
+     "end": 80.498
+    }
+   ]
+  }
+ ]
+}

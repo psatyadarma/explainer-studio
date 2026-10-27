@@ -1,0 +1,133 @@
+{
+ "direction": "[calm, neutral explainer; every claim attributed]",
+ "voice": "male:Pratama",
+ "format": "standard",
+ "hook_style": "question_reveal",
+ "subs": "word",
+ "storyline": "definisi-korupsi",
+ "part": 2,
+ "lines": [
+  {
+   "id": "h1",
+   "tag": "[curious]",
+   "text": "Uang negara hilang. Pasti dihitung korupsi?",
+   "say": "Uang negara hilang. Pasti dihitung korupsi?"
+  },
+  {
+   "id": "h2",
+   "tag": "[intrigued]",
+   "text": "Kata Yusril, Presiden minta definisinya dikaji ulang. Jawabannya di akhir.",
+   "say": "Kata Yusril, Presiden minta definisinya dikaji ulang. Jawabannya di akhir."
+  },
+  {
+   "id": "rd",
+   "tagline": true,
+   "text": "Rangkumin dong!"
+  },
+  {
+   "id": "l1",
+   "tag": "[explaining]",
+   "text": "Minggu lalu, Luhut usul definisi korupsi ikut versi PBB, yang fokus ke suap.",
+   "say": "Minggu lalu, Luhut usul definisi korupsi ikut versi, Pe Be Be, yang fokus ke suap."
+  },
+  {
+   "id": "l2",
+   "tag": "[neutral]",
+   "text": "Ketua KPK bilang kerugian negara harus tetap. Yusril bilang usul itu layak dipertimbangkan.",
+   "say": "Ketua, Ka Pe Ka, bilang kerugian negara harus tetap. Yusril bilang usul itu layak dipertimbangkan."
+  },
+  {
+   "id": "l3",
+   "tag": "[matter-of-fact]",
+   "text": "Lalu Luhut klarifikasi: kerugian negara tetap jadi unsur.",
+   "say": "Lalu Luhut klarifikasi: kerugian negara tetap jadi unsur."
+  },
+  {
+   "id": "l4",
+   "tag": "[explaining]",
+   "text": "Senin, 26 Oktober, Yusril dipanggil ke Istana.",
+   "say": "Senin, dua puluh enam Oktober, Yusril dipanggil ke Istana."
+  },
+  {
+   "id": "l5",
+   "tag": "[neutral]",
+   "text": "Kata Yusril, Presiden minta kajian lebih mendalam, supaya UU Tipikor selaras dengan konvensi antikorupsi PBB.",
+   "say": "Kata Yusril, Presiden minta kajian lebih mendalam, supaya, U U Tipikor, selaras dengan konvensi antikorupsi, Pe Be Be."
+  },
+  {
+   "id": "l6",
+   "tag": "[serious]",
+   "text": "Dan menurut Yusril, Presiden menilai unsur kerugian negara tidak boleh dilupakan.",
+   "say": "Dan menurut Yusril, Presiden menilai unsur kerugian negara tidak boleh dilupakan."
+  },
+  {
+   "id": "l7",
+   "tag": "[explaining]",
+   "text": "Tim kajiannya diusulkan berisi penegak hukum, akademisi, dan aktivis. Salah satu usulan Yusril: Romli Atmasasmita.",
+   "say": "Tim kajiannya diusulkan berisi penegak hukum, akademisi, dan aktivis. Salah satu usulan Yusril: Romli Atmasasmita."
+  },
+  {
+   "id": "l8",
+   "tag": "[revealing]",
+   "text": "Tapi ini yang jarang dibahas: kata Yusril, definisinya justru perlu diperluas.",
+   "say": "Tapi ini yang jarang dibahas: kata Yusril, definisinya justru perlu diperluas."
+  },
+  {
+   "id": "l9",
+   "tag": "[dramatic]",
+   "text": "Contoh dari Yusril: tambang ekspor 20 ribu ton, tapi lapor cuma 10 ribu.",
+   "say": "Contoh dari Yusril: tambang ekspor dua puluh ribu ton, tapi lapor cuma sepuluh ribu."
+  },
+  {
+   "id": "l10",
+   "tag": "[serious]",
+   "text": "Jawaban pertanyaan tadi: menurut Yusril, kasus begini, juga penyelundupan besar dan kecurangan pajak, mungkin belum dihitung korupsi.",
+   "say": "Jawaban pertanyaan tadi: menurut Yusril, kasus begini, juga penyelundupan besar dan kecurangan pajak, mungkin belum dihitung korupsi."
+  },
+  {
+   "id": "l11",
+   "tag": "[curious]",
+   "text": "Satu lagi, menurut laporan ANTARA, Yusril bertanya: uang negara yang sudah jadi modal BUMN, masih uang negara?",
+   "say": "Satu lagi, menurut laporan Antara, Yusril bertanya: uang negara yang sudah jadi modal, Be U Em En, masih uang negara?"
+  },
+  {
+   "id": "l12",
+   "tag": "[calm]",
+   "text": "Sejauh ini belum ada draf RUU yang diumumkan.",
+   "say": "Sejauh ini belum ada draf, Er U U, yang diumumkan."
+  },
+  {
+   "id": "cta",
+   "tag": "[playful, asking the viewer]",
+   "text": "Kalau kamu ikut tim kajian, apa yang kamu masukkan ke definisi korupsi? Komen!",
+   "say": "Kalau kamu ikut tim kajian, apa yang kamu masukkan ke definisi korupsi? Komen!"
+  },
+  {
+   "id": "end",
+   "tag": "[friendly, upbeat]",
+   "text": "Follow Rangkumin Dong, biar nggak ketinggalan!"
+  }
+ ],
+ "hook_b": {
+  "style": "myth",
+  "replace": [
+   "h1",
+   "h2"
+  ],
+  "lines": [
+   {
+    "id": "hb1",
+    "tag": "[skeptical]",
+    "text": "Katanya korupsi mau dipersempit.",
+    "say": "Katanya korupsi mau dipersempit."
+   },
+   {
+    "id": "hb2",
+    "tag": "[revealing]",
+    "text": "Kata Yusril, malah diperluas.",
+    "say": "Kata Yusril, malah diperluas."
+   }
+  ]
+ },
+ "tail": 0.9
+}

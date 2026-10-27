@@ -1,0 +1,25 @@
+VERDICT: PASS
+
+Fact-check (MODE=full), 27 Okt 2026. Both former ANTARA-only claims (l6, l7) now have a second, independent outlet whose body text was read. No wording changes are required. The source-list updates below are recommended but not blocking.
+
+| Claim | Verdict | What the source actually says | Source |
+|---|---|---|---|
+| h1/l10: under-invoicing, smuggling and tax fraud "mungkin belum dihitung korupsi" (per Yusril) | OK | "belum terkategorikan sebagai satu tindak pidana korupsi", hedged with "mungkin" | https://liputan6.com/news/read/8321672/yusril-menghadap-prabowo-bahas-perubahan-definisi-korupsi |
+| h2/l4: Senin 26 Okt, Yusril at the Istana | OK | Liputan6: Istana Merdeka meeting on Senin 26/10/2026. Katadata: press conference at the Istana on 26 Okt | Liputan6 (above); https://katadata.co.id/berita/nasional/6adffca4976ee/yusril-presiden-minta-kajian-mendalam-soal-redefinisi-korupsi |
+| l5: per Yusril, the President asked for "kajian yang lebih mendalam" to align UU Tipikor with UNCAC | OK | ANTARA: "kajian yang lebih mendalam", aligning UU 31/1999 & 20/2001 with UNCAC. Katadata: same quote; Yusril says the task is to "menyerasikan konsep korupsi" in UNCAC with the UU Tipikor revision | https://www.antaranews.com/berita/5813059/prabowo-minta-kajian-definisi-korupsi-yang-sesuai-kondisi-indonesia ; Katadata (above) |
+| l6: per Yusril, the President holds that kerugian negara "tidak boleh dilupakan" | OK (now 3 outlets) | CNN Indonesia body: Prabowo "tetap berpendirian" that "unsur kerugian negara itu merupakan unsur yang tidak boleh dilupakan". Katadata body: same. ANTARA: same. Kompas.com and Kontan headlines also match (bodies blocked). Still Yusril's account, which the script attributes correctly | https://www.cnnindonesia.com/nasional/20261026191627-20-1419870/yusril-beber-sikap-prabowo-soal-definisi-korupsi-kerugian-negara ; Katadata ; ANTARA 5813059 |
+| l7: proposed study team of law enforcers, academics and activists; Yusril proposes Romli Atmasasmita | OK (now 2 outlets) | Disway (own reporting, 27 Okt 06:56, reporter Anisha Aprilia, no ANTARA credit): "Aparat penegak hukum dilibatkan? Iya"; academics and activists "akan diundang"; "Kalau saya mengusulkan misalnya para senior seperti Pak Romli Atmasasmita perlu diajak". ANTARA reports the same. The team is announced but not yet formed, so "diusulkan" / "usulan Yusril" is accurate | https://disway.id/read/975801/yusril-bentuk-tim-kajian-revisi-uu-tipikor-bakal-libatkan-romli-atmasasmita ; ANTARA 5813059 |
+| l8: Yusril: the definition should be widened | OK | "Jadi ini yang harus diperluas ya" | Liputan6 (above) |
+| l9: 20.000 ton exported vs 10.000 reported, labelled as Yusril's hypothetical | OK | "dia ekspor katakanlah 20.000 ton, lapor cuman 10.000", introduced with "Misalnya". No real case is named. Labels: spoken "Contoh dari Yusril"; on-screen "contoh dari Yusril (hipotetis)"; captions "Contoh (hipotetis)". All correct. CNN does not give tonnages, so the figures rest on Liputan6 + ANTARA 5812635 | Liputan6 ; https://www.antaranews.com/berita/5812635/yusril-dipanggil-prabowo-ke-istana-siapkan-materi-definisi-korupsi |
+| l11: Yusril asks whether money already separated into BUMN capital is still state money | OK (single agency) | ANTARA 5813059: is wealth "yang sudah dipisahkan membentuk BUMN" and its subsidiaries still state money. Other ANTARA pieces (5813299) report the same. The fin.co.id headline "Yusril Minta Definisi Keuangan Negara … Diperjelas" matches, but its body failed to load. Katadata does not mention it. The paraphrase "sudah jadi modal BUMN" is fair | ANTARA 5813059 |
+| l12: no draft RUU announced yet | OK (as of 27 Okt) | Neither ANTARA 5813059 nor Katadata mentions a draft or timeline. The only "draf RUU Tipikor" result found was Kontan from 2011, which is irrelevant. Re-check on render day | ANTARA 5813059 ; Katadata |
+| l1–l3 recap and the UNCAC 2006 caption | OK | Verified in PART 1. Katadata 27 Okt repeats the Luhut 20 Okt background | claims.json PART 1 sources |
+| hook_b: "Katanya dipersempit / kata Yusril diperluas" | OK | Framed as "katanya". "Diperluas" is Yusril's own word | Liputan6 |
+
+Handling rules: every line is attributed. The President's view is labelled as "kata/menurut Yusril", and the pinned comment discloses it. KUHP 603/604 is not mentioned. No verdict is implied. This is not a market topic, so no stock disclaimer is needed.
+
+## Recommended (non-blocking) source updates
+1. Pinned comment and end card: add Disway as the second source for the study team and Romli:
+   `• Tim kajian & Romli Atmasasmita (Disway, 27 Okt): https://disway.id/read/975801/yusril-bentuk-tim-kajian-revisi-uu-tipikor-bakal-libatkan-romli-atmasasmita`
+2. Pinned comment: relabel the CNN line as `• Sikap Presiden: kerugian negara "tidak boleh dilupakan", kata Yusril (CNN Indonesia, 26 Okt): https://www.cnnindonesia.com/nasional/20261026191627-20-1419870/yusril-beber-sikap-prabowo-soal-definisi-korupsi-kerugian-negara`
+3. draft.md "Open checks" 1–2 and claims.json l6/l7 notes are now resolved. The CNN body was read, and Disway gives the second source.

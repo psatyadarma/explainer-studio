@@ -1,0 +1,152 @@
+[
+ {
+  "claim": "h1/l10 (question + answer): 'Uang negara hilang. Pasti dihitung korupsi?' answered in l10 with Yusril's view that under-invoicing, large-scale smuggling and tax fraud 'mungkin belum' count as corruption under current rules. The hook is a question, not a claim; the answer is attributed to Yusril and hedged ('mungkin belum').",
+  "numbers": "",
+  "sources": [
+   "https://liputan6.com/news/read/8321672/yusril-menghadap-prabowo-bahas-perubahan-definisi-korupsi",
+   "https://www.antaranews.com/berita/5812635/yusril-dipanggil-prabowo-ke-istana-siapkan-materi-definisi-korupsi"
+  ],
+  "sensitivity": "high"
+ },
+ {
+  "claim": "h2/l4: On Monday 26 Oct 2026 Menko Kumham Imipas Yusril Ihza Mahendra was summoned (dipanggil) by President Prabowo to the Istana to discuss the definition of corruption.",
+  "numbers": "Senin 26 Okt 2026",
+  "sources": [
+   "https://www.antaranews.com/berita/5812635/yusril-dipanggil-prabowo-ke-istana-siapkan-materi-definisi-korupsi",
+   "https://liputan6.com/news/read/8321672/yusril-menghadap-prabowo-bahas-perubahan-definisi-korupsi",
+   "https://www.cnnindonesia.com/nasional/20261026175107-20-1419829/prabowo-panggil-yusril-bahas-isu-redefinisi-korupsi"
+  ],
+  "sensitivity": "high"
+ },
+ {
+  "claim": "h2/l5: Per Yusril, the President asked for a deeper study (kajian lebih mendalam) of the corruption definition, to align UU 31/1999 and UU 20/2001 (Tipikor) with UNCAC. Quote: 'Beliau meminta untuk dilakukan kajian yang lebih mendalam'. Script calls UNCAC 'konvensi antikorupsi PBB'. Attributed to Yusril throughout; no direct Presidential statement found.",
+  "numbers": "UU 31/1999 · UU 20/2001",
+  "sources": [
+   "https://www.antaranews.com/berita/5813059/prabowo-minta-kajian-definisi-korupsi-yang-sesuai-kondisi-indonesia",
+   "https://jatim.antaranews.com/berita/1111783/prabowo-minta-kajian-definisi-korupsi-yang-sesuai-kondisi-indonesia",
+   "https://www.cnnindonesia.com/nasional/20261026194957-32-1419879/prabowo-instruksikan-kaji-mendalam-pengertian-tindak-pidana-korupsi",
+   "https://www.kompas.id/artikel/menko-yusril-presiden-prabowo-minta-usulan-perubahan-definisi-korupsi-dikaji-mendalam"
+  ],
+  "sensitivity": "high"
+ },
+ {
+  "claim": "l6: Per Yusril, the President holds that the state-loss element 'tidak boleh dilupakan' ('unsur kerugian negara itu merupakan unsur yang tidak boleh dilupakan'). RESOLVED 27 Okt (factcheck.md): CNN Indonesia and Katadata bodies carry the same quote; 3 outlets.",
+  "numbers": "",
+  "sources": [
+   "https://www.cnnindonesia.com/nasional/20261026191627-20-1419870/yusril-beber-sikap-prabowo-soal-definisi-korupsi-kerugian-negara",
+   "https://www.antaranews.com/berita/5813059/prabowo-minta-kajian-definisi-korupsi-yang-sesuai-kondisi-indonesia",
+   "https://katadata.co.id/berita/nasional/6adffca4976ee/yusril-presiden-minta-kajian-mendalam-soal-redefinisi-korupsi"
+  ],
+  "sensitivity": "high"
+ },
+ {
+  "claim": "l7: Yusril said the study team should involve law enforcers (aparat penegak hukum), academics and activists, and proposed experienced experts 'termasuk Romli Atmasasmita'. RESOLVED 27 Okt (factcheck.md): Disway (own reporting, 27 Okt) confirms the team and Romli.",
+  "numbers": "",
+  "sources": [
+   "https://www.antaranews.com/berita/5813059/prabowo-minta-kajian-definisi-korupsi-yang-sesuai-kondisi-indonesia",
+   "https://disway.id/read/975801/yusril-bentuk-tim-kajian-revisi-uu-tipikor-bakal-libatkan-romli-atmasasmita"
+  ],
+  "sensitivity": "high"
+ },
+ {
+  "claim": "l8: Yusril said the definition should be broadened: 'Jadi ini yang harus diperluas ya, jadi tidak spesifik kepada unsur kerugian negara' (Liputan6); ANTARA: 'Jadi ini yang harus diperluas'; the revision is not meant to weaken anti-corruption efforts.",
+  "numbers": "",
+  "sources": [
+   "https://liputan6.com/news/read/8321672/yusril-menghadap-prabowo-bahas-perubahan-definisi-korupsi",
+   "https://www.antaranews.com/berita/5812635/yusril-dipanggil-prabowo-ke-istana-siapkan-materi-definisi-korupsi"
+  ],
+  "sensitivity": "high"
+ },
+ {
+  "claim": "l9: Yusril's HYPOTHETICAL under-invoicing example: a miner exports 20,000 tons but reports only 10,000 ('Orang menambang semau-maunya, dia ekspor katakanlah 20.000 ton, lapor cuman 10.000.'); he said the President often raises under-invoicing. Not a real case; on-screen label 'contoh/misalnya'.",
+  "numbers": "20.000 ton · 10.000 ton",
+  "sources": [
+   "https://liputan6.com/news/read/8321672/yusril-menghadap-prabowo-bahas-perubahan-definisi-korupsi",
+   "https://www.antaranews.com/berita/5812635/yusril-dipanggil-prabowo-ke-istana-siapkan-materi-definisi-korupsi"
+  ],
+  "sensitivity": "high"
+ },
+ {
+  "claim": "l10: Per Yusril, such cases, plus large-scale smuggling and tax fraud, may not yet be classified as corruption under current rules.",
+  "numbers": "",
+  "sources": [
+   "https://liputan6.com/news/read/8321672/yusril-menghadap-prabowo-bahas-perubahan-definisi-korupsi",
+   "https://www.antaranews.com/berita/5812635/yusril-dipanggil-prabowo-ke-istana-siapkan-materi-definisi-korupsi"
+  ],
+  "sensitivity": "high"
+ },
+ {
+  "claim": "l11: Yusril questioned whether state wealth already separated to form BUMN (and subsidiaries) is still state money ('apakah kekayaan negara yang sudah dipisahkan membentuk BUMN'), calling the definition of keuangan negara the more important issue. Script paraphrases 'dipisahkan … membentuk BUMN' as 'sudah jadi modal BUMN'. Single agency (ANTARA), so the script and caption now attribute it explicitly: 'menurut laporan ANTARA'.",
+  "numbers": "",
+  "sources": [
+   "https://www.antaranews.com/berita/5813059/prabowo-minta-kajian-definisi-korupsi-yang-sesuai-kondisi-indonesia",
+   "https://jatim.antaranews.com/berita/1111783/prabowo-minta-kajian-definisi-korupsi-yang-sesuai-kondisi-indonesia"
+  ],
+  "sensitivity": "high"
+ },
+ {
+  "claim": "l12: No draft RUU has been announced so far. Based on: no source of 26 Oct mentions a draft or timeline (ANTARA 5813059: no deadline or schedule given); Yusril 22 Oct: not in Prolegnas. Re-check on render day.",
+  "numbers": "",
+  "sources": [
+   "https://www.antaranews.com/berita/5813059/prabowo-minta-kajian-definisi-korupsi-yang-sesuai-kondisi-indonesia",
+   "https://liputan6.com/news/read/8318574/yusril-definisi-korupsi-di-indonesia-20-tahun-stagnan"
+  ],
+  "sensitivity": "high"
+ },
+ {
+  "claim": "l1 (PART 1 recap): Last week (20 Oct) Luhut (Ketua DEN) proposed aligning the corruption definition with the UN version, which per Luhut focuses on bribery.",
+  "numbers": "20 Okt",
+  "sources": [
+   "https://www.cnbcindonesia.com/news/20261020211227-4-777988/prabowo-setuju-usulan-luhut-definisi-korupsi-di-ri-akan-diubah",
+   "https://www.liputan6.com/bisnis/read/8317653/prabowo-setuju-ubah-definisi-korupsi",
+   "https://katadata.co.id/berita/nasional/6ad84be9eec62/luhut-sebut-prabowo-akan-ubah-definisi-korupsi-tak-singgung-kerugian-negara"
+  ],
+  "sensitivity": "high"
+ },
+ {
+  "claim": "l2 (recap): Ketua KPK Setyo Budiyanto (21 Oct): state loss must stay. Yusril (21 Oct): Luhut's proposal 'layak dipertimbangkan'.",
+  "numbers": "21 Okt",
+  "sources": [
+   "https://nasional.kompas.com/read/2026/10/21/17061341/kpk-tak-setuju-kerugian-negara-dihilangkan-dari-definisi-korupsi",
+   "https://www.suara.com/news/2026/10/21/171149/luhut-usul-kerugian-negara-bukan-korupsi-ketua-kpk-ungkap-hal-lebih-mendesak",
+   "https://www.cnbcindonesia.com/news/20261021200558-4-778377/yusril-pernyataan-luhut-soal-definisi-korupsi-layak-dipertimbangkan",
+   "https://katadata.co.id/berita/nasional/6ad96471e40ea/menko-yusril-soal-usul-den-ubah-definisi-korupsi-layak-dipertimbangkan"
+  ],
+  "sensitivity": "high"
+ },
+ {
+  "claim": "l3 (recap): Luhut's written clarification (21 Oct): 'Kerugian keuangan negara tetap menjadi unsur dalam UU Tipikor'.",
+  "numbers": "",
+  "sources": [
+   "https://kumparan.com/kumparannews/klarifikasi-dan-penjelasan-luhut-soal-definisi-korupsi-kerugian-negara-28Q28Uo8Vc8",
+   "https://www.inews.id/news/nasional/klarifikasi-luhut-soal-definisi-korupsi-tegaskan-tak-usul-hapus-unsur-kerugian-negara",
+   "https://www.cnbcindonesia.com/news/20261021184525-4-778368/penjelasan-luhut-soal-rencana-perubahan-definisi-korupsi-di-ri"
+  ],
+  "sensitivity": "high"
+ },
+ {
+  "claim": "Caption: Indonesia ratified UNCAC in 2006 (UU 7/2006); Yusril said it has not been followed up.",
+  "numbers": "2006",
+  "sources": [
+   "https://www.antaranews.com/berita/5812635/yusril-dipanggil-prabowo-ke-istana-siapkan-materi-definisi-korupsi",
+   "https://katadata.co.id/berita/nasional/6ad84be9eec62/luhut-sebut-prabowo-akan-ubah-definisi-korupsi-tak-singgung-kerugian-negara"
+  ],
+  "sensitivity": "normal"
+ },
+ {
+  "claim": "hook_b hb1/hb2 (myth): 'Katanya korupsi mau dipersempit' = the public reading of Luhut's 20 Oct proposal (UN version focused on bribery, 'tidak bicara kerugian negara'), framed as 'katanya'; 'Kata Yusril, malah diperluas' = Yusril 26 Oct 'harus diperluas'.",
+  "numbers": "",
+  "sources": [
+   "https://liputan6.com/news/read/8321672/yusril-menghadap-prabowo-bahas-perubahan-definisi-korupsi",
+   "https://www.antaranews.com/berita/5812635/yusril-dipanggil-prabowo-ke-istana-siapkan-materi-definisi-korupsi",
+   "https://katadata.co.id/berita/nasional/6ad84be9eec62/luhut-sebut-prabowo-akan-ubah-definisi-korupsi-tak-singgung-kerugian-negara"
+  ],
+  "sensitivity": "high"
+ },
+ {
+  "claim": "CTA: open opinion question ('apa yang kamu masukkan ke definisi korupsi?'), not a factual claim.",
+  "numbers": "",
+  "sources": [],
+  "sensitivity": "high"
+ }
+]
