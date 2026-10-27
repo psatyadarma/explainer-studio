@@ -12,6 +12,7 @@ _One dated line per piece of feedback about topics or angles. The coordinator ap
 - 2026-10-22: Expects cut-outs of the real people mentioned in a video (asked "where is the cutout of the people mentioned" after a faceless draft). Default: every named public figure who speaks/acts in the video gets a licensed cut-out; anyone without a licensed photo keeps a name tag, and the draft says so up front so the user decides before render.
 - 2026-10-23: Picked #1 (Bahlil "mode bertahan" / Rp31,8 T, wallet angle, recommended) on wildcard Friday, phrased as a tentative pick ("coba ganti ke 1 dulu").
 - 2026-10-27: Picked #5 (definisi korupsi PART 2, politics/law, sensitivity high, 8/12) over the recommended #1 (BYD Atto 1 best-seller, 10/12) on tech Tuesday; asked why #1 was recommended. Second time choosing the definisi-korupsi storyline over a higher-scored pick.
+- 2026-10-27: Said "OK" to post definisi korupsi PART 2 and gave a standing rule: automatic (default) posting is allowed for all kinds of posts, including sensitivity high.
 
 ## What the picks show
 
