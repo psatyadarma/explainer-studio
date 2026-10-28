@@ -1,0 +1,472 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Asap: 1.700 penerbangan batal — Rangkumin Dong</title>
+<link rel="stylesheet" href="../../../../styles/sticker/sticker.css">
+<script src="../../../../styles/sticker/sticker.js"></script>
+<script src="../../../../styles/sticker/characters/budi.js"></script>
+<script>window.SUB_LEAD = 0.02; window.SUB_MODE = "block";</script>
+<script src="build/timing.js"></script>
+<style>
+  .zone { position: absolute; width: 1080px; height: 1920px; }
+  #subs { top: 1205px; }
+  .big { font-weight: 900; letter-spacing: -8px; line-height: .9; white-space: nowrap; font-variant-numeric: tabular-nums; }
+  .lbl { font-weight: 800; font-size: 40px; color: var(--ink); white-space: nowrap; text-align: center; }
+  .note { font-weight: 800; font-size: 28px; color: var(--slate); white-space: nowrap; text-align: center; }
+  .chip { background: #fff; border-radius: 26px; padding: 16px 30px 20px; font-weight: 900; font-size: 46px; letter-spacing: -1px; white-space: nowrap;
+          box-shadow: 0 0 0 8px #fff, 0 14px 24px rgba(27,36,48,.18); display: flex; align-items: center; gap: 18px; }
+  .stampx { font-weight: 900; letter-spacing: -2px; color: var(--accent); border: 10px solid var(--accent); border-radius: 22px; padding: 6px 28px 12px;
+            white-space: nowrap; background: rgba(255,255,255,.92); text-align: center; line-height: 1; }
+  .ntag { height: 116px; background: #fff; border-radius: 26px; display: flex; flex-direction: row; gap: 20px; align-items: center; padding: 0 30px 0 18px;
+          box-shadow: 0 0 0 8px #fff, 0 16px 24px rgba(27,36,48,.2); }
+  .ntag .icn { flex: 0 0 86px; height: 86px; border-radius: 50%; background: var(--slate); display: flex; align-items: center; justify-content: center; overflow: hidden; }
+  .ntag .nm { font-weight: 900; font-size: 38px; line-height: 1.05; letter-spacing: -1px; white-space: nowrap; }
+  .ntag .rl { font-weight: 700; font-size: 27px; color: var(--slate); white-space: nowrap; margin-top: 4px; }
+  .bub { position: absolute; background: #fff; border-radius: 30px; padding: 22px 30px 26px; text-align: center;
+         font-weight: 900; font-size: 56px; line-height: 1.08; letter-spacing: -1.5px; box-shadow: 0 0 0 9px #fff, 0 18px 26px rgba(27,36,48,.2); }
+  /* departures board */
+  .board { width: 720px; background: var(--ink); border-radius: 26px; padding: 18px 26px 22px; box-shadow: 0 0 0 10px #fff, 0 20px 30px rgba(27,36,48,.25); }
+  .board .hd { display: flex; justify-content: space-between; color: var(--hi); font-weight: 900; font-size: 30px; letter-spacing: 2px; padding: 0 6px 12px;
+               border-bottom: 4px solid #2E3B4A; margin-bottom: 8px; }
+  .board .row { display: flex; justify-content: space-between; align-items: center; height: 74px; border-bottom: 3px solid #2E3B4A; }
+  .board .row:last-child { border-bottom: 0; }
+  .board .ds { color: #fff; font-weight: 800; font-size: 38px; letter-spacing: 1px; font-family: ui-monospace, Menlo, monospace; }
+  .board .st { width: 230px; height: 54px; border-radius: 10px; background: #2E7D4F; color: #fff; font-weight: 900; font-size: 30px; letter-spacing: 1px;
+               display: flex; align-items: center; justify-content: center; transform-origin: 50% 50%; }
+  .board .st.x { background: var(--accent); font-size: 36px; }
+  /* boarding pass */
+  .pass { width: 300px; height: 150px; background: #fff; border-radius: 18px; box-shadow: 0 0 0 8px #fff, 0 14px 22px rgba(27,36,48,.22); overflow: hidden; }
+  .pass .top { height: 40px; background: var(--slate); color: #fff; font-weight: 900; font-size: 22px; letter-spacing: 2px; display: flex; align-items: center; padding-left: 18px; }
+  .pass .rt { font-weight: 900; font-size: 40px; letter-spacing: -1px; padding: 14px 18px 0; white-space: nowrap; }
+  .pass .ln { height: 12px; border-radius: 6px; background: #DDD7CA; margin: 12px 18px 0; width: 60%; }
+  .passB { width: 680px; background: #fff; border-radius: 28px; box-shadow: 0 0 0 10px #fff, 0 18px 28px rgba(27,36,48,.22); overflow: hidden; }
+  .passB .top { height: 66px; background: var(--slate); color: #fff; font-weight: 900; font-size: 32px; letter-spacing: 3px; display: flex; align-items: center; padding-left: 30px; }
+  .passB .bd { display: flex; padding: 26px 30px 30px; gap: 30px; align-items: flex-start; }
+  .passB .k { font-weight: 800; font-size: 24px; color: var(--slate); letter-spacing: 1px; }
+  .passB .v { font-weight: 900; font-size: 46px; letter-spacing: -1px; white-space: nowrap; }
+  #haze, #hazeB { position: absolute; left: -200px; width: 1480px; top: 980px; height: 900px; pointer-events: none; }
+  .puff { position: absolute; border-radius: 50%; background: #9AA0A6; filter: blur(34px); }
+  /* waffle */
+  #waf { width: 592px; height: 592px; display: grid; grid-template-columns: repeat(10, 52px); grid-gap: 8px; }
+  #waf i { display: block; width: 52px; height: 52px; border-radius: 10px; background: #C9D3DC; }
+  #waf i.on { background: var(--accent); }
+  .leg { display: inline-block; width: 34px; height: 34px; border-radius: 8px; }
+  #endcard { position: absolute; inset: 0; z-index: 8; display: flex; flex-direction: column; align-items: center; justify-content: center;
+             gap: 24px; background: var(--paper); opacity: 0; }
+  #endcard .logo { background: var(--accent); color: #fff; font-weight: 900; font-size: 116px; letter-spacing: -4px;
+                   padding: 30px 58px 40px; border-radius: 44px; line-height: .95; text-align: center; transform: rotate(-3deg); }
+  #endcard .tl2 { font-weight: 800; font-size: 54px; color: var(--slate); }
+  #endcard .h { font-weight: 900; font-size: 50px; background: var(--ink); color: #fff; padding: 12px 26px; border-radius: 16px; }
+  #endcard .src { font-weight: 700; font-size: 27px; color: var(--slate); margin-top: 10px; text-align: center; line-height: 1.4; max-width: 900px; }
+</style>
+</head>
+<body>
+<div id="stage">
+  <div id="world">
+
+    <!-- A (0,0): hook / cover (A and B openings) -->
+    <div id="zA" class="zone" style="left:0; top:0;">
+      <div id="haze"></div>
+      <div id="aHd" class="abs headline" style="left:540px; top:500px; width:1000px;">
+        <div style="font-size:86px; white-space:nowrap; letter-spacing:-4px;">1.700 PENERBANGAN</div>
+        <div style="font-size:176px; color:var(--accent); white-space:nowrap; letter-spacing:-6px; line-height:.92;">BATAL</div></div>
+      <div id="aBoard" class="abs board" style="left:540px; top:935px;">
+        <div class="hd"><span>KEBERANGKATAN</span><span>STATUS</span></div>
+        <div class="row"><span class="ds">PONTIANAK</span><span class="st">TERJADWAL</span></div>
+        <div class="row"><span class="ds">PALANGKARAYA</span><span class="st">TERJADWAL</span></div>
+        <div class="row"><span class="ds">PANGKALAN BUN</span><span class="st">TERJADWAL</span></div>
+        <div class="row"><span class="ds">SINGKAWANG</span><span class="st">TERJADWAL</span></div></div>
+      <div id="aIl" class="abs note" style="left:780px; top:1225px; font-size:22px;">ilustrasi</div>
+      <!-- h2: rute kamu? -->
+      <div id="aPass" class="abs pass" style="left:250px; top:1345px;"><div class="top">BOARDING PASS</div><div class="rt">KAMU → ?</div><div class="ln"></div></div>
+      <div id="aQ" class="abs stampx" style="left:470px; top:1300px; font-size:120px; padding:0 30px 10px;">?</div>
+      <div id="aPlane" class="abs" style="left:660px; top:1350px;"></div>
+
+      <!-- B: boarding pass, time crossed out -->
+      <div id="bHd" class="abs headline" style="left:540px; top:470px; width:1000px;">
+        <div style="font-size:100px; white-space:nowrap;">TERBANG KE</div>
+        <div style="font-size:112px; color:var(--accent); white-space:nowrap; letter-spacing:-4px;">KALIMANTAN?</div></div>
+      <div id="bCek" class="abs tag sticker" style="left:540px; top:690px; font-size:60px; padding:14px 34px 20px;">CEK DULU</div>
+      <div id="bPass" class="abs passB" style="left:540px; top:990px;">
+        <div class="top">BOARDING PASS</div>
+        <div class="bd">
+          <div><div class="k">DARI</div><div class="v">JAKARTA</div></div>
+          <div style="font-weight:900; font-size:46px; color:var(--accent); padding-top:24px;">→</div>
+          <div><div class="k">KE</div><div class="v">PONTIANAK</div></div></div>
+        <div class="bd" style="padding-top:0; align-items:center;">
+          <div style="position:relative;"><div class="k">BERANGKAT</div><div class="v" style="font-size:56px;">13:00</div>
+            <svg id="bX" style="position:absolute; left:-10px; top:28px;" width="170" height="70" viewBox="0 0 170 70"><path id="bXp" d="M6 50 L164 16" stroke="#FF5A36" stroke-width="12" stroke-linecap="round" fill="none" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"/></svg></div>
+          <div id="bNew" style="font-weight:900; font-size:54px; color:var(--accent); transform:rotate(-6deg); padding-top:22px;">DIGESER?</div></div></div>
+      <div id="bIl" class="abs note" style="left:540px; top:1235px; font-size:22px;">ilustrasi</div>
+      <div id="bPlane" class="abs" style="left:290px; top:1350px;"></div>
+
+      <!-- open loop (both): locked calendar "per hari = ?" -->
+      <div id="aCal" class="abs" style="left:850px; top:1330px;"></div>
+    </div>
+
+    <!-- tagline (1240,0) -->
+    <div class="zone" style="left:1240px; top:0;">
+      <div id="stamp" class="abs stamp sticker" style="left:540px; top:960px; font-size:110px;">Rangkumin dong!</div>
+    </div>
+
+    <!-- R1 (0,2400): l1 Kemenhub, 14 Agu–25 Okt, 3.030 -->
+    <div class="zone" style="left:0; top:2400px;">
+      <div id="r1Src" class="abs chip" style="left:540px; top:450px;"><span id="r1SrcI"></span>kata Kemenhub</div>
+      <div id="r1D1" class="abs tag accent sticker" style="left:250px; top:640px; font-size:46px;">14 AGU</div>
+      <svg id="r1Ar" class="abs" style="left:540px; top:640px;" width="220" height="60" viewBox="0 0 220 60"><path id="r1ArP" d="M10 30 H200 M176 10 L204 30 L176 50" stroke="#1B2430" stroke-width="10" fill="none" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"/></svg>
+      <div id="r1D2" class="abs tag accent sticker" style="left:810px; top:640px; font-size:46px;">25 OKT 2026</div>
+      <div id="r1N" class="abs big" style="left:540px; top:900px; font-size:250px;">0</div>
+      <div id="r1L" class="abs lbl" style="left:540px; top:1090px; font-size:52px;">penerbangan terganggu</div>
+      <div id="r1Smoke" class="abs" style="left:540px; top:1300px;"></div>
+    </div>
+
+    <!-- R2 (1240,2400): l2 waffle 56% -->
+    <div class="zone" style="left:1240px; top:2400px;">
+      <div id="r2Hd" class="abs lbl" style="left:540px; top:430px; font-size:44px;">dari 3.030 penerbangan terganggu:</div>
+      <div id="waf" class="abs" style="left:540px; top:830px;"></div>
+      <div id="r2Pct" class="abs stampx" style="left:540px; top:830px; font-size:190px; padding:4px 34px 18px;">56%</div>
+      <div id="r2L1" class="abs chip" style="left:310px; top:1225px; font-size:42px;"><span class="leg" style="background:var(--accent)"></span>±1.700 batal</div>
+      <div id="r2L2" class="abs chip" style="left:760px; top:1225px; font-size:42px; color:var(--slate);"><span class="leg" style="background:#C9D3DC"></span>lainnya</div>
+      <div id="r2N" class="abs note" style="left:540px; top:1330px;">1 kotak = 1%</div>
+    </div>
+
+    <!-- R3 (2480,2400): l3 154 rute -->
+    <div class="zone" style="left:2480px; top:2400px;">
+      <svg id="r3Arcs" class="abs" style="left:540px; top:820px;" width="860" height="640" viewBox="0 0 860 640"></svg>
+      <div id="r3N" class="abs big" style="left:540px; top:800px; font-size:300px;">0</div>
+      <div id="r3T" class="abs tag accent sticker" style="left:540px; top:1040px; font-size:70px;">RUTE</div>
+      <div id="r3K" class="abs chip" style="left:540px; top:1220px;"><span id="r3KI"></span>kena asap</div>
+    </div>
+
+    <!-- M (0,4800): map, paling parah -->
+    <div class="zone" style="left:0; top:4800px;">
+      <div id="mHd" class="abs tag sticker" style="left:540px; top:440px; font-size:52px;">PALING PARAH</div>
+      <div id="mMap" class="abs" style="left:540px; top:920px; width:774px; height:684px;"></div>
+      <div id="mKal" class="abs note" style="left:650px; top:830px; font-size:34px; letter-spacing:4px; color:#7D8C99;">KALIMANTAN</div>
+      <div id="mPins"></div>
+    </div>
+
+    <!-- S2 (1240,4800): l4 turn — no airport closed -->
+    <div class="zone" style="left:1240px; top:4800px;">
+      <div id="s2Tapi" class="abs tag accent sticker" style="left:540px; top:430px; font-size:58px;">TAPI…</div>
+      <div id="s2Ap" class="abs" style="left:540px; top:790px;"></div>
+      <div id="s2Buka" class="abs" style="left:700px; top:640px; background:#2E7D4F; color:#fff; font-weight:900; font-size:54px; letter-spacing:2px; padding:8px 26px 12px; border-radius:16px; box-shadow:0 0 0 8px #fff;">BUKA</div>
+      <div id="s2St" class="abs stampx" style="left:540px; top:1080px; font-size:62px; line-height:1.05; padding:12px 30px 16px;">TIDAK ADA BANDARA<br>YANG DITUTUP</div>
+      <div id="s2T" class="abs ntag" style="left:540px; top:1300px;"><div class="icn person"></div>
+        <div><div class="nm">Lukman F. Laisa</div><div class="rl">Dirjen Perhubungan Udara</div></div></div>
+    </div>
+
+    <!-- S3 (2480,4800): l5a visibility -->
+    <div class="zone" style="left:2480px; top:4800px;">
+      <div id="g3Hd" class="abs lbl" style="left:540px; top:440px; font-size:46px;">jarak pandang</div>
+      <svg id="g3G" class="abs" style="left:540px; top:740px;" width="560" height="330" viewBox="0 0 560 330"></svg>
+      <div id="g3P" class="abs" style="left:540px; top:1080px;"></div>
+      <div id="g3St" class="abs stampx" style="left:540px; top:1300px; font-size:64px;">TIDAK DIPAKSA TERBANG</div>
+    </div>
+
+    <!-- T1 (0,7200): l5b Pontianak siang → malam -->
+    <div class="zone" style="left:0; top:7200px;">
+      <div id="t1Pin" class="abs tag sticker" style="left:540px; top:440px; font-size:54px; display:flex; align-items:center; gap:14px;"><span id="t1PinI"></span>PONTIANAK</div>
+      <div id="t1Sky" class="abs" style="left:540px; top:820px; width:540px; height:540px; border-radius:50%; overflow:hidden; box-shadow:0 0 0 10px #fff, 0 18px 28px rgba(27,36,48,.22);">
+        <div id="t1Day" style="position:absolute; inset:0; background:#8FD0F0;"></div>
+        <div id="t1Night" style="position:absolute; inset:0; background:#22324A; opacity:0;"></div>
+        <div id="t1Sun" style="position:absolute; left:270px; top:270px;"></div>
+        <div id="t1Moon" style="position:absolute; left:270px; top:270px;"></div>
+        <div id="t1Ground" style="position:absolute; left:0; right:0; bottom:0; height:120px; background:#3E5568;"></div></div>
+      <div id="t1J" class="abs chip" style="left:540px; top:1180px; font-size:50px;">jadwal <span id="t1S">siang</span><span id="t1Ar" style="color:var(--accent);">→</span><span id="t1M" style="color:var(--accent);">malam</span></div>
+      <div id="t1Il" class="abs note" style="left:540px; top:1290px; font-size:24px;">kata Dirjen Perhubungan Udara · gambar ilustrasi</div>
+    </div>
+
+    <!-- T2 (1240,7200): l6 payoff — 23 per hari -->
+    <div class="zone" style="left:1240px; top:7200px;">
+      <div id="t2Hd" class="abs headline" style="left:540px; top:440px; font-size:84px; white-space:nowrap;">RATA-RATANYA?</div>
+      <div id="t2Cal" class="abs" style="left:540px; top:790px;"></div>
+      <div id="t2N" class="abs" style="left:540px; top:1110px; display:flex; align-items:baseline; gap:20px;">
+        <span id="t2Nn" class="big" style="font-size:200px; color:var(--accent);">0</span><span class="lbl" style="font-size:52px; text-align:left; line-height:1.05;">penerbangan<br>batal</span></div>
+      <div id="t2St" class="abs stampx" style="left:540px; top:1300px; font-size:84px;"><span id="t2S1">SETIAP</span> <span id="t2S2">HARI</span></div>
+      <div id="t2Note" class="abs note" style="left:540px; top:560px; font-size:27px;">hitungan kami: 1.700 ÷ 73 hari (14 Agu–25 Okt) · rata-rata</div>
+    </div>
+
+    <!-- T3 (2480,7200): CTA -->
+    <div class="zone" style="left:2480px; top:7200px;">
+      <div id="qHd" class="abs headline" style="left:540px; top:500px; font-size:74px; line-height:1.06;">Pernah kena<br><span class="acc">jadwal berubah?</span></div>
+      <div id="qBudi" class="abs sticker-svg" style="left:320px; top:1030px;"></div>
+      <div id="qCom" class="abs sticker-svg" style="left:740px; top:880px;"></div>
+      <div id="qK" class="abs bub" style="left:740px; top:1150px; font-size:62px;">Ceritain<br>di komen!</div>
+    </div>
+  </div>
+
+  <div id="brand"><div class="dot"></div><b>Rangkumin Dong</b></div>
+  <div id="subs"></div>
+  <div id="endcard">
+    <div class="logo">RANGKUMIN<br>DONG</div>
+    <div class="tl2">Berita ribet? Rangkumin dong.</div>
+    <div class="h">@rangkumindong</div>
+    <div class="src">Sumber: Kemenhub via Kontan &amp; CNBC Indonesia (27 Okt 2026),<br>rilis Kemenhub 23 Okt · lengkap di komentar</div>
+    <div class="src" style="font-size:24px; margin-top:0;">"23 per hari" = hitungan kami: 1.700 ÷ 73 hari (14 Agu–25 Okt), rata-rata</div>
+  </div>
+  <div id="progress"></div>
+</div>
+
+<script>
+const $ = (id) => document.getElementById(id);
+const T = window.TIMING;
+window.DURATION = T.duration;
+const at = K.at, W = K.word;
+const VB = T.variant === 'b';
+const H1 = VB ? 'hb1' : 'h1', H2 = VB ? 'hb2' : 'h2';
+const MAP_ID = "M2108.257,635.491L2109.376,838.587L2110.271,1042.872L2055.002,991.253L1991.901,978.711L1976.461,996.57L1897.696,998.484L1924.1,947.383L1963.259,929.983L1947.148,861.967L1917.164,809.516L1796.779,756.716L1745.537,751.439L1652.228,693.858L1633.879,724.117L1609.937,729.601L1595.84,706.824L1595.616,679.736L1548.178,649.183L1615.083,626.751L1659.388,627.909L1654.242,611.484L1563.17,611.379L1538.556,574.327L1483.063,562.855L1456.883,532.024L1540.57,516.979L1572.345,496.779L1672.143,522.24L1681.989,545.387L1699.442,645.918L1763.662,683.213L1815.575,617.169L1886.956,579.694L1942.225,579.589L1995.481,601.272L2041.576,623.592ZM1111.84,1028.705L1118.105,1041.167L1119.224,1060.246L1078.723,1107.323L1025.467,1121.221L1018.083,1113.629L1023.677,1092.153L1050.305,1053.742ZM1686.24,903.372L1680.198,856.252L1691.163,833.828L1704.141,812.686L1718.238,830.973L1718.238,860.802ZM671.25,216.401L635.896,272.591L681.543,331.574L670.803,360.207L740.617,417.665L666.999,425.03L646.189,467.428L648.874,523.713L589.129,566.223L587.563,628.225L563.62,723.379L554.446,701.237L483.737,729.285L459.123,691.223L414.818,687.639L383.715,667.724L309.873,690.063L287.273,660.033L246.548,663.404L195.306,656.24L185.684,572.748L154.805,555.489L124.821,502.355L116.318,447.965L123.478,390.307L160.399,349.049L170.916,390.622L213.431,425.766L253.484,413.035L293.09,417.559L329.34,386.097L359.101,380.625L417.95,398.094L468.521,384.835L500.519,298.296L524.462,276.7L545.943,205.853L617.323,205.853ZM1385.502,648.024L1453.75,666.143L1476.35,713.783L1423.99,688.061L1372.077,682.897L1336.946,687.007L1293.983,684.794L1308.528,650.552ZM1230.211,709.565L1187.248,698.18L1175.165,671.411L1238.042,668.356L1253.482,688.904ZM1295.997,338.627L1300.472,372.521L1337.17,377.994L1342.987,403.355L1339.631,457.749L1307.633,451.647L1298.235,489.415L1323.744,522.24L1306.29,529.71L1281.229,490.362L1262.88,410.931L1275.411,361.26ZM984.966,419.348L1056.347,416.718L1117.882,371.574L1128.622,385.466L1078.723,447.229L1031.957,459.117L972.212,447.018L868.609,450.069L814.235,459.011L805.508,506.037L861.001,561.382L894.566,533.182L1010.475,512.034L1005.552,540.652L978.477,531.604L951.402,568.117L896.58,592.219L955.43,671.938L944.241,693.331L999.958,765.265L999.511,806.24L966.394,824.524L942.004,802.648L971.988,751.545L910.901,775.716L895.461,758.404L903.516,734.348L858.764,697.863L863.463,637.176L821.843,656.03L827.213,728.652L829.675,817.97L790.292,826.956L763.664,808.671L781.342,751.228L771.72,691.117L745.54,690.696L726.296,648.024L752.029,607.273L760.979,557.909L792.082,464.166L805.061,438.602L858.093,392.411L906.649,410.72ZM821.172,1114.805L738.827,1070.592L796.781,1058.22L829.451,1077.42L851.156,1096.638L847.352,1113.629ZM886.287,1006.355L927.683,1001.568L983.4,978.605L974.226,1013.483L880.916,1031.367L798.124,1023.595L798.124,1000.611L847.352,987.532ZM694.745,995.4L733.233,990.296L748.672,1016.995L676.844,1029.664L633.658,1038.078L600.317,1037.545L621.575,1001.355L655.811,1000.823L672.369,978.605ZM87.228,873.821L95.731,896.061L214.997,902.313L228.647,876.468L343.885,906.552L366.485,947.171L459.794,958.636L536.097,995.932L465.164,1019.869L396.693,994.549L340.528,996.251L276.084,991.572L217.906,980.305L145.854,956.406L100.207,950.143L74.25,957.999L-38.974,932.21L-49.715,905.28L-106.774,900.617L-64.036,840.913L11.373,844.615L61.496,869.058ZM-168.533,541.178L-158.016,584.536L-136.311,619.275L-90.663,624.75L-60.455,664.141L-76.119,741.627L-78.58,838.164L-147.499,839.433L-199.86,787.226L-279.519,736.352L-306.147,698.601L-353.138,647.919L-384.017,601.272L-431.455,514.244L-486.053,462.378L-504.178,408.932L-527.225,360.418L-583.166,321.255L-615.612,267.955L-662.378,233.17L-727.27,164.372L-732.64,132.679L-692.81,135.216L-596.592,147.261L-541.546,208.174L-493.437,250.459L-459.201,276.384L-400.352,343.26L-337.027,344.207L-284.89,386.834L-248.864,438.917L-201.65,467.322L-226.488,518.031L-190.909,539.6Z";
+const MAP_OT = "M-434.811,71.117L-424.071,59.998L-373.276,87.312L-368.353,119.466L-327.405,111.959L-307.042,86.253L-292.722,92.179L-256.024,129.826L-230.068,171.658L-226.488,213.659L-232.977,242.026L-226.935,263.423L-222.46,300.192L-200.531,317.359L-176.141,372.416L-177.26,393.358L-221.341,397.567L-280.191,351.471L-353.809,302.088L-360.969,270.378L-396.995,228.741L-405.498,177.148L-427.874,143.141L-421.162,97.575ZM671.25,216.401L617.323,205.853L545.943,205.853L524.462,276.7L500.519,298.296L468.521,384.835L417.95,398.094L359.101,380.625L329.34,386.097L293.09,417.559L253.484,413.035L213.431,425.766L170.916,390.622L160.399,349.049L206.047,370.311L253.932,358.734L266.463,306.09L293.09,294.294L367.604,280.809L412.133,231.588L442.788,192.136L470.982,224.523L483.96,203.215L513.721,205.22L517.301,165.428L520.21,134.687L568.095,91.227L599.422,42.305L624.484,42.093L656.482,73.764L659.391,100.96L700.339,118.409L752.029,137.118L747.554,161.626L705.934,164.689L717.122,195.196Z M520.21,134.687L517.301,165.428L513.721,205.22L483.96,203.215L470.982,224.523L442.788,192.136L467.402,168.807Z";
+
+// ---------- SVG builders (generic icons, no logos) ----------
+const personSil = (s = 86) => `<svg width="${s}" height="${s}" viewBox="0 0 106 106"><circle cx="53" cy="40" r="19" fill="#fff"/><path d="M14 106 Q14 66 53 66 Q92 66 92 106 Z" fill="#fff"/></svg>`;
+const planeSVG = (s = 240) => `<svg width="${s}" height="${s * 0.5}" viewBox="0 0 240 120"><path d="M20 62 Q20 48 40 48 H190 Q222 48 232 62 Q222 76 190 76 H40 Q20 76 20 62 Z" fill="#fff" stroke="#1B2430" stroke-width="6"/>
+  <path d="M100 50 L70 8 H92 L140 50 Z M100 74 L74 112 H96 L140 74 Z" fill="#3E5568" stroke="#1B2430" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M22 54 L8 22 H26 L48 50 Z" fill="#FF5A36" stroke="#1B2430" stroke-width="5" stroke-linejoin="round"/>
+  ${[0, 1, 2, 3, 4].map((i) => `<circle cx="${130 + i * 16}" cy="58" r="5" fill="#3E5568"/>`).join('')}</svg>`;
+const docSmall = (s = 46) => `<svg width="${s}" height="${s * 1.2}" viewBox="0 0 50 60"><path d="M4 4 H34 L46 16 V56 H4 Z" fill="#fff" stroke="#1B2430" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M12 26 H38 M12 36 H38 M12 46 H28" stroke="#3E5568" stroke-width="4" stroke-linecap="round"/></svg>`;
+const smokeSVG = (s = 300) => `<svg width="${s}" height="${s * 0.6}" viewBox="0 0 300 180"><g fill="#9AA0A6" stroke="#fff" stroke-width="8">
+  <circle cx="80" cy="110" r="56"/><circle cx="150" cy="80" r="70"/><circle cx="220" cy="110" r="56"/><rect x="60" y="110" width="180" height="56" rx="28" stroke="none"/></g>
+  <text x="150" y="132" text-anchor="middle" font-family="inherit" font-weight="900" font-size="46" fill="#fff">ASAP</text></svg>`;
+const calSVG = (s = 160, txt = 'per hari', big = '?', lock = true) => `<svg width="${s}" height="${s * 1.15}" viewBox="0 0 160 184">
+  <rect x="8" y="22" width="144" height="150" rx="18" fill="#fff" stroke="#1B2430" stroke-width="7"/><rect x="8" y="22" width="144" height="42" rx="18" fill="#FF5A36"/><rect x="8" y="46" width="144" height="18" fill="#FF5A36"/>
+  <path d="M42 10 V36 M118 10 V36" stroke="#1B2430" stroke-width="9" stroke-linecap="round"/>
+  <text x="80" y="54" text-anchor="middle" font-weight="900" font-size="22" fill="#fff" font-family="inherit">${txt}</text>
+  <text x="80" y="140" text-anchor="middle" font-weight="900" font-size="74" fill="#1B2430" font-family="inherit">${big}</text>
+  ${lock ? `<g transform="translate(116 124)"><path id="lockSh" d="M10 18 V8 Q10 -6 24 -6 Q38 -6 38 8 V18" stroke="#1B2430" stroke-width="7" fill="none"/><rect x="2" y="16" width="44" height="38" rx="8" fill="#FFD23F" stroke="#1B2430" stroke-width="6"/></g>` : ''}</svg>`;
+const airportSVG = () => `<svg width="560" height="380" viewBox="0 0 560 380">
+  <rect x="380" y="40" width="40" height="230" fill="#3E5568"/><path d="M350 40 H450 L436 0 H364 Z" fill="#1B2430"/><rect x="362" y="10" width="76" height="22" fill="#8FD0F0"/>
+  <rect x="40" y="170" width="480" height="150" rx="14" fill="#3E5568"/><path d="M30 176 Q280 110 530 176 Z" fill="#1B2430"/>
+  ${[0, 1, 2, 3, 4, 5, 6].map((i) => `<rect x="${66 + i * 64}" y="210" width="44" height="70" rx="6" fill="#8FD0F0"/>`).join('')}
+  <rect x="0" y="320" width="560" height="44" rx="12" fill="#1B2430"/><path d="M40 342 H520" stroke="#FFD23F" stroke-width="6" stroke-dasharray="30 22"/></svg>`;
+const sunSVG = () => `<svg width="170" height="170" viewBox="0 0 170 170"><g stroke="#FFB020" stroke-width="10" stroke-linecap="round">
+  ${[...Array(8)].map((_, i) => { const a = i * Math.PI / 4; return `<path d="M${85 + 58 * Math.cos(a)} ${85 + 58 * Math.sin(a)} L${85 + 78 * Math.cos(a)} ${85 + 78 * Math.sin(a)}"/>`; }).join('')}</g>
+  <circle cx="85" cy="85" r="44" fill="#FFD23F" stroke="#FFB020" stroke-width="6"/></svg>`;
+const moonSVG = () => `<svg width="150" height="150" viewBox="0 0 150 150"><path d="M98 18 A60 60 0 1 0 132 100 A48 48 0 1 1 98 18 Z" fill="#F3EFE6"/>
+  <circle cx="30" cy="30" r="4" fill="#fff"/><circle cx="128" cy="40" r="3" fill="#fff"/></svg>`;
+const pinSVG = (s = 70) => `<svg width="${s}" height="${s * 1.3}" viewBox="0 0 70 91"><path d="M35 88 Q6 52 6 32 A29 29 0 1 1 64 32 Q64 52 35 88 Z" fill="#FF5A36" stroke="#fff" stroke-width="6"/><circle cx="35" cy="32" r="11" fill="#fff"/></svg>`;
+const commentSVG = () => `<svg width="230" height="200" viewBox="0 0 260 230"><path d="M20 30 Q20 10 40 10 H220 Q240 10 240 30 V150 Q240 170 220 170 H110 L60 214 L70 170 H40 Q20 170 20 150 Z" fill="#fff" stroke="#1B2430" stroke-width="8" stroke-linejoin="round"/>
+  <circle cx="80" cy="90" r="14" fill="#1B2430"/><circle cx="130" cy="90" r="14" fill="#1B2430"/><circle cx="180" cy="90" r="14" fill="#1B2430"/></svg>`;
+
+// ---------- static parts ----------
+document.querySelectorAll('.icn.person').forEach((d) => (d.innerHTML = personSil()));
+$('aPlane').innerHTML = planeSVG(230); $('bPlane').innerHTML = planeSVG(230);
+$('aCal').innerHTML = calSVG(150);
+$('r1SrcI').innerHTML = docSmall(40);
+$('r1Smoke').innerHTML = smokeSVG(320);
+$('r3KI').innerHTML = smokeSVG(90).replace('>ASAP<', '><');
+$('s2Ap').innerHTML = airportSVG();
+$('g3P').innerHTML = planeSVG(300);
+$('t1PinI').innerHTML = pinSVG(40);
+$('t1Sun').innerHTML = sunSVG(); $('t1Moon').innerHTML = moonSVG();
+$('qCom').innerHTML = commentSVG();
+// haze puffs (shared by both hooks)
+const PUFF = [[120, 520, 420], [420, 600, 480], [760, 540, 440], [1080, 600, 420], [260, 300, 360], [900, 320, 380], [600, 380, 340]];
+const puffs = PUFF.map(([x, y, r]) => { const e = document.createElement('div'); e.className = 'puff'; Object.assign(e.style, { left: x - r / 2 + 'px', top: y - r / 2 + 'px', width: r + 'px', height: r * 0.7 + 'px' }); $('haze').appendChild(e); return e; });
+// waffle 10x10 (1 cell = 1%; 56 cells = 1.700/3.030)
+const cells = [...Array(100)].map(() => { const e = document.createElement('i'); $('waf').appendChild(e); return e; });
+// route arcs around 154
+$('r3Arcs').innerHTML = [[60, 120], [800, 110], [40, 520], [820, 540], [150, 600], [710, 610], [430, 20]].map(([x, y], i) =>
+  `<path class="arc" d="M430 320 Q${(430 + x) / 2 + (i % 2 ? 60 : -60)} ${(320 + y) / 2 - 80} ${x} ${y}" stroke="#3E5568" stroke-width="7" stroke-dasharray="4 18" stroke-linecap="round" fill="none"/>
+   <circle class="arcd" cx="${x}" cy="${y}" r="16" fill="#FF5A36" stroke="#fff" stroke-width="6"/>`).join('');
+const arcs = [...$('r3Arcs').querySelectorAll('.arc')], arcd = [...$('r3Arcs').querySelectorAll('.arcd')];
+// Kalimantan map (Natural Earth 110m, Mercator; box 108.4–119.6°E, 4.6°S–7.6°N), scaled 0.9
+$('mMap').innerHTML = `<svg width="774" height="684" viewBox="0 0 860 760" style="overflow:hidden; display:block;">
+  <rect width="860" height="760" rx="40" fill="#DCEBF2"/><path d="${MAP_OT}" fill="#C9D3DC" stroke="#fff" stroke-width="4"/>
+  <path d="${MAP_ID}" fill="#E9E2D2" stroke="#3E5568" stroke-width="5" stroke-linejoin="round"/></svg>`;
+const CITY = [['Singkawang', 118, 417, 'singkawang', 150, -62], ['Pontianak', 140, 476, 'pontianak', -40, 72], ['Palangkaraya', 425, 611, 'palangkaraya', 110, -78], ['Pangkalan Bun', 282, 640, 'pangkalan', -10, 78]];
+const pins = CITY.map(([nm, x, y, w, lx, ly]) => {
+  const X = 153 + 0.9 * x, Y = 578 + 0.9 * y;
+  const p = document.createElement('div'); p.className = 'abs'; Object.assign(p.style, { left: X + 'px', top: (Y - 40) + 'px' }); p.innerHTML = pinSVG(62); $('mPins').appendChild(p);
+  const l = document.createElement('div'); l.className = 'abs tag sticker'; l.textContent = nm; Object.assign(l.style, { left: (X + lx) + 'px', top: (Y + ly) + 'px', fontSize: '34px', padding: '8px 18px 12px' }); $('mPins').appendChild(l);
+  return { p, l, w };
+});
+// gauge
+$('g3G').innerHTML = `<path d="M50 290 A230 230 0 0 1 510 290" stroke="#C9D3DC" stroke-width="44" fill="none"/>
+  <path d="M50 290 A230 230 0 0 1 120 127" stroke="#FF5A36" stroke-width="44" fill="none"/>
+  <path d="M108 112 L148 152" stroke="#1B2430" stroke-width="8" stroke-linecap="round"/>
+  <text x="128" y="205" text-anchor="middle" font-weight="900" font-size="34" fill="#FF5A36">MIN</text>
+  <g id="ndl"><path d="M280 290 L280 92" stroke="#1B2430" stroke-width="14" stroke-linecap="round"/></g><circle cx="280" cy="290" r="26" fill="#1B2430"/>`;
+
+if (VB) { ['aHd', 'aBoard', 'aIl', 'aPass', 'aQ', 'aPlane'].forEach((id) => { $(id).style.display = 'none'; }); }
+else { ['bHd', 'bCek', 'bPass', 'bIl', 'bPlane'].forEach((id) => { $(id).style.display = 'none'; }); }
+
+let T_ = 0;
+const pulse = (el, tIn, amt = 0.12, rot = 0) => { const k = K.clamp((T_ - tIn) / 0.45); el.style.transform = `translate(-50%,-50%) scale(${1 + amt * Math.sin(Math.PI * k)}) rotate(${rot}deg)`; };
+const slam = (el, t, tIn, rot = 0, from = 2) => { const s = K.spring(t - tIn, 320, 18); el.style.opacity = t >= tIn ? 1 : 0; el.style.transform = `translate(-50%,-50%) scale(${from - (from - 1) * s}) rotate(${rot}deg)`; };
+const fmt = (n) => Math.round(n).toLocaleString('id-ID');
+const count = (el, t, tIn, dur, to) => { el.textContent = fmt(to * K.easeOut(K.prog(t, tIn, dur))); };
+const draw = (p, t, tIn, dur) => p.setAttribute('stroke-dashoffset', 1 - K.easeOut(K.prog(t, tIn, dur)));
+const rows = [...document.querySelectorAll('#aBoard .st')];
+const ROWW = ['penerbangan', 'batal', 'gara', 'asap'];
+
+function seek(t) {
+  T_ = t;
+  const Z = (x, y, z = 1.0) => ({ x, y: y + 200 / z, z });
+  const zc = (ox, oy, z = 1) => Z(ox + 540, oy + 960, z);
+  const hEnd = at('rd', -0.3);
+  K.camera($('world'), [
+    { t: 0, ...zc(0, 0) },
+    { t: at(H2, -0.15), ...Z(540, 1000, 1.03), dur: 0.5 },
+    { t: hEnd, ...Z(1240 + 540, 960, 1.1) },
+    { t: at('l1', -0.3), ...zc(0, 2400) },
+    { t: at('l2', -0.3), ...zc(1240, 2400) },
+    { t: at('l3', -0.3), ...zc(2480, 2400) },
+    { t: W('l3', 'paling') - 0.35, ...zc(0, 4800) },
+    { t: at('l4', -0.3), ...zc(1240, 4800) },
+    { t: at('l5', -0.3), ...zc(2480, 4800) },
+    { t: W('l5', 'pontianak') - 0.5, ...zc(0, 7200) },
+    { t: at('l6', -0.3), ...zc(1240, 7200) },
+    { t: at('cta', -0.3), ...zc(2480, 7200) },
+  ], t, 1080, 1920, 0.6);
+  $('zA').style.visibility = t > hEnd + 0.7 ? 'hidden' : 'visible';
+
+  // ---------- haze rolls in from the bottom (both hooks) ----------
+  { const h0 = VB ? W('hb1', 'kalimantan') - 0.1 : W('h1', 'gara') - 0.1, k = K.easeOut(K.prog(t, h0, 1.6));
+    $('haze').style.opacity = 0.5 * K.clamp((t - h0) / 0.3);
+    puffs.forEach((p, i) => { p.style.transform = `translate(${18 * Math.sin(t * 0.8 + i)}px, ${(1 - k) * 420 - 14 * Math.sin(t * 0.6 + i * 2)}px)`; }); }
+
+  // ---------- hook A: cover title + departures board flipping to BATAL ----------
+  if (!VB) {
+    const th = 1 + 0.05 * Math.exp(-6 * t) * Math.sin(t * 14);
+    $('aHd').style.transform = `translate(-50%,-50%) scale(${th})`;
+    if (t > W('h1', 'batal') - 0.05) pulse($('aHd'), W('h1', 'batal') - 0.05, 0.06, 0);
+    rows.forEach((r, i) => { const tf = W('h1', ROWW[i]) - 0.1, k = K.prog(t, tf, 0.24);
+      const on = k >= 0.5; r.textContent = on ? 'BATAL' : 'TERJADWAL'; r.classList.toggle('x', on);
+      r.style.transform = `scaleY(${Math.abs(Math.cos(Math.PI * k))})`; });
+    $('aBoard').style.transform = `translate(-50%,-50%) rotate(${-1.2 + 0.4 * Math.sin(t * 2)}deg)`;
+    K.pop($('aPass'), t, W('h2', 'rute') - 0.08, Infinity, -6);
+    slam($('aQ'), t, W('h2', 'termasuk') - 0.05, -6 + 4 * Math.sin(t * 5), 2.2);
+    K.pop($('aPlane'), t, W('h2', 'kamu') - 0.05, Infinity, 0);
+    if (t > W('h2', 'kamu')) $('aPlane').style.transform += ` translateX(${6 * Math.sin(t * 40) * Math.exp(-3 * (t - W('h2', 'kamu')))}px)`;
+  }
+  // ---------- hook B: "Mau terbang ke Kalimantan? Jadwalmu bisa digeser." ----------
+  if (VB) {
+    const th = 1 + 0.05 * Math.exp(-6 * t) * Math.sin(t * 14);
+    $('bHd').style.transform = `translate(-50%,-50%) scale(${th})`;
+    if (t > W('hb1', 'kalimantan') - 0.05) pulse($('bHd'), W('hb1', 'kalimantan') - 0.05, 0.06, 0);
+    K.pop($('bPass'), t, W('hb1', 'terbang') - 0.1, Infinity, -2);
+    { const fl = W('hb1', 'mau') - 0.05, k = K.easeInOut(K.prog(t, fl, 1.2));
+      $('bPlane').style.opacity = t >= fl ? 1 : 0;
+      $('bPlane').style.transform = `translate(-50%,-50%) translate(${-200 + 200 * k}px, ${-30 * Math.sin(Math.PI * k)}px) rotate(${-8 * Math.sin(Math.PI * k)}deg)`; }
+    K.pop($('bCek'), t, W('hb2', 'jadwalmu') - 0.08, Infinity, -3);
+    draw($('bXp'), t, W('hb2', 'digeser') - 0.15, 0.25);
+    { const n0 = W('hb2', 'digeser') + 0.05, s = K.spring(t - n0); $('bNew').style.opacity = t >= n0 ? K.clamp((t - n0) / 0.08) : 0;
+      $('bNew').style.transform = `scale(${0.4 + 0.6 * s}) rotate(-6deg)`; }
+    K.pop($('bIl'), t, W('hb2', 'digeser'), Infinity, 0);
+  }
+  // open loop (both): locked calendar "per hari = ?"
+  { const c0 = VB ? W('hb2', 'bisa') - 0.05 : W('h2', 'termasuk') + 0.3;
+    K.pop($('aCal'), t, c0, Infinity, 6);
+    if (t > c0 + 0.5) $('aCal').style.transform += ` rotate(${3 * Math.sin((t - c0) * 6) * Math.exp(-1.5 * (t - c0 - 0.5))}deg)`; }
+  if (!VB) K.pop($('aIl'), t, W('h1', 'penerbangan'), Infinity, 0);
+
+  // ---------- tagline ----------
+  K.pop($('stamp'), t, at('rd', -0.1), at('l1', -0.2), -6);
+
+  // ---------- R1: l1 ----------
+  K.pop($('r1Src'), t, W('l1', 'kata') - 0.08, Infinity, -2);
+  K.pop($('r1D1'), t, W('l1', '14') - 0.08, Infinity, -4);
+  draw($('r1ArP'), t, W('l1', 'agustus'), 0.5);
+  K.pop($('r1D2'), t, W('l1', '25') - 0.08, Infinity, 3);
+  K.pop($('r1N'), t, W('l1', '3030') - 0.12, Infinity, 0); count($('r1N'), t, W('l1', '3030') - 0.1, 0.8, 3030);
+  K.pop($('r1L'), t, W('l1', 'penerbangan') - 0.05, Infinity, 0);
+  K.pop($('r1Smoke'), t, W('l1', 'terganggu') - 0.05, Infinity, -3);
+  if (t > W('l1', 'asap') - 0.05) pulse($('r1Smoke'), W('l1', 'asap') - 0.05, 0.12, -3);
+
+  // ---------- R2: l2 waffle ----------
+  K.pop($('r2Hd'), t, at('l2', -0.1), Infinity, 0);
+  { const w0 = at('l2', -0.05); K.pop($('waf'), t, w0, Infinity, 0);
+    const f0 = W('l2', '1700') - 0.05, n = Math.round(56 * K.easeOut(K.prog(t, f0, 0.8)));
+    cells.forEach((c, i) => c.classList.toggle('on', i < n)); }
+  K.pop($('r2L1'), t, W('l2', 'dibatalkan') - 0.05, Infinity, -2);
+  K.pop($('r2L2'), t, W('l2', 'dibatalkan') + 0.25, Infinity, 2);
+  slam($('r2Pct'), t, W('l2', '56') - 0.05, -6, 2);
+  K.pop($('r2N'), t, W('l2', 'persen'), Infinity, 0);
+
+  // ---------- R3: l3a 154 rute ----------
+  { const a0 = at('l3', -0.1);
+    arcs.forEach((a, i) => { const k = K.prog(t, a0 + i * 0.12, 0.35); a.style.opacity = k; a.setAttribute('stroke-dashoffset', -40 * t); });
+    arcd.forEach((d, i) => { d.style.opacity = K.prog(t, a0 + i * 0.12 + 0.25, 0.1); }); }
+  K.pop($('r3N'), t, W('l3', '154') - 0.12, Infinity, 0); count($('r3N'), t, W('l3', '154') - 0.1, 0.9, 154);
+  K.pop($('r3T'), t, W('l3', 'rute') - 0.08, Infinity, -3);
+  K.pop($('r3K'), t, W('l3', 'kena') - 0.08, Infinity, 2);
+
+  // ---------- M: map, worst-hit routes ----------
+  K.pop($('mHd'), t, W('l3', 'paling') - 0.05, Infinity, -2);
+  K.pop($('mMap'), t, W('l3', 'paling') - 0.35, Infinity, 0);
+  $('mKal').style.opacity = K.clamp((t - W('l3', 'paling')) / 0.3);
+  pins.forEach(({ p, l, w }) => { const tp = W('l3', w) - 0.12, s = K.spring(t - tp, 300, 14);
+    p.style.opacity = t >= tp ? 1 : 0; p.style.transform = `translate(-50%,-50%) translateY(${(1 - s) * -180}px)`;
+    K.pop(l, t, tp + 0.08, Infinity, 0); });
+
+  // ---------- S2: l4 turn ----------
+  K.pop($('s2Tapi'), t, at('l4', -0.05), Infinity, -4);
+  K.pop($('s2Ap'), t, W('l4', 'bandara') - 0.1, Infinity, 0);
+  slam($('s2Buka'), t, W('l4', 'ditutup') + 0.1, 6, 1.8);
+  slam($('s2St'), t, W('l4', 'ditutup') - 0.05, -3, 1.7);
+  K.pop($('s2T'), t, W('l4', 'dirjen') - 0.1, Infinity, -1);
+
+  // ---------- S3: l5a visibility ----------
+  { const p0 = at('l5', -0.05), s = K.spring(t - p0);
+    $('g3P').style.opacity = t >= p0 ? 1 : 0; $('g3P').style.transform = `translate(-50%,-50%) scale(${0.4 + 0.6 * s})`; }
+  slam($('g3St'), t, W('l5', 'dipaksa') - 0.05, -3, 1.7);
+  K.pop($('g3Hd'), t, W('l5', 'jarak') - 0.1, Infinity, 0);
+  K.pop($('g3G'), t, W('l5', 'kalau') - 0.05, Infinity, 0);
+  { const n0 = W('l5', 'pandang'), k = K.easeInOut(K.prog(t, n0, 0.6));
+    const ang = 35 - 113 * k + (k >= 1 ? 2 * Math.sin(t * 9) : 0); // from right of centre to below MIN (~-78°)
+    const g = $('g3G').querySelector('#ndl'); if (g) g.setAttribute('transform', `rotate(${ang} 280 290)`); }
+
+  // ---------- T1: l5b Pontianak siang → malam ----------
+  K.pop($('t1Pin'), t, W('l5', 'pontianak') - 0.08, Infinity, -2);
+  K.pop($('t1Sky'), t, W('l5', 'pontianak') - 0.25, Infinity, 0);
+  { const sw = W('l5', 'dipindah') - 0.05, k = K.easeInOut(K.prog(t, sw, 0.6));
+    $('t1Night').style.opacity = k;
+    $('t1Sun').style.transform = `translate(-50%,-50%) translateY(${-60 + 360 * k}px) rotate(${t * 20}deg)`;
+    $('t1Moon').style.transform = `translate(-50%,-50%) translateY(${360 - 420 * K.easeOut(K.prog(t, sw + 0.2, 0.6))}px)`; }
+  K.pop($('t1J'), t, W('l5', 'jadwal') - 0.08, Infinity, 0);
+  { const ar = W('l5', 'dipindah') - 0.05; $('t1Ar').style.opacity = t >= ar ? 1 : 0; $('t1M').style.opacity = t >= W('l5', 'malam') - 0.08 ? 1 : 0;
+    $('t1S').style.textDecoration = t >= W('l5', 'malam') - 0.08 ? 'line-through' : 'none'; $('t1Ar').style.margin = '0 4px'; }
+  K.pop($('t1Il'), t, W('l5', 'jadwal'), Infinity, 0);
+
+  // ---------- T2: l6 payoff ----------
+  K.pop($('t2Hd'), t, W('l6', 'rata') - 0.1, Infinity, 0);
+  { // calendar flips 14 Agu → 25 Okt, then the lock opens on "23"
+    const c0 = at('l6', -0.05), f0 = W('l6', 'sekitar') - 0.05, k = K.easeInOut(K.prog(t, f0, 1.1));
+    const day = Math.round(72 * k), d = new Date(Date.UTC(2026, 7, 14 + day));
+    const mon = ['JAN', 'FEB', 'MAR', 'APR', 'MEI', 'JUN', 'JUL', 'AGU', 'SEP', 'OKT', 'NOV', 'DES'][d.getUTCMonth()];
+    const key = d.getUTCDate() + mon; const el = $('t2Cal');
+    if (el.dataset.k !== key) { el.innerHTML = calSVG(330, mon + ' 2026', d.getUTCDate(), true); el.dataset.k = key; }
+    K.pop(el, t, c0, Infinity, -3);
+    const sh = el.querySelector('#lockSh'), u = K.easeOut(K.prog(t, W('l6', '23') - 0.05, 0.3));
+    if (sh) sh.setAttribute('transform', `translate(${14 * u} ${-12 * u})`); }
+  K.pop($('t2N'), t, W('l6', '23') - 0.12, Infinity, 0); count($('t2Nn'), t, W('l6', '23') - 0.1, 0.6, 23);
+  K.pop($('t2Note'), t, W('l6', 'batal') - 0.05, Infinity, 0);
+  slam($('t2St'), t, W('l6', 'setiap') - 0.05, -4, 1.8);
+  $('t2S2').style.opacity = t >= W('l6', 'hari') - 0.05 ? 1 : 0;
+  if (t > W('l6', 'hari') - 0.05) pulse($('t2St'), W('l6', 'hari') - 0.05, 0.1, -4);
+
+  // ---------- CTA ----------
+  const qOut = at('end', -0.4);
+  K.pop($('qHd'), t, at('cta', -0.05), qOut, 0);
+  { const b0 = W('cta', 'kena') - 0.1, ex = t >= W('cta', 'ceritain') - 0.05 ? 'happy' : 'worried';
+    if ($('qBudi').dataset.e !== ex) { $('qBudi').innerHTML = K.budi(ex).replace('<svg ', '<svg width="338" height="450" '); $('qBudi').dataset.e = ex; }
+    K.pop($('qBudi'), t, b0, qOut, -2); }
+  K.pop($('qCom'), t, W('cta', 'asap') - 0.05, qOut, 4);
+  K.pop($('qK'), t, W('cta', 'ceritain') - 0.05, qOut, 3);
+
+  // ---------- end ----------
+  const en = K.prog(t, at('end', -0.15), 0.3);
+  $('endcard').style.opacity = en;
+  $('endcard').querySelector('.logo').style.transform = `rotate(-3deg) scale(${0.6 + 0.4 * K.spring(t - at('end', -0.15))})`;
+  K.subtitles($('subs'), t);
+  $('subs').style.visibility = en > 0.5 ? 'hidden' : 'visible';
+  $('progress').style.width = (100 * t / window.DURATION) + '%';
+  return true;
+}
+window.seek = seek; seek(0);
+</script>
+</body>
+</html>

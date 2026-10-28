@@ -1,0 +1,423 @@
+{
+ "verdict": "PASS",
+ "lead": 0.02,
+ "matched_words": 78,
+ "of_words": 89,
+ "median_offset_s": -0.081,
+ "share_in_window": 0.949,
+ "share_late_over_150ms": 0.013,
+ "worst_lines": [
+  {
+   "line": "l2",
+   "median_offset_s": -0.113
+  },
+  {
+   "line": "l3",
+   "median_offset_s": -0.109
+  },
+  {
+   "line": "l6",
+   "median_offset_s": -0.109
+  },
+  {
+   "line": "l1",
+   "median_offset_s": -0.083
+  },
+  {
+   "line": "l5",
+   "median_offset_s": -0.077
+  }
+ ],
+ "pairs": [
+  {
+   "line": "h1",
+   "word": "penerbangan",
+   "offset": -0.066
+  },
+  {
+   "line": "h1",
+   "word": "batal",
+   "offset": -0.066
+  },
+  {
+   "line": "h1",
+   "word": "gara-gara",
+   "offset": -0.106
+  },
+  {
+   "line": "h1",
+   "word": "asap.",
+   "offset": -0.079
+  },
+  {
+   "line": "h2",
+   "word": "Rute",
+   "offset": 0.032
+  },
+  {
+   "line": "h2",
+   "word": "kamu",
+   "offset": -0.08
+  },
+  {
+   "line": "h2",
+   "word": "termasuk?",
+   "offset": -0.036
+  },
+  {
+   "line": "rd",
+   "word": "Rangkumin",
+   "offset": -0.024
+  },
+  {
+   "line": "rd",
+   "word": "dong!",
+   "offset": -0.044
+  },
+  {
+   "line": "l1",
+   "word": "Jadi",
+   "offset": -0.03
+  },
+  {
+   "line": "l1",
+   "word": "gini.",
+   "offset": -0.103
+  },
+  {
+   "line": "l1",
+   "word": "Kata",
+   "offset": -0.135
+  },
+  {
+   "line": "l1",
+   "word": "Kemenhub,",
+   "offset": -0.013
+  },
+  {
+   "line": "l1",
+   "word": "14",
+   "offset": -0.02
+  },
+  {
+   "line": "l1",
+   "word": "Agustus",
+   "offset": -0.039
+  },
+  {
+   "line": "l1",
+   "word": "sampai",
+   "offset": -0.093
+  },
+  {
+   "line": "l1",
+   "word": "25",
+   "offset": -0.143
+  },
+  {
+   "line": "l1",
+   "word": "Oktober,",
+   "offset": 0.137
+  },
+  {
+   "line": "l1",
+   "word": "penerbangan",
+   "offset": -0.123
+  },
+  {
+   "line": "l1",
+   "word": "terganggu",
+   "offset": -0.083
+  },
+  {
+   "line": "l1",
+   "word": "asap.",
+   "offset": -0.083
+  },
+  {
+   "line": "l2",
+   "word": "Sekitar",
+   "offset": 0.019
+  },
+  {
+   "line": "l2",
+   "word": "dibatalkan.",
+   "offset": -0.141
+  },
+  {
+   "line": "l2",
+   "word": "Itu",
+   "offset": -0.108
+  },
+  {
+   "line": "l2",
+   "word": "persen.",
+   "offset": -0.117
+  },
+  {
+   "line": "l3",
+   "word": "Ada",
+   "offset": -0.031
+  },
+  {
+   "line": "l3",
+   "word": "rute",
+   "offset": -0.101
+  },
+  {
+   "line": "l3",
+   "word": "yang",
+   "offset": -0.109
+  },
+  {
+   "line": "l3",
+   "word": "kena.",
+   "offset": -0.081
+  },
+  {
+   "line": "l3",
+   "word": "Paling",
+   "offset": -0.145
+  },
+  {
+   "line": "l3",
+   "word": "parah:",
+   "offset": -0.081
+  },
+  {
+   "line": "l3",
+   "word": "Pontianak,",
+   "offset": -0.145
+  },
+  {
+   "line": "l3",
+   "word": "Singkawang,",
+   "offset": -0.205
+  },
+  {
+   "line": "l3",
+   "word": "Palangkaraya,",
+   "offset": -0.151
+  },
+  {
+   "line": "l4",
+   "word": "Tapi,",
+   "offset": 0.219
+  },
+  {
+   "line": "l4",
+   "word": "ada",
+   "offset": -0.061
+  },
+  {
+   "line": "l4",
+   "word": "bandara",
+   "offset": -0.073
+  },
+  {
+   "line": "l4",
+   "word": "yang",
+   "offset": -0.129
+  },
+  {
+   "line": "l4",
+   "word": "ditutup,",
+   "offset": -0.041
+  },
+  {
+   "line": "l4",
+   "word": "kata",
+   "offset": -0.125
+  },
+  {
+   "line": "l4",
+   "word": "Dirjen",
+   "offset": -0.051
+  },
+  {
+   "line": "l4",
+   "word": "Perhubungan",
+   "offset": -0.091
+  },
+  {
+   "line": "l4",
+   "word": "Udara.",
+   "offset": -0.058
+  },
+  {
+   "line": "l5",
+   "word": "Pesawat",
+   "offset": 0.039
+  },
+  {
+   "line": "l5",
+   "word": "dipaksa",
+   "offset": -0.011
+  },
+  {
+   "line": "l5",
+   "word": "terbang",
+   "offset": -0.091
+  },
+  {
+   "line": "l5",
+   "word": "kalau",
+   "offset": -0.111
+  },
+  {
+   "line": "l5",
+   "word": "jarak",
+   "offset": -0.111
+  },
+  {
+   "line": "l5",
+   "word": "pandang",
+   "offset": -0.083
+  },
+  {
+   "line": "l5",
+   "word": "kurang.",
+   "offset": -0.071
+  },
+  {
+   "line": "l5",
+   "word": "Di",
+   "offset": -0.155
+  },
+  {
+   "line": "l5",
+   "word": "Pontianak,",
+   "offset": -0.097
+  },
+  {
+   "line": "l5",
+   "word": "jadwal",
+   "offset": -0.121
+  },
+  {
+   "line": "l5",
+   "word": "siang",
+   "offset": -0.061
+  },
+  {
+   "line": "l5",
+   "word": "dipindah",
+   "offset": -0.041
+  },
+  {
+   "line": "l5",
+   "word": "ke",
+   "offset": -0.034
+  },
+  {
+   "line": "l5",
+   "word": "malam.",
+   "offset": -0.061
+  },
+  {
+   "line": "l6",
+   "word": "Jadi",
+   "offset": -0.082
+  },
+  {
+   "line": "l6",
+   "word": "rata-ratanya?",
+   "offset": -0.129
+  },
+  {
+   "line": "l6",
+   "word": "Sekitar",
+   "offset": -0.185
+  },
+  {
+   "line": "l6",
+   "word": "penerbangan",
+   "offset": -0.089
+  },
+  {
+   "line": "l6",
+   "word": "batal.",
+   "offset": -0.109
+  },
+  {
+   "line": "l6",
+   "word": "Setiap.",
+   "offset": -0.225
+  },
+  {
+   "line": "l6",
+   "word": "Hari.",
+   "offset": -0.027
+  },
+  {
+   "line": "cta",
+   "word": "Pernah",
+   "offset": 0.094
+  },
+  {
+   "line": "cta",
+   "word": "kena",
+   "offset": -0.059
+  },
+  {
+   "line": "cta",
+   "word": "jadwal",
+   "offset": -0.059
+  },
+  {
+   "line": "cta",
+   "word": "berubah",
+   "offset": -0.099
+  },
+  {
+   "line": "cta",
+   "word": "gara-gara",
+   "offset": -0.119
+  },
+  {
+   "line": "cta",
+   "word": "asap?",
+   "offset": -0.066
+  },
+  {
+   "line": "cta",
+   "word": "Ceritain",
+   "offset": -0.145
+  },
+  {
+   "line": "cta",
+   "word": "di",
+   "offset": -0.042
+  },
+  {
+   "line": "cta",
+   "word": "komen!",
+   "offset": -0.056
+  },
+  {
+   "line": "end",
+   "word": "Follow",
+   "offset": -0.07
+  },
+  {
+   "line": "end",
+   "word": "Rangkumin",
+   "offset": -0.064
+  },
+  {
+   "line": "end",
+   "word": "Dong,",
+   "offset": -0.076
+  },
+  {
+   "line": "end",
+   "word": "biar",
+   "offset": -0.137
+  },
+  {
+   "line": "end",
+   "word": "ketinggalan!",
+   "offset": -0.057
+  }
+ ]
+}

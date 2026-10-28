@@ -1,0 +1,74 @@
+[
+ {
+  "claim": "Asap karhutla mengganggu 3.030 penerbangan pada 14 Agustus–25 Oktober 2026 (data Kemenhub)",
+  "numbers": "3.030; 14 Agu–25 Okt 2026",
+  "sources": [
+   "https://industri.kontan.co.id/news/karhutla-ganggu-3030-penerbangan-kemenhub-pastikan-bandara-tetap-beroperasi",
+   "https://www.cnbcindonesia.com/news/20261027082902-8-779713/video-kabut-asap-karhutla-ganggu-3030-penerbangan-1700-dibatalkan"
+  ]
+ },
+ {
+  "claim": "Sekitar 1.700 penerbangan dibatalkan, 56% dari total",
+  "numbers": "~1.700; 56%",
+  "sources": [
+   "https://industri.kontan.co.id/news/karhutla-ganggu-3030-penerbangan-kemenhub-pastikan-bandara-tetap-beroperasi",
+   "https://www.cnbcindonesia.com/news/20261027082902-8-779713/video-kabut-asap-karhutla-ganggu-3030-penerbangan-1700-dibatalkan",
+   "https://bcasekuritas.co.id/latest-news/news/kemenhub-minta-penumpang-rutin-cek-status-penerbangan-dampak-karhutla"
+  ],
+  "note": "Settled as penerbangan: Kontan text = ~1.700 flights cancelled; CNBC headline = penerbangan (body says 'rute', a slip: total routes are only 154); consistent with Kemenhub 21 Okt tally of 1.544 flights cancelled/postponed (BCA source). 1.700/3.030 = 56,1%."
+ },
+ {
+  "claim": "Gangguan terjadi di 154 rute penerbangan",
+  "numbers": "154",
+  "sources": [
+   "https://industri.kontan.co.id/news/karhutla-ganggu-3030-penerbangan-kemenhub-pastikan-bandara-tetap-beroperasi",
+   "https://www.cnbcindonesia.com/news/20261027082902-8-779713/video-kabut-asap-karhutla-ganggu-3030-penerbangan-1700-dibatalkan"
+  ]
+ },
+ {
+  "claim": "Rute paling terdampak: Pontianak, Singkawang, Palangkaraya, Pangkalan Bun",
+  "numbers": "",
+  "sources": [
+   "https://industri.kontan.co.id/news/karhutla-ganggu-3030-penerbangan-kemenhub-pastikan-bandara-tetap-beroperasi",
+   "https://bcasekuritas.co.id/latest-news/news/kemenhub-minta-penumpang-rutin-cek-status-penerbangan-dampak-karhutla"
+  ],
+  "note": "Kontan names the four routes; BCA/Kemenhub 23 Okt lists Supadio (Pontianak) and Iskandar (Pangkalan Bun) among affected airports. Singkawang and Palangkaraya: Kontan only."
+ },
+ {
+  "claim": "Tidak ada bandara yang ditutup karena karhutla, kata Dirjen Perhubungan Udara Lukman F. Laisa (26 Okt)",
+  "numbers": "",
+  "sources": [
+   "https://industri.kontan.co.id/news/karhutla-ganggu-3030-penerbangan-kemenhub-pastikan-bandara-tetap-beroperasi"
+  ]
+ },
+ {
+  "claim": "Penerbangan tidak dipaksakan selama jarak pandang di bawah batas minimum operasional",
+  "numbers": "",
+  "sources": [
+   "https://bcasekuritas.co.id/latest-news/news/kemenhub-minta-penumpang-rutin-cek-status-penerbangan-dampak-karhutla"
+  ]
+ },
+ {
+  "claim": "Di Pontianak, penerbangan siang dipindah ke malam (cuaca lebih cerah)",
+  "numbers": "",
+  "sources": [
+   "https://industri.kontan.co.id/news/karhutla-ganggu-3030-penerbangan-kemenhub-pastikan-bandara-tetap-beroperasi"
+  ]
+ },
+ {
+  "claim": "Kemenhub minta calon penumpang rutin cek status penerbangan",
+  "numbers": "",
+  "sources": [
+   "https://bcasekuritas.co.id/latest-news/news/kemenhub-minta-penumpang-rutin-cek-status-penerbangan-dampak-karhutla"
+  ]
+ },
+ {
+  "claim": "Rata-rata sekitar 23 penerbangan batal per hari (hitungan sendiri)",
+  "numbers": "1.700 ÷ 73 hari (14 Agu–25 Okt inklusif: 18+30+25) = 23,3",
+  "sources": [
+   "https://industri.kontan.co.id/news/karhutla-ganggu-3030-penerbangan-kemenhub-pastikan-bandara-tetap-beroperasi",
+   "https://www.cnbcindonesia.com/news/20261027082902-8-779713/video-kabut-asap-karhutla-ganggu-3030-penerbangan-1700-dibatalkan"
+  ],
+  "note": "own calculation, labelled on screen and in caption"
+ }
+]

@@ -6,16 +6,17 @@
   "ideas": "done",
   "ideas_factcheck": "done",
   "ideas_sent": "done",
-  "picked": "todo",
-  "draft": "todo",
-  "draft_factcheck": "todo",
+  "picked": "done",
+  "draft": "done",
+  "draft_factcheck": "done",
   "draft_sent": "todo",
   "approved": "todo",
-  "render": "todo",
-  "video_sent": "todo",
+  "render": "done",
+  "video_sent": "done",
   "ok_post": "todo",
   "posted": "todo",
-  "knowledge": "todo"
+  "knowledge": "todo",
+  "default_pick": "done"
  },
  "notes": [],
  "merge_stats": {

@@ -1,0 +1,32 @@
+{
+  "direction": "[quick, clear explainer; neutral, no blame]",
+  "voice": "male:Pratama",
+  "format": "short",
+  "hook_style": "shock_number",
+  "subs": "block",
+  "storyline": "karhutla",
+  "part": null,
+  "hook_b": {
+    "style": "kamu_stakes",
+    "style_note": "today's hook_b was person_collage; no licensed face fits (Kemenhub data story, no clear face) -> next style kamu_stakes",
+    "replace": ["h1", "h2"],
+    "lines": [
+      {"id": "hb1", "tag": "[curious, urgent]", "text": "Mau terbang ke Kalimantan?", "say": "Mau terbang ke Kalimantan?"},
+      {"id": "hb2", "tag": "[serious]", "text": "Jadwalmu bisa digeser.", "say": "Jadwalmu bisa digeser."}
+    ]
+  },
+  "lines": [
+    {"id": "h1", "tag": "[shocked]", "text": "1.700 penerbangan batal gara-gara asap.", "say": "Seribu tujuh ratus penerbangan batal, gara-gara asap!"},
+    {"id": "h2", "tag": "[curious]", "text": "Rute kamu termasuk?", "say": "Rute kamu termasuk?"},
+    {"id": "rd", "tagline": true, "text": "Rangkumin dong!"},
+    {"id": "l1", "tag": "[explaining, quick]", "text": "Jadi gini. Kata Kemenhub, 14 Agustus sampai 25 Oktober, 3.030 penerbangan terganggu asap.", "say": "Jadi gini. Kata Kemenhub, empat belas Agustus sampai dua puluh lima Oktober, tiga ribu tiga puluh penerbangan terganggu asap."},
+    {"id": "l2", "tag": "[emphatic]", "text": "Sekitar 1.700 dibatalkan. Itu 56 persen.", "say": "Sekitar seribu tujuh ratus dibatalkan. Itu lima puluh enam persen."},
+    {"id": "l3", "tag": "[matter-of-fact]", "text": "Ada 154 rute yang kena. Paling parah: Pontianak, Singkawang, Palangkaraya, Pangkalan Bun.", "say": "Ada seratus lima puluh empat rute yang kena. Paling parah: Pontianak, Singkawang, Palangkaraya, Pangkalan Bun."},
+    {"id": "l4", "tag": "[serious, turning]", "text": "Tapi, nggak ada bandara yang ditutup, kata Dirjen Perhubungan Udara.", "say": "Tapi, nggak ada bandara yang ditutup, kata Dirjen Perhubungan Udara."},
+    {"id": "l5", "tag": "[explaining]", "text": "Pesawat nggak dipaksa terbang kalau jarak pandang kurang. Di Pontianak, jadwal siang dipindah ke malam.", "say": "Pesawat nggak dipaksa terbang kalau jarak pandang kurang. Di Pontianak, jadwal siang dipindah ke malam."},
+    {"id": "l6", "tag": "[dramatic]", "text": "Jadi rata-ratanya? Sekitar 23 penerbangan batal. Setiap. Hari.", "say": "Jadi rata-ratanya? Sekitar dua puluh tiga penerbangan batal. Setiap. Hari."},
+    {"id": "cta", "tag": "[playful, asking the viewer]", "text": "Pernah kena jadwal berubah gara-gara asap? Ceritain di komen!", "say": "Pernah kena jadwal berubah gara-gara asap? Ceritain di komen!"},
+    {"id": "end", "tag": "[friendly, upbeat]", "text": "Follow Rangkumin Dong, biar nggak ketinggalan!"}
+  ],
+  "tail": 0.9
+}
