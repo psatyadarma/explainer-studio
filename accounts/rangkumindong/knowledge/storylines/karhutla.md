@@ -25,6 +25,9 @@ Status: **ACTIVE** · Category: national/environment · Started: 19 Oct 2026 (id
 
 ## Videos
 - **21 Oct 2026** "10 perusahaan RI disurati Singapura soal asap, Lutfi: pemasok grup yang induknya di Singapura" (Pratama, shock number, 19:00) · folder `videos/2026-10-21-karhutla-lutfi-singapura` · IG https://www.instagram.com/reel/DewQNdcEvnM/ · YT https://www.youtube.com/watch?v=QmaiHm5TzJA
+- **28 Oct 2026** "1.700 penerbangan batal gara-gara asap karhutla. Rute kamu termasuk?" (Pratama, shock number, short 43 s, 19:00) · folder `videos/2026-10-28-asap-1700-penerbangan-batal` · IG https://www.instagram.com/reel/DfCRqk-jygU/ · YT https://www.youtube.com/watch?v=IsQsbiAmYxE
+  - Facts: Kemenhub (Dirjen Hubud Lukman F. Laisa, 26 Okt): 3.030 penerbangan terganggu 14 Agu–25 Okt, ~1.700 (56%) batal, 154 rute; worst routes Pontianak, Singkawang, Palangkaraya, Pangkalan Bun; no airport closed; Pontianak daytime flights moved to evening (Kontan 27 Okt, CNBC 27 Okt — CNBC body's "1.700 rute" is a slip). Earlier count: 2.458 penerbangan di 29 bandara (to 17 Okt), 1.544 batal/tunda (21 Okt).
+- 27 Okt: Singapore FM Vivian Balakrishnan in Jakarta, 5 points (joint fire task force, enforcement incl. >50 companies investigated, trade, ASEAN 2027, hotline) — offered 28 Oct as idea #2, not made yet.
 
 ## Open / next milestones
 - Any reply from Singapore to Lutfi, or from the 10 NEA firms / Bumitama.
