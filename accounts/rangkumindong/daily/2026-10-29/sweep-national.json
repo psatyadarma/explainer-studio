@@ -1,0 +1,185 @@
+{
+  "area": "national",
+  "run_date": "2026-10-29",
+  "checked": ["detik terpopuler (news) 28 Oct 21:32 WIB", "CNN Indonesia nasional (via search results)", "Antara cek fakta / terkini (via search)", "CNBC Indonesia (search results only; page not fetched)", "watch list found: viral national incident (28 Oct student demo), karhutla/haze, floods, hoax debunk, crime/corruption, food prices", "storylines: gibran-ijazah-mk, karhutla, survival-mode, definisi-korupsi", "known events window 14d"],
+  "events": [
+    {
+      "date": "2026-10-28",
+      "category": "POL",
+      "event": "Students from many campuses and civil-society groups (Komite Selamatkan Daulat Rakyat/SADAR, #IndonesiaSadar, BEM UI/Undip/Brawijaya) rally at Bundaran HI and Patung Kuda in Jakarta on Sumpah Pemuda day with five demands to Prabowo and Gibran, and disperse around 19:45 WIB.",
+      "key_numbers": "53 demonstrations in DKI Jakarta on 28 Oct (Polda Metro Jaya) · 24 other community activities · 5 demands: national disaster status for karhutla, APBN for public interest (end MBG/KDMP spending), lower education costs, eradicate KKN, end militarisation of civilian spaces · 4 protesters in white shirts seen detained · thousands of police/TNI deployed (no exact figure) · rally started 14:00 WIB, dispersed ~19:45 WIB",
+      "storyline": "student-protest-28-oct",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261028203059-20-1420742/mahasiswa-bubar-arus-lalin-di-sudirman-thamrin-mulai-dibuka"},
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261028162752-20-1420646/pemerintah-klaim-siap-tampung-aspirasi-mahasiswa-aksi-28-oktober"},
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261028155931-24-1420628/aksi-28-oktober-di-bundaran-hi-dan-patung-kuda"},
+        {"label": "detikNews terpopuler", "url": "https://www.detik.com/terpopuler/news"}
+      ],
+      "why_it_matters": "The biggest street protest in weeks puts haze, free meals and corruption on one list of student demands, and it hit Sudirman-Thamrin traffic.",
+      "signals": {"spreading": 2, "wallet": 1, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 0},
+      "spreading_evidence": "detik terpopuler: at least 5 of top 20 headlines (Bundaran HI, Kapolda, hujan deras, jalan ditutup, massa bubar) on 28 Oct evening",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-10-28",
+      "category": "POL",
+      "event": "KPK searches the offices of PT Djarum and the Kudus Bea Cukai office (KPPBC Madya Kudus) over suspected kickbacks for excise stamps (pita cukai), seizing documents and electronic evidence under a general investigation order with no suspect named yet.",
+      "key_numbers": "Sprindik umum, 0 suspects named · follow-up to Feb 2026 Customs sting that named 7 suspects · 3 active investigation orders · prosecutors demand 11.5 yrs (Rizal), 10 yrs (Sisprian Subiaksono), 7.5 yrs (Orlando Hamonangan) for three Bea Cukai officials · Blueray Cargo trio sentenced 3 yrs / 2.5 yrs / 2.5 yrs",
+      "storyline": "corruption-cases",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261028192224-12-1420725/kpk-sita-dokumen-bbe-saat-geledah-kantor-djarum-bea-cukai-kudus"},
+        {"label": "detikNews", "url": "https://news.detik.com/berita/d-8728488/geledah-pt-djarum-dan-bea-cukai-di-kudus-kpk-usut-dugaan-soal-pita-cukai"},
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/news/20261028162933-4-780292/kpk-geledah-kantor-pt-djarum-di-kudus-jawa-tengah-perkara-bea-cukai"}
+      ],
+      "why_it_matters": "Cigarette excise is a huge state revenue stream and Djarum is a household name, so a probe into stamp bribery touches both state money and a major brand.",
+      "signals": {"spreading": 2, "wallet": 1, "surprise": 2, "visual": 1, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "detik terpopuler: two headlines in top 20 (items 4 and 14) on 28 Oct evening; also CNBC and CNN coverage",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-10-28",
+      "category": "POL",
+      "event": "KPK searches the Klaten PUPR office in the case of Bupati Hamenang Wajar Ismoyo, seizing cash and documents, as detik highlights a 'record' of regional-head corruption cases in Central Java.",
+      "key_numbers": "Cash and electronic evidence seized (amount not verified) · detik headline: 'Rekor Baru Korupsi Kepala Daerah di Jawa Tengah' (top of detik terpopuler)",
+      "storyline": "corruption-cases",
+      "update_of": "E0064",
+      "status": "partial",
+      "sources": [
+        {"label": "detikNews", "url": "https://news.detik.com/berita/d-8728508/kpk-geledah-dinas-pupr-klaten-soal-kasus-bupati-hamenang-sita-uang-dokumen"},
+        {"label": "detikNews terpopuler", "url": "https://www.detik.com/terpopuler/news"}
+      ],
+      "why_it_matters": "Shows how often Central Java regional heads have been caught in project-procurement corruption.",
+      "signals": {"spreading": 2, "wallet": 0, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "detik terpopuler #1 ('Rekor Baru Korupsi Kepala Daerah di Jawa Tengah') and item 18, 28 Oct evening",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-10-28",
+      "category": "POL",
+      "event": "PKS Secretary-General Muhammad Kholid confirms he recently spoke with PDIP Secretary-General Hasto Kristiyanto about the Gibran diploma controversy, while the PKS faction's stance in the DPR remains undecided.",
+      "key_numbers": "No formal DPR motion or vote yet · Hasto cites MK Decision No. 90/2023 · NasDem says no order yet from its chair",
+      "storyline": "gibran-ijazah-mk",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "detikNews", "url": "https://news.detik.com/berita/d-8728489/pks-akui-telah-komunikasi-dengan-hasto-pdip-soal-polemik-ijazah-gibran"},
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261025204808-32-1419503/pdip-sambut-ajakan-pks-usut-polemik-ijazah-wapres-gibran-di-dpr"}
+      ],
+      "why_it_matters": "Two parties on opposite sides of Prabowo's coalition talking about the vice president's diploma is a political signal, not just legal noise.",
+      "signals": {"spreading": 2, "wallet": 0, "surprise": 1, "visual": 0, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "detik terpopuler item 10, 28 Oct evening",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-05",
+      "category": "POL",
+      "event": "Prosecutors will call former President Jokowi and his aide AKBP Syarif Muhammad Fitriansyah as witnesses at the 5 November hearing of Roy Suryo, charged with defaming Jokowi over his diploma, at the East Jakarta District Court.",
+      "key_numbers": "Hearing 5 Nov 2026 · Jokowi listed as first witness · charges under KUHP Art 433(1) jo 441(1) and ITE Law Art 35 / Art 32 · hearing postponed to share a day with the 'Tifa' case",
+      "storyline": "gibran-ijazah-mk",
+      "update_of": "",
+      "status": "upcoming",
+      "sources": [
+        {"label": "detikNews", "url": "https://news.detik.com/berita/d-8728102/jaksa-hadirkan-jokowi-pekan-depan-roy-suryo-ini-yang-ditunggu-tunggu"},
+        {"label": "Fin.co.id", "url": "https://news.fin.co.id/2026/10/28/jaksa-panggil-jokowi-dan-ajudan-bersaksi-di-sidang-5-november"}
+      ],
+      "why_it_matters": "Jokowi testifying in a diploma-defamation trial would be a high-profile moment in the whole 'ijazah' saga.",
+      "signals": {"spreading": 2, "wallet": 0, "surprise": 1, "visual": 0, "fresh": 1, "rivals": 1},
+      "spreading_evidence": "detik terpopuler item 16, 28 Oct evening",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-10-28",
+      "category": "ENV",
+      "event": "Forest-fire hotspots keep falling: the Forestry Ministry reports 79 national high-confidence hotspots (down from 93), with the six priority provinces at zero, while BNPB counts Papua burned area at 2,393 ha.",
+      "key_numbers": "79 hotspots on 27 Oct 21:00 WIB vs 93 the day before · 6 priority provinces (Kalbar, Kalteng, Sumsel, Jambi, Kalsel, Riau) at 0 vs 10 the day before · Kalimantan still ~1,566 ha burning, Sumatra 23 ha (BNPB) · Papua 2,393 ha burned, 73 hotspots (Papua Barat Daya 2,131 ha, Papua Selatan 161 ha, Papua Tengah 100 ha) · Kemenhub: 3,030 flights disrupted 14 Aug-25 Oct",
+      "storyline": "karhutla",
+      "update_of": "E0372",
+      "status": "verified",
+      "sources": [
+        {"label": "Kementerian Kehutanan", "url": "https://www.kehutanan.go.id/news/hotspot-nasional-turun-jadi-79-titik-enam-provinsi-prioritas-nihil"},
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261028122132-20-1420512/update-karhutla-papua-2393-hektare-terbakar-masih-ada-73-hotspot"},
+        {"label": "Sindonews", "url": "https://daerah.sindonews.com/read/1765525/174/bnpb-karhutla-di-kalimantan-masih-1566-hektare-sumatera-tersisa-23-hektare-1793153442"}
+      ],
+      "why_it_matters": "The haze crisis that closed schools and flights is easing on satellite data, but the ministry warns zero hotspots does not mean fires are out.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "detik terpopuler item 20 (karhutla/banjir Kalsel); widely covered by several outlets",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-28",
+      "category": "ENV",
+      "event": "As the rainy transition begins, BNPB reports floods across Aceh and North Sumatra (and a Dairi landslide) plus Banjar in South Kalimantan, even as fires persist elsewhere.",
+      "key_numbers": "Labuhanbatu 2,600 residents · Subulussalam 2,345 · Asahan 2,025 · Deli Serdang 730 · Banjar (Kalsel) 175 · Kalsel karhutla alert extended to 30 Nov · BMKG: thunderstorms in Kalsel until 3 Nov",
+      "storyline": "karhutla",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "detikNews", "url": "https://news.detik.com/berita/d-8728324/selain-karhutla-banjir-juga-terjadi-di-kalimantan-selatan"},
+        {"label": "ANTARA", "url": "https://www.antaranews.com/berita/5815275/pemprov-kalsel-perpanjang-siaga-darurat-karhutla-hingga-30-november"}
+      ],
+      "why_it_matters": "Indonesia is being hit by fire and flood at the same time, a visual contrast for the dry-to-wet season shift.",
+      "signals": {"spreading": 2, "wallet": 1, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "detik terpopuler item 20 ('Selain Karhutla, Banjir Juga Terjadi di Kalimantan Selatan')",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-28",
+      "category": "ECO",
+      "event": "National PIHPS prices on 28 Oct show red curly chilli at Rp92,800/kg and bird's-eye chilli near Rp100,000/kg, with shallots up and premium rice and beef slightly down.",
+      "key_numbers": "Cabai merah keriting Rp81,750 -> Rp92,800/kg · cabai rawit merah Rp94,700 -> Rp97,450 (Okezone: Rp100,350 on its measure) · bawang merah Rp36,400 -> Rp39,450 · beras Super I Rp18,300 -> Rp18,000 · beras Medium I Rp16,950 -> Rp17,100 · daging sapi kualitas 1 Rp153,550 -> Rp149,300 · minyak goreng curah Rp19,750",
+      "storyline": "survival-mode",
+      "update_of": "E0088",
+      "status": "verified",
+      "sources": [
+        {"label": "Liputan6", "url": "https://www.liputan6.com/bisnis/read/8322853/harga-pangan-28-oktober-2026-cabai-merah-keriting-tembus-rp-92800-per-kg"},
+        {"label": "Okezone", "url": "https://economy.okezone.com/read/2026/10/28/320/3250596/harga-cabai-rawit-merah-tembus-rp100-350-per-kg-sejumlah-pangan-turun"}
+      ],
+      "why_it_matters": "Chilli and shallots are in almost every Indonesian kitchen, so a 13 percent one-day jump in curly chilli shows up in household spending fast.",
+      "signals": {"spreading": 1, "wallet": 2, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-26",
+      "category": "NEWS",
+      "event": "ANTARA rates as hoax a Facebook post showing a supposed new Rp1 million Bank Indonesia note featuring eight presidents; BI lists no note above Rp100,000 and an AI detector rated the image 99.9% likely AI-generated.",
+      "key_numbers": "Rp1,000,000 fake note · BI denominations only Rp1,000-Rp100,000 · Hive Moderation 99.9% AI-generated",
+      "storyline": "hoax-tracker",
+      "update_of": "E0164",
+      "status": "verified",
+      "sources": [
+        {"label": "ANTARA", "url": "https://www.antaranews.com/berita/5811863/hoaks-bank-indonesia-terbitkan-uang-baru-pecahan-rp1-juta-bergambar-delapan-presiden-ri"}
+      ],
+      "why_it_matters": "AI-made money images circulating as 'new banknotes' are a fresh type of hoax that can trick ordinary users.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 2, "fresh": 1, "rivals": 2},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-28",
+      "category": "NEWS",
+      "event": "An online taxi driver is found dead inside his car near MRT Lebak Bulus station, Jakarta, and a Polda Metro raid on the Kampung Berland drug den arrests 8 people; both reached detik's most-read list.",
+      "key_numbers": "8 arrested (Kampung Berland) · taxi driver death cause not reported in headline",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "detikNews terpopuler", "url": "https://www.detik.com/terpopuler/news"}
+      ],
+      "why_it_matters": "Crime items trend, but details are thin and only the headline was seen.",
+      "signals": {"spreading": 2, "wallet": 0, "surprise": 1, "visual": 0, "fresh": 2, "rivals": 0},
+      "spreading_evidence": "detik terpopuler items 8 and 17, 28 Oct evening",
+      "sensitivity": "high"
+    }
+  ],
+  "gaps": [
+    "Student demo 28 Oct: no overall crowd size, arrests beyond 4 seen detained, or other-city turnout verified; also whether any government response beyond KSP statement",
+    "Klaten PUPR search: cash amount seized not verified (kompas blocked by robots); 'record' Central Java claim only a detik headline",
+    "Online taxi driver death at Lebak Bulus and Kampung Berland raid only seen as headlines",
+    "CNBC Indonesia and Antara terkini section pages not fetched directly; Okezone karhutla article blocked; detik karhutla 'Spanyol train crash 30 dead' and Israel election are GLB, left to the global sweeper"
+  ]
+}

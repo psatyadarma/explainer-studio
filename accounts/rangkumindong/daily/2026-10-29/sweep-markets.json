@@ -1,0 +1,84 @@
+{
+  "area": "markets",
+  "run_date": "2026-10-29",
+  "checked": ["CNBC Indonesia market (IHSG closes 27-28 Oct, via article pages)", "Bisnis.com market (search only, stale)", "detik finance (search only, nothing current)", "Antara ekonomi (search only, nothing current)", "IHSG close and movers", "foreign net buy/sell", "SUN auction / bond yields", "Fed FOMC", "oil/Brent", "rupiah (no 28 Oct close found)", "storyline searches: msci-reclassification, rupiah, fuel-oil", "PHK, BBM price (nothing new found)"],
+  "events": [
+    {
+      "date": "2026-10-27",
+      "category": "MKT",
+      "event": "Government bond (SUN) auction on 27 October drew bids of only Rp31.09 trillion, the lowest since November 2024, and the government absorbed Rp20.65 trillion against an indicative Rp30 trillion target as the roughly 10-year yield rose to 7.54%.",
+      "key_numbers": "Bids Rp31.09 T (-52.1% vs previous auction, lowest since Nov 2024) · awarded Rp20.65 T vs Rp30 T target · ~10Y yield 7.54%, highest since Nov 2022 · +30 bps in two weeks, ~+147 bps since start of 2026",
+      "storyline": "rupiah",
+      "update_of": "",
+      "status": "partial",
+      "sources": [{"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/market/20261028115923-17-780140/akhiri-sesi-i-ihsg-turun-165-ke-5179"}],
+      "why_it_matters": "Weak demand for government debt pushes borrowing costs up, which can feed into higher loan rates and a weaker rupiah.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 2, "visual": 2, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "cited in CNBC Indonesia's 28 Oct IHSG close and session-1 reports as a market driver",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-28",
+      "category": "MKT",
+      "event": "The IHSG closed 28 October up 0.31% at 5,282.31 after falling to about 5,170 at midday, ahead of the Fed decision and weak SUN auction demand.",
+      "key_numbers": "Close 5,282.31 (+16.18 pts, +0.31%) · open 5,249.07 · session-1 close 5,179.06 (-1.65%) · volume 302.18 M lots, Rp14.48 T · gainers BBCA, ASII, AMMN, MDKA, BBRI · losers TLKM, BRPT, BREN, DSSA, MORA",
+      "storyline": "msci-reclassification",
+      "update_of": "E0350",
+      "status": "partial",
+      "sources": [{"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/market/20261028160354-17-780279/ihsg-ditutup-di-zona-hijau-naik-031-ke-528231"}, {"label": "CNBC Indonesia (session 1)", "url": "https://www.cnbcindonesia.com/market/20261028115923-17-780140/akhiri-sesi-i-ihsg-turun-165-ke-5179"}],
+      "why_it_matters": "A reversal from a 1.65% drop to a gain shows how jittery the market is after two days of heavy losses.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 0},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-27",
+      "category": "MKT",
+      "event": "Foreign investors net sold Rp668.26 billion of Indonesian shares across all markets on 27 October as the IHSG closed down 1.99% at 5,266.13, while buying CPIN, MDKA, ASII, BUMI and AMMN.",
+      "key_numbers": "Total foreign net sell Rp668.26 B · IHSG 5,266.13 (-1.99%), second straight daily fall · top net buys CPIN Rp60.65 B, MDKA Rp35.19 B, ASII Rp34.31 B, BUMI Rp33.06 B, AMMN Rp25.93 B",
+      "storyline": "msci-reclassification",
+      "update_of": "E0350",
+      "status": "partial",
+      "sources": [{"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/market/20261028064309-17-780037/ihsg-ditutup-turun-19tapi-asing-borong-10-saham-ini"}],
+      "why_it_matters": "Foreign selling is what keeps pressure on both the stock index and the rupiah.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 0, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-26",
+      "category": "GLB",
+      "event": "Brent crude fell 0.8% to US$115.81 and WTI fell 1.46% to US$101.76 on 26 October after a 6% weekly rise for Brent, as Houthi attacks on Saudi Arabia and US strike threats on Iran kept tensions high.",
+      "key_numbers": "Brent US$115.81 (-0.8%) · WTI US$101.76 (-1.46%) · Brent +6% in prior week",
+      "storyline": "fuel-oil",
+      "update_of": "E0279",
+      "status": "partial",
+      "sources": [{"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/market/20261027150720-17-779873/breaking-ihsg-turun-3-ini-penyebabnya"}],
+      "why_it_matters": "Oil above US$100 raises pressure on fuel subsidies, the budget and the rupiah.",
+      "signals": {"spreading": 1, "wallet": 2, "surprise": 1, "visual": 2, "fresh": 1, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-29",
+      "category": "GLB",
+      "event": "The US Fed announces its policy decision at 01:00 WIB on 29 October, the second Warsh-era meeting in focus, with markets expecting a hold and watching Chair Kevin Warsh for hints of further tightening.",
+      "key_numbers": "Decision 01:00 WIB Thu 29 Oct · CNBC Indonesia cites expected range 3.75%-4.00% (other outlets cite 3.50%-3.75% earlier in 2026, unreconciled) · hawkish tone could strengthen the dollar and pressure emerging-market stocks",
+      "storyline": "rupiah",
+      "update_of": "E0277",
+      "status": "upcoming",
+      "sources": [{"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/market/20261028115923-17-780140/akhiri-sesi-i-ihsg-turun-165-ke-5179"}],
+      "why_it_matters": "A hawkish Fed would push the dollar up and add pressure on a rupiah already above Rp18,000.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 0},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    }
+  ],
+  "gaps": [
+    "Fed decision outcome and 29 Oct market reaction not yet available (search lag); fed range conflicts between CNBC (3.75-4.00%) and other outlets (3.50-3.75%).",
+    "Rupiah close for 28 Oct not found.",
+    "CNBC mentions 'student demonstrations' as a market factor on 28 Oct with no detail; worth a check by the POL researcher.",
+    "BRIS Q3 results (scheduled 29 Oct, E0229) and BI/BPS items not re-checked; detik, bisnis and antara section pages could not be fetched (only via stale search results).",
+    "Scheduled 28 Oct IHSG close vs. E0350 mismatch: CNBC 15:00 intraday snapshot gave 5,211.28 (-3.01%) for 27 Oct, final close 5,266.13 (-1.99%)."
+  ]
+}

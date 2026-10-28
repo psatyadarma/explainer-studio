@@ -1,0 +1,155 @@
+{
+  "area": "business",
+  "run_date": "2026-10-29",
+  "checked": ["detik inet", "CNBC Indonesia tech", "Katadata digital (search only, page not fetched)", "DailySocial (search only, no usable results)", "bisnis teknologi (not fetched)", "CNN Indonesia teknologi (not fetched)", "watch list: Komdigi rules/scams/judol", "watch list: telco infrastructure (BTS theft)", "watch list: AI/data centres/chips", "watch list: consumer tech prices", "watch list: Big Tech layoffs/IPO", "storylines in TECH: none have a storyline file; known-event window checked"],
+  "events": [
+    {
+      "date": "2026-10-27",
+      "category": "TECH",
+      "event": "Singapore politician Calvin Cheng posted an infographic on Indonesia's internet routing through Singapore with the comment 'Cut?', and Menkomdigi Meutya Hafid replied on Instagram that the threat is unnecessary and infrastructure should be protected jointly.",
+      "key_numbers": "686,000 views, 319 comments by 28 Oct morning · Meutya: 80% of Singapore's connectivity capacity would be threatened if the SKKL cable were cut · 267 million Indonesian internet users · Indonesia's population 47x Singapore's",
+      "storyline": "",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/tech/20261028065132-37-780039/menkomdigi-jawab-ancaman-politisi-singapura-potong-kabel-internet-ri"},
+        {"label": "detikInet", "url": "https://inet.detik.com/law-and-policy/d-8727130/menkomdigi-respons-ancaman-internet-ri-diputus-singapura-tak-perlu-geram"}
+      ],
+      "why_it_matters": "A viral spat that exposes how much of Indonesia's internet runs through Singapore.",
+      "signals": {"spreading": 2, "wallet": 1, "surprise": 2, "visual": 2, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "Lead item on detikInet and top of CNBC Indonesia tech on 28 Oct; post at 686k views",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-28",
+      "category": "TECH",
+      "event": "Apple launched the 14-inch MacBook Pro with the M6 chip (and an iMac M6), saying official Indonesian sales will start soon with no price or date given.",
+      "key_numbers": "GPU up to 30% faster than M5 · Neural Engine 1.9x faster than M5 · battery up to 24 hours (claimed) · 12-core CPU/GPU · no Indonesian price announced",
+      "storyline": "",
+      "update_of": "E0190",
+      "status": "verified",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/tech/20261028094648-37-780091/apple-rilis-macbook-pro-14-inci-chip-m6-terbaru-cek-spesifikasinya"},
+        {"label": "detikInet", "url": "https://inet.detik.com/consumer/d-8726927/macbook-pro-m6-dirilis-makin-kencang-untuk-ai-dan-kerja-kreatif"}
+      ],
+      "why_it_matters": "Apple's newest laptop is coming to Indonesia, but the price is still unknown.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 0, "visual": 1, "fresh": 2, "rivals": 0},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-27",
+      "category": "TECH",
+      "event": "Microsoft opened its first-ever voluntary redundancy program, open to about 60,000 employees, while shifting spending toward AI data centres.",
+      "key_numbers": "about 60,000 eligible (article gives both 27% and 23% of workforce) · US minimum severance 8 weeks' pay · severance by level: about 1 month's pay per 6 months of service for levels 64 and below · 228,000 employees as of June 2025",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/tech/20261027084127-37-779716/60000-karyawan-microsoft-ditawarkan-phk-sukarela-segini-pesangonnya"}
+      ],
+      "why_it_matters": "Big Tech is cutting staff to fund AI, which shapes the tech job market.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 2, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-27",
+      "category": "TECH",
+      "event": "Komdigi reported that cable cutting for resale and theft of BTS equipment is cutting internet access in several regions, and Menkomdigi Meutya Hafid said she will coordinate more closely with Polri after a Tangerang BTS theft case.",
+      "key_numbers": "Tangerang case losses Rp481.6 million · suspect aged 37 arrested · earlier Banjar case 20 July",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/tech/20261027151926-37-779879/fenomena-maling-bts-bikin-internet-lumpuh-menkomdigi-buka-suara"}
+      ],
+      "why_it_matters": "Thieves stealing tower parts can knock out signal and public services for ordinary users.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-27",
+      "category": "TECH",
+      "event": "Komdigi and Polri said they will speed up an MoU on online gambling and scams, with Komdigi reporting 5.15 million negative-content items handled between 20 Oct 2024 and 11 Sep 2026.",
+      "key_numbers": "5.15 million negative content items · 4.03 million gambling content · 122,366 judol items on social media (article's platform breakdown sums to 155,371: Meta 92,322, Google/YouTube 43,475, X 16,526, Telegram 1,882, TikTok 1,166)",
+      "storyline": "",
+      "update_of": "E0143",
+      "status": "partial",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/tech/20261027151347-37-779876/penipuan-online-hingga-judol-menjamur-di-ri-komdigi-polri-lakukan-ini"}
+      ],
+      "why_it_matters": "Shows how much gambling and scam content the government is chasing on social media.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-27",
+      "category": "TECH",
+      "event": "detikInet reported that smartphone prices may rise because AI data-centre demand for memory chips is tightening supply, in a Blibli-sponsored piece citing no named analyst.",
+      "key_numbers": "iPhone 17 Pro Max Rp24,499,000 at Blibli · iPhone Air Rp16,999,000 · Galaxy Z Fold8 benefits up to Rp7.8 million valid 24-31 Oct",
+      "storyline": "chip-ram-prices",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "detikInet", "url": "https://inet.detik.com/consumer/d-8726959/harga-hp-terancam-naik-saatnya-berburu-gadget-impian-sekarang"},
+        {"label": "CNBC Indonesia", "url": "https://cnbcindonesia.com/tech/20261026125651-37-779457/komputer-tak-laku-di-mana-mana-pedagang-merana-jualan-laptop-susah"}
+      ],
+      "why_it_matters": "Chip shortages from AI could make your next phone or laptop pricier.",
+      "signals": {"spreading": 1, "wallet": 2, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-27",
+      "category": "TECH",
+      "event": "Danantara CTO launched TelkomGroup's Sovereign Digital Technology development at the DTIIF 2026 forum, covering an AI-ready data centre, an AI model hub, a national IoT platform and the PaDiSera marketplace.",
+      "key_numbers": "NeutraDC aspiration 1 gigawatt · 3 million IoT devices deployed · PaDi UMKM has helped 190,000+ MSMEs supply BUMN · forum 26-28 Oct 2026",
+      "storyline": "ai-data-centres",
+      "update_of": "E0365",
+      "status": "partial",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/tech/20261027093613-37-779732/telkomgroup-luncurkan-pengembangan-sovereign-digital-technology"}
+      ],
+      "why_it_matters": "The state is building its own AI and data infrastructure.",
+      "signals": {"spreading": 0, "wallet": 0, "surprise": 0, "visual": 0, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-26",
+      "category": "TECH",
+      "event": "Instagram began testing a feature that lets selected US creators upload horizontal videos of up to 90 minutes, linked from Reels, as it competes with YouTube.",
+      "key_numbers": "up to 90 minutes · US creators first, earlier test in Brazil · YouTube pays eligible creators 55% of ad revenue",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/tech/20261028065707-37-780040/fitur-baru-instagram-bisa-upload-video-sepanjang-youtube"}
+      ],
+      "why_it_matters": "Instagram is moving into YouTube's long-video territory, which matters to Indonesian creators.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "Top of CNBC Indonesia tech list 28 Oct",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-29",
+      "category": "TECH",
+      "event": "Samsung is expected to launch a new foldable, rumored as the Galaxy W27, in China on 29 October, reportedly a variant of the Galaxy Z Fold 8 Ultra.",
+      "key_numbers": "launch 29 Oct 2026 (Samsung Weibo post) · rumored 5,000 mAh, 45W · cameras 200MP+50MP+10MP · China only · price unknown",
+      "storyline": "",
+      "update_of": "",
+      "status": "upcoming",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/tech/20261027101230-37-779746/rumor-galaxy-w-hp-lipat-baru-samsung-rilis-29-oktober-di-china"}
+      ],
+      "why_it_matters": "A premium foldable debuts, but only in China.",
+      "signals": {"spreading": 0, "wallet": 0, "surprise": 0, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    }
+  ],
+  "gaps": ["Katadata, Bisnis, CNN Indonesia and DailySocial section pages were not fetched (search returned only index pages), so startup funding and e-commerce news may be under-covered", "No Komdigi, GoTo, Grab or Shopee/TikTok Shop headline surfaced in detik/CNBC today", "Microsoft layoff article has inconsistent eligibility figures (27% vs 23%) and a severance example that does not match its formula", "Komdigi judol platform breakdown does not sum to the stated total"]
+}

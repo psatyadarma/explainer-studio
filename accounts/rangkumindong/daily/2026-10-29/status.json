@@ -1,0 +1,26 @@
+{
+ "date": "2026-10-29",
+ "steps": {
+  "sweep": "todo",
+  "merge": "todo",
+  "ideas": "done",
+  "ideas_factcheck": "todo",
+  "ideas_sent": "done",
+  "picked": "todo",
+  "draft": "todo",
+  "draft_factcheck": "todo",
+  "draft_sent": "todo",
+  "approved": "todo",
+  "render": "todo",
+  "video_sent": "todo",
+  "ok_post": "todo",
+  "posted": "todo",
+  "knowledge": "todo",
+  "sweeps": "done"
+ },
+ "notes": [],
+ "merge_stats": {
+  "new": 30,
+  "duplicates": 3
+ }
+}

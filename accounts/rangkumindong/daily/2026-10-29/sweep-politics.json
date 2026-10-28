@@ -1,0 +1,161 @@
+{
+  "area": "politics",
+  "run_date": "2026-10-29",
+  "checked": ["Antara politik (section page)", "CNN Indonesia nasional/politik (section page)", "Detik politik tag page (stale, last item 28 Oct)", "Tempo politik (robots-blocked; search snippets only)", "detik news/berita, antaranews, cnnindonesia/nasional, tempo (direct fetch not permitted; used outlet pages returned by search)", "Watch list found: Istana/Presiden, DPR (RUU Perampasan Aset, UU Tipikor revision), KPK (Nusron, Bea Cukai), demonstrations (28 Oct), Dasco/DPR", "Storyline searches: gibran-ijazah-mk, definisi-korupsi, karhutla, protests-prabowo-2-years, kpk-nusron-atr-bpn, jokowi-ijazah-roy-suryo, ump-2027", "Not found / not rechecked in headlines: reshuffle, MK new rulings, KPU/Bawaslu, TNI, Komnas HAM"],
+  "events": [
+    {
+      "date": "2026-10-28",
+      "category": "POL",
+      "event": "Students from BEM UI and the Komite Selamatkan Daulat Rakyat (SADAR) rally at Bundaran HI, Jakarta, on Sumpah Pemuda day with five demands; the Presidential Staff Office says the government is ready to receive their aspirations and urges a peaceful protest.",
+      "key_numbers": "28 Oct 2026, from 14:00 WIB · 5 demands (national-disaster status for karhutla and ecological disasters, MBG/KDMP budget, education costs, legal reform, human rights and democracy) · Universitas Nasional/HMI/GMNI/PMII group at Patung Kuda est. 50–70 people (CNN Indonesia) · no total turnout or police deployment figure published",
+      "storyline": "protests-prabowo-2-years",
+      "update_of": "E0360",
+      "status": "verified",
+      "sources": [
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261028162752-20-1420646/pemerintah-klaim-siap-tampung-aspirasi-mahasiswa-aksi-28-oktober"},
+        {"label": "Radar Solo (Jawa Pos)", "url": "https://radarsolo.jawapos.com/nasional/2610280027/daftar-5-tuntutan-demo-hari-ini-28-oktober-2026-di-jakarta-mahasiswa-soroti-mbg-hingga-ham"},
+        {"label": "Antara", "url": "https://www.antaranews.com/berita/5817683"}
+      ],
+      "why_it_matters": "Second student wave in nine days that ties the haze, the free-meals (MBG) budget and school costs to the government's two-year record.",
+      "signals": {"spreading": 2, "wallet": 1, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "Covered by Tempo, Kompas TV, CNN Indonesia, Antara, IDN Times, Radar Solo on 28 Oct",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-10-28",
+      "category": "POL",
+      "event": "DPR Deputy Speaker Sufmi Dasco Ahmad says criticism of the cross-border haze from Malaysia and Singapore should be answered with 'work that can be tested' rather than taking offence, while stressing Indonesia's free-and-active foreign policy.",
+      "key_numbers": "Speech at the 98th Sumpah Pemuda commemoration, DPR complex, 28 Oct 2026 · no hotspot or area figures given in the speech",
+      "storyline": "karhutla",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "Antara", "url": "https://www.antaranews.com/berita/5817347/dasco-kritik-kabut-asap-perlu-dijawab-dengan-kerja-yang-dapat-diuji"},
+        {"label": "Suara.com", "url": "https://www.suara.com/news/2026/10/28/190739/dasco-minta-kritik-malaysia-dan-singapura-soal-kabut-asap-dijawab-dengan-kerja-yang-dapat-diuji"}
+      ],
+      "why_it_matters": "Shows how Jakarta is responding politically to Malaysian and Singaporean pressure over the haze that is closing schools and disrupting flights.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 0, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "Antara politik feed, several outlets (Beritasatu, JPNN, Suara)",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-28",
+      "category": "POL",
+      "event": "KPK says it has issued a new investigation warrant (sprindik) in October 2026 expanding its customs and excise (Bea Cukai) corruption case, and investigators searched the Kudus customs office and the PT Djarum office.",
+      "key_numbers": "New sprindik dated Oct 2026, separate from the two developments announced 21 Jul 2026 · case began with an OTT in Feb 2026 · 8 suspects as of 26 Aug 2026 · no new suspect named",
+      "storyline": "corruption-cases",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "Suara.com", "url": "https://www.suara.com/news/2026/10/28/152804/kpk-terbitkan-sprindik-baru-kasus-bea-cukai-kantor-pt-djarum-ikut-digeledah"},
+        {"label": "Tempo (headline only, page blocked)", "url": "https://www.tempo.co/hukum/respons-pt-djarum-usai-digeledah-kpk-2302493"}
+      ],
+      "why_it_matters": "The search reaches one of the country's biggest cigarette makers and shows the customs case is widening beyond officials.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 2, "visual": 0, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "Suara.com and Tempo both ran it on 28 Oct",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-10-28",
+      "category": "POL",
+      "event": "KPK has not confirmed whether ATR/BPN Minister Nusron Wahid was examined on 28 Oct as MAKI's Boyamin Saiman claimed; KPK said on 27 Oct the summons was still being considered, and MAKI threatens to report KPK leadership to the Dewas if he is not produced.",
+      "key_numbers": "Case: alleged bribery/gratification over a PT Summarecon Agung HGB in Bogor Regency · MAKI says Nusron skipped two earlier summonses · 28 Oct 2026 claimed date · no confirmed attendance",
+      "storyline": "kpk-nusron-atr-bpn",
+      "update_of": "E0333",
+      "status": "partial",
+      "sources": [
+        {"label": "Monitor Indonesia", "url": "https://monitorindonesia.com/hukum/read/2026/10/637615/nusron-kembali-disorot-kpk-belum-pastikan-pemeriksaan-hari-ini-maki-ancam-laporkan-pimpinan"},
+        {"label": "Suara.com", "url": "https://www.suara.com/news/2026/10/27/135906/maki-sebut-kpk-panggil-nusron-wahid-besok"}
+      ],
+      "why_it_matters": "A sitting minister being summoned by KPK tests how far the anti-graft agency will go against cabinet members.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 0, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "Reported by IDN Times, iNews, Akurat, Suara, Monitor Indonesia",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-10-28",
+      "category": "POL",
+      "event": "At the East Jakarta District Court hearing in Roy Suryo's slander/ITE trial, prosecution witness Maret Samuel Sueken of JPKP clashed with Roy's lawyer, and the judge asked for Jokowi to be examined as complainant on 5 Nov.",
+      "key_numbers": "Hearing 28 Oct 2026 · next hearing Thu 5 Nov 2026 with Jokowi and aide AKBP Syarif Muhammad Fitriansyah, same day as dr. Tifa's trial · prosecution file lists 94 witnesses and 26 experts (literasihukum.com, not verified)",
+      "storyline": "jokowi-ijazah-roy-suryo",
+      "update_of": "E0285",
+      "status": "verified",
+      "sources": [
+        {"label": "Detik", "url": "https://news.detik.com/berita/d-8727927/sidang-roy-suryo-panas-saksi-dan-pengacara-saling-bentak"},
+        {"label": "Warta Ekonomi", "url": "https://wartaekonomi.co.id/read644155/jokowi-pastikan-hadir-di-sidang-kasus-roy-suryo"}
+      ],
+      "why_it_matters": "Jokowi is due to appear in court himself on 5 Nov in the case over claims his diploma is fake.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 0, "fresh": 2, "rivals": 0},
+      "spreading_evidence": "Detik, Warta Ekonomi, iNews coverage",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-05",
+      "category": "POL",
+      "event": "Jokowi is scheduled to testify as complainant at the Roy Suryo trial at the East Jakarta District Court, the same day as the trial of dr. Tifa.",
+      "key_numbers": "Thu 5 Nov 2026 · East Jakarta District Court · aide says Jokowi 'will certainly attend'",
+      "storyline": "jokowi-ijazah-roy-suryo",
+      "update_of": "E0285",
+      "status": "upcoming",
+      "sources": [
+        {"label": "Warta Ekonomi", "url": "https://wartaekonomi.co.id/read644155/jokowi-pastikan-hadir-di-sidang-kasus-roy-suryo"}
+      ],
+      "why_it_matters": "A former president testifying in person over his diploma is a rare scene and will draw heavy coverage.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 0, "fresh": 0, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-10-27",
+      "category": "POL",
+      "event": "DPR Commission III members debate 'illicit enrichment' in the Asset Forfeiture Bill, with Ahmad Sahroni rejecting KPK's proposal that officials' unreported assets be forfeitable, while Commission III also backs Yusril's UU Tipikor revision.",
+      "key_numbers": "27 Oct 2026 · Panja for RUU Perampasan Aset formed 26 Oct · DPR in recess 9 Oct–9 Nov",
+      "storyline": "",
+      "update_of": "E0334",
+      "status": "partial",
+      "sources": [
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261027141945-32-1420144/dpr-bahas-illicit-enrichment-di-ruu-perampasan-aset-ada-yang-kontra"},
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261027175310-32-1420232/sahroni-tolak-usul-kpk-harta-pejabat-tak-dilaporkan-bisa-dirampas"}
+      ],
+      "why_it_matters": "Whether officials with unexplained wealth can lose it without a conviction is the core fight over the bill.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-27",
+      "category": "POL",
+      "event": "Yusril says the government will refine the corruption definition in the UU Tipikor, and Commission III and Baleg members back a revision.",
+      "key_numbers": "27 Oct 2026 · Prabowo asked for a deeper study (26 Oct) · Yusril says the aim is not to delete the state-loss element (Liputan6 headline)",
+      "storyline": "definisi-korupsi",
+      "update_of": "E0348",
+      "status": "partial",
+      "sources": [
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261027160201-32-1420192/komisi-iii-dukung-usul-yusril-untuk-revisi-uu-tipikor"},
+        {"label": "Liputan6", "url": "https://www.liputan6.com/news/read/8322386/bukan-hapus-unsur-kerugian-negara-yusril-ungkap-arah-revisi-uu-tipikor"}
+      ],
+      "why_it_matters": "Changing what counts as corruption affects which cases KPK and Kejagung can prosecute.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 0, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-27",
+      "category": "POL",
+      "event": "PKS says it is sounding out DPR factions on following up the MK's Gibran diploma finding while PDI-P opens room for dialogue, and Gerindra has also responded.",
+      "key_numbers": "27 Oct 2026 · PDI-P welcomed PKS's call on 25 Oct · DPR in recess until 9 Nov",
+      "storyline": "gibran-ijazah-mk",
+      "update_of": "E0361",
+      "status": "partial",
+      "sources": [
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261027092510-32-1420005/pks-jajaki-sikap-soal-polemik-ijazah-gibran-pdip-buka-ruang-dialog"},
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261026101504-32-1419607/respons-pdip-dan-gerindra-soal-polemik-ijazah-wapres-gibran"}
+      ],
+      "why_it_matters": "Opposition and coalition parties are positioning on whether the DPR should act on the Vice President's missing diploma record.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 0, "fresh": 2, "rivals": 0},
+      "spreading_evidence": "",
+      "sensitivity": "high"
+    }
+  ],
+  "gaps": ["Direct fetch of detik news/berita, antaranews, cnnindonesia/nasional and tempo section URLs was refused; Tempo politik is robots-blocked, so Tempo items are from search snippets only", "Outcome of the 28 Oct rally (turnout, arrests, any clashes) and whether Nusron actually appeared at KPK on 28 Oct are unconfirmed", "Prabowo meeting Singapore's foreign minister at Hambalang (Antara 5817639) could not be opened, so content is unknown (possibly haze-related)", "ump-2027 labour rally wave (15-30 Oct): no new development found in the search results", "PDI-P/Gerindra CNN article was not opened (headline only)"]
+}
