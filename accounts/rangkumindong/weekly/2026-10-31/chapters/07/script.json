@@ -1,0 +1,41 @@
+{
+ "direction": "[warm, clear weekly recap; neutral, attributed]",
+ "lines": [
+  {
+   "id": "g1",
+   "tag": "[friendly, brisk]",
+   "text": "Oke, minggu depan. Catat tanggalnya."
+  },
+  {
+   "id": "g2",
+   "tag": "[matter-of-fact]",
+   "text": "Sabtu, 31 Oktober, dan Selasa, 3 November: konser Andrea Bocelli di Borobudur dan Jakarta. Promotornya bilang tetap jalan, meski MUI minta dibatalkan.",
+   "say": "Sabtu, tiga puluh satu Oktober, dan Selasa, tiga November: konser Andrea Bocelli di Borobudur dan Jakarta. Promotornya bilang tetap jalan, meski, Em U I, minta dibatalkan."
+  },
+  {
+   "id": "g3",
+   "tag": "[clear]",
+   "text": "Minggu, 1 November: tanggal yang disebut sejumlah media sebagai jadwal penetapan upah minimum 2027. Serikat buruh minta naik 7,5 sampai 9,5 persen.",
+   "say": "Minggu, satu November: tanggal yang disebut sejumlah media sebagai jadwal penetapan upah minimum dua ribu dua puluh tujuh. Serikat buruh minta naik tujuh koma lima, sampai sembilan koma lima persen."
+  },
+  {
+   "id": "g4",
+   "tag": "[leaning in]",
+   "text": "Tapi kata Menaker Yassierli, pembahasan internalnya ditargetkan selesai akhir November. Jadi 1 November, belum tentu ada angka.",
+   "say": "Tapi kata Menaker Yassierli, pembahasan internalnya ditargetkan selesai akhir November. Jadi satu November, belum tentu ada angka."
+  },
+  {
+   "id": "g5",
+   "tag": "[clear]",
+   "text": "Senin, 2 November: saham yang kepemilikannya terlalu terpusat mulai tidak dihitung di IHSG. Awal November juga, BPS biasanya merilis inflasi Oktober. September: 3,28 persen.",
+   "say": "Senin, dua November: saham yang kepemilikannya terlalu terpusat mulai tidak dihitung di I H S G. Awal November juga, Be Pe Es biasanya merilis inflasi Oktober. September: tiga koma dua delapan persen."
+  },
+  {
+   "id": "g6",
+   "tag": "[neutral]",
+   "text": "Kamis, 5 November: sidang Roy Suryo di PN Jakarta Timur. Jaksa memanggil Jokowi sebagai saksi, dan Jokowi bilang akan hadir.",
+   "say": "Kamis, lima November: sidang Roy Suryo di Pe En Jakarta Timur. Jaksa memanggil Jokowi sebagai saksi, dan Jokowi bilang akan hadir."
+  }
+ ],
+ "tail": 0.6
+}

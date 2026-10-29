@@ -1,0 +1,58 @@
+{
+ "direction": "[warm, clear weekly recap; neutral, attributed]",
+ "lines": [
+  {
+   "id": "d1",
+   "tag": "[curious]",
+   "text": "Selasa kemarin kami tanya: uang negara hilang, pasti dihitung korupsi?"
+  },
+  {
+   "id": "d2",
+   "tag": "[neutral, reporting]",
+   "text": "Senin, 26 Oktober, Yusril dipanggil ke Istana. Kata Yusril, Presiden minta definisi korupsi dikaji lebih mendalam.",
+   "say": "Senin, dua puluh enam Oktober, Yusril dipanggil ke Istana. Kata Yusril, Presiden minta definisi korupsi dikaji lebih mendalam."
+  },
+  {
+   "id": "d3",
+   "tag": "[neutral]",
+   "text": "Dan menurut Yusril, Presiden menilai unsur kerugian negara tidak boleh dilupakan."
+  },
+  {
+   "id": "d4",
+   "tag": "[explaining]",
+   "text": "Selasa, Yusril menerima hasil kajian DEN dari Luhut. Kesimpulannya, kata Yusril: definisi korupsi diperluas, unsur kerugian negara tidak dihapus.",
+   "say": "Selasa, Yusril menerima hasil kajian, De E En, dari Luhut. Kesimpulannya, kata Yusril: definisi korupsi diperluas, unsur kerugian negara tidak dihapus."
+  },
+  {
+   "id": "d5",
+   "tag": "[explaining]",
+   "text": "Yang dibahas: rumusan Pasal 2 dan 3 UU Tipikor, yang sejak Januari pindah ke KUHP baru. Yusril menyebutnya “pasal sapu jagat”.",
+   "say": "Yang dibahas: rumusan pasal dua dan tiga, U U Tipikor, yang sejak Januari pindah ke Ka U Ha Pe baru. Yusril menyebutnya, pasal sapu jagat."
+  },
+  {
+   "id": "d6",
+   "tag": "[explaining, quick]",
+   "text": "Salah satu tujuannya: satu definisi keuangan negara, karena UU BPK dan UU Perbendaharaan Negara isinya beda. Istilah “perekonomian negara”? Belum diputuskan.",
+   "say": "Salah satu tujuannya: satu definisi keuangan negara, karena U U Be Pe Ka dan U U Perbendaharaan Negara isinya beda. Istilah perekonomian negara? Belum diputuskan."
+  },
+  {
+   "id": "d7",
+   "tag": "[neutral, reporting]",
+   "text": "Di DPR, anggota Baleg dari Golkar, Ahmad Irawan, mendukung revisi. Ia ingin deliknya diperluas: perdagangan pengaruh, memperkaya diri secara tidak sah, sampai under-invoicing.",
+   "say": "Di De Pe Er, anggota Baleg dari Golkar, Ahmad Irawan, mendukung revisi. Ia ingin deliknya diperluas: perdagangan pengaruh, memperkaya diri secara tidak sah, sampai ander invoising."
+  },
+  {
+   "id": "d8",
+   "tag": "[neutral]",
+   "text": "Minggu lalu, keberatan datang dari Ketua KPK, ICW, dan dua anggota DPR dari PKS. Minggu ini, pengamat hukum Hardjuno Wiwoho mengingatkan: perlindungan untuk keputusan bisnis jangan sampai jadi celah menghindari tanggung jawab.",
+   "say": "Minggu lalu, keberatan datang dari Ketua Ka Pe Ka, I Ce We, dan dua anggota De Pe Er dari Pe Ka Es. Minggu ini, pengamat hukum Hardjuno Wiwoho mengingatkan: perlindungan untuk keputusan bisnis, jangan sampai jadi celah menghindari tanggung jawab."
+  },
+  {
+   "id": "d9",
+   "tag": "[calm]",
+   "text": "Statusnya: belum masuk Prolegnas, dan belum ada draf RUU yang diumumkan.",
+   "say": "Statusnya: belum masuk Prolegnas, dan belum ada draf Er U U yang diumumkan."
+  }
+ ],
+ "tail": 0.6
+}

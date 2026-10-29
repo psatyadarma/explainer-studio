@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Rangkumin Seminggu — chapter</title>
+<!-- ../../../../../../ is replaced by engine/weekly.py init with the path back to the repo root -->
+<link rel="stylesheet" href="../../../../../../styles/sticker/sticker.css">
+<link rel="stylesheet" href="../../../../../../styles/sticker/weekly/weekly.css">
+<script src="../../../../../../styles/sticker/sticker.js"></script>
+<script src="build/timing.js"></script>
+<script src="../../build/week.js"></script>
+<script src="../../../../../../styles/sticker/weekly/weekly.js"></script>
+<style>
+  .card { background:#fff; border-radius:28px; padding:22px 38px; text-align:center; box-shadow:0 0 0 9px #fff,0 18px 26px rgba(27,36,48,.22); }
+  .card .n { font-weight:900; font-size:150px; letter-spacing:-5px; line-height:1; color:var(--ink); }
+  .card .n.acc { color:var(--accent); }
+  .card .n.sm { font-size:110px; }
+  .card .l { font-weight:800; font-size:40px; color:var(--slate); margin-top:6px; }
+  .card.dark { background:var(--ink); } .card.dark .n, .card.dark .l { color:#fff; }
+  .card.ok .n { color:#1E9E5A; }
+  .arrow { font-weight:900; font-size:120px; color:var(--slate); }
+  .row { display:flex; gap:16px; justify-content:center; margin-top:14px; }
+  .big { font-weight:900; font-size:96px; letter-spacing:-3px; line-height:1.05; text-align:center; }
+  .zlab { font-weight:800; font-size:34px; color:var(--slate); letter-spacing:1px; text-transform:uppercase; }
+  #world .abs { width: max-content; max-width: 760px; }
+  .card .n { white-space: nowrap; }
+  .zlab { white-space: nowrap; }
+  .card.dark .big { color: #fff; } .card.dark .zlab { color: var(--hi); }
+  .lower { bottom: auto; top: 130px; }
+</style>
+</head>
+<body>
+<div id="stage">
+  <div id="world"></div>
+  <div id="card"><div class="kicker" id="cKick"></div><div class="title" id="cTitle"></div><div class="sub" id="cSub"></div></div>
+  <div class="lower" id="lw1">Kemenhub<small>14 Agu–25 Okt, hitungan kami</small></div>
+  <div class="lower" id="lw2">Kementerian Kehutanan<small>Selasa malam</small></div>
+  <div class="lower" id="lw3">BNPB<small>Kamis pagi</small></div>
+  <div class="lower" id="lw4">BMKG<small>musim hujan</small></div>
+  <div class="lower" id="lw5">Bareskrim<small>Kamis</small></div>
+  <div id="brand"><div class="dot"></div><b>Rangkumin Dong</b></div>
+  <div id="subs"></div>
+  <div id="progress"></div>
+</div>
+<script>
+// ---- chapter data: every number below is spoken in the script and verified in claims.json (c1-c9) ----
+window.CHAPTER = Number(location.pathname.split('/').slice(-2)[0]);
+const $ = (id) => document.getElementById(id);
+const T = window.TIMING; window.DURATION = T.duration;
+const ch = (window.WEEK?.chapters || []).find((c) => c.n === window.CHAPTER) || {};
+$('cKick').textContent = ch.kicker || ''; $('cTitle').textContent = ch.title || ''; $('cSub').textContent = window.WEEK?.dates || '';
+const world = $('world');
+const S = (id) => K.at(id), E = (id) => K.line(id).end;
+const A = 960, B = 2960, C = 4960, D = 6960;
+const items = [];
+function add(x, y, html, tIn, tOut, rot = 0, cls = 'card') {
+  const e = document.createElement('div'); e.className = 'abs ' + cls; e.style.left = x + 'px'; e.style.top = y + 'px'; e.innerHTML = html;
+  world.appendChild(e); items.push({ e, tIn, tOut, rot });
+}
+const n = (v, l, c = '') => `<div class="n ${c}">${v}</div><div class="l">${l}</div>`;
+// ZONE A: flights (c1, c2)
+add(A, 150, 'ASAP &amp; PENERBANGAN', 2.1, E('c2'), 0, 'zlab');
+add(A - 420, 400, n('1.700', 'penerbangan batal', 'acc'), 2.1, Infinity, -2);
+add(A + 420, 400, n('3.030', 'terganggu · 14 Agu–25 Okt'), K.word('c2', '3.030'), Infinity, 2);
+add(A - 420, 700, n('154', 'rute', 'sm'), K.word('c2', '154'), Infinity, 1);
+add(A + 420, 700, n('≈23', 'batal per hari · hitungan kami', 'sm acc'), K.word('c2', 'sekitar'), Infinity, -1);
+// ZONE B: hotspots (c3, c4)
+add(B, 150, 'TITIK PANAS NASIONAL', S('c3') + 0.5, E('c4'), 0, 'zlab');
+add(B - 330, 390, n('93', 'sehari sebelumnya'), K.word('c3', '93'), Infinity, -2);
+add(B, 390, '→', K.word('c3', '79') - 0.1, Infinity, 0, 'arrow');
+add(B + 330, 390, n('79', 'Selasa malam', 'ok'), K.word('c3', '79'), Infinity, 2);
+add(B, 680, `<div class="n acc" style="font-size:120px">0</div><div class="l">titik di 6 provinsi prioritas</div><div class="row"><span class="tag light">Kalbar</span><span class="tag light">Kalteng</span><span class="tag light">Riau</span></div>`, S('c4') + 0.2, Infinity, 1);
+// ZONE C: area + rain (c5, c6)
+add(C, 150, 'LAHAN TERDAMPAK', S('c5') + 0.4, S('c6'), 0, 'zlab');
+add(C, 380, n('462 ha', 'masih ditangani · Kamis pagi', 'acc').replace('class="n acc"', 'class="n acc" style="font-size:180px"'), K.word('c5', '462'), S('c6'), -1);
+add(C - 380, 650, n('10', 'provinsi', 'sm'), K.word('c5', '10'), S('c6'), 2);
+add(C + 380, 650, n('169 ha', 'Kalimantan Timur', 'sm'), K.word('c5', '169'), S('c6'), -2);
+add(C, 400, `<div class="zlab">Hujan?</div><div class="n acc" style="font-size:200px">20–30</div><div class="l">hari musim hujan telat · El Nino</div>`, S('c6') + 0.1, Infinity, 1);
+// ZONE D: law + loss (c7..c10)
+add(D, 150, 'DI SISI HUKUM', S('c7') + 0.2, S('c9'), 0, 'zlab');
+add(D - 380, 400, n('245', 'orang tersangka', 'acc'), K.word('c7', '245'), S('c8'), -2);
+add(D + 380, 400, n('20', 'korporasi tersangka', 'acc'), K.word('c7', '20', 1), S('c8'), 2);
+add(D, 400, n('≈35 ribu ha', 'luas lahan di kasus-kasus itu', 'acc').replace('class="n acc"', 'class="n acc" style="font-size:150px"'), S('c8') + 0.2, S('c9'), -1);
+add(D, 420, `<div class="zlab">Toraja Utara</div><div class="big" style="font-size:80px">Seorang polisi hutan<br>meninggal</div><div class="l">tertimpa pohon tumbang usai bantu padamkan api</div>`, S('c9') + 0.2, S('c10'), 1, 'card dark');
+add(D, 420, `<div class="big">Tersangka<br><span style="color:var(--accent)">belum tentu bersalah</span></div><div class="l">Itu diputuskan pengadilan</div>`, S('c10') + 0.1, Infinity, -1);
+
+const lows = [['lw1', 3.0, S('c3') - 0.2], ['lw2', S('c3') + 0.5, S('c5') - 0.3], ['lw3', S('c5') + 0.5, S('c6')],
+  ['lw4', S('c6') + 0.4, S('c7') - 0.3], ['lw5', S('c7') + 0.5, E('c8')]];
+
+function seek(t) {
+  const m = 0.3;
+  K.cam16(world, [{ t: 0, x: A, y: 540, z: 1 }, { t: S('c3') - m, x: B, y: 540, z: 1 }, { t: S('c5') - m, x: C, y: 540, z: 1 }, { t: S('c7') - m, x: D, y: 540, z: 1 }], t);
+  K.titleCard($('card'), t, 2.0);
+  items.forEach((it) => K.pop(it.e, t, it.tIn, it.tOut, it.rot));
+  lows.forEach(([id, a, b]) => K.lower($(id), t, a, b));
+  K.subtitles($('subs'), t);
+  K.weekly(t);
+}
+window.seek = seek;
+</script>
+</body>
+</html>

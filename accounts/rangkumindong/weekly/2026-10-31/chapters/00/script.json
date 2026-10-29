@@ -1,0 +1,34 @@
+{
+ "direction": "[warm, clear weekly recap; neutral, attributed]",
+ "lines": [
+  {
+   "id": "i1",
+   "tag": "[energetic]",
+   "text": "Seminggu ini rame lagi. Kamu ketinggalan yang mana?"
+  },
+  {
+   "id": "i2",
+   "tag": "[quick, building]",
+   "text": "IHSG jatuh lagi. Minyak di atas 115 dolar. Definisi korupsi mau diperluas.",
+   "say": "I H S G jatuh lagi. Minyak di atas seratus lima belas dolar. Definisi korupsi, mau diperluas."
+  },
+  {
+   "id": "i3",
+   "tag": "[quick, playful]",
+   "text": "Plus: asap yang bikin 1.700 penerbangan batal, KPK di kantor Djarum, dan demo mahasiswa di Hari Sumpah Pemuda.",
+   "say": "Plus: asap yang bikin seribu tujuh ratus penerbangan batal, Ka Pe Ka di kantor Djarum, dan demo mahasiswa di Hari Sumpah Pemuda."
+  },
+  {
+   "id": "rd",
+   "tagline": true,
+   "text": "Rangkumin dong!"
+  },
+  {
+   "id": "i4",
+   "tag": "[friendly]",
+   "text": "Ini Rangkumin Seminggu, 24 sampai 30 Oktober. Di akhir, tanggal-tanggal minggu depan, termasuk satu soal upah minimum yang belum tentu terjadi.",
+   "say": "Ini Rangkumin Seminggu, dua puluh empat sampai tiga puluh Oktober. Di akhir, tanggal-tanggal minggu depan, termasuk satu soal upah minimum, yang belum tentu terjadi."
+  }
+ ],
+ "tail": 0.6
+}

@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Rangkumin Seminggu — chapter</title>
+<!-- ../../../../../../ is replaced by engine/weekly.py init with the path back to the repo root -->
+<link rel="stylesheet" href="../../../../../../styles/sticker/sticker.css">
+<link rel="stylesheet" href="../../../../../../styles/sticker/weekly/weekly.css">
+<script src="../../../../../../styles/sticker/sticker.js"></script>
+<script src="build/timing.js"></script>
+<script src="../../build/week.js"></script>
+<script src="../../../../../../styles/sticker/weekly/weekly.js"></script>
+<style>
+  .stat { font-weight: 900; letter-spacing: -6px; color: var(--accent); line-height: 1; white-space: nowrap; }
+  .abs { white-space: nowrap; }
+  .hd { font-weight: 900; font-size: 84px; letter-spacing: -2px; text-align: center; }
+  .pin { width: 78px; height: 78px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 0 9px #fff, 0 18px 26px rgba(27,36,48,.22); }
+  .road { position: absolute; height: 22px; border-radius: 11px; background: var(--slate); }
+  .dem { position: absolute; left: 0; display: flex; align-items: center; gap: 26px; background: #fff; border-radius: 22px; padding: 10px 30px 10px 12px;
+    box-shadow: 0 0 0 8px #fff, 0 14px 24px rgba(27,36,48,.16); font-weight: 800; font-size: 46px; transform-origin: 0 50%; white-space: nowrap; }
+  .dem b { background: var(--ink); color: #fff; border-radius: 16px; width: 64px; height: 64px; display: flex; align-items: center; justify-content: center; font-size: 44px; }
+  .dem em { font-style: normal; color: var(--accent); }
+  .dash { border: 6px dashed var(--slate); border-radius: 28px; display: flex; align-items: center; justify-content: center; gap: 30px;
+    font-weight: 800; font-size: 50px; color: var(--slate); }
+  .dash b { font-size: 110px; color: var(--accent); line-height: 1; }
+  .tl { position: absolute; height: 44px; border-radius: 22px; background: #fff; box-shadow: 0 0 0 7px #fff, 0 12px 20px rgba(27,36,48,.18); overflow: hidden; }
+  .tl i { position: absolute; left: 0; top: 0; bottom: 0; background: var(--accent); width: 0; }
+  .sm { font-size: 38px; }
+  .lower { left: auto; right: 64px; top: 112px; bottom: auto; transform-origin: 100% 50%; text-align: left; }
+</style>
+</head>
+<body>
+<div id="stage">
+  <div id="world">
+    <!-- ZONE A (x=960): date -->
+    <div id="aK" class="abs tag light sticker" style="left:960px; top:220px;">Cerita yang belum kami bahas di video harian</div>
+    <div id="aD" class="abs tag accent sticker" style="left:960px; top:330px;">Rabu</div>
+    <div id="aS" class="abs stamp" style="left:960px; top:500px; font-size:190px;">28 Oktober</div>
+    <div id="aP" class="abs tag sticker" style="left:960px; top:690px; font-size:60px;">Hari Sumpah Pemuda</div>
+
+    <!-- ZONE B (x=2960): who and where -->
+    <div id="bK" class="abs tag light sticker" style="left:2540px; top:290px;">banyak kampus</div>
+    <div id="bB" class="abs tag sticker" style="left:2960px; top:290px;">BEM UI</div>
+    <div id="bS" class="abs tag accent sticker" style="left:3400px; top:290px;">koalisi sipil SADAR</div>
+    <div id="bR" class="road" style="left:2600px; top:489px; width:720px; transform-origin:0 50%;"></div>
+    <div id="bP1" class="abs pin" style="left:2600px; top:500px;"></div>
+    <div id="bL1" class="abs tag sticker" style="left:2600px; top:610px;">Bundaran HI</div>
+    <div id="bP2" class="abs pin" style="left:3320px; top:500px;"></div>
+    <div id="bL2" class="abs tag sticker" style="left:3320px; top:610px;">Patung Kuda</div>
+    <div id="bJ" class="abs hd" style="left:2960px; top:740px; font-size:64px; color:var(--slate);">Jakarta</div>
+
+    <!-- ZONE C (x=4960): five demands -->
+    <div id="cH" class="abs hd" style="left:4780px; top:170px; font-size:72px;">Menurut BEM UI: <span style="color:var(--accent)">5 tuntutan</span></div>
+    <div id="cT" class="abs tag light sticker sm" style="left:4780px; top:262px;">untuk Presiden Prabowo dan Wapres Gibran</div>
+    <div id="cL" style="position:absolute; left:4180px; top:320px; width:1560px; height:520px;">
+      <div class="dem" style="top:0;"><b>1</b>Status bencana nasional untuk <em>karhutla</em></div>
+      <div class="dem" style="top:100px;"><b>2</b><span>Kaji ulang <em>APBN 2027</em>, hentikan <em>MBG</em> &amp; Koperasi Desa Merah Putih</span></div>
+      <div class="dem" style="top:200px;"><b>3</b><span>Biaya <em>pendidikan</em> diturunkan</span></div>
+      <div class="dem" style="top:300px;"><b>4</b><span>Berantas <em>korupsi</em> dan reformasi hukum</span></div>
+      <div class="dem" style="top:400px;"><b>5</b><span><em>Kebebasan berekspresi</em>, hentikan militerisasi ruang sipil</span></div>
+    </div>
+
+    <!-- ZONE D (x=6960): turnout -->
+    <div id="dH" class="abs hd" style="left:6960px; top:180px; font-size:76px;">Berapa yang ikut?</div>
+    <div id="dT" class="abs tag sticker" style="left:6960px; top:300px;">Kata BEM UI</div>
+    <div id="dN" class="abs stat" style="left:6960px; top:470px; font-size:190px;">10–12 ribu</div>
+    <div id="dO" class="abs tag light sticker sm" style="left:6960px; top:600px;">orang (klaim penyelenggara)</div>
+    <div id="dX" class="abs dash" style="left:6960px; top:710px; width:1100px; height:120px; font-size:46px;"><b style="font-size:80px;">?</b>Angka dari polisi: belum kami temukan</div>
+
+    <!-- ZONE E (x=8960): police record -->
+    <div id="eT" class="abs tag sticker" style="left:8960px; top:190px;">Polda Metro Jaya</div>
+    <div id="eN" class="abs stat" style="left:8560px; top:360px; font-size:200px;">53</div>
+    <div id="eNl" class="abs hd" style="left:9040px; top:360px; font-size:56px; text-align:left; transform:translate(-50%,-50%);">aksi unjuk rasa<br>di Jakarta hari itu</div>
+    <div id="eKp" class="abs tag light sticker sm" style="left:9560px; top:300px;">Kata polisi</div>
+    <div id="eTr" class="abs stamp" style="left:9560px; top:450px; font-size:90px;">Tertib</div>
+    <div id="eH" class="abs tag light sticker sm" style="left:8960px; top:545px;">Aksi di Bundaran HI</div>
+    <div id="eBar" class="tl" style="left:8360px; top:600px; width:1200px;"><i></i></div>
+    <div id="eA" class="abs tag sticker" style="left:8360px; top:715px;">2 siang</div>
+    <div id="eB" class="abs tag accent sticker" style="left:9560px; top:715px;">19.45</div>
+
+    <!-- ZONE F (x=10960): government -->
+    <div id="fK" class="abs tag light sticker" style="left:10960px; top:200px;">Dari pemerintah</div>
+    <div id="fC" class="abs" style="left:10960px; top:440px; width:1300px; height:300px; background:#fff; border-radius:34px; box-shadow: 0 0 0 10px #fff, 0 20px 30px rgba(27,36,48,.2);"></div>
+    <div id="fR" class="abs hd" style="left:10960px; top:370px; font-size:56px; color:var(--slate);">Kepala Staf Kepresidenan</div>
+    <div id="fN" class="abs hd" style="left:10960px; top:470px; font-size:100px;">Listyo Sigit Prabowo</div>
+    <div id="fS" class="abs tag accent sticker" style="left:10960px; top:610px; font-size:56px;">siap menampung aspirasi</div>
+    <div id="fM" class="abs tag light sticker" style="left:10960px; top:740px;">dari perwakilan mahasiswa</div>
+  </div>
+  <div id="card"><div class="kicker" id="cKick"></div><div class="title" id="cTitle"></div><div class="sub" id="cSub"></div></div>
+  <div class="lower" id="lower1"><span id="lw"></span><small id="ls"></small></div>
+  <div id="brand"><div class="dot"></div><b>Rangkumin Dong</b></div>
+  <div id="subs"></div>
+  <div id="progress"></div>
+</div>
+<script>
+// ---- chapter data: every figure below is spoken in this chapter and verified in claims.json (p1-p8) ----
+window.CHAPTER = Number(location.pathname.split('/').slice(-2)[0]);
+const DATA = { demos: 53 };   // Polda Metro Jaya, spoken at p7. 5 demands, 10-12 ribu (BEM UI claim), 2 siang, 19.45 are fixed text.
+// ------------------------------------------------------------------------------------------------
+const $ = (id) => document.getElementById(id);
+const T = window.TIMING; window.DURATION = T.duration;
+const ch = (window.WEEK?.chapters || []).find((c) => c.n === window.CHAPTER) || {};
+$('cKick').textContent = ch.kicker || ''; $('cTitle').textContent = ch.title || ''; $('cSub').textContent = window.WEEK?.dates || '';
+
+// pop for centred (.abs) elements, with optional tilt
+const pop = (id, t, tIn, tOut, rot) => K.pop($(id), t, tIn, tOut, rot || 0);
+const rows = [...document.querySelectorAll('#cL .dem')];
+const demT = [K.word('p4', 'satu'), K.word('p4', 'dua'), K.word('p5', 'tiga'), K.word('p5', 'empat'), K.word('p5', 'lima')];
+
+const camKeys = [
+  { t: 0, x: 960, y: 540, z: 1 },
+  { t: K.at('p2', -0.15), x: 2960, y: 540, z: 1, dur: 1.1 },
+  { t: K.at('p3', -0.15), x: 4960, y: 540, z: 1, dur: 1.1 },
+  { t: K.at('p6', -0.2), x: 6960, y: 540, z: 1, dur: 1.1 },
+  { t: K.at('p7', -0.2), x: 8960, y: 540, z: 1, dur: 1.1 },
+  { t: K.at('p8', -0.2), x: 10960, y: 540, z: 1, dur: 1.1 },
+];
+const lowers = [
+  [K.at('p2', 0.4), K.at('p6', -0.3), 'Tuntutan: BEM UI', 'Okezone/RCTI+, CNN Indonesia'],
+  [K.at('p6', 0.2), K.at('p7', -0.3), 'Peserta: klaim BEM UI', 'Beritasatu'],
+  [K.at('p7', 0.2), K.at('p8', -0.3), 'Catatan Polda Metro Jaya', 'CNN Indonesia, Tempo'],
+  [K.at('p8', 0.4), T.duration - 0.3, 'Pernyataan KSP, 28 Okt', 'Kompas, ANTARA'],
+];
+const lw = $('lw'), ls = $('ls'), lo = $('lower1');
+
+function seek(t) {
+  K.cam16($('world'), camKeys, t);
+  K.titleCard($('card'), t, 2.0);
+
+  // A: date
+  pop('aK', t, 2.1, Infinity, -1.5); pop('aD', t, K.word('p1', 'rabu'), Infinity, -3);
+  pop('aS', t, K.word('p1', '28'), Infinity, 2); pop('aP', t, K.word('p1', 'sumpah'), Infinity, -1);
+  // B: who and where
+  pop('bK', t, K.word('p2', 'banyak'), Infinity, -2); pop('bB', t, K.word('p2', 'bem'), Infinity, 1.5);
+  pop('bS', t, K.word('p2', 'sadar'), Infinity, -1.5);
+  pop('bP1', t, K.word('p2', 'bundaran')); pop('bL1', t, K.word('p2', 'bundaran') + 0.12);
+  pop('bP2', t, K.word('p2', 'patung')); pop('bL2', t, K.word('p2', 'patung') + 0.12);
+  pop('bJ', t, K.word('p2', 'jakarta'));
+  { const t0 = K.word('p2', 'bundaran'), t1 = K.word('p2', 'patung'); $('bR').style.opacity = t >= t0 ? 1 : 0; $('bR').style.transform = `scaleX(${K.easeInOut(K.prog(t, t0, t1 - t0 + 0.2))})`; }
+  // C: five demands
+  pop('cH', t, K.word('p3', 'lima') - 0.1); pop('cT', t, K.word('p3', 'presiden'));
+  rows.forEach((r, i) => {
+    const s = K.spring(t - demT[i], 260, 19), on = t >= demT[i];
+    r.style.opacity = on ? K.clamp((t - demT[i]) / 0.08) : 0;
+    r.style.transform = `translateX(${(1 - s) * -120}px) scale(${0.9 + 0.1 * s})`;
+  });
+  // D: turnout
+  pop('dH', t, K.at('p6', 0.05)); pop('dT', t, K.word('p6', 'bem'), Infinity, -2);
+  pop('dN', t, K.word('p6', '10')); pop('dO', t, K.word('p6', 'orang'), Infinity, 1);
+  pop('dX', t, K.word('p6', 'angka'), Infinity, -0.8);
+  // E: police record
+  pop('eT', t, K.at('p7', 0.05));
+  pop('eN', t, K.word('p7', '53')); pop('eNl', t, K.word('p7', 'aksi'));
+  $('eN').textContent = Math.round(DATA.demos * K.clamp(K.prog(t, K.word('p7', '53'), 0.7)));
+  pop('eH', t, K.word('p7', 'aksi', 1));
+  const bar = $('eBar'), tA = K.word('p7', '2'), tB = K.word('p7', '1945');
+  const bs = K.spring(t - K.word('p7', 'aksi', 1), 240, 20);
+  bar.style.opacity = t >= K.word('p7', 'aksi', 1) ? 1 : 0; bar.style.transform = `scaleX(${bs})`; bar.style.transformOrigin = '0 50%';
+  bar.firstChild.style.width = (K.easeInOut(K.prog(t, tA, tB - tA)) * 100) + '%';
+  pop('eA', t, tA); pop('eB', t, tB, Infinity, 2);
+  pop('eKp', t, K.word('p7', 'polisi')); pop('eTr', t, K.word('p7', 'tertib') - 0.2, Infinity, -4);
+  // F: government
+  pop('fK', t, K.at('p8', 0.1)); K.pop($('fC'), t, K.word('p8', 'kepala'));
+  pop('fR', t, K.word('p8', 'kepala')); pop('fN', t, K.word('p8', 'listyo'));
+  pop('fS', t, K.word('p8', 'siap'), Infinity, -1.5); pop('fM', t, K.word('p8', 'perwakilan'), Infinity, 1);
+
+  // lower third: one source per segment
+  const seg = lowers.find((l) => t >= l[0] - 0.01 && t <= l[1] + 0.5);
+  if (seg) { lw.textContent = seg[2]; ls.textContent = 'Sumber: ' + seg[3]; K.lower(lo, t, seg[0], seg[1]); } else lo.style.opacity = 0;
+  K.subtitles($('subs'), t);
+  K.weekly(t);
+}
+window.seek = seek;
+</script>
+</body>
+</html>

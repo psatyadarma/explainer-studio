@@ -1,0 +1,351 @@
+{
+ "duration": 34.115,
+ "voice": "Cahaya",
+ "lines": [
+  {
+   "id": "i1",
+   "text": "Seminggu ini rame lagi. Kamu ketinggalan yang mana?",
+   "start": 0.247,
+   "end": 3.495,
+   "words": [
+    {
+     "w": "Seminggu",
+     "start": 0.247,
+     "end": 0.527
+    },
+    {
+     "w": "ini",
+     "start": 0.607,
+     "end": 0.847
+    },
+    {
+     "w": "rame",
+     "start": 0.887,
+     "end": 1.167
+    },
+    {
+     "w": "lagi.",
+     "start": 1.247,
+     "end": 1.647
+    },
+    {
+     "w": "Kamu",
+     "start": 1.805,
+     "end": 2.187
+    },
+    {
+     "w": "ketinggalan",
+     "start": 2.227,
+     "end": 2.667
+    },
+    {
+     "w": "yang",
+     "start": 2.699,
+     "end": 2.827
+    },
+    {
+     "w": "mana?",
+     "start": 2.923,
+     "end": 3.495
+    }
+   ]
+  },
+  {
+   "id": "i2",
+   "text": "IHSG jatuh lagi. Minyak di atas 115 dolar. Definisi korupsi mau diperluas.",
+   "start": 3.783,
+   "end": 11.347,
+   "words": [
+    {
+     "w": "IHSG",
+     "start": 3.783,
+     "end": 4.607
+    },
+    {
+     "w": "jatuh",
+     "start": 4.647,
+     "end": 4.927
+    },
+    {
+     "w": "lagi.",
+     "start": 5.023,
+     "end": 5.487
+    },
+    {
+     "w": "Minyak",
+     "start": 5.615,
+     "end": 6.187
+    },
+    {
+     "w": "di",
+     "start": 6.24,
+     "end": 6.347
+    },
+    {
+     "w": "atas",
+     "start": 6.443,
+     "end": 6.827
+    },
+    {
+     "w": "115",
+     "start": 6.867,
+     "end": 8.067
+    },
+    {
+     "w": "dolar.",
+     "start": 8.114,
+     "end": 8.535
+    },
+    {
+     "w": "Definisi",
+     "start": 8.535,
+     "end": 9.187
+    },
+    {
+     "w": "korupsi",
+     "start": 9.247,
+     "end": 9.907
+    },
+    {
+     "w": "mau",
+     "start": 10.047,
+     "end": 10.467
+    },
+    {
+     "w": "diperluas.",
+     "start": 10.507,
+     "end": 11.347
+    }
+   ]
+  },
+  {
+   "id": "i3",
+   "text": "Plus: asap yang bikin 1.700 penerbangan batal, KPK di kantor Djarum, dan demo mahasiswa di Hari Sumpah Pemuda.",
+   "start": 11.833,
+   "end": 20.737,
+   "words": [
+    {
+     "w": "Plus:",
+     "start": 11.833,
+     "end": 12.057
+    },
+    {
+     "w": "asap",
+     "start": 12.165,
+     "end": 12.657
+    },
+    {
+     "w": "yang",
+     "start": 12.705,
+     "end": 12.897
+    },
+    {
+     "w": "bikin",
+     "start": 12.957,
+     "end": 13.297
+    },
+    {
+     "w": "1.700",
+     "start": 13.357,
+     "end": 14.257
+    },
+    {
+     "w": "penerbangan",
+     "start": 14.337,
+     "end": 14.817
+    },
+    {
+     "w": "batal,",
+     "start": 14.897,
+     "end": 15.537
+    },
+    {
+     "w": "KPK",
+     "start": 15.715,
+     "end": 16.327
+    },
+    {
+     "w": "di",
+     "start": 16.38,
+     "end": 16.487
+    },
+    {
+     "w": "kantor",
+     "start": 16.527,
+     "end": 16.807
+    },
+    {
+     "w": "Djarum,",
+     "start": 16.847,
+     "end": 17.447
+    },
+    {
+     "w": "dan",
+     "start": 17.595,
+     "end": 17.937
+    },
+    {
+     "w": "demo",
+     "start": 18.017,
+     "end": 18.337
+    },
+    {
+     "w": "mahasiswa",
+     "start": 18.377,
+     "end": 19.057
+    },
+    {
+     "w": "di",
+     "start": 19.11,
+     "end": 19.217
+    },
+    {
+     "w": "Hari",
+     "start": 19.281,
+     "end": 19.537
+    },
+    {
+     "w": "Sumpah",
+     "start": 19.617,
+     "end": 20.017
+    },
+    {
+     "w": "Pemuda.",
+     "start": 20.057,
+     "end": 20.737
+    }
+   ]
+  },
+  {
+   "id": "rd",
+   "text": "Rangkumin dong!",
+   "start": 20.959,
+   "end": 22.346,
+   "words": [
+    {
+     "w": "Rangkumin",
+     "start": 20.959,
+     "end": 21.652
+    },
+    {
+     "w": "dong!",
+     "start": 21.652,
+     "end": 22.346
+    }
+   ]
+  },
+  {
+   "id": "i4",
+   "text": "Ini Rangkumin Seminggu, 24 sampai 30 Oktober. Di akhir, tanggal-tanggal minggu depan, termasuk satu soal upah minimum yang belum tentu terjadi.",
+   "start": 22.82169160997732,
+   "end": 33.54169160997732,
+   "words": [
+    {
+     "w": "Ini",
+     "start": 22.822,
+     "end": 22.852
+    },
+    {
+     "w": "Rangkumin",
+     "start": 22.932,
+     "end": 23.492
+    },
+    {
+     "w": "Seminggu,",
+     "start": 23.552,
+     "end": 24.132
+    },
+    {
+     "w": "24",
+     "start": 24.152,
+     "end": 24.772
+    },
+    {
+     "w": "sampai",
+     "start": 24.852,
+     "end": 25.252
+    },
+    {
+     "w": "30",
+     "start": 25.332,
+     "end": 25.892
+    },
+    {
+     "w": "Oktober.",
+     "start": 25.972,
+     "end": 26.716
+    },
+    {
+     "w": "Di",
+     "start": 26.716,
+     "end": 26.942
+    },
+    {
+     "w": "akhir,",
+     "start": 27.022,
+     "end": 27.746
+    },
+    {
+     "w": "tanggal-tanggal",
+     "start": 27.772,
+     "end": 28.442
+    },
+    {
+     "w": "minggu",
+     "start": 28.49,
+     "end": 28.762
+    },
+    {
+     "w": "depan,",
+     "start": 28.815,
+     "end": 29.322
+    },
+    {
+     "w": "termasuk",
+     "start": 29.434,
+     "end": 30.152
+    },
+    {
+     "w": "satu",
+     "start": 30.216,
+     "end": 30.472
+    },
+    {
+     "w": "soal",
+     "start": 30.552,
+     "end": 30.952
+    },
+    {
+     "w": "upah",
+     "start": 31.005,
+     "end": 31.192
+    },
+    {
+     "w": "minimum",
+     "start": 31.272,
+     "end": 32.006
+    },
+    {
+     "w": "yang",
+     "start": 32.006,
+     "end": 32.262
+    },
+    {
+     "w": "belum",
+     "start": 32.302,
+     "end": 32.502
+    },
+    {
+     "w": "tentu",
+     "start": 32.55,
+     "end": 32.822
+    },
+    {
+     "w": "terjadi.",
+     "start": 32.882,
+     "end": 33.542
+    }
+   ]
+  }
+ ]
+}

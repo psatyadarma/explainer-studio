@@ -1,0 +1,138 @@
+{
+  "area": "business",
+  "run_date": "2026-10-30",
+  "checked": [
+    "detikInet (inet.detik.com)", "CNBC Indonesia Tech", "Katadata Digital", "CNN Indonesia Teknologi",
+    "Bisnis Teknologi (fetch failed)", "DailySocial (search only, page not fetched)",
+    "watch list found: data leak (Fore Coffee), Komdigi rules (4-hour takedown, shadowban, algorithm transparency), Bakti leadership, Singapore internet-cable row, iPhone Duo, startup funding, smartphone production/price",
+    "watch list not seen in headlines: GoTo, Grab, TikTok Shop, Coretax, INAPas, SATUSEHAT, outages, data-plan prices",
+    "storyline searches: chip-ram-prices (phone prices), ai-data-centres"
+  ],
+  "events": [
+    {
+      "date": "2026-10-29",
+      "category": "TECH",
+      "event": "PT Fore Kopi Indonesia Tbk (Fore Coffee) confirmed unauthorized access to its systems affecting up to about 5.7 million customer accounts and asked customers to change their app PIN.",
+      "key_numbers": "~5.7 million accounts · data: name, email, phone, date of birth, gender, address, hashed PIN, purchase history · NIK/ID photos and card numbers said not affected · access stopped within 24 hours · statement dated 28 Oct 2026",
+      "storyline": "",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "detikInet", "url": "https://inet.detik.com/security/d-8728686/data-5-7-juta-akun-fore-coffee-bocor-pelanggan-diminta-ganti-pin"},
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/teknologi/20261029084941-185-1420851/data-57-juta-pelanggan-bocor-fore-langsung-investigasi"}
+      ],
+      "why_it_matters": "Millions of ordinary coffee-app users may now face phishing, and reused PINs put other accounts at risk.",
+      "signals": {"spreading": 2, "wallet": 1, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "Prominent on detikInet and CNN Indonesia Teknologi front pages, 29 Oct",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-29",
+      "category": "TECH",
+      "event": "Fadhilah Mathar stepped down as President Director of Bakti Komdigi (the telecom access agency) after about three years in the post and 10 years at the agency.",
+      "key_numbers": "Stepped down 28 Oct 2026 · 3 years as Dirut (inaugurated 14 Aug 2023) · 10 years at Bakti · no successor named",
+      "storyline": "",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/tech/20261029064445-37-780401/dirut-bakti-komdigi-fadhilah-mathar-mengundurkan-diri"},
+        {"label": "detikInet", "url": "https://inet.detik.com/law-and-policy/d-8728408/dirut-bakti-komdigi-fadhilah-mathar-mundur"}
+      ],
+      "why_it_matters": "Bakti runs state-funded internet and BTS projects for remote areas, so its leadership change affects rural connectivity programmes.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 0, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "Listed on both detikInet and CNBC Indonesia Tech pages",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-10-29",
+      "category": "TECH",
+      "event": "Komdigi explained the criteria for content that platforms must remove within 4 hours, said users hit by shadowban can appeal to the platform, and urged platforms to be transparent about their algorithms.",
+      "key_numbers": "4-hour removal deadline · details of criteria not confirmed (article not opened)",
+      "storyline": "child-online-protection",
+      "update_of": "E0367",
+      "status": "partial",
+      "sources": [
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/teknologi/20261029123338-185-1420957/komdigi-ungkap-kriteria-konten-wajib-dihapus-platform-dalam-4-jam"},
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/teknologi/20261029161930-185-1421080/kena-shadowban-komdigi-sebut-masyarakat-bisa-ajukan-banding-ke-medsos"}
+      ],
+      "why_it_matters": "Sets what social media must take down fast and gives users a route to contest shadowbans.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "Three Komdigi items in a row on CNN Indonesia Teknologi, 29 Oct",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-27",
+      "category": "TECH",
+      "event": "Communications and Digital Minister Meutya Hafid responded to former Singapore MP Calvin Cheng's post about cutting Indonesia's internet links, urging calm and saying Singapore also depends on cables through Indonesian waters.",
+      "key_numbers": "~90% of Indonesia's international traffic via Singapore (per Cheng's infographic, posted 25 Oct) · ~80% of Singapore's connectivity capacity at risk (Meutya) · Indonesia 47x Singapore's population · 267 million Indonesians online",
+      "storyline": "",
+      "update_of": "E0392",
+      "status": "verified",
+      "sources": [
+        {"label": "detikInet", "url": "https://inet.detik.com/law-and-policy/d-8727130/menkomdigi-respons-ancaman-internet-ri-diputus-singapura-tak-perlu-geram"},
+        {"label": "Katadata", "url": "https://katadata.co.id/digital/teknologi/6ae0a499da8e8/ramai-isu-90-internet-ri-lewat-singapura-menteri-komdigi-singgung-kabel-laut"},
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/tech/20261028065132-37-780039/menkomdigi-jawab-ancaman-politisi-singapura-potong-kabel-internet-ri"}
+      ],
+      "why_it_matters": "Shows how dependent Indonesian internet is on Singapore routes, with a gas-export dispute in the background.",
+      "signals": {"spreading": 2, "wallet": 1, "surprise": 2, "visual": 2, "fresh": 1, "rivals": 1},
+      "spreading_evidence": "Covered by detik, Katadata (several pieces), CNBC; viral post",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-10-27",
+      "category": "TECH",
+      "event": "Apple responded to complaints of cracked iPhone Duo screens and offered replacements, while experts discussed why a Rp75 million foldable cracked.",
+      "key_numbers": "Indonesian price ~Rp75 million · replacement terms not confirmed (article not opened)",
+      "storyline": "",
+      "update_of": "E0290",
+      "status": "partial",
+      "sources": [
+        {"label": "Katadata", "url": "https://katadata.co.id/digital/gadget/6ae083122d3a5/apple-respons-keluhan-layar-iphone-duo-retak-tawarkan-penggantian"},
+        {"label": "detikInet", "url": "https://inet.detik.com/consumer/d-8725583/apple-buka-suara-soal-layar-iphone-duo-yang-retak"},
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/tech/20261028143253-37-780233/pakar-ungkap-alasan-layar-iphone-duo-retak-padahal-harganya-rp-75-juta"}
+      ],
+      "why_it_matters": "Buyers who paid Rp75 million want to know if the screen is covered.",
+      "signals": {"spreading": 2, "wallet": 1, "surprise": 2, "visual": 2, "fresh": 1, "rivals": 0},
+      "spreading_evidence": "Multiple outlets incl. video on detikInet and CNBC; Samsung ad mocking it (CNN, 29 Oct)",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-28",
+      "category": "TECH",
+      "event": "CNN Indonesia reported Samsung plans to cut Galaxy A-series production by up to 20% to focus on flagships.",
+      "key_numbers": "up to 20% cut in Galaxy A production · millions of units (per headline) · details not confirmed (article not opened)",
+      "storyline": "chip-ram-prices",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/teknologi/20261028123403-206-1420518/samsung-berencana-pangkas-produksi-jutaan-hp-galaxy-a-jadi-korban"}
+      ],
+      "why_it_matters": "Fewer cheap Galaxy A phones could mean higher prices for budget buyers.",
+      "signals": {"spreading": 1, "wallet": 2, "surprise": 1, "visual": 2, "fresh": 1, "rivals": 2},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-28",
+      "category": "TECH",
+      "event": "Katadata reported the number of investors in Indonesian startups has fallen and IPOs are subdued.",
+      "key_numbers": "figures not confirmed (article not opened)",
+      "storyline": "startup-funding",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "Katadata", "url": "https://katadata.co.id/digital/startup/6ae19792d25d5/jumlah-investor-yang-berinvestasi-di-startup-indonesia-berkurang-ipo-juga-lesu"}
+      ],
+      "why_it_matters": "Fewer investors means fewer startup jobs and funding rounds.",
+      "signals": {"spreading": 0, "wallet": 1, "surprise": 1, "visual": 0, "fresh": 1, "rivals": 2},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    }
+  ],
+  "gaps": [
+    "Numbers for the Komdigi 4-hour takedown criteria, Samsung Galaxy A cut and startup investor decline could not be verified: article fetches were blocked.",
+    "teknologi.bisnis.com and dailysocial.id could not be read.",
+    "CNBC 28 Oct: Korean financial firms hacked (Bithumb, Daishin, Mirae; 16 firms, ~100,000 records) and PHP2Shell warning: foreign, not added.",
+    "Katadata: warning about services offering to cancel Kredivo loans (scam angle) and Danantara 1GW AI data centre/chip plan (CNBC 27 Oct) were seen only as headlines."
+  ]
+}

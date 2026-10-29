@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Rangkumin Seminggu — chapter</title>
+<!-- ../../../../../../ is replaced by engine/weekly.py init with the path back to the repo root -->
+<link rel="stylesheet" href="../../../../../../styles/sticker/sticker.css">
+<link rel="stylesheet" href="../../../../../../styles/sticker/weekly/weekly.css">
+<script src="../../../../../../styles/sticker/sticker.js"></script>
+<script src="build/timing.js"></script>
+<script src="../../build/week.js"></script>
+<script src="../../../../../../styles/sticker/weekly/weekly.js"></script>
+<style>
+  .bubble { background:#fff; border-radius:44px; padding:40px 56px; width:1240px; text-align:center; font-weight:900; font-size:78px; line-height:1.08; letter-spacing:-2px; }
+  .bubble .acc { color: var(--accent); }
+  .chips { display:flex; flex-wrap:wrap; gap:18px 20px; justify-content:center; width:1500px; }
+  .chip { background:var(--ink); color:#fff; font-weight:800; font-size:38px; padding:12px 24px; border-radius:16px; white-space:nowrap; }
+  .chip.l { background:#fff; color:var(--ink); }
+  .fcard { background:#fff; border-radius:44px; padding:44px 64px; width:1150px; text-align:center; }
+  .fcard .row { display:flex; gap:22px; align-items:center; justify-content:center; font-weight:900; font-size:84px; letter-spacing:-3px; }
+  .fcard .dot { width:56px; height:56px; border-radius:50%; background:var(--accent); }
+  .fcard .sub { margin-top:14px; font-weight:800; font-size:54px; color:var(--slate); letter-spacing:-1px; }
+</style>
+</head>
+<body>
+<div id="stage">
+  <div id="world">
+    <!-- ZONE A (x=960): comment prompt -->
+    <div id="bub" class="abs" style="left:960px; top:380px;"><div class="bubble sticker">Mana yang <span class="acc">paling ngaruh</span> ke hidup kamu?</div></div>
+    <div id="chips" class="abs chips" style="left:960px; top:640px;"></div>
+    <div id="cmt" class="abs" style="left:960px; top:790px;"><div class="tag accent sticker">Tulis di komentar</div></div>
+    <!-- ZONE B (x=2960): follow CTA -->
+    <div id="fc" class="abs" style="left:2960px; top:400px;"><div class="fcard sticker"><div class="row"><div class="dot"></div>Rangkumin Dong</div><div class="sub">Rangkumin Seminggu</div></div></div>
+    <div id="fol" class="abs" style="left:2680px; top:700px;"><div class="stamp sticker">Follow</div></div>
+    <div id="sat" class="abs" style="left:3270px; top:700px;"><div class="tag light sticker">Tiap Sabtu pagi</div></div>
+  </div>
+  <div id="card"><div class="kicker" id="cKick"></div><div class="title" id="cTitle"></div><div class="sub" id="cSub"></div></div>
+  <div id="brand"><div class="dot"></div><b>Rangkumin Dong</b></div>
+  <div id="subs"></div>
+  <div id="progress"></div>
+</div>
+<script>
+// ---- chapter data: outro has no numbers; chips reuse this week's chapter titles ----
+window.CHAPTER = Number(location.pathname.split('/').slice(-2)[0]);
+const $ = (id) => document.getElementById(id);
+const T = window.TIMING; window.DURATION = T.duration;
+const ch = (window.WEEK?.chapters || []).find((c) => c.n === window.CHAPTER) || {};
+$('cKick').textContent = ch.kicker || ''; $('cTitle').textContent = ch.title || ''; $('cSub').textContent = window.WEEK?.dates || '';
+const titles = ['IHSG jatuh lagi', 'Siapa yang nombok?', 'Definisi korupsi', 'Asap mulai reda?', 'KPK & pita cukai', 'Demo mahasiswa', 'Catat tanggalnya'];  // no digits: nothing numeric on screen unspoken
+const chips = titles.map((tt, i) => { const e = document.createElement('div'); e.className = 'chip' + (i % 2 ? ' l' : ''); e.textContent = tt; $('chips').appendChild(e); return e; });
+const tChips = K.word('o1', 'mana'), tCmt = K.word('o1', 'tulis'), tB = K.at('o2', -0.25);
+const tFol = K.word('o2', 'follow'), tSem = K.word('o2', 'rangkumin', 1), tSat = K.word('o2', 'tiap');
+
+function seek(t) {
+  K.cam16($('world'), [{ t: 0, x: 960, y: 540, z: 1 }, { t: tB, x: 2960, y: 540, z: 1 }], t);
+  K.titleCard($('card'), t, 2.0);
+  K.pop($('bub'), t, 2.1, Infinity, -1.5);
+  chips.forEach((e, i) => { const k = K.spring(t - tChips - 0.45 - i * 0.12); e.style.opacity = K.clamp(k * 2); e.style.transform = `scale(${0.5 + 0.5 * k})`; });
+  K.pop($('cmt'), t, tCmt - 0.1, Infinity, 2);
+  K.pop($('fc'), t, tB + 0.35, Infinity, 1);
+  K.pop($('fol'), t, tFol, Infinity, -3);
+  K.pop($('sat'), t, tSat, Infinity, 2);
+  K.subtitles($('subs'), t);
+  K.weekly(t);
+}
+window.seek = seek;
+</script>
+</body>
+</html>

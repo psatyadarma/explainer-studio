@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Rangkumin Seminggu — chapter</title>
+<!-- ../../../../../../ is replaced by engine/weekly.py init with the path back to the repo root -->
+<link rel="stylesheet" href="../../../../../../styles/sticker/sticker.css">
+<link rel="stylesheet" href="../../../../../../styles/sticker/weekly/weekly.css">
+<script src="../../../../../../styles/sticker/sticker.js"></script>
+<script src="build/timing.js"></script>
+<script src="../../build/week.js"></script>
+<script src="../../../../../../styles/sticker/weekly/weekly.js"></script>
+<style>
+  .day { position:absolute; width:380px; height:330px; background:#fff; border-radius:28px; text-align:center; overflow:hidden; }
+  .day .dn { background:var(--accent); color:#fff; font-weight:800; font-size:40px; padding:14px 0; }
+  .day .dn.ink { background:var(--ink); }
+  .day .dd { font-weight:900; font-size:150px; letter-spacing:-5px; line-height:1.05; color:var(--ink); margin-top:14px; }
+  .day .dm { font-weight:800; font-size:40px; color:var(--slate); }
+  .what { font-weight:900; font-size:64px; letter-spacing:-1.5px; text-align:center; line-height:1.05; color:var(--ink); }
+  .note { font-weight:800; font-size:42px; text-align:center; color:var(--slate); }
+  .big { font-weight:900; font-size:170px; letter-spacing:-6px; color:var(--accent); text-align:center; line-height:1; }
+  .rng { position:absolute; height:70px; border-radius:35px; background:var(--slate); transform-origin:0 50%; }
+  .x { color:var(--accent); }
+</style>
+</head>
+<body>
+<div id="stage">
+  <div id="world">
+    <!-- ZONE A (x=960): konser Bocelli -->
+    <div id="hdr" class="abs" style="left:960px; top:220px;"><div class="tag accent" style="font-size:64px">Minggu depan</div></div>
+    <div id="dA1" class="abs" style="left:720px; top:480px;"><div class="day sticker" style="position:static"><div class="dn">SABTU</div><div class="dd">31</div><div class="dm">Oktober</div></div></div>
+    <div id="dA2" class="abs" style="left:1200px; top:480px;"><div class="day sticker" style="position:static"><div class="dn">SELASA</div><div class="dd">3</div><div class="dm">November</div></div></div>
+    <div id="wA" class="abs" style="left:960px; top:705px; width:1500px;"><div class="what" style="font-size:54px">Konser Andrea Bocelli <span style="color:var(--slate)">· Borobudur &amp; Jakarta</span></div></div>
+    <div id="nA1" class="abs" style="left:960px; top:795px;"><div class="tag light sticker" style="font-size:38px">Promotor: tetap jalan</div></div>
+    <div id="nA2" class="abs" style="left:960px; top:795px;"><div class="tag sticker" style="font-size:38px">MUI minta dibatalkan</div></div>
+
+    <!-- ZONE B (x=2960): upah minimum -->
+    <div id="dB" class="abs" style="left:2500px; top:440px;"><div class="day sticker" style="position:static"><div class="dn">MINGGU</div><div class="dd">1</div><div class="dm">November</div></div></div>
+    <div id="wB" class="abs" style="left:3250px; top:330px; width:900px;"><div class="what">Penetapan<br>upah minimum <span class="x">2027</span></div><div class="note" style="margin-top:14px">jadwal versi sejumlah media</div></div>
+    <div id="rB" class="abs" style="left:3250px; top:560px; width:880px;">
+      <div class="big" id="rNum" style="font-size:130px">7,5 – 9,5%</div>
+      <div class="note">tuntutan serikat buruh</div>
+    </div>
+    <div id="mB" class="abs" style="left:3250px; top:740px; width:880px;"><div class="tag accent sticker" style="font-size:38px; text-align:center; white-space:normal">Menaker Yassierli: pembahasan internal selesai akhir November</div></div>
+    <div id="qB" class="abs" style="left:2500px; top:700px;"><div class="tag sticker" style="font-size:44px;background:#fff;color:var(--accent)">belum tentu ada angka</div></div>
+
+    <!-- ZONE C (x=4960): 2 November -->
+    <div id="dC" class="abs" style="left:4520px; top:440px;"><div class="day sticker" style="position:static"><div class="dn">SENIN</div><div class="dd">2</div><div class="dm">November</div></div></div>
+    <div id="wC" class="abs" style="left:5240px; top:340px; width:900px;"><div class="what">Saham terlalu terpusat<br><span class="x">tidak dihitung di IHSG</span></div></div>
+    <div id="bC" class="abs" style="left:5240px; top:500px; width:900px;"><div class="note" style="color:var(--ink)">Awal November: BPS rilis inflasi Oktober</div></div>
+    <div id="sC" class="abs" style="left:5240px; top:610px;"><div class="tag light sticker" style="font-size:44px">Inflasi September</div></div>
+    <div id="nC" class="abs" style="left:5240px; top:730px;"><div class="big" id="inf" style="font-size:130px">0</div></div>
+
+    <!-- ZONE D (x=6960): sidang Roy Suryo -->
+    <div id="dD" class="abs" style="left:6600px; top:440px;"><div class="day sticker" style="position:static"><div class="dn">KAMIS</div><div class="dd">5</div><div class="dm">November</div></div></div>
+    <div id="wD" class="abs" style="left:7340px; top:340px; width:900px;"><div class="what">Sidang Roy Suryo<br><span style="font-size:48px;color:var(--slate)">PN Jakarta Timur</span></div></div>
+    <div id="jD" class="abs" style="left:7340px; top:560px;"><div class="tag sticker" style="font-size:44px">Jaksa panggil Jokowi sebagai saksi</div></div>
+    <div id="hD" class="abs" style="left:7340px; top:690px;"><div class="tag accent sticker" style="font-size:44px">Jokowi: akan hadir</div></div>
+  </div>
+  <div id="card"><div class="kicker" id="cKick"></div><div class="title" id="cTitle"></div><div class="sub" id="cSub"></div></div>
+  <div class="lower" id="lower1" style="bottom:auto; top:130px;">Jadwal minggu depan<small>sumber: pemberitaan media</small></div>
+  <div id="brand"><div class="dot"></div><b>Rangkumin Dong</b></div>
+  <div id="subs"></div>
+  <div id="progress"></div>
+</div>
+<script>
+window.CHAPTER = Number(location.pathname.split('/').slice(-2)[0]);
+const DATA = { inflasiSep: 3.28 };   // BPS inflation Sep, spoken in g5
+const $ = (id) => document.getElementById(id);
+const T = window.TIMING; window.DURATION = T.duration;
+const ch = (window.WEEK?.chapters || []).find((c) => c.n === window.CHAPTER) || {};
+$('cKick').textContent = ch.kicker || ''; $('cTitle').textContent = ch.title || ''; $('cSub').textContent = window.WEEK?.dates || '';
+const a = K.at, w = K.word;
+const tB = a('g3', -0.3), tC = a('g5', -0.3), tD = a('g6', -0.3);
+
+function seek(t) {
+  K.cam16($('world'), [
+    { t: 0, x: 960, y: 540, z: 1 },
+    { t: tB, x: 2960, y: 540, z: 1 },
+    { t: tC, x: 4960, y: 540, z: 1 },
+    { t: tD, x: 6960, y: 540, z: 1 }], t);
+  K.titleCard($('card'), t, 2.0);
+  // A
+  K.pop($('hdr'), t, 2.1);
+  K.pop($('dA1'), t, w('g2', 'sabtu'), Infinity, -3);
+  K.pop($('dA2'), t, w('g2', 'selasa'), Infinity, 3);
+  K.pop($('wA'), t, w('g2', 'konser'));
+  K.pop($('nA1'), t, w('g2', 'promotornya'), w('g2', 'meski'));
+  K.pop($('nA2'), t, w('g2', 'meski'));
+  // B
+  K.pop($('dB'), t, a('g3'), Infinity, -2);
+  K.pop($('wB'), t, w('g3', 'tanggal'));
+  K.pop($('rB'), t, w('g3', 'serikat'));
+  K.pop($('mB'), t, w('g4', 'tapi'), Infinity, -1);
+  K.pop($('qB'), t, w('g4', 'jadi', 0), Infinity, 2);
+  // C
+  K.pop($('dC'), t, a('g5'), Infinity, 2);
+  K.pop($('wC'), t, w('g5', 'saham'));
+  K.pop($('bC'), t, w('g5', 'awal'));
+  K.pop($('sC'), t, w('g5', 'september'));
+  K.pop($('nC'), t, w('g5', '3,28'));
+  const f = K.clamp(K.prog(t, w('g5', '3,28'), 0.9));
+  $('inf').textContent = (DATA.inflasiSep * f).toFixed(2).replace('.', ',') + '%';
+  // D
+  K.pop($('dD'), t, a('g6'), Infinity, -2);
+  K.pop($('wD'), t, w('g6', 'sidang'));
+  K.pop($('jD'), t, w('g6', 'jaksa'), Infinity, -1);
+  K.pop($('hD'), t, w('g6', 'dan'), Infinity, 1);
+  K.lower($('lower1'), t, 3.0, Math.max(3.1, T.duration - 1.0));
+  K.subtitles($('subs'), t);
+  K.weekly(t);
+}
+window.seek = seek;
+</script>
+</body>
+</html>

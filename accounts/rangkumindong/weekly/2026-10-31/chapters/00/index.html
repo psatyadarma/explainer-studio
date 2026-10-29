@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Rangkumin Seminggu — chapter</title>
+<!-- ../../../../../../ is replaced by engine/weekly.py init with the path back to the repo root -->
+<link rel="stylesheet" href="../../../../../../styles/sticker/sticker.css">
+<link rel="stylesheet" href="../../../../../../styles/sticker/weekly/weekly.css">
+<script src="../../../../../../styles/sticker/sticker.js"></script>
+<script src="build/timing.js"></script>
+<script src="../../build/week.js"></script>
+<script src="../../../../../../styles/sticker/weekly/weekly.js"></script>
+<style>
+
+  .big { font-weight:900; font-size:150px; letter-spacing:-4px; line-height:1; color:var(--accent); }
+  .card { position:absolute; width:560px; padding:34px 30px; border-radius:28px; background:#fff; color:#111; box-shadow:0 12px 0 rgba(0,0,0,.25); text-align:center; font-weight:900; font-size:54px; line-height:1.1; }
+  .card small { display:block; margin-top:10px; font-size:34px; font-weight:700; color:#555; }
+  .card b { display:block; font-size:92px; letter-spacing:-3px; color:var(--accent); }
+  .day { position:absolute; width:150px; height:150px; border-radius:22px; background:#fff; color:#111; font-weight:900; font-size:76px; line-height:150px; text-align:center; }
+  .day.hi { background:var(--accent); color:#fff; }
+</style>
+</head>
+<body>
+<div id="stage">
+  <div id="world">
+    <div class="abs" id="a1" style="left:960px; top:430px; width:1700px; text-align:center;"><div class="big">Seminggu ini rame lagi</div></div>
+    <div class="abs" id="a2" style="left:960px; top:640px; text-align:center;"><div class="tag light sticker" style="font-size:60px;">Kamu ketinggalan yang mana?</div></div>
+    <div class="card" id="b1" style="left:2300px; top:430px;">IHSG<small>jatuh lagi</small></div>
+    <div class="card" id="b2" style="left:2960px; top:560px;">Minyak<b>&gt; 115</b><small>dolar</small></div>
+    <div class="card" id="b3" style="left:3620px; top:430px;">Definisi korupsi<small>mau diperluas</small></div>
+    <div class="card" id="c1" style="left:4300px; top:430px;">Asap<b>1.700</b><small>penerbangan batal</small></div>
+    <div class="card" id="c2" style="left:4960px; top:560px;">KPK<small>di kantor Djarum</small></div>
+    <div class="card" id="c3" style="left:5620px; top:430px;">Demo mahasiswa<small>Hari Sumpah Pemuda</small></div>
+    <div class="abs" id="d0" style="left:6960px; top:250px; text-align:center;"><span class="tag light sticker" style="font-size:60px;">24 sampai 30 Oktober</span></div>
+    
+    <div class="card" id="d1" style="left:6960px; top:650px; width:760px;">Minggu depan<small>upah minimum: belum tentu terjadi</small></div>
+  </div>
+  <div id="card"><div class="kicker" id="cKick"></div><div class="title" id="cTitle"></div><div class="sub" id="cSub"></div></div>
+  <div class="lower" id="lower1">Pekan ini<small>24–30 Okt</small></div>
+  <div id="brand"><div class="dot"></div><b>Rangkumin Dong</b></div>
+  <div id="subs"></div>
+  <div id="progress"></div>
+</div>
+<script>
+// ---- chapter data (the chapter-builder replaces this block; every number must be in the script and verified) ----
+window.CHAPTER = Number(location.pathname.split('/').slice(-2)[0]);
+const $ = (id) => document.getElementById(id);
+const T = window.TIMING; window.DURATION = T.duration;
+const ch = (window.WEEK?.chapters || []).find((c) => c.n === window.CHAPTER) || {};
+$('cKick').textContent = ch.kicker || ''; $('cTitle').textContent = ch.title || ''; $('cSub').textContent = window.WEEK?.dates || '';
+// calendar: 24..30 Oktober (spoken: "24 sampai 30 Oktober")
+const days = [];
+for (let d = 24; d <= 30; d++) {
+  const e = document.createElement('div'); e.className = 'day' + (d === 24 || d === 30 ? ' hi' : ''); e.textContent = d;
+  e.style.left = (6960 + (d - 27) * 200) + 'px'; e.style.top = '440px'; $('world').appendChild(e); days.push(e);
+}
+const W = (id, w, n = 0) => K.word(id, w, n);
+const tA = 0.4, tB = K.at('i2', -0.3), tC = K.at('i3', -0.3), tD = K.at('i4', -0.4);
+const cues = {
+  a1: 0.9, a2: K.at('i1', 1.7),
+  b1: K.at('i2'), b2: W('i2', 'Minyak'), b3: W('i2', 'Definisi'),
+  c1: W('i3', 'asap'), c2: W('i3', 'KPK'), c3: W('i3', 'demo'),
+  d0: K.at('i4'), d1: W('i4', 'satu'),
+};
+function seek(t) {
+  K.cam16($('world'), [{ t: 0, x: 960, y: 540, z: 1 }, { t: tB, x: 2960, y: 540, z: 1 }, { t: tC, x: 4960, y: 540, z: 1 }, { t: tD, x: 6960, y: 540, z: 1 }], t);
+  K.titleCard($('card'), t, 2.0);
+  Object.entries(cues).forEach(([id, c]) => K.pop($(id), t, Math.max(c, id === 'a1' ? 2.1 : 0)));
+  days.forEach((e, i) => K.pop(e, t, K.at('i4', 1.4) + i * 0.12 + (i >= 1 ? 0 : 0)));
+  K.lower($('lower1'), t, 3.0, Math.max(3.1, T.duration - 1.0));
+  K.subtitles($('subs'), t);
+  K.weekly(t);
+}
+window.seek = seek;
+</script>
+</body>
+</html>

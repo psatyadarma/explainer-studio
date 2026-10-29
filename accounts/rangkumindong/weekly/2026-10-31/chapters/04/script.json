@@ -1,0 +1,63 @@
+{
+ "direction": "[warm, clear weekly recap; neutral, attributed]",
+ "lines": [
+  {
+   "id": "c1",
+   "tag": "[serious]",
+   "text": "Rabu kemarin kami hitung: 1.700 penerbangan batal gara-gara asap.",
+   "say": "Rabu kemarin kami hitung: seribu tujuh ratus penerbangan batal gara-gara asap."
+  },
+  {
+   "id": "c2",
+   "tag": "[matter-of-fact]",
+   "text": "Data Kemenhub: 14 Agustus sampai 25 Oktober, 3.030 penerbangan terganggu, di 154 rute. Rata-rata, sekitar 23 batal setiap hari. Itu hitungan kami.",
+   "say": "Data Kemenhub: empat belas Agustus sampai dua puluh lima Oktober, tiga ribu tiga puluh penerbangan terganggu, di seratus lima puluh empat rute. Rata-rata, sekitar dua puluh tiga batal setiap hari. Itu hitungan kami."
+  },
+  {
+   "id": "c3",
+   "tag": "[reassuring]",
+   "text": "Kabar baiknya: titik panas turun. Kata Kementerian Kehutanan, Selasa malam tinggal 79 titik, dari 93 sehari sebelumnya.",
+   "say": "Kabar baiknya: titik panas turun. Kata Kementerian Kehutanan, Selasa malam tinggal tujuh puluh sembilan titik, dari sembilan puluh tiga sehari sebelumnya."
+  },
+  {
+   "id": "c4",
+   "tag": "[reassuring]",
+   "text": "Di enam provinsi prioritas, termasuk Kalbar, Kalteng, dan Riau: nol."
+  },
+  {
+   "id": "c5",
+   "tag": "[matter-of-fact]",
+   "text": "Kamis pagi, BNPB catat 462 hektare lahan terdampak karhutla yang masih ditangani, di 10 provinsi, termasuk 169 hektare di Kalimantan Timur.",
+   "say": "Kamis pagi, Be En Pe Be catat empat ratus enam puluh dua hektare lahan terdampak karhutla yang masih ditangani, di sepuluh provinsi, termasuk seratus enam puluh sembilan hektare di Kalimantan Timur."
+  },
+  {
+   "id": "c6",
+   "tag": "[explaining]",
+   "text": "Hujan? Kata BMKG, musim hujan telat sekitar 20 sampai 30 hari, gara-gara El Nino.",
+   "say": "Hujan? Kata, Be Em Ka Ge, musim hujan telat sekitar dua puluh sampai tiga puluh hari, gara-gara El Nino."
+  },
+  {
+   "id": "c7",
+   "tag": "[leaning in]",
+   "text": "Tapi di sisi hukum, angkanya naik. Kamis, Bareskrim menetapkan 245 orang dan 20 korporasi sebagai tersangka.",
+   "say": "Tapi di sisi hukum, angkanya naik. Kamis, Bareskrim menetapkan dua ratus empat puluh lima orang, dan dua puluh korporasi, sebagai tersangka."
+  },
+  {
+   "id": "c8",
+   "tag": "[matter-of-fact]",
+   "text": "Luas lahan di kasus-kasus itu: sekitar 35 ribu hektare.",
+   "say": "Luas lahan di kasus-kasus itu: sekitar tiga puluh lima ribu hektare."
+  },
+  {
+   "id": "c9",
+   "tag": "[somber]",
+   "text": "Dan di Toraja Utara, seorang polisi hutan meninggal, tertimpa pohon tumbang, usai membantu memadamkan api."
+  },
+  {
+   "id": "c10",
+   "tag": "[careful]",
+   "text": "Ingat: tersangka belum tentu bersalah. Itu diputuskan pengadilan."
+  }
+ ],
+ "tail": 0.6
+}

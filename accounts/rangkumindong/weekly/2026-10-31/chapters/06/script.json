@@ -1,0 +1,53 @@
+{
+ "direction": "[warm, clear weekly recap; neutral, attributed]",
+ "lines": [
+  {
+   "id": "p1",
+   "tag": "[neutral, storytelling]",
+   "text": "Satu cerita yang belum kami bahas di video harian: Rabu, 28 Oktober, Hari Sumpah Pemuda.",
+   "say": "Satu cerita yang belum kami bahas di video harian: Rabu, dua puluh delapan Oktober, Hari Sumpah Pemuda."
+  },
+  {
+   "id": "p2",
+   "tag": "[neutral, reporting]",
+   "text": "Mahasiswa dari banyak kampus, termasuk BEM UI, bersama koalisi masyarakat sipil SADAR, turun ke Bundaran HI dan Patung Kuda, Jakarta.",
+   "say": "Mahasiswa dari banyak kampus, termasuk Bem U I, bersama koalisi masyarakat sipil, Sadar, turun ke Bundaran Ha I dan Patung Kuda, Jakarta."
+  },
+  {
+   "id": "p3",
+   "tag": "[neutral]",
+   "text": "Menurut BEM UI, mereka membawa lima tuntutan untuk Presiden Prabowo dan Wakil Presiden Gibran.",
+   "say": "Menurut Bem U I, mereka membawa lima tuntutan untuk Presiden Prabowo dan Wakil Presiden Gibran."
+  },
+  {
+   "id": "p4",
+   "tag": "[explaining, quick]",
+   "text": "Satu: status bencana nasional untuk karhutla. Dua: kaji ulang APBN 2027, termasuk menghentikan program MBG dan Koperasi Desa Merah Putih.",
+   "say": "Satu: status bencana nasional untuk karhutla. Dua: kaji ulang A Pe Be En dua ribu dua puluh tujuh, termasuk menghentikan program Em Be Ge, dan Koperasi Desa Merah Putih."
+  },
+  {
+   "id": "p5",
+   "tag": "[explaining, quick]",
+   "text": "Tiga: biaya pendidikan diturunkan. Empat: berantas korupsi dan reformasi hukum. Lima: kebebasan berekspresi, dan hentikan militerisasi ruang sipil.",
+   "say": "Tiga: biaya pendidikan diturunkan. Empat: berantas korupsi, dan reformasi hukum. Lima: kebebasan berekspresi, dan hentikan militerisasi ruang sipil."
+  },
+  {
+   "id": "p6",
+   "tag": "[matter-of-fact]",
+   "text": "Berapa yang ikut? Kata BEM UI, 10 sampai 12 ribu orang. Angka dari polisi belum kami temukan.",
+   "say": "Berapa yang ikut? Kata Bem U I, sepuluh sampai dua belas ribu orang. Angka dari polisi belum kami temukan."
+  },
+  {
+   "id": "p7",
+   "tag": "[matter-of-fact]",
+   "text": "Polda Metro Jaya mencatat 53 aksi unjuk rasa di Jakarta hari itu. Aksi di Bundaran HI mulai pukul 2 siang, dan bubar sekitar pukul 19.45. Polisi menyebut aksinya tertib.",
+   "say": "Polda Metro Jaya mencatat lima puluh tiga aksi unjuk rasa di Jakarta hari itu. Aksi di Bundaran Ha I mulai pukul dua siang, dan bubar sekitar pukul tujuh empat puluh lima malam. Polisi menyebut aksinya tertib."
+  },
+  {
+   "id": "p8",
+   "tag": "[neutral, reporting]",
+   "text": "Dari pemerintah: Kepala Staf Kepresidenan, Listyo Sigit Prabowo, bilang siap menampung aspirasi dari perwakilan mahasiswa."
+  }
+ ],
+ "tail": 0.6
+}

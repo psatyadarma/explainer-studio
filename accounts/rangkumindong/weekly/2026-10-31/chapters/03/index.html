@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Rangkumin Seminggu — chapter</title>
+<!-- ../../../../../../ is replaced by engine/weekly.py init with the path back to the repo root -->
+<link rel="stylesheet" href="../../../../../../styles/sticker/sticker.css">
+<link rel="stylesheet" href="../../../../../../styles/sticker/weekly/weekly.css">
+<script src="../../../../../../styles/sticker/sticker.js"></script>
+<script src="build/timing.js"></script>
+<script src="../../build/week.js"></script>
+<script src="../../../../../../styles/sticker/weekly/weekly.js"></script>
+<style>
+  .c { background:#fff; color:var(--ink); border-radius:26px; padding:22px 34px; font-weight:900; font-size:56px; line-height:1.12; text-align:center; white-space:nowrap; box-shadow:0 0 0 9px #fff,0 18px 26px rgba(27,36,48,.22); }
+  .c small { display:block; font-weight:700; font-size:36px; color:var(--slate); margin-top:6px; }
+  .c.dark { background:var(--ink); color:#fff; } .c.dark small { color:#cdd6df; }
+  .c.acc { background:var(--accent); color:#fff; } .c.acc small { color:#fff; }
+  .c.q { white-space:normal; font-size:50px; font-weight:800; text-align:left; line-height:1.2; }
+  .c b { color:var(--accent); } .c.dark b { color:var(--hi); }
+  .lower { top:130px; bottom:auto; }
+  .arrow { font-weight:900; font-size:110px; color:var(--accent); line-height:1; }
+  .big { font-weight:900; font-size:230px; color:var(--accent); line-height:1; }
+</style>
+</head>
+<body>
+<div id="stage">
+  <div id="world"></div>
+  <div id="card"><div class="kicker" id="cKick"></div><div class="title" id="cTitle"></div><div class="sub" id="cSub"></div></div>
+  <div class="lower" id="lower1">Kata Yusril<small>Pernyataan, belum keputusan resmi</small></div>
+  <div id="brand"><div class="dot"></div><b>Rangkumin Dong</b></div>
+  <div id="subs"></div>
+  <div id="progress"></div>
+</div>
+<script>
+// ---- chapter data: only text and dates that are spoken in this chapter's script ----
+window.CHAPTER = Number(location.pathname.split('/').slice(-2)[0]);
+// -----------------------------------------------------------------------------------------------
+const $ = (id) => document.getElementById(id);
+const T = window.TIMING; window.DURATION = T.duration;
+const ch = (window.WEEK?.chapters || []).find((c) => c.n === window.CHAPTER) || {};
+$('cKick').textContent = ch.kicker || ''; $('cTitle').textContent = ch.title || ''; $('cSub').textContent = window.WEEK?.dates || '';
+const world = $('world');
+const w = (id, word, n = 0) => K.word(id, word, n);
+const items = [];
+function add(x, y, html, cls, tIn, o = {}) {
+  const e = document.createElement('div'); e.className = 'abs ' + (o.raw ? '' : 'c ') + (cls || '');
+  e.style.left = x + 'px'; e.style.top = y + 'px'; if (o.w) e.style.width = o.w + 'px'; if (o.fs) e.style.fontSize = o.fs + 'px';
+  e.innerHTML = html; world.appendChild(e); items.push({ e, tIn, tOut: o.out ?? Infinity, rot: o.rot || 0 }); return e;
+}
+const X = { A: 960, B: 2960, C: 4960, D: 6960, E: 8960, F: 10960, G: 12960, H: 14960 };
+
+// A  d1-d2: the question, then the Palace
+add(X.A, 400, 'Uang negara hilang', 'dark', 2.1, { out: w('d2', 'senin') - 0.1, fs: 84 });
+add(X.A, 570, 'pasti dihitung korupsi?', 'acc', w('d1', 'pasti'), { out: w('d2', 'senin') - 0.1, fs: 84, rot: -2 });
+add(X.A, 190, 'Senin, 26 Oktober', 'dark', w('d2', 'senin'), { fs: 60 });
+add(X.A - 400, 400, 'Yusril', '', w('d2', 'yusril'));
+add(X.A, 400, '<span class="arrow">&rarr;</span>', '', w('d2', 'dipanggil'), { raw: 1 });
+add(X.A + 400, 400, 'Istana', 'dark', w('d2', 'istana'));
+add(X.A, 640, 'Presiden minta definisi korupsi <b>dikaji lebih mendalam</b><small>kata Yusril</small>', 'q', w('d2', 'presiden'), { w: 1250 });
+
+// B  d3: state-loss element
+add(X.B, 220, 'Presiden menilai', 'dark', w('d3', 'presiden'), { fs: 60 });
+add(X.B, 430, 'Unsur <b>kerugian negara</b>', '', w('d3', 'unsur'), { fs: 96, w: 1250 });
+add(X.B, 650, 'tidak boleh dilupakan', 'acc', w('d3', 'tidak'), { fs: 84, rot: -2 });
+
+// C  d4: DEN study
+add(X.C, 150, 'Selasa', 'dark', w('d4', 'selasa'), { fs: 56 });
+add(X.C + 540, 330, 'Yusril', '', w('d4', 'yusril'));
+add(X.C, 330, '<small style="margin:0 0 4px">Hasil kajian</small>DEN', 'dark', w('d4', 'hasil'), { fs: 76 });
+add(X.C - 540, 330, 'Luhut', '', w('d4', 'luhut'));
+add(X.C - 270, 330, '<span class="arrow">&rarr;</span>', '', w('d4', 'luhut'), { raw: 1 });
+add(X.C + 270, 330, '<span class="arrow">&rarr;</span>', '', w('d4', 'dari'), { raw: 1 });
+add(X.C - 370, 620, 'Definisi korupsi<small>DIPERLUAS</small>', 'acc', w('d4', 'definisi', 1), { w: 620, fs: 54 });
+add(X.C + 370, 620, 'Kerugian negara<small>TIDAK DIHAPUS</small>', 'dark', w('d4', 'unsur'), { w: 620, fs: 54 });
+
+// D  d5: Pasal 2 & 3
+add(X.D - 500, 300, 'Pasal 2', '', w('d5', '2'), { fs: 80 });
+add(X.D - 130, 300, 'Pasal 3', '', w('d5', '3'), { fs: 80 });
+add(X.D - 315, 160, 'UU Tipikor', 'dark', w('d5', 'uu'), { fs: 48 });
+add(X.D + 170, 300, '<span class="arrow">&rarr;</span>', '', w('d5', 'pindah'), { raw: 1 });
+add(X.D + 520, 300, 'KUHP baru<small>sejak Januari</small>', 'dark', w('d5', 'kuhp'), { fs: 66 });
+add(X.D, 600, '&ldquo;pasal sapu jagat&rdquo;<small>sebutan Yusril</small>', 'acc', w('d5', 'pasal', 1), { fs: 84, rot: -3 });
+
+// E  d6: one definition of state finances
+add(X.E, 190, 'Tujuan: satu definisi keuangan negara', 'dark', w('d6', 'tujuannya'), { fs: 56, w: 1300 });
+add(X.E - 560, 460, 'UU BPK', '', w('d6', 'bpk'), { fs: 64 });
+add(X.E - 250, 460, '<span class="arrow" style="font-size:90px">&ne;</span>', '', w('d6', 'isinya'), { raw: 1 });
+add(X.E + 280, 460, 'UU Perbendaharaan Negara', '', w('d6', 'perbendaharaan'), { fs: 50 });
+add(X.E - 300, 690, '&ldquo;Perekonomian negara&rdquo;', '', w('d6', 'perekonomian'), { fs: 56 });
+add(X.E + 390, 690, 'Belum diputuskan', 'acc', w('d6', 'belum'), { fs: 56, rot: -2 });
+
+// F  d7: Ahmad Irawan wants wider offences
+add(X.F - 330, 210, 'Ahmad Irawan<small>Golkar, anggota Baleg DPR</small>', '', w('d7', 'ahmad'), { fs: 60 });
+add(X.F + 330, 210, 'Mendukung revisi', 'acc', w('d7', 'mendukung'), { fs: 56 });
+add(X.F, 375, 'Ingin deliknya diperluas', 'dark', w('d7', 'ingin'), { fs: 52 });
+add(X.F, 500, 'Perdagangan pengaruh', '', w('d7', 'perdagangan'), { fs: 50, w: 1000 });
+add(X.F, 610, 'Memperkaya diri secara tidak sah', '', w('d7', 'memperkaya'), { fs: 50, w: 1000 });
+add(X.F, 720, 'Under-invoicing', '', w('d7', 'under'), { fs: 50, w: 1000 });
+
+// G  d8: last week's objections, this week's caution
+add(X.G - 480, 200, 'Minggu lalu: keberatan', 'dark', w('d8', 'minggu'), { fs: 48, w: 640 });
+add(X.G - 480, 330, 'Ketua KPK', '', w('d8', 'ketua'), { fs: 48, w: 640 });
+add(X.G - 480, 450, 'ICW', '', w('d8', 'icw'), { fs: 48, w: 640 });
+add(X.G - 480, 570, 'Dua anggota DPR dari PKS', '', w('d8', 'dua'), { fs: 42, w: 640 });
+add(X.G + 480, 200, 'Minggu ini', 'acc', w('d8', 'minggu', 1), { fs: 48, w: 640 });
+add(X.G + 480, 330, 'Hardjuno Wiwoho<small>pengamat hukum</small>', '', w('d8', 'hardjuno'), { fs: 54, w: 760 });
+add(X.G + 480, 530, 'Perlindungan keputusan bisnis jangan jadi <b>celah menghindari tanggung jawab</b>', 'q', w('d8', 'perlindungan'), { fs: 40, w: 780 });
+
+// H  d9: status
+add(X.H, 220, 'Statusnya', 'dark', w('d9', 'statusnya'), { fs: 60 });
+add(X.H, 410, 'Masuk Prolegnas?  <b>BELUM</b>', '', w('d9', 'belum'), { fs: 66, w: 1000 });
+add(X.H, 600, 'Draf RUU diumumkan?  <b>BELUM</b>', '', w('d9', 'draf'), { fs: 66, w: 1000 });
+
+const cam = [{ t: 0, x: X.A, y: 540, z: 1 }];
+[['d3', 'B'], ['d4', 'C'], ['d5', 'D'], ['d6', 'E'], ['d7', 'F'], ['d8', 'G'], ['d9', 'H']].forEach(([id, z]) => cam.push({ t: K.at(id) - 0.4, x: X[z], y: 540, z: 1, dur: 0.8 }));
+
+function seek(t) {
+  K.cam16(world, cam, t);
+  K.titleCard($('card'), t, 2.0);
+  items.forEach((i) => K.pop(i.e, t, i.tIn, i.tOut, i.rot));
+  K.lower($('lower1'), t, 6.0, 18.0);
+  K.subtitles($('subs'), t);
+  K.weekly(t);
+}
+window.seek = seek;
+</script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+{
+ "direction": "[warm, clear weekly recap; neutral, attributed]",
+ "lines": [
+  {
+   "id": "b1",
+   "tag": "[curious]",
+   "text": "Senin kemarin kami tanya: minyak dunia tembus 115 dolar, siapa yang nombok?",
+   "say": "Senin kemarin kami tanya: minyak dunia tembus seratus lima belas dolar, siapa yang nombok?"
+  },
+  {
+   "id": "b2",
+   "tag": "[serious]",
+   "text": "Jumat, 23 Oktober, minyak Brent di atas 115 dolar per barel. Tertinggi dalam 5 bulan.",
+   "say": "Jumat, dua puluh tiga Oktober, minyak Brent di atas seratus lima belas dolar per barel. Tertinggi dalam lima bulan."
+  },
+  {
+   "id": "b3",
+   "tag": "[explaining]",
+   "text": "Senin, turun tipis ke 115,81 dolar. Masih jauh di atas asumsi APBN 2026: 70 dolar.",
+   "say": "Senin, turun tipis ke seratus lima belas koma delapan satu dolar. Masih jauh di atas asumsi A Pe Be En dua ribu dua puluh enam: tujuh puluh dolar."
+  },
+  {
+   "id": "b4",
+   "tag": "[reassuring]",
+   "text": "Tapi di SPBU, Pertalite tetap Rp10.000 per liter.",
+   "say": "Tapi di Es Pe Be U, Pertalite tetap sepuluh ribu rupiah per liter."
+  },
+  {
+   "id": "b5",
+   "tag": "[explaining]",
+   "text": "Selisihnya ditanggung APBN, lewat subsidi dan kompensasi, terutama ke Pertamina dan PLN.",
+   "say": "Selisihnya ditanggung A Pe Be En, lewat subsidi dan kompensasi, terutama ke Pertamina dan Pe El En."
+  },
+  {
+   "id": "b6",
+   "tag": "[punchy]",
+   "text": "Sampai September, totalnya Rp376,8 triliun. Naik sekitar 54 persen dibanding tahun lalu.",
+   "say": "Sampai September, totalnya tiga ratus tujuh puluh enam koma delapan triliun rupiah. Naik sekitar lima puluh empat persen, dibanding tahun lalu."
+  },
+  {
+   "id": "b7",
+   "tag": "[leaning in]",
+   "text": "Tapi APBN juga dibiayai utang, lewat surat utang negara, SUN. Dan Selasa, lelangnya sepi.",
+   "say": "Tapi A Pe Be En juga dibiayai utang, lewat surat utang negara, Es U En. Dan Selasa, lelangnya sepi."
+  },
+  {
+   "id": "b8",
+   "tag": "[serious]",
+   "text": "Penawarannya cuma Rp31,09 triliun, terendah sejak November 2024. Yang diserap Rp20,65 triliun, dari target Rp30 triliun.",
+   "say": "Penawarannya cuma tiga puluh satu koma nol sembilan triliun rupiah, terendah sejak November dua ribu dua puluh empat. Yang diserap dua puluh koma enam lima triliun, dari target tiga puluh triliun."
+  },
+  {
+   "id": "b9",
+   "tag": "[explaining]",
+   "text": "Imbal hasil SUN sekitar 10 tahun naik ke 7,54 persen, tertinggi sejak November 2022. Artinya, ngutang baru makin mahal buat negara.",
+   "say": "Imbal hasil Es U En sekitar sepuluh tahun naik ke tujuh koma lima empat persen, tertinggi sejak November dua ribu dua puluh dua. Artinya, ngutang baru makin mahal buat negara."
+  },
+  {
+   "id": "b11",
+   "tag": "[curious]",
+   "text": "Menurut kamu, sampai kapan harga Pertalite bisa ditahan?"
+  }
+ ],
+ "tail": 0.6
+}

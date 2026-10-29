@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Rangkumin Seminggu — chapter</title>
+<!-- ../../../../../../ is replaced by engine/weekly.py init with the path back to the repo root -->
+<link rel="stylesheet" href="../../../../../../styles/sticker/sticker.css">
+<link rel="stylesheet" href="../../../../../../styles/sticker/weekly/weekly.css">
+<script src="../../../../../../styles/sticker/sticker.js"></script>
+<script src="build/timing.js"></script>
+<script src="../../build/week.js"></script>
+<script src="../../../../../../styles/sticker/weekly/weekly.js"></script>
+<style>
+  #world .abs { width: max-content; }
+  .lower { bottom: 250px; }
+  .stat { font-weight: 900; font-size: 190px; letter-spacing: -6px; color: var(--accent); line-height: 1; }
+  .card { background: #fff; border-radius: 28px; padding: 26px 36px; font-weight: 900; font-size: 52px; line-height: 1.12; text-align: center; letter-spacing: -1px; }
+  .card small { display: block; font-weight: 700; font-size: 32px; color: var(--slate); letter-spacing: 0; margin-top: 8px; }
+  .big { font-weight: 900; font-size: 96px; letter-spacing: -3px; line-height: 1.02; text-align: center; white-space: nowrap; }
+  .big .acc { color: var(--accent); }
+  .pack { width: 230px; height: 310px; background: #fff; border-radius: 18px; border: 8px solid var(--ink); position: relative; overflow: hidden; }
+  .pack .strip { position: absolute; left: 0; right: 0; top: 40px; height: 78px; background: var(--accent); color: #fff; font-weight: 900; font-size: 30px; display: flex; align-items: center; justify-content: center; letter-spacing: 1px; }
+  .pack .lines { position: absolute; left: 28px; right: 28px; top: 160px; height: 90px; background: repeating-linear-gradient(var(--paper-2) 0 12px, transparent 12px 28px); }
+  .arrow { font-weight: 900; font-size: 90px; color: var(--accent); }
+  .quote { background: #fff; border-radius: 28px; padding: 30px 44px; font-weight: 800; font-size: 56px; line-height: 1.15; text-align: center; max-width: 1100px; }
+  .quote small { display: block; font-weight: 700; font-size: 32px; color: var(--slate); margin-top: 12px; }
+</style>
+</head>
+<body>
+<div id="stage">
+  <div id="world"></div>
+  <div id="card"><div class="kicker" id="cKick"></div><div class="title" id="cTitle"></div><div class="sub" id="cSub"></div></div>
+  <div class="lower" id="lower1">Sumber<small>keterangan</small></div>
+  <div id="brand"><div class="dot"></div><b>Rangkumin Dong</b></div>
+  <div id="subs"></div>
+  <div id="progress"></div>
+</div>
+<script>
+// ---- chapter data (every number is spoken in the script and verified in claims.json: 28 Oktober, 8 tersangka/terdakwa) ----
+window.CHAPTER = Number(location.pathname.split('/').slice(-2)[0]);
+const DATA = { date: 'Rabu, 28 Oktober', parent: 8 };
+// -----------------------------------------------------------------------------------------------
+const $ = (id) => document.getElementById(id);
+const T = window.TIMING; window.DURATION = T.duration;
+const ch = (window.WEEK?.chapters || []).find((c) => c.n === window.CHAPTER) || {};
+$('cKick').textContent = ch.kicker || ''; $('cTitle').textContent = ch.title || ''; $('cSub').textContent = window.WEEK?.dates || '';
+$('lower1').innerHTML = 'Sumber<small>Jubir KPK · detik · CNN Indonesia · Antara</small>';
+const ZX = (i) => 960 + 2000 * i;
+const world = $('world');
+const items = [];
+// add an absolutely positioned element at zone i, offset (dx, y); pops in at tIn
+function add(zone, dx, y, html, cls, tIn, rot = 0) {
+  const e = document.createElement('div'); e.className = 'abs ' + cls; e.innerHTML = html;
+  e.style.left = (ZX(zone) + dx) + 'px'; e.style.top = y + 'px'; world.appendChild(e);
+  const it = { e, tIn: Math.max(2.15, tIn), rot }; items.push(it); return e;
+}
+const W = K.word, A = K.at;
+// ZONE 0 (k1-k2): the question + the raid
+add(0, 0, 230, '<div class="big">Kenapa <span class="acc">KPK</span> geledah Djarum?</div>', '', W('k1', 'kenapa'));
+add(0, -400, 560, '<div class="pack sticker"><div class="strip">PITA CUKAI</div><div class="lines"></div></div>', '', W('k1', 'pita'), -5);
+add(0, 330, 470, DATA.date, 'tag accent sticker', W('k2', '28'), 2);
+add(0, 330, 600, 'PT Djarum', 'tag sticker', W('k2', 'djarum'), -2);
+add(0, 330, 730, 'Bea Cukai · Kudus', 'tag light sticker', W('k2', 'bea'), 1.5);
+// ZONE 1 (k3): what the stamp is
+add(1, 0, 230, '<div class="stamp sticker" style="font-size:96px">Cukai sudah dilunasi</div>', '', W('k3', 'dilunasi') - 1.6, -2);
+add(1, -560, 560, 'Pabrik pesan<small>ke Bea Cukai</small>', 'card sticker', W('k3', 'pabrik'), -2);
+add(1, 0, 560, 'Tempel pita<small>wajib, di bungkus</small>', 'card sticker', W('k3', 'menempelnya'), 1.5);
+add(1, 560, 560, 'Rokok keluar<small>dari pabrik</small>', 'card sticker', W('k3', 'keluar'), -1.5);
+add(1, -280, 560, '→', 'arrow', W('k3', 'menempelnya') - 0.2);
+add(1, 280, 560, '→', 'arrow', W('k3', 'keluar') - 0.2);
+// ZONE 2 (k4): what KPK is digging into
+add(2, 0, 220, 'Jubir KPK<small>Budi Prasetyo</small>', 'card sticker', W('k4', 'jubir'), -1.5);
+add(2, 0, 470, 'Dugaan <span style="color:var(--accent)">kickback</span><small>dari pengurusan pita cukai</small>', 'card sticker', W('k4', 'didalami'), 1);
+add(2, -300, 720, 'Disita:', 'tag accent sticker', W('k4', 'disita'), -2);
+add(2, 20, 720, 'Dokumen', 'tag sticker', W('k4', 'dokumen'), 2);
+add(2, 420, 720, 'Barang bukti elektronik', 'tag light sticker', W('k4', 'barang'), -1.5);
+// ZONE 3 (k5): the number that was not given
+add(3, 0, 200, 'Kamis', 'tag sticker', A('k5', 0.1), -2);
+add(3, 0, 360, 'Hitungan awal kerugian negara', 'tag light sticker', W('k5', 'hitungan'), 1);
+add(3, 0, 540, 'Triliunan rupiah', 'stamp sticker', W('k5', 'triliunan'), -2);
+add(3, 0, 740, 'Angka pastinya: belum disebut', 'tag accent sticker', W('k5', 'angka', 1), 1.5);
+// ZONE 4 (k6): parent case
+add(4, 480, 300, 'Pengembangan<small>kasus pita cukai</small>', 'card sticker', W('k6', 'pengembangan'), 1.5);
+add(4, -480, 300, 'Kasus induk<small>dugaan suap impor di Bea Cukai</small>', 'card sticker', W('k6', 'suap'), -1.5);
+add(4, 0, 300, '←', 'arrow', W('k6', 'pengembangan') + 0.1);
+add(4, -480, 470, 'OTT Februari', 'tag accent sticker', W('k6', 'februari'), 2);
+const statEl = add(4, -480, 620, '<div class="stat" id="statNum">0</div>', '', W('k6', 'delapan') - 0.1);
+add(4, -480, 780, 'tersangka dan terdakwa', 'tag light sticker', W('k6', 'delapan') + 0.2, -1);
+// ZONE 5 (k7-k9): no suspect yet, response, caution
+add(5, 0, 220, 'Belum ada tersangka', 'stamp sticker', W('k7', 'belum'), -2);
+add(5, 0, 340, 'Termasuk Djarum', 'tag sticker', W('k7', 'termasuk'), 1.5);
+add(5, 0, 560, '“Kami menghormati dan menaati hukum.”<small>Djarum Group</small>', 'quote sticker', W('k8', 'djarum'), -1);
+add(5, 0, 760, 'Digeledah ≠ bersalah', 'tag accent sticker', W('k9', 'ingat'), 1.5);
+const camKeys = [{ t: 0, x: ZX(0), y: 540, z: 1 }];
+['k3', 'k4', 'k5', 'k6', 'k7'].forEach((id, i) => camKeys.push({ t: A(id) - 0.15, x: ZX(i + 1), y: 540, z: 1 }));
+
+function seek(t) {
+  K.cam16(world, camKeys, t);
+  items.forEach((it) => K.pop(it.e, t, it.tIn, Infinity, it.rot));
+  const n = document.getElementById('statNum');
+  if (n) n.textContent = Math.round(DATA.parent * K.easeOut(K.prog(t, W('k6', 'delapan') - 0.1, 0.9)));
+  K.titleCard($('card'), t, 2.0);
+  K.lower($('lower1'), t, 3.0, 10.0);
+  K.subtitles($('subs'), t);
+  K.weekly(t);
+}
+window.seek = seek;
+</script>
+</body>
+</html>

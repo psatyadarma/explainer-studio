@@ -406,5 +406,53 @@
 "shares": 0,
 "saves": null,
 "follows": 0
+},
+{
+"date": "2026-10-29",
+"folder": "videos/2026-10-28-asap-1700-penerbangan-batal",
+"platform": "instagram",
+"hours": 24,
+"views": 370,
+"avg_watch_pct": 29.4,
+"hold_3s_pct": null,
+"shares": 4,
+"saves": 0,
+"follows": null
+},
+{
+"date": "2026-10-29",
+"folder": "videos/2026-10-28-asap-1700-penerbangan-batal",
+"platform": "youtube",
+"hours": 24,
+"views": 319,
+"avg_watch_pct": null,
+"hold_3s_pct": null,
+"shares": 0,
+"saves": null,
+"follows": 0
+},
+{
+"date": "2026-10-29",
+"folder": "videos/2026-10-26-minyak-115-apbn-70-nombok",
+"platform": "instagram",
+"hours": 72,
+"views": 200,
+"avg_watch_pct": 28.5,
+"hold_3s_pct": null,
+"shares": 0,
+"saves": 1,
+"follows": null
+},
+{
+"date": "2026-10-29",
+"folder": "videos/2026-10-26-minyak-115-apbn-70-nombok",
+"platform": "youtube",
+"hours": 72,
+"views": 183,
+"avg_watch_pct": null,
+"hold_3s_pct": null,
+"shares": 0,
+"saves": null,
+"follows": 0
 }
 ]

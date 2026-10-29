@@ -1,0 +1,751 @@
+{
+ "duration": 87.103,
+ "voice": "Cahaya",
+ "lines": [
+  {
+   "id": "b1",
+   "text": "Senin kemarin kami tanya: minyak dunia tembus 115 dolar, siapa yang nombok?",
+   "start": 0.186,
+   "end": 6.021,
+   "words": [
+    {
+     "w": "Senin",
+     "start": 0.186,
+     "end": 0.306
+    },
+    {
+     "w": "kemarin",
+     "start": 0.386,
+     "end": 0.866
+    },
+    {
+     "w": "kami",
+     "start": 0.93,
+     "end": 1.186
+    },
+    {
+     "w": "tanya:",
+     "start": 1.226,
+     "end": 1.666
+    },
+    {
+     "w": "minyak",
+     "start": 1.866,
+     "end": 2.156
+    },
+    {
+     "w": "dunia",
+     "start": 2.216,
+     "end": 2.556
+    },
+    {
+     "w": "tembus",
+     "start": 2.636,
+     "end": 3.036
+    },
+    {
+     "w": "115",
+     "start": 3.076,
+     "end": 3.996
+    },
+    {
+     "w": "dolar,",
+     "start": 4.036,
+     "end": 4.536
+    },
+    {
+     "w": "siapa",
+     "start": 4.589,
+     "end": 4.936
+    },
+    {
+     "w": "yang",
+     "start": 4.968,
+     "end": 5.096
+    },
+    {
+     "w": "nombok?",
+     "start": 5.136,
+     "end": 6.021
+    }
+   ]
+  },
+  {
+   "id": "b2",
+   "text": "Jumat, 23 Oktober, minyak Brent di atas 115 dolar per barel. Tertinggi dalam 5 bulan.",
+   "start": 6.1530000000000005,
+   "end": 13.751,
+   "words": [
+    {
+     "w": "Jumat,",
+     "start": 6.153,
+     "end": 6.646
+    },
+    {
+     "w": "23",
+     "start": 6.686,
+     "end": 7.286
+    },
+    {
+     "w": "Oktober,",
+     "start": 7.366,
+     "end": 8.171
+    },
+    {
+     "w": "minyak",
+     "start": 8.176,
+     "end": 8.546
+    },
+    {
+     "w": "Brent",
+     "start": 8.599,
+     "end": 8.866
+    },
+    {
+     "w": "di",
+     "start": 8.919,
+     "end": 9.026
+    },
+    {
+     "w": "atas",
+     "start": 9.09,
+     "end": 9.346
+    },
+    {
+     "w": "115",
+     "start": 9.406,
+     "end": 10.306
+    },
+    {
+     "w": "dolar",
+     "start": 10.373,
+     "end": 10.706
+    },
+    {
+     "w": "per",
+     "start": 10.766,
+     "end": 10.946
+    },
+    {
+     "w": "barel.",
+     "start": 11.01,
+     "end": 11.506
+    },
+    {
+     "w": "Tertinggi",
+     "start": 11.631,
+     "end": 12.186
+    },
+    {
+     "w": "dalam",
+     "start": 12.279,
+     "end": 12.746
+    },
+    {
+     "w": "5",
+     "start": 12.806,
+     "end": 13.066
+    },
+    {
+     "w": "bulan.",
+     "start": 13.126,
+     "end": 13.751
+    }
+   ]
+  },
+  {
+   "id": "b3",
+   "text": "Senin, turun tipis ke 115,81 dolar. Masih jauh di atas asumsi APBN 2026: 70 dolar.",
+   "start": 13.986,
+   "end": 23.945999999999998,
+   "words": [
+    {
+     "w": "Senin,",
+     "start": 13.986,
+     "end": 14.496
+    },
+    {
+     "w": "turun",
+     "start": 14.576,
+     "end": 14.826
+    },
+    {
+     "w": "tipis",
+     "start": 14.906,
+     "end": 15.386
+    },
+    {
+     "w": "ke",
+     "start": 15.466,
+     "end": 15.626
+    },
+    {
+     "w": "115,81",
+     "start": 15.686,
+     "end": 18.026
+    },
+    {
+     "w": "dolar.",
+     "start": 18.106,
+     "end": 18.661
+    },
+    {
+     "w": "Masih",
+     "start": 18.661,
+     "end": 18.976
+    },
+    {
+     "w": "jauh",
+     "start": 19.016,
+     "end": 19.376
+    },
+    {
+     "w": "di",
+     "start": 19.429,
+     "end": 19.536
+    },
+    {
+     "w": "atas",
+     "start": 19.6,
+     "end": 19.856
+    },
+    {
+     "w": "asumsi",
+     "start": 19.936,
+     "end": 20.496
+    },
+    {
+     "w": "APBN",
+     "start": 20.616,
+     "end": 21.736
+    },
+    {
+     "w": "2026:",
+     "start": 21.736,
+     "end": 22.906
+    },
+    {
+     "w": "70",
+     "start": 22.906,
+     "end": 23.466
+    },
+    {
+     "w": "dolar.",
+     "start": 23.533,
+     "end": 23.946
+    }
+   ]
+  },
+  {
+   "id": "b4",
+   "text": "Tapi di SPBU, Pertalite tetap Rp10.000 per liter.",
+   "start": 24.205,
+   "end": 28.884999999999998,
+   "words": [
+    {
+     "w": "Tapi",
+     "start": 24.205,
+     "end": 24.725
+    },
+    {
+     "w": "di",
+     "start": 24.778,
+     "end": 24.885
+    },
+    {
+     "w": "SPBU,",
+     "start": 24.965,
+     "end": 25.765
+    },
+    {
+     "w": "Pertalite",
+     "start": 25.845,
+     "end": 26.485
+    },
+    {
+     "w": "tetap",
+     "start": 26.585,
+     "end": 26.965
+    },
+    {
+     "w": "Rp10.000",
+     "start": 27.025,
+     "end": 28.085
+    },
+    {
+     "w": "per",
+     "start": 28.145,
+     "end": 28.325
+    },
+    {
+     "w": "liter.",
+     "start": 28.392,
+     "end": 28.885
+    }
+   ]
+  },
+  {
+   "id": "b5",
+   "text": "Selisihnya ditanggung APBN, lewat subsidi dan kompensasi, terutama ke Pertamina dan PLN.",
+   "start": 29.487,
+   "end": 36.657,
+   "words": [
+    {
+     "w": "Selisihnya",
+     "start": 29.487,
+     "end": 30.007
+    },
+    {
+     "w": "ditanggung",
+     "start": 30.067,
+     "end": 30.567
+    },
+    {
+     "w": "APBN,",
+     "start": 30.607,
+     "end": 31.367
+    },
+    {
+     "w": "lewat",
+     "start": 31.471,
+     "end": 31.827
+    },
+    {
+     "w": "subsidi",
+     "start": 31.907,
+     "end": 32.467
+    },
+    {
+     "w": "dan",
+     "start": 32.547,
+     "end": 32.787
+    },
+    {
+     "w": "kompensasi,",
+     "start": 32.851,
+     "end": 33.881
+    },
+    {
+     "w": "terutama",
+     "start": 33.881,
+     "end": 34.577
+    },
+    {
+     "w": "ke",
+     "start": 34.657,
+     "end": 34.817
+    },
+    {
+     "w": "Pertamina",
+     "start": 34.865,
+     "end": 35.537
+    },
+    {
+     "w": "dan",
+     "start": 35.617,
+     "end": 35.857
+    },
+    {
+     "w": "PLN.",
+     "start": 35.937,
+     "end": 36.657
+    }
+   ]
+  },
+  {
+   "id": "b6",
+   "text": "Sampai September, totalnya Rp376,8 triliun. Naik sekitar 54 persen dibanding tahun lalu.",
+   "start": 37.403999999999996,
+   "end": 47.111999999999995,
+   "words": [
+    {
+     "w": "Sampai",
+     "start": 37.404,
+     "end": 37.612
+    },
+    {
+     "w": "September,",
+     "start": 37.684,
+     "end": 38.611
+    },
+    {
+     "w": "totalnya",
+     "start": 38.669,
+     "end": 39.262
+    },
+    {
+     "w": "Rp376,8",
+     "start": 39.382,
+     "end": 41.822
+    },
+    {
+     "w": "triliun.",
+     "start": 41.929,
+     "end": 42.622
+    },
+    {
+     "w": "Naik",
+     "start": 43.331,
+     "end": 43.752
+    },
+    {
+     "w": "sekitar",
+     "start": 43.832,
+     "end": 44.312
+    },
+    {
+     "w": "54",
+     "start": 44.372,
+     "end": 45.112
+    },
+    {
+     "w": "persen",
+     "start": 45.192,
+     "end": 45.832
+    },
+    {
+     "w": "dibanding",
+     "start": 45.872,
+     "end": 46.312
+    },
+    {
+     "w": "tahun",
+     "start": 46.365,
+     "end": 46.632
+    },
+    {
+     "w": "lalu.",
+     "start": 46.712,
+     "end": 47.112
+    }
+   ]
+  },
+  {
+   "id": "b7",
+   "text": "Tapi APBN juga dibiayai utang, lewat surat utang negara, SUN. Dan Selasa, lelangnya sepi.",
+   "start": 47.221,
+   "end": 54.602,
+   "words": [
+    {
+     "w": "Tapi",
+     "start": 47.221,
+     "end": 47.282
+    },
+    {
+     "w": "APBN",
+     "start": 47.322,
+     "end": 48.175
+    },
+    {
+     "w": "juga",
+     "start": 48.202,
+     "end": 48.57
+    },
+    {
+     "w": "dibiayai",
+     "start": 48.618,
+     "end": 49.082
+    },
+    {
+     "w": "utang,",
+     "start": 49.122,
+     "end": 49.642
+    },
+    {
+     "w": "lewat",
+     "start": 49.695,
+     "end": 50.125
+    },
+    {
+     "w": "surat",
+     "start": 50.232,
+     "end": 50.552
+    },
+    {
+     "w": "utang",
+     "start": 50.592,
+     "end": 50.872
+    },
+    {
+     "w": "negara,",
+     "start": 50.952,
+     "end": 51.272
+    },
+    {
+     "w": "SUN.",
+     "start": 51.379,
+     "end": 52.302
+    },
+    {
+     "w": "Dan",
+     "start": 52.382,
+     "end": 52.801
+    },
+    {
+     "w": "Selasa,",
+     "start": 52.801,
+     "end": 53.262
+    },
+    {
+     "w": "lelangnya",
+     "start": 53.395,
+     "end": 54.242
+    },
+    {
+     "w": "sepi.",
+     "start": 54.282,
+     "end": 54.602
+    }
+   ]
+  },
+  {
+   "id": "b8",
+   "text": "Penawarannya cuma Rp31,09 triliun, terendah sejak November 2024. Yang diserap Rp20,65 triliun, dari target Rp30 triliun.",
+   "start": 55.208,
+   "end": 69.491,
+   "words": [
+    {
+     "w": "Penawarannya",
+     "start": 55.208,
+     "end": 55.968
+    },
+    {
+     "w": "cuma",
+     "start": 56.068,
+     "end": 56.528
+    },
+    {
+     "w": "Rp31,09",
+     "start": 56.608,
+     "end": 59.008
+    },
+    {
+     "w": "triliun,",
+     "start": 59.115,
+     "end": 59.648
+    },
+    {
+     "w": "terendah",
+     "start": 60.381,
+     "end": 60.958
+    },
+    {
+     "w": "sejak",
+     "start": 61.011,
+     "end": 61.358
+    },
+    {
+     "w": "November",
+     "start": 61.42,
+     "end": 61.918
+    },
+    {
+     "w": "2024.",
+     "start": 61.998,
+     "end": 63.491
+    },
+    {
+     "w": "Yang",
+     "start": 63.491,
+     "end": 63.688
+    },
+    {
+     "w": "diserap",
+     "start": 63.748,
+     "end": 64.328
+    },
+    {
+     "w": "Rp20,65",
+     "start": 64.468,
+     "end": 66.208
+    },
+    {
+     "w": "triliun,",
+     "start": 66.288,
+     "end": 67.168
+    },
+    {
+     "w": "dari",
+     "start": 67.2,
+     "end": 67.328
+    },
+    {
+     "w": "target",
+     "start": 67.419,
+     "end": 67.968
+    },
+    {
+     "w": "Rp30",
+     "start": 68.008,
+     "end": 68.608
+    },
+    {
+     "w": "triliun.",
+     "start": 68.688,
+     "end": 69.491
+    }
+   ]
+  },
+  {
+   "id": "b9",
+   "text": "Imbal hasil SUN sekitar 10 tahun naik ke 7,54 persen, tertinggi sejak November 2022. Artinya, ngutang baru makin mahal buat negara.",
+   "start": 69.638,
+   "end": 82.591,
+   "words": [
+    {
+     "w": "Imbal",
+     "start": 69.638,
+     "end": 69.798
+    },
+    {
+     "w": "hasil",
+     "start": 69.865,
+     "end": 70.198
+    },
+    {
+     "w": "SUN",
+     "start": 70.251,
+     "end": 70.758
+    },
+    {
+     "w": "sekitar",
+     "start": 70.838,
+     "end": 71.318
+    },
+    {
+     "w": "10",
+     "start": 71.378,
+     "end": 71.718
+    },
+    {
+     "w": "tahun",
+     "start": 71.798,
+     "end": 72.198
+    },
+    {
+     "w": "naik",
+     "start": 72.465,
+     "end": 72.938
+    },
+    {
+     "w": "ke",
+     "start": 72.991,
+     "end": 73.098
+    },
+    {
+     "w": "7,54",
+     "start": 73.205,
+     "end": 74.538
+    },
+    {
+     "w": "persen,",
+     "start": 74.618,
+     "end": 75.311
+    },
+    {
+     "w": "tertinggi",
+     "start": 75.311,
+     "end": 75.958
+    },
+    {
+     "w": "sejak",
+     "start": 76.011,
+     "end": 76.278
+    },
+    {
+     "w": "November",
+     "start": 76.349,
+     "end": 76.918
+    },
+    {
+     "w": "2022.",
+     "start": 76.978,
+     "end": 78.651
+    },
+    {
+     "w": "Artinya,",
+     "start": 78.748,
+     "end": 79.811
+    },
+    {
+     "w": "ngutang",
+     "start": 79.811,
+     "end": 80.218
+    },
+    {
+     "w": "baru",
+     "start": 80.298,
+     "end": 80.618
+    },
+    {
+     "w": "makin",
+     "start": 80.685,
+     "end": 81.018
+    },
+    {
+     "w": "mahal",
+     "start": 81.098,
+     "end": 81.498
+    },
+    {
+     "w": "buat",
+     "start": 81.578,
+     "end": 81.818
+    },
+    {
+     "w": "negara.",
+     "start": 81.878,
+     "end": 82.591
+    }
+   ]
+  },
+  {
+   "id": "b11",
+   "text": "Menurut kamu, sampai kapan harga Pertalite bisa ditahan?",
+   "start": 82.704,
+   "end": 86.514,
+   "words": [
+    {
+     "w": "Menurut",
+     "start": 82.704,
+     "end": 82.984
+    },
+    {
+     "w": "kamu,",
+     "start": 83.08,
+     "end": 83.681
+    },
+    {
+     "w": "sampai",
+     "start": 83.746,
+     "end": 84.114
+    },
+    {
+     "w": "kapan",
+     "start": 84.194,
+     "end": 84.674
+    },
+    {
+     "w": "harga",
+     "start": 84.727,
+     "end": 84.994
+    },
+    {
+     "w": "Pertalite",
+     "start": 85.042,
+     "end": 85.554
+    },
+    {
+     "w": "bisa",
+     "start": 85.602,
+     "end": 85.794
+    },
+    {
+     "w": "ditahan?",
+     "start": 85.854,
+     "end": 86.514
+    }
+   ]
+  }
+ ]
+}

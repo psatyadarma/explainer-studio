@@ -1,0 +1,65 @@
+{
+ "direction": "[warm, clear weekly recap; neutral, attributed]",
+ "lines": [
+  {
+   "id": "a1",
+   "tag": "[serious]",
+   "text": "Sabtu lalu kami bilang: IHSG naik empat hari berturut-turut, ke 5.439. Tapi tunggu 2 November dulu.",
+   "say": "Sabtu lalu kami bilang: I H S G naik empat hari berturut-turut, ke lima ribu empat ratus tiga puluh sembilan. Tapi tunggu dua November dulu."
+  },
+  {
+   "id": "a3",
+   "tag": "[leaning in]",
+   "text": "Minggu ini, arahnya berbalik. Senin, turun 1,22 persen, ke 5.373.",
+   "say": "Minggu ini, arahnya berbalik. Senin, turun satu koma dua dua persen, ke lima ribu tiga ratus tujuh puluh tiga."
+  },
+  {
+   "id": "a4",
+   "tag": "[serious]",
+   "text": "Selasa turun lagi, 1,99 persen, ke 5.266. Sore itu sempat anjlok 3 persen.",
+   "say": "Selasa turun lagi, satu koma sembilan sembilan persen, ke lima ribu dua ratus enam puluh enam. Sore itu, sempat anjlok tiga persen."
+  },
+  {
+   "id": "a5",
+   "tag": "[explaining]",
+   "text": "Rabu, sempat hijau tipis: naik 0,31 persen, ke 5.282. Kamis dini hari, bank sentral Amerika, The Fed, menahan suku bunga.",
+   "say": "Rabu, sempat hijau tipis: naik nol koma tiga satu persen, ke lima ribu dua ratus delapan puluh dua. Kamis dini hari, bank sentral Amerika, The Fed, menahan suku bunga."
+  },
+  {
+   "id": "a6",
+   "tag": "[shocked]",
+   "text": "Kamis? IHSG anjlok 3,49 persen, ditutup di 5.098. Dalam. Sehari.",
+   "say": "Kamis? I H S G anjlok tiga koma empat sembilan persen, ditutup di lima ribu sembilan puluh delapan. Dalam. Sehari."
+  },
+  {
+   "id": "a7",
+   "tag": "[matter-of-fact]",
+   "text": "Paling dalam di antara empat bank besar: saham BCA, turun 6,35 persen.",
+   "say": "Paling dalam di antara empat bank besar: saham Be Ce A, turun enam koma tiga lima persen."
+  },
+  {
+   "id": "a7b",
+   "tag": "[serious]",
+   "text": "Jadi sampai Kamis, IHSG sudah turun sekitar 6 persen dari Jumat lalu. Itu hitungan kami.",
+   "say": "Jadi sampai Kamis, I H S G sudah turun sekitar enam persen dari Jumat lalu. Itu hitungan kami."
+  },
+  {
+   "id": "a8",
+   "tag": "[leaning in]",
+   "text": "Tapi ini yang sering terlewat: kata OJK, dari catatan MSCI, tinggal satu yang belum memenuhi harapan. Penegakan hukum.",
+   "say": "Tapi ini yang sering terlewat: kata O Je Ka, dari catatan em es si ai, tinggal satu yang belum memenuhi harapan. Penegakan hukum."
+  },
+  {
+   "id": "a9",
+   "tag": "[explaining]",
+   "text": "Dan mulai Senin, 2 November, saham yang kepemilikannya terlalu terpusat tidak lagi dihitung di IHSG.",
+   "say": "Dan mulai Senin, dua November, saham yang kepemilikannya terlalu terpusat, tidak lagi dihitung di I H S G."
+  },
+  {
+   "id": "a10",
+   "tag": "[calm]",
+   "text": "Ingat, ini bukan ajakan jual atau beli saham."
+  }
+ ],
+ "tail": 0.6
+}

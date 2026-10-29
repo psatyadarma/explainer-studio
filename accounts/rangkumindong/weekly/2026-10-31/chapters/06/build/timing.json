@@ -1,0 +1,810 @@
+{
+ "duration": 78.026,
+ "voice": "Cahaya",
+ "lines": [
+  {
+   "id": "p1",
+   "text": "Satu cerita yang belum kami bahas di video harian: Rabu, 28 Oktober, Hari Sumpah Pemuda.",
+   "start": 0.342,
+   "end": 6.752,
+   "words": [
+    {
+     "w": "Satu",
+     "start": 0.342,
+     "end": 0.452
+    },
+    {
+     "w": "cerita",
+     "start": 0.512,
+     "end": 0.852
+    },
+    {
+     "w": "yang",
+     "start": 0.9,
+     "end": 1.092
+    },
+    {
+     "w": "belum",
+     "start": 1.132,
+     "end": 1.332
+    },
+    {
+     "w": "kami",
+     "start": 1.38,
+     "end": 1.572
+    },
+    {
+     "w": "bahas",
+     "start": 1.632,
+     "end": 1.972
+    },
+    {
+     "w": "di",
+     "start": 2.025,
+     "end": 2.132
+    },
+    {
+     "w": "video",
+     "start": 2.185,
+     "end": 2.452
+    },
+    {
+     "w": "harian:",
+     "start": 2.512,
+     "end": 3.012
+    },
+    {
+     "w": "Rabu,",
+     "start": 3.11,
+     "end": 3.672
+    },
+    {
+     "w": "28",
+     "start": 3.712,
+     "end": 4.392
+    },
+    {
+     "w": "Oktober,",
+     "start": 4.472,
+     "end": 5.312
+    },
+    {
+     "w": "Hari",
+     "start": 5.376,
+     "end": 5.632
+    },
+    {
+     "w": "Sumpah",
+     "start": 5.712,
+     "end": 6.112
+    },
+    {
+     "w": "Pemuda.",
+     "start": 6.152,
+     "end": 6.752
+    }
+   ]
+  },
+  {
+   "id": "p2",
+   "text": "Mahasiswa dari banyak kampus, termasuk BEM UI, bersama koalisi masyarakat sipil SADAR, turun ke Bundaran HI dan Patung Kuda, Jakarta.",
+   "start": 6.978,
+   "end": 16.177999999999997,
+   "words": [
+    {
+     "w": "Mahasiswa",
+     "start": 6.978,
+     "end": 7.488
+    },
+    {
+     "w": "dari",
+     "start": 7.52,
+     "end": 7.648
+    },
+    {
+     "w": "banyak",
+     "start": 7.694,
+     "end": 7.968
+    },
+    {
+     "w": "kampus,",
+     "start": 8.008,
+     "end": 8.608
+    },
+    {
+     "w": "termasuk",
+     "start": 8.656,
+     "end": 9.088
+    },
+    {
+     "w": "BEM",
+     "start": 9.128,
+     "end": 9.328
+    },
+    {
+     "w": "UI,",
+     "start": 9.368,
+     "end": 9.728
+    },
+    {
+     "w": "bersama",
+     "start": 9.856,
+     "end": 10.378
+    },
+    {
+     "w": "koalisi",
+     "start": 10.458,
+     "end": 11.018
+    },
+    {
+     "w": "masyarakat",
+     "start": 11.058,
+     "end": 11.578
+    },
+    {
+     "w": "sipil",
+     "start": 11.658,
+     "end": 12.378
+    },
+    {
+     "w": "SADAR,",
+     "start": 12.458,
+     "end": 13.1
+    },
+    {
+     "w": "turun",
+     "start": 13.138,
+     "end": 13.538
+    },
+    {
+     "w": "ke",
+     "start": 13.591,
+     "end": 13.698
+    },
+    {
+     "w": "Bundaran",
+     "start": 13.746,
+     "end": 14.178
+    },
+    {
+     "w": "HI",
+     "start": 14.231,
+     "end": 14.578
+    },
+    {
+     "w": "dan",
+     "start": 14.618,
+     "end": 14.738
+    },
+    {
+     "w": "Patung",
+     "start": 14.798,
+     "end": 15.058
+    },
+    {
+     "w": "Kuda,",
+     "start": 15.138,
+     "end": 15.538
+    },
+    {
+     "w": "Jakarta.",
+     "start": 15.608,
+     "end": 16.178
+    }
+   ]
+  },
+  {
+   "id": "p3",
+   "text": "Menurut BEM UI, mereka membawa lima tuntutan untuk Presiden Prabowo dan Wakil Presiden Gibran.",
+   "start": 16.477999999999998,
+   "end": 22.578,
+   "words": [
+    {
+     "w": "Menurut",
+     "start": 16.478,
+     "end": 16.738
+    },
+    {
+     "w": "BEM",
+     "start": 16.778,
+     "end": 16.978
+    },
+    {
+     "w": "UI,",
+     "start": 17.058,
+     "end": 17.458
+    },
+    {
+     "w": "mereka",
+     "start": 17.549,
+     "end": 18.098
+    },
+    {
+     "w": "membawa",
+     "start": 18.162,
+     "end": 18.658
+    },
+    {
+     "w": "lima",
+     "start": 18.718,
+     "end": 18.978
+    },
+    {
+     "w": "tuntutan",
+     "start": 19.018,
+     "end": 19.538
+    },
+    {
+     "w": "untuk",
+     "start": 19.591,
+     "end": 19.858
+    },
+    {
+     "w": "Presiden",
+     "start": 19.906,
+     "end": 20.338
+    },
+    {
+     "w": "Prabowo",
+     "start": 20.391,
+     "end": 20.978
+    },
+    {
+     "w": "dan",
+     "start": 21.018,
+     "end": 21.138
+    },
+    {
+     "w": "Wakil",
+     "start": 21.218,
+     "end": 21.538
+    },
+    {
+     "w": "Presiden",
+     "start": 21.602,
+     "end": 22.018
+    },
+    {
+     "w": "Gibran.",
+     "start": 22.078,
+     "end": 22.578
+    }
+   ]
+  },
+  {
+   "id": "p4",
+   "text": "Satu: status bencana nasional untuk karhutla. Dua: kaji ulang APBN 2027, termasuk menghentikan program MBG dan Koperasi Desa Merah Putih.",
+   "start": 23.048,
+   "end": 35.028,
+   "words": [
+    {
+     "w": "Satu:",
+     "start": 23.048,
+     "end": 23.238
+    },
+    {
+     "w": "status",
+     "start": 23.375,
+     "end": 23.958
+    },
+    {
+     "w": "bencana",
+     "start": 23.998,
+     "end": 24.438
+    },
+    {
+     "w": "nasional",
+     "start": 24.518,
+     "end": 25.078
+    },
+    {
+     "w": "untuk",
+     "start": 25.145,
+     "end": 25.478
+    },
+    {
+     "w": "karhutla.",
+     "start": 25.538,
+     "end": 26.198
+    },
+    {
+     "w": "Dua:",
+     "start": 26.26,
+     "end": 26.808
+    },
+    {
+     "w": "kaji",
+     "start": 26.95,
+     "end": 27.358
+    },
+    {
+     "w": "ulang",
+     "start": 27.438,
+     "end": 27.758
+    },
+    {
+     "w": "APBN",
+     "start": 27.878,
+     "end": 28.945
+    },
+    {
+     "w": "2027,",
+     "start": 28.945,
+     "end": 30.05
+    },
+    {
+     "w": "termasuk",
+     "start": 30.05,
+     "end": 30.708
+    },
+    {
+     "w": "menghentikan",
+     "start": 30.74,
+     "end": 31.348
+    },
+    {
+     "w": "program",
+     "start": 31.408,
+     "end": 31.828
+    },
+    {
+     "w": "MBG",
+     "start": 31.908,
+     "end": 32.628
+    },
+    {
+     "w": "dan",
+     "start": 32.748,
+     "end": 33.108
+    },
+    {
+     "w": "Koperasi",
+     "start": 33.188,
+     "end": 33.748
+    },
+    {
+     "w": "Desa",
+     "start": 33.828,
+     "end": 34.148
+    },
+    {
+     "w": "Merah",
+     "start": 34.208,
+     "end": 34.468
+    },
+    {
+     "w": "Putih.",
+     "start": 34.548,
+     "end": 35.028
+    }
+   ]
+  },
+  {
+   "id": "p5",
+   "text": "Tiga: biaya pendidikan diturunkan. Empat: berantas korupsi dan reformasi hukum. Lima: kebebasan berekspresi, dan hentikan militerisasi ruang sipil.",
+   "start": 35.201,
+   "end": 47.08,
+   "words": [
+    {
+     "w": "Tiga:",
+     "start": 35.201,
+     "end": 35.688
+    },
+    {
+     "w": "biaya",
+     "start": 35.82,
+     "end": 36.388
+    },
+    {
+     "w": "pendidikan",
+     "start": 36.452,
+     "end": 37.108
+    },
+    {
+     "w": "diturunkan.",
+     "start": 37.148,
+     "end": 37.97
+    },
+    {
+     "w": "Empat:",
+     "start": 37.97,
+     "end": 38.638
+    },
+    {
+     "w": "berantas",
+     "start": 38.73,
+     "end": 39.358
+    },
+    {
+     "w": "korupsi",
+     "start": 39.418,
+     "end": 40.078
+    },
+    {
+     "w": "dan",
+     "start": 40.17,
+     "end": 40.408
+    },
+    {
+     "w": "reformasi",
+     "start": 40.477,
+     "end": 41.048
+    },
+    {
+     "w": "hukum.",
+     "start": 41.088,
+     "end": 41.66
+    },
+    {
+     "w": "Lima:",
+     "start": 41.66,
+     "end": 42.298
+    },
+    {
+     "w": "kebebasan",
+     "start": 42.44,
+     "end": 43.168
+    },
+    {
+     "w": "berekspresi,",
+     "start": 43.232,
+     "end": 44.128
+    },
+    {
+     "w": "dan",
+     "start": 44.268,
+     "end": 44.628
+    },
+    {
+     "w": "hentikan",
+     "start": 44.668,
+     "end": 45.188
+    },
+    {
+     "w": "militerisasi",
+     "start": 45.248,
+     "end": 46.148
+    },
+    {
+     "w": "ruang",
+     "start": 46.228,
+     "end": 46.468
+    },
+    {
+     "w": "sipil.",
+     "start": 46.548,
+     "end": 47.08
+    }
+   ]
+  },
+  {
+   "id": "p6",
+   "text": "Berapa yang ikut? Kata BEM UI, 10 sampai 12 ribu orang. Angka dari polisi belum kami temukan.",
+   "start": 47.257999999999996,
+   "end": 54.378,
+   "words": [
+    {
+     "w": "Berapa",
+     "start": 47.258,
+     "end": 47.538
+    },
+    {
+     "w": "yang",
+     "start": 47.57,
+     "end": 47.698
+    },
+    {
+     "w": "ikut?",
+     "start": 47.778,
+     "end": 48.25
+    },
+    {
+     "w": "Kata",
+     "start": 48.25,
+     "end": 48.648
+    },
+    {
+     "w": "BEM",
+     "start": 48.688,
+     "end": 48.808
+    },
+    {
+     "w": "UI,",
+     "start": 48.888,
+     "end": 49.568
+    },
+    {
+     "w": "10",
+     "start": 49.568,
+     "end": 50.048
+    },
+    {
+     "w": "sampai",
+     "start": 50.128,
+     "end": 50.608
+    },
+    {
+     "w": "12",
+     "start": 50.648,
+     "end": 51.008
+    },
+    {
+     "w": "ribu",
+     "start": 51.088,
+     "end": 51.408
+    },
+    {
+     "w": "orang.",
+     "start": 51.461,
+     "end": 51.888
+    },
+    {
+     "w": "Angka",
+     "start": 52.04,
+     "end": 52.458
+    },
+    {
+     "w": "dari",
+     "start": 52.506,
+     "end": 52.698
+    },
+    {
+     "w": "polisi",
+     "start": 52.738,
+     "end": 53.178
+    },
+    {
+     "w": "belum",
+     "start": 53.231,
+     "end": 53.498
+    },
+    {
+     "w": "kami",
+     "start": 53.546,
+     "end": 53.738
+    },
+    {
+     "w": "temukan.",
+     "start": 53.778,
+     "end": 54.378
+    }
+   ]
+  },
+  {
+   "id": "p7",
+   "text": "Polda Metro Jaya mencatat 53 aksi unjuk rasa di Jakarta hari itu. Aksi di Bundaran HI mulai pukul 2 siang, dan bubar sekitar pukul 19.45. Polisi menyebut aksinya tertib.",
+   "start": 54.561,
+   "end": 68.55,
+   "words": [
+    {
+     "w": "Polda",
+     "start": 54.561,
+     "end": 54.841
+    },
+    {
+     "w": "Metro",
+     "start": 54.908,
+     "end": 55.241
+    },
+    {
+     "w": "Jaya",
+     "start": 55.281,
+     "end": 55.641
+    },
+    {
+     "w": "mencatat",
+     "start": 55.689,
+     "end": 56.201
+    },
+    {
+     "w": "53",
+     "start": 56.261,
+     "end": 57.081
+    },
+    {
+     "w": "aksi",
+     "start": 57.161,
+     "end": 57.481
+    },
+    {
+     "w": "unjuk",
+     "start": 57.534,
+     "end": 57.721
+    },
+    {
+     "w": "rasa",
+     "start": 57.801,
+     "end": 58.121
+    },
+    {
+     "w": "di",
+     "start": 58.174,
+     "end": 58.281
+    },
+    {
+     "w": "Jakarta",
+     "start": 58.341,
+     "end": 58.761
+    },
+    {
+     "w": "hari",
+     "start": 58.809,
+     "end": 59.001
+    },
+    {
+     "w": "itu.",
+     "start": 59.081,
+     "end": 59.321
+    },
+    {
+     "w": "Aksi",
+     "start": 59.41,
+     "end": 59.881
+    },
+    {
+     "w": "di",
+     "start": 59.908,
+     "end": 59.961
+    },
+    {
+     "w": "Bundaran",
+     "start": 60.009,
+     "end": 60.441
+    },
+    {
+     "w": "HI",
+     "start": 60.494,
+     "end": 60.841
+    },
+    {
+     "w": "mulai",
+     "start": 60.901,
+     "end": 61.241
+    },
+    {
+     "w": "pukul",
+     "start": 61.281,
+     "end": 61.641
+    },
+    {
+     "w": "2",
+     "start": 61.701,
+     "end": 61.881
+    },
+    {
+     "w": "siang,",
+     "start": 61.988,
+     "end": 62.521
+    },
+    {
+     "w": "dan",
+     "start": 62.641,
+     "end": 63.001
+    },
+    {
+     "w": "bubar",
+     "start": 63.081,
+     "end": 63.481
+    },
+    {
+     "w": "sekitar",
+     "start": 63.534,
+     "end": 63.961
+    },
+    {
+     "w": "pukul",
+     "start": 64.041,
+     "end": 64.441
+    },
+    {
+     "w": "19.45.",
+     "start": 64.521,
+     "end": 66.201
+    },
+    {
+     "w": "Polisi",
+     "start": 66.301,
+     "end": 67.111
+    },
+    {
+     "w": "menyebut",
+     "start": 67.159,
+     "end": 67.591
+    },
+    {
+     "w": "aksinya",
+     "start": 67.671,
+     "end": 68.071
+    },
+    {
+     "w": "tertib.",
+     "start": 68.119,
+     "end": 68.55
+    }
+   ]
+  },
+  {
+   "id": "p8",
+   "text": "Dari pemerintah: Kepala Staf Kepresidenan, Listyo Sigit Prabowo, bilang siap menampung aspirasi dari perwakilan mahasiswa.",
+   "start": 68.788,
+   "end": 77.508,
+   "words": [
+    {
+     "w": "Dari",
+     "start": 68.788,
+     "end": 68.908
+    },
+    {
+     "w": "pemerintah:",
+     "start": 68.948,
+     "end": 69.708
+    },
+    {
+     "w": "Kepala",
+     "start": 69.77,
+     "end": 70.238
+    },
+    {
+     "w": "Staf",
+     "start": 70.318,
+     "end": 70.558
+    },
+    {
+     "w": "Kepresidenan,",
+     "start": 70.598,
+     "end": 71.518
+    },
+    {
+     "w": "Listyo",
+     "start": 71.63,
+     "end": 72.308
+    },
+    {
+     "w": "Sigit",
+     "start": 72.348,
+     "end": 72.708
+    },
+    {
+     "w": "Prabowo,",
+     "start": 72.735,
+     "end": 73.348
+    },
+    {
+     "w": "bilang",
+     "start": 73.49,
+     "end": 74.068
+    },
+    {
+     "w": "siap",
+     "start": 74.148,
+     "end": 74.468
+    },
+    {
+     "w": "menampung",
+     "start": 74.508,
+     "end": 74.948
+    },
+    {
+     "w": "aspirasi",
+     "start": 75.015,
+     "end": 75.668
+    },
+    {
+     "w": "dari",
+     "start": 75.716,
+     "end": 75.908
+    },
+    {
+     "w": "perwakilan",
+     "start": 75.968,
+     "end": 76.628
+    },
+    {
+     "w": "mahasiswa.",
+     "start": 76.668,
+     "end": 77.508
+    }
+   ]
+  }
+ ]
+}

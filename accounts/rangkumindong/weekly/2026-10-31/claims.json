@@ -1,0 +1,418 @@
+[
+ {
+  "lines": "a1",
+  "claim": "Sat 24 Oct (weekly #1 + IHSG Short): IHSG rose 4 straight days to close 5.439,26 on Fri 23 Oct; we said wait for 2 Nov (HSC exclusion).",
+  "numbers": "5.439,26; 4 hari",
+  "sensitivity": "normal",
+  "status": "verified (weekly 2026-10-24 claims, E0250)",
+  "sources": [
+   "https://www.cnbcindonesia.com/market/20261023160756-17-778973/ihsg-ditutup-menguat-095-ke-level-5439"
+  ]
+ },
+ {
+  "lines": "a3, i2, hb1",
+  "claim": "Mon 26 Oct: IHSG closed 5.373 (−66,16 pts, −1,22%). Ties to Tue: 5.266,13 + 106,96 = 5.373,09.",
+  "numbers": "5.373; −1,22%",
+  "sensitivity": "normal",
+  "status": "verified (Kontan + Bisnis headline; factcheck 29 Okt)",
+  "sources": [
+   "https://investasi.kontan.co.id/news/ihsg-melemah-122-ke-5373-pada-senin-26102026-wifi-mdka-mbma-top-losers-lq45",
+   "https://market.bisnis.com/read/20261026/7/2015771/ihsg-melemah-122-saham-bbca-hingga-antm-tertekan"
+  ]
+ },
+ {
+  "lines": "a4",
+  "claim": "Tue 27 Oct: IHSG closed 5.266,13 (−106,96 pts, −1,99%), after being −3,01% (5.211,28) at 15:00 WIB.",
+  "numbers": "5.266,13; −1,99%; −3% intraday",
+  "sensitivity": "normal",
+  "status": "verified (E0350)",
+  "sources": [
+   "https://www.cnbcindonesia.com/market/20261027160632-17-779905/akhiri-perdagangan-ihsg-ditutup-turun-199-ke-level-5266",
+   "https://www.cnbcindonesia.com/market/20261027155002-17-779895/ihsg-ambles-3-sore-ini-analis-ungkap-penyebabnya",
+   "https://finance.detik.com/bursa-dan-valas/d-8726459/ihsg-hari-ini-ditutup-melemah-ke-level-5-266"
+  ]
+ },
+ {
+  "lines": "a5",
+  "claim": "Wed 28 Oct: IHSG closed 5.282,31 (+0,31%). The Fed held 3,75–4,00% (vote 10–2, two dissents for a hike), announced 28 Oct 14.00 ET = ~01.00 WIB Thu 29 Oct; spoken 'Kamis dini hari'.",
+  "numbers": "5.282,31; +0,31%; 3,75–4,00%",
+  "sensitivity": "normal",
+  "status": "verified (factcheck FIX 8 applied)",
+  "sources": [
+   "https://www.cnbcindonesia.com/market/20261028160354-17-780279/ihsg-ditutup-di-zona-hijau-naik-031-ke-528231",
+   "https://www.cnbcindonesia.com/market/20261029145637-17-780612/breaking-ihsg-anjlok-3-ini-penyebabnya",
+   "https://www.tokenpost.com/news/investing/43413",
+   "https://fedratecalc.com/fomc-meeting-schedule/october-2026/"
+  ]
+ },
+ {
+  "lines": "a6",
+  "claim": "Thu 29 Oct: IHSG closed 5.098,06 (−184,26 pts, −3,49%).",
+  "numbers": "5.098,06; −3,49%",
+  "sensitivity": "normal",
+  "status": "verified (E0410)",
+  "sources": [
+   "https://www.cnbcindonesia.com/market/20261029160737-17-780647/ihsg-ditutup-anjlok-349-ke-5098",
+   "https://keuangan.kontan.co.id/news/saham-big-banks-kompak-melemah-2910-asing-ramai-ramai-jual-saham-bbca-terparah"
+  ]
+ },
+ {
+  "lines": "a7",
+  "claim": "Thu 29 Oct: BBCA −6,35% to Rp4.940, the worst of the big four banks (BBRI −3,77%, BMRI −3,12%, BBNI −3,28%).",
+  "numbers": "−6,35%; Rp4.940",
+  "sensitivity": "normal",
+  "status": "partial (E0411; Kontan + Berita Satu)",
+  "sources": [
+   "https://keuangan.kontan.co.id/news/saham-big-banks-kompak-melemah-2910-asing-ramai-ramai-jual-saham-bbca-terparah",
+   "https://www.beritasatu.com/ekonomi/3037480/saham-bca-anjlok-635-persen-net-sell-tembus-rp-4085-miliar"
+  ]
+ },
+ {
+  "lines": "a7b",
+  "claim": "Week to Thursday: IHSG 5.098,06 (29 Oct) vs 5.439,26 (Fri 23 Oct) = −6,27%, own calc, spoken 'sekitar 6 persen … hitungan kami'. Friday 30 Oct close deliberately not used (script says 'sampai Kamis').",
+  "numbers": "−6,27% (hitungan sendiri)",
+  "sensitivity": "normal",
+  "status": "verified (own calc from verified closes)",
+  "sources": [
+   "https://www.cnbcindonesia.com/market/20261029160737-17-780647/ihsg-ditutup-anjlok-349-ke-5098",
+   "https://databoks.katadata.co.id/pasar/statistik/6adb2a774b78a/ihsg-ditutup-naik-095-ke-level-5439-jumat-23-oktober-2026"
+  ]
+ },
+ {
+  "lines": "a8",
+  "claim": "OJK chair Friderica Widyasari Dewi (27 Oct): of MSCI's concerns, only enforcement does not yet meet expectations; disclosure, transparency and liquidity are met.",
+  "numbers": "1 dari catatan MSCI",
+  "sensitivity": "normal",
+  "status": "verified (2 outlets, factcheck)",
+  "sources": [
+   "https://www.cnbcindonesia.com/market/20261027115838-17-779798/ojk-buka-bukaan-soal-1-hal-yang-jadi-catatan-msci-ke-bursa-ri",
+   "https://mediaasuransinews.co.id/market/ojk-blak-blakan-ungkap-kelemahan-pasar-modal-ri-di-mata-msci/"
+  ]
+ },
+ {
+  "lines": "a9, g5",
+  "claim": "From Mon 2 Nov 2026, BEI stops counting High Shareholding Concentration (HSC) stocks in the IHSG.",
+  "numbers": "2 Nov 2026",
+  "sensitivity": "normal",
+  "status": "verified (E0276; also in 24 Oct video)",
+  "sources": [
+   "https://www.cnbcindonesia.com/market/20261023160756-17-778973/ihsg-ditutup-menguat-095-ke-level-5439",
+   "https://tirto.id/bei-kecualikan-hsc-dari-ihsg-mulai-2-november-2026-hEaC"
+  ]
+ },
+ {
+  "lines": "b2, i2, hb2",
+  "claim": "Brent closed above US$115/bbl on Fri 23 Oct 2026, highest in 5 months (detik US$115,18 intraday; industry.co.id close US$117,38). Spoken 'di atas 115' as in the 26 Oct video.",
+  "numbers": "> US$115; 5 bulan",
+  "sensitivity": "normal",
+  "status": "verified (E0279; fact-checked 26 Oct)",
+  "sources": [
+   "https://finance.detik.com/energi/d-8721484/harga-minyak-tembus-us-115-tertinggi-dalam-5-bulan",
+   "https://www.industry.co.id/read/157925/harga-bbm-hari-ini-25-oktober-2026-brent-ditutup-menguat-di-us11738-dan-wti-ke-us10344-tertinggi-dalam-5-bulan-berikut-daftar-lengkap-pertamina-bp-shell-dan-vivo"
+  ]
+ },
+ {
+  "lines": "b3",
+  "claim": "Mon 26 Oct: Brent fell about 1,34% to ~US$115,8 (US$115,81 per CNBC; Metro TV −1,34%). APBN 2026 ICP assumption US$70/bbl.",
+  "numbers": "US$115,81; US$70",
+  "sensitivity": "normal",
+  "status": "Brent partial (E0383, CNBC); US$70 verified (26 Oct video)",
+  "sources": [
+   "https://www.cnbcindonesia.com/market/20261027150720-17-779873/breaking-ihsg-turun-3-ini-penyebabnya",
+   "https://ekonomi.bisnis.com/read/20260604/44/1978379/penyebab-harga-pertalite-dan-solar-subsidi-tak-naik-meski-minyak-mahal",
+   "https://www.metrotvnews.com/read/kBVClyQx-harga-minyak-turun-brent-kini-usd115-per-barel"
+  ]
+ },
+ {
+  "lines": "b4",
+  "claim": "Pertalite still Rp10.000/litre (unchanged since 2 Sep 2026).",
+  "numbers": "Rp10.000",
+  "sensitivity": "normal",
+  "status": "verified (26 Oct video)",
+  "sources": [
+   "https://www.industry.co.id/read/157925/harga-bbm-hari-ini-25-oktober-2026-brent-ditutup-menguat-di-us11738-dan-wti-ke-us10344-tertinggi-dalam-5-bulan-berikut-daftar-lengkap-pertamina-bp-shell-dan-vivo"
+  ]
+ },
+ {
+  "lines": "b5, b6",
+  "claim": "Subsidy + compensation payments Rp376,8 T through 30 Sep 2026 (subsidi Rp222,5 T + kompensasi Rp154,4 T), up ~54% from Rp244,6 T a year earlier; mainly to PLN and Pertamina (Suahasil Nazara, APBN KiTa). Total, not energy-only.",
+  "numbers": "Rp376,8 T; +54%",
+  "sensitivity": "normal",
+  "status": "verified (26 Oct video, fact-checked)",
+  "sources": [
+   "https://emitennews.com/news/pembayaran-subsidi-dan-kompensasi-naik-jadi-rp3768t-ini-kata-menkeu",
+   "https://www.rctiplus.com/news/detail/inews/5490161/bengkak--subsidi-dan-kompensasi-energi-tembus-rp376-8-triliun-per-september"
+  ]
+ },
+ {
+  "lines": "b7",
+  "claim": "The APBN deficit is financed by debt incl. government bonds (SUN). General description, not a claim that SUN pays the subsidies specifically.",
+  "numbers": "",
+  "sensitivity": "normal",
+  "status": "framing; fact-checker please confirm wording",
+  "sources": [
+   "https://www.cnbcindonesia.com/market/20261028115923-17-780140/akhiri-sesi-i-ihsg-turun-165-ke-5179"
+  ]
+ },
+ {
+  "lines": "b8, b9",
+  "claim": "SUN auction Tue 27 Oct: incoming bids Rp31,09 T (lowest since Nov 2024), awarded Rp20,65 T vs indicative target Rp30 T; ~10-year yield 7,54%, highest since Nov 2022. 'Ngutang baru makin mahal' = plain-language reading of a higher yield.",
+  "numbers": "Rp31,09 T; Rp20,65 T; Rp30 T; 7,54%",
+  "sensitivity": "normal",
+  "status": "verified (CNBC Research + Bisnis, factcheck)",
+  "sources": [
+   "https://www.cnbcindonesia.com/research/20261027165145-128-779928/surat-utang-ri-nyaris-gak-laku-yield-tertinggi-dalam-4-tahun",
+   "https://market.bisnis.com/read/20261027/92/2016141/lelang-sun-himpun-penawaran-rp31-triliun-yield-sbn-tembus-75",
+   "https://www.idnfinancials.com/id/news/71021/minat-investor-turun-yield-sun-tembus-7-54-apa-yang-terjadi"
+  ]
+ },
+ {
+  "lines": "d1",
+  "claim": "Our 27 Oct video (definisi korupsi PART 2) asked 'Uang negara hilang, pasti dihitung korupsi?'. NB: it was posted Tue 27 Oct.",
+  "numbers": "",
+  "sensitivity": "high",
+  "status": "verified (video-log)",
+  "sources": [
+   "https://www.instagram.com/reel/De_s4bjCYcA/"
+  ]
+ },
+ {
+  "lines": "d2, d3",
+  "claim": "Mon 26 Oct Yusril was called to the Palace; per Yusril, the President asked for a deeper study of the corruption definition and said the state-loss element must not be forgotten. Attributed to Yusril only.",
+  "numbers": "26 Okt",
+  "sensitivity": "high",
+  "status": "verified (E0348, 27 Oct video)",
+  "sources": [
+   "https://www.antaranews.com/berita/5813059/prabowo-minta-kajian-definisi-korupsi-yang-sesuai-kondisi-indonesia",
+   "https://www.kompas.id/artikel/menko-yusril-presiden-prabowo-minta-usulan-perubahan-definisi-korupsi-dikaji-mendalam"
+  ]
+ },
+ {
+  "lines": "d4, d5, d6",
+  "claim": "Tue 27 Oct, after receiving DEN's study from Luhut, Yusril said the definition will be broadened and the state-loss element not deleted; discussion of Pasal 2 & 3 UU Tipikor ('pasal sapu jagat') continues (detik: 'berlanjut'; not 'dirumuskan ulang'); the articles moved into the new KUHP (Pasal 603/604) from 2 Jan 2026 (storyline rule); aim incl. one definition of state finances (UU BPK vs UU Perbendaharaan Negara); 'perekonomian negara' undecided.",
+  "numbers": "Pasal 2 & 3",
+  "sensitivity": "high",
+  "status": "verified (factcheck FIX 5 applied)",
+  "sources": [
+   "https://news.detik.com/berita/d-8726231/yusril-tegaskan-unsur-kerugian-negara-tak-akan-dihapus-dalam-definisi-korupsi",
+   "https://www.antaranews.com/berita/5814567/yusril-pemerintah-akan-sempurnakan-definisi-korupsi-di-uu-tipikor",
+   "https://tempo.co/politik/prabowo-instruksikan-kajian-mendalam-soal-definisi-korupsi-2302259",
+   "https://www.metrotvnews.com/read/kWDCmJ25-pemerintah-akan-sempurnakan-definisi-korupsi-di-uu-tipikor"
+  ]
+ },
+ {
+  "lines": "d7",
+  "claim": "Ahmad Irawan (Golkar, DPR Baleg) backs the Tipikor revision and wants wider offences: trading in influence, illicit enrichment, under-invoicing.",
+  "numbers": "",
+  "sensitivity": "high",
+  "status": "verified (E0362)",
+  "sources": [
+   "https://news.detik.com/berita/d-8727092/anggota-baleg-dpr-dukung-revisi-uu-tipikor-dorong-perluasan-delik"
+  ]
+ },
+ {
+  "lines": "d8",
+  "claim": "Last week: objections from the KPK chair, ICW and two PKS DPR members. This week: legal analyst Hardjuno Wiwoho (statement Sat 24 Oct, Koran Jakarta 25 Oct) said protection for business decisions must not become a loophole to avoid accountability. He is a cautionary note, not an objector.",
+  "numbers": "",
+  "sensitivity": "high",
+  "status": "verified; 2nd half rests on one source (Koran Jakarta), factcheck FIX 4",
+  "sources": [
+   "https://www.suara.com/news/2026/10/21/171149/luhut-usul-kerugian-negara-bukan-korupsi-ketua-kpk-ungkap-hal-lebih-mendesak",
+   "https://go.kompas.com/read/2026/10/21/213642174/icw-rejects-luhuts-proposal-on-state-loss-if-removed-indonesia-appears-free-of",
+   "https://www.suara.com/news/2026/10/22/170129/usul-unsur-kerugian-negara-dihapus-dari-korupsi-luhut-disentil-dua-politisi-pks",
+   "https://koran-jakarta.com/2026-10-25/revisi-uu-tipikor-mengemuka-batas-risiko-bisnis-dan-korupsi-disorot"
+  ]
+ },
+ {
+  "lines": "d9",
+  "claim": "Revision not yet in Prolegnas; no draft RUU announced.",
+  "numbers": "",
+  "sensitivity": "high",
+  "status": "verified (E0438, E0362)",
+  "sources": [
+   "https://www.antaranews.com/berita/5814567/yusril-pemerintah-akan-sempurnakan-definisi-korupsi-di-uu-tipikor",
+   "https://www.nu.or.id/nasional/menko-kumham-yusril-revisi-uu-tipikor-belum-diputuskan-perlu-kajian-mendalam-OZ9CN"
+  ]
+ },
+ {
+  "lines": "c1, c2, i3",
+  "claim": "Kemenhub: 3.030 flights disrupted by haze 14 Aug–25 Oct 2026, ~1.700 (56%) cancelled, 154 routes; ~23 cancelled/day = own calc (1.700 ÷ 73 days).",
+  "numbers": "3.030; 1.700; 154; ~23/hari",
+  "sensitivity": "normal",
+  "status": "verified (E0372; 28 Oct video)",
+  "sources": [
+   "https://industri.kontan.co.id/news/karhutla-ganggu-3030-penerbangan-kemenhub-pastikan-bandara-tetap-beroperasi",
+   "https://www.cnbcindonesia.com/news/20261027082902-8-779713/video-kabut-asap-karhutla-ganggu-3030-penerbangan-1700-dibatalkan"
+  ]
+ },
+ {
+  "lines": "c3, c4",
+  "claim": "Kemenhut: 79 national high-confidence hotspots on 27 Oct 21:00 WIB vs 93 the day before; six priority provinces (Kalbar, Kalteng, Sumsel, Jambi, Kalsel, Riau) at zero.",
+  "numbers": "79; 93; 6 provinsi = 0",
+  "sensitivity": "normal",
+  "status": "verified (E0406)",
+  "sources": [
+   "https://www.kehutanan.go.id/news/hotspot-nasional-turun-jadi-79-titik-enam-provinsi-prioritas-nihil"
+  ]
+ },
+ {
+  "lines": "c5",
+  "claim": "BNPB, 29 Oct 07:00 WIB (NASA FIRMS): 462 ha affected by karhutla and still being handled (cumulative, not all burning) in 10 provinces; East Kalimantan 169 ha (province rows sum to 434 ha).",
+  "numbers": "462 ha; 10 provinsi; 169 ha",
+  "sensitivity": "normal",
+  "status": "verified (factcheck FIX 6 applied)",
+  "sources": [
+   "https://www.cnnindonesia.com/nasional/20261029174649-20-1421127/462-hektare-lahan-di-10-provinsi-ri-masih-terdampak-karhutla"
+  ]
+ },
+ {
+  "lines": "c6",
+  "claim": "BMKG (at the Palace, 26 Oct): rainy season ~20–30 days late due to El Nino.",
+  "numbers": "20–30 hari",
+  "sensitivity": "normal",
+  "status": "verified (IDX Channel, factcheck)",
+  "sources": [
+   "https://www.cnnindonesia.com/nasional/20261026170617-32-1419808/prabowo-panggil-mendagri-dan-kepala-bmkg-ke-istana",
+   "https://news.detik.com/berita/d-8724696/prabowo-panggil-mendagri-hingga-kepala-bmkg-bahas-karhutla-dan-mitigasi-bencana",
+   "https://www.idxchannel.com/news/rata-rata-musim-hujan-di-indonesia-mundur-20-30-hari-akibat-el-nino/all"
+  ]
+ },
+ {
+  "lines": "c7, c8",
+  "claim": "Kabareskrim Komjen Asep Safrudin, Thu 29 Oct: 245 individuals and 20 corporations named karhutla suspects; 5.859,12 ha (individual cases) + 29.168,78 ha (corporate) ≈ 35.028 ha (own sum, spoken 'sekitar 35 ribu').",
+  "numbers": "245; 20; ~35 ribu ha",
+  "sensitivity": "high",
+  "status": "verified (iNews, detik, Tempo)",
+  "sources": [
+   "https://www.inews.id/news/nasional/breaking-news-bareskrim-tetapkan-245-orang-dan-20-korporasi-tersangka-karhutla",
+   "https://news.detik.com/foto-news/d-8729626/bareskrim-tetapkan-245-tersangka-dan-20-korporasi-kasus-karhutla",
+   "https://www.tempo.co/hukum/245-perorangan-dan-20-korporasi-tersangka-kebakaran-hutan-2302627"
+  ]
+ },
+ {
+  "lines": "c9",
+  "claim": "Polhut Padayya (45, KPH Saddang II) died when a falling tree hit him while resting on the Karre road after helping put out a forest fire, North Toraja, Wed 28 Oct ~20.50 WITA.",
+  "numbers": "1",
+  "sensitivity": "high",
+  "status": "verified (factcheck FIX 7 applied)",
+  "sources": [
+   "https://www.cnnindonesia.com/nasional/20261029113103-20-1420925/polisi-hutan-tewas-tertimpa-pohon-saat-padamkan-karhutla-toraja-utara",
+   "https://www.liputan6.com/regional/read/8323850/polisi-hutan-meninggal-saat-padamkan-karhutla"
+  ]
+ },
+ {
+  "lines": "k2, k3, k4, k6, k7, k8, i3",
+  "claim": "KPK searched PT Djarum and KPPBC TMC Kudus on 28 Oct 2026; probing alleged kickbacks in pita cukai processing; seized documents and electronic evidence; development of the Feb 2026 Bea Cukai import-bribery OTT; parent case 8 suspects/defendants; general sprindik, no suspect yet incl. Djarum; Djarum: 'Kami menghormati dan menaati hukum.' Pita cukai per PMK 68/PMK.04/2018.",
+  "numbers": "28 Okt; 8",
+  "sensitivity": "high",
+  "status": "verified (29 Oct video, fact-check PASS)",
+  "sources": [
+   "https://news.detik.com/berita/d-8728488/geledah-pt-djarum-dan-bea-cukai-di-kudus-kpk-usut-dugaan-soal-pita-cukai",
+   "https://www.cnnindonesia.com/nasional/20261028192224-12-1420725/kpk-sita-dokumen-bbe-saat-geledah-kantor-djarum-bea-cukai-kudus",
+   "https://jdih.kemenkeu.go.id/dok/68-pmk-04-2018"
+  ]
+ },
+ {
+  "lines": "k5",
+  "claim": "Thu 29 Oct, KPK spokesperson Budi Prasetyo: 'Untuk hitungan awal di angka triliunan (kerugian negara)'; no exact figure.",
+  "numbers": "'triliunan'",
+  "sensitivity": "high",
+  "status": "verified (CNN Indonesia, factcheck)",
+  "sources": [
+   "https://www.cnnindonesia.com/nasional/20261029224700-12-1421226/kpk-kerugian-negara-korupsi-cukai-terkait-pt-djarum-capai-triliunan",
+   "https://www.antaranews.com/berita/5820691/kpk-nilai-negara-rugi-triliunan-rupiah-akibat-kasus-cukai-pt-djarum"
+  ]
+ },
+ {
+  "lines": "p1–p5, i3",
+  "claim": "28 Oct 2026 (Sumpah Pemuda): students incl. BEM UI and Komite Sadar rallied at Bundaran HI and Patung Kuda. Per BEM UI (Namora Siahaan, Okezone 27 Oct), five demands to Prabowo and Gibran: 1 karhutla national disaster; 2 review APBN 2027, end the MBG and KDMP programs; 3 lower education costs; 4 eradicate corruption and reform the legal system; 5 freedom of expression (+ past HAM cases) and end militarisation of civilian spaces. Attributed to BEM UI because other outlets list them differently.",
+  "numbers": "5 tuntutan",
+  "sensitivity": "high",
+  "status": "verified (factcheck FIX 3 applied)",
+  "sources": [
+   "https://www.rctiplus.com/news/detail/okezone/5502733/2-500-mahasiswa-siap-gelar-aksi-di-bundaran-hi-besok--ini-lima-tuntutannya",
+   "https://www.cnnindonesia.com/nasional/20261028155931-24-1420628/aksi-28-oktober-di-bundaran-hi-dan-patung-kuda",
+   "https://www.beritasatu.com/dki-jakarta/3037142/demo-28-oktober-12000-mahasiswa-dan-aktivis-menuju-bundaran-hi"
+  ]
+ },
+ {
+  "lines": "p6",
+  "claim": "BEM UI (Hafidz Haernanda, Beritasatu): 10.000–12.000 participants; BEM UI's pre-event estimate was ~2.500; no police total found. Spoken 'Kata BEM UI'.",
+  "numbers": "10–12 ribu (klaim penyelenggara)",
+  "sensitivity": "high",
+  "status": "verified as organisers' claim (E0419, Beritasatu)",
+  "sources": [
+   "https://www.beritasatu.com/dki-jakarta/3037142/demo-28-oktober-12000-mahasiswa-dan-aktivis-menuju-bundaran-hi",
+   "https://tempo.co/politik/demo-28-oktober-2302430"
+  ]
+ },
+ {
+  "lines": "p7",
+  "claim": "Polda Metro Jaya: 53 demonstrations in Jakarta on 28 Oct; rally started 14:00 WIB, dispersed ~19:45 WIB; police called it orderly.",
+  "numbers": "53; 14.00; 19.45",
+  "sensitivity": "high",
+  "status": "verified (E0401, E0419)",
+  "sources": [
+   "https://www.cnnindonesia.com/nasional/20261028203059-20-1420742/mahasiswa-bubar-arus-lalin-di-sudirman-thamrin-mulai-dibuka",
+   "https://tempo.co/politik/demo-28-oktober-2302430"
+  ]
+ },
+ {
+  "lines": "p8",
+  "claim": "Kepala Staf Kepresidenan Jenderal Pol Listyo Sigit Prabowo (28 Oct): KSP ready to receive aspirations from student representatives. (Not Bakom.)",
+  "numbers": "",
+  "sensitivity": "high",
+  "status": "verified (factcheck FIX 1 applied)",
+  "sources": [
+   "https://nasional.kompas.com/read/2026/10/28/17102831/kepala-staf-kepresidenan-siap-tampung-aspirasi-demonstran-hari-ini",
+   "https://kalteng.antaranews.com/berita/848323/listyo-tegaskan-ksp-siap-tampung-aspirasi-mahasiswa"
+  ]
+ },
+ {
+  "lines": "g2",
+  "claim": "Concerts still on (Shoemaker Live 27 Oct; Imigrasi 29 Oct cites a Mabes Polri crowd permit covering Borobudur and JIExpo): Borobudur 31 Oct, Jakarta 3 Nov. MUI still asks for cancellation (restated 27 Oct, pressing 29 Oct); spoken 'meski MUI minta dibatalkan'.",
+  "numbers": "31 Okt; 3 Nov",
+  "sensitivity": "medium",
+  "status": "verified; re-check Friday (factcheck FIX 9 applied)",
+  "sources": [
+   "https://www.cp24.com/news/entertainment/2026/10/27/andrea-bocelli-concerts-in-indonesia-to-proceed-despite-opposition-from-muslim-clerics/",
+   "https://news.republika.co.id/berita/tno2gn393/imigrasi-visa-andrea-bocelli-berdasarkan-izin-keramaian-mabes-polri",
+   "https://www.cnbcindonesia.com/lifestyle/20261028110304-33-780125/sempat-tuai-penolakan-mui-konser-andrea-bocelli-tetap-berjalan"
+  ]
+ },
+ {
+  "lines": "g3, g4, i4",
+  "claim": "1 Nov is reported by some media (Pelita Karawang, Sketsindonews; unsourced) as the government's scheduled UMP 2027 date, not a union request. KSPI/Partai Buruh demand +7,5–9,5%. Kemnaker: 'paling lambat akhir November' (Kontan 14 Oct); Yassierli 27 Oct: target last week of November.",
+  "numbers": "1 Nov; 7,5–9,5%; akhir Nov",
+  "sensitivity": "normal",
+  "status": "verified (factcheck FIX 2 applied)",
+  "sources": [
+   "https://www.pelitakarawang.com/2026/10/jelang-penetapan-1-november-2026-kspi.html",
+   "https://sketsindonews.com/2026/10/15/buruh-tuntut-ump-2027-naik-75-95-persen-kapan-pemerintah-menetapkan-upah/",
+   "https://nasional.kontan.co.id/news/penetapan-upah-minimum-2027-ditargetkan-rampung-akhir-november",
+   "https://www.metrotvnews.com/read/KRXCz4A3-pembahasan-awal-ump-2027-ditargetkan-rampung-akhir-november"
+  ]
+ },
+ {
+  "lines": "g5",
+  "claim": "BPS usually releases monthly inflation early in the following month (Sept data released 1 Oct); Sept 2026 inflation 3,28% y/y. October release date not confirmed, so 'biasanya awal November'.",
+  "numbers": "3,28%",
+  "sensitivity": "normal",
+  "status": "verified (E0278)",
+  "sources": [
+   "https://sultra.antaranews.com/berita/542064/bps-catat-inflasi-ri-328-persen-pada-september-2026"
+  ]
+ },
+ {
+  "lines": "g6",
+  "claim": "Prosecutors will call Jokowi as a witness at the 5 Nov hearing of Roy Suryo (defamation/ITE over the diploma) at PN Jakarta Timur; Jokowi says he will attend.",
+  "numbers": "5 Nov",
+  "sensitivity": "high",
+  "status": "upcoming (E0405, E0421)",
+  "sources": [
+   "https://news.detik.com/berita/d-8728102/jaksa-hadirkan-jokowi-pekan-depan-roy-suryo-ini-yang-ditunggu-tunggu",
+   "https://www.cnnindonesia.com/nasional/20261028171856-20-1420668/jokowi-bakal-hadiri-sidang-roy-suryo-pekan-depan",
+   "https://regional.kompas.com/read/2026/10/29/123201678/jokowi-siap-hadir-sebagai-saksi-di-sidang-roy-suryo-pekan-depan"
+  ]
+ }
+]

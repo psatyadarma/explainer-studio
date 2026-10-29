@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Rangkumin Seminggu — chapter</title>
+<!-- ../../../../../../ is replaced by engine/weekly.py init with the path back to the repo root -->
+<link rel="stylesheet" href="../../../../../../styles/sticker/sticker.css">
+<link rel="stylesheet" href="../../../../../../styles/sticker/weekly/weekly.css">
+<script src="../../../../../../styles/sticker/sticker.js"></script>
+<script src="build/timing.js"></script>
+<script src="../../build/week.js"></script>
+<script src="../../../../../../styles/sticker/weekly/weekly.js"></script>
+<style>
+  .card{position:absolute;background:#fff;border-radius:28px;box-shadow:0 0 0 10px #fff,0 18px 30px rgba(27,36,48,.18);text-align:center;transform:translate(-50%,-50%);transform-origin:50% 50%}
+  .big{font-weight:900;font-size:150px;letter-spacing:-5px;line-height:1;color:var(--accent)}
+  .mid{font-weight:900;font-size:84px;letter-spacing:-3px;line-height:1}
+  .cap{font-weight:800;font-size:38px;color:var(--slate);margin-top:10px}
+  .col{position:absolute;bottom:0;width:230px;border-radius:20px 20px 0 0;background:var(--slate);transform-origin:50% 100%}
+  .col.hi{background:var(--accent)}
+  .cl{position:absolute;font-weight:900;font-size:50px;text-align:center;width:420px;transform:translateX(-50%)}
+  .tagx{position:absolute;transform:translate(-50%,-50%);background:var(--ink);color:#fff;font-weight:800;font-size:38px;border-radius:14px;padding:8px 22px;white-space:nowrap}
+  .hbar{position:absolute;height:90px;border-radius:16px;transform-origin:0 50%}
+</style>
+</head>
+<body>
+<div id="stage">
+  <div id="world">
+    <!-- ZONE A x960: Brent vs APBN assumption -->
+    <div class="abs" style="left:960px;top:440px;width:1000px;height:440px;">
+      <div id="gA" class="col" style="left:230px;height:200px"></div><div class="cl" style="left:345px;top:450px" id="lA">APBN 2026<br>US$70</div>
+      <div id="gB" class="col hi" style="left:600px;height:330px"></div><div class="cl" id="lB" style="left:715px;top:450px">Brent<br>&gt;US$115</div>
+    </div>
+    <div id="b115" class="card" style="left:400px;top:360px;padding:22px 40px"><div class="big">&gt; 115</div><div class="cap">dolar per barel</div></div>
+    <div id="t23" class="tagx" style="left:1590px;top:300px">Jum 23 Okt · tertinggi 5 bulan</div>
+    <div id="t26" class="tagx" style="left:1590px;top:380px;background:var(--accent)">Senin: 115,81</div>
+    <!-- ZONE B x2960: pump + counter -->
+    <div id="pump" class="card" style="left:2500px;top:480px;padding:30px 50px;width:620px"><div class="cap" style="margin:0 0 6px">Pertalite · SPBU</div><div class="mid">Rp10.000</div><div class="cap">per liter · tetap</div></div>
+    <div id="sub" class="card" style="left:3420px;top:560px;padding:30px 50px;width:780px"><div class="cap" style="margin:0 0 6px">Subsidi + kompensasi, sampai September</div><div class="big" id="cnt" style="font-size:130px">Rp0</div><div class="cap"><b id="pct" style="color:var(--accent)">+54%</b> dibanding tahun lalu</div></div>
+    <div id="tgt" class="tagx" style="left:3000px;top:260px">ditanggung APBN → Pertamina &amp; PLN</div>
+    <!-- ZONE C x4960: SUN auction -->
+    <div id="utang" class="card" style="left:4960px;top:460px;padding:30px 60px;width:1000px"><div class="mid">APBN juga dibiayai utang</div><div class="cap">lewat surat utang negara (SUN)</div></div>
+    <div id="sun" class="tagx" style="left:4960px;top:130px;font-size:46px">Lelang SUN · Selasa</div>
+    <div class="abs" style="left:4960px;top:470px;width:1200px;height:520px;">
+      <div id="hT" class="hbar" style="left:0;top:20px;width:1000px;background:#fff;border:6px dashed var(--slate);box-sizing:border-box"></div>
+      <div class="cl" style="left:500px;top:0;display:none"></div>
+      <div id="hT2" class="cap" style="position:absolute;left:20px;top:128px;margin:0">Target Rp30 triliun</div>
+      <div id="hB" class="hbar" style="left:0;top:210px;width:1034px;background:var(--slate)"></div>
+      <div id="hBl" class="cap" style="position:absolute;left:20px;top:318px;margin:0">Penawaran masuk Rp31,09 triliun</div>
+      <div id="hA" class="hbar" style="left:0;top:380px;width:688px;background:var(--accent)"></div>
+      <div id="hAl" class="cap" style="position:absolute;left:20px;top:488px;margin:0;color:var(--accent)">Diserap Rp20,65 triliun</div>
+    </div>
+    <div id="low" class="tagx" style="left:5600px;top:640px;background:var(--accent)">terendah sejak Nov 2024</div>
+    <!-- ZONE D x6960: yield -->
+    <div id="yld" class="card" style="left:6960px;top:480px;padding:30px 60px;width:760px"><div class="cap" style="margin:0 0 6px">Imbal hasil SUN ~10 tahun</div><div class="big" id="ynum" style="font-size:190px">0</div><div class="cap">tertinggi sejak Nov 2022</div></div>
+    <div id="mahal" class="tagx" style="left:6960px;top:730px;font-size:46px;background:var(--accent)">ngutang baru makin mahal</div>
+    <div id="q" class="card" style="left:6960px;top:150px;padding:16px 40px;white-space:nowrap"><div class="cap" style="margin:0;color:var(--ink)">Sampai kapan Pertalite Rp10.000 bisa ditahan?</div></div>
+  </div>
+  <div id="card"><div class="kicker" id="cKick"></div><div class="title" id="cTitle"></div><div class="sub" id="cSub"></div></div>
+  <div class="lower" id="lower1" style="bottom:270px">Sumber<small>keterangan</small></div>
+  <div id="brand"><div class="dot"></div><b>Rangkumin Dong</b></div>
+  <div id="subs"></div>
+  <div id="progress"></div>
+</div>
+<script>
+// ---- chapter data (the chapter-builder replaces this block; every number must be in the script and verified) ----
+window.CHAPTER = Number(location.pathname.split('/').slice(-2)[0]);
+const DATA = {};
+// -----------------------------------------------------------------------------------------------
+const $ = (id) => document.getElementById(id);
+const T = window.TIMING; window.DURATION = T.duration;
+const ch = (window.WEEK?.chapters || []).find((c) => c.n === window.CHAPTER) || {};
+$('cKick').textContent = ch.kicker || ''; $('cTitle').textContent = ch.title || ''; $('cSub').textContent = window.WEEK?.dates || '';
+const A = (id, o = 0) => K.at(id, o), W = (id, w, n = 0) => K.word(id, w, n);
+const lab = $('lower1');
+lab.innerHTML = 'Sumber<small>Detik, CNBC Indonesia, APBN KiTa, Bisnis</small>';
+const ease = (t, s, d) => K.easeOut(K.prog(t, s, d));
+function seek(t) {
+  K.cam16($('world'), [
+    { t: 0, x: 960, y: 540, z: 1 },
+    { t: A('b4', -0.3), x: 2960, y: 540, z: 1 },
+    { t: A('b7', -0.3), x: 4960, y: 540, z: 1 },
+    { t: A('b9', -0.3), x: 6960, y: 540, z: 1 }], t);
+  K.titleCard($('card'), t, 2.0);
+  // zone A
+  K.pop($('b115'), t, W('b1', '115') - 0.1);
+  $('gA').style.transform = `scaleY(${K.spring(t - A('b3', 6.5))})`;
+  $('gB').style.transform = `scaleY(${K.spring(t - A('b2', 0.5))})`;
+  $('lB').style.opacity = K.clamp((t - A('b2', 0.5)) / 0.3);
+  $('lA').style.opacity = K.clamp((t - A('b3', 6.5)) / 0.3);
+  K.pop($('t23'), t, W('b2', '23') - 0.1);
+  K.pop($('t26'), t, W('b3', '115,81') - 0.1);
+  // zone B
+  K.pop($('pump'), t, W('b4', 'Pertalite') - 0.1);
+  K.pop($('tgt'), t, A('b5', 0.4));
+  K.pop($('sub'), t, A('b6', 0.3));
+  $('cnt').textContent = 'Rp' + (376.8 * ease(t, A('b6', 2.0), 1.6)).toFixed(1).replace('.', ',') + ' T';
+  K.pop($('pct'), t, W('b6', '54') - 0.1);
+  // zone C
+  { const u = $('utang'); K.pop(u, t, A('b7', 0.2)); u.style.opacity = u.style.opacity === '' ? '' : (t > A('b8', 0.1) ? 1 - K.prog(t, A('b8', 0.1), 0.3) : u.style.opacity); if (t > A('b8', 0.4)) u.style.display = 'none'; else u.style.display = ''; }
+  K.pop($('sun'), t, A('b7', 3.8));
+  $('hT').style.transform = `scaleX(${ease(t, A('b8', 0.2), 0.5)})`; $('hT2').style.opacity = K.clamp((t - A('b8', 0.4)) / 0.3);
+  $('hBl').style.opacity = K.clamp((t - W('b8', 'Rp31,09') + 0.2) / 0.3); $('hAl').style.opacity = K.clamp((t - W('b8', 'Rp20,65') + 0.2) / 0.3);
+  $('hB').style.transform = `scaleX(${ease(t, W('b8', 'Rp31,09') - 0.2, 0.7)})`;
+  $('hA').style.transform = `scaleX(${ease(t, W('b8', 'Rp20,65') - 0.2, 0.7)})`;
+  [['hB', 'Rp31,09'], ['hA', 'Rp20,65']].forEach(() => {});
+  K.pop($('low'), t, W('b8', '2024.') - 0.8);
+  // zone D
+  K.pop($('yld'), t, A('b9', 0.5));
+  $('ynum').textContent = (7.54 * ease(t, W('b9', '7,54') - 0.3, 0.9)).toFixed(2).replace('.', ',') + '%';
+  K.pop($('mahal'), t, A('b9', 9.0));
+  K.pop($('q'), t, A('b11', 0.3));
+  K.lower($('lower1'), t, 3.0, 9.0);
+  K.subtitles($('subs'), t);
+  K.weekly(t);
+}
+window.seek = seek;
+</script>
+</body>
+</html>

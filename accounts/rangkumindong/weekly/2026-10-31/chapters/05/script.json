@@ -1,0 +1,58 @@
+{
+ "direction": "[warm, clear weekly recap; neutral, attributed]",
+ "lines": [
+  {
+   "id": "k1",
+   "tag": "[curious]",
+   "text": "Kamis kemarin kami bahas: pita kecil di bungkus rokok. Kenapa KPK geledah kantor Djarum?",
+   "say": "Kamis kemarin kami bahas: pita kecil di bungkus rokok. Kenapa Ka Pe Ka geledah kantor Djarum?"
+  },
+  {
+   "id": "k2",
+   "tag": "[neutral, reporting]",
+   "text": "Rabu, 28 Oktober, KPK menggeledah kantor PT Djarum dan kantor Bea Cukai di Kudus.",
+   "say": "Rabu, dua puluh delapan Oktober, Ka Pe Ka menggeledah kantor Pe Te Djarum, dan kantor Bea Cukai di Kudus."
+  },
+  {
+   "id": "k3",
+   "tag": "[explaining]",
+   "text": "Pita cukai itu tanda cukai rokok sudah dilunasi. Pabrik memesannya ke Bea Cukai, lalu wajib menempelnya sebelum rokok keluar pabrik."
+  },
+  {
+   "id": "k4",
+   "tag": "[neutral, reporting]",
+   "text": "Kata Jubir KPK Budi Prasetyo, yang didalami: dugaan kickback dari pengurusan pita cukai. Yang disita: dokumen dan barang bukti elektronik.",
+   "say": "Kata Jubir, Ka Pe Ka, Budi Prasetyo, yang didalami: dugaan kikbek dari pengurusan pita cukai. Yang disita: dokumen dan barang bukti elektronik."
+  },
+  {
+   "id": "k5",
+   "tag": "[serious]",
+   "text": "Kamis, KPK bicara angka: hitungan awal kerugian negaranya, triliunan rupiah. Angka pastinya belum disebut.",
+   "say": "Kamis, Ka Pe Ka bicara angka: hitungan awal kerugian negaranya, triliunan rupiah. Angka pastinya belum disebut."
+  },
+  {
+   "id": "k6",
+   "tag": "[explaining]",
+   "text": "Ini pengembangan kasus dugaan suap impor di Bea Cukai, yang terungkap lewat OTT Februari. Di kasus induk itu, sudah 8 orang tersangka dan terdakwa.",
+   "say": "Ini pengembangan kasus dugaan suap impor di Bea Cukai, yang terungkap lewat, O Te Te, Februari. Di kasus induk itu, sudah delapan orang tersangka dan terdakwa."
+  },
+  {
+   "id": "k7",
+   "tag": "[careful]",
+   "text": "Tapi untuk pita cukai ini, kata KPK, belum ada tersangka. Termasuk Djarum.",
+   "say": "Tapi untuk pita cukai ini, kata Ka Pe Ka, belum ada tersangka. Termasuk Djarum."
+  },
+  {
+   "id": "k8",
+   "tag": "[neutral]",
+   "text": "Djarum Group bilang: “Kami menghormati dan menaati hukum.”",
+   "say": "Djarum Group bilang: kami menghormati dan menaati hukum."
+  },
+  {
+   "id": "k9",
+   "tag": "[calm]",
+   "text": "Ingat: digeledah bukan berarti bersalah."
+  }
+ ],
+ "tail": 0.6
+}

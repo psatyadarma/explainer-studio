@@ -1,0 +1,316 @@
+{
+ "area": "politics",
+ "run_date": "2026-10-30",
+ "checked": [
+  "detik news berita",
+  "CNN Indonesia info-politik",
+  "ANTARA hukum",
+  "Tempo politik (robots-blocked; via search)",
+  "Watch list found: KPK, MK, demonstrations, Presiden/Istana, DPR/Tipikor, Polri karhutla",
+  "Storyline searches: gibran-ijazah-mk, definisi-korupsi, karhutla (via MK/Polri), ump-2027, jokowi-ijazah-roy-suryo, corruption-cases"
+ ],
+ "events": [
+  {
+   "date": "2026-10-29",
+   "category": "POL",
+   "event": "KPK spokesperson Budi Prasetyo says state losses in the PT Djarum excise-stamp (cukai) case are in the 'trillions of rupiah' range, a day after KPK searched Djarum's head office and the Kudus customs office.",
+   "key_numbers": "Loss estimate: 'angka triliunan' (no exact figure) · new sprindik (investigation order) issued Oct 2026 · 0 suspects named · follow-up to Feb 2026 Bea Cukai case · period of alleged misconduct undisclosed, to be probed back several years",
+   "storyline": "corruption-cases",
+   "update_of": "E0402",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/nasional/20261029224700-12-1421226/kpk-kerugian-negara-korupsi-cukai-terkait-pt-djarum-capai-triliunan"
+    },
+    {
+     "label": "ANTARA",
+     "url": "https://www.antaranews.com/berita/5820691/kpk-nilai-negara-rugi-triliunan-rupiah-akibat-kasus-cukai-pt-djarum"
+    }
+   ],
+   "why_it_matters": "A household-name cigarette maker is under KPK investigation over excise that feeds the state budget.",
+   "signals": {
+    "spreading": 2,
+    "wallet": 1,
+    "surprise": 2,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "ANTARA hukum Terkini top; widely covered by CNN, Media Indonesia, Beritasatu, iNews",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-10-29",
+   "category": "POL",
+   "event": "At the Jakarta Tipikor Court, prosecutors indict former Deputy Minister of Immigration and Corrections Silmy Karim and others of extorting immigration-service agents over residence-permit status changes; the indictment mentions a code 'RAMA' for a minister's share.",
+   "key_numbers": "Total received Rp168.97 billion (2021-2026) · Silmy Karim Rp1.2 billion (also gratification Rp33.94 billion per Republika) · 'RAMA' (minister) Rp40 million per week · 'uang loket' up to Rp8 million per application · 7 defendants; presiding judge Atep Sopandi · Silmy files objection (perlawanan) to indictment",
+   "storyline": "",
+   "update_of": "",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/nasional/20261029153433-12-1421045/silmy-karim-didakwa-pemerasan-rp168-miliar-terkait-izin-tinggal-wna"
+    },
+    {
+     "label": "ANTARA",
+     "url": "https://www.antaranews.com/berita/5819519/silmy-karim-didakwa-peras-biro-jasa-penjamin-wna-rp16892-miliar"
+    },
+    {
+     "label": "Suara.com",
+     "url": "https://www.suara.com/news/2026/10/29/171928/terungkap-di-sidang-silmy-karim-kode-rama-untuk-jatah-menteri-rp40-juta-per-minggu"
+    }
+   ],
+   "why_it_matters": "Shows how foreigners' stay permits allegedly came with unofficial fees inside a ministry; the minister behind 'RAMA' is not named in the indictment coverage.",
+   "signals": {
+    "spreading": 2,
+    "wallet": 0,
+    "surprise": 2,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "ANTARA hukum Terpopuler #1",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-10-29",
+   "category": "POL",
+   "event": "The Constitutional Court (MK) rejects a petition by four Palangkaraya residents affected by forest fires who challenged the word 'adequate' (yang memadai) in the Disaster Management Law on budget allocations.",
+   "key_numbers": "Case 369/PUU-XXIV/2026 · UU 24/2007 Art 6(e) and 8(d) · MK read 20 judicial-review decisions the same day · ruling 'unfounded in law in its entirety' · read by Justice Liliek Prisbawono Adi",
+   "storyline": "karhutla",
+   "update_of": "",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "ANTARA",
+     "url": "https://www.antaranews.com/berita/5820583/mk-tolak-uji-materil-warga-terdampak-karhutla-dalil-tidak-berdasar"
+    }
+   ],
+   "why_it_matters": "Citizens could not force a measurable standard for how much government must budget for disaster response, as haze and fires remain a live issue.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 0,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "ANTARA hukum feed top; MK 20-decision day listed in Terpopuler",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-10-28",
+   "category": "POL",
+   "event": "Thousands of students and civil groups (BEM UI, SADAR) rally at Bundaran HI on Sumpah Pemuda to evaluate two years of the Prabowo-Gibran government; Jakarta police call the rally orderly and the road reopens, while Bakom says the government is open to input.",
+   "key_numbers": "Organisers: 10,000-12,000 participants · 53 demonstrations secured by police in Jakarta that day · demands include economic-policy fixes, APBN cuts, declaring karhutla a national disaster · Yogyakarta rally reportedly turned chaotic (one outlet)",
+   "storyline": "student-protest-28-oct",
+   "update_of": "E0401",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "Beritasatu",
+     "url": "https://www.beritasatu.com/dki-jakarta/3037142/demo-28-oktober-12000-mahasiswa-dan-aktivis-menuju-bundaran-hi"
+    },
+    {
+     "label": "Tempo",
+     "url": "https://tempo.co/politik/demo-28-oktober-2302430"
+    },
+    {
+     "label": "detik",
+     "url": "https://news.detik.com/berita"
+    }
+   ],
+   "why_it_matters": "Biggest student protest of the Prabowo term so far; government response and any follow-up rallies will shape the political mood.",
+   "signals": {
+    "spreading": 2,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 1,
+    "fresh": 1,
+    "rivals": 1
+   },
+   "spreading_evidence": "detik most-commented politics; multiple outlets",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-10-27",
+   "category": "POL",
+   "event": "Coordinating Minister Yusril Ihza Mahendra, after receiving the DEN study from Luhut, says the Tipikor revision will broaden the corruption definition but will not delete the 'state financial loss' element; the term 'perekonomian negara' is still undecided.",
+   "key_numbers": "Meeting Tue 27 Oct at Dekonas · Pasal 2 and 3 described as 'pasal sapu jagat' · aim: single definition of state finances (BPK Law vs State Treasury Law differ) · no decision yet on removing 'economic loss'",
+   "storyline": "definisi-korupsi",
+   "update_of": "E0390",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "detik",
+     "url": "https://news.detik.com/berita/d-8726231/yusril-tegaskan-unsur-kerugian-negara-tak-akan-dihapus-dalam-definisi-korupsi"
+    },
+    {
+     "label": "Tempo",
+     "url": "https://tempo.co/politik/prabowo-instruksikan-kajian-mendalam-soal-definisi-korupsi-2302259"
+    }
+   ],
+   "why_it_matters": "Decides whether officials can be prosecuted for policy decisions that lose state money.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 1,
+    "surprise": 1,
+    "visual": 1,
+    "fresh": 1,
+    "rivals": 1
+   },
+   "spreading_evidence": "detik most-commented: Sahroni on Tipikor revision (67 comments)",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-10-28",
+   "category": "POL",
+   "event": "PKS Secretary-General Muhammad Kholid admits communicating with PDIP Secretary-General Hasto about following up the MK's findings on VP Gibran's diploma; PDIP separately says it 'doesn't like dealing with used goods' in reply to Gibran's volunteers.",
+   "key_numbers": "Detik most-commented: PDIP vs Gibran volunteers 97 comments · PKS sounding out DPR factions (DPR in recess 9 Oct-9 Nov)",
+   "storyline": "gibran-ijazah-mk",
+   "update_of": "E0404",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "detik",
+     "url": "https://news.detik.com/berita/d-8726231/yusril-tegaskan-unsur-kerugian-negara-tak-akan-dihapus-dalam-definisi-korupsi"
+    }
+   ],
+   "why_it_matters": "Shows whether a political route on the MK findings is forming across parties; MK itself found no evidence of an SMA-equivalent diploma but could not disqualify.",
+   "signals": {
+    "spreading": 2,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 0,
+    "fresh": 1,
+    "rivals": 1
+   },
+   "spreading_evidence": "detik most-commented #1 (97 comments)",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-11-05",
+   "category": "POL",
+   "event": "Former President Jokowi says he will attend as a prosecution witness at Roy Suryo and Dokter Tifa's slander/ITE trial at East Jakarta District Court next week.",
+   "key_numbers": "Reported date 5 Nov 2026 · hearing at East Jakarta District Court · Roy Suryo: 'ini yang ditunggu-tunggu'",
+   "storyline": "jokowi-ijazah-roy-suryo",
+   "update_of": "E0405",
+   "status": "upcoming",
+   "sources": [
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/nasional/20261028171856-20-1420668/jokowi-bakal-hadiri-sidang-roy-suryo-pekan-depan"
+    },
+    {
+     "label": "Kompas",
+     "url": "https://regional.kompas.com/read/2026/10/29/123201678/jokowi-siap-hadir-sebagai-saksi-di-sidang-roy-suryo-pekan-depan"
+    }
+   ],
+   "why_it_matters": "A former president testifying in a case about his own diploma claims.",
+   "signals": {
+    "spreading": 2,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 1,
+    "fresh": 1,
+    "rivals": 1
+   },
+   "spreading_evidence": "detik/CNN/Kompas all covered",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-10-29",
+   "category": "POL",
+   "event": "KPK examines Bogor Regent as a witness in a regency corruption case and probes assets received by Bengkulu city councillors and the husband of Pekalongan Regent Fadia Arafiq in a suspected money-laundering (TPPU) case.",
+   "key_numbers": "Bupati Bogor witness exam (29 Oct) · Bengkulu DPRD assets probe · Fadia Arafiq's husband: TPPU",
+   "storyline": "corruption-cases",
+   "update_of": "E0269",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "ANTARA",
+     "url": "https://www.antaranews.com/hukum"
+    }
+   ],
+   "why_it_matters": "Regional-head corruption cases keep rolling; Fadia Arafiq's case links to Jokowi circle coverage.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 0,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "ANTARA hukum Terkini",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-10-29",
+   "category": "POL",
+   "event": "Police (Polri) report naming 245 people and 20 corporations suspects in forest and land fire (karhutla) cases, and Polda Kaltim names 33 suspects.",
+   "key_numbers": "245 individuals · 20 corporations · Polda Kaltim 33 suspects · BNPB: 462 ha still burning across 10 provinces (provincial rows sum to 434 ha)",
+   "storyline": "karhutla",
+   "update_of": "",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "ANTARA",
+     "url": "https://www.antaranews.com/hukum"
+    },
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/nasional/20261029174649-20-1421127/462-hektare-lahan-di-10-provinsi-ri-masih-terdampak-karhutla"
+    }
+   ],
+   "why_it_matters": "Whether companies, not just small farmers, face charges for the haze.",
+   "signals": {
+    "spreading": 2,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 2,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "ANTARA hukum Terpopuler #2",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-17",
+   "category": "ECO",
+   "event": "Government is due to finalise 2027 provincial minimum wages (UMP 2027); Menaker Yassierli says internal discussion should finish in November while unions demand 7.5-9.5% rises and hold rallies in 38 provinces through 30 Oct.",
+   "key_numbers": "Union demand 7.5%-9.5% · internal deliberation target: end of November · formula follows new law (Menaker) · rallies 15-30 Oct in 38 provinces",
+   "storyline": "ump-2027",
+   "update_of": "E0068",
+   "status": "upcoming",
+   "sources": [
+    {
+     "label": "detik",
+     "url": "https://www.detik.com/sumut/berita/d-8726331/ump-2027-ditargetkan-rampung-akhir-november"
+    },
+    {
+     "label": "Katadata",
+     "url": "https://katadata.co.id/berita/nasional/6ae076253350b/ump-2027-mulai-bergulir-menaker-target-pembahasan-internal-tuntas-november"
+    }
+   ],
+   "why_it_matters": "Decides what millions of workers' base pay will be in 2027.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 2,
+    "surprise": 1,
+    "visual": 2,
+    "fresh": 1,
+    "rivals": 1
+   },
+   "spreading_evidence": "",
+   "sensitivity": "normal"
+  }
+ ],
+ "gaps": [
+  "ANTARA Djarum and Silmy articles blocked on WebFetch; figures from CNN/search snippets",
+  "Tempo/Kompas pages not readable; no 29-30 Oct Istana response to the 28 Oct protests verified",
+  "Which minister is 'RAMA' unreported",
+  "Silmy Karim gratification Rp33.94 billion only from Republika snippet"
+ ]
+}

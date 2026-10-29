@@ -1,0 +1,98 @@
+{
+  "area": "markets",
+  "run_date": "2026-10-30",
+  "checked": ["CNBC Indonesia market (via search results + article)", "detikFinance front page", "Antara ekonomi", "Bisnis.com (search results only; pages failed to fetch)", "watch list found: IHSG close and movers, foreign net sell, rupiah/BI, Fed global shock, PHK, MSCI storyline", "watch list not seen: OJK new action, BPS release, APBN/tax new decision, Danantara new item", "storyline searches: msci-reclassification, rupiah, survival-mode (fuel prices)"],
+  "events": [
+    {
+      "date": "2026-10-29",
+      "category": "MKT",
+      "event": "The IHSG closed down 3.49% at 5,098.06 on 29 October, near its low of the day, after opening around 5,305 and reversing before 10:00 WIB.",
+      "key_numbers": "IHSG 5,098.06 (-184.26 pts, -3.49%) · open ~5,305.20 · 217.69 million lots, Rp10.13 T traded · utilities -5.99%, basic materials -4.02% · drags: BBCA, ASII, BBRI, TLKM, BMRI",
+      "storyline": "msci-reclassification",
+      "update_of": "E0381",
+      "status": "verified",
+      "sources": [{"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/market/20261029160737-17-780647/ihsg-ditutup-anjlok-349-ke-5098"}, {"label": "Kontan", "url": "https://keuangan.kontan.co.id/news/saham-big-banks-kompak-melemah-2910-asing-ramai-ramai-jual-saham-bbca-terparah"}],
+      "why_it_matters": "Biggest one-day fall since the 19 Oct slump, wiping out the previous days' recovery and putting the index back near 10-year lows.",
+      "signals": {"spreading": 2, "wallet": 1, "surprise": 2, "visual": 2, "fresh": 2, "rivals": 0},
+      "spreading_evidence": "Several CNBC Indonesia breaking items on 29 Oct; Kontan, Kompas, Bisnis all report it",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-29",
+      "category": "BIZ",
+      "event": "BCA (BBCA) shares fell 6.35% to Rp4,940 on 29 October, the worst of the big four banks, with the largest foreign net sell among them.",
+      "key_numbers": "BBCA -6.35% to Rp4,940, foreign net sell Rp503.49 B · BBRI -3.77% to Rp2,810, net sell Rp164.50 B · BMRI -3.12% to Rp3,720, net sell Rp155.86 B · BBNI -3.28% to Rp3,240, net sell Rp36.68 B · total foreign net sell Rp1.52 T (body) vs Rp1.08 T (Kontan sidebar)",
+      "storyline": "msci-reclassification",
+      "update_of": "E0381",
+      "status": "partial",
+      "sources": [{"label": "Kontan", "url": "https://keuangan.kontan.co.id/news/saham-big-banks-kompak-melemah-2910-asing-ramai-ramai-jual-saham-bbca-terparah"}, {"label": "Berita Satu", "url": "https://www.beritasatu.com/ekonomi/3037480/saham-bca-anjlok-635-persen-net-sell-tembus-rp-4085-miliar"}],
+      "why_it_matters": "BCA is the market's heaviest stock and many retail investors hold it, so its drop drives the whole index.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 2, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-28",
+      "category": "GLB",
+      "event": "The US Federal Reserve held rates at 3.75%-4.00% in a split vote, with two officials favouring a hike, and Chair Kevin Warsh declined to signal the next move.",
+      "key_numbers": "Fed funds 3.75%-4.00% · dissent: Lisa Cook and Beth Hammack wanted +25 bp · ~80% market odds of a December hike · US 10-year yield 5.042% · US jobless claims 194,000 vs 200,000 expected",
+      "storyline": "rupiah",
+      "update_of": "E0277",
+      "status": "partial",
+      "sources": [{"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/market/20261029145637-17-780612/breaking-ihsg-anjlok-3-ini-penyebabnya"}],
+      "why_it_matters": "Higher US rates pull money out of Indonesian stocks, bonds and the rupiah, the main reason cited for the 29 Oct sell-off.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-29",
+      "category": "GLB",
+      "event": "US September PCE inflation rose to 3.6% year on year, with core at 3.1%, both matching forecasts, keeping a Fed hike in play.",
+      "key_numbers": "Headline PCE 3.6% y/y (Aug 3.4%), +0.5% m/m · core PCE 3.1% y/y (Aug 3.0%), +0.3% m/m · savings rate 3.8%",
+      "storyline": "rupiah",
+      "update_of": "",
+      "status": "partial",
+      "sources": [{"label": "IndexBox (citing LSEG poll)", "url": "https://www.indexbox.io/blog/feds-preferred-inflation-gauge-rises-to-36-in-september-2026/"}],
+      "why_it_matters": "Sticky US inflation means US rates stay high longer, adding pressure on the rupiah and Indonesian markets.",
+      "signals": {"spreading": 0, "wallet": 1, "surprise": 0, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-29",
+      "category": "MKT",
+      "event": "The rupiah closed stronger on 29 October at about Rp18,137-18,140 per US dollar as the dollar index fell, after weakening to about Rp18,184 the day before.",
+      "key_numbers": "Close Rp18,137 (Okezone) / Rp18,140 (Bisnis), +0.26% · 28 Oct ~Rp18,184 per detikFinance headline (would exceed the 8 Jun close of Rp18,170 Bisnis; unverified) · 27 Oct close Rp18,145",
+      "storyline": "rupiah",
+      "update_of": "E0351",
+      "status": "partial",
+      "sources": [{"label": "Bisnis.com", "url": "https://market.bisnis.com/read/20261029/93/2016765/rupiah-ditutup-menguat-ke-rp18140-per-dolar-as-greenback-tersungkur"}, {"label": "Okezone", "url": "https://economy.okezone.com/read/2026/10/29/320/3250943/rupiah-ditutup-menguat-ke-rp18-137-per-dolar-as"}, {"label": "detikFinance", "url": "https://finance.detik.com/"}],
+      "why_it_matters": "The rupiah is hovering at record-weak levels, which raises prices of imports, fuel and electronics.",
+      "signals": {"spreading": 1, "wallet": 2, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 0},
+      "spreading_evidence": "detikFinance rupiah/BI items on front page 28-29 Oct",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-23",
+      "category": "BIZ",
+      "event": "Shoe factory PT Parkland World Indonesia (PWI) in Lebak, Banten, completed the layoff of all 1,100 workers on 23 October after its building lease ended and was not renewed.",
+      "key_numbers": "1,100 workers laid off · ~900 earlier furloughed · staged layoffs from late 2025 to 23 Oct 2026 · South Korean-owned",
+      "storyline": "",
+      "update_of": "",
+      "status": "verified",
+      "sources": [{"label": "detikFinance", "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8724731/1-100-karyawan-kena-phk-imbas-pabrik-sepatu-di-lebak-tutup"}, {"label": "Kompas", "url": "https://regional.kompas.com/read/2026/10/27/070157078/pabrik-sepatu-pwi-hengkang-dari-lebak-1100-pekerja-kena-phk-bupati-singgung"}, {"label": "ANTARA Banten", "url": "https://banten.antaranews.com/berita/394351/korban-phk-pabrik-di-lebak-jadi-prioritas-ditampung-di-perusahaan-baru"}],
+      "why_it_matters": "A large PHK in a labour-intensive sector, while the regent hinted at local interference and the company plans to restart elsewhere.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 1, "fresh": 1, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    }
+  ],
+  "gaps": [
+    "Foreign net sell for 29 Oct conflicts (Rp1.52 T body vs Rp1.08 T sidebar vs earlier intraday Rp912 B); check IDX data before use",
+    "Detik headlines seen but not opened: DJP tracks 22,662 multinational taxpayers, only 25% compliant; rumored removal of gold export duty; rice-mixing syndicate at Cipinang; BI says rupiah weakness is due to rupiah deposits converting to FX; Prabowo 'strong message' to MSCI",
+    "Hashim Djojohadikusumo remarks on MSCI impact (dollar could reach Rp22,000, per snippet) seen in search only; Tempo blocked, unverified",
+    "Bisnis.com pages (ekonomi, 28 Oct fuel price list for November) failed to fetch; November non-subsidised fuel prices and BPS October inflation/Q3 GDP release dates not confirmed",
+    "Antam profit +46% to Sep 2026 (ANTARA snippet) not opened"
+  ]
+}
