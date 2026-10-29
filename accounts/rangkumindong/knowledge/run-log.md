@@ -53,3 +53,9 @@ History moved out of HANDOFF.md (22 Oct) so fresh sessions read less. Append one
 - No user reply all day: default pick #1 at 14:00, default auto-post at 18:40. Hook-critic A 12/14, B kamu_stakes (person_collage fallback, no face). Full fact-check PASS ("1.700 rute" in CNBC body = slip; 23/hari own calc).
 - Producer A 43.1 s / B 42.5 s; QA round 1 FIX (subs into bottom zone; sync FIX was a mis-measure at default lead 0.08 — at the real 0.02 it's −80 ms) → round 2 PASS both. Posted 19:00: IG DfCRqk-jygU, YT IsQsbiAmYxE. B not posted (Trial Reels blocked).
 - Analyst: definisi korupsi PART 2 24 h IG 1,334–1,347 views, ~50% watched (best ever), followers 21→25. metrics.csv conflict with the 20:07 IG-insights task resolved (its IG rows kept). qa_sync.py default lead 0.08 vs page 0.02 keeps producing false FIX — worth defaulting --lead to the page's SUB_LEAD.
+
+## 29 Oct (Thu, KPK geledah Djarum & Bea Cukai Kudus "pita cukai itu apa?"; Pratama, question_reveal, subs word, format standard)
+- Sweeps: 33 events (5/9/9/10), all valid first try; 30 merged, 3 dupes. Markets thin (Fed decision and 28 Oct rupiah close not captured). Light fact-check: 2 fixes on #1 (sprindik/tersangka count), "terancam" on #2.
+- No user reply: default pick ⭐ #1 at 14:00. Hook-critic agreed with the writer's A/B. Full fact-check: 3 fixes (Gatot Heroe = suspect since July, not the October general sprindik; "belum ada tersangka" attributed to KPK + Hukumonline/Antara; PMK 108/2008 → PMK 68/PMK.04/2018), then PASS.
+- Producer A 75.6 s / B 76.7 s (B hook re-voiced once); QA PASS both first round (qa_sync --lead 0.02). Analyst: karhutla 24 h IG 370 views/29.4%; minyak 72 h IG 200/28.5%.
+- **18:40 default post BLOCKED:** the session's auto-mode permission classifier denied `engine/post.py` ("External System Writes") with no live user OK. Video not posted; user told + push. Dashboard old-blob delete also denied again.
