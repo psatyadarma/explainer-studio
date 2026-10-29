@@ -1,0 +1,145 @@
+{
+  "direction": "[calm, clear explainer; strictly neutral]",
+  "voice": "male:Pratama",
+  "format": "standard",
+  "hook_style": "question_reveal",
+  "subs": "word",
+  "storyline": "corruption-cases",
+  "part": null,
+  "hook_b": {
+    "style": "kamu_stakes",
+    "replace": [
+      "h1",
+      "h2"
+    ],
+    "lines": [
+      {
+        "id": "hb1",
+        "tag": "[curious, direct]",
+        "text": "Pita di rokokmu itu urusan uang negara.",
+        "say": "Pita di rokokmu itu, urusan uang negara."
+      },
+      {
+        "id": "hb2",
+        "tag": "[intrigued]",
+        "text": "Kenapa KPK geledah Djarum?",
+        "say": "Kenapa, Ka Pe Ka geledah Djarum?"
+      }
+    ]
+  },
+  "lines": [
+    {
+      "id": "h1",
+      "tag": "[curious]",
+      "text": "Pita kecil di bungkus rokok.",
+      "say": "Pita kecil di bungkus rokok."
+    },
+    {
+      "id": "h2",
+      "tag": "[intrigued]",
+      "text": "Kenapa KPK geledah kantor Djarum?",
+      "say": "Kenapa, Ka Pe Ka geledah kantor Djarum?"
+    },
+    {
+      "id": "rd",
+      "tagline": true,
+      "text": "Rangkumin dong!"
+    },
+    {
+      "id": "l1",
+      "tag": "[explaining, quick]",
+      "text": "Rabu, 28 Oktober, KPK geledah kantor PT Djarum dan kantor Bea Cukai di Kudus.",
+      "say": "Rabu, dua puluh delapan Oktober, Ka Pe Ka geledah kantor Pe Te Djarum, dan kantor Bea Cukai di Kudus."
+    },
+    {
+      "id": "l1b",
+      "tag": "[teasing]",
+      "text": "Sudah berapa tersangka? Angkanya di akhir.",
+      "say": "Sudah berapa tersangka? Angkanya di akhir."
+    },
+    {
+      "id": "l2",
+      "tag": "[curious, explaining]",
+      "text": "Pertama: pita cukai itu apa? Tanda cukai rokok sudah dilunasi.",
+      "say": "Pertama: pita cukai itu apa? Tanda cukai rokok sudah dilunasi."
+    },
+    {
+      "id": "l3",
+      "tag": "[matter-of-fact]",
+      "text": "Pabrik pesan pitanya ke Bea Cukai, lalu wajib ditempel sebelum rokok keluar pabrik.",
+      "say": "Pabrik pesan pitanya ke Bea Cukai, lalu wajib ditempel sebelum rokok keluar pabrik."
+    },
+    {
+      "id": "l4",
+      "tag": "[serious]",
+      "text": "Nah, kata Jubir KPK Budi Prasetyo, yang didalami: dugaan kickback dari pengurusan pita cukai.",
+      "say": "Nah, kata jubir, Ka Pe Ka Budi Prasetyo, yang didalami: dugaan kikbek dari pengurusan pita cukai."
+    },
+    {
+      "id": "l5",
+      "tag": "[careful, measured]",
+      "text": "Termasuk kemungkinan pemberian dari PT Djarum ke oknum Bea Cukai.",
+      "say": "Termasuk kemungkinan pemberian dari Pe Te Djarum, ke oknum Bea Cukai."
+    },
+    {
+      "id": "l6",
+      "tag": "[matter-of-fact]",
+      "text": "Yang disita: dokumen dan barang bukti elektronik. Kata KPK, ini masih tahap awal.",
+      "say": "Yang disita: dokumen, dan barang bukti elektronik. Kata Ka Pe Ka, ini masih tahap awal."
+    },
+    {
+      "id": "l7",
+      "tag": "[explaining]",
+      "text": "Ini pengembangan kasus dugaan suap impor di Bea Cukai, yang terungkap lewat OTT Februari.",
+      "say": "Ini pengembangan kasus dugaan suap impor di Bea Cukai, yang terungkap lewat, O Te Te Februari."
+    },
+    {
+      "id": "l8",
+      "tag": "[serious, turning]",
+      "text": "Tapi ingat: digeledah bukan berarti bersalah.",
+      "say": "Tapi ingat: digeledah, bukan berarti bersalah."
+    },
+    {
+      "id": "l9",
+      "tag": "[clear, measured]",
+      "text": "Kata KPK, penyidikan pita cukai ini pakai sprindik umum. Belum ada tersangka, termasuk Djarum.",
+      "say": "Kata Ka Pe Ka, penyidikan pita cukai ini pakai sprindik umum. Belum ada tersangka, termasuk Djarum."
+    },
+    {
+      "id": "l10",
+      "tag": "[neutral, quoting]",
+      "text": "Djarum Group bilang: “Kami menghormati dan menaati hukum.”",
+      "say": "Djarum Grup bilang: kami menghormati, dan menaati hukum."
+    },
+    {
+      "id": "l11",
+      "tag": "[building]",
+      "text": "Jadi, sudah berapa tersangka? Di kasus induknya: 8 orang tersangka dan terdakwa.",
+      "say": "Jadi, sudah berapa tersangka? Di kasus induknya: delapan orang, tersangka dan terdakwa."
+    },
+    {
+      "id": "l12",
+      "tag": "[matter-of-fact, quick]",
+      "text": "3 sudah divonis, 4 sedang disidang, 1 masih diproses KPK.",
+      "say": "Tiga sudah divonis, empat sedang disidang, satu masih diproses Ka Pe Ka."
+    },
+    {
+      "id": "l13",
+      "tag": "[clear]",
+      "text": "Yang satu itu pejabat Bea Cukai, Gatot Heroe, tersangka sejak Juli lalu.",
+      "say": "Yang satu itu pejabat Bea Cukai, Gatot Heroe, tersangka sejak Juli lalu."
+    },
+    {
+      "id": "cta",
+      "tag": "[playful, asking the viewer]",
+      "text": "Sebelum ini, kamu tahu nggak pita cukai itu buat apa? Komen!",
+      "say": "Sebelum ini, kamu tahu nggak pita cukai itu buat apa? Komen!"
+    },
+    {
+      "id": "end",
+      "tag": "[friendly, upbeat]",
+      "text": "Follow Rangkumin Dong, biar nggak ketinggalan!"
+    }
+  ],
+  "tail": 0.9
+}

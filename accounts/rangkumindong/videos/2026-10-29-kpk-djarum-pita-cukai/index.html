@@ -1,0 +1,525 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>KPK geledah Djarum: pita cukai — Rangkumin Dong</title>
+<link rel="stylesheet" href="../../../../styles/sticker/sticker.css">
+<script src="../../../../styles/sticker/sticker.js"></script>
+<script src="../../../../styles/sticker/characters/budi.js"></script>
+<script>window.SUB_LEAD = 0.02; window.SUB_MODE = "word";</script>
+<script src="build/timing.js"></script>
+<style>
+  .zone { position: absolute; width: 1080px; height: 1920px; }
+  .big { font-weight: 900; letter-spacing: -8px; line-height: .9; white-space: nowrap; font-variant-numeric: tabular-nums; }
+  .lbl { font-weight: 800; font-size: 40px; color: var(--ink); white-space: nowrap; text-align: center; }
+  .note { font-weight: 800; font-size: 28px; color: var(--slate); white-space: nowrap; text-align: center; }
+  .chip { background: #fff; border-radius: 26px; padding: 16px 30px 20px; font-weight: 900; font-size: 46px; letter-spacing: -1px; white-space: nowrap;
+          box-shadow: 0 0 0 8px #fff, 0 14px 24px rgba(27,36,48,.18); display: flex; align-items: center; gap: 18px; }
+  .stampx { font-weight: 900; letter-spacing: -2px; color: var(--accent); border: 10px solid var(--accent); border-radius: 22px; padding: 6px 28px 12px;
+            white-space: nowrap; background: rgba(255,255,255,.92); text-align: center; line-height: 1; }
+  .stampx.grey { color: var(--slate); border-color: var(--slate); border-style: dashed; }
+  .ntag { height: 116px; background: #fff; border-radius: 26px; display: flex; flex-direction: row; gap: 20px; align-items: center; padding: 0 30px 0 18px;
+          box-shadow: 0 0 0 8px #fff, 0 16px 24px rgba(27,36,48,.2); }
+  .ntag .icn { flex: 0 0 86px; height: 86px; border-radius: 50%; background: var(--slate); display: flex; align-items: center; justify-content: center; overflow: hidden; }
+  .ntag .nm { font-weight: 900; font-size: 38px; line-height: 1.05; letter-spacing: -1px; white-space: nowrap; }
+  .ntag .rl { font-weight: 700; font-size: 27px; color: var(--slate); white-space: nowrap; margin-top: 4px; }
+  .bub { position: absolute; background: #fff; border-radius: 30px; padding: 22px 30px 26px; text-align: center;
+         font-weight: 900; font-size: 56px; line-height: 1.08; letter-spacing: -1.5px; box-shadow: 0 0 0 9px #fff, 0 18px 26px rgba(27,36,48,.2); }
+  .card { background: #fff; border-radius: 30px; padding: 30px 40px 36px; box-shadow: 0 0 0 10px #fff, 0 18px 28px rgba(27,36,48,.2); text-align: center; }
+  .hl { background: var(--hi); border-radius: 12px; padding: 0 12px 4px; }
+  .box { width: 330px; height: 200px; border-radius: 26px; background: #fff; box-shadow: 0 0 0 8px #fff, 0 14px 22px rgba(27,36,48,.18);
+         display: flex; flex-direction: column; align-items: center; justify-content: center; font-weight: 900; font-size: 42px; line-height: 1.05; text-align: center; }
+  .step { display: flex; align-items: center; gap: 26px; }
+  .num { width: 74px; height: 74px; border-radius: 50%; background: var(--accent); color: #fff; font-weight: 900; font-size: 46px; display: flex; align-items: center; justify-content: center;
+         box-shadow: 0 0 0 7px #fff; flex: 0 0 74px; }
+  .tl { display: flex; align-items: center; gap: 22px; }
+  .tl .dt { font-weight: 900; font-size: 46px; color: #fff; background: var(--ink); border-radius: 16px; padding: 10px 22px 14px; white-space: nowrap; }
+  .tl .tx { font-weight: 800; font-size: 40px; white-space: nowrap; }
+  .ppl { display: flex; gap: 10px; align-items: flex-end; }
+  .ppl i { display: block; width: 72px; height: 90px; }
+  .grp { display: flex; flex-direction: column; align-items: center; gap: 14px; }
+  .grp .gl { font-weight: 900; font-size: 33px; white-space: nowrap; padding: 6px 18px 10px; border-radius: 14px; color: #fff; }
+  #endcard { position: absolute; inset: 0; z-index: 8; display: flex; flex-direction: column; align-items: center; justify-content: center;
+             gap: 24px; background: var(--paper); opacity: 0; }
+  #endcard .logo { background: var(--accent); color: #fff; font-weight: 900; font-size: 116px; letter-spacing: -4px;
+                   padding: 30px 58px 40px; border-radius: 44px; line-height: .95; text-align: center; transform: rotate(-3deg); }
+  #endcard .tl2 { font-weight: 800; font-size: 54px; color: var(--slate); }
+  #endcard .h { font-weight: 900; font-size: 50px; background: var(--ink); color: #fff; padding: 12px 26px; border-radius: 16px; }
+  #endcard .src { font-weight: 700; font-size: 27px; color: var(--slate); margin-top: 10px; text-align: center; line-height: 1.4; max-width: 900px; }
+</style>
+</head>
+<body>
+<div id="stage">
+  <div id="world">
+
+    <!-- A (0,0): hook / cover (A and B openings) -->
+    <div id="zA" class="zone" style="left:0; top:0;">
+      <div id="aHd" class="abs headline" style="left:540px; top:460px; width:1000px;">
+        <div style="font-size:150px; white-space:nowrap; letter-spacing:-6px;">PITA CUKAI</div>
+        <div style="font-size:112px; color:var(--accent); white-space:nowrap; letter-spacing:-4px; line-height:.95;">DIGELEDAH KPK</div></div>
+      <div id="bHd" class="abs headline" style="left:540px; top:460px; width:1000px;">
+        <div style="font-size:112px; white-space:nowrap; letter-spacing:-4px;">PITA DI ROKOKMU</div>
+        <div style="font-size:104px; color:var(--accent); white-space:nowrap; letter-spacing:-4px; line-height:.95;">KENAPA DIGELEDAH?</div></div>
+      <div id="hPack" class="abs sticker-svg" style="left:420px; top:1030px;"></div>
+      <div id="hGlass" class="abs" style="left:470px; top:880px;"></div>
+      <div id="hKpk" class="abs tag sticker" style="left:180px; top:760px; font-size:64px; padding:12px 30px 18px;">KPK</div>
+      <div id="hBld" class="abs sticker-svg" style="left:790px; top:1060px;"></div>
+      <div id="hBldL" class="abs tag accent sticker" style="left:790px; top:1300px; font-size:44px;">kantor Djarum?</div>
+      <div id="hIl" class="abs note" style="left:420px; top:1335px; font-size:22px;">ilustrasi</div>
+      <!-- B only: coin from pita into "kas negara" -->
+      <div id="bCoin" class="abs" style="left:440px; top:870px;"></div>
+      <div id="bVault" class="abs sticker-svg" style="left:820px; top:860px;"></div>
+      <div id="bVaultL" class="abs tag sticker" style="left:820px; top:1030px; font-size:40px;">uang negara</div>
+    </div>
+
+    <!-- tagline (1240,0) -->
+    <div class="zone" style="left:1240px; top:0;">
+      <div id="stamp" class="abs stamp sticker" style="left:540px; top:960px; font-size:110px;">Rangkumin dong!</div>
+    </div>
+
+    <!-- R1 (0,2400): l1 geledah Kudus -->
+    <div class="zone" style="left:0; top:2400px;">
+      <div id="r1D" class="abs tag accent sticker" style="left:540px; top:430px; font-size:54px;">RABU, 28 OKT 2026</div>
+      <div id="r1K" class="abs chip" style="left:540px; top:600px;"><span id="r1KI"></span>KPK geledah</div>
+      <div id="r1B1" class="abs sticker-svg" style="left:290px; top:900px;"></div>
+      <div id="r1B2" class="abs sticker-svg" style="left:790px; top:900px;"></div>
+      <div id="r1L1" class="abs chip" style="left:290px; top:1130px; font-size:38px; flex-direction:column; gap:0; line-height:1.05;">Kantor<br>PT Djarum</div>
+      <div id="r1L2" class="abs chip" style="left:790px; top:1130px; font-size:38px; flex-direction:column; gap:0; line-height:1.05;">Kantor Bea Cukai<span style="font-size:26px; color:var(--slate);">KPPBC TMC Kudus</span></div>
+      <div id="r1G" class="abs" style="left:540px; top:860px;"></div>
+      <div id="r1P" class="abs tag sticker" style="left:540px; top:1340px; font-size:46px; display:flex; align-items:center; gap:12px;"><span id="r1PI"></span>Kudus, Jawa Tengah</div>
+    </div>
+
+    <!-- R1b (1240,2400): l1b open loop -->
+    <div class="zone" style="left:1240px; top:2400px;">
+      <div id="lbHd" class="abs headline" style="left:540px; top:470px; font-size:96px; white-space:nowrap;">SUDAH BERAPA?</div>
+      <div id="lbCard" class="abs card" style="left:540px; top:900px; width:560px;">
+        <div class="big" style="font-size:260px; filter:blur(14px); color:var(--accent);">?</div>
+        <div class="lbl" style="font-size:54px; margin-top:6px;">tersangka</div></div>
+      <div id="lbLock" class="abs" style="left:790px; top:740px;"></div>
+      <div id="lbT" class="abs tag accent sticker" style="left:540px; top:1300px; font-size:50px;">jawabannya di akhir</div>
+    </div>
+
+    <!-- R2 (2480,2400): l2 pita cukai itu apa -->
+    <div class="zone" style="left:2480px; top:2400px;">
+      <div id="r2Hd" class="abs headline" style="left:540px; top:450px; font-size:86px; white-space:nowrap;">PITA CUKAI ITU <span class="acc">APA?</span></div>
+      <div id="r2Pita" class="abs sticker-svg" style="left:540px; top:780px;"></div>
+      <div id="r2Eq" class="abs chip" style="left:540px; top:1040px; font-size:50px;">= tanda cukai rokok</div>
+      <div id="r2St" class="abs stampx" style="left:540px; top:1230px; font-size:92px;">SUDAH DILUNASI</div>
+      <div id="r2N" class="abs note" style="left:540px; top:1385px; font-size:26px;">aturan: PMK 68/PMK.04/2018</div>
+    </div>
+
+    <!-- R3 (0,4800): l3 three steps -->
+    <div class="zone" style="left:0; top:4800px;">
+      <div id="s1" class="abs step" style="left:540px; top:520px;">
+        <div class="num">1</div><div id="s1F"></div><div id="s1A"></div><div id="s1B"></div></div>
+      <div id="s1L" class="abs lbl" style="left:540px; top:690px;">pabrik pesan pita ke Bea Cukai</div>
+      <div id="s2" class="abs step" style="left:540px; top:880px;">
+        <div class="num">2</div><div id="s2P" style="position:relative; width:250px; height:200px;"></div></div>
+      <div id="s2L" class="abs lbl" style="left:540px; top:1035px;">wajib ditempel di bungkus</div>
+      <div id="s3" class="abs step" style="left:540px; top:1220px;">
+        <div class="num">3</div><div id="s3G"></div></div>
+      <div id="s3L" class="abs lbl" style="left:540px; top:1385px;">baru boleh keluar pabrik</div>
+    </div>
+
+    <!-- R4 (1240,4800): l4 KPK spokesman, dugaan kickback -->
+    <div class="zone" style="left:1240px; top:4800px;">
+      <div id="r4T" class="abs ntag" style="left:540px; top:470px;"><div class="icn person"></div>
+        <div><div class="nm">Budi Prasetyo</div><div class="rl">Juru Bicara KPK</div></div></div>
+      <div id="r4Q" class="abs card" style="left:540px; top:900px; width:820px;">
+        <div class="note" style="font-size:34px;">kata KPK, yang didalami:</div>
+        <div style="font-weight:900; font-size:96px; letter-spacing:-3px; line-height:1.05; margin-top:14px; white-space:nowrap;"><span id="r4Dg">DUGAAN</span></div>
+        <div id="r4Kb" style="font-weight:900; font-size:96px; letter-spacing:-3px; line-height:1.0; color:var(--accent); white-space:nowrap;">KICKBACK</div>
+        <div id="r4Pg" class="lbl" style="font-size:44px; margin-top:16px;">dari pengurusan pita cukai</div></div>
+    </div>
+
+    <!-- R5 (2480,4800): l5 kemungkinan pemberian -->
+    <div class="zone" style="left:2480px; top:4800px;">
+      <div id="r5Hd" class="abs tag sticker" style="left:540px; top:440px; font-size:52px;">TERMASUK KEMUNGKINAN</div>
+      <div id="r5A" class="abs box" style="left:260px; top:820px;"><div id="r5AI"></div>PT Djarum</div>
+      <div id="r5B" class="abs box" style="left:820px; top:820px;"><div id="r5BI"></div>oknum<br>Bea Cukai</div>
+      <svg id="r5Ar" class="abs" style="left:540px; top:820px;" width="260" height="60" viewBox="0 0 260 60"><path id="r5ArP" d="M10 30 H240 M214 10 L244 30 L214 50" stroke="#7D8C99" stroke-width="9" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="14 16"/></svg>
+      <div id="r5Env" class="abs" style="left:540px; top:740px;"></div>
+      <div id="r5Q" class="abs stampx grey" style="left:540px; top:1010px; font-size:120px; padding:0 34px 10px;">?</div>
+      <div id="r5St" class="abs stampx grey" style="left:540px; top:1240px; font-size:52px; line-height:1.1;">KEMUNGKINAN<br>MASIH DIDALAMI</div>
+    </div>
+
+    <!-- R6 (0,7200): l6 disita + tahap awal -->
+    <div class="zone" style="left:0; top:7200px;">
+      <div id="r6Hd" class="abs headline" style="left:540px; top:440px; font-size:96px; white-space:nowrap;">YANG DISITA</div>
+      <div id="r6F" class="abs sticker-svg" style="left:290px; top:800px;"></div>
+      <div id="r6E" class="abs sticker-svg" style="left:790px; top:800px;"></div>
+      <div id="r6L1" class="abs chip" style="left:290px; top:1030px; font-size:42px;">dokumen</div>
+      <div id="r6L2" class="abs chip" style="left:790px; top:1030px; font-size:38px; flex-direction:column; gap:0; line-height:1.05;">barang bukti<br>elektronik</div>
+      <div id="r6K" class="abs note" style="left:540px; top:1180px; font-size:30px;">kata KPK</div>
+      <div id="r6St" class="abs stampx" style="left:540px; top:1300px; font-size:96px;">TAHAP AWAL</div>
+    </div>
+
+    <!-- R7 (1240,7200): l7 kasus induk timeline -->
+    <div class="zone" style="left:1240px; top:7200px;">
+      <div id="r7Hd" class="abs tag accent sticker" style="left:540px; top:440px; font-size:52px;">PENGEMBANGAN KASUS</div>
+      <div id="r7C" class="abs card" style="left:540px; top:690px; width:820px;">
+        <div class="lbl" style="font-size:52px;">dugaan suap impor</div>
+        <div class="note" style="font-size:34px; margin-top:6px;">di Bea Cukai</div></div>
+      <svg id="r7Ln" class="abs" style="left:250px; top:1105px;" width="20" height="300" viewBox="0 0 20 300"><path id="r7LnP" d="M10 0 V300" stroke="#3E5568" stroke-width="10" stroke-linecap="round" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"/></svg>
+      <div id="r7T1" class="abs tl" style="left:540px; top:960px; width:820px;"><span class="dt">FEB 2026</span><span class="tx">OTT terungkap</span></div>
+      <div id="r7T2" class="abs tl" style="left:540px; top:1250px; width:820px;"><span class="dt" style="background:var(--accent);">OKT 2026</span><span class="tx">geledah di Kudus</span></div>
+    </div>
+
+    <!-- R8 (2480,7200): l8 turn -->
+    <div class="zone" style="left:2480px; top:7200px;">
+      <div id="r8T" class="abs tag sticker" style="left:540px; top:470px; font-size:60px;">TAPI INGAT</div>
+      <div id="r8A" class="abs headline" style="left:540px; top:710px; font-size:150px; white-space:nowrap; letter-spacing:-6px;">DIGELEDAH</div>
+      <div id="r8N" class="abs big" style="left:540px; top:930px; font-size:200px; color:var(--accent); letter-spacing:0;">≠</div>
+      <div id="r8B" class="abs headline" style="left:540px; top:1150px; font-size:150px; white-space:nowrap; letter-spacing:-6px;">BERSALAH</div>
+    </div>
+
+    <!-- R9 (0,9600): l9 sprindik umum, belum ada tersangka -->
+    <div class="zone" style="left:0; top:9600px;">
+      <div id="r9K" class="abs chip" style="left:540px; top:440px;"><span id="r9KI"></span>kata KPK</div>
+      <div id="r9C" class="abs card" style="left:540px; top:700px; width:760px;">
+        <div class="lbl" style="font-size:40px; color:var(--slate);">penyidikan pita cukai</div>
+        <div style="font-weight:900; font-size:96px; letter-spacing:-3px; line-height:1.05; margin-top:8px; white-space:nowrap;">SPRINDIK UMUM</div>
+        <div class="note" style="font-size:26px; margin-top:8px;">sprindik = surat perintah penyidikan</div></div>
+      <div id="r9St" class="abs stampx" style="left:540px; top:1060px; font-size:78px; line-height:1.05;">BELUM ADA<br>TERSANGKA</div>
+      <div id="r9Dj" class="abs tag sticker" style="left:540px; top:1300px; font-size:52px;">termasuk Djarum</div>
+    </div>
+
+    <!-- R10 (1240,9600): l10 Djarum response -->
+    <div class="zone" style="left:1240px; top:9600px;">
+      <div id="r10Hd" class="abs tag sticker" style="left:540px; top:440px; font-size:50px;">TANGGAPAN DJARUM GROUP</div>
+      <div id="r10Q" class="abs card" style="left:540px; top:800px; width:840px; text-align:left; padding:40px 50px 46px;">
+        <div style="font-weight:900; font-size:150px; line-height:.6; color:var(--accent);">“</div>
+        <div style="font-weight:900; font-size:72px; letter-spacing:-2px; line-height:1.1;">Kami <span id="r10W1">menghormati</span><br>dan <span id="r10W2">menaati</span> hukum.”</div></div>
+      <div id="r10T" class="abs ntag" style="left:540px; top:1170px;"><div class="icn person"></div>
+        <div><div class="nm">Budi Darmawan</div><div class="rl">Senior Manager Corp. Communication,<br>Djarum Group · via CNN Indonesia</div></div></div>
+    </div>
+
+    <!-- R11 (2480,9600): l11–l12 payoff 8 = 3 + 4 + 1 -->
+    <div class="zone" style="left:2480px; top:9600px;">
+      <div id="pHd" class="abs headline" style="left:540px; top:430px; font-size:80px; white-space:nowrap;">SUDAH BERAPA TERSANGKA?</div>
+      <div id="pN" class="abs big" style="left:540px; top:690px; font-size:300px; color:var(--accent);">0</div>
+      <div id="pL" class="abs lbl" style="left:540px; top:880px; font-size:44px; line-height:1.15;">orang tersangka &amp; terdakwa<br><span style="color:var(--slate); font-size:34px;">di kasus induk</span></div>
+      <div id="pG1" class="abs grp" style="left:250px; top:1180px;"><div class="ppl"></div><div class="gl" style="background:var(--ink);">3 divonis</div></div>
+      <div id="pG2" class="abs grp" style="left:565px; top:1180px;"><div class="ppl"></div><div class="gl" style="background:var(--slate);">4 disidang</div></div>
+      <div id="pG3" class="abs grp" style="left:845px; top:1180px;"><div class="ppl"></div><div class="gl" style="background:var(--accent);">1 diproses</div></div>
+    </div>
+
+    <!-- R12 (0,12000): l13 the one -->
+    <div class="zone" style="left:0; top:12000px;">
+      <div id="oHd" class="abs tag accent sticker" style="left:540px; top:440px; font-size:52px;">YANG SATU ITU</div>
+      <div id="oP" class="abs" style="left:540px; top:760px;"></div>
+      <div id="oT" class="abs ntag" style="left:540px; top:1010px;"><div class="icn person"></div>
+        <div><div class="nm">Gatot Heroe</div><div class="rl">pejabat Bea Cukai</div></div></div>
+      <div id="oSt" class="abs stampx" style="left:540px; top:1200px; font-size:64px;">TERSANGKA SEJAK JULI</div>
+      <div id="oN" class="abs note" style="left:540px; top:1330px; font-size:28px;">asas praduga tak bersalah berlaku</div>
+    </div>
+
+    <!-- R13 (1240,12000): CTA -->
+    <div class="zone" style="left:1240px; top:12000px;">
+      <div id="qHd" class="abs headline" style="left:540px; top:500px; font-size:74px; line-height:1.06;">Sebelum ini, tahu nggak<br><span class="acc">pita cukai buat apa?</span></div>
+      <div id="qBudi" class="abs sticker-svg" style="left:330px; top:1060px;"></div>
+      <div id="qPita" class="abs sticker-svg" style="left:760px; top:830px;"></div>
+      <div id="qK" class="abs bub" style="left:760px; top:1150px; font-size:66px;">Komen!</div>
+    </div>
+  </div>
+
+  <div id="brand"><div class="dot"></div><b>Rangkumin Dong</b></div>
+  <div id="subs"></div>
+  <div id="endcard">
+    <div class="logo">RANGKUMIN<br>DONG</div>
+    <div class="tl2">Berita ribet? Rangkumin dong.</div>
+    <div class="h">@rangkumindong</div>
+    <div class="src">Sumber: detikNews, CNN Indonesia, CNBC Indonesia, Hukumonline, Antara (28 Okt 2026);<br>PMK 68/PMK.04/2018 · lengkap di komentar</div>
+    <div class="src" style="font-size:25px; margin-top:0;">Semua masih dugaan; asas praduga tak bersalah berlaku.</div>
+  </div>
+  <div id="progress"></div>
+</div>
+
+<script>
+const $ = (id) => document.getElementById(id);
+const T = window.TIMING;
+window.DURATION = T.duration;
+const at = K.at, W = K.word;
+const VB = T.variant === 'b';
+const H1 = VB ? 'hb1' : 'h1', H2 = VB ? 'hb2' : 'h2';
+
+// ---------- SVG builders (generic icons, no logos or brands) ----------
+const personSil = (s = 86) => `<svg width="${s}" height="${s}" viewBox="0 0 106 106"><circle cx="53" cy="40" r="19" fill="#fff"/><path d="M14 106 Q14 66 53 66 Q92 66 92 106 Z" fill="#fff"/></svg>`;
+const personIcon = (c = '#3E5568', w = 88) => `<svg width="${w}" height="${w * 1.25}" viewBox="0 0 88 110"><circle cx="44" cy="30" r="22" fill="${c}"/><path d="M6 110 Q6 62 44 62 Q82 62 82 110 Z" fill="${c}"/></svg>`;
+// pita cukai: generic stylised strip (not a real design)
+const pitaSVG = (w = 760) => `<svg width="${w}" height="${w * 0.29}" viewBox="0 0 760 220">
+  <rect x="6" y="6" width="748" height="208" rx="18" fill="#BFE3D0" stroke="#1B2430" stroke-width="8"/>
+  ${[...Array(18)].map((_, i) => `<path d="M${30 + i * 42} 14 L${10 + i * 42} 206" stroke="#9ED1B8" stroke-width="10"/>`).join('')}
+  <rect x="200" y="40" width="360" height="140" rx="14" fill="#fff" stroke="#1B2430" stroke-width="6"/>
+  <text x="380" y="140" text-anchor="middle" font-family="inherit" font-weight="900" font-size="96" fill="#1B2430" letter-spacing="6">CUKAI</text>
+  <circle cx="110" cy="110" r="58" fill="#FFD23F" stroke="#1B2430" stroke-width="6"/><circle cx="110" cy="110" r="34" fill="none" stroke="#FF5A36" stroke-width="8" stroke-dasharray="8 8"/>
+  <rect x="600" y="62" width="120" height="96" rx="12" fill="#3E5568"/><text x="660" y="126" text-anchor="middle" font-family="inherit" font-weight="900" font-size="44" fill="#fff">2026</text></svg>`;
+// cigarette pack, generic; optional pita across the lid
+const packSVG = (s = 1, pita = true) => `<svg width="${330 * s}" height="${440 * s}" viewBox="0 0 330 440">
+  <rect x="20" y="40" width="290" height="390" rx="20" fill="#3E5568" stroke="#1B2430" stroke-width="8"/>
+  <path d="M20 150 H310" stroke="#1B2430" stroke-width="6"/><rect x="20" y="40" width="290" height="110" rx="20" fill="#E9E2D2" stroke="#1B2430" stroke-width="8"/>
+  <rect x="60" y="210" width="210" height="150" rx="16" fill="#F3EFE6"/><path d="M90 250 H240 M90 290 H240 M90 330 H190" stroke="#C9D3DC" stroke-width="14" stroke-linecap="round"/>
+  ${pita ? `<g id="pkPita"><rect x="70" y="20" width="190" height="140" rx="10" fill="#BFE3D0" stroke="#1B2430" stroke-width="7"/>
+  ${[0, 1, 2, 3, 4, 5].map((i) => `<path d="M${88 + i * 30} 26 L${78 + i * 30} 154" stroke="#9ED1B8" stroke-width="8"/>`).join('')}
+  <rect x="100" y="66" width="130" height="50" rx="8" fill="#fff" stroke="#1B2430" stroke-width="5"/><text x="165" y="103" text-anchor="middle" font-family="inherit" font-weight="900" font-size="32" fill="#1B2430">CUKAI</text></g>` : ''}</svg>`;
+const glassSVG = (s = 200) => `<svg width="${s}" height="${s}" viewBox="0 0 200 200"><circle cx="82" cy="82" r="60" fill="rgba(255,255,255,.35)" stroke="#1B2430" stroke-width="16"/>
+  <path d="M126 126 L182 182" stroke="#1B2430" stroke-width="26" stroke-linecap="round"/><path d="M52 62 Q60 42 82 38" stroke="#fff" stroke-width="10" fill="none" stroke-linecap="round"/></svg>`;
+const bldSVG = (s = 1, roof = '#3E5568') => `<svg width="${280 * s}" height="${300 * s}" viewBox="0 0 280 300">
+  <rect x="30" y="50" width="220" height="240" rx="12" fill="#fff" stroke="#1B2430" stroke-width="8"/><rect x="18" y="30" width="244" height="36" rx="10" fill="${roof}" stroke="#1B2430" stroke-width="8"/>
+  ${[0, 1, 2].map((r) => [0, 1, 2].map((c) => `<rect x="${58 + c * 62}" y="${88 + r * 60}" width="40" height="38" rx="6" fill="#8FD0F0"/>`).join('')).join('')}
+  <rect x="112" y="236" width="56" height="54" rx="6" fill="#3E5568"/></svg>`;
+const factorySVG = (s = 1) => `<svg width="${200 * s}" height="${150 * s}" viewBox="0 0 200 150">
+  <rect x="150" y="10" width="26" height="80" fill="#3E5568" stroke="#1B2430" stroke-width="6"/>
+  <path d="M10 140 V70 L60 40 V70 L110 40 V70 L160 40 V140 Z" fill="#fff" stroke="#1B2430" stroke-width="7" stroke-linejoin="round"/>
+  <rect x="30" y="92" width="30" height="26" rx="4" fill="#8FD0F0"/><rect x="80" y="92" width="30" height="26" rx="4" fill="#8FD0F0"/><rect x="160" y="70" width="30" height="70" fill="#E9E2D2" stroke="#1B2430" stroke-width="6"/></svg>`;
+const arrowSVG = (w = 120) => `<svg width="${w}" height="50" viewBox="0 0 120 50"><path d="M8 25 H104 M82 6 L108 25 L82 44" stroke="#1B2430" stroke-width="10" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+const truckSVG = (s = 1) => `<svg width="${300 * s}" height="${150 * s}" viewBox="0 0 300 150">
+  <rect x="10" y="20" width="180" height="96" rx="10" fill="#fff" stroke="#1B2430" stroke-width="7"/><path d="M190 50 H245 L280 86 V116 H190 Z" fill="#FF5A36" stroke="#1B2430" stroke-width="7" stroke-linejoin="round"/>
+  <rect x="204" y="60" width="34" height="26" rx="4" fill="#8FD0F0"/><circle cx="60" cy="122" r="20" fill="#1B2430"/><circle cx="234" cy="122" r="20" fill="#1B2430"/>
+  <rect x="40" y="44" width="40" height="50" rx="5" fill="#3E5568"/><rect x="40" y="38" width="40" height="18" rx="3" fill="#BFE3D0" stroke="#1B2430" stroke-width="3"/>
+  <rect x="100" y="44" width="40" height="50" rx="5" fill="#3E5568"/><rect x="100" y="38" width="40" height="18" rx="3" fill="#BFE3D0" stroke="#1B2430" stroke-width="3"/></svg>`;
+const gateSVG = () => `<svg width="170" height="170" viewBox="0 0 170 170"><rect x="10" y="20" width="22" height="150" fill="#3E5568"/><rect x="138" y="20" width="22" height="150" fill="#3E5568"/>
+  <rect x="0" y="10" width="170" height="30" rx="8" fill="#1B2430"/><text x="85" y="33" text-anchor="middle" font-family="inherit" font-weight="900" font-size="20" fill="#fff">PABRIK</text></svg>`;
+const folderSVG = () => `<svg width="300" height="240" viewBox="0 0 300 240"><path d="M14 40 Q14 24 30 24 H110 L130 46 H270 Q286 46 286 62 V214 Q286 230 270 230 H30 Q14 230 14 214 Z" fill="#FFD23F" stroke="#1B2430" stroke-width="8" stroke-linejoin="round"/>
+  <rect x="50" y="10" width="170" height="120" rx="6" fill="#fff" stroke="#1B2430" stroke-width="6" transform="rotate(-6 135 70)"/>
+  <path d="M14 84 H286 V214 Q286 230 270 230 H30 Q14 230 14 214 Z" fill="#FFB020" stroke="#1B2430" stroke-width="8" stroke-linejoin="round"/></svg>`;
+const deviceSVG = () => `<svg width="330" height="240" viewBox="0 0 330 240"><rect x="30" y="20" width="230" height="150" rx="12" fill="#3E5568" stroke="#1B2430" stroke-width="8"/><rect x="46" y="36" width="198" height="118" rx="6" fill="#8FD0F0"/>
+  <path d="M6 176 H284 L266 204 H24 Z" fill="#C9D3DC" stroke="#1B2430" stroke-width="8" stroke-linejoin="round"/>
+  <rect x="236" y="80" width="84" height="150" rx="14" fill="#1B2430"/><rect x="246" y="96" width="64" height="112" rx="6" fill="#DCEBF2"/></svg>`;
+const envSVG = (s = 120) => `<svg width="${s}" height="${s * 0.72}" viewBox="0 0 120 86"><rect x="4" y="4" width="112" height="78" rx="10" fill="#fff" stroke="#7D8C99" stroke-width="7"/><path d="M8 10 L60 50 L112 10" stroke="#7D8C99" stroke-width="7" fill="none" stroke-linejoin="round"/></svg>`;
+const coinSVG = (s = 90) => `<svg width="${s}" height="${s}" viewBox="0 0 90 90"><circle cx="45" cy="45" r="40" fill="#FFD23F" stroke="#1B2430" stroke-width="7"/><text x="45" y="60" text-anchor="middle" font-family="inherit" font-weight="900" font-size="38" fill="#1B2430">Rp</text></svg>`;
+const vaultSVG = () => `<svg width="230" height="200" viewBox="0 0 230 200"><rect x="10" y="10" width="210" height="170" rx="20" fill="#3E5568" stroke="#1B2430" stroke-width="8"/>
+  <circle cx="115" cy="95" r="54" fill="#C9D3DC" stroke="#1B2430" stroke-width="7"/><path d="M115 55 V135 M75 95 H155" stroke="#1B2430" stroke-width="9" stroke-linecap="round"/>
+  <rect x="40" y="178" width="34" height="18" fill="#1B2430"/><rect x="156" y="178" width="34" height="18" fill="#1B2430"/></svg>`;
+const pinSVG = (s = 70) => `<svg width="${s}" height="${s * 1.3}" viewBox="0 0 70 91"><path d="M35 88 Q6 52 6 32 A29 29 0 1 1 64 32 Q64 52 35 88 Z" fill="#FF5A36" stroke="#fff" stroke-width="6"/><circle cx="35" cy="32" r="11" fill="#fff"/></svg>`;
+const lockSVG = (s = 150) => `<svg width="${s}" height="${s * 1.1}" viewBox="0 0 150 165"><path id="lkSh" d="M38 74 V48 Q38 12 75 12 Q112 12 112 48 V74" stroke="#1B2430" stroke-width="16" fill="none" stroke-linecap="round"/>
+  <rect x="16" y="70" width="118" height="88" rx="18" fill="#FFD23F" stroke="#1B2430" stroke-width="9"/><circle cx="75" cy="108" r="12" fill="#1B2430"/><rect x="69" y="110" width="12" height="26" rx="5" fill="#1B2430"/></svg>`;
+
+// ---------- static parts ----------
+document.querySelectorAll('.icn.person').forEach((d) => (d.innerHTML = personSil()));
+$('hPack').innerHTML = packSVG(1.0);
+$('hGlass').innerHTML = glassSVG(210);
+$('hBld').innerHTML = bldSVG(0.78, '#7D8C99');
+$('bCoin').innerHTML = coinSVG(96);
+$('bVault').innerHTML = vaultSVG();
+$('r1KI').innerHTML = glassSVG(52);
+$('r1B1').innerHTML = bldSVG(1, '#7D8C99');
+$('r1B2').innerHTML = bldSVG(1, '#3E5568');
+$('r1G').innerHTML = glassSVG(170);
+$('r1PI').innerHTML = pinSVG(40);
+$('lbLock').innerHTML = lockSVG(150);
+$('r2Pita').innerHTML = pitaSVG(760);
+$('s1F').innerHTML = factorySVG(1); $('s1A').innerHTML = arrowSVG(110); $('s1B').innerHTML = bldSVG(0.5);
+$('s2P').innerHTML = `<div style="position:absolute; left:40px; top:0;">${packSVG(0.46, false)}</div><div id="s2Pi" style="position:absolute; left:72px; top:-6px; width:88px; height:66px; border-radius:6px; background:#BFE3D0; border:5px solid #1B2430;"></div>`;
+$('s3G').innerHTML = `<div style="display:flex; align-items:flex-end; gap:10px;"><div>${gateSVG()}</div><div id="s3Tr">${truckSVG(0.85)}</div></div>`;
+$('r5AI').innerHTML = bldSVG(0.3, '#7D8C99'); $('r5BI').innerHTML = personIcon('#3E5568', 52);
+$('r5Env').innerHTML = envSVG(110);
+$('r6F').innerHTML = folderSVG(); $('r6E').innerHTML = deviceSVG();
+$('r9KI').innerHTML = `<svg width="40" height="48" viewBox="0 0 50 60"><path d="M4 4 H34 L46 16 V56 H4 Z" fill="#fff" stroke="#1B2430" stroke-width="5" stroke-linejoin="round"/><path d="M12 26 H38 M12 36 H38 M12 46 H28" stroke="#3E5568" stroke-width="4" stroke-linecap="round"/></svg>`;
+const GC = ['#1B2430', '#3E5568', '#FF5A36'], GN = [3, 4, 1];
+const ppl = [];
+['pG1', 'pG2', 'pG3'].forEach((g, gi) => { const box = $(g).querySelector('.ppl');
+  for (let i = 0; i < GN[gi]; i++) { const e = document.createElement('i'); e.innerHTML = personIcon(GC[gi], 72); box.appendChild(e); ppl.push({ e, g: gi }); } });
+$('oP').innerHTML = personIcon('#FF5A36', 190);
+$('qPita').innerHTML = pitaSVG(380);
+$('qBudi').innerHTML = K.budi('neutral').replace('<svg ', '<svg width="338" height="450" ');
+
+if (VB) { ['aHd', 'hIl'].forEach((id) => { $(id).style.display = 'none'; }); }
+else { ['bHd', 'bCoin', 'bVault', 'bVaultL'].forEach((id) => { $(id).style.display = 'none'; }); }
+
+let T_ = 0;
+const pulse = (el, tIn, amt = 0.12, rot = 0) => { const k = K.clamp((T_ - tIn) / 0.45); el.style.transform = `translate(-50%,-50%) scale(${1 + amt * Math.sin(Math.PI * k)}) rotate(${rot}deg)`; };
+const slam = (el, t, tIn, rot = 0, from = 2) => { const s = K.spring(t - tIn, 320, 18); el.style.opacity = t >= tIn ? 1 : 0; el.style.transform = `translate(-50%,-50%) scale(${from - (from - 1) * s}) rotate(${rot}deg)`; };
+const count = (el, t, tIn, dur, to) => { el.textContent = Math.round(to * K.easeOut(K.prog(t, tIn, dur))); };
+const draw = (p, t, tIn, dur) => p.setAttribute('stroke-dashoffset', 1 - K.easeOut(K.prog(t, tIn, dur)));
+const hlOn = (el, on) => { el.style.background = on ? 'var(--hi)' : 'transparent'; el.style.borderRadius = '12px'; el.style.padding = '0 10px 4px'; };
+
+function seek(t) {
+  T_ = t;
+  const Z = (x, y, z = 1.0) => ({ x, y: y + 200 / z, z });
+  const zc = (ox, oy, z = 1) => Z(ox + 540, oy + 960, z);
+  const hEnd = at('rd', -0.3);
+  K.camera($('world'), [
+    { t: 0, ...zc(0, 0) },
+    { t: W(H2, 'kenapa') - 0.15, ...Z(540, 1000, 1.03), dur: 0.5 },
+    { t: hEnd, ...Z(1240 + 540, 960, 1.1) },
+    { t: at('l1', -0.3), ...zc(0, 2400) },
+    { t: at('l1b', -0.3), ...zc(1240, 2400) },
+    { t: at('l2', -0.3), ...zc(2480, 2400) },
+    { t: at('l3', -0.3), ...zc(0, 4800) },
+    { t: at('l4', -0.3), ...zc(1240, 4800) },
+    { t: at('l5', -0.3), ...zc(2480, 4800) },
+    { t: at('l6', -0.3), ...zc(0, 7200) },
+    { t: at('l7', -0.3), ...zc(1240, 7200) },
+    { t: at('l8', -0.3), ...zc(2480, 7200) },
+    { t: W('l8', 'bukan') - 0.2, ...zc(2480, 7200, 1.07), dur: 0.5 },
+    { t: at('l9', -0.3), ...zc(0, 9600) },
+    { t: at('l10', -0.3), ...zc(1240, 9600) },
+    { t: at('l11', -0.3), ...zc(2480, 9600) },
+    { t: at('l13', -0.3), ...zc(0, 12000) },
+    { t: at('cta', -0.3), ...zc(1240, 12000) },
+  ], t, 1080, 1920, 0.6);
+  $('zA').style.visibility = t > hEnd + 0.7 ? 'hidden' : 'visible';
+
+  // ---------- hook (shared pieces + A/B title) ----------
+  { const hd = VB ? $('bHd') : $('aHd'), th = 1 + 0.05 * Math.exp(-6 * t) * Math.sin(t * 14);
+    hd.style.transform = `translate(-50%,-50%) scale(${th})`;
+    const pk = VB ? W('hb1', 'rokokmu') : W('h1', 'rokok');
+    if (t > pk - 0.05) pulse(hd, pk - 0.05, 0.05, 0); }
+  // pack: on from frame 1, gentle sway; pita glows on "kecil" (A) / "pita" (B)
+  { const g0 = VB ? W('hb1', 'pita') + 0.15 : W('h1', 'kecil') - 0.05;
+    $('hPack').style.opacity = 1;
+    let sc = 1; if (t > g0) sc = 1 + 0.08 * Math.sin(Math.PI * K.clamp((t - g0) / 0.45));
+    $('hPack').style.transform = `translate(-50%,-50%) scale(${sc}) rotate(${-4 + 1.2 * Math.sin(t * 1.8)}deg)`;
+    const pp = $('hPack').querySelector('#pkPita'); if (pp) { const on = t > g0; pp.style.filter = on ? `drop-shadow(0 0 ${10 + 6 * Math.sin(t * 8)}px #FFD23F)` : 'none'; } }
+  // magnifier lands on the pita
+  { const m0 = VB ? W('hb1', 'rokokmu') - 0.05 : W('h1', 'bungkus') - 0.1;
+    K.pop($('hGlass'), t, m0, Infinity, -10);
+    if (t > m0 + 0.4) $('hGlass').style.transform += ` translate(${14 * Math.sin((t - m0) * 3)}px, ${8 * Math.cos((t - m0) * 3)}px)`; }
+  K.pop($('hKpk'), t, W(H2, 'kpk') - 0.1, Infinity, -6);
+  K.pop($('hBld'), t, W(H2, 'geledah') - 0.08, Infinity, 2);
+  if (t > W(H2, 'geledah') + 0.3) $('hBld').style.transform += ` translateX(${5 * Math.sin(t * 30) * Math.exp(-4 * (t - W(H2, 'geledah') - 0.3))}px)`;
+  K.pop($('hBldL'), t, W(H2, 'djarum') - 0.1, Infinity, 3);
+  if (!VB) K.pop($('hIl'), t, W('h1', 'kecil'), Infinity, 0);
+  if (VB) { // pita → coin → vault "uang negara"
+    const vOut = W('hb2', 'kenapa') - 0.1;
+    K.pop($('bVault'), t, W('hb1', 'urusan') - 0.1, vOut, 4);
+    const c0 = W('hb1', 'uang') - 0.15, k = K.easeInOut(K.prog(t, c0, 0.55));
+    $('bCoin').style.opacity = t >= c0 ? 1 - K.clamp((t - c0 - 0.5) / 0.15) : 0;
+    $('bCoin').style.transform = `translate(-50%,-50%) translate(${380 * k}px, ${-120 * Math.sin(Math.PI * k)}px) scale(${1 - 0.3 * k}) rotate(${360 * k}deg)`;
+    K.pop($('bVaultL'), t, W('hb1', 'negara') - 0.1, vOut, -2);
+  }
+
+  // ---------- tagline ----------
+  K.pop($('stamp'), t, at('rd', -0.1), at('l1', -0.2), -6);
+
+  // ---------- R1: l1 ----------
+  K.pop($('r1D'), t, W('l1', 'rabu') - 0.1, Infinity, -2);
+  K.pop($('r1K'), t, W('l1', 'kpk') - 0.1, Infinity, 1);
+  K.pop($('r1B1'), t, W('l1', 'pt') - 0.15, Infinity, -2);
+  K.pop($('r1L1'), t, W('l1', 'djarum') - 0.05, Infinity, -2);
+  K.pop($('r1B2'), t, W('l1', 'bea') - 0.15, Infinity, 2);
+  K.pop($('r1L2'), t, W('l1', 'cukai') - 0.05, Infinity, 2);
+  { const g0 = W('l1', 'geledah') - 0.05; K.pop($('r1G'), t, g0, Infinity, -8);
+    const x = t < W('l1', 'bea') - 0.1 ? -250 : 250, k = K.easeInOut(K.prog(t, W('l1', 'bea') - 0.3, 0.5));
+    const xx = t < W('l1', 'bea') - 0.3 ? -250 : -250 + 500 * k;
+    if (t > g0) $('r1G').style.transform += ` translate(${xx}px, ${60 + 12 * Math.sin(t * 5)}px)`; }
+  K.pop($('r1P'), t, W('l1', 'kudus') - 0.1, Infinity, -1);
+
+  // ---------- R1b: l1b open loop ----------
+  K.pop($('lbHd'), t, W('l1b', 'sudah') - 0.1, Infinity, 0);
+  K.pop($('lbCard'), t, W('l1b', 'tersangka') - 0.15, Infinity, -2);
+  K.pop($('lbLock'), t, W('l1b', 'tersangka') + 0.1, Infinity, 10);
+  if (t > W('l1b', 'tersangka') + 0.6) $('lbLock').style.transform += ` rotate(${4 * Math.sin((t) * 7)}deg)`;
+  K.pop($('lbT'), t, W('l1b', 'angkanya') - 0.08, Infinity, -2);
+
+  // ---------- R2: l2 pita cukai itu apa ----------
+  K.pop($('r2Hd'), t, W('l2', 'pita') - 0.15, Infinity, 0);
+  K.pop($('r2Pita'), t, W('l2', 'cukai') - 0.05, Infinity, -3);
+  if (t > W('l2', 'apa')) pulse($('r2Pita'), W('l2', 'apa'), 0.08, -3);
+  K.pop($('r2Eq'), t, W('l2', 'tanda') - 0.1, Infinity, 1);
+  slam($('r2St'), t, W('l2', 'dilunasi') - 0.05, -4, 1.8);
+  K.pop($('r2N'), t, W('l2', 'dilunasi') + 0.3, Infinity, 0);
+
+  // ---------- R3: l3 steps ----------
+  K.pop($('s1'), t, W('l3', 'pabrik') - 0.12, Infinity, 0);
+  K.pop($('s1L'), t, W('l3', 'pesan') - 0.08, Infinity, 0);
+  { const b0 = W('l3', 'bea') - 0.1; $('s1B').style.opacity = t >= b0 ? 1 : 0.15; $('s1A').style.opacity = t >= W('l3', 'pitanya') - 0.1 ? 1 : 0.15; }
+  K.pop($('s2'), t, W('l3', 'lalu') - 0.1, Infinity, 0);
+  { const p0 = W('l3', 'ditempel') - 0.15, k = K.easeOut(K.prog(t, p0, 0.35));
+    $('s2Pi').style.opacity = t >= p0 ? 1 : 0; $('s2Pi').style.transform = `translateY(${-90 * (1 - k)}px) rotate(${-14 * (1 - k)}deg)`; }
+  K.pop($('s2L'), t, W('l3', 'wajib') - 0.08, Infinity, 0);
+  K.pop($('s3'), t, W('l3', 'sebelum') - 0.1, Infinity, 0);
+  { const d0 = W('l3', 'keluar') - 0.1, k = K.easeInOut(K.prog(t, d0, 0.9)); $('s3Tr').style.transform = `translateX(${-120 + 160 * k}px)`; }
+  K.pop($('s3L'), t, W('l3', 'keluar') - 0.08, Infinity, 0);
+
+  // ---------- R4: l4 dugaan kickback ----------
+  K.pop($('r4T'), t, W('l4', 'jubir') - 0.12, Infinity, -1);
+  K.pop($('r4Q'), t, W('l4', 'didalami') - 0.15, Infinity, 0);
+  hlOn($('r4Dg'), t >= W('l4', 'dugaan') - 0.05);
+  $('r4Kb').style.opacity = t >= W('l4', 'kickback') - 0.08 ? 1 : 0.12;
+  $('r4Pg').style.opacity = t >= W('l4', 'pengurusan') - 0.08 ? 1 : 0.12;
+
+  // ---------- R5: l5 kemungkinan ----------
+  K.pop($('r5Hd'), t, W('l5', 'termasuk') - 0.1, Infinity, -2);
+  K.pop($('r5A'), t, W('l5', 'pt') - 0.15, Infinity, -2);
+  K.pop($('r5B'), t, W('l5', 'oknum') - 0.15, Infinity, 2);
+  { const a0 = W('l5', 'pemberian') - 0.1; K.pop($('r5Ar'), t, a0, Infinity, 0); $('r5ArP').setAttribute('stroke-dashoffset', -30 * t);
+    const k = ((t - a0) * 0.6) % 1; $('r5Env').style.opacity = t >= a0 ? 0.9 * Math.sin(Math.PI * k) : 0;
+    $('r5Env').style.transform = `translate(-50%,-50%) translateX(${-120 + 240 * k}px)`; }
+  slam($('r5Q'), t, W('l5', 'oknum') + 0.1, 4, 1.8);
+  K.pop($('r5St'), t, W('l5', 'kemungkinan') - 0.1, Infinity, -2);
+
+  // ---------- R6: l6 disita ----------
+  K.pop($('r6Hd'), t, W('l6', 'yang') - 0.1, Infinity, 0);
+  K.pop($('r6F'), t, W('l6', 'dokumen') - 0.15, Infinity, -4); K.pop($('r6L1'), t, W('l6', 'dokumen') - 0.05, Infinity, -2);
+  K.pop($('r6E'), t, W('l6', 'barang') - 0.15, Infinity, 3); K.pop($('r6L2'), t, W('l6', 'bukti') - 0.05, Infinity, 2);
+  K.pop($('r6K'), t, W('l6', 'kata') - 0.08, Infinity, 0);
+  slam($('r6St'), t, W('l6', 'tahap') - 0.05, -4, 1.8);
+
+  // ---------- R7: l7 kasus induk ----------
+  K.pop($('r7Hd'), t, W('l7', 'pengembangan') - 0.1, Infinity, -2);
+  K.pop($('r7C'), t, W('l7', 'dugaan') - 0.1, Infinity, 0);
+  K.pop($('r7T1'), t, W('l7', 'ott') - 0.12, Infinity, 0);
+  draw($('r7LnP'), t, W('l7', 'februari'), 0.4);
+  K.pop($('r7T2'), t, W('l7', 'februari') + 0.35, Infinity, 0);
+  $('r7Ln').style.transform = 'translate(-50%, 0)';
+
+  // ---------- R8: l8 turn ----------
+  K.pop($('r8T'), t, W('l8', 'tapi') - 0.1, Infinity, -3);
+  K.pop($('r8A'), t, W('l8', 'digeledah') - 0.1, Infinity, 0);
+  slam($('r8N'), t, W('l8', 'bukan') - 0.05, 0, 2.2);
+  slam($('r8B'), t, W('l8', 'bersalah') - 0.08, -2, 1.6);
+
+  // ---------- R9: l9 sprindik umum ----------
+  K.pop($('r9K'), t, W('l9', 'kata') - 0.1, Infinity, -1);
+  K.pop($('r9C'), t, W('l9', 'penyidikan') - 0.1, Infinity, 0);
+  if (t > W('l9', 'sprindik')) pulse($('r9C'), W('l9', 'sprindik') - 0.05, 0.06, 0);
+  slam($('r9St'), t, W('l9', 'belum') - 0.05, -3, 1.8);
+  K.pop($('r9Dj'), t, W('l9', 'termasuk') - 0.08, Infinity, 2);
+
+  // ---------- R10: l10 Djarum response ----------
+  K.pop($('r10Hd'), t, at('l10', -0.1), Infinity, -1);
+  K.pop($('r10Q'), t, W('l10', 'bilang') - 0.1, Infinity, 0);
+  hlOn($('r10W1'), t >= W('l10', 'menghormati') - 0.05);
+  hlOn($('r10W2'), t >= W('l10', 'menaati') - 0.05);
+  K.pop($('r10T'), t, W('l10', 'kami') - 0.05, Infinity, 0);
+
+  // ---------- R11: payoff 8 = 3 + 4 + 1 ----------
+  K.pop($('pHd'), t, W('l11', 'sudah') - 0.15, Infinity, 0);
+  { const n0 = W('l11', '8') - 0.12; K.pop($('pN'), t, n0, Infinity, 0); count($('pN'), t, n0, 0.6, 8);
+    if (t > n0 + 0.6) pulse($('pN'), n0 + 0.6, 0.08, 0); }
+  K.pop($('pL'), t, W('l11', 'orang') - 0.08, Infinity, 0);
+  { const g0 = [W('l12', '3'), W('l12', '4'), W('l12', '1')].map((x) => x - 0.12);
+    ['pG1', 'pG2', 'pG3'].forEach((g, i) => { K.pop($(g), t, g0[i], Infinity, 0); });
+    ppl.forEach(({ e, g }, i) => { const s = K.spring(t - g0[g] - 0.04 * i, 300, 16); e.style.opacity = t >= g0[g] ? 1 : 0; e.style.transform = `translateY(${(1 - s) * 40}px)`; }); }
+
+  // ---------- R12: l13 the one ----------
+  K.pop($('oHd'), t, W('l13', 'yang') - 0.1, Infinity, -2);
+  K.pop($('oP'), t, W('l13', 'satu') - 0.1, Infinity, 0);
+  K.pop($('oT'), t, W('l13', 'gatot') - 0.12, Infinity, 0);
+  slam($('oSt'), t, W('l13', 'tersangka') - 0.08, -3, 1.6);
+  K.pop($('oN'), t, W('l13', 'juli') + 0.2, Infinity, 0);
+
+  // ---------- CTA ----------
+  const qOut = at('end', -0.4);
+  K.pop($('qHd'), t, at('cta', -0.05), qOut, 0);
+  { const ex = t >= W('cta', 'komen') - 0.08 ? 'happy' : 'neutral';
+    if ($('qBudi').dataset.e !== ex) { $('qBudi').innerHTML = K.budi(ex).replace('<svg ', '<svg width="338" height="450" '); $('qBudi').dataset.e = ex; }
+    K.pop($('qBudi'), t, W('cta', 'kamu') - 0.1, qOut, -2); }
+  K.pop($('qPita'), t, W('cta', 'pita') - 0.1, qOut, 4);
+  K.pop($('qK'), t, W('cta', 'komen') - 0.08, qOut, 3);
+
+  // ---------- end ----------
+  const en = K.prog(t, at('end', -0.15), 0.3);
+  $('endcard').style.opacity = en;
+  $('endcard').querySelector('.logo').style.transform = `rotate(-3deg) scale(${0.6 + 0.4 * K.spring(t - at('end', -0.15))})`;
+  K.subtitles($('subs'), t);
+  $('subs').style.visibility = en > 0.5 ? 'hidden' : 'visible';
+  $('progress').style.width = (100 * t / window.DURATION) + '%';
+  return true;
+}
+window.seek = seek; seek(0);
+</script>
+</body>
+</html>

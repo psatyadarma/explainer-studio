@@ -1,0 +1,6 @@
+[{"at":0.05,"offset":0,"type":"thump"},{"at":"hb2","offset":0,"type":"pop"},{"at":"rd","offset":0,"type":"thump"},
+{"at":"l1","offset":-0.3,"type":"whoosh"},{"at":"l1b","offset":-0.3,"type":"whoosh"},{"at":"l2","offset":-0.3,"type":"whoosh"},{"at":"l3","offset":-0.3,"type":"whoosh"},
+{"at":"l4","offset":-0.3,"type":"whoosh"},{"at":"l5","offset":-0.3,"type":"whoosh"},{"at":"l6","offset":-0.3,"type":"whoosh"},
+{"at":"l7","offset":-0.3,"type":"whoosh"},{"at":"l8","offset":-0.3,"type":"whoosh"},{"at":"l8","offset":1.0,"type":"thump"},
+{"at":"l9","offset":-0.3,"type":"whoosh"},{"at":"l10","offset":-0.3,"type":"whoosh"},{"at":"l11","offset":-0.3,"type":"whoosh"},{"at":"l11","offset":3.0,"type":"thump"},
+{"at":"l13","offset":-0.3,"type":"whoosh"},{"at":"cta","offset":-0.3,"type":"whoosh"},{"at":"end","offset":0,"type":"ding"}]
