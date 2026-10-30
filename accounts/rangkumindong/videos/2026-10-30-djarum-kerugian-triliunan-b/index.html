@@ -1,0 +1,406 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Djarum: kerugian triliunan, belum ada tersangka — Rangkumin Dong</title>
+<link rel="stylesheet" href="../../../../styles/sticker/sticker.css">
+<script src="../../../../styles/sticker/sticker.js"></script>
+<script src="../../../../styles/sticker/characters/budi.js"></script>
+<script>window.SUB_LEAD = -0.04; window.SUB_MODE = "block";</script>
+<script src="build/timing.js"></script>
+<style>
+  .zone { position: absolute; width: 1080px; height: 1920px; }
+  .big { font-weight: 900; letter-spacing: -8px; line-height: .9; white-space: nowrap; font-variant-numeric: tabular-nums; }
+  .lbl { font-weight: 800; font-size: 40px; color: var(--ink); white-space: nowrap; text-align: center; }
+  .note { font-weight: 800; font-size: 28px; color: var(--slate); white-space: nowrap; text-align: center; }
+  .chip { background: #fff; border-radius: 26px; padding: 16px 30px 20px; font-weight: 900; font-size: 46px; letter-spacing: -1px; white-space: nowrap;
+          box-shadow: 0 0 0 8px #fff, 0 14px 24px rgba(27,36,48,.18); display: flex; align-items: center; gap: 18px; }
+  .stampx { font-weight: 900; letter-spacing: -2px; color: var(--accent); border: 10px solid var(--accent); border-radius: 22px; padding: 6px 28px 12px;
+            white-space: nowrap; background: rgba(255,255,255,.92); text-align: center; line-height: 1; }
+  .stampx.grey { color: var(--slate); border-color: var(--slate); border-style: dashed; }
+  .ntag { height: 116px; background: #fff; border-radius: 26px; display: flex; flex-direction: row; gap: 20px; align-items: center; padding: 0 30px 0 18px;
+          box-shadow: 0 0 0 8px #fff, 0 16px 24px rgba(27,36,48,.2); }
+  .ntag .icn { flex: 0 0 86px; height: 86px; border-radius: 50%; background: var(--slate); display: flex; align-items: center; justify-content: center; overflow: hidden; }
+  .ntag .nm { font-weight: 900; font-size: 38px; line-height: 1.05; letter-spacing: -1px; white-space: nowrap; }
+  .ntag .rl { font-weight: 700; font-size: 27px; color: var(--slate); white-space: nowrap; margin-top: 4px; }
+  .bub { position: absolute; background: #fff; border-radius: 30px; padding: 22px 30px 26px; text-align: center;
+         font-weight: 900; font-size: 56px; line-height: 1.08; letter-spacing: -1.5px; box-shadow: 0 0 0 9px #fff, 0 18px 26px rgba(27,36,48,.2); }
+  .card { background: #fff; border-radius: 30px; padding: 30px 40px 36px; box-shadow: 0 0 0 10px #fff, 0 18px 28px rgba(27,36,48,.2); text-align: center; }
+  .hl { background: var(--hi); border-radius: 12px; padding: 0 12px 4px; }
+  .off { display: flex; gap: 22px; }
+  .off i { display: block; }
+  #endcard { position: absolute; inset: 0; z-index: 8; display: flex; flex-direction: column; align-items: center; justify-content: center;
+             gap: 24px; background: var(--paper); opacity: 0; }
+  #endcard .logo { background: var(--accent); color: #fff; font-weight: 900; font-size: 116px; letter-spacing: -4px;
+                   padding: 30px 58px 40px; border-radius: 44px; line-height: .95; text-align: center; transform: rotate(-3deg); }
+  #endcard .tl2 { font-weight: 800; font-size: 54px; color: var(--slate); }
+  #endcard .h { font-weight: 900; font-size: 50px; background: var(--ink); color: #fff; padding: 12px 26px; border-radius: 16px; }
+  #endcard .src { font-weight: 700; font-size: 27px; color: var(--slate); margin-top: 10px; text-align: center; line-height: 1.4; max-width: 900px; }
+</style>
+</head>
+<body>
+<div id="stage">
+  <div id="world">
+
+    <!-- A (0,0): hook / cover (A and B openings) -->
+    <div id="zA" class="zone" style="left:0; top:0;">
+      <div id="aHd" class="abs headline" style="left:540px; top:500px; width:1000px;">
+        <div style="font-size:104px; white-space:nowrap; letter-spacing:-4px;">TRILIUNAN RUPIAH</div>
+        <div style="font-size:100px; color:var(--accent); white-space:nowrap; letter-spacing:-4px; line-height:.95;">DARI PITA ROKOK?</div></div>
+      <div id="aSt" class="abs stampx grey" style="left:540px; top:705px; font-size:44px; padding:4px 24px 10px; border-width:7px;">dugaan · kata KPK</div>
+      <div id="bHd" class="abs headline" style="left:540px; top:510px; width:1000px;">
+        <div style="font-size:120px; white-space:nowrap; letter-spacing:-5px;">DIGELEDAH <span id="bEq" style="color:var(--accent); display:inline-block; width:90px; text-align:center;">=</span></div>
+        <div style="font-size:120px; white-space:nowrap; letter-spacing:-5px; line-height:.95;">TERSANGKA?</div></div>
+      <div id="hPack" class="abs sticker-svg" style="left:300px; top:1060px;"></div>
+      <div id="hGlass" class="abs" style="left:330px; top:900px;"></div>
+      <div id="hIl" class="abs note" style="left:300px; top:1290px; font-size:22px;">ilustrasi</div>
+      <!-- A only: counter that never lands on a number -->
+      <div id="hCnt" class="abs card" style="left:730px; top:990px; width:400px; padding:22px 20px 26px;">
+        <div class="note" style="font-size:26px;">kerugian negara</div>
+        <div id="hCntN" class="big" style="font-size:72px; letter-spacing:-2px; margin-top:6px; color:var(--accent);">Rp 0 T</div>
+        <div id="hCntD" class="note" style="font-size:26px; margin-top:6px;">dugaan</div></div>
+      <div id="hSt2" class="abs stampx grey" style="left:730px; top:1200px; font-size:30px; padding:4px 18px 8px; border-width:6px;">hitungan awal · kata KPK</div>
+      <div id="hKpk" class="abs tag sticker" style="left:800px; top:800px; font-size:56px; padding:10px 26px 16px;">KPK</div>
+      <!-- B only -->
+      <div id="bBld" class="abs sticker-svg" style="left:760px; top:1050px;"></div>
+      <div id="bGlass" class="abs" style="left:700px; top:960px;"></div>
+      <div id="bQ" class="abs tag accent sticker" style="left:520px; top:770px; font-size:44px;">tersangka?</div>
+      <div id="bBldL" class="abs chip" style="left:760px; top:1250px; font-size:34px; padding:10px 22px 14px;">Kantor PT Djarum</div>
+      <div id="bNo" class="abs stampx" style="left:540px; top:810px; font-size:100px; padding:2px 30px 10px;">BELUM.</div>
+      <div id="bZero" class="abs chip" style="left:300px; top:1300px; font-size:34px; padding:10px 22px 14px;"><span style="color:var(--accent); font-size:46px;">0</span> tersangka</div>
+    </div>
+
+    <!-- tagline (1240,0) -->
+    <div class="zone" style="left:1240px; top:0;">
+      <div id="stamp" class="abs stamp sticker" style="left:540px; top:960px; font-size:110px;">Rangkumin dong!</div>
+    </div>
+
+    <!-- R1 (0,2400): l1 + l1a geledah Kudus -->
+    <div class="zone" style="left:0; top:2400px;">
+      <div id="r1D" class="abs tag sticker" style="left:300px; top:470px; font-size:44px;">RABU, 28 OKT</div>
+      <div id="r1Ar" class="abs" style="left:540px; top:470px;"></div>
+      <div id="r1D2" class="abs tag accent sticker" style="left:770px; top:470px; font-size:44px;">KAMIS, 29 OKT</div>
+      <div id="r1P" class="abs tag sticker" style="left:540px; top:600px; font-size:36px; display:flex; align-items:center; gap:12px; padding:8px 22px 12px;"><span id="r1PI"></span>Kudus, Jawa Tengah · 2026</div>
+      <div id="r1K" class="abs chip" style="left:540px; top:740px; font-size:42px;"><span id="r1KI"></span>KPK geledah</div>
+      <div id="r1B1" class="abs sticker-svg" style="left:290px; top:940px;"></div>
+      <div id="r1B2" class="abs sticker-svg" style="left:790px; top:940px;"></div>
+      <div id="r1L1" class="abs chip" style="left:290px; top:1110px; font-size:34px; padding:10px 22px 14px;">Kantor PT Djarum</div>
+      <div id="r1L2" class="abs chip" style="left:790px; top:1110px; font-size:34px; padding:10px 22px 14px;">Bea Cukai Kudus</div>
+      <div id="r1Off" class="abs off" style="left:540px; top:1290px;"></div>
+      <div id="r1L3" class="abs lbl" style="left:540px; top:1395px; font-size:40px;">6 perusahaan terafiliasi Djarum</div>
+      <div id="r1N3" class="abs note" style="left:540px; top:1440px; font-size:26px;">nama belum diungkap KPK</div>
+    </div>
+
+    <!-- R1b (1240,2400): l1b open loop -->
+    <div class="zone" style="left:1240px; top:2400px;">
+      <div id="lbHd" class="abs headline" style="left:540px; top:500px; font-size:96px; white-space:nowrap;">SATU ANGKA LAGI</div>
+      <div id="lbCard" class="abs card" style="left:540px; top:900px; width:520px;">
+        <div class="big" style="font-size:260px; filter:blur(14px); color:var(--accent);">?</div></div>
+      <div id="lbLock" class="abs" style="left:780px; top:740px;"></div>
+      <div id="lbT" class="abs tag accent sticker" style="left:540px; top:1250px; font-size:50px;">← di akhir</div>
+    </div>
+
+    <!-- R2 (2480,2400): l2 pita cukai itu apa -->
+    <div class="zone" style="left:2480px; top:2400px;">
+      <div id="r2Hd" class="abs headline" style="left:540px; top:490px; font-size:110px; white-space:nowrap;">PITA <span class="acc">CUKAI</span></div>
+      <div id="r2Pita" class="abs sticker-svg" style="left:540px; top:790px;"></div>
+      <div id="r2Eq" class="abs chip" style="left:540px; top:1040px; font-size:50px;">= tanda cukai rokok</div>
+      <div id="r2St" class="abs stampx" style="left:540px; top:1220px; font-size:92px;">SUDAH DILUNASI</div>
+      <div id="r2N" class="abs note" style="left:540px; top:1380px; font-size:26px;">aturan: PMK 68/PMK.04/2018</div>
+    </div>
+
+    <!-- R3 (0,4800): l3 KPK spokesman, dugaan kickback -->
+    <div class="zone" style="left:0; top:4800px;">
+      <div id="r3T" class="abs ntag" style="left:540px; top:500px;"><div class="icn person"></div>
+        <div><div class="nm">Budi Prasetyo</div><div class="rl">Juru Bicara KPK</div></div></div>
+      <div id="r3Q" class="abs card" style="left:540px; top:930px; width:820px;">
+        <div class="note" style="font-size:34px;">kata KPK, yang didalami:</div>
+        <div style="font-weight:900; font-size:96px; letter-spacing:-3px; line-height:1.05; margin-top:14px; white-space:nowrap;"><span id="r3Dg">DUGAAN</span></div>
+        <div id="r3Kb" style="font-weight:900; font-size:96px; letter-spacing:-3px; line-height:1.0; color:var(--accent); white-space:nowrap;">KICKBACK</div>
+        <div id="r3Pg" class="lbl" style="font-size:44px; margin-top:16px;">pengurusan pita cukai</div></div>
+    </div>
+
+    <!-- R4 (1240,4800): l4 triliunan = hitungan awal -->
+    <div class="zone" style="left:1240px; top:4800px;">
+      <div id="r4W" class="abs" style="left:540px; top:600px; border:9px dashed var(--slate); border-radius:30px; padding:20px 40px 30px; background:rgba(255,255,255,.6);">
+        <div class="big" style="font-size:140px; letter-spacing:-5px;">TRILIUNAN</div></div>
+      <div id="r4St" class="abs stampx" style="left:600px; top:810px; font-size:84px;">HITUNGAN AWAL</div>
+      <div id="r4Rp" class="abs card" style="left:540px; top:1080px; width:560px; padding:20px 30px 26px;">
+        <div class="big" style="font-size:110px; letter-spacing:-3px; color:var(--slate);">Rp ???</div></div>
+      <div id="r4L" class="abs lbl" style="left:540px; top:1250px; font-size:40px;">angka pasti belum diumumkan</div>
+      <div id="r4K" class="abs note" style="left:540px; top:1310px; font-size:26px;">kata KPK</div>
+    </div>
+
+    <!-- R5 (2480,4800): l5 turn -->
+    <div class="zone" style="left:2480px; top:4800px;">
+      <div id="r5T" class="abs tag sticker" style="left:540px; top:500px; font-size:60px;">TAPI INGAT</div>
+      <div id="r5A" class="abs headline" style="left:540px; top:730px; font-size:150px; white-space:nowrap; letter-spacing:-6px;">DIGELEDAH</div>
+      <div id="r5N" class="abs big" style="left:540px; top:940px; font-size:200px; color:var(--accent); letter-spacing:0;">≠</div>
+      <div id="r5B" class="abs headline" style="left:540px; top:1150px; font-size:150px; white-space:nowrap; letter-spacing:-6px;">BERSALAH</div>
+    </div>
+
+    <!-- R6 (0,7200): l6 payoff: nol tersangka -->
+    <div class="zone" style="left:0; top:7200px;">
+      <div id="r6Hd" class="abs headline" style="left:540px; top:500px; font-size:100px; white-space:nowrap;">ANGKA TADI?</div>
+      <div id="r6Card" class="abs card" style="left:540px; top:900px; width:560px;">
+        <div id="r6N" class="big" style="font-size:260px; color:var(--accent);">?</div>
+        <div id="r6L" class="lbl" style="font-size:54px; margin-top:6px;">tersangka</div></div>
+      <div id="r6St" class="abs stampx" style="left:800px; top:700px; font-size:52px;">BELUM ADA</div>
+      <div id="r6P" class="abs note" style="left:540px; top:1240px; font-size:30px; line-height:1.3;">penyidikan pita cukai<br>(sprindik umum)</div>
+    </div>
+
+    <!-- R7 (1240,7200): l7 Djarum response -->
+    <div class="zone" style="left:1240px; top:7200px;">
+      <div id="r7Hd" class="abs tag sticker" style="left:540px; top:480px; font-size:50px;">TANGGAPAN DJARUM GROUP</div>
+      <div id="r7Q" class="abs card" style="left:540px; top:820px; width:840px; text-align:left; padding:40px 50px 46px;">
+        <div style="font-weight:900; font-size:150px; line-height:.6; color:var(--accent);">“</div>
+        <div style="font-weight:900; font-size:72px; letter-spacing:-2px; line-height:1.1;">Kami <span id="r7W1">menghormati</span><br>dan <span id="r7W2">menaati</span> hukum.”</div></div>
+      <div id="r7T" class="abs ntag" style="left:540px; top:1190px;"><div class="icn person"></div>
+        <div><div class="nm">Budi Darmawan</div><div class="rl">Djarum Group<br>via CNN Indonesia / CNBC Indonesia</div></div></div>
+    </div>
+
+    <!-- R8 (2480,7200): CTA -->
+    <div class="zone" style="left:2480px; top:7200px;">
+      <div id="qHd" class="abs headline" style="left:540px; top:520px; font-size:82px; line-height:1.06;">Mau tanya apa<br><span class="acc">ke KPK?</span></div>
+      <div id="qBudi" class="abs sticker-svg" style="left:320px; top:1030px;"></div>
+      <div id="qQ" class="abs bub" style="left:740px; top:840px; font-size:110px; padding:6px 40px 16px;">?</div>
+      <div id="qK" class="abs bub" style="left:750px; top:1130px; font-size:66px;">Komen!</div>
+    </div>
+  </div>
+
+  <div id="brand"><div class="dot"></div><b>Rangkumin Dong</b></div>
+  <div id="subs"></div>
+  <div id="endcard">
+    <div class="logo">RANGKUMIN<br>DONG</div>
+    <div class="tl2">Berita ribet? Rangkumin dong.</div>
+    <div class="h">@rangkumindong</div>
+    <div class="src">Sumber: CNN Indonesia, detikNews, CNBC Indonesia, Antara, VIVA, Hukumonline (28–30 Okt 2026);<br>PMK 68/PMK.04/2018 · lengkap di komentar</div>
+    <div class="src" style="font-size:25px; margin-top:0;">Semua masih dugaan; asas praduga tak bersalah berlaku.</div>
+  </div>
+  <div id="progress"></div>
+</div>
+
+<script>
+const $ = (id) => document.getElementById(id);
+const T = window.TIMING;
+window.DURATION = T.duration;
+const at = K.at, W = K.word;
+const VB = T.variant === 'b';
+const END = K.line('cta').end + 0.1;
+
+// ---------- SVG builders (generic icons, no logos or brands) ----------
+const personSil = (s = 86) => `<svg width="${s}" height="${s}" viewBox="0 0 106 106"><circle cx="53" cy="40" r="19" fill="#fff"/><path d="M14 106 Q14 66 53 66 Q92 66 92 106 Z" fill="#fff"/></svg>`;
+const pitaSVG = (w = 760) => `<svg width="${w}" height="${w * 0.29}" viewBox="0 0 760 220">
+  <rect x="6" y="6" width="748" height="208" rx="18" fill="#BFE3D0" stroke="#1B2430" stroke-width="8"/>
+  ${[...Array(18)].map((_, i) => `<path d="M${30 + i * 42} 14 L${10 + i * 42} 206" stroke="#9ED1B8" stroke-width="10"/>`).join('')}
+  <rect x="200" y="40" width="360" height="140" rx="14" fill="#fff" stroke="#1B2430" stroke-width="6"/>
+  <text x="380" y="140" text-anchor="middle" font-family="inherit" font-weight="900" font-size="96" fill="#1B2430" letter-spacing="6">CUKAI</text>
+  <circle cx="110" cy="110" r="58" fill="#FFD23F" stroke="#1B2430" stroke-width="6"/><circle cx="110" cy="110" r="34" fill="none" stroke="#FF5A36" stroke-width="8" stroke-dasharray="8 8"/>
+  <rect x="600" y="62" width="120" height="96" rx="12" fill="#3E5568"/><text x="660" y="126" text-anchor="middle" font-family="inherit" font-weight="900" font-size="44" fill="#fff">2026</text></svg>`;
+const packSVG = (s = 1, pita = true) => `<svg width="${330 * s}" height="${440 * s}" viewBox="0 0 330 440">
+  <rect x="20" y="40" width="290" height="390" rx="20" fill="#3E5568" stroke="#1B2430" stroke-width="8"/>
+  <path d="M20 150 H310" stroke="#1B2430" stroke-width="6"/><rect x="20" y="40" width="290" height="110" rx="20" fill="#E9E2D2" stroke="#1B2430" stroke-width="8"/>
+  <rect x="60" y="210" width="210" height="150" rx="16" fill="#F3EFE6"/><path d="M90 250 H240 M90 290 H240 M90 330 H190" stroke="#C9D3DC" stroke-width="14" stroke-linecap="round"/>
+  ${pita ? `<g id="pkPita"><rect x="70" y="20" width="190" height="140" rx="10" fill="#FFD23F" stroke="#1B2430" stroke-width="7"/>
+  ${[0, 1, 2, 3, 4, 5].map((i) => `<path d="M${88 + i * 30} 26 L${78 + i * 30} 154" stroke="#F5B800" stroke-width="8"/>`).join('')}
+  <rect x="100" y="66" width="130" height="50" rx="8" fill="#fff" stroke="#1B2430" stroke-width="5"/><text x="165" y="103" text-anchor="middle" font-family="inherit" font-weight="900" font-size="32" fill="#1B2430">CUKAI</text></g>` : ''}</svg>`;
+const glassSVG = (s = 200) => `<svg width="${s}" height="${s}" viewBox="0 0 200 200"><circle cx="82" cy="82" r="60" fill="rgba(255,255,255,.35)" stroke="#1B2430" stroke-width="16"/>
+  <path d="M126 126 L182 182" stroke="#1B2430" stroke-width="26" stroke-linecap="round"/><path d="M52 62 Q60 42 82 38" stroke="#fff" stroke-width="10" fill="none" stroke-linecap="round"/></svg>`;
+const bldSVG = (s = 1, roof = '#3E5568') => `<svg width="${280 * s}" height="${300 * s}" viewBox="0 0 280 300">
+  <rect x="30" y="50" width="220" height="240" rx="12" fill="#fff" stroke="#1B2430" stroke-width="8"/><rect x="18" y="30" width="244" height="36" rx="10" fill="${roof}" stroke="#1B2430" stroke-width="8"/>
+  ${[0, 1, 2].map((r) => [0, 1, 2].map((c) => `<rect x="${58 + c * 62}" y="${88 + r * 60}" width="40" height="38" rx="6" fill="#8FD0F0"/>`).join('')).join('')}
+  <rect x="112" y="236" width="56" height="54" rx="6" fill="#3E5568"/></svg>`;
+const arrowSVG = (w = 120) => `<svg width="${w}" height="50" viewBox="0 0 120 50"><path d="M8 25 H104 M82 6 L108 25 L82 44" stroke="#1B2430" stroke-width="10" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+const pinSVG = (s = 70) => `<svg width="${s}" height="${s * 1.3}" viewBox="0 0 70 91"><path d="M35 88 Q6 52 6 32 A29 29 0 1 1 64 32 Q64 52 35 88 Z" fill="#FF5A36" stroke="#fff" stroke-width="6"/><circle cx="35" cy="32" r="11" fill="#fff"/></svg>`;
+const lockSVG = (s = 150) => `<svg width="${s}" height="${s * 1.1}" viewBox="0 0 150 165"><path d="M38 74 V48 Q38 12 75 12 Q112 12 112 48 V74" stroke="#1B2430" stroke-width="16" fill="none" stroke-linecap="round"/>
+  <rect x="16" y="70" width="118" height="88" rx="18" fill="#FFD23F" stroke="#1B2430" stroke-width="9"/><circle cx="75" cy="108" r="12" fill="#1B2430"/><rect x="69" y="110" width="12" height="26" rx="5" fill="#1B2430"/></svg>`;
+
+// ---------- static parts ----------
+document.querySelectorAll('.icn.person').forEach((d) => (d.innerHTML = personSil()));
+$('hPack').innerHTML = packSVG(0.85);
+$('hGlass').innerHTML = glassSVG(190);
+$('bBld').innerHTML = bldSVG(0.8, '#7D8C99');
+$('bGlass').innerHTML = glassSVG(170);
+$('r1Ar').innerHTML = arrowSVG(70);
+$('r1KI').innerHTML = glassSVG(48);
+$('r1PI').innerHTML = pinSVG(32);
+$('r1B1').innerHTML = bldSVG(0.72, '#7D8C99');
+$('r1B2').innerHTML = bldSVG(0.72, '#3E5568');
+const offs = [];
+for (let i = 0; i < 6; i++) { const e = document.createElement('i'); e.innerHTML = bldSVG(0.34, i % 2 ? '#3E5568' : '#7D8C99'); $('r1Off').appendChild(e); offs.push(e); }
+$('lbLock').innerHTML = lockSVG(150);
+$('r2Pita').innerHTML = pitaSVG(760);
+const budiSet = (ex) => { if ($('qBudi').dataset.e !== ex) { $('qBudi').innerHTML = K.budi(ex).replace('<svg ', '<svg width="315" height="420" '); $('qBudi').dataset.e = ex; } };
+budiSet('neutral');
+
+if (VB) { ['aHd', 'aSt', 'hIl', 'hCnt', 'hSt2', 'hGlass'].forEach((id) => { $(id).style.display = 'none'; }); }
+else { ['bHd', 'bBld', 'bGlass', 'bQ', 'bBldL', 'bNo', 'bZero'].forEach((id) => { $(id).style.display = 'none'; }); }
+
+let T_ = 0;
+const pulse = (el, tIn, amt = 0.12, rot = 0) => { const k = K.clamp((T_ - tIn) / 0.45); el.style.transform = `translate(-50%,-50%) scale(${1 + amt * Math.sin(Math.PI * k)}) rotate(${rot}deg)`; };
+const slam = (el, t, tIn, rot = 0, from = 2) => { const s = K.spring(t - tIn, 320, 18); el.style.opacity = t >= tIn ? 1 : 0; el.style.transform = `translate(-50%,-50%) scale(${from - (from - 1) * s}) rotate(${rot}deg)`; };
+const hlOn = (el, on) => { el.style.background = on ? 'var(--hi)' : 'transparent'; el.style.borderRadius = '12px'; el.style.padding = '0 10px 4px'; };
+
+function seek(t) {
+  T_ = t;
+  const Z = (x, y, z = 1.0) => ({ x, y: y + 200 / z, z });
+  const zc = (ox, oy, z = 1) => Z(ox + 540, oy + 960, z);
+  const hEnd = at('rd', -0.3);
+  K.camera($('world'), [
+    { t: 0, ...zc(0, 0) },
+    { t: (VB ? W('hb2', 'ternyata') : W('h2', 'kata')) - 0.15, ...zc(0, 0, 1.04), dur: 0.5 },
+    { t: hEnd, ...Z(1240 + 540, 960, 1.1) },
+    { t: at('l1', -0.3), ...zc(0, 2400) },
+    { t: at('l1a', -0.3), ...zc(0, 2400, 1.03), dur: 0.5 },
+    { t: at('l1b', -0.3), ...zc(1240, 2400) },
+    { t: at('l2', -0.3), ...zc(2480, 2400) },
+    { t: at('l3', -0.3), ...zc(0, 4800) },
+    { t: at('l4', -0.3), ...zc(1240, 4800) },
+    { t: at('l5', -0.3), ...zc(2480, 4800) },
+    { t: W('l5', 'bukan') - 0.2, ...zc(2480, 4800, 1.07), dur: 0.5 },
+    { t: at('l6', -0.3), ...zc(0, 7200) },
+    { t: at('l7', -0.3), ...zc(1240, 7200) },
+    { t: at('cta', -0.3), ...zc(2480, 7200) },
+  ], t, 1080, 1920, 0.6);
+  $('zA').style.visibility = t > hEnd + 0.7 ? 'hidden' : 'visible';
+
+  // ---------- hook: shared pack ----------
+  { const g0 = VB ? W('hb1', 'digeledah') : W('h1', 'pita') - 0.05;
+    $('hPack').style.opacity = 1;
+    let sc = 1; if (!VB && t > g0) sc = 1 + 0.08 * Math.sin(Math.PI * K.clamp((t - g0) / 0.45));
+    const rk = VB ? 0 : W('h1', 'rokokmu') - 0.05; if (!VB && t > rk) sc *= 1 + 0.06 * Math.sin(Math.PI * K.clamp((t - rk) / 0.4));
+    $('hPack').style.transform = `translate(-50%,-50%) scale(${sc}) rotate(${-4 + 1.2 * Math.sin(t * 1.8)}deg)`;
+    const pp = $('hPack').querySelector('#pkPita'); if (pp) { const on = VB || t > g0; pp.style.filter = on ? `drop-shadow(0 0 ${10 + 6 * Math.sin(t * 8)}px #FFD23F)` : 'none'; } }
+  K.pop($('hKpk'), t, (VB ? W('hb1', 'kpk') : W('h2', 'kpk')) - 0.1, VB ? W('hb2', 'belum') - 0.15 : Infinity, -6);
+
+  if (!VB) {
+    // title + attribution stamp from frame 1
+    { const th = 1 + 0.05 * Math.exp(-6 * t) * Math.sin(t * 14); $('aHd').style.transform = `translate(-50%,-50%) scale(${th})`;
+      if (t > W('h1', 'pita') - 0.05) pulse($('aHd'), W('h1', 'pita') - 0.05, 0.04, 0); }
+    $('aSt').style.opacity = 1; $('aSt').style.transform = 'translate(-50%,-50%) rotate(-3deg)';
+    if (t > W('h2', 'dugaan') - 0.05) pulse($('aSt'), W('h2', 'dugaan') - 0.05, 0.12, -3);
+    // counter spins (blurred), resolves to the word, never a number
+    { const c0 = W('h1', 'rupiah') - 0.1, r0 = W('h1', 'dari') - 0.05;
+      K.pop($('hCnt'), t, c0, Infinity, 2);
+      const n = $('hCntN');
+      if (t < r0) { n.textContent = 'Rp ??? T'; n.style.filter = `blur(${6 + 2 * Math.sin(t * 20)}px)`; n.style.fontSize = '72px'; n.style.transform = `translateY(${6 * Math.sin(t * 30)}px)`; }
+      else { n.textContent = 'TRILIUNAN'; n.style.filter = 'none'; n.style.fontSize = '64px'; n.style.transform = 'none'; }
+      $('hCntD').style.background = t >= W('h2', 'dugaan') - 0.05 ? 'var(--hi)' : 'transparent'; $('hCntD').style.borderRadius = '8px';
+      if (t > W('h2', 'kerugian') - 0.05) pulse($('hCnt'), W('h2', 'kerugian') - 0.05, 0.06, 2); }
+    K.pop($('hSt2'), t, W('h2', 'itu') - 0.05, Infinity, -2);
+    // magnifier lands on the pita, "ilustrasi"
+    { const m0 = W('h1', 'pita') - 0.05; K.pop($('hGlass'), t, m0, Infinity, -10);
+      if (t > m0 + 0.4) $('hGlass').style.transform += ` translate(${14 * Math.sin((t - m0) * 3)}px, ${8 * Math.cos((t - m0) * 3)}px)`; }
+    K.pop($('hIl'), t, W('h1', 'kecil'), Infinity, 0);
+  } else {
+    { const th = 1 + 0.05 * Math.exp(-6 * t) * Math.sin(t * 14); $('bHd').style.transform = `translate(-50%,-50%) scale(${th})`;
+      const f0 = W('hb2', 'ternyata') - 0.05;
+      $('bEq').textContent = t >= f0 ? '≠' : '=';
+      const k = K.clamp((t - f0) / 0.4), p = W('hb1', 'pasti') - 0.05, kp = K.clamp((t - p) / 0.4);
+      $('bEq').style.transform = `scale(${1 + 0.5 * Math.sin(Math.PI * k) + 0.3 * Math.sin(Math.PI * kp)}) rotate(${t >= f0 ? -12 * Math.sin(Math.PI * k) : 0}deg)`; }
+    K.pop($('bBld'), t, W('hb1', 'yang') - 0.1, Infinity, 2);
+    { const m0 = W('hb1', 'digeledah') - 0.05; K.pop($('bGlass'), t, m0, Infinity, -10);
+      if (t > m0 + 0.4) $('bGlass').style.transform += ` translate(${18 * Math.sin((t - m0) * 3)}px, ${10 * Math.cos((t - m0) * 3)}px)`; }
+    K.pop($('bQ'), t, W('hb1', 'tersangka') - 0.08, W('hb2', 'belum') - 0.1, 3);
+    K.pop($('bBldL'), t, W('hb2', 'djarum') - 0.08, Infinity, -1);
+    slam($('bNo'), t, W('hb2', 'belum') - 0.05, -4, 1.8);
+    K.pop($('bZero'), t, W('hb2', 'satu') - 0.08, Infinity, -2);
+  }
+
+  // ---------- tagline ----------
+  K.pop($('stamp'), t, at('rd', -0.1), at('l1', -0.2), -6);
+
+  // ---------- R1: l1 + l1a ----------
+  K.pop($('r1D'), t, W('l1', 'rabu') - 0.1, Infinity, -2);
+  K.pop($('r1K'), t, W('l1', 'kpk') - 0.1, Infinity, 1);
+  K.pop($('r1B1'), t, W('l1', 'pt') - 0.15, Infinity, -2);
+  K.pop($('r1L1'), t, W('l1', 'djarum') - 0.05, Infinity, -2);
+  K.pop($('r1B2'), t, W('l1', 'bea') - 0.15, Infinity, 2);
+  K.pop($('r1L2'), t, W('l1', 'cukai') - 0.05, Infinity, 2);
+  K.pop($('r1P'), t, W('l1', 'kudus') - 0.1, Infinity, -1);
+  K.pop($('r1Ar'), t, W('l1a', 'kamis') - 0.15, Infinity, 0);
+  K.pop($('r1D2'), t, W('l1a', 'kamis') - 0.05, Infinity, 2);
+  { const o0 = W('l1a', 'enam') - 0.1, o1 = W('l1a', 'terafiliasi');
+    offs.forEach((e, i) => { const ti = o0 + (o1 - o0) * i / 5; const s = K.spring(t - ti, 300, 16);
+      e.style.opacity = t >= ti ? 1 : 0; e.style.transform = `translateY(${(1 - s) * 50}px) scale(${0.5 + 0.5 * s})`; }); }
+  $('r1Off').style.opacity = t >= W('l1a', 'enam') - 0.1 ? 1 : 0; $('r1Off').style.transform = 'translate(-50%,-50%)';
+  K.pop($('r1L3'), t, W('l1a', 'perusahaan') - 0.08, Infinity, 0);
+  K.pop($('r1N3'), t, W('l1a', 'djarum') - 0.05, Infinity, 0);
+
+  // ---------- R1b: l1b open loop ----------
+  K.pop($('lbHd'), t, W('l1b', 'satu') - 0.1, Infinity, 0);
+  K.pop($('lbCard'), t, W('l1b', 'angka') - 0.1, Infinity, -2);
+  K.pop($('lbLock'), t, W('l1b', 'lagi') - 0.05, Infinity, 10);
+  if (t > W('l1b', 'lagi') + 0.4) $('lbLock').style.transform += ` rotate(${4 * Math.sin(t * 7)}deg)`;
+  K.pop($('lbT'), t, W('l1b', 'akhir') - 0.1, Infinity, -2);
+
+  // ---------- R2: l2 pita cukai ----------
+  K.pop($('r2Hd'), t, W('l2', 'pita') - 0.15, Infinity, 0);
+  { const p0 = W('l2', 'itu') - 0.1, k = K.easeOut(K.prog(t, p0, 0.5)); $('r2Pita').style.opacity = t >= p0 ? 1 : 0;
+    $('r2Pita').style.transform = `translate(-50%,-50%) scale(${0.25 + 0.75 * k}) rotate(${-14 * (1 - k) - 3}deg)`;
+    if (t > W('l2', 'rokok')) pulse($('r2Pita'), W('l2', 'rokok'), 0.07, -3); }
+  K.pop($('r2Eq'), t, W('l2', 'tanda') - 0.1, Infinity, 1);
+  slam($('r2St'), t, W('l2', 'dilunasi') - 0.05, -4, 1.8);
+  K.pop($('r2N'), t, W('l2', 'dilunasi') + 0.3, Infinity, 0);
+
+  // ---------- R3: l3 dugaan kickback ----------
+  K.pop($('r3T'), t, W('l3', 'jubir') - 0.12, Infinity, -1);
+  if (t > W('l3', 'budi') - 0.05) pulse($('r3T'), W('l3', 'budi') - 0.05, 0.08, -1);
+  K.pop($('r3Q'), t, W('l3', 'didalami') - 0.15, Infinity, 0);
+  hlOn($('r3Dg'), t >= W('l3', 'dugaan') - 0.05);
+  $('r3Kb').style.opacity = t >= W('l3', 'kickback') - 0.08 ? 1 : 0.12;
+  $('r3Pg').style.opacity = t >= W('l3', 'pengurusan') - 0.08 ? 1 : 0.12;
+
+  // ---------- R4: l4 hitungan awal ----------
+  K.pop($('r4W'), t, W('l4', 'triliunan') - 0.1, Infinity, 0);
+  slam($('r4St'), t, W('l4', 'hitungan') - 0.05, -6, 1.8);
+  K.pop($('r4Rp'), t, W('l4', 'angka') - 0.1, Infinity, 1);
+  if (t > W('l4', 'pastinya')) pulse($('r4Rp'), W('l4', 'pastinya'), 0.06, 1);
+  K.pop($('r4L'), t, W('l4', 'belum') - 0.08, Infinity, 0);
+  K.pop($('r4K'), t, W('l4', 'diumumkan'), Infinity, 0);
+
+  // ---------- R5: l5 turn ----------
+  K.pop($('r5T'), t, W('l5', 'tapi') - 0.1, Infinity, -3);
+  K.pop($('r5A'), t, W('l5', 'digeledah') - 0.1, Infinity, 0);
+  slam($('r5N'), t, W('l5', 'bukan') - 0.05, 0, 2.2);
+  slam($('r5B'), t, W('l5', 'bersalah') - 0.08, -2, 1.6);
+
+  // ---------- R6: l6 payoff ----------
+  K.pop($('r6Hd'), t, W('l6', 'angka') - 0.1, Infinity, 0);
+  K.pop($('r6Card'), t, W('l6', 'angka') - 0.05, Infinity, -2);
+  { const n0 = W('l6', 'nol') - 0.08, n = $('r6N');
+    if (t < n0) { n.textContent = '?'; n.style.filter = 'blur(14px)'; }
+    else { n.textContent = '0'; n.style.filter = `blur(${14 * (1 - K.clamp((t - n0) / 0.25))}px)`; if (t > n0 + 0.25) pulse($('r6Card'), n0 + 0.25, 0.08, -2); }
+    $('r6L').style.opacity = t >= W('l6', 'tersangka') - 0.08 ? 1 : 0.15; }
+  slam($('r6St'), t, W('l6', 'belum') - 0.05, 6, 1.7);
+  K.pop($('r6P'), t, W('l6', 'penyidikan') - 0.08, Infinity, 0);
+
+  // ---------- R7: l7 Djarum response ----------
+  K.pop($('r7Hd'), t, at('l7', -0.1), Infinity, -1);
+  K.pop($('r7Q'), t, W('l7', 'bilang') - 0.1, Infinity, 0);
+  hlOn($('r7W1'), t >= W('l7', 'menghormati') - 0.05);
+  hlOn($('r7W2'), t >= W('l7', 'menaati') - 0.05);
+  K.pop($('r7T'), t, W('l7', 'kami') - 0.05, Infinity, 0);
+
+  // ---------- CTA ----------
+  const qOut = END - 0.3;
+  K.pop($('qHd'), t, at('cta', -0.05), qOut, 0);
+  budiSet(t >= W('cta', 'komen') - 0.08 ? 'happy' : 'neutral');
+  K.pop($('qBudi'), t, W('cta', 'tanya') - 0.1, qOut, -2);
+  K.pop($('qQ'), t, W('cta', 'kpk') - 0.1, qOut, 6);
+  if (t > W('cta', 'kpk') + 0.4) $('qQ').style.transform += ` rotate(${5 * Math.sin(t * 5)}deg)`;
+  K.pop($('qK'), t, W('cta', 'komen') - 0.08, qOut, 3);
+
+  // ---------- end ----------
+  const en = K.prog(t, END - 0.15, 0.3);
+  $('endcard').style.opacity = en;
+  $('endcard').querySelector('.logo').style.transform = `rotate(-3deg) scale(${0.6 + 0.4 * K.spring(t - END + 0.15)})`;
+  K.subtitles($('subs'), t);
+  $('subs').style.visibility = en > 0.5 ? 'hidden' : 'visible';
+  $('progress').style.width = (100 * t / window.DURATION) + '%';
+  return true;
+}
+window.seek = seek; seek(0);
+</script>
+</body>
+</html>

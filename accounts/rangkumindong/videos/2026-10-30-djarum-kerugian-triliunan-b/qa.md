@@ -1,0 +1,3 @@
+VERDICT: PASS (re-check after fixes; 0 blocking)
+Opening 0-8 s: title card DIGELEDAH =/!= TERSANGKA? then BELUM. stamp; readable, safezone OK, only transitional mid-slide rd sticker at edge. Subtitles match hb1/hb2 timing. Splice hb2 end 6.24 -> rd 6.37 -> l1 7.96: no click (sample-step scan shows only normal waveform, no discontinuity), no doubled or cut word per timing; l1 follows naturally.
+Audio -14.0 LUFS, TP -2.6 dBTP PASS. 1080x1920 30fps, 43.33 s (target OK), a/v diff 0.00 s. Gaps 0.13-0.22 s. Body is A's take at 1.14x (atempo, pitch kept); listened-by-measurement only. Sync skipped for B per protocol (A passes).

@@ -1,0 +1,575 @@
+{
+ "duration": 50.644,
+ "voice": "Cahaya",
+ "lines": [
+  {
+   "id": "h1",
+   "text": "Triliunan rupiah. Dari pita kecil di rokokmu?",
+   "start": 0.14,
+   "end": 3.631,
+   "words": [
+    {
+     "w": "Triliunan",
+     "start": 0.14,
+     "end": 0.871
+    },
+    {
+     "w": "rupiah.",
+     "start": 0.951,
+     "end": 1.747
+    },
+    {
+     "w": "Dari",
+     "start": 1.747,
+     "end": 2.031
+    },
+    {
+     "w": "pita",
+     "start": 2.071,
+     "end": 2.351
+    },
+    {
+     "w": "kecil",
+     "start": 2.431,
+     "end": 2.751
+    },
+    {
+     "w": "di",
+     "start": 2.804,
+     "end": 2.911
+    },
+    {
+     "w": "rokokmu?",
+     "start": 2.964,
+     "end": 3.631
+    }
+   ]
+  },
+  {
+   "id": "h2",
+   "text": "Kata KPK, itu dugaan kerugian negara.",
+   "start": 4.079,
+   "end": 7.78,
+   "words": [
+    {
+     "w": "Kata",
+     "start": 4.079,
+     "end": 4.287
+    },
+    {
+     "w": "KPK,",
+     "start": 4.394,
+     "end": 5.247
+    },
+    {
+     "w": "itu",
+     "start": 5.387,
+     "end": 5.807
+    },
+    {
+     "w": "dugaan",
+     "start": 5.847,
+     "end": 6.367
+    },
+    {
+     "w": "kerugian",
+     "start": 6.427,
+     "end": 7.007
+    },
+    {
+     "w": "negara.",
+     "start": 7.067,
+     "end": 7.78
+    }
+   ]
+  },
+  {
+   "id": "rd",
+   "text": "Rangkumin dong!",
+   "start": 7.889,
+   "end": 9.276,
+   "words": [
+    {
+     "w": "Rangkumin",
+     "start": 7.889,
+     "end": 8.583
+    },
+    {
+     "w": "dong!",
+     "start": 8.583,
+     "end": 9.276
+    }
+   ]
+  },
+  {
+   "id": "l1",
+   "text": "Rabu, KPK geledah PT Djarum dan Bea Cukai Kudus.",
+   "start": 9.803,
+   "end": 14.096,
+   "words": [
+    {
+     "w": "Rabu,",
+     "start": 9.803,
+     "end": 10.251
+    },
+    {
+     "w": "KPK",
+     "start": 10.331,
+     "end": 10.971
+    },
+    {
+     "w": "geledah",
+     "start": 11.024,
+     "end": 11.371
+    },
+    {
+     "w": "PT",
+     "start": 11.451,
+     "end": 11.691
+    },
+    {
+     "w": "Djarum",
+     "start": 11.771,
+     "end": 12.251
+    },
+    {
+     "w": "dan",
+     "start": 12.391,
+     "end": 12.681
+    },
+    {
+     "w": "Bea",
+     "start": 12.761,
+     "end": 13.001
+    },
+    {
+     "w": "Cukai",
+     "start": 13.041,
+     "end": 13.321
+    },
+    {
+     "w": "Kudus.",
+     "start": 13.361,
+     "end": 14.096
+    }
+   ]
+  },
+  {
+   "id": "l1a",
+   "text": "Kamis, giliran enam perusahaan terafiliasi Djarum.",
+   "start": 14.321,
+   "end": 18.141,
+   "words": [
+    {
+     "w": "Kamis,",
+     "start": 14.321,
+     "end": 15.151
+    },
+    {
+     "w": "giliran",
+     "start": 15.231,
+     "end": 15.471
+    },
+    {
+     "w": "enam",
+     "start": 15.519,
+     "end": 15.711
+    },
+    {
+     "w": "perusahaan",
+     "start": 15.771,
+     "end": 16.431
+    },
+    {
+     "w": "terafiliasi",
+     "start": 16.491,
+     "end": 17.311
+    },
+    {
+     "w": "Djarum.",
+     "start": 17.351,
+     "end": 18.141
+    }
+   ]
+  },
+  {
+   "id": "l1b",
+   "text": "Satu angka lagi, di akhir.",
+   "start": 18.351,
+   "end": 19.981,
+   "words": [
+    {
+     "w": "Satu",
+     "start": 18.351,
+     "end": 18.501
+    },
+    {
+     "w": "angka",
+     "start": 18.531,
+     "end": 18.701
+    },
+    {
+     "w": "lagi,",
+     "start": 18.781,
+     "end": 19.181
+    },
+    {
+     "w": "di",
+     "start": 19.261,
+     "end": 19.421
+    },
+    {
+     "w": "akhir.",
+     "start": 19.501,
+     "end": 19.981
+    }
+   ]
+  },
+  {
+   "id": "l2",
+   "text": "Pita cukai itu tanda cukai rokok sudah dilunasi.",
+   "start": 20.39,
+   "end": 23.821,
+   "words": [
+    {
+     "w": "Pita",
+     "start": 20.39,
+     "end": 20.441
+    },
+    {
+     "w": "cukai",
+     "start": 20.501,
+     "end": 20.761
+    },
+    {
+     "w": "itu",
+     "start": 20.861,
+     "end": 21.241
+    },
+    {
+     "w": "tanda",
+     "start": 21.416,
+     "end": 21.741
+    },
+    {
+     "w": "cukai",
+     "start": 21.801,
+     "end": 22.061
+    },
+    {
+     "w": "rokok",
+     "start": 22.114,
+     "end": 22.541
+    },
+    {
+     "w": "sudah",
+     "start": 22.621,
+     "end": 23.021
+    },
+    {
+     "w": "dilunasi.",
+     "start": 23.061,
+     "end": 23.821
+    }
+   ]
+  },
+  {
+   "id": "l3",
+   "text": "Kata jubir KPK Budi Prasetyo: didalami dugaan kickback pengurusan pita cukai.",
+   "start": 24.09,
+   "end": 29.806,
+   "words": [
+    {
+     "w": "Kata",
+     "start": 24.09,
+     "end": 24.186
+    },
+    {
+     "w": "jubir",
+     "start": 24.266,
+     "end": 24.746
+    },
+    {
+     "w": "KPK",
+     "start": 24.853,
+     "end": 25.546
+    },
+    {
+     "w": "Budi",
+     "start": 25.586,
+     "end": 25.786
+    },
+    {
+     "w": "Prasetyo:",
+     "start": 25.839,
+     "end": 26.506
+    },
+    {
+     "w": "didalami",
+     "start": 26.616,
+     "end": 27.326
+    },
+    {
+     "w": "dugaan",
+     "start": 27.366,
+     "end": 27.726
+    },
+    {
+     "w": "kickback",
+     "start": 27.806,
+     "end": 28.286
+    },
+    {
+     "w": "pengurusan",
+     "start": 28.318,
+     "end": 28.926
+    },
+    {
+     "w": "pita",
+     "start": 28.966,
+     "end": 29.166
+    },
+    {
+     "w": "cukai.",
+     "start": 29.246,
+     "end": 29.806
+    }
+   ]
+  },
+  {
+   "id": "l4",
+   "text": "Triliunan itu “hitungan awal”. Angka pastinya belum diumumkan.",
+   "start": 29.977,
+   "end": 34.166,
+   "words": [
+    {
+     "w": "Triliunan",
+     "start": 29.977,
+     "end": 30.466
+    },
+    {
+     "w": "itu",
+     "start": 30.586,
+     "end": 31.106
+    },
+    {
+     "w": "“hitungan",
+     "start": 31.146,
+     "end": 31.506
+    },
+    {
+     "w": "awal”.",
+     "start": 31.559,
+     "end": 31.986
+    },
+    {
+     "w": "Angka",
+     "start": 32.156,
+     "end": 32.566
+    },
+    {
+     "w": "pastinya",
+     "start": 32.598,
+     "end": 33.046
+    },
+    {
+     "w": "belum",
+     "start": 33.099,
+     "end": 33.366
+    },
+    {
+     "w": "diumumkan.",
+     "start": 33.419,
+     "end": 34.166
+    }
+   ]
+  },
+  {
+   "id": "l5",
+   "text": "Tapi ingat: digeledah bukan berarti bersalah.",
+   "start": 34.506,
+   "end": 37.586,
+   "words": [
+    {
+     "w": "Tapi",
+     "start": 34.506,
+     "end": 34.546
+    },
+    {
+     "w": "ingat:",
+     "start": 34.586,
+     "end": 35.026
+    },
+    {
+     "w": "digeledah",
+     "start": 35.186,
+     "end": 36.066
+    },
+    {
+     "w": "bukan",
+     "start": 36.119,
+     "end": 36.466
+    },
+    {
+     "w": "berarti",
+     "start": 36.506,
+     "end": 36.866
+    },
+    {
+     "w": "bersalah.",
+     "start": 36.93,
+     "end": 37.586
+    }
+   ]
+  },
+  {
+   "id": "l6",
+   "text": "Angka tadi? Nol. Belum ada tersangka di penyidikan ini.",
+   "start": 37.882,
+   "end": 41.796,
+   "words": [
+    {
+     "w": "Angka",
+     "start": 37.882,
+     "end": 37.986
+    },
+    {
+     "w": "tadi?",
+     "start": 38.066,
+     "end": 38.546
+    },
+    {
+     "w": "Nol.",
+     "start": 38.716,
+     "end": 39.206
+    },
+    {
+     "w": "Belum",
+     "start": 39.356,
+     "end": 39.636
+    },
+    {
+     "w": "ada",
+     "start": 39.736,
+     "end": 40.036
+    },
+    {
+     "w": "tersangka",
+     "start": 40.084,
+     "end": 40.676
+    },
+    {
+     "w": "di",
+     "start": 40.729,
+     "end": 40.836
+    },
+    {
+     "w": "penyidikan",
+     "start": 40.884,
+     "end": 41.396
+    },
+    {
+     "w": "ini.",
+     "start": 41.476,
+     "end": 41.796
+    }
+   ]
+  },
+  {
+   "id": "l7",
+   "text": "Djarum bilang: “Kami menghormati dan menaati hukum.”",
+   "start": 42.048,
+   "end": 45.766,
+   "words": [
+    {
+     "w": "Djarum",
+     "start": 42.048,
+     "end": 42.296
+    },
+    {
+     "w": "bilang:",
+     "start": 42.356,
+     "end": 42.856
+    },
+    {
+     "w": "“Kami",
+     "start": 43.0,
+     "end": 43.366
+    },
+    {
+     "w": "menghormati",
+     "start": 43.414,
+     "end": 44.326
+    },
+    {
+     "w": "dan",
+     "start": 44.426,
+     "end": 44.726
+    },
+    {
+     "w": "menaati",
+     "start": 44.786,
+     "end": 45.206
+    },
+    {
+     "w": "hukum.”",
+     "start": 45.246,
+     "end": 45.766
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "text": "Mau tanya apa ke KPK soal kasus ini? Komen!",
+   "start": 46.113,
+   "end": 49.736,
+   "words": [
+    {
+     "w": "Mau",
+     "start": 46.113,
+     "end": 46.126
+    },
+    {
+     "w": "tanya",
+     "start": 46.206,
+     "end": 46.526
+    },
+    {
+     "w": "apa",
+     "start": 46.586,
+     "end": 46.766
+    },
+    {
+     "w": "ke",
+     "start": 46.873,
+     "end": 47.206
+    },
+    {
+     "w": "KPK",
+     "start": 47.246,
+     "end": 47.886
+    },
+    {
+     "w": "soal",
+     "start": 47.939,
+     "end": 48.126
+    },
+    {
+     "w": "kasus",
+     "start": 48.166,
+     "end": 48.446
+    },
+    {
+     "w": "ini?",
+     "start": 48.526,
+     "end": 48.966
+    },
+    {
+     "w": "Komen!",
+     "start": 48.966,
+     "end": 49.736
+    }
+   ]
+  }
+ ]
+}

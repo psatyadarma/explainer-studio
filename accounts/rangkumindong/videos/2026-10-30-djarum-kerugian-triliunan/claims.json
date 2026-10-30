@@ -1,0 +1,78 @@
+[
+ {
+  "claim": "Kata Jubir KPK Budi Prasetyo (Kamis malam, 29 Okt 2026), kerugian negara dalam perkara dugaan korupsi terkait cukai/PT Djarum: \"Untuk hitungan awal di angka triliunan.\" Angka pasti belum disebut; tempus belum diungkap (\"nanti kami update\"), ditelusuri \"beberapa tahun ke belakang\"",
+  "numbers": "triliunan (hitungan awal, tanpa angka pasti) · 29 Okt 2026",
+  "sources": [
+   "https://www.cnnindonesia.com/nasional/20261029224700-12-1421226/kpk-kerugian-negara-korupsi-cukai-terkait-pt-djarum-capai-triliunan",
+   "https://news.detik.com/berita/d-8730473/kpk-ungkap-perkara-cukai-seret-pt-djarum-rugikan-negara-triliunan",
+   "https://www.cnbcindonesia.com/news/20261030090127-4-780818/kpk-dalami-modus-dugaan-korupsi-pt-djarum-kerugian-negara-triliunan",
+   "https://sumbar.antaranews.com/berita/786343/kpk-nilai-negara-rugi-triliunan-rupiah-akibat-kasus-cukai-pt-djarum"
+  ],
+  "note": "Hook says 'Negara diduga rugi triliunan, kata KPK'; l4 adds 'hitungan awal' and 'angka pastinya belum diumumkan' (none of the 4 articles gives a figure). antaranews.com/berita/5820691 could not be fetched (permission timeout); its Antara Sumbar copy was read instead."
+ },
+ {
+  "claim": "Rabu 28 Okt 2026, KPK menggeledah kantor PT Djarum dan KPPBC TMC (Bea Cukai) Kudus",
+  "numbers": "28 Okt 2026",
+  "sources": [
+   "https://news.detik.com/berita/d-8728488/geledah-pt-djarum-dan-bea-cukai-di-kudus-kpk-usut-dugaan-soal-pita-cukai",
+   "https://www.cnnindonesia.com/nasional/20261028192224-12-1420725/kpk-sita-dokumen-bbe-saat-geledah-kantor-djarum-bea-cukai-kudus",
+   "https://www.cnbcindonesia.com/news/20261030090127-4-780818/kpk-dalami-modus-dugaan-korupsi-pt-djarum-kerugian-negara-triliunan"
+  ],
+  "note": "Verified in the 29 Okt full fact-check (videos/2026-10-29-kpk-djarum-pita-cukai/factcheck.md)."
+ },
+ {
+  "claim": "Kamis 29 Okt 2026, KPK menggeledah enam perusahaan yang terafiliasi dengan PT Djarum (Kudus); disita dokumen dan barang bukti elektronik; identitas perusahaan belum diungkap (kata Budi Prasetyo)",
+  "numbers": "6 perusahaan · 29 Okt 2026",
+  "sources": [
+   "https://news.detik.com/berita/d-8730639/kpk-geledah-6-perusahaan-terafiliasi-pt-djarum-di-kudus-sita-bukti-dokumen",
+   "https://www.viva.co.id/berita/nasional/1939760-kpk-geledah-enam-perusahaan-terafiliasi-pt-djarum-terkait-kasus-bea-cukai-sita-dokumen"
+  ],
+  "note": "Confirmed by full-text sources detik + VIVA (30 Okt 11:48 WIB); Suara.com (30 Okt 12:52 WIB) also reports it per factcheck.md (full URL not recorded)."
+ },
+ {
+  "claim": "Pita cukai adalah tanda/cara pelunasan cukai hasil tembakau",
+  "numbers": "PMK 68/PMK.04/2018 Pasal 3(3)",
+  "sources": [
+   "https://jdih.kemenkeu.go.id/dok/68-pmk-04-2018",
+   "https://www.cnnindonesia.com/nasional/20261028192224-12-1420725/kpk-sita-dokumen-bbe-saat-geledah-kantor-djarum-bea-cukai-kudus"
+  ],
+  "note": "Reused from the 29 Okt full fact-check (PASS)."
+ },
+ {
+  "claim": "Kata Jubir KPK Budi Prasetyo, penyidik mendalami dugaan kickback dari pengurusan pita cukai (termasuk kemungkinan pemberian dari PT Djarum ke oknum Bea Cukai); detail modus belum bisa disampaikan",
+  "numbers": "",
+  "sources": [
+   "https://news.detik.com/berita/d-8728488/geledah-pt-djarum-dan-bea-cukai-di-kudus-kpk-usut-dugaan-soal-pita-cukai",
+   "https://news.detik.com/berita/d-8730473/kpk-ungkap-perkara-cukai-seret-pt-djarum-rugikan-negara-triliunan",
+   "https://www.cnnindonesia.com/nasional/20261028192224-12-1420725/kpk-sita-dokumen-bbe-saat-geledah-kantor-djarum-bea-cukai-kudus"
+  ]
+ },
+ {
+  "claim": "Penyidikan pita cukai ini memakai sprindik umum (Oktober 2026); belum ada tersangka. Per 30 Okt, belum ada tersangka yang diumumkan dalam penyidikan ini",
+  "numbers": "0 tersangka",
+  "sources": [
+   "https://www.hukumonline.com/berita/a/usut-kasus-bea-cukai--kpk-geledah-kantor-pt-djarum-lt6ae1c962d0007/",
+   "https://kalteng.antaranews.com/berita/848303/kpk-dalami-kasus-bea-cukai-melalui-penggeledahan-pt-djarum",
+   "https://news.detik.com/berita/d-8730473/kpk-ungkap-perkara-cukai-seret-pt-djarum-rugikan-negara-triliunan"
+  ],
+  "note": "Watch-out: detik 30 Okt 10:25 WIB reports a NEW suspect in the wider Bea Cukai bribery case, Ahmad Dedi alias 'Dedi Congor' (pegawai Ditjen Bea dan Cukai, tersangka per September 2026, per Budi Prasetyo): https://news.detik.com/berita/d-8730619/kpk-tetapkan-dedi-congor-tersangka-baru-kasus-bea-cukai . detik does not link him to the pita-cukai/Djarum probe. That's why the script says 'di penyidikan ini' and doesn't give a parent-case count (yesterday's '8 orang' is now outdated)."
+ },
+ {
+  "claim": "Tanggapan Djarum Group (Budi Darmawan, Senior Manager Corporate Communication): \"Kami menghormati dan menaati hukum.\"",
+  "numbers": "",
+  "sources": [
+   "https://www.cnnindonesia.com/nasional/20261028192224-12-1420725/kpk-sita-dokumen-bbe-saat-geledah-kantor-djarum-bea-cukai-kudus",
+   "https://www.cnbcindonesia.com/news/20261030090127-4-780818/kpk-dalami-modus-dugaan-korupsi-pt-djarum-kerugian-negara-triliunan"
+  ],
+  "note": "CNBC 30 Okt spells it 'mentaati'. Our subtitle uses the standard spelling 'menaati', as yesterday (CNN). CNBC adds that he didn't know the case details and said the company is cooperative."
+ },
+ {
+  "claim": "Kasus ini pengembangan dari kasus dugaan suap impor di Bea Cukai yang terungkap lewat OTT Februari 2026",
+  "numbers": "OTT Februari 2026",
+  "sources": [
+   "https://www.cnnindonesia.com/nasional/20261029224700-12-1421226/kpk-kerugian-negara-korupsi-cukai-terkait-pt-djarum-capai-triliunan",
+   "https://kalteng.antaranews.com/berita/848303/kpk-dalami-kasus-bea-cukai-melalui-penggeledahan-pt-djarum"
+  ],
+  "note": "Captions only (not spoken)."
+ }
+]

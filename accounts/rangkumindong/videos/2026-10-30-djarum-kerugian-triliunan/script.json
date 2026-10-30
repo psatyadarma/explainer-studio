@@ -1,0 +1,110 @@
+{
+  "direction": "[calm, clear explainer; strictly neutral]",
+  "voice": "female:Cahaya",
+  "format": "short",
+  "hook_style": "shock_number",
+  "subs": "block",
+  "storyline": "corruption-cases",
+  "part": null,
+  "hook_b": {
+    "style": "myth",
+    "replace": [
+      "h1",
+      "h2"
+    ],
+    "lines": [
+      {
+        "id": "hb1",
+        "tag": "[knowing, light]",
+        "text": "Katanya, yang digeledah KPK pasti tersangka.",
+        "say": "Katanya, yang digeledah, Ka Pe Ka, pasti tersangka."
+      },
+      {
+        "id": "hb2",
+        "tag": "[clear, turning]",
+        "text": "Ternyata di kasus Djarum, belum ada satu pun.",
+        "say": "Ternyata di kasus Djarum, belum ada satu pun."
+      }
+    ]
+  },
+  "lines": [
+    {
+      "id": "h1",
+      "tag": "[striking, curious]",
+      "text": "Triliunan rupiah. Dari pita kecil di rokokmu?",
+      "say": "Triliunan rupiah. Dari pita kecil di rokokmu?"
+    },
+    {
+      "id": "h2",
+      "tag": "[careful, measured]",
+      "text": "Kata KPK, itu dugaan kerugian negara.",
+      "say": "Kata, Ka Pe Ka, itu dugaan kerugian negara."
+    },
+    {
+      "id": "rd",
+      "tagline": true,
+      "text": "Rangkumin dong!"
+    },
+    {
+      "id": "l1",
+      "tag": "[explaining, quick]",
+      "text": "Rabu, KPK geledah PT Djarum dan Bea Cukai Kudus.",
+      "say": "Rabu, Ka Pe Ka geledah Pe Te Djarum, dan Bea Cukai Kudus."
+    },
+    {
+      "id": "l1a",
+      "tag": "[matter-of-fact, quick]",
+      "text": "Kamis, giliran enam perusahaan terafiliasi Djarum.",
+      "say": "Kamis, giliran enam perusahaan terafiliasi Djarum."
+    },
+    {
+      "id": "l1b",
+      "tag": "[teasing]",
+      "text": "Satu angka lagi, di akhir.",
+      "say": "Satu angka lagi, di akhir."
+    },
+    {
+      "id": "l2",
+      "tag": "[curious, explaining]",
+      "text": "Pita cukai itu tanda cukai rokok sudah dilunasi.",
+      "say": "Pita cukai itu, tanda cukai rokok sudah dilunasi."
+    },
+    {
+      "id": "l3",
+      "tag": "[serious]",
+      "text": "Kata jubir KPK Budi Prasetyo: didalami dugaan kickback pengurusan pita cukai.",
+      "say": "Kata jubir, Ka Pe Ka Budi Prasetyo: didalami dugaan kikbek pengurusan pita cukai."
+    },
+    {
+      "id": "l4",
+      "tag": "[careful, measured]",
+      "text": "Triliunan itu “hitungan awal”. Angka pastinya belum diumumkan.",
+      "say": "Triliunan itu, hitungan awal. Angka pastinya belum diumumkan."
+    },
+    {
+      "id": "l5",
+      "tag": "[serious, turning]",
+      "text": "Tapi ingat: digeledah bukan berarti bersalah.",
+      "say": "Tapi ingat: digeledah, bukan berarti bersalah."
+    },
+    {
+      "id": "l6",
+      "tag": "[clear, landing]",
+      "text": "Angka tadi? Nol. Belum ada tersangka di penyidikan ini.",
+      "say": "Angka tadi? Nol. Belum ada tersangka di penyidikan ini."
+    },
+    {
+      "id": "l7",
+      "tag": "[neutral, quoting]",
+      "text": "Djarum bilang: “Kami menghormati dan menaati hukum.”",
+      "say": "Djarum bilang: kami menghormati, dan menaati hukum."
+    },
+    {
+      "id": "cta",
+      "tag": "[playful, asking the viewer]",
+      "text": "Mau tanya apa ke KPK soal kasus ini? Komen!",
+      "say": "Mau tanya apa ke, Ka Pe Ka, soal kasus ini? Komen!"
+    }
+  ],
+  "tail": 0.9
+}
