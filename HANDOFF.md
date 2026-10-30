@@ -1,6 +1,6 @@
 # Handoff: Rangkumin Dong (read this first in every session)
 
-Updated: Thu 29 Oct 2026, 18:45 WITA. Each daily run is a fresh session with no memory of earlier chats. **This file plus the playbook are the memory.** Whenever something here changes, update it, mirror it to the Video project (`claude/rangkumindong-handoff.md`), commit and push.
+Updated: Fri 30 Oct 2026, 19:35 WITA. Each daily run is a fresh session with no memory of earlier chats. **This file plus the playbook are the memory.** Whenever something here changes, update it, mirror it to the Video project (`claude/rangkumindong-handoff.md`), commit and push.
 
 ## Standing rules from the user
 - **Experiments from 23 Oct:** daily opening A/B (B = Instagram Trial Reel, `engine/variant.py` + `engine/post.py --trial`), slot fixed at 19:00 WITA, voice in weekly blocks. The "Rangkumin dong!" tagline stays right after the hook (user 22 Oct: only change it when the data says so). See playbook → Experiments 0.
@@ -40,7 +40,8 @@ Updated: Thu 29 Oct 2026, 18:45 WITA. Each daily run is a fresh session with no 
 - #8 minyak >US$115 vs APBN US$70 (survival PART 2, format short 42 s) auto-posted 26 Oct 19:00 (IG De9IFgyFfdc, YT fjnB040O9oI); default pick, no reply all day.
 - #9 definisi korupsi PART 2 (user pick #5, sens high) posted 27 Oct 19:00 after user OK (IG De_s4bjCYcA, YT NbyJVwx49cU). User now allows auto-posting for all kinds of posts (Standing rules).
 - #10 asap karhutla "1.700 penerbangan batal" (default pick + default auto-post, short 43 s) posted 28 Oct 19:00 (IG DfCRqk-jygU, YT IsQsbiAmYxE). definisi korupsi PART 2 = best IG so far (~1.3k views, ~50% watched at 24 h).
-- #11 KPK geledah Djarum "pita cukai" (29 Oct, default pick, QA+fact-check PASS) **not posted**: the 18:40 default post was denied by the session's permission classifier ("External System Writes") — default auto-posting may now need a live user "OK post". Folder videos/2026-10-29-kpk-djarum-pita-cukai.
+- #11 KPK Djarum (29 Oct) never posted (default auto-post blocked); superseded by #12 Djarum "kerugian triliunan" (30 Oct 19:00, user OK in the morning; IG DfHbaudCVLy, YT nsRjP_84WAs).
+- Weekly #2 "Rangkumin Seminggu" 24–30 Okt (10:12) scheduled Sat 31 Oct 08:00 (user OK); check links ~08:20 (send_later in the 30 Oct chat).
 - Each day: append a 3–5 line block to run-log.md (picks, counts, problems) instead of growing this file.
 
 ## Dashboard: "Rangkumin Dong Studio"
@@ -56,7 +57,7 @@ Updated: Thu 29 Oct 2026, 18:45 WITA. Each daily run is a fresh session with no 
 - Sat 24 Oct 09:00 WITA (in the original chat): TikTok warm-up done. The user connects TikTok to Upload-Post profile "Rangkumindong"; then add "tiktok" to `brand.json` posting.platforms and stop the manual TikTok sends.
 
 ## Open items
-- **Default auto-post blocked (29 Oct):** `engine/post.py` from a scheduled session with no live user reply was denied by the auto-mode permission classifier. If it repeats, ask the user to reply "OK post" each day or adjust the session's permission settings themselves.
+- **Posting needs a live yes each day (found 29–30 Oct):** the daily task already has permission_mode "auto"; the block is the platform's safety check, which needs the user's yes in that day's chat (saved standing rules don't count; neither of us can switch it off). Ask in the morning message for "OK post hari ini" — an early yes works (30 Oct). If no yes by 18:40, try once; if denied, hold and tell the user.
 - **Back pocket (user decides later):** (1) copying finished videos to the laptop via GitHub release files picked up by the 20:07 task; (2) DONE 22 Oct: public portfolio repo github.com/psatyadarma/ai-video-studio (engine, style kit, sanitized agents, examples, case-study playbook; never keys, email or knowledge base). Update it only when the user asks.
 - **Ajarin Dong is in the back pocket (22 Oct): the user wants to focus on making Rangkumin Dong run smoothly first.** Weekly task disabled; don't post or prepare Ajarin content until the user restarts it. Setup kept as is: **Ajarin Dong** (@ajarindong.id on IG/TikTok/YouTube, created 21 Oct; profile picture option C): set up 21 Oct. Upload-Post profile "Ajarindong" has IG + YouTube connected; TikTok is posted manually during warm-up (connect after ~26 Oct). Voices Pratama/Cahaya, tagline "Bingung? Ajarin dong!" (take A, pending the user's pick), 3 videos a week, weekly run on Mondays. The IG insights task should add @ajarindong.id once the user is signed in to it in Chrome.
 - Laptop folder `C:\Users\PRAWIRA SATYA DARMA\Documents\ai-projects\auto-video` granted 20 Oct; video #1 copied to `rangkumindong\2026-10-19-ihsg-msci\` (video.mp4 + captions-and-sources.md). How later videos get there is still to decide with the user (daily session can't reach the laptop).

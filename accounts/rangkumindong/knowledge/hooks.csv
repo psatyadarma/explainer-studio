@@ -1,15 +1,17 @@
 date,folder,variant,style,hook,views,hold_3s_pct,avg_watch_pct
 2026-10-19,videos/2026-10-19-ihsg-msci-v3-sync,a,question,"IHSG jatuh ke bawah 5.000. Indonesia beneran mau ""dikeluarin"" dari pasar negara berkembang?",103,n/a,12.4
 2026-10-20,videos/2026-10-20-rupiah-18rb-bi-rate,a,shock_number,"Rp18.046 per dolar. Besok BI putuskan: bunga ditahan 5,75%, atau naik ke 6%?",89,n/a,2.8
-2026-10-21,videos/2026-10-21-karhutla-lutfi-singapura,a,shock_number,"10 perusahaan Indonesia. Disurati Singapura soal asap.",51,n/a,30.6
-2026-10-23,videos/2026-10-23-mode-survival-dompet,a,question_reveal,"Prabowo: kita “harus survival”. Dompet kamu kena apa?",508,n/a,29.0
-2026-10-22,videos/2026-10-22-definisi-korupsi-kerugian-negara,a,question,"“Kerugian negara” mau dihapus dari definisi korupsi?",19,n/a,12.5
+2026-10-21,videos/2026-10-21-karhutla-lutfi-singapura,a,shock_number,10 perusahaan Indonesia. Disurati Singapura soal asap.,51,n/a,30.6
+2026-10-23,videos/2026-10-23-mode-survival-dompet,a,question_reveal,Prabowo: kita “harus survival”. Dompet kamu kena apa?,508,n/a,29.0
+2026-10-22,videos/2026-10-22-definisi-korupsi-kerugian-negara,a,question,“Kerugian negara” mau dihapus dari definisi korupsi?,19,n/a,12.5
 2026-10-24,videos/2026-10-24-ihsg-bangkit-hsc-2nov,a,kamu_stakes,"IHSG naik 4,9% seminggu. Udah aman buat kamu?",188,n/a,26.9
-2026-10-25,videos/2026-10-25-minggu-depan-4-tanggal-dompet,a,question_reveal,"4 tanggal minggu ini. Mana yang nyentuh dompetmu?",123,n/a,18.8
-2026-10-25,videos/2026-10-25-minggu-depan-4-tanggal-dompet-b,b (not posted),person_collage (fallback: name tag),"UMP 2027 naik berapa? Buruh minta diumumkan 1 November.",n/a,n/a,n/a
-2026-10-26,videos/2026-10-26-minyak-115-apbn-70-nombok,a,shock_number,"Ratusan triliun dari APBN. Salah satunya biar Pertalite kamu tetap Rp10.000.",200,n/a,28.5
-2026-10-26,videos/2026-10-26-minyak-115-apbn-70-nombok-b,b (not posted),kamu_stakes,"Pertalite kamu tetap Rp10.000. Tapi siapa yang nombok?",n/a,n/a,n/a
-2026-10-27,videos/2026-10-27-definisi-korupsi-part2-kajian,a,question_reveal,"Uang negara hilang. Pasti dihitung korupsi?",n/a,n/a,n/a
+2026-10-25,videos/2026-10-25-minggu-depan-4-tanggal-dompet,a,question_reveal,4 tanggal minggu ini. Mana yang nyentuh dompetmu?,123,n/a,18.8
+2026-10-25,videos/2026-10-25-minggu-depan-4-tanggal-dompet-b,b (not posted),person_collage (fallback: name tag),UMP 2027 naik berapa? Buruh minta diumumkan 1 November.,n/a,n/a,n/a
+2026-10-26,videos/2026-10-26-minyak-115-apbn-70-nombok,a,shock_number,Ratusan triliun dari APBN. Salah satunya biar Pertalite kamu tetap Rp10.000.,200,n/a,28.5
+2026-10-26,videos/2026-10-26-minyak-115-apbn-70-nombok-b,b (not posted),kamu_stakes,Pertalite kamu tetap Rp10.000. Tapi siapa yang nombok?,n/a,n/a,n/a
+2026-10-27,videos/2026-10-27-definisi-korupsi-part2-kajian,a,question_reveal,Uang negara hilang. Pasti dihitung korupsi?,1357,n/a,49.4
 2026-10-27,videos/2026-10-27-definisi-korupsi-part2-kajian-b,b (not posted),myth,"Katanya korupsi mau dipersempit. Kata Yusril, malah diperluas.",n/a,n/a,n/a
-2026-10-28,videos/2026-10-28-asap-1700-penerbangan-batal,a,shock_number,"1.700 penerbangan batal gara-gara asap. Rute kamu termasuk?",n/a,n/a,n/a
-2026-10-28,videos/2026-10-28-asap-1700-penerbangan-batal-b,b (not posted),kamu_stakes,"Mau terbang ke Kalimantan? Jadwalmu bisa digeser.",n/a,n/a,n/a
+2026-10-28,videos/2026-10-28-asap-1700-penerbangan-batal,a,shock_number,1.700 penerbangan batal gara-gara asap. Rute kamu termasuk?,n/a,n/a,n/a
+2026-10-28,videos/2026-10-28-asap-1700-penerbangan-batal-b,b (not posted),kamu_stakes,Mau terbang ke Kalimantan? Jadwalmu bisa digeser.,n/a,n/a,n/a
+2026-10-30,videos/2026-10-30-djarum-kerugian-triliunan,a,shock_number,Triliunan rupiah. Dari pita kecil di rokokmu?,n/a,n/a,n/a
+2026-10-30,videos/2026-10-30-djarum-kerugian-triliunan-b,b (not posted),myth,"Katanya, yang digeledah KPK pasti tersangka. Ternyata di kasus Djarum, belum ada satu pun.",n/a,n/a,n/a

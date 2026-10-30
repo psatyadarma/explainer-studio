@@ -59,3 +59,10 @@ History moved out of HANDOFF.md (22 Oct) so fresh sessions read less. Append one
 - No user reply: default pick ⭐ #1 at 14:00. Hook-critic agreed with the writer's A/B. Full fact-check: 3 fixes (Gatot Heroe = suspect since July, not the October general sprindik; "belum ada tersangka" attributed to KPK + Hukumonline/Antara; PMK 108/2008 → PMK 68/PMK.04/2018), then PASS.
 - Producer A 75.6 s / B 76.7 s (B hook re-voiced once); QA PASS both first round (qa_sync --lead 0.02). Analyst: karhutla 24 h IG 370 views/29.4%; minyak 72 h IG 200/28.5%.
 - **18:40 default post BLOCKED:** the session's auto-mode permission classifier denied `engine/post.py` ("External System Writes") with no live user OK. Video not posted; user told + push. Dashboard old-blob delete also denied again.
+
+## 30 Oct (Fri, Djarum PART 2 "kerugian triliunan"; Cahaya, shock_number / myth, subs block, format short) + weekly #2
+- Sweeps 33 events (6/10/7/10), all valid first try; 31 merged. Light fact-check 4 fixes. No pick by 14:00 → default ⭐ #1. Hook-critic picked A/B; full fact-check 1 fix (source attribution). Producer A 51 s → QA FIX (invented counter digits, gap, length) → voice 1.14× atempo, gaps ≤0.21 s → A 43.7 s / B 43.3 s, QA PASS both. qa_sync ignores SUB_LEAD (default 0.08): pass --lead.
+- **User said "OK post for today" in the morning** (after asking why 29 Oct didn't post) → A scheduled 19:00 and live (IG DfHbaudCVLy, YT nsRjP_84WAs). B not posted (Trial Reels blocked). The 29 Oct Djarum video stays unposted (superseded).
+- Weekly "Rangkumin Seminggu #2" (24–30 Okt, 10:12, Cahaya, 9 chapters): writer → full fact-check 9 fixes → chapter-builders ×9 (Sonnet) → render → editor 5 fixes → re-render ch01/02/06 → PASS. User "Yes" → scheduled Sat 31 Oct 08:00 (request_id Rangkumindong-2026-10-31). post.py can't set the thumbnail.
+- Analyst: definisi korupsi P2 72 h IG 1,357 views / 49.4% watched, YT 82 / 49.0%.
+- **Permission finding:** the daily task is already permission_mode "auto"; the 29 Oct block was the safety check that requires a live user yes in that day's chat. A morning "OK post hari ini" works.
