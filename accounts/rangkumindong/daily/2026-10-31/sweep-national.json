@@ -1,0 +1,50 @@
+{
+  "area": "national",
+  "run_date": "2026-10-31",
+  "checked": ["Known-events window (14d, brief)", "ANTARA English national/disaster tag page (tag/october/31)", "ANTARA Jaringan Cegah Hoax page", "WebSearch: detik terpopuler (returned no usable fresh page)", "WebSearch: cnnindonesia nasional (stale)", "BMKG/BNPB disasters search", "karhutla search", "Bocelli concert search (already E0431)", "watch-list found: karhutla, hoaxes, floods"],
+  "events": [
+    {
+      "date": "2026-10-28",
+      "category": "ENV",
+      "event": "The Indonesian government says it is working toward forecasting forest fires up to six months ahead.",
+      "key_numbers": "Forecast horizon: up to 6 months · reported 28 Oct 2026",
+      "storyline": "karhutla",
+      "update_of": "",
+      "status": "partial",
+      "sources": [{"label": "ANTARA English", "url": "https://en.antaranews.com/tag/october/31"}],
+      "why_it_matters": "Annual haze costs flights, health and schools; earlier warning could change how fires are prevented.",
+      "signals": {"spreading": 0, "wallet": 1, "surprise": 1, "visual": 1, "fresh": 1, "rivals": 2},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-28",
+      "category": "NEWS",
+      "event": "Officials outlined three main issues in the draft Population Data Bill (RUU Data Kependudukan), per ANTARA.",
+      "key_numbers": "3 key issues (details not read) · 28 Oct 2026",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [{"label": "ANTARA English", "url": "https://en.antaranews.com/tag/october/31"}],
+      "why_it_matters": "Rules on who holds citizens' ID and personal data affect everyone with an NIK.",
+      "signals": {"spreading": 0, "wallet": 0, "surprise": 0, "visual": 0, "fresh": 1, "rivals": 2},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-26",
+      "category": "NEWS",
+      "event": "ANTARA debunks hoaxes that Prabowo is closing the MBG free-meal programme because of an economic crisis and that Zulkifli Hasan proposed replacing MBG with Rp300,000 a month in cash.",
+      "key_numbers": "Rp300,000 per month (false claim) · 2 MBG hoaxes in one batch alongside the fake Rp1 million note (E0409)",
+      "storyline": "hoax-tracker",
+      "update_of": "E0164",
+      "status": "partial",
+      "sources": [{"label": "ANTARA Jaringan Cegah Hoax", "url": "https://www.antaranews.com/jaringan-antara-cegah-hoax"}],
+      "why_it_matters": "MBG hoaxes play on market and rupiah anxiety, and many families depend on the programme.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 1, "fresh": 1, "rivals": 1},
+      "spreading_evidence": "Top of ANTARA hoax list (labelled 'yesterday' on capture; exact date unconfirmed)",
+      "sensitivity": "high"
+    }
+  ],
+  "gaps": ["detik/cnbc/cnn section pages not returned by search, so most-read lists were not scanned", "ANTARA reported 21 foreigners arrested in a Bali online gambling raid, date unconfirmed", "BMKG 1,297 hotspots report (rctiplus) undated, not used", "Nothing verified dated 30 Oct; known window already covers up to 29 Oct"]
+}

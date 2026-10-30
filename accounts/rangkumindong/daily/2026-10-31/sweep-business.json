@@ -1,0 +1,211 @@
+{
+  "area": "business",
+  "run_date": "2026-10-31",
+  "checked": [
+    "WebSearch: teknologi 30 Oktober 2026, Komdigi Oktober 2026, kebocoran data, startup PHK, judi online blokir, ojol aplikator, Starlink/e-commerce pajak (all returned only older items)",
+    "cnbcindonesia.com/tech (fetched; newest 29 Oct, listing 30 Oct via search)",
+    "watch-list topics found: Komdigi (shadowban, Bakti), data law (Satu Data vs PDP), Perlinsos Digital/SPLP, AI security, Apple MacBook Pro Indonesia",
+    "not found fresh: judol blocking, Starlink, e-commerce tax, startup layoffs, ojol, outages"
+  ],
+  "events": [
+    {
+      "date": "2026-10-29",
+      "category": "TECH",
+      "event": "Komdigi and the social affairs ministry say the Perlinsos Digital (digital social aid) programme will launch on 10 Nov 2026, with registration via NIK, face recognition with liveness detection, and data exchanged through Komdigi's SPLP.",
+      "key_numbers": "Households registered 15.7 million as of 28 Oct (13.2 million on 24 Oct) · target 48 million · about 899,000 active agents (816,674 on 24 Oct) · time to open an aid account cut from 75-200 days to 1 minute-6 hours · launch 10 Nov 2026",
+      "storyline": "perlinsos-digital",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {
+          "label": "CNBC Indonesia",
+          "url": "https://www.cnbcindonesia.com/tech/20261029180207-37-780709/daftar-dan-buka-rekening-bansos-sekarang-cuma-1-menit-ini-caranya"
+        },
+        {
+          "label": "RCTI+ (Okezone, 26 Oct)",
+          "url": "https://www.rctiplus.com/news/detail/ekonomi/5501713/6-fakta-perlinsos-digital--target-48-juta-keluarga--bansos-cair-tunai"
+        }
+      ],
+      "why_it_matters": "Millions of low-income households must register by NIK and a face scan to keep receiving aid, and the launch is 10 days away.",
+      "signals": {
+        "spreading": 1,
+        "wallet": 2,
+        "surprise": 1,
+        "visual": 2,
+        "fresh": 2,
+        "rivals": 1
+      },
+      "spreading_evidence": "CNBC Indonesia tech page 29 Oct; several outlets",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-29",
+      "category": "TECH",
+      "event": "Apple unveils new 14-inch and 16-inch MacBook Pro with M5 Pro and M5 Max chips and Apple's first touchscreen Mac, and says it will soon go on sale in Indonesia.",
+      "key_numbers": "Display 2,000 nits peak · up to 128 GB memory (M5 Max) · up to 16 TB storage · battery up to 24 hours · 14-inch 1.38 kg, 16-inch 1.82 kg · Indonesian price and date not announced",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {
+          "label": "CNBC Indonesia",
+          "url": "https://www.cnbcindonesia.com/tech/20261029114841-37-780516/apple-rilis-macbook-pro-pertama-pakai-touchscreen-segera-masuk-ri"
+        }
+      ],
+      "why_it_matters": "Apple's first touchscreen Mac is coming to Indonesia, but no price yet.",
+      "signals": {
+        "spreading": 1,
+        "wallet": 1,
+        "surprise": 1,
+        "visual": 1,
+        "fresh": 2,
+        "rivals": 1
+      },
+      "spreading_evidence": "CNBC Indonesia tech page 29 Oct",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-28",
+      "category": "TECH",
+      "event": "Fadhilah Mathar stepped down as head (Dirut) of Komdigi's Bakti agency, announcing it on Instagram as a generational handover; no successor named.",
+      "key_numbers": "About 10 years at Bakti · about 3 years as Dirut (appointed 14 Aug 2023) · effective 28 Oct 2026",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {
+          "label": "CNBC Indonesia",
+          "url": "https://www.cnbcindonesia.com/tech/20261029064445-37-780401/dirut-bakti-komdigi-fadhilah-mathar-mengundurkan-diri"
+        }
+      ],
+      "why_it_matters": "Bakti runs rural internet and telecom projects, so leadership change matters for rural connectivity.",
+      "signals": {
+        "spreading": 0,
+        "wallet": 0,
+        "surprise": 1,
+        "visual": 0,
+        "fresh": 2,
+        "rivals": 1
+      },
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-29",
+      "category": "TECH",
+      "event": "ELSAM warns that the Satu Data Indonesia law (UU SDI) overlaps and conflicts with the Personal Data Protection law, citing data sharing without agreements, differing classifications and breach-reporting deadlines.",
+      "key_numbers": "SDI breach report 1x24 hours vs PDP 3x24 hours · SDI Art. 18, 85, 93(3) vs PDP Art. 18, 46 · PDP authority not yet formed as of mid-2026",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {
+          "label": "CNBC Indonesia",
+          "url": "https://www.cnbcindonesia.com/tech/20261029180927-37-780714/uu-satu-data-bisa-tubruk-aturan-data-pribadi-elsam-beberkan-risikonya"
+        }
+      ],
+      "why_it_matters": "Unclear rules on who protects personal data and how fast breaches must be reported affect everyone whose data the state holds.",
+      "signals": {
+        "spreading": 0,
+        "wallet": 1,
+        "surprise": 1,
+        "visual": 0,
+        "fresh": 2,
+        "rivals": 2
+      },
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-29",
+      "category": "TECH",
+      "event": "Komdigi (communications partnerships director Marroli Jeni Indarto) urges users who feel shadowbanned to appeal to the platforms, and says it will push platforms for more transparency on algorithms, moderation and AI.",
+      "key_numbers": "No figures given · follows 21 Oct statement by Minister Meutya Hafid denying any karhutla content takedown request",
+      "storyline": "karhutla",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {
+          "label": "CNBC Indonesia",
+          "url": "https://www.cnbcindonesia.com/tech/20261029140431-37-780584/komdigi-dorong-warganet-merasa-kena-shadowban-protes-ke-medsos"
+        },
+        {
+          "label": "detikInet (21 Oct)",
+          "url": "https://inet.detik.com/law-and-policy/d-8717933/isu-shadowban-karhutla-menkomdigi-sentil-platform-digital"
+        },
+        {
+          "label": "Katadata (21 Oct)",
+          "url": "https://katadata.co.id/digital/teknologi/6ad89992df56a/komdigi-buka-suara-soal-ramai-keluhan-dugaan-shadowban-konten-karhutla-di-medsos"
+        }
+      ],
+      "why_it_matters": "Many users believe posts about the forest fires were suppressed; the government says the platforms, not it, decide.",
+      "signals": {
+        "spreading": 2,
+        "wallet": 0,
+        "surprise": 1,
+        "visual": 0,
+        "fresh": 2,
+        "rivals": 1
+      },
+      "spreading_evidence": "Raised in many posts since 16 Oct; Komdigi still responding 29 Oct",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-10-29",
+      "category": "GLB",
+      "event": "Reuters via CNBC Indonesia: personal data of over 40,000 US Department of Homeland Security employees leaked in a mass hack claimed by the group 'Department of Peace'; DHS confirmed a breach. The article headline labels the victims PNS, but they are US federal staff.",
+      "key_numbers": "More than 40,000 DHS staff · third major US government breach in about a month (FBI Sept, Pentagon, DHS) · Reuters checked 6 identities as genuine",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {
+          "label": "CNBC Indonesia (citing Reuters)",
+          "url": "https://www.cnbcindonesia.com/tech/20261029123547-37-780555/40000-pns-jadi-korban-peretasan-nomor-hp-sampai-email-bobol"
+        }
+      ],
+      "why_it_matters": "Shows how even top security agencies leak data; careful, this is not an Indonesian breach despite the headline.",
+      "signals": {
+        "spreading": 0,
+        "wallet": 0,
+        "surprise": 1,
+        "visual": 0,
+        "fresh": 2,
+        "rivals": 1
+      },
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-30",
+      "category": "TECH",
+      "event": "Reuters via CNBC Indonesia: a Mandarin-speaking hacker used AI agents to breach over 100 company websites (including Deere and SharkNinja), and startup Cathedral reportedly breached Anthropic via a bug bounty programme; Anthropic says source code and model weights were not compromised.",
+      "key_numbers": "More than 100 companies breached · over 1,200 sites targeted by mid-Oct · Cathedral breach of Anthropic in under 12 hours · Anthropic valuation about US$1.4 billion ahead of IPO per article",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {
+          "label": "CNBC Indonesia (citing Reuters)",
+          "url": "https://www.cnbcindonesia.com/tech/20261030114850-37-780880/ulah-satu-warga-china-100-perusahaan-bisa-tumbang-seketika"
+        }
+      ],
+      "why_it_matters": "AI agents can now run cyberattacks with a short instruction, raising the risk to any company's website.",
+      "signals": {
+        "spreading": 1,
+        "wallet": 0,
+        "surprise": 2,
+        "visual": 0,
+        "fresh": 2,
+        "rivals": 1
+      },
+      "spreading_evidence": "CNBC Indonesia tech page 30 Oct",
+      "sensitivity": "high"
+    }
+  ],
+  "gaps": [
+    "Section pages detik inet, katadata, bisnis, cnnindonesia, dailysocial not fetched (not returned by search or permission blocked); only CNBC Indonesia tech page read, so startup/e-commerce/telco news of 29-31 Oct may be missed.",
+    "Nothing found dated 31 Oct; the Anthropic/Cathedral breach is only from a Reuters-via-CNBC item and unconfirmed by a second source.",
+    "Bakti resignation reason and successor unknown."
+  ]
+}

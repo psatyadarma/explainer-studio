@@ -1,0 +1,36 @@
+{
+  "area": "politics",
+  "run_date": "2026-10-31",
+  "checked": ["detik news (daerah page only; politik/berita page not returned by search)", "cnnindonesia (search returned only login pages)", "antaranews (no section page returned)", "tempo (search returned nothing relevant)", "storyline searches: gibran-ijazah-mk, corruption-cases (Djarum cukai, Summarecon HGB, Silmy Karim), definisi-korupsi, karhutla", "watch list topics seen: DPR RUU (Perampasan Aset), KPK, UMP/labour, Tipikor revision", "Presiden/Istana search: no new items"],
+  "events": [
+    {
+      "date": "2026-10-27",
+      "category": "POL",
+      "event": "DPR Commission III deputy chair Ahmad Sahroni said he strongly agrees with revising the UU Tipikor so that business losses at state enterprises are distinguished from officials enriching themselves.",
+      "key_numbers": "UNCAC ratified 2006 · statement 27 Oct 2026",
+      "storyline": "definisi-korupsi",
+      "update_of": "E0390",
+      "status": "partial",
+      "sources": [{"label": "PojokSatu", "url": "https://pojoksatu.id/politik/soal-redefinisi-tindak-pidana-korupsi-sahroni-jangan-sampai-penegakan-hukum-salah-sasaran"}],
+      "why_it_matters": "A senior DPR law-committee figure backing the redefinition shows the Tipikor revision has parliamentary support, while critics worry about weaker enforcement.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 0, "fresh": 1, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-09",
+      "category": "POL",
+      "event": "DPR Commission III is due to begin discussing the DIM (issue inventory) of the DPR-initiated Asset Forfeiture Bill when the recess ends, with passage targeted no later than 15 December 2026.",
+      "key_numbers": "Recess 9 Oct to 9 Nov 2026 · passage deadline 15 Dec 2026 · 62 RDPU hearings · 8 working visits",
+      "storyline": "",
+      "update_of": "E0334",
+      "status": "upcoming",
+      "sources": [{"label": "MetroTV News", "url": "https://www.metrotvnews.com/read/KRXCz69l-dpr-bahas-dim-ruu-perampasan-aset-november-2026"}],
+      "why_it_matters": "The bill would let the state seize assets of corruption suspects without a criminal conviction, and the clock to the 15 Dec target starts in November.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 1, "fresh": 0, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    }
+  ],
+  "gaps": ["Search engine and section pages (cnnindonesia, antaranews, tempo, detik politik) returned no fresh headlines for 29-31 Oct; only a detik /daerah page was readable, with no dates", "Unverified: Sahroni/Tipikor, PDIP retort to Gibran volunteers (Deddy Sitorus), BPK member Fathan Subchi death and ex-TNI commander Widodo AS funeral seen only as undated detik /daerah headlines", "UMP 2027 timing conflicts: Kompas/RCTI+ (Sep) say 1 Nov UMP deadline and 10 Nov UMK, Katadata (Oct) says internal discussion done end Nov; check before use", "No new Gibran-diploma, karhutla or KPK developments found beyond known events E0402/E0416/E0439"]
+}

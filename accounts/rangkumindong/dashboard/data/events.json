@@ -3470,6 +3470,16 @@
 "upcoming": false
 },
 {
+"id": "E0453",
+"date": "2026-10-26",
+"category": "NEWS",
+"event": "ANTARA debunks hoaxes that Prabowo is closing the MBG free-meal programme because of an economic crisis and that Zulkifli Hasan proposed replacing MBG with Rp300,000 a month in cash. (update of E0164)",
+"key_numbers": "Rp300,000 per month (false claim) · 2 MBG hoaxes in one batch alongside the fake Rp1 million note (E0409)",
+"storyline": "hoax-tracker",
+"status": "partial",
+"upcoming": false
+},
+{
 "id": "E0281",
 "date": "2026-10-27",
 "category": "BIZ",
@@ -3780,6 +3790,16 @@
 "upcoming": false
 },
 {
+"id": "E0445",
+"date": "2026-10-27",
+"category": "POL",
+"event": "DPR Commission III deputy chair Ahmad Sahroni said he strongly agrees with revising the UU Tipikor so that business losses at state enterprises are distinguished from officials enriching themselves. (update of E0390)",
+"key_numbers": "UNCAC ratified 2006 · statement 27 Oct 2026",
+"storyline": "definisi-korupsi",
+"status": "partial",
+"upcoming": false
+},
+{
 "id": "E0058",
 "date": "2026-10-28",
 "category": "GLB",
@@ -4050,6 +4070,16 @@
 "upcoming": false
 },
 {
+"id": "E0452",
+"date": "2026-10-28",
+"category": "ENV",
+"event": "The Indonesian government says it is working toward forecasting forest fires up to six months ahead.",
+"key_numbers": "Forecast horizon: up to 6 months · reported 28 Oct 2026",
+"storyline": "karhutla",
+"status": "partial",
+"upcoming": false
+},
+{
 "id": "E0400",
 "date": "2026-10-29",
 "category": "TECH",
@@ -4240,6 +4270,56 @@
 "upcoming": false
 },
 {
+"id": "E0446",
+"date": "2026-10-29",
+"category": "TECH",
+"event": "Komdigi and the social affairs ministry say the Perlinsos Digital (digital social aid) programme will launch on 10 Nov 2026, with registration via NIK, face recognition with liveness detection, and data exchanged through Komdigi's SPLP.",
+"key_numbers": "Households registered 15.7 million as of 28 Oct (13.2 million on 24 Oct) · target 48 million · about 899,000 active agents (816,674 on 24 Oct) · time to open an aid account cut from 75-200 days to 1 minute-6 hours · launch 10 Nov 2026",
+"storyline": "perlinsos-digital",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0447",
+"date": "2026-10-29",
+"category": "TECH",
+"event": "Apple unveils new 14-inch and 16-inch MacBook Pro with M5 Pro and M5 Max chips and Apple's first touchscreen Mac, and says it will soon go on sale in Indonesia.",
+"key_numbers": "Display 2,000 nits peak · up to 128 GB memory (M5 Max) · up to 16 TB storage · battery up to 24 hours · 14-inch 1.38 kg, 16-inch 1.82 kg · Indonesian price and date not announced",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0448",
+"date": "2026-10-29",
+"category": "TECH",
+"event": "ELSAM warns that the Satu Data Indonesia law (UU SDI) overlaps and conflicts with the Personal Data Protection law, citing data sharing without agreements, differing classifications and breach-reporting deadlines.",
+"key_numbers": "SDI breach report 1x24 hours vs PDP 3x24 hours · SDI Art. 18, 85, 93(3) vs PDP Art. 18, 46 · PDP authority not yet formed as of mid-2026",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0449",
+"date": "2026-10-29",
+"category": "TECH",
+"event": "Komdigi (communications partnerships director Marroli Jeni Indarto) urges users who feel shadowbanned to appeal to the platforms, and says it will push platforms for more transparency on algorithms, moderation and AI.",
+"key_numbers": "No figures given · follows 21 Oct statement by Minister Meutya Hafid denying any karhutla content takedown request",
+"storyline": "karhutla",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0450",
+"date": "2026-10-29",
+"category": "GLB",
+"event": "Reuters via CNBC Indonesia: personal data of over 40,000 US Department of Homeland Security employees leaked in a mass hack claimed by the group 'Department of Peace'; DHS confirmed a breach. The article headline labels the victims PNS, but they are US federal staff.",
+"key_numbers": "More than 40,000 DHS staff · third major US government breach in about a month (FBI Sept, Pentagon, DHS) · Reuters checked 6 identities as genuine",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
 "id": "E0290",
 "date": "2026-10-30",
 "category": "TECH",
@@ -4247,6 +4327,46 @@
 "key_numbers": "256 GB Rp45.678.910 · 512 GB Rp51.999.000 · 1 TB Rp61.999.000 · 2 TB Rp75.999.000 · preorder sold out by 11.00 WIB 23 Oct · sales from 30 Oct 2026 · channels iBox, Digimap, Erajaya",
 "storyline": "",
 "status": "verified",
+"upcoming": false
+},
+{
+"id": "E0441",
+"date": "2026-10-30",
+"category": "MKT",
+"event": "The IHSG closed October at 5,057.05 on 30 October, down 0.80% on the day, 16.70% over the month and 41.52% year to date, as MSCI downgrade fears kept pressure on the market. (update of E0410)",
+"key_numbers": "IHSG 5,057.05 (-41.01 pts, -0.80%) · Oct -16.70% from 6,071.14 · week -7.03% · YTD -41.52% · value Rp11.65 T, 37.62 B shares · 523 fell/187 rose · foreign total net sell Rp140.27 B",
+"storyline": "msci-reclassification",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0442",
+"date": "2026-10-30",
+"category": "MKT",
+"event": "Foreigners stayed net sellers on 30 October, dumping BBRI and TLKM while buying GOTO, BUMI and MDKA, extending the sell-off that followed the MSCI proposal.",
+"key_numbers": "Total net sell Rp140.27 B · regular market net sell Rp172.43 B · top net sell BBRI Rp206.5 B, TLKM Rp119.5 B, AMMN Rp59.3 B · top net buy GOTO Rp54.5 B, BUMI Rp40.4 B, MDKA Rp39.5 B · 29 Oct regular-market net sell Rp1.52 T (Kontan)",
+"storyline": "msci-reclassification",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0443",
+"date": "2026-10-30",
+"category": "MKT",
+"event": "The rupiah closed weaker at Rp18,147 per US dollar on 30 October as investors reacted to Trump's signals on military options against Iran, domestic student protests and strong US data. (update of E0414)",
+"key_numbers": "Spot close Rp18,147 (-10 pts, -0.06%) · week -0.37% · JISDOR Rp18,138 · 29 Oct close Rp18,137 · intraday 29 Oct high Rp18,185 · US Q3 GDP +3.4% (forecast 3.2%) · core PCE 3.1% y/y",
+"storyline": "rupiah",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0451",
+"date": "2026-10-30",
+"category": "TECH",
+"event": "Reuters via CNBC Indonesia: a Mandarin-speaking hacker used AI agents to breach over 100 company websites (including Deere and SharkNinja), and startup Cathedral reportedly breached Anthropic via a bug bounty programme; Anthropic says source code and model weights were not compromised.",
+"key_numbers": "More than 100 companies breached · over 1,200 sites targeted by mid-Oct · Cathedral breach of Anthropic in under 12 hours · Anthropic valuation about US$1.4 billion ahead of IPO per article",
+"storyline": "",
+"status": "partial",
 "upcoming": false
 },
 {
@@ -4346,6 +4466,16 @@
 "event": "Luhut Pandjaitan (DEN) said the digital social aid (bansos) system is planned to launch nationally on 10 November 2026, with 60 million people registered so far and a target of over 100 million by launch.",
 "key_numbers": "60 million registered now · target >100 million by 10 Nov 2026 · all eligible by end-2026 · long-term shift from product subsidies to direct cash transfers",
 "storyline": "",
+"status": "upcoming",
+"upcoming": true
+},
+{
+"id": "E0444",
+"date": "2026-11-12",
+"category": "MKT",
+"event": "MSCI is scheduled to announce its November index rebalancing on 12 November, which investors watch for changes to Indonesian constituents amid foreign outflow concerns; FTSE Russell's follow-up on Indonesia is expected in the second week of November.",
+"key_numbers": "MSCI announcement 12 Nov 2026 · FTSE follow-up 2nd week Nov · FTSE freeze on Indonesia index changes through Dec 2026",
+"storyline": "msci-reclassification",
 "status": "upcoming",
 "upcoming": true
 },

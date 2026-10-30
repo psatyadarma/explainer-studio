@@ -1,0 +1,220 @@
+{
+ "area": "markets",
+ "run_date": "2026-10-31",
+ "checked": [
+  "Searches for CNBC Indonesia/detik/Antara section pages returned only article links, so section pages were not scanned directly",
+  "IHSG close and big movers (30 Oct)",
+  "Foreign net buy/sell (30 Oct)",
+  "Rupiah (30 Oct, week ahead)",
+  "BI rate / RDG (21 Oct hold at 5.75% already known)",
+  "MSCI storyline (BEI/OJK reform, 12 Nov rebalancing, FTSE)",
+  "Oil/Iran/Fed global shocks",
+  "BPS inflation preview",
+  "Danantara/BUMN",
+  "PHK",
+  "BBM price Nov"
+ ],
+ "events": [
+  {
+   "date": "2026-10-30",
+   "category": "MKT",
+   "event": "The IHSG closed October at 5,057.05 on 30 October, down 0.80% on the day, 16.70% over the month and 41.52% year to date, as MSCI downgrade fears kept pressure on the market.",
+   "key_numbers": "IHSG 5,057.05 (-41.01 pts, -0.80%) · Oct -16.70% from 6,071.14 · week -7.03% · YTD -41.52% · value Rp11.65 T, 37.62 B shares · 523 fell/187 rose · foreign total net sell Rp140.27 B",
+   "storyline": "msci-reclassification",
+   "update_of": "E0410",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "Kontan",
+     "url": "https://pusatdata.kontan.co.id/news/ihsg-turun-1670-sepanjang-oktober-2026-ditutup-5057-pada-jumat-3010"
+    }
+   ],
+   "why_it_matters": "The index lost one-sixth of its value in a single month, which hits retail portfolios and pension/mutual funds.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 1,
+    "surprise": 2,
+    "visual": 2,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "Multiple outlets (Kontan, FXStreet-ID, Mediakompeten) ran month-end recaps",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-10-30",
+   "category": "MKT",
+   "event": "Foreigners stayed net sellers on 30 October, dumping BBRI and TLKM while buying GOTO, BUMI and MDKA, extending the sell-off that followed the MSCI proposal.",
+   "key_numbers": "Total net sell Rp140.27 B · regular market net sell Rp172.43 B · top net sell BBRI Rp206.5 B, TLKM Rp119.5 B, AMMN Rp59.3 B · top net buy GOTO Rp54.5 B, BUMI Rp40.4 B, MDKA Rp39.5 B · 29 Oct regular-market net sell Rp1.52 T (Kontan)",
+   "storyline": "msci-reclassification",
+   "update_of": "",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "Kontan",
+     "url": "https://pusatdata.kontan.co.id/news/ihsg-turun-1670-sepanjang-oktober-2026-ditutup-5057-pada-jumat-3010"
+    },
+    {
+     "label": "Kontan 29 Oct",
+     "url": "https://investasi.kontan.co.id/news/ihsg-anjlok-349-asing-net-sell-rp-152-triliun-ini-saham-pilihan-jumat-3010"
+    }
+   ],
+   "why_it_matters": "Foreign outflows from big banks are what pulls the index and the rupiah down together.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 1,
+    "surprise": 1,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-10-30",
+   "category": "MKT",
+   "event": "The rupiah closed weaker at Rp18,147 per US dollar on 30 October as investors reacted to Trump's signals on military options against Iran, domestic student protests and strong US data.",
+   "key_numbers": "Spot close Rp18,147 (-10 pts, -0.06%) · week -0.37% · JISDOR Rp18,138 · 29 Oct close Rp18,137 · intraday 29 Oct high Rp18,185 · US Q3 GDP +3.4% (forecast 3.2%) · core PCE 3.1% y/y",
+   "storyline": "rupiah",
+   "update_of": "E0414",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "Investor.id",
+     "url": "https://investor.id/market/460067/rupiah-lagilagi-bergejolak-buntut-dinamika-asiran"
+    },
+    {
+     "label": "Kontan",
+     "url": "https://investasi.kontan.co.id/news/rupiah-diprediksi-bergerak-fluktuatif-pekan-depan-simak-proyeksinya"
+    }
+   ],
+   "why_it_matters": "A rupiah above Rp18,000 raises prices of imported goods, fuel and overseas tuition.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 2,
+    "surprise": 1,
+    "visual": 2,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-02",
+   "category": "MKT",
+   "event": "Currency analyst Ibrahim Assuaibi projects the rupiah will trade between Rp18,000 and Rp18,320 per dollar in the week from 2 November, citing student protests, inflation risk, oil and Fed expectations.",
+   "key_numbers": "Range Rp18,000-18,320 · CME FedWatch: 83% probability of a Fed hike in December (as quoted) · key events: BPS October inflation, US midterms 3 Nov, oil prices",
+   "storyline": "rupiah",
+   "update_of": "",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "Kontan",
+     "url": "https://investasi.kontan.co.id/news/rupiah-diprediksi-bergerak-fluktuatif-pekan-depan-simak-proyeksinya"
+    }
+   ],
+   "why_it_matters": "Tells ordinary people what to expect for imported prices next week; single analyst forecast, not a prediction by us.",
+   "signals": {
+    "spreading": 0,
+    "wallet": 1,
+    "surprise": 1,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-03",
+   "category": "GLB",
+   "event": "Reports say Trump has hinted new strikes on Iran could come after the 3 November US midterm elections, after CENTCOM chief Adm. Brad Cooper briefed him at the White House on 29 October.",
+   "key_numbers": "US midterms 3 Nov 2026 · briefing Thursday 29 Oct with Defense Secretary Hegseth · rupiah weakened on the signals",
+   "storyline": "fuel-oil",
+   "update_of": "E0093",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "Investor.id",
+     "url": "https://investor.id/market/460067/rupiah-lagilagi-bergejolak-buntut-dinamika-asiran"
+    }
+   ],
+   "why_it_matters": "A new US-Iran escalation would push oil and fuel costs and weigh on the rupiah.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 1,
+    "surprise": 2,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-10-30",
+   "category": "GLB",
+   "event": "US data on 29-30 October showed Q3 GDP growth of 3.4% y/y and core PCE inflation at 3.1%, strengthening bets that the Fed may hike again, which pressures emerging-market currencies.",
+   "key_numbers": "US Q3 GDP +3.4% y/y (forecast 3.2%, prior 2.2%) · core PCE +0.3% m/m, 3.1% y/y (prior 3.0%) · FedWatch Dec hike probability 83% (as quoted by Kontan) · Fed held 3.75-4.00% on 28 Oct",
+   "storyline": "rupiah",
+   "update_of": "E0413",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "Kontan",
+     "url": "https://investasi.kontan.co.id/news/rupiah-diprediksi-bergerak-fluktuatif-pekan-depan-simak-proyeksinya"
+    },
+    {
+     "label": "Investor.id",
+     "url": "https://investor.id/market/460067/rupiah-lagilagi-bergejolak-buntut-dinamika-asiran"
+    }
+   ],
+   "why_it_matters": "Higher US rates draw money out of Indonesia and weaken the rupiah.",
+   "signals": {
+    "spreading": 0,
+    "wallet": 1,
+    "surprise": 1,
+    "visual": 0,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-12",
+   "category": "MKT",
+   "event": "MSCI is scheduled to announce its November index rebalancing on 12 November, which investors watch for changes to Indonesian constituents amid foreign outflow concerns; FTSE Russell's follow-up on Indonesia is expected in the second week of November.",
+   "key_numbers": "MSCI announcement 12 Nov 2026 · FTSE follow-up 2nd week Nov · FTSE freeze on Indonesia index changes through Dec 2026",
+   "storyline": "msci-reclassification",
+   "update_of": "",
+   "status": "upcoming",
+   "sources": [
+    {
+     "label": "RCTI+ (20 Oct)",
+     "url": "https://www.rctiplus.com/news/detail/ekonomi/5497870/pasca-warning-standalone-msci--ini-3-hal-yang-perlu-dicermati-investor"
+    }
+   ],
+   "why_it_matters": "Index changes decide how much passive foreign money must leave or stay in Indonesian stocks.",
+   "signals": {
+    "spreading": 0,
+    "wallet": 1,
+    "surprise": 1,
+    "visual": 1,
+    "fresh": 0,
+    "rivals": 1
+   },
+   "spreading_evidence": "",
+   "sensitivity": "normal"
+  }
+ ],
+ "gaps": [
+  "Section pages (cnbcindonesia, detik, bisnis, antara) not read directly; no most-read lists seen, spreading scores are estimates",
+  "No fresh PHK, BBM November price, Danantara Q3 or OJK/BEI announcement found dated 29-31 Oct",
+  "Bisnis 30 Oct rupiah article and fxstreet-id fetch failed",
+  "Brent price on 30 Oct not verified",
+  "83% Fed December hike probability is one analyst's quote of CME FedWatch, unverified; the Fed 28 Oct vote and October inflation release date (about 2 Nov) already in database"
+ ]
+}

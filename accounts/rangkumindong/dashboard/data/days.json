@@ -144,13 +144,26 @@
 },
 {
 "date": "2026-10-30",
-"steps_done": 4,
+"steps_done": 6,
 "steps_total": 15,
-"last_step": "Rendered",
+"last_step": "Knowledge updated",
 "next_step": "Research",
 "events_found": 33,
 "events_new": 31,
 "duplicates": 2,
+"ideas": 5,
+"factcheck_fixes": null,
+"areas_ok": 4
+},
+{
+"date": "2026-10-31",
+"steps_done": 3,
+"steps_total": 15,
+"last_step": "Ideas sent",
+"next_step": "Research",
+"events_found": 19,
+"events_new": 13,
+"duplicates": 6,
 "ideas": 5,
 "factcheck_fixes": null,
 "areas_ok": 4
