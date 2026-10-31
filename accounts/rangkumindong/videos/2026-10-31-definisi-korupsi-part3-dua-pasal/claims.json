@@ -1,0 +1,114 @@
+[
+  {
+    "lines": "h1, h2, p1, p2",
+    "claim": "Hook (PICK A, fact-check FIX 1): 'Terdakwa korupsi yang divonis 2024, kebanyakan kena dua pasal ini' rests on ICW (Wana Alamsyah, 21 Oct) monitoring of 2024 corruption verdicts: about 83% of defendants (terdakwa) divonis were sentenced under Pasal 2 and 3 UU Tipikor (first-instance and appeal verdicts, so 'terdakwa … divonis', not 'terpidana'). JawaPos: Pasal 3 1.123 + Pasal 2(1) 437 of 1.869 defendants in 2024. p2 keeps 'sekitar 83 persen … divonis tahun 2024'.",
+    "numbers": "sekitar 83 persen; 2024; dua pasal",
+    "sensitivity": "high",
+    "status": "verified (PART 1 fact-check row 7; PART 3 fact-check FIX 1 applied)",
+    "sources": [
+      "https://afu.id/nasional/luhut-usul-kerugian-negara-bukan-korupsi-icw-indonesia-bisa-terlihat-bersih-padahal-tidak",
+      "https://go.kompas.com/read/2026/10/21/213642174/icw-rejects-luhuts-proposal-on-state-loss-if-removed-indonesia-appears-free-of",
+      "https://nasional.kompas.com/read/2026/10/21/21353361/icw-tolak-usulan-luhut-soal-kerugian-negara-jika-dihapus-indonesia-seolah?page=all",
+      "https://www.jawapos.com/kasuistika/2512250081/icw-rata-rata-hukuman-koruptor-cuma-3-tahun-3-bulan-kerugian-negara-hanya-kembali-478-persen"
+    ]
+  },
+  {
+    "lines": "h2, p1",
+    "claim": "Pasal 2 & 3 UU Tipikor are being discussed in the government's study (detik 27 Oct: discussion of the articles 'berlanjut'; not 'dirumuskan ulang', weekly FIX 5). Yusril calls them 'pasal sapu jagat'.",
+    "numbers": "Pasal 2 & 3",
+    "sensitivity": "high",
+    "status": "verified (weekly 2026-10-31 claims d4–d6, factcheck FIX 5)",
+    "sources": [
+      "https://news.detik.com/berita/d-8726231/yusril-tegaskan-unsur-kerugian-negara-tak-akan-dihapus-dalam-definisi-korupsi",
+      "https://www.antaranews.com/berita/5814567/yusril-pemerintah-akan-sempurnakan-definisi-korupsi-di-uu-tipikor",
+      "https://www.metrotvnews.com/read/kWDCmJ25-pemerintah-akan-sempurnakan-definisi-korupsi-di-uu-tipikor"
+    ]
+  },
+  {
+    "lines": "l2, l3",
+    "claim": "Mon 26 Oct Yusril was called to the Palace; per Yusril, the President asked for a deeper study of the corruption definition and holds that the state-loss element must not be forgotten ('tidak boleh dilupakan'). Yusril's account only; no direct Presidential/Palace statement found.",
+    "numbers": "Senin 26 Okt",
+    "sensitivity": "high",
+    "status": "verified (weekly d2–d3; PART 2 video)",
+    "sources": [
+      "https://www.antaranews.com/berita/5813059/prabowo-minta-kajian-definisi-korupsi-yang-sesuai-kondisi-indonesia",
+      "https://www.kompas.id/artikel/menko-yusril-presiden-prabowo-minta-usulan-perubahan-definisi-korupsi-dikaji-mendalam",
+      "https://www.cnnindonesia.com/nasional/20261026191627-20-1419870/yusril-beber-sikap-prabowo-soal-definisi-korupsi-kerugian-negara",
+      "https://www.nu.or.id/nasional/menko-kumham-yusril-revisi-uu-tipikor-belum-diputuskan-perlu-kajian-mendalam-OZ9CN"
+    ]
+  },
+  {
+    "lines": "l4",
+    "claim": "Tue 27 Oct, Yusril received the DEN study from Luhut; per Yusril, the definition will be broadened and the state-loss element not deleted.",
+    "numbers": "Selasa 27 Okt",
+    "sensitivity": "high",
+    "status": "verified (weekly d4)",
+    "sources": [
+      "https://news.detik.com/berita/d-8726231/yusril-tegaskan-unsur-kerugian-negara-tak-akan-dihapus-dalam-definisi-korupsi",
+      "https://www.antaranews.com/berita/5814567/yusril-pemerintah-akan-sempurnakan-definisi-korupsi-di-uu-tipikor",
+      "https://tempo.co/politik/prabowo-instruksikan-kajian-mendalam-soal-definisi-korupsi-2302259"
+    ]
+  },
+  {
+    "lines": "l5 + caption",
+    "claim": "Ahmad Irawan (Golkar, DPR Baleg) backs the Tipikor revision and wants wider offences: trading in influence, illicit enrichment, under-invoicing (script names only under-invoicing; caption lists all three).",
+    "numbers": "",
+    "sensitivity": "high",
+    "status": "verified (weekly d7, E0362; single detik source, RMOL headline agrees)",
+    "sources": [
+      "https://news.detik.com/berita/d-8727092/anggota-baleg-dpr-dukung-revisi-uu-tipikor-dorong-perluasan-delik"
+    ]
+  },
+  {
+    "lines": "l6",
+    "claim": "Earlier (21–22 Oct) the KPK chair (Setyo Budiyanto), ICW and two PKS politicians objected to removing the state-loss element. Script wording: 'keberatan kalau kerugian negara dihapus' (conditional, since Luhut later clarified he did not propose removing it).",
+    "numbers": "dua politisi PKS",
+    "sensitivity": "high",
+    "status": "verified (weekly d8 first half; PART 1)",
+    "sources": [
+      "https://www.suara.com/news/2026/10/21/171149/luhut-usul-kerugian-negara-bukan-korupsi-ketua-kpk-ungkap-hal-lebih-mendesak",
+      "https://go.kompas.com/read/2026/10/21/213642174/icw-rejects-luhuts-proposal-on-state-loss-if-removed-indonesia-appears-free-of",
+      "https://www.suara.com/news/2026/10/22/170129/usul-unsur-kerugian-negara-dihapus-dari-korupsi-luhut-disentil-dua-politisi-pks"
+    ]
+  },
+  {
+    "lines": "l7",
+    "claim": "Legal analyst Hardjuno Wiwoho (statement Sat 24 Oct) said protection for business decisions must not become a loophole to avoid accountability ('celah untuk menghindari pertanggungjawaban'). A cautionary note, not an objector. Shown as a neutral 'catatan' chip.",
+    "numbers": "",
+    "sensitivity": "high",
+    "status": "verified, one source (weekly FIX 4)",
+    "sources": [
+      "https://koran-jakarta.com/2026-10-25/revisi-uu-tipikor-mengemuka-batas-risiko-bisnis-dan-korupsi-disorot"
+    ]
+  },
+  {
+    "lines": "t1",
+    "claim": "It is still a study: no draft RUU announced and the revision is not in Prolegnas.",
+    "numbers": "",
+    "sensitivity": "high",
+    "status": "verified (weekly d9)",
+    "sources": [
+      "https://www.antaranews.com/berita/5814567/yusril-pemerintah-akan-sempurnakan-definisi-korupsi-di-uu-tipikor",
+      "https://www.nu.or.id/nasional/menko-kumham-yusril-revisi-uu-tipikor-belum-diputuskan-perlu-kajian-mendalam-OZ9CN"
+    ]
+  },
+  {
+    "lines": "p3 + caption",
+    "claim": "Since the new KUHP took effect on 2 Jan 2026, KUHP Pasal 622 revoked UU Tipikor Pasal 2(1) and 3 and moved them to KUHP Pasal 603 and 604, which keep the state-finance-loss element. Spoken: 'Sejak Januari, isinya pindah ke KUHP baru. Unsur kerugian negaranya tetap ada.' (603/604 only in the caption).",
+    "numbers": "2 Jan 2026; KUHP Pasal 603, 604",
+    "sensitivity": "high",
+    "status": "verified (PART 1 claims; storyline rule)",
+    "sources": [
+      "https://aclc.kpk.go.id/aksi-informasi/Eksplorasi/20260409-memahami-jenis-korupsi-pasca-penyesuaian-kuhp-terbaru",
+      "https://marinews.mahkamahagung.go.id/artikel/status-perma-1-2020-setelah-kuhp-nasional-berlaku-0JZ"
+    ]
+  },
+  {
+    "lines": "hb1, hb2 (hook B)",
+    "claim": "Pak Budi is a fictional illustration (on-screen 'misalnya' chip). hb1 'Selasa pagi, Pak Budi baca berita: aturan korupsi dikaji ulang' (Tue 27 Oct = day of the DEN study handover, l4); 'dikaji ulang' = the government study above; hb2 'dipersempit atau diperluas' is a question, answered by l4 (Yusril: diperluas).",
+    "numbers": "",
+    "sensitivity": "high",
+    "status": "illustration, no new fact",
+    "sources": []
+  }
+]

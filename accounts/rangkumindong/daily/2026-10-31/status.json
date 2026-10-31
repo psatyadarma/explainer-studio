@@ -7,7 +7,7 @@
   "ideas_factcheck": "todo",
   "ideas_sent": "done",
   "picked": "todo",
-  "draft": "todo",
+  "draft": "done",
   "draft_factcheck": "todo",
   "draft_sent": "todo",
   "approved": "todo",
@@ -16,7 +16,11 @@
   "ok_post": "todo",
   "posted": "todo",
   "knowledge": "todo",
-  "sweeps": "done"
+  "sweeps": "done",
+  "pick": "done",
+  "user_ok_post": "done",
+  "hooks": "done",
+  "factcheck": "done"
  },
  "notes": [],
  "merge_stats": {
