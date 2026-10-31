@@ -4370,6 +4370,76 @@
 "upcoming": false
 },
 {
+"id": "E0454",
+"date": "2026-10-30",
+"category": "MKT",
+"event": "IHSG fell 7.03% over the week to close at 5,057.05 on Friday 30 October, after the MSCI proposal to reclassify Indonesia and heavy foreign selling. (update of E0441)",
+"key_numbers": "IHSG 5,057.05 (-0.80%, -41.01 pts on day) · -7.03% week · support 4,907 / resistance 5,317 (MNC Sekuritas) · rupiah Rp18,158/USD",
+"storyline": "msci-reclassification",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0456",
+"date": "2026-10-30",
+"category": "POL",
+"event": "The Supreme Court (MA), in cassation case 742/K/TUN/2026 filed by HM Subhan, reportedly granted the suit and declared invalid the SMA equivalency certificate (suket penyetaraan) that Vice President Gibran used as a 2024 candidacy requirement. (update of E0044)",
+"key_numbers": "Case 742/K/TUN/2026 · ruling read/notified via e-court Fri 30 Oct 2026 · plaintiff HM Subhan asked for the suket to be declared invalid and withdrawn from Kemendikdasmen's Dirjen Dikdasmen · MA spokesperson Yanto had not yet confirmed · full ruling text not yet published",
+"storyline": "gibran-ijazah-mk",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0460",
+"date": "2026-10-30",
+"category": "TECH",
+"event": "Windah Basudara's YouTube channel briefly showed hacker-style thumbnails and a political message, then returned to normal; netizens debated hack versus gimmick and Windah had not commented.",
+"key_numbers": "About 20.6 million subscribers · 30 Oct 2026 · restored same period · previous real hack July 2022",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0461",
+"date": "2026-10-30",
+"category": "BIZ",
+"event": "GoTo reported a Q3 2026 net profit of Rp441 billion, its third profitable quarter in a row, and raised its 2026 adjusted EBITDA target.",
+"key_numbers": "Net profit Rp441 miliar (vs Rp255 miliar loss a year earlier) · operating profit Rp351 miliar · revenue Rp5.6 triliun +17% · core GTV Rp194 triliun +89% · 72.5 juta annual transacting users +16% · EBITDA target Rp3.7 triliun (from Rp3.4 triliun)",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0462",
+"date": "2026-10-30",
+"category": "TECH",
+"event": "Indosat Ooredoo Hutchison said its AI Cloud business earned about US$50 million in the first nine months of 2026, already well above all of 2025.",
+"key_numbers": "US$50 juta (about Rp906 miliar) in 9M 2026 · US$28 juta in FY2025 · US$33 juta in H1 2026 · FY2026 target US$100 juta (about Rp1.8 triliun) · contracted revenue from 2027 over US$300 juta",
+"storyline": "ai-data-centres",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0463",
+"date": "2026-10-30",
+"category": "TECH",
+"event": "iBox raised prices of the iPhone 17e 512GB and iPhone 17 256GB and 512GB between 15 and 30 October.",
+"key_numbers": "iPhone 17e 512GB Rp17,999,000 to Rp20,499,000 (+Rp2.5 juta) · iPhone 17 256GB Rp19,999,000 to Rp20,499,000 (+Rp500 ribu) · iPhone 17 512GB Rp23,999,000 to Rp24,499,000 (+Rp500 ribu) · iPhone 18 Pro Max 256GB Rp29,499,000",
+"storyline": "chip-ram-prices",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0466",
+"date": "2026-10-30",
+"category": "POL",
+"event": "The Supreme Court (MA) granted a cassation petition by advocate Subhan and declared the SMA equivalence letter used by Vice President Gibran Rakabuming as a 2024 candidacy requirement invalid.",
+"key_numbers": "Case 742 K/TUN/2026 · letter No. 9149/D.D1/KS/2019 dated 6 Aug 2019 · PTUN Jakarta dismissed 21 May 2026, PT TUN upheld 12 Aug 2026 · panel: Yulius, Hari Sugiharto, Maftuh Effendi",
+"storyline": "gibran-ijazah-mk",
+"status": "verified",
+"upcoming": false
+},
+{
 "id": "E0431",
 "date": "2026-10-31",
 "category": "NEWS",
@@ -4377,6 +4447,36 @@
 "key_numbers": "Borobudur 31 Oct 2026 · Jakarta JIExpo 3 Nov 2026 · 100,000 pairs of shoes pledged for children in Palestine and other war zones · CNBC headline of 14 Oct reported the Borobudur permit as revoked (unresolved)",
 "storyline": "bocelli-concert",
 "status": "upcoming",
+"upcoming": false
+},
+{
+"id": "E0457",
+"date": "2026-10-31",
+"category": "POL",
+"event": "Parties and officials react to the MA ruling on Gibran's suket: PKB says it will base political steps on the MK and MA rulings; PDIP reportedly discusses a hak angket; Gerindra asks Kemendikdasmen and KPU to explain publicly and says the VP's status follows constitutional mechanisms; KPU says election stages are already complete; Mahfud MD says the suket's creation should be processed criminally.",
+"key_numbers": "PKB (Muhammad Khozin, Komisi II) in talks with other factions and the civil-society alliance AKSI (Ray Rangkuti) · Gerindra spokesperson Sugiat Santoso (Deputy Chair Komisi XIII) · reactions published 30-31 Oct 2026 · PKB has not chosen hak angket or pemakzulan · no Istana/Gibran response to the MA ruling found",
+"storyline": "gibran-ijazah-mk",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0467",
+"date": "2026-10-31",
+"category": "ENV",
+"event": "BNPB recorded 678 hectares of forest and land fires across five provinces as of 14:00 WIB on 31 Oct, with PM2.5 air quality at hazardous level in Jambi and Central Kalimantan. (update of E0433)",
+"key_numbers": "678 ha total · Kalteng 403 ha/547 hotspots · Kalsel 189 ha/132 · Kalbar 41 ha/13 · Sumsel 37 ha/39 · Jambi 8 ha · hazardous: Jambi, Kalteng · unhealthy: Riau, Sumsel, Kalsel, IKN",
+"storyline": "karhutla",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0468",
+"date": "2026-10-31",
+"category": "ENV",
+"event": "BNPB says most hotspots in Merauke, South Papua, over the past three days were inside private palm-oil concessions and indicates some land was deliberately burned.",
+"key_numbers": "Monitoring via drones and digital systems · hotspots in Merauke and Okaba · BNPB head Kristomei Sianturi · BNPB earlier said South Papua hotspots fell 78% (30 Oct)",
+"storyline": "karhutla",
+"status": "partial",
 "upcoming": false
 },
 {
@@ -4397,6 +4497,16 @@
 "key_numbers": "0.5% of gross turnover (excl. PPN/PPnBM) · starts 1 Nov 2026 · postponement ran to 31 Oct 2026 · individual sellers up to Rp500 juta/year not withheld but must file a turnover statement · turnover counted across all platforms and offline · basis PMK 37/2025 · first set for 1 Jul 2026",
 "storyline": "ecommerce-seller-rules",
 "status": "superseded",
+"upcoming": true
+},
+{
+"id": "E0469",
+"date": "2026-11-01",
+"category": "ENV",
+"event": "BMKG issues rain warnings for 30 Oct-2 Nov: heavy to very heavy rain alert in West Kalimantan, moderate rain in Aceh, North Sumatra, West Java and others, and strong winds in several provinces including Banten and West Java.",
+"key_numbers": "Siaga (heavy-very heavy rain): Kalbar · strong winds: Sumbar, Bengkulu, Lampung, Banten, Jabar, Jatim, Sulsel · media report heavy rain alerts for Jabar and Aceh on 1-2 Nov",
+"storyline": "",
+"status": "upcoming",
 "upcoming": true
 },
 {
@@ -4440,12 +4550,52 @@
 "upcoming": true
 },
 {
+"id": "E0455",
+"date": "2026-11-05",
+"category": "ECO",
+"event": "BPS is expected to announce Q3 2026 GDP growth this week, alongside trade balance and FX reserves data.",
+"key_numbers": "Q2 2026 growth 5.29% (released 5 Aug) · Q3 date not confirmed, likely ~5 Nov · FX reserves and property price index also due",
+"storyline": "",
+"status": "upcoming",
+"upcoming": true
+},
+{
+"id": "E0458",
+"date": "2026-11-05",
+"category": "POL",
+"event": "Jakarta Tipikor Court holds the next hearing in the trial of former Deputy Minister Silmy Karim and seven officials, the day the defence is due to file its objection (eksepsi) to the indictment. (update of E0417)",
+"key_numbers": "Thu 5 Nov 2026, 10.00 · indictment: extortion Rp168.9 billion, gratification Rp33.8 billion · Silmy alleged to have received Rp1.2 billion · 7 defendants (Silmy plus seven officials per Suara Merdeka)",
+"storyline": "",
+"status": "upcoming",
+"upcoming": true
+},
+{
+"id": "E0464",
+"date": "2026-11-05",
+"category": "TECH",
+"event": "Several big game releases land in the week of 2-8 November, including World of Warcraft: Forever (4 Nov) and Zelda: Ocarina of Time, Stellar Blade and Guardians of the Galaxy ports for Switch 2 (5 Nov).",
+"key_numbers": "3 Nov Godzilla: Destroy All Monsters Melee Remastered · 4 Nov World of Warcraft: Forever (PC) · 5 Nov Zelda: Ocarina of Time, Stellar Blade Complete Edition, Guardians of the Galaxy Encore (all Switch 2) · 8 releases in week · GTA VI 19 Nov",
+"storyline": "",
+"status": "upcoming",
+"upcoming": true
+},
+{
 "id": "E0288",
 "date": "2026-11-09",
 "category": "POL",
 "event": "DPR is in recess (reses) from 9 Oct to 9 Nov 2026 after closing Masa Persidangan I of the 2026-2027 session on 8 Oct, so no DPR plenary sessions are expected in the 26 Oct-1 Nov week.",
 "key_numbers": "Masa Persidangan I closed 8 Oct 2026 · recess 9 Oct-9 Nov 2026 · Puan listed 13 issues incl. karhutla response and KUHP/KUHAP enforcement · Forestry Bill (RUU Kehutanan) awaits a presidential letter (Surpres)",
 "storyline": "",
+"status": "upcoming",
+"upcoming": true
+},
+{
+"id": "E0459",
+"date": "2026-11-09",
+"category": "TECH",
+"event": "Hashim Djojohadikusumo of Kadin's advisory council said Shopee, Lazada, GoTo and banks/fintechs must start collecting and remitting digital taxes not previously collected from 9 November.",
+"key_numbers": "Start 9 Nov 2026 (per Hashim only, no DJP confirmation) · tax ratio about 12% of GDP vs 18% target in about 3 years · gap about Rp1,500 trillion/year · DJP estimate digital tax revenue +50% to about Rp16 triliun (from Rp8-12 triliun)",
+"storyline": "ecommerce-seller-rules",
 "status": "upcoming",
 "upcoming": true
 },
@@ -4466,6 +4616,16 @@
 "event": "Luhut Pandjaitan (DEN) said the digital social aid (bansos) system is planned to launch nationally on 10 November 2026, with 60 million people registered so far and a target of over 100 million by launch.",
 "key_numbers": "60 million registered now · target >100 million by 10 Nov 2026 · all eligible by end-2026 · long-term shift from product subsidies to direct cash transfers",
 "storyline": "",
+"status": "upcoming",
+"upcoming": true
+},
+{
+"id": "E0465",
+"date": "2026-11-11",
+"category": "TECH",
+"event": "Shopee's 11.11 Big Sale runs through 11 November, with Harbolnas-season promos across marketplaces.",
+"key_numbers": "Ends 11 Nov 2026 · flash sale from Rp11 ribu · discounts up to 90% · overlaps the planned 9 Nov digital tax start and the 50% admin fee cut for UMKM sellers (from 25 Oct)",
+"storyline": "ecommerce-seller-rules",
 "status": "upcoming",
 "upcoming": true
 },

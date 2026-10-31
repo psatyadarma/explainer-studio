@@ -167,5 +167,18 @@
 "ideas": 5,
 "factcheck_fixes": null,
 "areas_ok": 4
+},
+{
+"date": "2026-11-01",
+"steps_done": 1,
+"steps_total": 15,
+"last_step": "Ideas written",
+"next_step": "Research",
+"events_found": 30,
+"events_new": 16,
+"duplicates": 14,
+"ideas": 5,
+"factcheck_fixes": null,
+"areas_ok": 4
 }
 ]

@@ -1,0 +1,92 @@
+{
+  "area": "markets",
+  "run_date": "2026-11-01",
+  "checked": ["WebSearch cnbcindonesia market", "Kontan weekly outlook 31 Oct", "IHSG weekly close", "BPS/BI calendar 2-8 Nov", "MSCI/HSC dates", "storylines msci-reclassification, rupiah (via known events window)", "CNBC Indonesia market page (blocked)", "bisnis/detik/antara section pages (not reached)"],
+  "events": [
+    {
+      "date": "2026-10-30",
+      "category": "MKT",
+      "event": "IHSG fell 7.03% over the week to close at 5,057.05 on Friday 30 October, after the MSCI proposal to reclassify Indonesia and heavy foreign selling.",
+      "key_numbers": "IHSG 5,057.05 (-0.80%, -41.01 pts on day) · -7.03% week · support 4,907 / resistance 5,317 (MNC Sekuritas) · rupiah Rp18,158/USD",
+      "storyline": "msci-reclassification",
+      "update_of": "E0441",
+      "status": "partial",
+      "sources": [{"label": "Kontan", "url": "https://investasi.kontan.co.id/news/ihsg-diprediksi-masih-tertekan-pekan-depan-simak-rekomendasi-excl-medc-dan-tapg"}],
+      "why_it_matters": "A 7% weekly drop hits the savings and portfolios of millions of retail investors.",
+      "signals": {"spreading": 2, "wallet": 2, "surprise": 2, "visual": 2, "fresh": 1, "rivals": 0},
+      "spreading_evidence": "Weekly outlook pieces across Kontan and others",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-02",
+      "category": "MKT",
+      "event": "BEI stops counting High Shareholding Concentration (HSC) stocks in the IHSG calculation from Monday 2 November.",
+      "key_numbers": "81 HSC stocks excluded (per BEI 26 Oct) · effective 2 Nov 2026 · IHSG 5,057.05 at prior close",
+      "storyline": "msci-reclassification",
+      "update_of": "E0276",
+      "status": "upcoming",
+      "sources": [{"label": "Kontan", "url": "https://investasi.kontan.co.id/news/ihsg-diprediksi-masih-tertekan-pekan-depan-simak-rekomendasi-excl-medc-dan-tapg"}],
+      "why_it_matters": "The index itself changes composition on Monday, so IHSG moves may not be comparable with last week.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-02",
+      "category": "ECO",
+      "event": "BPS is expected to release October 2026 inflation and the manufacturing PMI reading is due around the start of the week; analysts expect inflation to rise.",
+      "key_numbers": "No consensus figure published · exact BPS date to confirm (usually first working day, 2 Nov)",
+      "storyline": "",
+      "update_of": "E0278",
+      "status": "upcoming",
+      "sources": [{"label": "Kontan", "url": "https://investasi.kontan.co.id/news/ihsg-diprediksi-masih-tertekan-pekan-depan-simak-rekomendasi-excl-medc-dan-tapg"}],
+      "why_it_matters": "Rising inflation squeezes household spending and limits room for rate cuts.",
+      "signals": {"spreading": 1, "wallet": 2, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-03",
+      "category": "GLB",
+      "event": "US midterm elections take place on 3 November, a global risk event for markets and the rupiah.",
+      "key_numbers": "3 Nov 2026 · Fed funds 3.75%-4.00% · hike not ruled out late 2026/early 2027 (Kontan)",
+      "storyline": "rupiah",
+      "update_of": "",
+      "status": "upcoming",
+      "sources": [{"label": "Kontan", "url": "https://investasi.kontan.co.id/news/ihsg-diprediksi-masih-tertekan-pekan-depan-simak-rekomendasi-excl-medc-dan-tapg"}],
+      "why_it_matters": "US political outcomes can move the dollar and foreign money flows in and out of Indonesia.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 0, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-05",
+      "category": "ECO",
+      "event": "BPS is expected to announce Q3 2026 GDP growth this week, alongside trade balance and FX reserves data.",
+      "key_numbers": "Q2 2026 growth 5.29% (released 5 Aug) · Q3 date not confirmed, likely ~5 Nov · FX reserves and property price index also due",
+      "storyline": "",
+      "update_of": "",
+      "status": "upcoming",
+      "sources": [{"label": "Kontan", "url": "https://investasi.kontan.co.id/news/ihsg-diprediksi-masih-tertekan-pekan-depan-simak-rekomendasi-excl-medc-dan-tapg"}, {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/news/20260805101818-4-756670/pertumbuhan-ekonomi-indonesia-kuartal-ii-2026-capai-529"}],
+      "why_it_matters": "Shows whether the economy is holding up while stocks and the rupiah fall.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-12",
+      "category": "MKT",
+      "event": "MSCI announces its November index review on 12 November; Kontan says investors are bracing for the results the following week.",
+      "key_numbers": "12 Nov 2026 · IHSG -16.70% over October period (per E0441)",
+      "storyline": "msci-reclassification",
+      "update_of": "E0444",
+      "status": "upcoming",
+      "sources": [{"label": "Kontan", "url": "https://investasi.kontan.co.id/news/ihsg-diprediksi-masih-tertekan-pekan-depan-simak-rekomendasi-excl-medc-dan-tapg"}],
+      "why_it_matters": "The result decides how much more foreign money may leave Indonesian stocks.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 1, "fresh": 0, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    }
+  ],
+  "gaps": ["CNBC Indonesia market page blocked (provenance); detik/bisnis/antara section pages not read, so 31 Oct-1 Nov headlines and Saturday news are missing", "Exact dates for BPS October inflation, Q3 GDP, trade balance and BI FX reserves not confirmed from BPS/BI calendars", "No BI RDG in 2-8 Nov (next 17-18 Nov per E0040)", "Weekend foreign net-sell weekly total not found"]
+}

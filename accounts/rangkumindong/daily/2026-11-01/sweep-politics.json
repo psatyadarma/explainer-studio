@@ -1,0 +1,258 @@
+{
+  "area": "politics",
+  "run_date": "2026-11-01",
+  "checked": [
+    "detik berita section page (31 Oct)",
+    "CNN Indonesia nasional section page (30 Oct)",
+    "Antara politik/hukum (search only; section page not fetched; sultra.antaranews 27 Oct digest)",
+    "Tempo politik (fetch blocked)",
+    "Presiden/Istana",
+    "DPR bills (RUU Perampasan Aset, RUU Pemilu mention)",
+    "MK/MA (Gibran suket cassation found)",
+    "KPK (Djarum cukai, DPR/BNPB)",
+    "Kejagung (PT IPPS/Toba Pulp Lestari)",
+    "Polri",
+    "Storyline searches: gibran-ijazah-mk, definisi-korupsi, corruption-cases, karhutla",
+    "Minggu Depan: Roy Suryo 5 Nov (E0405, E0421 already known), Silmy Karim 5 Nov, DPR reses to 9 Nov (E0288), UMP"
+  ],
+  "events": [
+    {
+      "date": "2026-10-30",
+      "category": "POL",
+      "event": "The Supreme Court (MA), in cassation case 742/K/TUN/2026 filed by HM Subhan, reportedly granted the suit and declared invalid the SMA equivalency certificate (suket penyetaraan) that Vice President Gibran used as a 2024 candidacy requirement.",
+      "key_numbers": "Case 742/K/TUN/2026 · ruling read/notified via e-court Fri 30 Oct 2026 · plaintiff HM Subhan asked for the suket to be declared invalid and withdrawn from Kemendikdasmen's Dirjen Dikdasmen · MA spokesperson Yanto had not yet confirmed · full ruling text not yet published",
+      "storyline": "gibran-ijazah-mk",
+      "update_of": "E0044",
+      "status": "partial",
+      "sources": [
+        {
+          "label": "CNN Indonesia",
+          "url": "https://www.cnnindonesia.com/nasional/20261030160932-12-1421524/tok-kasasi-ma-nyatakan-suket-penyetaraan-ijazah-sma-gibran-tidak-sah"
+        },
+        {
+          "label": "Kompas",
+          "url": "https://nasional.kompas.com/read/2026/10/30/22131471/minta-dimusnahkan-dan-dinyatakan-tidak-sah-ini-gugatan-suket-ijazah-gibran"
+        },
+        {
+          "label": "detikNews (top of news.detik.com/berita)",
+          "url": "https://news.detik.com/berita/d-8732405/timeline-putusan-terkait-ijazah-hingga-sk-penyetaraan-sma-wapres-gibran"
+        }
+      ],
+      "why_it_matters": "A second court has now weighed in on the VP's diploma paper, raising the question of what it means for his position.",
+      "signals": {
+        "spreading": 2,
+        "wallet": 0,
+        "surprise": 2,
+        "visual": 1,
+        "fresh": 2,
+        "rivals": 1
+      },
+      "spreading_evidence": "Top of detik berita page; CNN, Kompas, Suara, Bloomberg Technoz all covering 30-31 Oct",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-10-31",
+      "category": "POL",
+      "event": "Parties and officials react to the MA ruling on Gibran's suket: PKB says it will base political steps on the MK and MA rulings; PDIP reportedly discusses a hak angket; Gerindra asks Kemendikdasmen and KPU to explain publicly and says the VP's status follows constitutional mechanisms; KPU says election stages are already complete; Mahfud MD says the suket's creation should be processed criminally.",
+      "key_numbers": "PKB (Muhammad Khozin, Komisi II) in talks with other factions and the civil-society alliance AKSI (Ray Rangkuti) · Gerindra spokesperson Sugiat Santoso (Deputy Chair Komisi XIII) · reactions published 30-31 Oct 2026 · PKB has not chosen hak angket or pemakzulan · no Istana/Gibran response to the MA ruling found",
+      "storyline": "gibran-ijazah-mk",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {
+          "label": "CNN Indonesia",
+          "url": "https://www.cnnindonesia.com/nasional/20261031133331-32-1421757/gerindra-minta-kemendikdasmen-kpu-respons-putusan-ma-soal-gibran"
+        },
+        {
+          "label": "Suara.com",
+          "url": "https://www.suara.com/news/2026/10/31/191500/ma-putuskan-suket-ijazah-gibran-tak-sah-pkb-sebut-jadi-rujukan-utama-sikap-politik-dpr"
+        },
+        {
+          "label": "Kompas",
+          "url": "https://nasional.kompas.com/read/2026/10/31/09430591/kpu-soal-putusan-ma-batalkan-suket-ijazah-gibran-tahapan-pemilu-sudah-selesai"
+        }
+      ],
+      "why_it_matters": "Shows how DPR factions are positioning on a possible hak angket or other step; a political fight is forming over a court ruling.",
+      "signals": {
+        "spreading": 2,
+        "wallet": 0,
+        "surprise": 2,
+        "visual": 1,
+        "fresh": 2,
+        "rivals": 1
+      },
+      "spreading_evidence": "Several outlets run party-reaction pieces 30-31 Oct",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-10-30",
+      "category": "POL",
+      "event": "The Attorney General's Office (Kejagung) searched PT IPPS offices in a transfer-pricing corruption case involving PT Toba Pulp Lestari, per CNN Indonesia.",
+      "key_numbers": "Search reported 30 Oct 2026 20:01 · case: transfer pricing · details (amounts, suspects) not confirmed",
+      "storyline": "corruption-cases",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {
+          "label": "CNN Indonesia nasional section",
+          "url": "https://www.cnnindonesia.com/nasional"
+        }
+      ],
+      "why_it_matters": "Another big-company probe by Kejagung, running alongside KPK's cukai probe.",
+      "signals": {
+        "spreading": 1,
+        "wallet": 0,
+        "surprise": 1,
+        "visual": 0,
+        "fresh": 2,
+        "rivals": 2
+      },
+      "spreading_evidence": "",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-10-30",
+      "category": "POL",
+      "event": "DPR Commission III's Panja for the Asset Forfeiture Bill (RUU Perampasan Aset) says investment and pyramid-scheme provisions are covered in the draft.",
+      "key_numbers": "Statement 30 Oct 2026 · Panja formed 26 Oct",
+      "storyline": "",
+      "update_of": "E0334",
+      "status": "partial",
+      "sources": [
+        {
+          "label": "CNN Indonesia nasional section",
+          "url": "https://www.cnnindonesia.com/nasional"
+        }
+      ],
+      "why_it_matters": "Shows what the asset forfeiture law could reach and how far the bill has come.",
+      "signals": {
+        "spreading": 1,
+        "wallet": 1,
+        "surprise": 1,
+        "visual": 0,
+        "fresh": 2,
+        "rivals": 2
+      },
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-30",
+      "category": "POL",
+      "event": "BNPB says it plans to overhaul disaster-fund governance after a suspected corruption case at the agency (the DSP emergency-fund case).",
+      "key_numbers": "Statement 30 Oct 2026 · KPK named five suspects on 18 Oct",
+      "storyline": "corruption-cases",
+      "update_of": "E0069",
+      "status": "partial",
+      "sources": [
+        {
+          "label": "CNN Indonesia nasional section",
+          "url": "https://www.cnnindonesia.com/nasional"
+        }
+      ],
+      "why_it_matters": "Disaster aid money is what affected families depend on; a corruption case prompts a governance fix.",
+      "signals": {
+        "spreading": 1,
+        "wallet": 1,
+        "surprise": 1,
+        "visual": 0,
+        "fresh": 2,
+        "rivals": 2
+      },
+      "spreading_evidence": "",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-05",
+      "category": "POL",
+      "event": "Jakarta Tipikor Court holds the next hearing in the trial of former Deputy Minister Silmy Karim and seven officials, the day the defence is due to file its objection (eksepsi) to the indictment.",
+      "key_numbers": "Thu 5 Nov 2026, 10.00 · indictment: extortion Rp168.9 billion, gratification Rp33.8 billion · Silmy alleged to have received Rp1.2 billion · 7 defendants (Silmy plus seven officials per Suara Merdeka)",
+      "storyline": "",
+      "update_of": "E0417",
+      "status": "upcoming",
+      "sources": [
+        {
+          "label": "Merdeka",
+          "url": "https://www.merdeka.com/peristiwa/read/8324419/didakwa-peras-wna-rp-168-m-silmy-karim-siapkan-perlawanan"
+        },
+        {
+          "label": "ANTARA",
+          "url": "https://www.antaranews.com/berita/5819519/silmy-karim-didakwa-peras-biro-jasa-penjamin-wna-rp16892-miliar"
+        }
+      ],
+      "why_it_matters": "A former deputy minister's court case on alleged extortion over foreigners' residence permits moves to the next stage; the 'RAMA' code is a hook.",
+      "signals": {
+        "spreading": 1,
+        "wallet": 0,
+        "surprise": 1,
+        "visual": 1,
+        "fresh": 1,
+        "rivals": 1
+      },
+      "spreading_evidence": "",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-10-31",
+      "category": "POL",
+      "event": "Detik front page: Dandhy Laksono has missed two police summonses and police are weighing further legal steps; Dedi 'Congor' (DJBC) is barred from travelling abroad; Central Java police take input from Abu Bakar Ba'asyir's son over the 'Mi Babi' case search of a Sukoharjo boarding school.",
+      "key_numbers": "Items 'hours ago' on detik berita page, captured 31 Oct 2026 · no figures verified",
+      "storyline": "corruption-cases",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {
+          "label": "detikNews",
+          "url": "https://news.detik.com/berita"
+        }
+      ],
+      "why_it_matters": "Several law-and-order stories running in parallel; each needs checking before use.",
+      "signals": {
+        "spreading": 1,
+        "wallet": 0,
+        "surprise": 1,
+        "visual": 0,
+        "fresh": 2,
+        "rivals": 1
+      },
+      "spreading_evidence": "",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-10-31",
+      "category": "POL",
+      "event": "Bakom head says the economy grew 5.6% and wages have risen; Kadin says business confidence has strengthened over Prabowo's two years; Prabowo received Kadin members at Hambalang.",
+      "key_numbers": "Claims as stated on detik headline list, 31 Oct 2026 · 5.6% growth figure not verified against BPS",
+      "storyline": "prabowo-2-years",
+      "update_of": "E0073",
+      "status": "partial",
+      "sources": [
+        {
+          "label": "detikNews",
+          "url": "https://news.detik.com/berita"
+        }
+      ],
+      "why_it_matters": "Government messaging at the two-year mark; the numbers need checking against BPS.",
+      "signals": {
+        "spreading": 1,
+        "wallet": 1,
+        "surprise": 1,
+        "visual": 1,
+        "fresh": 2,
+        "rivals": 1
+      },
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    }
+  ],
+  "gaps": [
+    "Antara politik/hukum and Tempo politik pages could not be read; Tempo fetch blocked (provenance)",
+    "KPU Kompas article and Mahfud article not readable; KPU 'tahapan pemilu sudah selesai' and Mahfud 'proses pidana' are from search-result titles only",
+    "MA full ruling text not published; MA spokesperson had not confirmed; no Istana/Gibran response found",
+    "Karhutla: Okezone/Media Indonesia headlines say national hotspots 154-160 but pages unreadable; not recorded",
+    "definisi-korupsi: no new development found beyond 27 Oct",
+    "KPK Djarum: no new development after 29-30 Oct (no suspect, no summons date found)",
+    "Week 2-8 Nov: only 5 Nov dated events found (Roy Suryo with Jokowi as witness, already E0405; Silmy Karim). DPR in reses until 9 Nov so no plenary; no MK hearing or KPK summons dates found; BPS inflation 2 Nov and UMP (target end Nov) are ECO",
+    "Dedi Congor travel ban, Dandhy Laksono summons, Mi Babi case: detik headlines only, unverified"
+  ]
+}
