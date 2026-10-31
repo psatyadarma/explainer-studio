@@ -2,5 +2,10 @@
  "success": true,
  "job_id": "9768192761b349f59a11504537e50c66",
  "scheduled_date": "2026-10-31T08:00:00+08:00",
- "request_id": "Rangkumindong-2026-10-31"
+ "request_id": "Rangkumindong-2026-10-31",
+ "status": "completed",
+ "links": {
+  "youtube": "https://www.youtube.com/watch?v=u74sDSDa73M",
+  "instagram": "https://www.instagram.com/reel/DfI0oyajx3t/"
+ }
 }
