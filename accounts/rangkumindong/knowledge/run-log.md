@@ -66,3 +66,4 @@ History moved out of HANDOFF.md (22 Oct) so fresh sessions read less. Append one
 - Weekly "Rangkumin Seminggu #2" (24–30 Okt, 10:12, Cahaya, 9 chapters): writer → full fact-check 9 fixes → chapter-builders ×9 (Sonnet) → render → editor 5 fixes → re-render ch01/02/06 → PASS. User "Yes" → scheduled Sat 31 Oct 08:00 (request_id Rangkumindong-2026-10-31). post.py can't set the thumbnail.
 - Analyst: definisi korupsi P2 72 h IG 1,357 views / 49.4% watched, YT 82 / 49.0%.
 - **Permission finding:** the daily task is already permission_mode "auto"; the 29 Oct block was the safety check that requires a live user yes in that day's chat. A morning "OK post hari ini" works.
+- 31 Oct 08:00: weekly #2 live (IG DfI0oyajx3t, YT u74sDSDa73M); thumbnail to be set by hand in YouTube Studio.

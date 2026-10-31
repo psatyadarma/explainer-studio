@@ -41,7 +41,7 @@ Updated: Fri 30 Oct 2026, 19:35 WITA. Each daily run is a fresh session with no 
 - #9 definisi korupsi PART 2 (user pick #5, sens high) posted 27 Oct 19:00 after user OK (IG De_s4bjCYcA, YT NbyJVwx49cU). User now allows auto-posting for all kinds of posts (Standing rules).
 - #10 asap karhutla "1.700 penerbangan batal" (default pick + default auto-post, short 43 s) posted 28 Oct 19:00 (IG DfCRqk-jygU, YT IsQsbiAmYxE). definisi korupsi PART 2 = best IG so far (~1.3k views, ~50% watched at 24 h).
 - #11 KPK Djarum (29 Oct) never posted (default auto-post blocked); superseded by #12 Djarum "kerugian triliunan" (30 Oct 19:00, user OK in the morning; IG DfHbaudCVLy, YT nsRjP_84WAs).
-- Weekly #2 "Rangkumin Seminggu" 24–30 Okt (10:12) scheduled Sat 31 Oct 08:00 (user OK); check links ~08:20 (send_later in the 30 Oct chat).
+- Weekly #2 "Rangkumin Seminggu" 24–30 Okt (10:12) live Sat 31 Oct 08:00 (IG DfI0oyajx3t, YT u74sDSDa73M).
 - Each day: append a 3–5 line block to run-log.md (picks, counts, problems) instead of growing this file.
 
 ## Dashboard: "Rangkumin Dong Studio"
