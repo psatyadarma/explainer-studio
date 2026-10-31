@@ -1,6 +1,6 @@
 # Handoff: Rangkumin Dong (read this first in every session)
 
-Updated: Fri 30 Oct 2026, 19:35 WITA. Each daily run is a fresh session with no memory of earlier chats. **This file plus the playbook are the memory.** Whenever something here changes, update it, mirror it to the Video project (`claude/rangkumindong-handoff.md`), commit and push.
+Updated: Sat 31 Oct 2026, 19:30 WITA. Each daily run is a fresh session with no memory of earlier chats. **This file plus the playbook are the memory.** Whenever something here changes, update it, mirror it to the Video project (`claude/rangkumindong-handoff.md`), commit and push.
 
 ## Standing rules from the user
 - **Experiments from 23 Oct:** daily opening A/B (B = Instagram Trial Reel, `engine/variant.py` + `engine/post.py --trial`), slot fixed at 19:00 WITA, voice in weekly blocks. The "Rangkumin dong!" tagline stays right after the hook (user 22 Oct: only change it when the data says so). See playbook → Experiments 0.
@@ -42,6 +42,7 @@ Updated: Fri 30 Oct 2026, 19:35 WITA. Each daily run is a fresh session with no 
 - #10 asap karhutla "1.700 penerbangan batal" (default pick + default auto-post, short 43 s) posted 28 Oct 19:00 (IG DfCRqk-jygU, YT IsQsbiAmYxE). definisi korupsi PART 2 = best IG so far (~1.3k views, ~50% watched at 24 h).
 - #11 KPK Djarum (29 Oct) never posted (default auto-post blocked); superseded by #12 Djarum "kerugian triliunan" (30 Oct 19:00, user OK in the morning; IG DfHbaudCVLy, YT nsRjP_84WAs).
 - Weekly #2 "Rangkumin Seminggu" 24–30 Okt (10:12) live Sat 31 Oct 08:00 (IG DfI0oyajx3t, YT u74sDSDa73M).
+- #13 definisi korupsi PART 3 (chapter cut, user pick + OK) live 31 Oct 19:00 (IG DfKAISMAIiv, YT 9Ha4Sh0QzL8). Next: Sun 1 Nov "Minggu Depan" + W44 review (still pending: user decision on replacing the blocked daily A/B).
 - Each day: append a 3–5 line block to run-log.md (picks, counts, problems) instead of growing this file.
 
 ## Dashboard: "Rangkumin Dong Studio"

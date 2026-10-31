@@ -67,3 +67,9 @@ History moved out of HANDOFF.md (22 Oct) so fresh sessions read less. Append one
 - Analyst: definisi korupsi P2 72 h IG 1,357 views / 49.4% watched, YT 82 / 49.0%.
 - **Permission finding:** the daily task is already permission_mode "auto"; the 29 Oct block was the safety check that requires a live user yes in that day's chat. A morning "OK post hari ini" works.
 - 31 Oct 08:00: weekly #2 live (IG DfI0oyajx3t, YT u74sDSDa73M); thumbnail to be set by hand in YouTube Studio.
+
+## 31 Oct (Sat, #13 definisi korupsi PART 3 chapter cut from weekly ch 3; Cahaya, question_reveal / story, subs word, format chapter_cut) + weekly #2 live
+- Weekly #2 went live 08:00 (IG DfI0oyajx3t, YT u74sDSDa73M). Sweeps 19 events (7/2/7/3); business first run empty → rerun OK; 13 merged. Light fact-check PASS, 0 fixes.
+- User picked #1 and gave "OK to post" ~08:55. Hook-critic added "2024" to A; full fact-check 1 fix ("terpidana" → "terdakwa yang divonis 2024"). Producer A 86.2 s / B 84.9 s (1.2× retime), QA PASS both first round. A scheduled 19:00 and live (IG DfKAISMAIiv, YT 9Ha4Sh0QzL8); B not posted (Trial Reels blocked).
+- Analyst: asap 72 h IG 414 / 29.9%, YT 915 / 52.4%; Djarum 24 h IG 37 / 22.0% (weakest of the week).
+- Problems: git push rejected once (another session pushed weekly links in parallel; covered.csv duplicate row resolved); deleting the 14:00 send_later was denied by the classifier (harmless no-op wake-up). Dashboard old-blob deletes worked today.

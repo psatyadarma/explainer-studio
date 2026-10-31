@@ -478,5 +478,77 @@
 "shares": 0,
 "saves": null,
 "follows": 0
+},
+{
+"date": "2026-10-31",
+"folder": "videos/2026-10-30-djarum-kerugian-triliunan",
+"platform": "instagram",
+"hours": 24,
+"views": 37,
+"avg_watch_pct": 22.0,
+"hold_3s_pct": null,
+"shares": 0,
+"saves": 0,
+"follows": null
+},
+{
+"date": "2026-10-31",
+"folder": "videos/2026-10-30-djarum-kerugian-triliunan",
+"platform": "youtube",
+"hours": 24,
+"views": 66,
+"avg_watch_pct": null,
+"hold_3s_pct": null,
+"shares": 0,
+"saves": null,
+"follows": 0
+},
+{
+"date": "2026-10-31",
+"folder": "videos/2026-10-28-asap-1700-penerbangan-batal",
+"platform": "instagram",
+"hours": 72,
+"views": 414,
+"avg_watch_pct": 29.9,
+"hold_3s_pct": null,
+"shares": 4,
+"saves": 0,
+"follows": null
+},
+{
+"date": "2026-10-31",
+"folder": "videos/2026-10-28-asap-1700-penerbangan-batal",
+"platform": "youtube",
+"hours": 72,
+"views": 915,
+"avg_watch_pct": 52.4,
+"hold_3s_pct": null,
+"shares": 0,
+"saves": null,
+"follows": 0
+},
+{
+"date": "2026-10-31",
+"folder": "weekly/2026-10-31",
+"platform": "instagram",
+"hours": 11,
+"views": 5,
+"avg_watch_pct": 57.3,
+"hold_3s_pct": null,
+"shares": 0,
+"saves": 0,
+"follows": null
+},
+{
+"date": "2026-10-31",
+"folder": "weekly/2026-10-31",
+"platform": "youtube",
+"hours": 11,
+"views": 3,
+"avg_watch_pct": null,
+"hold_3s_pct": null,
+"shares": 0,
+"saves": null,
+"follows": 0
 }
 ]

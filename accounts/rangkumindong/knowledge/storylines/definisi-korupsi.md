@@ -27,6 +27,7 @@ Status: **ACTIVE** · Category: politics/law · Started: 22 Oct 2026 · Sensitiv
 ## Videos
 - **22 Oct 2026** "Kerugian negara dihapus dari definisi korupsi? Klarifikasi Luhut, kata KPK & ICW" (Cahaya, question hook, standard format, posted 19:30; cut-outs Luhut/Setyo/Yusril, Trisno name tag) · folder `videos/2026-10-22-definisi-korupsi-kerugian-negara` · IG https://www.instagram.com/reel/Dey4SpKEY5J/ · YT https://www.youtube.com/watch?v=vSNSsBHAMe8
 - **27 Oct 2026 PART 2** "Uang negara hilang. Pasti dihitung korupsi?" (Pratama, question_reveal hook, B myth not posted, standard format, subs word, 84.7 s, posted 19:00 WITA; cut-outs Prabowo/Yusril/Luhut/Setyo equal size, Romli name tag only) · folder `videos/2026-10-27-definisi-korupsi-part2-kajian` · IG https://www.instagram.com/reel/De_s4bjCYcA/ · YT https://www.youtube.com/watch?v=NbyJVwx49cU
+- **31 Oct 2026 PART 3** "Terdakwa korupsi yang divonis 2024, kebanyakan kena dua pasal ini. Nomor berapa?" (Cahaya, question_reveal hook, B story not posted, chapter_cut format, subs word, 86.2 s, posted 19:00 WITA; on the two articles Pasal 2 & 3 / KUHP 603 & 604) · folder `videos/2026-10-31-definisi-korupsi-part3-dua-pasal` · IG https://www.instagram.com/reel/DfKAISMAIiv/ · YT https://www.youtube.com/watch?v=9Ha4Sh0QzL8
 
 ## Not used yet (PART 3 candidates)
 - Ahmad Sahroni backing Luhut (detik 22 Okt, single source, fetch blocked); MK hearing on the Pasal 603 elucidation (26 Okt, no result found yet).
