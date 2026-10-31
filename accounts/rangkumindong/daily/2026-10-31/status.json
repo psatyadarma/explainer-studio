@@ -11,7 +11,7 @@
   "draft_factcheck": "todo",
   "draft_sent": "todo",
   "approved": "todo",
-  "render": "todo",
+  "render": "done",
   "video_sent": "todo",
   "ok_post": "todo",
   "posted": "todo",
@@ -20,7 +20,10 @@
   "pick": "done",
   "user_ok_post": "done",
   "hooks": "done",
-  "factcheck": "done"
+  "factcheck": "done",
+  "qa": "done",
+  "send": "done",
+  "scheduled": "done"
  },
  "notes": [],
  "merge_stats": {

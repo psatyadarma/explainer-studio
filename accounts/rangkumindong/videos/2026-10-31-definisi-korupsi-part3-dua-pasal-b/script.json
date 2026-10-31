@@ -1,0 +1,116 @@
+{
+  "direction": "[calm, neutral explainer; every claim attributed]",
+  "voice": "female:Cahaya",
+  "format": "chapter_cut",
+  "source": "weekly/2026-10-31 ch 3 'Definisi korupsi'",
+  "hook_style": "question_reveal",
+  "subs": "word",
+  "storyline": "definisi-korupsi",
+  "part": 3,
+  "lines": [
+    {
+      "id": "h1",
+      "tag": "[curious]",
+      "text": "Terdakwa korupsi yang divonis 2024, kebanyakan kena dua pasal ini. Nomor berapa?",
+      "say": "Terdakwa korupsi yang divonis dua ribu dua puluh empat, kebanyakan kena dua pasal ini. Nomor berapa?"
+    },
+    {
+      "id": "h2",
+      "tag": "[teasing]",
+      "text": "Dua pasal itu sedang dibahas. Jawabannya di akhir."
+    },
+    {
+      "id": "rd",
+      "tagline": true,
+      "text": "Rangkumin dong!"
+    },
+    {
+      "id": "l2",
+      "tag": "[neutral, reporting]",
+      "text": "Senin, Yusril dipanggil ke Istana. Kata Yusril, Presiden minta definisi korupsi dikaji lebih mendalam."
+    },
+    {
+      "id": "l3",
+      "tag": "[neutral]",
+      "text": "Menurut Yusril, Presiden juga menilai kerugian negara tidak boleh dilupakan."
+    },
+    {
+      "id": "l4",
+      "tag": "[explaining]",
+      "text": "Selasa, Yusril terima hasil kajian DEN dari Luhut. Kata Yusril: definisi diperluas, kerugian negara tidak dihapus.",
+      "say": "Selasa, Yusril terima hasil kajian, De E En, dari Luhut. Kata Yusril: definisi diperluas, kerugian negara tidak dihapus."
+    },
+    {
+      "id": "l5",
+      "tag": "[neutral, reporting]",
+      "text": "Di DPR, Ahmad Irawan dari Golkar ingin deliknya diperluas, sampai ke under-invoicing.",
+      "say": "Di, De Pe Er, Ahmad Irawan dari Golkar ingin deliknya diperluas, sampai ke ander invoising."
+    },
+    {
+      "id": "l6",
+      "tag": "[neutral]",
+      "text": "Sebelumnya, Ketua KPK, ICW, dan dua politisi PKS keberatan kalau kerugian negara dihapus.",
+      "say": "Sebelumnya, Ketua, Ka Pe Ka, I Ce We, dan dua politisi, Pe Ka Es, keberatan kalau kerugian negara dihapus."
+    },
+    {
+      "id": "l7",
+      "tag": "[neutral]",
+      "text": "Pengamat hukum Hardjuno Wiwoho mengingatkan: perlindungan keputusan bisnis jangan jadi celah menghindari tanggung jawab.",
+      "say": "Pengamat hukum Hardjuno Wiwoho mengingatkan: perlindungan keputusan bisnis, jangan jadi celah menghindari tanggung jawab."
+    },
+    {
+      "id": "t1",
+      "tag": "[leaning in]",
+      "text": "Tapi… semua ini masih kajian. Belum ada draf RUU, belum masuk Prolegnas.",
+      "say": "Tapi... semua ini masih kajian. Belum ada draf, Er U U, belum masuk Prolegnas."
+    },
+    {
+      "id": "p1",
+      "tag": "[revealing]",
+      "text": "Jadi, pasal yang dibahas? Pasal 2 dan 3 UU Tipikor. Yusril menyebutnya “pasal sapu jagat”.",
+      "say": "Jadi, pasal yang dibahas? Pasal dua dan tiga, U U Tipikor. Yusril menyebutnya, pasal sapu jagat."
+    },
+    {
+      "id": "p2",
+      "tag": "[matter-of-fact]",
+      "text": "Kata ICW, sekitar 83 persen terdakwa korupsi yang divonis tahun 2024 dihukum pakai dua pasal ini.",
+      "say": "Kata, I Ce We, sekitar delapan puluh tiga persen terdakwa korupsi yang divonis tahun dua ribu dua puluh empat, dihukum pakai dua pasal ini."
+    },
+    {
+      "id": "p3",
+      "tag": "[explaining]",
+      "text": "Sejak Januari, isinya pindah ke KUHP baru. Unsur kerugian negaranya tetap ada.",
+      "say": "Sejak Januari, isinya pindah ke, Ka U Ha Pe baru. Unsur kerugian negaranya tetap ada."
+    },
+    {
+      "id": "cta",
+      "tag": "[warm, asking the viewer]",
+      "text": "Menurut kamu, batas antara risiko bisnis dan korupsi ada di mana? Komen!"
+    },
+    {
+      "id": "end",
+      "tag": "[friendly, upbeat]",
+      "text": "Follow Rangkumin Dong, biar nggak ketinggalan!"
+    }
+  ],
+  "hook_b": {
+    "style": "story",
+    "replace": [
+      "h1",
+      "h2"
+    ],
+    "lines": [
+      {
+        "id": "hb1",
+        "tag": "[storytelling]",
+        "text": "Selasa pagi, Pak Budi baca berita: aturan korupsi dikaji ulang."
+      },
+      {
+        "id": "hb2",
+        "tag": "[curious]",
+        "text": "Dipersempit, atau diperluas? Dan pasal mana yang kena?"
+      }
+    ]
+  },
+  "tail": 0.9
+}

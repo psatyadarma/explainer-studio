@@ -1,0 +1,996 @@
+{
+ "duration": 103.188,
+ "voice": "Cahaya",
+ "lines": [
+  {
+   "id": "h1",
+   "text": "Terdakwa korupsi yang divonis 2024, kebanyakan kena dua pasal ini. Nomor berapa?",
+   "start": 0.203,
+   "end": 6.398,
+   "words": [
+    {
+     "w": "Terdakwa",
+     "start": 0.203,
+     "end": 0.538
+    },
+    {
+     "w": "korupsi",
+     "start": 0.598,
+     "end": 1.018
+    },
+    {
+     "w": "yang",
+     "start": 1.05,
+     "end": 1.178
+    },
+    {
+     "w": "divonis",
+     "start": 1.238,
+     "end": 1.738
+    },
+    {
+     "w": "2024,",
+     "start": 1.778,
+     "end": 3.218
+    },
+    {
+     "w": "kebanyakan",
+     "start": 3.301,
+     "end": 3.968
+    },
+    {
+     "w": "kena",
+     "start": 4.008,
+     "end": 4.288
+    },
+    {
+     "w": "dua",
+     "start": 4.368,
+     "end": 4.608
+    },
+    {
+     "w": "pasal",
+     "start": 4.688,
+     "end": 5.088
+    },
+    {
+     "w": "ini.",
+     "start": 5.148,
+     "end": 5.553
+    },
+    {
+     "w": "Nomor",
+     "start": 5.553,
+     "end": 5.838
+    },
+    {
+     "w": "berapa?",
+     "start": 5.898,
+     "end": 6.398
+    }
+   ]
+  },
+  {
+   "id": "h2",
+   "text": "Dua pasal itu sedang dibahas. Jawabannya di akhir.",
+   "start": 6.748,
+   "end": 10.368,
+   "words": [
+    {
+     "w": "Dua",
+     "start": 6.748,
+     "end": 6.838
+    },
+    {
+     "w": "pasal",
+     "start": 6.918,
+     "end": 7.318
+    },
+    {
+     "w": "itu",
+     "start": 7.418,
+     "end": 7.718
+    },
+    {
+     "w": "sedang",
+     "start": 7.758,
+     "end": 8.038
+    },
+    {
+     "w": "dibahas.",
+     "start": 8.078,
+     "end": 8.598
+    },
+    {
+     "w": "Jawabannya",
+     "start": 8.678,
+     "end": 9.408
+    },
+    {
+     "w": "di",
+     "start": 9.461,
+     "end": 9.568
+    },
+    {
+     "w": "akhir.",
+     "start": 9.648,
+     "end": 10.368
+    }
+   ]
+  },
+  {
+   "id": "rd",
+   "text": "Rangkumin dong!",
+   "start": 10.929,
+   "end": 12.316,
+   "words": [
+    {
+     "w": "Rangkumin",
+     "start": 10.929,
+     "end": 11.622
+    },
+    {
+     "w": "dong!",
+     "start": 11.622,
+     "end": 12.316
+    }
+   ]
+  },
+  {
+   "id": "l2",
+   "text": "Senin, Yusril dipanggil ke Istana. Kata Yusril, Presiden minta definisi korupsi dikaji lebih mendalam.",
+   "start": 12.86960090702948,
+   "end": 20.11560090702948,
+   "words": [
+    {
+     "w": "Senin,",
+     "start": 12.87,
+     "end": 13.226
+    },
+    {
+     "w": "Yusril",
+     "start": 13.386,
+     "end": 13.946
+    },
+    {
+     "w": "dipanggil",
+     "start": 14.006,
+     "end": 14.506
+    },
+    {
+     "w": "ke",
+     "start": 14.559,
+     "end": 14.666
+    },
+    {
+     "w": "Istana.",
+     "start": 14.726,
+     "end": 15.416
+    },
+    {
+     "w": "Kata",
+     "start": 15.416,
+     "end": 15.776
+    },
+    {
+     "w": "Yusril,",
+     "start": 15.816,
+     "end": 16.416
+    },
+    {
+     "w": "Presiden",
+     "start": 16.56,
+     "end": 17.156
+    },
+    {
+     "w": "minta",
+     "start": 17.204,
+     "end": 17.476
+    },
+    {
+     "w": "definisi",
+     "start": 17.543,
+     "end": 18.036
+    },
+    {
+     "w": "korupsi",
+     "start": 18.096,
+     "end": 18.596
+    },
+    {
+     "w": "dikaji",
+     "start": 18.656,
+     "end": 19.156
+    },
+    {
+     "w": "lebih",
+     "start": 19.209,
+     "end": 19.476
+    },
+    {
+     "w": "mendalam.",
+     "start": 19.524,
+     "end": 20.116
+    }
+   ]
+  },
+  {
+   "id": "l3",
+   "text": "Menurut Yusril, Presiden juga menilai kerugian negara tidak boleh dilupakan.",
+   "start": 20.35060090702948,
+   "end": 25.69560090702948,
+   "words": [
+    {
+     "w": "Menurut",
+     "start": 20.351,
+     "end": 20.651
+    },
+    {
+     "w": "Yusril,",
+     "start": 20.691,
+     "end": 21.291
+    },
+    {
+     "w": "Presiden",
+     "start": 21.406,
+     "end": 22.011
+    },
+    {
+     "w": "juga",
+     "start": 22.059,
+     "end": 22.251
+    },
+    {
+     "w": "menilai",
+     "start": 22.311,
+     "end": 22.891
+    },
+    {
+     "w": "kerugian",
+     "start": 22.951,
+     "end": 23.451
+    },
+    {
+     "w": "negara",
+     "start": 23.511,
+     "end": 24.011
+    },
+    {
+     "w": "tidak",
+     "start": 24.078,
+     "end": 24.411
+    },
+    {
+     "w": "boleh",
+     "start": 24.464,
+     "end": 24.731
+    },
+    {
+     "w": "dilupakan.",
+     "start": 24.791,
+     "end": 25.696
+    }
+   ]
+  },
+  {
+   "id": "l4",
+   "text": "Selasa, Yusril terima hasil kajian DEN dari Luhut. Kata Yusril: definisi diperluas, kerugian negara tidak dihapus.",
+   "start": 25.99060090702948,
+   "end": 35.87060090702948,
+   "words": [
+    {
+     "w": "Selasa,",
+     "start": 25.991,
+     "end": 26.731
+    },
+    {
+     "w": "Yusril",
+     "start": 26.771,
+     "end": 27.211
+    },
+    {
+     "w": "terima",
+     "start": 27.251,
+     "end": 27.611
+    },
+    {
+     "w": "hasil",
+     "start": 27.678,
+     "end": 28.011
+    },
+    {
+     "w": "kajian",
+     "start": 28.091,
+     "end": 28.826
+    },
+    {
+     "w": "DEN",
+     "start": 28.881,
+     "end": 29.761
+    },
+    {
+     "w": "dari",
+     "start": 29.873,
+     "end": 30.261
+    },
+    {
+     "w": "Luhut.",
+     "start": 30.301,
+     "end": 30.726
+    },
+    {
+     "w": "Kata",
+     "start": 30.726,
+     "end": 30.981
+    },
+    {
+     "w": "Yusril:",
+     "start": 31.061,
+     "end": 31.701
+    },
+    {
+     "w": "definisi",
+     "start": 31.834,
+     "end": 32.501
+    },
+    {
+     "w": "diperluas,",
+     "start": 32.541,
+     "end": 33.381
+    },
+    {
+     "w": "kerugian",
+     "start": 33.506,
+     "end": 34.031
+    },
+    {
+     "w": "negara",
+     "start": 34.091,
+     "end": 34.591
+    },
+    {
+     "w": "tidak",
+     "start": 34.671,
+     "end": 35.071
+    },
+    {
+     "w": "dihapus.",
+     "start": 35.124,
+     "end": 35.871
+    }
+   ]
+  },
+  {
+   "id": "l5",
+   "text": "Di DPR, Ahmad Irawan dari Golkar ingin deliknya diperluas, sampai ke under-invoicing.",
+   "start": 36.27960090702948,
+   "end": 43.62560090702948,
+   "words": [
+    {
+     "w": "Di",
+     "start": 36.28,
+     "end": 36.381
+    },
+    {
+     "w": "DPR,",
+     "start": 36.514,
+     "end": 37.636
+    },
+    {
+     "w": "Ahmad",
+     "start": 37.698,
+     "end": 38.131
+    },
+    {
+     "w": "Irawan",
+     "start": 38.211,
+     "end": 38.611
+    },
+    {
+     "w": "dari",
+     "start": 38.659,
+     "end": 38.851
+    },
+    {
+     "w": "Golkar",
+     "start": 38.891,
+     "end": 39.491
+    },
+    {
+     "w": "ingin",
+     "start": 39.571,
+     "end": 39.971
+    },
+    {
+     "w": "deliknya",
+     "start": 40.031,
+     "end": 40.451
+    },
+    {
+     "w": "diperluas,",
+     "start": 40.491,
+     "end": 41.251
+    },
+    {
+     "w": "sampai",
+     "start": 41.366,
+     "end": 42.061
+    },
+    {
+     "w": "ke",
+     "start": 42.141,
+     "end": 42.301
+    },
+    {
+     "w": "under-invoicing.",
+     "start": 42.368,
+     "end": 43.626
+    }
+   ]
+  },
+  {
+   "id": "l6",
+   "text": "Sebelumnya, Ketua KPK, ICW, dan dua politisi PKS keberatan kalau kerugian negara dihapus.",
+   "start": 43.89460090702948,
+   "end": 52.92060090702948,
+   "words": [
+    {
+     "w": "Sebelumnya,",
+     "start": 43.895,
+     "end": 44.741
+    },
+    {
+     "w": "Ketua",
+     "start": 44.801,
+     "end": 45.301
+    },
+    {
+     "w": "KPK,",
+     "start": 45.434,
+     "end": 46.488
+    },
+    {
+     "w": "ICW,",
+     "start": 46.488,
+     "end": 47.391
+    },
+    {
+     "w": "dan",
+     "start": 47.491,
+     "end": 47.791
+    },
+    {
+     "w": "dua",
+     "start": 47.851,
+     "end": 48.031
+    },
+    {
+     "w": "politisi",
+     "start": 48.098,
+     "end": 49.111
+    },
+    {
+     "w": "PKS",
+     "start": 49.164,
+     "end": 50.096
+    },
+    {
+     "w": "keberatan",
+     "start": 50.096,
+     "end": 50.841
+    },
+    {
+     "w": "kalau",
+     "start": 50.901,
+     "end": 51.161
+    },
+    {
+     "w": "kerugian",
+     "start": 51.201,
+     "end": 51.641
+    },
+    {
+     "w": "negara",
+     "start": 51.701,
+     "end": 52.121
+    },
+    {
+     "w": "dihapus.",
+     "start": 52.174,
+     "end": 52.921
+    }
+   ]
+  },
+  {
+   "id": "l7",
+   "text": "Pengamat hukum Hardjuno Wiwoho mengingatkan: perlindungan keputusan bisnis jangan jadi celah menghindari tanggung jawab.",
+   "start": 53.13760090702948,
+   "end": 61.370600907029484,
+   "words": [
+    {
+     "w": "Pengamat",
+     "start": 53.138,
+     "end": 53.421
+    },
+    {
+     "w": "hukum",
+     "start": 53.461,
+     "end": 53.901
+    },
+    {
+     "w": "Hardjuno",
+     "start": 53.965,
+     "end": 54.541
+    },
+    {
+     "w": "Wiwoho",
+     "start": 54.621,
+     "end": 55.261
+    },
+    {
+     "w": "mengingatkan:",
+     "start": 55.309,
+     "end": 56.141
+    },
+    {
+     "w": "perlindungan",
+     "start": 56.206,
+     "end": 57.041
+    },
+    {
+     "w": "keputusan",
+     "start": 57.094,
+     "end": 57.601
+    },
+    {
+     "w": "bisnis",
+     "start": 57.681,
+     "end": 58.446
+    },
+    {
+     "w": "jangan",
+     "start": 58.531,
+     "end": 59.131
+    },
+    {
+     "w": "jadi",
+     "start": 59.171,
+     "end": 59.451
+    },
+    {
+     "w": "celah",
+     "start": 59.511,
+     "end": 59.851
+    },
+    {
+     "w": "menghindari",
+     "start": 59.915,
+     "end": 60.571
+    },
+    {
+     "w": "tanggung",
+     "start": 60.619,
+     "end": 60.891
+    },
+    {
+     "w": "jawab.",
+     "start": 60.951,
+     "end": 61.371
+    }
+   ]
+  },
+  {
+   "id": "t1",
+   "text": "Tapi… semua ini masih kajian. Belum ada draf RUU, belum masuk Prolegnas.",
+   "start": 61.53160090702948,
+   "end": 68.05160090702948,
+   "words": [
+    {
+     "w": "Tapi…",
+     "start": 61.532,
+     "end": 62.412
+    },
+    {
+     "w": "semua",
+     "start": 62.485,
+     "end": 62.852
+    },
+    {
+     "w": "ini",
+     "start": 62.912,
+     "end": 63.092
+    },
+    {
+     "w": "masih",
+     "start": 63.159,
+     "end": 63.492
+    },
+    {
+     "w": "kajian.",
+     "start": 63.532,
+     "end": 64.132
+    },
+    {
+     "w": "Belum",
+     "start": 64.206,
+     "end": 64.592
+    },
+    {
+     "w": "ada",
+     "start": 64.652,
+     "end": 64.832
+    },
+    {
+     "w": "draf",
+     "start": 64.872,
+     "end": 65.552
+    },
+    {
+     "w": "RUU,",
+     "start": 65.605,
+     "end": 66.352
+    },
+    {
+     "w": "belum",
+     "start": 66.436,
+     "end": 66.772
+    },
+    {
+     "w": "masuk",
+     "start": 66.852,
+     "end": 67.172
+    },
+    {
+     "w": "Prolegnas.",
+     "start": 67.232,
+     "end": 68.052
+    }
+   ]
+  },
+  {
+   "id": "p1",
+   "text": "Jadi, pasal yang dibahas? Pasal 2 dan 3 UU Tipikor. Yusril menyebutnya “pasal sapu jagat”.",
+   "start": 68.39160090702948,
+   "end": 76.44560090702947,
+   "words": [
+    {
+     "w": "Jadi,",
+     "start": 68.392,
+     "end": 69.042
+    },
+    {
+     "w": "pasal",
+     "start": 69.046,
+     "end": 69.422
+    },
+    {
+     "w": "yang",
+     "start": 69.454,
+     "end": 69.582
+    },
+    {
+     "w": "dibahas?",
+     "start": 69.622,
+     "end": 70.222
+    },
+    {
+     "w": "Pasal",
+     "start": 70.366,
+     "end": 70.832
+    },
+    {
+     "w": "2",
+     "start": 70.932,
+     "end": 71.232
+    },
+    {
+     "w": "dan",
+     "start": 71.312,
+     "end": 71.552
+    },
+    {
+     "w": "3",
+     "start": 71.632,
+     "end": 72.059
+    },
+    {
+     "w": "UU",
+     "start": 72.059,
+     "end": 72.632
+    },
+    {
+     "w": "Tipikor.",
+     "start": 72.692,
+     "end": 73.353
+    },
+    {
+     "w": "Yusril",
+     "start": 73.436,
+     "end": 73.962
+    },
+    {
+     "w": "menyebutnya",
+     "start": 74.01,
+     "end": 74.922
+    },
+    {
+     "w": "“pasal",
+     "start": 74.956,
+     "end": 75.562
+    },
+    {
+     "w": "sapu",
+     "start": 75.642,
+     "end": 76.042
+    },
+    {
+     "w": "jagat”.",
+     "start": 76.082,
+     "end": 76.446
+    }
+   ]
+  },
+  {
+   "id": "p2",
+   "text": "Kata ICW, sekitar 83 persen terdakwa korupsi yang divonis tahun 2024 dihukum pakai dua pasal ini.",
+   "start": 76.94760090702947,
+   "end": 86.24160090702948,
+   "words": [
+    {
+     "w": "Kata",
+     "start": 76.948,
+     "end": 77.092
+    },
+    {
+     "w": "ICW,",
+     "start": 77.132,
+     "end": 77.892
+    },
+    {
+     "w": "sekitar",
+     "start": 77.936,
+     "end": 78.642
+    },
+    {
+     "w": "83",
+     "start": 78.722,
+     "end": 79.602
+    },
+    {
+     "w": "persen",
+     "start": 79.682,
+     "end": 80.162
+    },
+    {
+     "w": "terdakwa",
+     "start": 80.222,
+     "end": 80.642
+    },
+    {
+     "w": "korupsi",
+     "start": 80.702,
+     "end": 81.282
+    },
+    {
+     "w": "yang",
+     "start": 81.33,
+     "end": 81.522
+    },
+    {
+     "w": "divonis",
+     "start": 81.582,
+     "end": 82.162
+    },
+    {
+     "w": "tahun",
+     "start": 82.229,
+     "end": 82.562
+    },
+    {
+     "w": "2024",
+     "start": 82.602,
+     "end": 84.036
+    },
+    {
+     "w": "dihukum",
+     "start": 84.055,
+     "end": 84.722
+    },
+    {
+     "w": "pakai",
+     "start": 84.782,
+     "end": 85.042
+    },
+    {
+     "w": "dua",
+     "start": 85.122,
+     "end": 85.362
+    },
+    {
+     "w": "pasal",
+     "start": 85.442,
+     "end": 85.762
+    },
+    {
+     "w": "ini.",
+     "start": 85.862,
+     "end": 86.242
+    }
+   ]
+  },
+  {
+   "id": "p3",
+   "text": "Sejak Januari, isinya pindah ke KUHP baru. Unsur kerugian negaranya tetap ada.",
+   "start": 86.52460090702948,
+   "end": 93.65160090702948,
+   "words": [
+    {
+     "w": "Sejak",
+     "start": 86.525,
+     "end": 86.712
+    },
+    {
+     "w": "Januari,",
+     "start": 86.772,
+     "end": 87.682
+    },
+    {
+     "w": "isinya",
+     "start": 87.762,
+     "end": 88.242
+    },
+    {
+     "w": "pindah",
+     "start": 88.322,
+     "end": 88.802
+    },
+    {
+     "w": "ke",
+     "start": 88.935,
+     "end": 89.416
+    },
+    {
+     "w": "KUHP",
+     "start": 89.505,
+     "end": 90.492
+    },
+    {
+     "w": "baru.",
+     "start": 90.572,
+     "end": 90.972
+    },
+    {
+     "w": "Unsur",
+     "start": 91.046,
+     "end": 91.572
+    },
+    {
+     "w": "kerugian",
+     "start": 91.632,
+     "end": 92.052
+    },
+    {
+     "w": "negaranya",
+     "start": 92.112,
+     "end": 92.772
+    },
+    {
+     "w": "tetap",
+     "start": 92.832,
+     "end": 93.172
+    },
+    {
+     "w": "ada.",
+     "start": 93.252,
+     "end": 93.652
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "text": "Menurut kamu, batas antara risiko bisnis dan korupsi ada di mana? Komen!",
+   "start": 93.89460090702947,
+   "end": 99.34160090702947,
+   "words": [
+    {
+     "w": "Menurut",
+     "start": 93.895,
+     "end": 94.072
+    },
+    {
+     "w": "kamu,",
+     "start": 94.168,
+     "end": 94.632
+    },
+    {
+     "w": "batas",
+     "start": 94.766,
+     "end": 95.412
+    },
+    {
+     "w": "antara",
+     "start": 95.472,
+     "end": 95.812
+    },
+    {
+     "w": "risiko",
+     "start": 95.872,
+     "end": 96.292
+    },
+    {
+     "w": "bisnis",
+     "start": 96.372,
+     "end": 96.852
+    },
+    {
+     "w": "dan",
+     "start": 96.912,
+     "end": 97.092
+    },
+    {
+     "w": "korupsi",
+     "start": 97.132,
+     "end": 97.652
+    },
+    {
+     "w": "ada",
+     "start": 97.732,
+     "end": 97.972
+    },
+    {
+     "w": "di",
+     "start": 98.025,
+     "end": 98.132
+    },
+    {
+     "w": "mana?",
+     "start": 98.196,
+     "end": 98.612
+    },
+    {
+     "w": "Komen!",
+     "start": 98.666,
+     "end": 99.342
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "text": "Follow Rangkumin Dong, biar nggak ketinggalan!",
+   "start": 99.75060090702948,
+   "end": 102.35160090702948,
+   "words": [
+    {
+     "w": "Follow",
+     "start": 99.751,
+     "end": 99.792
+    },
+    {
+     "w": "Rangkumin",
+     "start": 99.872,
+     "end": 100.352
+    },
+    {
+     "w": "Dong,",
+     "start": 100.4,
+     "end": 100.672
+    },
+    {
+     "w": "biar",
+     "start": 100.805,
+     "end": 101.152
+    },
+    {
+     "w": "nggak",
+     "start": 101.179,
+     "end": 101.312
+    },
+    {
+     "w": "ketinggalan!",
+     "start": 101.352,
+     "end": 102.352
+    }
+   ]
+  }
+ ]
+}
