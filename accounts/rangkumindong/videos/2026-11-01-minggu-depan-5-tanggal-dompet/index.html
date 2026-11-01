@@ -1,0 +1,534 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Minggu depan: 5 tanggal — Rangkumin Dong</title>
+<link rel="stylesheet" href="../../../../styles/sticker/sticker.css">
+<script src="../../../../styles/sticker/sticker.js"></script>
+<script>window.SUB_LEAD = 0.08; window.SUB_MODE = "block";</script>
+<script src="build/timing.js"></script>
+<style>
+  .zone { position: absolute; width: 1080px; height: 1920px; }
+  .big { font-weight: 900; letter-spacing: -6px; line-height: .9; white-space: nowrap; font-variant-numeric: tabular-nums; }
+  .lbl { font-weight: 800; font-size: 36px; color: var(--slate); white-space: nowrap; text-align: center; }
+  .note { font-weight: 700; font-size: 26px; color: var(--slate); white-space: nowrap; text-align: center; }
+  .bub { position: absolute; background: #fff; border-radius: 30px; padding: 20px 30px 24px; text-align: center;
+         font-weight: 900; font-size: 46px; line-height: 1.08; letter-spacing: -1px; box-shadow: 0 0 0 9px #fff, 0 18px 26px rgba(27,36,48,.2); }
+  .bub.tl::after { content: ""; position: absolute; bottom: -38px; left: 70px; border: 22px solid transparent; border-top: 24px solid #fff; }
+  .bub small { display: block; font-weight: 700; font-size: 26px; color: var(--slate); letter-spacing: 0; margin-top: 6px; }
+  .chip { background: #fff; border-radius: 24px; padding: 14px 26px 18px; font-weight: 900; font-size: 46px; letter-spacing: -1px; white-space: nowrap;
+          box-shadow: 0 0 0 8px #fff, 0 14px 24px rgba(27,36,48,.18); }
+  .stampx { font-weight: 900; letter-spacing: -2px; color: var(--accent); border: 10px solid var(--accent); border-radius: 22px; padding: 6px 28px 12px;
+            white-space: nowrap; background: rgba(255,255,255,.92); text-align: center; line-height: 1; }
+  .stampx.grey { color: var(--slate); border-color: var(--slate); border-style: dashed; }
+  .cal { width: 250px; background: #fff; border-radius: 26px; overflow: hidden; text-align: center; box-shadow: 0 0 0 8px #fff, 0 16px 24px rgba(27,36,48,.22); }
+  .cal .top { background: var(--accent); color: #fff; font-weight: 900; font-size: 40px; padding: 10px 0 12px; letter-spacing: 1px; }
+  .cal .d { font-weight: 900; font-size: 130px; letter-spacing: -5px; line-height: 1; padding: 18px 0 22px; color: var(--ink); }
+  .cal.xs { width: 150px; border-radius: 20px; overflow: visible; }
+  .cal.xs .top { font-size: 28px; padding: 6px 0 8px; border-radius: 20px 20px 0 0; }
+  .cal.xs .d { font-size: 76px; padding: 10px 0 12px; }
+  .cal.slate .top { background: var(--slate); }
+  .cal.hl { background: var(--hi); }
+  .cal.hl .top { background: var(--ink); }
+  .cal .cap { position: absolute; left: 50%; top: 100%; transform: translateX(-50%); margin-top: 16px; font-weight: 800; font-size: 26px; color: var(--slate); white-space: nowrap; }
+  .ntag { width: 640px; height: 116px; background: #fff; border-radius: 26px; display: flex; flex-direction: row; gap: 20px; align-items: center;
+          padding: 0 26px 0 18px; box-shadow: 0 0 0 8px #fff, 0 16px 24px rgba(27,36,48,.2); }
+  .ntag .icn { flex: 0 0 86px; height: 86px; border-radius: 50%; background: var(--slate); display: flex; align-items: center; justify-content: center; overflow: hidden; }
+  .ntag .tx { display: flex; flex-direction: column; align-items: flex-start; }
+  .ntag .nm { font-weight: 900; font-size: 38px; line-height: 1.05; letter-spacing: -1px; white-space: nowrap; }
+  .ntag .rl { font-weight: 700; font-size: 28px; color: var(--slate); white-space: nowrap; margin-top: 4px; }
+  .frame { border: 10px solid var(--ink); border-radius: 26px; background: rgba(255,255,255,.7); }
+  .frame .fl { position: absolute; left: 24px; top: -34px; background: var(--ink); color: #fff; font-weight: 900; font-size: 40px; padding: 4px 18px 8px; border-radius: 12px; letter-spacing: 1px; }
+  .cluster { display: grid; grid-template-columns: repeat(9, 28px); gap: 6px; }
+  .cluster i { display: block; width: 28px; height: 28px; border-radius: 7px; background: var(--accent); }
+  .track { position: absolute; height: 46px; border-radius: 23px; background: #D9DEE3; box-shadow: 0 0 0 7px #fff; }
+  .fill { position: absolute; height: 46px; border-radius: 23px; background: var(--accent); transform-origin: 0 50%; }
+  #disc { position: absolute; right: 160px; top: 270px; z-index: 5; background: rgba(255,255,255,.94); color: var(--slate); font-weight: 800; font-size: 26px;
+          padding: 8px 16px 10px; border-radius: 10px; white-space: nowrap; opacity: 0; }
+  /* hook B: collage cut-out (copied from tests/hook-collage, after mg-styles-15 #06, MIT) */
+  #collage { position: absolute; inset: 0; z-index: 4; background: #E4D7BC; overflow: hidden; display: none; }
+  #collage .cols { position: absolute; background: repeating-linear-gradient(180deg, rgba(23,19,14,.13) 0 5px, transparent 5px 15px); }
+  #redblock { position: absolute; left: -160px; top: 300px; width: 1400px; height: 560px; background: #D6301F; transform: rotate(-9deg); box-shadow: 0 16px 26px rgba(23,19,14,.25); }
+  #redblock::after { content: ""; position: absolute; inset: 0; background: radial-gradient(circle, rgba(23,19,14,.18) 2.2px, transparent 2.8px) 0 0 / 11px 11px; }
+  #blkline { position: absolute; left: -100px; top: 905px; width: 1300px; height: 26px; background: #17130E; transform: rotate(-9deg); }
+  #cPerson { position: absolute; left: 700px; top: 0; width: 640px; transform-origin: 50% 100%; filter: url(#cut); }
+  #cPerson img { width: 100%; display: block; filter: grayscale(1) contrast(1.35) brightness(1.06); }
+  #cPerson .ht { position: absolute; inset: 0; mix-blend-mode: multiply; -webkit-mask: url(../../assets/people/prabowo-subianto.png) 0 0 / 100% 100%;
+    background: radial-gradient(circle, rgba(23,19,14,.42) 1.9px, transparent 2.5px) 0 0 / 8px 8px, linear-gradient(rgba(214,160,90,.18), rgba(214,160,90,.18)); }
+  #collage .rn { position: absolute; left: 56px; display: flex; gap: 4px; align-items: flex-end; }
+  #collage .rn i { font-style: normal; display: inline-block; text-align: center; line-height: 1; padding: 6px 8px 8px; box-shadow: 0 6px 10px rgba(23,19,14,.28); }
+  #collage .strip { position: absolute; padding: 14px 34px 20px; font-weight: 900; text-transform: uppercase; white-space: nowrap; box-shadow: 0 10px 16px rgba(23,19,14,.28); }
+  #collage .tape { position: absolute; width: 120px; height: 38px; background: rgba(238,226,170,.78); box-shadow: 0 2px 4px rgba(23,19,14,.15); }
+  #collage .label { position: absolute; background: #fff; padding: 14px 24px 16px; font-family: "Courier 10 Pitch", Courier, monospace;
+           font-weight: 700; font-size: 40px; color: #17130E; white-space: nowrap; box-shadow: 0 10px 16px rgba(23,19,14,.25); }
+  #collage .label small { display: block; font-size: 27px; font-weight: 400; margin-top: 4px; }
+  #ledge { position: absolute; left: -40px; top: 1236px; width: 1160px; height: 760px; background: #F1ECE0; box-shadow: 0 -10px 22px rgba(23,19,14,.22); }
+  #ledge::before { content: ""; position: absolute; left: 70px; right: 70px; top: 300px; bottom: 0; background: repeating-linear-gradient(180deg, rgba(23,19,14,.10) 0 4px, transparent 4px 13px); }
+  #cCredit { position: absolute; right: 190px; top: 1250px; font-weight: 700; font-size: 22px; color: #5b5144; }
+  #cCal { position: absolute; width: 180px; background: #fff; text-align: center; box-shadow: 0 10px 16px rgba(23,19,14,.28); }
+  #cCal .top { background: #17130E; color: #fff; font-weight: 900; font-size: 34px; padding: 6px 0 8px; }
+  #cCal .d { font-weight: 900; font-size: 96px; letter-spacing: -4px; line-height: 1; padding: 10px 0 14px; color: #D6301F; }
+  #cTiles { position: absolute; left: 0; top: 0; }
+  #cGrain { position: absolute; inset: 0; pointer-events: none; opacity: .28; mix-blend-mode: multiply; }
+  #endcard { position: absolute; inset: 0; z-index: 8; display: flex; flex-direction: column; align-items: center; justify-content: center;
+             gap: 24px; background: var(--paper); opacity: 0; }
+  #endcard .logo { background: var(--accent); color: #fff; font-weight: 900; font-size: 116px; letter-spacing: -4px;
+                   padding: 30px 58px 40px; border-radius: 44px; line-height: .95; text-align: center; transform: rotate(-3deg); }
+  #endcard .tl2 { font-weight: 800; font-size: 54px; color: var(--slate); }
+  #endcard .h { font-weight: 900; font-size: 50px; background: var(--ink); color: #fff; padding: 12px 26px; border-radius: 16px; }
+  #endcard .src { font-weight: 700; font-size: 26px; color: var(--slate); margin-top: 10px; text-align: center; line-height: 1.4; max-width: 900px; }
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute">
+  <filter id="cut" x="-5%" y="-5%" width="110%" height="110%">
+    <feMorphology in="SourceAlpha" operator="dilate" radius="9" result="d"/>
+    <feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="4" result="n"/>
+    <feDisplacementMap in="d" in2="n" scale="10" result="dd"/>
+    <feFlood flood-color="#FBF8F1"/><feComposite in2="dd" operator="in" result="edge"/>
+    <feGaussianBlur in="dd" stdDeviation="9" result="b"/><feOffset in="b" dy="14" result="bo"/>
+    <feFlood flood-color="#17130E" flood-opacity=".35"/><feComposite in2="bo" operator="in" result="sh"/>
+    <feMerge><feMergeNode in="sh"/><feMergeNode in="edge"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="paper"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="7"/>
+    <feColorMatrix values="0 0 0 0 .45  0 0 0 0 .38  0 0 0 0 .3  0 0 0 1.1 -.35"/></filter>
+</svg>
+<div id="stage">
+  <div id="world">
+
+    <!-- A (0,0): hook A / cover "BANSOS / PINDAH KE HP" -->
+    <div id="zA" class="zone" style="left:0; top:0;">
+      <div id="aHd" class="abs headline" style="left:540px; top:560px; width:1000px;">
+        <div id="aHd1" style="font-size:140px; white-space:nowrap; letter-spacing:-5px;">BANSOS</div>
+        <div id="aHd2" style="font-size:112px; color:var(--accent); white-space:nowrap; letter-spacing:-4px; line-height:.95;">PINDAH KE HP</div></div>
+      <div id="aPh" class="abs sticker-svg" style="left:330px; top:1000px;"></div>
+      <div id="aNik" class="abs sticker-svg" style="left:330px; top:1010px;"></div>
+      <div id="aDate" class="abs stampx" style="left:740px; top:960px; font-size:84px; line-height:.95;">SEL<br>10 NOV</div>
+      <div id="aTiles"></div>
+    </div>
+
+    <!-- tagline (2480,0) -->
+    <div class="zone" style="left:2480px; top:0;">
+      <div id="stamp" class="abs stamp sticker" style="left:540px; top:960px; font-size:110px;">Rangkumin dong!</div>
+    </div>
+
+    <!-- Z1 (0,2400): 2 Nov, 81 HSC stocks out of the IHSG count -->
+    <div class="zone" style="left:0; top:2400px;">
+      <div id="z1Day" class="abs tag sticker" style="left:230px; top:420px; font-size:44px;">Senin</div>
+      <div id="z1Cal" class="abs cal" style="left:230px; top:640px;"><div class="top">NOV</div><div class="d">2</div></div>
+      <div id="z1N" class="abs big" style="left:700px; top:590px; font-size:230px; color:var(--accent);">0</div>
+      <div id="z1S" class="abs lbl" style="left:700px; top:740px; font-size:46px; color:var(--ink);">saham</div>
+      <div id="z1F" class="abs frame" style="left:330px; top:1070px; width:400px; height:380px;"><div class="fl">IHSG</div></div>
+      <div id="z1C" class="abs cluster" style="left:330px; top:1080px;"></div>
+      <svg id="z1Ar" class="abs" style="left:620px; top:1080px;" width="140" height="80" viewBox="0 0 140 80"><path d="M10 40 H112 M84 14 L118 40 L84 66" stroke="#FF5A36" stroke-width="14" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <div id="z1Out" class="abs stampx grey" style="left:790px; top:1270px; font-size:40px; border-width:7px; padding:4px 16px 8px;">keluar hitungan</div>
+      <div id="z1Hsc" class="abs tag light sticker" style="left:540px; top:1400px; font-size:38px;">saham HSC · per 2 Nov</div>
+    </div>
+
+    <!-- Z2 (1240,2400): 3 Nov, US midterms, markets watching -->
+    <div class="zone" style="left:1240px; top:2400px;">
+      <div id="z2Day" class="abs tag sticker" style="left:230px; top:420px; font-size:44px;">Selasa</div>
+      <div id="z2Cal" class="abs cal" style="left:230px; top:640px;"><div class="top">NOV</div><div class="d">3</div></div>
+      <div id="z2Box" class="abs sticker-svg" style="left:700px; top:620px;"></div>
+      <div id="z2L" class="abs chip" style="left:700px; top:870px;">Pemilu sela AS</div>
+      <div id="z2Ch" class="abs sticker-svg" style="left:480px; top:1170px;"></div>
+      <div id="z2Q" class="abs big" style="left:810px; top:1090px; font-size:170px; color:var(--accent); letter-spacing:0;">?</div>
+      <div id="z2M" class="abs tag accent sticker" style="left:540px; top:1400px; font-size:42px;">pasar ikut memantau</div>
+    </div>
+
+    <!-- Z3 (2480,2400): 5 Nov, Jokowi witness at Roy Suryo trial + PDB Q3 (estimated) -->
+    <div class="zone" style="left:2480px; top:2400px;">
+      <div id="z3Day" class="abs tag sticker" style="left:230px; top:420px; font-size:44px;">Kamis</div>
+      <div id="z3Cal" class="abs cal" style="left:230px; top:640px;"><div class="top">NOV</div><div class="d">5</div></div>
+      <div id="z3Ct" class="abs sticker-svg" style="left:700px; top:590px;"></div>
+      <div id="z3CtL" class="abs tag light sticker" style="left:700px; top:790px; font-size:32px; padding:10px 20px;">PN Jakarta Timur · sidang</div>
+      <div id="z3T1" class="abs ntag" style="left:540px; top:960px;"><div class="icn person"></div>
+        <div class="tx"><div class="nm">Joko Widodo</div><div class="rl">saksi</div></div></div>
+      <div id="z3T2" class="abs ntag" style="left:540px; top:1100px;"><div class="icn person"></div>
+        <div class="tx"><div class="nm">Roy Suryo</div><div class="rl">terdakwa</div></div></div>
+      <div id="z3G" class="abs sticker-svg" style="left:220px; top:1310px;"></div>
+      <div id="z3GL" class="abs chip" style="left:440px; top:1300px; font-size:44px;">PDB Q3</div>
+      <div id="z3St" class="abs stampx grey" style="left:770px; top:1300px; font-size:34px; border-width:7px; padding:6px 16px 10px; line-height:1.05;">DIPERKIRAKAN<br>BELUM RESMI</div>
+    </div>
+
+    <!-- Z4 (0,4800): the turn, 9 Nov digital tax (Hashim's claim, DJP not confirmed) -->
+    <div class="zone" style="left:0; top:4800px;">
+      <div id="z4Tapi" class="abs headline" style="left:270px; top:420px; font-size:110px; color:var(--accent);">Tapi…</div>
+      <div id="z4Cal" class="abs cal" style="left:230px; top:700px;"><div class="top" id="z4CalT">NOV</div><div class="d" id="z4CalD">?</div></div>
+      <div id="z4Ex" class="abs" style="left:340px; top:580px; width:96px; height:96px; border-radius:50%; background:var(--accent); color:#fff; font-weight:900; font-size:72px; line-height:96px; text-align:center; box-shadow:0 0 0 7px #fff;">!</div>
+      <div id="z4B" class="abs bub tl" style="left:700px; top:640px; width:500px;">kata Hashim<small>Ketua Dewan Penasihat Kadin</small></div>
+      <div id="z4C1" class="abs chip" style="left:290px; top:960px;">Shopee</div>
+      <div id="z4C2" class="abs chip" style="left:720px; top:960px;">Lazada</div>
+      <div id="z4C3" class="abs chip" style="left:290px; top:1080px;">GoTo</div>
+      <div id="z4C4" class="abs chip" style="left:720px; top:1080px;">bank &amp; fintech</div>
+      <div id="z4P" class="abs tag sticker" style="left:540px; top:1200px; font-size:44px;">mulai pungut pajak digital?</div>
+      <div id="z4St" class="abs stampx" style="left:540px; top:1330px; font-size:56px; line-height:1;">BELUM DIKONFIRMASI DJP</div>
+      <div id="z4Per" class="abs note" style="left:540px; top:1420px;">per 31 Okt · sumber: detikFinance</div>
+    </div>
+
+    <!-- Z5 (1240,4800): back to 10 Nov, Perlinsos Digital -->
+    <div class="zone" style="left:1240px; top:4800px;">
+      <div id="z5Tiles"></div>
+      <div id="z5Hd" class="abs headline" style="left:540px; top:690px; font-size:96px; line-height:1;">PERLINSOS<br><span class="acc">DIGITAL</span></div>
+      <div id="z5Ph" class="abs sticker-svg" style="left:790px; top:1000px;"></div>
+      <div id="z5Nik" class="abs sticker-svg" style="left:790px; top:1010px;"></div>
+      <svg id="z5Scan" class="abs" style="left:790px; top:990px;" width="190" height="190" viewBox="0 0 190 190"><g stroke="#FF5A36" stroke-width="12" fill="none" stroke-linecap="round">
+        <path d="M10 50 V10 H50"/><path d="M140 10 H180 V50"/><path d="M180 140 V180 H140"/><path d="M50 180 H10 V140"/></g>
+        <rect id="z5ScanL" x="20" y="20" width="150" height="8" rx="4" fill="#FF5A36"/></svg>
+      <div id="z5Tg" class="abs" style="left:320px; top:980px; text-align:center;">
+        <div class="lbl" style="color:var(--ink);">target</div>
+        <div class="big" style="font-size:140px; letter-spacing:-4px; margin:6px 0 14px;">48 juta</div>
+        <div class="lbl" style="color:var(--ink);">keluarga</div></div>
+      <div id="z5Bar" class="abs" style="left:540px; top:1300px; width:800px; height:46px;">
+        <div class="track" style="left:0; width:800px; top:0;"></div>
+        <div id="z5Fill" class="fill" style="left:0; width:800px; top:0;"></div>
+        <div id="z5Now" class="abs" style="left:262px; top:-70px; font-weight:900; font-size:56px; letter-spacing:-1px; white-space:nowrap; color:var(--accent);"><span id="z5NowV">0</span> juta terdaftar</div>
+        <div class="abs note" style="left:760px; top:84px; font-size:28px; color:var(--ink);">48 juta</div>
+        <div class="abs note" style="left:20px; top:84px; font-size:28px;">0</div></div>
+      <div id="z5Src" class="abs note" style="left:540px; top:1440px;">sumber: CNBC Indonesia, per 28 Okt</div>
+    </div>
+
+    <!-- Z6 (2480,4800): CTA -->
+    <div class="zone" style="left:2480px; top:4800px;">
+      <div id="qHd" class="abs headline" style="left:540px; top:520px; font-size:84px; line-height:1.06; white-space:nowrap;">Kamu nunggu<br><span class="acc">tanggal mana?</span></div>
+      <div id="qTiles"></div>
+      <div id="qCom" class="abs sticker-svg" style="left:330px; top:1230px;"></div>
+      <div id="qK" class="abs bub" style="left:700px; top:1210px; font-size:64px;">Komen!</div>
+    </div>
+  </div>
+
+  <!-- B opening (screen space, collage) -->
+  <div id="collage">
+    <div class="cols" style="left:40px; top:200px; width:300px; height:1040px; transform:rotate(-2deg)"></div>
+    <div class="cols" style="left:380px; top:160px; width:300px; height:1080px; transform:rotate(1deg)"></div>
+    <div class="cols" style="left:720px; top:210px; width:330px; height:1040px; transform:rotate(-1deg)"></div>
+    <div id="redblock"></div>
+    <div id="blkline"></div>
+    <div id="cPerson"><img src="../../assets/people/prabowo-subianto.png" alt=""><div class="ht"></div></div>
+    <div id="cPhW" class="abs" style="left:200px; top:500px;"><div id="cPh"></div><div id="cNik" style="position:absolute; left:50%; top:50%; transform:translate(-50%,-50%);"></div>
+      <div class="tape" style="left:-20px; top:-10px; transform:rotate(-28deg)"></div></div>
+    <svg id="cArrow" style="position:absolute; left:270px; top:520px;" width="230" height="200" viewBox="0 0 230 200">
+      <path id="cArrowP" d="M212 186 C 170 160, 160 110, 120 110 C 80 110, 90 60, 34 34" fill="none" stroke="#FBF8F1" stroke-width="13" stroke-linecap="round" stroke-dasharray="340" stroke-dashoffset="340"/>
+      <path id="cArrowH" d="M66 24 L30 30 L40 64" fill="none" stroke="#FBF8F1" stroke-width="13" stroke-linecap="round" stroke-linejoin="round" opacity="0"/></svg>
+    <div id="cCalW" class="abs" style="left:880px; top:410px;">
+      <div id="cCal" style="position:relative"><div class="top">SEL</div><div class="d">10</div></div>
+      <div class="tape" style="left:-30px; top:-14px; transform:rotate(-24deg)"></div>
+      <div class="strip" id="cNov" style="left:-40px; top:178px; background:#17130E; color:#fff; font-size:34px; padding:8px 16px 12px;">November</div>
+    </div>
+    <div id="ledge"></div>
+    <div id="cNameW" class="abs" style="left:290px; top:1196px;">
+      <div class="label" id="cName" style="position:relative">PRABOWO SUBIANTO<small>Presiden</small></div>
+      <div class="tape" style="left:-36px; top:-16px; transform:rotate(-30deg)"></div>
+      <div class="tape" style="right:-40px; bottom:-12px; transform:rotate(-26deg); width:100px"></div>
+    </div>
+    <div id="cb1" class="rn" style="top:700px;"></div>
+    <div id="cb2" class="strip" style="left:76px; top:840px; background:#FFD23F; color:#17130E; font-size:82px; font-family:'GFS Baskerville','DejaVu Serif',serif;">digital</div>
+    <div id="cb3" class="strip" style="left:150px; top:970px; background:#fff; color:#D6301F; font-size:76px; letter-spacing:-1px;">10 Nov</div>
+    <div id="cAsk" class="strip" style="left:470px; top:990px; background:#17130E; color:#fff; font-size:40px; text-transform:none; padding:10px 22px 14px;">kamu sudah terdaftar?</div>
+    <div id="cTiles"></div>
+    <div id="cCredit">Foto: Kemensetneg RI (domain publik), via Wikimedia Commons</div>
+    <svg id="cGrain" width="1080" height="1920"><rect width="1080" height="1920" filter="url(#paper)"/></svg>
+  </div>
+
+  <div id="brand"><div class="dot"></div><b>Rangkumin Dong</b></div>
+  <div id="disc">Bukan ajakan jual/beli saham</div>
+  <div id="subs"></div>
+  <div id="endcard">
+    <div class="logo">RANGKUMIN<br>DONG</div>
+    <div class="tl2">Berita ribet? Rangkumin dong.</div>
+    <div class="h">@rangkumindong</div>
+    <div class="src">Sumber: IDX Channel, Bisnis, Tirto, Kontan, RM.id, detikNews,<br>CNN Indonesia, Kompas, detikFinance, CNBC Indonesia · lengkap di komentar</div>
+    <div class="src" style="font-size:24px; margin-top:0;">PDB Q3: tanggal belum resmi · pajak digital 9 Nov: belum dikonfirmasi DJP</div>
+    <div id="endCred" class="src" style="font-size:22px; margin-top:0;">Foto Prabowo Subianto: Kementerian Sekretariat Negara RI (domain publik), via Wikimedia Commons</div>
+    <div class="src" style="font-size:24px; margin-top:0; color:var(--ink);">Bukan ajakan jual/beli saham</div>
+  </div>
+  <div id="progress"></div>
+</div>
+
+<script>
+const $ = (id) => document.getElementById(id);
+const T = window.TIMING;
+window.DURATION = T.duration;
+const at = K.at, W = K.word;
+const VB = T.variant === 'b';
+const END = K.line('cta').end + 0.1;
+
+// ---------- SVG builders (generic icons, no logos) ----------
+const personSil = (s = 86) => `<svg width="${s}" height="${s}" viewBox="0 0 106 106"><circle cx="53" cy="40" r="19" fill="#fff"/><path d="M14 106 Q14 66 53 66 Q92 66 92 106 Z" fill="#fff"/></svg>`;
+const phoneSVG = (w = 230) => `<svg width="${w}" height="${w * 1.66}" viewBox="0 0 230 382"><rect x="8" y="8" width="214" height="366" rx="36" fill="#1B2430"/>
+  <rect x="22" y="26" width="186" height="330" rx="24" fill="#fff"/><rect x="88" y="36" width="54" height="12" rx="6" fill="#1B2430"/>
+  <rect x="40" y="290" width="150" height="44" rx="14" fill="#FF5A36"/><text x="115" y="321" text-anchor="middle" font-family="Inter" font-weight="900" font-size="24" fill="#fff">BANSOS</text></svg>`;
+const nikSVG = (w = 160) => `<svg width="${w}" height="${w * 0.66}" viewBox="0 0 160 106"><rect x="4" y="4" width="152" height="98" rx="12" fill="#5FA8D3" stroke="#1B2430" stroke-width="5"/>
+  <rect x="14" y="16" width="40" height="52" rx="6" fill="#fff"/><circle cx="34" cy="34" r="9" fill="#3E5568"/><path d="M20 64 Q34 46 48 64 Z" fill="#3E5568"/>
+  <text x="64" y="34" font-family="Inter" font-weight="900" font-size="20" fill="#1B2430">NIK</text>
+  <rect x="64" y="44" width="80" height="8" rx="4" fill="#fff"/><rect x="64" y="58" width="60" height="8" rx="4" fill="#fff"/><rect x="14" y="80" width="130" height="10" rx="5" fill="#1B2430" opacity=".5"/></svg>`;
+const ballotSVG = () => `<svg width="300" height="270" viewBox="0 0 300 270"><rect x="110" y="10" width="90" height="110" rx="6" fill="#fff" stroke="#1B2430" stroke-width="6" transform="rotate(-8 155 65)"/>
+  <path d="M128 50 L146 70 L180 34" stroke="#2F7A45" stroke-width="10" fill="none" stroke-linecap="round" stroke-linejoin="round" transform="rotate(-8 155 65)"/>
+  <rect x="30" y="100" width="240" height="160" rx="16" fill="#3E5568" stroke="#1B2430" stroke-width="7"/><rect x="100" y="94" width="100" height="14" rx="6" fill="#1B2430"/>
+  <g transform="translate(80 150)"><rect width="140" height="80" fill="#fff"/>${[0, 2, 4, 6].map((i) => `<rect y="${i * 11.4}" width="140" height="11.4" fill="#E7212B"/>`).join('')}<rect width="60" height="46" fill="#2B4C9B"/></g></svg>`;
+const chartSVG = () => `<svg width="420" height="250" viewBox="0 0 420 250"><rect x="6" y="6" width="408" height="238" rx="24" fill="#fff" stroke="#1B2430" stroke-width="6"/>
+  <path d="M40 200 H380 M40 40 V200" stroke="#B9C2CB" stroke-width="6" stroke-linecap="round"/>
+  <path id="chL" d="M50 130 L100 110 L150 150 L200 100 L250 140 L300 115 L350 135" stroke="#3E5568" stroke-width="10" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+const courtSVG = () => `<svg width="320" height="250" viewBox="0 0 300 236"><path d="M30 92 L150 30 L270 92 Z" fill="#3E5568"/><rect x="34" y="92" width="232" height="14" fill="#2C3E4E"/>
+  ${[0, 1, 2, 3, 4].map((i) => `<rect x="${56 + i * 44}" y="112" width="20" height="82" rx="3" fill="#fff" stroke="#3E5568" stroke-width="4"/>`).join('')}
+  <rect x="20" y="196" width="260" height="22" rx="6" fill="#1B2430"/>
+  <g transform="translate(150 66)"><rect x="-22" y="-8" width="44" height="16" rx="5" fill="#C8955A" stroke="#1B2430" stroke-width="4"/></g></svg>`;
+const gdpSVG = () => `<svg width="170" height="150" viewBox="0 0 170 150"><rect x="6" y="6" width="158" height="138" rx="20" fill="#fff" stroke="#1B2430" stroke-width="6"/>
+  <rect x="30" y="80" width="26" height="46" rx="5" fill="#B9C2CB"/><rect x="72" y="60" width="26" height="66" rx="5" fill="#B9C2CB"/>
+  <rect x="114" y="40" width="26" height="86" rx="5" fill="none" stroke="#3E5568" stroke-width="5" stroke-dasharray="8 6"/></svg>`;
+const commentSVG = () => `<svg width="240" height="210" viewBox="0 0 260 230"><path d="M20 30 Q20 10 40 10 H220 Q240 10 240 30 V150 Q240 170 220 170 H110 L60 214 L70 170 H40 Q20 170 20 150 Z" fill="#fff" stroke="#1B2430" stroke-width="8" stroke-linejoin="round"/>
+  <circle cx="80" cy="90" r="14" fill="#1B2430"/><circle cx="130" cy="90" r="14" fill="#1B2430"/><circle cx="180" cy="90" r="14" fill="#1B2430"/></svg>`;
+
+document.querySelectorAll('.icn.person').forEach((d) => (d.innerHTML = personSil()));
+$('aPh').innerHTML = phoneSVG(250); $('aNik').innerHTML = nikSVG(170);
+$('z2Box').innerHTML = ballotSVG(); $('z2Ch').innerHTML = chartSVG();
+$('z3Ct').innerHTML = courtSVG(); $('z3G').innerHTML = gdpSVG();
+$('z5Ph').innerHTML = phoneSVG(220); $('z5Nik').innerHTML = nikSVG(150);
+$('qCom').innerHTML = commentSVG();
+for (let i = 0; i < 81; i++) $('z1C').appendChild(document.createElement('i'));
+
+// ---------- calendar tiles: SEN 2 · SEL 3 · KAM 5 · SEN 9 · SEL 10 ----------
+function tile(host, d, m, x, y, cls = 'xs slate', cap = '') {
+  const e = document.createElement('div'); e.className = 'abs cal ' + cls; e.style.left = x + 'px'; e.style.top = y + 'px';
+  e.innerHTML = `<div class="top">${m}</div><div class="d">${d}</div>` + (cap ? `<div class="cap">${cap}</div>` : '');
+  host.appendChild(e); return e;
+}
+const STRIP = [['2', 'SEN', 'IHSG'], ['3', 'SEL', 'pemilu AS'], ['5', 'KAM', 'sidang'], ['9', 'SEN', 'pajak?'], ['10', 'SEL', 'bansos']];
+const mk = (host, y, caps = false, x0 = 120, dx = 190) => STRIP.map(([d, m, c], i) => tile(host, d, m, x0 + i * dx, y, 'xs ' + (i === 4 ? 'hl' : 'slate'), caps ? c : ''));
+const aT = mk($('aTiles'), 1330);
+const z5T = mk($('z5Tiles'), 490);
+const qT = mk($('qTiles'), 860, true);
+const cT = mk($('cTiles'), 1030, false, 130, 175);
+
+// ---------- B opening helpers (seeded, stop-motion; from tests/hook-collage) ----------
+const hash = (s) => { let h = 2166136261; for (const c of String(s)) h = Math.imul(h ^ c.charCodeAt(0), 16777619); return h >>> 0; };
+const rnd = (s) => { let x = hash(s); x ^= x << 13; x ^= x >>> 17; x ^= x << 5; return ((x >>> 0) % 10000) / 10000; };
+const ST = (t) => Math.floor(t * 12 + 1e-6) / 12;
+const jit = (id, t, a = 2) => { const k = Math.floor(t * 12); return [(rnd(id + 'x' + k) - .5) * 2 * a, (rnd(id + 'y' + k) - .5) * 2 * a, (rnd(id + 'r' + k) - .5) * 1.2]; };
+function torn(el, seed, amp = 9, step = 26, sides = 'trbl') {
+  const w = el.offsetWidth, h = el.offsetHeight, P = [], j = (i) => (rnd(seed + i) * amp); let i = 0;
+  for (let x = 0; x <= w; x += step) P.push([x, sides.includes('t') ? j(i++) : 0]);
+  for (let y = 0; y <= h; y += step) P.push([w - (sides.includes('r') ? j(i++) : 0), y]);
+  for (let x = w; x >= 0; x -= step) P.push([x, h - (sides.includes('b') ? j(i++) : 0)]);
+  for (let y = h; y >= 0; y -= step) P.push([sides.includes('l') ? j(i++) : 0, y]);
+  el.style.clipPath = 'polygon(' + P.map(([x, y]) => `${x.toFixed(1)}px ${y.toFixed(1)}px`).join(',') + ')';
+}
+const LOOKS = [
+  { bg: '#17130E', c: '#fff', f: 'Inter', w: 900 }, { bg: '#F1ECE0', c: '#17130E', f: "'GFS Baskerville', serif", w: 700 },
+  { bg: '#D6301F', c: '#fff', f: 'Inter', w: 900 }, { bg: '#fff', c: '#17130E', f: "'DejaVu Serif', serif", w: 700 },
+  { bg: '#FFD23F', c: '#17130E', f: "'Bitstream Charter', serif", w: 700 }, { bg: '#F1ECE0', c: '#D6301F', f: 'Inter', w: 900 },
+];
+const letters = [];
+function slap(el, id, tIn, tOut, t, rot = 0, from = 1.35, centre = true) {
+  const q = ST(t), k = Math.floor((q - tIn) * 12 + 1e-6);
+  if (t < tIn || t >= tOut + 0.17) { el.style.opacity = 0; return; }
+  el.style.opacity = 1;
+  const s = k <= 0 ? from : k === 1 ? 0.94 : 1;
+  const [jx, jy, jr] = jit(id, t, k < 3 ? 3 : 1.4);
+  const out = t >= tOut ? Math.min(1, Math.floor((t - tOut) * 12 + 1) / 2) : 0;
+  el.style.transform = (centre ? 'translate(-50%,-50%) ' : '') + `translate(${jx + out * -1200}px, ${jy}px) rotate(${rot + jr + out * -12}deg) scale(${s})`;
+}
+const slapAbs = (el, id, tIn, tOut, t, rot = 0) => { slap(el, id, tIn, tOut, t, rot, 1.35, false); el.style.transformOrigin = '0 50%'; };
+
+if (VB) {
+  $('collage').style.display = 'block';
+  $('cPh').innerHTML = phoneSVG(200); $('cNik').innerHTML = nikSVG(140);
+  const b1 = $('cb1');
+  [...'BANSOS'].forEach((ch, i) => {
+    const L = LOOKS[Math.floor(rnd('lk' + i) * LOOKS.length)];
+    const e = document.createElement('i'); e.textContent = ch;
+    Object.assign(e.style, { background: L.bg, color: L.c, fontFamily: L.f, fontWeight: L.w, fontSize: (100 + rnd('fs' + i) * 18) + 'px' });
+    b1.appendChild(e); letters.push({ e, rot: (rnd('ro' + i) - .5) * 14, dy: (rnd('dy' + i) - .5) * 16, i: letters.length });
+  });
+  letters.forEach(({ e, i }) => torn(e, 'l' + i, 5, 12));
+  ['cb2', 'cb3', 'cAsk', 'cNov', 'cName'].forEach((id) => torn($(id), id, 8, 22));
+  torn($('ledge'), 'ledge', 22, 30, 't');
+  torn($('cCal'), 'ccal', 6, 18);
+  document.querySelectorAll('#collage .tape').forEach((e, i) => torn(e, 'tp' + i, 6, 12, 'lr'));
+  $('aHd').style.display = 'none'; ['aPh', 'aNik', 'aDate', 'aTiles'].forEach((id) => { $(id).style.display = 'none'; });
+} else {
+  $('endCred').style.display = 'none';   // A shows no photo
+}
+
+let T_ = 0;
+const pulse = (el, tIn, amt = 0.12, rot = 0) => { const k = K.clamp((T_ - tIn) / 0.45); el.style.transform = `translate(-50%,-50%) scale(${1 + amt * Math.sin(Math.PI * k)}) rotate(${rot}deg)`; };
+const slam = (el, t, tIn, rot = 0, from = 2) => { const s = K.spring(t - tIn, 320, 18); el.style.opacity = t >= tIn ? 1 : 0; el.style.transform = `translate(-50%,-50%) scale(${from - (from - 1) * s}) rotate(${rot}deg)`; };
+const dec = (v, n) => v.toFixed(n).replace('.', ',');
+
+function seek(t) {
+  T_ = t;
+  const Z = (x, y, z = 1.0) => ({ x, y: y + 200 / z, z });
+  const zc = (ox, oy, z = 1) => Z(ox + 540, oy + 960, z);
+  const hEnd = at('rd', -0.3);
+  K.camera($('world'), [
+    { t: 0, ...zc(0, 0) },
+    { t: (VB ? at('hb2') : at('h2')) - 0.15, ...zc(0, 0, 1.04), dur: 0.5 },
+    { t: hEnd, ...Z(2480 + 540, 960, 1.1) },
+    { t: at('d1', -0.3), ...zc(0, 2400) },
+    { t: at('d2', -0.3), ...zc(1240, 2400) },
+    { t: at('d3', -0.3), ...zc(2480, 2400) },
+    { t: at('t1', -0.3), ...zc(0, 4800) },
+    { t: W('t3', 'belum') - 0.4, ...zc(0, 4800, 1.04), dur: 0.5 },
+    { t: at('r1', -0.3), ...zc(1240, 4800) },
+    { t: at('cta', -0.3), ...zc(2480, 4800) },
+  ], t, 1080, 1920, 0.6);
+  $('zA').style.visibility = t > hEnd + 0.7 ? 'hidden' : 'visible';
+
+  // ---------- hook A: "BANSOS / PINDAH KE HP", a change every ~0.5 s ----------
+  if (!VB) {
+    const th = 1 + 0.05 * Math.exp(-6 * t) * Math.sin(t * 14);
+    $('aHd').style.transform = `translate(-50%,-50%) scale(${th})`;
+    if (t > W('h1', 'bansos') - 0.05) $('aHd1').style.transform = `scale(${1 + 0.08 * Math.sin(Math.PI * K.clamp((t - W('h1', 'bansos') + 0.05) / 0.4))})`;
+    if (t > W('h1', 'berubah') - 0.05) $('aHd2').style.transform = `scale(${1 + 0.08 * Math.sin(Math.PI * K.clamp((t - W('h1', 'berubah') + 0.05) / 0.4))})`;
+    // phone on the cover; the NIK card slides into it on "caranya"
+    K.pop($('aPh'), t, -0.5, Infinity, -4 + 1.5 * Math.sin(t * 2));
+    { const n0 = W('h1', 'caranya') - 0.1, s = K.spring(t - n0, 220, 16);
+      $('aNik').style.opacity = t >= -0.5 ? 1 : 0;
+      const x = t < n0 ? -150 : -150 + 150 * s, y = t < n0 ? 230 : 230 - 230 * s;
+      $('aNik').style.transform = `translate(-50%,-50%) translate(${x}px, ${y}px) rotate(${-14 + 10 * K.clamp(s)}deg)`; }
+    slam($('aDate'), t, W('h1', '10') - 0.05, -6, 1.9);
+    if (t > W('h1', 'november') - 0.05) pulse($('aDate'), W('h1', 'november') - 0.05, 0.08, -6);
+    // h2: 5-tile strip slides in, one per word, "10" already highlighted
+    const tt = [W('h2', 'plus') - 0.05, W('h2', '4') - 0.05, W('h2', 'tanggal') - 0.05, W('h2', 'lain') - 0.05, W('h2', 'nyentuh') - 0.05];
+    aT.forEach((e, i) => { const k = K.spring(t - tt[i], 260, 18); e.style.opacity = t >= tt[i] ? 1 : 0;
+      e.style.transform = `translate(-50%,-50%) translateX(${(1 - k) * 260}px) scale(${0.85 + 0.15 * k}) rotate(${[-3, 2, -2, 3, -4][i]}deg)`; });
+    if (t > W('h2', 'kamu') - 0.05) aT[4].style.transform += ` scale(${1 + 0.2 * Math.sin(Math.PI * K.clamp((t - W('h2', 'kamu') + 0.05) / 0.45))})`;
+  }
+
+  // ---------- hook B: collage, Prabowo (only the opening differs) ----------
+  if (VB) {
+    const q = ST(t), ex = at('rd', -0.2);
+    const ps = K.clamp(K.spring(q + 0.45, 140, 15));
+    const gone = t >= ex ? Math.min(1, Math.floor((t - ex) * 12 + 1) / 3) : 0;
+    $('collage').style.transform = `translateX(${gone * -1150}px) rotate(${gone * -4}deg)`;
+    $('collage').style.visibility = gone >= 1 ? 'hidden' : 'visible';
+    const [jx, jy, jr] = jit('p', t, t > W('hb1', 'prabowo') && t < W('hb1', 'bakal') ? 2.5 : 1);
+    $('cPerson').style.transform = `translate(-50%, ${1520 - 1080 * ps + jy}px) translateX(${jx}px) rotate(${jr * .6 - 1}deg)`;
+    const rb = K.clamp(K.spring(q + 0.3, 200, 18));
+    $('redblock').style.transform = `rotate(-9deg) translateX(${(1 - rb) * -1300}px)`;
+    $('blkline').style.transform = `rotate(-9deg) translateX(${(1 - rb) * 1300}px)`;
+    const h2 = at('hb2', -0.05);
+    letters.forEach(({ e, rot, dy, i }) => {
+      const k = Math.floor((q - (-0.6 + i * (1 / 24))) * 12), [x, y, r] = jit('L' + i, t, 1.2);
+      const bz = t > W('hb1', 'bansos') - 0.05 && t < W('hb1', 'bansos') + 0.3 ? 1.12 : 1;
+      e.style.transform = `translate(${x}px, ${dy + y}px) rotate(${rot + r}deg) scale(${k <= 0 ? 1.4 : bz})`;
+    });
+    // label bars on the cover; each re-slaps on its word; they clear for the tile strip on hb2
+    const td = W('hb1', 'digital'), tl = W('hb1', 'luncurkan');
+    slapAbs($('cb2'), 'cb2', t < td - 0.05 ? -1 : td - 0.05, h2, t, -3);
+    slapAbs($('cb3'), 'cb3', t < tl - 0.05 ? -1 : tl - 0.05, h2, t, 2.5);
+    slap($('cNameW'), 'nm', W('hb1', 'prabowo') + 0.25, Infinity, t, -3);
+    slap($('cPhW'), 'ph', W('hb1', 'bansos') - 0.1, Infinity, t, -6);
+    slap($('cCalW'), 'cal', W('hb1', 'luncurkan') - 0.05, Infinity, t, 5);
+    const ap = Math.floor(K.prog(q, W('hb1', 'kamu') - 0.05, 0.42) * 5) / 5;
+    $('cArrowP').setAttribute('stroke-dashoffset', 340 * (1 - ap));
+    $('cArrowH').setAttribute('opacity', ap >= 1 ? 1 : 0);
+    slapAbs($('cAsk'), 'ask', W('hb1', 'kamu') - 0.05, h2, t, -2);
+    const tt = [W('hb2', 'plus') - 0.05, W('hb2', '4') - 0.05, W('hb2', 'tanggal') - 0.05, W('hb2', 'lain') - 0.05, W('hb2', 'minggu') - 0.05];
+    cT.forEach((e, i) => { const k = K.spring(t - tt[i], 260, 18); e.style.opacity = t >= tt[i] ? 1 : 0;
+      e.style.transform = `translate(-50%,-50%) translateX(${(1 - k) * 260}px) scale(${0.85 + 0.15 * k}) rotate(${[-3, 2, -2, 3, -4][i]}deg)`; });
+  }
+
+  // ---------- tagline ----------
+  K.pop($('stamp'), t, at('rd', -0.1), at('d1', -0.2), -6);
+
+  // ---------- Z1: 2 Nov, 81 saham ----------
+  K.pop($('z1Day'), t, at('d1', 0.0), Infinity, -3);
+  slam($('z1Cal'), t, W('d1', '2') - 0.05, -3, 1.5);
+  K.pop($('z1N'), t, W('d1', '81') - 0.1, Infinity, 0);
+  { const s = W('d1', '81') - 0.05; $('z1N').textContent = Math.round(81 * K.easeOut(K.prog(t, s, 0.7))); }
+  K.pop($('z1S'), t, W('d1', 'saham') - 0.05, Infinity, 0);
+  K.pop($('z1F'), t, W('d1', '81') - 0.1, Infinity, 0);
+  { const c0 = W('d1', '81') - 0.05, s = K.spring(t - c0, 260, 16), mv = K.easeInOut(K.prog(t, W('d1', 'keluar') - 0.1, 0.8));
+    $('z1C').style.opacity = t >= c0 ? 1 : 0;
+    $('z1C').style.transform = `translate(-50%,-50%) translateX(${460 * mv}px) scale(${(0.5 + 0.5 * s) * (1 - 0.15 * mv)}) rotate(${6 * mv}deg)`; }
+  K.pop($('z1Ar'), t, W('d1', 'keluar') - 0.05, Infinity, 0);
+  slam($('z1Out'), t, W('d1', 'hitungan') - 0.05, -4, 1.7);
+  if (t > W('d1', 'ihsg') - 0.05) { const k = K.clamp((t - W('d1', 'ihsg') + 0.05) / 0.45); $('z1F').style.transform = `translate(-50%,-50%) scale(${1 + 0.06 * Math.sin(Math.PI * k)})`; }
+  K.pop($('z1Hsc'), t, W('d1', 'ihsg') + 0.15, Infinity, -2);
+
+  // ---------- Z2: 3 Nov, pemilu sela AS ----------
+  K.pop($('z2Day'), t, at('d2', 0.0), Infinity, 3);
+  slam($('z2Cal'), t, W('d2', '3') - 0.05, 3, 1.5);
+  K.pop($('z2Box'), t, W('d2', 'pemilu') - 0.15, Infinity, -3 + 2 * Math.sin(t * 2));
+  K.pop($('z2L'), t, W('d2', 'amerika') - 0.05, Infinity, 2);
+  K.pop($('z2Ch'), t, W('d2', 'pasar') - 0.1, Infinity, -2);
+  { const p = $('z2Ch').querySelector('#chL'); if (p) { const a = t > W('d2', 'pasar') ? 1 : 0;
+      const ys = [130, 110, 150, 100, 140, 115, 135].map((y, i) => y + a * 14 * Math.sin(t * 6 + i * 1.3));
+      p.setAttribute('d', 'M' + ys.map((y, i) => `${50 + i * 50} ${y.toFixed(1)}`).join(' L')); } }
+  K.pop($('z2Q'), t, W('d2', 'ikut') - 0.05, Infinity, 8 * Math.sin(t * 4));
+  K.pop($('z2M'), t, W('d2', 'memantau') - 0.05, Infinity, -2);
+
+  // ---------- Z3: 5 Nov, sidang + PDB Q3 ----------
+  K.pop($('z3Day'), t, at('d3', 0.0), Infinity, -3);
+  slam($('z3Cal'), t, W('d3', '5') - 0.05, -3, 1.5);
+  K.pop($('z3T1'), t, W('d3', 'jokowi') - 0.08, Infinity, -1);
+  if (t > W('d3', 'saksi') - 0.05) pulse($('z3T1'), W('d3', 'saksi') - 0.05, 0.05, -1);
+  K.pop($('z3Ct'), t, W('d3', 'sidang') - 0.15, Infinity, 0);
+  K.pop($('z3CtL'), t, W('d3', 'sidang') + 0.05, Infinity, 2);
+  K.pop($('z3T2'), t, W('d3', 'roy') - 0.08, Infinity, 1);
+  K.pop($('z3G'), t, W('d3b', 'pdb') - 0.1, Infinity, -4);
+  K.pop($('z3GL'), t, W('d3b', 'kuartal') - 0.05, Infinity, 2);
+  slam($('z3St'), t, W('d3b', 'diperkirakan') - 0.05, -5, 1.8);
+
+  // ---------- Z4: the turn, 9 Nov ----------
+  slam($('z4Tapi'), t, at('t1', -0.05), -3, 1.4);
+  K.pop($('z4Ex'), t, W('t1', 'hati') - 0.05, Infinity, 8);
+  if (t > W('t1', 'hati')) $('z4Ex').style.transform += ` rotate(${6 * Math.sin(t * 14) * Math.exp(-2 * (t - W('t1', 'hati')))}deg)`;
+  { const f0 = W('t1', '9') - 0.15, k = K.clamp((t - f0) / 0.3);
+    K.pop($('z4Cal'), t, at('t1', 0.1), Infinity, -3);
+    $('z4CalD').textContent = k < 0.5 ? '?' : '9';
+    if (t >= f0) $('z4Cal').style.transform = `translate(-50%,-50%) scaleX(${Math.max(0.02, Math.abs(Math.cos(Math.PI * k)))}) rotate(-3deg)`; }
+  ['shopee', 'sampai', 'sampai', 'bank'].forEach((w, i) => K.pop($('z4C' + (i + 1)), t, W('t2', w) - 0.05 + (i === 2 ? 0.18 : 0), Infinity, [-2, 2, 2, -2][i]));
+  K.pop($('z4P'), t, W('t2', 'pungut') - 0.05, Infinity, -1);
+  K.pop($('z4B'), t, W('t3', 'kata') - 0.1, Infinity, 1);
+  if (t > W('t3', 'hashim') - 0.05) pulse($('z4B'), W('t3', 'hashim') - 0.05, 0.06, 1);
+  slam($('z4St'), t, W('t3', 'belum') - 0.05, -4, 1.9);
+  K.pop($('z4Per'), t, W('t3', 'konfirmasi') + 0.1, Infinity, 0);
+
+  // ---------- Z5: back to 10 Nov, Perlinsos Digital ----------
+  z5T.forEach((e, i) => { const ti = at('r1', 0.0) + i * 0.08; K.pop(e, t, ti, Infinity, [-3, 2, -2, 3, -4][i]);
+    if (t > W('r1', '10') - 0.05) { const k = K.clamp((t - W('r1', '10') + 0.05) / 0.3);
+      if (i < 4) e.style.opacity = 1 - 0.6 * k; else { const s = K.spring(t - W('r1', '10') + 0.05); e.style.transform = `translate(-50%,-50%) scale(${1 + 0.3 * s}) rotate(-4deg)`; e.style.zIndex = 2; } } });
+  K.pop($('z5Hd'), t, W('r2', 'perlinsos') - 0.1, Infinity, 0);
+  K.pop($('z5Ph'), t, at('r2', -0.05), Infinity, 4 + 1.5 * Math.sin(t * 2));
+  { const n0 = W('r2', 'mulai') - 0.05, s = K.spring(t - n0, 220, 16);
+    $('z5Nik').style.opacity = t >= n0 ? 1 : 0;
+    $('z5Nik').style.transform = `translate(-50%,-50%) translate(${-180 + 180 * s}px, ${120 - 120 * s}px) rotate(${-12 + 12 * K.clamp(s)}deg)`; }
+  { const s0 = W('r2', 'digital') - 0.05; $('z5Scan').style.opacity = t >= s0 ? 1 : 0;
+    $('z5Scan').style.transform = `translate(-50%,-50%) scale(${t >= s0 ? 1.4 - 0.4 * K.spring(t - s0, 300, 18) : 1})`;
+    $('z5ScanL').setAttribute('y', (20 + 150 * (0.5 + 0.5 * Math.sin((t - s0) * 4))).toFixed(1)); }
+  K.pop($('z5Tg'), t, W('r3', '48') - 0.1, Infinity, -2);
+  K.pop($('z5Bar'), t, W('r3', 'keluarga') - 0.05, Infinity, 0);
+  { const s0 = W('r3', 'baru') - 0.05, s1 = W('r3', 'juta', 1);
+    const v = 15.7 * K.easeOut(K.prog(t, s0, Math.max(0.6, s1 - s0)));
+    $('z5Fill').style.transform = `scaleX(${t < s0 ? 0 : Math.max(0.03, v / 48)})`;
+    $('z5NowV').textContent = dec(v, 1);
+    $('z5Now').style.opacity = t >= s0 ? 1 : 0; }
+  K.pop($('z5Src'), t, W('r3', 'terdaftar') + 0.1, Infinity, 0);
+
+  // ---------- CTA ----------
+  const qOut = END - 0.3;
+  K.pop($('qHd'), t, at('cta', -0.05), qOut, 0);
+  qT.forEach((e, i) => K.pop(e, t, at('cta', 0.1) + i * 0.1, qOut, [-3, 2, -2, 3, -4][i]));
+  if (t > W('cta', 'mana') - 0.05) qT.forEach((e, i) => { e.style.transform += ` translateY(${-14 * Math.max(0, Math.sin((t - W('cta', 'mana')) * 8 - i * 0.7))}px)`; });
+  K.pop($('qCom'), t, W('cta', 'mana') - 0.05, qOut, -4);
+  K.pop($('qK'), t, W('cta', 'komen') - 0.05, qOut, 3);
+
+  // ---------- market disclaimer (zone 1 and 2) ----------
+  $('disc').style.opacity = K.clamp((t - at('d1', -0.2)) / 0.2) * (1 - K.clamp((t - at('d3', -0.3)) / 0.2));
+
+  // ---------- end ----------
+  const en = K.prog(t, END - 0.15, 0.3);
+  $('endcard').style.opacity = en;
+  $('endcard').querySelector('.logo').style.transform = `rotate(-3deg) scale(${0.6 + 0.4 * K.spring(t - END + 0.15)})`;
+  K.subtitles($('subs'), t);
+  $('subs').style.visibility = en > 0.5 ? 'hidden' : 'visible';
+  $('progress').style.width = (100 * t / window.DURATION) + '%';
+  return true;
+}
+const img = document.querySelector('#cPerson img');
+new Promise((r) => { if (!VB || img.complete) r(); else { img.onload = r; img.onerror = r; } }).then(() => { window.seek = seek; seek(0); });
+</script>
+</body>
+</html>

@@ -35,3 +35,11 @@ _Recomputed by engine/prefs.py from 13 days of offers, 6 picks._
 - Storylines picked often when offered: definisi-korupsi.
 - Offered 3+ times, never picked: tax-policy, msci-reclassification, -, corruption-cases (lower priority unless big news).
 - Sensitivity of picks: {'medium': 1, '?': 5}.
+
+## What the audience shows
+_Written by the analyst (weekly, 1 Nov 2026, from 12 posted videos; small samples, read as tendencies)._
+- Over-performed: plain money questions with a held-back payoff ("Uang negara hilang. Pasti dihitung korupsi?" 1,357 IG views, 49% watched), wallet/"kamu" angles (survival 508, asap rute 414, Pertalite/APBN 200), 40 to 45 s shorts (steady 29% watched).
+- Under-performed: statute/statistic-first openings ("Nomor berapa?" 47 views), PART 3 of a story 9 days in (fatigue), single-source "triliunan" with no wallet link (Djarum 38 views), 86 s Cahaya videos, jargon-first finance openings (rupiah BI-Rate 2.8%).
+- Volatile: corruption explainers (19 / 1,357 / 47 views). Frame them as money questions or skip.
+- The user's picks (definisi-korupsi, 3 of 6 picks) are the biggest swing: best IG post and the two weakest recent posts. Weigh the wallet framing, not the storyline.
+- Rubric score does not predict views so far (see reviews/2026-W44.md).

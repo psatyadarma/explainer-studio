@@ -1,0 +1,418 @@
+{
+ "verdict": "PASS",
+ "lead": 0.08,
+ "matched_words": 77,
+ "of_words": 88,
+ "median_offset_s": -0.047,
+ "share_in_window": 0.909,
+ "share_late_over_150ms": 0.039,
+ "worst_lines": [
+  {
+   "line": "hb2",
+   "median_offset_s": -0.076
+  },
+  {
+   "line": "hb1",
+   "median_offset_s": -0.068
+  },
+  {
+   "line": "d3",
+   "median_offset_s": -0.068
+  },
+  {
+   "line": "d2",
+   "median_offset_s": -0.061
+  },
+  {
+   "line": "d3b",
+   "median_offset_s": -0.06
+  }
+ ],
+ "pairs": [
+  {
+   "line": "hb1",
+   "word": "Prabowo",
+   "offset": 0.039
+  },
+  {
+   "line": "hb1",
+   "word": "bakal",
+   "offset": -0.063
+  },
+  {
+   "line": "hb1",
+   "word": "luncurkan",
+   "offset": -0.063
+  },
+  {
+   "line": "hb1",
+   "word": "bansos",
+   "offset": -0.079
+  },
+  {
+   "line": "hb1",
+   "word": "digital.",
+   "offset": -0.033
+  },
+  {
+   "line": "hb1",
+   "word": "Kamu",
+   "offset": -0.114
+  },
+  {
+   "line": "hb1",
+   "word": "sudah",
+   "offset": -0.12
+  },
+  {
+   "line": "hb1",
+   "word": "terdaftar?",
+   "offset": -0.073
+  },
+  {
+   "line": "hb2",
+   "word": "Plus",
+   "offset": 0.056
+  },
+  {
+   "line": "hb2",
+   "word": "tanggal",
+   "offset": -0.19
+  },
+  {
+   "line": "hb2",
+   "word": "lain",
+   "offset": -0.076
+  },
+  {
+   "line": "hb2",
+   "word": "minggu",
+   "offset": -0.112
+  },
+  {
+   "line": "hb2",
+   "word": "ini.",
+   "offset": -0.04
+  },
+  {
+   "line": "rd",
+   "word": "dong!",
+   "offset": -0.041
+  },
+  {
+   "line": "d1",
+   "word": "November:",
+   "offset": -0.049
+  },
+  {
+   "line": "d1",
+   "word": "saham",
+   "offset": -0.064
+  },
+  {
+   "line": "d1",
+   "word": "keluar",
+   "offset": -0.028
+  },
+  {
+   "line": "d1",
+   "word": "dari",
+   "offset": -0.088
+  },
+  {
+   "line": "d1",
+   "word": "hitungan",
+   "offset": -0.033
+  },
+  {
+   "line": "d1",
+   "word": "IHSG.",
+   "offset": -0.059
+  },
+  {
+   "line": "d2",
+   "word": "November:",
+   "offset": -0.063
+  },
+  {
+   "line": "d2",
+   "word": "pemilu",
+   "offset": -0.114
+  },
+  {
+   "line": "d2",
+   "word": "sela",
+   "offset": -0.061
+  },
+  {
+   "line": "d2",
+   "word": "Amerika,",
+   "offset": -0.027
+  },
+  {
+   "line": "d2",
+   "word": "pasar",
+   "offset": 0.031
+  },
+  {
+   "line": "d2",
+   "word": "ikut",
+   "offset": -0.066
+  },
+  {
+   "line": "d2",
+   "word": "memantau.",
+   "offset": -0.047
+  },
+  {
+   "line": "d3",
+   "word": "November:",
+   "offset": -0.049
+  },
+  {
+   "line": "d3",
+   "word": "Jokowi",
+   "offset": -0.167
+  },
+  {
+   "line": "d3",
+   "word": "jadi",
+   "offset": -0.075
+  },
+  {
+   "line": "d3",
+   "word": "saksi",
+   "offset": -0.076
+  },
+  {
+   "line": "d3",
+   "word": "di",
+   "offset": -0.093
+  },
+  {
+   "line": "d3",
+   "word": "sidang",
+   "offset": -0.06
+  },
+  {
+   "line": "d3",
+   "word": "Roy",
+   "offset": -0.034
+  },
+  {
+   "line": "d3",
+   "word": "Suryo.",
+   "offset": -0.033
+  },
+  {
+   "line": "d3b",
+   "word": "PDB",
+   "offset": 0.057
+  },
+  {
+   "line": "d3b",
+   "word": "kuartal",
+   "offset": -0.065
+  },
+  {
+   "line": "d3b",
+   "word": "juga",
+   "offset": -0.193
+  },
+  {
+   "line": "d3b",
+   "word": "diperkirakan",
+   "offset": -0.06
+  },
+  {
+   "line": "d3b",
+   "word": "rilis.",
+   "offset": -0.039
+  },
+  {
+   "line": "t1",
+   "word": "Tapi",
+   "offset": 0.352
+  },
+  {
+   "line": "t1",
+   "word": "hati-hati,",
+   "offset": -0.037
+  },
+  {
+   "line": "t1",
+   "word": "November.",
+   "offset": -0.024
+  },
+  {
+   "line": "t2",
+   "word": "Katanya",
+   "offset": 0.111
+  },
+  {
+   "line": "t2",
+   "word": "Shopee",
+   "offset": -0.045
+  },
+  {
+   "line": "t2",
+   "word": "sampai",
+   "offset": -0.041
+  },
+  {
+   "line": "t2",
+   "word": "bank",
+   "offset": -0.091
+  },
+  {
+   "line": "t2",
+   "word": "mulai",
+   "offset": -0.038
+  },
+  {
+   "line": "t2",
+   "word": "pungut",
+   "offset": -0.063
+  },
+  {
+   "line": "t2",
+   "word": "pajak",
+   "offset": -0.017
+  },
+  {
+   "line": "t2",
+   "word": "digital.",
+   "offset": -0.003
+  },
+  {
+   "line": "t3",
+   "word": "Baru",
+   "offset": 0.131
+  },
+  {
+   "line": "t3",
+   "word": "kata",
+   "offset": -0.08
+  },
+  {
+   "line": "t3",
+   "word": "Hashim.",
+   "offset": -0.026
+  },
+  {
+   "line": "t3",
+   "word": "DJP",
+   "offset": 0.037
+  },
+  {
+   "line": "t3",
+   "word": "belum",
+   "offset": -0.056
+  },
+  {
+   "line": "t3",
+   "word": "konfirmasi.",
+   "offset": -0.033
+  },
+  {
+   "line": "r1",
+   "word": "Nah,",
+   "offset": 0.121
+  },
+  {
+   "line": "r1",
+   "word": "balik",
+   "offset": -0.146
+  },
+  {
+   "line": "r1",
+   "word": "ke",
+   "offset": -0.066
+  },
+  {
+   "line": "r1",
+   "word": "November.",
+   "offset": -0.019
+  },
+  {
+   "line": "r2",
+   "word": "Bansos",
+   "offset": 0.207
+  },
+  {
+   "line": "r2",
+   "word": "mulai",
+   "offset": -0.07
+  },
+  {
+   "line": "r2",
+   "word": "lewat",
+   "offset": -0.035
+  },
+  {
+   "line": "r2",
+   "word": "Perlinsos",
+   "offset": -0.06
+  },
+  {
+   "line": "r2",
+   "word": "Digital.",
+   "offset": -0.038
+  },
+  {
+   "line": "r3",
+   "word": "Target",
+   "offset": 0.381
+  },
+  {
+   "line": "r3",
+   "word": "juta",
+   "offset": -0.071
+  },
+  {
+   "line": "r3",
+   "word": "keluarga,",
+   "offset": -0.076
+  },
+  {
+   "line": "r3",
+   "word": "baru",
+   "offset": -0.145
+  },
+  {
+   "line": "r3",
+   "word": "juta",
+   "offset": 0.019
+  },
+  {
+   "line": "r3",
+   "word": "terdaftar.",
+   "offset": -0.004
+  },
+  {
+   "line": "cta",
+   "word": "Kamu",
+   "offset": 0.142
+  },
+  {
+   "line": "cta",
+   "word": "nunggu",
+   "offset": -0.033
+  },
+  {
+   "line": "cta",
+   "word": "tanggal",
+   "offset": -0.031
+  },
+  {
+   "line": "cta",
+   "word": "mana?",
+   "offset": -0.018
+  },
+  {
+   "line": "cta",
+   "word": "Komen!",
+   "offset": -0.111
+  }
+ ]
+}

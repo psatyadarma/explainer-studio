@@ -1,0 +1,124 @@
+{
+  "direction": "[upbeat, quick; neutral, no advice]",
+  "voice": "female:Cahaya",
+  "format": "minggu_depan",
+  "hook_style": "kamu_stakes",
+  "subs": "block",
+  "storyline": "",
+  "part": null,
+  "disclaimer": "Bukan ajakan jual/beli saham",
+  "lines": [
+    {
+      "id": "h1",
+      "tag": "[direct, urgent]",
+      "text": "Dapat bansos? Caranya berubah 10 November.",
+      "say": "Dapat bansos? Caranya berubah sepuluh November."
+    },
+    {
+      "id": "h2",
+      "tag": "[quick]",
+      "text": "Plus 4 tanggal lain yang nyentuh kamu.",
+      "say": "Plus empat tanggal lain yang nyentuh kamu."
+    },
+    {
+      "id": "rd",
+      "tagline": true,
+      "text": "Rangkumin dong!"
+    },
+    {
+      "id": "d1",
+      "tag": "[explaining, quick]",
+      "text": "2 November: 81 saham keluar dari hitungan IHSG.",
+      "say": "Dua November: delapan puluh satu saham keluar dari hitungan, I Ha Es Ge."
+    },
+    {
+      "id": "d2",
+      "tag": "[explaining]",
+      "text": "3 November: pemilu sela Amerika, pasar ikut memantau.",
+      "say": "Tiga November: pemilu sela Amerika, pasar ikut memantau."
+    },
+    {
+      "id": "d3",
+      "tag": "[neutral]",
+      "text": "5 November: Jokowi jadi saksi di sidang Roy Suryo.",
+      "say": "Lima November: Jokowi jadi saksi di sidang Roy Suryo."
+    },
+    {
+      "id": "d3b",
+      "tag": "[matter-of-fact]",
+      "text": "PDB kuartal 3 juga diperkirakan rilis.",
+      "say": "Pe De Be kuartal tiga juga diperkirakan rilis."
+    },
+    {
+      "id": "t1",
+      "tag": "[leaning in, skeptical]",
+      "text": "Tapi hati-hati, 9 November.",
+      "say": "Tapi... hati-hati, sembilan November."
+    },
+    {
+      "id": "t2",
+      "tag": "[explaining]",
+      "text": "Katanya Shopee sampai bank mulai pungut pajak digital.",
+      "say": "Katanya Syopi sampai bank mulai pungut pajak digital."
+    },
+    {
+      "id": "t3",
+      "tag": "[serious]",
+      "text": "Baru kata Hashim. DJP belum konfirmasi.",
+      "say": "Baru kata Hasyim. De Je Pe belum konfirmasi."
+    },
+    {
+      "id": "r1",
+      "tag": "[leaning in]",
+      "text": "Nah, balik ke 10 November.",
+      "say": "Nah, balik ke sepuluh November."
+    },
+    {
+      "id": "r2",
+      "tag": "[explaining]",
+      "text": "Bansos mulai lewat Perlinsos Digital.",
+      "say": "Bansos mulai lewat Perlinsos Digital."
+    },
+    {
+      "id": "r3",
+      "tag": "[surprised, leaning in]",
+      "text": "Target 48 juta keluarga, baru 15,7 juta terdaftar.",
+      "say": "Target empat puluh delapan juta keluarga, baru lima belas koma tujuh juta terdaftar."
+    },
+    {
+      "id": "cta",
+      "tag": "[playful, asking the viewer]",
+      "text": "Kamu nunggu tanggal mana? Komen!",
+      "say": "Kamu nunggu tanggal mana? Komen!"
+    }
+  ],
+  "hook_b": {
+    "style": "person_collage",
+    "people": [
+      "prabowo-subianto"
+    ],
+    "replace": [
+      "h1",
+      "h2"
+    ],
+    "lines": [
+      {
+        "id": "hb1",
+        "tag": "[urgent]",
+        "text": "Prabowo bakal luncurkan bansos digital. Kamu sudah terdaftar?",
+        "say": "Prabowo bakal luncurkan bansos digital. Kamu sudah terdaftar?"
+      },
+      {
+        "id": "hb2",
+        "tag": "[quick]",
+        "text": "Plus 4 tanggal lain minggu ini.",
+        "say": "Plus empat tanggal lain minggu ini."
+      }
+    ]
+  },
+  "tail": 0.9,
+  "end_card": {
+    "text": "Follow Rangkumin Dong",
+    "spoken": false
+  }
+}

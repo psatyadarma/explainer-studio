@@ -1,0 +1,433 @@
+{
+ "verdict": "PASS",
+ "lead": 0.08,
+ "matched_words": 80,
+ "of_words": 87,
+ "median_offset_s": -0.047,
+ "share_in_window": 0.887,
+ "share_late_over_150ms": 0.05,
+ "worst_lines": [
+  {
+   "line": "d3",
+   "median_offset_s": -0.076
+  },
+  {
+   "line": "d2",
+   "median_offset_s": -0.063
+  },
+  {
+   "line": "d3b",
+   "median_offset_s": -0.061
+  },
+  {
+   "line": "d1",
+   "median_offset_s": -0.06
+  },
+  {
+   "line": "r1",
+   "median_offset_s": -0.052
+  }
+ ],
+ "pairs": [
+  {
+   "line": "h1",
+   "word": "Dapat",
+   "offset": 0.008
+  },
+  {
+   "line": "h1",
+   "word": "bansos?",
+   "offset": 0.011
+  },
+  {
+   "line": "h1",
+   "word": "Caranya",
+   "offset": -0.084
+  },
+  {
+   "line": "h1",
+   "word": "berubah",
+   "offset": -0.055
+  },
+  {
+   "line": "h1",
+   "word": "10",
+   "offset": -0.073
+  },
+  {
+   "line": "h1",
+   "word": "November.",
+   "offset": 0.188
+  },
+  {
+   "line": "h2",
+   "word": "Plus",
+   "offset": 0.027
+  },
+  {
+   "line": "h2",
+   "word": "tanggal",
+   "offset": -0.061
+  },
+  {
+   "line": "h2",
+   "word": "lain",
+   "offset": -0.008
+  },
+  {
+   "line": "h2",
+   "word": "yang",
+   "offset": -0.042
+  },
+  {
+   "line": "h2",
+   "word": "nyentuh",
+   "offset": -0.038
+  },
+  {
+   "line": "h2",
+   "word": "kamu.",
+   "offset": -0.013
+  },
+  {
+   "line": "rd",
+   "word": "dong!",
+   "offset": -0.042
+  },
+  {
+   "line": "d1",
+   "word": "2",
+   "offset": -0.117
+  },
+  {
+   "line": "d1",
+   "word": "November:",
+   "offset": -0.05
+  },
+  {
+   "line": "d1",
+   "word": "saham",
+   "offset": -0.065
+  },
+  {
+   "line": "d1",
+   "word": "keluar",
+   "offset": -0.029
+  },
+  {
+   "line": "d1",
+   "word": "dari",
+   "offset": -0.089
+  },
+  {
+   "line": "d1",
+   "word": "hitungan",
+   "offset": -0.034
+  },
+  {
+   "line": "d1",
+   "word": "IHSG.",
+   "offset": -0.06
+  },
+  {
+   "line": "d2",
+   "word": "3",
+   "offset": -0.114
+  },
+  {
+   "line": "d2",
+   "word": "November:",
+   "offset": -0.064
+  },
+  {
+   "line": "d2",
+   "word": "pemilu",
+   "offset": -0.115
+  },
+  {
+   "line": "d2",
+   "word": "sela",
+   "offset": -0.062
+  },
+  {
+   "line": "d2",
+   "word": "Amerika,",
+   "offset": -0.028
+  },
+  {
+   "line": "d2",
+   "word": "pasar",
+   "offset": 0.03
+  },
+  {
+   "line": "d2",
+   "word": "ikut",
+   "offset": -0.067
+  },
+  {
+   "line": "d2",
+   "word": "memantau.",
+   "offset": -0.048
+  },
+  {
+   "line": "d3",
+   "word": "5",
+   "offset": -0.056
+  },
+  {
+   "line": "d3",
+   "word": "November:",
+   "offset": -0.07
+  },
+  {
+   "line": "d3",
+   "word": "Jokowi",
+   "offset": -0.168
+  },
+  {
+   "line": "d3",
+   "word": "jadi",
+   "offset": -0.076
+  },
+  {
+   "line": "d3",
+   "word": "saksi",
+   "offset": -0.077
+  },
+  {
+   "line": "d3",
+   "word": "di",
+   "offset": -0.094
+  },
+  {
+   "line": "d3",
+   "word": "sidang",
+   "offset": -0.081
+  },
+  {
+   "line": "d3",
+   "word": "Roy",
+   "offset": -0.035
+  },
+  {
+   "line": "d3",
+   "word": "Suryo.",
+   "offset": -0.054
+  },
+  {
+   "line": "d3b",
+   "word": "PDB",
+   "offset": 0.056
+  },
+  {
+   "line": "d3b",
+   "word": "kuartal",
+   "offset": -0.086
+  },
+  {
+   "line": "d3b",
+   "word": "juga",
+   "offset": -0.194
+  },
+  {
+   "line": "d3b",
+   "word": "diperkirakan",
+   "offset": -0.061
+  },
+  {
+   "line": "d3b",
+   "word": "rilis.",
+   "offset": -0.04
+  },
+  {
+   "line": "t1",
+   "word": "Tapi",
+   "offset": 0.351
+  },
+  {
+   "line": "t1",
+   "word": "hati-hati,",
+   "offset": -0.038
+  },
+  {
+   "line": "t1",
+   "word": "9",
+   "offset": -0.237
+  },
+  {
+   "line": "t1",
+   "word": "November.",
+   "offset": -0.025
+  },
+  {
+   "line": "t2",
+   "word": "Katanya",
+   "offset": 0.13
+  },
+  {
+   "line": "t2",
+   "word": "Shopee",
+   "offset": -0.046
+  },
+  {
+   "line": "t2",
+   "word": "sampai",
+   "offset": -0.042
+  },
+  {
+   "line": "t2",
+   "word": "bank",
+   "offset": -0.092
+  },
+  {
+   "line": "t2",
+   "word": "mulai",
+   "offset": -0.039
+  },
+  {
+   "line": "t2",
+   "word": "pungut",
+   "offset": -0.064
+  },
+  {
+   "line": "t2",
+   "word": "pajak",
+   "offset": 0.002
+  },
+  {
+   "line": "t2",
+   "word": "digital.",
+   "offset": -0.004
+  },
+  {
+   "line": "t3",
+   "word": "Baru",
+   "offset": 0.13
+  },
+  {
+   "line": "t3",
+   "word": "kata",
+   "offset": -0.061
+  },
+  {
+   "line": "t3",
+   "word": "DJP",
+   "offset": 0.036
+  },
+  {
+   "line": "t3",
+   "word": "belum",
+   "offset": -0.056
+  },
+  {
+   "line": "t3",
+   "word": "konfirmasi.",
+   "offset": -0.034
+  },
+  {
+   "line": "r1",
+   "word": "Nah,",
+   "offset": 0.12
+  },
+  {
+   "line": "r1",
+   "word": "balik",
+   "offset": -0.147
+  },
+  {
+   "line": "r1",
+   "word": "ke",
+   "offset": -0.067
+  },
+  {
+   "line": "r1",
+   "word": "10",
+   "offset": -0.052
+  },
+  {
+   "line": "r1",
+   "word": "November.",
+   "offset": 0.0
+  },
+  {
+   "line": "r2",
+   "word": "Bansos",
+   "offset": 0.226
+  },
+  {
+   "line": "r2",
+   "word": "mulai",
+   "offset": -0.071
+  },
+  {
+   "line": "r2",
+   "word": "lewat",
+   "offset": -0.016
+  },
+  {
+   "line": "r2",
+   "word": "Perlinsos",
+   "offset": -0.061
+  },
+  {
+   "line": "r2",
+   "word": "Digital.",
+   "offset": -0.019
+  },
+  {
+   "line": "r3",
+   "word": "Target",
+   "offset": 0.38
+  },
+  {
+   "line": "r3",
+   "word": "juta",
+   "offset": -0.052
+  },
+  {
+   "line": "r3",
+   "word": "keluarga,",
+   "offset": -0.077
+  },
+  {
+   "line": "r3",
+   "word": "baru",
+   "offset": -0.146
+  },
+  {
+   "line": "r3",
+   "word": "juta",
+   "offset": 0.018
+  },
+  {
+   "line": "r3",
+   "word": "terdaftar.",
+   "offset": -0.005
+  },
+  {
+   "line": "cta",
+   "word": "Kamu",
+   "offset": 0.141
+  },
+  {
+   "line": "cta",
+   "word": "nunggu",
+   "offset": -0.014
+  },
+  {
+   "line": "cta",
+   "word": "tanggal",
+   "offset": -0.032
+  },
+  {
+   "line": "cta",
+   "word": "mana?",
+   "offset": -0.019
+  },
+  {
+   "line": "cta",
+   "word": "Komen!",
+   "offset": -0.112
+  }
+ ]
+}

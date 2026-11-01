@@ -1,0 +1,67 @@
+[
+ {
+  "at": 0.05,
+  "offset": 0,
+  "type": "thump"
+ },
+ {
+  "at": "rd",
+  "offset": 0,
+  "type": "thump"
+ },
+ {
+  "at": "d1",
+  "offset": -0.3,
+  "type": "whoosh"
+ },
+ {
+  "at": "d2",
+  "offset": -0.3,
+  "type": "whoosh"
+ },
+ {
+  "at": "d3",
+  "offset": -0.3,
+  "type": "whoosh"
+ },
+ {
+  "at": "t1",
+  "offset": -0.3,
+  "type": "whoosh"
+ },
+ {
+  "at": "r1",
+  "offset": -0.3,
+  "type": "whoosh"
+ },
+ {
+  "at": "cta",
+  "offset": -0.3,
+  "type": "whoosh"
+ },
+ {
+  "at": "t1",
+  "offset": 0,
+  "type": "thump"
+ },
+ {
+  "at": "t3",
+  "offset": 1.7,
+  "type": "thump"
+ },
+ {
+  "at": "r1",
+  "offset": 0.9,
+  "type": "pop"
+ },
+ {
+  "at": "d1",
+  "offset": 0.8,
+  "type": "pop"
+ },
+ {
+  "at": "cta",
+  "offset": 2.0,
+  "type": "ding"
+ }
+]

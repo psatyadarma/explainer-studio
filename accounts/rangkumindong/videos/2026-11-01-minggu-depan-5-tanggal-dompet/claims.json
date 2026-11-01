@@ -1,0 +1,89 @@
+[
+ {
+  "claim": "From Monday 2 November 2026, BEI excludes 81 High Shareholding Concentration (HSC) stocks from the IHSG calculation (they stay tradable)",
+  "numbers": "81 saham · mulai 2 Nov 2026",
+  "sensitivity": "low",
+  "sources": [
+   "https://www.idxchannel.com/market-news/81-saham-hsc-dikeluarkan-dari-ihsg-mulai-november-cek-daftarnya/all",
+   "https://market.bisnis.com/read/20261026/7/2015822/bei-umumkan-81-saham-hsc-keluar-dari-ihsg-ini-daftar-lengkapnya",
+   "https://tirto.id/bei-kecualikan-hsc-dari-ihsg-mulai-2-november-2026-hEaC"
+  ],
+  "note": "verified 1 Nov from IDX Channel 26 Okt (Jeffrey Hendrik, BEI press conference: 81 saham, efektif 2 Nov 2026). Earlier lists: 80 (20 Okt), 82 (23 Okt); 81 is the latest."
+ },
+ {
+  "claim": "BPS October 2026 inflation is due next week (Kontan 30 Okt: 'pekan depan', no day given), likely ~2 Nov, date not official — caption only",
+  "numbers": "~2 Nov (diperkirakan)",
+  "sensitivity": "low",
+  "sources": [
+   "https://investasi.kontan.co.id/news/rupiah-diprediksi-bergerak-fluktuatif-pekan-depan-simak-proyeksinya"
+  ]
+ },
+ {
+  "claim": "The US midterm elections are on Tuesday 3 November 2026 and markets are watching them",
+  "numbers": "3 Nov 2026",
+  "sensitivity": "low",
+  "sources": [
+   "https://investasi.kontan.co.id/news/ihsg-diprediksi-masih-tertekan-pekan-depan-simak-rekomendasi-excl-medc-dan-tapg",
+   "https://rm.id/baca-berita/internasional/329280/early-voting-pemilu-sela-dimulai-ohio-jadi-penentu-nasib-politik-trump-republik"
+  ],
+  "note": "Kontan 31 Okt: investors will watch 'pelaksanaan pemilu paruh waktu di Amerika Serikat pada 3 November 2026'. Rupiah link dropped (factcheck FIX 1)."
+ },
+ {
+  "claim": "On Thursday 5 November, prosecutors call former President Jokowi as a witness at the defamation/ITE trial of Roy Suryo at PN Jakarta Timur; Jokowi said he will attend",
+  "numbers": "5 Nov 2026",
+  "sensitivity": "high (schedule only, neutral; no claim about the diploma or the merits)",
+  "sources": [
+   "https://news.detik.com/berita/d-8728102/jaksa-hadirkan-jokowi-pekan-depan-roy-suryo-ini-yang-ditunggu-tunggu",
+   "https://www.cnnindonesia.com/nasional/20261028171856-20-1420668/jokowi-bakal-hadiri-sidang-roy-suryo-pekan-depan",
+   "https://regional.kompas.com/read/2026/10/29/123201678/jokowi-siap-hadir-sebagai-saksi-di-sidang-roy-suryo-pekan-depan"
+  ],
+  "note": "re-check for a postponement before posting"
+ },
+ {
+  "claim": "BPS is expected to release Q3 2026 GDP growth this week (around 5 Nov); the date is not official",
+  "numbers": "Q3 · ~5 Nov (diperkirakan) · Q2 5,29% (not in script)",
+  "sensitivity": "low",
+  "sources": [
+   "https://investasi.kontan.co.id/news/ihsg-diprediksi-masih-tertekan-pekan-depan-simak-rekomendasi-excl-medc-dan-tapg",
+   "https://www.cnbcindonesia.com/news/20260805101818-4-756670/pertumbuhan-ekonomi-indonesia-kuartal-ii-2026-capai-529"
+  ]
+ },
+ {
+  "claim": "Hashim Djojohadikusumo (Kadin advisory council) said Shopee, Lazada, GoTo and banks/fintechs will start collecting digital taxes from 9 November; as of 31 October DJP had not confirmed",
+  "numbers": "9 Nov 2026 (klaim, belum dikonfirmasi) · per 31 Okt",
+  "sensitivity": "medium (single-source claim, framed as 'katanya')",
+  "sources": [
+   "https://finance.detik.com/berita-ekonomi-bisnis/d-8729936/bocoran-hashim-shopee-goto-pungut-pajak-digital-mulai-9-november-2026/amp",
+   "https://epaper.bisnis.com/articles/read/20261031/459/2017115/pungutan-pajak-digital-diperluas"
+  ],
+  "note": "1 Nov web search found no DJP confirmation; re-check before posting"
+ },
+ {
+  "claim": "Perlinsos Digital (digital social aid, registration via NIK and face recognition) launches on 10 November 2026, changing how bansos recipients register/open accounts; Prabowo will launch it (hook A 'Caranya berubah', hook B 'Prabowo bakal luncurkan')",
+  "numbers": "10 Nov 2026",
+  "sensitivity": "low",
+  "sources": [
+   "https://nasional.kompas.com/read/2026/10/20/23054141/prabowo-akan-luncurkan-perlinsos-digital-pada-10-november-2026",
+   "https://www.cnbcindonesia.com/tech/20261029180207-37-780709/daftar-dan-buka-rekening-bansos-sekarang-cuma-1-menit-ini-caranya",
+   "https://katadata.co.id/berita/nasional/6ad7a6394d4dc/prabowo-bakal-luncurkan-perlinsos-digital-10-november-sasar-50-juta-penerima"
+  ]
+ },
+ {
+  "claim": "Perlinsos Digital targets 48 million households; 15.7 million were registered as of 28 October",
+  "numbers": "48 juta keluarga · 15,7 juta · per 28 Okt",
+  "sensitivity": "low",
+  "sources": [
+   "https://www.cnbcindonesia.com/tech/20261029180207-37-780709/daftar-dan-buka-rekening-bansos-sekarang-cuma-1-menit-ini-caranya",
+   "https://www.rctiplus.com/news/detail/ekonomi/5501713/6-fakta-perlinsos-digital--target-48-juta-keluarga--bansos-cair-tunai"
+  ],
+  "note": "figures are CNBC's own narration (not attributed to Komdigi/Kemensos); on-screen source line = CNBC Indonesia. Katadata's 50 juta penerima is a different unit."
+ },
+ {
+  "claim": "Photo (hook B): Prabowo 2024 official portrait (Kemensetneg), public domain via Wikimedia Commons",
+  "numbers": "",
+  "sensitivity": "low",
+  "sources": [
+   "https://commons.wikimedia.org/wiki/File:Prabowo_Subianto_2024_official_portrait_(3x4_cropped).jpg"
+  ]
+ }
+]

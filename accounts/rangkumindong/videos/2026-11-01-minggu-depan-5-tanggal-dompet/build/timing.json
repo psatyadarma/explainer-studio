@@ -1,0 +1,553 @@
+{
+ "duration": 47.107,
+ "voice": "Cahaya",
+ "lines": [
+  {
+   "id": "h1",
+   "text": "Dapat bansos? Caranya berubah 10 November.",
+   "start": 0.228,
+   "end": 3.545,
+   "words": [
+    {
+     "w": "Dapat",
+     "start": 0.228,
+     "end": 0.456
+    },
+    {
+     "w": "bansos?",
+     "start": 0.531,
+     "end": 1.314
+    },
+    {
+     "w": "Caranya",
+     "start": 1.336,
+     "end": 1.808
+    },
+    {
+     "w": "berubah",
+     "start": 1.845,
+     "end": 2.253
+    },
+    {
+     "w": "10",
+     "start": 2.327,
+     "end": 3.031
+    },
+    {
+     "w": "November.",
+     "start": 3.068,
+     "end": 3.545
+    }
+   ]
+  },
+  {
+   "id": "h2",
+   "text": "Plus 4 tanggal lain yang nyentuh kamu.",
+   "start": 3.647,
+   "end": 5.618,
+   "words": [
+    {
+     "w": "Plus",
+     "start": 3.647,
+     "end": 3.766
+    },
+    {
+     "w": "4",
+     "start": 3.84,
+     "end": 4.062
+    },
+    {
+     "w": "tanggal",
+     "start": 4.099,
+     "end": 4.358
+    },
+    {
+     "w": "lain",
+     "start": 4.432,
+     "end": 4.729
+    },
+    {
+     "w": "yang",
+     "start": 4.758,
+     "end": 4.877
+    },
+    {
+     "w": "nyentuh",
+     "start": 4.902,
+     "end": 5.173
+    },
+    {
+     "w": "kamu.",
+     "start": 5.247,
+     "end": 5.618
+    }
+   ]
+  },
+  {
+   "id": "rd",
+   "text": "Rangkumin dong!",
+   "start": 6.604,
+   "end": 7.991,
+   "words": [
+    {
+     "w": "Rangkumin",
+     "start": 6.604,
+     "end": 7.298
+    },
+    {
+     "w": "dong!",
+     "start": 7.298,
+     "end": 7.991
+    }
+   ]
+  },
+  {
+   "id": "d1",
+   "text": "2 November: 81 saham keluar dari hitungan IHSG.",
+   "start": 8.543,
+   "end": 12.698,
+   "words": [
+    {
+     "w": "2",
+     "start": 8.543,
+     "end": 8.624
+    },
+    {
+     "w": "November:",
+     "start": 8.69,
+     "end": 9.291
+    },
+    {
+     "w": "81",
+     "start": 9.328,
+     "end": 10.106
+    },
+    {
+     "w": "saham",
+     "start": 10.155,
+     "end": 10.476
+    },
+    {
+     "w": "keluar",
+     "start": 10.531,
+     "end": 10.846
+    },
+    {
+     "w": "dari",
+     "start": 10.891,
+     "end": 11.068
+    },
+    {
+     "w": "hitungan",
+     "start": 11.106,
+     "end": 11.883
+    },
+    {
+     "w": "IHSG.",
+     "start": 11.92,
+     "end": 12.698
+    }
+   ]
+  },
+  {
+   "id": "d2",
+   "text": "3 November: pemilu sela Amerika, pasar ikut memantau.",
+   "start": 13.006,
+   "end": 16.781,
+   "words": [
+    {
+     "w": "3",
+     "start": 13.006,
+     "end": 13.05
+    },
+    {
+     "w": "November:",
+     "start": 13.116,
+     "end": 13.717
+    },
+    {
+     "w": "pemilu",
+     "start": 13.865,
+     "end": 14.281
+    },
+    {
+     "w": "sela",
+     "start": 14.318,
+     "end": 14.578
+    },
+    {
+     "w": "Amerika,",
+     "start": 14.652,
+     "end": 15.448
+    },
+    {
+     "w": "pasar",
+     "start": 15.51,
+     "end": 15.818
+    },
+    {
+     "w": "ikut",
+     "start": 15.893,
+     "end": 16.115
+    },
+    {
+     "w": "memantau.",
+     "start": 16.152,
+     "end": 16.781
+    }
+   ]
+  },
+  {
+   "id": "d3",
+   "text": "5 November: Jokowi jadi saksi di sidang Roy Suryo.",
+   "start": 17.084,
+   "end": 20.55,
+   "words": [
+    {
+     "w": "5",
+     "start": 17.084,
+     "end": 17.124
+    },
+    {
+     "w": "November:",
+     "start": 17.19,
+     "end": 17.939
+    },
+    {
+     "w": "Jokowi",
+     "start": 17.972,
+     "end": 18.55
+    },
+    {
+     "w": "jadi",
+     "start": 18.624,
+     "end": 18.846
+    },
+    {
+     "w": "saksi",
+     "start": 18.883,
+     "end": 19.217
+    },
+    {
+     "w": "di",
+     "start": 19.266,
+     "end": 19.365
+    },
+    {
+     "w": "sidang",
+     "start": 19.439,
+     "end": 19.809
+    },
+    {
+     "w": "Roy",
+     "start": 19.865,
+     "end": 20.031
+    },
+    {
+     "w": "Suryo.",
+     "start": 20.106,
+     "end": 20.55
+    }
+   ]
+  },
+  {
+   "id": "d3b",
+   "text": "PDB kuartal 3 juga diperkirakan rilis.",
+   "start": 21.136,
+   "end": 23.961,
+   "words": [
+    {
+     "w": "PDB",
+     "start": 21.136,
+     "end": 21.443
+    },
+    {
+     "w": "kuartal",
+     "start": 21.554,
+     "end": 21.961
+    },
+    {
+     "w": "3",
+     "start": 22.035,
+     "end": 22.257
+    },
+    {
+     "w": "juga",
+     "start": 22.346,
+     "end": 22.702
+    },
+    {
+     "w": "diperkirakan",
+     "start": 22.739,
+     "end": 23.443
+    },
+    {
+     "w": "rilis.",
+     "start": 23.48,
+     "end": 23.961
+    }
+   ]
+  },
+  {
+   "id": "t1",
+   "text": "Tapi hati-hati, 9 November.",
+   "start": 24.831,
+   "end": 26.905,
+   "words": [
+    {
+     "w": "Tapi",
+     "start": 24.831,
+     "end": 25.127
+    },
+    {
+     "w": "hati-hati,",
+     "start": 25.182,
+     "end": 25.868
+    },
+    {
+     "w": "9",
+     "start": 25.923,
+     "end": 26.238
+    },
+    {
+     "w": "November.",
+     "start": 26.295,
+     "end": 26.905
+    }
+   ]
+  },
+  {
+   "id": "t2",
+   "text": "Katanya Shopee sampai bank mulai pungut pajak digital.",
+   "start": 27.21,
+   "end": 30.349,
+   "words": [
+    {
+     "w": "Katanya",
+     "start": 27.21,
+     "end": 27.46
+    },
+    {
+     "w": "Shopee",
+     "start": 27.534,
+     "end": 27.979
+    },
+    {
+     "w": "sampai",
+     "start": 28.038,
+     "end": 28.349
+    },
+    {
+     "w": "bank",
+     "start": 28.408,
+     "end": 28.645
+    },
+    {
+     "w": "mulai",
+     "start": 28.701,
+     "end": 28.942
+    },
+    {
+     "w": "pungut",
+     "start": 29.016,
+     "end": 29.386
+    },
+    {
+     "w": "pajak",
+     "start": 29.442,
+     "end": 29.682
+    },
+    {
+     "w": "digital.",
+     "start": 29.756,
+     "end": 30.349
+    }
+   ]
+  },
+  {
+   "id": "t3",
+   "text": "Baru kata Hashim. DJP belum konfirmasi.",
+   "start": 30.71,
+   "end": 33.599,
+   "words": [
+    {
+     "w": "Baru",
+     "start": 30.71,
+     "end": 30.84
+    },
+    {
+     "w": "kata",
+     "start": 30.899,
+     "end": 31.136
+    },
+    {
+     "w": "Hashim.",
+     "start": 31.173,
+     "end": 31.936
+    },
+    {
+     "w": "DJP",
+     "start": 31.936,
+     "end": 32.414
+    },
+    {
+     "w": "belum",
+     "start": 32.463,
+     "end": 32.71
+    },
+    {
+     "w": "konfirmasi.",
+     "start": 32.766,
+     "end": 33.599
+    }
+   ]
+  },
+  {
+   "id": "r1",
+   "text": "Nah, balik ke 10 November.",
+   "start": 33.96,
+   "end": 35.849,
+   "words": [
+    {
+     "w": "Nah,",
+     "start": 33.96,
+     "end": 34.136
+    },
+    {
+     "w": "balik",
+     "start": 34.213,
+     "end": 34.664
+    },
+    {
+     "w": "ke",
+     "start": 34.713,
+     "end": 34.812
+    },
+    {
+     "w": "10",
+     "start": 34.868,
+     "end": 35.182
+    },
+    {
+     "w": "November.",
+     "start": 35.24,
+     "end": 35.849
+    }
+   ]
+  },
+  {
+   "id": "r2",
+   "text": "Bansos mulai lewat Perlinsos Digital.",
+   "start": 36.586,
+   "end": 38.889,
+   "words": [
+    {
+     "w": "Bansos",
+     "start": 36.586,
+     "end": 36.793
+    },
+    {
+     "w": "mulai",
+     "start": 36.849,
+     "end": 37.09
+    },
+    {
+     "w": "lewat",
+     "start": 37.164,
+     "end": 37.534
+    },
+    {
+     "w": "Perlinsos",
+     "start": 37.579,
+     "end": 38.127
+    },
+    {
+     "w": "Digital.",
+     "start": 38.201,
+     "end": 38.889
+    }
+   ]
+  },
+  {
+   "id": "r3",
+   "text": "Target 48 juta keluarga, baru 15,7 juta terdaftar.",
+   "start": 39.38,
+   "end": 44.184,
+   "words": [
+    {
+     "w": "Target",
+     "start": 39.38,
+     "end": 39.434
+    },
+    {
+     "w": "48",
+     "start": 39.533,
+     "end": 40.397
+    },
+    {
+     "w": "juta",
+     "start": 40.508,
+     "end": 40.768
+    },
+    {
+     "w": "keluarga,",
+     "start": 40.823,
+     "end": 41.434
+    },
+    {
+     "w": "baru",
+     "start": 41.574,
+     "end": 42.036
+    },
+    {
+     "w": "15,7",
+     "start": 42.073,
+     "end": 43.221
+    },
+    {
+     "w": "juta",
+     "start": 43.258,
+     "end": 43.518
+    },
+    {
+     "w": "terdaftar.",
+     "start": 43.555,
+     "end": 44.184
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "text": "Kamu nunggu tanggal mana? Komen!",
+   "start": 44.541,
+   "end": 46.416,
+   "words": [
+    {
+     "w": "Kamu",
+     "start": 44.541,
+     "end": 44.629
+    },
+    {
+     "w": "nunggu",
+     "start": 44.666,
+     "end": 44.851
+    },
+    {
+     "w": "tanggal",
+     "start": 44.888,
+     "end": 45.147
+    },
+    {
+     "w": "mana?",
+     "start": 45.221,
+     "end": 45.592
+    },
+    {
+     "w": "Komen!",
+     "start": 45.768,
+     "end": 46.416
+    }
+   ]
+  }
+ ]
+}

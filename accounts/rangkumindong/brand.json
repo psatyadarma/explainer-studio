@@ -413,6 +413,7 @@
   "rivals": 1.0
  },
  "rubric_weights_log": [
-  "2026-10-22: all 1.0 (start); the analyst adjusts weekly once ≥8 videos have 72 h metrics"
+  "2026-10-22: all 1.0 (start); the analyst adjusts weekly once ≥8 videos have 72 h metrics",
+  "2026-11-01: >=8 videos with 72 h reached (11 with rubric+metrics). No signal tracked avg % watched or shares+saves per 1k (wallet 2: 21.8% vs 24.5%; total score r~0), so all weights stay 1.0. W43 'wallet up' lean withdrawn. Recheck with 15+ videos."
  ]
 }
