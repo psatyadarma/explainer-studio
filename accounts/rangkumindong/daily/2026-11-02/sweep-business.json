@@ -1,0 +1,168 @@
+{
+ "area": "business",
+ "run_date": "2026-11-02",
+ "checked": [
+  "CNBC Indonesia tech",
+  "detik inet berita (stale: Aug 2026)",
+  "detik inet terpopuler (stale: 29 Oct)",
+  "Katadata digital",
+  "teknologi.bisnis.com (fetch failed)",
+  "cnnindonesia teknologi and dailysocial (not fetched)",
+  "watch list found: data leaks, crypto hacks, AI rules, Komdigi, data centres, telco",
+  "searches: AI regulation, ojol commission, phone prices/RAM, Binance/Indodax, Komdigi today, e-commerce tax"
+ ],
+ "events": [
+  {
+   "date": "2026-10-30",
+   "category": "TECH",
+   "event": "Binance lost about US$6.3 billion in a hack that TRM Labs and the FBI link to North Korea's TraderTraitor group, and Binance promised to cover all losses.",
+   "key_numbers": "US$6.3-6.4 billion stolen (about Rp104 trillion per CNBC body; headlines say Rp114 trillion) · moved from wallets across 10 blockchains, most within ~20 minutes · about US$3 billion frozen · SAFU fund about US$1.2 billion · Bitcoin below US$78,000 on 30 Oct · Bybit hack was US$1.5 billion in Feb 2025",
+   "storyline": "crypto-hacks",
+   "update_of": "",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "CNBC Indonesia",
+     "url": "https://www.cnbcindonesia.com/tech/20261031182610-37-781174/rp104-triliun-lenyap-digondol-hacker-binance-janji-ganti-rugi"
+    },
+    {
+     "label": "Katadata",
+     "url": "https://katadata.co.id/digital/fintech/6ae47ccc8e111/bursa-kripto-binance-dibobol-aset-rp114-3-triliun-lenyap"
+    },
+    {
+     "label": "Wartaekonomi",
+     "url": "https://wartaekonomi.co.id/read644596/bursa-kripto-binance-diretas-kerugian-tembus-rp114-triliun"
+    }
+   ],
+   "why_it_matters": "The world's biggest crypto exchange lost a record sum in 20 minutes, which shows how safe your exchange balance really is.",
+   "signals": {
+    "spreading": 2,
+    "wallet": 1,
+    "surprise": 2,
+    "visual": 2,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "CNBC tech section carried it in 3 separate stories on 30-31 Oct; Katadata and Wartaekonomi follow",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-01",
+   "category": "TECH",
+   "event": "OJK said there was no rush of withdrawals in Indonesia after the Binance hack, while Indodax (suspended 29 Oct, fully restored 31 Oct) and Tokocrypto (phishing alert 27 Oct) both had incidents.",
+   "key_numbers": "Indodax deposits/withdrawals halted 29 Oct, gradual reopening from 14:00 WIB 31 Oct, normal by 22:00 WIB · Tokocrypto phishing notifications 27 Oct, some users reported lost assets, CEO says assets unaffected · Binance reportedly recovered 95% of US$6.3 billion, phased withdrawals resumed 1 Nov · OJK urges use of licensed exchanges",
+   "storyline": "crypto-hacks",
+   "update_of": "",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "Investortrust",
+     "url": "https://investortrust.id/market/121172/ojk-pastikan-tak-ada-rush-kripto-di-indonesia-usai-binance-diretas-hingga-gangguan-yang-dialami-indodax-dan-tokocrypto"
+    },
+    {
+     "label": "CNBC Indonesia (Indodax)",
+     "url": "https://www.cnbcindonesia.com/tech/20261030174616-37-781033/bursa-indodax-diserang-hacker-ceo-jelaskan-kondisi-dana-nasabah"
+    }
+   ],
+   "why_it_matters": "Indonesian crypto holders want to know whether their money on local exchanges is safe.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 2,
+    "surprise": 1,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "Multiple outlets, Indodax story in CNBC tech list 30 Oct",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-10-30",
+   "category": "TECH",
+   "event": "Komdigi said the National AI Roadmap 2026-2029 and a risk-based AI Ethics Presidential Regulation (Perpres) are awaiting signature, with a two-year adjustment period and no new AI permits.",
+   "key_numbers": "Risk tiers: prohibited (e.g. mass facial recognition in public without legal basis) and high-risk (e.g. disease diagnosis, human must decide) · two-year adjustment period · target 45,000 AI talents per year · digital talent centre in every province · at least 15% of school learning to include coding and AI · AI-generated content must be labelled",
+   "storyline": "ai-regulation",
+   "update_of": "",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "CNBC Indonesia",
+     "url": "https://www.cnbcindonesia.com/tech/20261030162941-37-781009/ri-atur-ai-sesuai-risiko-komdigi-beberkan-isi-regulasinya"
+    },
+    {
+     "label": "CNBC Indonesia (talent)",
+     "url": "https://www.cnbcindonesia.com/tech/20261030135528-39-780930/video-perkuat-sdm-komdigi-siapkan-45-ribu-talenta-ai-per-tahun"
+    }
+   ],
+   "why_it_matters": "Rules on what AI may do and when content must be labelled will touch creators, companies and ordinary users.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 1,
+    "surprise": 1,
+    "visual": 1,
+    "fresh": 1,
+    "rivals": 1
+   },
+   "spreading_evidence": "Several CNBC items 30 Oct; one outlet gives the full detail",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-10-30",
+   "category": "TECH",
+   "event": "CNBC Indonesia reported Internet Rakyat, the Rp100,000-per-month 5G fixed wireless service run by Surge, had about 900,000 customers in September 2026, one year after pre-registration opened.",
+   "key_numbers": "About 900,000 customers (Sept 2026) · Rp100,000 per month, up to 100 Mbps, unlimited data · more than 3,100 sites, about 3.1 million households reached in 94 cities/regencies · IndiHome fixed broadband subscribers 9.5 million (Jun 2026) vs 10.1 million a year earlier",
+   "storyline": "",
+   "update_of": "",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "CNBC Indonesia",
+     "url": "https://www.cnbcindonesia.com/tech/20261030151826-37-780975/sudah-setahun-warga-ri-langganan-internet-rakyat-belum-sampai-1-juta"
+    }
+   ],
+   "why_it_matters": "A cheap home-internet option is growing while IndiHome is losing subscribers.",
+   "signals": {
+    "spreading": 0,
+    "wallet": 2,
+    "surprise": 1,
+    "visual": 1,
+    "fresh": 1,
+    "rivals": 2
+   },
+   "spreading_evidence": "CNBC tech list 30 Oct",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-03",
+   "category": "GLB",
+   "event": "Voters in 38 US local jurisdictions across 10 states decide at least 41 measures restricting AI data centres on US Election Day (3 Nov), per CNBC Indonesia.",
+   "key_numbers": "At least 41 restriction measures · 38 local jurisdictions · 10 states · Ohio 21 proposals · Sunbury, Ohio ban above 25 MW threatens a US$2 billion (about Rp36 trillion) Amazon project · US data-centre construction capacity +48% Dec 2025 to Jun 2026",
+   "storyline": "ai-data-centres",
+   "update_of": "",
+   "status": "upcoming",
+   "sources": [
+    {
+     "label": "CNBC Indonesia",
+     "url": "https://www.cnbcindonesia.com/tech/20261030155712-37-781004/proyek-data-center-ditolak-di-mana-mana-pemerintah-sampai-pusing"
+    }
+   ],
+   "why_it_matters": "Local backlash over power and water shows the risk facing Indonesia's own AI data-centre plans.",
+   "signals": {
+    "spreading": 0,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 2
+   },
+   "spreading_evidence": "",
+   "sensitivity": "normal"
+  }
+ ],
+ "gaps": [
+  "Report of SE Menkomdigi 4/2026 on unexpired data quota is dated Aug 2026 on detik; headline looked fresh but is stale, skipped",
+  "E-commerce tax start date conflicts: 1 Nov (CNBC, Viva) vs 9 Nov (Hashim/detik) vs 1 Oct (DJP, E0039); worth a markets/national check",
+  "Exact Binance hack date unclear (CNBC dates 30-31 Oct); Indonesian Rp figure varies 104T vs 114T",
+  "No fresh 1-2 Nov ojol, chip/RAM or Coretax items found"
+ ]
+}

@@ -1,0 +1,47 @@
+{
+  "area": "politics",
+  "run_date": "2026-11-02",
+  "checked": ["Antara politik section page (headlines ~31 Oct-1 Nov)", "Antara weekly politics roundup 25-31 Oct", "detik news daerah page (stale, ~25 Oct)", "storyline search: gibran-ijazah-mk (only stale results)", "KPK/Kejagung search (stale results)", "watch list found: Presiden, DPR, KPK, definisi korupsi, Sumpah Pemuda"],
+  "events": [
+    {
+      "date": "2026-11-01",
+      "category": "POL",
+      "event": "President Prabowo received about 250 Kadin members at his Hambalang residence in Bogor, and Kadin-linked figures said he asked Kadin to be a strategic partner of the government.",
+      "key_numbers": "250 Kadin members",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "Antara", "url": "https://www.antaranews.com/berita/5824167/prabowo-terima-250-anggota-kadin-di-hambalang-bogor"},
+        {"label": "Antara (Bamsoet)", "url": "https://www.antaranews.com/berita/5824215/bamsoet-prabowo-minta-kadin-jadi-mitra-strategis-pemerintah"}
+      ],
+      "why_it_matters": "Shows how closely the palace is courting the business lobby as the government pushes investment.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 0, "visual": 0, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-31",
+      "category": "POL",
+      "event": "IndocPolls released a survey saying the public is satisfied with the defence-security and legal performance of the Prabowo-Gibran government.",
+      "key_numbers": "",
+      "storyline": "prabowo-2-years",
+      "update_of": "E0072",
+      "status": "partial",
+      "sources": [
+        {"label": "Antara", "url": "https://www.antaranews.com/berita/5823087/indocpolls-publik-puas-atas-kinerja-hankam-dan-hukum-prabowo-gibran"}
+      ],
+      "why_it_matters": "Another pollster adds to the two-year satisfaction narrative; figures and method not yet checked.",
+      "signals": {"spreading": 0, "wallet": 0, "surprise": 0, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "high"
+    }
+  ],
+  "gaps": [
+    "Search engine returned mostly stale/spam results; no fresh news for 31 Oct-2 Nov on MA ruling on Gibran suket, KPK, Kejagung or Polri found.",
+    "Possible Kejagung sprindik on ex-Jampidsus Febrie Adriansyah (Kompas TV headlines, undated, page blocked) - unverified, worth a second look.",
+    "Antara article on Kadin 'investasi dalam negeri tembus Rp2.000 triliun' could not be opened (blocked), so the number is not used.",
+    "IndocPolls figures not read (page blocked).",
+    "CNN Indonesia, Tempo and detik berita section pages not reachable via returned URLs."
+  ]
+}

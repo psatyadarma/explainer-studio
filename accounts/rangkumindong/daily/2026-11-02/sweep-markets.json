@@ -1,0 +1,177 @@
+{
+  "area": "markets",
+  "run_date": "2026-11-02",
+  "checked": [
+    "CNBC Indonesia market (WebFetch blocked; headlines via search only)",
+    "Bisnis market (search headlines only; article fetches failed)",
+    "detik finance (search only, nothing usable)",
+    "Antara ekonomi (search headlines only)",
+    "IHSG close and foreign flow (30 Oct, already known)",
+    "rupiah record low (found: 28 Oct record close not yet in DB)",
+    "BPS releases (October inflation 2 Nov, Q3 GDP 5 Nov, trade, FX reserves)",
+    "PMI / IKI manufacturing (found IKI Oct)",
+    "fuel prices 1 Nov (found: unchanged)",
+    "MSCI/OJK/BEI (found: OJK MSCI concerns, short-sell list)",
+    "UMP 2027 (no new development)",
+    "Danantara/BUMN/PHK (nothing new found)",
+    "global: US midterms, BoJ, Fed (found midterms, BoJ)",
+    "storyline searches: msci-reclassification, rupiah, ump-2027"
+  ],
+  "events": [
+    {
+      "date": "2026-10-28",
+      "category": "MKT",
+      "event": "The rupiah closed at Rp18,175 per US dollar on 28 October, a new all-time closing low per Refinitiv data, and Bank Indonesia said it keeps intervening in NDF, DNDF and spot markets and buying SBN.",
+      "key_numbers": "Close Rp18,175/USD (-0.17%) vs previous record Rp18,170 on 8 Jun 2026 · rupiah -1.15% m/m · FX reserves US$146.3 B end-Sep · oil above US$115/bbl · vendor variance: another outlet headline cites Rp18,183",
+      "storyline": "rupiah",
+      "update_of": "E0351",
+      "status": "partial",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/market/20261028151950-17-780253/rupiah-cetak-rekor-terlemah-sepanjang-masa-bi-buka-suara"}
+      ],
+      "why_it_matters": "A weaker rupiah makes imported goods, fuel and overseas tuition more expensive.",
+      "signals": {"spreading": 1, "wallet": 2, "surprise": 1, "visual": 2, "fresh": 0, "rivals": 1},
+      "spreading_evidence": "Multiple outlets (CNBC, Bloomberg Technoz, Investortrust) ran record-low headlines",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-02",
+      "category": "ECO",
+      "event": "BPS is due to release October 2026 inflation on 2 November; CNBC Indonesia's poll of 12 institutions expects annual inflation to ease to 3.25% from 3.28% in September.",
+      "key_numbers": "Consensus 3.25% y/y (other outlets: 3.19% Investor.id) · m/m 0.24% (CNBC poll) or 0.22% (CNBC week-ahead calendar) vs Oct 5-year avg 0.11% · Sept 3.28% y/y, 0.30% m/m, core 2.84% · Oct avg rice Rp16,420/kg (+0.36%), sugar Rp19,625/kg (+0.95%), cooking oil Rp22,997/kg (+0.1%), eggs Rp29,881/kg (-0.75%)",
+      "storyline": "",
+      "update_of": "E0278",
+      "status": "upcoming",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/research/20261101122453-128-781240/besok-ada-pengumuman-penting-sepertinya-ada-kabar-baik"},
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/research/20261101151930-128-781270/pekan-depan-sangat-sibuk-ada-inflasi-ri-hingga-pemilu-sela-di-amerika"}
+      ],
+      "why_it_matters": "Inflation sets how much your rupiah buys and shapes BI's rate decision and the 2027 minimum wage.",
+      "signals": {"spreading": 1, "wallet": 2, "surprise": 0, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-05",
+      "category": "ECO",
+      "event": "BPS is scheduled to release Q3 2026 GDP on 5 November; consensus expects growth to slow to about 5.0% y/y from 5.29% in Q2.",
+      "key_numbers": "Consensus 5.0% y/y vs Q2 5.29% · q/q 0.5% vs 3.76% in Q2 · release Thursday 5 Nov",
+      "storyline": "",
+      "update_of": "E0455",
+      "status": "upcoming",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/research/20261101151930-128-781270/pekan-depan-sangat-sibuk-ada-inflasi-ri-hingga-pemilu-sela-di-amerika"}
+      ],
+      "why_it_matters": "It shows whether the economy is slowing just as the rupiah and stock market are under pressure.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-06",
+      "category": "ECO",
+      "event": "Bank Indonesia is due to release October 2026 FX reserves on 6 November, with the CNBC Indonesia week-ahead calendar expecting US$145-147 billion; BPS September trade balance is also due this week (date not stated).",
+      "key_numbers": "Reserves forecast US$145-147 B vs US$146.3 B end-Sep · Sept exports forecast +9.39% y/y (Aug +6.72%) · imports forecast +23.07% y/y (Aug +19.09%)",
+      "storyline": "rupiah",
+      "update_of": "",
+      "status": "upcoming",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/research/20261101151930-128-781270/pekan-depan-sangat-sibuk-ada-inflasi-ri-hingga-pemilu-sela-di-amerika"}
+      ],
+      "why_it_matters": "Reserves show how much firepower BI has left to defend the rupiah after weeks of intervention.",
+      "signals": {"spreading": 0, "wallet": 1, "surprise": 1, "visual": 2, "fresh": 1, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-30",
+      "category": "ECO",
+      "event": "The Industry Ministry's Indeks Kepercayaan Industri (IKI) for October 2026 rose to 53.75, and Industry Minister Sarmuji said manufacturing remains in expansion.",
+      "key_numbers": "IKI Oct 53.75 vs 51.9 in Sept (above 50 = expansion) · S&P Global Manufacturing PMI Sept 52.4 (CNN Indonesia's article gives 52.1, conflicting with other outlets) · CNBC poll expects Oct PMI 51.9 (release date not stated)",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/ekonomi/20261030192604-92-1421631/menperin-sarmuji-pastikan-industri-masih-ekspansi-pada-oktober-2026"},
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/research/20261101151930-128-781270/pekan-depan-sangat-sibuk-ada-inflasi-ri-hingga-pemilu-sela-di-amerika"}
+      ],
+      "why_it_matters": "Factory activity is a gauge of jobs and layoffs, which matter most when markets are shaky.",
+      "signals": {"spreading": 0, "wallet": 1, "surprise": 0, "visual": 1, "fresh": 1, "rivals": 2},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-01",
+      "category": "BIZ",
+      "event": "Pertamina and private SPBU operators (BP-AKR, Shell, Vivo) kept fuel prices unchanged on 1 November 2026.",
+      "key_numbers": "Pertalite Rp10,000/L · Solar subsidi Rp6,800/L · Pertamax Rp15,950/L · Pertamax Turbo Rp19,600/L · Dexlite Rp23,700/L · Pertamina Dex Rp25,200/L (DKI Jakarta) · BP 92 / Revvo 92 Rp16,130/L · BP Ultimate Diesel / Shell V-Power Diesel / Diesel Primus Rp25,420/L",
+      "storyline": "fuel-oil",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/news/20261101084520-4-781224/harga-bbm-di-seluruh-spbu-ri-per-1-november-2026"}
+      ],
+      "why_it_matters": "Pump prices did not rise despite oil above US$115, so drivers keep paying the same for now.",
+      "signals": {"spreading": 1, "wallet": 2, "surprise": 0, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "Many outlets (CNBC, detik, Okezone, Jawapos) ran the monthly price roundup",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-31",
+      "category": "MKT",
+      "event": "OJK said MSCI's main concern behind the proposed downgrade of Indonesia to Standalone is 'market dysfunction', meaning repeats of the BREN, CUAN and DSSA episodes, and that MSCI doubts prevention and enforcement are strong enough.",
+      "key_numbers": "Consultation until April 2027 · final MSCI decision by 30 Jun 2027 at the latest · during the process no new Indonesian issuers can be added to MSCI indexes, no increase in foreign inclusion factor or share count, no migration to a larger size segment",
+      "storyline": "msci-reclassification",
+      "update_of": "E0352",
+      "status": "partial",
+      "sources": [
+        {"label": "Investor.id", "url": "https://investor.id/market/460203/ojk-ungkap-alasan-msci-usulkan-status-pasar-modal-rike-standalone-market"}
+      ],
+      "why_it_matters": "It tells ordinary investors what Indonesia must fix to avoid being demoted and losing foreign money.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 1, "fresh": 1, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-02",
+      "category": "MKT",
+      "event": "BEI will empty its short-selling stock list for November 2026 (five stocks removed) and remove 11 stocks from the margin list, according to a CNBC Indonesia week-ahead note.",
+      "key_numbers": "5 stocks out of short-sell list (list empty in Nov) · 11 stocks out of margin securities list",
+      "storyline": "msci-reclassification",
+      "update_of": "E0329",
+      "status": "partial",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/research/20261101151930-128-781270/pekan-depan-sangat-sibuk-ada-inflasi-ri-hingga-pemilu-sela-di-amerika"}
+      ],
+      "why_it_matters": "It shows the exchange tightening rules to calm the market after IHSG's 16.7% drop in October.",
+      "signals": {"spreading": 0, "wallet": 1, "surprise": 1, "visual": 0, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-03",
+      "category": "GLB",
+      "event": "US midterm elections take place on 3 November, with the whole House and about one third of the Senate up for election; Investor.id lists them as a key event for Indonesian markets this week.",
+      "key_numbers": "Reuters/Ipsos: Trump approval 32% · registered voters Democrats 47% vs Republicans 36% · likely voters 53% vs 44% · BoJ held rate at 1.25% in Oct after 25 bp hikes in June and Sept",
+      "storyline": "rupiah",
+      "update_of": "",
+      "status": "upcoming",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/research/20261101151930-128-781270/pekan-depan-sangat-sibuk-ada-inflasi-ri-hingga-pemilu-sela-di-amerika"},
+        {"label": "Investor.id", "url": "https://investor.id/market/460098/prediksi-ihsg-dan-rekomendasi-saham-senin-2-november-2026"}
+      ],
+      "why_it_matters": "US politics can swing the dollar and global risk appetite, which feeds into the rupiah and IHSG.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 0, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "high"
+    }
+  ],
+  "gaps": [
+    "WebFetch blocked for cnbcindonesia.com/market and bisnis.com article pages; detik finance and Antara section pages were not read, so 31 Oct-2 Nov coverage rests on search headlines plus a few CNBC/Investor.id articles. Worth a second look: whether BPS October inflation has been published today.",
+    "Bisnis weekly report of worst stocks (VKTR, MORA, ENRG down almost 30%) and foreign rotation out of big banks seen only as headlines, not verified.",
+    "Brent US$117.64 and WTI US$104.12 close on 30 Oct seen only in a search snippet, not verified.",
+    "Indonesia Sept manufacturing PMI: 52.4 (several outlets) vs 52.1 (CNN Indonesia); Oct PMI release date not confirmed (S&P Global usually 1st business day).",
+    "Rupiah 28 Oct record close: Rp18,175 (CNBC/Refinitiv) vs Rp18,183 (Bloomberg Technoz headline, not opened); storyline rule says to quote Antara/Bisnis/JISDOR.",
+    "No new Danantara/BUMN, PHK or UMP 2027 developments found beyond known events."
+  ]
+}

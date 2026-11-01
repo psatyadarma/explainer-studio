@@ -1,0 +1,178 @@
+{
+  "area": "national",
+  "run_date": "2026-11-02",
+  "checked": ["Detik terpopuler (1 Nov 14:12 WIB)", "CNN Indonesia nasional (31 Oct list)", "Antara terkini", "turnbackhoax (search only, results stale)", "known-events window 14d --brief", "storyline gibran-ijazah-mk", "storyline search: gibran-ijazah-mk", "storyline search: karhutla", "watch-list found: most-read lists, viral incident (Bundaran HI declaration), disasters (Anak Krakatau, West Aceh flood, BMKG waves), karhutla/haze health, crime, haji, public-service scams"],
+  "events": [
+    {
+      "date": "2026-11-01",
+      "category": "POL",
+      "event": "KPU commissioner Idham Holik responds to the MA ruling on Gibran's SMA-equivalence letter, saying the 2024 election stages ended with the inauguration and KPU's duties are finished, while Golkar says it will study the ruling and PD's Jansen says Gibran should resign or be removed.",
+      "key_numbers": "MA decision 742 K/TUN/2026 · letter No. 9149/D.D1/KS/2019 dated 6 Aug 2019 · PTUN Jakarta case 62/G/2026/PTUN.JKT · KPU cites Art. 167(4)(k) and Art. 3(d) of Law 7/2017",
+      "storyline": "gibran-ijazah-mk",
+      "update_of": "E0466",
+      "status": "verified",
+      "sources": [
+        {"label": "Detik", "url": "https://news.detik.com/berita/d-8733298/kpu-respons-putusan-ma-soal-suket-sma-gibran-ungkit-tahapan-pemilu"},
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261031133331-32-1421757/gerindra-minta-kemendikdasmen-kpu-respons-putusan-ma-soal-gibran"}
+      ],
+      "why_it_matters": "It shows who, if anyone, can act on the ruling about the sitting Vice President's candidacy paper.",
+      "signals": {"spreading": 2, "wallet": 0, "surprise": 2, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "Detik terpopuler #1, #7 and #9 on 1 Nov",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-10-31",
+      "category": "NEWS",
+      "event": "Polda Metro Jaya apologised over the viral 29 Oct 'Deklarasi Sumpah Pemuda Mahasiswa Indonesia 2026' at Pospol Bundaran HI, saying presidential special envoy Raffi Ahmad and creator Willie Salim attended as invited guests and that it was not a counter to the previous day's student demonstration.",
+      "key_numbers": "Event 29 Oct 2026 (98th Sumpah Pemuda) · apology 31 Oct · police probing alleged 'mahasiswa gadungan' (fake students) among participants",
+      "storyline": "",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "Detik", "url": "https://news.detik.com/berita/d-8732847/polda-metro-minta-maaf-soal-viral-deklarasi-mahasiswa-nyatakan-raffi-ahmad-tamu-undangan"},
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261031204838-20-1421856/polda-metro-minta-maaf-soal-deklarasi-mahasiswa-sebut-raffi-diundang"},
+        {"label": "Bisnis", "url": "https://kabar24.bisnis.com/read/20261101/15/2017276/minta-maaf-soal-acara-sumpah-pemuda-polda-metro-jaya-raffi-ahmad-tamu-undangan"}
+      ],
+      "why_it_matters": "A police-hosted 'student' event a day after a protest raised public questions about staged youth support.",
+      "signals": {"spreading": 2, "wallet": 0, "surprise": 2, "visual": 1, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "Viral per outlets (Republika, JPNN, Detik); Detik terpopuler #10 on Willie Salim withdrawing from a Solo concert is a related spin-off",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-10-31",
+      "category": "ENV",
+      "event": "Anak Krakatau erupted repeatedly on the evening of 31 Oct while staying at Level III (Siaga), with PVMBG keeping a 5 km exclusion radius.",
+      "key_numbers": "Level III (Siaga) · 5 km radius · 1 km bar near new island (NW/SE) · first eruption ~18:30 WIB · outlets report 12 eruptions that night (Okezone, Sindonews headlines)",
+      "storyline": "volcanoes",
+      "update_of": "E0108",
+      "status": "partial",
+      "sources": [
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261031194912-20-1421843/gunung-anak-krakatau-erupsi-malam-ini-masyarakat-diimbau-tenang"},
+        {"label": "Detik", "url": "https://news.detik.com/berita/d-8732784/gunung-anak-krakatau-erupsi-lagi-malam-ini"}
+      ],
+      "why_it_matters": "Residents around the Sunda Strait need to know the alert level and no-go zone.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "Multiple outlets incl. CNN Indonesia, Detik, Liputan6, RRI",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-31",
+      "category": "ENV",
+      "event": "The Indonesian Pediatric Society (IDAI) warned that children exposed to forest-fire haze face a risk of stunting, alongside lung and brain harm.",
+      "key_numbers": "No figures verified from the article body",
+      "storyline": "karhutla",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261031193252-20-1421842/idai-anak-terpapar-asap-karhutla-berisiko-alami-stunting"},
+        {"label": "Berita Satu", "url": "https://www.beritasatu.com/lifestyle/3037916/fkui-ungkap-risiko-asap-karhutla-bagi-otak-dan-paru-paru-anak"}
+      ],
+      "why_it_matters": "Gives parents in haze regions a health angle beyond coughs, tied to the corporate-suspect story.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 2, "visual": 1, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "CNN Indonesia, Berita Satu, IDN Times and others",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-31",
+      "category": "NEWS",
+      "event": "Police in East Java say Dwi Bagus Martono, 40, killed his secret wife and her 4-year-old son, allegedly tried to destroy the bodies and hid at a spiritual retreat in Jombang before his 25 Oct arrest.",
+      "key_numbers": "Victims aged 30 and 4 · missing since 20 Sep 2026 · arrested 25 Oct 2026 · hid ~2 weeks in Gudo, Jombang",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261030191320-12-1421625/fakta-fakta-terbaru-kasus-pembunuhan-sadis-di-madiun"}
+      ],
+      "why_it_matters": "A high-profile crime case, but police allegations only and no charges reported yet.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 0, "fresh": 1, "rivals": 1},
+      "spreading_evidence": "CNN Indonesia nasional coverage; not seen on most-read lists",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-01",
+      "category": "NEWS",
+      "event": "Police raided a narcotics hotspot in Kampung Bahari, North Jakarta, in a coordinated operation in which officers rode a KRL commuter train to the site.",
+      "key_numbers": "No figures verified (headline only)",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "Detik terpopuler", "url": "https://www.detik.com/terpopuler"}
+      ],
+      "why_it_matters": "A visually striking police tactic against a known drug-trade area.",
+      "signals": {"spreading": 2, "wallet": 0, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "Detik terpopuler #3 on 1 Nov",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-31",
+      "category": "NEWS",
+      "event": "Deputy Hajj Minister said non-Muslims may serve as hajj officers.",
+      "key_numbers": "No figures; headline only",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional"}
+      ],
+      "why_it_matters": "Likely to spark religious debate over who may run the pilgrimage.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 2, "visual": 0, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "CNN Indonesia nasional list, 31 Oct 15:27",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-10-31",
+      "category": "NEWS",
+      "event": "Bareskrim raided a syndicate hoarding subsidised diesel in Bandung.",
+      "key_numbers": "No figures verified (headline only)",
+      "storyline": "fuel-oil",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional"}
+      ],
+      "why_it_matters": "Subsidised fuel diverted by hoarders affects supply and prices for ordinary users.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 0, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "CNN Indonesia nasional list, 31 Oct 15:21",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-01",
+      "category": "ENV",
+      "event": "A flood-damaged bridge cut access to two villages in West Aceh, and BMKG warned of waves up to 4 m in the southern waters of East Java.",
+      "key_numbers": "2 villages cut off · waves up to 4 m",
+      "storyline": "",
+      "update_of": "E0469",
+      "status": "partial",
+      "sources": [
+        {"label": "Antara", "url": "https://www.antaranews.com/terkini"}
+      ],
+      "why_it_matters": "Rainy-season hazards affect travel and fishing in affected regions.",
+      "signals": {"spreading": 0, "wallet": 0, "surprise": 0, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-31",
+      "category": "NEWS",
+      "event": "Antara ran a warning about scams posing as wage-subsidy (BSU) aid.",
+      "key_numbers": "No figures; headline only",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "Antara", "url": "https://www.antaranews.com/terkini"}
+      ],
+      "why_it_matters": "Fake aid links phish personal data, a repeat pattern in bansos hoaxes.",
+      "signals": {"spreading": 0, "wallet": 1, "surprise": 0, "visual": 0, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    }
+  ],
+  "gaps": [
+    "Detik, CNN Indonesia and Antara headlines are partly relative-time (no exact dates); several events above rest on headlines only.",
+    "Could not find a fresh hoax debunk dated 31 Oct-2 Nov: turnbackhoax results were Jan 2026 (PKH Rp900 ribu link); worth a second look for Wednesday viral slot.",
+    "Anak Krakatau '12 eruptions' count comes from Okezone/Sindonews headlines, not opened.",
+    "Detik terpopuler is a 1 Nov snapshot; the 2 Nov list not seen."
+  ]
+}

@@ -1,0 +1,173 @@
+[
+ {
+  "date": "2026-10-28",
+  "category": "MKT",
+  "event": "The rupiah closed at Rp18,175 per US dollar on 28 October, a new all-time closing low per Refinitiv data, and Bank Indonesia said it keeps intervening in NDF, DNDF and spot markets and buying SBN. (update of E0351)",
+  "key_numbers": "Close Rp18,175/USD (-0.17%) vs previous record Rp18,170 on 8 Jun 2026 · rupiah -1.15% m/m · FX reserves US$146.3 B end-Sep · oil above US$115/bbl · vendor variance: another outlet headline cites Rp18,183",
+  "storyline": "rupiah",
+  "status": "partial",
+  "sources": "CNBC Indonesia <https://www.cnbcindonesia.com/market/20261028151950-17-780253/rupiah-cetak-rekor-terlemah-sepanjang-masa-bi-buka-suara>"
+ },
+ {
+  "date": "2026-11-02",
+  "category": "ECO",
+  "event": "BPS is due to release October 2026 inflation on 2 November; CNBC Indonesia's poll of 12 institutions expects annual inflation to ease to 3.25% from 3.28% in September. (update of E0278)",
+  "key_numbers": "Consensus 3.25% y/y (other outlets: 3.19% Investor.id) · m/m 0.24% (CNBC poll) or 0.22% (CNBC week-ahead calendar) vs Oct 5-year avg 0.11% · Sept 3.28% y/y, 0.30% m/m, core 2.84% · Oct avg rice Rp16,420/kg (+0.36%), sugar Rp19,625/kg (+0.95%), cooking oil Rp22,997/kg (+0.1%), eggs Rp29,881/kg (-0.75%)",
+  "storyline": "",
+  "status": "upcoming",
+  "sources": "CNBC Indonesia <https://www.cnbcindonesia.com/research/20261101122453-128-781240/besok-ada-pengumuman-penting-sepertinya-ada-kabar-baik> ; CNBC Indonesia <https://www.cnbcindonesia.com/research/20261101151930-128-781270/pekan-depan-sangat-sibuk-ada-inflasi-ri-hingga-pemilu-sela-di-amerika>"
+ },
+ {
+  "date": "2026-10-30",
+  "category": "ECO",
+  "event": "The Industry Ministry's Indeks Kepercayaan Industri (IKI) for October 2026 rose to 53.75, and Industry Minister Sarmuji said manufacturing remains in expansion.",
+  "key_numbers": "IKI Oct 53.75 vs 51.9 in Sept (above 50 = expansion) · S&P Global Manufacturing PMI Sept 52.4 (CNN Indonesia's article gives 52.1, conflicting with other outlets) · CNBC poll expects Oct PMI 51.9 (release date not stated)",
+  "storyline": "",
+  "status": "partial",
+  "sources": "CNN Indonesia <https://www.cnnindonesia.com/ekonomi/20261030192604-92-1421631/menperin-sarmuji-pastikan-industri-masih-ekspansi-pada-oktober-2026> ; CNBC Indonesia <https://www.cnbcindonesia.com/research/20261101151930-128-781270/pekan-depan-sangat-sibuk-ada-inflasi-ri-hingga-pemilu-sela-di-amerika>"
+ },
+ {
+  "date": "2026-11-01",
+  "category": "BIZ",
+  "event": "Pertamina and private SPBU operators (BP-AKR, Shell, Vivo) kept fuel prices unchanged on 1 November 2026.",
+  "key_numbers": "Pertalite Rp10,000/L · Solar subsidi Rp6,800/L · Pertamax Rp15,950/L · Pertamax Turbo Rp19,600/L · Dexlite Rp23,700/L · Pertamina Dex Rp25,200/L (DKI Jakarta) · BP 92 / Revvo 92 Rp16,130/L · BP Ultimate Diesel / Shell V-Power Diesel / Diesel Primus Rp25,420/L",
+  "storyline": "fuel-oil",
+  "status": "partial",
+  "sources": "CNBC Indonesia <https://www.cnbcindonesia.com/news/20261101084520-4-781224/harga-bbm-di-seluruh-spbu-ri-per-1-november-2026>"
+ },
+ {
+  "date": "2026-10-31",
+  "category": "MKT",
+  "event": "OJK said MSCI's main concern behind the proposed downgrade of Indonesia to Standalone is 'market dysfunction', meaning repeats of the BREN, CUAN and DSSA episodes, and that MSCI doubts prevention and enforcement are strong enough. (update of E0352)",
+  "key_numbers": "Consultation until April 2027 · final MSCI decision by 30 Jun 2027 at the latest · during the process no new Indonesian issuers can be added to MSCI indexes, no increase in foreign inclusion factor or share count, no migration to a larger size segment",
+  "storyline": "msci-reclassification",
+  "status": "partial",
+  "sources": "Investor.id <https://investor.id/market/460203/ojk-ungkap-alasan-msci-usulkan-status-pasar-modal-rike-standalone-market>"
+ },
+ {
+  "date": "2026-11-03",
+  "category": "GLB",
+  "event": "US midterm elections take place on 3 November, with the whole House and about one third of the Senate up for election; Investor.id lists them as a key event for Indonesian markets this week.",
+  "key_numbers": "Reuters/Ipsos: Trump approval 32% · registered voters Democrats 47% vs Republicans 36% · likely voters 53% vs 44% · BoJ held rate at 1.25% in Oct after 25 bp hikes in June and Sept",
+  "storyline": "rupiah",
+  "status": "upcoming",
+  "sources": "CNBC Indonesia <https://www.cnbcindonesia.com/research/20261101151930-128-781270/pekan-depan-sangat-sibuk-ada-inflasi-ri-hingga-pemilu-sela-di-amerika> ; Investor.id <https://investor.id/market/460098/prediksi-ihsg-dan-rekomendasi-saham-senin-2-november-2026>"
+ },
+ {
+  "date": "2026-11-01",
+  "category": "POL",
+  "event": "President Prabowo received about 250 Kadin members at his Hambalang residence in Bogor, and Kadin-linked figures said he asked Kadin to be a strategic partner of the government.",
+  "key_numbers": "250 Kadin members",
+  "storyline": "",
+  "status": "partial",
+  "sources": "Antara <https://www.antaranews.com/berita/5824167/prabowo-terima-250-anggota-kadin-di-hambalang-bogor> ; Antara (Bamsoet) <https://www.antaranews.com/berita/5824215/bamsoet-prabowo-minta-kadin-jadi-mitra-strategis-pemerintah>"
+ },
+ {
+  "date": "2026-10-31",
+  "category": "POL",
+  "event": "IndocPolls released a survey saying the public is satisfied with the defence-security and legal performance of the Prabowo-Gibran government. (update of E0072)",
+  "key_numbers": "",
+  "storyline": "prabowo-2-years",
+  "status": "partial",
+  "sources": "Antara <https://www.antaranews.com/berita/5823087/indocpolls-publik-puas-atas-kinerja-hankam-dan-hukum-prabowo-gibran>"
+ },
+ {
+  "date": "2026-10-30",
+  "category": "TECH",
+  "event": "Binance lost about US$6.3 billion in a hack that TRM Labs and the FBI link to North Korea's TraderTraitor group, and Binance promised to cover all losses.",
+  "key_numbers": "US$6.3-6.4 billion stolen (about Rp104 trillion per CNBC body; headlines say Rp114 trillion) · moved from wallets across 10 blockchains, most within ~20 minutes · about US$3 billion frozen · SAFU fund about US$1.2 billion · Bitcoin below US$78,000 on 30 Oct · Bybit hack was US$1.5 billion in Feb 2025",
+  "storyline": "crypto-hacks",
+  "status": "verified",
+  "sources": "CNBC Indonesia <https://www.cnbcindonesia.com/tech/20261031182610-37-781174/rp104-triliun-lenyap-digondol-hacker-binance-janji-ganti-rugi> ; Katadata <https://katadata.co.id/digital/fintech/6ae47ccc8e111/bursa-kripto-binance-dibobol-aset-rp114-3-triliun-lenyap> ; Wartaekonomi <https://wartaekonomi.co.id/read644596/bursa-kripto-binance-diretas-kerugian-tembus-rp114-triliun>"
+ },
+ {
+  "date": "2026-11-01",
+  "category": "TECH",
+  "event": "OJK said there was no rush of withdrawals in Indonesia after the Binance hack, while Indodax (suspended 29 Oct, fully restored 31 Oct) and Tokocrypto (phishing alert 27 Oct) both had incidents.",
+  "key_numbers": "Indodax deposits/withdrawals halted 29 Oct, gradual reopening from 14:00 WIB 31 Oct, normal by 22:00 WIB · Tokocrypto phishing notifications 27 Oct, some users reported lost assets, CEO says assets unaffected · Binance reportedly recovered 95% of US$6.3 billion, phased withdrawals resumed 1 Nov · OJK urges use of licensed exchanges",
+  "storyline": "crypto-hacks",
+  "status": "verified",
+  "sources": "Investortrust <https://investortrust.id/market/121172/ojk-pastikan-tak-ada-rush-kripto-di-indonesia-usai-binance-diretas-hingga-gangguan-yang-dialami-indodax-dan-tokocrypto> ; CNBC Indonesia (Indodax) <https://www.cnbcindonesia.com/tech/20261030174616-37-781033/bursa-indodax-diserang-hacker-ceo-jelaskan-kondisi-dana-nasabah>"
+ },
+ {
+  "date": "2026-10-30",
+  "category": "TECH",
+  "event": "Komdigi said the National AI Roadmap 2026-2029 and a risk-based AI Ethics Presidential Regulation (Perpres) are awaiting signature, with a two-year adjustment period and no new AI permits.",
+  "key_numbers": "Risk tiers: prohibited (e.g. mass facial recognition in public without legal basis) and high-risk (e.g. disease diagnosis, human must decide) · two-year adjustment period · target 45,000 AI talents per year · digital talent centre in every province · at least 15% of school learning to include coding and AI · AI-generated content must be labelled",
+  "storyline": "ai-regulation",
+  "status": "partial",
+  "sources": "CNBC Indonesia <https://www.cnbcindonesia.com/tech/20261030162941-37-781009/ri-atur-ai-sesuai-risiko-komdigi-beberkan-isi-regulasinya> ; CNBC Indonesia (talent) <https://www.cnbcindonesia.com/tech/20261030135528-39-780930/video-perkuat-sdm-komdigi-siapkan-45-ribu-talenta-ai-per-tahun>"
+ },
+ {
+  "date": "2026-10-30",
+  "category": "TECH",
+  "event": "CNBC Indonesia reported Internet Rakyat, the Rp100,000-per-month 5G fixed wireless service run by Surge, had about 900,000 customers in September 2026, one year after pre-registration opened.",
+  "key_numbers": "About 900,000 customers (Sept 2026) · Rp100,000 per month, up to 100 Mbps, unlimited data · more than 3,100 sites, about 3.1 million households reached in 94 cities/regencies · IndiHome fixed broadband subscribers 9.5 million (Jun 2026) vs 10.1 million a year earlier",
+  "storyline": "",
+  "status": "partial",
+  "sources": "CNBC Indonesia <https://www.cnbcindonesia.com/tech/20261030151826-37-780975/sudah-setahun-warga-ri-langganan-internet-rakyat-belum-sampai-1-juta>"
+ },
+ {
+  "date": "2026-11-03",
+  "category": "GLB",
+  "event": "Voters in 38 US local jurisdictions across 10 states decide at least 41 measures restricting AI data centres on US Election Day (3 Nov), per CNBC Indonesia.",
+  "key_numbers": "At least 41 restriction measures · 38 local jurisdictions · 10 states · Ohio 21 proposals · Sunbury, Ohio ban above 25 MW threatens a US$2 billion (about Rp36 trillion) Amazon project · US data-centre construction capacity +48% Dec 2025 to Jun 2026",
+  "storyline": "ai-data-centres",
+  "status": "upcoming",
+  "sources": "CNBC Indonesia <https://www.cnbcindonesia.com/tech/20261030155712-37-781004/proyek-data-center-ditolak-di-mana-mana-pemerintah-sampai-pusing>"
+ },
+ {
+  "date": "2026-11-01",
+  "category": "POL",
+  "event": "KPU commissioner Idham Holik responds to the MA ruling on Gibran's SMA-equivalence letter, saying the 2024 election stages ended with the inauguration and KPU's duties are finished, while Golkar says it will study the ruling and PD's Jansen says Gibran should resign or be removed. (update of E0466)",
+  "key_numbers": "MA decision 742 K/TUN/2026 · letter No. 9149/D.D1/KS/2019 dated 6 Aug 2019 · PTUN Jakarta case 62/G/2026/PTUN.JKT · KPU cites Art. 167(4)(k) and Art. 3(d) of Law 7/2017",
+  "storyline": "gibran-ijazah-mk",
+  "status": "verified",
+  "sources": "Detik <https://news.detik.com/berita/d-8733298/kpu-respons-putusan-ma-soal-suket-sma-gibran-ungkit-tahapan-pemilu> ; CNN Indonesia <https://www.cnnindonesia.com/nasional/20261031133331-32-1421757/gerindra-minta-kemendikdasmen-kpu-respons-putusan-ma-soal-gibran>"
+ },
+ {
+  "date": "2026-10-31",
+  "category": "NEWS",
+  "event": "Polda Metro Jaya apologised over the viral 29 Oct 'Deklarasi Sumpah Pemuda Mahasiswa Indonesia 2026' at Pospol Bundaran HI, saying presidential special envoy Raffi Ahmad and creator Willie Salim attended as invited guests and that it was not a counter to the previous day's student demonstration.",
+  "key_numbers": "Event 29 Oct 2026 (98th Sumpah Pemuda) · apology 31 Oct · police probing alleged 'mahasiswa gadungan' (fake students) among participants",
+  "storyline": "",
+  "status": "verified",
+  "sources": "Detik <https://news.detik.com/berita/d-8732847/polda-metro-minta-maaf-soal-viral-deklarasi-mahasiswa-nyatakan-raffi-ahmad-tamu-undangan> ; CNN Indonesia <https://www.cnnindonesia.com/nasional/20261031204838-20-1421856/polda-metro-minta-maaf-soal-deklarasi-mahasiswa-sebut-raffi-diundang> ; Bisnis <https://kabar24.bisnis.com/read/20261101/15/2017276/minta-maaf-soal-acara-sumpah-pemuda-polda-metro-jaya-raffi-ahmad-tamu-undangan>"
+ },
+ {
+  "date": "2026-10-31",
+  "category": "ENV",
+  "event": "Anak Krakatau erupted repeatedly on the evening of 31 Oct while staying at Level III (Siaga), with PVMBG keeping a 5 km exclusion radius. (update of E0108)",
+  "key_numbers": "Level III (Siaga) · 5 km radius · 1 km bar near new island (NW/SE) · first eruption ~18:30 WIB · outlets report 12 eruptions that night (Okezone, Sindonews headlines)",
+  "storyline": "volcanoes",
+  "status": "partial",
+  "sources": "CNN Indonesia <https://www.cnnindonesia.com/nasional/20261031194912-20-1421843/gunung-anak-krakatau-erupsi-malam-ini-masyarakat-diimbau-tenang> ; Detik <https://news.detik.com/berita/d-8732784/gunung-anak-krakatau-erupsi-lagi-malam-ini>"
+ },
+ {
+  "date": "2026-10-31",
+  "category": "ENV",
+  "event": "The Indonesian Pediatric Society (IDAI) warned that children exposed to forest-fire haze face a risk of stunting, alongside lung and brain harm.",
+  "key_numbers": "No figures verified from the article body",
+  "storyline": "karhutla",
+  "status": "partial",
+  "sources": "CNN Indonesia <https://www.cnnindonesia.com/nasional/20261031193252-20-1421842/idai-anak-terpapar-asap-karhutla-berisiko-alami-stunting> ; Berita Satu <https://www.beritasatu.com/lifestyle/3037916/fkui-ungkap-risiko-asap-karhutla-bagi-otak-dan-paru-paru-anak>"
+ },
+ {
+  "date": "2026-10-31",
+  "category": "NEWS",
+  "event": "Police in East Java say Dwi Bagus Martono, 40, killed his secret wife and her 4-year-old son, allegedly tried to destroy the bodies and hid at a spiritual retreat in Jombang before his 25 Oct arrest.",
+  "key_numbers": "Victims aged 30 and 4 · missing since 20 Sep 2026 · arrested 25 Oct 2026 · hid ~2 weeks in Gudo, Jombang",
+  "storyline": "",
+  "status": "partial",
+  "sources": "CNN Indonesia <https://www.cnnindonesia.com/nasional/20261030191320-12-1421625/fakta-fakta-terbaru-kasus-pembunuhan-sadis-di-madiun>"
+ },
+ {
+  "date": "2026-11-01",
+  "category": "ENV",
+  "event": "A flood-damaged bridge cut access to two villages in West Aceh, and BMKG warned of waves up to 4 m in the southern waters of East Java. (update of E0469)",
+  "key_numbers": "2 villages cut off · waves up to 4 m",
+  "storyline": "",
+  "status": "partial",
+  "sources": "Antara <https://www.antaranews.com/terkini>"
+ }
+]
