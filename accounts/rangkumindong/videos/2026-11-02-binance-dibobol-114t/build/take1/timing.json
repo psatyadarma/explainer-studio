@@ -1,0 +1,837 @@
+{
+ "duration": 77.225,
+ "voice": "Cahaya",
+ "lines": [
+  {
+   "id": "h1",
+   "text": "Rp114 triliun kripto lenyap. Uangmu aman?",
+   "start": 0.22599999999999998,
+   "end": 4.416,
+   "words": [
+    {
+     "w": "Rp114",
+     "start": 0.226,
+     "end": 1.136
+    },
+    {
+     "w": "triliun",
+     "start": 1.216,
+     "end": 1.616
+    },
+    {
+     "w": "kripto",
+     "start": 2.216,
+     "end": 2.656
+    },
+    {
+     "w": "lenyap.",
+     "start": 2.716,
+     "end": 3.216
+    },
+    {
+     "w": "Uangmu",
+     "start": 3.416,
+     "end": 3.856
+    },
+    {
+     "w": "aman?",
+     "start": 3.936,
+     "end": 4.416
+    }
+   ]
+  },
+  {
+   "id": "h2",
+   "text": "Lebih dari separuh uang curiannya, sampai sekarang belum ketahuan di mana.",
+   "start": 4.715,
+   "end": 9.366,
+   "words": [
+    {
+     "w": "Lebih",
+     "start": 4.715,
+     "end": 4.886
+    },
+    {
+     "w": "dari",
+     "start": 4.934,
+     "end": 5.126
+    },
+    {
+     "w": "separuh",
+     "start": 5.206,
+     "end": 5.686
+    },
+    {
+     "w": "uang",
+     "start": 5.766,
+     "end": 5.926
+    },
+    {
+     "w": "curiannya,",
+     "start": 5.986,
+     "end": 6.966
+    },
+    {
+     "w": "sampai",
+     "start": 7.03,
+     "end": 7.366
+    },
+    {
+     "w": "sekarang",
+     "start": 7.419,
+     "end": 7.926
+    },
+    {
+     "w": "belum",
+     "start": 7.979,
+     "end": 8.246
+    },
+    {
+     "w": "ketahuan",
+     "start": 8.306,
+     "end": 8.806
+    },
+    {
+     "w": "di",
+     "start": 8.859,
+     "end": 8.966
+    },
+    {
+     "w": "mana.",
+     "start": 9.03,
+     "end": 9.366
+    }
+   ]
+  },
+  {
+   "id": "rd",
+   "text": "Rangkumin dong!",
+   "start": 9.595,
+   "end": 10.982,
+   "words": [
+    {
+     "w": "Rangkumin",
+     "start": 9.595,
+     "end": 10.289
+    },
+    {
+     "w": "dong!",
+     "start": 10.289,
+     "end": 10.982
+    }
+   ]
+  },
+  {
+   "id": "l1",
+   "text": "Jadi gini. 29 Oktober, Binance dibobol.",
+   "start": 11.727199546485261,
+   "end": 15.377199546485262,
+   "words": [
+    {
+     "w": "Jadi",
+     "start": 11.727,
+     "end": 11.767
+    },
+    {
+     "w": "gini.",
+     "start": 11.847,
+     "end": 12.362
+    },
+    {
+     "w": "29",
+     "start": 12.362,
+     "end": 13.157
+    },
+    {
+     "w": "Oktober,",
+     "start": 13.237,
+     "end": 13.877
+    },
+    {
+     "w": "Binance",
+     "start": 14.117,
+     "end": 14.657
+    },
+    {
+     "w": "dibobol.",
+     "start": 14.717,
+     "end": 15.377
+    }
+   ]
+  },
+  {
+   "id": "l2",
+   "text": "Yang hilang: 6,3 miliar dolar.",
+   "start": 15.73119954648526,
+   "end": 18.85219954648526,
+   "words": [
+    {
+     "w": "Yang",
+     "start": 15.731,
+     "end": 15.757
+    },
+    {
+     "w": "hilang:",
+     "start": 15.817,
+     "end": 16.457
+    },
+    {
+     "w": "6,3",
+     "start": 16.521,
+     "end": 17.497
+    },
+    {
+     "w": "miliar",
+     "start": 17.617,
+     "end": 18.137
+    },
+    {
+     "w": "dolar.",
+     "start": 18.217,
+     "end": 18.852
+    }
+   ]
+  },
+  {
+   "id": "l3",
+   "text": "Uangnya dipencar ke 10 blockchain. Kebanyakan dalam. Dua puluh. Menit.",
+   "start": 18.945199546485263,
+   "end": 22.06819954648526,
+   "words": [
+    {
+     "w": "Uangnya",
+     "start": 18.945,
+     "end": 18.952
+    },
+    {
+     "w": "dipencar",
+     "start": 18.953,
+     "end": 18.961
+    },
+    {
+     "w": "ke",
+     "start": 18.962,
+     "end": 18.964
+    },
+    {
+     "w": "10",
+     "start": 18.965,
+     "end": 19.009
+    },
+    {
+     "w": "blockchain.",
+     "start": 19.029,
+     "end": 19.649
+    },
+    {
+     "w": "Kebanyakan",
+     "start": 19.716,
+     "end": 20.599
+    },
+    {
+     "w": "dalam.",
+     "start": 20.679,
+     "end": 21.459
+    },
+    {
+     "w": "Dua",
+     "start": 21.559,
+     "end": 21.852
+    },
+    {
+     "w": "puluh.",
+     "start": 21.852,
+     "end": 22.001
+    },
+    {
+     "w": "Menit.",
+     "start": 22.006,
+     "end": 22.068
+    }
+   ]
+  },
+  {
+   "id": "l4",
+   "text": "Awalnya, kata Binance: laptop developer yang diretas.",
+   "start": 22.77919954648526,
+   "end": 25.884199546485263,
+   "words": [
+    {
+     "w": "Awalnya,",
+     "start": 22.779,
+     "end": 23.419
+    },
+    {
+     "w": "kata",
+     "start": 23.522,
+     "end": 23.843
+    },
+    {
+     "w": "Binance:",
+     "start": 23.946,
+     "end": 24.441
+    },
+    {
+     "w": "laptop",
+     "start": 24.497,
+     "end": 24.737
+    },
+    {
+     "w": "developer",
+     "start": 24.769,
+     "end": 25.489
+    },
+    {
+     "w": "yang",
+     "start": 25.642,
+     "end": 25.721
+    },
+    {
+     "w": "diretas.",
+     "start": 25.722,
+     "end": 25.884
+    }
+   ]
+  },
+  {
+   "id": "l5",
+   "text": "TRM Labs dan Chainalysis menduga TraderTraitor, kelompok sokongan Korea Utara.",
+   "start": 26.82419954648526,
+   "end": 32.00119954648526,
+   "words": [
+    {
+     "w": "TRM",
+     "start": 26.824,
+     "end": 27.244
+    },
+    {
+     "w": "Labs",
+     "start": 27.324,
+     "end": 27.684
+    },
+    {
+     "w": "dan",
+     "start": 27.784,
+     "end": 27.98
+    },
+    {
+     "w": "Chainalysis",
+     "start": 28.028,
+     "end": 28.724
+    },
+    {
+     "w": "menduga",
+     "start": 28.784,
+     "end": 29.324
+    },
+    {
+     "w": "TraderTraitor,",
+     "start": 29.404,
+     "end": 30.518
+    },
+    {
+     "w": "kelompok",
+     "start": 30.582,
+     "end": 31.041
+    },
+    {
+     "w": "sokongan",
+     "start": 31.094,
+     "end": 31.692
+    },
+    {
+     "w": "Korea",
+     "start": 31.814,
+     "end": 31.833
+    },
+    {
+     "w": "Utara.",
+     "start": 31.837,
+     "end": 32.001
+    }
+   ]
+  },
+  {
+   "id": "l6",
+   "text": "Binance belum menunjuk pelaku.",
+   "start": 32.49419954648526,
+   "end": 33.65619954648526,
+   "words": [
+    {
+     "w": "Binance",
+     "start": 32.494,
+     "end": 32.814
+    },
+    {
+     "w": "belum",
+     "start": 32.854,
+     "end": 33.121
+    },
+    {
+     "w": "menunjuk",
+     "start": 33.227,
+     "end": 33.611
+    },
+    {
+     "w": "pelaku.",
+     "start": 33.616,
+     "end": 33.656
+    }
+   ]
+  },
+  {
+   "id": "l7",
+   "text": "Binance janji tanggung semua kerugian. Sekitar 3 miliar dolar sudah dibekukan.",
+   "start": 34.60819954648526,
+   "end": 39.05519954648526,
+   "words": [
+    {
+     "w": "Binance",
+     "start": 34.608,
+     "end": 34.997
+    },
+    {
+     "w": "janji",
+     "start": 35.024,
+     "end": 35.357
+    },
+    {
+     "w": "tanggung",
+     "start": 35.424,
+     "end": 36.037
+    },
+    {
+     "w": "semua",
+     "start": 36.144,
+     "end": 36.654
+    },
+    {
+     "w": "kerugian.",
+     "start": 36.694,
+     "end": 37.134
+    },
+    {
+     "w": "Sekitar",
+     "start": 37.214,
+     "end": 37.587
+    },
+    {
+     "w": "3",
+     "start": 37.654,
+     "end": 37.907
+    },
+    {
+     "w": "miliar",
+     "start": 37.961,
+     "end": 38.254
+    },
+    {
+     "w": "dolar",
+     "start": 38.294,
+     "end": 38.614
+    },
+    {
+     "w": "sudah",
+     "start": 38.714,
+     "end": 39.044
+    },
+    {
+     "w": "dibekukan.",
+     "start": 39.045,
+     "end": 39.055
+    }
+   ]
+  },
+  {
+   "id": "l8",
+   "text": "Tapi… dibekukan belum tentu balik. Lewat proses hukum, bisa berbulan-bulan sampai tahunan.",
+   "start": 40.41919954648526,
+   "end": 45.86719954648526,
+   "words": [
+    {
+     "w": "Tapi…",
+     "start": 40.419,
+     "end": 40.819
+    },
+    {
+     "w": "dibekukan",
+     "start": 40.859,
+     "end": 41.379
+    },
+    {
+     "w": "belum",
+     "start": 41.459,
+     "end": 41.932
+    },
+    {
+     "w": "tentu",
+     "start": 41.999,
+     "end": 42.367
+    },
+    {
+     "w": "balik.",
+     "start": 42.415,
+     "end": 42.679
+    },
+    {
+     "w": "Lewat",
+     "start": 42.719,
+     "end": 43.439
+    },
+    {
+     "w": "proses",
+     "start": 43.487,
+     "end": 43.759
+    },
+    {
+     "w": "hukum,",
+     "start": 43.799,
+     "end": 44.079
+    },
+    {
+     "w": "bisa",
+     "start": 44.159,
+     "end": 44.419
+    },
+    {
+     "w": "berbulan-bulan",
+     "start": 44.479,
+     "end": 45.279
+    },
+    {
+     "w": "sampai",
+     "start": 45.359,
+     "end": 45.742
+    },
+    {
+     "w": "tahunan.",
+     "start": 45.743,
+     "end": 45.867
+    }
+   ]
+  },
+  {
+   "id": "l10",
+   "text": "Dan sisanya, sekitar 3,3 miliar dolar, belum berhasil dibekukan.",
+   "start": 46.884199546485256,
+   "end": 51.34319954648526,
+   "words": [
+    {
+     "w": "Dan",
+     "start": 46.884,
+     "end": 47.204
+    },
+    {
+     "w": "sisanya,",
+     "start": 47.257,
+     "end": 47.817
+    },
+    {
+     "w": "sekitar",
+     "start": 47.897,
+     "end": 48.244
+    },
+    {
+     "w": "3,3",
+     "start": 48.297,
+     "end": 49.347
+    },
+    {
+     "w": "miliar",
+     "start": 49.414,
+     "end": 49.809
+    },
+    {
+     "w": "dolar,",
+     "start": 49.871,
+     "end": 50.245
+    },
+    {
+     "w": "belum",
+     "start": 50.307,
+     "end": 50.507
+    },
+    {
+     "w": "berhasil",
+     "start": 50.547,
+     "end": 51.223
+    },
+    {
+     "w": "dibekukan.",
+     "start": 51.239,
+     "end": 51.343
+    }
+   ]
+  },
+  {
+   "id": "l10b",
+   "text": "Terbaru: mulai 1 November, Binance buka lagi penarikan, bertahap.",
+   "start": 52.34719954648526,
+   "end": 56.29719954648526,
+   "words": [
+    {
+     "w": "Terbaru:",
+     "start": 52.347,
+     "end": 52.774
+    },
+    {
+     "w": "mulai",
+     "start": 52.836,
+     "end": 53.147
+    },
+    {
+     "w": "1",
+     "start": 53.227,
+     "end": 53.76
+    },
+    {
+     "w": "November,",
+     "start": 53.827,
+     "end": 54.411
+    },
+    {
+     "w": "Binance",
+     "start": 54.475,
+     "end": 54.827
+    },
+    {
+     "w": "buka",
+     "start": 54.867,
+     "end": 55.207
+    },
+    {
+     "w": "lagi",
+     "start": 55.307,
+     "end": 55.685
+    },
+    {
+     "w": "penarikan,",
+     "start": 55.741,
+     "end": 56.225
+    },
+    {
+     "w": "bertahap.",
+     "start": 56.228,
+     "end": 56.297
+    }
+   ]
+  },
+  {
+   "id": "l11",
+   "text": "Buat kamu: di Indonesia ada 22,4 juta akun kripto, data OJK Mei 2026.",
+   "start": 57.40719954648526,
+   "end": 65.17219954648526,
+   "words": [
+    {
+     "w": "Buat",
+     "start": 57.407,
+     "end": 57.727
+    },
+    {
+     "w": "kamu:",
+     "start": 57.807,
+     "end": 58.227
+    },
+    {
+     "w": "di",
+     "start": 58.327,
+     "end": 58.527
+    },
+    {
+     "w": "Indonesia",
+     "start": 58.587,
+     "end": 59.087
+    },
+    {
+     "w": "ada",
+     "start": 59.167,
+     "end": 59.407
+    },
+    {
+     "w": "22,4",
+     "start": 59.527,
+     "end": 61.087
+    },
+    {
+     "w": "juta",
+     "start": 61.194,
+     "end": 61.541
+    },
+    {
+     "w": "akun",
+     "start": 61.685,
+     "end": 62.322
+    },
+    {
+     "w": "kripto,",
+     "start": 62.417,
+     "end": 63.037
+    },
+    {
+     "w": "data",
+     "start": 63.117,
+     "end": 63.517
+    },
+    {
+     "w": "OJK",
+     "start": 63.597,
+     "end": 64.147
+    },
+    {
+     "w": "Mei",
+     "start": 64.177,
+     "end": 64.297
+    },
+    {
+     "w": "2026.",
+     "start": 64.357,
+     "end": 65.172
+    }
+   ]
+  },
+  {
+   "id": "l12",
+   "text": "OJK: nggak ada rush. Pakai yang berizin dan diawasi OJK.",
+   "start": 66.25919954648526,
+   "end": 70.23019954648527,
+   "words": [
+    {
+     "w": "OJK:",
+     "start": 66.259,
+     "end": 66.819
+    },
+    {
+     "w": "nggak",
+     "start": 66.899,
+     "end": 67.379
+    },
+    {
+     "w": "ada",
+     "start": 67.459,
+     "end": 67.603
+    },
+    {
+     "w": "rush.",
+     "start": 67.635,
+     "end": 67.819
+    },
+    {
+     "w": "Pakai",
+     "start": 67.859,
+     "end": 68.299
+    },
+    {
+     "w": "yang",
+     "start": 68.339,
+     "end": 68.526
+    },
+    {
+     "w": "berizin",
+     "start": 68.579,
+     "end": 69.329
+    },
+    {
+     "w": "dan",
+     "start": 69.369,
+     "end": 69.609
+    },
+    {
+     "w": "diawasi",
+     "start": 69.689,
+     "end": 70.174
+    },
+    {
+     "w": "OJK.",
+     "start": 70.179,
+     "end": 70.23
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "text": "Kalau kamu pegang kripto, minggu ini ngapain? Komen!",
+   "start": 70.79919954648527,
+   "end": 73.90419954648526,
+   "words": [
+    {
+     "w": "Kalau",
+     "start": 70.799,
+     "end": 70.959
+    },
+    {
+     "w": "kamu",
+     "start": 71.039,
+     "end": 71.439
+    },
+    {
+     "w": "pegang",
+     "start": 71.599,
+     "end": 71.799
+    },
+    {
+     "w": "kripto,",
+     "start": 71.839,
+     "end": 72.079
+    },
+    {
+     "w": "minggu",
+     "start": 72.159,
+     "end": 72.742
+    },
+    {
+     "w": "ini",
+     "start": 72.899,
+     "end": 73.259
+    },
+    {
+     "w": "ngapain?",
+     "start": 73.379,
+     "end": 73.789
+    },
+    {
+     "w": "Komen!",
+     "start": 73.797,
+     "end": 73.904
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "text": "Follow Rangkumin Dong, biar nggak ketinggalan!",
+   "start": 74.42919954648526,
+   "end": 76.38919954648526,
+   "words": [
+    {
+     "w": "Follow",
+     "start": 74.429,
+     "end": 74.741
+    },
+    {
+     "w": "Rangkumin",
+     "start": 74.789,
+     "end": 75.269
+    },
+    {
+     "w": "Dong,",
+     "start": 75.309,
+     "end": 75.461
+    },
+    {
+     "w": "biar",
+     "start": 75.493,
+     "end": 75.669
+    },
+    {
+     "w": "nggak",
+     "start": 75.749,
+     "end": 76.389
+    },
+    {
+     "w": "ketinggalan!",
+     "start": 76.389,
+     "end": 76.389
+    }
+   ]
+  }
+ ]
+}

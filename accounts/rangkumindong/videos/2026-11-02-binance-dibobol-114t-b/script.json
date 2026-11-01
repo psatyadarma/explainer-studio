@@ -1,0 +1,140 @@
+{
+ "direction": "[clear, brisk; neutral, no advice]",
+ "voice": "female:Cahaya",
+ "format": "standard",
+ "hook_style": "shock_number",
+ "subs": "word",
+ "storyline": "crypto-hacks",
+ "part": null,
+ "disclaimer": "Bukan ajakan jual/beli aset kripto",
+ "lines": [
+  {
+   "id": "h1",
+   "tag": "[shocked]",
+   "text": "Rp114 triliun kripto lenyap. Uangmu aman?",
+   "say": "Seratus empat belas triliun rupiah kripto lenyap. Uangmu aman?"
+  },
+  {
+   "id": "h2",
+   "tag": "[lowering voice]",
+   "text": "Lebih dari separuh uang curiannya, sampai sekarang belum ketahuan di mana.",
+   "say": "Lebih dari separuh uang curiannya, sampai sekarang belum ketahuan di mana."
+  },
+  {
+   "id": "rd",
+   "tagline": true,
+   "text": "Rangkumin dong!"
+  },
+  {
+   "id": "l1",
+   "tag": "[serious, punchy]",
+   "text": "Jadi gini. 29 Oktober, Binance dibobol.",
+   "say": "Jadi gini. Dua puluh sembilan Oktober, Binance dibobol."
+  },
+  {
+   "id": "l2",
+   "tag": "[emphatic]",
+   "text": "Yang hilang: 6,3 miliar dolar.",
+   "say": "Yang hilang: enam koma tiga miliar dolar."
+  },
+  {
+   "id": "l3",
+   "tag": "[explaining, quick]",
+   "text": "Uangnya dipencar ke 10 blockchain. Kebanyakan dalam. Dua puluh. Menit.",
+   "say": "Uangnya dipencar ke sepuluh blockchain. Kebanyakan dalam. Dua puluh. Menit."
+  },
+  {
+   "id": "l4",
+   "tag": "[matter-of-fact]",
+   "text": "Awalnya, kata Binance: laptop developer yang diretas.",
+   "say": "Awalnya, kata Binance: laptop developer yang diretas."
+  },
+  {
+   "id": "l5",
+   "tag": "[serious]",
+   "text": "TRM Labs dan Chainalysis menduga TraderTraitor, kelompok sokongan Korea Utara.",
+   "say": "Ti Ar Em Labs dan Cheinalisis menduga Treider Treitor, kelompok sokongan Korea Utara."
+  },
+  {
+   "id": "l6",
+   "tag": "[neutral]",
+   "text": "Binance belum menunjuk pelaku.",
+   "say": "Binance belum menunjuk pelaku."
+  },
+  {
+   "id": "l7",
+   "tag": "[reassuring]",
+   "text": "Binance janji tanggung semua kerugian. Sekitar 3 miliar dolar sudah dibekukan.",
+   "say": "Binance janji tanggung semua kerugian. Sekitar tiga miliar dolar sudah dibekukan."
+  },
+  {
+   "id": "l8",
+   "tag": "[skeptical, slower]",
+   "text": "Tapi… dibekukan belum tentu balik. Lewat proses hukum, bisa berbulan-bulan sampai tahunan.",
+   "say": "Tapi... dibekukan belum tentu balik. Lewat proses hukum, bisa berbulan-bulan sampai tahunan."
+  },
+  {
+   "id": "l10",
+   "tag": "[dramatic]",
+   "text": "Dan sisanya, sekitar 3,3 miliar dolar, belum berhasil dibekukan.",
+   "say": "Dan sisanya, sekitar tiga koma tiga miliar dolar, belum berhasil dibekukan."
+  },
+  {
+   "id": "l10b",
+   "tag": "[reassuring]",
+   "text": "Terbaru: mulai 1 November, Binance buka lagi penarikan, bertahap.",
+   "say": "Terbaru: mulai satu November, Binance buka lagi penarikan, bertahap."
+  },
+  {
+   "id": "l11",
+   "tag": "[direct, to the viewer]",
+   "text": "Buat kamu: di Indonesia ada 22,4 juta akun kripto, data OJK Mei 2026.",
+   "say": "Buat kamu: di Indonesia ada dua puluh dua koma empat juta akun kripto, data, O Je Ka Mei dua ribu dua puluh enam."
+  },
+  {
+   "id": "l12",
+   "tag": "[calm, reassuring]",
+   "text": "OJK: nggak ada rush. Pakai yang berizin dan diawasi OJK.",
+   "say": "O Je Ka: nggak ada rash. Pakai yang berizin dan diawasi, O Je Ka."
+  },
+  {
+   "id": "cta",
+   "tag": "[playful, asking the viewer]",
+   "text": "Kalau kamu pegang kripto, minggu ini ngapain? Komen!",
+   "say": "Kalau kamu pegang kripto, minggu ini ngapain? Komen!"
+  },
+  {
+   "id": "end",
+   "tag": "[friendly, upbeat]",
+   "text": "Follow Rangkumin Dong, biar nggak ketinggalan!"
+  }
+ ],
+ "hook_b": {
+  "style": "story",
+  "people": [],
+  "replace": [
+   "h1",
+   "h2"
+  ],
+  "lines": [
+   {
+    "id": "hb1",
+    "tag": "[storytelling, tense]",
+    "text": "Jumat pagi, Pak Budi mau tarik kripto. Nggak bisa.",
+    "say": "Jumat pagi, Pak Budi mau tarik kripto. Nggak bisa."
+   },
+   {
+    "id": "hb2",
+    "tag": "[shocked]",
+    "text": "Beberapa jam sebelumnya, Rp114 triliun lenyap dari Binance.",
+    "say": "Beberapa jam sebelumnya, seratus empat belas triliun rupiah lenyap dari Binance."
+   }
+  ],
+  "label": "ilustrasi"
+ },
+ "tail": 0.9,
+ "end_card": {
+  "text": "Follow Rangkumin Dong",
+  "spoken": false
+ }
+}

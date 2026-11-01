@@ -1,0 +1,157 @@
+[
+ {
+  "claim": "Binance was hacked on 29 October 2026 (US time; Fri 30 Okt early morning WIB); hook B's 'Jumat pagi' follows from this",
+  "numbers": "29 Okt 2026 (waktu AS) · ~20:24–21:04 UTC",
+  "lines": [
+   "l1",
+   "hb1",
+   "hb2"
+  ],
+  "sources": [
+   "https://katadata.co.id/digital/fintech/6ae47ccc8e111/bursa-kripto-binance-dibobol-aset-rp114-3-triliun-lenyap",
+   "https://www.theblock.co/news/markets/2026-10-29-binance-investigating-hack-suspicious-outflows-5-billion-432171",
+   "https://www.tftc.io/binance-suspected-hack-5-billion-outflows-stablecoin-freeze"
+  ],
+  "note": "fixed per factcheck.md FIX 1"
+ },
+ {
+  "claim": "About US$6.3 billion was stolen, about Rp114 trillion",
+  "numbers": "US$6,3 M · Rp114 T (Katadata Rp114,3 T at Rp18.140/US$)",
+  "lines": [
+   "h1",
+   "l2",
+   "hb2"
+  ],
+  "sources": [
+   "https://katadata.co.id/digital/fintech/6ae47ccc8e111/bursa-kripto-binance-dibobol-aset-rp114-3-triliun-lenyap",
+   "https://wartaekonomi.co.id/read644596/bursa-kripto-binance-diretas-kerugian-tembus-rp114-triliun",
+   "https://www.cnbcindonesia.com/tech/20261031182610-37-781174/rp104-triliun-lenyap-digondol-hacker-binance-janji-ganti-rugi"
+  ],
+  "note": "TRM Labs US$6,36 M, Chainalysis US$6,4 M (CNBC). CNBC uses Rp16.500 → Rp104 T; other outlets Rp108,8–113 T. Caption explains the rate difference."
+ },
+ {
+  "claim": "Funds were moved across 10 blockchains, most within about 20 minutes",
+  "numbers": "10 blockchain · ~20 menit",
+  "lines": [
+   "l3"
+  ],
+  "sources": [
+   "https://www.cnbcindonesia.com/tech/20261031182610-37-781174/rp104-triliun-lenyap-digondol-hacker-binance-janji-ganti-rugi",
+   "https://katadata.co.id/digital/fintech/6ae47ccc8e111/bursa-kripto-binance-dibobol-aset-rp114-3-triliun-lenyap"
+  ]
+ },
+ {
+  "claim": "Per Binance's initial investigation, the attack started from a developer's hacked laptop",
+  "numbers": "",
+  "lines": [
+   "l4"
+  ],
+  "sources": [
+   "https://katadata.co.id/digital/fintech/6ae47ccc8e111/bursa-kripto-binance-dibobol-aset-rp114-3-triliun-lenyap"
+  ],
+  "note": "single source so far; find a second (Binance statement / CNBC) or soften"
+ },
+ {
+  "claim": "TRM Labs and Chainalysis link the attack to TraderTraitor, a group backed by North Korea's government; Binance says its investigation has not named anyone responsible",
+  "numbers": "",
+  "sensitivity": "medium (attribution; attributed, not our claim)",
+  "lines": [
+   "l5",
+   "l6"
+  ],
+  "sources": [
+   "https://www.cnbcindonesia.com/tech/20261031182610-37-781174/rp104-triliun-lenyap-digondol-hacker-binance-janji-ganti-rugi",
+   "https://katadata.co.id/digital/fintech/6ae47ccc8e111/bursa-kripto-binance-dibobol-aset-rp114-3-triliun-lenyap"
+  ]
+ },
+ {
+  "claim": "Binance promised to cover all user losses",
+  "numbers": "",
+  "lines": [
+   "l7"
+  ],
+  "sources": [
+   "https://katadata.co.id/digital/fintech/6ae47ccc8e111/bursa-kripto-binance-dibobol-aset-rp114-3-triliun-lenyap",
+   "https://www.cnbcindonesia.com/tech/20261031182610-37-781174/rp104-triliun-lenyap-digondol-hacker-binance-janji-ganti-rugi"
+  ],
+  "note": "Richard Teng on X: 'Uang Anda aman dan kami menanggung setiap kerugian'"
+ },
+ {
+  "claim": "About US$3 billion has been frozen",
+  "numbers": "~US$3 M (Tether 1,57 M, Circle 0,8 M, Ripple 0,2 M per Katadata)",
+  "lines": [
+   "l7"
+  ],
+  "sources": [
+   "https://katadata.co.id/digital/fintech/6ae47ccc8e111/bursa-kripto-binance-dibobol-aset-rp114-3-triliun-lenyap",
+   "https://www.cnbcindonesia.com/tech/20261031182610-37-781174/rp104-triliun-lenyap-digondol-hacker-binance-janji-ganti-rugi"
+  ]
+ },
+ {
+  "claim": "Freezing does not mean the money comes back; recovery goes through legal processes and can take months to years",
+  "numbers": "",
+  "lines": [
+   "l8"
+  ],
+  "sources": [
+   "https://www.cnbcindonesia.com/tech/20261031182610-37-781174/rp104-triliun-lenyap-digondol-hacker-binance-janji-ganti-rugi"
+  ],
+  "note": "quotes TRM Labs (Ari Redbord) and Chainalysis (Eric Jardine) in CNBC; second source wanted"
+ },
+ {
+  "claim": "About US$3.3 billion of the stolen funds has not yet been frozen; this is more than half of the stolen money",
+  "numbers": "~US$3,3 M of US$6,3 M (52%)",
+  "lines": [
+   "h2",
+   "l10"
+  ],
+  "sources": [
+   "https://katadata.co.id/digital/fintech/6ae47ccc8e111/bursa-kripto-binance-dibobol-aset-rp114-3-triliun-lenyap",
+   "https://www.cnbcindonesia.com/tech/20261031182610-37-781174/rp104-triliun-lenyap-digondol-hacker-binance-janji-ganti-rugi"
+  ],
+  "note": "fixed per factcheck.md FIX 2 (Fundstrat via CNBC: 'belum berhasil dibekukan'; Katadata: 'belum ada kejelasan'). Investortrust's 95% figure not used."
+ },
+ {
+  "claim": "Binance halted deposits and withdrawals after the attack (basis of the B-hook illustration)",
+  "numbers": "",
+  "lines": [
+   "hb1"
+  ],
+  "sources": [
+   "https://katadata.co.id/digital/fintech/6ae47ccc8e111/bursa-kripto-binance-dibobol-aset-rp114-3-triliun-lenyap"
+  ],
+  "note": "Pak Budi is a labelled illustration"
+ },
+ {
+  "claim": "Indonesia has 22.4 million crypto consumer accounts as of May 2026 (OJK)",
+  "numbers": "22,4 juta akun · Mei 2026",
+  "lines": [
+   "l11"
+  ],
+  "sources": [
+   "https://finance.detik.com/fintech/d-8564372/investor-kripto-ri-tembus-22-4-juta-nilai-transaksi-rp-23-triliun"
+  ],
+  "note": "accounts, not people; newer figure (22,69 juta, Bisnis 10 Agu) could not be fetched"
+ },
+ {
+  "claim": "OJK (Adi Budiarso, 1 Nov) said there was no rush of withdrawals and urged use of licensed, OJK-supervised providers",
+  "numbers": "",
+  "lines": [
+   "l12"
+  ],
+  "sources": [
+   "https://investortrust.id/market/121172/ojk-pastikan-tak-ada-rush-kripto-di-indonesia-usai-binance-diretas-hingga-gangguan-yang-dialami-indodax-dan-tokocrypto"
+  ]
+ },
+ {
+  "claim": "From 1 November 2026, Binance began reopening withdrawals in phases",
+  "numbers": "1 Nov 2026",
+  "lines": [
+   "l10b"
+  ],
+  "sources": [
+   "https://investortrust.id/market/121172/ojk-pastikan-tak-ada-rush-kripto-di-indonesia-usai-binance-diretas-hingga-gangguan-yang-dialami-indodax-dan-tokocrypto"
+  ],
+  "note": "FIX 3; single outlet so far"
+ }
+]
