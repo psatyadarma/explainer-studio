@@ -20,7 +20,9 @@
   "factcheck_light": "done",
   "default_pick": "done",
   "factcheck_full": "done",
-  "qa": "done"
+  "qa": "done",
+  "approval": "done",
+  "post": "scheduled"
  },
  "notes": [],
  "merge_stats": {
