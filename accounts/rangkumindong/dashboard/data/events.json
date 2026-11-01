@@ -1,95 +1,5 @@
 [
 {
-"id": "E0004",
-"date": "2026-10-01",
-"category": "ECO",
-"event": "BPS: September inflation",
-"key_numbers": "0.30% m/m, 3.28% y/y, 2.17% YTD; core 2.84% y/y; food +4.37% y/y; gold/jewellery pushed personal care +7.77%",
-"storyline": "",
-"status": "verified",
-"upcoming": false
-},
-{
-"id": "E0005",
-"date": "2026-10-01",
-"category": "ECO",
-"event": "Pertamina keeps fuel prices unchanged for October; minister says no subsidised fuel hike until year-end",
-"key_numbers": "Pertalite Rp10,000 · Biosolar Rp6,800 · Pertamax Rp15,950 · Pertamax Turbo Rp19,600 · Dexlite Rp23,700",
-"storyline": "fuel-oil",
-"status": "verified",
-"upcoming": false
-},
-{
-"id": "E0006",
-"date": "2026-10-01",
-"category": "POL",
-"event": "7th cabinet reshuffle (≥17 posts): Bahlil becomes new Menko Hilirisasi & Transisi Energi while keeping ESDM; Sugiono → Menko PMK; Arrmanatha Nasir → Foreign Minister; Listyo Sigit → Kepala Staf Kepresidenan; Suyudi Ario Seto → Kapolri",
-"key_numbers": "2 weeks after 6th reshuffle (14 Sep)",
-"storyline": "cabinet-reshuffles",
-"status": "verified",
-"upcoming": false
-},
-{
-"id": "E0060",
-"date": "2026-10-01",
-"category": "ECO",
-"event": "BPS reported the August 2026 trade surplus on 1 October; BPS now publishes trade data at the start of the month, so the scheduled 15 October September release (E0023) does not exist and September data is expected around early November. (update of E0023)",
-"key_numbers": "Aug 2026 surplus US$3.55 B · exports US$26.61 B (+6.72% y/y) · imports US$23.06 B (+19.09% y/y) · Jan–Aug surplus US$7.25 B, exports US$193.64 B (+4.74%), imports US$186.39 B (+19.84%) · July 2026 surplus US$120 juta after two deficit months · September release date inferred, not confirmed",
-"storyline": "",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0063",
-"date": "2026-10-01",
-"category": "ECO",
-"event": "Indonesia sets higher CPO reference price for October 2026 and a slightly lower first-half-October coal reference price (HBA).",
-"key_numbers": "CPO reference US$1,042.15/t (+US$34.64, +3.44% from US$1,007.51) · CPO export duty US$178/t · export levy 12.5% (about US$130.27/t) · HBA (6,322 kcal) US$122.52/t vs 123.54 · HBA I US$90.60 vs 93.94 · HBA II US$63.45 vs 63.17 · HBA III US$43.84 vs 44.53 · Kepmen ESDM 384.K/MB.01/MEM.B/2026",
-"storyline": "",
-"status": "verified",
-"upcoming": false
-},
-{
-"id": "E0089",
-"date": "2026-10-01",
-"category": "BIZ",
-"event": "Ministry of Transport lets airlines add a fuel surcharge of up to 40% above the upper fare limit on domestic economy tickets from 1 Oct 2026.",
-"key_numbers": "Surcharge up to 40% (letter AU.005/913/DJPU/2026, KM 1041/2026) · national average avtur Rp23,315/liter · avtur CGK Rp22,471/liter (from Rp21,102, +6.49%, from 1 Sep) · Garuda H1 fuel expense +43.6%",
-"storyline": "fuel-oil",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0090",
-"date": "2026-10-01",
-"category": "TECH",
-"event": "Komdigi gave seven private platforms (PO Haryanto, PO Handoyo, Rosalia Indah, Roti'O, Sriwijaya Air, Sudiro Tungga Jaya, FatSecret) a 1 Oct deadline to register as PSE or face access cut-off; outcome not found.",
-"key_numbers": "25 PSEs warned in total · 16 registered (incl. Whoosh/KCIC, TransJakarta) · 7 listed at risk · Pelita Air and Shopify committed to register · deadline 1 Oct 2026",
-"storyline": "",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0151",
-"date": "2026-10-01",
-"category": "TECH",
-"event": "DJP changed Coretax tax-return correction scheme to 'replace' from 1 Oct 2026 (PER-12/PJ/2026), and taxpayers complained about a new Coretax interface and unresponsive menus on 12-13 Oct; DJP says the issue is fixed.",
-"key_numbers": "Replace scheme from 1 Oct 2026 · PER-12/PJ/2026 · complaint count not given",
-"storyline": "",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0039",
-"date": "2026-10-01",
-"category": "ECO",
-"event": "Marketplaces collect 0.5% PPh 22 on domestic sellers' gross turnover from 1 Oct 2026 (brought forward from 1 Nov; Tokopedia, Shopee, Lazada, Blibli named); individuals ≤Rp500 juta/yr turnover exempt with a statement letter",
-"key_numbers": "0.5% · start 1 Oct 2026 (DJP SP-23/2026; earlier 1 Aug, then 1 Nov) · ≤Rp500 juta exempt",
-"storyline": "tax-policy",
-"status": "verified",
-"upcoming": false
-},
-{
 "id": "E0007",
 "date": "2026-10-02",
 "category": "MKT",
@@ -4487,7 +4397,7 @@
 "key_numbers": "Rallies 15-30 Oct 2026 in 38 provinces · demand: UMP/UMSP 2027 +7.5% to +9.5% · announcement date 1 Nov 2026 (per KSPI; CNN Indonesia describes it only as the unions' request) · Manpower Minister Yassierli: formula follows the new labour rules (E0225)",
 "storyline": "ump-2027",
 "status": "upcoming",
-"upcoming": true
+"upcoming": false
 },
 {
 "id": "E0289",
@@ -4497,7 +4407,7 @@
 "key_numbers": "0.5% of gross turnover (excl. PPN/PPnBM) · starts 1 Nov 2026 · postponement ran to 31 Oct 2026 · individual sellers up to Rp500 juta/year not withheld but must file a turnover statement · turnover counted across all platforms and offline · basis PMK 37/2025 · first set for 1 Jul 2026",
 "storyline": "ecommerce-seller-rules",
 "status": "superseded",
-"upcoming": true
+"upcoming": false
 },
 {
 "id": "E0469",
@@ -4507,7 +4417,7 @@
 "key_numbers": "Siaga (heavy-very heavy rain): Kalbar · strong winds: Sumbar, Bengkulu, Lampung, Banten, Jabar, Jatim, Sulsel · media report heavy rain alerts for Jabar and Aceh on 1-2 Nov",
 "storyline": "",
 "status": "upcoming",
-"upcoming": true
+"upcoming": false
 },
 {
 "id": "E0276",
@@ -4605,7 +4515,7 @@
 "category": "TECH",
 "event": "Katadata reports Prabowo will launch Perlinsos Digital on 10 November 2026, targeting 50 million recipients. (update of E0041)",
 "key_numbers": "Launch 10 Nov 2026 · 50 juta penerima target · article body not read (headline and summary only)",
-"storyline": "",
+"storyline": "perlinsos-digital",
 "status": "upcoming",
 "upcoming": true
 },

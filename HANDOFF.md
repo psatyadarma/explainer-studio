@@ -1,6 +1,6 @@
 # Handoff: Rangkumin Dong (read this first in every session)
 
-Updated: Sat 31 Oct 2026, 19:30 WITA. Each daily run is a fresh session with no memory of earlier chats. **This file plus the playbook are the memory.** Whenever something here changes, update it, mirror it to the Video project (`claude/rangkumindong-handoff.md`), commit and push.
+Updated: Sun 1 Nov 2026, 19:30 WITA. Each daily run is a fresh session with no memory of earlier chats. **This file plus the playbook are the memory.** Whenever something here changes, update it, mirror it to the Video project (`claude/rangkumindong-handoff.md`), commit and push.
 
 ## Standing rules from the user
 - **Experiments from 23 Oct:** daily opening A/B (B = Instagram Trial Reel, `engine/variant.py` + `engine/post.py --trial`), slot fixed at 19:00 WITA, voice in weekly blocks. The "Rangkumin dong!" tagline stays right after the hook (user 22 Oct: only change it when the data says so). See playbook → Experiments 0.
@@ -25,7 +25,7 @@ Updated: Sat 31 Oct 2026, 19:30 WITA. Each daily run is a fresh session with no 
 - Rendered MP4s are not committed (`out/` is gitignored). They live in the day's session and on the platforms after posting.
 
 ## Session setup (start of every run)
-1. `git clone https://github.com/psatyadarma/explainer-studio && cd explainer-studio && npm install` (playwright-core + @sparticuz/chromium; cdn.playwright.dev is blocked). Check that `ffmpeg` and `python3 -c "import numpy"` work, and install anything missing.
+1. `git clone https://github.com/psatyadarma/explainer-studio && cd explainer-studio && npm install` (playwright-core + @sparticuz/chromium; cdn.playwright.dev is blocked). Check that `ffmpeg` and `python3 -c "import numpy"` work, and install anything missing. Render: leave CHROME_PATH empty (/usr/bin/google-chrome crashes); `pip install soundfile` if missing.
 2. Load the keys as above. If today's video uses a person cut-out: `pip install --break-system-packages rembg` and download the model once into ~/.u2net (see engine/cutout.py header; GitHub release, ~175 MB).
 3. Read: this file → `accounts/rangkumindong/knowledge/playbook.md` (incl. "Agent pipeline") → `brand.json` → `knowledge/video-log.md` → active `storylines/`.
 4. Agents: start them as general-purpose agents told to "Read .claude/agents/<role>.md and follow it exactly" (researchers on model sonnet). Don't rely on the custom agent types being registered.
@@ -35,14 +35,9 @@ Updated: Sat 31 Oct 2026, 19:30 WITA. Each daily run is a fresh session with no 
 - Live: #1 IHSG/MSCI (19 Oct), #2 rupiah Rp18.046 (20 Oct), #3 karhutla/Lutfi (21 Oct), #4 definisi korupsi (22 Oct 19:30, IG https://www.instagram.com/reel/Dey4SpKEY5J/ · YT https://www.youtube.com/watch?v=vSNSsBHAMe8), #5 harus survival (23 Oct ~18:15, posted early at user's request, IG https://www.instagram.com/reel/De1T7g3AGla/ · YT https://www.youtube.com/watch?v=4UDj48AzkDU; B not posted, Trial Reels blocked). Links, metrics and per-day details: covered.csv, metrics.csv, run-log.md.
 - IG avg % watched so far: 12.4% and 3.1% → retention is the focus (opening rules, daily opening A/B from 23 Oct).
 - Weekly long video "Rangkumin Seminggu": 6–10 min, 16:9, Sat 08:00 WITA. The first one (17–23 Okt) went live 24 Oct 08:00 (IG De2y5UIDySU, YT HrNZE3CJlY4). See playbook → Agent pipeline → Weekly.
-- #6 IHSG chapter cut PART 3 auto-posted 24 Oct 19:00 (IG De3-lMjk0Wl, YT TivUTiMxyV0). Subtitle-lag bug fixed 26 Oct in `engine/tts_eleven.py segment()` (first word pinned to speech onset); confirm on the next real lag.
-- #7 Minggu Depan "4 tanggal dompet" auto-posted 25 Oct 19:00 (IG De6jT34jOCl, YT i1OvbBvUfDw). **Pending user decision:** W43 review proposes replacing the blocked daily opening A/B with alternating-day hook styles on A only (reviews/2026-W43.md).
-- #8 minyak >US$115 vs APBN US$70 (survival PART 2, format short 42 s) auto-posted 26 Oct 19:00 (IG De9IFgyFfdc, YT fjnB040O9oI); default pick, no reply all day.
-- #9 definisi korupsi PART 2 (user pick #5, sens high) posted 27 Oct 19:00 after user OK (IG De_s4bjCYcA, YT NbyJVwx49cU). User now allows auto-posting for all kinds of posts (Standing rules).
-- #10 asap karhutla "1.700 penerbangan batal" (default pick + default auto-post, short 43 s) posted 28 Oct 19:00 (IG DfCRqk-jygU, YT IsQsbiAmYxE). definisi korupsi PART 2 = best IG so far (~1.3k views, ~50% watched at 24 h).
-- #11 KPK Djarum (29 Oct) never posted (default auto-post blocked); superseded by #12 Djarum "kerugian triliunan" (30 Oct 19:00, user OK in the morning; IG DfHbaudCVLy, YT nsRjP_84WAs).
-- Weekly #2 "Rangkumin Seminggu" 24–30 Okt (10:12) live Sat 31 Oct 08:00 (IG DfI0oyajx3t, YT u74sDSDa73M).
-- #13 definisi korupsi PART 3 (chapter cut, user pick + OK) live 31 Oct 19:00 (IG DfKAISMAIiv, YT 9Ha4Sh0QzL8). Next: Sun 1 Nov "Minggu Depan" + W44 review (still pending: user decision on replacing the blocked daily A/B).
+- #6–#13 (24–31 Oct, all live; links in covered.csv/run-log.md): #6 IHSG chapter cut PART 3 (subtitle-lag fixed in `engine/tts_eleven.py segment()`, confirm on next real lag), #7 Minggu Depan 4 tanggal, #8 minyak vs APBN, #9 definisi korupsi PART 2 (user now allows auto-posting for all kinds), #10 asap karhutla (best IG so far: definisi korupsi PART 2 ~1.3k views, ~50% watched), #11 KPK Djarum never posted (auto-post blocked) → superseded by #12 Djarum "kerugian triliunan", #13 definisi korupsi PART 3 (31 Oct 19:00, IG DfKAISMAIiv, YT 9Ha4Sh0QzL8).
+- Weekly #2 "Rangkumin Seminggu" 24–30 Okt (10:12) live Sat 31 Oct 08:00 (IG DfI0oyajx3t, YT u74sDSDa73M). #7 W43 review proposal (alternating hook styles on A only) is superseded by the W44 recommendation below.
+- #14 Minggu Depan "5 tanggal 2–10 Nov" (default pick 14:00, user OK ~15:16) live 1 Nov 19:00 (IG https://www.instagram.com/reel/DfMk3g-AaNV/ · YT https://www.youtube.com/watch?v=kWgg0Cbq5A4); B not posted. **Pending user decision: W44 recommendation** (reviews/2026-W44.md: stop B, rotate 3 hook styles on A only, freeze voice Pratama / block subs / 19:00).
 - Each day: append a 3–5 line block to run-log.md (picks, counts, problems) instead of growing this file.
 
 ## Dashboard: "Rangkumin Dong Studio"

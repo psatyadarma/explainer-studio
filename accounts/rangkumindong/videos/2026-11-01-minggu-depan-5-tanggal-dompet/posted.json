@@ -2,5 +2,19 @@
  "success": true,
  "job_id": "fe5cbc77e71d4f568734f01efd705ece",
  "scheduled_date": "2026-11-01T19:00:00+08:00",
- "request_id": "Rangkumindong-2026-11-01-minggu-depan-5-tanggal-dompet"
+ "request_id": "Rangkumindong-2026-11-01-minggu-depan-5-tanggal-dompet",
+ "results": [
+  {
+   "platform": "youtube",
+   "success": true,
+   "post_url": "https://www.youtube.com/watch?v=kWgg0Cbq5A4",
+   "platform_post_id": "kWgg0Cbq5A4"
+  },
+  {
+   "platform": "instagram",
+   "success": true,
+   "post_url": "https://www.instagram.com/reel/DfMk3g-AaNV/",
+   "platform_post_id": "18100142408108723"
+  }
+ ]
 }

@@ -73,3 +73,9 @@ History moved out of HANDOFF.md (22 Oct) so fresh sessions read less. Append one
 - User picked #1 and gave "OK to post" ~08:55. Hook-critic added "2024" to A; full fact-check 1 fix ("terpidana" → "terdakwa yang divonis 2024"). Producer A 86.2 s / B 84.9 s (1.2× retime), QA PASS both first round. A scheduled 19:00 and live (IG DfKAISMAIiv, YT 9Ha4Sh0QzL8); B not posted (Trial Reels blocked).
 - Analyst: asap 72 h IG 414 / 29.9%, YT 915 / 52.4%; Djarum 24 h IG 37 / 22.0% (weakest of the week).
 - Problems: git push rejected once (another session pushed weekly links in parallel; covered.csv duplicate row resolved); deleting the 14:00 send_later was denied by the classifier (harmless no-op wake-up). Dashboard old-blob deletes worked today.
+
+## 1 Nov (Sun, #14 Minggu Depan "5 tanggal 2–10 Nov"; Cahaya, kamu_stakes / person_collage, subs block, format minggu_depan)
+- Morning: covered.csv had a leftover "=======" merge-marker line (fixed). Sweeps 6/8/7/9 events, 16 new merged. Ideas: 5 offered + 3 runner-ups.
+- No pick by 14:00 → default pick (Minggu Depan). Full fact-check 3 fixes. Producer 47.1 s; first take dropped words, lines after the tagline re-voiced. QA round 1 FIX (zone 5 strip at safe edge, #disc, B collage over header) → round 2 PASS both. User "ok to post" ~15:16 → A live 19:00 (IG DfMk3g-AaNV, YT kWgg0Cbq5A4); B not posted (Trial Reels blocked).
+- W44 review written (reviews/2026-W44.md). Recommendation (stop B, rotate 3 hook styles on A only, freeze voice Pratama / block subs / 19:00) awaits user OK.
+- Producer notes: render needs CHROME_PATH empty (/usr/bin/google-chrome crashes); pip install soundfile was needed.
