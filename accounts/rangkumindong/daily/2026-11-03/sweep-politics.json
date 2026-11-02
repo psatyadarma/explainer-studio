@@ -1,0 +1,146 @@
+{
+  "area": "politics",
+  "run_date": "2026-11-03",
+  "checked": ["antaranews politik (scanned, snapshot ~2 Nov)", "cnnindonesia nasional (scanned, newest item 1 Nov 22:40)", "tempo politik (search listing only; article fetch blocked)", "detik (fetch redirected, only search results)", "storyline: gibran-ijazah-mk", "storyline: corruption-cases (KPK Djarum, Nusron)", "storyline: definisi-korupsi", "storyline: karhutla", "watch list found: MA, KPK, Polri, Komnas HAM, DPR/party moves, Wapres", "watch list not seen: reshuffle, big demos, KY, DPD, UMP"],
+  "events": [
+    {
+      "date": "2026-11-02",
+      "category": "POL",
+      "event": "The Supreme Court (MA) cancelled, about an hour before the 11:00 WIB start, its planned press conference to explain the cassation ruling voiding Gibran's SMA-equivalence certificate, saying it had not yet received the full copy of decision 742 K/TUN/2026.",
+      "key_numbers": "Decision 742 K/TUN/2026 (30 Oct) · press conference planned 2 Nov 11:00 WIB, cancelled ~1 hour before · no new date ('hingga pemberitahuan lebih lanjut')",
+      "storyline": "gibran-ijazah-mk",
+      "update_of": "E0466",
+      "status": "partial",
+      "sources": [
+        {"label": "Hukumonline", "url": "https://www.hukumonline.com/berita/a/belum-terima-salinan-putusan--ma-tunda-penjelasan-soal-suket-pendidikan-gibran-lt6ae82581eb246/"},
+        {"label": "ANTARA", "url": "https://www.antaranews.com/berita/5825491/hari-ini-ma-jelaskan-putusan-soal-suket-penyetaraan-ijazah-gibran"}
+      ],
+      "why_it_matters": "The official explanation of a ruling that could affect the Vice President's eligibility is on hold, so the public is left to argue over the ruling's effect.",
+      "signals": {"spreading": 2, "wallet": 0, "surprise": 2, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "Reported by Media Indonesia, Hukumonline, ANTARA, Kompas, Suara and others; Gibran diploma saga dominates search results 2 Nov",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-01",
+      "category": "POL",
+      "event": "Demokrat deputy secretary-general Jansen Sitindaon said Gibran no longer meets the requirements and must resign or be removed by the DPR and MPR under Article 7A of the Constitution, while Gibran's lawyer Muhammad Rullyandi argued the ruling cannot apply retroactively after the 2024 election process was completed.",
+      "key_numbers": "MA ruling 30 Oct voids the suket dated 6 Aug 2019 · Article 7A (removal of President/VP) · Demokrat statement 1 Nov",
+      "storyline": "gibran-ijazah-mk",
+      "update_of": "E0457",
+      "status": "verified",
+      "sources": [
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261101184849-32-1422083/jansen-demokrat-pilihannya-mas-gibran-mundur-wapres-atau-dimundurkan"},
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261102141403-32-1422313/sikap-seluruh-partai-politik-di-dpr-terkait-polemik-ijazah-gibran"}
+      ],
+      "why_it_matters": "A coalition party now openly floats removing the Vice President, which would be a major shift in national politics.",
+      "signals": {"spreading": 2, "wallet": 0, "surprise": 2, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "Prominent on CNN Indonesia nasional page 1 Nov; Tempo cover-type stories 'Gibran Makin Terpojok' and 'Partai-partai Mulai Kasak-kusuk Memakzulkan Gibran'",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-02",
+      "category": "POL",
+      "event": "CNN Indonesia compiled the DPR parties' positions on the MA ruling: PKS and PKB favour DPR follow-up, PDIP (110 seats) says it cannot push a hak angket alone and is talking with other parties, Gerindra asks Kemendikdasmen and KPU to explain, Golkar calls it now a political matter, and NasDem focuses on the Asset Forfeiture Bill.",
+      "key_numbers": "PDIP 110 seats · MA ruling to MK ruling gap under 3.5 weeks (MK 6 Oct, MA 30 Oct) · 8 parties' stances compiled",
+      "storyline": "gibran-ijazah-mk",
+      "update_of": "E0457",
+      "status": "partial",
+      "sources": [
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261102141403-32-1422313/sikap-seluruh-partai-politik-di-dpr-terkait-polemik-ijazah-gibran"}
+      ],
+      "why_it_matters": "Shows who in the DPR would need to agree for any inquiry or removal, which is the real question after the court rulings.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-02",
+      "category": "POL",
+      "event": "KPK spokesperson Budi Prasetyo said the PT Djarum excise-stamp (cukai) case is still at an early stage, no suspects or witnesses have been announced, more searches are possible, and the offence period will be traced back several years.",
+      "key_numbers": "Searches: Kudus Bea Cukai/Djarum office 28 Oct, six Djarum-affiliated companies 29-30 Oct · state loss 'in the trillions of rupiah' (initial, unquantified) · media report alleged scheme since 2010 (unverified)",
+      "storyline": "corruption-cases",
+      "update_of": "E0416",
+      "status": "verified",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/news/20261102193901-4-781692/kpk-beberkan-kabar-terbaru-soal-kasus-djarum"},
+        {"label": "CNBC Indonesia", "url": "https://cnbcindonesia.com/news/20261102204009-4-781710/siap-siap-bakal-ada-penggeledahan-lagi-terkait-kasus-djarum"}
+      ],
+      "why_it_matters": "A case touching one of Indonesia's biggest cigarette makers and excise (cukai) that shapes cigarette prices and state revenue.",
+      "signals": {"spreading": 2, "wallet": 1, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "Several outlets (CNBC Indonesia, Jawa Pos, Warta Ekonomi, Antara) ran Djarum KPK items 2 Nov",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-01",
+      "category": "POL",
+      "event": "Komnas HAM (chair Anis Hidayah) asked Polri's Propam and Kompolnas to independently examine a 27 Oct pre-dawn police search of Pondok Pesantren Hamalatul Qur'an in Sukoharjo, which it said allegedly involved armed officers, intimidation of santriwati and seizure of items without a seizure letter.",
+      "key_numbers": "Search 27 Oct ~03:20 WIB · 12 santriwati aged 10-16 and 4 ustazah present · 15 people taken for questioning incl. toddlers aged 3 and 5, all released · Rp16 million in student savings seized · linked to 12 Sept arson of a restaurant in Grogol",
+      "storyline": "",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261101175847-20-1422068/komnas-ham-minta-polri-periksa-prosedur-penggeledahan-ponpes-sukoharjo"},
+        {"label": "Tirto", "url": "https://tirto.id/komnas-ham-sesalkan-prosedur-penggeledahan-ponpes-di-sukoharjo-hEsS"}
+      ],
+      "why_it_matters": "Raises the question of what rules police must follow when searching a place where children live, and who checks them.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 0, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "Covered by CNN Indonesia, Tirto, Republika, Media Indonesia, Merdeka, JPNN",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-01",
+      "category": "POL",
+      "event": "Seven Satresnarkoba officers at Polrestabes Surabaya were transferred weeks after arresting three Gerindra regional legislators (Situbondo, Banyuwangi, Malang) in a hotel drug raid; Indonesia Police Watch suspects outside interference.",
+      "key_numbers": "Raid 28 Sept · 8 people arrested, 8 positive on urine tests · 1 sachet of sabu and 2 ecstasy pills seized · 7 officers moved (transfer letter ST/309/X/KEP/2026, 23 Oct) · Gerindra East Java recommended dismissal of the three (5 Oct)",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261101163341-12-1422041/7-polisi-dimutasi-usai-gerebek-pesta-narkoba-3-anggota-dprd-gerindra"}
+      ],
+      "why_it_matters": "Asks whether officers who arrest politicians get punished for doing so; the interference claim is an allegation by a watchdog, not proven.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 2, "visual": 1, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "Listed on CNN Indonesia nasional page 1 Nov",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-01",
+      "category": "ENV",
+      "event": "Karhutla debate continues: media ask why the government has not declared the fires a national disaster, while CNN Indonesia reports East Java fires have burned 11,895 hectares in 2026 and a 3.2 km firebreak is being built to protect orangutan habitat in Central Kalimantan.",
+      "key_numbers": "East Java 11,895 ha burned in 2026 · 3.2 km firebreak, Central Kalimantan · Polri earlier named 245 individuals and 20 corporations suspects (29 Oct)",
+      "storyline": "karhutla",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261101165445-20-1422049/karhutla-jatim-hanguskan-11895-ha-sepanjang-2026-kekeringan-meluas"},
+        {"label": "Suara.com", "url": "https://www.suara.com/news/2026/11/01/170500/nyawa-bertumbangan-jutaan-warga-terdampak-kenapa-karhutla-tak-jadi-bencana-nasional"}
+      ],
+      "why_it_matters": "Decides whether affected regions get national-level funding and response, and affects millions breathing smoke.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 0, "visual": 2, "fresh": 1, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-01",
+      "category": "POL",
+      "event": "DPR Deputy Speaker Sufmi Dasco Ahmad set a target for Gerindra to win the 2029 election.",
+      "key_numbers": "Target: 2029 election win (no seat figure seen in headline)",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "ANTARA", "url": "https://www.antaranews.com/berita/5825011/dasco-targetkan-pemenangan-gerindra-di-pemilu-2029"}
+      ],
+      "why_it_matters": "Early signal of party positioning for 2029 while the Gibran question is unresolved.",
+      "signals": {"spreading": 0, "wallet": 0, "surprise": 0, "visual": 0, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    }
+  ],
+  "gaps": [
+    "Tempo politik and detik section pages could not be read (Tempo article fetch blocked by robots, detik redirected); only search-result titles seen, e.g. Tempo 'Partai-partai Mulai Kasak-kusuk Memakzulkan Gibran'",
+    "Nusron Wahid/KPK status: reports say he skipped two summonses (monitorindonesia, iniriau) but not opened or verified; E0387 existing",
+    "Definisi-korupsi: no new development found beyond 27-28 Oct items; Bisnis 1 Nov piece is commentary",
+    "CNN and ANTARA snapshots end 1-2 Nov morning; nothing seen for 3 Nov. Antara's Aceh Barat floods (43 villages) not politics, left to NEWS/ENV"
+  ]
+}

@@ -1,0 +1,299 @@
+[
+ {
+  "date": "2026-11-02",
+  "category": "MKT",
+  "event": "BEI began excluding 81 high-shareholding-concentration (HSC) stocks from the IHSG calculation on 2 November, and the IHSG closed up 0.79% at 5,096.83 after dipping below 5,000 early in the session. (update of E0276)",
+  "key_numbers": "IHSG 5,096.83 (+39.78 pts, +0.79%) · 81 HSC stocks removed, ~18% of IHSG weight, ~30% of market cap · 837 stocks still counted · value ~Rp10.07 T (CNBC) · intraday low in the 4,980s, high above 5,120",
+  "storyline": "msci-reclassification",
+  "status": "verified",
+  "sources": "CNBC Indonesia <https://www.cnbcindonesia.com/market/20261102154020-17-781613/ihsg-ditutup-menguat-079-ke-509683> ; CNBC Indonesia <https://www.cnbcindonesia.com/market/20261102143933-17-781553/81-saham-hsc-dicoret-dari-ihsg-10-emiten-ini-bobotnya-makin-jumbo> ; OWRITE <https://www.owrite.id/ekbis/2026/11/02/rupiah-ditutup-melemah-rp18-156-per-dolar-as-ihsg-menguat-079-persen/>"
+ },
+ {
+  "date": "2026-11-02",
+  "category": "MKT",
+  "event": "After the HSC exclusion, index weights shifted to big banks and blue chips: CNBC lists BBRI at about 9%, BBCA 7.93%, BMRI up from 5.70% to 7.12%, TLKM up from 3.76% to 4.68%, and ASII up from 3.35% to 4.15%. (update of E0276)",
+  "key_numbers": "BMRI 5.70% to 7.12% · TLKM 3.76% to 4.68% · ASII 3.35% to 4.15% · AMMN 2.79% to 3.50% · BBNI 2.08% to 2.61% · BBRI ~9% · BBCA 7.93%",
+  "storyline": "msci-reclassification",
+  "status": "partial",
+  "sources": "CNBC Indonesia <https://www.cnbcindonesia.com/market/20261102143933-17-781553/81-saham-hsc-dicoret-dari-ihsg-10-emiten-ini-bobotnya-makin-jumbo> ; Investortrust <https://investortrust.id/market/121258/tak-lagi-diperhitungkan-di-ihsg-ini-nasib-81-saham-hsc-bren-hingga-dssa-justru-naik>"
+ },
+ {
+  "date": "2026-11-02",
+  "category": "ECO",
+  "event": "BPS reported October 2026 inflation of 0.22% month on month and 3.23% year on year, driven mainly by red chili and other food prices, slightly below the 0.24% / 3.25% poll consensus. (update of E0278)",
+  "key_numbers": "m/m 0.22% · y/y 3.23% · year-to-date 2.4% · core y/y 2.56% · volatile food m/m 0.77%, y/y 5.81% · IHK 112.31 to 112.56 · red chili contribution 0.13 pt · highest region South Papua 1.12% m/m · North Sulawesi 8.07% y/y · target 2.5% ±1%",
+  "storyline": "",
+  "status": "verified",
+  "sources": "Investortrust <https://investortrust.id/macro/121225/bps-inflasi-bulanan-oktober-2026-capai-0-22-papua-selatan-catat-angka-tertinggi> ; Kontan <https://nasional.kontan.co.id/news/bps-inflasi-pada-oktober-2026-turun-jadi-022> ; Suara.com <https://www.suara.com/bisnis/2026/11/02/112841/bps-umumkan-inflasi-oktober-2026-sentuh-022-cabai-merah-jadi-biang-kerok>"
+ },
+ {
+  "date": "2026-11-02",
+  "category": "ECO",
+  "event": "BPS reported a September 2026 trade surplus of US$3.36 billion, well above the roughly US$1.0-1.8 billion that three economists had forecast, with imports (+18.41% y/y) growing faster than exports (+11.87% y/y).",
+  "key_numbers": "surplus US$3.36 B (Aug US$3.55 B; Sep 2025 US$4.55 B) · exports US$27.59 B (+11.87% y/y) · imports US$24.23 B (+18.41% y/y) · oil and gas imports US$3.27 B (+23.94%) · copper exports +165.97% y/y · economist forecasts US$1.00-1.79 B",
+  "storyline": "",
+  "status": "verified",
+  "sources": "CNBC Indonesia <https://www.cnbcindonesia.com/news/20261102094835-4-781419/breaking-news-neraca-dagang-ri-surplus-us-336-miliar-september-2026> ; Katadata <https://katadata.co.id/finansial/makro/6ae81a14755a4/ekspor-dan-impor-melesat-neraca-perdagangan-september-surplus-us-3-36-miliar> ; Kontan <https://nasional.kontan.co.id/news/surplus-neraca-perdagangan-turun-jadi-us-336-miliar-pada-september-2026>"
+ },
+ {
+  "date": "2026-11-02",
+  "category": "MKT",
+  "event": "The rupiah closed weaker again on 2 November, near the record-low zone, while foreign investors kept selling Indonesian stocks. (update of E0443)",
+  "key_numbers": "Rp18,156/USD (OWRITE, -9 pts, -0.05%) · Rp18,140 (CNBC Indonesia video headline) · record close Rp18,183 on 28 Oct (Kontan) · JISDOR Rp18,139 on 27 Oct · foreign net sell YTD ~Rp97.92 T through 30 Oct (Legawa)",
+  "storyline": "rupiah",
+  "status": "partial",
+  "sources": "OWRITE <https://www.owrite.id/ekbis/2026/11/02/rupiah-ditutup-melemah-rp18-156-per-dolar-as-ihsg-menguat-079-persen/> ; Kontan (FOMC and rupiah) <https://momsmoney.kontan.co.id/news/hasil-fomc-oktober-2026-apa-artinya-bagi-rupiah-hingga-desember> ; CNBC Indonesia market page <https://www.cnbcindonesia.com/market>"
+ },
+ {
+  "date": "2026-10-31",
+  "category": "MKT",
+  "event": "OJK's capital-market regulation head Agus Firmansyah said MSCI's proposed downgrade to Standalone stems mainly from continuing concern about market dysfunction even after announced reforms, citing past cases involving BREN, CUAN and DSSA. (update of E0474)",
+  "key_numbers": "statement made 31 Oct 2026 · MSCI consultation feedback deadline 30 Apr 2027 (storyline)",
+  "storyline": "msci-reclassification",
+  "status": "partial",
+  "sources": "Bloomberg Technoz <https://www.bloombergtechnoz.com/detail-news/126361/ojk-ungkap-alasan-utama-msci-buka-opsi-standalone-market> ; Okezone <https://economy.okezone.com/read/2026/11/01/278/3251387/ojk-bongkar-alasan-msci-usul-turunkan-status-pasar-saham-ri-jadi-standalone-market>"
+ },
+ {
+  "date": "2026-11-05",
+  "category": "ECO",
+  "event": "BPS is expected to release Q3 2026 GDP growth in the first week of November (exact date not confirmed), with economists projecting about 5.2-5.4% year on year. (update of E0455)",
+  "key_numbers": "GREAT Institute projection 5.2-5.4% y/y · InFast projection 5.4% · other economists 'above 5%' · date unconfirmed",
+  "storyline": "growth-outlook",
+  "status": "upcoming",
+  "sources": "Antara <https://www.antaranews.com/berita/5825587/great-institute-proyeksi-pertumbuhan-ekonomi-q3-kisaran-52-54-persen> ; Kontan <https://nasional.kontan.co.id/news/ihsg-bergejolak-ekonom-infast-proyeksi-ekonomi-q3-tumbuh-54>"
+ },
+ {
+  "date": "2026-11-03",
+  "category": "GLB",
+  "event": "US midterm elections take place on 3 November, with Indonesian market commentary watching the effect on the dollar and rate expectations after the Fed held at 3.75-4.00% with two dissenters favouring a hike. (update of E0475)",
+  "key_numbers": "Fed funds 3.75-4.00% (held 28 Oct) · 2 dissents for +25 bp (Cook, Hammack) · next FOMC 8-9 Dec · US CPI 3.7% y/y (Sep) · Brent ~US$114 on 27 Oct · BI RDG 17-18 Nov",
+  "storyline": "rupiah",
+  "status": "partial",
+  "sources": "Kontan MomsMoney <https://momsmoney.kontan.co.id/news/hasil-fomc-oktober-2026-apa-artinya-bagi-rupiah-hingga-desember> ; Legawa weekly agenda <https://legawa.com/2026/11/01/kilas-ekonomi-1-november-2026/>"
+ },
+ {
+  "date": "2026-11-02",
+  "category": "POL",
+  "event": "The Supreme Court (MA) cancelled, about an hour before the 11:00 WIB start, its planned press conference to explain the cassation ruling voiding Gibran's SMA-equivalence certificate, saying it had not yet received the full copy of decision 742 K/TUN/2026. (update of E0466)",
+  "key_numbers": "Decision 742 K/TUN/2026 (30 Oct) · press conference planned 2 Nov 11:00 WIB, cancelled ~1 hour before · no new date ('hingga pemberitahuan lebih lanjut')",
+  "storyline": "gibran-ijazah-mk",
+  "status": "partial",
+  "sources": "Hukumonline <https://www.hukumonline.com/berita/a/belum-terima-salinan-putusan--ma-tunda-penjelasan-soal-suket-pendidikan-gibran-lt6ae82581eb246/> ; ANTARA <https://www.antaranews.com/berita/5825491/hari-ini-ma-jelaskan-putusan-soal-suket-penyetaraan-ijazah-gibran>"
+ },
+ {
+  "date": "2026-11-01",
+  "category": "POL",
+  "event": "Demokrat deputy secretary-general Jansen Sitindaon said Gibran no longer meets the requirements and must resign or be removed by the DPR and MPR under Article 7A of the Constitution, while Gibran's lawyer Muhammad Rullyandi argued the ruling cannot apply retroactively after the 2024 election process was completed. (update of E0457)",
+  "key_numbers": "MA ruling 30 Oct voids the suket dated 6 Aug 2019 · Article 7A (removal of President/VP) · Demokrat statement 1 Nov",
+  "storyline": "gibran-ijazah-mk",
+  "status": "verified",
+  "sources": "CNN Indonesia <https://www.cnnindonesia.com/nasional/20261101184849-32-1422083/jansen-demokrat-pilihannya-mas-gibran-mundur-wapres-atau-dimundurkan> ; CNN Indonesia <https://www.cnnindonesia.com/nasional/20261102141403-32-1422313/sikap-seluruh-partai-politik-di-dpr-terkait-polemik-ijazah-gibran>"
+ },
+ {
+  "date": "2026-11-02",
+  "category": "POL",
+  "event": "KPK spokesperson Budi Prasetyo said the PT Djarum excise-stamp (cukai) case is still at an early stage, no suspects or witnesses have been announced, more searches are possible, and the offence period will be traced back several years. (update of E0416)",
+  "key_numbers": "Searches: Kudus Bea Cukai/Djarum office 28 Oct, six Djarum-affiliated companies 29-30 Oct · state loss 'in the trillions of rupiah' (initial, unquantified) · media report alleged scheme since 2010 (unverified)",
+  "storyline": "corruption-cases",
+  "status": "verified",
+  "sources": "CNBC Indonesia <https://www.cnbcindonesia.com/news/20261102193901-4-781692/kpk-beberkan-kabar-terbaru-soal-kasus-djarum> ; CNBC Indonesia <https://cnbcindonesia.com/news/20261102204009-4-781710/siap-siap-bakal-ada-penggeledahan-lagi-terkait-kasus-djarum>"
+ },
+ {
+  "date": "2026-11-01",
+  "category": "POL",
+  "event": "Komnas HAM (chair Anis Hidayah) asked Polri's Propam and Kompolnas to independently examine a 27 Oct pre-dawn police search of Pondok Pesantren Hamalatul Qur'an in Sukoharjo, which it said allegedly involved armed officers, intimidation of santriwati and seizure of items without a seizure letter.",
+  "key_numbers": "Search 27 Oct ~03:20 WIB · 12 santriwati aged 10-16 and 4 ustazah present · 15 people taken for questioning incl. toddlers aged 3 and 5, all released · Rp16 million in student savings seized · linked to 12 Sept arson of a restaurant in Grogol",
+  "storyline": "",
+  "status": "verified",
+  "sources": "CNN Indonesia <https://www.cnnindonesia.com/nasional/20261101175847-20-1422068/komnas-ham-minta-polri-periksa-prosedur-penggeledahan-ponpes-sukoharjo> ; Tirto <https://tirto.id/komnas-ham-sesalkan-prosedur-penggeledahan-ponpes-di-sukoharjo-hEsS>"
+ },
+ {
+  "date": "2026-11-01",
+  "category": "POL",
+  "event": "Seven Satresnarkoba officers at Polrestabes Surabaya were transferred weeks after arresting three Gerindra regional legislators (Situbondo, Banyuwangi, Malang) in a hotel drug raid; Indonesia Police Watch suspects outside interference.",
+  "key_numbers": "Raid 28 Sept · 8 people arrested, 8 positive on urine tests · 1 sachet of sabu and 2 ecstasy pills seized · 7 officers moved (transfer letter ST/309/X/KEP/2026, 23 Oct) · Gerindra East Java recommended dismissal of the three (5 Oct)",
+  "storyline": "",
+  "status": "partial",
+  "sources": "CNN Indonesia <https://www.cnnindonesia.com/nasional/20261101163341-12-1422041/7-polisi-dimutasi-usai-gerebek-pesta-narkoba-3-anggota-dprd-gerindra>"
+ },
+ {
+  "date": "2026-11-01",
+  "category": "ENV",
+  "event": "Karhutla debate continues: media ask why the government has not declared the fires a national disaster, while CNN Indonesia reports East Java fires have burned 11,895 hectares in 2026 and a 3.2 km firebreak is being built to protect orangutan habitat in Central Kalimantan.",
+  "key_numbers": "East Java 11,895 ha burned in 2026 · 3.2 km firebreak, Central Kalimantan · Polri earlier named 245 individuals and 20 corporations suspects (29 Oct)",
+  "storyline": "karhutla",
+  "status": "partial",
+  "sources": "CNN Indonesia <https://www.cnnindonesia.com/nasional/20261101165445-20-1422049/karhutla-jatim-hanguskan-11895-ha-sepanjang-2026-kekeringan-meluas> ; Suara.com <https://www.suara.com/news/2026/11/01/170500/nyawa-bertumbangan-jutaan-warga-terdampak-kenapa-karhutla-tak-jadi-bencana-nasional>"
+ },
+ {
+  "date": "2026-11-01",
+  "category": "POL",
+  "event": "DPR Deputy Speaker Sufmi Dasco Ahmad set a target for Gerindra to win the 2029 election.",
+  "key_numbers": "Target: 2029 election win (no seat figure seen in headline)",
+  "storyline": "",
+  "status": "partial",
+  "sources": "ANTARA <https://www.antaranews.com/berita/5825011/dasco-targetkan-pemenangan-gerindra-di-pemilu-2029>"
+ },
+ {
+  "date": "2026-11-02",
+  "category": "TECH",
+  "event": "CNBC Indonesia, citing Counterpoint Research, reported global smartphone shipments fell 20% year-on-year in Q3 2026 to the lowest third-quarter level since 2012 because AI-driven demand pushed up memory chip costs, and Xiaomi shipments fell over 30%. (update of E0397)",
+  "key_numbers": "Global shipments −20% YoY Q3 2026 · retail phone prices +20% on average in 2026 · Xiaomi shipments −30%+, share 10% · OPPO −20%+, share 9% · vivo −20%+, share 8% · Xiaomi EV deliveries >50,000 in Oct, ~336,000 Jan–Oct vs 550,000 target",
+  "storyline": "chip-ram-prices",
+  "status": "partial",
+  "sources": "CNBC Indonesia <https://www.cnbcindonesia.com/tech/20261102131526-37-781525/hp-china-sudah-tidak-laku-xiaomi-kini-punya-mesin-uang-baru>"
+ },
+ {
+  "date": "2026-11-01",
+  "category": "TECH",
+  "event": "Binance resumed withdrawals on 1 November after the roughly US$6.3 billion hack, saying it has already replaced 95% of the stolen value, while users pulled out US$3.64 billion net in the first day. (update of E0478)",
+  "key_numbers": "Stolen ~US$6.3B (Rp114.2T) · net withdrawals US$3.64B (Rp65.96T) to 15:30 GMT 1 Nov · DefiLlama outflows US$5.81B · 95% of stolen value replaced · US$6.34B set aside incl. SAFU US$1B · ~US$3B frozen by 30 Oct · 335 million users · FBI blames TraderTraitor (31 Oct), Trump says unconfirmed",
+  "storyline": "crypto-hacks",
+  "status": "verified",
+  "sources": "Katadata <https://katadata.co.id/digital/fintech/6ae7ed060be11/binance-beroperasi-lagi-usai-diretas-nasabah-langsung-tarik-dana-rp-66-triliun> ; CNBC Indonesia <https://www.cnbcindonesia.com/tech/20261031085148-37-781116/modus-maling-bobol-rekening-uang-rp-114-triliun-lenyap-seketika>"
+ },
+ {
+  "date": "2026-11-02",
+  "category": "TECH",
+  "event": "CNBC Indonesia, citing the Straits Times, reported Singapore police found tampered Ledger hardware wallets bought at certain Singapore retailers that captured recovery phrases, and Ledger suspended sales in Southeast Asia including Indonesia on 14 October.",
+  "key_numbers": "Losses SGD 3.5M (Rp49.5B) in 2 reported cases since 10 Sep 2026 · blockchain analysts estimate >US$86M (Rp1.5T) · sales suspended 14 Oct in Singapore, Indonesia, Malaysia, Thailand, Philippines, Vietnam, Hong Kong",
+  "storyline": "crypto-hacks",
+  "status": "partial",
+  "sources": "CNBC Indonesia <https://www.cnbcindonesia.com/tech/20261102065338-37-781330/modus-baru-kuras-rekening-menyusup-di-dompet-warga-ri-sasarannya>"
+ },
+ {
+  "date": "2026-11-01",
+  "category": "TECH",
+  "event": "OJK's Indonesia Anti-Scam Centre (IASC) data to 30 September 2026 show 702,833 accounts blocked and Rp825.2 billion in suspected fraud funds secured, of which Rp207.16 billion was returned to victims. (update of E0206)",
+  "key_numbers": "Accounts blocked 702,833 · funds secured Rp825.2B · returned to victims Rp207.16B (~25%) · reports received 702,342 · Satgas PASTI Aug–Sep 2026: 330 entities handled incl. 241 illegal pinjol · Jan–Sep 2026: 1,199 illegal pinjol, 250 illegal investment, 38 illegal pawnshop stopped · IASC started 22 Nov 2024",
+  "storyline": "online-scams",
+  "status": "verified",
+  "sources": "detikJabar <https://detik.com/jabar/berita/d-8727960/702-ribu-rekening-terindikasi-scam-diblokir-dana-rp-825-miliar-diamankan/amp> ; Okezone <https://economy.okezone.com/read/2026/11/01/320/3251249/5-fakta-pinjol-ilegal-hingga-investasi-bodong-yang-masih-mengintai-masyarakat>"
+ },
+ {
+  "date": "2026-10-30",
+  "category": "TECH",
+  "event": "GoTo's Q3 2026 results show Gojek's ride-hailing adjusted EBITDA fell 16% to Rp159 billion because of the 8% commission cap on two-wheel rides, which GoTo says cost Rp150 billion this quarter and could reach Rp300 billion in 2026. (update of E0461)",
+  "key_numbers": "Ride-hailing adj. EBITDA Rp159B (−16% YoY), margin 2.5% · 8% cap from 1 Jul 2026 (was 20%) · GoRide impact Rp150B in Q3, up to Rp300B in 2026 · delivery EBITDA Rp227B (+20%) · Gojek total Rp347B (+3%) · GTV Rp16.9T (+1%) · group net profit Rp441B vs Rp255B loss · 2026 EBITDA target raised to Rp3.5–3.7T · full Perpres 27/2026 compliance by 31 Dec 2026",
+  "storyline": "ojol-regulation",
+  "status": "verified",
+  "sources": "Katadata <https://katadata.co.id/digital/startup/6ae4347b4d734/imbas-aturan-komisi-8-laba-operasional-layanan-ride-hailing-gojek-turun> ; Katadata <https://katadata.co.id/digital/startup/6ae44bb6ee9aa/aturan-komisi-8-tekan-segmen-ojol-goto-dorong-segmen-bisnis-gopay>"
+ },
+ {
+  "date": "2026-10-27",
+  "category": "TECH",
+  "event": "Communications Deputy Minister Nezar Patria said Komdigi targets 100 Mbps fixed home internet below Rp200,000 per month (around Rp140,000) and wants 5G adoption raised from under 10% to about 30–40% in three to five years. (update of E0481)",
+  "key_numbers": "100 Mbps · price <Rp200,000/month, ~Rp140,000 · 5G adoption <10% now, target 30–40% in 3–5 years · stated 27 Oct, published CNN Indonesia 31 Oct",
+  "storyline": "",
+  "status": "partial",
+  "sources": "CNN Indonesia <https://www.cnnindonesia.com/teknologi/20261031093212-185-1421693/pemerintah-target-internet-rumah-100-mbps-harga-di-bawah-rp200-ribu>"
+ },
+ {
+  "date": "2026-11-02",
+  "category": "TECH",
+  "event": "Security firm Parameter disclosed a ChatGPT flaw where a malicious shared-conversation link could run code in a logged-in user's account and read recent chats; OpenAI fixed it within 8 days after a 18 October report.",
+  "key_numbers": "Reported to OpenAI 18 Oct · fixed within 8 days · rated P1 · bounty US$5,000 (~Rp90M) · no evidence of exploitation in the wild · server-side fix, no user action needed",
+  "storyline": "",
+  "status": "partial",
+  "sources": "CNBC Indonesia <https://www.cnbcindonesia.com/tech/20261102110152-37-781452/obrolan-anda-di-chatgpt-bisa-bocor-ke-publik-peneliti-ungkap-faktanya>"
+ },
+ {
+  "date": "2026-10-31",
+  "category": "TECH",
+  "event": "CNBC Indonesia, citing WABetaInfo, reported WhatsApp is blocking login on phones running outdated operating systems that no longer get security patches, showing a warning until the OS is updated.",
+  "key_numbers": "No cutoff OS version or phone models given in the article · fix path: Settings > General > Software Update",
+  "storyline": "",
+  "status": "partial",
+  "sources": "CNBC Indonesia <https://www.cnbcindonesia.com/tech/20261031001230-37-781100/pemilik-hp-jadul-langsung-diblokir-jangan-abaikan-peringatan-whatsapp>"
+ },
+ {
+  "date": "2026-11-02",
+  "category": "POL",
+  "event": "CNN Indonesia reports the Supreme Court (MA) cassation ruling ordering Gibran's SMA-equivalence letter declared invalid, withdrawn from its holder and destroyed, while MA cancelled a planned press conference and PSI and Demokrat's Jansen traded barbs over the ruling. (update of E0466)",
+  "key_numbers": "MA decision 742 K/TUN/2026 read 30 Oct 2026 · letter No. 9149/D.D1/KS/2019 dated 6 Aug 2019 · PTUN Jakarta 62/G/2026 (21 May) not accepted, PT TUN 130/B/2026 upheld · panel Yulius, Maftuh Effendi, Hari Sugiharto · full ruling not yet on MA site",
+  "storyline": "gibran-ijazah-mk",
+  "status": "verified",
+  "sources": "CNN Indonesia <https://cnnindonesia.com/nasional/20261102093742-32-1422193/kabulkan-kasasi-subhan-ma-perintahkan-suket-sma-gibran-dimusnahkan> ; Detik terpopuler <https://www.detik.com/terpopuler>"
+ },
+ {
+  "date": "2026-11-02",
+  "category": "POL",
+  "event": "Businessman Ferry 'Boboho' testified at the Jakarta Tipikor court that ex-Jampidsus Febrie Adriansyah told him to get money from Tan Kian to avoid being named a suspect in the Jiwasraya case.",
+  "key_numbers": "Rp50 miliar first cited, later 5 juta dolar Singapura (~Rp55 M) · paid in 3 installments · Boboho kept ~Rp5 M and returned it · TPPU indictment Rp354,62 M (Rp346,74 M + US$440.990) · offences 2020-2026 · no denial reported in Antara",
+  "storyline": "corruption-cases",
+  "status": "verified",
+  "sources": "ANTARA <https://www.antaranews.com/berita/5827607/ferry-boboho-sebut-eks-jampidsus-minta-rp50-miliar-dari-tan-kian> ; Detik <https://news.detik.com/berita/d-8734641/boboho-ungkap-ucapan-eks-jampidsus-soal-rp-55-m-kasih-ke-orang-rambut-putih>"
+ },
+ {
+  "date": "2026-11-02",
+  "category": "POL",
+  "event": "KPK says its PT Djarum excise (cukai) probe is still early with no witnesses summoned yet, more searches are possible, and the initial loss estimate in the trillions may change. (update of E0402)",
+  "key_numbers": "Initial state loss 'triliunan' (may change) · searches: Kudus and Semarang Bea Cukai, Djarum factory Kudus, 6 affiliated companies on 29 Oct · look-back several years · 0 suspects, 0 witnesses summoned",
+  "storyline": "corruption-cases",
+  "status": "verified",
+  "sources": "CNBC Indonesia <https://www.cnbcindonesia.com/news/20261102193901-4-781692/kpk-beberkan-kabar-terbaru-soal-kasus-djarum> ; CNBC Indonesia <https://www.cnbcindonesia.com/news/20261102204009-4-781710/siap-siap-bakal-ada-penggeledahan-lagi-terkait-kasus-djarum>"
+ },
+ {
+  "date": "2026-11-01",
+  "category": "NEWS",
+  "event": "A concrete mixer truck that lost its brakes on a downhill bridge hit people waiting at the Cut Mutia bus stop in Bekasi, killing six; police detained the driver.",
+  "key_numbers": "6 dead · 12 victims in total (6 injured) · ~16:30 WIB 1 Nov · Jalan Cut Mutia, Rawalumbu, Bekasi · driver says brakes failed, tried to stop at campus wall",
+  "storyline": "",
+  "status": "verified",
+  "sources": "CNN Indonesia <https://www.cnnindonesia.com/nasional/20261101200220-20-1422089/truk-molen-tabrak-kerumunan-di-halte-cut-mutia-bekasi-6-orang-tewas> ; ANTARA <https://www.antaranews.com/berita/5825127/enam-orang-meninggal-setelah-truk-molen-tabrak-halte-di-bekasi>"
+ },
+ {
+  "date": "2026-11-01",
+  "category": "NEWS",
+  "event": "Police arrested a 20-month-old's mother and stepfather in South Jakarta for allegedly killing the child in a Kebayoran Lama market toilet; Detik's reenactment story topped its most-read list on 2 Nov.",
+  "key_numbers": "Victim 20 months · suspects AR (22) and JM (20) · incident Sat 31 Oct · body buried in Benhil lot · motive: economic hardship per police · 3-year-old sibling under Dinsos care",
+  "storyline": "",
+  "status": "verified",
+  "sources": "CNN Indonesia <https://www.cnnindonesia.com/nasional/20261101193226-12-1422084/balita-dibunuh-ibu-kandung-ayah-tiri-di-toilet-pasar-kebayoran-lama> ; Detik terpopuler <https://www.detik.com/terpopuler>"
+ },
+ {
+  "date": "2026-11-01",
+  "category": "NEWS",
+  "event": "Komnas HAM asked police to review procedures after a 27 Oct pre-dawn search of a Sukoharjo pesantren over a pork-noodle stall arson, alleging children and toddlers were taken for questioning without a guardian or lawyer.",
+  "key_numbers": "Search 27 Oct ~03:20 WIB · 12 students aged 10-16 + 4 teachers · 15 people taken incl. toddlers aged 3 and 5 · Rp16 juta student savings seized without seizure letter (per Komnas HAM) · all released, no evidence of involvement",
+  "storyline": "",
+  "status": "verified",
+  "sources": "CNN Indonesia <https://www.cnnindonesia.com/nasional/20261101175847-20-1422068/komnas-ham-minta-polri-periksa-prosedur-penggeledahan-ponpes-sukoharjo> ; CNN Indonesia <https://www.cnnindonesia.com/nasional/20261101193626-25-1422085/polri-pastikan-dalami-keluhan-penggeledahan-di-ponpes-sukoharjo>"
+ },
+ {
+  "date": "2026-11-01",
+  "category": "ENV",
+  "event": "BNPB data show forest and land fires in South Papua (Merauke) shrinking sharply, with hotspots, burned area and still-burning area all lower than the day before. (update of E0467)",
+  "key_numbers": "Hotspots 379 (from 943) · fire points 171 (from 263) · burned area 695 ha (from 1.742 ha) · still burning 253 ha (from 577 ha) · weather modification 13 sorties, 13.000 kg NaCl (to 31 Oct) · as of 1 Nov 17:00 WIB",
+  "storyline": "karhutla",
+  "status": "verified",
+  "sources": "Suara.com <https://www.suara.com/news/2026/11/02/103842/karhutla-papua-selatan-mulai-menyusut-bnpb-catat-253-hektare-lahan-masih-terbakar> ; Kompas <https://nasional.kompas.com/read/2026/11/01/14341801/bnpb-hampir-seluruh-karhutla-papua-selatan-ada-di-merauke>"
+ },
+ {
+  "date": "2026-11-01",
+  "category": "ENV",
+  "event": "Floods in West Aceh (Aceh Barat) spread to 43 villages after heavy rain, damaging roads and schools, as BNPB prepares for the rainy season. (update of E0488)",
+  "key_numbers": "43 villages in 10 subdistricts (BPBD, 1 Nov 22:16 WIB) · hundreds of houses, water >30 cm · no deaths reported · earlier reports 12 villages in 3 subdistricts · BNPB: 2.278 disasters in 2026 (headline, not opened)",
+  "storyline": "",
+  "status": "partial",
+  "sources": "ANTARA <https://www.antaranews.com/berita/5825271/banjir-meluas-di-aceh-barat-43-desa-terendam> ; CNN Indonesia <https://www.cnnindonesia.com/nasional/20261101134125-20-1422006/banjir-aceh-barat-meluas-rendam-12-desa-di-tiga-kecamatan>"
+ },
+ {
+  "date": "2026-11-10",
+  "category": "NEWS",
+  "event": "Government plans to launch Perlinsos Digital (digital social assistance via the GovTech system) around 10 November, with Luhut saying 60 million people are registered so far.",
+  "key_numbers": "Launch ~10 Nov 2026 ('kalau tidak ada perubahan') · 60 juta registered · target >100 juta · registration needs NIK, electricity meter number, face scan · no benefit amounts stated · 2027 plan 48 juta families, cash transfer",
+  "storyline": "",
+  "status": "upcoming",
+  "sources": "CNBC Indonesia <https://www.cnbcindonesia.com/news/20261101175316-4-781280/bansos-digital-meluncur-mulai-10-november-ini-kata-luhut> ; CNN Indonesia <https://www.cnnindonesia.com/ekonomi/20261028121931-532-1420510/bansos-digital-diluncurkan-pada-10-november-sasar-100-juta-warga>"
+ },
+ {
+  "date": "2026-11-01",
+  "category": "NEWS",
+  "event": "Bapanas says 600 tons of SPHP subsidised rice were found blended (dioplos), costing the state Rp3.3 billion, and that Q3 2026 rice inflation was the lowest in four years.",
+  "key_numbers": "600 ton SPHP rice oplosan · state loss Rp3,3 miliar · Q3 2026 rice inflation lowest in 4 years · RI rice stock 25 juta ton (CNBC headline, not opened)",
+  "storyline": "",
+  "status": "partial",
+  "sources": "ANTARA <https://www.antaranews.com/berita/5824267/bapanas-temuan-600-ton-beras-sphp-dioplos-rugikan-negara-rp33-miliar> ; ANTARA <https://www.antaranews.com/berita/5824795/bapanas-inflasi-beras-q3-2026-terendah-dalam-empat-tahun-berkat-cbp>"
+ }
+]

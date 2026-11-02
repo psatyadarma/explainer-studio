@@ -1,0 +1,172 @@
+{
+  "area": "markets",
+  "run_date": "2026-11-03",
+  "checked": ["CNBC Indonesia market page (headlines, no terpopuler list rendered)", "CNBC Indonesia market search results 2 Nov", "Bisnis market 2 Nov (search result)", "Kontan/Media Indonesia/Koran Jakarta IHSG 2 Nov (search result)", "Antara ekonomi (BI-Rate search)", "detik finance (search only, section page not fetched)", "BPS inflasi Oktober 2026", "BPS neraca perdagangan September 2026", "IHSG close and foreign flows", "HSC exclusion from IHSG", "rupiah / BI-Rate / RDG", "MSCI storyline (OJK 31 Oct)", "Fed/FOMC and Brent", "Q3 GDP release", "Danantara/BUMN/PHK (nothing new in window)", "GoTo, Superbank, Telkom, Antam earnings headlines"],
+  "events": [
+    {
+      "date": "2026-11-02",
+      "category": "MKT",
+      "event": "BEI began excluding 81 high-shareholding-concentration (HSC) stocks from the IHSG calculation on 2 November, and the IHSG closed up 0.79% at 5,096.83 after dipping below 5,000 early in the session.",
+      "key_numbers": "IHSG 5,096.83 (+39.78 pts, +0.79%) · 81 HSC stocks removed, ~18% of IHSG weight, ~30% of market cap · 837 stocks still counted · value ~Rp10.07 T (CNBC) · intraday low in the 4,980s, high above 5,120",
+      "storyline": "msci-reclassification",
+      "update_of": "E0276",
+      "status": "verified",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/market/20261102154020-17-781613/ihsg-ditutup-menguat-079-ke-509683"},
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/market/20261102143933-17-781553/81-saham-hsc-dicoret-dari-ihsg-10-emiten-ini-bobotnya-makin-jumbo"},
+        {"label": "OWRITE", "url": "https://www.owrite.id/ekbis/2026/11/02/rupiah-ditutup-melemah-rp18-156-per-dolar-as-ihsg-menguat-079-persen/"}
+      ],
+      "why_it_matters": "The index people watch now measures a different basket, so the IHSG number is no longer comparable with before 2 November.",
+      "signals": {"spreading": 2, "wallet": 1, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "Multiple CNBC Indonesia items on the HSC exclusion on 2 Nov; Bisnis, Kontan, Investortrust, Media Indonesia all covered it",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-02",
+      "category": "MKT",
+      "event": "After the HSC exclusion, index weights shifted to big banks and blue chips: CNBC lists BBRI at about 9%, BBCA 7.93%, BMRI up from 5.70% to 7.12%, TLKM up from 3.76% to 4.68%, and ASII up from 3.35% to 4.15%.",
+      "key_numbers": "BMRI 5.70% to 7.12% · TLKM 3.76% to 4.68% · ASII 3.35% to 4.15% · AMMN 2.79% to 3.50% · BBNI 2.08% to 2.61% · BBRI ~9% · BBCA 7.93%",
+      "storyline": "msci-reclassification",
+      "update_of": "E0276",
+      "status": "partial",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/market/20261102143933-17-781553/81-saham-hsc-dicoret-dari-ihsg-10-emiten-ini-bobotnya-makin-jumbo"},
+        {"label": "Investortrust", "url": "https://investortrust.id/market/121258/tak-lagi-diperhitungkan-di-ihsg-ini-nasib-81-saham-hsc-bren-hingga-dssa-justru-naik"}
+      ],
+      "why_it_matters": "Shows concretely who gains weight when the 'opaque' stocks leave the index, a clear chart for viewers who hold index funds.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "CNBC Indonesia market headline 'bobotnya makin jumbo' (2 Nov)",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-02",
+      "category": "ECO",
+      "event": "BPS reported October 2026 inflation of 0.22% month on month and 3.23% year on year, driven mainly by red chili and other food prices, slightly below the 0.24% / 3.25% poll consensus.",
+      "key_numbers": "m/m 0.22% · y/y 3.23% · year-to-date 2.4% · core y/y 2.56% · volatile food m/m 0.77%, y/y 5.81% · IHK 112.31 to 112.56 · red chili contribution 0.13 pt · highest region South Papua 1.12% m/m · North Sulawesi 8.07% y/y · target 2.5% ±1%",
+      "storyline": "",
+      "update_of": "E0278",
+      "status": "verified",
+      "sources": [
+        {"label": "Investortrust", "url": "https://investortrust.id/macro/121225/bps-inflasi-bulanan-oktober-2026-capai-0-22-papua-selatan-catat-angka-tertinggi"},
+        {"label": "Kontan", "url": "https://nasional.kontan.co.id/news/bps-inflasi-pada-oktober-2026-turun-jadi-022"},
+        {"label": "Suara.com", "url": "https://www.suara.com/bisnis/2026/11/02/112841/bps-umumkan-inflasi-oktober-2026-sentuh-022-cabai-merah-jadi-biang-kerok"}
+      ],
+      "why_it_matters": "Chili and food prices are what households feel first, and inflation matters for whether BI can hold rates at the 17-18 Nov meeting.",
+      "signals": {"spreading": 2, "wallet": 2, "surprise": 0, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "Covered by Kontan, Kumparan, Okezone, Suara, Investortrust on 2 Nov",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-02",
+      "category": "ECO",
+      "event": "BPS reported a September 2026 trade surplus of US$3.36 billion, well above the roughly US$1.0-1.8 billion that three economists had forecast, with imports (+18.41% y/y) growing faster than exports (+11.87% y/y).",
+      "key_numbers": "surplus US$3.36 B (Aug US$3.55 B; Sep 2025 US$4.55 B) · exports US$27.59 B (+11.87% y/y) · imports US$24.23 B (+18.41% y/y) · oil and gas imports US$3.27 B (+23.94%) · copper exports +165.97% y/y · economist forecasts US$1.00-1.79 B",
+      "storyline": "",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/news/20261102094835-4-781419/breaking-news-neraca-dagang-ri-surplus-us-336-miliar-september-2026"},
+        {"label": "Katadata", "url": "https://katadata.co.id/finansial/makro/6ae81a14755a4/ekspor-dan-impor-melesat-neraca-perdagangan-september-surplus-us-3-36-miliar"},
+        {"label": "Kontan", "url": "https://nasional.kontan.co.id/news/surplus-neraca-perdagangan-turun-jadi-us-336-miliar-pada-september-2026"}
+      ],
+      "why_it_matters": "A bigger dollar surplus is a cushion for the rupiah, but surging oil imports show where the pressure comes from.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "CNBC 'Breaking News' item; Antara, Kontan, Katadata, Kumparan, Suara all covered",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-02",
+      "category": "MKT",
+      "event": "The rupiah closed weaker again on 2 November, near the record-low zone, while foreign investors kept selling Indonesian stocks.",
+      "key_numbers": "Rp18,156/USD (OWRITE, -9 pts, -0.05%) · Rp18,140 (CNBC Indonesia video headline) · record close Rp18,183 on 28 Oct (Kontan) · JISDOR Rp18,139 on 27 Oct · foreign net sell YTD ~Rp97.92 T through 30 Oct (Legawa)",
+      "storyline": "rupiah",
+      "update_of": "E0443",
+      "status": "partial",
+      "sources": [
+        {"label": "OWRITE", "url": "https://www.owrite.id/ekbis/2026/11/02/rupiah-ditutup-melemah-rp18-156-per-dolar-as-ihsg-menguat-079-persen/"},
+        {"label": "Kontan (FOMC and rupiah)", "url": "https://momsmoney.kontan.co.id/news/hasil-fomc-oktober-2026-apa-artinya-bagi-rupiah-hingga-desember"},
+        {"label": "CNBC Indonesia market page", "url": "https://www.cnbcindonesia.com/market"}
+      ],
+      "why_it_matters": "A weak rupiah raises prices of imported goods, fuel and overseas tuition; vendors quote different closes, so cite the source.",
+      "signals": {"spreading": 1, "wallet": 2, "surprise": 0, "visual": 2, "fresh": 2, "rivals": 0},
+      "spreading_evidence": "Daily CNBC/Bisnis/Kontan rupiah close items; CNBC video headline 'rupiah nears Rp18,200'",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-31",
+      "category": "MKT",
+      "event": "OJK's capital-market regulation head Agus Firmansyah said MSCI's proposed downgrade to Standalone stems mainly from continuing concern about market dysfunction even after announced reforms, citing past cases involving BREN, CUAN and DSSA.",
+      "key_numbers": "statement made 31 Oct 2026 · MSCI consultation feedback deadline 30 Apr 2027 (storyline)",
+      "storyline": "msci-reclassification",
+      "update_of": "E0474",
+      "status": "partial",
+      "sources": [
+        {"label": "Bloomberg Technoz", "url": "https://www.bloombergtechnoz.com/detail-news/126361/ojk-ungkap-alasan-utama-msci-buka-opsi-standalone-market"},
+        {"label": "Okezone", "url": "https://economy.okezone.com/read/2026/11/01/278/3251387/ojk-bongkar-alasan-msci-usul-turunkan-status-pasar-saham-ri-jadi-standalone-market"}
+      ],
+      "why_it_matters": "Explains in the regulator's words why a foreign index provider is worried, which drives foreign selling.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 0, "visual": 0, "fresh": 1, "rivals": 0},
+      "spreading_evidence": "",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-05",
+      "category": "ECO",
+      "event": "BPS is expected to release Q3 2026 GDP growth in the first week of November (exact date not confirmed), with economists projecting about 5.2-5.4% year on year.",
+      "key_numbers": "GREAT Institute projection 5.2-5.4% y/y · InFast projection 5.4% · other economists 'above 5%' · date unconfirmed",
+      "storyline": "growth-outlook",
+      "update_of": "E0455",
+      "status": "upcoming",
+      "sources": [
+        {"label": "Antara", "url": "https://www.antaranews.com/berita/5825587/great-institute-proyeksi-pertumbuhan-ekonomi-q3-kisaran-52-54-persen"},
+        {"label": "Kontan", "url": "https://nasional.kontan.co.id/news/ihsg-bergejolak-ekonom-infast-proyeksi-ekonomi-q3-tumbuh-54"}
+      ],
+      "why_it_matters": "The headline growth number tests the 'economy is fine' claim against a 40%-plus fall in the IHSG this year.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-03",
+      "category": "GLB",
+      "event": "US midterm elections take place on 3 November, with Indonesian market commentary watching the effect on the dollar and rate expectations after the Fed held at 3.75-4.00% with two dissenters favouring a hike.",
+      "key_numbers": "Fed funds 3.75-4.00% (held 28 Oct) · 2 dissents for +25 bp (Cook, Hammack) · next FOMC 8-9 Dec · US CPI 3.7% y/y (Sep) · Brent ~US$114 on 27 Oct · BI RDG 17-18 Nov",
+      "storyline": "rupiah",
+      "update_of": "E0475",
+      "status": "partial",
+      "sources": [
+        {"label": "Kontan MomsMoney", "url": "https://momsmoney.kontan.co.id/news/hasil-fomc-oktober-2026-apa-artinya-bagi-rupiah-hingga-desember"},
+        {"label": "Legawa weekly agenda", "url": "https://legawa.com/2026/11/01/kilas-ekonomi-1-november-2026/"}
+      ],
+      "why_it_matters": "A possible December Fed hike plus high oil keeps pressure on the rupiah and limits room for BI to cut.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "CNBC Indonesia video 'Effects on rupiah and IHSG if Fed raises rates'",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-10-30",
+      "category": "MKT",
+      "event": "Indonesian 10-year government bond yields rose to about 7.64% on 30 October, after touching 7.71% on 29 October, following a weak SUN auction on 27 October.",
+      "key_numbers": "10Y SBN yield ~7.64% (30 Oct) · peak 7.71% (29 Oct), highest since May 2020 per Trading Economics · SUN auction 27 Oct: bids Rp31.1 T (-52.1%), awarded Rp20.7 T vs target Rp30 T",
+      "storyline": "rupiah",
+      "update_of": "E0380",
+      "status": "partial",
+      "sources": [
+        {"label": "Legawa weekly review", "url": "https://legawa.com/2026/11/01/kilas-ekonomi-1-november-2026/"}
+      ],
+      "why_it_matters": "Higher government bond yields mean the state pays more to borrow and can push up mortgage and loan rates.",
+      "signals": {"spreading": 0, "wallet": 1, "surprise": 1, "visual": 1, "fresh": 1, "rivals": 2},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    }
+  ],
+  "gaps": [
+    "Exact BPS date for Q3 GDP not confirmed (sources say 'awal November'; E0455 says 5 Nov)",
+    "MSCI November index review date not confirmed; could add selling pressure",
+    "Foreign net sell/buy figure for 2 Nov not found (Kontan says net sell continued; CNBC says foreigners bought 10 stocks in session I)",
+    "Jan-Sep 2026 cumulative trade surplus in Katadata (US$10.61 B vs US$33.54 B) looks inconsistent; not used",
+    "No new Danantara/BUMN layoff or acquisition development found in window; Danantara said 27 Oct no PHK in BUMN consolidation (already outside window)",
+    "Detik finance section page not fetched; CNBC terpopuler list did not render",
+    "Corporate items seen only as headlines: GoTo Q3 profit Rp441 B (already E0461), Superbank pre-tax profit +376%, Antam dividend yield >10%, BEI studying 3% corporate tax incentive for issuers, Rp26.24 T planned fundraising on BEI"
+  ]
+}

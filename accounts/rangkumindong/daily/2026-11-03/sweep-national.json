@@ -1,0 +1,178 @@
+{
+  "area": "national",
+  "run_date": "2026-11-03",
+  "checked": ["detik terpopuler (2 Nov 14:23 WIB)", "CNBC Indonesia homepage latest", "CNN Indonesia nasional", "Antara homepage", "Antara anti-hoax page (latest item 22 Oct, stale)", "storyline: gibran-ijazah-mk", "storyline: karhutla", "storyline: corruption-cases", "watch list: most-read lists, disasters (BNPB/BMKG floods, karhutla), crime, public services, viral incidents"],
+  "events": [
+    {
+      "date": "2026-11-02",
+      "category": "POL",
+      "event": "CNN Indonesia reports the Supreme Court (MA) cassation ruling ordering Gibran's SMA-equivalence letter declared invalid, withdrawn from its holder and destroyed, while MA cancelled a planned press conference and PSI and Demokrat's Jansen traded barbs over the ruling.",
+      "key_numbers": "MA decision 742 K/TUN/2026 read 30 Oct 2026 · letter No. 9149/D.D1/KS/2019 dated 6 Aug 2019 · PTUN Jakarta 62/G/2026 (21 May) not accepted, PT TUN 130/B/2026 upheld · panel Yulius, Maftuh Effendi, Hari Sugiharto · full ruling not yet on MA site",
+      "storyline": "gibran-ijazah-mk",
+      "update_of": "E0466",
+      "status": "verified",
+      "sources": [
+        {"label": "CNN Indonesia", "url": "https://cnnindonesia.com/nasional/20261102093742-32-1422193/kabulkan-kasasi-subhan-ma-perintahkan-suket-sma-gibran-dimusnahkan"},
+        {"label": "Detik terpopuler", "url": "https://www.detik.com/terpopuler"}
+      ],
+      "why_it_matters": "A sitting vice president's candidacy paperwork was voided by the top court, and politicians are now arguing over what follows.",
+      "signals": {"spreading": 2, "wallet": 0, "surprise": 2, "visual": 1, "fresh": 2, "rivals": 0},
+      "spreading_evidence": "Detik terpopuler #2, #4, #10 (2 Nov)",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-02",
+      "category": "POL",
+      "event": "Businessman Ferry 'Boboho' testified at the Jakarta Tipikor court that ex-Jampidsus Febrie Adriansyah told him to get money from Tan Kian to avoid being named a suspect in the Jiwasraya case.",
+      "key_numbers": "Rp50 miliar first cited, later 5 juta dolar Singapura (~Rp55 M) · paid in 3 installments · Boboho kept ~Rp5 M and returned it · TPPU indictment Rp354,62 M (Rp346,74 M + US$440.990) · offences 2020-2026 · no denial reported in Antara",
+      "storyline": "corruption-cases",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "ANTARA", "url": "https://www.antaranews.com/berita/5827607/ferry-boboho-sebut-eks-jampidsus-minta-rp50-miliar-dari-tan-kian"},
+        {"label": "Detik", "url": "https://news.detik.com/berita/d-8734641/boboho-ungkap-ucapan-eks-jampidsus-soal-rp-55-m-kasih-ke-orang-rambut-putih"}
+      ],
+      "why_it_matters": "A trial is airing claims of money demanded to keep a suspect off the list in a major state-loss case.",
+      "signals": {"spreading": 2, "wallet": 0, "surprise": 2, "visual": 2, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "Detik terpopuler #3 (2 Nov)",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-02",
+      "category": "POL",
+      "event": "KPK says its PT Djarum excise (cukai) probe is still early with no witnesses summoned yet, more searches are possible, and the initial loss estimate in the trillions may change.",
+      "key_numbers": "Initial state loss 'triliunan' (may change) · searches: Kudus and Semarang Bea Cukai, Djarum factory Kudus, 6 affiliated companies on 29 Oct · look-back several years · 0 suspects, 0 witnesses summoned",
+      "storyline": "corruption-cases",
+      "update_of": "E0402",
+      "status": "verified",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/news/20261102193901-4-781692/kpk-beberkan-kabar-terbaru-soal-kasus-djarum"},
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/news/20261102204009-4-781710/siap-siap-bakal-ada-penggeledahan-lagi-terkait-kasus-djarum"}
+      ],
+      "why_it_matters": "The case could involve a very large sum in excise revenue the state may have lost.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "Several CNBC Indonesia articles on 2 Nov (search results)",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-01",
+      "category": "NEWS",
+      "event": "A concrete mixer truck that lost its brakes on a downhill bridge hit people waiting at the Cut Mutia bus stop in Bekasi, killing six; police detained the driver.",
+      "key_numbers": "6 dead · 12 victims in total (6 injured) · ~16:30 WIB 1 Nov · Jalan Cut Mutia, Rawalumbu, Bekasi · driver says brakes failed, tried to stop at campus wall",
+      "storyline": "",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261101200220-20-1422089/truk-molen-tabrak-kerumunan-di-halte-cut-mutia-bekasi-6-orang-tewas"},
+        {"label": "ANTARA", "url": "https://www.antaranews.com/berita/5825127/enam-orang-meninggal-setelah-truk-molen-tabrak-halte-di-bekasi"}
+      ],
+      "why_it_matters": "Heavy-truck safety on city roads and bus-stop safety affect every commuter.",
+      "signals": {"spreading": 2, "wallet": 0, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "Multiple CNN Indonesia items and Antara hukum headline 1-2 Nov; not seen on Detik top 10",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-01",
+      "category": "NEWS",
+      "event": "Police arrested a 20-month-old's mother and stepfather in South Jakarta for allegedly killing the child in a Kebayoran Lama market toilet; Detik's reenactment story topped its most-read list on 2 Nov.",
+      "key_numbers": "Victim 20 months · suspects AR (22) and JM (20) · incident Sat 31 Oct · body buried in Benhil lot · motive: economic hardship per police · 3-year-old sibling under Dinsos care",
+      "storyline": "",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261101193226-12-1422084/balita-dibunuh-ibu-kandung-ayah-tiri-di-toilet-pasar-kebayoran-lama"},
+        {"label": "Detik terpopuler", "url": "https://www.detik.com/terpopuler"}
+      ],
+      "why_it_matters": "Shows how poverty and social-welfare gaps surface in extreme cases; hard to explain without sensationalising.",
+      "signals": {"spreading": 2, "wallet": 0, "surprise": 1, "visual": 0, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "Detik terpopuler #1 and #5 (2 Nov)",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-01",
+      "category": "NEWS",
+      "event": "Komnas HAM asked police to review procedures after a 27 Oct pre-dawn search of a Sukoharjo pesantren over a pork-noodle stall arson, alleging children and toddlers were taken for questioning without a guardian or lawyer.",
+      "key_numbers": "Search 27 Oct ~03:20 WIB · 12 students aged 10-16 + 4 teachers · 15 people taken incl. toddlers aged 3 and 5 · Rp16 juta student savings seized without seizure letter (per Komnas HAM) · all released, no evidence of involvement",
+      "storyline": "",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261101175847-20-1422068/komnas-ham-minta-polri-periksa-prosedur-penggeledahan-ponpes-sukoharjo"},
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261101193626-25-1422085/polri-pastikan-dalami-keluhan-penggeledahan-di-ponpes-sukoharjo"}
+      ],
+      "why_it_matters": "Raises questions about how police searches should be done when children are present.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 0, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "Several CNN Indonesia and Antara items 1 Nov",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-01",
+      "category": "ENV",
+      "event": "BNPB data show forest and land fires in South Papua (Merauke) shrinking sharply, with hotspots, burned area and still-burning area all lower than the day before.",
+      "key_numbers": "Hotspots 379 (from 943) · fire points 171 (from 263) · burned area 695 ha (from 1.742 ha) · still burning 253 ha (from 577 ha) · weather modification 13 sorties, 13.000 kg NaCl (to 31 Oct) · as of 1 Nov 17:00 WIB",
+      "storyline": "karhutla",
+      "update_of": "E0467",
+      "status": "verified",
+      "sources": [
+        {"label": "Suara.com", "url": "https://www.suara.com/news/2026/11/02/103842/karhutla-papua-selatan-mulai-menyusut-bnpb-catat-253-hektare-lahan-masih-terbakar"},
+        {"label": "Kompas", "url": "https://nasional.kompas.com/read/2026/11/01/14341801/bnpb-hampir-seluruh-karhutla-papua-selatan-ada-di-merauke"}
+      ],
+      "why_it_matters": "Signals the haze season is winding down as rain arrives, but underground peat fires may linger.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-01",
+      "category": "ENV",
+      "event": "Floods in West Aceh (Aceh Barat) spread to 43 villages after heavy rain, damaging roads and schools, as BNPB prepares for the rainy season.",
+      "key_numbers": "43 villages in 10 subdistricts (BPBD, 1 Nov 22:16 WIB) · hundreds of houses, water >30 cm · no deaths reported · earlier reports 12 villages in 3 subdistricts · BNPB: 2.278 disasters in 2026 (headline, not opened)",
+      "storyline": "",
+      "update_of": "E0488",
+      "status": "partial",
+      "sources": [
+        {"label": "ANTARA", "url": "https://www.antaranews.com/berita/5825271/banjir-meluas-di-aceh-barat-43-desa-terendam"},
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261101134125-20-1422006/banjir-aceh-barat-meluas-rendam-12-desa-di-tiga-kecamatan"}
+      ],
+      "why_it_matters": "The switch from fire season to flood season is starting, with the same regions hit by both.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-10",
+      "category": "NEWS",
+      "event": "Government plans to launch Perlinsos Digital (digital social assistance via the GovTech system) around 10 November, with Luhut saying 60 million people are registered so far.",
+      "key_numbers": "Launch ~10 Nov 2026 ('kalau tidak ada perubahan') · 60 juta registered · target >100 juta · registration needs NIK, electricity meter number, face scan · no benefit amounts stated · 2027 plan 48 juta families, cash transfer",
+      "storyline": "",
+      "update_of": "",
+      "status": "upcoming",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/news/20261101175316-4-781280/bansos-digital-meluncur-mulai-10-november-ini-kata-luhut"},
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/ekonomi/20261028121931-532-1420510/bansos-digital-diluncurkan-pada-10-november-sasar-100-juta-warga"}
+      ],
+      "why_it_matters": "Changes how many Indonesians apply for and receive social aid, with a face scan and an electricity meter number as the proof.",
+      "signals": {"spreading": 1, "wallet": 2, "surprise": 1, "visual": 1, "fresh": 1, "rivals": 1},
+      "spreading_evidence": "CNBC Indonesia latest list (1 Nov)",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-01",
+      "category": "NEWS",
+      "event": "Bapanas says 600 tons of SPHP subsidised rice were found blended (dioplos), costing the state Rp3.3 billion, and that Q3 2026 rice inflation was the lowest in four years.",
+      "key_numbers": "600 ton SPHP rice oplosan · state loss Rp3,3 miliar · Q3 2026 rice inflation lowest in 4 years · RI rice stock 25 juta ton (CNBC headline, not opened)",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "ANTARA", "url": "https://www.antaranews.com/berita/5824267/bapanas-temuan-600-ton-beras-sphp-dioplos-rugikan-negara-rp33-miliar"},
+        {"label": "ANTARA", "url": "https://www.antaranews.com/berita/5824795/bapanas-inflasi-beras-q3-2026-terendah-dalam-empat-tahun-berkat-cbp"}
+      ],
+      "why_it_matters": "Subsidised rice is meant to cap prices for households, so tampering hits ordinary buyers.",
+      "signals": {"spreading": 1, "wallet": 2, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    }
+  ],
+  "gaps": ["Antara anti-hoax page's newest item is 22 Oct, so no fresh hoax debunk found this sweep", "CNBC 'most popular' list was empty in the capture, so spreading scores rely on Detik terpopuler", "Fore Coffee 5.7 juta customer data leak (CNBC 1 Nov) and Raffi Ahmad/VISI belong to TECH/MKT areas, not covered here", "BNPB 2.278 disasters in 2026 figure not opened (inilah.com fetch failed)", "BPS Oct inflation release (due 2 Nov) is for the ECO area", "Operation Patuh 2026 (Korlantas, ticket quotas) seen in CNN headlines but not opened"]
+}

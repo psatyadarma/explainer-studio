@@ -1,0 +1,245 @@
+{
+ "area": "business",
+ "run_date": "2026-11-03",
+ "checked": [
+  "CNBC Indonesia tech (fetched, 31 headlines)",
+  "detikInet (fetched, popular list ranked; no article dates)",
+  "Katadata digital (fetched, newest dated 29 Oct)",
+  "CNN Indonesia teknologi (fetched; terpopuler list empty)",
+  "DailySocial news (fetched; newest 27 Oct, stale)",
+  "teknologi.bisnis.com (fetch failed; search snippets only)",
+  "watch list found: crypto/Binance/Indodax, GoTo/ojol 8% commission, scams/IASC, phone prices/RAM, data centres, Komdigi internet targets, ChatGPT security",
+  "storyline search: crypto-hacks (Binance, Indodax, Tokocrypto)",
+  "searches: Komdigi Meutya Hafid, kebocoran data/penipuan, AI bubble China"
+ ],
+ "events": [
+  {
+   "date": "2026-11-02",
+   "category": "TECH",
+   "event": "CNBC Indonesia, citing Counterpoint Research, reported global smartphone shipments fell 20% year-on-year in Q3 2026 to the lowest third-quarter level since 2012 because AI-driven demand pushed up memory chip costs, and Xiaomi shipments fell over 30%.",
+   "key_numbers": "Global shipments −20% YoY Q3 2026 · retail phone prices +20% on average in 2026 · Xiaomi shipments −30%+, share 10% · OPPO −20%+, share 9% · vivo −20%+, share 8% · Xiaomi EV deliveries >50,000 in Oct, ~336,000 Jan–Oct vs 550,000 target",
+   "storyline": "chip-ram-prices",
+   "update_of": "E0397",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "CNBC Indonesia",
+     "url": "https://www.cnbcindonesia.com/tech/20261102131526-37-781525/hp-china-sudah-tidak-laku-xiaomi-kini-punya-mesin-uang-baru"
+    }
+   ],
+   "why_it_matters": "HP baru makin mahal karena chip memori diborong data center AI, dan penjualannya sampai jatuh ke level terendah sejak 2012.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 2,
+    "surprise": 2,
+    "visual": 2,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "CNBC tech front page 2 Nov",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-01",
+   "category": "TECH",
+   "event": "Binance resumed withdrawals on 1 November after the roughly US$6.3 billion hack, saying it has already replaced 95% of the stolen value, while users pulled out US$3.64 billion net in the first day.",
+   "key_numbers": "Stolen ~US$6.3B (Rp114.2T) · net withdrawals US$3.64B (Rp65.96T) to 15:30 GMT 1 Nov · DefiLlama outflows US$5.81B · 95% of stolen value replaced · US$6.34B set aside incl. SAFU US$1B · ~US$3B frozen by 30 Oct · 335 million users · FBI blames TraderTraitor (31 Oct), Trump says unconfirmed",
+   "storyline": "crypto-hacks",
+   "update_of": "E0478",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "Katadata",
+     "url": "https://katadata.co.id/digital/fintech/6ae7ed060be11/binance-beroperasi-lagi-usai-diretas-nasabah-langsung-tarik-dana-rp-66-triliun"
+    },
+    {
+     "label": "CNBC Indonesia",
+     "url": "https://www.cnbcindonesia.com/tech/20261031085148-37-781116/modus-maling-bobol-rekening-uang-rp-114-triliun-lenyap-seketika"
+    }
+   ],
+   "why_it_matters": "Bursa kripto terbesar dunia dibobol, lalu nasabah ramai-ramai menarik dana; pelajaran soal menyimpan aset di exchange.",
+   "signals": {
+    "spreading": 2,
+    "wallet": 1,
+    "surprise": 2,
+    "visual": 2,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "Multiple CNBC/Katadata/Detik/CNN headlines 30 Oct–2 Nov; detikInet popular list #5",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-02",
+   "category": "TECH",
+   "event": "CNBC Indonesia, citing the Straits Times, reported Singapore police found tampered Ledger hardware wallets bought at certain Singapore retailers that captured recovery phrases, and Ledger suspended sales in Southeast Asia including Indonesia on 14 October.",
+   "key_numbers": "Losses SGD 3.5M (Rp49.5B) in 2 reported cases since 10 Sep 2026 · blockchain analysts estimate >US$86M (Rp1.5T) · sales suspended 14 Oct in Singapore, Indonesia, Malaysia, Thailand, Philippines, Vietnam, Hong Kong",
+   "storyline": "crypto-hacks",
+   "update_of": "",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "CNBC Indonesia",
+     "url": "https://www.cnbcindonesia.com/tech/20261102065338-37-781330/modus-baru-kuras-rekening-menyusup-di-dompet-warga-ri-sasarannya"
+    }
+   ],
+   "why_it_matters": "Dompet kripto 'offline' yang dianggap paling aman ternyata bisa disusupi sebelum sampai ke tangan pembeli.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 1,
+    "surprise": 2,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 2
+   },
+   "spreading_evidence": "CNBC tech front page, top item 2 Nov",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-01",
+   "category": "TECH",
+   "event": "OJK's Indonesia Anti-Scam Centre (IASC) data to 30 September 2026 show 702,833 accounts blocked and Rp825.2 billion in suspected fraud funds secured, of which Rp207.16 billion was returned to victims.",
+   "key_numbers": "Accounts blocked 702,833 · funds secured Rp825.2B · returned to victims Rp207.16B (~25%) · reports received 702,342 · Satgas PASTI Aug–Sep 2026: 330 entities handled incl. 241 illegal pinjol · Jan–Sep 2026: 1,199 illegal pinjol, 250 illegal investment, 38 illegal pawnshop stopped · IASC started 22 Nov 2024",
+   "storyline": "online-scams",
+   "update_of": "E0206",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "detikJabar",
+     "url": "https://detik.com/jabar/berita/d-8727960/702-ribu-rekening-terindikasi-scam-diblokir-dana-rp-825-miliar-diamankan/amp"
+    },
+    {
+     "label": "Okezone",
+     "url": "https://economy.okezone.com/read/2026/11/01/320/3251249/5-fakta-pinjol-ilegal-hingga-investasi-bodong-yang-masih-mengintai-masyarakat"
+    }
+   ],
+   "why_it_matters": "Dari Rp825 miliar dana penipuan yang diamankan, baru seperempat yang kembali ke korban; lapor cepat menentukan.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 2,
+    "surprise": 1,
+    "visual": 2,
+    "fresh": 1,
+    "rivals": 1
+   },
+   "spreading_evidence": "Several outlets republished 28 Oct–1 Nov",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-10-30",
+   "category": "TECH",
+   "event": "GoTo's Q3 2026 results show Gojek's ride-hailing adjusted EBITDA fell 16% to Rp159 billion because of the 8% commission cap on two-wheel rides, which GoTo says cost Rp150 billion this quarter and could reach Rp300 billion in 2026.",
+   "key_numbers": "Ride-hailing adj. EBITDA Rp159B (−16% YoY), margin 2.5% · 8% cap from 1 Jul 2026 (was 20%) · GoRide impact Rp150B in Q3, up to Rp300B in 2026 · delivery EBITDA Rp227B (+20%) · Gojek total Rp347B (+3%) · GTV Rp16.9T (+1%) · group net profit Rp441B vs Rp255B loss · 2026 EBITDA target raised to Rp3.5–3.7T · full Perpres 27/2026 compliance by 31 Dec 2026",
+   "storyline": "ojol-regulation",
+   "update_of": "E0461",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "Katadata",
+     "url": "https://katadata.co.id/digital/startup/6ae4347b4d734/imbas-aturan-komisi-8-laba-operasional-layanan-ride-hailing-gojek-turun"
+    },
+    {
+     "label": "Katadata",
+     "url": "https://katadata.co.id/digital/startup/6ae44bb6ee9aa/aturan-komisi-8-tekan-segmen-ojol-goto-dorong-segmen-bisnis-gopay"
+    }
+   ],
+   "why_it_matters": "Komisi ojol turun dari 20% ke 8% dan sudah menggerus laba Gojek; risikonya ke tarif, promo, dan insentif driver.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 2,
+    "surprise": 1,
+    "visual": 1,
+    "fresh": 1,
+    "rivals": 1
+   },
+   "spreading_evidence": "Two Katadata digital headlines",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-10-27",
+   "category": "TECH",
+   "event": "Communications Deputy Minister Nezar Patria said Komdigi targets 100 Mbps fixed home internet below Rp200,000 per month (around Rp140,000) and wants 5G adoption raised from under 10% to about 30–40% in three to five years.",
+   "key_numbers": "100 Mbps · price <Rp200,000/month, ~Rp140,000 · 5G adoption <10% now, target 30–40% in 3–5 years · stated 27 Oct, published CNN Indonesia 31 Oct",
+   "storyline": "",
+   "update_of": "E0481",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/teknologi/20261031093212-185-1421693/pemerintah-target-internet-rumah-100-mbps-harga-di-bawah-rp200-ribu"
+    }
+   ],
+   "why_it_matters": "Janji internet rumah cepat dan murah menyentuh tagihan jutaan keluarga, tapi belum ada jadwal.",
+   "signals": {
+    "spreading": 0,
+    "wallet": 2,
+    "surprise": 1,
+    "visual": 2,
+    "fresh": 1,
+    "rivals": 1
+   },
+   "spreading_evidence": "",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-02",
+   "category": "TECH",
+   "event": "Security firm Parameter disclosed a ChatGPT flaw where a malicious shared-conversation link could run code in a logged-in user's account and read recent chats; OpenAI fixed it within 8 days after a 18 October report.",
+   "key_numbers": "Reported to OpenAI 18 Oct · fixed within 8 days · rated P1 · bounty US$5,000 (~Rp90M) · no evidence of exploitation in the wild · server-side fix, no user action needed",
+   "storyline": "",
+   "update_of": "",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "CNBC Indonesia",
+     "url": "https://www.cnbcindonesia.com/tech/20261102110152-37-781452/obrolan-anda-di-chatgpt-bisa-bocor-ke-publik-peneliti-ungkap-faktanya"
+    }
+   ],
+   "why_it_matters": "Jutaan orang Indonesia curhat ke ChatGPT; satu link bisa jadi jalan masuk ke obrolan pribadi, meski sudah ditambal.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 2
+   },
+   "spreading_evidence": "CNBC tech front page 2 Nov",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-10-31",
+   "category": "TECH",
+   "event": "CNBC Indonesia, citing WABetaInfo, reported WhatsApp is blocking login on phones running outdated operating systems that no longer get security patches, showing a warning until the OS is updated.",
+   "key_numbers": "No cutoff OS version or phone models given in the article · fix path: Settings > General > Software Update",
+   "storyline": "",
+   "update_of": "",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "CNBC Indonesia",
+     "url": "https://www.cnbcindonesia.com/tech/20261031001230-37-781100/pemilik-hp-jadul-langsung-diblokir-jangan-abaikan-peringatan-whatsapp"
+    }
+   ],
+   "why_it_matters": "HP lama yang tidak bisa update OS bisa kehilangan akses WhatsApp, aplikasi yang dipakai hampir semua orang.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 2,
+    "surprise": 1,
+    "visual": 0,
+    "fresh": 1,
+    "rivals": 1
+   },
+   "spreading_evidence": "",
+   "sensitivity": "normal"
+  }
+ ],
+ "gaps": [
+  "E0393 says MacBook Pro M6 while E0447 and CNBC say M5 Pro/M5 Max, US$2,899/US$4,799, sales from 6 Nov: conflicting known events, needs reconciling",
+  "AI bubble in China 'Rp8,700 trillion evaporated' (CNBC 29 Oct, Bisnis 30 Oct, detik): only seen in search snippets, not opened or verified",
+  "US data-centre water study (9,347 sites, 25% water-short) and US ballot votes on 3 Nov: global, little Indonesia angle",
+  "Indodax/Tokocrypto status after hack not re-checked beyond E0479",
+  "Nvidia chief Jensen Huang reportedly targeted by Chinese spies (Katadata/detik): not opened",
+  "No Indonesian startup funding or shutdown news found; DailySocial and Bisnis pages stale or failed"
+ ]
+}
