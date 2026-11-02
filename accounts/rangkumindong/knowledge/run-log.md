@@ -79,3 +79,9 @@ History moved out of HANDOFF.md (22 Oct) so fresh sessions read less. Append one
 - No pick by 14:00 → default pick (Minggu Depan). Full fact-check 3 fixes. Producer 47.1 s; first take dropped words, lines after the tagline re-voiced. QA round 1 FIX (zone 5 strip at safe edge, #disc, B collage over header) → round 2 PASS both. User "ok to post" ~15:16 → A live 19:00 (IG DfMk3g-AaNV, YT kWgg0Cbq5A4); B not posted (Trial Reels blocked).
 - W44 review written (reviews/2026-W44.md). Recommendation (stop B, rotate 3 hook styles on A only, freeze voice Pratama / block subs / 19:00) awaits user OK.
 - Producer notes: render needs CHROME_PATH empty (/usr/bin/google-chrome crashes); pip install soundfile was needed.
+
+## 2 Nov (Mon, #15 Binance dibobol Rp114 T; Cahaya, shock_number / story, subs word, format standard)
+- Sweeps 9/2/5/10 events (politics thin, business 5), 19 merged, 7 dupes. Light fact-check 3 fixes (Rp114 T not Rp104 T; frozen split; date). User replied "OK" → read as ⭐ #1 + OK post (first time the recommended idea was taken).
+- Draft trimmed 190→165 words (~76 s). Full fact-check 3 fixes: attack 29 Okt US time = Jumat dini hari WIB (morning message's "Kamis malam" corrected to the user). QA: round 1 sync FIX (qa_sync default --lead 0.08 misled; producer set SUB_LEAD 0.0, l12 re-voiced), round 2 visual FIX ×5, round 3 PASS both.
+- User "OK to post" 11:08 → A scheduled 19:00, live (IG DfPJo5kFEob, YT LiOd0PidLTc); B not posted. Analyst: Minggu Depan 24 h IG 7 / YT 30; Djarum P2 72 h IG 38 / 21.7%.
+- Problems: dashboard old-blob deletes denied 3 of 4 by the classifier (harmless leftovers). qa_sync.py still ignores index.html SUB_LEAD — pass --lead explicitly.

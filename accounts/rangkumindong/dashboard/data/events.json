@@ -1,15 +1,5 @@
 [
 {
-"id": "E0007",
-"date": "2026-10-02",
-"category": "MKT",
-"event": "IHSG week 28 Sep–2 Oct",
-"key_numbers": "−3.28% to 6,036.89; market cap Rp10,627 T; foreign YTD net sell Rp82.55 T; September −6.58%",
-"storyline": "msci-reclassification",
-"status": "verified",
-"upcoming": false
-},
-{
 "id": "E0001",
 "date": "2026-10-05",
 "category": "GLB",
@@ -4587,7 +4577,7 @@
 "key_numbers": "Effective 2 Nov 2026 · periodic reviews moved from Mar/Jun/Sep/Dec to Jan/Apr/Jul/Oct · results effective first trading day of Feb/May/Aug/Nov · incidental evaluations: stocks entering or leaving HSC adjusted immediately · one outlet reports 82 HSC stocks (unverified)",
 "storyline": "msci-reclassification",
 "status": "upcoming",
-"upcoming": true
+"upcoming": false
 },
 {
 "id": "E0278",
@@ -4597,7 +4587,7 @@
 "key_numbers": "Sept 2026 inflation 3.28% y/y · 2.17% ytd · 0.30% m/m · CPI 112.31 (108.74 a year earlier) · September data released 1 Oct, 13:59 WIB · October release date not confirmed",
 "storyline": "consumer-health",
 "status": "upcoming",
-"upcoming": true
+"upcoming": false
 },
 {
 "id": "E0471",
@@ -4607,7 +4597,7 @@
 "key_numbers": "Consensus 3.25% y/y (other outlets: 3.19% Investor.id) · m/m 0.24% (CNBC poll) or 0.22% (CNBC week-ahead calendar) vs Oct 5-year avg 0.11% · Sept 3.28% y/y, 0.30% m/m, core 2.84% · Oct avg rice Rp16,420/kg (+0.36%), sugar Rp19,625/kg (+0.95%), cooking oil Rp22,997/kg (+0.1%), eggs Rp29,881/kg (-0.75%)",
 "storyline": "",
 "status": "upcoming",
-"upcoming": true
+"upcoming": false
 },
 {
 "id": "E0475",

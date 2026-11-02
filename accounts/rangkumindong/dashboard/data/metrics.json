@@ -646,5 +646,53 @@
 "shares": 1,
 "saves": 0,
 "follows": 0
+},
+{
+"date": "2026-11-02",
+"folder": "videos/2026-11-01-minggu-depan-5-tanggal-dompet",
+"platform": "instagram",
+"hours": 24,
+"views": 7,
+"avg_watch_pct": 1.8,
+"hold_3s_pct": null,
+"shares": 0,
+"saves": 0,
+"follows": null
+},
+{
+"date": "2026-11-02",
+"folder": "videos/2026-11-01-minggu-depan-5-tanggal-dompet",
+"platform": "youtube",
+"hours": 24,
+"views": 30,
+"avg_watch_pct": null,
+"hold_3s_pct": null,
+"shares": 0,
+"saves": null,
+"follows": null
+},
+{
+"date": "2026-11-02",
+"folder": "videos/2026-10-30-djarum-kerugian-triliunan",
+"platform": "instagram",
+"hours": 72,
+"views": 38,
+"avg_watch_pct": 21.7,
+"hold_3s_pct": null,
+"shares": 0,
+"saves": 0,
+"follows": null
+},
+{
+"date": "2026-11-02",
+"folder": "videos/2026-10-30-djarum-kerugian-triliunan",
+"platform": "youtube",
+"hours": 72,
+"views": 69,
+"avg_watch_pct": null,
+"hold_3s_pct": null,
+"shares": 0,
+"saves": null,
+"follows": 0
 }
 ]

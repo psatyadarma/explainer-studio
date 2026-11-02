@@ -1,6 +1,6 @@
 # Handoff: Rangkumin Dong (read this first in every session)
 
-Updated: Sun 1 Nov 2026, 19:30 WITA. Each daily run is a fresh session with no memory of earlier chats. **This file plus the playbook are the memory.** Whenever something here changes, update it, mirror it to the Video project (`claude/rangkumindong-handoff.md`), commit and push.
+Updated: Mon 2 Nov 2026, 19:25 WITA. Each daily run is a fresh session with no memory of earlier chats. **This file plus the playbook are the memory.** Whenever something here changes, update it, mirror it to the Video project (`claude/rangkumindong-handoff.md`), commit and push.
 
 ## Standing rules from the user
 - **Experiments from 23 Oct:** daily opening A/B (B = Instagram Trial Reel, `engine/variant.py` + `engine/post.py --trial`), slot fixed at 19:00 WITA, voice in weekly blocks. The "Rangkumin dong!" tagline stays right after the hook (user 22 Oct: only change it when the data says so). See playbook → Experiments 0.
@@ -38,6 +38,7 @@ Updated: Sun 1 Nov 2026, 19:30 WITA. Each daily run is a fresh session with no m
 - #6–#13 (24–31 Oct, all live; links in covered.csv/run-log.md): #6 IHSG chapter cut PART 3 (subtitle-lag fixed in `engine/tts_eleven.py segment()`, confirm on next real lag), #7 Minggu Depan 4 tanggal, #8 minyak vs APBN, #9 definisi korupsi PART 2 (user now allows auto-posting for all kinds), #10 asap karhutla (best IG so far: definisi korupsi PART 2 ~1.3k views, ~50% watched), #11 KPK Djarum never posted (auto-post blocked) → superseded by #12 Djarum "kerugian triliunan", #13 definisi korupsi PART 3 (31 Oct 19:00, IG DfKAISMAIiv, YT 9Ha4Sh0QzL8).
 - Weekly #2 "Rangkumin Seminggu" 24–30 Okt (10:12) live Sat 31 Oct 08:00 (IG DfI0oyajx3t, YT u74sDSDa73M). #7 W43 review proposal (alternating hook styles on A only) is superseded by the W44 recommendation below.
 - #14 Minggu Depan "5 tanggal 2–10 Nov" (default pick 14:00, user OK ~15:16) live 1 Nov 19:00 (IG https://www.instagram.com/reel/DfMk3g-AaNV/ · YT https://www.youtube.com/watch?v=kWgg0Cbq5A4); B not posted. **Pending user decision: W44 recommendation** (reviews/2026-W44.md: stop B, rotate 3 hook styles on A only, freeze voice Pratama / block subs / 19:00).
+- #15 Binance dibobol Rp114 T (user picked ⭐ #1, "OK to post" 11:08) live 2 Nov 19:00 (IG https://www.instagram.com/reel/DfPJo5kFEob/ · YT https://www.youtube.com/watch?v=LiOd0PidLTc); B not posted. W44 recommendation still awaits user OK (asked again 2 Nov). QA note: `qa_sync.py` ignores SUB_LEAD in index.html — always pass `--lead` matching it (0.0 on 2 Nov).
 - Each day: append a 3–5 line block to run-log.md (picks, counts, problems) instead of growing this file.
 
 ## Dashboard: "Rangkumin Dong Studio"

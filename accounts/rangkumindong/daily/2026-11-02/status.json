@@ -14,7 +14,7 @@
   "render": "todo",
   "video_sent": "todo",
   "ok_post": "yes",
-  "posted": "todo",
+  "posted": "done",
   "knowledge": "todo",
   "sweeps": "done",
   "pick": "done",
@@ -23,7 +23,8 @@
   "produce": "done",
   "qa": "done",
   "sent": "done",
-  "scheduled": "done"
+  "scheduled": "done",
+  "analyst": "done"
  },
  "notes": [],
  "merge_stats": {
