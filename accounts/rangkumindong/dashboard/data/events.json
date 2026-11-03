@@ -4900,6 +4900,96 @@
 "upcoming": false
 },
 {
+"id": "E0532",
+"date": "2026-11-02",
+"category": "POL",
+"event": "PKB's Muhammad Khozin said the faction is seriously studying DPR options (interpelasi, hak angket, hak menyatakan pendapat) after MA cassation ruling 742 K/TUN/2026 voided Gibran's SMA-equivalence letter; PDIP said it cannot push an angket alone, Demokrat said Gibran no longer qualifies, Golkar said it will study the full ruling. (update of E0457)",
+"key_numbers": "MA ruling 742 K/TUN/2026 · voided suket No. 9149/D.D1/KS/2019 dated 6 Aug 2019 · Art. 79(3) and 79(4)c UU MD3 · DPR in recess until 9 Nov 2026",
+"storyline": "gibran-ijazah-mk",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0535",
+"date": "2026-11-02",
+"category": "POL",
+"event": "Polri's Bareskrim named 13 suspects (including two Russians and one Ukrainian) in five trafficking cases that lured 58 Indonesians, some ex-TNI/Polri, to become mercenaries in Russia's war.",
+"key_numbers": "13 suspects · 58 victims (5+12+12+7+22 across five reports) · signing bonus up to US$35,000 (~Rp620 million) · salary ~US$3,000/month (~Rp50 million) · Art. 4/10 UU 21/2007",
+"storyline": "",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0536",
+"date": "2026-11-02",
+"category": "POL",
+"event": "Kapolri removed Sukoharjo police chief AKBP Andika Dharma Sena and three officers after the 27 Oct pre-dawn police search of Ponpes Hamalatul Qur'an; Propam is examining four personnel and Polri expressed regret to students and caregivers.",
+"key_numbers": "Search 27 Oct 2026 ~03.20 WIB · 4 personnel removed and examined by Propam · linked to 12 Sep burning of a noodle/pork stall in Parangjoro",
+"storyline": "sukoharjo-pesantren-raid",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0537",
+"date": "2026-11-02",
+"category": "ENV",
+"event": "Polri's tally of karhutla corporate suspects stands at 20 corporations, four of them with foreign capital, per CNBC Indonesia; Kemenhut separately named two companies suspects including one with Singapore investors. (update of E0422)",
+"key_numbers": "20 corporations · 4 foreign-capital · Polri proposes revoking 23 permits (headline)",
+"storyline": "karhutla",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0539",
+"date": "2026-11-02",
+"category": "TECH",
+"event": "Binance said the US$6.3 billion hack began with a compromised laptop of a DevOps engineer, giving the attacker access to service containers, and that it covered losses from its SAFU fund. (update of E0478)",
+"key_numbers": "US$6.3 billion (about Rp114.4 trillion) client assets affected · about US$3 billion (Rp54.4 trillion) frozen on-chain · SAFU fund launched 2018 · TRM Labs and Chainalysis point to North Korea (TraderTraitor)",
+"storyline": "crypto-hacks",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0540",
+"date": "2026-11-02",
+"category": "TECH",
+"event": "CNBC Indonesia, citing IDEAS surveys, reported that most ojol drivers still earn below Rp100,000 net per day even after the 8% commission cap that Grab and GoTo applied from 1 July 2026.",
+"key_numbers": "73.07% earn under Rp100,000 net/day · 7.34% earn Rp150,000+ · survey 23-27 Aug 2026, 531 drivers, 51 regencies/cities, 13 provinces · gross daily income Rp126,313 vs Rp187,628 pre-pandemic · operating cost Rp65,694/day · commission 8% (drivers get at least 92%, was 80%) under Perpres 27/2026",
+"storyline": "ojol-regulation",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0541",
+"date": "2026-11-02",
+"category": "TECH",
+"event": "LG CNS completed a 30 MW AI data center in Jakarta for KMG, a Sinar Mas and Korea Investment Real Asset Management joint venture, with full capacity already pre-sold and expansion to 400 MW in design.",
+"key_numbers": "30 MW now · 400 MW planned · over 300 kW per rack (about 60x a typical rack) · air cooling in phase 1, liquid cooling later",
+"storyline": "ai-data-centres",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0543",
+"date": "2026-11-02",
+"category": "TECH",
+"event": "Experts told CNBC Indonesia that building security routinely demanding a KTP and a face photo from visitors can breach UU PDP data-minimisation principles, while the data protection oversight agency that should have existed since 17 October 2024 still has not been formed.",
+"key_numbers": "UU PDP passed 2022 · oversight body due 17 Oct 2024, not yet formed",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0544",
+"date": "2026-11-02",
+"category": "NEWS",
+"event": "CNN Indonesia reports a human-trafficking (TPPO) scheme recruiting Indonesians as Russian mercenaries with a promised bonus of Rp620 million; this follows Ukraine's FISU list of 8 WNI in the Russian army and Immigration profiling suspected recruiters.",
+"key_numbers": "Bonus Rp620 juta · 8 WNI on Ukrainian FISU list (27 Aug) · 7 of 8 got Russian visas in 2026",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
 "id": "E0475",
 "date": "2026-11-03",
 "category": "GLB",
@@ -4926,6 +5016,146 @@
 "event": "US midterm elections take place on 3 November, with Indonesian market commentary watching the effect on the dollar and rate expectations after the Fed held at 3.75-4.00% with two dissenters favouring a hike. (update of E0475)",
 "key_numbers": "Fed funds 3.75-4.00% (held 28 Oct) · 2 dissents for +25 bp (Cook, Hammack) · next FOMC 8-9 Dec · US CPI 3.7% y/y (Sep) · Brent ~US$114 on 27 Oct · BI RDG 17-18 Nov",
 "storyline": "rupiah",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0522",
+"date": "2026-11-03",
+"category": "MKT",
+"event": "The IHSG closed down 3.78% on 3 November, falling back below 5,000 on the day of the US midterm elections and a KSSK press conference, one day after the HSC-stock exclusion took effect. (update of E0489)",
+"key_numbers": "Close 4,904.29 (-192.54 pts, -3.78%) · open about 5,126 · below 5,000 before 11:00 WIB · volume 226.69 million lots · value Rp10.22T · Brent -7.63% to US$104.77 on 2 Nov",
+"storyline": "msci-reclassification",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0523",
+"date": "2026-11-03",
+"category": "MKT",
+"event": "Foreign investors net sold Rp831.55 billion in the first session on 3 November, led by BBRI, TLKM and ANTM.",
+"key_numbers": "Net foreign sell Rp831.55B · foreign buy Rp1.61T · foreign sell Rp2.44T · IHSG 4,963.06 (-2.62%) at session I close · BBRI Rp173.45B · TLKM Rp95.77B · ANTM Rp69.40B · BUMI Rp59.93B · TPIA Rp54.46B",
+"storyline": "msci-reclassification",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0524",
+"date": "2026-11-03",
+"category": "MKT",
+"event": "The rupiah weakened to Rp18,145 per US dollar, and BI Governor Destry Damayanti blamed external factors, mainly Middle East escalation. (update of E0493)",
+"key_numbers": "Rp18,145/US$ (CNBC, as of 2 Nov) · about Rp17,830 at end of Q3 · record-low status not confirmed in the article",
+"storyline": "rupiah",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0525",
+"date": "2026-11-03",
+"category": "MKT",
+"event": "OJK chair Friderica Widyasari Dewi said the capital market reform is like a 'detox' and a red IHSG is a consequence, calling it the largest reform in Indonesia's capital market history.",
+"key_numbers": "Capital raising through Oct 2026 Rp205.77T · 7 IPOs · 20 limited public offerings (PUT) · 11 debt issuances · no reform deadlines given",
+"storyline": "msci-reclassification",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0526",
+"date": "2026-11-03",
+"category": "MKT",
+"event": "Finance Minister Suahasil Nazara said the Finance Ministry will not become a shareholder in the Indonesia Stock Exchange (BEI) demutualization and remains only a policymaker.",
+"key_numbers": "No stake sizes or shareholder names given · BEI cash dividend Rp1.56T before demutualization appears only in a related headline (unconfirmed)",
+"storyline": "msci-reclassification",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0527",
+"date": "2026-11-03",
+"category": "BIZ",
+"event": "Social media posts claimed customers of PT Bank MNC Internasional (BABP) could not withdraw funds; OJK said supervision found no serious issues and urged calm.",
+"key_numbers": "Claimed Rp500,000 withdrawal cap at a Bonjer branch on 2 Nov (unverified social post) · MNC Bank Q3 headline: profit -22%, deposits -17% (headline only)",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0528",
+"date": "2026-11-03",
+"category": "ECO",
+"event": "The Finance Ministry reported Q3 2026 state revenue of Rp2,341.5T, up 25.5% year on year, helped by Coretax, with spending at Rp2,660.5T.",
+"key_numbers": "Revenue Rp2,341.5T (+25.5%) · tax Rp1,847.7T (+21.8%) · customs/excise Rp240.1T (+8.5%) · PNBP Rp492.3T (+41.7%) · spending Rp2,660.5T (+19%) · financing Rp462T · components do not sum to total in the article",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0529",
+"date": "2026-11-03",
+"category": "ECO",
+"event": "Finance Minister said foreign investors net bought Rp28.79T of government bonds (SBN) at the KSSK press conference, as the government says the financial system stayed stable.",
+"key_numbers": "Net foreign SBN buying Rp28.79T · 10-year SUN vs US Treasury spread 183 bps · period not stated exactly",
+"storyline": "rupiah",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0530",
+"date": "2026-11-03",
+"category": "POL",
+"event": "Polri's Bareskrim named Presidential Chief of Staff and former Kapolri Listyo Sigit Prabowo, Kadivkum Irjen Ahrie Sonta and Irjen Eko Hadi Santoso suspects in alleged illegal wiretapping of President Prabowo's number and others, and detained them at the Mabes Polri detention centre.",
+"key_numbers": "3 suspects · wiretapping period 2025-2026 · alleged log-deletion order Oct 2026 · police report filed 30 Oct 2026 · 10 witnesses + 3 experts · seized 11 phones, 1 iPad, 4 flashdisks · Art. 258 KUHP (max 10 yrs), Art. 332 KUHP (max 6 yrs), Art. 32(1) UU ITE (max 8 yrs)",
+"storyline": "listyo-sigit-penyadapan",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0531",
+"date": "2026-11-03",
+"category": "POL",
+"event": "Ex-Jampidsus Febrie Adriansyah denied before the Jakarta Tipikor Court that he extorted businessman Tan Kian for Rp55 billion, after Tan Kian and Ferry 'Boboho' testified that money was demanded to avoid suspect status in the Jiwasraya case; judges removed two spectators accused of leaking testimony. (update of E0513)",
+"key_numbers": "Rp55 billion alleged extortion · prosecution evidence shown in court · witness Boboho earlier cited Rp50 billion demand and Rp22.5 billion fee · hearing 2-3 Nov 2026",
+"storyline": "kejagung-febrie-trial",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0533",
+"date": "2026-11-03",
+"category": "POL",
+"event": "KPK chair Setyo Budiyanto said ATR/BPN Minister Nusron Wahid will be summoned as a witness 'soon' in the Summarecon HGB bribery case after he missed two summonses; KPK asked him to prioritise it amid unverified reports of a Japan trip. (update of E0387)",
+"key_numbers": "Summons skipped 7 Oct and 15 Oct 2026 · 8 suspects named · OTT 14 Sep: 19 people caught, Rp106.3 billion cash seized",
+"storyline": "kpk-nusron-atr-bpn",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0534",
+"date": "2026-11-03",
+"category": "POL",
+"event": "KPK spokesperson Budi Prasetyo said the PT Djarum excise-stamp probe concerns alleged underpayment of cukai through affiliated companies; searches also covered Semarang customs and the Central Java customs regional office, with money found at customs offices; no suspects named. (update of E0514)",
+"key_numbers": "Sprindik umum Oct 2026 · state loss 'hitungan awal triliunan' · 6 affiliated companies searched 29 Oct · no witnesses summoned yet (2 Nov)",
+"storyline": "corruption-cases",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0538",
+"date": "2026-11-03",
+"category": "TECH",
+"event": "Apple sent threat notifications to users in a reported 99 countries and Germany's BSI confirmed Bundestag members and other prominent figures received warnings of possible state-backed zero-click iPhone spyware; CNBC Indonesia's headline framed it as a 'DPR' wiretap although the article is about Germany.",
+"key_numbers": "99 countries (figure from a Beirut filmmaker, not independently confirmed) · tens of thousands of users feared targeted · zero-click exploit · attacker unknown",
+"storyline": "",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0542",
+"date": "2026-11-03",
+"category": "TECH",
+"event": "Bisnis.com headline says the Cikarang data center is full and NeutraDC (Telkom group) is expanding its AI infrastructure in Indonesia; the article could not be opened.",
+"key_numbers": "details not verified",
+"storyline": "ai-data-centres",
 "status": "partial",
 "upcoming": false
 },

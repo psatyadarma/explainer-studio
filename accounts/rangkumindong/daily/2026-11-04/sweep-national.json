@@ -1,0 +1,92 @@
+{
+  "area": "national",
+  "run_date": "2026-11-04",
+  "checked": ["CNN Indonesia nasional (headlines dated 2 Nov, latest 22:20)", "detik terpopuler (search only, page not returned)", "CNBC Indonesia (search only, nothing current)", "Antara terkini (WebFetch blocked: PROVENANCE_REQUIRED)", "turnbackhoax/Antara cek-fakta (not reached)", "watch list found: disasters (Jatim floods, Semeru lahar, TPA Degayu fire), crime, TPPO, public services (BisKita Depok)", "storyline searches: gibran-ijazah-mk and karhutla covered by other areas/known events; no separate search run"],
+  "events": [
+    {
+      "date": "2026-11-02",
+      "category": "ENV",
+      "event": "CNN Indonesia reports six regencies in East Java were hit by floods and landslides, and heavy rain triggered a Semeru lahar flood that inundated residential areas.",
+      "key_numbers": "6 kabupaten in Jawa Timur · reported 2 Nov 2026 (evening)",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [{"label": "CNN Indonesia nasional", "url": "https://www.cnnindonesia.com/nasional"}],
+      "why_it_matters": "Rainy season has begun and residents near rivers and volcano slopes face real flood and lahar risk.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "Two CNN Indonesia nasional headlines 2 Nov (headline + photo feature)",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-02",
+      "category": "NEWS",
+      "event": "A concrete-mixer (molen) truck crash in Bekasi killed 6 people and the driver was named a suspect, per CNN Indonesia.",
+      "key_numbers": "6 dead · driver named suspect · 2 Nov 2026",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [{"label": "CNN Indonesia nasional", "url": "https://www.cnnindonesia.com/nasional"}],
+      "why_it_matters": "Heavy-truck safety on Greater Jakarta roads affects every commuter.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "CNN Indonesia nasional headline 2 Nov 21:34",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-02",
+      "category": "NEWS",
+      "event": "CNN Indonesia reports a human-trafficking (TPPO) scheme recruiting Indonesians as Russian mercenaries with a promised bonus of Rp620 million; this follows Ukraine's FISU list of 8 WNI in the Russian army and Immigration profiling suspected recruiters.",
+      "key_numbers": "Bonus Rp620 juta · 8 WNI on Ukrainian FISU list (27 Aug) · 7 of 8 got Russian visas in 2026",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [{"label": "CNN Indonesia nasional", "url": "https://www.cnnindonesia.com/nasional"}, {"label": "Justisio (Immigration DG Hendarsam Marantoko, 21 Oct)", "url": "https://justisio.com/berita/2026-10-21-imigrasi-bidik-jaringan-perekrut-wni-jadi-tentara-bayaran-rusia"}, {"label": "Katadata (2 Sep)", "url": "https://katadata.co.id/berita/nasional/6a981f04763d7/dpr-dalami-kasus-perekrutan-wni-jadi-tentara-rusia"}],
+      "why_it_matters": "Job-seekers lured by high-paying overseas offers can end up on a war front with passports taken.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 2, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "CNN Indonesia nasional headline 2 Nov 20:50; story running since late Aug",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-02",
+      "category": "NEWS",
+      "event": "Dozens of victims of a 'green investment' scheme reported it to police, with total losses of Rp5.7 billion.",
+      "key_numbers": "Rp5,7 miliar total losses · dozens of victims",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [{"label": "CNN Indonesia nasional", "url": "https://www.cnnindonesia.com/nasional"}],
+      "why_it_matters": "Another investment-scam pattern that ordinary savers should recognize.",
+      "signals": {"spreading": 0, "wallet": 2, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-02",
+      "category": "NEWS",
+      "event": "Depok mayor says the BisKita bus on the LRT Harjamukti route will no longer be free next year.",
+      "key_numbers": "Free service ends 2027",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [{"label": "CNN Indonesia nasional", "url": "https://www.cnnindonesia.com/nasional"}],
+      "why_it_matters": "Commuters in Depok will start paying for a feeder service they now ride free.",
+      "signals": {"spreading": 0, "wallet": 1, "surprise": 0, "visual": 1, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-02",
+      "category": "NEWS",
+      "event": "A fire at the Degayu landfill (TPA) in Pekalongan was being fought by crews on 2 November.",
+      "key_numbers": "",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [{"label": "CNN Indonesia nasional", "url": "https://www.cnnindonesia.com/nasional"}],
+      "why_it_matters": "Landfill fires bring smoke and a waste-management problem to nearby residents.",
+      "signals": {"spreading": 0, "wallet": 0, "surprise": 0, "visual": 1, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    }
+  ],
+  "gaps": ["Antara terkini fetch blocked (PROVENANCE_REQUIRED, not retried); detik/CNBC section pages never returned by search, so no most-read lists and no X/TikTok trending evidence", "CNN Indonesia list was dated 2 Nov; nothing from 3-4 Nov seen", "No fact-check/hoax page reached", "Details of Jatim floods (names, casualties), Bekasi crash and green-investment scam are headline-only, need an article open", "Many Gibran-ijazah headlines (PKB angket option, Denny, MA) belong to the politics sweep and known E0466"]
+}

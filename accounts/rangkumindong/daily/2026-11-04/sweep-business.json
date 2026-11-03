@@ -1,0 +1,110 @@
+{
+  "area": "business",
+  "run_date": "2026-11-04",
+  "checked": ["CNBC Indonesia Tech section page", "detikInet section page", "Bisnis Komdigi topic page (stale, latest 9 Oct)", "WebSearch iPhone spyware DPR/Germany", "WebSearch data center AI Indonesia", "WebSearch Komdigi 3 Nov", "watch list found: AI/data centres, scams/wallet theft, ojol earnings, Komdigi takedown rule (already known E0426), consumer tech (MacBook/iPhone Duo, already known)", "known-events window 14 days"],
+  "events": [
+    {
+      "date": "2026-11-03",
+      "category": "TECH",
+      "event": "Apple sent threat notifications to users in a reported 99 countries and Germany's BSI confirmed Bundestag members and other prominent figures received warnings of possible state-backed zero-click iPhone spyware; CNBC Indonesia's headline framed it as a 'DPR' wiretap although the article is about Germany.",
+      "key_numbers": "99 countries (figure from a Beirut filmmaker, not independently confirmed) · tens of thousands of users feared targeted · zero-click exploit · attacker unknown",
+      "storyline": "",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/tech/20261103132252-37-781878/geger-penyadapan-iphone-dpr-apple-kirim-warning-ke-99-negara"},
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/teknologi/20261103070631-206-1422553/serangan-spyware-sasar-iphone-pejabat-jerman-apple-kasih-peringatan"}
+      ],
+      "why_it_matters": "Even iPhones can be hacked without a single tap, and the misleading 'DPR' headline shows how easily this story is misread in Indonesia.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 2, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "Covered by CNBC Indonesia, CNN Indonesia, Medcom, Beritasatu",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-02",
+      "category": "TECH",
+      "event": "Binance said the US$6.3 billion hack began with a compromised laptop of a DevOps engineer, giving the attacker access to service containers, and that it covered losses from its SAFU fund.",
+      "key_numbers": "US$6.3 billion (about Rp114.4 trillion) client assets affected · about US$3 billion (Rp54.4 trillion) frozen on-chain · SAFU fund launched 2018 · TRM Labs and Chainalysis point to North Korea (TraderTraitor)",
+      "storyline": "crypto-hacks",
+      "update_of": "E0478",
+      "status": "verified",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/tech/20261102123441-37-781494/kronologi-pencurian-terbesar-uang-rp-114-triliun-lenyap-seketika"}
+      ],
+      "why_it_matters": "The biggest exchange hack on record started with one employee laptop, a useful lesson for anyone holding crypto on an exchange.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 2, "visual": 2, "fresh": 1, "rivals": 1},
+      "spreading_evidence": "Two CNBC Indonesia Tech headlines on 2 Nov",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-02",
+      "category": "TECH",
+      "event": "CNBC Indonesia, citing IDEAS surveys, reported that most ojol drivers still earn below Rp100,000 net per day even after the 8% commission cap that Grab and GoTo applied from 1 July 2026.",
+      "key_numbers": "73.07% earn under Rp100,000 net/day · 7.34% earn Rp150,000+ · survey 23-27 Aug 2026, 531 drivers, 51 regencies/cities, 13 provinces · gross daily income Rp126,313 vs Rp187,628 pre-pandemic · operating cost Rp65,694/day · commission 8% (drivers get at least 92%, was 80%) under Perpres 27/2026",
+      "storyline": "ojol-regulation",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/tech/20261102152248-37-781570/segini-penghasilan-ojol-kerja-seharian-makin-lama-makin-kecil"}
+      ],
+      "why_it_matters": "Millions rely on ojol income, and the commission cut promised by the president has not lifted most drivers to minimum wage.",
+      "signals": {"spreading": 1, "wallet": 2, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-02",
+      "category": "TECH",
+      "event": "LG CNS completed a 30 MW AI data center in Jakarta for KMG, a Sinar Mas and Korea Investment Real Asset Management joint venture, with full capacity already pre-sold and expansion to 400 MW in design.",
+      "key_numbers": "30 MW now · 400 MW planned · over 300 kW per rack (about 60x a typical rack) · air cooling in phase 1, liquid cooling later",
+      "storyline": "ai-data-centres",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "Korea Times", "url": "https://www.koreatimes.co.kr/amp/business/companies/20261102/lg-cns-completes-30-mw-ai-data-center-in-indonesia"}
+      ],
+      "why_it_matters": "Indonesia is becoming an AI data-center hub, which raises questions on power and water use.",
+      "signals": {"spreading": 0, "wallet": 0, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-03",
+      "category": "TECH",
+      "event": "Bisnis.com headline says the Cikarang data center is full and NeutraDC (Telkom group) is expanding its AI infrastructure in Indonesia; the article could not be opened.",
+      "key_numbers": "details not verified",
+      "storyline": "ai-data-centres",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "Bisnis.com", "url": "https://market.bisnis.com/read/20261103/192/2018056/data-center-cikarang-penuh-neutradc-perluas-infrastruktur-ai-indonesia"}
+      ],
+      "why_it_matters": "Shows AI demand has filled existing data-center capacity in Indonesia.",
+      "signals": {"spreading": 0, "wallet": 0, "surprise": 0, "visual": 0, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-02",
+      "category": "TECH",
+      "event": "Experts told CNBC Indonesia that building security routinely demanding a KTP and a face photo from visitors can breach UU PDP data-minimisation principles, while the data protection oversight agency that should have existed since 17 October 2024 still has not been formed.",
+      "key_numbers": "UU PDP passed 2022 · oversight body due 17 Oct 2024, not yet formed",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/tech/20261102132245-37-781528/diminta-ktp-dan-difoto-saat-masuk-gedung-ternyata-melanggar-uu"}
+      ],
+      "why_it_matters": "Almost everyone hands over a KTP at an office lobby, and few know they can question it.",
+      "signals": {"spreading": 0, "wallet": 0, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    }
+  ],
+  "gaps": [
+    "NeutraDC Cikarang-full article (Bisnis, 3 Nov) could not be opened; no numbers.",
+    "detik 'Bubble AI di China pecah, Rp8.700 triliun menguap' (d-8728932) seen on detikInet, date unknown and not opened.",
+    "CNBC 'Presiden Kecanduan AI' (2 Nov) and Xiaomi/Google AI-revenue stories not opened; katadata, bisnis tech, cnnindonesia, dailysocial section pages not scanned (bisnis Komdigi topic page was stale at 9 Oct); startup/GoTo/Shopee/Coretax found nothing new in headlines.",
+    "detik Komdigi 4-hour takedown article was blocked; topic already tracked as E0426."
+  ]
+}

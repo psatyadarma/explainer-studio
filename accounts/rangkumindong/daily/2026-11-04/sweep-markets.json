@@ -1,0 +1,245 @@
+{
+ "area": "markets",
+ "run_date": "2026-11-04",
+ "checked": [
+  "CNBC Indonesia market page (scanned 31 headlines)",
+  "IHSG close and big movers",
+  "foreign net buy/sell",
+  "rupiah / BI",
+  "OJK actions",
+  "APBN / KSSK",
+  "MSCI storyline (search, nothing new)",
+  "rupiah storyline",
+  "bank rumour (MNC Bank)",
+  "bisnis, detik, antara not scanned (CNBC page only)"
+ ],
+ "events": [
+  {
+   "date": "2026-11-03",
+   "category": "MKT",
+   "event": "The IHSG closed down 3.78% on 3 November, falling back below 5,000 on the day of the US midterm elections and a KSSK press conference, one day after the HSC-stock exclusion took effect.",
+   "key_numbers": "Close 4,904.29 (-192.54 pts, -3.78%) · open about 5,126 · below 5,000 before 11:00 WIB · volume 226.69 million lots · value Rp10.22T · Brent -7.63% to US$104.77 on 2 Nov",
+   "storyline": "msci-reclassification",
+   "update_of": "E0489",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "CNBC Indonesia",
+     "url": "https://www.cnbcindonesia.com/market/20261103153044-17-781952/ihsg-ditutup-anjlok-378-ke-490429"
+    },
+    {
+     "label": "CNBC Indonesia",
+     "url": "https://www.cnbcindonesia.com/market/20261103134858-17-781886/breaking-ihsg-anjlok-3-ini-penyebabnya"
+    }
+   ],
+   "why_it_matters": "The index investors watch is back under 5,000 just after the new index rules started, and no single cause is confirmed.",
+   "signals": {
+    "spreading": 2,
+    "wallet": 1,
+    "surprise": 2,
+    "visual": 2,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "Two CNBC 'Breaking' IHSG pieces on 3 Nov; top of CNBC market page",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-03",
+   "category": "MKT",
+   "event": "Foreign investors net sold Rp831.55 billion in the first session on 3 November, led by BBRI, TLKM and ANTM.",
+   "key_numbers": "Net foreign sell Rp831.55B · foreign buy Rp1.61T · foreign sell Rp2.44T · IHSG 4,963.06 (-2.62%) at session I close · BBRI Rp173.45B · TLKM Rp95.77B · ANTM Rp69.40B · BUMI Rp59.93B · TPIA Rp54.46B",
+   "storyline": "msci-reclassification",
+   "update_of": "",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "CNBC Indonesia",
+     "url": "https://www.cnbcindonesia.com/market/20261103122935-17-781853/dana-asing-kabur-rp83155-m-pada-sesi-i-10-saham-ini-banyak-dilepas"
+    }
+   ],
+   "why_it_matters": "Foreign selling of big banks and blue chips hits the shares in many retail portfolios and pension funds.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 1,
+    "surprise": 1,
+    "visual": 2,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "CNBC market page 3 Nov",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-03",
+   "category": "MKT",
+   "event": "The rupiah weakened to Rp18,145 per US dollar, and BI Governor Destry Damayanti blamed external factors, mainly Middle East escalation.",
+   "key_numbers": "Rp18,145/US$ (CNBC, as of 2 Nov) · about Rp17,830 at end of Q3 · record-low status not confirmed in the article",
+   "storyline": "rupiah",
+   "update_of": "E0493",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "CNBC Indonesia",
+     "url": "https://www.cnbcindonesia.com/market/20261103172344-17-781995/dolar-menguat-ke-level-rp18145-us--gubernur-bi-tunjuk-masalahnya"
+    }
+   ],
+   "why_it_matters": "A weaker rupiah raises prices of imported goods, fuel and overseas tuition.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 2,
+    "surprise": 1,
+    "visual": 2,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "CNBC market page 3 Nov",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-03",
+   "category": "MKT",
+   "event": "OJK chair Friderica Widyasari Dewi said the capital market reform is like a 'detox' and a red IHSG is a consequence, calling it the largest reform in Indonesia's capital market history.",
+   "key_numbers": "Capital raising through Oct 2026 Rp205.77T · 7 IPOs · 20 limited public offerings (PUT) · 11 debt issuances · no reform deadlines given",
+   "storyline": "msci-reclassification",
+   "update_of": "",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "CNBC Indonesia",
+     "url": "https://www.cnbcindonesia.com/market/20261103181327-17-782016/ojk-reformasi-pasar-modal-ibarat-detox-ihsg-merah-jadi-konsekuensi"
+    }
+   ],
+   "why_it_matters": "The regulator is telling investors to expect pain from the clean-up, which may reassure or alarm.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 1,
+    "surprise": 2,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 2
+   },
+   "spreading_evidence": "CNBC market page; KSSK press conference 3 Nov",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-03",
+   "category": "MKT",
+   "event": "Finance Minister Suahasil Nazara said the Finance Ministry will not become a shareholder in the Indonesia Stock Exchange (BEI) demutualization and remains only a policymaker.",
+   "key_numbers": "No stake sizes or shareholder names given · BEI cash dividend Rp1.56T before demutualization appears only in a related headline (unconfirmed)",
+   "storyline": "msci-reclassification",
+   "update_of": "",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "CNBC Indonesia",
+     "url": "https://www.cnbcindonesia.com/market/20261103181506-17-782017/demutualisasi-bei-kemenkeu-pastikan-tak-akan-ikut-jadi-pemilik"
+    }
+   ],
+   "why_it_matters": "Who will own the exchange matters for MSCI's view of governance.",
+   "signals": {
+    "spreading": 0,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 0,
+    "fresh": 2,
+    "rivals": 2
+   },
+   "spreading_evidence": "CNBC market page 3 Nov",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-03",
+   "category": "BIZ",
+   "event": "Social media posts claimed customers of PT Bank MNC Internasional (BABP) could not withdraw funds; OJK said supervision found no serious issues and urged calm.",
+   "key_numbers": "Claimed Rp500,000 withdrawal cap at a Bonjer branch on 2 Nov (unverified social post) · MNC Bank Q3 headline: profit -22%, deposits -17% (headline only)",
+   "storyline": "",
+   "update_of": "",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "CNBC Indonesia",
+     "url": "https://www.cnbcindonesia.com/market/20261103205755-17-782065/ojk-ungkap-kondisi-mnc-bank-usai-muncul-rumor-bangkrut"
+    },
+    {
+     "label": "CNBC Indonesia",
+     "url": "https://www.cnbcindonesia.com/market/20261103181231-17-782015/heboh-nasabah-bank-swasta-sulit-tarik-dana-ojk-buka-suara"
+    }
+   ],
+   "why_it_matters": "Bank-run rumours test whether people trust their deposits (LPS guarantee is a natural explainer).",
+   "signals": {
+    "spreading": 2,
+    "wallet": 2,
+    "surprise": 2,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "Two CNBC articles plus OJK statements; viral on Threads",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-11-03",
+   "category": "ECO",
+   "event": "The Finance Ministry reported Q3 2026 state revenue of Rp2,341.5T, up 25.5% year on year, helped by Coretax, with spending at Rp2,660.5T.",
+   "key_numbers": "Revenue Rp2,341.5T (+25.5%) · tax Rp1,847.7T (+21.8%) · customs/excise Rp240.1T (+8.5%) · PNBP Rp492.3T (+41.7%) · spending Rp2,660.5T (+19%) · financing Rp462T · components do not sum to total in the article",
+   "storyline": "",
+   "update_of": "",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "CNBC Indonesia",
+     "url": "https://www.cnbcindonesia.com/market/20261103172713-17-781996/pendapatan-negara-tembus-rp2341-t-di-q3-coretax-dongkrak-pajak"
+    }
+   ],
+   "why_it_matters": "Shows how much more tax the state is collecting and how much it is spending.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 1,
+    "surprise": 1,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "CNBC market page 3 Nov",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-03",
+   "category": "ECO",
+   "event": "Finance Minister said foreign investors net bought Rp28.79T of government bonds (SBN) at the KSSK press conference, as the government says the financial system stayed stable.",
+   "key_numbers": "Net foreign SBN buying Rp28.79T · 10-year SUN vs US Treasury spread 183 bps · period not stated exactly",
+   "storyline": "rupiah",
+   "update_of": "",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "CNBC Indonesia",
+     "url": "https://www.cnbcindonesia.com/market/20261103171913-17-781993/kabar-baik-asing-borong-sbn-ri-rp2879-t-di-tengah-gejolak-global"
+    },
+    {
+     "label": "CNBC Indonesia",
+     "url": "https://www.cnbcindonesia.com/market/20261103170524-17-781985/sistem-keuangan-ri-masih-stabil-di-q3-kssk-soroti-tekanan-global"
+    }
+   ],
+   "why_it_matters": "Foreigners are selling stocks but buying bonds, a mixed signal for the rupiah.",
+   "signals": {
+    "spreading": 0,
+    "wallet": 1,
+    "surprise": 1,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "CNBC market page 3 Nov",
+   "sensitivity": "normal"
+  }
+ ],
+ "gaps": [
+  "Section pages for bisnis, detik, antaranews and cnbc /news were not scanned; only CNBC market was read.",
+  "CNBC headline 'Inflasi bahan makanan tembus 5,61% Oktober 2026' not opened (headline only).",
+  "Angkasa Pura transferring all GMFI shares to InJourney for Rp5.6T seen in headline only.",
+  "Cause of the 3.78% IHSG fall unconfirmed; foreign net sell for the full day and top losers not found.",
+  "No other-outlet confirmation yet for MNC Bank rumour beyond CNBC and OJK quotes."
+ ]
+}
