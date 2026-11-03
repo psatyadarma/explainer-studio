@@ -14,10 +14,11 @@ _One dated line per piece of feedback about topics or angles. The coordinator ap
 - 2026-10-27: Picked #5 (definisi korupsi PART 2, politics/law, sensitivity high, 8/12) over the recommended #1 (BYD Atto 1 best-seller, 10/12) on tech Tuesday; asked why #1 was recommended. Second time choosing the definisi-korupsi storyline over a higher-scored pick.
 - 2026-10-27: Said "OK" to post definisi korupsi PART 2 and gave a standing rule: automatic (default) posting is allowed for all kinds of posts, including sensitivity high.
 - 2026-11-02: Replied "OK" to the morning message (read as: go with ⭐ #1 Binance hack Rp114 T, recommended, on markets Monday, and OK to post today). First time taking the recommended idea.
+- 2026-11-03: Picked #1 (Ledger dompet kripto dibobol di toko, recommended, 11/12) on tech Tuesday and said "OK to post too" early (~05:20 WITA).
 
 ## What the picks show
 
-_Recomputed by engine/prefs.py from 15 days of offers, 7 picks._
+_Recomputed by engine/prefs.py from 16 days of offers, 8 picks._
 
 - 2026-10-20: picked #3  "Rupiah Rp18.046: besok BI putuskan, tahan 5,75% atau naik ke 6%?", storyline rupiah
 - 2026-10-21: picked #?  "Karhutla: siapa yang tanggung jawab atas asap? (Lutfi vs Singapura)", storyline karhutla
@@ -33,8 +34,9 @@ _Recomputed by engine/prefs.py from 15 days of offers, 7 picks._
 - 2026-10-31: picked #?  "Definisi korupsi PART 3: bukan dihapus, diperluas. Pasal berapa yang diutak-atik? (chapter cut weekly ch 3)", storyline definisi-korupsi
 - 2026-11-01: no pick by the deadline (default #1 used; not counted)
 - 2026-11-02: picked #1 (recommended) "Binance dibobol Rp114 T, Korea Utara dituduh. Uang kamu di kripto aman?", score 10/12, storyline -
+- 2026-11-03: picked #1 (recommended) "Dompet kripto "offline" ternyata dibobol di toko (Ledger diutak-atik, Singapura)", score 11/12, storyline crypto-hacks
 
-- Picks the recommended idea 1/7 times; average pick rank 3.0.
+- Picks the recommended idea 2/8 times; average pick rank 2.5.
 - Storylines picked often when offered: definisi-korupsi.
-- Offered 3+ times, never picked: tax-policy, msci-reclassification, corruption-cases, gibran-ijazah-mk (lower priority unless big news).
-- Sensitivity of picks: {'medium': 1, '?': 6}.
+- Offered 3+ times, never picked: tax-policy, msci-reclassification, chip-ram-prices, corruption-cases, gibran-ijazah-mk (lower priority unless big news).
+- Sensitivity of picks: {'medium': 1, '?': 7}.

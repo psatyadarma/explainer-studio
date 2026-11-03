@@ -1,0 +1,536 @@
+{
+ "duration": 49.945,
+ "voice": "Cahaya",
+ "variant": "b",
+ "hook_style": "kamu_stakes",
+ "lines": [
+  {
+   "id": "hb1",
+   "text": "Punya dompet kripto? Belinya di mana?",
+   "start": 0.261,
+   "end": 2.341,
+   "words": [
+    {
+     "w": "Punya",
+     "start": 0.261,
+     "end": 0.361
+    },
+    {
+     "w": "dompet",
+     "start": 0.401,
+     "end": 0.601
+    },
+    {
+     "w": "kripto?",
+     "start": 0.681,
+     "end": 1.35
+    },
+    {
+     "w": "Belinya",
+     "start": 1.35,
+     "end": 1.781
+    },
+    {
+     "w": "di",
+     "start": 1.808,
+     "end": 1.861
+    },
+    {
+     "w": "mana?",
+     "start": 1.941,
+     "end": 2.341
+    }
+   ]
+  },
+  {
+   "id": "hb2",
+   "text": "Di Singapura, yang dibeli di beberapa toko ternyata sudah disusupi.",
+   "start": 2.653,
+   "end": 7.491,
+   "words": [
+    {
+     "w": "Di",
+     "start": 2.653,
+     "end": 2.671
+    },
+    {
+     "w": "Singapura,",
+     "start": 2.74,
+     "end": 3.471
+    },
+    {
+     "w": "yang",
+     "start": 3.663,
+     "end": 3.891
+    },
+    {
+     "w": "dibeli",
+     "start": 3.951,
+     "end": 4.371
+    },
+    {
+     "w": "di",
+     "start": 4.424,
+     "end": 4.531
+    },
+    {
+     "w": "beberapa",
+     "start": 4.584,
+     "end": 5.011
+    },
+    {
+     "w": "toko",
+     "start": 5.091,
+     "end": 5.571
+    },
+    {
+     "w": "ternyata",
+     "start": 5.651,
+     "end": 6.291
+    },
+    {
+     "w": "sudah",
+     "start": 6.344,
+     "end": 6.611
+    },
+    {
+     "w": "disusupi.",
+     "start": 6.651,
+     "end": 7.491
+    }
+   ]
+  },
+  {
+   "id": "rd",
+   "text": "Rangkumin dong!",
+   "start": 7.666,
+   "end": 9.053,
+   "words": [
+    {
+     "w": "Rangkumin",
+     "start": 7.666,
+     "end": 8.359
+    },
+    {
+     "w": "dong!",
+     "start": 8.359,
+     "end": 9.053
+    }
+   ]
+  },
+  {
+   "id": "l1",
+   "text": "Polisi Singapura nemu dompet Ledger berisi komponen jahat.",
+   "start": 9.598,
+   "end": 13.148,
+   "words": [
+    {
+     "w": "Polisi",
+     "start": 9.599,
+     "end": 9.789
+    },
+    {
+     "w": "Singapura",
+     "start": 9.846,
+     "end": 10.349
+    },
+    {
+     "w": "nemu",
+     "start": 10.409,
+     "end": 10.669
+    },
+    {
+     "w": "dompet",
+     "start": 10.729,
+     "end": 11.069
+    },
+    {
+     "w": "Ledger",
+     "start": 11.122,
+     "end": 11.549
+    },
+    {
+     "w": "berisi",
+     "start": 11.609,
+     "end": 12.109
+    },
+    {
+     "w": "komponen",
+     "start": 12.169,
+     "end": 12.589
+    },
+    {
+     "w": "jahat.",
+     "start": 12.669,
+     "end": 13.149
+    }
+   ]
+  },
+  {
+   "id": "l2",
+   "text": "Kata Ledger, sisipannya baca 24 kata pemulihan, kirim lewat sinyal seluler.",
+   "start": 13.409,
+   "end": 19.383,
+   "words": [
+    {
+     "w": "Kata",
+     "start": 13.41,
+     "end": 13.474
+    },
+    {
+     "w": "Ledger,",
+     "start": 13.527,
+     "end": 14.224
+    },
+    {
+     "w": "sisipannya",
+     "start": 14.284,
+     "end": 14.864
+    },
+    {
+     "w": "baca",
+     "start": 14.944,
+     "end": 15.344
+    },
+    {
+     "w": "24",
+     "start": 15.404,
+     "end": 16.064
+    },
+    {
+     "w": "kata",
+     "start": 16.128,
+     "end": 16.384
+    },
+    {
+     "w": "pemulihan,",
+     "start": 16.444,
+     "end": 17.384
+    },
+    {
+     "w": "kirim",
+     "start": 17.424,
+     "end": 17.784
+    },
+    {
+     "w": "lewat",
+     "start": 17.864,
+     "end": 18.264
+    },
+    {
+     "w": "sinyal",
+     "start": 18.304,
+     "end": 18.744
+    },
+    {
+     "w": "seluler.",
+     "start": 18.804,
+     "end": 19.384
+    }
+   ]
+  },
+  {
+   "id": "l3",
+   "text": "Polisi catat 2 kasus, rugi sekitar Rp49,5 miliar.",
+   "start": 19.729,
+   "end": 25.573,
+   "words": [
+    {
+     "w": "Polisi",
+     "start": 19.73,
+     "end": 19.914
+    },
+    {
+     "w": "catat",
+     "start": 19.994,
+     "end": 20.314
+    },
+    {
+     "w": "2",
+     "start": 20.374,
+     "end": 20.554
+    },
+    {
+     "w": "kasus,",
+     "start": 20.634,
+     "end": 21.194
+    },
+    {
+     "w": "rugi",
+     "start": 21.394,
+     "end": 21.974
+    },
+    {
+     "w": "sekitar",
+     "start": 22.054,
+     "end": 22.534
+    },
+    {
+     "w": "Rp49,5",
+     "start": 22.641,
+     "end": 24.454
+    },
+    {
+     "w": "miliar.",
+     "start": 24.574,
+     "end": 25.094
+    }
+   ]
+  },
+  {
+   "id": "l4",
+   "text": "Tapi… cek keaslian bawaan Ledger nggak bisa mendeteksinya.",
+   "start": 25.897,
+   "end": 30.483,
+   "words": [
+    {
+     "w": "Tapi…",
+     "start": 25.898,
+     "end": 26.944
+    },
+    {
+     "w": "cek",
+     "start": 27.063,
+     "end": 27.444
+    },
+    {
+     "w": "keaslian",
+     "start": 27.497,
+     "end": 28.084
+    },
+    {
+     "w": "bawaan",
+     "start": 28.124,
+     "end": 28.484
+    },
+    {
+     "w": "Ledger",
+     "start": 28.591,
+     "end": 29.044
+    },
+    {
+     "w": "nggak",
+     "start": 29.071,
+     "end": 29.404
+    },
+    {
+     "w": "bisa",
+     "start": 29.444,
+     "end": 29.604
+    },
+    {
+     "w": "mendeteksinya.",
+     "start": 29.636,
+     "end": 30.484
+    }
+   ]
+  },
+  {
+   "id": "l5",
+   "text": "Reseller di 7 wilayah Asia diminta Ledger setop jualan. Termasuk Indonesia.",
+   "start": 30.863,
+   "end": 35.993,
+   "words": [
+    {
+     "w": "Reseller",
+     "start": 30.864,
+     "end": 31.204
+    },
+    {
+     "w": "di",
+     "start": 31.257,
+     "end": 31.364
+    },
+    {
+     "w": "7",
+     "start": 31.417,
+     "end": 31.724
+    },
+    {
+     "w": "wilayah",
+     "start": 31.754,
+     "end": 32.004
+    },
+    {
+     "w": "Asia",
+     "start": 32.1,
+     "end": 32.484
+    },
+    {
+     "w": "diminta",
+     "start": 32.544,
+     "end": 32.884
+    },
+    {
+     "w": "Ledger",
+     "start": 32.991,
+     "end": 33.444
+    },
+    {
+     "w": "setop",
+     "start": 33.504,
+     "end": 33.844
+    },
+    {
+     "w": "jualan.",
+     "start": 33.884,
+     "end": 34.404
+    },
+    {
+     "w": "Termasuk",
+     "start": 34.503,
+     "end": 35.194
+    },
+    {
+     "w": "Indonesia.",
+     "start": 35.266,
+     "end": 35.994
+    }
+   ]
+  },
+  {
+   "id": "l6",
+   "text": "Perkiraan analis: lebih dari 86 juta dolar terkuras. Belum dikonfirmasi Ledger.",
+   "start": 36.289,
+   "end": 42.983,
+   "words": [
+    {
+     "w": "Perkiraan",
+     "start": 36.29,
+     "end": 36.634
+    },
+    {
+     "w": "analis:",
+     "start": 36.698,
+     "end": 37.434
+    },
+    {
+     "w": "lebih",
+     "start": 37.443,
+     "end": 37.924
+    },
+    {
+     "w": "dari",
+     "start": 37.988,
+     "end": 38.244
+    },
+    {
+     "w": "86",
+     "start": 38.304,
+     "end": 39.284
+    },
+    {
+     "w": "juta",
+     "start": 39.364,
+     "end": 39.684
+    },
+    {
+     "w": "dolar",
+     "start": 39.751,
+     "end": 40.084
+    },
+    {
+     "w": "terkuras.",
+     "start": 40.164,
+     "end": 40.964
+    },
+    {
+     "w": "Belum",
+     "start": 41.053,
+     "end": 41.544
+    },
+    {
+     "w": "dikonfirmasi",
+     "start": 41.604,
+     "end": 42.344
+    },
+    {
+     "w": "Ledger.",
+     "start": 42.424,
+     "end": 42.984
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "text": "Kripto paling aman disimpan di mana? Komen!",
+   "start": 43.158,
+   "end": 46.273,
+   "words": [
+    {
+     "w": "Kripto",
+     "start": 43.159,
+     "end": 43.484
+    },
+    {
+     "w": "paling",
+     "start": 43.524,
+     "end": 43.804
+    },
+    {
+     "w": "aman",
+     "start": 43.911,
+     "end": 44.284
+    },
+    {
+     "w": "disimpan",
+     "start": 44.344,
+     "end": 44.764
+    },
+    {
+     "w": "di",
+     "start": 44.817,
+     "end": 44.924
+    },
+    {
+     "w": "mana?",
+     "start": 45.02,
+     "end": 45.484
+    },
+    {
+     "w": "Komen!",
+     "start": 45.583,
+     "end": 46.274
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "text": "Follow Rangkumin Dong, biar nggak ketinggalan!",
+   "start": 46.778,
+   "end": 49.073,
+   "words": [
+    {
+     "w": "Follow",
+     "start": 46.779,
+     "end": 46.834
+    },
+    {
+     "w": "Rangkumin",
+     "start": 46.914,
+     "end": 47.314
+    },
+    {
+     "w": "Dong,",
+     "start": 47.378,
+     "end": 47.794
+    },
+    {
+     "w": "biar",
+     "start": 47.847,
+     "end": 48.034
+    },
+    {
+     "w": "nggak",
+     "start": 48.087,
+     "end": 48.247
+    },
+    {
+     "w": "ketinggalan!",
+     "start": 48.261,
+     "end": 49.074
+    }
+   ]
+  }
+ ]
+}

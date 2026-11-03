@@ -1,0 +1,418 @@
+{
+ "verdict": "PASS",
+ "lead": 0.0,
+ "matched_words": 77,
+ "of_words": 85,
+ "median_offset_s": -0.055,
+ "share_in_window": 0.948,
+ "share_late_over_150ms": 0.013,
+ "worst_lines": [
+  {
+   "line": "l6",
+   "median_offset_s": -0.089
+  },
+  {
+   "line": "l3",
+   "median_offset_s": -0.076
+  },
+  {
+   "line": "l1",
+   "median_offset_s": -0.072
+  },
+  {
+   "line": "cta",
+   "median_offset_s": -0.07
+  },
+  {
+   "line": "h2",
+   "median_offset_s": -0.055
+  }
+ ],
+ "pairs": [
+  {
+   "line": "h1",
+   "word": "Katanya",
+   "offset": 0.141
+  },
+  {
+   "line": "h1",
+   "word": "dompet",
+   "offset": -0.075
+  },
+  {
+   "line": "h1",
+   "word": "offline",
+   "offset": -0.022
+  },
+  {
+   "line": "h1",
+   "word": "paling",
+   "offset": -0.095
+  },
+  {
+   "line": "h1",
+   "word": "aman.",
+   "offset": -0.015
+  },
+  {
+   "line": "h2",
+   "word": "Ternyata",
+   "offset": 0.133
+  },
+  {
+   "line": "h2",
+   "word": "ada",
+   "offset": -0.135
+  },
+  {
+   "line": "h2",
+   "word": "yang",
+   "offset": -0.103
+  },
+  {
+   "line": "h2",
+   "word": "dibobol",
+   "offset": -0.055
+  },
+  {
+   "line": "h2",
+   "word": "sejak",
+   "offset": -0.075
+  },
+  {
+   "line": "h2",
+   "word": "di",
+   "offset": -0.048
+  },
+  {
+   "line": "h2",
+   "word": "toko.",
+   "offset": -0.028
+  },
+  {
+   "line": "rd",
+   "word": "Rangkumin",
+   "offset": -0.054
+  },
+  {
+   "line": "rd",
+   "word": "dong!",
+   "offset": 0.039
+  },
+  {
+   "line": "l1",
+   "word": "Polisi",
+   "offset": 0.059
+  },
+  {
+   "line": "l1",
+   "word": "Singapura",
+   "offset": -0.074
+  },
+  {
+   "line": "l1",
+   "word": "nemu",
+   "offset": -0.091
+  },
+  {
+   "line": "l1",
+   "word": "dompet",
+   "offset": -0.071
+  },
+  {
+   "line": "l1",
+   "word": "Ledger",
+   "offset": -0.018
+  },
+  {
+   "line": "l1",
+   "word": "berisi",
+   "offset": -0.091
+  },
+  {
+   "line": "l1",
+   "word": "komponen",
+   "offset": -0.071
+  },
+  {
+   "line": "l1",
+   "word": "jahat.",
+   "offset": -0.091
+  },
+  {
+   "line": "l2",
+   "word": "Kata",
+   "offset": 0.07
+  },
+  {
+   "line": "l2",
+   "word": "Ledger,",
+   "offset": -0.053
+  },
+  {
+   "line": "l2",
+   "word": "sisipannya",
+   "offset": -0.036
+  },
+  {
+   "line": "l2",
+   "word": "baca",
+   "offset": -0.076
+  },
+  {
+   "line": "l2",
+   "word": "kata",
+   "offset": -0.052
+  },
+  {
+   "line": "l2",
+   "word": "pemulihan,",
+   "offset": -0.076
+  },
+  {
+   "line": "l2",
+   "word": "kirim",
+   "offset": -0.015
+  },
+  {
+   "line": "l2",
+   "word": "lewat",
+   "offset": -0.056
+  },
+  {
+   "line": "l2",
+   "word": "sinyal",
+   "offset": -0.056
+  },
+  {
+   "line": "l2",
+   "word": "seluler.",
+   "offset": -0.056
+  },
+  {
+   "line": "l3",
+   "word": "Polisi",
+   "offset": 0.09
+  },
+  {
+   "line": "l3",
+   "word": "catat",
+   "offset": -0.086
+  },
+  {
+   "line": "l3",
+   "word": "kasus,",
+   "offset": -0.046
+  },
+  {
+   "line": "l3",
+   "word": "rugi",
+   "offset": -0.266
+  },
+  {
+   "line": "l3",
+   "word": "sekitar",
+   "offset": -0.066
+  },
+  {
+   "line": "l3",
+   "word": "miliar.",
+   "offset": -0.126
+  },
+  {
+   "line": "l4",
+   "word": "Tapi…",
+   "offset": 0.018
+  },
+  {
+   "line": "l4",
+   "word": "cek",
+   "offset": -0.177
+  },
+  {
+   "line": "l4",
+   "word": "keaslian",
+   "offset": -0.023
+  },
+  {
+   "line": "l4",
+   "word": "bawaan",
+   "offset": -0.096
+  },
+  {
+   "line": "l4",
+   "word": "Ledger",
+   "offset": -0.009
+  },
+  {
+   "line": "l4",
+   "word": "nggak",
+   "offset": -0.049
+  },
+  {
+   "line": "l4",
+   "word": "bisa",
+   "offset": 0.084
+  },
+  {
+   "line": "l4",
+   "word": "mendeteksinya.",
+   "offset": -0.064
+  },
+  {
+   "line": "l5",
+   "word": "Reseller",
+   "offset": 0.084
+  },
+  {
+   "line": "l5",
+   "word": "di",
+   "offset": -0.023
+  },
+  {
+   "line": "l5",
+   "word": "wilayah",
+   "offset": 0.054
+  },
+  {
+   "line": "l5",
+   "word": "Asia",
+   "offset": -0.02
+  },
+  {
+   "line": "l5",
+   "word": "diminta",
+   "offset": -0.056
+  },
+  {
+   "line": "l5",
+   "word": "Ledger",
+   "offset": -0.029
+  },
+  {
+   "line": "l5",
+   "word": "jualan.",
+   "offset": -0.056
+  },
+  {
+   "line": "l5",
+   "word": "Termasuk",
+   "offset": -0.117
+  },
+  {
+   "line": "l5",
+   "word": "Indonesia.",
+   "offset": -0.054
+  },
+  {
+   "line": "l6",
+   "word": "Perkiraan",
+   "offset": 0.07
+  },
+  {
+   "line": "l6",
+   "word": "analis:",
+   "offset": -0.082
+  },
+  {
+   "line": "l6",
+   "word": "lebih",
+   "offset": -0.157
+  },
+  {
+   "line": "l6",
+   "word": "dari",
+   "offset": -0.112
+  },
+  {
+   "line": "l6",
+   "word": "juta",
+   "offset": -0.096
+  },
+  {
+   "line": "l6",
+   "word": "dolar",
+   "offset": -0.049
+  },
+  {
+   "line": "l6",
+   "word": "terkuras.",
+   "offset": -0.116
+  },
+  {
+   "line": "l6",
+   "word": "Belum",
+   "offset": -0.167
+  },
+  {
+   "line": "l6",
+   "word": "dikonfirmasi",
+   "offset": -0.036
+  },
+  {
+   "line": "l6",
+   "word": "Ledger.",
+   "offset": 0.004
+  },
+  {
+   "line": "cta",
+   "word": "paling",
+   "offset": -0.076
+  },
+  {
+   "line": "cta",
+   "word": "aman",
+   "offset": -0.089
+  },
+  {
+   "line": "cta",
+   "word": "disimpan",
+   "offset": -0.056
+  },
+  {
+   "line": "cta",
+   "word": "di",
+   "offset": -0.063
+  },
+  {
+   "line": "cta",
+   "word": "mana?",
+   "offset": 0.0
+  },
+  {
+   "line": "cta",
+   "word": "Komen!",
+   "offset": -0.137
+  },
+  {
+   "line": "end",
+   "word": "Follow",
+   "offset": 0.199
+  },
+  {
+   "line": "end",
+   "word": "Rangkumin",
+   "offset": -0.046
+  },
+  {
+   "line": "end",
+   "word": "Dong,",
+   "offset": -0.042
+  },
+  {
+   "line": "end",
+   "word": "biar",
+   "offset": -0.053
+  },
+  {
+   "line": "end",
+   "word": "nggak",
+   "offset": -0.073
+  },
+  {
+   "line": "end",
+   "word": "ketinggalan!",
+   "offset": -0.039
+  }
+ ]
+}

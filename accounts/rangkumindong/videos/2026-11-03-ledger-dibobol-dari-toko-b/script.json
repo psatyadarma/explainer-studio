@@ -1,0 +1,105 @@
+{
+ "direction": "[clear, brisk; neutral, no advice]",
+ "voice": "female:Cahaya",
+ "format": "short",
+ "hook_style": "myth",
+ "subs": "block",
+ "storyline": "crypto-hacks",
+ "part": null,
+ "disclaimer": "Bukan ajakan jual/beli aset kripto",
+ "lines": [
+  {
+   "id": "h1",
+   "tag": "[knowing, slightly teasing]",
+   "text": "Katanya dompet kripto offline paling aman.",
+   "say": "Katanya dompet kripto oflain paling aman."
+  },
+  {
+   "id": "h2",
+   "tag": "[shocked]",
+   "text": "Ternyata ada yang dibobol sejak di toko.",
+   "say": "Ternyata ada yang dibobol sejak di toko."
+  },
+  {
+   "id": "rd",
+   "tagline": true,
+   "text": "Rangkumin dong!"
+  },
+  {
+   "id": "l1",
+   "tag": "[serious, punchy]",
+   "text": "Polisi Singapura nemu dompet Ledger berisi komponen jahat.",
+   "say": "Polisi Singapura nemu dompet Lejer berisi komponen jahat."
+  },
+  {
+   "id": "l2",
+   "tag": "[explaining, quick]",
+   "text": "Kata Ledger, sisipannya baca 24 kata pemulihan, kirim lewat sinyal seluler.",
+   "say": "Kata Lejer, sisipannya baca dua puluh empat kata pemulihan, kirim lewat sinyal seluler."
+  },
+  {
+   "id": "l3",
+   "tag": "[emphatic]",
+   "text": "Polisi catat 2 kasus, rugi sekitar Rp49,5 miliar.",
+   "say": "Polisi catat dua kasus, rugi sekitar empat puluh sembilan koma lima miliar rupiah."
+  },
+  {
+   "id": "l4",
+   "tag": "[lowering voice, slower]",
+   "text": "Tapi… cek keaslian bawaan Ledger nggak bisa mendeteksinya.",
+   "say": "Tapi... cek keaslian bawaan Lejer nggak bisa mendeteksinya."
+  },
+  {
+   "id": "l5",
+   "tag": "[matter-of-fact]",
+   "text": "Reseller di 7 wilayah Asia diminta Ledger setop jualan. Termasuk Indonesia.",
+   "say": "Riseler di tujuh wilayah Asia diminta Lejer setop jualan. Termasuk Indonesia."
+  },
+  {
+   "id": "l6",
+   "tag": "[dramatic]",
+   "text": "Perkiraan analis: lebih dari 86 juta dolar terkuras. Belum dikonfirmasi Ledger.",
+   "say": "Perkiraan analis: lebih dari delapan puluh enam juta dolar terkuras. Belum dikonfirmasi Lejer."
+  },
+  {
+   "id": "cta",
+   "tag": "[playful, asking the viewer]",
+   "text": "Kripto paling aman disimpan di mana? Komen!",
+   "say": "Kripto paling aman disimpan di mana? Komen!"
+  },
+  {
+   "id": "end",
+   "tag": "[friendly, upbeat]",
+   "text": "Follow Rangkumin Dong, biar nggak ketinggalan!"
+  }
+ ],
+ "hook_b": {
+  "style": "kamu_stakes",
+  "fallback_from": "person_collage",
+  "fallback_reason": "no licensed face fits: no named person acts in the story (police, Ledger, a reseller)",
+  "people": [],
+  "replace": [
+   "h1",
+   "h2"
+  ],
+  "lines": [
+   {
+    "id": "hb1",
+    "tag": "[direct, to the viewer]",
+    "text": "Punya dompet kripto? Belinya di mana?",
+    "say": "Punya dompet kripto? Belinya di mana?"
+   },
+   {
+    "id": "hb2",
+    "tag": "[serious]",
+    "text": "Di Singapura, yang dibeli di beberapa toko ternyata sudah disusupi.",
+    "say": "Di Singapura, yang dibeli di beberapa toko ternyata sudah disusupi."
+   }
+  ]
+ },
+ "tail": 0.9,
+ "end_card": {
+  "text": "Follow Rangkumin Dong",
+  "spoken": false
+ }
+}

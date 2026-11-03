@@ -1,0 +1,408 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Ledger dibobol dari toko — Rangkumin Dong</title>
+<link rel="stylesheet" href="../../../../styles/sticker/sticker.css">
+<script src="../../../../styles/sticker/sticker.js"></script>
+<script>window.SUB_LEAD = 0.0; window.SUB_MODE = "block";</script>
+<script src="build/timing.js"></script>
+<script src="maps.js"></script>
+<style>
+  .zone { position: absolute; width: 1080px; height: 1920px; }
+  .big { font-weight: 900; letter-spacing: -6px; line-height: .9; white-space: nowrap; font-variant-numeric: tabular-nums; }
+  .lbl { font-weight: 800; font-size: 36px; color: var(--slate); white-space: nowrap; text-align: center; }
+  .note { font-weight: 700; font-size: 26px; color: var(--slate); white-space: nowrap; text-align: center; }
+  .bub { position: absolute; background: #fff; border-radius: 30px; padding: 20px 30px 24px; text-align: center;
+         font-weight: 900; font-size: 46px; line-height: 1.08; letter-spacing: -1px; box-shadow: 0 0 0 9px #fff, 0 18px 26px rgba(27,36,48,.2); }
+  .bub.tl::after { content: ""; position: absolute; top: -38px; left: 80px; border: 22px solid transparent; border-bottom: 24px solid #fff; }
+  .bub small { display: block; font-weight: 700; font-size: 26px; color: var(--slate); letter-spacing: 0; margin-top: 6px; }
+  .chip { background: #fff; border-radius: 24px; padding: 14px 26px 18px; font-weight: 900; font-size: 46px; letter-spacing: -1px; white-space: nowrap;
+          box-shadow: 0 0 0 8px #fff, 0 14px 24px rgba(27,36,48,.18); }
+  .stampx { font-weight: 900; letter-spacing: -2px; color: var(--accent); border: 10px solid var(--accent); border-radius: 22px; padding: 6px 28px 12px;
+            white-space: nowrap; background: rgba(255,255,255,.92); text-align: center; line-height: 1; }
+  .stampx.grey { color: var(--slate); border-color: var(--slate); border-style: dashed; }
+  .stampx.green { color: #2F7A45; border-color: #2F7A45; }
+  .panel { width: 600px; background: #fff; border-radius: 34px; padding: 30px 36px 34px; box-shadow: 0 0 0 9px #fff, 0 18px 28px rgba(27,36,48,.22); text-align: center; }
+  .panel .pt { font-weight: 800; font-size: 34px; color: var(--slate); }
+  .panel .pv { display: flex; gap: 20px; align-items: center; justify-content: center; margin-top: 14px; font-weight: 900; font-size: 66px; letter-spacing: -2px; }
+  .panel .pv i { font-style: normal; width: 84px; height: 84px; border-radius: 50%; background: #2F7A45; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 54px; }
+  .tile { position: absolute; width: 74px; height: 40px; border-radius: 10px; background: #fff; border: 4px solid var(--ink); font-weight: 900; font-size: 22px;
+          color: var(--slate); display: flex; align-items: center; justify-content: center; letter-spacing: 1px; }
+  .dash { border: 8px dashed var(--accent); border-radius: 30px; padding: 22px 36px 28px; }
+  #disc { position: absolute; right: 160px; top: 270px; z-index: 5; background: rgba(255,255,255,.94); color: var(--slate); font-weight: 800; font-size: 34px;
+          padding: 8px 16px 10px; border-radius: 10px; white-space: nowrap; opacity: 0; }
+  #endcard { position: absolute; inset: 0; z-index: 8; display: flex; flex-direction: column; align-items: center; justify-content: center;
+             gap: 24px; background: var(--paper); opacity: 0; }
+  #endcard .logo { background: var(--accent); color: #fff; font-weight: 900; font-size: 116px; letter-spacing: -4px;
+                   padding: 30px 58px 40px; border-radius: 44px; line-height: .95; text-align: center; transform: rotate(-3deg); }
+  #endcard .tl2 { font-weight: 800; font-size: 54px; color: var(--slate); }
+  #endcard .h { font-weight: 900; font-size: 50px; background: var(--ink); color: #fff; padding: 12px 26px; border-radius: 16px; }
+  #endcard .src { font-weight: 700; font-size: 34px; color: var(--slate); margin-top: 10px; text-align: center; line-height: 1.4; max-width: 900px; }
+</style>
+</head>
+<body>
+<div id="stage">
+  <div id="world">
+
+    <!-- A (0,0): hook A cover 'DOMPET "AMAN" / DIBOBOL DARI TOKO' + hook B 'BELI DI MANA? / CEK DULU' -->
+    <div id="zA" class="zone" style="left:0; top:0;">
+      <div id="aHd" class="abs headline" style="left:540px; top:500px; width:1000px;">
+        <div id="aHd1" style="font-size:118px; white-space:nowrap; letter-spacing:-5px;">DOMPET “AMAN”</div>
+        <div id="aHd2" style="font-size:98px; color:var(--accent); white-space:nowrap; letter-spacing:-5px; line-height:.95;">DIBOBOL DARI TOKO</div></div>
+      <div id="bHd" class="abs headline" style="left:540px; top:500px; width:1000px;">
+        <div id="bHd1" style="font-size:124px; white-space:nowrap; letter-spacing:-5px;">BELI DI MANA?</div>
+        <div id="bHd2" style="font-size:140px; color:var(--accent); white-space:nowrap; letter-spacing:-6px; line-height:.95;">CEK DULU</div></div>
+
+      <div id="hBox" class="abs sticker-svg" style="left:400px; top:1030px;"></div>
+      <div id="hKr" class="abs tag sticker" style="left:400px; top:780px; font-size:38px;">dompet kripto</div>
+      <div id="hOff" class="abs stampx green" style="left:680px; top:900px; font-size:64px;">OFFLINE ✓</div>
+      <div id="hCr" class="abs" style="left:680px; top:900px;"><svg width="380" height="130" viewBox="0 0 380 130"><path id="hCrP" d="M150 0 L180 46 L150 70 L200 130" stroke="#FF5A36" stroke-width="10" fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="200" stroke-dashoffset="200"/></svg></div>
+      <div id="hShop" class="abs sticker-svg" style="left:720px; top:1250px;"></div>
+      <div id="hShopL" class="abs tag light sticker" style="left:720px; top:1420px; font-size:34px;">dibeli di toko</div>
+      <div id="hBag" class="abs sticker-svg" style="left:740px; top:1040px;"></div>
+      <div id="hPin" class="abs tag accent sticker" style="left:740px; top:780px; font-size:38px;">Singapura</div>
+    </div>
+
+    <!-- tagline (2480,0) -->
+    <div class="zone" style="left:2480px; top:0;">
+      <div id="stamp" class="abs stamp sticker" style="left:540px; top:960px; font-size:110px;">Rangkumin dong!</div>
+    </div>
+
+    <!-- Z1 (0,2400): Singapore police, shop, device with malicious component -->
+    <div class="zone" style="left:0; top:2400px;">
+      <div id="z1Pin" class="abs tag accent sticker" style="left:540px; top:440px; font-size:44px;">📍 Singapura</div>
+      <div id="z1Pol" class="abs sticker-svg" style="left:280px; top:700px;"></div>
+      <div id="z1PolL" class="abs tag sticker" style="left:280px; top:880px; font-size:36px;">Polisi Singapura</div>
+      <div id="z1Shop" class="abs sticker-svg" style="left:770px; top:700px;"></div>
+      <div id="z1ShopL" class="abs tag light sticker" style="left:770px; top:880px; font-size:34px;">toko ritel</div>
+      <div id="z1Dev" class="abs sticker-svg" style="left:540px; top:1140px;"></div>
+      <div id="z1DevL" class="abs chip" style="left:540px; top:1010px; font-size:40px;">Ledger</div>
+      <div id="z1Jh" class="abs stampx" style="left:560px; top:1320px; font-size:62px;">KOMPONEN JAHAT</div>
+    </div>
+
+    <!-- Z2 (1240,2400): implant reads 24 words, sends over mobile signal -->
+    <div class="zone" style="left:1240px; top:2400px;">
+      <div id="z2Kt" class="abs bub tl" style="left:540px; top:450px; font-size:40px;">kata Ledger</div>
+      <div id="z2Card" class="abs" style="left:290px; top:860px; width:360px; height:330px;">
+        <div class="abs" style="left:180px; top:165px; width:360px; height:330px; background:#fff; border-radius:24px; box-shadow:0 0 0 8px #fff, 0 16px 24px rgba(27,36,48,.2);"></div>
+      </div>
+      <div id="z2Tiles"></div>
+      <div id="z2N" class="abs big" style="left:290px; top:640px; font-size:120px; color:var(--accent);">24</div>
+      <div id="z2NL" class="abs lbl" style="left:290px; top:1080px; color:var(--ink); font-size:38px;">kata pemulihan</div>
+      <div id="z2Dev" class="abs sticker-svg" style="left:730px; top:870px;"></div>
+      <div id="z2Sp" class="abs tag accent sticker" style="left:730px; top:1080px; font-size:36px;">sisipan</div>
+      <svg id="z2Sig" class="abs" style="left:730px; top:640px;" width="260" height="200" viewBox="0 0 260 200">
+        <g fill="none" stroke="#FF5A36" stroke-width="12" stroke-linecap="round">
+          <path id="sg0" d="M100 150 a40 40 0 0 1 60 0"/><path id="sg1" d="M70 120 a80 80 0 0 1 120 0"/><path id="sg2" d="M40 90 a120 120 0 0 1 180 0"/></g>
+        <circle cx="130" cy="170" r="14" fill="#FF5A36"/></svg>
+      <div id="z2SgL" class="abs tag sticker" style="left:540px; top:1300px; font-size:42px;">dikirim lewat sinyal seluler</div>
+    </div>
+
+    <!-- Z3 (2480,2400): 2 kasus, Rp49,5 miliar -->
+    <div class="zone" style="left:2480px; top:2400px;">
+      <div id="z3Pol" class="abs tag sticker" style="left:540px; top:470px; font-size:42px;">catatan polisi</div>
+      <div id="z3K" class="abs" style="left:540px; top:700px; text-align:center;"><div class="big" style="font-size:200px; color:var(--ink);">2</div><div class="lbl" style="font-size:50px; color:var(--ink);">kasus</div></div>
+      <div id="z3Rg" class="abs lbl" style="left:540px; top:930px; font-size:44px;">rugi sekitar</div>
+      <div id="z3N" class="abs big" style="left:540px; top:1080px; font-size:150px; color:var(--accent);">Rp0 miliar</div>
+      <div id="z3Src" class="abs note" style="left:540px; top:1220px; font-size:28px;">sumber: Malay Mail, CNBC Indonesia</div>
+    </div>
+
+    <!-- Z4 (0,4800): the turn, built-in check can't detect it -->
+    <div class="zone" style="left:0; top:4800px;">
+      <div id="z4Tapi" class="abs headline" style="left:540px; top:470px; font-size:130px; color:var(--accent);">Tapi…</div>
+      <div id="z4Pn" class="abs panel" style="left:540px; top:820px;"><div class="pt">Cek keaslian bawaan</div>
+        <div class="pv" id="z4Pv"><i id="z4Pi">✓</i><span id="z4Ps">Asli</span></div></div>
+      <div id="z4Dev" class="abs sticker-svg" style="left:540px; top:1180px;"></div>
+      <div id="z4Ring" class="abs" style="left:610px; top:1185px; width:120px; height:120px; border:8px dashed var(--accent); border-radius:50%;"></div>
+      <div id="z4St" class="abs stampx" style="left:540px; top:1360px; font-size:72px;">TIDAK TERDETEKSI</div>
+      <div id="z4Kt" class="abs note" style="left:540px; top:1460px; font-size:28px;">menurut Ledger</div>
+    </div>
+
+    <!-- Z5 (1240,4800): 7 Asian markets, Indonesia last -->
+    <div class="zone" style="left:1240px; top:4800px;">
+      <div id="z5Hd" class="abs headline" style="left:540px; top:430px; font-size:92px; white-space:nowrap;"><span id="z5N" class="acc">7</span> wilayah Asia</div>
+      <svg id="z5Map" class="abs" style="left:500px; top:880px;" width="840" height="620" viewBox="0 0 840 620"></svg>
+      <div id="z5St" class="abs stampx" style="left:540px; top:1290px; font-size:56px;">JUALAN DISETOP</div>
+      <div id="z5L" class="abs note" style="left:540px; top:1380px; font-size:30px; color:var(--ink);">penjualan lewat reseller · diminta Ledger</div>
+    </div>
+
+    <!-- Z6 (2480,4800): >US$86 juta, analyst estimate -->
+    <div class="zone" style="left:2480px; top:4800px;">
+      <div id="z6Pk" class="abs tag sticker" style="left:540px; top:570px; font-size:44px;">perkiraan analis</div>
+      <div id="z6Lb" class="abs lbl" style="left:540px; top:690px; color:var(--ink); font-size:48px;">lebih dari</div>
+      <div id="z6Bx" class="abs dash" style="left:540px; top:860px;"><div id="z6N" class="big" style="font-size:128px; color:var(--accent);">US$0 juta</div></div>
+      <div id="z6Tk" class="abs lbl" style="left:540px; top:1040px; color:var(--ink); font-size:46px;">terkuras</div>
+      <div id="z6Bl" class="abs stampx grey" style="left:540px; top:1200px; font-size:54px;">belum dikonfirmasi Ledger</div>
+      <div id="z6Src" class="abs note" style="left:540px; top:1300px; font-size:28px;">sumber: Blockonomi, 9 Okt 2026</div>
+    </div>
+
+    <!-- Z7 (0,7200): CTA -->
+    <div class="zone" style="left:0; top:7200px;">
+      <div id="qHd" class="abs headline" style="left:540px; top:610px; font-size:84px; line-height:1.06; white-space:nowrap;">Kripto paling aman<br><span class="acc">disimpan di mana?</span></div>
+      <div id="q1" class="abs sticker-svg" style="left:250px; top:880px;"></div>
+      <div id="q1L" class="abs tag light sticker" style="left:250px; top:1030px; font-size:32px;">exchange</div>
+      <div id="q2" class="abs sticker-svg" style="left:540px; top:880px;"></div>
+      <div id="q2L" class="abs tag light sticker" style="left:540px; top:1030px; font-size:32px;">dompet fisik</div>
+      <div id="q3" class="abs sticker-svg" style="left:830px; top:880px;"></div>
+      <div id="q3L" class="abs tag light sticker" style="left:830px; top:1030px; font-size:32px;">catatan kertas</div>
+      <div id="qCom" class="abs sticker-svg" style="left:380px; top:1250px;"></div>
+      <div id="qK" class="abs bub" style="left:700px; top:1240px; font-size:64px;">Komen!</div>
+    </div>
+  </div>
+
+  <div id="brand"><div class="dot"></div><b>Rangkumin Dong</b></div>
+  <div id="disc">Bukan ajakan jual/beli aset kripto</div>
+  <div id="subs"></div>
+  <div id="endcard">
+    <div class="logo">RANGKUMIN<br>DONG</div>
+    <div class="tl2">Berita ribet? Rangkumin dong.</div>
+    <div class="h">@rangkumindong</div>
+    <div class="src">Sumber: CNBC Indonesia, Malay Mail,<br>BleepingComputer, Blockonomi · lengkap di komentar</div>
+    <div class="src" style="font-size:30px; margin-top:0;">US$86 juta = perkiraan analis, belum dikonfirmasi Ledger</div>
+    <div class="src" style="font-size:32px; margin-top:0; color:var(--ink);">Bukan ajakan jual/beli aset kripto</div>
+  </div>
+  <div id="progress"></div>
+</div>
+
+<script>
+const $ = (id) => document.getElementById(id);
+const T = window.TIMING;
+window.DURATION = T.duration;
+const at = K.at, W = K.word;
+const VB = T.variant === 'b';
+const END = at('end', -0.15);
+
+// ---------- SVG builders (generic icons, no logos, no product photos) ----------
+const devSVG = (s = 1, chip = true) => `<svg width="${300 * s}" height="${170 * s}" viewBox="0 0 300 170"><rect x="8" y="30" width="250" height="110" rx="26" fill="#1B2430"/>
+  <rect x="34" y="52" width="150" height="66" rx="10" fill="#3E5568"/><rect x="46" y="64" width="90" height="14" rx="5" fill="#8FD3F0"/><rect x="46" y="88" width="60" height="12" rx="5" fill="#8FD3F0" opacity=".6"/>
+  <circle cx="218" cy="62" r="14" fill="#B9C2CB"/><circle cx="218" cy="108" r="14" fill="#B9C2CB"/><rect x="256" y="66" width="36" height="38" rx="8" fill="#B9C2CB" stroke="#1B2430" stroke-width="5"/>
+  ${chip ? `<g class="chp" opacity="0"><rect x="196" y="72" width="44" height="26" rx="5" fill="#FF5A36" stroke="#fff" stroke-width="4"/><path d="M204 72v-8M214 72v-8M224 72v-8M232 72v-8M204 98v8M214 98v8M224 98v8M232 98v8" stroke="#FF5A36" stroke-width="4"/></g>` : ''}</svg>`;
+const boxSVG = () => `<svg width="380" height="360" viewBox="0 0 380 360"><g id="bxLid"><rect x="30" y="80" width="320" height="60" rx="12" fill="#3E5568" stroke="#1B2430" stroke-width="7"/><rect x="160" y="80" width="60" height="60" fill="#FFD23F" opacity=".9"/></g>
+  <g id="bxDev" opacity="0" transform="translate(40 130)">${devSVG(1, true)}</g>
+  <rect x="40" y="140" width="300" height="200" rx="14" fill="#C9A26B" stroke="#1B2430" stroke-width="7"/><rect x="160" y="140" width="60" height="200" fill="#FFD23F" opacity=".9"/>
+  <text x="100" y="260" text-anchor="middle" font-family="Inter" font-weight="900" font-size="34" fill="#1B2430" opacity=".55">SEGEL</text></svg>`;
+const shopSVG = (s = 1) => `<svg width="${280 * s}" height="${240 * s}" viewBox="0 0 280 240"><rect x="24" y="80" width="232" height="146" rx="8" fill="#fff" stroke="#1B2430" stroke-width="7"/>
+  ${[0, 1, 2, 3, 4, 5].map((i) => `<path d="M${14 + i * 42} 34 H${56 + i * 42} L${60 + i * 42} 92 Q${37 + i * 42} 108 ${10 + i * 42} 92 Z" fill="${i % 2 ? '#fff' : '#FF5A36'}" stroke="#1B2430" stroke-width="5" stroke-linejoin="round"/>`).join('')}
+  <rect x="44" y="124" width="92" height="70" rx="6" fill="#8FD3F0" stroke="#1B2430" stroke-width="5"/><rect x="160" y="124" width="72" height="102" rx="6" fill="#3E5568" stroke="#1B2430" stroke-width="5"/></svg>`;
+const bagSVG = () => `<svg width="240" height="270" viewBox="0 0 240 270"><path d="M80 80 V60 a40 40 0 0 1 80 0 V80" stroke="#1B2430" stroke-width="12" fill="none"/>
+  <path d="M30 80 H210 L196 256 H44 Z" fill="#FFD23F" stroke="#1B2430" stroke-width="7" stroke-linejoin="round"/>
+  <g id="bagQ"><circle cx="150" cy="170" r="44" fill="#fff" stroke="#1B2430" stroke-width="6"/><text x="150" y="192" text-anchor="middle" font-family="Inter" font-weight="900" font-size="62" fill="#FF5A36">?</text></g></svg>`;
+const badgeSVG = () => `<svg width="200" height="230" viewBox="0 0 200 230"><path d="M100 10 L180 40 V110 C180 160 146 198 100 220 C54 198 20 160 20 110 V40 Z" fill="#2C4A7A" stroke="#1B2430" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M100 62 l14 30 33 4 -24 22 6 33 -29 -16 -29 16 6 -33 -24 -22 33 -4 Z" fill="#FFD23F" stroke="#1B2430" stroke-width="4" stroke-linejoin="round"/></svg>`;
+const bankSVG = () => `<svg width="220" height="190" viewBox="0 0 220 190"><path d="M20 70 L110 18 L200 70 Z" fill="#3E5568"/><rect x="24" y="70" width="172" height="12" fill="#2C3E4E"/>
+  ${[0, 1, 2, 3].map((i) => `<rect x="${42 + i * 40}" y="88" width="20" height="62" rx="3" fill="#fff" stroke="#3E5568" stroke-width="4"/>`).join('')}<rect x="14" y="152" width="192" height="20" rx="6" fill="#1B2430"/>
+  <circle cx="110" cy="50" r="13" fill="#F2B52E" stroke="#1B2430" stroke-width="4"/></svg>`;
+const paperSVG = () => `<svg width="190" height="200" viewBox="0 0 190 200"><path d="M20 14 H140 L172 46 V188 H20 Z" fill="#fff" stroke="#1B2430" stroke-width="7" stroke-linejoin="round"/>
+  ${[0, 1, 2, 3, 4].map((i) => `<rect x="40" y="${62 + i * 24}" width="${110 - (i % 2) * 30}" height="10" rx="5" fill="#B9C2CB"/>`).join('')}</svg>`;
+const commentSVG = () => `<svg width="240" height="210" viewBox="0 0 260 230"><path d="M20 30 Q20 10 40 10 H220 Q240 10 240 30 V150 Q240 170 220 170 H110 L60 214 L70 170 H40 Q20 170 20 150 Z" fill="#fff" stroke="#1B2430" stroke-width="8" stroke-linejoin="round"/>
+  <circle cx="80" cy="90" r="14" fill="#1B2430"/><circle cx="130" cy="90" r="14" fill="#1B2430"/><circle cx="180" cy="90" r="14" fill="#1B2430"/></svg>`;
+
+$('hBox').innerHTML = boxSVG(); $('hShop').innerHTML = shopSVG(0.8); $('hBag').innerHTML = bagSVG();
+$('z1Pol').innerHTML = badgeSVG(); $('z1Shop').innerHTML = shopSVG(0.8); $('z1Dev').innerHTML = devSVG(1.3, true);
+$('z2Dev').innerHTML = devSVG(1.2, true); $('z4Dev').innerHTML = devSVG(1.2, true);
+$('q1').innerHTML = bankSVG(); $('q2').innerHTML = devSVG(0.75, false); $('q3').innerHTML = paperSVG(); $('qCom').innerHTML = commentSVG();
+
+// Z2: 24 word tiles on a recovery card (blurred placeholders)
+const TILES = [...Array(24)].map((_, i) => { const e = document.createElement('div'); e.className = 'tile'; e.textContent = '••••';
+  const c = i % 4, r = Math.floor(i / 4); e.dataset.x = 290 - 135 + c * 90; e.dataset.y = 860 - 125 + r * 50; $('z2Tiles').appendChild(e); return e; });
+
+// Z5 map
+{ const A = MAPS.asia; let h = `<path d="${A.base}" fill="#E3E7EB" stroke="#fff" stroke-width="2"/>`;
+  for (const k of ['MY', 'TH', 'VN', 'PH', 'ID']) h += `<path id="m${k}" d="${A.c[k].d}" fill="#B9C2CB" stroke="#fff" stroke-width="3"/>`;
+  for (const k of ['SG', 'MY', 'TH', 'VN', 'PH', 'HK', 'ID']) { const [x, y] = A.pts[k];
+    h += `<g id="d${k}" transform="translate(${x} ${y})" opacity="0"><circle r="20" fill="${k === 'ID' ? '#FF5A36' : '#1B2430'}" stroke="#fff" stroke-width="6"/></g>`; }
+  $('z5Map').innerHTML = h; }
+const MKT = ['SG', 'MY', 'TH', 'VN', 'PH', 'HK', 'ID'];
+const MKN = { SG: 'Singapura', MY: 'Malaysia', TH: 'Thailand', VN: 'Vietnam', PH: 'Filipina', HK: 'Hong Kong', ID: 'Indonesia' };
+const MKO = { SG: [-80, 30], MY: [-120, -20], TH: [-120, 0], VN: [90, -40], PH: [40, 60], HK: [120, 20], ID: [0, -60] };
+MKT.forEach((k) => { const e = document.createElement('div'); e.id = 'n' + k; e.className = 'abs tag ' + (k === 'ID' ? 'accent ' : 'light ') + 'sticker';
+  e.style.fontSize = k === 'ID' ? '40px' : '28px'; e.style.padding = k === 'ID' ? '10px 22px' : '6px 14px'; e.textContent = MKN[k];
+  const [x, y] = MAPS.asia.pts[k]; e.style.left = (500 - 420 + x + MKO[k][0]) + 'px'; e.style.top = (880 - 310 + y + MKO[k][1]) + 'px'; $('z5Map').parentNode.appendChild(e); });
+
+if (VB) ['aHd', 'hOff', 'hCr'].forEach((id) => { $(id).style.display = 'none'; });
+else ['bHd', 'hBag', 'hPin'].forEach((id) => { $(id).style.display = 'none'; });
+
+let T_ = 0;
+const pulse = (el, tIn, amt = 0.12, rot = 0) => { const k = K.clamp((T_ - tIn) / 0.45); el.style.transform = `translate(-50%,-50%) scale(${1 + amt * Math.sin(Math.PI * k)}) rotate(${rot}deg)`; };
+const slam = (el, t, tIn, rot = 0, from = 2, tOut = Infinity) => { const s = K.spring(t - tIn, 320, 18), o = K.clamp((t - tOut) / 0.25);
+  el.style.opacity = t >= tIn ? 1 - o : 0; el.style.transform = `translate(-50%,-50%) scale(${(from - (from - 1) * s) * (1 - 0.2 * o)}) rotate(${rot}deg)`; };
+const dec = (v, n) => v.toFixed(n).replace('.', ',');
+const chipOn = (el, on, t) => { const c = el.querySelector('.chp'); if (c) c.setAttribute('opacity', on ? (0.75 + 0.25 * Math.sin(t * 10)) : 0); };
+
+// box opening: lid flips off, device rises with red chip
+function boxOpen(t, t0) {
+  const k = K.spring(t - t0, 240, 14), lid = $('hBox').querySelector('#bxLid'), dv = $('hBox').querySelector('#bxDev');
+  if (!lid) return;
+  lid.setAttribute('transform', t >= t0 ? `translate(${(-60 * K.clamp(k, 0, 1.2)).toFixed(1)} ${(-90 * K.clamp(k, 0, 1.2)).toFixed(1)}) rotate(${(-28 * K.clamp(k, 0, 1.2)).toFixed(1)} 40 110)` : '');
+  dv.setAttribute('opacity', t >= t0 ? 1 : 0);
+  dv.setAttribute('transform', `translate(40 ${(130 - 110 * K.clamp(k, 0, 1.1)).toFixed(1)})`);
+  const c = dv.querySelector('.chp'); if (c) c.setAttribute('opacity', t >= t0 + 0.25 ? (0.75 + 0.25 * Math.sin(t * 10)) : 0);
+}
+
+function seek(t) {
+  T_ = t;
+  const Z = (x, y, z = 1.0) => ({ x, y: y + 200 / z, z });
+  const zc = (ox, oy, z = 1) => Z(ox + 540, oy + 960, z);
+  const hEnd = at('rd', -0.3);
+  K.camera($('world'), [
+    { t: 0, ...zc(0, 0) },
+    { t: (VB ? at('hb2') : at('h2')) - 0.15, ...zc(0, 0, 1.04), dur: 0.5 },
+    { t: hEnd, ...Z(2480 + 540, 960, 1.1) },
+    { t: at('l1', -0.3), ...zc(0, 2400) },
+    { t: at('l2', -0.3), ...zc(1240, 2400) },
+    { t: at('l3', -0.3), ...zc(2480, 2400) },
+    { t: at('l4', -0.3), ...zc(0, 4800) },
+    { t: W('l4', 'nggak') - 0.2, ...zc(0, 4800, 1.06), dur: 1.4 },
+    { t: at('l5', -0.3), ...zc(1240, 4800) },
+    { t: at('l6', -0.3), ...zc(2480, 4800) },
+    { t: at('cta', -0.3), ...zc(0, 7200) },
+  ], t, 1080, 1920, 0.6);
+  $('zA').style.visibility = t > hEnd + 0.7 ? 'hidden' : 'visible';
+  const th = 1 + 0.05 * Math.exp(-6 * t) * Math.sin(t * 14);
+
+  // ---------- hook A: myth "offline = aman" -> cracked, opened from the shop ----------
+  if (!VB) {
+    $('aHd').style.transform = `translate(-50%,-50%) scale(${th})`;
+    const tA = W('h1', 'aman') - 0.05, tT = at('h2', -0.05), tD = W('h2', 'dibobol') - 0.05, tK = W('h2', 'toko') - 0.1;
+    if (t > tA) $('aHd1').style.transform = `scale(${1 + 0.07 * Math.sin(Math.PI * K.clamp((t - tA) / 0.4))})`;
+    if (t > tD) $('aHd2').style.transform = `scale(${1 + 0.1 * Math.sin(Math.PI * K.clamp((t - tD) / 0.4))}) rotate(${4 * Math.sin((t - tD) * 20) * Math.exp(-4 * (t - tD))}deg)`;
+    K.pop($('hBox'), t, -0.6, Infinity, -3 + 1.5 * Math.sin(t * 2.2));
+    K.pop($('hKr'), t, W('h1', 'kripto') - 0.1, Infinity, -3);
+    slam($('hOff'), t, W('h1', 'offline') - 0.05, -6, 1.9);
+    if (t > tA) pulse($('hOff'), tA, 0.08, -6);
+    if (t > tT) { $('hOff').classList.remove('green'); $('hOff').classList.add('grey'); } else { $('hOff').classList.add('green'); $('hOff').classList.remove('grey'); }
+    $('hCr').style.opacity = t >= tT ? 1 : 0;
+    $('hCrP').setAttribute('stroke-dashoffset', 200 * (1 - K.easeOut(K.prog(t, tT, 0.35))));
+    if (t > tT) $('hOff').style.transform = `translate(-50%,-50%) translateX(${10 * Math.sin((t - tT) * 34) * Math.exp(-5 * (t - tT))}px) rotate(-6deg)`;
+    boxOpen(t, tD);
+    if (t > tD) $('hBox').style.transform = `translate(-50%,-50%) translateX(${10 * Math.sin((t - tD) * 34) * Math.exp(-5 * (t - tD))}px) rotate(-3deg)`;
+    K.pop($('hShop'), t, W('h2', 'sejak') - 0.05, Infinity, 3);
+    K.pop($('hShopL'), t, tK, Infinity, -2);
+  }
+
+  // ---------- hook B: kamu stakes "belinya di mana?" ----------
+  if (VB) {
+    $('bHd').style.transform = `translate(-50%,-50%) scale(${th})`;
+    const tM = W('hb1', 'mana') - 0.05, tS = W('hb2', 'singapura') - 0.05, tD = W('hb2', 'disusupi') - 0.05;
+    if (t > tM) $('bHd1').style.transform = `scale(${1 + 0.08 * Math.sin(Math.PI * K.clamp((t - tM) / 0.4))})`;
+    if (t > tD) $('bHd2').style.transform = `rotate(${5 * Math.sin((t - tD) * 22) * Math.exp(-4 * (t - tD))}deg) scale(${1 + 0.1 * Math.sin(Math.PI * K.clamp((t - tD) / 0.4))})`;
+    K.pop($('hBox'), t, -0.6, Infinity, -3 + 1.5 * Math.sin(t * 2.2));
+    if (t > W('hb1', 'kripto') - 0.05) pulse($('hBox'), W('hb1', 'kripto') - 0.05, 0.08, -3);
+    K.pop($('hKr'), t, W('hb1', 'kripto') - 0.1, tS - 0.1, -3);
+    K.pop($('hBag'), t, W('hb1', 'belinya') - 0.1, tS + 0.2, 4);
+    { const q = $('hBag').querySelector('#bagQ'); if (q && t > tM) q.setAttribute('transform', `translate(150 170) scale(${1 + 0.4 * Math.sin(Math.PI * K.clamp((t - tM) / 0.4))}) translate(-150 -170)`); }
+    K.pop($('hPin'), t, tS, Infinity, -3);
+    K.pop($('hShop'), t, W('hb2', 'toko') - 0.1, Infinity, 3);
+    K.pop($('hShopL'), t, W('hb2', 'toko') + 0.1, Infinity, -2);
+    boxOpen(t, tD);
+    if (t > tD) $('hBox').style.transform = `translate(-50%,-50%) translateX(${10 * Math.sin((t - tD) * 34) * Math.exp(-5 * (t - tD))}px) rotate(-3deg)`;
+  }
+
+  // ---------- tagline ----------
+  K.pop($('stamp'), t, at('rd', -0.1), at('l1', -0.2), -6);
+
+  // ---------- Z1: polisi Singapura, toko, komponen jahat ----------
+  K.pop($('z1Pin'), t, at('l1', -0.05), Infinity, -2);
+  K.pop($('z1Pol'), t, W('l1', 'polisi') - 0.05, Infinity, -3);
+  K.pop($('z1PolL'), t, W('l1', 'singapura') - 0.05, Infinity, 2);
+  K.pop($('z1Shop'), t, W('l1', 'nemu') - 0.05, Infinity, 3);
+  K.pop($('z1ShopL'), t, W('l1', 'nemu') + 0.1, Infinity, -2);
+  K.pop($('z1Dev'), t, W('l1', 'dompet') - 0.05, Infinity, -2 + 1.5 * Math.sin(t * 2));
+  K.pop($('z1DevL'), t, W('l1', 'ledger') - 0.05, Infinity, 2);
+  chipOn($('z1Dev'), t >= W('l1', 'komponen') - 0.05, t);
+  slam($('z1Jh'), t, W('l1', 'jahat') - 0.05, -4, 1.9);
+
+  // ---------- Z2: 24 words -> chip -> signal ----------
+  K.pop($('z2Kt'), t, at('l2', -0.05), Infinity, 1);
+  K.pop($('z2Card'), t, W('l2', 'baca') - 0.1, Infinity, -3);
+  K.pop($('z2Dev'), t, W('l2', 'sisipannya') - 0.1, Infinity, 2);
+  chipOn($('z2Dev'), t >= W('l2', 'sisipannya') + 0.1, t);
+  K.pop($('z2Sp'), t, W('l2', 'sisipannya') + 0.1, Infinity, -3);
+  { const t24 = W('l2', '24') - 0.05, v = Math.round(24 * K.easeOut(K.prog(t, t24, 0.6)));
+    $('z2N').textContent = v; K.pop($('z2N'), t, t24 - 0.05, Infinity, -3);
+    K.pop($('z2NL'), t, W('l2', 'kata', 1) - 0.05, Infinity, 0);
+    const fly = W('l2', 'kirim') - 0.25;
+    TILES.forEach((e, i) => { const ti = W('l2', 'baca') + i * 0.035, s = K.spring(t - ti, 300, 18), f = K.easeInOut(K.prog(t, fly + i * 0.02, 0.5));
+      const x0 = +e.dataset.x, y0 = +e.dataset.y, x1 = 730 + 40, y1 = 870;
+      e.style.opacity = t >= ti ? 1 - K.clamp((f - 0.85) / 0.15) : 0;
+      e.style.left = (x0 + (x1 - x0) * f) + 'px'; e.style.top = (y0 + (y1 - y0) * f - 120 * Math.sin(Math.PI * f)) + 'px';
+      e.style.transform = `translate(-50%,-50%) scale(${(0.5 + 0.5 * s) * (1 - 0.6 * f)}) rotate(${(i % 3 - 1) * 4 + 30 * f}deg)`; }); }
+  { const s0 = W('l2', 'sinyal') - 0.1;
+    $('z2Sig').style.opacity = t >= s0 ? 1 : 0; $('z2Sig').style.transform = 'translate(-50%,-50%)';
+    [0, 1, 2].forEach((i) => { const p = $('sg' + i); p.setAttribute('opacity', t < s0 ? 0 : 0.35 + 0.65 * ((Math.floor((t - s0) * 6) % 3) >= i ? 1 : 0)); }); }
+  K.pop($('z2SgL'), t, W('l2', 'seluler') - 0.1, Infinity, -1);
+
+  // ---------- Z3: 2 kasus, Rp49,5 miliar ----------
+  K.pop($('z3Pol'), t, at('l3', -0.05), Infinity, -2);
+  slam($('z3K'), t, W('l3', '2') - 0.05, -2, 1.6);
+  K.pop($('z3Rg'), t, W('l3', 'rugi') - 0.05, Infinity, 0);
+  { const s0 = W('l3', 'rp') - 0.05, v = 49.5 * K.easeOut(K.prog(t, s0, Math.max(0.8, W('l3', 'miliar') - s0)));
+    $('z3N').textContent = 'Rp' + dec(v, 1) + ' miliar'; K.pop($('z3N'), t, s0 - 0.05, Infinity, -1);
+    if (t > W('l3', 'miliar') - 0.05) pulse($('z3N'), W('l3', 'miliar') - 0.05, 0.07, -1); }
+  K.pop($('z3Src'), t, W('l3', 'miliar') + 0.2, Infinity, 0);
+
+  // ---------- Z4: turn, built-in check passes, implant not detected ----------
+  { const tN = W('l4', 'nggak') - 0.05, bad = t >= tN;
+    slam($('z4Tapi'), t, at('l4', -0.05), -3, 1.5);
+    K.pop($('z4Pn'), t, W('l4', 'cek') - 0.1, Infinity, -1);
+    if (t > W('l4', 'keaslian') - 0.05 && !bad) pulse($('z4Pn'), W('l4', 'keaslian') - 0.05, 0.05, -1);
+    $('z4Pi').style.background = bad ? '#B9C2CB' : '#2F7A45'; $('z4Pv').style.color = bad ? '#B9C2CB' : 'var(--ink)';
+    $('z4Ps').style.textDecoration = bad ? 'line-through' : 'none';
+    K.pop($('z4Dev'), t, W('l4', 'bawaan') - 0.1, Infinity, 1.5 * Math.sin(t * 2));
+    chipOn($('z4Dev'), t >= W('l4', 'ledger') - 0.05, t);
+    K.pop($('z4Ring'), t, tN, Infinity, t * 30);
+    slam($('z4St'), t, W('l4', 'mendeteksinya') - 0.05, -4, 1.9);
+    K.pop($('z4Kt'), t, W('l4', 'mendeteksinya') + 0.3, Infinity, 0); }
+
+  // ---------- Z5: 7 markets, Indonesia last ----------
+  K.pop($('z5Hd'), t, W('l5', 'reseller') - 0.05, Infinity, 0);
+  $('z5N').style.display = 'inline-block'; $('z5N').style.visibility = t >= W('l5', '7') - 0.05 ? 'visible' : 'hidden';
+  if (t > W('l5', '7') - 0.05) $('z5N').style.transform = `scale(${1 + 0.3 * Math.sin(Math.PI * K.clamp((t - W('l5', '7') + 0.05) / 0.4))})`;
+  K.pop($('z5Map'), t, at('l5', -0.1), Infinity, 0);
+  { const s0 = W('l5', '7'), s1 = W('l5', 'termasuk');
+    MKT.forEach((k, i) => { const ti = k === 'ID' ? W('l5', 'indonesia') - 0.05 : s0 + i * ((s1 - s0) / 6);
+      const g = $('d' + k), on = t >= ti, s = K.spring(t - ti, 300, 14);
+      g.setAttribute('opacity', on ? 1 : 0);
+      const [x, y] = MAPS.asia.pts[k]; g.setAttribute('transform', `translate(${x} ${y}) scale(${on ? (k === 'ID' ? 1.3 : 1) * (0.4 + 0.6 * s) : 0})`);
+      const p = $('m' + k); if (p) p.setAttribute('fill', on ? (k === 'ID' ? '#FF5A36' : '#3E5568') : '#B9C2CB');
+      K.pop($('n' + k), t, ti + 0.05, Infinity, k === 'ID' ? -3 : 0); }); }
+  slam($('z5St'), t, W('l5', 'setop') - 0.05, -4, 1.8);
+  K.pop($('z5L'), t, W('l5', 'jualan') + 0.1, Infinity, 0);
+  if (t > W('l5', 'indonesia') - 0.05) pulse($('nID'), W('l5', 'indonesia') - 0.05, 0.15, -3);
+
+  // ---------- Z6: >US$86 juta (estimate) ----------
+  K.pop($('z6Pk'), t, at('l6', -0.05), Infinity, -2);
+  if (t > W('l6', 'analis') - 0.05) pulse($('z6Pk'), W('l6', 'analis') - 0.05, 0.08, -2);
+  K.pop($('z6Lb'), t, W('l6', 'lebih') - 0.05, Infinity, 0);
+  { const s0 = W('l6', '86') - 0.05, v = 86 * K.easeOut(K.prog(t, s0, Math.max(0.8, W('l6', 'dolar') - s0)));
+    $('z6N').textContent = '>US$' + Math.round(v) + ' juta'; K.pop($('z6Bx'), t, s0 - 0.05, Infinity, -1);
+    if (t > W('l6', 'dolar') - 0.05) pulse($('z6Bx'), W('l6', 'dolar') - 0.05, 0.06, -1); }
+  K.pop($('z6Tk'), t, W('l6', 'terkuras') - 0.05, Infinity, 0);
+  slam($('z6Bl'), t, W('l6', 'belum') - 0.05, -3, 1.7);
+  K.pop($('z6Src'), t, W('l6', 'ledger') + 0.1, Infinity, 0);
+
+  // ---------- CTA ----------
+  const qOut = at('end', -0.4);
+  K.pop($('qHd'), t, at('cta', -0.05), qOut, 0);
+  [['q1', 'q1L', 'paling'], ['q2', 'q2L', 'aman'], ['q3', 'q3L', 'disimpan']].forEach(([a, b, w], i) => {
+    K.pop($(a), t, W('cta', w) - 0.05, qOut, (i - 1) * 4 + 2 * Math.sin(t * 2.5 + i)); K.pop($(b), t, W('cta', w) + 0.05, qOut, (i - 1) * 3); });
+  K.pop($('qCom'), t, W('cta', 'mana') - 0.05, qOut, -4);
+  K.pop($('qK'), t, W('cta', 'komen') - 0.05, qOut, 3);
+
+  // ---------- disclaimer (zones 8-9 of the plan: from l6 until the end card) ----------
+  $('disc').style.opacity = K.clamp((t - at('l6', -0.2)) / 0.2) * (1 - K.clamp((t - END) / 0.2));
+
+  // ---------- end ----------
+  const en = K.prog(t, END, 0.3);
+  $('endcard').style.opacity = en;
+  $('endcard').querySelector('.logo').style.transform = `rotate(-3deg) scale(${0.6 + 0.4 * K.spring(t - END)})`;
+  K.subtitles($('subs'), t);
+  $('subs').style.visibility = en > 0.5 ? 'hidden' : 'visible';
+  $('progress').style.width = (100 * t / window.DURATION) + '%';
+  return true;
+}
+window.seek = seek; seek(0);
+</script>
+</body>
+</html>
