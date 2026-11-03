@@ -85,3 +85,9 @@ History moved out of HANDOFF.md (22 Oct) so fresh sessions read less. Append one
 - Draft trimmed 190→165 words (~76 s). Full fact-check 3 fixes: attack 29 Okt US time = Jumat dini hari WIB (morning message's "Kamis malam" corrected to the user). QA: round 1 sync FIX (qa_sync default --lead 0.08 misled; producer set SUB_LEAD 0.0, l12 re-voiced), round 2 visual FIX ×5, round 3 PASS both.
 - User "OK to post" 11:08 → A scheduled 19:00, live (IG DfPJo5kFEob, YT LiOd0PidLTc); B not posted. Analyst: Minggu Depan 24 h IG 7 / YT 30; Djarum P2 72 h IG 38 / 21.7%.
 - Problems: dashboard old-blob deletes denied 3 of 4 by the classifier (harmless leftovers). qa_sync.py still ignores index.html SUB_LEAD — pass --lead explicitly.
+
+## 3 Nov (Tue, #16 Ledger dibobol dari toko; Cahaya, myth / kamu_stakes (person_collage fallback), subs block, format short)
+- Sweeps 9/8/8/10, 33 merged, 2 dupes. Light fact-check 4 fixes (#2 "hingga 20%", #3 "dikabarkan", #4 unverified local figures dropped). User picked ⭐ #1 + "OK to post too" ~05:20 (second recommended pick in a row).
+- Draft 94 words; hook-critic A/B 12/14 each; full fact-check 1 fix (unspoken S$3,5 juta off screen). Producer: 48,6 s A / 50,0 s B (over the 45 s short target; QA accepted). QA PASS both, first round.
+- A scheduled 08:57 for 19:00, live (IG DfRuXu_iPk-, YT MwVSIfLGxos); B not posted. Analyst: Binance 24 h IG 272 / 23,1%; def. korupsi P3 72 h IG 80 / 12,2%, YT 192 / 76%.
+- Problems: delete_trigger for the unneeded 14:00 default-pick wake was denied by the classifier (it fired and did nothing). Shell CHROME_PATH still set to google-chrome → producer must clear it. Cahaya voiced slower than estimated: for short format aim ≤85 words.

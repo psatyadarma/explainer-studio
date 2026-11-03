@@ -706,5 +706,53 @@
 "shares": 0,
 "saves": 0,
 "follows": 0
+},
+{
+"date": "2026-11-03",
+"folder": "videos/2026-11-02-binance-dibobol-114t",
+"platform": "instagram",
+"hours": 24,
+"views": 272,
+"avg_watch_pct": 23.1,
+"hold_3s_pct": null,
+"shares": 2,
+"saves": 2,
+"follows": null
+},
+{
+"date": "2026-11-03",
+"folder": "videos/2026-11-02-binance-dibobol-114t",
+"platform": "youtube",
+"hours": 24,
+"views": 4,
+"avg_watch_pct": null,
+"hold_3s_pct": null,
+"shares": 0,
+"saves": null,
+"follows": 0
+},
+{
+"date": "2026-11-03",
+"folder": "videos/2026-10-31-definisi-korupsi-part3-dua-pasal",
+"platform": "instagram",
+"hours": 72,
+"views": 80,
+"avg_watch_pct": 12.2,
+"hold_3s_pct": null,
+"shares": 1,
+"saves": 0,
+"follows": 0
+},
+{
+"date": "2026-11-03",
+"folder": "videos/2026-10-31-definisi-korupsi-part3-dua-pasal",
+"platform": "youtube",
+"hours": 72,
+"views": 192,
+"avg_watch_pct": 76.0,
+"hold_3s_pct": null,
+"shares": 0,
+"saves": null,
+"follows": 0
 }
 ]
