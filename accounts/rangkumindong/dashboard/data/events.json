@@ -4410,6 +4410,16 @@
 "upcoming": false
 },
 {
+"id": "E0548",
+"date": "2026-10-30",
+"category": "POL",
+"event": "TNI AD (Kadispenad Brigjen Donny Pramono) says the death of Letda Inf Jihad Ahmad Al-Rasyid from a gunshot at the Kopassus Group 2 weapons warehouse in Kartasura will be handled through legal process, with fellow officer Letda Inf AG detained as suspect.",
+"key_numbers": "Charge: KUHP Art. 474(3), negligence causing death, max 5 years · Evidence: 1 pistol, 1 magazine, 1 casing, CCTV · File handed to Denpom IV/4 Surakarta",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
 "id": "E0431",
 "date": "2026-10-31",
 "category": "NEWS",
@@ -4990,6 +5000,16 @@
 "upcoming": false
 },
 {
+"id": "E0547",
+"date": "2026-11-02",
+"category": "GLB",
+"event": "Oil prices fell sharply on 2 November ahead of the US midterm elections, with Brent down 7.63% to US$104.77 a barrel.",
+"key_numbers": "Brent US$104.77 (-7.63%) · WTI US$96.46 (-7.36%) · DXY 101.745 (-0.13%) · 57 million+ early votes in US midterms",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
 "id": "E0475",
 "date": "2026-11-03",
 "category": "GLB",
@@ -5160,6 +5180,176 @@
 "upcoming": false
 },
 {
+"id": "E0546",
+"date": "2026-11-03",
+"category": "MKT",
+"event": "The IHSG fell 3.78% to 4,904.29 on 3 November with all 11 sectors lower, as foreign investors kept selling on MSCI downgrade fears and US-Iran tension rose. (update of E0523)",
+"key_numbers": "IHSG 4,904.29, -3.78% · all 11 sectors down, Basic Industry -6% · BBRI -5.67%, AMMN -6.79%, BBCA -2.81% · foreign net sell Rp759.98B (regular market) and Rp575B (all markets, as reported) · Dow 51,786 (-0.38%), S&P 500 7,568 (+0.36%), Nasdaq 25,372 (+0.83%)",
+"storyline": "msci-reclassification",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0549",
+"date": "2026-11-03",
+"category": "TECH",
+"event": "Apple reported fiscal Q4 results and guided a December-quarter gross margin of 45-46% because AI-driven memory chip shortages are raising component costs. (update of E0463)",
+"key_numbers": "Revenue US$114.48 billion (consensus US$113.39 billion) · gross margin guidance 45-46% vs 47.9% · iPhone sales US$57.58 billion · China sales US$17.54 billion vs US$18.58 billion est. · iPhone 17 price raised US$100 · purchase commitments up US$33 billion · shares fell as much as 4%",
+"storyline": "chip-ram-prices",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0550",
+"date": "2026-11-03",
+"category": "TECH",
+"event": "NTT Data told Reuters it will sharply increase data center investment in Indonesia over the next 2-3 years while opening a 12 MW annex in Jakarta. (update of E0541)",
+"key_numbers": "12 MW Jakarta annex · US$500 million (about Rp9 trillion) invested since 2015 · Indonesia data center market US$2.81 billion in 2025 to US$6.08 billion by 2031 (Research and Markets)",
+"storyline": "ai-data-centres",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0551",
+"date": "2026-11-03",
+"category": "TECH",
+"event": "A cyberattack on travel-booking provider Amadeus exposed passenger records at several Asian airlines including Malaysia Airlines, Cathay Pacific and Japan Airlines.",
+"key_numbers": "Cathay Pacific about 53,000 booking records · Japan Airlines about 92,000 passenger records · Malaysia Airlines data Aug 2023-Sep 2026 · global total undisclosed",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0552",
+"date": "2026-11-03",
+"category": "TECH",
+"event": "WIRED investigation found more than 400 apps and domains posing as harmless AI apps that hide deepfake sexual-image tools, evading app store review via external servers.",
+"key_numbers": "400+ apps/domains · 27 apps on Google Play with 350,000+ downloads (Sep 2026) · Apple removed 19 apps · Apple guideline update 16 Oct 2026",
+"storyline": "online-scams",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0554",
+"date": "2026-11-03",
+"category": "TECH",
+"event": "Komdigi Secretary General Ismail said the government will set ethical boundaries and a sandbox-style approach for AI rather than conventional prohibitions and sanctions. (update of E0480)",
+"key_numbers": "Statement at CNBC Indonesia Coffee Morning, 3 Nov 2026 · no figures",
+"storyline": "ai-regulation",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0560",
+"date": "2026-11-03",
+"category": "NEWS",
+"event": "Social Affairs Minister Saifullah Yusuf (Gus Ipul) said Kemensos, the Health Ministry and BPJS Kesehatan are simulating extending free JKN premium assistance (PBI) from the poorest to deciles 1-8.",
+"key_numbers": "188.05 million people in deciles 1-8 · Rp94.78 trillion cost · proposed funding split APBN 55% / districts 25% / provinces 20% · deciles 9-10 stay self-funded · still at simulation stage",
+"storyline": "",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0564",
+"date": "2026-11-03",
+"category": "ENV",
+"event": "Home Affairs Minister Tito Karnavian, as head of the rehabilitation task force, inspected embankments in Pidie Jaya, Aceh, damaged by follow-up floods.",
+"key_numbers": "Details not verified beyond headlines",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0545",
+"date": "2026-11-04",
+"category": "MKT",
+"event": "The IHSG closed up 0.32% at 4,919.77 on 4 November, rebounding from an intraday low near 4,824 as BBRI, BBCA and ANTM led gains while MSCI review worries lingered. (update of E0522)",
+"key_numbers": "IHSG 4,919.77, +15.48 points (+0.32%) vs 4,904.29 on 3 Nov · intraday range about 4,824-4,920 · turnover Rp9.65T, 250.94 million lots · finance +1.15%, tech +0.80% · decliners BRPT, BRMS, AMMN, VKTR, ENRG",
+"storyline": "msci-reclassification",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0553",
+"date": "2026-11-04",
+"category": "TECH",
+"event": "CNBC Indonesia explained the LIMS lawful-interception system at the centre of the illegal wiretapping case in which Bareskrim named three senior police officers as suspects. (update of E0530)",
+"key_numbers": "3 suspects (initials LSP, ASN, EHS) · 1 police witness · KUHP Art. 258 max 10 years · also KUHP Art. 332 and ITE Law Art. 32(1) · Bareskrim press conference 3 Nov 2026",
+"storyline": "listyo-sigit-penyadapan",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0555",
+"date": "2026-11-04",
+"category": "TECH",
+"event": "ChatGPT's consumer product lead said ChatGPT weekly users rose from 1 billion to 1.2 billion in about 60 days and its search-like queries equal roughly 20% of Google's volume.",
+"key_numbers": "1.2 billion weekly users (from 1 billion in about 60 days) · search queries about 20% of Google · 1.5 billion images per week · voice mode 250 million weekly users · Bing about 5% share",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0557",
+"date": "2026-11-04",
+"category": "ENV",
+"event": "A TNI AD Mi-17V5 helicopter on a water-bombing mission against forest fires crashed in Seruyan, Central Kalimantan, killing two of its eight crew, per Pangdam XXII/Tambun Bungai.",
+"key_numbers": "8 crew aboard · 2 dead · 5 treated at RSUD Kuala Pembuang · 1 missing (as of 4 Nov 2026)",
+"storyline": "karhutla",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0558",
+"date": "2026-11-04",
+"category": "ENV",
+"event": "The Health Ministry (Kemenkes) recorded 401,586 cumulative acute respiratory infection (ISPA) cases linked to karhutla smoke across seven provinces, including 91,913 among children aged 0-5.",
+"key_numbers": "401,586 ISPA cases · 91,913 aged 0-5 · 3,906 new cases in latest update · 7 provinces, 63 districts/cities · data as of 2 Nov 2026 16:00 WIB · worst: Banjarbaru, Pekanbaru, Pontianak",
+"storyline": "karhutla",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0559",
+"date": "2026-11-04",
+"category": "ENV",
+"event": "BNPB said national hotspots stand at 864 with 1,615 ha under active handling, with Central Kalimantan, South Sumatra and Jambi rising sharply while East Kalimantan and South Papua fell.",
+"key_numbers": "864 hotspots · 1,615 ha under handling · Central Kalimantan 425 hotspots (+50%), 664 ha · South Sumatra +60 hotspots (+186%), 105 ha · Jambi +150 hotspots (+134%) · South Papua 120 hotspots, 203 ha (-78%) (4 Nov 2026)",
+"storyline": "karhutla",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0561",
+"date": "2026-11-04",
+"category": "NEWS",
+"event": "Police arrested all five suspects in the killing of a handcuffed man whose body was found on 6 October in an empty house being prepared as an SPPG (MBG kitchen) building in Kendal, Central Java.",
+"key_numbers": "5 suspects · 3 arrested in Cilegon on 3 Nov, 2 more on 4 Nov (Cirebon, Pekalongan) · body found 6 Oct 2026 · motive reported as irritation over a stepped-on head (kumparan), police say still under investigation",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0562",
+"date": "2026-11-04",
+"category": "POL",
+"event": "Police detained Listyo Sigit Prabowo and two other generals at the Mabes Polri detention centre as suspects in illegal wiretapping of President Prabowo, which police say began in 2025, while Menko Yusril said the case is serious but makar charges are not yet applied. (update of E0530)",
+"key_numbers": "3 generals named suspects · detained at Rutan Mabes Polri · wiretapping since 2025 · 10 witnesses and 3 experts examined (per CNN Indonesia headline) · Kapolri Suyudi reshuffled 264 senior officers (CNN Indonesia headline, 4 Nov)",
+"storyline": "listyo-sigit-penyadapan",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0563",
+"date": "2026-11-04",
+"category": "NEWS",
+"event": "Polda Sulbar searched the Polewali Mandar (Polman) regent's office in a corruption probe into allegedly misused religious-worker (rohaniawan) incentive funds worth Rp4.2 billion.",
+"key_numbers": "Rp4.2 billion alleged losses · documents seized",
+"storyline": "corruption-cases",
+"status": "verified",
+"upcoming": false
+},
+{
 "id": "E0405",
 "date": "2026-11-05",
 "category": "POL",
@@ -5275,6 +5465,16 @@
 "category": "TECH",
 "event": "Shopee's 11.11 Big Sale runs through 11 November, with Harbolnas-season promos across marketplaces.",
 "key_numbers": "Ends 11 Nov 2026 · flash sale from Rp11 ribu · discounts up to 90% · overlaps the planned 9 Nov digital tax start and the 50% admin fee cut for UMKM sellers (from 25 Oct)",
+"storyline": "ecommerce-seller-rules",
+"status": "upcoming",
+"upcoming": true
+},
+{
+"id": "E0556",
+"date": "2026-11-11",
+"category": "TECH",
+"event": "Shopee's 11.11 Big Sale and Harbolnas promotions are scheduled to run through 11 November. (update of E0465)",
+"key_numbers": "11 November 2026",
 "storyline": "ecommerce-seller-rules",
 "status": "upcoming",
 "upcoming": true

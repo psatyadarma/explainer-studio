@@ -1,0 +1,87 @@
+{
+  "area": "markets",
+  "run_date": "2026-11-05",
+  "checked": [
+    "CNBC Indonesia market (via search results and article pages, 4 Nov close)",
+    "CNBC Indonesia research morning agenda 3 Nov",
+    "Bisnis market (search only, no fresh 4 Nov items returned)",
+    "detik finance (search only, nothing relevant returned)",
+    "antaranews ekonomi (not reached)",
+    "Watch list found: IHSG close, foreign net sell, rupiah, MSCI, oil/US midterm shock",
+    "Storyline searches: MSCI reclassification, KSSK, BPS Q3 GDP, rupiah close 4 Nov"
+  ],
+  "events": [
+    {
+      "date": "2026-11-04",
+      "category": "MKT",
+      "event": "The IHSG closed up 0.32% at 4,919.77 on 4 November, rebounding from an intraday low near 4,824 as BBRI, BBCA and ANTM led gains while MSCI review worries lingered.",
+      "key_numbers": "IHSG 4,919.77, +15.48 points (+0.32%) vs 4,904.29 on 3 Nov · intraday range about 4,824-4,920 · turnover Rp9.65T, 250.94 million lots · finance +1.15%, tech +0.80% · decliners BRPT, BRMS, AMMN, VKTR, ENRG",
+      "storyline": "msci-reclassification",
+      "update_of": "E0522",
+      "status": "partial",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/market/20261104152116-17-782322/ihsg-ditutup-menguat-032-ke-491977"},
+        {"label": "CNBC Indonesia (video)", "url": "https://www.cnbcindonesia.com/market/20261104172851-19-782361/video-review-msci-membayangi-ihsg-berhasil-ditutup-menguat-di-4900"}
+      ],
+      "why_it_matters": "After a 3.78% crash the day before, the index stabilised just under 5,000 while investors wait for MSCI's 12 November decision.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 0},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-04",
+      "category": "MKT",
+      "event": "The rupiah reversed to weaker levels at about Rp18,155 per US dollar on 4 November even as the IHSG closed higher.",
+      "key_numbers": "Rp18,155 per USD (4 Nov, per CNBC Closing Bell video) · vs Rp18,140 on 2 Nov close and Rp18,145 on 3 Nov",
+      "storyline": "rupiah",
+      "update_of": "E0524",
+      "status": "partial",
+      "sources": [
+        {"label": "CNBC Indonesia (video)", "url": "https://www.cnbcindonesia.com/market/20261104172851-19-782361/video-review-msci-membayangi-ihsg-berhasil-ditutup-menguat-di-4900"}
+      ],
+      "why_it_matters": "The rupiah keeps sliding near record lows, raising import, fuel and dollar-debt costs.",
+      "signals": {"spreading": 1, "wallet": 2, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 0},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-03",
+      "category": "MKT",
+      "event": "The IHSG fell 3.78% to 4,904.29 on 3 November with all 11 sectors lower, as foreign investors kept selling on MSCI downgrade fears and US-Iran tension rose.",
+      "key_numbers": "IHSG 4,904.29, -3.78% · all 11 sectors down, Basic Industry -6% · BBRI -5.67%, AMMN -6.79%, BBCA -2.81% · foreign net sell Rp759.98B (regular market) and Rp575B (all markets, as reported) · Dow 51,786 (-0.38%), S&P 500 7,568 (+0.36%), Nasdaq 25,372 (+0.83%)",
+      "storyline": "msci-reclassification",
+      "update_of": "E0523",
+      "status": "partial",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/market/20261104081544-17-782105/ihsg-ambruk-378-ini-5-rekomendasi-saham-yang-bisa-kamu-lirik"}
+      ],
+      "why_it_matters": "Full-day foreign selling figures and sector breadth show the 3 Nov drop was broad, not limited to a few stocks.",
+      "signals": {"spreading": 2, "wallet": 1, "surprise": 2, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "Multiple CNBC Indonesia articles on 3-4 Nov search results; search 'IHSG anjlok 3%' returns breaking news",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-02",
+      "category": "GLB",
+      "event": "Oil prices fell sharply on 2 November ahead of the US midterm elections, with Brent down 7.63% to US$104.77 a barrel.",
+      "key_numbers": "Brent US$104.77 (-7.63%) · WTI US$96.46 (-7.36%) · DXY 101.745 (-0.13%) · 57 million+ early votes in US midterms",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "CNBC Indonesia Research", "url": "https://cnbcindonesia.com/research/20261103045032-128-781717/harga-minyak-anjlok-jelang-pemilu-as-bi-menkeu-buka-suara-hari-ini"}
+      ],
+      "why_it_matters": "Oil near US$100 still pressures Indonesia's fuel subsidy bill and the rupiah.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 2, "visual": 2, "fresh": 1, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    }
+  ],
+  "gaps": [
+    "Exact BPS date for Q3 2026 GDP release (known event E0455) not confirmed; the CNBC agenda article gave no date.",
+    "Foreign net buy/sell for 4 Nov not found; a CNBC headline said 'Asing Masuk Rp268,67 Miliar Kala IHSG Merah' but the article was not opened.",
+    "KSSK Q3 press conference (3 Nov, Gedung Thamrin BI) results not found; search returned only earlier quarters.",
+    "Detik, Antara and Bisnis section pages were not fetched directly; only search results and CNBC articles were read, so BI/OJK/BUMN/PHK/IPO news from 3-4 Nov may be missing.",
+    "3 Nov CNBC foreign net sell: Rp575B 'all markets' is lower than Rp759.98B regular market; likely a reporting quirk, recheck before use."
+  ]
+}

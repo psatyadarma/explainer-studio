@@ -1,0 +1,46 @@
+{
+ "area": "politics",
+ "run_date": "2026-11-05",
+ "checked": [
+  "WebSearch detik politik (stale)",
+  "WebSearch antaranews politik (stale)",
+  "antaranews tag/tni listing (undated relative times)",
+  "Gibran suket MA storyline search (latest results 1 Nov)",
+  "KPK/Kejagung/Polri search (stale)",
+  "known-events window 14d"
+ ],
+ "events": [
+  {
+   "date": "2026-10-30",
+   "category": "POL",
+   "event": "TNI AD (Kadispenad Brigjen Donny Pramono) says the death of Letda Inf Jihad Ahmad Al-Rasyid from a gunshot at the Kopassus Group 2 weapons warehouse in Kartasura will be handled through legal process, with fellow officer Letda Inf AG detained as suspect.",
+   "key_numbers": "Charge: KUHP Art. 474(3), negligence causing death, max 5 years · Evidence: 1 pistol, 1 magazine, 1 casing, CCTV · File handed to Denpom IV/4 Surakarta",
+   "storyline": "",
+   "update_of": "",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "ANTARA",
+     "url": "https://www.antaranews.com/berita/5822431/tni-ad-pastikan-proses-hukum-kasus-letda-inf-jihad-tertembak"
+    }
+   ],
+   "why_it_matters": "Shows how TNI handles internal shooting cases amid public scrutiny of security forces.",
+   "signals": {
+    "spreading": 0,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 0,
+    "fresh": 0,
+    "rivals": 1
+   },
+   "spreading_evidence": "",
+   "sensitivity": "high"
+  }
+ ],
+ "gaps": [
+  "Section pages detik/cnnindonesia/tempo/antaranews politik+hukum not reachable via search results; only an undated antaranews tag page was fetched",
+  "Antara headline 'BGN tangguhkan 6.097 SPPG tidak tertib sampaikan LPDH' seen but article fetch blocked (PROVENANCE_REQUIRED), numbers unverified",
+  "No fresh (2-4 Nov) developments found for gibran-ijazah-mk, corruption-cases, listyo-sigit-penyadapan; search lag",
+  "Known upcoming items (Jokowi witness 5 Nov E0421, Silmy trial E0458, DPR reses ends 9 Nov E0288) already in DB, not re-reported"
+ ]
+}

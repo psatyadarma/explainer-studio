@@ -1,0 +1,144 @@
+{
+  "area": "national",
+  "run_date": "2026-11-05",
+  "checked": ["detik terpopuler (detikNews)", "CNN Indonesia nasional", "Antara humaniora + terkini + terpopuler", "Antara cek-fakta (blocked, not read)", "CNBC Indonesia (via search results only)", "watch: disasters/karhutla/haze", "watch: floods Aceh", "watch: BPJS/health", "watch: crime", "watch: MBG/SPPG", "storyline: karhutla", "storyline: listyo-sigit-penyadapan", "storyline: corruption-cases"],
+  "events": [
+    {
+      "date": "2026-11-04",
+      "category": "ENV",
+      "event": "A TNI AD Mi-17V5 helicopter on a water-bombing mission against forest fires crashed in Seruyan, Central Kalimantan, killing two of its eight crew, per Pangdam XXII/Tambun Bungai.",
+      "key_numbers": "8 crew aboard · 2 dead · 5 treated at RSUD Kuala Pembuang · 1 missing (as of 4 Nov 2026)",
+      "storyline": "karhutla",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "ANTARA", "url": "https://antaranews.com/berita/5832411/kecelakaan-helikopter-di-seruyan-dua-orang-meninggal-dunia"},
+        {"label": "Metro TV", "url": "https://www.metrotvnews.com/read/bJEC1Vam-dua-kru-helikopter-mi-17v5-yang-jatuh-di-seruyan-meninggal"}
+      ],
+      "why_it_matters": "The cost of fighting this year's fires is now being paid in lives, and the cause of the crash is not yet known.",
+      "signals": {"spreading": 2, "wallet": 0, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "ANTARA Humaniora terpopuler #1 and #4",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-04",
+      "category": "ENV",
+      "event": "The Health Ministry (Kemenkes) recorded 401,586 cumulative acute respiratory infection (ISPA) cases linked to karhutla smoke across seven provinces, including 91,913 among children aged 0-5.",
+      "key_numbers": "401,586 ISPA cases · 91,913 aged 0-5 · 3,906 new cases in latest update · 7 provinces, 63 districts/cities · data as of 2 Nov 2026 16:00 WIB · worst: Banjarbaru, Pekanbaru, Pontianak",
+      "storyline": "karhutla",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "ANTARA", "url": "https://www.antaranews.com/berita/5831927/kemenkes-catat-401586-kasus-kumulatif-ispa-akibat-karhutla"},
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261104190316-20-1423381/401586-warga-kena-infeksi-saluran-pernapasan-imbas-karhutla"}
+      ],
+      "why_it_matters": "The haze now has a human count: over 400 thousand people sick, with toddlers hit hardest.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 2, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "ANTARA Terkini list; covered by CNN Indonesia, Suara, Republika, Pontianak Post",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-04",
+      "category": "ENV",
+      "event": "BNPB said national hotspots stand at 864 with 1,615 ha under active handling, with Central Kalimantan, South Sumatra and Jambi rising sharply while East Kalimantan and South Papua fell.",
+      "key_numbers": "864 hotspots · 1,615 ha under handling · Central Kalimantan 425 hotspots (+50%), 664 ha · South Sumatra +60 hotspots (+186%), 105 ha · Jambi +150 hotspots (+134%) · South Papua 120 hotspots, 203 ha (-78%) (4 Nov 2026)",
+      "storyline": "karhutla",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "Kontan", "url": "https://nasional.kontan.co.id/news/bnpb-catat-864-titik-api-kebakaran-lahan-meluas-di-kalteng-dan-sumsel"},
+        {"label": "Okezone", "url": "https://news.okezone.com/read/2026/11/04/337/3252109/karhutla-dan-cuaca-ekstrem-melanda-sejumlah-daerah-bnpb-minta-masyarakat-waspada"}
+      ],
+      "why_it_matters": "Fires are rising again in Sumatra and Kalimantan even as the rainy season starts.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-03",
+      "category": "NEWS",
+      "event": "Social Affairs Minister Saifullah Yusuf (Gus Ipul) said Kemensos, the Health Ministry and BPJS Kesehatan are simulating extending free JKN premium assistance (PBI) from the poorest to deciles 1-8.",
+      "key_numbers": "188.05 million people in deciles 1-8 · Rp94.78 trillion cost · proposed funding split APBN 55% / districts 25% / provinces 20% · deciles 9-10 stay self-funded · still at simulation stage",
+      "storyline": "",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "detikcom", "url": "https://news.detik.com/berita/d-8736961/mensos-ungkap-usulan-perluasan-bantuan-iuran-bpjs-untuk-desil-1-hingga-8"},
+        {"label": "ANTARA", "url": "https://www.antaranews.com/berita/5832443/pemerintah-kaji-perluasan-bpjs-gratis-hingga-desil-delapan"}
+      ],
+      "why_it_matters": "If adopted, about 188 million Indonesians could have their BPJS health premiums paid by the state.",
+      "signals": {"spreading": 1, "wallet": 2, "surprise": 2, "visual": 2, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "ANTARA Terkini list; covered by detik, Media Indonesia, Radar Bogor, Radar Kediri",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-04",
+      "category": "NEWS",
+      "event": "Police arrested all five suspects in the killing of a handcuffed man whose body was found on 6 October in an empty house being prepared as an SPPG (MBG kitchen) building in Kendal, Central Java.",
+      "key_numbers": "5 suspects · 3 arrested in Cilegon on 3 Nov, 2 more on 4 Nov (Cirebon, Pekalongan) · body found 6 Oct 2026 · motive reported as irritation over a stepped-on head (kumparan), police say still under investigation",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "detikcom", "url": "https://news.detik.com/berita/d-8737679/2-buron-ditangkap-total-5-pembunuh-pria-terborgol-di-sppg-kendal-dibekuk"},
+        {"label": "detikcom", "url": "https://news.detik.com/berita/d-8737226/3-pelaku-pembunuhan-pria-terborgol-di-gedung-sppg-kendal-ditangkap-2-buron"}
+      ],
+      "why_it_matters": "A month-old viral murder tied to an MBG kitchen building has been solved; BGN earlier said it was not an SPPG building.",
+      "signals": {"spreading": 2, "wallet": 0, "surprise": 1, "visual": 0, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "detikNews terpopuler #3",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-04",
+      "category": "POL",
+      "event": "Police detained Listyo Sigit Prabowo and two other generals at the Mabes Polri detention centre as suspects in illegal wiretapping of President Prabowo, which police say began in 2025, while Menko Yusril said the case is serious but makar charges are not yet applied.",
+      "key_numbers": "3 generals named suspects · detained at Rutan Mabes Polri · wiretapping since 2025 · 10 witnesses and 3 experts examined (per CNN Indonesia headline) · Kapolri Suyudi reshuffled 264 senior officers (CNN Indonesia headline, 4 Nov)",
+      "storyline": "listyo-sigit-penyadapan",
+      "update_of": "E0530",
+      "status": "verified",
+      "sources": [
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261104063224-12-1422997/awal-mula-terbongkarnya-dugaan-penyadapan-prabowo-oleh-listyo-sigit-cs"},
+        {"label": "detikcom", "url": "https://news.detik.com/berita/d-8737324/10-hal-tentang-eks-kapolri-jenderal-listyo-sigit-tersangka-penyadapan-presiden"}
+      ],
+      "why_it_matters": "A former national police chief and presidential chief of staff is in custody over spying on the president.",
+      "signals": {"spreading": 2, "wallet": 0, "surprise": 2, "visual": 1, "fresh": 2, "rivals": 0},
+      "spreading_evidence": "detikNews terpopuler #1, #5-#9, #11-#15, #17, #18, #20; CNN Indonesia nasional dominated",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-04",
+      "category": "NEWS",
+      "event": "Polda Sulbar searched the Polewali Mandar (Polman) regent's office in a corruption probe into allegedly misused religious-worker (rohaniawan) incentive funds worth Rp4.2 billion.",
+      "key_numbers": "Rp4.2 billion alleged losses · documents seized",
+      "storyline": "corruption-cases",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "detikcom", "url": "https://news.detik.com/berita/d-8737234/kantor-bupati-polman-digeledah-terkait-korupsi-honor-rohaniawan-rp-4-2-miliar"},
+        {"label": "Beritasatu", "url": "https://www.beritasatu.com/nusantara/3038537/polda-sulbar-sita-dokumen-dalam-kasus-insentif-rohaniwan-polman"}
+      ],
+      "why_it_matters": "Money meant for local religious workers allegedly went missing at a regency office.",
+      "signals": {"spreading": 2, "wallet": 0, "surprise": 1, "visual": 0, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "detikNews terpopuler #2",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-03",
+      "category": "ENV",
+      "event": "Home Affairs Minister Tito Karnavian, as head of the rehabilitation task force, inspected embankments in Pidie Jaya, Aceh, damaged by follow-up floods.",
+      "key_numbers": "Details not verified beyond headlines",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261103212318-20-1422959/tito-karnavian-tinjau-tanggul-terdampak-banjir-susulan-di-pidie-jaya"},
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/news/20261104065852-4-782090/kasatgas-tito-tinjau-tanggul-terdampak-banjir-susulan-di-pidie-jaya"}
+      ],
+      "why_it_matters": "Rainy-season floods are hitting areas still recovering from earlier disasters.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 0, "visual": 1, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    }
+  ],
+  "gaps": ["Antara cek-fakta page blocked (permission not answered), so no hoax check this sweep", "CNBC Indonesia and turnbackhoax section pages not read directly", "Pidie Jaya flood figures and cause of Seruyan helicopter crash not verified", "Polri reshuffle of 264 officers and 'Gibran as wiretap victim' angle seen only in CNN headlines", "BPJS PBI article has a decile 8-9 vs 1-8 inconsistency in the funding tiers"]
+}
