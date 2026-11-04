@@ -95,5 +95,5 @@ History moved out of HANDOFF.md (22 Oct) so fresh sessions read less. Append one
 ## 4 Nov (Wed, #17 Listyo Sigit tersangka penyadapan; Cahaya, kamu_stakes / story, subs word, format standard)
 - Sweeps 8/9/6/6, 23 merged, 6 dupes. Light fact-check: 4 fixes on #3 (Bank MNC rumour) and #4 (Listyo). User picked #4 (10/12, sens high) over ⭐ #1 TPPO (11/12) and said "OK to post" early (~09:00).
 - Draft 183 words; hook-critic agreed with the writer's A/B (12/14, 13/14). Full fact-check 3 fixes ("file hasil sadapan", detention per Kabareskrim/kumparan, Yusril "berharap"). Producer: A 86,7 s / B 87,4 s (take sped up 1,05×). QA round 1 FIX (disclaimer only from l8; card treatment unequal; B uniformed figure) → round 2 PASS both.
-- A scheduled 09:27 for 19:00 (job 376d8909…); B kept, not posted. Analyst: Ledger 24 h IG 45 / 15,4%, YT 7; Minggu Depan 72 h IG 117 / 20,2%, YT 34.
+- A scheduled 09:27 for 19:00, live (IG DfUTKP4jxd9, YT oK5ep48c3Wg); B kept, not posted. Analyst: Ledger 24 h IG 45 / 15,4%, YT 7; Minggu Depan 72 h IG 117 / 20,2%, YT 34.
 - Problems: delete_trigger for the 14:00 default-pick wake denied again (it will fire and do nothing). CNBC article URL for the detention claim not found (kumparan kept as source).
