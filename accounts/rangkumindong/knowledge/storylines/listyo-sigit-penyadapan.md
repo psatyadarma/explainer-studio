@@ -1,0 +1,5 @@
+# Storyline: listyo-sigit-penyadapan
+
+- 2026-11-03 · Bareskrim (Kabareskrim Komjen Asep Safrudin) names three suspects, initials "LSP, ASN, EH": per detik Listyo Sigit Prabowo (ex-Kapolri, Kepala Staf Kepresidenan since 1 Okt), Irjen Ahrie Sonta (Nasution, per kumparan; detik's "AHN" is a typo) and Irjen Eko Hadi Santoso. Alleged illegal tapping incl. the President's number, plus deleting electronic data and illegal access, 2025–2026; tapping files allegedly deleted Okt 2026. Per Kabareskrim (kumparan) all three are detained at Mabes Polri. Menko Yusril "berharap" the public trusts Polri; no replacement KSP discussed yet.
+- 2026-11-04 · PART 1 video (user picked #4, sensitivity high): "apa yang sudah pasti, dan yang belum", neutral, equal name cards, disclaimer from frame 1. Scheduled 19:00. As of Rabu pagi: no response from Listyo/lawyer or the Istana; not dismissed.
+- Open checks / follow-ups: Istana/Prabowo response (Viva teaser that Prabowo told Kapolri Suyudi to act firmly, unverified); Listyo's lawyer; charges/pasal; Plt KSP; pretrial (praperadilan) filing; who else was tapped.

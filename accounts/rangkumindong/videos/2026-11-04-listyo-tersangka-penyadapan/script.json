@@ -1,0 +1,148 @@
+{
+ "direction": "[calm, clear, strictly neutral news explainer]",
+ "voice": "female:Cahaya",
+ "format": "standard",
+ "hook_style": "kamu_stakes",
+ "subs": "word",
+ "storyline": "listyo-sigit-penyadapan",
+ "part": null,
+ "disclaimer": "Status tersangka bukan putusan bersalah. Praduga tak bersalah berlaku.",
+ "lines": [
+  {
+   "id": "h1",
+   "tag": "[direct, to the viewer]",
+   "text": "Kamu pasti dengar: mantan Kapolri jadi tersangka.",
+   "say": "Kamu pasti dengar: mantan Kapolri jadi tersangka."
+  },
+  {
+   "id": "h2",
+   "tag": "[curious, measured]",
+   "text": "Ini yang sudah pasti, dan yang belum.",
+   "say": "Ini yang sudah pasti, dan yang belum."
+  },
+  {
+   "id": "rd",
+   "tagline": true,
+   "text": "Rangkumin dong!"
+  },
+  {
+   "id": "l1",
+   "tag": "[serious, matter-of-fact]",
+   "text": "Jadi gini. Selasa malam, 3 November, Bareskrim umumkan tiga tersangka.",
+   "say": "Jadi gini. Selasa malam, tiga November, Bareskrim umumkan tiga tersangka."
+  },
+  {
+   "id": "l2",
+   "tag": "[explaining, neutral]",
+   "text": "Kabareskrim Komjen Asep Safrudin menyebut inisialnya: LSP, ASN, dan EH.",
+   "say": "Kabareskrim Komjen Asep Safrudin menyebut inisialnya, El Es Pe, A Es En, dan E Ha."
+  },
+  {
+   "id": "l3",
+   "tag": "[matter-of-fact]",
+   "text": "Menurut detik, LSP adalah Listyo Sigit Prabowo.",
+   "say": "Menurut detik, El Es Pe adalah Listyo Sigit Prabowo."
+  },
+  {
+   "id": "l3b",
+   "text": "Mantan Kapolri, kini Kepala Staf Kepresidenan sejak 1 Oktober.",
+   "say": "Mantan Kapolri, kini Kepala Staf Kepresidenan sejak satu Oktober."
+  },
+  {
+   "id": "l4",
+   "tag": "[neutral, quick]",
+   "text": "Dua lainnya, juga menurut detik: Irjen Ahrie Sonta dan Irjen Eko Hadi Santoso.",
+   "say": "Dua lainnya, juga menurut detik: Irjen Ahrie Sonta dan Irjen Eko Hadi Santoso."
+  },
+  {
+   "id": "l5",
+   "tag": "[serious, careful]",
+   "text": "Dugaannya? Kata Bareskrim: penyadapan ilegal, termasuk ke nomor Presiden.",
+   "say": "Dugaannya? Kata Bareskrim: penyadapan ilegal, termasuk ke nomor Presiden."
+  },
+  {
+   "id": "l6",
+   "tag": "[explaining]",
+   "text": "Sasaran lain, menurut polisi: pejabat, tokoh politik, pengusaha, sampai jurnalis.",
+   "say": "Sasaran lain, menurut polisi: pejabat, tokoh politik, pengusaha, sampai jurnalis."
+  },
+  {
+   "id": "l7",
+   "tag": "[matter-of-fact, slower]",
+   "text": "Periodenya 2025 sampai 2026. Lalu Oktober 2026, file hasil sadapan diduga dihapus.",
+   "say": "Periodenya dua ribu dua puluh lima sampai dua ribu dua puluh enam. Lalu Oktober dua ribu dua puluh enam, file hasil sadapan diduga dihapus."
+  },
+  {
+   "id": "l7b",
+   "tag": "[neutral, matter-of-fact]",
+   "text": "Menurut Kabareskrim, ketiganya kini ditahan di Mabes Polri.",
+   "say": "Menurut Kabareskrim, ketiganya kini ditahan di Mabes Polri."
+  },
+  {
+   "id": "l8",
+   "tag": "[calm, emphatic]",
+   "text": "Tapi ingat: semua ini masih dugaan. Tersangka belum tentu bersalah.",
+   "say": "Tapi ingat: semua ini masih dugaan. Tersangka belum tentu bersalah."
+  },
+  {
+   "id": "l8b",
+   "text": "Yang memutuskan nanti pengadilan.",
+   "say": "Yang memutuskan nanti pengadilan."
+  },
+  {
+   "id": "l9",
+   "tag": "[neutral, measured]",
+   "text": "Yang belum ada: tanggapan Listyo. Istana juga belum berkomentar, per Rabu pagi.",
+   "say": "Yang belum ada: tanggapan Listyo. Istana juga belum berkomentar, per Rabu pagi."
+  },
+  {
+   "id": "l10",
+   "tag": "[matter-of-fact]",
+   "text": "Dari pemerintah, Menko Yusril berharap publik percaya pada Polri.",
+   "say": "Dari pemerintah, Menko Yusril berharap publik percaya pada Polri."
+  },
+  {
+   "id": "l10b",
+   "text": "Polri menyidik Polri? Kata Yusril, “memang sudah jadi tugasnya.”",
+   "say": "Polri menyidik Polri? Kata Yusril, memang sudah jadi tugasnya."
+  },
+  {
+   "id": "cta",
+   "tag": "[curious, asking the viewer]",
+   "text": "Menurut kamu, apa yang paling perlu dijelaskan polisi berikutnya? Komen!",
+   "say": "Menurut kamu, apa yang paling perlu dijelaskan polisi berikutnya? Komen!"
+  },
+  {
+   "id": "end",
+   "tag": "[friendly, upbeat]",
+   "text": "Follow Rangkumin Dong, biar nggak ketinggalan!"
+  }
+ ],
+ "hook_b": {
+  "style": "story",
+  "replace": [
+   "h1",
+   "h2"
+  ],
+  "lines": [
+   {
+    "id": "hb1",
+    "tag": "[storytelling, quiet]",
+    "text": "Selasa malam, HP Pak Budi bergetar terus.",
+    "say": "Selasa malam, HP Pak Budi bergetar terus."
+   },
+   {
+    "id": "hb2",
+    "tag": "[surprised, restrained]",
+    "text": "Mantan Kapolri jadi tersangka penyadapan.",
+    "say": "Mantan Kapolri jadi tersangka penyadapan."
+   }
+  ],
+  "illustration_label": "ilustrasi"
+ },
+ "tail": 0.9,
+ "end_card": {
+  "text": "Follow Rangkumin Dong",
+  "spoken": false
+ }
+}

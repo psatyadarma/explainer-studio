@@ -15,10 +15,11 @@ _One dated line per piece of feedback about topics or angles. The coordinator ap
 - 2026-10-27: Said "OK" to post definisi korupsi PART 2 and gave a standing rule: automatic (default) posting is allowed for all kinds of posts, including sensitivity high.
 - 2026-11-02: Replied "OK" to the morning message (read as: go with ⭐ #1 Binance hack Rp114 T, recommended, on markets Monday, and OK to post today). First time taking the recommended idea.
 - 2026-11-03: Picked #1 (Ledger dompet kripto dibobol di toko, recommended, 11/12) on tech Tuesday and said "OK to post too" early (~05:20 WITA).
+- 2026-11-04: Picked #4 (Listyo Sigit, Kepala KSP, tersangka penyadapan, politics, sensitivity high, 10/12) over the recommended #1 (TPPO tentara bayaran Rusia, 11/12) on viral Wednesday, and said "OK to post" early.
 
 ## What the picks show
 
-_Recomputed by engine/prefs.py from 16 days of offers, 8 picks._
+_Recomputed by engine/prefs.py from 17 days of offers, 9 picks._
 
 - 2026-10-20: picked #3  "Rupiah Rp18.046: besok BI putuskan, tahan 5,75% atau naik ke 6%?", storyline rupiah
 - 2026-10-21: picked #?  "Karhutla: siapa yang tanggung jawab atas asap? (Lutfi vs Singapura)", storyline karhutla
@@ -35,8 +36,9 @@ _Recomputed by engine/prefs.py from 16 days of offers, 8 picks._
 - 2026-11-01: no pick by the deadline (default #1 used; not counted)
 - 2026-11-02: picked #1 (recommended) "Binance dibobol Rp114 T, Korea Utara dituduh. Uang kamu di kripto aman?", score 10/12, storyline -
 - 2026-11-03: picked #1 (recommended) "Dompet kripto "offline" ternyata dibobol di toko (Ledger diutak-atik, Singapura)", score 11/12, storyline crypto-hacks
+- 2026-11-04: picked #4  "Listyo Sigit jadi tersangka penyadapan: apa kata polisi (dan apa yang belum)", score 10/12, storyline listyo-sigit-penyadapan
 
-- Picks the recommended idea 2/8 times; average pick rank 2.5.
+- Picks the recommended idea 2/9 times; average pick rank 2.8.
 - Storylines picked often when offered: definisi-korupsi.
 - Offered 3+ times, never picked: tax-policy, msci-reclassification, chip-ram-prices, corruption-cases, gibran-ijazah-mk (lower priority unless big news).
-- Sensitivity of picks: {'medium': 1, '?': 7}.
+- Sensitivity of picks: {'medium': 1, '?': 8}.

@@ -1,0 +1,970 @@
+{
+ "duration": 87.412,
+ "voice": "Cahaya",
+ "variant": "b",
+ "hook_style": "story",
+ "lines": [
+  {
+   "id": "hb1",
+   "text": "Selasa malam, HP Pak Budi bergetar terus.",
+   "start": 0.291,
+   "end": 3.375,
+   "words": [
+    {
+     "w": "Selasa",
+     "start": 0.291,
+     "end": 0.548
+    },
+    {
+     "w": "malam,",
+     "start": 0.628,
+     "end": 1.348
+    },
+    {
+     "w": "HP",
+     "start": 1.455,
+     "end": 1.668
+    },
+    {
+     "w": "Pak",
+     "start": 1.708,
+     "end": 1.828
+    },
+    {
+     "w": "Budi",
+     "start": 1.868,
+     "end": 2.228
+    },
+    {
+     "w": "bergetar",
+     "start": 2.268,
+     "end": 2.628
+    },
+    {
+     "w": "terus.",
+     "start": 2.688,
+     "end": 3.375
+    }
+   ]
+  },
+  {
+   "id": "hb2",
+   "text": "Mantan Kapolri jadi tersangka penyadapan.",
+   "start": 3.687,
+   "end": 6.119,
+   "words": [
+    {
+     "w": "Mantan",
+     "start": 3.687,
+     "end": 3.879
+    },
+    {
+     "w": "Kapolri",
+     "start": 3.919,
+     "end": 4.439
+    },
+    {
+     "w": "jadi",
+     "start": 4.519,
+     "end": 4.679
+    },
+    {
+     "w": "tersangka",
+     "start": 4.727,
+     "end": 5.239
+    },
+    {
+     "w": "penyadapan.",
+     "start": 5.287,
+     "end": 6.119
+    }
+   ]
+  },
+  {
+   "id": "rd",
+   "text": "Rangkumin dong!",
+   "start": 6.291,
+   "end": 7.678,
+   "words": [
+    {
+     "w": "Rangkumin",
+     "start": 6.291,
+     "end": 6.984
+    },
+    {
+     "w": "dong!",
+     "start": 6.984,
+     "end": 7.678
+    }
+   ]
+  },
+  {
+   "id": "l1",
+   "text": "Jadi gini. Selasa malam, 3 November, Bareskrim umumkan tiga tersangka.",
+   "start": 8.234,
+   "end": 13.193,
+   "words": [
+    {
+     "w": "Jadi",
+     "start": 8.234,
+     "end": 8.272
+    },
+    {
+     "w": "gini.",
+     "start": 8.311,
+     "end": 8.653
+    },
+    {
+     "w": "Selasa",
+     "start": 8.841,
+     "end": 9.291
+    },
+    {
+     "w": "malam,",
+     "start": 9.349,
+     "end": 9.863
+    },
+    {
+     "w": "3",
+     "start": 9.92,
+     "end": 10.13
+    },
+    {
+     "w": "November,",
+     "start": 10.189,
+     "end": 10.939
+    },
+    {
+     "w": "Bareskrim",
+     "start": 10.977,
+     "end": 11.549
+    },
+    {
+     "w": "umumkan",
+     "start": 11.599,
+     "end": 12.006
+    },
+    {
+     "w": "tiga",
+     "start": 12.082,
+     "end": 12.311
+    },
+    {
+     "w": "tersangka.",
+     "start": 12.371,
+     "end": 13.193
+    }
+   ]
+  },
+  {
+   "id": "l2",
+   "text": "Kabareskrim Komjen Asep Safrudin menyebut inisialnya: LSP, ASN, dan EH.",
+   "start": 13.327,
+   "end": 19.879,
+   "words": [
+    {
+     "w": "Kabareskrim",
+     "start": 13.327,
+     "end": 13.965
+    },
+    {
+     "w": "Komjen",
+     "start": 14.041,
+     "end": 14.498
+    },
+    {
+     "w": "Asep",
+     "start": 14.574,
+     "end": 14.803
+    },
+    {
+     "w": "Safrudin",
+     "start": 14.853,
+     "end": 15.336
+    },
+    {
+     "w": "menyebut",
+     "start": 15.367,
+     "end": 15.717
+    },
+    {
+     "w": "inisialnya:",
+     "start": 15.768,
+     "end": 16.479
+    },
+    {
+     "w": "LSP,",
+     "start": 16.651,
+     "end": 17.717
+    },
+    {
+     "w": "ASN,",
+     "start": 17.717,
+     "end": 18.803
+    },
+    {
+     "w": "dan",
+     "start": 18.803,
+     "end": 19.117
+    },
+    {
+     "w": "EH.",
+     "start": 19.308,
+     "end": 19.879
+    }
+   ]
+  },
+  {
+   "id": "l3",
+   "text": "Menurut detik, LSP adalah Listyo Sigit Prabowo.",
+   "start": 20.129,
+   "end": 23.606,
+   "words": [
+    {
+     "w": "Menurut",
+     "start": 20.13,
+     "end": 20.396
+    },
+    {
+     "w": "detik,",
+     "start": 20.472,
+     "end": 21.082
+    },
+    {
+     "w": "LSP",
+     "start": 21.089,
+     "end": 21.701
+    },
+    {
+     "w": "adalah",
+     "start": 21.755,
+     "end": 22.082
+    },
+    {
+     "w": "Listyo",
+     "start": 22.143,
+     "end": 22.615
+    },
+    {
+     "w": "Sigit",
+     "start": 22.653,
+     "end": 22.92
+    },
+    {
+     "w": "Prabowo.",
+     "start": 22.971,
+     "end": 23.606
+    }
+   ]
+  },
+  {
+   "id": "l3b",
+   "text": "Mantan Kapolri, kini Kepala Staf Kepresidenan sejak 1 Oktober.",
+   "start": 23.641,
+   "end": 28.079,
+   "words": [
+    {
+     "w": "Mantan",
+     "start": 23.641,
+     "end": 24.015
+    },
+    {
+     "w": "Kapolri,",
+     "start": 24.053,
+     "end": 24.853
+    },
+    {
+     "w": "kini",
+     "start": 24.93,
+     "end": 25.234
+    },
+    {
+     "w": "Kepala",
+     "start": 25.272,
+     "end": 25.615
+    },
+    {
+     "w": "Staf",
+     "start": 25.691,
+     "end": 25.996
+    },
+    {
+     "w": "Kepresidenan",
+     "start": 26.034,
+     "end": 26.682
+    },
+    {
+     "w": "sejak",
+     "start": 26.732,
+     "end": 27.063
+    },
+    {
+     "w": "1",
+     "start": 27.109,
+     "end": 27.291
+    },
+    {
+     "w": "Oktober.",
+     "start": 27.368,
+     "end": 28.079
+    }
+   ]
+  },
+  {
+   "id": "l4",
+   "text": "Dua lainnya, juga menurut detik: Irjen Ahrie Sonta dan Irjen Eko Hadi Santoso.",
+   "start": 28.246,
+   "end": 34.253,
+   "words": [
+    {
+     "w": "Dua",
+     "start": 28.246,
+     "end": 28.33
+    },
+    {
+     "w": "lainnya,",
+     "start": 28.391,
+     "end": 29.07
+    },
+    {
+     "w": "juga",
+     "start": 29.12,
+     "end": 29.425
+    },
+    {
+     "w": "menurut",
+     "start": 29.482,
+     "end": 29.806
+    },
+    {
+     "w": "detik:",
+     "start": 29.863,
+     "end": 30.339
+    },
+    {
+     "w": "Irjen",
+     "start": 30.412,
+     "end": 30.92
+    },
+    {
+     "w": "Ahrie",
+     "start": 30.996,
+     "end": 31.301
+    },
+    {
+     "w": "Sonta",
+     "start": 31.339,
+     "end": 31.834
+    },
+    {
+     "w": "dan",
+     "start": 32.041,
+     "end": 32.272
+    },
+    {
+     "w": "Irjen",
+     "start": 32.374,
+     "end": 32.806
+    },
+    {
+     "w": "Eko",
+     "start": 32.92,
+     "end": 33.187
+    },
+    {
+     "w": "Hadi",
+     "start": 33.263,
+     "end": 33.568
+    },
+    {
+     "w": "Santoso.",
+     "start": 33.629,
+     "end": 34.253
+    }
+   ]
+  },
+  {
+   "id": "l5",
+   "text": "Dugaannya? Kata Bareskrim: penyadapan ilegal, termasuk ke nomor Presiden.",
+   "start": 34.543,
+   "end": 39.486,
+   "words": [
+    {
+     "w": "Dugaannya?",
+     "start": 34.543,
+     "end": 35.114
+    },
+    {
+     "w": "Kata",
+     "start": 35.231,
+     "end": 35.552
+    },
+    {
+     "w": "Bareskrim:",
+     "start": 35.629,
+     "end": 36.346
+    },
+    {
+     "w": "penyadapan",
+     "start": 36.346,
+     "end": 36.886
+    },
+    {
+     "w": "ilegal,",
+     "start": 36.943,
+     "end": 37.495
+    },
+    {
+     "w": "termasuk",
+     "start": 37.631,
+     "end": 38.191
+    },
+    {
+     "w": "ke",
+     "start": 38.241,
+     "end": 38.343
+    },
+    {
+     "w": "nomor",
+     "start": 38.4,
+     "end": 38.724
+    },
+    {
+     "w": "Presiden.",
+     "start": 38.785,
+     "end": 39.486
+    }
+   ]
+  },
+  {
+   "id": "l6",
+   "text": "Sasaran lain, menurut polisi: pejabat, tokoh politik, pengusaha, sampai jurnalis.",
+   "start": 39.771,
+   "end": 45.762,
+   "words": [
+    {
+     "w": "Sasaran",
+     "start": 39.771,
+     "end": 40.029
+    },
+    {
+     "w": "lain,",
+     "start": 40.09,
+     "end": 40.41
+    },
+    {
+     "w": "menurut",
+     "start": 40.448,
+     "end": 40.714
+    },
+    {
+     "w": "polisi:",
+     "start": 40.752,
+     "end": 41.46
+    },
+    {
+     "w": "pejabat,",
+     "start": 41.46,
+     "end": 42.114
+    },
+    {
+     "w": "tokoh",
+     "start": 42.184,
+     "end": 42.552
+    },
+    {
+     "w": "politik,",
+     "start": 42.629,
+     "end": 43.371
+    },
+    {
+     "w": "pengusaha,",
+     "start": 43.402,
+     "end": 44.133
+    },
+    {
+     "w": "sampai",
+     "start": 44.286,
+     "end": 44.924
+    },
+    {
+     "w": "jurnalis.",
+     "start": 45.0,
+     "end": 45.762
+    }
+   ]
+  },
+  {
+   "id": "l7",
+   "text": "Periodenya 2025 sampai 2026. Lalu Oktober 2026, file hasil sadapan diduga dihapus.",
+   "start": 45.979,
+   "end": 55.269,
+   "words": [
+    {
+     "w": "Periodenya",
+     "start": 45.979,
+     "end": 46.611
+    },
+    {
+     "w": "2025",
+     "start": 46.668,
+     "end": 47.83
+    },
+    {
+     "w": "sampai",
+     "start": 47.936,
+     "end": 48.439
+    },
+    {
+     "w": "2026.",
+     "start": 48.515,
+     "end": 50.06
+    },
+    {
+     "w": "Lalu",
+     "start": 50.06,
+     "end": 50.544
+    },
+    {
+     "w": "Oktober",
+     "start": 50.611,
+     "end": 51.077
+    },
+    {
+     "w": "2026,",
+     "start": 51.134,
+     "end": 52.451
+    },
+    {
+     "w": "file",
+     "start": 52.451,
+     "end": 52.925
+    },
+    {
+     "w": "hasil",
+     "start": 53.001,
+     "end": 53.382
+    },
+    {
+     "w": "sadapan",
+     "start": 53.439,
+     "end": 53.991
+    },
+    {
+     "w": "diduga",
+     "start": 54.03,
+     "end": 54.372
+    },
+    {
+     "w": "dihapus.",
+     "start": 54.423,
+     "end": 55.27
+    }
+   ]
+  },
+  {
+   "id": "l7b",
+   "text": "Menurut Kabareskrim, ketiganya kini ditahan di Mabes Polri.",
+   "start": 55.51,
+   "end": 59.136,
+   "words": [
+    {
+     "w": "Menurut",
+     "start": 55.511,
+     "end": 55.753
+    },
+    {
+     "w": "Kabareskrim,",
+     "start": 55.791,
+     "end": 56.715
+    },
+    {
+     "w": "ketiganya",
+     "start": 56.772,
+     "end": 57.325
+    },
+    {
+     "w": "kini",
+     "start": 57.401,
+     "end": 57.63
+    },
+    {
+     "w": "ditahan",
+     "start": 57.687,
+     "end": 58.163
+    },
+    {
+     "w": "di",
+     "start": 58.189,
+     "end": 58.239
+    },
+    {
+     "w": "Mabes",
+     "start": 58.277,
+     "end": 58.62
+    },
+    {
+     "w": "Polri.",
+     "start": 58.677,
+     "end": 59.136
+    }
+   ]
+  },
+  {
+   "id": "l8",
+   "text": "Tapi ingat: semua ini masih dugaan. Tersangka belum tentu bersalah.",
+   "start": 59.289,
+   "end": 63.47,
+   "words": [
+    {
+     "w": "Tapi",
+     "start": 59.29,
+     "end": 59.461
+    },
+    {
+     "w": "ingat:",
+     "start": 59.499,
+     "end": 59.908
+    },
+    {
+     "w": "semua",
+     "start": 59.908,
+     "end": 60.375
+    },
+    {
+     "w": "ini",
+     "start": 60.432,
+     "end": 60.604
+    },
+    {
+     "w": "masih",
+     "start": 60.668,
+     "end": 60.985
+    },
+    {
+     "w": "dugaan.",
+     "start": 61.023,
+     "end": 61.594
+    },
+    {
+     "w": "Tersangka",
+     "start": 61.67,
+     "end": 62.328
+    },
+    {
+     "w": "belum",
+     "start": 62.366,
+     "end": 62.556
+    },
+    {
+     "w": "tentu",
+     "start": 62.602,
+     "end": 62.861
+    },
+    {
+     "w": "bersalah.",
+     "start": 62.907,
+     "end": 63.471
+    }
+   ]
+  },
+  {
+   "id": "l8b",
+   "text": "Yang memutuskan nanti pengadilan.",
+   "start": 63.546,
+   "end": 65.622,
+   "words": [
+    {
+     "w": "Yang",
+     "start": 63.546,
+     "end": 63.794
+    },
+    {
+     "w": "memutuskan",
+     "start": 63.832,
+     "end": 64.48
+    },
+    {
+     "w": "nanti",
+     "start": 64.518,
+     "end": 64.861
+    },
+    {
+     "w": "pengadilan.",
+     "start": 64.907,
+     "end": 65.622
+    }
+   ]
+  },
+  {
+   "id": "l9",
+   "text": "Yang belum ada: tanggapan Listyo. Istana juga belum berkomentar, per Rabu pagi.",
+   "start": 65.829,
+   "end": 70.812,
+   "words": [
+    {
+     "w": "Yang",
+     "start": 65.83,
+     "end": 65.842
+    },
+    {
+     "w": "belum",
+     "start": 65.88,
+     "end": 66.071
+    },
+    {
+     "w": "ada:",
+     "start": 66.185,
+     "end": 66.689
+    },
+    {
+     "w": "tanggapan",
+     "start": 66.689,
+     "end": 67.242
+    },
+    {
+     "w": "Listyo.",
+     "start": 67.303,
+     "end": 67.908
+    },
+    {
+     "w": "Istana",
+     "start": 67.908,
+     "end": 68.461
+    },
+    {
+     "w": "juga",
+     "start": 68.522,
+     "end": 68.766
+    },
+    {
+     "w": "belum",
+     "start": 68.804,
+     "end": 68.994
+    },
+    {
+     "w": "berkomentar,",
+     "start": 69.04,
+     "end": 69.928
+    },
+    {
+     "w": "per",
+     "start": 69.966,
+     "end": 70.08
+    },
+    {
+     "w": "Rabu",
+     "start": 70.118,
+     "end": 70.309
+    },
+    {
+     "w": "pagi.",
+     "start": 70.385,
+     "end": 70.812
+    }
+   ]
+  },
+  {
+   "id": "l10",
+   "text": "Dari pemerintah, Menko Yusril berharap publik percaya pada Polri.",
+   "start": 71.001,
+   "end": 75.058,
+   "words": [
+    {
+     "w": "Dari",
+     "start": 71.001,
+     "end": 71.115
+    },
+    {
+     "w": "pemerintah,",
+     "start": 71.153,
+     "end": 72.087
+    },
+    {
+     "w": "Menko",
+     "start": 72.144,
+     "end": 72.468
+    },
+    {
+     "w": "Yusril",
+     "start": 72.506,
+     "end": 72.925
+    },
+    {
+     "w": "berharap",
+     "start": 72.963,
+     "end": 73.382
+    },
+    {
+     "w": "publik",
+     "start": 73.448,
+     "end": 73.839
+    },
+    {
+     "w": "percaya",
+     "start": 73.885,
+     "end": 74.296
+    },
+    {
+     "w": "pada",
+     "start": 74.342,
+     "end": 74.525
+    },
+    {
+     "w": "Polri.",
+     "start": 74.601,
+     "end": 75.058
+    }
+   ]
+  },
+  {
+   "id": "l10b",
+   "text": "Polri menyidik Polri? Kata Yusril, “memang sudah jadi tugasnya.”",
+   "start": 75.069,
+   "end": 79.153,
+   "words": [
+    {
+     "w": "Polri",
+     "start": 75.07,
+     "end": 75.487
+    },
+    {
+     "w": "menyidik",
+     "start": 75.532,
+     "end": 75.868
+    },
+    {
+     "w": "Polri?",
+     "start": 75.944,
+     "end": 76.401
+    },
+    {
+     "w": "Kata",
+     "start": 76.47,
+     "end": 76.811
+    },
+    {
+     "w": "Yusril,",
+     "start": 76.849,
+     "end": 77.431
+    },
+    {
+     "w": "“memang",
+     "start": 77.439,
+     "end": 77.934
+    },
+    {
+     "w": "sudah",
+     "start": 77.985,
+     "end": 78.239
+    },
+    {
+     "w": "jadi",
+     "start": 78.277,
+     "end": 78.468
+    },
+    {
+     "w": "tugasnya.”",
+     "start": 78.544,
+     "end": 79.153
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "text": "Menurut kamu, apa yang paling perlu dijelaskan polisi berikutnya? Komen!",
+   "start": 79.423,
+   "end": 83.775,
+   "words": [
+    {
+     "w": "Menurut",
+     "start": 79.423,
+     "end": 79.68
+    },
+    {
+     "w": "kamu,",
+     "start": 79.756,
+     "end": 80.203
+    },
+    {
+     "w": "apa",
+     "start": 80.203,
+     "end": 80.69
+    },
+    {
+     "w": "yang",
+     "start": 80.72,
+     "end": 80.842
+    },
+    {
+     "w": "paling",
+     "start": 80.918,
+     "end": 81.223
+    },
+    {
+     "w": "perlu",
+     "start": 81.261,
+     "end": 81.451
+    },
+    {
+     "w": "dijelaskan",
+     "start": 81.49,
+     "end": 82.061
+    },
+    {
+     "w": "polisi",
+     "start": 82.099,
+     "end": 82.442
+    },
+    {
+     "w": "berikutnya?",
+     "start": 82.48,
+     "end": 83.136
+    },
+    {
+     "w": "Komen!",
+     "start": 83.136,
+     "end": 83.775
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "text": "Follow Rangkumin Dong, biar nggak ketinggalan!",
+   "start": 84.203,
+   "end": 86.661,
+   "words": [
+    {
+     "w": "Follow",
+     "start": 84.203,
+     "end": 84.242
+    },
+    {
+     "w": "Rangkumin",
+     "start": 84.318,
+     "end": 84.699
+    },
+    {
+     "w": "Dong,",
+     "start": 84.76,
+     "end": 85.08
+    },
+    {
+     "w": "biar",
+     "start": 85.188,
+     "end": 85.518
+    },
+    {
+     "w": "nggak",
+     "start": 85.544,
+     "end": 85.709
+    },
+    {
+     "w": "ketinggalan!",
+     "start": 85.728,
+     "end": 86.661
+    }
+   ]
+  }
+ ]
+}

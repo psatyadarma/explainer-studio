@@ -91,3 +91,9 @@ History moved out of HANDOFF.md (22 Oct) so fresh sessions read less. Append one
 - Draft 94 words; hook-critic A/B 12/14 each; full fact-check 1 fix (unspoken S$3,5 juta off screen). Producer: 48,6 s A / 50,0 s B (over the 45 s short target; QA accepted). QA PASS both, first round.
 - A scheduled 08:57 for 19:00, live (IG DfRuXu_iPk-, YT MwVSIfLGxos); B not posted. Analyst: Binance 24 h IG 272 / 23,1%; def. korupsi P3 72 h IG 80 / 12,2%, YT 192 / 76%.
 - Problems: delete_trigger for the unneeded 14:00 default-pick wake was denied by the classifier (it fired and did nothing). Shell CHROME_PATH still set to google-chrome → producer must clear it. Cahaya voiced slower than estimated: for short format aim ≤85 words.
+
+## 4 Nov (Wed, #17 Listyo Sigit tersangka penyadapan; Cahaya, kamu_stakes / story, subs word, format standard)
+- Sweeps 8/9/6/6, 23 merged, 6 dupes. Light fact-check: 4 fixes on #3 (Bank MNC rumour) and #4 (Listyo). User picked #4 (10/12, sens high) over ⭐ #1 TPPO (11/12) and said "OK to post" early (~09:00).
+- Draft 183 words; hook-critic agreed with the writer's A/B (12/14, 13/14). Full fact-check 3 fixes ("file hasil sadapan", detention per Kabareskrim/kumparan, Yusril "berharap"). Producer: A 86,7 s / B 87,4 s (take sped up 1,05×). QA round 1 FIX (disclaimer only from l8; card treatment unequal; B uniformed figure) → round 2 PASS both.
+- A scheduled 09:27 for 19:00 (job 376d8909…); B kept, not posted. Analyst: Ledger 24 h IG 45 / 15,4%, YT 7; Minggu Depan 72 h IG 117 / 20,2%, YT 34.
+- Problems: delete_trigger for the 14:00 default-pick wake denied again (it will fire and do nothing). CNBC article URL for the detention claim not found (kumparan kept as source).
