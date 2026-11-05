@@ -1,0 +1,33 @@
+{
+ "direction": "[clear, steady weekly recap; neutral, attributed]",
+ "lines": [
+  {
+   "id": "i1",
+   "tag": "[energetic]",
+   "text": "Mantan Kapolri ditahan. Kamu ketinggalan yang mana?"
+  },
+  {
+   "id": "i2",
+   "tag": "[quick, building]",
+   "text": "Kini ada tersangka keempat. Kripto Rp114 triliun dibobol. IHSG sempat jatuh di bawah 5.000.",
+   "say": "Kini ada tersangka keempat. Kripto seratus empat belas triliun rupiah, dibobol. I H S G sempat jatuh, di bawah lima ribu."
+  },
+  {
+   "id": "i3",
+   "tag": "[quick, playful]",
+   "text": "Plus: ekonomi tumbuh di atas perkiraan, dan asap yang naik lagi."
+  },
+  {
+   "id": "rd",
+   "tagline": true,
+   "text": "Rangkumin dong!"
+  },
+  {
+   "id": "i4",
+   "tag": "[friendly]",
+   "text": "Ini Rangkumin Seminggu, 31 Oktober sampai 6 November. Di akhir: tanggal-tanggal minggu depan, termasuk satu tanggal pajak yang ramai, tapi belum tentu seperti yang kamu kira.",
+   "say": "Ini Rangkumin Seminggu, tiga puluh satu Oktober sampai enam November. Di akhir: tanggal-tanggal minggu depan, termasuk satu tanggal pajak yang ramai, tapi belum tentu seperti yang kamu kira."
+  }
+ ],
+ "tail": 0.6
+}

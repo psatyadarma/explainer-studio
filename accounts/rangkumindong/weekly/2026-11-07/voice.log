@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/home/claude/explainer-studio/engine/tts_eleven.py", line 15, in <module>
+    import soundfile as sf
+ModuleNotFoundError: No module named 'soundfile'
+Traceback (most recent call last):
+  File "/home/claude/explainer-studio/engine/weekly.py", line 134, in <module>
+    elif c == "voice": voice(week, a[0], a[1], "--piper" in a)
+                       ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/explainer-studio/engine/weekly.py", line 55, in voice
+    subprocess.run([sys.executable, "-I", str(ROOT / "engine/tts_eleven.py"), str(d), account, gender], check=True)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/subprocess.py", line 578, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['/usr/local/bin/python3', '-I', '/home/claude/explainer-studio/engine/tts_eleven.py', '/home/claude/explainer-studio/accounts/rangkumindong/weekly/2026-11-07/chapters/00', 'accounts/rangkumindong', 'male']' returned non-zero exit status 1.
+EXIT 1

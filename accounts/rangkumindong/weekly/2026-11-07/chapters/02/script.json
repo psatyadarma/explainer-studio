@@ -1,0 +1,74 @@
+{
+ "direction": "[clear, steady weekly recap; neutral, attributed]",
+ "lines": [
+  {
+   "id": "b1",
+   "tag": "[curious]",
+   "text": "Senin dan Selasa, kami bahas dua pembobolan kripto. Ternyata, awalnya mirip."
+  },
+  {
+   "id": "b2",
+   "tag": "[serious]",
+   "text": "Pertama, Binance. 29 Oktober, waktu Amerika, bursa kripto ini dibobol.",
+   "say": "Pertama, Binance. Dua puluh sembilan Oktober, waktu Amerika, bursa kripto ini dibobol."
+  },
+  {
+   "id": "b3",
+   "tag": "[shocked]",
+   "text": "Yang hilang: 6,3 miliar dolar. Sekitar Rp114 triliun. Kebanyakan dipindah dalam. Dua puluh. Menit.",
+   "say": "Yang hilang: enam koma tiga miliar dolar. Sekitar seratus empat belas triliun rupiah. Kebanyakan dipindah dalam. Dua puluh. Menit."
+  },
+  {
+   "id": "b4",
+   "tag": "[explaining]",
+   "text": "Kata Binance, awalnya dari laptop seorang engineer yang diretas."
+  },
+  {
+   "id": "b5",
+   "tag": "[matter-of-fact]",
+   "text": "TRM Labs dan Chainalysis menduga kelompok TraderTraitor, yang disokong Korea Utara. Binance sendiri belum menunjuk pelaku.",
+   "say": "Ti Ar Em Labs dan Chainalysis menduga kelompok Trader Traitor, yang disokong Korea Utara. Binance sendiri belum menunjuk pelaku."
+  },
+  {
+   "id": "b6",
+   "tag": "[reassuring]",
+   "text": "Binance janji ganti semua kerugian. Sekitar 3 miliar dolar sudah dibekukan. Dan 1 November, penarikan dibuka lagi, bertahap.",
+   "say": "Binance janji ganti semua kerugian. Sekitar tiga miliar dolar sudah dibekukan. Dan satu November, penarikan dibuka lagi, bertahap."
+  },
+  {
+   "id": "b7",
+   "tag": "[leaning in]",
+   "text": "Dalam beberapa jam pertama, kata Binance sendiri, nasabah menarik bersih 3,64 miliar dolar.",
+   "say": "Dalam beberapa jam pertama, kata Binance sendiri, nasabah menarik bersih tiga koma enam empat miliar dolar."
+  },
+  {
+   "id": "b8",
+   "tag": "[serious]",
+   "text": "Kedua, Ledger. Dompet kripto offline, yang katanya paling aman."
+  },
+  {
+   "id": "b9",
+   "tag": "[explaining]",
+   "text": "Polisi Singapura menemukan Ledger dari toko tertentu yang disisipi komponen jahat. Kata Ledger, sisipannya membaca 24 kata pemulihan, lalu mengirimnya lewat sinyal seluler.",
+   "say": "Polisi Singapura menemukan Ledger dari toko tertentu, yang disisipi komponen jahat. Kata Ledger, sisipannya membaca dua puluh empat kata pemulihan, lalu mengirimnya lewat sinyal seluler."
+  },
+  {
+   "id": "b10",
+   "tag": "[matter-of-fact]",
+   "text": "Dua kasus dilaporkan, rugi sekitar Rp49,5 miliar. Ledger minta reseller di 7 wilayah Asia setop jualan. Termasuk Indonesia.",
+   "say": "Dua kasus dilaporkan, rugi sekitar empat puluh sembilan koma lima miliar rupiah. Ledger minta reseller di tujuh wilayah Asia setop jualan. Termasuk Indonesia."
+  },
+  {
+   "id": "b11",
+   "tag": "[leaning in]",
+   "text": "Tapi ini yang sering terlewat: dua-duanya tidak dimulai dari kode blockchain. Yang satu dari laptop karyawan. Yang satu dari barang di toko."
+  },
+  {
+   "id": "b12",
+   "tag": "[reassuring]",
+   "text": "Buat kamu: kata OJK, nggak ada rush di Indonesia. Pakai platform yang berizin dan diawasi OJK.",
+   "say": "Buat kamu: kata, O Je Ka, nggak ada rush di Indonesia. Pakai platform yang berizin dan diawasi, O Je Ka."
+  }
+ ],
+ "tail": 0.6
+}

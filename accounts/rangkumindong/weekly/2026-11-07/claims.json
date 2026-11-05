@@ -1,0 +1,511 @@
+[
+ {
+  "lines": "a1",
+  "claim": "We covered the wiretapping case on Wed 4 Nov (PART 1) and Thu 5 Nov (PART 2); a new development came Thursday evening (4th suspect).",
+  "numbers": "",
+  "sensitivity": "normal",
+  "status": "verified (video-log / storyline listyo-sigit-penyadapan)",
+  "sources": []
+ },
+ {
+  "lines": "a2, i1",
+  "claim": "On Tuesday night 3 Nov 2026, Bareskrim announced three suspects in an alleged illegal wiretapping case.",
+  "numbers": "3 tersangka · 3 Nov 2026",
+  "sensitivity": "high",
+  "status": "verified (PART 1 factcheck; E0530)",
+  "sources": [
+   "https://news.detik.com/berita/d-8737003/polri-tetapkan-listyo-sigit-ahrie-sonta-eko-hadi-tersangka-penyadapan-presiden-prabowo",
+   "https://www.cnnindonesia.com/nasional/20261103202530-12-1422923/profil-listyo-sigit-mantan-kapolri-tersangka-kasus-penyadapan-prabowo"
+  ]
+ },
+ {
+  "lines": "a3",
+  "claim": "The three: former Kapolri Listyo Sigit Prabowo, Irjen Ahrie Sonta Nasution, Irjen Eko Hadi Santoso (names per detik/kumparan/CNN; police used initials LSP, ASN, EH).",
+  "numbers": "",
+  "sensitivity": "high",
+  "status": "verified (PART 1/2 claims; CNN 5 Nov names all three in full)",
+  "sources": [
+   "https://news.detik.com/berita/d-8737324/10-hal-tentang-eks-kapolri-jenderal-listyo-sigit-tersangka-penyadapan-presiden",
+   "https://www.cnnindonesia.com/nasional/20261105203023-12-1423892/sakit-irjen-slamet-uliandi-tersangka-penyadapan-prabowo-belum-ditahan"
+  ]
+ },
+ {
+  "lines": "a4",
+  "claim": "Per police, numbers were entered into the LIMS interception system without verification / without a penyelidikan basis, allegedly including a number belonging to the President.",
+  "numbers": "",
+  "sensitivity": "high",
+  "status": "verified (PART 2 claims l3–l4)",
+  "sources": [
+   "https://www.cnnindonesia.com/nasional/20261104063224-12-1422997/awal-mula-terbongkarnya-dugaan-penyadapan-prabowo-oleh-listyo-sigit-cs",
+   "https://news.detik.com/berita/d-8737324/10-hal-tentang-eks-kapolri-jenderal-listyo-sigit-tersangka-penyadapan-presiden",
+   "https://www.cnbcindonesia.com/tech/20261104091842-37-782131/penyadapan-presiden-gunakan-lims-secara-ilegal-ini-penjelasannya"
+  ]
+ },
+ {
+  "lines": "a5",
+  "claim": "Alleged wiretapping period 2025–2026; wiretap files allegedly deleted in October 2026 (per police).",
+  "numbers": "2025–2026 · Okt 2026",
+  "sensitivity": "high",
+  "status": "verified (PART 1 claims)",
+  "sources": [
+   "https://news.detik.com/berita/d-8737003/polri-tetapkan-listyo-sigit-ahrie-sonta-eko-hadi-tersangka-penyadapan-presiden-prabowo",
+   "https://www.cnnindonesia.com/nasional/20261104063224-12-1422997/awal-mula-terbongkarnya-dugaan-penyadapan-prabowo-oleh-listyo-sigit-cs"
+  ]
+ },
+ {
+  "lines": "a6",
+  "claim": "On Wed 4 Nov, Mensesneg Prasetyo Hadi said the President signed a Keppres dismissing Listyo as Kepala Staf Kepresidenan; Letjen TNI Ariyo Windutomo is pelaksana tugas.",
+  "numbers": "4 Nov 2026",
+  "sensitivity": "high",
+  "status": "verified (PART 2 claim l7)",
+  "sources": [
+   "https://www.cnnindonesia.com/nasional/20261104122553-12-1423147/istana-presiden-prabowo-prihatin-luar-biasa-terkait-kasus-penyadapan",
+   "https://news.detik.com/berita/d-8738559/7-poin-pernyataan-istana-soal-presiden-disadap-mantan-kapolri"
+  ]
+ },
+ {
+  "lines": "a7, i2",
+  "claim": "On Thu 5 Nov, Bareskrim's Dittipidsiber (Dirtipidsiber Brigjen Suhermanto) named Irjen Slamet Uliandi (SU) a new (fourth) suspect; police describe him as Dewan Pembina of the Bareskrim Monitoring Center. Police: 'jumlah tersangka dalam perkara ini 4 orang'.",
+  "numbers": "4 tersangka",
+  "sensitivity": "high",
+  "status": "verified (opened ANTARA, CNN Indonesia, detik on 5 Nov; ANTARA says 'tersangka baru', CNN/detik give the count of 4)",
+  "sources": [
+   "https://m.antaranews.com/amp/berita/5834879/polri-tetapkan-su-tersangka-baru-kasus-penyadapan-ilegal",
+   "https://www.cnnindonesia.com/nasional/20261105203023-12-1423892/sakit-irjen-slamet-uliandi-tersangka-penyadapan-prabowo-belum-ditahan",
+   "https://news.detik.com/berita/d-8740242/tersangka-penyadapan-presiden-listyo-sigit-dkk-ditahan-di-mako-brimob"
+  ]
+ },
+ {
+  "lines": "a8",
+  "claim": "Per police, in October 2026 Irjen Ahrie Sonta asked Slamet Uliandi for permission to delete the wiretap files, and Slamet approved ('meng-ACC').",
+  "numbers": "Okt 2026",
+  "sensitivity": "high",
+  "status": "verified (CNN Indonesia + detik, both quoting police)",
+  "sources": [
+   "https://www.cnnindonesia.com/nasional/20261105203023-12-1423892/sakit-irjen-slamet-uliandi-tersangka-penyadapan-prabowo-belum-ditahan",
+   "https://news.detik.com/berita/d-8740242/tersangka-penyadapan-presiden-listyo-sigit-dkk-ditahan-di-mako-brimob"
+  ]
+ },
+ {
+  "lines": "a9, i1, hb2",
+  "claim": "Slamet is not detained because he is recovering from a stroke; the other three are detained at Rutan Mako Brimob (police, Thu 5 Nov). Note: on 3–4 Nov the location was reported as Rutan Mabes Polri / Bareskrim; PART 1/2 said Mabes Polri.",
+  "numbers": "3 ditahan · 1 tidak ditahan",
+  "sensitivity": "high",
+  "status": "verified (ANTARA, CNN Indonesia, detik)",
+  "sources": [
+   "https://news.detik.com/berita/d-8740242/tersangka-penyadapan-presiden-listyo-sigit-dkk-ditahan-di-mako-brimob",
+   "https://www.cnnindonesia.com/nasional/20261105203023-12-1423892/sakit-irjen-slamet-uliandi-tersangka-penyadapan-prabowo-belum-ditahan",
+   "https://m.antaranews.com/amp/berita/5834879/polri-tetapkan-su-tersangka-baru-kasus-penyadapan-ilegal"
+  ]
+ },
+ {
+  "lines": "a10",
+  "claim": "Charges include Pasal 258 KUHP (max 10 years), plus Pasal 332 KUHP and/or Pasal 32(1) UU ITE.",
+  "numbers": "Pasal 258 · maks 10 tahun",
+  "sensitivity": "high",
+  "status": "verified (detik 10 hal; CNBC/Yusril for 10 yrs; CNN 5 Nov lists the articles)",
+  "sources": [
+   "https://news.detik.com/berita/d-8737324/10-hal-tentang-eks-kapolri-jenderal-listyo-sigit-tersangka-penyadapan-presiden",
+   "https://www.cnbcindonesia.com/tech/20261104091842-37-782131/penyadapan-presiden-gunakan-lims-secara-ilegal-ini-penjelasannya"
+  ]
+ },
+ {
+  "lines": "a11",
+  "claim": "As of Thursday night 5 Nov, we found no response from Listyo Sigit Prabowo or a lawyer (none in ANTARA/CNN/detik 5 Nov pieces; web search found none).",
+  "numbers": "",
+  "sensitivity": "high",
+  "status": "RE-CHECK Friday before voicing; if a response appears, replace a11 with it, attributed",
+  "sources": [
+   "https://www.cnnindonesia.com/nasional/20261105203023-12-1423892/sakit-irjen-slamet-uliandi-tersangka-penyadapan-prabowo-belum-ditahan",
+   "https://news.detik.com/berita/d-8740242/tersangka-penyadapan-presiden-listyo-sigit-dkk-ditahan-di-mako-brimob"
+  ]
+ },
+ {
+  "lines": "a12",
+  "claim": "Suspect status is not a verdict; a court decides (presumption of innocence, general principle).",
+  "numbers": "",
+  "sensitivity": "high",
+  "status": "general principle",
+  "sources": []
+ },
+ {
+  "lines": "b2, b3, i2, hb1",
+  "claim": "Binance was hacked on 29 Oct 2026 (US time); about US$6.3 billion (~Rp114 trillion) stolen; moved across 10 blockchains, most within ~20 minutes.",
+  "numbers": "US$6,3 M · Rp114 T · ~20 menit",
+  "sensitivity": "normal",
+  "status": "verified (2 Nov video factcheck; E0478)",
+  "sources": [
+   "https://katadata.co.id/digital/fintech/6ae47ccc8e111/bursa-kripto-binance-dibobol-aset-rp114-3-triliun-lenyap",
+   "https://wartaekonomi.co.id/read644596/bursa-kripto-binance-diretas-kerugian-tembus-rp114-triliun",
+   "https://www.cnbcindonesia.com/tech/20261031182610-37-781174/rp104-triliun-lenyap-digondol-hacker-binance-janji-ganti-rugi"
+  ]
+ },
+ {
+  "lines": "b4",
+  "claim": "Per Binance, the attack started from a compromised laptop of an engineer (DevOps engineer).",
+  "numbers": "",
+  "sensitivity": "normal",
+  "status": "verified (Katadata + CNBC 2 Nov)",
+  "sources": [
+   "https://www.cnbcindonesia.com/tech/20261102123441-37-781494/kronologi-pencurian-terbesar-uang-rp-114-triliun-lenyap-seketika",
+   "https://katadata.co.id/digital/fintech/6ae47ccc8e111/bursa-kripto-binance-dibobol-aset-rp114-3-triliun-lenyap"
+  ]
+ },
+ {
+  "lines": "b5",
+  "claim": "TRM Labs and Chainalysis link the attack to TraderTraitor, a North Korea-backed group; Binance has not named a culprit.",
+  "numbers": "",
+  "sensitivity": "medium",
+  "status": "verified (2 Nov video factcheck)",
+  "sources": [
+   "https://www.cnbcindonesia.com/tech/20261031182610-37-781174/rp104-triliun-lenyap-digondol-hacker-binance-janji-ganti-rugi",
+   "https://katadata.co.id/digital/fintech/6ae47ccc8e111/bursa-kripto-binance-dibobol-aset-rp114-3-triliun-lenyap"
+  ]
+ },
+ {
+  "lines": "b6",
+  "claim": "Binance promised to cover all losses; about US$3 billion frozen; phased withdrawals reopened from 1 Nov.",
+  "numbers": "~US$3 M · 1 Nov",
+  "sensitivity": "normal",
+  "status": "verified (2 Nov video factcheck; E0505)",
+  "sources": [
+   "https://katadata.co.id/digital/fintech/6ae7ed060be11/binance-beroperasi-lagi-usai-diretas-nasabah-langsung-tarik-dana-rp-66-triliun",
+   "https://investortrust.id/market/121172/ojk-pastikan-tak-ada-rush-kripto-di-indonesia-usai-binance-diretas-hingga-gangguan-yang-dialami-indodax-dan-tokocrypto"
+  ]
+ },
+ {
+  "lines": "b7",
+  "claim": "Binance's own figure (posted on X, reported by CNBC): net withdrawals US$3.64 billion between 06:00 and 15:30 UTC on 1 Nov (~9.5 hours; withdrawals US$4.65 B, deposits US$1.01 B). Script: 'beberapa jam pertama, kata Binance sendiri'.",
+  "numbers": "US$3,64 M",
+  "sensitivity": "normal",
+  "status": "verified (factcheck FIX 2 applied)",
+  "sources": [
+   "https://www.cnbc.com/2026/11/02/binance-outflow-hack-bitcoin.html",
+   "https://news.slashdot.org/story/26/11/02/0159222/binance-reopens-to-364-in-net-outflows-98-choose-to-stay-says-its-founder",
+   "https://katadata.co.id/digital/fintech/6ae7ed060be11/binance-beroperasi-lagi-usai-diretas-nasabah-langsung-tarik-dana-rp-66-triliun"
+  ]
+ },
+ {
+  "lines": "b8, b9",
+  "claim": "Singapore police found Ledger hardware wallets from certain retail stores with malicious components; per Ledger the implant reads the 24-word recovery phrase and sends it over the mobile network.",
+  "numbers": "24 kata",
+  "sensitivity": "normal",
+  "status": "verified (3 Nov video factcheck)",
+  "sources": [
+   "https://www.malaymail.com/news/singapore/2026/10/28/singapore-crypto-users-lose-s35m-after-ledger-wallets-found-with-malicious-hardware/241011",
+   "https://www.bleepingcomputer.com/news/security/ledger-asks-sellers-across-asia-to-halt-sales-after-supply-chain-attack/amp/",
+   "https://www.cnbcindonesia.com/tech/20261102065338-37-781330/modus-baru-kuras-rekening-menyusup-di-dompet-warga-ri-sasarannya",
+   "https://decrypt.co/380940/ledger-asks-resellers-in-seven-asian-markets-to-pull-devices-after-suspected-86m-drain"
+  ]
+ },
+ {
+  "lines": "b10",
+  "claim": "2 reported cases, losses S$3.5 million (~Rp49.5 billion); Ledger asked resellers in 7 Asian countries/territories incl. Indonesia to halt sales.",
+  "numbers": "2 kasus · Rp49,5 miliar · 7 wilayah",
+  "sensitivity": "normal",
+  "status": "verified (3 Nov video factcheck)",
+  "sources": [
+   "https://www.malaymail.com/news/singapore/2026/10/28/singapore-crypto-users-lose-s35m-after-ledger-wallets-found-with-malicious-hardware/241011",
+   "https://www.bleepingcomputer.com/news/security/ledger-asks-sellers-across-asia-to-halt-sales-after-supply-chain-attack/amp/",
+   "https://www.cnbcindonesia.com/tech/20261102065338-37-781330/modus-baru-kuras-rekening-menyusup-di-dompet-warga-ri-sasarannya"
+  ]
+ },
+ {
+  "lines": "b11",
+  "claim": "Our synthesis: neither attack started in blockchain code — Binance's started from an employee laptop (per Binance), Ledger's from tampered devices sold in stores (per Ledger / Singapore police).",
+  "numbers": "",
+  "sensitivity": "normal",
+  "status": "own synthesis of b4 + b9 sources",
+  "sources": [
+   "https://www.cnbcindonesia.com/tech/20261102123441-37-781494/kronologi-pencurian-terbesar-uang-rp-114-triliun-lenyap-seketika",
+   "https://www.bleepingcomputer.com/news/security/ledger-asks-sellers-across-asia-to-halt-sales-after-supply-chain-attack/amp/"
+  ]
+ },
+ {
+  "lines": "b12",
+  "claim": "OJK (1 Nov) said there was no rush of withdrawals in Indonesia and urged use of licensed, OJK-supervised providers.",
+  "numbers": "",
+  "sensitivity": "normal",
+  "status": "verified (2 Nov video factcheck)",
+  "sources": [
+   "https://investortrust.id/market/121172/ojk-pastikan-tak-ada-rush-kripto-di-indonesia-usai-binance-diretas-hingga-gangguan-yang-dialami-indodax-dan-tokocrypto"
+  ]
+ },
+ {
+  "lines": "c1, c2",
+  "claim": "On Mon 2 Nov BEI began excluding 81 HSC (high shareholding concentration) stocks from the IHSG calculation; they were about 18% of IHSG weight.",
+  "numbers": "81 saham · ~18% bobot",
+  "sensitivity": "normal",
+  "status": "verified (E0489; 18% from CNBC)",
+  "sources": [
+   "https://www.cnbcindonesia.com/market/20261102143933-17-781553/81-saham-hsc-dicoret-dari-ihsg-10-emiten-ini-bobotnya-makin-jumbo",
+   "https://www.cnbcindonesia.com/market/20261102154020-17-781613/ihsg-ditutup-menguat-079-ke-509683",
+   "https://investortrust.id/market/121258/tak-lagi-diperhitungkan-di-ihsg-ini-nasib-81-saham-hsc-bren-hingga-dssa-justru-naik"
+  ]
+ },
+ {
+  "lines": "c3",
+  "claim": "Mon 2 Nov: IHSG dipped below 5,000 intraday, closed +0.79% at 5,096.83.",
+  "numbers": "5.096,83 · +0,79%",
+  "sensitivity": "normal",
+  "status": "verified (E0489)",
+  "sources": [
+   "https://www.cnbcindonesia.com/market/20261102154020-17-781613/ihsg-ditutup-menguat-079-ke-509683",
+   "https://www.owrite.id/ekbis/2026/11/02/rupiah-ditutup-melemah-rp18-156-per-dolar-as-ihsg-menguat-079-persen/"
+  ]
+ },
+ {
+  "lines": "c4, i2, hb2",
+  "claim": "Tue 3 Nov: IHSG closed −3.78% (−192.54 pts) at 4,904.29; all 11 sectors lower. Ties: 5,096.83 − 192.54 = 4,904.29.",
+  "numbers": "4.904,29 · −3,78% · 11 sektor",
+  "sensitivity": "normal",
+  "status": "verified (CNBC + Kontan + CNN Indonesia per factcheck)",
+  "sources": [
+   "https://www.cnbcindonesia.com/market/20261103153044-17-781952/ihsg-ditutup-anjlok-378-ke-490429",
+   "https://www.cnbcindonesia.com/market/20261104081544-17-782105/ihsg-ambruk-378-ini-5-rekomendasi-saham-yang-bisa-kamu-lirik",
+   "https://investasi.kontan.co.id/news/ihsg-jeblok-378-ke-level-4904-trader-disarankan-ambil-strategi-wait-and-see",
+   "https://www.cnnindonesia.com/ekonomi/20261103162829-92-1422831/ihsg-melemah-378-persen-ke-4904-selasa-sore"
+  ]
+ },
+ {
+  "lines": "c5",
+  "claim": "Per CNBC Indonesia, the drop came as foreign investors kept selling on MSCI downgrade fears and US–Iran tension rose (attributed, not our causal claim).",
+  "numbers": "",
+  "sensitivity": "normal",
+  "status": "attributed to CNBC Indonesia",
+  "sources": [
+   "https://www.cnbcindonesia.com/market/20261104081544-17-782105/ihsg-ambruk-378-ini-5-rekomendasi-saham-yang-bisa-kamu-lirik",
+   "https://www.cnbcindonesia.com/market/20261103134858-17-781886/breaking-ihsg-anjlok-3-ini-penyebabnya"
+  ]
+ },
+ {
+  "lines": "c6",
+  "claim": "Wed 4 Nov: +0.32% to 4,919.77. Thu 5 Nov: +2.25% (+110.49 pts) to 5,030.26, back above 5,000. Ties: 4,904.29+15.48 = 4,919.77; +110.49 = 5,030.26.",
+  "numbers": "+0,32% · 4.919,77 · +2,25% · 5.030,26",
+  "sensitivity": "normal",
+  "status": "verified (E0545 CNBC; E0566 CNBC + Bisnis)",
+  "sources": [
+   "https://www.cnbcindonesia.com/market/20261104152116-17-782322/ihsg-ditutup-menguat-032-ke-491977",
+   "https://www.cnbcindonesia.com/market/20261105135235-17-782680/ihsg-ditutup-menguat-225-ke-level-503026",
+   "https://market.bisnis.com/read/20261105/7/2018804/ihsg-ditutup-naik-225-ke-5030-saham-bbca-bbri-ammn-kompak-hijau"
+  ]
+ },
+ {
+  "lines": "c7",
+  "claim": "OJK (Hasan Fawzi, 5 Nov): foreign investors net sold Rp16.88 T of stocks in October 2026; IHSG closed October at 5,057, −16.7% m/m.",
+  "numbers": "Rp16,88 T · −16,7%",
+  "sensitivity": "normal",
+  "status": "verified (opened CNBC + detik)",
+  "sources": [
+   "https://www.cnbcindonesia.com/market/20261105143322-17-782648/msci-bikin-ihsg-babak-belur-167-investor-asing-kabur-rp1688-t",
+   "https://finance.detik.com/bursa-dan-valas/d-8739674/asing-kabur-dari-pasar-saham-ri-bawa-duit-rp-16-88-triliun"
+  ]
+ },
+ {
+  "lines": "c8",
+  "claim": "Capital-market investors rose by 1.38 million in October to more than 33 million (CNBC text says 33 million; events DB says 33.55 million).",
+  "numbers": "+1,38 juta · >33 juta",
+  "sensitivity": "normal",
+  "status": "verified (detik + ANTARA headline per factcheck; total 33,55 juta)",
+  "sources": [
+   "https://www.cnbcindonesia.com/market/20261105143322-17-782648/msci-bikin-ihsg-babak-belur-167-investor-asing-kabur-rp1688-t",
+   "https://finance.detik.com/bursa-dan-valas/d-8739702/bertambah-1-38-juta-dalam-sebulan-investor-pasar-modal-ri-tembus-33-55-juta"
+  ]
+ },
+ {
+  "lines": "c9, g6",
+  "claim": "MSCI (press release 4 Nov): November index review results announced 11 Nov 2026 shortly after 23:00 CET = Thu 12 Nov ~05:00 WIB ('dini hari'); changes effective at the close of 30 Nov.",
+  "numbers": "11 Nov 23:00 CET = 12 Nov ~05:00 WIB",
+  "sensitivity": "normal",
+  "status": "verified (MSCI's own release; factcheck FIX 1 applied)",
+  "sources": [
+   "https://ir.msci.com/news-releases/news-release-details/msci-november-index-review-announcement-scheduled-november-11"
+  ]
+ },
+ {
+  "lines": "c10",
+  "claim": "Disclaimer: not a buy/sell recommendation.",
+  "numbers": "",
+  "sensitivity": "normal",
+  "status": "required (playbook)",
+  "sources": []
+ },
+ {
+  "lines": "d2, d3, i3",
+  "claim": "BPS (Edy Mahmud, 5 Nov): Q3 2026 GDP +5.47% y/y; consensus of 15 institutions ~5.20% (CNBC poll); Q2 2026 was 5.29%.",
+  "numbers": "5,47% · 5,20% · 5,29%",
+  "sensitivity": "normal",
+  "status": "verified (opened ANTARA, detikFinance, CNBC)",
+  "sources": [
+   "https://antaranews.com/berita/5833219/bps-ekonomi-ri-tumbuh-547-persen-pada-triwulan-iii-2026",
+   "https://finance.detik.com/berita-ekonomi-bisnis/d-8739639/bps-jelaskan-ekonomi-kuartal-iii-2026-bisa-tumbuh-5-47-jauh-di-atas-proyeksi",
+   "https://www.cnbcindonesia.com/market/20261105150700-17-782664/rupiah-ditutup-menguat-044-dolar-as-turun-ke-rp18075"
+  ]
+ },
+ {
+  "lines": "d4, d5",
+  "claim": "Household consumption +5.04% (largest contributor, 2.62 pp); investment (PMTB) +6.06%; government consumption +8.95%, per BPS due to higher ASN salaries/allowances and goods & services spending incl. Makan Bergizi Gratis.",
+  "numbers": "5,04% · 6,06% · 8,95%",
+  "sensitivity": "normal",
+  "status": "verified (detikFinance opened; E0565 lists same numbers)",
+  "sources": [
+   "https://finance.detik.com/berita-ekonomi-bisnis/d-8739639/bps-jelaskan-ekonomi-kuartal-iii-2026-bisa-tumbuh-5-47-jauh-di-atas-proyeksi",
+   "https://antaranews.com/berita/5833219/bps-ekonomi-ri-tumbuh-547-persen-pada-triwulan-iii-2026"
+  ]
+ },
+ {
+  "lines": "d6",
+  "claim": "BPS (2 Nov): October 2026 inflation 3.23% y/y (0.22% m/m); red chili the main contributor.",
+  "numbers": "3,23% y/y · 0,22% m/m",
+  "sensitivity": "normal",
+  "status": "verified (E0491)",
+  "sources": [
+   "https://nasional.kontan.co.id/news/bps-inflasi-pada-oktober-2026-turun-jadi-022",
+   "https://investortrust.id/macro/121225/bps-inflasi-bulanan-oktober-2026-capai-0-22-papua-selatan-catat-angka-tertinggi",
+   "https://www.suara.com/bisnis/2026/11/02/112841/bps-umumkan-inflasi-oktober-2026-sentuh-022-cabai-merah-jadi-biang-kerok"
+  ]
+ },
+ {
+  "lines": "d7",
+  "claim": "BPS (2 Nov): September 2026 trade surplus US$3.36 billion, above economists' forecasts (~US$1.0–1.8 B).",
+  "numbers": "US$3,36 M",
+  "sensitivity": "normal",
+  "status": "verified (E0492)",
+  "sources": [
+   "https://www.cnbcindonesia.com/news/20261102094835-4-781419/breaking-news-neraca-dagang-ri-surplus-us-336-miliar-september-2026",
+   "https://katadata.co.id/finansial/makro/6ae81a14755a4/ekspor-dan-impor-melesat-neraca-perdagangan-september-surplus-us-3-36-miliar"
+  ]
+ },
+ {
+  "lines": "d8",
+  "claim": "OJK: outstanding pinjol debt Rp106.48 T in September 2026, +17.02% y/y.",
+  "numbers": "Rp106,48 T · +17%",
+  "sensitivity": "normal",
+  "status": "verified (E0571)",
+  "sources": [
+   "https://finance.detik.com/moneter/d-8739691/utang-pinjol-warga-ri-tembus-rp-106-48-triliun",
+   "https://www.cnbcindonesia.com/market/20261105145356-17-782659/utang-pinjol-capai-rp10648-t-kredit-macet-tembus-5"
+  ]
+ },
+ {
+  "lines": "d9",
+  "claim": "Thu 5 Nov: rupiah closed stronger at about Rp18,080/US$ (CNBC/Refinitiv 18,075; Kontan, CNN Indonesia, IDX Channel, Okezone spot 18,082). No causal link to GDP claimed.",
+  "numbers": "±Rp18.080",
+  "sensitivity": "normal",
+  "status": "verified (factcheck FIX 4 applied)",
+  "sources": [
+   "https://www.cnbcindonesia.com/market/20261105150700-17-782664/rupiah-ditutup-menguat-044-dolar-as-turun-ke-rp18075",
+   "https://investasi.kontan.co.id/news/rupiah-ditutup-menguat-ke-rp-18082-per-dolar-as-hari-ini-511-dolar-as-terkoreksi"
+  ]
+ },
+ {
+  "lines": "e1",
+  "claim": "Last week's weekly chapter asked 'Asap mulai reda?'.",
+  "numbers": "",
+  "sensitivity": "normal",
+  "status": "verified (weekly 2026-10-31 script)",
+  "sources": []
+ },
+ {
+  "lines": "e2, e3, i3",
+  "claim": "BNPB (Berton SP Panjaitan, Thu 5 Nov): 1,468 hotspots; Central Kalimantan most with 821 (+93% vs the previous day); 2,645 ha under handling.",
+  "numbers": "1.468 · 821 · +93% · 2.645 ha",
+  "sensitivity": "medium",
+  "status": "verified (opened detik; TVRI + ANTARA per E0588). Note: detik lists 6 priority provinces plus others; we do not say how many provinces",
+  "sources": [
+   "https://news.detik.com/berita/d-8739909/total-hotspot-karhutla-di-6-provinsi-1-468-titik-terbanyak-kalteng",
+   "https://nasional.tvrinews.com/berita/t9trw1h-bnpb-catat-1468-titik-panas-karhutla-kalimantan-tengah-tertinggi",
+   "https://www.antaranews.com/berita/5834527/bnpb-titik-panas-dan-luas-karhutla-di-kalteng-meningkat"
+  ]
+ },
+ {
+  "lines": "e4, e5",
+  "claim": "Wed 4 Nov: a TNI AD Mi-17V5 helicopter on a water-bombing mission crashed in Seruyan, Central Kalimantan; of 8 crew, 2 died, 5 treated, 1 still missing as of Thu 5 Nov afternoon (KaltengPos 17:46 WIB, Pangdam), per Pangdam XXII/Tambun Bungai.",
+  "numbers": "8 awak · 2 meninggal · 5 dirawat · 1 dicari",
+  "sensitivity": "high (deaths)",
+  "status": "verified; status updated to 'sampai Kamis sore' (factcheck FIX 3). RE-CHECK Friday",
+  "sources": [
+   "https://antaranews.com/berita/5832411/kecelakaan-helikopter-di-seruyan-dua-orang-meninggal-dunia",
+   "https://www.metrotvnews.com/read/bJEC1Vam-dua-kru-helikopter-mi-17v5-yang-jatuh-di-seruyan-meninggal",
+   "https://kaltengpos.jawapos.com/hukum-peristiwa/2611050018/pangdam-beberkan-kendala-pencarian-satu-prajurit-korban-kecelakaan-helikopter-tni-di-seruyan",
+   "https://journalarta.com/news/2026/11/05/helikopter-mi-17-jatuh-di-seruyan-dua-kru-tewas/"
+  ]
+ },
+ {
+  "lines": "e6, e7",
+  "claim": "Kemenkes: 401,586 cumulative ISPA cases linked to karhutla smoke in 7 provinces, 91,913 aged 0–5 (data as of 2 Nov 16:00 WIB).",
+  "numbers": "401.586 · 91.913 · 7 provinsi",
+  "sensitivity": "medium",
+  "status": "verified (E0558)",
+  "sources": [
+   "https://www.antaranews.com/berita/5831927/kemenkes-catat-401586-kasus-kumulatif-ispa-akibat-karhutla",
+   "https://www.cnnindonesia.com/nasional/20261104190316-20-1423381/401586-warga-kena-infeksi-saluran-pernapasan-imbas-karhutla"
+  ]
+ },
+ {
+  "lines": "e8",
+  "claim": "BMKG (22 Okt): the rainy season arrives late; Central Kalimantan expected mid to late November.",
+  "numbers": "",
+  "sensitivity": "normal",
+  "status": "verified (E0297)",
+  "sources": [
+   "https://www.cnnindonesia.com/teknologi/20261021190134-641-1418135/bmkg-prediksi-awal-musim-hujan-mundur-banjir-longsor-mengintai",
+   "https://periskop.id/nasional/20261024/bmkg-prediksi-musim-hujan-2026"
+  ]
+ },
+ {
+  "lines": "g0",
+  "claim": "Thu 5 Nov: Jokowi attended and testified as a prosecution witness at the Roy Suryo trial (PN Jakarta Timur), as listed in last week's minggu depan.",
+  "numbers": "5 Nov",
+  "sensitivity": "high (politics)",
+  "status": "verified (E0576)",
+  "sources": [
+   "https://www.cnnindonesia.com/nasional/20261105082659-20-1423495/jokowi-tiba-di-pn-jaktim-untuk-sidang-ijazah-disambut-massa-pendukung",
+   "https://megapolitan.kompas.com/read/2026/11/05/09522381/jokowi-duduk-di-kursi-saksi-sempat-lirik-roy-suryo-sebelum-mulai-sidang"
+  ]
+ },
+ {
+  "lines": "g2, i4",
+  "claim": "Hashim Djojohadikusumo (Kadin advisory council, 29 Okt) said from 9 Nov Shopee, Lazada, GoTo and banks/fintechs must collect digital taxes.",
+  "numbers": "9 Nov",
+  "sensitivity": "medium",
+  "status": "verified as Hashim's statement (detik, Katadata)",
+  "sources": [
+   "https://finance.detik.com/berita-ekonomi-bisnis/d-8729936/bocoran-hashim-shopee-goto-pungut-pajak-digital-mulai-9-november-2026/amp",
+   "https://katadata.co.id/digital/e-commerce/6ae85c6515889/shopee-hingga-goto-dipungut-pajak-digital-per-9-november-apa-yang-dipajaki"
+  ]
+ },
+ {
+  "lines": "g3",
+  "claim": "DJP (Inge Diana Rismawanti, written statement 2 Nov): it is not a new tax, does not change the PPN rate; personal transfers/remittances are not automatically subject to PPN (SPP-TDLN covers PPN on foreign digital purchases).",
+  "numbers": "",
+  "sensitivity": "medium",
+  "status": "verified (opened Katadata + gebrak.id). Sources differ on whether DJP endorsed 9 Nov as a date, so the script does not say it",
+  "sources": [
+   "https://katadata.co.id/digital/e-commerce/6ae85c6515889/shopee-hingga-goto-dipungut-pajak-digital-per-9-november-apa-yang-dipajaki",
+   "https://www.gebrak.id/?p=61177"
+  ]
+ },
+ {
+  "lines": "g4",
+  "claim": "Perlinsos Digital is planned to launch on 10 Nov; Luhut: 'kalau tidak ada perubahan'.",
+  "numbers": "10 Nov",
+  "sensitivity": "normal",
+  "status": "verified (E0520, E0208)",
+  "sources": [
+   "https://www.cnbcindonesia.com/news/20261101175316-4-781280/bansos-digital-meluncur-mulai-10-november-ini-kata-luhut",
+   "https://www.cnnindonesia.com/ekonomi/20261028121931-532-1420510/bansos-digital-diluncurkan-pada-10-november-sasar-100-juta-warga"
+  ]
+ },
+ {
+  "lines": "g5",
+  "claim": "Shopee's 11.11 Big Sale runs through 11 Nov, with Harbolnas-season promos across marketplaces.",
+  "numbers": "11 Nov",
+  "sensitivity": "normal",
+  "status": "partial (E0465, low-tier sources)",
+  "sources": [
+   "https://www.mediakompeten.co.id/shopee-gelar-kampanye-big-sale",
+   "https://oganilir.disway.id/headline/read/38232/shopee-1111-big-sale-makin-meriah-bersama-no-na-ada-flash-sale-11rb-hingga-diskon-90-persen"
+  ]
+ }
+]

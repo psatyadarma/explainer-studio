@@ -1,0 +1,71 @@
+{
+ "direction": "[clear, steady weekly recap; neutral, attributed]",
+ "lines": [
+  {
+   "id": "a1",
+   "tag": "[serious]",
+   "text": "Rabu dan Kamis, kami bahas kasus ini dua kali. Kamis malam, ada perkembangan baru."
+  },
+  {
+   "id": "a2",
+   "tag": "[explaining]",
+   "text": "Ringkasnya. Selasa malam, 3 November, Bareskrim umumkan tiga tersangka dugaan penyadapan ilegal.",
+   "say": "Ringkasnya. Selasa malam, tiga November, Bareskrim umumkan tiga tersangka, dugaan penyadapan ilegal."
+  },
+  {
+   "id": "a3",
+   "tag": "[matter-of-fact]",
+   "text": "Mereka: mantan Kapolri Listyo Sigit Prabowo, Irjen Ahrie Sonta Nasution, dan Irjen Eko Hadi Santoso."
+  },
+  {
+   "id": "a4",
+   "tag": "[serious]",
+   "text": "Kata polisi, nomor-nomor dimasukkan ke sistem sadap LIMS tanpa dasar penyelidikan. Diduga termasuk nomor Presiden.",
+   "say": "Kata polisi, nomor-nomor dimasukkan ke sistem sadap, lims, tanpa dasar penyelidikan. Diduga termasuk nomor Presiden."
+  },
+  {
+   "id": "a5",
+   "tag": "[explaining]",
+   "text": "Periodenya 2025 sampai 2026. Lalu Oktober 2026, file hasil sadapan diduga dihapus.",
+   "say": "Periodenya dua ribu dua puluh lima sampai dua ribu dua puluh enam. Lalu Oktober dua ribu dua puluh enam, file hasil sadapan diduga dihapus."
+  },
+  {
+   "id": "a6",
+   "tag": "[neutral]",
+   "text": "Rabu, kata Mensesneg Prasetyo Hadi, Presiden memberhentikan Listyo dari Kepala Staf Kepresidenan. Pelaksana tugasnya, Letjen Ariyo Windutomo."
+  },
+  {
+   "id": "a7",
+   "tag": "[leaning in]",
+   "text": "Lalu Kamis, tersangka keempat: Irjen Slamet Uliandi, Dewan Pembina Monitoring Center Bareskrim."
+  },
+  {
+   "id": "a8",
+   "tag": "[explaining]",
+   "text": "Menurut polisi, Oktober lalu Ahrie Sonta minta izin ke Slamet untuk menghapus file sadapan. Dan Slamet menyetujui."
+  },
+  {
+   "id": "a9",
+   "tag": "[matter-of-fact]",
+   "text": "Slamet belum ditahan, karena sakit pascastroke. Tiga lainnya, kata polisi Kamis, kini ditahan di Rutan Mako Brimob.",
+   "say": "Slamet belum ditahan, karena sakit pasca-stroke. Tiga lainnya, kata polisi Kamis, kini ditahan di Rutan Mako Brimob."
+  },
+  {
+   "id": "a10",
+   "tag": "[serious]",
+   "text": "Pasalnya antara lain Pasal 258 KUHP, ancaman maksimal 10 tahun.",
+   "say": "Pasalnya antara lain Pasal dua ratus lima puluh delapan, Ka U Ha Pe, ancaman maksimal sepuluh tahun."
+  },
+  {
+   "id": "a11",
+   "tag": "[leaning in]",
+   "text": "Tapi ini yang belum ada: tanggapan Listyo atau kuasa hukumnya. Sampai Kamis malam, kami belum menemukannya."
+  },
+  {
+   "id": "a12",
+   "tag": "[calm]",
+   "text": "Ingat: tersangka belum tentu bersalah. Yang memutuskan nanti pengadilan."
+  }
+ ],
+ "tail": 0.6
+}

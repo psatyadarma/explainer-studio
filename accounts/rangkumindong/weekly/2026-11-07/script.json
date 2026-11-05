@@ -1,0 +1,461 @@
+{
+ "title": "Rangkumin Seminggu",
+ "dates": "31 Okt–6 Nov 2026",
+ "episode": 3,
+ "direction": "[clear, steady weekly recap; neutral, attributed]",
+ "voice": "male:Pratama",
+ "format": "weekly",
+ "hook_style": "question_reveal",
+ "hook_b": {
+  "style": "shock_number",
+  "replace": [
+   "i1",
+   "i2"
+  ],
+  "lines": [
+   {
+    "id": "hb1",
+    "tag": "[shocked]",
+    "text": "Rp114 triliun kripto dibobol. Kebanyakan dipindah dalam 20 menit.",
+    "say": "Seratus empat belas triliun rupiah kripto, dibobol. Kebanyakan dipindah dalam dua puluh menit."
+   },
+   {
+    "id": "hb2",
+    "tag": "[quick, building]",
+    "text": "Mantan Kapolri ditahan. IHSG sempat di bawah 5.000.",
+    "say": "Mantan Kapolri ditahan. I H S G sempat di bawah lima ribu."
+   }
+  ]
+ },
+ "chapters": [
+  {
+   "n": 0,
+   "kicker": "INTRO",
+   "title": "Minggu ini",
+   "lines": [
+    {
+     "id": "i1",
+     "tag": "[energetic]",
+     "text": "Mantan Kapolri ditahan. Kamu ketinggalan yang mana?"
+    },
+    {
+     "id": "i2",
+     "tag": "[quick, building]",
+     "text": "Kini ada tersangka keempat. Kripto Rp114 triliun dibobol. IHSG sempat jatuh di bawah 5.000.",
+     "say": "Kini ada tersangka keempat. Kripto seratus empat belas triliun rupiah, dibobol. I H S G sempat jatuh, di bawah lima ribu."
+    },
+    {
+     "id": "i3",
+     "tag": "[quick, playful]",
+     "text": "Plus: ekonomi tumbuh di atas perkiraan, dan asap yang naik lagi."
+    },
+    {
+     "id": "rd",
+     "tagline": true,
+     "text": "Rangkumin dong!"
+    },
+    {
+     "id": "i4",
+     "tag": "[friendly]",
+     "text": "Ini Rangkumin Seminggu, 31 Oktober sampai 6 November. Di akhir: tanggal-tanggal minggu depan, termasuk satu tanggal pajak yang ramai, tapi belum tentu seperti yang kamu kira.",
+     "say": "Ini Rangkumin Seminggu, tiga puluh satu Oktober sampai enam November. Di akhir: tanggal-tanggal minggu depan, termasuk satu tanggal pajak yang ramai, tapi belum tentu seperti yang kamu kira."
+    }
+   ]
+  },
+  {
+   "n": 1,
+   "kicker": "BAB 1",
+   "title": "Penyadapan: 4 tersangka",
+   "badge": "PART 3",
+   "lines": [
+    {
+     "id": "a1",
+     "tag": "[serious]",
+     "text": "Rabu dan Kamis, kami bahas kasus ini dua kali. Kamis malam, ada perkembangan baru."
+    },
+    {
+     "id": "a2",
+     "tag": "[explaining]",
+     "text": "Ringkasnya. Selasa malam, 3 November, Bareskrim umumkan tiga tersangka dugaan penyadapan ilegal.",
+     "say": "Ringkasnya. Selasa malam, tiga November, Bareskrim umumkan tiga tersangka, dugaan penyadapan ilegal."
+    },
+    {
+     "id": "a3",
+     "tag": "[matter-of-fact]",
+     "text": "Mereka: mantan Kapolri Listyo Sigit Prabowo, Irjen Ahrie Sonta Nasution, dan Irjen Eko Hadi Santoso."
+    },
+    {
+     "id": "a4",
+     "tag": "[serious]",
+     "text": "Kata polisi, nomor-nomor dimasukkan ke sistem sadap LIMS tanpa dasar penyelidikan. Diduga termasuk nomor Presiden.",
+     "say": "Kata polisi, nomor-nomor dimasukkan ke sistem sadap, lims, tanpa dasar penyelidikan. Diduga termasuk nomor Presiden."
+    },
+    {
+     "id": "a5",
+     "tag": "[explaining]",
+     "text": "Periodenya 2025 sampai 2026. Lalu Oktober 2026, file hasil sadapan diduga dihapus.",
+     "say": "Periodenya dua ribu dua puluh lima sampai dua ribu dua puluh enam. Lalu Oktober dua ribu dua puluh enam, file hasil sadapan diduga dihapus."
+    },
+    {
+     "id": "a6",
+     "tag": "[neutral]",
+     "text": "Rabu, kata Mensesneg Prasetyo Hadi, Presiden memberhentikan Listyo dari Kepala Staf Kepresidenan. Pelaksana tugasnya, Letjen Ariyo Windutomo."
+    },
+    {
+     "id": "a7",
+     "tag": "[leaning in]",
+     "text": "Lalu Kamis, tersangka keempat: Irjen Slamet Uliandi, Dewan Pembina Monitoring Center Bareskrim."
+    },
+    {
+     "id": "a8",
+     "tag": "[explaining]",
+     "text": "Menurut polisi, Oktober lalu Ahrie Sonta minta izin ke Slamet untuk menghapus file sadapan. Dan Slamet menyetujui."
+    },
+    {
+     "id": "a9",
+     "tag": "[matter-of-fact]",
+     "text": "Slamet belum ditahan, karena sakit pascastroke. Tiga lainnya, kata polisi Kamis, kini ditahan di Rutan Mako Brimob.",
+     "say": "Slamet belum ditahan, karena sakit pasca-stroke. Tiga lainnya, kata polisi Kamis, kini ditahan di Rutan Mako Brimob."
+    },
+    {
+     "id": "a10",
+     "tag": "[serious]",
+     "text": "Pasalnya antara lain Pasal 258 KUHP, ancaman maksimal 10 tahun.",
+     "say": "Pasalnya antara lain Pasal dua ratus lima puluh delapan, Ka U Ha Pe, ancaman maksimal sepuluh tahun."
+    },
+    {
+     "id": "a11",
+     "tag": "[leaning in]",
+     "text": "Tapi ini yang belum ada: tanggapan Listyo atau kuasa hukumnya. Sampai Kamis malam, kami belum menemukannya."
+    },
+    {
+     "id": "a12",
+     "tag": "[calm]",
+     "text": "Ingat: tersangka belum tentu bersalah. Yang memutuskan nanti pengadilan."
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "kicker": "BAB 2",
+   "title": "Kripto dibobol dua kali",
+   "lines": [
+    {
+     "id": "b1",
+     "tag": "[curious]",
+     "text": "Senin dan Selasa, kami bahas dua pembobolan kripto. Ternyata, awalnya mirip."
+    },
+    {
+     "id": "b2",
+     "tag": "[serious]",
+     "text": "Pertama, Binance. 29 Oktober, waktu Amerika, bursa kripto ini dibobol.",
+     "say": "Pertama, Binance. Dua puluh sembilan Oktober, waktu Amerika, bursa kripto ini dibobol."
+    },
+    {
+     "id": "b3",
+     "tag": "[shocked]",
+     "text": "Yang hilang: 6,3 miliar dolar. Sekitar Rp114 triliun. Kebanyakan dipindah dalam. Dua puluh. Menit.",
+     "say": "Yang hilang: enam koma tiga miliar dolar. Sekitar seratus empat belas triliun rupiah. Kebanyakan dipindah dalam. Dua puluh. Menit."
+    },
+    {
+     "id": "b4",
+     "tag": "[explaining]",
+     "text": "Kata Binance, awalnya dari laptop seorang engineer yang diretas."
+    },
+    {
+     "id": "b5",
+     "tag": "[matter-of-fact]",
+     "text": "TRM Labs dan Chainalysis menduga kelompok TraderTraitor, yang disokong Korea Utara. Binance sendiri belum menunjuk pelaku.",
+     "say": "Ti Ar Em Labs dan Chainalysis menduga kelompok Trader Traitor, yang disokong Korea Utara. Binance sendiri belum menunjuk pelaku."
+    },
+    {
+     "id": "b6",
+     "tag": "[reassuring]",
+     "text": "Binance janji ganti semua kerugian. Sekitar 3 miliar dolar sudah dibekukan. Dan 1 November, penarikan dibuka lagi, bertahap.",
+     "say": "Binance janji ganti semua kerugian. Sekitar tiga miliar dolar sudah dibekukan. Dan satu November, penarikan dibuka lagi, bertahap."
+    },
+    {
+     "id": "b7",
+     "tag": "[leaning in]",
+     "text": "Dalam beberapa jam pertama, kata Binance sendiri, nasabah menarik bersih 3,64 miliar dolar.",
+     "say": "Dalam beberapa jam pertama, kata Binance sendiri, nasabah menarik bersih tiga koma enam empat miliar dolar."
+    },
+    {
+     "id": "b8",
+     "tag": "[serious]",
+     "text": "Kedua, Ledger. Dompet kripto offline, yang katanya paling aman."
+    },
+    {
+     "id": "b9",
+     "tag": "[explaining]",
+     "text": "Polisi Singapura menemukan Ledger dari toko tertentu yang disisipi komponen jahat. Kata Ledger, sisipannya membaca 24 kata pemulihan, lalu mengirimnya lewat sinyal seluler.",
+     "say": "Polisi Singapura menemukan Ledger dari toko tertentu, yang disisipi komponen jahat. Kata Ledger, sisipannya membaca dua puluh empat kata pemulihan, lalu mengirimnya lewat sinyal seluler."
+    },
+    {
+     "id": "b10",
+     "tag": "[matter-of-fact]",
+     "text": "Dua kasus dilaporkan, rugi sekitar Rp49,5 miliar. Ledger minta reseller di 7 wilayah Asia setop jualan. Termasuk Indonesia.",
+     "say": "Dua kasus dilaporkan, rugi sekitar empat puluh sembilan koma lima miliar rupiah. Ledger minta reseller di tujuh wilayah Asia setop jualan. Termasuk Indonesia."
+    },
+    {
+     "id": "b11",
+     "tag": "[leaning in]",
+     "text": "Tapi ini yang sering terlewat: dua-duanya tidak dimulai dari kode blockchain. Yang satu dari laptop karyawan. Yang satu dari barang di toko."
+    },
+    {
+     "id": "b12",
+     "tag": "[reassuring]",
+     "text": "Buat kamu: kata OJK, nggak ada rush di Indonesia. Pakai platform yang berizin dan diawasi OJK.",
+     "say": "Buat kamu: kata, O Je Ka, nggak ada rush di Indonesia. Pakai platform yang berizin dan diawasi, O Je Ka."
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "kicker": "BAB 3",
+   "title": "IHSG di bawah 5.000",
+   "badge": "PART 5",
+   "lines": [
+    {
+     "id": "c1",
+     "tag": "[serious]",
+     "text": "Minggu lalu kami bilang: tunggu 2 November. Hari itu, 81 saham keluar dari hitungan IHSG.",
+     "say": "Minggu lalu kami bilang: tunggu dua November. Hari itu, delapan puluh satu saham keluar dari hitungan I H S G."
+    },
+    {
+     "id": "c2",
+     "tag": "[explaining]",
+     "text": "Itu saham yang kepemilikannya terlalu terpusat. Bobotnya sekitar 18 persen dari IHSG.",
+     "say": "Itu saham yang kepemilikannya terlalu terpusat. Bobotnya sekitar delapan belas persen dari I H S G."
+    },
+    {
+     "id": "c3",
+     "tag": "[matter-of-fact]",
+     "text": "Senin, IHSG sempat di bawah 5.000, tapi ditutup naik 0,79 persen, ke 5.096.",
+     "say": "Senin, I H S G sempat di bawah lima ribu, tapi ditutup naik nol koma tujuh sembilan persen, ke lima ribu sembilan puluh enam."
+    },
+    {
+     "id": "c4",
+     "tag": "[shocked]",
+     "text": "Selasa? Anjlok 3,78 persen, ke 4.904. Sebelas sektor, merah semua.",
+     "say": "Selasa? Anjlok tiga koma tujuh delapan persen, ke empat ribu sembilan ratus empat. Sebelas sektor, merah semua."
+    },
+    {
+     "id": "c5",
+     "tag": "[explaining]",
+     "text": "Menurut CNBC Indonesia, asing terus menjual karena khawatir soal MSCI, plus ketegangan Amerika dan Iran.",
+     "say": "Menurut Ce En Be Ce Indonesia, asing terus menjual karena khawatir soal em es si ai, plus ketegangan Amerika dan Iran."
+    },
+    {
+     "id": "c6",
+     "tag": "[matter-of-fact]",
+     "text": "Rabu, naik tipis 0,32 persen. Kamis, naik 2,25 persen, ke 5.030. Balik di atas 5.000.",
+     "say": "Rabu, naik tipis nol koma tiga dua persen. Kamis, naik dua koma dua lima persen, ke lima ribu tiga puluh. Balik di atas lima ribu."
+    },
+    {
+     "id": "c7",
+     "tag": "[serious]",
+     "text": "Gambaran besarnya, kata OJK: sepanjang Oktober, asing jual bersih saham Rp16,88 triliun. IHSG turun 16,7 persen dalam sebulan.",
+     "say": "Gambaran besarnya, kata, O Je Ka: sepanjang Oktober, asing jual bersih saham enam belas koma delapan delapan triliun rupiah. I H S G turun enam belas koma tujuh persen, dalam sebulan."
+    },
+    {
+     "id": "c8",
+     "tag": "[leaning in]",
+     "text": "Tapi di bulan yang sama, investor pasar modal malah bertambah 1,38 juta. Totalnya lebih dari 33 juta.",
+     "say": "Tapi di bulan yang sama, investor pasar modal malah bertambah satu koma tiga delapan juta. Totalnya, lebih dari tiga puluh tiga juta."
+    },
+    {
+     "id": "c9",
+     "tag": "[explaining]",
+     "text": "Yang ditunggu berikutnya: pengumuman indeks MSCI, Kamis depan dini hari.",
+     "say": "Yang ditunggu berikutnya: pengumuman indeks em es si ai, Kamis depan, dini hari."
+    },
+    {
+     "id": "c10",
+     "tag": "[calm]",
+     "text": "Ingat, ini bukan ajakan jual atau beli saham."
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "kicker": "BAB 4",
+   "title": "Ekonomi tumbuh 5,47%",
+   "lines": [
+    {
+     "id": "d1",
+     "tag": "[curious]",
+     "text": "Kamis, ada satu angka yang bikin banyak ekonom meleset."
+    },
+    {
+     "id": "d2",
+     "tag": "[shocked]",
+     "text": "BPS: ekonomi Indonesia kuartal ketiga tumbuh 5,47 persen. Konsensus 15 lembaga: sekitar 5,2 persen.",
+     "say": "Be Pe Es: ekonomi Indonesia kuartal ketiga tumbuh lima koma empat tujuh persen. Konsensus lima belas lembaga: sekitar lima koma dua persen."
+    },
+    {
+     "id": "d3",
+     "tag": "[explaining]",
+     "text": "Kuartal sebelumnya, 5,29 persen. Jadi, lebih kencang.",
+     "say": "Kuartal sebelumnya, lima koma dua sembilan persen. Jadi, lebih kencang."
+    },
+    {
+     "id": "d4",
+     "tag": "[explaining]",
+     "text": "Penyumbang terbesar: konsumsi rumah tangga, tumbuh 5,04 persen. Investasi, 6,06 persen.",
+     "say": "Penyumbang terbesar: konsumsi rumah tangga, tumbuh lima koma nol empat persen. Investasi, enam koma nol enam persen."
+    },
+    {
+     "id": "d5",
+     "tag": "[leaning in]",
+     "text": "Tapi yang paling ngebut: belanja pemerintah, 8,95 persen. Kata BPS, karena gaji dan tunjangan ASN naik, plus belanja seperti Makan Bergizi Gratis.",
+     "say": "Tapi yang paling ngebut: belanja pemerintah, delapan koma sembilan lima persen. Kata, Be Pe Es, karena gaji dan tunjangan, A Es En, naik, plus belanja seperti Makan Bergizi Gratis."
+    },
+    {
+     "id": "d6",
+     "tag": "[matter-of-fact]",
+     "text": "Data lain minggu ini. Inflasi Oktober: 3,23 persen setahun. Penyumbang utamanya, cabai merah.",
+     "say": "Data lain minggu ini. Inflasi Oktober: tiga koma dua tiga persen setahun. Penyumbang utamanya, cabai merah."
+    },
+    {
+     "id": "d7",
+     "tag": "[matter-of-fact]",
+     "text": "Neraca dagang September surplus 3,36 miliar dolar. Di atas perkiraan ekonom.",
+     "say": "Neraca dagang September, surplus tiga koma tiga enam miliar dolar. Di atas perkiraan ekonom."
+    },
+    {
+     "id": "d8",
+     "tag": "[serious]",
+     "text": "Dan dari OJK: utang pinjol per September tembus Rp106,48 triliun. Naik 17 persen setahun.",
+     "say": "Dan dari, O Je Ka: utang pinjol per September tembus seratus enam koma empat delapan triliun rupiah. Naik tujuh belas persen setahun."
+    },
+    {
+     "id": "d9",
+     "tag": "[neutral]",
+     "text": "Kamis itu juga, rupiah ditutup menguat ke sekitar Rp18.080 per dolar.",
+     "say": "Kamis itu juga, rupiah ditutup menguat, ke sekitar delapan belas ribu delapan puluh per dolar."
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "kicker": "BAB 5",
+   "title": "Asap naik lagi",
+   "badge": "PART 3",
+   "lines": [
+    {
+     "id": "e1",
+     "tag": "[serious]",
+     "text": "Minggu lalu kami tanya: asap mulai reda? Minggu ini, jawabannya: belum."
+    },
+    {
+     "id": "e2",
+     "tag": "[shocked]",
+     "text": "Kamis, BNPB catat 1.468 titik panas. Paling banyak di Kalimantan Tengah: 821 titik. Naik 93 persen dari sehari sebelumnya.",
+     "say": "Kamis, Be En Pe Be catat seribu empat ratus enam puluh delapan titik panas. Paling banyak di Kalimantan Tengah: delapan ratus dua puluh satu titik. Naik sembilan puluh tiga persen, dari sehari sebelumnya."
+    },
+    {
+     "id": "e3",
+     "tag": "[explaining]",
+     "text": "Lahan yang sedang ditangani: 2.645 hektare.",
+     "say": "Lahan yang sedang ditangani: dua ribu enam ratus empat puluh lima hektare."
+    },
+    {
+     "id": "e4",
+     "tag": "[serious]",
+     "text": "Rabu, helikopter Mi-17 TNI AD yang sedang water bombing jatuh di Seruyan, Kalimantan Tengah.",
+     "say": "Rabu, helikopter em i tujuh belas, Te En I A De, yang sedang water bombing, jatuh di Seruyan, Kalimantan Tengah."
+    },
+    {
+     "id": "e5",
+     "tag": "[somber]",
+     "text": "Dari delapan awak, kata Pangdam Tambun Bungai, dua meninggal. Lima dirawat, dan satu masih dicari, sampai Kamis sore."
+    },
+    {
+     "id": "e6",
+     "tag": "[serious]",
+     "text": "Lalu dampaknya ke kesehatan. Kemenkes catat 401.586 kasus ISPA terkait asap, di 7 provinsi.",
+     "say": "Lalu dampaknya ke kesehatan. Kemenkes catat empat ratus satu ribu lima ratus delapan puluh enam kasus ispa, terkait asap, di tujuh provinsi."
+    },
+    {
+     "id": "e7",
+     "tag": "[leaning in]",
+     "text": "Tapi angka yang sering terlewat: 91.913 di antaranya anak umur 0 sampai 5 tahun.",
+     "say": "Tapi angka yang sering terlewat: sembilan puluh satu ribu sembilan ratus tiga belas di antaranya, anak umur nol sampai lima tahun."
+    },
+    {
+     "id": "e8",
+     "tag": "[calm]",
+     "text": "BMKG sebelumnya bilang, musim hujan tahun ini datang terlambat. Untuk Kalimantan Tengah, diperkirakan pertengahan sampai akhir November.",
+     "say": "Sebelumnya, Be Em Ka Ge bilang, musim hujan tahun ini datang terlambat. Untuk Kalimantan Tengah, diperkirakan pertengahan sampai akhir November."
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "kicker": "MINGGU DEPAN",
+   "title": "Catat tanggalnya",
+   "lines": [
+    {
+     "id": "g0",
+     "tag": "[friendly]",
+     "text": "Cek dulu janji minggu lalu: Kamis, 5 November, Jokowi memang hadir sebagai saksi di sidang Roy Suryo.",
+     "say": "Cek dulu janji minggu lalu: Kamis, lima November, Jokowi memang hadir sebagai saksi, di sidang Roy Suryo."
+    },
+    {
+     "id": "g1",
+     "tag": "[friendly, brisk]",
+     "text": "Oke, minggu depan. Catat tanggalnya."
+    },
+    {
+     "id": "g2",
+     "tag": "[clear]",
+     "text": "Senin, 9 November. Kata Hashim Djojohadikusumo, mulai hari itu Shopee, GoTo sampai bank ikut memungut pajak digital.",
+     "say": "Senin, sembilan November. Kata Hashim Djojohadikusumo, mulai hari itu Shopee, GoTo, sampai bank, ikut memungut pajak digital."
+    },
+    {
+     "id": "g3",
+     "tag": "[leaning in]",
+     "text": "Tapi kata DJP: ini bukan pajak baru, tarif PPN tidak berubah, dan transfer pribadi tidak otomatis kena.",
+     "say": "Tapi kata, De Je Pe: ini bukan pajak baru, tarif, Pe Pe En, tidak berubah, dan transfer pribadi tidak otomatis kena."
+    },
+    {
+     "id": "g4",
+     "tag": "[clear]",
+     "text": "Selasa, 10 November: Perlinsos Digital, bansos lewat sistem digital, direncanakan meluncur. Kata Luhut, kalau tidak ada perubahan.",
+     "say": "Selasa, sepuluh November: Perlinsos Digital, bansos lewat sistem digital, direncanakan meluncur. Kata Luhut, kalau tidak ada perubahan."
+    },
+    {
+     "id": "g5",
+     "tag": "[playful]",
+     "text": "Rabu, 11 November: promo 11.11 di Shopee dan marketplace lain.",
+     "say": "Rabu, sebelas November: promo sebelas-sebelas di Shopee, dan marketplace lain."
+    },
+    {
+     "id": "g6",
+     "tag": "[serious]",
+     "text": "Kamis, 12 November dini hari WIB: menurut MSCI, hasil review indeks November diumumkan. Pasar saham kita ikut menunggu.",
+     "say": "Kamis, dua belas November, dini hari waktu Indonesia: menurut em es si ai, hasil review indeks November diumumkan. Pasar saham kita, ikut menunggu."
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "kicker": "OUTRO",
+   "title": "Sampai Sabtu depan",
+   "lines": [
+    {
+     "id": "o1",
+     "tag": "[warm, asking the viewer]",
+     "text": "Dari semua cerita minggu ini, mana yang menurutmu paling perlu dijelaskan lebih lanjut? Tulis di komentar."
+    },
+    {
+     "id": "o2",
+     "tag": "[friendly, upbeat]",
+     "text": "Follow Rangkumin Dong. Rangkumin Seminggu, tiap Sabtu pagi!"
+    }
+   ],
+   "tail": 1.2
+  }
+ ]
+}

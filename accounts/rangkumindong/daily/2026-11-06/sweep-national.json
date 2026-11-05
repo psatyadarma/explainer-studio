@@ -1,0 +1,135 @@
+{
+  "area": "national",
+  "run_date": "2026-11-06",
+  "checked": ["detik terpopuler (detikNews, as of 5 Nov 04:56 WIB)", "CNN Indonesia nasional", "ANTARA terkini", "Liputan6 cek fakta (via search)", "ANTARA humaniora (not fetched)", "CNBC Indonesia (search results only)", "watch: most-read lists", "watch: viral incidents", "watch: hoaxes", "watch: haji/umrah", "watch: disasters/karhutla", "storyline: karhutla", "storyline: listyo-sigit-penyadapan (already covered, no new development found)", "storyline: gibran-ijazah-mk (politics area, not duplicated)"],
+  "events": [
+    {
+      "date": "2026-11-05",
+      "category": "ENV",
+      "event": "BNPB reported 1,468 hotspots across six priority provinces on 5 Nov, with Central Kalimantan rising sharply from the previous day.",
+      "key_numbers": "1,468 hotspots · Kalteng 821 (+93% vs previous day) · Papua Selatan 306 · Kaltim 170 · Sulteng 68 · Sultra 54 · NTT 49 · 2,645 ha under handling (Kalteng 1,641 ha, +147%) · 5 Nov 2026",
+      "storyline": "karhutla",
+      "update_of": "E0559",
+      "status": "verified",
+      "sources": [
+        {"label": "detikNews", "url": "https://news.detik.com/berita/d-8739909/total-hotspot-karhutla-di-6-provinsi-1-468-titik-terbanyak-kalteng"},
+        {"label": "TVRI News", "url": "https://nasional.tvrinews.com/berita/t9trw1h-bnpb-catat-1468-titik-panas-karhutla-kalimantan-tengah-tertinggi"},
+        {"label": "ANTARA", "url": "https://www.antaranews.com/berita/5834527/bnpb-titik-panas-dan-luas-karhutla-di-kalteng-meningkat"}
+      ],
+      "why_it_matters": "Hotspots are climbing again in Central Kalimantan just as the haze health toll passes 400 thousand cases.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "Covered by detik, TVRI, ANTARA, Kontan, Media Indonesia, CNBC Indonesia video the same day",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-04",
+      "category": "NEWS",
+      "event": "The Satgas PKH forest-area task force said it will take over all forest areas affiliated with nickel businessman Arif Kurniawan (AK) and is examining possible involvement of law-enforcement personnel.",
+      "key_numbers": "Announced 4 Nov 2026 by spokesperson Barita Simanjuntak · steps: inventory and verification, administrative fines, asset recovery · Suara.com (citing Bloomberg/Mining reports, unverified): ~71,000 ha of nickel concessions, ~one-third of national nickel ore trade, ~US$3 miliar sales in 2024",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261104235501-12-1423446/satgas-pkh-ambil-alih-seluruh-lahan-yang-terafiliasi-arif-kurniawan"},
+        {"label": "detikNews", "url": "https://news.detik.com/berita/d-8738860/tertibkan-penguasaan-hutan-ilegal-satgas-pkh-dalami-kaitan-oknum-aparat"},
+        {"label": "Suara.com", "url": "https://www.suara.com/bisnis/2026/11/05/165308/siapa-arif-kurniawan-raja-nikel-yang-diduga-sedang-dibidik-satgas-pkh"}
+      ],
+      "why_it_matters": "One of the biggest forest-area seizures aimed at a single nickel network, with the possible role of officers still unexplained.",
+      "signals": {"spreading": 2, "wallet": 1, "surprise": 2, "visual": 1, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "detikNews terpopuler #9; CNN Indonesia nasional #2; Suara.com 'Siapa Arif Kurniawan' explainer",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-04",
+      "category": "POL",
+      "event": "Aceh Governor Muzakir Manaf (Mualem) met President Prabowo at the Istana to discuss continuation of Dana Otsus, legal certainty for the Aceh flag and an endowment fund for former GAM combatants.",
+      "key_numbers": "Meeting 4 Nov 2026 · 6 agenda items (Dana Otsus, bendera Aceh, Blang Padang waqf land, 2017 presidential letter on PATNA, Blok Rantau, GAM endowment fund) · no amounts stated in the CNN report · Prabowo reportedly responded positively (per Mualem)",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261104225924-32-1423445/mualem-temui-prabowo-bahas-bendera-aceh-dana-abadi-eks-kombatan-gam"},
+        {"label": "Kumparan", "url": "https://kumparan.com/kumparannews/mualem-temui-prabowo-di-istana-bahas-dana-otsus-hingga-kepastian-hukum-bendera-aceh-28VdqVHgotp"}
+      ],
+      "why_it_matters": "Aceh's special-autonomy money and the long-disputed flag decide how much Jakarta shares with the province.",
+      "signals": {"spreading": 2, "wallet": 1, "surprise": 1, "visual": 0, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "detikNews terpopuler #2; CNN Indonesia nasional #3",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-05",
+      "category": "NEWS",
+      "event": "Demokrat DPR member Zulfikar Achmad (Komisi VIII, Jambi) died; the DPR announced it and expressed condolences.",
+      "key_numbers": "Announced 4-5 Nov 2026 · Komisi VIII · Dapil Jambi · described as the oldest Demokrat member of the 2024-2029 DPR (another outlet says 80, unconfirmed) · cause not stated",
+      "storyline": "",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261105063345-32-1423465/anggota-dpr-ri-zulfikar-achmad-meninggal-dunia"},
+        {"label": "detikNews", "url": "https://news.detik.com/berita/d-8738843/anggota-dpr-ri-fraksi-demokrat-zulfikar-achmad-meninggal-dunia"}
+      ],
+      "why_it_matters": "A news item, but thin for an explainer; the seat goes to a replacement (PAW) from the party list.",
+      "signals": {"spreading": 2, "wallet": 0, "surprise": 0, "visual": 0, "fresh": 2, "rivals": 0},
+      "spreading_evidence": "detikNews terpopuler #5; CNN Indonesia nasional #1",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-04",
+      "category": "NEWS",
+      "event": "A video of a Semarang (Banyumanik) bakso stall worker dumping broth waste into a drain in front of a resident's house went viral; the city environment office (DLH) found an SOP violation and the dispute ended in mediation.",
+      "key_numbers": "Mediation 4 Nov 2026 · practice reportedly ~2 years · DLH: stall is UMKM, will be guided with an obligation letter rather than heavy sanction · fixes: grease trap + sumur resapan short-term, portable IPAL medium-term",
+      "storyline": "",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "detik Jateng", "url": "https://www.detik.com/jateng/berita/d-8738608/kasus-limbah-bakso-di-banyumanik-dimediasi-dlh-temukan-pelanggaran-sop/amp"},
+        {"label": "Kumparan", "url": "https://kumparan.com/kumparannews/polemik-limbah-bakso-dibuang-ke-got-di-semarang-berakhir-damai-pemilik-warung-janji-pasang-filter-28W2D6hxGjZ"},
+        {"label": "Radar Semarang", "url": "https://radarsemarang.jawapos.com/semarang/2611050052/viral-warga-banyumanik-cekcok-dengan-penjual-bakso-gegara-limbah-kuah-dibuang-ke-got"}
+      ],
+      "why_it_matters": "A familiar street-food problem: who pays for waste handling when small stalls share a drain with homes.",
+      "signals": {"spreading": 2, "wallet": 1, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "detikNews terpopuler #8; viral video covered by detik, Kompas, Kumparan, TVOne, Radar Semarang",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-05",
+      "category": "NEWS",
+      "event": "Liputan6 Cek Fakta flagged fake Petugas Haji 2027 registration links (Facebook and TikTok) that promise free hajj and high pay and collect names and Telegram numbers.",
+      "key_numbers": "Facebook post 2 Nov 2026 · claims Rp30-45 juta salary per season · asks for full name + Telegram number · earlier fake 2026 link from 13 Apr 2026 · links not from official government sources",
+      "storyline": "",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "Liputan6 Cek Fakta", "url": "https://www.liputan6.com/cek-fakta/read/8328929/kumpulan-hoaks-pendaftaran-petugas-haji-simak-daftar-dan-faktanya"},
+        {"label": "RRI", "url": "https://rri.co.id/batam/cek-fakta/2178081/hoaks-tautan-pendaftaran-seleksi-petugas-haji-2027"}
+      ],
+      "why_it_matters": "People hoping for a hajj-officer job can hand their personal data to scammers.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "Multiple outlets (Liputan6, RRI) debunking the same day; hoax circulating on Facebook and TikTok",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-05",
+      "category": "NEWS",
+      "event": "The Wamenhaj gave an umrah prize after the search of the Hamalatul Qur'an pesantren, per ANTARA's terkini list.",
+      "key_numbers": "Details not read; headline only",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "ANTARA Terkini", "url": "https://www.antaranews.com/terkini"}
+      ],
+      "why_it_matters": "Unclear from the headline; needs the article before any use.",
+      "signals": {"spreading": 0, "wallet": 0, "surprise": 1, "visual": 0, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "",
+      "sensitivity": "high"
+    }
+  ],
+  "gaps": [
+    "Run date 2026-11-06 but pages were read on 5 Nov (detik page stamped 5 Nov 04:56 WIB); items from 6 Nov are not covered.",
+    "Hamalatul Qur'an pesantren search (Wamenhaj umrah gift): only a headline seen, reason for the search unknown.",
+    "Madiun murder case (new suspect motive, victim family forgave suspect) and Jakarta Bappeda head death: seen on CNN Indonesia, not checked.",
+    "Jokowi ijazah / Roy Suryo trial and Gibran diploma reactions are POL-area; not duplicated here.",
+    "Antara cek-fakta / turnbackhoax pages not fetched; hoax items come from Liputan6 via search."
+  ]
+}

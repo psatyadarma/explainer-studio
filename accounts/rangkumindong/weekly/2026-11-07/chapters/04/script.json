@@ -1,0 +1,59 @@
+{
+ "direction": "[clear, steady weekly recap; neutral, attributed]",
+ "lines": [
+  {
+   "id": "d1",
+   "tag": "[curious]",
+   "text": "Kamis, ada satu angka yang bikin banyak ekonom meleset."
+  },
+  {
+   "id": "d2",
+   "tag": "[shocked]",
+   "text": "BPS: ekonomi Indonesia kuartal ketiga tumbuh 5,47 persen. Konsensus 15 lembaga: sekitar 5,2 persen.",
+   "say": "Be Pe Es: ekonomi Indonesia kuartal ketiga tumbuh lima koma empat tujuh persen. Konsensus lima belas lembaga: sekitar lima koma dua persen."
+  },
+  {
+   "id": "d3",
+   "tag": "[explaining]",
+   "text": "Kuartal sebelumnya, 5,29 persen. Jadi, lebih kencang.",
+   "say": "Kuartal sebelumnya, lima koma dua sembilan persen. Jadi, lebih kencang."
+  },
+  {
+   "id": "d4",
+   "tag": "[explaining]",
+   "text": "Penyumbang terbesar: konsumsi rumah tangga, tumbuh 5,04 persen. Investasi, 6,06 persen.",
+   "say": "Penyumbang terbesar: konsumsi rumah tangga, tumbuh lima koma nol empat persen. Investasi, enam koma nol enam persen."
+  },
+  {
+   "id": "d5",
+   "tag": "[leaning in]",
+   "text": "Tapi yang paling ngebut: belanja pemerintah, 8,95 persen. Kata BPS, karena gaji dan tunjangan ASN naik, plus belanja seperti Makan Bergizi Gratis.",
+   "say": "Tapi yang paling ngebut: belanja pemerintah, delapan koma sembilan lima persen. Kata, Be Pe Es, karena gaji dan tunjangan, A Es En, naik, plus belanja seperti Makan Bergizi Gratis."
+  },
+  {
+   "id": "d6",
+   "tag": "[matter-of-fact]",
+   "text": "Data lain minggu ini. Inflasi Oktober: 3,23 persen setahun. Penyumbang utamanya, cabai merah.",
+   "say": "Data lain minggu ini. Inflasi Oktober: tiga koma dua tiga persen setahun. Penyumbang utamanya, cabai merah."
+  },
+  {
+   "id": "d7",
+   "tag": "[matter-of-fact]",
+   "text": "Neraca dagang September surplus 3,36 miliar dolar. Di atas perkiraan ekonom.",
+   "say": "Neraca dagang September, surplus tiga koma tiga enam miliar dolar. Di atas perkiraan ekonom."
+  },
+  {
+   "id": "d8",
+   "tag": "[serious]",
+   "text": "Dan dari OJK: utang pinjol per September tembus Rp106,48 triliun. Naik 17 persen setahun.",
+   "say": "Dan dari, O Je Ka: utang pinjol per September tembus seratus enam koma empat delapan triliun rupiah. Naik tujuh belas persen setahun."
+  },
+  {
+   "id": "d9",
+   "tag": "[neutral]",
+   "text": "Kamis itu juga, rupiah ditutup menguat ke sekitar Rp18.080 per dolar.",
+   "say": "Kamis itu juga, rupiah ditutup menguat, ke sekitar delapan belas ribu delapan puluh per dolar."
+  }
+ ],
+ "tail": 0.6
+}

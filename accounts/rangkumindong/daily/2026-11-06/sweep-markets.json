@@ -1,0 +1,360 @@
+{
+  "area": "markets",
+  "run_date": "2026-11-06",
+  "checked": [
+    "CNBC Indonesia /market (31 headlines, 5 Nov; terpopuler list empty)",
+    "detikFinance front page + terpopuler",
+    "Bisnis.com (via search results: IHSG close, SBN ST017)",
+    "Antara ekonomi (via search: GDP)",
+    "watch list found: IHSG close, foreign flow, rupiah, OJK actions, BPS GDP, debt, MSCI, PHK, acquisitions, Fed",
+    "storylines searched: msci-reclassification, rupiah, survival-mode (PHK)"
+  ],
+  "events": [
+    {
+      "date": "2026-11-05",
+      "category": "ECO",
+      "event": "BPS reported Indonesia's Q3 2026 GDP grew 5.47% year on year, well above the roughly 5.2% consensus.",
+      "key_numbers": "GDP +5.47% yoy (Q3 2026) · consensus 5.20% (CNBC poll of 15 institutions); Permata 5.23%, Danamon ~5%, LPEM UI 5.28% · Q2 2026 5.29%, Q1 2026 5.61% · household consumption +5.04% (2.62 pp contribution) · investment (PMTB) +6.06% · government consumption +8.95% (MBG, civil-servant pay) · manufacturing 1.20 pp, trade 0.94 pp, construction 0.62 pp, ICT 0.49 pp · nominal GDP Rp6,741.0 T · unemployed 7.38 million in Aug 2026 (-77,000 yoy)",
+      "storyline": "growth-outlook",
+      "update_of": "E0455",
+      "status": "verified",
+      "sources": [
+        {
+          "label": "Antara",
+          "url": "https://antaranews.com/berita/5833219/bps-ekonomi-ri-tumbuh-547-persen-pada-triwulan-iii-2026"
+        },
+        {
+          "label": "detikFinance",
+          "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8739639/bps-jelaskan-ekonomi-kuartal-iii-2026-bisa-tumbuh-5-47-jauh-di-atas-proyeksi"
+        },
+        {
+          "label": "CNBC Indonesia",
+          "url": "https://www.cnbcindonesia.com/market/20261105150700-17-782664/rupiah-ditutup-menguat-044-dolar-as-turun-ke-rp18075"
+        }
+      ],
+      "why_it_matters": "Ekonomi tumbuh lebih cepat dari perkiraan di tengah pasar saham yang jatuh, tapi sebagian dorongan datang dari belanja pemerintah (MBG, gaji ASN).",
+      "signals": {
+        "spreading": 2,
+        "wallet": 1,
+        "surprise": 2,
+        "visual": 2,
+        "fresh": 2,
+        "rivals": 1
+      },
+      "spreading_evidence": "detikFinance, CNBC Indonesia and Antara all headline it; detik terpopuler has BPS explainer story",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-05",
+      "category": "MKT",
+      "event": "The IHSG rebounded 2.25% to close at 5,030.26 on 5 November, back above 5,000 after the 3 November crash.",
+      "key_numbers": "IHSG 5,030.26 (+110.49 pts, +2.25%) · open 4,998.34, low 4,995.46, high 5,072.05 · turnover about Rp9.06 T, 212.92 million lots · sectors: technology +4.60%, basic materials +3.48% · gainers BBCA, AMMN, TLKM, MDKA, BBNI · draggers BRPT, AADI, TPIA, EXCL, PANI · previous close 4,919.77 (4 Nov)",
+      "storyline": "msci-reclassification",
+      "update_of": "E0545",
+      "status": "verified",
+      "sources": [
+        {
+          "label": "CNBC Indonesia",
+          "url": "https://www.cnbcindonesia.com/market/20261105135235-17-782680/ihsg-ditutup-menguat-225-ke-level-503026"
+        },
+        {
+          "label": "Bisnis.com",
+          "url": "https://market.bisnis.com/read/20261105/7/2018804/ihsg-ditutup-naik-225-ke-5030-saham-bbca-bbri-ammn-kompak-hijau"
+        }
+      ],
+      "why_it_matters": "IHSG kembali di atas 5.000 setelah anjlok, dipicu kabar PDB; investor ritel lihat apakah pemulihan ini bertahan.",
+      "signals": {
+        "spreading": 1,
+        "wallet": 1,
+        "surprise": 1,
+        "visual": 2,
+        "fresh": 2,
+        "rivals": 0
+      },
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-05",
+      "category": "MKT",
+      "event": "The rupiah strengthened 0.44% to Rp18,075 per US dollar on 5 November on the GDP beat and a softer dollar.",
+      "key_numbers": "Rp18,075/US$ (Refinitiv) vs Rp18,155 on 4 Nov (+0.44%) · intraday Rp18,055-18,170 · DXY -0.16% to 101.405",
+      "storyline": "rupiah",
+      "update_of": "E0524",
+      "status": "verified",
+      "sources": [
+        {
+          "label": "CNBC Indonesia",
+          "url": "https://www.cnbcindonesia.com/market/20261105150700-17-782664/rupiah-ditutup-menguat-044-dolar-as-turun-ke-rp18075"
+        }
+      ],
+      "why_it_matters": "Rupiah masih di atas Rp18.000, jadi harga barang impor dan cicilan berdolar tetap tertekan.",
+      "signals": {
+        "spreading": 1,
+        "wallet": 1,
+        "surprise": 0,
+        "visual": 1,
+        "fresh": 2,
+        "rivals": 1
+      },
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-05",
+      "category": "MKT",
+      "event": "OJK said foreign investors net sold Rp16.88 trillion of Indonesian stocks in October 2026 while the IHSG fell 16.7%, blaming the MSCI reclassification announcement.",
+      "key_numbers": "foreign net sell Rp16.88 T (Oct 2026) · IHSG 5,057 at end-Oct, -16.7% mom · foreign net buy of SBN Rp9.55 T · average daily value Rp16.31 T (Sep Rp14.94 T; YTD Rp20.34 T) · investors +1.38 million in a month to 33.55 million (+64.75% YTD) · 26 offerings worth Rp24.46 T in pipeline · mutual fund NAV Rp620.14 T (-2.66% mom)",
+      "storyline": "msci-reclassification",
+      "update_of": "E0441",
+      "status": "verified",
+      "sources": [
+        {
+          "label": "CNBC Indonesia",
+          "url": "https://www.cnbcindonesia.com/market/20261105143322-17-782648/msci-bikin-ihsg-babak-belur-167-investor-asing-kabur-rp1688-t"
+        },
+        {
+          "label": "detikFinance",
+          "url": "https://finance.detik.com/bursa-dan-valas/d-8739674/asing-kabur-dari-pasar-saham-ri-bawa-duit-rp-16-88-triliun"
+        }
+      ],
+      "why_it_matters": "Asing keluar dari saham tapi masuk ke obligasi, sementara jumlah investor ritel domestik terus naik.",
+      "signals": {
+        "spreading": 2,
+        "wallet": 1,
+        "surprise": 1,
+        "visual": 2,
+        "fresh": 2,
+        "rivals": 1
+      },
+      "spreading_evidence": "detikFinance terpopuler #2",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-05",
+      "category": "MKT",
+      "event": "OJK said it imposed Rp2.23 trillion in administrative fines on 169 capital-market violators in January-October 2026, plus licence revocations and suspensions.",
+      "key_numbers": "fines Rp2.23 T on 169 parties (Jan-Oct 2026) · 6 licence revocations · 8 licence suspensions · 1 registration certificate cancelled · 27 written warnings · 5 written orders",
+      "storyline": "msci-reclassification",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {
+          "label": "detikFinance",
+          "url": "https://finance.detik.com/bursa-dan-valas/d-8739683/ojk-jatuhkan-denda-rp-2-23-triliun-buat-169-pelanggar-pasar-modal"
+        },
+        {
+          "label": "CNBC Indonesia",
+          "url": "https://www.cnbcindonesia.com/market/20261105144151-17-782650/perkuat-pengawasan-pelanggar-pasar-modal-kena-sikat-ojk-ini-datanya"
+        }
+      ],
+      "why_it_matters": "OJK menunjukkan penegakan aturan pasar modal, hal yang disorot MSCI dan investor asing.",
+      "signals": {
+        "spreading": 2,
+        "wallet": 0,
+        "surprise": 1,
+        "visual": 2,
+        "fresh": 2,
+        "rivals": 1
+      },
+      "spreading_evidence": "detikFinance terpopuler #3",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-05",
+      "category": "ECO",
+      "event": "The Finance Ministry's debt office reported government debt of Rp10,326.93 trillion at end-September 2026, 40.30% of GDP.",
+      "key_numbers": "debt Rp10,326.93 T (30 Sep 2026) · +Rp33.24 T from Rp10,293.69 T at end-June · debt/GDP 40.30% vs 41.26% in Q2 · SBN Rp8,962.40 T (86.79%) · loans Rp1,364.53 T (13.21%)",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {
+          "label": "CNBC Indonesia",
+          "url": "https://www.cnbcindonesia.com/market/20261105190136-17-782759/utang-pemerintah-rp103269-t-di-kuartal-iii-2026-setara-4030-pdb"
+        }
+      ],
+      "why_it_matters": "Utang Rp10.000 triliun lebih terdengar menakutkan, tapi rasio terhadap PDB justru turun karena ekonomi tumbuh cepat.",
+      "signals": {
+        "spreading": 1,
+        "wallet": 1,
+        "surprise": 2,
+        "visual": 2,
+        "fresh": 2,
+        "rivals": 1
+      },
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-05",
+      "category": "BIZ",
+      "event": "OJK told Bank MNC Internasional (BABP) to resolve customers' withdrawal problems, saying the bank still meets minimum capital and urging customers not to panic.",
+      "key_numbers": "BABP shares -65% in 10 months · deposits down about Rp2.7 T in a year · Q3 2026 profit -22%, deposits -17% · one customer cited a Rp500,000 withdrawal cap at a branch on 2 Nov · BABP still meets capital requirement",
+      "storyline": "",
+      "update_of": "E0527",
+      "status": "partial",
+      "sources": [
+        {
+          "label": "CNBC Indonesia",
+          "url": "https://www.cnbcindonesia.com/market/20261105153336-17-782672/ojk-minta-mnc-bank--babp--segera-bereskan-masalah-nasabah"
+        },
+        {
+          "label": "CNBC Indonesia",
+          "url": "https://www.cnbcindonesia.com/market/20261104093053-17-782140/dalam-10-bulan-saham-mnc-bank--babp--sudah-longsor-65"
+        }
+      ],
+      "why_it_matters": "Nasabah bank yang kesulitan menarik uang bikin orang cemas soal keamanan tabungan, padahal simpanan dijamin LPS sampai batas tertentu.",
+      "signals": {
+        "spreading": 1,
+        "wallet": 2,
+        "surprise": 2,
+        "visual": 1,
+        "fresh": 2,
+        "rivals": 1
+      },
+      "spreading_evidence": "",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-05",
+      "category": "ECO",
+      "event": "OJK reported outstanding online lending (pinjol) debt reached Rp106.48 trillion in September 2026, with non-performing loans above 5%.",
+      "key_numbers": "outstanding Rp106.48 T (Sep 2026), +17.02% yoy · TWP90 5.36% · MSME financing +12.49% yoy · bank credit growth 13% (CNBC headline) · OJK asked banks to block 39,923 accounts linked to online gambling",
+      "storyline": "",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {
+          "label": "detikFinance",
+          "url": "https://finance.detik.com/moneter/d-8739691/utang-pinjol-warga-ri-tembus-rp-106-48-triliun"
+        },
+        {
+          "label": "CNBC Indonesia",
+          "url": "https://www.cnbcindonesia.com/market/20261105145356-17-782659/utang-pinjol-capai-rp10648-t-kredit-macet-tembus-5"
+        }
+      ],
+      "why_it_matters": "Utang pinjol naik cepat dan kredit macetnya di atas 5%, tanda tekanan di kantong banyak orang.",
+      "signals": {
+        "spreading": 1,
+        "wallet": 2,
+        "surprise": 1,
+        "visual": 2,
+        "fresh": 2,
+        "rivals": 1
+      },
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-03",
+      "category": "ECO",
+      "event": "KSPI and Partai Buruh president Said Iqbal estimated layoffs could exceed 90,000 workers by end-2026, citing about 83,000 so far in Ministry of Manpower data.",
+      "key_numbers": "KSPI estimate above 90,000 by end-2026 · about 83,000 per Kemnaker (as cited by Said) · KSPI count ~70,000 as of June · PT Ghim Li Indonesia (Batam) about 1,170 workers · PT Parkland World Indonesia 6 (Lebak) closed; Jepara plant still about 8,000 workers · detik: seamless pipe imports threaten layoffs",
+      "storyline": "survival-mode",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {
+          "label": "CNN Indonesia",
+          "url": "https://www.cnnindonesia.com/ekonomi/20261103205551-92-1422939/serikat-pekerja-taksir-korban-phk-ri-tembus-90-ribu-orang-tahun-ini"
+        }
+      ],
+      "why_it_matters": "PHK terus terjadi di tekstil dan alas kaki meski PDB tumbuh 5,47%, jadi angka pertumbuhan belum tentu terasa di pekerja pabrik.",
+      "signals": {
+        "spreading": 1,
+        "wallet": 2,
+        "surprise": 2,
+        "visual": 1,
+        "fresh": 1,
+        "rivals": 1
+      },
+      "spreading_evidence": "detikFinance terpopuler #4 covers PHK risk from pipe imports",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-06",
+      "category": "BIZ",
+      "event": "Ultrajaya (ULTJ) holds an EGM on 6 November to approve acquiring 100% of PT Frisian Flag Indonesia for Rp14.57 trillion via a rights issue, making FrieslandCampina its controlling shareholder.",
+      "key_numbers": "deal Rp14.57 T, non-cash (inbreng) · up to 7.88 billion new shares at Rp2,150 exercise price, ~6.78 billion to FFI sellers · sellers: FrieslandCampina 78.09%, Blue Waves 16.91%, Bahtera Wiraniaga 5% · Sabana Prawirawidjaja stake 53.17% -> 32.19% · max dilution 43.11% · EGM postponed from 27 Oct after OJK asked for clarification · mandatory tender offer follows",
+      "storyline": "",
+      "update_of": "",
+      "status": "upcoming",
+      "sources": [
+        {
+          "label": "CNBC Indonesia",
+          "url": "https://www.cnbcindonesia.com/market/20261105133506-17-782625/besok-penentuan-ultj-minta-restu-caplok-frisian-flag-rp1457-t"
+        }
+      ],
+      "why_it_matters": "Susu Ultra Milk dan Frisian Flag, dua merek yang ada di rumah banyak orang, akan digabung dalam satu perusahaan.",
+      "signals": {
+        "spreading": 1,
+        "wallet": 1,
+        "surprise": 2,
+        "visual": 2,
+        "fresh": 2,
+        "rivals": 2
+      },
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-06",
+      "category": "GLB",
+      "event": "US jobs data is due on 6 November, with markets pricing a Fed rate hike in December as likely, which matters for the rupiah.",
+      "key_numbers": "Fed hike odds for December 80.7% (Reuters/CME FedWatch via CNBC Indonesia; other outlets cite different figures) · US payrolls due Fri 6 Nov · DXY 101.405 · rupiah Rp18,075",
+      "storyline": "rupiah",
+      "update_of": "",
+      "status": "upcoming",
+      "sources": [
+        {
+          "label": "CNBC Indonesia",
+          "url": "https://www.cnbcindonesia.com/market/20261105150700-17-782664/rupiah-ditutup-menguat-044-dolar-as-turun-ke-rp18075"
+        }
+      ],
+      "why_it_matters": "Kenaikan bunga The Fed bisa menekan rupiah lagi dan membuat BI sulit menurunkan bunga.",
+      "signals": {
+        "spreading": 0,
+        "wallet": 1,
+        "surprise": 1,
+        "visual": 1,
+        "fresh": 2,
+        "rivals": 1
+      },
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-05",
+      "category": "BIZ",
+      "event": "GoTo said shareholders approved on 14 October cancelling its treasury shares and ending its buyback, with analysts saying it trades at a deep discount to peers.",
+      "key_numbers": "RUPSLB approval 14 Oct 2026 · GoTo Q3 2026 net profit Rp441 billion (third profitable quarter) · EV/EBITDA 3.3x vs 13-14x peers (Kiwoom Sekuritas)",
+      "storyline": "",
+      "update_of": "E0461",
+      "status": "partial",
+      "sources": [
+        {
+          "label": "CNBC Indonesia",
+          "url": "https://www.cnbcindonesia.com/market/20261105170912-17-782719/goto-batalkan-saham-tresuri-dan-buyback-ini-efeknya-ke-investor"
+        }
+      ],
+      "why_it_matters": "Pemegang saham GOTO punya persentase kepemilikan lebih besar tanpa menambah saham.",
+      "signals": {
+        "spreading": 0,
+        "wallet": 1,
+        "surprise": 0,
+        "visual": 0,
+        "fresh": 2,
+        "rivals": 1
+      },
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    }
+  ],
+  "gaps": [
+    "Bisnis.com ST017 SBN coupon up to 7.5% story could not be fetched (failed); SBN yield jump unverified",
+    "CNBC: crypto transactions +31.96% to Rp30.56 T (OJK) seen only as headline, not opened",
+    "Next BI RDG date not confirmed; Fed hike odds differ between outlets (CNBC 80.7%)",
+    "GDP qoq figure of 1.59% appears only in CNBC rupiah article, not in BPS-sourced pieces"
+  ]
+}

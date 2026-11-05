@@ -1,0 +1,52 @@
+{
+ "direction": "[clear, steady weekly recap; neutral, attributed]",
+ "lines": [
+  {
+   "id": "e1",
+   "tag": "[serious]",
+   "text": "Minggu lalu kami tanya: asap mulai reda? Minggu ini, jawabannya: belum."
+  },
+  {
+   "id": "e2",
+   "tag": "[shocked]",
+   "text": "Kamis, BNPB catat 1.468 titik panas. Paling banyak di Kalimantan Tengah: 821 titik. Naik 93 persen dari sehari sebelumnya.",
+   "say": "Kamis, Be En Pe Be catat seribu empat ratus enam puluh delapan titik panas. Paling banyak di Kalimantan Tengah: delapan ratus dua puluh satu titik. Naik sembilan puluh tiga persen, dari sehari sebelumnya."
+  },
+  {
+   "id": "e3",
+   "tag": "[explaining]",
+   "text": "Lahan yang sedang ditangani: 2.645 hektare.",
+   "say": "Lahan yang sedang ditangani: dua ribu enam ratus empat puluh lima hektare."
+  },
+  {
+   "id": "e4",
+   "tag": "[serious]",
+   "text": "Rabu, helikopter Mi-17 TNI AD yang sedang water bombing jatuh di Seruyan, Kalimantan Tengah.",
+   "say": "Rabu, helikopter em i tujuh belas, Te En I A De, yang sedang water bombing, jatuh di Seruyan, Kalimantan Tengah."
+  },
+  {
+   "id": "e5",
+   "tag": "[somber]",
+   "text": "Dari delapan awak, kata Pangdam Tambun Bungai, dua meninggal. Lima dirawat, dan satu masih dicari, sampai Kamis sore."
+  },
+  {
+   "id": "e6",
+   "tag": "[serious]",
+   "text": "Lalu dampaknya ke kesehatan. Kemenkes catat 401.586 kasus ISPA terkait asap, di 7 provinsi.",
+   "say": "Lalu dampaknya ke kesehatan. Kemenkes catat empat ratus satu ribu lima ratus delapan puluh enam kasus ispa, terkait asap, di tujuh provinsi."
+  },
+  {
+   "id": "e7",
+   "tag": "[leaning in]",
+   "text": "Tapi angka yang sering terlewat: 91.913 di antaranya anak umur 0 sampai 5 tahun.",
+   "say": "Tapi angka yang sering terlewat: sembilan puluh satu ribu sembilan ratus tiga belas di antaranya, anak umur nol sampai lima tahun."
+  },
+  {
+   "id": "e8",
+   "tag": "[calm]",
+   "text": "BMKG sebelumnya bilang, musim hujan tahun ini datang terlambat. Untuk Kalimantan Tengah, diperkirakan pertengahan sampai akhir November.",
+   "say": "Sebelumnya, Be Em Ka Ge bilang, musim hujan tahun ini datang terlambat. Untuk Kalimantan Tengah, diperkirakan pertengahan sampai akhir November."
+  }
+ ],
+ "tail": 0.6
+}

@@ -232,5 +232,18 @@
 "ideas": 5,
 "factcheck_fixes": null,
 "areas_ok": 4
+},
+{
+"date": "2026-11-06",
+"steps_done": 5,
+"steps_total": 15,
+"last_step": "Ideas sent",
+"next_step": "Topic picked",
+"events_found": 33,
+"events_new": 29,
+"duplicates": 4,
+"ideas": 4,
+"factcheck_fixes": null,
+"areas_ok": 4
 }
 ]

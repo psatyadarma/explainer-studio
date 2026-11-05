@@ -1,0 +1,99 @@
+{
+  "area": "business",
+  "run_date": "2026-11-06",
+  "checked": ["cnbcindonesia.com/tech", "inet.detik.com (headlines + Most Popular)", "cnnindonesia.com/teknologi", "katadata digital (via search)", "storylines: crypto-hacks (Binance search), ai-data-centres, chip-ram-prices, ojol-regulation, ecommerce-seller-rules", "watch-list hits: data leak (Fore), consumer tech prices/memory crunch, AI/data centres, Big Tech (Grab, OpenAI), government digital services (Satu Data)"],
+  "events": [
+    {
+      "date": "2026-11-05",
+      "category": "TECH",
+      "event": "Fore Coffee (PT Fore Kopi Indonesia Tbk) reported a personal-data protection failure to Komdigi, with an initial investigation putting 5.7 million customer accounts affected; Komdigi is still examining the report.",
+      "key_numbers": "5.7 juta akun pelanggan · dilaporkan ke Komdigi 28 Okt 2026 · akses dihentikan dalam 24 jam (klaim Fore) · sanksi administratif belum ditentukan · Perpres lembaga pengawas PDP di tahap akhir, sudah di Presiden via Setneg",
+      "storyline": "",
+      "update_of": "E0424",
+      "status": "partial",
+      "sources": [{"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/tech/20261105084917-37-782483/fore-lapor-data-pelanggan-bocor-ke-komdigi-begini-sanksinya"}],
+      "why_it_matters": "Jutaan akun pelanggan kopi yang dipakai sehari-hari bocor, dan belum jelas sanksi apa yang menunggu karena lembaga pengawas data pribadi belum ada.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "CNBC Indonesia tech front page 5 Nov; data types not specified in the article",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-05",
+      "category": "TECH",
+      "event": "CNBC Indonesia reports Apple CEO John Ternus called current memory prices unprecedented and Counterpoint says global smartphone shipments fell about 20% y/y in Q3 2026, the lowest third quarter since 2012, as AI infrastructure absorbs chip supply.",
+      "key_numbers": "Pengiriman HP global turun ~20% y/y Q3 2026 · terendah untuk kuartal III sejak 2012 · persediaan Apple US$14,54 miliar (+31,1% q/q, +154,3% y/y) · Apple: biaya memori naik lagi di kuartal Des · Apple sudah naikkan harga Mac/iPad (akhir Juni) dan iPhone (Sep)",
+      "storyline": "chip-ram-prices",
+      "update_of": "E0504",
+      "status": "partial",
+      "sources": [{"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/tech/20261105085718-37-782485/krisis-makin-parah-pedagang-hp-beberkan-faktanya"}],
+      "why_it_matters": "Harga HP dan laptop diperkirakan terus naik dan pilihan murah menyusut, jadi menunda beli bisa berarti bayar lebih mahal.",
+      "signals": {"spreading": 1, "wallet": 2, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "CNBC Indonesia tech front page; follows E0504 and E0463 coverage; Indonesian dealer figures not given in the article body as read",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-04",
+      "category": "GLB",
+      "event": "Data-center and power stocks fell on Wall Street after the Democratic Party won the US mid-terms and took control of Congress, amid local protests over data centers' electricity and water use.",
+      "key_numbers": "CoreWeave -9,5% · Applied Digital -8,8% · Cipher Digital -21% · GE Vernova -11,5% · Constellation Energy -9,2% · Vistra -15,4% (4 Nov 2026 US time) · jumlah proyek dan nilai tidak disebut",
+      "storyline": "ai-data-centres",
+      "update_of": "",
+      "status": "partial",
+      "sources": [{"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/tech/20261105113505-37-782576/ditolak-warga-proyek-data-center-kini-terancam-bubar"}],
+      "why_it_matters": "Gelombang investasi data center AI, termasuk yang masuk ke Indonesia, bisa jadi lebih mahal dan lebih diawasi.",
+      "signals": {"spreading": 2, "wallet": 0, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "CNBC Indonesia ran two data-center-backlash pieces (4 and 5 Nov); detikInet headline 'Demokrat Menang, Ratusan Proyek Data Center AI Terancam' (page not readable)",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-05",
+      "category": "TECH",
+      "event": "OpenAI demonstrated Dots, an early-preview proactive AI assistant that handles email, travel and reminders on its own, at an Asia Pacific media briefing.",
+      "key_numbers": "Demo: 35 email -> 20 bisa ditangani, 10 perlu perhatian, 5 tidak relevan · 145 foto dirapikan · 5 akun Gmail tersambung · harga dan tanggal rilis resmi tidak disebut",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [{"label": "detikInet", "url": "https://inet.detik.com/consumer/d-8739740/kenalan-dengan-dots-asisten-ai-openai-yang-bisa-kerja-sendiri"}],
+      "why_it_matters": "AI yang bekerja sendiri mengurus email dan jadwal mulai menggantikan sekadar chatbot, dengan pertanyaan baru soal akses ke data pribadi.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "detikInet Gadget News + News Feed (two related pieces)",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-05",
+      "category": "TECH",
+      "event": "Communications and Digital Minister Meutya Hafid said the Satu Data Indonesia law will let agencies reuse verified data so citizens stop repeating forms and document submissions, using the SPLP connector, PDN and JIP.",
+      "key_numbers": "Sistem Penghubung Layanan Pemerintah (SPLP) di atas PDN dan JIP · data tetap di instansi sumber · harus selaras UU ITE dan UU PDP · tanpa tenggat atau angka target",
+      "storyline": "",
+      "update_of": "E0448",
+      "status": "partial",
+      "sources": [{"label": "detikInet", "url": "https://inet.detik.com/law-and-policy/d-8740303/satu-data-indonesia-warga-dijanjikan-tak-lagi-bolak-balik-urus-dokumen"}],
+      "why_it_matters": "Janji tidak perlu lagi bolak-balik urus dokumen, tetapi pengawas data pribadinya belum terbentuk.",
+      "signals": {"spreading": 2, "wallet": 1, "surprise": 0, "visual": 1, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "detikInet Most Popular #2 (and another Satu Data piece as Top Headline #4)",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-04",
+      "category": "BIZ",
+      "event": "Grab reported Q3 2026 adjusted EBITDA up 74% to US$237 million, beating the Bloomberg consensus, while Katadata notes the Indonesian cut to scooter commission caps and further rules under consideration.",
+      "key_numbers": "Adj. EBITDA US$237 juta (+74%) vs konsensus US$194,2 juta · pendapatan US$1,1 miliar (+27%) · target EBITDA 2028 US$1,7 miliar · angka komisi 8% ada di judul, tidak di isi artikel",
+      "storyline": "ojol-regulation",
+      "update_of": "",
+      "status": "partial",
+      "sources": [{"label": "Katadata", "url": "https://katadata.co.id/digital/startup/6aea849b84452/laba-grab-melonjak-74-tapi-dibayangi-tantangan-aturan-komisi-ojol-8"}],
+      "why_it_matters": "Laba Grab melonjak saat pengemudi ojol disebut mayoritas berpenghasilan bersih di bawah Rp100 ribu per hari, jadi aturan komisi jadi sorotan.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 2, "fresh": 1, "rivals": 1},
+      "spreading_evidence": "Katadata digital/startup listing; pairs with E0540 ojol income survey and E0508 GoTo results",
+      "sensitivity": "normal"
+    }
+  ],
+  "gaps": [
+    "Canva reportedly lays off about 22% of staff (CNN Indonesia, 4 Nov); article blocked, headline only, numbers unverified",
+    "Oppo/Realme price increases on 4 Nov (mediakompeten, robots-blocked); no primary source for amounts",
+    "Binance hack: ABC (4 Nov) headline mentions '$9 billion' vs the $6.3 billion tracked; fake-job-interview vector reported by CoinDesk/Fortune 3 Nov, not re-checked; Indodax/Tokocrypto disruption still unverified",
+    "dailysocial.id and teknologi.bisnis.com could not be fetched (permission prompt unanswered); startup/funding news from those outlets not scanned",
+    "CNBC 'Presiden Disadap, DPR sorot lembaga PDP' (5 Nov) belongs to listyo-sigit-penyadapan; left to politics area",
+    "detikInet 'Demokrat menang, ratusan proyek data center AI terancam' not opened (blocked)"
+  ]
+}

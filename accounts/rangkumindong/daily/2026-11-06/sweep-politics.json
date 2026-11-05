@@ -1,0 +1,160 @@
+{
+  "area": "politics",
+  "run_date": "2026-11-06",
+  "checked": [
+    "detik news.detik.com/berita (scanned; found: Jokowi/Roy Suryo/dr Tifa trial, Listyo Sigit wiretapping, DPD/Baleg/Puan)",
+    "cnnindonesia.com/nasional (scanned, 4-5 Nov; found: Listyo wiretapping, Gibran suket, KPK Nusron, Satgas PKH, Mualem-Prabowo, Sekjen MPR)",
+    "antaranews politik/hukum (search only, section page not returned; found Antara 5834879)",
+    "tempo.co/politik (not returned by search, not read)",
+    "Watch list: Presiden/Istana, DPR/RUU, MK/MA, KPK, Kejagung, Polri big cases, demonstrations (none new today), DPD, KPU, TNI",
+    "Storyline search: sidang Roy Suryo Jokowi saksi",
+    "Storyline search: Gibran suket MA KPU DPR",
+    "Storyline search: KPK Djarum pita cukai",
+    "Storyline search: Listyo Sigit penyadapan",
+    "Storyline search: definisi korupsi / revisi UU Tipikor",
+    "known-events window 14d"
+  ],
+  "events": [
+    {
+      "date": "2026-11-05",
+      "category": "POL",
+      "event": "Bareskrim's Dittipidsiber (Brigjen Suhermanto) names Irjen Slamet Uliandi (SU) a fourth suspect in the illegal wiretapping case involving the President's phone, says he is not detained because he is recovering from a stroke, and says Listyo Sigit Prabowo and two other generals are detained at Mako Brimob.",
+      "key_numbers": "4 suspects · 3 detained at Rutan Mako Brimob · 1 not detained (post-stroke) · Charges: Pasal 258 KUHP, Pasal 332(1)(2) KUHP and/or Pasal 32(1) UU ITE · Police say Irjen Ahrie Sonta asked SU in Oct 2026 for permission to delete wiretap files and SU approved · SU was Bareskrim Monitoring head 2010-2019, now Dewan Pembina of its Monitoring Center",
+      "storyline": "listyo-sigit-penyadapan",
+      "update_of": "E0562",
+      "status": "verified",
+      "sources": [
+        {"label": "ANTARA", "url": "https://m.antaranews.com/amp/berita/5834879/polri-tetapkan-su-tersangka-baru-kasus-penyadapan-ilegal"},
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261105203023-12-1423892/sakit-irjen-slamet-uliandi-tersangka-penyadapan-prabowo-belum-ditahan"},
+        {"label": "detikNews", "url": "https://news.detik.com/berita/d-8740242/tersangka-penyadapan-presiden-listyo-sigit-dkk-ditahan-di-mako-brimob"}
+      ],
+      "why_it_matters": "The case moves from three to four suspects and police now describe a chain of approval for deleting wiretap files, so how far it goes is the open question.",
+      "signals": {"spreading": 2, "wallet": 0, "surprise": 2, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "Covered same evening by Antara, CNN Indonesia, detik, CNBC, Kompas.id, Tirto, Suara; headline cluster on detik section page",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-05",
+      "category": "POL",
+      "event": "Former President Jokowi testifies as a prosecution witness at the East Jakarta District Court in Roy Suryo's defamation/ITE trial over the diploma allegations; per detik, Roy Suryo and dr Tifa reject his testimony and shake hands with him after the hearing.",
+      "key_numbers": "About 1,000 supporters outside the court · Roy Suryo charged under Pasal 433(1) jo 441(1) UU 1/2023 (primary) and UU ITE Pasal 35 jo 51(1) (subsidiary) · Indictment read 17 Sep 2026 · Jokowi arrived about 08:30 WIB with Kaesang Pangarep",
+      "storyline": "jokowi-ijazah-roy-suryo",
+      "update_of": "E0421",
+      "status": "verified",
+      "sources": [
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261105082659-20-1423495/jokowi-tiba-di-pn-jaktim-untuk-sidang-ijazah-disambut-massa-pendukung"},
+        {"label": "detikNews", "url": "https://news.detik.com/berita"},
+        {"label": "Kompas.com", "url": "https://megapolitan.kompas.com/read/2026/11/05/09522381/jokowi-duduk-di-kursi-saksi-sempat-lirik-roy-suryo-sebelum-mulai-sidang"}
+      ],
+      "why_it_matters": "An ex-president giving sworn testimony in an open trial on a long-running diploma dispute; the defence rejects his account.",
+      "signals": {"spreading": 2, "wallet": 0, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 0},
+      "spreading_evidence": "Top block of detik news page (about 9 headlines); CNN, Kompas, Viva, TVOne, Kaltim Post all live-covering",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-12",
+      "category": "POL",
+      "event": "Jokowi's aide AKBP Syarif Muhammad Fitriansyah is due to testify at the dr Tifa trial on 12 November, per a detik headline.",
+      "key_numbers": "Hearing date: 12 Nov 2026",
+      "storyline": "jokowi-ijazah-roy-suryo",
+      "update_of": "E0405",
+      "status": "upcoming",
+      "sources": [
+        {"label": "detikNews", "url": "https://news.detik.com/berita"}
+      ],
+      "why_it_matters": "Next scheduled step in the diploma-related trials.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 0, "visual": 0, "fresh": 1, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-04",
+      "category": "POL",
+      "event": "The forest-area enforcement task force (Satgas PKH), via spokesperson Barita Simanjuntak, takes over all land affiliated with Arif Kurniawan (AK) over preliminary findings of irregularities in mining governance, licensing and illegal control of forest areas.",
+      "key_numbers": "Takeover effective 4 Nov 2026 · Hectares and fine amounts not stated · Next: inventory, collect administrative fines, recover assets, refer suspected crimes to law enforcement",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261104235501-12-1423446/satgas-pkh-ambil-alih-seluruh-lahan-yang-terafiliasi-arif-kurniawan"}
+      ],
+      "why_it_matters": "Shows the state seizing land from a named businessman without a court ruling yet; sizes are still unknown.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 0, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-04",
+      "category": "POL",
+      "event": "KPK questions ATR/BPN Minister Nusron Wahid about HGB permit handling and regular payments tied to his post, and says it may summon him again, per CNN Indonesia headlines.",
+      "key_numbers": "Details and amounts not read (article fetch blocked)",
+      "storyline": "kpk-nusron-atr-bpn",
+      "update_of": "E0533",
+      "status": "partial",
+      "sources": [
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261104175336-12-1423346/kpk-cecar-nusron-terkait-pengurusan-hgb-setoran-rutin-jabatan"},
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261104181521-12-1423357/kpk-buka-peluang-kembali-periksa-nusron-wahid"}
+      ],
+      "why_it_matters": "A sitting minister questioned by KPK; allegation stage only, no suspect status stated.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 0, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-04",
+      "category": "POL",
+      "event": "An expert quoted by CNN Indonesia says Gibran's SMA-equivalence letter (suket) cancelled by the Supreme Court can be submitted again; the same day Gibran's attendance at a church anniversary event in West Sulawesi draws comment from an analyst.",
+      "key_numbers": "Details not read (article fetch blocked) · MA cassation 742/K/TUN/2026 (known)",
+      "storyline": "gibran-ijazah-mk",
+      "update_of": "E0466",
+      "status": "partial",
+      "sources": [
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261104215456-12-1423429/pakar-sebut-suket-sma-gibran-yang-dibatalkan-ma-bisa-diajukan-ulang"}
+      ],
+      "why_it_matters": "Points to a possible route for Gibran after the MA ruling, which would change what happens next.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 0, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-04",
+      "category": "POL",
+      "event": "Aceh governor Muzakir Manaf (Mualem) meets President Prabowo to discuss the Aceh flag and the endowment fund for former GAM combatants, per CNN Indonesia.",
+      "key_numbers": "Details not read (article fetch blocked)",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261104225924-32-1423445/mualem-temui-prabowo-bahas-bendera-aceh-dana-abadi-eks-kombatan-gam"}
+      ],
+      "why_it_matters": "The Aceh flag and ex-combatant funds are long-open items from the 2005 Helsinki peace deal.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 0, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-04",
+      "category": "POL",
+      "event": "CNN Indonesia reports that the investigation into the former MPR Secretary-General's gratification case is complete and he will soon be tried.",
+      "key_numbers": "Details not read (article fetch blocked)",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261104201439-12-1423401/penyidikan-rampung-eks-sekjen-mpr-segera-diadili-kasus-gratifikasi"}
+      ],
+      "why_it_matters": "Another senior official heading to Tipikor court.",
+      "signals": {"spreading": 0, "wallet": 0, "surprise": 0, "visual": 0, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "",
+      "sensitivity": "high"
+    }
+  ],
+  "gaps": [
+    "Hearing outcome details for Jokowi's 5 Nov testimony (what he said, next date) come only from detik headline paraphrases; Kompas pages are robots-blocked and CNN follow-up not read",
+    "Several CNN articles (Nusron, Gibran suket re-submission, Mualem, ex-Sekjen MPR) blocked by PROVENANCE_REQUIRED, so only headlines used; names/amounts unverified",
+    "Seen but not verified: DPR member Zulfikar Achmad died (CNN 5 Nov 06:33); Gerindra asks transparent wiretapping probe (CNN 4 Nov); Cak Imin says he was also wiretapped, Bakom says it points to makar (detik, undated); Baleg agrees lawmaking-procedure bill as DPR initiative",
+    "definisi-korupsi: Kompas.id says government is studying a Tipikor revision and Yusril says state-loss element will not be removed, but page blocked and date unknown; worth a second look",
+    "KPK Djarum cukai: no new suspect or development found after 3 Nov (CNN 2 Nov says commission alleged since 2010; not re-reported)",
+    "tempo.co/politik and antaranews section pages not reachable; detik and CNN only"
+  ]
+}

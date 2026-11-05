@@ -1,0 +1,263 @@
+[
+ {
+  "date": "2026-11-05",
+  "category": "ECO",
+  "event": "BPS reported Indonesia's Q3 2026 GDP grew 5.47% year on year, well above the roughly 5.2% consensus. (update of E0455)",
+  "key_numbers": "GDP +5.47% yoy (Q3 2026) · consensus 5.20% (CNBC poll of 15 institutions); Permata 5.23%, Danamon ~5%, LPEM UI 5.28% · Q2 2026 5.29%, Q1 2026 5.61% · household consumption +5.04% (2.62 pp contribution) · investment (PMTB) +6.06% · government consumption +8.95% (MBG, civil-servant pay) · manufacturing 1.20 pp, trade 0.94 pp, construction 0.62 pp, ICT 0.49 pp · nominal GDP Rp6,741.0 T · unemployed 7.38 million in Aug 2026 (-77,000 yoy)",
+  "storyline": "growth-outlook",
+  "status": "verified",
+  "sources": "Antara <https://antaranews.com/berita/5833219/bps-ekonomi-ri-tumbuh-547-persen-pada-triwulan-iii-2026> ; detikFinance <https://finance.detik.com/berita-ekonomi-bisnis/d-8739639/bps-jelaskan-ekonomi-kuartal-iii-2026-bisa-tumbuh-5-47-jauh-di-atas-proyeksi> ; CNBC Indonesia <https://www.cnbcindonesia.com/market/20261105150700-17-782664/rupiah-ditutup-menguat-044-dolar-as-turun-ke-rp18075>"
+ },
+ {
+  "date": "2026-11-05",
+  "category": "MKT",
+  "event": "The IHSG rebounded 2.25% to close at 5,030.26 on 5 November, back above 5,000 after the 3 November crash. (update of E0545)",
+  "key_numbers": "IHSG 5,030.26 (+110.49 pts, +2.25%) · open 4,998.34, low 4,995.46, high 5,072.05 · turnover about Rp9.06 T, 212.92 million lots · sectors: technology +4.60%, basic materials +3.48% · gainers BBCA, AMMN, TLKM, MDKA, BBNI · draggers BRPT, AADI, TPIA, EXCL, PANI · previous close 4,919.77 (4 Nov)",
+  "storyline": "msci-reclassification",
+  "status": "verified",
+  "sources": "CNBC Indonesia <https://www.cnbcindonesia.com/market/20261105135235-17-782680/ihsg-ditutup-menguat-225-ke-level-503026> ; Bisnis.com <https://market.bisnis.com/read/20261105/7/2018804/ihsg-ditutup-naik-225-ke-5030-saham-bbca-bbri-ammn-kompak-hijau>"
+ },
+ {
+  "date": "2026-11-05",
+  "category": "MKT",
+  "event": "OJK said foreign investors net sold Rp16.88 trillion of Indonesian stocks in October 2026 while the IHSG fell 16.7%, blaming the MSCI reclassification announcement. (update of E0441)",
+  "key_numbers": "foreign net sell Rp16.88 T (Oct 2026) · IHSG 5,057 at end-Oct, -16.7% mom · foreign net buy of SBN Rp9.55 T · average daily value Rp16.31 T (Sep Rp14.94 T; YTD Rp20.34 T) · investors +1.38 million in a month to 33.55 million (+64.75% YTD) · 26 offerings worth Rp24.46 T in pipeline · mutual fund NAV Rp620.14 T (-2.66% mom)",
+  "storyline": "msci-reclassification",
+  "status": "verified",
+  "sources": "CNBC Indonesia <https://www.cnbcindonesia.com/market/20261105143322-17-782648/msci-bikin-ihsg-babak-belur-167-investor-asing-kabur-rp1688-t> ; detikFinance <https://finance.detik.com/bursa-dan-valas/d-8739674/asing-kabur-dari-pasar-saham-ri-bawa-duit-rp-16-88-triliun>"
+ },
+ {
+  "date": "2026-11-05",
+  "category": "MKT",
+  "event": "OJK said it imposed Rp2.23 trillion in administrative fines on 169 capital-market violators in January-October 2026, plus licence revocations and suspensions.",
+  "key_numbers": "fines Rp2.23 T on 169 parties (Jan-Oct 2026) · 6 licence revocations · 8 licence suspensions · 1 registration certificate cancelled · 27 written warnings · 5 written orders",
+  "storyline": "msci-reclassification",
+  "status": "verified",
+  "sources": "detikFinance <https://finance.detik.com/bursa-dan-valas/d-8739683/ojk-jatuhkan-denda-rp-2-23-triliun-buat-169-pelanggar-pasar-modal> ; CNBC Indonesia <https://www.cnbcindonesia.com/market/20261105144151-17-782650/perkuat-pengawasan-pelanggar-pasar-modal-kena-sikat-ojk-ini-datanya>"
+ },
+ {
+  "date": "2026-11-05",
+  "category": "ECO",
+  "event": "The Finance Ministry's debt office reported government debt of Rp10,326.93 trillion at end-September 2026, 40.30% of GDP.",
+  "key_numbers": "debt Rp10,326.93 T (30 Sep 2026) · +Rp33.24 T from Rp10,293.69 T at end-June · debt/GDP 40.30% vs 41.26% in Q2 · SBN Rp8,962.40 T (86.79%) · loans Rp1,364.53 T (13.21%)",
+  "storyline": "",
+  "status": "partial",
+  "sources": "CNBC Indonesia <https://www.cnbcindonesia.com/market/20261105190136-17-782759/utang-pemerintah-rp103269-t-di-kuartal-iii-2026-setara-4030-pdb>"
+ },
+ {
+  "date": "2026-11-05",
+  "category": "BIZ",
+  "event": "OJK told Bank MNC Internasional (BABP) to resolve customers' withdrawal problems, saying the bank still meets minimum capital and urging customers not to panic. (update of E0527)",
+  "key_numbers": "BABP shares -65% in 10 months · deposits down about Rp2.7 T in a year · Q3 2026 profit -22%, deposits -17% · one customer cited a Rp500,000 withdrawal cap at a branch on 2 Nov · BABP still meets capital requirement",
+  "storyline": "",
+  "status": "partial",
+  "sources": "CNBC Indonesia <https://www.cnbcindonesia.com/market/20261105153336-17-782672/ojk-minta-mnc-bank--babp--segera-bereskan-masalah-nasabah> ; CNBC Indonesia <https://www.cnbcindonesia.com/market/20261104093053-17-782140/dalam-10-bulan-saham-mnc-bank--babp--sudah-longsor-65>"
+ },
+ {
+  "date": "2026-11-05",
+  "category": "ECO",
+  "event": "OJK reported outstanding online lending (pinjol) debt reached Rp106.48 trillion in September 2026, with non-performing loans above 5%.",
+  "key_numbers": "outstanding Rp106.48 T (Sep 2026), +17.02% yoy · TWP90 5.36% · MSME financing +12.49% yoy · bank credit growth 13% (CNBC headline) · OJK asked banks to block 39,923 accounts linked to online gambling",
+  "storyline": "",
+  "status": "verified",
+  "sources": "detikFinance <https://finance.detik.com/moneter/d-8739691/utang-pinjol-warga-ri-tembus-rp-106-48-triliun> ; CNBC Indonesia <https://www.cnbcindonesia.com/market/20261105145356-17-782659/utang-pinjol-capai-rp10648-t-kredit-macet-tembus-5>"
+ },
+ {
+  "date": "2026-11-03",
+  "category": "ECO",
+  "event": "KSPI and Partai Buruh president Said Iqbal estimated layoffs could exceed 90,000 workers by end-2026, citing about 83,000 so far in Ministry of Manpower data.",
+  "key_numbers": "KSPI estimate above 90,000 by end-2026 · about 83,000 per Kemnaker (as cited by Said) · KSPI count ~70,000 as of June · PT Ghim Li Indonesia (Batam) about 1,170 workers · PT Parkland World Indonesia 6 (Lebak) closed; Jepara plant still about 8,000 workers · detik: seamless pipe imports threaten layoffs",
+  "storyline": "survival-mode",
+  "status": "partial",
+  "sources": "CNN Indonesia <https://www.cnnindonesia.com/ekonomi/20261103205551-92-1422939/serikat-pekerja-taksir-korban-phk-ri-tembus-90-ribu-orang-tahun-ini>"
+ },
+ {
+  "date": "2026-11-06",
+  "category": "BIZ",
+  "event": "Ultrajaya (ULTJ) holds an EGM on 6 November to approve acquiring 100% of PT Frisian Flag Indonesia for Rp14.57 trillion via a rights issue, making FrieslandCampina its controlling shareholder.",
+  "key_numbers": "deal Rp14.57 T, non-cash (inbreng) · up to 7.88 billion new shares at Rp2,150 exercise price, ~6.78 billion to FFI sellers · sellers: FrieslandCampina 78.09%, Blue Waves 16.91%, Bahtera Wiraniaga 5% · Sabana Prawirawidjaja stake 53.17% -> 32.19% · max dilution 43.11% · EGM postponed from 27 Oct after OJK asked for clarification · mandatory tender offer follows",
+  "storyline": "",
+  "status": "upcoming",
+  "sources": "CNBC Indonesia <https://www.cnbcindonesia.com/market/20261105133506-17-782625/besok-penentuan-ultj-minta-restu-caplok-frisian-flag-rp1457-t>"
+ },
+ {
+  "date": "2026-11-05",
+  "category": "BIZ",
+  "event": "GoTo said shareholders approved on 14 October cancelling its treasury shares and ending its buyback, with analysts saying it trades at a deep discount to peers. (update of E0461)",
+  "key_numbers": "RUPSLB approval 14 Oct 2026 · GoTo Q3 2026 net profit Rp441 billion (third profitable quarter) · EV/EBITDA 3.3x vs 13-14x peers (Kiwoom Sekuritas)",
+  "storyline": "",
+  "status": "partial",
+  "sources": "CNBC Indonesia <https://www.cnbcindonesia.com/market/20261105170912-17-782719/goto-batalkan-saham-tresuri-dan-buyback-ini-efeknya-ke-investor>"
+ },
+ {
+  "date": "2026-11-05",
+  "category": "POL",
+  "event": "Bareskrim's Dittipidsiber (Brigjen Suhermanto) names Irjen Slamet Uliandi (SU) a fourth suspect in the illegal wiretapping case involving the President's phone, says he is not detained because he is recovering from a stroke, and says Listyo Sigit Prabowo and two other generals are detained at Mako Brimob. (update of E0562)",
+  "key_numbers": "4 suspects · 3 detained at Rutan Mako Brimob · 1 not detained (post-stroke) · Charges: Pasal 258 KUHP, Pasal 332(1)(2) KUHP and/or Pasal 32(1) UU ITE · Police say Irjen Ahrie Sonta asked SU in Oct 2026 for permission to delete wiretap files and SU approved · SU was Bareskrim Monitoring head 2010-2019, now Dewan Pembina of its Monitoring Center",
+  "storyline": "listyo-sigit-penyadapan",
+  "status": "verified",
+  "sources": "ANTARA <https://m.antaranews.com/amp/berita/5834879/polri-tetapkan-su-tersangka-baru-kasus-penyadapan-ilegal> ; CNN Indonesia <https://www.cnnindonesia.com/nasional/20261105203023-12-1423892/sakit-irjen-slamet-uliandi-tersangka-penyadapan-prabowo-belum-ditahan> ; detikNews <https://news.detik.com/berita/d-8740242/tersangka-penyadapan-presiden-listyo-sigit-dkk-ditahan-di-mako-brimob>"
+ },
+ {
+  "date": "2026-11-05",
+  "category": "POL",
+  "event": "Former President Jokowi testifies as a prosecution witness at the East Jakarta District Court in Roy Suryo's defamation/ITE trial over the diploma allegations; per detik, Roy Suryo and dr Tifa reject his testimony and shake hands with him after the hearing. (update of E0421)",
+  "key_numbers": "About 1,000 supporters outside the court · Roy Suryo charged under Pasal 433(1) jo 441(1) UU 1/2023 (primary) and UU ITE Pasal 35 jo 51(1) (subsidiary) · Indictment read 17 Sep 2026 · Jokowi arrived about 08:30 WIB with Kaesang Pangarep",
+  "storyline": "jokowi-ijazah-roy-suryo",
+  "status": "verified",
+  "sources": "CNN Indonesia <https://www.cnnindonesia.com/nasional/20261105082659-20-1423495/jokowi-tiba-di-pn-jaktim-untuk-sidang-ijazah-disambut-massa-pendukung> ; detikNews <https://news.detik.com/berita> ; Kompas.com <https://megapolitan.kompas.com/read/2026/11/05/09522381/jokowi-duduk-di-kursi-saksi-sempat-lirik-roy-suryo-sebelum-mulai-sidang>"
+ },
+ {
+  "date": "2026-11-04",
+  "category": "POL",
+  "event": "The forest-area enforcement task force (Satgas PKH), via spokesperson Barita Simanjuntak, takes over all land affiliated with Arif Kurniawan (AK) over preliminary findings of irregularities in mining governance, licensing and illegal control of forest areas.",
+  "key_numbers": "Takeover effective 4 Nov 2026 · Hectares and fine amounts not stated · Next: inventory, collect administrative fines, recover assets, refer suspected crimes to law enforcement",
+  "storyline": "",
+  "status": "partial",
+  "sources": "CNN Indonesia <https://www.cnnindonesia.com/nasional/20261104235501-12-1423446/satgas-pkh-ambil-alih-seluruh-lahan-yang-terafiliasi-arif-kurniawan>"
+ },
+ {
+  "date": "2026-11-04",
+  "category": "POL",
+  "event": "KPK questions ATR/BPN Minister Nusron Wahid about HGB permit handling and regular payments tied to his post, and says it may summon him again, per CNN Indonesia headlines. (update of E0533)",
+  "key_numbers": "Details and amounts not read (article fetch blocked)",
+  "storyline": "kpk-nusron-atr-bpn",
+  "status": "partial",
+  "sources": "CNN Indonesia <https://www.cnnindonesia.com/nasional/20261104175336-12-1423346/kpk-cecar-nusron-terkait-pengurusan-hgb-setoran-rutin-jabatan> ; CNN Indonesia <https://www.cnnindonesia.com/nasional/20261104181521-12-1423357/kpk-buka-peluang-kembali-periksa-nusron-wahid>"
+ },
+ {
+  "date": "2026-11-04",
+  "category": "POL",
+  "event": "An expert quoted by CNN Indonesia says Gibran's SMA-equivalence letter (suket) cancelled by the Supreme Court can be submitted again; the same day Gibran's attendance at a church anniversary event in West Sulawesi draws comment from an analyst. (update of E0466)",
+  "key_numbers": "Details not read (article fetch blocked) · MA cassation 742/K/TUN/2026 (known)",
+  "storyline": "gibran-ijazah-mk",
+  "status": "partial",
+  "sources": "CNN Indonesia <https://www.cnnindonesia.com/nasional/20261104215456-12-1423429/pakar-sebut-suket-sma-gibran-yang-dibatalkan-ma-bisa-diajukan-ulang>"
+ },
+ {
+  "date": "2026-11-04",
+  "category": "POL",
+  "event": "Aceh governor Muzakir Manaf (Mualem) meets President Prabowo to discuss the Aceh flag and the endowment fund for former GAM combatants, per CNN Indonesia.",
+  "key_numbers": "Details not read (article fetch blocked)",
+  "storyline": "",
+  "status": "partial",
+  "sources": "CNN Indonesia <https://www.cnnindonesia.com/nasional/20261104225924-32-1423445/mualem-temui-prabowo-bahas-bendera-aceh-dana-abadi-eks-kombatan-gam>"
+ },
+ {
+  "date": "2026-11-04",
+  "category": "POL",
+  "event": "CNN Indonesia reports that the investigation into the former MPR Secretary-General's gratification case is complete and he will soon be tried.",
+  "key_numbers": "Details not read (article fetch blocked)",
+  "storyline": "",
+  "status": "partial",
+  "sources": "CNN Indonesia <https://www.cnnindonesia.com/nasional/20261104201439-12-1423401/penyidikan-rampung-eks-sekjen-mpr-segera-diadili-kasus-gratifikasi>"
+ },
+ {
+  "date": "2026-11-05",
+  "category": "TECH",
+  "event": "Fore Coffee (PT Fore Kopi Indonesia Tbk) reported a personal-data protection failure to Komdigi, with an initial investigation putting 5.7 million customer accounts affected; Komdigi is still examining the report. (update of E0424)",
+  "key_numbers": "5.7 juta akun pelanggan · dilaporkan ke Komdigi 28 Okt 2026 · akses dihentikan dalam 24 jam (klaim Fore) · sanksi administratif belum ditentukan · Perpres lembaga pengawas PDP di tahap akhir, sudah di Presiden via Setneg",
+  "storyline": "",
+  "status": "partial",
+  "sources": "CNBC Indonesia <https://www.cnbcindonesia.com/tech/20261105084917-37-782483/fore-lapor-data-pelanggan-bocor-ke-komdigi-begini-sanksinya>"
+ },
+ {
+  "date": "2026-11-05",
+  "category": "TECH",
+  "event": "CNBC Indonesia reports Apple CEO John Ternus called current memory prices unprecedented and Counterpoint says global smartphone shipments fell about 20% y/y in Q3 2026, the lowest third quarter since 2012, as AI infrastructure absorbs chip supply. (update of E0504)",
+  "key_numbers": "Pengiriman HP global turun ~20% y/y Q3 2026 · terendah untuk kuartal III sejak 2012 · persediaan Apple US$14,54 miliar (+31,1% q/q, +154,3% y/y) · Apple: biaya memori naik lagi di kuartal Des · Apple sudah naikkan harga Mac/iPad (akhir Juni) dan iPhone (Sep)",
+  "storyline": "chip-ram-prices",
+  "status": "partial",
+  "sources": "CNBC Indonesia <https://www.cnbcindonesia.com/tech/20261105085718-37-782485/krisis-makin-parah-pedagang-hp-beberkan-faktanya>"
+ },
+ {
+  "date": "2026-11-04",
+  "category": "GLB",
+  "event": "Data-center and power stocks fell on Wall Street after the Democratic Party won the US mid-terms and took control of Congress, amid local protests over data centers' electricity and water use.",
+  "key_numbers": "CoreWeave -9,5% · Applied Digital -8,8% · Cipher Digital -21% · GE Vernova -11,5% · Constellation Energy -9,2% · Vistra -15,4% (4 Nov 2026 US time) · jumlah proyek dan nilai tidak disebut",
+  "storyline": "ai-data-centres",
+  "status": "partial",
+  "sources": "CNBC Indonesia <https://www.cnbcindonesia.com/tech/20261105113505-37-782576/ditolak-warga-proyek-data-center-kini-terancam-bubar>"
+ },
+ {
+  "date": "2026-11-05",
+  "category": "TECH",
+  "event": "OpenAI demonstrated Dots, an early-preview proactive AI assistant that handles email, travel and reminders on its own, at an Asia Pacific media briefing.",
+  "key_numbers": "Demo: 35 email -> 20 bisa ditangani, 10 perlu perhatian, 5 tidak relevan · 145 foto dirapikan · 5 akun Gmail tersambung · harga dan tanggal rilis resmi tidak disebut",
+  "storyline": "",
+  "status": "partial",
+  "sources": "detikInet <https://inet.detik.com/consumer/d-8739740/kenalan-dengan-dots-asisten-ai-openai-yang-bisa-kerja-sendiri>"
+ },
+ {
+  "date": "2026-11-05",
+  "category": "TECH",
+  "event": "Communications and Digital Minister Meutya Hafid said the Satu Data Indonesia law will let agencies reuse verified data so citizens stop repeating forms and document submissions, using the SPLP connector, PDN and JIP. (update of E0448)",
+  "key_numbers": "Sistem Penghubung Layanan Pemerintah (SPLP) di atas PDN dan JIP · data tetap di instansi sumber · harus selaras UU ITE dan UU PDP · tanpa tenggat atau angka target",
+  "storyline": "",
+  "status": "partial",
+  "sources": "detikInet <https://inet.detik.com/law-and-policy/d-8740303/satu-data-indonesia-warga-dijanjikan-tak-lagi-bolak-balik-urus-dokumen>"
+ },
+ {
+  "date": "2026-11-04",
+  "category": "BIZ",
+  "event": "Grab reported Q3 2026 adjusted EBITDA up 74% to US$237 million, beating the Bloomberg consensus, while Katadata notes the Indonesian cut to scooter commission caps and further rules under consideration.",
+  "key_numbers": "Adj. EBITDA US$237 juta (+74%) vs konsensus US$194,2 juta · pendapatan US$1,1 miliar (+27%) · target EBITDA 2028 US$1,7 miliar · angka komisi 8% ada di judul, tidak di isi artikel",
+  "storyline": "ojol-regulation",
+  "status": "partial",
+  "sources": "Katadata <https://katadata.co.id/digital/startup/6aea849b84452/laba-grab-melonjak-74-tapi-dibayangi-tantangan-aturan-komisi-ojol-8>"
+ },
+ {
+  "date": "2026-11-05",
+  "category": "ENV",
+  "event": "BNPB reported 1,468 hotspots across six priority provinces on 5 Nov, with Central Kalimantan rising sharply from the previous day. (update of E0559)",
+  "key_numbers": "1,468 hotspots · Kalteng 821 (+93% vs previous day) · Papua Selatan 306 · Kaltim 170 · Sulteng 68 · Sultra 54 · NTT 49 · 2,645 ha under handling (Kalteng 1,641 ha, +147%) · 5 Nov 2026",
+  "storyline": "karhutla",
+  "status": "verified",
+  "sources": "detikNews <https://news.detik.com/berita/d-8739909/total-hotspot-karhutla-di-6-provinsi-1-468-titik-terbanyak-kalteng> ; TVRI News <https://nasional.tvrinews.com/berita/t9trw1h-bnpb-catat-1468-titik-panas-karhutla-kalimantan-tengah-tertinggi> ; ANTARA <https://www.antaranews.com/berita/5834527/bnpb-titik-panas-dan-luas-karhutla-di-kalteng-meningkat>"
+ },
+ {
+  "date": "2026-11-04",
+  "category": "NEWS",
+  "event": "The Satgas PKH forest-area task force said it will take over all forest areas affiliated with nickel businessman Arif Kurniawan (AK) and is examining possible involvement of law-enforcement personnel.",
+  "key_numbers": "Announced 4 Nov 2026 by spokesperson Barita Simanjuntak · steps: inventory and verification, administrative fines, asset recovery · Suara.com (citing Bloomberg/Mining reports, unverified): ~71,000 ha of nickel concessions, ~one-third of national nickel ore trade, ~US$3 miliar sales in 2024",
+  "storyline": "",
+  "status": "partial",
+  "sources": "CNN Indonesia <https://www.cnnindonesia.com/nasional/20261104235501-12-1423446/satgas-pkh-ambil-alih-seluruh-lahan-yang-terafiliasi-arif-kurniawan> ; detikNews <https://news.detik.com/berita/d-8738860/tertibkan-penguasaan-hutan-ilegal-satgas-pkh-dalami-kaitan-oknum-aparat> ; Suara.com <https://www.suara.com/bisnis/2026/11/05/165308/siapa-arif-kurniawan-raja-nikel-yang-diduga-sedang-dibidik-satgas-pkh>"
+ },
+ {
+  "date": "2026-11-04",
+  "category": "POL",
+  "event": "Aceh Governor Muzakir Manaf (Mualem) met President Prabowo at the Istana to discuss continuation of Dana Otsus, legal certainty for the Aceh flag and an endowment fund for former GAM combatants.",
+  "key_numbers": "Meeting 4 Nov 2026 · 6 agenda items (Dana Otsus, bendera Aceh, Blang Padang waqf land, 2017 presidential letter on PATNA, Blok Rantau, GAM endowment fund) · no amounts stated in the CNN report · Prabowo reportedly responded positively (per Mualem)",
+  "storyline": "",
+  "status": "partial",
+  "sources": "CNN Indonesia <https://www.cnnindonesia.com/nasional/20261104225924-32-1423445/mualem-temui-prabowo-bahas-bendera-aceh-dana-abadi-eks-kombatan-gam> ; Kumparan <https://kumparan.com/kumparannews/mualem-temui-prabowo-di-istana-bahas-dana-otsus-hingga-kepastian-hukum-bendera-aceh-28VdqVHgotp>"
+ },
+ {
+  "date": "2026-11-05",
+  "category": "NEWS",
+  "event": "Demokrat DPR member Zulfikar Achmad (Komisi VIII, Jambi) died; the DPR announced it and expressed condolences.",
+  "key_numbers": "Announced 4-5 Nov 2026 · Komisi VIII · Dapil Jambi · described as the oldest Demokrat member of the 2024-2029 DPR (another outlet says 80, unconfirmed) · cause not stated",
+  "storyline": "",
+  "status": "verified",
+  "sources": "CNN Indonesia <https://www.cnnindonesia.com/nasional/20261105063345-32-1423465/anggota-dpr-ri-zulfikar-achmad-meninggal-dunia> ; detikNews <https://news.detik.com/berita/d-8738843/anggota-dpr-ri-fraksi-demokrat-zulfikar-achmad-meninggal-dunia>"
+ },
+ {
+  "date": "2026-11-04",
+  "category": "NEWS",
+  "event": "A video of a Semarang (Banyumanik) bakso stall worker dumping broth waste into a drain in front of a resident's house went viral; the city environment office (DLH) found an SOP violation and the dispute ended in mediation.",
+  "key_numbers": "Mediation 4 Nov 2026 · practice reportedly ~2 years · DLH: stall is UMKM, will be guided with an obligation letter rather than heavy sanction · fixes: grease trap + sumur resapan short-term, portable IPAL medium-term",
+  "storyline": "",
+  "status": "verified",
+  "sources": "detik Jateng <https://www.detik.com/jateng/berita/d-8738608/kasus-limbah-bakso-di-banyumanik-dimediasi-dlh-temukan-pelanggaran-sop/amp> ; Kumparan <https://kumparan.com/kumparannews/polemik-limbah-bakso-dibuang-ke-got-di-semarang-berakhir-damai-pemilik-warung-janji-pasang-filter-28W2D6hxGjZ> ; Radar Semarang <https://radarsemarang.jawapos.com/semarang/2611050052/viral-warga-banyumanik-cekcok-dengan-penjual-bakso-gegara-limbah-kuah-dibuang-ke-got>"
+ },
+ {
+  "date": "2026-11-05",
+  "category": "NEWS",
+  "event": "Liputan6 Cek Fakta flagged fake Petugas Haji 2027 registration links (Facebook and TikTok) that promise free hajj and high pay and collect names and Telegram numbers.",
+  "key_numbers": "Facebook post 2 Nov 2026 · claims Rp30-45 juta salary per season · asks for full name + Telegram number · earlier fake 2026 link from 13 Apr 2026 · links not from official government sources",
+  "storyline": "",
+  "status": "verified",
+  "sources": "Liputan6 Cek Fakta <https://www.liputan6.com/cek-fakta/read/8328929/kumpulan-hoaks-pendaftaran-petugas-haji-simak-daftar-dan-faktanya> ; RRI <https://rri.co.id/batam/cek-fakta/2178081/hoaks-tautan-pendaftaran-seleksi-petugas-haji-2027>"
+ }
+]

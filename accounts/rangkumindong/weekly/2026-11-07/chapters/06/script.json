@@ -1,0 +1,47 @@
+{
+ "direction": "[clear, steady weekly recap; neutral, attributed]",
+ "lines": [
+  {
+   "id": "g0",
+   "tag": "[friendly]",
+   "text": "Cek dulu janji minggu lalu: Kamis, 5 November, Jokowi memang hadir sebagai saksi di sidang Roy Suryo.",
+   "say": "Cek dulu janji minggu lalu: Kamis, lima November, Jokowi memang hadir sebagai saksi, di sidang Roy Suryo."
+  },
+  {
+   "id": "g1",
+   "tag": "[friendly, brisk]",
+   "text": "Oke, minggu depan. Catat tanggalnya."
+  },
+  {
+   "id": "g2",
+   "tag": "[clear]",
+   "text": "Senin, 9 November. Kata Hashim Djojohadikusumo, mulai hari itu Shopee, GoTo sampai bank ikut memungut pajak digital.",
+   "say": "Senin, sembilan November. Kata Hashim Djojohadikusumo, mulai hari itu Shopee, GoTo, sampai bank, ikut memungut pajak digital."
+  },
+  {
+   "id": "g3",
+   "tag": "[leaning in]",
+   "text": "Tapi kata DJP: ini bukan pajak baru, tarif PPN tidak berubah, dan transfer pribadi tidak otomatis kena.",
+   "say": "Tapi kata, De Je Pe: ini bukan pajak baru, tarif, Pe Pe En, tidak berubah, dan transfer pribadi tidak otomatis kena."
+  },
+  {
+   "id": "g4",
+   "tag": "[clear]",
+   "text": "Selasa, 10 November: Perlinsos Digital, bansos lewat sistem digital, direncanakan meluncur. Kata Luhut, kalau tidak ada perubahan.",
+   "say": "Selasa, sepuluh November: Perlinsos Digital, bansos lewat sistem digital, direncanakan meluncur. Kata Luhut, kalau tidak ada perubahan."
+  },
+  {
+   "id": "g5",
+   "tag": "[playful]",
+   "text": "Rabu, 11 November: promo 11.11 di Shopee dan marketplace lain.",
+   "say": "Rabu, sebelas November: promo sebelas-sebelas di Shopee, dan marketplace lain."
+  },
+  {
+   "id": "g6",
+   "tag": "[serious]",
+   "text": "Kamis, 12 November dini hari WIB: menurut MSCI, hasil review indeks November diumumkan. Pasar saham kita ikut menunggu.",
+   "say": "Kamis, dua belas November, dini hari waktu Indonesia: menurut em es si ai, hasil review indeks November diumumkan. Pasar saham kita, ikut menunggu."
+  }
+ ],
+ "tail": 0.6
+}

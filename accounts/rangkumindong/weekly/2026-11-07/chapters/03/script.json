@@ -1,0 +1,65 @@
+{
+ "direction": "[clear, steady weekly recap; neutral, attributed]",
+ "lines": [
+  {
+   "id": "c1",
+   "tag": "[serious]",
+   "text": "Minggu lalu kami bilang: tunggu 2 November. Hari itu, 81 saham keluar dari hitungan IHSG.",
+   "say": "Minggu lalu kami bilang: tunggu dua November. Hari itu, delapan puluh satu saham keluar dari hitungan I H S G."
+  },
+  {
+   "id": "c2",
+   "tag": "[explaining]",
+   "text": "Itu saham yang kepemilikannya terlalu terpusat. Bobotnya sekitar 18 persen dari IHSG.",
+   "say": "Itu saham yang kepemilikannya terlalu terpusat. Bobotnya sekitar delapan belas persen dari I H S G."
+  },
+  {
+   "id": "c3",
+   "tag": "[matter-of-fact]",
+   "text": "Senin, IHSG sempat di bawah 5.000, tapi ditutup naik 0,79 persen, ke 5.096.",
+   "say": "Senin, I H S G sempat di bawah lima ribu, tapi ditutup naik nol koma tujuh sembilan persen, ke lima ribu sembilan puluh enam."
+  },
+  {
+   "id": "c4",
+   "tag": "[shocked]",
+   "text": "Selasa? Anjlok 3,78 persen, ke 4.904. Sebelas sektor, merah semua.",
+   "say": "Selasa? Anjlok tiga koma tujuh delapan persen, ke empat ribu sembilan ratus empat. Sebelas sektor, merah semua."
+  },
+  {
+   "id": "c5",
+   "tag": "[explaining]",
+   "text": "Menurut CNBC Indonesia, asing terus menjual karena khawatir soal MSCI, plus ketegangan Amerika dan Iran.",
+   "say": "Menurut Ce En Be Ce Indonesia, asing terus menjual karena khawatir soal em es si ai, plus ketegangan Amerika dan Iran."
+  },
+  {
+   "id": "c6",
+   "tag": "[matter-of-fact]",
+   "text": "Rabu, naik tipis 0,32 persen. Kamis, naik 2,25 persen, ke 5.030. Balik di atas 5.000.",
+   "say": "Rabu, naik tipis nol koma tiga dua persen. Kamis, naik dua koma dua lima persen, ke lima ribu tiga puluh. Balik di atas lima ribu."
+  },
+  {
+   "id": "c7",
+   "tag": "[serious]",
+   "text": "Gambaran besarnya, kata OJK: sepanjang Oktober, asing jual bersih saham Rp16,88 triliun. IHSG turun 16,7 persen dalam sebulan.",
+   "say": "Gambaran besarnya, kata, O Je Ka: sepanjang Oktober, asing jual bersih saham enam belas koma delapan delapan triliun rupiah. I H S G turun enam belas koma tujuh persen, dalam sebulan."
+  },
+  {
+   "id": "c8",
+   "tag": "[leaning in]",
+   "text": "Tapi di bulan yang sama, investor pasar modal malah bertambah 1,38 juta. Totalnya lebih dari 33 juta.",
+   "say": "Tapi di bulan yang sama, investor pasar modal malah bertambah satu koma tiga delapan juta. Totalnya, lebih dari tiga puluh tiga juta."
+  },
+  {
+   "id": "c9",
+   "tag": "[explaining]",
+   "text": "Yang ditunggu berikutnya: pengumuman indeks MSCI, Kamis depan dini hari.",
+   "say": "Yang ditunggu berikutnya: pengumuman indeks em es si ai, Kamis depan, dini hari."
+  },
+  {
+   "id": "c10",
+   "tag": "[calm]",
+   "text": "Ingat, ini bukan ajakan jual atau beli saham."
+  }
+ ],
+ "tail": 0.6
+}
