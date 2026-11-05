@@ -11,57 +11,141 @@
 <script src="../../build/week.js"></script>
 <script src="../../../../../../styles/sticker/weekly/weekly.js"></script>
 <style>
-  /* chapter-specific styles go here */
-  .stat { font-weight: 900; font-size: 190px; letter-spacing: -6px; color: var(--accent); }
-  .bar { position: absolute; bottom: 0; width: 150px; border-radius: 18px 18px 0 0; background: var(--slate); transform-origin: 50% 100%; }
-  .bar.hi { background: var(--accent); }
-  .lab { position: absolute; font-weight: 800; font-size: 38px; white-space: nowrap; transform: translateX(-50%); }
+  .stat { font-weight: 900; font-size: 300px; letter-spacing: -10px; color: var(--accent); line-height: 1; }
+  .card { background: #fff; border-radius: 28px; padding: 26px 30px; text-align: center; box-shadow: 0 0 0 9px #fff, 0 18px 26px rgba(27,36,48,.22); }
+  .card .nm { font-weight: 900; font-size: 46px; line-height: 1.08; letter-spacing: -1px; margin-top: 14px; }
+  .card .rl { font-weight: 700; font-size: 32px; color: var(--slate); margin-top: 8px; line-height: 1.15; }
+  .av { width: 120px; height: 120px; border-radius: 50%; background: var(--slate); color: #fff; font-weight: 900; font-size: 44px; display: flex; align-items: center; justify-content: center; margin: 0 auto; box-shadow: 0 0 0 6px #fff; }
+  .av.acc { background: var(--accent); } .av.ink { background: var(--ink); } .av.sm { width: 84px; height: 84px; font-size: 30px; }
+  .big { font-weight: 900; letter-spacing: -2px; line-height: 1.02; }
+  .num { background: #fff; color: var(--ink); font-weight: 800; font-size: 40px; padding: 12px 24px; border-radius: 16px; white-space: nowrap; box-shadow: 0 0 0 7px #fff, 0 12px 20px rgba(27,36,48,.2); }
+  .box { background: var(--ink); color: #fff; border-radius: 30px; text-align: center; padding: 30px 40px; box-shadow: 0 0 0 9px #fff, 0 18px 26px rgba(27,36,48,.22); }
+  .arrow { font-weight: 900; font-size: 110px; color: var(--slate); }
+  .bubble { background: #fff; border-radius: 28px; padding: 22px 30px; font-weight: 800; font-size: 40px; line-height: 1.15; text-align: center; box-shadow: 0 0 0 8px #fff, 0 14px 22px rgba(27,36,48,.2); }
+  .docx { width: 150px; height: 190px; background: #fff; border-radius: 14px; position: relative; box-shadow: 0 0 0 8px #fff, 0 14px 22px rgba(27,36,48,.2); }
+  .docx i { position: absolute; left: 24px; right: 24px; height: 12px; background: var(--paper-2); border-radius: 6px; }
+  .docx b { position: absolute; right: -26px; top: -26px; width: 76px; height: 76px; border-radius: 50%; background: var(--accent); color: #fff; font-size: 52px; display: flex; align-items: center; justify-content: center; }
 </style>
 </head>
 <body>
 <div id="stage">
-  <div id="world">
-    <!-- ZONE A (x≈960): headline stat -->
-    <div id="statA" class="abs" style="left:960px; top:470px; text-align:center;">
-      <div class="stat" id="statNum">0</div>
-      <div class="tag light sticker" id="statLab" style="display:inline-block; margin-top:10px;">label</div>
-    </div>
-    <!-- ZONE B (x≈2960): bar chart -->
-    <div id="chart" class="abs" style="left:2960px; top:520px; width:900px; height:520px;"></div>
-  </div>
+  <div id="world"></div>
   <div id="card"><div class="kicker" id="cKick"></div><div class="title" id="cTitle"></div><div class="sub" id="cSub"></div></div>
-  <div class="lower" id="lower1">Sumber<small>keterangan</small></div>
+  <div class="lower" id="lower1" style="bottom:215px">Sumber<small>Bareskrim Polri, detik, CNN Indonesia, ANTARA</small></div>
   <div id="brand"><div class="dot"></div><b>Rangkumin Dong</b></div>
   <div id="subs"></div>
   <div id="progress"></div>
 </div>
 <script>
-// ---- chapter data (the chapter-builder replaces this block; every number must be in the script and verified) ----
 window.CHAPTER = Number(location.pathname.split('/').slice(-2)[0]);
-const DATA = { stat: 0, statLabel: '', bars: [] };          // e.g. bars: [{label:'2024', v: 12}, ...]
+// ---- chapter data: every number below is spoken in the script and verified in claims.json ----
+const DATA = { suspects: 3, maxYears: 10 };
 // -----------------------------------------------------------------------------------------------
 const $ = (id) => document.getElementById(id);
 const T = window.TIMING; window.DURATION = T.duration;
 const ch = (window.WEEK?.chapters || []).find((c) => c.n === window.CHAPTER) || {};
 $('cKick').textContent = ch.kicker || ''; $('cTitle').textContent = ch.title || ''; $('cSub').textContent = window.WEEK?.dates || '';
-$('statLab').textContent = DATA.statLabel;
-const chart = $('chart'), max = Math.max(1, ...DATA.bars.map((b) => b.v));
-const bars = DATA.bars.map((b, i) => {
-  const x = 90 + i * (720 / Math.max(1, DATA.bars.length - 1 || 1));
-  const e = document.createElement('div'); e.className = 'bar' + (i === DATA.bars.length - 1 ? ' hi' : '');
-  Object.assign(e.style, { left: x - 75 + 'px', height: (b.v / max * 420) + 'px' }); chart.appendChild(e);
-  const l = document.createElement('div'); l.className = 'lab'; l.textContent = b.label; Object.assign(l.style, { left: x + 'px', top: '540px' }); chart.appendChild(l);
-  return e;
-});
-const L = T.lines, tB = L[Math.min(2, L.length - 1)].start;   // when to move to zone B (pick a line id in real chapters)
+
+const W = (id, w, n = 0) => K.word(id, w, n);
+const world = $('world');
+const items = [];
+// Zones sit on a grid: zone (c, r) has its 1920x1080 screen at (c*2000, r*1200). x, y are screen-local.
+function put(zone, x, y, html, cls, tIn, tOut = Infinity, rot = 0, css = {}) {
+  const d = document.createElement('div'); d.className = 'abs ' + (cls || '');
+  Object.assign(d.style, { left: zone[0] * 2000 + x + 'px', top: zone[1] * 1200 + y + 'px', opacity: 0 }, css);
+  d.innerHTML = html; world.appendChild(d);
+  const it = { e: d, tIn, tOut, rot }; items.push(it); return it;
+}
+const av = (t, c = '', s = '') => `<div class="av ${c} ${s}">${t}</div>`;
+
+const Z1 = [0, 0], Z2 = [1, 0], Z3 = [2, 0], Z4 = [0, 1], Z5 = [1, 1], Z6 = [2, 1], Z7 = [0, 2], Z8 = [1, 2], Z9 = [2, 2], Z10 = [3, 0], Z11 = [3, 1];
+
+// 1 · recap intro (a1) — zone 1
+put(Z1, 700, 340, 'RABU', 'tag light sticker big', 2.2, W('a2', 'ringkasnya') + 0.2, -3, { fontSize: '96px', padding: '22px 52px' });
+put(Z1, 1220, 340, 'KAMIS', 'tag sticker big', 2.45, W('a2', 'ringkasnya') + 0.2, 3, { fontSize: '96px', padding: '22px 52px' });
+put(Z1, 960, 570, 'Kamis malam: ada perkembangan baru', 'tag accent sticker', W('a1', 'perkembangan') - 0.6, W('a2', 'ringkasnya') + 0.2, 0, { fontSize: '62px' });
+// 2 · three suspects (a2) — zone 1
+put(Z1, 960, 215, 'Bareskrim · Selasa malam, 3 November', 'tag sticker', W('a2', 'selasa') - 0.1);
+const stat = put(Z1, 960, 405, '<div class="stat" id="statNum" style="font-size:240px">0</div>', '', W('a2', 'tiga') - 0.3);
+put(Z1, 960, 550, 'tersangka', 'tag light sticker', W('a2', 'tersangka') - 0.1, Infinity, 0, { fontSize: '60px' });
+put(Z1, 960, 668, 'dugaan penyadapan ilegal', 'tag accent sticker', W('a2', 'dugaan') - 0.1, Infinity, -2, { fontSize: '50px' });
+// 3 · who (a3) — zone 2
+put(Z2, 960, 190, 'Tiga tersangka', 'tag sticker', W('a3', 'mereka'));
+const P = [['LSP', 'acc', 'Listyo Sigit Prabowo', 'Mantan Kapolri', 'mantan'], ['ASN', '', 'Ahrie Sonta Nasution', 'Irjen', 'ahrie'], ['EH', 'ink', 'Eko Hadi Santoso', 'Irjen', 'eko']];
+P.forEach((p, i) => put(Z2, 420 + i * 540, 470, `${av(p[0], p[1])}<div class="nm">${p[2]}</div><div class="rl">${p[3]}</div>`, 'card', W('a3', p[4]) - (i === 0 ? 0.5 : 0.7), Infinity, [-2, 1.5, -1][i], { width: '470px' }));
+// 4 · LIMS (a4) — zone 3
+put(Z3, 960, 185, 'Kata polisi', 'tag light sticker', W('a4', 'kata') + 0.0);
+['0812 ···· 3391', '0857 ···· 0420', '0821 ···· 7716'].forEach((n, i) => put(Z3, 330, 330 + i * 125, n, 'num', W('a4', 'nomor') + i * 0.28, Infinity, [-3, 2, -2][i]));
+put(Z3, 640, 450, '→', 'arrow', W('a4', 'dimasukkan'));
+put(Z3, 960, 450, '<div style="font-weight:900;font-size:130px;letter-spacing:-4px;line-height:1">LIMS</div><div style="font-weight:700;font-size:36px;margin-top:6px;color:#cfd8e0">sistem sadap</div>', 'box', W('a4', 'sistem') - 0.2);
+put(Z3, 1290, 450, '→', 'arrow', W('a4', 'lims') + 0.4, Infinity, 0);
+put(Z3, 1590, 450, 'tanpa dasar penyelidikan', 'stamp', W('a4', 'tanpa') - 0.1, Infinity, -5, { fontSize: '60px', whiteSpace: 'normal', width: '430px', textAlign: 'center', padding: '24px 30px 30px', lineHeight: '1.05' });
+put(Z3, 960, 690, 'Diduga termasuk nomor Presiden', 'tag sticker', W('a4', 'diduga') - 0.1, Infinity, 0, { fontSize: '56px' });
+// 5 · timeline (a5) — zone 4
+put(Z4, 960, 190, 'Periode diduga & penghapusan file', 'tag light sticker', W('a5', 'periodenya') - 0.2);
+const tl = put(Z4, 960, 440, '<div style="position:relative;width:1500px;height:10px;background:var(--slate);border-radius:5px;opacity:.35"></div>', '', 2.2 + 24);
+const barDiv = put(Z4, 480, 440, '<div id="perBar" style="width:560px;height:60px;background:var(--accent);border-radius:30px;transform-origin:0 50%;box-shadow:0 0 0 7px #fff"></div>', '', W('a5', 'periodenya') - 0.2, Infinity, 0, { transform: 'none' });
+barDiv.e.style.transform = 'translate(0,-50%)'; barDiv.raw = true;
+put(Z4, 480, 540, '2025', 'tag sticker', W('a5', '2025') - 0.1, Infinity, 0, { fontSize: '64px' });
+put(Z4, 1040, 540, '2026', 'tag sticker', W('a5', 'sampai') + 0.3, Infinity, 0, { fontSize: '64px' });
+put(Z4, 1500, 330, '<div class="docx"><i style="top:34px"></i><i style="top:66px"></i><i style="top:98px;right:70px"></i><b>×</b></div>', '', W('a5', 'file') - 0.3, Infinity, 3);
+put(Z4, 1500, 540, 'Okt 2026', 'tag accent sticker', W('a5', 'oktober') - 0.1, Infinity, 0, { fontSize: '64px' });
+put(Z4, 1500, 660, 'file sadapan diduga dihapus', 'tag light sticker', W('a5', 'file') + 0.2, Infinity, 0, { fontSize: '44px' });
+// 6 · Istana (a6) — zone 5
+put(Z5, 960, 185, 'Rabu · kata Mensesneg Prasetyo Hadi', 'tag sticker', W('a6', 'rabu'), Infinity, 0, { fontSize: '50px' });
+put(Z5, 520, 460, `${av('LSP', 'acc')}<div class="nm">Listyo Sigit Prabowo</div><div class="rl">Kepala Staf Kepresidenan</div>`, 'card', W('a6', 'presiden') - 0.3, Infinity, -2, { width: '620px' });
+put(Z5, 560, 700, 'DIBERHENTIKAN', 'stamp', W('a6', 'memberhentikan') - 0.1, Infinity, -7, { fontSize: '66px' });
+put(Z5, 1380, 440, `${av('A', 'ink')}<div class="nm">Letjen Ariyo Windutomo</div><div class="rl">Pelaksana tugas (Plt)</div>`, 'card', W('a6', 'pelaksana') - 0.3, Infinity, 2, { width: '620px' });
+// 7 · fourth suspect (a7) — zone 6
+put(Z6, 960, 190, 'Kamis · tersangka keempat', 'tag accent sticker', W('a7', 'kamis') - 0.1, Infinity, 0, { fontSize: '62px' });
+put(Z6, 960, 460, `${av('SU', 'ink')}<div class="nm" style="font-size:64px">Irjen Slamet Uliandi</div>`, 'card', W('a7', 'irjen') - 0.4, Infinity, -1.5, { width: '760px' });
+put(Z6, 960, 690, 'Dewan Pembina Monitoring Center Bareskrim', 'tag light sticker', W('a7', 'dewan') - 0.15, Infinity, 0, { fontSize: '46px' });
+// 8 · approval chain (a8) — zone 7
+put(Z7, 960, 185, 'Menurut polisi · Oktober', 'tag light sticker', W('a8', 'menurut') - 0.1, Infinity, 0, { fontSize: '50px' });
+put(Z7, 360, 430, `${av('ASN', '')}<div class="nm" style="font-size:40px">Ahrie Sonta</div>`, 'card', W('a8', 'ahrie') - 0.3, Infinity, -2, { width: '400px' });
+put(Z7, 1560, 430, `${av('SU', 'ink')}<div class="nm" style="font-size:40px">Slamet Uliandi</div>`, 'card', W('a8', 'slamet') - 0.3, Infinity, 2, { width: '400px' });
+put(Z7, 960, 330, 'Minta izin hapus file sadapan', 'bubble', W('a8', 'minta') - 0.1, Infinity, -2, { width: '520px' });
+put(Z7, 960, 560, '✓ Disetujui', 'stamp', W('a8', 'menyetujui') - 0.2, Infinity, 3, { fontSize: '74px' });
+// 9 · detention (a9) — zone 8
+put(Z8, 960, 185, 'Kata polisi · Kamis', 'tag light sticker', W('a9', 'slamet') + 0.0, Infinity, 0, { fontSize: '50px' });
+put(Z8, 500, 440, `${av('SU', 'ink')}<div class="nm">Slamet Uliandi</div><div class="rl">sakit pascastroke</div>`, 'card', W('a9', 'slamet') - 0.1, Infinity, -2, { width: '540px' });
+put(Z8, 500, 675, 'BELUM DITAHAN', 'tag sticker', W('a9', 'belum') + 0.3, Infinity, 0, { fontSize: '54px' });
+put(Z8, 1420, 440, `<div style="display:flex;gap:18px;justify-content:center">${av('LSP', 'acc', 'sm')}${av('ASN', '', 'sm')}${av('EH', 'ink', 'sm')}</div><div class="nm">3 lainnya</div><div class="rl">Rutan Mako Brimob</div>`, 'card', W('a9', 'tiga') - 0.1, Infinity, 2, { width: '620px' });
+put(Z8, 1420, 675, 'DITAHAN', 'stamp', W('a9', 'ditahan') - 0.1, Infinity, -4, { fontSize: '64px' });
+// 10 · charge (a10) — zone 9
+put(Z9, 960, 190, 'Pasalnya antara lain', 'tag light sticker', W('a10', 'pasalnya'), Infinity, 0, { fontSize: '50px' });
+put(Z9, 960, 370, 'Pasal 258 KUHP', 'stamp', W('a10', 'pasal') - 0.1, Infinity, -3, { fontSize: '140px' });
+put(Z9, 640, 640, 'ancaman maksimal', 'tag sticker', W('a10', 'ancaman') - 0.1, Infinity, 0, { fontSize: '56px' });
+put(Z9, 1220, 640, '<span id="yrs" class="big" style="font-size:150px;color:var(--accent)">0</span> <span class="big" style="font-size:80px;margin-left:14px">tahun</span>', '', W('a10', '10') - 0.3, Infinity, 0, { whiteSpace: 'nowrap' });
+// 11 · what is missing (a11) — zone 10
+put(Z10, 960, 190, 'Yang belum ada', 'tag accent sticker', W('a11', 'yang'), Infinity, 0, { fontSize: '62px' });
+put(Z10, 960, 440, '?', 'bubble big', W('a11', 'tanggapan') - 0.4, Infinity, -3, { fontSize: '260px', padding: '0 60px', width: '360px' });
+put(Z10, 430, 440, 'tanggapan Listyo', 'tag sticker', W('a11', 'tanggapan'), Infinity, -2, { fontSize: '46px' });
+put(Z10, 1490, 440, 'atau kuasa hukumnya', 'tag light sticker', W('a11', 'kuasa') - 0.1, Infinity, 2, { fontSize: '46px' });
+put(Z10, 960, 680, 'Sampai Kamis malam: belum ditemukan', 'tag light sticker', W('a11', 'sampai') - 0.1, Infinity, 0, { fontSize: '52px' });
+// 12 · presumption of innocence (a12) — zone 11
+put(Z11, 960, 190, 'Ingat', 'tag light sticker', W('a12', 'ingat') - 0.1, Infinity, 0, { fontSize: '56px' });
+put(Z11, 960, 400, 'tersangka belum tentu bersalah', 'stamp', W('a12', 'tersangka') - 0.15, Infinity, -2, { fontSize: '96px', whiteSpace: 'normal', width: '1300px', textAlign: 'center', lineHeight: '1.05' });
+put(Z11, 960, 650, 'Yang memutuskan: pengadilan', 'tag sticker', W('a12', 'yang') - 0.1, Infinity, 0, { fontSize: '58px' });
+
+// camera: one zone per beat (zone centre = (c*2000+960, r*1200+540))
+const zc = (z, t) => ({ t, x: z[0] * 2000 + 960, y: z[1] * 1200 + 540, z: 1 });
+const cam = [zc(Z1, 0), zc(Z2, W('a3', 'mereka') - 0.5), zc(Z3, T.lines.find((l) => l.id === 'a4').start - 0.45), zc(Z4, T.lines.find((l) => l.id === 'a5').start - 0.45),
+  zc(Z5, T.lines.find((l) => l.id === 'a6').start - 0.45), zc(Z6, T.lines.find((l) => l.id === 'a7').start - 0.45), zc(Z7, T.lines.find((l) => l.id === 'a8').start - 0.4),
+  zc(Z8, T.lines.find((l) => l.id === 'a9').start - 0.4), zc(Z9, T.lines.find((l) => l.id === 'a10').start - 0.4), zc(Z10, T.lines.find((l) => l.id === 'a11').start - 0.4),
+  zc(Z11, T.lines.find((l) => l.id === 'a12').start - 0.4)];
 
 function seek(t) {
-  K.cam16($('world'), [{ t: 0, x: 960, y: 540, z: 1 }, { t: tB, x: 2960, y: 540, z: 1 }], t);
+  K.cam16(world, cam, t);
   K.titleCard($('card'), t, 2.0);
-  const s = K.spring(t - 2.1); $('statNum').textContent = Math.round(DATA.stat * K.clamp(K.prog(t, 2.1, 1.0))).toLocaleString('id-ID');
-  K.pop($('statA'), t, 2.1);
-  bars.forEach((e, i) => { e.style.transform = `scaleY(${K.spring(t - tB - 0.3 - i * 0.12)})`; });
-  K.lower($('lower1'), t, 3.0, Math.max(3.1, T.duration - 1.0));
+  items.forEach((i) => {
+    if (i.raw) { const vis = t >= i.tIn; i.e.style.opacity = vis ? 1 : 0; return; }
+    K.pop(i.e, t, i.tIn, i.tOut, i.rot);
+  });
+  const n = $('statNum'); if (n) n.textContent = Math.round(DATA.suspects * K.clamp(K.prog(t, W('a2', 'tiga') - 0.2, 0.6)));
+  const y = $('yrs'); if (y) y.textContent = Math.round(DATA.maxYears * K.easeOut(K.prog(t, W('a10', '10') - 0.2, 0.7)));
+  const pb = $('perBar'); if (pb) pb.style.transform = `scaleX(${K.easeInOut(K.prog(t, W('a5', '2025') - 0.1, W('a5', 'sampai') + 0.5 - W('a5', '2025')))})`;
+  K.lower($('lower1'), t, 5.4, 12.0);
   K.subtitles($('subs'), t);
   K.weekly(t);
 }

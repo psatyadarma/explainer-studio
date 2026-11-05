@@ -1,0 +1,142 @@
+{
+ "duration": 9.193,
+ "voice": "Pratama",
+ "lines": [
+  {
+   "id": "o1",
+   "text": "Dari semua cerita minggu ini, mana yang menurutmu paling perlu dijelaskan lebih lanjut? Tulis di komentar.",
+   "start": 0.201,
+   "end": 4.841,
+   "words": [
+    {
+     "w": "Dari",
+     "start": 0.201,
+     "end": 0.231
+    },
+    {
+     "w": "semua",
+     "start": 0.271,
+     "end": 0.471
+    },
+    {
+     "w": "cerita",
+     "start": 0.511,
+     "end": 0.711
+    },
+    {
+     "w": "minggu",
+     "start": 0.759,
+     "end": 1.031
+    },
+    {
+     "w": "ini,",
+     "start": 1.091,
+     "end": 1.431
+    },
+    {
+     "w": "mana",
+     "start": 1.479,
+     "end": 1.671
+    },
+    {
+     "w": "yang",
+     "start": 1.687,
+     "end": 1.751
+    },
+    {
+     "w": "menurutmu",
+     "start": 1.791,
+     "end": 2.231
+    },
+    {
+     "w": "paling",
+     "start": 2.311,
+     "end": 2.551
+    },
+    {
+     "w": "perlu",
+     "start": 2.591,
+     "end": 2.791
+    },
+    {
+     "w": "dijelaskan",
+     "start": 2.851,
+     "end": 3.351
+    },
+    {
+     "w": "lebih",
+     "start": 3.378,
+     "end": 3.511
+    },
+    {
+     "w": "lanjut?",
+     "start": 3.571,
+     "end": 3.991
+    },
+    {
+     "w": "Tulis",
+     "start": 4.034,
+     "end": 4.281
+    },
+    {
+     "w": "di",
+     "start": 4.308,
+     "end": 4.361
+    },
+    {
+     "w": "komentar.",
+     "start": 4.401,
+     "end": 4.841
+    }
+   ]
+  },
+  {
+   "id": "o2",
+   "text": "Follow Rangkumin Dong. Rangkumin Seminggu, tiap Sabtu pagi!",
+   "start": 5.23,
+   "end": 7.991,
+   "words": [
+    {
+     "w": "Follow",
+     "start": 5.23,
+     "end": 5.271
+    },
+    {
+     "w": "Rangkumin",
+     "start": 5.311,
+     "end": 5.671
+    },
+    {
+     "w": "Dong.",
+     "start": 5.719,
+     "end": 5.991
+    },
+    {
+     "w": "Rangkumin",
+     "start": 6.071,
+     "end": 6.471
+    },
+    {
+     "w": "Seminggu,",
+     "start": 6.531,
+     "end": 7.031
+    },
+    {
+     "w": "tiap",
+     "start": 7.084,
+     "end": 7.271
+    },
+    {
+     "w": "Sabtu",
+     "start": 7.311,
+     "end": 7.511
+    },
+    {
+     "w": "pagi!",
+     "start": 7.571,
+     "end": 7.991
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,638 @@
+{
+ "duration": 63.796,
+ "voice": "Pratama",
+ "lines": [
+  {
+   "id": "d1",
+   "text": "Kamis, ada satu angka yang bikin banyak ekonom meleset.",
+   "start": 0.21600000000000003,
+   "end": 3.136,
+   "words": [
+    {
+     "w": "Kamis,",
+     "start": 0.216,
+     "end": 0.656
+    },
+    {
+     "w": "ada",
+     "start": 0.716,
+     "end": 0.896
+    },
+    {
+     "w": "satu",
+     "start": 0.944,
+     "end": 1.136
+    },
+    {
+     "w": "angka",
+     "start": 1.196,
+     "end": 1.456
+    },
+    {
+     "w": "yang",
+     "start": 1.488,
+     "end": 1.616
+    },
+    {
+     "w": "bikin",
+     "start": 1.676,
+     "end": 2.016
+    },
+    {
+     "w": "banyak",
+     "start": 2.05,
+     "end": 2.256
+    },
+    {
+     "w": "ekonom",
+     "start": 2.302,
+     "end": 2.576
+    },
+    {
+     "w": "meleset.",
+     "start": 2.603,
+     "end": 3.136
+    }
+   ]
+  },
+  {
+   "id": "d2",
+   "text": "BPS: ekonomi Indonesia kuartal ketiga tumbuh 5,47 persen. Konsensus 15 lembaga: sekitar 5,2 persen.",
+   "start": 3.509,
+   "end": 12.626,
+   "words": [
+    {
+     "w": "BPS:",
+     "start": 3.509,
+     "end": 4.896
+    },
+    {
+     "w": "ekonomi",
+     "start": 5.0,
+     "end": 5.766
+    },
+    {
+     "w": "Indonesia",
+     "start": 5.794,
+     "end": 6.046
+    },
+    {
+     "w": "kuartal",
+     "start": 6.126,
+     "end": 6.446
+    },
+    {
+     "w": "ketiga",
+     "start": 6.506,
+     "end": 6.926
+    },
+    {
+     "w": "tumbuh",
+     "start": 7.046,
+     "end": 7.566
+    },
+    {
+     "w": "5,47",
+     "start": 7.626,
+     "end": 8.726
+    },
+    {
+     "w": "persen.",
+     "start": 8.75,
+     "end": 9.086
+    },
+    {
+     "w": "Konsensus",
+     "start": 9.16,
+     "end": 9.826
+    },
+    {
+     "w": "15",
+     "start": 9.866,
+     "end": 10.226
+    },
+    {
+     "w": "lembaga:",
+     "start": 10.279,
+     "end": 10.986
+    },
+    {
+     "w": "sekitar",
+     "start": 11.053,
+     "end": 11.426
+    },
+    {
+     "w": "5,2",
+     "start": 11.486,
+     "end": 12.146
+    },
+    {
+     "w": "persen.",
+     "start": 12.194,
+     "end": 12.626
+    }
+   ]
+  },
+  {
+   "id": "d3",
+   "text": "Kuartal sebelumnya, 5,29 persen. Jadi, lebih kencang.",
+   "start": 12.776,
+   "end": 17.049999999999997,
+   "words": [
+    {
+     "w": "Kuartal",
+     "start": 12.776,
+     "end": 13.106
+    },
+    {
+     "w": "sebelumnya,",
+     "start": 13.159,
+     "end": 13.866
+    },
+    {
+     "w": "5,29",
+     "start": 13.916,
+     "end": 14.866
+    },
+    {
+     "w": "persen.",
+     "start": 14.914,
+     "end": 15.346
+    },
+    {
+     "w": "Jadi,",
+     "start": 15.46,
+     "end": 16.226
+    },
+    {
+     "w": "lebih",
+     "start": 16.259,
+     "end": 16.426
+    },
+    {
+     "w": "kencang.",
+     "start": 16.466,
+     "end": 17.05
+    }
+   ]
+  },
+  {
+   "id": "d4",
+   "text": "Penyumbang terbesar: konsumsi rumah tangga, tumbuh 5,04 persen. Investasi, 6,06 persen.",
+   "start": 17.154999999999998,
+   "end": 24.395,
+   "words": [
+    {
+     "w": "Penyumbang",
+     "start": 17.155,
+     "end": 17.455
+    },
+    {
+     "w": "terbesar:",
+     "start": 17.515,
+     "end": 18.215
+    },
+    {
+     "w": "konsumsi",
+     "start": 18.265,
+     "end": 18.655
+    },
+    {
+     "w": "rumah",
+     "start": 18.695,
+     "end": 18.895
+    },
+    {
+     "w": "tangga,",
+     "start": 18.943,
+     "end": 19.405
+    },
+    {
+     "w": "tumbuh",
+     "start": 19.445,
+     "end": 19.885
+    },
+    {
+     "w": "5,04",
+     "start": 19.945,
+     "end": 21.085
+    },
+    {
+     "w": "persen.",
+     "start": 21.133,
+     "end": 21.565
+    },
+    {
+     "w": "Investasi,",
+     "start": 21.64,
+     "end": 22.755
+    },
+    {
+     "w": "6,06",
+     "start": 22.811,
+     "end": 23.915
+    },
+    {
+     "w": "persen.",
+     "start": 23.963,
+     "end": 24.395
+    }
+   ]
+  },
+  {
+   "id": "d5",
+   "text": "Tapi yang paling ngebut: belanja pemerintah, 8,95 persen. Kata BPS, karena gaji dan tunjangan ASN naik, plus belanja seperti Makan Bergizi Gratis.",
+   "start": 24.595,
+   "end": 37.28,
+   "words": [
+    {
+     "w": "Tapi",
+     "start": 24.595,
+     "end": 24.925
+    },
+    {
+     "w": "yang",
+     "start": 24.973,
+     "end": 25.165
+    },
+    {
+     "w": "paling",
+     "start": 25.245,
+     "end": 25.644
+    },
+    {
+     "w": "ngebut:",
+     "start": 25.645,
+     "end": 26.045
+    },
+    {
+     "w": "belanja",
+     "start": 26.07,
+     "end": 26.645
+    },
+    {
+     "w": "pemerintah,",
+     "start": 26.685,
+     "end": 27.285
+    },
+    {
+     "w": "8,95",
+     "start": 27.36,
+     "end": 29.025
+    },
+    {
+     "w": "persen.",
+     "start": 29.049,
+     "end": 29.385
+    },
+    {
+     "w": "Kata",
+     "start": 29.49,
+     "end": 30.055
+    },
+    {
+     "w": "BPS,",
+     "start": 30.135,
+     "end": 31.095
+    },
+    {
+     "w": "karena",
+     "start": 31.164,
+     "end": 31.575
+    },
+    {
+     "w": "gaji",
+     "start": 31.655,
+     "end": 32.055
+    },
+    {
+     "w": "dan",
+     "start": 32.095,
+     "end": 32.215
+    },
+    {
+     "w": "tunjangan",
+     "start": 32.255,
+     "end": 33.015
+    },
+    {
+     "w": "ASN",
+     "start": 33.135,
+     "end": 33.975
+    },
+    {
+     "w": "naik,",
+     "start": 34.082,
+     "end": 34.575
+    },
+    {
+     "w": "plus",
+     "start": 34.607,
+     "end": 34.735
+    },
+    {
+     "w": "belanja",
+     "start": 34.795,
+     "end": 35.295
+    },
+    {
+     "w": "seperti",
+     "start": 35.345,
+     "end": 35.695
+    },
+    {
+     "w": "Makan",
+     "start": 35.815,
+     "end": 36.175
+    },
+    {
+     "w": "Bergizi",
+     "start": 36.223,
+     "end": 36.575
+    },
+    {
+     "w": "Gratis.",
+     "start": 36.655,
+     "end": 37.28
+    }
+   ]
+  },
+  {
+   "id": "d6",
+   "text": "Data lain minggu ini. Inflasi Oktober: 3,23 persen setahun. Penyumbang utamanya, cabai merah.",
+   "start": 37.524,
+   "end": 43.805,
+   "words": [
+    {
+     "w": "Data",
+     "start": 37.524,
+     "end": 37.545
+    },
+    {
+     "w": "lain",
+     "start": 37.593,
+     "end": 37.785
+    },
+    {
+     "w": "minggu",
+     "start": 37.817,
+     "end": 38.025
+    },
+    {
+     "w": "ini.",
+     "start": 38.085,
+     "end": 38.345
+    },
+    {
+     "w": "Inflasi",
+     "start": 38.45,
+     "end": 39.015
+    },
+    {
+     "w": "Oktober:",
+     "start": 39.065,
+     "end": 39.655
+    },
+    {
+     "w": "3,23",
+     "start": 39.695,
+     "end": 40.855
+    },
+    {
+     "w": "persen",
+     "start": 40.903,
+     "end": 41.175
+    },
+    {
+     "w": "setahun.",
+     "start": 41.235,
+     "end": 41.86
+    },
+    {
+     "w": "Penyumbang",
+     "start": 41.86,
+     "end": 42.285
+    },
+    {
+     "w": "utamanya,",
+     "start": 42.338,
+     "end": 43.125
+    },
+    {
+     "w": "cabai",
+     "start": 43.175,
+     "end": 43.405
+    },
+    {
+     "w": "merah.",
+     "start": 43.465,
+     "end": 43.805
+    }
+   ]
+  },
+  {
+   "id": "d7",
+   "text": "Neraca dagang September surplus 3,36 miliar dolar. Di atas perkiraan ekonom.",
+   "start": 44.055,
+   "end": 49.485,
+   "words": [
+    {
+     "w": "Neraca",
+     "start": 44.055,
+     "end": 44.235
+    },
+    {
+     "w": "dagang",
+     "start": 44.275,
+     "end": 44.475
+    },
+    {
+     "w": "September",
+     "start": 44.523,
+     "end": 45.195
+    },
+    {
+     "w": "surplus",
+     "start": 45.265,
+     "end": 45.755
+    },
+    {
+     "w": "3,36",
+     "start": 45.795,
+     "end": 46.955
+    },
+    {
+     "w": "miliar",
+     "start": 47.035,
+     "end": 47.355
+    },
+    {
+     "w": "dolar.",
+     "start": 47.422,
+     "end": 47.835
+    },
+    {
+     "w": "Di",
+     "start": 47.92,
+     "end": 48.125
+    },
+    {
+     "w": "atas",
+     "start": 48.205,
+     "end": 48.525
+    },
+    {
+     "w": "perkiraan",
+     "start": 48.573,
+     "end": 49.005
+    },
+    {
+     "w": "ekonom.",
+     "start": 49.062,
+     "end": 49.485
+    }
+   ]
+  },
+  {
+   "id": "d8",
+   "text": "Dan dari OJK: utang pinjol per September tembus Rp106,48 triliun. Naik 17 persen setahun.",
+   "start": 49.775,
+   "end": 57.96,
+   "words": [
+    {
+     "w": "Dan",
+     "start": 49.775,
+     "end": 49.815
+    },
+    {
+     "w": "dari",
+     "start": 49.879,
+     "end": 50.255
+    },
+    {
+     "w": "OJK:",
+     "start": 50.315,
+     "end": 50.935
+    },
+    {
+     "w": "utang",
+     "start": 51.058,
+     "end": 51.405
+    },
+    {
+     "w": "pinjol",
+     "start": 51.465,
+     "end": 51.805
+    },
+    {
+     "w": "per",
+     "start": 51.845,
+     "end": 51.965
+    },
+    {
+     "w": "September",
+     "start": 52.021,
+     "end": 52.525
+    },
+    {
+     "w": "tembus",
+     "start": 52.605,
+     "end": 53.005
+    },
+    {
+     "w": "Rp106,48",
+     "start": 53.065,
+     "end": 54.925
+    },
+    {
+     "w": "triliun.",
+     "start": 55.005,
+     "end": 55.405
+    },
+    {
+     "w": "Naik",
+     "start": 56.07,
+     "end": 56.575
+    },
+    {
+     "w": "17",
+     "start": 56.628,
+     "end": 56.975
+    },
+    {
+     "w": "persen",
+     "start": 57.039,
+     "end": 57.415
+    },
+    {
+     "w": "setahun.",
+     "start": 57.445,
+     "end": 57.96
+    }
+   ]
+  },
+  {
+   "id": "d9",
+   "text": "Kamis itu juga, rupiah ditutup menguat ke sekitar Rp18.080 per dolar.",
+   "start": 58.125,
+   "end": 63.235,
+   "words": [
+    {
+     "w": "Kamis",
+     "start": 58.125,
+     "end": 58.325
+    },
+    {
+     "w": "itu",
+     "start": 58.365,
+     "end": 58.485
+    },
+    {
+     "w": "juga,",
+     "start": 58.565,
+     "end": 58.965
+    },
+    {
+     "w": "rupiah",
+     "start": 59.045,
+     "end": 59.445
+    },
+    {
+     "w": "ditutup",
+     "start": 59.505,
+     "end": 59.845
+    },
+    {
+     "w": "menguat",
+     "start": 59.893,
+     "end": 60.38
+    },
+    {
+     "w": "ke",
+     "start": 60.38,
+     "end": 60.515
+    },
+    {
+     "w": "sekitar",
+     "start": 60.568,
+     "end": 60.995
+    },
+    {
+     "w": "Rp18.080",
+     "start": 61.035,
+     "end": 62.515
+    },
+    {
+     "w": "per",
+     "start": 62.555,
+     "end": 62.675
+    },
+    {
+     "w": "dolar.",
+     "start": 62.742,
+     "end": 63.235
+    }
+   ]
+  }
+ ]
+}

@@ -11,57 +11,110 @@
 <script src="../../build/week.js"></script>
 <script src="../../../../../../styles/sticker/weekly/weekly.js"></script>
 <style>
-  /* chapter-specific styles go here */
-  .stat { font-weight: 900; font-size: 190px; letter-spacing: -6px; color: var(--accent); }
-  .bar { position: absolute; bottom: 0; width: 150px; border-radius: 18px 18px 0 0; background: var(--slate); transform-origin: 50% 100%; }
-  .bar.hi { background: var(--accent); }
-  .lab { position: absolute; font-weight: 800; font-size: 38px; white-space: nowrap; transform: translateX(-50%); }
+  .stat { font-weight: 900; font-size: 190px; letter-spacing: -6px; color: var(--accent); line-height: 1; }
+  .card { background:#fff; border-radius:28px; padding:26px 38px; box-shadow:0 0 0 9px #fff,0 18px 26px rgba(27,36,48,.22); text-align:center; font-weight:900; }
+  .card { min-width:420px; }
+  .card .big, .card .mid, .card .stat { white-space:nowrap; }
+  .card small { max-width:660px; margin-left:auto; margin-right:auto; }
+  .card small { display:block; font-weight:700; font-size:30px; color:var(--slate); margin-top:6px; }
+  .big { font-size:84px; letter-spacing:-2px; line-height:1.05; }
+  .mid { font-size:56px; letter-spacing:-1px; line-height:1.1; }
+  .ico { font-size:150px; line-height:1; }
+  .arrow { font-weight:900; font-size:90px; color:var(--accent); }
+  .ring { position:absolute; border:14px solid var(--accent); border-radius:50%; }
+  .bar { position:absolute; left:0; height:60px; border-radius:16px; background:var(--slate); transform-origin:0 50%; }
+  .bar.hi { background:var(--accent); }
+  .lbl { font-weight:800; font-size:36px; position:absolute; white-space:nowrap; }
+  #lower1 { bottom:auto; top:130px; }
+  .tag.big { font-size:64px; padding:20px 38px; }
 </style>
 </head>
 <body>
 <div id="stage">
   <div id="world">
-    <!-- ZONE A (x≈960): headline stat -->
-    <div id="statA" class="abs" style="left:960px; top:470px; text-align:center;">
-      <div class="stat" id="statNum">0</div>
-      <div class="tag light sticker" id="statLab" style="display:inline-block; margin-top:10px;">label</div>
-    </div>
-    <!-- ZONE B (x≈2960): bar chart -->
-    <div id="chart" class="abs" style="left:2960px; top:520px; width:900px; height:520px;"></div>
+    <!-- Z1 x=960: two cases -->
+    <div id="z1a" class="abs card" style="left:660px; top:430px;"><div class="ico">🏦</div><div class="mid">Binance</div><small>Senin</small></div>
+    <div id="z1b" class="abs card" style="left:1260px; top:430px;"><div class="ico">🔐</div><div class="mid">Ledger</div><small>Selasa</small></div>
+    <div id="z1c" class="abs tag accent sticker" style="left:960px; top:700px;">awalnya mirip</div>
+    <!-- Z2 x=2960: Binance loss -->
+    <div id="z2date" class="abs tag light sticker big" style="left:2960px; top:310px;">29 Oktober (waktu AS)</div>
+    <div id="z2stat" class="abs" style="left:2960px; top:430px; text-align:center;"><div class="stat" id="z2num">0</div><div class="tag light sticker" style="display:inline-block; margin-top:14px;">dolar hilang</div></div>
+    <div id="z2rp" class="abs tag accent sticker big" style="left:2960px; top:700px;">≈ Rp114 triliun</div>
+    <div id="z2clock" class="abs card" style="left:2960px; top:430px;"><div class="ico">⏱️</div><div class="big" id="z2min">0</div><small>menit, kebanyakan dipindah</small></div>
+    <!-- Z3 x=4960: cause -->
+    <div id="z3a" class="abs card" style="left:4560px; top:430px;"><div class="ico">💻</div><div class="mid">Laptop engineer</div><small>diretas, kata Binance</small></div>
+    <div id="z3arr" class="abs arrow" style="left:4960px; top:430px;">➜</div>
+    <div id="z3b" class="abs card" style="left:5360px; top:430px;"><div class="ico">🏦</div><div class="mid">Binance dibobol</div></div>
+    <div id="z3c" class="abs card" style="left:4960px; top:430px;"><div class="mid">Diduga TraderTraitor</div><small>disokong Korea Utara · kata TRM Labs & Chainalysis</small><div class="tag accent" style="margin-top:20px; font-size:34px;">Binance belum menunjuk pelaku</div></div>
+    <!-- Z4 x=6960: aftermath -->
+    <div id="z4a" class="abs card" style="left:6430px; top:250px;"><div class="mid">Ganti semua kerugian</div></div>
+    <div id="z4b" class="abs card" style="left:6960px; top:470px;"><div class="stat" style="font-size:110px">3 miliar</div><small>dolar sudah dibekukan</small></div>
+    <div id="z4c" class="abs card" style="left:7500px; top:250px;"><div class="mid">1 November</div><small>penarikan dibuka bertahap</small></div>
+    <div id="z4d" class="abs" style="left:6960px; top:430px; text-align:center;"><div class="stat" id="z4num">0</div><div class="tag light sticker" style="display:inline-block; margin-top:14px;">miliar dolar ditarik bersih</div><div class="lbl" style="position:static; margin-top:22px; color:var(--slate);">dalam beberapa jam pertama, kata Binance</div></div>
+    <!-- Z5 x=8960: Ledger -->
+    <div id="z5a" class="abs card" style="left:8960px; top:400px;"><div class="ico">🔐</div><div class="mid">Ledger dari toko tertentu</div><small>disisipi komponen jahat · temuan Polisi Singapura</small></div>
+    <div id="z5b" class="abs card" style="left:8960px; top:400px;"><div class="big" id="z5num">0</div><div class="mid">kata pemulihan dibaca</div><small>lalu dikirim lewat sinyal seluler · kata Ledger</small></div>
+    <div id="z5c" class="abs card" style="left:8360px; top:400px;"><div class="big">2</div><small>kasus dilaporkan</small></div>
+    <div id="z5d" class="abs card" style="left:8960px; top:400px;"><div class="big" style="color:var(--accent)">Rp49,5 miliar</div><small>kerugian</small></div>
+    <div id="z5e" class="abs card" style="left:9560px; top:400px;"><div class="big">7</div><small style="max-width:400px">wilayah Asia, reseller diminta setop jualan</small></div>
+    <div id="z5f" class="abs tag accent sticker" style="left:8960px; top:650px;">Termasuk Indonesia</div>
+    <!-- Z6 x=10960: synthesis + OJK -->
+    <div id="z6a" class="abs card" style="left:10460px; top:380px;"><div class="ico">💻</div><div class="mid">Laptop karyawan</div></div>
+    <div id="z6b" class="abs card" style="left:11460px; top:380px;"><div class="ico">🛒</div><div class="mid">Barang di toko</div></div>
+    <div id="z6c" class="abs tag accent sticker big" style="left:10960px; top:640px;">Bukan dari kode blockchain</div>
+    <div id="z6d" class="abs card" style="left:10960px; top:380px;"><div class="mid" style="white-space:normal; max-width:800px;">Kata OJK: tidak ada rush di Indonesia</div><div class="tag accent" style="margin-top:22px; font-size:40px;">Pakai platform berizin & diawasi OJK</div></div>
   </div>
   <div id="card"><div class="kicker" id="cKick"></div><div class="title" id="cTitle"></div><div class="sub" id="cSub"></div></div>
-  <div class="lower" id="lower1">Sumber<small>keterangan</small></div>
+  <div class="lower" id="lower1">Sumber: Binance, Ledger<small>via CNBC Indonesia, Katadata, Malay Mail</small></div>
   <div id="brand"><div class="dot"></div><b>Rangkumin Dong</b></div>
   <div id="subs"></div>
   <div id="progress"></div>
 </div>
 <script>
-// ---- chapter data (the chapter-builder replaces this block; every number must be in the script and verified) ----
+// ---- chapter data: every on-screen number is spoken in script.json and verified in claims.json ----
 window.CHAPTER = Number(location.pathname.split('/').slice(-2)[0]);
-const DATA = { stat: 0, statLabel: '', bars: [] };          // e.g. bars: [{label:'2024', v: 12}, ...]
+const DATA = { loss: 6.3, minutes: 20, outflow: 3.64, words: 24 };
 // -----------------------------------------------------------------------------------------------
 const $ = (id) => document.getElementById(id);
 const T = window.TIMING; window.DURATION = T.duration;
 const ch = (window.WEEK?.chapters || []).find((c) => c.n === window.CHAPTER) || {};
 $('cKick').textContent = ch.kicker || ''; $('cTitle').textContent = ch.title || ''; $('cSub').textContent = window.WEEK?.dates || '';
-$('statLab').textContent = DATA.statLabel;
-const chart = $('chart'), max = Math.max(1, ...DATA.bars.map((b) => b.v));
-const bars = DATA.bars.map((b, i) => {
-  const x = 90 + i * (720 / Math.max(1, DATA.bars.length - 1 || 1));
-  const e = document.createElement('div'); e.className = 'bar' + (i === DATA.bars.length - 1 ? ' hi' : '');
-  Object.assign(e.style, { left: x - 75 + 'px', height: (b.v / max * 420) + 'px' }); chart.appendChild(e);
-  const l = document.createElement('div'); l.className = 'lab'; l.textContent = b.label; Object.assign(l.style, { left: x + 'px', top: '540px' }); chart.appendChild(l);
-  return e;
-});
-const L = T.lines, tB = L[Math.min(2, L.length - 1)].start;   // when to move to zone B (pick a line id in real chapters)
+const A = (id, off = 0) => K.at(id, off), E = (id) => K.line(id).end;
+const show = (id, t, a, b = Infinity, rot = 0) => K.pop($(id), t, a, b, rot);
+const count = (n, t, a, d, dec) => (n * K.easeOut(K.prog(t, a, d))).toLocaleString('id-ID', { minimumFractionDigits: dec, maximumFractionDigits: dec });
 
 function seek(t) {
-  K.cam16($('world'), [{ t: 0, x: 960, y: 540, z: 1 }, { t: tB, x: 2960, y: 540, z: 1 }], t);
+  K.cam16($('world'), [
+    { t: 0, x: 960, y: 540, z: 1 },
+    { t: A('b2', -0.2), x: 2960, y: 540, z: 1 },
+    { t: A('b4', -0.2), x: 4960, y: 540, z: 1.05 },
+    { t: A('b6', -0.2), x: 6960, y: 540, z: 1 },
+    { t: A('b8', -0.2), x: 8960, y: 540, z: 1 },
+    { t: A('b11', -0.2), x: 10960, y: 540, z: 1 },
+  ], t);
   K.titleCard($('card'), t, 2.0);
-  const s = K.spring(t - 2.1); $('statNum').textContent = Math.round(DATA.stat * K.clamp(K.prog(t, 2.1, 1.0))).toLocaleString('id-ID');
-  K.pop($('statA'), t, 2.1);
-  bars.forEach((e, i) => { e.style.transform = `scaleY(${K.spring(t - tB - 0.3 - i * 0.12)})`; });
-  K.lower($('lower1'), t, 3.0, Math.max(3.1, T.duration - 1.0));
+  // Z1
+  show('z1a', t, 2.2, Infinity, -2); show('z1b', t, A('b1', 2.4), Infinity, 2); show('z1c', t, A('b1', 3.5));
+  // Z2
+  show('z2date', t, A('b2', 0.9), E('b2'), -1);
+  show('z2stat', t, A('b3'), A('b3', 4.6)); $('z2num').textContent = count(DATA.loss, t, A('b3', 0.1), 1.0, 1);
+  show('z2rp', t, A('b3', 2.6), Infinity, 1);
+  show('z2clock', t, A('b3', 4.8)); $('z2min').textContent = count(DATA.minutes, t, A('b3', 4.8), 0.8, 0);
+  // Z3
+  show('z3a', t, A('b4', 0.1), A('b5', -0.1), -2); show('z3arr', t, A('b4', 1.2), A('b5', -0.1)); show('z3b', t, A('b4', 1.8), A('b5', -0.1), 2);
+  show('z3c', t, A('b5', 0.2));
+  // Z4
+  show('z4a', t, A('b6', 0.1), E('b6'), -2); show('z4b', t, A('b6', 1.7), E('b6')); show('z4c', t, A('b6', 4.4), E('b6'), 2);
+  show('z4d', t, A('b7', 0.1)); $('z4num').textContent = count(DATA.outflow, t, A('b7', 0.2), 1.4, 2);
+  // Z5
+  show('z5a', t, A('b8', 0.4), A('b9', 3.0));
+  show('z5b', t, A('b9', 3.4), A('b10', 0)); $('z5num').textContent = Math.round(DATA.words * K.easeOut(K.prog(t, A('b9', 3.4), 0.8)));
+  show('z5c', t, A('b10', 0.1), Infinity, -2); show('z5d', t, A('b10', 1.0), Infinity);
+  show('z5e', t, A('b10', 4.0), Infinity, 2); show('z5f', t, A('b10', 6.0));
+  // Z6
+  show('z6a', t, A('b11', 2.0), A('b12', -0.1), -2); show('z6b', t, A('b11', 4.4), A('b12', -0.1), 2); show('z6c', t, A('b11', 5.4), A('b12', -0.1));
+  show('z6d', t, A('b12', 0.1));
+  K.lower($('lower1'), t, A('b2', 0.2), A('b2', 4.5));
   K.subtitles($('subs'), t);
   K.weekly(t);
 }

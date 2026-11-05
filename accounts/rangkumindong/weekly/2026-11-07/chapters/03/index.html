@@ -11,23 +11,53 @@
 <script src="../../build/week.js"></script>
 <script src="../../../../../../styles/sticker/weekly/weekly.js"></script>
 <style>
-  /* chapter-specific styles go here */
-  .stat { font-weight: 900; font-size: 190px; letter-spacing: -6px; color: var(--accent); }
-  .bar { position: absolute; bottom: 0; width: 150px; border-radius: 18px 18px 0 0; background: var(--slate); transform-origin: 50% 100%; }
-  .bar.hi { background: var(--accent); }
-  .lab { position: absolute; font-weight: 800; font-size: 38px; white-space: nowrap; transform: translateX(-50%); }
+  .big { font-weight: 900; font-size: 230px; letter-spacing: -8px; line-height: 1; color: var(--accent); white-space: nowrap; }
+  .mid { font-weight: 900; font-size: 150px; letter-spacing: -5px; line-height: 1; white-space: nowrap; }
+  .col { display: flex; flex-direction: column; align-items: center; text-align: center; }
+  .row2 { display: flex; align-items: center; justify-content: center; gap: 26px; }
+  #zB .tag { position: absolute; }
+  #lower1 { left: 450px; top: 38px; bottom: auto; font-size: 32px; padding: 10px 22px; } #lower1 small { display: none; }
+  .bar { position: absolute; width: 190px; border-radius: 18px; transform-origin: 50% 0; }
+  .bar.up { background: var(--slate); } .bar.dn { background: var(--accent); }
+  .val { position: absolute; width: 300px; text-align: center; font-weight: 900; font-size: 52px; letter-spacing: -1px; transform: translateX(-50%); }
+  .day { position: absolute; width: 300px; text-align: center; font-weight: 800; font-size: 40px; color: var(--slate); transform: translateX(-50%); }
+  .base { position: absolute; height: 4px; background: var(--ink); opacity: .5; }
+  .dash { position: absolute; height: 0; border-top: 5px dashed var(--slate); opacity: .7; }
+  .tag { font-size: 52px; }
 </style>
 </head>
 <body>
 <div id="stage">
   <div id="world">
-    <!-- ZONE A (x≈960): headline stat -->
-    <div id="statA" class="abs" style="left:960px; top:470px; text-align:center;">
-      <div class="stat" id="statNum">0</div>
-      <div class="tag light sticker" id="statLab" style="display:inline-block; margin-top:10px;">label</div>
+    <!-- ZONE A (x=960): delisted stocks -->
+    <div id="zA" class="abs col" style="left:960px; top:480px; width:1500px;">
+      <div class="big" id="n81">0</div>
+      <div class="tag light sticker" style="display:inline-block; margin-top:18px;">saham keluar dari hitungan IHSG · 2 Nov</div>
+      <div id="w18" class="row2" style="margin-top:56px;"><span class="mid" id="n18">0</span><div class="tag accent sticker">bobot di IHSG</div></div>
     </div>
-    <!-- ZONE B (x≈2960): bar chart -->
-    <div id="chart" class="abs" style="left:2960px; top:520px; width:900px; height:520px;"></div>
+    <!-- ZONE B (x=2960): daily changes -->
+    <div id="zB" class="abs" style="left:2960px; top:480px; width:1500px; height:700px;"></div>
+    <!-- ZONE C (x=4960): OJK -->
+    <div id="zC" class="abs col" style="left:4960px; top:480px; width:1500px;">
+      <div class="tag light sticker" id="cTag" style="display:inline-block; margin-bottom:26px;">Kata OJK · sepanjang Oktober</div>
+      <div class="big" id="n1688">0</div>
+      <div class="tag sticker" style="display:inline-block; margin-top:14px;">asing jual bersih saham</div>
+      <div id="w167" class="row2" style="margin-top:56px;"><span class="mid" id="n167" style="color:var(--ink)">0</span><div class="tag accent sticker">IHSG dalam sebulan</div></div>
+    </div>
+    <!-- ZONE D (x=6960): investors -->
+    <div id="zD" class="abs col" style="left:6960px; top:480px; width:1500px;">
+      <div class="tag light sticker" style="display:inline-block; margin-bottom:26px;">Tapi di bulan yang sama</div>
+      <div class="big" id="n138" style="color:var(--slate)">0</div>
+      <div class="tag sticker" style="display:inline-block; margin-top:14px;">investor pasar modal bertambah</div>
+      <div id="w33" class="row2" style="margin-top:56px;"><span class="mid" id="n33">0</span><div class="tag accent sticker">total investor</div></div>
+    </div>
+    <!-- ZONE E (x=8960): next -->
+    <div id="zE" class="abs col" style="left:8960px; top:480px; width:1500px;">
+      <div class="tag light sticker" style="display:inline-block; margin-bottom:26px;">Yang ditunggu berikutnya</div>
+      <div class="big" id="msci" style="font-size:260px">MSCI</div>
+      <div class="tag accent sticker" id="msciTag" style="display:inline-block; margin-top:20px;">Kamis depan, dini hari</div>
+      <div class="stamp sticker" id="disc" style="display:inline-block; margin-top:60px; font-size:54px; background:var(--ink); padding:20px 40px 26px;">Bukan ajakan jual atau beli saham</div>
+    </div>
   </div>
   <div id="card"><div class="kicker" id="cKick"></div><div class="title" id="cTitle"></div><div class="sub" id="cSub"></div></div>
   <div class="lower" id="lower1">Sumber<small>keterangan</small></div>
@@ -36,31 +66,82 @@
   <div id="progress"></div>
 </div>
 <script>
-// ---- chapter data (the chapter-builder replaces this block; every number must be in the script and verified) ----
 window.CHAPTER = Number(location.pathname.split('/').slice(-2)[0]);
-const DATA = { stat: 0, statLabel: '', bars: [] };          // e.g. bars: [{label:'2024', v: 12}, ...]
+// ---- chapter data: every number is spoken in the script and verified (claims.json c1-c9) ----
+const DATA = {
+  out: 81, weight: 18,
+  days: [ { d: 'Senin', pct: 0.79, id: 'c3', w: 'Senin', lvl: '5.096' }, { d: 'Selasa', pct: -3.78, id: 'c4', w: 'Selasa', lvl: '4.904' },
+          { d: 'Rabu', pct: 0.32, id: 'c6', w: 'Rabu', lvl: '' }, { d: 'Kamis', pct: 2.25, id: 'c6', w: 'Kamis', lvl: '5.030' } ],
+  sell: 16.88, drop: 16.7, inv: 1.38, total: 33
+};
 // -----------------------------------------------------------------------------------------------
 const $ = (id) => document.getElementById(id);
 const T = window.TIMING; window.DURATION = T.duration;
 const ch = (window.WEEK?.chapters || []).find((c) => c.n === window.CHAPTER) || {};
 $('cKick').textContent = ch.kicker || ''; $('cTitle').textContent = ch.title || ''; $('cSub').textContent = window.WEEK?.dates || '';
-$('statLab').textContent = DATA.statLabel;
-const chart = $('chart'), max = Math.max(1, ...DATA.bars.map((b) => b.v));
-const bars = DATA.bars.map((b, i) => {
-  const x = 90 + i * (720 / Math.max(1, DATA.bars.length - 1 || 1));
-  const e = document.createElement('div'); e.className = 'bar' + (i === DATA.bars.length - 1 ? ' hi' : '');
-  Object.assign(e.style, { left: x - 75 + 'px', height: (b.v / max * 420) + 'px' }); chart.appendChild(e);
-  const l = document.createElement('div'); l.className = 'lab'; l.textContent = b.label; Object.assign(l.style, { left: x + 'px', top: '540px' }); chart.appendChild(l);
-  return e;
+$('lower1').innerHTML = 'Sumber: CNBC Indonesia, Kontan, OJK<small>IHSG 2-5 November 2026</small>';
+const fmt = (n, dp) => n.toLocaleString('id-ID', { minimumFractionDigits: dp, maximumFractionDigits: dp });
+
+// zone B chart (local coords: 1500x700, baseline y=330, 70px per 1%)
+const zB = $('zB'), BASE = 330, SC = 70, X0 = 270, DX = 320;
+const mk = (cls, css, txt) => { const e = document.createElement('div'); e.className = cls; Object.assign(e.style, css); if (txt != null) e.textContent = txt; zB.appendChild(e); return e; };
+mk('base', { left: '60px', width: '1380px', top: BASE - 2 + 'px' });
+const bars = DATA.days.map((o, i) => {
+  const x = X0 + 150 + i * DX, h = Math.abs(o.pct) * SC, up = o.pct > 0;
+  const bar = mk('bar ' + (up ? 'up' : 'dn'), { left: x - 95 + 'px', top: (up ? BASE - h : BASE) + 'px', height: h + 'px', transformOrigin: up ? '50% 100%' : '50% 0' });
+  const val = mk('val', { left: x + 'px', top: (up ? BASE - h - 70 : BASE + h + 14) + 'px', color: up ? 'var(--slate)' : 'var(--accent)' }, (up ? '+' : '\u2212') + fmt(Math.abs(o.pct), 2) + '%');
+  const day = mk('day', { left: x + 'px', top: (up ? BASE + 18 : BASE - 62) + 'px' }, o.d);
+  const lv = o.lvl ? mk('tag light sticker', { left: x - 70 + 'px', top: (up ? BASE + 80 : BASE - 150) + 'px', fontSize: '40px', padding: '8px 18px' }, o.lvl) : null;
+  if (lv) lv.style.width = 'auto';
+  return { bar, val, day, lv, t: K.word(o.id, o.w), up };
 });
-const L = T.lines, tB = L[Math.min(2, L.length - 1)].start;   // when to move to zone B (pick a line id in real chapters)
+// the 5.000 line label (spoken in c3)
+const l5 = mk('tag accent sticker', { left: '40px', top: '20px', fontSize: '44px' }, 'IHSG sempat di bawah 5.000');
+const tBack = K.word('c6', 'balik');
+const l5b = mk('tag light sticker', { left: '900px', top: '540px', fontSize: '44px' }, 'Balik di atas 5.000');
+
+const tB = K.at('c3', -0.3), tC = K.at('c7', -0.4), tD = K.at('c8', -0.4), tE = K.at('c9', -0.4);
+const lay = (z, t, k) => { z.style.opacity = K.clamp((t - k) / 0.2); };
 
 function seek(t) {
-  K.cam16($('world'), [{ t: 0, x: 960, y: 540, z: 1 }, { t: tB, x: 2960, y: 540, z: 1 }], t);
+  const tA = 0;
+  K.cam16($('world'), [{ t: 0, x: 960, y: 540, z: 1 }, { t: tB, x: 2960, y: 540, z: 1.0, dur: 1.0 }, { t: tC, x: 4960, y: 540, z: 1.0, dur: 1.0 },
+    { t: tD, x: 6960, y: 540, z: 1.0, dur: 1.0 }, { t: tE, x: 8960, y: 540, z: 1.0, dur: 1.0 }], t);
   K.titleCard($('card'), t, 2.0);
-  const s = K.spring(t - 2.1); $('statNum').textContent = Math.round(DATA.stat * K.clamp(K.prog(t, 2.1, 1.0))).toLocaleString('id-ID');
-  K.pop($('statA'), t, 2.1);
-  bars.forEach((e, i) => { e.style.transform = `scaleY(${K.spring(t - tB - 0.3 - i * 0.12)})`; });
+  // A
+  const t81 = K.word('c1', '81', 0), t18 = K.word('c2', '18');
+  $('n81').textContent = Math.round(DATA.out * K.easeOut(K.prog(t, t81, 0.7)));
+  $('n81').style.opacity = t >= 2.1 ? 1 : 0;
+  $('n81').style.transform = `scale(${0.6 + 0.4 * K.spring(t - t81)})`; $('n81').style.opacity = K.clamp((t - t81 + 0.1) / 0.1);
+  $('n18').textContent = Math.round(DATA.weight * K.easeOut(K.prog(t, t18, 0.7))) + '%';
+  $('w18').style.opacity = K.clamp((t - t18 + 0.15) / 0.15); $('w18').style.transform = `scale(${0.7 + 0.3 * K.spring(t - t18)})`;
+  // B
+  l5.style.opacity = K.clamp((t - K.word('c3', 'sempat')) / 0.15);
+  l5.style.transform = `scale(${0.7 + 0.3 * K.spring(t - K.word('c3', 'sempat'))})`;
+  bars.forEach((b, i) => {
+    const s = K.spring(t - b.t, 200, 20);
+    b.bar.style.transform = `scaleY(${K.clamp(s, 0, 1.08)})`; b.bar.style.opacity = t >= b.t ? 1 : 0;
+    [b.val, b.day, b.lv].forEach((e) => { if (e) { e.style.opacity = K.clamp((t - b.t - 0.15) / 0.15); } });
+  });
+  l5b.style.opacity = K.clamp((t - tBack) / 0.15); l5b.style.transform = `scale(${0.7 + 0.3 * K.spring(t - tBack)})`;
+  // C
+  const t1688 = K.word('c7', '16,88'), t167 = K.word('c7', '16,7');
+  $('n1688').textContent = 'Rp' + fmt(DATA.sell * K.easeOut(K.prog(t, t1688, 0.8)), 2) + ' T';
+  $('n1688').style.opacity = K.clamp((t - t1688 + 0.1) / 0.1);
+  $('cTag').style.opacity = K.clamp((t - K.at('c7', 0.8)) / 0.2);
+  $('w167').style.opacity = K.clamp((t - t167 + 0.1) / 0.15); $('w167').style.transform = `scale(${0.7 + 0.3 * K.spring(t - t167)})`;
+  $('n167').textContent = '\u2212' + fmt(DATA.drop * K.easeOut(K.prog(t, t167, 0.7)), 1) + '%';
+  // D
+  const t138 = K.word('c8', '1,38'), t33 = K.word('c8', '33');
+  $('n138').textContent = '+' + fmt(DATA.inv * K.easeOut(K.prog(t, t138, 0.7)), 2) + ' juta';
+  $('n138').style.opacity = K.clamp((t - t138 + 0.1) / 0.1);
+  $('w33').style.opacity = K.clamp((t - t33 + 0.15) / 0.15); $('w33').style.transform = `scale(${0.7 + 0.3 * K.spring(t - t33)})`;
+  $('n33').textContent = '>' + Math.round(DATA.total * K.easeOut(K.prog(t, t33, 0.7))) + ' juta';
+  // E
+  const t9 = K.at('c9', 0.3), t10 = K.at('c10', 0);
+  $('msci').style.opacity = K.clamp((t - t9) / 0.15); $('msci').style.transform = `scale(${0.6 + 0.4 * K.spring(t - t9)})`;
+  const tm = K.word('c9', 'kamis'); $('msciTag').style.opacity = K.clamp((t - tm) / 0.15); $('msciTag').style.transform = `scale(${0.7 + 0.3 * K.spring(t - tm)})`;
+  $('disc').style.opacity = K.clamp((t - t10) / 0.15); $('disc').style.transform = `scale(${0.7 + 0.3 * K.spring(t - t10)})`;
   K.lower($('lower1'), t, 3.0, Math.max(3.1, T.duration - 1.0));
   K.subtitles($('subs'), t);
   K.weekly(t);

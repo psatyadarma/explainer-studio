@@ -11,23 +11,75 @@
 <script src="../../build/week.js"></script>
 <script src="../../../../../../styles/sticker/weekly/weekly.js"></script>
 <style>
-  /* chapter-specific styles go here */
-  .stat { font-weight: 900; font-size: 190px; letter-spacing: -6px; color: var(--accent); }
-  .bar { position: absolute; bottom: 0; width: 150px; border-radius: 18px 18px 0 0; background: var(--slate); transform-origin: 50% 100%; }
-  .bar.hi { background: var(--accent); }
-  .lab { position: absolute; font-weight: 800; font-size: 38px; white-space: nowrap; transform: translateX(-50%); }
+  .stat { font-weight: 900; font-size: 190px; letter-spacing: -6px; color: var(--accent); line-height: 1; white-space: nowrap; }
+  .stat.ink { color: var(--ink); }
+  .bar { position: absolute; height: 76px; border-radius: 16px; transform-origin: 0 50%; display: flex; align-items: center; padding-left: 24px;
+    font-weight: 800; font-size: 36px; color: #fff; white-space: nowrap; }
+  .bar.slate { background: var(--slate); } .bar.acc { background: var(--accent); }
+  .dot8 { width: 120px; height: 120px; border-radius: 50%; background: var(--slate); display: flex; align-items: center; justify-content: center;
+    font-weight: 900; font-size: 60px; color: #fff; }
+  .lower { top: 130px; bottom: auto; }
+  .big { font-weight: 900; font-size: 110px; letter-spacing: -3px; line-height: 1.02; text-align: center; white-space: nowrap; }
+  .cal { display: flex; gap: 18px; }
+  .cal div { width: 330px; height: 150px; border-radius: 22px; background: #fff; color: var(--slate); font-weight: 800; font-size: 44px;
+    display: flex; align-items: center; justify-content: center; }
 </style>
 </head>
 <body>
 <div id="stage">
   <div id="world">
-    <!-- ZONE A (x≈960): headline stat -->
-    <div id="statA" class="abs" style="left:960px; top:470px; text-align:center;">
-      <div class="stat" id="statNum">0</div>
-      <div class="tag light sticker" id="statLab" style="display:inline-block; margin-top:10px;">label</div>
-    </div>
-    <!-- ZONE B (x≈2960): bar chart -->
-    <div id="chart" class="abs" style="left:2960px; top:520px; width:900px; height:520px;"></div>
+    <!-- A (960): the question -->
+    <div id="aQ" class="abs big" style="left:960px; top:400px;">Asap mulai reda?</div>
+    <div id="aNo" class="abs stamp" style="left:960px; top:640px;">BELUM.</div>
+    <!-- B (2960): hotspots -->
+    <div id="bTag" class="abs tag accent sticker" style="left:2960px; top:170px;">Kamis · BNPB</div>
+    <div id="bStat" class="abs stat" style="left:2960px; top:330px;">0</div>
+    <div id="bLab" class="abs tag light sticker" style="left:2960px; top:470px;">titik panas</div>
+    <div id="bTot" class="bar slate" style="left:2510px; top:560px; width:900px;">Total</div>
+    <div id="bKal" class="bar acc" style="left:2510px; top:660px; width:503px;">Kalimantan Tengah 821</div>
+    <div id="bUp" class="abs stamp" style="left:3380px; top:670px; font-size:80px; padding:14px 34px 20px;">+93%</div>
+    <div id="bUpL" class="abs tag light sticker" style="left:3380px; top:770px; font-size:32px;">dari sehari sebelumnya</div>
+    <!-- C (4960): hectares -->
+    <svg id="cFire" class="abs sticker-svg" style="left:4960px; top:210px;" width="150" height="190" viewBox="0 0 150 190">
+      <path d="M75 8 C95 50 140 70 140 125 C140 165 110 184 75 184 C40 184 10 165 10 125 C10 95 30 85 40 55 C55 70 60 80 62 90 C70 60 62 35 75 8Z" fill="#FF5A36"/>
+      <path d="M75 100 C90 120 108 128 108 150 C108 168 92 178 75 178 C58 178 42 168 42 150 C42 130 62 125 75 100Z" fill="#FFD23F"/></svg>
+    <div id="cStat" class="abs stat" style="left:4960px; top:480px;">0</div>
+    <div id="cLab" class="abs tag light sticker" style="left:4960px; top:640px;">hektare lahan sedang ditangani</div>
+    <!-- D (6960): helicopter -->
+    <div id="dDay" class="abs tag accent sticker" style="left:6620px; top:350px;">Rabu</div>
+    <svg id="dHeli" class="abs sticker-svg" style="left:6960px; top:350px;" width="460" height="230" viewBox="0 0 460 230">
+      <g id="dRotor"><rect x="60" y="14" width="340" height="12" rx="6" fill="#3E5568"/></g>
+      <rect x="225" y="24" width="10" height="34" fill="#3E5568"/>
+      <path d="M70 120 C70 80 130 56 200 56 C270 56 310 80 320 110 L430 100 L440 124 L324 150 C300 180 250 190 190 190 C120 190 70 170 70 120Z" fill="#1B2430"/>
+      <path d="M110 112 C112 90 150 76 190 76 L190 120 L110 124Z" fill="#CFE3F2"/>
+      <rect x="120" y="196" width="220" height="10" rx="5" fill="#3E5568"/>
+      <rect x="170" y="186" width="8" height="14" fill="#3E5568"/><rect x="280" y="186" width="8" height="14" fill="#3E5568"/></svg>
+    <div id="dWater" class="abs tag light sticker" style="left:7400px; top:260px;">water bombing</div>
+    <div id="dMi" class="abs tag sticker" style="left:6960px; top:590px;">Mi-17 · TNI AD</div>
+    <div id="dWhere" class="abs tag accent sticker" style="left:6960px; top:690px;">Seruyan, Kalimantan Tengah</div>
+    <!-- E (8960): crew -->
+    <div id="eTag" class="abs tag sticker" style="left:8960px; top:240px;">8 awak</div>
+    <div id="eDots"></div>
+    <div id="eL1" class="abs tag sticker" style="left:8450px; top:600px;">2 meninggal</div>
+    <div id="eL2" class="abs tag light sticker" style="left:9045px; top:600px;">5 dirawat</div>
+    <div id="eL3" class="abs tag accent sticker" style="left:9555px; top:600px;">1 dicari</div>
+    <!-- F (10960): ISPA -->
+    <div id="fTag" class="abs tag accent sticker" style="left:10960px; top:190px;">Kemenkes</div>
+    <div id="fStat" class="abs stat" style="left:10960px; top:380px;">0</div>
+    <div id="fLab" class="abs tag light sticker" style="left:10960px; top:530px;">kasus ISPA terkait asap</div>
+    <div id="fProv" class="abs stamp" style="left:10960px; top:680px; font-size:80px; padding:14px 40px 20px;">7 provinsi</div>
+    <!-- G (12960): children -->
+    <div id="gTag" class="abs tag accent sticker" style="left:12960px; top:180px;">yang sering terlewat</div>
+    <div id="gStat" class="abs stat" style="left:12960px; top:340px;">0</div>
+    <div id="gBarT" class="bar slate" style="left:12510px; top:560px; width:900px; padding-left:240px;">semua kasus ISPA</div>
+    <div id="gBarK" class="bar acc" style="left:12510px; top:560px; width:206px; padding-left:0;"></div>
+    <div id="gLab" class="abs tag sticker" style="left:12640px; top:690px;">anak umur 0 sampai 5 tahun</div>
+    <!-- H (14960): rain -->
+    <div id="hTag" class="abs tag accent sticker" style="left:14960px; top:190px;">BMKG</div>
+    <div id="hHead" class="abs big" style="left:14960px; top:340px;">Musim hujan terlambat</div>
+    <div id="hWhere" class="abs tag light sticker" style="left:14960px; top:500px;">Kalimantan Tengah</div>
+    <div id="hCal" class="abs cal" style="left:14960px; top:660px;"><div>awal</div><div id="c2">pertengahan</div><div id="c3">akhir</div></div>
+    <div id="hMon" class="abs tag sticker" style="left:14960px; top:805px;">November</div>
   </div>
   <div id="card"><div class="kicker" id="cKick"></div><div class="title" id="cTitle"></div><div class="sub" id="cSub"></div></div>
   <div class="lower" id="lower1">Sumber<small>keterangan</small></div>
@@ -36,32 +88,96 @@
   <div id="progress"></div>
 </div>
 <script>
-// ---- chapter data (the chapter-builder replaces this block; every number must be in the script and verified) ----
+// ---- chapter data (every number is in the script and verified in claims.json: e2-e8) ----
 window.CHAPTER = Number(location.pathname.split('/').slice(-2)[0]);
-const DATA = { stat: 0, statLabel: '', bars: [] };          // e.g. bars: [{label:'2024', v: 12}, ...]
+const DATA = { hotspots: 1468, kalteng: 821, ha: 2645, ispa: 401586, kids: 91913 };
 // -----------------------------------------------------------------------------------------------
 const $ = (id) => document.getElementById(id);
 const T = window.TIMING; window.DURATION = T.duration;
 const ch = (window.WEEK?.chapters || []).find((c) => c.n === window.CHAPTER) || {};
 $('cKick').textContent = ch.kicker || ''; $('cTitle').textContent = ch.title || ''; $('cSub').textContent = window.WEEK?.dates || '';
-$('statLab').textContent = DATA.statLabel;
-const chart = $('chart'), max = Math.max(1, ...DATA.bars.map((b) => b.v));
-const bars = DATA.bars.map((b, i) => {
-  const x = 90 + i * (720 / Math.max(1, DATA.bars.length - 1 || 1));
-  const e = document.createElement('div'); e.className = 'bar' + (i === DATA.bars.length - 1 ? ' hi' : '');
-  Object.assign(e.style, { left: x - 75 + 'px', height: (b.v / max * 420) + 'px' }); chart.appendChild(e);
-  const l = document.createElement('div'); l.className = 'lab'; l.textContent = b.label; Object.assign(l.style, { left: x + 'px', top: '540px' }); chart.appendChild(l);
-  return e;
-});
-const L = T.lines, tB = L[Math.min(2, L.length - 1)].start;   // when to move to zone B (pick a line id in real chapters)
+const fmt = (n) => Math.round(n).toLocaleString('id-ID');
+
+// crew dots: 2 meninggal (ink), 5 dirawat (slate), 1 dicari (outlined)
+const crew = [];
+for (let i = 0; i < 8; i++) {
+  const d = document.createElement('div'); d.className = 'abs dot8 sticker';
+  Object.assign(d.style, { left: (8960 - 595 + i * 170) + 'px', top: '440px' }); $('eDots').appendChild(d); crew.push(d);
+}
+
+const at = K.at, wd = K.word;
+const tIn = (id, w, n = 0) => wd(id, w, n);
+const cam = [{ t: 0, x: 960, y: 540, z: 1 }];
+[['e2', 2960], ['e3', 4960], ['e4', 6960], ['e5', 8960], ['e6', 10960], ['e7', 12960], ['e8', 14960]].forEach(([id, x]) => cam.push({ t: at(id, -0.25), x, y: 540, z: 1 }));
+
+const LOW = [
+  { a: at('e2', 0.5), b: at('e3', 3.3), h: 'BNPB', s: 'Data Kamis' },
+  { a: at('e4', 0.9), b: at('e5', 7.0), h: 'Pangdam Tambun Bungai', s: 'Status sampai Kamis sore' },
+  { a: at('e6', 1.4), b: at('e7', 7.0), h: 'Kemenkes', s: 'Kasus kumulatif terkait asap' },
+  { a: at('e8', 0.5), b: T.duration - 0.4, h: 'BMKG', s: 'Prakiraan musim hujan' },
+];
 
 function seek(t) {
-  K.cam16($('world'), [{ t: 0, x: 960, y: 540, z: 1 }, { t: tB, x: 2960, y: 540, z: 1 }], t);
+  K.cam16($('world'), cam, t);
   K.titleCard($('card'), t, 2.0);
-  const s = K.spring(t - 2.1); $('statNum').textContent = Math.round(DATA.stat * K.clamp(K.prog(t, 2.1, 1.0))).toLocaleString('id-ID');
-  K.pop($('statA'), t, 2.1);
-  bars.forEach((e, i) => { e.style.transform = `scaleY(${K.spring(t - tB - 0.3 - i * 0.12)})`; });
-  K.lower($('lower1'), t, 3.0, Math.max(3.1, T.duration - 1.0));
+
+  // A
+  K.pop($('aQ'), t, 2.15); K.pop($('aNo'), t, tIn('e1', 'belum'), Infinity, -4);
+  // B
+  K.pop($('bTag'), t, at('e2', 0.1)); K.pop($('bStat'), t, tIn('e2', '1.468'));
+  $('bStat').textContent = fmt(DATA.hotspots * K.clamp(K.prog(t, tIn('e2', '1.468'), 1.5)));
+  K.pop($('bLab'), t, tIn('e2', 'titik'));
+  const tb = tIn('e2', 'paling'), tk = tIn('e2', '821');
+  $('bTot').style.transform = `scaleX(${K.spring(t - tb, 200, 24)})`; $('bTot').style.opacity = t >= tb ? 1 : 0;
+  $('bKal').style.transform = `scaleX(${K.spring(t - tk + 0.5, 200, 24)})`; $('bKal').style.opacity = t >= tk - 0.5 ? 1 : 0;
+  K.pop($('bUp'), t, tIn('e2', '93'), Infinity, -3); K.pop($('bUpL'), t, tIn('e2', 'dari'));
+  // C
+  K.pop($('cFire'), t, at('e3', 0.1)); K.pop($('cStat'), t, tIn('e3', '2.645') - 0.1);
+  $('cStat').textContent = fmt(DATA.ha * K.clamp(K.prog(t, tIn('e3', '2.645'), 1.6)));
+  K.pop($('cLab'), t, tIn('e3', 'ditangani'));
+  // D
+  K.pop($('dDay'), t, at('e4', 0.0));
+  const fall = K.clamp(K.prog(t, tIn('e4', 'jatuh'), 1.2)), hv = 8 * Math.sin(t * 2.2) * (1 - fall);
+  const heli = $('dHeli'); K.pop(heli, t, at('e4', 0.2));
+  heli.style.transform += ` translateY(${hv + K.easeInOut(fall) * 110}px) rotate(${fall * 28}deg)`;
+  $('dRotor').setAttribute('transform', `translate(230 20) scale(${Math.cos(t * 30 * (1 - fall))} 1) translate(-230 -20)`);
+  K.pop($('dWater'), t, tIn('e4', 'water')); K.pop($('dMi'), t, tIn('e4', 'mi-17'));
+  K.pop($('dWhere'), t, tIn('e4', 'seruyan'));
+  // E
+  K.pop($('eTag'), t, tIn('e5', 'delapan'));
+  const tm = tIn('e5', 'dua'), tr = tIn('e5', 'lima'), ts = tIn('e5', 'satu');
+  crew.forEach((d, i) => {
+    const t0 = tIn('e5', 'delapan') + 0.1 + i * 0.07;
+    K.pop(d, t, t0);
+    let bg = '#3E5568', txt = '', bd = '';
+    if (i < 2 && t >= tm) bg = '#1B2430';
+    if (i >= 2 && i < 7 && t >= tr) bg = '#5B9BD5';
+    if (i === 7) { bg = t >= ts ? '#FF5A36' : '#3E5568'; txt = t >= ts ? '?' : ''; }
+    d.style.background = bg; d.textContent = txt;
+  });
+  K.pop($('eL1'), t, tm + 0.25); K.pop($('eL2'), t, tr + 0.2); K.pop($('eL3'), t, ts + 0.2);
+  // F
+  K.pop($('fTag'), t, at('e6', 0.7)); K.pop($('fStat'), t, tIn('e6', '401.586') - 0.05);
+  $('fStat').textContent = fmt(DATA.ispa * K.clamp(K.prog(t, tIn('e6', '401.586'), 1.8)));
+  K.pop($('fLab'), t, tIn('e6', 'kasus')); K.pop($('fProv'), t, tIn('e6', '7'), Infinity, 3);
+  // G
+  K.pop($('gTag'), t, at('e7', 0.1)); K.pop($('gStat'), t, tIn('e7', '91.913') - 0.05);
+  $('gStat').textContent = fmt(DATA.kids * K.clamp(K.prog(t, tIn('e7', '91.913'), 2.2)));
+  const tg = tIn('e7', 'antaranya');
+  $('gBarT').style.transform = `scaleX(${K.spring(t - tg, 200, 24)})`; $('gBarT').style.opacity = t >= tg ? 1 : 0;
+  const tc = tIn('e7', 'anak');
+  $('gBarK').style.transform = `scaleX(${K.spring(t - tc, 200, 24)})`; $('gBarK').style.opacity = t >= tc ? 1 : 0;
+  K.pop($('gLab'), t, tc + 0.15);
+  // H
+  K.pop($('hTag'), t, at('e8', 0.0)); K.pop($('hHead'), t, tIn('e8', 'musim'));
+  K.pop($('hWhere'), t, tIn('e8', 'kalimantan')); K.pop($('hCal'), t, tIn('e8', 'untuk'));
+  const on = (el, t0) => { const o = t >= t0; el.style.background = o ? 'var(--accent)' : '#fff'; el.style.color = o ? '#fff' : 'var(--slate)'; };
+  on($('c2'), tIn('e8', 'pertengahan')); on($('c3'), tIn('e8', 'akhir'));
+  K.pop($('hMon'), t, tIn('e8', 'november') - 0.1);
+  // lower third
+  const seg = LOW.filter((s) => t >= s.a).pop() || LOW[0];
+  if ($('lower1').dataset.k !== seg.h) { $('lower1').dataset.k = seg.h; $('lower1').innerHTML = `${seg.h}<small>${seg.s}</small>`; }
+  K.lower($('lower1'), t, seg.a, seg.b);
   K.subtitles($('subs'), t);
   K.weekly(t);
 }

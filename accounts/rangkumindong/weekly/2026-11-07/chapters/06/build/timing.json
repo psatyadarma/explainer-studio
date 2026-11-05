@@ -1,0 +1,567 @@
+{
+ "duration": 48.368,
+ "voice": "Pratama",
+ "lines": [
+  {
+   "id": "g0",
+   "text": "Cek dulu janji minggu lalu: Kamis, 5 November, Jokowi memang hadir sebagai saksi di sidang Roy Suryo.",
+   "start": 0.14100000000000001,
+   "end": 6.831,
+   "words": [
+    {
+     "w": "Cek",
+     "start": 0.141,
+     "end": 0.201
+    },
+    {
+     "w": "dulu",
+     "start": 0.241,
+     "end": 0.521
+    },
+    {
+     "w": "janji",
+     "start": 0.621,
+     "end": 1.001
+    },
+    {
+     "w": "minggu",
+     "start": 1.049,
+     "end": 1.281
+    },
+    {
+     "w": "lalu:",
+     "start": 1.301,
+     "end": 1.641
+    },
+    {
+     "w": "Kamis,",
+     "start": 1.751,
+     "end": 2.461
+    },
+    {
+     "w": "5",
+     "start": 2.521,
+     "end": 2.981
+    },
+    {
+     "w": "November,",
+     "start": 3.012,
+     "end": 3.431
+    },
+    {
+     "w": "Jokowi",
+     "start": 3.491,
+     "end": 4.051
+    },
+    {
+     "w": "memang",
+     "start": 4.111,
+     "end": 4.371
+    },
+    {
+     "w": "hadir",
+     "start": 4.451,
+     "end": 4.851
+    },
+    {
+     "w": "sebagai",
+     "start": 4.891,
+     "end": 5.171
+    },
+    {
+     "w": "saksi",
+     "start": 5.211,
+     "end": 5.731
+    },
+    {
+     "w": "di",
+     "start": 5.758,
+     "end": 5.811
+    },
+    {
+     "w": "sidang",
+     "start": 5.871,
+     "end": 6.131
+    },
+    {
+     "w": "Roy",
+     "start": 6.171,
+     "end": 6.291
+    },
+    {
+     "w": "Suryo.",
+     "start": 6.331,
+     "end": 6.831
+    }
+   ]
+  },
+  {
+   "id": "g1",
+   "text": "Oke, minggu depan. Catat tanggalnya.",
+   "start": 6.953,
+   "end": 8.841,
+   "words": [
+    {
+     "w": "Oke,",
+     "start": 6.953,
+     "end": 7.201
+    },
+    {
+     "w": "minggu",
+     "start": 7.249,
+     "end": 7.521
+    },
+    {
+     "w": "depan.",
+     "start": 7.548,
+     "end": 7.841
+    },
+    {
+     "w": "Catat",
+     "start": 7.941,
+     "end": 8.201
+    },
+    {
+     "w": "tanggalnya.",
+     "start": 8.241,
+     "end": 8.841
+    }
+   ]
+  },
+  {
+   "id": "g2",
+   "text": "Senin, 9 November. Kata Hashim Djojohadikusumo, mulai hari itu Shopee, GoTo sampai bank ikut memungut pajak digital.",
+   "start": 9.211,
+   "end": 17.820999999999998,
+   "words": [
+    {
+     "w": "Senin,",
+     "start": 9.211,
+     "end": 9.811
+    },
+    {
+     "w": "9",
+     "start": 9.861,
+     "end": 10.451
+    },
+    {
+     "w": "November.",
+     "start": 10.482,
+     "end": 10.911
+    },
+    {
+     "w": "Kata",
+     "start": 10.911,
+     "end": 11.181
+    },
+    {
+     "w": "Hashim",
+     "start": 11.229,
+     "end": 11.501
+    },
+    {
+     "w": "Djojohadikusumo,",
+     "start": 11.541,
+     "end": 12.701
+    },
+    {
+     "w": "mulai",
+     "start": 12.741,
+     "end": 12.941
+    },
+    {
+     "w": "hari",
+     "start": 12.989,
+     "end": 13.181
+    },
+    {
+     "w": "itu",
+     "start": 13.261,
+     "end": 13.501
+    },
+    {
+     "w": "Shopee,",
+     "start": 13.661,
+     "end": 14.551
+    },
+    {
+     "w": "GoTo",
+     "start": 14.644,
+     "end": 15.071
+    },
+    {
+     "w": "sampai",
+     "start": 15.151,
+     "end": 15.551
+    },
+    {
+     "w": "bank",
+     "start": 15.631,
+     "end": 16.031
+    },
+    {
+     "w": "ikut",
+     "start": 16.138,
+     "end": 16.431
+    },
+    {
+     "w": "memungut",
+     "start": 16.491,
+     "end": 16.831
+    },
+    {
+     "w": "pajak",
+     "start": 16.891,
+     "end": 17.151
+    },
+    {
+     "w": "digital.",
+     "start": 17.211,
+     "end": 17.821
+    }
+   ]
+  },
+  {
+   "id": "g3",
+   "text": "Tapi kata DJP: ini bukan pajak baru, tarif PPN tidak berubah, dan transfer pribadi tidak otomatis kena.",
+   "start": 17.849999999999998,
+   "end": 25.320999999999998,
+   "words": [
+    {
+     "w": "Tapi",
+     "start": 17.85,
+     "end": 18.21
+    },
+    {
+     "w": "kata",
+     "start": 18.258,
+     "end": 18.53
+    },
+    {
+     "w": "DJP:",
+     "start": 18.557,
+     "end": 19.09
+    },
+    {
+     "w": "ini",
+     "start": 19.17,
+     "end": 19.35
+    },
+    {
+     "w": "bukan",
+     "start": 19.403,
+     "end": 19.59
+    },
+    {
+     "w": "pajak",
+     "start": 19.63,
+     "end": 19.91
+    },
+    {
+     "w": "baru,",
+     "start": 19.974,
+     "end": 20.31
+    },
+    {
+     "w": "tarif",
+     "start": 20.401,
+     "end": 21.061
+    },
+    {
+     "w": "PPN",
+     "start": 21.067,
+     "end": 21.76
+    },
+    {
+     "w": "tidak",
+     "start": 21.827,
+     "end": 22.16
+    },
+    {
+     "w": "berubah,",
+     "start": 22.2,
+     "end": 22.721
+    },
+    {
+     "w": "dan",
+     "start": 22.721,
+     "end": 22.94
+    },
+    {
+     "w": "transfer",
+     "start": 22.984,
+     "end": 23.34
+    },
+    {
+     "w": "pribadi",
+     "start": 23.38,
+     "end": 23.9
+    },
+    {
+     "w": "tidak",
+     "start": 23.993,
+     "end": 24.46
+    },
+    {
+     "w": "otomatis",
+     "start": 24.508,
+     "end": 24.86
+    },
+    {
+     "w": "kena.",
+     "start": 24.9,
+     "end": 25.321
+    }
+   ]
+  },
+  {
+   "id": "g4",
+   "text": "Selasa, 10 November: Perlinsos Digital, bansos lewat sistem digital, direncanakan meluncur. Kata Luhut, kalau tidak ada perubahan.",
+   "start": 25.79,
+   "end": 33.731,
+   "words": [
+    {
+     "w": "Selasa,",
+     "start": 25.79,
+     "end": 26.41
+    },
+    {
+     "w": "10",
+     "start": 26.45,
+     "end": 26.89
+    },
+    {
+     "w": "November:",
+     "start": 26.917,
+     "end": 27.21
+    },
+    {
+     "w": "Perlinsos",
+     "start": 27.371,
+     "end": 27.84
+    },
+    {
+     "w": "Digital,",
+     "start": 27.91,
+     "end": 28.48
+    },
+    {
+     "w": "bansos",
+     "start": 28.576,
+     "end": 29.12
+    },
+    {
+     "w": "lewat",
+     "start": 29.173,
+     "end": 29.36
+    },
+    {
+     "w": "sistem",
+     "start": 29.406,
+     "end": 29.68
+    },
+    {
+     "w": "digital,",
+     "start": 29.74,
+     "end": 30.36
+    },
+    {
+     "w": "direncanakan",
+     "start": 30.4,
+     "end": 30.96
+    },
+    {
+     "w": "meluncur.",
+     "start": 31.0,
+     "end": 31.52
+    },
+    {
+     "w": "Kata",
+     "start": 31.631,
+     "end": 31.87
+    },
+    {
+     "w": "Luhut,",
+     "start": 31.91,
+     "end": 32.35
+    },
+    {
+     "w": "kalau",
+     "start": 32.391,
+     "end": 32.68
+    },
+    {
+     "w": "tidak",
+     "start": 32.72,
+     "end": 32.92
+    },
+    {
+     "w": "ada",
+     "start": 32.96,
+     "end": 33.08
+    },
+    {
+     "w": "perubahan.",
+     "start": 33.1,
+     "end": 33.731
+    }
+   ]
+  },
+  {
+   "id": "g5",
+   "text": "Rabu, 11 November: promo 11.11 di Shopee dan marketplace lain.",
+   "start": 33.885999999999996,
+   "end": 38.297,
+   "words": [
+    {
+     "w": "Rabu,",
+     "start": 33.886,
+     "end": 34.306
+    },
+    {
+     "w": "11",
+     "start": 34.359,
+     "end": 34.906
+    },
+    {
+     "w": "November:",
+     "start": 34.937,
+     "end": 35.266
+    },
+    {
+     "w": "promo",
+     "start": 35.411,
+     "end": 35.816
+    },
+    {
+     "w": "11.11",
+     "start": 35.869,
+     "end": 36.456
+    },
+    {
+     "w": "di",
+     "start": 36.509,
+     "end": 36.616
+    },
+    {
+     "w": "Shopee",
+     "start": 36.669,
+     "end": 37.256
+    },
+    {
+     "w": "dan",
+     "start": 37.296,
+     "end": 37.416
+    },
+    {
+     "w": "marketplace",
+     "start": 37.463,
+     "end": 37.976
+    },
+    {
+     "w": "lain.",
+     "start": 38.04,
+     "end": 38.297
+    }
+   ]
+  },
+  {
+   "id": "g6",
+   "text": "Kamis, 12 November dini hari WIB: menurut MSCI, hasil review indeks November diumumkan. Pasar saham kita ikut menunggu.",
+   "start": 38.696,
+   "end": 47.766,
+   "words": [
+    {
+     "w": "Kamis,",
+     "start": 38.696,
+     "end": 38.996
+    },
+    {
+     "w": "12",
+     "start": 39.056,
+     "end": 39.676
+    },
+    {
+     "w": "November",
+     "start": 39.707,
+     "end": 40.196
+    },
+    {
+     "w": "dini",
+     "start": 40.236,
+     "end": 40.436
+    },
+    {
+     "w": "hari",
+     "start": 40.5,
+     "end": 40.756
+    },
+    {
+     "w": "WIB:",
+     "start": 40.796,
+     "end": 41.636
+    },
+    {
+     "w": "menurut",
+     "start": 41.761,
+     "end": 42.176
+    },
+    {
+     "w": "MSCI,",
+     "start": 42.229,
+     "end": 42.976
+    },
+    {
+     "w": "hasil",
+     "start": 43.069,
+     "end": 43.536
+    },
+    {
+     "w": "review",
+     "start": 43.593,
+     "end": 43.936
+    },
+    {
+     "w": "indeks",
+     "start": 43.984,
+     "end": 44.256
+    },
+    {
+     "w": "November",
+     "start": 44.309,
+     "end": 44.736
+    },
+    {
+     "w": "diumumkan.",
+     "start": 44.789,
+     "end": 45.571
+    },
+    {
+     "w": "Pasar",
+     "start": 45.571,
+     "end": 45.846
+    },
+    {
+     "w": "saham",
+     "start": 45.899,
+     "end": 46.166
+    },
+    {
+     "w": "kita",
+     "start": 46.246,
+     "end": 46.766
+    },
+    {
+     "w": "ikut",
+     "start": 46.833,
+     "end": 47.046
+    },
+    {
+     "w": "menunggu.",
+     "start": 47.086,
+     "end": 47.766
+    }
+   ]
+  }
+ ]
+}

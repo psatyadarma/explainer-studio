@@ -1,16 +1,24 @@
-Traceback (most recent call last):
-  File "/home/claude/explainer-studio/engine/tts_eleven.py", line 15, in <module>
-    import soundfile as sf
-ModuleNotFoundError: No module named 'soundfile'
-Traceback (most recent call last):
-  File "/home/claude/explainer-studio/engine/weekly.py", line 134, in <module>
-    elif c == "voice": voice(week, a[0], a[1], "--piper" in a)
-                       ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/claude/explainer-studio/engine/weekly.py", line 55, in voice
-    subprocess.run([sys.executable, "-I", str(ROOT / "engine/tts_eleven.py"), str(d), account, gender], check=True)
-    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.13/subprocess.py", line 578, in run
-    raise CalledProcessError(retcode, process.args,
-                             output=stdout, stderr=stderr)
-subprocess.CalledProcessError: Command '['/usr/local/bin/python3', '-I', '/home/claude/explainer-studio/engine/tts_eleven.py', '/home/claude/explainer-studio/accounts/rangkumindong/weekly/2026-11-07/chapters/00', 'accounts/rangkumindong', 'male']' returned non-zero exit status 1.
-EXIT 1
+voice Pratama: 27.205s, 5 lines
+mix -> /home/claude/explainer-studio/accounts/rangkumindong/weekly/2026-11-07/chapters/00/build/mix.wav
+voice Pratama: 80.016s, 12 lines
+mix -> /home/claude/explainer-studio/accounts/rangkumindong/weekly/2026-11-07/chapters/01/build/mix.wav
+voice Pratama: 83.047s, 12 lines
+mix -> /home/claude/explainer-studio/accounts/rangkumindong/weekly/2026-11-07/chapters/02/build/mix.wav
+voice Pratama: 67.774s, 10 lines
+mix -> /home/claude/explainer-studio/accounts/rangkumindong/weekly/2026-11-07/chapters/03/build/mix.wav
+voice Pratama: 63.796s, 9 lines
+mix -> /home/claude/explainer-studio/accounts/rangkumindong/weekly/2026-11-07/chapters/04/build/mix.wav
+voice Pratama: 59.218s, 8 lines
+mix -> /home/claude/explainer-studio/accounts/rangkumindong/weekly/2026-11-07/chapters/05/build/mix.wav
+voice Pratama: 48.368s, 7 lines
+mix -> /home/claude/explainer-studio/accounts/rangkumindong/weekly/2026-11-07/chapters/06/build/mix.wav
+voice Pratama: 9.193s, 2 lines
+mix -> /home/claude/explainer-studio/accounts/rangkumindong/weekly/2026-11-07/chapters/07/build/mix.wav
+index: 8 chapters, total 07:19
+00:00 Minggu ini
+00:27 Penyadapan: 4 tersangka
+01:47 Kripto dibobol dua kali
+03:10 IHSG di bawah 5.000
+04:18 Ekonomi tumbuh 5,47%
+05:22 Asap naik lagi
+06:21 Catat tanggalnya
