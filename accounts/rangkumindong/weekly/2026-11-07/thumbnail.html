@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Rangkumin Seminggu — thumbnail</title>
+<link rel="stylesheet" href="{{ROOT}}styles/sticker/sticker.css">
+<style>
+  html, body { width: 1280px; height: 720px; }
+  #stage { background: radial-gradient(circle at 1px 1px, rgba(62,85,104,.16) 1.6px, transparent 0) 0 0 / 30px 30px, var(--paper); }
+  .badge { position: absolute; left: 60px; top: 50px; background: var(--ink); color: #fff; font-weight: 900; font-size: 36px; padding: 10px 22px; border-radius: 14px; }
+  .num { position: absolute; left: 70px; top: 40px; font-weight: 900; font-size: 430px; letter-spacing: -14px; color: var(--ink); line-height: 1; }
+  .bar { position: absolute; left: 60px; top: 430px; background: var(--hi); color: var(--ink); font-weight: 900; font-size: 74px; letter-spacing: -2px; padding: 4px 22px; transform: rotate(-2deg); }
+  .label { position: absolute; left: 66px; top: 532px; font-weight: 800; font-size: 28px; color: var(--slate); }
+  .chip { position: absolute; left: 66px; top: 578px; border: 3px solid var(--slate); color: var(--slate); border-radius: 12px; padding: 4px 12px; font-weight: 800; font-size: 22px; }
+  .dates { position: absolute; left: 60px; top: 644px; background: var(--ink); color: #fff; font-weight: 900; font-size: 26px; padding: 8px 16px; border-radius: 10px; }
+  .title { position: absolute; right: 60px; top: 40px; width: 640px; text-align: right; font-weight: 900; font-size: 84px; letter-spacing: -3px; line-height: .95; color: var(--accent); }
+  .stk { position: absolute; right: 60px; top: 340px; width: 620px; display: grid; grid-template-columns: 1fr 1fr; gap: 34px 30px; }
+  .stk div { background: #fff; border-radius: 20px; padding: 16px 14px; text-align: center; white-space: nowrap; font-weight: 900; font-size: 44px; letter-spacing: -1px; color: var(--ink); box-shadow: 0 0 0 9px #fff, 0 16px 26px rgba(27,36,48,.2); }
+  .stk div small { display: block; font-size: 22px; font-weight: 800; color: var(--slate); letter-spacing: 0; margin-top: 4px; }
+  .stk div:nth-child(1) { transform: rotate(-4deg); } .stk div:nth-child(2) { transform: rotate(3deg); }
+  .stk div:nth-child(3) { transform: rotate(2deg); } .stk div:nth-child(4) { transform: rotate(-3deg); }
+</style>
+</head>
+<body>
+<div id="stage">
+  <div class="num" id="num">4</div>
+  <div class="bar">TERSANGKA</div>
+  <div class="label">kasus penyadapan · per Kamis 5 Nov</div>
+  <div class="chip">tersangka belum tentu bersalah</div>
+  <div class="dates" id="dates">31 OKT–6 NOV 2026</div>
+  <div class="title" id="title">SEMINGGU PALING RAME?</div>
+  <div class="stk" id="stk">
+    <div>Rp114 T<small>kripto dibobol</small></div>
+    <div>IHSG 4.904<small>di bawah 5.000</small></div>
+    <div>PDB 5,47%<small>kuartal III</small></div>
+    <div>1.468<small>titik panas</small></div>
+  </div>
+</div>
+<script>
+// The coordinator edits these four values per week (3–4 word title, one big verified number, 2–4 topic stickers).
+window.FRAME = { w: 1280, h: 720 }; window.DURATION = 0.1; window.seek = () => {};
+</script>
+</body>
+</html>
