@@ -1,65 +1,5 @@
 [
 {
-"id": "E0001",
-"date": "2026-10-05",
-"category": "GLB",
-"event": "Strait of Hormuz: IRGC attacks on ≥7 tankers (worst on 3 Oct); Brent above $100 (period 28 Sep–5 Oct)",
-"key_numbers": "Brent $102.25, WTI $91.11 (5 Oct); Hormuz ≈20–25% of world oil",
-"storyline": "fuel-oil",
-"status": "partial (Iranian/OSINT-sourced)",
-"upcoming": false
-},
-{
-"id": "E0008",
-"date": "2026-10-05",
-"category": "TECH",
-"event": "Indonesian startup funding 2026 YTD already above full-year 2025",
-"key_numbers": "US$392 M (≈Rp7.02 T) vs US$358 M in 2025; Indonesia 6.3% of SEA funding (2025); no new unicorn since 2024; 45 AI startups vs 495 in Singapore",
-"storyline": "startup-funding",
-"status": "verified",
-"upcoming": false
-},
-{
-"id": "E0010",
-"date": "2026-10-05",
-"category": "ENV",
-"event": "Anak Krakatau at Level III (Siaga); stay out of 5 km radius",
-"key_numbers": "5 km",
-"storyline": "volcanoes",
-"status": "partial (date unclear)",
-"upcoming": false
-},
-{
-"id": "E0011",
-"date": "2026-10-05",
-"category": "ECO",
-"event": "Reports of weakening purchasing power and rising online-lending (pinjol) default risk linked to layoffs",
-"key_numbers": "",
-"storyline": "consumer-health",
-"status": "partial (roundup)",
-"upcoming": false
-},
-{
-"id": "E0062",
-"date": "2026-10-05",
-"category": "ECO",
-"event": "OJK sanctioned 35 multifinance, 8 venture capital, 8 P2P-lending (pinjol) and 18 pawn companies in September 2026.",
-"key_numbers": "69 entities (35 + 8 + 8 + 18) · 33 fines · 112 written warnings · period September 2026, reported 5 Oct",
-"storyline": "consumer-health",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0091",
-"date": "2026-10-05",
-"category": "ECO",
-"event": "Deputy Finance Minister Suahasil gives a macro snapshot: September manufacturing PMI back in expansion, trade surplus US$3.5 B through September, and fiscal deficit at 0.93% of GDP through August; the September APBN KiTa report was due before 11 Oct.",
-"key_numbers": "PMI Sep 52 (Aug 49.8, Jul 50.2) · inflation 3.28% y/y · trade surplus US$3.5 B Jan-Sep · growth H1 5.45%, Q2 5.29% (target 6%) · through Aug: revenue Rp2,055.6 T (65.2%), tax Rp1,409 T (59.8%), spending Rp2,295.7 T, deficit Rp240.1 T (0.93% GDP) · 2026 deficit target Rp638.8 T (2.48%)",
-"storyline": "growth-outlook",
-"status": "partial",
-"upcoming": false
-},
-{
 "id": "E0012",
 "date": "2026-10-06",
 "category": "POL",
@@ -5357,7 +5297,7 @@
 "key_numbers": "Hearing 5 Nov 2026 · Jokowi listed as first witness · charges under KUHP Art 433(1) jo 441(1) and ITE Law Art 35 / Art 32 · hearing postponed to share a day with the 'Tifa' case",
 "storyline": "gibran-ijazah-mk",
 "status": "upcoming",
-"upcoming": true
+"upcoming": false
 },
 {
 "id": "E0421",
@@ -5367,7 +5307,7 @@
 "key_numbers": "Reported date 5 Nov 2026 · hearing at East Jakarta District Court · Roy Suryo: 'ini yang ditunggu-tunggu'",
 "storyline": "jokowi-ijazah-roy-suryo",
 "status": "upcoming",
-"upcoming": true
+"upcoming": false
 },
 {
 "id": "E0455",
@@ -5377,7 +5317,7 @@
 "key_numbers": "Q2 2026 growth 5.29% (released 5 Aug) · Q3 date not confirmed, likely ~5 Nov · FX reserves and property price index also due",
 "storyline": "",
 "status": "upcoming",
-"upcoming": true
+"upcoming": false
 },
 {
 "id": "E0458",
@@ -5387,7 +5327,7 @@
 "key_numbers": "Thu 5 Nov 2026, 10.00 · indictment: extortion Rp168.9 billion, gratification Rp33.8 billion · Silmy alleged to have received Rp1.2 billion · 7 defendants (Silmy plus seven officials per Suara Merdeka)",
 "storyline": "",
 "status": "upcoming",
-"upcoming": true
+"upcoming": false
 },
 {
 "id": "E0464",
@@ -5397,7 +5337,7 @@
 "key_numbers": "3 Nov Godzilla: Destroy All Monsters Melee Remastered · 4 Nov World of Warcraft: Forever (PC) · 5 Nov Zelda: Ocarina of Time, Stellar Blade Complete Edition, Guardians of the Galaxy Encore (all Switch 2) · 8 releases in week · GTA VI 19 Nov",
 "storyline": "",
 "status": "upcoming",
-"upcoming": true
+"upcoming": false
 },
 {
 "id": "E0495",
@@ -5407,7 +5347,7 @@
 "key_numbers": "GREAT Institute projection 5.2-5.4% y/y · InFast projection 5.4% · other economists 'above 5%' · date unconfirmed",
 "storyline": "growth-outlook",
 "status": "upcoming",
-"upcoming": true
+"upcoming": false
 },
 {
 "id": "E0288",

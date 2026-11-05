@@ -97,3 +97,9 @@ History moved out of HANDOFF.md (22 Oct) so fresh sessions read less. Append one
 - Draft 183 words; hook-critic agreed with the writer's A/B (12/14, 13/14). Full fact-check 3 fixes ("file hasil sadapan", detention per Kabareskrim/kumparan, Yusril "berharap"). Producer: A 86,7 s / B 87,4 s (take sped up 1,05×). QA round 1 FIX (disclaimer only from l8; card treatment unequal; B uniformed figure) → round 2 PASS both.
 - A scheduled 09:27 for 19:00, live (IG DfUTKP4jxd9, YT oK5ep48c3Wg); B kept, not posted. Analyst: Ledger 24 h IG 45 / 15,4%, YT 7; Minggu Depan 72 h IG 117 / 20,2%, YT 34.
 - Problems: delete_trigger for the 14:00 default-pick wake denied again (it will fire and do nothing). CNBC article URL for the detention claim not found (kumparan kept as source).
+
+## 5 Nov (Thu, #18 Listyo PART 2: LIMS + rutan; Cahaya, myth / story, subs block, format short)
+- Sweeps 4/1/8/8 (politics thin: detik/cnn/tempo unreachable), 20 merged, 1 dupe. Light fact-check: fixes on #1 BPJS and #2 IHSG. User picked #3 (9/12, sens high) over ⭐ #1 BPJS desil 8 (11/12) and said "OK to post" (~09:30).
+- Hook-critic PICK A #2 myth (13/14), B #4 story (12/14). Full fact-check 5 fixes (Istana response/Keppres/Plt Ariyo Windutomo, "diduga milik Presiden", dropped 33-hari beat, 2025–2026, source credit). QA: round 1 length 50 s > 45 s + l8 "Ingat"; round 2 a deletion changed l5's meaning + B hb1 timing; round 3 l7 name; round 4 PASS both (A 44,1 s, B 44,7 s).
+- A scheduled ~10:50 for 19:00, live (IG DfW4ARZFLRA, YT LTQJNPv0Fps); B kept, not posted.
+- Problems: delete_trigger (14:00 wake) and deleting the old dashboard runs.json blob (e33efdace2d2…) were denied; both harmless. Lesson: when cutting for length, QA must re-check meaning of every line touched.

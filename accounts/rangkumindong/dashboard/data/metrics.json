@@ -802,5 +802,53 @@
 "shares": 0,
 "saves": null,
 "follows": 0
+},
+{
+"date": "2026-11-05",
+"folder": "videos/2026-11-04-listyo-tersangka-penyadapan",
+"platform": "instagram",
+"hours": 24,
+"views": 191,
+"avg_watch_pct": 20.2,
+"hold_3s_pct": null,
+"shares": 0,
+"saves": 1,
+"follows": null
+},
+{
+"date": "2026-11-05",
+"folder": "videos/2026-11-04-listyo-tersangka-penyadapan",
+"platform": "youtube",
+"hours": 24,
+"views": 1425,
+"avg_watch_pct": null,
+"hold_3s_pct": null,
+"shares": 0,
+"saves": null,
+"follows": 0
+},
+{
+"date": "2026-11-05",
+"folder": "videos/2026-11-02-binance-dibobol-114t",
+"platform": "instagram",
+"hours": 72,
+"views": 275,
+"avg_watch_pct": 22.9,
+"hold_3s_pct": null,
+"shares": 6,
+"saves": 2,
+"follows": null
+},
+{
+"date": "2026-11-05",
+"folder": "videos/2026-11-02-binance-dibobol-114t",
+"platform": "youtube",
+"hours": 72,
+"views": 4,
+"avg_watch_pct": 7.85,
+"hold_3s_pct": null,
+"shares": 0,
+"saves": null,
+"follows": 0
 }
 ]

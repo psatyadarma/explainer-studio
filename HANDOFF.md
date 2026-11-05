@@ -1,6 +1,6 @@
 # Handoff: Rangkumin Dong (read this first in every session)
 
-Updated: Wed 4 Nov 2026, 19:25 WITA. Each daily run is a fresh session with no memory of earlier chats. **This file plus the playbook are the memory.** Whenever something here changes, update it, mirror it to the Video project (`claude/rangkumindong-handoff.md`), commit and push.
+Updated: Thu 5 Nov 2026, 19:35 WITA. Each daily run is a fresh session with no memory of earlier chats. **This file plus the playbook are the memory.** Whenever something here changes, update it, mirror it to the Video project (`claude/rangkumindong-handoff.md`), commit and push.
 
 ## Standing rules from the user
 - **Experiments from 23 Oct:** daily opening A/B (B = Instagram Trial Reel, `engine/variant.py` + `engine/post.py --trial`), slot fixed at 19:00 WITA, voice in weekly blocks. The "Rangkumin dong!" tagline stays right after the hook (user 22 Oct: only change it when the data says so). See playbook → Experiments 0.
@@ -41,6 +41,7 @@ Updated: Wed 4 Nov 2026, 19:25 WITA. Each daily run is a fresh session with no m
 - #15 Binance dibobol Rp114 T (user picked ⭐ #1, "OK to post" 11:08) live 2 Nov 19:00 (IG https://www.instagram.com/reel/DfPJo5kFEob/ · YT https://www.youtube.com/watch?v=LiOd0PidLTc); B not posted. W44 recommendation still awaits user OK (asked again 2 Nov). QA note: `qa_sync.py` ignores SUB_LEAD in index.html — always pass `--lead` matching it (0.0 on 2 Nov).
 - #16 Ledger dibobol dari toko (user picked ⭐ #1 + early "OK to post") live 3 Nov 19:00 (IG https://www.instagram.com/reel/DfRuXu_iPk-/ · YT https://www.youtube.com/watch?v=MwVSIfLGxos); B not posted. W44 recommendation still awaits user OK (asked again 3 Nov).
 - #17 Listyo Sigit tersangka penyadapan (user picked #4, sens high, early "OK to post") live 4 Nov 19:00 (IG https://www.instagram.com/reel/DfUTKP4jxd9/ · YT https://www.youtube.com/watch?v=oK5ep48c3Wg); B not posted. W44 recommendation still awaits user OK.
+- #18 Listyo PART 2: LIMS + rutan + Istana (user picked #3, sens high, early "OK to post") live 5 Nov 19:00 (IG https://www.instagram.com/reel/DfW4ARZFLRA/ · YT https://www.youtube.com/watch?v=LTQJNPv0Fps); B not posted. W44 recommendation still awaits user OK.
 - Each day: append a 3–5 line block to run-log.md (picks, counts, problems) instead of growing this file.
 
 ## Dashboard: "Rangkumin Dong Studio"
