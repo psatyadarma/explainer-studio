@@ -1,0 +1,580 @@
+{
+ "duration": 44.713,
+ "voice": "Cahaya",
+ "variant": "b",
+ "hook_style": "story",
+ "lines": [
+  {
+   "id": "hb1",
+   "text": "Pak Budi baca berita: mantan Kapolri ditahan.",
+   "start": 0.244,
+   "end": 3.397,
+   "words": [
+    {
+     "w": "Pak",
+     "start": 0.244,
+     "end": 0.454
+    },
+    {
+     "w": "Budi",
+     "start": 0.489,
+     "end": 0.734
+    },
+    {
+     "w": "baca",
+     "start": 0.769,
+     "end": 1.015
+    },
+    {
+     "w": "berita:",
+     "start": 1.05,
+     "end": 1.506
+    },
+    {
+     "w": "mantan",
+     "start": 1.607,
+     "end": 2.05
+    },
+    {
+     "w": "Kapolri",
+     "start": 2.085,
+     "end": 2.682
+    },
+    {
+     "w": "ditahan.",
+     "start": 2.734,
+     "end": 3.397
+    }
+   ]
+  },
+  {
+   "id": "hb2",
+   "text": "Dia penasaran: alat sadap polisi boleh dipakai ke siapa?",
+   "start": 3.524,
+   "end": 6.717,
+   "words": [
+    {
+     "w": "Dia",
+     "start": 3.524,
+     "end": 3.533
+    },
+    {
+     "w": "penasaran:",
+     "start": 3.585,
+     "end": 4.305
+    },
+    {
+     "w": "alat",
+     "start": 4.397,
+     "end": 4.682
+    },
+    {
+     "w": "sadap",
+     "start": 4.734,
+     "end": 4.962
+    },
+    {
+     "w": "polisi",
+     "start": 4.998,
+     "end": 5.384
+    },
+    {
+     "w": "boleh",
+     "start": 5.43,
+     "end": 5.664
+    },
+    {
+     "w": "dipakai",
+     "start": 5.699,
+     "end": 6.015
+    },
+    {
+     "w": "ke",
+     "start": 6.039,
+     "end": 6.085
+    },
+    {
+     "w": "siapa?",
+     "start": 6.155,
+     "end": 6.717
+    }
+   ]
+  },
+  {
+   "id": "rd",
+   "text": "Rangkumin dong!",
+   "start": 6.907,
+   "end": 8.294,
+   "words": [
+    {
+     "w": "Rangkumin",
+     "start": 6.907,
+     "end": 7.601
+    },
+    {
+     "w": "dong!",
+     "start": 7.601,
+     "end": 8.294
+    }
+   ]
+  },
+  {
+   "id": "l1",
+   "text": "LIMS, sistem pengelola penyadapan.",
+   "start": 8.494,
+   "end": 11.139,
+   "words": [
+    {
+     "w": "LIMS,",
+     "start": 8.494,
+     "end": 9.406
+    },
+    {
+     "w": "sistem",
+     "start": 9.476,
+     "end": 9.897
+    },
+    {
+     "w": "pengelola",
+     "start": 9.939,
+     "end": 10.389
+    },
+    {
+     "w": "penyadapan.",
+     "start": 10.431,
+     "end": 11.139
+    }
+   ]
+  },
+  {
+   "id": "l2",
+   "text": "Umumnya, harus ada perintah hukum dulu.",
+   "start": 11.337,
+   "end": 13.52,
+   "words": [
+    {
+     "w": "Umumnya,",
+     "start": 11.337,
+     "end": 11.766
+    },
+    {
+     "w": "harus",
+     "start": 11.86,
+     "end": 12.257
+    },
+    {
+     "w": "ada",
+     "start": 12.327,
+     "end": 12.538
+    },
+    {
+     "w": "perintah",
+     "start": 12.573,
+     "end": 12.889
+    },
+    {
+     "w": "hukum",
+     "start": 12.924,
+     "end": 13.169
+    },
+    {
+     "w": "dulu.",
+     "start": 13.204,
+     "end": 13.52
+    }
+   ]
+  },
+  {
+   "id": "l3",
+   "text": "Kata polisi, nomor dimasukkan ke server tanpa verifikasi.",
+   "start": 13.72,
+   "end": 17.385,
+   "words": [
+    {
+     "w": "Kata",
+     "start": 13.72,
+     "end": 13.753
+    },
+    {
+     "w": "polisi,",
+     "start": 13.806,
+     "end": 14.385
+    },
+    {
+     "w": "nomor",
+     "start": 14.525,
+     "end": 14.929
+    },
+    {
+     "w": "dimasukkan",
+     "start": 14.981,
+     "end": 15.56
+    },
+    {
+     "w": "ke",
+     "start": 15.584,
+     "end": 15.63
+    },
+    {
+     "w": "server",
+     "start": 15.691,
+     "end": 16.052
+    },
+    {
+     "w": "tanpa",
+     "start": 16.139,
+     "end": 16.473
+    },
+    {
+     "w": "verifikasi.",
+     "start": 16.543,
+     "end": 17.385
+    }
+   ]
+  },
+  {
+   "id": "l4",
+   "text": "Tanpa dasar penyelidikan. Diduga termasuk nomor Presiden.",
+   "start": 17.585,
+   "end": 21.323,
+   "words": [
+    {
+     "w": "Tanpa",
+     "start": 17.585,
+     "end": 17.814
+    },
+    {
+     "w": "dasar",
+     "start": 17.902,
+     "end": 18.306
+    },
+    {
+     "w": "penyelidikan.",
+     "start": 18.348,
+     "end": 19.196
+    },
+    {
+     "w": "Diduga",
+     "start": 19.196,
+     "end": 19.779
+    },
+    {
+     "w": "termasuk",
+     "start": 19.836,
+     "end": 20.341
+    },
+    {
+     "w": "nomor",
+     "start": 20.393,
+     "end": 20.622
+    },
+    {
+     "w": "Presiden.",
+     "start": 20.678,
+     "end": 21.323
+    }
+   ]
+  },
+  {
+   "id": "l5",
+   "text": "Menurut polisi, itu terjadi saat Listyo masih Kapolri.",
+   "start": 21.527,
+   "end": 24.955,
+   "words": [
+    {
+     "w": "Menurut",
+     "start": 21.527,
+     "end": 21.674
+    },
+    {
+     "w": "polisi,",
+     "start": 21.727,
+     "end": 22.306
+    },
+    {
+     "w": "itu",
+     "start": 22.446,
+     "end": 22.779
+    },
+    {
+     "w": "terjadi",
+     "start": 22.832,
+     "end": 23.271
+    },
+    {
+     "w": "saat",
+     "start": 23.327,
+     "end": 23.551
+    },
+    {
+     "w": "Listyo",
+     "start": 23.607,
+     "end": 23.972
+    },
+    {
+     "w": "masih",
+     "start": 24.031,
+     "end": 24.323
+    },
+    {
+     "w": "Kapolri.",
+     "start": 24.358,
+     "end": 24.955
+    }
+   ]
+  },
+  {
+   "id": "l6",
+   "text": "3 November, dia dan dua jenderal lain jadi tersangka.",
+   "start": 25.159,
+   "end": 28.659,
+   "words": [
+    {
+     "w": "3",
+     "start": 25.159,
+     "end": 25.264
+    },
+    {
+     "w": "November,",
+     "start": 25.327,
+     "end": 25.896
+    },
+    {
+     "w": "dia",
+     "start": 26.038,
+     "end": 26.414
+    },
+    {
+     "w": "dan",
+     "start": 26.466,
+     "end": 26.624
+    },
+    {
+     "w": "dua",
+     "start": 26.677,
+     "end": 26.835
+    },
+    {
+     "w": "jenderal",
+     "start": 26.94,
+     "end": 27.326
+    },
+    {
+     "w": "lain",
+     "start": 27.382,
+     "end": 27.607
+    },
+    {
+     "w": "jadi",
+     "start": 27.712,
+     "end": 27.957
+    },
+    {
+     "w": "tersangka.",
+     "start": 28.014,
+     "end": 28.659
+    }
+   ]
+  },
+  {
+   "id": "l7",
+   "text": "Sehari kemudian, Presiden memberhentikannya dari KSP. Pelaksana tugasnya, Letjen Ariyo Windutomo.",
+   "start": 28.859,
+   "end": 35.226,
+   "words": [
+    {
+     "w": "Sehari",
+     "start": 28.859,
+     "end": 29.007
+    },
+    {
+     "w": "kemudian,",
+     "start": 29.06,
+     "end": 29.639
+    },
+    {
+     "w": "Presiden",
+     "start": 29.695,
+     "end": 30.13
+    },
+    {
+     "w": "memberhentikannya",
+     "start": 30.17,
+     "end": 30.902
+    },
+    {
+     "w": "dari",
+     "start": 30.986,
+     "end": 31.498
+    },
+    {
+     "w": "KSP.",
+     "start": 31.557,
+     "end": 32.235
+    },
+    {
+     "w": "Pelaksana",
+     "start": 32.301,
+     "end": 32.7
+    },
+    {
+     "w": "tugasnya,",
+     "start": 32.735,
+     "end": 33.612
+    },
+    {
+     "w": "Letjen",
+     "start": 33.682,
+     "end": 34.174
+    },
+    {
+     "w": "Ariyo",
+     "start": 34.226,
+     "end": 34.525
+    },
+    {
+     "w": "Windutomo.",
+     "start": 34.567,
+     "end": 35.226
+    }
+   ]
+  },
+  {
+   "id": "l7b",
+   "text": "Ketiganya ditahan di Rutan Mabes Polri.",
+   "start": 35.349,
+   "end": 37.688,
+   "words": [
+    {
+     "w": "Ketiganya",
+     "start": 35.349,
+     "end": 35.792
+    },
+    {
+     "w": "ditahan",
+     "start": 35.849,
+     "end": 36.355
+    },
+    {
+     "w": "di",
+     "start": 36.379,
+     "end": 36.425
+    },
+    {
+     "w": "Rutan",
+     "start": 36.495,
+     "end": 36.846
+    },
+    {
+     "w": "Mabes",
+     "start": 36.881,
+     "end": 37.197
+    },
+    {
+     "w": "Polri.",
+     "start": 37.25,
+     "end": 37.688
+    }
+   ]
+  },
+  {
+   "id": "l8",
+   "text": "Ingat: tersangka belum tentu bersalah.",
+   "start": 37.778,
+   "end": 39.933,
+   "words": [
+    {
+     "w": "Ingat:",
+     "start": 37.778,
+     "end": 38.108
+    },
+    {
+     "w": "tersangka",
+     "start": 38.164,
+     "end": 38.599
+    },
+    {
+     "w": "belum",
+     "start": 38.646,
+     "end": 38.88
+    },
+    {
+     "w": "tentu",
+     "start": 38.922,
+     "end": 39.161
+    },
+    {
+     "w": "bersalah.",
+     "start": 39.203,
+     "end": 39.933
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "text": "Siapa yang harus mengawasi alat sadap? Komen!",
+   "start": 40.133,
+   "end": 42.887,
+   "words": [
+    {
+     "w": "Siapa",
+     "start": 40.133,
+     "end": 40.554
+    },
+    {
+     "w": "yang",
+     "start": 40.582,
+     "end": 40.694
+    },
+    {
+     "w": "harus",
+     "start": 40.741,
+     "end": 40.975
+    },
+    {
+     "w": "mengawasi",
+     "start": 41.003,
+     "end": 41.466
+    },
+    {
+     "w": "alat",
+     "start": 41.536,
+     "end": 41.747
+    },
+    {
+     "w": "sadap?",
+     "start": 41.799,
+     "end": 42.138
+    },
+    {
+     "w": "Komen!",
+     "start": 42.185,
+     "end": 42.887
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "text": "Follow Rangkumin Dong!",
+   "start": 43.007,
+   "end": 43.96,
+   "words": [
+    {
+     "w": "Follow",
+     "start": 43.007,
+     "end": 43.188
+    },
+    {
+     "w": "Rangkumin",
+     "start": 43.223,
+     "end": 43.679
+    },
+    {
+     "w": "Dong!",
+     "start": 43.721,
+     "end": 43.96
+    }
+   ]
+  }
+ ]
+}

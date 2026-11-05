@@ -1,0 +1,123 @@
+{
+ "direction": "[calm, clear, strictly neutral news explainer]",
+ "voice": "female:Cahaya",
+ "format": "short",
+ "hook_style": "myth",
+ "subs": "block",
+ "storyline": "listyo-sigit-penyadapan",
+ "part": 2,
+ "disclaimer": "Status tersangka bukan putusan bersalah. Praduga tak bersalah berlaku.",
+ "lines": [
+  {
+   "id": "h1",
+   "tag": "[knowing, slightly skeptical]",
+   "text": "Katanya polisi bisa sadap HP siapa pun.",
+   "say": "Katanya polisi bisa sadap HP siapa pun."
+  },
+  {
+   "id": "h2",
+   "tag": "[serious, measured]",
+   "text": "Ternyata harus ada perkaranya dulu. Kasus Listyo soal itu.",
+   "say": "Ternyata harus ada perkaranya dulu. Kasus Listyo soal itu."
+  },
+  {
+   "id": "rd",
+   "tagline": true,
+   "text": "Rangkumin dong!"
+  },
+  {
+   "id": "l1",
+   "tag": "[explaining, quick]",
+   "text": "LIMS, sistem pengelola penyadapan.",
+   "say": "El I Em Es, sistem pengelola penyadapan."
+  },
+  {
+   "id": "l2",
+   "tag": "[explaining, neutral]",
+   "text": "Umumnya, harus ada perintah hukum dulu.",
+   "say": "Umumnya, harus ada perintah hukum dulu."
+  },
+  {
+   "id": "l3",
+   "tag": "[serious, careful]",
+   "text": "Kata polisi, nomor dimasukkan ke server tanpa verifikasi.",
+   "say": "Kata polisi, nomor dimasukkan ke server tanpa verifikasi."
+  },
+  {
+   "id": "l4",
+   "tag": "[matter-of-fact, slower]",
+   "text": "Tanpa dasar penyelidikan. Diduga termasuk nomor Presiden.",
+   "say": "Tanpa dasar penyelidikan. Diduga termasuk nomor Presiden."
+  },
+  {
+   "id": "l5",
+   "tag": "[neutral, matter-of-fact]",
+   "text": "Menurut polisi, itu terjadi saat Listyo masih Kapolri.",
+   "say": "Menurut polisi, itu terjadi saat Listyo masih Kapolri."
+  },
+  {
+   "id": "l6",
+   "tag": "[neutral, matter-of-fact]",
+   "text": "3 November, dia dan dua jenderal lain jadi tersangka.",
+   "say": "Tiga November, dia dan dua jenderal lain jadi tersangka."
+  },
+  {
+   "id": "l7",
+   "tag": "[neutral, calm]",
+   "text": "Sehari kemudian, Presiden memberhentikannya dari KSP. Pelaksana tugasnya, Letjen Ariyo Windutomo.",
+   "say": "Sehari kemudian, Presiden memberhentikannya dari, Ka Es Pe. Pelaksana tugasnya, Letjen Ariyo Windu Tomo."
+  },
+  {
+   "id": "l7b",
+   "tag": "[neutral, matter-of-fact]",
+   "text": "Ketiganya ditahan di Rutan Mabes Polri.",
+   "say": "Ketiganya ditahan di Rutan Mabes Polri."
+  },
+  {
+   "id": "l8",
+   "tag": "[calm, emphatic]",
+   "text": "Ingat: tersangka belum tentu bersalah.",
+   "say": "Ingat, tersangka belum tentu bersalah."
+  },
+  {
+   "id": "cta",
+   "tag": "[curious, asking the viewer]",
+   "text": "Siapa yang harus mengawasi alat sadap? Komen!",
+   "say": "Siapa yang harus mengawasi alat sadap? Komen!"
+  },
+  {
+   "id": "end",
+   "tag": "[friendly, upbeat]",
+   "text": "Follow Rangkumin Dong!"
+  }
+ ],
+ "hook_b": {
+  "style": "story",
+  "replace": [
+   "h1",
+   "h2"
+  ],
+  "lines": [
+   {
+    "id": "hb1",
+    "tag": "[storytelling, quiet]",
+    "text": "Pak Budi baca berita: mantan Kapolri ditahan.",
+    "say": "Pak Budi baca berita: mantan Kapolri ditahan."
+   },
+   {
+    "id": "hb2",
+    "tag": "[curious, restrained]",
+    "text": "Dia penasaran: alat sadap polisi boleh dipakai ke siapa?",
+    "say": "Dia penasaran: alat sadap polisi boleh dipakai ke siapa?"
+   }
+  ],
+  "illustration_label": "ilustrasi",
+  "title_card": "ALAT SADAP / BOLEH KE SIAPA?"
+ },
+ "tail": 0.9,
+ "end_card": {
+  "text": "Follow Rangkumin Dong",
+  "spoken": false
+ },
+ "qa_cuts": "5 Nov QA: length fix by deletion only (Alatnya / baru nomor disadap / kini / Menurutmu / biar nggak ketinggalan; B also Rabu sore); l8 re-voiced; QA round 2 restored 'itu terjadi' in l5; B pauses between lines 0.14 s"
+}

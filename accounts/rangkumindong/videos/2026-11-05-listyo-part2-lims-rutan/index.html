@@ -1,0 +1,454 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Listyo PART 2: LIMS dan status terbaru — Rangkumin Dong</title>
+<link rel="stylesheet" href="../../../../styles/sticker/sticker.css">
+<script src="../../../../styles/sticker/sticker.js"></script>
+<script src="../../../../styles/sticker/characters/budi.js"></script>
+<script>window.SUB_MODE = "block"; window.SUB_LEAD = 0.0; window.FRAME_CY = 1000;</script>
+<script src="build/timing.js"></script>
+<style>
+  .zone { position: absolute; width: 1080px; height: 1920px; }
+  .lbl { font-weight: 800; font-size: 36px; color: var(--slate); white-space: nowrap; text-align: center; }
+  .note { font-weight: 700; font-size: 26px; color: var(--slate); white-space: nowrap; text-align: center; }
+  .bub { position: absolute; background: #fff; border-radius: 30px; padding: 20px 30px 24px; text-align: center;
+         font-weight: 900; font-size: 46px; line-height: 1.08; letter-spacing: -1px; box-shadow: 0 0 0 9px #fff, 0 18px 26px rgba(27,36,48,.2); }
+  .bub.tl::after { content: ""; position: absolute; top: -38px; left: 80px; border: 22px solid transparent; border-bottom: 24px solid #fff; }
+  .bub small { display: block; font-weight: 700; font-size: 26px; color: var(--slate); letter-spacing: 0; margin-top: 6px; }
+  .chip { background: #fff; border-radius: 24px; padding: 14px 26px 18px; font-weight: 900; font-size: 46px; letter-spacing: -1px; white-space: nowrap;
+          box-shadow: 0 0 0 8px #fff, 0 14px 24px rgba(27,36,48,.18); }
+  .stampx { font-weight: 900; letter-spacing: -2px; color: var(--accent); border: 10px solid var(--accent); border-radius: 22px; padding: 6px 28px 12px;
+            white-space: nowrap; background: rgba(255,255,255,.92); text-align: center; line-height: 1; }
+  .stampx small { display: block; font-size: .42em; letter-spacing: 0; font-weight: 800; margin-bottom: 4px; }
+  /* flow steps */
+  .step { width: 250px; height: 250px; background: #fff; border-radius: 30px; display: flex; flex-direction: column; align-items: center; justify-content: center;
+          box-shadow: 0 0 0 9px #fff, 0 18px 26px rgba(27,36,48,.2); border: 6px solid transparent; }
+  .step .sl { font-weight: 900; font-size: 32px; line-height: 1.05; letter-spacing: -1px; text-align: center; margin-top: 10px; }
+  .step.mini { width: 220px; height: 200px; }
+  .step.mini .sl { font-size: 27px; }
+  .step.off { background: #EDEFF1; border: 6px dashed var(--slate); box-shadow: 0 0 0 0 #fff; opacity: .9; }
+  .step.off svg, .step.off .sl { opacity: .45; }
+  .qm { position: absolute; width: 84px; height: 84px; border-radius: 50%; background: var(--accent); color: #fff; font-weight: 900; font-size: 58px;
+        display: flex; align-items: center; justify-content: center; box-shadow: 0 0 0 7px #fff; }
+  /* name tags: identical size and style for all three suspects (no photos) */
+  .ntag { width: 640px; height: 104px; background: #fff; border-radius: 24px; display: flex; flex-direction: row; gap: 18px; align-items: center; padding: 0 24px 0 16px;
+          box-shadow: 0 0 0 8px #fff, 0 16px 24px rgba(27,36,48,.2); }
+  .ntag .icn { flex: 0 0 76px; height: 76px; border-radius: 50%; background: #E7E2D6; display: flex; align-items: center; justify-content: center; }
+  .ntag .tx { display: flex; flex-direction: column; align-items: flex-start; }
+  .ntag .nm { font-weight: 900; font-size: 34px; line-height: 1.05; letter-spacing: -1px; white-space: nowrap; }
+  .ntag .rl { font-weight: 700; font-size: 25px; color: var(--slate); white-space: nowrap; margin-top: 3px; }
+  .tdot { width: 46px; height: 46px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 0 8px #fff; }
+  .tdate { font-weight: 900; font-size: 46px; letter-spacing: -1.5px; white-space: nowrap; }
+  .tdesc { font-weight: 800; font-size: 32px; color: var(--slate); white-space: nowrap; }
+  #part { position: absolute; left: 60px; top: 262px; z-index: 5; background: var(--ink); color: #fff; font-weight: 900; font-size: 30px;
+          padding: 6px 16px 9px; border-radius: 12px; letter-spacing: 1px; }
+  #disc { position: absolute; left: 40px; width: 1000px; top: 204px; z-index: 5; background: rgba(255,255,255,.96); color: var(--ink); font-weight: 800; font-size: 23px;
+          line-height: 1.2; padding: 6px 12px 8px; border-radius: 10px; text-align: center; white-space: nowrap; }
+  #endcard { position: absolute; inset: 0; z-index: 8; display: flex; flex-direction: column; align-items: center; justify-content: center;
+             gap: 24px; background: var(--paper); opacity: 0; }
+  #endcard .logo { background: var(--accent); color: #fff; font-weight: 900; font-size: 116px; letter-spacing: -4px;
+                   padding: 30px 58px 40px; border-radius: 44px; line-height: .95; text-align: center; transform: rotate(-3deg); }
+  #endcard .tl2 { font-weight: 800; font-size: 54px; color: var(--slate); }
+  #endcard .h { font-weight: 900; font-size: 50px; background: var(--ink); color: #fff; padding: 12px 26px; border-radius: 16px; }
+  #endcard .src { font-weight: 700; font-size: 34px; color: var(--slate); margin-top: 10px; text-align: center; line-height: 1.4; max-width: 900px; }
+  .budi { width: 330px; height: 440px; }
+  .budi svg { width: 100%; height: 100%; display: block; }
+</style>
+</head>
+<body>
+<div id="stage">
+  <div id="world">
+
+    <!-- A (0,0): hook A 'SADAP HP / BUTUH IZIN?' + hook B 'ALAT SADAP / BOLEH KE SIAPA?' (Pak Budi, ilustrasi) -->
+    <div id="zA" class="zone" style="left:0; top:0;">
+      <div id="aHd" class="abs headline" style="left:520px; top:500px; width:1000px;">
+        <div id="aHd1" style="font-size:124px; white-space:nowrap; letter-spacing:-5px;">SADAP HP</div>
+        <div id="aHd2" style="font-size:124px; color:var(--accent); white-space:nowrap; letter-spacing:-5px; line-height:.98;">BUTUH IZIN?</div></div>
+      <div id="bHd" class="abs headline" style="left:520px; top:500px; width:1000px;">
+        <div id="bHd1" style="font-size:118px; white-space:nowrap; letter-spacing:-5px;">ALAT SADAP</div>
+        <div id="bHd2" style="font-size:104px; color:var(--accent); white-space:nowrap; letter-spacing:-5px; line-height:.98;">BOLEH KE SIAPA?</div></div>
+
+      <svg id="hWv" class="abs" style="left:300px; top:830px;" width="360" height="300" viewBox="0 0 360 300">
+        <g fill="none" stroke="#FF5A36" stroke-width="10" stroke-linecap="round"><path id="hw0" d="M60 110 q-30 40 0 80 M300 110 q30 40 0 80"/><path id="hw1" d="M28 80 q-46 70 0 140 M332 80 q46 70 0 140"/></g></svg>
+      <div id="hHs" class="abs sticker-svg" style="left:300px; top:860px;"></div>
+      <div id="hF1" class="abs sticker-svg" style="left:640px; top:900px;"></div>
+      <div id="hF2" class="abs sticker-svg" style="left:760px; top:880px;"></div>
+      <div id="hF3" class="abs sticker-svg" style="left:860px; top:900px;"></div>
+      <div id="hSp" class="abs tag accent sticker" style="left:750px; top:1110px; font-size:42px;">siapa pun?</div>
+      <div id="hCf" class="abs sticker-svg" style="left:740px; top:900px;"></div>
+      <div id="hKs" class="abs tag sticker" style="left:300px; top:1070px; font-size:38px;">kasus Listyo</div>
+      <div id="hSt" class="abs stampx" style="left:540px; top:1230px; font-size:68px;">HARUS ADA PERKARA</div>
+
+      <div id="bIl" class="abs tag sticker" style="left:190px; top:720px; font-size:40px; padding:10px 22px;">ilustrasi</div>
+      <div id="bSf" class="abs sticker-svg" style="left:430px; top:1150px;"></div>
+      <div id="bBd" class="abs sticker-svg budi" style="left:400px; top:950px;"></div>
+      <div id="bPh" class="abs sticker-svg" style="left:740px; top:930px;"></div>
+      <div id="bNews" class="abs" style="left:740px; top:920px; width:250px; text-align:center;">
+        <div style="background:#fff; border-radius:16px; padding:12px 8px 14px; box-shadow:0 0 0 5px #fff, 0 10px 16px rgba(27,36,48,.25);">
+          <div style="font-weight:800; font-size:20px; color:var(--slate); margin-bottom:4px;">🔔 BERITA</div>
+          <div style="font-weight:900; font-size:32px; line-height:1.04; color:var(--ink); letter-spacing:-1px;">Mantan Kapolri<br><span style="color:var(--accent)">ditahan</span></div></div></div>
+      <div id="bQ1" class="abs" style="left:150px; top:930px; font-weight:900; font-size:110px; color:var(--accent);">?</div>
+      <div id="bQ2" class="abs" style="left:560px; top:720px; font-weight:900; font-size:90px; color:var(--slate);">?</div>
+      <div id="bHs" class="abs sticker-svg" style="left:780px; top:1230px;"></div>
+    </div>
+
+    <!-- tagline (2480,0) -->
+    <div class="zone" style="left:2480px; top:0;">
+      <div id="stamp" class="abs stamp sticker" style="left:540px; top:960px; font-size:110px;">Rangkumin dong!</div>
+    </div>
+
+    <!-- Z1 (0,2400): l1 LIMS -->
+    <div class="zone" style="left:0; top:2400px;">
+      <div id="z1Hd" class="abs headline" style="left:500px; top:470px; font-size:100px;">Alatnya</div>
+      <div id="z1Sv" class="abs sticker-svg" style="left:500px; top:850px;"></div>
+      <div id="z1Lm" class="abs stamp sticker" style="left:500px; top:850px; font-size:110px; padding:14px 40px 22px;">LIMS</div>
+      <div id="z1Fn" class="abs chip" style="left:500px; top:1120px; font-size:36px;">Lawful Interception Management System</div>
+      <div id="z1Ds" class="abs tag sticker" style="left:500px; top:1230px; font-size:38px;">sistem pengelola penyadapan</div>
+      <div id="z1Sr" class="abs note" style="left:500px; top:1320px;">sumber: CNBC Indonesia</div>
+    </div>
+
+    <!-- Z2 (1240,2400): l2 cara kerja umumnya -->
+    <div class="zone" style="left:1240px; top:2400px;">
+      <div id="z2Hd" class="abs tag light sticker" style="left:500px; top:500px; font-size:42px;">cara kerja umumnya</div>
+      <div id="f1" class="abs step" style="left:190px; top:840px;"><div id="f1I"></div><div class="sl">perintah<br>hukum</div></div>
+      <div id="f2" class="abs step" style="left:500px; top:840px;"><div id="f2I"></div><div class="sl">operator</div></div>
+      <div id="f3" class="abs step" style="left:810px; top:840px;"><div id="f3I"></div><div class="sl">penegak<br>hukum</div></div>
+      <svg id="fa1" class="abs" style="left:345px; top:840px;" width="60" height="50" viewBox="0 0 60 50"><path d="M4 25 H44 M30 8 L52 25 L30 42" stroke="#1B2430" stroke-width="9" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <svg id="fa2" class="abs" style="left:655px; top:840px;" width="60" height="50" viewBox="0 0 60 50"><path d="M4 25 H44 M30 8 L52 25 L30 42" stroke="#1B2430" stroke-width="9" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <div id="z2N1" class="abs stampx" style="left:190px; top:1090px; font-size:40px; padding:4px 18px 8px;">dulu</div>
+      <div id="z2N2" class="abs chip" style="left:650px; top:1120px; font-size:38px;">baru nomor disadap</div>
+    </div>
+
+    <!-- Z3 (2480,2400): l3-l4 kata polisi: tanpa verifikasi, tanpa dasar penyelidikan -->
+    <div class="zone" style="left:2480px; top:2400px;">
+      <div id="z3Kp" class="abs bub" style="left:500px; top:430px; font-size:40px; padding:14px 26px 18px;">kata polisi</div>
+      <div id="m1" class="abs step mini" style="left:230px; top:640px;"><div id="m1I"></div><div class="sl">perintah<br>hukum</div></div>
+      <div id="m1q" class="abs qm" style="left:320px; top:560px;">?</div>
+      <div id="m2" class="abs step mini" style="left:500px; top:640px;"><div id="m2I"></div><div class="sl">operator</div></div>
+      <div id="m3" class="abs step mini" style="left:770px; top:640px;"><div id="m3I"></div><div class="sl">penegak<br>hukum</div></div>
+      <div id="z3Sv" class="abs sticker-svg" style="left:740px; top:980px;"></div>
+      <div id="z3SvL" class="abs tag sticker" style="left:740px; top:1110px; font-size:32px; padding:8px 18px;">server LIMS</div>
+      <div id="z3Nc" class="abs chip" style="left:250px; top:980px; font-size:40px;">📱 nomor</div>
+      <svg id="z3Ar" class="abs" style="left:470px; top:980px;" width="150" height="50" viewBox="0 0 150 50"><path d="M6 25 H130 M114 8 L140 25 L114 42" stroke="#FF5A36" stroke-width="9" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="18 12"/></svg>
+      <div id="z3S1" class="abs stampx" style="left:500px; top:1260px; font-size:64px;">tanpa verifikasi</div>
+      <div id="z3S2" class="abs stampx" style="left:500px; top:1260px; font-size:42px;">tanpa dasar penyelidikan/penyidikan</div>
+      <div id="z3Ph" class="abs sticker-svg" style="left:250px; top:960px;"></div>
+      <div id="z3Np" class="abs tag accent sticker" style="left:250px; top:1110px; font-size:32px; padding:8px 18px;">nomor Presiden (diduga)</div>
+    </div>
+
+    <!-- Z4 (0,4800): l5 saat masih Kapolri, kata polisi -->
+    <div class="zone" style="left:0; top:4800px;">
+      <div id="z4Kp" class="abs bub tl" style="left:500px; top:520px; font-size:40px;">menurut polisi</div>
+      <div id="z4Bd" class="abs sticker-svg" style="left:500px; top:860px;"></div>
+      <div id="z4Tx" class="abs chip" style="left:500px; top:1120px; font-size:50px;">saat masih <span style="color:var(--accent)">Kapolri</span></div>
+      <div id="z4Dg" class="abs note" style="left:500px; top:1230px; font-size:30px;">dugaan · kata polisi</div>
+    </div>
+
+    <!-- Z5 (1240,4800): l6-l7 timeline (vertical): 3 Nov tersangka (3 equal name tags), 4 Nov diberhentikan dari KSP -->
+    <div class="zone" style="left:1240px; top:4800px;">
+      <div class="abs" style="left:120px; top:470px; transform:none; width:12px; height:880px;">
+        <div style="position:absolute; inset:0; background:#E3E7EB; border-radius:6px;"></div>
+        <div id="tlFill" style="position:absolute; left:0; top:0; width:12px; height:0; background:var(--slate); border-radius:6px;"></div></div>
+      <div id="tD1" class="abs tdot" style="left:126px; top:500px;"></div>
+      <div id="tL1" class="abs" style="left:190px; top:500px; transform:translate(0,-50%);"><div class="tdate">3 Nov 2026</div></div>
+      <div id="tL1b" class="abs" style="left:190px; top:560px; transform:translate(0,-50%);"><div class="tdesc">ditetapkan <span style="color:var(--accent)">tersangka</span></div></div>
+      <div id="tB1" class="abs tag sticker" style="left:770px; top:500px; font-size:30px; padding:8px 16px;">Bareskrim</div>
+      <div id="n1" class="abs ntag" style="left:530px; top:680px;"><div class="icn" id="n1I"></div><div class="tx"><div class="nm">Listyo Sigit Prabowo</div><div class="rl">eks Kapolri</div></div></div>
+      <div id="n2" class="abs ntag" style="left:530px; top:800px;"><div class="icn" id="n2I"></div><div class="tx"><div class="nm">Irjen Ahrie Sonta Nasution</div><div class="rl">tersangka</div></div></div>
+      <div id="n3" class="abs ntag" style="left:530px; top:920px;"><div class="icn" id="n3I"></div><div class="tx"><div class="nm">Irjen Eko Hadi Santoso</div><div class="rl">tersangka</div></div></div>
+      <div id="tD2" class="abs tdot" style="left:126px; top:1080px;"></div>
+      <div id="tL2" class="abs" style="left:190px; top:1080px; transform:translate(0,-50%);"><div class="tdate">4 Nov 2026</div></div>
+      <div id="tL2b" class="abs" style="left:190px; top:1140px; transform:translate(0,-50%);"><div class="tdesc">diberhentikan dari KSP <span style="color:var(--ink)">(Keppres)</span></div></div>
+      <div id="tB2" class="abs tag sticker" style="left:770px; top:1080px; font-size:30px; padding:8px 16px;">Istana</div>
+      <div id="tPl" class="abs chip" style="left:530px; top:1270px; font-size:34px;">pelaksana tugas: <span style="color:var(--accent)">Letjen TNI Ariyo Windutomo</span></div>
+    </div>
+
+    <!-- Z6 (2480,4800): l7b Rutan Mabes Polri -->
+    <div class="zone" style="left:2480px; top:4800px;">
+      <div id="z6Kt" class="abs tag light sticker" style="left:500px; top:520px; font-size:42px;">ketiganya kini</div>
+      <div id="z6Bl" class="abs sticker-svg" style="left:500px; top:850px;"></div>
+      <div id="z6Tx" class="abs chip" style="left:500px; top:1110px; font-size:50px;">ditahan · <span style="color:var(--accent)">Rutan Mabes Polri</span></div>
+      <div id="z6Kb" class="abs note" style="left:500px; top:1220px; font-size:30px;">kata Bareskrim</div>
+    </div>
+
+    <!-- Z7 (0,7200): l8 belum tentu bersalah -->
+    <div class="zone" style="left:0; top:7200px;">
+      <div id="z7Hd" class="abs headline" style="left:500px; top:500px; font-size:110px; color:var(--accent);">Ingat:</div>
+      <div id="z7Sc" class="abs sticker-svg" style="left:500px; top:800px;"></div>
+      <div id="z7Cd" class="abs" style="left:500px; top:1080px; background:#fff; border-radius:34px; padding:20px 40px 26px; box-shadow:0 0 0 9px #fff, 0 18px 28px rgba(27,36,48,.22); text-align:center;">
+        <div style="font-weight:900; font-size:70px; letter-spacing:-3px; line-height:1; white-space:nowrap;">TERSANGKA</div>
+        <div id="z7Bt" style="font-weight:900; font-size:70px; letter-spacing:-3px; line-height:1.05; white-space:nowrap; color:var(--accent);">belum tentu bersalah</div></div>
+      <div id="z7Pg" class="abs tag sticker" style="left:500px; top:1260px; font-size:36px;">pengadilan yang memutuskan</div>
+    </div>
+
+    <!-- Z8 (1240,7200): CTA -->
+    <div class="zone" style="left:1240px; top:7200px;">
+      <div id="qHd" class="abs headline" style="left:500px; top:600px; font-size:76px; line-height:1.06; white-space:nowrap;">Siapa yang harus<br><span class="acc">mengawasi alat sadap?</span></div>
+      <div id="qQ1" class="abs" style="left:200px; top:900px; font-weight:900; font-size:150px; color:var(--accent);">?</div>
+      <div id="qQ2" class="abs" style="left:820px; top:880px; font-weight:900; font-size:120px; color:var(--slate);">?</div>
+      <div id="qCom" class="abs sticker-svg" style="left:440px; top:1060px;"></div>
+      <div id="qK" class="abs bub" style="left:720px; top:1100px; font-size:64px;">Komen!</div>
+    </div>
+  </div>
+
+  <div id="brand"><div class="dot"></div><b>Rangkumin Dong</b></div>
+  <div id="disc">Status tersangka bukan putusan bersalah. Praduga tak bersalah berlaku.</div>
+  <div id="part">PART 2</div>
+  <div id="subs"></div>
+  <div id="endcard">
+    <div class="logo">RANGKUMIN<br>DONG</div>
+    <div class="tl2">Berita ribet? Rangkumin dong.</div>
+    <div class="h">@rangkumindong</div>
+    <div class="src">Sumber: CNBC Indonesia, CNN Indonesia, detik,<br>Setneg, kumparan · lengkap di komentar</div>
+    <div class="src" style="font-size:32px; margin-top:0; color:var(--ink);">PART 1 di profil</div>
+    <div class="src" style="font-size:30px; margin-top:0; color:var(--ink);">Status tersangka bukan putusan bersalah.<br>Praduga tak bersalah berlaku.</div>
+  </div>
+  <div id="progress"></div>
+</div>
+
+<script>
+const $ = (id) => document.getElementById(id);
+const T = window.TIMING;
+window.DURATION = T.duration;
+const at = K.at, W = K.word;
+const VB = T.variant === 'b';
+const END = at('end', -0.15);
+
+// Subtitle pages: long lines (> ~60 chars) get a second page at the sentence break nearest the middle.
+// Only the subtitle list changes; K.at / K.word still read the original line.
+(() => {
+  const out = [];
+  for (const L of T.lines) {
+    const txt = L.words.map((w) => w.w).join(' ');
+    if (txt.length <= 62 || L.words.length < 6) { out.push(L); continue; }
+    let best = -1, bd = 1e9;
+    L.words.forEach((w, i) => { if (i < L.words.length - 2 && /[.!?:]$/.test(w.w)) { const d = Math.abs(i + 1 - L.words.length / 2); if (d < bd) { bd = d; best = i + 1; } } });
+    if (best < 0) { out.push(L); continue; }
+    const a = L.words.slice(0, best), b = L.words.slice(best);
+    out.push({ ...L, words: a, end: a[a.length - 1].end });
+    out.push({ ...L, id: L.id + '__p2', words: b, start: b[0].start });
+  }
+  T.subLines = out;
+})();
+const subsT = { ...T, lines: T.subLines };
+
+// ---------- SVG builders (generic icons; no photos of anyone) ----------
+const personIco = (s = 1) => `<svg width="${56 * s}" height="${56 * s}" viewBox="0 0 60 60"><circle cx="30" cy="22" r="12" fill="#3E5568"/><path d="M8 58 q0 -24 22 -24 q22 0 22 24 z" fill="#3E5568"/></svg>`;
+const phoneSVG = (s = 1) => `<svg width="${200 * s}" height="${360 * s}" viewBox="0 0 200 360"><rect x="10" y="10" width="180" height="340" rx="30" fill="#1B2430"/>
+  <rect x="24" y="40" width="152" height="270" rx="12" fill="#8FD3F0"/><rect x="80" y="22" width="40" height="8" rx="4" fill="#3E5568"/><circle cx="100" cy="330" r="10" fill="#3E5568"/></svg>`;
+const sofaSVG = () => `<svg width="560" height="250" viewBox="0 0 520 250"><rect x="40" y="30" width="440" height="130" rx="40" fill="#C85A3E" stroke="#1B2430" stroke-width="7"/>
+  <rect x="10" y="90" width="80" height="140" rx="30" fill="#D9694B" stroke="#1B2430" stroke-width="7"/><rect x="430" y="90" width="80" height="140" rx="30" fill="#D9694B" stroke="#1B2430" stroke-width="7"/>
+  <rect x="80" y="140" width="360" height="80" rx="20" fill="#D9694B" stroke="#1B2430" stroke-width="7"/></svg>`;
+const headsetSVG = (s = 1) => `<svg width="${220 * s}" height="${220 * s}" viewBox="0 0 220 220"><path d="M40 130 V110 a70 70 0 0 1 140 0 V130" stroke="#1B2430" stroke-width="16" fill="none" stroke-linecap="round"/>
+  <rect x="22" y="112" width="50" height="80" rx="20" fill="#3E5568" stroke="#1B2430" stroke-width="7"/><rect x="148" y="112" width="50" height="80" rx="20" fill="#3E5568" stroke="#1B2430" stroke-width="7"/>
+  <path d="M172 190 q0 22 -40 22" stroke="#1B2430" stroke-width="7" fill="none" stroke-linecap="round"/><circle cx="128" cy="212" r="8" fill="#FF5A36"/></svg>`;
+const folderSVG = () => `<svg width="260" height="210" viewBox="0 0 260 210"><path d="M14 40 Q14 24 30 24 H100 L120 44 H230 Q246 44 246 60 V186 Q246 200 230 200 H30 Q14 200 14 186 Z" fill="#E9B44C" stroke="#1B2430" stroke-width="7" stroke-linejoin="round"/>
+  <rect x="40" y="70" width="180" height="110" rx="8" fill="#fff" stroke="#1B2430" stroke-width="5"/>${[0, 1, 2].map((i) => `<rect x="60" y="${90 + i * 26}" width="${140 - i * 30}" height="10" rx="5" fill="#B9C2CB"/>`).join('')}
+  <rect x="70" y="10" width="120" height="34" rx="8" fill="#1B2430"/><text x="130" y="35" text-anchor="middle" font-family="Inter" font-weight="900" font-size="22" fill="#fff">PERKARA</text></svg>`;
+const serverSVG = (s = 1) => `<svg width="${300 * s}" height="${330 * s}" viewBox="0 0 300 330"><rect x="20" y="10" width="260" height="310" rx="22" fill="#3E5568" stroke="#1B2430" stroke-width="8"/>
+  ${[0, 1, 2, 3].map((i) => `<rect x="44" y="${34 + i * 70}" width="212" height="52" rx="10" fill="#2C3E4E" stroke="#1B2430" stroke-width="5"/><circle cx="72" cy="${60 + i * 70}" r="9" fill="${i === 1 ? '#FF5A36' : '#7CD992'}"/>
+  ${[0, 1, 2, 3].map((j) => `<rect x="${110 + j * 34}" y="${52 + i * 70}" width="22" height="16" rx="3" fill="#5B7489"/>`).join('')}`).join('')}</svg>`;
+const docSVG = (s = 1) => `<svg width="${130 * s}" height="${130 * s}" viewBox="0 0 130 130"><path d="M24 8 H86 L110 32 V122 H24 Z" fill="#fff" stroke="#1B2430" stroke-width="7" stroke-linejoin="round"/>
+  ${[0, 1, 2].map((i) => `<rect x="38" y="${40 + i * 18}" width="${54 - i * 10}" height="8" rx="4" fill="#B9C2CB"/>`).join('')}<circle cx="86" cy="98" r="16" fill="#FF5A36" stroke="#1B2430" stroke-width="5"/></svg>`;
+const towerSVG = (s = 1) => `<svg width="${130 * s}" height="${130 * s}" viewBox="0 0 130 130"><path d="M65 50 L40 124 M65 50 L90 124 M48 100 H82 M54 80 H76" stroke="#1B2430" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <circle cx="65" cy="44" r="10" fill="#FF5A36" stroke="#1B2430" stroke-width="5"/><path d="M40 22 q-14 22 0 44 M90 22 q14 22 0 44 M24 10 q-24 34 0 68 M106 10 q24 34 0 68" stroke="#3E5568" stroke-width="6" fill="none" stroke-linecap="round"/></svg>`;
+const lensSVG = (s = 1) => `<svg width="${130 * s}" height="${130 * s}" viewBox="0 0 130 130"><circle cx="54" cy="54" r="34" fill="#8FD3F0" stroke="#1B2430" stroke-width="9"/><path d="M80 80 L118 118" stroke="#1B2430" stroke-width="16" stroke-linecap="round"/></svg>`;
+const badgeSVG = (s = 1) => `<svg width="${200 * s}" height="${230 * s}" viewBox="0 0 200 230"><path d="M100 10 L180 40 V110 C180 160 146 198 100 220 C54 198 20 160 20 110 V40 Z" fill="#2C4A7A" stroke="#1B2430" stroke-width="9" stroke-linejoin="round"/>
+  <path d="M100 62 l14 30 33 4 -24 22 6 33 -29 -16 -29 16 6 -33 -24 -22 33 -4 Z" fill="#FFD23F" stroke="#1B2430" stroke-width="5" stroke-linejoin="round"/></svg>`;
+const buildingSVG = () => `<svg width="380" height="300" viewBox="0 0 380 300"><rect x="40" y="60" width="300" height="220" rx="10" fill="#E3E7EB" stroke="#1B2430" stroke-width="8"/>
+  <rect x="20" y="40" width="340" height="30" rx="8" fill="#3E5568" stroke="#1B2430" stroke-width="7"/>
+  ${[0, 1, 2, 3].map((i) => [0, 1].map((j) => `<rect x="${70 + i * 66}" y="${96 + j * 64}" width="40" height="40" rx="6" fill="#8FD3F0" stroke="#1B2430" stroke-width="5"/>`).join('')).join('')}
+  <rect x="160" y="216" width="60" height="64" rx="6" fill="#3E5568" stroke="#1B2430" stroke-width="6"/><rect x="10" y="276" width="360" height="16" rx="6" fill="#1B2430"/></svg>`;
+const scaleSVG = () => `<svg width="320" height="260" viewBox="0 0 320 260"><path d="M160 30 V230 M100 236 H220" stroke="#1B2430" stroke-width="12" stroke-linecap="round"/>
+  <g id="scBeam"><path d="M50 60 H270" stroke="#1B2430" stroke-width="12" stroke-linecap="round"/>
+  <path d="M50 60 L20 150 M50 60 L80 150 M270 60 L240 150 M270 60 L300 150" stroke="#3E5568" stroke-width="5"/>
+  <path d="M14 150 H86 Q80 184 50 184 Q20 184 14 150 Z" fill="#FFD23F" stroke="#1B2430" stroke-width="6"/><path d="M234 150 H306 Q300 184 270 184 Q240 184 234 150 Z" fill="#FFD23F" stroke="#1B2430" stroke-width="6"/></g>
+  <circle cx="160" cy="30" r="14" fill="#FF5A36" stroke="#1B2430" stroke-width="5"/></svg>`;
+const commentSVG = () => `<svg width="240" height="210" viewBox="0 0 260 230"><path d="M20 30 Q20 10 40 10 H220 Q240 10 240 30 V150 Q240 170 220 170 H110 L60 214 L70 170 H40 Q20 170 20 150 Z" fill="#fff" stroke="#1B2430" stroke-width="8" stroke-linejoin="round"/></svg>`;
+
+$('hHs').innerHTML = headsetSVG(1); ['hF1', 'hF2', 'hF3'].forEach((id) => { $(id).innerHTML = phoneSVG(0.6); });
+$('hCf').innerHTML = folderSVG();
+$('bSf').innerHTML = sofaSVG(); $('bPh').innerHTML = phoneSVG(0.95); $('bHs').innerHTML = headsetSVG(0.6);
+$('z1Sv').innerHTML = serverSVG(1.05);
+[['f1I', docSVG], ['f2I', towerSVG], ['f3I', lensSVG]].forEach(([id, f]) => { $(id).innerHTML = f(1); });
+[['m1I', docSVG], ['m2I', towerSVG], ['m3I', lensSVG]].forEach(([id, f]) => { $(id).innerHTML = f(0.8); });
+$('z3Sv').innerHTML = serverSVG(0.62); $('z3Ph').innerHTML = phoneSVG(0.5);
+$('z4Bd').innerHTML = badgeSVG(1.25);
+['n1I', 'n2I', 'n3I'].forEach((id) => { $(id).innerHTML = personIco(1); });
+$('z6Bl').innerHTML = buildingSVG(); $('z7Sc').innerHTML = scaleSVG(); $('qCom').innerHTML = commentSVG();
+
+if (VB) ['aHd', 'hWv', 'hHs', 'hF1', 'hF2', 'hF3', 'hSp', 'hCf', 'hKs', 'hSt'].forEach((id) => { $(id).style.display = 'none'; });
+else ['bHd', 'bIl', 'bSf', 'bBd', 'bPh', 'bNews', 'bQ1', 'bQ2', 'bHs'].forEach((id) => { $(id).style.display = 'none'; });
+
+let T_ = 0, budiExpr = '';
+const pulse = (el, tIn, amt = 0.12, rot = 0) => { const k = K.clamp((T_ - tIn) / 0.45); el.style.transform = `translate(-50%,-50%) scale(${1 + amt * Math.sin(Math.PI * k)}) rotate(${rot}deg)`; };
+const slam = (el, t, tIn, rot = 0, from = 2, tOut = Infinity) => { const s = K.spring(t - tIn, 320, 18), o = K.clamp((t - tOut) / 0.25);
+  el.style.opacity = t >= tIn ? 1 - o : 0; el.style.transform = `translate(-50%,-50%) scale(${(from - (from - 1) * s) * (1 - 0.2 * o)}) rotate(${rot}deg)`; };
+// drop in from above (name tags): identical motion for all three
+const drop = (el, t, tIn, rot = 0) => { const s = K.spring(t - tIn, 280, 18);
+  el.style.opacity = t >= tIn ? K.clamp((t - tIn) / 0.1) : 0; el.style.transform = `translate(-50%,-50%) translateY(${(1 - s) * -160}px) rotate(${rot}deg)`; };
+const popL = (el, t, tIn) => { const s = K.spring(t - tIn); el.style.opacity = t >= tIn ? K.clamp((t - tIn) / 0.08) : 0; el.style.transform = `translate(0,-50%) translateX(${(1 - s) * -40}px)`; };
+
+function seek(t) {
+  T_ = t;
+  const Z = (x, y, z = 1.0) => ({ x, y: y + 200 / z, z });
+  const zc = (ox, oy, z = 1, dx = -40, dy = 0) => Z(ox + 540 + dx, oy + 960 + dy, z);
+  const hEnd = at('rd', -0.3);
+  K.camera($('world'), [
+    { t: 0, ...zc(0, 0) },
+    { t: (VB ? at('hb2') : at('h2')) - 0.15, ...zc(0, 0, 1.04), dur: 0.5 },
+    { t: hEnd, ...Z(2480 + 540, 960, 1.1) },
+    { t: at('l1', -0.3), ...zc(0, 2400) },
+    { t: at('l2', -0.3), ...zc(1240, 2400) },
+    { t: at('l3', -0.3), ...zc(2480, 2400) },
+    { t: at('l4', -0.1), ...zc(2480, 2400, 1.03), dur: 1.5 },
+    { t: at('l5', -0.3), ...zc(0, 4800) },
+    { t: at('l6', -0.3), ...zc(1240, 4800) },
+    { t: at('l7', 0.1), ...zc(1240, 4800, 1.0, -40, 80), dur: 1.2 },
+    { t: at('l7b', -0.3), ...zc(2480, 4800) },
+    { t: at('l8', -0.3), ...zc(0, 7200) },
+    { t: at('cta', -0.3), ...zc(1240, 7200) },
+  ], t, 1080, 1920, 0.6);
+  $('zA').style.visibility = t > hEnd + 0.7 ? 'hidden' : 'visible';
+  const th = 1 + 0.05 * Math.exp(-6 * t) * Math.sin(t * 14);
+
+  // ---------- hook A: myth "polisi bisa sadap HP siapa pun" -> "harus ada perkaranya dulu" ----------
+  if (!VB) {
+    $('aHd').style.transform = `translate(-50%,-50%) scale(${th})`;
+    const tPo = W('h1', 'polisi') - 0.1, tSd = W('h1', 'sadap') - 0.05, tSi = W('h1', 'siapa') - 0.1;
+    const tTr = at('h2', -0.05), tPk = W('h2', 'perkaranya') - 0.05, tKs = W('h2', 'kasus') - 0.05;
+    if (t > tSd) $('aHd1').style.transform = `scale(${1 + 0.07 * Math.sin(Math.PI * K.clamp((t - tSd) / 0.4))})`;
+    if (t > tSi) $('aHd2').style.transform = `scale(${1 + 0.08 * Math.sin(Math.PI * K.clamp((t - tSi) / 0.4))})`;
+    K.pop($('hHs'), t, tPo, Infinity, -3 + 1.5 * Math.sin(t * 2));
+    $('hWv').style.opacity = t >= tSd ? 1 : 0; $('hWv').style.transform = 'translate(-50%,-50%)';
+    [0, 1].forEach((i) => { $('hw' + i).setAttribute('opacity', t < tSd ? 0 : ((Math.floor((t - tSd) * 6) % 2) >= i ? 1 : 0.3)); });
+    K.pop($('hF1'), t, tSi, tTr, -12);
+    K.pop($('hF2'), t, tSi + 0.12, tTr, 0);
+    K.pop($('hF3'), t, tSi + 0.24, tTr, 12);
+    K.pop($('hSp'), t, W('h1', 'pun') - 0.05, tTr, -3);
+    K.pop($('hCf'), t, tTr + 0.1, Infinity, 3 + Math.sin(t * 2));
+    slam($('hSt'), t, tPk, -4, 1.9);
+    K.pop($('hKs'), t, tKs, Infinity, -3);
+    if (t > W('h2', 'listyo') - 0.05) pulse($('hKs'), W('h2', 'listyo') - 0.05, 0.08, -3);
+  }
+
+  // ---------- hook B: story, Pak Budi (ilustrasi) ----------
+  if (VB) {
+    $('bHd').style.transform = `translate(-50%,-50%) scale(${th})`;
+    const tBd = W('hb1', 'budi') - 0.15, tBr = W('hb1', 'berita') - 0.1, tDt = W('hb1', 'ditahan') - 0.1;
+    const t2 = at('hb2', -0.05), tSd = W('hb2', 'sadap') - 0.05, tSi = W('hb2', 'siapa') - 0.05;
+    K.pop($('bIl'), t, -0.6, Infinity, -3);
+    K.pop($('bSf'), t, -0.4, Infinity, 0);
+    K.pop($('bBd'), t, Math.min(-0.2, tBd), Infinity, -2 + 1.5 * Math.sin(t * 2.2));
+    const ex = t >= tDt && t < t2 + 0.2 ? 'shocked' : 'neutral';
+    if (ex !== budiExpr) { budiExpr = ex; $('bBd').innerHTML = K.budi(ex); }
+    K.pop($('bPh'), t, Math.max(0.3, tBr), Infinity, 4);
+    slam($('bNews'), t, W('hb1', 'mantan') - 0.1, 4, 1.5);
+    if (t > tDt) pulse($('bNews'), tDt, 0.1, 4);
+    if (t > tSd) $('bHd1').style.transform = `scale(${1 + 0.07 * Math.sin(Math.PI * K.clamp((t - tSd) / 0.4))})`;
+    if (t > tSi) $('bHd2').style.transform = `scale(${1 + 0.08 * Math.sin(Math.PI * K.clamp((t - tSi) / 0.4))})`;
+    K.pop($('bQ1'), t, t2 + 0.1, Infinity, -10 + 4 * Math.sin(t * 2.5));
+    K.pop($('bHs'), t, tSd, Infinity, -4);
+    K.pop($('bQ2'), t, tSi, Infinity, 12 + 4 * Math.sin(t * 2.2));
+  }
+
+  // ---------- tagline ----------
+  K.pop($('stamp'), t, at('rd', -0.1), at('l1', -0.2), -6);
+
+  // ---------- Z1: LIMS ----------
+  K.pop($('z1Hd'), t, at('l1', -0.25), Infinity, 0);
+  K.pop($('z1Sv'), t, at('l1', -0.2), Infinity, -2 + Math.sin(t * 2));
+  slam($('z1Lm'), t, W('l1', 'lims') - 0.05, -5, 1.8);
+  K.pop($('z1Fn'), t, W('l1', 'lims') + 0.35, Infinity, 0);
+  K.pop($('z1Ds'), t, W('l1', 'sistem') - 0.05, Infinity, 1);
+  if (t > W('l1', 'penyadapan') - 0.05) pulse($('z1Ds'), W('l1', 'penyadapan') - 0.05, 0.06, 1);
+  K.pop($('z1Sr'), t, W('l1', 'pengelola'), Infinity, 0);
+
+  // ---------- Z2: cara kerja umumnya ----------
+  K.pop($('z2Hd'), t, at('l2', -0.05), Infinity, -2);
+  K.pop($('f1'), t, W('l2', 'perintah') - 0.1, Infinity, -2);
+  K.pop($('z2N1'), t, W('l2', 'perintah') + 0.3, Infinity, -6);
+  K.pop($('fa1'), t, W('l2', 'hukum') - 0.1, Infinity, 0);
+  K.pop($('f2'), t, W('l2', 'hukum') + 0.1, Infinity, 1);
+  K.pop($('fa2'), t, W('l2', 'dulu') + 0.1, Infinity, 0);
+  K.pop($('f3'), t, W('l2', 'dulu') + 0.25, Infinity, 2);
+  K.pop($('z2N2'), t, W('l2', 'dulu') + 0.5, Infinity, 1);
+
+  // ---------- Z3: kata polisi: tanpa verifikasi / tanpa dasar penyelidikan ----------
+  K.pop($('z3Kp'), t, at('l3', -0.05), Infinity, -1);
+  ['m1', 'm2', 'm3'].forEach((id, i) => K.pop($(id), t, at('l3', 0.05 + i * 0.1), Infinity, 0));
+  { const tOff = W('l3', 'tanpa') - 0.05; $('m1').classList.toggle('off', t >= tOff);
+    K.pop($('m1q'), t, tOff, Infinity, 8); }
+  K.pop($('z3Sv'), t, W('l3', 'nomor') - 0.1, Infinity, 2);
+  K.pop($('z3SvL'), t, W('l3', 'server') - 0.05, Infinity, 2);
+  { const tN = W('l3', 'nomor') - 0.05, tIn = W('l3', 'dimasukkan'), tS = W('l3', 'server') + 0.1;
+    const k = K.easeInOut(K.prog(t, tIn, Math.max(0.4, tS - tIn)));
+    K.pop($('z3Nc'), t, tN, Infinity, -2);
+    if (t >= tIn) { $('z3Nc').style.transform = `translate(-50%,-50%) translateX(${k * 490}px) scale(${1 - 0.55 * k}) rotate(-2deg)`; $('z3Nc').style.opacity = 1 - K.clamp((k - 0.85) / 0.15); }
+    $('z3Ar').style.opacity = t >= tIn && t < tS + 0.3 ? 1 : 0; $('z3Ar').style.transform = 'translate(-50%,-50%)'; }
+  slam($('z3S1'), t, W('l3', 'verifikasi') - 0.05, -3, 1.8, at('l4', -0.05));
+  slam($('z3S2'), t, W('l4', 'dasar') - 0.1, 2, 1.7);
+  K.pop($('z3Ph'), t, W('l4', 'diduga') - 0.05, Infinity, -4);
+  K.pop($('z3Np'), t, W('l4', 'nomor') - 0.05, Infinity, -2);
+  if (t > W('l4', 'presiden') - 0.05) pulse($('z3Np'), W('l4', 'presiden') - 0.05, 0.1, -2);
+
+  // ---------- Z4: saat masih Kapolri (kata polisi) ----------
+  K.pop($('z4Kp'), t, at('l5', -0.05), Infinity, -1);
+  K.pop($('z4Bd'), t, W('l5', 'polisi') + 0.1, Infinity, -3 + 1.5 * Math.sin(t * 2));
+  K.pop($('z4Tx'), t, W('l5', 'saat') - 0.05, Infinity, 1);
+  if (t > W('l5', 'kapolri') - 0.05) pulse($('z4Tx'), W('l5', 'kapolri') - 0.05, 0.07, 1);
+  K.pop($('z4Dg'), t, W('l5', 'masih'), Infinity, 0);
+
+  // ---------- Z5: timeline 3 Nov -> 4 Nov ----------
+  { const t3 = at('l6', -0.05), t4 = at('l7', -0.05);
+    $('tlFill').style.height = (580 * K.easeInOut(K.prog(t, t4, 0.9)) + 30 * K.prog(t, t3, 0.3)) + 'px';
+    K.pop($('tD1'), t, t3, Infinity, 0); popL($('tL1'), t, t3 + 0.05);
+    popL($('tL1b'), t, W('l6', 'tersangka') - 0.1); K.pop($('tB1'), t, W('l6', 'tersangka'), Infinity, 3);
+    drop($('n1'), t, W('l6', 'dia') - 0.1, 0);
+    drop($('n2'), t, W('l6', 'dua') - 0.1, 0);
+    drop($('n3'), t, W('l6', 'jenderal') - 0.05, 0);
+    K.pop($('tD2'), t, t4 + 0.5, Infinity, 0); popL($('tL2'), t, t4 + 0.55);
+    popL($('tL2b'), t, W('l7', 'memberhentikannya') - 0.1); K.pop($('tB2'), t, W('l7', 'presiden') - 0.05, Infinity, -3);
+    K.pop($('tPl'), t, W('l7', 'pelaksana') - 0.05, Infinity, 0);
+    if (t > W('l7', 'ariyo') - 0.05) pulse($('tPl'), W('l7', 'ariyo') - 0.05, 0.05, 0); }
+
+  // ---------- Z6: Rutan Mabes Polri ----------
+  K.pop($('z6Kt'), t, at('l7b', -0.05), Infinity, -2);
+  K.pop($('z6Bl'), t, W('l7b', 'ditahan') - 0.2, Infinity, 0);
+  K.pop($('z6Tx'), t, W('l7b', 'rutan') - 0.05, Infinity, 0);
+  K.pop($('z6Kb'), t, W('l7b', 'polri'), Infinity, 0);
+
+  // ---------- Z7: belum tentu bersalah ----------
+  K.pop($('z7Hd'), t, at('l8', -0.05), Infinity, -2);
+  K.pop($('z7Sc'), t, W('l8', 'tersangka') - 0.15, Infinity, 0);
+  { const g = $('scBeam'), k = K.prog(t, W('l8', 'belum'), 1.2); if (g) g.setAttribute('transform', `rotate(${8 * Math.sin(k * Math.PI * 2) * (1 - k)} 160 60)`); }
+  K.pop($('z7Cd'), t, W('l8', 'tersangka') - 0.05, Infinity, 0);
+  $('z7Bt').style.visibility = t >= W('l8', 'belum') - 0.05 ? 'visible' : 'hidden';
+  K.pop($('z7Pg'), t, W('l8', 'bersalah') + 0.2, Infinity, 2);
+
+  // ---------- CTA ----------
+  const qOut = at('end', -0.4);
+  K.pop($('qHd'), t, at('cta', -0.05), qOut, 0);
+  K.pop($('qQ1'), t, W('cta', 'siapa') - 0.05, qOut, -10 + 4 * Math.sin(t * 2.5));
+  K.pop($('qQ2'), t, W('cta', 'mengawasi') - 0.05, qOut, 12 + 4 * Math.sin(t * 2.2));
+  K.pop($('qCom'), t, W('cta', 'sadap') - 0.05, qOut, -4);
+  K.pop($('qK'), t, W('cta', 'komen') - 0.05, qOut, 3);
+
+  // ---------- disclaimer + PART badge from frame 1 until the end card ----------
+  $('disc').style.opacity = 1 - K.clamp((t - END) / 0.2);
+  $('part').style.opacity = 1 - K.clamp((t - END) / 0.2);
+
+  // ---------- end ----------
+  const en = K.prog(t, END, 0.3);
+  $('endcard').style.opacity = en;
+  $('endcard').querySelector('.logo').style.transform = `rotate(-3deg) scale(${0.6 + 0.4 * K.spring(t - END)})`;
+  const keep = window.TIMING; window.TIMING = subsT; K.subtitles($('subs'), t); window.TIMING = keep;
+  $('subs').style.visibility = en > 0.5 ? 'hidden' : 'visible';
+  $('progress').style.width = (100 * t / window.DURATION) + '%';
+  return true;
+}
+window.seek = seek; seek(0);
+</script>
+</body>
+</html>
