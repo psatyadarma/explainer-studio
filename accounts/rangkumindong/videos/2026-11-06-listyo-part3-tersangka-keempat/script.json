@@ -1,0 +1,199 @@
+{
+ "direction": "[calm storyteller, strictly neutral, measured]",
+ "voice": "male:Pratama",
+ "format": "standard",
+ "hook_style": "person_collage",
+ "subs": "word",
+ "storytelling": true,
+ "storyline": "listyo-sigit-penyadapan",
+ "part": 3,
+ "disclaimer": "Status tersangka bukan putusan bersalah. Praduga tak bersalah berlaku.",
+ "lines": [
+  {
+   "id": "h1",
+   "tag": "[serious, intrigued]",
+   "text": "Kapolri sekarang bicara soal kasus Kapolri lama.",
+   "say": "Kapolri sekarang bicara soal kasus Kapolri lama."
+  },
+  {
+   "id": "h2",
+   "tag": "[measured, quoting]",
+   "text": "Katanya, \"tidak ada kaitannya dengan persaingan.\"",
+   "say": "Katanya, tidak ada kaitannya dengan persaingan."
+  },
+  {
+   "id": "rd",
+   "tagline": true,
+   "text": "Rangkumin dong!"
+  },
+  {
+   "id": "s1",
+   "tag": "[storytelling, calm]",
+   "text": "Mulai dari Selasa, 3 November.",
+   "say": "Mulai dari Selasa, tiga November."
+  },
+  {
+   "id": "s2",
+   "tag": "[neutral, matter-of-fact]",
+   "text": "Bareskrim menetapkan tiga tersangka dugaan penyadapan ilegal. Salah satunya Listyo Sigit, mantan Kapolri.",
+   "say": "Bareskrim menetapkan tiga tersangka dugaan penyadapan ilegal. Salah satunya Listyo Sigit, mantan Kapolri."
+  },
+  {
+   "id": "s3",
+   "tag": "[neutral, careful]",
+   "text": "Kata polisi, yang diduga disadap termasuk nomor Presiden.",
+   "say": "Kata polisi, yang diduga disadap termasuk nomor Presiden."
+  },
+  {
+   "id": "s4",
+   "tag": "[curious, light]",
+   "text": "Waktu itu, Listyo Kepala Staf Kepresidenan. Setelah jadi tersangka, bertahan berapa lama?",
+   "say": "Waktu itu, Listyo Kepala Staf Kepresidenan. Setelah jadi tersangka, bertahan berapa lama?"
+  },
+  {
+   "id": "s5",
+   "tag": "[matter-of-fact, short beat]",
+   "text": "Sehari. Rabu, Istana mengumumkan Keppres pemberhentiannya.",
+   "say": "Sehari. Rabu, Istana mengumumkan Keppres pemberhentiannya."
+  },
+  {
+   "id": "s6",
+   "tag": "[storytelling, curious]",
+   "text": "Lalu satu jabatan lagi lepas. Bukan di pemerintahan.",
+   "say": "Lalu satu jabatan lagi lepas. Bukan di pemerintahan."
+  },
+  {
+   "id": "s7",
+   "tag": "[explaining, neutral]",
+   "text": "Di serikat buruh KSPSI, Listyo Ketua Dewan Penasihat. Kini diberhentikan sementara.",
+   "say": "Di serikat buruh, Ka Es Pe Es I, Listyo Ketua Dewan Penasihat. Kini diberhentikan sementara."
+  },
+  {
+   "id": "s8",
+   "tag": "[careful, calm]",
+   "text": "Kata Sekjennya, permanen hanya jika ada putusan tetap.",
+   "say": "Kata Sekjennya, permanen hanya jika ada putusan tetap."
+  },
+  {
+   "id": "s9",
+   "tag": "[curious]",
+   "text": "Apa kata Polri sendiri?",
+   "say": "Apa kata Polri sendiri?"
+  },
+  {
+   "id": "s10",
+   "tag": "[storytelling, calm]",
+   "text": "Kamis, di Mabes Polri, Kapolri Suyudi Ario Seto menerima para purnawirawan.",
+   "say": "Kamis, di Mabes Polri, Kapolri Suyudi Ario Seto menerima para purnawirawan."
+  },
+  {
+   "id": "s11",
+   "tag": "[measured, quoting]",
+   "text": "Di sana dia bilang, kasus ini \"murni dalam bentuk penegakan hukum,\" dan \"tidak ada kaitannya dengan persaingan.\"",
+   "say": "Di sana dia bilang, kasus ini murni dalam bentuk penegakan hukum, dan tidak ada kaitannya dengan persaingan."
+  },
+  {
+   "id": "s12",
+   "tag": "[slower, hinting]",
+   "text": "Tapi hari itu belum selesai.",
+   "say": "Tapi hari itu belum selesai."
+  },
+  {
+   "id": "s13",
+   "tag": "[serious, measured]",
+   "text": "Kamis malam, Bareskrim mengumumkan tersangka keempat, berinisial SU. Menurut media, dia Irjen Slamet Uliandi, mantan Kadiv TIK.",
+   "say": "Kamis malam, Bareskrim mengumumkan tersangka keempat, berinisial Es U. Menurut media, dia Irjen Slamet Uliandi, mantan Kadiv Te I Ka."
+  },
+  {
+   "id": "s14",
+   "tag": "[careful, neutral]",
+   "text": "Menurut polisi, Oktober lalu dia menyetujui penghapusan file sadapan.",
+   "say": "Menurut polisi, Oktober lalu dia menyetujui penghapusan file sadapan."
+  },
+  {
+   "id": "s15",
+   "tag": "[curious, slight turn]",
+   "text": "Tapi beda dari tiga lainnya, dia belum ditahan. Kenapa?",
+   "say": "Tapi beda dari tiga lainnya, dia belum ditahan. Kenapa?"
+  },
+  {
+   "id": "s16",
+   "tag": "[neutral, gentle]",
+   "text": "Kata polisi, dia sedang sakit pasca-stroke.",
+   "say": "Kata polisi, dia sedang sakit pasca stroke."
+  },
+  {
+   "id": "s17",
+   "tag": "[calm, emphatic]",
+   "text": "Ingat: tersangka belum tentu bersalah. Pengadilan yang memutuskan.",
+   "say": "Ingat, tersangka belum tentu bersalah. Pengadilan yang memutuskan."
+  },
+  {
+   "id": "s18",
+   "tag": "[storytelling, open]",
+   "text": "Jumat pagi ini, ada yang masih belum terjawab.",
+   "say": "Jumat pagi ini, ada yang masih belum terjawab."
+  },
+  {
+   "id": "s19",
+   "tag": "[neutral, matter-of-fact]",
+   "text": "Kami belum menemukan tanggapan Listyo atau kuasa hukumnya.",
+   "say": "Kami belum menemukan tanggapan Listyo atau kuasa hukumnya."
+  },
+  {
+   "id": "s20",
+   "tag": "[curious, unresolved]",
+   "text": "Soal motif, Istana masih menunggu penyidikan.",
+   "say": "Soal motif, Istana masih menunggu penyidikan."
+  },
+  {
+   "id": "cta",
+   "tag": "[curious, asking the viewer]",
+   "text": "Pertanyaan mana yang harus dijawab duluan? Komen!",
+   "say": "Pertanyaan mana yang harus dijawab duluan? Komen!"
+  },
+  {
+   "id": "end",
+   "tag": "[friendly, upbeat]",
+   "text": "Follow biar nggak ketinggalan PART 4!",
+   "say": "Follow, biar nggak ketinggalan part empat!"
+  }
+ ],
+ "hook_b": {
+  "style": "story",
+  "replace": [
+   "h1",
+   "h2"
+  ],
+  "lines": [
+   {
+    "id": "hb1",
+    "tag": "[storytelling, quiet, mid-scene]",
+    "text": "Kamis malam, polisi menyebut satu inisial baru: SU.",
+    "say": "Kamis malam, polisi menyebut satu inisial baru, Es U."
+   },
+   {
+    "id": "hb2",
+    "tag": "[measured, slight surprise]",
+    "text": "Tersangka keempat. Tapi dia belum ditahan.",
+    "say": "Tersangka keempat. Tapi dia belum ditahan."
+   }
+  ],
+  "real_moment": "Bareskrim press conference, Kamis 5 Nov 2026 malam (Antara 20:01 WIB, CNN 20:37 WIB); not a fictional scene, no Pak Budi",
+  "title_card": "INISIAL BARU: / SU"
+ },
+ "hook_a_person": {
+  "name": "Suyudi Ario Seto",
+  "role": "Kapolri",
+  "photo": "assets/people/suyudi-ario-seto.png",
+  "commons_file": "File:Suyudi Ario Seto, Kapolri (2026).jpg",
+  "credit": "Foto: Divisi Humas Polri, Public domain, via Wikimedia Commons",
+  "title_card": "KAPOLRI BICARA / SOAL KAPOLRI LAMA"
+ },
+ "tail": 0.9,
+ "end_card": {
+  "text": "Follow Rangkumin Dong",
+  "spoken": false
+ },
+ "factcheck": "6 Nov full FC: 6 FIXes applied (s7, s10, s11, s13, s15, hb2, pinned #8/#9)"
+}
