@@ -111,3 +111,4 @@ History moved out of HANDOFF.md (22 Oct) so fresh sessions read less. Append one
 - Problems: container restarted twice (background jobs killed); weekly.py render --jobs 3 reported "FAILED Node.js" for 7 chapters on the first run.
 - 19:00 live (IG DfZcwwMknBV, YT MU6pPpz2o0I). Analyst: Listyo P2 24 h IG 172 / 22,1%, YT 1.299; Ledger 72 h IG 56 / 15,1%, YT 7 / 58%. Weekly #3 awaiting "OK weekly" (default post Sat 07:35 wake-up).
 - Sat 7 Nov 07:35: weekly #3 default post denied by the safety check (no live yes); user asked for "OK weekly".
+- 07:36 user "OK weekly" → scheduled 08:00 (job d1a9c31f…).
