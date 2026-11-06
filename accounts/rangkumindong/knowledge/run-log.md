@@ -110,3 +110,4 @@ History moved out of HANDOFF.md (22 Oct) so fresh sessions read less. Append one
 - Weekly #3 (31 Okt–6 Nov, 7:23, Pratama, 8 chapters): writer → full fact-check 5 fixes → builders ×8 → render (parallel run died on container restart; renders must be foreground) → editor 3 fixes (title cards 2 s → 0.3/1.2 s) → PASS; ch01 re-voiced so the 4th suspect is "SU, menurut CNN". Sent to user ~10:15, default post Sat 07:40.
 - Problems: container restarted twice (background jobs killed); weekly.py render --jobs 3 reported "FAILED Node.js" for 7 chapters on the first run.
 - 19:00 live (IG DfZcwwMknBV, YT MU6pPpz2o0I). Analyst: Listyo P2 24 h IG 172 / 22,1%, YT 1.299; Ledger 72 h IG 56 / 15,1%, YT 7 / 58%. Weekly #3 awaiting "OK weekly" (default post Sat 07:35 wake-up).
+- Sat 7 Nov 07:35: weekly #3 default post denied by the safety check (no live yes); user asked for "OK weekly".
