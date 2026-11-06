@@ -65,10 +65,10 @@
  },
  {
   "lines": "a7, i2",
-  "claim": "On Thu 5 Nov, Bareskrim's Dittipidsiber (Dirtipidsiber Brigjen Suhermanto) named Irjen Slamet Uliandi (SU) a new (fourth) suspect; police describe him as Dewan Pembina of the Bareskrim Monitoring Center. Police: 'jumlah tersangka dalam perkara ini 4 orang'.",
+  "claim": "On Thu 5 Nov, Bareskrim's Dittipidsiber (Dirtipidsiber Brigjen Suhermanto) named a new (fourth) suspect, announced by police only by the initials 'SU' (ANTARA: 'anggota Polri berinisial SU'; police: 'jumlah tersangka … 4 orang'), Dewan Pembina of the Bareskrim Monitoring Center. The full name Irjen Slamet Uliandi comes from CNN Indonesia, not Bareskrim; the script attributes it ('Menurut CNN Indonesia').",
   "numbers": "4 tersangka",
   "sensitivity": "high",
-  "status": "verified (opened ANTARA, CNN Indonesia, detik on 5 Nov; ANTARA says 'tersangka baru', CNN/detik give the count of 4)",
+  "status": "verified; name attributed to CNN Indonesia (consistency fix 6 Nov)",
   "sources": [
    "https://m.antaranews.com/amp/berita/5834879/polri-tetapkan-su-tersangka-baru-kasus-penyadapan-ilegal",
    "https://www.cnnindonesia.com/nasional/20261105203023-12-1423892/sakit-irjen-slamet-uliandi-tersangka-penyadapan-prabowo-belum-ditahan",
@@ -77,7 +77,7 @@
  },
  {
   "lines": "a8",
-  "claim": "Per police, in October 2026 Irjen Ahrie Sonta asked Slamet Uliandi for permission to delete the wiretap files, and Slamet approved ('meng-ACC').",
+  "claim": "Per police, in October 2026 Irjen Ahrie Sonta asked SU for permission to delete the wiretap files, and SU approved ('meng-ACC'). Script uses the initials SU.",
   "numbers": "Okt 2026",
   "sensitivity": "high",
   "status": "verified (CNN Indonesia + detik, both quoting police)",
@@ -88,14 +88,16 @@
  },
  {
   "lines": "a9, i1, hb2",
-  "claim": "Slamet is not detained because he is recovering from a stroke; the other three are detained at Rutan Mako Brimob (police, Thu 5 Nov). Note: on 3–4 Nov the location was reported as Rutan Mabes Polri / Bareskrim; PART 1/2 said Mabes Polri.",
+  "claim": "SU is not detained because he is recovering from a stroke; the other three are detained at Rutan Mako Brimob (police, Thu 5 Nov). Note: on 3–4 Nov the location was reported as Rutan Mabes Polri / Bareskrim; PART 1/2 said Mabes Polri. Hook 'Mantan Kapolri ditahan': police (Suhermanto, 5 Nov) said 3 suspects incl. LSP are detained at Mako Brimob ('4 orang, 3 dilakukan penahanan di Mako Brimob'); LSP's identity as ex-Kapolri Listyo Sigit Prabowo per detik/CNN, and the Istana dismissed Listyo from KSP over the case (Mensesneg, 4 Nov). Earlier (3–4 Nov) Kabareskrim said the three were detained (kumparan).",
   "numbers": "3 ditahan · 1 tidak ditahan",
   "sensitivity": "high",
   "status": "verified (ANTARA, CNN Indonesia, detik)",
   "sources": [
    "https://news.detik.com/berita/d-8740242/tersangka-penyadapan-presiden-listyo-sigit-dkk-ditahan-di-mako-brimob",
    "https://www.cnnindonesia.com/nasional/20261105203023-12-1423892/sakit-irjen-slamet-uliandi-tersangka-penyadapan-prabowo-belum-ditahan",
-   "https://m.antaranews.com/amp/berita/5834879/polri-tetapkan-su-tersangka-baru-kasus-penyadapan-ilegal"
+   "https://m.antaranews.com/amp/berita/5834879/polri-tetapkan-su-tersangka-baru-kasus-penyadapan-ilegal",
+   "https://www.cnnindonesia.com/nasional/20261104122553-12-1423147/istana-presiden-prabowo-prihatin-luar-biasa-terkait-kasus-penyadapan",
+   "https://kumparan.com/kumparannews/profil-listyo-sigit-prabowo-dan-2-jenderal-polisi-tersangka-kasus-penyadapan-presiden-28VDq3xnuCn"
   ]
  },
  {

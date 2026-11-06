@@ -1,0 +1,1241 @@
+{
+ "duration": 87.764,
+ "voice": "Pratama",
+ "lines": [
+  {
+   "id": "h1",
+   "text": "Kapolri sekarang bicara soal kasus Kapolri lama.",
+   "start": 0.41,
+   "end": 2.691,
+   "words": [
+    {
+     "w": "Kapolri",
+     "start": 0.41,
+     "end": 0.545
+    },
+    {
+     "w": "sekarang",
+     "start": 0.594,
+     "end": 0.836
+    },
+    {
+     "w": "bicara",
+     "start": 0.891,
+     "end": 1.273
+    },
+    {
+     "w": "soal",
+     "start": 1.321,
+     "end": 1.491
+    },
+    {
+     "w": "kasus",
+     "start": 1.545,
+     "end": 1.855
+    },
+    {
+     "w": "Kapolri",
+     "start": 1.891,
+     "end": 2.218
+    },
+    {
+     "w": "lama.",
+     "start": 2.255,
+     "end": 2.691
+    }
+   ]
+  },
+  {
+   "id": "h2",
+   "text": "Katanya, \"tidak ada kaitannya dengan persaingan.\"",
+   "start": 2.882,
+   "end": 5.073,
+   "words": [
+    {
+     "w": "Katanya,",
+     "start": 2.882,
+     "end": 3.4
+    },
+    {
+     "w": "\"tidak",
+     "start": 3.436,
+     "end": 3.618
+    },
+    {
+     "w": "ada",
+     "start": 3.673,
+     "end": 3.836
+    },
+    {
+     "w": "kaitannya",
+     "start": 3.873,
+     "end": 4.273
+    },
+    {
+     "w": "dengan",
+     "start": 4.304,
+     "end": 4.491
+    },
+    {
+     "w": "persaingan.\"",
+     "start": 4.535,
+     "end": 5.073
+    }
+   ]
+  },
+  {
+   "id": "rd",
+   "text": "Rangkumin dong!",
+   "start": 5.252,
+   "end": 6.211,
+   "words": [
+    {
+     "w": "Rangkumin",
+     "start": 5.252,
+     "end": 5.731
+    },
+    {
+     "w": "dong!",
+     "start": 5.731,
+     "end": 6.211
+    }
+   ]
+  },
+  {
+   "id": "s1",
+   "text": "Mulai dari Selasa, 3 November.",
+   "start": 6.719,
+   "end": 8.734,
+   "words": [
+    {
+     "w": "Mulai",
+     "start": 6.719,
+     "end": 6.808
+    },
+    {
+     "w": "dari",
+     "start": 6.851,
+     "end": 7.026
+    },
+    {
+     "w": "Selasa,",
+     "start": 7.08,
+     "end": 7.608
+    },
+    {
+     "w": "3",
+     "start": 7.717,
+     "end": 7.971
+    },
+    {
+     "w": "November.",
+     "start": 8.028,
+     "end": 8.734
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "text": "Bareskrim menetapkan tiga tersangka dugaan penyadapan ilegal. Salah satunya Listyo Sigit, mantan Kapolri.",
+   "start": 8.793,
+   "end": 14.704,
+   "words": [
+    {
+     "w": "Bareskrim",
+     "start": 8.793,
+     "end": 9.193
+    },
+    {
+     "w": "menetapkan",
+     "start": 9.229,
+     "end": 9.702
+    },
+    {
+     "w": "tiga",
+     "start": 9.739,
+     "end": 9.92
+    },
+    {
+     "w": "tersangka",
+     "start": 9.979,
+     "end": 10.502
+    },
+    {
+     "w": "dugaan",
+     "start": 10.539,
+     "end": 10.866
+    },
+    {
+     "w": "penyadapan",
+     "start": 10.909,
+     "end": 11.302
+    },
+    {
+     "w": "ilegal.",
+     "start": 11.357,
+     "end": 11.811
+    },
+    {
+     "w": "Salah",
+     "start": 11.895,
+     "end": 12.184
+    },
+    {
+     "w": "satunya",
+     "start": 12.22,
+     "end": 12.62
+    },
+    {
+     "w": "Listyo",
+     "start": 12.722,
+     "end": 13.266
+    },
+    {
+     "w": "Sigit,",
+     "start": 13.302,
+     "end": 13.766
+    },
+    {
+     "w": "mantan",
+     "start": 13.809,
+     "end": 14.129
+    },
+    {
+     "w": "Kapolri.",
+     "start": 14.166,
+     "end": 14.704
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "text": "Kata polisi, yang diduga disadap termasuk nomor Presiden.",
+   "start": 14.915,
+   "end": 17.775,
+   "words": [
+    {
+     "w": "Kata",
+     "start": 14.915,
+     "end": 14.939
+    },
+    {
+     "w": "polisi,",
+     "start": 14.993,
+     "end": 15.593
+    },
+    {
+     "w": "yang",
+     "start": 15.622,
+     "end": 15.739
+    },
+    {
+     "w": "diduga",
+     "start": 15.775,
+     "end": 16.029
+    },
+    {
+     "w": "disadap",
+     "start": 16.084,
+     "end": 16.466
+    },
+    {
+     "w": "termasuk",
+     "start": 16.509,
+     "end": 16.975
+    },
+    {
+     "w": "nomor",
+     "start": 17.011,
+     "end": 17.193
+    },
+    {
+     "w": "Presiden.",
+     "start": 17.251,
+     "end": 17.775
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "text": "Waktu itu, Listyo Kepala Staf Kepresidenan. Setelah jadi tersangka, bertahan berapa lama?",
+   "start": 18.155,
+   "end": 22.822,
+   "words": [
+    {
+     "w": "Waktu",
+     "start": 18.156,
+     "end": 18.202
+    },
+    {
+     "w": "itu,",
+     "start": 18.275,
+     "end": 18.711
+    },
+    {
+     "w": "Listyo",
+     "start": 18.755,
+     "end": 19.075
+    },
+    {
+     "w": "Kepala",
+     "start": 19.111,
+     "end": 19.366
+    },
+    {
+     "w": "Staf",
+     "start": 19.414,
+     "end": 19.657
+    },
+    {
+     "w": "Kepresidenan.",
+     "start": 19.693,
+     "end": 20.384
+    },
+    {
+     "w": "Setelah",
+     "start": 20.495,
+     "end": 20.866
+    },
+    {
+     "w": "jadi",
+     "start": 20.902,
+     "end": 21.011
+    },
+    {
+     "w": "tersangka,",
+     "start": 21.055,
+     "end": 21.593
+    },
+    {
+     "w": "bertahan",
+     "start": 21.68,
+     "end": 22.175
+    },
+    {
+     "w": "berapa",
+     "start": 22.193,
+     "end": 22.393
+    },
+    {
+     "w": "lama?",
+     "start": 22.429,
+     "end": 22.822
+    }
+   ]
+  },
+  {
+   "id": "s5",
+   "text": "Sehari. Rabu, Istana mengumumkan Keppres pemberhentiannya.",
+   "start": 23.911,
+   "end": 26.374,
+   "words": [
+    {
+     "w": "Sehari.",
+     "start": 23.911,
+     "end": 24.42
+    },
+    {
+     "w": "Rabu,",
+     "start": 24.493,
+     "end": 24.639
+    },
+    {
+     "w": "Istana",
+     "start": 24.675,
+     "end": 25.002
+    },
+    {
+     "w": "mengumumkan",
+     "start": 25.05,
+     "end": 25.526
+    },
+    {
+     "w": "Keppres",
+     "start": 25.569,
+     "end": 25.875
+    },
+    {
+     "w": "pemberhentiannya.",
+     "start": 25.919,
+     "end": 26.374
+    }
+   ]
+  },
+  {
+   "id": "s6",
+   "text": "Lalu satu jabatan lagi lepas. Bukan di pemerintahan.",
+   "start": 27.121,
+   "end": 29.575,
+   "words": [
+    {
+     "w": "Lalu",
+     "start": 27.121,
+     "end": 27.285
+    },
+    {
+     "w": "satu",
+     "start": 27.321,
+     "end": 27.554
+    },
+    {
+     "w": "jabatan",
+     "start": 27.612,
+     "end": 28.168
+    },
+    {
+     "w": "lagi",
+     "start": 28.221,
+     "end": 28.494
+    },
+    {
+     "w": "lepas.",
+     "start": 28.549,
+     "end": 28.803
+    },
+    {
+     "w": "Bukan",
+     "start": 28.839,
+     "end": 29.058
+    },
+    {
+     "w": "di",
+     "start": 29.112,
+     "end": 29.221
+    },
+    {
+     "w": "pemerintahan.",
+     "start": 29.276,
+     "end": 29.575
+    }
+   ]
+  },
+  {
+   "id": "s7",
+   "text": "Di serikat buruh KSPSI, Listyo Ketua Dewan Penasihat. Kini diberhentikan sementara.",
+   "start": 30.055,
+   "end": 35.454,
+   "words": [
+    {
+     "w": "Di",
+     "start": 30.055,
+     "end": 30.164
+    },
+    {
+     "w": "serikat",
+     "start": 30.2,
+     "end": 30.779
+    },
+    {
+     "w": "buruh",
+     "start": 30.9,
+     "end": 31.337
+    },
+    {
+     "w": "KSPSI,",
+     "start": 31.555,
+     "end": 32.855
+    },
+    {
+     "w": "Listyo",
+     "start": 32.928,
+     "end": 33.219
+    },
+    {
+     "w": "Ketua",
+     "start": 33.255,
+     "end": 33.437
+    },
+    {
+     "w": "Dewan",
+     "start": 33.528,
+     "end": 33.759
+    },
+    {
+     "w": "Penasihat.",
+     "start": 33.937,
+     "end": 34.373
+    },
+    {
+     "w": "Kini",
+     "start": 34.398,
+     "end": 34.519
+    },
+    {
+     "w": "diberhentikan",
+     "start": 34.555,
+     "end": 35.249
+    },
+    {
+     "w": "sementara.",
+     "start": 35.381,
+     "end": 35.454
+    }
+   ]
+  },
+  {
+   "id": "s8",
+   "text": "Kata Sekjennya, permanen hanya jika ada putusan tetap.",
+   "start": 35.965,
+   "end": 38.789,
+   "words": [
+    {
+     "w": "Kata",
+     "start": 35.966,
+     "end": 36.402
+    },
+    {
+     "w": "Sekjennya,",
+     "start": 36.439,
+     "end": 36.911
+    },
+    {
+     "w": "permanen",
+     "start": 36.984,
+     "end": 37.566
+    },
+    {
+     "w": "hanya",
+     "start": 37.639,
+     "end": 37.893
+    },
+    {
+     "w": "jika",
+     "start": 37.929,
+     "end": 38.148
+    },
+    {
+     "w": "ada",
+     "start": 38.184,
+     "end": 38.293
+    },
+    {
+     "w": "putusan",
+     "start": 38.366,
+     "end": 38.64
+    },
+    {
+     "w": "tetap.",
+     "start": 38.641,
+     "end": 38.789
+    }
+   ]
+  },
+  {
+   "id": "s9",
+   "text": "Apa kata Polri sendiri?",
+   "start": 39.225,
+   "end": 39.925,
+   "words": [
+    {
+     "w": "Apa",
+     "start": 39.226,
+     "end": 39.4
+    },
+    {
+     "w": "kata",
+     "start": 39.429,
+     "end": 39.589
+    },
+    {
+     "w": "Polri",
+     "start": 39.662,
+     "end": 39.917
+    },
+    {
+     "w": "sendiri?",
+     "start": 39.918,
+     "end": 39.925
+    }
+   ]
+  },
+  {
+   "id": "s10",
+   "text": "Kamis, di Mabes Polri, Kapolri Suyudi Ario Seto menerima para purnawirawan.",
+   "start": 40.807,
+   "end": 44.635,
+   "words": [
+    {
+     "w": "Kamis,",
+     "start": 40.808,
+     "end": 41.189
+    },
+    {
+     "w": "di",
+     "start": 41.244,
+     "end": 41.389
+    },
+    {
+     "w": "Mabes",
+     "start": 41.535,
+     "end": 41.789
+    },
+    {
+     "w": "Polri,",
+     "start": 41.826,
+     "end": 42.117
+    },
+    {
+     "w": "Kapolri",
+     "start": 42.165,
+     "end": 42.553
+    },
+    {
+     "w": "Suyudi",
+     "start": 42.608,
+     "end": 42.917
+    },
+    {
+     "w": "Ario",
+     "start": 42.979,
+     "end": 43.229
+    },
+    {
+     "w": "Seto",
+     "start": 43.29,
+     "end": 43.528
+    },
+    {
+     "w": "menerima",
+     "start": 43.586,
+     "end": 44.008
+    },
+    {
+     "w": "para",
+     "start": 44.044,
+     "end": 44.299
+    },
+    {
+     "w": "purnawirawan.",
+     "start": 44.371,
+     "end": 44.635
+    }
+   ]
+  },
+  {
+   "id": "s11",
+   "text": "Di sana dia bilang, kasus ini \"murni dalam bentuk penegakan hukum,\" dan \"tidak ada kaitannya dengan persaingan.\"",
+   "start": 45.123,
+   "end": 50.559,
+   "words": [
+    {
+     "w": "Di",
+     "start": 45.123,
+     "end": 45.232
+    },
+    {
+     "w": "sana",
+     "start": 45.287,
+     "end": 45.505
+    },
+    {
+     "w": "dia",
+     "start": 45.568,
+     "end": 45.859
+    },
+    {
+     "w": "bilang,",
+     "start": 45.896,
+     "end": 46.369
+    },
+    {
+     "w": "kasus",
+     "start": 46.441,
+     "end": 46.732
+    },
+    {
+     "w": "ini",
+     "start": 46.769,
+     "end": 46.878
+    },
+    {
+     "w": "\"murni",
+     "start": 46.921,
+     "end": 47.132
+    },
+    {
+     "w": "dalam",
+     "start": 47.169,
+     "end": 47.35
+    },
+    {
+     "w": "bentuk",
+     "start": 47.387,
+     "end": 47.678
+    },
+    {
+     "w": "penegakan",
+     "start": 47.75,
+     "end": 48.366
+    },
+    {
+     "w": "hukum,\"",
+     "start": 48.426,
+     "end": 48.778
+    },
+    {
+     "w": "dan",
+     "start": 48.832,
+     "end": 49.032
+    },
+    {
+     "w": "\"tidak",
+     "start": 49.08,
+     "end": 49.309
+    },
+    {
+     "w": "ada",
+     "start": 49.352,
+     "end": 49.459
+    },
+    {
+     "w": "kaitannya",
+     "start": 49.489,
+     "end": 49.832
+    },
+    {
+     "w": "dengan",
+     "start": 49.941,
+     "end": 50.196
+    },
+    {
+     "w": "persaingan.\"",
+     "start": 50.259,
+     "end": 50.559
+    }
+   ]
+  },
+  {
+   "id": "s12",
+   "text": "Tapi hari itu belum selesai.",
+   "start": 51.214,
+   "end": 52.233,
+   "words": [
+    {
+     "w": "Tapi",
+     "start": 51.214,
+     "end": 51.341
+    },
+    {
+     "w": "hari",
+     "start": 51.366,
+     "end": 51.511
+    },
+    {
+     "w": "itu",
+     "start": 51.559,
+     "end": 51.778
+    },
+    {
+     "w": "belum",
+     "start": 51.85,
+     "end": 52.173
+    },
+    {
+     "w": "selesai.",
+     "start": 52.177,
+     "end": 52.233
+    }
+   ]
+  },
+  {
+   "id": "s13",
+   "text": "Kamis malam, Bareskrim mengumumkan tersangka keempat, berinisial SU. Menurut media, dia Irjen Slamet Uliandi, mantan Kadiv TIK.",
+   "start": 52.977,
+   "end": 60.553,
+   "words": [
+    {
+     "w": "Kamis",
+     "start": 52.978,
+     "end": 53.287
+    },
+    {
+     "w": "malam,",
+     "start": 53.341,
+     "end": 53.545
+    },
+    {
+     "w": "Bareskrim",
+     "start": 53.574,
+     "end": 53.996
+    },
+    {
+     "w": "mengumumkan",
+     "start": 54.039,
+     "end": 54.529
+    },
+    {
+     "w": "tersangka",
+     "start": 54.578,
+     "end": 55.123
+    },
+    {
+     "w": "keempat,",
+     "start": 55.159,
+     "end": 55.789
+    },
+    {
+     "w": "berinisial",
+     "start": 55.911,
+     "end": 56.741
+    },
+    {
+     "w": "SU.",
+     "start": 56.778,
+     "end": 57.057
+    },
+    {
+     "w": "Menurut",
+     "start": 57.117,
+     "end": 57.735
+    },
+    {
+     "w": "media,",
+     "start": 57.784,
+     "end": 58.138
+    },
+    {
+     "w": "dia",
+     "start": 58.181,
+     "end": 58.305
+    },
+    {
+     "w": "Irjen",
+     "start": 58.341,
+     "end": 58.632
+    },
+    {
+     "w": "Slamet",
+     "start": 58.705,
+     "end": 59.254
+    },
+    {
+     "w": "Uliandi,",
+     "start": 59.298,
+     "end": 59.705
+    },
+    {
+     "w": "mantan",
+     "start": 59.778,
+     "end": 60.141
+    },
+    {
+     "w": "Kadiv",
+     "start": 60.214,
+     "end": 60.54
+    },
+    {
+     "w": "TIK.",
+     "start": 60.541,
+     "end": 60.553
+    }
+   ]
+  },
+  {
+   "id": "s14",
+   "text": "Menurut polisi, Oktober lalu dia menyetujui penghapusan file sadapan.",
+   "start": 60.983,
+   "end": 64.625,
+   "words": [
+    {
+     "w": "Menurut",
+     "start": 60.983,
+     "end": 61.688
+    },
+    {
+     "w": "polisi,",
+     "start": 61.729,
+     "end": 62.038
+    },
+    {
+     "w": "Oktober",
+     "start": 62.11,
+     "end": 62.474
+    },
+    {
+     "w": "lalu",
+     "start": 62.51,
+     "end": 62.692
+    },
+    {
+     "w": "dia",
+     "start": 62.765,
+     "end": 62.983
+    },
+    {
+     "w": "menyetujui",
+     "start": 63.012,
+     "end": 63.438
+    },
+    {
+     "w": "penghapusan",
+     "start": 63.492,
+     "end": 64.147
+    },
+    {
+     "w": "file",
+     "start": 64.219,
+     "end": 64.483
+    },
+    {
+     "w": "sadapan.",
+     "start": 64.499,
+     "end": 64.626
+    }
+   ]
+  },
+  {
+   "id": "s15",
+   "text": "Tapi beda dari tiga lainnya, dia belum ditahan. Kenapa?",
+   "start": 65.37,
+   "end": 68.022,
+   "words": [
+    {
+     "w": "Tapi",
+     "start": 65.37,
+     "end": 65.538
+    },
+    {
+     "w": "beda",
+     "start": 65.574,
+     "end": 65.763
+    },
+    {
+     "w": "dari",
+     "start": 65.807,
+     "end": 65.986
+    },
+    {
+     "w": "tiga",
+     "start": 66.035,
+     "end": 66.447
+    },
+    {
+     "w": "lainnya,",
+     "start": 66.501,
+     "end": 66.81
+    },
+    {
+     "w": "dia",
+     "start": 66.847,
+     "end": 66.992
+    },
+    {
+     "w": "belum",
+     "start": 67.065,
+     "end": 67.292
+    },
+    {
+     "w": "ditahan.",
+     "start": 67.383,
+     "end": 67.935
+    },
+    {
+     "w": "Kenapa?",
+     "start": 67.941,
+     "end": 68.022
+    }
+   ]
+  },
+  {
+   "id": "s16",
+   "text": "Kata polisi, dia sedang sakit pasca-stroke.",
+   "start": 68.583,
+   "end": 70.563,
+   "words": [
+    {
+     "w": "Kata",
+     "start": 68.583,
+     "end": 68.965
+    },
+    {
+     "w": "polisi,",
+     "start": 69.074,
+     "end": 69.365
+    },
+    {
+     "w": "dia",
+     "start": 69.419,
+     "end": 69.583
+    },
+    {
+     "w": "sedang",
+     "start": 69.656,
+     "end": 70.019
+    },
+    {
+     "w": "sakit",
+     "start": 70.092,
+     "end": 70.352
+    },
+    {
+     "w": "pasca-stroke.",
+     "start": 70.404,
+     "end": 70.563
+    }
+   ]
+  },
+  {
+   "id": "s17",
+   "text": "Ingat: tersangka belum tentu bersalah. Pengadilan yang memutuskan.",
+   "start": 71.203,
+   "end": 74.061,
+   "words": [
+    {
+     "w": "Ingat:",
+     "start": 71.203,
+     "end": 71.469
+    },
+    {
+     "w": "tersangka",
+     "start": 71.519,
+     "end": 71.93
+    },
+    {
+     "w": "belum",
+     "start": 72.003,
+     "end": 72.221
+    },
+    {
+     "w": "tentu",
+     "start": 72.294,
+     "end": 72.552
+    },
+    {
+     "w": "bersalah.",
+     "start": 72.61,
+     "end": 73.076
+    },
+    {
+     "w": "Pengadilan",
+     "start": 73.09,
+     "end": 73.439
+    },
+    {
+     "w": "yang",
+     "start": 73.476,
+     "end": 73.73
+    },
+    {
+     "w": "memutuskan.",
+     "start": 73.803,
+     "end": 74.061
+    }
+   ]
+  },
+  {
+   "id": "s18",
+   "text": "Jumat pagi ini, ada yang masih belum terjawab.",
+   "start": 74.578,
+   "end": 76.449,
+   "words": [
+    {
+     "w": "Jumat",
+     "start": 74.579,
+     "end": 74.924
+    },
+    {
+     "w": "pagi",
+     "start": 75.033,
+     "end": 75.309
+    },
+    {
+     "w": "ini,",
+     "start": 75.339,
+     "end": 75.469
+    },
+    {
+     "w": "ada",
+     "start": 75.506,
+     "end": 75.615
+    },
+    {
+     "w": "yang",
+     "start": 75.639,
+     "end": 75.736
+    },
+    {
+     "w": "masih",
+     "start": 75.76,
+     "end": 76.027
+    },
+    {
+     "w": "belum",
+     "start": 76.076,
+     "end": 76.304
+    },
+    {
+     "w": "terjawab.",
+     "start": 76.441,
+     "end": 76.449
+    }
+   ]
+  },
+  {
+   "id": "s19",
+   "text": "Kami belum menemukan tanggapan Listyo atau kuasa hukumnya.",
+   "start": 76.911,
+   "end": 79.655,
+   "words": [
+    {
+     "w": "Kami",
+     "start": 76.911,
+     "end": 77.039
+    },
+    {
+     "w": "belum",
+     "start": 77.111,
+     "end": 77.373
+    },
+    {
+     "w": "menemukan",
+     "start": 77.417,
+     "end": 77.824
+    },
+    {
+     "w": "tanggapan",
+     "start": 77.882,
+     "end": 78.493
+    },
+    {
+     "w": "Listyo",
+     "start": 78.566,
+     "end": 78.929
+    },
+    {
+     "w": "atau",
+     "start": 78.966,
+     "end": 79.148
+    },
+    {
+     "w": "kuasa",
+     "start": 79.22,
+     "end": 79.44
+    },
+    {
+     "w": "hukumnya.",
+     "start": 79.61,
+     "end": 79.656
+    }
+   ]
+  },
+  {
+   "id": "s20",
+   "text": "Soal motif, Istana masih menunggu penyidikan.",
+   "start": 80.34,
+   "end": 82.268,
+   "words": [
+    {
+     "w": "Soal",
+     "start": 80.34,
+     "end": 80.725
+    },
+    {
+     "w": "motif,",
+     "start": 80.798,
+     "end": 81.089
+    },
+    {
+     "w": "Istana",
+     "start": 81.125,
+     "end": 81.355
+    },
+    {
+     "w": "masih",
+     "start": 81.404,
+     "end": 81.583
+    },
+    {
+     "w": "menunggu",
+     "start": 81.612,
+     "end": 82.034
+    },
+    {
+     "w": "penyidikan.",
+     "start": 82.104,
+     "end": 82.269
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "text": "Pertanyaan mana yang harus dijawab duluan? Komen!",
+   "start": 82.777,
+   "end": 84.972,
+   "words": [
+    {
+     "w": "Pertanyaan",
+     "start": 82.778,
+     "end": 83.192
+    },
+    {
+     "w": "mana",
+     "start": 83.229,
+     "end": 83.374
+    },
+    {
+     "w": "yang",
+     "start": 83.399,
+     "end": 83.544
+    },
+    {
+     "w": "harus",
+     "start": 83.592,
+     "end": 83.774
+    },
+    {
+     "w": "dijawab",
+     "start": 83.81,
+     "end": 84.383
+    },
+    {
+     "w": "duluan?",
+     "start": 84.456,
+     "end": 84.87
+    },
+    {
+     "w": "Komen!",
+     "start": 84.878,
+     "end": 84.972
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "text": "Follow biar nggak ketinggalan PART 4!",
+   "start": 85.546,
+   "end": 87.11,
+   "words": [
+    {
+     "w": "Follow",
+     "start": 85.547,
+     "end": 85.777
+    },
+    {
+     "w": "biar",
+     "start": 85.789,
+     "end": 85.932
+    },
+    {
+     "w": "nggak",
+     "start": 85.976,
+     "end": 86.201
+    },
+    {
+     "w": "ketinggalan",
+     "start": 86.238,
+     "end": 86.892
+    },
+    {
+     "w": "PART",
+     "start": 87.11,
+     "end": 87.11
+    },
+    {
+     "w": "4!",
+     "start": 87.11,
+     "end": 87.11
+    }
+   ]
+  }
+ ]
+}

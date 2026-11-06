@@ -13,7 +13,7 @@
 | # | Kicker · title | Angle | Words (text/say) · est. | Sensitivity |
 |---|---|---|---|---|
 | 0 | INTRO · Minggu ini | Question hook, menu of 5 stories, tagline, dates + open loop (pajak 9 Nov) | 60/69 · ~29 s | high (names a detention) |
-| 1 | BAB 1 · Penyadapan: 4 tersangka (PART 3) | **Follow-up to 4 and 5 Nov.** A recap (3 suspects, LIMS without a penyelidikan basis, 2025–2026, files deleted Oct 2026) → Istana dismisses Listyo from KSP, Plt Ariyo Windutomo → **new Thu 5 Nov:** 4th suspect Irjen Slamet Uliandi (Dewan Pembina, Monitoring Center). Per police, he approved Ahrie Sonta's request to delete the files. He is not detained (post-stroke). The other three are at Rutan Mako Brimob → Pasal 258 KUHP, max 10 years → **turn:** what's still missing is Listyo's or a lawyer's response → "tersangka belum tentu bersalah". Every fact is attributed to police or the Istana. | 166/185 · ~78 s | **high** |
+| 1 | BAB 1 · Penyadapan: 4 tersangka (PART 3) | **Follow-up to 4 and 5 Nov.** A recap (3 suspects, LIMS without a penyelidikan basis, 2025–2026, files deleted Oct 2026) → Istana dismisses Listyo from KSP, Plt Ariyo Windutomo → **new Thu 5 Nov:** 4th suspect, initials SU per police (full name Irjen Slamet Uliandi per CNN Indonesia; Dewan Pembina, Monitoring Center). Per police, SU approved Ahrie Sonta's request to delete the files. He is not detained (post-stroke). The other three are at Rutan Mako Brimob → Pasal 258 KUHP, max 10 years → **turn:** what's still missing is Listyo's or a lawyer's response → "tersangka belum tentu bersalah". Every fact is attributed to police or the Istana. | 166/185 · ~78 s | **high** |
 | 2 | BAB 2 · Kripto dibobol dua kali | **Follow-up to 2 and 3 Nov.** Binance: US$6,3 miliar / Rp114 T, 20 minutes, the laptop, attribution by TRM/Chainalysis (Binance names no one), ~US$3 miliar frozen, withdrawals reopen 1 Nov, US$3,64 miliar net out in the first ~9,5 hours (Binance's own figure). Ledger: the implant, 24 words, 2 cases Rp49,5 miliar, 7 regions incl. RI. **Turn:** neither started in blockchain code (a laptop, a shop shelf). Ends with OJK's advice. | 177/201 · ~84 s | normal |
 | 3 | BAB 3 · IHSG di bawah 5.000 (PART 5) | **Payoff of last week's "tunggu 2 November".** 81 HSC stocks out (~18% weight) → Mon +0,79% to 5.096 → Tue −3,78% to 4.904, all 11 sectors (cause attributed to CNBC Indonesia) → Wed +0,32% → Thu +2,25% to 5.030 → OJK: foreign net sell Rp16,88 T in Oct, −16,7% → **turn:** investors +1,38 juta in the same month → MSCI next Thursday. Disclaimer. | 131/195 · ~81 s | normal |
 | 4 | BAB 4 · Ekonomi tumbuh 5,47% | BPS Q3 5,47% vs consensus ~5,2%, Q2 5,29% → household 5,04%, investment 6,06% → **turn:** government spending is the fastest at 8,95% (ASN pay, MBG, per BPS) → inflation 3,23%, trade surplus US$3,36 miliar, pinjol Rp106,48 T, rupiah ~Rp18.080 on Thursday. The numbers sit side by side. No causal links are drawn. | 111/154 · ~64 s | normal |
@@ -38,9 +38,9 @@ a3 Mereka: mantan Kapolri Listyo Sigit Prabowo, Irjen Ahrie Sonta Nasution, dan 
 a4 Kata polisi, nomor-nomor dimasukkan ke sistem sadap LIMS tanpa dasar penyelidikan. Diduga termasuk nomor Presiden.
 a5 Periodenya 2025 sampai 2026. Lalu Oktober 2026, file hasil sadapan diduga dihapus.
 a6 Rabu, kata Mensesneg Prasetyo Hadi, Presiden memberhentikan Listyo dari Kepala Staf Kepresidenan. Pelaksana tugasnya, Letjen Ariyo Windutomo.
-a7 Lalu Kamis, tersangka keempat: Irjen Slamet Uliandi, Dewan Pembina Monitoring Center Bareskrim.
-a8 Menurut polisi, Oktober lalu Ahrie Sonta minta izin ke Slamet untuk menghapus file sadapan. Dan Slamet menyetujui.
-a9 Slamet belum ditahan, karena sakit pascastroke. Tiga lainnya, kata polisi Kamis, kini ditahan di Rutan Mako Brimob.
+a7 Lalu Kamis, tersangka keempat, berinisial SU. Menurut CNN Indonesia, dia Irjen Slamet Uliandi, Dewan Pembina Monitoring Center Bareskrim.
+a8 Menurut polisi, Oktober lalu Ahrie Sonta minta izin ke SU untuk menghapus file sadapan. Dan SU menyetujui.
+a9 SU belum ditahan, karena sakit pascastroke. Tiga lainnya, kata polisi Kamis, kini ditahan di Rutan Mako Brimob.
 a10 Pasalnya antara lain Pasal 258 KUHP, ancaman maksimal 10 tahun.
 a11 Tapi ini yang belum ada: tanggapan Listyo atau kuasa hukumnya. Sampai Kamis malam, kami belum menemukannya.
 a12 Ingat: tersangka belum tentu bersalah. Yang memutuskan nanti pengadilan.
@@ -107,6 +107,8 @@ o2 Follow Rangkumin Dong. Rangkumin Seminggu, tiap Sabtu pagi!
 
 ## Fact-check fixes applied (5 Nov evening)
 All 5 FIXes from factcheck.md are in script.json, claims.json, post.json and this draft: **c9/g6** MSCI date now cited to MSCI's own release (11 Nov 23:00 CET = Thu 12 Nov dini hari WIB) · **b7** US$3,64 miliar is Binance's own figure for the first ~9,5 hours ("beberapa jam pertama, kata Binance sendiri") · **e5** "sampai Kamis sore" (KaltengPos 5 Nov; re-check Friday) · **d9** "sekitar Rp18.080" (Kontan/CNN 18.082, CNBC 18.075) · **captions** Ledger "disisipi komponen jahat", not "palsu". Also: second sources for c4 (Kontan, CNN) and c8 (detik, 33,55 juta) added to claims; pinned-comment items 4, 7, 8, 9, 11 updated.
+
+**Consistency fix (6 Nov):** police named the 4th suspect only as "SU"; a7 now attributes the full name Irjen Slamet Uliandi to CNN Indonesia, and a8/a9 use "SU". Captions and claims match. Chapter 01 needs a re-voice for a7–a9 (a7 is ~6 words longer).
 
 ## Notes for the fact-checker (open items)
 1. **a11 (re-check Friday):** we found no response from Listyo or a lawyer as of Thursday night (5 Nov ANTARA/CNN/detik pieces, plus a web search). If one appears, replace a11 with it, attributed, and keep the same length.
