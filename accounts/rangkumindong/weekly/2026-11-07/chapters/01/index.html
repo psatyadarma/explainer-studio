@@ -137,7 +137,7 @@ const cam = [zc(Z1, 0), zc(Z2, W('a3', 'mereka') - 0.5), zc(Z3, T.lines.find((l)
 
 function seek(t) {
   K.cam16(world, cam, t);
-  K.titleCard($('card'), t, 2.0);
+  K.titleCard($('card'), t, 1.2);
   items.forEach((i) => {
     if (i.raw) { const vis = t >= i.tIn; i.e.style.opacity = vis ? 1 : 0; return; }
     K.pop(i.e, t, i.tIn, i.tOut, i.rot);

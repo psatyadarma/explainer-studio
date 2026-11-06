@@ -107,7 +107,7 @@ function seek(t) {
   const tA = 0;
   K.cam16($('world'), [{ t: 0, x: 960, y: 540, z: 1 }, { t: tB, x: 2960, y: 540, z: 1.0, dur: 1.0 }, { t: tC, x: 4960, y: 540, z: 1.0, dur: 1.0 },
     { t: tD, x: 6960, y: 540, z: 1.0, dur: 1.0 }, { t: tE, x: 8960, y: 540, z: 1.0, dur: 1.0 }], t);
-  K.titleCard($('card'), t, 2.0);
+  K.titleCard($('card'), t, 1.2);
   // A
   const t81 = K.word('c1', '81', 0), t18 = K.word('c2', '18');
   $('n81').textContent = Math.round(DATA.out * K.easeOut(K.prog(t, t81, 0.7)));

@@ -55,7 +55,7 @@ $('cKick').textContent = ch.kicker || ''; $('cTitle').textContent = ch.title || 
 const S = {}; T.lines.forEach((l) => { S[l.id] = l.start; });
 const w = (id, k) => T.lines.find((l) => l.id === id).words[k].start;
 // cue times, all taken from the voice timings
-const cue = { z1: Math.max(2.1, S.i1), c1: S.i2 + 0.1, c2: w('i2', 4), c3: w('i2', 8), d1: S.i3, d2: w('i3', 7), e1: S.i4, e2: S.i4 + 3.2, e3: S.i4 + 5.5 };
+const cue = { z1: Math.max(0.3, S.i1), c1: S.i2 + 0.1, c2: w('i2', 4), c3: w('i2', 8), d1: S.i3, d2: w('i3', 7), e1: S.i4, e2: S.i4 + 3.2, e3: S.i4 + 5.5 };
 const appear = (el, t, t0) => { const k = K.spring(t - t0, 260, 18); el.style.opacity = t < t0 ? 0 : K.clamp(k * 1.5); el.style.transform = `scale(${0.7 + 0.3 * k})`; };
 function seek(t) {
   K.cam16($('world'), [
@@ -63,7 +63,7 @@ function seek(t) {
     { t: S.i2 + 0.2, x: 2960, y: 540, z: 1 }, { t: S.i3 - 0.4, x: 2960, y: 540, z: 1.04 },
     { t: S.i3 + 0.2, x: 4960, y: 540, z: 1 }, { t: S.i4 - 0.4, x: 4960, y: 540, z: 1.04 },
     { t: S.i4 + 0.2, x: 6960, y: 540, z: 1 }], t);
-  K.titleCard($('card'), t, 2.0);
+  K.titleCard($('card'), t, 0.3);
   appear($('z1a'), t, cue.z1); appear($('z1b'), t, cue.z1 + 0.5);
   ['c1', 'c2', 'c3', 'd1', 'd2', 'e1', 'e2', 'e3'].forEach((id) => appear($(id), t, cue[id]));
   K.subtitles($('subs'), t);

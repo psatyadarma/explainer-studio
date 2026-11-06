@@ -81,7 +81,7 @@ function seek(t) {
   const keys = [{ t: 0, x: X(0), y: 540, z: 1 }];
   for (let i = 1; i < 6; i++) keys.push({ t: seg[i], x: X(i), y: 540, z: 1, dur: 0.9 });
   K.cam16($('world'), keys, t);
-  K.titleCard($('card'), t, 2.0);
+  K.titleCard($('card'), t, 1.2);
   st('d0', t, 2.2, undefined, -3);
   st('e0', t, K.word('g0', 'Jokowi'));
   st('e0b', t, K.word('g0', 'Suryo.') - 0.2, K.at('g1'), 2);

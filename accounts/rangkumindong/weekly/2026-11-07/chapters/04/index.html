@@ -102,7 +102,7 @@ function showBars(arr, t) {
 
 function seek(t) {
   K.cam16($('world'), [{ t: 0, x: 960, y: 540, z: 1 }, { t: tB, x: 2960, y: 540, z: 1 }, { t: tC, x: 4960, y: 540, z: 1 }], t);
-  K.titleCard($('card'), t, 2.0);
+  K.titleCard($('card'), t, 1.2);
   // zone A: "?" teaser, then count-up to 5,47 as it is spoken
   const p = K.clamp(K.prog(t, tStat, 1.0));
   $('statNum').textContent = t < tStat ? '?' : (5.47 * K.easeOut(p)).toFixed(2).replace('.', ',') + '%';
