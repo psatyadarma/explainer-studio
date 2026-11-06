@@ -1,0 +1,903 @@
+{
+ "verdict": "PASS",
+ "lead": 0.0,
+ "matched_words": 174,
+ "of_words": 184,
+ "median_offset_s": -0.039,
+ "share_in_window": 0.937,
+ "share_late_over_150ms": 0.04,
+ "worst_lines": [
+  {
+   "line": "t4",
+   "median_offset_s": -0.06
+  },
+  {
+   "line": "b2",
+   "median_offset_s": -0.059
+  },
+  {
+   "line": "h1",
+   "median_offset_s": -0.058
+  },
+  {
+   "line": "t2",
+   "median_offset_s": -0.057
+  },
+  {
+   "line": "p1",
+   "median_offset_s": -0.053
+  }
+ ],
+ "pairs": [
+  {
+   "line": "h1",
+   "word": "triliun",
+   "offset": -0.12
+  },
+  {
+   "line": "h1",
+   "word": "kripto",
+   "offset": -0.053
+  },
+  {
+   "line": "h1",
+   "word": "dicuri",
+   "offset": -0.154
+  },
+  {
+   "line": "h1",
+   "word": "dalam",
+   "offset": -0.023
+  },
+  {
+   "line": "h1",
+   "word": "empat",
+   "offset": -0.03
+  },
+  {
+   "line": "h1",
+   "word": "jam.",
+   "offset": -0.063
+  },
+  {
+   "line": "h2",
+   "word": "Pintu",
+   "offset": 0.099
+  },
+  {
+   "line": "h2",
+   "word": "masuknya",
+   "offset": -0.013
+  },
+  {
+   "line": "h2",
+   "word": "bukan",
+   "offset": -0.006
+  },
+  {
+   "line": "h2",
+   "word": "kode.",
+   "offset": -0.009
+  },
+  {
+   "line": "h2",
+   "word": "Tebak",
+   "offset": -0.114
+  },
+  {
+   "line": "h2",
+   "word": "dari",
+   "offset": -0.061
+  },
+  {
+   "line": "h2",
+   "word": "mana?",
+   "offset": -0.069
+  },
+  {
+   "line": "rd",
+   "word": "Rangkumin",
+   "offset": -0.014
+  },
+  {
+   "line": "rd",
+   "word": "dong!",
+   "offset": -0.034
+  },
+  {
+   "line": "b1",
+   "word": "29",
+   "offset": -0.19
+  },
+  {
+   "line": "b1",
+   "word": "Oktober.",
+   "offset": 0.196
+  },
+  {
+   "line": "b1",
+   "word": "Di",
+   "offset": -0.155
+  },
+  {
+   "line": "b1",
+   "word": "bursa",
+   "offset": -0.044
+  },
+  {
+   "line": "b1",
+   "word": "kripto",
+   "offset": -0.044
+  },
+  {
+   "line": "b1",
+   "word": "Binance,",
+   "offset": -0.004
+  },
+  {
+   "line": "b1",
+   "word": "kode",
+   "offset": 0.014
+  },
+  {
+   "line": "b1",
+   "word": "jahat",
+   "offset": -0.054
+  },
+  {
+   "line": "b1",
+   "word": "mulai",
+   "offset": -0.054
+  },
+  {
+   "line": "b1",
+   "word": "jalan.",
+   "offset": -0.034
+  },
+  {
+   "line": "b2",
+   "word": "Hampir",
+   "offset": 0.095
+  },
+  {
+   "line": "b2",
+   "word": "empat",
+   "offset": 0.004
+  },
+  {
+   "line": "b2",
+   "word": "jam",
+   "offset": -0.089
+  },
+  {
+   "line": "b2",
+   "word": "kemudian:",
+   "offset": -0.009
+  },
+  {
+   "line": "b2",
+   "word": "miliar",
+   "offset": -0.059
+  },
+  {
+   "line": "b2",
+   "word": "dolar",
+   "offset": -0.046
+  },
+  {
+   "line": "b2",
+   "word": "raib.",
+   "offset": -0.072
+  },
+  {
+   "line": "b2",
+   "word": "Sekitar",
+   "offset": -0.155
+  },
+  {
+   "line": "b2",
+   "word": "triliun.",
+   "offset": -0.122
+  },
+  {
+   "line": "b4",
+   "word": "FBI",
+   "offset": -0.025
+  },
+  {
+   "line": "b4",
+   "word": "menuding",
+   "offset": -0.049
+  },
+  {
+   "line": "b4",
+   "word": "peretas",
+   "offset": -0.049
+  },
+  {
+   "line": "b4",
+   "word": "terkait",
+   "offset": -0.017
+  },
+  {
+   "line": "b4",
+   "word": "Korea",
+   "offset": -0.029
+  },
+  {
+   "line": "b4",
+   "word": "Utara,",
+   "offset": -0.036
+  },
+  {
+   "line": "b4",
+   "word": "yang",
+   "offset": -0.153
+  },
+  {
+   "line": "b4",
+   "word": "membantah.",
+   "offset": -0.041
+  },
+  {
+   "line": "b5",
+   "word": "Hampir",
+   "offset": 0.122
+  },
+  {
+   "line": "b5",
+   "word": "separuhnya,",
+   "offset": -0.042
+  },
+  {
+   "line": "b5",
+   "word": "sekitar",
+   "offset": -0.022
+  },
+  {
+   "line": "b5",
+   "word": "miliar",
+   "offset": -0.035
+  },
+  {
+   "line": "b5",
+   "word": "dolar,",
+   "offset": -0.022
+  },
+  {
+   "line": "b5",
+   "word": "dibekukan.",
+   "offset": -0.135
+  },
+  {
+   "line": "b5",
+   "word": "1",
+   "offset": -0.365
+  },
+  {
+   "line": "b5",
+   "word": "November,",
+   "offset": 0.216
+  },
+  {
+   "line": "b5",
+   "word": "penarikan",
+   "offset": -0.075
+  },
+  {
+   "line": "b5",
+   "word": "dibuka",
+   "offset": -0.005
+  },
+  {
+   "line": "b5",
+   "word": "lagi,",
+   "offset": -0.041
+  },
+  {
+   "line": "b5",
+   "word": "bertahap.",
+   "offset": -0.155
+  },
+  {
+   "line": "b6",
+   "word": "Cerita",
+   "offset": 0.063
+  },
+  {
+   "line": "b6",
+   "word": "kedua,",
+   "offset": -0.025
+  },
+  {
+   "line": "b6",
+   "word": "di",
+   "offset": -0.145
+  },
+  {
+   "line": "b6",
+   "word": "Singapura:",
+   "offset": -0.039
+  },
+  {
+   "line": "b6",
+   "word": "Ledger,",
+   "offset": -0.175
+  },
+  {
+   "line": "b6",
+   "word": "dompet",
+   "offset": -0.035
+  },
+  {
+   "line": "b6",
+   "word": "kripto",
+   "offset": -0.035
+  },
+  {
+   "line": "b6",
+   "word": "offline,",
+   "offset": -0.015
+  },
+  {
+   "line": "b6",
+   "word": "dibeli",
+   "offset": -0.035
+  },
+  {
+   "line": "b6",
+   "word": "di",
+   "offset": -0.048
+  },
+  {
+   "line": "b6",
+   "word": "toko.",
+   "offset": -0.035
+  },
+  {
+   "line": "b7",
+   "word": "Kata",
+   "offset": 0.134
+  },
+  {
+   "line": "b7",
+   "word": "Ledger,",
+   "offset": 0.015
+  },
+  {
+   "line": "b7",
+   "word": "unit",
+   "offset": -0.074
+  },
+  {
+   "line": "b7",
+   "word": "dari",
+   "offset": -0.054
+  },
+  {
+   "line": "b7",
+   "word": "toko",
+   "offset": -0.015
+  },
+  {
+   "line": "b7",
+   "word": "tertentu",
+   "offset": -0.054
+  },
+  {
+   "line": "b7",
+   "word": "disisipi",
+   "offset": -0.062
+  },
+  {
+   "line": "b7",
+   "word": "komponen",
+   "offset": -0.042
+  },
+  {
+   "line": "b7",
+   "word": "jahat.",
+   "offset": -0.042
+  },
+  {
+   "line": "b7",
+   "word": "Ia",
+   "offset": -0.185
+  },
+  {
+   "line": "b7",
+   "word": "membaca",
+   "offset": -0.03
+  },
+  {
+   "line": "b7",
+   "word": "kata",
+   "offset": -0.058
+  },
+  {
+   "line": "b7",
+   "word": "pemulihan,",
+   "offset": -0.062
+  },
+  {
+   "line": "b7",
+   "word": "lalu",
+   "offset": -0.022
+  },
+  {
+   "line": "b7",
+   "word": "mengirimnya",
+   "offset": -0.03
+  },
+  {
+   "line": "b7",
+   "word": "lewat",
+   "offset": -0.029
+  },
+  {
+   "line": "b7",
+   "word": "sinyal",
+   "offset": -0.062
+  },
+  {
+   "line": "b7",
+   "word": "seluler.",
+   "offset": -0.042
+  },
+  {
+   "line": "b8",
+   "word": "Polisi",
+   "offset": 0.058
+  },
+  {
+   "line": "b8",
+   "word": "Singapura:",
+   "offset": -0.046
+  },
+  {
+   "line": "b8",
+   "word": "dua",
+   "offset": -0.165
+  },
+  {
+   "line": "b8",
+   "word": "kasus,",
+   "offset": -0.052
+  },
+  {
+   "line": "b8",
+   "word": "rugi",
+   "offset": -0.072
+  },
+  {
+   "line": "b8",
+   "word": "sekitar",
+   "offset": -0.025
+  },
+  {
+   "line": "b8",
+   "word": "miliar.",
+   "offset": -0.012
+  },
+  {
+   "line": "b8",
+   "word": "Penjual",
+   "offset": -0.115
+  },
+  {
+   "line": "b8",
+   "word": "di",
+   "offset": -0.015
+  },
+  {
+   "line": "b8",
+   "word": "wilayah",
+   "offset": 0.028
+  },
+  {
+   "line": "b8",
+   "word": "Asia,",
+   "offset": -0.002
+  },
+  {
+   "line": "b8",
+   "word": "termasuk",
+   "offset": -0.01
+  },
+  {
+   "line": "b8",
+   "word": "Indonesia,",
+   "offset": -0.026
+  },
+  {
+   "line": "b8",
+   "word": "diminta",
+   "offset": -0.022
+  },
+  {
+   "line": "t1",
+   "word": "Tapi",
+   "offset": 0.173
+  },
+  {
+   "line": "t1",
+   "word": "pelaku",
+   "offset": -0.087
+  },
+  {
+   "line": "t1",
+   "word": "sudah",
+   "offset": -0.027
+  },
+  {
+   "line": "t1",
+   "word": "di",
+   "offset": -0.02
+  },
+  {
+   "line": "t1",
+   "word": "dalam",
+   "offset": -0.034
+  },
+  {
+   "line": "t1",
+   "word": "sejak",
+   "offset": -0.034
+  },
+  {
+   "line": "t1",
+   "word": "Juni.",
+   "offset": -0.003
+  },
+  {
+   "line": "t2",
+   "word": "Juni:",
+   "offset": 0.205
+  },
+  {
+   "line": "t2",
+   "word": "seorang",
+   "offset": -0.175
+  },
+  {
+   "line": "t2",
+   "word": "engineer",
+   "offset": -0.044
+  },
+  {
+   "line": "t2",
+   "word": "mengunduh",
+   "offset": -0.173
+  },
+  {
+   "line": "t2",
+   "word": "Homebrew",
+   "offset": -0.073
+  },
+  {
+   "line": "t2",
+   "word": "palsu,",
+   "offset": -0.053
+  },
+  {
+   "line": "t2",
+   "word": "programmer",
+   "offset": -0.033
+  },
+  {
+   "line": "t2",
+   "word": "yang",
+   "offset": -0.129
+  },
+  {
+   "line": "t2",
+   "word": "disusupi.",
+   "offset": -0.057
+  },
+  {
+   "line": "t3",
+   "word": "September:",
+   "offset": 0.402
+  },
+  {
+   "line": "t3",
+   "word": "engineer",
+   "offset": -0.166
+  },
+  {
+   "line": "t3",
+   "word": "lain",
+   "offset": -0.023
+  },
+  {
+   "line": "t3",
+   "word": "diajak",
+   "offset": -0.047
+  },
+  {
+   "line": "t3",
+   "word": "wawancara",
+   "offset": -0.027
+  },
+  {
+   "line": "t3",
+   "word": "kerja",
+   "offset": -0.067
+  },
+  {
+   "line": "t3",
+   "word": "palsu.",
+   "offset": -0.047
+  },
+  {
+   "line": "t3",
+   "word": "File",
+   "offset": -0.185
+  },
+  {
+   "line": "t3",
+   "word": "tesnya",
+   "offset": -0.027
+  },
+  {
+   "line": "t3",
+   "word": "berisi",
+   "offset": -0.087
+  },
+  {
+   "line": "t3",
+   "word": "malware.",
+   "offset": -0.027
+  },
+  {
+   "line": "t4",
+   "word": "20",
+   "offset": -0.153
+  },
+  {
+   "line": "t4",
+   "word": "Oktober:",
+   "offset": 0.137
+  },
+  {
+   "line": "t4",
+   "word": "pelaku",
+   "offset": -0.125
+  },
+  {
+   "line": "t4",
+   "word": "menguasai",
+   "offset": -0.041
+  },
+  {
+   "line": "t4",
+   "word": "software",
+   "offset": -0.06
+  },
+  {
+   "line": "t4",
+   "word": "dua",
+   "offset": -0.093
+  },
+  {
+   "line": "t4",
+   "word": "engineer",
+   "offset": -0.06
+  },
+  {
+   "line": "t4",
+   "word": "lagi.",
+   "offset": 0.011
+  },
+  {
+   "line": "t4",
+   "word": "Sembilan",
+   "offset": -0.155
+  },
+  {
+   "line": "t4",
+   "word": "hari",
+   "offset": -0.021
+  },
+  {
+   "line": "t4",
+   "word": "kemudian,",
+   "offset": -0.013
+  },
+  {
+   "line": "t4",
+   "word": "serangan.",
+   "offset": -0.185
+  },
+  {
+   "line": "p1",
+   "word": "Jadi,",
+   "offset": -0.023
+  },
+  {
+   "line": "p1",
+   "word": "berapa",
+   "offset": -0.073
+  },
+  {
+   "line": "p1",
+   "word": "yang",
+   "offset": -0.057
+  },
+  {
+   "line": "p1",
+   "word": "dimulai",
+   "offset": -0.053
+  },
+  {
+   "line": "p1",
+   "word": "dari",
+   "offset": -0.065
+  },
+  {
+   "line": "p1",
+   "word": "celah",
+   "offset": -0.013
+  },
+  {
+   "line": "p1",
+   "word": "kode",
+   "offset": -0.005
+  },
+  {
+   "line": "p1",
+   "word": "blockchain?",
+   "offset": 0.003
+  },
+  {
+   "line": "p1",
+   "word": "Nol.",
+   "offset": -0.195
+  },
+  {
+   "line": "p2",
+   "word": "Satu",
+   "offset": 0.172
+  },
+  {
+   "line": "p2",
+   "word": "lewat",
+   "offset": -0.01
+  },
+  {
+   "line": "p2",
+   "word": "engineer",
+   "offset": -0.07
+  },
+  {
+   "line": "p2",
+   "word": "yang",
+   "offset": -0.027
+  },
+  {
+   "line": "p2",
+   "word": "tertipu.",
+   "offset": -0.015
+  },
+  {
+   "line": "p2",
+   "word": "Satu",
+   "offset": -0.185
+  },
+  {
+   "line": "p2",
+   "word": "lewat",
+   "offset": -0.04
+  },
+  {
+   "line": "p2",
+   "word": "barang",
+   "offset": -0.047
+  },
+  {
+   "line": "p2",
+   "word": "di",
+   "offset": -0.026
+  },
+  {
+   "line": "p2",
+   "word": "toko.",
+   "offset": -0.033
+  },
+  {
+   "line": "o1",
+   "word": "Kata",
+   "offset": 0.199
+  },
+  {
+   "line": "o1",
+   "word": "OJK,",
+   "offset": -0.063
+  },
+  {
+   "line": "o1",
+   "word": "ada",
+   "offset": 0.097
+  },
+  {
+   "line": "o1",
+   "word": "rush",
+   "offset": -0.035
+  },
+  {
+   "line": "o1",
+   "word": "di",
+   "offset": -0.05
+  },
+  {
+   "line": "o1",
+   "word": "sini.",
+   "offset": -0.023
+  },
+  {
+   "line": "o1",
+   "word": "Pilih",
+   "offset": -0.125
+  },
+  {
+   "line": "o1",
+   "word": "platform",
+   "offset": -0.017
+  },
+  {
+   "line": "o1",
+   "word": "berizin",
+   "offset": -0.053
+  },
+  {
+   "line": "o1",
+   "word": "OJK.",
+   "offset": -0.033
+  },
+  {
+   "line": "c1",
+   "word": "Kamu",
+   "offset": 0.087
+  },
+  {
+   "line": "c1",
+   "word": "simpan",
+   "offset": -0.003
+  },
+  {
+   "line": "c1",
+   "word": "kripto",
+   "offset": -0.063
+  },
+  {
+   "line": "c1",
+   "word": "di",
+   "offset": -0.036
+  },
+  {
+   "line": "c1",
+   "word": "mana?",
+   "offset": -0.039
+  },
+  {
+   "line": "c1",
+   "word": "Kenapa",
+   "offset": -0.125
+  },
+  {
+   "line": "c1",
+   "word": "di",
+   "offset": -0.026
+  },
+  {
+   "line": "c1",
+   "word": "situ?",
+   "offset": -0.013
+  },
+  {
+   "line": "c1",
+   "word": "Komen.",
+   "offset": -0.135
+  }
+ ]
+}

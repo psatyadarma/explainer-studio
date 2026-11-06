@@ -1,0 +1,1072 @@
+{
+ "duration": 85.345,
+ "voice": "Pratama",
+ "variant": "b",
+ "hook_style": "question_reveal",
+ "lines": [
+  {
+   "id": "hb1",
+   "text": "Peretas Binance menyusup sejak kapan? Coba tebak.",
+   "start": 0.159,
+   "end": 3.026,
+   "words": [
+    {
+     "w": "Peretas",
+     "start": 0.159,
+     "end": 0.409
+    },
+    {
+     "w": "Binance",
+     "start": 0.489,
+     "end": 0.969
+    },
+    {
+     "w": "menyusup",
+     "start": 1.017,
+     "end": 1.449
+    },
+    {
+     "w": "sejak",
+     "start": 1.502,
+     "end": 1.689
+    },
+    {
+     "w": "kapan?",
+     "start": 1.729,
+     "end": 2.249
+    },
+    {
+     "w": "Coba",
+     "start": 2.356,
+     "end": 2.629
+    },
+    {
+     "w": "tebak.",
+     "start": 2.682,
+     "end": 3.026
+    }
+   ]
+  },
+  {
+   "id": "hb2",
+   "text": "Jawabannya bikin kaget. Dan bukan lewat kode.",
+   "start": 3.259,
+   "end": 6.069,
+   "words": [
+    {
+     "w": "Jawabannya",
+     "start": 3.259,
+     "end": 3.619
+    },
+    {
+     "w": "bikin",
+     "start": 3.639,
+     "end": 3.779
+    },
+    {
+     "w": "kaget.",
+     "start": 3.859,
+     "end": 4.419
+    },
+    {
+     "w": "Dan",
+     "start": 4.436,
+     "end": 4.709
+    },
+    {
+     "w": "bukan",
+     "start": 4.762,
+     "end": 5.189
+    },
+    {
+     "w": "lewat",
+     "start": 5.242,
+     "end": 5.509
+    },
+    {
+     "w": "kode.",
+     "start": 5.589,
+     "end": 6.069
+    }
+   ]
+  },
+  {
+   "id": "rd",
+   "text": "Rangkumin dong!",
+   "start": 6.233,
+   "end": 7.192,
+   "words": [
+    {
+     "w": "Rangkumin",
+     "start": 6.233,
+     "end": 6.713
+    },
+    {
+     "w": "dong!",
+     "start": 6.713,
+     "end": 7.192
+    }
+   ]
+  },
+  {
+   "id": "b1",
+   "text": "29 Oktober. Di bursa kripto Binance, kode jahat mulai jalan.",
+   "start": 7.698,
+   "end": 12.013,
+   "words": [
+    {
+     "w": "29",
+     "start": 7.697,
+     "end": 8.583
+    },
+    {
+     "w": "Oktober.",
+     "start": 8.623,
+     "end": 9.012
+    },
+    {
+     "w": "Di",
+     "start": 9.012,
+     "end": 9.223
+    },
+    {
+     "w": "bursa",
+     "start": 9.263,
+     "end": 9.543
+    },
+    {
+     "w": "kripto",
+     "start": 9.583,
+     "end": 9.863
+    },
+    {
+     "w": "Binance,",
+     "start": 9.943,
+     "end": 10.653
+    },
+    {
+     "w": "kode",
+     "start": 10.701,
+     "end": 10.893
+    },
+    {
+     "w": "jahat",
+     "start": 10.933,
+     "end": 11.213
+    },
+    {
+     "w": "mulai",
+     "start": 11.253,
+     "end": 11.453
+    },
+    {
+     "w": "jalan.",
+     "start": 11.533,
+     "end": 12.012
+    }
+   ]
+  },
+  {
+   "id": "b2",
+   "text": "Hampir empat jam kemudian: 6,3 miliar dolar raib. Sekitar Rp115 triliun.",
+   "start": 12.243,
+   "end": 18.599,
+   "words": [
+    {
+     "w": "Hampir",
+     "start": 12.242,
+     "end": 12.418
+    },
+    {
+     "w": "empat",
+     "start": 12.471,
+     "end": 12.658
+    },
+    {
+     "w": "jam",
+     "start": 12.738,
+     "end": 12.978
+    },
+    {
+     "w": "kemudian:",
+     "start": 13.018,
+     "end": 13.538
+    },
+    {
+     "w": "6,3",
+     "start": 13.652,
+     "end": 14.728
+    },
+    {
+     "w": "miliar",
+     "start": 14.848,
+     "end": 15.288
+    },
+    {
+     "w": "dolar",
+     "start": 15.341,
+     "end": 15.608
+    },
+    {
+     "w": "raib.",
+     "start": 15.715,
+     "end": 16.152
+    },
+    {
+     "w": "Sekitar",
+     "start": 16.152,
+     "end": 16.598
+    },
+    {
+     "w": "Rp115",
+     "start": 16.658,
+     "end": 17.478
+    },
+    {
+     "w": "triliun.",
+     "start": 17.585,
+     "end": 18.038
+    }
+   ]
+  },
+  {
+   "id": "b4",
+   "text": "FBI menuding peretas terkait Korea Utara, yang membantah.",
+   "start": 18.883,
+   "end": 22.293,
+   "words": [
+    {
+     "w": "FBI",
+     "start": 18.882,
+     "end": 19.318
+    },
+    {
+     "w": "menuding",
+     "start": 19.358,
+     "end": 19.718
+    },
+    {
+     "w": "peretas",
+     "start": 19.758,
+     "end": 20.118
+    },
+    {
+     "w": "terkait",
+     "start": 20.15,
+     "end": 20.518
+    },
+    {
+     "w": "Korea",
+     "start": 20.558,
+     "end": 20.758
+    },
+    {
+     "w": "Utara,",
+     "start": 20.811,
+     "end": 21.302
+    },
+    {
+     "w": "yang",
+     "start": 21.354,
+     "end": 21.578
+    },
+    {
+     "w": "membantah.",
+     "start": 21.626,
+     "end": 22.292
+    }
+   ]
+  },
+  {
+   "id": "b5",
+   "text": "Hampir separuhnya, sekitar 2,85 miliar dolar, dibekukan. 1 November, penarikan dibuka lagi, bertahap.",
+   "start": 22.55,
+   "end": 29.893,
+   "words": [
+    {
+     "w": "Hampir",
+     "start": 22.549,
+     "end": 22.672
+    },
+    {
+     "w": "separuhnya,",
+     "start": 22.725,
+     "end": 23.472
+    },
+    {
+     "w": "sekitar",
+     "start": 23.525,
+     "end": 23.872
+    },
+    {
+     "w": "2,85",
+     "start": 23.952,
+     "end": 25.112
+    },
+    {
+     "w": "miliar",
+     "start": 25.172,
+     "end": 25.552
+    },
+    {
+     "w": "dolar,",
+     "start": 25.605,
+     "end": 25.952
+    },
+    {
+     "w": "dibekukan.",
+     "start": 26.032,
+     "end": 26.882
+    },
+    {
+     "w": "1",
+     "start": 26.882,
+     "end": 27.472
+    },
+    {
+     "w": "November,",
+     "start": 27.503,
+     "end": 27.932
+    },
+    {
+     "w": "penarikan",
+     "start": 27.972,
+     "end": 28.442
+    },
+    {
+     "w": "dibuka",
+     "start": 28.462,
+     "end": 28.682
+    },
+    {
+     "w": "lagi,",
+     "start": 28.746,
+     "end": 29.082
+    },
+    {
+     "w": "bertahap.",
+     "start": 29.192,
+     "end": 29.892
+    }
+   ]
+  },
+  {
+   "id": "b6",
+   "text": "Cerita kedua, di Singapura: Ledger, dompet kripto offline, dibeli di toko.",
+   "start": 30.071,
+   "end": 34.693,
+   "words": [
+    {
+     "w": "Cerita",
+     "start": 30.07,
+     "end": 30.242
+    },
+    {
+     "w": "kedua,",
+     "start": 30.282,
+     "end": 30.642
+    },
+    {
+     "w": "di",
+     "start": 30.722,
+     "end": 30.882
+    },
+    {
+     "w": "Singapura:",
+     "start": 30.928,
+     "end": 31.522
+    },
+    {
+     "w": "Ledger,",
+     "start": 31.592,
+     "end": 32.372
+    },
+    {
+     "w": "dompet",
+     "start": 32.432,
+     "end": 32.772
+    },
+    {
+     "w": "kripto",
+     "start": 32.812,
+     "end": 33.092
+    },
+    {
+     "w": "offline,",
+     "start": 33.152,
+     "end": 33.732
+    },
+    {
+     "w": "dibeli",
+     "start": 33.772,
+     "end": 34.132
+    },
+    {
+     "w": "di",
+     "start": 34.159,
+     "end": 34.212
+    },
+    {
+     "w": "toko.",
+     "start": 34.292,
+     "end": 34.692
+    }
+   ]
+  },
+  {
+   "id": "b7",
+   "text": "Kata Ledger, unit dari toko tertentu disisipi komponen jahat. Ia membaca 24 kata pemulihan, lalu mengirimnya lewat sinyal seluler.",
+   "start": 34.962,
+   "end": 43.046,
+   "words": [
+    {
+     "w": "Kata",
+     "start": 34.961,
+     "end": 35.025
+    },
+    {
+     "w": "Ledger,",
+     "start": 35.082,
+     "end": 35.665
+    },
+    {
+     "w": "unit",
+     "start": 35.713,
+     "end": 35.905
+    },
+    {
+     "w": "dari",
+     "start": 35.953,
+     "end": 36.145
+    },
+    {
+     "w": "toko",
+     "start": 36.172,
+     "end": 36.305
+    },
+    {
+     "w": "tertentu",
+     "start": 36.353,
+     "end": 37.025
+    },
+    {
+     "w": "disisipi",
+     "start": 37.085,
+     "end": 37.665
+    },
+    {
+     "w": "komponen",
+     "start": 37.725,
+     "end": 38.145
+    },
+    {
+     "w": "jahat.",
+     "start": 38.185,
+     "end": 38.582
+    },
+    {
+     "w": "Ia",
+     "start": 38.582,
+     "end": 38.885
+    },
+    {
+     "w": "membaca",
+     "start": 38.917,
+     "end": 39.365
+    },
+    {
+     "w": "24",
+     "start": 39.405,
+     "end": 39.925
+    },
+    {
+     "w": "kata",
+     "start": 39.989,
+     "end": 40.245
+    },
+    {
+     "w": "pemulihan,",
+     "start": 40.305,
+     "end": 41.125
+    },
+    {
+     "w": "lalu",
+     "start": 41.165,
+     "end": 41.445
+    },
+    {
+     "w": "mengirimnya",
+     "start": 41.477,
+     "end": 41.925
+    },
+    {
+     "w": "lewat",
+     "start": 41.978,
+     "end": 42.165
+    },
+    {
+     "w": "sinyal",
+     "start": 42.205,
+     "end": 42.485
+    },
+    {
+     "w": "seluler.",
+     "start": 42.545,
+     "end": 43.045
+    }
+   ]
+  },
+  {
+   "id": "b8",
+   "text": "Polisi Singapura: dua kasus, rugi sekitar Rp49,5 miliar. Penjual di 7 wilayah Asia, termasuk Indonesia, diminta setop.",
+   "start": 43.326,
+   "end": 52.233,
+   "words": [
+    {
+     "w": "Polisi",
+     "start": 43.325,
+     "end": 43.495
+    },
+    {
+     "w": "Singapura:",
+     "start": 43.541,
+     "end": 44.135
+    },
+    {
+     "w": "dua",
+     "start": 44.242,
+     "end": 44.515
+    },
+    {
+     "w": "kasus,",
+     "start": 44.575,
+     "end": 45.175
+    },
+    {
+     "w": "rugi",
+     "start": 45.255,
+     "end": 45.575
+    },
+    {
+     "w": "sekitar",
+     "start": 45.602,
+     "end": 45.895
+    },
+    {
+     "w": "Rp49,5",
+     "start": 45.975,
+     "end": 47.375
+    },
+    {
+     "w": "miliar.",
+     "start": 47.435,
+     "end": 47.735
+    },
+    {
+     "w": "Penjual",
+     "start": 48.292,
+     "end": 48.865
+    },
+    {
+     "w": "di",
+     "start": 48.892,
+     "end": 48.945
+    },
+    {
+     "w": "7",
+     "start": 48.998,
+     "end": 49.305
+    },
+    {
+     "w": "wilayah",
+     "start": 49.335,
+     "end": 49.585
+    },
+    {
+     "w": "Asia,",
+     "start": 49.665,
+     "end": 50.145
+    },
+    {
+     "w": "termasuk",
+     "start": 50.177,
+     "end": 50.545
+    },
+    {
+     "w": "Indonesia,",
+     "start": 50.601,
+     "end": 51.345
+    },
+    {
+     "w": "diminta",
+     "start": 51.385,
+     "end": 51.745
+    },
+    {
+     "w": "setop.",
+     "start": 51.805,
+     "end": 52.232
+    }
+   ]
+  },
+  {
+   "id": "t1",
+   "text": "Tapi pelaku sudah di dalam sejak Juni.",
+   "start": 52.521,
+   "end": 54.463,
+   "words": [
+    {
+     "w": "Tapi",
+     "start": 52.52,
+     "end": 52.64
+    },
+    {
+     "w": "pelaku",
+     "start": 52.68,
+     "end": 53.04
+    },
+    {
+     "w": "sudah",
+     "start": 53.08,
+     "end": 53.28
+    },
+    {
+     "w": "di",
+     "start": 53.307,
+     "end": 53.36
+    },
+    {
+     "w": "dalam",
+     "start": 53.413,
+     "end": 53.68
+    },
+    {
+     "w": "sejak",
+     "start": 53.733,
+     "end": 54.0
+    },
+    {
+     "w": "Juni.",
+     "start": 54.064,
+     "end": 54.462
+    }
+   ]
+  },
+  {
+   "id": "t2",
+   "text": "Juni: seorang engineer mengunduh Homebrew palsu, alat programmer yang disusupi.",
+   "start": 54.853,
+   "end": 59.371,
+   "words": [
+    {
+     "w": "Juni:",
+     "start": 54.852,
+     "end": 54.97
+    },
+    {
+     "w": "seorang",
+     "start": 55.052,
+     "end": 55.53
+    },
+    {
+     "w": "engineer",
+     "start": 55.583,
+     "end": 56.011
+    },
+    {
+     "w": "mengunduh",
+     "start": 56.074,
+     "end": 56.57
+    },
+    {
+     "w": "Homebrew",
+     "start": 56.634,
+     "end": 57.05
+    },
+    {
+     "w": "palsu,",
+     "start": 57.114,
+     "end": 57.77
+    },
+    {
+     "w": "alat",
+     "start": 57.823,
+     "end": 58.01
+    },
+    {
+     "w": "programmer",
+     "start": 58.054,
+     "end": 58.49
+    },
+    {
+     "w": "yang",
+     "start": 58.538,
+     "end": 58.73
+    },
+    {
+     "w": "disusupi.",
+     "start": 58.77,
+     "end": 59.37
+    }
+   ]
+  },
+  {
+   "id": "t3",
+   "text": "September: engineer lain diajak wawancara kerja palsu. File tesnya berisi malware.",
+   "start": 60.05,
+   "end": 64.681,
+   "words": [
+    {
+     "w": "September:",
+     "start": 60.049,
+     "end": 60.23
+    },
+    {
+     "w": "engineer",
+     "start": 60.301,
+     "end": 60.78
+    },
+    {
+     "w": "lain",
+     "start": 60.844,
+     "end": 61.1
+    },
+    {
+     "w": "diajak",
+     "start": 61.16,
+     "end": 61.5
+    },
+    {
+     "w": "wawancara",
+     "start": 61.54,
+     "end": 61.98
+    },
+    {
+     "w": "kerja",
+     "start": 62.06,
+     "end": 62.38
+    },
+    {
+     "w": "palsu.",
+     "start": 62.46,
+     "end": 62.982
+    },
+    {
+     "w": "File",
+     "start": 62.982,
+     "end": 63.32
+    },
+    {
+     "w": "tesnya",
+     "start": 63.4,
+     "end": 63.72
+    },
+    {
+     "w": "berisi",
+     "start": 63.76,
+     "end": 64.12
+    },
+    {
+     "w": "malware.",
+     "start": 64.18,
+     "end": 64.68
+    }
+   ]
+  },
+  {
+   "id": "t4",
+   "text": "20 Oktober: pelaku menguasai software dua engineer lagi. Sembilan hari kemudian, serangan.",
+   "start": 64.875,
+   "end": 70.555,
+   "words": [
+    {
+     "w": "20",
+     "start": 64.874,
+     "end": 65.394
+    },
+    {
+     "w": "Oktober:",
+     "start": 65.424,
+     "end": 65.714
+    },
+    {
+     "w": "pelaku",
+     "start": 65.802,
+     "end": 66.274
+    },
+    {
+     "w": "menguasai",
+     "start": 66.306,
+     "end": 66.754
+    },
+    {
+     "w": "software",
+     "start": 66.807,
+     "end": 67.234
+    },
+    {
+     "w": "dua",
+     "start": 67.314,
+     "end": 67.554
+    },
+    {
+     "w": "engineer",
+     "start": 67.607,
+     "end": 68.034
+    },
+    {
+     "w": "lagi.",
+     "start": 68.098,
+     "end": 68.434
+    },
+    {
+     "w": "Sembilan",
+     "start": 68.492,
+     "end": 68.934
+    },
+    {
+     "w": "hari",
+     "start": 68.966,
+     "end": 69.094
+    },
+    {
+     "w": "kemudian,",
+     "start": 69.154,
+     "end": 69.734
+    },
+    {
+     "w": "serangan.",
+     "start": 69.842,
+     "end": 70.554
+    }
+   ]
+  },
+  {
+   "id": "p1",
+   "text": "Jadi, berapa yang dimulai dari celah kode blockchain? Nol.",
+   "start": 70.785,
+   "end": 73.775,
+   "words": [
+    {
+     "w": "Jadi,",
+     "start": 70.784,
+     "end": 71.194
+    },
+    {
+     "w": "berapa",
+     "start": 71.254,
+     "end": 71.594
+    },
+    {
+     "w": "yang",
+     "start": 71.61,
+     "end": 71.674
+    },
+    {
+     "w": "dimulai",
+     "start": 71.714,
+     "end": 71.994
+    },
+    {
+     "w": "dari",
+     "start": 72.042,
+     "end": 72.234
+    },
+    {
+     "w": "celah",
+     "start": 72.274,
+     "end": 72.474
+    },
+    {
+     "w": "kode",
+     "start": 72.522,
+     "end": 72.714
+    },
+    {
+     "w": "blockchain?",
+     "start": 72.75,
+     "end": 73.274
+    },
+    {
+     "w": "Nol.",
+     "start": 73.292,
+     "end": 73.774
+    }
+   ]
+  },
+  {
+   "id": "p2",
+   "text": "Satu lewat engineer yang tertipu. Satu lewat barang di toko.",
+   "start": 74.2,
+   "end": 77.475,
+   "words": [
+    {
+     "w": "Satu",
+     "start": 74.199,
+     "end": 74.324
+    },
+    {
+     "w": "lewat",
+     "start": 74.377,
+     "end": 74.564
+    },
+    {
+     "w": "engineer",
+     "start": 74.617,
+     "end": 75.044
+    },
+    {
+     "w": "yang",
+     "start": 75.06,
+     "end": 75.124
+    },
+    {
+     "w": "tertipu.",
+     "start": 75.172,
+     "end": 75.684
+    },
+    {
+     "w": "Satu",
+     "start": 75.762,
+     "end": 76.274
+    },
+    {
+     "w": "lewat",
+     "start": 76.327,
+     "end": 76.594
+    },
+    {
+     "w": "barang",
+     "start": 76.64,
+     "end": 76.914
+    },
+    {
+     "w": "di",
+     "start": 76.941,
+     "end": 76.994
+    },
+    {
+     "w": "toko.",
+     "start": 77.074,
+     "end": 77.474
+    }
+   ]
+  },
+  {
+   "id": "o1",
+   "text": "Kata OJK, nggak ada rush di sini. Pilih platform berizin OJK.",
+   "start": 77.827,
+   "end": 81.475,
+   "words": [
+    {
+     "w": "Kata",
+     "start": 77.826,
+     "end": 77.944
+    },
+    {
+     "w": "OJK,",
+     "start": 78.024,
+     "end": 78.584
+    },
+    {
+     "w": "nggak",
+     "start": 78.664,
+     "end": 78.984
+    },
+    {
+     "w": "ada",
+     "start": 79.004,
+     "end": 79.064
+    },
+    {
+     "w": "rush",
+     "start": 79.112,
+     "end": 79.304
+    },
+    {
+     "w": "di",
+     "start": 79.357,
+     "end": 79.464
+    },
+    {
+     "w": "sini.",
+     "start": 79.504,
+     "end": 79.784
+    },
+    {
+     "w": "Pilih",
+     "start": 79.882,
+     "end": 80.194
+    },
+    {
+     "w": "platform",
+     "start": 80.23,
+     "end": 80.514
+    },
+    {
+     "w": "berizin",
+     "start": 80.554,
+     "end": 80.954
+    },
+    {
+     "w": "OJK.",
+     "start": 80.974,
+     "end": 81.474
+    }
+   ]
+  },
+  {
+   "id": "c1",
+   "text": "Kamu simpan kripto di mana? Kenapa di situ? Komen.",
+   "start": 81.715,
+   "end": 84.515,
+   "words": [
+    {
+     "w": "Kamu",
+     "start": 81.714,
+     "end": 81.824
+    },
+    {
+     "w": "simpan",
+     "start": 81.864,
+     "end": 82.064
+    },
+    {
+     "w": "kripto",
+     "start": 82.104,
+     "end": 82.384
+    },
+    {
+     "w": "di",
+     "start": 82.411,
+     "end": 82.464
+    },
+    {
+     "w": "mana?",
+     "start": 82.528,
+     "end": 82.864
+    },
+    {
+     "w": "Kenapa",
+     "start": 82.962,
+     "end": 83.334
+    },
+    {
+     "w": "di",
+     "start": 83.361,
+     "end": 83.414
+    },
+    {
+     "w": "situ?",
+     "start": 83.494,
+     "end": 83.894
+    },
+    {
+     "w": "Komen.",
+     "start": 83.932,
+     "end": 84.514
+    }
+   ]
+  }
+ ]
+}

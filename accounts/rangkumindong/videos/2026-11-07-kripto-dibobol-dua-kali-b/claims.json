@@ -1,0 +1,123 @@
+[
+ {
+  "lines": "h1, b2, caption",
+  "claim": "About US$6.34 billion in crypto was stolen from Binance in an attack lasting nearly four hours (Binance's initial report via Reuters/Bitcoin Magazine). Converted at ~Rp18.080/US$ (5 Nov close) ≈ Rp115 trillion.",
+  "numbers": "US$6,34 M · hampir 4 jam · ≈Rp115 T (6,34 × 18.082 = 114,6 T)",
+  "sources": [
+   "https://www.itnews.com.au/news/binance-hackers-used-fake-job-interview-in-us63-billion-attack-630092",
+   "https://bitcoinmagazine.com/news/binance-says-$6.34-billion-hack-job",
+   "https://www.chainalysis.com/blog/binance-exploit-latest-findings-and-response/",
+   "https://investasi.kontan.co.id/news/rupiah-ditutup-menguat-ke-rp-18082-per-dolar-as-hari-ini-511-dolar-as-terkoreksi"
+  ]
+ },
+ {
+  "lines": "h2, p1, p2, B hb2",
+  "claim": "Neither attack started from a flaw in blockchain code: Binance's began with tricked engineers (fake Homebrew in June, then a fake job interview in September), Ledger's with tampered devices sold in certain shops. Own synthesis.",
+  "numbers": "0",
+  "sources": [
+   "https://bitcoinmagazine.com/news/binance-says-$6.34-billion-hack-job",
+   "https://www.itnews.com.au/news/binance-hackers-used-fake-job-interview-in-us63-billion-attack-630092",
+   "https://news.bitcoin.com/security/ledger-pulls-wallets-seven-asian-markets-spy-chip-probe/"
+  ]
+ },
+ {
+  "lines": "b1",
+  "claim": "The attack ran on 29 Oct 2026 (US time).",
+  "numbers": "29 Okt",
+  "sources": [
+   "https://www.chainalysis.com/blog/binance-exploit-latest-findings-and-response/",
+   "https://www.abc.net.au/news/2026-11-04/binance-released-details-of-largest-crypto-heist/107345208"
+  ]
+ },
+ {
+  "lines": "b4",
+  "claim": "The FBI attributes the attack to North Korea-affiliated hackers; North Korea denies it. (Chainalysis also links it to TraderTraitor, a North Korean group.)",
+  "numbers": "",
+  "sources": [
+   "https://www.abc.net.au/news/2026-11-04/binance-released-details-of-largest-crypto-heist/107345208",
+   "https://techcrunch.com/2026/11/01/binance-resumes-withdrawals-following-6-3-billion-breach/",
+   "https://www.chainalysis.com/blog/binance-exploit-latest-findings-and-response/"
+  ]
+ },
+ {
+  "lines": "b5",
+  "claim": "Binance: about US$2.85 billion (nearly half) was frozen/intercepted; withdrawals reopened in phases from 1 Nov.",
+  "numbers": "±US$2,85 M (≈45%) · 1 Nov",
+  "sources": [
+   "https://www.itnews.com.au/news/binance-hackers-used-fake-job-interview-in-us63-billion-attack-630092",
+   "https://bitcoinmagazine.com/news/binance-says-$6.34-billion-hack-job",
+   "https://www.chainalysis.com/blog/binance-exploit-latest-findings-and-response/",
+   "https://techcrunch.com/2026/11/01/binance-resumes-withdrawals-following-6-3-billion-breach/"
+  ]
+ },
+ {
+  "lines": "t1, t2, B hb1",
+  "claim": "In June, a Binance platform engineer was tricked into downloading a virus-laden version of Homebrew (a developer tool).",
+  "numbers": "Juni",
+  "sources": [
+   "https://www.itnews.com.au/news/binance-hackers-used-fake-job-interview-in-us63-billion-attack-630092",
+   "https://bitcoinmagazine.com/news/binance-says-$6.34-billion-hack-job",
+   "https://thenationalnews.com/business/money/2026/11/03/binance-says-fake-job-interviews-and-internal-ai-tool-used-in-63bn-heist",
+   "https://www.abc.net.au/news/2026-11-04/binance-released-details-of-largest-crypto-heist/107345208"
+  ]
+ },
+ {
+  "lines": "t3",
+  "claim": "In September, a second engineer was offered an interview by a fictitious company via a job-search platform; the interview test exercise contained malware.",
+  "numbers": "September",
+  "sources": [
+   "https://www.itnews.com.au/news/binance-hackers-used-fake-job-interview-in-us63-billion-attack-630092",
+   "https://bitcoinmagazine.com/news/binance-says-$6.34-billion-hack-job",
+   "https://thenationalnews.com/business/money/2026/11/03/binance-says-fake-job-interviews-and-internal-ai-tool-used-in-63bn-heist",
+   "https://www.abc.net.au/news/2026-11-04/binance-released-details-of-largest-crypto-heist/107345208"
+  ]
+ },
+ {
+  "lines": "t4",
+  "claim": "On 20 Oct the attackers used an internal AI tool to take control of software used by two other engineers; nine days later malicious code started the attack.",
+  "numbers": "20 Okt · 9 hari · 2 engineer",
+  "sources": [
+   "https://www.itnews.com.au/news/binance-hackers-used-fake-job-interview-in-us63-billion-attack-630092",
+   "https://bitcoinmagazine.com/news/binance-says-$6.34-billion-hack-job",
+   "https://thenationalnews.com/business/money/2026/11/03/binance-says-fake-job-interviews-and-internal-ai-tool-used-in-63bn-heist",
+   "https://www.abc.net.au/news/2026-11-04/binance-released-details-of-largest-crypto-heist/107345208"
+  ]
+ },
+ {
+  "lines": "b6, b7",
+  "claim": "In Singapore, Ledger hardware wallets bought from certain retail shops were tampered with (an implant added); per Ledger the implant reads the 24-word recovery phrase and sends it over the mobile (LTE) network.",
+  "numbers": "24 kata",
+  "sources": [
+   "https://www.malaymail.com/news/singapore/2026/10/28/singapore-crypto-users-lose-s35m-after-ledger-wallets-found-with-malicious-hardware/241011",
+   "https://www.bleepingcomputer.com/news/security/ledger-asks-sellers-across-asia-to-halt-sales-after-supply-chain-attack/amp/",
+   "https://decrypt.co/380940/ledger-asks-resellers-in-seven-asian-markets-to-pull-devices-after-suspected-86m-drain",
+   "https://www.cnbcindonesia.com/tech/20261102065338-37-781330/modus-baru-kuras-rekening-menyusup-di-dompet-warga-ri-sasarannya",
+   "https://news.bitcoin.com/security/ledger-pulls-wallets-seven-asian-markets-spy-chip-probe/"
+  ]
+ },
+ {
+  "lines": "b8",
+  "claim": "Singapore police: 2 reported cases, losses S$3.5 million (≈Rp49.5 billion); Ledger asked resellers in 7 Asian markets (ID, SG, TH, PH, VN, MY, HK) to halt sales.",
+  "numbers": "2 kasus · S$3,5 jt ≈ Rp49,5 M · 7 wilayah",
+  "sources": [
+   "https://www.malaymail.com/news/singapore/2026/10/28/singapore-crypto-users-lose-s35m-after-ledger-wallets-found-with-malicious-hardware/241011",
+   "https://www.bleepingcomputer.com/news/security/ledger-asks-sellers-across-asia-to-halt-sales-after-supply-chain-attack/amp/",
+   "https://decrypt.co/380940/ledger-asks-resellers-in-seven-asian-markets-to-pull-devices-after-suspected-86m-drain",
+   "https://cointelegraph.com/news/tampered-ledger-wallets-cost-singapore-users-27m-police"
+  ]
+ },
+ {
+  "lines": "o1",
+  "claim": "OJK (1 Nov) said there was no rush of crypto withdrawals in Indonesia and urged use of licensed, OJK-supervised platforms.",
+  "numbers": "",
+  "sources": [
+   "https://investortrust.id/market/121172/ojk-pastikan-tak-ada-rush-kripto-di-indonesia-usai-binance-diretas-hingga-gangguan-yang-dialami-indodax-dan-tokocrypto"
+  ]
+ },
+ {
+  "lines": "caption",
+  "claim": "This is PART 2 of our Binance story (2 Nov) and a cut of Rangkumin Seminggu #3, chapter 2.",
+  "numbers": "",
+  "sources": []
+ }
+]

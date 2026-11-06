@@ -18,10 +18,11 @@ _One dated line per piece of feedback about topics or angles. The coordinator ap
 - 2026-11-04: Picked #4 (Listyo Sigit, Kepala KSP, tersangka penyadapan, politics, sensitivity high, 10/12) over the recommended #1 (TPPO tentara bayaran Rusia, 11/12) on viral Wednesday, and said "OK to post" early.
 - 2026-11-05: Picked #3 (Listyo Sigit PART 2: rutan + cara kerja LIMS, politics, sensitivity high, 9/12) over the recommended #1 (BPJS gratis desil 8, 11/12) on politics Thursday, and said "OK to post" early. Second day in a row on the Listyo storyline.
 - 2026-11-06: Picked #5 (Listyo PART 3: tersangka ke-4 + Kapolri + KSPSI, politics, sensitivity high, 7/12) over the recommended #1 (Susu Bendera/Ultrajaya, 10/12) on wildcard Friday, and said "OK to post" early. Third day in a row on the Listyo storyline. Asked to make videos more storytelling-style to be more engaging (narrative arc, scenes, characters) instead of fact lists.
+- 2026-11-07: Picked ⭐ #1 (Kripto dibobol dua kali, chapter cut weekly ch 2, 9/12) and said "ok to post" in the same reply (~early morning).
 
 ## What the picks show
 
-_Recomputed by engine/prefs.py from 19 days of offers, 11 picks._
+_Recomputed by engine/prefs.py from 20 days of offers, 12 picks._
 
 - 2026-10-20: picked #3  "Rupiah Rp18.046: besok BI putuskan, tahan 5,75% atau naik ke 6%?", storyline rupiah
 - 2026-10-21: picked #?  "Karhutla: siapa yang tanggung jawab atas asap? (Lutfi vs Singapura)", storyline karhutla
@@ -41,8 +42,9 @@ _Recomputed by engine/prefs.py from 19 days of offers, 11 picks._
 - 2026-11-04: picked #4  "Listyo Sigit jadi tersangka penyadapan: apa kata polisi (dan apa yang belum)", score 10/12, storyline listyo-sigit-penyadapan
 - 2026-11-05: picked #3  "Listyo Sigit PART 2: dari KSP ke rutan Mabes Polri, dan sistem LIMS-nya", score 9/12, storyline listyo-sigit-penyadapan
 - 2026-11-06: picked #?  "Listyo PART 3: tersangka ke-4, Kapolri bicara, KSPSI mencopot Listyo", storyline listyo-sigit-penyadapan
+- 2026-11-07: picked #?  "Kripto dibobol dua kali: Binance + Ledger (chapter cut weekly ch 2)", storyline crypto-hacks
 
-- Picks the recommended idea 2/11 times; average pick rank 2.8.
-- Storylines picked often when offered: definisi-korupsi, listyo-sigit-penyadapan.
+- Picks the recommended idea 2/12 times; average pick rank 2.8.
+- Storylines picked often when offered: definisi-korupsi, crypto-hacks, listyo-sigit-penyadapan.
 - Offered 3+ times, never picked: tax-policy, msci-reclassification, chip-ram-prices, corruption-cases, gibran-ijazah-mk (lower priority unless big news).
-- Sensitivity of picks: {'medium': 1, '?': 10}.
+- Sensitivity of picks: {'medium': 1, '?': 11}.

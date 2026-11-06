@@ -1,0 +1,133 @@
+{
+  "direction": "[storytelling, tense then calm; every claim attributed]",
+  "voice": "male:Pratama",
+  "format": "chapter_cut",
+  "source": "weekly/2026-11-07 ch 2 'Kripto dibobol dua kali' (numbers per daily/2026-11-07/factcheck.md + video factcheck.md)",
+  "hook_style": "shock_number",
+  "subs": "block",
+  "storyline": "crypto-hacks",
+  "part": 2,
+  "hook_b": {
+    "style": "question_reveal",
+    "replace": [
+      "h1",
+      "h2"
+    ],
+    "lines": [
+      {
+        "id": "hb1",
+        "tag": "[curious]",
+        "text": "Peretas Binance menyusup sejak kapan? Coba tebak."
+      },
+      {
+        "id": "hb2",
+        "tag": "[teasing]",
+        "text": "Jawabannya bikin kaget. Dan bukan lewat kode."
+      }
+    ]
+  },
+  "lines": [
+    {
+      "id": "h1",
+      "tag": "[shocked]",
+      "text": "Rp115 triliun kripto dicuri dalam empat jam.",
+      "say": "Seratus lima belas triliun rupiah kripto, dicuri dalam empat jam."
+    },
+    {
+      "id": "h2",
+      "tag": "[leaning in]",
+      "text": "Pintu masuknya bukan kode. Tebak dari mana?"
+    },
+    {
+      "id": "rd",
+      "tagline": true,
+      "text": "Rangkumin dong!"
+    },
+    {
+      "id": "b1",
+      "tag": "[storytelling]",
+      "text": "29 Oktober. Di bursa kripto Binance, kode jahat mulai jalan.",
+      "say": "Dua puluh sembilan Oktober. Di bursa kripto Binance, kode jahat mulai jalan."
+    },
+    {
+      "id": "b2",
+      "tag": "[shocked]",
+      "text": "Hampir empat jam kemudian: 6,3 miliar dolar raib. Sekitar Rp115 triliun.",
+      "say": "Hampir empat jam kemudian: enam koma tiga miliar dolar raib. Sekitar seratus lima belas triliun rupiah."
+    },
+    {
+      "id": "b4",
+      "tag": "[serious]",
+      "text": "FBI menuding peretas terkait Korea Utara, yang membantah.",
+      "say": "Ef Be I menuding peretas terkait Korea Utara, yang membantah."
+    },
+    {
+      "id": "b5",
+      "tag": "[reassuring]",
+      "text": "Hampir separuhnya, sekitar 2,85 miliar dolar, dibekukan. 1 November, penarikan dibuka lagi, bertahap.",
+      "say": "Hampir separuhnya, sekitar dua koma delapan lima miliar dolar, dibekukan. Satu November, penarikan dibuka lagi, bertahap."
+    },
+    {
+      "id": "b6",
+      "tag": "[storytelling]",
+      "text": "Cerita kedua, di Singapura: Ledger, dompet kripto offline, dibeli di toko."
+    },
+    {
+      "id": "b7",
+      "tag": "[explaining]",
+      "text": "Kata Ledger, unit dari toko tertentu disisipi komponen jahat. Ia membaca 24 kata pemulihan, lalu mengirimnya lewat sinyal seluler.",
+      "say": "Kata Ledger, unit dari toko tertentu, disisipi komponen jahat. Ia membaca dua puluh empat kata pemulihan, lalu mengirimnya lewat sinyal seluler."
+    },
+    {
+      "id": "b8",
+      "tag": "[matter-of-fact]",
+      "text": "Polisi Singapura: dua kasus, rugi sekitar Rp49,5 miliar. Penjual di 7 wilayah Asia, termasuk Indonesia, diminta setop.",
+      "say": "Polisi Singapura: dua kasus, rugi sekitar empat puluh sembilan koma lima miliar rupiah. Penjual di tujuh wilayah Asia, termasuk Indonesia, diminta setop."
+    },
+    {
+      "id": "t1",
+      "tag": "[leaning in]",
+      "text": "Tapi pelaku sudah di dalam sejak Juni."
+    },
+    {
+      "id": "t2",
+      "tag": "[storytelling]",
+      "text": "Juni: seorang engineer mengunduh Homebrew palsu, alat programmer yang disusupi.",
+      "say": "Juni: seorang engineer, mengunduh Homebrew palsu, alat programmer yang disusupi."
+    },
+    {
+      "id": "t3",
+      "tag": "[storytelling]",
+      "text": "September: engineer lain diajak wawancara kerja palsu. File tesnya berisi malware."
+    },
+    {
+      "id": "t4",
+      "tag": "[tense]",
+      "text": "20 Oktober: pelaku menguasai software dua engineer lagi. Sembilan hari kemudian, serangan.",
+      "say": "Dua puluh Oktober: pelaku menguasai software dua engineer lagi. Sembilan hari kemudian, serangan."
+    },
+    {
+      "id": "p1",
+      "tag": "[revealing]",
+      "text": "Jadi, berapa yang dimulai dari celah kode blockchain? Nol.",
+      "say": "Jadi, berapa yang dimulai dari celah kode blockchain? Nol."
+    },
+    {
+      "id": "p2",
+      "tag": "[leaning in]",
+      "text": "Satu lewat engineer yang tertipu. Satu lewat barang di toko."
+    },
+    {
+      "id": "o1",
+      "tag": "[reassuring]",
+      "text": "Kata OJK, nggak ada rush di sini. Pilih platform berizin OJK.",
+      "say": "Kata, O Je Ka, nggak ada rush di sini. Pilih platform berizin, O Je Ka."
+    },
+    {
+      "id": "c1",
+      "tag": "[curious]",
+      "text": "Kamu simpan kripto di mana? Kenapa di situ? Komen."
+    }
+  ],
+  "tail": 0.9
+}

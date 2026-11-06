@@ -113,3 +113,8 @@ History moved out of HANDOFF.md (22 Oct) so fresh sessions read less. Append one
 - Sat 7 Nov 07:35: weekly #3 default post denied by the safety check (no live yes); user asked for "OK weekly".
 - 07:36 user "OK weekly" → scheduled 08:00 (job d1a9c31f…).
 - 08:00 weekly #3 live (IG Dfa2COGnI5j, YT mjJIN0HdaXQ); thumbnail to be set by hand in YouTube Studio.
+
+## 7 Nov (Sat, #20 Kripto dibobol dua kali, crypto-hacks PART 2, chapter cut weekly #3 ch 2; Pratama, shock_number / question_reveal, subs block)
+- Sweeps 8/12/7/8, 34 merged, 1 dupe. Light fact-check 3 fixes (#1 Binance figures, #4 DHE only a plan). User picked ⭐ #1 + "ok to post" (~06:00).
+- Hook-critic A = writer's A (11/14), B new (10/14). Full fact-check 5 fixes (Binance's own US$6,34 M ≈Rp115 T, not ABC's 6,6 M; "hampir separuh" frozen; entry = fake Homebrew). Producer resumed after a container restart (reused matching voice/mix); B opening subtitles recoloured. QA PASS both, first round (A 86,9 s, B 85,4 s).
+- A scheduled ~06:40 for 19:00 (job 0c10a65b…); B kept, not posted. Weekly #3 default post 07:40 handled by the 6 Nov chat.

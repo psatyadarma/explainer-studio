@@ -1,0 +1,564 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Kripto dibobol dua kali (PART 2) — Rangkumin Dong</title>
+<link rel="stylesheet" href="../../../../styles/sticker/sticker.css">
+<script src="../../../../styles/sticker/sticker.js"></script>
+<script>window.SUB_MODE = "block"; window.SUB_LEAD = 0.0; window.FRAME_CY = 1000;</script>
+<script src="build/timing.js"></script>
+<style>
+  .zone { position: absolute; width: 1080px; height: 1920px; }
+  .note { font-weight: 700; font-size: 28px; color: var(--slate); white-space: nowrap; text-align: center; }
+  .bub { position: absolute; background: #fff; border-radius: 30px; padding: 20px 30px 24px; text-align: center;
+         font-weight: 900; font-size: 46px; line-height: 1.08; letter-spacing: -1px; box-shadow: 0 0 0 9px #fff, 0 18px 26px rgba(27,36,48,.2); }
+  .bub small { display: block; font-weight: 700; font-size: 26px; color: var(--slate); letter-spacing: 0; margin-top: 6px; }
+  .chip { background: #fff; border-radius: 24px; padding: 14px 26px 18px; font-weight: 900; font-size: 44px; letter-spacing: -1px; white-space: nowrap; text-align: center;
+          box-shadow: 0 0 0 8px #fff, 0 14px 24px rgba(27,36,48,.18); }
+  .chip small { display: block; font-weight: 700; font-size: 26px; color: var(--slate); letter-spacing: 0; margin-top: 2px; }
+  .stampx { font-weight: 900; letter-spacing: -2px; color: var(--accent); border: 10px solid var(--accent); border-radius: 22px; padding: 6px 28px 12px;
+            white-space: nowrap; background: rgba(255,255,255,.94); text-align: center; line-height: 1; }
+  .stampx small { display: block; font-size: .42em; letter-spacing: 0; font-weight: 800; margin-bottom: 4px; }
+  .day { background: var(--ink); color: #fff; font-weight: 900; font-size: 44px; letter-spacing: -1px; padding: 10px 26px 14px; border-radius: 16px; white-space: nowrap; }
+  .day b { color: var(--hi); }
+  .big { font-weight: 900; font-size: 150px; letter-spacing: -6px; line-height: 1; white-space: nowrap; color: var(--accent); text-align: center; }
+  .big small { display: block; font-size: 40px; letter-spacing: -1px; color: var(--ink); margin-top: 6px; }
+  .quote { background: #fff; border-radius: 26px; padding: 18px 30px 22px; font-weight: 900; font-size: 44px; line-height: 1.08; letter-spacing: -1px; width: 760px;
+           white-space: nowrap; text-align: center; box-shadow: 0 0 0 9px #fff, 0 18px 26px rgba(27,36,48,.2); border-left: 14px solid var(--slate); }
+  .quote small { display: block; font-weight: 700; font-size: 26px; color: var(--slate); letter-spacing: 0; margin-top: 4px; }
+  .tile { width: 76px; height: 52px; border-radius: 10px; background: #fff; border: 4px solid var(--ink); font-weight: 900; font-size: 24px;
+          display: flex; align-items: center; justify-content: center; color: var(--slate); }
+  .pin { display: flex; flex-direction: column; align-items: center; }
+  .pin b { font-weight: 900; font-size: 26px; background: #fff; padding: 4px 10px 6px; border-radius: 10px; margin-top: 4px; white-space: nowrap; box-shadow: 0 0 0 4px #fff; }
+  .step { width: 860px; height: 220px; background: #fff; border-radius: 30px; box-shadow: 0 0 0 9px #fff, 0 18px 26px rgba(27,36,48,.2);
+          display: flex; align-items: center; gap: 22px; padding: 0 26px; box-sizing: border-box; }
+  .step .dt { flex: 0 0 150px; height: 150px; border-radius: 22px; background: var(--ink); color: #fff; font-weight: 900; font-size: 46px; line-height: 1;
+              display: flex; flex-direction: column; align-items: center; justify-content: center; letter-spacing: -1px; text-align: center; }
+  .step .dt b { color: var(--hi); font-size: 30px; margin-top: 6px; }
+  .step .ic { flex: 0 0 220px; height: 180px; display: flex; align-items: center; justify-content: center; position: relative; }
+  .step .tx { font-weight: 900; font-size: 40px; line-height: 1.1; letter-spacing: -1px; }
+  .step .tx small { display: block; font-weight: 700; font-size: 26px; color: var(--slate); letter-spacing: 0; margin-top: 6px; }
+  #night { position: absolute; left: 5980px; top: 300px; width: 2560px; height: 1130px; border-radius: 0 0 60px 60px; background: #22314B; opacity: 0; }
+  #night::after { content: ""; position: absolute; inset: 0; background: radial-gradient(circle at 1px 1px, rgba(255,255,255,.10) 1.6px, transparent 0) 0 0 / 36px 36px; }
+  .nightx .headline { color: #fff; }
+  #part { position: absolute; left: 60px; top: 262px; z-index: 5; background: var(--ink); color: #fff; font-weight: 900; font-size: 30px;
+          padding: 6px 16px 9px; border-radius: 12px; letter-spacing: 1px; }
+  #disc { position: absolute; left: 40px; width: 1000px; top: 204px; z-index: 5; background: rgba(255,255,255,.96); color: var(--ink); font-weight: 800; font-size: 23px;
+          line-height: 1.2; padding: 6px 12px 8px; border-radius: 10px; text-align: center; white-space: nowrap; }
+  #strip { position: absolute; left: 230px; top: 264px; z-index: 5; display: flex; gap: 8px; opacity: 0; }
+  #strip i { font-style: normal; font-weight: 900; font-size: 22px; padding: 7px 10px 9px; border-radius: 12px; background: rgba(255,255,255,.96); color: var(--slate);
+            white-space: nowrap; box-shadow: 0 4px 10px rgba(27,36,48,.12); }
+  #strip i.now { background: var(--accent); color: #fff; }
+  #strip i.done { color: var(--ink); }
+  #endcard { position: absolute; inset: 0; z-index: 8; display: flex; flex-direction: column; align-items: center; justify-content: center;
+             gap: 22px; background: var(--paper); opacity: 0; }
+  #endcard .logo { background: var(--accent); color: #fff; font-weight: 900; font-size: 116px; letter-spacing: -4px;
+                   padding: 30px 58px 40px; border-radius: 44px; line-height: .95; text-align: center; transform: rotate(-3deg); }
+  #endcard .tl2 { font-weight: 800; font-size: 54px; color: var(--slate); }
+  #endcard .h { font-weight: 900; font-size: 50px; background: var(--ink); color: #fff; padding: 12px 26px; border-radius: 16px; }
+  #endcard .src { font-weight: 700; font-size: 30px; color: var(--slate); margin-top: 6px; text-align: center; line-height: 1.4; max-width: 920px; }
+  #endcard .p4 { font-weight: 900; font-size: 44px; color: #fff; background: var(--accent); padding: 10px 28px 14px; border-radius: 18px; }
+
+  /* ---------- hook overlays (screen coords) ---------- */
+  .hook { position: absolute; inset: 0; z-index: 4; background: var(--paper); overflow: hidden; }
+  .hook::after { content: ""; position: absolute; inset: 0; pointer-events: none;
+    background: radial-gradient(circle at 1px 1px, rgba(27,36,48,.07) 1.6px, transparent 0) 0 0 / 36px 36px; }
+  .title { font-weight: 900; font-size: 112px; line-height: .98; letter-spacing: -5px; text-align: center; white-space: nowrap; }
+  .title .l2 { display: inline-block; background: var(--ink); color: #fff; padding: 4px 26px 16px; border-radius: 22px; margin-top: 14px; transform: rotate(-2deg); }
+  .title .acc { color: var(--accent); }
+  #hookB { background: #1E2E4A; }
+  #hookB::after { background: radial-gradient(circle at 1px 1px, rgba(255,255,255,.09) 1.6px, transparent 0) 0 0 / 36px 36px; }
+  #hookB .title { color: #fff; }
+  #hookB .title .l2 { background: var(--accent); }
+  #hookB { clip-path: inset(310px 0 0 0); }
+  body.onDark #subs span { color: rgba(255,255,255,.55); }
+  body.onDark #subs span.said { color: #fff; }
+  body.onDark #subs span.on { color: var(--ink); }
+</style>
+</head>
+<body>
+<div id="stage">
+  <div id="world">
+    <div id="night"></div>
+
+    <!-- Z0 (0,0): tagline -->
+    <div class="zone" style="left:0; top:0;">
+      <div id="stamp" class="abs stamp sticker" style="left:500px; top:900px; font-size:110px;">Rangkumin dong!</div>
+    </div>
+
+    <!-- Z1 (1240,0): Binance, b1-b2 -->
+    <div class="zone" style="left:1240px; top:0;">
+      <div id="z1Dy" class="abs day" style="left:500px; top:450px;">29 OKT · <b>waktu AS</b></div>
+      <div id="z1Bl" class="abs sticker-svg" style="left:330px; top:720px;"></div>
+      <div id="z1BlL" class="abs tag sticker" style="left:330px; top:900px; font-size:40px;">bursa kripto Binance</div>
+      <div id="z1Cd" class="abs sticker-svg" style="left:740px; top:700px;"></div>
+      <div id="z1CdL" class="abs tag accent sticker" style="left:740px; top:900px; font-size:36px;">kode jahat jalan</div>
+      <div id="z1Ck" class="abs sticker-svg" style="left:250px; top:1150px;"></div>
+      <div id="z1Num" class="abs big" style="left:640px; top:1110px; font-size:120px;"><span id="z1N">US$0</span><small>miliar dolar raib</small></div>
+      <div id="z1Rp" class="abs chip" style="left:640px; top:1300px; font-size:44px;">≈ <span style="color:var(--accent)">Rp115 triliun</span><small>US$6,34 M per Binance · kurs ±Rp18.080 (5 Nov)</small></div>
+    </div>
+
+    <!-- Z2 (2480,0): FBI / Korea Utara, frozen share, b4-b5 -->
+    <div class="zone" style="left:2480px; top:0;">
+      <div id="z2Hd" class="abs headline" style="left:500px; top:470px; font-size:76px; white-space:nowrap;">siapa pelakunya?</div>
+      <div id="z2Q1" class="abs quote" style="left:500px; top:660px;">FBI: peretas terkait Korea Utara<small>menuding · ABC News, 4/11</small></div>
+      <div id="z2Q2" class="abs quote" style="left:500px; top:830px;">Korea Utara: membantah<small>menurut laporan yang sama</small></div>
+      <div id="z2Pie" class="abs sticker-svg" style="left:250px; top:1060px;"></div>
+      <div id="z2PL" class="abs chip" style="left:660px; top:1000px; font-size:46px;"><span style="color:#2F8FC9">±US$2,85 M</span><small>dibekukan · hampir separuh<br>kata Binance</small></div>
+      <div id="z2Nv" class="abs tag accent sticker" style="left:600px; top:1210px; font-size:36px;">1 Nov: penarikan dibuka bertahap</div>
+    </div>
+
+    <!-- Z3 (3720,0): Ledger in Singapura, b6-b7 -->
+    <div class="zone" style="left:3720px; top:0;">
+      <div id="z3Pin" class="abs pin" style="left:500px; top:470px;"><div id="z3PinI"></div></div>
+      <div id="z3Dy" class="abs day" style="left:500px; top:470px;">CERITA 2 · <b>SINGAPURA</b></div>
+      <div id="z3Sh" class="abs sticker-svg" style="left:330px; top:800px;"></div>
+      <div id="z3Bag" class="abs sticker-svg" style="left:720px; top:820px;"></div>
+      <div id="z3BagL" class="abs tag sticker" style="left:720px; top:1010px; font-size:36px;">dompet kripto offline · Ledger</div>
+      <div id="z3Dev" class="abs sticker-svg" style="left:500px; top:780px;"></div>
+      <div id="z3Kl" class="abs tag sticker" style="left:500px; top:560px; font-size:34px;">kata Ledger · unit dari toko tertentu</div>
+      <div id="z3Ch" class="abs tag accent sticker" style="left:330px; top:1010px; font-size:34px;">komponen jahat</div>
+      <div id="z3Tiles" class="abs" style="left:500px; top:1150px; width:720px; display:flex; flex-wrap:wrap; gap:10px; justify-content:center;"></div>
+      <div id="z3Sig" class="abs sticker-svg" style="left:820px; top:740px;"></div>
+      <div id="z3SigL" class="abs chip" style="left:760px; top:1290px; font-size:34px;">24 kata pemulihan<small>dikirim lewat sinyal seluler</small></div>
+    </div>
+
+    <!-- Z4 (4960,0): Polisi Singapura, b8 -->
+    <div class="zone" style="left:4960px; top:0;">
+      <div id="z4Dy" class="abs day" style="left:500px; top:450px;">POLISI <b>SINGAPURA</b></div>
+      <div id="z4Cs" class="abs chip" style="left:500px; top:600px; font-size:56px;">2 kasus</div>
+      <div id="z4Num" class="abs big" style="left:500px; top:790px; font-size:130px;">Rp49,5 M<small>rugi · S$3,5 juta</small></div>
+      <div id="z4Map" class="abs" style="left:500px; top:1090px; width:880px; height:200px;"></div>
+      <div id="z4Mh" class="abs note" style="left:500px; top:975px; font-size:32px; color:var(--ink); font-weight:900;">penjual di 7 wilayah Asia</div>
+      <div id="z4St" class="abs stampx" style="left:760px; top:1270px; font-size:58px;">setop jual</div>
+    </div>
+
+    <!-- Z5 (6200,0): the turn, t1 -->
+    <div class="zone nightx" style="left:6200px; top:0;">
+      <div id="z5Hd" class="abs headline" style="left:500px; top:520px; font-size:150px;">TAPI…</div>
+      <div id="z5Cal" class="abs sticker-svg" style="left:500px; top:880px;"></div>
+      <div id="z5Tx" class="abs headline" style="left:500px; top:1200px; font-size:76px; white-space:nowrap; line-height:1.05;">pelaku sudah di dalam<br><span style="color:var(--hi)">sejak Juni</span></div>
+    </div>
+
+    <!-- Z6 (7440,0): timeline, t2-t4 -->
+    <div class="zone" style="left:7440px; top:0;">
+      <div id="z6Hd" class="abs tag sticker" style="left:500px; top:440px; font-size:38px;">kronologi · menurut rincian Binance</div>
+      <div id="st1" class="abs step" style="left:500px; top:620px;"><div class="dt">JUN</div><div class="ic" id="st1i"></div>
+        <div class="tx">Homebrew palsu<small>diunduh 1 engineer · alat programmer yang disusupi</small></div></div>
+      <div id="st2" class="abs step" style="left:500px; top:870px;"><div class="dt">SEP</div><div class="ic" id="st2i"></div>
+        <div class="tx">wawancara kerja palsu<small>file tes berisi malware</small></div></div>
+      <div id="st3" class="abs step" style="left:500px; top:1120px;"><div class="dt">20<b>OKT</b></div><div class="ic" id="st3i"></div>
+        <div class="tx">+2 engineer lagi<small>software-nya dikuasai pelaku</small></div></div>
+      <div id="z6Nine" class="abs chip" style="left:500px; top:1320px; font-size:44px;">+9 hari ➜ <span style="color:var(--accent)">29 OKT: serangan</span></div>
+    </div>
+
+    <!-- Z7 (8680,0): payoff, p1-p2 -->
+    <div class="zone" style="left:8680px; top:0;">
+      <div id="z7Hd" class="abs headline" style="left:500px; top:500px; font-size:64px; white-space:nowrap; line-height:1.08;">dimulai dari<br><span class="acc">celah kode blockchain:</span></div>
+      <div id="z7Zero" class="abs big" style="left:500px; top:800px; font-size:300px; letter-spacing:-10px;">0</div>
+      <div id="z7Code" class="abs sticker-svg" style="left:830px; top:760px;"></div>
+      <div id="z7L" class="abs bub" style="left:290px; top:1150px; font-size:40px; width:330px;"><div id="z7Li"></div>engineer tertipu<small>Binance</small></div>
+      <div id="z7R" class="abs bub" style="left:710px; top:1150px; font-size:40px; width:330px;"><div id="z7Ri"></div>barang di toko<small>Ledger</small></div>
+    </div>
+
+    <!-- Z8 (9920,0): OJK, o1 -->
+    <div class="zone" style="left:9920px; top:0;">
+      <div id="z8Sh" class="abs sticker-svg" style="left:500px; top:650px;"></div>
+      <div id="z8Q" class="abs quote" style="left:500px; top:900px; border-left-color:var(--accent);">“nggak ada rush di Indonesia”<small>kata OJK</small></div>
+      <div id="z8Tg" class="abs tag accent sticker" style="left:500px; top:1060px; font-size:44px;">pilih platform berizin OJK</div>
+      <div id="z8Ds" class="abs note" style="left:500px; top:1170px; font-size:30px;">Bukan ajakan jual/beli aset kripto</div>
+    </div>
+
+    <!-- Z9 (11160,0): CTA, c1 -->
+    <div class="zone" style="left:11160px; top:0;">
+      <div id="qHd" class="abs headline" style="left:500px; top:540px; font-size:80px; line-height:1.06; white-space:nowrap;">Kamu simpan<br><span class="acc">kripto di mana?</span></div>
+      <div id="qo1" class="abs bub" style="left:220px; top:860px; font-size:32px; width:250px;"><div id="qo1i"></div>aplikasi bursa</div>
+      <div id="qo2" class="abs bub" style="left:500px; top:860px; font-size:32px; width:250px;"><div id="qo2i"></div>dompet offline</div>
+      <div id="qo3" class="abs bub" style="left:780px; top:860px; font-size:32px; width:250px;"><div id="qo3i"></div>nggak punya</div>
+      <div id="qWhy" class="abs headline" style="left:380px; top:1110px; font-size:64px; white-space:nowrap;">kenapa di situ?</div>
+      <div id="qCom" class="abs sticker-svg" style="left:800px; top:1120px;"></div>
+      <div id="qK" class="abs bub" style="left:800px; top:1110px; font-size:52px; box-shadow:none; background:transparent;">Komen!</div>
+    </div>
+  </div>
+
+  <!-- hook A overlay (shock_number) -->
+  <div id="hookA" class="hook">
+    <div id="aT" class="abs title" style="left:540px; top:440px;"><span class="acc">RP115 T</span> DICURI<br><span class="l2">DALAM 4 JAM</span></div>
+    <div id="aVault" class="abs sticker-svg" style="left:360px; top:900px;"></div>
+    <div id="aCoins"></div>
+    <div id="aClock" class="abs sticker-svg" style="left:780px; top:820px;"></div>
+    <div id="aNum" class="abs chip" style="left:540px; top:1150px; font-size:76px; letter-spacing:-3px;"><span id="aN" style="color:var(--accent)">Rp0</span><small>kripto dicuri, 29 Okt</small></div>
+    <div id="aCode" class="abs sticker-svg" style="left:330px; top:900px;"></div>
+    <div id="aDoor" class="abs sticker-svg" style="left:760px; top:880px;"></div>
+    <div id="aQ" class="abs bub" style="left:540px; top:1170px; font-size:58px;">pintu masuknya bukan kode</div>
+  </div>
+
+  <!-- hook B overlay (question_reveal) -->
+  <div id="hookB" class="hook">
+    <div id="bT" class="abs title" style="left:540px; top:440px;">SEJAK KAPAN<br><span class="l2">MEREKA DI DALAM?</span></div>
+    <div id="bBl" class="abs sticker-svg" style="left:420px; top:920px;"></div>
+    <div id="bHk" class="abs sticker-svg" style="left:700px; top:900px;"></div>
+    <div id="bBlL" class="abs tag sticker" style="left:420px; top:1100px; font-size:36px;">Binance</div>
+    <div id="bCal" class="abs sticker-svg" style="left:800px; top:880px;"></div>
+    <div id="bCode" class="abs sticker-svg" style="left:280px; top:900px;"></div>
+    <div id="bQ" class="abs bub" style="left:540px; top:1190px; font-size:54px;">bukan lewat kode</div>
+  </div>
+
+  <div id="brand"><div class="dot"></div><b>Rangkumin Dong</b></div>
+  <div id="disc">Konten edukasi, bukan ajakan jual/beli aset kripto.</div>
+  <div id="part">PART 2</div>
+  <div id="strip"><i>BINANCE</i><i>LEDGER</i><i>KRONOLOGI</i><i>POLANYA</i></div>
+  <div id="subs"></div>
+  <div id="endcard">
+    <div class="logo">RANGKUMIN<br>DONG</div>
+    <div class="tl2">Berita ribet? Rangkumin dong.</div>
+    <div class="h">@rangkumindong</div>
+    <div class="p4">Follow biar nggak ketinggalan</div>
+    <div class="src">Sumber: laporan awal Binance via Reuters/iTnews, ABC News,<br>Chainalysis, Kontan, Katadata, Malay Mail, CNBC Indonesia · lengkap di komentar</div>
+    <div class="src" style="font-size:28px; margin-top:0; color:var(--ink);">PART 1 di profil · Bukan ajakan jual/beli aset kripto.</div>
+  </div>
+  <div id="progress"></div>
+</div>
+
+<script>
+const $ = (id) => document.getElementById(id);
+const T = window.TIMING;
+window.DURATION = T.duration;
+const at = K.at, W = K.word;
+const VB = T.variant === 'b';
+const END = K.line('c1').end + 0.05;
+
+// ---------- SVG builders (generic stickers; no logos) ----------
+const INK = '#1B2430';
+const personIco = (s = 1, c = '#3E5568') => `<svg width="${56 * s}" height="${56 * s}" viewBox="0 0 60 60"><circle cx="30" cy="22" r="12" fill="${c}"/><path d="M8 58 q0 -24 22 -24 q22 0 22 24 z" fill="${c}"/></svg>`;
+const buildingSVG = (s = 1) => `<svg width="${380 * s}" height="${300 * s}" viewBox="0 0 380 300"><rect x="40" y="60" width="300" height="220" rx="10" fill="#E3E7EB" stroke="${INK}" stroke-width="8"/>
+  <rect x="20" y="40" width="340" height="30" rx="8" fill="#3E5568" stroke="${INK}" stroke-width="7"/>
+  ${[0, 1, 2, 3].map((i) => [0, 1].map((j) => `<rect x="${70 + i * 66}" y="${96 + j * 64}" width="40" height="40" rx="6" fill="#8FD3F0" stroke="${INK}" stroke-width="5"/>`).join('')).join('')}
+  <rect x="160" y="216" width="60" height="64" rx="6" fill="#3E5568" stroke="${INK}" stroke-width="6"/><rect x="10" y="276" width="360" height="16" rx="6" fill="${INK}"/>
+  <circle cx="190" cy="20" r="18" fill="#FFD23F" stroke="${INK}" stroke-width="6"/><path d="M182 20 h16 M190 12 v16" stroke="${INK}" stroke-width="4"/></svg>`;
+const screenSVG = (s = 1) => `<svg width="${300 * s}" height="${260 * s}" viewBox="0 0 300 260"><rect x="10" y="10" width="280" height="190" rx="16" fill="${INK}"/>
+  <clipPath id="scrC"><rect x="26" y="26" width="248" height="158" rx="6"/></clipPath><rect x="26" y="26" width="248" height="158" rx="6" fill="#26344A"/>
+  <g clip-path="url(#scrC)"><g id="codeG">${[...Array(14)].map((_, i) => `<rect x="${40 + (i % 3) * 18}" y="${36 + i * 22}" width="${90 + ((i * 53) % 110)}" height="10" rx="5" fill="${i % 2 ? '#FF5A36' : '#FF8A6E'}"/>`).join('')}</g></g>
+  <rect x="120" y="200" width="60" height="34" fill="#3E5568"/><rect x="80" y="230" width="140" height="18" rx="8" fill="${INK}"/></svg>`;
+const clockSVG = (id, s = 1) => `<svg width="${240 * s}" height="${240 * s}" viewBox="0 0 240 240"><circle cx="120" cy="120" r="100" fill="#fff" stroke="${INK}" stroke-width="10"/>
+  <circle id="${id}R" cx="120" cy="120" r="82" fill="none" stroke="#FF5A36" stroke-width="26" stroke-dasharray="0 600" transform="rotate(-90 120 120)"/>
+  <g id="${id}H"><path d="M120 120 V52" stroke="${INK}" stroke-width="10" stroke-linecap="round"/></g><circle cx="120" cy="120" r="12" fill="${INK}"/>
+  <text x="120" y="182" text-anchor="middle" font-family="Inter,sans-serif" font-weight="900" font-size="25" fill="${INK}" id="${id}T"></text></svg>`;
+const vaultSVG = () => `<svg width="360" height="340" viewBox="0 0 360 340"><rect x="20" y="20" width="320" height="290" rx="26" fill="#9AA8B5" stroke="${INK}" stroke-width="10"/>
+  <rect x="50" y="50" width="260" height="230" rx="18" fill="#C5CED6" stroke="${INK}" stroke-width="7"/>
+  <g id="vWheel" transform="translate(180 165)"><circle r="66" fill="#E3E7EB" stroke="${INK}" stroke-width="8"/>${[0, 60, 120].map((a) => `<rect x="-6" y="-60" width="12" height="120" rx="6" fill="${INK}" transform="rotate(${a})"/>`).join('')}<circle r="18" fill="#FFD23F" stroke="${INK}" stroke-width="6"/></g>
+  <rect x="60" y="306" width="50" height="24" rx="6" fill="${INK}"/><rect x="250" y="306" width="50" height="24" rx="6" fill="${INK}"/></svg>`;
+const coinSVG = () => `<svg width="110" height="110" viewBox="0 0 110 110"><circle cx="55" cy="55" r="46" fill="#FFD23F" stroke="${INK}" stroke-width="8"/>
+  <circle cx="55" cy="55" r="30" fill="none" stroke="#E0A800" stroke-width="6"/><path d="M55 33 L72 55 L55 77 L38 55 Z" fill="#E0A800"/></svg>`;
+const codeSVG = (s = 1) => `<svg width="${230 * s}" height="${190 * s}" viewBox="0 0 230 190"><rect x="10" y="10" width="210" height="170" rx="26" fill="#fff" stroke="${INK}" stroke-width="9"/>
+  <path d="M78 58 L42 95 L78 132 M152 58 L188 95 L152 132 M128 50 L102 140" stroke="${INK}" stroke-width="14" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <g class="xx"><path d="M20 20 L210 170 M210 20 L20 170" stroke="#FF5A36" stroke-width="20" stroke-linecap="round"/></g></svg>`;
+const doorSVG = () => `<svg width="260" height="330" viewBox="0 0 260 330"><rect x="30" y="16" width="200" height="300" rx="14" fill="#3E5568" stroke="${INK}" stroke-width="9"/>
+  <rect x="52" y="38" width="156" height="258" rx="8" fill="#FFD23F" stroke="${INK}" stroke-width="7"/>
+  <text x="130" y="215" text-anchor="middle" font-family="Inter,sans-serif" font-weight="900" font-size="190" fill="#FF5A36" stroke="${INK}" stroke-width="5">?</text>
+  <circle cx="186" cy="176" r="10" fill="${INK}"/></svg>`;
+const hackerSVG = () => `<svg width="240" height="300" viewBox="0 0 240 300"><path d="M30 300 Q30 170 120 160 Q210 170 210 300 Z" fill="#0E1626" stroke="#0E1626" stroke-width="6"/>
+  <path d="M50 150 Q50 40 120 34 Q190 40 190 150 Q170 190 120 192 Q70 190 50 150 Z" fill="#0E1626"/>
+  <path d="M78 132 Q78 80 120 78 Q162 80 162 132 Q150 162 120 164 Q90 162 78 132 Z" fill="#26344A"/>
+  <circle cx="102" cy="122" r="9" fill="#FF5A36"/><circle cx="138" cy="122" r="9" fill="#FF5A36"/></svg>`;
+const calSVG = (id, s = 1) => `<svg width="${300 * s}" height="${300 * s}" viewBox="0 0 300 300"><rect x="20" y="40" width="260" height="240" rx="24" fill="#fff" stroke="${INK}" stroke-width="10"/>
+  <path d="M20 64 Q20 40 44 40 H256 Q280 40 280 64 V110 H20 Z" fill="#FF5A36" stroke="${INK}" stroke-width="10" stroke-linejoin="round"/>
+  <rect x="80" y="18" width="18" height="50" rx="9" fill="${INK}"/><rect x="202" y="18" width="18" height="50" rx="9" fill="${INK}"/>
+  <text id="${id}" x="150" y="226" text-anchor="middle" font-family="Inter,sans-serif" font-weight="900" font-size="96" letter-spacing="-4" fill="${INK}">?</text></svg>`;
+const pieSVG = () => `<svg width="300" height="300" viewBox="0 0 300 300"><circle cx="150" cy="150" r="126" fill="#FF5A36" stroke="${INK}" stroke-width="10"/>
+  <circle id="pieF" cx="150" cy="150" r="63" fill="none" stroke="#8FD3F0" stroke-width="126" stroke-dasharray="0 400" transform="rotate(-90 150 150)"/>
+  <circle cx="150" cy="150" r="126" fill="none" stroke="${INK}" stroke-width="10"/>
+  <g id="pieIce" opacity="0"><path d="M95 120 l14 14 m0 -14 l-14 14 M102 112 v30 M87 127 h30" stroke="#fff" stroke-width="6" stroke-linecap="round"/></g>
+  <text id="pieT" x="105" y="200" text-anchor="middle" font-family="Inter,sans-serif" font-weight="900" font-size="40" fill="${INK}"></text></svg>`;
+const shelfSVG = () => `<svg width="340" height="320" viewBox="0 0 340 320"><rect x="20" y="20" width="300" height="290" rx="14" fill="#C9A77C" stroke="${INK}" stroke-width="9"/>
+  ${[0, 1, 2].map((r) => `<rect x="20" y="${100 + r * 90}" width="300" height="14" fill="${INK}"/>` + [0, 1, 2, 3].map((c) => `<rect x="${42 + c * 68}" y="${44 + r * 90}" width="52" height="56" rx="6" fill="${['#8FD3F0', '#FFD23F', '#fff', '#FF8A6E'][(r + c) % 4]}" stroke="${INK}" stroke-width="5"/>`).join('')).join('')}
+  <rect x="100" y="0" width="140" height="40" rx="10" fill="#FF5A36" stroke="${INK}" stroke-width="7"/><text x="170" y="29" text-anchor="middle" font-family="Inter,sans-serif" font-weight="900" font-size="24" fill="#fff">TOKO</text></svg>`;
+const walletSVG = (s = 1, glow = '') => `<svg width="${170 * s}" height="${250 * s}" viewBox="0 0 170 250"><rect x="20" y="10" width="130" height="230" rx="22" fill="#2B2F36" stroke="${INK}" stroke-width="8"/>
+  <rect x="38" y="34" width="94" height="66" rx="8" fill="#B9E3F5" stroke="${INK}" stroke-width="5"/><circle cx="85" cy="190" r="22" fill="#9AA8B5" stroke="${INK}" stroke-width="6"/>
+  ${glow ? `<g id="${glow}"><rect x="52" y="120" width="66" height="40" rx="6" fill="#FF5A36" stroke="#FFD23F" stroke-width="5"/><path d="M60 120 v-8 M75 120 v-8 M90 120 v-8 M105 120 v-8 M60 168 v-8 M75 168 v-8 M90 168 v-8 M105 168 v-8" stroke="#FFD23F" stroke-width="5"/></g>` : ''}</svg>`;
+const bagSVG = () => `<svg width="300" height="300" viewBox="0 0 300 300"><path d="M100 90 Q100 30 150 30 Q200 30 200 90" fill="none" stroke="${INK}" stroke-width="12"/>
+  <foreignObject x="85" y="20" width="130" height="190"><div xmlns="http://www.w3.org/1999/xhtml">${walletSVG(0.72)}</div></foreignObject>
+  <path d="M40 120 H260 L240 286 H60 Z" fill="#FFD23F" stroke="${INK}" stroke-width="10" stroke-linejoin="round"/><path d="M110 170 q40 30 80 0" stroke="${INK}" stroke-width="8" fill="none" stroke-linecap="round"/></svg>`;
+const signalSVG = () => `<svg width="200" height="200" viewBox="0 0 200 200">${[0, 1, 2, 3].map((i) => `<rect class="sb" x="${24 + i * 42}" y="${160 - i * 36}" width="30" height="${30 + i * 36}" rx="7" fill="#3E5568" stroke="${INK}" stroke-width="6"/>`).join('')}</svg>`;
+const pinSVG = (c = '#FF5A36', s = 1) => `<svg width="${70 * s}" height="${90 * s}" viewBox="0 0 70 90"><path d="M35 86 Q6 52 6 32 A29 29 0 0 1 64 32 Q64 52 35 86 Z" fill="${c}" stroke="${INK}" stroke-width="6"/><circle cx="35" cy="32" r="11" fill="#fff"/></svg>`;
+const laptopSVG = (bug = true) => `<svg width="210" height="170" viewBox="0 0 210 170"><rect x="34" y="14" width="142" height="100" rx="10" fill="${INK}"/><rect x="46" y="26" width="118" height="76" rx="4" fill="#8FD3F0"/>
+  <path d="M10 124 H200 L186 150 H24 Z" fill="#9AA8B5" stroke="${INK}" stroke-width="6" stroke-linejoin="round"/>
+  <rect x="64" y="40" width="64" height="48" rx="6" fill="#FFD23F" stroke="${INK}" stroke-width="5"/><text x="96" y="70" text-anchor="middle" font-family="Inter,sans-serif" font-weight="900" font-size="15" fill="${INK}">Homebrew</text>
+  ${bug ? `<g transform="translate(150 70)"><ellipse rx="22" ry="26" fill="#FF5A36" stroke="${INK}" stroke-width="5"/><path d="M-22 -8 h-14 M-22 8 h-14 M22 -8 h14 M22 8 h14 M-8 -26 l-6 -12 M8 -26 l6 -12" stroke="${INK}" stroke-width="5" stroke-linecap="round"/><path d="M0 -24 V24" stroke="${INK}" stroke-width="4"/></g>` : ''}</svg>`;
+const callSVG = () => `<svg width="210" height="170" viewBox="0 0 210 170"><rect x="8" y="8" width="194" height="150" rx="14" fill="#fff" stroke="${INK}" stroke-width="7"/>
+  <rect x="8" y="8" width="194" height="28" rx="12" fill="#3E5568"/><circle cx="26" cy="22" r="5" fill="#FF5A36"/><circle cx="42" cy="22" r="5" fill="#FFD23F"/>
+  <g transform="translate(70 92)"><circle cy="-18" r="18" fill="#3E5568"/><path d="M-34 40 q0 -30 34 -30 q34 0 34 30 z" fill="#3E5568"/></g>
+  <g transform="translate(152 112)"><path d="M-28 -36 H14 L30 -20 V36 H-28 Z" fill="#FFD23F" stroke="${INK}" stroke-width="5" stroke-linejoin="round"/><text x="0" y="6" text-anchor="middle" font-family="Inter,sans-serif" font-weight="900" font-size="16" fill="${INK}">tes.zip</text>
+  <path d="M-20 22 q6 -8 12 0 q6 8 12 0 q6 -8 12 0" stroke="#FF5A36" stroke-width="6" fill="none" stroke-linecap="round"/></g></svg>`;
+const twoRedSVG = () => `<svg width="210" height="160" viewBox="0 0 210 160">${[0, 1].map((i) => `<g transform="translate(${60 + i * 92} 80)"><circle cy="-22" r="26" fill="#FF5A36" stroke="${INK}" stroke-width="6"/><path d="M-46 64 q0 -46 46 -46 q46 0 46 46 z" fill="#FF5A36" stroke="${INK}" stroke-width="6"/></g>`).join('')}</svg>`;
+const shieldSVG = () => `<svg width="230" height="260" viewBox="0 0 230 260"><path d="M115 14 L206 50 V120 Q206 200 115 246 Q24 200 24 120 V50 Z" fill="#fff" stroke="${INK}" stroke-width="10" stroke-linejoin="round"/>
+  <path d="M115 36 L184 64 V120 Q184 184 115 222 Z" fill="#8FD3F0"/><path d="M70 130 L104 164 L164 98" stroke="#2FA36B" stroke-width="22" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+const phoneSVG = (s = 1) => `<svg width="${100 * s}" height="${150 * s}" viewBox="0 0 100 150"><rect x="10" y="6" width="80" height="138" rx="16" fill="${INK}"/><rect x="18" y="22" width="64" height="100" rx="6" fill="#8FD3F0"/>
+  <path d="M28 100 L44 80 L56 90 L74 60" stroke="#FF5A36" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+const commentSVG = () => `<svg width="300" height="230" viewBox="0 0 260 230"><path d="M20 30 Q20 10 40 10 H220 Q240 10 240 30 V150 Q240 170 220 170 H110 L60 214 L70 170 H40 Q20 170 20 150 Z" fill="#fff" stroke="${INK}" stroke-width="8" stroke-linejoin="round"/></svg>`;
+const noneSVG = () => `<svg width="100" height="100" viewBox="0 0 100 100"><circle cx="50" cy="50" r="40" fill="none" stroke="#3E5568" stroke-width="10"/><path d="M22 78 L78 22" stroke="#3E5568" stroke-width="10" stroke-linecap="round"/></svg>`;
+
+// fill stickers
+$('z1Bl').innerHTML = buildingSVG(0.85); $('z1Cd').innerHTML = screenSVG(1.05); $('z1Ck').innerHTML = clockSVG('ck1', 0.95);
+$('z2Pie').innerHTML = pieSVG();
+$('z3PinI').innerHTML = pinSVG('#FF5A36', 1.3);
+$('z3Sh').innerHTML = shelfSVG(); $('z3Bag').innerHTML = bagSVG(); $('z3Dev').innerHTML = walletSVG(1.5, 'imp'); $('z3Sig').innerHTML = signalSVG();
+$('z3Tiles').innerHTML = [...Array(24)].map((_, i) => `<div class="tile">${i + 1}</div>`).join('');
+{ const pins = [...Array(7)].map((_, i) => `<div class="abs pin" style="left:${70 + i * 123}px; top:${100 + (i % 2 ? -28 : 28)}px;">${pinSVG(i === 6 ? '#FF5A36' : '#9AA8B5', 0.95)}${i === 6 ? '<b>Indonesia</b>' : ''}</div>`).join('');
+  $('z4Map').innerHTML = pins; }
+$('z5Cal').innerHTML = calSVG('calM', 1.15);
+$('st1i').innerHTML = laptopSVG(); $('st2i').innerHTML = callSVG(); $('st3i').innerHTML = twoRedSVG();
+$('z7Code').innerHTML = codeSVG(0.8);
+$('z7Li').innerHTML = personIco(2, '#FF5A36'); $('z7Ri').innerHTML = `<div style="height:112px;display:flex;justify-content:center">${bagSVG().replace('width="300" height="300"', 'width="112" height="112"')}</div>`;
+$('z8Sh').innerHTML = shieldSVG();
+$('qo1i').innerHTML = phoneSVG(0.8); $('qo2i').innerHTML = walletSVG(0.48); $('qo3i').innerHTML = noneSVG();
+$('qCom').innerHTML = commentSVG();
+// hooks
+$('aVault').innerHTML = vaultSVG(); $('aClock').innerHTML = clockSVG('ckA', 1.05); $('aCode').innerHTML = codeSVG(1.1); $('aDoor').innerHTML = doorSVG();
+$('aCoins').innerHTML = [...Array(7)].map((_, i) => `<div class="abs sticker-svg" id="coin${i}" style="left:360px; top:900px;">${coinSVG()}</div>`).join('');
+$('bBl').innerHTML = buildingSVG(1.05); $('bHk').innerHTML = hackerSVG(); $('bCal').innerHTML = calSVG('calB', 0.95); $('bCode').innerHTML = codeSVG(0.9);
+$(VB ? 'hookA' : 'hookB').style.display = 'none';
+
+// ---------- helpers ----------
+let T_ = 0;
+const pulse = (el, tIn, amt = 0.12, rot = 0) => { const k = K.clamp((T_ - tIn) / 0.45); el.style.transform = `translate(-50%,-50%) scale(${1 + amt * Math.sin(Math.PI * k)}) rotate(${rot}deg)`; };
+const slam = (el, t, tIn, rot = 0, from = 2, tOut = Infinity) => { const s = K.spring(t - tIn, 320, 18), o = K.clamp((t - tOut) / 0.25);
+  el.style.opacity = t >= tIn ? 1 - o : 0; el.style.transform = `translate(-50%,-50%) scale(${(from - (from - 1) * s) * (1 - 0.2 * o)}) rotate(${rot}deg)`; };
+const drop = (el, t, tIn, rot = 0, tOut = Infinity) => { const s = K.spring(t - tIn, 280, 18), o = K.clamp((t - tOut) / 0.25);
+  el.style.opacity = t >= tIn ? K.clamp((t - tIn) / 0.1) * (1 - o) : 0; el.style.transform = `translate(-50%,-50%) translateY(${(1 - s) * -160}px) rotate(${rot}deg)`; };
+const fmt = (n, d) => n.toLocaleString('id-ID', { minimumFractionDigits: d, maximumFractionDigits: d });
+const clock = (id, k, label) => { const r = $(id + 'R'), h = $(id + 'H'), c = 2 * Math.PI * 82;
+  if (r) r.setAttribute('stroke-dasharray', `${(c * k).toFixed(1)} 600`); if (h) h.setAttribute('transform', `rotate(${360 * k} 120 120)`); if (label != null) $(id + 'T').textContent = label; };
+const xx = (el, on) => { const g = el.querySelector('.xx'); if (g) g.setAttribute('opacity', on ? 1 : 0); };
+
+function seek(t) {
+  T_ = t;
+  const Z = (x, y, z = 1.0) => ({ x, y: y + 200 / z, z });
+  const zc = (ox, oy, z = 1, dx = -40, dy = 0) => Z(ox + 540 + dx, oy + 960 + dy, z);
+  const rd = at('rd', -0.05);
+  K.camera($('world'), [
+    { t: 0, ...zc(0, 0, 1.1) },
+    { t: at('b1', -0.35), ...zc(1240, 0) },
+    { t: at('b2', 0.2), ...zc(1240, 0, 1.03), dur: 1.2 },
+    { t: at('b4', -0.35), ...zc(2480, 0) },
+    { t: at('b6', -0.35), ...zc(3720, 0) },
+    { t: at('b7', -0.1), ...zc(3720, 0, 1.03), dur: 1.2 },
+    { t: at('b8', -0.35), ...zc(4960, 0) },
+    { t: at('t1', -0.35), ...zc(6200, 0) },
+    { t: at('t2', -0.35), ...zc(7440, 0) },
+    { t: at('t4', -0.1), ...zc(7440, 0, 1.02), dur: 1.2 },
+    { t: at('p1', -0.35), ...zc(8680, 0) },
+    { t: at('o1', -0.35), ...zc(9920, 0) },
+    { t: at('c1', -0.35), ...zc(11160, 0) },
+  ], t, 1080, 1920, 0.6);
+
+  // ---------- hook A: shock number ----------
+  if (!VB) {
+    const gone = K.clamp((t - rd) / 0.3);
+    $('hookA').style.opacity = 1 - gone;
+    $('hookA').style.display = t > rd + 0.5 ? 'none' : '';
+    $('hookA').style.transform = `translateY(${-200 * K.easeInOut(gone)}px)`;
+    // title card on from frame 0, small shake
+    const th = 1 + 0.04 * Math.exp(-5 * t) * Math.sin(t * 16);
+    $('aT').style.transform = `translate(-50%,-50%) scale(${th})`;
+    const tC = W('h1', 'dicuri') - 0.05, tE = W('h1', 'empat') - 0.05, t2 = at('h2', -0.1);
+    // vault from frame 0, wheel spins; coins fly out from "dicuri"
+    K.pop($('aVault'), t, -0.3, t2, -3);
+    const wh = $('vWheel'); if (wh) wh.setAttribute('transform', `translate(180 165) rotate(${t * 140})`);
+    for (let i = 0; i < 7; i++) {
+      const el = $('coin' + i), t0 = 0.45 + i * 0.32, k = K.clamp((t - t0) / 1.4);
+      const ang = -2.4 + i * 0.5, dist = 120 + 520 * K.easeOut(k);
+      el.style.opacity = t >= t0 && t < t2 ? 1 - K.clamp((k - 0.8) / 0.2) : 0;
+      el.style.transform = `translate(-50%,-50%) translate(${Math.cos(ang) * dist}px, ${Math.sin(ang) * dist * 0.55 - 220 * Math.sin(Math.PI * k) * 0.4}px) rotate(${i * 50 + t * 300}deg) scale(${0.7 + 0.3 * K.spring(t - t0)})`;
+    }
+    // counter 0 -> Rp115 T, from the first word
+    const tN = at('h1', 0);
+    K.pop($('aNum'), t, tN - 0.05, t2, -2);
+    $('aN').textContent = 'Rp' + Math.round(115 * K.easeOut(K.prog(t, tN, 1.3))) + ' triliun';
+    if (t > tC) pulse($('aNum'), tC, 0.1, -2);
+    // clock sweeps to 4 hours on "empat jam"
+    K.pop($('aClock'), t, tE - 0.35, t2, 4);
+    clock('ckA', 0.98 * K.easeInOut(K.prog(t, tE - 0.1, 1.1)), Math.min(4, Math.floor(4 * K.prog(t, tE - 0.1, 1.1)) + (t > tE - 0.1 ? 0 : 0)) + ' jam');
+    // h2: </> crossed out, door with "?"
+    K.pop($('aCode'), t, t2, rd, -4); xx($('aCode'), t >= W('h2', 'bukan') - 0.05);
+    if (t > W('h2', 'bukan') - 0.05) pulse($('aCode'), W('h2', 'bukan') - 0.05, 0.12, -4);
+    K.pop($('aDoor'), t, W('h2', 'tebak') - 0.15, rd, 5 + 3 * Math.sin(t * 6));
+    K.pop($('aQ'), t, t2 + 0.05, rd, -1);
+  }
+
+  // ---------- hook B: question reveal ----------
+  if (VB) {
+    const gone = K.clamp((t - rd) / 0.3);
+    $('hookB').style.opacity = 1 - gone;
+    $('hookB').style.display = t > rd + 0.5 ? 'none' : '';
+    document.body.classList.toggle('onDark', gone < 0.5);
+    $('hookB').style.transform = `translateY(${-200 * K.easeInOut(gone)}px)`;
+    const th = 1 + 0.04 * Math.exp(-5 * t) * Math.sin(t * 16);
+    $('bT').style.transform = `translate(-50%,-50%) scale(${th})`;
+    const tB = W('hb1', 'binance') - 0.1, tM = W('hb1', 'menyusup') - 0.05, tK = W('hb1', 'kapan') - 0.05, t2 = at('hb2', -0.05);
+    K.pop($('bBl'), t, -0.3, t2, -2);
+    K.pop($('bBlL'), t, tB, t2, 2);
+    // hacker peeks out from behind the building
+    { const k = K.spring(t - tM, 200, 16), vis = t >= tM && t < t2 + 0.25;
+      $('bHk').style.opacity = vis ? 1 - K.clamp((t - t2) / 0.25) : 0;
+      $('bHk').style.transform = `translate(-50%,-50%) translateX(${-180 + 180 * k}px) rotate(${6 * Math.sin(t * 3)}deg)`; }
+    // calendar with "?" flips
+    K.pop($('bCal'), t, tK, rd, 6);
+    if (t > tK) { const f = Math.floor((t - tK) * 6) % 2; $('bCal').style.transform += ` scaleY(${f ? 0.92 : 1})`; }
+    $('calB').textContent = '?';
+    // hb2: </> crossed out
+    K.pop($('bCode'), t, t2, rd, -4); xx($('bCode'), t >= W('hb2', 'bukan') - 0.05);
+    if (t > W('hb2', 'bukan') - 0.05) pulse($('bCode'), W('hb2', 'bukan') - 0.05, 0.12, -4);
+    K.pop($('bQ'), t, W('hb2', 'bukan') - 0.1, rd, -1);
+    K.pop($('bCal'), t, tK, rd, 6);
+  }
+
+  // ---------- tagline ----------
+  K.pop($('stamp'), t, at('rd', -0.1), at('b1', -0.2), -6);
+
+  // ---------- story strip ----------
+  { const parts = [at('b1', -0.3), at('b6', -0.3), at('t2', -0.3), at('p1', -0.3)];
+    const cur = parts.reduce((k, d, i) => (t >= d ? i : k), -1);
+    $('strip').style.opacity = K.clamp((t - parts[0]) / 0.3) * (1 - K.clamp((t - at('o1', -0.3)) / 0.3));
+    [...$('strip').children].forEach((e, i) => { e.className = i === cur ? 'now' : i < cur ? 'done' : ''; }); }
+
+  // ---------- Z1: Binance ----------
+  { const tB = W('b1', 'binance') - 0.1, tK = W('b1', 'kode') - 0.05, t2 = at('b2', -0.05), tR = W('b2', 'raib') - 0.05, tS = W('b2', 'sekitar') - 0.05;
+    K.pop($('z1Dy'), t, at('b1', -0.05), Infinity, -2);
+    if (t > W('b1', '29') - 0.05) pulse($('z1Dy'), W('b1', '29') - 0.05, 0.1, -2);
+    K.pop($('z1Bl'), t, tB, Infinity, -1);
+    K.pop($('z1BlL'), t, tB + 0.15, Infinity, 2);
+    K.pop($('z1Cd'), t, tK, Infinity, 3);
+    const cg = $('codeG'); if (cg) cg.setAttribute('transform', `translate(0 ${-((Math.max(0, t - tK) * 60) % 154)})`);
+    K.pop($('z1CdL'), t, W('b1', 'jalan') - 0.1, Infinity, -2);
+    K.pop($('z1Ck'), t, t2, Infinity, -3);
+    clock('ck1', 0.95 * K.easeInOut(K.prog(t, t2 + 0.2, 1.6)), 'hampir 4 jam');
+    K.pop($('z1Num'), t, W('b2', '63') - 0.3, Infinity, 0);
+    $('z1N').textContent = 'US$' + fmt(6.3 * K.easeOut(K.prog(t, W('b2', '63') - 0.3, 0.9)), 1);
+    if (t > tR) pulse($('z1Num'), tR, 0.1, 0);
+    K.pop($('z1Rp'), t, tS, Infinity, -1);
+    if (t > W('b2', 'rp115') - 0.05) pulse($('z1Rp'), W('b2', 'rp115') - 0.05, 0.08, -1); }
+
+  // ---------- Z2: who, and how much is frozen ----------
+  { const t5 = at('b5', -0.05), tF = W('b5', 'dibekukan') - 0.05, t1 = W('b5', '1') - 0.1;
+    K.pop($('z2Hd'), t, at('b4', -0.05), Infinity, 0);
+    K.pop($('z2Q1'), t, W('b4', 'fbi') - 0.05, Infinity, -1);
+    K.pop($('z2Q2'), t, W('b4', 'membantah') - 0.15, Infinity, 1);
+    K.pop($('z2Pie'), t, t5, Infinity, -2);
+    const pk = 0.45 * K.easeInOut(K.prog(t, W('b5', 'separuhnya') - 0.05, 0.9)), pf = $('pieF');
+    if (pf) pf.setAttribute('stroke-dasharray', `${(2 * Math.PI * 63 * pk).toFixed(1)} 400`);
+    $('pieIce').setAttribute('opacity', t >= tF ? 1 : 0);
+    $('pieT').textContent = t >= W('b5', 'separuhnya') + 0.4 ? '≈45%' : '';
+    K.pop($('z2PL'), t, W('b5', '285') - 0.1, Infinity, 1);
+    if (t > tF) pulse($('z2PL'), tF, 0.08, 1);
+    K.pop($('z2Nv'), t, t1, Infinity, -2);
+    if (t > W('b5', 'bertahap') - 0.05) pulse($('z2Nv'), W('b5', 'bertahap') - 0.05, 0.08, -2); }
+
+  // ---------- Z3: Ledger, Singapura ----------
+  { const t7 = at('b7', -0.05), tS = W('b6', 'singapura') - 0.1, tL = W('b6', 'ledger') - 0.1, tT = W('b6', 'toko') - 0.1,
+          tD = W('b7', 'disisipi') - 0.05, tM = W('b7', 'membaca') - 0.05, tSg = W('b7', 'sinyal') - 0.1;
+    // b6: pin drops, then day chip; shop + bag
+    drop($('z3Pin'), t, at('b6', -0.05), 0, tS + 0.1);
+    K.pop($('z3Dy'), t, tS, Infinity, -2);
+    K.pop($('z3Sh'), t, W('b6', 'dompet') - 0.1, t7, -2);
+    K.pop($('z3Bag'), t, tL, t7, 3 + 2 * Math.sin(t * 2));
+    K.pop($('z3BagL'), t, tL + 0.15, t7, -1);
+    if (t > tT) pulse($('z3Sh'), tT, 0.08, -2);
+    // b7: cut-away device, implant glows, 24 tiles get pulled out, signal bars
+    K.pop($('z3Kl'), t, t7, Infinity, -1);
+    K.pop($('z3Dev'), t, t7 + 0.1, Infinity, -3);
+    { const im = $('imp'); if (im) im.setAttribute('opacity', t >= tD ? 0.55 + 0.45 * Math.abs(Math.sin((t - tD) * 5)) : 0); }
+    K.pop($('z3Ch'), t, W('b7', 'komponen') - 0.05, Infinity, 3);
+    const tiles = $('z3Tiles').children;
+    $('z3Tiles').style.opacity = t >= tM ? 1 : 0;
+    for (let i = 0; i < tiles.length; i++) {
+      const ti = tM + i * 0.05, k = K.spring(t - ti, 300, 18), fly = K.clamp((t - (tSg + i * 0.03)) / 0.6);
+      tiles[i].style.opacity = t >= ti ? 1 - K.clamp((fly - 0.7) / 0.3) : 0;
+      tiles[i].style.transform = `scale(${0.4 + 0.6 * k}) translate(${fly * (300 - (i % 8) * 20)}px, ${-fly * (480 - Math.floor(i / 8) * 60)}px) rotate(${fly * 40}deg)`;
+    }
+    K.pop($('z3Sig'), t, tSg - 0.1, Infinity, 2);
+    document.querySelectorAll('#z3Sig .sb').forEach((b, i) => b.setAttribute('fill', t >= tSg + i * 0.12 ? '#FF5A36' : '#3E5568'));
+    K.pop($('z3SigL'), t, tSg + 0.35, Infinity, -1); }
+
+  // ---------- Z4: Polisi Singapura ----------
+  { const t8 = at('b8', -0.05), tP = W('b8', 'penjual') - 0.05, tI = W('b8', 'indonesia') - 0.1;
+    K.pop($('z4Dy'), t, t8, Infinity, -2);
+    K.pop($('z4Cs'), t, W('b8', 'dua') - 0.1, Infinity, 2);
+    K.pop($('z4Num'), t, W('b8', 'rugi') - 0.05, Infinity, 0);
+    if (t > W('b8', 'rp495') - 0.05) pulse($('z4Num'), W('b8', 'rp495') - 0.05, 0.1, 0);
+    K.pop($('z4Mh'), t, tP, Infinity, 0);
+    $('z4Map').style.opacity = t >= tP ? 1 : 0;
+    const pins = $('z4Map').children, t7 = W('b8', '7') - 0.1;
+    for (let i = 0; i < pins.length; i++) {
+      const ti = i < 6 ? t7 + i * 0.12 : tI;
+      const s = K.spring(t - ti, 280, 18);
+      pins[i].style.opacity = t >= ti ? 1 : 0;
+      pins[i].style.transform = `translate(-50%,-50%) translateY(${(1 - s) * -120}px) scale(${i === 6 && t > tI + 0.3 ? 1 + 0.1 * Math.sin(Math.PI * K.clamp((t - tI - 0.3) / 0.45)) : 1})`;
+    }
+    slam($('z4St'), t, W('b8', 'setop') - 0.1, -4, 1.8); }
+
+  // ---------- Z5: the turn (night) ----------
+  { const t1 = at('t1', -0.15), tJ = W('t1', 'juni') - 0.1;
+    $('night').style.opacity = K.easeInOut(K.prog(t, t1, 0.5)) * (1 - K.easeInOut(K.prog(t, at('t2', -0.4), 0.5)));
+    slam($('z5Hd'), t, at('t1', -0.05), -3, 2);
+    K.pop($('z5Cal'), t, W('t1', 'pelaku') - 0.1, Infinity, -4);
+    // calendar flips Okt -> Jun (going back in time), lands on JUN
+    const months = ['OKT', 'SEP', 'AGU', 'JUL', 'JUN'], k = K.prog(t, W('t1', 'pelaku'), Math.max(0.4, tJ - W('t1', 'pelaku')));
+    $('calM').textContent = months[Math.min(4, Math.floor(k * 5))];
+    if (t > tJ) pulse($('z5Cal'), tJ, 0.14, -4);
+    K.pop($('z5Tx'), t, W('t1', 'sudah') - 0.05, Infinity, 0); }
+
+  // ---------- Z6: timeline ----------
+  { K.pop($('z6Hd'), t, at('t2', -0.1), Infinity, -1);
+    drop($('st1'), t, at('t2', -0.05));
+    if (t > W('t2', 'homebrew') - 0.05) pulse($('st1'), W('t2', 'homebrew') - 0.05, 0.04, 0);
+    drop($('st2'), t, at('t3', -0.05));
+    if (t > W('t3', 'malware') - 0.05) pulse($('st2'), W('t3', 'malware') - 0.05, 0.04, 0);
+    drop($('st3'), t, at('t4', -0.05));
+    if (t > W('t4', 'dua') - 0.05) pulse($('st3'), W('t4', 'dua') - 0.05, 0.04, 0);
+    slam($('z6Nine'), t, W('t4', 'sembilan') - 0.1, -2, 1.6);
+    if (t > W('t4', 'serangan') - 0.05) pulse($('z6Nine'), W('t4', 'serangan') - 0.05, 0.1, -2); }
+
+  // ---------- Z7: payoff ----------
+  { const tN = W('p1', 'nol') - 0.05;
+    K.pop($('z7Hd'), t, W('p1', 'berapa') - 0.05, Infinity, 0);
+    K.pop($('z7Code'), t, W('p1', 'kode') - 0.1, Infinity, 8); xx($('z7Code'), t >= tN);
+    $('z7Zero').style.opacity = t >= W('p1', 'blockchain') ? 1 : 0;
+    if (t < tN) { $('z7Zero').textContent = '?'; $('z7Zero').style.transform = `translate(-50%,-50%) scale(${0.9 + 0.05 * Math.sin(t * 8)})`; $('z7Zero').style.color = 'var(--slate)'; }
+    else { $('z7Zero').textContent = '0'; $('z7Zero').style.color = 'var(--accent)'; slam($('z7Zero'), t, tN, -3, 1.8); }
+    K.pop($('z7L'), t, W('p2', 'satu') - 0.05, Infinity, -3);
+    K.pop($('z7R'), t, W('p2', 'satu', 1) - 0.05, Infinity, 3);
+    if (t > W('p2', 'toko') - 0.05) pulse($('z7R'), W('p2', 'toko') - 0.05, 0.08, 3); }
+
+  // ---------- Z8: OJK ----------
+  { K.pop($('z8Sh'), t, at('o1', -0.05), Infinity, -2 + Math.sin(t * 2));
+    K.pop($('z8Q'), t, W('o1', 'ojk') - 0.05, Infinity, -1);
+    K.pop($('z8Tg'), t, W('o1', 'pilih') - 0.05, Infinity, 1);
+    if (t > W('o1', 'berizin') - 0.05) pulse($('z8Tg'), W('o1', 'berizin') - 0.05, 0.08, 1);
+    K.pop($('z8Ds'), t, W('o1', 'pilih') + 0.2, Infinity, 0); }
+
+  // ---------- CTA ----------
+  { const qOut = END - 0.2;
+    K.pop($('qHd'), t, at('c1', -0.05), qOut, 0);
+    ['qo1', 'qo2', 'qo3'].forEach((id, i) => K.pop($(id), t, W('c1', 'mana') - 0.15 + i * 0.12, qOut, [-3, 1, 3][i]));
+    K.pop($('qWhy'), t, W('c1', 'kenapa') - 0.05, qOut, -2);
+    K.pop($('qCom'), t, W('c1', 'komen') - 0.15, qOut, -4);
+    K.pop($('qK'), t, W('c1', 'komen') - 0.05, qOut, -4); }
+
+  // ---------- disclaimer + PART badge from frame 1 until the end card ----------
+  $('disc').style.opacity = 1 - K.clamp((t - END) / 0.2);
+  $('part').style.opacity = 1 - K.clamp((t - END) / 0.2);
+
+  // ---------- end ----------
+  const en = K.prog(t, END, 0.3);
+  $('endcard').style.opacity = en;
+  $('endcard').querySelector('.logo').style.transform = `rotate(-3deg) scale(${0.6 + 0.4 * K.spring(t - END)})`;
+  K.subtitles($('subs'), t);
+  $('subs').style.visibility = en > 0.5 ? 'hidden' : 'visible';
+  $('progress').style.width = (100 * t / window.DURATION) + '%';
+  return true;
+}
+window.seek = seek; seek(0);
+</script>
+</body>
+</html>
