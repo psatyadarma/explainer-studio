@@ -5,3 +5,6 @@
 - 2026-11-04 · Istana (Mensesneg Prasetyo Hadi): Presiden "prihatin luar biasa", Keppres pemberhentian Listyo dari KSP, Plt Letjen TNI Ariyo Windutomo; motive left to the investigation. Pasal: 258 KUHP (maks 10 th), 332 KUHP (maks 6 th), UU ITE 32(1) (maks 8 th) per detik. Irwasum: individual act, "bukan kebijakan institusi Polri".
 - 2026-11-05 · PART 2 video (user picked #3): what LIMS is, why lawful tapping needs a case first, detention, pasal, Istana response. Live 19:00: IG DfW4ARZFLRA · YT LTQJNPv0Fps. As of Kamis pagi: still no Listyo/lawyer response, no praperadilan found.
 - Open checks / follow-ups: Istana "makar" remark (left out of PART 2; not a charged article); Listyo's lawyer; pretrial (praperadilan) filing; who else was tapped.
+- 2026-11-05 (Kamis) · Polri names a 4th suspect, initial SU, per CNN Indonesia Irjen Slamet Uliandi; not yet detained (belum ditahan). Kapolri says the case is "murni penegakan hukum". KSPSI (Listyo's union post) berhentikan sementara him.
+- 2026-11-06 · PART 3 video (first storytelling-style script, user request 6 Nov; voice Pratama, hook person_collage): 4th suspect SU, Kapolri's "murni penegakan hukum", KSPSI. Live 19:00: IG DfZcwwMknBV · YT MU6pPpz2o0I.
+- Open checks / follow-ups (PART 3): why SU is not detained, SU's status and any response, Listyo/lawyer response, praperadilan.

@@ -1,6 +1,6 @@
 # Handoff: Rangkumin Dong (read this first in every session)
 
-Updated: Fri 6 Nov 2026, 10:20 WITA. Each daily run is a fresh session with no memory of earlier chats. **This file plus the playbook are the memory.** Whenever something here changes, update it, mirror it to the Video project (`claude/rangkumindong-handoff.md`), commit and push.
+Updated: Fri 6 Nov 2026, 19:35 WITA. Each daily run is a fresh session with no memory of earlier chats. **This file plus the playbook are the memory.** Whenever something here changes, update it, mirror it to the Video project (`claude/rangkumindong-handoff.md`), commit and push.
 
 ## Standing rules from the user
 - **Experiments from 23 Oct:** daily opening A/B (B = Instagram Trial Reel, `engine/variant.py` + `engine/post.py --trial`), slot fixed at 19:00 WITA, voice in weekly blocks. The "Rangkumin dong!" tagline stays right after the hook (user 22 Oct: only change it when the data says so). See playbook → Experiments 0.
@@ -42,7 +42,7 @@ Updated: Fri 6 Nov 2026, 10:20 WITA. Each daily run is a fresh session with no m
 - #16 Ledger dibobol dari toko (user picked ⭐ #1 + early "OK to post") live 3 Nov 19:00 (IG https://www.instagram.com/reel/DfRuXu_iPk-/ · YT https://www.youtube.com/watch?v=MwVSIfLGxos); B not posted. W44 recommendation still awaits user OK (asked again 3 Nov).
 - #17 Listyo Sigit tersangka penyadapan (user picked #4, sens high, early "OK to post") live 4 Nov 19:00 (IG https://www.instagram.com/reel/DfUTKP4jxd9/ · YT https://www.youtube.com/watch?v=oK5ep48c3Wg); B not posted. W44 recommendation still awaits user OK.
 - #18 Listyo PART 2: LIMS + rutan + Istana (user picked #3, sens high, early "OK to post") live 5 Nov 19:00 (IG https://www.instagram.com/reel/DfW4ARZFLRA/ · YT https://www.youtube.com/watch?v=LTQJNPv0Fps); B not posted. W44 recommendation still awaits user OK.
-- #19 Listyo PART 3 (user picked #5, sens high, early "OK to post") scheduled 6 Nov 19:00; first **storytelling** script (user 6 Nov: "make the story more in a story telling kind of way") — compare retention vs earlier videos; if it holds, make it the default (playbook → Script & delivery). Weekly #3 ready (7:23), default post Sat 07:40 unless the user says otherwise.
+- #19 Listyo PART 3 (user picked #5, sens high, early "OK to post") live 6 Nov 19:00 (IG https://www.instagram.com/reel/DfZcwwMknBV/ · YT https://www.youtube.com/watch?v=MU6pPpz2o0I); first **storytelling** script (user 6 Nov: "make the story more in a story telling kind of way") — compare retention vs earlier videos; if it holds, make it the default (playbook → Script & delivery). Weekly #3 ready (7:23), default post Sat 07:40 unless the user says otherwise.
 - **Container restarts kill background jobs:** run renders in the foreground (≤9 min per command, 2 chapters in parallel max).
 - Each day: append a 3–5 line block to run-log.md (picks, counts, problems) instead of growing this file.
 

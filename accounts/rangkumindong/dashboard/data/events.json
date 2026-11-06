@@ -1,55 +1,5 @@
 [
 {
-"id": "E0012",
-"date": "2026-10-06",
-"category": "POL",
-"event": "3-day demonstration in front of DPR (6–8 Oct)",
-"key_numbers": "details not verified yet",
-"storyline": "",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0044",
-"date": "2026-10-06",
-"category": "POL",
-"event": "MK rules on the diploma (ijazah) petition against VP Gibran (case 01/PHPU.PRES-XXIV/2026): petition 'tidak dapat diterima' (inadmissible). Court: petitioners lacked legal standing (not 2024 election participants) and filed far past the 3-day deadline; it found no convincing evidence of a foreign diploma equivalent to SMA (2019 letter showed attendance only), but said it cannot annul or disqualify a sitting VP — eligibility assessment belongs to the authorised institution",
-"key_numbers": "12 petitioners incl. Denny Indrayana, Partai Ummat, KIPP; counsel Bambang Widjojanto; read 6 Oct, ended 20:58 WIB; Chief Justice Suhartoyo",
-"storyline": "gibran-ijazah-mk",
-"status": "verified",
-"upcoming": false
-},
-{
-"id": "E0066",
-"date": "2026-10-06",
-"category": "POL",
-"event": "DPR plenary makes the Asset Forfeiture Bill (RUU Perampasan Aset) a DPR initiative bill; Komisi III says it will pass by 15 Dec 2026 at the latest, with DIM discussion with the government starting 10 Nov after recess.",
-"key_numbers": "326 of 576 members attended · 8 factions gave written positions · 62 public hearings (RDPU) + 8 working visits since Sep 2025 · recess 9 Oct–9 Nov · DIM talks from 10 Nov · target passage 15 Dec 2026",
-"storyline": "asset-forfeiture-bill",
-"status": "verified",
-"upcoming": false
-},
-{
-"id": "E0134",
-"date": "2026-10-06",
-"category": "POL",
-"event": "Kejagung names new suspects in the BGN (National Nutrition Agency) electric-motorbike procurement case under the MBG free-meals programme, including TNI Kolonel Budi Utomo as commitment-making official (PPK) and private company executives.",
-"key_numbers": "BPKP preliminary state-loss estimate about Rp10 triliun (still being calculated) · 25,644 units planned, revised to 21,000 · 2,117 realised by Mar 2026 (figures from one source) · five suspects in cluster, three private parties",
-"storyline": "corruption-cases",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0135",
-"date": "2026-10-06",
-"category": "POL",
-"event": "DPR plenary passes the Employment Protection Bill (RUU Perlindungan Ketenagakerjaan) into law by voice vote, following up MK decision 168/PUU-21/2023; Labour Minister Yassierli says it strengthens worker protection while considering business continuity.",
-"key_numbers": "23 chapters · 313 articles · 9th plenary of Masa Persidangan I 2026-2027 · 6 Oct 2026 · no criticism reported in source",
-"storyline": "",
-"status": "partial",
-"upcoming": false
-},
-{
 "id": "E0045",
 "date": "2026-10-07",
 "category": "POL",
@@ -5637,7 +5587,7 @@
 "key_numbers": "deal Rp14.57 T, non-cash (inbreng) · up to 7.88 billion new shares at Rp2,150 exercise price, ~6.78 billion to FFI sellers · sellers: FrieslandCampina 78.09%, Blue Waves 16.91%, Bahtera Wiraniaga 5% · Sabana Prawirawidjaja stake 53.17% -> 32.19% · max dilution 43.11% · EGM postponed from 27 Oct after OJK asked for clarification · mandatory tender offer follows",
 "storyline": "",
 "status": "upcoming",
-"upcoming": true
+"upcoming": false
 },
 {
 "id": "E0288",
