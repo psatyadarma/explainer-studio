@@ -5350,6 +5350,46 @@
 "upcoming": false
 },
 {
+"id": "E0614",
+"date": "2026-11-04",
+"category": "TECH",
+"event": "Binance disclosed that North Korea-linked hackers used a fake job interview and a malware-laced test file to compromise an engineer, after months of preparation, before the 29 October heist. (update of E0539)",
+"key_numbers": "Binance puts theft at about US$6.6 billion (Chainalysis: about US$6.4 billion; earlier reports US$6.3 billion) · attack lasted about 4 hours on 29 Oct · hackers active since June · fake interview in September · further access 20 Oct, 9 days before the attack · Binance says 98% of affected assets replaced from own funds · about one-third frozen (Chainalysis: about US$2.8 billion frozen as of 3 Nov)",
+"storyline": "crypto-hacks",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0615",
+"date": "2026-11-04",
+"category": "TECH",
+"event": "Komdigi said the draft presidential regulation (Perpres) creating the personal data protection (PDP) supervisory body is in its final stage and has been submitted to the President via Setneg.",
+"key_numbers": "UU PDP No. 27/2022 mandated the body; still not established 4 years later · target set for 2026 · body to report to the President through Komdigi (Nezar Patria, 21 Jul)",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0617",
+"date": "2026-11-04",
+"category": "TECH",
+"event": "After Democratic wins in the US midterms on opposition to data centres, AI data-centre and power stocks fell and Goldman Sachs estimated a freeze on a large share of planned US data-centre expansion. (update of E0475)",
+"key_numbers": "Goldman Sachs: about 45% of planned new US data-centre capacity expansion could freeze · 4 Nov: Core Scientific -11.6%, IREN -12.5% · TSMC, Samsung, SK Hynix, Kioxia also fell in Asia · Texas about a quarter of projected US data-centre capacity",
+"storyline": "ai-data-centres",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0620",
+"date": "2026-11-04",
+"category": "TECH",
+"event": "NASA's Swift space telescope re-entered the atmosphere over northern Sumatra and burned up, with no damage reported.",
+"key_numbers": "1,450 kg · launched Nov 2004 for a 2-year mission, ran 22 years · about 7,000 papers · re-entry about 19.39 WIB (Wednesday) at about 22 times the speed of sound · August 2026 reboost attempt by Katalyst failed",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
 "id": "E0405",
 "date": "2026-11-05",
 "category": "POL",
@@ -5580,6 +5620,136 @@
 "upcoming": false
 },
 {
+"id": "E0598",
+"date": "2026-11-05",
+"category": "ECO",
+"event": "BPS reported August 2026 open unemployment fell to 4.75% (7.38 million people) even as layoffs (PHK) rose, with part-time work down and underemployment up.",
+"key_numbers": "TPT 4.75% · unemployed 7.38M (-77,000 yoy) · employed 147.99M (+1.44M) · TPAK 70.33% (from 70.59%) · underemployed 12.844M (+1.244M) · part-time 35.295M (-1.001M) · PHK Jan-Sep 2026 63,789 (headline, unverified)",
+"storyline": "survival-mode",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0602",
+"date": "2026-11-05",
+"category": "POL",
+"event": "Polri's Kapolri Suyudi Ario Seto formed a special team led by Kabareskrim Komjen Asep Safrudin on the presidential wiretapping case; Polri says Listyo Sigit and the other detained suspects are now held at the Mako Brimob detention centre. (update of E0562)",
+"key_numbers": "4 suspects · 13 witnesses examined incl. an ITE expert (per detik headline) · detained at Mako Brimob (earlier reports said Mabes Polri)",
+"storyline": "listyo-sigit-penyadapan",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0603",
+"date": "2026-11-05",
+"category": "POL",
+"event": "Polri says Irjen Slamet Uliandi, the fourth wiretapping suspect, is not detained because he is ill; detik headlines report his alleged role as 'Dewan Pembina MC' and that Ahrie Sonta and Eko Hadi allegedly asked his permission to delete the tapping files. (update of E0575)",
+"key_numbers": "Slamet Uliandi: up to 10 years (detik headline, pasal not verified) · not detained (sick)",
+"storyline": "listyo-sigit-penyadapan",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0604",
+"date": "2026-11-05",
+"category": "POL",
+"event": "Bakom head Syahganda said in a written statement that the alleged wiretapping of President Prabowo 'has led to makar' and urged the public to oppose makar; Antara video headlines say the BIN chief used similar language, and Menko Airlangga said the case could affect the national economy. (update of E0562)",
+"key_numbers": "",
+"storyline": "listyo-sigit-penyadapan",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0605",
+"date": "2026-11-05",
+"category": "POL",
+"event": "Political figures react to the wiretapping case: PKB chair Cak Imin says he was among those tapped and calls it 'kurang ajar', Golkar says illegal tapping of politicians threatens democracy, and Muhammadiyah's chair urges a transparent probe. (update of E0562)",
+"key_numbers": "",
+"storyline": "listyo-sigit-penyadapan",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0608",
+"date": "2026-11-05",
+"category": "POL",
+"event": "Ex-Deputy Minister Silmy's defence argued at the Jakarta Tipikor Court that the prosecutors' indictment is vague and was copied from another defendant's. (update of E0458)",
+"key_numbers": "",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0609",
+"date": "2026-11-05",
+"category": "POL",
+"event": "Government announced part-time PPPK staff will be made full-time from 1 January 2027, and that CPNS selection opens this year, per Mensesneg as reported by Antara.",
+"key_numbers": "Effective 1 Jan 2027 · CPNS selection this year (details not read)",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0610",
+"date": "2026-11-05",
+"category": "POL",
+"event": "Yusril said the government allows Komnas HAM to investigate a shooting in Pidie, Aceh.",
+"key_numbers": "",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0613",
+"date": "2026-11-05",
+"category": "POL",
+"event": "Jakarta governor Pramono denied reports that Jakarta is on 'Siaga 1' after TNI soldiers were deployed; DPR Baleg agreed to make the RUU on the procedure for forming laws a DPR initiative.",
+"key_numbers": "",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0616",
+"date": "2026-11-05",
+"category": "TECH",
+"event": "CNBC Indonesia reported that Ray-Ban Meta and Oakley Meta smart glasses go on sale in Indonesia on 11 November, with a security expert warning they can record people without their knowledge.",
+"key_numbers": "From Rp8 juta · on sale 11 Nov 2026 · models: Ray-Ban Meta Gen 3 (Wayfarer, Aviator, Zena), Oakley Meta (HSTN, Vanguard) · recording signalled only by a small LED",
+"storyline": "",
+"status": "upcoming",
+"upcoming": false
+},
+{
+"id": "E0621",
+"date": "2026-11-05",
+"category": "ENV",
+"event": "PVMBG raised Gunung Bromo to Level II (Waspada) after an eruption sent an ash column about 500 m above the peak, drifting west.",
+"key_numbers": "Eruption 5 Nov 2026 17:11 WIB · ash column ~500 m (about 2,829 m asl) · Level II Waspada · 1 km exclusion radius around crater · max amplitude 23 mm, tremor ~46 s",
+"storyline": "",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0622",
+"date": "2026-11-05",
+"category": "ENV",
+"event": "Of eight crew on the TNI AD Mi-17V5 that crashed while water-bombing karhutla in Tanjung Puting National Park, five survived and were evacuated to Banjarmasin; two bodies were recovered and one was still being searched for. (update of E0557)",
+"key_numbers": "Crash ~11:00 WIB 5 Nov 2026 (took off Kuala Pembuang 09:55) · 8 crew · 5 survivors · 3 dead/missing (Lettu Col Dudi Firmansyah, Capt Nurhafiz Akbar recovered; SSgt Heri Prasetyo still searched)",
+"storyline": "karhutla",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0627",
+"date": "2026-11-05",
+"category": "POL",
+"event": "Former President Jokowi responded to talk in the DPR of impeaching Vice President Gibran, saying he respects legal processes and constitutional rights. (update of E0457)",
+"key_numbers": "MA ruled Gibran's SMA-equivalence suket invalid 30 Oct 2026 · MK ruling 6 Oct 2026 left diploma issue to parliament · Jokowi remarks 5 Nov 2026 after East Jakarta court hearing",
+"storyline": "gibran-ijazah-mk",
+"status": "verified",
+"upcoming": false
+},
+{
 "id": "E0573",
 "date": "2026-11-06",
 "category": "BIZ",
@@ -5587,6 +5757,146 @@
 "key_numbers": "deal Rp14.57 T, non-cash (inbreng) · up to 7.88 billion new shares at Rp2,150 exercise price, ~6.78 billion to FFI sellers · sellers: FrieslandCampina 78.09%, Blue Waves 16.91%, Bahtera Wiraniaga 5% · Sabana Prawirawidjaja stake 53.17% -> 32.19% · max dilution 43.11% · EGM postponed from 27 Oct after OJK asked for clarification · mandatory tender offer follows",
 "storyline": "",
 "status": "upcoming",
+"upcoming": false
+},
+{
+"id": "E0594",
+"date": "2026-11-06",
+"category": "BIZ",
+"event": "The government and Danantara said PT Danantara Sumberdaya Indonesia (DSI) will be the single intermediary for coal, CPO and ferro alloy exports from 1 January 2027, via its NADI data portal, without buying or selling the goods.",
+"key_numbers": "Start 1 Jan 2027 · NADI technical briefing 15 Nov 2026 · account registration opens 15 Dec 2026 · trial with 100 exporters covering ~50% of export value of these commodities · 340 contracts uploaded in test · DSI authorised capital Rp4 trillion (detik headline)",
+"storyline": "dsi-export-single-gate",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0595",
+"date": "2026-11-06",
+"category": "ECO",
+"event": "Coordinating Minister Airlangga Hartarto signalled a fourth revision of the export-proceeds (DHE SDA) rule that would let exporters convert up to 100% of foreign-currency proceeds to rupiah, versus a 50% cap now.",
+"key_numbers": "Conversion cap 50% -> up to 100% · current retention: migas min 30% for 3 months, non-migas 100% for 12 months · conversion fell 37.4% per LNSW · conversion US$23.8bn (Jun-Aug 2025) -> US$14.9bn (Jun-Aug 2026) (articles print 'million', likely billion; unverified) · revision targeted end-Nov 2026 per Harian Jogja",
+"storyline": "rupiah",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0596",
+"date": "2026-11-06",
+"category": "MKT",
+"event": "The IHSG recovered from an intraday drop of about 2% to close up 0.40% at 5,050.43 on Friday 6 November, led by BBRI, BMRI, BBCA, SMMA and ASII. (update of E0566)",
+"key_numbers": "Close 5,050.43 (+20.17 pts, +0.40%) · low 4,925.10 · turnover Rp7.77T, 411.29M lots · financials sector +~2% · session-1 foreign net inflow Rp153.22bn (full-day figure not found) · laggards BRPT, EMAS, MDKA, TPIA, BRMS",
+"storyline": "msci-reclassification",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0597",
+"date": "2026-11-06",
+"category": "MKT",
+"event": "The rupiah closed at Rp18,080 per US dollar on 6 November, and Bank Indonesia said FX reserves rose to US$146.8 billion at end-October. (update of E0524)",
+"key_numbers": "Rupiah Rp18,080 (-0.03% from Rp18,075) · intraday high Rp18,140 · DXY 101.939 (+0.39%) · reserves US$146.8bn (Oct) vs US$146.3bn (Sep) · cover 5.3 months of imports · rupiah ~+0.32% over the week to ~Rp18,089 (Mediakompeten)",
+"storyline": "rupiah",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0599",
+"date": "2026-11-06",
+"category": "MKT",
+"event": "OJK said the pledge of Haji Isam-linked shares (JARR, PGUN) to Bank Mandiri is allowed under banking rules, amid reports the loan funds a Bayan Resources (BYAN) share purchase.",
+"key_numbers": "7,997,556,204 JARR shares pledged (100% of PT Eshan Agro Sentosa's stake), pledge dated 30 Sep 2026 · OJK cap: collateral up to 50% of share market value · loan amount not disclosed · borrower PT Jhonlin Baratama",
+"storyline": "",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0600",
+"date": "2026-11-06",
+"category": "BIZ",
+"event": "Bank Mandiri reported bank-only net profit of Rp46.5 trillion for January-October 2026, up 19.6% year on year, with NPL falling to 0.97%.",
+"key_numbers": "Net profit Rp46.5T (+19.6% yoy) · loans Rp1,635T (+16.5%) · gross NPL 0.97% (1.02% Oct 2025) · coverage 244.5% · cost of credit 0.55% · DPK Rp1,762T (+15.1%) · CASA ratio 71.8%",
+"storyline": "",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0606",
+"date": "2026-11-06",
+"category": "POL",
+"event": "Jokowi said he respects all legal processes and constitutional rights when asked about the talk of impeaching his son VP Gibran, while Antara reports the DPR will wait for the next sitting period to respond to impeachment (pemakzulan) aspirations. (update of E0466)",
+"key_numbers": "MA ruling 30 Oct · MK ruling 6 Oct · DPR recess ends 9 Nov",
+"storyline": "gibran-ijazah-mk",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0611",
+"date": "2026-11-06",
+"category": "POL",
+"event": "President Prabowo agreed that the Blang Padang waqf land in Banda Aceh be returned to the Masjid Raya, following his 4 November meeting with Aceh governor Mualem. (update of E0590)",
+"key_numbers": "",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0618",
+"date": "2026-11-06",
+"category": "TECH",
+"event": "Meta, Google and TikTok sued California's attorney general over AB 1709, which bans autoplay and personalised recommendations for under-16s, while CNBC Indonesia compared it with Indonesia's PP Tunas. (update of E0364)",
+"key_numbers": "Fine up to US$50,000 (about Rp750 juta) per affected child · California law takes effect early 2027 · Indonesia: PP 17/2025 (PP Tunas), Komdigi Permen 9/2026, under-16 social media ban from 28 Mar 2026 · age tiers: under 13, 13-15, 16-17, 18+",
+"storyline": "child-online-protection",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0619",
+"date": "2026-11-06",
+"category": "TECH",
+"event": "CNBC Indonesia published a how-to for checking a household's desil (socioeconomic decile) with NIK on the Kemensos and BPS sites, which decides bansos eligibility.",
+"key_numbers": "10 desil groups · 39 socioeconomic variables · desil 1-5 poor to near-middle class, 6-10 middle to upper · sites: cekbansos.kemensos.go.id, dtsen-form.bps.go.id",
+"storyline": "perlinsos-digital",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0623",
+"date": "2026-11-06",
+"category": "NEWS",
+"event": "ANTARA rated as false a viral post claiming interbank transfers and e-wallet transactions will be taxed from 9 November 2026; the Finance Ministry and DJP say only the SPP-TDLN VAT collection on foreign digital goods and services applies. (update of E0459)",
+"key_numbers": "Claimed start date 9 Nov 2026 · Finance Minister Suahasil Nazara denial 3 Nov 2026 · SPP-TDLN under PMK No. 49/2026 · no change to VAT rate · fintech VAT only on service fees (PMK 69/2022)",
+"storyline": "hoax-tracker",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0624",
+"date": "2026-11-06",
+"category": "NEWS",
+"event": "ANTARA rated as hoax a post saying WHO will directly monitor all MBG free-meal kitchens after poisoning cases; oversight stays with the Health Ministry, BGN and BPOM.",
+"key_numbers": "WHO is 1 of 13 members of the Donor & UN Country Network for Nutrition · BGN release 28 Oct 2026 · 14 feasibility indicators for SPPG kitchen inspections",
+"storyline": "hoax-tracker",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0625",
+"date": "2026-11-06",
+"category": "NEWS",
+"event": "ANTARA rated as hoax a post claiming Malaysia and Brunei fined Indonesia Rp17 trillion over karhutla haze; Foreign Ministry says no protest notes were received.",
+"key_numbers": "Claimed fine Rp17 trillion · Malaysian Deputy PM rejected compensation 16 Sep 2026 · Malaysian FM said diplomatic route 15 Oct 2026 · 2002 ASEAN haze agreement has no automatic fine",
+"storyline": "karhutla",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0626",
+"date": "2026-11-06",
+"category": "NEWS",
+"event": "ANTARA rated as hoax a poster saying KLHK declared Kalimantan orangutans totally extinct due to karhutla, citing ministry data on animals under treatment.",
+"key_numbers": "290 wildlife individuals from fires under treatment as of 8 Oct 2026 (272 by BKSDA in 4 Kalimantan provinces) · 96 Kalimantan orangutans (25 in Central Kalimantan) · 9 orangutans released 29 Oct 2026 in Ketapang · ~3.2 km firebreak in Paring Lahung",
+"storyline": "karhutla",
+"status": "verified",
 "upcoming": false
 },
 {
@@ -5640,6 +5950,16 @@
 "upcoming": true
 },
 {
+"id": "E0612",
+"date": "2026-11-10",
+"category": "POL",
+"event": "Mendagri Tito asked regional governments to speed up registration for Perlinsos Digital ahead of its planned 10 November launch. (update of E0208)",
+"key_numbers": "Launch planned 10 Nov 2026",
+"storyline": "perlinsos-digital",
+"status": "upcoming",
+"upcoming": true
+},
+{
 "id": "E0465",
 "date": "2026-11-11",
 "category": "TECH",
@@ -5670,6 +5990,16 @@
 "upcoming": true
 },
 {
+"id": "E0607",
+"date": "2026-11-12",
+"category": "POL",
+"event": "The next defamation hearing against dr Tifa is scheduled for 12 November with Jokowi's aide and Dumatno as witnesses, after Roy Suryo and dr Tifa each rejected all of Jokowi's testimony at the 5 November hearing. (update of E0576)",
+"key_numbers": "Next hearing 12 Nov 2026 · Jokowi testified 5 Nov",
+"storyline": "jokowi-ijazah-roy-suryo",
+"status": "upcoming",
+"upcoming": true
+},
+{
 "id": "E0040",
 "date": "2026-11-17",
 "category": "ECO",
@@ -5686,6 +6016,16 @@
 "event": "Government is due to finalise 2027 provincial minimum wages (UMP 2027); Menaker Yassierli says internal discussion should finish in November while unions demand 7.5-9.5% rises and hold rallies in 38 provinces through 30 Oct. (update of E0068)",
 "key_numbers": "Union demand 7.5%-9.5% · internal deliberation target: end of November · formula follows new law (Menaker) · rallies 15-30 Oct in 38 provinces",
 "storyline": "ump-2027",
+"status": "upcoming",
+"upcoming": true
+},
+{
+"id": "E0601",
+"date": "2026-11-17",
+"category": "ECO",
+"event": "Bank Indonesia's November RDG on 17-18 Nov is widely expected by economists to raise the BI rate to 6% given rupiah pressure and capital outflows. (update of E0040)",
+"key_numbers": "Expected BI rate 6% · RDG 17-18 Nov 2026 · rupiah ~Rp18,080/USD",
+"storyline": "rupiah",
 "status": "upcoming",
 "upcoming": true
 },

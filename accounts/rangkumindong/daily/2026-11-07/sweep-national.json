@@ -1,0 +1,148 @@
+{
+  "area": "national",
+  "run_date": "2026-11-07",
+  "checked": ["detik terpopuler", "CNN Indonesia nasional", "CNBC Indonesia (search only, homepage redirected, not read)", "ANTARA cek fakta / hoaks", "karhutla storyline (BNPB search)", "Gibran MA suket search", "watch list found: disasters (Bromo, karhutla heli crash), hoaxes, viral incidents"],
+  "events": [
+    {
+      "date": "2026-11-05",
+      "category": "ENV",
+      "event": "PVMBG raised Gunung Bromo to Level II (Waspada) after an eruption sent an ash column about 500 m above the peak, drifting west.",
+      "key_numbers": "Eruption 5 Nov 2026 17:11 WIB · ash column ~500 m (about 2,829 m asl) · Level II Waspada · 1 km exclusion radius around crater · max amplitude 23 mm, tremor ~46 s",
+      "storyline": "",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "TIMES Indonesia", "url": "https://timesindonesia.co.id/read/news/616300/gunung-bromo-erupsi-status-naik-ke-level-ii-dilarang-masuk-radius-1-km-dari-kawah"},
+        {"label": "CNN Indonesia (headline)", "url": "https://www.cnnindonesia.com/nasional"},
+        {"label": "Kumparan", "url": "https://kumparan.com/kumparannews/gunung-bromo-erupsi-semburkan-abu-vulkanik-setinggi-500-meter-28W8oiFTXrR"}
+      ],
+      "why_it_matters": "Bromo is a major tourist site, and visitors and tour operators are now barred from the crater area, with sudden phreatic eruptions possible.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "On CNN Indonesia nasional latest list; reported by several outlets (TIMES, Kumparan, Viva, Harian Jogja, detik video)",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-05",
+      "category": "ENV",
+      "event": "Of eight crew on the TNI AD Mi-17V5 that crashed while water-bombing karhutla in Tanjung Puting National Park, five survived and were evacuated to Banjarmasin; two bodies were recovered and one was still being searched for.",
+      "key_numbers": "Crash ~11:00 WIB 5 Nov 2026 (took off Kuala Pembuang 09:55) · 8 crew · 5 survivors · 3 dead/missing (Lettu Col Dudi Firmansyah, Capt Nurhafiz Akbar recovered; SSgt Heri Prasetyo still searched)",
+      "storyline": "karhutla",
+      "update_of": "E0557",
+      "status": "partial",
+      "sources": [
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261105220239-20-1423923/5-kru-heli-tni-yang-jatuh-saat-padamkan-karhutla-dievakuasi-ke-kalsel"},
+        {"label": "Bisnis.com", "url": "https://kabar24.bisnis.com/read/20261104/15/2018422/kronologi-kecelakaan-helikopter-mi-17-saat-padamkan-karhutla-di-kalteng"}
+      ],
+      "why_it_matters": "It shows how dangerous the firefighting effort is and how severe the fires in Central Kalimantan have become.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "Multiple outlets (CNN Indonesia, Antara, Liputan6, Bisnis, iNews, IDN Times)",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-06",
+      "category": "NEWS",
+      "event": "ANTARA rated as false a viral post claiming interbank transfers and e-wallet transactions will be taxed from 9 November 2026; the Finance Ministry and DJP say only the SPP-TDLN VAT collection on foreign digital goods and services applies.",
+      "key_numbers": "Claimed start date 9 Nov 2026 · Finance Minister Suahasil Nazara denial 3 Nov 2026 · SPP-TDLN under PMK No. 49/2026 · no change to VAT rate · fintech VAT only on service fees (PMK 69/2022)",
+      "storyline": "hoax-tracker",
+      "update_of": "E0459",
+      "status": "verified",
+      "sources": [
+        {"label": "ANTARA", "url": "https://www.antaranews.com/berita/5835635/tidak-benar-transfer-antarbank-otomatis-dikenakan-pajak-mulai-9-november"}
+      ],
+      "why_it_matters": "The rumour touches every bank and e-wallet user, and the date is three days away so the confusion will spread.",
+      "signals": {"spreading": 2, "wallet": 2, "surprise": 2, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "Spread on Threads; ANTARA debunk on its cek-fakta list 6 Nov; origin tied to Hashim Djojohadikusumo's digital tax remarks. No outlet most-read ranking seen.",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-06",
+      "category": "NEWS",
+      "event": "ANTARA rated as hoax a post saying WHO will directly monitor all MBG free-meal kitchens after poisoning cases; oversight stays with the Health Ministry, BGN and BPOM.",
+      "key_numbers": "WHO is 1 of 13 members of the Donor & UN Country Network for Nutrition · BGN release 28 Oct 2026 · 14 feasibility indicators for SPPG kitchen inspections",
+      "storyline": "hoax-tracker",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "ANTARA", "url": "https://www.antaranews.com/berita/5835643/hoaks-who-akan-pantau-langsung-dapur-mbg-akibat-kasus-keracunan"}
+      ],
+      "why_it_matters": "People are hearing MBG food safety is now under an international body when it is not.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 0, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "Facebook post; ANTARA cek-fakta 6 Nov",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-06",
+      "category": "NEWS",
+      "event": "ANTARA rated as hoax a post claiming Malaysia and Brunei fined Indonesia Rp17 trillion over karhutla haze; Foreign Ministry says no protest notes were received.",
+      "key_numbers": "Claimed fine Rp17 trillion · Malaysian Deputy PM rejected compensation 16 Sep 2026 · Malaysian FM said diplomatic route 15 Oct 2026 · 2002 ASEAN haze agreement has no automatic fine",
+      "storyline": "karhutla",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "ANTARA", "url": "https://www.antaranews.com/berita/5835599/hoaks-malaysia-dan-brunei-jatuhkan-denda-rp17-triliun-ke-indonesia-akibat-karhutla"}
+      ],
+      "why_it_matters": "Rumours of huge haze fines on Indonesia are circulating while haze diplomacy is actually calm.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 2, "visual": 2, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "X post; ANTARA cek-fakta 6 Nov",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-06",
+      "category": "NEWS",
+      "event": "ANTARA rated as hoax a poster saying KLHK declared Kalimantan orangutans totally extinct due to karhutla, citing ministry data on animals under treatment.",
+      "key_numbers": "290 wildlife individuals from fires under treatment as of 8 Oct 2026 (272 by BKSDA in 4 Kalimantan provinces) · 96 Kalimantan orangutans (25 in Central Kalimantan) · 9 orangutans released 29 Oct 2026 in Ketapang · ~3.2 km firebreak in Paring Lahung",
+      "storyline": "karhutla",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "ANTARA", "url": "https://www.antaranews.com/berita/5835659/hoaks-klhk-menyatakan-orang-utan-kalimantan-punah-akibat-karhutla"}
+      ],
+      "why_it_matters": "A false extinction claim is emotional and shareable, while the real numbers show rescues are ongoing.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 2, "visual": 2, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "Social media poster; ANTARA cek-fakta 6 Nov",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-05",
+      "category": "POL",
+      "event": "Former President Jokowi responded to talk in the DPR of impeaching Vice President Gibran, saying he respects legal processes and constitutional rights.",
+      "key_numbers": "MA ruled Gibran's SMA-equivalence suket invalid 30 Oct 2026 · MK ruling 6 Oct 2026 left diploma issue to parliament · Jokowi remarks 5 Nov 2026 after East Jakarta court hearing",
+      "storyline": "gibran-ijazah-mk",
+      "update_of": "E0457",
+      "status": "verified",
+      "sources": [
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261106061812-32-1423944/jokowi-respons-wacana-pemakzulan-gibran-sebagai-wapres"},
+        {"label": "ANTARA Bengkulu", "url": "https://bengkulu.antaranews.com/berita/481621/respon-jokowi-terkait-wacana-pemakzulan-wapres-gibran"},
+        {"label": "Kompas.id", "url": "https://www.kompas.id/artikel/beredar-isu-pemakzulan-gibran-bagaimana-respons-jokowi"}
+      ],
+      "why_it_matters": "It is the first public reaction from Jokowi to the impeachment talk after the MA ruling.",
+      "signals": {"spreading": 2, "wallet": 0, "surprise": 1, "visual": 0, "fresh": 2, "rivals": 0},
+      "spreading_evidence": "CNN Indonesia nasional #1 latest; detik terpopuler has related Jokowi/Gibran items (#1, #3)",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-12",
+      "category": "POL",
+      "event": "Jokowi's adjutant and Dumatno are scheduled to testify as witnesses at the East Jakarta District Court in the Roy Suryo and dr Tifa case next week.",
+      "key_numbers": "Hearing 12 Nov 2026 · witnesses: Jokowi's adjutant and Dumatno",
+      "storyline": "jokowi-ijazah-roy-suryo",
+      "update_of": "E0576",
+      "status": "upcoming",
+      "sources": [
+        {"label": "CNN Indonesia (headline)", "url": "https://www.cnnindonesia.com/nasional"},
+        {"label": "detik terpopuler (headline)", "url": "https://www.detik.com/terpopuler"}
+      ],
+      "why_it_matters": "The next hearing continues a case that tops the most-read lists.",
+      "signals": {"spreading": 2, "wallet": 0, "surprise": 1, "visual": 0, "fresh": 2, "rivals": 0},
+      "spreading_evidence": "detik terpopuler #4 and #9; CNN Indonesia nasional several items",
+      "sensitivity": "high"
+    }
+  ],
+  "gaps": [
+    "CNBC Indonesia homepage not read (redirect); no CNBC popular list captured",
+    "Heli crash casualty count conflicts across outlets (2 vs 3 dead); status of SSgt Heri Prasetyo unresolved",
+    "BNPB Papua Selatan hotspot +66% and Kalteng +93% (Kontan/Kompas) not opened, Kompas blocked; E0588 already covers 5 Nov totals",
+    "Other ANTARA hoax headlines seen but not opened: Dasco replacing Gibran as VP, Gibran-Prabowo communication claim, karhutla smoke reaching Australia",
+    "detik most-read also had Paraguay president resignation (GLB, not my area)"
+  ]
+}

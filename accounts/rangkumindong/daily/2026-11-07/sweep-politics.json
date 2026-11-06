@@ -1,0 +1,386 @@
+{
+ "area": "politics",
+ "run_date": "2026-11-07",
+ "checked": [
+  "detik /berita",
+  "CNN Indonesia nasional",
+  "Antara politik",
+  "Tempo politik (blocked: robots_disallowed)",
+  "Antara hukum (not fetched)",
+  "Watch list found: Polri big case, MA/Gibran, DPR bill, ministries, TNI/Satgas",
+  "Storylines searched only via section pages: listyo-sigit-penyadapan, gibran-ijazah-mk, corruption-cases (no per-storyline web search done)"
+ ],
+ "events": [
+  {
+   "date": "2026-11-05",
+   "category": "POL",
+   "event": "Polri's Kapolri Suyudi Ario Seto formed a special team led by Kabareskrim Komjen Asep Safrudin on the presidential wiretapping case; Polri says Listyo Sigit and the other detained suspects are now held at the Mako Brimob detention centre.",
+   "key_numbers": "4 suspects · 13 witnesses examined incl. an ITE expert (per detik headline) · detained at Mako Brimob (earlier reports said Mabes Polri)",
+   "storyline": "listyo-sigit-penyadapan",
+   "update_of": "E0562",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "detikNews (Syahganda/Bakom piece, Karo Penmas quote)",
+     "url": "https://news.detik.com/berita/d-8740454/kepala-bakom-tegaskan-penyadapan-prabowo-persoalan-serius-mengarah-ke-makar"
+    },
+    {
+     "label": "detikNews headline: 13 saksi",
+     "url": "https://news.detik.com/berita/d-8740261/kasus-prabowo-disadap-polri-sudah-periksa-13-saksi-termasuk-ahli-ite"
+    },
+    {
+     "label": "CNN Indonesia: ditahan di Rutan Mako Brimob",
+     "url": "https://www.cnnindonesia.com/nasional/20261105195345-12-1423868/polri-sebut-listyo-dkk-kini-ditahan-di-rutan-mako-brimob"
+    }
+   ],
+   "why_it_matters": "Shows how Polri is handling a case where its own top generals are suspects, and where they are being held.",
+   "signals": {
+    "spreading": 2,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "detik berita front page: ~15 headlines on the case",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-11-05",
+   "category": "POL",
+   "event": "Polri says Irjen Slamet Uliandi, the fourth wiretapping suspect, is not detained because he is ill; detik headlines report his alleged role as 'Dewan Pembina MC' and that Ahrie Sonta and Eko Hadi allegedly asked his permission to delete the tapping files.",
+   "key_numbers": "Slamet Uliandi: up to 10 years (detik headline, pasal not verified) · not detained (sick)",
+   "storyline": "listyo-sigit-penyadapan",
+   "update_of": "E0575",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "CNN Indonesia: Sakit, Slamet Uliandi belum ditahan",
+     "url": "https://www.cnnindonesia.com/nasional/20261105203023-12-1423892/sakit-irjen-slamet-uliandi-tersangka-penyadapan-prabowo-belum-ditahan"
+    },
+    {
+     "label": "detikNews: Ahrie Sonta dan Eko Hadi minta izin hapus file",
+     "url": "https://news.detik.com/berita/d-8740246/ahrie-sonta-dan-eko-hadi-minta-izin-hapus-file-penyadapan-ke-slamet-uliandi"
+    },
+    {
+     "label": "detikNews: peran Slamet Uliandi",
+     "url": "https://news.detik.com/berita/d-8740240/peran-irjen-slamet-uliandi-tersangka-penyadapan-prabowo-dewan-pembina-mc"
+    }
+   ],
+   "why_it_matters": "Answers the open question of why SU is free while the other three are detained; role details are allegations only.",
+   "signals": {
+    "spreading": 2,
+    "wallet": 0,
+    "surprise": 2,
+    "visual": 0,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "detik/CNN: several headlines, 'Komentar Terbanyak' detik",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-11-05",
+   "category": "POL",
+   "event": "Bakom head Syahganda said in a written statement that the alleged wiretapping of President Prabowo 'has led to makar' and urged the public to oppose makar; Antara video headlines say the BIN chief used similar language, and Menko Airlangga said the case could affect the national economy.",
+   "key_numbers": "",
+   "storyline": "listyo-sigit-penyadapan",
+   "update_of": "E0562",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "detikNews",
+     "url": "https://news.detik.com/berita/d-8740454/kepala-bakom-tegaskan-penyadapan-prabowo-persoalan-serius-mengarah-ke-makar"
+    },
+    {
+     "label": "Antara video: Kepala BIN makar (headline only)",
+     "url": "https://www.antaranews.com/video/5836659/kepala-bin-sebut-penyadapan-ilegal-ke-prabowo-mengarah-ke-makar"
+    },
+    {
+     "label": "Antara video: Airlangga (headline only)",
+     "url": "https://www.antaranews.com/video/5837403/menko-airlangga-kasus-sadap-presiden-bisa-berdampak-ke-ekonomi-negara"
+    }
+   ],
+   "why_it_matters": "Officials are framing the case as treason although the named articles are KUHP 258/332 and UU ITE; the gap between rhetoric and charges is the story.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 1,
+    "surprise": 2,
+    "visual": 0,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-11-05",
+   "category": "POL",
+   "event": "Political figures react to the wiretapping case: PKB chair Cak Imin says he was among those tapped and calls it 'kurang ajar', Golkar says illegal tapping of politicians threatens democracy, and Muhammadiyah's chair urges a transparent probe.",
+   "key_numbers": "",
+   "storyline": "listyo-sigit-penyadapan",
+   "update_of": "E0562",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "detikNews: Cak Imin korban penyadapan",
+     "url": "https://news.detik.com/berita/d-8740476/cak-imin-cerita-termasuk-jadi-korban-penyadapan-oleh-listyo-sigit-dkk"
+    },
+    {
+     "label": "Antara: Golkar",
+     "url": "https://www.antaranews.com/berita/5836739/golkar-penyadapan-ilegal-tokoh-politik-ancam-demokrasi"
+    },
+    {
+     "label": "CNN Indonesia: Muhammadiyah",
+     "url": "https://www.cnnindonesia.com/nasional/20261105190826-20-1423851/ketum-muhammadiyah-desak-penyadapan-oleh-listyo-dkk-diusut-transparan"
+    }
+   ],
+   "why_it_matters": "Answers the 'who else was tapped' follow-up: at least one coalition party chair says he was.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 0,
+    "surprise": 2,
+    "visual": 0,
+    "fresh": 2,
+    "rivals": 2
+   },
+   "spreading_evidence": "",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-11-06",
+   "category": "POL",
+   "event": "Jokowi said he respects all legal processes and constitutional rights when asked about the talk of impeaching his son VP Gibran, while Antara reports the DPR will wait for the next sitting period to respond to impeachment (pemakzulan) aspirations.",
+   "key_numbers": "MA ruling 30 Oct · MK ruling 6 Oct · DPR recess ends 9 Nov",
+   "storyline": "gibran-ijazah-mk",
+   "update_of": "E0466",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/nasional/20261106061812-32-1423944/jokowi-respons-wacana-pemakzulan-gibran-sebagai-wapres"
+    },
+    {
+     "label": "Antara video: DPR tunggu masa sidang berikutnya",
+     "url": "https://www.antaranews.com/video/5836747/dpr-tunggu-masa-sidang-berikutnya-tanggapi-aspirasi-pemakzulan-gibran"
+    }
+   ],
+   "why_it_matters": "Shows the Gibran diploma dispute moving from courts to a possible DPR process; what pemakzulan actually requires is a strong explainer.",
+   "signals": {
+    "spreading": 2,
+    "wallet": 0,
+    "surprise": 2,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "CNN nasional top; detik 'Komentar Terbanyak' on MA ruling",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-11-12",
+   "category": "POL",
+   "event": "The next defamation hearing against dr Tifa is scheduled for 12 November with Jokowi's aide and Dumatno as witnesses, after Roy Suryo and dr Tifa each rejected all of Jokowi's testimony at the 5 November hearing.",
+   "key_numbers": "Next hearing 12 Nov 2026 · Jokowi testified 5 Nov",
+   "storyline": "jokowi-ijazah-roy-suryo",
+   "update_of": "E0576",
+   "status": "upcoming",
+   "sources": [
+    {
+     "label": "detikNews: Ajudan Jokowi saksi 12 November",
+     "url": "https://news.detik.com/berita/d-8740537/ajudan-jokowi-jadi-saksi-di-sidang-dr-tifa-12-november"
+    },
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/nasional/20261105221412-12-1423925/ajudan-jokowi-dumatno-jadi-saksi-sidang-kasus-roy-suryo-pekan-depan"
+    },
+    {
+     "label": "CNN Indonesia: defendants reject testimony",
+     "url": "https://www.cnnindonesia.com/nasional/20261105211315-12-1423905/roy-suryo-tolak-semua-kesaksian-jokowi-di-sidang-kasus-ijazah"
+    }
+   ],
+   "why_it_matters": "The ijazah trial continues with a key named figure (Dumatno) as witness.",
+   "signals": {
+    "spreading": 2,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 0,
+    "fresh": 1,
+    "rivals": 1
+   },
+   "spreading_evidence": "CNN/detik multiple headlines",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-11-05",
+   "category": "POL",
+   "event": "Ex-Deputy Minister Silmy's defence argued at the Jakarta Tipikor Court that the prosecutors' indictment is vague and was copied from another defendant's.",
+   "key_numbers": "",
+   "storyline": "",
+   "update_of": "E0458",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/nasional/20261105203356-12-1423895/perlawanan-silmy-dakwaan-jaksa-kabur-disalin-dari-terdakwa-lain"
+    }
+   ],
+   "why_it_matters": "Standard eksepsi stage of a graft trial; not a ruling.",
+   "signals": {
+    "spreading": 0,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 0,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-11-05",
+   "category": "POL",
+   "event": "Government announced part-time PPPK staff will be made full-time from 1 January 2027, and that CPNS selection opens this year, per Mensesneg as reported by Antara.",
+   "key_numbers": "Effective 1 Jan 2027 · CPNS selection this year (details not read)",
+   "storyline": "",
+   "update_of": "",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "Antara (headline only)",
+     "url": "https://www.antaranews.com/berita/5836295/pemerintah-angkat-pppk-paruh-waktu-jadi-penuh-waktu-per-1-januari-2027"
+    },
+    {
+     "label": "Antara: CPNS",
+     "url": "https://www.antaranews.com/berita/5836023/pemerintah-buka-seleksi-cpns-tahun-ini"
+    }
+   ],
+   "why_it_matters": "Affects pay and job security of many honorary-turned-PPPK workers; Antara Top News.",
+   "signals": {
+    "spreading": 2,
+    "wallet": 2,
+    "surprise": 1,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "Antara Top News",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-05",
+   "category": "POL",
+   "event": "Yusril said the government allows Komnas HAM to investigate a shooting in Pidie, Aceh.",
+   "key_numbers": "",
+   "storyline": "",
+   "update_of": "",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "Antara (headline only)",
+     "url": "https://www.antaranews.com/berita/5836979/yusril-pemerintah-persilahkan-komnas-ham-selidiki-penembakan-di-pidie"
+    }
+   ],
+   "why_it_matters": "Possible rights case in Aceh; details not yet read.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 0,
+    "fresh": 2,
+    "rivals": 2
+   },
+   "spreading_evidence": "Antara Top News",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-11-06",
+   "category": "POL",
+   "event": "President Prabowo agreed that the Blang Padang waqf land in Banda Aceh be returned to the Masjid Raya, following his 4 November meeting with Aceh governor Mualem.",
+   "key_numbers": "",
+   "storyline": "",
+   "update_of": "E0590",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "Antara (headline only)",
+     "url": "https://www.antaranews.com/berita/5837471/presiden-setuju-tanah-wakaf-blang-padang-dikembalikan-ke-masjid-raya"
+    }
+   ],
+   "why_it_matters": "A concrete outcome of the Aceh-Jakarta talks, alongside the Aceh flag issue.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 0,
+    "fresh": 2,
+    "rivals": 2
+   },
+   "spreading_evidence": "Antara Top News #1",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-10",
+   "category": "POL",
+   "event": "Mendagri Tito asked regional governments to speed up registration for Perlinsos Digital ahead of its planned 10 November launch.",
+   "key_numbers": "Launch planned 10 Nov 2026",
+   "storyline": "perlinsos-digital",
+   "update_of": "E0208",
+   "status": "upcoming",
+   "sources": [
+    {
+     "label": "Antara (headline only)",
+     "url": "https://www.antaranews.com/berita/5837535/mendagri-minta-pemda-percepat-registrasi-perlinsos-digital"
+    }
+   ],
+   "why_it_matters": "Digital social aid affects who receives bansos and how.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 2,
+    "surprise": 0,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-05",
+   "category": "POL",
+   "event": "Jakarta governor Pramono denied reports that Jakarta is on 'Siaga 1' after TNI soldiers were deployed; DPR Baleg agreed to make the RUU on the procedure for forming laws a DPR initiative.",
+   "key_numbers": "",
+   "storyline": "",
+   "update_of": "",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "detikNews: Pramono bantah Siaga 1",
+     "url": "https://news.detik.com/berita/d-8740067/pramono-bantah-kabar-jakarta-siaga-1-usai-pengerahan-prajurit-tni"
+    },
+    {
+     "label": "detikNews: Baleg RUU",
+     "url": "https://news.detik.com/berita/d-8740286/baleg-sepakati-ruu-tata-cara-pembentukan-uu-jadi-usul-inisiatif-dpr"
+    }
+   ],
+   "why_it_matters": "Counters a rumour amid the wiretapping case; the Baleg item is a procedural bill.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 0,
+    "fresh": 2,
+    "rivals": 2
+   },
+   "spreading_evidence": "detik featured",
+   "sensitivity": "normal"
+  }
+ ],
+ "gaps": [
+  "Many article bodies blocked (provenance): Antara PPPK, Pidie, detik Slamet Uliandi; those events are headline-based",
+  "Tempo and Antara hukum not read; KPK/Kejagung/MK not on the detik front page",
+  "No per-storyline search done for corruption-cases (Djarum), karhutla (ENV area), definisi-korupsi",
+  "BIN chief 'makar' remark not confirmed from article text",
+  "Pidie shooting background unknown"
+ ]
+}

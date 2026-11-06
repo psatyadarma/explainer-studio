@@ -1,0 +1,149 @@
+{
+  "area": "markets",
+  "run_date": "2026-11-07",
+  "checked": ["CNBC Indonesia market (via search results, IHSG close article fetched)", "detik finance front page + terpopuler/komentar terbanyak", "bisnis.com market (search results; article fetch failed)", "antaranews ekonomi (search results only)", "watch list found: IHSG close, foreign flow, rupiah/BI, OJK action, BPS release (jobs), Danantara/BUMN, bank earnings, DHE/export policy, PHK", "storyline searches: msci-reclassification, rupiah/BI rate, ump-2027, survival-mode (PHK)"],
+  "events": [
+    {
+      "date": "2026-11-06",
+      "category": "BIZ",
+      "event": "The government and Danantara said PT Danantara Sumberdaya Indonesia (DSI) will be the single intermediary for coal, CPO and ferro alloy exports from 1 January 2027, via its NADI data portal, without buying or selling the goods.",
+      "key_numbers": "Start 1 Jan 2027 · NADI technical briefing 15 Nov 2026 · account registration opens 15 Dec 2026 · trial with 100 exporters covering ~50% of export value of these commodities · 340 contracts uploaded in test · DSI authorised capital Rp4 trillion (detik headline)",
+      "storyline": "dsi-export-single-gate",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/news/20261106165159-4-783068/jadi-perantara-tunggal-ekspor-batu-bara-cs-dsi-tidak-beli-jual-barang"},
+        {"label": "Kontan", "url": "https://nasional.kontan.co.id/news/aturan-ekspor-sda-dirombak-dsi-jadi-perantara-tunggal-mulai-2027"},
+        {"label": "detikFinance", "url": "https://finance.detik.com/"}
+      ],
+      "why_it_matters": "Every coal and palm-oil export will pass through one Danantara entity, which worries exporters and investors about costs and control.",
+      "signals": {"spreading": 2, "wallet": 1, "surprise": 2, "visual": 1, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "detik terpopuler #5; 5+ detik headlines on DSI on 6 Nov",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-06",
+      "category": "ECO",
+      "event": "Coordinating Minister Airlangga Hartarto signalled a fourth revision of the export-proceeds (DHE SDA) rule that would let exporters convert up to 100% of foreign-currency proceeds to rupiah, versus a 50% cap now.",
+      "key_numbers": "Conversion cap 50% -> up to 100% · current retention: migas min 30% for 3 months, non-migas 100% for 12 months · conversion fell 37.4% per LNSW · conversion US$23.8bn (Jun-Aug 2025) -> US$14.9bn (Jun-Aug 2026) (articles print 'million', likely billion; unverified) · revision targeted end-Nov 2026 per Harian Jogja",
+      "storyline": "rupiah",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/market/20261106150335-17-783012/bocoran-revisi-keempat-dhe-penukaran-valas-ke-rupiah-bisa-sampai-100"},
+        {"label": "detikFinance", "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8741466/revisi-keempat-dhe-sda-eksportir-bisa-konversi-100-valas-ke-rupiah"},
+        {"label": "Investor.id", "url": "https://investor.id/macroeconomy/461028/bocoran-aturan-baru-dhe-sda-konversi-valas-ke-rupiah-bisa-sampai-100"}
+      ],
+      "why_it_matters": "More exporter dollars turned into rupiah could support the weak rupiah (about Rp18,080/USD).",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-06",
+      "category": "MKT",
+      "event": "The IHSG recovered from an intraday drop of about 2% to close up 0.40% at 5,050.43 on Friday 6 November, led by BBRI, BMRI, BBCA, SMMA and ASII.",
+      "key_numbers": "Close 5,050.43 (+20.17 pts, +0.40%) · low 4,925.10 · turnover Rp7.77T, 411.29M lots · financials sector +~2% · session-1 foreign net inflow Rp153.22bn (full-day figure not found) · laggards BRPT, EMAS, MDKA, TPIA, BRMS",
+      "storyline": "msci-reclassification",
+      "update_of": "E0566",
+      "status": "verified",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/market/20261106151108-17-783037/ihsg-ditutup-di-zona-hijau-menguat-040-ke-505043"},
+        {"label": "CNBC Indonesia (session 1)", "url": "https://www.cnbcindonesia.com/market/20261106123930-17-782955/ihsg-merah-tapi-asing-masuk-rp15322-m-di-sesi-i-serbu-saham-4-bumn"},
+        {"label": "Bisnis.com", "url": "https://market.bisnis.com/read/20261106/7/2019119/ihsg-ditutup-menguat-040-ke-5050-saham-bbca-bbri-asii-kompak-melaju"}
+      ],
+      "why_it_matters": "The index is back above 5,000 but still far below its pre-MSCI-warning level.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 0},
+      "spreading_evidence": "detik komentar terbanyak #2 'IHSG Lengser ke 4.990'",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-06",
+      "category": "MKT",
+      "event": "The rupiah closed at Rp18,080 per US dollar on 6 November, and Bank Indonesia said FX reserves rose to US$146.8 billion at end-October.",
+      "key_numbers": "Rupiah Rp18,080 (-0.03% from Rp18,075) · intraday high Rp18,140 · DXY 101.939 (+0.39%) · reserves US$146.8bn (Oct) vs US$146.3bn (Sep) · cover 5.3 months of imports · rupiah ~+0.32% over the week to ~Rp18,089 (Mediakompeten)",
+      "storyline": "rupiah",
+      "update_of": "E0524",
+      "status": "verified",
+      "sources": [
+        {"label": "Viva (Refinitiv)", "url": "https://www.viva.co.id/berita/nasional/1941537-rupiah-ditutup-melemah-ke-rp18080-per-dolar-as-ini-sederet-sentimen-yang-membayangi"},
+        {"label": "Bisnis.com", "url": "https://market.bisnis.com/read/20261106/93/2019001/rupiah-dibuka-melemah-ke-rp18095-per-dolar-as-hari-ini-611"}
+      ],
+      "why_it_matters": "Reserves are a cushion, but the rupiah is stuck above Rp18,000 and a BI rate hike to 6% is being debated ahead of the 17-18 Nov RDG.",
+      "signals": {"spreading": 1, "wallet": 2, "surprise": 0, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-05",
+      "category": "ECO",
+      "event": "BPS reported August 2026 open unemployment fell to 4.75% (7.38 million people) even as layoffs (PHK) rose, with part-time work down and underemployment up.",
+      "key_numbers": "TPT 4.75% · unemployed 7.38M (-77,000 yoy) · employed 147.99M (+1.44M) · TPAK 70.33% (from 70.59%) · underemployed 12.844M (+1.244M) · part-time 35.295M (-1.001M) · PHK Jan-Sep 2026 63,789 (headline, unverified)",
+      "storyline": "survival-mode",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "IDN Times", "url": "https://www.idntimes.com/business/economy/bps-catat-jumlah-pengangguran-ri-7-38-juta-orang-pada-agustus-2026-00-gshdq-pnwcbq"},
+        {"label": "Media Indonesia", "url": "https://mediaindonesia.com/ekonomi/952620/bps-tingkat-pengangguran-terbuka-agustus-2026-turun-jadi-475-persen"},
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/news/20261105161255-8-782693/video-tingkat-pengangguran-turun-meski-phk-di-mana-mana"}
+      ],
+      "why_it_matters": "The headline number says jobs are fine, but many workers feel the opposite, so the data needs explaining.",
+      "signals": {"spreading": 2, "wallet": 2, "surprise": 2, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "detik komentar terbanyak #1 (25 comments)",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-06",
+      "category": "MKT",
+      "event": "OJK said the pledge of Haji Isam-linked shares (JARR, PGUN) to Bank Mandiri is allowed under banking rules, amid reports the loan funds a Bayan Resources (BYAN) share purchase.",
+      "key_numbers": "7,997,556,204 JARR shares pledged (100% of PT Eshan Agro Sentosa's stake), pledge dated 30 Sep 2026 · OJK cap: collateral up to 50% of share market value · loan amount not disclosed · borrower PT Jhonlin Baratama",
+      "storyline": "",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/market/20261106201237-17-783123/ojk-sebut-gadai-saham-emiten-haji-isam-ke-bank-mandiri-sesuai-aturan"},
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/ekonomi/20261106185755-78-1424235/ojk-soal-gadai-saham-haji-isam-ke-mandiri-diperbolehkan"},
+        {"label": "detikFinance", "url": "https://finance.detik.com/bursa-dan-valas/d-8741852/ojk-buka-suara-soal-gadai-saham-perusahaan-haji-isam"}
+      ],
+      "why_it_matters": "A state bank lending against a tycoon's shares to buy a coal giant raises questions of risk and oversight.",
+      "signals": {"spreading": 2, "wallet": 0, "surprise": 1, "visual": 0, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "detik terpopuler #4",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-06",
+      "category": "BIZ",
+      "event": "Bank Mandiri reported bank-only net profit of Rp46.5 trillion for January-October 2026, up 19.6% year on year, with NPL falling to 0.97%.",
+      "key_numbers": "Net profit Rp46.5T (+19.6% yoy) · loans Rp1,635T (+16.5%) · gross NPL 0.97% (1.02% Oct 2025) · coverage 244.5% · cost of credit 0.55% · DPK Rp1,762T (+15.1%) · CASA ratio 71.8%",
+      "storyline": "",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/market/20261106215051-17-783127/bmri-catat-laba-rp-465-t-kualitas-aset-sehat-dan-bisnis-digital-kuat"},
+        {"label": "detikFinance", "url": "https://finance.detik.com/moneter/d-8741991/laba-bersih-bank-mandiri-tumbuh-19-6-menjadi-rp-46-5-t-di-oktober-2026"}
+      ],
+      "why_it_matters": "Big banks are strong on fundamentals even while foreigners sell Indonesian stocks.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 0, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-17",
+      "category": "ECO",
+      "event": "Bank Indonesia's November RDG on 17-18 Nov is widely expected by economists to raise the BI rate to 6% given rupiah pressure and capital outflows.",
+      "key_numbers": "Expected BI rate 6% · RDG 17-18 Nov 2026 · rupiah ~Rp18,080/USD",
+      "storyline": "rupiah",
+      "update_of": "E0040",
+      "status": "upcoming",
+      "sources": [
+        {"label": "Investor.id", "url": "https://investor.id/macroeconomy/460342/rupiah-tertekan-bi-diprediksi-naikkan-birate-ke-6-pada-november"},
+        {"label": "Bisnis.com", "url": "https://finansial.bisnis.com/read/20261021/11/2014377/bi-rate-diproyeksi-naik-ke-6-rupiah-dan-arus-modal-asing-jadi-pertimbangan"}
+      ],
+      "why_it_matters": "A rate hike would raise loan and mortgage costs for ordinary borrowers.",
+      "signals": {"spreading": 1, "wallet": 2, "surprise": 1, "visual": 1, "fresh": 0, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    }
+  ],
+  "gaps": ["Current BI rate level and whether 6% is a hike from 5.75% not confirmed from a fetched article (search snippets only)", "DHE USD figures printed as 'million' in articles, likely billion; unverified", "Full-day foreign net flow for 6 Nov not found", "Airlangga worry that the presidential wiretap case (penyadapan) hurts market sentiment (detik headline) not opened", "DSI authorised capital Rp4T from headline only", "Bisnis.com article fetch failed; antaranews section page not fetched"]
+}

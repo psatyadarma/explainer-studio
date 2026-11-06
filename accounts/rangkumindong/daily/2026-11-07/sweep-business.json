@@ -1,0 +1,124 @@
+{
+  "area": "business",
+  "run_date": "2026-11-07",
+  "checked": ["CNBC Indonesia tech (31 headlines, to 6 Nov)", "detikInet", "katadata digital (via search results)", "teknologi.bisnis.com (via search results)", "cnnindonesia teknologi and dailysocial.id not scanned", "storyline crypto-hacks", "storyline listyo-sigit-penyadapan (LIMS; already covered, no new tech angle)", "watch list found: data centres/AI, Komdigi rules, platform rules, data leaks (Fore, already known), consumer tech (Meta glasses), government digital services (desil/DTSEN)"],
+  "events": [
+    {
+      "date": "2026-11-04",
+      "category": "TECH",
+      "event": "Binance disclosed that North Korea-linked hackers used a fake job interview and a malware-laced test file to compromise an engineer, after months of preparation, before the 29 October heist.",
+      "key_numbers": "Binance puts theft at about US$6.6 billion (Chainalysis: about US$6.4 billion; earlier reports US$6.3 billion) · attack lasted about 4 hours on 29 Oct · hackers active since June · fake interview in September · further access 20 Oct, 9 days before the attack · Binance says 98% of affected assets replaced from own funds · about one-third frozen (Chainalysis: about US$2.8 billion frozen as of 3 Nov)",
+      "storyline": "crypto-hacks",
+      "update_of": "E0539",
+      "status": "verified",
+      "sources": [
+        {"label": "ABC News Australia", "url": "https://www.abc.net.au/news/2026-11-04/binance-released-details-of-largest-crypto-heist/107345208"},
+        {"label": "Chainalysis", "url": "https://www.chainalysis.com/blog/binance-exploit-latest-findings-and-response/"}
+      ],
+      "why_it_matters": "A fake job offer on a job platform was the entry point, a trick that can target anyone who works with company systems.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 2, "visual": 2, "fresh": 1, "rivals": 1},
+      "spreading_evidence": "Reported by ABC, CNN, PBS, Japan Times; Indonesian outlets covered the OJK reaction",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-04",
+      "category": "TECH",
+      "event": "Komdigi said the draft presidential regulation (Perpres) creating the personal data protection (PDP) supervisory body is in its final stage and has been submitted to the President via Setneg.",
+      "key_numbers": "UU PDP No. 27/2022 mandated the body; still not established 4 years later · target set for 2026 · body to report to the President through Komdigi (Nezar Patria, 21 Jul)",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "Katadata", "url": "https://katadata.co.id/digital/teknologi/6aec368e80c97/komdigi-perpres-lembaga-pengawas-pdp-masuk-tahap-final"},
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/tech/20261105105501-37-782538/presiden-disadap-dpr-sorot-pentingnya-kehadiran-lembaga-pdp"}
+      ],
+      "why_it_matters": "Data leaks keep happening (Fore, 5.7 million accounts) while the agency meant to punish them still does not exist.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 0, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "Tied to the DPR reaction over the presidential wiretap story on CNBC Indonesia tech",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-05",
+      "category": "TECH",
+      "event": "CNBC Indonesia reported that Ray-Ban Meta and Oakley Meta smart glasses go on sale in Indonesia on 11 November, with a security expert warning they can record people without their knowledge.",
+      "key_numbers": "From Rp8 juta · on sale 11 Nov 2026 · models: Ray-Ban Meta Gen 3 (Wayfarer, Aviator, Zena), Oakley Meta (HSTN, Vanguard) · recording signalled only by a small LED",
+      "storyline": "",
+      "update_of": "",
+      "status": "upcoming",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/tech/20261105132319-37-782615/kacamata-meta-masuk-ri-awas-privasi-warga-terancam-direkam-diam-diam"}
+      ],
+      "why_it_matters": "Anyone nearby can be filmed in public places with no clear Indonesian rule on it.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-04",
+      "category": "TECH",
+      "event": "After Democratic wins in the US midterms on opposition to data centres, AI data-centre and power stocks fell and Goldman Sachs estimated a freeze on a large share of planned US data-centre expansion.",
+      "key_numbers": "Goldman Sachs: about 45% of planned new US data-centre capacity expansion could freeze · 4 Nov: Core Scientific -11.6%, IREN -12.5% · TSMC, Samsung, SK Hynix, Kioxia also fell in Asia · Texas about a quarter of projected US data-centre capacity",
+      "storyline": "ai-data-centres",
+      "update_of": "E0475",
+      "status": "partial",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/tech/20261105152303-37-782671/rakyat-bersatu-tolak-proyek-data-center-presiden-tak-berkutik"},
+        {"label": "detikInet", "url": "https://inet.detik.com/business/d-8739868/demokrat-menang-ratusan-proyek-data-center-ai-terancam"}
+      ],
+      "why_it_matters": "The AI data-centre boom, including Indonesian projects like Jakarta and Cikarang, depends on chips and capital that react to US politics.",
+      "signals": {"spreading": 2, "wallet": 1, "surprise": 2, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "Two CNBC Indonesia tech headlines plus detikInet business (5 Nov)",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-06",
+      "category": "TECH",
+      "event": "Meta, Google and TikTok sued California's attorney general over AB 1709, which bans autoplay and personalised recommendations for under-16s, while CNBC Indonesia compared it with Indonesia's PP Tunas.",
+      "key_numbers": "Fine up to US$50,000 (about Rp750 juta) per affected child · California law takes effect early 2027 · Indonesia: PP 17/2025 (PP Tunas), Komdigi Permen 9/2026, under-16 social media ban from 28 Mar 2026 · age tiers: under 13, 13-15, 16-17, 18+",
+      "storyline": "child-online-protection",
+      "update_of": "E0364",
+      "status": "partial",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/tech/20261106115652-37-782925/amerika-ikut-aturan-ri-tiktok-google-instagram-bersatu-lawan"},
+        {"label": "CNBC Indonesia (2)", "url": "https://www.cnbcindonesia.com/tech/20261106142131-37-782999/aturan-ri-ubah-dunia-tiktok-instagram-dituntut-tanggung-jawab"}
+      ],
+      "why_it_matters": "Indonesia's age limit for kids on social media is being copied abroad and fought by the same platforms.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "Two CNBC Indonesia tech headlines on 6 Nov",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-06",
+      "category": "TECH",
+      "event": "CNBC Indonesia published a how-to for checking a household's desil (socioeconomic decile) with NIK on the Kemensos and BPS sites, which decides bansos eligibility.",
+      "key_numbers": "10 desil groups · 39 socioeconomic variables · desil 1-5 poor to near-middle class, 6-10 middle to upper · sites: cekbansos.kemensos.go.id, dtsen-form.bps.go.id",
+      "storyline": "perlinsos-digital",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/tech/20261106123113-37-782939/link-resmi-cek-desil-di-website-kemensos-dan-bps-cukup-pakai-nik"}
+      ],
+      "why_it_matters": "Your desil can decide whether you get bansos, and you can check it yourself in two minutes.",
+      "signals": {"spreading": 1, "wallet": 2, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "Fresh CNBC Indonesia tech item, 6 Nov; Perlinsos Digital launch is 10 Nov (E0208)",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-04",
+      "category": "TECH",
+      "event": "NASA's Swift space telescope re-entered the atmosphere over northern Sumatra and burned up, with no damage reported.",
+      "key_numbers": "1,450 kg · launched Nov 2004 for a 2-year mission, ran 22 years · about 7,000 papers · re-entry about 19.39 WIB (Wednesday) at about 22 times the speed of sound · August 2026 reboost attempt by Katalyst failed",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/tech/20261106093149-37-782870/satelit-nasa-jatuh-di-langit-sumatra-utara"}
+      ],
+      "why_it_matters": "A 1.4-tonne satellite fell over Indonesian airspace; the date is inferred as 4 Nov from 'Wednesday'.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 2, "visual": 2, "fresh": 1, "rivals": 2},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    }
+  ],
+  "gaps": ["Chainalysis/Japan Times report that Binance funds flow to Chinese launderers could not be fetched (Japan Times failed; Chainalysis page does not mention China)", "OJK statement on Binance and Indonesian exchanges (Bisnis 5 Nov) could not be opened", "cnnindonesia teknologi and dailysocial.id not scanned; no startup/funding or consumer-price items found", "Swift re-entry date inferred from 'Wednesday'"]
+}
