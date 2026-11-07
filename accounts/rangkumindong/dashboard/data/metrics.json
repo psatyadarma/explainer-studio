@@ -898,5 +898,53 @@
 "shares": 0,
 "saves": null,
 "follows": 0
+},
+{
+"date": "2026-11-07",
+"folder": "videos/2026-11-06-listyo-part3-tersangka-keempat",
+"platform": "instagram",
+"hours": 24,
+"views": 1524,
+"avg_watch_pct": 54.6,
+"hold_3s_pct": null,
+"shares": 5,
+"saves": 3,
+"follows": null
+},
+{
+"date": "2026-11-07",
+"folder": "videos/2026-11-06-listyo-part3-tersangka-keempat",
+"platform": "youtube",
+"hours": 24,
+"views": 3110,
+"avg_watch_pct": null,
+"hold_3s_pct": null,
+"shares": 0,
+"saves": null,
+"follows": 0
+},
+{
+"date": "2026-11-07",
+"folder": "videos/2026-11-04-listyo-tersangka-penyadapan",
+"platform": "instagram",
+"hours": 72,
+"views": 197,
+"avg_watch_pct": 20.8,
+"hold_3s_pct": null,
+"shares": 0,
+"saves": 1,
+"follows": null
+},
+{
+"date": "2026-11-07",
+"folder": "videos/2026-11-04-listyo-tersangka-penyadapan",
+"platform": "youtube",
+"hours": 72,
+"views": 1430,
+"avg_watch_pct": 60.69,
+"hold_3s_pct": null,
+"shares": 0,
+"saves": null,
+"follows": 2
 }
 ]

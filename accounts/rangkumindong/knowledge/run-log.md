@@ -117,4 +117,6 @@ History moved out of HANDOFF.md (22 Oct) so fresh sessions read less. Append one
 ## 7 Nov (Sat, #20 Kripto dibobol dua kali, crypto-hacks PART 2, chapter cut weekly #3 ch 2; Pratama, shock_number / question_reveal, subs block)
 - Sweeps 8/12/7/8, 34 merged, 1 dupe. Light fact-check 3 fixes (#1 Binance figures, #4 DHE only a plan). User picked ⭐ #1 + "ok to post" (~06:00).
 - Hook-critic A = writer's A (11/14), B new (10/14). Full fact-check 5 fixes (Binance's own US$6,34 M ≈Rp115 T, not ABC's 6,6 M; "hampir separuh" frozen; entry = fake Homebrew). Producer resumed after a container restart (reused matching voice/mix); B opening subtitles recoloured. QA PASS both, first round (A 86,9 s, B 85,4 s).
-- A scheduled ~06:40 for 19:00 (job 0c10a65b…); B kept, not posted. Weekly #3 default post 07:40 handled by the 6 Nov chat.
+- A scheduled ~06:40 for 19:00 (job 0c10a65b…); B kept, not posted. Weekly #3: the 07:35 default post was blocked; the user said OK in the 6 Nov chat → live 08:00 (IG Dfa2COGnI5j, YT mjJIN0HdaXQ).
+- 19:00 live (IG DfcBjiCklEk, YT anVIFJotWx0). Analyst: Listyo P3 (first storytelling script) 24 h IG 1.524 / 54,6% watched (best IG start yet, ~2,5× the 15–23% band), YT 3.110; Listyo P1 72 h IG 197 / 20,8%, YT 1.430 / 60,7%.
+- Problems: the session sat on a detached HEAD, so the morning pushes never landed; rebased onto origin/main (the weekly commits) and merged covered.csv by hand. delete_trigger (14:00 wake) and deleting the old runs.json blob were denied again (harmless).
