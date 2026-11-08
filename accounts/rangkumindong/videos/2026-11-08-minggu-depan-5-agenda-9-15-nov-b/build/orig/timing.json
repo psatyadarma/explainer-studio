@@ -1,0 +1,1268 @@
+{
+ "duration": 96.075,
+ "voice": "Pratama",
+ "lines": [
+  {
+   "id": "h1",
+   "text": "Katanya mulai Senin, transfer kamu kena pajak.",
+   "start": 0.333,
+   "end": 2.9130000000000003,
+   "words": [
+    {
+     "w": "Katanya",
+     "start": 0.333,
+     "end": 0.593
+    },
+    {
+     "w": "mulai",
+     "start": 0.633,
+     "end": 0.833
+    },
+    {
+     "w": "Senin,",
+     "start": 0.913,
+     "end": 1.473
+    },
+    {
+     "w": "transfer",
+     "start": 1.517,
+     "end": 1.873
+    },
+    {
+     "w": "kamu",
+     "start": 1.921,
+     "end": 2.113
+    },
+    {
+     "w": "kena",
+     "start": 2.153,
+     "end": 2.273
+    },
+    {
+     "w": "pajak.",
+     "start": 2.373,
+     "end": 2.913
+    }
+   ]
+  },
+  {
+   "id": "h2",
+   "text": "Kata DJP, bukan. Tapi ada 5 agenda yang beneran nyentuh kamu.",
+   "start": 3.3120000000000003,
+   "end": 7.436,
+   "words": [
+    {
+     "w": "Kata",
+     "start": 3.312,
+     "end": 3.456
+    },
+    {
+     "w": "DJP,",
+     "start": 3.483,
+     "end": 3.936
+    },
+    {
+     "w": "bukan.",
+     "start": 3.989,
+     "end": 4.628
+    },
+    {
+     "w": "Tapi",
+     "start": 4.628,
+     "end": 4.956
+    },
+    {
+     "w": "ada",
+     "start": 4.996,
+     "end": 5.116
+    },
+    {
+     "w": "5",
+     "start": 5.156,
+     "end": 5.356
+    },
+    {
+     "w": "agenda",
+     "start": 5.425,
+     "end": 5.836
+    },
+    {
+     "w": "yang",
+     "start": 5.884,
+     "end": 6.076
+    },
+    {
+     "w": "beneran",
+     "start": 6.116,
+     "end": 6.636
+    },
+    {
+     "w": "nyentuh",
+     "start": 6.663,
+     "end": 6.956
+    },
+    {
+     "w": "kamu.",
+     "start": 7.02,
+     "end": 7.436
+    }
+   ]
+  },
+  {
+   "id": "rd",
+   "text": "Rangkumin dong!",
+   "start": 7.657,
+   "end": 8.616,
+   "words": [
+    {
+     "w": "Rangkumin",
+     "start": 7.657,
+     "end": 8.136
+    },
+    {
+     "w": "dong!",
+     "start": 8.136,
+     "end": 8.616
+    }
+   ]
+  },
+  {
+   "id": "s1",
+   "text": "Misalnya Pak Budi: kerja kantoran, punya saham, hobi belanja online.",
+   "start": 9.181850340136055,
+   "end": 13.985850340136055,
+   "words": [
+    {
+     "w": "Misalnya",
+     "start": 9.182,
+     "end": 9.439
+    },
+    {
+     "w": "Pak",
+     "start": 9.479,
+     "end": 9.599
+    },
+    {
+     "w": "Budi:",
+     "start": 9.639,
+     "end": 10.079
+    },
+    {
+     "w": "kerja",
+     "start": 10.179,
+     "end": 10.559
+    },
+    {
+     "w": "kantoran,",
+     "start": 10.599,
+     "end": 11.436
+    },
+    {
+     "w": "punya",
+     "start": 11.479,
+     "end": 11.739
+    },
+    {
+     "w": "saham,",
+     "start": 11.819,
+     "end": 12.299
+    },
+    {
+     "w": "hobi",
+     "start": 12.459,
+     "end": 12.939
+    },
+    {
+     "w": "belanja",
+     "start": 12.979,
+     "end": 13.339
+    },
+    {
+     "w": "online.",
+     "start": 13.408,
+     "end": 13.986
+    }
+   ]
+  },
+  {
+   "id": "s1b",
+   "text": "Plus satu bonus di akhir, soal cicilan.",
+   "start": 14.112850340136056,
+   "end": 16.528850340136056,
+   "words": [
+    {
+     "w": "Plus",
+     "start": 14.113,
+     "end": 14.129
+    },
+    {
+     "w": "satu",
+     "start": 14.193,
+     "end": 14.449
+    },
+    {
+     "w": "bonus",
+     "start": 14.502,
+     "end": 14.769
+    },
+    {
+     "w": "di",
+     "start": 14.822,
+     "end": 14.929
+    },
+    {
+     "w": "akhir,",
+     "start": 14.982,
+     "end": 15.489
+    },
+    {
+     "w": "soal",
+     "start": 15.569,
+     "end": 15.889
+    },
+    {
+     "w": "cicilan.",
+     "start": 15.949,
+     "end": 16.529
+    }
+   ]
+  },
+  {
+   "id": "d1",
+   "text": "Senin, 9 November. Pak Budi dapat pesan: pajak digital mulai hari ini.",
+   "start": 16.856850340136056,
+   "end": 21.120850340136055,
+   "words": [
+    {
+     "w": "Senin,",
+     "start": 16.857,
+     "end": 17.041
+    },
+    {
+     "w": "9",
+     "start": 17.061,
+     "end": 17.281
+    },
+    {
+     "w": "November.",
+     "start": 17.334,
+     "end": 17.762
+    },
+    {
+     "w": "Pak",
+     "start": 17.881,
+     "end": 18.141
+    },
+    {
+     "w": "Budi",
+     "start": 18.181,
+     "end": 18.381
+    },
+    {
+     "w": "dapat",
+     "start": 18.421,
+     "end": 18.621
+    },
+    {
+     "w": "pesan:",
+     "start": 18.681,
+     "end": 19.101
+    },
+    {
+     "w": "pajak",
+     "start": 19.221,
+     "end": 19.601
+    },
+    {
+     "w": "digital",
+     "start": 19.671,
+     "end": 20.161
+    },
+    {
+     "w": "mulai",
+     "start": 20.241,
+     "end": 20.561
+    },
+    {
+     "w": "hari",
+     "start": 20.609,
+     "end": 20.801
+    },
+    {
+     "w": "ini.",
+     "start": 20.861,
+     "end": 21.121
+    }
+   ]
+  },
+  {
+   "id": "d1b",
+   "text": "Kata Hashim di acara Kadin, Shopee sampai bank bakal memungut pajak digital.",
+   "start": 21.488850340136054,
+   "end": 25.760850340136052,
+   "words": [
+    {
+     "w": "Kata",
+     "start": 21.489,
+     "end": 21.521
+    },
+    {
+     "w": "Hashim",
+     "start": 21.561,
+     "end": 21.921
+    },
+    {
+     "w": "di",
+     "start": 21.948,
+     "end": 22.001
+    },
+    {
+     "w": "acara",
+     "start": 22.054,
+     "end": 22.241
+    },
+    {
+     "w": "Kadin,",
+     "start": 22.321,
+     "end": 22.961
+    },
+    {
+     "w": "Shopee",
+     "start": 23.014,
+     "end": 23.441
+    },
+    {
+     "w": "sampai",
+     "start": 23.489,
+     "end": 23.761
+    },
+    {
+     "w": "bank",
+     "start": 23.841,
+     "end": 24.161
+    },
+    {
+     "w": "bakal",
+     "start": 24.221,
+     "end": 24.481
+    },
+    {
+     "w": "memungut",
+     "start": 24.541,
+     "end": 24.881
+    },
+    {
+     "w": "pajak",
+     "start": 24.941,
+     "end": 25.201
+    },
+    {
+     "w": "digital.",
+     "start": 25.261,
+     "end": 25.761
+    }
+   ]
+  },
+  {
+   "id": "d1c",
+   "text": "Tapi kata DJP, ini bukan pajak baru. Transfer pribadi juga bukan sasarannya.",
+   "start": 26.124850340136057,
+   "end": 30.634850340136055,
+   "words": [
+    {
+     "w": "Tapi",
+     "start": 26.125,
+     "end": 26.215
+    },
+    {
+     "w": "kata",
+     "start": 26.247,
+     "end": 26.455
+    },
+    {
+     "w": "DJP,",
+     "start": 26.482,
+     "end": 27.095
+    },
+    {
+     "w": "ini",
+     "start": 27.155,
+     "end": 27.335
+    },
+    {
+     "w": "bukan",
+     "start": 27.388,
+     "end": 27.575
+    },
+    {
+     "w": "pajak",
+     "start": 27.635,
+     "end": 27.895
+    },
+    {
+     "w": "baru.",
+     "start": 27.975,
+     "end": 28.555
+    },
+    {
+     "w": "Transfer",
+     "start": 28.591,
+     "end": 28.875
+    },
+    {
+     "w": "pribadi",
+     "start": 28.915,
+     "end": 29.435
+    },
+    {
+     "w": "juga",
+     "start": 29.483,
+     "end": 29.675
+    },
+    {
+     "w": "bukan",
+     "start": 29.702,
+     "end": 29.915
+    },
+    {
+     "w": "sasarannya.",
+     "start": 29.955,
+     "end": 30.635
+    }
+   ]
+  },
+  {
+   "id": "d2",
+   "text": "Selasa, 10 November. Presiden dijadwalkan meluncurkan Perlinsos Digital.",
+   "start": 30.949850340136052,
+   "end": 35.21585034013606,
+   "words": [
+    {
+     "w": "Selasa,",
+     "start": 30.95,
+     "end": 31.365
+    },
+    {
+     "w": "10",
+     "start": 31.385,
+     "end": 31.765
+    },
+    {
+     "w": "November.",
+     "start": 31.792,
+     "end": 32.085
+    },
+    {
+     "w": "Presiden",
+     "start": 32.213,
+     "end": 32.745
+    },
+    {
+     "w": "dijadwalkan",
+     "start": 32.798,
+     "end": 33.305
+    },
+    {
+     "w": "meluncurkan",
+     "start": 33.345,
+     "end": 33.865
+    },
+    {
+     "w": "Perlinsos",
+     "start": 33.913,
+     "end": 34.505
+    },
+    {
+     "w": "Digital.",
+     "start": 34.575,
+     "end": 35.216
+    }
+   ]
+  },
+  {
+   "id": "d2b",
+   "text": "Arahnya, bansos cair tunai, bukan barang. Target 50 juta penerima.",
+   "start": 35.384850340136055,
+   "end": 40.10585034013606,
+   "words": [
+    {
+     "w": "Arahnya,",
+     "start": 35.385,
+     "end": 35.875
+    },
+    {
+     "w": "bansos",
+     "start": 35.955,
+     "end": 36.435
+    },
+    {
+     "w": "cair",
+     "start": 36.475,
+     "end": 36.675
+    },
+    {
+     "w": "tunai,",
+     "start": 36.735,
+     "end": 37.275
+    },
+    {
+     "w": "bukan",
+     "start": 37.342,
+     "end": 37.715
+    },
+    {
+     "w": "barang.",
+     "start": 37.772,
+     "end": 38.195
+    },
+    {
+     "w": "Target",
+     "start": 38.321,
+     "end": 38.825
+    },
+    {
+     "w": "50",
+     "start": 38.865,
+     "end": 39.305
+    },
+    {
+     "w": "juta",
+     "start": 39.345,
+     "end": 39.545
+    },
+    {
+     "w": "penerima.",
+     "start": 39.585,
+     "end": 40.106
+    }
+   ]
+  },
+  {
+   "id": "d2c",
+   "text": "Kata Luhut, kalau jadwalnya nggak berubah.",
+   "start": 40.37385034013605,
+   "end": 42.49585034013605,
+   "words": [
+    {
+     "w": "Kata",
+     "start": 40.374,
+     "end": 40.395
+    },
+    {
+     "w": "Luhut,",
+     "start": 40.475,
+     "end": 40.955
+    },
+    {
+     "w": "kalau",
+     "start": 40.956,
+     "end": 41.255
+    },
+    {
+     "w": "jadwalnya",
+     "start": 41.295,
+     "end": 41.735
+    },
+    {
+     "w": "nggak",
+     "start": 41.762,
+     "end": 41.895
+    },
+    {
+     "w": "berubah.",
+     "start": 41.935,
+     "end": 42.496
+    }
+   ]
+  },
+  {
+   "id": "d3",
+   "text": "Rabu, 11 November. Hari terakhir Shopee 11.11. Klaimnya, diskon sampai 90 persen.",
+   "start": 42.789850340136056,
+   "end": 48.844850340136055,
+   "words": [
+    {
+     "w": "Rabu,",
+     "start": 42.79,
+     "end": 43.035
+    },
+    {
+     "w": "11",
+     "start": 43.075,
+     "end": 43.515
+    },
+    {
+     "w": "November.",
+     "start": 43.546,
+     "end": 43.875
+    },
+    {
+     "w": "Hari",
+     "start": 43.987,
+     "end": 44.305
+    },
+    {
+     "w": "terakhir",
+     "start": 44.345,
+     "end": 44.705
+    },
+    {
+     "w": "Shopee",
+     "start": 44.758,
+     "end": 45.491
+    },
+    {
+     "w": "11.11.",
+     "start": 45.491,
+     "end": 46.106
+    },
+    {
+     "w": "Klaimnya,",
+     "start": 46.106,
+     "end": 46.765
+    },
+    {
+     "w": "diskon",
+     "start": 46.845,
+     "end": 47.325
+    },
+    {
+     "w": "sampai",
+     "start": 47.405,
+     "end": 47.805
+    },
+    {
+     "w": "90",
+     "start": 47.865,
+     "end": 48.365
+    },
+    {
+     "w": "persen.",
+     "start": 48.413,
+     "end": 48.845
+    }
+   ]
+  },
+  {
+   "id": "d3b",
+   "text": "Pajaknya gimana? Asosiasi e-commerce pun masih nunggu arahan DJP.",
+   "start": 49.064850340136054,
+   "end": 53.10485034013605,
+   "words": [
+    {
+     "w": "Pajaknya",
+     "start": 49.065,
+     "end": 49.395
+    },
+    {
+     "w": "gimana?",
+     "start": 49.455,
+     "end": 50.126
+    },
+    {
+     "w": "Asosiasi",
+     "start": 50.126,
+     "end": 50.785
+    },
+    {
+     "w": "e-commerce",
+     "start": 50.825,
+     "end": 51.345
+    },
+    {
+     "w": "pun",
+     "start": 51.385,
+     "end": 51.505
+    },
+    {
+     "w": "masih",
+     "start": 51.558,
+     "end": 51.825
+    },
+    {
+     "w": "nunggu",
+     "start": 51.865,
+     "end": 52.065
+    },
+    {
+     "w": "arahan",
+     "start": 52.145,
+     "end": 52.585
+    },
+    {
+     "w": "DJP.",
+     "start": 52.598,
+     "end": 53.105
+    }
+   ]
+  },
+  {
+   "id": "d4",
+   "text": "Kamis, 12 November. MSCI umumkan review indeks November.",
+   "start": 53.396850340136055,
+   "end": 57.375850340136054,
+   "words": [
+    {
+     "w": "Kamis,",
+     "start": 53.397,
+     "end": 53.697
+    },
+    {
+     "w": "12",
+     "start": 53.717,
+     "end": 53.937
+    },
+    {
+     "w": "November.",
+     "start": 53.99,
+     "end": 54.497
+    },
+    {
+     "w": "MSCI",
+     "start": 54.636,
+     "end": 55.447
+    },
+    {
+     "w": "umumkan",
+     "start": 55.5,
+     "end": 55.927
+    },
+    {
+     "w": "review",
+     "start": 55.984,
+     "end": 56.327
+    },
+    {
+     "w": "indeks",
+     "start": 56.375,
+     "end": 56.647
+    },
+    {
+     "w": "November.",
+     "start": 56.709,
+     "end": 57.376
+    }
+   ]
+  },
+  {
+   "id": "d4b",
+   "text": "Ada saham kita yang dicoret? Status Indonesia sendiri diputuskan paling lambat Juni 2027.",
+   "start": 57.57485034013605,
+   "end": 63.16585034013605,
+   "words": [
+    {
+     "w": "Ada",
+     "start": 57.575,
+     "end": 57.605
+    },
+    {
+     "w": "saham",
+     "start": 57.658,
+     "end": 57.925
+    },
+    {
+     "w": "kita",
+     "start": 57.957,
+     "end": 58.085
+    },
+    {
+     "w": "yang",
+     "start": 58.117,
+     "end": 58.245
+    },
+    {
+     "w": "dicoret?",
+     "start": 58.285,
+     "end": 58.796
+    },
+    {
+     "w": "Status",
+     "start": 58.844,
+     "end": 59.255
+    },
+    {
+     "w": "Indonesia",
+     "start": 59.303,
+     "end": 59.735
+    },
+    {
+     "w": "sendiri",
+     "start": 59.783,
+     "end": 60.215
+    },
+    {
+     "w": "diputuskan",
+     "start": 60.275,
+     "end": 60.775
+    },
+    {
+     "w": "paling",
+     "start": 60.815,
+     "end": 61.015
+    },
+    {
+     "w": "lambat",
+     "start": 61.079,
+     "end": 61.495
+    },
+    {
+     "w": "Juni",
+     "start": 61.575,
+     "end": 61.895
+    },
+    {
+     "w": "2027.",
+     "start": 61.955,
+     "end": 63.166
+    }
+   ]
+  },
+  {
+   "id": "d5",
+   "text": "Hari yang sama, sidang dr Tifa lanjut. Ajudan Jokowi dijadwalkan bersaksi.",
+   "start": 63.39185034013605,
+   "end": 67.70585034013605,
+   "words": [
+    {
+     "w": "Hari",
+     "start": 63.392,
+     "end": 63.435
+    },
+    {
+     "w": "yang",
+     "start": 63.467,
+     "end": 63.595
+    },
+    {
+     "w": "sama,",
+     "start": 63.675,
+     "end": 64.155
+    },
+    {
+     "w": "sidang",
+     "start": 64.195,
+     "end": 64.395
+    },
+    {
+     "w": "dr",
+     "start": 64.435,
+     "end": 64.635
+    },
+    {
+     "w": "Tifa",
+     "start": 64.715,
+     "end": 65.035
+    },
+    {
+     "w": "lanjut.",
+     "start": 65.095,
+     "end": 65.556
+    },
+    {
+     "w": "Ajudan",
+     "start": 65.665,
+     "end": 66.045
+    },
+    {
+     "w": "Jokowi",
+     "start": 66.085,
+     "end": 66.525
+    },
+    {
+     "w": "dijadwalkan",
+     "start": 66.578,
+     "end": 67.085
+    },
+    {
+     "w": "bersaksi.",
+     "start": 67.117,
+     "end": 67.706
+    }
+   ]
+  },
+  {
+   "id": "t1",
+   "text": "Tapi ini yang sering kelewat.",
+   "start": 68.32785034013605,
+   "end": 70.09585034013605,
+   "words": [
+    {
+     "w": "Tapi",
+     "start": 68.328,
+     "end": 68.705
+    },
+    {
+     "w": "ini",
+     "start": 68.805,
+     "end": 69.105
+    },
+    {
+     "w": "yang",
+     "start": 69.137,
+     "end": 69.265
+    },
+    {
+     "w": "sering",
+     "start": 69.305,
+     "end": 69.505
+    },
+    {
+     "w": "kelewat.",
+     "start": 69.558,
+     "end": 70.096
+    }
+   ]
+  },
+  {
+   "id": "t2",
+   "text": "Yang paling ramai, pajak Senin, belum pasti.",
+   "start": 70.32285034013606,
+   "end": 72.75485034013606,
+   "words": [
+    {
+     "w": "Yang",
+     "start": 70.323,
+     "end": 70.355
+    },
+    {
+     "w": "paling",
+     "start": 70.395,
+     "end": 70.675
+    },
+    {
+     "w": "ramai,",
+     "start": 70.735,
+     "end": 71.235
+    },
+    {
+     "w": "pajak",
+     "start": 71.275,
+     "end": 71.475
+    },
+    {
+     "w": "Senin,",
+     "start": 71.535,
+     "end": 71.955
+    },
+    {
+     "w": "belum",
+     "start": 72.008,
+     "end": 72.275
+    },
+    {
+     "w": "pasti.",
+     "start": 72.339,
+     "end": 72.755
+    }
+   ]
+  },
+  {
+   "id": "t3",
+   "text": "Yang sepi, data desil, justru menentukan siapa dapat bansos.",
+   "start": 73.08185034013606,
+   "end": 77.00485034013606,
+   "words": [
+    {
+     "w": "Yang",
+     "start": 73.082,
+     "end": 73.125
+    },
+    {
+     "w": "sepi,",
+     "start": 73.205,
+     "end": 73.845
+    },
+    {
+     "w": "data",
+     "start": 73.901,
+     "end": 74.125
+    },
+    {
+     "w": "desil,",
+     "start": 74.205,
+     "end": 74.685
+    },
+    {
+     "w": "justru",
+     "start": 74.725,
+     "end": 75.165
+    },
+    {
+     "w": "menentukan",
+     "start": 75.185,
+     "end": 75.645
+    },
+    {
+     "w": "siapa",
+     "start": 75.725,
+     "end": 76.125
+    },
+    {
+     "w": "dapat",
+     "start": 76.165,
+     "end": 76.365
+    },
+    {
+     "w": "bansos.",
+     "start": 76.429,
+     "end": 77.005
+    }
+   ]
+  },
+  {
+   "id": "t4",
+   "text": "Ceknya cukup pakai NIK, di situs Kemensos.",
+   "start": 77.28685034013606,
+   "end": 79.65485034013606,
+   "words": [
+    {
+     "w": "Ceknya",
+     "start": 77.287,
+     "end": 77.415
+    },
+    {
+     "w": "cukup",
+     "start": 77.455,
+     "end": 77.655
+    },
+    {
+     "w": "pakai",
+     "start": 77.695,
+     "end": 77.975
+    },
+    {
+     "w": "NIK,",
+     "start": 78.002,
+     "end": 78.455
+    },
+    {
+     "w": "di",
+     "start": 78.508,
+     "end": 78.615
+    },
+    {
+     "w": "situs",
+     "start": 78.675,
+     "end": 78.935
+    },
+    {
+     "w": "Kemensos.",
+     "start": 78.995,
+     "end": 79.655
+    }
+   ]
+  },
+  {
+   "id": "p1",
+   "text": "Nah, bonusnya. 17 sampai 18 November, BI rapat.",
+   "start": 80.04885034013606,
+   "end": 84.15585034013606,
+   "words": [
+    {
+     "w": "Nah,",
+     "start": 80.049,
+     "end": 80.165
+    },
+    {
+     "w": "bonusnya.",
+     "start": 80.258,
+     "end": 81.045
+    },
+    {
+     "w": "17",
+     "start": 81.156,
+     "end": 81.695
+    },
+    {
+     "w": "sampai",
+     "start": 81.759,
+     "end": 82.095
+    },
+    {
+     "w": "18",
+     "start": 82.115,
+     "end": 82.695
+    },
+    {
+     "w": "November,",
+     "start": 82.726,
+     "end": 83.055
+    },
+    {
+     "w": "BI",
+     "start": 83.215,
+     "end": 83.695
+    },
+    {
+     "w": "rapat.",
+     "start": 83.755,
+     "end": 84.156
+    }
+   ]
+  },
+  {
+   "id": "p2",
+   "text": "Beberapa ekonom perkirakan BI rate naik ke 6 persen. Kalau iya, cicilan bisa ikut naik.",
+   "start": 84.34685034013606,
+   "end": 90.28585034013607,
+   "words": [
+    {
+     "w": "Beberapa",
+     "start": 84.347,
+     "end": 84.685
+    },
+    {
+     "w": "ekonom",
+     "start": 84.742,
+     "end": 85.085
+    },
+    {
+     "w": "perkirakan",
+     "start": 85.117,
+     "end": 85.925
+    },
+    {
+     "w": "BI",
+     "start": 85.992,
+     "end": 86.365
+    },
+    {
+     "w": "rate",
+     "start": 86.413,
+     "end": 86.685
+    },
+    {
+     "w": "naik",
+     "start": 86.765,
+     "end": 87.005
+    },
+    {
+     "w": "ke",
+     "start": 87.058,
+     "end": 87.165
+    },
+    {
+     "w": "6",
+     "start": 87.197,
+     "end": 87.325
+    },
+    {
+     "w": "persen.",
+     "start": 87.389,
+     "end": 87.885
+    },
+    {
+     "w": "Kalau",
+     "start": 87.936,
+     "end": 88.315
+    },
+    {
+     "w": "iya,",
+     "start": 88.435,
+     "end": 88.795
+    },
+    {
+     "w": "cicilan",
+     "start": 88.875,
+     "end": 89.435
+    },
+    {
+     "w": "bisa",
+     "start": 89.483,
+     "end": 89.675
+    },
+    {
+     "w": "ikut",
+     "start": 89.702,
+     "end": 89.835
+    },
+    {
+     "w": "naik.",
+     "start": 89.915,
+     "end": 90.286
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "text": "Mana yang paling ngaruh ke kamu, dan kenapa? Komen!",
+   "start": 90.60085034013606,
+   "end": 93.43585034013606,
+   "words": [
+    {
+     "w": "Mana",
+     "start": 90.601,
+     "end": 90.625
+    },
+    {
+     "w": "yang",
+     "start": 90.657,
+     "end": 90.785
+    },
+    {
+     "w": "paling",
+     "start": 90.825,
+     "end": 90.945
+    },
+    {
+     "w": "ngaruh",
+     "start": 90.998,
+     "end": 91.265
+    },
+    {
+     "w": "ke",
+     "start": 91.292,
+     "end": 91.345
+    },
+    {
+     "w": "kamu,",
+     "start": 91.425,
+     "end": 91.905
+    },
+    {
+     "w": "dan",
+     "start": 91.945,
+     "end": 92.065
+    },
+    {
+     "w": "kenapa?",
+     "start": 92.105,
+     "end": 92.625
+    },
+    {
+     "w": "Komen!",
+     "start": 92.736,
+     "end": 93.436
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "text": "Follow biar nggak ketinggalan!",
+   "start": 93.87585034013605,
+   "end": 95.22485034013606,
+   "words": [
+    {
+     "w": "Follow",
+     "start": 93.876,
+     "end": 93.945
+    },
+    {
+     "w": "biar",
+     "start": 94.052,
+     "end": 94.345
+    },
+    {
+     "w": "nggak",
+     "start": 94.372,
+     "end": 94.478
+    },
+    {
+     "w": "ketinggalan!",
+     "start": 94.492,
+     "end": 95.225
+    }
+   ]
+  }
+ ]
+}

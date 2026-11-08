@@ -20,6 +20,13 @@ _One dated line per piece of feedback about topics or angles. The coordinator ap
 - 2026-11-06: Picked #5 (Listyo PART 3: tersangka ke-4 + Kapolri + KSPSI, politics, sensitivity high, 7/12) over the recommended #1 (Susu Bendera/Ultrajaya, 10/12) on wildcard Friday, and said "OK to post" early. Third day in a row on the Listyo storyline. Asked to make videos more storytelling-style to be more engaging (narrative arc, scenes, characters) instead of fact lists.
 - 2026-11-07: Picked ⭐ #1 (Kripto dibobol dua kali, chapter cut weekly ch 2, 9/12) and said "ok to post" in the same reply (~early morning).
 
+## What the audience shows
+_Written by the analyst each Sunday from real IG/YT numbers (W45, 8 Nov). The writer weighs this next to the user's picks; it is a tiebreaker, not an override._
+- Over-performed: a fresh, personal news story with a face and a chronological script (Listyo P3: 1,537 IG views, 54% watched, ~+30 followers); a plain money question with the payoff held back (Korupsi P2: 49%); "kamu/dompet" hooks in plain words (survival, asap rute: 29-30%). Weekly #3 (1,308 IG views, 28 shares+saves per 1k) is the best share rate on the account after weekly #1.
+- Under-performed: jargon or statistic-first hooks (BI-Rate, MSCI, pasal, "nomor berapa": 3-15%); "Katanya X. Ternyata Y." myth hooks (15%, 23%, 56 and 180 views); niche single-source items (Ledger 56 views, Djarum 38); repeat PARTs on a fading storyline (Korupsi P3 12%).
+- Format: 20-23% IG watched is the default band for everything not carried by reach; standard vs short shows no reliable difference. Pratama beats Cahaya on the numbers (30% vs 17%, n=10 vs 9, confounded by block design).
+- User picks vs audience: the user's picks of politics/legal storylines (Listyo, Korupsi) produced both the best and the worst videos; the recommended wallet items scored higher on the rubric but did not do better. Storytelling is untested beyond one hit and one miss.
+
 ## What the picks show
 
 _Recomputed by engine/prefs.py from 20 days of offers, 12 picks._

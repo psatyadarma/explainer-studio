@@ -1,0 +1,569 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Minggu depan: 5 agenda 9–15 Nov — Rangkumin Dong</title>
+<link rel="stylesheet" href="../../../../styles/sticker/sticker.css">
+<script src="../../../../styles/sticker/sticker.js"></script>
+<script src="../../../../styles/sticker/characters/budi.js"></script>
+<script>window.SUB_MODE = "word"; window.SUB_LEAD = 0.0;</script>
+<script src="build/timing.js"></script>
+<style>
+  .zone { position: absolute; width: 1080px; height: 1920px; }
+  .big { font-weight: 900; letter-spacing: -6px; line-height: .9; white-space: nowrap; font-variant-numeric: tabular-nums; }
+  .lbl { font-weight: 800; font-size: 36px; color: var(--slate); white-space: nowrap; text-align: center; }
+  .note { font-weight: 700; font-size: 26px; color: var(--slate); white-space: nowrap; text-align: center; }
+  .bub { background: #fff; border-radius: 30px; padding: 20px 30px 24px; text-align: center;
+         font-weight: 900; font-size: 46px; line-height: 1.08; letter-spacing: -1px; box-shadow: 0 0 0 9px #fff, 0 18px 26px rgba(27,36,48,.2); }
+  .bub.tl::after { content: ""; position: absolute; top: -38px; left: 70px; border: 22px solid transparent; border-bottom: 24px solid #fff; }
+  .bub.bl::after { content: ""; position: absolute; bottom: -38px; left: 70px; border: 22px solid transparent; border-top: 24px solid #fff; }
+  .bub small { display: block; font-weight: 700; font-size: 26px; color: var(--slate); letter-spacing: 0; margin-top: 6px; }
+  .chip { background: #fff; border-radius: 24px; padding: 14px 26px 18px; font-weight: 900; font-size: 46px; letter-spacing: -1px; white-space: nowrap; text-align: center;
+          box-shadow: 0 0 0 8px #fff, 0 14px 24px rgba(27,36,48,.18); }
+  .chip small { display: block; font-weight: 700; font-size: 26px; color: var(--slate); letter-spacing: 0; margin-top: 2px; }
+  .stampx { font-weight: 900; letter-spacing: -2px; color: var(--accent); border: 10px solid var(--accent); border-radius: 22px; padding: 6px 28px 12px;
+            white-space: nowrap; background: rgba(255,255,255,.94); text-align: center; line-height: 1; }
+  .stampx.grey { color: var(--slate); border-color: var(--slate); border-style: dashed; }
+  .stampx.ok { color: #2F7A45; border-color: #2F7A45; }
+  .stampx small { display: block; font-size: 26px; font-weight: 700; letter-spacing: 0; color: var(--slate); margin-top: 6px; }
+  .cal { width: 250px; background: #fff; border-radius: 26px; overflow: hidden; text-align: center; box-shadow: 0 0 0 8px #fff, 0 16px 24px rgba(27,36,48,.22); }
+  .cal .top { background: var(--accent); color: #fff; font-weight: 900; font-size: 40px; padding: 10px 0 12px; letter-spacing: 1px; }
+  .cal .d { font-weight: 900; font-size: 130px; letter-spacing: -5px; line-height: 1; padding: 18px 0 22px; color: var(--ink); white-space: nowrap; }
+  .cal.xs { width: 140px; border-radius: 20px; overflow: visible; }
+  .cal.xs .top { font-size: 28px; padding: 6px 0 8px; border-radius: 20px 20px 0 0; }
+  .cal.xs .d { font-size: 72px; padding: 10px 0 12px; letter-spacing: -3px; }
+  .cal.xs .d.sm { font-size: 44px; padding: 24px 0 26px; letter-spacing: -2px; }
+  .cal.slate .top { background: var(--slate); }
+  .cal.hl { background: var(--hi); }
+  .cal.hl .top { background: var(--ink); }
+  .cal .cap { position: absolute; left: 50%; top: 100%; transform: translateX(-50%); margin-top: 14px; font-weight: 800; font-size: 26px; color: var(--slate); white-space: nowrap; }
+  .ntag { width: 640px; height: 116px; background: #fff; border-radius: 26px; display: flex; flex-direction: row; gap: 20px; align-items: center;
+          padding: 0 26px 0 18px; box-shadow: 0 0 0 8px #fff, 0 16px 24px rgba(27,36,48,.2); }
+  .ntag .icn { flex: 0 0 86px; height: 86px; border-radius: 50%; background: var(--slate); display: flex; align-items: center; justify-content: center; overflow: hidden; }
+  .ntag .tx { display: flex; flex-direction: column; align-items: flex-start; }
+  .ntag .nm { font-weight: 900; font-size: 38px; line-height: 1.05; letter-spacing: -1px; white-space: nowrap; }
+  .ntag .rl { font-weight: 700; font-size: 28px; color: var(--slate); white-space: nowrap; margin-top: 4px; }
+  .frame { border: 10px solid var(--ink); border-radius: 26px; background: rgba(255,255,255,.7); }
+  .frame .fl { position: absolute; left: 24px; top: -34px; background: var(--ink); color: #fff; font-weight: 900; font-size: 34px; padding: 4px 18px 8px; border-radius: 12px; letter-spacing: 1px; white-space: nowrap; }
+  .stk { background: #fff; border-radius: 18px; padding: 10px 16px 12px; font-weight: 900; font-size: 30px; white-space: nowrap; box-shadow: 0 0 0 6px #fff, 0 10px 16px rgba(27,36,48,.18); }
+  .stk.gone { background: #F1D6CF; color: var(--accent); }
+  .track { position: absolute; height: 40px; border-radius: 20px; background: #D9DEE3; box-shadow: 0 0 0 7px #fff; }
+  .fill { position: absolute; height: 40px; border-radius: 20px; background: var(--accent); transform-origin: 0 50%; }
+  .budi { width: 330px; height: 440px; }
+  .budi svg { width: 100%; height: 100%; display: block; }
+  .ilu { background: #fff; color: var(--slate); font-weight: 900; font-size: 26px; letter-spacing: 2px; padding: 6px 14px 8px; border-radius: 10px;
+         border: 4px solid var(--slate); white-space: nowrap; }
+  .djp { width: 840px; background: #fff; border-radius: 30px; padding: 26px 34px 30px; box-shadow: 0 0 0 9px #fff, 0 18px 26px rgba(27,36,48,.2); }
+  .djp .hd { font-weight: 900; font-size: 40px; color: #fff; background: #2F7A45; display: inline-block; padding: 6px 18px 10px; border-radius: 12px; }
+  .djp .hd small { font-size: 26px; font-weight: 700; opacity: .9; }
+  .djp .row { display: flex; align-items: center; gap: 18px; margin-top: 20px; font-weight: 900; font-size: 46px; letter-spacing: -1px; white-space: nowrap; }
+  .djp .ck { flex: 0 0 62px; height: 62px; border-radius: 50%; background: #2F7A45; display: flex; align-items: center; justify-content: center; }
+  .box { width: 330px; background: #fff; border-radius: 26px; text-align: center; padding: 16px 10px 20px; box-shadow: 0 0 0 8px #fff, 0 14px 24px rgba(27,36,48,.2); }
+  .box .k { font-weight: 900; font-size: 30px; letter-spacing: 3px; color: #fff; display: inline-block; padding: 4px 14px 6px; border-radius: 10px; }
+  .box .v { font-weight: 900; font-size: 48px; letter-spacing: -1px; margin-top: 10px; white-space: nowrap; }
+  #disc { position: absolute; right: 160px; top: 236px; z-index: 5; background: rgba(255,255,255,.94); color: var(--slate); font-weight: 800; font-size: 24px;
+          padding: 6px 14px 8px; border-radius: 10px; white-space: nowrap; }
+  #endcard { position: absolute; inset: 0; z-index: 8; display: flex; flex-direction: column; align-items: center; justify-content: center;
+             gap: 24px; background: var(--paper); opacity: 0; }
+  #endcard .logo { background: var(--accent); color: #fff; font-weight: 900; font-size: 116px; letter-spacing: -4px;
+                   padding: 30px 58px 40px; border-radius: 44px; line-height: .95; text-align: center; transform: rotate(-3deg); }
+  #endcard .tl2 { font-weight: 800; font-size: 54px; color: var(--slate); }
+  #endcard .h { font-weight: 900; font-size: 50px; background: var(--ink); color: #fff; padding: 12px 26px; border-radius: 16px; }
+  #endcard .src { font-weight: 700; font-size: 26px; color: var(--slate); margin-top: 10px; text-align: center; line-height: 1.4; max-width: 900px; }
+</style>
+</head>
+<body>
+<div id="stage">
+  <div id="world">
+
+    <!-- zA (0,0): hook A "TRANSFER KENA PAJAK? / CEK DULU" (myth) · hook B "5 AGENDA / MANA YANG KENA KAMU?" (kamu_stakes) -->
+    <div id="zA" class="zone" style="left:0; top:0;">
+      <div id="aHd" class="abs headline" style="left:540px; top:500px; width:1000px;">
+        <div id="aHd1" style="font-size:86px; white-space:nowrap; letter-spacing:-3px;">TRANSFER KENA PAJAK?</div>
+        <div id="aHd2" style="font-size:150px; color:var(--accent); white-space:nowrap; letter-spacing:-5px; line-height:.95;">CEK DULU</div></div>
+      <div id="aPh" class="abs sticker-svg" style="left:300px; top:900px;"></div>
+      <div id="aTr" class="abs sticker-svg" style="left:740px; top:820px;"></div>
+      <div id="aQ" class="abs big" style="left:820px; top:780px; font-size:200px; color:var(--accent); letter-spacing:0;">?</div>
+      <div id="aOk" class="abs stampx ok" style="left:700px; top:1050px; font-size:56px; border-width:9px;">BUKAN PAJAK BARU<small>kata DJP, 2 Nov</small></div>
+      <div id="aTiles"></div>
+
+      <div id="bHd" class="abs headline" style="left:540px; top:540px; width:1000px; display:none;">
+        <div id="bHd1" style="font-size:156px; color:var(--accent); white-space:nowrap; letter-spacing:-5px; line-height:.95;">5 AGENDA</div>
+        <div id="bHd2" style="font-size:78px; white-space:nowrap; letter-spacing:-3px; margin-top:12px;">MANA YANG KENA KAMU?</div></div>
+      <div id="bI1" class="abs sticker-svg" style="left:200px; top:880px; display:none;"></div>
+      <div id="bI2" class="abs sticker-svg" style="left:413px; top:880px; display:none;"></div>
+      <div id="bI3" class="abs sticker-svg" style="left:627px; top:880px; display:none;"></div>
+      <div id="bI4" class="abs sticker-svg" style="left:840px; top:880px; display:none;"></div>
+      <div id="bTiles"></div>
+    </div>
+
+    <!-- tagline (1240,0) -->
+    <div class="zone" style="left:1240px; top:0;">
+      <div id="stamp" class="abs stamp sticker" style="left:540px; top:960px; font-size:110px;">Rangkumin dong!</div>
+    </div>
+
+    <!-- ZB (2480,0): Pak Budi (ilustrasi) + the bonus loop -->
+    <div class="zone" style="left:2480px; top:0;">
+      <div id="bdIl" class="abs ilu" style="left:330px; top:540px;">ILUSTRASI</div>
+      <div id="bd1" class="abs sticker-svg budi" style="left:330px; top:810px;"></div>
+      <div id="bdN" class="abs tag sticker" style="left:330px; top:1080px; font-size:44px;">Pak Budi</div>
+      <div id="bdP1" class="abs sticker-svg" style="left:760px; top:600px;"></div>
+      <div id="bdP2" class="abs sticker-svg" style="left:760px; top:830px;"></div>
+      <div id="bdP3" class="abs sticker-svg" style="left:760px; top:1060px;"></div>
+      <div id="bdL" class="abs chip" style="left:420px; top:1310px; display:flex; align-items:center; gap:14px;"><span id="bdLk"></span>BONUS<small style="display:inline; margin:0 0 0 4px;">di akhir</small></div>
+      <div id="bdC" class="abs tag accent sticker" style="left:800px; top:1310px; font-size:44px;">cicilan?</div>
+    </div>
+
+    <!-- Z2 (0,2400): Sen 9 Nov, pajak digital -->
+    <div class="zone" style="left:0; top:2400px;">
+      <div id="z2Day" class="abs tag sticker" style="left:230px; top:420px; font-size:44px;">Senin</div>
+      <div id="z2Cal" class="abs cal" style="left:230px; top:640px;"><div class="top">NOV</div><div class="d">9</div></div>
+      <div id="z2Il" class="abs ilu" style="left:740px; top:540px;">ILUSTRASI</div>
+      <div id="z2Bd" class="abs sticker-svg budi" style="left:740px; top:800px;"></div>
+      <div id="z2Msg" class="abs bub tl" style="left:540px; top:1170px; font-size:46px; white-space:nowrap;">"Pajak digital mulai hari ini!"<small>pesan berantai</small></div>
+      <div id="z2Hs" class="abs ntag" style="left:620px; top:900px; width:560px;"><div class="icn person"></div>
+        <div class="tx"><div class="nm">kata Hashim</div><div class="rl">acara Kadin, 29 Okt</div></div></div>
+      <div id="z2C1" class="abs chip" style="left:300px; top:1080px;">Shopee</div>
+      <div id="z2C2" class="abs note" style="left:520px; top:1080px; font-size:44px; color:var(--ink); font-weight:900;">…</div>
+      <div id="z2C3" class="abs chip" style="left:740px; top:1080px;">bank</div>
+      <div id="z2P" class="abs tag sticker" style="left:540px; top:1240px; font-size:44px;">bakal pungut pajak digital</div>
+      <div id="z2Dj" class="abs djp" style="left:540px; top:1080px;">
+        <div class="hd">kata DJP <small>· 2 Nov</small></div>
+        <div class="row" id="z2R1"><div class="ck"></div>bukan pajak baru</div>
+        <div class="row" id="z2R2"><div class="ck"></div>transfer pribadi bukan sasaran</div></div>
+    </div>
+
+    <!-- Z3 (1240,2400): Sel 10 Nov, Perlinsos Digital -->
+    <div class="zone" style="left:1240px; top:2400px;">
+      <div id="z3Day" class="abs tag sticker" style="left:230px; top:420px; font-size:44px;">Selasa</div>
+      <div id="z3Cal" class="abs cal" style="left:230px; top:640px;"><div class="top">NOV</div><div class="d">10</div></div>
+      <div id="z3Pr" class="abs chip" style="left:700px; top:580px;">Presiden</div>
+      <div id="z3Dj" class="abs stampx grey" style="left:700px; top:720px; font-size:44px; border-width:7px;">DIJADWALKAN</div>
+      <div id="z3Hd" class="abs headline" style="left:540px; top:1010px; font-size:100px; line-height:1;">PERLINSOS<br><span class="acc">DIGITAL</span></div>
+      <div id="z3Ic" class="abs sticker-svg" style="left:310px; top:1060px;"></div>
+      <div id="z3Tu" class="abs tag accent sticker" style="left:310px; top:1250px; font-size:44px;">tunai</div>
+      <div id="z3Bb" class="abs stampx grey" style="left:310px; top:1370px; font-size:34px; border-width:6px; padding:4px 16px 8px;">bukan barang</div>
+      <div id="z3Tg" class="abs" style="left:720px; top:1080px; text-align:center;">
+        <div class="lbl" style="color:var(--ink);">target</div>
+        <div class="big" style="font-size:150px; letter-spacing:-4px; margin:6px 0 10px; color:var(--accent);"><span id="z3N">0</span> juta</div>
+        <div class="lbl" style="color:var(--ink);">penerima</div></div>
+      <div id="z3Lh" class="abs tag light sticker" style="left:600px; top:1400px; font-size:32px; padding:10px 20px;">Luhut: kalau tidak ada perubahan</div>
+    </div>
+
+    <!-- Z4 (2480,2400): Rab 11 Nov, Shopee 11.11 -->
+    <div class="zone" style="left:2480px; top:2400px;">
+      <div id="z4Day" class="abs tag sticker" style="left:230px; top:420px; font-size:44px;">Rabu</div>
+      <div id="z4Cal" class="abs cal" style="left:230px; top:640px;"><div class="top">NOV</div><div class="d">11</div></div>
+      <div id="z4Ct" class="abs sticker-svg" style="left:720px; top:620px;"></div>
+      <div id="z4L" class="abs chip" style="left:720px; top:820px;">Shopee 11.11<small>hari terakhir</small></div>
+      <div id="z4D" class="abs stampx" style="left:720px; top:1010px; font-size:84px;">s.d. 90%<small>klaim Shopee</small></div>
+      <div id="z4Il" class="abs ilu" style="left:300px; top:860px;">ILUSTRASI</div>
+      <div id="z4Bd" class="abs sticker-svg budi" style="left:300px; top:1110px;"></div>
+      <div id="z4Q" class="abs big" style="left:440px; top:900px; font-size:150px; color:var(--accent); letter-spacing:0;">?</div>
+      <div id="z4A" class="abs bub bl" style="left:720px; top:1250px; width:470px; font-size:40px;">tunggu arahan DJP<small>asosiasi e-commerce (idEA)</small></div>
+    </div>
+
+    <!-- Z5 (0,4800): Kam 12 Nov, MSCI -->
+    <div class="zone" style="left:0; top:4800px;">
+      <div id="z5Day" class="abs tag sticker" style="left:230px; top:420px; font-size:44px;">Kamis</div>
+      <div id="z5Cal" class="abs cal" style="left:230px; top:640px;"><div class="top">NOV</div><div class="d">12</div></div>
+      <div id="z5M" class="abs big" style="left:700px; top:590px; font-size:150px; letter-spacing:-4px;">MSCI</div>
+      <div id="z5R" class="abs tag sticker" style="left:700px; top:740px; font-size:40px;">review indeks Nov</div>
+      <div id="z5F" class="abs frame" style="left:540px; top:990px; width:820px; height:170px;"><div class="fl">saham Indonesia di indeks</div></div>
+      <div id="z5S1" class="abs stk" style="left:250px; top:1000px;">saham ▲</div>
+      <div id="z5S2" class="abs stk" style="left:445px; top:1000px;">saham ▲</div>
+      <div id="z5S3" class="abs stk" style="left:640px; top:1000px;">saham ▲</div>
+      <div id="z5S4" class="abs stk" style="left:835px; top:1000px;">saham ▲</div>
+      <div id="z5Q" class="abs big" style="left:640px; top:860px; font-size:110px; color:var(--accent); letter-spacing:0;">?</div>
+      <div id="z5Tl" class="abs" style="left:540px; top:1300px; width:760px; height:40px;">
+        <div class="track" style="left:0; width:760px; top:0;"></div>
+        <div id="z5Fill" class="fill" style="left:0; width:760px; top:0;"></div>
+        <div class="abs note" style="left:40px; top:80px; font-size:28px; color:var(--ink);">NOV 2026</div>
+        <div id="z5End" class="abs note" style="left:700px; top:80px; font-size:30px; color:var(--accent); font-weight:900;">JUN 2027</div>
+        <div id="z5TlL" class="abs lbl" style="left:380px; top:-62px; font-size:34px; color:var(--ink);">status Indonesia diputuskan, paling lambat</div></div>
+    </div>
+
+    <!-- Z5b (1240,4800): Kam 12 Nov, sidang dr Tifa -->
+    <div class="zone" style="left:1240px; top:4800px;">
+      <div id="z6Cal" class="abs cal xs slate" style="left:230px; top:500px;"><div class="top">KAM</div><div class="d">12</div></div>
+      <div id="z6Hs" class="abs tag light sticker" style="left:600px; top:500px; font-size:40px;">hari yang sama</div>
+      <div id="z6Ct" class="abs sticker-svg" style="left:540px; top:770px;"></div>
+      <div id="z6L" class="abs tag sticker" style="left:540px; top:960px; font-size:38px;">PN Jakarta Timur · sidang dr Tifa</div>
+      <div id="z6T" class="abs ntag" style="left:540px; top:1120px;"><div class="icn person"></div>
+        <div class="tx"><div class="nm">Ajudan Jokowi</div><div class="rl">saksi</div></div></div>
+      <div id="z6St" class="abs stampx grey" style="left:540px; top:1290px; font-size:44px; border-width:7px;">DIJADWALKAN</div>
+    </div>
+
+    <!-- Z6 (2480,4800): the turn, ramai vs sepi -->
+    <div class="zone" style="left:2480px; top:4800px;">
+      <div id="tTapi" class="abs headline" style="left:540px; top:470px; font-size:120px; color:var(--accent);">Tapi…</div>
+      <div id="tKl" class="abs tag sticker" style="left:540px; top:620px; font-size:42px;">yang sering kelewat</div>
+      <div id="tSaw" class="abs" style="left:540px; top:960px; width:860px; height:300px;">
+        <div style="position:absolute; left:0; bottom:0; width:860px; height:26px; border-radius:13px; background:var(--ink); box-shadow:0 0 0 7px #fff;"></div>
+        <div id="tL" class="box" style="position:absolute; left:20px; bottom:40px;"><div class="k" style="background:var(--accent);">RAMAI</div><div class="v">pajak Senin</div></div>
+        <div id="tBp" class="abs stampx grey" style="left:185px; top:20px; font-size:40px; border-width:7px;">belum pasti</div>
+        <div id="tR" class="box" style="position:absolute; right:20px; bottom:40px;"><div class="k" style="background:var(--slate);">SEPI</div><div class="v">data desil</div></div>
+      </div>
+      <svg id="tPiv" class="abs" style="left:540px; top:1180px;" width="160" height="140" viewBox="0 0 160 140"><path d="M80 8 L150 132 H10 Z" fill="#3E5568" stroke="#fff" stroke-width="8" stroke-linejoin="round"/></svg>
+      <div id="tMb" class="abs tag accent sticker" style="left:540px; top:1360px; font-size:42px;">menentukan siapa dapat bansos</div>
+    </div>
+
+    <!-- Z6b (0,7200): cek desil pakai NIK -->
+    <div class="zone" style="left:0; top:7200px;">
+      <div id="nPh" class="abs sticker-svg" style="left:540px; top:830px;"></div>
+      <div id="nNik" class="abs sticker-svg" style="left:540px; top:850px;"></div>
+      <div id="nUrl" class="abs tag sticker" style="left:540px; top:1190px; font-size:40px;">cekbansos.kemensos.go.id</div>
+      <div id="nK" class="abs tag accent sticker" style="left:540px; top:1300px; font-size:40px;">situs Kemensos</div>
+    </div>
+
+    <!-- Z7 (1240,7200): bonus, RDG BI 17–18 Nov -->
+    <div class="zone" style="left:1240px; top:7200px;">
+      <div id="pLk" class="abs chip" style="left:540px; top:620px; font-size:80px; display:flex; align-items:center; gap:20px;"><span id="pLkI"></span>BONUS</div>
+      <div id="pCal" class="abs cal" style="left:300px; top:620px; width:300px;"><div class="top">NOV</div><div class="d" style="font-size:110px; padding:28px 0 30px;">17–18</div></div>
+      <div id="pBI" class="abs chip" style="left:740px; top:580px; font-size:60px;">BI rapat<small>Rapat Dewan Gubernur</small></div>
+      <div id="pEk" class="abs note" style="left:720px; top:800px; font-size:32px; color:var(--ink);">perkiraan beberapa ekonom</div>
+      <div id="pBr" class="abs tag sticker" style="left:720px; top:880px; font-size:40px;">BI rate</div>
+      <div id="pN" class="abs big" style="left:720px; top:1030px; font-size:200px; color:var(--accent);">6%?</div>
+      <div id="pIl" class="abs ilu" style="left:280px; top:860px;">ILUSTRASI</div>
+      <div id="pBd" class="abs sticker-svg budi" style="left:280px; top:1110px;"></div>
+      <div id="pCc" class="abs sticker-svg" style="left:700px; top:1260px;"></div>
+      <div id="pBs" class="abs tag accent sticker" style="left:720px; top:1390px; font-size:40px;">bisa ikut naik</div>
+    </div>
+
+    <!-- CTA (2480,7200) -->
+    <div class="zone" style="left:2480px; top:7200px;">
+      <div id="qHd" class="abs headline" style="left:540px; top:520px; font-size:84px; line-height:1.06; white-space:nowrap;">Mana yang paling<br><span class="acc">ngaruh ke kamu?</span></div>
+      <div id="qTiles"></div>
+      <div id="qCom" class="abs sticker-svg" style="left:330px; top:1200px;"></div>
+      <div id="qK" class="abs bub" style="left:700px; top:1180px; font-size:64px;">Komen!</div>
+    </div>
+  </div>
+
+  <div id="brand"><div class="dot"></div><b>Rangkumin Dong</b></div>
+  <div id="disc">Bukan ajakan jual/beli saham</div>
+  <div id="subs"></div>
+  <div id="endcard">
+    <div class="logo">RANGKUMIN<br>DONG</div>
+    <div class="tl2">Berita ribet? Rangkumin dong.</div>
+    <div class="h">Follow @rangkumindong</div>
+    <div class="src">Sumber: detikFinance, Katadata, IKPI, CNBC Indonesia, Shopee,<br>EmitenNews, detikNews, KabarBursa, Investor.id · lengkap di komentar</div>
+    <div class="src" style="font-size:24px; margin-top:0;">Pak Budi = ilustrasi · pajak digital 9 Nov: tanggal belum dikonfirmasi DJP · 6% = perkiraan ekonom</div>
+    <div class="src" style="font-size:24px; margin-top:0; color:var(--ink);">Bukan ajakan jual/beli saham</div>
+  </div>
+  <div id="progress"></div>
+</div>
+
+<script>
+const $ = (id) => document.getElementById(id);
+const T = window.TIMING;
+window.DURATION = T.duration;
+const at = K.at, W = K.word;
+const VB = T.variant === 'b';
+const END = K.line('cta').end + 0.1;
+
+// ---------- SVG builders (generic icons, no logos) ----------
+const personSil = (s = 86) => `<svg width="${s}" height="${s}" viewBox="0 0 106 106"><circle cx="53" cy="40" r="19" fill="#fff"/><path d="M14 106 Q14 66 53 66 Q92 66 92 106 Z" fill="#fff"/></svg>`;
+const checkSil = () => `<svg width="40" height="40" viewBox="0 0 40 40"><path d="M8 21 L17 30 L33 11" stroke="#fff" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+const chatPhone = (w = 250) => `<svg width="${w}" height="${w * 1.66}" viewBox="0 0 230 382"><rect x="8" y="8" width="214" height="366" rx="36" fill="#1B2430"/>
+  <rect x="22" y="26" width="186" height="330" rx="24" fill="#EAF1E4"/><rect x="88" y="36" width="54" height="12" rx="6" fill="#1B2430"/>
+  <g id="pb1"><text x="38" y="96" font-family="Inter" font-style="italic" font-weight="700" font-size="16" fill="#3E5568">↪ Diteruskan berkali-kali</text>
+  <rect x="34" y="106" width="166" height="118" rx="16" fill="#fff"/>
+  <text x="48" y="142" font-family="Inter" font-weight="900" font-size="23" fill="#1B2430">Transfer kena</text>
+  <text x="48" y="172" font-family="Inter" font-weight="900" font-size="23" fill="#1B2430">pajak mulai</text>
+  <text x="48" y="204" font-family="Inter" font-weight="900" font-size="23" fill="#FF5A36">Senin!!!</text></g>
+  <g id="pb2"><rect x="70" y="244" width="130" height="50" rx="16" fill="#fff"/><text x="86" y="277" font-family="Inter" font-weight="900" font-size="22" fill="#1B2430">serius??</text></g></svg>`;
+const transferSVG = () => `<svg width="300" height="200" viewBox="0 0 300 200"><rect x="10" y="40" width="190" height="110" rx="14" fill="#7FBF7F" stroke="#1B2430" stroke-width="6"/>
+  <circle cx="105" cy="95" r="32" fill="#fff" stroke="#1B2430" stroke-width="5"/><text x="105" y="106" text-anchor="middle" font-family="Inter" font-weight="900" font-size="28" fill="#1B2430">Rp</text>
+  <path d="M190 95 H280 M248 62 L284 95 L248 128" stroke="#1B2430" stroke-width="14" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+const laptopSVG = () => `<svg width="240" height="170" viewBox="0 0 240 170"><rect x="34" y="10" width="172" height="118" rx="12" fill="#3E5568" stroke="#1B2430" stroke-width="6"/>
+  <rect x="48" y="24" width="144" height="90" rx="6" fill="#DCE6EE"/><rect x="60" y="40" width="80" height="10" rx="5" fill="#3E5568"/><rect x="60" y="60" width="110" height="10" rx="5" fill="#B9C2CB"/><rect x="60" y="80" width="96" height="10" rx="5" fill="#B9C2CB"/>
+  <path d="M10 134 H230 L214 160 H26 Z" fill="#B9C2CB" stroke="#1B2430" stroke-width="6" stroke-linejoin="round"/></svg>`;
+const miniChart = () => `<svg width="240" height="160" viewBox="0 0 240 160"><rect x="6" y="6" width="228" height="148" rx="20" fill="#fff" stroke="#1B2430" stroke-width="6"/>
+  <path d="M30 126 H210 M30 30 V126" stroke="#B9C2CB" stroke-width="5" stroke-linecap="round"/>
+  <path d="M40 110 L80 92 L115 104 L150 70 L190 52" stroke="#FF5A36" stroke-width="9" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+const bagSVG = () => `<svg width="200" height="200" viewBox="0 0 200 200"><path d="M70 70 Q70 20 100 20 Q130 20 130 70" stroke="#1B2430" stroke-width="10" fill="none"/>
+  <path d="M30 64 H170 L158 188 H42 Z" fill="#FF8A3D" stroke="#1B2430" stroke-width="7" stroke-linejoin="round"/>
+  <circle cx="72" cy="88" r="7" fill="#1B2430"/><circle cx="128" cy="88" r="7" fill="#1B2430"/><text x="100" y="150" text-anchor="middle" font-family="Inter" font-weight="900" font-size="34" fill="#fff">%</text></svg>`;
+const sackSVG = () => `<svg width="220" height="220" viewBox="0 0 220 220"><path d="M78 40 Q110 64 142 40 L136 70 Q196 110 186 170 Q180 208 110 208 Q40 208 34 170 Q24 110 84 70 Z" fill="#E6D3A8" stroke="#1B2430" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M84 70 Q110 82 136 70" stroke="#1B2430" stroke-width="7" fill="none"/><text x="110" y="156" text-anchor="middle" font-family="Inter" font-weight="900" font-size="32" fill="#1B2430">BERAS</text></svg>`;
+const cashSVG = () => `<svg width="230" height="200" viewBox="0 0 230 200"><rect x="30" y="30" width="180" height="96" rx="12" fill="#5FA06A" stroke="#1B2430" stroke-width="6" transform="rotate(-8 120 78)"/>
+  <rect x="20" y="70" width="190" height="104" rx="12" fill="#7FBF7F" stroke="#1B2430" stroke-width="6"/>
+  <circle cx="115" cy="122" r="30" fill="#fff" stroke="#1B2430" stroke-width="5"/><text x="115" y="132" text-anchor="middle" font-family="Inter" font-weight="900" font-size="26" fill="#1B2430">Rp</text></svg>`;
+const cartSVG = () => `<svg width="280" height="220" viewBox="0 0 280 220"><path d="M14 30 H58 L84 150 H230 L256 62 H70" stroke="#1B2430" stroke-width="12" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M80 70 H246 L226 140 H94 Z" fill="#FF5A36"/><text x="162" y="122" text-anchor="middle" font-family="Inter" font-weight="900" font-size="38" fill="#fff">11.11</text>
+  <circle cx="104" cy="186" r="18" fill="#1B2430"/><circle cx="210" cy="186" r="18" fill="#1B2430"/></svg>`;
+const receiptSVG = () => `<svg width="170" height="210" viewBox="0 0 170 210"><path d="M14 10 H156 V200 L136 186 L116 200 L96 186 L76 200 L56 186 L36 200 L14 186 Z" fill="#fff" stroke="#1B2430" stroke-width="6" stroke-linejoin="round"/>
+  <text x="85" y="58" text-anchor="middle" font-family="Inter" font-weight="900" font-size="30" fill="#FF5A36">PAJAK</text>
+  <rect x="34" y="80" width="102" height="10" rx="5" fill="#B9C2CB"/><rect x="34" y="102" width="80" height="10" rx="5" fill="#B9C2CB"/><rect x="34" y="124" width="96" height="10" rx="5" fill="#B9C2CB"/><rect x="34" y="150" width="60" height="14" rx="5" fill="#1B2430"/></svg>`;
+const bansosCard = () => `<svg width="200" height="140" viewBox="0 0 200 140"><rect x="6" y="6" width="188" height="128" rx="16" fill="#5FA8D3" stroke="#1B2430" stroke-width="6"/>
+  <rect x="6" y="34" width="188" height="20" fill="#1B2430"/><text x="100" y="104" text-anchor="middle" font-family="Inter" font-weight="900" font-size="34" fill="#fff">BANSOS</text></svg>`;
+const lockSVG = (s = 80) => `<svg width="${s}" height="${s * 1.2}" viewBox="0 0 100 120"><path class="shk" d="M28 56 V36 Q28 12 50 12 Q72 12 72 36 V56" stroke="#1B2430" stroke-width="12" fill="none" stroke-linecap="round" style="transform-origin:72px 56px"/>
+  <rect x="12" y="52" width="76" height="60" rx="12" fill="#FFD23F" stroke="#1B2430" stroke-width="7"/><circle cx="50" cy="80" r="8" fill="#1B2430"/><rect x="46" y="82" width="8" height="16" rx="3" fill="#1B2430"/></svg>`;
+const courtSVG = () => `<svg width="320" height="250" viewBox="0 0 300 236"><path d="M30 92 L150 30 L270 92 Z" fill="#3E5568"/><rect x="34" y="92" width="232" height="14" fill="#2C3E4E"/>
+  ${[0, 1, 2, 3, 4].map((i) => `<rect x="${56 + i * 44}" y="112" width="20" height="82" rx="3" fill="#fff" stroke="#3E5568" stroke-width="4"/>`).join('')}
+  <rect x="20" y="196" width="260" height="22" rx="6" fill="#1B2430"/></svg>`;
+const phoneSVG = (w = 260) => `<svg width="${w}" height="${w * 1.66}" viewBox="0 0 230 382"><rect x="8" y="8" width="214" height="366" rx="36" fill="#1B2430"/>
+  <rect x="22" y="26" width="186" height="330" rx="24" fill="#fff"/><rect x="88" y="36" width="54" height="12" rx="6" fill="#1B2430"/>
+  <text x="115" y="96" text-anchor="middle" font-family="Inter" font-weight="900" font-size="30" fill="#1B2430">cek desil</text>
+  <rect x="40" y="250" width="150" height="40" rx="10" fill="#fff" stroke="#3E5568" stroke-width="4"/><text x="54" y="277" font-family="Inter" font-weight="700" font-size="20" fill="#3E5568">NIK: ••••••</text>
+  <rect x="40" y="302" width="150" height="40" rx="14" fill="#FF5A36"/><text x="115" y="330" text-anchor="middle" font-family="Inter" font-weight="900" font-size="22" fill="#fff">CEK</text></svg>`;
+const nikSVG = (w = 160) => `<svg width="${w}" height="${w * 0.66}" viewBox="0 0 160 106"><rect x="4" y="4" width="152" height="98" rx="12" fill="#5FA8D3" stroke="#1B2430" stroke-width="5"/>
+  <rect x="14" y="16" width="40" height="52" rx="6" fill="#fff"/><circle cx="34" cy="34" r="9" fill="#3E5568"/><path d="M20 64 Q34 46 48 64 Z" fill="#3E5568"/>
+  <text x="64" y="34" font-family="Inter" font-weight="900" font-size="20" fill="#1B2430">NIK</text>
+  <rect x="64" y="44" width="80" height="8" rx="4" fill="#fff"/><rect x="64" y="58" width="60" height="8" rx="4" fill="#fff"/><rect x="14" y="80" width="130" height="10" rx="5" fill="#1B2430" opacity=".5"/></svg>`;
+const cicilanSVG = () => `<svg width="330" height="150" viewBox="0 0 330 150"><rect x="6" y="20" width="220" height="120" rx="16" fill="#fff" stroke="#1B2430" stroke-width="6"/>
+  <text x="116" y="62" text-anchor="middle" font-family="Inter" font-weight="900" font-size="30" fill="#1B2430">CICILAN</text>
+  <rect x="30" y="80" width="170" height="10" rx="5" fill="#B9C2CB"/><rect x="30" y="102" width="120" height="14" rx="6" fill="#FF5A36"/>
+  <path id="ccA" d="M280 136 V30 M248 62 L280 26 L312 62" stroke="#FF5A36" stroke-width="16" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+const commentSVG = () => `<svg width="240" height="210" viewBox="0 0 260 230"><path d="M20 30 Q20 10 40 10 H220 Q240 10 240 30 V150 Q240 170 220 170 H110 L60 214 L70 170 H40 Q20 170 20 150 Z" fill="#fff" stroke="#1B2430" stroke-width="8" stroke-linejoin="round"/>
+  <circle cx="80" cy="90" r="14" fill="#1B2430"/><circle cx="130" cy="90" r="14" fill="#1B2430"/><circle cx="180" cy="90" r="14" fill="#1B2430"/></svg>`;
+
+document.querySelectorAll('.icn.person').forEach((d) => (d.innerHTML = personSil()));
+document.querySelectorAll('.djp .ck').forEach((d) => (d.innerHTML = checkSil()));
+$('aPh').innerHTML = chatPhone(250); $('aTr').innerHTML = transferSVG();
+$('bI1').innerHTML = bansosCard(); $('bI2').innerHTML = bagSVG(); $('bI3').innerHTML = miniChart(); $('bI4').innerHTML = receiptSVG();
+$('bdP1').innerHTML = laptopSVG(); $('bdP2').innerHTML = miniChart(); $('bdP3').innerHTML = bagSVG();
+$('bdLk').innerHTML = lockSVG(48); $('pLkI').innerHTML = lockSVG(80);
+$('z3Ic').innerHTML = sackSVG();
+$('z4Ct').innerHTML = cartSVG();
+$('z6Ct').innerHTML = courtSVG();
+$('nPh').innerHTML = phoneSVG(260); $('nNik').innerHTML = nikSVG(170);
+$('pCc').innerHTML = cicilanSVG();
+$('qCom').innerHTML = commentSVG();
+
+// ---------- calendar tiles ----------
+function tile(host, d, m, x, y, cls = 'xs slate', cap = '') {
+  const e = document.createElement('div'); e.className = 'abs cal ' + cls; e.style.left = x + 'px'; e.style.top = y + 'px';
+  e.innerHTML = `<div class="top">${m}</div><div class="d${d.length > 2 ? ' sm' : ''}">${d}</div>` + (cap ? `<div class="cap">${cap}</div>` : '');
+  host.appendChild(e); return e;
+}
+const FIVE = [['9', 'SEN', 'pajak'], ['10', 'SEL', 'bansos'], ['11', 'RAB', '11.11'], ['12', 'KAM', 'MSCI'], ['12', 'KAM', 'sidang']];
+const aT = FIVE.map(([d, m], i) => tile($('aTiles'), d, m, 160 + i * 170, 1250, 'xs slate'));
+const bT = FIVE.slice(0, 4).map(([d, m], i) => tile($('bTiles'), d, m, 220 + i * 213, 1220, 'xs slate'));
+const qT = [...FIVE, ['17–18', 'NOV', 'bonus BI']].map(([d, m, c], i) => tile($('qTiles'), d, m, 150 + i * 152, 840, 'xs ' + (i === 5 ? 'hl' : 'slate'), c));
+
+let T_ = 0;
+const pulse = (el, tIn, amt = 0.12, rot = 0) => { const k = K.clamp((T_ - tIn) / 0.45); el.style.transform = `translate(-50%,-50%) scale(${1 + amt * Math.sin(Math.PI * k)}) rotate(${rot}deg)`; };
+const slam = (el, t, tIn, rot = 0, from = 2, tOut = Infinity) => { const s = K.spring(t - tIn, 320, 18), o = K.clamp((t - tOut) / 0.25);
+  el.style.opacity = t >= tIn ? 1 - o : 0; el.style.transform = `translate(-50%,-50%) scale(${(from - (from - 1) * s) * (1 - 0.2 * o)}) rotate(${rot}deg)`; };
+const setB = (el, ex) => { if (el.dataset.ex !== ex) { el.dataset.ex = ex; el.innerHTML = K.budi(ex); } };
+const flyTiles = (arr, times, t) => arr.forEach((e, i) => { const k = K.spring(t - times[i], 260, 18); e.style.opacity = t >= times[i] ? 1 : 0;
+  e.style.transform = `translate(-50%,-50%) translateX(${(1 - k) * 260}px) scale(${0.85 + 0.15 * k}) rotate(${[-3, 2, -2, 3, -4][i]}deg)`; });
+
+if (VB) {
+  ['aHd', 'aPh', 'aTr', 'aQ', 'aOk', 'aTiles'].forEach((id) => { $(id).style.display = 'none'; });
+  ['bHd', 'bI1', 'bI2', 'bI3', 'bI4'].forEach((id) => { $(id).style.display = ''; });
+} else {
+  $('bTiles').style.display = 'none';
+}
+
+function seek(t) {
+  T_ = t;
+  const Z = (x, y, z = 1.0) => ({ x, y: y + 200 / z, z });
+  const zc = (ox, oy, z = 1) => Z(ox + 540, oy + 960, z);
+  const hEnd = at('rd', -0.3);
+  K.camera($('world'), [
+    { t: 0, ...zc(0, 0) },
+    { t: (VB ? at('hb2') : at('h2')) - 0.15, ...zc(0, 0, 1.04), dur: 0.5 },
+    { t: hEnd, ...Z(1240 + 540, 960, 1.1) },
+    { t: at('s1', -0.3), ...zc(2480, 0) },
+    { t: at('d1', -0.3), ...zc(0, 2400) },
+    { t: at('d1c', -0.2), ...zc(0, 2400, 1.03), dur: 0.5 },
+    { t: at('d2', -0.3), ...zc(1240, 2400) },
+    { t: at('d3', -0.3), ...zc(2480, 2400) },
+    { t: at('d4', -0.3), ...zc(0, 4800) },
+    { t: at('d5', -0.3), ...zc(1240, 4800) },
+    { t: at('t1', -0.3), ...zc(2480, 4800) },
+    { t: W('t3', 'menentukan') - 0.3, ...zc(2480, 4800, 1.04), dur: 0.5 },
+    { t: at('t4', -0.3), ...zc(0, 7200) },
+    { t: at('p1', -0.3), ...zc(1240, 7200) },
+    { t: at('cta', -0.3), ...zc(2480, 7200) },
+  ], t, 1080, 1920, 0.6);
+  $('zA').style.visibility = t > hEnd + 0.7 ? 'hidden' : 'visible';
+
+  // ---------- hook A: myth "transfer kena pajak", a change every ≤1.1 s ----------
+  if (!VB) {
+    const th = 1 + 0.05 * Math.exp(-6 * t) * Math.sin(t * 14);
+    $('aHd').style.transform = `translate(-50%,-50%) scale(${th})`;
+    const pz = (el, w0, a = 0.08) => { if (t > w0 - 0.05) el.style.transform = `scale(${1 + a * Math.sin(Math.PI * K.clamp((t - w0 + 0.05) / 0.4))})`; };
+    pz($('aHd1'), W('h1', 'senin')); pz($('aHd2'), W('h2', 'kata'));
+    K.pop($('aPh'), t, -0.5, Infinity, -4 + 1.5 * Math.sin(t * 2));
+    { const b1 = $('aPh').querySelector('#pb1'), b2 = $('aPh').querySelector('#pb2');
+      b1.setAttribute('opacity', 1); b2.setAttribute('opacity', t >= W('h1', 'kena') - 0.05 ? 1 : 0); }
+    K.pop($('aTr'), t, W('h1', 'transfer') - 0.08, Infinity, 3);
+    slam($('aQ'), t, W('h1', 'pajak') - 0.05, 10, 2.2);
+    slam($('aOk'), t, W('h2', 'djp') - 0.05, -5, 1.9);
+    if (t > W('h2', 'bukan') - 0.05) pulse($('aOk'), W('h2', 'bukan') - 0.05, 0.07, -5);
+    if (t > W('h2', 'djp')) $('aQ').style.opacity = 1 - K.clamp((t - W('h2', 'djp')) / 0.25) * 0.75;
+    flyTiles(aT, ['5', 'agenda', 'yang', 'beneran', 'nyentuh'].map((w) => W('h2', w) - 0.05), t);
+    if (t > W('h2', 'kamu') - 0.05) aT.forEach((e, i) => { e.style.transform += ` translateY(${-16 * Math.max(0, Math.sin((t - W('h2', 'kamu')) * 8 - i * 0.6))}px)`; });
+  }
+
+  // ---------- hook B: kamu_stakes "5 agenda, mana yang kena kamu?" ----------
+  if (VB) {
+    const th = 1 + 0.05 * Math.exp(-6 * t) * Math.sin(t * 14);
+    $('bHd').style.transform = `translate(-50%,-50%) scale(${th})`;
+    const pz = (el, w0, a = 0.08) => { if (t > w0 - 0.05) el.style.transform = `scale(${1 + a * Math.sin(Math.PI * K.clamp((t - w0 + 0.05) / 0.4))})`; };
+    pz($('bHd2'), W('hb1', 'mana')); pz($('bHd1'), W('hb2', 'lima'));
+    ['bansos', 'belanja', 'saham', 'pajak'].forEach((w, i) => K.pop($('bI' + (i + 1)), t, W('hb1', w) - 0.08, Infinity, [-5, 4, -3, 5][i] + 1.5 * Math.sin(t * 2 + i)));
+    if (t > W('hb1', 'kamu') - 0.05) [1, 2, 3, 4].forEach((i) => { $('bI' + i).style.transform += ` translateY(${-14 * Math.max(0, Math.sin((t - W('hb1', 'kamu')) * 8 - i * 0.6))}px)`; });
+    flyTiles(bT, [W('hb2', 'lima'), W('hb2', 'agenda'), W('hb2', 'empat'), W('hb2', 'hari')].map((x) => x - 0.05), t);
+  }
+
+  // ---------- tagline ----------
+  K.pop($('stamp'), t, at('rd', -0.1), at('s1', -0.2), -6);
+
+  // ---------- ZB: Pak Budi + bonus loop ----------
+  setB($('bd1'), t < W('s1b', 'bonus') ? 'neutral' : 'happy');
+  K.pop($('bd1'), t, W('s1', 'pak') - 0.12, Infinity, -2 + 2 * Math.sin(t * 2.2));
+  K.pop($('bdIl'), t, W('s1', 'pak') + 0.05, Infinity, -3);
+  K.pop($('bdN'), t, W('s1', 'budi') - 0.05, Infinity, 2);
+  K.pop($('bdP1'), t, W('s1', 'kantoran') - 0.08, Infinity, -4);
+  K.pop($('bdP2'), t, W('s1', 'saham') - 0.08, Infinity, 3);
+  K.pop($('bdP3'), t, W('s1', 'belanja') - 0.08, Infinity, -3);
+  K.pop($('bdL'), t, W('s1b', 'bonus') - 0.08, Infinity, -2);
+  if (t > W('s1b', 'akhir') - 0.05) pulse($('bdL'), W('s1b', 'akhir') - 0.05, 0.07, -2);
+  slam($('bdC'), t, W('s1b', 'cicilan') - 0.05, 4, 1.7);
+
+  // ---------- Z2: Sen 9 Nov, pajak digital ----------
+  const d1b = at('d1b', -0.1), d1c = at('d1c', -0.1);
+  K.pop($('z2Day'), t, at('d1', 0.0), Infinity, -3);
+  slam($('z2Cal'), t, W('d1', '9') - 0.05, -3, 1.5);
+  setB($('z2Bd'), t < W('d1', 'pajak') ? 'neutral' : 'worried');
+  K.pop($('z2Bd'), t, W('d1', 'pak') - 0.12, d1b, 2 + 2 * Math.sin(t * 2.2));
+  K.pop($('z2Il'), t, W('d1', 'budi'), d1b, 3);
+  K.pop($('z2Msg'), t, W('d1', 'pesan') - 0.05, d1b, -1);
+  if (t > W('d1', 'mulai') - 0.05 && t < d1b) pulse($('z2Msg'), W('d1', 'mulai') - 0.05, 0.05, -1);
+  K.pop($('z2Hs'), t, W('d1b', 'hashim') - 0.1, d1c, -1);
+  K.pop($('z2C1'), t, W('d1b', 'shopee') - 0.05, d1c, -3);
+  K.pop($('z2C2'), t, W('d1b', 'sampai') - 0.05, d1c, 0);
+  K.pop($('z2C3'), t, W('d1b', 'bank') - 0.05, d1c, 3);
+  K.pop($('z2P'), t, W('d1b', 'memungut') - 0.05, d1c, -1);
+  K.pop($('z2Dj'), t, W('d1c', 'djp') - 0.1, Infinity, -1);
+  [['z2R1', W('d1c', 'bukan')], ['z2R2', W('d1c', 'transfer')]].forEach(([id, w0]) => { const s = K.spring(t - w0 + 0.05, 300, 18);
+    $(id).style.opacity = t >= w0 - 0.05 ? 1 : 0; $(id).style.transform = `translateX(${(1 - s) * 60}px)`; });
+
+  // ---------- Z3: Sel 10 Nov, Perlinsos Digital ----------
+  const d2b = at('d2b', -0.1);
+  K.pop($('z3Day'), t, at('d2', 0.0), Infinity, 3);
+  slam($('z3Cal'), t, W('d2', '10') - 0.05, 3, 1.5);
+  K.pop($('z3Pr'), t, W('d2', 'presiden') - 0.08, Infinity, -2);
+  slam($('z3Dj'), t, W('d2', 'dijadwalkan') - 0.05, -4, 1.7);
+  K.pop($('z3Hd'), t, W('d2', 'perlinsos') - 0.1, d2b, 0);
+  { const sw = W('d2b', 'tunai') - 0.05; const ex = t < sw ? 'sack' : 'cash';
+    if ($('z3Ic').dataset.ex !== ex) { $('z3Ic').dataset.ex = ex; $('z3Ic').innerHTML = ex === 'sack' ? sackSVG() : cashSVG(); }
+    K.pop($('z3Ic'), t, W('d2b', 'bansos') - 0.1, Infinity, -3);
+    if (t >= sw) { const k = K.clamp((t - sw) / 0.3); $('z3Ic').style.transform += ` scaleX(${0.3 + 0.7 * K.spring(t - sw, 300, 16)})`; } }
+  K.pop($('z3Tu'), t, W('d2b', 'tunai') - 0.02, Infinity, -3);
+  slam($('z3Bb'), t, W('d2b', 'bukan') - 0.05, 3, 1.6);
+  K.pop($('z3Tg'), t, W('d2b', 'target') - 0.08, Infinity, 0);
+  { const s0 = W('d2b', '50') - 0.05; $('z3N').textContent = Math.round(50 * K.easeOut(K.prog(t, s0, 0.6))); }
+  K.pop($('z3Lh'), t, W('d2c', 'luhut') - 0.08, Infinity, -1);
+  if (t > W('d2c', 'berubah') - 0.05) pulse($('z3Lh'), W('d2c', 'berubah') - 0.05, 0.05, -1);
+
+  // ---------- Z4: Rab 11 Nov, Shopee 11.11 ----------
+  K.pop($('z4Day'), t, at('d3', 0.0), Infinity, -3);
+  slam($('z4Cal'), t, W('d3', '11') - 0.05, -3, 1.5);
+  K.pop($('z4Ct'), t, W('d3', 'terakhir') - 0.1, Infinity, -3 + 2 * Math.sin(t * 3));
+  K.pop($('z4L'), t, W('d3', 'shopee') - 0.05, Infinity, 2);
+  slam($('z4D'), t, W('d3', '90') - 0.05, -6, 1.9);
+  setB($('z4Bd'), t < W('d3b', 'pajaknya') ? 'happy' : 'neutral');
+  K.pop($('z4Bd'), t, W('d3', 'klaimnya') - 0.1, Infinity, -2 + 2 * Math.sin(t * 2.4));
+  K.pop($('z4Il'), t, W('d3', 'klaimnya') + 0.05, Infinity, -3);
+  K.pop($('z4Q'), t, W('d3b', 'pajaknya') - 0.05, Infinity, 8 * Math.sin(t * 4));
+  K.pop($('z4A'), t, W('d3b', 'asosiasi') - 0.08, Infinity, 1);
+  if (t > W('d3b', 'arahan') - 0.05) pulse($('z4A'), W('d3b', 'arahan') - 0.05, 0.05, 1);
+
+  // ---------- Z5: Kam 12 Nov, MSCI ----------
+  K.pop($('z5Day'), t, at('d4', 0.0), Infinity, 3);
+  slam($('z5Cal'), t, W('d4', '12') - 0.05, 3, 1.5);
+  slam($('z5M'), t, W('d4', 'msci') - 0.05, -2, 1.6);
+  K.pop($('z5R'), t, W('d4', 'review') - 0.08, Infinity, 2);
+  K.pop($('z5F'), t, at('d4b', -0.1), Infinity, 0);
+  ['z5S1', 'z5S2', 'z5S3', 'z5S4'].forEach((id, i) => K.pop($(id), t, W('d4b', 'saham') - 0.05 + i * 0.08, Infinity, [-2, 2, -1, 3][i]));
+  { const c0 = W('d4b', 'dicoret') - 0.05, s = K.spring(t - c0, 220, 16);
+    if (t >= c0) { $('z5S3').classList.add('gone'); $('z5S3').textContent = 'dicoret?'; $('z5S3').style.transform = `translate(-50%,-50%) translateY(${135 * s}px) rotate(${-6 * s}deg)`; $('z5S3').style.opacity = 1 - 0.3 * K.clamp(t - c0 - 0.6); }
+    else { $('z5S3').classList.remove('gone'); $('z5S3').textContent = 'saham ▲'; } }
+  K.pop($('z5Q'), t, W('d4b', 'dicoret') + 0.15, Infinity, 8 * Math.sin(t * 4));
+  $('z5Q').style.left = '790px'; $('z5Q').style.top = '1140px';
+  K.pop($('z5Tl'), t, W('d4b', 'status') - 0.08, Infinity, 0);
+  { const s0 = W('d4b', 'status'), s1 = W('d4b', 'juni');
+    $('z5Fill').style.transform = `scaleX(${Math.max(0.04, K.easeInOut(K.prog(t, s0, Math.max(0.5, s1 - s0))))})`; }
+  if (t > W('d4b', 'juni') - 0.05) $('z5End').style.transform = `translate(-50%,-50%) scale(${1 + 0.35 * K.spring(t - W('d4b', 'juni') + 0.05, 300, 12)})`;
+  else $('z5End').style.transform = 'translate(-50%,-50%)';
+
+  // ---------- Z5b: Kam 12 Nov, sidang dr Tifa ----------
+  K.pop($('z6Cal'), t, at('d5', 0.0), Infinity, -3);
+  K.pop($('z6Hs'), t, W('d5', 'sama') - 0.08, Infinity, 2);
+  K.pop($('z6Ct'), t, W('d5', 'sidang') - 0.12, Infinity, 0);
+  K.pop($('z6L'), t, W('d5', 'tifa') - 0.08, Infinity, -1);
+  K.pop($('z6T'), t, W('d5', 'ajudan') - 0.08, Infinity, 1);
+  slam($('z6St'), t, W('d5', 'dijadwalkan') - 0.05, -3, 1.7);
+
+  // ---------- Z6: the turn ----------
+  slam($('tTapi'), t, at('t1', -0.05), -3, 1.4);
+  K.pop($('tKl'), t, W('t1', 'sering') - 0.05, Infinity, 2);
+  { const a0 = at('t2', -0.1), tip = W('t3', 'menentukan') - 0.05;
+    const v = t < a0 ? 0 : K.spring(t - a0, 220, 16);
+    const ang = t < tip ? -9 : -9 + 21 * K.spring(t - tip, 160, 11);
+    $('tSaw').style.opacity = t >= a0 ? 1 : 0;
+    $('tSaw').style.transform = `translate(-50%,-50%) scale(${0.5 + 0.5 * v}) rotate(${ang}deg)`;
+    K.pop($('tPiv'), t, a0, Infinity, 0);
+    $('tL').style.opacity = t >= W('t2', 'ramai') - 0.05 ? 1 : 0;
+    $('tR').style.opacity = t >= W('t3', 'sepi') - 0.05 ? 1 : 0;
+    $('tL').style.transform = `scale(${t >= W('t2', 'ramai') - 0.05 ? 0.6 + 0.4 * K.spring(t - W('t2', 'ramai') + 0.05) : 0.6})`;
+    $('tR').style.transform = `scale(${t >= W('t3', 'sepi') - 0.05 ? 0.6 + 0.4 * K.spring(t - W('t3', 'sepi') + 0.05) : 0.6})`; }
+  slam($('tBp'), t, W('t2', 'belum') - 0.05, -6, 1.8);
+  K.pop($('tMb'), t, W('t3', 'menentukan') + 0.05, Infinity, -1);
+  if (t > W('t3', 'bansos') - 0.05) pulse($('tMb'), W('t3', 'bansos') - 0.05, 0.06, -1);
+
+  // ---------- Z6b: cek pakai NIK ----------
+  K.pop($('nPh'), t, at('t4', -0.1), Infinity, -3 + 1.5 * Math.sin(t * 2));
+  { const n0 = W('t4', 'nik') - 0.08, s = K.spring(t - n0, 220, 16);
+    $('nNik').style.opacity = t >= n0 ? 1 : 0;
+    $('nNik').style.transform = `translate(-50%,-50%) translate(${-260 + 260 * s}px, ${-200 + 200 * s}px) rotate(${-14 + 10 * K.clamp(s)}deg)`; }
+  K.pop($('nUrl'), t, W('t4', 'situs') - 0.08, Infinity, -1);
+  K.pop($('nK'), t, W('t4', 'kemensos') - 0.05, Infinity, 2);
+
+  // ---------- Z7: bonus, RDG BI ----------
+  { const l0 = at('p1', -0.05), ul = W('p1', 'bonusnya') + 0.1, o = W('p1', '17') - 0.1;
+    K.pop($('pLk'), t, l0, o, -2);
+    const sh = $('pLkI').querySelector('.shk');
+    if (sh) sh.style.transform = t > ul ? `translateY(${-14 * K.clamp(K.spring(t - ul, 300, 14))}px) rotate(${32 * K.clamp(K.spring(t - ul, 300, 14))}deg)` : 'none'; }
+  slam($('pCal'), t, W('p1', '17') - 0.05, -3, 1.6);
+  if (t > W('p1', '18') - 0.05) pulse($('pCal'), W('p1', '18') - 0.05, 0.06, -3);
+  K.pop($('pBI'), t, W('p1', 'bi') - 0.08, Infinity, 2);
+  K.pop($('pEk'), t, W('p2', 'ekonom') - 0.08, Infinity, 0);
+  K.pop($('pBr'), t, W('p2', 'bi') - 0.08, Infinity, -2);
+  slam($('pN'), t, W('p2', '6') - 0.05, -3, 1.8);
+  setB($('pBd'), 'shocked');
+  K.pop($('pBd'), t, W('p2', 'kalau') - 0.1, Infinity, -2 + 2.5 * Math.sin(t * 3));
+  K.pop($('pIl'), t, W('p2', 'kalau') + 0.05, Infinity, -3);
+  K.pop($('pCc'), t, W('p2', 'cicilan') - 0.08, Infinity, 2);
+  { const a = $('pCc').querySelector('#ccA'); if (a) a.setAttribute('transform', `translate(0 ${t > W('p2', 'naik', 1) ? -8 * Math.abs(Math.sin((t - W('p2', 'naik', 1)) * 6)) : 0})`); }
+  K.pop($('pBs'), t, W('p2', 'bisa') - 0.05, Infinity, -2);
+
+  // ---------- CTA ----------
+  const qOut = END - 0.3;
+  K.pop($('qHd'), t, at('cta', -0.05), qOut, 0);
+  qT.forEach((e, i) => K.pop(e, t, at('cta', 0.1) + i * 0.08, qOut, [-3, 2, -2, 3, -4, 2][i]));
+  if (t > W('cta', 'kenapa') - 0.05) qT.forEach((e, i) => { e.style.transform += ` translateY(${-14 * Math.max(0, Math.sin((t - W('cta', 'kenapa')) * 8 - i * 0.7))}px)`; });
+  K.pop($('qCom'), t, W('cta', 'ngaruh') - 0.05, qOut, -4);
+  K.pop($('qK'), t, W('cta', 'komen') - 0.05, qOut, 3);
+
+  // ---------- market disclaimer from frame 1 until the end card ----------
+  $('disc').style.opacity = 1 - K.clamp((t - END) / 0.2);
+
+  // ---------- end ----------
+  const en = K.prog(t, END - 0.15, 0.3);
+  $('endcard').style.opacity = en;
+  $('endcard').querySelector('.logo').style.transform = `rotate(-3deg) scale(${0.6 + 0.4 * K.spring(t - END + 0.15)})`;
+  K.subtitles($('subs'), t);
+  $('subs').style.visibility = en > 0.5 ? 'hidden' : 'visible';
+  $('progress').style.width = (100 * t / window.DURATION) + '%';
+  return true;
+}
+window.seek = seek; seek(0);
+</script>
+</body>
+</html>

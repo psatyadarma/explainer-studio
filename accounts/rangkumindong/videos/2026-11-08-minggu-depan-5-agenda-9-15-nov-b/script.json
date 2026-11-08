@@ -1,0 +1,50 @@
+{
+  "direction": "[upbeat storyteller, quick, neutral, no advice]",
+  "voice": "male:Pratama",
+  "format": "minggu_depan",
+  "hook_style": "myth",
+  "subs": "word",
+  "storytelling": true,
+  "storyline": "",
+  "part": null,
+  "disclaimer": "Bukan ajakan jual/beli saham",
+  "illustration_note": "Pak Budi is a fictional everyman; show a small ILUSTRASI tag whenever he is on screen. All dates and numbers are real.",
+  "title_card_a": "TRANSFER KENA PAJAK? / CEK DULU",
+  "lines": [
+    {"id": "h1", "tag": "[skeptical, playful]", "text": "Katanya mulai Senin, transfer kamu kena pajak.", "say": "Katanya mulai Senin, transfer kamu kena pajak."},
+    {"id": "h2", "tag": "[quick, leaning in]", "text": "Kata DJP, bukan. Tapi ada 5 agenda yang beneran nyentuh kamu.", "say": "Kata, De Je Pe, bukan. Tapi ada lima agenda yang beneran nyentuh kamu."},
+    {"id": "rd", "tagline": true, "text": "Rangkumin dong!"},
+    {"id": "s1", "tag": "[warm, storytelling]", "text": "Misalnya Pak Budi: kerja kantoran, punya saham, hobi belanja online.", "say": "Misalnya Pak Budi: kerja kantoran, punya saham, hobi belanja online."},
+    {"id": "s1b", "tag": "[teasing]", "text": "Plus satu bonus di akhir, soal cicilan.", "say": "Plus satu bonus di akhir, soal cicilan."},
+    {"id": "d1", "tag": "[explaining, quick]", "text": "Senin, 9 November. Pak Budi dapat pesan: pajak digital mulai hari ini.", "say": "Senin, sembilan November. Pak Budi dapat pesan: pajak digital mulai hari ini."},
+    {"id": "d1b", "tag": "[matter-of-fact]", "text": "Kata Hashim di acara Kadin, Shopee sampai bank bakal memungut pajak digital.", "say": "Kata Hasyim di acara Kadin, Syopi sampai bank bakal memungut pajak digital."},
+    {"id": "d1c", "tag": "[reassuring]", "text": "Tapi kata DJP, ini bukan pajak baru. Transfer pribadi juga bukan sasarannya.", "say": "Tapi kata, De Je Pe, ini bukan pajak baru. Transfer pribadi juga bukan sasarannya."},
+    {"id": "d2", "tag": "[leaning in]", "text": "Selasa, 10 November. Presiden dijadwalkan meluncurkan Perlinsos Digital.", "say": "Selasa, sepuluh November. Presiden dijadwalkan meluncurkan Perlinsos Digital."},
+    {"id": "d2b", "tag": "[explaining]", "text": "Arahnya, bansos cair tunai, bukan barang. Target 50 juta penerima.", "say": "Arahnya, bansos cair tunai, bukan barang. Target lima puluh juta penerima."},
+    {"id": "d2c", "tag": "[matter-of-fact]", "text": "Kata Luhut, kalau jadwalnya nggak berubah.", "say": "Kata Luhut, kalau jadwalnya nggak berubah."},
+    {"id": "d3", "tag": "[playful]", "text": "Rabu, 11 November. Hari terakhir Shopee 11.11. Klaimnya, diskon sampai 90 persen.", "say": "Rabu, sebelas November. Hari terakhir Syopi sebelas-sebelas. Klaimnya, diskon sampai sembilan puluh persen."},
+    {"id": "d3b", "tag": "[curious]", "text": "Pajaknya gimana? Asosiasi e-commerce pun masih nunggu arahan DJP.", "say": "Pajaknya gimana? Asosiasi i-komers pun masih nunggu arahan, De Je Pe."},
+    {"id": "d4", "tag": "[serious, quick]", "text": "Kamis, 12 November. MSCI umumkan review indeks November.", "say": "Kamis, dua belas November. Em Es Si Ai umumkan review indeks November."},
+    {"id": "d4b", "tag": "[explaining]", "text": "Ada saham kita yang dicoret? Status Indonesia sendiri diputuskan paling lambat Juni 2027.", "say": "Ada saham kita yang dicoret? Status Indonesia sendiri diputuskan paling lambat Juni dua ribu dua puluh tujuh."},
+    {"id": "d5", "tag": "[neutral]", "text": "Hari yang sama, sidang dr Tifa lanjut. Ajudan Jokowi dijadwalkan bersaksi.", "say": "Hari yang sama, sidang dokter Tifa lanjut. Ajudan Jokowi dijadwalkan bersaksi."},
+    {"id": "t1", "tag": "[leaning in, slower]", "text": "Tapi ini yang sering kelewat.", "say": "Tapi... ini yang sering kelewat."},
+    {"id": "t2", "tag": "[explaining]", "text": "Yang paling ramai, pajak Senin, belum pasti.", "say": "Yang paling ramai, pajak Senin, belum pasti."},
+    {"id": "t3", "tag": "[serious]", "text": "Yang sepi, data desil, justru menentukan siapa dapat bansos.", "say": "Yang sepi, data desil, justru menentukan siapa dapat bansos."},
+    {"id": "t4", "tag": "[helpful]", "text": "Ceknya cukup pakai NIK, di situs Kemensos.", "say": "Ceknya cukup pakai, En I Ka, di situs Kemensos."},
+    {"id": "p1", "tag": "[dramatic]", "text": "Nah, bonusnya. 17 sampai 18 November, BI rapat.", "say": "Nah, bonusnya. Tujuh belas sampai delapan belas November, Be I rapat."},
+    {"id": "p2", "tag": "[serious]", "text": "Beberapa ekonom perkirakan BI rate naik ke 6 persen. Kalau iya, cicilan bisa ikut naik.", "say": "Beberapa ekonom perkirakan, Be I rate, naik ke enam persen. Kalau iya, cicilan bisa ikut naik."},
+    {"id": "cta", "tag": "[playful, asking the viewer]", "text": "Mana yang paling ngaruh ke kamu, dan kenapa? Komen!", "say": "Mana yang paling ngaruh ke kamu, dan kenapa? Komen!"},
+    {"id": "end", "tag": "[friendly, upbeat]", "text": "Follow biar nggak ketinggalan!", "say": "Follow biar nggak ketinggalan!"}
+  ],
+  "hook_b": {
+    "style": "kamu_stakes",
+    "replace": ["h1", "h2"],
+    "title_card": "5 AGENDA / MANA YANG KENA KAMU?",
+    "lines": [
+      {"id": "hb1", "tag": "[direct, quick]", "text": "Bansos, belanja, saham, pajak. Mana yang kena kamu?", "say": "Bansos, belanja, saham, pajak. Mana yang kena kamu?"},
+      {"id": "hb2", "tag": "[quick]", "text": "Lima agenda, empat hari.", "say": "Lima agenda, empat hari."}
+    ]
+  },
+  "tail": 0.9,
+  "end_card": {"text": "Follow Rangkumin Dong", "spoken": true}
+}

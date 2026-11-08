@@ -1,0 +1,183 @@
+[
+ {
+  "claim": "Hashim Djojohadikusumo (Ketua Dewan Penasihat Kadin) said at Rapimnas Kadin (29 Oct) that Shopee, Lazada, GoTo and banks/fintechs must start collecting digital tax from 9 Nov 2026",
+  "numbers": "9 Nov 2026 (Hashim's claim only)",
+  "sources": [
+   "https://finance.detik.com/berita-ekonomi-bisnis/d-8729936/bocoran-hashim-shopee-goto-pungut-pajak-digital-mulai-9-november-2026/amp",
+   "https://katadata.co.id/digital/e-commerce/6ae9ac2477e4b/shopee-hingga-goto-kena-pajak-digital-per-9-november-asosiasi-tunggu-arahan-djp"
+  ],
+  "lines": [
+   "h1",
+   "d1",
+   "d1b"
+  ]
+ },
+ {
+  "claim": "DJP (Inge Diana Rismawanti, Direktur P2Humas, written statement 2 Nov): the SPP-TDLN digital tax collection is not a new tax, does not change the PPN rate, and personal transfers/remittances are not its target",
+  "numbers": "-",
+  "sources": [
+   "https://katadata.co.id/digital/e-commerce/6ae85c6515889/shopee-hingga-goto-dipungut-pajak-digital-per-9-november-apa-yang-dipajaki",
+   "https://ikpi.or.id/articles/djp-buka-suara-soal-pajak-digital-yang-berlaku-9-november-2026"
+  ],
+  "lines": [
+   "h2",
+   "d1c",
+   "t2"
+  ]
+ },
+ {
+  "claim": "DJP has not confirmed the 9 Nov start date (as of its 2 Nov statement)",
+  "numbers": "-",
+  "sources": [
+   "https://ikpi.or.id/articles/djp-buka-suara-soal-pajak-digital-yang-berlaku-9-november-2026",
+   "https://katadata.co.id/digital/e-commerce/6ae9ac2477e4b/shopee-hingga-goto-kena-pajak-digital-per-9-november-asosiasi-tunggu-arahan-djp"
+  ],
+  "lines": [
+   "t2",
+   "caption"
+  ]
+ },
+ {
+  "claim": "The e-commerce association idEA (Budi Primawan) is still waiting for DJP direction on whether marketplaces will collect",
+  "numbers": "-",
+  "sources": [
+   "https://katadata.co.id/digital/e-commerce/6ae9ac2477e4b/shopee-hingga-goto-kena-pajak-digital-per-9-november-asosiasi-tunggu-arahan-djp"
+  ],
+  "lines": [
+   "d3b"
+  ]
+ },
+ {
+  "claim": "Separate, earlier statement: DJP head Bimo Wijayanto estimated on 15 Oct that digital-economy tax revenue could rise ~50% to ~Rp16 T (from Rp8-12 T). NOT used in script or captions; listed so it is not reintroduced without its own attribution",
+  "numbers": "+50% · ~Rp16 T · Rp8-12 T",
+  "sources": [
+   "https://finance.detik.com/berita-ekonomi-bisnis/d-8729936/bocoran-hashim-shopee-goto-pungut-pajak-digital-mulai-9-november-2026/amp"
+  ],
+  "lines": []
+ },
+ {
+  "claim": "President Prabowo is scheduled to launch Perlinsos Digital on Tuesday 10 Nov 2026",
+  "numbers": "10 Nov 2026",
+  "sources": [
+   "https://katadata.co.id/berita/nasional/6ad7a6394d4dc/prabowo-bakal-luncurkan-perlinsos-digital-10-november-sasar-50-juta-penerima",
+   "https://www.cnbcindonesia.com/news/20261101175316-4-781280/bansos-digital-meluncur-mulai-10-november-ini-kata-luhut",
+   "https://kumparan.com/berita-bisnis/portal-perlinsos-digital-kapan-diluncurkan-cek-jadwalnya-28RrBPQQk2b"
+  ],
+  "lines": [
+   "d2"
+  ]
+ },
+ {
+  "claim": "Direction of Perlinsos Digital: aid as cash instead of goods (said as 'arahnya'); cash-to-account transfers due for a trial in Q1 2027, data integration to end-2026; eligibility based on DTSEN desil 1-5",
+  "numbers": "desil 1-5",
+  "sources": [
+   "https://katadata.co.id/berita/nasional/6ad7a6394d4dc/prabowo-bakal-luncurkan-perlinsos-digital-10-november-sasar-50-juta-penerima",
+   "https://kumparan.com/berita-bisnis/portal-perlinsos-digital-kapan-diluncurkan-cek-jadwalnya-28RrBPQQk2b",
+   "https://www.cnnindonesia.com/ekonomi/20261020202337-532-1417683/perlinsos-digital-bakal-meluncur-10-november-bansos-ditransfer-tunai",
+   "https://www.rctiplus.com/news/detail/ekonomi/5471256/50-juta-warga-miskin-dapat-bansos--langsung-cair-masuk-rekening-mulai-2027"
+  ],
+  "lines": [
+   "d2b",
+   "t3"
+  ]
+ },
+ {
+  "claim": "Target 50 juta penerima (people), per Katadata/Menkomdigi Meutya Hafid",
+  "numbers": "50 juta orang",
+  "sources": [
+   "https://katadata.co.id/berita/nasional/6ad7a6394d4dc/prabowo-bakal-luncurkan-perlinsos-digital-10-november-sasar-50-juta-penerima",
+   "https://katadata.co.id/berita/nasional/6aa274c559c33/skema-perlinsos-digital-sasar-50-juta-masyarakat-desil-1-5-data-dibenahi"
+  ],
+  "lines": [
+   "d2b"
+  ],
+  "note": "50 juta = people (Luhut, Meutya). Do not mix with 48 juta keluarga (2027 plan) or 11,5 juta KK registered."
+ },
+ {
+  "claim": "Luhut: launch on the 10th 'kalau tidak ada perubahan'",
+  "numbers": "-",
+  "sources": [
+   "https://www.cnbcindonesia.com/news/20261101175316-4-781280/bansos-digital-meluncur-mulai-10-november-ini-kata-luhut"
+  ],
+  "lines": [
+   "d2c"
+  ]
+ },
+ {
+  "claim": "Desil can be checked with NIK on the Kemensos site (cekbansos.kemensos.go.id); BPS has a form too",
+  "numbers": "-",
+  "sources": [
+   "https://www.cnbcindonesia.com/tech/20261106123113-37-782939/link-resmi-cek-desil-di-website-kemensos-dan-bps-cukup-pakai-nik"
+  ],
+  "lines": [
+   "t4"
+  ],
+  "note": "single source (CNBC how-to)"
+ },
+ {
+  "claim": "Shopee 11.11 Big Sale runs 25 Oct - 11 Nov 2026; Shopee claims discounts up to 90%",
+  "numbers": "11 Nov last day · up to 90%",
+  "sources": [
+   "https://shopee.co.id/inspirasi-shopee/shopee-11-11-big-sale-hadirkan-warna-baru-kolaborasi-no-na-bikin-keseruan-belanja-makin-naik-level/amp/"
+  ],
+  "lines": [
+   "d3"
+  ],
+  "note": "Shopee's own page; the video says 'klaimnya'"
+ },
+ {
+  "claim": "MSCI announces its November 2026 index review on 11 Nov 23:00 CET (Thu 12 Nov early morning WIB); changes effective at close 30 Nov",
+  "numbers": "12 Nov (WIB) · effective 30 Nov",
+  "sources": [
+   "https://emitennews.com/news/pengumuman-terbaru-msci-ini-jadwal-rebalancing-indeks-november",
+   "https://www.rctiplus.com/news/detail/ekonomi/5497870/pasca-warning-standalone-msci--ini-3-hal-yang-perlu-dicermati-investor"
+  ],
+  "lines": [
+   "d4"
+  ]
+ },
+ {
+  "claim": "MSCI's decision on Indonesia's market status (proposal Emerging -> Standalone) comes by 30 Jun 2027 at the latest",
+  "numbers": "30 Jun 2027",
+  "sources": [
+   "videos/2026-10-19-ihsg-msci-v3 (MSCI consultation, decision by 30 Jun 2027; storyline msci-reclassification)"
+  ],
+  "lines": [
+   "d4b"
+  ],
+  "note": "from MSCI consultation, verified for the 19 Oct video; re-check no MSCI interim update changed this"
+ },
+ {
+  "claim": "dr Tifa defamation trial at PN Jakarta Timur continues Thu 12 Nov 09:00 WIB; witnesses AKBP Syarif Muhammad Fitriansyah (Jokowi's aide) and Aiman Witjaksono (judge Christina Endarwati, 5 Nov). Script says only 'ajudan Jokowi dijadwalkan bersaksi'",
+  "numbers": "12 Nov",
+  "sources": [
+   "https://news.detik.com/berita/d-8740537/ajudan-jokowi-jadi-saksi-di-sidang-dr-tifa-12-november"
+  ],
+  "lines": [
+   "d5"
+  ],
+  "note": "Dumatno is a witness at Roy Suryo's separate hearing on Wed 11 Nov (with Syarif and Dian Sandi), per detik d-8740174 https://news.detik.com/berita/d-8740174/ajudan-jokowi-dan-dumatno-jadi-saksi-sidang-roy-suryo-11-november/amp ; not at the Tifa hearing."
+ },
+ {
+  "claim": "BI's November RDG is 17-18 Nov 2026",
+  "numbers": "17-18 Nov",
+  "sources": [
+   "https://www.kabarbursa.com/makro/bank-indonesia-rilis-agenda-rdg-bulanan-2026"
+  ],
+  "lines": [
+   "p1"
+  ]
+ },
+ {
+  "claim": "A few economists expect BI to raise the BI rate to 6% (BI held 5,75% on 20-21 Oct): Faisal Rachman (Permata) base case November; Josua Pardede sees Nov or Dec possible; timing differs. Script: 'Beberapa ekonom perkirakan BI rate naik ke 6 persen'",
+  "numbers": "6% · 5,75%",
+  "sources": [
+   "https://investor.id/macroeconomy/460342/rupiah-tertekan-bi-diprediksi-naikkan-birate-ke-6-pada-november",
+   "https://nasional.kontan.co.id/news/bi-rate-berpeluang-naik-pada-akhir-tahun-2026-cermati-pemicunya"
+  ],
+  "lines": [
+   "p2"
+  ],
+  "note": "'bisa ikut naik' for loan rates is framed as conditional, general mechanism"
+ }
+]
