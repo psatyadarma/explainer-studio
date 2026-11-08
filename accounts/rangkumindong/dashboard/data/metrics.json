@@ -1042,5 +1042,29 @@
 "shares": null,
 "saves": null,
 "follows": null
+},
+{
+"date": "2026-11-07",
+"folder": "videos/2026-11-07-kripto-dibobol-dua-kali",
+"platform": "instagram",
+"hours": 24,
+"views": 548,
+"avg_watch_pct": 20.1,
+"hold_3s_pct": null,
+"shares": 2,
+"saves": 0,
+"follows": 3
+},
+{
+"date": "2026-11-05",
+"folder": "videos/2026-11-05-listyo-part2-lims-rutan",
+"platform": "instagram",
+"hours": 72,
+"views": 180,
+"avg_watch_pct": 23.3,
+"hold_3s_pct": null,
+"shares": 0,
+"saves": 0,
+"follows": 0
 }
 ]
