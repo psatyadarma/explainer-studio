@@ -5310,6 +5310,16 @@
 "upcoming": false
 },
 {
+"id": "E0667",
+"date": "2026-11-04",
+"category": "TECH",
+"event": "French regional bank Credit Mutuel Arkea disclosed a cyberattack in which hackers accessed its systems and transferred funds to other accounts.",
+"key_numbers": "More than EUR 100 juta lost (about Rp14 triliun per Katadata), partly recovered · customer funds untouched · disclosed Wed 4 Nov 2026",
+"storyline": "",
+"status": "verified",
+"upcoming": false
+},
+{
 "id": "E0405",
 "date": "2026-11-05",
 "category": "POL",
@@ -6000,6 +6010,96 @@
 "upcoming": false
 },
 {
+"id": "E0654",
+"date": "2026-11-06",
+"category": "MKT",
+"event": "BEI and KSEI list 83 High Shareholding Concentration (HSC) stocks, up from 82, with PT Mitra Komunikasi Nusantara (MKNT) newly added. (update of E0489)",
+"key_numbers": "83 HSC stocks (82 in October) · MKNT 99.64% held by specific shareholders · data as of 5 Nov 2026, announced 6 Nov",
+"storyline": "msci-reclassification",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0655",
+"date": "2026-11-06",
+"category": "MKT",
+"event": "OJK imposed administrative sanctions on seven listed issuers (ASLI, ADHI, ADCP, WMUU, KLBF, EPMT, LMAS) and related parties for reporting and affiliate-transaction violations.",
+"key_numbers": "7 issuers · ASLI Rp2.7 miliar (two fines of Rp1.35 miliar) · WMUU Rp925 juta · ADHI Rp450 juta · ADCP Rp450 juta · KLBF Rp200 juta · EPMT Rp75 juta · LMAS written warning (no AGM for 2021-2024) · total fines about Rp6.4 miliar including directors, auditor, appraisers (my sum, not stated by OJK)",
+"storyline": "msci-reclassification",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0656",
+"date": "2026-11-06",
+"category": "MKT",
+"event": "BEI said it is examining trading in CASA, FUJI and NSSS after data showed activity concentrated among a few investors in each stock.",
+"key_numbers": "CASA: 6 investors via 6 brokers = ~98% of transactions (26 Oct-2 Nov) · FUJI: 16 investors via 10 brokers = ~87% (2 Mar-30 Oct) · NSSS: 19 investors via 15 brokers = ~52% (1 Dec 2025-30 Oct 2026) · no wrongdoing found yet",
+"storyline": "msci-reclassification",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0658",
+"date": "2026-11-06",
+"category": "ECO",
+"event": "The Manpower Ministry set the 2026 BSU wage subsidy at Rp900,000 paid in one lump sum to workers earning up to Rp3.5 million (or the local minimum wage if higher), for disbursement November-December.",
+"key_numbers": "Rp900.000 (3 x Rp300.000) lump sum · wage cap Rp3,5 juta or UMK/UMP if higher · active BPJS Ketenagakerjaan through Aug 2026 · excludes ASN/TNI/Polri · via Himbara banks and PT Pos · Permenaker 16/2026 · recipient count and budget not stated",
+"storyline": "survival-mode",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0661",
+"date": "2026-11-06",
+"category": "ECO",
+"event": "The government raised US$3 billion in a three-tranche global sukuk, its sixth international issuance this year, at yields of 5.45%-6.25%.",
+"key_numbers": "US$3 miliar (~Rp54,24 triliun at Rp18.080) · 3y US$0.5 miliar 5,45% · 5y US$1.0 miliar 5,85% · 10y US$1.5 miliar 6,25% · order book 2,9x overall (3.0x/2.9x/2.2x)",
+"storyline": "rupiah",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0662",
+"date": "2026-11-06",
+"category": "MKT",
+"event": "BEI's pipeline shows nine companies queuing for IPOs and 29 bond/sukuk issues from 19 issuers, while only seven companies have listed in 2026.",
+"key_numbers": "9 IPO candidates (4 healthcare, 2 basic materials, 2 energy, 1 financials) · 7 IPOs YTD raising Rp2,16 triliun · 156 bond issues raising Rp157,73 triliun · 16 rights issues Rp37,35 triliun · data as of 6 Nov 2026",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0668",
+"date": "2026-11-06",
+"category": "TECH",
+"event": "Malaysia's Bank Rakyat said non-state actors defaced a third-party website, and it blocked the affected server and redirected users to its i-Rakyat site.",
+"key_numbers": "No data theft or online-banking disruption per Communications Minister Fahmi Fadzil · Malaysia raised its cyber threat status (Katadata headline)",
+"storyline": "",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0669",
+"date": "2026-11-06",
+"category": "TECH",
+"event": "Katadata, citing Italy's Clusit, reported a record global count of cyber incidents in H1 2026 and early signs of AI agents carrying out attacks with growing autonomy.",
+"key_numbers": "4.911 incidents in H1 2026 · +71% year on year",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0670",
+"date": "2026-11-06",
+"category": "TECH",
+"event": "The hashtag #CuekinBuzzer went viral after streamer Windah Basudara urged people to ignore buzzers, with Katadata explaining the 'janonisme' digital-war strategy and how social-media algorithms spread content.",
+"key_numbers": "",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
 "id": "E0628",
 "date": "2026-11-07",
 "category": "MKT",
@@ -6070,6 +6170,66 @@
 "upcoming": false
 },
 {
+"id": "E0659",
+"date": "2026-11-07",
+"category": "ECO",
+"event": "Coordinating Minister Airlangga Hartarto said export proceeds (DHE) are not being frozen, as the revised DHE SDA rule and the Danantara Sumberdaya Indonesia (DSI) single-intermediary scheme were explained. (update of E0630)",
+"key_numbers": "Non-oil/gas DHE: 100% held at least 12 months; oil/gas: at least 30% for 3 months · up to 50% convertible to rupiah · partner countries 4 to 7 (adds South Korea, Japan, EU) · 16 placement banks (5 state, 11 private) · coal, CPO, ferroalloys = US$66.13 miliar (23.4% of 2025 exports) · timeline: 15 Nov function test, 15 Dec NADI pilot (~100 exporters, ~340 contracts), 1 Jan 2027 full go-live",
+"storyline": "rupiah",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0660",
+"date": "2026-11-07",
+"category": "GLB",
+"event": "Brent crude ended the week at US$98.15, down 16.57% on the week, as US-Iran peace signals and the Democratic midterm win raised hopes of de-escalation, though tanker attacks continue. (update of E0632)",
+"key_numbers": "Brent US$98,15 (-16,57% weekly) · WTI US$90,72 (-12,88% weekly) · Brent -8% on 4 Nov to two-month low · Jan 2027 Brent US$98.32 / WTI US$90.83 pre-open Mon 9 Nov (Industry.co.id)",
+"storyline": "fuel-oil",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0663",
+"date": "2026-11-08",
+"category": "POL",
+"event": "Prabowo chaired a meeting with 10 former Kapolri at Hambalang, per an Antara headline posted about 9 hours before the fetch, amid the Listyo Sigit wiretapping case. (update of E0562)",
+"key_numbers": "10 former Kapolri",
+"storyline": "listyo-sigit-penyadapan",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0664",
+"date": "2026-11-08",
+"category": "POL",
+"event": "Gerindra urged Polri to widen the investigation into the alleged wiretapping of the President, per an Antara headline. (update of E0562)",
+"key_numbers": "",
+"storyline": "listyo-sigit-penyadapan",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0671",
+"date": "2026-11-08",
+"category": "TECH",
+"event": "Elsam asked for the LIMS lawful-interception system to be audited after the illegal wiretapping case, and said four institutions hold advanced surveillance tools without adequate oversight. (update of E0553)",
+"key_numbers": "4 institutions with advanced surveillance tools (detik headline; article not opened)",
+"storyline": "listyo-sigit-penyadapan",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0672",
+"date": "2026-11-08",
+"category": "TECH",
+"event": "Qualcomm and Starlink announced a collaboration to build 5G networks starting in 2027.",
+"key_numbers": "Start 2027",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
 "id": "E0288",
 "date": "2026-11-09",
 "category": "POL",
@@ -6086,6 +6246,26 @@
 "event": "Hashim Djojohadikusumo of Kadin's advisory council said Shopee, Lazada, GoTo and banks/fintechs must start collecting and remitting digital taxes not previously collected from 9 November.",
 "key_numbers": "Start 9 Nov 2026 (per Hashim only, no DJP confirmation) · tax ratio about 12% of GDP vs 18% target in about 3 years · gap about Rp1,500 trillion/year · DJP estimate digital tax revenue +50% to about Rp16 triliun (from Rp8-12 triliun)",
 "storyline": "ecommerce-seller-rules",
+"status": "upcoming",
+"upcoming": true
+},
+{
+"id": "E0657",
+"date": "2026-11-09",
+"category": "ECO",
+"event": "The expanded VAT collection on foreign digital transactions (SPP-TDLN, PMK 49/2026) is reported to start 9 November, while DJP says it is not a new tax and bank transfers are not automatically taxed.",
+"key_numbers": "Start date 9 Nov 2026 (per Kadin chair Hashim Djojohadikusumo; DJP does not confirm date) · 6 initial collectors named 25 Sep 2026: BRI, Mandiri, BNI, BTN, BSI, LinkAja · no change to VAT rate · consumers need not pay or report themselves",
+"storyline": "tax-policy",
+"status": "partial",
+"upcoming": true
+},
+{
+"id": "E0665",
+"date": "2026-11-09",
+"category": "POL",
+"event": "DPR recess (reses) from 9 Oct is scheduled to end on 9 Nov 2026, so plenary sessions and the Surveillance Bill discussion can resume. (update of E0288)",
+"key_numbers": "Recess 9 Oct to 9 Nov 2026",
+"storyline": "listyo-sigit-penyadapan",
 "status": "upcoming",
 "upcoming": true
 },
@@ -6130,6 +6310,16 @@
 "upcoming": true
 },
 {
+"id": "E0653",
+"date": "2026-11-10",
+"category": "MKT",
+"event": "BEI will delist 18 companies on 10 November 2026, including bankrupt Sritex (SRIL) and long-suspended stocks, after the mandatory buyback window ending 9 November.",
+"key_numbers": "18 delisted (7 bankrupt: COWL, MTRA, SRIL, TOYS, SBAT, TDPM, TELE; 11 long-suspended: LCGP, SUGI, MABA, LMAS, SKYB, ENVY, GOLL, PLAS, TRIL, UNIT, DUCK) · buyback window 11 May-9 Nov 2026 · delisting effective 10 Nov 2026",
+"storyline": "msci-reclassification",
+"status": "upcoming",
+"upcoming": true
+},
+{
 "id": "E0465",
 "date": "2026-11-11",
 "category": "TECH",
@@ -6165,6 +6355,16 @@
 "category": "POL",
 "event": "The next defamation hearing against dr Tifa is scheduled for 12 November with Jokowi's aide and Dumatno as witnesses, after Roy Suryo and dr Tifa each rejected all of Jokowi's testimony at the 5 November hearing. (update of E0576)",
 "key_numbers": "Next hearing 12 Nov 2026 · Jokowi testified 5 Nov",
+"storyline": "jokowi-ijazah-roy-suryo",
+"status": "upcoming",
+"upcoming": true
+},
+{
+"id": "E0666",
+"date": "2026-11-12",
+"category": "POL",
+"event": "Next defamation hearing against dr Tifa is scheduled on 12 November, after Jokowi testified on 5 Nov at the Roy Suryo trial. (update of E0607)",
+"key_numbers": "Hearing 12 Nov 2026",
 "storyline": "jokowi-ijazah-roy-suryo",
 "status": "upcoming",
 "upcoming": true

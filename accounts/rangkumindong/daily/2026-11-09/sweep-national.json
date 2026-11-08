@@ -1,0 +1,22 @@
+{
+  "area": "national",
+  "run_date": "2026-11-09",
+  "checked": ["detik terpopuler (WebFetch blocked, PROVENANCE_REQUIRED)", "antaranews terkini (WebFetch blocked)", "antaranews terpopuler tag (stale, Aug 2026)", "WebSearch detik/BMKG/BNPB/karhutla (stale results, no 8-9 Nov items)", "storyline search: karhutla (nothing new)", "storyline search: Perlinsos Digital"],
+  "events": [
+    {
+      "date": "2026-11-10",
+      "category": "NEWS",
+      "event": "President Prabowo is scheduled to launch Perlinsos Digital, the digital social-assistance registration system, on 10 November 2026, with registration passing 13.2 million families by 24 October.",
+      "key_numbers": "Launch 10 Nov 2026 · 13.2 million families registered as of 24 Oct (11.5 million on 20 Oct) · target 48 million by end-2026 · 816,674 registration agents · 31 million+ families updated in DTSEN · Bali pilot cut exclusion error 24.1% and inclusion error 4.1%",
+      "storyline": "perlinsos-digital",
+      "update_of": "E0208",
+      "status": "upcoming",
+      "sources": [{"label": "Okezone via RCTI+ (26 Oct)", "url": "https://www.rctiplus.com/news/detail/ekonomi/5501713/6-fakta-perlinsos-digital--target-48-juta-keluarga--bansos-cair-tunai"}],
+      "why_it_matters": "Who gets bansos will be decided by NIK and face scan, and aid shifts toward cash transfers.",
+      "signals": {"spreading": 1, "wallet": 2, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    }
+  ],
+  "gaps": ["Section pages (detik terpopuler, antaranews terkini) blocked by WebFetch provenance; search results stale, so no verified 8-9 Nov national headlines, disasters or hoax debunks", "Perlinsos figures are from 24-26 Oct; fresher registration count not found", "Kalbar siaga darurat asap extended to 15 Nov (RRI headline only, page unreadable)"]
+}

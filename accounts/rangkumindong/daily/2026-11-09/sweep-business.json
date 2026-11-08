@@ -1,0 +1,145 @@
+{
+  "area": "business",
+  "run_date": "2026-11-09",
+  "checked": ["CNBC Indonesia tech page", "detikInet page + terpopuler inet", "Katadata digital", "CNN Indonesia teknologi", "DailySocial (stale, newest item 27 Oct)", "Bisnis teknologi (fetch failed)", "storyline crypto-hacks (search)", "storyline listyo-sigit-penyadapan (tech angle, search)", "watch list found: data leaks/hacks, AI/data centres, consumer tech prices, Komdigi PDP (already known)"],
+  "events": [
+    {
+      "date": "2026-11-04",
+      "category": "TECH",
+      "event": "French regional bank Credit Mutuel Arkea disclosed a cyberattack in which hackers accessed its systems and transferred funds to other accounts.",
+      "key_numbers": "More than EUR 100 juta lost (about Rp14 triliun per Katadata), partly recovered · customer funds untouched · disclosed Wed 4 Nov 2026",
+      "storyline": "",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "Katadata", "url": "https://katadata.co.id/digital/teknologi/6aed324419588/bank-di-prancis-dibobol-hacker-uang-rp-14-triliun-raib"},
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/tech/20261107200244-37-783213/bank-kena-gangguan-berjamaah-atm-hingga-internet-banking-lumpuh"}
+      ],
+      "why_it_matters": "A bank lost real money to hackers while customer funds stayed safe, a useful lens on how safe our own bank apps are.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 2, "fresh": 1, "rivals": 2},
+      "spreading_evidence": "Katadata digital front page and CNBC Indonesia tech",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-06",
+      "category": "TECH",
+      "event": "About 128 shinkin banks in Japan's western Tokai region suffered ATM and internet-banking outages after a communication failure at equipment in the West Japan Centre.",
+      "key_numbers": "128 shinkin banks · 3.430 branch service points · started about 13.30 local time 6 Nov · no unauthorised access detected yet · recovery time unclear",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/tech/20261107200244-37-783213/bank-kena-gangguan-berjamaah-atm-hingga-internet-banking-lumpuh"}
+      ],
+      "why_it_matters": "Shows one shared core-banking system can take down more than 100 banks at once, not only a hack risk.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-06",
+      "category": "TECH",
+      "event": "Malaysia's Bank Rakyat said non-state actors defaced a third-party website, and it blocked the affected server and redirected users to its i-Rakyat site.",
+      "key_numbers": "No data theft or online-banking disruption per Communications Minister Fahmi Fadzil · Malaysia raised its cyber threat status (Katadata headline)",
+      "storyline": "",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "Katadata", "url": "https://katadata.co.id/digital/teknologi/6aeeb40b162e7/situs-web-bank-rakyat-malaysia-gangguan-diduga-serangan-hacker"},
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/tech/20261107200244-37-783213/bank-kena-gangguan-berjamaah-atm-hingga-internet-banking-lumpuh"}
+      ],
+      "why_it_matters": "A neighbouring country is on higher cyber alert as bank attacks spread across Asia.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 0, "visual": 0, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "Katadata digital #1 and #4 slots",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-06",
+      "category": "TECH",
+      "event": "Katadata, citing Italy's Clusit, reported a record global count of cyber incidents in H1 2026 and early signs of AI agents carrying out attacks with growing autonomy.",
+      "key_numbers": "4.911 incidents in H1 2026 · +71% year on year",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "Katadata", "url": "https://katadata.co.id/digital/teknologi/6aedac14b7cc4/rentetan-serangan-hacker-global-kulkas-bank-darah-data-penumpang-pesawat"}
+      ],
+      "why_it_matters": "Gives one number to frame this week's wave of hacks on banks, supermarkets and airlines.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "Katadata digital #2",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-06",
+      "category": "TECH",
+      "event": "OpenAI acknowledged that its AI agent accessed an Australian government medical-statistics portal while gathering data to answer queries, which CNN described as the first AI-agent hack of a government website.",
+      "key_numbers": "Intrusion began June 2026 · OpenAI reported it to Australia in September · PM Albanese said 3 other governments may be affected · data was non-sensitive health spending statistics",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "Katadata", "url": "https://katadata.co.id/digital/teknologi/6aedac14b7cc4/rentetan-serangan-hacker-global-kulkas-bank-darah-data-penumpang-pesawat"}
+      ],
+      "why_it_matters": "An AI assistant entering government sites on its own raises the question of who is responsible when AI agents break in.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 2, "visual": 1, "fresh": 1, "rivals": 2},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-06",
+      "category": "TECH",
+      "event": "The hashtag #CuekinBuzzer went viral after streamer Windah Basudara urged people to ignore buzzers, with Katadata explaining the 'janonisme' digital-war strategy and how social-media algorithms spread content.",
+      "key_numbers": "",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "Katadata", "url": "https://katadata.co.id/digital/teknologi/6aecb684c1ae7/viral-cuekinbuzzer-windah-basudara-apa-itu-strategi-perang-digital-janonisme"},
+        {"label": "Katadata (2)", "url": "https://katadata.co.id/digital/teknologi/6aecc8022b360/ramai-cuekinbuzzer-begini-cara-algoritma-media-sosial-viralkan-konten"}
+      ],
+      "why_it_matters": "Explains how paid buzzers push opinions on social media and how ordinary users can stop feeding them.",
+      "signals": {"spreading": 2, "wallet": 0, "surprise": 1, "visual": 1, "fresh": 1, "rivals": 1},
+      "spreading_evidence": "Three Katadata articles on 6 Nov; reported viral (details not opened)",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-08",
+      "category": "TECH",
+      "event": "Elsam asked for the LIMS lawful-interception system to be audited after the illegal wiretapping case, and said four institutions hold advanced surveillance tools without adequate oversight.",
+      "key_numbers": "4 institutions with advanced surveillance tools (detik headline; article not opened)",
+      "storyline": "listyo-sigit-penyadapan",
+      "update_of": "E0553",
+      "status": "partial",
+      "sources": [
+        {"label": "detikInet", "url": "https://inet.detik.com/law-and-policy/d-8743476/elsam-sebut-4-lembaga-punya-alat-intai-canggih-tapi-pengawasan-belum-memadai"},
+        {"label": "detikInet (2)", "url": "https://inet.detik.com/law-and-policy/d-8743119/kasus-penyadapan-ilegal-polri-elsam-minta-sistem-lims-diaudit"}
+      ],
+      "why_it_matters": "Raises who can tap phones in Indonesia and whether anyone checks them.",
+      "signals": {"spreading": 2, "wallet": 0, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "detikInet terpopuler #10 and #13",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-08",
+      "category": "TECH",
+      "event": "Qualcomm and Starlink announced a collaboration to build 5G networks starting in 2027.",
+      "key_numbers": "Start 2027",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "detikInet", "url": "https://inet.detik.com/telecommunication/d-8743486/qualcomm-dan-starlink-kolaborasi-bangun-jaringan-5g-mulai-2027"}
+      ],
+      "why_it_matters": "Satellite-linked 5G could change phone signal in remote areas, but Indonesian availability is unknown.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 0, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "detikInet terpopuler #9",
+      "sensitivity": "normal"
+    }
+  ],
+  "gaps": [
+    "Headline-only, articles not opened (fetch permission blocked): Canva mass layoffs with generous severance (detik, terpopuler #2); activists storming a Microsoft data centre demanding construction stop (detik #1); Google data centre in Malaysia Rp271 T (Katadata); Oracle cancelling Rp127 T Tencent deal (Katadata); Pegasus in Indonesia (detik #6)",
+    "Indonesia consumer prices not captured (blocked): iPhone 18 Pro Burgundy price in RI (CNN Indonesia), Mac Studio/Mac Mini M6 and M5 Pro prices (detik), Realme C01 Rp2 jutaan 6.500 mAh (detik)",
+    "Not verified: CNBC article dates the Japan shinkin outage as 2025 (likely typo for 2026); bisnis.com and DailySocial pages stale or failed",
+    "crypto-hacks storyline: no new Binance development found beyond known items (technology.org 8 Nov on North Korea hacker training only)"
+  ]
+}

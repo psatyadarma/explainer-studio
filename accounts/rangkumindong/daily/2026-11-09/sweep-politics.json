@@ -1,0 +1,83 @@
+{
+  "area": "politics",
+  "run_date": "2026-11-09",
+  "checked": ["CNN Indonesia nasional (page reached via search result)", "Antara tag/tni feed", "Antara EN tag listyo-sigit", "detik berita (search only, page not fetched)", "tempo politik (not reached)", "Storyline searches: listyo-sigit-penyadapan, gibran-ijazah-mk, jokowi-ijazah-roy-suryo, KPK/corruption-cases", "Watch list found: Presiden/Istana, Polri big case, DPR (Gibran impeachment talk), TNI/Polri"],
+  "events": [
+    {
+      "date": "2026-11-08",
+      "category": "POL",
+      "event": "Prabowo chaired a meeting with 10 former Kapolri at Hambalang, per an Antara headline posted about 9 hours before the fetch, amid the Listyo Sigit wiretapping case.",
+      "key_numbers": "10 former Kapolri",
+      "storyline": "listyo-sigit-penyadapan",
+      "update_of": "E0562",
+      "status": "partial",
+      "sources": [{"label": "Antara (headline)", "url": "https://www.antaranews.com/berita/5840031/prabowo-pimpin-pertemuan-dengan-10-mantan-kapolri-di-hambalang"}],
+      "why_it_matters": "Shows how the Istana is handling the biggest police scandal in years, but the content of the meeting is not yet known.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "Top item in Antara feed",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-08",
+      "category": "POL",
+      "event": "Gerindra urged Polri to widen the investigation into the alleged wiretapping of the President, per an Antara headline.",
+      "key_numbers": "",
+      "storyline": "listyo-sigit-penyadapan",
+      "update_of": "E0562",
+      "status": "partial",
+      "sources": [{"label": "Antara (headline)", "url": "https://www.antaranews.com/berita/5839727/gerindra-dorong-polri-perluas-penyidikan-dugaan-penyadapan-presiden"}],
+      "why_it_matters": "The ruling party is pushing for more suspects or targets, so the case may grow beyond four suspects.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 0, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-07",
+      "category": "POL",
+      "event": "PDI-P secretary-general Hasto spoke about growing calls in the DPR to impeach VP Gibran after the wiretapping case, per CNN Indonesia headline.",
+      "key_numbers": "",
+      "storyline": "gibran-ijazah-mk",
+      "update_of": "E0637",
+      "status": "partial",
+      "sources": [{"label": "CNN Indonesia (headline)", "url": "https://www.cnnindonesia.com/nasional"}],
+      "why_it_matters": "Impeachment talk about a sitting VP is a constitutional process most people do not know the steps of.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 1, "fresh": 1, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-09",
+      "category": "POL",
+      "event": "DPR recess (reses) from 9 Oct is scheduled to end on 9 Nov 2026, so plenary sessions and the Surveillance Bill discussion can resume.",
+      "key_numbers": "Recess 9 Oct to 9 Nov 2026",
+      "storyline": "listyo-sigit-penyadapan",
+      "update_of": "E0288",
+      "status": "upcoming",
+      "sources": [{"label": "Known event E0288 (earlier sweep)", "url": "https://www.dpr.go.id"}],
+      "why_it_matters": "DPR Deputy Speaker Dasco said the House could speed up the Surveillance Bill, which affects who may legally tap phones.",
+      "signals": {"spreading": 0, "wallet": 0, "surprise": 0, "visual": 0, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-12",
+      "category": "POL",
+      "event": "Next defamation hearing against dr Tifa is scheduled on 12 November, after Jokowi testified on 5 Nov at the Roy Suryo trial.",
+      "key_numbers": "Hearing 12 Nov 2026",
+      "storyline": "jokowi-ijazah-roy-suryo",
+      "update_of": "E0607",
+      "status": "upcoming",
+      "sources": [{"label": "afu.id", "url": "https://afu.id/hukum-kriminal/maraton-sidang-ijazah-palsu-jokowi-rampung-bersaksi-di-perkara-roy-suryo-lanjut-ke-dokter-tifa"}],
+      "why_it_matters": "A running court case over a former President's diploma, with a ruling still to come.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 0, "visual": 0, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "high"
+    }
+  ],
+  "gaps": [
+    "Antara articles on the 10 ex-Kapolri meeting (5840031) and Gerindra call (5839727) were blocked on WebFetch (PROVENANCE_REQUIRED); content unverified beyond headlines.",
+    "detik and tempo section pages not read; CNN Indonesia page showed headlines only, no article opened.",
+    "Searches returned mostly 3-6 Nov coverage; no new KPK/Kejagung/MK/DPR items for 8-9 Nov found. KPK, Febrie trial, Nusron, Silmy trial may have unseen developments.",
+    "Status of suspect SU (reported not detained; gebrak.id says stroke) and move of Listyo plus two generals to Rutan Mako Brimob (gebrak.id) not verified with a second source."
+  ]
+}

@@ -1,0 +1,326 @@
+{
+ "area": "markets",
+ "run_date": "2026-11-09",
+ "checked": [
+  "detikFinance (finance.detik.com, scanned 36 headlines + terpopuler)",
+  "CNBC Indonesia market (31 headlines; no terpopuler loaded)",
+  "Antara ekonomi (page 2, undated/stale)",
+  "Bisnis.com (search results only; page fetch failed)",
+  "Kontan IHSG Senin 9/11",
+  "IHSG close/foreign flow",
+  "rupiah",
+  "OJK actions (7 emiten sanctions)",
+  "BEI delisting/HSC/suspensi",
+  "IPO pipeline",
+  "DHE/DSI",
+  "digital tax SPP-TDLN",
+  "BSU",
+  "PHK (no new development beyond E0572)",
+  "oil/Brent",
+  "Antam gold price",
+  "MSCI storyline",
+  "rupiah storyline",
+  "survival-mode storyline"
+ ],
+ "events": [
+  {
+   "date": "2026-11-10",
+   "category": "MKT",
+   "event": "BEI will delist 18 companies on 10 November 2026, including bankrupt Sritex (SRIL) and long-suspended stocks, after the mandatory buyback window ending 9 November.",
+   "key_numbers": "18 delisted (7 bankrupt: COWL, MTRA, SRIL, TOYS, SBAT, TDPM, TELE; 11 long-suspended: LCGP, SUGI, MABA, LMAS, SKYB, ENVY, GOLL, PLAS, TRIL, UNIT, DUCK) · buyback window 11 May-9 Nov 2026 · delisting effective 10 Nov 2026",
+   "storyline": "msci-reclassification",
+   "update_of": "",
+   "status": "upcoming",
+   "sources": [
+    {
+     "label": "detikFinance",
+     "url": "https://finance.detik.com/bursa-dan-valas/d-8743193/rincian-emiten-didepak-bursa-dan-saham-kategori-hsc"
+    },
+    {
+     "label": "detikFinance (headline)",
+     "url": "https://finance.detik.com/bursa-dan-valas/d-8742727/18-perusahaan-ditendang-dari-bursa-10-november-ada-sritex"
+    }
+   ],
+   "why_it_matters": "Retail investors still holding these stocks ('nyangkut') lose their ability to trade them from Tuesday.",
+   "signals": {
+    "spreading": 2,
+    "wallet": 1,
+    "surprise": 1,
+    "visual": 2,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "detikFinance terpopuler #3 and #5 (stock-delisting stories)",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-06",
+   "category": "MKT",
+   "event": "BEI and KSEI list 83 High Shareholding Concentration (HSC) stocks, up from 82, with PT Mitra Komunikasi Nusantara (MKNT) newly added.",
+   "key_numbers": "83 HSC stocks (82 in October) · MKNT 99.64% held by specific shareholders · data as of 5 Nov 2026, announced 6 Nov",
+   "storyline": "msci-reclassification",
+   "update_of": "E0489",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "detikFinance",
+     "url": "https://finance.detik.com/bursa-dan-valas/d-8743193/rincian-emiten-didepak-bursa-dan-saham-kategori-hsc"
+    },
+    {
+     "label": "CNBC Indonesia",
+     "url": "https://www.cnbcindonesia.com/market/20261106175439-17-783100/mknt-masuk-hsc-9964-saham-dikuasai-segelintir-investor"
+    }
+   ],
+   "why_it_matters": "The HSC list decides which stocks are left out of the IHSG, which is central to the MSCI dispute.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 1,
+    "surprise": 0,
+    "visual": 1,
+    "fresh": 1,
+    "rivals": 1
+   },
+   "spreading_evidence": "",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-06",
+   "category": "MKT",
+   "event": "OJK imposed administrative sanctions on seven listed issuers (ASLI, ADHI, ADCP, WMUU, KLBF, EPMT, LMAS) and related parties for reporting and affiliate-transaction violations.",
+   "key_numbers": "7 issuers · ASLI Rp2.7 miliar (two fines of Rp1.35 miliar) · WMUU Rp925 juta · ADHI Rp450 juta · ADCP Rp450 juta · KLBF Rp200 juta · EPMT Rp75 juta · LMAS written warning (no AGM for 2021-2024) · total fines about Rp6.4 miliar including directors, auditor, appraisers (my sum, not stated by OJK)",
+   "storyline": "msci-reclassification",
+   "update_of": "",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "CNBC Indonesia",
+     "url": "https://www.cnbcindonesia.com/market/20261107163500-17-783204/ojk-jatuhkan-sanksi-ke-7-emiten-pihak-terkait-total-denda-miliaran"
+    },
+    {
+     "label": "detikFinance (headline)",
+     "url": "https://finance.detik.com/bursa-dan-valas/d-8742620/tujuh-emiten-dihukum-ojk-ada-yang-didenda-rp-2-7-miliar"
+    }
+   ],
+   "why_it_matters": "Shows OJK's clean-up of the market now extends to well-known names like Kalbe Farma and Adhi Karya.",
+   "signals": {
+    "spreading": 2,
+    "wallet": 1,
+    "surprise": 1,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "detikFinance terpopuler #2",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-11-06",
+   "category": "MKT",
+   "event": "BEI said it is examining trading in CASA, FUJI and NSSS after data showed activity concentrated among a few investors in each stock.",
+   "key_numbers": "CASA: 6 investors via 6 brokers = ~98% of transactions (26 Oct-2 Nov) · FUJI: 16 investors via 10 brokers = ~87% (2 Mar-30 Oct) · NSSS: 19 investors via 15 brokers = ~52% (1 Dec 2025-30 Oct 2026) · no wrongdoing found yet",
+   "storyline": "msci-reclassification",
+   "update_of": "",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "CNBC Indonesia",
+     "url": "https://www.cnbcindonesia.com/market/20261107121924-17-783171/kejanggalan-di-balik-transaksi-casa-fuji-nsss-yang-diusut-bei"
+    },
+    {
+     "label": "detikFinance (headline)",
+     "url": "https://finance.detik.com/bursa-dan-valas/d-8742489/transaksi-tidak-wajar-3-emiten-diusut-41-investor-ikut-terseret"
+    }
+   ],
+   "why_it_matters": "A concrete case of the 'stocks controlled by a few hands' problem MSCI is worried about.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 1,
+    "surprise": 2,
+    "visual": 2,
+    "fresh": 2,
+    "rivals": 2
+   },
+   "spreading_evidence": "",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-11-09",
+   "category": "ECO",
+   "event": "The expanded VAT collection on foreign digital transactions (SPP-TDLN, PMK 49/2026) is reported to start 9 November, while DJP says it is not a new tax and bank transfers are not automatically taxed.",
+   "key_numbers": "Start date 9 Nov 2026 (per Kadin chair Hashim Djojohadikusumo; DJP does not confirm date) · 6 initial collectors named 25 Sep 2026: BRI, Mandiri, BNI, BTN, BSI, LinkAja · no change to VAT rate · consumers need not pay or report themselves",
+   "storyline": "tax-policy",
+   "update_of": "",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "detikFinance",
+     "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8742436/pajak-digital-mulai-berlaku-9-november-transaksi-online-dipajaki"
+    },
+    {
+     "label": "Warta Ekonomi",
+     "url": "https://wartaekonomi.co.id/read645462/pajak-digital-berlaku-9-november-2026-ini-transaksi-yang-bakal-dikenai-ppn"
+    }
+   ],
+   "why_it_matters": "Many people fear online shopping and transfers will be taxed from today; the real rule is narrower.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 2,
+    "surprise": 2,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "widely covered (detik, Kontan, Liputan6, IKPI, Warta Ekonomi)",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-06",
+   "category": "ECO",
+   "event": "The Manpower Ministry set the 2026 BSU wage subsidy at Rp900,000 paid in one lump sum to workers earning up to Rp3.5 million (or the local minimum wage if higher), for disbursement November-December.",
+   "key_numbers": "Rp900.000 (3 x Rp300.000) lump sum · wage cap Rp3,5 juta or UMK/UMP if higher · active BPJS Ketenagakerjaan through Aug 2026 · excludes ASN/TNI/Polri · via Himbara banks and PT Pos · Permenaker 16/2026 · recipient count and budget not stated",
+   "storyline": "survival-mode",
+   "update_of": "",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "detikFinance",
+     "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8740867/bsu-rp-900-ribu-mulai-cair-bulan-ini-cek-syarat-penerimanya/amp"
+    },
+    {
+     "label": "Kompas.com",
+     "url": "https://money.kompas.com/read/2026/10/01/141800526/bsu-2026-cair-rp-900.000-ini-syarat-yang-perlu-dipenuhi-pekerja"
+    }
+   ],
+   "why_it_matters": "Cash aid for millions of low-wage workers; many want to know if they qualify and when it lands.",
+   "signals": {
+    "spreading": 2,
+    "wallet": 2,
+    "surprise": 0,
+    "visual": 2,
+    "fresh": 1,
+    "rivals": 0
+   },
+   "spreading_evidence": "detikFinance terpopuler #1 (BSU syarat) and #5",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-07",
+   "category": "ECO",
+   "event": "Coordinating Minister Airlangga Hartarto said export proceeds (DHE) are not being frozen, as the revised DHE SDA rule and the Danantara Sumberdaya Indonesia (DSI) single-intermediary scheme were explained.",
+   "key_numbers": "Non-oil/gas DHE: 100% held at least 12 months; oil/gas: at least 30% for 3 months · up to 50% convertible to rupiah · partner countries 4 to 7 (adds South Korea, Japan, EU) · 16 placement banks (5 state, 11 private) · coal, CPO, ferroalloys = US$66.13 miliar (23.4% of 2025 exports) · timeline: 15 Nov function test, 15 Dec NADI pilot (~100 exporters, ~340 contracts), 1 Jan 2027 full go-live",
+   "storyline": "rupiah",
+   "update_of": "E0630",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "detikFinance",
+     "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8742929/pemerintah-jamin-devisa-hasil-ekspor-dhe-tidak-dibekukan"
+    },
+    {
+     "label": "CNBC Indonesia",
+     "url": "https://www.cnbcindonesia.com/market/20261106173818-17-783086/pengusaha-minta-bank-swasta-ri-jadi-tempat-parkir-dhe-bi-menjawab"
+    }
+   ],
+   "why_it_matters": "The rule aims to keep dollars at home to support the rupiah, and exporters worry about their cash.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 1,
+    "surprise": 1,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-07",
+   "category": "GLB",
+   "event": "Brent crude ended the week at US$98.15, down 16.57% on the week, as US-Iran peace signals and the Democratic midterm win raised hopes of de-escalation, though tanker attacks continue.",
+   "key_numbers": "Brent US$98,15 (-16,57% weekly) · WTI US$90,72 (-12,88% weekly) · Brent -8% on 4 Nov to two-month low · Jan 2027 Brent US$98.32 / WTI US$90.83 pre-open Mon 9 Nov (Industry.co.id)",
+   "storyline": "fuel-oil",
+   "update_of": "E0632",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "CNBC Indonesia",
+     "url": "https://www.cnbcindonesia.com/research/20261107035337-128-783134/harga-minyak-anjlok-16-usai-sinyal-damai-as-iran-pasar-masih-waspada"
+    },
+    {
+     "label": "Kontan",
+     "url": "https://investasi.kontan.co.id/news/ihsg-menguat-040-ke-5050-pada-akhir-pekan-lalu-begini-proyeksi-senin-9112026"
+    }
+   ],
+   "why_it_matters": "Lower oil eases pressure on the rupiah, the budget and eventually fuel prices.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 1,
+    "surprise": 2,
+    "visual": 2,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-06",
+   "category": "ECO",
+   "event": "The government raised US$3 billion in a three-tranche global sukuk, its sixth international issuance this year, at yields of 5.45%-6.25%.",
+   "key_numbers": "US$3 miliar (~Rp54,24 triliun at Rp18.080) · 3y US$0.5 miliar 5,45% · 5y US$1.0 miliar 5,85% · 10y US$1.5 miliar 6,25% · order book 2,9x overall (3.0x/2.9x/2.2x)",
+   "storyline": "rupiah",
+   "update_of": "",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "CNBC Indonesia",
+     "url": "https://www.cnbcindonesia.com/market/20261106173504-17-783083/ri-sukses-terbitkan-surat-berharga-syariah-global-raup-rp5424-t"
+    }
+   ],
+   "why_it_matters": "Shows foreign investors still buy Indonesian debt despite the weak rupiah, at a rising borrowing cost.",
+   "signals": {
+    "spreading": 0,
+    "wallet": 0,
+    "surprise": 0,
+    "visual": 1,
+    "fresh": 1,
+    "rivals": 2
+   },
+   "spreading_evidence": "",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-06",
+   "category": "MKT",
+   "event": "BEI's pipeline shows nine companies queuing for IPOs and 29 bond/sukuk issues from 19 issuers, while only seven companies have listed in 2026.",
+   "key_numbers": "9 IPO candidates (4 healthcare, 2 basic materials, 2 energy, 1 financials) · 7 IPOs YTD raising Rp2,16 triliun · 156 bond issues raising Rp157,73 triliun · 16 rights issues Rp37,35 triliun · data as of 6 Nov 2026",
+   "storyline": "",
+   "update_of": "",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "CNBC Indonesia",
+     "url": "https://www.cnbcindonesia.com/market/20261107150743-17-783188/siap-siap-9-perusahaan-antre-ipo-19-emiten-mau-terbitkan-obligasi"
+    }
+   ],
+   "why_it_matters": "A thin IPO year compared with the pipeline shows how shaky investor confidence is.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 0,
+    "surprise": 0,
+    "visual": 1,
+    "fresh": 1,
+    "rivals": 2
+   },
+   "spreading_evidence": "detikFinance headline 'Bocoran 9 Perusahaan Antre IPO'",
+   "sensitivity": "normal"
+  }
+ ],
+ "gaps": [
+  "Bisnis.com headline 'Net Sell Asing Capai Rp98 Triliun' (weekly IHSG, 7 Nov): page not fetchable; unclear whether Rp98T is year-to-date, so not reported",
+  "MSCI November review announcement date: Katadata says 11 Nov (effective 1 Dec) but known event E0444 says 12 Nov; verify",
+  "Detik delisting article and digital-tax claims: detik 18-company page was blocked (PROVENANCE_REQUIRED); delisting numbers taken from the other detik HSC article. The 'suspended over 50 months' vs 24-month rule is inconsistent in the source",
+  "Digital tax start date 9 Nov comes from Hashim (Kadin), not confirmed by DJP",
+  "No 9 Nov IHSG/rupiah open yet; Antam gold fell Rp20.000 to Rp2.545.000/g on 8 Nov (headline-level only, not verified)"
+ ]
+}
