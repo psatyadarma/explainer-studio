@@ -1,0 +1,104 @@
+{
+  "area": "business",
+  "run_date": "2026-11-08",
+  "checked": [
+    "CNBC Indonesia tech section page (31 headlines, 5-7 Nov; terpopuler did not load)",
+    "detikInet front page (articles undated) and detik terpopuler inet (stale cache, 4 Nov)",
+    "teknologi.bisnis.com (fetch failed)",
+    "katadata digital, cnnindonesia teknologi, dailysocial (not reachable as returned URLs; DailySocial only via search snippets)",
+    "Watch list found: AI/data centres (US selloff, Cikarang), e-commerce (TikTok Shop app, 11.11, 9 Nov tax), Komdigi (Fore data leak, Aceh takedown denial), scams/hacks (freezer attacks, Binance), consumer tech (PS5 price unchanged)",
+    "Storyline search: crypto-hacks (Binance/FBI/North Korea)",
+    "Car/motorbike sales and consumer prices: nothing in tech headlines"
+  ],
+  "events": [
+    {
+      "date": "2026-11-05",
+      "category": "TECH",
+      "event": "Wall Street fell sharply on 5 November (New York) on fears of an AI bubble and slower data-centre buildout after Democratic midterm wins, with Nvidia down over 9% and the Magnificent Seven losing over US$1 trillion; Korea's Kospi dropped nearly 9% at the Friday open.",
+      "key_numbers": "Wall Street market value erased about US$2.5 trillion (≈Rp45,000 trillion, detikInet) · Magnificent Seven lost over US$1 trillion (≈Rp18,200 trillion, CNBC Indonesia) · Nvidia down over 9%, over US$440 billion lost · Nasdaq down over 5%, worst day since 4 Apr 2025 · S&P 500 tech sector down 7.30% (CNBC Indonesia; its S&P 500 daily % is internally inconsistent, one outlet says 4.4%) · Kospi down nearly 9%, 20-minute halt on 6 Nov",
+      "storyline": "ai-data-centres",
+      "update_of": "E0584",
+      "status": "partial",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/tech/20261106165209-37-783069/bubble-ai-pecah-sampai-amerika-rp18000-triliun-menguap-semalam"},
+        {"label": "detikInet", "url": "https://inet.detik.com/business/d-8741598/saham-raksasa-teknologi-ramai-dilepas-rp-45-ribu-triliun-lenyap"}
+      ],
+      "why_it_matters": "The AI boom behind chip, RAM and data-centre prices, and a lot of pension and fund money, just took its biggest one-day hit in 19 months.",
+      "signals": {"spreading": 2, "wallet": 1, "surprise": 2, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "Two CNBC Indonesia tech headlines and two detikInet headlines on 6 Nov; CNBC Indonesia and detik both led with the Rp18,000T / Rp45,000T numbers",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-06",
+      "category": "TECH",
+      "event": "The FBI, CISA and the US health, transport and agriculture departments issued a joint warning to disconnect internet-connected commercial refrigeration controllers after hackers raised temperatures in supermarket freezers in the US and Europe.",
+      "key_numbers": "At least 3 hacks in recent months · second wave hit over 100 European stores · Irish chain SuperValu: 13 of 223 stores affected (2 Nov) · France attack in October reportedly cost tens of millions of euros · Pentagon probing an August outage at a US base grocery store",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "CNBC Indonesia (citing Reuters)", "url": "https://www.cnbcindonesia.com/tech/20261107023715-37-783130/hacker-bisa-bobol-kulkas-supermarket-as-minta-siaga-serangan-lanjutan"},
+        {"label": "detikInet", "url": "https://inet.detik.com/security/d-8741784/hacker-serang-bank-darah-suhu-freezer-dibikin-mendidih"}
+      ],
+      "why_it_matters": "Smart appliances you can reach over the internet can be turned into weapons against food and medicine supplies, a new kind of hack that spoils stock instead of stealing data.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 2, "visual": 2, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "Covered by CNBC Indonesia and detikInet (two angles, blood bank and supermarket)",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-06",
+      "category": "TECH",
+      "event": "The Dutch cabinet announced it will cut about 25,000 civil-service jobs (16%) over 10 years and have AI take over routine tasks, in what CNBC Indonesia calls the first large plan to cut permanent staff because of technology.",
+      "key_numbers": "16% of civil servants, about 25,000 posts, over 10 years · savings €900 million in 2027 rising to €3.5 billion (≈Rp71 trillion) by 2035 · civil servants grew from 140,000 (2021) to 170,000 (2026) per Telegraaf · police and defence excluded · AI plan details due Q1 2027",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/tech/20261106102924-37-782892/ganti-25000-pns-pakai-ai-negara-ini-hemat-rp-71-triliun"}
+      ],
+      "why_it_matters": "A rich country is openly planning to replace civil servants with AI, a question Indonesia's PNS and PPPK workforce will eventually face.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 2, "visual": 2, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "CNBC Indonesia tech section, 6 Nov",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-06",
+      "category": "TECH",
+      "event": "TikTok launched a standalone TikTok Shop app for iOS and Android in Singapore, Malaysia, Thailand and the Philippines, not including Indonesia, with in-app checkout, livestream shopping and free-shipping offers.",
+      "key_numbers": "4 launch markets (Singapore, Malaysia, Thailand, Philippines) · iOS and Android · Indonesia not listed · no user or sales figures disclosed",
+      "storyline": "ecommerce-seller-rules",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "TechCrunch", "url": "https://techcrunch.com/2026/11/05/tiktok-quietly-launches-a-standalone-tiktok-shop-app"},
+        {"label": "JawaPos", "url": "https://jawapos.com/teknologi/2611060239/tiktok-luncurkan-aplikasi-shop-terpisah-pengguna-bisa-belanja-via-video-dan-live-streaming"}
+      ],
+      "why_it_matters": "TikTok Shop in Indonesia is now run with Tokopedia, so a separate app next door raises the question of whether Indonesian shoppers and sellers are next, just before 11.11.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-06",
+      "category": "TECH",
+      "event": "Muhammadiyah launched ChatHPT, an AI chatbot that answers questions from 1,153 official Majelis Tarjih rulings and links to the sources.",
+      "key_numbers": "13,840 questions as of 2 Nov 2026 · top topic prayer (salat) with 2,671 questions · 1,153 HPT documents · testing began Aug 2026 · built on the AIMU platform",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/tech/20261106132928-37-782981/cara-kerja-chathpt-buatan-muhammadiyah-yang-bisa-buat-naskah-khutbah"}
+      ],
+      "why_it_matters": "One of Indonesia's biggest religious organisations is putting AI in front of millions of followers, with a limit that it explains rulings but does not issue new ones.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "",
+      "sensitivity": "high"
+    }
+  ],
+  "gaps": [
+    "Komdigi denying takedown of Aceh flood content (detik headline, only low-quality sites reachable; date and numbers unverified, possible link to the earlier karhutla takedown dispute: SAFEnet/Remotivi 66 cases)",
+    "US 'fictitious students' AI student-aid fraud: Indonesian outlets give Rp2T, Rp3.2T and Rp3.6T; the DOJ source was not opened",
+    "Whether the AI selloff hit Indonesian tech stocks or IHSG on 6 Nov beyond the known E0596; bisnis.com, katadata, cnnindonesia and dailysocial section pages could not be read",
+    "Viral '13 November doomsday' claims (CNBC Indonesia fact-check articles): not examined"
+  ]
+}

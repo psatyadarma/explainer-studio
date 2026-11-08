@@ -5730,6 +5730,36 @@
 "upcoming": false
 },
 {
+"id": "E0638",
+"date": "2026-11-05",
+"category": "POL",
+"event": "The Constitutional Court Honorary Council (MKMK) rejected a report alleging ethics violations by the nine constitutional judges in the Gibran diploma case, finding no violation. (update of E0466)",
+"key_numbers": "9 judges reported · MKMK ruling 5 Nov",
+"storyline": "gibran-ijazah-mk",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0642",
+"date": "2026-11-05",
+"category": "TECH",
+"event": "Wall Street fell sharply on 5 November (New York) on fears of an AI bubble and slower data-centre buildout after Democratic midterm wins, with Nvidia down over 9% and the Magnificent Seven losing over US$1 trillion; Korea's Kospi dropped nearly 9% at the Friday open. (update of E0584)",
+"key_numbers": "Wall Street market value erased about US$2.5 trillion (≈Rp45,000 trillion, detikInet) · Magnificent Seven lost over US$1 trillion (≈Rp18,200 trillion, CNBC Indonesia) · Nvidia down over 9%, over US$440 billion lost · Nasdaq down over 5%, worst day since 4 Apr 2025 · S&P 500 tech sector down 7.30% (CNBC Indonesia; its S&P 500 daily % is internally inconsistent, one outlet says 4.4%) · Kospi down nearly 9%, 20-minute halt on 6 Nov",
+"storyline": "ai-data-centres",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0652",
+"date": "2026-11-05",
+"category": "POL",
+"event": "At the Roy Suryo and dr Tifa trial Jokowi testified he defended his thesis on 23 Oct 1985, cited a survey with 18% believing his diploma fake (about 34 million people), and showed diplomas from SD to S1. (update of E0576)",
+"key_numbers": "Thesis defence 23 Oct 1985 · graduation 19 Nov 1985 · 18% survey = ~34 million people · 14 Forestry graduates",
+"storyline": "jokowi-ijazah-roy-suryo",
+"status": "verified",
+"upcoming": false
+},
+{
 "id": "E0573",
 "date": "2026-11-06",
 "category": "BIZ",
@@ -5876,6 +5906,226 @@
 "event": "ANTARA rated as hoax a poster saying KLHK declared Kalimantan orangutans totally extinct due to karhutla, citing ministry data on animals under treatment.",
 "key_numbers": "290 wildlife individuals from fires under treatment as of 8 Oct 2026 (272 by BKSDA in 4 Kalimantan provinces) · 96 Kalimantan orangutans (25 in Central Kalimantan) · 9 orangutans released 29 Oct 2026 in Ketapang · ~3.2 km firebreak in Paring Lahung",
 "storyline": "karhutla",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0631",
+"date": "2026-11-06",
+"category": "ECO",
+"event": "Coordinating Minister Airlangga Hartarto said the alleged illegal wiretapping of President Prabowo could weigh on market sentiment and investment.",
+"key_numbers": "No market figures cited in the headlines · context: IHSG closed 5,050.43 on 6 Nov, rupiah Rp18,080/USD",
+"storyline": "listyo-sigit-penyadapan",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0632",
+"date": "2026-11-06",
+"category": "GLB",
+"event": "Brent crude traded near US$97.7 a barrel on 6 November, well below the US$115.81 recorded on 26 October. (update of E0383)",
+"key_numbers": "Brent (Jan 2027) US$97.69, previous close US$98.29 · WTI US$90.27 (prev US$90.52) · Brent 26 Oct US$115.81 (E0383) · Pertamina Pertamax Rp15,950, Pertalite Rp10,000, Biosolar Rp6,800 unchanged since 2 Sep; 1 Nov review kept prices · Pertalite/Biosolar will not rise through end-2026 per government",
+"storyline": "fuel-oil",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0634",
+"date": "2026-11-06",
+"category": "POL",
+"event": "State Intelligence Agency (BIN) head Herindra was summoned to the palace by Prabowo and called the alleged wiretapping illegal and leading toward subversion; Mensesneg Prasetyo Hadi urged a transparent probe and said the palace will keep cleaning house. (update of E0562)",
+"key_numbers": "BIN head Herindra at Istana, Fri 6 Nov · 4 suspects (Listyo Sigit, Ahrie Sonta Nasution, Eko Hadi Santoso, Slamet Uliandi)",
+"storyline": "listyo-sigit-penyadapan",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0635",
+"date": "2026-11-06",
+"category": "POL",
+"event": "DPR Deputy Speaker Sufmi Dasco Ahmad said the House could speed up the Surveillance Bill (RUU Penyadapan), already on the 2026 priority list, to be discussed after the current recess. (update of E0562)",
+"key_numbers": "DPR recess ends 9 Nov 2026 · RUU Penyadapan on 2026 Prolegnas priority list",
+"storyline": "listyo-sigit-penyadapan",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0639",
+"date": "2026-11-06",
+"category": "POL",
+"event": "UGM issued a statement responding to former President Jokowi showing his diploma at the Roy Suryo defamation trial, saying it respects the legal process. (update of E0576)",
+"key_numbers": "Jokowi testified 5 Nov as prosecution witness · UGM statement 6-7 Nov · next hearing involving dr Tifa 12 Nov",
+"storyline": "jokowi-ijazah-roy-suryo",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0640",
+"date": "2026-11-06",
+"category": "POL",
+"event": "KPK seized Rp 2 billion returned by KAI president director Bobby Rasyidin in the Pertamina gas-station (SPBU) digitalisation corruption case, and is tracing where the money came from; Bobby publicly responded.",
+"key_numbers": "Rp 2 billion seized",
+"storyline": "corruption-cases",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0641",
+"date": "2026-11-06",
+"category": "POL",
+"event": "The government said the Pidie, Aceh shooting case is handed to Komnas HAM and no joint fact-finding team (TGPF) will be formed. (update of E0610)",
+"key_numbers": "TGPF not formed",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0643",
+"date": "2026-11-06",
+"category": "TECH",
+"event": "The FBI, CISA and the US health, transport and agriculture departments issued a joint warning to disconnect internet-connected commercial refrigeration controllers after hackers raised temperatures in supermarket freezers in the US and Europe.",
+"key_numbers": "At least 3 hacks in recent months · second wave hit over 100 European stores · Irish chain SuperValu: 13 of 223 stores affected (2 Nov) · France attack in October reportedly cost tens of millions of euros · Pentagon probing an August outage at a US base grocery store",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0644",
+"date": "2026-11-06",
+"category": "TECH",
+"event": "The Dutch cabinet announced it will cut about 25,000 civil-service jobs (16%) over 10 years and have AI take over routine tasks, in what CNBC Indonesia calls the first large plan to cut permanent staff because of technology.",
+"key_numbers": "16% of civil servants, about 25,000 posts, over 10 years · savings €900 million in 2027 rising to €3.5 billion (≈Rp71 trillion) by 2035 · civil servants grew from 140,000 (2021) to 170,000 (2026) per Telegraaf · police and defence excluded · AI plan details due Q1 2027",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0645",
+"date": "2026-11-06",
+"category": "TECH",
+"event": "TikTok launched a standalone TikTok Shop app for iOS and Android in Singapore, Malaysia, Thailand and the Philippines, not including Indonesia, with in-app checkout, livestream shopping and free-shipping offers.",
+"key_numbers": "4 launch markets (Singapore, Malaysia, Thailand, Philippines) · iOS and Android · Indonesia not listed · no user or sales figures disclosed",
+"storyline": "ecommerce-seller-rules",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0646",
+"date": "2026-11-06",
+"category": "TECH",
+"event": "Muhammadiyah launched ChatHPT, an AI chatbot that answers questions from 1,153 official Majelis Tarjih rulings and links to the sources.",
+"key_numbers": "13,840 questions as of 2 Nov 2026 · top topic prayer (salat) with 2,671 questions · 1,153 HPT documents · testing began Aug 2026 · built on the AIMU platform",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0648",
+"date": "2026-11-06",
+"category": "ENV",
+"event": "BNPB said karhutla hotspots rose 66% in Papua Selatan and 20% in Central Kalimantan, while 46 aircraft work across 12 provinces including an Australian C-130 in East Kalimantan. (update of E0588)",
+"key_numbers": "1,468 hotspots · 2,645 ha under response · Papua Selatan +66% · Kalteng +20% · Kaltim -2% · Kalsel -31% · Sulteng -37% · 46 aircraft (18 patrol/seeding, 28 helicopters)",
+"storyline": "karhutla",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0649",
+"date": "2026-11-06",
+"category": "NEWS",
+"event": "ANTARA fact-check rated as hoax a viral Instagram post claiming free SIM creation and renewal in November 2026 with lifetime validity, registrations until 25 November.",
+"key_numbers": "Claimed: free SIM, lifetime validity, deadline 25 Nov 2026 · Korlantas: fees unchanged, validity stays 5 years",
+"storyline": "hoax-tracker",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0650",
+"date": "2026-11-06",
+"category": "NEWS",
+"event": "ANTARA debunked a viral photo claimed to show karhutla smoke from Indonesia reaching Australia.",
+"key_numbers": "ANTARA fact-check 6 Nov 2026 · photo misattributed",
+"storyline": "karhutla",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0651",
+"date": "2026-11-06",
+"category": "NEWS",
+"event": "Putri Mangkunegaran Gusti Sura married Adimas Rosdian, head of bus company PO Rosalia Indah, in a Catholic ceremony in Solo, with Jokowi, Gibran and Kaesang reported at the royal wedding.",
+"key_numbers": "Wedding 6 Nov 2026 · Gereja Santo Antonius Padua Purbayan, Solo · bride is sister of Mangkunegara X",
+"storyline": "",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0628",
+"date": "2026-11-07",
+"category": "MKT",
+"event": "The IHSG ended the week of 2-6 November down 0.13% at 5,050.43, with market capitalisation down about Rp118 trillion and average daily trading value down 23%. (update of E0596)",
+"key_numbers": "IHSG weekly -0.13% (5,057.05 -> 5,050.43) · market cap Rp8,862T -> Rp8,744T (-1.34%, about -Rp118T) · average daily transaction value Rp14.34T -> Rp11.04T (-23%) · foreign net sell YTD 2026 Rp98.08T · Friday 6 Nov foreign net buy Rp328.20bn · IHSG about -41.5% YTD per MediaKeuangan headline (unverified)",
+"storyline": "msci-reclassification",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0629",
+"date": "2026-11-07",
+"category": "ECO",
+"event": "Tapioca flour prices in West Java rose up to about 30% in recent months, squeezing cilok, cireng and gorengan sellers, while the Trade Ministry denied the 2025 import restriction is the cause.",
+"key_numbers": "Tapioca flour Rp10,000-14,000/kg -> Rp16,000-18,000/kg (up to ~30%) · farmgate cassava ~Rp700/kg -> ~Rp3,000/kg · DGFT Tommy Andana denies import-restriction (lartas) link · coordination meeting under Kemenko Pangan also covers 2027 cassava/tapioca balance · Agriculture Minister Amran links complaints to planned cassava exports",
+"storyline": "survival-mode",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0630",
+"date": "2026-11-07",
+"category": "ECO",
+"event": "Details of the fourth DHE SDA revision emerged: more destination countries are relaxed, one more bank is added as a placement bank, and the conversion cap would rise from 50% to up to 100%. (update of E0595)",
+"key_numbers": "Placement banks total 16 (5 BUMN + 11 non-BUMN), PT Bank OCBC NISP added · relaxation extended to South Korea, Japan and EU (previously US, Canada, China incl. Hong Kong, Australia; rakortas 3 Nov 2026) · conversion cap 50% -> up to 100% · rule targeted to finish end-November · conversion to rupiah down 37.4% per LNSW head Oza Olavia · detik says 'five countries' but lists fewer (unverified)",
+"storyline": "rupiah",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0633",
+"date": "2026-11-07",
+"category": "POL",
+"event": "Golkar chair and Energy Minister Bahlil Lahadalia denied involvement in the alleged illegal wiretapping of President Prabowo, called a claim that he met the arrested generals before their arrest invented, and gave the accuser 3x24 hours to prove it or face a somasi and legal action. (update of E0562)",
+"key_numbers": "3x24 hours ultimatum · claimed meeting 3 hours before the generals' arrest (disputed by Bahlil) · statement at DPD Golkar Maluku inauguration, 7 Nov 12:02 WIB",
+"storyline": "listyo-sigit-penyadapan",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0636",
+"date": "2026-11-07",
+"category": "POL",
+"event": "TNI found the black box of the Mi-17V5 helicopter that crashed in Seruyan waters, Central Kalimantan, during a karhutla water-bombing mission, and began investigating the cause; three soldiers died and five crew are to be treated in Jakarta and Semarang. (update of E0557)",
+"key_numbers": "3 TNI soldiers killed · 5 crew to be treated in DKI and Semarang · 8 crew aboard (earlier report E0622)",
+"storyline": "karhutla",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0637",
+"date": "2026-11-07",
+"category": "POL",
+"event": "PDI-P secretary-general Hasto and the youth group PB Pemuda Muslimin Indonesia urged DPR to start the process of removing Vice President Gibran over the diploma case, while Dasco said DPR is still in recess and has not received the full Supreme Court (MA) ruling. (update of E0457)",
+"key_numbers": "DPR recess 9 Oct-9 Nov 2026 · calls made 7 Nov",
+"storyline": "gibran-ijazah-mk",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0647",
+"date": "2026-11-07",
+"category": "ENV",
+"event": "BMKG recorded a shallow M4.9 tectonic earthquake on the Palolo Fault in Sigi, Central Sulawesi, felt in Palu with no damage reported.",
+"key_numbers": "M4.9 · depth 10 km · 03:08 WITA 7 Nov · MMI IV Sigi, III Palu · no aftershocks, no damage reported",
+"storyline": "",
 "status": "verified",
 "upcoming": false
 },

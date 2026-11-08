@@ -1,0 +1,113 @@
+{
+  "area": "markets",
+  "run_date": "2026-11-08",
+  "checked": [
+    "detikFinance front page + terpopuler (read)",
+    "CNBC Indonesia market (section page refused by WebFetch; headlines via search only)",
+    "Bisnis.com market (section page and article fetch failed; headlines via search only)",
+    "Antara ekonomi (not reached)",
+    "IHSG weekly close / foreign flows (found)",
+    "rupiah and BI FX reserves (found, already E0597)",
+    "DHE SDA fourth revision / DSI (found, already E0594/E0595; new details only)",
+    "fuel prices Pertamina/BP/Shell/Vivo (found, unchanged)",
+    "oil/global markets (found)",
+    "PHK (found Canva only, unverified relevance)",
+    "Danantara/BUMN (found)",
+    "storyline searches: msci-reclassification, rupiah, survival-mode, listyo-sigit-penyadapan market angle"
+  ],
+  "events": [
+    {
+      "date": "2026-11-07",
+      "category": "MKT",
+      "event": "The IHSG ended the week of 2-6 November down 0.13% at 5,050.43, with market capitalisation down about Rp118 trillion and average daily trading value down 23%.",
+      "key_numbers": "IHSG weekly -0.13% (5,057.05 -> 5,050.43) · market cap Rp8,862T -> Rp8,744T (-1.34%, about -Rp118T) · average daily transaction value Rp14.34T -> Rp11.04T (-23%) · foreign net sell YTD 2026 Rp98.08T · Friday 6 Nov foreign net buy Rp328.20bn · IHSG about -41.5% YTD per MediaKeuangan headline (unverified)",
+      "storyline": "msci-reclassification",
+      "update_of": "E0596",
+      "status": "verified",
+      "sources": [
+        {"label": "Kontan", "url": "https://investasi.kontan.co.id/news/transaksi-harian-di-bei-anjlok-23-investor-asing-masih-catat-net-sell-rp-98-triliun"},
+        {"label": "Bisnis.com", "url": "https://market.bisnis.com/read/20261107/7/2019247/ihsg-turun-013-sepekan-ke-5050-net-sell-asing-capai-rp98-triliun"},
+        {"label": "Okezone", "url": "https://economy.okezone.com/read/2026/11/07/278/3252621/ihsg-sepekan-melemah-0-13-persen-ke-5-050-kapitalisasi-pasar-susut-rp118-triliun"}
+      ],
+      "why_it_matters": "After a 7% crash the week before, the index only held flat while trading dried up and foreigners have pulled nearly Rp100 trillion this year.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 0},
+      "spreading_evidence": "Weekly recap carried by Bisnis, Kontan, Okezone, Liputan6, IDN Times, MetroTV",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-07",
+      "category": "ECO",
+      "event": "Tapioca flour prices in West Java rose up to about 30% in recent months, squeezing cilok, cireng and gorengan sellers, while the Trade Ministry denied the 2025 import restriction is the cause.",
+      "key_numbers": "Tapioca flour Rp10,000-14,000/kg -> Rp16,000-18,000/kg (up to ~30%) · farmgate cassava ~Rp700/kg -> ~Rp3,000/kg · DGFT Tommy Andana denies import-restriction (lartas) link · coordination meeting under Kemenko Pangan also covers 2027 cassava/tapioca balance · Agriculture Minister Amran links complaints to planned cassava exports",
+      "storyline": "survival-mode",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "Republika", "url": "https://ekonomi.republika.co.id/berita/to04da423/harga-tepung-tapioka-naik-30-persen-pedagang-cilok-hingga-gorengan-kena-imbas"},
+        {"label": "detikFinance (also #3 terpopuler)", "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8741989/kemendag-buka-suara-soal-harga-tepung-tapioka-mahal"}
+      ],
+      "why_it_matters": "The flour behind street snacks like cilok and gorengan is getting pricier, and the government is blaming weather and exports rather than its own import curbs.",
+      "signals": {"spreading": 2, "wallet": 2, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "detikFinance terpopuler #3; Kompas.id, Republika, Pikiran Rakyat coverage",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-07",
+      "category": "ECO",
+      "event": "Details of the fourth DHE SDA revision emerged: more destination countries are relaxed, one more bank is added as a placement bank, and the conversion cap would rise from 50% to up to 100%.",
+      "key_numbers": "Placement banks total 16 (5 BUMN + 11 non-BUMN), PT Bank OCBC NISP added · relaxation extended to South Korea, Japan and EU (previously US, Canada, China incl. Hong Kong, Australia; rakortas 3 Nov 2026) · conversion cap 50% -> up to 100% · rule targeted to finish end-November · conversion to rupiah down 37.4% per LNSW head Oza Olavia · detik says 'five countries' but lists fewer (unverified)",
+      "storyline": "rupiah",
+      "update_of": "E0595",
+      "status": "partial",
+      "sources": [
+        {"label": "detikFinance", "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8742022/aturan-devisa-hasil-ekspor-sumber-daya-alam-direvisi-ini-isinya"},
+        {"label": "Periskop", "url": "https://periskop.id/perdagangan/20261107/airlangga-batas-penukaran-dhe-sda-ke-rupiah-bakal-naik-jadi-100"}
+      ],
+      "why_it_matters": "The government is loosening its own rule on exporters' dollars to pull more of them into rupiah while the currency sits near record lows.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "Several detikFinance items on DHE on 6-7 Nov; 'Revisi Keempat DHE' headline on detik feed",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-06",
+      "category": "ECO",
+      "event": "Coordinating Minister Airlangga Hartarto said the alleged illegal wiretapping of President Prabowo could weigh on market sentiment and investment.",
+      "key_numbers": "No market figures cited in the headlines · context: IHSG closed 5,050.43 on 6 Nov, rupiah Rp18,080/USD",
+      "storyline": "listyo-sigit-penyadapan",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "Periskop", "url": "https://periskop.id/makro/20261106/airlangga-sebut-kasus-penyadapan-prabowo-berdampak-pada-sentimen-ekonomi"},
+        {"label": "Media Indonesia", "url": "https://mediaindonesia.com/ekonomi/953378/menko-airlangga-penyadapan-presiden-bisa-ganggu-ekonomi-indonesia"},
+        {"label": "detikFinance headline", "url": "https://finance.detik.com/"}
+      ],
+      "why_it_matters": "A minister is openly tying a police wiretapping scandal to market confidence at a time when stocks and the rupiah are already fragile.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 0, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "Reported by 8+ outlets in search; detikFinance feed 10 hours before fetch",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-06",
+      "category": "GLB",
+      "event": "Brent crude traded near US$97.7 a barrel on 6 November, well below the US$115.81 recorded on 26 October.",
+      "key_numbers": "Brent (Jan 2027) US$97.69, previous close US$98.29 · WTI US$90.27 (prev US$90.52) · Brent 26 Oct US$115.81 (E0383) · Pertamina Pertamax Rp15,950, Pertalite Rp10,000, Biosolar Rp6,800 unchanged since 2 Sep; 1 Nov review kept prices · Pertalite/Biosolar will not rise through end-2026 per government",
+      "storyline": "fuel-oil",
+      "update_of": "E0383",
+      "status": "partial",
+      "sources": [
+        {"label": "Industry.co.id", "url": "https://www.industry.co.id/read/158712/harga-bbm-hari-ini-7-november-2026-brent-turun-tipis-ke-us9769-dan-wti-ke-us9027-setelah-sempat-mendekati-us100-berikut-daftar-lengkap-pertamina-bp-shell-dan-vivo"}
+      ],
+      "why_it_matters": "Cheaper oil eases pressure on fuel prices and the rupiah, though Pertamax and private SPBU prices have not moved yet.",
+      "signals": {"spreading": 0, "wallet": 1, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    }
+  ],
+  "gaps": [
+    "CNBC Indonesia and Bisnis section pages could not be fetched (WebFetch refused/failed); only headlines via search, so CNBC terpopuler was not checked and antaranews ekonomi not reached.",
+    "Detik terpopuler #1 'Bos KAI Buka Suara soal KPK Sita Rp 2 Miliar' (KPK seizure, KAI) not opened; may be a strong corruption/BUMN item for the national or business sweep.",
+    "Canva laying off/relocating 1,271 staff (Kompas 5 Nov) and Danantara textile industrial-zone plan (Kompas 7 Nov) seen in search but not opened.",
+    "Full-week foreign net flow for 2-6 Nov not found; the 'Rp633 miliar net sell sepekan' Kontan headline was not opened.",
+    "Number of countries in the DHE relaxation (detik says five, lists fewer) unverified; Airlangga wiretapping quotes not read in full."
+  ]
+}

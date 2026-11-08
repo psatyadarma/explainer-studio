@@ -1,0 +1,219 @@
+{
+ "area": "national",
+ "run_date": "2026-11-08",
+ "checked": [
+  "detik terpopuler",
+  "antaranews terkini/humaniora",
+  "CNN Indonesia nasional (via search)",
+  "ANTARA cek fakta",
+  "BMKG/BNPB: Sigi quake, karhutla",
+  "storyline searches: jokowi ijazah, penyadapan, karhutla",
+  "cnbcindonesia (not fetched)",
+  "watch-list: disasters, hoaxes, viral incidents, crime"
+ ],
+ "events": [
+  {
+   "date": "2026-11-07",
+   "category": "ENV",
+   "event": "BMKG recorded a shallow M4.9 tectonic earthquake on the Palolo Fault in Sigi, Central Sulawesi, felt in Palu with no damage reported.",
+   "key_numbers": "M4.9 · depth 10 km · 03:08 WITA 7 Nov · MMI IV Sigi, III Palu · no aftershocks, no damage reported",
+   "storyline": "",
+   "update_of": "",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "Koran Jakarta",
+     "url": "https://koran-jakarta.com/2026-11-07/gempa-sigi-di-sulteng-magnitudo-49-dipicu-sesar-palolo"
+    },
+    {
+     "label": "detikNews",
+     "url": "https://news.detik.com/berita/d-8742060/gempa-m-4-9-terjadi-di-sigi-sulteng"
+    }
+   ],
+   "why_it_matters": "Palu and Sigi sit near the fault that caused the deadly 2018 quake, so residents watch every tremor.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 0,
+    "surprise": 0,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "detik terpopuler #3",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-06",
+   "category": "ENV",
+   "event": "BNPB said karhutla hotspots rose 66% in Papua Selatan and 20% in Central Kalimantan, while 46 aircraft work across 12 provinces including an Australian C-130 in East Kalimantan.",
+   "key_numbers": "1,468 hotspots · 2,645 ha under response · Papua Selatan +66% · Kalteng +20% · Kaltim -2% · Kalsel -31% · Sulteng -37% · 46 aircraft (18 patrol/seeding, 28 helicopters)",
+   "storyline": "karhutla",
+   "update_of": "E0588",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "Kontan",
+     "url": "https://nasional.kontan.co.id/news/titik-panas-karhutla-di-papua-selatan-melonjak-66-bnpb-kerahkan-46-armada-udara"
+    },
+    {
+     "label": "Metro TV",
+     "url": "https://www.metrotvnews.com/play/NgxClYgX-bnpb-sebaran-karhutla-masih-tinggi-ada-1-468-titik-panas"
+    }
+   ],
+   "why_it_matters": "Fires and haze keep spreading into Papua while foreign help arrives, a sign the season is far from over.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 1,
+    "surprise": 1,
+    "visual": 2,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "widely covered by several outlets",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-06",
+   "category": "NEWS",
+   "event": "ANTARA fact-check rated as hoax a viral Instagram post claiming free SIM creation and renewal in November 2026 with lifetime validity, registrations until 25 November.",
+   "key_numbers": "Claimed: free SIM, lifetime validity, deadline 25 Nov 2026 · Korlantas: fees unchanged, validity stays 5 years",
+   "storyline": "hoax-tracker",
+   "update_of": "",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "ANTARA",
+     "url": "https://www.antaranews.com/berita/5835651/hoaks-program-pembuatan-sim-gratis-pada-november-2026"
+    }
+   ],
+   "why_it_matters": "Scam links harvest ID data and OTP codes from people who think a free SIM is real.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 2,
+    "surprise": 1,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "ANTARA cek fakta, viral Instagram post",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-06",
+   "category": "NEWS",
+   "event": "ANTARA debunked a viral photo claimed to show karhutla smoke from Indonesia reaching Australia.",
+   "key_numbers": "ANTARA fact-check 6 Nov 2026 · photo misattributed",
+   "storyline": "karhutla",
+   "update_of": "",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "ANTARA",
+     "url": "https://www.antaranews.com/berita/5835615/hoaks-foto-diklaim-asap-karhutla-indonesia-sudah-sampai-australia"
+    }
+   ],
+   "why_it_matters": "Fake haze images feed panic and diplomatic rumours during the fire season.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "ANTARA cek fakta list",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-06",
+   "category": "NEWS",
+   "event": "Putri Mangkunegaran Gusti Sura married Adimas Rosdian, head of bus company PO Rosalia Indah, in a Catholic ceremony in Solo, with Jokowi, Gibran and Kaesang reported at the royal wedding.",
+   "key_numbers": "Wedding 6 Nov 2026 · Gereja Santo Antonius Padua Purbayan, Solo · bride is sister of Mangkunegara X",
+   "storyline": "",
+   "update_of": "",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "detikNews",
+     "url": "https://news.detik.com/berita/d-8740922/sah-putri-mangkunegaran-gusti-sura-dan-bos-po-rosalia-indah-resmi-menikah"
+    },
+    {
+     "label": "detikTravel",
+     "url": "https://travel.detik.com/travel-news/d-8740796/sah-menikah-royal-wedding-gusti-sura-dan-bos-rosalia-indah-berlanjut-malam-ini"
+    }
+   ],
+   "why_it_matters": "A palace-meets-bus-empire wedding that dominated Indonesian feeds.",
+   "signals": {
+    "spreading": 2,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "detik terpopuler #5 and round-up",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-05",
+   "category": "POL",
+   "event": "At the Roy Suryo and dr Tifa trial Jokowi testified he defended his thesis on 23 Oct 1985, cited a survey with 18% believing his diploma fake (about 34 million people), and showed diplomas from SD to S1.",
+   "key_numbers": "Thesis defence 23 Oct 1985 · graduation 19 Nov 1985 · 18% survey = ~34 million people · 14 Forestry graduates",
+   "storyline": "jokowi-ijazah-roy-suryo",
+   "update_of": "E0576",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/nasional/20261107133106-12-1424413/fakta-fakta-terbaru-kasus-tudingan-ijazah-palsu-jokowi"
+    },
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/nasional/20261105211315-12-1423905/roy-suryo-tolak-semua-kesaksian-jokowi-di-sidang-kasus-ijazah"
+    }
+   ],
+   "why_it_matters": "The 34 million figure and the Times New Roman font dispute are the new angles in the diploma case.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 1,
+    "fresh": 1,
+    "rivals": 0
+   },
+   "spreading_evidence": "CNN Indonesia fakta-fakta terbaru",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-11-06",
+   "category": "POL",
+   "event": "Prabowo summoned BIN chief Herindra over the alleged wiretapping, who called the conduct illegal and pointing toward subversion, while DPR deputy speaker Dasco said the DPR is open to speeding up the Wiretapping Bill.",
+   "key_numbers": "Case disclosed 3 Nov · four police-general suspects · BIN summoned 6 Nov · RUU Penyadapan in 2026 Prolegnas Priority · DPR in recess until 9 Nov",
+   "storyline": "listyo-sigit-penyadapan",
+   "update_of": "E0562",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/nasional/20261107080904-20-1424332/fakta-fakta-terbaru-soal-kasus-penyadapan-terhadap-prabowo"
+    }
+   ],
+   "why_it_matters": "A possible new wiretapping law could change privacy rules for everyone.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 1,
+    "surprise": 1,
+    "visual": 0,
+    "fresh": 2,
+    "rivals": 0
+   },
+   "spreading_evidence": "CNN Indonesia fakta-fakta terbaru",
+   "sensitivity": "high"
+  }
+ ],
+ "gaps": [
+  "Detik page stamp was 7 Nov 04:48 WIB, so 7-8 Nov headlines not seen",
+  "cnbcindonesia and turnbackhoax not fetched",
+  "Viral angkot phone-thief video in Bogor and Brimob street-racing raid seen on detik terpopuler but not verified"
+ ]
+}
