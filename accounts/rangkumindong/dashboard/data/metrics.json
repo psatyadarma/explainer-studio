@@ -946,5 +946,101 @@
 "shares": 0,
 "saves": null,
 "follows": 2
+},
+{
+"date": "2026-11-08",
+"folder": "videos/2026-11-07-kripto-dibobol-dua-kali",
+"platform": "instagram",
+"hours": 20,
+"views": 490,
+"avg_watch_pct": 20.1,
+"hold_3s_pct": null,
+"shares": 2,
+"saves": 0,
+"follows": null
+},
+{
+"date": "2026-11-08",
+"folder": "videos/2026-11-07-kripto-dibobol-dua-kali",
+"platform": "youtube",
+"hours": 20,
+"views": 696,
+"avg_watch_pct": null,
+"hold_3s_pct": null,
+"shares": null,
+"saves": null,
+"follows": null
+},
+{
+"date": "2026-11-08",
+"folder": "weekly/2026-11-07",
+"platform": "instagram",
+"hours": 31,
+"views": 1308,
+"avg_watch_pct": 16.9,
+"hold_3s_pct": null,
+"shares": 28,
+"saves": 9,
+"follows": null
+},
+{
+"date": "2026-11-08",
+"folder": "weekly/2026-11-07",
+"platform": "youtube",
+"hours": 31,
+"views": 40,
+"avg_watch_pct": null,
+"hold_3s_pct": null,
+"shares": null,
+"saves": null,
+"follows": null
+},
+{
+"date": "2026-11-08",
+"folder": "videos/2026-11-05-listyo-part2-lims-rutan",
+"platform": "instagram",
+"hours": 68,
+"views": 180,
+"avg_watch_pct": 23.3,
+"hold_3s_pct": null,
+"shares": 0,
+"saves": 0,
+"follows": null
+},
+{
+"date": "2026-11-08",
+"folder": "videos/2026-11-05-listyo-part2-lims-rutan",
+"platform": "youtube",
+"hours": 68,
+"views": 1305,
+"avg_watch_pct": null,
+"hold_3s_pct": null,
+"shares": null,
+"saves": null,
+"follows": null
+},
+{
+"date": "2026-11-08",
+"folder": "videos/2026-11-06-listyo-part3-tersangka-keempat",
+"platform": "instagram",
+"hours": 44,
+"views": 1537,
+"avg_watch_pct": 54.3,
+"hold_3s_pct": null,
+"shares": 5,
+"saves": 3,
+"follows": null
+},
+{
+"date": "2026-11-08",
+"folder": "videos/2026-11-06-listyo-part3-tersangka-keempat",
+"platform": "youtube",
+"hours": 44,
+"views": 3202,
+"avg_watch_pct": null,
+"hold_3s_pct": null,
+"shares": null,
+"saves": null,
+"follows": null
 }
 ]

@@ -120,3 +120,10 @@ History moved out of HANDOFF.md (22 Oct) so fresh sessions read less. Append one
 - A scheduled ~06:40 for 19:00 (job 0c10a65b…); B kept, not posted. Weekly #3: the 07:35 default post was blocked; the user said OK in the 6 Nov chat → live 08:00 (IG Dfa2COGnI5j, YT mjJIN0HdaXQ).
 - 19:00 live (IG DfcBjiCklEk, YT anVIFJotWx0). Analyst: Listyo P3 (first storytelling script) 24 h IG 1.524 / 54,6% watched (best IG start yet, ~2,5× the 15–23% band), YT 3.110; Listyo P1 72 h IG 197 / 20,8%, YT 1.430 / 60,7%.
 - Problems: the session sat on a detached HEAD, so the morning pushes never landed; rebased onto origin/main (the weekly commits) and merged covered.csv by hand. delete_trigger (14:00 wake) and deleting the old runs.json blob were denied again (harmless).
+
+## 8 Nov (Sun, #21 Minggu Depan 9–15 Nov; Pratama, myth / kamu_stakes, subs word)
+- Sweeps 5/9/5/7, 25 merged, 1 dupe. Light fact-check 0 fixes (some sources blocked, unverified items checked in full fc). No pick by 14:00 → default ⭐ #1.
+- Hook-critic confirmed writer's A/B. Full fc 2 fixes (BI 6% "beberapa ekonom"; bansos "arahnya tunai"). Producer retimed 1.09x (96→88 s). QA PASS both round 1.
+- User ~14:50: "I follow your decisions" → posted A for 19:00 (job 3077ba79) and applied W44/W45 recs: Pratama locked, no B from 9 Nov, hooks rotate on A only. Live IG DfemZPFmbth, YT WZ9FImj_9io.
+- Analyst W45 review (reviews/2026-W45.md): storytelling n=2 mixed (P3 54%, kripto 20%); Pratama 30% vs Cahaya 17% → decided; wallet weight 1.0→0.75. Benchmarks blocked again.
+- Problems: deleting old dashboard blobs and disabling the 18:00/18:40 wake-ups were denied (harmless; wake-ups no-op'd).
