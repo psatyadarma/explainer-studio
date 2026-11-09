@@ -1,0 +1,433 @@
+{
+ "verdict": "PASS",
+ "lead": 0.0,
+ "matched_words": 80,
+ "of_words": 88,
+ "median_offset_s": -0.084,
+ "share_in_window": 0.925,
+ "share_late_over_150ms": 0.013,
+ "worst_lines": [
+  {
+   "line": "l3",
+   "median_offset_s": -0.129
+  },
+  {
+   "line": "l4",
+   "median_offset_s": -0.117
+  },
+  {
+   "line": "l1",
+   "median_offset_s": -0.096
+  },
+  {
+   "line": "l2",
+   "median_offset_s": -0.091
+  },
+  {
+   "line": "l5",
+   "median_offset_s": -0.091
+  }
+ ],
+ "pairs": [
+  {
+   "line": "h1",
+   "word": "Misalnya",
+   "offset": 0.155
+  },
+  {
+   "line": "h1",
+   "word": "Pak",
+   "offset": -0.105
+  },
+  {
+   "line": "h1",
+   "word": "Budi",
+   "offset": -0.065
+  },
+  {
+   "line": "h1",
+   "word": "lihat",
+   "offset": -0.052
+  },
+  {
+   "line": "h1",
+   "word": "satu",
+   "offset": -0.081
+  },
+  {
+   "line": "h1",
+   "word": "saham",
+   "offset": -0.052
+  },
+  {
+   "line": "h1",
+   "word": "ramai",
+   "offset": -0.125
+  },
+  {
+   "line": "h1",
+   "word": "banget.",
+   "offset": -0.085
+  },
+  {
+   "line": "h2",
+   "word": "Ternyata,",
+   "offset": 0.12
+  },
+  {
+   "line": "h2",
+   "word": "transaksinya",
+   "offset": 0.018
+  },
+  {
+   "line": "h2",
+   "word": "cuma",
+   "offset": -0.195
+  },
+  {
+   "line": "h2",
+   "word": "dari",
+   "offset": -0.131
+  },
+  {
+   "line": "h2",
+   "word": "investor.",
+   "offset": -0.053
+  },
+  {
+   "line": "rd",
+   "word": "Rangkumin",
+   "offset": -0.023
+  },
+  {
+   "line": "rd",
+   "word": "dong!",
+   "offset": -0.024
+  },
+  {
+   "line": "l1",
+   "word": "Itu",
+   "offset": 0.068
+  },
+  {
+   "line": "l1",
+   "word": "saham",
+   "offset": -0.019
+  },
+  {
+   "line": "l1",
+   "word": "CASA,",
+   "offset": -0.112
+  },
+  {
+   "line": "l1",
+   "word": "Capital",
+   "offset": -0.199
+  },
+  {
+   "line": "l1",
+   "word": "Financial",
+   "offset": -0.095
+  },
+  {
+   "line": "l1",
+   "word": "Indonesia.",
+   "offset": -0.083
+  },
+  {
+   "line": "l1",
+   "word": "Periode",
+   "offset": -0.124
+  },
+  {
+   "line": "l1",
+   "word": "26",
+   "offset": -0.079
+  },
+  {
+   "line": "l1",
+   "word": "Oktober",
+   "offset": -0.089
+  },
+  {
+   "line": "l1",
+   "word": "sampai",
+   "offset": -0.115
+  },
+  {
+   "line": "l1",
+   "word": "2",
+   "offset": -0.279
+  },
+  {
+   "line": "l1",
+   "word": "November.",
+   "offset": -0.097
+  },
+  {
+   "line": "l2",
+   "word": "Sekarang",
+   "offset": 0.061
+  },
+  {
+   "line": "l2",
+   "word": "Bursa",
+   "offset": -0.139
+  },
+  {
+   "line": "l2",
+   "word": "Efek",
+   "offset": -0.032
+  },
+  {
+   "line": "l2",
+   "word": "Indonesia",
+   "offset": -0.083
+  },
+  {
+   "line": "l2",
+   "word": "memeriksa",
+   "offset": -0.099
+  },
+  {
+   "line": "l2",
+   "word": "transaksinya.",
+   "offset": -0.106
+  },
+  {
+   "line": "l2",
+   "word": "Bareng",
+   "offset": -0.189
+  },
+  {
+   "line": "l2",
+   "word": "dua",
+   "offset": -0.109
+  },
+  {
+   "line": "l2",
+   "word": "saham",
+   "offset": -0.076
+  },
+  {
+   "line": "l2",
+   "word": "lain.",
+   "offset": -0.025
+  },
+  {
+   "line": "l3",
+   "word": "investor,",
+   "offset": -0.129
+  },
+  {
+   "line": "l3",
+   "word": "sekitar",
+   "offset": -0.162
+  },
+  {
+   "line": "l3",
+   "word": "transaksi.",
+   "offset": -0.116
+  },
+  {
+   "line": "l4",
+   "word": "NSSS:",
+   "offset": -0.007
+  },
+  {
+   "line": "l4",
+   "word": "investor,",
+   "offset": -0.117
+  },
+  {
+   "line": "l4",
+   "word": "sekitar",
+   "offset": -0.119
+  },
+  {
+   "line": "l5",
+   "word": "Tapi",
+   "offset": -0.031
+  },
+  {
+   "line": "l5",
+   "word": "ingat,",
+   "offset": -0.081
+  },
+  {
+   "line": "l5",
+   "word": "diperiksa",
+   "offset": -0.174
+  },
+  {
+   "line": "l5",
+   "word": "belum",
+   "offset": -0.111
+  },
+  {
+   "line": "l5",
+   "word": "berarti",
+   "offset": -0.091
+  },
+  {
+   "line": "l5",
+   "word": "terbukti.",
+   "offset": -0.091
+  },
+  {
+   "line": "l5",
+   "word": "Menurut",
+   "offset": -0.134
+  },
+  {
+   "line": "l5",
+   "word": "BEI",
+   "offset": 0.081
+  },
+  {
+   "line": "l5",
+   "word": "belum",
+   "offset": -0.108
+  },
+  {
+   "line": "l5",
+   "word": "menetapkan",
+   "offset": -0.061
+  },
+  {
+   "line": "l5",
+   "word": "pelanggaran.",
+   "offset": -0.121
+  },
+  {
+   "line": "l6",
+   "word": "Pelajaran",
+   "offset": 0.007
+  },
+  {
+   "line": "l6",
+   "word": "buat",
+   "offset": -0.108
+  },
+  {
+   "line": "l6",
+   "word": "Pak",
+   "offset": -0.061
+  },
+  {
+   "line": "l6",
+   "word": "Budi:",
+   "offset": -0.081
+  },
+  {
+   "line": "l6",
+   "word": "saham",
+   "offset": -0.214
+  },
+  {
+   "line": "l6",
+   "word": "yang",
+   "offset": -0.109
+  },
+  {
+   "line": "l6",
+   "word": "kelihatan",
+   "offset": -0.081
+  },
+  {
+   "line": "l6",
+   "word": "ramai,",
+   "offset": -0.081
+  },
+  {
+   "line": "l6",
+   "word": "belum",
+   "offset": -0.268
+  },
+  {
+   "line": "l6",
+   "word": "tentu",
+   "offset": -0.057
+  },
+  {
+   "line": "l6",
+   "word": "ramai",
+   "offset": -0.061
+  },
+  {
+   "line": "l6",
+   "word": "orangnya.",
+   "offset": -0.088
+  },
+  {
+   "line": "cta",
+   "word": "Kamu",
+   "offset": 0.002
+  },
+  {
+   "line": "cta",
+   "word": "cek",
+   "offset": -0.089
+  },
+  {
+   "line": "cta",
+   "word": "apa",
+   "offset": -0.089
+  },
+  {
+   "line": "cta",
+   "word": "dulu",
+   "offset": -0.069
+  },
+  {
+   "line": "cta",
+   "word": "sebelum",
+   "offset": -0.076
+  },
+  {
+   "line": "cta",
+   "word": "beli",
+   "offset": -0.069
+  },
+  {
+   "line": "cta",
+   "word": "saham?",
+   "offset": -0.036
+  },
+  {
+   "line": "cta",
+   "word": "Komen!",
+   "offset": -0.114
+  },
+  {
+   "line": "end",
+   "word": "Follow",
+   "offset": 0.12
+  },
+  {
+   "line": "end",
+   "word": "Rangkumin",
+   "offset": -0.079
+  },
+  {
+   "line": "end",
+   "word": "Dong,",
+   "offset": -0.091
+  },
+  {
+   "line": "end",
+   "word": "biar",
+   "offset": -0.066
+  },
+  {
+   "line": "end",
+   "word": "nggak",
+   "offset": -0.092
+  },
+  {
+   "line": "end",
+   "word": "ketinggalan!",
+   "offset": -0.019
+  }
+ ]
+}

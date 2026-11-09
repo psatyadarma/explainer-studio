@@ -1,0 +1,76 @@
+{
+ "direction": "[calm storyteller, curious, explaining to a friend]",
+ "format": "short",
+ "hook_style": "story",
+ "hook_style_scheduled": "person_collage",
+ "hook_fallback_reason": "no licensed face fits CASA/FUJI/NSSS or the unnamed BEI spokesperson; next style in brand.json → hook_styles = story",
+ "storytelling": true,
+ "hook_b": "",
+ "lines": [
+  {
+   "id": "h1",
+   "tag": "[curious, storytelling]",
+   "text": "Misalnya Pak Budi lihat satu saham ramai banget.",
+   "say": "Misalnya Pak Budi lihat satu saham ramai banget."
+  },
+  {
+   "id": "h2",
+   "tag": "[surprised, slower]",
+   "text": "Ternyata, 98% transaksinya cuma dari 6 investor.",
+   "say": "Ternyata, sembilan puluh delapan persen transaksinya cuma dari enam investor."
+  },
+  {
+   "id": "rd",
+   "tagline": true,
+   "text": "Rangkumin dong!"
+  },
+  {
+   "id": "l1",
+   "tag": "[explaining, quick]",
+   "text": "Itu saham CASA, Capital Financial Indonesia. Periode 26 Oktober sampai 2 November.",
+   "say": "Itu saham Ce A Es A, Capital Financial Indonesia. Periode dua puluh enam Oktober sampai dua November."
+  },
+  {
+   "id": "l2",
+   "tag": "[serious]",
+   "text": "Sekarang Bursa Efek Indonesia memeriksa transaksinya. Bareng dua saham lain.",
+   "say": "Sekarang Bursa Efek Indonesia memeriksa transaksinya. Bareng dua saham lain."
+  },
+  {
+   "id": "l3",
+   "tag": "[matter-of-fact]",
+   "text": "FUJI: 16 investor, sekitar 87% transaksi.",
+   "say": "Fuji: enam belas investor, sekitar delapan puluh tujuh persen transaksi."
+  },
+  {
+   "id": "l4",
+   "tag": "[matter-of-fact]",
+   "text": "NSSS: 19 investor, sekitar 52%.",
+   "say": "En Es Es Es: sembilan belas investor, sekitar lima puluh dua persen."
+  },
+  {
+   "id": "l5",
+   "tag": "[reassuring, careful]",
+   "text": "Tapi ingat, diperiksa belum berarti terbukti. Menurut detikFinance, BEI belum menetapkan pelanggaran.",
+   "say": "Tapi ingat, diperiksa belum berarti terbukti. Menurut detik finans, Be E I belum menetapkan pelanggaran."
+  },
+  {
+   "id": "l6",
+   "tag": "[warm, thoughtful]",
+   "text": "Pelajaran buat Pak Budi: saham yang kelihatan ramai, belum tentu ramai orangnya.",
+   "say": "Pelajaran buat Pak Budi: saham yang kelihatan ramai, belum tentu ramai orangnya."
+  },
+  {
+   "id": "cta",
+   "tag": "[playful, asking the viewer]",
+   "text": "Kamu cek apa dulu sebelum beli saham? Komen!",
+   "say": "Kamu cek apa dulu sebelum beli saham? Komen!"
+  },
+  {
+   "id": "end",
+   "tag": "[friendly, upbeat]",
+   "text": "Follow Rangkumin Dong, biar nggak ketinggalan!"
+  }
+ ],
+ "tail": 0.9
+}
