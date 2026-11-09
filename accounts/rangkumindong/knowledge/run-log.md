@@ -128,3 +128,9 @@ History moved out of HANDOFF.md (22 Oct) so fresh sessions read less. Append one
 - Analyst W45 review (reviews/2026-W45.md): storytelling n=2 mixed (P3 54%, kripto 20%); Pratama 30% vs Cahaya 17% → decided; wallet weight 1.0→0.75. Benchmarks blocked again.
 - Problems: deleting old dashboard blobs and disabling the 18:00/18:40 wake-ups were denied (harmless; wake-ups no-op'd).
 - 2026-11-08 20:10 WITA IG insights: kripto-dibobol 24 h (548 views, 20.1% watched, 3 follows) and listyo-part2 72 h (180, 23.3%, 0 follows) from Upload-Post + IG web insights (instagram.com/insights/media/<media_id>, id = base64-decoded shortcode). Skip rate is not shown in IG web insights (app only) and business.facebook.com is blocked for the Chrome extension → hold_3s n/a. Old dashboard blobs 0660e194…/d1e0037e… not deleted (deletion needs approval).
+
+## 9 Nov (Mon, side story msci-reclassification: 6 investor pegang 98% transaksi, BEI periksa CASA/FUJI/NSSS; Pratama, story, no B)
+- Sweeps 10/5/8/1 (national thin: detik/antara blocked), 20 merged, 4 dupes. Light fact-check 1 FIX (PMK 49/2026 removed). Default pick star #1 at 14:00; hook-critic PICK A story 12/14 (person_collage fallback, no licensed face). Full fc PASS 0 fixes; producer 46.4 s, QA PASS round 1.
+- User "Ok to go" 15:27 -> scheduled, live 19:00 (IG DfhLK-jnAba, YT M4Wueqxh38g).
+- Analyst: Listyo P3 72 h final: IG 1,545 views / 54.3% watched / 5 shares / 3 saves; YT 3,311 / 64.1% / +1 sub. Best of series, flat since 44 h.
+- Problems: health.py falsely warned IG 24 h for 7 Nov was missing (row exists but out of order in metrics.csv; health.py should not depend on row order). Deleting old dashboard blob c1bed135... and the 18:00 wake-up were denied (harmless).

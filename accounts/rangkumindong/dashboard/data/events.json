@@ -1,65 +1,5 @@
 [
 {
-"id": "E0002",
-"date": "2026-10-09",
-"category": "ECO",
-"event": "World Bank raises Indonesia 2026 growth forecast (approx. date, reported week of 5–9 Oct)",
-"key_numbers": "5.2% (from 4.7%)",
-"storyline": "growth-outlook",
-"status": "partial (date not given)",
-"upcoming": false
-},
-{
-"id": "E0003",
-"date": "2026-10-09",
-"category": "ECO",
-"event": "Government debt drawdown and travel-budget cut (approx. date, reported week of 5–9 Oct)",
-"key_numbers": "Rp494.3 T drawn = 59.4% of 2026 target; official travel budget −30%",
-"storyline": "",
-"status": "partial (date not given)",
-"upcoming": false
-},
-{
-"id": "E0009",
-"date": "2026-10-09",
-"category": "MKT",
-"event": "IHSG week 5–9 Oct (week 5–9 Oct)",
-"key_numbers": "+0.94% to 6,093.76; rupiah Rp17,891/USD; foreign net sell Rp3.75 T; Brent $104.42; gold $4,194/oz; Bitcoin $82,928",
-"storyline": "msci-reclassification",
-"status": "verified",
-"upcoming": false
-},
-{
-"id": "E0013",
-"date": "2026-10-09",
-"category": "MKT",
-"event": "BEI tightens IPO rules (Peraturan I-A rev. 2): retained earnings required for Main Board, no minimum IPO price, 5-year projections required; effective 9 Oct (announced 7 Oct, effective 9 Oct)",
-"key_numbers": "thresholds not stated in source",
-"storyline": "msci-reclassification",
-"status": "verified",
-"upcoming": false
-},
-{
-"id": "E0061",
-"date": "2026-10-09",
-"category": "ECO",
-"event": "Kemenkeu reports the September 2026 APBN deficit at Rp319 trillion (1.24% of GDP), and Menkeu Suahasil Nazara says the budget is on track for a year-end deficit near 2.8%.",
-"key_numbers": "Deficit Rp319 T = 1.24% of GDP (0.9% in Aug) vs full-year target Rp689.1 T (2.68%) · revenue Rp2,341.5 T = 74.2% of target, +25.5% y/y · tax Rp1,847.7 T · PNBP Rp492.3 T · spending Rp2,660.5 T = 69.2%, +19% y/y · primary balance surplus Rp125.5 T · year-end deficit projection about 2.8% · deficit 14.13% lower than Sep 2025 (Rp371.5 T)",
-"storyline": "",
-"status": "verified",
-"upcoming": false
-},
-{
-"id": "E0147",
-"date": "2026-10-09",
-"category": "TECH",
-"event": "SpaceX agreed to buy up to 14 MHz paired 800 MHz spectrum for Starlink Mobile; CNBC Indonesia flags a possible future threat to Telkomsel, Indosat and XLSmart, though nothing is announced for Indonesia.",
-"key_numbers": "14 MHz paired 800 MHz (announced 8 Oct) · Komdigi 700 MHz/2.6 GHz auction: XL Rp1.06 T (30 MHz), Telkomsel Rp642.5 B (20 MHz), Indosat Rp507.48 B (20 MHz)",
-"storyline": "",
-"status": "partial",
-"upcoming": false
-},
-{
 "id": "E0015",
 "date": "2026-10-11",
 "category": "POL",
@@ -6237,7 +6177,7 @@
 "key_numbers": "Masa Persidangan I closed 8 Oct 2026 · recess 9 Oct-9 Nov 2026 · Puan listed 13 issues incl. karhutla response and KUHP/KUHAP enforcement · Forestry Bill (RUU Kehutanan) awaits a presidential letter (Surpres)",
 "storyline": "",
 "status": "upcoming",
-"upcoming": true
+"upcoming": false
 },
 {
 "id": "E0459",
@@ -6247,7 +6187,7 @@
 "key_numbers": "Start 9 Nov 2026 (per Hashim only, no DJP confirmation) · tax ratio about 12% of GDP vs 18% target in about 3 years · gap about Rp1,500 trillion/year · DJP estimate digital tax revenue +50% to about Rp16 triliun (from Rp8-12 triliun)",
 "storyline": "ecommerce-seller-rules",
 "status": "upcoming",
-"upcoming": true
+"upcoming": false
 },
 {
 "id": "E0657",
@@ -6257,7 +6197,7 @@
 "key_numbers": "Start date 9 Nov 2026 (per Kadin chair Hashim Djojohadikusumo; DJP does not confirm date) · 6 initial collectors named 25 Sep 2026: BRI, Mandiri, BNI, BTN, BSI, LinkAja · no change to VAT rate · consumers need not pay or report themselves",
 "storyline": "tax-policy",
 "status": "partial",
-"upcoming": true
+"upcoming": false
 },
 {
 "id": "E0665",
@@ -6267,7 +6207,7 @@
 "key_numbers": "Recess 9 Oct to 9 Nov 2026",
 "storyline": "listyo-sigit-penyadapan",
 "status": "upcoming",
-"upcoming": true
+"upcoming": false
 },
 {
 "id": "E0208",
