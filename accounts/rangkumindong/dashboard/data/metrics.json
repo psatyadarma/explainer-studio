@@ -1138,5 +1138,29 @@
 "shares": 0,
 "saves": null,
 "follows": 1
+},
+{
+"date": "2026-11-08",
+"folder": "videos/2026-11-08-minggu-depan-5-agenda-9-15-nov",
+"platform": "instagram",
+"hours": 24,
+"views": 229,
+"avg_watch_pct": 17.2,
+"hold_3s_pct": null,
+"shares": 1,
+"saves": 1,
+"follows": 1
+},
+{
+"date": "2026-11-07",
+"folder": "weekly/2026-11-07",
+"platform": "instagram",
+"hours": 72,
+"views": 1461,
+"avg_watch_pct": 17.7,
+"hold_3s_pct": null,
+"shares": 28,
+"saves": 10,
+"follows": 33
 }
 ]

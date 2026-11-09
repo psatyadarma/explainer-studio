@@ -134,3 +134,4 @@ History moved out of HANDOFF.md (22 Oct) so fresh sessions read less. Append one
 - User "Ok to go" 15:27 -> scheduled, live 19:00 (IG DfhLK-jnAba, YT M4Wueqxh38g).
 - Analyst: Listyo P3 72 h final: IG 1,545 views / 54.3% watched / 5 shares / 3 saves; YT 3,311 / 64.1% / +1 sub. Best of series, flat since 44 h.
 - Problems: health.py falsely warned IG 24 h for 7 Nov was missing (row exists but out of order in metrics.csv; health.py should not depend on row order). Deleting old dashboard blob c1bed135... and the 18:00 wake-up were denied (harmless).
+- 2026-11-09 20:12 WITA IG insights: minggu-depan 9–15 Nov 24 h (229 views, 17.2% watched, 1 follow) and weekly #3 72 h (actual ~60 h: 1,461 views, 17.7% of 7:23, 28 shares, 10 saves, **33 follows** — biggest follow driver so far). No -b trial folders. Skip rate still app-only → hold_3s n/a. Dashboard days+metrics refreshed; old days blob 5f5503c3… not deleted (deletion denied).
