@@ -1,0 +1,52 @@
+{
+  "area": "markets",
+  "run_date": "2026-11-10",
+  "checked": [
+    "cnbcindonesia market (WebFetch blocked: PROVENANCE_REQUIRED; searched instead)",
+    "bisnis market (search only; newest indexed item 4 Nov)",
+    "detik finance (search only)",
+    "antaranews ekonomi (not reached)",
+    "IHSG close / foreign flow (newest indexed: 6 Nov, already E0596/E0628)",
+    "rupiah (newest indexed: 6 Nov, already E0597)",
+    "BI FX reserves Oct (6 Nov, already E0597)",
+    "BPS Q3 GDP (5 Nov, already E0565)",
+    "BEI delisting 18 issuers 10 Nov (already E0653)",
+    "MSCI storyline (PR 15 Oct re-read; milestones 12 Nov, 30 Apr 2027, 30 Jun 2027 already in DB)",
+    "oil/Brent storyline (nothing newer than E0660)",
+    "BI RDG 17-18 Nov (already E0040/E0601)",
+    "Fed/Wall Street, Danantara/PHK searches (nothing in 8-10 Nov window)"
+  ],
+  "events": [
+    {
+      "date": "2026-11-10",
+      "category": "MKT",
+      "event": "BEI's delisting of 18 issuers takes effect on 10 November 2026: 7 bankrupt companies (incl. Sritex/SRIL, TELE, COWL, MTRA, TOYS, SBAT, TDPM) and 11 suspended for more than 50 months (incl. SUGI, GOLL, DUCK), after a buyback window that ran to 9 November.",
+      "key_numbers": "18 issuers · 7 bankrupt + 11 suspended >50 months · buyback period 11 May-9 Nov 2026 · effective 10 Nov 2026",
+      "storyline": "msci-reclassification",
+      "update_of": "E0653",
+      "status": "upcoming",
+      "sources": [
+        {
+          "label": "Katadata (30 Oct)",
+          "url": "https://katadata.co.id/finansial/bursa/6ae3e9af70bc4/bei-delisting-sritex-sril-dan-17-emiten-lain-pada-10-november-imbau-buyback"
+        }
+      ],
+      "why_it_matters": "Retail holders of Sritex and 17 other stocks lose the ability to trade them on the exchange as BEI cleans up the market ahead of MSCI's review.",
+      "signals": {
+        "spreading": 1,
+        "wallet": 1,
+        "surprise": 0,
+        "visual": 1,
+        "fresh": 2,
+        "rivals": 1
+      },
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    }
+  ],
+  "gaps": [
+    "Search index has no Indonesian market/economy coverage dated 8-10 Nov; IHSG close and rupiah for Mon 9 Nov not found.",
+    "Section pages could not be fetched (cnbcindonesia blocked, others not provided by search), so today's most-read lists are unchecked.",
+    "No new development found versus the known-events window; nothing re-reported."
+  ]
+}

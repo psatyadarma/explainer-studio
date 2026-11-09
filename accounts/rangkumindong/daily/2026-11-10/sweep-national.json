@@ -1,0 +1,239 @@
+{
+ "area": "national",
+ "run_date": "2026-11-10",
+ "checked": [
+  "WebSearch detik terpopuler 10 November",
+  "WebFetch news.detik.com (latest, terpopuler, most-commented)",
+  "detik/CNN/CNBC/Okezone/Liputan6/Suara/Katadata via search for vape, PSI, pahlawan, demo DPR, karhutla, hoaxes",
+  "BMKG/BNPB search",
+  "Watch-list found: most-read, disasters/env (karhutla, rob), viral incidents, hoaxes, crime, education",
+  "Storylines: karhutla, listyo-sigit-penyadapan, gibran-ijazah-mk (only via headlines)",
+  "antaranews.com/terkini not scanned (blocked earlier); cnnindonesia/cnbc section pages not fetched directly"
+ ],
+ "events": [
+  {
+   "date": "2026-11-09",
+   "category": "NEWS",
+   "event": "The Indonesian Ulema Council (MUI) issued Fatwa No. 131 of 2026 declaring vaping (e-cigarettes) haram, covering use, production and trade, and urged the government and DPR to draft a ban law.",
+   "key_numbers": "Fatwa Komisi Fatwa MUI No. 131 Tahun 2026 · dated 6 Nov 2026, reported 9 Nov",
+   "storyline": "",
+   "update_of": "",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/nasional/20261109193635-20-1425127/mui-terbitkan-fatwa-haram-vape-rokok-elektrik"
+    },
+    {
+     "label": "Okezone",
+     "url": "https://news.okezone.com/read/2026/11/09/337/3253071/mui-haramkan-vape-larang-produksi-hingga-perdagangan-rokok-elektrik"
+    },
+    {
+     "label": "Tempo English",
+     "url": "https://en.tempo.co/read/2123280/mui-issues-fatwa-declaring-vapes-haram"
+    }
+   ],
+   "why_it_matters": "Millions of vape users and sellers could face a legal ban if the government acts on the fatwa.",
+   "signals": {
+    "spreading": 2,
+    "wallet": 1,
+    "surprise": 1,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 2
+   },
+   "spreading_evidence": "detik berita list #22 (1 hr ago, 9 Nov); covered by CNN, Okezone, Tempo EN, Tribun, iNews",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-09",
+   "category": "POL",
+   "event": "Forestry Minister Raja Juli Antoni resigned as PSI secretary-general and from party activities, following Giring Ganesha, saying he wants to focus on Prabowo's forestry directives; Kaesang also acknowledged Giring, Isyana and Raja Juli leaving.",
+   "key_numbers": "3 senior PSI figures gone (Giring, Isyana, Raja Juli) · announced 9 Nov 2026 ~18:54 WIB",
+   "storyline": "",
+   "update_of": "",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/nasional/20261109185140-32-1425107/raja-juli-antoni-mundur-dari-psi"
+    },
+    {
+     "label": "CNBC Indonesia",
+     "url": "https://www.cnbcindonesia.com/news/20261109191205-4-783688/susul-giring-raja-juli-umumkan-mundur-dari-psi"
+    },
+    {
+     "label": "detik",
+     "url": "https://news.detik.com/berita/d-8745553/mundur-dari-sekjen-psi-raja-juli-ungkap-reaksi-kaesang"
+    }
+   ],
+   "why_it_matters": "PSI, Jokowi-linked party led by Kaesang, loses its top figures as ministers choose Prabowo's government.",
+   "signals": {
+    "spreading": 2,
+    "wallet": 0,
+    "surprise": 2,
+    "visual": 0,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "detik terpopuler #1, #2, #3 on 9 Nov",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-09",
+   "category": "NEWS",
+   "event": "Liputan6 fact-check rated as a hoax a Facebook photo claiming ex-President Jokowi was handcuffed over the Listyo Sigit wiretapping case; the image was edited from a YouTube thumbnail.",
+   "key_numbers": "Posted 8 Nov 2026 · source video dated 5 Nov 2026 · Bareskrim has named 4 suspects (case does not involve Jokowi)",
+   "storyline": "listyo-sigit-penyadapan",
+   "update_of": "",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "Liputan6 Cek Fakta",
+     "url": "https://www.liputan6.com/cek-fakta/read/8331373/cek-fakta-hoaks-foto-jokowi-ditangkap-polisi-karena-kasus-penyadapan"
+    },
+    {
+     "label": "InfoPublik",
+     "url": "https://infopublik.id/kategori/cek-fakta/996495/hoaks-listyo-sigit-sebut-sambo-pelaku-penyadapan-presiden-prabowo-sebelum-ditangkap"
+    }
+   ],
+   "why_it_matters": "Hoaxes are riding the wiretapping scandal; people believe wrongly that Jokowi was arrested.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 0,
+    "surprise": 2,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "Several fact-checks on wiretap hoaxes (Liputan6, InfoPublik, Harian Negeri); detik terpopuler #4 on the scandal itself",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-11-09",
+   "category": "ENV",
+   "event": "BNPB reported 782 karhutla hotspots across provinces with 1,534 ha being handled, with Central Kalimantan the highest at 359 hotspots (up 49%).",
+   "key_numbers": "782 hotspots · 1,534 ha · Kalteng 359 hotspots +49%, 755 ha · Papua Selatan 142 hotspots -4%, 257 ha · Kaltim 93 hotspots -22% · 43 air assets in 10 provinces (as of 8 Nov)",
+   "storyline": "karhutla",
+   "update_of": "E0648",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "detik",
+     "url": "https://news.detik.com/berita/d-8745388/titik-karhutla-di-kalteng-meningkat-lagi"
+    }
+   ],
+   "why_it_matters": "Haze and fires continue into November, with Kalteng worsening while Papua Selatan eases.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 1,
+    "surprise": 1,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "detik news list 9 Nov; BNPB press conference",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-10",
+   "category": "NEWS",
+   "event": "Prabowo is set to present national hero titles on Heroes' Day, with the Social Affairs Minister saying his grandfather Margono Djojohadikusumo is among those proposed.",
+   "key_numbers": "10 Nov 2026 (not a public holiday) · more than 10 names proposed (an 18 figure unconfirmed) · Margono Djojohadikusumo named",
+   "storyline": "",
+   "update_of": "",
+   "status": "upcoming",
+   "sources": [
+    {
+     "label": "Suara.com",
+     "url": "https://www.suara.com/news/2026/11/09/154718/kakek-prabowo-diusulkan-jadi-pahlawan-nasional-presiden-umumkan-besok"
+    },
+    {
+     "label": "Katadata",
+     "url": "https://katadata.co.id/berita/nasional/6af18fa7bc0b6/kakek-prabowo-masuk-daftar-calon-pahlawan-diumumkan-10-november-2026"
+    },
+    {
+     "label": "detik",
+     "url": "https://www.detik.com/bali/berita/d-8744783/10-november-2026-apakah-tanggal-merah-ini-sejarah-hari-pahlawan"
+    }
+   ],
+   "why_it_matters": "A president naming his own grandfather a national hero draws attention to how the title is decided.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 0,
+    "surprise": 2,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "detik news list #10, #16; Suara, Liputan6, Katadata, ANTARA",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-11-10",
+   "category": "NEWS",
+   "event": "Several groups plan a demonstration in front of the DPR/MPR building in Jakarta on 10 November, and police urged motorists to avoid the area; demands were not stated in the sources read.",
+   "key_numbers": "10 Nov 2026 · DPR recess ends 9/10 Nov · parking set at GBK · personnel numbers not yet disclosed",
+   "storyline": "",
+   "update_of": "",
+   "status": "upcoming",
+   "sources": [
+    {
+     "label": "detik",
+     "url": "https://news.detik.com/berita/d-8745564/bakal-ada-aksi-pengendara-diimbau-hindari-kawasan-dpr-besok"
+    },
+    {
+     "label": "Kompas",
+     "url": "https://megapolitan.kompas.com/read/2026/11/09/19233011/waspada-macet-di-sejumlah-ruas-jalan-jakarta-besok-imbas-demo-10-november"
+    }
+   ],
+   "why_it_matters": "Commuters around Senayan and Sudirman face jams on Tuesday.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 1,
+    "surprise": 1,
+    "visual": 0,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "detik news list #18; Kompas Megapolitan; X traffic posts",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-11-09",
+   "category": "ENV",
+   "event": "BMKG issued an early warning for coastal tidal flooding (banjir rob) covering 2-17 November 2026, alongside heavy rain and high-wave warnings for 9 November.",
+   "key_numbers": "Warning window 2-17 Nov 2026 (details not read)",
+   "storyline": "",
+   "update_of": "",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "Sindonews",
+     "url": "https://daerah.sindonews.com/read/1767537/174/bmkg-keluarkan-peringatan-dini-potensi-banjir-rob-pada-2-17-november-2026-1793617886"
+    },
+    {
+     "label": "SINATA",
+     "url": "https://sinata.id/waspada-9-november-2026-bmkg-peringatkan-hujan-lebat-gelombang-tinggi-hingga-banjir-rob"
+    }
+   ],
+   "why_it_matters": "Coastal residents may see tidal flooding for two weeks.",
+   "signals": {
+    "spreading": 0,
+    "wallet": 1,
+    "surprise": 0,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 2
+   },
+   "spreading_evidence": "",
+   "sensitivity": "normal"
+  }
+ ],
+ "gaps": [
+  "Demo DPR 10 Nov: organisers and demands not found (Kompas page blocked); worth a check on the day",
+  "BMKG rob warning: article could not be fetched; affected areas and tide heights unverified",
+  "Seen only as detik headlines, unverified: alleged abuse of 7 students at a South Jakarta pesantren; East Jakarta mosque attack suspect; Bandung women trafficked to Malaysia; Ganjar/Hanura on Gibran certificate; Panda Nababan death",
+  "No dedicated Gibran/rupiah storyline searches run"
+ ]
+}
