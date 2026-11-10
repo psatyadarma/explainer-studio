@@ -1162,5 +1162,65 @@
 "shares": 28,
 "saves": 10,
 "follows": 33
+},
+{
+"date": "2026-11-10",
+"folder": "videos/2026-11-09-enam-investor-98-persen",
+"platform": "instagram",
+"hours": 15,
+"views": 157,
+"avg_watch_pct": 24.7,
+"hold_3s_pct": null,
+"shares": 1,
+"saves": 0,
+"follows": null
+},
+{
+"date": "2026-11-10",
+"folder": "videos/2026-11-09-enam-investor-98-persen",
+"platform": "youtube",
+"hours": 15,
+"views": 12,
+"avg_watch_pct": null,
+"hold_3s_pct": null,
+"shares": null,
+"saves": null,
+"follows": null
+},
+{
+"date": "2026-11-10",
+"folder": "videos/2026-11-07-kripto-dibobol-dua-kali",
+"platform": "instagram",
+"hours": 63,
+"views": 552,
+"avg_watch_pct": 20.3,
+"hold_3s_pct": null,
+"shares": 2,
+"saves": 0,
+"follows": null
+},
+{
+"date": "2026-11-10",
+"folder": "videos/2026-11-07-kripto-dibobol-dua-kali",
+"platform": "youtube",
+"hours": 63,
+"views": 779,
+"avg_watch_pct": null,
+"hold_3s_pct": null,
+"shares": null,
+"saves": null,
+"follows": null
+},
+{
+"date": "2026-11-10",
+"folder": "weekly/2026-11-07",
+"platform": "youtube",
+"hours": 74,
+"views": 41,
+"avg_watch_pct": 43.65,
+"hold_3s_pct": null,
+"shares": 0,
+"saves": null,
+"follows": 0
 }
 ]

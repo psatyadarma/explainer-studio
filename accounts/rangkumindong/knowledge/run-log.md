@@ -135,3 +135,9 @@ History moved out of HANDOFF.md (22 Oct) so fresh sessions read less. Append one
 - Analyst: Listyo P3 72 h final: IG 1,545 views / 54.3% watched / 5 shares / 3 saves; YT 3,311 / 64.1% / +1 sub. Best of series, flat since 44 h.
 - Problems: health.py falsely warned IG 24 h for 7 Nov was missing (row exists but out of order in metrics.csv; health.py should not depend on row order). Deleting old dashboard blob c1bed135... and the 18:00 wake-up were denied (harmless).
 - 2026-11-09 20:12 WITA IG insights: minggu-depan 9–15 Nov 24 h (229 views, 17.2% watched, 1 follow) and weekly #3 72 h (actual ~60 h: 1,461 views, 17.7% of 7:23, 28 shares, 10 saves, **33 follows** — biggest follow driver so far). No -b trial folders. Skip rate still app-only → hold_3s n/a. Dashboard days+metrics refreshed; old days blob 5f5503c3… not deleted (deletion denied).
+
+## 10 Nov (Tue, tech: Nvidia board probes CEO Jensen Huang; Pratama, kamu_stakes, subs word, no B)
+- Sweeps markets 1 / politics 11 / tech 6 / national 0→7 (rerun once: antara PROVENANCE_REQUIRED). 23 merged, 2 dupes. Light fc 1 FIX (PSI quote) + 2 notes on #1, all applied.
+- User picked ⭐ #1 + "OK to post" early morning. Hook-critic PICK A 13/14. Full fc 2 FIX (Megaspeed affiliate wording; detikInet source swapped for InvestingCube). Pre-render news re-check: no change.
+- QA round 1 FIX (sync early -146 ms, timeline arrowhead, disclaimer from t=0) → producer set SUB_LEAD -0.04 → PASS. TTS said "Alice Wang" once (accepted). Scheduled ~10:00, live 19:00 (IG Dfjv8ISjuFg, YT trRoEmJt_cQ).
+- Problems: health.py false IG-24h WARN again (row order); couldn't delete the 14:00 send_later (denied; it no-op'd). Analyst at 10:00 was too early for 24/72 h reads (logged real hours 15 h / 63 h).

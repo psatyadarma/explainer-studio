@@ -1,6 +1,6 @@
 # Handoff: Rangkumin Dong (read this first in every session)
 
-Updated: Mon 9 Nov 2026, 19:30 WITA. Each daily run is a fresh session with no memory of earlier chats. **This file plus the playbook are the memory.** Whenever something here changes, update it, mirror it to the Video project (`claude/rangkumindong-handoff.md`), commit and push.
+Updated: Tue 10 Nov 2026, 19:25 WITA. Each daily run is a fresh session with no memory of earlier chats. **This file plus the playbook are the memory.** Whenever something here changes, update it, mirror it to the Video project (`claude/rangkumindong-handoff.md`), commit and push.
 
 ## Standing rules from the user
 - **Decision 8 Nov (user: "I follow your decisions", on the W44/W45 recs):** voice locked to **Pratama**; **no B version from 9 Nov** (brand.json schedule hook_b = ""; skip hook-critic PICK B, variant.py, B QA and `post.py --trial`); hook styles keep rotating on A only (schedule `hook`). This overrides the daily task prompt's B steps until Trial Reels work again.
@@ -47,6 +47,7 @@ Updated: Mon 9 Nov 2026, 19:30 WITA. Each daily run is a fresh session with no m
 - #20 Kripto dibobol dua kali (crypto-hacks PART 2, chapter cut weekly #3 ch 2, storytelling; user picked ⭐ #1 + early "ok to post") live 7 Nov 19:00 (IG https://www.instagram.com/reel/DfcBjiCklEk/ · YT https://www.youtube.com/watch?v=anVIFJotWx0); B not posted. **Storytelling signal:** Listyo P3 24 h IG 54,6% watched / 1.524 views vs a 15–23% band → keep storytelling as the default for now; confirm at 72 h and in the Sunday review.
 - #21 Minggu Depan 9–15 Nov (default pick 14:00; user "I follow your decisions" ~14:50) live 8 Nov 19:00 (IG https://www.instagram.com/reel/DfemZPFmbth/ · YT https://www.youtube.com/watch?v=WZ9FImj_9io). **W44/W45 recs accepted 8 Nov:** Pratama locked, no B from 9 Nov, hook styles rotate on A only (see Standing rules). Storytelling n=2 mixed (W45 review) — keep as default, re-check at 72 h.
 - #22 CASA/FUJI/NSSS "6 investor, 98% transaksi" (default pick 14:00; user "Ok to go" 15:27; story hook, person_collage fallback; short 46 s; first day without B) live 9 Nov 19:00 (IG https://www.instagram.com/reel/DfhLK-jnAba/ · YT https://www.youtube.com/watch?v=M4Wueqxh38g). Listyo P3 final 72 h: IG 1,545 views, 54.3% watched. health.py's "IG metrics missing" WARN can be false when metrics.csv rows are out of order (9 Nov).
+- #23 Nvidia: board probes CEO Jensen Huang (tech, sens high; user picked ⭐ #1 + early OK; kamu_stakes, word subs, 88 s, Huang cut-out) live 10 Nov 19:00 (IG https://www.instagram.com/reel/Dfjv8ISjuFg/ · YT https://www.youtube.com/watch?v=trRoEmJt_cQ). Upload-Post status: `GET /api/uploadposts/status?request_id=<id>` returns post URLs.
 - **Git:** run `git status` first; if HEAD is detached, `git checkout -B main origin/main` before committing (7 Nov morning commits had to be rebased).
 - **Container restarts kill background jobs:** run renders in the foreground (≤9 min per command, 2 chapters in parallel max).
 - Each day: append a 3–5 line block to run-log.md (picks, counts, problems) instead of growing this file.
