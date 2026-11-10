@@ -6190,6 +6190,16 @@
 "upcoming": false
 },
 {
+"id": "E0727",
+"date": "2026-11-08",
+"category": "ENV",
+"event": "BNPB reported karhutla hotspots and burned area as of 8 Nov, concentrated in Central Kalimantan. (update of E0692)",
+"key_numbers": "1,051 hotspots · 864 fire spots · 4,473 ha burned in six priority provinces (4,486 ha with Sulawesi) · Central Kalimantan 907 hotspots and 3,904 ha · South Kalimantan 59 and 345 ha · Jambi 44 and 105 ha · South Sumatra 40 and 98 ha",
+"storyline": "karhutla",
+"status": "partial",
+"upcoming": false
+},
+{
 "id": "E0288",
 "date": "2026-11-09",
 "category": "POL",
@@ -6410,6 +6420,66 @@
 "upcoming": false
 },
 {
+"id": "E0702",
+"date": "2026-11-09",
+"category": "GLB",
+"event": "Brent crude fell 5.85% to US$92.57 a barrel on 9 November, its lowest close since late August, after Trump said new strikes on Iran were very unlikely while talks progress. (update of E0660)",
+"key_numbers": "Brent US$92.57 (-US$5.75, -5.85%) · WTI US$86.85 (-4.38%) · Brent fell 16% the week before · Brent traded US$97.7 on 6 Nov and US$115.81 at the earlier peak",
+"storyline": "fuel-oil",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0705",
+"date": "2026-11-09",
+"category": "ECO",
+"event": "ESDM Deputy Minister Yuliot Tanjung said there is no added Pertalite quota this year, only a shift between regions, while biosolar quota is raised on higher demand.",
+"key_numbers": "Pertalite realisation 83.22% and biosolar 88.02% of quota at 31 Oct (normal ~83%) · biosolar 2026 APBN quota 18.364 million kL, raised about 7.8% to roughly 20.27 million kL (article figures garbled) · biosolar use up 15-17%, 58,000-59,000 kL per day · subsidised/non-subsidised price gap widened since 1 Apr 2026",
+"storyline": "fuel-oil",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0706",
+"date": "2026-11-09",
+"category": "ECO",
+"event": "Home Minister Tito Karnavian announced at the Palace that Prabowo approved a Rp100.1 trillion 2026-2028 recovery master plan for disaster-hit Aceh, North Sumatra and West Sumatra.",
+"key_numbers": "Rp100.1 trillion total · 2026 Rp38.9 T, 2027 Rp32.9 T, 2028 Rp28.2 T · 11,520 projects, 23 lead ministries/agencies · supporting programmes Rp575 billion · roads, bridges, rivers, schools, housing, rice fields, fishponds",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0716",
+"date": "2026-11-09",
+"category": "TECH",
+"event": "Nvidia CEO Jensen Huang emailed staff on 8 Nov admitting an affair with Alice Huang, a Megaspeed executive suspected by US intelligence of passing information to China; Nvidia's board opened an independent investigation and House committee chairs asked him to a closed-door meeting. (update of E0684)",
+"key_numbers": "Huang net worth about US$162 billion (CNBC; CNN cites about US$75 billion for divorce angle, conflicting) · closed-door House meeting 18 Nov 2026 · Nvidia says Huang remains CEO",
+"storyline": "",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0719",
+"date": "2026-11-09",
+"category": "TECH",
+"event": "Reuters-based reports said data of more than 40,000 US Department of Homeland Security employees leaked, with a group calling itself Department of Peace claiming the hack; DHS confirmed a potential leak and Okta denies being breached.",
+"key_numbers": "40,000+ DHS staff (ICE, CBP, CISA) · third major US government breach in about a month · Reuters verified 6 sampled identities",
+"storyline": "",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0728",
+"date": "2026-11-09",
+"category": "NEWS",
+"event": "CNN Indonesia reported the crew of a karhutla water-bombing helicopter that crashed into the Barito River was buried in Tangerang.",
+"key_numbers": "",
+"storyline": "karhutla",
+"status": "partial",
+"upcoming": false
+},
+{
 "id": "E0208",
 "date": "2026-11-10",
 "category": "TECH",
@@ -6490,6 +6560,266 @@
 "upcoming": false
 },
 {
+"id": "E0696",
+"date": "2026-11-10",
+"category": "MKT",
+"event": "BEI president director Jeffrey Hendrik said 300 more stocks join the high shareholding concentration (HSC) list and will be excluded from IHSG calculation, after BEI widened the screening to all listed stocks. (update of E0654)",
+"key_numbers": "+300 HSC stocks, total 383 · added stocks = 6.16% of IHSG weight · earlier exclusion already ~18% of IHSG · old Rp5 trillion threshold dropped · PIR (price impact ratio) criterion removed · rule: 10 or fewer holders owning 92.5%+ of shares · effective date not given, list to be announced 'dalam waktu dekat'",
+"storyline": "msci-reclassification",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0698",
+"date": "2026-11-10",
+"category": "MKT",
+"event": "The IHSG closed up 1.02% at 5,125.73 on 10 November, led by ASII, AMMN and other resource stocks, while foreigners were net sellers at midday despite the gain. (update of E0628)",
+"key_numbers": "IHSG 5,125.73 (+51.96 pts, +1.02%) · open 5,096.81, high 5,160.55 · 9 Nov close 5,073.77 (+0.46%), foreign net buy Rp98.24 billion · YTD foreign net outflow Rp97.59 trillion (as of 9 Nov) · 10 Nov midday foreign net sell only Rp2.99 billion (Stockbit) · gainers ASII, AMMN, EMAS, PTRO, MDKA; losers BBCA, TLKM, AKRA, MEDC, INTP · 10-year SBN yield 7.693% (9 Nov)",
+"storyline": "msci-reclassification",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0699",
+"date": "2026-11-10",
+"category": "MKT",
+"event": "The rupiah closed stronger at about Rp18,062 per USD on 10 November, before news of Vice President Gibran's resignation reached the market, while analysts expect it to weaken on Wednesday. (update of E0597)",
+"key_numbers": "Rp18,062 (+23 pts, +0.13%) per Kontan/Okezone/Investor.id; Bisnis quoted Rp18,057 · 9 Nov close Rp18,070 (CNBC) · analyst range for 11 Nov Rp18,060-18,100, weekly Rp17,920-18,220, November target Rp18,500 (Ibrahim Assuaibi, Traze Andalan Futures) · record-low close Rp18,175 on 28 Oct",
+"storyline": "rupiah",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0700",
+"date": "2026-11-10",
+"category": "POL",
+"event": "State Secretary Prasetyo Hadi announced at the Palace that Vice President Gibran Rakabuming Raka submitted his resignation to President Prabowo, citing developments in Constitutional Court (MK) and Supreme Court (MA) decisions. (update of E0674)",
+"key_numbers": "Announced 10 Nov ~15:22 WIB · Prabowo-Gibran meeting about 2.5 hours that morning · Prasetyo: reports that Prabowo rejected the intention are untrue · rupiah close (Rp18,062) and IHSG close (5,125.73) were set before or around the announcement, so market reaction is not yet measured",
+"storyline": "gibran-ijazah-mk",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0701",
+"date": "2026-11-10",
+"category": "GLB",
+"event": "US October CPI rose 0.4% month on month, above the 0.3% consensus, with core up 0.3% versus 0.2% expected, and markets fully priced a 25 bp Fed hike in December. (update of E0412)",
+"key_numbers": "CPI +0.4% m/m (Sep +0.6%; Reuters poll 0.3%) · core +0.3% m/m (poll 0.2%) · Sep y/y CPI 3.7%; no Oct y/y published due to 2025 shutdown data gap · fed funds 3.75%-4.00% · Dec hike of 25 bp fully priced · DXY 102.007 on 9 Nov",
+"storyline": "rupiah",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0703",
+"date": "2026-11-10",
+"category": "ECO",
+"event": "Bank Indonesia's retail sales survey showed September 2026 sales up 0.6% year on year but down 3.1% month on month, and BI projects October at +1% y/y.",
+"key_numbers": "Sep IPR +0.6% y/y (Aug +1.3%) · -3.1% m/m (Aug +0.8%) · Oct forecast +1.0% y/y to index 221.8, +1.0% m/m · price expectation index Dec 2026 165.0 (from 149.9) · Oct consumer confidence 119.9 (Sep 118.1), highest since May",
+"storyline": "survival-mode",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0704",
+"date": "2026-11-10",
+"category": "BIZ",
+"event": "BP sold its 49.9% stake in PT Aneka Petroindo Raya to AKR, and Shell moved its SPBU business to PT Isla Energy Indonesia under Sefas Group, with brands staying under licence.",
+"key_numbers": "BP stake 49.9% sold, AKR from 50.1% to 100% · Shell business to Isla Energy Indonesia (Sefas Group) · fuel prices unchanged since September: Pertalite Rp10,000, Pertamax Rp15,950, BP 92 Rp16,130, Shell/BP diesel Rp25,420 per litre (10 Nov)",
+"storyline": "fuel-oil",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0707",
+"date": "2026-11-10",
+"category": "POL",
+"event": "The Mahkamah Agung (case 742 K/TUN/2026) granted Subhan's cassation and declared the SMA-equivalency certificate (suket) used by Gibran Rakabuming Raka for the 2024 election void by law, ordering Kemendikdasmen's suket revoked, citing the MK ruling of 5 Oct 2026 as a known fact. (update of E0466)",
+"key_numbers": "Case 742 K/TUN/2026 · ruling copy dated 10 Nov 2026 · MK ruling 01/PHPU.PRES-XXIV/2026 of 5 Oct 2026",
+"storyline": "gibran-ijazah-mk",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0708",
+"date": "2026-11-10",
+"category": "POL",
+"event": "Mensesneg Prasetyo Hadi said VP Gibran told President Prabowo in a roughly 2.5-hour morning meeting that he intended to resign over the MK and MA rulings; Prasetyo denied Prabowo rejected it and said Prabowo advised him to keep fighting at PTUN, while Gibran asked for a chance to prove his documents there. (update of E0466)",
+"key_numbers": "~2.5 hour meeting (CNN) / ~2 hours (other report) · 10 Nov 2026 · Gibran did not himself state he would resign",
+"storyline": "gibran-ijazah-mk",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0709",
+"date": "2026-11-10",
+"category": "POL",
+"event": "DPR members from PKS (Mardani Ali Sera first signatory) and other factions began signing a Hak Menyatakan Pendapat (HMP) proposal on VP Gibran; CNN reports 50 members from six factions submitted it, while detik counted 12 signatures early that morning. (update of E0457)",
+"key_numbers": "50 members, 6 factions (CNN, afternoon) · 12 visible signatures, 'more than 25' per Mardani (detik, 10:06 WIB)",
+"storyline": "gibran-ijazah-mk",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0710",
+"date": "2026-11-10",
+"category": "POL",
+"event": "Party positions on Gibran: PDIP urges him to resign or face impeachment, Golkar's Sarmuji says the DPR can use HMP, NasDem's Hermawi Taslim says resignation or replacement is fine if constitutional; DPR deputy speaker Dasco says it is still informal cross-faction talk awaiting the official MA ruling copy. (update of E0674)",
+"key_numbers": "No seat or vote thresholds stated in the sources",
+"storyline": "gibran-ijazah-mk",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0711",
+"date": "2026-11-10",
+"category": "POL",
+"event": "Puan Maharani opened DPR Masa Persidangan II 2026-2027 (10 Nov to 17 Dec) in a plenary without factional interruptions, setting four priority bills and 12 oversight issues including the presidential wiretapping case and karhutla. (update of E0665)",
+"key_numbers": "403 members present (Kompas/Katadata; detik says 414) · 10 Nov-17 Dec 2026 · 4 priority bills: RUU LLAJ, Hak Cipta, Koperasi, Perampasan Aset · 12 oversight issues",
+"storyline": "",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0712",
+"date": "2026-11-10",
+"category": "POL",
+"event": "Kompolnas commissioner Choirul Anam urged Polri to run the presidential wiretapping case transparently, saying public information is conflicting and that victims include others besides Prabowo; the suspects remain four police generals. (update of E0562)",
+"key_numbers": "4 suspects (Listyo Sigit, Ahrie Sonta Nasution, Eko Hadi Santoso, Slamet Uliandi) · Pasal 258 and 332 KUHP, Pasal 32(1) UU ITE · up to 10 years",
+"storyline": "listyo-sigit-penyadapan",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0713",
+"date": "2026-11-10",
+"category": "POL",
+"event": "Jaksa KPK asked the Jakarta Tipikor panel to reject ex-Deputy Minister Silmy Karim's exception, and KPK again summoned nine private-sector witnesses in the disaster-fund (BNPB) case. (update of E0608)",
+"key_numbers": "9 private-sector witnesses (4 attended per Tribunnews)",
+"storyline": "corruption-cases",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0714",
+"date": "2026-11-10",
+"category": "TECH",
+"event": "Komdigi issued three advisory letters on 9 Nov to PDN-1/Government Cloud users, government domain managers and all PSE after a BSSN security advisory on 8 Nov warned of possible attacks linked to opposition to the foreign digital transaction tax (SPP-TDLN); BSSN said the threat's authenticity is unverified.",
+"key_numbers": "2.2 million attack attempts on Indonesia in 24h to 10 Nov 07:30 (about 26/s, highest in Southeast Asia) · about 1 million aimed at finance · 151 financial-sector incident response teams · 202 BSSN threat notices to them · 96.7% of .go.id PHP servers scanned (1,621 of 1,677) run end-of-life PHP (Vaksincom, 23 Oct)",
+"storyline": "cyber-threats-gov",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0715",
+"date": "2026-11-10",
+"category": "TECH",
+"event": "Security firm ZENTARA said it handled three fund-theft cases at Indonesian financial institutions in eight weeks since August, where attackers used stolen signing keys and staff tokens rather than malware, moving money in 36 minutes to nearly seven hours.",
+"key_numbers": "3 cases in 8 weeks (0 in prior 3 months) · 36 minutes to about 7 hours to move funds · 85% of fraud victims report after 12 hours · fraud-linked account blocking up about 53% in Aug-Sep vs Jan-Jul · 702,833 accounts blocked to 30 Sep (IASC) · one institution re-breached 8 days later · about 758,000 servers on unsupported PHP",
+"storyline": "cyber-threats-gov",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0717",
+"date": "2026-11-10",
+"category": "TECH",
+"event": "Equinix inaugurated Phase 2 of its JK1 Jakarta data center, adding liquid-cooled capacity and tripling the site's capacity.",
+"key_numbers": "US$94 million (Rp1.7 trillion) · about 1,125 new cabinets · capacity tripled · liquid cooling up to 150 kVA/cabinet · PUE about 3.02 vs target 1.35 · Indonesia data-centre capacity about 600 MW (Komdigi)",
+"storyline": "ai-data-centres",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0718",
+"date": "2026-11-10",
+"category": "TECH",
+"event": "CNN Indonesia reported Oppo may cancel its Find X10 Ultra because the RAM shortage is raising component costs, with the effect expected to last until 2028 (rumour-level report). (update of E0685)",
+"key_numbers": "Memory cost pressure expected to last to 2028 · Omdia: tablet shipments -23% y/y in Q3 2026 to 32 million; Counterpoint: smartphones -20% y/y (CNBC Indonesia, 9 Nov)",
+"storyline": "chip-ram-prices",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0720",
+"date": "2026-11-10",
+"category": "TECH",
+"event": "CNBC Indonesia, citing a Japanese TV programme and CYFIRMA, reported chats from late October allegedly showing North Korean hackers discussing targeting Indonesia, the US, Japan, Thailand and South Korea using AI.",
+"key_numbers": "About 3,000 North Korean hackers reportedly operate abroad · FBI links group to Binance theft (reported 1 trillion yen)",
+"storyline": "crypto-hacks",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0721",
+"date": "2026-11-10",
+"category": "TECH",
+"event": "Prabowo was scheduled to launch Perlinsos Digital on 10 Nov, moving social aid to cash transfers; Kemensos is also recruiting unpaid Perlinsos agents and households can check their desil. Launch outcome not confirmed in today's sources. (update of E0208)",
+"key_numbers": "Launch date 10 Nov 2026 · 11.5 million households reported registered (MerahPutih) · agents unpaid (CNBC Indonesia, 9 Nov)",
+"storyline": "perlinsos-digital",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0722",
+"date": "2026-11-10",
+"category": "NEWS",
+"event": "Prabowo conferred the national hero title on 19 posthumous figures at Istana Negara under Presidential Decree No. 93/TK/2026, including ex-Kapolri Hoegeng, Ali Sadikin, M. Jusuf and his own grandfather Margono Djojohadikusumo. (update of E0693)",
+"key_numbers": "19 recipients · Keppres 93/TK/Tahun 2026 · 10 Nov 2026",
+"storyline": "",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0723",
+"date": "2026-11-10",
+"category": "NEWS",
+"event": "Jakarta police recorded 74 public-aspiration demonstrations on Heroes' Day, concentrated at the DPR/MPR building, Bundaran HI, Dukuh Atas and Monas, with civil society and student groups. (update of E0694)",
+"key_numbers": "74 aksi (83 community activities) · 47 in Central Jakarta · about 2,500-2,700 protesters expected per police notifications · no firearms allowed for officers",
+"storyline": "",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0724",
+"date": "2026-11-10",
+"category": "NEWS",
+"event": "Kemenhaj opened final payment (pelunasan Bipih) for 2027 regular hajj, with stage 1 from 10 Nov to 10 Dec 2026 and stage 2 from 16 to 31 Dec if quota remains.",
+"key_numbers": "Bipih Rp43.7 juta (Aceh) to Rp58.1 juta (Surabaya) · Jakarta Rp53.5 juta · quota 203,320 (191,419 current-year pilgrims, 10,166 elderly priority) · BPKH subsidy avg Rp43.8 juta per pilgrim · stage 1 10 Nov-10 Dec · stage 2 16-31 Dec",
+"storyline": "",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0725",
+"date": "2026-11-10",
+"category": "ENV",
+"event": "BNPB reported flood-dominated hydrometeorological disasters across Indonesia in 2026 through 10 Nov, with 620 floods, 363 extreme-weather events, 114 landslides and 14 high-wave events.",
+"key_numbers": "620 floods · 363 extreme weather · 114 landslides · 14 abrasion/high waves · 70 deaths and 49 injured in floods · more than 4,900 homes damaged by floods",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0726",
+"date": "2026-11-10",
+"category": "ENV",
+"event": "Pidie Jaya in Aceh is under a 14-day disaster emergency (4-17 Nov) after river floods hit four sub-districts, and flash floods and landslides in Aceh Tengah collapsed two emergency bridges.",
+"key_numbers": "Bupati Decree 373/2026 · 4-17 Nov emergency · 4 sub-districts flooded in Pidie Jaya · 10 families evacuated and about 10 houses affected (as of 9 Nov) · 2 emergency bridges collapsed and 5 villages affected in Aceh Tengah · CNN headline: 21 villages hit by follow-up flood in Pidie Jaya (not opened)",
+"storyline": "",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0729",
+"date": "2026-11-10",
+"category": "NEWS",
+"event": "TurnBackHoax (Mafindo) rated false a Facebook post claiming party elites urged Prabowo to replace VP Gibran with Sufmi Dasco Ahmad amid the wiretapping case; Dasco denied it on X.",
+"key_numbers": "Fact-check dated 10 Nov 2026 · Dasco denial 4 Nov 2026 · post had only 14 reactions and 20 comments",
+"storyline": "gibran-ijazah-mk",
+"status": "partial",
+"upcoming": false
+},
+{
 "id": "E0465",
 "date": "2026-11-11",
 "category": "TECH",
@@ -6536,6 +6866,16 @@
 "event": "Next defamation hearing against dr Tifa is scheduled on 12 November, after Jokowi testified on 5 Nov at the Roy Suryo trial. (update of E0607)",
 "key_numbers": "Hearing 12 Nov 2026",
 "storyline": "jokowi-ijazah-roy-suryo",
+"status": "upcoming",
+"upcoming": true
+},
+{
+"id": "E0697",
+"date": "2026-11-12",
+"category": "MKT",
+"event": "MSCI is due to announce its November index review results on Thursday 12 November, with changes effective at the close of 30 November; MSCI is freezing new additions to the Indonesia IMI while deletions and downgrades can still happen. (update of E0444)",
+"key_numbers": "Announcement ~05:00 WIB Thu 12 Nov · effective after close Mon 30 Nov · at risk: MTEL (HSC-flagged, ~US$177m free-float cap), WIFI (~US$99m), RAJA (~US$108m), BRMS (possible Standard to Small Cap, ~US$1.35bn) · Mirae retention price for BRMS Rp440 vs Rp310 on 9 Nov · final EM/Standalone decision by 30 Jun 2027",
+"storyline": "msci-reclassification",
 "status": "upcoming",
 "upcoming": true
 },

@@ -1,0 +1,363 @@
+{
+ "area": "markets",
+ "run_date": "2026-11-11",
+ "checked": [
+  "CNBC Indonesia market (via IHSG articles and related list)",
+  "CNBC Indonesia news search 10 Nov",
+  "detikFinance indeks (20 headlines)",
+  "Bisnis market (rupiah close; page fetch failed)",
+  "antaranews ekonomi (not reached)",
+  "IHSG close and big movers: found",
+  "foreign net buy/sell: found",
+  "rupiah/BI rate: found (RDG 17-18 Nov already known)",
+  "BPS: Q3 GDP already in DB; no new release",
+  "APBN/fuel prices/subsidies: found (Pertalite quota, BP-Shell, prices)",
+  "MSCI/FTSE: found (HSC +300, review 12 Nov)",
+  "global shocks: found (US CPI, Brent)",
+  "PHK: searched, only 3 Nov KSPI claim",
+  "storyline searches: msci-reclassification, rupiah, survival-mode, fuel-oil, growth-outlook (GDP), PHK"
+ ],
+ "events": [
+  {
+   "date": "2026-11-10",
+   "category": "MKT",
+   "event": "BEI president director Jeffrey Hendrik said 300 more stocks join the high shareholding concentration (HSC) list and will be excluded from IHSG calculation, after BEI widened the screening to all listed stocks.",
+   "key_numbers": "+300 HSC stocks, total 383 · added stocks = 6.16% of IHSG weight · earlier exclusion already ~18% of IHSG · old Rp5 trillion threshold dropped · PIR (price impact ratio) criterion removed · rule: 10 or fewer holders owning 92.5%+ of shares · effective date not given, list to be announced 'dalam waktu dekat'",
+   "storyline": "msci-reclassification",
+   "update_of": "E0654",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "CNBC Indonesia",
+     "url": "https://cnbcindonesia.com/market/20261110182136-17-784017/saham-hsc-nambah-300-bobot-616-ihsg-ikut-dikeluarkan"
+    },
+    {
+     "label": "CNBC Indonesia",
+     "url": "https://cnbcindonesia.com/market/20261110175549-17-784006/bei-ubah-metodologi-perhitungan-hsc-daftar-makin-panjang"
+    }
+   ],
+   "why_it_matters": "More stocks drop out of the IHSG index calculation, changing which shares move the index just before MSCI's 12 Nov review.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 1,
+    "surprise": 2,
+    "visual": 2,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "Two CNBC Indonesia market headlines on 10 Nov evening",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-12",
+   "category": "MKT",
+   "event": "MSCI is due to announce its November index review results on Thursday 12 November, with changes effective at the close of 30 November; MSCI is freezing new additions to the Indonesia IMI while deletions and downgrades can still happen.",
+   "key_numbers": "Announcement ~05:00 WIB Thu 12 Nov · effective after close Mon 30 Nov · at risk: MTEL (HSC-flagged, ~US$177m free-float cap), WIFI (~US$99m), RAJA (~US$108m), BRMS (possible Standard to Small Cap, ~US$1.35bn) · Mirae retention price for BRMS Rp440 vs Rp310 on 9 Nov · final EM/Standalone decision by 30 Jun 2027",
+   "storyline": "msci-reclassification",
+   "update_of": "E0444",
+   "status": "upcoming",
+   "sources": [
+    {
+     "label": "CNBC Indonesia",
+     "url": "https://www.cnbcindonesia.com/research/20261110144326-128-783923/msci-bakal-umumkan-review-kamis-seperti-apa-kisi-kisi-skenarionya"
+    },
+    {
+     "label": "CNBC Indonesia",
+     "url": "https://www.cnbcindonesia.com/market/20261109051127-17-783342/hitung-mundur-review-msci-pekan-ini-ujian-pasar-modal-ri"
+    }
+   ],
+   "why_it_matters": "The first MSCI review since the Standalone proposal; stocks removed can face index-fund selling.",
+   "signals": {
+    "spreading": 2,
+    "wallet": 1,
+    "surprise": 1,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "Multiple outlets (CNBC Indonesia, Kontan, Periskop) previewing the review this week",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-10",
+   "category": "MKT",
+   "event": "The IHSG closed up 1.02% at 5,125.73 on 10 November, led by ASII, AMMN and other resource stocks, while foreigners were net sellers at midday despite the gain.",
+   "key_numbers": "IHSG 5,125.73 (+51.96 pts, +1.02%) · open 5,096.81, high 5,160.55 · 9 Nov close 5,073.77 (+0.46%), foreign net buy Rp98.24 billion · YTD foreign net outflow Rp97.59 trillion (as of 9 Nov) · 10 Nov midday foreign net sell only Rp2.99 billion (Stockbit) · gainers ASII, AMMN, EMAS, PTRO, MDKA; losers BBCA, TLKM, AKRA, MEDC, INTP · 10-year SBN yield 7.693% (9 Nov)",
+   "storyline": "msci-reclassification",
+   "update_of": "E0628",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "CNBC Indonesia",
+     "url": "https://www.cnbcindonesia.com/market/20261110151333-17-783935/ihsg-berakhir-di-zona-hijau-menguat-102-ke-512573"
+    },
+    {
+     "label": "CNBC Indonesia",
+     "url": "https://www.cnbcindonesia.com/market/20261110125921-17-783875/meski-ihsg-hijau-tapi-dana-asing-lari-rp299-m-lepas-10-saham-ini"
+    },
+    {
+     "label": "CNBC Indonesia Research",
+     "url": "https://www.cnbcindonesia.com/research/20261109182328-128-783692/banyak-kabar-baik-dari-ri-ujian-ihsg-rupiah-justru-datang-dari-as"
+    }
+   ],
+   "why_it_matters": "The index is edging back above 5,000 while foreign money is still leaving for the year.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 1,
+    "surprise": 0,
+    "visual": 2,
+    "fresh": 2,
+    "rivals": 0
+   },
+   "spreading_evidence": "Daily CNBC Indonesia market coverage",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-10",
+   "category": "MKT",
+   "event": "The rupiah closed stronger at about Rp18,062 per USD on 10 November, before news of Vice President Gibran's resignation reached the market, while analysts expect it to weaken on Wednesday.",
+   "key_numbers": "Rp18,062 (+23 pts, +0.13%) per Kontan/Okezone/Investor.id; Bisnis quoted Rp18,057 · 9 Nov close Rp18,070 (CNBC) · analyst range for 11 Nov Rp18,060-18,100, weekly Rp17,920-18,220, November target Rp18,500 (Ibrahim Assuaibi, Traze Andalan Futures) · record-low close Rp18,175 on 28 Oct",
+   "storyline": "rupiah",
+   "update_of": "E0597",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "Investor.id",
+     "url": "https://investor.id/market/461434/nasib-rupiah-usai-gibran-ajukan-pengunduran-diri"
+    },
+    {
+     "label": "Kontan",
+     "url": "https://investasi.kontan.co.id/news/rupiah-ditutup-menguat-ke-rp-18062-per-dolar-as-hari-ini-1011-dolar-terkoreksi"
+    },
+    {
+     "label": "Bisnis",
+     "url": "https://market.bisnis.com/read/20261110/93/2020084/rupiah-ditutup-menguat-ke-rp18057-investor-nantikan-hasil-review-msci"
+    }
+   ],
+   "why_it_matters": "The rupiah stays above Rp18,000 and a political shock arrived after the close.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 2,
+    "surprise": 1,
+    "visual": 2,
+    "fresh": 2,
+    "rivals": 0
+   },
+   "spreading_evidence": "Daily close coverage by Kontan, Okezone, Bisnis, Investor.id",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-10",
+   "category": "POL",
+   "event": "State Secretary Prasetyo Hadi announced at the Palace that Vice President Gibran Rakabuming Raka submitted his resignation to President Prabowo, citing developments in Constitutional Court (MK) and Supreme Court (MA) decisions.",
+   "key_numbers": "Announced 10 Nov ~15:22 WIB · Prabowo-Gibran meeting about 2.5 hours that morning · Prasetyo: reports that Prabowo rejected the intention are untrue · rupiah close (Rp18,062) and IHSG close (5,125.73) were set before or around the announcement, so market reaction is not yet measured",
+   "storyline": "gibran-ijazah-mk",
+   "update_of": "E0674",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "CNBC Indonesia",
+     "url": "https://cnbcindonesia.com/news/20261110152057-4-783938/breaking-news-wapres-gibran-ajukan-pengunduran-diri-kepada-prabowo"
+    },
+    {
+     "label": "Investor.id",
+     "url": "https://investor.id/market/461434/nasib-rupiah-usai-gibran-ajukan-pengunduran-diri"
+    }
+   ],
+   "why_it_matters": "A vice-president's resignation is a major political shock that traders will price on 11 Nov.",
+   "signals": {
+    "spreading": 2,
+    "wallet": 1,
+    "surprise": 2,
+    "visual": 0,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "CNBC Indonesia breaking news; investor.id market angle",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-11-10",
+   "category": "GLB",
+   "event": "US October CPI rose 0.4% month on month, above the 0.3% consensus, with core up 0.3% versus 0.2% expected, and markets fully priced a 25 bp Fed hike in December.",
+   "key_numbers": "CPI +0.4% m/m (Sep +0.6%; Reuters poll 0.3%) · core +0.3% m/m (poll 0.2%) · Sep y/y CPI 3.7%; no Oct y/y published due to 2025 shutdown data gap · fed funds 3.75%-4.00% · Dec hike of 25 bp fully priced · DXY 102.007 on 9 Nov",
+   "storyline": "rupiah",
+   "update_of": "E0412",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "Kontan (Reuters)",
+     "url": "https://internasional.kontan.co.id/news/inflasi-as-oktober-2026-melampaui-ekspektasi-the-fed-berpeluang-naikkan-bunga"
+    },
+    {
+     "label": "CNBC Indonesia Research",
+     "url": "https://www.cnbcindonesia.com/research/20261109182328-128-783692/banyak-kabar-baik-dari-ri-ujian-ihsg-rupiah-justru-datang-dari-as"
+    }
+   ],
+   "why_it_matters": "A likely Fed hike pulls dollars back to the US and adds pressure on the rupiah and IHSG.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 1,
+    "surprise": 1,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "Several outlets (Kontan, Feedberry, FXStreet) on 10-11 Nov",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-09",
+   "category": "GLB",
+   "event": "Brent crude fell 5.85% to US$92.57 a barrel on 9 November, its lowest close since late August, after Trump said new strikes on Iran were very unlikely while talks progress.",
+   "key_numbers": "Brent US$92.57 (-US$5.75, -5.85%) · WTI US$86.85 (-4.38%) · Brent fell 16% the week before · Brent traded US$97.7 on 6 Nov and US$115.81 at the earlier peak",
+   "storyline": "fuel-oil",
+   "update_of": "E0660",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "detikFinance",
+     "url": "https://finance.detik.com/energi/d-8746008/harga-minyak-anjlok-hingga-5"
+    },
+    {
+     "label": "CNBC Indonesia Research",
+     "url": "https://www.cnbcindonesia.com/research/20261109182328-128-783692/banyak-kabar-baik-dari-ri-ujian-ihsg-rupiah-justru-datang-dari-as"
+    }
+   ],
+   "why_it_matters": "Cheaper oil eases pressure on Indonesia's fuel subsidy bill and import costs.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 1,
+    "surprise": 1,
+    "visual": 2,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "detikFinance top finance headline, CNBC Indonesia research",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-10",
+   "category": "ECO",
+   "event": "Bank Indonesia's retail sales survey showed September 2026 sales up 0.6% year on year but down 3.1% month on month, and BI projects October at +1% y/y.",
+   "key_numbers": "Sep IPR +0.6% y/y (Aug +1.3%) · -3.1% m/m (Aug +0.8%) · Oct forecast +1.0% y/y to index 221.8, +1.0% m/m · price expectation index Dec 2026 165.0 (from 149.9) · Oct consumer confidence 119.9 (Sep 118.1), highest since May",
+   "storyline": "survival-mode",
+   "update_of": "",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "CNBC Indonesia",
+     "url": "https://www.cnbcindonesia.com/news/20261110103751-4-783809/penjualan-ritel-ri-september-2026-loyo-anjlok-31"
+    },
+    {
+     "label": "CNBC Indonesia Research",
+     "url": "https://www.cnbcindonesia.com/research/20261109182328-128-783692/banyak-kabar-baik-dari-ri-ujian-ihsg-rupiah-justru-datang-dari-as"
+    }
+   ],
+   "why_it_matters": "Shoppers pulled back in September even as GDP grew 5.47%, a sign of tight household budgets.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 2,
+    "surprise": 1,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "CNBC Indonesia news headline 10 Nov",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-10",
+   "category": "BIZ",
+   "event": "BP sold its 49.9% stake in PT Aneka Petroindo Raya to AKR, and Shell moved its SPBU business to PT Isla Energy Indonesia under Sefas Group, with brands staying under licence.",
+   "key_numbers": "BP stake 49.9% sold, AKR from 50.1% to 100% · Shell business to Isla Energy Indonesia (Sefas Group) · fuel prices unchanged since September: Pertalite Rp10,000, Pertamax Rp15,950, BP 92 Rp16,130, Shell/BP diesel Rp25,420 per litre (10 Nov)",
+   "storyline": "fuel-oil",
+   "update_of": "",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "CNBC Indonesia",
+     "url": "https://cnbcindonesia.com/news/20261110072517-4-783726/bp-shell-lepas-bisnis-spbu-ini-harga-resmi-bbm-per-10-november-2026/amp"
+    },
+    {
+     "label": "detikFinance",
+     "url": "https://finance.detik.com/energi/d-8745778/fokus-shell-dan-bp-usai-tinggalkan-bisnis-spbu-di-ri"
+    }
+   ],
+   "why_it_matters": "Two big foreign pump brands are changing hands, though drivers can still buy at the same prices for now.",
+   "signals": {
+    "spreading": 2,
+    "wallet": 1,
+    "surprise": 2,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "Three detikFinance energy headlines on the same day, CNBC Indonesia news",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-09",
+   "category": "ECO",
+   "event": "ESDM Deputy Minister Yuliot Tanjung said there is no added Pertalite quota this year, only a shift between regions, while biosolar quota is raised on higher demand.",
+   "key_numbers": "Pertalite realisation 83.22% and biosolar 88.02% of quota at 31 Oct (normal ~83%) · biosolar 2026 APBN quota 18.364 million kL, raised about 7.8% to roughly 20.27 million kL (article figures garbled) · biosolar use up 15-17%, 58,000-59,000 kL per day · subsidised/non-subsidised price gap widened since 1 Apr 2026",
+   "storyline": "fuel-oil",
+   "update_of": "",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "detikFinance",
+     "url": "https://finance.detik.com/energi/d-8745725/esdm-sebut-tak-ada-penambahan-kuota-pertalite-hanya-pergeseran"
+    },
+    {
+     "label": "detikFinance",
+     "url": "https://finance.detik.com/energi/d-8745612/bahlil-soal-kuota-pertalite-ditambah-aman-aman"
+    }
+   ],
+   "why_it_matters": "Shows whether subsidised fuel could run short before year-end.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 2,
+    "surprise": 1,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "Three detikFinance headlines 9-10 Nov",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-09",
+   "category": "ECO",
+   "event": "Home Minister Tito Karnavian announced at the Palace that Prabowo approved a Rp100.1 trillion 2026-2028 recovery master plan for disaster-hit Aceh, North Sumatra and West Sumatra.",
+   "key_numbers": "Rp100.1 trillion total · 2026 Rp38.9 T, 2027 Rp32.9 T, 2028 Rp28.2 T · 11,520 projects, 23 lead ministries/agencies · supporting programmes Rp575 billion · roads, bridges, rivers, schools, housing, rice fields, fishponds",
+   "storyline": "",
+   "update_of": "",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "detikFinance",
+     "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8745734/rp-100-triliun-disiapkan-buat-pemulihan-bencana-sumatera-hingga-2028"
+    }
+   ],
+   "why_it_matters": "Shows how much APBN money goes to Sumatra recovery over three years.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 1,
+    "surprise": 1,
+    "visual": 2,
+    "fresh": 2,
+    "rivals": 2
+   },
+   "spreading_evidence": "detikFinance headline list",
+   "sensitivity": "normal"
+  }
+ ],
+ "gaps": [
+  "Gibran resignation (10 Nov 15:22) market reaction on 11 Nov not yet known; politics researcher should own the story",
+  "HSC +300 list effective date and exact list not published yet",
+  "PHK: KSPI says Kemnaker ~83,000 by late Oct and >90,000 by year-end (3 Nov, outside window); other site cites 72,336 through Oct, not verified",
+  "antaranews ekonomi and Bisnis section pages not read; Bisnis rupiah close Rp18,057 vs Rp18,062 elsewhere",
+  "US CPI Oct y/y not published per Kontan; Treasury yield above 5% claim only in an FXStreet headline, unverified"
+ ]
+}
