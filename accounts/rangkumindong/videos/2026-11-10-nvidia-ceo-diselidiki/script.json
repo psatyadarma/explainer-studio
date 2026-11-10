@@ -1,0 +1,116 @@
+{
+ "direction": "[calm storyteller, curious, explaining to a friend]",
+ "format": "standard",
+ "hook_style": "kamu_stakes",
+ "storytelling": true,
+ "hook_b": "",
+ "lines": [
+  {
+   "id": "h1",
+   "tag": "[curious, direct]",
+   "text": "Punya saham teknologi? Bos Nvidia lagi diselidiki.",
+   "say": "Punya saham teknologi? Bos En-vidia lagi diselidiki."
+  },
+  {
+   "id": "h2",
+   "tag": "[intrigued, slower]",
+   "text": "Dan angka 450 miliar dolar yang viral itu, ceritanya lain.",
+   "say": "Dan angka empat ratus lima puluh miliar dolar yang viral itu, ceritanya lain."
+  },
+  {
+   "id": "rd",
+   "tagline": true,
+   "text": "Rangkumin dong!"
+  },
+  {
+   "id": "l1",
+   "tag": "[explaining, quick]",
+   "text": "Jadi gini. Nvidia bikin chip yang jadi mesin di balik ledakan AI.",
+   "say": "Jadi gini. En-vidia bikin chip yang jadi mesin di balik ledakan e ai."
+  },
+  {
+   "id": "l2",
+   "tag": "[storytelling, measured]",
+   "text": "29 Oktober, New York Times melaporkan: seorang perempuan, Alice Huang, diduga mendekati CEO-nya, Jensen Huang.",
+   "say": "Dua puluh sembilan Oktober, Nyu York Taims melaporkan: seorang perempuan, Alis Hwang, diduga mendekati si i o-nya, Jensen Hwang."
+  },
+  {
+   "id": "l3",
+   "tag": "[careful, serious]",
+   "text": "Tujuannya, menurut laporan itu: teknologi Nvidia. Dia diduga terkait intelijen China.",
+   "say": "Tujuannya, menurut laporan itu: teknologi En-vidia. Dia diduga terkait intelijen Cina."
+  },
+  {
+   "id": "l4",
+   "tag": "[matter-of-fact]",
+   "text": "Kedutaan China membantah tuduhan mata-mata itu.",
+   "say": "Kedutaan Cina membantah tuduhan mata-mata itu."
+  },
+  {
+   "id": "l5",
+   "tag": "[explaining]",
+   "text": "Laporan yang sama: afiliasi Megaspeed, perusahaan tempat Alice pernah bekerja, membeli perangkat AI berisi chip Nvidia, minimal 4,8 miliar dolar.",
+   "say": "Laporan yang sama: afiliasi Mega-spid, perusahaan tempat Alis pernah bekerja, membeli perangkat e ai berisi chip En-vidia, minimal empat koma delapan miliar dolar."
+  },
+  {
+   "id": "l6",
+   "tag": "[serious, slower]",
+   "text": "Minggu, 8 November, lewat email ke karyawan, Huang mengakui hubungan di luar nikah.",
+   "say": "Minggu, delapan November, lewat email ke karyawan, Hwang mengakui hubungan di luar nikah."
+  },
+  {
+   "id": "l7",
+   "tag": "[explaining, quick]",
+   "text": "Lalu, dewan Nvidia membentuk komite direktur independen untuk menyelidiki.",
+   "say": "Lalu, dewan En-vidia membentuk komite direktur independen untuk menyelidiki."
+  },
+  {
+   "id": "l8",
+   "tag": "[reassuring, careful]",
+   "text": "Kata dewan: belum ada alasan percaya rahasia Nvidia atau keamanan AS bocor. Huang tetap CEO.",
+   "say": "Kata dewan: belum ada alasan percaya rahasia En-vidia atau keamanan Amerika bocor. Hwang tetap si i o."
+  },
+  {
+   "id": "l9",
+   "tag": "[conspiratorial, leaning in]",
+   "text": "Tapi ini yang sering ketuker.",
+   "say": "Tapi ini yang sering ketuker."
+  },
+  {
+   "id": "l10",
+   "tag": "[emphatic]",
+   "text": "Kamis, 5 November, Nvidia memang kehilangan sekitar 450 miliar dolar nilai pasar. Dalam. Satu. Hari.",
+   "say": "Kamis, lima November, En-vidia memang kehilangan sekitar empat ratus lima puluh miliar dolar nilai pasar. Dalam. Satu. Hari."
+  },
+  {
+   "id": "l11",
+   "tag": "[explaining, clear]",
+   "text": "Menurut CNBC Indonesia, investor cemas soal gelembung AI. Pengakuan Huang baru keluar tiga hari kemudian.",
+   "say": "Menurut Ce En Be Ce Indonesia, investor cemas soal gelembung e ai. Pengakuan Hwang baru keluar tiga hari kemudian."
+  },
+  {
+   "id": "l12",
+   "tag": "[forward-looking]",
+   "text": "Berikutnya: tiga politisi Republik di DPR AS meminta Huang memberi penjelasan, 18 November.",
+   "say": "Berikutnya: tiga politisi Republik di De Pe Er Amerika meminta Hwang memberi penjelasan, delapan belas November."
+  },
+  {
+   "id": "l13",
+   "tag": "[careful]",
+   "text": "Itu baru permintaan. Belum jelas Huang datang.",
+   "say": "Itu baru permintaan. Belum jelas Hwang datang."
+  },
+  {
+   "id": "cta",
+   "tag": "[playful, asking the viewer]",
+   "text": "Menurut kamu, seberapa besar urusan pribadi bos bisa ngaruh ke perusahaannya? Komen!",
+   "say": "Menurut kamu, seberapa besar urusan pribadi bos bisa ngaruh ke perusahaannya? Komen!"
+  },
+  {
+   "id": "end",
+   "tag": "[friendly, upbeat]",
+   "text": "Follow Rangkumin Dong, biar nggak ketinggalan!"
+  }
+ ],
+ "tail": 0.9
+}

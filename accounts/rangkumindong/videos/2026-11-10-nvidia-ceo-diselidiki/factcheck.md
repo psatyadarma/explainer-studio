@@ -1,0 +1,38 @@
+VERDICT: FIX (2 issues)
+
+Checked 10 Nov 2026 (MODE=full, sensitivity HIGH). Covers script.json, draft.md (visual plan), post.json (all captions + pinned comment), claims.json.
+
+| # | Claim (line) | Verdict | What the source actually says | Source |
+|---|---|---|---|---|
+| 1 | Nvidia's chips power the AI boom (l1) | OK | Al Jazeera: chipmaker at the centre of the AI boom | https://www.aljazeera.com/news/2026/11/8/us-chipmaker-nvidia-investigates-ceo-jensen-huang-over-affair |
+| 2 | NYT reported on 29 Oct that Alice Huang allegedly approached Jensen Huang (l2) | OK | Al Jazeera: "on October 29, The New York Times said..."; TNW: NYT report dated 29 Oct, US spy agencies watched her for about a year | Al Jazeera (above); https://thenextweb.com/news/house-chairs-jensen-huang-briefing-megaspeed |
+| 3 | Aim, per the report, was Nvidia's technology; allegedly linked to Chinese intelligence (l3) | OK | Al Jazeera: "a woman accused of working for Chinese intelligence"; TNW: officials worried she could learn Nvidia's plans. Attribution ("menurut laporan itu", "diduga") is correct | Al Jazeera; TNW |
+| 4 | Chinese Embassy in Washington denied the spying allegations (l4) | OK (now 2 sources) | Al Jazeera: "The Chinese Embassy in Washington, DC, has denied any allegations of spying". Second source: Kyunghyang, where embassy spokesperson Liu Chang calls the claims "baseless smears and slander". The foreign ministry (Guo Jiakun) also called the report "groundless" (The Star, 30 Oct) | Al Jazeera; https://www.khan.co.kr/en/article/202610300934007 ; https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/30/china-dismisses-us-report-of-suspected-spy-targeting-nvidia-ceo-jensen-huang-as-groundless |
+| 5 | Megaspeed, where Alice works, bought about US$4.8 bn of Nvidia equipment (l5, captions, visual) | **FIX** | Al Jazeera simplifies this to "Megaspeed... purchasing some $4.8bn in equipment". Fuller reporting from the NYT, via Kyunghyang and The Decoder: **Megaspeed's Malaysian affiliate** bought **at least** $4.8 bn of **AI equipment that included Nvidia chips**, June 2024 to Feb 2026. Alice Huang is a **former** Megaspeed executive (TNW: "former Megaspeed executive"; CNBC Indonesia: her last post was Managing Director and her name was later removed) | Khan (above); https://letsdatascience.com/news/nyt-reports-us-intelligence-tied-chinese-asset-to-nvidias-hu-6cd13a47 ; TNW; https://www.cnbcindonesia.com/tech/20261109073026-37-783364/siapa-alice-huang-teman-dekat-jensen-huang-diduga-mata-mata-china |
+| 6 | Sunday 8 Nov, by email to staff, Huang admitted an extramarital relationship (l6) | OK | Al Jazeera (dated Sun 8 Nov): "In an email to Nvidia staff on Sunday". CNBC Indonesia confirms the internal message but gives no date | Al Jazeera; https://www.cnbcindonesia.com/tech/20261109111306-37-783480/kejayaan-nvidia-runtuh-seketika-setelah-ceo-mengaku-selingkuh |
+| 7 | The same day, the board set up an independent-director committee (l7) | OK | Al Jazeera: "committee of independent directors" with outside counsel; CNBC Indonesia: "komite direktur independen yang dibantu oleh penasihat hukum eksternal" | Al Jazeera; CNBC Indonesia 9 Nov |
+| 8 | Board: no reason to believe secrets or US security were compromised; Huang stays CEO (l8) | OK | Al Jazeera: "no reason to believe that either national security or Nvidia secrets were compromised", "confidence in Jensen". CNBC Indonesia has the same wording | Al Jazeera; CNBC Indonesia 9 Nov |
+| 9 | No one has been charged; officials don't believe Huang knew (pinned comment, captions) | OK | TNW: "Neither has been charged"; the NYT reported that officials did not believe Jensen Huang knew | TNW |
+| 10 | Thursday 5 Nov, Nvidia lost about US$450 bn in market value in one day (h2, l10, captions, YT title) | OK (date now confirmed) | Al Jazeera: "$450bn in market value in a single trading day last week" (no day given). InvestingCube, 6 Nov: **Thursday, November 5, 2026**, NVDA closed at $181.60, down 9.26%, "more than $440 billion" wiped off. CNBC Indonesia, 6 Nov: Thursday, down more than 9%, more than US$440 bn. "Sekitar 450" is within rounding of ">440". 5 Nov 2026 is a Thursday | Al Jazeera; https://www.investingcube.com/shares/nvidia-stock-price-440-billion-wiped-out-in-one-day-can-nvda-hold-180/ ; https://www.cnbcindonesia.com/tech/20261106165209-37-783069/bubble-ai-pecah-sampai-amerika-rp18000-triliun-menguap-semalam |
+| 11 | According to CNBC Indonesia, investors were worried about an AI bubble (l11) | OK (note) | CNBC Indonesia: "Kekhawatiran pecahnya gelembung atau bubble AI" and a slowdown in AI infrastructure building. This is given for the market as a whole, not Nvidia alone. InvestingCube ties the drop to the midterm results and possible scrutiny of data-centre construction. The line is attributed, so it is acceptable | CNBC Indonesia 6 Nov; InvestingCube |
+| 12 | The admission came three days later (l11) | OK | 5 Nov to 8 Nov is 3 days | as above |
+| 13 | Three Republican House politicians asked Huang to explain on 18 Nov; only a request (l12, l13) | OK | TNW/Semafor: Moolenaar, Mast and Crawford asked for a **closed-door briefing** (not testimony) on 18 Nov, with a reply due 11 Nov; unclear whether he will attend. LetsDataScience, Analytics Insight and ZeroHedge also say closed-door briefing. Al Jazeera's "appear and testify" is the outlier. The neutral "memberi penjelasan" is correct; do not use "bersaksi" | TNW; https://letsdatascience.com/news/house-chairs-ask-nvidia-ceo-jensen-huang-for-closed-door-bri-d3ca0fdc |
+| 14 | detikInet listed as a source for the Nvidia drop (claims.json, draft sources) | **FIX** | The detik article never mentions Nvidia. It covers the broad Wall Street sell-off (~US$2.5 tn) and blames the midterm/data-centre-moratorium worry | https://inet.detik.com/business/d-8741598/saham-raksasa-teknologi-ramai-dilepas-rp-45-ribu-triliun-lenyap |
+| 15 | "Bukan ajakan jual/beli saham" | OK | Present in all captions, the pinned comment and on screen from l10 | - |
+| 16 | Photo credit | OK (not re-opened) | Anderseidesvik, CC BY-SA 4.0, credited on the end card and in the pinned comment | Commons |
+
+Neutrality (HIGH): OK. Every intelligence claim is attributed or marked "diduga", the denial is included, "belum ada dakwaan" is stated, Huang stays CEO, and no verdict is implied.
+
+## FIX 1: Megaspeed US$4.8 bn (l5 + captions + visual)
+- **l5 text:** `Laporan yang sama: afiliasi Megaspeed, perusahaan tempat Alice pernah bekerja, membeli perangkat AI berisi chip Nvidia, minimal 4,8 miliar dolar.`
+- **l5 say:** `Laporan yang sama: afiliasi Mega-spid, perusahaan tempat Alis pernah bekerja, membeli perangkat e ai berisi chip En-vidia, minimal empat koma delapan miliar dolar.`
+- **Captions (IG/YT/TikTok), replace** `tempatnya bekerja, Megaspeed, disebut membeli peralatan Nvidia sekitar US$4,8 miliar.` **with** `afiliasi Megaspeed (perusahaan tempatnya pernah bekerja) disebut membeli perangkat AI berisi chip Nvidia minimal US$4,8 miliar.`
+- **Visual l5:** card "Megaspeed · Singapura" → "afiliasi (Malaysia)" → crates labelled **≥US$4,8 M perangkat AI berisi chip Nvidia**; source tag "NYT via Al Jazeera, Kyunghyang".
+
+## FIX 2: detik source
+Remove the detikInet URL from claims.json (US$450 bn claim and AI-bubble claim) and from the draft source list. It does not mention Nvidia. Use InvestingCube 6 Nov as the second source for the 5 Nov date and figure.
+
+## Re-check before render
+Whether Huang accepted or declined the 18 Nov briefing (reply due 11 Nov). CNBC Indonesia reports a further ~3.4% after-hours drop on Mon 9 Nov. It is not in the script, so it needs no change.
+
+FIXES APPLIED

@@ -1,0 +1,445 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Bos Nvidia diselidiki — Rangkumin Dong</title>
+<link rel="stylesheet" href="../../../../styles/sticker/sticker.css">
+<script src="../../../../styles/sticker/sticker.js"></script>
+<script>window.SUB_MODE = "word"; window.SUB_LEAD = -0.04;</script>
+<script src="build/timing.js"></script>
+<style>
+  .zone { position: absolute; width: 1080px; height: 1920px; }
+  .big { font-weight: 900; letter-spacing: -6px; line-height: .9; white-space: nowrap; font-variant-numeric: tabular-nums; }
+  .lbl { font-weight: 800; font-size: 36px; color: var(--slate); white-space: nowrap; text-align: center; }
+  .note { font-weight: 700; font-size: 26px; color: var(--slate); white-space: nowrap; text-align: center; }
+  .bub { background: #fff; border-radius: 30px; padding: 20px 30px 24px; text-align: center;
+         font-weight: 900; font-size: 46px; line-height: 1.08; letter-spacing: -1px; box-shadow: 0 0 0 9px #fff, 0 18px 26px rgba(27,36,48,.2); }
+  .bub small { display: block; font-weight: 700; font-size: 26px; color: var(--slate); letter-spacing: 0; margin-top: 8px; }
+  .chip { background: #fff; border-radius: 24px; padding: 14px 26px 18px; font-weight: 900; font-size: 46px; letter-spacing: -1px; white-space: nowrap; text-align: center;
+          box-shadow: 0 0 0 8px #fff, 0 14px 24px rgba(27,36,48,.18); }
+  .chip small { display: block; font-weight: 700; font-size: 26px; color: var(--slate); letter-spacing: 0; margin-top: 2px; }
+  .stampx { font-weight: 900; letter-spacing: -2px; color: var(--accent); border: 10px solid var(--accent); border-radius: 22px; padding: 6px 28px 12px;
+            white-space: nowrap; background: rgba(255,255,255,.94); text-align: center; line-height: 1; }
+  .stampx.grey { color: var(--slate); border-color: var(--slate); border-style: dashed; }
+  .stampx small { display: block; font-size: 26px; font-weight: 700; letter-spacing: 0; color: var(--slate); margin-top: 6px; }
+  .tick { background: var(--ink); color: #fff; border-radius: 22px; padding: 10px 26px 14px; font-weight: 900; font-size: 64px; letter-spacing: 1px; white-space: nowrap;
+          box-shadow: 0 0 0 8px #fff, 0 14px 24px rgba(27,36,48,.2); }
+  .name { background: #fff; border-radius: 16px; padding: 12px 22px; font-weight: 900; font-size: 38px; line-height: 1.1;
+          box-shadow: 0 0 0 7px #fff, 0 14px 24px rgba(27,36,48,.2); white-space: nowrap; text-align: center; }
+  .name small { display: block; font-weight: 700; font-size: 26px; color: var(--slate); }
+  .ilu { background: #fff; color: var(--slate); font-weight: 900; font-size: 26px; letter-spacing: 2px; padding: 6px 14px 8px; border-radius: 10px;
+         border: 4px solid var(--slate); white-space: nowrap; }
+  .lbar { background: var(--ink); color: var(--hi); font-weight: 900; font-size: 40px; letter-spacing: 4px; padding: 8px 22px 12px; border-radius: 8px; white-space: nowrap; }
+  .person { position: absolute; transform-origin: 50% 100%; }
+  .person img { width: 100%; display: block; }
+  .ledge { position: absolute; left: -400px; width: 1880px; height: 900px; background: var(--paper-2);
+           box-shadow: 0 -14px 30px rgba(27,36,48,.10); border-top: 6px solid #fff; }
+  .sil { width: 230px; height: 230px; border-radius: 50%; background: var(--slate); display: flex; align-items: center; justify-content: center; box-shadow: 0 0 0 10px #fff, 0 16px 26px rgba(27,36,48,.2); }
+  .tl { position: absolute; height: 18px; border-radius: 9px; background: var(--ink); }
+  .tdot { position: absolute; width: 54px; height: 54px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 0 9px #fff; }
+  #disc { position: absolute; right: 160px; top: 236px; z-index: 5; background: rgba(255,255,255,.94); color: var(--slate); font-weight: 800; font-size: 24px;
+          padding: 6px 14px 8px; border-radius: 10px; white-space: nowrap; }
+  #credit { position: absolute; left: 60px; top: 1448px; z-index: 6; font-weight: 700; font-size: 22px; color: var(--slate); background: rgba(243,239,230,.9);
+            padding: 2px 10px 4px; border-radius: 8px; white-space: nowrap; }
+  #endcard { position: absolute; inset: 0; z-index: 8; display: flex; flex-direction: column; align-items: center; justify-content: center;
+             gap: 24px; background: var(--paper); opacity: 0; }
+  #endcard .logo { background: var(--accent); color: #fff; font-weight: 900; font-size: 116px; letter-spacing: -4px;
+                   padding: 30px 58px 40px; border-radius: 44px; line-height: .95; text-align: center; transform: rotate(-3deg); }
+  #endcard .tl2 { font-weight: 800; font-size: 54px; color: var(--slate); }
+  #endcard .h { font-weight: 900; font-size: 50px; background: var(--ink); color: #fff; padding: 12px 26px; border-radius: 16px; }
+  #endcard .src { font-weight: 700; font-size: 26px; color: var(--slate); margin-top: 10px; text-align: center; line-height: 1.4; max-width: 900px; }
+</style>
+</head>
+<body>
+<div id="stage">
+  <div id="world">
+
+    <!-- zA (0,0): hook kamu_stakes — cover "BOS CHIP AI / DISELIDIKI" + Huang on the ledge -->
+    <div id="zA" class="zone" style="left:0; top:0;">
+      <div id="aP" class="person" style="left:540px; top:0; width:600px;"><img src="../../assets/people/jensen-huang.png" alt=""></div>
+      <div class="ledge" style="top:1380px;"></div>
+      <div id="aHd" class="abs headline" style="left:540px; top:540px; width:1000px;">
+        <div id="aHd1" style="font-size:124px; white-space:nowrap; letter-spacing:-4px; line-height:.95;">BOS CHIP AI</div>
+        <div id="aHd2" style="font-size:124px; color:var(--accent); white-space:nowrap; letter-spacing:-4px; line-height:.95; margin-top:6px;">DISELIDIKI</div></div>
+      <div id="aCt" class="abs" style="left:540px; top:530px; text-align:center; opacity:0;">
+        <div class="big" style="font-size:170px; color:var(--accent); letter-spacing:-4px;">US$<span id="aN">0</span> M</div>
+        <div id="aTx" class="lbl" style="color:var(--ink); font-size:40px; margin-top:6px;">angka yang viral</div></div>
+      <div id="aQ" class="abs stampx" style="left:150px; top:760px; font-size:120px; padding:0 26px 8px;">?</div>
+      <div id="aMg" class="abs sticker-svg" style="left:770px; top:800px;"></div>
+      <div id="aNm" class="abs name" style="left:250px; top:1000px;">Jensen Huang<small>CEO Nvidia</small></div>
+      <div id="aPh" class="abs sticker-svg" style="left:800px; top:1180px;"></div>
+      <div id="aIl" class="abs ilu" style="left:800px; top:1360px;">ILUSTRASI</div>
+      <div id="aLn" class="abs tag accent sticker" style="left:280px; top:1250px; font-size:52px;">ceritanya lain…</div>
+    </div>
+
+    <!-- tagline (1240,0) -->
+    <div class="zone" style="left:1240px; top:0;">
+      <div id="stamp" class="abs stamp sticker" style="left:540px; top:960px; font-size:110px;">Rangkumin dong!</div>
+    </div>
+
+    <!-- Z1 (2480,0): Nvidia = chip behind the AI boom -->
+    <div class="zone" style="left:2480px; top:0;">
+      <div id="nTk" class="abs tick" style="left:540px; top:480px; font-size:100px;">Nvidia</div>
+      <div id="nCh" class="abs sticker-svg" style="left:540px; top:780px;"></div>
+      <div id="nS1" class="abs sticker-svg" style="left:220px; top:1200px;"></div>
+      <div id="nS2" class="abs sticker-svg" style="left:540px; top:1240px;"></div>
+      <div id="nS3" class="abs sticker-svg" style="left:860px; top:1200px;"></div>
+      <svg id="nAr" class="abs" style="left:540px; top:1030px;" width="760" height="140" viewBox="0 0 760 140">
+        <path class="ar" d="M380 10 L80 120" /><path class="ar" d="M380 10 L380 130" /><path class="ar" d="M380 10 L680 120" /></svg>
+      <div id="nLb" class="abs tag sticker" style="left:540px; top:1400px; font-size:40px;">mesin di balik ledakan AI</div>
+    </div>
+
+    <!-- Z2 (0,2400): 29 Okt · NYT report — Alice Huang (silhouette only) -->
+    <div class="zone" style="left:0; top:2400px;">
+      <div id="rHd" class="abs chip" style="left:540px; top:470px; font-size:54px;">29 OKT · New York Times</div>
+      <div id="rBar" class="abs lbar" style="left:540px; top:610px;">DILAPORKAN</div>
+      <div id="rNp" class="abs sticker-svg" style="left:540px; top:840px;"></div>
+      <div id="rSil" class="abs sil" style="left:250px; top:860px;"></div>
+      <div id="rAn" class="abs name" style="left:250px; top:1060px;">Alice Huang<small id="rAnS">nama dari laporan</small></div>
+      <svg id="rAr" class="abs" style="left:540px; top:860px;" width="300" height="80" viewBox="0 0 300 80">
+        <path id="rArP" d="M10 40 L250 40" fill="none" stroke="#FF5A36" stroke-width="10" stroke-linecap="round" stroke-dasharray="18 16"/>
+        <path id="rArH" d="M240 16 L280 40 L240 64" fill="none" stroke="#FF5A36" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <div id="rJh" class="abs name" style="left:830px; top:860px;">Jensen Huang<small>CEO Nvidia</small></div>
+      <div id="rDd" class="abs stampx grey" style="left:540px; top:800px; font-size:44px; border-width:6px;">diduga mendekati</div>
+      <div id="rTj" class="abs chip" style="left:830px; top:1100px; font-size:40px;">teknologi Nvidia<small>tujuan, menurut laporan</small></div>
+      <div id="rInt" class="abs bub" style="left:540px; top:1300px; font-size:44px;">diduga terkait intelijen China<small>dugaan dalam laporan NYT · belum ada dakwaan</small></div>
+    </div>
+
+    <!-- Z3 (1240,2400): Kedutaan China membantah -->
+    <div class="zone" style="left:1240px; top:2400px;">
+      <div id="eBg" class="abs sticker-svg" style="left:540px; top:760px;"></div>
+      <div id="eNm" class="abs tag sticker" style="left:540px; top:1020px; font-size:40px;">Kedutaan China di AS</div>
+      <div id="eSt" class="abs stampx" style="left:540px; top:1220px; font-size:110px;">DIBANTAH</div>
+      <div id="eNt" class="abs note" style="left:540px; top:1390px;">tuduhan mata-mata dibantah · via Al Jazeera, The Star</div>
+    </div>
+
+    <!-- Z4 (2480,2400): Megaspeed → affiliate → ≥US$4,8 M -->
+    <div class="zone" style="left:2480px; top:2400px;">
+      <div id="mBar" class="abs lbar" style="left:540px; top:440px;">DILAPORKAN · laporan yang sama</div>
+      <div id="mC1" class="abs chip" style="left:270px; top:620px; font-size:50px;">Megaspeed<small>Singapura</small></div>
+      <svg id="mAr1" class="abs" style="left:540px; top:620px;" width="140" height="60" viewBox="0 0 140 60"><path class="ar" d="M10 30 L110 30 M90 12 L120 30 L90 48"/></svg>
+      <div id="mC2" class="abs chip" style="left:800px; top:620px; font-size:50px;">afiliasi<small>Malaysia</small></div>
+      <div id="mAl" class="abs name" style="left:270px; top:800px; font-size:32px;">Alice Huang<small>mantan karyawan Megaspeed</small></div>
+      <div id="mCr" class="abs sticker-svg" style="left:540px; top:1050px;"></div>
+      <div id="mN" class="abs big" style="left:540px; top:1270px; font-size:120px; color:var(--accent); letter-spacing:-3px;">≥US$<span id="mNv">0</span> M</div>
+      <div id="mLb" class="abs lbl" style="left:540px; top:1370px; color:var(--ink);">perangkat AI berisi chip Nvidia</div>
+      <div id="mSrc" class="abs note" style="left:540px; top:1430px;">NYT via Al Jazeera · Kyunghyang</div>
+    </div>
+
+    <!-- Z5 (0,4800): Minggu 8 Nov — email ke karyawan -->
+    <div class="zone" style="left:0; top:4800px;">
+      <div id="dDt" class="abs tick" style="left:540px; top:500px; font-size:96px;">MINGGU 8 NOV</div>
+      <div id="dEn" class="abs sticker-svg" style="left:540px; top:860px;"></div>
+      <div id="dKr" class="abs tag light sticker" style="left:540px; top:1090px; font-size:40px;">email ke karyawan</div>
+      <div id="dAk" class="abs bub" style="left:540px; top:1280px; font-size:46px;">Huang mengakui hubungan di luar nikah<small>pengakuan Huang sendiri, lewat email</small></div>
+    </div>
+
+    <!-- Z6 (1240,4800): dewan → komite independen + kutipan -->
+    <div class="zone" style="left:1240px; top:4800px;">
+      <div id="bTb" class="abs sticker-svg" style="left:540px; top:600px;"></div>
+      <div id="bKm" class="abs chip" style="left:540px; top:850px; font-size:50px;">Komite direktur independen<small>dibentuk dewan Nvidia untuk menyelidiki</small></div>
+      <div id="bQt" class="abs bub" style="left:540px; top:1180px; font-size:44px; white-space:nowrap;">“Belum ada alasan untuk percaya<br>rahasia Nvidia atau keamanan AS bocor”<small>kata dewan Nvidia</small></div>
+    </div>
+
+    <!-- Z7 (2480,4800): Huang tetap CEO -->
+    <div class="zone" style="left:2480px; top:4800px;">
+      <div id="cP" class="person" style="left:540px; top:0; width:600px;"><img src="../../assets/people/jensen-huang.png" alt=""></div>
+      <div class="ledge" style="top:1380px;"></div>
+      <div id="cNm" class="abs name" style="left:260px; top:900px;">Jensen Huang<small>CEO Nvidia</small></div>
+      <div id="cSt" class="abs stampx" style="left:540px; top:520px; font-size:110px;">TETAP CEO</div>
+    </div>
+
+    <!-- Z8 (0,7200): the turn — 5 Nov drop came before the 8 Nov admission -->
+    <div class="zone" style="left:0; top:7200px;">
+      <div id="tTapi" class="abs headline" style="left:540px; top:470px; font-size:96px; color:var(--accent); white-space:nowrap;">Sering ketuker!</div>
+      <div id="tDrop" class="abs" style="left:300px; top:810px; text-align:center;">
+        <div class="big" style="font-size:96px; color:var(--accent); letter-spacing:-3px;">−US$<span id="tN">0</span> M</div>
+        <div class="lbl" style="color:var(--ink); font-size:32px;">nilai pasar Nvidia</div></div>
+      <div id="tSeh" class="abs tag accent sticker" style="left:300px; top:960px; font-size:40px;">dalam <span id="tSw">…</span></div>
+      <svg id="tDn" class="abs" style="left:300px; top:660px;" width="90" height="110" viewBox="0 0 90 110"><path d="M45 6 V86 M14 60 L45 96 L76 60" stroke="#FF5A36" stroke-width="16" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <div id="tEn" class="abs sticker-svg" style="left:820px; top:850px;"></div>
+      <div id="tEl" class="abs tag sticker" style="left:820px; top:730px; font-size:36px;">pengakuan Huang</div>
+      <div id="tLine" class="abs" style="left:540px; top:1120px; width:760px; height:60px;">
+        <div class="tl" id="tTl" style="left:0; top:21px; width:760px; transform-origin:0 50%;"></div>
+        <div class="tdot" id="tD1" style="left:113px; top:3px;"></div>
+        <div class="tdot" id="tD2" style="left:633px; top:3px; background:var(--ink);"></div></div>
+      <div id="tL1" class="abs chip" style="left:300px; top:1210px; font-size:40px;">KAMIS 5 NOV</div>
+      <div id="tL2" class="abs chip" style="left:820px; top:1210px; font-size:40px;">MINGGU 8 NOV</div>
+      <svg id="tGap" class="abs" style="left:560px; top:1085px;" width="440" height="60" viewBox="0 0 440 60"><path id="tGapP" d="M14 30 H414" stroke="#1B2430" stroke-width="8" fill="none" stroke-linecap="round" stroke-dasharray="400" stroke-dashoffset="400"/><path id="tGapH" d="M396 10 L424 30 L396 50" stroke="#1B2430" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0"/></svg>
+      <div id="tGl" class="abs tag light sticker" style="left:600px; top:1015px; font-size:34px;">3 hari kemudian</div>
+      <div id="tCm" class="abs note" style="left:300px; top:1300px; font-size:28px; color:var(--ink); font-weight:800;">investor cemas gelembung AI</div>
+      <div id="tSrc" class="abs note" style="left:540px; top:1400px; font-size:24px;">Al Jazeera ≈US$450 M · CNBC Indonesia: &gt;US$440 M (5 Nov)</div>
+    </div>
+
+    <!-- Z9 (1240,7200): 18 Nov request -->
+    <div class="zone" style="left:1240px; top:7200px;">
+      <div id="pBg" class="abs sticker-svg" style="left:540px; top:640px;"></div>
+      <div id="pNm" class="abs tag sticker" style="left:540px; top:860px; font-size:38px;">3 politisi Republik · DPR AS</div>
+      <div id="pCal" class="abs chip" style="left:540px; top:1040px; font-size:72px;">18 NOV<small>diminta memberi penjelasan</small></div>
+      <div id="pSt" class="abs stampx" style="left:540px; top:1240px; font-size:84px;">BARU PERMINTAAN</div>
+      <div id="pBj" class="abs tag light sticker" style="left:540px; top:1390px; font-size:38px;">Huang datang? belum jelas</div>
+    </div>
+
+    <!-- CTA (2480,7200) -->
+    <div class="zone" style="left:2480px; top:7200px;">
+      <div id="qHd" class="abs headline" style="left:540px; top:580px; font-size:76px; line-height:1.06; white-space:nowrap;">Urusan pribadi bos,<br><span class="acc">ngaruh ke perusahaan?</span></div>
+      <div id="qQ" class="abs big" style="left:540px; top:870px; font-size:180px; color:var(--accent); letter-spacing:0;">?</div>
+      <div id="qCom" class="abs sticker-svg" style="left:330px; top:1150px;"></div>
+      <div id="qK" class="abs bub" style="left:700px; top:1130px; font-size:64px;">Komen!</div>
+    </div>
+  </div>
+
+  <div id="brand"><div class="dot"></div><b>Rangkumin Dong</b></div>
+  <div id="disc">Bukan ajakan jual/beli saham</div>
+  <div id="credit">Foto: Anderseidesvik, CC BY-SA 4.0, via Wikimedia Commons</div>
+  <div id="subs"></div>
+  <div id="endcard">
+    <div class="logo">RANGKUMIN<br>DONG</div>
+    <div class="tl2">Berita ribet? Rangkumin dong.</div>
+    <div class="h">Follow @rangkumindong</div>
+    <div class="src">Sumber: Al Jazeera (8 Nov) · CNBC Indonesia (6 & 9 Nov) ·<br>The Next Web · InvestingCube · lengkap di komentar</div>
+    <div class="src" style="font-size:24px; margin-top:0;">Soal Alice Huang/intelijen = laporan media, dibantah Kedutaan China, belum ada dakwaan · 18 Nov = permintaan</div>
+    <div class="src" style="font-size:24px; margin-top:0;">Foto: Anderseidesvik, CC BY-SA 4.0, via Wikimedia Commons</div>
+    <div class="src" style="font-size:24px; margin-top:0; color:var(--ink);">Bukan ajakan jual/beli saham</div>
+  </div>
+  <div id="progress"></div>
+</div>
+
+<style>
+  .ar { fill: none; stroke: #1B2430; stroke-width: 9; stroke-linecap: round; stroke-linejoin: round; stroke-dasharray: 8 14; }
+</style>
+<script>
+const $ = (id) => document.getElementById(id);
+const T = window.TIMING;
+window.DURATION = T.duration;
+const at = K.at, W = K.word;
+const END = K.line('cta').end + 0.1;
+
+// ---------- SVG builders (generic icons, no logos) ----------
+const personSil = (s = 150) => `<svg width="${s}" height="${s}" viewBox="0 0 106 106"><circle cx="53" cy="40" r="19" fill="#fff"/><path d="M14 106 Q14 66 53 66 Q92 66 92 106 Z" fill="#fff"/></svg>`;
+const magSVG = () => `<svg width="230" height="230" viewBox="0 0 220 220"><circle cx="88" cy="88" r="62" fill="rgba(255,255,255,.35)" stroke="#1B2430" stroke-width="14"/>
+  <path d="M134 134 L198 198" stroke="#1B2430" stroke-width="24" stroke-linecap="round"/><path d="M134 134 L198 198" stroke="#FF5A36" stroke-width="12" stroke-linecap="round"/></svg>`;
+// phone with a generic red stock list (no tickers, no prices) — labelled ILUSTRASI
+const phoneSVG = (w = 200) => `<svg width="${w}" height="${w * 1.66}" viewBox="0 0 230 382">
+  <rect x="8" y="8" width="214" height="366" rx="36" fill="#1B2430"/>
+  <rect x="22" y="26" width="186" height="330" rx="24" fill="#fff"/><rect x="88" y="36" width="54" height="12" rx="6" fill="#1B2430"/>
+  ${Array.from({ length: 6 }, (_, j) => `<g transform="translate(0 ${70 + j * 46})"><rect x="34" y="0" width="70" height="14" rx="7" fill="#C9D0D7"/><rect x="34" y="20" width="44" height="10" rx="5" fill="#E1E5E9"/>
+    <path d="M128 4 L148 26 L168 12" stroke="#E0442A" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/><rect x="172" y="6" width="24" height="18" rx="5" fill="#F7D5CE"/></g>`).join('')}</svg>`;
+const chipSVG = () => `<svg width="360" height="360" viewBox="0 0 300 300"><circle cx="150" cy="150" r="140" fill="#FFD23F" opacity=".45"/>
+  ${[0, 1, 2, 3, 4].map((i) => { const p = 82 + i * 34; return `<rect x="${p - 6}" y="28" width="12" height="40" rx="4" fill="#3E5568"/><rect x="${p - 6}" y="232" width="12" height="40" rx="4" fill="#3E5568"/><rect x="28" y="${p - 6}" width="40" height="12" rx="4" fill="#3E5568"/><rect x="232" y="${p - 6}" width="40" height="12" rx="4" fill="#3E5568"/>`; }).join('')}
+  <rect x="62" y="62" width="176" height="176" rx="22" fill="#1B2430" stroke="#fff" stroke-width="8"/>
+  <rect x="92" y="92" width="116" height="116" rx="12" fill="none" stroke="#3E5568" stroke-width="5"/>
+  <text x="150" y="172" text-anchor="middle" font-family="Inter" font-weight="900" font-size="64" fill="#FFD23F">AI</text></svg>`;
+const serverSVG = () => `<svg width="170" height="190" viewBox="0 0 170 190">${[0, 1, 2].map((i) => `<rect x="10" y="${10 + i * 58}" width="150" height="48" rx="10" fill="#3E5568" stroke="#fff" stroke-width="5"/>
+  <circle cx="34" cy="${34 + i * 58}" r="7" fill="#7CE08A"/><rect x="56" y="${28 + i * 58}" width="80" height="10" rx="5" fill="#9FB0BF"/>`).join('')}</svg>`;
+const paperSVG = () => `<svg width="240" height="260" viewBox="0 0 240 260"><rect x="14" y="10" width="212" height="240" rx="12" fill="#fff" stroke="#1B2430" stroke-width="7"/>
+  <rect x="34" y="34" width="172" height="24" rx="4" fill="#1B2430"/>
+  <rect x="34" y="76" width="80" height="70" rx="6" fill="#C9D0D7"/>${[0, 1, 2, 3].map((i) => `<rect x="126" y="${78 + i * 18}" width="80" height="8" rx="4" fill="#9FB0BF"/>`).join('')}
+  ${[0, 1, 2, 3, 4].map((i) => `<rect x="34" y="${164 + i * 16}" width="${i === 4 ? 110 : 172}" height="8" rx="4" fill="#9FB0BF"/>`).join('')}</svg>`;
+const embassySVG = () => `<svg width="380" height="300" viewBox="0 0 300 236"><rect x="200" y="0" width="6" height="70" fill="#1B2430"/>
+  <path d="M30 92 L150 40 L270 92 Z" fill="#3E5568"/><rect x="34" y="92" width="232" height="14" fill="#2C3E4E"/>
+  ${[0, 1, 2, 3, 4].map((i) => `<rect x="${56 + i * 44}" y="112" width="20" height="82" rx="3" fill="#fff" stroke="#3E5568" stroke-width="4"/>`).join('')}
+  <rect x="20" y="196" width="260" height="22" rx="6" fill="#1B2430"/></svg>`;
+const crateSVG = () => `<svg width="420" height="230" viewBox="0 0 420 230">${[[20, 100], [150, 100], [280, 100], [85, 10], [215, 10]].map(([x, y]) => `<g transform="translate(${x} ${y})">
+  <rect width="120" height="110" rx="10" fill="#C98F55" stroke="#1B2430" stroke-width="6"/><path d="M0 36 H120 M0 74 H120" stroke="#8E5F33" stroke-width="5"/>
+  <rect x="38" y="40" width="44" height="30" rx="5" fill="#1B2430"/><text x="60" y="62" text-anchor="middle" font-family="Inter" font-weight="900" font-size="18" fill="#FFD23F">AI</text></g>`).join('')}</svg>`;
+const envSVG = (s = 300) => `<svg width="${s}" height="${s * 0.7}" viewBox="0 0 300 210"><rect x="10" y="10" width="280" height="190" rx="18" fill="#fff" stroke="#1B2430" stroke-width="9"/>
+  <path d="M18 24 L150 120 L282 24" fill="none" stroke="#1B2430" stroke-width="9" stroke-linejoin="round"/><circle cx="262" cy="34" r="26" fill="#FF5A36"/>
+  <text x="262" y="44" text-anchor="middle" font-family="Inter" font-weight="900" font-size="30" fill="#fff">@</text></svg>`;
+const tableSVG = () => `<svg width="420" height="250" viewBox="0 0 420 250">
+  ${[60, 140, 220, 300, 380].map((x) => `<g transform="translate(${x} 40)"><circle r="24" fill="#3E5568"/><path d="M-34 60 Q-34 26 0 26 Q34 26 34 60 Z" fill="#3E5568"/></g>`).join('')}
+  ${[100, 180, 260, 340].map((x) => `<g transform="translate(${x} 210)"><circle r="22" fill="#5D7488"/></g>`).join('')}
+  <ellipse cx="210" cy="140" rx="200" ry="56" fill="#8E5F33" stroke="#1B2430" stroke-width="7"/><ellipse cx="210" cy="134" rx="180" ry="42" fill="#B07A45"/></svg>`;
+const domeSVG = () => `<svg width="380" height="290" viewBox="0 0 300 230"><rect x="146" y="0" width="8" height="26" fill="#1B2430"/>
+  <path d="M100 96 Q100 30 150 26 Q200 30 200 96 Z" fill="#fff" stroke="#3E5568" stroke-width="7"/><rect x="92" y="94" width="116" height="16" fill="#3E5568"/>
+  <rect x="24" y="110" width="252" height="16" fill="#2C3E4E"/>${[0, 1, 2, 3, 4, 5].map((i) => `<rect x="${40 + i * 40}" y="130" width="18" height="66" rx="3" fill="#fff" stroke="#3E5568" stroke-width="4"/>`).join('')}
+  <rect x="12" y="198" width="276" height="22" rx="6" fill="#1B2430"/></svg>`;
+const commentSVG = () => `<svg width="240" height="210" viewBox="0 0 260 230"><path d="M20 30 Q20 10 40 10 H220 Q240 10 240 30 V150 Q240 170 220 170 H110 L60 214 L70 170 H40 Q20 170 20 150 Z" fill="#fff" stroke="#1B2430" stroke-width="8" stroke-linejoin="round"/>
+  <circle cx="80" cy="90" r="14" fill="#1B2430"/><circle cx="130" cy="90" r="14" fill="#1B2430"/><circle cx="180" cy="90" r="14" fill="#1B2430"/></svg>`;
+
+$('aMg').innerHTML = magSVG(); $('aPh').innerHTML = phoneSVG(200);
+$('nCh').innerHTML = chipSVG(); ['nS1', 'nS2', 'nS3'].forEach((id) => { $(id).innerHTML = serverSVG(); });
+$('rNp').innerHTML = paperSVG(); $('rSil').innerHTML = personSil(150);
+$('eBg').innerHTML = embassySVG(); $('mCr').innerHTML = crateSVG();
+$('dEn').innerHTML = envSVG(300); $('tEn').innerHTML = envSVG(180);
+$('bTb').innerHTML = tableSVG(); $('pBg').innerHTML = domeSVG(); $('qCom').innerHTML = commentSVG();
+
+const pulse = (el, t, tIn, amt = 0.12, rot = 0) => { const k = K.clamp((t - tIn) / 0.45); el.style.transform = `translate(-50%,-50%) scale(${1 + amt * Math.sin(Math.PI * k)}) rotate(${rot}deg)`; };
+const slam = (el, t, tIn, rot = 0, from = 2, tOut = Infinity) => { const s = K.spring(t - tIn, 320, 18), o = K.clamp((t - tOut) / 0.25);
+  el.style.opacity = t >= tIn ? 1 - o : 0; el.style.transform = `translate(-50%,-50%) scale(${(from - (from - 1) * s) * (1 - 0.2 * o)}) rotate(${rot}deg)`; };
+const fade = (el, t, tIn, tOut = Infinity, d = 0.2) => { el.style.opacity = K.clamp((t - tIn) / d) * (1 - K.clamp((t - tOut) / d)); };
+// person cut-out rising on the ledge (bottom of image sits at world y 1400, hidden by the ledge at 1380)
+const rise = (el, t, tIn, bob = 0) => { const ps = K.spring(t - tIn, 140, 15), h = el.offsetWidth * 1652 / 1362;
+  el.style.transform = `translate(-50%, ${1400 - h + (1 - ps) * 700 + bob}px) scale(${0.92 + 0.08 * ps})`; };
+
+function seek(t) {
+  const Z = (x, y, z = 1.0) => ({ x, y: y + 200 / z, z });
+  const zc = (ox, oy, z = 1) => Z(ox + 540, oy + 960, z);
+  const hEnd = at('rd', -0.3);
+  K.camera($('world'), [
+    { t: 0, ...zc(0, 0) },
+    { t: W('h1', 'diselidiki') - 0.1, ...zc(0, 0, 1.04), dur: 0.5 },
+    { t: W('h2', 'ceritanya') - 0.1, ...zc(0, 0, 1.0), dur: 0.5 },
+    { t: hEnd, ...Z(1240 + 540, 960, 1.1) },
+    { t: at('l1', -0.3), ...zc(2480, 0) },
+    { t: at('l2', -0.3), ...zc(0, 2400) },
+    { t: at('l4', -0.3), ...zc(1240, 2400) },
+    { t: at('l5', -0.3), ...zc(2480, 2400) },
+    { t: at('l6', -0.3), ...zc(0, 4800) },
+    { t: at('l7', -0.3), ...zc(1240, 4800) },
+    { t: W('l8', 'huang') - 0.35, ...zc(2480, 4800) },
+    { t: at('l9', -0.3), ...zc(0, 7200) },
+    { t: W('l10', 'dalam') - 0.1, ...zc(0, 7200, 1.04), dur: 0.4 },
+    { t: at('l11', -0.2), ...zc(0, 7200, 1.0), dur: 0.5 },
+    { t: at('l12', -0.3), ...zc(1240, 7200) },
+    { t: at('cta', -0.3), ...zc(2480, 7200) },
+  ], t, 1080, 1920, 0.6);
+  $('zA').style.visibility = t > hEnd + 0.7 ? 'hidden' : 'visible';
+
+  // ---------- hook: cover from frame 0, a change every ≤1.5 s ----------
+  const h2 = at('h2'), w450 = W('h2', '450'), wDol = W('h2', 'dolar'), wVir = W('h2', 'viral'), wCer = W('h2', 'ceritanya');
+  rise($('aP'), t, -0.45, t > W('h1', 'bos') && t < hEnd ? 5 * Math.sin((t - W('h1', 'bos')) * 8) : 0);
+  { const th = 1 + 0.05 * Math.exp(-6 * t) * Math.sin(t * 14), o = K.clamp((t - (W('h2', 'angka') - 0.1)) / 0.2);
+    $('aHd').style.opacity = 1 - o;
+    $('aHd').style.transform = `translate(-50%,-50%) scale(${th * (1 - 0.15 * o)})`;
+    const pz = (el, w0, a = 0.08) => { el.style.transform = t > w0 - 0.05 ? `scale(${1 + a * Math.sin(Math.PI * K.clamp((t - w0 + 0.05) / 0.4))})` : 'none'; };
+    pz($('aHd1'), W('h1', 'bos')); pz($('aHd2'), W('h1', 'diselidiki'), 0.12); }
+  // phone (illustration) slides in on "saham"
+  { const p0 = W('h1', 'saham') - 0.05, s = K.spring(t - p0, 240, 18);
+    $('aPh').style.opacity = t >= p0 ? 1 : 0;
+    $('aPh').style.transform = `translate(calc(-50% + ${(1 - s) * 360}px),-50%) rotate(${6 + 1.2 * Math.sin(t * 2)}deg)`; }
+  K.pop($('aIl'), t, W('h1', 'teknologi') + 0.1, Infinity, -3);
+  // magnifier over Huang on "bos", sweeps on "diselidiki"
+  { const m0 = W('h1', 'bos') - 0.08, s = K.spring(t - m0, 220, 16), sw = K.easeInOut(K.prog(t, W('h1', 'diselidiki') - 0.05, 0.5));
+    $('aMg').style.opacity = t >= m0 ? 1 : 0;
+    $('aMg').style.left = (770 - 160 * Math.sin(Math.PI * sw)) + 'px';
+    $('aMg').style.transform = `translate(-50%,-50%) scale(${0.4 + 0.6 * s}) rotate(${-8 + 6 * Math.sin(t * 3)}deg)`; }
+  K.pop($('aNm'), t, W('h1', 'nvidia') - 0.08, Infinity, -3);
+  // counter US$0 → 450 M on "450"
+  { const o = K.clamp((t - (w450 - 0.12)) / 0.15); $('aCt').style.opacity = o;
+    const s = K.spring(t - w450 + 0.12, 300, 16); $('aCt').style.transform = `translate(-50%,-50%) scale(${t >= w450 - 0.12 ? 1.5 - 0.5 * s : 1.5})`;
+    const k = K.easeOut(K.prog(t, w450, Math.max(0.6, wDol - w450)));
+    $('aN').textContent = Math.round(450 * k);
+    $('aTx').style.opacity = t >= wVir - 0.05 ? 1 : 0; }
+  slam($('aQ'), t, wVir - 0.05, 8, 2.2);
+  K.pop($('aLn'), t, wCer - 0.08, Infinity, -4);
+  if (t > wCer - 0.08) $('aNm').style.opacity = 1 - K.clamp((t - wCer + 0.08) / 0.2);
+
+  // ---------- tagline ----------
+  K.pop($('stamp'), t, at('rd', -0.1), at('l1', -0.2), -6);
+
+  // ---------- Z1: Nvidia chip ----------
+  slam($('nTk'), t, W('l1', 'nvidia') - 0.08, -2, 1.7);
+  K.pop($('nCh'), t, W('l1', 'chip') - 0.08, Infinity, 3 * Math.sin(t * 1.6));
+  const sv = W('l1', 'mesin') - 0.1;
+  K.pop($('nS1'), t, sv, Infinity, -3); K.pop($('nS2'), t, sv + 0.12, Infinity, 2); K.pop($('nS3'), t, sv + 0.24, Infinity, 3);
+  fade($('nAr'), t, sv, Infinity, 0.3);
+  K.pop($('nLb'), t, W('l1', 'ledakan') - 0.08, Infinity, -2);
+
+  // ---------- Z2: NYT report ----------
+  K.pop($('rHd'), t, at('l2', -0.1), Infinity, -2);
+  slam($('rBar'), t, W('l2', 'melaporkan') - 0.05, -2, 1.5);
+  K.pop($('rNp'), t, W('l2', 'new') - 0.1, W('l2', 'seorang') - 0.1, 4);
+  K.pop($('rSil'), t, W('l2', 'perempuan') - 0.1, Infinity, 0);
+  K.pop($('rAn'), t, W('l2', 'alice') - 0.08, Infinity, -2);
+  slam($('rDd'), t, W('l2', 'diduga') - 0.05, -3, 1.6, at('l3', 0.1));
+  fade($('rAr'), t, W('l2', 'mendekati') - 0.05, Infinity, 0.15);
+  $('rArP').setAttribute('stroke-dashoffset', -60 * t);
+  K.pop($('rJh'), t, W('l2', 'jensen') - 0.08, Infinity, 3);
+  K.pop($('rTj'), t, W('l3', 'teknologi') - 0.08, Infinity, 2);
+  K.pop($('rInt'), t, W('l3', 'diduga') - 0.08, Infinity, -1);
+  if (t > W('l3', 'intelijen') - 0.05) pulse($('rInt'), t, W('l3', 'intelijen') - 0.05, 0.05, -1);
+
+  // ---------- Z3: denial ----------
+  K.pop($('eBg'), t, at('l4', -0.15), Infinity, 0);
+  K.pop($('eNm'), t, W('l4', 'kedutaan') + 0.05, Infinity, -1);
+  slam($('eSt'), t, W('l4', 'membantah') - 0.05, -6, 2.0);
+  K.pop($('eNt'), t, W('l4', 'mata') - 0.05, Infinity, 0);
+
+  // ---------- Z4: Megaspeed ----------
+  K.pop($('mBar'), t, at('l5', -0.1), Infinity, -1);
+  K.pop($('mC1'), t, W('l5', 'megaspeed') - 0.08, Infinity, -2);
+  fade($('mAr1'), t, W('l5', 'afiliasi') - 0.05, Infinity, 0.2);
+  K.pop($('mC2'), t, W('l5', 'afiliasi') - 0.05, Infinity, 2);
+  K.pop($('mAl'), t, W('l5', 'alice') - 0.08, Infinity, -2);
+  K.pop($('mCr'), t, W('l5', 'membeli') - 0.08, Infinity, 1.5 * Math.sin(t * 2));
+  K.pop($('mLb'), t, W('l5', 'perangkat') - 0.05, Infinity, 0);
+  { const n0 = W('l5', '4'), k = K.easeOut(K.prog(t, n0 - 0.05, 0.6));
+    slam($('mN'), t, n0 - 0.1, -2, 1.5); $('mNv').textContent = (4.8 * k).toFixed(1).replace('.', ','); }
+  K.pop($('mSrc'), t, W('l5', 'dolar') - 0.05, Infinity, 0);
+
+  // ---------- Z5: 8 Nov email ----------
+  slam($('dDt'), t, at('l6', -0.05), -2, 1.6);
+  K.pop($('dEn'), t, W('l6', 'email') - 0.1, Infinity, -3 + 2 * Math.sin(t * 2));
+  K.pop($('dKr'), t, W('l6', 'karyawan') - 0.08, Infinity, 2);
+  K.pop($('dAk'), t, W('l6', 'mengakui') - 0.1, Infinity, -1);
+
+  // ---------- Z6: board ----------
+  K.pop($('bTb'), t, W('l7', 'dewan') - 0.1, Infinity, 0);
+  K.pop($('bKm'), t, W('l7', 'komite') - 0.08, Infinity, -1);
+  if (t > W('l7', 'menyelidiki') - 0.05) pulse($('bKm'), t, W('l7', 'menyelidiki') - 0.05, 0.05, -1);
+  K.pop($('bQt'), t, W('l8', 'belum') - 0.1, Infinity, 0);
+  if (t > W('l8', 'bocor') - 0.05) pulse($('bQt'), t, W('l8', 'bocor') - 0.05, 0.04, 0);
+
+  // ---------- Z7: tetap CEO ----------
+  { const c0 = W('l8', 'huang') - 0.3; rise($('cP'), t, c0);
+    $('cP').style.opacity = t >= c0 ? 1 : 0; }
+  K.pop($('cNm'), t, W('l8', 'huang') - 0.05, Infinity, -3);
+  slam($('cSt'), t, W('l8', 'tetap') - 0.05, -4, 2.0);
+
+  // ---------- Z8: turn ----------
+  slam($('tTapi'), t, W('l9', 'sering') - 0.08, -3, 1.5);
+  { const l0 = at('l10', -0.1); $('tLine').style.opacity = t >= l0 ? 1 : 0;
+    $('tTl').style.transform = `scaleX(${K.easeOut(K.prog(t, l0, 0.5))})`; }
+  K.pop($('tD1'), t, W('l10', '5') - 0.08, Infinity, 0);
+  K.pop($('tL1'), t, W('l10', '5') - 0.05, Infinity, -2);
+  { const n0 = W('l10', '450'), k = K.easeOut(K.prog(t, n0 - 0.05, 0.9));
+    slam($('tDrop'), t, n0 - 0.1, -2, 1.5); $('tN').textContent = Math.round(450 * k);
+    const d0 = W('l10', 'kehilangan') - 0.05, dp = K.easeOut(K.prog(t, d0, 0.4));
+    $('tDn').style.opacity = dp; $('tDn').style.transform = `translate(-50%, calc(-50% + ${-40 * (1 - dp)}px))`; }
+  { const a = W('l10', 'dalam'), b = W('l10', 'satu'), c = W('l10', 'hari');
+    $('tSw').textContent = t < b - 0.05 ? '…' : t < c - 0.05 ? 'satu…' : 'satu hari';
+    K.pop($('tSeh'), t, a - 0.08, Infinity, -3);
+    [a, b, c].forEach((x) => { if (t > x - 0.05 && t < x + 0.45) pulse($('tSeh'), t, x - 0.05, 0.12, -3); }); }
+  K.pop($('tCm'), t, W('l11', 'investor') - 0.08, Infinity, 0);
+  K.pop($('tSrc'), t, W('l11', 'cnbc') - 0.08, Infinity, 0);
+  K.pop($('tD2'), t, W('l11', 'pengakuan') - 0.1, Infinity, 0);
+  K.pop($('tEn'), t, W('l11', 'pengakuan') - 0.1, Infinity, 3 + 2 * Math.sin(t * 2));
+  K.pop($('tEl'), t, W('l11', 'huang') - 0.08, Infinity, 2);
+  K.pop($('tL2'), t, W('l11', 'pengakuan') + 0.1, Infinity, 2);
+  { const g = K.easeInOut(K.prog(t, W('l11', 'tiga') - 0.1, 0.5)); $('tGapP').setAttribute('stroke-dashoffset', 400 * (1 - g)); $('tGapH').setAttribute('opacity', g >= 0.98 ? 1 : 0); }
+  K.pop($('tGl'), t, W('l11', 'tiga') - 0.05, Infinity, -2);
+
+  // ---------- Z9: 18 Nov ----------
+  K.pop($('pBg'), t, at('l12', -0.1), Infinity, 0);
+  K.pop($('pNm'), t, W('l12', 'tiga') - 0.08, Infinity, -1);
+  K.pop($('pCal'), t, W('l12', 'meminta') - 0.08, Infinity, 2);
+  if (t > W('l12', '18') - 0.05) pulse($('pCal'), t, W('l12', '18') - 0.05, 0.08, 2);
+  slam($('pSt'), t, W('l13', 'baru') - 0.05, -4, 1.9);
+  K.pop($('pBj'), t, W('l13', 'belum') - 0.08, Infinity, 2);
+
+  // ---------- CTA ----------
+  const qOut = END - 0.3;
+  K.pop($('qHd'), t, at('cta', -0.05), qOut, 0);
+  K.pop($('qQ'), t, W('cta', 'seberapa') - 0.05, qOut, 8 * Math.sin(t * 4));
+  K.pop($('qCom'), t, W('cta', 'perusahaannya') - 0.05, qOut, -4);
+  K.pop($('qK'), t, W('cta', 'komen') - 0.05, qOut, 3);
+
+  // ---------- disclaimer from t=0 until the end card; photo credit while a photo is on screen ----------
+  $('disc').style.opacity = 1 - K.clamp((t - END) / 0.2);
+  const photo = (t < hEnd + 0.2) || (t > W('l8', 'huang') - 0.3 && t < at('l9', -0.1));
+  $('credit').style.opacity = photo ? 1 : 0;
+
+  // ---------- end ----------
+  const en = K.prog(t, END - 0.15, 0.3);
+  $('endcard').style.opacity = en;
+  $('endcard').querySelector('.logo').style.transform = `rotate(-3deg) scale(${0.6 + 0.4 * K.spring(t - END + 0.15)})`;
+  K.subtitles($('subs'), t);
+  $('subs').style.visibility = en > 0.5 ? 'hidden' : 'visible';
+  $('progress').style.width = (100 * t / window.DURATION) + '%';
+  return true;
+}
+window.seek = seek; seek(0);
+</script>
+</body>
+</html>

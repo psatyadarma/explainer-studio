@@ -20,6 +20,7 @@ _One dated line per piece of feedback about topics or angles. The coordinator ap
 - 2026-11-06: Picked #5 (Listyo PART 3: tersangka ke-4 + Kapolri + KSPSI, politics, sensitivity high, 7/12) over the recommended #1 (Susu Bendera/Ultrajaya, 10/12) on wildcard Friday, and said "OK to post" early. Third day in a row on the Listyo storyline. Asked to make videos more storytelling-style to be more engaging (narrative arc, scenes, characters) instead of fact lists.
 - 2026-11-07: Picked ⭐ #1 (Kripto dibobol dua kali, chapter cut weekly ch 2, 9/12) and said "ok to post" in the same reply (~early morning).
 - 2026-11-08: "I follow your decisions" — accepted the W44/W45 recommendations (lock Pratama, stop B, rotate hook styles on A only) and the video plan.
+- 2026-11-10: Picked ⭐ #1 (Nvidia/Jensen Huang CEO scandal, tech, sensitivity high, 10/12) and said "OK to post" in the same reply (~early morning).
 
 ## What the audience shows
 _Written by the analyst each Sunday from real IG/YT numbers (W45, 8 Nov). The writer weighs this next to the user's picks; it is a tiebreaker, not an override._
@@ -30,7 +31,7 @@ _Written by the analyst each Sunday from real IG/YT numbers (W45, 8 Nov). The wr
 
 ## What the picks show
 
-_Recomputed by engine/prefs.py from 21 days of offers, 12 picks._
+_Recomputed by engine/prefs.py from 23 days of offers, 13 picks._
 
 - 2026-10-20: picked #3  "Rupiah Rp18.046: besok BI putuskan, tahan 5,75% atau naik ke 6%?", storyline rupiah
 - 2026-10-21: picked #?  "Karhutla: siapa yang tanggung jawab atas asap? (Lutfi vs Singapura)", storyline karhutla
@@ -52,8 +53,10 @@ _Recomputed by engine/prefs.py from 21 days of offers, 12 picks._
 - 2026-11-06: picked #?  "Listyo PART 3: tersangka ke-4, Kapolri bicara, KSPSI mencopot Listyo", storyline listyo-sigit-penyadapan
 - 2026-11-07: picked #?  "Kripto dibobol dua kali: Binance + Ledger (chapter cut weekly ch 2)", storyline crypto-hacks
 - 2026-11-08: no pick by the deadline (default #1 used; not counted)
+- 2026-11-09: no pick by the deadline (default #1 used; not counted)
+- 2026-11-10: picked #1 (recommended) "Satu skandal CEO, US$450 miliar hilang sehari: apa kaitannya sama kamu? (Nvidia/Jensen Huang)", score 10/12, storyline -
 
-- Picks the recommended idea 2/12 times; average pick rank 2.8.
+- Picks the recommended idea 3/13 times; average pick rank 2.6.
 - Storylines picked often when offered: definisi-korupsi, crypto-hacks, listyo-sigit-penyadapan.
 - Offered 3+ times, never picked: tax-policy, msci-reclassification, chip-ram-prices, corruption-cases, gibran-ijazah-mk, jokowi-ijazah-roy-suryo (lower priority unless big news).
-- Sensitivity of picks: {'medium': 1, '?': 11}.
+- Sensitivity of picks: {'medium': 1, '?': 12}.

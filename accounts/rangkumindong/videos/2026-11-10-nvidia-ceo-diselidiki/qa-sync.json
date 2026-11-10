@@ -1,0 +1,953 @@
+{
+ "verdict": "PASS",
+ "lead": -0.04,
+ "matched_words": 184,
+ "of_words": 193,
+ "median_offset_s": -0.026,
+ "share_in_window": 0.935,
+ "share_late_over_150ms": 0.027,
+ "worst_lines": [
+  {
+   "line": "l5",
+   "median_offset_s": -0.056
+  },
+  {
+   "line": "l8",
+   "median_offset_s": -0.052
+  },
+  {
+   "line": "l2",
+   "median_offset_s": -0.048
+  },
+  {
+   "line": "l1",
+   "median_offset_s": -0.047
+  },
+  {
+   "line": "l3",
+   "median_offset_s": -0.046
+  }
+ ],
+ "pairs": [
+  {
+   "line": "h1",
+   "word": "Punya",
+   "offset": 0.099
+  },
+  {
+   "line": "h1",
+   "word": "saham",
+   "offset": 0.022
+  },
+  {
+   "line": "h1",
+   "word": "teknologi?",
+   "offset": -0.023
+  },
+  {
+   "line": "h1",
+   "word": "Bos",
+   "offset": -0.031
+  },
+  {
+   "line": "h1",
+   "word": "Nvidia",
+   "offset": -0.028
+  },
+  {
+   "line": "h1",
+   "word": "lagi",
+   "offset": 0.031
+  },
+  {
+   "line": "h1",
+   "word": "diselidiki.",
+   "offset": -0.001
+  },
+  {
+   "line": "h2",
+   "word": "Dan",
+   "offset": 0.122
+  },
+  {
+   "line": "h2",
+   "word": "angka",
+   "offset": -0.061
+  },
+  {
+   "line": "h2",
+   "word": "miliar",
+   "offset": 0.019
+  },
+  {
+   "line": "h2",
+   "word": "dolar",
+   "offset": -0.028
+  },
+  {
+   "line": "h2",
+   "word": "yang",
+   "offset": -0.009
+  },
+  {
+   "line": "h2",
+   "word": "viral",
+   "offset": 0.012
+  },
+  {
+   "line": "h2",
+   "word": "itu,",
+   "offset": 0.019
+  },
+  {
+   "line": "h2",
+   "word": "ceritanya",
+   "offset": -0.161
+  },
+  {
+   "line": "h2",
+   "word": "lain.",
+   "offset": 0.075
+  },
+  {
+   "line": "rd",
+   "word": "Rangkumin",
+   "offset": 0.029
+  },
+  {
+   "line": "rd",
+   "word": "dong!",
+   "offset": 0.009
+  },
+  {
+   "line": "l1",
+   "word": "Jadi",
+   "offset": 0.008
+  },
+  {
+   "line": "l1",
+   "word": "gini.",
+   "offset": -0.047
+  },
+  {
+   "line": "l1",
+   "word": "Nvidia",
+   "offset": -0.2
+  },
+  {
+   "line": "l1",
+   "word": "bikin",
+   "offset": -0.127
+  },
+  {
+   "line": "l1",
+   "word": "chip",
+   "offset": -0.059
+  },
+  {
+   "line": "l1",
+   "word": "yang",
+   "offset": -0.051
+  },
+  {
+   "line": "l1",
+   "word": "jadi",
+   "offset": -0.047
+  },
+  {
+   "line": "l1",
+   "word": "mesin",
+   "offset": -0.047
+  },
+  {
+   "line": "l1",
+   "word": "di",
+   "offset": -0.034
+  },
+  {
+   "line": "l1",
+   "word": "balik",
+   "offset": -0.047
+  },
+  {
+   "line": "l1",
+   "word": "ledakan",
+   "offset": -0.067
+  },
+  {
+   "line": "l1",
+   "word": "AI.",
+   "offset": 0.133
+  },
+  {
+   "line": "l2",
+   "word": "29",
+   "offset": -0.119
+  },
+  {
+   "line": "l2",
+   "word": "Oktober,",
+   "offset": 0.144
+  },
+  {
+   "line": "l2",
+   "word": "New",
+   "offset": -0.099
+  },
+  {
+   "line": "l2",
+   "word": "York",
+   "offset": 0.038
+  },
+  {
+   "line": "l2",
+   "word": "Times",
+   "offset": -0.046
+  },
+  {
+   "line": "l2",
+   "word": "melaporkan:",
+   "offset": -0.046
+  },
+  {
+   "line": "l2",
+   "word": "seorang",
+   "offset": -0.102
+  },
+  {
+   "line": "l2",
+   "word": "perempuan,",
+   "offset": -0.046
+  },
+  {
+   "line": "l2",
+   "word": "Alice",
+   "offset": -0.053
+  },
+  {
+   "line": "l2",
+   "word": "diduga",
+   "offset": -0.046
+  },
+  {
+   "line": "l2",
+   "word": "mendekati",
+   "offset": -0.054
+  },
+  {
+   "line": "l2",
+   "word": "CEO-nya,",
+   "offset": -0.053
+  },
+  {
+   "line": "l2",
+   "word": "Jensen",
+   "offset": -0.049
+  },
+  {
+   "line": "l2",
+   "word": "Huang.",
+   "offset": -0.046
+  },
+  {
+   "line": "l3",
+   "word": "Tujuannya,",
+   "offset": 0.075
+  },
+  {
+   "line": "l3",
+   "word": "menurut",
+   "offset": -0.036
+  },
+  {
+   "line": "l3",
+   "word": "laporan",
+   "offset": -0.076
+  },
+  {
+   "line": "l3",
+   "word": "itu:",
+   "offset": -0.016
+  },
+  {
+   "line": "l3",
+   "word": "teknologi",
+   "offset": -0.156
+  },
+  {
+   "line": "l3",
+   "word": "Nvidia.",
+   "offset": -0.103
+  },
+  {
+   "line": "l3",
+   "word": "Dia",
+   "offset": -0.112
+  },
+  {
+   "line": "l3",
+   "word": "diduga",
+   "offset": -0.056
+  },
+  {
+   "line": "l3",
+   "word": "terkait",
+   "offset": -0.008
+  },
+  {
+   "line": "l3",
+   "word": "intelijen",
+   "offset": -0.029
+  },
+  {
+   "line": "l4",
+   "word": "Kedutaan",
+   "offset": 0.056
+  },
+  {
+   "line": "l4",
+   "word": "membantah",
+   "offset": -0.008
+  },
+  {
+   "line": "l4",
+   "word": "tuduhan",
+   "offset": -0.076
+  },
+  {
+   "line": "l4",
+   "word": "mata-mata",
+   "offset": -0.048
+  },
+  {
+   "line": "l4",
+   "word": "itu.",
+   "offset": 0.004
+  },
+  {
+   "line": "l5",
+   "word": "Laporan",
+   "offset": -0.036
+  },
+  {
+   "line": "l5",
+   "word": "yang",
+   "offset": -0.03
+  },
+  {
+   "line": "l5",
+   "word": "sama:",
+   "offset": -0.026
+  },
+  {
+   "line": "l5",
+   "word": "afiliasi",
+   "offset": -0.139
+  },
+  {
+   "line": "l5",
+   "word": "Megaspeed,",
+   "offset": -0.022
+  },
+  {
+   "line": "l5",
+   "word": "perusahaan",
+   "offset": -0.056
+  },
+  {
+   "line": "l5",
+   "word": "tempat",
+   "offset": -0.024
+  },
+  {
+   "line": "l5",
+   "word": "Alice",
+   "offset": -0.096
+  },
+  {
+   "line": "l5",
+   "word": "pernah",
+   "offset": -0.056
+  },
+  {
+   "line": "l5",
+   "word": "bekerja,",
+   "offset": -0.043
+  },
+  {
+   "line": "l5",
+   "word": "membeli",
+   "offset": -0.056
+  },
+  {
+   "line": "l5",
+   "word": "perangkat",
+   "offset": -0.036
+  },
+  {
+   "line": "l5",
+   "word": "AI",
+   "offset": 0.131
+  },
+  {
+   "line": "l5",
+   "word": "berisi",
+   "offset": -0.076
+  },
+  {
+   "line": "l5",
+   "word": "chip",
+   "offset": -0.068
+  },
+  {
+   "line": "l5",
+   "word": "Nvidia,",
+   "offset": -0.129
+  },
+  {
+   "line": "l5",
+   "word": "minimal",
+   "offset": -0.006
+  },
+  {
+   "line": "l5",
+   "word": "miliar",
+   "offset": -0.096
+  },
+  {
+   "line": "l5",
+   "word": "dolar.",
+   "offset": -0.069
+  },
+  {
+   "line": "l6",
+   "word": "Minggu,",
+   "offset": 0.088
+  },
+  {
+   "line": "l6",
+   "word": "8",
+   "offset": -0.246
+  },
+  {
+   "line": "l6",
+   "word": "November,",
+   "offset": -0.013
+  },
+  {
+   "line": "l6",
+   "word": "lewat",
+   "offset": -0.106
+  },
+  {
+   "line": "l6",
+   "word": "email",
+   "offset": -0.073
+  },
+  {
+   "line": "l6",
+   "word": "ke",
+   "offset": -0.059
+  },
+  {
+   "line": "l6",
+   "word": "karyawan,",
+   "offset": -0.046
+  },
+  {
+   "line": "l6",
+   "word": "Huang",
+   "offset": -0.006
+  },
+  {
+   "line": "l6",
+   "word": "mengakui",
+   "offset": -0.054
+  },
+  {
+   "line": "l6",
+   "word": "hubungan",
+   "offset": -0.026
+  },
+  {
+   "line": "l6",
+   "word": "di",
+   "offset": -0.039
+  },
+  {
+   "line": "l6",
+   "word": "luar",
+   "offset": -0.066
+  },
+  {
+   "line": "l6",
+   "word": "nikah.",
+   "offset": -0.006
+  },
+  {
+   "line": "l7",
+   "word": "Lalu,",
+   "offset": 0.183
+  },
+  {
+   "line": "l7",
+   "word": "dewan",
+   "offset": -0.057
+  },
+  {
+   "line": "l7",
+   "word": "Nvidia",
+   "offset": -0.104
+  },
+  {
+   "line": "l7",
+   "word": "membentuk",
+   "offset": -0.005
+  },
+  {
+   "line": "l7",
+   "word": "komite",
+   "offset": -0.037
+  },
+  {
+   "line": "l7",
+   "word": "direktur",
+   "offset": -0.06
+  },
+  {
+   "line": "l7",
+   "word": "independen",
+   "offset": 0.17
+  },
+  {
+   "line": "l7",
+   "word": "untuk",
+   "offset": -0.117
+  },
+  {
+   "line": "l7",
+   "word": "menyelidiki.",
+   "offset": -0.025
+  },
+  {
+   "line": "l8",
+   "word": "Kata",
+   "offset": 0.135
+  },
+  {
+   "line": "l8",
+   "word": "dewan:",
+   "offset": -0.047
+  },
+  {
+   "line": "l8",
+   "word": "belum",
+   "offset": -0.114
+  },
+  {
+   "line": "l8",
+   "word": "ada",
+   "offset": -0.087
+  },
+  {
+   "line": "l8",
+   "word": "alasan",
+   "offset": -0.02
+  },
+  {
+   "line": "l8",
+   "word": "percaya",
+   "offset": 0.001
+  },
+  {
+   "line": "l8",
+   "word": "rahasia",
+   "offset": -0.047
+  },
+  {
+   "line": "l8",
+   "word": "Nvidia",
+   "offset": -0.08
+  },
+  {
+   "line": "l8",
+   "word": "atau",
+   "offset": -0.087
+  },
+  {
+   "line": "l8",
+   "word": "keamanan",
+   "offset": -0.074
+  },
+  {
+   "line": "l8",
+   "word": "bocor.",
+   "offset": -0.047
+  },
+  {
+   "line": "l8",
+   "word": "Huang",
+   "offset": -0.102
+  },
+  {
+   "line": "l8",
+   "word": "tetap",
+   "offset": -0.037
+  },
+  {
+   "line": "l8",
+   "word": "CEO.",
+   "offset": -0.057
+  },
+  {
+   "line": "l9",
+   "word": "Tapi",
+   "offset": 0.197
+  },
+  {
+   "line": "l9",
+   "word": "ini",
+   "offset": -0.123
+  },
+  {
+   "line": "l9",
+   "word": "yang",
+   "offset": -0.007
+  },
+  {
+   "line": "l9",
+   "word": "sering",
+   "offset": -0.043
+  },
+  {
+   "line": "l10",
+   "word": "Kamis,",
+   "offset": 0.143
+  },
+  {
+   "line": "l10",
+   "word": "5",
+   "offset": -0.093
+  },
+  {
+   "line": "l10",
+   "word": "November,",
+   "offset": 0.194
+  },
+  {
+   "line": "l10",
+   "word": "Nvidia",
+   "offset": -0.09
+  },
+  {
+   "line": "l10",
+   "word": "memang",
+   "offset": 0.017
+  },
+  {
+   "line": "l10",
+   "word": "kehilangan",
+   "offset": -0.01
+  },
+  {
+   "line": "l10",
+   "word": "sekitar",
+   "offset": -0.03
+  },
+  {
+   "line": "l10",
+   "word": "miliar",
+   "offset": 0.017
+  },
+  {
+   "line": "l10",
+   "word": "dolar",
+   "offset": -0.01
+  },
+  {
+   "line": "l10",
+   "word": "nilai",
+   "offset": -0.023
+  },
+  {
+   "line": "l10",
+   "word": "pasar.",
+   "offset": -0.036
+  },
+  {
+   "line": "l10",
+   "word": "Dalam.",
+   "offset": -0.162
+  },
+  {
+   "line": "l10",
+   "word": "Satu.",
+   "offset": 0.087
+  },
+  {
+   "line": "l10",
+   "word": "Hari.",
+   "offset": -0.139
+  },
+  {
+   "line": "l11",
+   "word": "Menurut",
+   "offset": 0.096
+  },
+  {
+   "line": "l11",
+   "word": "CNBC",
+   "offset": 0.01
+  },
+  {
+   "line": "l11",
+   "word": "Indonesia,",
+   "offset": 0.032
+  },
+  {
+   "line": "l11",
+   "word": "investor",
+   "offset": -0.011
+  },
+  {
+   "line": "l11",
+   "word": "cemas",
+   "offset": -0.024
+  },
+  {
+   "line": "l11",
+   "word": "soal",
+   "offset": 0.003
+  },
+  {
+   "line": "l11",
+   "word": "gelembung",
+   "offset": 0.008
+  },
+  {
+   "line": "l11",
+   "word": "AI.",
+   "offset": 0.209
+  },
+  {
+   "line": "l11",
+   "word": "Pengakuan",
+   "offset": -0.082
+  },
+  {
+   "line": "l11",
+   "word": "Huang",
+   "offset": -0.014
+  },
+  {
+   "line": "l11",
+   "word": "baru",
+   "offset": -0.002
+  },
+  {
+   "line": "l11",
+   "word": "keluar",
+   "offset": -0.014
+  },
+  {
+   "line": "l11",
+   "word": "tiga",
+   "offset": -0.034
+  },
+  {
+   "line": "l11",
+   "word": "hari",
+   "offset": 0.018
+  },
+  {
+   "line": "l11",
+   "word": "kemudian.",
+   "offset": 0.026
+  },
+  {
+   "line": "l12",
+   "word": "Berikutnya:",
+   "offset": 0.091
+  },
+  {
+   "line": "l12",
+   "word": "tiga",
+   "offset": -0.084
+  },
+  {
+   "line": "l12",
+   "word": "politisi",
+   "offset": -0.057
+  },
+  {
+   "line": "l12",
+   "word": "Republik",
+   "offset": 0.036
+  },
+  {
+   "line": "l12",
+   "word": "di",
+   "offset": 0.023
+  },
+  {
+   "line": "l12",
+   "word": "DPR",
+   "offset": -0.011
+  },
+  {
+   "line": "l12",
+   "word": "meminta",
+   "offset": -0.084
+  },
+  {
+   "line": "l12",
+   "word": "Huang",
+   "offset": -0.024
+  },
+  {
+   "line": "l12",
+   "word": "memberi",
+   "offset": 0.01
+  },
+  {
+   "line": "l12",
+   "word": "penjelasan,",
+   "offset": 0.056
+  },
+  {
+   "line": "l12",
+   "word": "18",
+   "offset": 0.056
+  },
+  {
+   "line": "l12",
+   "word": "November.",
+   "offset": -0.022
+  },
+  {
+   "line": "l13",
+   "word": "Itu",
+   "offset": 0.099
+  },
+  {
+   "line": "l13",
+   "word": "baru",
+   "offset": -0.002
+  },
+  {
+   "line": "l13",
+   "word": "permintaan.",
+   "offset": -0.026
+  },
+  {
+   "line": "l13",
+   "word": "Belum",
+   "offset": -0.114
+  },
+  {
+   "line": "l13",
+   "word": "jelas",
+   "offset": -0.024
+  },
+  {
+   "line": "l13",
+   "word": "Huang",
+   "offset": 0.016
+  },
+  {
+   "line": "l13",
+   "word": "datang.",
+   "offset": 0.056
+  },
+  {
+   "line": "cta",
+   "word": "Menurut",
+   "offset": 0.091
+  },
+  {
+   "line": "cta",
+   "word": "kamu,",
+   "offset": 0.021
+  },
+  {
+   "line": "cta",
+   "word": "seberapa",
+   "offset": 0.021
+  },
+  {
+   "line": "cta",
+   "word": "besar",
+   "offset": 0.014
+  },
+  {
+   "line": "cta",
+   "word": "urusan",
+   "offset": -0.026
+  },
+  {
+   "line": "cta",
+   "word": "pribadi",
+   "offset": -0.039
+  },
+  {
+   "line": "cta",
+   "word": "bos",
+   "offset": -0.019
+  },
+  {
+   "line": "cta",
+   "word": "bisa",
+   "offset": 0.013
+  },
+  {
+   "line": "cta",
+   "word": "ngaruh",
+   "offset": -0.006
+  },
+  {
+   "line": "cta",
+   "word": "ke",
+   "offset": 0.008
+  },
+  {
+   "line": "cta",
+   "word": "perusahaannya?",
+   "offset": 0.001
+  },
+  {
+   "line": "cta",
+   "word": "Komen!",
+   "offset": -0.102
+  },
+  {
+   "line": "end",
+   "word": "Follow",
+   "offset": 0.02
+  },
+  {
+   "line": "end",
+   "word": "Rangkumin",
+   "offset": 0.046
+  },
+  {
+   "line": "end",
+   "word": "Dong,",
+   "offset": 0.054
+  },
+  {
+   "line": "end",
+   "word": "biar",
+   "offset": 0.046
+  },
+  {
+   "line": "end",
+   "word": "nggak",
+   "offset": -0.007
+  },
+  {
+   "line": "end",
+   "word": "ketinggalan!",
+   "offset": 0.026
+  }
+ ]
+}
