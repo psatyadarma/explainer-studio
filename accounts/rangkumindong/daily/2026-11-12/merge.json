@@ -1,0 +1,281 @@
+[
+ {
+  "date": "2026-11-12",
+  "category": "MKT",
+  "event": "MSCI is due to announce its November 2026 index review around 05:00 WIB on 12 November, with MTEL, WIFI and RAJA at risk of Small Cap deletion and BRMS at risk of moving from Standard to Small Cap. (update of E0697)",
+  "key_numbers": "Announcement ~05:00 WIB Thu 12 Nov · effective after close Mon 30 Nov (from 1 Dec) · MTEL est. free-float mcap ~US$177 jt (9 Nov) · WIFI ~US$99 jt · RAJA ~US$108 jt vs retention threshold ~US$173 jt · BRMS retention price ~Rp440 · MSCI freeze on new IMI additions/upgrades continues",
+  "storyline": "msci-reclassification",
+  "status": "upcoming",
+  "sources": "CNBC Indonesia <https://www.cnbcindonesia.com/research/20261110144326-128-783923/msci-bakal-umumkan-review-kamis-seperti-apa-kisi-kisi-skenarionya> ; CNBC Indonesia <https://www.cnbcindonesia.com/market/20261111054909-17-784073/jelang-pengumuman-msci-reformasi-pasar-modal-jadi-andalan>"
+ },
+ {
+  "date": "2026-11-11",
+  "category": "MKT",
+  "event": "BEI widened the high shareholder concentration (HSC) list from 83 to 383 stocks by dropping the Rp5 trillion market-cap screen and the price-impact test, and will exclude them from IHSG calculation from Friday 13 November. (update of E0696)",
+  "key_numbers": "300 stocks added -> 383 total · ~6.16% of IHSG market cap · HSC rule: 10 or fewer holders own >=92.5% · effective Fri 13 Nov 2026 · full list due 12 Nov",
+  "storyline": "msci-reclassification",
+  "status": "verified",
+  "sources": "CNN Indonesia <https://cnnindonesia.com/ekonomi/20261111121030-92-1425807/bei-bakal-depak-300-saham-hsc-dari-ihsg-jumat-ini> ; Bisnis <https://market.bisnis.com/read/20261110/7/2020168/bei-umumkan-383-saham-masuk-daftar-hsc-keluar-dari-perhitungan-ihsg> ; ANTARA <https://www.antaranews.com/berita/5845887/bei-keluarkan-300-saham-hsc-mulai-jumat-ini>"
+ },
+ {
+  "date": "2026-11-11",
+  "category": "MKT",
+  "event": "IHSG closed down 0.21% at 5,115.04 on 11 November ahead of the MSCI announcement, after hitting an intraday low of 5,086.02. (update of E0698)",
+  "key_numbers": "Close 5,115.04 (-10.69 pts, -0.21%) · open 5,139.09 · intraday range 5,086.02-5,144.79 · volume 310.74 jt lot · value Rp7.87 T · foreign net sell ~Rp20.7 M (Kontan) · basic materials -2.09% · 10 Nov close 5,125.73",
+  "storyline": "msci-reclassification",
+  "status": "verified",
+  "sources": "CNBC Indonesia <https://www.cnbcindonesia.com/market/20261111153604-17-784340/ihsg-ditutup-melemah-021-ke-511504-jelang-pengumuman-msci> ; Kontan <https://investasi.kontan.co.id/news/asing-net-sell-rp-207-miliar-saat-ihsg-turun-rabu-1111-cek-saham-yang-dijual>"
+ },
+ {
+  "date": "2026-11-11",
+  "category": "MKT",
+  "event": "The rupiah closed weaker at Rp18,149 per USD on 11 November, down 0.48% from Rp18,062, a day before MSCI's announcement and the 17-18 November BI meeting. (update of E0699)",
+  "key_numbers": "Close Rp18,149 (Kontan, spot) · prior close Rp18,062 · -0.48% · other quotes Rp18,114 (Media Indonesia/Suara) · 2026 weakest close remains 8 Jun Rp18,170 (Bisnis)/Rp18,188 (Kontan) · BI-Rate 5.75% · Oct inflation 3.23% y/y",
+  "storyline": "rupiah",
+  "status": "verified",
+  "sources": "Kontan <https://investasi.kontan.co.id/news/rupiah-ditutup-melemah-ke-rp-18149-per-dolar-as-hari-ini-1111> ; Suara.com <https://www.suara.com/bisnis/2026/11/11/101700/jelang-pengumuman-msci-rupiah-malah-anjlok-ke-level-rp18114-per-dolar-as>"
+ },
+ {
+  "date": "2026-11-11",
+  "category": "BIZ",
+  "event": "Garuda Indonesia (GIAA) filed a third rights issue of up to 248.7 billion new shares, in which Danantara Asset Management would pay in kind with its 65.77% stake in GMFI.",
+  "key_numbers": "Up to 248,705,613,200 new Series E shares · up to Rp6.22 T headline (note: at Rp58-68 per share implies ~Rp14.4-16.9 T, unreconciled in source) · dilution up to 37.92% · exercise price Rp58-68 · DAM holds 91.11% · GMFI 82.10 miliar Series B shares (65.77%) · record date 23 Dec 2026 · rights trading 29 Dec-7 Jan 2027",
+  "storyline": "",
+  "status": "partial",
+  "sources": "detikFinance <https://finance.detik.com/bursa-dan-valas/d-8748179/garuda-indonesia-mau-rights-issue-rp-6-2-t> ; Katadata <https://katadata.co.id/finansial/bursa/6af4228e75a69/garuda-indonesia-giaa-siapkan-rights-issue-rp-6-2-triliun>"
+ },
+ {
+  "date": "2026-11-10",
+  "category": "ECO",
+  "event": "Indonesia's government priced its second Panda Bond, CNY10 billion in three tenors, drawing CNY17.26 billion in orders to help fund the 2026 APBN.",
+  "key_numbers": "CNY10 miliar (~Rp27.15 T) · orders CNY17.26 miliar (~Rp46.87 T), 1.726x · 3y 1.96% (CNY5.7 mlr) · 5y 2.15% (CNY3.7 mlr) · 7y 2.50% (CNY600 jt) · priced 10 Nov, settlement 17 Nov · AAA (Stable) China Lianhe",
+  "storyline": "",
+  "status": "verified",
+  "sources": "Kontan <https://nasional.kontan.co.id/news/pemerintah-ri-terbitkan-panda-bond-rp-2715-t-pesanan-investor-tembus-rp-4687-t> ; detikFinance <https://finance.detik.com/moneter/d-8747715/ri-terbitkan-panda-bond-lagi-pesanan-tembus-rp-46-triliun>"
+ },
+ {
+  "date": "2026-11-10",
+  "category": "ECO",
+  "event": "BPH Migas raised the 2026 subsidised Solar quota to 20.27 million kilolitres (about +7.8%) while keeping the Pertalite allocation at 29.26 million kilolitres. (update of E0705)",
+  "key_numbers": "Solar 20.27 jt KL (+7.8%) · Pertalite 29.26 jt KL unchanged · 8 provinces reportedly over their Pertalite allocation · Pertalite Rp10,000/l",
+  "storyline": "survival-mode",
+  "status": "partial",
+  "sources": "Kontan <https://industri.kontan.co.id/news/kuota-solar-subsidi-ditambah-78-pertalite-tak-berubah> ; CNBC Indonesia <https://www.cnbcindonesia.com/news/20261110110547-4-783841/kuota-bbm-solar-subsidi-ditambah-pertalite-dipastikan-aman> ; Kompas.com <https://money.kompas.com/read/2026/11/11/112434326/bph-migas-tambah-kuota-solar-subsidi-alokasi-pertalite-tetap-2926-juta-kl>"
+ },
+ {
+  "date": "2026-11-10",
+  "category": "GLB",
+  "event": "Boeing will lay off about 2,500 employees, roughly 5% of its Commercial Airplanes division, with notices starting in December.",
+  "key_numbers": "~2,500 jobs · ~5% of ~50,000 BCA staff · BCA Q3 2026 loss US$697 jt · BCA 44% of Boeing revenue · notices from Dec",
+  "storyline": "",
+  "status": "verified",
+  "sources": "detikFinance <https://finance.detik.com/berita-ekonomi-bisnis/d-8747848/boeing-berdarah-darah-mau-phk-2-500-karyawan> ; Washington Times <https://www.washingtontimes.com/news/2026/nov/10/boeing-lays-5-commercial-airplanes-division-axing-roughly-2500-jobs/>"
+ },
+ {
+  "date": "2026-11-11",
+  "category": "BIZ",
+  "event": "BNI will begin closing its BNI Mobile Banking app on 30 November 2026, with customer access ending on 21 December 2026, and is moving customers to wondr by BNI.",
+  "key_numbers": "Start 30 Nov 2026 · full end 21 Dec 2026 · replacement app wondr by BNI · BNI says no material impact",
+  "storyline": "",
+  "status": "verified",
+  "sources": "CNN Indonesia <https://www.cnnindonesia.com/ekonomi/20261111120209-78-1425801/bni-tutup-layanan-mobile-banking-bertahap-mulai-30-november-2026>"
+ },
+ {
+  "date": "2026-11-11",
+  "category": "POL",
+  "event": "Projo chair Budi Arie said VP Gibran handed a resignation letter to President Prabowo at Halim Perdanakusuma air base after Prabowo returned from Aceh; MPR Chairman Ahmad Muzani said he had not received any letter, and the Istana had not confirmed the letter itself. (update of E0708)",
+  "key_numbers": "Letter reportedly handed 11 Nov 2026 (Wed) · Istana earlier confirmed only the intent to resign (10 Nov, 2.5-hour meeting) · MPR: no letter received",
+  "storyline": "gibran-ijazah-mk",
+  "status": "partial",
+  "sources": "detikNews <https://news.detik.com/berita/d-8749019/dinamika-polemik-gibran-hmp-bergulir-hingga-serahkan-surat-mundur-ke-prabowo> ; Suara.com <https://sumsel.suara.com/read/2026/11/11/223535/gibran-ajukan-pengunduran-diri-dpr-besok-bahas-pemakzulan-mana-yang-diproses-dulu> ; Pontianak Post <https://pontianakpost.jawapos.com/nasional/2611110090/surat-pengunduran-diri-sudah-di-tangan-prabowo-semua-fraksi-dpr-kompak-hmp-kan-gibran>"
+ },
+ {
+  "date": "2026-11-10",
+  "category": "POL",
+  "event": "Coordinating Minister Yusril Ihza Mahendra said the MK and MA rulings are final with no PK possible and Kemendikdasmen will not file one; Gibran said he would 'fight' at PTUN, while Bakom's head said Prabowo would not have advised that, and Denny Indrayana said he would face Gibran there. (update of E0707)",
+  "key_numbers": "MA case 742 K/TUN/2026 · 2.5-hour Prabowo-Gibran meeting on 10 Nov",
+  "storyline": "gibran-ijazah-mk",
+  "status": "partial",
+  "sources": "detikNews <https://news.detik.com/berita/d-8749019/dinamika-polemik-gibran-hmp-bergulir-hingga-serahkan-surat-mundur-ke-prabowo> ; CNN Indonesia <https://www.cnnindonesia.com/nasional/20261111091202-12-1425720/denny-indrayana-buka-opsi-ladeni-gibran-fight-di-ptun> ; CNN Indonesia <https://www.cnnindonesia.com/nasional/20261111055904-32-1425663/kepala-bakom-tak-mungkin-prabowo-sarankan-gibran-untuk-fight-di-ptun>"
+ },
+ {
+  "date": "2026-11-12",
+  "category": "POL",
+  "event": "Komisi III DPR is scheduled to hold a meeting with the Kapolri on 12 Nov to discuss the wiretapping case against President Prabowo. (update of E0712)",
+  "key_numbers": "Meeting 12 Nov 2026",
+  "storyline": "listyo-sigit-penyadapan",
+  "status": "upcoming",
+  "sources": "detikNews <https://news.detik.com/berita/d-8748836/komisi-iii-dpr-rapat-dengan-kapolri-besok-bahas-kasus-penyadapan-prabowo>"
+ },
+ {
+  "date": "2026-11-11",
+  "category": "POL",
+  "event": "Polri spokesperson Irjen Johnny Eddizon Isir said Listyo Sigit Prabowo, Irjen Eko Hadi Santoso and Irjen Slamet Uliandi will face a KKEP ethics hearing 'next week' with no special treatment, a panel chosen by Kapolri Suyudi Ario Seto; former Kadivkum Irjen Ahrie Sonta Nasution already received PTDH from a KKEP panel. (update of E0562)",
+  "key_numbers": "3 generals to face ethics hearing · hearing 'pekan depan' (no firm date) · Ahrie Sonta: PTDH (dismissal without honour), 5-member panel chaired by Komjen Rudy Darmoko",
+  "storyline": "listyo-sigit-penyadapan",
+  "status": "verified",
+  "sources": "Suara.com <https://www.suara.com/news/2026/11/11/152555/susul-ahrie-sonta-yang-kena-ptdh-nasib-jenderal-listyo-sigit-segera-ditentukan-majelis-kkep> ; detikNews <https://news.detik.com/berita/d-8747375/polri-pastikan-listyo-sigit-bakal-sidang-etik-tak-ada-perlakuan-istimewa> ; CNN Indonesia <https://www.cnnindonesia.com/nasional/20261111084300-12-1425713/sidang-etik-listyo-dkk-di-kasus-penyadapan-bakal-dilanjut-pekan-depan>"
+ },
+ {
+  "date": "2026-11-11",
+  "category": "POL",
+  "event": "KPK examined GRIB Jaya chair Rosario de Marshal (Hercules) in the ATR/BPN bribery case; Hercules said Rp800 million came from Summarecon's legal counsel for travel costs and mediating a land dispute, and that he handed it to KPK. (update of E0387)",
+  "key_numbers": "Rp800 juta · about 65 ha land dispute in Bogor (per Hercules) · 8 suspects named by KPK · 14 questions (Suara.com)",
+  "storyline": "kpk-nusron-atr-bpn",
+  "status": "partial",
+  "sources": "CNN Indonesia <https://cnnindonesia.com/nasional/20261111172242-12-1426001/hercules-ungkap-rp800-juta-dari-summarecon-untuk-bantu-mediasi> ; detikNews <https://news.detik.com/berita/d-8748679/usai-diperiksa-kpk-hercules-ungkap-asal-usul-uang-rp-800-juta-dari-summarecon> ; Suara.com <https://www.suara.com/news/2026/11/11/173846/hercules-dicecar-14-pertanyaan-oleh-kpk-soal-uang-rp800-juta-dari-summarecon>"
+ },
+ {
+  "date": "2026-11-10",
+  "category": "NEWS",
+  "event": "Heroes' Day demonstrations in Yogyakarta began at DPRD DIY and spread to the UGM roundabout; Polda DIY says it secured 154 people and seized molotovs and other items, while UGM and Polda DIY, with Ombudsman and Komnas HAM, are checking reports of a mistaken arrest of a UGM student. (update of E0723)",
+  "key_numbers": "154 people secured (as of 07:58, 11 Nov) · 12 firecrackers, 7 bottles of gasoline, molotov bottles seized · 13 participants unreachable per LBH Yogyakarta · Surabaya: 2 arrested for allegedly carrying molotovs",
+  "storyline": "protests-prabowo-2-years",
+  "status": "verified",
+  "sources": "Radar Jogja <https://radarjogja.jawapos.com/jogja/2611110022/demo-ricuh-malioboro-meluas-ke-kampus-ugm-polisi-amankan-154-orang-dan-menyita-senjata-tajam> ; CNN Indonesia <https://www.cnnindonesia.com/nasional/20261111101639-20-1425745/ugm-telusuri-info-mahasiswa-yang-diamankan-saat-demo-10-november> ; detikNews <https://news.detik.com/berita/d-8748835/polda-libatkan-ombudsman-komnas-ham-telusuri-dugaan-salah-tangkap-mahasiswa-ugm>"
+ },
+ {
+  "date": "2026-11-11",
+  "category": "POL",
+  "event": "Polda Metro Jaya officers visited ex-KPK chair Firli Bahuri at a badminton hall after he missed two summonses in the Syahrul Yasin Limpo extortion case; police denied he was arrested and said he promised to attend the next examination.",
+  "key_numbers": "2 missed summonses · named suspect 22 Nov 2023 · SPDP returned by Kejati 7 Aug 2025 · no date given for next examination",
+  "storyline": "",
+  "status": "verified",
+  "sources": "CNN Indonesia <https://www.cnnindonesia.com/nasional/20261111201326-12-1426071/polda-metro-tepis-isu-penangkapan-firli-bahuri-di-gor-bulutangkis> ; detikNews <https://news.detik.com/berita/d-8748894/polda-metro-datangi-firli-bahuri-di-gor-bulutangkis>"
+ },
+ {
+  "date": "2026-11-11",
+  "category": "POL",
+  "event": "Prabowo attended NasDem's 15th anniversary, welcomed by Surya Paloh who said NasDem is loyal to the constitution and 'Prabowo must not fail'; Prabowo thanked PDIP, saying it is not a coalition but both defend the state, and joked about checking under the podium for wiretaps.",
+  "key_numbers": "NasDem 15th anniversary · 11 Nov 2026",
+  "storyline": "",
+  "status": "partial",
+  "sources": "detikNews <https://news.detik.com/berita/d-8749012/prabowo-terima-kasih-ke-pdip-bukan-koalisi-tapi-kita-sama-sama-bela-negara> ; detikNews <https://news.detik.com/berita/d-8748985/surya-paloh-nasdem-loyal-pada-konstitusi-presiden-prabowo-tak-boleh-gagal> ; detikNews <https://news.detik.com/berita/d-8748970/canda-prabowo-cek-bawah-podium-pidato-jangan-jangan-disadap-aku>"
+ },
+ {
+  "date": "2026-11-11",
+  "category": "ECO",
+  "event": "The government agreed the 2027 subsidised fertiliser allocation at 9.85 million tons, per a detik headline.",
+  "key_numbers": "9.85 juta ton (2027)",
+  "storyline": "",
+  "status": "partial",
+  "sources": "detikNews <https://news.detik.com/berita/d-8748956/pemerintah-sepakati-alokasi-pupuk-subsidi-2027-sebesar-9-85-juta-ton>"
+ },
+ {
+  "date": "2026-11-10",
+  "category": "TECH",
+  "event": "Komdigi and BSSN reported a wave of attack attempts on Indonesian systems, with FortiGuard counting about 2.2 million attempts in 24 hours, about half against the financial sector, and a scan showing 96.7% of readable PHP versions on .go.id hosts are end-of-life. (update of E0714)",
+  "key_numbers": "2.2 million attempts in 24h (as of 10 Nov 07:30) · about 26 per second · about 1 million at financial sector · 1,621 of 1,677 .go.id PHP versions EOL (96.7%) · 69.6% of 99,896 PHP matches EOL · 0.2% patched for PHP2SHELL · BSSN 151 financial IR teams, 202 notifications, 208 advisories in 2026",
+  "storyline": "cyber-threats-gov",
+  "status": "partial",
+  "sources": "Katadata <https://katadata.co.id/digital/teknologi/6af3052abb008/komdigi-terbitkan-tiga-surat-imbauan-antisipasi-serangan-hacker-ke-pemerintah> ; Katadata <https://katadata.co.id/digital/teknologi/6af11ea1bd37a/1-6-juta-serangan-siber-ancam-ri-24-jam-terakhir-sektor-keuangan-paling-banyak>"
+ },
+ {
+  "date": "2026-11-10",
+  "category": "TECH",
+  "event": "Google, Temasek and Bain's 2026 e-Conomy SEA report cut its 2030 forecast for Indonesia's digital economy GMV to US$227 billion from US$340 billion in the 2025 edition, as CNBC Indonesia reported on 11 Nov.",
+  "key_numbers": "2030 forecast US$227bn (Rp4,122tn) vs US$340bn (Rp6,174tn) · 2025 US$102bn · 2026 US$119bn · e-commerce 17% a year to 2035",
+  "storyline": "",
+  "status": "partial",
+  "sources": "CNBC Indonesia <https://www.cnbcindonesia.com/tech/20261111132146-37-784260/prospek-ekonomi-digital-indonesia-tak-secerah-dulu-ini-datanya> ; Databoks Katadata <https://databoks.katadata.co.id/ekonomi-makro/statistik/6af42d87863e2/laporan-google-temasek-bain-ekonomi-digital-indonesia-menguat-pada-2026>"
+ },
+ {
+  "date": "2026-11-10",
+  "category": "TECH",
+  "event": "Hackers drained about US$93 million from hundreds of crypto wallets linked to Ledger hardware devices sold through reseller CryptoBilis, and Ledger said at least one device had an unauthorized hardware implant.",
+  "key_numbers": "US$93.2m (about Rp1.6tn) from 315 wallets on 6 chains (Bitquery) · US$94.5m from 521 addresses on 7 chains (YFarmX) · Tether froze US$10m · CNBC headline says Rp1.8tn, body says Rp1.6tn",
+  "storyline": "crypto-hacks",
+  "status": "partial",
+  "sources": "CNBC Indonesia (citing CoinDesk) <https://www.cnbcindonesia.com/tech/20261111090311-37-784123/hacker-curi-rp-18-triliun-dari-dompet-kripto-dijual-di-indonesia>"
+ },
+ {
+  "date": "2026-11-11",
+  "category": "TECH",
+  "event": "Trump said he knew the FBI was investigating Nvidia CEO Jensen Huang's relationship with Alice Huang, alleged by the NYT to be linked to China, while Nvidia shareholders filed a class action alleging concealment. (update of E0716)",
+  "key_numbers": "Dinner in Taipei 22 May 2025 · CNBC headline: Rp7,805tn vanishes (not in article body) · Lori Huang could get about Rp1,125tn in a divorce (headline)",
+  "storyline": "",
+  "status": "partial",
+  "sources": "CNBC Indonesia <https://www.cnbcindonesia.com/tech/20261111112712-37-784191/fbi-sampai-turun-tangan-usut-skandal-perselingkuhan-ceo-nvidia> ; Katadata <https://katadata.co.id/digital/teknologi/6af29fe43a6d7/trump-dan-xi-jinping-akan-bertemu-isu-mata-mata-cina-di-nvidia-jadi-sorotan>"
+ },
+ {
+  "date": "2026-11-11",
+  "category": "TECH",
+  "event": "CNBC Indonesia reported the Trump administration is finalizing a ban on imports of new Chinese optical transceivers, which Microsoft and tech lobbies warn could halt US data-centre construction. (update of E0687)",
+  "key_numbers": "Microsoft building 35 US data centres, 134 more planned · Eoptolink and Zhongji Innolight hold up to two-thirds of the global market · US makers need until 2028-2029 to scale (Morgan Stanley)",
+  "storyline": "ai-data-centres",
+  "status": "partial",
+  "sources": "CNBC Indonesia <https://www.cnbcindonesia.com/tech/20261111131207-37-784257/proyek-data-center-terancam-mangkrak-total-pengusaha-teriak>"
+ },
+ {
+  "date": "2026-11-10",
+  "category": "TECH",
+  "event": "TikTok launched a standalone TikTok Shop app in Singapore, Malaysia, Thailand and the Philippines, but not in Indonesia, where the Shop stays inside the main TikTok app. (update of E0645)",
+  "key_numbers": "4 countries · Indonesia not included",
+  "storyline": "ecommerce-seller-rules",
+  "status": "partial",
+  "sources": "CNBC Indonesia (citing TechCrunch) <https://www.cnbcindonesia.com/tech/20261111075509-37-784086/tiktok-shop-pisah-dari-tiktok-ada-aplikasi-sendiri-khusus-ecommerce>"
+ },
+ {
+  "date": "2026-11-11",
+  "category": "TECH",
+  "event": "Danantara and Telkom introduced Padisera, a national MSME marketplace extending Telkom's PaDi UMKM from B2B into B2C, with a consumer trial planned for 2027.",
+  "key_numbers": "PaDi UMKM: 180,000+ sellers · 115,000 buyers · GMV above Rp27tn · B2C trial 2027 · first shown 26 Oct at DTIIF 2026",
+  "storyline": "ecommerce-seller-rules",
+  "status": "partial",
+  "sources": "CNBC Indonesia <https://www.cnbcindonesia.com/tech/20261111125053-37-784241/hadirkan-padisera-danantara-telkom-perkuat-perdagangan-digital-umkm>"
+ },
+ {
+  "date": "2026-11-10",
+  "category": "NEWS",
+  "event": "A 10 November protest in Yogyakarta turned violent at the DPRD DIY office after about 20:00 WIB, and Polda DIY detained over 100 people and named two Molotov throwers as suspects. (update of E0723)",
+  "key_numbers": "Detained: 106 (Polda DIY/Jawa Pos) vs 154 (CNN Indonesia headline) vs 94 (Kompas early count) · 2 suspects · 6 Molotovs, 12 firecrackers, 7 bottles of gasoline seized · 33 victims treated (Tribun Jogja) · Surabaya: 2 arrested with Molotovs",
+  "storyline": "protests-prabowo-2-years",
+  "status": "verified",
+  "sources": "CNN Indonesia <https://cnnindonesia.com/nasional/20261111195929-12-1426067/2-pelempar-molotov-saat-demo-10-november-di-yogya-jadi-tersangka> ; CNN Indonesia <https://www.cnnindonesia.com/nasional/20261111074835-12-1425694/polisi-tangkap-154-orang-terkait-aksi-berujung-ricuh-di-dprd-diy> ; Jawa Pos <https://www.jawapos.com/nasional/2611110007/106-orang-di-jogja-diamankan-usai-ricuh-polda-diy-sita-molotov-hingga-sajam>"
+ },
+ {
+  "date": "2026-11-11",
+  "category": "TECH",
+  "event": "BNI said it will close BNI Mobile Banking in stages from 30 November 2026, with access ending fully on 21 December 2026, and urged customers to move to wondr by BNI.",
+  "key_numbers": "Start 30 Nov 2026 · full shutdown 21 Dec 2026 · first notice 2 Jun 2025, updated 20 Oct 2026 · no user count disclosed · subject to regulator approval",
+  "storyline": "",
+  "status": "verified",
+  "sources": "CNN Indonesia <https://www.cnnindonesia.com/ekonomi/20261111120209-78-1425801/bni-tutup-layanan-mobile-banking-bertahap-mulai-30-november-2026> ; Kontan <https://keuangan.kontan.co.id/news/bni-bakal-tutup-layanan-bni-mobile-banking-30-november-dan-21-desember-2026> ; Liputan6 <https://www.liputan6.com/bisnis/read/8333218/bni-mobile-banking-tutup-21-desember-2026>"
+ },
+ {
+  "date": "2026-11-10",
+  "category": "NEWS",
+  "event": "North Sumatra Governor Bobby Nasution said vape will no longer be allowed to be used or sold in the province under a draft regional regulation targeted for passage by end of November, with a special UMKM credit scheme for vape sellers. (update of E0689)",
+  "key_numbers": "Target: Perda passed before 30 Nov 2026 · revises Perda No. 1/2019 · MUI Fatwa No. 131/2026 signed 6 Nov · no penalties or trader count disclosed",
+  "storyline": "",
+  "status": "verified",
+  "sources": "CNN Indonesia <https://www.cnnindonesia.com/nasional/20261111065607-20-1425673/bobby-nasution-vape-tak-boleh-lagi-diperdagangkan-di-sumut> ; Medan Merdeka <https://www.medanmerdeka.com/2026/11/sumut-segera-larang-vape-bobby-nasution.html>"
+ },
+ {
+  "date": "2026-11-11",
+  "category": "ENV",
+  "event": "River overflow after heavy rain submerged five villages in Aceh Barat while Pidie Jaya, Aceh remains under a 14-day disaster emergency. (update of E0726)",
+  "key_numbers": "Aceh Barat: 5 villages in 2 districts (Pante Ceureumen, Johan Pahlawan) · water 20-30 cm at Pasie Leuhan · Krueng Meureubo overflow · Pidie Jaya emergency 4-17 Nov, 40 families displaced · households affected not yet reported (Viva reports 43 villages, unverified)",
+  "storyline": "",
+  "status": "verified",
+  "sources": "CNN Indonesia <https://www.cnnindonesia.com/nasional/20261111073205-20-1425684/curah-hujan-tinggi-banjir-rendam-lima-desa-di-aceh-barat> ; Detik <https://news.detik.com/berita/d-8747465/banjir-rendam-5-desa-di-aceh-barat> ; Antara <https://www.antaranews.com/berita/5845943/bnpb-banjir-di-pidie-jaya-aceh-meluas-hingga-40-keluarga-mengungsi>"
+ },
+ {
+  "date": "2026-11-11",
+  "category": "NEWS",
+  "event": "Polri said the ethics trial of Listyo Sigit and two other generals over the illegal wiretapping of President Prabowo will resume next week. (update of E0712)",
+  "key_numbers": "3 generals facing ethics trial · resumes week of 16 Nov (exact date not confirmed)",
+  "storyline": "listyo-sigit-penyadapan",
+  "status": "upcoming",
+  "sources": "CNN Indonesia <https://www.cnnindonesia.com/nasional/20261111084300-12-1425713/sidang-etik-listyo-dkk-di-kasus-penyadapan-bakal-dilanjut-pekan-depan> ; Suara <https://www.suara.com/news/2026/11/11/123705/kasus-penyadapan-ilegal-listyo-sigit-cs-polri-segera-gelar-sidang-etik-tiga-jenderal>"
+ },
+ {
+  "date": "2026-11-11",
+  "category": "NEWS",
+  "event": "TurnBackHoax (Mafindo) rated false a video presented as a flash flood in Padang on 10 October 2026, plus claims that Bahlil was involved in illegal wiretapping and that Titiek Soeharto agreed to cash payouts for MBG.",
+  "key_numbers": "3 [SALAH] ratings on 11 Nov · also 10 Nov: Kapolri removing Kapolda Jateng (false), BPJS registration link at Kopdes clinics (scam)",
+  "storyline": "",
+  "status": "verified",
+  "sources": "TurnBackHoax <https://turnbackhoax.id/articles/37430-salah-video-banjir-bandang-yang-menerjang-kota-padang-sumatera-barat-pada-10-oktober-2026> ; TurnBackHoax <https://turnbackhoax.id/>"
+ }
+]

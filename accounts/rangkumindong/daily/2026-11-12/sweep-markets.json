@@ -1,0 +1,326 @@
+{
+  "area": "markets",
+  "run_date": "2026-11-12",
+  "checked": [
+    "CNBC Indonesia market (WebFetch section page blocked by permission; used search results and articles instead)",
+    "detikFinance front page + terpopuler",
+    "Bisnis (search results; article fetch failed)",
+    "ANTARA ekonomi (search only)",
+    "Watch list found: IHSG close, foreign flow, HSC/IDX, MSCI, rupiah, BI RDG, fuel quota, Garuda/Danantara, PHK (Boeing), Panda Bond, Fed",
+    "Storylines searched: msci-reclassification, rupiah, survival-mode/fuel-oil, BI RDG",
+    "BEI CASA/FUJI/NSSS probe seen, already covered (9 Nov video), not re-reported"
+  ],
+  "events": [
+    {
+      "date": "2026-11-12",
+      "category": "MKT",
+      "event": "MSCI is due to announce its November 2026 index review around 05:00 WIB on 12 November, with MTEL, WIFI and RAJA at risk of Small Cap deletion and BRMS at risk of moving from Standard to Small Cap.",
+      "key_numbers": "Announcement ~05:00 WIB Thu 12 Nov · effective after close Mon 30 Nov (from 1 Dec) · MTEL est. free-float mcap ~US$177 jt (9 Nov) · WIFI ~US$99 jt · RAJA ~US$108 jt vs retention threshold ~US$173 jt · BRMS retention price ~Rp440 · MSCI freeze on new IMI additions/upgrades continues",
+      "storyline": "msci-reclassification",
+      "update_of": "E0697",
+      "status": "upcoming",
+      "sources": [
+        {
+          "label": "CNBC Indonesia",
+          "url": "https://www.cnbcindonesia.com/research/20261110144326-128-783923/msci-bakal-umumkan-review-kamis-seperti-apa-kisi-kisi-skenarionya"
+        },
+        {
+          "label": "CNBC Indonesia",
+          "url": "https://www.cnbcindonesia.com/market/20261111054909-17-784073/jelang-pengumuman-msci-reformasi-pasar-modal-jadi-andalan"
+        }
+      ],
+      "why_it_matters": "The first MSCI verdict since the Standalone-downgrade proposal moves which Indonesian stocks index funds must sell.",
+      "signals": {
+        "spreading": 2,
+        "wallet": 1,
+        "surprise": 1,
+        "visual": 1,
+        "fresh": 2,
+        "rivals": 1
+      },
+      "spreading_evidence": "CNBC Indonesia, Bisnis, Kontan, Periskop all running pre-announcement pieces",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-11",
+      "category": "MKT",
+      "event": "BEI widened the high shareholder concentration (HSC) list from 83 to 383 stocks by dropping the Rp5 trillion market-cap screen and the price-impact test, and will exclude them from IHSG calculation from Friday 13 November.",
+      "key_numbers": "300 stocks added -> 383 total · ~6.16% of IHSG market cap · HSC rule: 10 or fewer holders own >=92.5% · effective Fri 13 Nov 2026 · full list due 12 Nov",
+      "storyline": "msci-reclassification",
+      "update_of": "E0696",
+      "status": "verified",
+      "sources": [
+        {
+          "label": "CNN Indonesia",
+          "url": "https://cnnindonesia.com/ekonomi/20261111121030-92-1425807/bei-bakal-depak-300-saham-hsc-dari-ihsg-jumat-ini"
+        },
+        {
+          "label": "Bisnis",
+          "url": "https://market.bisnis.com/read/20261110/7/2020168/bei-umumkan-383-saham-masuk-daftar-hsc-keluar-dari-perhitungan-ihsg"
+        },
+        {
+          "label": "ANTARA",
+          "url": "https://www.antaranews.com/berita/5845887/bei-keluarkan-300-saham-hsc-mulai-jumat-ini"
+        }
+      ],
+      "why_it_matters": "IHSG will be calculated without hundreds of thinly-held stocks, so the headline index changes meaning for retail investors.",
+      "signals": {
+        "spreading": 2,
+        "wallet": 1,
+        "surprise": 2,
+        "visual": 2,
+        "fresh": 2,
+        "rivals": 1
+      },
+      "spreading_evidence": "detikFinance terpopuler #4",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-11",
+      "category": "MKT",
+      "event": "IHSG closed down 0.21% at 5,115.04 on 11 November ahead of the MSCI announcement, after hitting an intraday low of 5,086.02.",
+      "key_numbers": "Close 5,115.04 (-10.69 pts, -0.21%) · open 5,139.09 · intraday range 5,086.02-5,144.79 · volume 310.74 jt lot · value Rp7.87 T · foreign net sell ~Rp20.7 M (Kontan) · basic materials -2.09% · 10 Nov close 5,125.73",
+      "storyline": "msci-reclassification",
+      "update_of": "E0698",
+      "status": "verified",
+      "sources": [
+        {
+          "label": "CNBC Indonesia",
+          "url": "https://www.cnbcindonesia.com/market/20261111153604-17-784340/ihsg-ditutup-melemah-021-ke-511504-jelang-pengumuman-msci"
+        },
+        {
+          "label": "Kontan",
+          "url": "https://investasi.kontan.co.id/news/asing-net-sell-rp-207-miliar-saat-ihsg-turun-rabu-1111-cek-saham-yang-dijual"
+        }
+      ],
+      "why_it_matters": "IHSG sits just above 5,100 the day before MSCI's call.",
+      "signals": {
+        "spreading": 1,
+        "wallet": 1,
+        "surprise": 0,
+        "visual": 1,
+        "fresh": 2,
+        "rivals": 0
+      },
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-11",
+      "category": "MKT",
+      "event": "The rupiah closed weaker at Rp18,149 per USD on 11 November, down 0.48% from Rp18,062, a day before MSCI's announcement and the 17-18 November BI meeting.",
+      "key_numbers": "Close Rp18,149 (Kontan, spot) · prior close Rp18,062 · -0.48% · other quotes Rp18,114 (Media Indonesia/Suara) · 2026 weakest close remains 8 Jun Rp18,170 (Bisnis)/Rp18,188 (Kontan) · BI-Rate 5.75% · Oct inflation 3.23% y/y",
+      "storyline": "rupiah",
+      "update_of": "E0699",
+      "status": "verified",
+      "sources": [
+        {
+          "label": "Kontan",
+          "url": "https://investasi.kontan.co.id/news/rupiah-ditutup-melemah-ke-rp-18149-per-dolar-as-hari-ini-1111"
+        },
+        {
+          "label": "Suara.com",
+          "url": "https://www.suara.com/bisnis/2026/11/11/101700/jelang-pengumuman-msci-rupiah-malah-anjlok-ke-level-rp18114-per-dolar-as"
+        }
+      ],
+      "why_it_matters": "A rupiah near Rp18,150 raises costs of imports, travel and USD debt; vendor closes differ by tens of rupiah.",
+      "signals": {
+        "spreading": 1,
+        "wallet": 2,
+        "surprise": 1,
+        "visual": 2,
+        "fresh": 2,
+        "rivals": 0
+      },
+      "spreading_evidence": "detikFinance headline 'dolar naik lagi ke Rp18.100'",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-11",
+      "category": "BIZ",
+      "event": "Garuda Indonesia (GIAA) filed a third rights issue of up to 248.7 billion new shares, in which Danantara Asset Management would pay in kind with its 65.77% stake in GMFI.",
+      "key_numbers": "Up to 248,705,613,200 new Series E shares · up to Rp6.22 T headline (note: at Rp58-68 per share implies ~Rp14.4-16.9 T, unreconciled in source) · dilution up to 37.92% · exercise price Rp58-68 · DAM holds 91.11% · GMFI 82.10 miliar Series B shares (65.77%) · record date 23 Dec 2026 · rights trading 29 Dec-7 Jan 2027",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {
+          "label": "detikFinance",
+          "url": "https://finance.detik.com/bursa-dan-valas/d-8748179/garuda-indonesia-mau-rights-issue-rp-6-2-t"
+        },
+        {
+          "label": "Katadata",
+          "url": "https://katadata.co.id/finansial/bursa/6af4228e75a69/garuda-indonesia-giaa-siapkan-rights-issue-rp-6-2-triliun"
+        }
+      ],
+      "why_it_matters": "Shows how Danantara is recapitalising a state airline, and small GIAA holders face heavy dilution.",
+      "signals": {
+        "spreading": 2,
+        "wallet": 1,
+        "surprise": 1,
+        "visual": 1,
+        "fresh": 2,
+        "rivals": 2
+      },
+      "spreading_evidence": "detikFinance terpopuler #5",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-10",
+      "category": "ECO",
+      "event": "Indonesia's government priced its second Panda Bond, CNY10 billion in three tenors, drawing CNY17.26 billion in orders to help fund the 2026 APBN.",
+      "key_numbers": "CNY10 miliar (~Rp27.15 T) · orders CNY17.26 miliar (~Rp46.87 T), 1.726x · 3y 1.96% (CNY5.7 mlr) · 5y 2.15% (CNY3.7 mlr) · 7y 2.50% (CNY600 jt) · priced 10 Nov, settlement 17 Nov · AAA (Stable) China Lianhe",
+      "storyline": "",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {
+          "label": "Kontan",
+          "url": "https://nasional.kontan.co.id/news/pemerintah-ri-terbitkan-panda-bond-rp-2715-t-pesanan-investor-tembus-rp-4687-t"
+        },
+        {
+          "label": "detikFinance",
+          "url": "https://finance.detik.com/moneter/d-8747715/ri-terbitkan-panda-bond-lagi-pesanan-tembus-rp-46-triliun"
+        }
+      ],
+      "why_it_matters": "Indonesia borrows in yuan at about 2% while the rupiah weakens.",
+      "signals": {
+        "spreading": 1,
+        "wallet": 0,
+        "surprise": 1,
+        "visual": 1,
+        "fresh": 2,
+        "rivals": 2
+      },
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-10",
+      "category": "ECO",
+      "event": "BPH Migas raised the 2026 subsidised Solar quota to 20.27 million kilolitres (about +7.8%) while keeping the Pertalite allocation at 29.26 million kilolitres.",
+      "key_numbers": "Solar 20.27 jt KL (+7.8%) · Pertalite 29.26 jt KL unchanged · 8 provinces reportedly over their Pertalite allocation · Pertalite Rp10,000/l",
+      "storyline": "survival-mode",
+      "update_of": "E0705",
+      "status": "partial",
+      "sources": [
+        {
+          "label": "Kontan",
+          "url": "https://industri.kontan.co.id/news/kuota-solar-subsidi-ditambah-78-pertalite-tak-berubah"
+        },
+        {
+          "label": "CNBC Indonesia",
+          "url": "https://www.cnbcindonesia.com/news/20261110110547-4-783841/kuota-bbm-solar-subsidi-ditambah-pertalite-dipastikan-aman"
+        },
+        {
+          "label": "Kompas.com",
+          "url": "https://money.kompas.com/read/2026/11/11/112434326/bph-migas-tambah-kuota-solar-subsidi-alokasi-pertalite-tetap-2926-juta-kl"
+        }
+      ],
+      "why_it_matters": "A fixed Pertalite quota raises the question of what happens in December if it runs out.",
+      "signals": {
+        "spreading": 1,
+        "wallet": 2,
+        "surprise": 1,
+        "visual": 1,
+        "fresh": 2,
+        "rivals": 1
+      },
+      "spreading_evidence": "detikFinance top headline 11 Nov",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-11",
+      "category": "GLB",
+      "event": "Fed Governor Christopher Waller said a 50 bps hike in December should be considered if core inflation stays high, while markets still price a 25 bps move.",
+      "key_numbers": "Dec Fed move priced ~25 bps (near fully) · 50 bps odds ~10% (from ~15%) · US Oct CPI +0.4% m/m (0.3% consensus) · BOJ rate 1.25%",
+      "storyline": "rupiah",
+      "update_of": "E0701",
+      "status": "partial",
+      "sources": [
+        {
+          "label": "CNBC Indonesia",
+          "url": "https://www.cnbcindonesia.com/market/20261111153604-17-784340/ihsg-ditutup-melemah-021-ke-511504-jelang-pengumuman-msci"
+        },
+        {
+          "label": "CNBC Indonesia",
+          "url": "https://www.cnbcindonesia.com/research/20261109182328-128-783692/banyak-kabar-baik-dari-ri-ujian-ihsg-rupiah-justru-datang-dari-as"
+        }
+      ],
+      "why_it_matters": "A Fed hike keeps pressure on the rupiah and on BI's 17-18 Nov decision.",
+      "signals": {
+        "spreading": 1,
+        "wallet": 1,
+        "surprise": 1,
+        "visual": 0,
+        "fresh": 2,
+        "rivals": 1
+      },
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-10",
+      "category": "GLB",
+      "event": "Boeing will lay off about 2,500 employees, roughly 5% of its Commercial Airplanes division, with notices starting in December.",
+      "key_numbers": "~2,500 jobs · ~5% of ~50,000 BCA staff · BCA Q3 2026 loss US$697 jt · BCA 44% of Boeing revenue · notices from Dec",
+      "storyline": "",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {
+          "label": "detikFinance",
+          "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8747848/boeing-berdarah-darah-mau-phk-2-500-karyawan"
+        },
+        {
+          "label": "Washington Times",
+          "url": "https://www.washingtontimes.com/news/2026/nov/10/boeing-lays-5-commercial-airplanes-division-axing-roughly-2500-jobs/"
+        }
+      ],
+      "why_it_matters": "Limited direct Indonesia effect, but Garuda and Lion Air depend on Boeing deliveries.",
+      "signals": {
+        "spreading": 1,
+        "wallet": 0,
+        "surprise": 1,
+        "visual": 0,
+        "fresh": 2,
+        "rivals": 1
+      },
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-11",
+      "category": "BIZ",
+      "event": "BNI will begin closing its BNI Mobile Banking app on 30 November 2026, with customer access ending on 21 December 2026, and is moving customers to wondr by BNI.",
+      "key_numbers": "Start 30 Nov 2026 · full end 21 Dec 2026 · replacement app wondr by BNI · BNI says no material impact",
+      "storyline": "",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {
+          "label": "CNN Indonesia",
+          "url": "https://www.cnnindonesia.com/ekonomi/20261111120209-78-1425801/bni-tutup-layanan-mobile-banking-bertahap-mulai-30-november-2026"
+        }
+      ],
+      "why_it_matters": "Millions of BNI customers must migrate apps before 21 December or lose mobile access.",
+      "signals": {
+        "spreading": 2,
+        "wallet": 2,
+        "surprise": 1,
+        "visual": 1,
+        "fresh": 2,
+        "rivals": 1
+      },
+      "spreading_evidence": "detikFinance terpopuler #1",
+      "sensitivity": "normal"
+    }
+  ],
+  "gaps": [
+    "Foreign net flow for 11 Nov only from Kontan headline (Rp20.7 M net sell), not verified from the article",
+    "CNBC Indonesia and Kompas section/article pages could not be fetched",
+    "Rights issue figures do not reconcile (Rp6.22 T vs share count x Rp58-68)",
+    "Rupiah closes vary by vendor (Rp18,114-18,149)",
+    "Antam/commodity, DJP NPWP warning, Perlinsos not checked in depth"
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "area": "politics",
+  "run_date": "2026-11-12",
+  "checked": ["detik news front page (headlines as of 11 Nov night)", "CNN Indonesia /nasional", "Antara politik (search listing only, page not fetched)", "Tempo politik (search listing only; Tempo article blocked by robots)", "Watch list found: Presiden/Istana, Wapres, DPR HMP, Polri big case, KPK, demonstrations, party moves (NasDem, PAN), Kejagung/Polda Metro (Firli)", "Storyline searches: gibran-ijazah-mk, listyo-sigit-penyadapan, jokowi-ijazah-roy-suryo, corruption-cases (KPK Djarum), kpk-nusron-atr-bpn"],
+  "events": [
+    {
+      "date": "2026-11-11",
+      "category": "POL",
+      "event": "Projo chair Budi Arie said VP Gibran handed a resignation letter to President Prabowo at Halim Perdanakusuma air base after Prabowo returned from Aceh; MPR Chairman Ahmad Muzani said he had not received any letter, and the Istana had not confirmed the letter itself.",
+      "key_numbers": "Letter reportedly handed 11 Nov 2026 (Wed) · Istana earlier confirmed only the intent to resign (10 Nov, 2.5-hour meeting) · MPR: no letter received",
+      "storyline": "gibran-ijazah-mk",
+      "update_of": "E0708",
+      "status": "partial",
+      "sources": [
+        {"label": "detikNews", "url": "https://news.detik.com/berita/d-8749019/dinamika-polemik-gibran-hmp-bergulir-hingga-serahkan-surat-mundur-ke-prabowo"},
+        {"label": "Suara.com", "url": "https://sumsel.suara.com/read/2026/11/11/223535/gibran-ajukan-pengunduran-diri-dpr-besok-bahas-pemakzulan-mana-yang-diproses-dulu"},
+        {"label": "Pontianak Post", "url": "https://pontianakpost.jawapos.com/nasional/2611110090/surat-pengunduran-diri-sudah-di-tangan-prabowo-semua-fraksi-dpr-kompak-hmp-kan-gibran"}
+      ],
+      "why_it_matters": "Whether the Vice President's post becomes vacant depends on which formal route (resignation or HMP) is completed first.",
+      "signals": {"spreading": 2, "wallet": 0, "surprise": 2, "visual": 1, "fresh": 2, "rivals": 0},
+      "spreading_evidence": "detik front page 6+ Gibran headlines on 11 Nov; CNN Indonesia nasional top items",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-11",
+      "category": "POL",
+      "event": "PDIP faction chair Utut Adianto said all 110 PDIP members back the HMP on Gibran; Pontianak Post and Suara.com report the proposal carries 120 signatures and meets the minimum of 25 members from more than one faction, citing UUD 1945 Pasal 7A/7B and UU MD3 Pasal 79(4).",
+      "key_numbers": "120 signatures from 8 factions · minimum 25 members · PDIP 110 members (102 attended the faction plenary, 8 excused) · plenary expected Thu 12 Nov",
+      "storyline": "gibran-ijazah-mk",
+      "update_of": "E0730",
+      "status": "verified",
+      "sources": [
+        {"label": "Pontianak Post", "url": "https://pontianakpost.jawapos.com/nasional/2611110090/surat-pengunduran-diri-sudah-di-tangan-prabowo-semua-fraksi-dpr-kompak-hmp-kan-gibran"},
+        {"label": "Suara.com", "url": "https://sumsel.suara.com/read/2026/11/11/223535/gibran-ajukan-pengunduran-diri-dpr-besok-bahas-pemakzulan-mana-yang-diproses-dulu"},
+        {"label": "detikNews", "url": "https://news.detik.com/berita/d-8749019/dinamika-polemik-gibran-hmp-bergulir-hingga-serahkan-surat-mundur-ke-prabowo"}
+      ],
+      "why_it_matters": "Shows how the DPR impeachment route works and how many factions are behind it; an HMP is not yet an impeachment.",
+      "signals": {"spreading": 2, "wallet": 0, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 0},
+      "spreading_evidence": "detik front page, CNN Indonesia, Tempo 'Adu Kuat Memakzulkan Gibran'",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-10",
+      "category": "POL",
+      "event": "Coordinating Minister Yusril Ihza Mahendra said the MK and MA rulings are final with no PK possible and Kemendikdasmen will not file one; Gibran said he would 'fight' at PTUN, while Bakom's head said Prabowo would not have advised that, and Denny Indrayana said he would face Gibran there.",
+      "key_numbers": "MA case 742 K/TUN/2026 · 2.5-hour Prabowo-Gibran meeting on 10 Nov",
+      "storyline": "gibran-ijazah-mk",
+      "update_of": "E0707",
+      "status": "partial",
+      "sources": [
+        {"label": "detikNews", "url": "https://news.detik.com/berita/d-8749019/dinamika-polemik-gibran-hmp-bergulir-hingga-serahkan-surat-mundur-ke-prabowo"},
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261111091202-12-1425720/denny-indrayana-buka-opsi-ladeni-gibran-fight-di-ptun"},
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261111055904-32-1425663/kepala-bakom-tak-mungkin-prabowo-sarankan-gibran-untuk-fight-di-ptun"}
+      ],
+      "why_it_matters": "Explains why the legal route (PTUN) looks closed or contested and why resignation or HMP are the live paths.",
+      "signals": {"spreading": 2, "wallet": 0, "surprise": 1, "visual": 0, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "CNN Indonesia nasional several items",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-12",
+      "category": "POL",
+      "event": "Komisi III DPR is scheduled to hold a meeting with the Kapolri on 12 Nov to discuss the wiretapping case against President Prabowo.",
+      "key_numbers": "Meeting 12 Nov 2026",
+      "storyline": "listyo-sigit-penyadapan",
+      "update_of": "E0712",
+      "status": "upcoming",
+      "sources": [
+        {"label": "detikNews", "url": "https://news.detik.com/berita/d-8748836/komisi-iii-dpr-rapat-dengan-kapolri-besok-bahas-kasus-penyadapan-prabowo"}
+      ],
+      "why_it_matters": "First public DPR questioning of Polri leadership on the case involving the ex-Kapolri.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 0, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-11",
+      "category": "POL",
+      "event": "Polri spokesperson Irjen Johnny Eddizon Isir said Listyo Sigit Prabowo, Irjen Eko Hadi Santoso and Irjen Slamet Uliandi will face a KKEP ethics hearing 'next week' with no special treatment, a panel chosen by Kapolri Suyudi Ario Seto; former Kadivkum Irjen Ahrie Sonta Nasution already received PTDH from a KKEP panel.",
+      "key_numbers": "3 generals to face ethics hearing · hearing 'pekan depan' (no firm date) · Ahrie Sonta: PTDH (dismissal without honour), 5-member panel chaired by Komjen Rudy Darmoko",
+      "storyline": "listyo-sigit-penyadapan",
+      "update_of": "E0562",
+      "status": "verified",
+      "sources": [
+        {"label": "Suara.com", "url": "https://www.suara.com/news/2026/11/11/152555/susul-ahrie-sonta-yang-kena-ptdh-nasib-jenderal-listyo-sigit-segera-ditentukan-majelis-kkep"},
+        {"label": "detikNews", "url": "https://news.detik.com/berita/d-8747375/polri-pastikan-listyo-sigit-bakal-sidang-etik-tak-ada-perlakuan-istimewa"},
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261111084300-12-1425713/sidang-etik-listyo-dkk-di-kasus-penyadapan-bakal-dilanjut-pekan-depan"}
+      ],
+      "why_it_matters": "Shows the internal police discipline track running parallel to the criminal case; a PTDH precedent already exists.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-11",
+      "category": "POL",
+      "event": "KPK examined GRIB Jaya chair Rosario de Marshal (Hercules) in the ATR/BPN bribery case; Hercules said Rp800 million came from Summarecon's legal counsel for travel costs and mediating a land dispute, and that he handed it to KPK.",
+      "key_numbers": "Rp800 juta · about 65 ha land dispute in Bogor (per Hercules) · 8 suspects named by KPK · 14 questions (Suara.com)",
+      "storyline": "kpk-nusron-atr-bpn",
+      "update_of": "E0387",
+      "status": "partial",
+      "sources": [
+        {"label": "CNN Indonesia", "url": "https://cnnindonesia.com/nasional/20261111172242-12-1426001/hercules-ungkap-rp800-juta-dari-summarecon-untuk-bantu-mediasi"},
+        {"label": "detikNews", "url": "https://news.detik.com/berita/d-8748679/usai-diperiksa-kpk-hercules-ungkap-asal-usul-uang-rp-800-juta-dari-summarecon"},
+        {"label": "Suara.com", "url": "https://www.suara.com/news/2026/11/11/173846/hercules-dicecar-14-pertanyaan-oleh-kpk-soal-uang-rp800-juta-dari-summarecon"}
+      ],
+      "why_it_matters": "Links a well-known mass-organisation figure to the land-permit (HGB) corruption case; the account is Hercules' own, not a KPK finding.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "detik, CNN Indonesia, Suara.com all covered",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-10",
+      "category": "NEWS",
+      "event": "Heroes' Day demonstrations in Yogyakarta began at DPRD DIY and spread to the UGM roundabout; Polda DIY says it secured 154 people and seized molotovs and other items, while UGM and Polda DIY, with Ombudsman and Komnas HAM, are checking reports of a mistaken arrest of a UGM student.",
+      "key_numbers": "154 people secured (as of 07:58, 11 Nov) · 12 firecrackers, 7 bottles of gasoline, molotov bottles seized · 13 participants unreachable per LBH Yogyakarta · Surabaya: 2 arrested for allegedly carrying molotovs",
+      "storyline": "protests-prabowo-2-years",
+      "update_of": "E0723",
+      "status": "verified",
+      "sources": [
+        {"label": "Radar Jogja", "url": "https://radarjogja.jawapos.com/jogja/2611110022/demo-ricuh-malioboro-meluas-ke-kampus-ugm-polisi-amankan-154-orang-dan-menyita-senjata-tajam"},
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261111101639-20-1425745/ugm-telusuri-info-mahasiswa-yang-diamankan-saat-demo-10-november"},
+        {"label": "detikNews", "url": "https://news.detik.com/berita/d-8748835/polda-libatkan-ombudsman-komnas-ham-telusuri-dugaan-salah-tangkap-mahasiswa-ugm"}
+      ],
+      "why_it_matters": "A protest that turned violent, with a dispute over whether police entered campus and arrested students.",
+      "signals": {"spreading": 2, "wallet": 0, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "'All Eyes on UGM' reported viral (Suara.com); CNN Indonesia nasional top items",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-11",
+      "category": "POL",
+      "event": "Polda Metro Jaya officers visited ex-KPK chair Firli Bahuri at a badminton hall after he missed two summonses in the Syahrul Yasin Limpo extortion case; police denied he was arrested and said he promised to attend the next examination.",
+      "key_numbers": "2 missed summonses · named suspect 22 Nov 2023 · SPDP returned by Kejati 7 Aug 2025 · no date given for next examination",
+      "storyline": "",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261111201326-12-1426071/polda-metro-tepis-isu-penangkapan-firli-bahuri-di-gor-bulutangkis"},
+        {"label": "detikNews", "url": "https://news.detik.com/berita/d-8748894/polda-metro-datangi-firli-bahuri-di-gor-bulutangkis"}
+      ],
+      "why_it_matters": "A case against a former anti-graft chief that has stalled for nearly three years has moved again.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 2, "visual": 1, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "Viral 'ditangkap' rumour per inews/inilah",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-11",
+      "category": "POL",
+      "event": "Prabowo attended NasDem's 15th anniversary, welcomed by Surya Paloh who said NasDem is loyal to the constitution and 'Prabowo must not fail'; Prabowo thanked PDIP, saying it is not a coalition but both defend the state, and joked about checking under the podium for wiretaps.",
+      "key_numbers": "NasDem 15th anniversary · 11 Nov 2026",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "detikNews", "url": "https://news.detik.com/berita/d-8749012/prabowo-terima-kasih-ke-pdip-bukan-koalisi-tapi-kita-sama-sama-bela-negara"},
+        {"label": "detikNews", "url": "https://news.detik.com/berita/d-8748985/surya-paloh-nasdem-loyal-pada-konstitusi-presiden-prabowo-tak-boleh-gagal"},
+        {"label": "detikNews", "url": "https://news.detik.com/berita/d-8748970/canda-prabowo-cek-bawah-podium-pidato-jangan-jangan-disadap-aku"}
+      ],
+      "why_it_matters": "Signals how parties line up around Prabowo while PDIP backs the Gibran HMP; headline-only, details not opened.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-11",
+      "category": "ECO",
+      "event": "The government agreed the 2027 subsidised fertiliser allocation at 9.85 million tons, per a detik headline.",
+      "key_numbers": "9.85 juta ton (2027)",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "detikNews", "url": "https://news.detik.com/berita/d-8748956/pemerintah-sepakati-alokasi-pupuk-subsidi-2027-sebesar-9-85-juta-ton"}
+      ],
+      "why_it_matters": "Subsidised fertiliser affects farmers' costs; headline only, comparison with 2026 allocation not checked.",
+      "signals": {"spreading": 0, "wallet": 1, "surprise": 0, "visual": 1, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    }
+  ],
+  "gaps": [
+    "Whether the DPR plenary actually read the HMP on 12 Nov, and the formal order between resignation letter and HMP (sources conflict on timing; detik says Bamus step first).",
+    "Istana has not confirmed the written resignation letter; only Projo's Budi Arie and detik 'dikabarkan'. Re-check 12 Nov morning.",
+    "KPK Djarum pita-cukai: only search listing seen (KPK planning new searches, Ketua KPK on corporate suspect potential), articles not opened, no event written.",
+    "Blocked/unread: detik d-8748892 (next steps after letter), Tempo articles (robots), Antara and Tempo section pages not fetched. Fertiliser and NasDem items are headline-only.",
+    "Kejagung probe of PT Djarum tax bribery (monitorindonesia) seen only as snippet."
+  ]
+}

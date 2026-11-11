@@ -1,0 +1,135 @@
+{
+  "area": "national",
+  "run_date": "2026-11-12",
+  "checked": ["detik terpopuler (11 Nov 14:46 WIB)", "CNN Indonesia nasional", "TurnBackHoax.id", "Antara tag banjir-bmkg (stale, last item 28 Oct)", "CNBC Indonesia (search only, page not fetched)", "storyline search: gibran-ijazah-mk", "storyline search: karhutla", "storyline search: listyo-sigit-penyadapan", "watch-list found: most-read, viral incident (Jogja protest), disasters (Aceh floods), public services (BNI mobile banking), hoaxes, vape regulation"],
+  "events": [
+    {
+      "date": "2026-11-10",
+      "category": "NEWS",
+      "event": "A 10 November protest in Yogyakarta turned violent at the DPRD DIY office after about 20:00 WIB, and Polda DIY detained over 100 people and named two Molotov throwers as suspects.",
+      "key_numbers": "Detained: 106 (Polda DIY/Jawa Pos) vs 154 (CNN Indonesia headline) vs 94 (Kompas early count) · 2 suspects · 6 Molotovs, 12 firecrackers, 7 bottles of gasoline seized · 33 victims treated (Tribun Jogja) · Surabaya: 2 arrested with Molotovs",
+      "storyline": "protests-prabowo-2-years",
+      "update_of": "E0723",
+      "status": "verified",
+      "sources": [
+        {"label": "CNN Indonesia", "url": "https://cnnindonesia.com/nasional/20261111195929-12-1426067/2-pelempar-molotov-saat-demo-10-november-di-yogya-jadi-tersangka"},
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261111074835-12-1425694/polisi-tangkap-154-orang-terkait-aksi-berujung-ricuh-di-dprd-diy"},
+        {"label": "Jawa Pos", "url": "https://www.jawapos.com/nasional/2611110007/106-orang-di-jogja-diamankan-usai-ricuh-polda-diy-sita-molotov-hingga-sajam"}
+      ],
+      "why_it_matters": "The first violent protest of the Heroes' Day wave; detention counts conflict across outlets and UGM is checking on detained students.",
+      "signals": {"spreading": 2, "wallet": 0, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 0},
+      "spreading_evidence": "detik terpopuler #14 (UGM condemns security handling); CNN Indonesia nasional top items 11 Nov",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-11",
+      "category": "TECH",
+      "event": "BNI said it will close BNI Mobile Banking in stages from 30 November 2026, with access ending fully on 21 December 2026, and urged customers to move to wondr by BNI.",
+      "key_numbers": "Start 30 Nov 2026 · full shutdown 21 Dec 2026 · first notice 2 Jun 2025, updated 20 Oct 2026 · no user count disclosed · subject to regulator approval",
+      "storyline": "",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/ekonomi/20261111120209-78-1425801/bni-tutup-layanan-mobile-banking-bertahap-mulai-30-november-2026"},
+        {"label": "Kontan", "url": "https://keuangan.kontan.co.id/news/bni-bakal-tutup-layanan-bni-mobile-banking-30-november-dan-21-desember-2026"},
+        {"label": "Liputan6", "url": "https://www.liputan6.com/bisnis/read/8333218/bni-mobile-banking-tutup-21-desember-2026"}
+      ],
+      "why_it_matters": "Millions of BNI customers must migrate apps within weeks or lose mobile banking access.",
+      "signals": {"spreading": 2, "wallet": 2, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "detik terpopuler #4 (detikFinance) on 11 Nov",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-10",
+      "category": "NEWS",
+      "event": "North Sumatra Governor Bobby Nasution said vape will no longer be allowed to be used or sold in the province under a draft regional regulation targeted for passage by end of November, with a special UMKM credit scheme for vape sellers.",
+      "key_numbers": "Target: Perda passed before 30 Nov 2026 · revises Perda No. 1/2019 · MUI Fatwa No. 131/2026 signed 6 Nov · no penalties or trader count disclosed",
+      "storyline": "",
+      "update_of": "E0689",
+      "status": "verified",
+      "sources": [
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261111065607-20-1425673/bobby-nasution-vape-tak-boleh-lagi-diperdagangkan-di-sumut"},
+        {"label": "Medan Merdeka", "url": "https://www.medanmerdeka.com/2026/11/sumut-segera-larang-vape-bobby-nasution.html"}
+      ],
+      "why_it_matters": "First regional vape ban following the MUI fatwa and the police chief's no-vape instruction; affects sellers and users.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "CNN Indonesia nasional headline list 11 Nov; several regional outlets",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-11",
+      "category": "ENV",
+      "event": "River overflow after heavy rain submerged five villages in Aceh Barat while Pidie Jaya, Aceh remains under a 14-day disaster emergency.",
+      "key_numbers": "Aceh Barat: 5 villages in 2 districts (Pante Ceureumen, Johan Pahlawan) · water 20-30 cm at Pasie Leuhan · Krueng Meureubo overflow · Pidie Jaya emergency 4-17 Nov, 40 families displaced · households affected not yet reported (Viva reports 43 villages, unverified)",
+      "storyline": "",
+      "update_of": "E0726",
+      "status": "verified",
+      "sources": [
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261111073205-20-1425684/curah-hujan-tinggi-banjir-rendam-lima-desa-di-aceh-barat"},
+        {"label": "Detik", "url": "https://news.detik.com/berita/d-8747465/banjir-rendam-5-desa-di-aceh-barat"},
+        {"label": "Antara", "url": "https://www.antaranews.com/berita/5845943/bnpb-banjir-di-pidie-jaya-aceh-meluas-hingga-40-keluarga-mengungsi"}
+      ],
+      "why_it_matters": "Rainy season floods are widening in Aceh just as Prabowo visits the province.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 0, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-11",
+      "category": "NEWS",
+      "event": "Polri said the ethics trial of Listyo Sigit and two other generals over the illegal wiretapping of President Prabowo will resume next week.",
+      "key_numbers": "3 generals facing ethics trial · resumes week of 16 Nov (exact date not confirmed)",
+      "storyline": "listyo-sigit-penyadapan",
+      "update_of": "E0712",
+      "status": "upcoming",
+      "sources": [
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261111084300-12-1425713/sidang-etik-listyo-dkk-di-kasus-penyadapan-bakal-dilanjut-pekan-depan"},
+        {"label": "Suara", "url": "https://www.suara.com/news/2026/11/11/123705/kasus-penyadapan-ilegal-listyo-sigit-cs-polri-segera-gelar-sidang-etik-tiga-jenderal"}
+      ],
+      "why_it_matters": "Tests whether Polri's top officer faces sanctions in a case touching the President.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 0, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "CNN Indonesia nasional #9; TurnBackHoax debunked a claim tying Bahlil to the wiretapping on 11 Nov",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-11",
+      "category": "NEWS",
+      "event": "TurnBackHoax (Mafindo) rated false a video presented as a flash flood in Padang on 10 October 2026, plus claims that Bahlil was involved in illegal wiretapping and that Titiek Soeharto agreed to cash payouts for MBG.",
+      "key_numbers": "3 [SALAH] ratings on 11 Nov · also 10 Nov: Kapolri removing Kapolda Jateng (false), BPJS registration link at Kopdes clinics (scam)",
+      "storyline": "",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "TurnBackHoax", "url": "https://turnbackhoax.id/articles/37430-salah-video-banjir-bandang-yang-menerjang-kota-padang-sumatera-barat-pada-10-oktober-2026"},
+        {"label": "TurnBackHoax", "url": "https://turnbackhoax.id/"}
+      ],
+      "why_it_matters": "Disaster video and political-figure hoaxes are circulating alongside the Gibran and wiretapping stories.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "TurnBackHoax front page 11 Nov (Padang flood video, Bahlil, Titiek, MBG)",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-11",
+      "category": "POL",
+      "event": "Hidayat Nur Wahid explained why he resigned as MPR deputy speaker, amid the DPR push for a hak menyatakan pendapat over Vice President Gibran.",
+      "key_numbers": "detik terpopuler #9 · reason and exact date of resignation not verified (headline only)",
+      "storyline": "gibran-ijazah-mk",
+      "update_of": "E0730",
+      "status": "partial",
+      "sources": [
+        {"label": "Detik terpopuler", "url": "https://www.detik.com/terpopuler"}
+      ],
+      "why_it_matters": "Another senior figure leaving a post while the Gibran process escalates.",
+      "signals": {"spreading": 2, "wallet": 0, "surprise": 1, "visual": 0, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "detik terpopuler #9",
+      "sensitivity": "high"
+    }
+  ],
+  "gaps": [
+    "DJP mass-message to NPWP holders (detik terpopuler #7; ddtc says wives' NPWP on spouse's DUK being deactivated en masse) - detik page blocked, details unverified",
+    "Gibran: detik terpopuler #1,2,5,6,8 and CNN items on resignation intent, PDIP all-member HMP and Wed 12 Nov paripurna; covered by E0730/E0731, not re-reported; worth checking outcome of the paripurna",
+    "Hidayat Nur Wahid resignation reason not read in full",
+    "Karhutla: only 5-6 Nov BNPB figures found (1,468 hotspots; Papua Selatan +66%), no newer update; CNBC Indonesia and Antara terkini pages not read",
+    "Jogja detention count conflicts (94/106/154); Prabowo in Aceh 11 Nov (opening mosque and Sekolah Rakyat) not detailed"
+  ]
+}
