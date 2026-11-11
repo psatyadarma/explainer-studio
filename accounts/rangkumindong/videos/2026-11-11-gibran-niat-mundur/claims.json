@@ -72,27 +72,6 @@
   "note": "Koran Jakarta has the direct quote 'harus ada pernyataan tertulislah ... kepada Majelis Permusyawaratan Rakyat'"
  },
  {
-  "claim": "Menurut pengusul, sekitar 50 anggota DPR meneken usulan hak menyatakan pendapat (HMP) terkait Wapres Gibran",
-  "numbers": "±50 (CNN: 50 dari 6 fraksi; Mardani: '50-an')",
-  "sources": [
-   "https://www.cnnindonesia.com/nasional/20261109144457-32-1424988/gibran-ajukan-pengunduran-diri-ke-prabowo",
-   "https://news.detik.com/berita/d-8747216/waka-dpr-jelaskan-mekanisme-hak-menyatakan-pendapat-terkait-gibran",
-   "https://fokusjabar.id/2026/11/11/puan-maharani-terima-usulan-hmp-soal-wapres-gibran/",
-   "https://www.beritasatu.com/nasional/3040119/dpr-belum-terima-usulan-hak-menyatakan-pendapat-untuk-gibran"
-  ],
-  "note": "earlier morning count (detik 10 Nov 10:06): 12 visible in photo, Mardani '>25'. Count is per proposers, not verified by DPR leadership; other proposer counts: PKS '29' (earlier), Mardani '48' from 5 factions (Tribun 17:51)"
- },
- {
-  "claim": "Pimpinan DPR belum memproses usulan HMP secara resmi: Waka DPR Saan Mustopa (10 Nov) bilang pimpinan menunggu 1–2 hari, lalu cek argumen, syarat jumlah dan sebaran fraksi, rapim, Bamus; Puan: sudah menerima laporan, akan ditindaklanjuti setelah pembukaan masa sidang",
-  "numbers": "1–2 hari",
-  "sources": [
-   "https://news.detik.com/berita/d-8747216/waka-dpr-jelaskan-mekanisme-hak-menyatakan-pendapat-terkait-gibran",
-   "https://www.beritasatu.com/nasional/3040119/dpr-belum-terima-usulan-hak-menyatakan-pendapat-untuk-gibran",
-   "https://www.cnnindonesia.com/nasional/20261110115128-32-1425321/dpr-bakal-proses-hak-menyatakan-pendapat-soal-pemakzulan-gibran"
-  ],
-  "note": "Mardani says the letter was delivered to the leadership; Saan: 'belum ada yang mengusulkan' (formally). Video only says 'itu baru usulan'"
- },
- {
   "claim": "HMP diusulkan minimal 25 anggota; menjadi hak DPR bila paripurna dihadiri ≥2/3 anggota dan disetujui ≥2/3 yang hadir",
   "numbers": "25; 2/3; 2/3",
   "sources": [
@@ -100,6 +79,24 @@
    "https://katadata.co.id/berita/nasional/6ac761230211a/putusan-mk-buka-ruang-pemakzulan-gibran-bagaimana-mekanismenya"
   ],
   "note": "Tata Tertib DPR (Peraturan DPR 1/2020) Pasal 191; caption only"
+ },
+ {
+  "claim": "Rabu 11 Nov 2026, 120 anggota DPR dari 8 fraksi resmi mengajukan usulan hak menyatakan pendapat (HMP) terkait Wapres Gibran; diterima Waka DPR Saan Mustopa dan Cucun Ahmad Syamsurizal",
+  "numbers": "120 anggota; 8 fraksi (PKS 28, NasDem 19, PKB 18, Demokrat 18, PDIP 14, Golkar 11, Gerindra 11, PAN 1)",
+  "sources": [
+   "https://www.cnnindonesia.com/nasional/20261111133951-32-1425862/8-fraksi-dpr-resmi-serahkan-hak-menyatakan-pendapat-soal-wapres-gibran",
+   "https://news.detik.com/berita/d-8748329/usul-hmp-pemakzulan-gibran-dibawa-ke-paripurna-dpr-besok"
+  ],
+  "note": "Saan: 'total yang mengusulkan ... berdasarkan tanda tangan adalah 120 orang dari delapan fraksi'. Kompas 11 Nov (robots-blocked, not opened) reports the same per coordinator"
+ },
+ {
+  "claim": "Menurut Waka DPR Saan Mustopa, setelah rapim dan Bamus, usulan HMP rencananya dibacakan (diteruskan) di rapat paripurna Kamis 12 Nov 2026; itu belum keputusan/voting",
+  "numbers": "12 Nov 2026, 10:00 WIB",
+  "sources": [
+   "https://news.detik.com/berita/d-8748329/usul-hmp-pemakzulan-gibran-dibawa-ke-paripurna-dpr-besok",
+   "https://www.cnnindonesia.com/nasional/20261111133951-32-1425862/8-fraksi-dpr-resmi-serahkan-hak-menyatakan-pendapat-soal-wapres-gibran"
+  ],
+  "note": "CNN gives no date ('paripurna terdekat'); detik: 'besok'. Video says 'rencananya dibacakan', not 'diputus'"
  },
  {
   "claim": "Jalur pemakzulan: pendapat DPR (paripurna) → MK memeriksa dan memutus paling lama 90 hari → bila terbukti, DPR usul ke MPR → MPR memutus paling lambat 30 hari, sidang dihadiri ≥3/4 anggota, disetujui ≥2/3 yang hadir",

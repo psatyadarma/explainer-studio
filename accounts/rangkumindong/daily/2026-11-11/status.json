@@ -14,7 +14,7 @@
   "render": "done",
   "video_sent": "done",
   "ok_post": "early",
-  "posted": "scheduled",
+  "posted": "done",
   "knowledge": "todo",
   "sweeps": "done",
   "factcheck_light": "done",
@@ -22,7 +22,8 @@
  },
  "notes": [
   "02:19Z user picked #2 Gibran + early OK post",
-  "02:44Z post scheduled 19:00 via Upload-Post job 2777d260"
+  "02:44Z post scheduled 19:00 via Upload-Post job 2777d260",
+  "10:10Z 19:00 schedule cancelled at 18:00 (HMP news); re-rendered, posted immediately 18:09 WITA by mistake (no --when)"
  ],
  "merge_stats": {
   "new": 34,

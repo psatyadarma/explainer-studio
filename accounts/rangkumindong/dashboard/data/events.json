@@ -1,55 +1,5 @@
 [
 {
-"id": "E0015",
-"date": "2026-10-11",
-"category": "POL",
-"event": "Prabowo meets Egyptian President el-Sisi in Jakarta; MoUs on maritime and defence industry",
-"key_numbers": "",
-"storyline": "",
-"status": "partial (roundup)",
-"upcoming": false
-},
-{
-"id": "E0016",
-"date": "2026-10-11",
-"category": "NEWS",
-"event": "Polri rotates 199 senior/mid officers; new Kakorlantas",
-"key_numbers": "199 officers",
-"storyline": "",
-"status": "partial (roundup)",
-"upcoming": false
-},
-{
-"id": "E0017",
-"date": "2026-10-11",
-"category": "NEWS",
-"event": "BMKG early warning: waves up to 4 m in several waters",
-"key_numbers": "4 m",
-"storyline": "",
-"status": "partial (roundup)",
-"upcoming": false
-},
-{
-"id": "E0018",
-"date": "2026-10-11",
-"category": "NEWS",
-"event": "Mandalika MotoGP weekend: Indonesian riders Veda Ega Pratama (Moto3) and Mario Aji (Moto2) in focus",
-"key_numbers": "",
-"storyline": "",
-"status": "partial (roundup)",
-"upcoming": false
-},
-{
-"id": "E0079",
-"date": "2026-10-11",
-"category": "ECO",
-"event": "Kemnaker data show 63,789 workers laid off (PHK) in January-September 2026, based on Job Loss Guarantee (JKP) reports, with West Java highest.",
-"key_numbers": "63,789 PHK Jan-Sep 2026 · Jawa Barat 13,044 · Banten 7,733 · Jawa Timur 6,154 · Jawa Tengah 5,585 · DKI Jakarta 4,587 · earlier cut-off: 32,389 for Jan-Jun 2026",
-"storyline": "consumer-health",
-"status": "verified",
-"upcoming": false
-},
-{
 "id": "E0019",
 "date": "2026-10-12",
 "category": "NEWS",
@@ -6827,7 +6777,7 @@
 "key_numbers": "Ends 11 Nov 2026 · flash sale from Rp11 ribu · discounts up to 90% · overlaps the planned 9 Nov digital tax start and the 50% admin fee cut for UMKM sellers (from 25 Oct)",
 "storyline": "ecommerce-seller-rules",
 "status": "upcoming",
-"upcoming": true
+"upcoming": false
 },
 {
 "id": "E0556",
@@ -6837,7 +6787,17 @@
 "key_numbers": "11 November 2026",
 "storyline": "ecommerce-seller-rules",
 "status": "upcoming",
-"upcoming": true
+"upcoming": false
+},
+{
+"id": "E0730",
+"date": "2026-11-11",
+"category": "POL",
+"event": "120 DPR members from 8 factions formally submit the hak menyatakan pendapat (HMP) proposal on VP Gibran to DPR leadership. (sensitivity: high)",
+"key_numbers": "120 members · 8 factions · submitted 11 Nov 2026 · proposal to be taken to plenary 12 Nov",
+"storyline": "gibran-ijazah-mk",
+"status": "verified",
+"upcoming": false
 },
 {
 "id": "E0444",
@@ -6876,6 +6836,16 @@
 "event": "MSCI is due to announce its November index review results on Thursday 12 November, with changes effective at the close of 30 November; MSCI is freezing new additions to the Indonesia IMI while deletions and downgrades can still happen. (update of E0444)",
 "key_numbers": "Announcement ~05:00 WIB Thu 12 Nov · effective after close Mon 30 Nov · at risk: MTEL (HSC-flagged, ~US$177m free-float cap), WIFI (~US$99m), RAJA (~US$108m), BRMS (possible Standard to Small Cap, ~US$1.35bn) · Mirae retention price for BRMS Rp440 vs Rp310 on 9 Nov · final EM/Standalone decision by 30 Jun 2027",
 "storyline": "msci-reclassification",
+"status": "upcoming",
+"upcoming": true
+},
+{
+"id": "E0731",
+"date": "2026-11-12",
+"category": "POL",
+"event": "Paripurna DPR 12 Nov: pembacaan usulan HMP Gibran (after rapim/Bamus). (sensitivity: high)",
+"key_numbers": "Thu 12 Nov 2026 · plenary reading after rapim/Bamus",
+"storyline": "gibran-ijazah-mk",
 "status": "upcoming",
 "upcoming": true
 },

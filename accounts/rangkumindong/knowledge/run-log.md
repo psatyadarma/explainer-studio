@@ -142,3 +142,8 @@ History moved out of HANDOFF.md (22 Oct) so fresh sessions read less. Append one
 - QA round 1 FIX (sync early -146 ms, timeline arrowhead, disclaimer from t=0) → producer set SUB_LEAD -0.04 → PASS. TTS said "Alice Wang" once (accepted). Scheduled ~10:00, live 19:00 (IG Dfjv8ISjuFg, YT trRoEmJt_cQ).
 - Problems: health.py false IG-24h WARN again (row order); couldn't delete the 14:00 send_later (denied; it no-op'd). Analyst at 10:00 was too early for 24/72 h reads (logged real hours 15 h / 63 h).
 - 2026-11-10 20:15 WITA IG insights: enam-investor 24 h (173 views, 25.6% of 46 s, 2 follows) and kripto-dibobol 72 h (552 views, 20.3%, 3 follows) from Upload-Post + IG web insights. No -b trial folders. Skip rate still app-only, business.facebook.com still blocked → hold_3s n/a.
+
+## 11 Nov (Wed, politics: Gibran niat mundur belum resmi / HMP; Pratama, myth, subs block, no B)
+- 4 sweeps OK (35 events, 34 merged). 5 ideas; user picked #2 Gibran (sens high) + early OK. Light FC 3 fixes, full FC 1 fix; QA 1 FIX (zone bleed) then PASS.
+- 18:00 news check found the 120-member HMP filing: cancelled the 19:00 Upload-Post schedule (DELETE /api/uploadposts/schedule/<job_id> works), rewrote l4/l5, re-voiced, re-FC/QA PASS, posted ~18:09 (missed --when; slot exception).
+- Problems: dashboard old blob delete (runs 9b4f257c...) denied by permission check; 14:00 default-pick trigger couldn't be deleted (harmless).

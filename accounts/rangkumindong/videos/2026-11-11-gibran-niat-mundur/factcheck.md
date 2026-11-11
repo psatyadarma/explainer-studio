@@ -1,4 +1,21 @@
-VERDICT: FIX (1 issue)
+VERDICT: PASS
+
+## Re-check 11 Nov 2026 ~17:00 WIB (10:00 UTC): changed parts only (l4, l5, post.json captions/sources/pinned)
+Fix 1 below is **superseded**: l4/l5 and captions were rewritten for today's formal HMP submission. The new wording checks out.
+
+| Claim | Verdict | What the source says | Source |
+|---|---|---|---|
+| l4 "Rabu, 120 anggota dari 8 fraksi resmi mengajukannya." + caption "120 anggota dari 8 fraksi resmi mengajukan usulannya ke pimpinan DPR (syarat minimal 25), kata Waka DPR Saan Mustopa" | OK | CNN 11 Nov 14:24: 120 anggota, 8 fraksi (PKS 28, NasDem 19, PKB 18, Demokrat 18, PDIP 14, Golkar 11, Gerindra 11, PAN 1), received by Saan Mustopa and Cucun Ahmad Syamsurizal; Saan confirmed the count. No party names in video/caption: good | https://www.cnnindonesia.com/nasional/20261111133951-32-1425862/8-fraksi-dpr-resmi-serahkan-hak-menyatakan-pendapat-soal-wapres-gibran |
+| l5 "Itu baru usulan. Kamis 12 November, rencananya dibacakan di paripurna. Lalu jalurnya: DPR, MK, MPR." + caption "setelah rapat pimpinan dan Bamus, usulan rencananya dibacakan di paripurna Kamis (12/11). Itu belum keputusan." | OK | detik 11 Nov 14:47: Saan says it goes to rapim, then Bamus, which decides whether it goes to the paripurna; "Rencananya, rapat paripurna terdekat akan digelar besok" (Kamis 12 Nov, 10:00 WIB). Rapim/Bamus not yet held, so "rencananya" is required and present. Reading is not a vote: "belum keputusan" is correct | https://news.detik.com/berita/d-8748329/usul-hmp-pemakzulan-gibran-dibawa-ke-paripurna-dpr-besok |
+| Caption "Sampai Rabu sore (11/11), belum ada surat resmi yang diumumkan" + hook | OK | Searches at ~17:00 WIB: no written resignation statement to MPR reported; CNN 14:24 and detik 14:47 mention none; latest items are still "niat"/"belum resmi". (HNW's resignation as Wakil Ketua MPR on 10 Nov is unrelated, per HNW) | CNN/detik above; https://jambitv.disway.id/nasional/read/18145/gibran-baru-sampaikan-niat-mundur-belum-resmi-lepas-jabatan-wapres |
+| Pinned comment: sources 10–11 + status line "usulan resmi 120 anggota dari 8 fraksi (11/11), rencananya dibacakan di paripurna 12/11 (Waka DPR Saan Mustopa); belum diputus" | OK | as above; caption, YT description, TikTok caption consistent; old "~50"/"memeriksanya" wording gone | – |
+
+Note (not a fact issue): draft.md now says 115 spoken words / ~46 s but still calls the 80–110-word target "met". It is over. The draft's own rule says to cut "Kursi wapres belum kosong." from l3 (−4 words).
+Before posting at 19:00 and again if posting is delayed past the Thu 12 Nov 10:00 paripurna: re-check for any letter to MPR and whether the paripurna/Bamus happened. If the reading has happened, l5's "rencananya" is out of date.
+
+---
+Earlier run (09:30 WIB), kept for record:
+VERDICT (earlier): FIX (1 issue)
 
 Fact-check MODE=full, run 11 Nov 2026 ~09:30 WIB (02:30 UTC). Sensitivity HIGH.
 

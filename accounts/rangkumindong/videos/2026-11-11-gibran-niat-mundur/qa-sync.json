@@ -1,178 +1,173 @@
 {
  "verdict": "PASS",
  "lead": 0.0,
- "matched_words": 93,
- "of_words": 95,
- "median_offset_s": -0.054,
- "share_in_window": 0.925,
- "share_late_over_150ms": 0.011,
+ "matched_words": 96,
+ "of_words": 99,
+ "median_offset_s": -0.081,
+ "share_in_window": 0.906,
+ "share_late_over_150ms": 0.0,
  "worst_lines": [
   {
-   "line": "l5",
-   "median_offset_s": -0.087
-  },
-  {
    "line": "l4",
-   "median_offset_s": -0.076
-  },
-  {
-   "line": "l1",
-   "median_offset_s": -0.058
+   "median_offset_s": -0.124
   },
   {
    "line": "l3",
-   "median_offset_s": -0.057
+   "median_offset_s": -0.102
+  },
+  {
+   "line": "l1",
+   "median_offset_s": -0.087
   },
   {
    "line": "l2",
-   "median_offset_s": -0.053
+   "median_offset_s": -0.086
+  },
+  {
+   "line": "l5",
+   "median_offset_s": -0.076
   }
  ],
  "pairs": [
   {
    "line": "h1",
    "word": "Katanya",
-   "offset": 0.145
+   "offset": 0.095
   },
   {
    "line": "h1",
    "word": "Gibran",
-   "offset": -0.052
+   "offset": -0.01
   },
   {
    "line": "h1",
    "word": "sudah",
-   "offset": -0.052
+   "offset": -0.037
   },
   {
    "line": "h1",
    "word": "mundur.",
-   "offset": -0.028
+   "offset": -0.002
   },
   {
    "line": "h1",
    "word": "Ternyata,",
-   "offset": -0.094
+   "offset": -0.102
   },
   {
    "line": "h1",
    "word": "belum",
-   "offset": -0.052
+   "offset": -0.157
   },
   {
    "line": "h1",
    "word": "resmi.",
-   "offset": -0.019
+   "offset": -0.043
   },
   {
    "line": "h2",
    "word": "Dari",
-   "offset": 0.118
+   "offset": 0.1
   },
   {
    "line": "h2",
    "word": "sini,",
-   "offset": -0.032
+   "offset": -0.03
   },
   {
    "line": "h2",
    "word": "ada",
-   "offset": -0.002
+   "offset": -0.04
   },
   {
    "line": "h2",
    "word": "dua",
-   "offset": -0.032
+   "offset": -0.03
   },
   {
    "line": "h2",
    "word": "jalan.",
-   "offset": -0.032
+   "offset": -0.05
   },
   {
    "line": "rd",
    "word": "Rangkumin",
-   "offset": 0.001
+   "offset": -0.016
   },
   {
    "line": "rd",
    "word": "dong!",
-   "offset": -0.02
+   "offset": -0.017
   },
   {
    "line": "l1",
    "word": "Selasa,",
-   "offset": 0.084
+   "offset": 0.064
   },
   {
    "line": "l1",
    "word": "kata",
-   "offset": -0.018
-  },
-  {
-   "line": "l1",
-   "word": "Prasetyo",
-   "offset": -0.039
+   "offset": -0.07
   },
   {
    "line": "l1",
    "word": "Hadi:",
-   "offset": -0.046
-  },
-  {
-   "line": "l1",
-   "word": "usai",
-   "offset": -0.17
-  },
-  {
-   "line": "l1",
-   "word": "putusan",
    "offset": -0.066
   },
   {
    "line": "l1",
+   "word": "usai",
+   "offset": -0.177
+  },
+  {
+   "line": "l1",
+   "word": "putusan",
+   "offset": -0.086
+  },
+  {
+   "line": "l1",
    "word": "MK",
-   "offset": -0.073
+   "offset": -0.156
   },
   {
    "line": "l1",
    "word": "dan",
-   "offset": -0.026
+   "offset": -0.076
   },
   {
    "line": "l1",
    "word": "MA,",
-   "offset": -0.086
+   "offset": -0.136
   },
   {
    "line": "l1",
    "word": "Gibran",
-   "offset": -0.186
+   "offset": -0.176
   },
   {
    "line": "l1",
    "word": "menyatakan",
-   "offset": -0.05
+   "offset": -0.084
   },
   {
    "line": "l1",
    "word": "niat",
-   "offset": -0.086
+   "offset": -0.096
   },
   {
    "line": "l1",
    "word": "mundur.",
-   "offset": -0.058
+   "offset": -0.088
   },
   {
    "line": "l2",
    "word": "Gibran",
-   "offset": 0.084
+   "offset": 0.019
   },
   {
    "line": "l2",
    "word": "sendiri",
-   "offset": -0.078
+   "offset": -0.098
   },
   {
    "line": "l2",
@@ -182,27 +177,27 @@
   {
    "line": "l2",
    "word": "tak",
-   "offset": -0.166
+   "offset": -0.186
   },
   {
    "line": "l2",
    "word": "ingin",
-   "offset": -0.053
+   "offset": -0.113
   },
   {
    "line": "l2",
    "word": "ini",
-   "offset": -0.046
+   "offset": -0.126
   },
   {
    "line": "l2",
    "word": "jadi",
-   "offset": -0.046
+   "offset": -0.086
   },
   {
    "line": "l2",
    "word": "polemik",
-   "offset": -0.018
+   "offset": -0.058
   },
   {
    "line": "l2",
@@ -212,22 +207,22 @@
   {
    "line": "l3",
    "word": "Jalan",
-   "offset": 0.143
+   "offset": -0.023
   },
   {
    "line": "l3",
    "word": "pertama:",
-   "offset": -0.018
+   "offset": -0.112
   },
   {
    "line": "l3",
    "word": "mundur.",
-   "offset": -0.154
+   "offset": -0.22
   },
   {
    "line": "l3",
    "word": "Kata",
-   "offset": -0.12
+   "offset": -0.127
   },
   {
    "line": "l3",
@@ -237,62 +232,62 @@
   {
    "line": "l3",
    "word": "Yusril,",
-   "offset": -0.026
+   "offset": -0.106
   },
   {
    "line": "l3",
    "word": "harus",
-   "offset": -0.053
+   "offset": -0.093
   },
   {
    "line": "l3",
    "word": "tertulis",
-   "offset": -0.058
+   "offset": -0.078
   },
   {
    "line": "l3",
    "word": "ke",
-   "offset": -0.046
+   "offset": -0.066
   },
   {
    "line": "l3",
    "word": "MPR.",
-   "offset": -0.21
+   "offset": -0.273
   },
   {
    "line": "l3",
    "word": "Belum",
-   "offset": -0.12
+   "offset": -0.107
   },
   {
    "line": "l3",
    "word": "ada.",
-   "offset": -0.086
+   "offset": -0.106
   },
   {
    "line": "l3",
    "word": "Kursi",
-   "offset": -0.1
+   "offset": -0.097
   },
   {
    "line": "l3",
    "word": "wapres",
-   "offset": -0.056
+   "offset": -0.096
   },
   {
    "line": "l3",
    "word": "belum",
-   "offset": -0.076
+   "offset": -0.163
   },
   {
    "line": "l3",
    "word": "kosong.",
-   "offset": -0.016
+   "offset": -0.056
   },
   {
    "line": "l4",
    "word": "Jalan",
-   "offset": -0.026
+   "offset": -0.046
   },
   {
    "line": "l4",
@@ -302,197 +297,217 @@
   {
    "line": "l4",
    "word": "hak",
-   "offset": -0.136
+   "offset": -0.216
   },
   {
    "line": "l4",
    "word": "menyatakan",
-   "offset": -0.064
+   "offset": -0.124
   },
   {
    "line": "l4",
    "word": "pendapat",
-   "offset": -0.064
+   "offset": -0.108
   },
   {
    "line": "l4",
    "word": "DPR.",
-   "offset": -0.096
+   "offset": -0.193
   },
   {
    "line": "l4",
-   "word": "Menurut",
-   "offset": -0.14
+   "word": "Rabu,",
+   "offset": -0.157
   },
   {
    "line": "l4",
-   "word": "pengusul,",
-   "offset": -0.064
-  },
-  {
-   "line": "l4",
-   "word": "sekitar",
-   "offset": -0.063
+   "word": "120",
+   "offset": -0.226
   },
   {
    "line": "l4",
    "word": "anggota",
-   "offset": -0.096
+   "offset": -0.116
   },
   {
    "line": "l4",
-   "word": "sudah",
-   "offset": -0.096
+   "word": "dari",
+   "offset": -0.128
   },
   {
    "line": "l4",
-   "word": "teken",
-   "offset": -0.096
+   "word": "fraksi",
+   "offset": -0.156
   },
   {
    "line": "l4",
-   "word": "usulannya.",
+   "word": "resmi",
    "offset": -0.063
+  },
+  {
+   "line": "l4",
+   "word": "mengajukannya.",
+   "offset": -0.084
   },
   {
    "line": "l5",
    "word": "Tapi,",
-   "offset": 0.233
+   "offset": 0.042
   },
   {
    "line": "l5",
    "word": "itu",
-   "offset": 0.023
+   "offset": -0.068
   },
   {
    "line": "l5",
    "word": "baru",
-   "offset": -0.005
+   "offset": -0.11
   },
   {
    "line": "l5",
    "word": "usulan.",
-   "offset": -0.064
+   "offset": -0.065
   },
   {
    "line": "l5",
-   "word": "Harus",
-   "offset": -0.119
+   "word": "Kamis",
+   "offset": -0.137
   },
   {
    "line": "l5",
-   "word": "lolos",
-   "offset": -0.087
+   "word": "12",
+   "offset": -0.008
   },
   {
    "line": "l5",
-   "word": "paripurna",
-   "offset": -0.087
+   "word": "November,",
+   "offset": 0.143
   },
   {
    "line": "l5",
-   "word": "DPR,",
-   "offset": -0.054
+   "word": "rencananya",
+   "offset": -0.075
   },
   {
    "line": "l5",
-   "word": "lalu",
-   "offset": -0.127
+   "word": "dibacakan",
+   "offset": -0.028
   },
   {
    "line": "l5",
-   "word": "MK,",
+   "word": "di",
+   "offset": -0.061
+  },
+  {
+   "line": "l5",
+   "word": "paripurna.",
+   "offset": -0.088
+  },
+  {
+   "line": "l5",
+   "word": "Lalu",
    "offset": -0.147
   },
   {
    "line": "l5",
-   "word": "lalu",
-   "offset": -0.097
+   "word": "jalurnya:",
+   "offset": -0.078
+  },
+  {
+   "line": "l5",
+   "word": "DPR,",
+   "offset": -0.207
+  },
+  {
+   "line": "l5",
+   "word": "MK,",
+   "offset": -0.257
   },
   {
    "line": "l5",
    "word": "MPR.",
-   "offset": -0.237
+   "offset": -0.292
   },
   {
    "line": "cta",
    "word": "Menurut",
-   "offset": 0.048
+   "offset": 0.029
   },
   {
    "line": "cta",
    "word": "kamu,",
-   "offset": -0.018
+   "offset": -0.027
   },
   {
    "line": "cta",
    "word": "mana",
-   "offset": -0.03
+   "offset": -0.071
   },
   {
    "line": "cta",
    "word": "duluan:",
-   "offset": -0.062
+   "offset": -0.071
   },
   {
    "line": "cta",
    "word": "surat",
-   "offset": -0.042
+   "offset": -0.001
   },
   {
    "line": "cta",
    "word": "resmi,",
-   "offset": -0.062
+   "offset": -0.054
   },
   {
    "line": "cta",
    "word": "atau",
-   "offset": -0.054
+   "offset": -0.097
   },
   {
    "line": "cta",
    "word": "keputusan",
-   "offset": -0.009
+   "offset": -0.088
   },
   {
    "line": "cta",
    "word": "DPR?",
-   "offset": -0.069
+   "offset": -0.048
   },
   {
    "line": "cta",
    "word": "Komen!",
-   "offset": -0.1
+   "offset": -0.127
   },
   {
    "line": "end",
    "word": "Follow",
-   "offset": 0.117
+   "offset": 0.108
   },
   {
    "line": "end",
    "word": "Rangkumin",
-   "offset": -0.062
+   "offset": -0.071
   },
   {
    "line": "end",
    "word": "Dong,",
-   "offset": -0.054
+   "offset": -0.083
   },
   {
    "line": "end",
    "word": "biar",
-   "offset": -0.009
+   "offset": -0.051
   },
   {
    "line": "end",
    "word": "nggak",
-   "offset": -0.035
+   "offset": -0.044
   },
   {
    "line": "end",
    "word": "ketinggalan!",
-   "offset": -0.002
+   "offset": -0.044
   }
  ]
 }

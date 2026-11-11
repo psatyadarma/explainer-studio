@@ -127,21 +127,23 @@
       <div id="hS" class="abs sign ink" style="left:540px; top:450px; font-size:44px;"><b>2</b>HAK MENYATAKAN PENDAPAT DPR</div>
       <div id="hCb" class="abs sticker-svg" style="left:300px; top:880px;"></div>
       <div id="hN" class="abs" style="left:760px; top:830px; text-align:center;">
-        <div class="big" style="font-size:180px; color:var(--accent); letter-spacing:-4px;">±<span id="hNv">0</span></div>
-        <div class="lbl" style="color:var(--ink); font-size:36px; margin-top:8px;">anggota DPR<br>teken usulan</div></div>
-      <div id="hMp" class="abs tag light sticker" style="left:760px; top:640px; font-size:34px;">menurut pengusul</div>
+        <div class="big" style="font-size:180px; color:var(--accent); letter-spacing:-4px;"><span id="hNv">0</span></div>
+        <div class="lbl" style="color:var(--ink); font-size:36px; margin-top:8px;">anggota DPR<br>resmi mengajukan</div></div>
+      <div id="hMp" class="abs tick" style="left:760px; top:640px; font-size:44px;">RABU · 11 NOV</div>
+      <div id="hFr" class="abs chip" style="left:760px; top:1110px; font-size:56px;">8 fraksi</div>
       <div id="hSt" class="abs stampx" style="left:540px; top:1240px; font-size:96px;">BARU USULAN</div>
     </div>
 
     <!-- Z5 (2480,4800): harus lolos paripurna DPR → MK → MPR -->
     <div id="z5" class="zone" style="left:2480px; top:4800px;">
-      <div id="fHd" class="abs headline" style="left:540px; top:440px; font-size:84px; white-space:nowrap;">Harus lolos:</div>
-      <div id="fS1" class="abs step" style="left:540px; top:640px;">PARIPURNA DPR</div>
-      <svg id="fA1" class="abs" style="left:540px; top:790px;" width="80" height="100" viewBox="0 0 80 100"><path class="ar" d="M40 8 V86 M14 62 L40 90 L66 62"/></svg>
-      <div id="fS2" class="abs step" style="left:540px; top:940px;">MK</div>
-      <svg id="fA2" class="abs" style="left:540px; top:1090px;" width="80" height="100" viewBox="0 0 80 100"><path class="ar" d="M40 8 V86 M14 62 L40 90 L66 62"/></svg>
-      <div id="fS3" class="abs step" style="left:540px; top:1240px;">MPR</div>
-      <div id="fNt" class="abs note" style="left:540px; top:1380px;">belum ada voting paripurna · status per 11 Nov</div>
+      <div id="fHd" class="abs tick" style="left:540px; top:420px; font-size:64px;">KAMIS · 12 NOV</div>
+      <div id="fRc" class="abs bub" style="left:540px; top:580px; font-size:46px; white-space:nowrap;">rencananya dibacakan<br>di paripurna<small>kata Waka DPR Saan Mustopa · belum keputusan</small></div>
+      <div id="fLb" class="abs lbar" style="left:540px; top:760px;">LALU JALURNYA</div>
+      <div id="fS1" class="abs step" style="left:540px; top:880px; font-size:56px;">PARIPURNA DPR</div>
+      <svg id="fA1" class="abs" style="left:540px; top:985px;" width="70" height="70" viewBox="0 0 80 100"><path class="ar" d="M40 8 V86 M14 62 L40 90 L66 62"/></svg>
+      <div id="fS2" class="abs step" style="left:540px; top:1090px; font-size:56px;">MK</div>
+      <svg id="fA2" class="abs" style="left:540px; top:1195px;" width="70" height="70" viewBox="0 0 80 100"><path class="ar" d="M40 8 V86 M14 62 L40 90 L66 62"/></svg>
+      <div id="fS3" class="abs step" style="left:540px; top:1300px; font-size:56px;">MPR</div>
     </div>
 
     <!-- CTA (0,7200) -->
@@ -163,8 +165,8 @@
     <div class="logo">RANGKUMIN<br>DONG</div>
     <div class="tl2">Berita ribet? Rangkumin dong.</div>
     <div class="h">Follow @rangkumindong</div>
-    <div class="src">Sumber: CNN Indonesia (10 &amp; 11 Nov) · detikNews · Koran Jakarta ·<br>Liputan6 · Beritasatu · Katadata · lengkap di komentar</div>
-    <div class="src" style="font-size:24px; margin-top:0;">“Niat mundur” = menurut Mensesneg · belum ada surat resmi ke MPR · HMP = usulan, belum diputus paripurna DPR</div>
+    <div class="src">Sumber: CNN Indonesia (10 &amp; 11 Nov) · detikNews (10 &amp; 11 Nov) ·<br>Koran Jakarta · Liputan6 · Katadata · lengkap di komentar</div>
+    <div class="src" style="font-size:24px; margin-top:0;">“Niat mundur” = menurut Mensesneg · belum ada surat resmi ke MPR · HMP = usulan resmi 120 anggota (11 Nov), rencananya dibacakan di paripurna 12 Nov, belum diputus</div>
     <div class="src" style="font-size:24px; margin-top:0;">Foto (Public domain, via Wikimedia Commons): Gibran, Darwis Triadi &amp; Ministry of State Secretariat ·<br>Prasetyo Hadi, Ministry of State Secretariat · Yusril Ihza Mahendra, Kemenko Kumham Imipas</div>
   </div>
   <div id="progress"></div>
@@ -228,11 +230,11 @@ const CR = {
 function seek(t) {
   const Z = (x, y, z = 1.0) => ({ x, y: y + 200 / z, z });
   const zc = (ox, oy, z = 1) => Z(ox + 540, oy + 960, z);
-  const hEnd = at('rd', -0.3), wKursi = W('l3', 'kursi'), wHarus = W('l5', 'harus');
+  const hEnd = at('rd', -0.3), wKursi = W('l3', 'kursi'), wKam = W('l5', 'kamis');
   // zone changes are hard cuts (QA 11 Nov: no neighbouring zone may bleed in during a slide); only the current zone is visible
   const CUT = 0.001;
   const ZT = [['zA', 0], ['zB', at('h2', -0.25)], ['zT', hEnd], ['z1', at('l1', -0.3)], ['z2', at('l2', -0.3)], ['z3', at('l3', -0.3)],
-    ['z3b', wKursi - 0.3], ['z4', at('l4', -0.25)], ['z5', wHarus - 0.3], ['zQ', at('cta', -0.25)]];
+    ['z3b', wKursi - 0.3], ['z4', at('l4', -0.25)], ['z5', wKam - 0.3], ['zQ', at('cta', -0.25)]];
   K.camera($('world'), [
     { t: 0, ...zc(0, 0) },
     { t: W('h1', 'ternyata') - 0.1, ...zc(0, 0, 1.05), dur: 0.5 },
@@ -246,7 +248,7 @@ function seek(t) {
     { t: wKursi - 0.3, ...zc(0, 4800), dur: CUT },
     { t: at('l4', -0.25), ...zc(1240, 4800), dur: CUT },
     { t: W('l5', 'baru') - 0.15, ...zc(1240, 4800, 1.05), dur: 0.4 },
-    { t: wHarus - 0.3, ...zc(2480, 4800), dur: CUT },
+    { t: wKam - 0.3, ...zc(2480, 4800), dur: CUT },
     { t: at('cta', -0.25), ...zc(0, 7200), dur: CUT },
   ], t, 1080, 1920, 0.6);
   { const cur = ZT.filter(([, t0]) => t >= t0).pop()[0];
@@ -307,21 +309,25 @@ function seek(t) {
 
   // ---------- Z4: Jalan 2, HMP ----------
   slam($('hS'), t, at('l4', -0.25), -2, 1.4);
-  K.pop($('hCb'), t, W('l4', 'menurut') - 0.08, Infinity, -4 + 1.5 * Math.sin(t * 2));
-  K.pop($('hMp'), t, W('l4', 'pengusul') - 0.08, Infinity, -2);
-  { const n0 = W('l4', '50'), k = K.easeOut(K.prog(t, n0 - 0.05, 0.6));
-    slam($('hN'), t, n0 - 0.12, -2, 1.5); $('hNv').textContent = Math.round(50 * k); }
-  if (t > W('l4', 'teken') - 0.05) pulse($('hCb'), t, W('l4', 'teken') - 0.05, 0.08, -4);
+  K.pop($('hCb'), t, W('l4', 'rabu') + 0.25, Infinity, -4 + 1.5 * Math.sin(t * 2));
+  K.pop($('hMp'), t, W('l4', 'rabu') - 0.08, Infinity, -2);
+  K.pop($('hFr'), t, W('l4', '8') - 0.08, Infinity, 2);
+  { const n0 = W('l4', '120'), k = K.easeOut(K.prog(t, n0 - 0.05, 0.8));
+    slam($('hN'), t, n0 - 0.12, -2, 1.5); $('hNv').textContent = Math.round(120 * k); }
+  if (t > W('l4', 'resmi') - 0.05) pulse($('hCb'), t, W('l4', 'resmi') - 0.05, 0.08, -4);
   slam($('hSt'), t, W('l5', 'baru') - 0.05, -6, 2.2);
 
   // ---------- Z5: flow ----------
-  K.pop($('fHd'), t, wHarus - 0.3, Infinity, -2);
-  const s1 = W('l5', 'paripurna') - 0.08, s2 = W('l5', 'mk') - 0.08, s3 = W('l5', 'mpr') - 0.08;
-  K.pop($('fS1'), t, s1, Infinity, 0); fade($('fA1'), t, W('l5', 'lalu') - 0.1, Infinity, 0.2);
-  K.pop($('fS2'), t, s2, Infinity, 0); fade($('fA2'), t, W('l5', 'lalu', 1) - 0.1, Infinity, 0.2);
+  slam($('fHd'), t, wKam - 0.3, -2, 1.5);
+  if (t > W('l5', '12') - 0.05) pulse($('fHd'), t, W('l5', '12') - 0.05, 0.06, -2);
+  K.pop($('fRc'), t, W('l5', 'november') - 0.1, Infinity, -1);
+  if (t > W('l5', 'paripurna') - 0.05) pulse($('fRc'), t, W('l5', 'paripurna') - 0.05, 0.05, -1);
+  K.pop($('fLb'), t, W('l5', 'lalu') - 0.05, Infinity, -1);
+  const s1 = W('l5', 'dpr') - 0.08, s2 = W('l5', 'mk') - 0.08, s3 = W('l5', 'mpr') - 0.08;
+  K.pop($('fS1'), t, s1, Infinity, 0); fade($('fA1'), t, s2 - 0.15, Infinity, 0.15);
+  K.pop($('fS2'), t, s2, Infinity, 0); fade($('fA2'), t, s3 - 0.15, Infinity, 0.15);
   K.pop($('fS3'), t, s3, Infinity, 0);
   [[$('fS1'), s1, s2], [$('fS2'), s2, s3], [$('fS3'), s3, Infinity]].forEach(([el, a, b]) => el.classList.toggle('on', t >= a && t < b + 0.6));
-  K.pop($('fNt'), t, s3 + 0.4, Infinity, 0);
 
   // ---------- CTA ----------
   const qOut = END - 0.3;

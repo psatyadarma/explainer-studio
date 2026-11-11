@@ -1246,5 +1246,53 @@
 "shares": 2,
 "saves": 0,
 "follows": 3
+},
+{
+"date": "2026-11-11",
+"folder": "videos/2026-11-10-nvidia-ceo-diselidiki",
+"platform": "instagram",
+"hours": 23,
+"views": 117,
+"avg_watch_pct": 16.7,
+"hold_3s_pct": null,
+"shares": 0,
+"saves": 0,
+"follows": null
+},
+{
+"date": "2026-11-11",
+"folder": "videos/2026-11-10-nvidia-ceo-diselidiki",
+"platform": "youtube",
+"hours": 23,
+"views": 143,
+"avg_watch_pct": null,
+"hold_3s_pct": null,
+"shares": 0,
+"saves": null,
+"follows": 0
+},
+{
+"date": "2026-11-11",
+"folder": "videos/2026-11-08-minggu-depan-5-agenda-9-15-nov",
+"platform": "instagram",
+"hours": 71,
+"views": 234,
+"avg_watch_pct": 16.9,
+"hold_3s_pct": null,
+"shares": 1,
+"saves": 1,
+"follows": null
+},
+{
+"date": "2026-11-11",
+"folder": "videos/2026-11-08-minggu-depan-5-agenda-9-15-nov",
+"platform": "youtube",
+"hours": 71,
+"views": 34,
+"avg_watch_pct": 77.9,
+"hold_3s_pct": null,
+"shares": 0,
+"saves": null,
+"follows": 0
 }
 ]

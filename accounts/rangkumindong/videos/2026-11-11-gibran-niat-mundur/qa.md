@@ -1,10 +1,10 @@
 VERDICT: PASS
-1. Sync: PASS (qa_sync --lead 0.0 to match SUB_LEAD): median -54 ms, 92% of 93 words in [-200,+100] ms, 1% >150 ms late; worst l5 -87, l4 -76, l1 -58 ms. Highlight slightly early, within tolerance.
-2. Visuals: re-checked after producer fix (hard cuts); transitions at 3-4, 5.5-7.5, 22.5-24.5 and 36.5-38 s show only the current zone, no neighbour bleed or cut-off people. Cover (first frame) readable at thumbnail. Content stays inside 3:4 crop; subtitle block overlaps the right shaded zone only at the edge of its box, text is clear of it. Flow PARIPURNA DPR > MK > MPR lights in step with speech. Empty top area ~36-37.4 s (under 2 s) while l5 ends before cta starts; acceptable.
-3. Numbers: ±50 on screen / "sekitar 50" in subtitle match draft.md and post.json (50, min 25, 2/3, 90 and 30 days only in caption, as planned). No mismatch.
-4. Audio: -14.8 LUFS, true peak -1.6 dBTP, LRA 2.5. PASS.
-5. Format: 1080x1920, 30 fps, 45.23 s video / 45.23 s audio. Below 60 s but accepted for format short (coordinator, HANDOFF). PASS.
-6. Must-haves: Gibran, Prasetyo, Yusril have asset json, licence Public domain, credit on screen while photo shows and on end card. End card has handle and sources, tagline present. Not a market topic, no saham disclaimer needed. PART badge not needed (first video of storyline). json credit for Gibran has "&amp;" and Prasetyo has "Minsitry" typo in the source json; on-screen text is already corrected.
+1. Sync: PASS (qa_sync --lead 0.0 = SUB_LEAD, new voice take, new transcript): median -80 ms, 91% of 96 words in [-200,+100] ms, 0% >150 ms late; worst l4 -124, l3 -102, l1 -87 ms (highlight slightly early, in tolerance).
+2. Visuals: contact sheet + l4/l5/end card stills + safezone checked. Hard-cut transitions clean. l4: RABU 11 NOV, 120 anggota resmi mengajukan, 8 fraksi. l5: BARU USULAN stamp, KAMIS 12 NOV bubble "rencananya dibacakan di paripurna, kata Waka DPR Saan Mustopa, belum keputusan", flow PARIPURNA DPR > MK > MPR lit in step with speech. Cover readable. All content inside 3:4 crop; end card text clear of shaded zones. Minor, no fix: BARU USULAN stamp overshoots the frame width for ~2 frames at ~33.0 s (slam animation) and l5 has only the KAMIS bubble for ~3 s before the flow appears (under 4 s, not empty).
+3. Numbers: 120 / 8 fraksi / Rabu 11 Nov / Kamis 12 Nov on screen, subtitles, script.json, draft.md update, claims.json (faction split 28+19+18+18+14+11+11+1 = 120) and post.json captions all match. End card "usulan resmi 120 anggota (11 Nov), rencananya dibacakan di paripurna 12 Nov, belum diputus" consistent. No mismatch.
+4. Audio: -14.5 LUFS, true peak -1.1 dBTP (limit -1). PASS, but little headroom.
+5. Format: 1080x1920, 30 fps, 49.47 s video / 49.46 s audio. Under 60 s, accepted for short today (coordinator).
+6. Must-haves: people credits unchanged and shown (Gibran, Prasetyo, Yusril, Public domain); end card has handle, sources, tagline; no market disclaimer needed; no PART badge needed.
 
 Fixes
-None open. Previous fix (zone transition bleed) verified on the new render; sync/loudness/length unchanged (cached transcript, same voice track).
+None. Note for posting: l4/l5 are time-sensitive (paripurna 12 Nov 10:00 WIB); re-check before the 19:00 post.
