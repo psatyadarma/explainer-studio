@@ -1,0 +1,69 @@
+{
+ "direction": "[calm, neutral explainer, clear and steady]",
+ "format": "short",
+ "hook_style": "myth",
+ "part": 1,
+ "storyline": "gibran-ijazah-mk",
+ "hook_b": "",
+ "lines": [
+  {
+   "id": "h1",
+   "tag": "[skeptical, direct]",
+   "text": "Katanya Gibran sudah mundur. Ternyata, belum resmi.",
+   "say": "Katanya Gibran sudah mundur. Ternyata, belum resmi."
+  },
+  {
+   "id": "h2",
+   "tag": "[curious, leaning in]",
+   "text": "Dari sini, ada dua jalan.",
+   "say": "Dari sini, ada dua jalan."
+  },
+  {
+   "id": "rd",
+   "tagline": true,
+   "text": "Rangkumin dong!"
+  },
+  {
+   "id": "l1",
+   "tag": "[explaining, measured]",
+   "text": "Selasa, kata Mensesneg Prasetyo Hadi: usai putusan MK dan MA, Gibran menyatakan niat mundur.",
+   "say": "Selasa, kata Mensesneg Prasetyo Hadi: usai putusan, Em Ka dan Em A, Gibran menyatakan niat mundur."
+  },
+  {
+   "id": "l2",
+   "tag": "[careful]",
+   "text": "Gibran sendiri bilang: tak ingin ini jadi polemik berkepanjangan.",
+   "say": "Gibran sendiri bilang: tak ingin ini jadi polemik berkepanjangan."
+  },
+  {
+   "id": "l3",
+   "tag": "[explaining, quick]",
+   "text": "Jalan pertama: mundur. Kata Menko Yusril, harus tertulis ke MPR. Belum ada. Kursi wapres belum kosong.",
+   "say": "Jalan pertama: mundur. Kata Menko Yusril, harus tertulis ke, Em Pe Er. Belum ada. Kursi wapres belum kosong."
+  },
+  {
+   "id": "l4",
+   "tag": "[explaining]",
+   "text": "Jalan kedua: hak menyatakan pendapat DPR. Menurut pengusul, sekitar 50 anggota sudah teken usulannya.",
+   "say": "Jalan kedua: hak menyatakan pendapat, De Pe Er. Menurut pengusul, sekitar lima puluh anggota sudah teken usulannya."
+  },
+  {
+   "id": "l5",
+   "tag": "[leaning in, serious]",
+   "text": "Tapi, itu baru usulan. Harus lolos paripurna DPR, lalu MK, lalu MPR.",
+   "say": "Tapi, itu baru usulan. Harus lolos paripurna, De Pe Er, lalu, Em Ka, lalu, Em Pe Er."
+  },
+  {
+   "id": "cta",
+   "tag": "[playful, asking the viewer]",
+   "text": "Menurut kamu, mana duluan: surat resmi, atau keputusan DPR? Komen!",
+   "say": "Menurut kamu, mana duluan: surat resmi, atau keputusan, De Pe Er? Komen!"
+  },
+  {
+   "id": "end",
+   "tag": "[friendly, upbeat]",
+   "text": "Follow Rangkumin Dong, biar nggak ketinggalan!"
+  }
+ ],
+ "tail": 0.9
+}

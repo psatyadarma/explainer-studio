@@ -31,7 +31,7 @@ _Written by the analyst each Sunday from real IG/YT numbers (W45, 8 Nov). The wr
 
 ## What the picks show
 
-_Recomputed by engine/prefs.py from 23 days of offers, 13 picks._
+_Recomputed by engine/prefs.py from 24 days of offers, 14 picks._
 
 - 2026-10-20: picked #3  "Rupiah Rp18.046: besok BI putuskan, tahan 5,75% atau naik ke 6%?", storyline rupiah
 - 2026-10-21: picked #?  "Karhutla: siapa yang tanggung jawab atas asap? (Lutfi vs Singapura)", storyline karhutla
@@ -55,8 +55,9 @@ _Recomputed by engine/prefs.py from 23 days of offers, 13 picks._
 - 2026-11-08: no pick by the deadline (default #1 used; not counted)
 - 2026-11-09: no pick by the deadline (default #1 used; not counted)
 - 2026-11-10: picked #1 (recommended) "Satu skandal CEO, US$450 miliar hilang sehari: apa kaitannya sama kamu? (Nvidia/Jensen Huang)", score 10/12, storyline -
+- 2026-11-11: picked #2  "Katanya Gibran sudah mundur. Ternyata baru niat (menurut Mensesneg) + DPR hak menyatakan pendapat", score 8/12, storyline gibran-ijazah-mk
 
-- Picks the recommended idea 3/13 times; average pick rank 2.6.
+- Picks the recommended idea 3/14 times; average pick rank 2.5.
 - Storylines picked often when offered: definisi-korupsi, crypto-hacks, listyo-sigit-penyadapan.
-- Offered 3+ times, never picked: tax-policy, msci-reclassification, chip-ram-prices, corruption-cases, gibran-ijazah-mk, jokowi-ijazah-roy-suryo (lower priority unless big news).
-- Sensitivity of picks: {'medium': 1, '?': 12}.
+- Offered 3+ times, never picked: tax-policy, msci-reclassification, chip-ram-prices, corruption-cases, jokowi-ijazah-roy-suryo (lower priority unless big news).
+- Sensitivity of picks: {'medium': 1, '?': 13}.

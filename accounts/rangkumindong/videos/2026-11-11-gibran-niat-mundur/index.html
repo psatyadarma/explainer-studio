@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Gibran mundur? Belum resmi — Rangkumin Dong</title>
+<link rel="stylesheet" href="../../../../styles/sticker/sticker.css">
+<script src="../../../../styles/sticker/sticker.js"></script>
+<script>window.SUB_MODE = "block"; window.SUB_LEAD = 0.0;</script>
+<script src="build/timing.js"></script>
+<style>
+  .zone { position: absolute; width: 1080px; height: 1920px; }
+  .big { font-weight: 900; letter-spacing: -6px; line-height: .9; white-space: nowrap; font-variant-numeric: tabular-nums; }
+  .lbl { font-weight: 800; font-size: 36px; color: var(--slate); white-space: nowrap; text-align: center; }
+  .note { font-weight: 700; font-size: 26px; color: var(--slate); white-space: nowrap; text-align: center; }
+  .bub { background: #fff; border-radius: 30px; padding: 20px 30px 24px; text-align: center;
+         font-weight: 900; font-size: 46px; line-height: 1.08; letter-spacing: -1px; box-shadow: 0 0 0 9px #fff, 0 18px 26px rgba(27,36,48,.2); }
+  .bub small { display: block; font-weight: 700; font-size: 26px; color: var(--slate); letter-spacing: 0; margin-top: 8px; }
+  .chip { background: #fff; border-radius: 24px; padding: 14px 26px 18px; font-weight: 900; font-size: 46px; letter-spacing: -1px; white-space: nowrap; text-align: center;
+          box-shadow: 0 0 0 8px #fff, 0 14px 24px rgba(27,36,48,.18); }
+  .chip small { display: block; font-weight: 700; font-size: 26px; color: var(--slate); letter-spacing: 0; margin-top: 2px; }
+  .stampx { font-weight: 900; letter-spacing: -2px; color: var(--accent); border: 10px solid var(--accent); border-radius: 22px; padding: 6px 28px 12px;
+            white-space: nowrap; background: rgba(255,255,255,.94); text-align: center; line-height: 1; }
+  .stampx.grey { color: var(--slate); border-color: var(--slate); border-style: dashed; }
+  .tick { background: var(--ink); color: #fff; border-radius: 22px; padding: 10px 26px 14px; font-weight: 900; font-size: 64px; letter-spacing: 1px; white-space: nowrap;
+          box-shadow: 0 0 0 8px #fff, 0 14px 24px rgba(27,36,48,.2); }
+  .name { background: #fff; border-radius: 16px; padding: 12px 22px; font-weight: 900; font-size: 38px; line-height: 1.1;
+          box-shadow: 0 0 0 7px #fff, 0 14px 24px rgba(27,36,48,.2); white-space: nowrap; text-align: center; }
+  .name small { display: block; font-weight: 700; font-size: 26px; color: var(--slate); }
+  .lbar { background: var(--ink); color: var(--hi); font-weight: 900; font-size: 40px; letter-spacing: 4px; padding: 8px 22px 12px; border-radius: 8px; white-space: nowrap; }
+  .person { position: absolute; transform-origin: 50% 100%; }
+  .person img { width: 100%; display: block; }
+  .ledge { position: absolute; left: -400px; width: 1880px; height: 900px; background: var(--paper-2);
+           box-shadow: 0 -14px 30px rgba(27,36,48,.10); border-top: 6px solid #fff; }
+  .sign { background: var(--accent); color: #fff; border-radius: 18px; padding: 12px 26px 16px; font-weight: 900; font-size: 46px; white-space: nowrap; text-align: center; line-height: 1.05;
+          box-shadow: 0 0 0 8px #fff, 0 14px 24px rgba(27,36,48,.2); }
+  .sign.ink { background: var(--ink); }
+  .sign b { display: inline-block; background: #fff; color: var(--accent); border-radius: 50%; width: 62px; height: 62px; line-height: 60px; margin-right: 14px; font-size: 44px; }
+  .sign.ink b { color: var(--ink); }
+  .step { background: #fff; color: var(--slate); border-radius: 22px; padding: 18px 34px 22px; font-weight: 900; font-size: 64px; white-space: nowrap; text-align: center;
+          box-shadow: 0 0 0 8px #fff, 0 14px 24px rgba(27,36,48,.18); border: 6px solid #C9D0D7; }
+  .step.on { background: var(--hi); color: var(--ink); border-color: var(--ink); }
+  #status { position: absolute; left: 60px; top: 236px; z-index: 5; background: rgba(255,255,255,.94); color: var(--slate); font-weight: 800; font-size: 24px;
+          padding: 6px 14px 8px; border-radius: 10px; white-space: nowrap; }
+  #credit { position: absolute; left: 60px; top: 1118px; z-index: 6; font-weight: 700; font-size: 22px; color: var(--slate); background: rgba(243,239,230,.9);
+            padding: 2px 10px 4px; border-radius: 8px; white-space: nowrap; }
+  #endcard { position: absolute; inset: 0; z-index: 8; display: flex; flex-direction: column; align-items: center; justify-content: center;
+             gap: 24px; background: var(--paper); opacity: 0; }
+  #endcard .logo { background: var(--accent); color: #fff; font-weight: 900; font-size: 116px; letter-spacing: -4px;
+                   padding: 30px 58px 40px; border-radius: 44px; line-height: .95; text-align: center; transform: rotate(-3deg); }
+  #endcard .tl2 { font-weight: 800; font-size: 54px; color: var(--slate); }
+  #endcard .h { font-weight: 900; font-size: 50px; background: var(--ink); color: #fff; padding: 12px 26px; border-radius: 16px; }
+  #endcard .src { font-weight: 700; font-size: 26px; color: var(--slate); margin-top: 10px; text-align: center; line-height: 1.4; max-width: 900px; }
+</style>
+</head>
+<body>
+<div id="stage">
+  <div id="world">
+
+    <!-- zA (0,0): hook myth — cover "GIBRAN MUNDUR? / BELUM RESMI" + Gibran on the ledge -->
+    <div id="zA" class="zone" style="left:0; top:0;">
+      <div id="aP" class="person" data-r="1.209" style="left:540px; top:0; width:600px;"><img src="../../assets/people/gibran-rakabuming.png" alt=""></div>
+      <div class="ledge" style="top:1380px;"></div>
+      <div id="aHd" class="abs headline" style="left:540px; top:520px; width:1000px;">
+        <div id="aHd1" style="font-size:118px; white-space:nowrap; letter-spacing:-4px; line-height:.95;">GIBRAN MUNDUR?</div>
+        <div id="aHd2" style="font-size:118px; color:var(--accent); white-space:nowrap; letter-spacing:-4px; line-height:.95; margin-top:6px;">BELUM RESMI</div></div>
+      <div id="aNm" class="abs name" style="left:250px; top:1060px;">Gibran Rakabuming Raka<small>Wakil Presiden</small></div>
+      <div id="aBb" class="abs bub" style="left:820px; top:860px; font-size:44px;">Katanya:<br>sudah mundur</div>
+      <div id="aSt" class="abs stampx" style="left:820px; top:880px; font-size:66px;">BELUM RESMI</div>
+    </div>
+
+    <!-- zB (1240,0): h2 — the road splits into two signposts -->
+    <div id="zB" class="zone" style="left:1240px; top:0;">
+      <div id="bHd" class="abs headline" style="left:540px; top:480px; font-size:96px; white-space:nowrap;">ADA <span class="acc">DUA JALAN</span></div>
+      <div id="bRd" class="abs sticker-svg" style="left:540px; top:1060px;"></div>
+      <div id="bS1" class="abs sign" style="left:290px; top:780px;"><b>1</b>MUNDUR</div>
+      <div id="bS2" class="abs sign ink" style="left:760px; top:690px; font-size:38px;"><b>2</b>HAK MENYATAKAN<br>PENDAPAT DPR</div>
+    </div>
+
+    <!-- tagline (2480,0) -->
+    <div id="zT" class="zone" style="left:2480px; top:0;">
+      <div id="stamp" class="abs stamp sticker" style="left:540px; top:960px; font-size:110px;">Rangkumin dong!</div>
+    </div>
+
+    <!-- Z1 (0,2400): Selasa 10 Nov, Istana — Prasetyo Hadi -->
+    <div id="z1" class="zone" style="left:0; top:2400px;">
+      <div id="pHd" class="abs tick" style="left:540px; top:440px; font-size:58px;">SELASA · 10 NOV · ISTANA</div>
+      <div id="pP" class="person" data-r="1.212" style="left:290px; top:0; width:500px;"><img src="../../assets/people/prasetyo-hadi.png" alt=""></div>
+      <div class="ledge" style="top:1380px;"></div>
+      <div id="pNm" class="abs name" style="left:290px; top:1250px; font-size:34px;">Prasetyo Hadi<small>Mensesneg</small></div>
+      <div id="pBar" class="abs lbar" style="left:770px; top:610px;">KATA MENSESNEG</div>
+      <div id="pMk" class="abs sticker-svg" style="left:680px; top:820px;"></div>
+      <div id="pMa" class="abs sticker-svg" style="left:870px; top:840px;"></div>
+      <div id="pQt" class="abs bub" style="left:760px; top:1130px; font-size:40px; white-space:nowrap;">“menyatakan niatan<br>untuk mengundurkan diri”<small>soal Gibran · usai putusan MK &amp; MA</small></div>
+    </div>
+
+    <!-- Z2 (1240,2400): Gibran's own words -->
+    <div id="z2" class="zone" style="left:1240px; top:2400px;">
+      <div id="gBar" class="abs lbar" style="left:540px; top:440px;">KATA GIBRAN</div>
+      <div id="gQt" class="abs bub" style="left:540px; top:600px; font-size:52px; white-space:nowrap;">tak ingin jadi polemik<br>berkepanjangan<small>dirangkum dari pernyataan Gibran, 10 Nov</small></div>
+      <div id="gP" class="person" data-r="1.209" style="left:540px; top:0; width:520px;"><img src="../../assets/people/gibran-rakabuming.png" alt=""></div>
+      <div class="ledge" style="top:1380px;"></div>
+      <div id="gNm" class="abs name" style="left:250px; top:1130px; font-size:34px;">Gibran Rakabuming Raka<small>Wakil Presiden</small></div>
+    </div>
+
+    <!-- Z3 (2480,2400): Jalan 1 — Yusril: harus tertulis ke MPR -->
+    <div id="z3" class="zone" style="left:2480px; top:2400px;">
+      <div id="yS" class="abs sign" style="left:540px; top:440px;"><b>1</b>JALAN PERTAMA: MUNDUR</div>
+      <div id="yP" class="person" data-r="1.227" style="left:290px; top:0; width:500px;"><img src="../../assets/people/yusril-ihza-mahendra.png" alt=""></div>
+      <div class="ledge" style="top:1380px;"></div>
+      <div id="yNm" class="abs name" style="left:290px; top:1250px; font-size:34px;">Yusril Ihza Mahendra<small>Menko Kumham Imipas</small></div>
+      <div id="yBar" class="abs lbar" style="left:770px; top:610px;">HARUS TERTULIS</div>
+      <div id="yEn" class="abs sticker-svg" style="left:770px; top:860px;"></div>
+      <div id="yKe" class="abs chip" style="left:770px; top:1060px; font-size:48px;">KE: MPR</div>
+      <div id="ySt" class="abs stampx" style="left:770px; top:870px; font-size:72px;">BELUM ADA</div>
+    </div>
+
+    <!-- Z3b (0,4800): kursi wapres belum kosong -->
+    <div id="z3b" class="zone" style="left:0; top:4800px;">
+      <div id="kCh" class="abs sticker-svg" style="left:540px; top:860px;"></div>
+      <div id="kLb" class="abs tag sticker" style="left:540px; top:560px; font-size:48px;">Kursi Wapres</div>
+      <div id="kSt" class="abs stampx" style="left:540px; top:1180px; font-size:96px;">BELUM KOSONG</div>
+      <div id="kNt" class="abs note" style="left:540px; top:1330px;">kata Menko Yusril · status per 11 Nov</div>
+    </div>
+
+    <!-- Z4 (1240,4800): Jalan 2 — HMP DPR, ±50 teken usulan; turn: BARU USULAN -->
+    <div id="z4" class="zone" style="left:1240px; top:4800px;">
+      <div id="hS" class="abs sign ink" style="left:540px; top:450px; font-size:44px;"><b>2</b>HAK MENYATAKAN PENDAPAT DPR</div>
+      <div id="hCb" class="abs sticker-svg" style="left:300px; top:880px;"></div>
+      <div id="hN" class="abs" style="left:760px; top:830px; text-align:center;">
+        <div class="big" style="font-size:180px; color:var(--accent); letter-spacing:-4px;">±<span id="hNv">0</span></div>
+        <div class="lbl" style="color:var(--ink); font-size:36px; margin-top:8px;">anggota DPR<br>teken usulan</div></div>
+      <div id="hMp" class="abs tag light sticker" style="left:760px; top:640px; font-size:34px;">menurut pengusul</div>
+      <div id="hSt" class="abs stampx" style="left:540px; top:1240px; font-size:96px;">BARU USULAN</div>
+    </div>
+
+    <!-- Z5 (2480,4800): harus lolos paripurna DPR → MK → MPR -->
+    <div id="z5" class="zone" style="left:2480px; top:4800px;">
+      <div id="fHd" class="abs headline" style="left:540px; top:440px; font-size:84px; white-space:nowrap;">Harus lolos:</div>
+      <div id="fS1" class="abs step" style="left:540px; top:640px;">PARIPURNA DPR</div>
+      <svg id="fA1" class="abs" style="left:540px; top:790px;" width="80" height="100" viewBox="0 0 80 100"><path class="ar" d="M40 8 V86 M14 62 L40 90 L66 62"/></svg>
+      <div id="fS2" class="abs step" style="left:540px; top:940px;">MK</div>
+      <svg id="fA2" class="abs" style="left:540px; top:1090px;" width="80" height="100" viewBox="0 0 80 100"><path class="ar" d="M40 8 V86 M14 62 L40 90 L66 62"/></svg>
+      <div id="fS3" class="abs step" style="left:540px; top:1240px;">MPR</div>
+      <div id="fNt" class="abs note" style="left:540px; top:1380px;">belum ada voting paripurna · status per 11 Nov</div>
+    </div>
+
+    <!-- CTA (0,7200) -->
+    <div id="zQ" class="zone" style="left:0; top:7200px;">
+      <div id="qHd" class="abs headline" style="left:540px; top:500px; font-size:100px; white-space:nowrap;">Mana <span class="acc">duluan?</span></div>
+      <div id="qA" class="abs chip" style="left:280px; top:800px; font-size:52px;">Surat<br>resmi?</div>
+      <div id="qHg" class="abs sticker-svg" style="left:540px; top:810px;"></div>
+      <div id="qB" class="abs chip" style="left:800px; top:800px; font-size:52px;">Keputusan<br>DPR?</div>
+      <div id="qCom" class="abs sticker-svg" style="left:360px; top:1170px;"></div>
+      <div id="qK" class="abs bub" style="left:700px; top:1150px; font-size:64px;">Komen!</div>
+    </div>
+  </div>
+
+  <div id="brand"><div class="dot"></div><b>Rangkumin Dong</b></div>
+  <div id="status">status per 11 Nov 2026</div>
+  <div id="credit"></div>
+  <div id="subs"></div>
+  <div id="endcard">
+    <div class="logo">RANGKUMIN<br>DONG</div>
+    <div class="tl2">Berita ribet? Rangkumin dong.</div>
+    <div class="h">Follow @rangkumindong</div>
+    <div class="src">Sumber: CNN Indonesia (10 &amp; 11 Nov) · detikNews · Koran Jakarta ·<br>Liputan6 · Beritasatu · Katadata · lengkap di komentar</div>
+    <div class="src" style="font-size:24px; margin-top:0;">“Niat mundur” = menurut Mensesneg · belum ada surat resmi ke MPR · HMP = usulan, belum diputus paripurna DPR</div>
+    <div class="src" style="font-size:24px; margin-top:0;">Foto (Public domain, via Wikimedia Commons): Gibran, Darwis Triadi &amp; Ministry of State Secretariat ·<br>Prasetyo Hadi, Ministry of State Secretariat · Yusril Ihza Mahendra, Kemenko Kumham Imipas</div>
+  </div>
+  <div id="progress"></div>
+</div>
+
+<style>
+  .ar { fill: none; stroke: #1B2430; stroke-width: 9; stroke-linecap: round; stroke-linejoin: round; }
+</style>
+<script>
+const $ = (id) => document.getElementById(id);
+const T = window.TIMING;
+window.DURATION = T.duration;
+const at = K.at, W = K.word;
+const END = K.line('cta').end + 0.1;
+
+// ---------- SVG builders (generic icons, no logos, no party symbols) ----------
+const roadSVG = () => `<svg width="720" height="520" viewBox="0 0 720 520">
+  <path d="M300 520 L330 300 L150 40 L250 40 L360 230 L470 40 L570 40 L390 300 L420 520 Z" fill="#3E5568"/>
+  <path d="M360 500 V420 M360 380 V320" stroke="#FFD23F" stroke-width="12" stroke-linecap="round"/>
+  <path d="M330 270 L240 120 M390 270 L480 120" stroke="#FFD23F" stroke-width="10" stroke-linecap="round" stroke-dasharray="28 26"/></svg>`;
+const docSVG = (label, rot) => `<svg width="190" height="230" viewBox="0 0 190 230" style="transform:rotate(${rot}deg)"><rect x="10" y="10" width="170" height="210" rx="12" fill="#fff" stroke="#1B2430" stroke-width="7"/>
+  <rect x="28" y="28" width="134" height="62" rx="6" fill="#1B2430"/><text x="95" y="50" text-anchor="middle" font-family="Inter" font-weight="800" font-size="17" letter-spacing="2" fill="#fff">PUTUSAN</text><text x="95" y="80" text-anchor="middle" font-family="Inter" font-weight="900" font-size="28" fill="#FFD23F">${label}</text>
+  ${[0, 1, 2, 3, 4, 5].map((i) => `<rect x="28" y="${104 + i * 17}" width="${i === 5 ? 80 : 134}" height="9" rx="4" fill="#9FB0BF"/>`).join('')}
+  <circle cx="140" cy="196" r="16" fill="none" stroke="#FF5A36" stroke-width="6"/></svg>`;
+const envSVG = (s = 300) => `<svg width="${s}" height="${s * 0.7}" viewBox="0 0 300 210"><rect x="10" y="10" width="280" height="190" rx="18" fill="#fff" stroke="#3E5568" stroke-width="8" stroke-dasharray="22 14"/>
+  <path d="M18 24 L150 120 L282 24" fill="none" stroke="#3E5568" stroke-width="8" stroke-linejoin="round" stroke-dasharray="22 14"/></svg>`;
+const chairSVG = () => `<svg width="340" height="420" viewBox="0 0 340 420"><ellipse cx="170" cy="404" rx="140" ry="12" fill="#1B2430" opacity=".15"/>
+  <rect x="70" y="20" width="200" height="200" rx="34" fill="#8E5F33" stroke="#1B2430" stroke-width="8"/><rect x="96" y="46" width="148" height="148" rx="22" fill="#B23A2A"/>
+  <rect x="40" y="200" width="260" height="70" rx="22" fill="#B23A2A" stroke="#1B2430" stroke-width="8"/>
+  <rect x="30" y="160" width="40" height="110" rx="14" fill="#8E5F33" stroke="#1B2430" stroke-width="7"/><rect x="270" y="160" width="40" height="110" rx="14" fill="#8E5F33" stroke="#1B2430" stroke-width="7"/>
+  <rect x="62" y="268" width="26" height="130" rx="8" fill="#8E5F33" stroke="#1B2430" stroke-width="7"/><rect x="252" y="268" width="26" height="130" rx="8" fill="#8E5F33" stroke="#1B2430" stroke-width="7"/></svg>`;
+const clipSVG = () => `<svg width="300" height="380" viewBox="0 0 300 380"><rect x="14" y="30" width="272" height="340" rx="22" fill="#B07A45" stroke="#1B2430" stroke-width="8"/>
+  <rect x="38" y="62" width="224" height="290" rx="8" fill="#fff"/><rect x="100" y="12" width="100" height="44" rx="12" fill="#3E5568" stroke="#1B2430" stroke-width="6"/>
+  ${[0, 1, 2, 3, 4, 5].map((i) => `<path d="M58 ${96 + i * 42} q14 -18 24 0 t24 0 t24 0 t22 -6" stroke="#1B2430" stroke-width="5" fill="none" stroke-linecap="round"/><rect x="170" y="${92 + i * 42}" width="74" height="8" rx="4" fill="#C9D0D7"/>`).join('')}</svg>`;
+const hourglassSVG = () => `<svg width="130" height="190" viewBox="0 0 130 190"><rect x="10" y="6" width="110" height="18" rx="8" fill="#1B2430"/><rect x="10" y="166" width="110" height="18" rx="8" fill="#1B2430"/>
+  <path d="M24 24 Q24 80 60 95 Q24 110 24 166 H106 Q106 110 70 95 Q106 80 106 24 Z" fill="#fff" stroke="#1B2430" stroke-width="7"/>
+  <path d="M40 40 Q65 50 90 40 Q85 75 65 88 Q45 75 40 40 Z" fill="#FFD23F"/><path d="M36 162 Q65 120 94 162 Z" fill="#FFD23F"/></svg>`;
+const commentSVG = () => `<svg width="240" height="210" viewBox="0 0 260 230"><path d="M20 30 Q20 10 40 10 H220 Q240 10 240 30 V150 Q240 170 220 170 H110 L60 214 L70 170 H40 Q20 170 20 150 Z" fill="#fff" stroke="#1B2430" stroke-width="8" stroke-linejoin="round"/>
+  <circle cx="80" cy="90" r="14" fill="#1B2430"/><circle cx="130" cy="90" r="14" fill="#1B2430"/><circle cx="180" cy="90" r="14" fill="#1B2430"/></svg>`;
+
+$('bRd').innerHTML = roadSVG();
+$('pMk').innerHTML = docSVG('MK', -6); $('pMa').innerHTML = docSVG('MA', 5);
+$('yEn').innerHTML = envSVG(320); $('kCh').innerHTML = chairSVG(); $('hCb').innerHTML = clipSVG();
+$('qHg').innerHTML = hourglassSVG(); $('qCom').innerHTML = commentSVG();
+
+const pulse = (el, t, tIn, amt = 0.12, rot = 0) => { const k = K.clamp((t - tIn) / 0.45); el.style.transform = `translate(-50%,-50%) scale(${1 + amt * Math.sin(Math.PI * k)}) rotate(${rot}deg)`; };
+const slam = (el, t, tIn, rot = 0, from = 2, tOut = Infinity) => { const s = K.spring(t - tIn, 320, 18), o = K.clamp((t - tOut) / 0.25);
+  el.style.opacity = t >= tIn ? 1 - o : 0; el.style.transform = `translate(-50%,-50%) scale(${(from - (from - 1) * s) * (1 - 0.2 * o)}) rotate(${rot}deg)`; };
+const fade = (el, t, tIn, tOut = Infinity, d = 0.2) => { el.style.opacity = K.clamp((t - tIn) / d) * (1 - K.clamp((t - tOut) / d)); };
+// person cut-out rising on the ledge (bottom of image at zone y 1400, hidden by the ledge at 1380); same style for all three faces
+const rise = (el, t, tIn, bob = 0) => { const ps = K.spring(t - tIn, 140, 15), h = parseFloat(el.style.width) * parseFloat(el.dataset.r);
+  el.style.opacity = t >= tIn ? 1 : 0;
+  el.style.transform = `translate(-50%, ${1400 - h + (1 - ps) * 700 + bob}px) scale(${0.92 + 0.08 * ps})`; };
+
+const CR = {
+  gibran: 'Foto: Darwis Triadi & Ministry of State Secretariat, Public domain, via Wikimedia Commons',
+  prasetyo: 'Foto: Ministry of State Secretariat, Public domain, via Wikimedia Commons',
+  yusril: 'Foto: Kemenko Kumham Imipas, Public domain, via Wikimedia Commons',
+};
+
+function seek(t) {
+  const Z = (x, y, z = 1.0) => ({ x, y: y + 200 / z, z });
+  const zc = (ox, oy, z = 1) => Z(ox + 540, oy + 960, z);
+  const hEnd = at('rd', -0.3), wKursi = W('l3', 'kursi'), wHarus = W('l5', 'harus');
+  // zone changes are hard cuts (QA 11 Nov: no neighbouring zone may bleed in during a slide); only the current zone is visible
+  const CUT = 0.001;
+  const ZT = [['zA', 0], ['zB', at('h2', -0.25)], ['zT', hEnd], ['z1', at('l1', -0.3)], ['z2', at('l2', -0.3)], ['z3', at('l3', -0.3)],
+    ['z3b', wKursi - 0.3], ['z4', at('l4', -0.25)], ['z5', wHarus - 0.3], ['zQ', at('cta', -0.25)]];
+  K.camera($('world'), [
+    { t: 0, ...zc(0, 0) },
+    { t: W('h1', 'ternyata') - 0.1, ...zc(0, 0, 1.05), dur: 0.5 },
+    { t: ZT[1][1], ...zc(1240, 0, 1.06), dur: CUT },
+    { t: ZT[1][1] + 0.01, ...zc(1240, 0), dur: 0.5 },
+    { t: W('h2', 'dua') - 0.1, ...zc(1240, 0, 1.05), dur: 0.4 },
+    { t: hEnd, ...Z(2480 + 540, 960, 1.1), dur: CUT },
+    { t: at('l1', -0.3), ...zc(0, 2400), dur: CUT },
+    { t: at('l2', -0.3), ...zc(1240, 2400), dur: CUT },
+    { t: at('l3', -0.3), ...zc(2480, 2400), dur: CUT },
+    { t: wKursi - 0.3, ...zc(0, 4800), dur: CUT },
+    { t: at('l4', -0.25), ...zc(1240, 4800), dur: CUT },
+    { t: W('l5', 'baru') - 0.15, ...zc(1240, 4800, 1.05), dur: 0.4 },
+    { t: wHarus - 0.3, ...zc(2480, 4800), dur: CUT },
+    { t: at('cta', -0.25), ...zc(0, 7200), dur: CUT },
+  ], t, 1080, 1920, 0.6);
+  { const cur = ZT.filter(([, t0]) => t >= t0).pop()[0];
+    ZT.forEach(([id]) => { $(id).style.visibility = id === cur ? 'visible' : 'hidden'; }); }
+
+  // ---------- hook: cover from frame 0, a change every ≤1.5 s ----------
+  const wGib = W('h1', 'gibran'), wSud = W('h1', 'sudah'), wTer = W('h1', 'ternyata'), wBel = W('h1', 'belum');
+  rise($('aP'), t, -0.45, t > wGib && t < at('h2') ? 4 * Math.sin((t - wGib) * 8) : 0);
+  { const th = 1 + 0.05 * Math.exp(-6 * t) * Math.sin(t * 14);
+    $('aHd').style.transform = `translate(-50%,-50%) scale(${th})`;
+    const pz = (el, w0, a = 0.08) => { el.style.transform = t > w0 - 0.05 ? `scale(${1 + a * Math.sin(Math.PI * K.clamp((t - w0 + 0.05) / 0.4))})` : 'none'; };
+    pz($('aHd1'), W('h1', 'mundur')); pz($('aHd2'), wBel, 0.12); }
+  K.pop($('aNm'), t, wGib - 0.08, Infinity, -3);
+  K.pop($('aBb'), t, wSud - 0.08, Infinity, 3);
+  if (t > wTer - 0.05 && t < wBel) pulse($('aBb'), t, wTer - 0.05, 0.06, 3);
+  slam($('aSt'), t, wBel - 0.05, -8, 2.2);
+
+  // ---------- h2: two roads ----------
+  K.pop($('bHd'), t, ZT[1][1], Infinity, -2);
+  K.pop($('bRd'), t, ZT[1][1] + 0.12, Infinity, 0);
+  K.pop($('bS1'), t, W('h2', 'dua') - 0.08, Infinity, -5);
+  K.pop($('bS2'), t, W('h2', 'jalan') - 0.05, Infinity, 4);
+
+  // ---------- tagline ----------
+  K.pop($('stamp'), t, at('rd', -0.1), at('l1', -0.2), -6);
+
+  // ---------- Z1: Mensesneg ----------
+  slam($('pHd'), t, at('l1', -0.3), -2, 1.5);
+  rise($('pP'), t, W('l1', 'mensesneg') - 0.3);
+  K.pop($('pNm'), t, W('l1', 'prasetyo') - 0.05, Infinity, -3);
+  K.pop($('pBar'), t, W('l1', 'hadi') - 0.05, Infinity, -1);
+  K.pop($('pMk'), t, W('l1', 'mk') - 0.08, Infinity, 0);
+  K.pop($('pMa'), t, W('l1', 'ma') - 0.08, Infinity, 0);
+  K.pop($('pQt'), t, W('l1', 'menyatakan') - 0.1, Infinity, -1);
+  if (t > W('l1', 'niat') - 0.05) pulse($('pQt'), t, W('l1', 'niat') - 0.05, 0.05, -1);
+
+  // ---------- Z2: Gibran ----------
+  rise($('gP'), t, at('l2', -0.35));
+  K.pop($('gNm'), t, at('l2', 0.1), Infinity, -3);
+  K.pop($('gBar'), t, W('l2', 'bilang') - 0.08, Infinity, -1);
+  K.pop($('gQt'), t, W('l2', 'tak') - 0.1, Infinity, 0);
+  if (t > W('l2', 'polemik') - 0.05) pulse($('gQt'), t, W('l2', 'polemik') - 0.05, 0.05, 0);
+
+  // ---------- Z3: Jalan 1, Yusril ----------
+  slam($('yS'), t, at('l3', -0.3), -2, 1.5);
+  rise($('yP'), t, W('l3', 'kata') - 0.3);
+  K.pop($('yNm'), t, W('l3', 'menko') - 0.05, Infinity, -3);
+  K.pop($('yBar'), t, W('l3', 'harus') - 0.08, Infinity, -1);
+  K.pop($('yEn'), t, W('l3', 'tertulis') - 0.08, Infinity, -3 + 2 * Math.sin(t * 2));
+  K.pop($('yKe'), t, W('l3', 'mpr') - 0.1, Infinity, 2);
+  slam($('ySt'), t, W('l3', 'belum') - 0.05, -7, 2.0);
+
+  // ---------- Z3b: kursi ----------
+  K.pop($('kCh'), t, wKursi - 0.3, Infinity, 1.5 * Math.sin(t * 1.6));
+  K.pop($('kLb'), t, W('l3', 'wapres') - 0.08, Infinity, -2);
+  slam($('kSt'), t, W('l3', 'belum', 1) - 0.05, -5, 2.0);
+  K.pop($('kNt'), t, W('l3', 'kosong') - 0.05, Infinity, 0);
+
+  // ---------- Z4: Jalan 2, HMP ----------
+  slam($('hS'), t, at('l4', -0.25), -2, 1.4);
+  K.pop($('hCb'), t, W('l4', 'menurut') - 0.08, Infinity, -4 + 1.5 * Math.sin(t * 2));
+  K.pop($('hMp'), t, W('l4', 'pengusul') - 0.08, Infinity, -2);
+  { const n0 = W('l4', '50'), k = K.easeOut(K.prog(t, n0 - 0.05, 0.6));
+    slam($('hN'), t, n0 - 0.12, -2, 1.5); $('hNv').textContent = Math.round(50 * k); }
+  if (t > W('l4', 'teken') - 0.05) pulse($('hCb'), t, W('l4', 'teken') - 0.05, 0.08, -4);
+  slam($('hSt'), t, W('l5', 'baru') - 0.05, -6, 2.2);
+
+  // ---------- Z5: flow ----------
+  K.pop($('fHd'), t, wHarus - 0.3, Infinity, -2);
+  const s1 = W('l5', 'paripurna') - 0.08, s2 = W('l5', 'mk') - 0.08, s3 = W('l5', 'mpr') - 0.08;
+  K.pop($('fS1'), t, s1, Infinity, 0); fade($('fA1'), t, W('l5', 'lalu') - 0.1, Infinity, 0.2);
+  K.pop($('fS2'), t, s2, Infinity, 0); fade($('fA2'), t, W('l5', 'lalu', 1) - 0.1, Infinity, 0.2);
+  K.pop($('fS3'), t, s3, Infinity, 0);
+  [[$('fS1'), s1, s2], [$('fS2'), s2, s3], [$('fS3'), s3, Infinity]].forEach(([el, a, b]) => el.classList.toggle('on', t >= a && t < b + 0.6));
+  K.pop($('fNt'), t, s3 + 0.4, Infinity, 0);
+
+  // ---------- CTA ----------
+  const qOut = END - 0.3;
+  K.pop($('qHd'), t, at('cta', -0.25), qOut, 0);
+  if (t > W('cta', 'duluan') - 0.05) pulse($('qHd'), t, W('cta', 'duluan') - 0.05, 0.06, 0);
+  K.pop($('qA'), t, W('cta', 'surat') - 0.08, qOut, -3);
+  K.pop($('qHg'), t, W('cta', 'atau') - 0.08, qOut, 10 * Math.sin(t * 3));
+  K.pop($('qB'), t, W('cta', 'keputusan') - 0.08, qOut, 3);
+  K.pop($('qCom'), t, W('cta', 'komen') - 0.12, qOut, -4);
+  K.pop($('qK'), t, W('cta', 'komen') - 0.05, qOut, 3);
+
+  // ---------- status tag until the end card; photo credit while a photo is on screen ----------
+  $('status').style.opacity = 1 - K.clamp((t - END) / 0.2);
+  const cr = t < ZT[1][1] ? CR.gibran
+    : (t > at('l1', -0.3) && t < at('l2', -0.3)) ? CR.prasetyo
+    : (t >= at('l2', -0.3) && t < at('l3', -0.3)) ? CR.gibran
+    : (t >= at('l3', -0.3) && t < wKursi - 0.3) ? CR.yusril : '';
+  if ($('credit').textContent !== cr) $('credit').textContent = cr;
+  $('credit').style.opacity = cr ? 1 : 0;
+
+  // ---------- end ----------
+  const en = K.prog(t, END - 0.15, 0.3);
+  $('endcard').style.opacity = en;
+  $('endcard').querySelector('.logo').style.transform = `rotate(-3deg) scale(${0.6 + 0.4 * K.spring(t - END + 0.15)})`;
+  K.subtitles($('subs'), t);
+  $('subs').style.visibility = en > 0.5 ? 'hidden' : 'visible';
+  $('progress').style.width = (100 * t / window.DURATION) + '%';
+  return true;
+}
+window.seek = seek; seek(0);
+</script>
+</body>
+</html>

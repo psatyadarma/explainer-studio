@@ -6,20 +6,24 @@
   "ideas": "done",
   "ideas_factcheck": "todo",
   "ideas_sent": "done",
-  "picked": "todo",
-  "draft": "todo",
-  "draft_factcheck": "todo",
+  "picked": "done",
+  "draft": "done",
+  "draft_factcheck": "done",
   "draft_sent": "todo",
   "approved": "todo",
-  "render": "todo",
-  "video_sent": "todo",
-  "ok_post": "todo",
-  "posted": "todo",
+  "render": "done",
+  "video_sent": "done",
+  "ok_post": "early",
+  "posted": "scheduled",
   "knowledge": "todo",
   "sweeps": "done",
-  "factcheck_light": "done"
+  "factcheck_light": "done",
+  "qa": "pass"
  },
- "notes": [],
+ "notes": [
+  "02:19Z user picked #2 Gibran + early OK post",
+  "02:44Z post scheduled 19:00 via Upload-Post job 2777d260"
+ ],
  "merge_stats": {
   "new": 34,
   "duplicates": 1
