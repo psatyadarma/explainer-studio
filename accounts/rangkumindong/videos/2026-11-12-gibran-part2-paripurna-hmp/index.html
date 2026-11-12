@@ -1,0 +1,715 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Gibran PART 2: mundur atau dimakzulkan — Rangkumin Dong</title>
+<link rel="stylesheet" href="../../../../styles/sticker/sticker.css">
+<script src="../../../../styles/sticker/sticker.js"></script>
+<script>window.SUB_MODE = "word"; window.SUB_LEAD = 0.0;</script>
+<script src="build/timing.js"></script>
+<!--
+  PATCH NOTES (news may move after the 15:00 WITA plenary):
+  - Re-voice 1-2 lines: edit script.json, then  python3 -I engine/revoice.py <this dir> accounts/rangkumindong male --lines l4
+    (speed 1.24 is read from build/timing.json) → mix.py → render.mjs. Every beat is keyed to K.at / K.word, so it follows.
+  - On-screen text tied to the news is marked  PATCH:  below (l1 header, l4 agenda + stamp, l11, l12 bubbles, status, end card).
+    A changed line's words: update the W('<id>', '<word>') keys in that zone (unknown words fall back to the line start).
+-->
+<style>
+  .zone { position: absolute; width: 1080px; height: 1920px; }
+  .big { font-weight: 900; letter-spacing: -6px; line-height: .9; white-space: nowrap; font-variant-numeric: tabular-nums; }
+  .lbl { font-weight: 800; font-size: 36px; color: var(--slate); white-space: nowrap; text-align: center; }
+  .note { font-weight: 700; font-size: 26px; color: var(--slate); white-space: nowrap; text-align: center; }
+  .bub { background: #fff; border-radius: 30px; padding: 20px 30px 24px; text-align: center;
+         font-weight: 900; font-size: 46px; line-height: 1.08; letter-spacing: -1px; box-shadow: 0 0 0 9px #fff, 0 18px 26px rgba(27,36,48,.2); }
+  .bub small { display: block; font-weight: 700; font-size: 26px; color: var(--slate); letter-spacing: 0; margin-top: 8px; }
+  .chip { background: #fff; border-radius: 24px; padding: 14px 26px 18px; font-weight: 900; font-size: 46px; letter-spacing: -1px; white-space: nowrap; text-align: center;
+          box-shadow: 0 0 0 8px #fff, 0 14px 24px rgba(27,36,48,.18); }
+  .chip small { display: block; font-weight: 700; font-size: 26px; color: var(--slate); letter-spacing: 0; margin-top: 2px; }
+  .stampx { font-weight: 900; letter-spacing: -2px; color: var(--accent); border: 10px solid var(--accent); border-radius: 22px; padding: 6px 28px 12px;
+            white-space: nowrap; background: rgba(255,255,255,.94); text-align: center; line-height: 1; }
+  .stampx.grey { color: var(--slate); border-color: var(--slate); border-style: dashed; }
+  .tick { background: var(--ink); color: #fff; border-radius: 22px; padding: 10px 26px 14px; font-weight: 900; font-size: 64px; letter-spacing: 1px; white-space: nowrap;
+          box-shadow: 0 0 0 8px #fff, 0 14px 24px rgba(27,36,48,.2); }
+  .name { background: #fff; border-radius: 16px; padding: 12px 22px; font-weight: 900; font-size: 34px; line-height: 1.1;
+          box-shadow: 0 0 0 7px #fff, 0 14px 24px rgba(27,36,48,.2); white-space: nowrap; text-align: center; }
+  .name small { display: block; font-weight: 700; font-size: 25px; color: var(--slate); }
+  .lbar { background: var(--ink); color: var(--hi); font-weight: 900; font-size: 40px; letter-spacing: 3px; padding: 8px 22px 12px; border-radius: 8px; white-space: nowrap; }
+  .person { position: absolute; transform-origin: 50% 100%; }
+  .person img { width: 100%; display: block; }
+  .ledge { position: absolute; left: -400px; width: 1880px; height: 900px; background: var(--paper-2);
+           box-shadow: 0 -14px 30px rgba(27,36,48,.10); border-top: 6px solid #fff; }
+  .sign { background: var(--accent); color: #fff; border-radius: 18px; padding: 12px 26px 16px; font-weight: 900; font-size: 46px; white-space: nowrap; text-align: center; line-height: 1.05;
+          box-shadow: 0 0 0 8px #fff, 0 14px 24px rgba(27,36,48,.2); }
+  .sign.ink { background: var(--ink); }
+  .sign b { display: inline-block; background: #fff; color: var(--accent); border-radius: 50%; width: 62px; height: 62px; line-height: 60px; margin-right: 14px; font-size: 44px; }
+  .sign.ink b { color: var(--ink); }
+  .sign.dim { filter: grayscale(1); opacity: .55 !important; }
+  .sign.lit { box-shadow: 0 0 0 8px #fff, 0 0 0 18px var(--hi), 0 14px 24px rgba(27,36,48,.2); }
+  /* plenary agenda paper */
+  .paper { background: #fff; border-radius: 10px; box-shadow: 0 0 0 8px #fff, 0 18px 28px rgba(27,36,48,.22); border: 4px solid #1B2430; overflow: hidden; }
+  .paper .ph { background: var(--ink); color: #fff; font-weight: 900; text-align: center; letter-spacing: 2px; }
+  .paper .pl { height: 12px; border-radius: 6px; background: #C9D0D7; margin: 14px 26px; }
+  .paper mark { background: linear-gradient(var(--hi), var(--hi)) 0 0 / 0% 100% no-repeat; color: inherit; padding: 0 4px; border-radius: 6px; }
+  /* HMP step cards */
+  .card { width: 920px; height: 172px; background: #fff; border-radius: 26px; box-shadow: 0 0 0 7px #fff, 0 14px 22px rgba(27,36,48,.16);
+          display: flex; align-items: center; gap: 22px; padding: 0 26px; box-sizing: border-box; border: 5px solid #DDE2E7; }
+  .card.on { border-color: var(--ink); }
+  .card .n { flex: 0 0 76px; height: 76px; border-radius: 50%; background: var(--slate); color: #fff; font-weight: 900; font-size: 52px; display: flex; align-items: center; justify-content: center; }
+  .card.on .n { background: var(--accent); }
+  .card .tx { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+  .card .t1 { font-weight: 900; font-size: 40px; letter-spacing: -1px; white-space: nowrap; }
+  .card .r { font-weight: 800; font-size: 30px; color: var(--slate); white-space: nowrap; }
+  .card .r b { color: var(--ink); background: var(--hi); border-radius: 8px; padding: 0 8px; }
+  .card .r span { opacity: 0; }
+  .ptag { background: var(--accent); color: #fff; font-weight: 900; font-size: 40px; padding: 8px 20px 12px; border-radius: 14px; white-space: nowrap;
+          box-shadow: 0 0 0 7px #fff, 0 12px 20px rgba(27,36,48,.2); }
+  /* deadline bar (exact: px per day constant) */
+  .seg { position: absolute; top: 0; height: 100%; display: flex; align-items: center; justify-content: center; color: #fff; font-weight: 900; white-space: nowrap; border-radius: 12px; }
+  .gapx { position: absolute; top: 0; height: 100%; border-radius: 8px; background: repeating-linear-gradient(45deg, #9FB0BF 0 8px, #DDE2E7 8px 16px); }
+  .cand { width: 190px; height: 230px; background: #fff; border-radius: 22px; box-shadow: 0 0 0 7px #fff, 0 14px 22px rgba(27,36,48,.18);
+          display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px; border: 4px dashed #9FB0BF; }
+  .cand b { font-weight: 900; font-size: 32px; color: var(--slate); }
+  #part { position: absolute; left: 60px; top: 226px; z-index: 5; background: var(--ink); color: #fff; font-weight: 900; font-size: 30px;
+          padding: 6px 16px 9px; border-radius: 12px; letter-spacing: 1px; }
+  #status { position: absolute; left: 196px; top: 232px; z-index: 5; background: rgba(255,255,255,.94); color: var(--slate); font-weight: 800; font-size: 24px;
+          padding: 6px 14px 8px; border-radius: 10px; white-space: nowrap; }
+  #credit { position: absolute; left: 60px; top: 1164px; z-index: 6; font-weight: 700; font-size: 22px; color: var(--slate); background: rgba(243,239,230,.9);
+            padding: 2px 10px 4px; border-radius: 8px; white-space: pre; line-height: 1.3; }
+  #endcard { position: absolute; inset: 0; z-index: 8; display: flex; flex-direction: column; align-items: center; justify-content: center;
+             gap: 22px; background: var(--paper); opacity: 0; }
+  #endcard .logo { background: var(--accent); color: #fff; font-weight: 900; font-size: 116px; letter-spacing: -4px;
+                   padding: 30px 58px 40px; border-radius: 44px; line-height: .95; text-align: center; transform: rotate(-3deg); }
+  #endcard .tl2 { font-weight: 800; font-size: 54px; color: var(--slate); }
+  #endcard .h { font-weight: 900; font-size: 50px; background: var(--ink); color: #fff; padding: 12px 26px; border-radius: 16px; }
+  #endcard .src { font-weight: 700; font-size: 34px; color: var(--slate); margin-top: 6px; text-align: center; line-height: 1.4; max-width: 920px; }
+
+  /* ---------- hook: collage look (copied from tests/hook-collage) ---------- */
+  #hookA { position: absolute; inset: 0; z-index: 4; background: #E4D7BC; overflow: hidden; }
+  :root { --news: #F1ECE0; --red: #D6301F; --blk: #17130E; }
+  #hookA .cols { position: absolute; background: repeating-linear-gradient(180deg, rgba(23,19,14,.13) 0 5px, transparent 5px 15px); }
+  #redblock { position: absolute; left: -160px; top: 330px; width: 1400px; height: 520px; background: var(--red);
+              transform: rotate(-9deg); box-shadow: 0 16px 26px rgba(23,19,14,.25); }
+  #redblock::after { content: ""; position: absolute; inset: 0;
+    background: radial-gradient(circle, rgba(23,19,14,.18) 2.2px, transparent 2.8px) 0 0 / 11px 11px; }
+  #blkline { position: absolute; left: -100px; top: 900px; width: 1300px; height: 26px; background: var(--blk); transform: rotate(-9deg); }
+  #person { position: absolute; left: 690px; top: 0; width: 700px; transform-origin: 50% 100%; filter: url(#cut); }
+  #person img { width: 100%; display: block; filter: grayscale(1) contrast(1.3) brightness(1.06); }
+  #person .ht { position: absolute; inset: 0; mix-blend-mode: multiply;
+    -webkit-mask: url(../../assets/people/gibran-rakabuming.png) 0 0 / 100% 100%;
+    background: radial-gradient(circle, rgba(23,19,14,.42) 1.9px, transparent 2.5px) 0 0 / 8px 8px,
+                linear-gradient(rgba(214,160,90,.18), rgba(214,160,90,.18)); }
+  .rn { position: absolute; left: 62px; display: flex; gap: 4px; align-items: flex-end; }
+  .rn i { font-style: normal; display: inline-block; text-align: center; line-height: 1; padding: 6px 8px 8px;
+          box-shadow: 0 6px 10px rgba(23,19,14,.28); }
+  .strip { position: absolute; padding: 12px 28px 18px; font-weight: 900; text-transform: uppercase; white-space: nowrap;
+           box-shadow: 0 10px 16px rgba(23,19,14,.28); }
+  .tape { position: absolute; width: 120px; height: 38px; background: rgba(238,226,170,.78); box-shadow: 0 2px 4px rgba(23,19,14,.15); }
+  .label { position: absolute; background: #fff; padding: 14px 24px 16px; font-family: "Courier 10 Pitch", Courier, monospace;
+           font-weight: 700; font-size: 34px; color: var(--blk); white-space: nowrap; box-shadow: 0 10px 16px rgba(23,19,14,.25); }
+  .label small { display: block; font-size: 26px; font-weight: 400; margin-top: 4px; }
+  #ledge { position: absolute; left: -40px; top: 1236px; width: 1160px; height: 760px; background: var(--news);
+           box-shadow: 0 -10px 22px rgba(23,19,14,.22); }
+  #ledge::before { content: ""; position: absolute; left: 70px; right: 70px; top: 300px; bottom: 0;
+    background: repeating-linear-gradient(180deg, rgba(23,19,14,.10) 0 4px, transparent 4px 13px); }
+  #hookA .credit { position: absolute; left: 70px; top: 1250px; font-weight: 700; font-size: 22px; color: #5b5144; }
+  #grain { position: absolute; inset: 0; pointer-events: none; opacity: .28; mix-blend-mode: multiply; }
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute">
+  <filter id="stk" x="-10%" y="-10%" width="120%" height="125%">
+    <feMorphology in="SourceAlpha" operator="dilate" radius="8" result="d"/>
+    <feFlood flood-color="#fff"/><feComposite in2="d" operator="in" result="o"/>
+    <feGaussianBlur in="d" stdDeviation="10" result="b"/><feOffset in="b" dy="14" result="bo"/>
+    <feFlood flood-color="#1B2430" flood-opacity=".22"/><feComposite in2="bo" operator="in" result="sh"/>
+    <feMerge><feMergeNode in="sh"/><feMergeNode in="o"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="cut" x="-5%" y="-5%" width="110%" height="110%">
+    <feMorphology in="SourceAlpha" operator="dilate" radius="9" result="d"/>
+    <feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="4" result="n"/>
+    <feDisplacementMap in="d" in2="n" scale="10" result="dd"/>
+    <feFlood flood-color="#FBF8F1"/><feComposite in2="dd" operator="in" result="edge"/>
+    <feGaussianBlur in="dd" stdDeviation="9" result="b"/><feOffset in="b" dy="14" result="bo"/>
+    <feFlood flood-color="#17130E" flood-opacity=".35"/><feComposite in2="bo" operator="in" result="sh"/>
+    <feMerge><feMergeNode in="sh"/><feMergeNode in="edge"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="paper"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="7"/>
+    <feColorMatrix values="0 0 0 0 .45  0 0 0 0 .38  0 0 0 0 .3  0 0 0 1.1 -.35"/></filter>
+</svg>
+<div id="stage">
+  <div id="world">
+
+    <!-- zT (0,0): tagline -->
+    <div id="zT" class="zone" style="left:0; top:0;">
+      <div id="stamp" class="abs stamp sticker" style="left:540px; top:960px; font-size:110px;">Rangkumin dong!</div>
+    </div>
+
+    <!-- z1 (1240,0): the fork from PART 1 — l1 (HMP road lights up) and again l9 (letter road) -->
+    <div id="z1" class="zone" style="left:1240px; top:0;">
+      <div id="fH1" class="abs headline" style="left:540px; top:440px; font-size:80px; white-space:nowrap;">KEMARIN: <span class="acc">DUA JALAN</span></div>
+      <div id="fH9" class="abs headline" style="left:540px; top:440px; font-size:80px; white-space:nowrap;">JALAN <span class="acc">SATUNYA</span></div>
+      <!-- PATCH: l1 header -->
+      <div id="fTk" class="abs tick" style="left:540px; top:565px; font-size:38px;">KAMIS, 12 NOV · GEDUNG DPR, SENAYAN</div>
+      <div id="fRd" class="abs sticker-svg" style="left:540px; top:1000px;"></div>
+      <div id="fS1" class="abs sign" style="left:320px; top:700px;"><b>1</b>SURAT MUNDUR</div>
+      <div id="fS2" class="abs sign ink" style="left:770px; top:700px;"><b>2</b>HMP DPR</div>
+      <div id="fEn" class="abs sticker-svg" style="left:300px; top:1110px;"></div>
+    </div>
+
+    <!-- z2 (2480,0): l2 — usul HMP masuk agenda paripurna -->
+    <div id="z2" class="zone" style="left:2480px; top:0;">
+      <div id="hBar" class="abs lbar" style="left:540px; top:440px;">USUL HAK MENYATAKAN PENDAPAT</div>
+      <div id="hHmp" class="abs stampx" style="left:540px; top:590px; font-size:100px;">HMP</div>
+      <div id="hHall" class="abs sticker-svg" style="left:540px; top:900px;"></div>
+      <div id="hPap" class="abs paper" style="left:790px; top:1130px; width:300px;">
+        <div class="ph" style="font-size:26px; padding:12px 0 14px;">RAPAT PARIPURNA</div>
+        <div class="pl"></div><div class="pl" style="background:var(--hi); height:16px;"></div><div class="pl" style="width:60%;"></div><div class="pl"></div></div>
+      <div id="hTg" class="abs tag sticker" style="left:330px; top:1250px; font-size:40px;">masuk agenda</div>
+    </div>
+
+    <!-- z3 (0,2400): l3 — 120 pengusul, 8 fraksi, syarat 25 -->
+    <div id="z3" class="zone" style="left:0; top:2400px;">
+      <div id="cBar" class="abs lbar" style="left:540px; top:440px;">PENGUSUL</div>
+      <div id="cN" class="abs" style="left:540px; top:640px; text-align:center;">
+        <div class="big" style="font-size:220px; color:var(--accent);"><span id="cNv">0</span></div>
+        <div class="lbl" style="color:var(--ink); margin-top:6px;">anggota DPR</div></div>
+      <div id="cSeats" class="abs" style="left:540px; top:930px; display:flex; gap:14px;"></div>
+      <div id="cFr" class="abs chip" style="left:540px; top:1045px; font-size:44px;">8 fraksi</div>
+      <div id="cBars" class="abs" style="left:540px; top:1230px; width:880px; height:170px;">
+        <div style="position:absolute; left:0; top:0; width:170px; height:70px; display:flex; align-items:center; font-weight:900; font-size:34px;">pengusul</div>
+        <div id="cB1" style="position:absolute; left:180px; top:4px; height:62px; width:600px; background:var(--accent); border-radius:12px; transform-origin:0 50%;"></div>
+        <div id="cB1v" style="position:absolute; left:790px; top:0; height:70px; display:flex; align-items:center; font-weight:900; font-size:44px;">120</div>
+        <div style="position:absolute; left:0; top:92px; width:170px; height:70px; display:flex; align-items:center; font-weight:900; font-size:34px; color:var(--slate);">syarat</div>
+        <div id="cB2" style="position:absolute; left:180px; top:96px; height:62px; width:125px; background:var(--slate); border-radius:12px; transform-origin:0 50%;"></div>
+        <div id="cB2v" style="position:absolute; left:315px; top:92px; height:70px; display:flex; align-items:center; font-weight:900; font-size:44px; color:var(--slate); white-space:nowrap;">min. 25</div>
+      </div>
+    </div>
+
+    <!-- z4 (1240,2400): l4 — the agenda says "pengumuman usul" -->
+    <div id="z4" class="zone" style="left:1240px; top:2400px;">
+      <div id="aTp" class="abs headline" style="left:540px; top:480px; font-size:96px;">Tapi…</div>
+      <!-- PATCH: l4 agenda paper + stamp -->
+      <div id="aPap" class="abs paper" style="left:540px; top:830px; width:820px;">
+        <div class="ph" style="font-size:38px; padding:18px 0 20px;">RAPAT PARIPURNA DPR RI</div>
+        <div style="padding:22px 36px 30px; font-weight:800; font-size:34px; color:var(--slate); line-height:1.35;">
+          Kamis, 12 November 2026<br>
+          <span style="color:var(--ink); font-weight:900;">Acara:</span><br>
+          <span style="color:var(--ink); font-weight:900; font-size:44px; line-height:1.25;"><mark id="aMk">pengumuman usul</mark> penggunaan<br>hak Anggota DPR RI</span></div>
+        <div class="pl"></div><div class="pl" style="width:55%; margin-bottom:26px;"></div></div>
+      <div id="aSt" class="abs stampx" style="left:560px; top:1210px; font-size:70px;">BELUM TENTU<br>DIPUTUSKAN</div>
+    </div>
+
+    <!-- z5 (2480,2400): l5-l8 — the 4 HMP steps + deadline bar -->
+    <div id="z5" class="zone" style="left:2480px; top:2400px;">
+      <div id="sBar" class="abs lbar" style="left:540px; top:430px;">JALUR HMP · 4 LANGKAH</div>
+      <div id="c1" class="abs card" style="left:540px; top:580px;"><div class="n">1</div><div class="tx">
+        <div class="t1">Paripurna DPR memutuskan usul</div>
+        <div class="r"><span id="c1a">hadir <b>≥ 2/3</b> anggota</span><span id="c1b"> · setuju <b>≥ 2/3</b> yang hadir</span></div>
+        <div class="r"><span id="c1c">diterima? → dibentuk pansus</span></div></div></div>
+      <div id="c1P" class="abs ptag" style="left:915px; top:505px; transform-origin:50% 50%;">PANSUS</div>
+      <div id="c2" class="abs card" style="left:540px; top:772px;"><div class="n">2</div><div class="tx">
+        <div class="t1">Pansus bekerja</div>
+        <div class="r"><span id="c2a">maksimal <b>60 hari</b></span></div>
+        <div class="r"><span id="c2b">lalu laporannya diputus paripurna</span></div></div></div>
+      <div id="c3" class="abs card" style="left:540px; top:964px;"><div class="n">3</div><div class="tx">
+        <div class="t1"><span id="c3t">Paripurna: setuju ≥ 2/3 yang hadir?</span></div>
+        <div class="r"><span id="c3a">→ dibawa ke MK</span></div>
+        <div class="r"><span id="c3b">MK wajib memutus paling lama <b>90 hari</b></span></div></div></div>
+      <div id="c4" class="abs card" style="left:540px; top:1180px; height:226px;"><div class="n">4</div><div class="tx">
+        <div class="t1"><span id="c4t">MK menyatakan terbukti?</span></div>
+        <div class="r"><span id="c4a">→ DPR teruskan ke MPR</span></div>
+        <div class="r"><span id="c4b">MPR wajib bersidang <b>≤ 30 hari</b> sejak terima usul</span></div>
+        <div class="r"><span id="c4c">hadir <b>≥ 3/4</b> · setuju <b>≥ 2/3</b></span></div></div></div>
+      <div id="sTl" class="abs" style="left:540px; top:1360px; width:900px; height:76px;">
+        <div id="sg1" class="seg" style="left:0; width:300px; background:var(--accent); font-size:36px;">≤ 60 hari</div>
+        <div id="sg2" class="seg" style="left:300px; width:450px; background:var(--ink); font-size:36px;">≤ 90 hari</div>
+        <div id="sg3" class="seg" style="left:750px; width:150px; background:var(--slate); font-size:34px;">≤ 30</div></div>
+      <div id="sTot" class="abs tag accent sticker" style="left:540px; top:1460px; font-size:40px;">total: ? hari</div>
+    </div>
+
+    <!-- z6 (0,4800): l10 — Yusril: harus tertulis ke MPR -->
+    <div id="z6" class="zone" style="left:0; top:4800px;">
+      <div id="ySg" class="abs sign" style="left:540px; top:440px;"><b>1</b>JALAN SURAT MUNDUR</div>
+      <div id="yP" class="person" data-r="1.227" style="left:290px; top:0; width:500px;"><img src="../../assets/people/yusril-ihza-mahendra.png" alt=""></div>
+      <div class="ledge" style="top:1380px;"></div>
+      <div id="yNm" class="abs name" style="left:290px; top:1250px;">Yusril Ihza Mahendra<small>Menko Kumham Imipas</small></div>
+      <div id="yBar" class="abs lbar" style="left:770px; top:610px;">HARUS TERTULIS</div>
+      <div id="yEn" class="abs sticker-svg" style="left:770px; top:860px;"></div>
+      <div id="yKe" class="abs chip" style="left:770px; top:1070px; font-size:48px;">KE: MPR</div>
+    </div>
+
+    <!-- z7 (1240,4800): l11 — kabar surat ke Presiden (PATCH: l11) -->
+    <div id="z7" class="zone" style="left:1240px; top:4800px;">
+      <div id="kTg" class="abs tag sticker" style="left:540px; top:460px; font-size:46px;">KABAR: surat ke Presiden</div>
+      <div id="kEn" class="abs sticker-svg" style="left:500px; top:800px;"></div>
+      <div id="kQ" class="abs" style="left:800px; top:700px; font-weight:900; font-size:200px; color:var(--accent);">?</div>
+      <div id="kSt" class="abs stampx grey" style="left:540px; top:1150px; font-size:64px;">BELUM DIKONFIRMASI<br>RESMI ISTANA</div>
+    </div>
+
+    <!-- z8 (2480,4800): l12 — pimpinan MPR, two cut-outs, same size (PATCH: l12 bubbles) -->
+    <div id="z8" class="zone" style="left:2480px; top:4800px;">
+      <div id="mBar" class="abs lbar" style="left:540px; top:440px;">PIMPINAN MPR · SOAL SURAT</div>
+      <div id="mP1" class="person" data-r="1.140" style="left:290px; top:0; width:470px;"><img src="../../assets/people/bambang-wuryanto.png" alt=""></div>
+      <div id="mP2" class="person" data-r="1.058" style="left:790px; top:0; width:470px;"><img src="../../assets/people/ahmad-muzani.png" alt=""></div>
+      <div class="ledge" style="top:1380px;"></div>
+      <div id="mN1" class="abs name" style="left:290px; top:1260px; font-size:32px;">Bambang Wuryanto<small>Waka MPR</small></div>
+      <div id="mN2" class="abs name" style="left:790px; top:1260px; font-size:32px;">Ahmad Muzani<small>Ketua MPR</small></div>
+      <div id="mB1" class="abs bub" style="left:290px; top:680px; font-size:42px;">Dijadwalkan<br>Kamis<small>penyerahan ke MPR</small></div>
+      <div id="mB2" class="abs bub" style="left:790px; top:680px; font-size:42px;">Belum<br>terima<small>Rabu malam</small></div>
+    </div>
+
+    <!-- z9 (0,7200): l13 — turn: Mardani, HMP jalan terus -->
+    <div id="z9" class="zone" style="left:0; top:7200px;">
+      <div id="dTp" class="abs tick" style="left:540px; top:440px; font-size:56px;">TAPI…</div>
+      <div id="dP" class="person" data-r="1.258" style="left:290px; top:0; width:480px;"><img src="../../assets/people/mardani-ali-sera.png" alt=""></div>
+      <div class="ledge" style="top:1380px;"></div>
+      <div id="dNm" class="abs name" style="left:300px; top:1260px; font-size:32px;">Mardani Ali Sera<small>Anggota DPR (PKS) · pengusul HMP</small></div>
+      <div id="dLn" class="abs sticker-svg" style="left:770px; top:700px;"></div>
+      <div id="dQt" class="abs bub" style="left:740px; top:1050px; font-size:38px; white-space:nowrap;">“Kami di DPR<br>jalan terus untuk HMP<br>sampai prosesnya final.”<small>kata Mardani · IDN Times, 12/11</small></div>
+    </div>
+
+    <!-- z10 (1240,7200): l14 — kursi wapres kosong? -->
+    <div id="z10" class="zone" style="left:1240px; top:7200px;">
+      <div id="wLb" class="abs tag sticker" style="left:290px; top:560px; font-size:44px;">Kursi Wapres</div>
+      <div id="wCh" class="abs sticker-svg" style="left:290px; top:880px;"></div>
+      <div id="wSt" class="abs stampx" style="left:290px; top:1180px; font-size:72px;">KOSONG?</div>
+      <div id="wBar" class="abs lbar" style="left:770px; top:560px;">MPR MEMILIH</div>
+      <div id="w60" class="abs chip" style="left:770px; top:700px; font-size:64px;">≤ 60 hari</div>
+      <div id="wC1" class="abs cand" style="left:665px; top:960px;"><div class="ico"></div><b>Calon 1</b></div>
+      <div id="wC2" class="abs cand" style="left:880px; top:960px;"><div class="ico"></div><b>Calon 2</b></div>
+      <div id="wUs" class="abs note" style="left:770px; top:1130px; font-size:30px; color:var(--ink);">usulan Presiden</div>
+    </div>
+
+    <!-- z11 (2480,7200): l15-l16 — payoff 60 + 90 + 30 = 180 -->
+    <div id="z11" class="zone" style="left:2480px; top:7200px;">
+      <div id="tHd" class="abs headline" style="left:540px; top:470px; font-size:90px;">Jawabannya:</div>
+      <div id="tBar" class="abs" style="left:540px; top:720px; width:900px; height:120px;">
+        <div id="tg1" class="gapx" style="width:36px;"></div><div id="tg2" class="gapx" style="width:36px;"></div>
+        <div id="t1" class="seg" style="width:276px; background:var(--accent); font-size:64px;">60</div>
+        <div id="t2" class="seg" style="width:414px; background:var(--ink); font-size:64px;">90</div>
+        <div id="t3" class="seg" style="width:138px; background:var(--slate); font-size:64px;">30</div></div>
+      <div id="tL" class="abs" style="left:540px; top:820px; width:900px; height:40px;">
+        <div id="tl1" class="note" style="position:absolute; top:0;">pansus</div>
+        <div id="tl2" class="note" style="position:absolute; top:0;">MK</div>
+        <div id="tl3" class="note" style="position:absolute; top:0;">MPR</div></div>
+      <div id="tN" class="abs" style="left:540px; top:1020px; text-align:center;">
+        <div class="big" style="font-size:230px; color:var(--accent);"><span id="tNv">0</span></div>
+        <div class="big" style="font-size:90px; letter-spacing:-2px; margin-top:10px;">HARI</div></div>
+      <div id="tNt" class="abs chip" style="left:540px; top:1300px; font-size:38px;">+ rapat di antaranya<small>belum termasuk</small></div>
+    </div>
+
+    <!-- zQ (0,9600): CTA -->
+    <div id="zQ" class="zone" style="left:0; top:9600px;">
+      <div id="qHd" class="abs headline" style="left:540px; top:500px; font-size:92px; white-space:nowrap;">Mana selesai<br><span class="acc">duluan?</span></div>
+      <div id="qA" class="abs chip" style="left:280px; top:850px; font-size:46px;"><span class="flg"></span><br>Surat<br>ke MPR?</div>
+      <div id="qHg" class="abs sticker-svg" style="left:540px; top:860px;"></div>
+      <div id="qB" class="abs chip" style="left:800px; top:850px; font-size:46px;"><span class="flg"></span><br>Proses<br>DPR?</div>
+      <div id="qCom" class="abs sticker-svg" style="left:360px; top:1200px;"></div>
+      <div id="qK" class="abs bub" style="left:700px; top:1180px; font-size:64px;">Komen!</div>
+    </div>
+  </div>
+
+  <!-- hook overlay: person_collage, Gibran -->
+  <div id="hookA">
+    <div class="cols" style="left:40px; top:200px; width:300px; height:1040px; transform:rotate(-2deg)"></div>
+    <div class="cols" style="left:380px; top:160px; width:300px; height:1080px; transform:rotate(1deg)"></div>
+    <div class="cols" style="left:720px; top:210px; width:330px; height:1040px; transform:rotate(-1deg)"></div>
+    <div id="redblock"></div>
+    <div id="blkline"></div>
+    <div id="person"><img src="../../assets/people/gibran-rakabuming.png" alt=""><div class="ht"></div></div>
+    <div id="ledge"></div>
+    <div id="r1" class="rn" style="top:330px;"></div>
+    <div id="r2" class="rn" style="top:440px;"></div>
+    <div id="hTb" class="strip" style="left:62px; top:330px; background:#FFD23F; color:var(--blk); font-size:64px; font-family:'GFS Baskerville','DejaVu Serif',serif;">Tebak dulu:</div>
+    <div id="hTn" class="label" style="left:70px; top:450px; font-size:34px;">tenggat resmi, dijumlah</div>
+    <div id="hQW" class="abs" style="left:250px; top:600px;"><div id="hQ" class="strip" style="position:relative; background:var(--red); color:#fff; font-size:104px; letter-spacing:-2px;"><span id="hQm">?</span> HARI</div></div>
+    <div id="hCal" class="abs" style="left:880px; top:470px;"></div>
+    <div id="nameW" class="abs" style="left:300px; top:760px;">
+      <div class="label" id="name" style="position:relative">GIBRAN RAKABUMING RAKA<small>Wakil Presiden</small></div>
+      <div class="tape" style="left:-36px; top:-16px; transform:rotate(-30deg)"></div>
+      <div class="tape" style="right:-40px; bottom:-12px; transform:rotate(-26deg); width:100px"></div>
+    </div>
+    <div id="b1" class="strip" style="left:70px; top:870px; background:var(--blk); color:#fff; font-size:60px;">Mundur?</div>
+    <div id="b2" class="strip" style="left:110px; top:975px; background:#FFD23F; color:var(--blk); font-size:60px;">Dimakzulkan?</div>
+    <div id="b3" class="strip" style="left:80px; top:1080px; background:#fff; color:var(--red); font-size:56px;">Ini urutannya</div>
+    <div class="credit" id="hCr">Foto: Darwis Triadi &amp; Kemensetneg, Public domain, via Wikimedia Commons</div>
+    <svg id="grain" width="1080" height="1920"><rect width="1080" height="1920" filter="url(#paper)"/></svg>
+  </div>
+
+  <div id="brand"><div class="dot"></div><b>Rangkumin Dong</b></div>
+  <div id="part">PART 2</div>
+  <div id="status">status per Kamis pagi, 12 Nov 2026</div><!-- PATCH: status -->
+  <div id="credit"></div>
+  <div id="subs"></div>
+  <div id="endcard">
+    <div class="logo">RANGKUMIN<br>DONG</div>
+    <div class="tl2">Berita ribet? Rangkumin dong.</div>
+    <div class="h">Follow @rangkumindong</div>
+    <div class="src">Sumber: Okezone · detikNews · CNN Indonesia · Liputan6 ·<br>ANTARA · IDN Times · UUD 1945 · lengkap di komentar</div>
+    <!-- PATCH: status note -->
+    <div class="src" style="font-size:32px; margin-top:0; color:var(--ink);">Status per Kamis pagi, 12 Nov 2026 · PART 1 di profil</div>
+    <div class="src" style="font-size:28px; margin-top:0;">Foto (Wikimedia Commons): Kemensetneg · Kemenko Kumham Imipas ·<br>MPR RI (Public domain) · Ahmad Muzani: MPR-RI, CC BY-SA 4.0</div>
+  </div>
+  <div id="progress"></div>
+</div>
+
+<style>
+  .ar { fill: none; stroke: #1B2430; stroke-width: 9; stroke-linecap: round; stroke-linejoin: round; }
+</style>
+<script>
+const $ = (id) => document.getElementById(id);
+const T = window.TIMING;
+window.DURATION = T.duration;
+const at = K.at, W = K.word;
+const END = at('end', -0.15);
+
+// ---------- SVG builders (generic icons, no logos, no party symbols or colours) ----------
+const roadSVG = () => `<svg width="720" height="520" viewBox="0 0 720 520">
+  <path d="M300 520 L330 300 L150 40 L250 40 L360 230 L470 40 L570 40 L390 300 L420 520 Z" fill="#3E5568"/>
+  <path id="rdL" d="M330 300 L150 40 L250 40 L360 230 Z" fill="#FFD23F" opacity="0"/>
+  <path id="rdR" d="M390 300 L570 40 L470 40 L360 230 Z" fill="#FFD23F" opacity="0"/>
+  <path d="M360 500 V420 M360 380 V320" stroke="#FFD23F" stroke-width="12" stroke-linecap="round"/>
+  <path d="M330 270 L240 120 M390 270 L480 120" stroke="#F3EFE6" stroke-width="10" stroke-linecap="round" stroke-dasharray="28 26"/></svg>`;
+const envSVG = (s = 300, label = '') => `<svg width="${s}" height="${s * 0.7}" viewBox="0 0 300 210"><rect x="10" y="10" width="280" height="190" rx="18" fill="#fff" stroke="#1B2430" stroke-width="8"/>
+  <path d="M18 24 L150 120 L282 24" fill="none" stroke="#1B2430" stroke-width="8" stroke-linejoin="round"/>
+  ${label ? `<rect x="150" y="140" width="120" height="44" rx="8" fill="#FFD23F"/><text x="210" y="172" text-anchor="middle" font-family="Inter" font-weight="900" font-size="28" fill="#1B2430">${label}</text>` : ''}</svg>`;
+const envDashSVG = (s = 300) => `<svg width="${s}" height="${s * 0.7}" viewBox="0 0 300 210"><rect x="10" y="10" width="280" height="190" rx="18" fill="#fff" stroke="#3E5568" stroke-width="8" stroke-dasharray="22 14"/>
+  <path d="M18 24 L150 120 L282 24" fill="none" stroke="#3E5568" stroke-width="8" stroke-linejoin="round" stroke-dasharray="22 14"/></svg>`;
+const hallSVG = () => { let s = '';
+  [[150, 9], [230, 13], [310, 17]].forEach(([r, n]) => { for (let i = 0; i < n; i++) { const a = Math.PI * (1.08 + 0.84 * i / (n - 1));
+    const x = 380 + r * Math.cos(a), y = 330 + r * Math.sin(a) * 0.62; s += `<rect x="${(x - 16).toFixed(1)}" y="${(y - 14).toFixed(1)}" width="32" height="28" rx="8" fill="#9FB0BF" stroke="#1B2430" stroke-width="4"/>`; } });
+  return `<svg width="760" height="400" viewBox="0 0 760 400"><ellipse cx="380" cy="350" rx="370" ry="44" fill="#1B2430" opacity=".12"/>
+  <path d="M30 340 Q380 40 730 340 Z" fill="#E7E2D6" stroke="#1B2430" stroke-width="6"/>${s}
+  <rect x="300" y="270" width="160" height="80" rx="10" fill="#3E5568" stroke="#1B2430" stroke-width="6"/><rect x="350" y="240" width="60" height="34" rx="6" fill="#FFD23F" stroke="#1B2430" stroke-width="5"/></svg>`; };
+const seatSVG = () => `<svg width="84" height="84" viewBox="0 0 60 60"><rect x="4" y="4" width="52" height="52" rx="14" fill="#E7E2D6" stroke="#9FB0BF" stroke-width="3"/>
+  <circle cx="30" cy="23" r="9" fill="#3E5568"/><path d="M14 52 q0 -18 16 -18 q16 0 16 18 z" fill="#3E5568"/></svg>`;
+const personIco = (c = '#9FB0BF') => `<svg width="110" height="110" viewBox="0 0 60 60"><circle cx="30" cy="22" r="12" fill="${c}"/><path d="M8 58 q0 -24 22 -24 q22 0 22 24 z" fill="${c}"/></svg>`;
+const chairSVG = () => `<svg width="340" height="420" viewBox="0 0 340 420"><ellipse cx="170" cy="404" rx="140" ry="12" fill="#1B2430" opacity=".15"/>
+  <rect x="70" y="20" width="200" height="200" rx="34" fill="#8E5F33" stroke="#1B2430" stroke-width="8"/><rect x="96" y="46" width="148" height="148" rx="22" fill="#B23A2A"/>
+  <rect x="40" y="200" width="260" height="70" rx="22" fill="#B23A2A" stroke="#1B2430" stroke-width="8"/>
+  <rect x="30" y="160" width="40" height="110" rx="14" fill="#8E5F33" stroke="#1B2430" stroke-width="7"/><rect x="270" y="160" width="40" height="110" rx="14" fill="#8E5F33" stroke="#1B2430" stroke-width="7"/>
+  <rect x="62" y="268" width="26" height="130" rx="8" fill="#8E5F33" stroke="#1B2430" stroke-width="7"/><rect x="252" y="268" width="26" height="130" rx="8" fill="#8E5F33" stroke="#1B2430" stroke-width="7"/></svg>`;
+const lanesSVG = () => `<svg width="460" height="300" viewBox="0 0 460 300">
+  <rect x="10" y="40" width="400" height="80" rx="16" fill="#FF5A36"/><rect x="10" y="170" width="400" height="80" rx="16" fill="#1B2430"/>
+  <path d="M400 40 L450 80 L400 120 Z" fill="#FF5A36"/><path d="M400 170 L450 210 L400 250 Z" fill="#1B2430"/>
+  <text x="40" y="94" font-family="Inter" font-weight="900" font-size="38" fill="#fff">SURAT MUNDUR</text>
+  <text x="40" y="224" font-family="Inter" font-weight="900" font-size="38" fill="#FFD23F">HMP DPR</text>
+  <path id="lnDash" d="M40 145 H400" stroke="#9FB0BF" stroke-width="6" stroke-dasharray="18 14"/></svg>`;
+const calSVG = () => `<svg width="190" height="200" viewBox="0 0 190 200"><rect x="10" y="20" width="170" height="170" rx="16" fill="#F1ECE0" stroke="#17130E" stroke-width="7"/>
+  <rect x="10" y="20" width="170" height="48" rx="12" fill="#D6301F" stroke="#17130E" stroke-width="7"/><rect x="44" y="6" width="14" height="34" rx="6" fill="#17130E"/><rect x="132" y="6" width="14" height="34" rx="6" fill="#17130E"/>
+  ${[0, 1, 2, 3].map((r) => [0, 1, 2, 3, 4].map((c) => `<rect x="${26 + c * 29}" y="${82 + r * 26}" width="18" height="14" rx="3" fill="${(r * 5 + c) % 7 === 3 ? '#D6301F' : '#9DA1A3'}"/>`).join('')).join('')}</svg>`;
+const hourglassSVG = () => `<svg width="130" height="190" viewBox="0 0 130 190"><rect x="10" y="6" width="110" height="18" rx="8" fill="#1B2430"/><rect x="10" y="166" width="110" height="18" rx="8" fill="#1B2430"/>
+  <path d="M24 24 Q24 80 60 95 Q24 110 24 166 H106 Q106 110 70 95 Q106 80 106 24 Z" fill="#fff" stroke="#1B2430" stroke-width="7"/>
+  <path d="M40 40 Q65 50 90 40 Q85 75 65 88 Q45 75 40 40 Z" fill="#FFD23F"/><path d="M36 162 Q65 120 94 162 Z" fill="#FFD23F"/></svg>`;
+const flagSVG = () => `<svg width="70" height="64" viewBox="0 0 70 64"><path d="M8 4 V62" stroke="#1B2430" stroke-width="6" stroke-linecap="round"/>
+  ${[0, 1, 2].map((r) => [0, 1, 2, 3].map((c) => `<rect x="${11 + c * 13}" y="${5 + r * 11}" width="13" height="11" fill="${(r + c) % 2 ? '#fff' : '#1B2430'}"/>`).join('')).join('')}<rect x="11" y="5" width="52" height="33" fill="none" stroke="#1B2430" stroke-width="3"/></svg>`;
+const commentSVG = () => `<svg width="240" height="210" viewBox="0 0 260 230"><path d="M20 30 Q20 10 40 10 H220 Q240 10 240 30 V150 Q240 170 220 170 H110 L60 214 L70 170 H40 Q20 170 20 150 Z" fill="#fff" stroke="#1B2430" stroke-width="8" stroke-linejoin="round"/>
+  <circle cx="80" cy="90" r="14" fill="#1B2430"/><circle cx="130" cy="90" r="14" fill="#1B2430"/><circle cx="180" cy="90" r="14" fill="#1B2430"/></svg>`;
+
+$('fRd').innerHTML = roadSVG(); $('fEn').innerHTML = envSVG(260);
+$('hHall').innerHTML = hallSVG();
+$('cSeats').innerHTML = [...Array(8)].map((_, i) => `<div id="seat${i}">${seatSVG()}</div>`).join('');
+$('yEn').innerHTML = envSVG(320, 'MPR'); $('kEn').innerHTML = envDashSVG(380);
+$('dLn').innerHTML = lanesSVG(); $('wCh').innerHTML = chairSVG();
+document.querySelectorAll('.cand .ico').forEach((e) => { e.innerHTML = personIco(); });
+document.querySelectorAll('.flg').forEach((e) => { e.innerHTML = flagSVG(); });
+$('qHg').innerHTML = hourglassSVG(); $('qCom').innerHTML = commentSVG();
+$('hCal').innerHTML = calSVG();
+
+// ---------- collage helpers (tests/hook-collage) ----------
+const hash = (s) => { let h = 2166136261; for (const c of String(s)) h = Math.imul(h ^ c.charCodeAt(0), 16777619); return h >>> 0; };
+const rnd = (s) => { let x = hash(s); x ^= x << 13; x ^= x >>> 17; x ^= x << 5; return ((x >>> 0) % 10000) / 10000; };
+const ST = (t) => Math.floor(t * 12 + 1e-6) / 12;
+const jit = (id, t, a = 2) => { const k = Math.floor(t * 12); return [(rnd(id + 'x' + k) - .5) * 2 * a, (rnd(id + 'y' + k) - .5) * 2 * a, (rnd(id + 'r' + k) - .5) * 1.2]; };
+function torn(el, seed, amp = 9, step = 26, sides = 'trbl') {
+  const w = el.offsetWidth, h = el.offsetHeight, P = [];
+  const j = (i) => (rnd(seed + i) * amp);
+  let i = 0;
+  for (let x = 0; x <= w; x += step) P.push([x, sides.includes('t') ? j(i++) : 0]);
+  for (let y = 0; y <= h; y += step) P.push([w - (sides.includes('r') ? j(i++) : 0), y]);
+  for (let x = w; x >= 0; x -= step) P.push([x, h - (sides.includes('b') ? j(i++) : 0)]);
+  for (let y = h; y >= 0; y -= step) P.push([sides.includes('l') ? j(i++) : 0, y]);
+  el.style.clipPath = 'polygon(' + P.map(([x, y]) => `${x.toFixed(1)}px ${y.toFixed(1)}px`).join(',') + ')';
+}
+const LOOKS = [
+  { bg: '#17130E', c: '#fff', f: 'Inter', w: 900 }, { bg: '#F1ECE0', c: '#17130E', f: "'GFS Baskerville', serif", w: 700 },
+  { bg: '#D6301F', c: '#fff', f: 'Inter', w: 900 }, { bg: '#fff', c: '#17130E', f: "'DejaVu Serif', serif", w: 700 },
+  { bg: '#FFD23F', c: '#17130E', f: "'Bitstream Charter', serif", w: 700 }, { bg: '#F1ECE0', c: '#D6301F', f: 'Inter', w: 900 },
+];
+const letters = [];
+[['r1', 'MUNDUR ATAU'], ['r2', 'DIMAKZULKAN?']].forEach(([rid, str]) => {
+  const row = $(rid);
+  [...str].forEach((ch) => {
+    const i = letters.length;
+    if (ch === ' ') { const s = document.createElement('span'); s.style.width = '18px'; row.appendChild(s); return; }
+    const L = LOOKS[Math.floor(rnd('lk' + i + ch) * LOOKS.length)];
+    const e = document.createElement('i'); e.textContent = ch;
+    Object.assign(e.style, { background: L.bg, color: L.c, fontFamily: L.f, fontWeight: L.w, fontSize: (62 + rnd('fs' + i) * 12) + 'px' });
+    row.appendChild(e); letters.push({ e, rot: (rnd('ro' + i) - .5) * 12, dy: (rnd('dy' + i) - .5) * 14, i });
+  });
+});
+letters.forEach(({ e, i }) => torn(e, 'l' + i, 5, 12));
+['b1', 'b2', 'b3', 'name', 'hTb', 'hTn', 'hQ'].forEach((id) => torn($(id), id, 8, 22));
+torn($('ledge'), 'ledge', 22, 30, 't');
+document.querySelectorAll('#hookA .tape').forEach((e, i) => torn(e, 'tp' + i, 6, 12, 'lr'));
+function slap(el, id, tIn, tOut, t, rot = 0, from = 1.35, centre = true) {
+  const q = ST(t), k = Math.floor((q - tIn) * 12 + 1e-6);
+  if (t < tIn || t >= tOut + 0.17) { el.style.opacity = 0; return; }
+  el.style.opacity = 1;
+  const s = k <= 0 ? from : k === 1 ? 0.94 : 1;
+  const [jx, jy, jr] = jit(id, t, k < 3 ? 3 : 1.4);
+  const out = t >= tOut ? Math.min(1, Math.floor((t - tOut) * 12 + 1) / 2) : 0;
+  el.style.transform = (centre ? 'translate(-50%,-50%) ' : '') + `translate(${jx + out * -1200}px, ${jy}px) rotate(${rot + jr + out * -12}deg) scale(${s})`;
+}
+function slapAbs(el, id, tIn, tOut, t, rot = 0) { slap(el, id, tIn, tOut, t, rot, 1.35, false); el.style.transformOrigin = '0 50%'; }
+
+// ---------- sticker helpers ----------
+const pulse = (el, t, tIn, amt = 0.12, rot = 0) => { const k = K.clamp((t - tIn) / 0.45); el.style.transform = `translate(-50%,-50%) scale(${1 + amt * Math.sin(Math.PI * k)}) rotate(${rot}deg)`; };
+const slam = (el, t, tIn, rot = 0, from = 2, tOut = Infinity) => { const s = K.spring(t - tIn, 320, 18), o = K.clamp((t - tOut) / 0.25);
+  el.style.opacity = t >= tIn ? 1 - o : 0; el.style.transform = `translate(-50%,-50%) scale(${(from - (from - 1) * s) * (1 - 0.2 * o)}) rotate(${rot}deg)`; };
+const fade = (el, t, tIn, tOut = Infinity, d = 0.2) => { el.style.opacity = K.clamp((t - tIn) / d) * (1 - K.clamp((t - tOut) / d)); };
+const show = (el, t, tIn) => { const k = K.clamp((t - tIn) / 0.18); el.style.opacity = k; el.style.display = 'inline-block'; el.style.transform = `translateY(${(1 - K.easeOut(k)) * 14}px)`; };
+// person cut-out rising on the ledge (image bottom at zone y 1400, hidden by the ledge at 1380); same style for every face
+const rise = (el, t, tIn, bob = 0) => { const ps = K.spring(t - tIn, 140, 15), h = parseFloat(el.style.width) * parseFloat(el.dataset.r);
+  el.style.opacity = t >= tIn ? 1 : 0;
+  el.style.transform = `translate(-50%, ${1400 - h + (1 - ps) * 700 + bob}px) scale(${0.92 + 0.08 * ps})`; };
+
+const CR = {
+  yusril: 'Foto: Kemenko Kumham Imipas, Public domain, via Wikimedia Commons',
+  mpr: 'Foto: Bambang Wuryanto, MPR RI, Public domain · Ahmad Muzani, MPR-RI, CC BY-SA 4.0\nvia Wikimedia Commons',
+  mardani: 'Foto: Majelis Permusyawaratan Rakyat, Public domain, via Wikimedia Commons',
+};
+const POS = { zT: [0, 0], z1: [1240, 0], z2: [2480, 0], z3: [0, 2400], z4: [1240, 2400], z5: [2480, 2400],
+  z6: [0, 4800], z7: [1240, 4800], z8: [2480, 4800], z9: [0, 7200], z10: [1240, 7200], z11: [2480, 7200], zQ: [0, 9600] };
+
+function seek(t) {
+  const Z = (x, y, z = 1.0) => ({ x, y: y + 200 / z, z });
+  const zc = (id, z = 1, dx = 0, dy = 0) => Z(POS[id][0] + 540 + dx, POS[id][1] + 960 + dy, z);
+  const rd = at('rd', -0.05);
+  // zone changes are hard cuts; only the current zone is visible (QA 11 Nov)
+  const CUT = 0.001;
+  const ZT = [['zT', 0], ['z1', at('l1', -0.3)], ['z2', at('l2', -0.3)], ['z3', at('l3', -0.3)], ['z4', at('l4', -0.25)],
+    ['z5', at('l5', -0.25)], ['z1', at('l9', -0.3)], ['z6', at('l10', -0.3)], ['z7', at('l11', -0.25)], ['z8', at('l12', -0.3)],
+    ['z9', at('l13', -0.3)], ['z10', at('l14', -0.25)], ['z11', at('l15', -0.25)], ['zQ', at('cta', -0.25)]];
+  const keys = [{ t: 0, ...zc('zT', 1.08) }];
+  ZT.slice(1).forEach(([id, t0]) => { keys.push({ t: t0, ...zc(id), dur: CUT }); });
+  // in-zone moves (eased), added between the cuts
+  keys.push({ t: W('l4', 'pengumuman') - 0.25, ...zc('z4', 1.07, 0, -80), dur: 0.5 });
+  keys.push({ t: W('l8', 'mpr', 1) - 0.2, ...zc('z5', 1.02, 0, 0), dur: 0.8 });
+  keys.push({ t: W('l15', '180') - 0.2, ...zc('z11', 1.06, 0, -40), dur: 0.5 });
+  keys.push({ t: W('l13', 'hmp') - 0.2, ...zc('z9', 1.04, 0, -40), dur: 0.6 });
+  keys.sort((a, b) => a.t - b.t);
+  K.camera($('world'), keys, t, 1080, 1920, 0.6);
+  const cur = ZT.filter(([, t0]) => t >= t0).pop()[0];
+  Object.keys(POS).forEach((id) => { $(id).style.visibility = id === cur ? 'visible' : 'hidden'; });
+
+  // ---------- hook: person collage, Gibran; cover from frame 0, a change every ≤1.5 s ----------
+  { const q = ST(t);
+    const gone = t >= rd ? Math.min(1, Math.floor((t - rd) * 12 + 1) / 3) : 0;
+    $('hookA').style.opacity = gone >= 1 ? 0 : 1;
+    $('hookA').style.display = t > rd + 0.5 ? 'none' : '';
+    $('hookA').style.transform = `translateX(${-1150 * gone}px) rotate(${-3 * gone}deg)`;
+    const ps = K.clamp(K.spring(q + 0.45, 140, 15));
+    const [jx, jy, jr] = jit('p', t, t > W('h1', 'dimakzulkan') && t < at('h2') ? 2.2 : 1);
+    $('person').style.transform = `translate(-50%, ${1590 - 1010 * ps + jy}px) translateX(${jx}px) rotate(${jr * .6 - 1}deg)`;
+    const rb = K.clamp(K.spring(q + 0.3, 200, 18));
+    $('redblock').style.transform = `rotate(-9deg) translateX(${(1 - rb) * -1300}px)`;
+    $('blkline').style.transform = `rotate(-9deg) translateX(${(1 - rb) * 1300}px)`;
+    // title card (2 lines, ransom letters): on from frame 0, off when h2 starts (~3 s)
+    const tQ = at('h2', -0.05);
+    letters.forEach(({ e, rot, dy, i }) => {
+      const tIn = -0.6 + i * (1 / 24), k = Math.floor((q - tIn) * 12);
+      const [x, y, r] = jit('L' + i, t, 1.2);
+      const out = t >= tQ ? Math.min(1, Math.floor((t - tQ) * 12 + 1) / 2) : 0;
+      e.style.opacity = out >= 1 ? 0 : 1;
+      e.style.transform = `translate(${x - out * 1200}px, ${dy + y}px) rotate(${rot + r}deg) scale(${k <= 0 ? 1.4 : 1})`;
+    });
+    if (t > W('h1', 'mundur') - 0.05 && t < tQ) { const k = Math.floor(K.clamp((t - W('h1', 'mundur') + 0.05) / 0.4) * 5) / 5; $('r1').style.transform = `scale(${1 + 0.06 * Math.sin(Math.PI * k)})`; } else $('r1').style.transform = '';
+    if (t > W('h1', 'dimakzulkan') - 0.05 && t < tQ) { const k = Math.floor(K.clamp((t - W('h1', 'dimakzulkan') + 0.05) / 0.4) * 5) / 5; $('r2').style.transform = `scale(${1 + 0.06 * Math.sin(Math.PI * k)})`; } else $('r2').style.transform = '';
+    slap($('nameW'), 'nm', W('h1', 'gibran') - 0.05, rd, t, -4);
+    // label bars over the torso: black → yellow → white
+    slapAbs($('b1'), 'b1', W('h1', 'mundur') - 0.05, rd, t, -3);
+    slapAbs($('b2'), 'b2', W('h1', 'dimakzulkan') - 0.05, rd, t, 2);
+    slapAbs($('b3'), 'b3', W('h1', 'ini') - 0.05, rd, t, -1.5);
+    // h2: the guess (loop, paid at l15)
+    slapAbs($('hTb'), 'tb', W('h2', 'tebak') - 0.05, rd, t, -2);
+    slapAbs($('hTn'), 'tn', W('h2', 'tenggat') - 0.05, rd, t, 1.5);
+    slap($('hCal'), 'cal', W('h2', 'dijumlah') - 0.08, rd, t, 6);
+    slap($('hQW'), 'hq', W('h2', 'berapa') - 0.05, rd, t, -3);
+    $('hQm').style.visibility = (t > W('h2', 'hari') && Math.floor(ST(t) * 4) % 2) ? 'hidden' : 'visible';
+  }
+
+  // ---------- tagline ----------
+  K.pop($('stamp'), t, at('rd', -0.1), at('l1', -0.2), -6);
+
+  // ---------- z1: the fork (l1, then again at l9) ----------
+  { const t9 = at('l9', -0.3), tD = W('l1', 'dpr') - 0.08;
+    const inL1 = t < t9;
+    K.pop($('fH1'), t, at('l1', -0.25), t9 - 0.6, -2);
+    K.pop($('fRd'), t, at('l1', -0.2), Infinity, 0);
+    K.pop($('fS1'), t, W('l1', 'dua') - 0.08, Infinity, -4);
+    K.pop($('fS2'), t, W('l1', 'jalan') - 0.05, Infinity, 3);
+    slam($('fTk'), t, W('l1', 'kamis') - 0.08, -2, 1.5, t9 - 0.6);
+    if (inL1 && t > W('l1', '12') - 0.05) pulse($('fTk'), t, W('l1', '12') - 0.05, 0.06, -2);
+    const litR = inL1 && t >= tD, litL = !inL1;
+    $('fS2').classList.toggle('lit', litR); $('fS1').classList.toggle('dim', litR);
+    $('fS1').classList.toggle('lit', litL); $('fS2').classList.toggle('dim', litL);
+    const rR = $('rdR'), rL = $('rdL');
+    if (rR) rR.setAttribute('opacity', litR ? 0.9 * K.clamp((t - tD) / 0.25) : 0);
+    if (rL) rL.setAttribute('opacity', litL ? 0.9 * K.clamp((t - W('l9', 'jalan') + 0.1) / 0.25) : 0);
+    if (litR && t > W('l1', 'bergerak') - 0.05) pulse($('fS2'), t, W('l1', 'bergerak') - 0.05, 0.1, 3);
+    K.pop($('fH9'), t, W('l9', 'jalan') - 0.08, Infinity, -2);
+    if (!inL1) $('fH1').style.opacity = 0;
+    K.pop($('fEn'), t, W('l9', 'surat') - 0.08, Infinity, -5 + 2 * Math.sin(t * 2));
+    if (!inL1 && t > W('l9', 'mundur') - 0.05) pulse($('fS1'), t, W('l9', 'mundur') - 0.05, 0.1, -4);
+  }
+
+  // ---------- z2: usul HMP, agenda paripurna ----------
+  K.pop($('hBar'), t, at('l2', -0.2), Infinity, -1);
+  K.pop($('hHall'), t, W('l2', 'menyatakan') - 0.1, Infinity, 0);
+  slam($('hHmp'), t, W('l2', 'hmp') - 0.06, -4, 1.8);
+  { const tp = W('l2', 'masuk') - 0.1, s = K.spring(t - tp, 220, 20);
+    $('hPap').style.opacity = t >= tp ? 1 : 0;
+    $('hPap').style.transform = `translate(-50%,-50%) translateX(${(1 - s) * 500}px) rotate(${5 - 2 * s}deg)`; }
+  K.pop($('hTg'), t, W('l2', 'agenda') - 0.06, Infinity, -3);
+  if (t > W('l2', 'paripurna') - 0.05) pulse($('hTg'), t, W('l2', 'paripurna') - 0.05, 0.08, -3);
+
+  // ---------- z3: 120 pengusul, 8 fraksi, syarat 25 (bars exact: 5 px per member) ----------
+  K.pop($('cBar'), t, at('l3', -0.2), Infinity, -1);
+  { const n0 = W('l3', '120'), k = K.easeOut(K.prog(t, n0 - 0.05, 0.7));
+    slam($('cN'), t, n0 - 0.12, -2, 1.5); $('cNv').textContent = Math.round(120 * k); }
+  for (let i = 0; i < 8; i++) { const e = $('seat' + i), t0 = W('l3', '8') - 0.1 + i * 0.05, s = K.spring(t - t0, 300, 18);
+    e.style.opacity = t >= t0 ? 1 : 0; e.style.transform = `scale(${0.4 + 0.6 * s})`; }
+  K.pop($('cFr'), t, W('l3', 'fraksi') - 0.06, Infinity, 2);
+  { const tb = W('l3', 'syarat') - 0.1, t25 = W('l3', '25') - 0.08;
+    $('cBars').style.opacity = t >= tb ? 1 : 0;
+    $('cBars').style.transform = 'translate(-50%,-50%)';
+    $('cB1').style.transform = `scaleX(${K.easeOut(K.prog(t, tb, 0.5))})`;
+    $('cB1v').style.opacity = K.clamp((t - tb - 0.35) / 0.15);
+    $('cB2').style.transform = `scaleX(${K.easeOut(K.prog(t, t25, 0.35))})`;
+    $('cB2v').style.opacity = K.clamp((t - t25 - 0.2) / 0.15);
+    if (t > t25 + 0.3) { const k = K.clamp((t - t25 - 0.3) / 0.45); $('cB2v').style.transform = `scale(${1 + 0.15 * Math.sin(Math.PI * k)})`; } }
+
+  // ---------- z4: the agenda says "pengumuman usul" ----------
+  K.pop($('aTp'), t, at('l4', -0.1), Infinity, -3);
+  { const tp = W('l4', 'acaranya') - 0.15, s = K.spring(t - tp, 220, 20);
+    $('aPap').style.opacity = t >= tp ? 1 : 0;
+    $('aPap').style.transform = `translate(-50%,-50%) translateY(${(1 - s) * 260}px) rotate(${-1.5 * s}deg)`; }
+  $('aMk').style.backgroundSize = `${K.easeOut(K.prog(t, W('l4', 'pengumuman') - 0.05, 0.6)) * 100}% 100%`;
+  slam($('aSt'), t, W('l4', 'belum') - 0.05, -6, 2.2);
+
+  // ---------- z5: 4 steps + deadline bar ----------
+  K.pop($('sBar'), t, at('l5', -0.2), Infinity, -1);
+  { const tc = [at('l5', -0.05), at('l6', -0.05), at('l7', -0.05), at('l8', -0.05)];
+    ['c1', 'c2', 'c3', 'c4'].forEach((id, i) => { const s = K.spring(t - tc[i], 260, 20);
+      $(id).style.opacity = t >= tc[i] ? 1 : 0;
+      $(id).style.transform = `translate(-50%,-50%) translateX(${(1 - s) * -160}px)`;
+      $(id).classList.toggle('on', t >= tc[i] && (i === 3 || t < tc[i + 1])); });
+    const R = [['c1a', 'l5', 'hadir'], ['c1b', 'l5', 'disetujui'], ['c1c', 'l5', 'diterima'],
+      ['c2a', 'l6', '60'], ['c2b', 'l6', 'laporannya'],
+      ['c3t', 'l7', 'disetujui'], ['c3a', 'l7', 'dibawa'], ['c3b', 'l7', 'wajib'],
+      ['c4t', 'l8', 'mk'], ['c4a', 'l8', 'dpr'], ['c4b', 'l8', 'wajib'], ['c4c', 'l8', 'tiga']];
+    R.forEach(([id, l, w]) => show($(id), t, W(l, w) - 0.08));
+    slam($('c1P'), t, W('l5', 'pansus') - 0.08, 6, 1.8);
+    const seg = (id, tIn) => { const k = K.easeOut(K.prog(t, tIn, 0.45)); $(id).style.opacity = t >= tIn ? 1 : 0;
+      $(id).style.transform = `scaleX(${0.05 + 0.95 * k})`; $(id).style.transformOrigin = '0 50%'; };
+    $('sTl').style.opacity = t >= W('l6', '60') - 0.1 ? 1 : 0;
+    seg('sg1', W('l6', '60') - 0.08); seg('sg2', W('l7', '90') - 0.08); seg('sg3', W('l8', '30') - 0.08);
+    K.pop($('sTot'), t, W('l8', 'setuju') - 0.05, Infinity, -2);
+    if (t > W('l8', 'setuju') + 0.4) { const k = Math.floor(t * 2) % 2; $('sTot').style.opacity = k ? 0.55 : 1; } }
+
+  // ---------- z6: Yusril ----------
+  slam($('ySg'), t, at('l10', -0.3), -2, 1.5);
+  rise($('yP'), t, at('l10', -0.3));
+  K.pop($('yNm'), t, W('l10', 'menko') - 0.05, Infinity, -3);
+  K.pop($('yBar'), t, W('l10', 'harus') - 0.08, Infinity, -1);
+  K.pop($('yEn'), t, W('l10', 'tertulis') - 0.08, Infinity, -3 + 2 * Math.sin(t * 2));
+  K.pop($('yKe'), t, W('l10', 'mpr') - 0.1, Infinity, 2);
+
+  // ---------- z7: kabar surat ke Presiden ----------
+  K.pop($('kTg'), t, at('l11', -0.15), Infinity, -2);
+  K.pop($('kEn'), t, W('l11', 'surat') - 0.08, Infinity, -4 + 2 * Math.sin(t * 2));
+  K.pop($('kQ'), t, W('l11', 'presiden') - 0.08, Infinity, 10 + 6 * Math.sin(t * 3));
+  slam($('kSt'), t, W('l11', 'belum') - 0.05, -5, 2.0);
+
+  // ---------- z8: pimpinan MPR (same size, same style) ----------
+  K.pop($('mBar'), t, at('l12', -0.25), Infinity, -1);
+  rise($('mP1'), t, at('l12', -0.3));
+  K.pop($('mN1'), t, W('l12', 'bambang') - 0.05, Infinity, -2);
+  K.pop($('mB1'), t, W('l12', 'dijadwalkan') - 0.08, Infinity, -2);
+  rise($('mP2'), t, W('l12', 'ketua') - 0.3);
+  K.pop($('mN2'), t, W('l12', 'ahmad') - 0.05, Infinity, 2);
+  K.pop($('mB2'), t, W('l12', 'rabu') - 0.08, Infinity, 2);
+  if (t > W('l12', 'belum') - 0.05) pulse($('mB2'), t, W('l12', 'belum') - 0.05, 0.08, 2);
+
+  // ---------- z9: the turn — Mardani ----------
+  slam($('dTp'), t, at('l13', -0.25), -3, 1.7);
+  rise($('dP'), t, W('l13', 'menurut') - 0.3);
+  K.pop($('dNm'), t, W('l13', 'mardani') - 0.06, Infinity, -2);
+  K.pop($('dLn'), t, W('l13', 'hmp') - 0.1, Infinity, 0);
+  { const ln = $('lnDash'); if (ln) ln.setAttribute('stroke-dashoffset', -60 * t); }
+  K.pop($('dQt'), t, W('l13', 'jalan') - 0.08, Infinity, -1);
+  if (t > W('l13', 'final') - 0.05) pulse($('dQt'), t, W('l13', 'final') - 0.05, 0.05, -1);
+
+  // ---------- z10: kursi wapres kosong? ----------
+  K.pop($('wCh'), t, at('l14', -0.2), Infinity, 1.5 * Math.sin(t * 1.6));
+  K.pop($('wLb'), t, W('l14', 'wapres') - 0.06, Infinity, -2);
+  slam($('wSt'), t, W('l14', 'kosong') - 0.05, -5, 1.8);
+  K.pop($('wBar'), t, W('l14', 'mpr') - 0.06, Infinity, 1);
+  K.pop($('w60'), t, W('l14', '60') - 0.06, Infinity, -2);
+  K.pop($('wC1'), t, W('l14', 'dua') - 0.08, Infinity, -4);
+  K.pop($('wC2'), t, W('l14', 'calon') - 0.05, Infinity, 4);
+  K.pop($('wUs'), t, W('l14', 'usulan') - 0.05, Infinity, 0);
+
+  // ---------- z11: payoff (exact: 4.6 px per day) ----------
+  K.pop($('tHd'), t, at('l15', -0.2), Infinity, -2);
+  { const PX = 4.6, w = [60 * PX, 90 * PX, 30 * PX], G = 36;
+    const tTot = W('l15', 'total') - 0.05, tGap = W('l16', 'belum') - 0.05;
+    const close = K.easeInOut(K.prog(t, tTot, 0.35)), open = K.easeInOut(K.prog(t, tGap, 0.45));
+    const g0 = G * (1 - close), g = G * open;     // spacing before "total", gaps (rapat) after l16
+    const gap = Math.max(g0, g), full = w[0] + w[1] + w[2] + 2 * gap, x0 = (900 - full) / 2;
+    const xs = [x0, x0 + w[0] + gap, x0 + w[0] + w[1] + 2 * gap];
+    ['t1', 't2', 't3'].forEach((id, i) => { const tIn = W('l15', ['60', '90', '30'][i]) - 0.08, s = K.spring(t - tIn, 300, 18);
+      $(id).style.left = xs[i] + 'px'; $(id).style.opacity = t >= tIn ? 1 : 0;
+      $(id).style.transform = `translateY(${(1 - s) * -120}px)`; });
+    $('tg1').style.left = (x0 + w[0]) + 'px'; $('tg2').style.left = (x0 + w[0] + w[1] + gap) + 'px';
+    $('tg1').style.width = $('tg2').style.width = gap + 'px';
+    $('tg1').style.opacity = $('tg2').style.opacity = open;
+    [['tl1', 0], ['tl2', 1], ['tl3', 2]].forEach(([id, i]) => { const e = $(id); e.style.left = (xs[i] + w[i] / 2) + 'px'; e.style.transform = 'translateX(-50%)';
+      e.style.opacity = t >= W('l15', ['60', '90', '30'][i]) ? 1 : 0; });
+    const n0 = W('l15', '180') - 0.1, k = K.easeOut(K.prog(t, n0, 0.9));
+    slam($('tN'), t, n0, -2, 1.6); $('tNv').textContent = Math.round(180 * k);
+    if (t > tTot && t < n0) $('tBar').style.transform = `translate(-50%,-50%) scale(${1 + 0.04 * Math.sin(Math.PI * K.clamp((t - tTot) / 0.4))})`;
+    else $('tBar').style.transform = 'translate(-50%,-50%)';
+    $('tL').style.transform = 'translate(-50%,-50%)';
+    K.pop($('tNt'), t, W('l16', 'rapat') - 0.08, Infinity, -2); }
+
+  // ---------- CTA ----------
+  const qOut = END - 0.3;
+  K.pop($('qHd'), t, at('cta', -0.25), qOut, 0);
+  if (t > W('cta', 'duluan') - 0.05) pulse($('qHd'), t, W('cta', 'duluan') - 0.05, 0.06, 0);
+  K.pop($('qA'), t, W('cta', 'surat') - 0.08, qOut, -3);
+  K.pop($('qHg'), t, W('cta', 'atau') - 0.08, qOut, 10 * Math.sin(t * 3));
+  K.pop($('qB'), t, W('cta', 'proses') - 0.08, qOut, 3);
+  K.pop($('qCom'), t, W('cta', 'komen') - 0.12, qOut, -4);
+  K.pop($('qK'), t, W('cta', 'komen') - 0.05, qOut, 3);
+
+  // ---------- PART badge + status until the end card; photo credit while a photo is on screen ----------
+  $('status').style.opacity = $('part').style.opacity = 1 - K.clamp((t - END) / 0.2);
+  const cr = t < rd ? '' : cur === 'z6' ? CR.yusril : cur === 'z8' ? CR.mpr : cur === 'z9' ? CR.mardani : '';
+  if ($('credit').textContent !== cr) $('credit').textContent = cr;
+  $('credit').style.opacity = cr ? 1 : 0;
+
+  // ---------- end ----------
+  const en = K.prog(t, END, 0.3);
+  $('endcard').style.opacity = en;
+  $('endcard').querySelector('.logo').style.transform = `rotate(-3deg) scale(${0.6 + 0.4 * K.spring(t - END)})`;
+  K.subtitles($('subs'), t);
+  $('subs').style.visibility = en > 0.5 ? 'hidden' : 'visible';
+  $('progress').style.width = (100 * t / window.DURATION) + '%';
+  return true;
+}
+window.seek = seek; seek(0);
+</script>
+</body>
+</html>

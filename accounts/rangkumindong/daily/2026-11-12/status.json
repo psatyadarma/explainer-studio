@@ -20,7 +20,10 @@
   "factcheck_light": "done",
   "pick": "done",
   "hook_critic": "done",
-  "factcheck_full": "done"
+  "factcheck_full": "done",
+  "produce": "done",
+  "qa": "pass",
+  "preview_sent": "done"
  },
  "notes": [],
  "merge_stats": {
