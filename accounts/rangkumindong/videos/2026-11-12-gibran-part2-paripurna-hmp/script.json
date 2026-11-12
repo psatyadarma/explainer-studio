@@ -1,0 +1,134 @@
+{
+ "direction": "[calm, neutral explainer, clear and steady]",
+ "format": "standard",
+ "hook_style": "person_collage",
+ "part": 2,
+ "storyline": "gibran-ijazah-mk",
+ "lines": [
+  {
+   "id": "h1",
+   "tag": "[direct, curious]",
+   "text": "Gibran: mundur, atau dimakzulkan? Ini urutannya.",
+   "say": "Gibran: mundur, atau dimakzulkan? Ini urutannya."
+  },
+  {
+   "id": "h2",
+   "tag": "[playful, leaning in]",
+   "text": "Tebak dulu: tenggat resminya, dijumlah berapa hari?",
+   "say": "Tebak dulu: tenggat resminya, dijumlah berapa hari?"
+  },
+  {
+   "id": "rd",
+   "tagline": true,
+   "text": "Rangkumin dong!"
+  },
+  {
+   "id": "l1",
+   "tag": "[explaining, measured]",
+   "text": "Kemarin: dua jalan. Kamis 12 November, jalan DPR bergerak.",
+   "say": "Kemarin: dua jalan. Kamis, dua belas November, jalan, De Pe Er bergerak."
+  },
+  {
+   "id": "l2",
+   "tag": "[explaining]",
+   "text": "Usul hak menyatakan pendapat, HMP, masuk agenda paripurna.",
+   "say": "Usul hak menyatakan pendapat, Ha Em Pe, masuk agenda paripurna."
+  },
+  {
+   "id": "l3",
+   "tag": "[explaining, quick]",
+   "text": "Pengusulnya 120 anggota, 8 fraksi. Syarat minimal: 25.",
+   "say": "Pengusulnya seratus dua puluh anggota, delapan fraksi. Syarat minimal: dua puluh lima."
+  },
+  {
+   "id": "l4",
+   "tag": "[careful]",
+   "text": "Tapi acaranya tertulis: 'pengumuman usul'. Belum tentu diputuskan.",
+   "say": "Tapi acaranya tertulis: pengumuman usul. Belum tentu diputuskan."
+  },
+  {
+   "id": "l5",
+   "tag": "[explaining, step by step]",
+   "text": "Langkah 1: paripurna memutuskan usul ini. Hadir minimal dua pertiga anggota, disetujui dua pertiga yang hadir. Diterima? Dibentuk pansus.",
+   "say": "Langkah satu: paripurna memutuskan usul ini. Hadir minimal dua pertiga anggota, disetujui dua pertiga yang hadir. Diterima? Dibentuk pansus."
+  },
+  {
+   "id": "l6",
+   "tag": "[explaining, step by step]",
+   "text": "Langkah 2: pansus kerja maksimal 60 hari, lalu laporannya diputus paripurna.",
+   "say": "Langkah dua: pansus kerja maksimal enam puluh hari, lalu laporannya diputus paripurna."
+  },
+  {
+   "id": "l7",
+   "tag": "[explaining, step by step]",
+   "text": "Langkah 3: disetujui dua pertiga yang hadir? Dibawa ke MK. MK wajib memutus paling lama 90 hari.",
+   "say": "Langkah tiga: disetujui dua pertiga yang hadir? Dibawa ke, Em Ka. Em Ka wajib memutus paling lama sembilan puluh hari."
+  },
+  {
+   "id": "l8",
+   "tag": "[explaining, step by step]",
+   "text": "Langkah 4: MK menyatakan terbukti? DPR teruskan ke MPR. MPR wajib bersidang paling lambat 30 hari sejak terima usul. Tiga perempat hadir, dua pertiga setuju.",
+   "say": "Langkah empat: Em Ka menyatakan terbukti? De Pe Er teruskan ke, Em Pe Er. Em Pe Er wajib bersidang paling lambat tiga puluh hari sejak terima usul. Tiga perempat hadir, dua pertiga setuju."
+  },
+  {
+   "id": "l9",
+   "tag": "[measured, shifting]",
+   "text": "Sementara, jalan satunya: surat mundur.",
+   "say": "Sementara, jalan satunya: surat mundur."
+  },
+  {
+   "id": "l10",
+   "tag": "[careful]",
+   "text": "Kata Menko Yusril, mundur harus tertulis ke MPR.",
+   "say": "Kata Menko Yusril, mundur harus tertulis ke, Em Pe Er."
+  },
+  {
+   "id": "l11",
+   "tag": "[careful, neutral]",
+   "text": "Kabar surat ke Presiden? Belum dikonfirmasi resmi Istana.",
+   "say": "Kabar surat ke Presiden? Belum dikonfirmasi resmi Istana."
+  },
+  {
+   "id": "l12",
+   "tag": "[explaining, quick]",
+   "text": "Waka MPR Bambang Wuryanto: dijadwalkan Kamis. Ketua MPR Ahmad Muzani, Rabu malam: belum terima.",
+   "say": "Waka, Em Pe Er Bambang Wuryanto: dijadwalkan Kamis. Ketua, Em Pe Er Ahmad Muzani, Rabu malam: belum terima."
+  },
+  {
+   "id": "l13",
+   "tag": "[leaning in, serious]",
+   "text": "Tapi, menurut pengusul dari PKS, Mardani Ali Sera, HMP jalan terus sampai prosesnya final.",
+   "say": "Tapi, menurut pengusul dari, Pe Ka Es, Mardani Ali Sera, Ha Em Pe jalan terus sampai prosesnya final."
+  },
+  {
+   "id": "l14",
+   "tag": "[explaining]",
+   "text": "Kursi wapres kosong? MPR memilih wapres baru dalam 60 hari, dari dua calon usulan Presiden.",
+   "say": "Kursi wapres kosong? Em Pe Er memilih wapres baru dalam enam puluh hari, dari dua calon usulan Presiden."
+  },
+  {
+   "id": "l15",
+   "tag": "[revealing, dramatic beat]",
+   "text": "Jawabannya: 60, 90, dan 30 hari. Total 180 hari.",
+   "say": "Jawabannya: enam puluh, sembilan puluh, dan tiga puluh hari. Total. Seratus delapan puluh. Hari."
+  },
+  {
+   "id": "l16",
+   "tag": "[calm]",
+   "text": "Belum termasuk rapat di antaranya.",
+   "say": "Belum termasuk rapat di antaranya."
+  },
+  {
+   "id": "cta",
+   "tag": "[playful, asking the viewer]",
+   "text": "Menurut kamu, mana selesai duluan: surat ke MPR, atau proses DPR? Komen!",
+   "say": "Menurut kamu, mana selesai duluan: surat ke, Em Pe Er, atau proses, De Pe Er? Komen!"
+  },
+  {
+   "id": "end",
+   "tag": "[friendly, upbeat]",
+   "text": "Follow Rangkumin Dong, biar nggak ketinggalan!"
+  }
+ ],
+ "tail": 0.9
+}
