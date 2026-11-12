@@ -92,3 +92,6 @@ No: standing rule from 9 Nov (no B; hook_b empty).
 - Khozin's "tak relevan lagi" is ANTARA's paraphrase, not a direct quote; on screen it is in a quote box. Use "menurut Khozin" styling, not quote marks.
 - "Wapres tidak dipilih lewat pemilu" (l10) follows from UUD Pasal 8(2) (MPR elects from 2 names proposed by the President).
 - Name tag for Gibran: no title now (the MPR chair says the post is vacant).
+
+## 18:00 WITA pre-post check
+Prabowo confirmed on record (~16.00 WIB) he received the letter "dengan berat hati" (Suara 16:10 WIB https://www.suara.com/news/2026/11/12/161017/pernyataan-lengkap-prabowo-soal-gibran-mundur-sebagai-wapres). Script l3 ("menurut Gibran ...") stays true; post kept as scheduled. Use for PART 3.
