@@ -1,0 +1,50 @@
+{
+ "direction": "[clear, steady weekly recap; neutral, attributed]",
+ "lines": [
+  {
+   "id": "e1",
+   "tag": "[curious]",
+   "text": "Dua minggu lalu, kami bahas Binance dan Ledger. Minggu ini, kelanjutannya."
+  },
+  {
+   "id": "e2",
+   "tag": "[matter-of-fact]",
+   "text": "Binance, menurut Quartz dan crypto.news, menyatakan seluruh kerugian sekitar 6,3 miliar dolar sudah ditutup. Bukti cadangan barunya masih ditunggu.",
+   "say": "Binance, menurut Quartz dan crypto dot news, menyatakan seluruh kerugian sekitar enam koma tiga miliar dolar, sudah ditutup. Bukti cadangan barunya, masih ditunggu."
+  },
+  {
+   "id": "e3",
+   "tag": "[serious]",
+   "text": "Soal Ledger, angkanya kini lebih jelas. Menurut CNBC Indonesia, mengutip CoinDesk, lebih dari 93 juta dolar, lebih dari Rp1,6 triliun, dikuras dari ratusan dompet kripto.",
+   "say": "Soal Ledger, angkanya kini lebih jelas. Menurut Ce En Be Ce Indonesia, mengutip CoinDesk, lebih dari sembilan puluh tiga juta dolar, lebih dari satu koma enam triliun rupiah, dikuras dari ratusan dompet kripto."
+  },
+  {
+   "id": "e4",
+   "tag": "[explaining]",
+   "text": "Dompet-dompet itu terkait perangkat Ledger dari satu reseller. Kata Ledger, setidaknya satu perangkat berisi sisipan komponen yang tidak sah."
+  },
+  {
+   "id": "e5",
+   "tag": "[matter-of-fact]",
+   "text": "Di sini, GitHub sempat tak bisa diakses sekitar 4 jam. Kata Komdigi, alamat IP yang diblokir karena dugaan serangan malware ternyata juga dipakai GitHub.",
+   "say": "Di sini, GitHub sempat tak bisa diakses sekitar empat jam. Kata Komdigi, alamat I P yang diblokir karena dugaan serangan malware, ternyata juga dipakai GitHub."
+  },
+  {
+   "id": "e6",
+   "tag": "[clear]",
+   "text": "Dan buat nasabah BNI: aplikasi BNI Mobile Banking mulai ditutup bertahap 30 November, lalu berhenti total 21 Desember. Penggantinya, wondr by BNI.",
+   "say": "Dan buat nasabah Be En I: aplikasi Be En I Mobile Banking mulai ditutup bertahap tiga puluh November, lalu berhenti total dua puluh satu Desember. Penggantinya, wonder bai Be En I."
+  },
+  {
+   "id": "e7",
+   "tag": "[leaning in]",
+   "text": "Tapi benang merahnya: yang kena bukan cuma sistem besar. Perangkat di tanganmu dan aplikasi di HP-mu juga bagian ceritanya."
+  },
+  {
+   "id": "e8",
+   "tag": "[reassuring]",
+   "text": "Buat kamu: beli dompet kripto dari penjual resmi, dan cek aplikasi bankmu sebelum tenggatnya."
+  }
+ ],
+ "tail": 0.6
+}

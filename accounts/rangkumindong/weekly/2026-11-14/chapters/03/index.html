@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Rangkumin Seminggu — chapter</title>
+<!-- ../../../../../../ is replaced by engine/weekly.py init with the path back to the repo root -->
+<link rel="stylesheet" href="../../../../../../styles/sticker/sticker.css">
+<link rel="stylesheet" href="../../../../../../styles/sticker/weekly/weekly.css">
+<script src="../../../../../../styles/sticker/sticker.js"></script>
+<script src="build/timing.js"></script>
+<script src="../../build/week.js"></script>
+<script src="../../../../../../styles/sticker/weekly/weekly.js"></script>
+<style>
+  .z { position:absolute; width:1700px; text-align:center; transform:translate(-50%,-50%); }
+  .h { font-weight:900; font-size:64px; margin-bottom:34px; }
+  .row { display:flex; gap:40px; justify-content:center; align-items:center; }
+  .card { background:#fff; border-radius:28px; padding:34px 44px; min-width:520px; box-shadow:0 0 0 9px #fff,0 18px 26px rgba(27,36,48,.22); }
+  .card .tk { font-weight:900; font-size:120px; letter-spacing:-3px; }
+  .card .nm { font-weight:800; font-size:38px; margin-top:6px; }
+  .card .res { margin-top:18px; font-weight:900; font-size:46px; color:#d6342c; }
+  .chip { display:inline-block; font-weight:900; font-size:72px; padding:18px 40px; background:#fff; border-radius:22px; margin:14px; box-shadow:0 0 0 7px #fff,0 14px 22px rgba(27,36,48,.22); }
+  .stat { font-weight:900; font-size:210px; letter-spacing:-8px; color:var(--accent); line-height:1; }
+  .big { font-weight:900; font-size:150px; letter-spacing:-4px; line-height:1; }
+  .mid { font-weight:800; font-size:48px; margin-top:14px; }
+  .arrow { font-weight:900; font-size:110px; color:var(--accent); }
+</style>
+</head>
+<body>
+<div id="stage">
+  <div id="world">
+    <div class="z" id="zA" style="left:960px;top:540px;">
+      <div class="h" id="hA">Hasil review MSCI</div>
+      <div class="row">
+        <div class="card" id="cBRPT"><div class="tk">BRPT</div><div class="nm">Barito Pacific</div><div class="res">Keluar dari Global Standard</div></div>
+        <div class="card" id="cBRMS"><div class="tk">BRMS</div><div class="nm">Bumi Resources Minerals</div><div class="res">Turun ke Small Cap</div></div>
+      </div>
+    </div>
+    <div class="z" id="zB" style="left:2880px;top:540px;">
+      <div class="h">Tujuh saham dicoret dari Small Cap</div>
+      <div><span class="chip" id="k1">CTRA</span><span class="chip" id="k2">JSMR</span><span class="chip" id="k3">MTEL</span><span class="chip" id="k4" style="font-size:52px;">dan lainnya</span></div>
+      <div class="tag accent sticker" id="dt" style="display:inline-block;margin-top:50px;font-size:56px;">Berlaku setelah penutupan 30 November</div>
+    </div>
+    <div class="z" id="zC" style="left:4800px;top:470px;">
+      <div class="h" id="hC">IHSG, Kamis</div>
+      <div id="cStat">
+      <div class="stat" id="sC">+0,00%</div>
+      <div class="big" id="pC" style="margin-top:20px;font-size:110px;">5.250</div>
+      </div>
+      <div class="card" id="nC" style="position:absolute;left:50%;top:50%;margin:-120px 0 0 -560px;width:1120px;box-sizing:border-box;"><div class="nm" style="font-size:30px;color:var(--slate);margin:0 0 10px;">Analis Phintraco Sekuritas, dikutip Suara</div><div style="font-weight:900;font-size:58px;line-height:1.15;">"Mundurnya Gibran meredakan ketegangan politik."</div><div class="nm" style="font-size:36px;margin-top:14px;">Tapi ada faktor lain juga.</div></div>
+    </div>
+    <div class="z" id="zD" style="left:6720px;top:540px;">
+      <div class="h">BEI: keluar dari hitungan IHSG mulai Jumat</div>
+      <div class="row" style="gap:50px;">
+        <div class="big" id="n300">300</div><div class="arrow">+</div><div class="big" id="nOld" style="color:var(--slate);font-size:64px;white-space:nowrap;">saham lama</div><div class="arrow">=</div><div class="stat" id="n383" style="font-size:230px;">383</div>
+      </div>
+      <div class="mid">Kepemilikannya terlalu terpusat. Totalnya 383 saham.</div>
+    </div>
+    <div class="z" id="zE" style="left:8640px;top:540px;">
+      <div class="h">Kamis: IHSG naik, rupiah malah melemah</div>
+      <div class="big" id="rE" style="color:#d6342c;">Rp18.200</div>
+      <div class="mid">per dolar AS, lebih dari</div>
+      <div class="row" style="margin-top:40px;">
+        <span class="chip" id="e1" style="font-size:44px;">Bunga The Fed naik</span><span class="chip" id="e2" style="font-size:44px;">Dolar kuat</span><span class="chip" id="e3" style="font-size:44px;">Kebutuhan dolar akhir tahun</span>
+      </div>
+      <div class="mid" id="e4">BI bilang sudah intervensi</div>
+      <div class="tag light sticker" id="disc" style="display:inline-block;margin-top:40px;font-size:40px;">Bukan ajakan jual atau beli saham</div>
+    </div>
+  </div>
+  <div id="card"><div class="kicker" id="cKick"></div><div class="title" id="cTitle"></div><div class="sub" id="cSub"></div></div>
+  <div class="lower" id="lower1" style="top:150px;bottom:auto;">CNBC Indonesia, Kontan<small>Hasil review MSCI, 12 November</small></div>
+  <div id="brand"><div class="dot"></div><b>Rangkumin Dong</b></div>
+  <div id="subs"></div>
+  <div id="progress"></div>
+</div>
+<script>
+window.CHAPTER = Number(location.pathname.split('/').slice(-2)[0]);
+const $ = (id) => document.getElementById(id);
+const T = window.TIMING; window.DURATION = T.duration;
+const ch = (window.WEEK?.chapters || []).find((c) => c.n === window.CHAPTER) || {};
+$('cKick').textContent = ch.kicker || ''; $('cTitle').textContent = ch.title || ''; $('cSub').textContent = window.WEEK?.dates || '';
+const S = {}; T.lines.forEach((l) => { S[l.id] = l.start; });
+const pp = (el, t, tIn) => { const k = K.spring(t - tIn); el.style.opacity = t >= tIn ? K.clamp((t - tIn) / 0.08) : 0; el.style.transform = `scale(${0.4 + 0.6 * k})`; };
+function vis(el, t, a, b) { el.style.opacity = K.clamp((t - a) / 0.25) * (1 - K.clamp((t - b) / 0.3)); }
+function seek(t) {
+  const x = (i) => 960 + 1920 * i;
+  K.cam16($('world'), [
+    { t: 0, x: x(0), y: 540, z: 1 }, { t: S.c3 - 0.4, x: x(0), y: 540, z: 1 },
+    { t: S.c3, x: x(1), y: 540, z: 1 }, { t: S.c4 - 0.4, x: x(1), y: 540, z: 1 },
+    { t: S.c4, x: x(2), y: 540, z: 1 }, { t: S.c7 - 0.4, x: x(2), y: 540, z: 1 },
+    { t: S.c7, x: x(3), y: 540, z: 1 }, { t: S.c8 - 0.4, x: x(3), y: 540, z: 1 },
+    { t: S.c8, x: x(4), y: 540, z: 1 }], t);
+  K.titleCard($('card'), t, 2.0);
+  pp($('hA'), t, 2.1);
+  pp($('cBRPT'), t, S.c2 + 0.2); pp($('cBRMS'), t, S.c2 + 3.6);
+  ['k1', 'k2', 'k3'].forEach((id, i) => pp($(id), t, S.c3 + 0.6 + i * 0.9));
+  pp($('k4'), t, S.c3 + 3.6); pp($('dt'), t, S.c3 + 5.6);
+  const p = K.clamp(K.prog(t, S.c4 + 1.0, 1.4));
+  $('sC').textContent = '+' + (2.66 * p).toFixed(2).replace('.', ',') + '%';
+  $('pC').textContent = '\u2248 ' + Math.round(5250 * p).toLocaleString('id-ID');
+  pp($('sC'), t, S.c4 + 0.8); pp($('pC'), t, S.c4 + 1.0);
+  const q = K.easeInOut(K.prog(t, S.c5, 0.6));
+  $('cStat').style.transform = `translate(${q * 640}px,${q * -250}px) scale(${1 - 0.6 * q})`;
+  $('hC').style.opacity = 1 - q;
+  pp($('nC'), t, S.c5 + 0.4); if (t < S.c5 + 0.4) $('nC').style.opacity = 0;
+  pp($('n300'), t, S.c7 + 2.4); pp($('nOld'), t, S.c7 + 3.4); pp($('n383'), t, S.c7 + 5.6);
+  pp($('rE'), t, S.c8 + 3.6);
+  pp($('e1'), t, S.c9 + 1.0); pp($('e2'), t, S.c9 + 2.8); pp($('e3'), t, S.c9 + 4.0);
+  pp($('e4'), t, S.c9 + 6.4); pp($('disc'), t, S.c10 + 0.1);
+  K.lower($('lower1'), t, 3.0, S.c3 - 0.6);
+  K.subtitles($('subs'), t);
+  K.weekly(t);
+}
+window.seek = seek;
+</script>
+</body>
+</html>

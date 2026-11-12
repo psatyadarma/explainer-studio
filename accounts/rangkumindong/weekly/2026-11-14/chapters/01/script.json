@@ -1,0 +1,69 @@
+{
+ "direction": "[clear, steady weekly recap; neutral, attributed]",
+ "lines": [
+  {
+   "id": "a1",
+   "tag": "[serious]",
+   "text": "Rabu dan Kamis, kami bahas ini dua kali. Ringkasnya, dalam tiga hari."
+  },
+  {
+   "id": "a2",
+   "tag": "[explaining]",
+   "text": "Selasa, MA merilis putusan lengkap: surat keterangan penyetaraan SMA yang dipakai Gibran untuk Pemilu 2024 dibatalkan.",
+   "say": "Selasa, M A merilis putusan lengkap: surat keterangan penyetaraan es em a yang dipakai Gibran untuk Pemilu dua ribu dua puluh empat, dibatalkan."
+  },
+  {
+   "id": "a3",
+   "tag": "[neutral]",
+   "text": "Selasa, kata Mensesneg Prasetyo Hadi, Gibran menyampaikan niat mundur kepada Presiden Prabowo."
+  },
+  {
+   "id": "a4",
+   "tag": "[matter-of-fact]",
+   "text": "Rabu, 120 anggota DPR dari 8 fraksi resmi mengusulkan hak menyatakan pendapat, atau HMP. Jalan yang bisa berujung pemakzulan.",
+   "say": "Rabu, seratus dua puluh anggota DPR dari delapan fraksi, resmi mengusulkan hak menyatakan pendapat, atau, ha em pe. Jalan yang bisa berujung pemakzulan."
+  },
+  {
+   "id": "a5",
+   "tag": "[serious]",
+   "text": "Lalu Kamis siang, Gibran menyerahkan surat pengunduran diri ke Ketua MPR Ahmad Muzani. Menurut Muzani, surat yang sama juga sudah disampaikan ke Presiden.",
+   "say": "Lalu Kamis siang, Gibran menyerahkan surat pengunduran diri, ke Ketua em pe er, Ahmad Muzani. Menurut Muzani, surat yang sama juga sudah disampaikan ke Presiden."
+  },
+  {
+   "id": "a6",
+   "tag": "[matter-of-fact]",
+   "text": "Paripurna DPR pukul 14.00, yang mau mengumumkan usul HMP, dibatalkan. Kata salah satu pengusul, usul itu tak relevan lagi.",
+   "say": "Paripurna DPR pukul dua siang, yang mau mengumumkan usul, ha em pe, dibatalkan. Kata salah satu pengusul, usul itu tak relevan lagi."
+  },
+  {
+   "id": "a7",
+   "tag": "[explaining]",
+   "text": "Kata Muzani: sejak Kamis, jabatan wapres kosong. MPR punya waktu paling lama 60 hari untuk mengisinya.",
+   "say": "Kata Muzani: sejak Kamis, jabatan wapres kosong. em pe er punya waktu paling lama enam puluh hari, untuk mengisinya."
+  },
+  {
+   "id": "a8",
+   "tag": "[leaning in]",
+   "text": "Dan yang sering terlewat: wapres pengganti tidak dipilih lewat pemilu. Presiden mengusulkan dua nama, anggota MPR yang memilih.",
+   "say": "Dan yang sering terlewat: wapres pengganti tidak dipilih lewat pemilu. Presiden mengusulkan dua nama, anggota em pe er yang memilih."
+  },
+  {
+   "id": "a9",
+   "tag": "[clear]",
+   "text": "Langkah pertama dijadwalkan Jumat pukul 14.00 WIB: rapat gabungan MPR, untuk menetapkan jadwal paripurna dan menyurati Presiden.",
+   "say": "Langkah pertama dijadwalkan Jumat, pukul dua siang, waktu Indonesia barat: rapat gabungan em pe er, untuk menetapkan jadwal paripurna, dan menyurati Presiden."
+  },
+  {
+   "id": "a10",
+   "tag": "[matter-of-fact]",
+   "text": "Sementara itu, kata Menko Yusril, Presiden berencana ke luar negeri, kalau tidak salah sampai tanggal 14 atau 16 November. Selama itu, tidak ada pelaksana tugas wapres.",
+   "say": "Sementara itu, kata Menko Yusril, Presiden berencana ke luar negeri, kalau tidak salah sampai tanggal empat belas, atau enam belas November. Selama itu, tidak ada pelaksana tugas wapres."
+  },
+  {
+   "id": "a12",
+   "tag": "[calm]",
+   "text": "Siapa dua nama calonnya? Sampai naskah ini ditulis, Jumat pagi, belum diumumkan resmi."
+  }
+ ],
+ "tail": 0.6
+}

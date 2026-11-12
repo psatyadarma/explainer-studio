@@ -1,0 +1,52 @@
+{
+ "direction": "[clear, steady weekly recap; neutral, attributed]",
+ "lines": [
+  {
+   "id": "g0",
+   "tag": "[friendly]",
+   "text": "Cek dulu janji minggu lalu: hasil MSCI memang keluar Kamis dini hari WIB.",
+   "say": "Cek dulu janji minggu lalu: hasil em es si ai memang keluar Kamis dini hari, waktu Indonesia."
+  },
+  {
+   "id": "g1",
+   "tag": "[friendly, brisk]",
+   "text": "Oke, minggu depan. Catat tanggalnya."
+  },
+  {
+   "id": "g2",
+   "tag": "[clear]",
+   "text": "Awal pekan, kata Yusril, Presiden masih di luar negeri, kalau tidak salah sampai 14 atau 16 November, saat kursi wapres masih kosong.",
+   "say": "Awal pekan, kata Yusril, Presiden masih di luar negeri, kalau tidak salah sampai empat belas atau enam belas November, saat kursi wapres masih kosong."
+  },
+  {
+   "id": "g3",
+   "tag": "[clear]",
+   "text": "Dari MPR: pantau jadwal paripurna pemilihan wapres, dan dua nama dari Presiden. Batasnya, paling lambat 60 hari sejak 12 November.",
+   "say": "Dari em pe er: pantau jadwal paripurna pemilihan wapres, dan dua nama dari Presiden. Batasnya, paling lambat enam puluh hari sejak dua belas November."
+  },
+  {
+   "id": "g4",
+   "tag": "[clear]",
+   "text": "Pekan depan juga, kata Polri: sidang etik Listyo Sigit dan dua jenderal lain. Tanggal pastinya belum diumumkan."
+  },
+  {
+   "id": "g5",
+   "tag": "[leaning in]",
+   "text": "Lalu Selasa dan Rabu, 17 sampai 18 November: Rapat Dewan Gubernur Bank Indonesia. Ini rapat yang kami janjikan di awal.",
+   "say": "Lalu Selasa dan Rabu, tujuh belas sampai delapan belas November: Rapat Dewan Gubernur Bank Indonesia. Ini rapat yang kami janjikan di awal."
+  },
+  {
+   "id": "g6",
+   "tag": "[explaining]",
+   "text": "BI-Rate sekarang 5,75 persen. Sebagian ekonom memperkirakan naik ke 6 persen. Kalau naik, bunga kredit, termasuk cicilan, bisa ikut naik. Tapi biasanya tidak langsung.",
+   "say": "Bi Rate sekarang lima koma tujuh lima persen. Sebagian ekonom memperkirakan naik ke enam persen. Kalau naik, bunga kredit, termasuk cicilan, bisa ikut naik. Tapi biasanya tidak langsung."
+  },
+  {
+   "id": "g7",
+   "tag": "[clear]",
+   "text": "Dan UMP 2027: kata Menaker, pembahasan internalnya ditargetkan selesai November.",
+   "say": "Dan U em pe dua ribu dua puluh tujuh: kata Menaker, pembahasan internalnya ditargetkan selesai November."
+  }
+ ],
+ "tail": 0.6
+}

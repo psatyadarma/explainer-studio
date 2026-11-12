@@ -1,0 +1,63 @@
+{
+ "direction": "[clear, steady weekly recap; neutral, attributed]",
+ "lines": [
+  {
+   "id": "b1",
+   "tag": "[serious]",
+   "text": "Minggu lalu: empat tersangka penyadapan. Kamis ini, Kapolri bicara di depan Komisi III DPR."
+  },
+  {
+   "id": "b2",
+   "tag": "[explaining]",
+   "text": "Kata Kapolri Jenderal Suyudi Ario Seto, mantan Kapolri Listyo Sigit Prabowo diduga sebagai end user.",
+   "say": "Kata Kapolri, Jenderal Suyudi Ario Seto, mantan Kapolri Listyo Sigit Prabowo, diduga sebagai, end user."
+  },
+  {
+   "id": "b3",
+   "tag": "[explaining]",
+   "text": "Artinya, menurut Kapolri: yang menentukan target sadap, termasuk Presiden Prabowo, dan yang menerima hasilnya."
+  },
+  {
+   "id": "b4",
+   "tag": "[matter-of-fact]",
+   "text": "Yang disita, antara lain: 15 ponsel, 7 flashdisk, dan 2 iPad.",
+   "say": "Yang disita, antara lain: lima belas ponsel, tujuh flashdisk, dan dua iPad."
+  },
+  {
+   "id": "b5",
+   "tag": "[leaning in]",
+   "text": "Temuan awal, kata Kapolri: korban sadap lain ada di kementerian, DPR dan partai, KPK, kejaksaan, sampai aktivis.",
+   "say": "Temuan awal, kata Kapolri: korban sadap lain ada di kementerian, De Pe Er dan partai, Ka Pe Ka, kejaksaan, sampai aktivis."
+  },
+  {
+   "id": "b6",
+   "tag": "[matter-of-fact]",
+   "text": "Enam staf Monitoring Center mengajukan perlindungan ke LPSK.",
+   "say": "Enam staf Monitoring Center mengajukan perlindungan ke, el pe es ka."
+  },
+  {
+   "id": "b7",
+   "tag": "[explaining]",
+   "text": "Ada juga satu nama berinisial TK. Kata Polri, dia berpangkat brigjen, dan kini diperiksa Propam.",
+   "say": "Ada juga satu nama, berinisial Te Ka. Kata Polri, dia berpangkat brigjen, dan kini diperiksa Propam."
+  },
+  {
+   "id": "b8",
+   "tag": "[matter-of-fact]",
+   "text": "Status penahanan, kata Kapolri: Listyo ditahan sampai 23 November. Irjen Slamet Uliandi kini tahanan rumah.",
+   "say": "Status penahanan, kata Kapolri: Listyo ditahan sampai dua puluh tiga November. Irjen Slamet Uliandi kini tahanan rumah."
+  },
+  {
+   "id": "b9",
+   "tag": "[serious]",
+   "text": "Lalu etik. Kata Polri, Irjen Ahrie Sonta Nasution sudah dijatuhi PTDH: diberhentikan tidak dengan hormat. Tiga lainnya disidang etik pekan depan.",
+   "say": "Lalu etik. Kata Polri, Irjen Ahrie Sonta Nasution sudah dijatuhi Pe Te De Ha: diberhentikan tidak dengan hormat. Tiga lainnya disidang etik pekan depan."
+  },
+  {
+   "id": "b10",
+   "tag": "[calm]",
+   "text": "Ingat: semua ini masih keterangan polisi. Tersangka belum tentu bersalah. Yang memutuskan nanti pengadilan."
+  }
+ ],
+ "tail": 0.6
+}

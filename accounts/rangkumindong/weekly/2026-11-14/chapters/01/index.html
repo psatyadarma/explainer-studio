@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Rangkumin Seminggu — Bab 1</title>
+<!-- ../../../../../../ is replaced by engine/weekly.py init with the path back to the repo root -->
+<link rel="stylesheet" href="../../../../../../styles/sticker/sticker.css">
+<link rel="stylesheet" href="../../../../../../styles/sticker/weekly/weekly.css">
+<script src="../../../../../../styles/sticker/sticker.js"></script>
+<script src="build/timing.js"></script>
+<script src="../../build/week.js"></script>
+<script src="../../../../../../styles/sticker/weekly/weekly.js"></script>
+<style>
+  .it { position: absolute; transform: translate(-50%,-50%); }
+  .card { background: #fff; border-radius: 28px; padding: 26px 36px; box-shadow: 0 0 0 9px #fff, 0 18px 26px rgba(27,36,48,.22); }
+  .card h3 { margin: 0; font-weight: 900; font-size: 52px; line-height: 1.08; letter-spacing: -1px; }
+  .card p { margin: 8px 0 0; font-weight: 700; font-size: 34px; line-height: 1.2; color: var(--slate); }
+  .card .k { font-weight: 800; font-size: 28px; letter-spacing: 1px; text-transform: uppercase; color: var(--accent); margin-bottom: 6px; }
+  .stat { font-weight: 900; font-size: 210px; line-height: 1; letter-spacing: -7px; color: var(--accent); text-align: center; white-space: nowrap; }
+  .statl { font-weight: 900; font-size: 56px; text-align: center; white-space: nowrap; }
+  .arrow { font-weight: 900; font-size: 110px; color: var(--ink); line-height: 1; }
+  .big { font-weight: 900; font-size: 64px; letter-spacing: -1px; }
+  .stampx { background: var(--accent); color: #fff; font-weight: 900; font-size: 74px; letter-spacing: 2px; padding: 8px 30px; border-radius: 14px; border: 8px solid #fff; box-shadow: 0 14px 24px rgba(27,36,48,.25); white-space: nowrap; }
+  .ghost { background: var(--paper-2); border: 6px dashed var(--slate); border-radius: 28px; color: var(--slate); font-weight: 900; text-align: center; }
+  .strike { text-decoration: line-through; text-decoration-thickness: 8px; text-decoration-color: var(--accent); }
+  .lw { top: 132px; bottom: auto; }
+  .it.tag { white-space: nowrap; }
+</style>
+</head>
+<body>
+<div id="stage">
+  <div id="world"></div>
+  <div id="card"><div class="kicker" id="cKick"></div><div class="title" id="cTitle"></div><div class="sub" id="cSub"></div></div>
+  <div id="lowers"></div>
+  <div id="brand"><div class="dot"></div><b>Rangkumin Dong</b></div>
+  <div id="subs"></div>
+  <div id="progress"></div>
+</div>
+<script>
+// ---- chapter data -----------------------------------------------------------------------------
+// Every time is a REF into build/timing.js (never seconds): 'a4' = start of line a4, 'a4:HMP' = word,
+// 'a4:usul#1' = 2nd match, '...+0.3' = offset. After a re-voice/re-time nothing here needs to change
+// unless line ids or wording change. Items sit at (zone x + x, y). Numbers shown are all spoken in the script.
+window.CHAPTER = Number(location.pathname.split('/').slice(-2)[0]);
+const DATA = {
+  // MPR meeting outcome: swap these strings after the meeting (shown in zone E at line a9).
+  mpr: { tag: 'RAPAT GABUNGAN MPR', head: 'Jumat 14.00 WIB', sub: 'Tetapkan jadwal paripurna, surati Presiden', state: 'DIJADWALKAN' },
+  // camera: zone centre x, arrives a little before `at`
+  zones: [
+    { x: 960,  at: null },
+    { x: 2960, at: 'a4-0.35' },
+    { x: 4960, at: 'a5-0.35' },
+    { x: 6960, at: 'a7-0.35' },
+    { x: 8960, at: 'a9-0.35' },
+  ],
+  lowers: [
+    { at: 'a2+0.6', out: 'a3', t: 'Putusan MA', s: 'surat penyetaraan SMA' },
+    { at: 'a3+0.6', out: 'a4', t: 'Mensesneg Prasetyo Hadi', s: 'soal niat mundur' },
+    { at: 'a5+0.6', out: 'a6', t: 'Ketua MPR Ahmad Muzani', s: 'penerima surat' },
+    { at: 'a7+0.6', out: 'a8', t: 'Ketua MPR Ahmad Muzani', s: 'masa kosong wapres' },
+    { at: 'a10+0.6', out: 'a12', t: 'Menko Yusril', s: 'jadwal Presiden' },
+  ],
+  // z = zone index. in/out = refs. cls = element class. num = counts up to that number.
+  items: [
+    // --- A: intro + Selasa (a1-a3)
+    { z: 0, x: 0, y: -60, cls: 'stat', html: '3', in: 'a1:tiga-0.1', out: 'a2-0.1' },
+    { z: 0, x: 0, y: 130, cls: 'statl', html: 'HARI: Selasa, Rabu, Kamis', in: 'a1:tiga+0.1', out: 'a2-0.1' },
+    { z: 0, x: 0, y: -230, cls: 'tag accent', html: 'SELASA', in: 'a2' },
+    { z: 0, x: -400, y: 10, cls: 'card', w: 700, in: 'a2:putusan', html: '<div class="k">Putusan lengkap MA</div><h3>Surat keterangan penyetaraan SMA</h3><p>dipakai Gibran untuk Pemilu 2024</p>' },
+    { z: 0, x: -400, y: 215, cls: 'stampx', rot: -6, html: 'DIBATALKAN', in: 'a2:dibatalkan' },
+    { z: 0, x: 420, y: 10, cls: 'card', w: 720, in: 'a3:niat-0.2', html: '<div class="k">Kata Mensesneg Prasetyo Hadi</div><h3>Gibran: niat mundur</h3><p>disampaikan kepada Presiden Prabowo</p>' },
+    // --- B: Rabu, HMP (a4)
+    { z: 1, x: 0, y: -260, cls: 'tag accent', html: 'RABU', in: 'a4' },
+    { z: 1, x: -430, y: -10, cls: 'stat', num: 120, html: '0', in: 'a4:120-0.1' },
+    { z: 1, x: -430, y: 150, cls: 'statl', html: 'anggota DPR', in: 'a4:anggota' },
+    { z: 1, x: 40, y: -10, cls: 'stat', num: 8, html: '0', in: 'a4:8' },
+    { z: 1, x: 40, y: 150, cls: 'statl', html: 'fraksi', in: 'a4:fraksi' },
+    { z: 1, x: 470, y: 20, cls: 'card', w: 560, in: 'a4:HMP', html: '<div class="k">Resmi diusulkan</div><h3>Hak menyatakan pendapat (HMP)</h3>' },
+    { z: 1, x: 470, y: 250, cls: 'tag', html: 'jalan yang bisa berujung pemakzulan', in: 'a4:pemakzulan-0.5' },
+    // --- C: Kamis (a5-a6)
+    { z: 2, x: 0, y: -300, cls: 'tag accent', html: 'KAMIS', in: 'a5' },
+    { z: 2, x: -520, y: -150, cls: 'card', w: 520, in: 'a5:Gibran', html: '<div class="k">Kamis siang</div><h3>Gibran</h3><p>surat pengunduran diri</p>' },
+    { z: 2, x: -150, y: -150, cls: 'arrow', html: '→', in: 'a5:surat' },
+    { z: 2, x: 230, y: -150, cls: 'card', w: 520, in: 'a5:Ketua', html: '<div class="k">Ketua MPR</div><h3>Ahmad Muzani</h3>' },
+    { z: 2, x: 230, y: -5, cls: 'tag', html: 'salinan yang sama juga ke Presiden', in: 'a5:Presiden' },
+    { z: 2, x: -330, y: 160, cls: 'card', w: 700, in: 'a6', html: '<div class="k">Paripurna DPR</div><h3>Pukul 14.00</h3><p>mau umumkan usul HMP</p>' },
+    { z: 2, x: -190, y: 240, cls: 'stampx', rot: -7, html: 'DIBATALKAN', in: 'a6:dibatalkan' },
+    { z: 2, x: 430, y: 160, cls: 'card', w: 640, in: 'a6:usul#1', html: '<div class="k">Kata salah satu pengusul</div><h3>“Usul itu tak relevan lagi”</h3>' },
+    // --- D: kosong 60 hari + mekanisme (a7-a8)
+    { z: 3, x: -430, y: -200, cls: 'card', w: 700, in: 'a7:jabatan', html: '<div class="k">Sejak Kamis</div><h3>Jabatan wapres: KOSONG</h3>' },
+    { z: 3, x: 400, y: -200, cls: 'stat', num: 60, html: '0', in: 'a7:60-0.1' },
+    { z: 3, x: 400, y: -30, cls: 'statl', html: 'hari paling lama untuk MPR', in: 'a7:60+0.2' },
+    { z: 3, x: -480, y: 90, cls: 'card', w: 560, in: 'a8:Presiden', html: '<div class="k">Presiden</div><h3>mengusulkan 2 nama</h3>' },
+    { z: 3, x: -130, y: 90, cls: 'arrow', html: '→', in: 'a8:dua' },
+    { z: 3, x: 250, y: 90, cls: 'card', w: 500, in: 'a8:anggota', html: '<div class="k">Anggota MPR</div><h3>yang memilih</h3>' },
+    { z: 3, x: 250, y: 240, cls: 'tag light', html: 'bukan lewat pemilu', in: 'a8:pemilu-0.3' },
+    // --- E: Jumat + Presiden luar negeri + dua nama (a9-a12)
+    { z: 4, x: 0, y: -290, cls: 'tag accent', html: 'JUMAT', in: 'a9' },
+    { z: 4, x: -440, y: -90, cls: 'card', w: 780, in: 'a9:Langkah', mpr: true },
+    { z: 4, x: 440, y: -90, cls: 'card', w: 780, in: 'a10:Presiden', html: '<div class="k">Kata Menko Yusril</div><h3>Presiden ke luar negeri</h3><p>sampai tanggal 14 atau 16 November</p>' },
+    { z: 4, x: 440, y: 110, cls: 'tag accent', html: 'Tidak ada Plt wapres', in: 'a10:Selama' },
+    { z: 4, x: -240, y: 225, cls: 'ghost', w: 400, h: 150, in: 'a12', html: '<div style="font-size:90px;line-height:1">?</div><div style="font-size:34px">Calon 1</div>' },
+    { z: 4, x: 240, y: 225, cls: 'ghost', w: 400, h: 150, in: 'a12:calonnya', html: '<div style="font-size:90px;line-height:1">?</div><div style="font-size:34px">Calon 2</div>' },
+    { z: 4, x: 720, y: 225, cls: 'tag', html: 'belum diumumkan resmi', in: 'a12:belum' },
+  ],
+};
+// -----------------------------------------------------------------------------------------------
+const $ = (id) => document.getElementById(id);
+const T = window.TIMING; window.DURATION = T.duration;
+const ch = (window.WEEK?.chapters || []).find((c) => c.n === window.CHAPTER) || {};
+$('cKick').textContent = ch.kicker || ''; $('cTitle').textContent = ch.title || ''; $('cSub').textContent = window.WEEK?.dates || '';
+
+// ref -> seconds (relative to chapter start)
+const R = (ref) => {
+  if (ref == null) return Infinity;
+  const m = /^(\w+)(?::([^+#-]+?)(?:#(\d+))?)?(?:([+-][\d.]+))?$/.exec(ref);
+  if (!m) throw new Error('bad ref ' + ref);
+  const base = m[2] ? K.word(m[1], m[2], Number(m[3] || 0)) : K.at(m[1]);
+  return base + Number(m[4] || 0);
+};
+const zx = (z) => DATA.zones[z].x;
+const world = $('world');
+const items = DATA.items.map((d) => {
+  const e = document.createElement('div'); e.className = 'it ' + d.cls;
+  e.style.left = zx(d.z) + d.x + 'px'; e.style.top = 540 + d.y + 'px';
+  if (d.w) e.style.width = d.w + 'px'; if (d.h) { e.style.height = d.h + 'px'; e.style.display = 'flex'; e.style.flexDirection = 'column'; e.style.justifyContent = 'center'; }
+  if (d.mpr) { const m = DATA.mpr; e.innerHTML = `<div class="k">${m.tag}</div><h3>${m.head}</h3><p>${m.sub}</p><div class="tag" style="display:inline-block;margin-top:14px;font-size:32px">${m.state}</div>`; }
+  else e.innerHTML = d.html;
+  world.appendChild(e);
+  return { e, d, tIn: R(d.in), tOut: R(d.out) };
+});
+const keys = DATA.zones.map((z, i) => ({ t: i === 0 ? 0 : R(z.at), x: z.x, y: 540, z: 1 }));
+const lowers = DATA.lowers.map((l) => {
+  const e = document.createElement('div'); e.className = 'lower lw'; e.innerHTML = `${l.t}<small>${l.s}</small>`; $('lowers').appendChild(e);
+  return { e, tIn: R(l.at), tOut: R(l.out) };
+});
+
+function seek(t) {
+  K.cam16(world, keys, t);
+  K.titleCard($('card'), t, 2.0);
+  items.forEach(({ e, d, tIn, tOut }) => {
+    K.pop(e, t, tIn, tOut, d.rot || 0);
+    if (d.num != null) e.textContent = Math.round(d.num * K.easeOut(K.prog(t, tIn, 0.8))).toLocaleString('id-ID');
+  });
+  lowers.forEach((l) => K.lower(l.e, t, l.tIn, l.tOut));
+  K.subtitles($('subs'), t);
+  K.weekly(t);
+}
+window.seek = seek;
+</script>
+</body>
+</html>

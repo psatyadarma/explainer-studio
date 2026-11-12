@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Rangkumin Seminggu — chapter</title>
+<!-- ../../../../../../ is replaced by engine/weekly.py init with the path back to the repo root -->
+<link rel="stylesheet" href="../../../../../../styles/sticker/sticker.css">
+<link rel="stylesheet" href="../../../../../../styles/sticker/weekly/weekly.css">
+<script src="../../../../../../styles/sticker/sticker.js"></script>
+<script src="build/timing.js"></script>
+<script src="../../build/week.js"></script>
+<script src="../../../../../../styles/sticker/weekly/weekly.js"></script>
+<style>
+  .big { font-weight: 900; font-size: 150px; letter-spacing: -5px; line-height: 1; text-align: center; }
+  .big .acc { color: var(--accent); }
+  .row { display: flex; gap: 20px; justify-content: center; }
+  .card { background: #fff; border-radius: 24px; padding: 22px 26px; box-shadow: 0 0 0 8px #fff, 0 16px 26px rgba(27,36,48,.2); position: absolute; }
+  .card h3 { font-weight: 900; font-size: 34px; letter-spacing: -1px; line-height: 1.05; }
+  .card p { font-weight: 700; font-size: 25px; color: var(--slate); margin-top: 8px; line-height: 1.2; }
+  .card .d { display: inline-block; background: var(--ink); color: #fff; font-weight: 800; font-size: 28px; border-radius: 10px; padding: 3px 14px; margin-bottom: 10px; }
+  .card.hot .d { background: var(--accent); }
+  .stat { font-weight: 900; font-size: 210px; letter-spacing: -7px; color: var(--accent); white-space: nowrap; }
+  #line { position: absolute; left: 2090px; top: 560px; width: 1740px; height: 10px; background: var(--slate); border-radius: 5px; transform-origin: 0 50%; }
+</style>
+</head>
+<body>
+<div id="stage">
+  <div id="world">
+    <!-- ZONE A (x=960): who resigned -->
+    <div id="zA">
+      <div class="abs" id="a1" style="left:960px; top:250px;"><div class="tag accent sticker">KAMIS MALAM WIB</div></div>
+      <div class="abs big" id="a2" style="left:960px; top:420px; width:1500px;">Jensen Huang<br><span class="acc">mundur</span></div>
+      <div class="abs" id="r1" style="left:660px; top:690px;"><div class="tag sticker">CEO</div></div>
+      <div class="abs" id="r2" style="left:860px; top:690px;"><div class="tag sticker">Presiden</div></div>
+      <div class="abs" id="r3" style="left:1150px; top:690px;"><div class="tag sticker">Dewan direksi</div></div>
+      <div class="abs" id="a4" style="left:480px; top:800px;"><div class="tag light sticker">Pendiri sejak 1993</div></div>
+      <div class="abs" id="a5" style="left:1380px; top:800px;"><div class="tag light sticker">Sementara: CFO Colette Kress</div></div>
+    </div>
+    <!-- ZONE B (x=2960): timeline -->
+    <div id="zB">
+      <div id="line"></div>
+      <div class="card" id="c1" style="left:2070px; top:150px; width:340px;"><span class="d">8 NOV</span><h3>Huang akui hubungan di luar nikah</h3><p>Lewat email ke karyawan, dengan Alice Huang</p></div>
+      <div class="card" id="c2" style="left:2430px; top:530px; width:340px;"><span class="d">DUGAAN</span><h3>Alice Huang diduga terkait intelijen China</h3><p>Dugaan, bukan temuan. China membantah.</p></div>
+      <div class="card" id="c3" style="left:2790px; top:150px; width:340px;"><span class="d">HARI YANG SAMA</span><h3>Dewan bentuk komite independen</h3><p>Untuk menyelidiki</p></div>
+      <div class="card" id="c4" style="left:3150px; top:530px; width:340px;"><span class="d">SENIN (AS)</span><h3>Trump: FBI ikut menyelidiki</h3><p>Pemegang saham ajukan gugatan class action</p></div>
+      <div class="card hot" id="c5" style="left:3540px; top:150px; width:340px;"><span class="d">KAMIS</span><h3>WSJ: dewan timbang nasib Huang</h3><p>Beberapa jam kemudian, dia mundur</p></div>
+    </div>
+    <!-- ZONE C (x=4960): why it matters -->
+    <div id="zC">
+      <div class="abs" id="e1" style="left:4960px; top:260px;"><div class="tag sticker">Chip di balik ledakan AI</div></div>
+      <div class="abs stat" id="e2" style="left:4960px; top:450px;">~US$4 triliun</div>
+      <div class="abs" id="e3" style="left:4960px; top:610px;"><div class="tag accent sticker">Nilai pasar Nvidia</div></div>
+      <div class="abs" id="e4" style="left:4960px; top:730px;"><div class="tag light sticker">Sempat jatuh di bawah itu setelah dia mundur</div></div>
+    </div>
+  </div>
+  <div id="card"><div class="kicker" id="cKick"></div><div class="title" id="cTitle"></div><div class="sub" id="cSub"></div></div>
+  <div class="lower" id="lower1" style="bottom:auto; top:130px;">Nvidia<small>Jensen Huang mundur, 12 Nov (waktu AS)</small></div>
+  <div id="brand"><div class="dot"></div><b>Rangkumin Dong</b></div>
+  <div id="subs"></div>
+  <div id="progress"></div>
+</div>
+<script>
+window.CHAPTER = Number(location.pathname.split('/').slice(-2)[0]);
+const $ = (id) => document.getElementById(id);
+const T = window.TIMING; window.DURATION = T.duration;
+const ch = (window.WEEK?.chapters || []).find((c) => c.n === window.CHAPTER) || {};
+$('cKick').textContent = ch.kicker || ''; $('cTitle').textContent = ch.title || ''; $('cSub').textContent = window.WEEK?.dates || '';
+const at = (id, w, n = 0) => K.word(id, w, n);
+const pop = (id, tIn, t, rot = 0) => K.pop($(id), t, tIn, Infinity, rot);
+const cardIn = (id, tIn, t) => { const e = $(id), s = K.spring(t - tIn); e.style.opacity = t >= tIn ? K.clamp((t - tIn) / 0.08) : 0; e.style.transform = `scale(${0.6 + 0.4 * s}) translateY(${(1 - s) * 30}px)`; };
+const tB = K.at('d4', -0.1), tC = K.at('d9', -0.1);
+
+function seek(t) {
+  K.cam16($('world'), [{ t: 0, x: 960, y: 540, z: 1 }, { t: tB, x: 2960, y: 540, z: 1 }, { t: tC, x: 4960, y: 540, z: 1 }], t);
+  K.titleCard($('card'), t, 2.0);
+  // zone A
+  pop('a1', 2.1, t, -3);
+  pop('a2', Math.max(2.4, at('d2', 'jensen')), t);
+  pop('r1', at('d2', 'ceo'), t); pop('r2', at('d2', 'presiden'), t); pop('r3', at('d2', 'anggota'), t);
+  pop('a4', at('d2', 'sejak'), t, -2);
+  pop('a5', K.at('d3'), t, 2);
+  // zone B
+  const lp = K.prog(t, tB + 0.9, 8);
+  $('line').style.transform = `scaleX(${K.easeInOut(lp)})`;
+  cardIn('c1', at('d4', 'delapan') || K.at('d4', 0.9), t);
+  cardIn('c2', K.at('d5'), t);
+  cardIn('c3', K.at('d6'), t);
+  cardIn('c4', K.at('d7'), t);
+  cardIn('c5', K.at('d8'), t);
+  // zone C
+  pop('e1', K.at('d9', 0.2), t);
+  pop('e2', at('d9', 'nilai'), t);
+  pop('e3', at('d9', 'nilai'), t, -2);
+  pop('e4', at('d9', 'dan'), t, 1.5);
+  K.lower($('lower1'), t, 3.0, tB - 0.3);
+  K.subtitles($('subs'), t);
+  K.weekly(t);
+}
+window.seek = seek;
+</script>
+</body>
+</html>

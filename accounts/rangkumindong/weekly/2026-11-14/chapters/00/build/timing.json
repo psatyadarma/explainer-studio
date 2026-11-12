@@ -1,0 +1,336 @@
+{
+ "duration": 26.108,
+ "voice": "Pratama",
+ "lines": [
+  {
+   "id": "i1",
+   "text": "Seminggu, dua orang penting mundur. Kamu ketinggalan?",
+   "start": 0.39,
+   "end": 3.105,
+   "words": [
+    {
+     "w": "Seminggu,",
+     "start": 0.39,
+     "end": 0.915
+    },
+    {
+     "w": "dua",
+     "start": 0.955,
+     "end": 1.075
+    },
+    {
+     "w": "orang",
+     "start": 1.115,
+     "end": 1.315
+    },
+    {
+     "w": "penting",
+     "start": 1.363,
+     "end": 1.635
+    },
+    {
+     "w": "mundur.",
+     "start": 1.683,
+     "end": 2.18
+    },
+    {
+     "w": "Kamu",
+     "start": 2.18,
+     "end": 2.425
+    },
+    {
+     "w": "ketinggalan?",
+     "start": 2.445,
+     "end": 3.105
+    }
+   ]
+  },
+  {
+   "id": "i2",
+   "text": "Wapres Gibran, dan bos Nvidia, Jensen Huang. Kapolri buka peran mantan Kapolri di DPR. IHSG melonjak 2,66 persen.",
+   "start": 3.3890000000000002,
+   "end": 11.88,
+   "words": [
+    {
+     "w": "Wapres",
+     "start": 3.389,
+     "end": 3.609
+    },
+    {
+     "w": "Gibran,",
+     "start": 3.669,
+     "end": 4.169
+    },
+    {
+     "w": "dan",
+     "start": 4.249,
+     "end": 4.489
+    },
+    {
+     "w": "bos",
+     "start": 4.569,
+     "end": 4.809
+    },
+    {
+     "w": "Nvidia,",
+     "start": 4.878,
+     "end": 5.529
+    },
+    {
+     "w": "Jensen",
+     "start": 5.575,
+     "end": 5.849
+    },
+    {
+     "w": "Huang.",
+     "start": 5.902,
+     "end": 6.29
+    },
+    {
+     "w": "Kapolri",
+     "start": 6.29,
+     "end": 6.879
+    },
+    {
+     "w": "buka",
+     "start": 6.906,
+     "end": 7.119
+    },
+    {
+     "w": "peran",
+     "start": 7.159,
+     "end": 7.359
+    },
+    {
+     "w": "mantan",
+     "start": 7.407,
+     "end": 7.679
+    },
+    {
+     "w": "Kapolri",
+     "start": 7.719,
+     "end": 8.349
+    },
+    {
+     "w": "di",
+     "start": 8.389,
+     "end": 8.469
+    },
+    {
+     "w": "DPR.",
+     "start": 8.589,
+     "end": 9.12
+    },
+    {
+     "w": "IHSG",
+     "start": 9.12,
+     "end": 9.899
+    },
+    {
+     "w": "melonjak",
+     "start": 9.939,
+     "end": 10.459
+    },
+    {
+     "w": "2,66",
+     "start": 10.519,
+     "end": 11.339
+    },
+    {
+     "w": "persen.",
+     "start": 11.387,
+     "end": 11.88
+    }
+   ]
+  },
+  {
+   "id": "i3",
+   "text": "Plus: kabar kripto, GitHub, dan aplikasi bank yang mau tutup.",
+   "start": 12.164,
+   "end": 15.612,
+   "words": [
+    {
+     "w": "Plus:",
+     "start": 12.164,
+     "end": 12.292
+    },
+    {
+     "w": "kabar",
+     "start": 12.372,
+     "end": 12.692
+    },
+    {
+     "w": "kripto,",
+     "start": 12.732,
+     "end": 13.252
+    },
+    {
+     "w": "GitHub,",
+     "start": 13.34,
+     "end": 14.012
+    },
+    {
+     "w": "dan",
+     "start": 14.052,
+     "end": 14.172
+    },
+    {
+     "w": "aplikasi",
+     "start": 14.225,
+     "end": 14.652
+    },
+    {
+     "w": "bank",
+     "start": 14.716,
+     "end": 14.972
+    },
+    {
+     "w": "yang",
+     "start": 14.988,
+     "end": 15.052
+    },
+    {
+     "w": "mau",
+     "start": 15.092,
+     "end": 15.212
+    },
+    {
+     "w": "tutup.",
+     "start": 15.272,
+     "end": 15.612
+    }
+   ]
+  },
+  {
+   "id": "rd",
+   "text": "Rangkumin dong!",
+   "start": 15.826,
+   "end": 16.785,
+   "words": [
+    {
+     "w": "Rangkumin",
+     "start": 15.826,
+     "end": 16.305
+    },
+    {
+     "w": "dong!",
+     "start": 16.305,
+     "end": 16.785
+    }
+   ]
+  },
+  {
+   "id": "i4",
+   "text": "Ini Rangkumin Seminggu, 7 sampai 13 November. Di akhir: tanggal-tanggal minggu depan, termasuk satu rapat yang bisa ikut menentukan bunga cicilanmu.",
+   "start": 17.335920634920637,
+   "end": 25.545920634920634,
+   "words": [
+    {
+     "w": "Ini",
+     "start": 17.336,
+     "end": 17.366
+    },
+    {
+     "w": "Rangkumin",
+     "start": 17.406,
+     "end": 17.766
+    },
+    {
+     "w": "Seminggu,",
+     "start": 17.826,
+     "end": 18.326
+    },
+    {
+     "w": "7",
+     "start": 18.379,
+     "end": 18.726
+    },
+    {
+     "w": "sampai",
+     "start": 18.758,
+     "end": 18.966
+    },
+    {
+     "w": "13",
+     "start": 19.046,
+     "end": 19.446
+    },
+    {
+     "w": "November.",
+     "start": 19.499,
+     "end": 20.186
+    },
+    {
+     "w": "Di",
+     "start": 20.213,
+     "end": 20.266
+    },
+    {
+     "w": "akhir:",
+     "start": 20.319,
+     "end": 20.666
+    },
+    {
+     "w": "tanggal-tanggal",
+     "start": 20.726,
+     "end": 21.406
+    },
+    {
+     "w": "minggu",
+     "start": 21.438,
+     "end": 21.646
+    },
+    {
+     "w": "depan,",
+     "start": 21.673,
+     "end": 22.106
+    },
+    {
+     "w": "termasuk",
+     "start": 22.154,
+     "end": 22.586
+    },
+    {
+     "w": "satu",
+     "start": 22.634,
+     "end": 22.826
+    },
+    {
+     "w": "rapat",
+     "start": 22.906,
+     "end": 23.226
+    },
+    {
+     "w": "yang",
+     "start": 23.274,
+     "end": 23.466
+    },
+    {
+     "w": "bisa",
+     "start": 23.53,
+     "end": 23.786
+    },
+    {
+     "w": "ikut",
+     "start": 23.839,
+     "end": 24.026
+    },
+    {
+     "w": "menentukan",
+     "start": 24.066,
+     "end": 24.586
+    },
+    {
+     "w": "bunga",
+     "start": 24.666,
+     "end": 24.906
+    },
+    {
+     "w": "cicilanmu.",
+     "start": 24.966,
+     "end": 25.546
+    }
+   ]
+  }
+ ]
+}

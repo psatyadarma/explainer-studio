@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Rangkumin Seminggu — chapter</title>
+<!-- ../../../../../../ is replaced by engine/weekly.py init with the path back to the repo root -->
+<link rel="stylesheet" href="../../../../../../styles/sticker/sticker.css">
+<link rel="stylesheet" href="../../../../../../styles/sticker/weekly/weekly.css">
+<script src="../../../../../../styles/sticker/sticker.js"></script>
+<script src="build/timing.js"></script>
+<script src="../../build/week.js"></script>
+<script src="../../../../../../styles/sticker/weekly/weekly.js"></script>
+<style>
+  .abs, .big, .card2 { white-space: nowrap; }
+  .lower { bottom: 250px; }
+  .big { font-weight: 900; font-size: 150px; letter-spacing: -5px; line-height: 1; }
+  .card2 { background:#fff; border-radius:28px; padding:30px 44px; text-align:center; font-weight:900; font-size:64px; line-height:1.1; }
+  .card2 small { display:block; white-space:nowrap; font-weight:700; font-size:34px; color:var(--slate); margin-top:8px; }
+  .stat { font-weight: 900; font-size: 170px; letter-spacing: -6px; color: var(--accent); }
+  .tag { font-size: 54px; }
+</style>
+</head>
+<body>
+<div id="stage">
+  <div id="world">
+    <!-- ZONE A (x=960): two resignations -->
+    <div class="abs" id="aT" style="left:960px; top:300px;"><div class="big">DUA <span style="color:var(--accent)">MUNDUR</span></div></div>
+    <div class="abs sticker card2" id="aG" style="left:640px; top:600px;">Wapres Gibran<small>Wakil Presiden</small></div>
+    <div class="abs sticker card2" id="aJ" style="left:1290px; top:600px;">Jensen Huang<small>bos Nvidia</small></div>
+    <!-- ZONE B (x=2960): Kapolri + IHSG -->
+    <div class="abs sticker card2" id="bK" style="left:2520px; top:480px;">Kapolri<small>buka peran mantan Kapolri</small></div>
+    <div class="abs tag accent" id="bD" style="left:2520px; top:630px;">di DPR</div>
+    <div class="abs" id="bS" style="left:3420px; top:440px; text-align:center;"><div class="stat" id="statNum">0</div><div class="tag light sticker" style="display:inline-block; margin-top:10px;">IHSG melonjak (persen)</div></div>
+    <!-- ZONE C (x=4960): teasers -->
+    <div class="abs tag light sticker" id="c1" style="left:4960px; top:400px; font-size:70px;">Kabar kripto</div>
+    <div class="abs tag light sticker" id="c2" style="left:4960px; top:560px; font-size:70px;">GitHub</div>
+    <div class="abs tag light sticker" id="c3" style="left:4960px; top:720px; font-size:70px;">Aplikasi bank yang mau tutup</div>
+    <!-- ZONE D (x=6960): this video -->
+    <div class="abs" id="dT" style="left:6960px; top:300px; text-align:center;"><div class="big">Rangkumin Seminggu</div></div>
+    <div class="abs tag accent" id="dD" style="left:6960px; top:480px; font-size:80px;">7–13 November</div>
+    <div class="abs sticker card2" id="dN" style="left:6960px; top:660px;">Di akhir: tanggal minggu depan<small>termasuk satu rapat soal bunga cicilan</small></div>
+  </div>
+  <div id="card"><div class="kicker" id="cKick"></div><div class="title" id="cTitle"></div><div class="sub" id="cSub"></div></div>
+  <div class="lower" id="lower1">IHSG, hari Kamis<small>Sumber: CNBC Indonesia</small></div>
+  <div id="brand"><div class="dot"></div><b>Rangkumin Dong</b></div>
+  <div id="subs"></div>
+  <div id="progress"></div>
+</div>
+<script>
+// ---- chapter data: only numbers spoken in the script (2,66 persen; 7 sampai 13 November) ----
+window.CHAPTER = Number(location.pathname.split('/').slice(-2)[0]);
+const DATA = { stat: 2.66 };
+// -----------------------------------------------------------------------------------------------
+const $ = (id) => document.getElementById(id);
+const T = window.TIMING; window.DURATION = T.duration;
+const ch = (window.WEEK?.chapters || []).find((c) => c.n === window.CHAPTER) || {};
+$('cKick').textContent = ch.kicker || ''; $('cTitle').textContent = ch.title || ''; $('cSub').textContent = window.WEEK?.dates || '';
+const tG = K.word('i2', 'Wapres'), tJ = K.word('i2', 'Nvidia'), tK = K.word('i2', 'Kapolri'), tD = K.word('i2', 'DPR'), tS = K.word('i2', 'IHSG');
+const tC = K.at('i3'), tC2 = K.word('i3', 'GitHub'), tC3 = K.word('i3', 'aplikasi'), tZ = K.at('i4'), tDt = K.word('i4', 'Seminggu'), tN = K.word('i4', 'Di');
+const lowOut = tZ + 3;
+function seek(t) {
+  K.cam16($('world'), [
+    { t: 0, x: 960, y: 540, z: 1 },
+    { t: tK - 0.3, x: 2960, y: 540, z: 1 },
+    { t: tC - 0.2, x: 4960, y: 540, z: 1 },
+    { t: tZ - 0.2, x: 6960, y: 540, z: 1 }], t);
+  K.titleCard($('card'), t, 2.0);
+  K.pop($('aT'), t, 0.5); K.pop($('aG'), t, tG, Infinity, -2); K.pop($('aJ'), t, tJ, Infinity, 2);
+  K.pop($('bK'), t, tK, Infinity, -1.5); K.pop($('bD'), t, tD, Infinity, 2); K.pop($('bS'), t, tS);
+  $('statNum').textContent = (DATA.stat * K.clamp(K.prog(t, tS, 0.9))).toFixed(2).replace('.', ',') + '%';
+  K.pop($('c1'), t, tC + 0.2, Infinity, -2); K.pop($('c2'), t, tC2, Infinity, 1.5); K.pop($('c3'), t, tC3, Infinity, -1);
+  K.pop($('dT'), t, tZ); K.pop($('dD'), t, tDt + 0.3, Infinity, -2); K.pop($('dN'), t, tN, Infinity, 1.5);
+  K.lower($('lower1'), t, tS, tS + 3);
+  K.subtitles($('subs'), t);
+  K.weekly(t);
+}
+window.seek = seek;
+</script>
+</body>
+</html>

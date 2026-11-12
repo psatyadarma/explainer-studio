@@ -1,0 +1,33 @@
+{
+ "direction": "[clear, steady weekly recap; neutral, attributed]",
+ "lines": [
+  {
+   "id": "i1",
+   "tag": "[energetic]",
+   "text": "Seminggu, dua orang penting mundur. Kamu ketinggalan?"
+  },
+  {
+   "id": "i2",
+   "tag": "[quick, building]",
+   "text": "Wapres Gibran, dan bos Nvidia, Jensen Huang. Kapolri buka peran mantan Kapolri di DPR. IHSG melonjak 2,66 persen.",
+   "say": "Wapres Gibran, dan bos Nvidia, Jensen Huang. Kapolri buka peran mantan Kapolri, di DPR. I H S G melonjak dua koma enam enam persen."
+  },
+  {
+   "id": "i3",
+   "tag": "[quick, playful]",
+   "text": "Plus: kabar kripto, GitHub, dan aplikasi bank yang mau tutup."
+  },
+  {
+   "id": "rd",
+   "tagline": true,
+   "text": "Rangkumin dong!"
+  },
+  {
+   "id": "i4",
+   "tag": "[friendly]",
+   "text": "Ini Rangkumin Seminggu, 7 sampai 13 November. Di akhir: tanggal-tanggal minggu depan, termasuk satu rapat yang bisa ikut menentukan bunga cicilanmu.",
+   "say": "Ini Rangkumin Seminggu, tujuh sampai tiga belas November. Di akhir: tanggal-tanggal minggu depan, termasuk satu rapat yang bisa ikut menentukan bunga cicilanmu."
+  }
+ ],
+ "tail": 0.6
+}

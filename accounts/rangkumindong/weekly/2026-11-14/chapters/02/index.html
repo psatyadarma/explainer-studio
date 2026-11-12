@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Rangkumin Seminggu — chapter</title>
+<!-- ../../../../../../ is replaced by engine/weekly.py init with the path back to the repo root -->
+<link rel="stylesheet" href="../../../../../../styles/sticker/sticker.css">
+<link rel="stylesheet" href="../../../../../../styles/sticker/weekly/weekly.css">
+<script src="../../../../../../styles/sticker/sticker.js"></script>
+<script src="build/timing.js"></script>
+<script src="../../build/week.js"></script>
+<script src="../../../../../../styles/sticker/weekly/weekly.js"></script>
+<style>
+  .stat { font-weight: 900; font-size: 230px; letter-spacing: -6px; color: var(--accent); line-height: 1; }
+  .big { font-weight: 900; font-size: 84px; letter-spacing: -2px; line-height: 1.05; text-align: center; }
+  .card { background: #fff; border-radius: 28px; padding: 26px 40px; font-weight: 800; font-size: 50px; line-height: 1.12; text-align: center;
+    box-shadow: 0 0 0 9px #fff, 0 18px 26px rgba(27,36,48,.22); }
+  .card small { display: block; font-weight: 700; font-size: 32px; color: var(--slate); margin-top: 8px; }
+  .card.dark { background: var(--ink); color: #fff; }
+  .card.acc { background: var(--accent); color: #fff; }
+  .card.acc small, .card.dark small { color: rgba(255,255,255,.8); }
+  .num { font-weight: 900; font-size: 200px; letter-spacing: -6px; color: var(--accent); line-height: 1; }
+  .arrow { font-weight: 900; font-size: 90px; color: var(--slate); }
+  .tag { font-size: 52px; }
+</style>
+</head>
+<body>
+<div id="stage">
+  <div id="world">
+    <!-- A: 4 tersangka + Kapolri / end user -->
+    <div class="abs" id="a1" style="left:640px; top:400px; text-align:center;"><div class="stat" id="n4">0</div><div class="tag dark sticker" style="display:inline-block; margin-top:14px;">tersangka penyadapan</div></div>
+    <div class="abs tag accent sticker" id="a2" style="left:1400px; top:290px;">Komisi III DPR</div>
+    <div class="abs card" id="a3" style="left:1400px; top:480px; width:700px;">Kapolri Jenderal Suyudi Ario Seto<small>bicara di DPR, Kamis</small></div>
+    <div class="abs card acc" id="a4" style="left:960px; top:750px; width:900px; font-size:58px;">Listyo Sigit Prabowo<small>mantan Kapolri, diduga end user</small></div>
+    <!-- B: peran end user -->
+    <div class="abs card acc" id="b0" style="left:2880px; top:230px; width:560px; font-size:64px;">END USER</div>
+    <div class="abs card" id="b1" style="left:2420px; top:520px; width:640px;">menentukan target sadap</div>
+    <div class="abs card dark" id="b2" style="left:2420px; top:700px; width:640px;">termasuk Presiden Prabowo</div>
+    <div class="abs card" id="b3" style="left:3380px; top:520px; width:640px;">menerima hasilnya</div>
+    <div class="abs arrow" id="b4a" style="left:2650px; top:360px;">&#8601;</div>
+    <div class="abs arrow" id="b4b" style="left:3110px; top:360px;">&#8600;</div>
+    <!-- C: sitaan -->
+    <div class="abs" id="c1" style="left:4320px; top:430px; text-align:center;"><div class="num" id="c1n">0</div><div class="tag dark sticker">ponsel</div></div>
+    <div class="abs" id="c2" style="left:4800px; top:430px; text-align:center;"><div class="num" id="c2n">0</div><div class="tag dark sticker">flashdisk</div></div>
+    <div class="abs" id="c3" style="left:5280px; top:430px; text-align:center;"><div class="num" id="c3n">0</div><div class="tag dark sticker">iPad</div></div>
+    <div class="abs tag accent sticker" id="c0" style="left:4800px; top:220px;">Barang yang disita</div>
+    <!-- D: korban sadap lain -->
+    <div class="abs tag accent sticker" id="d0" style="left:6720px; top:200px;">Korban sadap lain (temuan awal)</div>
+    <div class="abs card" id="d1" style="left:6280px; top:420px; width:560px;">Kementerian</div>
+    <div class="abs card" id="d2" style="left:7160px; top:420px; width:560px;">DPR dan partai</div>
+    <div class="abs card" id="d3" style="left:6280px; top:600px; width:560px;">KPK</div>
+    <div class="abs card" id="d4" style="left:7160px; top:600px; width:560px;">Kejaksaan</div>
+    <div class="abs card dark" id="d5" style="left:6720px; top:780px; width:560px;">Aktivis</div>
+    <!-- E: LPSK + TK -->
+    <div class="abs" id="e1" style="left:8300px; top:430px; text-align:center;"><div class="num" id="e1n">0</div><div class="tag dark sticker">staf Monitoring Center</div></div>
+    <div class="abs card acc" id="e2" style="left:8300px; top:700px; width:640px;">ajukan perlindungan ke LPSK</div>
+    <div class="abs tag accent sticker" id="e3" style="left:9100px; top:250px;">Inisial TK</div>
+    <div class="abs card" id="e4" style="left:9100px; top:450px; width:560px;">berpangkat brigjen</div>
+    <div class="abs card dark" id="e5" style="left:9100px; top:640px; width:560px;">kini diperiksa Propam</div>
+    <!-- F: penahanan -->
+    <div class="abs tag accent sticker" id="f0" style="left:10560px; top:200px;">Status penahanan</div>
+    <div class="abs card" id="f1" style="left:10200px; top:470px; width:640px;">Listyo<small>ditahan sampai 23 November</small></div>
+    <div class="abs card dark" id="f2" style="left:10920px; top:470px; width:640px;">Irjen Slamet Uliandi<small>tahanan rumah</small></div>
+    <!-- G: etik -->
+    <div class="abs tag accent sticker" id="g0" style="left:12480px; top:200px;">Sidang etik</div>
+    <div class="abs card acc" id="g1" style="left:12080px; top:470px; width:700px;">Irjen Ahrie Sonta Nasution<small>sudah PTDH: diberhentikan tidak dengan hormat</small></div>
+    <div class="abs card" id="g2" style="left:12880px; top:470px; width:700px;">3 lainnya<small>disidang etik pekan depan</small></div>
+    <!-- H: catatan -->
+    <div class="abs tag accent sticker" id="h0" style="left:14400px; top:200px;">Ingat</div>
+    <div class="abs card" id="h1" style="left:14400px; top:400px; width:900px;">Semua ini masih keterangan polisi</div>
+    <div class="abs card dark" id="h2" style="left:14400px; top:580px; width:900px;">Tersangka belum tentu bersalah</div>
+    <div class="abs card acc" id="h3" style="left:14400px; top:760px; width:900px;">Yang memutuskan: pengadilan</div>
+  </div>
+  <div id="card"><div class="kicker" id="cKick"></div><div class="title" id="cTitle"></div><div class="sub" id="cSub"></div></div>
+  <div class="lower" id="lower1" style="bottom:auto; top:130px;">Sumber<small>keterangan Kapolri di Komisi III DPR, 12 Nov</small></div>
+  <div id="brand"><div class="dot"></div><b>Rangkumin Dong</b></div>
+  <div id="subs"></div>
+  <div id="progress"></div>
+</div>
+<script>
+window.CHAPTER = Number(location.pathname.split('/').slice(-2)[0]);
+const $ = (id) => document.getElementById(id);
+const T = window.TIMING; window.DURATION = T.duration;
+const ch = (window.WEEK?.chapters || []).find((c) => c.n === window.CHAPTER) || {};
+$('cKick').textContent = ch.kicker || ''; $('cTitle').textContent = ch.title || ''; $('cSub').textContent = window.WEEK?.dates || '';
+const W = (id, w, n = 0) => K.word(id, w, n);
+const A = (id, off = 0) => K.at(id, off);
+// [element id, time in, rotation]
+const pops = [
+  ['a1', Math.max(2.5, W('b1', 'empat'))], ['a2', W('b1', 'Komisi')],
+  ['a3', A('b2', 0.2)], ['a4', W('b2', 'Listyo')],
+  ['b0', A('b3', 0.1)], ['b4a', W('b3', 'menentukan')], ['b1', W('b3', 'menentukan')], ['b2', W('b3', 'termasuk')],
+  ['b4b', W('b3', 'menerima') - 0.3], ['b3', W('b3', 'menerima')],
+  ['c0', A('b4', 0.1)], ['c1', W('b4', '15')], ['c2', W('b4', '7')], ['c3', W('b4', '2')],
+  ['d0', A('b5', 0.1)], ['d1', W('b5', 'kementerian')], ['d2', W('b5', 'DPR')], ['d3', W('b5', 'KPK')], ['d4', W('b5', 'kejaksaan')], ['d5', W('b5', 'aktivis')],
+  ['e1', A('b6', 0.1)], ['e2', W('b6', 'perlindungan')],
+  ['e3', W('b7', 'berinisial')], ['e4', W('b7', 'berpangkat')], ['e5', W('b7', 'diperiksa')],
+  ['f0', A('b8', 0.1)], ['f1', W('b8', 'Listyo')], ['f2', W('b8', 'Irjen')],
+  ['g0', A('b9', 0.1)], ['g1', W('b9', 'Irjen')], ['g2', W('b9', 'Tiga')],
+  ['h0', A('b10', 0.1)], ['h1', W('b10', 'semua')], ['h2', W('b10', 'Tersangka')], ['h3', W('b10', 'Yang')],
+].map(([id, t]) => ({ el: $(id), t }));
+const counts = [['n4', 4, 'a1'], ['c1n', 15, 'c1'], ['c2n', 7, 'c2'], ['c3n', 2, 'c3'], ['e1n', 6, 'e1']]
+  .map(([id, v, z]) => ({ el: $(id), v, t: pops.find((p) => p.el.id === z).t }));
+const cam = [{ t: 0, x: 1030, y: 540, z: 1 }];
+[['b3', 2880, 0.5], ['b4', 4800, 0.3], ['b5', 6720, 0.3], ['b6', 8700, 0.3], ['b8', 10560, 0.3], ['b9', 12480, 0.3], ['b10', 14400, 0.3]]
+  .forEach(([id, x, off]) => cam.push({ t: A(id) - off, x, y: 540, z: 1 }));
+
+function seek(t) {
+  K.cam16($('world'), cam, t);
+  K.titleCard($('card'), t, 2.0);
+  pops.forEach((p) => {
+    const a = p.el.classList.contains('arrow');
+    K.pop(p.el, t, p.t);
+  });
+  counts.forEach((c) => { c.el.textContent = Math.round(c.v * K.clamp(K.prog(t, c.t, 0.6))).toLocaleString('id-ID'); });
+  K.lower($('lower1'), t, 3.0, 9.0);
+  K.subtitles($('subs'), t);
+  K.weekly(t);
+}
+window.seek = seek;
+</script>
+</body>
+</html>

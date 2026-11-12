@@ -149,3 +149,6 @@ All 7 FIXes from factcheck.md are in script.json, claims.json, post.json and thi
 
 ## Trial Reel B / Saturday Short
 No B (rule since 9 Nov). For a Saturday Short cut, the strongest standalone chapter is **ch 3 (MSCI + "tapi rupiah melemah", ~86 s)**: it pays off two earlier videos and is the least sensitive. Ch 4 (Nvidia PART 2) also works at ~63 s.
+
+## Coordinator plan (13 Nov 06:10 WITA)
+- After MPR rapat gabungan (14.00 WIB = 15.00 WITA): writer rewrites ch01 a9/a12 to the outcome, **deletes a10** (Yusril trip repeats ch06 g2, editor fix 2), fixes the "Tidak ada Plt wapres" chip overlap; re-voice ch01 only (engine/revoice.py), rebuild ch01, re-render, assemble, editor re-check ch01.

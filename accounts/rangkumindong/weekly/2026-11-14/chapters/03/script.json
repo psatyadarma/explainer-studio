@@ -1,0 +1,58 @@
+{
+ "direction": "[clear, steady weekly recap; neutral, attributed]",
+ "lines": [
+  {
+   "id": "c1",
+   "tag": "[serious]",
+   "text": "Minggu lalu kami bilang: tunggu MSCI, Kamis dini hari. Hasilnya sudah keluar.",
+   "say": "Minggu lalu kami bilang: tunggu em es si ai, Kamis dini hari. Hasilnya sudah keluar."
+  },
+  {
+   "id": "c2",
+   "tag": "[explaining]",
+   "text": "Barito Pacific, BRPT, keluar dari indeks MSCI Global Standard. Bumi Resources Minerals, BRMS, turun ke Small Cap.",
+   "say": "Barito Pacific, be er pe te, keluar dari indeks em es si ai Global Standard. Bumi Resources Minerals, be er em es, turun ke Small Cap."
+  },
+  {
+   "id": "c3",
+   "tag": "[matter-of-fact]",
+   "text": "Tujuh saham lain dicoret dari Small Cap, termasuk CTRA, JSMR, dan MTEL. Berlaku setelah penutupan pasar 30 November.",
+   "say": "Tujuh saham lain dicoret dari Small Cap, termasuk, ce te er a, je es em er, dan em tel. Berlaku setelah penutupan pasar, tiga puluh November."
+  },
+  {
+   "id": "c4",
+   "tag": "[shocked]",
+   "text": "Reaksi pasar? Kamis, IHSG melonjak 2,66 persen, ke sekitar 5.250.",
+   "say": "Reaksi pasar? Kamis, I H S G melonjak dua koma enam enam persen, ke sekitar lima ribu dua ratus lima puluh."
+  },
+  {
+   "id": "c5",
+   "tag": "[explaining]",
+   "text": "Menurut analis Phintraco Sekuritas, dikutip Suara, mundurnya Gibran meredakan ketegangan politik. Tapi ada faktor lain juga, misalnya jaminan stok beras jelang akhir tahun."
+  },
+  {
+   "id": "c7",
+   "tag": "[explaining]",
+   "text": "Dan mulai Jumat, kata BEI, 300 saham lagi keluar dari hitungan IHSG, karena kepemilikannya terlalu terpusat. Totalnya jadi 383 saham.",
+   "say": "Dan mulai Jumat, kata Be E I, tiga ratus saham lagi keluar dari hitungan I H S G, karena kepemilikannya terlalu terpusat. Totalnya jadi tiga ratus delapan puluh tiga saham."
+  },
+  {
+   "id": "c8",
+   "tag": "[leaning in]",
+   "text": "Tapi ini yang sering terlewat: di hari IHSG melonjak, rupiah malah melemah. Kamis, di atas Rp18.200 per dolar.",
+   "say": "Tapi ini yang sering terlewat: di hari I H S G melonjak, rupiah malah melemah. Kamis, di atas delapan belas ribu dua ratus rupiah per dolar."
+  },
+  {
+   "id": "c9",
+   "tag": "[explaining]",
+   "text": "Kata BI, penyebabnya antara lain perkiraan bunga The Fed naik, dolar yang kuat, dan kebutuhan dolar akhir tahun. BI bilang sudah intervensi.",
+   "say": "Kata Be I, penyebabnya antara lain perkiraan bunga The Fed naik, dolar yang kuat, dan kebutuhan dolar akhir tahun. Be I bilang sudah intervensi."
+  },
+  {
+   "id": "c10",
+   "tag": "[calm]",
+   "text": "Ingat, ini bukan ajakan jual atau beli saham."
+  }
+ ],
+ "tail": 0.6
+}

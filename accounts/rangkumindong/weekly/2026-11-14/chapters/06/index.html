@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Rangkumin Seminggu — chapter</title>
+<!-- ../../../../../../ is replaced by engine/weekly.py init with the path back to the repo root -->
+<link rel="stylesheet" href="../../../../../../styles/sticker/sticker.css">
+<link rel="stylesheet" href="../../../../../../styles/sticker/weekly/weekly.css">
+<script src="../../../../../../styles/sticker/sticker.js"></script>
+<script src="build/timing.js"></script>
+<script src="../../build/week.js"></script>
+<script src="../../../../../../styles/sticker/weekly/weekly.js"></script>
+<style>
+  .stat { font-weight: 900; font-size: 190px; letter-spacing: -6px; color: var(--accent); white-space: nowrap; }
+  .card { background:#fff; border-radius:26px; padding:22px 40px; font-weight:900; font-size:54px; letter-spacing:-1.5px; text-align:center; white-space:nowrap; box-shadow:0 0 0 9px #fff, 0 18px 26px rgba(27,36,48,.22); }
+  .card small { display:block; font-weight:800; font-size:30px; color:var(--slate); letter-spacing:0; }
+  .card.dash { background:transparent; box-shadow:none; border:6px dashed var(--slate); color:var(--slate); }
+  .big { font-weight:900; font-size:150px; letter-spacing:-5px; line-height:.9; color:var(--accent); }
+  .head { font-weight:900; font-size:96px; letter-spacing:-3px; white-space:nowrap; text-align:center; }
+  .stamp.sm { font-size:76px; padding:18px 40px 26px; }
+  .cal { width:360px; background:#fff; border-radius:26px; overflow:hidden; box-shadow:0 0 0 9px #fff, 0 18px 26px rgba(27,36,48,.22); }
+  .cal .top { background:var(--accent); height:84px; }
+  .cal .g { display:grid; grid-template-columns:repeat(5,1fr); gap:14px; padding:26px; }
+  .cal .g i { height:32px; border-radius:8px; background:var(--paper-2); }
+  .cal .g i.on { background:var(--accent); }
+  .cal.day { width:300px; text-align:center; }
+  .cal.day .top { height:auto; color:#fff; font-weight:900; font-size:44px; padding:14px; }
+  .cal.day .num { font-weight:900; font-size:170px; letter-spacing:-6px; line-height:1.05; padding:6px 0 18px; }
+  .line { position:absolute; height:14px; border-radius:7px; background:var(--slate); transform-origin:0 50%; }
+  .dot { position:absolute; width:44px; height:44px; border-radius:50%; background:var(--accent); transform:translate(-50%,-50%); box-shadow:0 0 0 7px #fff; }
+  .lower { top: 124px; bottom: auto; }
+  .arrow { font-weight:900; font-size:110px; color:var(--slate); }
+</style>
+</head>
+<body>
+<div id="stage">
+  <div id="world"></div>
+  <div id="card"><div class="kicker" id="cKick"></div><div class="title" id="cTitle"></div><div class="sub" id="cSub"></div></div>
+  <div class="lower" id="lower1">Sumber<small>keterangan</small></div>
+  <div id="brand"><div class="dot" style="position:static;transform:none;box-shadow:none;width:26px;height:26px"></div><b>Rangkumin Dong</b></div>
+  <div id="subs"></div>
+  <div id="progress"></div>
+</div>
+<script>
+window.CHAPTER = Number(location.pathname.split('/').slice(-2)[0]);
+const $ = (id) => document.getElementById(id);
+const T = window.TIMING; window.DURATION = T.duration;
+const ch = (window.WEEK?.chapters || []).find((c) => c.n === window.CHAPTER) || {};
+$('cKick').textContent = ch.kicker || ''; $('cTitle').textContent = ch.title || ''; $('cSub').textContent = window.WEEK?.dates || '';
+const world = $('world');
+const W = (id, w, n = 0) => K.word(id, w, n);
+const S = (id) => K.at(id), E = (id) => K.line(id).end;
+
+// ---- element factory: every visual is a pop-in sticker at absolute world coords ----
+const items = [];
+function add(html, x, y, tIn, tOut = Infinity, cls = '', rot = 0, style = '') {
+  const e = document.createElement('div'); e.className = 'abs ' + cls; e.innerHTML = html;
+  e.style.cssText += `left:${x}px;top:${y}px;${style}`; world.appendChild(e);
+  items.push({ e, tIn, tOut, rot }); return e;
+}
+function box(cls, x, y, w, h, extra = '') { const e = document.createElement('div'); e.className = cls; e.style.cssText = `left:${x}px;top:${y}px;width:${w}px;${extra}`; if (h) e.style.height = h + 'px'; world.appendChild(e); return e; }
+
+// ZONE A (x=960): MSCI follow-up, then "minggu depan" calendar
+add('MSCI', 960, 330, 2.1, S('g1') - 0.1, 'stamp');
+add('Hasil keluar', 960, 520, W('g0', 'keluar') - 0.1, S('g1') - 0.1, 'tag accent sticker');
+add('Kamis dini hari WIB', 960, 650, W('g0', 'kamis') - 0.1, S('g1') - 0.1, 'tag light sticker');
+add('Minggu depan', 960, 280, S('g1') + 0.05, Infinity, 'head');
+add('<div class="top"></div><div class="g">' + Array.from({ length: 15 }, (_, i) => `<i class="${[2, 7, 11].includes(i) ? 'on' : ''}"></i>`).join('') + '</div>', 960, 560, W('g1', 'catat') - 0.05, Infinity, 'cal', -3);
+add('Catat tanggalnya', 960, 790, W('g1', 'catat') + 0.1, Infinity, 'tag accent sticker');
+
+// ZONE B (x=2960): Presiden abroad, wapres seat empty
+const bx = 2960;
+add('Kata Menko Yusril', bx, 190, S('g2') + 0.1, Infinity, 'tag light sticker');
+add('Presiden di luar negeri', bx, 340, W('g2', 'presiden') - 0.1, Infinity, 'head');
+const bl = box('line', bx - 420, 520, 840, 14); bl.style.top = '513px';
+add('sampai', bx - 420, 440, W('g2', 'sampai') - 0.1, Infinity, 'tag light sticker');
+add('<span class="dot" style="position:static;display:inline-block;transform:none"></span>', bx - 420, 520, W('g2', 'sampai'), Infinity, '');
+add('14 Nov', bx - 140, 600, W('g2', '14') - 0.05, Infinity, 'tag sticker');
+add('atau', bx + 40, 440, W('g2', 'atau') - 0.05, Infinity, 'tag light sticker');
+add('16 Nov', bx + 300, 600, W('g2', '16') - 0.05, Infinity, 'tag sticker');
+add('<span class="dot" style="position:static;display:inline-block;transform:none"></span>', bx - 140, 520, W('g2', '14'), Infinity, '');
+add('<span class="dot" style="position:static;display:inline-block;transform:none"></span>', bx + 300, 520, W('g2', '16'), Infinity, '');
+add('Kursi wapres kosong', bx, 760, W('g2', 'kursi') - 0.1, Infinity, 'card dash', 2);
+
+// ZONE C (x=4960): MPR
+const cx = 4960;
+add('Dari MPR', cx, 190, W('g3', 'mpr') - 0.2, Infinity, 'tag light sticker');
+add('Paripurna pemilihan wapres<small>pantau jadwalnya</small>', cx, 360, W('g3', 'paripurna') - 0.2, Infinity, 'card', -1.5);
+add('Dua nama dari Presiden', cx, 540, W('g3', 'dua') - 0.1, Infinity, 'card', 1.5);
+const cb = box('line', cx - 420, 710, 840, 14); cb.style.top = '703px';
+add('<span class="dot" style="position:static;display:inline-block;transform:none"></span>', cx - 420, 710, W('g3', '12') - 0.05, Infinity, '');
+add('12 Nov', cx - 420, 800, W('g3', '12') - 0.05, Infinity, 'tag sticker');
+add('Paling lambat 60 hari', cx + 150, 800, W('g3', 'paling') - 0.1, Infinity, 'tag accent sticker');
+
+// ZONE D (x=6960): Polri ethics hearing
+const dx = 6960;
+add('Kata Polri', dx, 190, W('g4', 'polri') - 0.2, Infinity, 'tag light sticker');
+add('Sidang etik', dx, 340, W('g4', 'sidang') - 0.1, Infinity, 'head');
+add('Listyo Sigit', dx, 530, W('g4', 'listyo') - 0.1, Infinity, 'card', -1.5);
+add('Jenderal lain', dx - 380, 540, W('g4', 'dua') - 0.1, Infinity, 'card', -3, 'font-size:44px');
+add('Jenderal lain', dx + 380, 540, W('g4', 'jenderal') + 0.1, Infinity, 'card', 3, 'font-size:44px');
+add('Tanggal pastinya belum diumumkan', dx, 740, W('g4', 'tanggal') - 0.1, Infinity, 'tag accent sticker');
+
+// ZONE E (x=8960): BI board meeting
+const ex = 8960;
+add('<div class="top">Selasa</div><div class="num" id="n17"></div>', ex - 230, 380, W('g5', 'selasa') - 0.1, Infinity, 'cal day', -3);
+add('<div class="top">Rabu</div><div class="num" id="n18"></div>', ex + 230, 380, W('g5', 'rabu') - 0.1, Infinity, 'cal day', 3);
+add('November', ex, 260, W('g5', 'november') - 0.1, Infinity, 'tag sticker');
+add('Rapat Dewan Gubernur Bank Indonesia', ex, 640, W('g5', 'rapat') - 0.1, Infinity, 'card');
+add('Rapat yang kami janjikan di awal', ex, 780, W('g5', 'janjikan') - 0.2, Infinity, 'tag accent sticker');
+$('n17').textContent = '17'; $('n18').textContent = '18';
+const n17 = $('n17'), n18 = $('n18');
+
+// ZONE F (x=10960): BI-Rate
+const fx = 10960;
+add('BI-Rate', fx, 190, S('g6') + 0.05, Infinity, 'tag light sticker');
+add('<div class="stat">5,75%</div>', fx - 380, 400, W('g6', '5,75') - 0.1, Infinity, '');
+add('<div class="arrow">&rarr;</div>', fx, 400, W('g6', 'naik') - 0.1, Infinity, '');
+add('<div class="stat">6%</div>', fx + 330, 400, W('g6', '6') - 0.1, Infinity, '');
+add('Perkiraan sebagian ekonom', fx + 330, 560, W('g6', 'memperkirakan') - 0.1, Infinity, 'tag light sticker');
+add('Bunga kredit', fx - 330, 700, W('g6', 'bunga') - 0.1, Infinity, 'card', -2);
+add('<span class="arrow" style="font-size:70px">&rarr;</span>', fx - 10, 700, W('g6', 'termasuk') - 0.2, Infinity, '');
+add('Cicilan', fx + 280, 700, W('g6', 'cicilan') - 0.1, Infinity, 'card', 2);
+add('Biasanya tidak langsung', fx, 820, W('g6', 'biasanya') - 0.1, Infinity, 'tag accent sticker');
+
+// ZONE G (x=12960): UMP 2027
+const gx = 12960;
+add('UMP 2027', gx, 340, W('g7', 'ump') - 0.1, Infinity, 'stamp');
+add('Kata Menaker', gx, 520, W('g7', 'menaker') - 0.1, Infinity, 'tag light sticker');
+add('Pembahasan internal', gx, 640, W('g7', 'pembahasan') - 0.1, Infinity, 'card', -1.5);
+add('Target selesai November', gx, 790, W('g7', 'selesai') - 0.2, Infinity, 'tag accent sticker');
+
+// lower thirds, one per source
+const LOW = [
+  [2.6, S('g1') - 0.1, 'MSCI', 'Cek janji minggu lalu'],
+  [W('g2', 'yusril'), E('g2'), 'Menko Yusril', 'Jadwal Presiden, ucapan lisan'],
+  [S('g3') + 0.3, E('g3'), 'MPR', 'Pemilihan wapres'],
+  [S('g4') + 0.3, E('g4'), 'Polri', 'Sidang etik'],
+  [S('g5') + 0.3, E('g5'), 'Bank Indonesia', 'Rapat Dewan Gubernur'],
+  [S('g6') + 0.3, E('g6'), 'Perkiraan ekonom', 'Bukan keputusan BI'],
+  [S('g7') + 0.3, T.duration - 0.6, 'Menaker', 'Target pembahasan UMP 2027'],
+];
+let lowIdx = -1;
+
+function seek(t) {
+  const k = (id) => S(id) - 0.35;
+  K.cam16(world, [
+    { t: 0, x: 960, y: 540, z: 1 },
+    { t: k('g2'), x: 2960, y: 540, z: 1 },
+    { t: k('g3'), x: 4960, y: 540, z: 1 },
+    { t: k('g4'), x: 6960, y: 540, z: 1 },
+    { t: k('g5'), x: 8960, y: 540, z: 1 },
+    { t: k('g6'), x: 10960, y: 540, z: 1 },
+    { t: k('g7'), x: 12960, y: 540, z: 1 },
+  ], t);
+  K.titleCard($('card'), t, 2.0);
+  items.forEach((it) => K.pop(it.e, t, it.tIn, it.tOut, it.rot));
+  // growing lines
+  const lines = world.querySelectorAll('.line');
+  lines[0].style.transform = `scaleX(${K.easeOut(K.prog(t, W('g2', 'sampai'), 1.3))})`;
+  lines[1].style.transform = `scaleX(${K.easeOut(K.prog(t, W('g3', 'paling') - 0.1, 1.4))})`;
+  // calendar numbers appear when spoken
+  n17.style.opacity = t >= W('g5', '17') - 0.05 ? 1 : 0;
+  n18.style.opacity = t >= W('g5', '18') - 0.05 ? 1 : 0;
+  // lower third
+  const i = LOW.findIndex((l) => t >= l[0] && t <= l[1] + 0.4);
+  if (i >= 0 && i !== lowIdx) { lowIdx = i; $('lower1').innerHTML = `${LOW[i][2]}<small>${LOW[i][3]}</small>`; }
+  if (i >= 0) K.lower($('lower1'), t, LOW[i][0], LOW[i][1]); else $('lower1').style.opacity = 0;
+  K.subtitles($('subs'), t);
+  K.weekly(t);
+}
+window.seek = seek;
+</script>
+</body>
+</html>

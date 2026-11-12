@@ -1,0 +1,57 @@
+{
+ "direction": "[clear, steady weekly recap; neutral, attributed]",
+ "lines": [
+  {
+   "id": "d1",
+   "tag": "[curious]",
+   "text": "Selasa kami bahas: bos Nvidia diselidiki dewannya sendiri. Kamis malam WIB, dia mundur.",
+   "say": "Selasa kami bahas: bos Nvidia diselidiki dewannya sendiri. Kamis malam, waktu Indonesia, dia mundur."
+  },
+  {
+   "id": "d2",
+   "tag": "[serious]",
+   "text": "Jensen Huang, pendiri Nvidia sejak 1993, mundur seketika: sebagai CEO, presiden, dan anggota dewan direksi.",
+   "say": "Jensen Huang, pendiri Nvidia sejak sembilan belas sembilan puluh tiga, mundur seketika: sebagai C E O, presiden, dan anggota dewan direksi."
+  },
+  {
+   "id": "d3",
+   "tag": "[matter-of-fact]",
+   "text": "Penggantinya untuk sementara: CFO Colette Kress.",
+   "say": "Penggantinya untuk sementara: C F O, Colette Kress."
+  },
+  {
+   "id": "d4",
+   "tag": "[explaining]",
+   "text": "Mundur ke belakang. 8 November, lewat email ke karyawan, Huang mengakui hubungan di luar nikah dengan Alice Huang.",
+   "say": "Mundur ke belakang. Delapan November, lewat email ke karyawan, Huang mengakui hubungan di luar nikah, dengan Alice Huang."
+  },
+  {
+   "id": "d5",
+   "tag": "[neutral]",
+   "text": "Media AS menyebut Alice Huang diduga terkait intelijen China. Itu dugaan, bukan temuan. China membantah."
+  },
+  {
+   "id": "d6",
+   "tag": "[matter-of-fact]",
+   "text": "Hari yang sama, dewan Nvidia membentuk komite direktur independen untuk menyelidiki."
+  },
+  {
+   "id": "d7",
+   "tag": "[explaining]",
+   "text": "Senin waktu AS, Trump bilang FBI ikut menyelidiki hubungan itu. Hari yang sama, pemegang saham mengajukan gugatan class action.",
+   "say": "Senin waktu Amerika, Trump bilang, F B I, ikut menyelidiki hubungan itu. Hari yang sama, pemegang saham mengajukan gugatan class action."
+  },
+  {
+   "id": "d8",
+   "tag": "[leaning in]",
+   "text": "Kamis, Wall Street Journal melaporkan dewan sedang menimbang nasib Huang. Beberapa jam kemudian, dia mundur."
+  },
+  {
+   "id": "d9",
+   "tag": "[explaining]",
+   "text": "Kenapa ini besar? Nvidia membuat chip yang jadi mesin di balik ledakan AI. Nilai pasarnya sekitar 4 triliun dolar, dan sempat jatuh di bawah itu setelah dia mundur.",
+   "say": "Kenapa ini besar? Nvidia membuat chip yang jadi mesin di balik ledakan A I. Nilai pasarnya sekitar empat triliun dolar, dan sempat jatuh di bawah itu, setelah dia mundur."
+  }
+ ],
+ "tail": 0.6
+}
