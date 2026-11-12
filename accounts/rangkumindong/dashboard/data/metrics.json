@@ -1294,5 +1294,53 @@
 "shares": 0,
 "saves": null,
 "follows": 0
+},
+{
+"date": "2026-11-12",
+"folder": "videos/2026-11-11-gibran-niat-mundur",
+"platform": "instagram",
+"hours": 25,
+"views": 156,
+"avg_watch_pct": 38.6,
+"hold_3s_pct": null,
+"shares": 0,
+"saves": 0,
+"follows": null
+},
+{
+"date": "2026-11-12",
+"folder": "videos/2026-11-11-gibran-niat-mundur",
+"platform": "youtube",
+"hours": 25,
+"views": 2935,
+"avg_watch_pct": null,
+"hold_3s_pct": null,
+"shares": 0,
+"saves": null,
+"follows": 0
+},
+{
+"date": "2026-11-12",
+"folder": "videos/2026-11-09-enam-investor-98-persen",
+"platform": "instagram",
+"hours": 72,
+"views": 174,
+"avg_watch_pct": 26.0,
+"hold_3s_pct": null,
+"shares": 1,
+"saves": 0,
+"follows": null
+},
+{
+"date": "2026-11-12",
+"folder": "videos/2026-11-09-enam-investor-98-persen",
+"platform": "youtube",
+"hours": 72,
+"views": 14,
+"avg_watch_pct": 26.1,
+"hold_3s_pct": null,
+"shares": 0,
+"saves": null,
+"follows": 0
 }
 ]

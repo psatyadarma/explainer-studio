@@ -1,15 +1,5 @@
 [
 {
-"id": "E0019",
-"date": "2026-10-12",
-"category": "NEWS",
-"event": "Blackout in Batam, Bintan and Tanjungpinang from ~06:30: traffic lights out, Hang Nadim airport systems hit, water plants at ~30% on generators; PLN later restores Batam 100%; compensation offered; Danantara to take over PLN Batam; PLN says not related to data centres",
-"key_numbers": "water capacity ~30%; compensation up to 25% (headline)",
-"storyline": "batam-blackout",
-"status": "partial (core facts verified; compensation/Danantara from headlines)",
-"upcoming": false
-},
-{
 "id": "E0020",
 "date": "2026-10-13",
 "category": "ECO",
@@ -7097,7 +7087,7 @@
 "key_numbers": "MSCI announcement 12 Nov 2026 · FTSE follow-up 2nd week Nov · FTSE freeze on Indonesia index changes through Dec 2026",
 "storyline": "msci-reclassification",
 "status": "upcoming",
-"upcoming": true
+"upcoming": false
 },
 {
 "id": "E0607",
@@ -7107,7 +7097,7 @@
 "key_numbers": "Next hearing 12 Nov 2026 · Jokowi testified 5 Nov",
 "storyline": "jokowi-ijazah-roy-suryo",
 "status": "upcoming",
-"upcoming": true
+"upcoming": false
 },
 {
 "id": "E0666",
@@ -7117,7 +7107,7 @@
 "key_numbers": "Hearing 12 Nov 2026",
 "storyline": "jokowi-ijazah-roy-suryo",
 "status": "upcoming",
-"upcoming": true
+"upcoming": false
 },
 {
 "id": "E0697",
@@ -7127,17 +7117,17 @@
 "key_numbers": "Announcement ~05:00 WIB Thu 12 Nov · effective after close Mon 30 Nov · at risk: MTEL (HSC-flagged, ~US$177m free-float cap), WIFI (~US$99m), RAJA (~US$108m), BRMS (possible Standard to Small Cap, ~US$1.35bn) · Mirae retention price for BRMS Rp440 vs Rp310 on 9 Nov · final EM/Standalone decision by 30 Jun 2027",
 "storyline": "msci-reclassification",
 "status": "upcoming",
-"upcoming": true
+"upcoming": false
 },
 {
 "id": "E0731",
 "date": "2026-11-12",
 "category": "POL",
-"event": "Paripurna DPR 12 Nov: pembacaan usulan HMP Gibran (after rapim/Bamus). (sensitivity: high)",
+"event": "CANCELLED: Paripurna DPR 12 Nov: pembacaan usulan HMP Gibran (after rapim/Bamus). (sensitivity: high) Plenary dropped after Gibran's resignation (see 12 Nov rows).",
 "key_numbers": "Thu 12 Nov 2026 · plenary reading after rapim/Bamus",
 "storyline": "gibran-ijazah-mk",
-"status": "upcoming",
-"upcoming": true
+"status": "verified",
+"upcoming": false
 },
 {
 "id": "E0732",
@@ -7147,7 +7137,7 @@
 "key_numbers": "Announcement ~05:00 WIB Thu 12 Nov · effective after close Mon 30 Nov (from 1 Dec) · MTEL est. free-float mcap ~US$177 jt (9 Nov) · WIFI ~US$99 jt · RAJA ~US$108 jt vs retention threshold ~US$173 jt · BRMS retention price ~Rp440 · MSCI freeze on new IMI additions/upgrades continues",
 "storyline": "msci-reclassification",
 "status": "upcoming",
-"upcoming": true
+"upcoming": false
 },
 {
 "id": "E0743",
@@ -7156,6 +7146,46 @@
 "event": "Komisi III DPR is scheduled to hold a meeting with the Kapolri on 12 Nov to discuss the wiretapping case against President Prabowo. (update of E0712)",
 "key_numbers": "Meeting 12 Nov 2026",
 "storyline": "listyo-sigit-penyadapan",
+"status": "upcoming",
+"upcoming": false
+},
+{
+"id": "E0763",
+"date": "2026-11-12",
+"category": "POL",
+"event": "VP Gibran handed his resignation letter to MPR Chairman Ahmad Muzani and MPR deputies at 11.16 WIB; Muzani said the same letter went to President Prabowo, the VP post is vacant from today and the MPR has up to 60 days to fill it. (update of E0741) (sensitivity: high)",
+"key_numbers": "11.16 WIB Thu 12 Nov 2026 · MPR deadline <=60 days · new VP by Jan 2027 at the latest",
+"storyline": "gibran-ijazah-mk",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0764",
+"date": "2026-11-12",
+"category": "POL",
+"event": "DPR plenary planned for 14.00 WIB (announcement of the HMP proposal on VP Gibran) was cancelled after the resignation; proposer Khozin (PKB) said the HMP is no longer relevant, while PKS's Mardani had said earlier it would continue until the process is final. (update of E0731) (sensitivity: high)",
+"key_numbers": "Plenary 12 Nov 14.00 WIB cancelled · 120 members, 8 factions had signed",
+"storyline": "gibran-ijazah-mk",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0765",
+"date": "2026-11-12",
+"category": "POL",
+"event": "President Prabowo confirmed receipt of Gibran's resignation letter at about 16.00 WIB, saying 'dengan berat hati' (reluctantly). (sensitivity: high)",
+"key_numbers": "~16.00 WIB Thu 12 Nov 2026",
+"storyline": "gibran-ijazah-mk",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0766",
+"date": "2026-11-13",
+"category": "POL",
+"event": "MPR rapat gabungan (joint leadership meeting) on filling the vacant VP post on Fri 13 Nov at 14.00 WIB; Prabowo is to propose two names, then an MPR plenary elects the new VP within 60 days (by Jan 2027 at the latest). (sensitivity: high)",
+"key_numbers": "Fri 13 Nov 14.00 WIB · 2 names from Prabowo · deadline <=60 days from 12 Nov",
+"storyline": "gibran-ijazah-mk",
 "status": "upcoming",
 "upcoming": true
 },

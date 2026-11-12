@@ -14,8 +14,8 @@
   "render": "todo",
   "video_sent": "todo",
   "ok_post": "user",
-  "posted": "todo",
-  "knowledge": "todo",
+  "posted": "done",
+  "knowledge": "done",
   "sweeps": "done",
   "factcheck_light": "done",
   "pick": "done",
@@ -26,7 +26,9 @@
   "preview_sent": "done",
   "revision": "breaking_news",
   "final_sent": "done",
-  "scheduled": "19:00"
+  "scheduled": "19:00",
+  "analyst": "done",
+  "dashboard": "done"
  },
  "notes": [],
  "merge_stats": {

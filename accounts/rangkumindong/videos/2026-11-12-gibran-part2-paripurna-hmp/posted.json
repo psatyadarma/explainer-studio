@@ -1,6 +1,92 @@
 {
- "success": true,
- "job_id": "5c778893763f4ebeb1265b91ebae3a94",
- "scheduled_date": "2026-11-12T19:00:00+08:00",
+ "status": "completed",
+ "completed": 2,
+ "total": 2,
+ "results": [
+  {
+   "user_email": "rangkumindong.id@gmail.com",
+   "profile_username": "Rangkumindong",
+   "platform": "youtube",
+   "media_type": "video",
+   "upload_timestamp": {
+    "$date": "2026-11-12T11:00:11.845Z"
+   },
+   "success": true,
+   "platform_post_id": "MEnJBGndONM",
+   "post_url": "https://www.youtube.com/watch?v=MEnJBGndONM",
+   "error_message": null,
+   "error_signature": null,
+   "error_code": null,
+   "failure_stage": null,
+   "media_size_bytes": 20644195,
+   "post_title": "Gibran mundur. Lalu siapa wapres berikutnya? (PART 2) #Shorts",
+   "post_caption": "Gibran mundur. Lalu, siapa wapres berikutnya? Ini urutannya 👇 (PART 2)\n\nRangkumin dong 👇\n• Kamis siang (12/11), Gibran menyerahkan surat pengunduran diri dari jabatan Wapres ke pimpinan MPR. Ketua MPR Ahmad Muzani menyampaikan, menurut Gibran surat yang sama sudah disampaikan ke Presiden Prabowo, dan Gibran minta MPR segera memprosesnya. Kata Muzani, sejak hari itu jabatan wapres kosong.\n• Paripurna DPR pukul 14.00 WIB yang dijadwalkan mengumumkan usul hak menyatakan pendapat (HMP, diajukan 120 anggota dari 8 fraksi) dibatalkan. Salah satu pengusul, Muhammad Khozin (PKB), menyebut usul itu tak relevan lagi setelah pengunduran diri resmi.\n• Berikutnya (UUD 1945 Pasal 8 ayat 2, UU MD3): Jumat (13/11) MPR rapat gabungan untuk menetapkan jadwal paripurna dan menyurati Presiden → Presiden mengusulkan 2 calon, paling lambat 14 hari sebelum paripurna → tim MPR memverifikasi dokumen → paripurna MPR memilih satu (suara terbanyak; seri diulang sekali, masih seri Presiden memilih) → dilantik. Semua paling lambat 60 hari: wapres baru paling lambat Januari 2027.\n\nMenurut kamu, apa yang paling penting dicek dari dua calon nanti? Komen 👇\n\nStatus per Kamis sore, 12 Nov 2026. Sumber:\n1) CNN Indonesia, 12 Nov 2026 11:44 WIB (Gibran serahkan surat ke MPR, 11.16 WIB): https://www.cnnindonesia.com/nasional/20261112101220-32-1426208/gibran-akhirnya-resmi-serahkan-surat-pengunduran-diri-ke-mpr\n2) CNN Indonesia, 12 Nov 2026 12:00 WIB (minta MPR segera proses; surat yang sama ke Presiden): https://www.cnnindonesia.com/nasional/20261112115109-32-1426276/gibran-minta-mpr-segera-proses-surat-pengunduran-dirinya\n3) CNN Indonesia, 12 Nov 2026 12:28 WIB (paripurna DPR dibatalkan): https://www.cnnindonesia.com/nasional/20261112121251-32-1426289/wapres-gibran-mundur-paripurna-dpr-terkait-pemakzulan-dibatalkan\n4) ANTARA, 12 Nov 2026 (surat pembatalan; Khozin): https://mataram.antaranews.com/berita/582135/gibran-mundur-paripurna-bahas-pemakzulan-mendadak-batal\n5) detikNews, 12 Nov 2026 13:16 WIB (paripurna HMP batal): https://news.detik.com/berita/d-8749724/gibran-resmi-mundur-dari-wapres-sidang-paripurna-hmp-pemakzulan-batal\n6) Liputan6, 12 Nov 2026 14:50 WIB (Muzani: sejak hari ini jabatan wapres kosong; 60 hari): https://www.liputan6.com/news/read/8333949/ketua-mpr-sejak-hari-ini-jabatan-wapres-alami-kekosongan\n7) CNN Indonesia, 12 Nov 2026 14:15 WIB (rapat gabungan MPR Jumat 13 Nov 14.00, 4 agenda): https://www.cnnindonesia.com/nasional/20261112140704-32-1426385/mpr-rapat-gabungan-bahas-jadwal-paripurna-wapres-pengganti-gibran-esok\n8) CNN Indonesia, 12 Nov 2026 13:48 WIB (tahapan MPR, wapres baru paling lambat Januari 2027; Tatib MPR Pasal 134–142): https://www.cnnindonesia.com/nasional/20261112132242-32-1426346/tahapan-lengkap-mpr-tetapkan-wapres-baru-dalam-60-hari\n9) ANTARA, 12 Nov 2026 (MPR tindak lanjuti surat): https://kupang.antaranews.com/berita/205419/mpr-menindaklanjuti-surat-pengunduran-diri-gibran\n10) UUD 1945 Pasal 8 ayat 2 (teks, WIPO Lex): https://www.wipo.int/wipolex/en/text/495019\n11) Megapolis (rangkuman detikcom), 11 Nov 2026 (UU MD3 Pasal 46: 2 calon, 14 hari, suara terbanyak, seri): https://megapolis.id/2026/11/11/ini-tahapan-jika-gibran-mundur-atau-dimakzulkan/\n12) CNN Indonesia, 11 Nov 2026 (120 anggota dari 8 fraksi ajukan HMP): https://www.cnnindonesia.com/nasional/20261111133951-32-1425862/8-fraksi-dpr-resmi-serahkan-hak-menyatakan-pendapat-soal-wapres-gibran\n\n#rangkumindong #gibran #wapres #MPR #DPR #wapresbaru #politikindonesia #beritaterkini",
+   "is_async": false,
+   "dashboard": false,
+   "source": "api",
+   "client": "python_generic",
+   "client_version": null,
+   "video_was_transcoded": false,
+   "changes": [],
+   "prevalidation_metadata": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30.0,
+    "duration": 79.2,
+    "container": "mov,mp4,m4a,3gp,3g2,mj2",
+    "video_codec": "h264",
+    "audio_codec": "aac"
+   },
+   "target_linkedin_page_id": null,
+   "request_id": "Rangkumindong-2026-11-12-gibran-part2-paripurna-hmp",
+   "request_id_logs": "Rangkumindong-2026-11-12-gibran-part2-paripurna-hmp",
+   "job_id": "5c778893763f4ebeb1265b91ebae3a94",
+   "request_total_platforms": 2
+  },
+  {
+   "user_email": "rangkumindong.id@gmail.com",
+   "profile_username": "Rangkumindong",
+   "platform": "instagram",
+   "media_type": "video",
+   "upload_timestamp": {
+    "$date": "2026-11-12T11:01:01.356Z"
+   },
+   "success": true,
+   "platform_post_id": "18025510220716107",
+   "post_url": "https://www.instagram.com/reel/Dfo5hcvFM4S/",
+   "error_message": null,
+   "error_signature": null,
+   "error_code": null,
+   "failure_stage": null,
+   "media_size_bytes": 20644195,
+   "post_title": "Gibran mundur. Lalu, siapa wapres berikutnya? Ini urutannya 👇 (PART 2)\n\nRangkumin dong 👇\n• Kamis siang (12/11), Gibran menyerahkan surat pengunduran diri dari jabatan Wapres ke pimpinan MPR. Ketua MPR Ahmad Muzani menyampaikan, menurut Gibran surat yang sama sudah disampaikan ke Presiden Prabowo, dan Gibran minta MPR segera memprosesnya. Kata Muzani, sejak hari itu jabatan wapres kosong.\n• Paripurna DPR pukul 14.00 WIB yang dijadwalkan mengumumkan usul hak menyatakan pendapat (HMP, diajukan 120 anggota dari 8 fraksi) dibatalkan. Salah satu pengusul, Muhammad Khozin (PKB), menyebut usul itu tak relevan lagi setelah pengunduran diri resmi.\n• Berikutnya (UUD 1945 Pasal 8 ayat 2, UU MD3): Jumat (13/11) MPR rapat gabungan untuk menetapkan jadwal paripurna dan menyurati Presiden → Presiden mengusulkan 2 calon, paling lambat 14 hari sebelum paripurna → tim MPR memverifikasi dokumen → paripurna MPR memilih satu (suara terbanyak; seri diulang sekali, masih seri Presiden memilih) → dilantik. Semua paling lambat 60 hari: wapres baru paling lambat Januari 2027.\n\nMenurut kamu, apa yang paling penting dicek dari dua calon nanti? Komen 👇\n\nStatus per Kamis sore, 12 Nov 2026. Sumber di komentar.\n\n#rangkumindong #gibran #wapres #MPR #DPR #wapresbaru #politikindonesia #beritaterkini",
+   "post_caption": "Gibran mundur. Lalu, siapa wapres berikutnya? Ini urutannya 👇 (PART 2)\n\nRangkumin dong 👇\n• Kamis siang (12/11), Gibran menyerahkan surat pengunduran diri dari jabatan Wapres ke pimpinan MPR. Ketua MPR Ahmad Muzani menyampaikan, menurut Gibran surat yang sama sudah disampaikan ke Presiden Prabowo, dan Gibran minta MPR segera memprosesnya. Kata Muzani, sejak hari itu jabatan wapres kosong.\n• Paripurna DPR pukul 14.00 WIB yang dijadwalkan mengumumkan usul hak menyatakan pendapat (HMP, diajukan 120 anggota dari 8 fraksi) dibatalkan. Salah satu pengusul, Muhammad Khozin (PKB), menyebut usul itu tak relevan lagi setelah pengunduran diri resmi.\n• Berikutnya (UUD 1945 Pasal 8 ayat 2, UU MD3): Jumat (13/11) MPR rapat gabungan untuk menetapkan jadwal paripurna dan menyurati Presiden → Presiden mengusulkan 2 calon, paling lambat 14 hari sebelum paripurna → tim MPR memverifikasi dokumen → paripurna MPR memilih satu (suara terbanyak; seri diulang sekali, masih seri Presiden memilih) → dilantik. Semua paling lambat 60 hari: wapres baru paling lambat Januari 2027.\n\nMenurut kamu, apa yang paling penting dicek dari dua calon nanti? Komen 👇\n\nStatus per Kamis sore, 12 Nov 2026. Sumber di komentar.\n\n#rangkumindong #gibran #wapres #MPR #DPR #wapresbaru #politikindonesia #beritaterkini",
+   "is_async": false,
+   "dashboard": false,
+   "source": "api",
+   "client": "python_generic",
+   "client_version": null,
+   "video_was_transcoded": false,
+   "changes": [],
+   "prevalidation_metadata": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30.0,
+    "duration": 79.2,
+    "container": "mov,mp4,m4a,3gp,3g2,mj2",
+    "video_codec": "h264",
+    "audio_codec": "aac"
+   },
+   "target_linkedin_page_id": null,
+   "request_id": "Rangkumindong-2026-11-12-gibran-part2-paripurna-hmp",
+   "request_id_logs": "Rangkumindong-2026-11-12-gibran-part2-paripurna-hmp",
+   "job_id": "5c778893763f4ebeb1265b91ebae3a94",
+   "request_total_platforms": 2
+  }
+ ],
+ "external_id": null,
+ "last_update": {
+  "$date": "2026-11-12T11:01:01.356Z"
+ },
  "request_id": "Rangkumindong-2026-11-12-gibran-part2-paripurna-hmp"
 }

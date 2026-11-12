@@ -147,3 +147,8 @@ History moved out of HANDOFF.md (22 Oct) so fresh sessions read less. Append one
 - 4 sweeps OK (35 events, 34 merged). 5 ideas; user picked #2 Gibran (sens high) + early OK. Light FC 3 fixes, full FC 1 fix; QA 1 FIX (zone bleed) then PASS.
 - 18:00 news check found the 120-member HMP filing: cancelled the 19:00 Upload-Post schedule (DELETE /api/uploadposts/schedule/<job_id> works), rewrote l4/l5, re-voiced, re-FC/QA PASS, posted ~18:09 (missed --when; slot exception).
 - Problems: dashboard old blob delete (runs 9b4f257c...) denied by permission check; 14:00 default-pick trigger couldn't be deleted (harmless).
+
+## 12 Nov (Thu, politics: Gibran PART 2 paripurna HMP; Pratama, person_collage, subs word, no B)
+- User picked ⭐ #1 (Gibran PART 2) + early OK. Draft was "stays-true-either-way"; ~16:15 WITA breaking news (resignation letter to MPR 11.16 WIB, DPR plenary cancelled, MPR rapat gabungan 13 Nov 14.00 WIB, Prabowo confirmed ~16.00) → script fully rewritten, re-voiced (engine/revoice.py, new), re-rendered 79.2 s (Pratama 1.18x), QA PASS (~2 h cost).
+- Hook A person_collage "Gibran mundur. Lalu, siapa wapres berikutnya?" (coordinator replaced hook-critic's pre-news pick). Scheduled with --when, posted 19:00 (IG Dfo5hcvFM4S, YT MEnJBGndONM).
+- Problems: 14:00 default-pick send_later couldn't be deleted (auto-mode classifier denies delete_trigger; harmless). Lesson: render early, re-check after the event.
