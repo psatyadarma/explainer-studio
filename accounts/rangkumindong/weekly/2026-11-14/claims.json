@@ -1,0 +1,470 @@
+[
+ {
+  "lines": "i1, i2, a5, d2",
+  "claim": "Two prominent people resigned this week: VP Gibran Rakabuming Raka (letter to MPR, Thu 12 Nov) and Nvidia CEO Jensen Huang (12 Nov US time / Thu night WIB).",
+  "numbers": "12 Nov 2026",
+  "sensitivity": "high",
+  "status": "verified (E0763, E0786)",
+  "sources": [
+   "https://www.cnnindonesia.com/nasional/20261112101220-32-1426208/gibran-akhirnya-resmi-serahkan-surat-pengunduran-diri-ke-mpr",
+   "https://inet.detik.com/business/d-8750617/resmi-jensen-huang-resign-dari-ceo-nvidia",
+   "https://techcrunch.com/2026/11/12/nvidias-jensen-huang-resigns-chipmaker-names-cfo-colette-kress-as-interim-ceo/"
+  ]
+ },
+ {
+  "lines": "i2, b1-b3",
+  "claim": "Kapolri laid out the roles of the suspects, incl. ex-Kapolri Listyo Sigit, at a Komisi III DPR hearing on Thu 12 Nov.",
+  "numbers": "12 Nov 2026",
+  "sensitivity": "high",
+  "status": "verified (E0775)",
+  "sources": [
+   "https://www.cnnindonesia.com/nasional/20261112134056-12-1426384/kapolri-listyo-sigit-diduga-sebagai-end-user-penyadapan-prabowo",
+   "https://news.detik.com/berita/d-8748836/komisi-iii-dpr-rapat-dengan-kapolri-besok-bahas-kasus-penyadapan-prabowo"
+  ]
+ },
+ {
+  "lines": "i4, g5-g6",
+  "claim": "Bank Indonesia RDG on 17–18 Nov 2026 (open loop: 'rapat yang bisa ikut menentukan bunga cicilanmu').",
+  "numbers": "17–18 Nov 2026",
+  "sensitivity": "normal",
+  "status": "verified (E0040, E0601)",
+  "sources": [
+   "https://www.kabarbursa.com/makro/bank-indonesia-rilis-agenda-rdg-bulanan-2026",
+   "https://investor.id/macroeconomy/460342/rupiah-tertekan-bi-diprediksi-naikkan-birate-ke-6-pada-november"
+  ]
+ },
+ {
+  "lines": "a1",
+  "claim": "We covered the Gibran story on Wed 11 Nov (PART 1) and Thu 12 Nov (PART 2).",
+  "numbers": "",
+  "sensitivity": "normal",
+  "status": "verified (covered.csv / video-log)",
+  "sources": []
+ },
+ {
+  "lines": "a2",
+  "claim": "Tuesday 10 Nov, the MA released its full ruling (742 K/TUN/2026) voiding the SMA-equivalency certificate (suket) Gibran used for the 2024 election and ordering it revoked.",
+  "numbers": "742 K/TUN/2026 · 10 Nov 2026",
+  "sensitivity": "high",
+  "status": "verified (E0707); NOTE: PART 1 claims date the MA ruling 30 Okt; the script only says the full ruling was released Tuesday (Kompas 10 Nov)",
+  "sources": [
+   "https://nasional.kompas.com/read/2026/11/10/17034371/ma-rilis-putusan-lengkap-perintahkah-kemendikdasmen-cabut-suket-penyetaraan",
+   "https://news.detik.com/berita/d-8747104/putusan-mk-jadi-pertimbangan-ma-batalkan-suket-ijazah-sma-gibran"
+  ]
+ },
+ {
+  "lines": "a3",
+  "claim": "Tuesday 10 Nov (morning meeting, ~2,5 h; announced in the afternoon), per Mensesneg Prasetyo Hadi, Gibran told President Prabowo of his intention to resign.",
+  "numbers": "10 Nov ~15.22 WIB",
+  "sensitivity": "high",
+  "status": "verified (E0700, E0708) — FIX applied: 'Selasa' (not 'Selasa sore')",
+  "sources": [
+   "https://www.cnnindonesia.com/nasional/20261110152027-32-1425457/pernyataan-lengkap-istana-soal-permohonan-gibran-untuk-mundur",
+   "https://cnbcindonesia.com/news/20261110152057-4-783938/breaking-news-wapres-gibran-ajukan-pengunduran-diri-kepada-prabowo"
+  ]
+ },
+ {
+  "lines": "a4",
+  "claim": "Wed 11 Nov, 120 DPR members from 8 factions formally submitted the HMP (hak menyatakan pendapat) proposal on VP Gibran; HMP is the DPR route that can lead to impeachment (DPR → MK → MPR).",
+  "numbers": "120 anggota · 8 fraksi · 11 Nov",
+  "sensitivity": "high",
+  "status": "verified (E0730; PART 1 claims)",
+  "sources": [
+   "https://www.cnnindonesia.com/nasional/20261111133951-32-1425862/8-fraksi-dpr-resmi-serahkan-hak-menyatakan-pendapat-soal-wapres-gibran",
+   "https://news.detik.com/berita/d-8748329/usul-hmp-pemakzulan-gibran-dibawa-ke-paripurna-dpr-besok",
+   "https://katadata.co.id/berita/nasional/6ac761230211a/putusan-mk-buka-ruang-pemakzulan-gibran-bagaimana-mekanismenya"
+  ]
+ },
+ {
+  "lines": "a5",
+  "claim": "Thu 12 Nov (around 11.16 WIB), Gibran handed his resignation letter to MPR Chairman Ahmad Muzani; per Muzani, the same letter had been delivered to the President.",
+  "numbers": "12 Nov 2026 · ~11.16 WIB",
+  "sensitivity": "high",
+  "status": "verified (E0763; PART 2 claims)",
+  "sources": [
+   "https://www.cnnindonesia.com/nasional/20261112101220-32-1426208/gibran-akhirnya-resmi-serahkan-surat-pengunduran-diri-ke-mpr",
+   "https://kupang.antaranews.com/berita/205419/mpr-menindaklanjuti-surat-pengunduran-diri-gibran"
+  ]
+ },
+ {
+  "lines": "a6",
+  "claim": "The 12 Nov 14.00 WIB DPR plenary to announce the HMP proposal was cancelled; proposer Muhammad Khozin (PKB) said the proposal is no longer relevant.",
+  "numbers": "14.00 WIB · 12 Nov",
+  "sensitivity": "high",
+  "status": "verified (E0764; PART 2 claims)",
+  "sources": [
+   "https://www.cnnindonesia.com/nasional/20261112121251-32-1426289/wapres-gibran-mundur-paripurna-dpr-terkait-pemakzulan-dibatalkan",
+   "https://mataram.antaranews.com/berita/582135/gibran-mundur-paripurna-bahas-pemakzulan-mendadak-batal",
+   "https://news.detik.com/berita/d-8749724/gibran-resmi-mundur-dari-wapres-sidang-paripurna-hmp-pemakzulan-batal"
+  ]
+ },
+ {
+  "lines": "a7, g3",
+  "claim": "Muzani: from 12 Nov the VP post is vacant; MPR has at most 60 days to fill it. Per MPR deputy Bambang Wuryanto (estimate, not a decision), the vote may fall ~23 Nov–4 Des; the 2 names are due ≥14 days before the paripurna, so no VP before 16 Nov.",
+  "numbers": "≤60 hari sejak 12 Nov",
+  "sensitivity": "high",
+  "status": "verified (E0763, E0777)",
+  "sources": [
+   "https://www.liputan6.com/news/read/8333949/ketua-mpr-sejak-hari-ini-jabatan-wapres-alami-kekosongan",
+   "https://news.detik.com/berita/d-8749568/mpr-akan-kirim-surat-minta-prabowo-setor-2-nama-cawapres-pengganti-gibran"
+  ]
+ },
+ {
+  "lines": "a8",
+  "claim": "A replacement VP is not elected by popular vote: the President proposes two candidates and MPR members elect one (UUD 1945 Pasal 8 ayat 2).",
+  "numbers": "2 calon",
+  "sensitivity": "high",
+  "status": "verified (PART 2 claims)",
+  "sources": [
+   "https://www.cnnindonesia.com/nasional/20261112132242-32-1426346/tahapan-lengkap-mpr-tetapkan-wapres-baru-dalam-60-hari",
+   "https://www.wipo.int/wipolex/en/text/495019"
+  ]
+ },
+ {
+  "lines": "a9",
+  "claim": "MPR rapat gabungan scheduled Fri 13 Nov 14.00 WIB to set the plenary date and send the President a letter asking for two names (also: verification team, ad hoc team). RECHECK after 14.00 WIB.",
+  "numbers": "13 Nov 14.00 WIB",
+  "sensitivity": "high",
+  "status": "verified as scheduled (E0778); outcome pending",
+  "sources": [
+   "https://www.cnnindonesia.com/nasional/20261112140704-32-1426385/mpr-rapat-gabungan-bahas-jadwal-paripurna-wapres-pengganti-gibran-esok",
+   "https://sumbar.antaranews.com/berita/789223/mpr-gelar-rapat-gabungan-bahas-pengisian-jabatan-wapres-besok"
+  ]
+ },
+ {
+  "lines": "a10, g2",
+  "claim": "Per Menko Yusril, Prabowo travels abroad 'kalau tidak salah sampai tanggal 14 atau 16' Nov (uncertain end date, no start date/destination) while the VP post is vacant; no acting VP (Plt).",
+  "numbers": "s.d. 14 atau 16 Nov",
+  "sensitivity": "medium",
+  "status": "verified wording (factcheck FIX 1)",
+  "sources": [
+   "https://liputan6.com/news/read/8334294/prabowo-ke-luar-negeri-saat-kursi-wapres-kosong-yusril-tak-ada-plt",
+   "https://www.suara.com/news/2026/11/12/191454"
+  ]
+ },
+ {
+  "lines": "a12",
+  "claim": "As of writing (Fri 13 Nov morning WITA), the two VP candidate names had not been officially announced. RECHECK after 14.00 WIB and before render.",
+  "numbers": "",
+  "sensitivity": "high",
+  "status": "verified as of writing (no event in DB); time-stamped on screen",
+  "sources": [
+   "https://www.cnnindonesia.com/nasional/20261112140704-32-1426385/mpr-rapat-gabungan-bahas-jadwal-paripurna-wapres-pengganti-gibran-esok"
+  ]
+ },
+ {
+  "lines": "b2-b3",
+  "claim": "Kapolri Jenderal Suyudi Ario Seto told Komisi III that ex-Kapolri Listyo Sigit Prabowo is allegedly the 'end user' who set wiretap targets (incl. President Prabowo) and received the results.",
+  "numbers": "12 Nov 2026",
+  "sensitivity": "high",
+  "status": "verified (E0775)",
+  "sources": [
+   "https://www.cnnindonesia.com/nasional/20261112134056-12-1426384/kapolri-listyo-sigit-diduga-sebagai-end-user-penyadapan-prabowo"
+  ]
+ },
+ {
+  "lines": "b4",
+  "claim": "Police seized 15 phones, 7 flash drives, 2 iPads and other devices (4 CPU/PC/laptop, 1 modem).",
+  "numbers": "15 · 7 · 2",
+  "sensitivity": "high",
+  "status": "verified (E0776)",
+  "sources": [
+   "https://www.cnnindonesia.com/nasional/20261112122808-12-1426295/kasus-penyadapan-prabowo-rumah-listyo-sigit-digeledah-bareskrim"
+  ]
+ },
+ {
+  "lines": "b5",
+  "claim": "Per Kapolri (detik list), other tapping victims include ministries/agencies, DPR and parties, KPK, Kejaksaan and activists (among others).",
+  "numbers": "",
+  "sensitivity": "high",
+  "status": "verified — FIX applied: 'media' removed, 'DPR dan partai'",
+  "sources": [
+   "https://news.detik.com/berita/d-8750586/respons-kpk-usai-disebut-kapolri-jadi-korban-penyadapan-listyo-cs"
+  ]
+ },
+ {
+  "lines": "b6",
+  "claim": "Six Monitoring Center staff applied to LPSK for protection (request filed 6 Nov).",
+  "numbers": "6 saksi",
+  "sensitivity": "high",
+  "status": "verified (E0776)",
+  "sources": [
+   "https://www.cnnindonesia.com/nasional/20261112125543-12-1426328/kapolri-6-saksi-ajukan-permohonan-ke-lpsk-merupakan-tim-monitoring"
+  ]
+ },
+ {
+  "lines": "b7",
+  "claim": "Polri: the officer identified as TK is a Brigjen now examined by Propam.",
+  "numbers": "",
+  "sensitivity": "high",
+  "status": "verified (E0793)",
+  "sources": [
+   "https://news.detik.com/berita/d-8750744/polri-ungkap-sosok-tk-di-kasus-penyadapan-berpangkat-brigjen-kini-diperiksa-propam",
+   "https://www.tribunnews.com/nasional/7910799/sosok-tk-di-kasus-penyadapan-presiden-ternyata-seorang-brigjen-kini-diperiksa-propam"
+  ]
+ },
+ {
+  "lines": "b8",
+  "claim": "Per Kapolri: Listyo detained until 23 Nov 2026; Irjen Slamet Uliandi under house arrest (since 11 Nov).",
+  "numbers": "23 Nov · tahanan rumah",
+  "sensitivity": "high",
+  "status": "verified (E0775); note E0793 still says 'not detained' — script follows Kapolri 12 Nov",
+  "sources": [
+   "https://www.cnnindonesia.com/nasional/20261112134056-12-1426384/kapolri-listyo-sigit-diduga-sebagai-end-user-penyadapan-prabowo",
+   "https://www.cnnindonesia.com/nasional/20261112145802-12-1426430/kapolri-sebut-irjen-slamet-uliandi-jadi-tahanan-rumah-kasus-penyadapan"
+  ]
+ },
+ {
+  "lines": "b9, g4",
+  "claim": "Polri: Irjen Ahrie Sonta Nasution already received PTDH from a KKEP ethics panel; Listyo, Eko Hadi Santoso and Slamet Uliandi face an ethics hearing next week (no firm date).",
+  "numbers": "PTDH · 3 jenderal · pekan depan",
+  "sensitivity": "high",
+  "status": "verified (E0744, E0761)",
+  "sources": [
+   "https://news.detik.com/berita/d-8747375/polri-pastikan-listyo-sigit-bakal-sidang-etik-tak-ada-perlakuan-istimewa",
+   "https://www.cnnindonesia.com/nasional/20261111084300-12-1425713/sidang-etik-listyo-dkk-di-kasus-penyadapan-bakal-dilanjut-pekan-depan",
+   "https://www.suara.com/news/2026/11/11/152555/susul-ahrie-sonta-yang-kena-ptdh-nasib-jenderal-listyo-sigit-segera-ditentukan-majelis-kkep"
+  ]
+ },
+ {
+  "lines": "c1, g0",
+  "claim": "MSCI announced its November 2026 index review on Thu 12 Nov, dini hari WIB.",
+  "numbers": "12 Nov",
+  "sensitivity": "normal",
+  "status": "verified (E0732, E0767)",
+  "sources": [
+   "https://www.cnbcindonesia.com/market/20261112172028-17-784750/terdepak-dari-indeks-msci-begini-nasib-saham-brpt-raja-hingga-wifi",
+   "https://investasi.kontan.co.id/news/hasil-review-msci-saham-brpt-brms-dicoret-dari-msci-global-standard-index"
+  ]
+ },
+ {
+  "lines": "c2-c3",
+  "claim": "BRPT removed from MSCI Global Standard; BRMS moved to Small Cap; 7 stocks deleted from Small Cap (AVIA, CTRA, MTEL, EMTK, JSMR, RAJA, WIFI); effective after close Mon 30 Nov.",
+  "numbers": "1 out · 1 down · 7 dicoret · 30 Nov",
+  "sensitivity": "normal",
+  "status": "verified (E0767)",
+  "sources": [
+   "https://www.cnbcindonesia.com/market/20261112172028-17-784750/terdepak-dari-indeks-msci-begini-nasib-saham-brpt-raja-hingga-wifi",
+   "https://investasi.kontan.co.id/news/hasil-review-msci-saham-brpt-brms-dicoret-dari-msci-global-standard-index"
+  ]
+ },
+ {
+  "lines": "c4, i2",
+  "claim": "IHSG rose 2,66% on Thu 12 Nov to close around 5.250 (CNBC: 5.250,90).",
+  "numbers": "+2,66% · ~5.250",
+  "sensitivity": "normal",
+  "status": "verified (E0768)",
+  "sources": [
+   "https://www.cnbcindonesia.com/market/20261112172028-17-784750/terdepak-dari-indeks-msci-begini-nasib-saham-brpt-raja-hingga-wifi",
+   "https://www.suara.com/bisnis/2026/11/12/170413/euforia-investor-setelah-gibran-mundur-ihsg-ditutup-melesat-266"
+  ]
+ },
+ {
+  "lines": "c5",
+  "claim": "Per Phintraco Sekuritas analyst (quoted by Suara), Gibran's resignation eased political tension; other factors too, e.g. the rice-stock guarantee ahead of year-end.",
+  "numbers": "",
+  "sensitivity": "medium",
+  "status": "verified (factcheck FIX 4)",
+  "sources": [
+   "https://www.suara.com/bisnis/2026/11/12/170413/euforia-investor-setelah-gibran-mundur-ihsg-ditutup-melesat-266"
+  ]
+ },
+ {
+  "lines": "chart only (ch 3)",
+  "claim": "IHSG closes: 6 Nov (Fri) — CHECK; 9 Nov 5.073,77; 10 Nov 5.125,73 (+1,02%); 11 Nov 5.115,04 (−0,21%); 12 Nov ~5.250,90 (+2,66%).",
+  "numbers": "see claim",
+  "sensitivity": "normal",
+  "status": "verified except 6 Nov (not in DB; drop the point if not found)",
+  "sources": [
+   "https://www.cnbcindonesia.com/market/20261110151333-17-783935/ihsg-berakhir-di-zona-hijau-menguat-102-ke-512573",
+   "https://www.cnbcindonesia.com/market/20261111153604-17-784340/ihsg-ditutup-melemah-021-ke-511504-jelang-pengumuman-msci"
+  ]
+ },
+ {
+  "lines": "c7",
+  "claim": "BEI widened the HSC list from 83 to 383 stocks (+300) and excludes them from IHSG calculation from Fri 13 Nov; HSC = 10 or fewer holders own ≥92,5%; added stocks ~6,16% of IHSG weight.",
+  "numbers": "300 · 383 · 13 Nov",
+  "sensitivity": "normal",
+  "status": "verified (E0733)",
+  "sources": [
+   "https://cnnindonesia.com/ekonomi/20261111121030-92-1425807/bei-bakal-depak-300-saham-hsc-dari-ihsg-jumat-ini",
+   "https://www.antaranews.com/berita/5845887/bei-keluarkan-300-saham-hsc-mulai-jumat-ini"
+  ]
+ },
+ {
+  "lines": "c8",
+  "claim": "Rupiah weakened on Thu 12 Nov to above Rp18.200 per USD (close Rp18.216 per Suara, Rp18.239 per Owrite); 11 Nov close Rp18.149.",
+  "numbers": "> Rp18.200",
+  "sensitivity": "normal",
+  "status": "verified (E0769, E0735) — range phrasing avoids the source gap",
+  "sources": [
+   "https://www.suara.com/bisnis/2026/11/12/170413/euforia-investor-setelah-gibran-mundur-ihsg-ditutup-melesat-266",
+   "https://www.owrite.id/ekbis/2026/11/12/rupiah-ditutup-amblas-rp18-239-per-dolar-as-ihsg-naik-ke-level-5-250/",
+   "https://investasi.kontan.co.id/news/rupiah-ditutup-melemah-ke-rp-18149-per-dolar-as-hari-ini-1111"
+  ]
+ },
+ {
+  "lines": "c9",
+  "claim": "BI attributed rupiah weakness to Fed hike expectations, a strong dollar, MSCI worries and year-end dollar demand, and said it is intervening (NDF, DNDF, spot, SBN).",
+  "numbers": "",
+  "sensitivity": "normal",
+  "status": "verified (E0769)",
+  "sources": [
+   "https://finance.detik.com/bursa-dan-valas/d-8749475/bi-ungkap-biang-kerok-dolar-as-tembus-rp-18-200",
+   "https://www.cnbcindonesia.com/research/20261111155943-128-784353/dolar-mengamuk-saat-ri-diguncang-drama-msci-isu-mundurnya-gibran"
+  ]
+ },
+ {
+  "lines": "d1",
+  "claim": "We covered the Nvidia board probe on Tue 10 Nov.",
+  "numbers": "",
+  "sensitivity": "normal",
+  "status": "verified (covered.csv)",
+  "sources": []
+ },
+ {
+  "lines": "d2-d3",
+  "claim": "Jensen Huang, who co-founded Nvidia in 1993, resigned immediately as CEO, president and board member; CFO Colette Kress named interim CEO.",
+  "numbers": "1993 · 12 Nov",
+  "sensitivity": "high",
+  "status": "verified (E0786)",
+  "sources": [
+   "https://inet.detik.com/business/d-8750617/resmi-jensen-huang-resign-dari-ceo-nvidia",
+   "https://techcrunch.com/2026/11/12/nvidias-jensen-huang-resigns-chipmaker-names-cfo-colette-kress-as-interim-ceo/",
+   "https://www.cnn.com/2026/11/12/tech/jensen-huang-nvidia-resigns"
+  ]
+ },
+ {
+  "lines": "d4, d6",
+  "claim": "On 8 Nov, in an email to staff, Huang admitted an extramarital relationship with Alice Huang; the same day Nvidia's board formed an independent-director committee to investigate.",
+  "numbers": "8 Nov",
+  "sensitivity": "high",
+  "status": "verified (E0684, E0716; 10 Nov video claims)",
+  "sources": [
+   "https://www.aljazeera.com/news/2026/11/8/us-chipmaker-nvidia-investigates-ceo-jensen-huang-over-affair",
+   "https://www.cnbcindonesia.com/tech/20261109111306-37-783480/kejayaan-nvidia-runtuh-seketika-setelah-ceo-mengaku-selingkuh"
+  ]
+ },
+ {
+  "lines": "d5",
+  "claim": "US media allege Alice Huang is linked to Chinese intelligence (allegation, not a finding); China denies spying claims.",
+  "numbers": "",
+  "sensitivity": "high",
+  "status": "verified (10 Nov video claims)",
+  "sources": [
+   "https://www.aljazeera.com/news/2026/11/8/us-chipmaker-nvidia-investigates-ceo-jensen-huang-over-affair",
+   "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/30/china-dismisses-us-report-of-suspected-spy-targeting-nvidia-ceo-jensen-huang-as-groundless",
+   "https://inet.detik.com/cyberlife/d-8745299/ceo-nvidia-akui-perselingkuhan-china-tepis-tuduhan-mata-mata"
+  ]
+ },
+ {
+  "lines": "d7",
+  "claim": "On Monday 9 Nov US time, Trump said the FBI was also investigating the relationship; the same day shareholders filed a class action (San Jose).",
+  "numbers": "",
+  "sensitivity": "high",
+  "status": "verified (factcheck FIX 2: Mon 9 Nov US, not Wed)",
+  "sources": [
+   "https://www.cnbcindonesia.com/tech/20261111112712-37-784191/fbi-sampai-turun-tangan-usut-skandal-perselingkuhan-ceo-nvidia",
+   "https://katadata.co.id/digital/teknologi/6af29fe43a6d7/trump-dan-xi-jinping-akan-bertemu-isu-mata-mata-cina-di-nvidia-jadi-sorotan",
+   "https://www.itv.com/news/2026-11-10/"
+  ]
+ },
+ {
+  "lines": "d8",
+  "claim": "Huang resigned hours after a WSJ report that the board was weighing his future.",
+  "numbers": "",
+  "sensitivity": "high",
+  "status": "verified (E0786)",
+  "sources": [
+   "https://techcrunch.com/2026/11/12/nvidias-jensen-huang-resigns-chipmaker-names-cfo-colette-kress-as-interim-ceo/",
+   "https://www.cnn.com/2026/11/12/tech/jensen-huang-nvidia-resigns"
+  ]
+ },
+ {
+  "lines": "d9",
+  "claim": "Nvidia makes the chips behind the AI boom; its market value is about US$4 trillion and fell below that after Huang resigned.",
+  "numbers": "≈US$4 triliun",
+  "sensitivity": "normal",
+  "status": "verified (factcheck FIX 3)",
+  "sources": [
+   "https://www.bloomberg.com/news/articles/2026-11-12/nvidia-market-value-sinks-below-4-trillion-after-huang-resigns",
+   "https://inet.detik.com/business/d-8750617/resmi-jensen-huang-resign-dari-ceo-nvidia"
+  ]
+ },
+ {
+  "lines": "e1",
+  "claim": "We covered Binance and Ledger hacks on 2–3 Nov (and the weekly/7 Nov).",
+  "numbers": "",
+  "sensitivity": "normal",
+  "status": "verified (covered.csv)",
+  "sources": []
+ },
+ {
+  "lines": "e2",
+  "claim": "Per Quartz and crypto.news, Binance said it has finished covering all of the ~US$6,3 billion stolen in the 29 Oct hack; new proof-of-reserves pending.",
+  "numbers": "~US$6,3 miliar",
+  "sensitivity": "medium",
+  "status": "partial (E0792, headlines) — earlier reports: 90–95% covered (1–2 Nov). Fact-checker: read the articles; fallback text 'hampir seluruh'",
+  "sources": [
+   "https://qz.com/binance-covers-stolen-crypto-hack-losses-111226",
+   "https://crypto.news/binance-hack-assets-covered-proof-of-reserves/",
+   "https://thedailyrecord.com/2026/11/02/binance-covers-95-percent-crypto-hack-north-korean/"
+  ]
+ },
+ {
+  "lines": "e3-e4",
+  "claim": "Ledger numbers now clearer: per CNBC Indonesia citing CoinDesk, more than US$93 million (more than Rp1,6 T) drained from hundreds of wallets linked to Ledger devices from one reseller (CryptoBilis); Ledger confirmed at least one device had an unauthorized implant. Drain first disclosed 9–11 Okt.",
+  "numbers": ">US$93 juta · >Rp1,6 T",
+  "sensitivity": "medium",
+  "status": "verified (factcheck FIX 6)",
+  "sources": [
+   "https://www.cnbcindonesia.com/tech/20261111090311-37-784123/hacker-curi-rp-18-triliun-dari-dompet-kripto-dijual-di-indonesia",
+   "https://www.helpnetsecurity.com/2026/10/12/ledger-wallets-compromised-via-hardware-implant/"
+  ]
+ },
+ {
+  "lines": "e5",
+  "claim": "GitHub was inaccessible in Indonesia for about 4 hours; Komdigi said IPs blocked at a government agency's request over suspected malware were also used by GitHub; since removed.",
+  "numbers": "~4 jam",
+  "sensitivity": "normal",
+  "status": "verified (E0683)",
+  "sources": [
+   "https://www.cnbcindonesia.com/tech/20261109072015-37-783362/komdigi-beberkan-alasan-github-sempat-diblokir-selama-4-jam",
+   "https://inet.detik.com/law-and-policy/d-8744240/github-sempat-diblokir-di-indonesia-komdigi-ungkap-penyebabnya"
+  ]
+ },
+ {
+  "lines": "e6",
+  "claim": "BNI closes BNI Mobile Banking in stages from 30 Nov 2026, full end 21 Dec 2026; replacement app wondr by BNI.",
+  "numbers": "30 Nov · 21 Des",
+  "sensitivity": "normal",
+  "status": "verified (E0740, E0758)",
+  "sources": [
+   "https://www.cnnindonesia.com/ekonomi/20261111120209-78-1425801/bni-tutup-layanan-mobile-banking-bertahap-mulai-30-november-2026",
+   "https://keuangan.kontan.co.id/news/bni-bakal-tutup-layanan-bni-mobile-banking-30-november-dan-21-desember-2026"
+  ]
+ },
+ {
+  "lines": "g6",
+  "claim": "BI-Rate is 5,75%; some economists expect a rise to 6% at the November RDG. A rate rise can feed into loan rates, usually with a lag (general mechanism, no number).",
+  "numbers": "5,75% → 6% (perkiraan)",
+  "sensitivity": "normal",
+  "status": "verified (E0735, E0601) — forecasts from Oct; fact-checker: refresh with a this-week preview",
+  "sources": [
+   "https://investor.id/macroeconomy/460342/rupiah-tertekan-bi-diprediksi-naikkan-birate-ke-6-pada-november",
+   "https://finansial.bisnis.com/read/20261021/11/2014377/bi-rate-diproyeksi-naik-ke-6-rupiah-dan-arus-modal-asing-jadi-pertimbangan",
+   "https://investasi.kontan.co.id/news/rupiah-ditutup-melemah-ke-rp-18149-per-dolar-as-hari-ini-1111"
+  ]
+ },
+ {
+  "lines": "g7",
+  "claim": "Menaker Yassierli: internal discussion of UMP 2027 targeted to finish in November.",
+  "numbers": "",
+  "sensitivity": "normal",
+  "status": "verified (E0423)",
+  "sources": [
+   "https://www.detik.com/sumut/berita/d-8726331/ump-2027-ditargetkan-rampung-akhir-november",
+   "https://katadata.co.id/berita/nasional/6ae076253350b/ump-2027-mulai-bergulir-menaker-target-pembahasan-internal-tuntas-november"
+  ]
+ }
+]

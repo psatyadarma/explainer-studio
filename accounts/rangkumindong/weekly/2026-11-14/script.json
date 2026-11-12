@@ -1,0 +1,423 @@
+{
+ "title": "Rangkumin Seminggu",
+ "dates": "7–13 Nov 2026",
+ "episode": 4,
+ "direction": "[clear, steady weekly recap; neutral, attributed]",
+ "voice": "male:Pratama",
+ "format": "weekly",
+ "hook_style": "question_reveal",
+ "chapters": [
+  {
+   "n": 0,
+   "kicker": "INTRO",
+   "title": "Minggu ini",
+   "lines": [
+    {
+     "id": "i1",
+     "tag": "[energetic]",
+     "text": "Seminggu, dua orang penting mundur. Kamu ketinggalan?"
+    },
+    {
+     "id": "i2",
+     "tag": "[quick, building]",
+     "text": "Wapres Gibran, dan bos Nvidia, Jensen Huang. Kapolri buka peran mantan Kapolri di DPR. IHSG melonjak 2,66 persen.",
+     "say": "Wapres Gibran, dan bos Nvidia, Jensen Huang. Kapolri buka peran mantan Kapolri, di DPR. I H S G melonjak dua koma enam enam persen."
+    },
+    {
+     "id": "i3",
+     "tag": "[quick, playful]",
+     "text": "Plus: kabar kripto, GitHub, dan aplikasi bank yang mau tutup."
+    },
+    {
+     "id": "rd",
+     "tagline": true,
+     "text": "Rangkumin dong!"
+    },
+    {
+     "id": "i4",
+     "tag": "[friendly]",
+     "text": "Ini Rangkumin Seminggu, 7 sampai 13 November. Di akhir: tanggal-tanggal minggu depan, termasuk satu rapat yang bisa ikut menentukan bunga cicilanmu.",
+     "say": "Ini Rangkumin Seminggu, tujuh sampai tiga belas November. Di akhir: tanggal-tanggal minggu depan, termasuk satu rapat yang bisa ikut menentukan bunga cicilanmu."
+    }
+   ]
+  },
+  {
+   "n": 1,
+   "kicker": "BAB 1",
+   "title": "Wapres Gibran mundur",
+   "badge": "PART 3",
+   "lines": [
+    {
+     "id": "a1",
+     "tag": "[serious]",
+     "text": "Rabu dan Kamis, kami bahas ini dua kali. Ringkasnya, dalam tiga hari."
+    },
+    {
+     "id": "a2",
+     "tag": "[explaining]",
+     "text": "Selasa, MA merilis putusan lengkap: surat keterangan penyetaraan SMA yang dipakai Gibran untuk Pemilu 2024 dibatalkan.",
+     "say": "Selasa, M A merilis putusan lengkap: surat keterangan penyetaraan es em a yang dipakai Gibran untuk Pemilu dua ribu dua puluh empat, dibatalkan."
+    },
+    {
+     "id": "a3",
+     "tag": "[neutral]",
+     "text": "Selasa, kata Mensesneg Prasetyo Hadi, Gibran menyampaikan niat mundur kepada Presiden Prabowo."
+    },
+    {
+     "id": "a4",
+     "tag": "[matter-of-fact]",
+     "text": "Rabu, 120 anggota DPR dari 8 fraksi resmi mengusulkan hak menyatakan pendapat, atau HMP. Jalan yang bisa berujung pemakzulan.",
+     "say": "Rabu, seratus dua puluh anggota DPR dari delapan fraksi, resmi mengusulkan hak menyatakan pendapat, atau, ha em pe. Jalan yang bisa berujung pemakzulan."
+    },
+    {
+     "id": "a5",
+     "tag": "[serious]",
+     "text": "Lalu Kamis siang, Gibran menyerahkan surat pengunduran diri ke Ketua MPR Ahmad Muzani. Menurut Muzani, surat yang sama juga sudah disampaikan ke Presiden.",
+     "say": "Lalu Kamis siang, Gibran menyerahkan surat pengunduran diri, ke Ketua em pe er, Ahmad Muzani. Menurut Muzani, surat yang sama juga sudah disampaikan ke Presiden."
+    },
+    {
+     "id": "a6",
+     "tag": "[matter-of-fact]",
+     "text": "Paripurna DPR pukul 14.00, yang mau mengumumkan usul HMP, dibatalkan. Kata salah satu pengusul, usul itu tak relevan lagi.",
+     "say": "Paripurna DPR pukul dua siang, yang mau mengumumkan usul, ha em pe, dibatalkan. Kata salah satu pengusul, usul itu tak relevan lagi."
+    },
+    {
+     "id": "a7",
+     "tag": "[explaining]",
+     "text": "Kata Muzani: sejak Kamis, jabatan wapres kosong. MPR punya waktu paling lama 60 hari untuk mengisinya.",
+     "say": "Kata Muzani: sejak Kamis, jabatan wapres kosong. em pe er punya waktu paling lama enam puluh hari, untuk mengisinya."
+    },
+    {
+     "id": "a8",
+     "tag": "[leaning in]",
+     "text": "Dan yang sering terlewat: wapres pengganti tidak dipilih lewat pemilu. Presiden mengusulkan dua nama, anggota MPR yang memilih.",
+     "say": "Dan yang sering terlewat: wapres pengganti tidak dipilih lewat pemilu. Presiden mengusulkan dua nama, anggota em pe er yang memilih."
+    },
+    {
+     "id": "a9",
+     "tag": "[clear]",
+     "text": "Langkah pertama dijadwalkan Jumat pukul 14.00 WIB: rapat gabungan MPR, untuk menetapkan jadwal paripurna dan menyurati Presiden.",
+     "say": "Langkah pertama dijadwalkan Jumat, pukul dua siang, waktu Indonesia barat: rapat gabungan em pe er, untuk menetapkan jadwal paripurna, dan menyurati Presiden."
+    },
+    {
+     "id": "a10",
+     "tag": "[matter-of-fact]",
+     "text": "Sementara itu, kata Menko Yusril, Presiden berencana ke luar negeri, kalau tidak salah sampai tanggal 14 atau 16 November. Selama itu, tidak ada pelaksana tugas wapres.",
+     "say": "Sementara itu, kata Menko Yusril, Presiden berencana ke luar negeri, kalau tidak salah sampai tanggal empat belas, atau enam belas November. Selama itu, tidak ada pelaksana tugas wapres."
+    },
+    {
+     "id": "a12",
+     "tag": "[calm]",
+     "text": "Siapa dua nama calonnya? Sampai naskah ini ditulis, Jumat pagi, belum diumumkan resmi."
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "kicker": "BAB 2",
+   "title": "Penyadapan: Kapolri di DPR",
+   "badge": "PART 4",
+   "lines": [
+    {
+     "id": "b1",
+     "tag": "[serious]",
+     "text": "Minggu lalu: empat tersangka penyadapan. Kamis ini, Kapolri bicara di depan Komisi III DPR."
+    },
+    {
+     "id": "b2",
+     "tag": "[explaining]",
+     "text": "Kata Kapolri Jenderal Suyudi Ario Seto, mantan Kapolri Listyo Sigit Prabowo diduga sebagai end user.",
+     "say": "Kata Kapolri, Jenderal Suyudi Ario Seto, mantan Kapolri Listyo Sigit Prabowo, diduga sebagai, end user."
+    },
+    {
+     "id": "b3",
+     "tag": "[explaining]",
+     "text": "Artinya, menurut Kapolri: yang menentukan target sadap, termasuk Presiden Prabowo, dan yang menerima hasilnya."
+    },
+    {
+     "id": "b4",
+     "tag": "[matter-of-fact]",
+     "text": "Yang disita, antara lain: 15 ponsel, 7 flashdisk, dan 2 iPad.",
+     "say": "Yang disita, antara lain: lima belas ponsel, tujuh flashdisk, dan dua iPad."
+    },
+    {
+     "id": "b5",
+     "tag": "[leaning in]",
+     "text": "Temuan awal, kata Kapolri: korban sadap lain ada di kementerian, DPR dan partai, KPK, kejaksaan, sampai aktivis.",
+     "say": "Temuan awal, kata Kapolri: korban sadap lain ada di kementerian, De Pe Er dan partai, Ka Pe Ka, kejaksaan, sampai aktivis."
+    },
+    {
+     "id": "b6",
+     "tag": "[matter-of-fact]",
+     "text": "Enam staf Monitoring Center mengajukan perlindungan ke LPSK.",
+     "say": "Enam staf Monitoring Center mengajukan perlindungan ke, el pe es ka."
+    },
+    {
+     "id": "b7",
+     "tag": "[explaining]",
+     "text": "Ada juga satu nama berinisial TK. Kata Polri, dia berpangkat brigjen, dan kini diperiksa Propam.",
+     "say": "Ada juga satu nama, berinisial Te Ka. Kata Polri, dia berpangkat brigjen, dan kini diperiksa Propam."
+    },
+    {
+     "id": "b8",
+     "tag": "[matter-of-fact]",
+     "text": "Status penahanan, kata Kapolri: Listyo ditahan sampai 23 November. Irjen Slamet Uliandi kini tahanan rumah.",
+     "say": "Status penahanan, kata Kapolri: Listyo ditahan sampai dua puluh tiga November. Irjen Slamet Uliandi kini tahanan rumah."
+    },
+    {
+     "id": "b9",
+     "tag": "[serious]",
+     "text": "Lalu etik. Kata Polri, Irjen Ahrie Sonta Nasution sudah dijatuhi PTDH: diberhentikan tidak dengan hormat. Tiga lainnya disidang etik pekan depan.",
+     "say": "Lalu etik. Kata Polri, Irjen Ahrie Sonta Nasution sudah dijatuhi Pe Te De Ha: diberhentikan tidak dengan hormat. Tiga lainnya disidang etik pekan depan."
+    },
+    {
+     "id": "b10",
+     "tag": "[calm]",
+     "text": "Ingat: semua ini masih keterangan polisi. Tersangka belum tentu bersalah. Yang memutuskan nanti pengadilan."
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "kicker": "BAB 3",
+   "title": "MSCI: hasilnya keluar",
+   "badge": "PART 6",
+   "lines": [
+    {
+     "id": "c1",
+     "tag": "[serious]",
+     "text": "Minggu lalu kami bilang: tunggu MSCI, Kamis dini hari. Hasilnya sudah keluar.",
+     "say": "Minggu lalu kami bilang: tunggu em es si ai, Kamis dini hari. Hasilnya sudah keluar."
+    },
+    {
+     "id": "c2",
+     "tag": "[explaining]",
+     "text": "Barito Pacific, BRPT, keluar dari indeks MSCI Global Standard. Bumi Resources Minerals, BRMS, turun ke Small Cap.",
+     "say": "Barito Pacific, be er pe te, keluar dari indeks em es si ai Global Standard. Bumi Resources Minerals, be er em es, turun ke Small Cap."
+    },
+    {
+     "id": "c3",
+     "tag": "[matter-of-fact]",
+     "text": "Tujuh saham lain dicoret dari Small Cap, termasuk CTRA, JSMR, dan MTEL. Berlaku setelah penutupan pasar 30 November.",
+     "say": "Tujuh saham lain dicoret dari Small Cap, termasuk, ce te er a, je es em er, dan em tel. Berlaku setelah penutupan pasar, tiga puluh November."
+    },
+    {
+     "id": "c4",
+     "tag": "[shocked]",
+     "text": "Reaksi pasar? Kamis, IHSG melonjak 2,66 persen, ke sekitar 5.250.",
+     "say": "Reaksi pasar? Kamis, I H S G melonjak dua koma enam enam persen, ke sekitar lima ribu dua ratus lima puluh."
+    },
+    {
+     "id": "c5",
+     "tag": "[explaining]",
+     "text": "Menurut analis Phintraco Sekuritas, dikutip Suara, mundurnya Gibran meredakan ketegangan politik. Tapi ada faktor lain juga, misalnya jaminan stok beras jelang akhir tahun."
+    },
+    {
+     "id": "c7",
+     "tag": "[explaining]",
+     "text": "Dan mulai Jumat, kata BEI, 300 saham lagi keluar dari hitungan IHSG, karena kepemilikannya terlalu terpusat. Totalnya jadi 383 saham.",
+     "say": "Dan mulai Jumat, kata Be E I, tiga ratus saham lagi keluar dari hitungan I H S G, karena kepemilikannya terlalu terpusat. Totalnya jadi tiga ratus delapan puluh tiga saham."
+    },
+    {
+     "id": "c8",
+     "tag": "[leaning in]",
+     "text": "Tapi ini yang sering terlewat: di hari IHSG melonjak, rupiah malah melemah. Kamis, di atas Rp18.200 per dolar.",
+     "say": "Tapi ini yang sering terlewat: di hari I H S G melonjak, rupiah malah melemah. Kamis, di atas delapan belas ribu dua ratus rupiah per dolar."
+    },
+    {
+     "id": "c9",
+     "tag": "[explaining]",
+     "text": "Kata BI, penyebabnya antara lain perkiraan bunga The Fed naik, dolar yang kuat, dan kebutuhan dolar akhir tahun. BI bilang sudah intervensi.",
+     "say": "Kata Be I, penyebabnya antara lain perkiraan bunga The Fed naik, dolar yang kuat, dan kebutuhan dolar akhir tahun. Be I bilang sudah intervensi."
+    },
+    {
+     "id": "c10",
+     "tag": "[calm]",
+     "text": "Ingat, ini bukan ajakan jual atau beli saham."
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "kicker": "BAB 4",
+   "title": "Bos Nvidia mundur",
+   "badge": "PART 2",
+   "lines": [
+    {
+     "id": "d1",
+     "tag": "[curious]",
+     "text": "Selasa kami bahas: bos Nvidia diselidiki dewannya sendiri. Kamis malam WIB, dia mundur.",
+     "say": "Selasa kami bahas: bos Nvidia diselidiki dewannya sendiri. Kamis malam, waktu Indonesia, dia mundur."
+    },
+    {
+     "id": "d2",
+     "tag": "[serious]",
+     "text": "Jensen Huang, pendiri Nvidia sejak 1993, mundur seketika: sebagai CEO, presiden, dan anggota dewan direksi.",
+     "say": "Jensen Huang, pendiri Nvidia sejak sembilan belas sembilan puluh tiga, mundur seketika: sebagai C E O, presiden, dan anggota dewan direksi."
+    },
+    {
+     "id": "d3",
+     "tag": "[matter-of-fact]",
+     "text": "Penggantinya untuk sementara: CFO Colette Kress.",
+     "say": "Penggantinya untuk sementara: C F O, Colette Kress."
+    },
+    {
+     "id": "d4",
+     "tag": "[explaining]",
+     "text": "Mundur ke belakang. 8 November, lewat email ke karyawan, Huang mengakui hubungan di luar nikah dengan Alice Huang.",
+     "say": "Mundur ke belakang. Delapan November, lewat email ke karyawan, Huang mengakui hubungan di luar nikah, dengan Alice Huang."
+    },
+    {
+     "id": "d5",
+     "tag": "[neutral]",
+     "text": "Media AS menyebut Alice Huang diduga terkait intelijen China. Itu dugaan, bukan temuan. China membantah."
+    },
+    {
+     "id": "d6",
+     "tag": "[matter-of-fact]",
+     "text": "Hari yang sama, dewan Nvidia membentuk komite direktur independen untuk menyelidiki."
+    },
+    {
+     "id": "d7",
+     "tag": "[explaining]",
+     "text": "Senin waktu AS, Trump bilang FBI ikut menyelidiki hubungan itu. Hari yang sama, pemegang saham mengajukan gugatan class action.",
+     "say": "Senin waktu Amerika, Trump bilang, F B I, ikut menyelidiki hubungan itu. Hari yang sama, pemegang saham mengajukan gugatan class action."
+    },
+    {
+     "id": "d8",
+     "tag": "[leaning in]",
+     "text": "Kamis, Wall Street Journal melaporkan dewan sedang menimbang nasib Huang. Beberapa jam kemudian, dia mundur."
+    },
+    {
+     "id": "d9",
+     "tag": "[explaining]",
+     "text": "Kenapa ini besar? Nvidia membuat chip yang jadi mesin di balik ledakan AI. Nilai pasarnya sekitar 4 triliun dolar, dan sempat jatuh di bawah itu setelah dia mundur.",
+     "say": "Kenapa ini besar? Nvidia membuat chip yang jadi mesin di balik ledakan A I. Nilai pasarnya sekitar empat triliun dolar, dan sempat jatuh di bawah itu, setelah dia mundur."
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "kicker": "BAB 5",
+   "title": "Kripto, GitHub & bank",
+   "badge": "PART 3",
+   "lines": [
+    {
+     "id": "e1",
+     "tag": "[curious]",
+     "text": "Dua minggu lalu, kami bahas Binance dan Ledger. Minggu ini, kelanjutannya."
+    },
+    {
+     "id": "e2",
+     "tag": "[matter-of-fact]",
+     "text": "Binance, menurut Quartz dan crypto.news, menyatakan seluruh kerugian sekitar 6,3 miliar dolar sudah ditutup. Bukti cadangan barunya masih ditunggu.",
+     "say": "Binance, menurut Quartz dan crypto dot news, menyatakan seluruh kerugian sekitar enam koma tiga miliar dolar, sudah ditutup. Bukti cadangan barunya, masih ditunggu."
+    },
+    {
+     "id": "e3",
+     "tag": "[serious]",
+     "text": "Soal Ledger, angkanya kini lebih jelas. Menurut CNBC Indonesia, mengutip CoinDesk, lebih dari 93 juta dolar, lebih dari Rp1,6 triliun, dikuras dari ratusan dompet kripto.",
+     "say": "Soal Ledger, angkanya kini lebih jelas. Menurut Ce En Be Ce Indonesia, mengutip CoinDesk, lebih dari sembilan puluh tiga juta dolar, lebih dari satu koma enam triliun rupiah, dikuras dari ratusan dompet kripto."
+    },
+    {
+     "id": "e4",
+     "tag": "[explaining]",
+     "text": "Dompet-dompet itu terkait perangkat Ledger dari satu reseller. Kata Ledger, setidaknya satu perangkat berisi sisipan komponen yang tidak sah."
+    },
+    {
+     "id": "e5",
+     "tag": "[matter-of-fact]",
+     "text": "Di sini, GitHub sempat tak bisa diakses sekitar 4 jam. Kata Komdigi, alamat IP yang diblokir karena dugaan serangan malware ternyata juga dipakai GitHub.",
+     "say": "Di sini, GitHub sempat tak bisa diakses sekitar empat jam. Kata Komdigi, alamat I P yang diblokir karena dugaan serangan malware, ternyata juga dipakai GitHub."
+    },
+    {
+     "id": "e6",
+     "tag": "[clear]",
+     "text": "Dan buat nasabah BNI: aplikasi BNI Mobile Banking mulai ditutup bertahap 30 November, lalu berhenti total 21 Desember. Penggantinya, wondr by BNI.",
+     "say": "Dan buat nasabah Be En I: aplikasi Be En I Mobile Banking mulai ditutup bertahap tiga puluh November, lalu berhenti total dua puluh satu Desember. Penggantinya, wonder bai Be En I."
+    },
+    {
+     "id": "e7",
+     "tag": "[leaning in]",
+     "text": "Tapi benang merahnya: yang kena bukan cuma sistem besar. Perangkat di tanganmu dan aplikasi di HP-mu juga bagian ceritanya."
+    },
+    {
+     "id": "e8",
+     "tag": "[reassuring]",
+     "text": "Buat kamu: beli dompet kripto dari penjual resmi, dan cek aplikasi bankmu sebelum tenggatnya."
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "kicker": "MINGGU DEPAN",
+   "title": "Catat tanggalnya",
+   "lines": [
+    {
+     "id": "g0",
+     "tag": "[friendly]",
+     "text": "Cek dulu janji minggu lalu: hasil MSCI memang keluar Kamis dini hari WIB.",
+     "say": "Cek dulu janji minggu lalu: hasil em es si ai memang keluar Kamis dini hari, waktu Indonesia."
+    },
+    {
+     "id": "g1",
+     "tag": "[friendly, brisk]",
+     "text": "Oke, minggu depan. Catat tanggalnya."
+    },
+    {
+     "id": "g2",
+     "tag": "[clear]",
+     "text": "Awal pekan, kata Yusril, Presiden masih di luar negeri, kalau tidak salah sampai 14 atau 16 November, saat kursi wapres masih kosong.",
+     "say": "Awal pekan, kata Yusril, Presiden masih di luar negeri, kalau tidak salah sampai empat belas atau enam belas November, saat kursi wapres masih kosong."
+    },
+    {
+     "id": "g3",
+     "tag": "[clear]",
+     "text": "Dari MPR: pantau jadwal paripurna pemilihan wapres, dan dua nama dari Presiden. Batasnya, paling lambat 60 hari sejak 12 November.",
+     "say": "Dari em pe er: pantau jadwal paripurna pemilihan wapres, dan dua nama dari Presiden. Batasnya, paling lambat enam puluh hari sejak dua belas November."
+    },
+    {
+     "id": "g4",
+     "tag": "[clear]",
+     "text": "Pekan depan juga, kata Polri: sidang etik Listyo Sigit dan dua jenderal lain. Tanggal pastinya belum diumumkan."
+    },
+    {
+     "id": "g5",
+     "tag": "[leaning in]",
+     "text": "Lalu Selasa dan Rabu, 17 sampai 18 November: Rapat Dewan Gubernur Bank Indonesia. Ini rapat yang kami janjikan di awal.",
+     "say": "Lalu Selasa dan Rabu, tujuh belas sampai delapan belas November: Rapat Dewan Gubernur Bank Indonesia. Ini rapat yang kami janjikan di awal."
+    },
+    {
+     "id": "g6",
+     "tag": "[explaining]",
+     "text": "BI-Rate sekarang 5,75 persen. Sebagian ekonom memperkirakan naik ke 6 persen. Kalau naik, bunga kredit, termasuk cicilan, bisa ikut naik. Tapi biasanya tidak langsung.",
+     "say": "Bi Rate sekarang lima koma tujuh lima persen. Sebagian ekonom memperkirakan naik ke enam persen. Kalau naik, bunga kredit, termasuk cicilan, bisa ikut naik. Tapi biasanya tidak langsung."
+    },
+    {
+     "id": "g7",
+     "tag": "[clear]",
+     "text": "Dan UMP 2027: kata Menaker, pembahasan internalnya ditargetkan selesai November.",
+     "say": "Dan U em pe dua ribu dua puluh tujuh: kata Menaker, pembahasan internalnya ditargetkan selesai November."
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "kicker": "OUTRO",
+   "title": "Sampai Sabtu depan",
+   "tail": 1.2,
+   "lines": [
+    {
+     "id": "o1",
+     "tag": "[warm, asking the viewer]",
+     "text": "Minggu ini banyak yang mundur dan banyak yang menunggu. Menurutmu, kabar mana yang paling terasa buat kamu? Tulis di komentar."
+    },
+    {
+     "id": "o2",
+     "tag": "[friendly, upbeat]",
+     "text": "Follow Rangkumin Dong. Rangkumin Seminggu, tiap Sabtu pagi!"
+    }
+   ]
+  }
+ ]
+}

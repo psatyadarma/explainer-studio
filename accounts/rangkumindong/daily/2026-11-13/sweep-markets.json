@@ -1,0 +1,165 @@
+{
+  "area": "markets",
+  "run_date": "2026-11-13",
+  "checked": [
+    "detikFinance front page + terpopuler (fetched)",
+    "CNBC Indonesia market/research articles (fetched via links from search)",
+    "ANTARA ekonomi (terpopuler/terkini via article page)",
+    "Bisnis.com market/ekonomi (fetch failed: client_error; only search snippets seen)",
+    "Watch list found: IHSG close and movers, MSCI results, rupiah/BI explanation, Fed/US CPI, APBN statement, Danantara/BUMN, Pertamina/fuel, HSC list, PHK (Boeing/PepsiCo, not Indonesia)",
+    "Storyline searches: msci-reclassification, rupiah (Fed/DHE), survival-mode/PHK, fuel-oil (Pertamina), gibran-ijazah-mk (market angle only)",
+    "Watch list not seen in headlines: BI rate decision (next RDG 17-18 Nov, already known E0040), BPS releases, OJK new actions, ratings"
+  ],
+  "events": [
+    {
+      "date": "2026-11-12",
+      "category": "MKT",
+      "event": "MSCI announced its November 2026 index review: Barito Pacific (BRPT) was removed from the MSCI Global Standard index and Bumi Resources Minerals (BRMS) moved down to Small Cap, while seven Indonesian stocks were deleted from Small Cap.",
+      "key_numbers": "Standard: BRPT out, BRMS to Small Cap, no Indonesian additions · Small Cap deleted: AVIA, CTRA, MTEL, EMTK, JSMR, RAJA, WIFI · 8 stocks leave coverage entirely (BRPT + 7) · effective after close Mon 30 Nov (from 1 Dec) · 12 Nov moves: MTEL -6.75%, WIFI -5.13%, BRPT -1.96% to Rp750, RAJA +2.88%, BRMS +0.67% to Rp300 · outlets count 8 vs 9 removals depending on how BRMS is counted",
+      "storyline": "msci-reclassification",
+      "update_of": "E0732",
+      "status": "verified",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/market/20261112172028-17-784750/terdepak-dari-indeks-msci-begini-nasib-saham-brpt-raja-hingga-wifi"},
+        {"label": "Kontan", "url": "https://investasi.kontan.co.id/news/hasil-review-msci-saham-brpt-brms-dicoret-dari-msci-global-standard-index"},
+        {"label": "CNBC Indonesia (11 Nov preview, dates)", "url": "https://www.cnbcindonesia.com/research/20261111155943-128-784353/dolar-mengamuk-saat-ri-diguncang-drama-msci-isu-mundurnya-gibran"}
+      ],
+      "why_it_matters": "The feared worst case (a wider purge or reclassification) did not happen, but index funds still have to sell these stocks by 30 Nov.",
+      "signals": {"spreading": 2, "wallet": 1, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "ANTARA terpopuler (MSCI ubah komposisi indeks); detik front page items 4-5; CNBC Indonesia market lead",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-12",
+      "category": "MKT",
+      "event": "The IHSG jumped 2.66% on 12 November to close around 5,250, its biggest daily gain in weeks, as the MSCI result and Vice President Gibran's resignation eased market worries.",
+      "key_numbers": "Close ~5,250 (CNBC 5,250.90; Suara +135.87 pts) · +2.66% · prior close 5,115.04 · session I +2.20% to 5,227.50 · turnover Rp11.55-11.9 trillion (sources differ) · BBRI +5.94% to Rp3,030, BMRI +3.18%, BBCA +2.82% to Rp5,475 · DEWA +10.26%, ADRO +6.06%, PTBA +6.00% · sectors: industrials +4.53%, transport +3.12%, energy +2.86% · analysts: gain not attributable to politics alone",
+      "storyline": "msci-reclassification",
+      "update_of": "E0734",
+      "status": "verified",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/market/20261112172028-17-784750/terdepak-dari-indeks-msci-begini-nasib-saham-brpt-raja-hingga-wifi"},
+        {"label": "Suara.com", "url": "https://www.suara.com/bisnis/2026/11/12/170413/euforia-investor-setelah-gibran-mundur-ihsg-ditutup-melesat-266"},
+        {"label": "CNBC Indonesia (session I)", "url": "https://www.cnbcindonesia.com/research/20261112131550-128-784634/ihsg-merah-saat-gibran-dapat-izin-ikut-pilpres-hijau-ketika-mundur"}
+      ],
+      "why_it_matters": "A 2.7% one-day jump after weeks of falls shows how much the market was pricing in political and MSCI fear.",
+      "signals": {"spreading": 2, "wallet": 1, "surprise": 2, "visual": 2, "fresh": 2, "rivals": 0},
+      "spreading_evidence": "detik terpopuler #4 (Sandiaga on IHSG after Gibran exit); several detik front-page items",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-12",
+      "category": "MKT",
+      "event": "The rupiah weakened to about Rp18,216-18,239 per US dollar on 12 November, its weakest in months, while the stock index rallied; Bank Indonesia blamed Fed hike expectations, a strong dollar, MSCI worries and year-end dollar demand, and said it is intervening.",
+      "key_numbers": "Close Rp18,216 (-0.26%, Suara) or Rp18,239 (-0.50%, Owrite) · intraday Rp18,221-18,241 · prior close ~Rp18,140-18,149 · DXY 102.96 = highest since Mar 2025 · BI: intervening via offshore NDF, DNDF, spot and secondary-market SBN purchases · BI FX reserves US$146.8 billion end-Oct · regional currencies -0.11% m/m · Suara cites a record low of Rp18,279 (unconfirmed; E0735 notes 2026 weakest close 8 Jun at Rp18,170-18,188)",
+      "storyline": "rupiah",
+      "update_of": "E0735",
+      "status": "verified",
+      "sources": [
+        {"label": "detikFinance", "url": "https://finance.detik.com/bursa-dan-valas/d-8749475/bi-ungkap-biang-kerok-dolar-as-tembus-rp-18-200"},
+        {"label": "Suara.com", "url": "https://www.suara.com/bisnis/2026/11/12/170413/euforia-investor-setelah-gibran-mundur-ihsg-ditutup-melesat-266"},
+        {"label": "Owrite", "url": "https://www.owrite.id/ekbis/2026/11/12/rupiah-ditutup-amblas-rp18-239-per-dolar-as-ihsg-naik-ke-level-5-250/"}
+      ],
+      "why_it_matters": "A weaker rupiah raises prices of imported goods, fuel and anything priced in dollars.",
+      "signals": {"spreading": 2, "wallet": 2, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "detik front page #9 and #30; Suara headline 'titik terendah sepanjang masa'; many outlets ran BI explanation",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-12",
+      "category": "MKT",
+      "event": "Vice President Gibran Rakabuming Raka handed his resignation letter to the MPR on 12 November, and markets treated it as easing political tension; the Presidential Communication Office said it would not disrupt the economy.",
+      "key_numbers": "Letter handed to MPR ~11:00 WIB 12 Nov · IHSG session I +2.20% (+112.46 pts) after resignation news · 120 DPR members from 8 factions had filed an HMP over the diploma issue (HMP alone does not remove him) · State Secretary: Gibran raised resignation intent in 2-hour meeting 10 Nov · rupiah still weakened to ~Rp18,2xx same day",
+      "storyline": "gibran-ijazah-mk",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "Kompas", "url": "https://nasional.kompas.com/read/2026/11/12/11452931/breaking-news-gibran-serahkan-surat-pengunduran-diri-sebagai-wakil-presiden"},
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/research/20261112131550-128-784634/ihsg-merah-saat-gibran-dapat-izin-ikut-pilpres-hijau-ketika-mundur"},
+        {"label": "detikFinance front page", "url": "https://finance.detik.com/"}
+      ],
+      "why_it_matters": "Who becomes the next vice president now matters to investors and the rupiah.",
+      "signals": {"spreading": 2, "wallet": 1, "surprise": 2, "visual": 1, "fresh": 2, "rivals": 0},
+      "spreading_evidence": "detik terpopuler #2-#5 all Gibran/market-related",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-10",
+      "category": "GLB",
+      "event": "Fed Governor Christopher Waller said he backs a December rate hike and that a 50 bp hike should be considered if October core inflation is 0.3% or more, which Bank Indonesia cited as a key driver of dollar strength and rupiah weakness.",
+      "key_numbers": "Waller remarks Tue 10 Nov (London) · 25 bp hike supported at 8-9 Dec FOMC; 50 bp if core CPI >=0.3% · futures ~85% odds of Dec hike (CME FedWatch cited 87-91% elsewhere) · US Oct CPI +0.4% m/m vs 0.3% forecast, core +0.3% (E0701) · Sept PCE 3.7% y/y per Kontan (E0413 says 3.6%; unreconciled) · DXY 102.96",
+      "storyline": "rupiah",
+      "update_of": "E0701",
+      "status": "verified",
+      "sources": [
+        {"label": "Kontan", "url": "https://internasional.kontan.co.id/news/pejabat-the-fed-ini-dorong-kenaikan-suku-bunga-50-basis-poin-pada-desember-2026"},
+        {"label": "detikFinance", "url": "https://finance.detik.com/bursa-dan-valas/d-8749475/bi-ungkap-biang-kerok-dolar-as-tembus-rp-18-200"},
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/research/20261111155943-128-784353/dolar-mengamuk-saat-ri-diguncang-drama-msci-isu-mundurnya-gibran"}
+      ],
+      "why_it_matters": "A US rate hike pulls money out of emerging markets and pushes the rupiah weaker, which could force BI to raise rates on 17-18 Nov.",
+      "signals": {"spreading": 1, "wallet": 2, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-11",
+      "category": "ECO",
+      "event": "President Prabowo said at the Nasdem 15th-anniversary event that the state budget loses about Rp480 trillion a year to inefficient goods-and-services procurement, and floated centralising purchasing.",
+      "key_numbers": "Rp480 trillion/year lost · Katadata: goods-and-services spending ~Rp1,200 trillion, 40% wasted per LKPP head Sarah Sadiqa; Prabowo said one-third of APBN is goods and services · detik/Tirto headlines say '30% of APBN leaks' (conflicts with Katadata's one-third x 40%) · 38 provinces + ~500 regencies buy separately · centralising could save up to ~40% but 'not soon' · draft 2027 APBN spending Rp4,106.26 trillion, deficit Rp671.16 trillion (2.4% of GDP)",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "Katadata", "url": "https://katadata.co.id/berita/nasional/6af522a6aeb0d/prabowo-sebut-apbn-bocor-rp480-triliun-per-tahun-imbas-belanja-tak-efisien"},
+        {"label": "Tirto", "url": "https://tirto.id/apbn-bocor-30-persen-prabowo-ingin-sentralisasi-pengadaan-idHl"},
+        {"label": "detikFinance front page", "url": "https://finance.detik.com/"}
+      ],
+      "why_it_matters": "Roughly Rp480 trillion is more than many ministries' yearly budgets, and the 30% vs 40% wording needs care before anyone repeats it.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 2, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "detik front page #2; many regional outlets",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-11",
+      "category": "BIZ",
+      "event": "Danantara launched PT Danareksa Investment Management Indonesia (Danareksa Investments), merging the asset managers of Mandiri, BRI, BNI and PNM, and said there will be no layoffs.",
+      "key_numbers": "Merged: Mandiri Manajemen Investasi (surviving), BRI MI, BNI AM, PNM IM · AUM Rp172.5 trillion (~US$8.5 billion), second-largest manager in Indonesia · legal effect 1 Oct 2026, launch 11 Nov · ~280 staff, no layoffs (Rosan Roeslani) · AUM target Rp200 trillion in 2027 (ANTARA), Rp350 trillion later (ANTARA headline, unchecked)",
+      "storyline": "",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "ANTARA", "url": "https://www.antaranews.com/berita/5847783/danantara-sebut-tak-ada-phk-dalam-merger-empat-manajer-investasi-bumn"},
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/market/20261111203418-17-784435/bos-danantara-ungkap-tujuan-bentuk-danareksa-investment-management"},
+        {"label": "detikFinance front page", "url": "https://finance.detik.com/"}
+      ],
+      "why_it_matters": "If you hold a mutual fund from one of these four state banks, its manager just changed hands.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 0, "visual": 1, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-12",
+      "category": "BIZ",
+      "event": "Pertamina president director Simon Aloysius Mantiri apologised to DPR Commission VI for fuel (BBM) supply and distribution disruptions that caused long queues, and promised 24-hour terminals and SPBU, more tankers and modular SPBU.",
+      "key_numbers": "Hearing Thu 12 Nov · Bali named as affected; Tribunnews headline says 'langka di 11 provinsi' (not confirmed in detik text) · cause given: Middle East conflict and Indonesia's geography, no specific incident · promises: 24-hour terminals/SPBU, extra tankers and crews, modular SPBU, higher year-end stock readiness · detik side items: Pertamina H1 2026 profit Rp34.58 trillion; planned +50,000 bpd production (unchecked)",
+      "storyline": "fuel-oil",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "detikFinance", "url": "https://finance.detik.com/energi/d-8749594/dirut-pertamina-minta-maaf-di-dpr-soal-gangguan-distribusi-bbm"},
+        {"label": "Tribunnews", "url": "https://www.tribunnews.com/bisnis/7910490/bbm-sempat-langka-di-11-provinsi-dirut-pertamina-bongkar-akar-masalahnya-di-dpr"}
+      ],
+      "why_it_matters": "People queued for fuel and the year-end demand peak is coming.",
+      "signals": {"spreading": 1, "wallet": 2, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    }
+  ],
+  "gaps": [
+    "Bisnis.com pages could not be fetched (client_error); no Bisnis most-read list seen.",
+    "Foreign net buy/sell for 12 Nov not verified (only an Investortrust headline of a Rp443.53 billion net buy in jumbo stocks); get from IDX/Kontan.",
+    "Exact scale of the Pertamina fuel shortage (Tribunnews says 11 provinces, detik names only Bali) and its cause are unverified.",
+    "Not opened: BRPT profit down ~60%, Mitratel profit Rp1.5 trillion, BYD plant protests (detik most-commented), Cakung warehouse riot, MIND ID/Saratoga HSC comment, Indonesia-China CEPA at APEC, Brent price 12 Nov.",
+    "Who the next vice president will be and the MPR timetable affect markets; left to the politics researcher."
+  ]
+}

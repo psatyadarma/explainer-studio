@@ -1,0 +1,147 @@
+{
+  "area": "national",
+  "run_date": "2026-11-13",
+  "checked": ["detik terpopuler (13 Nov 04:05 WIB)", "CNN Indonesia nasional", "Antara terkini", "CNBC Indonesia homepage (popular block did not load)", "TurnBackHoax", "storyline search: ijazah Jokowi/Puslabfor", "storyline search: penyadapan Prabowo / Brigjen TK", "storyline search: karhutla BNPB", "BMKG/banjir/longsor search", "watch-list topics found: viral police case, karhutla, hoaxes, crime/traffic, bank closures"],
+  "events": [
+    {
+      "date": "2026-11-12",
+      "category": "NEWS",
+      "event": "Polri said the officer identified only as TK in the Prabowo wiretapping case is a Brigadier General (Brigjen) now being examined by Propam, and Kapolri told Komisi III that suspect Irjen Ahrie Sonta allegedly ordered TK to carry out the surveillance.",
+      "key_numbers": "4 senior officers named suspects (Listyo Sigit Prabowo, Ahrie Sonta, Eko Hadi Santoso, Slamet Uliandi) · 3 detained at Mako Brimob Kelapa Dua · Slamet Uliandi not detained (recovering from stroke) · Sigit removed from KSP post on 4 Nov",
+      "storyline": "listyo-sigit-penyadapan",
+      "update_of": "E0761",
+      "status": "verified",
+      "sources": [
+        {"label": "detikNews", "url": "https://news.detik.com/berita/d-8750744/polri-ungkap-sosok-tk-di-kasus-penyadapan-berpangkat-brigjen-kini-diperiksa-propam"},
+        {"label": "Tribunnews", "url": "https://www.tribunnews.com/nasional/7910799/sosok-tk-di-kasus-penyadapan-presiden-ternyata-seorang-brigjen-kini-diperiksa-propam"}
+      ],
+      "why_it_matters": "The case over spying on the President now reaches a serving general, showing how deep the alleged surveillance chain goes inside Polri.",
+      "signals": {"spreading": 2, "wallet": 0, "surprise": 2, "visual": 1, "fresh": 2, "rivals": 0},
+      "spreading_evidence": "detik terpopuler #2 on 13 Nov 04:05 WIB; also covered by Tribun, Liputan6, Kumparan, Viva",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-12",
+      "category": "NEWS",
+      "event": "Polri spokesperson Brigjen Trunoyudo Wisnu Andiko said Jokowi's diploma was already forensically tested by Puslabfor, recorded in a berita acara pro justitia and handed to prosecutors, so no new test is needed, rejecting the request of Roy Suryo's team.",
+      "key_numbers": "Request letter sent 11 Nov to Jakarta Timur District Court judges · 3 comparison diplomas from Nov 1985 requested · Puslabfor result itself not disclosed",
+      "storyline": "jokowi-ijazah-roy-suryo",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "detikNews", "url": "https://news.detik.com/berita/d-8750737/polri-sebut-ijazah-jowi-sudah-diuji-puslabfor-tak-perlu-uji-lagi"},
+        {"label": "Tribunnews", "url": "https://www.tribunnews.com/nasional/7910800/polri-sebut-uji-forensik-ijazah-jokowi-rampung-permintaan-kubu-roy-suryo-untuk-tes-ulang-ditolak"}
+      ],
+      "why_it_matters": "The diploma dispute is in court and this decides whether the physical diploma gets re-examined in the Roy Suryo trial.",
+      "signals": {"spreading": 2, "wallet": 0, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 0},
+      "spreading_evidence": "detik terpopuler #1 on 13 Nov 04:05 WIB",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-12",
+      "category": "NEWS",
+      "event": "TurnBackHoax (Mafindo) rated false a video claiming the Kapolri stated foreign parties were involved in the wiretapping of President Prabowo, and a claim that Jokowi raged over Gibran being disqualified by the MK.",
+      "key_numbers": "5 [SALAH] ratings on 11-12 Nov, 4 of them political · also false: Bahlil involved in wiretapping, Titiek Soeharto agreeing to cash-out MBG",
+      "storyline": "listyo-sigit-penyadapan",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "TurnBackHoax", "url": "https://turnbackhoax.id/"}
+      ],
+      "why_it_matters": "Hoaxes are piggybacking on the wiretapping and Gibran stories, so viewers should check claims before sharing.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "TurnBackHoax front page, 4 political hoaxes in 2 days",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-11",
+      "category": "ENV",
+      "event": "BNPB stopped water-bombing operations against karhutla in South Kalimantan, citing a sharp drop in fires and heavier November rain, and shifted firefighting to ground teams.",
+      "key_numbers": "Two helicopters crashed during operations (Mi-17V5 in Seruyan, Central Kalimantan; EC225LP Super Puma in Barito River) · Earlier BNPB totals as of 8 Nov: 1,051 hotspots, 4,486 ha burned, of which Central Kalimantan 3,904 ha",
+      "storyline": "karhutla",
+      "update_of": "E0648",
+      "status": "partial",
+      "sources": [
+        {"label": "Suara.com", "url": "https://www.suara.com/news/2026/11/11/184341/bnpb-setop-water-bombing-karhutla-di-kalsel-pemadaman-dialihkan-ke-darat"},
+        {"label": "NU Online", "url": "https://www.nu.or.id/nasional/bnpb-catat-1-051-hotspot-karhutla-hanguskan-4-486-hektare-lahan-di-berbagai-wilayah-H2u1E"}
+      ],
+      "why_it_matters": "Haze season is shifting to rainy season in Kalimantan, but fires are still rising in Papua Selatan and Sultra.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-12",
+      "category": "ENV",
+      "event": "Headlines reported karhutla hotspots rising 146% in Southeast Sulawesi (BNPB deploying 35 units) while BNPB had earlier reported a 66% rise in Papua Selatan, even as Kalimantan cools down.",
+      "key_numbers": "Sultra hotspots +146% · 35 units deployed · Papua Selatan +66% (earlier report) · another report cited +94% with 342 hotspots (not reconciled)",
+      "storyline": "karhutla",
+      "update_of": "E0648",
+      "status": "partial",
+      "sources": [
+        {"label": "Journalarta (headline only, page not readable)", "url": "https://journalarta.com/news/2026/11/12/titik-api-karhutla-sultra-naik-146-persen/"},
+        {"label": "Kompas", "url": "https://nasional.kompas.com/read/2026/11/06/18502371/bnpb-titik-panas-akibat-karhutla-di-papua-selatan-naik-66-persen"}
+      ],
+      "why_it_matters": "Fires are moving east to Sulawesi and Papua after Kalimantan, so haze risk is not over.",
+      "signals": {"spreading": 0, "wallet": 0, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-11",
+      "category": "NEWS",
+      "event": "CNBC Indonesia reported that OJK has revoked the licences of 16 BPR/BPRS rural banks in 2026 up to 3 November, the latest being BPR Agritrans Batumarta in South Sumatra, with LPS chair Anggito Abimanyu blaming weak governance.",
+      "key_numbers": "16 banks closed Jan-3 Nov 2026 · by month: Jan 2, Feb 2, Mar 2, Apr 1, Jun 1, Jul 3, Aug 1, Sep 3, Nov 1 · West Java 4 closures, West Sumatra 3",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/market/20261111222450-17-784451/ada-16-bank-tumbang-per-november-2026-ini-daftar-lengkapnya"},
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/ekonomi/20261104190050-78-1423379/daftar-terbaru-bank-tutup-per-4-november-2026"}
+      ],
+      "why_it_matters": "Savers wonder whether their money is safe; LPS guarantees deposits up to Rp2 billion per customer per bank.",
+      "signals": {"spreading": 1, "wallet": 2, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "CNBC Indonesia headline list 11 Nov 22:24 WIB (popular block did not load)",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-12",
+      "category": "NEWS",
+      "event": "Yogyakarta police released 154 of 157 people detained after the 10 November protest that turned violent at the DPRD DIY office.",
+      "key_numbers": "157 detained · 154 released · 3 still held",
+      "storyline": "protests-prabowo-2-years",
+      "update_of": "E0757",
+      "status": "partial",
+      "sources": [
+        {"label": "CNN Indonesia nasional (headline)", "url": "https://www.cnnindonesia.com/nasional"}
+      ],
+      "why_it_matters": "Shows how the 10 November protest ended and how many people were actually held.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 0, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-13",
+      "category": "NEWS",
+      "event": "A 9-year-old boy died after his electric bicycle collided with a truck in Madura, a story on detik's most-read list.",
+      "key_numbers": "Age 9 · 1 death",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "detik terpopuler", "url": "https://www.detik.com/terpopuler"}
+      ],
+      "why_it_matters": "Child e-bike safety is a recurring concern for parents, but this is a single local incident with no details checked.",
+      "signals": {"spreading": 2, "wallet": 0, "surprise": 0, "visual": 0, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "detik terpopuler #3 on 13 Nov 04:05 WIB",
+      "sensitivity": "normal"
+    }
+  ],
+  "gaps": [
+    "No article opened for Madura e-bike crash or Yogyakarta releases; headline only.",
+    "Karhutla Sultra +146% and Papua Selatan figures from headlines/snippets; journalarta and rm.id pages could not be fetched; no fresh national hectare total after 8 Nov.",
+    "CNBC most-popular block did not load; kompas/X/TikTok trending not checked.",
+    "Detik list also shows Jensen Huang resigning as Nvidia CEO (detikInet) and CNBC reports Haji Isam bid for Eramet Weda Bay stake; left to the tech/business sweeps.",
+    "Kapolri naming differs between sources in the wiretapping case; only facts from the opened detik article used."
+  ]
+}

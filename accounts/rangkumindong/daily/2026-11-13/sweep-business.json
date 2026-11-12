@@ -1,0 +1,124 @@
+{
+  "area": "business",
+  "run_date": "2026-11-13",
+  "checked": ["CNBC Indonesia Tech section page", "CNN Indonesia Teknologi section page", "detik inet (via article page links)", "Katadata digital (search only, no fresh items)", "Bisnis teknologi (page fetch failed; search only)", "dailysocial (not reached)", "watch list found: AI/chips (Nvidia), consumer phone prices, Komdigi, cyber/banking threats, fintech/BI-FAST, data centres", "storyline search: crypto-hacks", "storyline slugs without files (ai-data-centres, chip-ram-prices, cyber-threats-gov, ecommerce-seller-rules): covered via section pages only"],
+  "events": [
+    {
+      "date": "2026-11-12",
+      "category": "TECH",
+      "event": "Jensen Huang resigned immediately as CEO, president and board member of Nvidia, which he co-founded in 1993, and CFO Colette Kress was named interim CEO, hours after a WSJ report that the board was weighing his future over an alleged affair with Alice Huang, reportedly suspected by US officials of being a Chinese spy.",
+      "key_numbers": "Nvidia market value above US$4 triliun · Founded 1993 · Announced 12 Nov 2026 (detik 21:14 WIB) · CNBC Indonesia: 240 ribu chip Nvidia reportedly smuggled to China (unverified)",
+      "storyline": "",
+      "update_of": "E0753",
+      "status": "verified",
+      "sources": [
+        {"label": "detikInet", "url": "https://inet.detik.com/business/d-8750617/resmi-jensen-huang-resign-dari-ceo-nvidia"},
+        {"label": "TechCrunch", "url": "https://techcrunch.com/2026/11/12/nvidias-jensen-huang-resigns-chipmaker-names-cfo-colette-kress-as-interim-ceo/"},
+        {"label": "CNN", "url": "https://www.cnn.com/2026/11/12/tech/jensen-huang-nvidia-resigns"}
+      ],
+      "why_it_matters": "The head of the company that powers the global AI boom is gone overnight, which moves AI stocks and chip supply.",
+      "signals": {"spreading": 2, "wallet": 1, "surprise": 2, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "Dominates CNBC Indonesia Tech and CNN Indonesia Teknologi lists on 12 Nov (8+ articles)",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-12",
+      "category": "TECH",
+      "event": "Counterpoint Research said Samsung led Indonesia's smartphone market in Q3 2026 with 33% share while total shipments fell 43% year on year, the third straight quarterly decline, blamed on a memory supply crunch from AI data-centre demand.",
+      "key_numbers": "Total shipments -43% YoY · Samsung 33% (from ~21%), -5% · Xiaomi 21%, -33% · Oppo 16%, -64% · Infinix 11%, -51% · Vivo 8%, -67% · Under US$150 segment 55% to 24% of market · Above US$700 segment 3% to 10%",
+      "storyline": "chip-ram-prices",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "detikInet", "url": "https://inet.detik.com/consumer/d-8750588/samsung-rajai-pasar-hp-indonesia-q3-2026-saat-pasar-nyungsep"}
+      ],
+      "why_it_matters": "Cheap phones are disappearing from the Indonesian market, so buyers are pushed to pricier models.",
+      "signals": {"spreading": 1, "wallet": 2, "surprise": 2, "visual": 2, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-11",
+      "category": "TECH",
+      "event": "Counterpoint's price tracker, cited by CNBC Indonesia, shows average global smartphone retail prices up about 15% in 2026, with phones launched in 2026 averaging about 25% above their predecessors, while XLSMART bundles phones with data and Gemini access to keep buyers.",
+      "key_numbers": "Global avg price +15% in 2026 · 2026 launches ~+25% vs predecessors · XLSMART Galaxy S26 FE bundle with 6 months Gemini/Google storage valued ~Rp700.000",
+      "storyline": "chip-ram-prices",
+      "update_of": "E0685",
+      "status": "partial",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/tech/20261111184950-37-784395/harga-smartphone-dunia-melonjak-operator-cari-akal"}
+      ],
+      "why_it_matters": "Your next phone will likely cost noticeably more, and operators are using bundles to soften it.",
+      "signals": {"spreading": 1, "wallet": 2, "surprise": 1, "visual": 2, "fresh": 1, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-12",
+      "category": "TECH",
+      "event": "CNBC Indonesia reported Ripple's API specification (Payments Direct 2026.03) restored rupiah payouts through BI-FAST, effective 10 November, without any confirmed partnership with Bank Indonesia and without being commercially live.",
+      "key_numbers": "Per transaction Rp50.000 to Rp100 juta (provider limit; BI-FAST general limit Rp250 juta) · Daily per recipient Rp750 juta · Support added Jul 2026, removed Sep, restored 10 Nov",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/tech/20261112101209-37-784536/bi-fast-masuk-di-ripple-begini-dampaknya-buat-rupiah"}
+      ],
+      "why_it_matters": "Could make sending money to Indonesian bank accounts from abroad faster, but it is a spec listing, not a launch.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-10",
+      "category": "TECH",
+      "event": "Komdigi minister Meutya Hafid inaugurated eight officials in a reshuffle including a new head of Humas and the Secretary of the Dewan Pers, saying evaluation of other sectors would continue.",
+      "key_numbers": "8 officials · Inaugurated 10 Nov 2026 · Reported 11 Nov",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "detikInet", "url": "https://inet.detik.com/law-and-policy/d-8747881/rombak-jajaran-pejabat-komdigi-meutya-tagih-kerja-cepat-anak-buah"},
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/tech/20261112110712-37-784570/menkomdigi-rombak-pejabat-komdigi-titip-pesan-kerja-cepat"}
+      ],
+      "why_it_matters": "Signals more shake-ups at the ministry that sets platform and data rules.",
+      "signals": {"spreading": 0, "wallet": 0, "surprise": 0, "visual": 0, "fresh": 1, "rivals": 2},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-09",
+      "category": "TECH",
+      "event": "Fortinet Threatmap showed banking as the most-targeted sector in Indonesia, and a cyber expert said high detection counts do not mean customer funds are at risk; no bank breach was named.",
+      "key_numbers": "Banking ~761.000 detected threats · Technology 386.000 · Government 121.000 · 1,6 juta attacks blocked in 24h vs 50.600 on 7 Nov · ~4 detections per second · Snapshot 9 Nov 08:41 WIB",
+      "storyline": "cyber-threats-gov",
+      "update_of": "E0750",
+      "status": "partial",
+      "sources": [
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/teknologi/20261112105927-185-1426245/kenapa-bank-di-indonesia-jadi-target-serangan-siber-ini-kata-pakar"}
+      ],
+      "why_it_matters": "People worry about bank savings; the data shows attempts, not successful breaches.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 2, "fresh": 1, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-12",
+      "category": "TECH",
+      "event": "Binance said it has finished covering all of the roughly US$6.3 billion stolen in the 29 October hack, with new proof-of-reserves pending, per Quartz and crypto.news headlines.",
+      "key_numbers": "~US$6,3 miliar stolen · Coverage reported complete · Proof of reserves pending",
+      "storyline": "crypto-hacks",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "Quartz", "url": "https://qz.com/binance-covers-stolen-crypto-hack-losses-111226"},
+        {"label": "crypto.news", "url": "https://crypto.news/binance-hack-assets-covered-proof-of-reserves/"}
+      ],
+      "why_it_matters": "Closes an open question in the Binance hack story: whether users lose money.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    }
+  ],
+  "gaps": ["Binance coverage-complete claim seen only in search snippets (Quartz page unreadable); open article before use", "CNBC claim that Alice Huang smuggled 240 ribu Nvidia chips to China not verified", "bisnis.com and dailysocial section pages not readable; Katadata no fresh items", "CNN Indonesia: 'Anthropic Rilis Claude Fable dan Mythos 5.2' and 'pengguna AI Indonesia 162 juta' seen as headlines only", "Not checked: scheduled tech events 13-27 Nov", "Gibran resignation trending in tech feeds (detik, CNBC 12 Nov): outside this area, politics should verify"]
+}

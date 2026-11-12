@@ -1,0 +1,346 @@
+{
+  "area": "politics",
+  "run_date": "2026-11-13",
+  "checked": [
+    "detik news/berita (list + terpopuler)",
+    "CNN Indonesia nasional hukum-kriminal",
+    "ANTARA politik",
+    "Tempo politik (fetch blocked by robots, search snippets only)",
+    "Watch: Presiden/Wapres/Istana (Gibran resignation, Prabowo trip)",
+    "Watch: Polri big cases (Listyo wiretapping)",
+    "Watch: KPK/Kejagung/Tipikor",
+    "Watch: DPR (Komisi III raker, HMP cancelled)",
+    "Watch: MPR",
+    "Watch: demonstrations (Yogyakarta, only 10 Nov items already known)",
+    "Storyline: gibran-ijazah-mk",
+    "Storyline: listyo-sigit-penyadapan",
+    "Storyline: corruption-cases (Djarum: no new development found in window)",
+    "Storyline: karhutla (BNPB numbers not opened)",
+    "Labour/UMP (search only, no article opened)"
+  ],
+  "events": [
+    {
+      "date": "2026-11-12",
+      "category": "POL",
+      "event": "At a Komisi III DPR hearing, Kapolri Jenderal Suyudi Ario Seto said ex-Kapolri Listyo Sigit Prabowo is allegedly the 'end user' who set wiretap targets (including President Prabowo) and received the results, and laid out the roles of all four suspects.",
+      "key_numbers": "4 suspects · Listyo detained to 23 Nov, Ahrie Sonta Nasution to 21 Nov, Eko Hadi Santoso to 22 Nov 2026 · Slamet Uliandi under house arrest since 11 Nov · Pasal 258 KUHP max 10 yrs · UU ITE 48 jo 32(1) max 8 yrs · Pasal 332 KUHP max 6-7 yrs · Pasal 20 KUHP (inciting/participating)",
+      "storyline": "listyo-sigit-penyadapan",
+      "update_of": "E0743",
+      "status": "verified",
+      "sources": [
+        {
+          "label": "CNN Indonesia",
+          "url": "https://www.cnnindonesia.com/nasional/20261112134056-12-1426384/kapolri-listyo-sigit-diduga-sebagai-end-user-penyadapan-prabowo"
+        },
+        {
+          "label": "CNN Indonesia (Slamet house arrest)",
+          "url": "https://www.cnnindonesia.com/nasional/20261112145802-12-1426430/kapolri-sebut-irjen-slamet-uliandi-jadi-tahanan-rumah-kasus-penyadapan"
+        }
+      ],
+      "why_it_matters": "Police now say a former national police chief was the final recipient of illegal tapping of the President, the biggest legal test of Polri in years.",
+      "signals": {
+        "spreading": 2,
+        "wallet": 0,
+        "surprise": 2,
+        "visual": 1,
+        "fresh": 2,
+        "rivals": 1
+      },
+      "spreading_evidence": "detik terpopuler #3 and #5 (related), CNN hukum-kriminal top items 12 Nov",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-12",
+      "category": "POL",
+      "event": "Kapolri told Komisi III that police seized 15 phones, 7 flash drives, 2 iPads and other devices, that preliminary findings show other tapping victims across ministries, parties, KPK, Kejaksaan, media and activists, and that 6 Monitoring Center staff applied to LPSK for protection.",
+      "key_numbers": "15 mobile phones · 7 flash drives · 2 iPads · 4 CPU/PC/laptop · 1 modem · 6 witnesses to LPSK (request filed 6 Nov) · tapping period 2025-2026 · data deletion in LIMS and Penlinks X ordered Oct 2026",
+      "storyline": "listyo-sigit-penyadapan",
+      "update_of": "E0743",
+      "status": "verified",
+      "sources": [
+        {
+          "label": "CNN Indonesia",
+          "url": "https://www.cnnindonesia.com/nasional/20261112122808-12-1426295/kasus-penyadapan-prabowo-rumah-listyo-sigit-digeledah-bareskrim"
+        },
+        {
+          "label": "CNN Indonesia (LPSK)",
+          "url": "https://www.cnnindonesia.com/nasional/20261112125543-12-1426328/kapolri-6-saksi-ajukan-permohonan-ke-lpsk-merupakan-tim-monitoring"
+        },
+        {
+          "label": "detikNews (KPK response, target list)",
+          "url": "https://news.detik.com/berita/d-8750586/respons-kpk-usai-disebut-kapolri-jadi-korban-penyadapan-listyo-cs"
+        }
+      ],
+      "why_it_matters": "Shows how wide the alleged tapping reached; KPK says being a target does not make anyone a suspect.",
+      "signals": {
+        "spreading": 2,
+        "wallet": 0,
+        "surprise": 2,
+        "visual": 2,
+        "fresh": 2,
+        "rivals": 1
+      },
+      "spreading_evidence": "detik terpopuler #3 'Saksi-saksi minta perlindungan LPSK', #5 KPK response",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-12",
+      "category": "POL",
+      "event": "Ketua MPR Ahmad Muzani said that after VP Gibran's resignation letter, Prabowo must submit two VP candidates within 14 days of MPR's request letter, and MPR has at most 60 days from 12 Nov to complete the filling of the post.",
+      "key_numbers": "2 candidates · 14 days after MPR letter · max 60 days from 12 Nov 2026 · Yusril: government hopes done before end Dec 2026",
+      "storyline": "gibran-ijazah-mk",
+      "update_of": "E0763",
+      "status": "verified",
+      "sources": [
+        {
+          "label": "detikNews",
+          "url": "https://news.detik.com/berita/d-8749568/mpr-akan-kirim-surat-minta-prabowo-setor-2-nama-cawapres-pengganti-gibran"
+        },
+        {
+          "label": "CNN Indonesia",
+          "url": "https://www.cnnindonesia.com/nasional/20261112140704-32-1426385/mpr-rapat-gabungan-bahas-jadwal-paripurna-wapres-pengganti-gibran-esok"
+        }
+      ],
+      "why_it_matters": "Sets the clock for who becomes the next Vice President and how, a procedure the country has not used before.",
+      "signals": {
+        "spreading": 2,
+        "wallet": 0,
+        "surprise": 2,
+        "visual": 2,
+        "fresh": 2,
+        "rivals": 1
+      },
+      "spreading_evidence": "Dominant on detik, CNN and Antara feeds 12 Nov",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-13",
+      "category": "POL",
+      "event": "MPR holds a joint meeting (rapat gabungan) at 14.00 WIB on 13 Nov to set the plenary date for electing a new VP, send Prabowo a letter for two candidates, form a verification team and an ad hoc team for the MPR decree.",
+      "key_numbers": "Fri 13 Nov 2026 14.00 WIB · 4 agenda items · plenary date not yet announced",
+      "storyline": "gibran-ijazah-mk",
+      "update_of": "E0766",
+      "status": "upcoming",
+      "sources": [
+        {
+          "label": "CNN Indonesia",
+          "url": "https://www.cnnindonesia.com/nasional/20261112140704-32-1426385/mpr-rapat-gabungan-bahas-jadwal-paripurna-wapres-pengganti-gibran-esok"
+        },
+        {
+          "label": "ANTARA Sumbar",
+          "url": "https://sumbar.antaranews.com/berita/789223/mpr-gelar-rapat-gabungan-bahas-pengisian-jabatan-wapres-besok"
+        }
+      ],
+      "why_it_matters": "The first concrete schedule for choosing Gibran's replacement is expected today.",
+      "signals": {
+        "spreading": 2,
+        "wallet": 0,
+        "surprise": 1,
+        "visual": 1,
+        "fresh": 2,
+        "rivals": 1
+      },
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-12",
+      "category": "POL",
+      "event": "Coordinating Minister Yusril said Prabowo will make a foreign trip around 14-16 Nov while the VP post is vacant and that no acting VP (Plt Wapres) will be appointed.",
+      "key_numbers": "Trip 14-16 Nov 2026 (Yusril unsure of end date) · no Plt Wapres · vacant since 12 Nov",
+      "storyline": "gibran-ijazah-mk",
+      "update_of": "E0763",
+      "status": "partial",
+      "sources": [
+        {
+          "label": "Liputan6",
+          "url": "https://liputan6.com/news/read/8334294/prabowo-ke-luar-negeri-saat-kursi-wapres-kosong-yusril-tak-ada-plt"
+        }
+      ],
+      "why_it_matters": "Answers the common question of who runs things when the President travels and the VP seat is empty.",
+      "signals": {
+        "spreading": 1,
+        "wallet": 0,
+        "surprise": 1,
+        "visual": 0,
+        "fresh": 2,
+        "rivals": 1
+      },
+      "spreading_evidence": "detik feed item 'Yusril sebut jabatan Wapres kosong tak masalah'",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-12",
+      "category": "POL",
+      "event": "PTUN Jakarta declared the lawsuit by PT Mercy Toga Kirana (lawyer Denny Indrayana) over the Kemendikdasmen letter on Gibran's SMA equivalency 'gugur' after the Dirjen revoked the letter by Decree 206/2026; Gibran had objected to ending the case, and his lawyer later said the judge was not objective.",
+      "key_numbers": "Surat No. 9149/D.D1/KS/2019 (6 Aug 2019) revoked by SK Dirjen Diksus No. 206 Tahun 2026 · court costs Rp457,000 · ruling not appealable per CNN",
+      "storyline": "gibran-ijazah-mk",
+      "update_of": "E0707",
+      "status": "verified",
+      "sources": [
+        {
+          "label": "CNN Indonesia",
+          "url": "https://www.cnnindonesia.com/nasional/20261112163358-12-1426488/hakim-ptun-putuskan-gugatan-suket-ijazah-sma-gibran-gugur"
+        },
+        {
+          "label": "CNN Indonesia (Gibran lawyer)",
+          "url": "https://www.cnnindonesia.com/nasional/20261112175416-12-1426530/kuasa-hukum-gibran-hakim-ptun-tak-objektif-gugurkan-gugatan-suket"
+        }
+      ],
+      "why_it_matters": "Closes the administrative-court track of the diploma dispute on the day Gibran resigned.",
+      "signals": {
+        "spreading": 1,
+        "wallet": 0,
+        "surprise": 1,
+        "visual": 0,
+        "fresh": 2,
+        "rivals": 1
+      },
+      "spreading_evidence": "",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-12",
+      "category": "POL",
+      "event": "Jakarta Tipikor Court sentenced ex-Bea Cukai intelligence section head Orlando Hamonangan to 6 years in the PT BlueRay Cargo bribery case; co-defendants earlier got 9 years (Rizal) and 7 years (Sisprian Subiaksono).",
+      "key_numbers": "Orlando: 6 yrs, fine Rp1 billion, restitution Rp5,566,221,515 (prosecutors sought 7.5 yrs) · Rizal 9 yrs · Sisprian 7 yrs · John Field 3 yrs · Deddy Kurniawan Sukolo and Andri 2.5 yrs each",
+      "storyline": "corruption-cases",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {
+          "label": "detikNews",
+          "url": "https://news.detik.com/berita/d-8750731/eks-pejabat-bea-cukai-divonis-6-tahun-bui-dan-bayar-rp-5-5-m-di-kasus-suap"
+        }
+      ],
+      "why_it_matters": "Verdicts in the parent Bea Cukai bribery case that the Djarum excise probe grew out of.",
+      "signals": {
+        "spreading": 1,
+        "wallet": 0,
+        "surprise": 1,
+        "visual": 1,
+        "fresh": 2,
+        "rivals": 2
+      },
+      "spreading_evidence": "",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-11",
+      "category": "POL",
+      "event": "KPK examined a former cabinet secretary (initials DA) as a witness about an asset sale with suspect MH, ex-head of DJP Jakarta Khusus regional tax office, in a gratification case.",
+      "key_numbers": "Alleged gratification up to Rp20.7 billion · MH named suspect 25 Feb 2025, detained 19 Aug 2026 · Rp700 million for a fashion show · Rp10 billion foreign currency 2013-2018 · Rp10 billion 2014-2022",
+      "storyline": "corruption-cases",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {
+          "label": "CNN Indonesia",
+          "url": "https://www.cnnindonesia.com/nasional/20261112095759-12-1426203/kpk-dalami-jual-beli-aset-eks-kakanwil-djp-saat-periksa-mantan-seskab"
+        }
+      ],
+      "why_it_matters": "A former top cabinet official is questioned, as a witness only, in a tax-official wealth case.",
+      "signals": {
+        "spreading": 1,
+        "wallet": 0,
+        "surprise": 1,
+        "visual": 0,
+        "fresh": 2,
+        "rivals": 2
+      },
+      "spreading_evidence": "",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-12",
+      "category": "POL",
+      "event": "Polri said Jokowi's diploma was already tested by Puslabfor and needs no new forensic test, after Roy Suryo's lawyers asked the Jakarta Timur court on 11 Nov to re-test it against three 1985 comparison diplomas; the dr Tifa defamation hearing on 12 Nov heard journalist Aiman Witjaksono.",
+      "key_numbers": "Letter filed 11 Nov 2026 · 3 comparison diplomas from Nov 1985 · dr Tifa indictment read 27 Aug 2026",
+      "storyline": "jokowi-ijazah-roy-suryo",
+      "update_of": "E0607",
+      "status": "verified",
+      "sources": [
+        {
+          "label": "detikNews",
+          "url": "https://news.detik.com/berita/d-8750737/polri-sebut-ijazah-jokowi-sudah-diuji-puslabfor-tak-perlu-uji-lagi"
+        },
+        {
+          "label": "Tribunnews",
+          "url": "https://www.tribunnews.com/nasional/7910698/bersaksi-di-sidang-dokter-tifa-aiman-soroti-produk-jurnalistik-yang-dijadikan-barang-bukti"
+        }
+      ],
+      "why_it_matters": "The ongoing trials keep the diploma dispute alive; the court, not police, decides whether to re-test.",
+      "signals": {
+        "spreading": 1,
+        "wallet": 0,
+        "surprise": 1,
+        "visual": 1,
+        "fresh": 2,
+        "rivals": 1
+      },
+      "spreading_evidence": "",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-11",
+      "category": "POL",
+      "event": "Polda Metro Jaya investigators found ex-KPK chair Firli Bahuri at a badminton hall after he missed two summonses; police say he promised to attend the next examination, while Kejati DKI twice returned the case file as incomplete.",
+      "key_numbers": "2 missed summonses · suspect since 22 Nov 2023 (Syahrul Yasin Limpo extortion) · case file returned 2 times · not detained",
+      "storyline": "",
+      "update_of": "E0747",
+      "status": "partial",
+      "sources": [
+        {
+          "label": "CNN Indonesia",
+          "url": "https://www.cnnindonesia.com/nasional/20261112154833-12-1426465/firli-bahuri-sempat-hadir-di-acara-pp-polri-sebelum-didatangi-penyidik"
+        }
+      ],
+      "why_it_matters": "The case against the former KPK chair has been stuck for almost three years.",
+      "signals": {
+        "spreading": 1,
+        "wallet": 0,
+        "surprise": 1,
+        "visual": 1,
+        "fresh": 2,
+        "rivals": 2
+      },
+      "spreading_evidence": "",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-12",
+      "category": "ENV",
+      "event": "Presidential climate envoy Hashim Djojohadikusumo told COP31 in Antalya that Indonesia has decided not to expand agriculture into forest areas, especially primary forest, and reaffirmed net zero by 2060 or sooner.",
+      "key_numbers": "Net zero 2060 or sooner (Second NDC) · COP31 Antalya, 12 Nov 2026",
+      "storyline": "karhutla",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {
+          "label": "detikNews",
+          "url": "https://news.detik.com/berita/d-8750695/hashim-di-cop31-turki-ri-putuskan-tak-perluas-pertanian-ke-kawasan-hutan"
+        }
+      ],
+      "why_it_matters": "A stated policy line on forests while fire and haze remain a domestic issue.",
+      "signals": {
+        "spreading": 0,
+        "wallet": 0,
+        "surprise": 1,
+        "visual": 0,
+        "fresh": 2,
+        "rivals": 1
+      },
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    }
+  ],
+  "gaps": [
+    "Several detik articles (Prabowo trip, cawapres bursa, Gibran 'keputusan pribadi', Hanura/PDIP reactions) blocked at fetch; used other outlets or omitted.",
+    "Prabowo trip destination: CNBC Indonesia headline says China/Xi Jinping, ASEAN KTT Manila also reported; neither opened, dates unverified.",
+    "Cawapres bursa (AHY, Anies, Puan, Dasco, Pramono, Yusril, Bahlil etc.) is media speculation only; not logged as an event.",
+    "Karhutla BNPB new hotspots (Sultra +146%, Papua Selatan +94%) seen only in search snippets; article fetch failed.",
+    "UMP 2027 (labour asks 7.5-9.5%) seen only in search snippets; no article opened.",
+    "Discrepancy: CNN says Listyo detained at Mako Brimob; earlier note says Mabes Polri; also Eko Hadi Santoso's post described differently by two CNN pieces.",
+    "Jokowi witness testimony details and next dr Tifa hearing date not found; Tempo Yogyakarta demo coverage unreadable."
+  ]
+}

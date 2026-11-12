@@ -1,0 +1,281 @@
+[
+ {
+  "date": "2026-11-12",
+  "category": "MKT",
+  "event": "MSCI announced its November 2026 index review: Barito Pacific (BRPT) was removed from the MSCI Global Standard index and Bumi Resources Minerals (BRMS) moved down to Small Cap, while seven Indonesian stocks were deleted from Small Cap. (update of E0732)",
+  "key_numbers": "Standard: BRPT out, BRMS to Small Cap, no Indonesian additions · Small Cap deleted: AVIA, CTRA, MTEL, EMTK, JSMR, RAJA, WIFI · 8 stocks leave coverage entirely (BRPT + 7) · effective after close Mon 30 Nov (from 1 Dec) · 12 Nov moves: MTEL -6.75%, WIFI -5.13%, BRPT -1.96% to Rp750, RAJA +2.88%, BRMS +0.67% to Rp300 · outlets count 8 vs 9 removals depending on how BRMS is counted",
+  "storyline": "msci-reclassification",
+  "status": "verified",
+  "sources": "CNBC Indonesia <https://www.cnbcindonesia.com/market/20261112172028-17-784750/terdepak-dari-indeks-msci-begini-nasib-saham-brpt-raja-hingga-wifi> ; Kontan <https://investasi.kontan.co.id/news/hasil-review-msci-saham-brpt-brms-dicoret-dari-msci-global-standard-index> ; CNBC Indonesia (11 Nov preview, dates) <https://www.cnbcindonesia.com/research/20261111155943-128-784353/dolar-mengamuk-saat-ri-diguncang-drama-msci-isu-mundurnya-gibran>"
+ },
+ {
+  "date": "2026-11-12",
+  "category": "MKT",
+  "event": "The IHSG jumped 2.66% on 12 November to close around 5,250, its biggest daily gain in weeks, as the MSCI result and Vice President Gibran's resignation eased market worries. (update of E0734)",
+  "key_numbers": "Close ~5,250 (CNBC 5,250.90; Suara +135.87 pts) · +2.66% · prior close 5,115.04 · session I +2.20% to 5,227.50 · turnover Rp11.55-11.9 trillion (sources differ) · BBRI +5.94% to Rp3,030, BMRI +3.18%, BBCA +2.82% to Rp5,475 · DEWA +10.26%, ADRO +6.06%, PTBA +6.00% · sectors: industrials +4.53%, transport +3.12%, energy +2.86% · analysts: gain not attributable to politics alone",
+  "storyline": "msci-reclassification",
+  "status": "verified",
+  "sources": "CNBC Indonesia <https://www.cnbcindonesia.com/market/20261112172028-17-784750/terdepak-dari-indeks-msci-begini-nasib-saham-brpt-raja-hingga-wifi> ; Suara.com <https://www.suara.com/bisnis/2026/11/12/170413/euforia-investor-setelah-gibran-mundur-ihsg-ditutup-melesat-266> ; CNBC Indonesia (session I) <https://www.cnbcindonesia.com/research/20261112131550-128-784634/ihsg-merah-saat-gibran-dapat-izin-ikut-pilpres-hijau-ketika-mundur>"
+ },
+ {
+  "date": "2026-11-12",
+  "category": "MKT",
+  "event": "The rupiah weakened to about Rp18,216-18,239 per US dollar on 12 November, its weakest in months, while the stock index rallied; Bank Indonesia blamed Fed hike expectations, a strong dollar, MSCI worries and year-end dollar demand, and said it is intervening. (update of E0735)",
+  "key_numbers": "Close Rp18,216 (-0.26%, Suara) or Rp18,239 (-0.50%, Owrite) · intraday Rp18,221-18,241 · prior close ~Rp18,140-18,149 · DXY 102.96 = highest since Mar 2025 · BI: intervening via offshore NDF, DNDF, spot and secondary-market SBN purchases · BI FX reserves US$146.8 billion end-Oct · regional currencies -0.11% m/m · Suara cites a record low of Rp18,279 (unconfirmed; E0735 notes 2026 weakest close 8 Jun at Rp18,170-18,188)",
+  "storyline": "rupiah",
+  "status": "verified",
+  "sources": "detikFinance <https://finance.detik.com/bursa-dan-valas/d-8749475/bi-ungkap-biang-kerok-dolar-as-tembus-rp-18-200> ; Suara.com <https://www.suara.com/bisnis/2026/11/12/170413/euforia-investor-setelah-gibran-mundur-ihsg-ditutup-melesat-266> ; Owrite <https://www.owrite.id/ekbis/2026/11/12/rupiah-ditutup-amblas-rp18-239-per-dolar-as-ihsg-naik-ke-level-5-250/>"
+ },
+ {
+  "date": "2026-11-12",
+  "category": "MKT",
+  "event": "Vice President Gibran Rakabuming Raka handed his resignation letter to the MPR on 12 November, and markets treated it as easing political tension; the Presidential Communication Office said it would not disrupt the economy.",
+  "key_numbers": "Letter handed to MPR ~11:00 WIB 12 Nov · IHSG session I +2.20% (+112.46 pts) after resignation news · 120 DPR members from 8 factions had filed an HMP over the diploma issue (HMP alone does not remove him) · State Secretary: Gibran raised resignation intent in 2-hour meeting 10 Nov · rupiah still weakened to ~Rp18,2xx same day",
+  "storyline": "gibran-ijazah-mk",
+  "status": "verified",
+  "sources": "Kompas <https://nasional.kompas.com/read/2026/11/12/11452931/breaking-news-gibran-serahkan-surat-pengunduran-diri-sebagai-wakil-presiden> ; CNBC Indonesia <https://www.cnbcindonesia.com/research/20261112131550-128-784634/ihsg-merah-saat-gibran-dapat-izin-ikut-pilpres-hijau-ketika-mundur> ; detikFinance front page <https://finance.detik.com/>"
+ },
+ {
+  "date": "2026-11-10",
+  "category": "GLB",
+  "event": "Fed Governor Christopher Waller said he backs a December rate hike and that a 50 bp hike should be considered if October core inflation is 0.3% or more, which Bank Indonesia cited as a key driver of dollar strength and rupiah weakness. (update of E0701)",
+  "key_numbers": "Waller remarks Tue 10 Nov (London) · 25 bp hike supported at 8-9 Dec FOMC; 50 bp if core CPI >=0.3% · futures ~85% odds of Dec hike (CME FedWatch cited 87-91% elsewhere) · US Oct CPI +0.4% m/m vs 0.3% forecast, core +0.3% (E0701) · Sept PCE 3.7% y/y per Kontan (E0413 says 3.6%; unreconciled) · DXY 102.96",
+  "storyline": "rupiah",
+  "status": "verified",
+  "sources": "Kontan <https://internasional.kontan.co.id/news/pejabat-the-fed-ini-dorong-kenaikan-suku-bunga-50-basis-poin-pada-desember-2026> ; detikFinance <https://finance.detik.com/bursa-dan-valas/d-8749475/bi-ungkap-biang-kerok-dolar-as-tembus-rp-18-200> ; CNBC Indonesia <https://www.cnbcindonesia.com/research/20261111155943-128-784353/dolar-mengamuk-saat-ri-diguncang-drama-msci-isu-mundurnya-gibran>"
+ },
+ {
+  "date": "2026-11-11",
+  "category": "ECO",
+  "event": "President Prabowo said at the Nasdem 15th-anniversary event that the state budget loses about Rp480 trillion a year to inefficient goods-and-services procurement, and floated centralising purchasing.",
+  "key_numbers": "Rp480 trillion/year lost · Katadata: goods-and-services spending ~Rp1,200 trillion, 40% wasted per LKPP head Sarah Sadiqa; Prabowo said one-third of APBN is goods and services · detik/Tirto headlines say '30% of APBN leaks' (conflicts with Katadata's one-third x 40%) · 38 provinces + ~500 regencies buy separately · centralising could save up to ~40% but 'not soon' · draft 2027 APBN spending Rp4,106.26 trillion, deficit Rp671.16 trillion (2.4% of GDP)",
+  "storyline": "",
+  "status": "partial",
+  "sources": "Katadata <https://katadata.co.id/berita/nasional/6af522a6aeb0d/prabowo-sebut-apbn-bocor-rp480-triliun-per-tahun-imbas-belanja-tak-efisien> ; Tirto <https://tirto.id/apbn-bocor-30-persen-prabowo-ingin-sentralisasi-pengadaan-idHl> ; detikFinance front page <https://finance.detik.com/>"
+ },
+ {
+  "date": "2026-11-11",
+  "category": "BIZ",
+  "event": "Danantara launched PT Danareksa Investment Management Indonesia (Danareksa Investments), merging the asset managers of Mandiri, BRI, BNI and PNM, and said there will be no layoffs.",
+  "key_numbers": "Merged: Mandiri Manajemen Investasi (surviving), BRI MI, BNI AM, PNM IM · AUM Rp172.5 trillion (~US$8.5 billion), second-largest manager in Indonesia · legal effect 1 Oct 2026, launch 11 Nov · ~280 staff, no layoffs (Rosan Roeslani) · AUM target Rp200 trillion in 2027 (ANTARA), Rp350 trillion later (ANTARA headline, unchecked)",
+  "storyline": "",
+  "status": "verified",
+  "sources": "ANTARA <https://www.antaranews.com/berita/5847783/danantara-sebut-tak-ada-phk-dalam-merger-empat-manajer-investasi-bumn> ; CNBC Indonesia <https://www.cnbcindonesia.com/market/20261111203418-17-784435/bos-danantara-ungkap-tujuan-bentuk-danareksa-investment-management> ; detikFinance front page <https://finance.detik.com/>"
+ },
+ {
+  "date": "2026-11-12",
+  "category": "BIZ",
+  "event": "Pertamina president director Simon Aloysius Mantiri apologised to DPR Commission VI for fuel (BBM) supply and distribution disruptions that caused long queues, and promised 24-hour terminals and SPBU, more tankers and modular SPBU.",
+  "key_numbers": "Hearing Thu 12 Nov · Bali named as affected; Tribunnews headline says 'langka di 11 provinsi' (not confirmed in detik text) · cause given: Middle East conflict and Indonesia's geography, no specific incident · promises: 24-hour terminals/SPBU, extra tankers and crews, modular SPBU, higher year-end stock readiness · detik side items: Pertamina H1 2026 profit Rp34.58 trillion; planned +50,000 bpd production (unchecked)",
+  "storyline": "fuel-oil",
+  "status": "partial",
+  "sources": "detikFinance <https://finance.detik.com/energi/d-8749594/dirut-pertamina-minta-maaf-di-dpr-soal-gangguan-distribusi-bbm> ; Tribunnews <https://www.tribunnews.com/bisnis/7910490/bbm-sempat-langka-di-11-provinsi-dirut-pertamina-bongkar-akar-masalahnya-di-dpr>"
+ },
+ {
+  "date": "2026-11-12",
+  "category": "POL",
+  "event": "At a Komisi III DPR hearing, Kapolri Jenderal Suyudi Ario Seto said ex-Kapolri Listyo Sigit Prabowo is allegedly the 'end user' who set wiretap targets (including President Prabowo) and received the results, and laid out the roles of all four suspects. (update of E0743)",
+  "key_numbers": "4 suspects · Listyo detained to 23 Nov, Ahrie Sonta Nasution to 21 Nov, Eko Hadi Santoso to 22 Nov 2026 · Slamet Uliandi under house arrest since 11 Nov · Pasal 258 KUHP max 10 yrs · UU ITE 48 jo 32(1) max 8 yrs · Pasal 332 KUHP max 6-7 yrs · Pasal 20 KUHP (inciting/participating)",
+  "storyline": "listyo-sigit-penyadapan",
+  "status": "verified",
+  "sources": "CNN Indonesia <https://www.cnnindonesia.com/nasional/20261112134056-12-1426384/kapolri-listyo-sigit-diduga-sebagai-end-user-penyadapan-prabowo> ; CNN Indonesia (Slamet house arrest) <https://www.cnnindonesia.com/nasional/20261112145802-12-1426430/kapolri-sebut-irjen-slamet-uliandi-jadi-tahanan-rumah-kasus-penyadapan>"
+ },
+ {
+  "date": "2026-11-12",
+  "category": "POL",
+  "event": "Kapolri told Komisi III that police seized 15 phones, 7 flash drives, 2 iPads and other devices, that preliminary findings show other tapping victims across ministries, parties, KPK, Kejaksaan, media and activists, and that 6 Monitoring Center staff applied to LPSK for protection. (update of E0743)",
+  "key_numbers": "15 mobile phones · 7 flash drives · 2 iPads · 4 CPU/PC/laptop · 1 modem · 6 witnesses to LPSK (request filed 6 Nov) · tapping period 2025-2026 · data deletion in LIMS and Penlinks X ordered Oct 2026",
+  "storyline": "listyo-sigit-penyadapan",
+  "status": "verified",
+  "sources": "CNN Indonesia <https://www.cnnindonesia.com/nasional/20261112122808-12-1426295/kasus-penyadapan-prabowo-rumah-listyo-sigit-digeledah-bareskrim> ; CNN Indonesia (LPSK) <https://www.cnnindonesia.com/nasional/20261112125543-12-1426328/kapolri-6-saksi-ajukan-permohonan-ke-lpsk-merupakan-tim-monitoring> ; detikNews (KPK response, target list) <https://news.detik.com/berita/d-8750586/respons-kpk-usai-disebut-kapolri-jadi-korban-penyadapan-listyo-cs>"
+ },
+ {
+  "date": "2026-11-12",
+  "category": "POL",
+  "event": "Ketua MPR Ahmad Muzani said that after VP Gibran's resignation letter, Prabowo must submit two VP candidates within 14 days of MPR's request letter, and MPR has at most 60 days from 12 Nov to complete the filling of the post. (update of E0763)",
+  "key_numbers": "2 candidates · 14 days after MPR letter · max 60 days from 12 Nov 2026 · Yusril: government hopes done before end Dec 2026",
+  "storyline": "gibran-ijazah-mk",
+  "status": "verified",
+  "sources": "detikNews <https://news.detik.com/berita/d-8749568/mpr-akan-kirim-surat-minta-prabowo-setor-2-nama-cawapres-pengganti-gibran> ; CNN Indonesia <https://www.cnnindonesia.com/nasional/20261112140704-32-1426385/mpr-rapat-gabungan-bahas-jadwal-paripurna-wapres-pengganti-gibran-esok>"
+ },
+ {
+  "date": "2026-11-13",
+  "category": "POL",
+  "event": "MPR holds a joint meeting (rapat gabungan) at 14.00 WIB on 13 Nov to set the plenary date for electing a new VP, send Prabowo a letter for two candidates, form a verification team and an ad hoc team for the MPR decree. (update of E0766)",
+  "key_numbers": "Fri 13 Nov 2026 14.00 WIB · 4 agenda items · plenary date not yet announced",
+  "storyline": "gibran-ijazah-mk",
+  "status": "upcoming",
+  "sources": "CNN Indonesia <https://www.cnnindonesia.com/nasional/20261112140704-32-1426385/mpr-rapat-gabungan-bahas-jadwal-paripurna-wapres-pengganti-gibran-esok> ; ANTARA Sumbar <https://sumbar.antaranews.com/berita/789223/mpr-gelar-rapat-gabungan-bahas-pengisian-jabatan-wapres-besok>"
+ },
+ {
+  "date": "2026-11-12",
+  "category": "POL",
+  "event": "Coordinating Minister Yusril said Prabowo will make a foreign trip around 14-16 Nov while the VP post is vacant and that no acting VP (Plt Wapres) will be appointed. (update of E0763)",
+  "key_numbers": "Trip 14-16 Nov 2026 (Yusril unsure of end date) · no Plt Wapres · vacant since 12 Nov",
+  "storyline": "gibran-ijazah-mk",
+  "status": "partial",
+  "sources": "Liputan6 <https://liputan6.com/news/read/8334294/prabowo-ke-luar-negeri-saat-kursi-wapres-kosong-yusril-tak-ada-plt>"
+ },
+ {
+  "date": "2026-11-12",
+  "category": "POL",
+  "event": "PTUN Jakarta declared the lawsuit by PT Mercy Toga Kirana (lawyer Denny Indrayana) over the Kemendikdasmen letter on Gibran's SMA equivalency 'gugur' after the Dirjen revoked the letter by Decree 206/2026; Gibran had objected to ending the case, and his lawyer later said the judge was not objective. (update of E0707)",
+  "key_numbers": "Surat No. 9149/D.D1/KS/2019 (6 Aug 2019) revoked by SK Dirjen Diksus No. 206 Tahun 2026 · court costs Rp457,000 · ruling not appealable per CNN",
+  "storyline": "gibran-ijazah-mk",
+  "status": "verified",
+  "sources": "CNN Indonesia <https://www.cnnindonesia.com/nasional/20261112163358-12-1426488/hakim-ptun-putuskan-gugatan-suket-ijazah-sma-gibran-gugur> ; CNN Indonesia (Gibran lawyer) <https://www.cnnindonesia.com/nasional/20261112175416-12-1426530/kuasa-hukum-gibran-hakim-ptun-tak-objektif-gugurkan-gugatan-suket>"
+ },
+ {
+  "date": "2026-11-12",
+  "category": "POL",
+  "event": "Jakarta Tipikor Court sentenced ex-Bea Cukai intelligence section head Orlando Hamonangan to 6 years in the PT BlueRay Cargo bribery case; co-defendants earlier got 9 years (Rizal) and 7 years (Sisprian Subiaksono).",
+  "key_numbers": "Orlando: 6 yrs, fine Rp1 billion, restitution Rp5,566,221,515 (prosecutors sought 7.5 yrs) · Rizal 9 yrs · Sisprian 7 yrs · John Field 3 yrs · Deddy Kurniawan Sukolo and Andri 2.5 yrs each",
+  "storyline": "corruption-cases",
+  "status": "partial",
+  "sources": "detikNews <https://news.detik.com/berita/d-8750731/eks-pejabat-bea-cukai-divonis-6-tahun-bui-dan-bayar-rp-5-5-m-di-kasus-suap>"
+ },
+ {
+  "date": "2026-11-11",
+  "category": "POL",
+  "event": "KPK examined a former cabinet secretary (initials DA) as a witness about an asset sale with suspect MH, ex-head of DJP Jakarta Khusus regional tax office, in a gratification case.",
+  "key_numbers": "Alleged gratification up to Rp20.7 billion · MH named suspect 25 Feb 2025, detained 19 Aug 2026 · Rp700 million for a fashion show · Rp10 billion foreign currency 2013-2018 · Rp10 billion 2014-2022",
+  "storyline": "corruption-cases",
+  "status": "partial",
+  "sources": "CNN Indonesia <https://www.cnnindonesia.com/nasional/20261112095759-12-1426203/kpk-dalami-jual-beli-aset-eks-kakanwil-djp-saat-periksa-mantan-seskab>"
+ },
+ {
+  "date": "2026-11-12",
+  "category": "POL",
+  "event": "Polri said Jokowi's diploma was already tested by Puslabfor and needs no new forensic test, after Roy Suryo's lawyers asked the Jakarta Timur court on 11 Nov to re-test it against three 1985 comparison diplomas; the dr Tifa defamation hearing on 12 Nov heard journalist Aiman Witjaksono. (update of E0607)",
+  "key_numbers": "Letter filed 11 Nov 2026 · 3 comparison diplomas from Nov 1985 · dr Tifa indictment read 27 Aug 2026",
+  "storyline": "jokowi-ijazah-roy-suryo",
+  "status": "verified",
+  "sources": "detikNews <https://news.detik.com/berita/d-8750737/polri-sebut-ijazah-jokowi-sudah-diuji-puslabfor-tak-perlu-uji-lagi> ; Tribunnews <https://www.tribunnews.com/nasional/7910698/bersaksi-di-sidang-dokter-tifa-aiman-soroti-produk-jurnalistik-yang-dijadikan-barang-bukti>"
+ },
+ {
+  "date": "2026-11-11",
+  "category": "POL",
+  "event": "Polda Metro Jaya investigators found ex-KPK chair Firli Bahuri at a badminton hall after he missed two summonses; police say he promised to attend the next examination, while Kejati DKI twice returned the case file as incomplete. (update of E0747)",
+  "key_numbers": "2 missed summonses · suspect since 22 Nov 2023 (Syahrul Yasin Limpo extortion) · case file returned 2 times · not detained",
+  "storyline": "",
+  "status": "partial",
+  "sources": "CNN Indonesia <https://www.cnnindonesia.com/nasional/20261112154833-12-1426465/firli-bahuri-sempat-hadir-di-acara-pp-polri-sebelum-didatangi-penyidik>"
+ },
+ {
+  "date": "2026-11-12",
+  "category": "ENV",
+  "event": "Presidential climate envoy Hashim Djojohadikusumo told COP31 in Antalya that Indonesia has decided not to expand agriculture into forest areas, especially primary forest, and reaffirmed net zero by 2060 or sooner.",
+  "key_numbers": "Net zero 2060 or sooner (Second NDC) · COP31 Antalya, 12 Nov 2026",
+  "storyline": "karhutla",
+  "status": "partial",
+  "sources": "detikNews <https://news.detik.com/berita/d-8750695/hashim-di-cop31-turki-ri-putuskan-tak-perluas-pertanian-ke-kawasan-hutan>"
+ },
+ {
+  "date": "2026-11-12",
+  "category": "TECH",
+  "event": "Jensen Huang resigned immediately as CEO, president and board member of Nvidia, which he co-founded in 1993, and CFO Colette Kress was named interim CEO, hours after a WSJ report that the board was weighing his future over an alleged affair with Alice Huang, reportedly suspected by US officials of being a Chinese spy. (update of E0753)",
+  "key_numbers": "Nvidia market value above US$4 triliun · Founded 1993 · Announced 12 Nov 2026 (detik 21:14 WIB) · CNBC Indonesia: 240 ribu chip Nvidia reportedly smuggled to China (unverified)",
+  "storyline": "",
+  "status": "verified",
+  "sources": "detikInet <https://inet.detik.com/business/d-8750617/resmi-jensen-huang-resign-dari-ceo-nvidia> ; TechCrunch <https://techcrunch.com/2026/11/12/nvidias-jensen-huang-resigns-chipmaker-names-cfo-colette-kress-as-interim-ceo/> ; CNN <https://www.cnn.com/2026/11/12/tech/jensen-huang-nvidia-resigns>"
+ },
+ {
+  "date": "2026-11-12",
+  "category": "TECH",
+  "event": "Counterpoint Research said Samsung led Indonesia's smartphone market in Q3 2026 with 33% share while total shipments fell 43% year on year, the third straight quarterly decline, blamed on a memory supply crunch from AI data-centre demand.",
+  "key_numbers": "Total shipments -43% YoY · Samsung 33% (from ~21%), -5% · Xiaomi 21%, -33% · Oppo 16%, -64% · Infinix 11%, -51% · Vivo 8%, -67% · Under US$150 segment 55% to 24% of market · Above US$700 segment 3% to 10%",
+  "storyline": "chip-ram-prices",
+  "status": "partial",
+  "sources": "detikInet <https://inet.detik.com/consumer/d-8750588/samsung-rajai-pasar-hp-indonesia-q3-2026-saat-pasar-nyungsep>"
+ },
+ {
+  "date": "2026-11-11",
+  "category": "TECH",
+  "event": "Counterpoint's price tracker, cited by CNBC Indonesia, shows average global smartphone retail prices up about 15% in 2026, with phones launched in 2026 averaging about 25% above their predecessors, while XLSMART bundles phones with data and Gemini access to keep buyers. (update of E0685)",
+  "key_numbers": "Global avg price +15% in 2026 · 2026 launches ~+25% vs predecessors · XLSMART Galaxy S26 FE bundle with 6 months Gemini/Google storage valued ~Rp700.000",
+  "storyline": "chip-ram-prices",
+  "status": "partial",
+  "sources": "CNBC Indonesia <https://www.cnbcindonesia.com/tech/20261111184950-37-784395/harga-smartphone-dunia-melonjak-operator-cari-akal>"
+ },
+ {
+  "date": "2026-11-12",
+  "category": "TECH",
+  "event": "CNBC Indonesia reported Ripple's API specification (Payments Direct 2026.03) restored rupiah payouts through BI-FAST, effective 10 November, without any confirmed partnership with Bank Indonesia and without being commercially live.",
+  "key_numbers": "Per transaction Rp50.000 to Rp100 juta (provider limit; BI-FAST general limit Rp250 juta) · Daily per recipient Rp750 juta · Support added Jul 2026, removed Sep, restored 10 Nov",
+  "storyline": "",
+  "status": "partial",
+  "sources": "CNBC Indonesia <https://www.cnbcindonesia.com/tech/20261112101209-37-784536/bi-fast-masuk-di-ripple-begini-dampaknya-buat-rupiah>"
+ },
+ {
+  "date": "2026-11-10",
+  "category": "TECH",
+  "event": "Komdigi minister Meutya Hafid inaugurated eight officials in a reshuffle including a new head of Humas and the Secretary of the Dewan Pers, saying evaluation of other sectors would continue.",
+  "key_numbers": "8 officials · Inaugurated 10 Nov 2026 · Reported 11 Nov",
+  "storyline": "",
+  "status": "partial",
+  "sources": "detikInet <https://inet.detik.com/law-and-policy/d-8747881/rombak-jajaran-pejabat-komdigi-meutya-tagih-kerja-cepat-anak-buah> ; CNBC Indonesia <https://www.cnbcindonesia.com/tech/20261112110712-37-784570/menkomdigi-rombak-pejabat-komdigi-titip-pesan-kerja-cepat>"
+ },
+ {
+  "date": "2026-11-09",
+  "category": "TECH",
+  "event": "Fortinet Threatmap showed banking as the most-targeted sector in Indonesia, and a cyber expert said high detection counts do not mean customer funds are at risk; no bank breach was named. (update of E0750)",
+  "key_numbers": "Banking ~761.000 detected threats · Technology 386.000 · Government 121.000 · 1,6 juta attacks blocked in 24h vs 50.600 on 7 Nov · ~4 detections per second · Snapshot 9 Nov 08:41 WIB",
+  "storyline": "cyber-threats-gov",
+  "status": "partial",
+  "sources": "CNN Indonesia <https://www.cnnindonesia.com/teknologi/20261112105927-185-1426245/kenapa-bank-di-indonesia-jadi-target-serangan-siber-ini-kata-pakar>"
+ },
+ {
+  "date": "2026-11-12",
+  "category": "TECH",
+  "event": "Binance said it has finished covering all of the roughly US$6.3 billion stolen in the 29 October hack, with new proof-of-reserves pending, per Quartz and crypto.news headlines.",
+  "key_numbers": "~US$6,3 miliar stolen · Coverage reported complete · Proof of reserves pending",
+  "storyline": "crypto-hacks",
+  "status": "partial",
+  "sources": "Quartz <https://qz.com/binance-covers-stolen-crypto-hack-losses-111226> ; crypto.news <https://crypto.news/binance-hack-assets-covered-proof-of-reserves/>"
+ },
+ {
+  "date": "2026-11-12",
+  "category": "NEWS",
+  "event": "Polri said the officer identified only as TK in the Prabowo wiretapping case is a Brigadier General (Brigjen) now being examined by Propam, and Kapolri told Komisi III that suspect Irjen Ahrie Sonta allegedly ordered TK to carry out the surveillance. (update of E0761)",
+  "key_numbers": "4 senior officers named suspects (Listyo Sigit Prabowo, Ahrie Sonta, Eko Hadi Santoso, Slamet Uliandi) · 3 detained at Mako Brimob Kelapa Dua · Slamet Uliandi not detained (recovering from stroke) · Sigit removed from KSP post on 4 Nov",
+  "storyline": "listyo-sigit-penyadapan",
+  "status": "verified",
+  "sources": "detikNews <https://news.detik.com/berita/d-8750744/polri-ungkap-sosok-tk-di-kasus-penyadapan-berpangkat-brigjen-kini-diperiksa-propam> ; Tribunnews <https://www.tribunnews.com/nasional/7910799/sosok-tk-di-kasus-penyadapan-presiden-ternyata-seorang-brigjen-kini-diperiksa-propam>"
+ },
+ {
+  "date": "2026-11-12",
+  "category": "NEWS",
+  "event": "Polri spokesperson Brigjen Trunoyudo Wisnu Andiko said Jokowi's diploma was already forensically tested by Puslabfor, recorded in a berita acara pro justitia and handed to prosecutors, so no new test is needed, rejecting the request of Roy Suryo's team.",
+  "key_numbers": "Request letter sent 11 Nov to Jakarta Timur District Court judges · 3 comparison diplomas from Nov 1985 requested · Puslabfor result itself not disclosed",
+  "storyline": "jokowi-ijazah-roy-suryo",
+  "status": "verified",
+  "sources": "detikNews <https://news.detik.com/berita/d-8750737/polri-sebut-ijazah-jowi-sudah-diuji-puslabfor-tak-perlu-uji-lagi> ; Tribunnews <https://www.tribunnews.com/nasional/7910800/polri-sebut-uji-forensik-ijazah-jokowi-rampung-permintaan-kubu-roy-suryo-untuk-tes-ulang-ditolak>"
+ },
+ {
+  "date": "2026-11-11",
+  "category": "ENV",
+  "event": "BNPB stopped water-bombing operations against karhutla in South Kalimantan, citing a sharp drop in fires and heavier November rain, and shifted firefighting to ground teams. (update of E0648)",
+  "key_numbers": "Two helicopters crashed during operations (Mi-17V5 in Seruyan, Central Kalimantan; EC225LP Super Puma in Barito River) · Earlier BNPB totals as of 8 Nov: 1,051 hotspots, 4,486 ha burned, of which Central Kalimantan 3,904 ha",
+  "storyline": "karhutla",
+  "status": "partial",
+  "sources": "Suara.com <https://www.suara.com/news/2026/11/11/184341/bnpb-setop-water-bombing-karhutla-di-kalsel-pemadaman-dialihkan-ke-darat> ; NU Online <https://www.nu.or.id/nasional/bnpb-catat-1-051-hotspot-karhutla-hanguskan-4-486-hektare-lahan-di-berbagai-wilayah-H2u1E>"
+ },
+ {
+  "date": "2026-11-12",
+  "category": "ENV",
+  "event": "Headlines reported karhutla hotspots rising 146% in Southeast Sulawesi (BNPB deploying 35 units) while BNPB had earlier reported a 66% rise in Papua Selatan, even as Kalimantan cools down. (update of E0648)",
+  "key_numbers": "Sultra hotspots +146% · 35 units deployed · Papua Selatan +66% (earlier report) · another report cited +94% with 342 hotspots (not reconciled)",
+  "storyline": "karhutla",
+  "status": "partial",
+  "sources": "Journalarta (headline only, page not readable) <https://journalarta.com/news/2026/11/12/titik-api-karhutla-sultra-naik-146-persen/> ; Kompas <https://nasional.kompas.com/read/2026/11/06/18502371/bnpb-titik-panas-akibat-karhutla-di-papua-selatan-naik-66-persen>"
+ },
+ {
+  "date": "2026-11-11",
+  "category": "NEWS",
+  "event": "CNBC Indonesia reported that OJK has revoked the licences of 16 BPR/BPRS rural banks in 2026 up to 3 November, the latest being BPR Agritrans Batumarta in South Sumatra, with LPS chair Anggito Abimanyu blaming weak governance.",
+  "key_numbers": "16 banks closed Jan-3 Nov 2026 · by month: Jan 2, Feb 2, Mar 2, Apr 1, Jun 1, Jul 3, Aug 1, Sep 3, Nov 1 · West Java 4 closures, West Sumatra 3",
+  "storyline": "",
+  "status": "partial",
+  "sources": "CNBC Indonesia <https://www.cnbcindonesia.com/market/20261111222450-17-784451/ada-16-bank-tumbang-per-november-2026-ini-daftar-lengkapnya> ; CNN Indonesia <https://www.cnnindonesia.com/ekonomi/20261104190050-78-1423379/daftar-terbaru-bank-tutup-per-4-november-2026>"
+ }
+]
