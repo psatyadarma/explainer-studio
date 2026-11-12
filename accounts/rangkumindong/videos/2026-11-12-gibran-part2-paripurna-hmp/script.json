@@ -8,14 +8,14 @@
   {
    "id": "h1",
    "tag": "[direct, curious]",
-   "text": "Gibran: mundur, atau dimakzulkan? Ini urutannya.",
-   "say": "Gibran: mundur, atau dimakzulkan? Ini urutannya."
+   "text": "Gibran mundur. Lalu, siapa wapres berikutnya?",
+   "say": "Gibran mundur. Lalu, siapa wapres berikutnya?"
   },
   {
    "id": "h2",
    "tag": "[playful, leaning in]",
-   "text": "Tebak dulu: tenggat resminya, dijumlah berapa hari?",
-   "say": "Tebak dulu: tenggat resminya, dijumlah berapa hari?"
+   "text": "Tebak dulu: kapan paling lambat ada wapres baru?",
+   "say": "Tebak dulu: kapan paling lambat ada wapres baru?"
   },
   {
    "id": "rd",
@@ -25,104 +25,92 @@
   {
    "id": "l1",
    "tag": "[explaining, measured]",
-   "text": "Kemarin: dua jalan. Kamis 12 November, jalan DPR bergerak.",
-   "say": "Kemarin: dua jalan. Kamis, dua belas November, jalan, De Pe Er bergerak."
+   "text": "Kemarin: dua jalan. Kamis 12 November, jalan pertama yang terjadi.",
+   "say": "Kemarin: dua jalan. Kamis, dua belas November, jalan pertama yang terjadi."
   },
   {
    "id": "l2",
    "tag": "[explaining]",
-   "text": "Usul hak menyatakan pendapat, HMP, masuk agenda paripurna.",
-   "say": "Usul hak menyatakan pendapat, Ha Em Pe, masuk agenda paripurna."
+   "text": "Kamis siang, Gibran datang ke Gedung MPR, menyerahkan surat pengunduran diri.",
+   "say": "Kamis siang, Gibran datang ke Gedung, Em Pe Er, menyerahkan surat pengunduran diri."
   },
   {
    "id": "l3",
-   "tag": "[explaining, quick]",
-   "text": "Pengusulnya 120 anggota, 8 fraksi. Syarat minimal: 25.",
-   "say": "Pengusulnya seratus dua puluh anggota, delapan fraksi. Syarat minimal: dua puluh lima."
+   "tag": "[careful, neutral]",
+   "text": "Kata Ketua MPR Ahmad Muzani, menurut Gibran, surat yang sama juga sudah disampaikan ke Presiden Prabowo.",
+   "say": "Kata Ketua, Em Pe Er Ahmad Muzani, menurut Gibran, surat yang sama juga sudah disampaikan ke Presiden Prabowo."
   },
   {
    "id": "l4",
    "tag": "[careful]",
-   "text": "Tapi acaranya tertulis: 'pengumuman usul'. Belum tentu diputuskan.",
-   "say": "Tapi acaranya tertulis: pengumuman usul. Belum tentu diputuskan."
+   "text": "Menurut Muzani, Gibran minta MPR segera memprosesnya.",
+   "say": "Menurut Muzani, Gibran minta, Em Pe Er segera memprosesnya."
   },
   {
    "id": "l5",
-   "tag": "[explaining, step by step]",
-   "text": "Langkah 1: paripurna memutuskan usul ini. Hadir minimal dua pertiga anggota, disetujui dua pertiga yang hadir. Diterima? Dibentuk pansus.",
-   "say": "Langkah satu: paripurna memutuskan usul ini. Hadir minimal dua pertiga anggota, disetujui dua pertiga yang hadir. Diterima? Dibentuk pansus."
+   "tag": "[explaining, quick]",
+   "text": "Jalan kedua? Paripurna DPR pukul 14.00 WIB, yang mau mengumumkan usul HMP, dibatalkan.",
+   "say": "Jalan kedua? Paripurna, De Pe Er pukul dua siang, yang mau mengumumkan usul, Ha Em Pe, dibatalkan."
   },
   {
    "id": "l6",
-   "tag": "[explaining, step by step]",
-   "text": "Langkah 2: pansus kerja maksimal 60 hari, lalu laporannya diputus paripurna.",
-   "say": "Langkah dua: pansus kerja maksimal enam puluh hari, lalu laporannya diputus paripurna."
+   "tag": "[neutral]",
+   "text": "Salah satu pengusul, Muhammad Khozin dari PKB. Menurut dia, usul itu tak relevan lagi.",
+   "say": "Salah satu pengusul, Muhammad Khozin dari, Pe Ka Be. Menurut dia, usul itu tak relevan lagi."
   },
   {
    "id": "l7",
-   "tag": "[explaining, step by step]",
-   "text": "Langkah 3: disetujui dua pertiga yang hadir? Dibawa ke MK. MK wajib memutus paling lama 90 hari.",
-   "say": "Langkah tiga: disetujui dua pertiga yang hadir? Dibawa ke, Em Ka. Em Ka wajib memutus paling lama sembilan puluh hari."
+   "tag": "[serious]",
+   "text": "Kata Muzani: sejak hari ini, jabatan wapres kosong.",
+   "say": "Kata Muzani: sejak hari ini, jabatan wapres kosong."
   },
   {
    "id": "l8",
    "tag": "[explaining, step by step]",
-   "text": "Langkah 4: MK menyatakan terbukti? DPR teruskan ke MPR. MPR wajib bersidang paling lambat 30 hari sejak terima usul. Tiga perempat hadir, dua pertiga setuju.",
-   "say": "Langkah empat: Em Ka menyatakan terbukti? De Pe Er teruskan ke, Em Pe Er. Em Pe Er wajib bersidang paling lambat tiga puluh hari sejak terima usul. Tiga perempat hadir, dua pertiga setuju."
+   "text": "Langkah 1: Jumat 13 November, MPR rapat gabungan. Menetapkan jadwal paripurna, dan menyurati Presiden.",
+   "say": "Langkah satu: Jumat, tiga belas November, Em Pe Er rapat gabungan. Menetapkan jadwal paripurna, dan menyurati Presiden."
   },
   {
    "id": "l9",
-   "tag": "[measured, shifting]",
-   "text": "Sementara, jalan satunya: surat mundur.",
-   "say": "Sementara, jalan satunya: surat mundur."
+   "tag": "[explaining, step by step]",
+   "text": "Langkah 2: Presiden mengusulkan dua calon, paling lambat 14 hari sebelum paripurna.",
+   "say": "Langkah dua: Presiden mengusulkan dua calon, paling lambat empat belas hari sebelum paripurna."
   },
   {
    "id": "l10",
-   "tag": "[careful]",
-   "text": "Kata Menko Yusril, mundur harus tertulis ke MPR.",
-   "say": "Kata Menko Yusril, mundur harus tertulis ke, Em Pe Er."
+   "tag": "[leaning in, serious]",
+   "text": "Tapi ingat: kali ini, wapres tidak dipilih lewat pemilu. Yang memilih: anggota MPR.",
+   "say": "Tapi ingat: kali ini, wapres tidak dipilih lewat pemilu. Yang memilih: anggota, Em Pe Er."
   },
   {
    "id": "l11",
-   "tag": "[careful, neutral]",
-   "text": "Kabar surat ke Presiden? Belum dikonfirmasi resmi Istana.",
-   "say": "Kabar surat ke Presiden? Belum dikonfirmasi resmi Istana."
+   "tag": "[explaining, step by step]",
+   "text": "Langkah 3: tim MPR memverifikasi dokumen kedua calon.",
+   "say": "Langkah tiga: tim, Em Pe Er memverifikasi dokumen kedua calon."
   },
   {
    "id": "l12",
-   "tag": "[explaining, quick]",
-   "text": "Waka MPR Bambang Wuryanto: dijadwalkan Kamis. Ketua MPR Ahmad Muzani, Rabu malam: belum terima.",
-   "say": "Waka, Em Pe Er Bambang Wuryanto: dijadwalkan Kamis. Ketua, Em Pe Er Ahmad Muzani, Rabu malam: belum terima."
+   "tag": "[explaining, step by step]",
+   "text": "Langkah 4: paripurna MPR memilih satu dari dua. Suara terbanyak menang. Kalau seri, voting diulang sekali; masih seri, Presiden yang memilih.",
+   "say": "Langkah empat: paripurna, Em Pe Er memilih satu dari dua. Suara terbanyak menang. Kalau seri, voting diulang sekali; masih seri, Presiden yang memilih."
   },
   {
    "id": "l13",
-   "tag": "[leaning in, serious]",
-   "text": "Tapi, menurut pengusul dari PKS, Mardani Ali Sera, HMP jalan terus sampai prosesnya final.",
-   "say": "Tapi, menurut pengusul dari, Pe Ka Es, Mardani Ali Sera, Ha Em Pe jalan terus sampai prosesnya final."
+   "tag": "[calm]",
+   "text": "Lalu dilantik di paripurna MPR.",
+   "say": "Lalu dilantik di paripurna, Em Pe Er."
   },
   {
    "id": "l14",
-   "tag": "[explaining]",
-   "text": "Kursi wapres kosong? MPR memilih wapres baru dalam 60 hari, dari dua calon usulan Presiden.",
-   "say": "Kursi wapres kosong? Em Pe Er memilih wapres baru dalam enam puluh hari, dari dua calon usulan Presiden."
-  },
-  {
-   "id": "l15",
    "tag": "[revealing, dramatic beat]",
-   "text": "Jawabannya: 60, 90, dan 30 hari. Total 180 hari.",
-   "say": "Jawabannya: enam puluh, sembilan puluh, dan tiga puluh hari. Total. Seratus delapan puluh. Hari."
-  },
-  {
-   "id": "l16",
-   "tag": "[calm]",
-   "text": "Belum termasuk rapat di antaranya.",
-   "say": "Belum termasuk rapat di antaranya."
+   "text": "Jawaban tebakan tadi: semua ini paling lambat 60 hari. Artinya, wapres baru paling lambat Januari 2027.",
+   "say": "Jawaban tebakan tadi: semua ini paling lambat enam puluh hari. Artinya, wapres baru paling lambat. Januari. Dua ribu dua puluh tujuh."
   },
   {
    "id": "cta",
    "tag": "[playful, asking the viewer]",
-   "text": "Menurut kamu, mana selesai duluan: surat ke MPR, atau proses DPR? Komen!",
-   "say": "Menurut kamu, mana selesai duluan: surat ke, Em Pe Er, atau proses, De Pe Er? Komen!"
+   "text": "Menurut kamu, apa yang paling penting dicek dari dua calon nanti? Komen!",
+   "say": "Menurut kamu, apa yang paling penting dicek dari dua calon nanti? Komen!"
   },
   {
    "id": "end",

@@ -23,7 +23,10 @@
   "factcheck_full": "done",
   "produce": "done",
   "qa": "pass",
-  "preview_sent": "done"
+  "preview_sent": "done",
+  "revision": "breaking_news",
+  "final_sent": "done",
+  "scheduled": "19:00"
  },
  "notes": [],
  "merge_stats": {

@@ -1,1252 +1,1166 @@
 {
- "duration": 110.624,
+ "duration": 93.286,
  "voice": "Pratama",
  "lines": [
   {
    "id": "h1",
-   "text": "Gibran: mundur, atau dimakzulkan? Ini urutannya.",
-   "start": 0.262,
-   "end": 3.412,
+   "text": "Gibran mundur. Lalu, siapa wapres berikutnya?",
+   "start": 0.321,
+   "end": 3.197,
    "words": [
     {
-     "w": "Gibran:",
-     "start": 0.262,
-     "end": 0.712
+     "w": "Gibran",
+     "start": 0.321,
+     "end": 0.597
     },
     {
-     "w": "mundur,",
-     "start": 0.784,
-     "end": 1.472
+     "w": "mundur.",
+     "start": 0.661,
+     "end": 1.255
     },
     {
-     "w": "atau",
-     "start": 1.52,
-     "end": 1.712
+     "w": "Lalu,",
+     "start": 1.277,
+     "end": 1.917
     },
     {
-     "w": "dimakzulkan?",
-     "start": 1.752,
-     "end": 2.432
+     "w": "siapa",
+     "start": 1.97,
+     "end": 2.317
     },
     {
-     "w": "Ini",
-     "start": 2.52,
-     "end": 2.852
+     "w": "wapres",
+     "start": 2.357,
+     "end": 2.637
     },
     {
-     "w": "urutannya.",
-     "start": 2.905,
-     "end": 3.412
+     "w": "berikutnya?",
+     "start": 2.677,
+     "end": 3.197
     }
    ]
   },
   {
    "id": "h2",
-   "text": "Tebak dulu: tenggat resminya, dijumlah berapa hari?",
-   "start": 3.6550000000000002,
-   "end": 6.444,
+   "text": "Tebak dulu: kapan paling lambat ada wapres baru?",
+   "start": 3.443,
+   "end": 6.151,
    "words": [
     {
      "w": "Tebak",
-     "start": 3.655,
-     "end": 3.824
+     "start": 3.443,
+     "end": 3.621
     },
     {
      "w": "dulu:",
-     "start": 3.864,
-     "end": 4.144
+     "start": 3.661,
+     "end": 4.085
     },
     {
-     "w": "tenggat",
-     "start": 4.2,
-     "end": 4.524
+     "w": "kapan",
+     "start": 4.085,
+     "end": 4.551
     },
     {
-     "w": "resminya,",
-     "start": 4.584,
-     "end": 5.324
+     "w": "paling",
+     "start": 4.591,
+     "end": 4.871
     },
     {
-     "w": "dijumlah",
-     "start": 5.377,
-     "end": 5.804
+     "w": "lambat",
+     "start": 4.919,
+     "end": 5.191
     },
     {
-     "w": "berapa",
-     "start": 5.844,
-     "end": 6.044
+     "w": "ada",
+     "start": 5.251,
+     "end": 5.431
     },
     {
-     "w": "hari?",
-     "start": 6.108,
-     "end": 6.444
+     "w": "wapres",
+     "start": 5.471,
+     "end": 5.751
+    },
+    {
+     "w": "baru?",
+     "start": 5.815,
+     "end": 6.151
     }
    ]
   },
   {
    "id": "rd",
    "text": "Rangkumin dong!",
-   "start": 6.672,
-   "end": 7.631,
+   "start": 6.356,
+   "end": 7.315,
    "words": [
     {
      "w": "Rangkumin",
-     "start": 6.672,
-     "end": 7.152
+     "start": 6.356,
+     "end": 6.836
     },
     {
      "w": "dong!",
-     "start": 7.152,
-     "end": 7.631
+     "start": 6.836,
+     "end": 7.315
     }
    ]
   },
   {
    "id": "l1",
-   "text": "Kemarin: dua jalan. Kamis 12 November, jalan DPR bergerak.",
-   "start": 8.18524716553288,
-   "end": 13.281247165532879,
+   "text": "Kemarin: dua jalan. Kamis 12 November, jalan pertama yang terjadi.",
+   "start": 7.800102040816326,
+   "end": 12.407102040816326,
    "words": [
     {
      "w": "Kemarin:",
-     "start": 8.185,
-     "end": 8.735
+     "start": 7.8,
+     "end": 8.217
     },
     {
      "w": "dua",
-     "start": 8.805,
-     "end": 9.015
+     "start": 8.317,
+     "end": 8.617
     },
     {
      "w": "jalan.",
-     "start": 9.095,
-     "end": 9.575
+     "start": 8.697,
+     "end": 9.177
     },
     {
      "w": "Kamis",
-     "start": 9.591,
-     "end": 10.225
+     "start": 9.265,
+     "end": 9.847
     },
     {
      "w": "12",
-     "start": 10.255,
-     "end": 10.785
+     "start": 9.867,
+     "end": 10.367
     },
     {
      "w": "November,",
-     "start": 10.816,
-     "end": 11.265
+     "start": 10.398,
+     "end": 10.727
     },
     {
      "w": "jalan",
-     "start": 11.365,
-     "end": 11.941
+     "start": 10.887,
+     "end": 11.207
     },
     {
-     "w": "DPR",
-     "start": 12.015,
-     "end": 12.575
+     "w": "pertama",
+     "start": 11.271,
+     "end": 11.687
     },
     {
-     "w": "bergerak.",
-     "start": 12.675,
-     "end": 13.281
+     "w": "yang",
+     "start": 11.719,
+     "end": 11.847
+    },
+    {
+     "w": "terjadi.",
+     "start": 11.887,
+     "end": 12.407
     }
    ]
   },
   {
    "id": "l2",
-   "text": "Usul hak menyatakan pendapat, HMP, masuk agenda paripurna.",
-   "start": 13.52824716553288,
-   "end": 17.65124716553288,
+   "text": "Kamis siang, Gibran datang ke Gedung MPR, menyerahkan surat pengunduran diri.",
+   "start": 12.657102040816326,
+   "end": 16.847102040816324,
    "words": [
     {
-     "w": "Usul",
-     "start": 13.528,
-     "end": 13.635
+     "w": "Kamis",
+     "start": 12.657,
+     "end": 12.767
     },
     {
-     "w": "hak",
-     "start": 13.715,
-     "end": 13.955
+     "w": "siang,",
+     "start": 12.847,
+     "end": 13.327
     },
     {
-     "w": "menyatakan",
-     "start": 13.987,
-     "end": 14.435
+     "w": "Gibran",
+     "start": 13.387,
+     "end": 13.727
     },
     {
-     "w": "pendapat,",
-     "start": 14.467,
-     "end": 15.095
+     "w": "datang",
+     "start": 13.787,
+     "end": 14.047
     },
     {
-     "w": "HMP,",
-     "start": 15.175,
-     "end": 15.815
+     "w": "ke",
+     "start": 14.074,
+     "end": 14.127
     },
     {
-     "w": "masuk",
-     "start": 15.935,
-     "end": 16.455
+     "w": "Gedung",
+     "start": 14.187,
+     "end": 14.527
     },
     {
-     "w": "agenda",
-     "start": 16.524,
-     "end": 16.935
+     "w": "MPR,",
+     "start": 14.58,
+     "end": 15.167
     },
     {
-     "w": "paripurna.",
-     "start": 16.975,
-     "end": 17.651
+     "w": "menyerahkan",
+     "start": 15.207,
+     "end": 15.727
+    },
+    {
+     "w": "surat",
+     "start": 15.787,
+     "end": 16.047
+    },
+    {
+     "w": "pengunduran",
+     "start": 16.079,
+     "end": 16.527
+    },
+    {
+     "w": "diri.",
+     "start": 16.567,
+     "end": 16.847
     }
    ]
   },
   {
    "id": "l3",
-   "text": "Pengusulnya 120 anggota, 8 fraksi. Syarat minimal: 25.",
-   "start": 17.81424716553288,
-   "end": 22.83124716553288,
+   "text": "Kata Ketua MPR Ahmad Muzani, menurut Gibran, surat yang sama juga sudah disampaikan ke Presiden Prabowo.",
+   "start": 17.245102040816327,
+   "end": 23.417102040816324,
    "words": [
     {
-     "w": "Pengusulnya",
-     "start": 17.814,
-     "end": 18.225
+     "w": "Kata",
+     "start": 17.245,
+     "end": 17.277
     },
     {
-     "w": "120",
-     "start": 18.285,
-     "end": 19.145
+     "w": "Ketua",
+     "start": 17.337,
+     "end": 17.757
     },
     {
-     "w": "anggota,",
-     "start": 19.175,
-     "end": 19.795
+     "w": "MPR",
+     "start": 17.81,
+     "end": 18.157
     },
     {
-     "w": "8",
-     "start": 19.835,
-     "end": 20.115
+     "w": "Ahmad",
+     "start": 18.21,
+     "end": 18.477
     },
     {
-     "w": "fraksi.",
-     "start": 20.195,
-     "end": 20.676
+     "w": "Muzani,",
+     "start": 18.517,
+     "end": 19.117
     },
     {
-     "w": "Syarat",
-     "start": 20.831,
-     "end": 21.215
+     "w": "menurut",
+     "start": 19.217,
+     "end": 19.607
     },
     {
-     "w": "minimal:",
-     "start": 21.275,
-     "end": 21.895
+     "w": "Gibran,",
+     "start": 19.667,
+     "end": 20.297
     },
     {
-     "w": "25.",
-     "start": 21.945,
-     "end": 22.831
+     "w": "surat",
+     "start": 20.357,
+     "end": 20.617
+    },
+    {
+     "w": "yang",
+     "start": 20.649,
+     "end": 20.777
+    },
+    {
+     "w": "sama",
+     "start": 20.841,
+     "end": 21.097
+    },
+    {
+     "w": "juga",
+     "start": 21.145,
+     "end": 21.337
+    },
+    {
+     "w": "sudah",
+     "start": 21.377,
+     "end": 21.577
+    },
+    {
+     "w": "disampaikan",
+     "start": 21.617,
+     "end": 22.137
+    },
+    {
+     "w": "ke",
+     "start": 22.19,
+     "end": 22.297
+    },
+    {
+     "w": "Presiden",
+     "start": 22.345,
+     "end": 22.777
+    },
+    {
+     "w": "Prabowo.",
+     "start": 22.83,
+     "end": 23.417
     }
    ]
   },
   {
    "id": "l4",
-   "text": "Tapi acaranya tertulis: 'pengumuman usul'. Belum tentu diputuskan.",
-   "start": 22.91024716553288,
-   "end": 27.41124716553288,
+   "text": "Menurut Muzani, Gibran minta MPR segera memprosesnya.",
+   "start": 23.697102040816326,
+   "end": 27.277102040816324,
    "words": [
     {
-     "w": "Tapi",
-     "start": 22.91,
-     "end": 23.41
+     "w": "Menurut",
+     "start": 23.697,
+     "end": 23.887
     },
     {
-     "w": "acaranya",
-     "start": 23.517,
-     "end": 23.97
+     "w": "Muzani,",
+     "start": 23.927,
+     "end": 24.637
     },
     {
-     "w": "tertulis:",
-     "start": 24.018,
-     "end": 24.77
+     "w": "Gibran",
+     "start": 24.697,
+     "end": 25.037
     },
     {
-     "w": "'pengumuman",
-     "start": 24.818,
-     "end": 25.33
+     "w": "minta",
+     "start": 25.101,
+     "end": 25.517
     },
     {
-     "w": "usul'.",
-     "start": 25.437,
-     "end": 25.89
+     "w": "MPR",
+     "start": 25.544,
+     "end": 25.997
     },
     {
-     "w": "Belum",
-     "start": 26.001,
-     "end": 26.37
+     "w": "segera",
+     "start": 26.077,
+     "end": 26.477
     },
     {
-     "w": "tentu",
-     "start": 26.402,
-     "end": 26.65
-    },
-    {
-     "w": "diputuskan.",
-     "start": 26.68,
-     "end": 27.411
+     "w": "memprosesnya.",
+     "start": 26.517,
+     "end": 27.277
     }
    ]
   },
   {
    "id": "l5",
-   "text": "Langkah 1: paripurna memutuskan usul ini. Hadir minimal dua pertiga anggota, disetujui dua pertiga yang hadir. Diterima? Dibentuk pansus.",
-   "start": 27.694247165532882,
-   "end": 36.76124716553288,
+   "text": "Jalan kedua? Paripurna DPR pukul 14.00 WIB, yang mau mengumumkan usul HMP, dibatalkan.",
+   "start": 27.513102040816328,
+   "end": 34.01610204081633,
    "words": [
     {
-     "w": "Langkah",
-     "start": 27.694,
-     "end": 27.792
+     "w": "Jalan",
+     "start": 27.513,
+     "end": 27.686
     },
     {
-     "w": "1:",
-     "start": 27.872,
-     "end": 28.272
+     "w": "kedua?",
+     "start": 27.746,
+     "end": 28.246
     },
     {
-     "w": "paripurna",
-     "start": 28.371,
-     "end": 29.082
+     "w": "Paripurna",
+     "start": 28.295,
+     "end": 29.006
     },
     {
-     "w": "memutuskan",
-     "start": 29.142,
-     "end": 29.722
+     "w": "DPR",
+     "start": 29.135,
+     "end": 29.776
     },
     {
-     "w": "usul",
-     "start": 29.775,
-     "end": 29.962
+     "w": "pukul",
+     "start": 29.856,
+     "end": 30.096
     },
     {
-     "w": "ini.",
-     "start": 30.022,
-     "end": 30.282
+     "w": "14.00",
+     "start": 30.136,
+     "end": 30.469
     },
     {
-     "w": "Hadir",
-     "start": 30.391,
-     "end": 30.882
-    },
-    {
-     "w": "minimal",
-     "start": 30.932,
-     "end": 31.282
-    },
-    {
-     "w": "dua",
-     "start": 31.342,
-     "end": 31.522
-    },
-    {
-     "w": "pertiga",
-     "start": 31.586,
-     "end": 31.922
-    },
-    {
-     "w": "anggota,",
-     "start": 31.982,
-     "end": 32.651
-    },
-    {
-     "w": "disetujui",
-     "start": 32.651,
-     "end": 33.382
-    },
-    {
-     "w": "dua",
-     "start": 33.462,
-     "end": 33.702
-    },
-    {
-     "w": "pertiga",
-     "start": 33.766,
-     "end": 34.102
+     "w": "WIB,",
+     "start": 30.469,
+     "end": 30.736
     },
     {
      "w": "yang",
-     "start": 34.134,
-     "end": 34.262
+     "start": 30.8,
+     "end": 31.056
     },
     {
-     "w": "hadir.",
-     "start": 34.322,
-     "end": 34.771
+     "w": "mau",
+     "start": 31.116,
+     "end": 31.296
     },
     {
-     "w": "Diterima?",
-     "start": 34.771,
-     "end": 35.491
+     "w": "mengumumkan",
+     "start": 31.344,
+     "end": 31.856
     },
     {
-     "w": "Dibentuk",
-     "start": 35.491,
-     "end": 36.032
+     "w": "usul",
+     "start": 31.963,
+     "end": 32.496
     },
     {
-     "w": "pansus.",
-     "start": 36.096,
-     "end": 36.761
+     "w": "HMP,",
+     "start": 32.549,
+     "end": 33.136
+    },
+    {
+     "w": "dibatalkan.",
+     "start": 33.196,
+     "end": 34.016
     }
    ]
   },
   {
    "id": "l6",
-   "text": "Langkah 2: pansus kerja maksimal 60 hari, lalu laporannya diputus paripurna.",
-   "start": 37.01624716553288,
-   "end": 42.24124716553288,
+   "text": "Salah satu pengusul, Muhammad Khozin dari PKB. Menurut dia, usul itu tak relevan lagi.",
+   "start": 34.322102040816326,
+   "end": 39.566102040816325,
    "words": [
     {
-     "w": "Langkah",
-     "start": 37.016,
-     "end": 37.192
+     "w": "Salah",
+     "start": 34.322,
+     "end": 34.366
     },
     {
-     "w": "2:",
-     "start": 37.252,
-     "end": 37.592
+     "w": "satu",
+     "start": 34.414,
+     "end": 34.606
     },
     {
-     "w": "pansus",
-     "start": 37.701,
-     "end": 38.262
+     "w": "pengusul,",
+     "start": 34.654,
+     "end": 35.366
     },
     {
-     "w": "kerja",
-     "start": 38.302,
-     "end": 38.582
+     "w": "Muhammad",
+     "start": 35.388,
+     "end": 35.566
     },
     {
-     "w": "maksimal",
-     "start": 38.63,
-     "end": 39.062
+     "w": "Khozin",
+     "start": 35.626,
+     "end": 36.046
     },
     {
-     "w": "60",
-     "start": 39.11,
-     "end": 39.622
+     "w": "dari",
+     "start": 36.094,
+     "end": 36.406
     },
     {
-     "w": "hari,",
-     "start": 39.654,
-     "end": 39.862
+     "w": "PKB.",
+     "start": 36.446,
+     "end": 37.086
     },
     {
-     "w": "lalu",
-     "start": 39.991,
-     "end": 40.472
+     "w": "Menurut",
+     "start": 37.155,
+     "end": 37.566
     },
     {
-     "w": "laporannya",
-     "start": 40.512,
-     "end": 41.032
+     "w": "dia,",
+     "start": 37.646,
+     "end": 37.966
     },
     {
-     "w": "diputus",
-     "start": 41.092,
-     "end": 41.512
+     "w": "usul",
+     "start": 38.073,
+     "end": 38.366
     },
     {
-     "w": "paripurna.",
-     "start": 41.552,
-     "end": 42.241
+     "w": "itu",
+     "start": 38.426,
+     "end": 38.606
+    },
+    {
+     "w": "tak",
+     "start": 38.646,
+     "end": 38.766
+    },
+    {
+     "w": "relevan",
+     "start": 38.806,
+     "end": 39.086
+    },
+    {
+     "w": "lagi.",
+     "start": 39.166,
+     "end": 39.566
     }
    ]
   },
   {
    "id": "l7",
-   "text": "Langkah 3: disetujui dua pertiga yang hadir? Dibawa ke MK. MK wajib memutus paling lama 90 hari.",
-   "start": 42.50624716553288,
-   "end": 49.98424716553288,
+   "text": "Kata Muzani: sejak hari ini, jabatan wapres kosong.",
+   "start": 39.80310204081633,
+   "end": 43.11610204081632,
    "words": [
     {
-     "w": "Langkah",
-     "start": 42.506,
-     "end": 42.684
+     "w": "Kata",
+     "start": 39.803,
+     "end": 39.846
     },
     {
-     "w": "3:",
-     "start": 42.724,
-     "end": 43.084
+     "w": "Muzani:",
+     "start": 39.926,
+     "end": 40.486
     },
     {
-     "w": "disetujui",
-     "start": 43.251,
-     "end": 43.854
+     "w": "sejak",
+     "start": 40.635,
+     "end": 41.116
     },
     {
-     "w": "dua",
-     "start": 43.894,
-     "end": 44.014
+     "w": "hari",
+     "start": 41.164,
+     "end": 41.356
     },
     {
-     "w": "pertiga",
-     "start": 44.078,
-     "end": 44.414
+     "w": "ini,",
+     "start": 41.416,
+     "end": 41.676
     },
     {
-     "w": "yang",
-     "start": 44.446,
-     "end": 44.574
+     "w": "jabatan",
+     "start": 41.736,
+     "end": 42.076
     },
     {
-     "w": "hadir?",
-     "start": 44.634,
-     "end": 45.121
+     "w": "wapres",
+     "start": 42.116,
+     "end": 42.556
     },
     {
-     "w": "Dibawa",
-     "start": 45.121,
-     "end": 45.654
-    },
-    {
-     "w": "ke",
-     "start": 45.761,
-     "end": 46.214
-    },
-    {
-     "w": "MK.",
-     "start": 46.294,
-     "end": 46.781
-    },
-    {
-     "w": "MK",
-     "start": 46.781,
-     "end": 47.304
-    },
-    {
-     "w": "wajib",
-     "start": 47.384,
-     "end": 47.704
-    },
-    {
-     "w": "memutus",
-     "start": 47.764,
-     "end": 48.184
-    },
-    {
-     "w": "paling",
-     "start": 48.264,
-     "end": 48.584
-    },
-    {
-     "w": "lama",
-     "start": 48.664,
-     "end": 48.904
-    },
-    {
-     "w": "90",
-     "start": 48.964,
-     "end": 49.744
-    },
-    {
-     "w": "hari.",
-     "start": 49.784,
-     "end": 49.984
+     "w": "kosong.",
+     "start": 42.616,
+     "end": 43.116
     }
    ]
   },
   {
    "id": "l8",
-   "text": "Langkah 4: MK menyatakan terbukti? DPR teruskan ke MPR. MPR wajib bersidang paling lambat 30 hari sejak terima usul. Tiga perempat hadir, dua pertiga setuju.",
-   "start": 50.28924716553288,
-   "end": 61.46124716553288,
+   "text": "Langkah 1: Jumat 13 November, MPR rapat gabungan. Menetapkan jadwal paripurna, dan menyurati Presiden.",
+   "start": 43.43910204081632,
+   "end": 50.405102040816324,
    "words": [
     {
      "w": "Langkah",
-     "start": 50.289,
-     "end": 50.513
+     "start": 43.439,
+     "end": 43.545
     },
     {
-     "w": "4:",
-     "start": 50.566,
-     "end": 50.911
+     "w": "1:",
+     "start": 43.625,
+     "end": 44.025
     },
     {
-     "w": "MK",
-     "start": 50.911,
-     "end": 51.343
+     "w": "Jumat",
+     "start": 44.125,
+     "end": 44.695
     },
     {
-     "w": "menyatakan",
-     "start": 51.375,
-     "end": 51.823
+     "w": "13",
+     "start": 44.735,
+     "end": 45.295
     },
     {
-     "w": "terbukti?",
-     "start": 51.863,
-     "end": 52.481
-    },
-    {
-     "w": "DPR",
-     "start": 52.481,
-     "end": 53.103
-    },
-    {
-     "w": "teruskan",
-     "start": 53.143,
-     "end": 53.583
-    },
-    {
-     "w": "ke",
-     "start": 53.663,
-     "end": 53.983
-    },
-    {
-     "w": "MPR.",
-     "start": 54.036,
-     "end": 54.801
+     "w": "November,",
+     "start": 45.326,
+     "end": 45.655
     },
     {
      "w": "MPR",
-     "start": 54.801,
-     "end": 55.423
+     "start": 45.735,
+     "end": 46.375
     },
     {
-     "w": "wajib",
-     "start": 55.503,
-     "end": 55.823
+     "w": "rapat",
+     "start": 46.435,
+     "end": 46.695
     },
     {
-     "w": "bersidang",
-     "start": 55.871,
-     "end": 56.303
+     "w": "gabungan.",
+     "start": 46.755,
+     "end": 47.335
     },
     {
-     "w": "paling",
-     "start": 56.383,
-     "end": 56.703
+     "w": "Menetapkan",
+     "start": 47.335,
+     "end": 47.925
     },
     {
-     "w": "lambat",
-     "start": 56.751,
-     "end": 57.023
+     "w": "jadwal",
+     "start": 47.965,
+     "end": 48.245
     },
     {
-     "w": "30",
-     "start": 57.103,
-     "end": 57.743
+     "w": "paripurna,",
+     "start": 48.285,
+     "end": 49.045
     },
     {
-     "w": "hari",
-     "start": 57.775,
-     "end": 57.903
+     "w": "dan",
+     "start": 49.085,
+     "end": 49.205
     },
     {
-     "w": "sejak",
-     "start": 57.956,
-     "end": 58.223
+     "w": "menyurati",
+     "start": 49.253,
+     "end": 49.765
     },
     {
-     "w": "terima",
-     "start": 58.243,
-     "end": 58.463
-    },
-    {
-     "w": "usul.",
-     "start": 58.543,
-     "end": 59.021
-    },
-    {
-     "w": "Tiga",
-     "start": 59.021,
-     "end": 59.323
-    },
-    {
-     "w": "perempat",
-     "start": 59.363,
-     "end": 59.643
-    },
-    {
-     "w": "hadir,",
-     "start": 59.723,
-     "end": 60.124
-    },
-    {
-     "w": "dua",
-     "start": 60.221,
-     "end": 60.513
-    },
-    {
-     "w": "pertiga",
-     "start": 60.561,
-     "end": 60.913
-    },
-    {
-     "w": "setuju.",
-     "start": 60.953,
-     "end": 61.461
+     "w": "Presiden.",
+     "start": 49.813,
+     "end": 50.405
     }
    ]
   },
   {
    "id": "l9",
-   "text": "Sementara, jalan satunya: surat mundur.",
-   "start": 61.61224716553288,
-   "end": 64.33224716553288,
+   "text": "Langkah 2: Presiden mengusulkan dua calon, paling lambat 14 hari sebelum paripurna.",
+   "start": 50.73810204081632,
+   "end": 55.76510204081632,
    "words": [
     {
-     "w": "Sementara,",
-     "start": 61.612,
-     "end": 62.372
+     "w": "Langkah",
+     "start": 50.738,
+     "end": 50.924
     },
     {
-     "w": "jalan",
-     "start": 62.432,
-     "end": 62.652
+     "w": "2:",
+     "start": 50.984,
+     "end": 51.324
     },
     {
-     "w": "satunya:",
-     "start": 62.712,
-     "end": 63.372
+     "w": "Presiden",
+     "start": 51.365,
+     "end": 51.824
     },
     {
-     "w": "surat",
-     "start": 63.472,
-     "end": 63.852
+     "w": "mengusulkan",
+     "start": 51.856,
+     "end": 52.384
     },
     {
-     "w": "mundur.",
-     "start": 63.9,
-     "end": 64.332
+     "w": "dua",
+     "start": 52.424,
+     "end": 52.544
+    },
+    {
+     "w": "calon,",
+     "start": 52.604,
+     "end": 53.115
+    },
+    {
+     "w": "paling",
+     "start": 53.154,
+     "end": 53.414
+    },
+    {
+     "w": "lambat",
+     "start": 53.478,
+     "end": 53.814
+    },
+    {
+     "w": "14",
+     "start": 53.867,
+     "end": 54.414
+    },
+    {
+     "w": "hari",
+     "start": 54.454,
+     "end": 54.614
+    },
+    {
+     "w": "sebelum",
+     "start": 54.667,
+     "end": 55.014
+    },
+    {
+     "w": "paripurna.",
+     "start": 55.054,
+     "end": 55.765
     }
    ]
   },
   {
    "id": "l10",
-   "text": "Kata Menko Yusril, mundur harus tertulis ke MPR.",
-   "start": 64.72424716553287,
-   "end": 68.22124716553287,
+   "text": "Tapi ingat: kali ini, wapres tidak dipilih lewat pemilu. Yang memilih: anggota MPR.",
+   "start": 55.984102040816325,
+   "end": 61.74510204081633,
    "words": [
     {
-     "w": "Kata",
-     "start": 64.724,
-     "end": 64.772
+     "w": "Tapi",
+     "start": 55.984,
+     "end": 56.032
     },
     {
-     "w": "Menko",
-     "start": 64.832,
-     "end": 65.092
+     "w": "ingat:",
+     "start": 56.092,
+     "end": 56.465
     },
     {
-     "w": "Yusril,",
-     "start": 65.132,
-     "end": 65.652
+     "w": "kali",
+     "start": 56.465,
+     "end": 56.852
     },
     {
-     "w": "mundur",
-     "start": 65.721,
-     "end": 66.302
+     "w": "ini,",
+     "start": 56.932,
+     "end": 57.332
     },
     {
-     "w": "harus",
-     "start": 66.342,
-     "end": 66.542
+     "w": "wapres",
+     "start": 57.412,
+     "end": 57.892
     },
     {
-     "w": "tertulis",
-     "start": 66.59,
-     "end": 67.022
+     "w": "tidak",
+     "start": 57.919,
+     "end": 58.052
     },
     {
-     "w": "ke",
-     "start": 67.102,
-     "end": 67.342
+     "w": "dipilih",
+     "start": 58.112,
+     "end": 58.532
+    },
+    {
+     "w": "lewat",
+     "start": 58.585,
+     "end": 58.852
+    },
+    {
+     "w": "pemilu.",
+     "start": 58.912,
+     "end": 59.412
+    },
+    {
+     "w": "Yang",
+     "start": 59.435,
+     "end": 59.732
+    },
+    {
+     "w": "memilih:",
+     "start": 59.772,
+     "end": 60.212
+    },
+    {
+     "w": "anggota",
+     "start": 60.245,
+     "end": 60.952
     },
     {
      "w": "MPR.",
-     "start": 67.449,
-     "end": 68.221
+     "start": 61.049,
+     "end": 61.745
     }
    ]
   },
   {
    "id": "l11",
-   "text": "Kabar surat ke Presiden? Belum dikonfirmasi resmi Istana.",
-   "start": 68.45824716553288,
-   "end": 71.59824716553288,
+   "text": "Langkah 3: tim MPR memverifikasi dokumen kedua calon.",
+   "start": 62.01610204081633,
+   "end": 65.67410204081632,
    "words": [
     {
-     "w": "Kabar",
-     "start": 68.458,
-     "end": 68.578
+     "w": "Langkah",
+     "start": 62.016,
+     "end": 62.194
     },
     {
-     "w": "surat",
-     "start": 68.638,
-     "end": 68.898
+     "w": "3:",
+     "start": 62.234,
+     "end": 62.594
     },
     {
-     "w": "ke",
-     "start": 68.925,
-     "end": 68.978
+     "w": "tim",
+     "start": 62.675,
+     "end": 63.114
     },
     {
-     "w": "Presiden?",
-     "start": 69.026,
-     "end": 69.611
+     "w": "MPR",
+     "start": 63.141,
+     "end": 63.514
     },
     {
-     "w": "Belum",
-     "start": 69.611,
-     "end": 69.998
+     "w": "memverifikasi",
+     "start": 63.574,
+     "end": 64.314
     },
     {
-     "w": "dikonfirmasi",
-     "start": 70.058,
-     "end": 70.718
+     "w": "dokumen",
+     "start": 64.374,
+     "end": 64.874
     },
     {
-     "w": "resmi",
-     "start": 70.771,
-     "end": 71.038
+     "w": "kedua",
+     "start": 64.914,
+     "end": 65.194
     },
     {
-     "w": "Istana.",
-     "start": 71.098,
-     "end": 71.598
+     "w": "calon.",
+     "start": 65.254,
+     "end": 65.674
     }
    ]
   },
   {
    "id": "l12",
-   "text": "Waka MPR Bambang Wuryanto: dijadwalkan Kamis. Ketua MPR Ahmad Muzani, Rabu malam: belum terima.",
-   "start": 71.85424716553288,
-   "end": 79.03424716553288,
+   "text": "Langkah 4: paripurna MPR memilih satu dari dua. Suara terbanyak menang. Kalau seri, voting diulang sekali; masih seri, Presiden yang memilih.",
+   "start": 65.95810204081633,
+   "end": 75.03510204081633,
    "words": [
     {
-     "w": "Waka",
-     "start": 71.854,
-     "end": 72.294
+     "w": "Langkah",
+     "start": 65.958,
+     "end": 66.054
+    },
+    {
+     "w": "4:",
+     "start": 66.107,
+     "end": 66.534
+    },
+    {
+     "w": "paripurna",
+     "start": 66.574,
+     "end": 67.304
     },
     {
      "w": "MPR",
-     "start": 72.401,
-     "end": 72.854
+     "start": 67.357,
+     "end": 67.784
     },
     {
-     "w": "Bambang",
-     "start": 72.934,
-     "end": 73.254
+     "w": "memilih",
+     "start": 67.844,
+     "end": 68.184
     },
     {
-     "w": "Wuryanto:",
-     "start": 73.294,
-     "end": 73.894
+     "w": "satu",
+     "start": 68.264,
+     "end": 68.584
     },
     {
-     "w": "dijadwalkan",
-     "start": 73.961,
-     "end": 74.654
+     "w": "dari",
+     "start": 68.632,
+     "end": 68.824
     },
     {
-     "w": "Kamis.",
-     "start": 74.734,
-     "end": 75.281
+     "w": "dua.",
+     "start": 68.904,
+     "end": 69.215
     },
     {
-     "w": "Ketua",
-     "start": 75.281,
-     "end": 75.954
+     "w": "Suara",
+     "start": 69.311,
+     "end": 69.604
     },
     {
-     "w": "MPR",
-     "start": 76.007,
-     "end": 76.434
+     "w": "terbanyak",
+     "start": 69.664,
+     "end": 70.164
     },
     {
-     "w": "Ahmad",
-     "start": 76.487,
-     "end": 76.754
+     "w": "menang.",
+     "start": 70.224,
+     "end": 70.724
     },
     {
-     "w": "Muzani,",
-     "start": 76.794,
-     "end": 77.314
+     "w": "Kalau",
+     "start": 70.735,
+     "end": 71.064
     },
     {
-     "w": "Rabu",
-     "start": 77.414,
-     "end": 77.834
+     "w": "seri,",
+     "start": 71.128,
+     "end": 71.464
     },
     {
-     "w": "malam:",
-     "start": 77.864,
-     "end": 78.274
+     "w": "voting",
+     "start": 71.555,
+     "end": 72.064
     },
     {
-     "w": "belum",
-     "start": 78.321,
-     "end": 78.554
+     "w": "diulang",
+     "start": 72.117,
+     "end": 72.464
     },
     {
-     "w": "terima.",
-     "start": 78.594,
-     "end": 79.034
+     "w": "sekali;",
+     "start": 72.524,
+     "end": 72.944
+    },
+    {
+     "w": "masih",
+     "start": 72.975,
+     "end": 73.364
+    },
+    {
+     "w": "seri,",
+     "start": 73.428,
+     "end": 73.764
+    },
+    {
+     "w": "Presiden",
+     "start": 73.855,
+     "end": 74.404
+    },
+    {
+     "w": "yang",
+     "start": 74.42,
+     "end": 74.484
+    },
+    {
+     "w": "memilih.",
+     "start": 74.544,
+     "end": 75.035
     }
    ]
   },
   {
    "id": "l13",
-   "text": "Tapi, menurut pengusul dari PKS, Mardani Ali Sera, HMP jalan terus sampai prosesnya final.",
-   "start": 79.65424716553288,
-   "end": 85.86124716553289,
+   "text": "Lalu dilantik di paripurna MPR.",
+   "start": 75.36610204081633,
+   "end": 77.58510204081632,
    "words": [
     {
-     "w": "Tapi,",
-     "start": 79.654,
-     "end": 79.894
+     "w": "Lalu",
+     "start": 75.366,
+     "end": 75.526
     },
     {
-     "w": "menurut",
-     "start": 79.924,
-     "end": 80.174
+     "w": "dilantik",
+     "start": 75.586,
+     "end": 76.086
     },
     {
-     "w": "pengusul",
-     "start": 80.206,
-     "end": 80.574
+     "w": "di",
+     "start": 76.139,
+     "end": 76.246
     },
     {
-     "w": "dari",
-     "start": 80.654,
-     "end": 81.134
+     "w": "paripurna",
+     "start": 76.286,
+     "end": 76.966
     },
     {
-     "w": "PKS,",
-     "start": 81.187,
-     "end": 81.854
-    },
-    {
-     "w": "Mardani",
-     "start": 81.934,
-     "end": 82.334
-    },
-    {
-     "w": "Ali",
-     "start": 82.394,
-     "end": 82.574
-    },
-    {
-     "w": "Sera,",
-     "start": 82.614,
-     "end": 83.061
-    },
-    {
-     "w": "HMP",
-     "start": 83.061,
-     "end": 83.764
-    },
-    {
-     "w": "jalan",
-     "start": 83.804,
-     "end": 84.004
-    },
-    {
-     "w": "terus",
-     "start": 84.064,
-     "end": 84.324
-    },
-    {
-     "w": "sampai",
-     "start": 84.404,
-     "end": 84.884
-    },
-    {
-     "w": "prosesnya",
-     "start": 84.932,
-     "end": 85.364
-    },
-    {
-     "w": "final.",
-     "start": 85.431,
-     "end": 85.861
+     "w": "MPR.",
+     "start": 77.019,
+     "end": 77.585
     }
    ]
   },
   {
    "id": "l14",
-   "text": "Kursi wapres kosong? MPR memilih wapres baru dalam 60 hari, dari dua calon usulan Presiden.",
-   "start": 86.01424716553288,
-   "end": 91.95124716553288,
+   "text": "Jawaban tebakan tadi: semua ini paling lambat 60 hari. Artinya, wapres baru paling lambat Januari 2027.",
+   "start": 77.88910204081633,
+   "end": 86.13610204081633,
    "words": [
     {
-     "w": "Kursi",
-     "start": 86.014,
-     "end": 86.224
+     "w": "Jawaban",
+     "start": 77.889,
+     "end": 78.146
     },
     {
-     "w": "wapres",
-     "start": 86.244,
-     "end": 86.584
+     "w": "tebakan",
+     "start": 78.186,
+     "end": 78.466
     },
     {
-     "w": "kosong?",
-     "start": 86.644,
-     "end": 87.131
+     "w": "tadi:",
+     "start": 78.506,
+     "end": 78.946
     },
     {
-     "w": "MPR",
-     "start": 87.131,
-     "end": 87.764
+     "w": "semua",
+     "start": 79.025,
+     "end": 79.546
     },
     {
-     "w": "memilih",
-     "start": 87.804,
-     "end": 88.164
+     "w": "ini",
+     "start": 79.606,
+     "end": 79.786
     },
     {
-     "w": "wapres",
-     "start": 88.204,
-     "end": 88.484
+     "w": "paling",
+     "start": 79.826,
+     "end": 80.106
     },
     {
-     "w": "baru",
-     "start": 88.548,
-     "end": 88.804
-    },
-    {
-     "w": "dalam",
-     "start": 88.857,
-     "end": 89.124
+     "w": "lambat",
+     "start": 80.154,
+     "end": 80.506
     },
     {
      "w": "60",
-     "start": 89.188,
-     "end": 89.764
-    },
-    {
-     "w": "hari,",
-     "start": 89.796,
-     "end": 90.004
-    },
-    {
-     "w": "dari",
-     "start": 90.024,
-     "end": 90.344
-    },
-    {
-     "w": "dua",
-     "start": 90.424,
-     "end": 90.664
-    },
-    {
-     "w": "calon",
-     "start": 90.724,
-     "end": 90.984
-    },
-    {
-     "w": "usulan",
-     "start": 91.037,
-     "end": 91.304
-    },
-    {
-     "w": "Presiden.",
-     "start": 91.352,
-     "end": 91.951
-    }
-   ]
-  },
-  {
-   "id": "l15",
-   "text": "Jawabannya: 60, 90, dan 30 hari. Total 180 hari.",
-   "start": 92.25724716553287,
-   "end": 99.16124716553288,
-   "words": [
-    {
-     "w": "Jawabannya:",
-     "start": 92.257,
-     "end": 92.861
-    },
-    {
-     "w": "60,",
-     "start": 92.861,
-     "end": 93.714
-    },
-    {
-     "w": "90,",
-     "start": 93.714,
-     "end": 94.744
-    },
-    {
-     "w": "dan",
-     "start": 94.824,
-     "end": 95.064
-    },
-    {
-     "w": "30",
-     "start": 95.184,
-     "end": 95.904
+     "start": 80.554,
+     "end": 81.106
     },
     {
      "w": "hari.",
-     "start": 95.944,
-     "end": 96.141
+     "start": 81.146,
+     "end": 81.375
     },
     {
-     "w": "Total",
-     "start": 96.141,
-     "end": 96.894
+     "w": "Artinya,",
+     "start": 81.375,
+     "end": 82.096
     },
     {
-     "w": "180",
-     "start": 96.984,
-     "end": 98.581
+     "w": "wapres",
+     "start": 82.236,
+     "end": 82.716
     },
     {
-     "w": "hari.",
-     "start": 98.652,
-     "end": 99.161
-    }
-   ]
-  },
-  {
-   "id": "l16",
-   "text": "Belum termasuk rapat di antaranya.",
-   "start": 99.36924716553288,
-   "end": 101.24124716553288,
-   "words": [
-    {
-     "w": "Belum",
-     "start": 99.369,
-     "end": 99.464
+     "w": "baru",
+     "start": 82.78,
+     "end": 83.036
     },
     {
-     "w": "termasuk",
-     "start": 99.512,
-     "end": 100.024
+     "w": "paling",
+     "start": 83.116,
+     "end": 83.436
     },
     {
-     "w": "rapat",
-     "start": 100.104,
-     "end": 100.504
+     "w": "lambat",
+     "start": 83.484,
+     "end": 83.865
     },
     {
-     "w": "di",
-     "start": 100.531,
-     "end": 100.584
+     "w": "Januari",
+     "start": 83.876,
+     "end": 84.776
     },
     {
-     "w": "antaranya.",
-     "start": 100.644,
-     "end": 101.241
+     "w": "2027.",
+     "start": 84.856,
+     "end": 86.136
     }
    ]
   },
   {
    "id": "cta",
-   "text": "Menurut kamu, mana selesai duluan: surat ke MPR, atau proses DPR? Komen!",
-   "start": 101.45924716553289,
-   "end": 107.53924716553288,
+   "text": "Menurut kamu, apa yang paling penting dicek dari dua calon nanti? Komen!",
+   "start": 86.27810204081632,
+   "end": 90.03510204081633,
    "words": [
     {
      "w": "Menurut",
-     "start": 101.459,
-     "end": 101.739
+     "start": 86.278,
+     "end": 86.558
     },
     {
      "w": "kamu,",
-     "start": 101.803,
-     "end": 102.299
+     "start": 86.622,
+     "end": 86.958
     },
     {
-     "w": "mana",
-     "start": 102.347,
-     "end": 102.539
+     "w": "apa",
+     "start": 87.025,
+     "end": 87.368
     },
     {
-     "w": "selesai",
-     "start": 102.566,
-     "end": 102.779
+     "w": "yang",
+     "start": 87.4,
+     "end": 87.528
     },
     {
-     "w": "duluan:",
-     "start": 102.839,
-     "end": 103.329
+     "w": "paling",
+     "start": 87.568,
+     "end": 87.688
     },
     {
-     "w": "surat",
-     "start": 103.419,
-     "end": 103.849
+     "w": "penting",
+     "start": 87.72,
+     "end": 87.928
     },
     {
-     "w": "ke",
-     "start": 103.929,
-     "end": 104.209
+     "w": "dicek",
+     "start": 87.992,
+     "end": 88.328
     },
     {
-     "w": "MPR,",
-     "start": 104.249,
-     "end": 105.089
+     "w": "dari",
+     "start": 88.376,
+     "end": 88.568
     },
     {
-     "w": "atau",
-     "start": 105.153,
-     "end": 105.409
+     "w": "dua",
+     "start": 88.608,
+     "end": 88.728
     },
     {
-     "w": "proses",
-     "start": 105.489,
-     "end": 106.169
+     "w": "calon",
+     "start": 88.768,
+     "end": 88.968
     },
     {
-     "w": "DPR?",
-     "start": 106.209,
-     "end": 106.769
+     "w": "nanti?",
+     "start": 89.008,
+     "end": 89.368
     },
     {
      "w": "Komen!",
-     "start": 106.831,
-     "end": 107.539
+     "start": 89.455,
+     "end": 90.035
     }
    ]
   },
   {
    "id": "end",
    "text": "Follow Rangkumin Dong, biar nggak ketinggalan!",
-   "start": 107.79324716553288,
-   "end": 109.83924716553288,
+   "start": 90.34710204081632,
+   "end": 92.46810204081632,
    "words": [
     {
      "w": "Follow",
-     "start": 107.793,
-     "end": 107.999
+     "start": 90.347,
+     "end": 90.388
     },
     {
      "w": "Rangkumin",
-     "start": 108.039,
-     "end": 108.399
+     "start": 90.428,
+     "end": 90.788
     },
     {
      "w": "Dong,",
-     "start": 108.447,
-     "end": 108.799
+     "start": 90.836,
+     "end": 91.188
     },
     {
      "w": "biar",
-     "start": 108.852,
-     "end": 109.039
+     "start": 91.268,
+     "end": 91.508
     },
     {
      "w": "nggak",
-     "start": 109.066,
-     "end": 109.199
+     "start": 91.535,
+     "end": 91.708
     },
     {
      "w": "ketinggalan!",
-     "start": 109.259,
-     "end": 109.839
+     "start": 91.728,
+     "end": 92.468
     }
    ]
   }

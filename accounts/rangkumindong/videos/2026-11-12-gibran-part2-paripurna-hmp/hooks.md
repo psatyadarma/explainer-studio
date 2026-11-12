@@ -22,3 +22,7 @@ Read from hooks.csv first: best = our only posted person_collage, 54.3 % avg wat
 Second line (all variants): "Tebak dulu: kalau jalan terus, paling lama berapa hari?" (opens the loop; paid off with 60 + 90 + 30 = 180 hari).
 
 Avoid (checked): "resmi mundur" / "sudah mundur" (no official confirmation), "dimakzulkan" as a fact, "DPR putuskan" before the plenary has decided anything, "ijazah palsu" (no court said that), party colours or logos, crowd/protest imagery.
+
+
+## Change 12 Nov, 16:16 WITA re-check (coordinator)
+News overtook PICK A (#1): Gibran handed his resignation letter to the MPR (11.16 WIB) and the DPR HMP plenary was cancelled. h1 replaced without a new hook round by **"Gibran mundur. Lalu, siapa wapres berikutnya?"** (person_collage, 6 words, plain, gap = how the next VP is chosen; no number). Title card **GIBRAN MUNDUR. / SIAPA BERIKUTNYA?** h2 "Tebak dulu: kapan paling lambat ada wapres baru?" (payoff: paling lambat Januari 2027).

@@ -1,110 +1,94 @@
-# Draft: Gibran PART 2, usul HMP masuk paripurna DPR: urutannya (12 Nov 2026)
+# Draft: Gibran PART 2: mundur resmi ke MPR, paripurna HMP batal, urutan pilih wapres baru (12 Nov 2026)
 
 **Arm:** Pratama · 19:00 WITA · hook **person_collage** (Gibran) · subs **word** · format **standard** · **no B** (hook_b empty).
 **Storyline:** gibran-ijazah-mk, **PART 2** (PART 1, 11 Nov: "Katanya Gibran sudah mundur. Ternyata, belum resmi.", videos/2026-11-11-gibran-niat-mundur). Sensitivity **HIGH**: needs the user's extra read before render (storyline rule).
-**Angle:** (a) step-by-step, neutral. Answers the question people are searching ("tahapan Gibran mundur atau dimakzulkan", detik terpopuler #5): what the plenary on the agenda actually is (an *announcement*), the 4 HMP steps with their legal thresholds and deadlines, the resignation path in parallel, and a held-back number (60 + 90 + 30 = 180 hari of formal deadlines).
-**Estimated length:** 214 spoken words (after fact-check fixes), Pratama ~150 wpm → **~86 s** + tagline ≈ 88 s.
+**Angle:** (a) step-by-step, neutral. Hook changed after the 16:16 re-check (coordinator, no new hook round): "Gibran mundur. Lalu, siapa wapres berikutnya?" (was PICK A "mundur, atau dimakzulkan?", answered by the news): the resignation path happened, the HMP plenary was cancelled. The body now walks through **what happens next**: the 4 MPR steps to a new VP, with the held-back answer "paling lambat Januari 2027".
+**Estimated length:** ~199 spoken words (after fact-check FIX 1), Pratama ~150 wpm → **~79 s** + tagline ≈ 81 s.
 
-## News status at writing (12 Nov, 10:57 WITA / 09:57 WIB)
-- **DPR plenary: NOT HELD YET.** Thursday 12 Nov, **14.00 WIB = 15.00 WITA** (moved from 10.00 WIB by the secretariat; Okezone). The invitation lists the item as "**pengumuman usul penggunaan hak Anggota DPR RI**", i.e. an announcement, not a vote (Okezone, Times Indonesia, Suara, detik). Basis: rapat konsultasi pimpinan + fraksi on 11 Nov in place of Bamus (Okezone).
-- **Resignation letter: NO OFFICIAL CONFIRMATION.** Only Ketum Projo Budi Arie ("Pokoknya benar" / "Betul") and an unnamed "orang dekat Gibran" (CNN) say a letter went to Prabowo at Lanud Halim on Wed afternoon; no on-record word from Istana, Mensesneg, the Wapres office or Gibran. Ketua MPR Ahmad Muzani (Wed night): "Saya belum dengar, saya belum lihat." Waka MPR Bambang Wuryanto (Thu morning, Liputan6): Gibran scheduled to hand the letter to MPR leadership Thursday, time unknown, "pimpinan MPR standby". Reported times 10.00 WIB (Tribun/IDN) or 11.00 WIB (Habiburokhman, "katanya").
-- The script is written so every line stays true whatever happens later today: it says what was **on the agenda**, what the law requires, and what each official said **with the day they said it**. But two lines will feel stale if things move (see re-check).
+## Re-check 16:16 WITA (12 Nov): what changed
+Version 1 (10:57 WITA) was written before either event happened. **Both outcomes are now confirmed, so the body was rewritten** (hook h1 replaced later, see Angle; the swap lines for outcomes 3 + 4 were not enough because the 4 HMP steps and the 180-day payoff no longer apply):
+- **Letter reached the MPR (official):** Gibran arrived at the MPR building 11.16 WIB and handed his resignation letter to Ketua MPR Ahmad Muzani and several Waka MPR (CNN 11:44 WIB). Muzani: the same letter "menurut beliau" also went to President Prabowo; Gibran asked the MPR "segera memproses" it (CNN 12:00). Muzani (Liputan6 14:50): "Sejak hari ini, maka jabatan wakil presiden RI mengalami kekosongan"; "MPR punya waktu selambat-lambatnya 60 hari."
+- **DPR plenary cancelled:** DPR letter after the rapat konsultasi (in place of Bamus): the 14.00 WIB plenary "dibatalkan" (CNN 12:28, ANTARA). The articles link it to the resignation. Proposer Muhammad Khozin (PKB) confirmed it and said the HMP is no longer relevant after a formal resignation (ANTARA). No new date. No official statement that the HMP is formally withdrawn.
+- **Next:** MPR rapat gabungan **Jumat 13 Nov 14.00 WIB**, 4 agenda items: set the paripurna date, write to the President for 2 names, form the verification team, ad hoc team for the Ketetapan MPR (CNN 14:15). New VP "paling lambat Januari 2027" (CNN 13:48, timeline by Taufik Basari, Ketua Komisi Kajian Ketatanegaraan MPR). 12 Nov + 60 days = 11 Jan 2027 (our sum; not said on screen).
+- **Istana:** still no on-record statement accepting the resignation. Yusril, at the Istana complex: the meeting discusses "tindak lanjut dari pengunduran diri wakil presiden yang tadi pagi sudah disampaikan kepada presiden" (Liputan6 14:38). Not used on screen.
+- Dropped from v1: Mardani quote (said before the cancellation), Bambang Wuryanto line, "belum dikonfirmasi Istana", 4 HMP steps, 180-day payoff.
 
-## ⏰ Re-check at ~18:00 WITA (before voice)
-Search "paripurna HMP Gibran" + "surat Gibran MPR" (detik, CNN, Antara, Kompas). Then swap lines:
-1. **Plenary held, usul only announced** (most likely): l4 → "Kamis sore, usul ini resmi diumumkan di paripurna. Belum diputuskan." Everything else stays.
-2. **Plenary also decided** (accepted the usul / formed a pansus): l4 → "Kamis sore, paripurna [menyetujui usul ini / membentuk pansus]." and l5 → "Langkah berikutnya: pansus kerja maksimal 60 hari." (drop the 2/3-attendance line only if the decision report says otherwise). Update caption bullet 1.
-3. **Item postponed / pulled from the agenda:** l1 → "Kemarin: dua jalan. Paripurna Kamis 12 November menunda usul HMP." and l4 → "[alasan, sumber resmi]." Keep the steps.
-4. **MPR received the letter** (official, from MPR leadership or Istana): l11 → "Kamis, pimpinan MPR menerima surat mundur Gibran." (+ who said it); l12 → "Kata [Ketua MPR Muzani]: [langkah berikutnya, mis. sidang MPR tanggal …]." CTA → "Menurut kamu, setelah surat ini, apa yang terjadi dengan HMP? Komen!" Add Muzani's line about a sidang only if he gave a date.
-5. **Istana confirms or denies** the letter to Prabowo: replace l11 with the attributed statement.
-6. Keep the 180-day payoff in all cases (it is the law, not news).
-Log any change in this file and in claims.json.
+**Last check before voice (optional, ~18:00):** anything new from the Istana or a changed rapat gabungan date. If the HMP is formally withdrawn by the DPR, l6 → "Pimpinan DPR: usul HMP [dicabut / tidak dilanjutkan]." (attributed).
 
 ## Script (subtitle text)
 | id | line | on screen |
 |---|---|---|
-| h1 | Gibran: mundur, atau dimakzulkan? Ini urutannya. | **Collage hook** (copy tests/hook-collage): Gibran cut-out rising on the paper ledge; name tag "Gibran Rakabuming Raka · Wakil Presiden"; title card 2 lines **MUNDUR ATAU / DIMAKZULKAN?** held ~3 s (cover frame); label-bar over torso black → yellow → white: "MUNDUR?" · "DIMAKZULKAN?" · "INI URUTANNYA"; small **PART 2** badge top-left; credit small bottom. |
-| h2 | Tebak dulu: tenggat resminya, dijumlah berapa hari? | Calendar sticker flips in, big "? HARI" counter blinking; arrow points off-screen (loop). |
+| h1 | Gibran mundur. Lalu, siapa wapres berikutnya? | **Collage hook** (copy tests/hook-collage): Gibran cut-out rising on the paper ledge; name tag "Gibran Rakabuming Raka" (no title: post is vacant per MPR; or "mantan Wapres" only after the user OKs the wording); title card **GIBRAN MUNDUR. / SIAPA BERIKUTNYA?** held ~3 s (cover frame); label-bar black → yellow → white: "MUNDUR" · "WAPRES BARU?" · "SIAPA?"; **PART 2** badge; credit small. |
+| h2 | Tebak dulu: kapan paling lambat ada wapres baru? | Calendar sticker flipping, "? 2027?" blinking; arrow off-screen (loop). |
 | rd | Rangkumin dong! | Fixed tagline. |
-| l1 | Kemarin: dua jalan. Kamis 12 November, jalan DPR bergerak. | PART 1 recap: the two-road fork sticker (reuse PART 1 visual) "SURAT MUNDUR" / "HMP DPR"; the HMP road lights up. Header card **"Kamis, 12 Nov · Gedung DPR, Senayan"**. |
-| l2 | Usul hak menyatakan pendapat, HMP, masuk agenda paripurna. | Illustrated plenary hall (flat, no party colours); agenda paper sticker "Rapat Paripurna" sliding in. |
-| l3 | Pengusulnya 120 anggota, 8 fraksi. Syarat minimal: 25. | Counter 0 → 120 next to a small "min. 25" bar (bar chart 25 vs 120, exact). 8 identical grey seat icons (no party names/colours). |
-| l4 | Tapi acaranya tertulis: 'pengumuman usul'. Belum tentu diputuskan. | Zoom on the agenda paper, highlight "pengumuman usul" in yellow; stamp "BELUM DIPUTUSKAN". |
-| l5 | Langkah 1: paripurna memutuskan usul ini. Hadir minimal dua pertiga anggota, disetujui dua pertiga yang hadir. Diterima? Dibentuk pansus. | Step ladder appears (4 rungs, numbered). Rung 1: hall icon + "hadir ≥ 2/3 · setuju ≥ 2/3 yang hadir" (UU MD3 Pasal 210 ayat 3); pop "PANSUS". |
-| l6 | Langkah 2: pansus kerja maksimal 60 hari, lalu laporannya diputus paripurna. | Rung 2: calendar "≤ 60 hari" bar (first segment of the timeline bar at the bottom). |
-| l7 | Langkah 3: disetujui dua pertiga yang hadir? Dibawa ke MK. MK wajib memutus paling lama 90 hari. | Rung 3: "setuju ≥ 2/3 yang hadir" → arrow to MK building icon; timeline segment "≤ 90 hari". |
-| l8 | Langkah 4: MK menyatakan terbukti? DPR teruskan ke MPR. MPR wajib bersidang paling lambat 30 hari sejak terima usul. Tiga perempat hadir, dua pertiga setuju. | Rung 4: arrow DPR → MPR icon; "≤ 30 hari sejak terima usul"; "hadir ≥ 3/4 · setuju ≥ 2/3"; timeline segment "≤ 30 hari". Timeline bar total hidden ("? hari"). |
-| l9 | Sementara, jalan satunya: surat mundur. | Camera pans back to the fork; the "SURAT MUNDUR" road lights up; envelope sticker. |
-| l10 | Kata Menko Yusril, mundur harus tertulis ke MPR. | Yusril cut-out (`yusril-ihza-mahendra.png`) + name tag "Yusril Ihza Mahendra · Menko Kumham Imipas"; envelope addressed "MPR". |
-| l11 | Kabar surat ke Presiden? Belum dikonfirmasi resmi Istana. | Envelope with "KABAR" tag and a "?" ; label "Belum ada konfirmasi resmi Istana" (no Istana photo). |
-| l12 | Waka MPR Bambang Wuryanto: dijadwalkan Kamis. Ketua MPR Ahmad Muzani, Rabu malam: belum terima. | Two cut-outs side by side, same size: Bambang Wuryanto ("Waka MPR", bubble "Dijadwalkan Kamis") and Ahmad Muzani ("Ketua MPR", bubble "Rabu malam: belum terima"). |
-| l13 | Tapi, menurut pengusul dari PKS, Mardani Ali Sera, HMP jalan terus sampai prosesnya final. | **Turn (~74 %)**. Mardani cut-out, name tag "Mardani Ali Sera · Anggota DPR (PKS), pengusul HMP"; both roads shown running in parallel. Quote box: "jalan terus … sampai prosesnya final". |
-| l14 | Kursi wapres kosong? MPR memilih wapres baru dalam 60 hari, dari dua calon usulan Presiden. | Empty chair sticker "WAPRES"; "≤ 60 hari"; two blank candidate cards "Calon 1 / Calon 2" (no names, no faces). |
-| l15 | Jawabannya: 60, 90, dan 30 hari. Total 180 hari. | **Payoff.** Timeline bar segments 60 + 90 + 30 slam together, counter rolls to **180 HARI**. |
-| l16 | Belum termasuk rapat di antaranya. | Small grey gaps appear between segments, label "+ rapat paripurna (tanpa tenggat tetap)". |
-| cta | Menurut kamu, mana selesai duluan: surat ke MPR, atau proses DPR? Komen! | Two roads with finish flags, "?" between; comment icon. |
+| l1 | Kemarin: dua jalan. Kamis 12 November, jalan pertama yang terjadi. | PART 1 fork sticker "SURAT MUNDUR" / "HMP DPR"; the SURAT MUNDUR road lights up. Header card **"Kamis, 12 Nov · Gedung MPR, Senayan"**. |
+| l2 | Kamis siang, Gibran datang ke Gedung MPR, menyerahkan surat pengunduran diri. | Illustrated MPR building (Nusantara III, flat), envelope sticker sliding to a desk. |
+| l3 | Kata Ketua MPR Ahmad Muzani, menurut Gibran, surat yang sama juga sudah disampaikan ke Presiden Prabowo. | Muzani cut-out + name tag "Ahmad Muzani · Ketua MPR"; envelope copy flying to an Istana icon (no Prabowo photo). |
+| l4 | Menurut Muzani, Gibran minta MPR segera memprosesnya. | Quote box "segera memproses"; stamp "DITERIMA MPR". |
+| l5 | Jalan kedua? Paripurna DPR pukul 14.00 WIB, yang mau mengumumkan usul HMP, dibatalkan. | Pan to the HMP road; agenda paper "Rapat Paripurna · 14.00 WIB" gets a "DIBATALKAN" stamp. |
+| l6 | Salah satu pengusul, Muhammad Khozin dari PKB. Menurut dia, usul itu tak relevan lagi. | Name tag "Muhammad Khozin · Anggota DPR (PKB), pengusul HMP" (no photo, see below); quote box. |
+| l7 | Kata Muzani: sejak hari ini, jabatan wapres kosong. | Empty chair sticker "WAPRES", Muzani bubble. |
+| l8 | Langkah 1: Jumat 13 November, MPR rapat gabungan. Menetapkan jadwal paripurna, dan menyurati Presiden. | Step ladder (4 rungs). Rung 1: calendar "Jum 13 Nov" + 2 icons (calendar, letter). |
+| l9 | Langkah 2: Presiden mengusulkan dua calon, paling lambat 14 hari sebelum paripurna. | Rung 2: two blank candidate cards "Calon 1 / Calon 2" (no names, no faces); "≥ 14 hari sebelum paripurna". |
+| l10 | Tapi ingat: kali ini, wapres tidak dipilih lewat pemilu. Yang memilih: anggota MPR. | **Turn (~59 %)**. Ballot box crossed lightly → MPR hall seats lighting up. |
+| l11 | Langkah 3: tim MPR memverifikasi dokumen kedua calon. | Rung 3: magnifier over document stack. |
+| l12 | Langkah 4: paripurna MPR memilih satu dari dua. Suara terbanyak menang. Kalau seri, voting diulang sekali; masih seri, Presiden yang memilih. | Rung 4: vote bar 2 cards; mini flow "seri → ulang 1× → seri → Presiden pilih". |
+| l13 | Lalu dilantik di paripurna MPR. | Oath icon. |
+| l14 | Jawaban tebakan tadi: semua ini paling lambat 60 hari. Artinya, wapres baru paling lambat Januari 2027. | **Payoff.** Timeline bar "12 Nov 2026 → 60 hari → Januari 2027"; counter 0 → 60. |
+| cta | Menurut kamu, apa yang paling penting dicek dari dua calon nanti? Komen! | Two blank cards with "?" + comment icon. |
 | end | Follow Rangkumin Dong, biar nggak ketinggalan! | End card with sources + photo credits. |
 
-Turn at l13 (≈162/214 words ≈ 75 %, a bit late; l9 "Sementara…" at 54 % shifts the frame first). Loop opened at h2, paid at l15.
+Loop opened at h2, paid at l14. Turn at l10.
 
-## Real people (cut-outs, equal treatment: same size and style)
+## Real people
 | Person | Where | Photo | Status |
 |---|---|---|---|
-| Gibran Rakabuming Raka | hook | `assets/people/gibran-rakabuming.png` · File:Gibran Rakabuming 2024 official portrait.jpg · Public domain · Darwis Triadi & Kemensetneg | cut-out exists |
-| Yusril Ihza Mahendra | l10 | `yusril-ihza-mahendra.png` (from PART 1) · Public domain · Kemenko Kumham Imipas | cut-out exists |
-| Bambang Wuryanto | l12 | `bambang-wuryanto.jpg` · File:Bambang Wuryanto, Wakil Ketua MPR RI (2024).jpg · Public domain · MPR RI | **downloaded today; cut-out not made** |
-| Ahmad Muzani | l12 | `ahmad-muzani.jpg` · File:Ahmad Muzani, Ketua MPR RI.jpg · **CC BY-SA 4.0** · MPR-RI (credit on screen required) | **downloaded today; cut-out not made** |
-| Mardani Ali Sera | l13 | `mardani-ali-sera.jpg` · File:Anggota Dewan Perwakilan Rakyat Republik Indonesia Mardani Ali Sera.jpg · Public domain · MPR | **downloaded today; cut-out not made** |
-| Saan Mustopa (spare) | not named in script; caption only | `saan-mustopa.jpg` · Public domain · DPR RI | downloaded; use only if a line attributing the 120 count is added |
-
-`engine/cutout.py` failed again (`rembg` not installed here, see HANDOFF step 2): producer runs `cutout.py <slug>.jpg <slug>.png --kind person` for bambang-wuryanto, ahmad-muzani, mardani-ali-sera. Budi Arie is **not** named on screen (claim stays "kabar", unconfirmed). No Prabowo image (he did not speak on the letter).
+| Gibran Rakabuming Raka | hook, l2 | `assets/people/gibran-rakabuming.png` · Public domain · Darwis Triadi & Kemensetneg | cut-out exists |
+| Ahmad Muzani | l3, l4, l7 | `ahmad-muzani.jpg` · File:Ahmad Muzani, Ketua MPR RI.jpg · **CC BY-SA 4.0** · MPR-RI (credit on screen) | downloaded; **cut-out not made** (rembg missing) |
+| Muhammad Khozin | l6 | none searched yet → **name tag**; equal treatment means either fetch a licensed photo (Commons) or show Muzani's l6-l7 lines at the same size as Khozin's tag. User decides. | — |
+| Prabowo | l3 (named only) | not shown | — |
+Not used any more: Yusril, Bambang Wuryanto, Mardani, Saan (photos stay in assets).
 
 ## Sources
-1. Okezone, 12 Nov 2026 (agenda wording "pengumuman usul", moved to 14.00 WIB): https://news.okezone.com/read/2026/11/12/337/3253548/dpr-gelar-paripurna-ambil-kesepakatan-hmp-pemakzulan-gibran-sebagai-wapres-hari-ini
-2. Times Indonesia, 12 Nov 2026 (agenda): https://timesindonesia.co.id/politik/617310/dpr-gelar-rapat-paripurna-hari-ini-agendakan-pengumuman-usulan-hmp-gibran
-3. detikNews, 12 Nov 2026 (paripurna hari ini): https://news.detik.com/berita/d-8749162/dpr-gelar-sidang-paripurna-hari-ini
-4. CNN Indonesia, 11 Nov 2026 (8 fraksi resmi serahkan HMP): https://www.cnnindonesia.com/nasional/20261111133951-32-1425862/8-fraksi-dpr-resmi-serahkan-hak-menyatakan-pendapat-soal-wapres-gibran
-5. Liputan6, 12 Nov 2026 (timeline 48 jam, rincian 120 tanda tangan per fraksi, syarat 25): https://liputan6.com/news/read/8333510/gonjang-ganjing-politik-dalam-48-jam-terakhir
-6. ANTARA, 11 Nov 2026 (tahapan HMP, UU MD3 Pasal 79, 212, 213, 214, 215, 37, 38): https://www.antaranews.com/berita/5846667/anggota-dpr-gulirkan-hmp-ini-tahapan-jika-gibran-dimakzulkan
-7. Megapolis (rangkuman detikcom), 11 Nov 2026 (tahapan mundur vs dimakzulkan, UU MD3 Pasal 46, 210): https://megapolis.id/2026/11/11/ini-tahapan-jika-gibran-mundur-atau-dimakzulkan/
-8. UUD 1945 Pasal 7B ayat 3–7 dan Pasal 8 ayat 2 (teks, WIPO Lex): https://www.wipo.int/wipolex/en/text/495019
-9. Koran Jakarta, 11 Nov 2026 (Yusril: harus tertulis ke MPR, belum kosong): https://koran-jakarta.com/2026-11-11/yusril-jelaskan-belum-ada-kekosongan-jabatan-wakil-presiden
-10. CNN Indonesia, 11 Nov 2026 (surat ke Prabowo menurut orang dekat Gibran): https://www.cnnindonesia.com/nasional/20261111180550-32-1426022/gibran-dikabarkan-mundur-dari-wapres-surat-diserahkan-ke-prabowo
-11. detikNews, 11 Nov 2026 (dinamika; surat hanya dibenarkan Budi Arie): https://news.detik.com/berita/d-8749019/dinamika-polemik-gibran-hmp-bergulir-hingga-serahkan-surat-mundur-ke-prabowo
-12. ANTARA Makassar, 12 Nov 2026 (Ketua MPR Muzani: belum dengar, belum lihat): https://makassar.antaranews.com/berita/643143/ketua-mpr--saya-belum-lihat-surat-pengunduran-gibran
-13. Liputan6, 12 Nov 2026 (Waka MPR Bambang Wuryanto: dijadwalkan Kamis): https://www.liputan6.com/news/read/8333600/bambang-pacul-sebut-gibran-akan-serahkan-surat-pengunduran-diri-ke-mpr
-14. IDN Times, 12 Nov 2026 (Mardani: HMP jalan terus sampai final): https://www.idntimes.com/news/indonesia/pks-gibran-mundur-tak-hentikan-hmp-ijazah-di-rapat-paripurna-dpr-00-bbwlv-xfz85r
+1. CNN Indonesia, 12 Nov 2026 11:44 WIB (Gibran serahkan surat ke MPR, 11.16 WIB): https://www.cnnindonesia.com/nasional/20261112101220-32-1426208/gibran-akhirnya-resmi-serahkan-surat-pengunduran-diri-ke-mpr
+2. CNN Indonesia, 12 Nov 2026 12:00 WIB (minta MPR segera proses; surat yang sama ke Presiden): https://www.cnnindonesia.com/nasional/20261112115109-32-1426276/gibran-minta-mpr-segera-proses-surat-pengunduran-dirinya
+3. CNN Indonesia, 12 Nov 2026 12:28 WIB (paripurna DPR dibatalkan): https://www.cnnindonesia.com/nasional/20261112121251-32-1426289/wapres-gibran-mundur-paripurna-dpr-terkait-pemakzulan-dibatalkan
+4. ANTARA, 12 Nov 2026 (surat pembatalan; Khozin): https://mataram.antaranews.com/berita/582135/gibran-mundur-paripurna-bahas-pemakzulan-mendadak-batal
+5. detikNews, 12 Nov 2026 13:16 WIB (paripurna HMP batal): https://news.detik.com/berita/d-8749724/gibran-resmi-mundur-dari-wapres-sidang-paripurna-hmp-pemakzulan-batal
+6. Liputan6, 12 Nov 2026 14:50 WIB (Muzani: sejak hari ini jabatan wapres kosong; 60 hari): https://www.liputan6.com/news/read/8333949/ketua-mpr-sejak-hari-ini-jabatan-wapres-alami-kekosongan
+7. CNN Indonesia, 12 Nov 2026 14:15 WIB (rapat gabungan MPR Jumat 13 Nov 14.00, 4 agenda): https://www.cnnindonesia.com/nasional/20261112140704-32-1426385/mpr-rapat-gabungan-bahas-jadwal-paripurna-wapres-pengganti-gibran-esok
+8. CNN Indonesia, 12 Nov 2026 13:48 WIB (tahapan MPR, wapres baru paling lambat Januari 2027; Tatib MPR Pasal 134–142): https://www.cnnindonesia.com/nasional/20261112132242-32-1426346/tahapan-lengkap-mpr-tetapkan-wapres-baru-dalam-60-hari
+9. ANTARA, 12 Nov 2026 (MPR tindak lanjuti surat): https://kupang.antaranews.com/berita/205419/mpr-menindaklanjuti-surat-pengunduran-diri-gibran
+10. UUD 1945 Pasal 8 ayat 2 (teks, WIPO Lex): https://www.wipo.int/wipolex/en/text/495019
+11. Megapolis (rangkuman detikcom), 11 Nov 2026 (UU MD3 Pasal 46: 2 calon, 14 hari, suara terbanyak, seri): https://megapolis.id/2026/11/11/ini-tahapan-jika-gibran-mundur-atau-dimakzulkan/
+12. CNN Indonesia, 11 Nov 2026 (120 anggota dari 8 fraksi ajukan HMP): https://www.cnnindonesia.com/nasional/20261111133951-32-1425862/8-fraksi-dpr-resmi-serahkan-hak-menyatakan-pendapat-soal-wapres-gibran
 
 ## Captions (= post.json)
 **IG caption**
-> Gibran: mundur, atau dimakzulkan? Ini urutannya, langkah demi langkah 👇 (PART 2)
+> Gibran mundur. Lalu, siapa wapres berikutnya? Ini urutannya 👇 (PART 2)
 >
 > Rangkumin dong 👇
-> • Usul hak menyatakan pendapat (HMP) DPR soal Wapres Gibran masuk agenda paripurna Kamis (12/11), dengan acara "pengumuman usul". Pengusulnya 120 anggota dari 8 fraksi (syarat minimal 25). Diumumkan belum berarti diputuskan.
-> • Kalau berlanjut (UUD 1945 Pasal 7B, UU MD3): paripurna memutuskan usul (hadir min. 2/3 anggota, disetujui min. 2/3 yang hadir) → pansus maks. 60 hari → paripurna, disetujui min. 2/3 yang hadir → MK memutus maks. 90 hari → jika terbukti, DPR teruskan ke MPR → MPR bersidang maks. 30 hari sejak terima usul (hadir min. 3/4, setuju min. 2/3 yang hadir). Tenggat resminya 60 + 90 + 30 = 180 hari, belum termasuk rapat di antaranya.
-> • Jalan lain: surat mundur. Kata Menko Yusril, harus tertulis ke MPR. Kabar surat ke Presiden belum dikonfirmasi resmi Istana. Waka MPR Bambang Wuryanto: penyerahan ke MPR dijadwalkan Kamis; Ketua MPR Ahmad Muzani (Rabu malam): belum terima. Pengusul HMP dari PKS, Mardani Ali Sera: HMP jalan terus sampai prosesnya final. Kalau kursi wapres kosong, MPR memilih wapres baru dalam 60 hari dari dua calon usulan Presiden (Pasal 8 ayat 2).
+> • Kamis siang (12/11), Gibran menyerahkan surat pengunduran diri dari jabatan Wapres ke pimpinan MPR. Ketua MPR Ahmad Muzani menyampaikan, menurut Gibran surat yang sama sudah disampaikan ke Presiden Prabowo, dan Gibran minta MPR segera memprosesnya. Kata Muzani, sejak hari itu jabatan wapres kosong.
+> • Paripurna DPR pukul 14.00 WIB yang dijadwalkan mengumumkan usul hak menyatakan pendapat (HMP, diajukan 120 anggota dari 8 fraksi) dibatalkan. Salah satu pengusul, Muhammad Khozin (PKB), menyebut usul itu tak relevan lagi setelah pengunduran diri resmi.
+> • Berikutnya (UUD 1945 Pasal 8 ayat 2, UU MD3): Jumat (13/11) MPR rapat gabungan untuk menetapkan jadwal paripurna dan menyurati Presiden → Presiden mengusulkan 2 calon, paling lambat 14 hari sebelum paripurna → tim MPR memverifikasi dokumen → paripurna MPR memilih satu (suara terbanyak; seri diulang sekali, masih seri Presiden memilih) → dilantik. Semua paling lambat 60 hari: wapres baru paling lambat Januari 2027.
 >
-> Menurut kamu, mana selesai duluan: surat ke MPR, atau proses DPR? Komen 👇
+> Menurut kamu, apa yang paling penting dicek dari dua calon nanti? Komen 👇
 >
-> Status per Kamis pagi, 12 Nov 2026. Sumber di komentar.
+> Status per Kamis sore, 12 Nov 2026. Sumber di komentar.
 >
-> #rangkumindong #gibran #wapres #DPR #MPR #pemakzulan #politikindonesia #beritaterkini
+> #rangkumindong #gibran #wapres #MPR #DPR #wapresbaru #politikindonesia #beritaterkini
 
-**YouTube title:** Gibran: mundur atau dimakzulkan? Ini urutannya (PART 2) #Shorts
+**YouTube title:** Gibran mundur. Lalu siapa wapres berikutnya? (PART 2) #Shorts
 **YouTube description:** the IG caption, with the numbered sources list in place of "Sumber di komentar".
-**Tags:** Gibran, Wapres, Gibran mundur, pemakzulan Gibran, hak menyatakan pendapat, HMP DPR, paripurna DPR, MPR, Mahkamah Konstitusi, UUD 1945 Pasal 7B, rangkumin dong
-**Pinned comment (sources):** the 14 sources above + "Status per 12 Nov 2026, pagi. Agenda paripurna = pengumuman usul HMP, belum keputusan. Surat mundur: belum ada konfirmasi resmi Istana; Ketua MPR belum terima (Rabu malam). PART 1: https://www.youtube.com/watch?v=MoQFo_nvy-Y" + new line "Foto (via Wikimedia Commons): Gibran, Darwis Triadi & Kemensetneg, Public domain; Yusril, Kemenko Kumham Imipas, Public domain; Bambang Wuryanto, MPR RI, Public domain; Ahmad Muzani, MPR-RI, CC BY-SA 4.0; Mardani Ali Sera, MPR, Public domain."
-**TikTok caption:** IG caption with 5 hashtags: #rangkumindong #gibran #wapres #DPR #beritaterkini
+**Tags:** Gibran, Gibran mundur, wapres, wapres baru, MPR, Ahmad Muzani, paripurna DPR, hak menyatakan pendapat, UUD 1945 Pasal 8, rangkumin dong
+**Pinned comment (sources):** the 12 sources above + "Status per Kamis sore, 12 Nov 2026. Surat pengunduran diri diterima pimpinan MPR (Kamis siang); paripurna DPR soal usul HMP dibatalkan; MPR rapat gabungan Jumat 13 Nov 14.00 WIB. PART 1: https://www.youtube.com/watch?v=MoQFo_nvy-Y" + new line "Foto (via Wikimedia Commons): Gibran, Darwis Triadi & Kemensetneg, Public domain; Ahmad Muzani, MPR-RI, CC BY-SA 4.0."
+**TikTok caption:** IG caption with 5 hashtags: #rangkumindong #gibran #wapres #MPR #beritaterkini
 
 ## Trial Reel B?
-No: standing rule from 9 Nov (no B; hook_b empty). A future B worth testing on this storyline would be hook #6 (question_reveal "Memakzulkan wapres butuh berapa lama? Tebak dulu.", no face).
-
-## Fact-check fixes applied (12 Nov)
-- l5: plenary acceptance = hadir ≥ 2/3 anggota, disetujui ≥ 2/3 yang hadir (UU MD3 Pasal 210 ayat 3).
-- l8: added "DPR teruskan ke MPR" and "sejak terima usul" (UUD 7B ayat 5–6; UU MD3 Pasal 37 ayat 1).
-- Trimmed h2, l2, l14, l15, cta by 1–2 words each to stay ≤ 215 words (214). 180-day sum unchanged (60 + 90 + 30).
+No: standing rule from 9 Nov (no B; hook_b empty).
 
 ## Things I was unsure about (for the fact-checker)
-- ~~**Plenary acceptance threshold:**~~ (resolved by fix 1) ANTARA and Megapolis say the plenary that accepts the usul must be attended by ≥ 2/3 (UU MD3 Pasal 212(2) per those articles); neither gives the vote share for that step. An old MK ruling (2011, on UU 27/2009) struck a 3/4 quorum norm for HMP; please confirm the current UU 17/2014 text. The 2/3-present / 2/3-of-present for sending to MK is the constitution itself (Pasal 7B(3)), so l7 is safe.
-- **"Belum dikonfirmasi resmi Istana"** is an absence claim, true at 10:57 WITA; re-check at 18:00.
-- "Waka MPR Bambang Wuryanto" is widely called "Bambang Pacul"; on screen use the formal name.
+- Hook h1 replaced ("Gibran mundur. Lalu, siapa wapres berikutnya?"). The video answers *how* the next VP is chosen, not *who*: no names exist yet; the CTA keeps it open.
+- Khozin's "tak relevan lagi" is ANTARA's paraphrase, not a direct quote; on screen it is in a quote box. Use "menurut Khozin" styling, not quote marks.
+- "Wapres tidak dipilih lewat pemilu" (l10) follows from UUD Pasal 8(2) (MPR elects from 2 names proposed by the President).
+- Name tag for Gibran: no title now (the MPR chair says the post is vacant).
