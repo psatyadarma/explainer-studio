@@ -68,3 +68,25 @@ Fact-check · Rangkumin Seminggu #4 (7–13 Nov 2026) · MODE=full · RUN_DATE 2
 - After 14.00 WIB: apply the swap table in draft.md if wanted. The safe lines are true either way.
 - c7: confirm BEI actually applied the 383-stock HSC exclusion on Fri 13 Nov ("kata BEI" + "mulai Jumat" holds only if it happened; if it was delayed, say "BEI menargetkan mulai Jumat").
 - Blocked/unopened pages (permission timeouts): Liputan6 8333949, Kompas MA ruling, CNBC Ledger 784123, CNBC FBI 784191, Al Jazeera, ANTARA HSC, CNBC IHSG 10–11 Nov, KabarBursa RDG schedule, Katadata UMP. The claims they support are either corroborated above or marked UNVERIFIED.
+
+---
+
+## Re-check 2026-11-13 (Fri sore, scoped): ch01 a9, a12, matching claims.json entries, post.json MPR / Muzani 14-day caption text
+
+VERDICT: PASS (0 issues; 1 minor note)
+
+Scope: only the lines rewritten this afternoon. Search for outcomes announced after 15:00 WIB was run; the newest items found are Liputan6 8334690 (14:51 WIB), Medcom (14:57 WIB) and Republika (15:07 WIB). None reports a decision from the rapat gabungan. Nothing later than 15:07 WIB was found, so "belum diumumkan" still holds as of this check.
+
+| Claim | Verdict | What the source says | Source |
+|---|---|---|---|
+| a9: "Jumat, MPR menggelar rapat gabungan, membahas jadwal paripurna pemilihan wapres dan surat ke Presiden." | OK | Meeting of MPR leaders, faction leaders and DPD groups was held Fri 13 Nov (scheduled 14.00 WIB). Agenda: plenary date, letter to President asking for 2 names, verification team, ad hoc team. | https://www.medcom.id/ekonomi/bisnis/Wb7dr6dk-mpr-bahas-4-agenda-pemilihan-wapres-pengganti-gibran-prabowo-diminta-ajukan-2-nama ; https://www.liputan6.com/news/read/8334690/mpr-bahas-2-nama-calon-wapres-pengganti-gibran |
+| a9: "Sampai Jumat sore, hasil resminya belum diumumkan." | OK (time-stamped, as of ~15:07 WIB) | Medcom 14:57 and Republika 15:07 report no decision, no date, and do not say whether the letter was approved or sent. Pre-meeting items (CNN 14:34, detik 14:17: letter "akan dikirim", "mulai siang") are plans, not confirmed outcomes. | https://news.republika.co.id/berita/tofl8l393/presiden-punya-waktu-14-hari-ajukan-dua-nama-calon-wapres-ke-mpr ; https://www.cnnindonesia.com/nasional/20261113142943-32-1426848/mpr-akan-kirim-surat-permintaan-2-nama-cawapres-ke-prabowo-hari-ini |
+| a12: "Kata Muzani, Presiden punya waktu 14 hari setelah menerima surat MPR." | OK | Muzani: "Siapa nama dua calon Wakil Presiden, Presiden punya waktu 14 hari setelah menerima surat dari MPR"; "14 harinya bukan dari keputusan rapat gabungan, tapi dari surat yang kita kirimkan". Attribution and counting start match. (Habiburokhman, Gerindra, said "dalam waktu 14 hari" separately; not conflicting.) | Republika (15:07 WIB), Liputan6 (14:51 WIB) |
+| a12: "Sampai Jumat sore, belum ada nama resmi." | OK | No candidate names reported in any source found. | same |
+| claims.json a9 / a12 entries | OK | Match script wording and sources. Minor: a9 entry says verification team "~36 members"; Liputan6 says ~36 (5% of MPR), CNN/detik say 34. Not in the spoken script or captions, so no change needed; keep "~36" or drop the number. | Liputan6 vs CNN |
+| post.json caption / youtube_description / tiktok_caption: "Presiden usulkan 2 nama (14 hari setelah surat MPR, kata Muzani)" | OK | Attributed to Muzani, counting start correct, agrees with a12. | as above |
+| post.json pinned_comment: Medcom, Republika & Liputan6 (13/11) source line | OK | Sources are real and say what the line says. | as above |
+
+Handling check: neutral wording, attributed to Muzani, no outcome implied, no name or vote predicted. Script, claims and captions agree.
+
+Note (no fix): the video is time-stamped "sampai Jumat sore". If the video is released after an outcome appears (letter sent, plenary date set), re-run this check; a9/a12 would then be stale rather than wrong.

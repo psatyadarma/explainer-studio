@@ -96,19 +96,14 @@
     {
      "id": "a9",
      "tag": "[clear]",
-     "text": "Langkah pertama dijadwalkan Jumat pukul 14.00 WIB: rapat gabungan MPR, untuk menetapkan jadwal paripurna dan menyurati Presiden.",
-     "say": "Langkah pertama dijadwalkan Jumat, pukul dua siang, waktu Indonesia barat: rapat gabungan em pe er, untuk menetapkan jadwal paripurna, dan menyurati Presiden."
-    },
-    {
-     "id": "a10",
-     "tag": "[matter-of-fact]",
-     "text": "Sementara itu, kata Menko Yusril, Presiden berencana ke luar negeri, kalau tidak salah sampai tanggal 14 atau 16 November. Selama itu, tidak ada pelaksana tugas wapres.",
-     "say": "Sementara itu, kata Menko Yusril, Presiden berencana ke luar negeri, kalau tidak salah sampai tanggal empat belas, atau enam belas November. Selama itu, tidak ada pelaksana tugas wapres."
+     "text": "Jumat, MPR menggelar rapat gabungan, membahas jadwal paripurna pemilihan wapres dan surat ke Presiden. Sampai Jumat sore, hasil resminya belum diumumkan.",
+     "say": "Jumat, em pe er menggelar rapat gabungan, membahas jadwal paripurna pemilihan wapres, dan surat ke Presiden. Sampai Jumat sore, hasil resminya belum diumumkan."
     },
     {
      "id": "a12",
      "tag": "[calm]",
-     "text": "Siapa dua nama calonnya? Sampai naskah ini ditulis, Jumat pagi, belum diumumkan resmi."
+     "text": "Siapa dua calonnya? Kata Muzani, Presiden punya waktu 14 hari setelah menerima surat MPR. Sampai Jumat sore, belum ada nama resmi.",
+     "say": "Siapa dua calonnya? Kata Muzani, Presiden punya waktu empat belas hari, setelah menerima surat em pe er. Sampai Jumat sore, belum ada nama resmi."
     }
    ]
   },

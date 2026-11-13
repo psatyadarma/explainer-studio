@@ -1,3 +1,20 @@
+VERDICT: READY
+
+Final re-check of out/video.mp4 (439.2 s) after the coordinator's rebuild. Original first-pass notes are kept below for the record.
+
+## Re-check results
+- ch01 (re-voiced, 79.7 s): a10 removed, so the Yusril/14-16 Nov line now appears only in ch06 g2. The a12 scene is fixed: "Tidak ada Plt wapres" chip is gone and the two Calon boxes sit clear of the "Presiden punya 14 hari" card, no clipping. a9 and a12 are now dated "Jumat sore" and read correctly for a Saturday release. The "14 hari setelah surat MPR" claim is sourced (claims.json:148, Muzani, 13 Nov). PASS.
+- ch03 pacing: the +2,66% card now hands over to the Phintraco quote card, with the stat shrunk to a corner. PASS.
+- ch05 pacing: "Bukan cuma sistem besar" now hands over to the "Beli dompet kripto dari penjual resmi" chip. PASS.
+- ch06: the repetition is resolved by the ch01 deletion. PASS.
+- Title cards: my fix 5 was wrong. On re-sampling, every chapter (00-07) opens with a title card. No change needed.
+- Audio: whole video -14.19 LUFS, -1.33 dBTP; rebuilt ch01 -14.72 LUFS, -1.68 dBTP, in line with the other chapters (-14.5 to -15.0). No jump.
+- YouTube chapters (build/youtube-chapters.txt and post.json BAB list) match the new boundaries (26.1 / 105.8 / 172.0 / 241.7 / 300.6 / 371.0 / 428.1 s): 00:00, 00:26, 01:46, 02:52, 04:02, 05:01, 06:11, 07:08. All chapters >= 10 s.
+- Per chapter: ch00-ch07 all PASS.
+
+Minor, optional: ch00 stat label "IHSG melonjak (persen)" reads awkwardly; "IHSG, Kamis" would be cleaner.
+
+---- First-pass notes (superseded) ----
 VERDICT: FIX (5)
 
 Reviewed: out/video.mp4 (442.3 s), contact sheet every 5 s, full script.json, post.json, per-chapter loudnorm.

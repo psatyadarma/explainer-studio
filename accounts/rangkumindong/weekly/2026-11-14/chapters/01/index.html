@@ -44,7 +44,7 @@
 window.CHAPTER = Number(location.pathname.split('/').slice(-2)[0]);
 const DATA = {
   // MPR meeting outcome: swap these strings after the meeting (shown in zone E at line a9).
-  mpr: { tag: 'RAPAT GABUNGAN MPR', head: 'Jumat 14.00 WIB', sub: 'Tetapkan jadwal paripurna, surati Presiden', state: 'DIJADWALKAN' },
+  mpr: { tag: 'RAPAT GABUNGAN MPR', head: 'Digelar Jumat', sub: 'Hasil resmi belum diumumkan', state: 'PER JUMAT SORE' },
   // camera: zone centre x, arrives a little before `at`
   zones: [
     { x: 960,  at: null },
@@ -58,7 +58,7 @@ const DATA = {
     { at: 'a3+0.6', out: 'a4', t: 'Mensesneg Prasetyo Hadi', s: 'soal niat mundur' },
     { at: 'a5+0.6', out: 'a6', t: 'Ketua MPR Ahmad Muzani', s: 'penerima surat' },
     { at: 'a7+0.6', out: 'a8', t: 'Ketua MPR Ahmad Muzani', s: 'masa kosong wapres' },
-    { at: 'a10+0.6', out: 'a12', t: 'Menko Yusril', s: 'jadwal Presiden' },
+    { at: 'a12+0.6', out: null, t: 'Ketua MPR Ahmad Muzani', s: 'batas waktu Presiden' },
   ],
   // z = zone index. in/out = refs. cls = element class. num = counts up to that number.
   items: [
@@ -94,14 +94,13 @@ const DATA = {
     { z: 3, x: -130, y: 90, cls: 'arrow', html: '→', in: 'a8:dua' },
     { z: 3, x: 250, y: 90, cls: 'card', w: 500, in: 'a8:anggota', html: '<div class="k">Anggota MPR</div><h3>yang memilih</h3>' },
     { z: 3, x: 250, y: 240, cls: 'tag light', html: 'bukan lewat pemilu', in: 'a8:pemilu-0.3' },
-    // --- E: Jumat + Presiden luar negeri + dua nama (a9-a12)
+    // --- E: Jumat rapat MPR + batas 14 hari + dua calon (a9-a12)
     { z: 4, x: 0, y: -290, cls: 'tag accent', html: 'JUMAT', in: 'a9' },
-    { z: 4, x: -440, y: -90, cls: 'card', w: 780, in: 'a9:Langkah', mpr: true },
-    { z: 4, x: 440, y: -90, cls: 'card', w: 780, in: 'a10:Presiden', html: '<div class="k">Kata Menko Yusril</div><h3>Presiden ke luar negeri</h3><p>sampai tanggal 14 atau 16 November</p>' },
-    { z: 4, x: 440, y: 110, cls: 'tag accent', html: 'Tidak ada Plt wapres', in: 'a10:Selama' },
-    { z: 4, x: -240, y: 225, cls: 'ghost', w: 400, h: 150, in: 'a12', html: '<div style="font-size:90px;line-height:1">?</div><div style="font-size:34px">Calon 1</div>' },
-    { z: 4, x: 240, y: 225, cls: 'ghost', w: 400, h: 150, in: 'a12:calonnya', html: '<div style="font-size:90px;line-height:1">?</div><div style="font-size:34px">Calon 2</div>' },
-    { z: 4, x: 720, y: 225, cls: 'tag', html: 'belum diumumkan resmi', in: 'a12:belum' },
+    { z: 4, x: -440, y: -90, cls: 'card', w: 780, in: 'a9:rapat', mpr: true },
+    { z: 4, x: 440, y: -90, cls: 'card', w: 780, in: 'a12:Kata', html: '<div class="k">Kata Muzani</div><h3>Presiden punya 14 hari</h3><p>setelah menerima surat MPR</p>' },
+    { z: 4, x: -560, y: 170, cls: 'ghost', w: 400, h: 150, in: 'a12', html: '<div style="font-size:90px;line-height:1">?</div><div style="font-size:34px">Calon 1</div>' },
+    { z: 4, x: -120, y: 170, cls: 'ghost', w: 400, h: 150, in: 'a12:calonnya', html: '<div style="font-size:90px;line-height:1">?</div><div style="font-size:34px">Calon 2</div>' },
+    { z: 4, x: 420, y: 170, cls: 'tag', html: 'belum ada nama resmi', in: 'a12:belum' },
   ],
 };
 // -----------------------------------------------------------------------------------------------

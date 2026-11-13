@@ -122,21 +122,22 @@
  },
  {
   "lines": "a9",
-  "claim": "MPR rapat gabungan scheduled Fri 13 Nov 14.00 WIB to set the plenary date and send the President a letter asking for two names (also: verification team, ad hoc team). RECHECK after 14.00 WIB.",
-  "numbers": "13 Nov 14.00 WIB",
+  "claim": "Fri 13 Nov, the MPR held its rapat gabungan on the VP vacancy (agenda: plenary date, letter asking the President for 2 names, verification team ~36 members, ad hoc team). As of Friday afternoon (16:15 WITA check) no official outcome/plenary date had been reported.",
+  "numbers": "13 Nov",
   "sensitivity": "high",
-  "status": "verified as scheduled (E0778); outcome pending",
+  "status": "verified as of Fri sore (Medcom 14:57 WIB says meeting held, no decisions reported; Republika 15:07 WIB pre-outcome)",
   "sources": [
-   "https://www.cnnindonesia.com/nasional/20261112140704-32-1426385/mpr-rapat-gabungan-bahas-jadwal-paripurna-wapres-pengganti-gibran-esok",
-   "https://sumbar.antaranews.com/berita/789223/mpr-gelar-rapat-gabungan-bahas-pengisian-jabatan-wapres-besok"
+   "https://www.medcom.id/ekonomi/bisnis/Wb7dr6dk-mpr-bahas-4-agenda-pemilihan-wapres-pengganti-gibran-prabowo-diminta-ajukan-2-nama",
+   "https://news.republika.co.id/berita/tofl8l393/presiden-punya-waktu-14-hari-ajukan-dua-nama-calon-wapres-ke-mpr",
+   "https://www.liputan6.com/news/read/8334533/mpr-gelar-rapat-gabungan-bahas-pemilihan-wapres-pengganti-gibran"
   ]
  },
  {
-  "lines": "a10, g2",
+  "lines": "g2",
   "claim": "Per Menko Yusril, Prabowo travels abroad 'kalau tidak salah sampai tanggal 14 atau 16' Nov (uncertain end date, no start date/destination) while the VP post is vacant; no acting VP (Plt).",
   "numbers": "s.d. 14 atau 16 Nov",
   "sensitivity": "medium",
-  "status": "verified wording (factcheck FIX 1)",
+  "status": "verified wording (factcheck FIX 1); a10 deleted (editor fix 2), claim now only g2",
   "sources": [
    "https://liputan6.com/news/read/8334294/prabowo-ke-luar-negeri-saat-kursi-wapres-kosong-yusril-tak-ada-plt",
    "https://www.suara.com/news/2026/11/12/191454"
@@ -144,12 +145,13 @@
  },
  {
   "lines": "a12",
-  "claim": "As of writing (Fri 13 Nov morning WITA), the two VP candidate names had not been officially announced. RECHECK after 14.00 WIB and before render.",
-  "numbers": "",
+  "claim": "Muzani (Fri 13 Nov): the President has 14 days after receiving the MPR's letter to submit two VP candidates ('14 harinya bukan dari keputusan rapat gabungan, tapi dari surat yang kita kirimkan'). No official names as of Friday afternoon.",
+  "numbers": "14 hari setelah surat MPR",
   "sensitivity": "high",
-  "status": "verified as of writing (no event in DB); time-stamped on screen",
+  "status": "verified (Republika & Medcom, 13 Nov); time-stamped 'sampai Jumat sore'",
   "sources": [
-   "https://www.cnnindonesia.com/nasional/20261112140704-32-1426385/mpr-rapat-gabungan-bahas-jadwal-paripurna-wapres-pengganti-gibran-esok"
+   "https://news.republika.co.id/berita/tofl8l393/presiden-punya-waktu-14-hari-ajukan-dua-nama-calon-wapres-ke-mpr",
+   "https://www.medcom.id/ekonomi/bisnis/Wb7dr6dk-mpr-bahas-4-agenda-pemilihan-wapres-pengganti-gibran-prabowo-diminta-ajukan-2-nama"
   ]
  },
  {
