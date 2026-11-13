@@ -1,723 +1,708 @@
 {
- "duration": 57.049,
+ "duration": 56.839,
  "voice": "Pratama",
  "lines": [
   {
    "id": "g0",
    "text": "Cek dulu janji minggu lalu: hasil MSCI memang keluar Kamis dini hari WIB.",
-   "start": 0.16799999999999998,
-   "end": 5.108,
+   "start": 0.20800000000000002,
+   "end": 5.7780000000000005,
    "words": [
     {
      "w": "Cek",
-     "start": 0.168,
-     "end": 0.228
+     "start": 0.208,
+     "end": 0.268
     },
     {
      "w": "dulu",
-     "start": 0.268,
-     "end": 0.468
+     "start": 0.308,
+     "end": 0.588
     },
     {
      "w": "janji",
-     "start": 0.528,
-     "end": 0.868
-    },
-    {
-     "w": "minggu",
-     "start": 0.9,
+     "start": 0.688,
      "end": 1.068
     },
     {
+     "w": "minggu",
+     "start": 1.116,
+     "end": 1.388
+    },
+    {
      "w": "lalu:",
-     "start": 1.088,
-     "end": 1.535
+     "start": 1.448,
+     "end": 1.708
     },
     {
      "w": "hasil",
-     "start": 1.541,
-     "end": 1.908
+     "start": 1.775,
+     "end": 2.258
     },
     {
      "w": "MSCI",
-     "start": 1.961,
-     "end": 2.548
+     "start": 2.311,
+     "end": 2.978
     },
     {
      "w": "memang",
-     "start": 2.608,
-     "end": 2.868
+     "start": 3.058,
+     "end": 3.378
     },
     {
      "w": "keluar",
-     "start": 2.908,
-     "end": 3.188
+     "start": 3.418,
+     "end": 3.778
     },
     {
      "w": "Kamis",
-     "start": 3.248,
-     "end": 3.508
+     "start": 3.838,
+     "end": 4.178
     },
     {
      "w": "dini",
-     "start": 3.548,
-     "end": 3.748
+     "start": 4.218,
+     "end": 4.418
     },
     {
      "w": "hari",
-     "start": 3.796,
-     "end": 4.148
+     "start": 4.482,
+     "end": 4.978
     },
     {
      "w": "WIB.",
-     "start": 4.201,
-     "end": 5.108
+     "start": 5.018,
+     "end": 5.778
     }
    ]
   },
   {
    "id": "g1",
    "text": "Oke, minggu depan. Catat tanggalnya.",
-   "start": 5.292,
-   "end": 7.112,
+   "start": 5.962,
+   "end": 7.792,
    "words": [
     {
      "w": "Oke,",
-     "start": 5.292,
-     "end": 5.612
+     "start": 5.962,
+     "end": 6.282
     },
     {
      "w": "minggu",
-     "start": 5.636,
-     "end": 5.812
+     "start": 6.306,
+     "end": 6.482
     },
     {
      "w": "depan.",
-     "start": 5.839,
-     "end": 6.132
+     "start": 6.509,
+     "end": 6.882
     },
     {
      "w": "Catat",
-     "start": 6.245,
-     "end": 6.512
+     "start": 6.935,
+     "end": 7.232
     },
     {
      "w": "tanggalnya.",
-     "start": 6.552,
-     "end": 7.112
+     "start": 7.282,
+     "end": 7.792
     }
    ]
   },
   {
    "id": "g2",
    "text": "Awal pekan, kata Yusril, Presiden masih di luar negeri, kalau tidak salah sampai 14 atau 16 November, saat kursi wapres masih kosong.",
-   "start": 7.535,
-   "end": 15.602,
+   "start": 8.335,
+   "end": 16.682,
    "words": [
     {
      "w": "Awal",
-     "start": 7.535,
-     "end": 7.752
+     "start": 8.335,
+     "end": 8.652
     },
     {
      "w": "pekan,",
-     "start": 7.805,
-     "end": 8.152
+     "start": 8.705,
+     "end": 9.052
     },
     {
      "w": "kata",
-     "start": 8.2,
-     "end": 8.392
+     "start": 9.1,
+     "end": 9.292
     },
     {
      "w": "Yusril,",
-     "start": 8.432,
-     "end": 9.032
+     "start": 9.332,
+     "end": 9.772
     },
     {
      "w": "Presiden",
-     "start": 9.08,
-     "end": 9.512
+     "start": 9.855,
+     "end": 10.302
     },
     {
      "w": "masih",
-     "start": 9.565,
-     "end": 9.832
+     "start": 10.342,
+     "end": 10.542
     },
     {
      "w": "di",
-     "start": 9.859,
-     "end": 9.912
+     "start": 10.569,
+     "end": 10.622
     },
     {
      "w": "luar",
-     "start": 9.952,
-     "end": 10.072
+     "start": 10.662,
+     "end": 10.862
     },
     {
      "w": "negeri,",
-     "start": 10.125,
-     "end": 10.592
+     "start": 10.915,
+     "end": 11.432
     },
     {
      "w": "kalau",
-     "start": 10.632,
-     "end": 10.872
+     "start": 11.472,
+     "end": 11.712
     },
     {
      "w": "tidak",
-     "start": 10.892,
-     "end": 10.992
+     "start": 11.732,
+     "end": 11.832
     },
     {
      "w": "salah",
-     "start": 11.059,
-     "end": 11.392
+     "start": 11.899,
+     "end": 12.232
     },
     {
      "w": "sampai",
-     "start": 11.472,
-     "end": 11.872
+     "start": 12.296,
+     "end": 12.632
     },
     {
      "w": "14",
-     "start": 11.925,
-     "end": 12.352
+     "start": 12.685,
+     "end": 13.192
     },
     {
      "w": "atau",
-     "start": 12.448,
-     "end": 12.832
+     "start": 13.288,
+     "end": 13.672
     },
     {
      "w": "16",
-     "start": 12.864,
-     "end": 13.312
+     "start": 13.704,
+     "end": 13.992
     },
     {
      "w": "November,",
-     "start": 13.339,
-     "end": 13.842
+     "start": 14.054,
+     "end": 14.842
     },
     {
      "w": "saat",
-     "start": 13.906,
-     "end": 14.162
+     "start": 14.89,
+     "end": 15.082
     },
     {
      "w": "kursi",
-     "start": 14.226,
-     "end": 14.522
+     "start": 15.13,
+     "end": 15.402
     },
     {
      "w": "wapres",
-     "start": 14.542,
-     "end": 14.882
+     "start": 15.442,
+     "end": 15.882
     },
     {
      "w": "masih",
-     "start": 14.922,
-     "end": 15.122
+     "start": 15.922,
+     "end": 16.122
     },
     {
      "w": "kosong.",
-     "start": 15.182,
-     "end": 15.602
+     "start": 16.182,
+     "end": 16.682
     }
    ]
   },
   {
    "id": "g3",
-   "text": "Dari MPR: pantau jadwal paripurna pemilihan wapres, dan dua nama dari Presiden. Batasnya, paling lambat 60 hari sejak 12 November.",
-   "start": 16.055,
-   "end": 24.752,
+   "text": "Rabu, 18 November: batas akhir dua nama calon wapres dari Presiden masuk ke MPR. Paripurnanya, 2 Desember.",
+   "start": 17.302,
+   "end": 24.401999999999997,
    "words": [
     {
-     "w": "Dari",
-     "start": 16.055,
-     "end": 16.292
+     "w": "Rabu,",
+     "start": 17.302,
+     "end": 17.629
     },
     {
-     "w": "MPR:",
-     "start": 16.345,
-     "end": 16.852
+     "w": "18",
+     "start": 17.642,
+     "end": 18.162
     },
     {
-     "w": "pantau",
-     "start": 16.995,
-     "end": 17.382
+     "w": "November:",
+     "start": 18.189,
+     "end": 18.482
     },
     {
-     "w": "jadwal",
-     "start": 17.462,
-     "end": 17.862
+     "w": "batas",
+     "start": 18.585,
+     "end": 19.072
     },
     {
-     "w": "paripurna",
-     "start": 17.902,
-     "end": 18.422
-    },
-    {
-     "w": "pemilihan",
-     "start": 18.462,
-     "end": 18.902
-    },
-    {
-     "w": "wapres,",
-     "start": 18.942,
-     "end": 19.612
-    },
-    {
-     "w": "dan",
-     "start": 19.672,
-     "end": 19.852
+     "w": "akhir",
+     "start": 19.152,
+     "end": 19.392
     },
     {
      "w": "dua",
-     "start": 19.912,
-     "end": 20.092
+     "start": 19.452,
+     "end": 19.632
     },
     {
      "w": "nama",
-     "start": 20.156,
-     "end": 20.412
+     "start": 19.68,
+     "end": 19.872
+    },
+    {
+     "w": "calon",
+     "start": 19.912,
+     "end": 20.112
+    },
+    {
+     "w": "wapres",
+     "start": 20.152,
+     "end": 20.512
     },
     {
      "w": "dari",
-     "start": 20.46,
-     "end": 20.652
+     "start": 20.544,
+     "end": 20.672
     },
     {
-     "w": "Presiden.",
-     "start": 20.7,
-     "end": 21.212
+     "w": "Presiden",
+     "start": 20.736,
+     "end": 21.472
     },
     {
-     "w": "Batasnya,",
-     "start": 21.335,
-     "end": 21.932
+     "w": "masuk",
+     "start": 21.552,
+     "end": 21.872
     },
     {
-     "w": "paling",
-     "start": 22.085,
-     "end": 22.352
+     "w": "ke",
+     "start": 21.925,
+     "end": 22.032
     },
     {
-     "w": "lambat",
-     "start": 22.4,
-     "end": 22.752
+     "w": "MPR.",
+     "start": 22.059,
+     "end": 22.575
     },
     {
-     "w": "60",
-     "start": 22.8,
-     "end": 23.312
+     "w": "Paripurnanya,",
+     "start": 22.575,
+     "end": 23.442
     },
     {
-     "w": "hari",
-     "start": 23.344,
-     "end": 23.472
+     "w": "2",
+     "start": 23.522,
+     "end": 23.762
     },
     {
-     "w": "sejak",
-     "start": 23.552,
-     "end": 23.872
-    },
-    {
-     "w": "12",
-     "start": 23.912,
-     "end": 24.192
-    },
-    {
-     "w": "November.",
-     "start": 24.245,
-     "end": 24.752
+     "w": "Desember.",
+     "start": 23.822,
+     "end": 24.402
     }
    ]
   },
   {
    "id": "g4",
    "text": "Pekan depan juga, kata Polri: sidang etik Listyo Sigit dan dua jenderal lain. Tanggal pastinya belum diumumkan.",
-   "start": 25.224999999999998,
-   "end": 31.404999999999998,
+   "start": 25.041999999999998,
+   "end": 31.522,
    "words": [
     {
      "w": "Pekan",
-     "start": 25.225,
-     "end": 25.472
+     "start": 25.042,
+     "end": 25.282
     },
     {
      "w": "depan",
-     "start": 25.499,
-     "end": 25.712
+     "start": 25.335,
+     "end": 25.522
     },
     {
      "w": "juga,",
-     "start": 25.776,
-     "end": 26.112
+     "start": 25.586,
+     "end": 26.002
     },
     {
      "w": "kata",
-     "start": 26.144,
-     "end": 26.272
+     "start": 26.034,
+     "end": 26.162
     },
     {
      "w": "Polri:",
-     "start": 26.332,
-     "end": 26.832
+     "start": 26.242,
+     "end": 26.722
     },
     {
      "w": "sidang",
-     "start": 26.915,
-     "end": 27.302
+     "start": 26.795,
+     "end": 27.202
     },
     {
      "w": "etik",
-     "start": 27.355,
-     "end": 27.622
+     "start": 27.282,
+     "end": 27.522
     },
     {
      "w": "Listyo",
-     "start": 27.654,
-     "end": 27.862
+     "start": 27.57,
+     "end": 27.842
     },
     {
      "w": "Sigit",
-     "start": 27.902,
-     "end": 28.342
+     "start": 27.882,
+     "end": 28.242
     },
     {
      "w": "dan",
-     "start": 28.382,
-     "end": 28.502
+     "start": 28.302,
+     "end": 28.482
     },
     {
      "w": "dua",
      "start": 28.562,
-     "end": 28.742
+     "end": 28.802
     },
     {
      "w": "jenderal",
-     "start": 28.822,
-     "end": 29.302
+     "start": 28.882,
+     "end": 29.282
     },
     {
      "w": "lain.",
-     "start": 29.334,
-     "end": 29.542
+     "start": 29.33,
+     "end": 29.682
     },
     {
      "w": "Tanggal",
-     "start": 29.655,
-     "end": 29.942
+     "start": 29.725,
+     "end": 30.002
     },
     {
      "w": "pastinya",
-     "start": 29.99,
-     "end": 30.422
+     "start": 30.066,
+     "end": 30.562
     },
     {
      "w": "belum",
-     "start": 30.462,
-     "end": 30.662
+     "start": 30.615,
+     "end": 30.882
     },
     {
      "w": "diumumkan.",
-     "start": 30.689,
-     "end": 31.405
+     "start": 30.935,
+     "end": 31.522
     }
    ]
   },
   {
    "id": "g5",
    "text": "Lalu Selasa dan Rabu, 17 sampai 18 November: Rapat Dewan Gubernur Bank Indonesia. Ini rapat yang kami janjikan di awal.",
-   "start": 31.522,
-   "end": 39.184999999999995,
+   "start": 31.773999999999997,
+   "end": 39.336999999999996,
    "words": [
     {
      "w": "Lalu",
-     "start": 31.522,
-     "end": 31.852
+     "start": 31.774,
+     "end": 32.027
     },
     {
      "w": "Selasa",
-     "start": 31.912,
-     "end": 32.252
+     "start": 32.087,
+     "end": 32.427
     },
     {
      "w": "dan",
-     "start": 32.292,
-     "end": 32.412
+     "start": 32.467,
+     "end": 32.587
     },
     {
      "w": "Rabu,",
-     "start": 32.472,
-     "end": 32.972
+     "start": 32.667,
+     "end": 33.067
     },
     {
      "w": "17",
-     "start": 33.025,
-     "end": 33.452
+     "start": 33.147,
+     "end": 33.627
     },
     {
      "w": "sampai",
-     "start": 33.532,
-     "end": 33.932
+     "start": 33.691,
+     "end": 34.027
     },
     {
      "w": "18",
-     "start": 33.972,
-     "end": 34.412
+     "start": 34.067,
+     "end": 34.707
     },
     {
      "w": "November:",
-     "start": 34.474,
-     "end": 35.172
+     "start": 34.738,
+     "end": 35.147
     },
     {
      "w": "Rapat",
-     "start": 35.232,
-     "end": 35.492
+     "start": 35.185,
+     "end": 35.627
     },
     {
      "w": "Dewan",
-     "start": 35.552,
-     "end": 35.812
+     "start": 35.687,
+     "end": 35.947
     },
     {
      "w": "Gubernur",
-     "start": 35.852,
-     "end": 36.292
+     "start": 35.987,
+     "end": 36.427
     },
     {
      "w": "Bank",
-     "start": 36.34,
-     "end": 36.532
+     "start": 36.475,
+     "end": 36.667
     },
     {
      "w": "Indonesia.",
-     "start": 36.588,
-     "end": 37.245
+     "start": 36.723,
+     "end": 37.307
     },
     {
      "w": "Ini",
-     "start": 37.245,
-     "end": 37.512
+     "start": 37.395,
+     "end": 37.737
     },
     {
      "w": "rapat",
-     "start": 37.572,
-     "end": 37.832
+     "start": 37.797,
+     "end": 38.057
     },
     {
      "w": "yang",
-     "start": 37.848,
-     "end": 37.912
+     "start": 38.073,
+     "end": 38.137
     },
     {
      "w": "kami",
-     "start": 37.96,
-     "end": 38.152
+     "start": 38.185,
+     "end": 38.377
     },
     {
      "w": "janjikan",
-     "start": 38.192,
-     "end": 38.552
+     "start": 38.417,
+     "end": 38.777
     },
     {
      "w": "di",
-     "start": 38.579,
-     "end": 38.632
+     "start": 38.83,
+     "end": 38.937
     },
     {
      "w": "awal.",
-     "start": 38.712,
-     "end": 39.185
+     "start": 38.99,
+     "end": 39.337
     }
    ]
   },
   {
    "id": "g6",
    "text": "BI-Rate sekarang 5,75 persen. Sebagian ekonom memperkirakan naik ke 6 persen. Kalau naik, bunga kredit, termasuk cicilan, bisa ikut naik. Tapi biasanya tidak langsung.",
-   "start": 39.388999999999996,
-   "end": 50.181999999999995,
+   "start": 39.668,
+   "end": 49.966,
    "words": [
     {
      "w": "BI-Rate",
-     "start": 39.389,
-     "end": 39.722
+     "start": 39.668,
+     "end": 39.935
     },
     {
      "w": "sekarang",
-     "start": 39.775,
-     "end": 40.122
+     "start": 39.988,
+     "end": 40.335
     },
     {
      "w": "5,75",
-     "start": 40.182,
-     "end": 41.242
+     "start": 40.395,
+     "end": 41.296
     },
     {
      "w": "persen.",
-     "start": 41.29,
-     "end": 41.805
+     "start": 41.344,
+     "end": 41.776
     },
     {
      "w": "Sebagian",
-     "start": 41.805,
-     "end": 42.312
+     "start": 41.815,
+     "end": 42.346
     },
     {
      "w": "ekonom",
-     "start": 42.369,
-     "end": 42.712
+     "start": 42.415,
+     "end": 42.826
     },
     {
      "w": "memperkirakan",
-     "start": 42.752,
-     "end": 43.432
+     "start": 42.886,
+     "end": 43.546
     },
     {
      "w": "naik",
-     "start": 43.539,
-     "end": 43.832
+     "start": 43.626,
+     "end": 43.866
     },
     {
      "w": "ke",
-     "start": 43.885,
-     "end": 43.992
+     "start": 43.919,
+     "end": 44.026
     },
     {
      "w": "6",
-     "start": 44.024,
-     "end": 44.152
+     "start": 44.058,
+     "end": 44.186
     },
     {
      "w": "persen.",
-     "start": 44.2,
-     "end": 44.755
+     "start": 44.234,
+     "end": 44.666
     },
     {
      "w": "Kalau",
-     "start": 44.755,
-     "end": 45.002
+     "start": 44.725,
+     "end": 45.026
     },
     {
      "w": "naik,",
-     "start": 45.055,
-     "end": 45.402
+     "start": 45.079,
+     "end": 45.556
     },
     {
      "w": "bunga",
-     "start": 45.455,
-     "end": 45.742
+     "start": 45.596,
+     "end": 45.796
     },
     {
      "w": "kredit,",
-     "start": 45.822,
-     "end": 46.302
+     "start": 45.836,
+     "end": 46.346
     },
     {
      "w": "termasuk",
-     "start": 46.35,
-     "end": 46.702
+     "start": 46.394,
+     "end": 46.746
     },
     {
      "w": "cicilan,",
-     "start": 46.762,
-     "end": 47.422
+     "start": 46.806,
+     "end": 47.386
     },
     {
      "w": "bisa",
-     "start": 47.486,
-     "end": 47.742
+     "start": 47.45,
+     "end": 47.706
     },
     {
      "w": "ikut",
-     "start": 47.795,
-     "end": 47.982
+     "start": 47.733,
+     "end": 47.866
     },
     {
      "w": "naik.",
-     "start": 48.035,
-     "end": 48.385
+     "start": 47.919,
+     "end": 48.265
     },
     {
      "w": "Tapi",
-     "start": 48.385,
-     "end": 48.822
+     "start": 48.265,
+     "end": 48.686
     },
     {
      "w": "biasanya",
-     "start": 48.886,
-     "end": 49.382
+     "start": 48.75,
+     "end": 49.246
     },
     {
      "w": "tidak",
-     "start": 49.422,
-     "end": 49.622
+     "start": 49.286,
+     "end": 49.486
     },
     {
      "w": "langsung.",
-     "start": 49.675,
-     "end": 50.182
+     "start": 49.539,
+     "end": 49.966
     }
    ]
   },
   {
    "id": "g7",
    "text": "Dan UMP 2027: kata Menaker, pembahasan internalnya ditargetkan selesai November.",
-   "start": 50.254999999999995,
-   "end": 56.445,
+   "start": 50.625,
+   "end": 56.286,
    "words": [
     {
      "w": "Dan",
-     "start": 50.255,
-     "end": 50.845
+     "start": 50.625,
+     "end": 50.625
     },
     {
      "w": "UMP",
-     "start": 50.925,
-     "end": 51.535
+     "start": 50.716,
+     "end": 51.371
     },
     {
      "w": "2027:",
-     "start": 51.535,
-     "end": 52.552
+     "start": 51.371,
+     "end": 52.463
     },
     {
      "w": "kata",
-     "start": 52.578,
-     "end": 52.685
+     "start": 52.489,
+     "end": 52.596
     },
     {
      "w": "Menaker,",
-     "start": 52.725,
-     "end": 53.375
+     "start": 52.656,
+     "end": 53.326
     },
     {
      "w": "pembahasan",
-     "start": 53.375,
-     "end": 53.965
+     "start": 53.374,
+     "end": 53.886
     },
     {
      "w": "internalnya",
-     "start": 54.018,
-     "end": 54.605
+     "start": 53.948,
+     "end": 54.526
     },
     {
      "w": "ditargetkan",
-     "start": 54.645,
-     "end": 55.165
+     "start": 54.586,
+     "end": 55.166
     },
     {
      "w": "selesai",
-     "start": 55.218,
-     "end": 55.645
+     "start": 55.219,
+     "end": 55.646
     },
     {
      "w": "November.",
-     "start": 55.698,
-     "end": 56.445
+     "start": 55.708,
+     "end": 56.286
     }
    ]
   }

@@ -122,14 +122,14 @@
  },
  {
   "lines": "a9",
-  "claim": "Fri 13 Nov, the MPR held its rapat gabungan on the VP vacancy (agenda: plenary date, letter asking the President for 2 names, verification team ~36 members, ad hoc team). As of Friday afternoon (16:15 WITA check) no official outcome/plenary date had been reported.",
-  "numbers": "13 Nov",
+  "claim": "Fri 13 Nov (rapat gabungan 14.30–15.30 WIB), Ketua MPR Muzani announced the MPR plenary to elect, inaugurate and ratify the new VP on Wednesday 2 Dec 2026. Other points: letter to the President (sent 13 Nov) asking for 2 names, verification team (36), ad hoc team (36).",
+  "numbers": "2 Des 2026 · 4 poin · tim 36",
   "sensitivity": "high",
-  "status": "verified as of Fri sore (Medcom 14:57 WIB says meeting held, no decisions reported; Republika 15:07 WIB pre-outcome)",
+  "status": "verified (CNN 4 poin 16:48 WIB; CNBC; note CNN's point 1 typo '2 November', Muzani's quote says 2 Desember)",
   "sources": [
-   "https://www.medcom.id/ekonomi/bisnis/Wb7dr6dk-mpr-bahas-4-agenda-pemilihan-wapres-pengganti-gibran-prabowo-diminta-ajukan-2-nama",
-   "https://news.republika.co.id/berita/tofl8l393/presiden-punya-waktu-14-hari-ajukan-dua-nama-calon-wapres-ke-mpr",
-   "https://www.liputan6.com/news/read/8334533/mpr-gelar-rapat-gabungan-bahas-pemilihan-wapres-pengganti-gibran"
+   "https://www.cnnindonesia.com/nasional/20261113162616-32-1426944/4-poin-hasil-rapat-gabungan-mpr-soal-pemilihan-wapres-pengganti-gibran",
+   "https://cnnindonesia.com/nasional/20261113161051-32-1426914/mpr-terima-2-nama-cawapres-pengganti-gibran-paling-lama-18-november",
+   "https://www.cnbcindonesia.com/news/20261113161200-4-785097/mpr-tetapkan-rapat-paripurna-pengganti-gibran-2-desember-2026"
   ]
  },
  {
@@ -145,13 +145,13 @@
  },
  {
   "lines": "a12",
-  "claim": "Muzani (Fri 13 Nov): the President has 14 days after receiving the MPR's letter to submit two VP candidates ('14 harinya bukan dari keputusan rapat gabungan, tapi dari surat yang kita kirimkan'). No official names as of Friday afternoon.",
-  "numbers": "14 hari setelah surat MPR",
+  "claim": "Per MPR Tatib (Peraturan MPR 1/2024 Pasal 136 ayat 1), the President's 2 names are due at least 14 days before the plenary, i.e. by Wed 18 Nov (CNN's count from 2 Dec). No official names as of Friday afternoon.",
+  "numbers": "18 Nov · 14 hari sebelum paripurna",
   "sensitivity": "high",
-  "status": "verified (Republika & Medcom, 13 Nov); time-stamped 'sampai Jumat sore'",
+  "status": "verified (CNN 16:24 WIB; date derived by CNN from the Tatib; Muzani: 'Insyaallah'). Note Muzani earlier said 14 days after the letter (~27 Nov); script uses the Tatib/CNN framing",
   "sources": [
-   "https://news.republika.co.id/berita/tofl8l393/presiden-punya-waktu-14-hari-ajukan-dua-nama-calon-wapres-ke-mpr",
-   "https://www.medcom.id/ekonomi/bisnis/Wb7dr6dk-mpr-bahas-4-agenda-pemilihan-wapres-pengganti-gibran-prabowo-diminta-ajukan-2-nama"
+   "https://cnnindonesia.com/nasional/20261113161051-32-1426914/mpr-terima-2-nama-cawapres-pengganti-gibran-paling-lama-18-november",
+   "https://www.cnnindonesia.com/nasional/20261113162616-32-1426944/4-poin-hasil-rapat-gabungan-mpr-soal-pemilihan-wapres-pengganti-gibran"
   ]
  },
  {
@@ -467,6 +467,18 @@
   "sources": [
    "https://www.detik.com/sumut/berita/d-8726331/ump-2027-ditargetkan-rampung-akhir-november",
    "https://katadata.co.id/berita/nasional/6ae076253350b/ump-2027-mulai-bergulir-menaker-target-pembahasan-internal-tuntas-november"
+  ]
+ },
+ {
+  "lines": "g3",
+  "claim": "Wed 18 Nov: deadline for the President's 2 VP names to reach the MPR; plenary 2 Dec.",
+  "numbers": "18 Nov · 2 Des",
+  "sensitivity": "high",
+  "status": "verified (as a9/a12)",
+  "sources": [
+   "https://www.cnnindonesia.com/nasional/20261113162616-32-1426944/4-poin-hasil-rapat-gabungan-mpr-soal-pemilihan-wapres-pengganti-gibran",
+   "https://cnnindonesia.com/nasional/20261113161051-32-1426914/mpr-terima-2-nama-cawapres-pengganti-gibran-paling-lama-18-november",
+   "https://www.cnbcindonesia.com/news/20261113161200-4-785097/mpr-tetapkan-rapat-paripurna-pengganti-gibran-2-desember-2026"
   ]
  }
 ]

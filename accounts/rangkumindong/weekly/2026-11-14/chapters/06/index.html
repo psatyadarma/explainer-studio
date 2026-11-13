@@ -82,15 +82,17 @@ add('<span class="dot" style="position:static;display:inline-block;transform:non
 add('<span class="dot" style="position:static;display:inline-block;transform:none"></span>', bx + 300, 520, W('g2', '16'), Infinity, '');
 add('Kursi wapres kosong', bx, 760, W('g2', 'kursi') - 0.1, Infinity, 'card dash', 2);
 
-// ZONE C (x=4960): MPR
+// ZONE C (x=4960): batas nama 18 Nov, paripurna 2 Des
 const cx = 4960;
-add('Dari MPR', cx, 190, W('g3', 'mpr') - 0.2, Infinity, 'tag light sticker');
-add('Paripurna pemilihan wapres<small>pantau jadwalnya</small>', cx, 360, W('g3', 'paripurna') - 0.2, Infinity, 'card', -1.5);
-add('Dua nama dari Presiden', cx, 540, W('g3', 'dua') - 0.1, Infinity, 'card', 1.5);
-const cb = box('line', cx - 420, 710, 840, 14); cb.style.top = '703px';
-add('<span class="dot" style="position:static;display:inline-block;transform:none"></span>', cx - 420, 710, W('g3', '12') - 0.05, Infinity, '');
-add('12 Nov', cx - 420, 800, W('g3', '12') - 0.05, Infinity, 'tag sticker');
-add('Paling lambat 60 hari', cx + 150, 800, W('g3', 'paling') - 0.1, Infinity, 'tag accent sticker');
+add('Rabu, 18 November', cx, 190, S('g3') + 0.05, Infinity, 'tag light sticker');
+add('Batas akhir: dua nama calon wapres dari Presiden<small>masuk ke MPR</small>', cx, 360, W('g3', 'batas') - 0.1, Infinity, 'card', -1.5);
+const cb = box('line', cx - 420, 640, 840, 14); cb.style.top = '633px';
+const dotH = '<span class="dot" style="position:static;display:inline-block;transform:none"></span>';
+add(dotH, cx - 420, 640, W('g3', '18') - 0.05, Infinity, '');
+add('18 Nov', cx - 420, 730, W('g3', '18') - 0.05, Infinity, 'tag sticker');
+add('Paripurna MPR', cx, 535, W('g3', 'paripurnanya') - 0.1, Infinity, 'card', 1.5);
+add(dotH, cx + 420, 640, W('g3', '2') - 0.05, Infinity, '');
+add('2 Des', cx + 420, 730, W('g3', '2') - 0.05, Infinity, 'tag accent sticker');
 
 // ZONE D (x=6960): Polri ethics hearing
 const dx = 6960;
@@ -158,7 +160,7 @@ function seek(t) {
   // growing lines
   const lines = world.querySelectorAll('.line');
   lines[0].style.transform = `scaleX(${K.easeOut(K.prog(t, W('g2', 'sampai'), 1.3))})`;
-  lines[1].style.transform = `scaleX(${K.easeOut(K.prog(t, W('g3', 'paling') - 0.1, 1.4))})`;
+  lines[1].style.transform = `scaleX(${K.easeOut(K.prog(t, W('g3', 'masuk'), 2.0))})`;
   // calendar numbers appear when spoken
   n17.style.opacity = t >= W('g5', '17') - 0.05 ? 1 : 0;
   n18.style.opacity = t >= W('g5', '18') - 0.05 ? 1 : 0;
