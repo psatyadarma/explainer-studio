@@ -1,0 +1,508 @@
+{
+ "verdict": "PASS",
+ "lead": 0.08,
+ "matched_words": 95,
+ "of_words": 101,
+ "median_offset_s": -0.119,
+ "share_in_window": 0.874,
+ "share_late_over_150ms": 0.011,
+ "worst_lines": [
+  {
+   "line": "l1",
+   "median_offset_s": -0.138
+  },
+  {
+   "line": "l5",
+   "median_offset_s": -0.134
+  },
+  {
+   "line": "h2",
+   "median_offset_s": -0.132
+  },
+  {
+   "line": "h1",
+   "median_offset_s": -0.118
+  },
+  {
+   "line": "l2",
+   "median_offset_s": -0.117
+  }
+ ],
+ "pairs": [
+  {
+   "line": "h1",
+   "word": "Mau",
+   "offset": -0.037
+  },
+  {
+   "line": "h1",
+   "word": "ganti",
+   "offset": -0.132
+  },
+  {
+   "line": "h1",
+   "word": "HP?",
+   "offset": -0.125
+  },
+  {
+   "line": "h1",
+   "word": "HP",
+   "offset": -0.205
+  },
+  {
+   "line": "h1",
+   "word": "murah",
+   "offset": -0.112
+  },
+  {
+   "line": "h1",
+   "word": "makin",
+   "offset": -0.132
+  },
+  {
+   "line": "h1",
+   "word": "susah",
+   "offset": -0.112
+  },
+  {
+   "line": "h1",
+   "word": "dicari.",
+   "offset": -0.092
+  },
+  {
+   "line": "h2",
+   "word": "Tebak",
+   "offset": -0.041
+  },
+  {
+   "line": "h2",
+   "word": "dulu:",
+   "offset": -0.132
+  },
+  {
+   "line": "h2",
+   "word": "HP",
+   "offset": -0.229
+  },
+  {
+   "line": "h2",
+   "word": "murah",
+   "offset": -0.092
+  },
+  {
+   "line": "h2",
+   "word": "tinggal",
+   "offset": -0.164
+  },
+  {
+   "line": "h2",
+   "word": "berapa",
+   "offset": -0.132
+  },
+  {
+   "line": "h2",
+   "word": "persen",
+   "offset": -0.148
+  },
+  {
+   "line": "h2",
+   "word": "pasar?",
+   "offset": -0.019
+  },
+  {
+   "line": "rd",
+   "word": "Rangkumin",
+   "offset": -0.089
+  },
+  {
+   "line": "rd",
+   "word": "dong!",
+   "offset": -0.109
+  },
+  {
+   "line": "l1",
+   "word": "Misalnya",
+   "offset": 0.045
+  },
+  {
+   "line": "l1",
+   "word": "Pak",
+   "offset": -0.178
+  },
+  {
+   "line": "l1",
+   "word": "Budi",
+   "offset": -0.158
+  },
+  {
+   "line": "l1",
+   "word": "cari",
+   "offset": -0.118
+  },
+  {
+   "line": "l1",
+   "word": "HP",
+   "offset": -0.105
+  },
+  {
+   "line": "l1",
+   "word": "baru",
+   "offset": -0.158
+  },
+  {
+   "line": "l1",
+   "word": "di",
+   "offset": -0.125
+  },
+  {
+   "line": "l1",
+   "word": "bawah",
+   "offset": -0.078
+  },
+  {
+   "line": "l1",
+   "word": "juta.",
+   "offset": -0.158
+  },
+  {
+   "line": "l1",
+   "word": "Kata",
+   "offset": -0.18
+  },
+  {
+   "line": "l1",
+   "word": "Counterpoint:",
+   "offset": -0.098
+  },
+  {
+   "line": "l1",
+   "word": "susah",
+   "offset": -0.25
+  },
+  {
+   "line": "l1",
+   "word": "nemunya.",
+   "offset": -0.138
+  },
+  {
+   "line": "l2",
+   "word": "Kuartal",
+   "offset": -0.044
+  },
+  {
+   "line": "l2",
+   "word": "tiga",
+   "offset": -0.104
+  },
+  {
+   "line": "l2",
+   "word": "tahun",
+   "offset": -0.124
+  },
+  {
+   "line": "l2",
+   "word": "ini,",
+   "offset": -0.084
+  },
+  {
+   "line": "l2",
+   "word": "pengiriman",
+   "offset": -0.092
+  },
+  {
+   "line": "l2",
+   "word": "HP",
+   "offset": -0.091
+  },
+  {
+   "line": "l2",
+   "word": "di",
+   "offset": -0.117
+  },
+  {
+   "line": "l2",
+   "word": "Indonesia",
+   "offset": -0.088
+  },
+  {
+   "line": "l2",
+   "word": "anjlok",
+   "offset": -0.137
+  },
+  {
+   "line": "l2",
+   "word": "persen.",
+   "offset": -0.116
+  },
+  {
+   "line": "l2",
+   "word": "Turun",
+   "offset": -0.21
+  },
+  {
+   "line": "l2",
+   "word": "tiga",
+   "offset": -0.134
+  },
+  {
+   "line": "l2",
+   "word": "kuartal.",
+   "offset": -0.134
+  },
+  {
+   "line": "l2",
+   "word": "Berturut-turut.",
+   "offset": -0.2
+  },
+  {
+   "line": "l3",
+   "word": "Pemicunya?",
+   "offset": 0.115
+  },
+  {
+   "line": "l3",
+   "word": "Chip",
+   "offset": -0.19
+  },
+  {
+   "line": "l3",
+   "word": "memori.",
+   "offset": -0.114
+  },
+  {
+   "line": "l3",
+   "word": "Pusat",
+   "offset": -0.19
+  },
+  {
+   "line": "l3",
+   "word": "data",
+   "offset": -0.084
+  },
+  {
+   "line": "l3",
+   "word": "AI",
+   "offset": 0.116
+  },
+  {
+   "line": "l3",
+   "word": "nyedot",
+   "offset": -0.204
+  },
+  {
+   "line": "l3",
+   "word": "pasokannya,",
+   "offset": -0.084
+  },
+  {
+   "line": "l3",
+   "word": "RAM",
+   "offset": -0.124
+  },
+  {
+   "line": "l3",
+   "word": "jadi",
+   "offset": -0.124
+  },
+  {
+   "line": "l3",
+   "word": "mahal.",
+   "offset": -0.084
+  },
+  {
+   "line": "l4",
+   "word": "Secara",
+   "offset": 0.006
+  },
+  {
+   "line": "l4",
+   "word": "global,",
+   "offset": -0.093
+  },
+  {
+   "line": "l4",
+   "word": "harga",
+   "offset": -0.07
+  },
+  {
+   "line": "l4",
+   "word": "rata-rata",
+   "offset": -0.11
+  },
+  {
+   "line": "l4",
+   "word": "HP",
+   "offset": -0.117
+  },
+  {
+   "line": "l4",
+   "word": "naik",
+   "offset": -0.17
+  },
+  {
+   "line": "l4",
+   "word": "sekitar",
+   "offset": -0.117
+  },
+  {
+   "line": "l4",
+   "word": "persen",
+   "offset": -0.122
+  },
+  {
+   "line": "l4",
+   "word": "tahun",
+   "offset": -0.197
+  },
+  {
+   "line": "l4",
+   "word": "ini.",
+   "offset": -0.11
+  },
+  {
+   "line": "l5",
+   "word": "Tapi",
+   "offset": 0.21
+  },
+  {
+   "line": "l5",
+   "word": "ini",
+   "offset": -0.31
+  },
+  {
+   "line": "l5",
+   "word": "jawabannya:",
+   "offset": -0.13
+  },
+  {
+   "line": "l5",
+   "word": "HP",
+   "offset": -0.2
+  },
+  {
+   "line": "l5",
+   "word": "di",
+   "offset": -0.137
+  },
+  {
+   "line": "l5",
+   "word": "bawah",
+   "offset": -0.11
+  },
+  {
+   "line": "l5",
+   "word": "dolar",
+   "offset": 0.023
+  },
+  {
+   "line": "l5",
+   "word": "dulu",
+   "offset": -0.21
+  },
+  {
+   "line": "l5",
+   "word": "persen",
+   "offset": -0.122
+  },
+  {
+   "line": "l5",
+   "word": "pasar.",
+   "offset": -0.149
+  },
+  {
+   "line": "l5",
+   "word": "Sekarang?",
+   "offset": -0.23
+  },
+  {
+   "line": "l5",
+   "word": "Tinggal",
+   "offset": -0.131
+  },
+  {
+   "line": "cta",
+   "word": "Kalau",
+   "offset": 0.036
+  },
+  {
+   "line": "cta",
+   "word": "kamu:",
+   "offset": -0.029
+  },
+  {
+   "line": "cta",
+   "word": "beli",
+   "offset": -0.249
+  },
+  {
+   "line": "cta",
+   "word": "sekarang,",
+   "offset": -0.076
+  },
+  {
+   "line": "cta",
+   "word": "atau",
+   "offset": -0.075
+  },
+  {
+   "line": "cta",
+   "word": "pakai",
+   "offset": -0.159
+  },
+  {
+   "line": "cta",
+   "word": "HP",
+   "offset": -0.106
+  },
+  {
+   "line": "cta",
+   "word": "lama",
+   "offset": -0.099
+  },
+  {
+   "line": "cta",
+   "word": "lebih",
+   "offset": -0.159
+  },
+  {
+   "line": "cta",
+   "word": "lama?",
+   "offset": -0.139
+  },
+  {
+   "line": "cta",
+   "word": "Komen!",
+   "offset": -0.2
+  },
+  {
+   "line": "end",
+   "word": "Follow",
+   "offset": 0.054
+  },
+  {
+   "line": "end",
+   "word": "Rangkumin",
+   "offset": -0.119
+  },
+  {
+   "line": "end",
+   "word": "Dong,",
+   "offset": -0.131
+  },
+  {
+   "line": "end",
+   "word": "biar",
+   "offset": -0.172
+  },
+  {
+   "line": "end",
+   "word": "nggak",
+   "offset": -0.112
+  },
+  {
+   "line": "end",
+   "word": "ketinggalan!",
+   "offset": -0.079
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+{
+  "direction": "[energetic, conversational, explaining to a friend]",
+  "format": "short",
+  "hook_style": "kamu_stakes",
+  "lines": [
+    {"id": "h1", "tag": "[concerned, direct]", "text": "Mau ganti HP? HP murah makin susah dicari.", "say": "Mau ganti Ha Pe? Ha Pe murah makin susah dicari."},
+    {"id": "h2", "tag": "[curious, teasing]", "text": "Tebak dulu: HP murah tinggal berapa persen pasar?", "say": "Tebak dulu: Ha Pe murah tinggal berapa persen pasar?"},
+    {"id": "rd", "tagline": true, "text": "Rangkumin dong!"},
+    {"id": "l1", "tag": "[storytelling, light]", "text": "Misalnya Pak Budi cari HP baru di bawah Rp2 juta. Kata Counterpoint: susah nemunya.", "say": "Misalnya Pak Budi cari Ha Pe baru di bawah dua juta. Kata Counterpoint: susah nemunya."},
+    {"id": "l2", "tag": "[serious, punchy]", "text": "Kuartal tiga tahun ini, pengiriman HP di Indonesia anjlok 43 persen. Turun tiga kuartal. Berturut-turut.", "say": "Kuartal tiga tahun ini, pengiriman Ha Pe di Indonesia anjlok empat puluh tiga persen. Turun tiga kuartal. Berturut-turut."},
+    {"id": "l3", "tag": "[explaining, quick]", "text": "Pemicunya? Chip memori. Pusat data AI nyedot pasokannya, RAM jadi mahal.", "say": "Pemicunya? Chip memori. Pusat data, ei ai, nyedot pasokannya, ram jadi mahal."},
+    {"id": "l4", "tag": "[matter-of-fact]", "text": "Secara global, harga rata-rata HP naik sekitar 15 persen tahun ini.", "say": "Secara global, harga rata-rata Ha Pe naik sekitar lima belas persen tahun ini."},
+    {"id": "l5", "tag": "[dramatic, slower]", "text": "Tapi ini jawabannya: HP di bawah 150 dolar dulu 55 persen pasar. Sekarang? Tinggal 24.", "say": "Tapi ini jawabannya: Ha Pe di bawah seratus lima puluh dolar dulu lima puluh lima persen pasar. Sekarang? Tinggal dua puluh empat."},
+    {"id": "cta", "tag": "[playful, asking the viewer]", "text": "Kalau kamu: beli sekarang, atau pakai HP lama lebih lama? Komen!", "say": "Kalau kamu: beli sekarang, atau pakai Ha Pe lama lebih lama? Komen!"},
+    {"id": "end", "tag": "[friendly, upbeat]", "text": "Follow Rangkumin Dong, biar nggak ketinggalan!"}
+  ],
+  "tail": 0.9
+}
