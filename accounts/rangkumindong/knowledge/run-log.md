@@ -152,3 +152,9 @@ History moved out of HANDOFF.md (22 Oct) so fresh sessions read less. Append one
 - User picked ⭐ #1 (Gibran PART 2) + early OK. Draft was "stays-true-either-way"; ~16:15 WITA breaking news (resignation letter to MPR 11.16 WIB, DPR plenary cancelled, MPR rapat gabungan 13 Nov 14.00 WIB, Prabowo confirmed ~16.00) → script fully rewritten, re-voiced (engine/revoice.py, new), re-rendered 79.2 s (Pratama 1.18x), QA PASS (~2 h cost).
 - Hook A person_collage "Gibran mundur. Lalu, siapa wapres berikutnya?" (coordinator replaced hook-critic's pre-news pick). Scheduled with --when, posted 19:00 (IG Dfo5hcvFM4S, YT MEnJBGndONM).
 - Problems: 14:00 default-pick send_later couldn't be deleted (auto-mode classifier denies delete_trigger; harmless). Lesson: render early, re-check after the event.
+
+## 13 Nov (Fri, wildcard: HP Indonesia -43% (default pick); Pratama, kamu_stakes, subs block, short, no B) + weekly #4
+- Sweeps 8/11/7/8, 31 merged, 3 dupes (soundfile was missing → `pip install soundfile` before voicing). 5 ideas; light fc 4 fixes. No pick by 14:00 → default ⭐ #1. Hook-critic 13/14, full fc PASS, QA FIX (safe zones, l2 beat) → PASS. 45.5 s.
+- User "Ok to post and follow ur suggestions" 16:27 → HP scheduled 19:00 (live: IG DfreUzskUpS, YT xm3Q3HW6Pow) and weekly #4 scheduled Sat 08:00 (job 670cbbb7).
+- Weekly #4 (7–13 Nov, 7:19, 8 chapters, Sonnet builders): fc 7 fixes; editor 5 fixes; ch01 rewritten after MPR rapat gabungan (no outcome announced by 15:07 WIB → "per Jumat sore"), a10 cut, re-voiced (tts_eleven + mix + weekly index on one chapter), re-rendered. Renders: 2–3 chapters in parallel foreground, no failures.
+- Dashboard old-blob deletes worked this time. Analyst run below.

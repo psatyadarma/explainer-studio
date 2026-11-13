@@ -1342,5 +1342,53 @@
 "shares": 0,
 "saves": null,
 "follows": 0
+},
+{
+"date": "2026-11-13",
+"folder": "videos/2026-11-12-gibran-part2-paripurna-hmp",
+"platform": "instagram",
+"hours": 24,
+"views": 660,
+"avg_watch_pct": 35.3,
+"hold_3s_pct": null,
+"shares": 0,
+"saves": 0,
+"follows": null
+},
+{
+"date": "2026-11-13",
+"folder": "videos/2026-11-12-gibran-part2-paripurna-hmp",
+"platform": "youtube",
+"hours": 24,
+"views": 2382,
+"avg_watch_pct": null,
+"hold_3s_pct": null,
+"shares": 0,
+"saves": null,
+"follows": 0
+},
+{
+"date": "2026-11-13",
+"folder": "videos/2026-11-10-nvidia-ceo-diselidiki",
+"platform": "instagram",
+"hours": 72,
+"views": 118,
+"avg_watch_pct": 17.1,
+"hold_3s_pct": null,
+"shares": 0,
+"saves": 0,
+"follows": null
+},
+{
+"date": "2026-11-13",
+"folder": "videos/2026-11-10-nvidia-ceo-diselidiki",
+"platform": "youtube",
+"hours": 72,
+"views": 153,
+"avg_watch_pct": 60.1,
+"hold_3s_pct": null,
+"shares": 1,
+"saves": null,
+"follows": 0
 }
 ]

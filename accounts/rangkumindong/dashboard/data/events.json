@@ -1,65 +1,5 @@
 [
 {
-"id": "E0020",
-"date": "2026-10-13",
-"category": "ECO",
-"event": "IMF World Economic Outlook",
-"key_numbers": "Indonesia 5.1% (2026) and 5.1% (2027), up from 5.0%; world 3.1% (2026), 3.4% (2027)",
-"storyline": "growth-outlook",
-"status": "verified",
-"upcoming": false
-},
-{
-"id": "E0021",
-"date": "2026-10-13",
-"category": "ENV",
-"event": "Forest & land fires (karhutla) haze: ISPA cases",
-"key_numbers": "283,270 ISPA cases in 63 regencies/cities, 7 provinces (as of 13 Oct); >637,000 ha burned Jan–Aug (Auriga)",
-"storyline": "karhutla",
-"status": "verified",
-"upcoming": false
-},
-{
-"id": "E0047",
-"date": "2026-10-13",
-"category": "POL",
-"event": "KPK sting (OTT) at BNPB: Sestama BNPB Rustian among those caught; alleged corruption in procurement using emergency disaster funds (dana siap pakai); reported as KPK's 22nd OTT of 2026",
-"key_numbers": "14 people detained; Rp1.4 billion cash + gold bars seized",
-"storyline": "corruption-cases",
-"status": "verified (suspect status not yet confirmed)",
-"upcoming": false
-},
-{
-"id": "E0086",
-"date": "2026-10-13",
-"category": "BIZ",
-"event": "Gaikindo: wholesale car sales in September 2026 were 79,540 units, up 28.1% y/y but down 2.71% m/m; January-September total 679,020 units, up 21%.",
-"key_numbers": "79,540 units (Sep) · −2.71% m/m from 81,757 (Aug) · +28.1% y/y · Jan-Sep 679,020 (+21% y/y)",
-"storyline": "",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0087",
-"date": "2026-10-13",
-"category": "BIZ",
-"event": "AISI: motorbike domestic sales in September 2026 reached 654,343 units, the highest of the year so far, with exports also up.",
-"key_numbers": "654,343 units · +9.7% m/m · +15.36% y/y · exports 55,098 CBU (+9.63% m/m, +25.43% y/y) · publication date approximate",
-"storyline": "",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0144",
-"date": "2026-10-13",
-"category": "TECH",
-"event": "Komdigi (Deputy Minister Nezar Patria) is preparing a derivative rule under Perpres 27/2026 (issued 8 Oct) setting a formula, not fixed min/max tariffs, for ojol food and goods delivery fees, due before 31 Dec 2026.",
-"key_numbers": "Perpres 27/2026 issued 8 Oct 2026 · derivative rule targeted before 31 Dec 2026 · fee depends on weight/dimension/type of goods",
-"storyline": "ojol-regulation",
-"status": "verified",
-"upcoming": false
-},
-{
 "id": "E0022",
 "date": "2026-10-14",
 "category": "ECO",
@@ -7487,7 +7427,7 @@
 "key_numbers": "Fri 13 Nov 14.00 WIB · 2 names from Prabowo · deadline <=60 days from 12 Nov",
 "storyline": "gibran-ijazah-mk",
 "status": "upcoming",
-"upcoming": true
+"upcoming": false
 },
 {
 "id": "E0778",
@@ -7497,7 +7437,7 @@
 "key_numbers": "Fri 13 Nov 2026 14.00 WIB · 4 agenda items · plenary date not yet announced",
 "storyline": "gibran-ijazah-mk",
 "status": "upcoming",
-"upcoming": true
+"upcoming": false
 },
 {
 "id": "E0040",
