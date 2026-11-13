@@ -1,0 +1,245 @@
+[
+ {
+  "date": "2026-11-13",
+  "category": "MKT",
+  "event": "The IHSG closed up 1.78% at 5,344.41 on 13 November, the top performer in Asia that day, even though foreigners were net sellers. (update of E0768)",
+  "key_numbers": "IHSG 5,344.41 (+93.51 pts, +1.78%) · prior close ~5,250 · 319 stocks up, 66 down · value Rp12.22 trillion · technology sector +3.83% · foreign net sell Rp229.77 billion (BBRI -Rp140.89 billion, TLKM -Rp78.48 billion, BBCA -Rp76.50 billion) · 12 Nov foreign net buy Rp443.53 billion",
+  "storyline": "msci-reclassification",
+  "status": "verified",
+  "sources": "CNN Indonesia <https://www.cnnindonesia.com/ekonomi/20261113160531-92-1426911/ihsg-melonjak-178-persen-ke-5344-akhiri-pekan-ini> ; CNBC Indonesia <https://www.cnbcindonesia.com/market/20261113152001-17-785087/ihsg-berakhir-di-zona-hijau-naik-178-ke-534441> ; Investortrust <https://investortrust.id/market/122503/investor-asing-berbalik-net-sell-rp-229-77-miliar-saat-ihsg-melesat-saham-ini-dilepas>"
+ },
+ {
+  "date": "2026-11-13",
+  "category": "MKT",
+  "event": "BEI removed 296 High Shareholding Concentration (HSC) stocks from the IHSG calculation from 13 November until 29 January 2027, fewer than the 383 floated on 11 November and the roughly 300 cited by its president director. (update of E0733)",
+  "key_numbers": "296 stocks excluded · 522 stocks still counted · valid 13 Nov 2026 to 29 Jan 2027 · BBCA weight 9.75% to 10.38% · BBRI 9.35% to 9.95% · BMRI 7.35% to 7.82% · ASII 5.16% to 5.49% · earlier: 81 excluded 2 Nov, 383 announced 11 Nov",
+  "storyline": "msci-reclassification",
+  "status": "partial",
+  "sources": "Kumparan <https://kumparan.com/kumparanbisnis/bukan-383-bei-keluarkan-296-saham-dari-penghitungan-ihsg-mulai-hari-ini-hingga-29-januari-2027-28YxviJskRO> ; detikFinance <https://finance.detik.com/bursa-dan-valas/d-8751865/296-saham-hsc-dikeluarkan-dari-perhitungan-ihsg-ini-daftarnya> ; Bareksa <https://www.bareksa.com/berita/saham/2026-11-13/efek-hsc-ihsg-dihitung-dari-521-saham-bobot-bbca-tembus-10>"
+ },
+ {
+  "date": "2026-11-13",
+  "category": "MKT",
+  "event": "The rupiah closed stronger at Rp18,206 per US dollar on 13 November after the APBN KiTa release, though analysts expect BI to raise rates at its RDG next week. (update of E0769)",
+  "key_numbers": "Rp18,206/USD (+33 pts, +0.18%) · prior close Rp18,239 · 12 Nov about Rp18,216-18,239, weakest in weeks · RDG 17-18 Nov, hike expected by analyst Lukman Leong · US jobs data due 13 Nov evening",
+  "storyline": "rupiah",
+  "status": "verified",
+  "sources": "Suara.com <https://www.suara.com/bisnis/2026/11/13/155506/didorong-apbn-rupiah-ditutup-perkasa-ke-level-rp18206usd> ; Kontan <https://investasi.kontan.co.id/news/rupiah-ditutup-menguat-ke-rp-18206-per-dolar-as-hari-ini-1311-asia-bervariasi>"
+ },
+ {
+  "date": "2026-11-13",
+  "category": "ECO",
+  "event": "Finance Minister Suahasil Nazara said the 2026 APBN deficit through October was Rp379.3 trillion, 1.47% of GDP, and called it on track.",
+  "key_numbers": "Deficit Rp379.3 trillion (1.47% of GDP) · revenue Rp2,618 trillion (+23.9% y/y, 83% of budget) · spending Rp2,997.2 trillion (+15.6% y/y, 78%) · tax Rp1,796.8 trillion · customs and excise Rp267.2 trillion · PNBP Rp551.8 trillion (120.2% of budget) · primary balance surplus Rp114.8 trillion",
+  "storyline": "",
+  "status": "verified",
+  "sources": "Antara <https://www.antaranews.com/berita/5851055/menkeu-defisit-apbn-per-oktober-2026-on-track-capai-147-persen> ; Jawa Pos <https://www.jawapos.com/finance/2611130160/menkeu-apbn-defisit-rp3793-triliun-per-oktober-2026> ; Suara.com <https://www.suara.com/bisnis/2026/11/13/105837/defisit-apbn-rp-3793-t-per-oktober-2026-suahasil-bantah-apbn-tekor-masih-on-track>"
+ },
+ {
+  "date": "2026-11-13",
+  "category": "ECO",
+  "event": "Finance Minister Suahasil Nazara said tax revenue still needs about Rp514 trillion in November-December to reach the year-end outlook, and asked the public for support.",
+  "key_numbers": "Tax Rp1,796.8 trillion through October (76.2% of Rp2,357.7 trillion target) · year-end outlook Rp2,310.8 trillion (about 98%) · gap Rp514 trillion in two months · tax refunds paid Rp208 trillion (detik headline)",
+  "storyline": "",
+  "status": "verified",
+  "sources": "detikFinance <https://finance.detik.com/berita-ekonomi-bisnis/d-8751663/setoran-pajak-kurang-rp-514-t-menkeu-saya-mohon-dukungan-masyarakat> ; Radar Palu (Jawa Pos) <https://radarpalu.jawapos.com/ekonomi/2611130007/defisit-apbn-rp3793-triliun-pemerintah-kejar-penerimaan-rp590-triliun>"
+ },
+ {
+  "date": "2026-11-13",
+  "category": "ECO",
+  "event": "Finance Minister Suahasil Nazara said the unsubsidised economic price of Pertalite is about Rp18,102 per litre in October 2026, while the government keeps the pump price at Rp10,000.",
+  "key_numbers": "Economic price Rp18,102/litre (Oct 2026) · pump price Rp10,000/litre · gap Rp8,102/litre (about 45% of the true price covered by the state) · Brent US$92.06 on 10 Nov",
+  "storyline": "fuel-oil",
+  "status": "partial",
+  "sources": "detikFinance <https://finance.detik.com/energi/d-8751199/harga-asli-pertalite-tanpa-subsidi-sentuh-rp-18-000>"
+ },
+ {
+  "date": "2026-11-10",
+  "category": "BIZ",
+  "event": "BYD said at its Subang plant that repeated protests by mass organisations have not significantly disrupted operations, and asked the government to help clarify the demonstrators' demands.",
+  "key_numbers": "About 6,000 workers now · target 20,000 workers · 90% Indonesian · 80% from West Java · 30% from Subang",
+  "storyline": "",
+  "status": "partial",
+  "sources": "detikFinance <https://finance.detik.com/industri/d-8747430/byd-minta-bantuan-pemerintah-usai-berkali-kali-digeruduk-ormas> ; detikFinance (PR buat Pabrik BYD) <https://finance.detik.com/industri/d-8752277/sederet-pr-buat-pabrik-byd-di-ri>"
+ },
+ {
+  "date": "2026-11-13",
+  "category": "POL",
+  "event": "The MPR joint leadership meeting set a plenary session for Wed 2 Dec 2026 to elect a new Vice President, and said it would ask President Prabowo to submit two candidate names. (update of E0766)",
+  "key_numbers": "Plenary Wed 2 Dec 2026 (MPR building, Senayan) · 2 names from the President · names due at least 2 weeks before plenary (MPR Tatib 1/2024 Art. 36), about 18 Nov",
+  "storyline": "gibran-ijazah-mk",
+  "status": "verified",
+  "sources": "Detik <https://news.detik.com/berita/d-8751988/2-nama-cawapres-usulan-prabowo-sudah-ada-pekan-depan-ketua-mpr-insyaallah> ; CNN Indonesia <https://www.cnnindonesia.com/nasional/20261113154751-36-1426894/mpr-tetapkan-paripurna-pemilihan-wapres-baru-2-desember-2026> ; ANTARA <https://www.antaranews.com/berita/5849999/prabowo-miliki-waktu-14-hari-ajukan-dua-calon-wakil-presiden-ke-mpr>"
+ },
+ {
+  "date": "2026-11-13",
+  "category": "POL",
+  "event": "Prabowo met coalition party leaders behind closed doors at Istana Bogor to discuss a new VP candidate; no name was announced, and PAN's Zulkifli Hasan said Prabowo asked for one week to discuss with the parties. (update of E0777)",
+  "key_numbers": "1 week to discuss · attendees: Dasco (Gerindra), Bahlil (Golkar), AHY (Demokrat), Zulkifli Hasan (PAN), Muhaimin (PKB), Al Muzzammil Yusuf (PKS), Viktor Laiskodat (NasDem) · PAN has no cadre to propose",
+  "storyline": "gibran-ijazah-mk",
+  "status": "verified",
+  "sources": "Detik <https://news.detik.com/berita/d-8752168/hasil-pertemuan-prabowo-petinggi-parpol-usulan-cawapres-dibahas-1-pekan> ; Detik <https://news.detik.com/berita/d-8752309/zulhas-usul-kader-gerindra-jadi-wapres-baru> ; CNN Indonesia <https://www.cnnindonesia.com/nasional/20261113171936-32-1426971/elite-parpol-koalisi-prabowo-mulai-berdatangan-ke-istana-bogor>"
+ },
+ {
+  "date": "2026-11-13",
+  "category": "POL",
+  "event": "Zulkifli Hasan (PAN) floated a Gerindra cadre as new VP; AHY said Demokrat will not submit a name; PDIP said an ideal VP needs full ties with the President; Prabowo's two names need not come from the coalition parties (CNN headline).",
+  "key_numbers": "Demokrat: no name · PAN: no cadre · PDIP: 'ikatan penuh dengan Presiden'",
+  "storyline": "gibran-ijazah-mk",
+  "status": "partial",
+  "sources": "CNN Indonesia <https://www.cnnindonesia.com/nasional/20261113144622-36-1426862/ahy-pastikan-demokrat-tak-ajukan-nama-untuk-wapres-usai-gibran-mundur> ; ANTARA <https://www.antaranews.com/berita/5851095/pdip-wapres-baru-yang-ideal-harus-miliki-ikatan-penuh-dengan-presiden> ; Detik <https://news.detik.com/berita/d-8752309/zulhas-usul-kader-gerindra-jadi-wapres-baru>"
+ },
+ {
+  "date": "2026-11-12",
+  "category": "POL",
+  "event": "At a press statement at the Istana, Prabowo said he accepted Gibran's resignation reluctantly and tied it to the education-requirement problem; he cited Gibran's visits to 35 provinces and 149 regencies/cities and 133 project sites. (update of E0765)",
+  "key_numbers": "35 provinces · 149 kabupaten/kota · 133 project sites · letter submitted 11 Nov, handed to MPR 12 Nov",
+  "storyline": "gibran-ijazah-mk",
+  "status": "verified",
+  "sources": "Detik <https://news.detik.com/berita/d-8750820/7-pernyataan-prabowo-yang-terima-permintaan-mundur-gibran> ; ANTARA <https://www.antaranews.com/berita/5848915/berikut-isi-surat-pengunduran-diri-gibran-sebagai-wapres>"
+ },
+ {
+  "date": "2026-11-13",
+  "category": "POL",
+  "event": "Yusril said Prabowo has full authority to pick the two VP candidates and that a vacant VP post is not a problem while Prabowo travels abroad; ANTARA reports he is ready to check candidates' documents to prevent a repeat of the diploma dispute; DPR said it will revise the education-equivalency rules (CNN headline). (update of E0779)",
+  "key_numbers": "Prabowo trip: Palu (Muhammadiyah Tanwir) on 14 Nov, then Manila (ASEAN Summit) · DPR to revise equivalency regulation (details not read)",
+  "storyline": "gibran-ijazah-mk",
+  "status": "partial",
+  "sources": "ANTARA <https://www.antaranews.com/berita/5850439/cegah-kejadian-serupa-yusril-siap-periksa-dokumen-cawapres> ; CNN Indonesia <https://www.cnnindonesia.com/nasional/20261113164041-32-1426943/prabowo-bakal-ke-luar-negeri-yusril-sebut-wapres-kosong-tak-masalah> ; CNN Indonesia <https://www.cnnindonesia.com/nasional/20261113171105-32-1426967/dpr-akan-revisi-aturan-penyetaraan-pendidikan-cegah-polemik-gibran> ; Detik <https://news.detik.com/berita/d-8752173/prabowo-dijadwalkan-hadiri-tanwir-muhammadiyah-di-palu-besok>"
+ },
+ {
+  "date": "2026-11-12",
+  "category": "POL",
+  "event": "Per Kapolri at the Komisi III hearing (detail from Detik): LSP allegedly set targets and was end user, SU forwarded reports, EH approved via WhatsApp without an investigator's letter, and AS allegedly ordered deletion of wiretap voice files and logs and the dissolution of the WhatsApp group. (update of E0775)",
+  "key_numbers": "4 suspects (LSP, SU, EH, AS) · Kabagmon tenures: EH 5 Dec 2024 to 7 Oct 2025, AS 7 Oct 2025 to 1 Oct 2026 · SU Kadiv TIK 2021 to Oct 2026 · no Listyo/lawyer response in article",
+  "storyline": "listyo-sigit-penyadapan",
+  "status": "verified",
+  "sources": "Detik <https://news.detik.com/berita/d-8749311/peran-4-tersangka-penyadapan-prabowo-listyo-sigit-tentukan-target-terima-hasil> ; Detik <https://news.detik.com/berita/d-8750810/terungkap-listyo-sigit-end-user-hasil-hasil-penyadapan>"
+ },
+ {
+  "date": "2026-11-13",
+  "category": "POL",
+  "event": "KPK spokesperson said KPK supports Polri's legal process after reports that KPK was also allegedly wiretapped in the Listyo Sigit case (headline/snippet only, not opened).",
+  "key_numbers": "Not verified beyond headlines",
+  "storyline": "listyo-sigit-penyadapan",
+  "status": "partial",
+  "sources": "IDN Times <https://www.idntimes.com/news/indonesia/diduga-jadi-korban-penyadapan-listyo-kpk-dukung-pengusutan-polri-00-gg3v5-j2mj1n> ; Niaga.asia <https://www.niaga.asia/kpk-disadap-listyo-sigit-cs-jubir-kami-dukung-proses-hukum-polri/>"
+ },
+ {
+  "date": "2026-11-13",
+  "category": "POL",
+  "event": "Rizal Fadillah, a named suspect in the Jokowi diploma defamation case, died after treatment in a Muhammadiyah hospital ICU, according to Roy Suryo on YouTube; cause not stated.",
+  "key_numbers": "Died Fri 13 Nov 2026 · announced by Roy Suryo · cause not given",
+  "storyline": "jokowi-ijazah-roy-suryo",
+  "status": "partial",
+  "sources": "Detik <https://news.detik.com/berita/d-8752313/rizal-fadillah-tersangka-kasus-ijazah-palsu-jokowi-meninggal>"
+ },
+ {
+  "date": "2026-11-12",
+  "category": "POL",
+  "event": "At the 12 Nov hearing in the defamation trial of dr Tifa, journalist Aiman Witjaksono and Jokowi's aide testified; Aiman argued journalistic products should not be evidence, and PWI warned the examination could threaten press independence. (update of E0607)",
+  "key_numbers": "Hearing 12 Nov 2026 · witnesses Aiman Witjaksono, aide AKBP Syarief",
+  "storyline": "jokowi-ijazah-roy-suryo",
+  "status": "partial",
+  "sources": "Kompas <https://megapolitan.kompas.com/read/2026/11/12/16565361/jadi-saksi-sidang-dokter-tifa-aiman-witjaksono-produk-jurnalistik-tak> ; iNews <https://inews.id/news/nasional/pwi-pemeriksaan-aiman-di-sidang-dokter-tifa-bisa-jadi-preseden-buruk-ancam-independensi-pers>"
+ },
+ {
+  "date": "2026-11-13",
+  "category": "POL",
+  "event": "West Jakarta police arrested 8 suspects, including 2 foreigners, over recruiting Indonesians as mercenaries for the Russian army; 15 WNI were reportedly recruited, mostly former online-gambling admins, promised Rp50 million salary and bonuses.",
+  "key_numbers": "8 suspects (2 WNA) · 15 WNI recruited · promised Rp50 million salary · contracts reportedly for life",
+  "storyline": "",
+  "status": "partial",
+  "sources": "Detik <https://news.detik.com/berita/d-8752032/polres-jakbar-tangkap-8-tersangka-perekrutan-wni-jadi-tentara-rusia> ; Detik <https://news.detik.com/berita/d-8752136/dijanjikan-gaji-rp-50-juta-wni-tentara-bayaran-rusia-dikontrak-seumur-hidup> ; ANTARA <https://www.antaranews.com/foto/5849767/bareskrim-polri-ungkap-beragam-modus-tppo-termasuk-perekrutan-wni-jadi-militer-bayaran-rusia>"
+ },
+ {
+  "date": "2026-11-30",
+  "category": "ECO",
+  "event": "Government targets finishing the 2027 provincial minimum wage (UMP) decisions at the end of November; labour unions demand a 7.5 to 9.5 percent rise and held demos in many provinces.",
+  "key_numbers": "Union demand 7.5 to 9.5% · target end Nov 2026 · UMP effective 1 Jan 2027 · unions demo in 38 provinces (headline)",
+  "storyline": "",
+  "status": "upcoming",
+  "sources": "Koran Jakarta <https://koran-jakarta.com/2026-10-27/kapan-ump-2027-ditetapkan-menaker-pasang-target-akhir-november> ; Warta Ekonomi <https://wartaekonomi.co.id/amp/read640969/buruh-tuntut-upah-minimum-2027-naik-75-95-persen-kspi-dan-partai-buruh-gelar-demo-di-38-provinsi>"
+ },
+ {
+  "date": "2026-11-13",
+  "category": "TECH",
+  "event": "A global Microsoft 365 outage took down Outlook and Teams, with CNN Indonesia reporting 74 countries affected, including government services in Singapore and Japan and Australian intelligence and police agencies; Microsoft said it was not a cyberattack.",
+  "key_numbers": "74 countries affected · 13 Nov 2026 · not a cyberattack per Microsoft",
+  "storyline": "",
+  "status": "partial",
+  "sources": "CNN Indonesia <https://www.cnnindonesia.com/teknologi/20261113130712-185-1426783/microsoft-outlook-hingga-teams-down-74-negara-kena-dampaknya>"
+ },
+ {
+  "date": "2026-11-13",
+  "category": "TECH",
+  "event": "Komdigi and BSSN issued account-security advice after the Microsoft outage, and a bank warned customers about scam modus exploiting it.",
+  "key_numbers": "Details not read (article fetch blocked)",
+  "storyline": "cyber-threats-gov",
+  "status": "partial",
+  "sources": "CNN Indonesia (Komdigi) <https://www.cnnindonesia.com/teknologi/20261113155026-185-1426895/microsoft-down-global-komdigi-bagikan-langkah-pengamanan-akun> ; CNN Indonesia (bank scam) <https://www.cnnindonesia.com/teknologi/20261113151622-185-1426884/bank-ungkap-modus-penipuan-yang-manfaatkan-down-global-microsoft>"
+ },
+ {
+  "date": "2026-11-13",
+  "category": "TECH",
+  "event": "Komdigi responded to SAFEnet and Remotivi claims about takedowns of wildfire (karhutla) content, saying it is ready to open its data and review its moderation.",
+  "key_numbers": "Numbers not read (article fetch blocked)",
+  "storyline": "karhutla",
+  "status": "partial",
+  "sources": "CNN Indonesia <https://www.cnnindonesia.com/teknologi/20261113165833-185-1426952/komdigi-respons-safenet-dan-remotivi-soal-konten-karhutla>"
+ },
+ {
+  "date": "2026-11-12",
+  "category": "TECH",
+  "event": "United Airlines blocked AI agents from booking tickets on behalf of users, citing passenger data security and federal rules.",
+  "key_numbers": "",
+  "storyline": "",
+  "status": "partial",
+  "sources": "CNN Indonesia <https://www.cnnindonesia.com/teknologi/20261112124838-185-1426316/united-airlines-blokir-agen-ai-pesan-tiket-untuk-pengguna>"
+ },
+ {
+  "date": "2026-11-13",
+  "category": "TECH",
+  "event": "Nvidia named CFO Colette Kress interim CEO after Jensen Huang resigned, and CNN Indonesia listed possible successors including Tim Cook. (update of E0786)",
+  "key_numbers": "Interim CEO: Colette Kress",
+  "storyline": "ai-data-centres",
+  "status": "partial",
+  "sources": "CNN Indonesia <https://www.cnnindonesia.com/teknologi/20261113114152-189-1426756/jensen-huang-resmi-mundur-dari-nvidia>"
+ },
+ {
+  "date": "2026-11-12",
+  "category": "POL",
+  "event": "Vice President Gibran Rakabuming Raka resigned 'at his own request' via a letter to the MPR and said in a 6m53s video the move was personal and unrelated to his diploma, with President Prabowo accepting it 'with a heavy heart'. (update of E0763)",
+  "key_numbers": "Resignation 12 Nov 2026 · video 6m53s · MPR meeting ~20 minutes · offered the VP role Sept 2023 · detik most-read #1 on 13 Nov",
+  "storyline": "gibran-ijazah-mk",
+  "status": "verified",
+  "sources": "CNN Indonesia <https://www.cnnindonesia.com/nasional/20261113093701-32-1426694/kata-kata-gibran-usai-mundur-sebagai-wapres-ri> ; detikNews <https://news.detik.com/berita/d-8750485/gibran-sebut-mundur-dari-wapres-keputusan-pribadi-tak-terkait-ijazah>"
+ },
+ {
+  "date": "2026-11-13",
+  "category": "POL",
+  "event": "MPR leadership outlined how the vacant vice presidency will be filled: the President proposes two candidates and the MPR elects one in a plenary session. (update of E0777)",
+  "key_numbers": "Max 60 days for plenary · 2 candidates proposed · names due at least 14 days before the plenary · tie vote repeated once, then President picks · 120 DPR members from 8 factions had backed the now-moot impeachment proposal (HMP)",
+  "storyline": "gibran-ijazah-mk",
+  "status": "verified",
+  "sources": "Hukumonline <https://www.hukumonline.com/berita/a/gibran-mundur-sebagai-wapres--mpr-siapkan-4-langkah-untuk-proses-pengisian-jabatan-lt6af58c62e9d5e/> ; detikNews <https://news.detik.com/berita/d-8750783/gibran-akhirnya-pilih-resign-setelah-itu-apa>"
+ },
+ {
+  "date": "2026-11-13",
+  "category": "ENV",
+  "event": "BNPB reported karhutla easing in most regions, with East Kalimantan and NTT still rising. (update of E0796)",
+  "key_numbers": "283 hotspots · 764 ha being handled · Papua Selatan hotspots -84% · South Sulawesi area handled -47% · Southeast Sulawesi -38%",
+  "storyline": "karhutla",
+  "status": "partial",
+  "sources": "Suara Surabaya (citing Antara) <https://www.suarasurabaya.net/kelanakota/2026/bnpb-karhutla-mulai-mereda-di-sejumlah-wilayah-kaltim-ntt-masih-jadi-atensi/>"
+ },
+ {
+  "date": "2026-11-13",
+  "category": "NEWS",
+  "event": "Fact-checkers kept flagging fake social-aid registration links, e.g. a PKH 2026 Rp900,000 sign-up link spreading on Facebook, TikTok and WhatsApp that is a phishing scam.",
+  "key_numbers": "Rp900,000 claimed · fact-check dated Jan 2026 (still circulating, not new)",
+  "storyline": "",
+  "status": "partial",
+  "sources": "TurnBackHoax <https://turnbackhoax.id/articles/31542>"
+ }
+]

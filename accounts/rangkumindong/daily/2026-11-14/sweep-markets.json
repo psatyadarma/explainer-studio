@@ -1,0 +1,135 @@
+{
+  "area": "markets",
+  "run_date": "2026-11-14",
+  "checked": ["CNBC Indonesia market (via search results; section page fetch blocked)", "detikFinance front page + terpopuler", "Bisnis.com market (fetch failed; search snippets only)", "Antara ekonomi (search results only)", "Watch list found: IHSG close, foreign net sell, HSC/index changes, rupiah, APBN/tax, fuel price, Brent, BYD/business", "Storyline searches: msci-reclassification, rupiah, survival-mode/fuel-oil", "Searched: global Brent/Fed, PHK, Danantara"],
+  "events": [
+    {
+      "date": "2026-11-13",
+      "category": "MKT",
+      "event": "The IHSG closed up 1.78% at 5,344.41 on 13 November, the top performer in Asia that day, even though foreigners were net sellers.",
+      "key_numbers": "IHSG 5,344.41 (+93.51 pts, +1.78%) · prior close ~5,250 · 319 stocks up, 66 down · value Rp12.22 trillion · technology sector +3.83% · foreign net sell Rp229.77 billion (BBRI -Rp140.89 billion, TLKM -Rp78.48 billion, BBCA -Rp76.50 billion) · 12 Nov foreign net buy Rp443.53 billion",
+      "storyline": "msci-reclassification",
+      "update_of": "E0768",
+      "status": "verified",
+      "sources": [
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/ekonomi/20261113160531-92-1426911/ihsg-melonjak-178-persen-ke-5344-akhiri-pekan-ini"},
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/market/20261113152001-17-785087/ihsg-berakhir-di-zona-hijau-naik-178-ke-534441"},
+        {"label": "Investortrust", "url": "https://investortrust.id/market/122503/investor-asing-berbalik-net-sell-rp-229-77-miliar-saat-ihsg-melesat-saham-ini-dilepas"}
+      ],
+      "why_it_matters": "IHSG is rebounding fast after the MSCI scare, but foreign money is still leaving the big banks, so who is buying?",
+      "signals": {"spreading": 2, "wallet": 1, "surprise": 2, "visual": 2, "fresh": 2, "rivals": 0},
+      "spreading_evidence": "Covered by CNBC, CNN, detik, Kontan, Viva, Suara, Bloomberg Technoz on 13 Nov; detik 'Sambut Akhir Pekan' item",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-13",
+      "category": "MKT",
+      "event": "BEI removed 296 High Shareholding Concentration (HSC) stocks from the IHSG calculation from 13 November until 29 January 2027, fewer than the 383 floated on 11 November and the roughly 300 cited by its president director.",
+      "key_numbers": "296 stocks excluded · 522 stocks still counted · valid 13 Nov 2026 to 29 Jan 2027 · BBCA weight 9.75% to 10.38% · BBRI 9.35% to 9.95% · BMRI 7.35% to 7.82% · ASII 5.16% to 5.49% · earlier: 81 excluded 2 Nov, 383 announced 11 Nov",
+      "storyline": "msci-reclassification",
+      "update_of": "E0733",
+      "status": "partial",
+      "sources": [
+        {"label": "Kumparan", "url": "https://kumparan.com/kumparanbisnis/bukan-383-bei-keluarkan-296-saham-dari-penghitungan-ihsg-mulai-hari-ini-hingga-29-januari-2027-28YxviJskRO"},
+        {"label": "detikFinance", "url": "https://finance.detik.com/bursa-dan-valas/d-8751865/296-saham-hsc-dikeluarkan-dari-perhitungan-ihsg-ini-daftarnya"},
+        {"label": "Bareksa", "url": "https://www.bareksa.com/berita/saham/2026-11-13/efek-hsc-ihsg-dihitung-dari-521-saham-bobot-bbca-tembus-10"}
+      ],
+      "why_it_matters": "The index you see is now built mostly from big blue chips; a few banks sway the IHSG more than before.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "detikFinance, Kumparan, IDX Channel, Bareksa, Warta Ekonomi all ran it 13 Nov",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-13",
+      "category": "MKT",
+      "event": "The rupiah closed stronger at Rp18,206 per US dollar on 13 November after the APBN KiTa release, though analysts expect BI to raise rates at its RDG next week.",
+      "key_numbers": "Rp18,206/USD (+33 pts, +0.18%) · prior close Rp18,239 · 12 Nov about Rp18,216-18,239, weakest in weeks · RDG 17-18 Nov, hike expected by analyst Lukman Leong · US jobs data due 13 Nov evening",
+      "storyline": "rupiah",
+      "update_of": "E0769",
+      "status": "verified",
+      "sources": [
+        {"label": "Suara.com", "url": "https://www.suara.com/bisnis/2026/11/13/155506/didorong-apbn-rupiah-ditutup-perkasa-ke-level-rp18206usd"},
+        {"label": "Kontan", "url": "https://investasi.kontan.co.id/news/rupiah-ditutup-menguat-ke-rp-18206-per-dolar-as-hari-ini-1311-asia-bervariasi"}
+      ],
+      "why_it_matters": "A weak rupiah makes imports and fuel costlier, and a BI rate hike next week would also touch loan rates.",
+      "signals": {"spreading": 1, "wallet": 2, "surprise": 0, "visual": 2, "fresh": 2, "rivals": 0},
+      "spreading_evidence": "Reported by Kontan, Suara, IDN Times, Okezone, Bloomberg Technoz",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-13",
+      "category": "ECO",
+      "event": "Finance Minister Suahasil Nazara said the 2026 APBN deficit through October was Rp379.3 trillion, 1.47% of GDP, and called it on track.",
+      "key_numbers": "Deficit Rp379.3 trillion (1.47% of GDP) · revenue Rp2,618 trillion (+23.9% y/y, 83% of budget) · spending Rp2,997.2 trillion (+15.6% y/y, 78%) · tax Rp1,796.8 trillion · customs and excise Rp267.2 trillion · PNBP Rp551.8 trillion (120.2% of budget) · primary balance surplus Rp114.8 trillion",
+      "storyline": "",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "Antara", "url": "https://www.antaranews.com/berita/5851055/menkeu-defisit-apbn-per-oktober-2026-on-track-capai-147-persen"},
+        {"label": "Jawa Pos", "url": "https://www.jawapos.com/finance/2611130160/menkeu-apbn-defisit-rp3793-triliun-per-oktober-2026"},
+        {"label": "Suara.com", "url": "https://www.suara.com/bisnis/2026/11/13/105837/defisit-apbn-rp-3793-t-per-oktober-2026-suahasil-bantah-apbn-tekor-masih-on-track"}
+      ],
+      "why_it_matters": "The state is spending more than it earns, and the gap decides how much room there is for subsidies and programs.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "Antara, Jawa Pos, Republika, Suara, Bisnis all covered 13 Nov",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-13",
+      "category": "ECO",
+      "event": "Finance Minister Suahasil Nazara said tax revenue still needs about Rp514 trillion in November-December to reach the year-end outlook, and asked the public for support.",
+      "key_numbers": "Tax Rp1,796.8 trillion through October (76.2% of Rp2,357.7 trillion target) · year-end outlook Rp2,310.8 trillion (about 98%) · gap Rp514 trillion in two months · tax refunds paid Rp208 trillion (detik headline)",
+      "storyline": "",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "detikFinance", "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8751663/setoran-pajak-kurang-rp-514-t-menkeu-saya-mohon-dukungan-masyarakat"},
+        {"label": "Radar Palu (Jawa Pos)", "url": "https://radarpalu.jawapos.com/ekonomi/2611130007/defisit-apbn-rp3793-triliun-pemerintah-kejar-penerimaan-rp590-triliun"}
+      ],
+      "why_it_matters": "A big tax gap raises the odds of tighter tax enforcement, and of cuts or more debt.",
+      "signals": {"spreading": 2, "wallet": 1, "surprise": 2, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "detikFinance terpopuler #1 'Menteri Keuangan Ungkap Kondisi Ekonomi Terkini'; separate tax items on front page",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-13",
+      "category": "ECO",
+      "event": "Finance Minister Suahasil Nazara said the unsubsidised economic price of Pertalite is about Rp18,102 per litre in October 2026, while the government keeps the pump price at Rp10,000.",
+      "key_numbers": "Economic price Rp18,102/litre (Oct 2026) · pump price Rp10,000/litre · gap Rp8,102/litre (about 45% of the true price covered by the state) · Brent US$92.06 on 10 Nov",
+      "storyline": "fuel-oil",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "detikFinance", "url": "https://finance.detik.com/energi/d-8751199/harga-asli-pertalite-tanpa-subsidi-sentuh-rp-18-000"}
+      ],
+      "why_it_matters": "Every litre of Pertalite you buy is subsidised by about Rp8,000, and that bill hits the budget.",
+      "signals": {"spreading": 1, "wallet": 2, "surprise": 2, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "detikFinance front page; one outlet seen",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-10",
+      "category": "BIZ",
+      "event": "BYD said at its Subang plant that repeated protests by mass organisations have not significantly disrupted operations, and asked the government to help clarify the demonstrators' demands.",
+      "key_numbers": "About 6,000 workers now · target 20,000 workers · 90% Indonesian · 80% from West Java · 30% from Subang",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "detikFinance", "url": "https://finance.detik.com/industri/d-8747430/byd-minta-bantuan-pemerintah-usai-berkali-kali-digeruduk-ormas"},
+        {"label": "detikFinance (PR buat Pabrik BYD)", "url": "https://finance.detik.com/industri/d-8752277/sederet-pr-buat-pabrik-byd-di-ri"}
+      ],
+      "why_it_matters": "A major foreign EV investor wants state protection, which signals investment-climate risk and jobs at stake.",
+      "signals": {"spreading": 2, "wallet": 0, "surprise": 1, "visual": 1, "fresh": 1, "rivals": 1},
+      "spreading_evidence": "detikFinance terpopuler #2 'Sederet PR buat Pabrik BYD di RI'; most-commented #2",
+      "sensitivity": "high"
+    }
+  ],
+  "gaps": [
+    "CNBC Indonesia, Bisnis.com section pages could not be fetched (permission/failed); relied on search results and detik front page",
+    "Danantara said 11 SOE stocks are on the BEI HSC list (CNBC 12 Nov) and Danantara is targeting a four-BUMN-karya merger by end November: only seen in search snippets, not opened",
+    "Gibran pension via Taspen (about Rp20-22 million/month, top of detikFinance most-read): headline only, not verified",
+    "Why the 296 vs 383 HSC difference: BEI's explanation not found; Kontan/Investortrust piece 'Tak semua saham HSC dicoret' not opened",
+    "Weekly IHSG change and US jobs data result for 13 Nov evening not checked"
+  ]
+}

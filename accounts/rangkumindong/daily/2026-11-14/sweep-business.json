@@ -1,0 +1,78 @@
+{
+  "area": "business",
+  "run_date": "2026-11-14",
+  "checked": ["CNN Indonesia teknologi section (13 Nov headlines)", "bisnis teknologi section (stale, last item 30 Aug)", "detik inet (search only, no fresh results)", "cnbcindonesia tech (search only, no section page returned)", "katadata digital and dailysocial not reached", "watch list found: app outages, scams/phishing, Komdigi rules, AI/chips", "storyline searches: chip-ram-prices (nothing new), crypto-hacks (nothing new)", "storylines not searched: ai-data-centres, ecommerce-seller-rules, cyber-threats-gov, perlinsos-digital (no storyline files in the area)"],
+  "events": [
+    {
+      "date": "2026-11-13",
+      "category": "TECH",
+      "event": "A global Microsoft 365 outage took down Outlook and Teams, with CNN Indonesia reporting 74 countries affected, including government services in Singapore and Japan and Australian intelligence and police agencies; Microsoft said it was not a cyberattack.",
+      "key_numbers": "74 countries affected · 13 Nov 2026 · not a cyberattack per Microsoft",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [{"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/teknologi/20261113130712-185-1426783/microsoft-outlook-hingga-teams-down-74-negara-kena-dampaknya"}],
+      "why_it_matters": "Office and email tools many Indonesian workers and agencies depend on went dark worldwide, showing how fragile cloud dependence is.",
+      "signals": {"spreading": 2, "wallet": 1, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "About 16 CNN Indonesia teknologi headlines on 13 Nov were Microsoft-outage related",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-13",
+      "category": "TECH",
+      "event": "Komdigi and BSSN issued account-security advice after the Microsoft outage, and a bank warned customers about scam modus exploiting it.",
+      "key_numbers": "Details not read (article fetch blocked)",
+      "storyline": "cyber-threats-gov",
+      "update_of": "",
+      "status": "partial",
+      "sources": [{"label": "CNN Indonesia (Komdigi)", "url": "https://www.cnnindonesia.com/teknologi/20261113155026-185-1426895/microsoft-down-global-komdigi-bagikan-langkah-pengamanan-akun"}, {"label": "CNN Indonesia (bank scam)", "url": "https://www.cnnindonesia.com/teknologi/20261113151622-185-1426884/bank-ungkap-modus-penipuan-yang-manfaatkan-down-global-microsoft"}],
+      "why_it_matters": "Scammers piggyback on big outages, so ordinary users are told to be wary of fake support messages.",
+      "signals": {"spreading": 1, "wallet": 2, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-13",
+      "category": "TECH",
+      "event": "Komdigi responded to SAFEnet and Remotivi claims about takedowns of wildfire (karhutla) content, saying it is ready to open its data and review its moderation.",
+      "key_numbers": "Numbers not read (article fetch blocked)",
+      "storyline": "karhutla",
+      "update_of": "",
+      "status": "partial",
+      "sources": [{"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/teknologi/20261113165833-185-1426952/komdigi-respons-safenet-dan-remotivi-soal-konten-karhutla"}],
+      "why_it_matters": "Raises the question of whether the government is suppressing posts about the haze and fires.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 2, "visual": 0, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-12",
+      "category": "TECH",
+      "event": "United Airlines blocked AI agents from booking tickets on behalf of users, citing passenger data security and federal rules.",
+      "key_numbers": "",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [{"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/teknologi/20261112124838-185-1426316/united-airlines-blokir-agen-ai-pesan-tiket-untuk-pengguna"}],
+      "why_it_matters": "An early test of whether AI assistants will be allowed to buy things for people.",
+      "signals": {"spreading": 0, "wallet": 0, "surprise": 1, "visual": 0, "fresh": 1, "rivals": 2},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-13",
+      "category": "TECH",
+      "event": "Nvidia named CFO Colette Kress interim CEO after Jensen Huang resigned, and CNN Indonesia listed possible successors including Tim Cook.",
+      "key_numbers": "Interim CEO: Colette Kress",
+      "storyline": "ai-data-centres",
+      "update_of": "E0786",
+      "status": "partial",
+      "sources": [{"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/teknologi/20261113114152-189-1426756/jensen-huang-resmi-mundur-dari-nvidia"}],
+      "why_it_matters": "The leader of the world's most important AI chip maker is gone, which could affect chip supply and prices.",
+      "signals": {"spreading": 2, "wallet": 1, "surprise": 2, "visual": 1, "fresh": 2, "rivals": 0},
+      "spreading_evidence": "Multiple CNN Indonesia teknologi headlines 13 Nov",
+      "sensitivity": "high"
+    }
+  ],
+  "gaps": ["Article fetches on cnnindonesia were blocked, so the Microsoft outage duration and cause, and the karhutla takedown numbers, are unverified", "detik, cnbcindonesia, katadata and dailysocial section pages not reached; bisnis page stale (30 Aug)", "No fresh news found for chip-ram-prices or crypto-hacks"]
+}

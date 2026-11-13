@@ -6840,6 +6840,16 @@
 "upcoming": false
 },
 {
+"id": "E0804",
+"date": "2026-11-10",
+"category": "BIZ",
+"event": "BYD said at its Subang plant that repeated protests by mass organisations have not significantly disrupted operations, and asked the government to help clarify the demonstrators' demands.",
+"key_numbers": "About 6,000 workers now · target 20,000 workers · 90% Indonesian · 80% from West Java · 30% from Subang",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
 "id": "E0465",
 "date": "2026-11-11",
 "category": "TECH",
@@ -7420,6 +7430,56 @@
 "upcoming": false
 },
 {
+"id": "E0808",
+"date": "2026-11-12",
+"category": "POL",
+"event": "At a press statement at the Istana, Prabowo said he accepted Gibran's resignation reluctantly and tied it to the education-requirement problem; he cited Gibran's visits to 35 provinces and 149 regencies/cities and 133 project sites. (update of E0765)",
+"key_numbers": "35 provinces · 149 kabupaten/kota · 133 project sites · letter submitted 11 Nov, handed to MPR 12 Nov",
+"storyline": "gibran-ijazah-mk",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0810",
+"date": "2026-11-12",
+"category": "POL",
+"event": "Per Kapolri at the Komisi III hearing (detail from Detik): LSP allegedly set targets and was end user, SU forwarded reports, EH approved via WhatsApp without an investigator's letter, and AS allegedly ordered deletion of wiretap voice files and logs and the dissolution of the WhatsApp group. (update of E0775)",
+"key_numbers": "4 suspects (LSP, SU, EH, AS) · Kabagmon tenures: EH 5 Dec 2024 to 7 Oct 2025, AS 7 Oct 2025 to 1 Oct 2026 · SU Kadiv TIK 2021 to Oct 2026 · no Listyo/lawyer response in article",
+"storyline": "listyo-sigit-penyadapan",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0813",
+"date": "2026-11-12",
+"category": "POL",
+"event": "At the 12 Nov hearing in the defamation trial of dr Tifa, journalist Aiman Witjaksono and Jokowi's aide testified; Aiman argued journalistic products should not be evidence, and PWI warned the examination could threaten press independence. (update of E0607)",
+"key_numbers": "Hearing 12 Nov 2026 · witnesses Aiman Witjaksono, aide AKBP Syarief",
+"storyline": "jokowi-ijazah-roy-suryo",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0819",
+"date": "2026-11-12",
+"category": "TECH",
+"event": "United Airlines blocked AI agents from booking tickets on behalf of users, citing passenger data security and federal rules.",
+"key_numbers": "",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0821",
+"date": "2026-11-12",
+"category": "POL",
+"event": "Vice President Gibran Rakabuming Raka resigned 'at his own request' via a letter to the MPR and said in a 6m53s video the move was personal and unrelated to his diploma, with President Prabowo accepting it 'with a heavy heart'. (update of E0763)",
+"key_numbers": "Resignation 12 Nov 2026 · video 6m53s · MPR meeting ~20 minutes · offered the VP role Sept 2023 · detik most-read #1 on 13 Nov",
+"storyline": "gibran-ijazah-mk",
+"status": "verified",
+"upcoming": false
+},
+{
 "id": "E0766",
 "date": "2026-11-13",
 "category": "POL",
@@ -7437,6 +7497,206 @@
 "key_numbers": "Fri 13 Nov 2026 14.00 WIB · 4 agenda items · plenary date not yet announced",
 "storyline": "gibran-ijazah-mk",
 "status": "upcoming",
+"upcoming": false
+},
+{
+"id": "E0798",
+"date": "2026-11-13",
+"category": "MKT",
+"event": "The IHSG closed up 1.78% at 5,344.41 on 13 November, the top performer in Asia that day, even though foreigners were net sellers. (update of E0768)",
+"key_numbers": "IHSG 5,344.41 (+93.51 pts, +1.78%) · prior close ~5,250 · 319 stocks up, 66 down · value Rp12.22 trillion · technology sector +3.83% · foreign net sell Rp229.77 billion (BBRI -Rp140.89 billion, TLKM -Rp78.48 billion, BBCA -Rp76.50 billion) · 12 Nov foreign net buy Rp443.53 billion",
+"storyline": "msci-reclassification",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0799",
+"date": "2026-11-13",
+"category": "MKT",
+"event": "BEI removed 296 High Shareholding Concentration (HSC) stocks from the IHSG calculation from 13 November until 29 January 2027, fewer than the 383 floated on 11 November and the roughly 300 cited by its president director. (update of E0733)",
+"key_numbers": "296 stocks excluded · 522 stocks still counted · valid 13 Nov 2026 to 29 Jan 2027 · BBCA weight 9.75% to 10.38% · BBRI 9.35% to 9.95% · BMRI 7.35% to 7.82% · ASII 5.16% to 5.49% · earlier: 81 excluded 2 Nov, 383 announced 11 Nov",
+"storyline": "msci-reclassification",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0800",
+"date": "2026-11-13",
+"category": "MKT",
+"event": "The rupiah closed stronger at Rp18,206 per US dollar on 13 November after the APBN KiTa release, though analysts expect BI to raise rates at its RDG next week. (update of E0769)",
+"key_numbers": "Rp18,206/USD (+33 pts, +0.18%) · prior close Rp18,239 · 12 Nov about Rp18,216-18,239, weakest in weeks · RDG 17-18 Nov, hike expected by analyst Lukman Leong · US jobs data due 13 Nov evening",
+"storyline": "rupiah",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0801",
+"date": "2026-11-13",
+"category": "ECO",
+"event": "Finance Minister Suahasil Nazara said the 2026 APBN deficit through October was Rp379.3 trillion, 1.47% of GDP, and called it on track.",
+"key_numbers": "Deficit Rp379.3 trillion (1.47% of GDP) · revenue Rp2,618 trillion (+23.9% y/y, 83% of budget) · spending Rp2,997.2 trillion (+15.6% y/y, 78%) · tax Rp1,796.8 trillion · customs and excise Rp267.2 trillion · PNBP Rp551.8 trillion (120.2% of budget) · primary balance surplus Rp114.8 trillion",
+"storyline": "",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0802",
+"date": "2026-11-13",
+"category": "ECO",
+"event": "Finance Minister Suahasil Nazara said tax revenue still needs about Rp514 trillion in November-December to reach the year-end outlook, and asked the public for support.",
+"key_numbers": "Tax Rp1,796.8 trillion through October (76.2% of Rp2,357.7 trillion target) · year-end outlook Rp2,310.8 trillion (about 98%) · gap Rp514 trillion in two months · tax refunds paid Rp208 trillion (detik headline)",
+"storyline": "",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0803",
+"date": "2026-11-13",
+"category": "ECO",
+"event": "Finance Minister Suahasil Nazara said the unsubsidised economic price of Pertalite is about Rp18,102 per litre in October 2026, while the government keeps the pump price at Rp10,000.",
+"key_numbers": "Economic price Rp18,102/litre (Oct 2026) · pump price Rp10,000/litre · gap Rp8,102/litre (about 45% of the true price covered by the state) · Brent US$92.06 on 10 Nov",
+"storyline": "fuel-oil",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0805",
+"date": "2026-11-13",
+"category": "POL",
+"event": "The MPR joint leadership meeting set a plenary session for Wed 2 Dec 2026 to elect a new Vice President, and said it would ask President Prabowo to submit two candidate names. (update of E0766)",
+"key_numbers": "Plenary Wed 2 Dec 2026 (MPR building, Senayan) · 2 names from the President · names due at least 2 weeks before plenary (MPR Tatib 1/2024 Art. 36), about 18 Nov",
+"storyline": "gibran-ijazah-mk",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0806",
+"date": "2026-11-13",
+"category": "POL",
+"event": "Prabowo met coalition party leaders behind closed doors at Istana Bogor to discuss a new VP candidate; no name was announced, and PAN's Zulkifli Hasan said Prabowo asked for one week to discuss with the parties. (update of E0777)",
+"key_numbers": "1 week to discuss · attendees: Dasco (Gerindra), Bahlil (Golkar), AHY (Demokrat), Zulkifli Hasan (PAN), Muhaimin (PKB), Al Muzzammil Yusuf (PKS), Viktor Laiskodat (NasDem) · PAN has no cadre to propose",
+"storyline": "gibran-ijazah-mk",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0807",
+"date": "2026-11-13",
+"category": "POL",
+"event": "Zulkifli Hasan (PAN) floated a Gerindra cadre as new VP; AHY said Demokrat will not submit a name; PDIP said an ideal VP needs full ties with the President; Prabowo's two names need not come from the coalition parties (CNN headline).",
+"key_numbers": "Demokrat: no name · PAN: no cadre · PDIP: 'ikatan penuh dengan Presiden'",
+"storyline": "gibran-ijazah-mk",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0809",
+"date": "2026-11-13",
+"category": "POL",
+"event": "Yusril said Prabowo has full authority to pick the two VP candidates and that a vacant VP post is not a problem while Prabowo travels abroad; ANTARA reports he is ready to check candidates' documents to prevent a repeat of the diploma dispute; DPR said it will revise the education-equivalency rules (CNN headline). (update of E0779)",
+"key_numbers": "Prabowo trip: Palu (Muhammadiyah Tanwir) on 14 Nov, then Manila (ASEAN Summit) · DPR to revise equivalency regulation (details not read)",
+"storyline": "gibran-ijazah-mk",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0811",
+"date": "2026-11-13",
+"category": "POL",
+"event": "KPK spokesperson said KPK supports Polri's legal process after reports that KPK was also allegedly wiretapped in the Listyo Sigit case (headline/snippet only, not opened).",
+"key_numbers": "Not verified beyond headlines",
+"storyline": "listyo-sigit-penyadapan",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0812",
+"date": "2026-11-13",
+"category": "POL",
+"event": "Rizal Fadillah, a named suspect in the Jokowi diploma defamation case, died after treatment in a Muhammadiyah hospital ICU, according to Roy Suryo on YouTube; cause not stated.",
+"key_numbers": "Died Fri 13 Nov 2026 · announced by Roy Suryo · cause not given",
+"storyline": "jokowi-ijazah-roy-suryo",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0814",
+"date": "2026-11-13",
+"category": "POL",
+"event": "West Jakarta police arrested 8 suspects, including 2 foreigners, over recruiting Indonesians as mercenaries for the Russian army; 15 WNI were reportedly recruited, mostly former online-gambling admins, promised Rp50 million salary and bonuses.",
+"key_numbers": "8 suspects (2 WNA) · 15 WNI recruited · promised Rp50 million salary · contracts reportedly for life",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0816",
+"date": "2026-11-13",
+"category": "TECH",
+"event": "A global Microsoft 365 outage took down Outlook and Teams, with CNN Indonesia reporting 74 countries affected, including government services in Singapore and Japan and Australian intelligence and police agencies; Microsoft said it was not a cyberattack.",
+"key_numbers": "74 countries affected · 13 Nov 2026 · not a cyberattack per Microsoft",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0817",
+"date": "2026-11-13",
+"category": "TECH",
+"event": "Komdigi and BSSN issued account-security advice after the Microsoft outage, and a bank warned customers about scam modus exploiting it.",
+"key_numbers": "Details not read (article fetch blocked)",
+"storyline": "cyber-threats-gov",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0818",
+"date": "2026-11-13",
+"category": "TECH",
+"event": "Komdigi responded to SAFEnet and Remotivi claims about takedowns of wildfire (karhutla) content, saying it is ready to open its data and review its moderation.",
+"key_numbers": "Numbers not read (article fetch blocked)",
+"storyline": "karhutla",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0820",
+"date": "2026-11-13",
+"category": "TECH",
+"event": "Nvidia named CFO Colette Kress interim CEO after Jensen Huang resigned, and CNN Indonesia listed possible successors including Tim Cook. (update of E0786)",
+"key_numbers": "Interim CEO: Colette Kress",
+"storyline": "ai-data-centres",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0822",
+"date": "2026-11-13",
+"category": "POL",
+"event": "MPR leadership outlined how the vacant vice presidency will be filled: the President proposes two candidates and the MPR elects one in a plenary session. (update of E0777)",
+"key_numbers": "Max 60 days for plenary · 2 candidates proposed · names due at least 14 days before the plenary · tie vote repeated once, then President picks · 120 DPR members from 8 factions had backed the now-moot impeachment proposal (HMP)",
+"storyline": "gibran-ijazah-mk",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0823",
+"date": "2026-11-13",
+"category": "ENV",
+"event": "BNPB reported karhutla easing in most regions, with East Kalimantan and NTT still rising. (update of E0796)",
+"key_numbers": "283 hotspots · 764 ha being handled · Papua Selatan hotspots -84% · South Sulawesi area handled -47% · Southeast Sulawesi -38%",
+"storyline": "karhutla",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0824",
+"date": "2026-11-13",
+"category": "NEWS",
+"event": "Fact-checkers kept flagging fake social-aid registration links, e.g. a PKH 2026 Rp900,000 sign-up link spreading on Facebook, TikTok and WhatsApp that is a phishing scam.",
+"key_numbers": "Rp900,000 claimed · fact-check dated Jan 2026 (still circulating, not new)",
+"storyline": "",
+"status": "partial",
 "upcoming": false
 },
 {
@@ -7466,6 +7726,16 @@
 "event": "Bank Indonesia's November RDG on 17-18 Nov is widely expected by economists to raise the BI rate to 6% given rupiah pressure and capital outflows. (update of E0040)",
 "key_numbers": "Expected BI rate 6% · RDG 17-18 Nov 2026 · rupiah ~Rp18,080/USD",
 "storyline": "rupiah",
+"status": "upcoming",
+"upcoming": true
+},
+{
+"id": "E0815",
+"date": "2026-11-30",
+"category": "ECO",
+"event": "Government targets finishing the 2027 provincial minimum wage (UMP) decisions at the end of November; labour unions demand a 7.5 to 9.5 percent rise and held demos in many provinces.",
+"key_numbers": "Union demand 7.5 to 9.5% · target end Nov 2026 · UMP effective 1 Jan 2027 · unions demo in 38 provinces (headline)",
+"storyline": "",
 "status": "upcoming",
 "upcoming": true
 },

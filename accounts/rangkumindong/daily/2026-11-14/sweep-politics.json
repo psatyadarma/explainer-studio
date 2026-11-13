@@ -1,0 +1,379 @@
+{
+ "area": "politics",
+ "run_date": "2026-11-14",
+ "checked": [
+  "detik news section page",
+  "CNN Indonesia nasional/politik",
+  "ANTARA politik",
+  "Tempo politik (blocked by robots)",
+  "Presiden/Wapres/Istana",
+  "DPR/MPR/DPD",
+  "Partai moves",
+  "Polri big cases",
+  "KPK",
+  "Kejagung",
+  "MK/MA",
+  "Demonstrations / UMP",
+  "Storyline searches: gibran-ijazah-mk, listyo-sigit-penyadapan, corruption-cases (Djarum), definisi-korupsi, jokowi-ijazah-roy-suryo"
+ ],
+ "events": [
+  {
+   "date": "2026-11-13",
+   "category": "POL",
+   "event": "The MPR joint leadership meeting set a plenary session for Wed 2 Dec 2026 to elect a new Vice President, and said it would ask President Prabowo to submit two candidate names.",
+   "key_numbers": "Plenary Wed 2 Dec 2026 (MPR building, Senayan) · 2 names from the President · names due at least 2 weeks before plenary (MPR Tatib 1/2024 Art. 36), about 18 Nov",
+   "storyline": "gibran-ijazah-mk",
+   "update_of": "E0766",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "Detik",
+     "url": "https://news.detik.com/berita/d-8751988/2-nama-cawapres-usulan-prabowo-sudah-ada-pekan-depan-ketua-mpr-insyaallah"
+    },
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/nasional/20261113154751-36-1426894/mpr-tetapkan-paripurna-pemilihan-wapres-baru-2-desember-2026"
+    },
+    {
+     "label": "ANTARA",
+     "url": "https://www.antaranews.com/berita/5849999/prabowo-miliki-waktu-14-hari-ajukan-dua-calon-wakil-presiden-ke-mpr"
+    }
+   ],
+   "why_it_matters": "Sets the calendar for who becomes Indonesia's next Vice President after Gibran's resignation.",
+   "signals": {
+    "spreading": 2,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 2,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "ANTARA politik feed and CNN Indonesia nasional headlines dominated by it on 13 Nov",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-11-13",
+   "category": "POL",
+   "event": "Prabowo met coalition party leaders behind closed doors at Istana Bogor to discuss a new VP candidate; no name was announced, and PAN's Zulkifli Hasan said Prabowo asked for one week to discuss with the parties.",
+   "key_numbers": "1 week to discuss · attendees: Dasco (Gerindra), Bahlil (Golkar), AHY (Demokrat), Zulkifli Hasan (PAN), Muhaimin (PKB), Al Muzzammil Yusuf (PKS), Viktor Laiskodat (NasDem) · PAN has no cadre to propose",
+   "storyline": "gibran-ijazah-mk",
+   "update_of": "E0777",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "Detik",
+     "url": "https://news.detik.com/berita/d-8752168/hasil-pertemuan-prabowo-petinggi-parpol-usulan-cawapres-dibahas-1-pekan"
+    },
+    {
+     "label": "Detik",
+     "url": "https://news.detik.com/berita/d-8752309/zulhas-usul-kader-gerindra-jadi-wapres-baru"
+    },
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/nasional/20261113171936-32-1426971/elite-parpol-koalisi-prabowo-mulai-berdatangan-ke-istana-bogor"
+    }
+   ],
+   "why_it_matters": "The race for the VP seat is now a party-bargaining story; the name is still open.",
+   "signals": {
+    "spreading": 2,
+    "wallet": 0,
+    "surprise": 2,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "Detik and CNN headline cluster on 13 Nov; Zulhas suggesting a Gerindra cadre",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-11-13",
+   "category": "POL",
+   "event": "Zulkifli Hasan (PAN) floated a Gerindra cadre as new VP; AHY said Demokrat will not submit a name; PDIP said an ideal VP needs full ties with the President; Prabowo's two names need not come from the coalition parties (CNN headline).",
+   "key_numbers": "Demokrat: no name · PAN: no cadre · PDIP: 'ikatan penuh dengan Presiden'",
+   "storyline": "gibran-ijazah-mk",
+   "update_of": "",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/nasional/20261113144622-36-1426862/ahy-pastikan-demokrat-tak-ajukan-nama-untuk-wapres-usai-gibran-mundur"
+    },
+    {
+     "label": "ANTARA",
+     "url": "https://www.antaranews.com/berita/5851095/pdip-wapres-baru-yang-ideal-harus-miliki-ikatan-penuh-dengan-presiden"
+    },
+    {
+     "label": "Detik",
+     "url": "https://news.detik.com/berita/d-8752309/zulhas-usul-kader-gerindra-jadi-wapres-baru"
+    }
+   ],
+   "why_it_matters": "Shows which parties want in, which are staying out, before the names go to the MPR.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 0,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-11-12",
+   "category": "POL",
+   "event": "At a press statement at the Istana, Prabowo said he accepted Gibran's resignation reluctantly and tied it to the education-requirement problem; he cited Gibran's visits to 35 provinces and 149 regencies/cities and 133 project sites.",
+   "key_numbers": "35 provinces · 149 kabupaten/kota · 133 project sites · letter submitted 11 Nov, handed to MPR 12 Nov",
+   "storyline": "gibran-ijazah-mk",
+   "update_of": "E0765",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "Detik",
+     "url": "https://news.detik.com/berita/d-8750820/7-pernyataan-prabowo-yang-terima-permintaan-mundur-gibran"
+    },
+    {
+     "label": "ANTARA",
+     "url": "https://www.antaranews.com/berita/5848915/berikut-isi-surat-pengunduran-diri-gibran-sebagai-wapres"
+    }
+   ],
+   "why_it_matters": "First direct Presidential statement on why the VP left, and the official framing of it.",
+   "signals": {
+    "spreading": 2,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 1,
+    "fresh": 1,
+    "rivals": 1
+   },
+   "spreading_evidence": "ANTARA terpopuler (resignation letter contents) on 13 Nov",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-11-13",
+   "category": "POL",
+   "event": "Yusril said Prabowo has full authority to pick the two VP candidates and that a vacant VP post is not a problem while Prabowo travels abroad; ANTARA reports he is ready to check candidates' documents to prevent a repeat of the diploma dispute; DPR said it will revise the education-equivalency rules (CNN headline).",
+   "key_numbers": "Prabowo trip: Palu (Muhammadiyah Tanwir) on 14 Nov, then Manila (ASEAN Summit) · DPR to revise equivalency regulation (details not read)",
+   "storyline": "gibran-ijazah-mk",
+   "update_of": "E0779",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "ANTARA",
+     "url": "https://www.antaranews.com/berita/5850439/cegah-kejadian-serupa-yusril-siap-periksa-dokumen-cawapres"
+    },
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/nasional/20261113164041-32-1426943/prabowo-bakal-ke-luar-negeri-yusril-sebut-wapres-kosong-tak-masalah"
+    },
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/nasional/20261113171105-32-1426967/dpr-akan-revisi-aturan-penyetaraan-pendidikan-cegah-polemik-gibran"
+    },
+    {
+     "label": "Detik",
+     "url": "https://news.detik.com/berita/d-8752173/prabowo-dijadwalkan-hadiri-tanwir-muhammadiyah-di-palu-besok"
+    }
+   ],
+   "why_it_matters": "Candidate vetting rules may change after the Gibran case.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 0,
+    "fresh": 2,
+    "rivals": 2
+   },
+   "spreading_evidence": "",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-11-12",
+   "category": "POL",
+   "event": "Per Kapolri at the Komisi III hearing (detail from Detik): LSP allegedly set targets and was end user, SU forwarded reports, EH approved via WhatsApp without an investigator's letter, and AS allegedly ordered deletion of wiretap voice files and logs and the dissolution of the WhatsApp group.",
+   "key_numbers": "4 suspects (LSP, SU, EH, AS) · Kabagmon tenures: EH 5 Dec 2024 to 7 Oct 2025, AS 7 Oct 2025 to 1 Oct 2026 · SU Kadiv TIK 2021 to Oct 2026 · no Listyo/lawyer response in article",
+   "storyline": "listyo-sigit-penyadapan",
+   "update_of": "E0775",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "Detik",
+     "url": "https://news.detik.com/berita/d-8749311/peran-4-tersangka-penyadapan-prabowo-listyo-sigit-tentukan-target-terima-hasil"
+    },
+    {
+     "label": "Detik",
+     "url": "https://news.detik.com/berita/d-8750810/terungkap-listyo-sigit-end-user-hasil-hasil-penyadapan"
+    }
+   ],
+   "why_it_matters": "Spells out the alleged chain of command in the wiretapping of the President; allegations only, not court findings.",
+   "signals": {
+    "spreading": 2,
+    "wallet": 0,
+    "surprise": 2,
+    "visual": 1,
+    "fresh": 1,
+    "rivals": 1
+   },
+   "spreading_evidence": "Detik headline cluster 13 Nov",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-11-13",
+   "category": "POL",
+   "event": "KPK spokesperson said KPK supports Polri's legal process after reports that KPK was also allegedly wiretapped in the Listyo Sigit case (headline/snippet only, not opened).",
+   "key_numbers": "Not verified beyond headlines",
+   "storyline": "listyo-sigit-penyadapan",
+   "update_of": "",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "IDN Times",
+     "url": "https://www.idntimes.com/news/indonesia/diduga-jadi-korban-penyadapan-listyo-kpk-dukung-pengusutan-polri-00-gg3v5-j2mj1n"
+    },
+    {
+     "label": "Niaga.asia",
+     "url": "https://www.niaga.asia/kpk-disadap-listyo-sigit-cs-jubir-kami-dukung-proses-hukum-polri/"
+    }
+   ],
+   "why_it_matters": "Widens the list of who may have been tapped; needs confirmation.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 0,
+    "surprise": 2,
+    "visual": 0,
+    "fresh": 2,
+    "rivals": 2
+   },
+   "spreading_evidence": "",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-11-13",
+   "category": "POL",
+   "event": "Rizal Fadillah, a named suspect in the Jokowi diploma defamation case, died after treatment in a Muhammadiyah hospital ICU, according to Roy Suryo on YouTube; cause not stated.",
+   "key_numbers": "Died Fri 13 Nov 2026 · announced by Roy Suryo · cause not given",
+   "storyline": "jokowi-ijazah-roy-suryo",
+   "update_of": "",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "Detik",
+     "url": "https://news.detik.com/berita/d-8752313/rizal-fadillah-tersangka-kasus-ijazah-palsu-jokowi-meninggal"
+    }
+   ],
+   "why_it_matters": "Changes the line-up of the suspects in an ongoing high-profile case.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 0,
+    "surprise": 2,
+    "visual": 0,
+    "fresh": 2,
+    "rivals": 2
+   },
+   "spreading_evidence": "Detik headline, 4 hours old at fetch",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-11-12",
+   "category": "POL",
+   "event": "At the 12 Nov hearing in the defamation trial of dr Tifa, journalist Aiman Witjaksono and Jokowi's aide testified; Aiman argued journalistic products should not be evidence, and PWI warned the examination could threaten press independence.",
+   "key_numbers": "Hearing 12 Nov 2026 · witnesses Aiman Witjaksono, aide AKBP Syarief",
+   "storyline": "jokowi-ijazah-roy-suryo",
+   "update_of": "E0607",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "Kompas",
+     "url": "https://megapolitan.kompas.com/read/2026/11/12/16565361/jadi-saksi-sidang-dokter-tifa-aiman-witjaksono-produk-jurnalistik-tak"
+    },
+    {
+     "label": "iNews",
+     "url": "https://inews.id/news/nasional/pwi-pemeriksaan-aiman-di-sidang-dokter-tifa-bisa-jadi-preseden-buruk-ancam-independensi-pers"
+    }
+   ],
+   "why_it_matters": "Press-freedom angle inside the diploma trial.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 0,
+    "fresh": 2,
+    "rivals": 2
+   },
+   "spreading_evidence": "",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-11-13",
+   "category": "POL",
+   "event": "West Jakarta police arrested 8 suspects, including 2 foreigners, over recruiting Indonesians as mercenaries for the Russian army; 15 WNI were reportedly recruited, mostly former online-gambling admins, promised Rp50 million salary and bonuses.",
+   "key_numbers": "8 suspects (2 WNA) · 15 WNI recruited · promised Rp50 million salary · contracts reportedly for life",
+   "storyline": "",
+   "update_of": "",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "Detik",
+     "url": "https://news.detik.com/berita/d-8752032/polres-jakbar-tangkap-8-tersangka-perekrutan-wni-jadi-tentara-rusia"
+    },
+    {
+     "label": "Detik",
+     "url": "https://news.detik.com/berita/d-8752136/dijanjikan-gaji-rp-50-juta-wni-tentara-bayaran-rusia-dikontrak-seumur-hidup"
+    },
+    {
+     "label": "ANTARA",
+     "url": "https://www.antaranews.com/foto/5849767/bareskrim-polri-ungkap-beragam-modus-tppo-termasuk-perekrutan-wni-jadi-militer-bayaran-rusia"
+    }
+   ],
+   "why_it_matters": "A job-offer scam that ends in a war zone; a warning for ordinary job seekers.",
+   "signals": {
+    "spreading": 2,
+    "wallet": 1,
+    "surprise": 2,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "Detik cluster of about 7 headlines on 13 Nov",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-30",
+   "category": "ECO",
+   "event": "Government targets finishing the 2027 provincial minimum wage (UMP) decisions at the end of November; labour unions demand a 7.5 to 9.5 percent rise and held demos in many provinces.",
+   "key_numbers": "Union demand 7.5 to 9.5% · target end Nov 2026 · UMP effective 1 Jan 2027 · unions demo in 38 provinces (headline)",
+   "storyline": "",
+   "update_of": "",
+   "status": "upcoming",
+   "sources": [
+    {
+     "label": "Koran Jakarta",
+     "url": "https://koran-jakarta.com/2026-10-27/kapan-ump-2027-ditetapkan-menaker-pasang-target-akhir-november"
+    },
+    {
+     "label": "Warta Ekonomi",
+     "url": "https://wartaekonomi.co.id/amp/read640969/buruh-tuntut-upah-minimum-2027-naik-75-95-persen-kspi-dan-partai-buruh-gelar-demo-di-38-provinsi"
+    }
+   ],
+   "why_it_matters": "Decides how much monthly wages rise for millions of workers from January.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 2,
+    "surprise": 1,
+    "visual": 2,
+    "fresh": 1,
+    "rivals": 1
+   },
+   "spreading_evidence": "",
+   "sensitivity": "normal"
+  }
+ ],
+ "gaps": [
+  "CNN Indonesia article pages and ANTARA 5849999 were blocked by the fetch permission, so MPR 36-member verification/ad hoc team count and DPR equivalency revision details are headline-only",
+  "KPK as alleged wiretap target: headline/snippet only",
+  "KPK Djarum pita cukai: no new development found in search results (Tempo/others blocked or older)",
+  "definisi-korupsi: no new development found since 27 Oct",
+  "Kejagung named PT BSJ (Arif Kurniawan) a corporate suspect in the nickel case on 10 Nov (outside window; Kompas snippet only)",
+  "Next dr Tifa hearing date not found"
+ ]
+}
