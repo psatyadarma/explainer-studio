@@ -13,7 +13,7 @@
   "approved": "todo",
   "render": "todo",
   "video_sent": "todo",
-  "ok_post": "todo",
+  "ok_post": "done",
   "posted": "todo",
   "knowledge": "todo",
   "sweeps": "done",
@@ -28,7 +28,8 @@
   "produce": "done",
   "qa": "done",
   "sent": "done",
-  "weekly_sent": "done"
+  "weekly_sent": "done",
+  "scheduled": "done"
  },
  "notes": [],
  "merge_stats": {
