@@ -26,11 +26,12 @@ _One dated line per piece of feedback about topics or angles. The coordinator ap
 - 2026-11-14: No pick by 14:00 (default ⭐ #1 tentara bayaran Rusia used, not a preference). ~14:50 said "Ok ti post" on the finished video.
 
 ## What the audience shows
-_Written by the analyst each Sunday from real IG/YT numbers (W45, 8 Nov). The writer weighs this next to the user's picks; it is a tiebreaker, not an override._
-- Over-performed: a fresh, personal news story with a face and a chronological script (Listyo P3: 1,537 IG views, 54% watched, ~+30 followers); a plain money question with the payoff held back (Korupsi P2: 49%); "kamu/dompet" hooks in plain words (survival, asap rute: 29-30%). Weekly #3 (1,308 IG views, 28 shares+saves per 1k) is the best share rate on the account after weekly #1.
-- Under-performed: jargon or statistic-first hooks (BI-Rate, MSCI, pasal, "nomor berapa": 3-15%); "Katanya X. Ternyata Y." myth hooks (15%, 23%, 56 and 180 views); niche single-source items (Ledger 56 views, Djarum 38); repeat PARTs on a fading storyline (Korupsi P3 12%).
-- Format: 20-23% IG watched is the default band for everything not carried by reach; standard vs short shows no reliable difference. Pratama beats Cahaya on the numbers (30% vs 17%, n=10 vs 9, confounded by block design).
-- User picks vs audience: the user's picks of politics/legal storylines (Listyo, Korupsi) produced both the best and the worst videos; the recommended wallet items scored higher on the rubric but did not do better. Storytelling is untested beyond one hit and one miss.
+_Written by the analyst each Sunday from real IG/YT numbers (W46, 15 Nov). The writer weighs this next to the user's picks; it is a tiebreaker, not an override._
+- Over-performed: live political stories with a named person and a "what happens next" question (Gibran niat mundur: YT 3,841 views, IG 38.7% watched; Gibran P2: IG 664, YT 3,404, 35.2%; Listyo P3: 1,545 IG, 54%); a plain money question with the payoff held back (Korupsi P2: 49%); a fresh crime/people case on YouTube (tentara bayaran: 1,262 YT views in 10 h, IG 23.7% early read).
+- Under-performed: jargon or statistic-first hooks (BI-Rate, MSCI, pasal: 3-15%); stakes-only "kamu" hooks on stories the audience does not follow (Nvidia 118 IG / 17%, HP murah 111 / 20%); niche single-source items (Ledger 56, Djarum 38); repeat PARTs on a fading storyline (Korupsi P3 12%); the 7-minute weekly without a reach spike behind it (weekly #4: 160 IG views at 21 h, 10% watched, vs #3 1,308).
+- Platform: YouTube carried 6.8x the views of Instagram in W46 (about 9,100 vs 1,340). Politics and crime/people topics reach YouTube at 1,000-3,800; markets, tech and gadget topics stay at 14-450. Instagram dailies sit at 110-240 views unless a face or a hot political story carries them.
+- Format/hook: 17-26% IG watched is the default band; standard vs short (-2%), word vs block subs (+11%) and hook style (all within 12% except tiny-n person_collage) are NOT decided. Voice is: Pratama 28% vs Cahaya 17% (n=17 vs 9), locked. kamu_stakes never passed 27%. Storytelling: mean +30% but median flat, carried by two face-and-hot-story videos; not decided.
+- User picks vs audience: the user's picks of politics/legal storylines (Listyo, Korupsi, Gibran) produced both the best and the worst videos, but the best ones always had a face and a live next step; wallet-rubric items did not do better (wallet weight now 0.5).
 
 ## What the picks show
 

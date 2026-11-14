@@ -407,7 +407,7 @@
  "topic_rotation_note": "Soft tiebreaker only: a clearly higher-scoring idea always beats the day's topic.",
  "rubric_weights": {
   "spreading": 1.0,
-  "wallet": 0.75,
+  "wallet": 0.5,
   "surprise": 1.0,
   "visual": 1.0,
   "fresh": 1.0,
@@ -416,6 +416,7 @@
  "rubric_weights_log": [
   "2026-10-22: all 1.0 (start); the analyst adjusts weekly once ≥8 videos have 72 h metrics",
   "2026-11-01: >=8 videos with 72 h reached (11 with rubric+metrics). No signal tracked avg % watched or shares+saves per 1k (wallet 2: 21.8% vs 24.5%; total score r~0), so all weights stay 1.0. W43 'wallet up' lean withdrawn. Recheck with 15+ videos.",
-  "2026-11-08: 17 videos with rubric + metrics. wallet did not track IG avg % watched for the second week and reversed sign (wallet 2 n=6 ~20.4% vs wallet 0-1 ~26%; W45 wallet 0 mean 32.8% vs wallet 2 17.6%), so wallet 1.0 -> 0.75. All other signals unchanged (constant or no relation). Low confidence: one storyline + P3 outlier dominate; recheck 15 Nov."
+  "2026-11-08: 17 videos with rubric + metrics. wallet did not track IG avg % watched for the second week and reversed sign (wallet 2 n=6 ~20.4% vs wallet 0-1 ~26%; W45 wallet 0 mean 32.8% vs wallet 2 17.6%), so wallet 1.0 -> 0.75. All other signals unchanged (constant or no relation). Low confidence: one storyline + P3 outlier dominate; recheck 15 Nov.",
+  "2026-11-15: 21 videos with rubric + metrics. wallet again did not track IG avg % watched (third week): this week wallet 0 (Gibran P1 38.7, Gibran P2 35.2, tentara 23.7 partial; mean 32.5) vs wallet 1 (Nvidia 17.1). Shares+saves per 1k ~0 on every daily, so no signal there. wallet 0.75 -> 0.5 (max step 0.25, floor 0.5). Low confidence: wallet-0 items are all politics/crime with a face, so topic is confounded with the signal. Other signals constant (spreading/fresh 2 on almost every row) or flat; unchanged. Recheck 22 Nov."
  ]
 }
