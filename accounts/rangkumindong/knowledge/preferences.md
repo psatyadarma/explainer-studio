@@ -23,6 +23,7 @@ _One dated line per piece of feedback about topics or angles. The coordinator ap
 - 2026-11-10: Picked ⭐ #1 (Nvidia/Jensen Huang CEO scandal, tech, sensitivity high, 10/12) and said "OK to post" in the same reply (~early morning).
 - 2026-11-12: Picked ⭐ #1 (Gibran PART 2: paripurna DPR soal HMP, politics, sensitivity high, 10/12) on politics Thursday and said "OK to post" in the same reply. Second day in a row on the Gibran storyline.
 - 2026-11-13: No pick by 14:00 (default ⭐ #1 HP Indonesia -43% used, not a preference). ~16:27 said "Ok to post and follow ur suggestions" (covers the daily video and the Saturday weekly).
+- 2026-11-14: No pick by 14:00 (default ⭐ #1 tentara bayaran Rusia used, not a preference). ~14:50 said "Ok ti post" on the finished video.
 
 ## What the audience shows
 _Written by the analyst each Sunday from real IG/YT numbers (W45, 8 Nov). The writer weighs this next to the user's picks; it is a tiebreaker, not an override._
@@ -33,7 +34,7 @@ _Written by the analyst each Sunday from real IG/YT numbers (W45, 8 Nov). The wr
 
 ## What the picks show
 
-_Recomputed by engine/prefs.py from 26 days of offers, 15 picks._
+_Recomputed by engine/prefs.py from 27 days of offers, 15 picks._
 
 - 2026-10-20: picked #3  "Rupiah Rp18.046: besok BI putuskan, tahan 5,75% atau naik ke 6%?", storyline rupiah
 - 2026-10-21: picked #?  "Karhutla: siapa yang tanggung jawab atas asap? (Lutfi vs Singapura)", storyline karhutla
@@ -60,6 +61,7 @@ _Recomputed by engine/prefs.py from 26 days of offers, 15 picks._
 - 2026-11-11: picked #2  "Katanya Gibran sudah mundur. Ternyata baru niat (menurut Mensesneg) + DPR hak menyatakan pendapat", score 8/12, storyline gibran-ijazah-mk
 - 2026-11-12: picked #1 (recommended) "Paripurna DPR hari ini: HMP Gibran, apa langkah berikutnya? (Gibran PART 2)", score 10/12, storyline gibran-ijazah-mk
 - 2026-11-13: no pick by the deadline (default #1 used; not counted)
+- 2026-11-14: no pick by the deadline (default #1 used; not counted)
 
 - Picks the recommended idea 4/15 times; average pick rank 2.3.
 - Storylines picked often when offered: definisi-korupsi, crypto-hacks, listyo-sigit-penyadapan.

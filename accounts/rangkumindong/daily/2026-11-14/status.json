@@ -10,7 +10,7 @@
   "draft": "done",
   "draft_factcheck": "todo",
   "draft_sent": "todo",
-  "approved": "todo",
+  "approved": "done",
   "render": "todo",
   "video_sent": "todo",
   "ok_post": "todo",
@@ -23,7 +23,8 @@
   "factcheck_full": "done",
   "produce": "done",
   "qa": "done",
-  "sent": "done"
+  "sent": "done",
+  "scheduled": "done"
  },
  "notes": [],
  "merge_stats": {
