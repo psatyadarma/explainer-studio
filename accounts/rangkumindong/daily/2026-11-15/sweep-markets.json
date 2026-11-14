@@ -1,0 +1,152 @@
+{
+  "area": "markets",
+  "run_date": "2026-11-15",
+  "checked": [
+    "CNBC Indonesia market page (fetched; latest items 13-14 Nov)",
+    "detikFinance (Gibran-resignation market prediction article)",
+    "Bisnis.com market (weekly wrap found via search; page fetch failed)",
+    "Antara ekonomi (search only, no fetch)",
+    "Liputan6 saham weekly wrap and market-calendar articles",
+    "Kontan rupiah weekly article",
+    "Investor.id IHSG 16 Nov preview",
+    "Vibiznews domestic outlook 16-20 Nov",
+    "Newsquawk week in focus 16-20 Nov (global calendar)",
+    "Kompas.id next-week BI rate piece (robots-blocked, headline only)",
+    "Watch list found: IHSG close and weekly move, foreign net flow, rupiah and BI RDG, MSCI/HSC aftermath, IPO queue, Fed/US CPI shock, Gibran resignation as market driver",
+    "Watch list not found in headlines: OJK new action, BPS release for 16-22 Nov (BPS now publishes trade and inflation early in the month), fuel price change",
+    "Storylines: rupiah, msci-reclassification (one search each via the weekly wraps)"
+  ],
+  "events": [
+    {
+      "date": "2026-11-18",
+      "category": "ECO",
+      "event": "Bank Indonesia holds its November Board of Governors meeting (RDG) on 17-18 November, with the decision due Wednesday 18 November and analysts expecting a 25 bp hike from 5.75% to 6.00%.",
+      "key_numbers": "Current BI-Rate 5.75% (held since 18 Jun 2026) · Consensus 6.00% (+25 bp) · RDG 17-18 Nov, decision Wed 18 Nov · Rupiah Rp18,206 on 13 Nov, record intraday low about Rp18,245-18,261 · Permata base case assumes Fed +25 bp in Dec · October inflation 3.23% y/y",
+      "storyline": "rupiah",
+      "update_of": "E0601",
+      "status": "upcoming",
+      "sources": [
+        {"label": "Investor.id", "url": "https://investor.id/market/461908/prediksi-ihsg-dan-rekomendasi-saham-senin-16-november-2026"},
+        {"label": "Vibiznews", "url": "https://vibiznews.com/index.php/2026/11/14/variatif-ihsg-uptrend-rupiah-rekor-terendah-bi-rate-akan-naik-domestic-market-outlook-16-20-november-2026/"},
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/news/20261103104715-4-781813/tekanan-inflasi-mengkhawatirkan-ekonom-ramal-bi-rate-naik-bulan-ini"},
+        {"label": "Newsquawk", "url": "https://www.newsquawk.com/headlines/week-in-focus--16-20th-november-2026-highlights-include-us-retail-sales-fomc-minutes-chinese-activity-data-pboc-lpr-rba-minutes-uk-inflation-and-uk-jobs"}
+      ],
+      "why_it_matters": "A BI rate hike would make loans, mortgages and credit-card debt costlier, while a hold could leave the rupiah exposed.",
+      "signals": {"spreading": 1, "wallet": 2, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "Every broker weekly outlook leads with the RDG",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-13",
+      "category": "MKT",
+      "event": "The IHSG ended the week of 9-13 November up 5.82% at 5,344.41 on surging turnover, with foreign investors net buying for the week even as the rupiah hit record lows.",
+      "key_numbers": "IHSG 5,344.41 (from 5,050.42, +5.82%) · Market cap Rp9,047 trillion (from Rp8,744 trillion, +3.47%) · Average daily value Rp23.69 trillion (+114.64% from Rp11.04 trillion) · Foreign net buy for the week about Rp462.73 billion (BEI via Liputan6; Bisnis headline says Rp467.73 billion) vs net sell Rp167.11 billion the week before · Brokers eye 5,400-5,500 resistance if 5,300 holds",
+      "storyline": "msci-reclassification",
+      "update_of": "E0798",
+      "status": "verified",
+      "sources": [
+        {"label": "Liputan6", "url": "https://www.liputan6.com/saham/read/8335150/ihsg-sepekan-melesat-582-msci-hingga-rupiah-membayangi"},
+        {"label": "Okezone", "url": "https://economy.okezone.com/read/2026/11/14/278/3253978/ihsg-sepekan-naik-5-82-persen-nilai-transaksi-harian-tembus-rp23-698-triliun"},
+        {"label": "Investor.id", "url": "https://investor.id/market/461908/prediksi-ihsg-dan-rekomendasi-saham-senin-16-november-2026"}
+      ],
+      "why_it_matters": "Shows whether the post-MSCI, post-Gibran-resignation panic has turned into a rebound that retail investors can trust.",
+      "signals": {"spreading": 2, "wallet": 1, "surprise": 2, "visual": 2, "fresh": 2, "rivals": 0},
+      "spreading_evidence": "Weekly wrap in about 10 outlets on 14 Nov",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-13",
+      "category": "MKT",
+      "event": "The rupiah ended the week at Rp18,206 per US dollar, weaker 0.65% on the week, after touching a record intraday low on 12 November; BI intervened in NDF, DNDF, spot and bond markets.",
+      "key_numbers": "Close 13 Nov Rp18,206 (Bloomberg) vs Rp18,089 a week earlier (-0.65%) · JISDOR Rp18,218 vs Rp18,130 · 12 Nov intraday Rp18,261, close Rp18,239 · CORE forecast range Rp18,100-18,250 next week · Resistance Rp18,245-18,270 (Vibiznews)",
+      "storyline": "rupiah",
+      "update_of": "E0800",
+      "status": "verified",
+      "sources": [
+        {"label": "Kontan", "url": "https://investasi.kontan.co.id/news/rupiah-melemah-ini-sentimen-yang-membayangi"},
+        {"label": "Vibiznews", "url": "https://vibiznews.com/index.php/2026/11/14/variatif-ihsg-uptrend-rupiah-rekor-terendah-bi-rate-akan-naik-domestic-market-outlook-16-20-november-2026/"},
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/market"}
+      ],
+      "why_it_matters": "A weaker rupiah raises prices of imported goods, fuel and overseas tuition or travel.",
+      "signals": {"spreading": 1, "wallet": 2, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-18",
+      "category": "GLB",
+      "event": "The US Federal Reserve releases minutes of its 28 October meeting on 18 November, while markets fully price a 25 bp hike at the 9 December FOMC after hot US October CPI and Governor Waller's hawkish remarks.",
+      "key_numbers": "Fed funds held at 3.75-4.00% on 28 Oct, with Cook and Hammack dissenting for a hike · FOMC minutes Wed 18 Nov · 25 bp hike fully priced for 9 Dec, about 10% odds of 50 bp · Bank of America sees hikes in Dec, Jan and Mar · US October retail sales Tue 17 Nov (consensus +0.2% m/m) · US October CPI +0.4% m/m",
+      "storyline": "rupiah",
+      "update_of": "E0771",
+      "status": "upcoming",
+      "sources": [
+        {"label": "Newsquawk", "url": "https://www.newsquawk.com/headlines/week-in-focus--16-20th-november-2026-highlights-include-us-retail-sales-fomc-minutes-chinese-activity-data-pboc-lpr-rba-minutes-uk-inflation-and-uk-jobs"},
+        {"label": "Forbes", "url": "https://www.forbes.com/sites/simonmoore/2026/11/13/waller-floats-prospect-of-larger-december-interest-rate-hike/"}
+      ],
+      "why_it_matters": "A Fed that is raising rates pulls money out of emerging markets and pushes the rupiah weaker, shaping BI's choice the same day.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-20",
+      "category": "ECO",
+      "event": "Bank Indonesia is due to publish Q3 2026 current account (balance of payments) data around Friday 20 November, which brokers expect to show a much narrower deficit than in Q2.",
+      "key_numbers": "Expected Q3 current account deficit about US$3.3 billion vs US$12.5 billion in Q2 (Investor.id broker forecast) · Date 20 Nov per Vibiznews, unconfirmed by BI · FX reserves US$146.3 billion at end-Sep",
+      "storyline": "rupiah",
+      "update_of": "",
+      "status": "upcoming",
+      "sources": [
+        {"label": "Vibiznews", "url": "https://vibiznews.com/index.php/2026/11/14/variatif-ihsg-uptrend-rupiah-rekor-terendah-bi-rate-akan-naik-domestic-market-outlook-16-20-november-2026/"},
+        {"label": "Investor.id", "url": "https://investor.id/market/461908/prediksi-ihsg-dan-rekomendasi-saham-senin-16-november-2026"}
+      ],
+      "why_it_matters": "The current account gap is a key reason the rupiah is under pressure; a narrower deficit would ease worries.",
+      "signals": {"spreading": 0, "wallet": 0, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-12-02",
+      "category": "POL",
+      "event": "The MPR scheduled a plenary session on 2 December 2026 to elect and inaugurate a new Vice President after Gibran's resignation, with Prabowo asked to nominate candidates, and the Finance Ministry warned political turmoil could affect Indonesia's rating.",
+      "key_numbers": "MPR plenary 2 Dec 2026 · Prabowo reportedly asked to send two names in the week of 16 Nov (single minor outlet, unverified) · Foreign analyst call of up to 7% IHSG drop did not materialise (IHSG +5.82% on the week)",
+      "storyline": "gibran-ijazah-mk",
+      "update_of": "E0770",
+      "status": "partial",
+      "sources": [
+        {"label": "Kompas.com", "url": "https://nasional.kompas.com/read/2026/11/13/15450361/mpr-akan-pilih-dan-lantik-wapres-baru-pengganti-gibran-pada-2-desember"},
+        {"label": "Kontan", "url": "https://nasional.kontan.co.id/news/siapa-pengganti-gibran-mpr-targetkan-wapres-baru-dilantik-2-desember-2026"},
+        {"label": "Kontan (rupiah)", "url": "https://investasi.kontan.co.id/news/rupiah-melemah-ini-sentimen-yang-membayangi"}
+      ],
+      "why_it_matters": "Investors treat a smooth VP replacement as a test of political stability, which feeds into the rupiah and stock market.",
+      "signals": {"spreading": 2, "wallet": 0, "surprise": 1, "visual": 1, "fresh": 1, "rivals": 0},
+      "spreading_evidence": "Headline coverage across Kompas, Kontan, Viva, IDN Times on 13-14 Nov",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-13",
+      "category": "MKT",
+      "event": "BEI said eight companies are in its IPO pipeline as of 13 November 2026, mostly mid-sized, down from nine reported earlier in the month.",
+      "key_numbers": "8 companies queuing as of 13 Nov vs 9 earlier · Mostly mid-size assets · No listing dates for 16-22 Nov found",
+      "storyline": "",
+      "update_of": "E0662",
+      "status": "partial",
+      "sources": [
+        {"label": "Liputan6", "url": "https://www.liputan6.com/saham/read/8335412/bei-proses-ipo-8-perusahaan-mayoritas-beraset-menengah"},
+        {"label": "Okezone", "url": "https://economy.okezone.com/read/2026/11/14/278/3254036/bei-catat-8-perusahaan-antre-ipo-per-13-november-2026"}
+      ],
+      "why_it_matters": "Shows whether companies are still willing to list while the market is jittery over MSCI.",
+      "signals": {"spreading": 0, "wallet": 1, "surprise": 0, "visual": 0, "fresh": 1, "rivals": 2},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    }
+  ],
+  "gaps": [
+    "Exact BI announcement time on 18 Nov (usually about 14:00 WIB) and October credit growth release date (expected about 13% vs 13.26% in Sep) were not confirmed.",
+    "CNBC headlines of 13 Nov not opened: Rp586 trillion SBN issuance, Rp494 trillion interest payments, Vale Indonesia (INCO) profit +182% to US$147 million, TOPS bankrupt, GMFI 2.2 billion share rights issue, BMAS Rp6.21 trillion Thai credit line.",
+    "Kompas.id next-week BI rate article and Bisnis weekly wrap could not be fetched; Antara ekonomi not scanned directly.",
+    "No BPS release found for 16-22 Nov (trade and inflation were released 2 Nov); check BPS calendar for anything else, and the UMP 2027 decision (E0423, 17 Nov) belongs to the national or labour sweep.",
+    "Weekly foreign net buy differs by source (Rp462.73 billion BEI/Liputan6 vs Rp467.73 billion Bisnis headline); Vibiznews IHSG support levels looked like typos."
+  ]
+}

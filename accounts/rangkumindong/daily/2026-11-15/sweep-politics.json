@@ -1,0 +1,284 @@
+{
+ "area": "politics",
+ "run_date": "2026-11-15",
+ "checked": [
+  "detik news/berita page (14 Nov snapshot)",
+  "CNN Indonesia nasional (snapshot to 14 Nov 23:12)",
+  "ANTARA politik (snapshot ~14 Nov)",
+  "ANTARA hukum (blocked)",
+  "Tempo politik (not fetched)",
+  "Presiden/Wapres/Istana (Prabowo trip: ASEAN Manila, APEC)",
+  "MPR/DPR (VP replacement, 18 Nov deadline, 2 Dec plenary, RUU Perampasan Aset)",
+  "Partai moves (PAN, Golkar, PSI, DPD)",
+  "Polri/Kejagung/KPK (Silmy Karim trial, Listyo Sigit, Djarum)",
+  "Demonstrations (UGM 10 Nov, Komnas HAM)",
+  "UMP 2027 (already E0423/E0815)",
+  "Storyline searches: gibran-ijazah-mk, listyo-sigit-penyadapan, corruption-cases/Djarum, jokowi-ijazah-roy-suryo, tentara-bayaran-rusia (E0814 known)"
+ ],
+ "events": [
+  {
+   "date": "2026-11-15",
+   "category": "POL",
+   "event": "President Prabowo, after attending Muhammadiyah's Tanwir in Palu, arrived in Manila for the 49th ASEAN Summit (15-17 Nov) and is to continue to the APEC summit in China, and he will name his two vice-presidential candidates only after the trips.",
+   "key_numbers": "ASEAN Summit 15-17 Nov 2026 (Manila) · APEC summit in China next, date not confirmed · MPR plenary 2 Dec 2026",
+   "storyline": "gibran-ijazah-mk",
+   "update_of": "E0805",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "ANTARA",
+     "url": "https://www.antaranews.com/berita/5854707/presiden-prabowo-tiba-di-manila-filipina-untuk-hadiri-ktt-ke-49-asean"
+    },
+    {
+     "label": "VIVA",
+     "url": "https://www.viva.co.id/berita/dunia/1943728-prabowo-tiba-di-filipina-siap-hadiri-ktt-ke-49-asean-pada-15-17-november-2026"
+    },
+    {
+     "label": "Kompas.id",
+     "url": "https://www.kompas.id/artikel/sepulang-dari-filipina-dan-china-prabowo-segera-bahas-usulan-cawapres-pengganti-gibran"
+    }
+   ],
+   "why_it_matters": "The President is abroad this week, which sets how fast the new vice president can be named.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "ANTARA, detik, CNN Indonesia, Liputan6 all covered his arrival 14 Nov",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-18",
+   "category": "POL",
+   "event": "Wed 18 Nov is the latest date for President Prabowo to hand MPR leadership two vice-presidential candidate names, since the MPR rules require submission at least 14 days before the 2 Dec plenary; MPR chair Muzani said 'insyaallah' the names arrive next week.",
+   "key_numbers": "Deadline about 18 Nov 2026 · 2 names · at least 14 days before the plenary (Peraturan MPR 1/2024, Art. 136(1) per Okezone) · plenary Wed 2 Dec 2026 · Prabowo told parties to discuss proposals within about 1 week",
+   "storyline": "gibran-ijazah-mk",
+   "update_of": "E0805",
+   "status": "upcoming",
+   "sources": [
+    {
+     "label": "Okezone",
+     "url": "https://news.okezone.com/read/2026/11/13/337/3253892/mpr-tunggu-dua-nama-cawapres-dari-prabowo-batas-akhir-18-november"
+    },
+    {
+     "label": "Detik",
+     "url": "https://news.detik.com/berita/d-8752168/hasil-pertemuan-prabowo-petinggi-parpol-usulan-cawapres-dibahas-1-pekan"
+    },
+    {
+     "label": "IDN Times",
+     "url": "https://www.idntimes.com/news/indonesia/mpr-tunggu-2-nama-calon-wapres-pengganti-gibran-dari-presiden-pekan-depan-00-xvwcc-dg2mvg"
+    }
+   ],
+   "why_it_matters": "The week's biggest political date: who becomes the next vice president is decided by two names due this week.",
+   "signals": {
+    "spreading": 2,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 2,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "ANTARA terpopuler 14 Nov: MPR discussing VP filling",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-11-14",
+   "category": "POL",
+   "event": "Parties floated names for the vacant vice presidency: PAN's Zulkifli Hasan proposed a Gerindra cadre, Golkar said Puan and Bahlil are in the running while it awaits its own deliberation, and DPD figures raised Sultan Najamuddin and Sri Sultan HB X; the Palace has named no one.",
+   "key_numbers": "2 candidates to be proposed · Golkar names: Puan Maharani, Bahlil Lahadalia · DPD alternatives: Sultan Najamuddin, Sultan HB X · Demokrat (AHY) said earlier it will not submit a name",
+   "storyline": "gibran-ijazah-mk",
+   "update_of": "E0807",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/nasional/20261114093728-32-1427090/golkar-sebut-puan-hingga-bahlil-masuk-bursa-wapres-pengganti-gibran"
+    },
+    {
+     "label": "Detik",
+     "url": "https://news.detik.com/berita/d-8752309/zulhas-usul-kader-gerindra-jadi-wapres-baru"
+    },
+    {
+     "label": "Detik",
+     "url": "https://news.detik.com/berita/d-8751928/waka-dpd-bicara-cawapres-alternatif-sultan-najamuddin-sultan-hb-x"
+    },
+    {
+     "label": "Liputan6",
+     "url": "https://www.liputan6.com/news/read/8335486/golkar-belum-putuskan-cawapres-tunggu-hasil-merenung"
+    }
+   ],
+   "why_it_matters": "Shows who may be Indonesia's next number two, with the shortlist still open.",
+   "signals": {
+    "spreading": 2,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "CNN Indonesia and detik section pages lead with VP candidate items 13-14 Nov",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-11-13",
+   "category": "POL",
+   "event": "Paspampres said Gibran keeps protective escort after leaving office, with the detail shifting to Grup D, and photos of him began to be taken down in government buildings.",
+   "key_numbers": "Escort moved to Paspampres Grup D · resignation effective 12 Nov 2026",
+   "storyline": "gibran-ijazah-mk",
+   "update_of": "E0821",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "Detik",
+     "url": "https://news.detik.com/berita/d-8752191/gibran-tetap-dikawal-paspampres-pengamanan-beralih-ke-grup-d"
+    },
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/nasional/20261113211613-20-1427058/paspampres-jelaskan-pengamanan-gibran-usai-tak-lagi-jabat-wapres"
+    },
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/nasional/20261114072421-20-1427076/foto-gibran-mulai-dicopot-di-sejumlah-gedung-pemerintahan"
+    }
+   ],
+   "why_it_matters": "Small signs of how the transition from a sitting vice president to former status is handled.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 0,
+    "surprise": 0,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 0
+   },
+   "spreading_evidence": "",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-11-17",
+   "category": "POL",
+   "event": "The Jakarta Tipikor court rejected ex-Deputy Minister Silmy Karim's objection (putusan sela) on 12 Nov, so his gratification and extortion trial over residence permits for foreigners continues with prosecution witnesses on Tue 17 Nov.",
+   "key_numbers": "Putusan sela 12 Nov 2026 · next hearing Tue 17 Nov 2026 (witnesses) · case 81/Pid.Sus-TPK/2026/PN Jkt.Pst · charges: gratifikasi and pemerasan on izin tinggal terbatas",
+   "storyline": "corruption-cases",
+   "update_of": "E0713",
+   "status": "upcoming",
+   "sources": [
+    {
+     "label": "Liputan6",
+     "url": "https://www.liputan6.com/news/read/8334141/putusan-sela-hakim-tolak-perlawanan-silmy-karim"
+    }
+   ],
+   "why_it_matters": "A former minister-level official's trial moves into the evidence stage this week.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 0,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-12-15",
+   "category": "POL",
+   "event": "DPR Komisi III formed a working committee (Panja) chaired by Habiburokhman to finish the Asset Forfeiture Bill (RUU Perampasan Aset), targeting passage by 15 Dec 2026 and holding public hearings during recess.",
+   "key_numbers": "Target passage by 15 Dec 2026 · 35 RDPU and 3 regional visits (DPR) · DPR Masa Persidangan II runs 10 Nov to 17 Dec 2026",
+   "storyline": "",
+   "update_of": "",
+   "status": "upcoming",
+   "sources": [
+    {
+     "label": "DPR RI",
+     "url": "https://www.dpr.go.id/kegiatan-dpr/berita/Progres-RUU-Perampasan-Aset-35-RDPU-Tiga-Kunker-Daerah-dan-Akan-Disahkan-pada-Desember-2026-68302"
+    },
+    {
+     "label": "CNBC Indonesia",
+     "url": "https://www.cnbcindonesia.com/news/20261029062619-4-780400/panja-mulai-kerja-ruu-perampasan-aset-ditarget-sah-sebelum-desember"
+    },
+    {
+     "label": "VOI",
+     "url": "https://voi.id/berita/600060/dpr-bentuk-panja-ruu-perampasan-aset-target-disahkan-paling-lambat-15-desember-2026"
+    }
+   ],
+   "why_it_matters": "A law letting the state seize assets from corruption proceeds, long stalled, now has a passage date.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 1,
+    "surprise": 1,
+    "visual": 1,
+    "fresh": 0,
+    "rivals": 1
+   },
+   "spreading_evidence": "",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-13",
+   "category": "POL",
+   "event": "Komnas HAM asked UGM for CCTV footage of the 10 Nov demonstration, while a Surabaya citizens' coalition criticised alleged violence by officers against protesters in Yogyakarta.",
+   "key_numbers": "Demonstration 10 Nov 2026 (Yogyakarta/UGM)",
+   "storyline": "",
+   "update_of": "",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/nasional/20261113090506-12-1426680/komnas-ham-minta-rekaman-cctv-ugm-terkait-demo-10-november"
+    },
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/nasional/20261113220807-20-1427061/koalisi-warga-sadar-surabaya-kritik-kekerasan-aparat-di-yogyakarta"
+    }
+   ],
+   "why_it_matters": "A possible rights-abuse inquiry into how police handled a student protest.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 1,
+    "fresh": 1,
+    "rivals": 1
+   },
+   "spreading_evidence": "",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-11-13",
+   "category": "POL",
+   "event": "Police said the alleged rape by Kupang Regent took place at the official residence, according to police statements reported by CNN Indonesia.",
+   "key_numbers": "Location: rumah dinas Bupati Kupang",
+   "storyline": "",
+   "update_of": "",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/nasional/20261113200323-12-1427035/polisi-dugaan-pemerkosaan-oleh-bupati-kupang-terjadi-di-rumah-dinas"
+    }
+   ],
+   "why_it_matters": "A sitting regional head faces a serious criminal allegation, with no court finding yet.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 0,
+    "surprise": 2,
+    "visual": 0,
+    "fresh": 1,
+    "rivals": 1
+   },
+   "spreading_evidence": "",
+   "sensitivity": "high"
+  }
+ ],
+ "gaps": [
+  "Next hearing date in dr Tifa/Roy Suryo defamation trial after 12 Nov (and effect of suspect Rizal Fadillah's death, E0812) not confirmed",
+  "Exact APEC summit dates and Prabowo's return date not confirmed; unclear if names can meet the 18 Nov deadline",
+  "Listyo Sigit case: Antara 'sosok TK' item and idntimes 'LP dugaan makar' report not opened; no praperadilan or detention-extension date found",
+  "KPK/Djarum: monitorindonesia says KPK plans new searches, unverified; no suspect found",
+  "UMP 2027: PP 36/2021 sets 21 Nov, Menaker targets end of Nov (ECO area, E0423/E0815); unclear if the PP deadline still applies under UU 27/2026",
+  "DPR paripurna dates for 16-22 Nov and Komisi III agendas not found; ANTARA hukum page blocked; several article fetches refused"
+ ]
+}

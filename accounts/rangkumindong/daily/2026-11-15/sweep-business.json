@@ -1,0 +1,96 @@
+{
+  "area": "business",
+  "run_date": "2026-11-15",
+  "checked": ["detik inet business page", "detik inet cyber-life page", "katadata digital (article 10 Nov)", "cnbcindonesia tech (search only, not fetched)", "bisnis teknologi (fetch failed)", "cnnindonesia teknologi (not fetched)", "dailysocial (not fetched)", "watch list found: Microsoft outage, Nvidia CEO exit, chip/RAM prices, Komdigi/BSSN cyber warnings", "storylines: chip-ram-prices, crypto-hacks (search only, nothing new found)", "upcoming 16-22 Nov: Nvidia earnings, Harbolnas date check, spectrum auction, smartphone launches"],
+  "events": [
+    {
+      "date": "2026-11-17",
+      "category": "TECH",
+      "event": "Nvidia is scheduled to report fiscal Q3 FY2027 results on 17 November after US market close, its first earnings since CEO Jensen Huang resigned on 12 November and CFO Colette Kress became interim CEO.",
+      "key_numbers": "Earnings date 17 Nov 2026 · call 5:00 pm ET (about 04:00 WITA 18 Nov) · quarter ended 25 Oct 2026 · interim CEO Colette Kress",
+      "storyline": "ai-data-centres",
+      "update_of": "E0820",
+      "status": "upcoming",
+      "sources": [{"label": "InsiderFinance", "url": "https://www.insiderfinance.io/news/nvidia-stock-nov-17-earnings"}],
+      "why_it_matters": "Nvidia's numbers set the tone for AI and chip stocks, and for RAM and phone prices downstream.",
+      "signals": {"spreading": 2, "wallet": 1, "surprise": 2, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "detik inet cyber-life page: about 15 Nvidia/Jensen Huang headlines in the feed",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-14",
+      "category": "TECH",
+      "event": "detik inet reported Microsoft apologised after its Microsoft 365 and Outlook services were down for more than ten hours, with offices reverting to fax and paper.",
+      "key_numbers": "Outage lasted 'belasan jam' (more than 10 hours) · global, Indonesian users affected",
+      "storyline": "cyber-threats-gov",
+      "update_of": "E0816",
+      "status": "partial",
+      "sources": [{"label": "detik inet cyber-life", "url": "https://inet.detik.com/cyber-life"}],
+      "why_it_matters": "Shows how much work and banking depends on a single cloud provider.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-14",
+      "category": "TECH",
+      "event": "Donald Trump suggested Apple's Tim Cook should become Nvidia CEO to replace Jensen Huang, while detik inet reported Nvidia investors doubting he understands AI.",
+      "key_numbers": "Huang resigned 12 Nov · Kress interim CEO",
+      "storyline": "ai-data-centres",
+      "update_of": "E0820",
+      "status": "partial",
+      "sources": [{"label": "detik inet business", "url": "https://inet.detik.com/business"}, {"label": "detik inet cyber-life", "url": "https://inet.detik.com/cyber-life"}],
+      "why_it_matters": "Who runs Nvidia affects the AI chip supply the whole industry depends on.",
+      "signals": {"spreading": 2, "wallet": 0, "surprise": 2, "visual": 0, "fresh": 2, "rivals": 0},
+      "spreading_evidence": "detik inet featured and most-read lists",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-10",
+      "category": "TECH",
+      "event": "Komdigi issued three advisory letters warning government agencies of hacker attacks, as Katadata separately reported hackers drained three Indonesian financial institutions in seven hours.",
+      "key_numbers": "3 advisory letters · 3 financial institutions drained in 7 hours",
+      "storyline": "cyber-threats-gov",
+      "update_of": "E0714",
+      "status": "partial",
+      "sources": [{"label": "Katadata", "url": "https://katadata.co.id/digital/teknologi/6af3052abb008/komdigi-terbitkan-tiga-surat-imbauan-antisipasi-serangan-hacker-ke-pemerintah"}],
+      "why_it_matters": "Attacks on banks and government systems touch ordinary people's money and data.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 1, "fresh": 0, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-30",
+      "category": "TECH",
+      "event": "BNI will begin closing BNI Mobile Banking in stages from 30 November 2026, pushing customers to the newer app; this is the countdown week-ahead reminder.",
+      "key_numbers": "Closure starts 30 Nov 2026 · 15 days left from 15 Nov",
+      "storyline": "",
+      "update_of": "E0758",
+      "status": "upcoming",
+      "sources": [{"label": "events database E0758 (previously verified)", "url": "https://www.bni.co.id"}],
+      "why_it_matters": "BNI users must migrate before the old app stops working.",
+      "signals": {"spreading": 0, "wallet": 1, "surprise": 0, "visual": 1, "fresh": 0, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-12-10",
+      "category": "TECH",
+      "event": "Harbolnas 2026 is scheduled for 10-16 December with a government transaction target of Rp40 trillion, up from Rp36.4 trillion last year (outside the 16-22 Nov window, but the Road to Harbolnas campaign is under way).",
+      "key_numbers": "10-16 Dec 2026 · target Rp40 trillion · 2025 Rp36.4 trillion · 14th edition",
+      "storyline": "ecommerce-seller-rules",
+      "update_of": "",
+      "status": "upcoming",
+      "sources": [{"label": "RRI", "url": "https://rri.co.id/en/business/2686852/2026-road-to-harbolnas-launched-govt-encourages-indonesian-msmes-go-global"}],
+      "why_it_matters": "Tells shoppers when the big year-end discounts land and what the government expects.",
+      "signals": {"spreading": 0, "wallet": 1, "surprise": 0, "visual": 2, "fresh": 0, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    }
+  ],
+  "gaps": [
+    "Could not read bisnis, CNBC Indonesia, CNN Indonesia or dailysocial section pages this run, so Indonesian startup, funding and e-commerce news (GoTo, Grab, Shopee) were not scanned.",
+    "No confirmed dated Indonesian tech event found for 16-22 Nov beyond Nvidia earnings; the Xiaomi 18 Pro Indonesia launch date, the Komdigi 700 MHz and 2.6 GHz spectrum selection outcome, and Coretax maintenance dates could not be verified (Kompas blocked).",
+    "detik cyber-life lists Alice Huang (alleged Chinese spy) and a US infrastructure outage story; unverified details, not recorded."
+  ]
+}
