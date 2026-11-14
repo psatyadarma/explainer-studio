@@ -160,3 +160,6 @@ History moved out of HANDOFF.md (22 Oct) so fresh sessions read less. Append one
 - Dashboard old-blob deletes worked this time. Analyst run below.
 - Sat 14 Nov 07:00 news check: the MPR rapat gabungan outcome had been announced Fri ~16:00 WIB (paripurna 2 Des; 2 names by 18 Nov), so ch01 "belum diumumkan" was wrong. Rewrote a9/a12/g3, re-voiced ch01+ch06, rebuilt, re-rendered, re-assembled (7:15), cancelled job 670cbbb7, re-scheduled 08:00 (job 4d009ec2) by 07:11. Lesson: for afternoon events, re-check ~2 h after the event, not right at it.
 - Weekly #4 live Sat 08:00 (IG Dfs3nqlii7r, YT fgiPefOIt0A).
+
+## 14 Nov (Sat, chapter cut)
+- Sweeps 7/11/5/7, 27 merged, 3 dupes. 5 ideas (⭐ Rusia rekrut Jakbar 9/12; chapter cut Gibran #3); light fc 2 fixes (Pertalite reframed 10→8, MPR Pasal 36 wording).
