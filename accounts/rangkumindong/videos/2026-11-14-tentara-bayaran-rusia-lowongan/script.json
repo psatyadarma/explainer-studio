@@ -1,0 +1,115 @@
+{
+  "direction": "[serious, conversational, explaining to a friend]",
+  "format": "standard",
+  "hook_style": "myth",
+  "storytelling": true,
+  "lines": [
+    {
+      "id": "h1",
+      "tag": "[serious, intrigued]",
+      "text": "Katanya kerja di Rusia, bagian logistik. Ternyata dikirim perang.",
+      "say": "Katanya kerja di Rusia, bagian logistik. Ternyata dikirim perang."
+    },
+    {
+      "id": "h2",
+      "tag": "[curious, teasing]",
+      "text": "Polisi bongkar lima langkahnya. Yang terakhir paling bikin kaget.",
+      "say": "Polisi bongkar lima langkahnya. Yang terakhir paling bikin kaget."
+    },
+    {
+      "id": "rd",
+      "tagline": true,
+      "text": "Rangkumin dong!"
+    },
+    {
+      "id": "l1",
+      "tag": "[storytelling, light]",
+      "text": "Misalnya Pak Budi baru kena PHK, lagi scroll lowongan kerja.",
+      "say": "Misalnya Pak Budi baru kena, Pe Ha Ka, lagi scroll lowongan kerja."
+    },
+    {
+      "id": "l2",
+      "tag": "[explaining, quick]",
+      "text": "Langkah satu: iklan. Muncul di media sosial, grup info kerja, aplikasi chat.",
+      "say": "Langkah satu: iklan. Muncul di media sosial, grup info kerja, aplikasi chat."
+    },
+    {
+      "id": "l3",
+      "tag": "[matter-of-fact]",
+      "text": "Menurut Bareskrim, kerjanya kedengeran aman: logistik, jaga perbatasan, bangun pertahanan.",
+      "say": "Menurut Bareskrim, kerjanya kedengeran aman: logistik, jaga perbatasan, bangun pertahanan."
+    },
+    {
+      "id": "l4",
+      "tag": "[emphatic]",
+      "text": "Langkah dua: gajinya. Rp40 sampai 50 juta sebulan. Kontrak sampai Rp400 juta.",
+      "say": "Langkah dua: gajinya. Empat puluh sampai lima puluh juta sebulan. Kontrak sampai empat ratus juta rupiah."
+    },
+    {
+      "id": "l5",
+      "tag": "[serious, lowering voice]",
+      "text": "Langkah tiga: berangkat ke Rusia. Di sana, kata polisi, dipaksa teken kontrak tentara bayaran.",
+      "say": "Langkah tiga: berangkat ke Rusia. Di sana, kata polisi, dipaksa teken kontrak tentara bayaran."
+    },
+    {
+      "id": "l6",
+      "tag": "[grave]",
+      "text": "Langkah empat: latihan militer. Lalu dikirim ke zona perang.",
+      "say": "Langkah empat: latihan militer. Lalu dikirim ke zona perang."
+    },
+    {
+      "id": "l7",
+      "tag": "[news, punchy]",
+      "text": "Jumat kemarin, Polres Metro Jakarta Barat tangkap 8 tersangka. Dua WNA: Rusia dan Ukraina.",
+      "say": "Jumat kemarin, Polres Metro Jakarta Barat tangkap delapan tersangka. Dua, We En A: Rusia dan Ukraina."
+    },
+    {
+      "id": "l8",
+      "tag": "[neutral, careful]",
+      "text": "Mereka diduga perekrutnya. Kasusnya: dugaan perdagangan orang.",
+      "say": "Mereka diduga perekrutnya. Kasusnya: dugaan perdagangan orang."
+    },
+    {
+      "id": "l9",
+      "tag": "[dramatic, slower]",
+      "text": "Tapi langkah lima yang paling bikin kaget. Kontrak setahun itu, kata Kapolres, cuma iming-iming.",
+      "say": "Tapi langkah lima yang paling bikin kaget. Kontrak setahun itu, kata Kapolres, cuma iming-iming."
+    },
+    {
+      "id": "l10",
+      "tag": "[grave, slow]",
+      "text": "Nyatanya terikat sampai perang selesai. Atau sampai meninggal. Dan nggak bisa pulang.",
+      "say": "Nyatanya terikat sampai perang selesai. Atau sampai meninggal. Dan nggak bisa pulang."
+    },
+    {
+      "id": "l11",
+      "tag": "[somber]",
+      "text": "Menurut polisi, ada yang tewas. Keluarganya nggak tahu makamnya di mana.",
+      "say": "Menurut polisi, ada yang tewas. Keluarganya nggak tahu makamnya di mana."
+    },
+    {
+      "id": "l11b",
+      "tag": "[somber]",
+      "text": "Ada yang kakinya diamputasi kena ranjau, tetap disuruh perang.",
+      "say": "Ada yang kakinya diamputasi kena ranjau, tetap disuruh perang."
+    },
+    {
+      "id": "l12",
+      "tag": "[explaining, wider view]",
+      "text": "Dan ini bukan cuma satu kasus. Awal November, Bareskrim catat 58 WNI korban, dari lima laporan polisi.",
+      "say": "Dan ini bukan cuma satu kasus. Awal November, Bareskrim catat lima puluh delapan, We En I, korban, dari lima laporan polisi."
+    },
+    {
+      "id": "cta",
+      "tag": "[direct, asking the viewer]",
+      "text": "Ditawari gaji Rp50 juta di luar negeri. Apa yang kamu cek duluan? Komen!",
+      "say": "Ditawari gaji lima puluh juta di luar negeri. Apa yang kamu cek duluan? Komen!"
+    },
+    {
+      "id": "end",
+      "tag": "[friendly, upbeat]",
+      "text": "Follow Rangkumin Dong, biar nggak ketinggalan!"
+    }
+  ],
+  "tail": 0.9
+}
