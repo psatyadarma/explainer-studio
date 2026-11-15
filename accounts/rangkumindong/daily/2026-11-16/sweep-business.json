@@ -1,0 +1,52 @@
+{
+ "area": "business",
+ "run_date": "2026-11-16",
+ "checked": [
+  "detik inet news page (undated listing)",
+  "CNN Indonesia teknologi (13-15 Nov)",
+  "Katadata digital (search only)",
+  "CNBC Indonesia tech (page stale, May 2026 forum items)",
+  "Antara tekno (stale, 26 Oct)",
+  "Bisnis teknologi (fetch failed)",
+  "dailysocial (not reached)",
+  "storyline searches: chip-ram-prices, crypto-hacks, Nvidia/ai-data-centres (no new in-window items found)",
+  "watch-list found: Meta privacy fine, Microsoft 365 outage follow-up (known E0816/E0840), Nvidia CEO saga (known E0820/E0841)"
+ ],
+ "events": [
+  {
+   "date": "2026-11-14",
+   "category": "TECH",
+   "event": "Italy's regulator fined Meta about Rp14.6-16 trillion over access to Android users' photo galleries, described by CNN Indonesia as the largest fine from an Italian regulator.",
+   "key_numbers": "Rp14.6 T (CNN Indonesia, 14 Nov) · Rp16 T (CNN Indonesia headline, 15 Nov) · exact euro amount not confirmed",
+   "storyline": "",
+   "update_of": "",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/teknologi/20261114202815-185-1427250/italia-denda-meta-rp146-t-gegara-akses-galeri-foto-pengguna-android"
+    },
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/teknologi/20261115083745-185-1427289/meta-kena-sanksi-rp16-t-denda-terbesar-dari-regulator-italia"
+    }
+   ],
+   "why_it_matters": "Shows what happens when an app reads your phone photos without clear consent, relevant to Indonesian Facebook/Instagram users and the upcoming PDP supervisory body.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 0,
+    "surprise": 2,
+    "visual": 2,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "two CNN Indonesia teknologi items plus an IDX Channel sidebar item dated 15 Nov",
+   "sensitivity": "normal"
+  }
+ ],
+ "gaps": [
+  "Meta fine: headline-level only, article bodies not opened (permission timed out); amount differs Rp14.6 T vs Rp16 T and the regulator, euro figure and legal basis are unconfirmed",
+  "Bisnis, CNBC Indonesia tech, Antara pages were stale or failed; Indonesian tech news of 15-16 Nov (outages, Komdigi rules, e-commerce, consumer prices) may be under-covered",
+  "detik inet listing has no dates; items like Canva layoffs follow-up, Microsoft data centre protests, Pegasus-in-Indonesia explainer, and Perpres PDP supervisory body (draft with President as of 6 Nov) could not be dated into the window"
+ ]
+}

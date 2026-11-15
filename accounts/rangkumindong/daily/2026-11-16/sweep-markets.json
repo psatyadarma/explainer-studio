@@ -1,0 +1,81 @@
+{
+  "area": "markets",
+  "run_date": "2026-11-16",
+  "checked": [
+    "WebSearch for cnbcindonesia market and detik finance (WebFetch of cnbcindonesia.com/market and finance.detik.com refused: PROVENANCE_REQUIRED, not retried)",
+    "Bisnis.com weekly wrap 14 Nov (WebFetch failed)",
+    "Vibiznews domestic outlook 16-20 Nov (fetched)",
+    "Kontan IHSG Monday 16 Nov outlook (fetched)",
+    "Antara IHSG/Fed 13 Nov (fetched)",
+    "Katadata Airlangga on Gibran resignation (fetched)",
+    "Investortrust IKK Oct 2026 (fetched)",
+    "Storyline searches: msci-reclassification, rupiah (BI rate), fuel-oil/BBM, survival-mode (PHK), Danantara/BUMN, Brent",
+    "Watch list found: IHSG weekly close, rupiah record low, BI RDG 17-18 Nov, Fed hike pricing, Gibran resignation as market factor, IKK",
+    "Watch list not found in fresh headlines: new OJK action, BPS release for 16-22 Nov, fuel price change, new big PHK"
+  ],
+  "events": [
+    {
+      "date": "2026-11-09",
+      "category": "ECO",
+      "event": "Bank Indonesia reported its October 2026 Consumer Confidence Index (IKK) rose to 119.9 from 118.1 in September, with only the above-Rp5 million spending group seeing confidence fall.",
+      "key_numbers": "IKK 119.9 (Sep 118.1) · current conditions index 109.1 · expectations index 130.7 (from 128.7) · job availability index 105.5 · Rp1-2 million group 107.6, current conditions 98.5 (pessimistic) · above Rp5 million group 123.0 (from 123.5)",
+      "storyline": "survival-mode",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {
+          "label": "Investortrust",
+          "url": "https://investortrust.id/macro/121938/bi-indeks-keyakinan-konsumen-ikk-oktober-2026-tumbuh-tipis-ke-119-9"
+        },
+        {
+          "label": "Vibiznews",
+          "url": "https://vibiznews.com/index.php/2026/11/14/variatif-ihsg-uptrend-rupiah-rekor-terendah-bi-rate-akan-naik-domestic-market-outlook-16-20-november-2026/"
+        }
+      ],
+      "why_it_matters": "Households say they feel more confident even as the rupiah weakens, but the lowest-spending group still rates its current conditions below 100.",
+      "signals": {
+        "spreading": 0,
+        "wallet": 1,
+        "surprise": 1,
+        "visual": 1,
+        "fresh": 0,
+        "rivals": 2
+      },
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-13",
+      "category": "GLB",
+      "event": "Markets priced a 91% probability of a Fed rate hike in December 2026, with the US dollar index near 103, its highest since April 2025, after US October CPI beat expectations.",
+      "key_numbers": "Fed December hike probability 91% · possible further hikes Jan and Apr 2027 priced · DXY about 103, up more than 1% on 12 Nov · US October CPI +0.4% m/m vs 0.3% consensus",
+      "storyline": "rupiah",
+      "update_of": "E0771",
+      "status": "partial",
+      "sources": [
+        {
+          "label": "Antara",
+          "url": "https://www.antaranews.com/berita/5850907/ihsg-menguat-di-tengah-ekspektasi-kenaikan-bunga-the-fed-bulan-depan"
+        }
+      ],
+      "why_it_matters": "A stronger dollar and US rate hikes push the rupiah toward new lows, which raises prices of imported goods and fuel.",
+      "signals": {
+        "spreading": 1,
+        "wallet": 2,
+        "surprise": 1,
+        "visual": 2,
+        "fresh": 1,
+        "rivals": 1
+      },
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    }
+  ],
+  "gaps": [
+    "WebFetch refused cnbcindonesia.com/market and finance.detik.com (PROVENANCE_REQUIRED): front-page headlines and most-read lists for 14-16 Nov were not scanned; relies on 15 Nov sweep for IHSG/rupiah/BI RDG/current account items.",
+    "Bisnis.com 14 Nov weekly wrap could not be fetched; weekly foreign net flow figure not re-verified.",
+    "Kontan claim that FTSE Russell will remove 14 HSC stocks in December 2026 not verified (FTSE status decision itself dates from 8 Oct).",
+    "Release date of BPS October trade data and Q3 current account (reported as 20 Nov by Vibiznews only) not confirmed.",
+    "Vale Indonesia (INCO) 9M profit US$147.12 million, +180.5% (released 29 Oct) and other CNBC 13 Nov corporate items (TOPS bankruptcy, GMFI rights issue) not reported: older or unopened."
+  ]
+}

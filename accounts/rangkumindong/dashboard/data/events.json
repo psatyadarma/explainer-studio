@@ -6210,6 +6210,16 @@
 "upcoming": false
 },
 {
+"id": "E0846",
+"date": "2026-11-09",
+"category": "ECO",
+"event": "Bank Indonesia reported its October 2026 Consumer Confidence Index (IKK) rose to 119.9 from 118.1 in September, with only the above-Rp5 million spending group seeing confidence fall.",
+"key_numbers": "IKK 119.9 (Sep 118.1) · current conditions index 109.1 · expectations index 130.7 (from 128.7) · job availability index 105.5 · Rp1-2 million group 107.6, current conditions 98.5 (pessimistic) · above Rp5 million group 123.0 (from 123.5)",
+"storyline": "survival-mode",
+"status": "verified",
+"upcoming": false
+},
+{
 "id": "E0208",
 "date": "2026-11-10",
 "category": "TECH",
@@ -7320,6 +7330,16 @@
 "upcoming": false
 },
 {
+"id": "E0857",
+"date": "2026-11-12",
+"category": "NEWS",
+"event": "ANTARA fact-check rated a viral photo of Presidential Secretary Teddy Indra Wijaya supposedly arrested by military police over the wiretapping case as false.",
+"key_numbers": "AI image detector 94% likely AI-generated · Teddy seen with Prabowo in Nagan Raya, Aceh on 11 Nov",
+"storyline": "listyo-sigit-penyadapan",
+"status": "verified",
+"upcoming": false
+},
+{
 "id": "E0766",
 "date": "2026-11-13",
 "category": "POL",
@@ -7610,6 +7630,26 @@
 "upcoming": false
 },
 {
+"id": "E0847",
+"date": "2026-11-13",
+"category": "GLB",
+"event": "Markets priced a 91% probability of a Fed rate hike in December 2026, with the US dollar index near 103, its highest since April 2025, after US October CPI beat expectations. (update of E0771)",
+"key_numbers": "Fed December hike probability 91% · possible further hikes Jan and Apr 2027 priced · DXY about 103, up more than 1% on 12 Nov · US October CPI +0.4% m/m vs 0.3% consensus",
+"storyline": "rupiah",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0850",
+"date": "2026-11-13",
+"category": "POL",
+"event": "MPR sent President Prabowo a letter asking him to submit two Vice President candidates within 14 days, after the MPR joint leadership meeting. (update of E0822)",
+"key_numbers": "2 candidates · 14 days · MPR plenary to elect new VP on 2 Dec 2026 · earlier note: latest hand-over date 18 Nov (E0832) does not match 14 days from 13 Nov (27 Nov)",
+"storyline": "gibran-ijazah-mk",
+"status": "partial",
+"upcoming": false
+},
+{
 "id": "E0833",
 "date": "2026-11-14",
 "category": "POL",
@@ -7640,6 +7680,46 @@
 "upcoming": false
 },
 {
+"id": "E0848",
+"date": "2026-11-14",
+"category": "POL",
+"event": "Golkar Deputy Chairman Ahmad Doli Kurnia named eight possible replacements for Gibran as Vice President, saying Golkar leaves the choice to President Prabowo and will back his pick. (update of E0833)",
+"key_numbers": "8 names: Puan Maharani, Bahlil Lahadalia, Sufmi Dasco Ahmad, Sugiono, Ahmad Muzani, Muhaimin Iskandar, Zulkifli Hasan, AHY · statement Sat 14 Nov 2026",
+"storyline": "gibran-ijazah-mk",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0851",
+"date": "2026-11-14",
+"category": "TECH",
+"event": "Italy's regulator fined Meta about Rp14.6-16 trillion over access to Android users' photo galleries, described by CNN Indonesia as the largest fine from an Italian regulator.",
+"key_numbers": "Rp14.6 T (CNN Indonesia, 14 Nov) · Rp16 T (CNN Indonesia headline, 15 Nov) · exact euro amount not confirmed",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0853",
+"date": "2026-11-14",
+"category": "ENV",
+"event": "BNPB warned that two tropical cyclone seedlings, 92B in the Bay of Bengal and 96S west of Sumatra, could bring heavy rain and high waves to Aceh, North Sumatra and West Sumatra.",
+"key_numbers": "92B and 96S: max winds about 25 knots (46 km/h) · cyclone chance moderate (24-72h), 92B moderate-high in 48-72h · waves 2.5-4 m off Aceh · waves 1.25-2.5 m northern Malacca Strait",
+"storyline": "",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0855",
+"date": "2026-11-14",
+"category": "NEWS",
+"event": "Polda NTT is handling a rape report against Kupang Regent Yosef Lede filed by a 21-year-old woman, and police plan to question two women who allegedly brought her to his residence; the allegation is unproven. (update of E0838)",
+"key_numbers": "Alleged incident night of 11 Nov at official residence · victim 21 years old (RWM) · 2 witnesses to be examined (EK, LS) · visum et repertum requested · Gerindra says it will dismiss him if proven",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
 "id": "E0831",
 "date": "2026-11-15",
 "category": "POL",
@@ -7647,6 +7727,46 @@
 "key_numbers": "ASEAN Summit 15-17 Nov 2026 (Manila) · APEC summit in China next, date not confirmed · MPR plenary 2 Dec 2026",
 "storyline": "gibran-ijazah-mk",
 "status": "partial",
+"upcoming": false
+},
+{
+"id": "E0849",
+"date": "2026-11-15",
+"category": "POL",
+"event": "Gerindra's Riau regional chair Muhammad Rahul declared full support for DPR Deputy Speaker Sufmi Dasco Ahmad as Vice President, and Cyrus Network's Hafizhul Mizan Piliang called Dasco a strong candidate. (update of E0833)",
+"key_numbers": "12 Riau regencies/cities pledged to campaign · Prabowo has 14 days to submit 2 names to MPR · articles 15 Nov 2026 (11:06 and 20:21 WIB)",
+"storyline": "gibran-ijazah-mk",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0852",
+"date": "2026-11-15",
+"category": "ENV",
+"event": "BNPB reported floods across Aceh (Subulussalam, Aceh Tamiang, Aceh Tenggara, Aceh Singkil, Aceh Barat) and Langkat, North Sumatra, in its 14-15 November situation report. (update of E0760)",
+"key_numbers": "Aceh Tamiang 5,785 families (18,158 people) affected, 1,423 families (5,088 people) evacuated · Subulussalam 1,897 families (7,703 people) affected, emergency status 6-19 Nov · Aceh Tenggara 503 families (1,697 people) · no deaths reported",
+"storyline": "",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0854",
+"date": "2026-11-15",
+"category": "ENV",
+"event": "BNPB's 14-15 November report showed karhutla easing in most places but still burning in Central Kalimantan and South Sumatra, with cloud seeding used over Ogan Komering Ilir. (update of E0823)",
+"key_numbers": "Central Kalimantan about 272 ha on 26 hotspots (about 255 ha still burning on 21) · South Sumatra about 27 ha (24 ha on 7 points) · 800 kg NaCl in one cloud-seeding flight · nationally 283 hotspots, 764 ha handled (13 Nov)",
+"storyline": "karhutla",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0856",
+"date": "2026-11-15",
+"category": "NEWS",
+"event": "KAI announced the new Gapeka train timetable takes effect 1 December 2026, adding seats and trips on Java and Sumatra.",
+"key_numbers": "8,466 extra seats per day (5,166 Java, 3,300 Sumatra) · 39 extra trips · 84 trips with extra stops · 78 trips faster · KA Batara Kresna 4 to 8 trips/day · new KA Pandawa 4 trips/day",
+"storyline": "",
+"status": "upcoming",
 "upcoming": false
 },
 {

@@ -1,0 +1,232 @@
+{
+ "area": "national",
+ "run_date": "2026-11-16",
+ "checked": [
+  "detik terpopuler (stale, 13 Nov)",
+  "CNN Indonesia nasional index",
+  "BNPB daily report 15 Nov",
+  "ANTARA articles via search",
+  "ANTARA cek fakta",
+  "storylines: karhutla, tentara-bayaran-rusia, listyo-sigit-penyadapan",
+  "watch list found: disasters/floods, karhutla, hoax, public transport (KAI), crime/viral (Kupang regent), haji (already E0724)"
+ ],
+ "events": [
+  {
+   "date": "2026-11-15",
+   "category": "ENV",
+   "event": "BNPB reported floods across Aceh (Subulussalam, Aceh Tamiang, Aceh Tenggara, Aceh Singkil, Aceh Barat) and Langkat, North Sumatra, in its 14-15 November situation report.",
+   "key_numbers": "Aceh Tamiang 5,785 families (18,158 people) affected, 1,423 families (5,088 people) evacuated · Subulussalam 1,897 families (7,703 people) affected, emergency status 6-19 Nov · Aceh Tenggara 503 families (1,697 people) · no deaths reported",
+   "storyline": "",
+   "update_of": "E0760",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "BNPB",
+     "url": "https://www.bnpb.go.id/berita/perkembangan-situasi-dan-penanganan-bencana-di-tanah-air-15-november-2026"
+    }
+   ],
+   "why_it_matters": "Repeated floods keep displacing thousands in Aceh while more rain is forecast.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 1,
+    "surprise": 1,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "Widely covered by regional outlets; BNPB daily report",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-14",
+   "category": "ENV",
+   "event": "BNPB warned that two tropical cyclone seedlings, 92B in the Bay of Bengal and 96S west of Sumatra, could bring heavy rain and high waves to Aceh, North Sumatra and West Sumatra.",
+   "key_numbers": "92B and 96S: max winds about 25 knots (46 km/h) · cyclone chance moderate (24-72h), 92B moderate-high in 48-72h · waves 2.5-4 m off Aceh · waves 1.25-2.5 m northern Malacca Strait",
+   "storyline": "",
+   "update_of": "",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "ANTARA",
+     "url": "https://www.antaranews.com/berita/5854259/bnpb-waspadai-dampak-tidak-langsung-2-bibit-siklon-di-perairan-ri"
+    }
+   ],
+   "why_it_matters": "Adds to flood risk in provinces already under emergency status.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 1,
+    "surprise": 1,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "ANTARA, BNPB statement",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-15",
+   "category": "ENV",
+   "event": "BNPB's 14-15 November report showed karhutla easing in most places but still burning in Central Kalimantan and South Sumatra, with cloud seeding used over Ogan Komering Ilir.",
+   "key_numbers": "Central Kalimantan about 272 ha on 26 hotspots (about 255 ha still burning on 21) · South Sumatra about 27 ha (24 ha on 7 points) · 800 kg NaCl in one cloud-seeding flight · nationally 283 hotspots, 764 ha handled (13 Nov)",
+   "storyline": "karhutla",
+   "update_of": "E0823",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "BNPB",
+     "url": "https://www.bnpb.go.id/berita/perkembangan-situasi-dan-penanganan-bencana-di-tanah-air-15-november-2026"
+    },
+    {
+     "label": "ANTARA",
+     "url": "https://www.antaranews.com/berita/5851883/bnpb-karhutla-mulai-turun-di-sebagian-besar-wilayah-kaltim-ntt-jadi-atensi"
+    }
+   ],
+   "why_it_matters": "Fire season is ending but haze and drought still hit some regions.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 1,
+    "surprise": 0,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "Covered by BNPB, ANTARA, Tribun",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-15",
+   "category": "ENV",
+   "event": "BNPB reported drought hitting Boyolali and Temanggung in Central Java, plus wind and landslide damage in Bandung Barat and Tasikmalaya, West Java.",
+   "key_numbers": "Boyolali 12,022 families (57,311 people) in 13 subdistricts, 8 tankers/38,000 L · Temanggung 1,759 families (6,094 people), 25,000 L · Bandung Barat 588 houses damaged, 1 serious injury · Tasikmalaya 9 families (34 people) hit by landslides",
+   "storyline": "",
+   "update_of": "",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "BNPB",
+     "url": "https://www.bnpb.go.id/berita/perkembangan-situasi-dan-penanganan-bencana-di-tanah-air-15-november-2026"
+    }
+   ],
+   "why_it_matters": "Clean-water shortages and storm damage at the same time in Java.",
+   "signals": {
+    "spreading": 0,
+    "wallet": 1,
+    "surprise": 1,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 2
+   },
+   "spreading_evidence": "",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-14",
+   "category": "NEWS",
+   "event": "Polda NTT is handling a rape report against Kupang Regent Yosef Lede filed by a 21-year-old woman, and police plan to question two women who allegedly brought her to his residence; the allegation is unproven.",
+   "key_numbers": "Alleged incident night of 11 Nov at official residence · victim 21 years old (RWM) · 2 witnesses to be examined (EK, LS) · visum et repertum requested · Gerindra says it will dismiss him if proven",
+   "storyline": "",
+   "update_of": "E0838",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/nasional/20261114192903-12-1427243/dugaan-pemerkosaan-bupati-kupang-polisi-periksa-2-pengantar-korban"
+    }
+   ],
+   "why_it_matters": "A sitting regent accused of a serious crime, with his party and DPR demanding a firm investigation.",
+   "signals": {
+    "spreading": 2,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 0,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "CNN Indonesia nasional index top items 14 Nov; Tribunnews populer regional",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-11-12",
+   "category": "POL",
+   "event": "Polri said Brigjen TK, allegedly ordered to carry out the surveillance by suspect Irjen Ahrie Sonta, is being examined by Propam but has not been named a suspect in the wiretapping case.",
+   "key_numbers": "4 senior officers are suspects (ex-Kapolri Listyo Sigit Prabowo, Irjen Ahrie Sonta, Irjen Eko Hadi Santoso, Irjen Slamet Uliandi) · 3 detained at Mako Brimob Kelapa Dua · wiretapping reportedly began 2025",
+   "storyline": "listyo-sigit-penyadapan",
+   "update_of": "E0811",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "Detik",
+     "url": "https://news.detik.com/berita/d-8750744/polri-ungkap-sosok-tk-di-kasus-penyadapan-berpangkat-brigjen-kini-diperiksa-propam"
+    }
+   ],
+   "why_it_matters": "The probe into alleged wiretapping of the President is moving down the police chain of command.",
+   "signals": {
+    "spreading": 2,
+    "wallet": 0,
+    "surprise": 2,
+    "visual": 0,
+    "fresh": 1,
+    "rivals": 1
+   },
+   "spreading_evidence": "detikNews terpopuler #4 on 13 Nov",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-11-15",
+   "category": "NEWS",
+   "event": "KAI announced the new Gapeka train timetable takes effect 1 December 2026, adding seats and trips on Java and Sumatra.",
+   "key_numbers": "8,466 extra seats per day (5,166 Java, 3,300 Sumatra) · 39 extra trips · 84 trips with extra stops · 78 trips faster · KA Batara Kresna 4 to 8 trips/day · new KA Pandawa 4 trips/day",
+   "storyline": "",
+   "update_of": "",
+   "status": "upcoming",
+   "sources": [
+    {
+     "label": "detikFinance",
+     "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8754222/perhatian-jadwal-kereta-berubah-mulai-1-desember"
+    }
+   ],
+   "why_it_matters": "Departure times change for many routes from 1 Dec, so ticket holders must recheck.",
+   "signals": {
+    "spreading": 0,
+    "wallet": 2,
+    "surprise": 0,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 2
+   },
+   "spreading_evidence": "",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-12",
+   "category": "NEWS",
+   "event": "ANTARA fact-check rated a viral photo of Presidential Secretary Teddy Indra Wijaya supposedly arrested by military police over the wiretapping case as false.",
+   "key_numbers": "AI image detector 94% likely AI-generated · Teddy seen with Prabowo in Nagan Raya, Aceh on 11 Nov",
+   "storyline": "listyo-sigit-penyadapan",
+   "update_of": "",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "ANTARA",
+     "url": "https://www.antaranews.com/berita/5848299/hoaks-foto-seskab-teddy-ditangkap-polisi-militer-terkait-kasus-penyadapan-presiden"
+    }
+   ],
+   "why_it_matters": "Shows how AI images are used to feed rumours around a live political case.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 0,
+    "surprise": 2,
+    "visual": 2,
+    "fresh": 1,
+    "rivals": 1
+   },
+   "spreading_evidence": "ANTARA cek fakta; hoax spreading on Facebook",
+   "sensitivity": "high"
+  }
+ ],
+ "gaps": [
+  "detik terpopuler page cached at 13 Nov; cnbcindonesia and antaranews.com/terkini not readable (blocked), so 15-16 Nov most-read lists unchecked",
+  "BMKG quake M5.4 Gorontalo Utara (15 Nov) seen only in search headlines, unverified",
+  "Russian mercenary case (15 of 23 recruited WNI, 8 suspects) already in E0814; no new development found"
+ ]
+}

@@ -1,0 +1,65 @@
+{
+  "area": "politics",
+  "run_date": "2026-11-16",
+  "checked": ["detik search-surfaced articles (15 Nov)", "CNN Indonesia (via search)", "ANTARA (via search)", "Tempo (not reached)", "storyline: gibran-ijazah-mk / VP vacancy", "storyline: listyo-sigit-penyadapan", "storyline: corruption-cases (KPK Djarum)", "storyline: jokowi-ijazah-roy-suryo", "watch list found: Wapres vacancy, party moves, Istana, DPR"],
+  "events": [
+    {
+      "date": "2026-11-14",
+      "category": "POL",
+      "event": "Golkar Deputy Chairman Ahmad Doli Kurnia named eight possible replacements for Gibran as Vice President, saying Golkar leaves the choice to President Prabowo and will back his pick.",
+      "key_numbers": "8 names: Puan Maharani, Bahlil Lahadalia, Sufmi Dasco Ahmad, Sugiono, Ahmad Muzani, Muhaimin Iskandar, Zulkifli Hasan, AHY · statement Sat 14 Nov 2026",
+      "storyline": "gibran-ijazah-mk",
+      "update_of": "E0833",
+      "status": "verified",
+      "sources": [
+        {"label": "Detik", "url": "https://news.detik.com/berita/d-8752519/soal-pengganti-gibran-golkar-sebut-8-kandidat-potensial"},
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261114093728-32-1427090/golkar-sebut-puan-hingga-bahlil-masuk-bursa-wapres-pengganti-gibran"}
+      ],
+      "why_it_matters": "The next Vice President will be chosen from names Prabowo submits, so who is on the list decides who sits one step from the presidency.",
+      "signals": {"spreading": 2, "wallet": 0, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "Multiple outlets (CNN, Detik) cover the VP bursa; Dasco-as-VP pieces on Detik 15 Nov",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-15",
+      "category": "POL",
+      "event": "Gerindra's Riau regional chair Muhammad Rahul declared full support for DPR Deputy Speaker Sufmi Dasco Ahmad as Vice President, and Cyrus Network's Hafizhul Mizan Piliang called Dasco a strong candidate.",
+      "key_numbers": "12 Riau regencies/cities pledged to campaign · Prabowo has 14 days to submit 2 names to MPR · articles 15 Nov 2026 (11:06 and 20:21 WIB)",
+      "storyline": "gibran-ijazah-mk",
+      "update_of": "E0833",
+      "status": "verified",
+      "sources": [
+        {"label": "Detik", "url": "https://news.detik.com/berita/d-8753672/gerindra-riau-dukung-penuh-dasco-jadi-wapres-sosok-loyal-terbukti"},
+        {"label": "Detik", "url": "https://news.detik.com/berita/d-8754290/pakar-sebut-dasco-kuat-di-bursa-wapres-pasang-badan-implementasi-program-presiden"}
+      ],
+      "why_it_matters": "Gerindra regional branches are lobbying publicly before Prabowo has chosen; this is a regional/pollster view, not a Gerindra national decision.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-13",
+      "category": "POL",
+      "event": "MPR sent President Prabowo a letter asking him to submit two Vice President candidates within 14 days, after the MPR joint leadership meeting.",
+      "key_numbers": "2 candidates · 14 days · MPR plenary to elect new VP on 2 Dec 2026 · earlier note: latest hand-over date 18 Nov (E0832) does not match 14 days from 13 Nov (27 Nov)",
+      "storyline": "gibran-ijazah-mk",
+      "update_of": "E0822",
+      "status": "partial",
+      "sources": [
+        {"label": "ANTARA", "url": "https://m.antaranews.com/amp/berita/5849999/prabowo-miliki-waktu-14-hari-ajukan-dua-calon-wakil-presiden-ke-mpr"},
+        {"label": "Detik", "url": "https://news.detik.com/berita/d-8751514/mpr-kirim-surat-permintaan-2-nama-cawapres-ke-prabowo-siang-ini"},
+        {"label": "CNN Indonesia", "url": "https://cnnindonesia.com/nasional/20261113162616-32-1426944/4-poin-hasil-rapat-gabungan-mpr-soal-pemilihan-wapres-pengganti-gibran"}
+      ],
+      "why_it_matters": "It sets the clock for who becomes Vice President; the exact deadline needs checking before any video states a date.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 0, "visual": 1, "fresh": 1, "rivals": 0},
+      "spreading_evidence": "",
+      "sensitivity": "high"
+    }
+  ],
+  "gaps": [
+    "Tempo not reached; section pages could not be fetched directly (search results only), so 15-16 Nov headlines are thin.",
+    "Deadline conflict: E0832 says 18 Nov latest; articles say 14 days from MPR letter (13 Nov). Verify the exact date from the MPR letter.",
+    "No fresh results found for listyo-sigit-penyadapan, KPK Djarum pita cukai or Jokowi diploma trial beyond what is already in the events DB; search engine lags.",
+    "Not verified: Muhammadiyah Tanwir, Prabowo Manila trip outcomes, Komnas HAM / UGM 10 Nov demonstration follow-up."
+  ]
+}
