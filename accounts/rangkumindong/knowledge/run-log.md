@@ -173,3 +173,4 @@ History moved out of HANDOFF.md (22 Oct) so fresh sessions read less. Append one
 - Producer 84.5 s, −14.7 LUFS; QA FIX (Gibran credit in captions, empty b1) → PASS. Scheduled 19:00 at 08:33 (job 0a0a51df). 18:00 news check + 19:20 links wake-ups set.
 - Analyst W46: YouTube ~6.8× IG views; person-faced live stories win; wallet weight 0.75→0.5; health.py IG-missing WARN is false (needs an hours window, not exact 24/72) — fix health.py.
 - 19:00 live: IG Dfwn63lkQNE · YT GjXzveWkQxU. 18:00 news check clean (Prabowo gave parties a week for VP names; script already hedged).
+- 2026-11-15 20:10 WITA IG insights: tentara-bayaran 24 h (122 views, reach 106, 22.9% of 84.9 s, 0 follows) and gibran-part2 72 h (664 views, reach 579, 35.2% of 79.2 s, 1 follow) from Upload-Post + IG web insights. Skip rate still app-only → hold_3s n/a. No -b folders (B stopped 9 Nov).
