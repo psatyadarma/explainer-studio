@@ -24,6 +24,7 @@ _One dated line per piece of feedback about topics or angles. The coordinator ap
 - 2026-11-12: Picked ⭐ #1 (Gibran PART 2: paripurna DPR soal HMP, politics, sensitivity high, 10/12) on politics Thursday and said "OK to post" in the same reply. Second day in a row on the Gibran storyline.
 - 2026-11-13: No pick by 14:00 (default ⭐ #1 HP Indonesia -43% used, not a preference). ~16:27 said "Ok to post and follow ur suggestions" (covers the daily video and the Saturday weekly).
 - 2026-11-14: No pick by 14:00 (default ⭐ #1 tentara bayaran Rusia used, not a preference). ~14:50 said "Ok ti post" on the finished video.
+- 2026-11-15: "Ok to post follow your recommendations" (picked ⭐ #1 Minggu Depan; accepted the recommendations incl. W46 review: favour person-faced "what happens next" stories, drop kamu_stakes hooks for a week).
 
 ## What the audience shows
 _Written by the analyst each Sunday from real IG/YT numbers (W46, 15 Nov). The writer weighs this next to the user's picks; it is a tiebreaker, not an override._
@@ -35,7 +36,7 @@ _Written by the analyst each Sunday from real IG/YT numbers (W46, 15 Nov). The w
 
 ## What the picks show
 
-_Recomputed by engine/prefs.py from 27 days of offers, 15 picks._
+_Recomputed by engine/prefs.py from 28 days of offers, 16 picks._
 
 - 2026-10-20: picked #3  "Rupiah Rp18.046: besok BI putuskan, tahan 5,75% atau naik ke 6%?", storyline rupiah
 - 2026-10-21: picked #?  "Karhutla: siapa yang tanggung jawab atas asap? (Lutfi vs Singapura)", storyline karhutla
@@ -63,8 +64,9 @@ _Recomputed by engine/prefs.py from 27 days of offers, 15 picks._
 - 2026-11-12: picked #1 (recommended) "Paripurna DPR hari ini: HMP Gibran, apa langkah berikutnya? (Gibran PART 2)", score 10/12, storyline gibran-ijazah-mk
 - 2026-11-13: no pick by the deadline (default #1 used; not counted)
 - 2026-11-14: no pick by the deadline (default #1 used; not counted)
+- 2026-11-15: picked #?  "Minggu Depan 16-22 Nov: 4 tanggal yang nyentuh dompet dan politikmu", storyline minggu-depan; rupiah; gibran-ijazah-mk
 
-- Picks the recommended idea 4/15 times; average pick rank 2.3.
+- Picks the recommended idea 4/16 times; average pick rank 2.3.
 - Storylines picked often when offered: definisi-korupsi, crypto-hacks, listyo-sigit-penyadapan.
 - Offered 3+ times, never picked: tax-policy, msci-reclassification, chip-ram-prices, corruption-cases, jokowi-ijazah-roy-suryo (lower priority unless big news).
-- Sensitivity of picks: {'medium': 1, '?': 14}.
+- Sensitivity of picks: {'medium': 1, '?': 15}.

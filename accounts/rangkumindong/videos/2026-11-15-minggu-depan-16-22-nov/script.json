@@ -1,0 +1,151 @@
+{
+  "direction": "[calm storyteller, quick, neutral, no advice]",
+  "voice": "male:Pratama",
+  "format": "minggu_depan",
+  "hook_style": "story",
+  "subs": "block",
+  "storytelling": true,
+  "storyline": "minggu-depan; gibran-ijazah-mk; rupiah",
+  "part": null,
+  "disclaimer": "Bukan ajakan jual/beli saham",
+  "illustration_note": "Pak Budi is a fictional everyman; show a small ILUSTRASI tag whenever he is on screen. All dates and numbers are real.",
+  "title_card_a": "RABU 18 NOV / CATAT TANGGALNYA",
+  "lines": [
+    {
+      "id": "h1",
+      "tag": "[warm, storytelling, quick]",
+      "text": "Pak Budi lingkari satu tanggal: Rabu, 18 November.",
+      "say": "Pak Budi lingkari satu tanggal: Rabu, delapan belas November."
+    },
+    {
+      "id": "h2",
+      "tag": "[leaning in]",
+      "text": "Hari itu, nama calon wapres dan bunga cicilannya sama-sama ditunggu.",
+      "say": "Hari itu, nama calon wapres dan bunga cicilannya sama-sama ditunggu."
+    },
+    {
+      "id": "rd",
+      "tagline": true,
+      "text": "Rangkumin dong!"
+    },
+    {
+      "id": "m1",
+      "tag": "[matter-of-fact]",
+      "text": "Mulai dari kursi wapres. Kosong sejak Gibran mundur, 12 November.",
+      "say": "Mulai dari kursi wapres. Kosong sejak Gibran mundur, dua belas November."
+    },
+    {
+      "id": "m2",
+      "tag": "[explaining, neutral]",
+      "text": "Kata Ketua MPR Ahmad Muzani, paripurna pilih wapres baru: Rabu, 2 Desember.",
+      "say": "Kata Ketua, Em Pe Er, Ahmad Muzani, paripurna pilih wapres baru: Rabu, dua Desember."
+    },
+    {
+      "id": "m3",
+      "tag": "[explaining]",
+      "text": "Aturan MPR: dua nama dari Presiden masuk paling lambat 14 hari sebelumnya.",
+      "say": "Aturan, Em Pe Er: dua nama dari Presiden masuk paling lambat empat belas hari sebelumnya."
+    },
+    {
+      "id": "m3b",
+      "tag": "[emphatic]",
+      "text": "Jadi tenggatnya, sekitar Rabu ini.",
+      "say": "Jadi tenggatnya, sekitar Rabu ini."
+    },
+    {
+      "id": "m4",
+      "tag": "[neutral]",
+      "text": "Presiden Prabowo sedang di KTT ASEAN, Manila, lalu ke China.",
+      "say": "Presiden Prabowo sedang di, Ka Te Te Asean, Manila, lalu ke China."
+    },
+    {
+      "id": "m5",
+      "tag": "[curious, neutral]",
+      "text": "Kata Kompas, nama dibahas sepulangnya. Keburu? Belum pasti.",
+      "say": "Kata Kompas, nama dibahas sepulangnya. Keburu? Belum pasti."
+    },
+    {
+      "id": "b1",
+      "tag": "[shift, quick]",
+      "text": "Rabu yang sama, BI umumkan suku bunga.",
+      "say": "Rabu yang sama, Be I umumkan suku bunga."
+    },
+    {
+      "id": "b2",
+      "tag": "[explaining]",
+      "text": "Sekarang 5,75%. Analis memperkirakan naik 0,25%, jadi 6%.",
+      "say": "Sekarang lima koma tujuh lima persen. Analis memperkirakan naik nol koma dua lima persen, jadi enam persen."
+    },
+    {
+      "id": "b3",
+      "tag": "[serious]",
+      "text": "Pemicunya, rupiah. Kata Vibiznews, Jumat ditutup sekitar Rp18.200 per dolar.",
+      "say": "Pemicunya, rupiah. Kata Vibiznews, Jumat ditutup sekitar delapan belas ribu dua ratus per dolar."
+    },
+    {
+      "id": "b3b",
+      "tag": "[dramatic]",
+      "text": "Sempat tembus rekor terlemah sepanjang sejarah.",
+      "say": "Sempat tembus rekor terlemah. Sepanjang. Sejarah."
+    },
+    {
+      "id": "b4",
+      "tag": "[reassuring]",
+      "text": "Kalau naik, bunga KPR bisa ikut naik. Tapi ini baru perkiraan.",
+      "say": "Kalau naik, bunga, Ka Pe Er, bisa ikut naik. Tapi ini baru perkiraan."
+    },
+    {
+      "id": "t1",
+      "tag": "[leaning in, slower]",
+      "text": "Tapi yang sering kelewat:",
+      "say": "Tapi... yang sering kelewat:"
+    },
+    {
+      "id": "t2",
+      "tag": "[explaining]",
+      "text": "dua kabar Amerika datang sebelum jam kantor.",
+      "say": "dua kabar Amerika datang sebelum jam kantor."
+    },
+    {
+      "id": "n1",
+      "tag": "[quick]",
+      "text": "Rabu pagi, raksasa chip Nvidia lapor kinerja. Pertama sejak Jensen Huang mundur sebagai CEO.",
+      "say": "Rabu pagi, raksasa cip En-vidia lapor kinerja. Pertama sejak Jensen Huang mundur sebagai, Si I O."
+    },
+    {
+      "id": "n2",
+      "tag": "[matter-of-fact]",
+      "text": "Kamis dini hari, The Fed rilis catatan rapat Oktober.",
+      "say": "Kamis dini hari, de Fed rilis catatan rapat Oktober."
+    },
+    {
+      "id": "n3",
+      "tag": "[serious]",
+      "text": "Pasar menebak Fed naikkan bunga 9 Desember.",
+      "say": "Pasar menebak Fed naikkan bunga sembilan Desember."
+    },
+    {
+      "id": "p1",
+      "tag": "[payoff, upbeat]",
+      "text": "Jadi, satu tanggal, tiga kabar: wapres, BI, Nvidia. Plus Fed, sehari kemudian.",
+      "say": "Jadi, satu tanggal, tiga kabar: wapres, Be I, En-vidia. Plus Fed, sehari kemudian."
+    },
+    {
+      "id": "cta",
+      "tag": "[playful, asking the viewer]",
+      "text": "Mana yang paling kamu tunggu, dan kenapa? Komen!",
+      "say": "Mana yang paling kamu tunggu, dan kenapa? Komen!"
+    },
+    {
+      "id": "end",
+      "tag": "[friendly, upbeat]",
+      "text": "Follow biar nggak ketinggalan!",
+      "say": "Follow biar nggak ketinggalan!"
+    }
+  ],
+  "tail": 0.9,
+  "end_card": {
+    "text": "Follow Rangkumin Dong",
+    "spoken": true
+  }
+}

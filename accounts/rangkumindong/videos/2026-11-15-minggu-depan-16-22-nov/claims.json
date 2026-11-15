@@ -1,0 +1,129 @@
+[
+  {
+    "claim": "Gibran resigned as VP on 12 Nov 2026 (letter handed to Ketua MPR Muzani); the post is vacant",
+    "numbers": "12 Nov 2026",
+    "sources": [
+      "https://www.cnnindonesia.com/nasional/20261112101220-32-1426208/gibran-akhirnya-resmi-serahkan-surat-pengunduran-diri-ke-mpr",
+      "https://www.liputan6.com/news/read/8333949/ketua-mpr-sejak-hari-ini-jabatan-wapres-alami-kekosongan"
+    ],
+    "lines": [
+      "m1"
+    ]
+  },
+  {
+    "claim": "Ketua MPR Ahmad Muzani (13 Nov, after the MPR joint meeting): plenary to elect, inaugurate and ratify the new VP on Wednesday 2 Dec 2026; MPR will ask the President to promptly send two names",
+    "numbers": "2 Des 2026 · 2 nama",
+    "sources": [
+      "https://www.idntimes.com/news/indonesia/mpr-tunggu-2-nama-calon-wapres-pengganti-gibran-dari-presiden-pekan-depan-00-xvwcc-dg2mvg",
+      "https://nasional.kompas.com/read/2026/11/13/15450361/mpr-akan-pilih-dan-lantik-wapres-baru-pengganti-gibran-pada-2-desember"
+    ],
+    "lines": [
+      "m2"
+    ],
+    "note": "IDN Times quotes Muzani: 'akan dilaksanakan pada hari Rabu tanggal 2 Desember 2026'. Kontan does not quote Muzani on the date (dropped). Kompas.com headline only."
+  },
+  {
+    "claim": "MPR rules (Peraturan MPR 1/2024, Art. 136(1), per Okezone) require the two names at least 14 days before the plenary, so the latest date is about 18 Nov; Muzani: 'insyaallah' next week",
+    "numbers": "14 hari · ~18 Nov",
+    "sources": [
+      "https://news.okezone.com/read/2026/11/13/337/3253892/mpr-tunggu-dua-nama-cawapres-dari-prabowo-batas-akhir-18-november",
+      "https://www.idntimes.com/news/indonesia/mpr-tunggu-2-nama-calon-wapres-pengganti-gibran-dari-presiden-pekan-depan-00-xvwcc-dg2mvg"
+    ],
+    "lines": [
+      "h1",
+      "m3",
+      "m3b"
+    ],
+    "note": "Said as 'sekitar Rabu ini' (2 Des minus 14 days = 18 Nov)."
+  },
+  {
+    "claim": "Prabowo arrived in Manila 14 Nov for the 49th ASEAN Summit (15-17 Nov), then continues to China; per Kompas.id he will discuss the VP candidate proposals after returning",
+    "numbers": "KTT ASEAN 15-17 Nov",
+    "sources": [
+      "https://www.antaranews.com/berita/5854707/presiden-prabowo-tiba-di-manila-filipina-untuk-hadiri-ktt-ke-49-asean",
+      "https://www.viva.co.id/berita/dunia/1943728-prabowo-tiba-di-filipina-siap-hadiri-ktt-ke-49-asean-pada-15-17-november-2026",
+      "https://www.kompas.id/artikel/sepulang-dari-filipina-dan-china-prabowo-segera-bahas-usulan-cawapres-pengganti-gibran",
+      "https://katadata.co.id/berita/nasional/6af4492c05b53/prabowo-akan-bertemu-xi-jinping-di-ktt-apec-pekan-depan"
+    ],
+    "lines": [
+      "m4",
+      "m5"
+    ],
+    "note": "ANTARA: Manila + ASEAN 15-17 Nov. Katadata: APEC Shenzhen, China 18-19 Nov. 'Dibahas sepulangnya' rests on the Kompas.id headline only (attributed 'Kata Kompas', hedged 'Belum pasti')."
+  },
+  {
+    "claim": "Whether the names arrive before 18 Nov is not confirmed",
+    "numbers": "-",
+    "sources": [
+      "https://news.okezone.com/read/2026/11/13/337/3253892/mpr-tunggu-dua-nama-cawapres-dari-prabowo-batas-akhir-18-november"
+    ],
+    "lines": [
+      "m5"
+    ]
+  },
+  {
+    "claim": "Bank Indonesia announces its November BI-Rate decision on Wednesday 18 Nov; current BI-Rate 5.75% (held at the 20-21 Oct meeting); analysts expect +25 bp to 6.00% (expectation, not a poll)",
+    "numbers": "5,75% → 6% · +0,25",
+    "sources": [
+      "https://vibiznews.com/index.php/2026/11/14/variatif-ihsg-uptrend-rupiah-rekor-terendah-bi-rate-akan-naik-domestic-market-outlook-16-20-november-2026/",
+      "https://investor.id/market/461908/prediksi-ihsg-dan-rekomendasi-saham-senin-16-november-2026",
+      "https://www.bi.go.id/en/iru/highlight-news/Pages/BI-Rate-Held-at-5.75-percent--Strengthening-Stability,-Supporting-Economic-Growth.aspx",
+      "https://www.cnbcindonesia.com/news/20261103104715-4-781813/tekanan-inflasi-mengkhawatirkan-ekonom-ramal-bi-rate-naik-bulan-ini"
+    ],
+    "lines": [
+      "h2",
+      "b1",
+      "b2"
+    ],
+    "note": "RDG dates 17-18 Nov not source-confirmed, so the script says only 'Rabu ... BI umumkan'."
+  },
+  {
+    "claim": "Per Vibiznews, rupiah closed Fri 13 Nov around Rp18.200/USD (exact Rp18.190) and touched a record weak level intraday (Rp18.245)",
+    "numbers": "sekitar Rp18.200",
+    "sources": [
+      "https://vibiznews.com/index.php/2026/11/14/variatif-ihsg-uptrend-rupiah-rekor-terendah-bi-rate-akan-naik-domestic-market-outlook-16-20-november-2026/"
+    ],
+    "lines": [
+      "b3",
+      "b3b"
+    ],
+    "note": "Single source; no second source found 15 Nov (searches stop at 11 Nov). On screen and spoken: 'sekitar Rp18.200', attributed to Vibiznews, no exact record number."
+  },
+  {
+    "claim": "A BI-Rate rise can pass through to loan rates such as KPR (conditional; 'bisa')",
+    "numbers": "-",
+    "sources": [
+      "https://www.cnbcindonesia.com/news/20261103104715-4-781813/tekanan-inflasi-mengkhawatirkan-ekonom-ramal-bi-rate-naik-bulan-ini"
+    ],
+    "lines": [
+      "b4"
+    ]
+  },
+  {
+    "claim": "Nvidia reports fiscal Q3 FY2027 (quarter ended 25 Oct) on Tue 17 Nov after US close; call 5 pm ET = 06:00 WITA Wed 18 Nov; first results since Jensen Huang resigned as CEO on 12 Nov (Colette Kress interim CEO)",
+    "numbers": "17 Nov US · 06:00 WITA 18 Nov",
+    "sources": [
+      "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Third-Quarter-Financial-Results/",
+      "https://www.cnn.com/2026/11/12/tech/jensen-huang-nvidia-resigns"
+    ],
+    "lines": [
+      "t2",
+      "n1"
+    ]
+  },
+  {
+    "claim": "Fed releases minutes of its 28 Oct meeting on Wed 18 Nov (2 pm ET = 03:00 WITA Thu 19 Nov); markets fully price a 25 bp hike at the 9 Dec FOMC; Fed funds 3.75-4.00%",
+    "numbers": "18 Nov US / Kamis dini hari WITA · 9 Des",
+    "sources": [
+      "https://www.newsquawk.com/headlines/week-in-focus--16-20th-november-2026-highlights-include-us-retail-sales-fomc-minutes-chinese-activity-data-pboc-lpr-rba-minutes-uk-inflation-and-uk-jobs",
+      "https://www.forbes.com/sites/simonmoore/2026/11/13/waller-floats-prospect-of-larger-december-interest-rate-hike/"
+    ],
+    "lines": [
+      "t2",
+      "n2",
+      "n3",
+      "p1"
+    ],
+    "note": "Minutes release time 2 pm ET is the Fed's standard; check the Fed calendar before render."
+  }
+]
