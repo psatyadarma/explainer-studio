@@ -166,3 +166,9 @@ History moved out of HANDOFF.md (22 Oct) so fresh sessions read less. Append one
 - No pick by 14:00 → default ⭐ #1 (tentara bayaran Rusia). Writer draft (Opus) 203 words; hook-critic PICK A = writer hook #1 (11/14); full fc 2 fixes (gudang→logistik; Bareskrim attribution). Producer 84.9 s; QA FIX 5 (sync −155 ms, true peak −0.5 dBTP, 2 clipped titles, empty card) → PASS round 2 (SUB_LEAD −0.07; limiter added to engine/mix.py).
 - User "Ok ti post" 14:50 → scheduled 19:00 (job fd41887d); live IG https://www.instagram.com/reel/DfuDHtXlz-r/ · YT https://www.youtube.com/watch?v=aGW6vGIidJE. 18:00 news re-check: no number changed. 18:40 trigger could not be updated (classifier) → no-op, no double post.
 - Analyst: HP 24h IG 111 views/20% · Gibran niat mundur 72h IG 158/38.7%, YT 3,840/88.2% (best YT hold).
+
+## 2026-11-15 (Sun)
+- Sweeps 7/8/6/10 events (+21 merged). Ideas: ⭐ Minggu Depan 16–22 Nov 9/12; light FC 4 fixes. User picked ⭐ live ~07:58 + "Ok to post follow your recommendations" (accepted W46 recs).
+- Draft (story hook, MPR deadline lead, no kamu_stakes, no B) → hook-critic PICK A "Pak Budi lingkari satu tanggal: Rabu, 18 November." → full FC 2 fixes (Nvidia call 06:00 WITA; 2 Des source IDN Times; rupiah softened to ~Rp18.200, single source).
+- Producer 84.5 s, −14.7 LUFS; QA FIX (Gibran credit in captions, empty b1) → PASS. Scheduled 19:00 at 08:33 (job 0a0a51df). 18:00 news check + 19:20 links wake-ups set.
+- Analyst W46: YouTube ~6.8× IG views; person-faced live stories win; wallet weight 0.75→0.5; health.py IG-missing WARN is false (needs an hours window, not exact 24/72) — fix health.py.

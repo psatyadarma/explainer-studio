@@ -66,7 +66,7 @@ Sumber:
 9. Jadwal paparan kinerja Q3 (Nvidia IR) https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Third-Quarter-Financial-Results/
 10. Jensen Huang mundur (CNN, 12 Nov) https://www.cnn.com/2026/11/12/tech/jensen-huang-nvidia-resigns
 11. Notulen Fed 18 Nov, kenaikan 9 Des (Newsquawk) https://www.newsquawk.com/headlines/week-in-focus--16-20th-november-2026-highlights-include-us-retail-sales-fomc-minutes-chinese-activity-data-pboc-lpr-rba-minutes-uk-inflation-and-uk-jobs
-Foto: Ministry of State Secretariat (Prabowo), MPR-RI (Ahmad Muzani), Anderseidesvik (Jensen Huang); via Wikimedia Commons.
+Foto: Ministry of State Secretariat (Prabowo), MPR-RI (Ahmad Muzani), Anderseidesvik (Jensen Huang), Darwis Triadi & Ministry of State Secretariat (Gibran); via Wikimedia Commons.
 
 Pak Budi adalah ilustrasi. Bukan ajakan jual/beli saham.
 
@@ -116,7 +116,7 @@ Sumber:
 9. Jadwal paparan kinerja Q3 (Nvidia IR) https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Third-Quarter-Financial-Results/
 10. Jensen Huang mundur (CNN, 12 Nov) https://www.cnn.com/2026/11/12/tech/jensen-huang-nvidia-resigns
 11. Notulen Fed 18 Nov, kenaikan 9 Des (Newsquawk) https://www.newsquawk.com/headlines/week-in-focus--16-20th-november-2026-highlights-include-us-retail-sales-fomc-minutes-chinese-activity-data-pboc-lpr-rba-minutes-uk-inflation-and-uk-jobs
-Foto: Ministry of State Secretariat (Prabowo), MPR-RI (Ahmad Muzani), Anderseidesvik (Jensen Huang); via Wikimedia Commons.
+Foto: Ministry of State Secretariat (Prabowo), MPR-RI (Ahmad Muzani), Anderseidesvik (Jensen Huang), Darwis Triadi & Ministry of State Secretariat (Gibran); via Wikimedia Commons.
 
 Pak Budi adalah ilustrasi. Bukan ajakan jual/beli saham.
 ```
