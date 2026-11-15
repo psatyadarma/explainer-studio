@@ -1,125 +1,5 @@
 [
 {
-"id": "E0023",
-"date": "2026-10-15",
-"category": "ECO",
-"event": "September trade balance (scheduled)",
-"key_numbers": "consensus surplus ≈US$2.85 B — actual not yet checked; Jan–Aug surplus US$7.25 B",
-"storyline": "",
-"status": "upcoming→check",
-"upcoming": false
-},
-{
-"id": "E0024",
-"date": "2026-10-15",
-"category": "MKT",
-"event": "MSCI consultation: Indonesia from Emerging → Standalone; freeze on FIF/NOS increases and IMI additions",
-"key_numbers": "feedback until 30 Apr 2027; decision by 30 Jun 2027",
-"storyline": "msci-reclassification",
-"status": "verified",
-"upcoming": false
-},
-{
-"id": "E0025",
-"date": "2026-10-15",
-"category": "POL",
-"event": "8th cabinet reshuffle: 9 officials incl. Tandyo Budi Revita → KSAD, Maruli Simanjuntak → Wakil Panglima TNI, Kristomei Sianturi → Head of BNPB (replacing Suharyanto, since 2021), new deputy defence ministers",
-"key_numbers": "9 officials; 14 days after 7th",
-"storyline": "cabinet-reshuffles",
-"status": "verified",
-"upcoming": false
-},
-{
-"id": "E0049",
-"date": "2026-10-15",
-"category": "BIZ",
-"event": "Kejagung names PT Toba Pulp Lestari director & corporate secretary Anwar Lawden a suspect in a transfer-pricing/tax case (2008–2025): alleged under-invoicing via HS-code misclassification and payments to tax examiners; KPK also names TPL's corsec in a related case",
-"key_numbers": "alleged state loss ≈Rp2 triliun",
-"storyline": "corruption-cases",
-"status": "verified (Kejagung part)",
-"upcoming": false
-},
-{
-"id": "E0050",
-"date": "2026-10-15",
-"category": "BIZ",
-"event": "Kejagung names a mining boss suspect in a nickel-governance corruption case; former PT CNI president director named suspect in Southeast Sulawesi nickel case",
-"key_numbers": "alleged loss Rp401 miliar (CNI case, local outlet)",
-"storyline": "corruption-cases",
-"status": "partial (headlines)",
-"upcoming": false
-},
-{
-"id": "E0064",
-"date": "2026-10-15",
-"category": "POL",
-"event": "KPK names Klaten Bupati Hamenang Wajar Ismoyo, Central Java BPK head Ahmad Luthfi Rahmatullah and private party M. Amin Wahyu Utomo suspects after a 15 Oct sting (OTT) and detains them for 20 days on 16 Oct; KPK alleges five clusters of bribery and gratification including payment to remove an audit finding. (update of E0048)",
-"key_numbers": "OTT 15 Oct in Klaten and Jakarta · 20 other people secured · Rp1.9 miliar cash seized · alleged Rp400 juta to BPK head to drop a Rp5 miliar honorarium-overpayment finding in FY2025 audit · >Rp2 miliar procurement fees · Rp245 juta galian C permits · >=Rp1.8 miliar from regional enterprises since 2025 · >=Rp280 juta from BPKPAD staff · 3 detained 20 days (16 Oct)",
-"storyline": "corruption-cases",
-"status": "verified",
-"upcoming": false
-},
-{
-"id": "E0068",
-"date": "2026-10-15",
-"category": "POL",
-"event": "KSPI and Partai Buruh announce staggered rallies from 15 to 30 Oct in 38 provinces demanding a 7.5%-9.5% minimum wage rise for 2027 and provincial minimum wages (UMP/UMSP) set by 1 Nov 2026.",
-"key_numbers": "7.5%–9.5% UMP 2027 demand · rallies 15–30 Oct in 38 provinces · tens of thousands expected · UMP/UMSP by 1 Nov 2026 · severance demand: at least 1x statutory, not 0.5x · outsourcing limited to 4 job types (cleaning, security, drivers, catering)",
-"storyline": "ump-2027",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0081",
-"date": "2026-10-15",
-"category": "BIZ",
-"event": "Ahead of Q3 results, bank-only profits through August 2026 show Mandiri (BMRI) growing fastest while BCA grows slowest; analysts expect BMRI to lead Q3 growth and BBCA to stay largest.",
-"key_numbers": "Net profit Jan-Aug 2026 (bank-only): BBCA Rp40.17 T (+2.85% y/y) · BMRI Rp37.48 T (+22.41%) · BBRI Rp32.61 T (+6.63%) · BBNI Rp14.32 T (+6.89%) · Q3 report dates not stated",
-"storyline": "",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0088",
-"date": "2026-10-15",
-"category": "ECO",
-"event": "PIHPS national averages on 15 Oct show rice and cooking oil rising while chilli and beef ease.",
-"key_numbers": "Beras medium I Rp17,100/kg (+3.01%) · medium II Rp16,950 (+0.89%) · beras bawah II Rp15,400 (+4.76%) · minyak goreng curah Rp21,350 (+4.65%) · kemasan Rp24,000-24,750 (+1.9%) · cabai rawit merah Rp97,600 (−5.29%) · cabai merah keriting Rp83,600 (−0.65%) · telur Rp29,450 (−0.84%) · daging sapi Rp144,300-150,050 (−0.17% to −1.61%) · ayam Rp40,900 (−1.33%) (day-on-day, 11:00 WIB)",
-"storyline": "",
-"status": "verified",
-"upcoming": false
-},
-{
-"id": "E0130",
-"date": "2026-10-15",
-"category": "POL",
-"event": "The Constitutional Court (MK) fully grants a petition against the Military Courts Law (UU 31/1997), ruling that soldiers who commit ordinary crimes should be tried in civilian courts and ordering lawmakers to revise the law within two years.",
-"key_numbers": "Decision 260/PUU-XXIII/2025 · read 15 Oct 2026 · challenged: Pasal 9 angka 1, Pasal 43(3), Pasal 127 · deadline: 2 years (about Oct 2028) or the provisions lose binding force · petitioners Lenny Damanik and Eva Meliani Pasaribu",
-"storyline": "mk-peradilan-militer",
-"status": "verified",
-"upcoming": false
-},
-{
-"id": "E0146",
-"date": "2026-10-15",
-"category": "TECH",
-"event": "OJK data show pinjol (P2P lending) bad-loan ratio TWP90 at 4.73% in August 2026, close to the 5% threshold, with 16 operators above 5%; OJK is drafting rules to protect lenders after operator failures. (update of E0011)",
-"key_numbers": "Outstanding Rp106.94 T (+22.07% y/y) · TWP90 4.73% (2.60% Aug 2025; 4.32% Jul 2026) · 16 operators above 5% · draft: default threshold 90 to 180 days, pooling fund 5% of net fees, liquidation reserve 20% of min equity",
-"storyline": "consumer-health",
-"status": "verified",
-"upcoming": false
-},
-{
-"id": "E0158",
-"date": "2026-10-15",
-"category": "ENV",
-"event": "Four people die fighting a forest fire in Bromo Tengger Semeru National Park after a sudden wind shift traps six personnel; experts question firefighting standard procedures.",
-"key_numbers": "Fire reported 13 Oct 14:23 WIB, declared out 14 Oct 11:45, flare-up 15 Oct about 13:00 WIB · 4 dead (2 TNBTS staff incl. 1 Manggala Agni, 2 staff of a tourism-permit company), 2 seriously injured · 6 trapped, 5 escaped · started in farmland in Pusung Dawa block, Ngadirejo, Probolinggo · Kemenhut press release 16 Oct",
-"storyline": "karhutla",
-"status": "verified",
-"upcoming": false
-},
-{
 "id": "E0026",
 "date": "2026-10-16",
 "category": "MKT",
@@ -7767,7 +7647,7 @@
 "key_numbers": "ASEAN Summit 15-17 Nov 2026 (Manila) · APEC summit in China next, date not confirmed · MPR plenary 2 Dec 2026",
 "storyline": "gibran-ijazah-mk",
 "status": "partial",
-"upcoming": true
+"upcoming": false
 },
 {
 "id": "E0040",

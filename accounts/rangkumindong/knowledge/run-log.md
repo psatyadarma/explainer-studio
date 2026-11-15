@@ -172,3 +172,4 @@ History moved out of HANDOFF.md (22 Oct) so fresh sessions read less. Append one
 - Draft (story hook, MPR deadline lead, no kamu_stakes, no B) → hook-critic PICK A "Pak Budi lingkari satu tanggal: Rabu, 18 November." → full FC 2 fixes (Nvidia call 06:00 WITA; 2 Des source IDN Times; rupiah softened to ~Rp18.200, single source).
 - Producer 84.5 s, −14.7 LUFS; QA FIX (Gibran credit in captions, empty b1) → PASS. Scheduled 19:00 at 08:33 (job 0a0a51df). 18:00 news check + 19:20 links wake-ups set.
 - Analyst W46: YouTube ~6.8× IG views; person-faced live stories win; wallet weight 0.75→0.5; health.py IG-missing WARN is false (needs an hours window, not exact 24/72) — fix health.py.
+- 19:00 live: IG Dfwn63lkQNE · YT GjXzveWkQxU. 18:00 news check clean (Prabowo gave parties a week for VP names; script already hedged).
