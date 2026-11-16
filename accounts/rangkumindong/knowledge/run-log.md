@@ -174,3 +174,9 @@ History moved out of HANDOFF.md (22 Oct) so fresh sessions read less. Append one
 - Analyst W46: YouTube ~6.8× IG views; person-faced live stories win; wallet weight 0.75→0.5; health.py IG-missing WARN is false (needs an hours window, not exact 24/72) — fix health.py.
 - 19:00 live: IG Dfwn63lkQNE · YT GjXzveWkQxU. 18:00 news check clean (Prabowo gave parties a week for VP names; script already hedged).
 - 2026-11-15 20:10 WITA IG insights: tentara-bayaran 24 h (122 views, reach 106, 22.9% of 84.9 s, 0 follows) and gibran-part2 72 h (664 views, reach 579, 35.2% of 79.2 s, 1 follow) from Upload-Post + IG web insights. Skip rate still app-only → hold_3s n/a. No -b folders (B stopped 9 Nov).
+
+## 2026-11-16 (Mon)
+- Sweeps 2/3/1/8 events (thin: cnbc/detik section pages refused by WebFetch; +12 merged). Ideas: ⭐ Prabowo pengadaan ~Rp480 T 10/12; light FC 2 fixes (Rp400 T, Nvidia -13% unverified). User picked ⭐ + "Ok to post" ~08:44.
+- Draft (person_collage, Prabowo cut-out) → hook-critic PICK A "Kata Prabowo, Rp480 triliun uang negara hangus." ("setahun" dropped: no source says per year) → full FC 2 fixes (40% = Kepala LKPP estimate; Aug 30%/Rp360 T vs Nov 40%/Rp480 T are two different estimates).
+- Producer 83.1 s, −14.7 LUFS; QA FIX (tag overlap, empty top 2 s, "Rp0" counter) → PASS round 2. Scheduled 19:00 at ~09:16 (job 9f464a76). 18:00 news check clean.
+- 19:00 live: IG DfzMt7oCn0y · YT jWnbOsMDdX0. Analyst: Minggu Depan 24 h IG 128 / YT 1,387; HP murah 72 h IG 114 (20.7%) / YT 607. Health IG-missing WARN still a false alarm (health.py hours-window fix still open).
