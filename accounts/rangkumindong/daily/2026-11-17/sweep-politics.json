@@ -1,0 +1,92 @@
+{
+  "area": "politics",
+  "run_date": "2026-11-17",
+  "checked": ["detik news indeks (scanned, 16 Nov snapshot)", "antaranews politik (stale, 7 Oct page)", "cnnindonesia nasional (search only, not readable)", "tempo politik (search only, not readable)", "Presiden/Wapres/Istana", "DPR", "KPK", "Kejagung", "Polri", "demonstrations (nothing new found)", "storyline gibran-ijazah-mk", "storyline listyo-sigit-penyadapan", "storyline corruption-cases"],
+  "events": [
+    {
+      "date": "2026-11-16",
+      "category": "POL",
+      "event": "MPR Chairman Ahmad Muzani said the MPR plenary to elect a new Vice President is postponed one week, from 2 December to Wednesday 9 December 2026, because President Prabowo's state schedule is very busy and he needs time to weigh the two candidates.",
+      "key_numbers": "Plenary moved 2 Dec -> 9 Dec 2026 (7 days) · 2 VP candidates required from the President · earlier 18 Nov deadline for names tied to the 2 Dec date; new deadline not stated",
+      "storyline": "gibran-ijazah-mk",
+      "update_of": "E0805",
+      "status": "partial",
+      "sources": [{"label": "detikNews", "url": "https://news.detik.com/berita/d-8755839/sidang-mpr-pemilihan-wapres-mundur-sepekan-ini-pertimbangannya"}],
+      "why_it_matters": "The country has had no vice president since Gibran resigned, and the timeline for filling the post just slipped by a week.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "detik news index, several items on the VP succession within the last 3 hours of the snapshot",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-16",
+      "category": "POL",
+      "event": "A Gerindra East Jakarta branch chair, Ali Lubis, publicly backed DPR Deputy Speaker Sufmi Dasco Ahmad as the new Vice President, while PAN chair Zulkifli Hasan said nearly all coalition parties did not propose a candidate and agreed the pick should come from Gerindra.",
+      "key_numbers": "Gerindra names floated: Ahmad Muzani, Sugiono, Sufmi Dasco Ahmad · Golkar's Ahmad Doli Kurnia listed 8 possible figures, 3 from Gerindra · NasDem leads a verification team, PDIP an ad hoc team (per related links)",
+      "storyline": "gibran-ijazah-mk",
+      "update_of": "E0833",
+      "status": "partial",
+      "sources": [{"label": "detikNews", "url": "https://news.detik.com/berita/d-8755590/gerindra-jaktim-dukung-dasco-jadi-wapres-bicara-stabilitas-pemerintahan"}],
+      "why_it_matters": "Who becomes VP shapes the government for the rest of the term, and the shortlist is forming in public before Prabowo names anyone.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-16",
+      "category": "POL",
+      "event": "KPK said it has summoned Bea Cukai official Ahmad Dedi (Dedi Congor), a named suspect in the customs bribery case, twice and he cited illness each time; KPK investigators say they have seen no proof he is sick and are considering other measures.",
+      "key_numbers": "2 summonses · travel ban requested 23 Oct 2026, 6 months · KPK initial loss estimate in the related cigarette-excise probe: 'trillions of rupiah' · related Tipikor sentences: Rizal 9 yrs, Sisprian 7 yrs, Orlando 6 yrs",
+      "storyline": "corruption-cases",
+      "update_of": "",
+      "status": "partial",
+      "sources": [{"label": "detikNews", "url": "https://news.detik.com/berita/d-8755922/kpk-sudah-panggil-dedi-congor-2-kali-untuk-diperiksa-tapi-alasan-sakit-terus"}],
+      "why_it_matters": "A key suspect in the Bea Cukai bribery case is avoiding questioning, which can slow the wider customs and excise investigations.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 0, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-17",
+      "category": "POL",
+      "event": "Kejagung scheduled Bekasi Mayor Tri Adhianto for questioning as a witness on 17 November in the alleged corruption case over BUMD PT Migas Kota Bekasi and its joint operation (KSO) with Pertamina EP; no suspects have been announced.",
+      "key_numbers": "Examination Tue 17 Nov 2026, about 10:00 WIB · estimated state loss about Rp 2 triliun · period 2009-2024 · suspects announced: 0",
+      "storyline": "",
+      "update_of": "",
+      "status": "upcoming",
+      "sources": [{"label": "detikNews", "url": "https://news.detik.com/berita/d-8755946/kejagung-periksa-walkot-bekasi-jadi-saksi-kasus-dugaan-korupsi-kso-migas-besok"}],
+      "why_it_matters": "A sitting city mayor is being questioned in a case with an estimated Rp 2 triliun loss to the regional budget and Pertamina.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-16",
+      "category": "POL",
+      "event": "KPK said it respects the Supervisory Board (Dewas) and Inspectorate examining KPK staff over indications that documents in the ATR/BPN HGB bribery case were leaked, while KPK says it found signs of other land-service cases involving private parties beyond PT Summarecon.",
+      "key_numbers": "8 suspects in the Summarecon land-unblocking bribery case (Bogor Regency) · staff examination by Dewas and Inspectorate ongoing since at least 6 Nov",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [{"label": "detikNews", "url": "https://news.detik.com/berita/d-8755875/kpk-hormati-dewas-periksa-pegawai-soal-bocor-dokumen-kasus-atr-bpn"}],
+      "why_it_matters": "A leak inside KPK itself raises questions about how safe sensitive corruption investigations are.",
+      "signals": {"spreading": 0, "wallet": 0, "surprise": 1, "visual": 0, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-11",
+      "category": "POL",
+      "event": "Polri said ex-Kapolri Listyo Sigit Prabowo, a named suspect in the alleged illegal wiretapping of the President, will face a Polri ethics commission (KKEP) hearing because he is still an active member; the panel is chosen by Kapolri Suyudi Ario Seto, with no date set and 'next week' given for other suspects.",
+      "key_numbers": "Ethics hearing for Irjen Eko Hadi Santoso, Irjen Slamet Uliandi and Listyo expected the week of 16 Nov (no exact date) · Irjen Ahrie Sonta already given PTDH (dishonorable discharge) on 10 Nov",
+      "storyline": "listyo-sigit-penyadapan",
+      "update_of": "",
+      "status": "upcoming",
+      "sources": [{"label": "Justisio", "url": "https://justisio.com/berita/2026-11-11-kapolri-tentukan-majelis-sidang-etik-untuk-listyo-sigit-di-kasus-penya"}, {"label": "Okezone via RCTI+", "url": "https://www.rctiplus.com/news/detail/okezone/5514104/polri-lanjutkan-sidang-etik-tersangka-penyadapan-presiden-pekan-depan"}],
+      "why_it_matters": "The ethics hearing could end the police careers of a former national police chief and other generals, separate from the criminal case.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 1, "fresh": 1, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "high"
+    }
+  ],
+  "gaps": ["Whether Prabowo's 18 Nov deadline for two VP names still applies after the move to 9 Dec (detik does not say)", "Exact date of Listyo Sigit KKEP ethics hearing not confirmed", "cnnindonesia and tempo section pages unreadable, antaranews page was stale (7 Oct); search lagging so Kompas/CNN/Tempo headlines of 16-17 Nov not covered", "Not checked: Jokowi diploma defamation trial next hearing date, Komnas HAM UGM CCTV follow-up, Kupang regent case progress"]
+}

@@ -1,0 +1,281 @@
+[
+ {
+  "date": "2026-11-16",
+  "category": "MKT",
+  "event": "The rupiah closed at Rp18,245 per US dollar on 16 November (Refinitiv), weaker 0.30% from Rp18,190, after touching an intraday low of Rp18,270, with China's weak October data and higher external debt cited as drivers. (update of E0827)",
+  "key_numbers": "Rp18,245/US$ close (CNBC/Refinitiv), Rp18,268 (Kontan/Bloomberg), JISDOR Rp18,250 vs Rp18,218 · intraday low Rp18,270 · -0.30% d/d · DXY 103.407 · China Oct retail sales +0.4% y/y vs 0.8% expected · China industrial output +4.8% vs 5.5% prior",
+  "storyline": "rupiah",
+  "status": "verified",
+  "sources": "CNBC Indonesia <https://www.cnbcindonesia.com/market/20261116150841-17-785622/rupiah-sore-ini-ditutup-rp-18245-per-dolar-as> ; Kontan <https://investasi.kontan.co.id/news/kurs-rupiah-tertekan-jelang-rdg-bi-suku-bunga-acuan-diproyeksi-tetap-575>"
+ },
+ {
+  "date": "2026-11-16",
+  "category": "MKT",
+  "event": "The IHSG closed down 0.44% at 5,320.98 on 16 November, snapping the previous week's 5.82% rally, as basic-materials and energy stocks (AMMN, BRMS, BRPT, DEWA) dragged the index. (update of E0826)",
+  "key_numbers": "5,320.98 close, -23.43 pts (-0.44%) · turnover Rp10.35 T (CNBC) vs Rp12.91 T (Kontan) · basic materials -4.76% (Refinitiv) · energy -3.19% · 147 up / 227 down · DEWA -6.87%, BRPT -6.83%, WIFI -6.78% · foreign outflow about Rp505.6 B in session 1 (headline only)",
+  "storyline": "msci-reclassification",
+  "status": "verified",
+  "sources": "CNBC Indonesia <https://www.cnbcindonesia.com/market/20261116152641-17-785660/ihsg-ditutup-melemah-044-ke-level-532098> ; Kontan <https://investasi.kontan.co.id/news/ihsg-melemah-044-ke-5320-pada-senin-16112026-dewa-brpt-wifi-top-losers-lq45>"
+ },
+ {
+  "date": "2026-11-14",
+  "category": "MKT",
+  "event": "FTSE Russell kept Indonesia as a Secondary Emerging Market and did not place it on a Watch List, but will remove stocks flagged for high shareholding concentration at its December review and freeze new additions and size changes until at least March 2027. (update of E0767)",
+  "key_numbers": "14 Indonesian stocks removed per CNBC headline (count not in the statement article) · removal effective 21 Dec 2026 · provisional list to 4 Dec, final 7 Dec · IPO/new additions delayed until at least the March 2027 review",
+  "storyline": "msci-reclassification",
+  "status": "partial",
+  "sources": "CNBC Indonesia (decision) <https://www.cnbcindonesia.com/market/20261114155503-17-785239/ftse-russell-pertahankan-status-secondary-emerging-market-bursa-ri> ; CNBC Indonesia (14 stocks) <https://www.cnbcindonesia.com/market/20261114103044-17-785206/ftse-russell-coret-14-saham-ri-dari-indeks-global-ini-daftarnya>"
+ },
+ {
+  "date": "2026-11-15",
+  "category": "ECO",
+  "event": "Kemnaker's Industrial Relations director general Indah Anggoro Putri said under Law 27/2026 a government institution will centrally manage a severance reserve fund (dana cadangan pesangon) that employers must start depositing by October 2027, while Danantara denied being appointed to manage it.",
+  "key_numbers": "UU No. 27/2026 · deposit deadline October 2027 · institution to operate 2028 · transition up to 1 year · micro and small businesses excluded · sanctions: warning, business restrictions, suspension, licence revocation · no contribution rate stated",
+  "storyline": "survival-mode",
+  "status": "verified",
+  "sources": "detikFinance <https://finance.detik.com/berita-ekonomi-bisnis/d-8753776/dana-pesangon-mau-dikelola-pemerintah-perusahaan-wajib-setor-oktober-2027> ; detikFinance (Danantara denial) <https://finance.detik.com/berita-ekonomi-bisnis/d-8753349/danantara-tegaskan-tak-pernah-ditunjuk-untuk-kelola-dana-cadangan-pesangon> ; detikFinance (Kemnaker: no decision yet) <https://finance.detik.com/berita-ekonomi-bisnis/d-8753901/bantah-dana-pesangon-dikelola-danantara-kemnaker-belum-ada-keputusan>"
+ },
+ {
+  "date": "2026-11-23",
+  "category": "BIZ",
+  "event": "Danantara plans to publish its first public financial report, for fiscal 2025, tentatively on 23 November 2026, after BPK finished its audit, according to COO Dony Oskaria.",
+  "key_numbers": "23 Nov 2026 (tentative) · more than 1,000 consolidated companies (Rosan Roeslani) · over 1,070 SOE entities (Pahala Mansury) · first report since Danantara launched Feb 2025 · regulatory deadline was end of June",
+  "storyline": "",
+  "status": "upcoming",
+  "sources": "CNBC Indonesia <https://www.cnbcindonesia.com/market/20261115143832-17-785355/perhatian-danantara-bakal-rilis-laporan-keuangan-23-november>"
+ },
+ {
+  "date": "2026-11-15",
+  "category": "MKT",
+  "event": "Deputy Coordinating Minister for Economic Affairs Dradjad Hari Wibowo said the government will pursue three measures to boost the capital market: raise listed-company valuations through deregulation, speed up rule enforcement, and expand investor education.",
+  "key_numbers": "3 measures · more than 34 million individual capital-market investors",
+  "storyline": "msci-reclassification",
+  "status": "partial",
+  "sources": "detikFinance <https://finance.detik.com/bursa-dan-valas/d-8754212/pemerintah-siapkan-3-jurus-buat-genjot-pasar-modal>"
+ },
+ {
+  "date": "2026-11-20",
+  "category": "ECO",
+  "event": "Bank Indonesia is scheduled to publish the Q3 2026 Balance of Payments on 20 November, after a Q2 deficit.",
+  "key_numbers": "Q2 2026 deficit US$0.9 B · release Fri 20 Nov 2026, time not stated",
+  "storyline": "rupiah",
+  "status": "upcoming",
+  "sources": "CNBC Indonesia (weekly calendar) <https://www.cnbcindonesia.com/research/20261115175956-128-785370/penuh-ujian-17-kabar-genting-bakal-bayangi-ihsg-rupiah-pekan-ini>"
+ },
+ {
+  "date": "2026-11-14",
+  "category": "GLB",
+  "event": "Nvidia shares reportedly fell 13% after CEO Jensen Huang stepped down, per a detikFinance headline, and CNBC Indonesia separately reported his wealth dropped about Rp320 trillion after a scandal. (update of E0820)",
+  "key_numbers": "-13% Nvidia shares (headline only) · Rp320 T lost wealth (headline only) · Nvidia earnings due 17 Nov (E0839)",
+  "storyline": "",
+  "status": "partial",
+  "sources": "detikFinance <https://finance.detik.com/bursa-dan-valas/d-8752627/investor-kabur-usai-jensen-huang-mundur-saham-nvidia-anjlok-13> ; CNBC Indonesia <https://www.cnbcindonesia.com/market/20261113154910-17-785081/usai-skandal-selingkuh-terungkap-harta-jensen-huang-amblas-rp320-t>"
+ },
+ {
+  "date": "2026-11-16",
+  "category": "POL",
+  "event": "MPR Chairman Ahmad Muzani said the MPR plenary to elect a new Vice President is postponed one week, from 2 December to Wednesday 9 December 2026, because President Prabowo's state schedule is very busy and he needs time to weigh the two candidates. (update of E0805)",
+  "key_numbers": "Plenary moved 2 Dec -> 9 Dec 2026 (7 days) · 2 VP candidates required from the President · earlier 18 Nov deadline for names tied to the 2 Dec date; new deadline not stated",
+  "storyline": "gibran-ijazah-mk",
+  "status": "partial",
+  "sources": "detikNews <https://news.detik.com/berita/d-8755839/sidang-mpr-pemilihan-wapres-mundur-sepekan-ini-pertimbangannya>"
+ },
+ {
+  "date": "2026-11-16",
+  "category": "POL",
+  "event": "A Gerindra East Jakarta branch chair, Ali Lubis, publicly backed DPR Deputy Speaker Sufmi Dasco Ahmad as the new Vice President, while PAN chair Zulkifli Hasan said nearly all coalition parties did not propose a candidate and agreed the pick should come from Gerindra. (update of E0833)",
+  "key_numbers": "Gerindra names floated: Ahmad Muzani, Sugiono, Sufmi Dasco Ahmad · Golkar's Ahmad Doli Kurnia listed 8 possible figures, 3 from Gerindra · NasDem leads a verification team, PDIP an ad hoc team (per related links)",
+  "storyline": "gibran-ijazah-mk",
+  "status": "partial",
+  "sources": "detikNews <https://news.detik.com/berita/d-8755590/gerindra-jaktim-dukung-dasco-jadi-wapres-bicara-stabilitas-pemerintahan>"
+ },
+ {
+  "date": "2026-11-16",
+  "category": "POL",
+  "event": "KPK said it has summoned Bea Cukai official Ahmad Dedi (Dedi Congor), a named suspect in the customs bribery case, twice and he cited illness each time; KPK investigators say they have seen no proof he is sick and are considering other measures.",
+  "key_numbers": "2 summonses · travel ban requested 23 Oct 2026, 6 months · KPK initial loss estimate in the related cigarette-excise probe: 'trillions of rupiah' · related Tipikor sentences: Rizal 9 yrs, Sisprian 7 yrs, Orlando 6 yrs",
+  "storyline": "corruption-cases",
+  "status": "partial",
+  "sources": "detikNews <https://news.detik.com/berita/d-8755922/kpk-sudah-panggil-dedi-congor-2-kali-untuk-diperiksa-tapi-alasan-sakit-terus>"
+ },
+ {
+  "date": "2026-11-17",
+  "category": "POL",
+  "event": "Kejagung scheduled Bekasi Mayor Tri Adhianto for questioning as a witness on 17 November in the alleged corruption case over BUMD PT Migas Kota Bekasi and its joint operation (KSO) with Pertamina EP; no suspects have been announced.",
+  "key_numbers": "Examination Tue 17 Nov 2026, about 10:00 WIB · estimated state loss about Rp 2 triliun · period 2009-2024 · suspects announced: 0",
+  "storyline": "",
+  "status": "upcoming",
+  "sources": "detikNews <https://news.detik.com/berita/d-8755946/kejagung-periksa-walkot-bekasi-jadi-saksi-kasus-dugaan-korupsi-kso-migas-besok>"
+ },
+ {
+  "date": "2026-11-16",
+  "category": "POL",
+  "event": "KPK said it respects the Supervisory Board (Dewas) and Inspectorate examining KPK staff over indications that documents in the ATR/BPN HGB bribery case were leaked, while KPK says it found signs of other land-service cases involving private parties beyond PT Summarecon.",
+  "key_numbers": "8 suspects in the Summarecon land-unblocking bribery case (Bogor Regency) · staff examination by Dewas and Inspectorate ongoing since at least 6 Nov",
+  "storyline": "",
+  "status": "partial",
+  "sources": "detikNews <https://news.detik.com/berita/d-8755875/kpk-hormati-dewas-periksa-pegawai-soal-bocor-dokumen-kasus-atr-bpn>"
+ },
+ {
+  "date": "2026-11-11",
+  "category": "POL",
+  "event": "Polri said ex-Kapolri Listyo Sigit Prabowo, a named suspect in the alleged illegal wiretapping of the President, will face a Polri ethics commission (KKEP) hearing because he is still an active member; the panel is chosen by Kapolri Suyudi Ario Seto, with no date set and 'next week' given for other suspects.",
+  "key_numbers": "Ethics hearing for Irjen Eko Hadi Santoso, Irjen Slamet Uliandi and Listyo expected the week of 16 Nov (no exact date) · Irjen Ahrie Sonta already given PTDH (dishonorable discharge) on 10 Nov",
+  "storyline": "listyo-sigit-penyadapan",
+  "status": "upcoming",
+  "sources": "Justisio <https://justisio.com/berita/2026-11-11-kapolri-tentukan-majelis-sidang-etik-untuk-listyo-sigit-di-kasus-penya> ; Okezone via RCTI+ <https://www.rctiplus.com/news/detail/okezone/5514104/polri-lanjutkan-sidang-etik-tersangka-penyadapan-presiden-pekan-depan>"
+ },
+ {
+  "date": "2026-11-13",
+  "category": "TECH",
+  "event": "Counterpoint Research said the share of Indonesian smartphone sales priced under US$150 fell from 55% in Q3 2025 to 24% in Q3 2026 as RAM prices rose, making phones under Rp2 million hard to find. (update of E0787)",
+  "key_numbers": "Under US$150 (about Rp2.7 million) share 55% to 24% (Q3 2025 to Q3 2026) · US$150-249 22% to 33% · US$350-499 6% to 16% · above US$700 3% to 10% · RAM price up 78-100% in a year · example 4GB/64GB phone about Rp1.5 million to about Rp1.8 million · third straight quarter of budget-segment decline · Q3 2026 share Samsung 33%, Xiaomi 21%, Oppo 16%, Infinix 11%, vivo 8%",
+  "storyline": "chip-ram-prices",
+  "status": "partial",
+  "sources": "CNBC Indonesia <https://www.cnbcindonesia.com/tech/20261113181900-37-785154/kiamat-hp-murah-di-ri-cari-harga-di-bawah-rp-2-juta-makin-susah>"
+ },
+ {
+  "date": "2026-11-09",
+  "category": "TECH",
+  "event": "Industry Minister Muhammad Sarmuji said electronics prices in Indonesia will inevitably rise as global memory chip prices climbed about 20% quarter on quarter in Q3 2026 on AI demand.",
+  "key_numbers": "Memory chip prices about +20% QoQ in Q3 2026 · may stay high until 2027 · statement 9 Nov 2026",
+  "storyline": "chip-ram-prices",
+  "status": "partial",
+  "sources": "Suara.com <https://amp.suara.com/bisnis/2026/11/09/193959/harga-chip-memori-dunia-melejit-20-siap-siap-harga-hp-dan-elektronik-makin-mahal>"
+ },
+ {
+  "date": "2026-11-13",
+  "category": "TECH",
+  "event": "Komdigi said 41.49 million mobile subscribers have completed biometric SIM registration, above the year-end target, while the subscriber base fell by about 27 million to about 297 million and operator ARPU rose.",
+  "key_numbers": "41.49 million biometric registrations · subscribers down about 27 million to about 297 million · operator ARPU up · AI-edited KTP photos tried against checks (Komdigi says detected)",
+  "storyline": "",
+  "status": "partial",
+  "sources": "IDX Channel <https://www.idxchannel.com/technology/komdigi-ungkap-4149-juta-pelanggan-seluler-telah-registrasi-biometrik-lampaui-target-akhir-tahun> ; Bisnis.com <https://teknologi.bisnis.com/read/20261113/101/2021204/pelanggan-seluler-susut-jadi-297-juta-arpu-operator-naik-usai-registrasi-biometrik> ; Katadata <https://katadata.co.id/digital/teknologi/6af6f86c1358e/komdigi-perketat-registrasi-simcard-pendapatan-operator-seluler-berkurang>"
+ },
+ {
+  "date": "2026-11-16",
+  "category": "TECH",
+  "event": "Komdigi's Dany Suwardany said the ministry is building a portal (cekdomain.komdigi.go.id, in trial) where people can check which numbers are registered on their NIK and report suspicious ones for blocking.",
+  "key_numbers": "Check by NIK, NIK+KK or face scan · blocking within max 1x24 hours for valid reports · no launch date, still in trial",
+  "storyline": "",
+  "status": "partial",
+  "sources": "Kaltim Post <https://kaltimpost.jawapos.com/nasional/2611160132/cegah-nik-disalahgunakan-komdigi-bikin-situs-cek-nomor-seluler> ; detik Inet <https://inet.detik.com/law-and-policy/d-8755364/komdigi-bikin-portal-cek-nomor-hp-cegah-nik-disalahgunakan>"
+ },
+ {
+  "date": "2026-11-16",
+  "category": "TECH",
+  "event": "CNN Indonesia reported Nvidia is reportedly considering bringing Jensen Huang back as CEO three days after he resigned, and a petition for his return passed 167,000 signatures with Elon Musk among backers. (update of E0820)",
+  "key_numbers": "Petition over 167,000 signatures · resigned 12-13 Nov · 3 days later return considered · Colette Kress interim CEO",
+  "storyline": "ai-data-centres",
+  "status": "partial",
+  "sources": "CNN Indonesia <https://www.cnnindonesia.com/teknologi/20261116062714-185-1427471/baru-3-hari-mundur-jensen-huang-pertimbangkan-kembali-jadi-ceo-nvidia> ; CNN Indonesia <https://www.cnnindonesia.com/teknologi/20261116110157-185-1427550/167-ribu-orang-tanda-tangani-petisi-minta-jensen-huang-balik-nvidia> ; Katadata <https://katadata.co.id/digital/teknologi/6afa00dbeed5d/ribuan-karyawan-dan-elon-musk-teken-petisi-jensen-huang-kembali-pimpin-nvidia>"
+ },
+ {
+  "date": "2026-11-14",
+  "category": "TECH",
+  "event": "CNBC Indonesia reported large protests against AI data-centre projects in several countries, with a separate piece noting protests spreading from Indonesia to Malaysia and Thailand. (update of E0617)",
+  "key_numbers": "Protests in Indonesia, Malaysia, Thailand (numbers not confirmed)",
+  "storyline": "ai-data-centres",
+  "status": "partial",
+  "sources": "CNBC Indonesia <https://www.cnbcindonesia.com/tech/20261114105545-37-785208/ramai-ramai-protes-data-center-dari-ri-malaysia-hingga-thailand> ; CNBC Indonesia <https://www.cnbcindonesia.com/tech/20261114220026-38-785290/potret-warga-ngamuk-demo-besar-besaran-tolak-proyek-data-center-ai>"
+ },
+ {
+  "date": "2026-11-16",
+  "category": "TECH",
+  "event": "ULA's Vulcan rocket failed to reach orbit because of an engine malfunction, and detik reported about 40 satellites meant to rival Starlink were lost.",
+  "key_numbers": "About 40 satellites lost (per detik) · launch 15-16 Nov",
+  "storyline": "",
+  "status": "partial",
+  "sources": "CNN Indonesia <https://www.cnnindonesia.com/teknologi/20261116073942-203-1427492/roket-vulcan-gagal-mencapai-orbit-akibat-gangguan-mesin> ; detik Inet <https://inet.detik.com/science/d-8755774/roket-vulcan-ula-gagal-mengorbit-40-satelit-pesaing-starlink-hancur-lebur>"
+ },
+ {
+  "date": "2026-11-19",
+  "category": "TECH",
+  "event": "Rockstar's GTA VI is scheduled for release on 19 November 2026, and CNN Indonesia expects workers to call in sick.",
+  "key_numbers": "Release 19 Nov 2026",
+  "storyline": "",
+  "status": "upcoming",
+  "sources": "CNN Indonesia <https://www.cnnindonesia.com/teknologi/20261116091845-185-1427516/gta-vi-rilis-19-november-pekerja-diprediksi-ramai-ramai-izin-sakit>"
+ },
+ {
+  "date": "2026-11-16",
+  "category": "POL",
+  "event": "Ketua MPR said the MPR has received a letter from President Prabowo about filling the vice-president vacancy left by Gibran, to be discussed at an MPR joint meeting (rapat gabungan) on the afternoon of 16 November. (update of E0763)",
+  "key_numbers": "Letter received 16 Nov 2026 · rapat gabungan afternoon 16 Nov · Gibran resigned 12 Nov 2026 · MPR has up to 60 days from 12 Nov (per storyline) · paripurna reportedly 2 Dec (per storyline, not re-verified today)",
+  "storyline": "gibran-ijazah-mk",
+  "status": "partial",
+  "sources": "CNN Indonesia <https://cnnindonesia.com/nasional/20261116150752-32-1427700/mpr-terima-surat-prabowo-soal-pengisian-wapres-pengganti-gibran> ; Kompas.com <https://nasional.kompas.com/read/2026/11/16/12522911/mpr-terima-surat-dari-prabowo-soal-cawapres-pengganti-gibran> ; Antara <https://www.antaranews.com/berita/5856687/ketua-mpr-sudah-terima-surat-dari-presiden-dan-akan-dibahas-di-ragab>"
+ },
+ {
+  "date": "2026-11-16",
+  "category": "POL",
+  "event": "Sohibul Iman (PKS) was sworn in as MPR deputy chair, replacing Hidayat Nur Wahid (HNW).",
+  "key_numbers": "Sworn in 15-16 Nov 2026 (Antara headline, 15 hours old at fetch)",
+  "storyline": "",
+  "status": "partial",
+  "sources": "Antara <https://www.antaranews.com/berita/5856667/sohibul-iman-resmi-dilantik-jadi-wakil-ketua-mpr-ri-gantikan-hnw>"
+ },
+ {
+  "date": "2026-11-16",
+  "category": "NEWS",
+  "event": "Jakarta Governor Pramono Anung ordered a maternal-perinatal audit involving professional organisations after a baby died at RSUD Tanjung Priok, North Jakarta, allegedly after delayed delivery care.",
+  "key_numbers": "Referred from Puskesmas Kebon Bawang 11 Nov · delivery 12 Nov about 07:30 WIB · baby died about 15 Nov · family alleges staff waited for morning shift and episiotomy scissors were dull and replaced twice · preliminary report points to a neonatal ambulance (NETS) problem",
+  "storyline": "",
+  "status": "verified",
+  "sources": "CNN Indonesia <https://www.cnnindonesia.com/nasional/20261116111244-20-1427554/rsud-di-jakut-diduga-lalai-hingga-bayi-meninggal-pramono-buka-suara> ; VIVA <https://www.viva.co.id/berita/metro/1944013-bayi-meninggal-di-rsud-tanjung-priok-pramono-saya-minta-audit-jangan-sampai-terulang-lagi> ; Liputan6 <https://www.liputan6.com/news/read/8336070/pramono-minta-audit-kematian-bayi-di-rsud-tanjung-priok>"
+ },
+ {
+  "date": "2026-11-16",
+  "category": "ENV",
+  "event": "IQAir showed Jakarta air quality as unhealthy on Monday morning, second worst in Indonesia behind Depok, while KLHK ISPU put Central Kalimantan at very unhealthy.",
+  "key_numbers": "Jakarta AQI 161 at 05:00 (unhealthy) · PM2.5 69.4 ug/m3 = 13.9x WHO annual guideline · Depok 167 · ISPU 08:00: Central Kalimantan 264 (very unhealthy), South Kalimantan 126, DKI Jakarta 110",
+  "storyline": "karhutla",
+  "status": "verified",
+  "sources": "Koran Jakarta (IQAir) <https://koran-jakarta.com/2026-11-16/iqair-senin-pagi-kualitas-udara-jakarta-tak-sehat-warga-disarankan-pakai-masker-di-luar-rumah> ; Katadata Databoks (ISPU) <https://databoks.katadata.co.id/layanan-konsumen-kesehatan/statistik/20c7a9ee0b13ffa/kualitas-udara-kalimantan-tengah-senin-pagi-1611-terburuk-di-indonesia> ; Antara <https://www.antaranews.com/berita/5856155/kualitas-udara-jakarta-tak-sehat-pada-senin-pagi>"
+ },
+ {
+  "date": "2026-11-15",
+  "category": "ENV",
+  "event": "BNPB reported floods in Aceh and North Sumatra affecting 28,376 people, while a toddler died in a landslide in Aceh Tengah. (update of E0852)",
+  "key_numbers": "28,376 people affected (BNPB, 15 Nov; one summary bullet says 8,376, headline and body say 28,376) · Aceh Tamiang 18,158 affected, 5,088 evacuated, 8 districts · Subulussalam 7,703 affected, emergency status 6-19 Nov · Singkil 124 affected · 2 tropical cyclone seedlings being watched",
+  "storyline": "",
+  "status": "verified",
+  "sources": "Tribunnews <https://www.tribunnews.com/nasional/7911742/banjir-melanda-aceh-dan-sumut-bnpb-catat-28376-jiwa-terdampak-2-bibit-siklon-tropis-mengintai> ; CNN Indonesia <https://www.cnnindonesia.com/nasional/20261115174057-20-1427415/balita-tewas-tertimbun-longsor-di-aceh-tengah> ; NU Online <https://nu.or.id/amp/daerah/banjir-rendam-delapan-kecamatan-di-aceh-tamiang-5-088-warga-mengungsi-FBHb7>"
+ },
+ {
+  "date": "2026-11-16",
+  "category": "ENV",
+  "event": "The disaster emergency response for karhutla in Kotawaringin Barat (Kobar), Central Kalimantan ended after three months, while BNPB said 254.89 ha in Central Kalimantan are still burning and Manggala Agni said all fires in South Sumatra are out. (update of E0854)",
+  "key_numbers": "Kobar emergency ended after 3 months · 254.89 ha still burning in Kalteng (BNPB, 16 Nov) · South Sumatra: all fires out (Manggala Agni)",
+  "storyline": "karhutla",
+  "status": "verified",
+  "sources": "CNN Indonesia <https://www.cnnindonesia.com/nasional/20261116102530-20-1427537/3-bulan-dikepung-karhutla-tanggap-darurat-di-kobar-kalteng-berakhir> ; Antara <https://www.antaranews.com/berita/5855963/manggala-agni-pastikan-seluruh-karhutla-di-sumsel-telah-padam> ; Kontan <https://nasional.kontan.co.id/news/karhutla-kalteng-masih-meluas-25489-hektare-lahan-belum-tertangani>"
+ },
+ {
+  "date": "2026-11-16",
+  "category": "NEWS",
+  "event": "Liputan6 fact-checkers flagged three viral Gibran hoaxes: Luhut taking the diploma case to the International Court, an AI-edited three-finger photo at the resignation, and a fake pensioner-aid video.",
+  "key_numbers": "Luhut/ICJ claim posted 14 Nov (hoax) · three-finger photo circulating 12 Nov (AI-modified) · pensioner-aid video uploaded 10 Jun (hoax)",
+  "storyline": "gibran-ijazah-mk",
+  "status": "partial",
+  "sources": "Liputan6 Cek Fakta <https://liputan6.com/cek-fakta/read/8336056/gibran-rakabuming-raka-jadi-sasaran-hoaks-simak-faktanya>"
+ },
+ {
+  "date": "2026-11-15",
+  "category": "ENV",
+  "event": "The Forestry Ministry said Alas Purwo National Park is only a candidate and not yet confirmed as a feasible second habitat for the Javan rhino.",
+  "key_numbers": "No figures confirmed (article text not opened)",
+  "storyline": "",
+  "status": "partial",
+  "sources": "Antara <https://www.antaranews.com/berita/5856647/kemenhut-alas-purwo-potensial-dikaji-jadi-habitat-kedua-badak-jawa> ; CNN Indonesia <https://www.cnnindonesia.com/nasional/20261115174833-20-1427417/kemenhut-alas-purwo-belum-pasti-layak-jadi-habitat-kedua-badak-jawa>"
+ },
+ {
+  "date": "2026-11-16",
+  "category": "NEWS",
+  "event": "Bea Cukai Banjarmasin revealed an attempt to illegally export 21.8 kg of gold to Malaysia.",
+  "key_numbers": "21.8 kg gold (headline only)",
+  "storyline": "",
+  "status": "partial",
+  "sources": "Antara <https://www.antaranews.com/berita/5856619/bea-cukai-banjarmasin-ungkap-ekspor-ilegal-218-kg-emas-ke-malaysia>"
+ }
+]

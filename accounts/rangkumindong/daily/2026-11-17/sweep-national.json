@@ -1,0 +1,174 @@
+{
+  "area": "national",
+  "run_date": "2026-11-17",
+  "checked": [
+    "Antara terkini", "Antara terpopuler", "CNN Indonesia nasional/peristiwa",
+    "detik terpopuler (fetch failed, search only)", "CNBC Indonesia (not fetched)", "Liputan6 cek-fakta (via search)",
+    "watch list found: most-read lists, disasters/environment (karhutla, banjir Aceh, air quality), public services (RSUD), hoaxes, crime",
+    "storyline searches: karhutla, gibran-ijazah-mk, listyo-sigit-penyadapan",
+    "article-level fetches of cnnindonesia/antaranews article URLs were blocked (PROVENANCE_REQUIRED); details taken from fetched pages that did open"
+  ],
+  "events": [
+    {
+      "date": "2026-11-16",
+      "category": "POL",
+      "event": "Ketua MPR said the MPR has received a letter from President Prabowo about filling the vice-president vacancy left by Gibran, to be discussed at an MPR joint meeting (rapat gabungan) on the afternoon of 16 November.",
+      "key_numbers": "Letter received 16 Nov 2026 · rapat gabungan afternoon 16 Nov · Gibran resigned 12 Nov 2026 · MPR has up to 60 days from 12 Nov (per storyline) · paripurna reportedly 2 Dec (per storyline, not re-verified today)",
+      "storyline": "gibran-ijazah-mk",
+      "update_of": "E0763",
+      "status": "partial",
+      "sources": [
+        {"label": "CNN Indonesia", "url": "https://cnnindonesia.com/nasional/20261116150752-32-1427700/mpr-terima-surat-prabowo-soal-pengisian-wapres-pengganti-gibran"},
+        {"label": "Kompas.com", "url": "https://nasional.kompas.com/read/2026/11/16/12522911/mpr-terima-surat-dari-prabowo-soal-cawapres-pengganti-gibran"},
+        {"label": "Antara", "url": "https://www.antaranews.com/berita/5856687/ketua-mpr-sudah-terima-surat-dari-presiden-dan-akan-dibahas-di-ragab"}
+      ],
+      "why_it_matters": "It is the first concrete step toward naming Indonesia's next vice president; the letter likely carries Prabowo's candidate names.",
+      "signals": {"spreading": 2, "wallet": 0, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "Antara terpopuler #13; same-day headlines at CNN Indonesia, Kompas, Tribunnews, IDN Times",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-16",
+      "category": "POL",
+      "event": "Sohibul Iman (PKS) was sworn in as MPR deputy chair, replacing Hidayat Nur Wahid (HNW).",
+      "key_numbers": "Sworn in 15-16 Nov 2026 (Antara headline, 15 hours old at fetch)",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "Antara", "url": "https://www.antaranews.com/berita/5856667/sohibul-iman-resmi-dilantik-jadi-wakil-ketua-mpr-ri-gantikan-hnw"}
+      ],
+      "why_it_matters": "Changes the MPR leadership just as it handles the vice-president replacement process.",
+      "signals": {"spreading": 2, "wallet": 0, "surprise": 0, "visual": 0, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "Antara terpopuler #14",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-16",
+      "category": "NEWS",
+      "event": "Jakarta Governor Pramono Anung ordered a maternal-perinatal audit involving professional organisations after a baby died at RSUD Tanjung Priok, North Jakarta, allegedly after delayed delivery care.",
+      "key_numbers": "Referred from Puskesmas Kebon Bawang 11 Nov · delivery 12 Nov about 07:30 WIB · baby died about 15 Nov · family alleges staff waited for morning shift and episiotomy scissors were dull and replaced twice · preliminary report points to a neonatal ambulance (NETS) problem",
+      "storyline": "",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261116111244-20-1427554/rsud-di-jakut-diduga-lalai-hingga-bayi-meninggal-pramono-buka-suara"},
+        {"label": "VIVA", "url": "https://www.viva.co.id/berita/metro/1944013-bayi-meninggal-di-rsud-tanjung-priok-pramono-saya-minta-audit-jangan-sampai-terulang-lagi"},
+        {"label": "Liputan6", "url": "https://www.liputan6.com/news/read/8336070/pramono-minta-audit-kematian-bayi-di-rsud-tanjung-priok"}
+      ],
+      "why_it_matters": "Public hospital care quality is something every family relies on; the audit result will show whether this was negligence or a system failure.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "CNN Indonesia nasional top headline 16 Nov; covered by 7+ outlets",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-16",
+      "category": "ENV",
+      "event": "IQAir showed Jakarta air quality as unhealthy on Monday morning, second worst in Indonesia behind Depok, while KLHK ISPU put Central Kalimantan at very unhealthy.",
+      "key_numbers": "Jakarta AQI 161 at 05:00 (unhealthy) · PM2.5 69.4 ug/m3 = 13.9x WHO annual guideline · Depok 167 · ISPU 08:00: Central Kalimantan 264 (very unhealthy), South Kalimantan 126, DKI Jakarta 110",
+      "storyline": "karhutla",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "Koran Jakarta (IQAir)", "url": "https://koran-jakarta.com/2026-11-16/iqair-senin-pagi-kualitas-udara-jakarta-tak-sehat-warga-disarankan-pakai-masker-di-luar-rumah"},
+        {"label": "Katadata Databoks (ISPU)", "url": "https://databoks.katadata.co.id/layanan-konsumen-kesehatan/statistik/20c7a9ee0b13ffa/kualitas-udara-kalimantan-tengah-senin-pagi-1611-terburuk-di-indonesia"},
+        {"label": "Antara", "url": "https://www.antaranews.com/berita/5856155/kualitas-udara-jakarta-tak-sehat-pada-senin-pagi"}
+      ],
+      "why_it_matters": "Millions of Jakarta residents breathe air that is 13.9 times above the WHO guideline, and the Kalimantan haze is still severe.",
+      "signals": {"spreading": 2, "wallet": 1, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "Antara terpopuler #9; many outlets ran the daily IQAir story",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-15",
+      "category": "ENV",
+      "event": "BNPB reported floods in Aceh and North Sumatra affecting 28,376 people, while a toddler died in a landslide in Aceh Tengah.",
+      "key_numbers": "28,376 people affected (BNPB, 15 Nov; one summary bullet says 8,376, headline and body say 28,376) · Aceh Tamiang 18,158 affected, 5,088 evacuated, 8 districts · Subulussalam 7,703 affected, emergency status 6-19 Nov · Singkil 124 affected · 2 tropical cyclone seedlings being watched",
+      "storyline": "",
+      "update_of": "E0852",
+      "status": "verified",
+      "sources": [
+        {"label": "Tribunnews", "url": "https://www.tribunnews.com/nasional/7911742/banjir-melanda-aceh-dan-sumut-bnpb-catat-28376-jiwa-terdampak-2-bibit-siklon-tropis-mengintai"},
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261115174057-20-1427415/balita-tewas-tertimbun-longsor-di-aceh-tengah"},
+        {"label": "NU Online", "url": "https://nu.or.id/amp/daerah/banjir-rendam-delapan-kecamatan-di-aceh-tamiang-5-088-warga-mengungsi-FBHb7"}
+      ],
+      "why_it_matters": "Tens of thousands are displaced or affected as the rainy season begins and more cyclone seedlings approach.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-16",
+      "category": "ENV",
+      "event": "The disaster emergency response for karhutla in Kotawaringin Barat (Kobar), Central Kalimantan ended after three months, while BNPB said 254.89 ha in Central Kalimantan are still burning and Manggala Agni said all fires in South Sumatra are out.",
+      "key_numbers": "Kobar emergency ended after 3 months · 254.89 ha still burning in Kalteng (BNPB, 16 Nov) · South Sumatra: all fires out (Manggala Agni)",
+      "storyline": "karhutla",
+      "update_of": "E0854",
+      "status": "verified",
+      "sources": [
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261116102530-20-1427537/3-bulan-dikepung-karhutla-tanggap-darurat-di-kobar-kalteng-berakhir"},
+        {"label": "Antara", "url": "https://www.antaranews.com/berita/5855963/manggala-agni-pastikan-seluruh-karhutla-di-sumsel-telah-padam"},
+        {"label": "Kontan", "url": "https://nasional.kontan.co.id/news/karhutla-kalteng-masih-meluas-25489-hektare-lahan-belum-tertangani"}
+      ],
+      "why_it_matters": "It signals the end of the worst haze season, though Kalimantan air is still the worst in the country.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 0, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-16",
+      "category": "NEWS",
+      "event": "Liputan6 fact-checkers flagged three viral Gibran hoaxes: Luhut taking the diploma case to the International Court, an AI-edited three-finger photo at the resignation, and a fake pensioner-aid video.",
+      "key_numbers": "Luhut/ICJ claim posted 14 Nov (hoax) · three-finger photo circulating 12 Nov (AI-modified) · pensioner-aid video uploaded 10 Jun (hoax)",
+      "storyline": "gibran-ijazah-mk",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "Liputan6 Cek Fakta", "url": "https://liputan6.com/cek-fakta/read/8336056/gibran-rakabuming-raka-jadi-sasaran-hoaks-simak-faktanya"}
+      ],
+      "why_it_matters": "Fake claims around Gibran's resignation are spreading on Facebook while the real VP succession is under way.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "Viral on Facebook per Liputan6 (no view counts)",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-15",
+      "category": "ENV",
+      "event": "The Forestry Ministry said Alas Purwo National Park is only a candidate and not yet confirmed as a feasible second habitat for the Javan rhino.",
+      "key_numbers": "No figures confirmed (article text not opened)",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "Antara", "url": "https://www.antaranews.com/berita/5856647/kemenhut-alas-purwo-potensial-dikaji-jadi-habitat-kedua-badak-jawa"},
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261115174833-20-1427417/kemenhut-alas-purwo-belum-pasti-layak-jadi-habitat-kedua-badak-jawa"}
+      ],
+      "why_it_matters": "The Javan rhino is critically endangered and lives in a single park, so a second habitat decision matters for its survival.",
+      "signals": {"spreading": 2, "wallet": 0, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "Antara terpopuler #5; two CNN Indonesia pieces on 15 Nov",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-16",
+      "category": "NEWS",
+      "event": "Bea Cukai Banjarmasin revealed an attempt to illegally export 21.8 kg of gold to Malaysia.",
+      "key_numbers": "21.8 kg gold (headline only)",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "Antara", "url": "https://www.antaranews.com/berita/5856619/bea-cukai-banjarmasin-ungkap-ekspor-ilegal-218-kg-emas-ke-malaysia"}
+      ],
+      "why_it_matters": "Illegal gold exports cost the state revenue and show smuggling routes out of Kalimantan.",
+      "signals": {"spreading": 2, "wallet": 0, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "Antara terpopuler #3",
+      "sensitivity": "normal"
+    }
+  ],
+  "gaps": [
+    "Contents of Prabowo's letter to MPR (whether it names two VP candidates) and the outcome of the 16 Nov rapat gabungan: kompas fetch robots-blocked, other article fetches blocked; only headlines seen",
+    "CNN Indonesia photo story 15 Nov 'Kapolri beber kasus penyadapan' and the date of Listyo Sigit's ethics trial (still unannounced in sources read)",
+    "detik terpopuler and CNBC Indonesia pages could not be fetched, so the most-read picture rests on Antara terpopuler and CNN Indonesia only",
+    "Bea Cukai gold, Alas Purwo and Sohibul Iman items rest on headlines/snippets; numbers not verified from the article body"
+  ]
+}
