@@ -1,0 +1,93 @@
+[
+ {
+  "claim": "Prabowo menyampaikan angka-angka ini di malam puncak HUT ke-15 Partai NasDem, Jakarta, Rabu 11 Nov 2026.",
+  "numbers": "HUT ke-15; Rabu 11 Nov 2026",
+  "sources": [
+   "https://katadata.co.id/berita/nasional/6af522a6aeb0d/prabowo-sebut-apbn-bocor-rp480-triliun-per-tahun-imbas-belanja-tak-efisien",
+   "https://investortrust.id/macro/122270/prabowo-gagas-satu-badan-belanja-pemerintah-sebut-potensi-penghmatan-capai-rp480-triliun",
+   "https://www.cnnindonesia.com/ekonomi/20261111222513-78-1426102/prabowo-sebut-rp480-t-belanja-apbn-hangus-ternyata-banyak-kebocoran"
+  ]
+ },
+ {
+  "claim": "Prabowo mengutip laporan Kepala LKPP: sepertiga APBN adalah belanja barang dan jasa, sekitar Rp1.200 triliun.",
+  "numbers": "sepertiga APBN; Rp1.200 T",
+  "sources": [
+   "https://katadata.co.id/berita/nasional/6af522a6aeb0d/prabowo-sebut-apbn-bocor-rp480-triliun-per-tahun-imbas-belanja-tak-efisien",
+   "https://www.cnnindonesia.com/ekonomi/20261111222513-78-1426102/prabowo-sebut-rp480-t-belanja-apbn-hangus-ternyata-banyak-kebocoran",
+   "https://investortrust.id/macro/122270/prabowo-gagas-satu-badan-belanja-pemerintah-sebut-potensi-penghmatan-capai-rp480-triliun"
+  ]
+ },
+ {
+  "claim": "40% dari belanja itu 'hangus' adalah hitungan Kepala LKPP yang dikutip Prabowo ('Beliau hitung dari situ 40% hangus', Katadata). l4: 'menurut hitungan Kepala LKPP yang dikutip Prabowo'.",
+  "numbers": "40%",
+  "sources": [
+   "https://katadata.co.id/berita/nasional/6af522a6aeb0d/prabowo-sebut-apbn-bocor-rp480-triliun-per-tahun-imbas-belanja-tak-efisien",
+   "https://www.cnnindonesia.com/ekonomi/20261111222513-78-1426102/prabowo-sebut-rp480-t-belanja-apbn-hangus-ternyata-banyak-kebocoran",
+   "https://investortrust.id/macro/122270/prabowo-gagas-satu-badan-belanja-pemerintah-sebut-potensi-penghmatan-capai-rp480-triliun"
+  ]
+ },
+ {
+  "claim": "Prabowo sendiri menyebut 40% dari Rp1.200 T = Rp480 T (direct quote di CNN Indonesia). Dipakai di hook: 'Kata Prabowo, Rp480 triliun uang negara hangus'. 'Setahun'/'per hari' sengaja tidak dipakai: tidak ada sumber yang dibuka yang menyebut eksplisit Rp1.200 T itu angka per tahun.",
+  "numbers": "Rp480 T; 40% x Rp1.200 T",
+  "sources": [
+   "https://www.cnnindonesia.com/ekonomi/20261111222513-78-1426102/prabowo-sebut-rp480-t-belanja-apbn-hangus-ternyata-banyak-kebocoran",
+   "https://katadata.co.id/berita/nasional/6af522a6aeb0d/prabowo-sebut-apbn-bocor-rp480-triliun-per-tahun-imbas-belanja-tak-efisien",
+   "https://investortrust.id/macro/122270/prabowo-gagas-satu-badan-belanja-pemerintah-sebut-potensi-penghmatan-capai-rp480-triliun"
+  ]
+ },
+ {
+  "claim": "Contoh dari Prabowo: barang yang sama dibeli dengan 15 harga berbeda; barangnya antara lain bus, mobil pemadam kebakaran, komputer, obat rumah sakit, dibeli tiap daerah sendiri-sendiri.",
+  "numbers": "15 harga",
+  "sources": [
+   "https://investortrust.id/macro/122270/prabowo-gagas-satu-badan-belanja-pemerintah-sebut-potensi-penghmatan-capai-rp480-triliun",
+   "https://katadata.co.id/berita/nasional/6af522a6aeb0d/prabowo-sebut-apbn-bocor-rp480-triliun-per-tahun-imbas-belanja-tak-efisien",
+   "https://www.cnnindonesia.com/ekonomi/20261111222513-78-1426102/prabowo-sebut-rp480-t-belanja-apbn-hangus-ternyata-banyak-kebocoran"
+  ]
+ },
+ {
+  "claim": "Usul Prabowo: bukan 38 provinsi dan 500 kabupaten belanja sendiri-sendiri, tapi satu badan.",
+  "numbers": "38 provinsi; 500 kabupaten",
+  "sources": [
+   "https://investortrust.id/macro/122270/prabowo-gagas-satu-badan-belanja-pemerintah-sebut-potensi-penghmatan-capai-rp480-triliun",
+   "https://katadata.co.id/berita/nasional/6af522a6aeb0d/prabowo-sebut-apbn-bocor-rp480-triliun-per-tahun-imbas-belanja-tak-efisien"
+  ]
+ },
+ {
+  "claim": "14 Agu 2026 (Pidato RAPBN 2027 & Nota Keuangan, Rapat Paripurna DPR), pemerintah/Presiden menyebut LKPP akan ditingkatkan menjadi Badan Pengadaan Pemerintah, dengan potensi efisiensi sekitar 30% dari belanja pengadaan ~Rp1.200 T, yaitu sekitar Rp360 T. Ini target/potensi hemat JIKA pengadaan disatukan, berbeda dari 40%/Rp480 T (11 Nov) yang disebut 'hangus' saat ini. Script (h2, l12, l13) menyebutnya 'dua perkiraan', bukan satu angka yang naik.",
+  "numbers": "14 Agu 2026; 30%; Rp1.200 T; Rp360 T",
+  "sources": [
+   "https://setkab.go.id/presiden-prabowo-konsolidasi-pengadaan-pemerintah-berpotensi-hemat-hingga-rp360-triliun/",
+   "https://databoks.katadata.co.id/datapublish/2026/08/14/prabowo-akan-ubah-lkpp-jadi-badan-pengadaan-bidik-efisiensi-30"
+  ]
+ },
+ {
+  "claim": "Angka 40%/Rp480 T adalah perkiraan; pemberitaan tidak merinci metode atau tahun dasarnya.",
+  "numbers": "",
+  "sources": [
+   "https://investortrust.id/macro/122270/prabowo-gagas-satu-badan-belanja-pemerintah-sebut-potensi-penghmatan-capai-rp480-triliun",
+   "https://www.cnnindonesia.com/ekonomi/20261111222513-78-1426102/prabowo-sebut-rp480-t-belanja-apbn-hangus-ternyata-banyak-kebocoran"
+  ]
+ },
+ {
+  "claim": "Menurut Katadata, penyatuan belanja terpusat kemungkinan belum akan dilaksanakan dalam waktu dekat (wording reporter Katadata, diatribusikan ke Katadata).",
+  "numbers": "",
+  "sources": [
+   "https://katadata.co.id/berita/nasional/6af522a6aeb0d/prabowo-sebut-apbn-bocor-rp480-triliun-per-tahun-imbas-belanja-tak-efisien"
+  ]
+ },
+ {
+  "claim": "NOT USED (unverified or conflicting): 'Rp400 T hemat' (judul harianenergi, tidak ada di CNN/Katadata/Investortrust), '+Rp100 M ke provinsi' (tidak ditemukan), dan kutipan Prabowo '30 persen APBN kita bocor' (CNN) yang tidak cocok dengan 1/3 x 40% (~13% APBN); tidak dipakai agar tidak membingungkan. Tirto gagal dibuka.",
+  "numbers": "",
+  "sources": [
+   "https://harianenergi.com/detail/1442510/prabowo-sebut-30-belanja-barang-jasa-apbn-hangus-janji-hemat-rp-400-t",
+   "https://www.cnnindonesia.com/ekonomi/20261111222513-78-1426102/prabowo-sebut-rp480-t-belanja-apbn-hangus-ternyata-banyak-kebocoran"
+  ]
+ },
+ {
+  "claim": "Foto Prabowo: official portrait 2024, Ministry of State Secretariat, Public domain, via Wikimedia Commons.",
+  "numbers": "",
+  "sources": [
+   "https://commons.wikimedia.org/wiki/File:Prabowo_Subianto_2024_official_portrait_(3x4_cropped).jpg"
+  ]
+ }
+]

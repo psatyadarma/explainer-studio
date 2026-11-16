@@ -1,0 +1,102 @@
+{
+  "direction": "[energetic, conversational, explaining to a friend]",
+  "format": "standard",
+  "hook_style": "person_collage",
+  "lines": [
+    {
+      "id": "h1",
+      "tag": "[intrigued, punchy]",
+      "text": "Kata Prabowo, Rp480 triliun uang negara hangus.",
+      "say": "Kata Prabowo, empat ratus delapan puluh triliun rupiah uang negara hangus."
+    },
+    {
+      "id": "h2",
+      "tag": "[curious, teasing]",
+      "text": "Hangusnya di mana? Dan ini bukan satu-satunya angka.",
+      "say": "Hangusnya di mana? Dan ini bukan satu-satunya angka."
+    },
+    {
+      "id": "rd",
+      "tagline": true,
+      "text": "Rangkumin dong!"
+    },
+    {
+      "id": "l1",
+      "tag": "[explaining, quick]",
+      "text": "Jadi gini. Rabu lalu, di HUT ke-15 NasDem, Prabowo cerita soal laporan Kepala LKPP.",
+      "say": "Jadi gini. Rabu lalu, di ulang tahun ke lima belas NasDem, Prabowo cerita soal laporan Kepala, El Ka Pe Pe."
+    },
+    {
+      "id": "l3",
+      "tag": "[explaining]",
+      "text": "Isinya: sepertiga APBN buat belanja barang dan jasa. Sekitar Rp1.200 triliun.",
+      "say": "Isinya: sepertiga, A Pe Be En, buat belanja barang dan jasa. Sekitar seribu dua ratus triliun rupiah."
+    },
+    {
+      "id": "l4",
+      "tag": "[serious]",
+      "text": "Dari situ, menurut hitungan Kepala LKPP yang dikutip Prabowo, 40 persen hangus.",
+      "say": "Dari situ, menurut hitungan Kepala El Ka Pe Pe yang dikutip Prabowo, empat puluh persen hangus."
+    },
+    {
+      "id": "l5",
+      "tag": "[emphatic, dramatic, slow]",
+      "text": "Artinya? Rp480 triliun. Hangus.",
+      "say": "Artinya? Empat ratus delapan puluh triliun. Hangus."
+    },
+    {
+      "id": "l7",
+      "tag": "[curious]",
+      "text": "Hangusnya di mana? Contoh dari Prabowo: barang yang sama, ada 15 harga berbeda.",
+      "say": "Hangusnya di mana? Contoh dari Prabowo: barang yang sama, ada lima belas harga berbeda."
+    },
+    {
+      "id": "l8",
+      "tag": "[explaining, quick]",
+      "text": "Bus, mobil pemadam, komputer, obat rumah sakit. Tiap daerah beli sendiri-sendiri.",
+      "say": "Bus, mobil pemadam, komputer, obat rumah sakit. Tiap daerah beli sendiri-sendiri."
+    },
+    {
+      "id": "l9",
+      "tag": "[matter-of-fact]",
+      "text": "Usulnya: jangan 38 provinsi dan 500 kabupaten belanja sendiri. Cukup satu badan.",
+      "say": "Usulnya: jangan tiga puluh delapan provinsi dan lima ratus kabupaten belanja sendiri. Cukup satu badan."
+    },
+    {
+      "id": "l10",
+      "tag": "[explaining]",
+      "text": "Agustus lalu, pemerintah bilang LKPP mau jadi Badan Pengadaan Pemerintah.",
+      "say": "Agustus lalu, pemerintah bilang, El Ka Pe Pe mau jadi Badan Pengadaan Pemerintah."
+    },
+    {
+      "id": "l11",
+      "tag": "[lowering voice, skeptical]",
+      "text": "Tapi ini yang jarang dibahas. Angkanya perkiraan. Cara hitungnya belum dirinci.",
+      "say": "Tapi ini yang jarang dibahas. Angkanya perkiraan. Cara hitungnya belum dirinci."
+    },
+    {
+      "id": "l12",
+      "tag": "[revealing]",
+      "text": "Agustus, di depan DPR, angkanya beda: kalau belanja disatukan, potensi hematnya sekitar 30 persen, Rp360 triliun.",
+      "say": "Agustus, di depan, De Pe Er, angkanya beda: kalau belanja disatukan, potensi hematnya sekitar tiga puluh persen, tiga ratus enam puluh triliun."
+    },
+    {
+      "id": "l13",
+      "tag": "[emphatic]",
+      "text": "November: yang disebut hangus 40 persen, Rp480 triliun. Dua perkiraan, dari belanja Rp1.200 triliun yang sama.",
+      "say": "November: yang disebut hangus empat puluh persen, empat ratus delapan puluh triliun. Dua perkiraan, dari belanja seribu dua ratus triliun yang sama."
+    },
+    {
+      "id": "cta",
+      "tag": "[playful, asking the viewer]",
+      "text": "Kalau kamu yang ngatur: belanja dipusatkan, atau tetap per daerah? Kenapa? Komen!",
+      "say": "Kalau kamu yang ngatur: belanja dipusatkan, atau tetap per daerah? Kenapa? Komen!"
+    },
+    {
+      "id": "end",
+      "tag": "[friendly, upbeat]",
+      "text": "Follow Rangkumin Dong, biar nggak ketinggalan!"
+    }
+  ],
+  "tail": 0.9
+}

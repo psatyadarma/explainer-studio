@@ -36,7 +36,7 @@ _Written by the analyst each Sunday from real IG/YT numbers (W46, 15 Nov). The w
 
 ## What the picks show
 
-_Recomputed by engine/prefs.py from 28 days of offers, 16 picks._
+_Recomputed by engine/prefs.py from 29 days of offers, 17 picks._
 
 - 2026-10-20: picked #3  "Rupiah Rp18.046: besok BI putuskan, tahan 5,75% atau naik ke 6%?", storyline rupiah
 - 2026-10-21: picked #?  "Karhutla: siapa yang tanggung jawab atas asap? (Lutfi vs Singapura)", storyline karhutla
@@ -65,8 +65,9 @@ _Recomputed by engine/prefs.py from 28 days of offers, 16 picks._
 - 2026-11-13: no pick by the deadline (default #1 used; not counted)
 - 2026-11-14: no pick by the deadline (default #1 used; not counted)
 - 2026-11-15: picked #?  "Minggu Depan 16-22 Nov: 4 tanggal yang nyentuh dompet dan politikmu", storyline minggu-depan; rupiah; gibran-ijazah-mk
+- 2026-11-16: picked #?  "Prabowo: pengadaan bocor ~Rp480 T per tahun. Bocornya di mana?", storyline -
 
-- Picks the recommended idea 4/16 times; average pick rank 2.3.
+- Picks the recommended idea 4/17 times; average pick rank 2.3.
 - Storylines picked often when offered: definisi-korupsi, crypto-hacks, listyo-sigit-penyadapan.
-- Offered 3+ times, never picked: tax-policy, msci-reclassification, chip-ram-prices, corruption-cases, jokowi-ijazah-roy-suryo (lower priority unless big news).
-- Sensitivity of picks: {'medium': 1, '?': 15}.
+- Offered 3+ times, never picked: tax-policy, msci-reclassification, chip-ram-prices, corruption-cases, jokowi-ijazah-roy-suryo, nvidia-huang-probe (lower priority unless big news).
+- Sensitivity of picks: {'medium': 1, '?': 16}.

@@ -1,0 +1,580 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Rp480 T hangus, di mana? — Rangkumin Dong</title>
+<link rel="stylesheet" href="../../../../styles/sticker/sticker.css">
+<script src="../../../../styles/sticker/sticker.js"></script>
+<script>window.SUB_MODE = "word"; window.SUB_LEAD = 0.0;</script>
+<script src="build/timing.js"></script>
+<!-- A only (no B since 9 Nov). Hook: person_collage, Prabowo (copied from tests/hook-collage via 2026-11-12). -->
+<style>
+  .zone { position: absolute; width: 1080px; height: 1920px; }
+  .big { font-weight: 900; letter-spacing: -6px; line-height: .9; white-space: nowrap; font-variant-numeric: tabular-nums; }
+  .lbl { font-weight: 800; font-size: 36px; color: var(--slate); white-space: nowrap; text-align: center; }
+  .note { font-weight: 700; font-size: 30px; color: var(--slate); white-space: nowrap; text-align: center; }
+  .bub { background: #fff; border-radius: 30px; padding: 20px 30px 24px; text-align: center;
+         font-weight: 900; font-size: 46px; line-height: 1.08; letter-spacing: -1px; box-shadow: 0 0 0 9px #fff, 0 18px 26px rgba(27,36,48,.2); }
+  .bub small { display: block; font-weight: 700; font-size: 26px; color: var(--slate); letter-spacing: 0; margin-top: 8px; }
+  .chip { background: #fff; border-radius: 24px; padding: 14px 26px 18px; font-weight: 900; font-size: 46px; letter-spacing: -1px; white-space: nowrap; text-align: center;
+          box-shadow: 0 0 0 8px #fff, 0 14px 24px rgba(27,36,48,.18); font-variant-numeric: tabular-nums; }
+  .chip small { display: block; font-weight: 700; font-size: 28px; color: var(--slate); letter-spacing: 0; margin-top: 2px; }
+  .stampx { font-weight: 900; letter-spacing: -2px; color: var(--accent); border: 10px solid var(--accent); border-radius: 22px; padding: 6px 28px 12px;
+            white-space: nowrap; background: rgba(255,255,255,.94); text-align: center; line-height: 1; }
+  .stampx.grey { color: var(--slate); border-color: var(--slate); border-style: dashed; }
+  .lbar { background: var(--ink); color: var(--hi); font-weight: 900; font-size: 40px; letter-spacing: 3px; padding: 8px 22px 12px; border-radius: 8px; white-space: nowrap; }
+  .ptag { background: #fff; color: var(--ink); font-weight: 900; font-size: 34px; padding: 6px 16px 10px; border-radius: 12px; white-space: nowrap;
+          border: 4px solid var(--ink); box-shadow: 0 0 0 5px #fff, 0 10px 16px rgba(27,36,48,.2); }
+  .ico { text-align: center; }
+  .ico .cap { font-weight: 900; font-size: 30px; white-space: nowrap; margin-top: 6px; }
+  .cnt { text-align: center; }
+  .cnt .n { font-weight: 900; font-size: 170px; letter-spacing: -6px; line-height: .9; color: var(--accent); font-variant-numeric: tabular-nums; }
+  .cnt .u { font-weight: 900; font-size: 46px; letter-spacing: -1px; }
+  .track { position: absolute; height: 76px; border-radius: 16px; background: #DDE2E7; overflow: hidden; box-shadow: 0 0 0 6px #fff; }
+  .track .fill { position: absolute; left: 0; top: 0; height: 100%; border-radius: 16px; transform-origin: 0 50%; }
+  .split { width: 340px; height: 400px; background: #fff; border-radius: 30px; box-shadow: 0 0 0 9px #fff, 0 18px 26px rgba(27,36,48,.2);
+           display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 14px; border: 5px solid #DDE2E7; }
+  .split b { font-weight: 900; font-size: 50px; letter-spacing: -1px; }
+  #loop { position: absolute; left: 0; top: 0; z-index: 5; background: var(--accent); color: #fff; font-weight: 900; font-size: 52px; white-space: nowrap;
+          padding: 10px 24px 14px; border-radius: 16px; box-shadow: 0 0 0 7px #fff, 0 12px 20px rgba(27,36,48,.25); opacity: 0; transform-origin: 50% 50%; }
+  #loop.done { background: var(--ink); }
+  #credit { position: absolute; left: 60px; top: 1164px; z-index: 6; font-weight: 700; font-size: 22px; color: var(--slate); background: rgba(243,239,230,.9);
+            padding: 2px 10px 4px; border-radius: 8px; white-space: pre; line-height: 1.3; }
+  #endcard { position: absolute; inset: 0; z-index: 8; display: flex; flex-direction: column; align-items: center; justify-content: center;
+             gap: 22px; background: var(--paper); opacity: 0; }
+  #endcard .logo { background: var(--accent); color: #fff; font-weight: 900; font-size: 116px; letter-spacing: -4px;
+                   padding: 30px 58px 40px; border-radius: 44px; line-height: .95; text-align: center; transform: rotate(-3deg); }
+  #endcard .tl2 { font-weight: 800; font-size: 54px; color: var(--slate); }
+  #endcard .h { font-weight: 900; font-size: 50px; background: var(--ink); color: #fff; padding: 12px 26px; border-radius: 16px; }
+  #endcard .src { font-weight: 700; font-size: 34px; color: var(--slate); margin-top: 6px; text-align: center; line-height: 1.4; max-width: 920px; }
+  .ar { fill: none; stroke: #1B2430; stroke-width: 9; stroke-linecap: round; stroke-linejoin: round; }
+
+  /* ---------- hook: collage look (copied from tests/hook-collage) ---------- */
+  #hookA { position: absolute; inset: 0; z-index: 4; background: #E4D7BC; overflow: hidden; }
+  :root { --news: #F1ECE0; --red: #D6301F; --blk: #17130E; }
+  #hookA .cols { position: absolute; background: repeating-linear-gradient(180deg, rgba(23,19,14,.13) 0 5px, transparent 5px 15px); }
+  #redblock { position: absolute; left: -160px; top: 330px; width: 1400px; height: 520px; background: var(--red);
+              transform: rotate(-9deg); box-shadow: 0 16px 26px rgba(23,19,14,.25); }
+  #redblock::after { content: ""; position: absolute; inset: 0;
+    background: radial-gradient(circle, rgba(23,19,14,.18) 2.2px, transparent 2.8px) 0 0 / 11px 11px; }
+  #blkline { position: absolute; left: -100px; top: 900px; width: 1300px; height: 26px; background: var(--blk); transform: rotate(-9deg); }
+  #person { position: absolute; left: 700px; top: 0; width: 680px; transform-origin: 50% 100%; filter: url(#cut); }
+  #person img { width: 100%; display: block; filter: grayscale(1) contrast(1.3) brightness(1.06); }
+  #person .ht { position: absolute; inset: 0; mix-blend-mode: multiply;
+    -webkit-mask: url(../../assets/people/prabowo-subianto.png) 0 0 / 100% 100%;
+    background: radial-gradient(circle, rgba(23,19,14,.42) 1.9px, transparent 2.5px) 0 0 / 8px 8px,
+                linear-gradient(rgba(214,160,90,.18), rgba(214,160,90,.18)); }
+  .rn { position: absolute; left: 62px; display: flex; gap: 4px; align-items: flex-end; }
+  .rn i { font-style: normal; display: inline-block; text-align: center; line-height: 1; padding: 6px 8px 8px;
+          box-shadow: 0 6px 10px rgba(23,19,14,.28); }
+  .strip { position: absolute; padding: 12px 28px 18px; font-weight: 900; text-transform: uppercase; white-space: nowrap;
+           box-shadow: 0 10px 16px rgba(23,19,14,.28); }
+  .tape { position: absolute; width: 120px; height: 38px; background: rgba(238,226,170,.78); box-shadow: 0 2px 4px rgba(23,19,14,.15); }
+  .label { position: absolute; background: #fff; padding: 14px 24px 16px; font-family: "Courier 10 Pitch", Courier, monospace;
+           font-weight: 700; font-size: 34px; color: var(--blk); white-space: nowrap; box-shadow: 0 10px 16px rgba(23,19,14,.25); }
+  .label small { display: block; font-size: 26px; font-weight: 400; margin-top: 4px; }
+  #ledge { position: absolute; left: -40px; top: 1236px; width: 1160px; height: 760px; background: var(--news);
+           box-shadow: 0 -10px 22px rgba(23,19,14,.22); }
+  #ledge::before { content: ""; position: absolute; left: 70px; right: 70px; top: 300px; bottom: 0;
+    background: repeating-linear-gradient(180deg, rgba(23,19,14,.10) 0 4px, transparent 4px 13px); }
+  #hookA .credit { position: absolute; left: 70px; top: 1250px; font-weight: 700; font-size: 22px; color: #5b5144; }
+  .bill { position: absolute; left: 0; top: 0; width: 150px; height: 76px; background: #6FA86B; border: 5px solid #17130E; border-radius: 6px;
+          box-shadow: 0 8px 12px rgba(23,19,14,.28); display: flex; align-items: center; justify-content: center;
+          font-weight: 900; font-size: 30px; color: #17130E; opacity: 0; }
+  .bill::before { content: ""; position: absolute; inset: 8px; border: 3px solid rgba(23,19,14,.45); border-radius: 4px; }
+  #grain { position: absolute; inset: 0; pointer-events: none; opacity: .28; mix-blend-mode: multiply; }
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute">
+  <filter id="stk" x="-10%" y="-10%" width="120%" height="125%">
+    <feMorphology in="SourceAlpha" operator="dilate" radius="8" result="d"/>
+    <feFlood flood-color="#fff"/><feComposite in2="d" operator="in" result="o"/>
+    <feGaussianBlur in="d" stdDeviation="10" result="b"/><feOffset in="b" dy="14" result="bo"/>
+    <feFlood flood-color="#1B2430" flood-opacity=".22"/><feComposite in2="bo" operator="in" result="sh"/>
+    <feMerge><feMergeNode in="sh"/><feMergeNode in="o"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="cut" x="-5%" y="-5%" width="110%" height="110%">
+    <feMorphology in="SourceAlpha" operator="dilate" radius="9" result="d"/>
+    <feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="4" result="n"/>
+    <feDisplacementMap in="d" in2="n" scale="10" result="dd"/>
+    <feFlood flood-color="#FBF8F1"/><feComposite in2="dd" operator="in" result="edge"/>
+    <feGaussianBlur in="dd" stdDeviation="9" result="b"/><feOffset in="b" dy="14" result="bo"/>
+    <feFlood flood-color="#17130E" flood-opacity=".35"/><feComposite in2="bo" operator="in" result="sh"/>
+    <feMerge><feMergeNode in="sh"/><feMergeNode in="edge"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="paper"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="7"/>
+    <feColorMatrix values="0 0 0 0 .45  0 0 0 0 .38  0 0 0 0 .3  0 0 0 1.1 -.35"/></filter>
+</svg>
+<div id="stage">
+  <div id="world">
+
+    <!-- zT (0,0): tagline -->
+    <div id="zT" class="zone" style="left:0; top:0;">
+      <div id="stamp" class="abs stamp sticker" style="left:540px; top:960px; font-size:110px;">Rangkumin dong!</div>
+    </div>
+
+    <!-- z1 (1240,0): l1 — HUT NasDem → laporan Kepala LKPP -->
+    <div id="z1" class="zone" style="left:1240px; top:0;">
+      <div id="aBar" class="abs lbar" style="left:540px; top:440px;">RABU, 11 NOV 2026</div>
+      <div id="aStg" class="abs sticker-svg" style="left:540px; top:640px;"></div>
+      <div id="aHut" class="abs tag accent sticker" style="left:540px; top:640px; font-size:52px;">HUT ke-15 NasDem</div>
+      <div id="aPb" class="abs chip" style="left:540px; top:800px; font-size:40px;">Prabowo cerita soal…</div>
+      <svg id="aAr" class="abs" style="left:540px; top:900px;" width="70" height="80" viewBox="0 0 80 100"><path class="ar" d="M40 8 V86 M14 62 L40 90 L66 62"/></svg>
+      <div id="aDoc" class="abs sticker-svg" style="left:540px; top:1110px;"></div>
+      <div id="aLk" class="abs chip" style="left:540px; top:1360px; font-size:34px;">LKPP = Lembaga Kebijakan Pengadaan<small>Barang/Jasa Pemerintah</small></div>
+    </div>
+
+    <!-- z2 (2480,0): l3-l5 — APBN pie -->
+    <div id="z2" class="zone" style="left:2480px; top:0;">
+      <div id="pBar" class="abs lbar" style="left:540px; top:420px;">ISI LAPORANNYA</div>
+      <div id="pPie" class="abs sticker-svg" style="left:540px; top:830px;"></div>
+      <div id="pTg" class="abs tag accent sticker" style="left:820px; top:500px; font-size:44px;">40% hangus</div>
+      <div id="pCh" class="abs chip" style="left:540px; top:1250px;">Belanja barang &amp; jasa<small><span id="pChA">≈ Rp<span id="pChN">1.200</span> triliun · </span>sepertiga APBN</small></div>
+      <div id="pNt" class="abs note" style="left:540px; top:1375px;">menurut hitungan Kepala LKPP, dikutip Prabowo</div>
+      <div id="pBig" class="abs chip" style="left:540px; top:830px; font-size:120px; letter-spacing:-5px; padding:10px 34px 18px;">Rp<span id="pBigN">480</span> T</div>
+      <div id="pSt" class="abs stampx" style="left:560px; top:1030px; font-size:104px;">HANGUS</div>
+    </div>
+
+    <!-- z3 (0,2400): l7 — 15 prices for the same item -->
+    <div id="z3" class="zone" style="left:0; top:2400px;">
+      <div id="cHd" class="abs headline" style="left:540px; top:440px; font-size:84px; white-space:nowrap;">Hangusnya <span class="acc">di mana?</span></div>
+      <div id="cNt" class="abs note" style="left:540px; top:540px;">contoh dari Prabowo</div>
+      <div id="cLap" class="abs sticker-svg" style="left:540px; top:900px;"></div>
+      <div id="cTags"></div>
+      <div id="cCh" class="abs chip" style="left:540px; top:1330px;">barang sama, <span style="color:var(--accent)">15 harga</span></div>
+    </div>
+
+    <!-- z4 (1240,2400): l8 — items + every region buys alone -->
+    <div id="z4" class="zone" style="left:1240px; top:2400px;">
+      <div id="i1" class="abs ico" style="left:170px; top:560px;"><div class="sv"></div><div class="cap">Bus</div></div>
+      <div id="i2" class="abs ico" style="left:405px; top:560px;"><div class="sv"></div><div class="cap">Mobil pemadam</div></div>
+      <div id="i3" class="abs ico" style="left:650px; top:560px;"><div class="sv"></div><div class="cap">Komputer</div></div>
+      <div id="i4" class="abs ico" style="left:880px; top:560px;"><div class="sv"></div><div class="cap">Obat RS</div></div>
+      <div id="dMap" class="abs" style="left:540px; top:1010px; width:900px; height:360px;"></div>
+      <div id="dCh" class="abs chip" style="left:540px; top:1330px;">tiap daerah <span style="color:var(--accent)">beli sendiri</span></div>
+    </div>
+
+    <!-- z5 (2480,2400): l9-l10 — 38 + 500 → one body -->
+    <div id="z5" class="zone" style="left:2480px; top:2400px;">
+      <div id="uBar" class="abs lbar" style="left:540px; top:420px;">USULNYA</div>
+      <div id="uX" class="abs tag sticker" style="left:540px; top:540px; font-size:40px;">jangan belanja sendiri-sendiri</div>
+      <div id="u1" class="abs cnt" style="left:290px; top:720px;"><div class="n"><span id="u1n">38</span></div><div class="u">provinsi</div></div>
+      <div id="u2" class="abs cnt" style="left:790px; top:720px;"><div class="n"><span id="u2n">500</span></div><div class="u">kabupaten</div></div>
+      <div id="uCarts"></div>
+      <div id="uBd" class="abs sticker-svg" style="left:540px; top:1020px;"></div>
+      <div id="uSt" class="abs stampx" style="left:540px; top:1200px; font-size:84px;">SATU BADAN</div>
+      <div id="uAg" class="abs chip" style="left:540px; top:1370px; font-size:36px;">LKPP → Badan Pengadaan Pemerintah<small>rencana yang disebut pemerintah, Agustus 2026</small></div>
+    </div>
+
+    <!-- z6 (0,4800): l11 — the turn -->
+    <div id="z6" class="zone" style="left:0; top:4800px;">
+      <div id="tHd" class="abs headline" style="left:540px; top:460px; font-size:120px;">Tapi…</div>
+      <div id="tSb" class="abs note" style="left:540px; top:580px; font-size:40px; color:var(--ink);">ini yang jarang dibahas</div>
+      <div id="tBig" class="abs chip" style="left:540px; top:850px; font-size:150px; letter-spacing:-6px; padding:10px 40px 22px; color:var(--slate);">Rp480 T</div>
+      <div id="tSt" class="abs stampx" style="left:580px; top:985px; font-size:76px;">PERKIRAAN</div>
+      <div id="tCh" class="abs chip" style="left:540px; top:1230px; font-size:42px;">cara hitungnya<br><span style="color:var(--accent)">belum dirinci</span></div>
+    </div>
+
+    <!-- z7 (1240,4800): l12-l13 — two estimates, same Rp1.200 T -->
+    <div id="z7" class="zone" style="left:1240px; top:4800px;">
+      <div id="vBar" class="abs lbar" style="left:540px; top:410px;">ANGKA LAIN</div>
+      <div id="vA" class="abs" style="left:540px; top:700px; width:880px; height:300px;">
+        <div class="lbl" style="position:absolute; left:0; top:0; text-align:left; color:var(--ink); font-size:40px; font-weight:900;">14 Agu · di depan DPR</div>
+        <div class="note" style="position:absolute; right:0; top:8px; font-size:28px;">dari Rp1.200 T</div>
+        <div class="track" style="left:0; top:66px; width:880px;"><div id="vAf" class="fill" style="width:264px; background:var(--slate);"></div></div>
+        <div id="vAl" class="lbl" style="position:absolute; left:0; top:160px; text-align:left; font-size:34px;">potensi hemat kalau belanja disatukan</div>
+        <div id="vAv" class="chip" style="position:absolute; left:0; top:212px; font-size:44px; padding:8px 20px 12px;">30% → Rp360 T</div>
+      </div>
+      <div id="vB" class="abs" style="left:540px; top:1060px; width:880px; height:300px;">
+        <div class="lbl" style="position:absolute; left:0; top:0; text-align:left; color:var(--ink); font-size:40px; font-weight:900;">11 Nov · HUT NasDem</div>
+        <div class="note" style="position:absolute; right:0; top:8px; font-size:28px;">dari Rp1.200 T</div>
+        <div class="track" style="left:0; top:66px; width:880px;"><div id="vBf" class="fill" style="width:352px; background:var(--accent);"></div></div>
+        <div id="vBl" class="lbl" style="position:absolute; left:0; top:160px; text-align:left; font-size:34px;">yang disebut hangus</div>
+        <div id="vBv" class="chip" style="position:absolute; left:0; top:212px; font-size:44px; padding:8px 20px 12px; color:var(--accent);">40% → Rp480 T</div>
+      </div>
+      <div id="vSt" class="abs stampx" style="left:540px; top:1295px; font-size:58px;">DUA PERKIRAAN</div>
+      <div id="vCh" class="abs chip" style="left:540px; top:1420px; font-size:38px;">dari belanja Rp1.200 T yang sama</div>
+    </div>
+
+    <!-- zQ (2480,4800): CTA -->
+    <div id="zQ" class="zone" style="left:2480px; top:4800px;">
+      <div id="qHd" class="abs headline" style="left:540px; top:480px; font-size:80px; white-space:nowrap;">Kalau kamu<br><span class="acc">yang ngatur?</span></div>
+      <div id="qA" class="abs split" style="left:300px; top:880px;"><div class="sv"></div><b>Dipusatkan</b></div>
+      <div id="qOr" class="abs" style="left:540px; top:880px; font-weight:900; font-size:50px; color:var(--slate);">atau</div>
+      <div id="qB" class="abs split" style="left:780px; top:880px;"><div class="sv"></div><b>Per daerah</b></div>
+      <div id="qK" class="abs bub" style="left:540px; top:1200px; font-size:70px;">Kenapa?</div>
+      <div id="qCom" class="abs sticker-svg" style="left:330px; top:1370px;"></div>
+      <div id="qKm" class="abs tag accent sticker" style="left:620px; top:1370px; font-size:60px;">Komen!</div>
+    </div>
+  </div>
+
+  <!-- hook overlay: person_collage, Prabowo -->
+  <div id="hookA">
+    <div class="cols" style="left:40px; top:200px; width:300px; height:1040px; transform:rotate(-2deg)"></div>
+    <div class="cols" style="left:380px; top:160px; width:300px; height:1080px; transform:rotate(1deg)"></div>
+    <div class="cols" style="left:720px; top:210px; width:330px; height:1040px; transform:rotate(-1deg)"></div>
+    <div id="redblock"></div>
+    <div id="blkline"></div>
+    <div id="bills"></div>
+    <div id="person"><img src="../../assets/people/prabowo-subianto.png" alt=""><div class="ht"></div></div>
+    <div id="ledge"></div>
+    <div id="hBox" class="abs" style="left:830px; top:1140px;"></div>
+    <div id="r1" class="rn" style="top:330px;"></div>
+    <div id="r2" class="strip" style="left:62px; top:440px; background:#FFD23F; color:var(--blk); font-size:76px; font-family:'GFS Baskerville','DejaVu Serif',serif;">Di mana?</div>
+    <div id="hDt" class="label" style="left:70px; top:580px; font-size:30px;">HUT ke-15 NasDem · 11 Nov 2026</div>
+    <div id="hQW" class="abs" style="left:330px; top:600px;"><div id="hQ" class="strip" style="position:relative; background:var(--red); color:#fff; font-size:110px; letter-spacing:-2px;">DI MANA<span id="hQm">?</span></div></div>
+    <div id="nameW" class="abs" style="left:330px; top:760px;">
+      <div class="label" id="name" style="position:relative">PRABOWO SUBIANTO<small>Presiden RI</small></div>
+      <div class="tape" style="left:-36px; top:-16px; transform:rotate(-30deg)"></div>
+      <div class="tape" style="right:-40px; bottom:-12px; transform:rotate(-26deg); width:100px"></div>
+    </div>
+    <div id="b1" class="strip" style="left:70px; top:880px; background:var(--blk); color:#fff; font-size:60px;">Kata Prabowo</div>
+    <div id="b2" class="strip" style="left:110px; top:985px; background:#FFD23F; color:var(--blk); font-size:64px;">Rp480 triliun</div>
+    <div id="b3" class="strip" style="left:80px; top:1095px; background:#fff; color:var(--red); font-size:64px;">hangus</div>
+    <div class="credit" id="hCr">Foto: Ministry of State Secretariat, Public domain, via Wikimedia Commons</div>
+    <svg id="grain" width="1080" height="1920"><rect width="1080" height="1920" filter="url(#paper)"/></svg>
+  </div>
+
+  <div id="loop">angka lain?</div>
+  <div id="brand"><div class="dot"></div><b>Rangkumin Dong</b></div>
+  <div id="credit"></div>
+  <div id="subs"></div>
+  <div id="endcard">
+    <div class="logo">RANGKUMIN<br>DONG</div>
+    <div class="tl2">Berita ribet? Rangkumin dong.</div>
+    <div class="h">Follow @rangkumindong</div>
+    <div class="src">Sumber: CNN Indonesia · Investortrust · Katadata ·<br>Setkab · Databoks · lengkap di komentar</div>
+    <div class="src" style="font-size:28px; margin-top:0; color:var(--ink);">Rp480 T = perkiraan yang disampaikan Presiden, bukan hasil audit</div>
+    <div class="src" style="font-size:28px; margin-top:0;">Foto Prabowo: Ministry of State Secretariat,<br>Public domain, via Wikimedia Commons</div>
+  </div>
+  <div id="progress"></div>
+</div>
+
+<script>
+const $ = (id) => document.getElementById(id);
+const T = window.TIMING;
+window.DURATION = T.duration;
+const at = K.at, W = K.word;
+const END = at('end', -0.15);
+const fmt = (n) => String(Math.round(n)).replace(/\B(?=(\d{3})+(?!\d))/g, '.');
+
+// ---------- SVG stickers ----------
+const docSVG = () => `<svg width="380" height="420" viewBox="0 0 380 420"><path d="M40 20 H270 L340 90 V400 H40 Z" fill="#fff" stroke="#1B2430" stroke-width="9" stroke-linejoin="round"/>
+  <path d="M270 20 V90 H340" fill="#E7E2D6" stroke="#1B2430" stroke-width="9" stroke-linejoin="round"/>
+  <rect x="70" y="60" width="170" height="40" rx="8" fill="#1B2430"/><text x="155" y="90" text-anchor="middle" font-family="Inter" font-weight="900" font-size="28" fill="#FFD23F">LAPORAN</text>
+  <text x="190" y="160" text-anchor="middle" font-family="Inter" font-weight="900" font-size="34" fill="#1B2430">Kepala LKPP</text>
+  ${[200, 240, 280, 320].map((y, i) => `<rect x="80" y="${y}" width="${i === 3 ? 130 : 220}" height="16" rx="8" fill="#C9D0D7"/>`).join('')}
+  <circle cx="290" cy="340" r="34" fill="#FF5A36"/><path d="M276 340 l10 10 l20 -22" stroke="#fff" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+const stageSVG = () => `<svg width="620" height="200" viewBox="0 0 620 200"><rect x="20" y="120" width="580" height="60" rx="12" fill="#3E5568" stroke="#1B2430" stroke-width="7"/>
+  <path d="M60 120 V30 M560 120 V30" stroke="#1B2430" stroke-width="10" stroke-linecap="round"/></svg>`;
+const laptopSVG = () => `<svg width="380" height="270" viewBox="0 0 380 270"><rect x="60" y="20" width="260" height="170" rx="14" fill="#3E5568" stroke="#1B2430" stroke-width="9"/>
+  <rect x="80" y="40" width="220" height="130" rx="6" fill="#9FD3E8"/><path d="M100 150 L150 100 L190 130 L240 70 L280 110" stroke="#fff" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M20 200 H360 L340 250 H40 Z" fill="#C9D0D7" stroke="#1B2430" stroke-width="9" stroke-linejoin="round"/><rect x="150" y="214" width="80" height="12" rx="6" fill="#1B2430"/></svg>`;
+const busSVG = (s = 170) => `<svg width="${s}" height="${s * 0.8}" viewBox="0 0 200 160"><rect x="14" y="20" width="172" height="104" rx="18" fill="#FFD23F" stroke="#1B2430" stroke-width="8"/>
+  ${[0, 1, 2, 3].map((i) => `<rect x="${30 + i * 38}" y="38" width="28" height="34" rx="5" fill="#9FD3E8" stroke="#1B2430" stroke-width="5"/>`).join('')}
+  <rect x="14" y="88" width="172" height="10" fill="#1B2430"/><circle cx="55" cy="128" r="18" fill="#1B2430"/><circle cx="148" cy="128" r="18" fill="#1B2430"/><circle cx="55" cy="128" r="7" fill="#C9D0D7"/><circle cx="148" cy="128" r="7" fill="#C9D0D7"/></svg>`;
+const fireSVG = (s = 170) => `<svg width="${s}" height="${s * 0.8}" viewBox="0 0 200 160"><rect x="14" y="54" width="120" height="70" rx="10" fill="#D6301F" stroke="#1B2430" stroke-width="8"/>
+  <path d="M134 124 V64 H164 L188 92 V124 Z" fill="#D6301F" stroke="#1B2430" stroke-width="8" stroke-linejoin="round"/><rect x="144" y="72" width="22" height="22" rx="4" fill="#9FD3E8" stroke="#1B2430" stroke-width="5"/>
+  <path d="M24 40 L128 18 M24 52 L128 30" stroke="#C9D0D7" stroke-width="7" stroke-linecap="round"/>${[44, 64, 84, 104].map((x) => `<path d="M${x} ${48 - (x - 24) * 0.21} V${36 - (x - 24) * 0.21}" stroke="#C9D0D7" stroke-width="5"/>`).join('')}
+  <rect x="150" y="46" width="18" height="14" rx="4" fill="#3B82F6"/><circle cx="48" cy="128" r="18" fill="#1B2430"/><circle cx="156" cy="128" r="18" fill="#1B2430"/><circle cx="48" cy="128" r="7" fill="#C9D0D7"/><circle cx="156" cy="128" r="7" fill="#C9D0D7"/></svg>`;
+const pcSVG = (s = 170) => `<svg width="${s}" height="${s * 0.8}" viewBox="0 0 200 160"><rect x="30" y="12" width="140" height="96" rx="10" fill="#3E5568" stroke="#1B2430" stroke-width="8"/>
+  <rect x="44" y="26" width="112" height="68" rx="4" fill="#9FD3E8"/><path d="M88 108 L80 136 H120 L112 108" fill="#C9D0D7" stroke="#1B2430" stroke-width="7" stroke-linejoin="round"/><rect x="56" y="134" width="88" height="14" rx="6" fill="#1B2430"/></svg>`;
+const medSVG = (s = 170) => `<svg width="${s}" height="${s * 0.8}" viewBox="0 0 200 160"><rect x="62" y="10" width="76" height="28" rx="6" fill="#FF5A36" stroke="#1B2430" stroke-width="7"/>
+  <rect x="52" y="36" width="96" height="116" rx="14" fill="#fff" stroke="#1B2430" stroke-width="8"/><rect x="88" y="66" width="24" height="64" rx="4" fill="#FF5A36"/><rect x="68" y="86" width="64" height="24" rx="4" fill="#FF5A36"/></svg>`;
+const cartSVG = (s = 60, c = '#3E5568') => `<svg width="${s}" height="${s}" viewBox="0 0 60 60"><path d="M4 10 H14 L22 40 H48 L54 18 H18" fill="none" stroke="${c}" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="25" cy="50" r="5" fill="${c}"/><circle cx="45" cy="50" r="5" fill="${c}"/></svg>`;
+const buildingSVG = (w = 520) => `<svg width="${w}" height="${w * 300 / 520}" viewBox="0 0 620 360"><ellipse cx="310" cy="346" rx="300" ry="12" fill="#1B2430" opacity=".14"/>
+  <path d="M120 120 Q310 -10 500 120 Z" fill="#3E5568" stroke="#1B2430" stroke-width="8" stroke-linejoin="round"/>
+  <rect x="60" y="118" width="500" height="26" rx="6" fill="#E3E7EB" stroke="#1B2430" stroke-width="7"/>
+  ${[0, 1, 2, 3, 4, 5, 6].map((i) => `<rect x="${92 + i * 66}" y="150" width="28" height="160" rx="6" fill="#F3EFE6" stroke="#1B2430" stroke-width="6"/>`).join('')}
+  <rect x="40" y="308" width="540" height="30" rx="8" fill="#9FB0BF" stroke="#1B2430" stroke-width="7"/></svg>`;
+const commentSVG = () => `<svg width="200" height="176" viewBox="0 0 260 230"><path d="M20 30 Q20 10 40 10 H220 Q240 10 240 30 V150 Q240 170 220 170 H110 L60 214 L70 170 H40 Q20 170 20 150 Z" fill="#fff" stroke="#1B2430" stroke-width="8" stroke-linejoin="round"/>
+  <circle cx="80" cy="90" r="14" fill="#1B2430"/><circle cx="130" cy="90" r="14" fill="#1B2430"/><circle cx="180" cy="90" r="14" fill="#1B2430"/></svg>`;
+const boxSVG = () => `<svg width="260" height="200" viewBox="0 0 260 200"><path d="M20 60 H240 V190 H20 Z" fill="#B8864E" stroke="#17130E" stroke-width="8" stroke-linejoin="round"/>
+  <path id="lidL" d="M20 60 L4 26 H120 L130 60 Z" fill="#CFA06A" stroke="#17130E" stroke-width="7" stroke-linejoin="round"/>
+  <path id="lidR" d="M240 60 L256 26 H140 L130 60 Z" fill="#CFA06A" stroke="#17130E" stroke-width="7" stroke-linejoin="round"/>
+  <rect x="60" y="96" width="140" height="54" fill="#F1ECE0" stroke="#17130E" stroke-width="5"/><text x="130" y="136" text-anchor="middle" font-family="Inter" font-weight="900" font-size="38" fill="#17130E">APBN</text>
+  <path id="crack" d="M150 60 L138 92 L156 112 L142 150 L160 190" fill="none" stroke="#17130E" stroke-width="6" stroke-linejoin="round" opacity="0"/></svg>`;
+const dotsMini = () => `<svg width="220" height="150" viewBox="0 0 220 150">${[[30, 40], [70, 60], [110, 50], [150, 70], [190, 55], [50, 100], [95, 110], [140, 105], [180, 115]].map(([x, y]) =>
+  `<circle cx="${x}" cy="${y}" r="10" fill="#3E5568"/>`).join('')}</svg>`;
+const flameSVG = () => `<svg width="90" height="110" viewBox="0 0 90 110"><path d="M45 6 C60 30 82 44 78 72 C75 94 60 104 45 104 C30 104 14 94 12 74 C10 56 22 46 28 34 C32 48 38 52 42 52 C40 36 38 22 45 6 Z" fill="#FF5A36" stroke="#1B2430" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M45 54 C54 66 60 74 58 86 C56 96 50 100 45 100 C38 100 32 96 32 86 C32 76 40 70 45 54 Z" fill="#FFD23F"/></svg>`;
+
+$('aStg').innerHTML = stageSVG();
+$('aDoc').innerHTML = docSVG();
+$('cLap').innerHTML = laptopSVG();
+$('i1').querySelector('.sv').innerHTML = busSVG(); $('i2').querySelector('.sv').innerHTML = fireSVG();
+$('i3').querySelector('.sv').innerHTML = pcSVG(); $('i4').querySelector('.sv').innerHTML = medSVG();
+$('uBd').innerHTML = buildingSVG();
+$('qA').querySelector('.sv').innerHTML = buildingSVG(250);
+$('qB').querySelector('.sv').innerHTML = dotsMini();
+$('qCom').innerHTML = commentSVG();
+$('hBox').innerHTML = boxSVG();
+
+// pie: APBN, one third = belanja barang/jasa, 40% of that slice "hangus"
+const PR = 270, PC = 300;
+$('pPie').innerHTML = `<svg width="600" height="600" viewBox="0 0 600 600"><circle cx="${PC}" cy="${PC}" r="${PR}" fill="#9FB0BF" stroke="#1B2430" stroke-width="9"/>
+  <path id="pSl" fill="#FFD23F" stroke="#1B2430" stroke-width="7" stroke-linejoin="round"/>
+  <path id="pBn" fill="#3A3F46" stroke="#1B2430" stroke-width="7" stroke-linejoin="round"/>
+  <text x="200" y="410" text-anchor="middle" font-family="Inter" font-weight="900" font-size="64" fill="#1B2430">APBN</text>
+  <text id="pSlT" x="${PC + Math.cos((90 - 90) * Math.PI / 180) * 175}" y="${PC + Math.sin((90 - 90) * Math.PI / 180) * 175 + 22}" text-anchor="middle" font-family="Inter" font-weight="900" font-size="60" fill="#1B2430" opacity="0">⅓</text>
+  <g id="pFl" opacity="0" transform="translate(${PC + Math.cos((24 - 90) * Math.PI / 180) * 165 - 45},${PC + Math.sin((24 - 90) * Math.PI / 180) * 165 - 60})">${flameSVG()}</g></svg>`;
+const arc = (a0, a1) => { if (a1 - a0 < 0.2) return ''; const r = (a) => (a - 90) * Math.PI / 180;
+  const x0 = PC + PR * Math.cos(r(a0)), y0 = PC + PR * Math.sin(r(a0)), x1 = PC + PR * Math.cos(r(a1)), y1 = PC + PR * Math.sin(r(a1));
+  return `M${PC} ${PC} L${x0.toFixed(1)} ${y0.toFixed(1)} A${PR} ${PR} 0 ${a1 - a0 > 180 ? 1 : 0} 1 ${x1.toFixed(1)} ${y1.toFixed(1)} Z`; };
+
+// 15 price tags around the laptop ("Rp ?": no real prices on file)
+const tags = [];
+for (let i = 0; i < 15; i++) { const a = -Math.PI / 2 + i / 15 * Math.PI * 2, e = document.createElement('div');
+  e.className = 'abs ptag'; e.textContent = 'Rp ?'; e.style.left = (540 + Math.cos(a) * 390).toFixed(0) + 'px'; e.style.top = (900 + Math.sin(a) * 300).toFixed(0) + 'px';
+  $('z3').appendChild(e); tags.push({ e, rot: ((i * 37) % 21) - 10 }); }
+
+// region dots (rough archipelago), each with its own cart
+const DOTS = [[60, 120], [120, 160], [170, 210], [230, 250], [300, 270], [370, 280], [440, 285], [510, 290], [250, 120], [310, 150], [380, 190],
+  [470, 110], [520, 150], [560, 200], [610, 140], [680, 170], [740, 120], [800, 160], [850, 200], [720, 250], [640, 280], [820, 280]];
+const dots = DOTS.map(([x, y], i) => { const d = document.createElement('div'); d.className = 'abs';
+  d.style.left = x + 'px'; d.style.top = y + 'px';
+  d.innerHTML = `<div style="text-align:center">${cartSVG(54, i % 3 ? '#3E5568' : '#FF5A36')}<div style="width:26px;height:26px;border-radius:50%;background:#1B2430;margin:-4px auto 0;box-shadow:0 0 0 5px #fff"></div></div>`;
+  $('dMap').appendChild(d); return d; });
+
+// carts under the counters (12 + 12), they fly into the one building
+const carts = [];
+for (let s = 0; s < 2; s++) for (let i = 0; i < 12; i++) { const d = document.createElement('div'); d.className = 'abs';
+  const x0 = (s ? 790 : 290) + ((i % 4) - 1.5) * 80, y0 = 880 + Math.floor(i / 4) * 62; d.style.left = x0 + 'px'; d.style.top = y0 + 'px';
+  d.innerHTML = cartSVG(58, s ? '#3E5568' : '#FF5A36'); $('uCarts').appendChild(d); carts.push({ d, x0, y0, i: s * 12 + i }); }
+$('uCarts').className = 'zone'; $('uCarts').style.left = '0'; $('uCarts').style.top = '0';
+
+// banknotes out of the APBN box (hook)
+const BILLS = [[-250, -300, -18], [170, -430, 14], [-420, -200, 8], [130, -620, -10], [-130, -680, 22], [230, -260, -26], [-500, -420, 6], [40, -520, -16]];
+const bills = BILLS.map((b, i) => { const e = document.createElement('div'); e.className = 'bill'; e.textContent = 'Rp'; $('bills').appendChild(e); return e; });
+
+// ---------- collage helpers (tests/hook-collage) ----------
+const hash = (s) => { let h = 2166136261; for (const c of String(s)) h = Math.imul(h ^ c.charCodeAt(0), 16777619); return h >>> 0; };
+const rnd = (s) => { let x = hash(s); x ^= x << 13; x ^= x >>> 17; x ^= x << 5; return ((x >>> 0) % 10000) / 10000; };
+const ST = (t) => Math.floor(t * 12 + 1e-6) / 12;
+const jit = (id, t, a = 2) => { const k = Math.floor(t * 12); return [(rnd(id + 'x' + k) - .5) * 2 * a, (rnd(id + 'y' + k) - .5) * 2 * a, (rnd(id + 'r' + k) - .5) * 1.2]; };
+function torn(el, seed, amp = 9, step = 26, sides = 'trbl') {
+  const w = el.offsetWidth, h = el.offsetHeight, P = [];
+  const j = (i) => (rnd(seed + i) * amp);
+  let i = 0;
+  for (let x = 0; x <= w; x += step) P.push([x, sides.includes('t') ? j(i++) : 0]);
+  for (let y = 0; y <= h; y += step) P.push([w - (sides.includes('r') ? j(i++) : 0), y]);
+  for (let x = w; x >= 0; x -= step) P.push([x, h - (sides.includes('b') ? j(i++) : 0)]);
+  for (let y = h; y >= 0; y -= step) P.push([sides.includes('l') ? j(i++) : 0, y]);
+  el.style.clipPath = 'polygon(' + P.map(([x, y]) => `${x.toFixed(1)}px ${y.toFixed(1)}px`).join(',') + ')';
+}
+const LOOKS = [
+  { bg: '#17130E', c: '#fff', f: 'Inter', w: 900 }, { bg: '#F1ECE0', c: '#17130E', f: "'GFS Baskerville', serif", w: 700 },
+  { bg: '#D6301F', c: '#fff', f: 'Inter', w: 900 }, { bg: '#fff', c: '#17130E', f: "'DejaVu Serif', serif", w: 700 },
+  { bg: '#FFD23F', c: '#17130E', f: "'Bitstream Charter', serif", w: 700 }, { bg: '#F1ECE0', c: '#D6301F', f: 'Inter', w: 900 },
+];
+const letters = [];
+{ const row = $('r1');
+  [...'RP480 T HANGUS.'].forEach((ch) => {
+    const i = letters.length;
+    if (ch === ' ') { const s = document.createElement('span'); s.style.width = '16px'; row.appendChild(s); return; }
+    const L = LOOKS[Math.floor(rnd('lk' + i + ch) * LOOKS.length)];
+    const e = document.createElement('i'); e.textContent = ch;
+    Object.assign(e.style, { background: L.bg, color: L.c, fontFamily: L.f, fontWeight: L.w, fontSize: (60 + rnd('fs' + i) * 10) + 'px' });
+    row.appendChild(e); letters.push({ e, rot: (rnd('ro' + i) - .5) * 12, dy: (rnd('dy' + i) - .5) * 14, i });
+  }); }
+letters.forEach(({ e, i }) => torn(e, 'l' + i, 5, 12));
+['b1', 'b2', 'b3', 'name', 'hDt', 'hQ', 'r2'].forEach((id) => torn($(id), id, 8, 22));
+torn($('ledge'), 'ledge', 22, 30, 't');
+document.querySelectorAll('#hookA .tape').forEach((e, i) => torn(e, 'tp' + i, 6, 12, 'lr'));
+function slap(el, id, tIn, tOut, t, rot = 0, from = 1.35, centre = true) {
+  const q = ST(t), k = Math.floor((q - tIn) * 12 + 1e-6);
+  if (t < tIn || t >= tOut + 0.17) { el.style.opacity = 0; return; }
+  el.style.opacity = 1;
+  const s = k <= 0 ? from : k === 1 ? 0.94 : 1;
+  const [jx, jy, jr] = jit(id, t, k < 3 ? 3 : 1.4);
+  const out = t >= tOut ? Math.min(1, Math.floor((t - tOut) * 12 + 1) / 2) : 0;
+  el.style.transform = (centre ? 'translate(-50%,-50%) ' : '') + `translate(${jx + out * -1200}px, ${jy}px) rotate(${rot + jr + out * -12}deg) scale(${s})`;
+}
+function slapAbs(el, id, tIn, tOut, t, rot = 0) { slap(el, id, tIn, tOut, t, rot, 1.35, false); el.style.transformOrigin = '0 50%'; }
+
+// ---------- sticker helpers ----------
+const pulse = (el, t, tIn, amt = 0.12, rot = 0) => { const k = K.clamp((t - tIn) / 0.45); el.style.transform = `translate(-50%,-50%) scale(${1 + amt * Math.sin(Math.PI * k)}) rotate(${rot}deg)`; };
+const slam = (el, t, tIn, rot = 0, from = 2, tOut = Infinity) => { const s = K.spring(t - tIn, 320, 18), o = K.clamp((t - tOut) / 0.25);
+  el.style.opacity = t >= tIn ? 1 - o : 0; el.style.transform = `translate(-50%,-50%) scale(${(from - (from - 1) * s) * (1 - 0.2 * o)}) rotate(${rot}deg)`; };
+const fadeIn = (el, t, tIn) => { el.style.opacity = K.clamp((t - tIn) / 0.18); };
+
+const POS = { zT: [0, 0], z1: [1240, 0], z2: [2480, 0], z3: [0, 2400], z4: [1240, 2400], z5: [2480, 2400],
+  z6: [0, 4800], z7: [1240, 4800], zQ: [2480, 4800] };
+
+function seek(t) {
+  const Z = (x, y, z = 1.0) => ({ x, y: y + 200 / z, z });
+  const zc = (id, z = 1, dx = 0, dy = 0) => Z(POS[id][0] + 540 + dx, POS[id][1] + 960 + dy, z);
+  const rd = at('rd', -0.05);
+  const CUT = 0.001;
+  const ZT = [['zT', 0], ['z1', at('l1', -0.3)], ['z2', at('l3', -0.3)], ['z3', at('l7', -0.12)], ['z4', at('l8', -0.25)],
+    ['z5', at('l9', -0.2)], ['z6', at('l11', -0.12)], ['z7', at('l12', -0.2)], ['zQ', at('cta', -0.12)]];
+  const keys = [{ t: 0, ...zc('zT', 1.08) }];
+  ZT.slice(1).forEach(([id, t0]) => { keys.push({ t: t0, ...zc(id), dur: CUT }); });
+  keys.push({ t: W('l5', 'artinya') - 0.1, ...zc('z2', 1.07, 0, -40), dur: 0.5 });
+  keys.push({ t: W('l11', 'perkiraan') - 0.15, ...zc('z6', 1.06, 0, -40), dur: 0.4 });
+  keys.push({ t: W('l13', 'dua') - 0.2, ...zc('z7', 0.97, 0, 0), dur: 0.5 });
+  keys.sort((a, b) => a.t - b.t);
+  K.camera($('world'), keys, t, 1080, 1920, 0.6);
+  const cur = ZT.filter(([, t0]) => t >= t0).pop()[0];
+  Object.keys(POS).forEach((id) => { $(id).style.visibility = id === cur ? 'visible' : 'hidden'; });
+
+  // ---------- hook: person collage, Prabowo; cover from frame 0 ----------
+  { const q = ST(t);
+    const gone = t >= rd ? Math.min(1, Math.floor((t - rd) * 12 + 1) / 3) : 0;
+    $('hookA').style.opacity = gone >= 1 ? 0 : 1;
+    $('hookA').style.display = t > rd + 0.5 ? 'none' : '';
+    $('hookA').style.transform = `translateX(${-1150 * gone}px) rotate(${-3 * gone}deg)`;
+    const ps = K.clamp(K.spring(q + 0.45, 140, 15));
+    const [jx, jy, jr] = jit('p', t, t > W('h1', 'prabowo') && t < W('h1', 'rp480') + 0.6 ? 2.2 : 1);
+    $('person').style.transform = `translate(-50%, ${1590 - 1010 * ps + jy}px) translateX(${jx}px) rotate(${jr * .6 - 1}deg)`;
+    const rb = K.clamp(K.spring(q + 0.3, 200, 18));
+    $('redblock').style.transform = `rotate(-9deg) translateX(${(1 - rb) * -1300}px)`;
+    $('blkline').style.transform = `rotate(-9deg) translateX(${(1 - rb) * 1300}px)`;
+    // title card "RP480 T HANGUS. / DI MANA?": on from frame 0, off when h2 starts (~4.9 s)
+    const tQ = at('h2', -0.05);
+    letters.forEach(({ e, rot, dy, i }) => {
+      const tIn = -0.6 + i * (1 / 24), k = Math.floor((q - tIn) * 12);
+      const [x, y, r] = jit('L' + i, t, 1.2);
+      const out = t >= tQ ? Math.min(1, Math.floor((t - tQ) * 12 + 1) / 2) : 0;
+      e.style.opacity = out >= 1 ? 0 : 1;
+      e.style.transform = `translate(${x - out * 1200}px, ${dy + y}px) rotate(${rot + r}deg) scale(${k <= 0 ? 1.4 : 1})`;
+    });
+    slapAbs($('r2'), 'r2', -0.3, tQ, t, -2);
+    slapAbs($('b1'), 'b1', W('h1', 'kata') - 0.05, rd, t, -3);
+    slap($('nameW'), 'nm', W('h1', 'prabowo') + 0.25, rd, t, -4);
+    slapAbs($('b2'), 'b2', W('h1', 'rp480') - 0.05, rd, t, 2);
+    if (t > W('h1', 'rp480') && t < tQ) { const k = Math.floor(K.clamp((t - W('h1', 'rp480')) / 0.5) * 6) / 6; $('b2').style.transform += ` scale(${1 + 0.08 * Math.sin(Math.PI * k)})`; }
+    slapAbs($('hDt'), 'dt', W('h1', 'triliun') - 0.05, tQ, t, 1.5);
+    slap($('hBox'), 'bx', W('h1', 'uang') - 0.25, rd, t, -3);
+    const tC = W('h1', 'hangus') - 0.05;
+    const cr = $('crack'); if (cr) cr.setAttribute('opacity', t >= tC ? 1 : 0);
+    const lid = t >= W('h1', 'uang') - 0.05 ? 1 : 0;
+    $('lidL').setAttribute('transform', `rotate(${-28 * lid} 20 60)`); $('lidR').setAttribute('transform', `rotate(${28 * lid} 240 60)`);
+    bills.forEach((e, i) => { const [dx, dy, r] = BILLS[i], t0 = W('h1', 'uang') - 0.05 + i * 0.09;
+      const k = Math.floor(K.clamp((q - t0) / 0.42) * 5) / 5, [x, y] = jit('bl' + i, t, 2);
+      e.style.opacity = t >= t0 && t < rd + 0.17 ? 1 : 0;
+      e.style.transform = `translate(${830 - 75 + dx * K.easeOut(k) + x}px, ${1110 - 38 + dy * K.easeOut(k) + y}px) rotate(${r * k + (t > tC ? (rnd('bb' + i + Math.floor(t * 12)) - .5) * 8 : 0)}deg)`;
+      e.style.filter = t > tC ? 'grayscale(1) brightness(.75)' : ''; });
+    slapAbs($('b3'), 'b3', tC, rd, t, -1.5);
+    slap($('hQW'), 'hq', W('h2', 'mana') - 0.08, rd, t, -3);
+    $('hQm').style.visibility = (t > W('h2', 'dan') && Math.floor(ST(t) * 4) % 2) ? 'hidden' : 'visible';
+  }
+
+  // ---------- open loop: "angka lain?" slaps in on h2, parks top-right, flips ✓ on "dua perkiraan" ----------
+  { const lp = $('loop'), t0 = W('h2', 'bukan') - 0.08, tDone = W('l13', 'dua') - 0.05;
+    const k = Math.floor((ST(t) - t0) * 12 + 1e-6), park = K.easeInOut(K.prog(t, rd + 0.1, 0.45));
+    const done = t >= tDone;
+    if (lp.classList.contains('done') !== done) { lp.classList.toggle('done', done); lp.textContent = done ? '✓ angka lain' : 'angka lain?'; }
+    const x = K.lerp(790, 830, park), y = K.lerp(990, 282, park), s = K.lerp(1.15, 0.62, park) * (k <= 0 ? 1.35 : k === 1 ? 0.94 : 1)
+      * (done ? 1 + 0.25 * Math.sin(Math.PI * K.clamp((t - tDone) / 0.45)) : 1);
+    const hideL7 = t >= at('l7', -0.12) && t < at('l8', -0.25);
+    lp.style.opacity = t >= t0 && t < at('cta', -0.15) && !hideL7 ? 1 : 0;
+    lp.style.transform = `translate(${x}px, ${y}px) translate(-50%,-50%) rotate(${K.lerp(-4, 3, park)}deg) scale(${s})`; }
+
+  // ---------- tagline ----------
+  K.pop($('stamp'), t, at('rd', -0.1), at('l1', -0.2), -6);
+
+  // ---------- z1: HUT NasDem → laporan Kepala LKPP ----------
+  slam($('aBar'), t, W('l1', 'rabu') - 0.08, -1, 1.5);
+  K.pop($('aStg'), t, W('l1', 'hut') - 0.12, Infinity, 0);
+  slam($('aHut'), t, W('l1', 'hut') - 0.06, -3, 1.6);
+  K.pop($('aPb'), t, W('l1', 'prabowo') - 0.08, Infinity, 1.5);
+  { const ta = W('l1', 'cerita') - 0.05; $('aAr').style.opacity = K.clamp((t - ta) / 0.2); $('aAr').style.transform = `translate(-50%,-50%) translateY(${(1 - K.clamp((t - ta) / 0.3)) * -30}px)`; }
+  { const td = W('l1', 'laporan') - 0.12, s = K.spring(t - td, 220, 20);
+    $('aDoc').style.opacity = t >= td ? 1 : 0;
+    $('aDoc').style.transform = `translate(-50%,-50%) translateY(${(1 - s) * 300}px) rotate(${-5 + 3 * s}deg)`; }
+  K.pop($('aLk'), t, W('l1', 'lkpp') - 0.05, Infinity, -1);
+
+  // ---------- z2: APBN pie (l3-l5) ----------
+  K.pop($('pBar'), t, at('l3', -0.25), Infinity, -1);
+  K.pop($('pPie'), t, at('l3', -0.2), Infinity, 0);
+  { const k1 = K.easeOut(K.prog(t, W('l3', 'sepertiga') - 0.05, 0.5)), k2 = K.easeOut(K.prog(t, W('l4', '40') - 0.05, 0.6));
+    $('pSl').setAttribute('d', arc(0, 120 * k1)); $('pBn').setAttribute('d', arc(0, 48 * k2));
+    $('pSlT').setAttribute('opacity', k1 >= 1 && k2 <= 0 ? 1 : 0);
+    $('pSlT').setAttribute('x', PC + Math.cos((60 - 90) * Math.PI / 180) * 170); $('pSlT').setAttribute('y', PC + Math.sin((60 - 90) * Math.PI / 180) * 170 + 22);
+    $('pFl').setAttribute('opacity', K.clamp((t - W('l4', 'persen')) / 0.15)); }
+  K.pop($('pCh'), t, W('l3', 'belanja') - 0.08, Infinity, 0);
+  { const tn = W('l3', 'rp1200') - 0.05; $('pChN').textContent = fmt(1200 * K.easeOut(K.prog(t, tn, 0.7))); $('pChA').style.display = t >= tn ? '' : 'none'; }
+  K.pop($('pTg'), t, W('l4', '40') - 0.05, Infinity, 4);
+  fadeIn($('pNt'), t, W('l4', 'menurut') - 0.05);
+  { const tb = W('l5', 'rp480') - 0.08; slam($('pBig'), t, tb, -2, 1.5); $('pBigN').textContent = fmt(480 * K.easeOut(K.prog(t, tb, 0.6))); }
+  slam($('pSt'), t, W('l5', 'hangus') - 0.05, -8, 2.2);
+
+  // ---------- z3: 15 prices (l7) ----------
+  K.pop($('cHd'), t, at('l7', -0.1), Infinity, -1);
+  if (t > W('l7', 'mana') - 0.05) pulse($('cHd'), t, W('l7', 'mana') - 0.05, 0.05, -1);
+  fadeIn($('cNt'), t, W('l7', 'contoh') - 0.05);
+  K.pop($('cLap'), t, W('l7', 'barang') - 0.1, Infinity, -2);
+  { const t0 = W('l7', '15') - 0.08, t1 = K.line('l7').end; tags.forEach(({ e, rot }, i) => K.pop(e, t, t0 + i * (t1 - t0) / 15, Infinity, rot)); }
+  K.pop($('cCh'), t, W('l7', '15') - 0.05, Infinity, 1);
+
+  // ---------- z4: items + regions (l8) ----------
+  [['i1', 'bus'], ['i2', 'mobil'], ['i3', 'komputer'], ['i4', 'obat']].forEach(([id, w], i) => K.pop($(id), t, W('l8', w) - 0.08, Infinity, [-4, 3, -2, 4][i]));
+  { const t0 = W('l8', 'tiap') - 0.1; dots.forEach((d, i) => K.pop(d, t, t0 + i * 0.07, Infinity, 0)); }
+  K.pop($('dCh'), t, W('l8', 'beli') - 0.06, Infinity, -1);
+
+  // ---------- z5: 38 + 500 → satu badan (l9-l10) ----------
+  K.pop($('uBar'), t, at('l9', -0.2), Infinity, -1);
+  K.pop($('uX'), t, W('l9', 'jangan') - 0.06, W('l9', 'cukup') - 0.1, -2);
+  { const t1 = W('l9', '38') - 0.08, t2 = W('l9', '500') - 0.08;
+    K.pop($('u1'), t, t1, Infinity, -2); $('u1n').textContent = Math.round(38 * K.easeOut(K.prog(t, t1, 0.5)));
+    K.pop($('u2'), t, t2, Infinity, 2); $('u2n').textContent = Math.round(500 * K.easeOut(K.prog(t, t2, 0.6)));
+    const tm = W('l9', 'cukup') - 0.05;
+    carts.forEach(({ d, x0, y0, i }) => { const tin = (i < 12 ? t1 : t2) + 0.15 + (i % 12) * 0.04;
+      const m = K.easeInOut(K.prog(t, tm + (i % 12) * 0.03, 0.55));
+      d.style.opacity = t >= tin ? 1 - m : 0;
+      const s = K.spring(t - tin, 300, 18);
+      d.style.transform = `translate(-50%,-50%) translate(${(540 - x0) * m}px, ${(1000 - y0) * m}px) scale(${(0.4 + 0.6 * s) * (1 - 0.5 * m)})`; }); }
+  K.pop($('uBd'), t, W('l9', 'satu') - 0.1, Infinity, 0);
+  slam($('uSt'), t, W('l9', 'badan') - 0.05, -4, 1.8);
+  K.pop($('uAg'), t, W('l10', 'lkpp') - 0.08, Infinity, 1);
+  if (t > W('l10', 'badan') - 0.05) pulse($('uAg'), t, W('l10', 'badan') - 0.05, 0.06, 1);
+
+  // ---------- z6: the turn (l11) ----------
+  slam($('tHd'), t, at('l11', -0.05), -3, 1.6);
+  fadeIn($('tSb'), t, W('l11', 'jarang') - 0.1);
+  K.pop($('tBig'), t, at('l11', 0.1), Infinity, 0);
+  if (t > W('l11', 'angkanya') - 0.05) pulse($('tBig'), t, W('l11', 'angkanya') - 0.05, 0.06, 0);
+  slam($('tSt'), t, W('l11', 'perkiraan') - 0.05, -10, 2.2);
+  K.pop($('tCh'), t, W('l11', 'cara') - 0.08, Infinity, 1);
+
+  // ---------- z7: two estimates (l12-l13) ----------
+  K.pop($('vBar'), t, at('l12', -0.15), Infinity, -1);
+  { const sA = K.spring(t - (at('l12', -0.05)), 240, 20), sB = K.spring(t - W('l13', 'november') + 0.05, 240, 20);
+    $('vA').style.opacity = t >= at('l12', -0.05) ? 1 : 0; $('vA').style.transform = `translate(-50%,-50%) translateX(${(1 - sA) * -200}px)`;
+    $('vB').style.opacity = t >= W('l13', 'november') - 0.05 ? 1 : 0; $('vB').style.transform = `translate(-50%,-50%) translateX(${(1 - sB) * -200}px)`;
+    $('vAf').style.transform = `scaleX(${K.easeOut(K.prog(t, W('l12', '30') - 0.05, 0.6))})`;
+    $('vBf').style.transform = `scaleX(${K.easeOut(K.prog(t, W('l13', '40') - 0.05, 0.6))})`;
+    fadeIn($('vAl'), t, W('l12', 'kalau') - 0.05); fadeIn($('vAv'), t, W('l12', '30') - 0.05);
+    fadeIn($('vBl'), t, W('l13', 'disebut') - 0.05); fadeIn($('vBv'), t, W('l13', '40') - 0.05); }
+  slam($('vSt'), t, W('l13', 'dua') - 0.05, -4, 1.8);
+  K.pop($('vCh'), t, W('l13', 'rp1200') - 0.1, Infinity, -1);
+
+  // ---------- CTA ----------
+  const qOut = END - 0.3;
+  K.pop($('qHd'), t, at('cta', -0.1), qOut, 0);
+  if (t > W('cta', 'ngatur') - 0.05) pulse($('qHd'), t, W('cta', 'ngatur') - 0.05, 0.06, 0);
+  K.pop($('qA'), t, W('cta', 'dipusatkan') - 0.08, qOut, -3);
+  K.pop($('qOr'), t, W('cta', 'atau') - 0.05, qOut, 0);
+  K.pop($('qB'), t, W('cta', 'per') - 0.08, qOut, 3);
+  K.pop($('qK'), t, W('cta', 'kenapa') - 0.06, qOut, -2 + 3 * Math.sin(t * 3));
+  K.pop($('qCom'), t, W('cta', 'komen') - 0.12, qOut, -4);
+  K.pop($('qKm'), t, W('cta', 'komen') - 0.05, qOut, 3);
+
+  if ($('credit').textContent !== '') $('credit').textContent = '';
+  $('credit').style.opacity = 0;
+
+  const en = K.prog(t, END, 0.3);
+  $('endcard').style.opacity = en;
+  $('endcard').querySelector('.logo').style.transform = `rotate(-3deg) scale(${0.6 + 0.4 * K.spring(t - END)})`;
+  K.subtitles($('subs'), t);
+  $('subs').style.visibility = en > 0.5 ? 'hidden' : 'visible';
+  $('progress').style.width = (100 * t / window.DURATION) + '%';
+  return true;
+}
+window.seek = seek; seek(0);
+</script>
+</body>
+</html>
