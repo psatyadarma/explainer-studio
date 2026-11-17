@@ -1,75 +1,5 @@
 [
 {
-"id": "E0076",
-"date": "2026-10-17",
-"category": "POL",
-"event": "A school headmaster in Glagah, Lamongan is allegedly punched by a student's parent reported to be a TNI member after a dispute over a student's missing socks; the victim, backed by LBH PCNU Lamongan, reported it to Subdenpom TNI Lamongan.",
-"key_numbers": "incident 17 Oct · reported same evening · reported injuries: facial bruising near the eye, fractured nose · official forensic report (visum) pending · no TNI statement found · perpetrator's TNI membership as reported, not confirmed",
-"storyline": "",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0092",
-"date": "2026-10-17",
-"category": "MKT",
-"event": "OJK fines parties linked to DSSA, BREN and CUAN share trading a combined Rp2.1 trillion for market manipulation and concealed IPO allocations, and freezes licences of brokerage directors.",
-"key_numbers": "Total Rp2.1 T · DSSA Rp1.5 T (Art. 91-92, manipulation via several brokers) · BREN Rp500 M · CUAN Rp100 M (Art. 107, hidden allocations to a controlling-shareholder-linked group) · 835 parties sanctioned Jan-Oct 2026 · summoned 12 broker directors, 15 individuals, 11 foreign entities (DSSA)",
-"storyline": "msci-reclassification",
-"status": "verified",
-"upcoming": false
-},
-{
-"id": "E0098",
-"date": "2026-10-17",
-"category": "BIZ",
-"event": "Singapore's NEA names seven companies managing Sumatra forest concessions as linked to haze fires; three supply Asia Pulp & Paper, and Kencana Agri reports 62 ha burned in Kalimantan concessions while denying it started the fire.",
-"key_numbers": "7 companies (Bumi Andalas Permai, Bumi Mekar Hijau, Paramitra Mulia Langgeng, Sumatera Alam Anugerah, SBA Wood Industries, Hutan Lestari Raya, Bangkanesia) · 3 APP suppliers · Kencana Agri 62 ha · ISPA 283,270 cases (13 Oct)",
-"storyline": "karhutla",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0102",
-"date": "2026-10-17",
-"category": "ENV",
-"event": "Kemenhub reports forest-fire smoke has disrupted 2,458 domestic flights at 29 airports since 11 Aug, up from 2,021 on 13 Oct. (update of E0021)",
-"key_numbers": "2,458 domestic flights affected (1,080 delayed · 1,324 cancelled/postponed · 22 diverted) · 29 airports · +437 since 13 Oct · 14 international flights cancelled (Singapore–Pontianak/Palembang) · 22 perintis flights cancelled 16 Oct · period 11 Aug–17 Oct 2026",
-"storyline": "karhutla",
-"status": "verified",
-"upcoming": false
-},
-{
-"id": "E0159",
-"date": "2026-10-17",
-"category": "ENV",
-"event": "Mount Semeru keeps erupting at Level III (Siaga) with ash columns up to 1 km and more eruptions reported on 19 Oct.",
-"key_numbers": "17 Oct: 04:52 WIB 700 m, 06:35 WIB 800 m (4,476 m asl), 10:42 WIB 1 km · Level III (Siaga) · no activity within 5 km of crater; no activity along Besuk Kobokan up to 13 km · pyroclastic flows/lahars may reach 17 km · Tempo headline: pyroclastic flow 4.5 km (date not confirmed) · 19 Oct eruptions per Katadata (headline)",
-"storyline": "volcanoes",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0248",
-"date": "2026-10-17",
-"category": "ENV",
-"event": "BMKG says dry conditions will continue 17-24 Oct and reports 478 high-confidence hotspots on 16 Oct, led by South Sumatra, with Central Kalimantan down sharply from 15 Oct. (update of E0021)",
-"key_numbers": "478 high-confidence hotspots (16 Oct) · South Sumatra 189 · East Java 89 · South Papua 63 · West Kalimantan 26 · Central Kalimantan 26 (from 485 on 15 Oct) · dry outlook 17-24 Oct",
-"storyline": "karhutla",
-"status": "verified",
-"upcoming": false
-},
-{
-"id": "E0249",
-"date": "2026-10-17",
-"category": "ENV",
-"event": "Palangka Raya extends its karhutla emergency status to 9 Nov after 909 fire incidents since 1 June.",
-"key_numbers": "909 incidents (1 Jun-17 Oct) · 1,448.90 ha burned · emergency status to 9 Nov · Way Kambas fire burning since 15 Sep (25 hotspots inside park, Lampung 84 total)",
-"storyline": "karhutla",
-"status": "partial",
-"upcoming": false
-},
-{
 "id": "E0031",
 "date": "2026-10-18",
 "category": "POL",
@@ -7827,7 +7757,7 @@
 "key_numbers": "—",
 "storyline": "rupiah",
 "status": "upcoming",
-"upcoming": true
+"upcoming": false
 },
 {
 "id": "E0423",
@@ -7837,7 +7767,7 @@
 "key_numbers": "Union demand 7.5%-9.5% · internal deliberation target: end of November · formula follows new law (Menaker) · rallies 15-30 Oct in 38 provinces",
 "storyline": "ump-2027",
 "status": "upcoming",
-"upcoming": true
+"upcoming": false
 },
 {
 "id": "E0601",
@@ -7847,7 +7777,7 @@
 "key_numbers": "Expected BI rate 6% · RDG 17-18 Nov 2026 · rupiah ~Rp18,080/USD",
 "storyline": "rupiah",
 "status": "upcoming",
-"upcoming": true
+"upcoming": false
 },
 {
 "id": "E0835",
@@ -7857,7 +7787,7 @@
 "key_numbers": "Putusan sela 12 Nov 2026 · next hearing Tue 17 Nov 2026 (witnesses) · case 81/Pid.Sus-TPK/2026/PN Jkt.Pst · charges: gratifikasi and pemerasan on izin tinggal terbatas",
 "storyline": "corruption-cases",
 "status": "upcoming",
-"upcoming": true
+"upcoming": false
 },
 {
 "id": "E0839",
@@ -7867,7 +7797,7 @@
 "key_numbers": "Earnings date 17 Nov 2026 · call 5:00 pm ET (about 04:00 WITA 18 Nov) · quarter ended 25 Oct 2026 · interim CEO Colette Kress",
 "storyline": "ai-data-centres",
 "status": "upcoming",
-"upcoming": true
+"upcoming": false
 },
 {
 "id": "E0869",
@@ -7877,7 +7807,7 @@
 "key_numbers": "Examination Tue 17 Nov 2026, about 10:00 WIB · estimated state loss about Rp 2 triliun · period 2009-2024 · suspects announced: 0",
 "storyline": "",
 "status": "upcoming",
-"upcoming": true
+"upcoming": false
 },
 {
 "id": "E0825",

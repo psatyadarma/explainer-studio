@@ -1,6 +1,6 @@
 # Handoff: Rangkumin Dong (read this first in every session)
 
-Updated: Mon 16 Nov 2026, 19:35 WITA. Each daily run is a fresh session with no memory of earlier chats. **This file plus the playbook are the memory.** Whenever something here changes, update it, mirror it to the Video project (`claude/rangkumindong-handoff.md`), commit and push.
+Updated: Tue 17 Nov 2026, 19:30 WITA. Each daily run is a fresh session with no memory of earlier chats. **This file plus the playbook are the memory.** Whenever something here changes, update it, mirror it to the Video project (`claude/rangkumindong-handoff.md`), commit and push.
 
 ## Standing rules from the user
 - **Decision 8 Nov (user: "I follow your decisions", on the W44/W45 recs):** voice locked to **Pratama**; **no B version from 9 Nov** (brand.json schedule hook_b = ""; skip hook-critic PICK B, variant.py, B QA and `post.py --trial`); hook styles keep rotating on A only (schedule `hook`). This overrides the daily task prompt's B steps until Trial Reels work again.
@@ -54,6 +54,7 @@ Updated: Mon 16 Nov 2026, 19:35 WITA. Each daily run is a fresh session with no 
 - Weekly #4 live Sat 14 Nov 08:00 (IG https://www.instagram.com/reel/Dfs3nqlii7r/ · YT https://www.youtube.com/watch?v=fgiPefOIt0A). #27 tentara bayaran Rusia "lowongan logistik, ujungnya perang" (default pick 14:00; user OK 14:50; myth, word subs, 84.9 s) live 14 Nov 19:00 (IG https://www.instagram.com/reel/DfuDHtXlz-r/ · YT https://www.youtube.com/watch?v=aGW6vGIidJE). `engine/mix.py` now has a true-peak limiter (≤ −1 dBTP). Note: a send_later can't be edited (update_trigger denied) — write default-post wake-up prompts so they no-op when posted.json exists.
 - #28 Minggu Depan 16–22 Nov "Rabu 18 Nov" (user picked ⭐ + live OK, story hook, 84.5 s) live 15 Nov 19:00 (IG https://www.instagram.com/reel/Dfwn63lkQNE/ · YT https://www.youtube.com/watch?v=GjXzveWkQxU). W46 review accepted: favour person-faced "what happens next" stories, no kamu_stakes hooks this week, wallet weight 0.5. **health.py IG-missing WARN is a false alarm** (it wants exact 24/72 h; reads are logged at real ages) — fix to an hours window.
 - #29 Prabowo "Rp480 T uang negara hangus" (pengadaan/LKPP; user picked ⭐ + early OK; person_collage, word subs, 83.1 s) live 16 Nov 19:00 (IG https://www.instagram.com/reel/DfzMt7oCn0y/ · YT https://www.youtube.com/watch?v=jWnbOsMDdX0). Sweeps were thin (14 events; WebFetch refused cnbc/detik section pages).
+- #30 Udara Jakarta "berapa kali batas pedoman WHO?" (user picked #4 + early OK; story hook, short 34.6 s, block subs; IQAir 05.00 single source) live 17 Nov 19:00 (IG https://www.instagram.com/reel/Df1xg2EIAhY/ · YT https://www.youtube.com/watch?v=UijRbJDsj8k). Pengadaan 14 h IG 1,246 views / 55.3% = best IG start.
 - Setup: `pip install soundfile` was missing on 13 Nov (weekly voice failed once) — install it at session start.
 - **Git:** run `git status` first; if HEAD is detached, `git checkout -B main origin/main` before committing (7 Nov morning commits had to be rebased).
 - **Container restarts kill background jobs:** run renders in the foreground (≤9 min per command, 2 chapters in parallel max).

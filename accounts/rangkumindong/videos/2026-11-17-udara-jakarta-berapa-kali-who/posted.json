@@ -2,5 +2,11 @@
  "success": true,
  "job_id": "823d19ff24924039be3c0fc79ef28e94",
  "scheduled_date": "2026-11-17T19:00:00+08:00",
- "request_id": "Rangkumindong-2026-11-17-udara-jakarta-berapa-kali-who"
+ "request_id": "Rangkumindong-2026-11-17-udara-jakarta-berapa-kali-who",
+ "status": "completed",
+ "links": {
+  "youtube": "https://www.youtube.com/watch?v=UijRbJDsj8k",
+  "instagram": "https://www.instagram.com/reel/Df1xg2EIAhY/"
+ },
+ "errors": {}
 }

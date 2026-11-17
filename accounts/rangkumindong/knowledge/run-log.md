@@ -180,3 +180,9 @@ History moved out of HANDOFF.md (22 Oct) so fresh sessions read less. Append one
 - Draft (person_collage, Prabowo cut-out) → hook-critic PICK A "Kata Prabowo, Rp480 triliun uang negara hangus." ("setahun" dropped: no source says per year) → full FC 2 fixes (40% = Kepala LKPP estimate; Aug 30%/Rp360 T vs Nov 40%/Rp480 T are two different estimates).
 - Producer 83.1 s, −14.7 LUFS; QA FIX (tag overlap, empty top 2 s, "Rp0" counter) → PASS round 2. Scheduled 19:00 at ~09:16 (job 9f464a76). 18:00 news check clean.
 - 19:00 live: IG DfzMt7oCn0y · YT jWnbOsMDdX0. Analyst: Minggu Depan 24 h IG 128 / YT 1,387; HP murah 72 h IG 114 (20.7%) / YT 607. Health IG-missing WARN still a false alarm (health.py hours-window fix still open).
+
+## 2026-11-17 (Tue)
+- Sweeps 9/6/9/9 events (+31 merged). Ideas: ⭐ biometric SIM 10/12; light FC 3 fixes (27M/297M unverified → dropped; MPR 9 Des reason attributed; AQI to re-pull). User picked #4 udara Jakarta + "ok to post" ~08:45.
+- Draft short (story hook "Misalnya Pak Budi lari pagi, jam lima tadi."), IQAir 17 Nov 05.00: AQI 177, PM2,5 92 → "~6× pedoman harian WHO (andaian)"; 18,4× vs annual dropped. Full FC 1 fix (batas aman → batas pedoman).
+- Producer 34.6 s, −14.4 LUFS; QA FIX 3 → PASS round 2 (length waived: short). Scheduled 19:00 at ~09:25 (job 823d19ff). Live: IG Df1xg2EIAhY · YT UijRbJDsj8k.
+- Analyst early reads: pengadaan 14 h IG 1,246 views / 55.3% (best IG start); Rusia 62 h IG 122 / 23.1%; weekly #4 72 h IG 166 / 10.0%. Health IG-missing WARN still the known false alarm.

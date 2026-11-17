@@ -1608,7 +1608,55 @@
 "follows": 0
 },
 {
-"date": "2026-11-14",
+"date": "2026-11-17",
+"folder": "videos/2026-11-16-pengadaan-480t-hangus",
+"platform": "instagram",
+"hours": 14,
+"views": 1246,
+"avg_watch_pct": 55.3,
+"hold_3s_pct": null,
+"shares": 2,
+"saves": 5,
+"follows": null
+},
+{
+"date": "2026-11-17",
+"folder": "videos/2026-11-16-pengadaan-480t-hangus",
+"platform": "youtube",
+"hours": 14,
+"views": null,
+"avg_watch_pct": null,
+"hold_3s_pct": null,
+"shares": 0,
+"saves": null,
+"follows": 0
+},
+{
+"date": "2026-11-17",
+"folder": "videos/2026-11-14-tentara-bayaran-rusia-lowongan",
+"platform": "instagram",
+"hours": 62,
+"views": 122,
+"avg_watch_pct": 23.1,
+"hold_3s_pct": null,
+"shares": 0,
+"saves": 0,
+"follows": null
+},
+{
+"date": "2026-11-17",
+"folder": "videos/2026-11-14-tentara-bayaran-rusia-lowongan",
+"platform": "youtube",
+"hours": 62,
+"views": 1285,
+"avg_watch_pct": null,
+"hold_3s_pct": null,
+"shares": 0,
+"saves": null,
+"follows": 0
+},
+{
+"date": "2026-11-17",
 "folder": "weekly/2026-11-14",
 "platform": "instagram",
 "hours": 72,
@@ -1617,6 +1665,18 @@
 "hold_3s_pct": null,
 "shares": 0,
 "saves": 2,
+"follows": null
+},
+{
+"date": "2026-11-17",
+"folder": "weekly/2026-11-14",
+"platform": "youtube",
+"hours": 72,
+"views": 8,
+"avg_watch_pct": 17.9,
+"hold_3s_pct": null,
+"shares": 0,
+"saves": null,
 "follows": 0
 }
 ]

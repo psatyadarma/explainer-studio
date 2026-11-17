@@ -29,6 +29,11 @@ Status: **ACTIVE** · Category: national/environment · Started: 19 Oct 2026 (id
   - Facts: Kemenhub (Dirjen Hubud Lukman F. Laisa, 26 Okt): 3.030 penerbangan terganggu 14 Agu–25 Okt, ~1.700 (56%) batal, 154 rute; worst routes Pontianak, Singkawang, Palangkaraya, Pangkalan Bun; no airport closed; Pontianak daytime flights moved to evening (Kontan 27 Okt, CNBC 27 Okt — CNBC body's "1.700 rute" is a slip). Earlier count: 2.458 penerbangan di 29 bandara (to 17 Okt), 1.544 batal/tunda (21 Okt).
 - 27 Okt: Singapore FM Vivian Balakrishnan in Jakarta, 5 points (joint fire task force, enforcement incl. >50 companies investigated, trade, ASEAN 2027, hotline) — offered 28 Oct as idea #2, not made yet.
 
+## 2026-11-17 update: Jakarta air quality (video posted)
+- IQAir Jakarta 17 Nov 05.00 WIB: US AQI 177 (tidak sehat), PM2,5 92 µg/m³ (16 Nov 05.00: AQI 161, 69,4). WHO PM2,5 guideline: 24 h 15, annual 5 µg/m³ (guideline, not a "safe limit").
+- Video "Udara Jakarta pagi ini: berapa kali batas pedoman WHO?" (short, 34.6 s) live 17 Nov 19:00: IG Df1xg2EIAhY · YT UijRbJDsj8k. Framing rule: hourly readings vs daily/annual guidelines only as an explicit what-if.
+- Next: a multi-day average (BMKG/DLH ISPU when readable), Kalteng ISPU 264 (16 Nov) and whether the haze links back to hotspots.
+
 ## Open / next milestones
 - Any reply from Singapore to Lutfi, or from the 10 NEA firms / Bumitama.
 - NEA fines or legal action under the THPA; more notices.
