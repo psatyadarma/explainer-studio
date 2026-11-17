@@ -186,3 +186,4 @@ History moved out of HANDOFF.md (22 Oct) so fresh sessions read less. Append one
 - Draft short (story hook "Misalnya Pak Budi lari pagi, jam lima tadi."), IQAir 17 Nov 05.00: AQI 177, PM2,5 92 → "~6× pedoman harian WHO (andaian)"; 18,4× vs annual dropped. Full FC 1 fix (batas aman → batas pedoman).
 - Producer 34.6 s, −14.4 LUFS; QA FIX 3 → PASS round 2 (length waived: short). Scheduled 19:00 at ~09:25 (job 823d19ff). Live: IG Df1xg2EIAhY · YT UijRbJDsj8k.
 - Analyst early reads: pengadaan 14 h IG 1,246 views / 55.3% (best IG start); Rusia 62 h IG 122 / 23.1%; weekly #4 72 h IG 166 / 10.0%. Health IG-missing WARN still the known false alarm.
+- 2026-11-17 20:10 WITA IG insights: pengadaan-480t 24 h (actual 25 h: 1,278 views, reach 1,121, 53.9% of 83.1 s, 2 shares, 5 saves, 0 follows) and tentara-bayaran 72 h (actual 73 h: 122 views, reach 106, 23.1% of 84.9 s, 0 follows) from Upload-Post + IG web insights. Skip rate still app-only → hold_3s n/a. No -b folders.
