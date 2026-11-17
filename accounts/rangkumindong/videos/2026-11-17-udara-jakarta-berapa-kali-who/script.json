@@ -1,0 +1,63 @@
+{
+ "direction": "[calm, conversational, explaining to a friend]",
+ "format": "short",
+ "hook_style": "story",
+ "lines": [
+  {
+   "id": "h1",
+   "tag": "[storytelling, light]",
+   "text": "Misalnya Pak Budi lari pagi, jam lima tadi."
+  },
+  {
+   "id": "h2",
+   "tag": "[curious, teasing]",
+   "text": "Udara yang dia hirup: berapa kali batas WHO?",
+   "say": "Udara yang dia hirup: berapa kali batas, We Ha O?"
+  },
+  {
+   "id": "rd",
+   "tagline": true,
+   "text": "Rangkumin dong!"
+  },
+  {
+   "id": "l1",
+   "tag": "[matter-of-fact]",
+   "text": "Data IQAir jam lima pagi ini: Jakarta tidak sehat, indeks 177.",
+   "say": "Data, Ai Kyu Er, jam lima pagi ini: Jakarta tidak sehat, indeks seratus tujuh puluh tujuh."
+  },
+  {
+   "id": "l2",
+   "tag": "[explaining, quick]",
+   "text": "Biangnya PM2,5: debu super halus.",
+   "say": "Biangnya, Pe Em dua koma lima: debu super halus."
+  },
+  {
+   "id": "l3",
+   "tag": "[serious, punchy]",
+   "text": "Kadarnya? 92 mikrogram per meter kubik.",
+   "say": "Kadarnya? Sembilan puluh dua mikrogram per meter kubik."
+  },
+  {
+   "id": "l4",
+   "tag": "[dramatic, slower]",
+   "text": "Batas WHO untuk rata-rata sehari: 15. Kalau seharian begini? Sekitar 6 kali lipat.",
+   "say": "Batas, We Ha O, untuk rata-rata sehari: lima belas. Kalau seharian begini? Sekitar enam kali lipat."
+  },
+  {
+   "id": "l6",
+   "tag": "[thoughtful, reassuring]",
+   "text": "Tapi itu baru angka satu jam. Yang penting: seberapa sering pagi kayak gini?"
+  },
+  {
+   "id": "cta",
+   "tag": "[playful, asking the viewer]",
+   "text": "Udara begini, kamu tetap olahraga di luar? Komen!"
+  },
+  {
+   "id": "end",
+   "tag": "[friendly, upbeat]",
+   "text": "Follow Rangkumin Dong, biar nggak ketinggalan!"
+  }
+ ],
+ "tail": 0.9
+}

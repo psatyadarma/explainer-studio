@@ -1,0 +1,413 @@
+{
+ "verdict": "PASS",
+ "lead": 0.0,
+ "matched_words": 76,
+ "of_words": 80,
+ "median_offset_s": -0.044,
+ "share_in_window": 0.961,
+ "share_late_over_150ms": 0.013,
+ "worst_lines": [
+  {
+   "line": "l1",
+   "median_offset_s": -0.088
+  },
+  {
+   "line": "l3",
+   "median_offset_s": -0.083
+  },
+  {
+   "line": "l4",
+   "median_offset_s": -0.069
+  },
+  {
+   "line": "l2",
+   "median_offset_s": -0.065
+  },
+  {
+   "line": "l6",
+   "median_offset_s": -0.05
+  }
+ ],
+ "pairs": [
+  {
+   "line": "h1",
+   "word": "Misalnya",
+   "offset": 0.187
+  },
+  {
+   "line": "h1",
+   "word": "Pak",
+   "offset": -0.136
+  },
+  {
+   "line": "h1",
+   "word": "Budi",
+   "offset": -0.056
+  },
+  {
+   "line": "h1",
+   "word": "lari",
+   "offset": -0.036
+  },
+  {
+   "line": "h1",
+   "word": "pagi,",
+   "offset": 0.004
+  },
+  {
+   "line": "h1",
+   "word": "jam",
+   "offset": -0.036
+  },
+  {
+   "line": "h1",
+   "word": "lima",
+   "offset": -0.036
+  },
+  {
+   "line": "h1",
+   "word": "tadi.",
+   "offset": -0.056
+  },
+  {
+   "line": "h2",
+   "word": "Udara",
+   "offset": 0.062
+  },
+  {
+   "line": "h2",
+   "word": "yang",
+   "offset": -0.059
+  },
+  {
+   "line": "h2",
+   "word": "dia",
+   "offset": -0.031
+  },
+  {
+   "line": "h2",
+   "word": "hirup:",
+   "offset": -0.011
+  },
+  {
+   "line": "h2",
+   "word": "berapa",
+   "offset": -0.151
+  },
+  {
+   "line": "h2",
+   "word": "kali",
+   "offset": -0.023
+  },
+  {
+   "line": "h2",
+   "word": "batas",
+   "offset": -0.051
+  },
+  {
+   "line": "h2",
+   "word": "WHO?",
+   "offset": 0.016
+  },
+  {
+   "line": "rd",
+   "word": "Rangkumin",
+   "offset": -0.01
+  },
+  {
+   "line": "rd",
+   "word": "dong!",
+   "offset": -0.03
+  },
+  {
+   "line": "l1",
+   "word": "Data",
+   "offset": 0.083
+  },
+  {
+   "line": "l1",
+   "word": "IQAir",
+   "offset": -0.058
+  },
+  {
+   "line": "l1",
+   "word": "jam",
+   "offset": -0.115
+  },
+  {
+   "line": "l1",
+   "word": "lima",
+   "offset": -0.105
+  },
+  {
+   "line": "l1",
+   "word": "pagi",
+   "offset": -0.005
+  },
+  {
+   "line": "l1",
+   "word": "ini:",
+   "offset": 0.025
+  },
+  {
+   "line": "l1",
+   "word": "Jakarta",
+   "offset": -0.085
+  },
+  {
+   "line": "l1",
+   "word": "tidak",
+   "offset": -0.105
+  },
+  {
+   "line": "l1",
+   "word": "sehat,",
+   "offset": -0.092
+  },
+  {
+   "line": "l1",
+   "word": "indeks",
+   "offset": -0.107
+  },
+  {
+   "line": "l2",
+   "word": "Biangnya",
+   "offset": -0.018
+  },
+  {
+   "line": "l2",
+   "word": "PM2,5:",
+   "offset": -0.065
+  },
+  {
+   "line": "l2",
+   "word": "debu",
+   "offset": -0.085
+  },
+  {
+   "line": "l2",
+   "word": "super",
+   "offset": -0.112
+  },
+  {
+   "line": "l2",
+   "word": "halus.",
+   "offset": -0.045
+  },
+  {
+   "line": "l3",
+   "word": "Kadarnya?",
+   "offset": 0.057
+  },
+  {
+   "line": "l3",
+   "word": "mikrogram",
+   "offset": -0.103
+  },
+  {
+   "line": "l3",
+   "word": "per",
+   "offset": -0.103
+  },
+  {
+   "line": "l3",
+   "word": "meter",
+   "offset": -0.083
+  },
+  {
+   "line": "l3",
+   "word": "kubik.",
+   "offset": -0.083
+  },
+  {
+   "line": "l4",
+   "word": "Batas",
+   "offset": 0.101
+  },
+  {
+   "line": "l4",
+   "word": "WHO",
+   "offset": -0.036
+  },
+  {
+   "line": "l4",
+   "word": "untuk",
+   "offset": -0.162
+  },
+  {
+   "line": "l4",
+   "word": "rata-rata",
+   "offset": -0.069
+  },
+  {
+   "line": "l4",
+   "word": "sehari:",
+   "offset": -0.016
+  },
+  {
+   "line": "l4",
+   "word": "Kalau",
+   "offset": -0.131
+  },
+  {
+   "line": "l4",
+   "word": "seharian",
+   "offset": 0.011
+  },
+  {
+   "line": "l4",
+   "word": "begini?",
+   "offset": -0.032
+  },
+  {
+   "line": "l4",
+   "word": "Sekitar",
+   "offset": -0.099
+  },
+  {
+   "line": "l4",
+   "word": "kali",
+   "offset": -0.141
+  },
+  {
+   "line": "l4",
+   "word": "lipat.",
+   "offset": -0.089
+  },
+  {
+   "line": "l6",
+   "word": "Tapi",
+   "offset": 0.1
+  },
+  {
+   "line": "l6",
+   "word": "itu",
+   "offset": -0.05
+  },
+  {
+   "line": "l6",
+   "word": "baru",
+   "offset": -0.018
+  },
+  {
+   "line": "l6",
+   "word": "angka",
+   "offset": -0.07
+  },
+  {
+   "line": "l6",
+   "word": "satu",
+   "offset": -0.042
+  },
+  {
+   "line": "l6",
+   "word": "jam.",
+   "offset": -0.07
+  },
+  {
+   "line": "l6",
+   "word": "Yang",
+   "offset": -0.142
+  },
+  {
+   "line": "l6",
+   "word": "penting:",
+   "offset": -0.042
+  },
+  {
+   "line": "l6",
+   "word": "seberapa",
+   "offset": -0.023
+  },
+  {
+   "line": "l6",
+   "word": "sering",
+   "offset": -0.07
+  },
+  {
+   "line": "l6",
+   "word": "pagi",
+   "offset": -0.05
+  },
+  {
+   "line": "l6",
+   "word": "kayak",
+   "offset": -0.05
+  },
+  {
+   "line": "l6",
+   "word": "gini?",
+   "offset": -0.03
+  },
+  {
+   "line": "cta",
+   "word": "Udara",
+   "offset": 0.077
+  },
+  {
+   "line": "cta",
+   "word": "begini,",
+   "offset": -0.017
+  },
+  {
+   "line": "cta",
+   "word": "kamu",
+   "offset": 0.042
+  },
+  {
+   "line": "cta",
+   "word": "tetap",
+   "offset": -0.01
+  },
+  {
+   "line": "cta",
+   "word": "olahraga",
+   "offset": -0.043
+  },
+  {
+   "line": "cta",
+   "word": "di",
+   "offset": -0.023
+  },
+  {
+   "line": "cta",
+   "word": "luar?",
+   "offset": -0.03
+  },
+  {
+   "line": "cta",
+   "word": "Komen!",
+   "offset": -0.14
+  },
+  {
+   "line": "end",
+   "word": "Follow",
+   "offset": 0.139
+  },
+  {
+   "line": "end",
+   "word": "Rangkumin",
+   "offset": -0.04
+  },
+  {
+   "line": "end",
+   "word": "Dong,",
+   "offset": -0.052
+  },
+  {
+   "line": "end",
+   "word": "biar",
+   "offset": -0.053
+  },
+  {
+   "line": "end",
+   "word": "nggak",
+   "offset": -0.073
+  },
+  {
+   "line": "end",
+   "word": "ketinggalan!",
+   "offset": -0.02
+  }
+ ]
+}

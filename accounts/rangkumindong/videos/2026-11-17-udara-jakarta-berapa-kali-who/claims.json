@@ -1,0 +1,65 @@
+[
+ {
+  "claim": "IQAir: pukul 05.00 WIB Selasa 17 Nov 2026, US AQI Jakarta 177, kategori tidak sehat (l1, caption).",
+  "numbers": "177; 05.00 WIB; 17 Nov 2026",
+  "sources": [
+   "https://www.iqair.com/id/indonesia/jakarta/jakarta"
+  ],
+  "note": "Satu sumber (pembacaan langsung IQAir saat draft); belum ada artikel media 17 Nov. Re-pull sebelum render."
+ },
+ {
+  "claim": "Polutan utama PM2,5, kadar 92 µg/m³ pada pembacaan yang sama (l2, l3, caption).",
+  "numbers": "92 µg/m³",
+  "sources": [
+   "https://www.iqair.com/id/indonesia/jakarta/jakarta"
+  ]
+ },
+ {
+  "claim": "Pedoman WHO (AQG 2021) PM2,5: rata-rata 24 jam 15 µg/m³; rata-rata tahunan 5 µg/m³ (l4, caption).",
+  "numbers": "15 µg/m³; 5 µg/m³",
+  "sources": [
+   "https://www.who.int/publications/i/item/9789240034228"
+  ]
+ },
+ {
+  "claim": "'Kalau seharian begini? Sekitar 6 kali lipat' batas harian WHO: perbandingan andaian 92 ÷ 15 ≈ 6,1, dinyatakan kondisional (l4); caption menjelaskan ini bukan rata-rata harian terukur.",
+  "numbers": "92/15 ≈ 6,1",
+  "sources": [
+   "https://www.iqair.com/id/indonesia/jakarta/jakarta",
+   "https://www.who.int/publications/i/item/9789240034228"
+  ]
+ },
+ {
+  "claim": "Angka IQAir adalah pembacaan satu jam (l6 'itu baru angka satu jam', caption).",
+  "numbers": "",
+  "sources": [
+   "https://www.iqair.com/id/indonesia/jakarta/jakarta"
+  ]
+ },
+ {
+  "claim": "Senin 16 Nov 2026 pukul 05.00 (IQAir): AQI 161, PM2,5 69,4 µg/m³ (hanya caption).",
+  "numbers": "161; 69,4 µg/m³",
+  "sources": [
+   "https://koran-jakarta.com/2026-11-16/iqair-senin-pagi-kualitas-udara-jakarta-tak-sehat-warga-disarankan-pakai-masker-di-luar-rumah"
+  ]
+ },
+ {
+  "claim": "PM2,5 = partikel berdiameter 2,5 mikrometer ke bawah (caption; l2 'debu super halus').",
+  "numbers": "2,5 µm",
+  "sources": [
+   "https://www.who.int/publications/i/item/9789240034228"
+  ]
+ },
+ {
+  "claim": "Pak Budi lari pagi jam lima: ilustrasi ('misalnya'), bukan orang nyata.",
+  "numbers": "",
+  "sources": []
+ },
+ {
+  "claim": "Pedoman WHO bukan \"batas aman\": WHO menyebut dampak kesehatan tetap ada di bawah angka pedoman (caption, Cara baca). h2/titles say \"batas WHO\" / \"batas pedoman WHO\", not \"batas aman\".",
+  "numbers": "",
+  "sources": [
+   "https://www.who.int/news-room/questions-and-answers/item/who-global-air-quality-guidelines"
+  ]
+ }
+]
