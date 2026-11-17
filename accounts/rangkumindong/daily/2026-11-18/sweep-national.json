@@ -1,0 +1,198 @@
+{
+  "area": "national",
+  "run_date": "2026-11-18",
+  "checked": [
+    "CNN Indonesia nasional (21 headlines, all 17 Nov)",
+    "beritanasional.com Berita Terpopuler 17 Nov",
+    "TurnBackHoax home",
+    "detik terpopuler (WebFetch blocked, no read)",
+    "antaranews terkini/humaniora (not fetched; search results only)",
+    "cnbcindonesia (not fetched)",
+    "watch list found: disasters (Maluku quake, Bandung Barat wind, Aceh floods, BMKG rain warnings), viral incident (narkoba suspects at restaurant), public services (Pasar Senen, Sekolah Rakyat), hoaxes (Gatot Menko, Paraguay), education (Sekolah Rakyat), air quality",
+    "storyline search: karhutla",
+    "storyline search: gibran-ijazah-mk (hoax angle; nothing new beyond E0886)",
+    "storyline search: hoax-tracker (via TurnBackHoax)"
+  ],
+  "events": [
+    {
+      "date": "2026-11-17",
+      "category": "ENV",
+      "event": "A BMKG-recorded M7.1 earthquake struck the Banda Sea off Maluku Tenggara at 04:11 WIB; BMKG said no tsunami potential and BNPB reported one Bulog building in Tual lightly damaged, with no deaths, injuries or missing.",
+      "key_numbers": "M7.1 (BMKG press release later gave M6.8) · depth 115 km (press release 97 km) · 04:11 WIB 17 Nov · felt III MMI in Saumlaki, Tiakur, Dobo, Sorong, Manokwari, Tual · shaking about 10 s in Tanimbar/Maluku Tenggara · 11 Maluku quakes in 2021-2025 per BNPB",
+      "storyline": "",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "BMKG", "url": "https://www.bmkg.go.id/gempabumi/20261117041408"},
+        {"label": "ANTARA", "url": "https://antaranews.com/berita/5860119/bnpb-gedung-bulog-rusak-akibat-gempa-71-di-maluku"},
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261117095220-20-1428004/warga-panik-saat-gempa-m71-maluku-tenggara-kini-situasi-kondusif"}
+      ],
+      "why_it_matters": "A big quake felt as far as Papua with almost no damage: a chance to explain why a deep M7+ quake can be survivable.",
+      "signals": {"spreading": 2, "wallet": 0, "surprise": 2, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "Covered by detik, Kompas, CNN Indonesia, ANTARA, Suara, Tempo; on CNN Indonesia nasional list 17 Nov",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-17",
+      "category": "NEWS",
+      "event": "A video went viral showing handcuffed narcotics detainees eating at a Medan restaurant with Polres Asahan narcotics officers; Polda Sumut confirmed the officers are its personnel, apologised and Propam is investigating.",
+      "key_numbers": "Jalan Sisingamangaraja, Medan · Polres Asahan Satres Narkoba · number of people not stated · Propam examining personnel · statement 17 Nov",
+      "storyline": "",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "tvOne News", "url": "https://www.tvonenews.com/berita/478919-viral-tahanan-narkoba-makan-bersama-polisi-di-medan-ini-penjelasan-polda-sumut"},
+        {"label": "Kumparan", "url": "https://kumparan.com/kumparannews/viral-tahanan-narkoba-makan-seafood-di-restoran-medan-polda-sumut-minta-maaf-28abPYN8eNt"},
+        {"label": "Sumut Pos", "url": "https://sumutpos.jawapos.com/hukum-kriminal/2611170016/propam-periksa-personel-terkait-makan-bersama-tahanan"}
+      ],
+      "why_it_matters": "Public trust in police handling of detainees; shows what Propam does after a viral video.",
+      "signals": {"spreading": 2, "wallet": 0, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "Reported by 8+ outlets within a day; CNN Indonesia nasional list 17 Nov 11:36",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-17",
+      "category": "ENV",
+      "event": "BNPB reported that strong winds on 13 November damaged 588 houses in Batujajar and Cihampelas, West Bandung, as BMKG put Jawa Barat on top alert for heavy rain on 18-19 November.",
+      "key_numbers": "588 houses damaged · 132 heavy / 154 moderate / 302 light · Batujajar 408, Cihampelas 180 · BPBD report 16 Nov 19:00 WIB · wind date 13 Nov",
+      "storyline": "",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261117084535-20-1427969/588-rumah-rusak-diterjang-angin-kencang-di-bandung-barat"},
+        {"label": "Tribunnews", "url": "https://www.tribunnews.com/regional/7912305/588-rumah-rusak-diterjang-angin-kencang-di-bandung-barat-bnpb-petakan-5-kecamatan-berstatus-awas"},
+        {"label": "Berita Nasional", "url": "https://beritanasional.com/detail/158725/588-rumah-rusak-akibat-angin-kencang-di-bandung-barat-132-di-antaranya-rusak-berat"}
+      ],
+      "why_it_matters": "Rainy-season extreme weather is now destroying homes near Greater Bandung, with more rain forecast.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "CNN Indonesia nasional list 17 Nov 08:45; several outlets",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-17",
+      "category": "ENV",
+      "event": "Aceh's disaster agency (BPBA) said floods in five Aceh regencies/cities affected 21,109 people, with a toddler killed by a landslide in Aceh Tengah, amid a cyclone seedling in the Bay of Bengal.",
+      "key_numbers": "21,109 people affected (BPBA, 16 Nov afternoon) · 5,584 flooded homes · 1,553 displaced (445 households, wording ambiguous) · 1 death (child, Aceh Tengah) · emergency status 11 Nov 2026 to 31 Jan 2027 · BNPB earlier total Aceh+Sumut 28,376 affected",
+      "storyline": "",
+      "update_of": "E0884",
+      "status": "verified",
+      "sources": [
+        {"label": "ANTARA", "url": "https://www.antaranews.com/berita/5860063/bpba-21109-jiwa-terdampak-banjir-di-aceh"},
+        {"label": "Kompas", "url": "https://regional.kompas.com/read/2026/11/17/183000478/bpba-catat-21.109-warga-terdampak-banjir-di-lima-wilayah-aceh-1.553-orang"},
+        {"label": "Tribunnews", "url": "https://www.tribunnews.com/nasional/7911742/banjir-melanda-aceh-dan-sumut-bnpb-catat-28376-jiwa-terdampak-2-bibit-siklon-tropis-mengintai"}
+      ],
+      "why_it_matters": "Flooding in Aceh keeps growing while two cyclone seedlings are being watched.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 0, "visual": 1, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "Multiple outlets (ANTARA, Kompas, Tribun)",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-18",
+      "category": "ENV",
+      "event": "BMKG issued Siaga warnings for very heavy rain on 18 November in 14 provinces including DKI Jakarta, Banten, Jawa Barat, Jawa Tengah and Jawa Timur, with Waspada status in 21 more.",
+      "key_numbers": "14 provinces Siaga (Aceh, Sumut, Sumbar, Riau, Sumsel, Babel, Bengkulu, Lampung, Banten, DKI, Jabar, Jateng, Jatim, Kalbar) · 21 provinces Waspada · BMKG warning for 18-19 Nov",
+      "storyline": "",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "Kontan", "url": "https://momsmoney.kontan.co.id/news/hujan-amat-lebat-guyur-14-provinsi-ini-cek-peringatan-dini-bmkg-cuaca-besok-1811"},
+        {"label": "Kompas", "url": "https://regional.kompas.com/read/2026/11/16/091712178/bmkg-keluarkan-peringatan-dini-cuaca-ekstrem-di-aceh-waspada-hujan-lebat"}
+      ],
+      "why_it_matters": "Java's capitals and commuter belts face very heavy rain on the day the video is published.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 0, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "Weather warnings carried by many regional outlets",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-17",
+      "category": "ENV",
+      "event": "KLHK ISPU data at 18:00 WIB on 17 November ranked Kalimantan Selatan (112) and DKI Jakarta (110) as the two provinces with the worst air quality, both in the unhealthy range.",
+      "key_numbers": "Kalsel ISPU 112 · DKI Jakarta 110 · Banten 105 · Jawa Barat 104 · Kaltim 100 · Kalteng 83 · ISPU 101-200 = tidak sehat · IQAir Jakarta 17 Nov 05:00 US AQI 177 (from storyline)",
+      "storyline": "karhutla",
+      "update_of": "E0883",
+      "status": "partial",
+      "sources": [
+        {"label": "Databoks Katadata", "url": "https://databoks.katadata.co.id/layanan-konsumen-kesehatan/statistik/cb30316a8fbfc7d/kualitas-udara-kalimantan-selatan-malam-hari-1711-terburuk-di-indonesia"}
+      ],
+      "why_it_matters": "Jakarta air is again among the worst in the country; ISPU and IQAir use different scales, so never compare them directly.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "Databoks ranking; Jakarta air already a topic",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-16",
+      "category": "NEWS",
+      "event": "Social Affairs Minister Gus Ipul said the government will build a Sekolah Rakyat on about 8 hectares inside the UI urban forest; UI replied on 17 November that the land is adjacent campus land, not inside the forest, and that the site is not final.",
+      "key_numbers": "8 ha planned · UI forest about 98 ha (Gus Ipul: 100+ ha) · South Jakarta portion 55.40 ha (SK Gub 3487/1999) · no PKS signed yet · Gus Ipul 16 Nov, UI 17 Nov",
+      "storyline": "",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261117102053-20-1428009/pemerintah-mau-bangun-sekolah-rakyat-8-hektare-di-hutan-kota-ui"},
+        {"label": "Katadata", "url": "https://katadata.co.id/berita/nasional/6afb9d962b33a/sekolah-rakyat-bakal-dibangun-di-kawasan-hutan-kota-ui-seluas-8-hektare"},
+        {"label": "Suara", "url": "https://www.suara.com/news/2026/11/17/100119/kemensos-minta-8-hektare-hutan-kota-ui-dibangun-jadi-sekolah-rakyat-jakarta"}
+      ],
+      "why_it_matters": "A government-versus-campus disagreement over whether a school will take green space in Jakarta.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 2, "visual": 2, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "Ten-plus outlets within a day; CNN Indonesia nasional list 17 Nov 10:20",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-17",
+      "category": "NEWS",
+      "event": "TurnBackHoax (Mafindo) rated false a video claiming riots in Paraguay because 3 million people could not withdraw cash; the footage shows a riot at the Supreme Court building in Albania.",
+      "key_numbers": "claim: 3 million people · Threads post 5 Nov · fact-check 17 Nov · matching footage from 18-20 Oct 2026 (NDTV, Azerbaijan news agency) · post had only 2 likes, 6 replies, 2 shares",
+      "storyline": "hoax-tracker",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "TurnBackHoax", "url": "https://turnbackhoax.id/articles/37472-salah-video-rusuh-di-paraguay-karena-3-juta-orang-tidak-bisa-tarik-tunai"}
+      ],
+      "why_it_matters": "A bank-run style hoax can make people doubt their own bank; a recycled video was used.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "TurnBackHoax top item 17 Nov; low engagement on the original post",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-17",
+      "category": "NEWS",
+      "event": "TurnBackHoax (Mafindo) rated false a TikTok post claiming Prabowo inaugurated Gatot Nurmantyo as Menko Polhukam, saying the claim recycles an October 2025 hoax and the image is 96% likely AI-made.",
+      "key_numbers": "TikTok post 12 Nov · fact-check 17 Nov · Sightengine AI probability 96% · same claim debunked 1 Oct 2025",
+      "storyline": "hoax-tracker",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "TurnBackHoax", "url": "https://turnbackhoax.id/articles/37473-salah-prabowo-resmi-melantik-gatot-nurmantyo-sebagai-menko-polhukam"}
+      ],
+      "why_it_matters": "AI-made fake inauguration images keep recycling old hoaxes.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "TurnBackHoax top item 17 Nov",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-16",
+      "category": "NEWS",
+      "event": "DKI Jakarta resumed construction of Pasar Senen Block VI after a 14-year stall, with Governor Pramono Anung targeting completion in May 2028 and room for about 1,700 business units.",
+      "key_numbers": "14 years stalled · target completion May 2028 · about 1,700 business spaces (Liputan6 headline; article not opened)",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "IDX Channel", "url": "https://www.idxchannel.com/news/pembangunan-pasar-senen-blok-vi-berlanjut-usai-mangkrak-14-tahun-pramono-rampung-mei-2028"},
+        {"label": "Tribun Jakarta", "url": "https://jakarta.tribunnews.com/jakarta/446658/14-tahun-mangkrak-pasar-senen-blok-vi-akhirnya-dibangun-lagi-pramono-targetkan-rampung-2028"}
+      ],
+      "why_it_matters": "A market stalled since about 2012 finally restarts, relevant to traders.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "CNN Indonesia nasional list 17 Nov 12:05; several outlets",
+      "sensitivity": "normal"
+    }
+  ],
+  "gaps": [
+    "detik terpopuler and CNBC Indonesia section pages not read (WebFetch permission blocked/not attempted): most-read ranking not confirmed",
+    "Maluku quake: BMKG header M7.1/115 km vs press release M6.8/97 km; use M7.1 with attribution",
+    "Pasar Senen numbers taken from headlines/snippets only (1,700 units, May 2028)",
+    "Bandung Barat: Tribun says 5 sub-districts at awas status for rain; CNN article names only Batujajar and Cihampelas, not verified",
+    "karhutla: no new BNPB hotspot figure for 17 Nov found",
+    "Not covered here: Megaspeed GPU search, Surabaya zoo corruption trial, Listyo Sigit ethics hearing (likely politics sweep)"
+  ]
+}

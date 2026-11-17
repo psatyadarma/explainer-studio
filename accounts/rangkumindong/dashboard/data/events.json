@@ -7750,6 +7750,86 @@
 "upcoming": false
 },
 {
+"id": "E0892",
+"date": "2026-11-16",
+"category": "ECO",
+"event": "Bank Indonesia reported Indonesia's external debt (ULN) at US$458.9 billion in Q3 2026, up from US$455.4 billion in Q2.",
+"key_numbers": "ULN Q3 2026 US$458.9B (Antara headline and CNBC body) vs Q2 US$455.4B · +7.2% y/y · government US$220.2B (Q2 216.3) · private US$196.3B (Q2 196.7) · 30.9% of GDP · released 16 Nov",
+"storyline": "rupiah",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0895",
+"date": "2026-11-16",
+"category": "MKT",
+"event": "OJK announced it named suspects, three of them detained, over alleged manipulation of warrant trading on the IDX involving accounts opened with other people's identities.",
+"key_numbers": "4 suspects named, 3 detained (held at Bareskrim) · estimated loss Rp6.97 billion (headline says 3 suspects) · trading day 29 May 2023 · instruments CHEM-W, DOOH-W and 3 structured warrants · OJK investigation order May 2026",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0896",
+"date": "2026-11-16",
+"category": "BIZ",
+"event": "LPSK said restitution for 5,102 qualified victims of the Dana Syariah Indonesia (DSI) P2P lending fraud totals Rp1.07 trillion, and its report went to Kejari Depok on 21 October.",
+"key_numbers": "5,102 victims · Rp1.07T total restitution (about Rp209 million per victim, our calc) · applications 1 Apr-16 May 2026 · report to Kejari Depok 21 Oct 2026",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0897",
+"date": "2026-11-16",
+"category": "ECO",
+"event": "OJK's banking supervision head Dian Ediana Rae said OJK is still drafting policy on bank consolidation and capital (modal inti) requirements, to be applied gradually, while CNBC also reported OJK drafting rules for mini banks to upgrade.",
+"key_numbers": "No threshold, bank count or deadline disclosed · 2027 capital deadline mentioned · OJK also warned banks on lending amid weak purchasing power",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0902",
+"date": "2026-11-16",
+"category": "TECH",
+"event": "Bareskrim Polri announced it had blocked 322 bank accounts and seized Rp28.01 billion in a probe of an online gambling site identified only as 'A', whose servers are in Finland and the US.",
+"key_numbers": "322 blocked accounts · Rp28.01 billion seized (may rise) · servers in Finland and US · site still operating, reachable via VPN despite Komdigi block · no suspect named",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0905",
+"date": "2026-11-16",
+"category": "TECH",
+"event": "Minister of Higher Education, Science and Technology Brian Yuliarto and Peruri launched Chip Merah Putih, a domestic chip prototype designed with ITB, starting with e-passport use.",
+"key_numbers": "Chip Hackathon 2026: 89 teams, 338 students, 41 universities · no process node, fab or production target stated",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0913",
+"date": "2026-11-16",
+"category": "NEWS",
+"event": "Social Affairs Minister Gus Ipul said the government will build a Sekolah Rakyat on about 8 hectares inside the UI urban forest; UI replied on 17 November that the land is adjacent campus land, not inside the forest, and that the site is not final.",
+"key_numbers": "8 ha planned · UI forest about 98 ha (Gus Ipul: 100+ ha) · South Jakarta portion 55.40 ha (SK Gub 3487/1999) · no PKS signed yet · Gus Ipul 16 Nov, UI 17 Nov",
+"storyline": "",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0916",
+"date": "2026-11-16",
+"category": "NEWS",
+"event": "DKI Jakarta resumed construction of Pasar Senen Block VI after a 14-year stall, with Governor Pramono Anung targeting completion in May 2028 and room for about 1,700 business units.",
+"key_numbers": "14 years stalled · target completion May 2028 · about 1,700 business spaces (Liputan6 headline; article not opened)",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
 "id": "E0040",
 "date": "2026-11-17",
 "category": "ECO",
@@ -7810,6 +7890,176 @@
 "upcoming": false
 },
 {
+"id": "E0889",
+"date": "2026-11-17",
+"category": "MKT",
+"event": "The IHSG closed down 0.30% at 5,304.76 on 17 November, with CNBC Indonesia citing Asia growth worries, higher external debt data, the pending UMP 2027 decision and rupiah pressure ahead of the BI rate decision. (update of E0859)",
+"key_numbers": "IHSG 5,304.76 (-16.23 pts, -0.30%) on 17 Nov · open 5,309.86 · range 5,292.95-5,385.14 · volume 288.54 million lots · value Rp8.85T · utilities -1.20%, basic materials -0.84%, energy -0.68% · drags BBCA, AMMN, BRMS, BRPT, ENRG",
+"storyline": "msci-reclassification",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0890",
+"date": "2026-11-17",
+"category": "MKT",
+"event": "The rupiah closed at Rp18,256 per US dollar on 17 November, slightly stronger by 0.07% per Bisnis, after detikFinance said the dollar was almost Rp18,300 in the morning. (update of E0858)",
+"key_numbers": "Rupiah close Rp18,256/USD (+0.07%) on 17 Nov (Bisnis headline) · Bisnis 16 Nov close Rp18,268 · CNBC/Refinitiv 16 Nov close Rp18,245 · detik morning 17 Nov 'almost Rp18,300' · record-weak close remains 8 Jun Rp18,170 per storyline note, so these levels are weaker than that (storyline rule needs vendor check)",
+"storyline": "rupiah",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0893",
+"date": "2026-11-17",
+"category": "MKT",
+"event": "Antam's 24-carat gold price was Rp2,515,000 per gram on 17 November, down Rp7,000, while the buyback price fell Rp20,000 to Rp2,278,000.",
+"key_numbers": "Antam sell Rp2,515,000/g (-Rp7,000) · buyback Rp2,278,000/g (-Rp20,000) · spread Rp237,000/g · 17 Nov",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0894",
+"date": "2026-11-17",
+"category": "ECO",
+"event": "KSPI president and presidential adviser Said Iqbal said President Prabowo has not decided who will manage the planned severance (pesangon) reserve fund, with BPJS Ketenagakerjaan, Danantara or a new body as options, and that he leans to Danantara.",
+"key_numbers": "3 options: BPJS Ketenagakerjaan, Danantara (BPI), new body · BPJS route needs amending 2 laws (SJSN, BPJS Ketenagakerjaan) · Danantara route could be a government regulation · no rupiah amounts given · press conference 16 Nov",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0899",
+"date": "2026-11-17",
+"category": "TECH",
+"event": "CNBC Indonesia, citing the Straits Times and a government source, reported that Polri searched the Jakarta office of Singapore-based Megaspeed at the FBI's request in search of Nvidia chips, finding server racks with no GPUs. (update of E0716)",
+"key_numbers": "Megaspeed Nvidia purchases over US$4.8 billion since June 2024 (largest SE Asia buyer) · MettaDC Cikarang 36 MW · raid reportedly early 2026, before the scandal went public · no police statement",
+"storyline": "ai-data-centres",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0900",
+"date": "2026-11-17",
+"category": "TECH",
+"event": "Indosat denied any commercial relationship with Megaspeed, while a NexAI Digital Infrastruktur disclosure names both Megaspeed International Indonesia and Indosat as tenants of the MettaDC Cikarang and planned Batang data centres.",
+"key_numbers": "Indosat: no commercial relationship · MettaDC 36 MW Cikarang · planned Batang 60 MW · Megaspeed purchases US$4.8 billion since Jun 2024 · no GPU count for Indonesia given",
+"storyline": "ai-data-centres",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0901",
+"date": "2026-11-17",
+"category": "TECH",
+"event": "CNBC Indonesia, citing the State of Scams Indonesia 2026 report, said Indonesians lost Rp104.3 trillion to digital scams over the past year, with nearly half of victims scammed more than once.",
+"key_numbers": "Total loss Rp104.3T · average loss Rp4.89 million per victim · median Rp1.24 million · 70% of adults faced a scam attempt (66% in 2025) · 63 attempts per person per year · 47% of victims scammed repeatedly · survey of 1,160 adults, 16 Mar-13 Apr 2026 · OJK digital fraud reports above 700,000 (CNBC, 16 Nov, headline only)",
+"storyline": "online-scams",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0903",
+"date": "2026-11-17",
+"category": "TECH",
+"event": "CNBC Indonesia reported that Uber notified drivers that 149,346 people had their names, addresses, birth dates and driver's licence numbers stolen through a breach at third-party AI provider Fireworks AI.",
+"key_numbers": "149,346 drivers · data: name, address, date of birth, driver's licence number · notices began early Nov 2026 · Uber's second breach in 2026 (after Uber Freight) · drivers' countries not stated",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0904",
+"date": "2026-11-17",
+"category": "TECH",
+"event": "CNBC Indonesia reported Microsoft's explanation of the 13 November global Microsoft 365 outage: a gateway-server bug from a July change, undetected for about three months, cascaded failures across servers. (update of E0816)",
+"key_numbers": "Bug undetected ~3 months · ~14% of gateway capacity already offline · servers overwhelmed up to 80% · Teams switched gateways ~15 hours before outage · Microsoft apologised",
+"storyline": "cyber-threats-gov",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0906",
+"date": "2026-11-17",
+"category": "TECH",
+"event": "Nvidia was scheduled to report fiscal Q3 FY2027 results after US market close on 17 November, its first under interim CEO Colette Kress; results not verified in this sweep. (update of E0839)",
+"key_numbers": "Report date 17 Nov (US) · shares reportedly down about 13% beforehand (Ajaib, snippet only)",
+"storyline": "ai-data-centres",
+"status": "upcoming",
+"upcoming": false
+},
+{
+"id": "E0907",
+"date": "2026-11-17",
+"category": "ENV",
+"event": "A BMKG-recorded M7.1 earthquake struck the Banda Sea off Maluku Tenggara at 04:11 WIB; BMKG said no tsunami potential and BNPB reported one Bulog building in Tual lightly damaged, with no deaths, injuries or missing.",
+"key_numbers": "M7.1 (BMKG press release later gave M6.8) · depth 115 km (press release 97 km) · 04:11 WIB 17 Nov · felt III MMI in Saumlaki, Tiakur, Dobo, Sorong, Manokwari, Tual · shaking about 10 s in Tanimbar/Maluku Tenggara · 11 Maluku quakes in 2021-2025 per BNPB",
+"storyline": "",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0908",
+"date": "2026-11-17",
+"category": "NEWS",
+"event": "A video went viral showing handcuffed narcotics detainees eating at a Medan restaurant with Polres Asahan narcotics officers; Polda Sumut confirmed the officers are its personnel, apologised and Propam is investigating.",
+"key_numbers": "Jalan Sisingamangaraja, Medan · Polres Asahan Satres Narkoba · number of people not stated · Propam examining personnel · statement 17 Nov",
+"storyline": "",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0909",
+"date": "2026-11-17",
+"category": "ENV",
+"event": "BNPB reported that strong winds on 13 November damaged 588 houses in Batujajar and Cihampelas, West Bandung, as BMKG put Jawa Barat on top alert for heavy rain on 18-19 November.",
+"key_numbers": "588 houses damaged · 132 heavy / 154 moderate / 302 light · Batujajar 408, Cihampelas 180 · BPBD report 16 Nov 19:00 WIB · wind date 13 Nov",
+"storyline": "",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0910",
+"date": "2026-11-17",
+"category": "ENV",
+"event": "Aceh's disaster agency (BPBA) said floods in five Aceh regencies/cities affected 21,109 people, with a toddler killed by a landslide in Aceh Tengah, amid a cyclone seedling in the Bay of Bengal. (update of E0884)",
+"key_numbers": "21,109 people affected (BPBA, 16 Nov afternoon) · 5,584 flooded homes · 1,553 displaced (445 households, wording ambiguous) · 1 death (child, Aceh Tengah) · emergency status 11 Nov 2026 to 31 Jan 2027 · BNPB earlier total Aceh+Sumut 28,376 affected",
+"storyline": "",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0912",
+"date": "2026-11-17",
+"category": "ENV",
+"event": "KLHK ISPU data at 18:00 WIB on 17 November ranked Kalimantan Selatan (112) and DKI Jakarta (110) as the two provinces with the worst air quality, both in the unhealthy range. (update of E0883)",
+"key_numbers": "Kalsel ISPU 112 · DKI Jakarta 110 · Banten 105 · Jawa Barat 104 · Kaltim 100 · Kalteng 83 · ISPU 101-200 = tidak sehat · IQAir Jakarta 17 Nov 05:00 US AQI 177 (from storyline)",
+"storyline": "karhutla",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0914",
+"date": "2026-11-17",
+"category": "NEWS",
+"event": "TurnBackHoax (Mafindo) rated false a video claiming riots in Paraguay because 3 million people could not withdraw cash; the footage shows a riot at the Supreme Court building in Albania.",
+"key_numbers": "claim: 3 million people · Threads post 5 Nov · fact-check 17 Nov · matching footage from 18-20 Oct 2026 (NDTV, Azerbaijan news agency) · post had only 2 likes, 6 replies, 2 shares",
+"storyline": "hoax-tracker",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0915",
+"date": "2026-11-17",
+"category": "NEWS",
+"event": "TurnBackHoax (Mafindo) rated false a TikTok post claiming Prabowo inaugurated Gatot Nurmantyo as Menko Polhukam, saying the claim recycles an October 2025 hoax and the image is 96% likely AI-made.",
+"key_numbers": "TikTok post 12 Nov · fact-check 17 Nov · Sightengine AI probability 96% · same claim debunked 1 Oct 2025",
+"storyline": "hoax-tracker",
+"status": "partial",
+"upcoming": false
+},
+{
 "id": "E0825",
 "date": "2026-11-18",
 "category": "ECO",
@@ -7837,6 +8087,36 @@
 "key_numbers": "Deadline about 18 Nov 2026 · 2 names · at least 14 days before the plenary (Peraturan MPR 1/2024, Art. 136(1) per Okezone) · plenary Wed 2 Dec 2026 · Prabowo told parties to discuss proposals within about 1 week",
 "storyline": "gibran-ijazah-mk",
 "status": "upcoming",
+"upcoming": true
+},
+{
+"id": "E0891",
+"date": "2026-11-18",
+"category": "ECO",
+"event": "Ahead of Bank Indonesia's RDG decision on 18 November, a Bloomberg survey of 32 economists and analysts is split, with 11 expecting a hike to 6% and the median expecting a hold at 5.75%. (update of E0825)",
+"key_numbers": "BI-Rate now 5.75% (per storyline, Jul-Sep hold) · Bloomberg survey n=32: 11 hike to 6%, about 21 hold (derived), median 5.75% · BCA chief economist David Sumual expects 6%, citing that rupiah depreciation above 2.5% wipes out foreign investors' dollar gains · LPEM FEB UI expects hold at 5.75% · RDG 17-18 Nov",
+"storyline": "rupiah",
+"status": "upcoming",
+"upcoming": true
+},
+{
+"id": "E0898",
+"date": "2026-11-18",
+"category": "POL",
+"event": "Because the MPR plenary to choose a new Vice President moved from 2 December to 9 December, the 18 November date for Prabowo to hand over two candidate names no longer appears to be the binding deadline. (update of E0866)",
+"key_numbers": "Plenary 2 Dec -> 9 Dec 2026 · rule: names at least 14 days before plenary (Peraturan MPR 1/2024 Art. 136(1)) · implied new latest date about 25 Nov 2026 (our calculation, not stated by MPR) · 2 names required",
+"storyline": "gibran-ijazah-mk",
+"status": "partial",
+"upcoming": true
+},
+{
+"id": "E0911",
+"date": "2026-11-18",
+"category": "ENV",
+"event": "BMKG issued Siaga warnings for very heavy rain on 18 November in 14 provinces including DKI Jakarta, Banten, Jawa Barat, Jawa Tengah and Jawa Timur, with Waspada status in 21 more.",
+"key_numbers": "14 provinces Siaga (Aceh, Sumut, Sumbar, Riau, Sumsel, Babel, Bengkulu, Lampung, Banten, DKI, Jabar, Jateng, Jatim, Kalbar) · 21 provinces Waspada · BMKG warning for 18-19 Nov",
+"storyline": "",
+"status": "verified",
 "upcoming": true
 },
 {

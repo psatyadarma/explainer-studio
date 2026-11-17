@@ -1,0 +1,25 @@
+{
+  "area": "politics",
+  "run_date": "2026-11-18",
+  "checked": ["antaranews politik (stale, newest item 23 Oct)", "detik berita (not returned by search, unreadable)", "cnnindonesia nasional (search only, not readable)", "tempo politik (search only, not readable)", "Presiden/Wapres/Istana: VP vacancy", "storyline gibran-ijazah-mk", "storyline listyo-sigit-penyadapan (search returned only 3-5 Nov items)", "storyline corruption-cases (search returned only 2 Nov and earlier)", "MPR letter/deadline coverage (gebrak.id, afu.id opened)"],
+  "events": [
+    {
+      "date": "2026-11-18",
+      "category": "POL",
+      "event": "Because the MPR plenary to choose a new Vice President moved from 2 December to 9 December, the 18 November date for Prabowo to hand over two candidate names no longer appears to be the binding deadline.",
+      "key_numbers": "Plenary 2 Dec -> 9 Dec 2026 · rule: names at least 14 days before plenary (Peraturan MPR 1/2024 Art. 136(1)) · implied new latest date about 25 Nov 2026 (our calculation, not stated by MPR) · 2 names required",
+      "storyline": "gibran-ijazah-mk",
+      "update_of": "E0866",
+      "status": "partial",
+      "sources": [
+        {"label": "detikNews (via E0866)", "url": "https://news.detik.com/berita/d-8755839/sidang-mpr-pemilihan-wapres-mundur-sepekan-ini-pertimbangannya"},
+        {"label": "afu.id (14-day rule, 18 Nov date)", "url": "https://afu.id/nasional/prabowo-beri-parpol-sepekan-dua-nama-cawapres-kejar-tenggat-mpr-18-november"}
+      ],
+      "why_it_matters": "Corrects the earlier 18 Nov deadline: the VP replacement timeline now runs to 9 Dec, so names may come later.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "high"
+    }
+  ],
+  "gaps": ["Could not read detik, CNN Indonesia, Tempo section pages (not returned by search); antaranews page was stale (23 Oct), so 17-18 Nov headlines were not scanned", "Whether Prabowo has already submitted the two VP names, and the new MPR deadline, not verified", "No 16-18 Nov developments found for Listyo Sigit tapping case or KPK Djarum/Bea Cukai probe (search lag)", "E0832 (18 Nov deadline) looks superseded by E0866 (9 Dec plenary); coordinator may mark it"]
+}

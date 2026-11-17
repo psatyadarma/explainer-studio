@@ -1,0 +1,157 @@
+{
+  "area": "markets",
+  "run_date": "2026-11-18",
+  "checked": [
+    "CNBC Indonesia market (section page fetched, but stale: newest items dated 16 Nov; most-read list empty placeholders)",
+    "detikFinance front page + Berita Terpopuler (fresh, 17 Nov)",
+    "Antara Ekonomi (fresh, 17 Nov)",
+    "Bisnis market/ekonomi (WebFetch failed client_error; only search-result headlines seen)",
+    "Watch list found: IHSG close, foreign flow, rupiah, BI RDG, OJK actions, ULN, Antam gold, severance fund/Danantara, MSCI/FTSE (already known), Nvidia earnings (already known)",
+    "Storyline searches: msci-reclassification (IHSG/CNBC), rupiah (BI-Rate RDG forecasts), chip-ram-prices/ai-data-centres (Nvidia, no results yet)"
+  ],
+  "events": [
+    {
+      "date": "2026-11-17",
+      "category": "MKT",
+      "event": "The IHSG closed down 0.30% at 5,304.76 on 17 November, with CNBC Indonesia citing Asia growth worries, higher external debt data, the pending UMP 2027 decision and rupiah pressure ahead of the BI rate decision.",
+      "key_numbers": "IHSG 5,304.76 (-16.23 pts, -0.30%) on 17 Nov · open 5,309.86 · range 5,292.95-5,385.14 · volume 288.54 million lots · value Rp8.85T · utilities -1.20%, basic materials -0.84%, energy -0.68% · drags BBCA, AMMN, BRMS, BRPT, ENRG",
+      "storyline": "msci-reclassification",
+      "update_of": "E0859",
+      "status": "partial",
+      "sources": [{"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/market/20261117153209-17-786022/ihsg-berakhir-di-zona-merah-melemah-030-ke-level-530476"}],
+      "why_it_matters": "The index is stuck just above 5,300 while everyone waits for BI's decision on Wednesday.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 0, "visual": 1, "fresh": 2, "rivals": 0},
+      "spreading_evidence": "daily close covered by CNBC, detik, Bisnis",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-17",
+      "category": "MKT",
+      "event": "The rupiah closed at Rp18,256 per US dollar on 17 November, slightly stronger by 0.07% per Bisnis, after detikFinance said the dollar was almost Rp18,300 in the morning.",
+      "key_numbers": "Rupiah close Rp18,256/USD (+0.07%) on 17 Nov (Bisnis headline) · Bisnis 16 Nov close Rp18,268 · CNBC/Refinitiv 16 Nov close Rp18,245 · detik morning 17 Nov 'almost Rp18,300' · record-weak close remains 8 Jun Rp18,170 per storyline note, so these levels are weaker than that (storyline rule needs vendor check)",
+      "storyline": "rupiah",
+      "update_of": "E0858",
+      "status": "partial",
+      "sources": [
+        {"label": "Bisnis.com", "url": "https://market.bisnis.com/read/20261117/93/2022112/rupiah-ditutup-menguat-007-ke-rp18256-per-dolar-as-hari-ini-1711"},
+        {"label": "detikFinance (#3 most popular)", "url": "https://finance.detik.com/bursa-dan-valas/d-8756179/dolar-as-pagi-ini-hampir-rp-18-300"}
+      ],
+      "why_it_matters": "A weaker rupiah makes imports, fuel and overseas tuition more expensive, and it is the main pressure on BI's rate decision.",
+      "signals": {"spreading": 2, "wallet": 2, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "detikFinance terpopuler #3 'Dolar AS Pagi Ini Hampir Rp 18.300!'",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-18",
+      "category": "ECO",
+      "event": "Ahead of Bank Indonesia's RDG decision on 18 November, a Bloomberg survey of 32 economists and analysts is split, with 11 expecting a hike to 6% and the median expecting a hold at 5.75%.",
+      "key_numbers": "BI-Rate now 5.75% (per storyline, Jul-Sep hold) · Bloomberg survey n=32: 11 hike to 6%, about 21 hold (derived), median 5.75% · BCA chief economist David Sumual expects 6%, citing that rupiah depreciation above 2.5% wipes out foreign investors' dollar gains · LPEM FEB UI expects hold at 5.75% · RDG 17-18 Nov",
+      "storyline": "rupiah",
+      "update_of": "E0825",
+      "status": "upcoming",
+      "sources": [
+        {"label": "Bloomberg Technoz", "url": "https://www.bloombergtechnoz.com/detail-news/127940/bi-rate-diramal-bertahan-di-5-75-tapi-suara-pasar-terbelah"},
+        {"label": "Kontan", "url": "https://nasional.kontan.co.id/news/bi-diprediksi-tahan-bi-rate-di-575-kenaikan-baru-berpeluang-di-akhir-2026"}
+      ],
+      "why_it_matters": "The BI-Rate sets mortgage, loan and deposit rates and decides whether the rupiah gets support; this corrects the earlier 'widely expected to hike' framing (E0601).",
+      "signals": {"spreading": 1, "wallet": 2, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "Bisnis, Kontan, Bloomberg Technoz, Rancak, mediakompeten all ran RDG previews",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-16",
+      "category": "ECO",
+      "event": "Bank Indonesia reported Indonesia's external debt (ULN) at US$458.9 billion in Q3 2026, up from US$455.4 billion in Q2.",
+      "key_numbers": "ULN Q3 2026 US$458.9B (Antara headline and CNBC body) vs Q2 US$455.4B · +7.2% y/y · government US$220.2B (Q2 216.3) · private US$196.3B (Q2 196.7) · 30.9% of GDP · released 16 Nov",
+      "storyline": "rupiah",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "Antara", "url": "https://www.antaranews.com/berita/5857003/bi-uln-triwulan-iii-2026-tetap-terjaga-capai-4589-miliar-dolar-as"},
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/market/20261116133147-17-785592/utang-luar-negeri-ri-us--4554-miliar-kuartal-iii-2026"}
+      ],
+      "why_it_matters": "External debt owed in dollars gets heavier to repay when the rupiah is near Rp18,300.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 0, "visual": 2, "fresh": 1, "rivals": 1},
+      "spreading_evidence": "cited by CNBC as a market driver on 17 Nov",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-17",
+      "category": "MKT",
+      "event": "Antam's 24-carat gold price was Rp2,515,000 per gram on 17 November, down Rp7,000, while the buyback price fell Rp20,000 to Rp2,278,000.",
+      "key_numbers": "Antam sell Rp2,515,000/g (-Rp7,000) · buyback Rp2,278,000/g (-Rp20,000) · spread Rp237,000/g · 17 Nov",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [{"label": "detikFinance (#2 most popular)", "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8756187/harga-emas-antam-turun-buyback-anjlok-rp-20-000"}],
+      "why_it_matters": "Many Indonesians park savings in gold, and the gap between buy and buyback price shows what a quick resale costs.",
+      "signals": {"spreading": 2, "wallet": 2, "surprise": 0, "visual": 2, "fresh": 2, "rivals": 0},
+      "spreading_evidence": "detikFinance terpopuler #2",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-17",
+      "category": "ECO",
+      "event": "KSPI president and presidential adviser Said Iqbal said President Prabowo has not decided who will manage the planned severance (pesangon) reserve fund, with BPJS Ketenagakerjaan, Danantara or a new body as options, and that he leans to Danantara.",
+      "key_numbers": "3 options: BPJS Ketenagakerjaan, Danantara (BPI), new body · BPJS route needs amending 2 laws (SJSN, BPJS Ketenagakerjaan) · Danantara route could be a government regulation · no rupiah amounts given · press conference 16 Nov",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [{"label": "detikFinance (#5 most popular)", "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8755712/buruh-sebut-bpjs-ketenagakerjaan-danantara-calon-pengelola-dana-pesangon"}],
+      "why_it_matters": "It decides who holds money meant to protect laid-off workers when their employer cannot pay severance.",
+      "signals": {"spreading": 2, "wallet": 2, "surprise": 1, "visual": 0, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "detikFinance terpopuler #5",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-16",
+      "category": "MKT",
+      "event": "OJK announced it named suspects, three of them detained, over alleged manipulation of warrant trading on the IDX involving accounts opened with other people's identities.",
+      "key_numbers": "4 suspects named, 3 detained (held at Bareskrim) · estimated loss Rp6.97 billion (headline says 3 suspects) · trading day 29 May 2023 · instruments CHEM-W, DOOH-W and 3 structured warrants · OJK investigation order May 2026",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [{"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/market/20261116203423-17-785766/ojk-ungkap-3-tersangka-manipulasi-saham-dugaan-kerugian-rp697-m"}],
+      "why_it_matters": "It shows OJK following through on market-manipulation enforcement while MSCI is watching for coordinated trading.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 0, "fresh": 1, "rivals": 2},
+      "spreading_evidence": "",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-16",
+      "category": "BIZ",
+      "event": "LPSK said restitution for 5,102 qualified victims of the Dana Syariah Indonesia (DSI) P2P lending fraud totals Rp1.07 trillion, and its report went to Kejari Depok on 21 October.",
+      "key_numbers": "5,102 victims · Rp1.07T total restitution (about Rp209 million per victim, our calc) · applications 1 Apr-16 May 2026 · report to Kejari Depok 21 Oct 2026",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [{"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/market/20261116164343-17-785685/nilai-ganti-rugi-korban-fintech-dana-syariah--dsi--capai-rp107-t"}],
+      "why_it_matters": "It shows how much ordinary investors lost in a sharia fintech Ponzi case and when they might get money back.",
+      "signals": {"spreading": 1, "wallet": 2, "surprise": 1, "visual": 2, "fresh": 1, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-16",
+      "category": "ECO",
+      "event": "OJK's banking supervision head Dian Ediana Rae said OJK is still drafting policy on bank consolidation and capital (modal inti) requirements, to be applied gradually, while CNBC also reported OJK drafting rules for mini banks to upgrade.",
+      "key_numbers": "No threshold, bank count or deadline disclosed · 2027 capital deadline mentioned · OJK also warned banks on lending amid weak purchasing power",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [{"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/market/20261116152954-17-785638/ojk-buka-suara-soal-nasib-bank-yang-gagal-penuhi-syarat-modal-di-2027"}],
+      "why_it_matters": "Small banks may be forced to merge or raise capital, which could affect depositors and bank shares.",
+      "signals": {"spreading": 0, "wallet": 1, "surprise": 0, "visual": 0, "fresh": 1, "rivals": 2},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    }
+  ],
+  "gaps": [
+    "Nvidia Q3 FY2027 results (due 17 Nov after US close, E0839): outcome not found; ajaib/other pages unreadable. Worth a second look since it moves AI/chip sentiment.",
+    "Bisnis.com pages (market, ekonomi, rupiah close article) failed to fetch; rupiah 17 Nov close Rp18,256 is from a search-result headline only.",
+    "CNBC section page was stale (16 Nov); no 17 Nov foreign net flow found (session I outflow Rp45B only per headline).",
+    "ULN: CNBC headline says US$455.4B but body says US$458.9B; sub-totals (220.2+196.3) do not sum to the total. Antara headline says 458.9. Verify on bi.go.id.",
+    "detik most-popular: Kemenkeu 1,915 CPNS formasi (#1) and BYD asking government help after ormas harassment not opened; IPO queue of 8 companies (BEI, 13 Nov) headline only.",
+    "Bloomberg Technoz page listed conflicting BI-Rate figures in related headlines; 5.75% confirmed only from the storyline and Kontan headline."
+  ]
+}
