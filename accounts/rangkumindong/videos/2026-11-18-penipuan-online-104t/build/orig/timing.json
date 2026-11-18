@@ -1,0 +1,1070 @@
+{
+ "duration": 90.228,
+ "voice": "Pratama",
+ "lines": [
+  {
+   "id": "h1",
+   "text": "Misalnya Pak Budi dapat WA: 'Selamat, Bapak dapat hadiah!'",
+   "start": 0.31,
+   "end": 3.6,
+   "words": [
+    {
+     "w": "Misalnya",
+     "start": 0.31,
+     "end": 0.57
+    },
+    {
+     "w": "Pak",
+     "start": 0.61,
+     "end": 0.73
+    },
+    {
+     "w": "Budi",
+     "start": 0.77,
+     "end": 1.05
+    },
+    {
+     "w": "dapat",
+     "start": 1.103,
+     "end": 1.37
+    },
+    {
+     "w": "WA:",
+     "start": 1.423,
+     "end": 1.77
+    },
+    {
+     "w": "'Selamat,",
+     "start": 1.911,
+     "end": 2.56
+    },
+    {
+     "w": "Bapak",
+     "start": 2.6,
+     "end": 2.8
+    },
+    {
+     "w": "dapat",
+     "start": 2.853,
+     "end": 3.12
+    },
+    {
+     "w": "hadiah!'",
+     "start": 3.16,
+     "end": 3.6
+    }
+   ]
+  },
+  {
+   "id": "h2",
+   "text": "Setahun, warga Indonesia ditaksir rugi Rp104 triliun karena penipuan online. Kamu salah satunya?",
+   "start": 3.954,
+   "end": 10.694,
+   "words": [
+    {
+     "w": "Setahun,",
+     "start": 3.954,
+     "end": 4.454
+    },
+    {
+     "w": "warga",
+     "start": 4.514,
+     "end": 4.814
+    },
+    {
+     "w": "Indonesia",
+     "start": 4.862,
+     "end": 5.294
+    },
+    {
+     "w": "ditaksir",
+     "start": 5.354,
+     "end": 5.774
+    },
+    {
+     "w": "rugi",
+     "start": 5.854,
+     "end": 6.174
+    },
+    {
+     "w": "Rp104",
+     "start": 6.234,
+     "end": 6.894
+    },
+    {
+     "w": "triliun",
+     "start": 6.974,
+     "end": 7.374
+    },
+    {
+     "w": "karena",
+     "start": 7.843,
+     "end": 8.254
+    },
+    {
+     "w": "penipuan",
+     "start": 8.294,
+     "end": 8.734
+    },
+    {
+     "w": "online.",
+     "start": 8.803,
+     "end": 9.334
+    },
+    {
+     "w": "Kamu",
+     "start": 9.414,
+     "end": 9.774
+    },
+    {
+     "w": "salah",
+     "start": 9.794,
+     "end": 9.894
+    },
+    {
+     "w": "satunya?",
+     "start": 9.934,
+     "end": 10.694
+    }
+   ]
+  },
+  {
+   "id": "rd",
+   "text": "Rangkumin dong!",
+   "start": 10.903,
+   "end": 11.862,
+   "words": [
+    {
+     "w": "Rangkumin",
+     "start": 10.903,
+     "end": 11.382
+    },
+    {
+     "w": "dong!",
+     "start": 11.382,
+     "end": 11.862
+    }
+   ]
+  },
+  {
+   "id": "l1",
+   "text": "Jadi gini. Selasa kemarin, GASA, aliansi anti-penipuan global, rilis laporan State of Scams Indonesia 2026.",
+   "start": 12.345836734693878,
+   "end": 19.76183673469388,
+   "words": [
+    {
+     "w": "Jadi",
+     "start": 12.346,
+     "end": 12.432
+    },
+    {
+     "w": "gini.",
+     "start": 12.512,
+     "end": 12.962
+    },
+    {
+     "w": "Selasa",
+     "start": 12.962,
+     "end": 13.362
+    },
+    {
+     "w": "kemarin,",
+     "start": 13.402,
+     "end": 14.002
+    },
+    {
+     "w": "GASA,",
+     "start": 14.082,
+     "end": 14.642
+    },
+    {
+     "w": "aliansi",
+     "start": 14.695,
+     "end": 15.122
+    },
+    {
+     "w": "anti-penipuan",
+     "start": 15.202,
+     "end": 15.922
+    },
+    {
+     "w": "global,",
+     "start": 15.991,
+     "end": 16.562
+    },
+    {
+     "w": "rilis",
+     "start": 16.602,
+     "end": 16.882
+    },
+    {
+     "w": "laporan",
+     "start": 16.922,
+     "end": 17.282
+    },
+    {
+     "w": "State",
+     "start": 17.362,
+     "end": 17.602
+    },
+    {
+     "w": "of",
+     "start": 17.655,
+     "end": 17.762
+    },
+    {
+     "w": "Scams",
+     "start": 17.815,
+     "end": 18.162
+    },
+    {
+     "w": "Indonesia",
+     "start": 18.218,
+     "end": 18.722
+    },
+    {
+     "w": "2026.",
+     "start": 18.782,
+     "end": 19.762
+    }
+   ]
+  },
+  {
+   "id": "l2",
+   "text": "Mereka survei 1.160 orang dewasa. Taksiran kerugiannya: Rp104,3 triliun setahun.",
+   "start": 19.96183673469388,
+   "end": 27.41183673469388,
+   "words": [
+    {
+     "w": "Mereka",
+     "start": 19.962,
+     "end": 20.242
+    },
+    {
+     "w": "survei",
+     "start": 20.295,
+     "end": 20.642
+    },
+    {
+     "w": "1.160",
+     "start": 20.702,
+     "end": 22.162
+    },
+    {
+     "w": "orang",
+     "start": 22.189,
+     "end": 22.322
+    },
+    {
+     "w": "dewasa.",
+     "start": 22.362,
+     "end": 22.882
+    },
+    {
+     "w": "Taksiran",
+     "start": 22.982,
+     "end": 23.442
+    },
+    {
+     "w": "kerugiannya:",
+     "start": 23.462,
+     "end": 24.282
+    },
+    {
+     "w": "Rp104,3",
+     "start": 24.282,
+     "end": 25.842
+    },
+    {
+     "w": "triliun",
+     "start": 25.922,
+     "end": 26.322
+    },
+    {
+     "w": "setahun.",
+     "start": 26.842,
+     "end": 27.412
+    }
+   ]
+  },
+  {
+   "id": "l3",
+   "text": "Angka terakhir nanti, yang paling bikin kaget.",
+   "start": 27.556836734693878,
+   "end": 30.001836734693878,
+   "words": [
+    {
+     "w": "Angka",
+     "start": 27.557,
+     "end": 27.667
+    },
+    {
+     "w": "terakhir",
+     "start": 27.707,
+     "end": 27.987
+    },
+    {
+     "w": "nanti,",
+     "start": 28.027,
+     "end": 28.567
+    },
+    {
+     "w": "yang",
+     "start": 28.615,
+     "end": 28.807
+    },
+    {
+     "w": "paling",
+     "start": 28.887,
+     "end": 29.287
+    },
+    {
+     "w": "bikin",
+     "start": 29.327,
+     "end": 29.527
+    },
+    {
+     "w": "kaget.",
+     "start": 29.567,
+     "end": 30.002
+    }
+   ]
+  },
+  {
+   "id": "l4",
+   "text": "Bayangin 10 orang dewasa. 7 orang pernah diincar penipu, dalam setahun.",
+   "start": 30.216836734693878,
+   "end": 34.96683673469388,
+   "words": [
+    {
+     "w": "Bayangin",
+     "start": 30.217,
+     "end": 30.487
+    },
+    {
+     "w": "10",
+     "start": 30.587,
+     "end": 31.047
+    },
+    {
+     "w": "orang",
+     "start": 31.087,
+     "end": 31.287
+    },
+    {
+     "w": "dewasa.",
+     "start": 31.327,
+     "end": 31.892
+    },
+    {
+     "w": "7",
+     "start": 31.892,
+     "end": 32.367
+    },
+    {
+     "w": "orang",
+     "start": 32.4,
+     "end": 32.567
+    },
+    {
+     "w": "pernah",
+     "start": 32.627,
+     "end": 32.887
+    },
+    {
+     "w": "diincar",
+     "start": 32.94,
+     "end": 33.287
+    },
+    {
+     "w": "penipu,",
+     "start": 33.327,
+     "end": 33.767
+    },
+    {
+     "w": "dalam",
+     "start": 33.86,
+     "end": 34.327
+    },
+    {
+     "w": "setahun.",
+     "start": 34.387,
+     "end": 34.967
+    }
+   ]
+  },
+  {
+   "id": "l5",
+   "text": "Rata-rata, 63 kali percobaan per orang. Lebih dari sekali seminggu.",
+   "start": 35.306836734693874,
+   "end": 39.73183673469388,
+   "words": [
+    {
+     "w": "Rata-rata,",
+     "start": 35.307,
+     "end": 35.827
+    },
+    {
+     "w": "63",
+     "start": 35.923,
+     "end": 36.737
+    },
+    {
+     "w": "kali",
+     "start": 36.801,
+     "end": 37.057
+    },
+    {
+     "w": "percobaan",
+     "start": 37.105,
+     "end": 37.537
+    },
+    {
+     "w": "per",
+     "start": 37.577,
+     "end": 37.697
+    },
+    {
+     "w": "orang.",
+     "start": 37.75,
+     "end": 38.097
+    },
+    {
+     "w": "Lebih",
+     "start": 38.182,
+     "end": 38.677
+    },
+    {
+     "w": "dari",
+     "start": 38.725,
+     "end": 38.917
+    },
+    {
+     "w": "sekali",
+     "start": 38.957,
+     "end": 39.157
+    },
+    {
+     "w": "seminggu.",
+     "start": 39.197,
+     "end": 39.732
+    }
+   ]
+  },
+  {
+   "id": "l6",
+   "text": "Dan 1 dari 10? Beneran rugi.",
+   "start": 40.08883673469388,
+   "end": 42.35683673469388,
+   "words": [
+    {
+     "w": "Dan",
+     "start": 40.089,
+     "end": 40.137
+    },
+    {
+     "w": "1",
+     "start": 40.233,
+     "end": 40.617
+    },
+    {
+     "w": "dari",
+     "start": 40.649,
+     "end": 40.777
+    },
+    {
+     "w": "10?",
+     "start": 40.837,
+     "end": 41.337
+    },
+    {
+     "w": "Beneran",
+     "start": 41.412,
+     "end": 41.797
+    },
+    {
+     "w": "rugi.",
+     "start": 41.877,
+     "end": 42.357
+    }
+   ]
+  },
+  {
+   "id": "l7",
+   "text": "Jalur paling umum: WhatsApp. 73 persen responden pernah diincar lewat situ.",
+   "start": 42.61683673469388,
+   "end": 47.43183673469388,
+   "words": [
+    {
+     "w": "Jalur",
+     "start": 42.617,
+     "end": 42.717
+    },
+    {
+     "w": "paling",
+     "start": 42.797,
+     "end": 43.037
+    },
+    {
+     "w": "umum:",
+     "start": 43.09,
+     "end": 43.437
+    },
+    {
+     "w": "WhatsApp.",
+     "start": 43.517,
+     "end": 44.232
+    },
+    {
+     "w": "73",
+     "start": 44.232,
+     "end": 44.967
+    },
+    {
+     "w": "persen",
+     "start": 44.999,
+     "end": 45.207
+    },
+    {
+     "w": "responden",
+     "start": 45.267,
+     "end": 45.847
+    },
+    {
+     "w": "pernah",
+     "start": 45.907,
+     "end": 46.247
+    },
+    {
+     "w": "diincar",
+     "start": 46.3,
+     "end": 46.727
+    },
+    {
+     "w": "lewat",
+     "start": 46.754,
+     "end": 46.967
+    },
+    {
+     "w": "situ.",
+     "start": 47.031,
+     "end": 47.432
+    }
+   ]
+  },
+  {
+   "id": "l8",
+   "text": "Modus teratas: uang kaget, belanja online, investasi.",
+   "start": 47.60683673469388,
+   "end": 51.336836734693875,
+   "words": [
+    {
+     "w": "Modus",
+     "start": 47.607,
+     "end": 47.777
+    },
+    {
+     "w": "teratas:",
+     "start": 47.817,
+     "end": 48.492
+    },
+    {
+     "w": "uang",
+     "start": 48.537,
+     "end": 48.797
+    },
+    {
+     "w": "kaget,",
+     "start": 48.837,
+     "end": 49.417
+    },
+    {
+     "w": "belanja",
+     "start": 49.457,
+     "end": 49.817
+    },
+    {
+     "w": "online,",
+     "start": 49.886,
+     "end": 50.457
+    },
+    {
+     "w": "investasi.",
+     "start": 50.514,
+     "end": 51.337
+    }
+   ]
+  },
+  {
+   "id": "l9",
+   "text": "Rugi rata-rata per korban: Rp4,89 juta. Separuh korban rugi Rp1,24 juta ke bawah.",
+   "start": 51.68983673469388,
+   "end": 58.73983673469388,
+   "words": [
+    {
+     "w": "Rugi",
+     "start": 51.69,
+     "end": 51.81
+    },
+    {
+     "w": "rata-rata",
+     "start": 51.85,
+     "end": 52.29
+    },
+    {
+     "w": "per",
+     "start": 52.31,
+     "end": 52.37
+    },
+    {
+     "w": "korban:",
+     "start": 52.43,
+     "end": 52.851
+    },
+    {
+     "w": "Rp4,89",
+     "start": 53.01,
+     "end": 54.65
+    },
+    {
+     "w": "juta.",
+     "start": 54.71,
+     "end": 54.85
+    },
+    {
+     "w": "Separuh",
+     "start": 55.713,
+     "end": 55.86
+    },
+    {
+     "w": "korban",
+     "start": 55.92,
+     "end": 56.34
+    },
+    {
+     "w": "rugi",
+     "start": 56.42,
+     "end": 56.82
+    },
+    {
+     "w": "Rp1,24",
+     "start": 56.884,
+     "end": 57.9
+    },
+    {
+     "w": "juta",
+     "start": 57.96,
+     "end": 58.18
+    },
+    {
+     "w": "ke",
+     "start": 58.233,
+     "end": 58.34
+    },
+    {
+     "w": "bawah.",
+     "start": 58.38,
+     "end": 58.74
+    }
+   ]
+  },
+  {
+   "id": "l10",
+   "text": "Tapi… pesan ke Pak Budi tadi biasanya cuma pembuka.",
+   "start": 58.93183673469388,
+   "end": 62.571836734693875,
+   "words": [
+    {
+     "w": "Tapi…",
+     "start": 58.932,
+     "end": 59.772
+    },
+    {
+     "w": "pesan",
+     "start": 59.832,
+     "end": 60.092
+    },
+    {
+     "w": "ke",
+     "start": 60.145,
+     "end": 60.252
+    },
+    {
+     "w": "Pak",
+     "start": 60.292,
+     "end": 60.412
+    },
+    {
+     "w": "Budi",
+     "start": 60.452,
+     "end": 60.732
+    },
+    {
+     "w": "tadi",
+     "start": 60.772,
+     "end": 61.132
+    },
+    {
+     "w": "biasanya",
+     "start": 61.212,
+     "end": 61.692
+    },
+    {
+     "w": "cuma",
+     "start": 61.732,
+     "end": 61.932
+    },
+    {
+     "w": "pembuka.",
+     "start": 61.98,
+     "end": 62.572
+    }
+   ]
+  },
+  {
+   "id": "l11",
+   "text": "Tiga dari empat kasus yang bikin rugi, korbannya diajak ngobrol sehari atau lebih.",
+   "start": 62.766836734693875,
+   "end": 67.42683673469388,
+   "words": [
+    {
+     "w": "Tiga",
+     "start": 62.767,
+     "end": 63.027
+    },
+    {
+     "w": "dari",
+     "start": 63.075,
+     "end": 63.267
+    },
+    {
+     "w": "empat",
+     "start": 63.32,
+     "end": 63.507
+    },
+    {
+     "w": "kasus",
+     "start": 63.587,
+     "end": 63.907
+    },
+    {
+     "w": "yang",
+     "start": 63.939,
+     "end": 64.067
+    },
+    {
+     "w": "bikin",
+     "start": 64.107,
+     "end": 64.307
+    },
+    {
+     "w": "rugi,",
+     "start": 64.387,
+     "end": 64.947
+    },
+    {
+     "w": "korbannya",
+     "start": 64.987,
+     "end": 65.507
+    },
+    {
+     "w": "diajak",
+     "start": 65.567,
+     "end": 65.907
+    },
+    {
+     "w": "ngobrol",
+     "start": 65.934,
+     "end": 66.307
+    },
+    {
+     "w": "sehari",
+     "start": 66.387,
+     "end": 66.787
+    },
+    {
+     "w": "atau",
+     "start": 66.835,
+     "end": 67.027
+    },
+    {
+     "w": "lebih.",
+     "start": 67.08,
+     "end": 67.427
+    }
+   ]
+  },
+  {
+   "id": "l12",
+   "text": "Dan angka terakhirnya: 47 persen korban kena lagi dalam setahun. Rata-rata, tiap korban rugi 1,9 kali.",
+   "start": 67.60183673469388,
+   "end": 75.60183673469388,
+   "words": [
+    {
+     "w": "Dan",
+     "start": 67.602,
+     "end": 67.617
+    },
+    {
+     "w": "angka",
+     "start": 67.657,
+     "end": 67.857
+    },
+    {
+     "w": "terakhirnya:",
+     "start": 67.897,
+     "end": 68.662
+    },
+    {
+     "w": "47",
+     "start": 68.737,
+     "end": 69.537
+    },
+    {
+     "w": "persen",
+     "start": 69.585,
+     "end": 69.937
+    },
+    {
+     "w": "korban",
+     "start": 69.977,
+     "end": 70.337
+    },
+    {
+     "w": "kena",
+     "start": 70.417,
+     "end": 70.737
+    },
+    {
+     "w": "lagi",
+     "start": 70.833,
+     "end": 71.217
+    },
+    {
+     "w": "dalam",
+     "start": 71.257,
+     "end": 71.457
+    },
+    {
+     "w": "setahun.",
+     "start": 71.517,
+     "end": 72.017
+    },
+    {
+     "w": "Rata-rata,",
+     "start": 72.122,
+     "end": 72.857
+    },
+    {
+     "w": "tiap",
+     "start": 72.964,
+     "end": 73.197
+    },
+    {
+     "w": "korban",
+     "start": 73.257,
+     "end": 73.677
+    },
+    {
+     "w": "rugi",
+     "start": 73.737,
+     "end": 73.997
+    },
+    {
+     "w": "1,9",
+     "start": 74.077,
+     "end": 75.277
+    },
+    {
+     "w": "kali.",
+     "start": 75.325,
+     "end": 75.602
+    }
+   ]
+  },
+  {
+   "id": "l13",
+   "text": "Terus maunya warga apa? 74 persen setuju bank otomatis nunda transaksi yang terindikasi penipuan.",
+   "start": 75.74683673469389,
+   "end": 81.95683673469388,
+   "words": [
+    {
+     "w": "Terus",
+     "start": 75.747,
+     "end": 75.917
+    },
+    {
+     "w": "maunya",
+     "start": 75.97,
+     "end": 76.237
+    },
+    {
+     "w": "warga",
+     "start": 76.277,
+     "end": 76.557
+    },
+    {
+     "w": "apa?",
+     "start": 76.657,
+     "end": 77.052
+    },
+    {
+     "w": "74",
+     "start": 77.052,
+     "end": 77.717
+    },
+    {
+     "w": "persen",
+     "start": 77.781,
+     "end": 78.117
+    },
+    {
+     "w": "setuju",
+     "start": 78.197,
+     "end": 78.677
+    },
+    {
+     "w": "bank",
+     "start": 78.741,
+     "end": 78.997
+    },
+    {
+     "w": "otomatis",
+     "start": 79.061,
+     "end": 79.557
+    },
+    {
+     "w": "nunda",
+     "start": 79.637,
+     "end": 80.037
+    },
+    {
+     "w": "transaksi",
+     "start": 80.09,
+     "end": 80.597
+    },
+    {
+     "w": "yang",
+     "start": 80.629,
+     "end": 80.757
+    },
+    {
+     "w": "terindikasi",
+     "start": 80.797,
+     "end": 81.317
+    },
+    {
+     "w": "penipuan.",
+     "start": 81.357,
+     "end": 81.957
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "text": "Kalau transfer kamu ditahan bank karena dicurigai penipuan, kamu terima? Kenapa? Komen!",
+   "start": 82.20083673469388,
+   "end": 86.80283673469388,
+   "words": [
+    {
+     "w": "Kalau",
+     "start": 82.201,
+     "end": 82.293
+    },
+    {
+     "w": "transfer",
+     "start": 82.337,
+     "end": 82.693
+    },
+    {
+     "w": "kamu",
+     "start": 82.741,
+     "end": 82.933
+    },
+    {
+     "w": "ditahan",
+     "start": 82.973,
+     "end": 83.333
+    },
+    {
+     "w": "bank",
+     "start": 83.381,
+     "end": 83.573
+    },
+    {
+     "w": "karena",
+     "start": 83.607,
+     "end": 83.813
+    },
+    {
+     "w": "dicurigai",
+     "start": 83.853,
+     "end": 84.213
+    },
+    {
+     "w": "penipuan,",
+     "start": 84.253,
+     "end": 85.003
+    },
+    {
+     "w": "kamu",
+     "start": 85.051,
+     "end": 85.243
+    },
+    {
+     "w": "terima?",
+     "start": 85.283,
+     "end": 85.732
+    },
+    {
+     "w": "Kenapa?",
+     "start": 85.732,
+     "end": 86.322
+    },
+    {
+     "w": "Komen!",
+     "start": 86.323,
+     "end": 86.803
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "text": "Follow Rangkumin Dong, biar nggak ketinggalan!",
+   "start": 87.16183673469388,
+   "end": 89.36283673469387,
+   "words": [
+    {
+     "w": "Follow",
+     "start": 87.162,
+     "end": 87.203
+    },
+    {
+     "w": "Rangkumin",
+     "start": 87.243,
+     "end": 87.603
+    },
+    {
+     "w": "Dong,",
+     "start": 87.651,
+     "end": 88.003
+    },
+    {
+     "w": "biar",
+     "start": 88.083,
+     "end": 88.323
+    },
+    {
+     "w": "nggak",
+     "start": 88.35,
+     "end": 88.482
+    },
+    {
+     "w": "ketinggalan!",
+     "start": 88.483,
+     "end": 89.363
+    }
+   ]
+  }
+ ]
+}

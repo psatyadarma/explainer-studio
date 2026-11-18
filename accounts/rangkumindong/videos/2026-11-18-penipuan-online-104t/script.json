@@ -1,0 +1,116 @@
+{
+  "direction": "[energetic, conversational, explaining to a friend]",
+  "format": "standard",
+  "hook_style": "story",
+  "hook_style_planned": "person_collage",
+  "hook_fallback_note": "person_collage -> story: no licensed face (report speakers not in assets/people, none on Commons)",
+  "lines": [
+    {
+      "id": "h1",
+      "tag": "[playful, mock-excited]",
+      "text": "Misalnya Pak Budi dapat WA: 'Selamat, Bapak dapat hadiah!'",
+      "say": "Misalnya Pak Budi dapat we a: Selamat, Bapak dapat hadiah!"
+    },
+    {
+      "id": "h2",
+      "tag": "[serious, curious]",
+      "text": "Setahun, warga Indonesia ditaksir rugi Rp104 triliun karena penipuan online. Kamu salah satunya?",
+      "say": "Setahun, warga Indonesia ditaksir rugi seratus empat triliun rupiah karena penipuan online. Kamu salah satunya?"
+    },
+    {
+      "id": "rd",
+      "tagline": true,
+      "text": "Rangkumin dong!"
+    },
+    {
+      "id": "l1",
+      "tag": "[explaining, quick]",
+      "text": "Jadi gini. Selasa kemarin, GASA, aliansi anti-penipuan global, rilis laporan State of Scams Indonesia 2026.",
+      "say": "Jadi gini. Selasa kemarin, Gasa, aliansi anti-penipuan global, rilis laporan Stet of Skems Indonesia dua ribu dua puluh enam."
+    },
+    {
+      "id": "l2",
+      "tag": "[matter-of-fact]",
+      "text": "Mereka survei 1.160 orang dewasa. Taksiran kerugiannya: Rp104,3 triliun setahun.",
+      "say": "Mereka survei seribu seratus enam puluh orang dewasa. Taksiran kerugiannya: seratus empat koma tiga triliun rupiah setahun."
+    },
+    {
+      "id": "l3",
+      "tag": "[teasing]",
+      "text": "Angka terakhir nanti, yang paling bikin kaget.",
+      "say": "Angka terakhir nanti, yang paling bikin kaget."
+    },
+    {
+      "id": "l4",
+      "tag": "[explaining]",
+      "text": "Bayangin 10 orang dewasa. 7 orang pernah diincar penipu, dalam setahun.",
+      "say": "Bayangin sepuluh orang dewasa. Tujuh orang pernah diincar penipu, dalam setahun."
+    },
+    {
+      "id": "l5",
+      "tag": "[emphatic]",
+      "text": "Rata-rata, 63 kali percobaan per orang. Lebih dari sekali seminggu.",
+      "say": "Rata-rata, enam puluh tiga kali percobaan per orang. Lebih dari sekali seminggu."
+    },
+    {
+      "id": "l6",
+      "tag": "[serious, slow]",
+      "text": "Dan 1 dari 10? Beneran rugi.",
+      "say": "Dan satu dari sepuluh? Beneran rugi."
+    },
+    {
+      "id": "l7",
+      "tag": "[explaining, quick]",
+      "text": "Jalur paling umum: WhatsApp. 73 persen responden pernah diincar lewat situ.",
+      "say": "Jalur paling umum: WhatsApp. Tujuh puluh tiga persen responden pernah diincar lewat situ."
+    },
+    {
+      "id": "l8",
+      "tag": "[matter-of-fact]",
+      "text": "Modus teratas: uang kaget, belanja online, investasi.",
+      "say": "Modus teratas: uang kaget, belanja online, investasi."
+    },
+    {
+      "id": "l9",
+      "tag": "[explaining]",
+      "text": "Rugi rata-rata per korban: Rp4,89 juta. Separuh korban rugi Rp1,24 juta ke bawah.",
+      "say": "Rugi rata-rata per korban: empat koma delapan sembilan juta rupiah. Separuh korban rugi satu koma dua empat juta ke bawah."
+    },
+    {
+      "id": "l10",
+      "tag": "[lowering voice, intrigued]",
+      "text": "Tapi… pesan ke Pak Budi tadi biasanya cuma pembuka.",
+      "say": "Tapi... pesan ke Pak Budi tadi biasanya cuma pembuka."
+    },
+    {
+      "id": "l11",
+      "tag": "[serious]",
+      "text": "Tiga dari empat kasus yang bikin rugi, korbannya diajak ngobrol sehari atau lebih.",
+      "say": "Tiga dari empat kasus yang bikin rugi, korbannya diajak ngobrol sehari atau lebih."
+    },
+    {
+      "id": "l12",
+      "tag": "[shocked]",
+      "text": "Dan angka terakhirnya: 47 persen korban kena lagi dalam setahun. Rata-rata, tiap korban rugi 1,9 kali.",
+      "say": "Dan angka terakhirnya: empat puluh tujuh persen korban kena lagi dalam setahun. Rata-rata, tiap korban rugi satu koma sembilan kali."
+    },
+    {
+      "id": "l13",
+      "tag": "[explaining, upbeat]",
+      "text": "Terus maunya warga apa? 74 persen setuju bank otomatis nunda transaksi yang terindikasi penipuan.",
+      "say": "Terus maunya warga apa? Tujuh puluh empat persen setuju bank otomatis nunda transaksi yang terindikasi penipuan."
+    },
+    {
+      "id": "cta",
+      "tag": "[playful, asking the viewer]",
+      "text": "Kalau transfer kamu ditahan bank karena dicurigai penipuan, kamu terima? Kenapa? Komen!",
+      "say": "Kalau transfer kamu ditahan bank karena dicurigai penipuan, kamu terima? Kenapa? Komen!"
+    },
+    {
+      "id": "end",
+      "tag": "[friendly, upbeat]",
+      "text": "Follow Rangkumin Dong, biar nggak ketinggalan!"
+    }
+  ],
+  "tail": 0.9
+}
