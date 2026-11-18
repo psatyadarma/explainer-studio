@@ -1,0 +1,198 @@
+{
+  "area": "politics",
+  "run_date": "2026-11-19",
+  "checked": [
+    "detik news.detik.com/berita (section page)",
+    "antaranews.com/politik (section page)",
+    "cnnindonesia.com/nasional index (section page)",
+    "tempo.co/politik (blocked by robots, headlines via search only)",
+    "antaranews hukum (not fetched separately; hukum items seen on detik/CNN)",
+    "watch list found: DPR bills (RUU Perampasan Aset, RUU AI), KPK, Polri big cases, Densus 88, Wapres/MPR, Istana, Bakom, TNI, UMP",
+    "storyline search: gibran-ijazah-mk (VP replacement)",
+    "storyline search: listyo-sigit-penyadapan",
+    "storyline search: corruption-cases (KPK Pemalang/BPK, Yaqut hajj trial)",
+    "storyline search: definisi-korupsi (no new item), pengadaan-480t (no new item)"
+  ],
+  "events": [
+    {
+      "date": "2026-11-18",
+      "category": "POL",
+      "event": "Komisi III DPR and the government, with all factions agreeing, approved the Asset Forfeiture Bill (RUU Perampasan Aset Terkait Tindak Pidana Korupsi dan Tindak Pidana Lainnya) at Tingkat I and sent it to the plenary.",
+      "key_numbers": "87 public hearings (RDPU) since Sept 2025 · 10 highlighted points · earlier target 15 Dec 2026, now brought forward",
+      "storyline": "",
+      "update_of": "E0836",
+      "status": "verified",
+      "sources": [
+        {"label": "Detik", "url": "https://news.detik.com/berita/d-8758451/komisi-iii-dpr-dan-pemerintah-sepakat-ruu-perampasan-aset-dibawa-ke-paripurna"},
+        {"label": "Berita Satu", "url": "https://www.beritasatu.com/nasional/3042119/disahkan-besok-ruu-perampasan-aset-dibahas-dalam-87-rapat"},
+        {"label": "ANTARA", "url": "https://www.antaranews.com/berita/5862059/komisi-iii-dpr-setuju-ruu-perampasan-aset-dibawa-ke-rapat-paripurna"}
+      ],
+      "why_it_matters": "A law to seize assets linked to corruption has been debated for years; it could decide whether stolen money is returned to the state or to victims.",
+      "signals": {"spreading": 2, "wallet": 1, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "ANTARA politik page: about 5 headlines on the bill in the last 13 hours; detik berita page",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-19",
+      "category": "POL",
+      "event": "The DPR plenary is scheduled for Thursday 19 Nov to vote on enacting the Asset Forfeiture Bill, per Komisi III chair Habiburokhman and DPR Deputy Speaker Dasco.",
+      "key_numbers": "Plenary Thu 19 Nov 2026 · 87 RDPU · bill includes seizure without prior criminal prosecution, asset return to victims, independent oversight body",
+      "storyline": "",
+      "update_of": "E0836",
+      "status": "upcoming",
+      "sources": [
+        {"label": "IDN Times", "url": "https://www.idntimes.com/news/indonesia/dpr-sahkan-ruu-perampasan-aset-dalam-sidang-paripurna-kamis-esok-00-bbwlv-11nyts"},
+        {"label": "Journalarta", "url": "https://journalarta.com/news/2026/11/18/ruu-perampasan-aset-disahkan-19-november-ganti-rugi-korban-investasi-bodong/"}
+      ],
+      "why_it_matters": "If passed, victims of investment scams could be compensated from sold assets of offenders instead of the money going to the state first.",
+      "signals": {"spreading": 2, "wallet": 2, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "ANTARA politik page: Pemerintah-DPR agree bill goes to plenary; several outlets headline 'disahkan besok'",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-19",
+      "category": "POL",
+      "event": "Bareskrim Polri will hold a case review (gelar perkara) with an internal team and expert witnesses on the alleged makar (treason) case involving ex-Kapolri Listyo Sigit Prabowo and three other officers; Dirtipidum Brigjen Susatyo said it is not about naming suspects.",
+      "key_numbers": "4 suspects (Listyo Sigit, Ahrie Sonta, Eko Hadi Santoso, Slamet Uliandi) · 3 detained at Mako Brimob Kelapa Dua · Slamet Uliandi not detained (recovering health) · case at penyidikan stage since 17 Nov",
+      "storyline": "listyo-sigit-penyadapan",
+      "update_of": "E0562",
+      "status": "upcoming",
+      "sources": [
+        {"label": "Detik", "url": "https://news.detik.com/berita/d-8759146/bareskrim-gelar-perkara-dugaan-makar-listyo-sigit-dkk-besok-libatkan-ahli"},
+        {"label": "Okezone", "url": "https://news.okezone.com/read/2026/11/18/337/3254847/gelar-perkara-kasus-dugaan-makar-listyo-sigit-cs-dijadwalkan-digelar-besok"}
+      ],
+      "why_it_matters": "The case has moved from wiretapping allegations to a treason allegation, which is a much heavier legal step.",
+      "signals": {"spreading": 2, "wallet": 0, "surprise": 2, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "detik berita page featured item; Yusril quote on ANTARA; multiple outlets 'Besok'",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-18",
+      "category": "POL",
+      "event": "Bakom head Syahganda Nainggolan said in a written statement that public satisfaction with President Prabowo rose from 43% to 62-63% after the arrest of Listyo Sigit and others, and that satisfaction with Kapolri Suyudi is near 90%, citing Bakom big-data monitoring.",
+      "key_numbers": "Prabowo satisfaction 43% to 62-63% (about 20 points) · Kapolri Suyudi near 90% · no sample or method disclosed · Syahganda said he cannot conclude the arrest caused the rise",
+      "storyline": "listyo-sigit-penyadapan",
+      "update_of": "E0604",
+      "status": "verified",
+      "sources": [
+        {"label": "Detik", "url": "https://news.detik.com/berita/d-8759273/bakom-sebut-kepuasan-publik-ke-presiden-naik-usai-penangkapan-listyo-dkk"},
+        {"label": "Liputan6", "url": "https://berita.liputan6.com/politik/read/8337997/kepala-bakom-setelah-penangkapan-listyo-kepuasan-terhadap-prabowo-naik"},
+        {"label": "Investortrust", "url": "https://investortrust.id/national/122989/kepala-bakom-sebut-kepercayaan-publik-ke-prabowo-melonjak-20-setelah-penangkapan-listyo-sigit"}
+      ],
+      "why_it_matters": "A government agency's own big-data number, not an independent poll, is being used to show public approval; people should know the difference.",
+      "signals": {"spreading": 2, "wallet": 0, "surprise": 2, "visual": 2, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "Seen on detik berita page (2 items), ANTARA politik page, 6+ outlets",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-18",
+      "category": "POL",
+      "event": "Dasco (DPR Deputy Speaker, Gerindra) is gaining support from several parties as replacement for Gibran as Vice President; Dasco says nominating is the President's right, and Prabowo has until 25 Nov to hand the MPR two names before the 9 Dec MPR plenary.",
+      "key_numbers": "Deadline for two names: 25 Nov 2026 · MPR plenary 9 Dec 2026 (moved from 2 Dec) · Golkar, PKB, PDIP figures and MUI chairman voice support · other names floated: Sugiono, Muzani",
+      "storyline": "gibran-ijazah-mk",
+      "update_of": "E0898",
+      "status": "verified",
+      "sources": [
+        {"label": "Suara.com", "url": "https://www.suara.com/news/2026/11/17/050000/kursi-wapres-pengganti-gibran-nama-dasco-menguat-mpr-siapkan-pemilihan-9-desember"},
+        {"label": "Berita Satu", "url": "https://www.beritasatu.com/nasional/3042047/dukungan-jadi-wapres-menguat-dasco-serahkan-kepada-prabowo"},
+        {"label": "ANTARA politik page", "url": "https://www.antaranews.com/politik"}
+      ],
+      "why_it_matters": "Who becomes the next Vice President will be decided by Prabowo's two-name shortlist and an MPR vote within three weeks.",
+      "signals": {"spreading": 2, "wallet": 0, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "ANTARA politik page: 5+ headlines on VP candidates (Dasco, Cak Imin, Bakom, MUI)",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-18",
+      "category": "POL",
+      "event": "KPK spokesperson Budi Prasetyo said KPK suspects money flowed to parties within BPK RI to condition audits of the Klaten and Pemalang regional governments, and is checking whether audit decisions sit with BPK regional offices or its central leadership.",
+      "key_numbers": "Klaten Regent (HWI) and head of BPK Central Java office (ALH) named suspects 16 Oct 2026 · Pemalang Regent (AW) suspended, extortion case · no amounts disclosed",
+      "storyline": "corruption-cases",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "ANTARA", "url": "https://www.antaranews.com/berita/5863827/kpk-duga-ada-aliran-uang-ke-bpk-ri-terkait-audit-klaten-dan-pemalang"},
+        {"label": "Detik", "url": "https://news.detik.com/berita/d-8759018/kpk-duga-ada-aliran-uang-ke-bpk-terkait-kasus-bupati-pemalang"}
+      ],
+      "why_it_matters": "BPK is the body that audits state money; an allegation that audit results can be arranged affects trust in every regional audit.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 2, "visual": 0, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "detik berita page; ANTARA; Berita Satu, IDN Times",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-18",
+      "category": "POL",
+      "event": "At the Jakarta Tipikor Court hajj-quota trial, former Yaqut special staffer Ishfah Abidal Azis (Gus Alex) testified he received USD 466,000 linked to hajj, saying he tried to return it; prosecutors allege Rp622.09 billion in state loss and say Yaqut acted jointly with others.",
+      "key_numbers": "USD 466,000 total by witness account (USD 30,000 + USD 406,000 + USD 30,000) · alleged state loss Rp622,090,207,166 · hajj quota 2023-2024",
+      "storyline": "corruption-cases",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "Detik", "url": "https://news.detik.com/berita/d-8759195/eks-stafsus-yaqut-akui-terima-duit-usd-466-ribu-terkait-haji"},
+        {"label": "Detik", "url": "https://news.detik.com/berita/d-8759335/bachtiar-nasir-hadiri-sidang-yaqut-terkait-kasus-kuota-haji"}
+      ],
+      "why_it_matters": "The case concerns extra hajj quota that affected pilgrims waiting years for a seat.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "detik berita page top 1 and 9 items",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-18",
+      "category": "POL",
+      "event": "Polri's Propam dismissed Kombes Handik Zusen, a former subordinate of Irjen Eko Hadi, over two cases of violence against fellow officers.",
+      "key_numbers": "2 violence cases · dismissal (PTDH) · police ethics hearings can now be led by officers two ranks below the accused",
+      "storyline": "listyo-sigit-penyadapan",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "Detik", "url": "https://news.detik.com/berita/d-8759325/polri-pecat-kombes-handik-zusen-tekait-2-kasus-kekerasan-sesama-anggota"},
+        {"label": "Kompas", "url": "https://nasional.kompas.com/read/2026/11/18/21272611/polri-pecat-kombes-handik-zusen-terkait-2-kasus-kekerasan-sesama-personel"}
+      ],
+      "why_it_matters": "Part of a wider Polri clean-up wave; the link to the wiretapping case is only that he once served under a suspect.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 0, "visual": 0, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-18",
+      "category": "POL",
+      "event": "Densus 88 arrested 15 terrorism suspects linked to NII, JAD and ISIS-affiliated networks across six provinces, some of them former terror convicts.",
+      "key_numbers": "15 suspects · 6 provinces",
+      "storyline": "",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "Detik", "url": "https://news.detik.com/berita/d-8759299/densus-88-tangkap-15-tersangka-terorisme-jaringan-nii-hingga-isis-di-6-provinsi"},
+        {"label": "Jawa Pos", "url": "https://www.jawapos.com/nasional/2611180568/terafiliasi-isis-densus-88-antiteror-tangkap-15-tersangka-teroris-jaringan-nii-jad-dan-ad"}
+      ],
+      "why_it_matters": "A large counter-terror sweep; details on targets and timing are still limited.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-17",
+      "category": "POL",
+      "event": "Komisi I DPR proposed adding an Artificial Intelligence bill (RUU Kecerdasan Artifisial) to the 2027 priority legislation list (Prolegnas), citing the lack of AI regulation.",
+      "key_numbers": "Prolegnas Prioritas 2027 · proposal stage only, not yet adopted",
+      "storyline": "",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "ANTARA", "url": "https://m.antaranews.com/amp/berita/5859435/komisi-i-dpr-usul-ruu-kecerdasan-artifisial-masuk-prolegnas-2027"},
+        {"label": "Kumparan", "url": "https://kumparan.com/kumparannews/belum-ada-regulasi-ai-komisi-i-dpr-usul-ruu-kecerdasan-artifisial-masuk-prolegnas-prioritas-2027-28agYtqGgd9"}
+      ],
+      "why_it_matters": "Indonesia has no AI law yet; this is only the first step towards one.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 0, "visual": 0, "fresh": 1, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    }
+  ],
+  "gaps": [
+    "Exact content of the Asset Forfeiture Bill (thresholds, non-conviction-based seizure scope, 397 DIM) not confirmed from opened articles; check the final text after the 19 Nov plenary.",
+    "Prabowo-China cooperation worth Rp1,300 trillion at APEC (ANTARA headline) and Prabowo seated next to Putin: only a headline seen, belongs to GLB/ECO areas.",
+    "MAKI reporting three KPK employees for alleged document leak (CNN headline) and Silmy Karim trial statements: not opened.",
+    "Dasco denial of online-gambling and data-leak allegations, PKB saying PSI is no longer a coalition partner, and ex-Jampidsus Febrie saying he was also tracked since 2024: headlines only, not verified.",
+    "tempo.co/politik is blocked by robots; Tempo checked via search titles only."
+  ]
+}

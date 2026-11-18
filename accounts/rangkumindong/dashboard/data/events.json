@@ -7880,6 +7880,26 @@
 "upcoming": false
 },
 {
+"id": "E0931",
+"date": "2026-11-17",
+"category": "POL",
+"event": "Komisi I DPR proposed adding an Artificial Intelligence bill (RUU Kecerdasan Artifisial) to the 2027 priority legislation list (Prolegnas), citing the lack of AI regulation.",
+"key_numbers": "Prolegnas Prioritas 2027 · proposal stage only, not yet adopted",
+"storyline": "",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0937",
+"date": "2026-11-17",
+"category": "TECH",
+"event": "CNN Indonesia reported TikTok is now the social media platform most used by Indonesians, ahead of Instagram.",
+"key_numbers": "figures not verified (article not readable)",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
 "id": "E0825",
 "date": "2026-11-18",
 "category": "ECO",
@@ -7940,6 +7960,276 @@
 "upcoming": false
 },
 {
+"id": "E0917",
+"date": "2026-11-18",
+"category": "ECO",
+"event": "Bank Indonesia raised the BI Rate by 25 bps to 6.00% at its 17-18 November RDG, citing rupiah stability and pre-emptive control of 2026-2027 inflation. (update of E0825)",
+"key_numbers": "BI Rate 5.75% to 6.00% (+25 bps) · Deposit Facility 5.25% · Lending Facility 6.75% · economists split before decision: 17 of 38 polled expected a hike · macroprudential policy kept loose to support credit",
+"storyline": "rupiah",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0918",
+"date": "2026-11-18",
+"category": "MKT",
+"event": "The IHSG closed down 1.07% at 5,247.88 on 18 November after opening near 5,323 and touching 5,374, with the BI rate hike cited as the main domestic factor. (update of E0889)",
+"key_numbers": "Close 5,247.88 (-56.88 pts, -1.07%) · open 5,323.49 · intraday high 5,374.36, low 5,240.69 · volume 250.81 million lots · value Rp10.64 trillion · previous close 5,304.76 (17 Nov)",
+"storyline": "msci-reclassification",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0919",
+"date": "2026-11-18",
+"category": "MKT",
+"event": "The rupiah closed stronger at Rp18,232 per US dollar on 18 November after the BI rate hike, while JISDOR was set at Rp18,252. (update of E0890)",
+"key_numbers": "Spot close Rp18,232 vs Rp18,256 prior (+0.13%, 24 pts) · JISDOR Rp18,252 vs Rp18,264 on 17 Nov · analyst range for 19 Nov: support Rp18,150-18,200, resistance Rp18,250-18,325",
+"storyline": "rupiah",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0920",
+"date": "2026-11-18",
+"category": "MKT",
+"event": "Foreign investors stayed net sellers of Indonesian stocks, with Rp440 billion net sold on 17 November and a smaller session-I net sell on 18 November, while cumulative foreign net sell reached about Rp98 trillion by 6 November.",
+"key_numbers": "17 Nov net sell Rp440 billion, BBCA sold Rp249 billion · 18 Nov session I: buy Rp1.92 trillion vs sell Rp2.26 trillion (net about Rp0.34 trillion), BBCA bought Rp203.2 billion · cumulative net sell Rp98.08 trillion through 6 Nov",
+"storyline": "msci-reclassification",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0922",
+"date": "2026-11-18",
+"category": "POL",
+"event": "Komisi III DPR and the government, with all factions agreeing, approved the Asset Forfeiture Bill (RUU Perampasan Aset Terkait Tindak Pidana Korupsi dan Tindak Pidana Lainnya) at Tingkat I and sent it to the plenary. (update of E0836)",
+"key_numbers": "87 public hearings (RDPU) since Sept 2025 · 10 highlighted points · earlier target 15 Dec 2026, now brought forward",
+"storyline": "",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0925",
+"date": "2026-11-18",
+"category": "POL",
+"event": "Bakom head Syahganda Nainggolan said in a written statement that public satisfaction with President Prabowo rose from 43% to 62-63% after the arrest of Listyo Sigit and others, and that satisfaction with Kapolri Suyudi is near 90%, citing Bakom big-data monitoring. (update of E0604)",
+"key_numbers": "Prabowo satisfaction 43% to 62-63% (about 20 points) · Kapolri Suyudi near 90% · no sample or method disclosed · Syahganda said he cannot conclude the arrest caused the rise",
+"storyline": "listyo-sigit-penyadapan",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0926",
+"date": "2026-11-18",
+"category": "POL",
+"event": "Dasco (DPR Deputy Speaker, Gerindra) is gaining support from several parties as replacement for Gibran as Vice President; Dasco says nominating is the President's right, and Prabowo has until 25 Nov to hand the MPR two names before the 9 Dec MPR plenary. (update of E0898)",
+"key_numbers": "Deadline for two names: 25 Nov 2026 · MPR plenary 9 Dec 2026 (moved from 2 Dec) · Golkar, PKB, PDIP figures and MUI chairman voice support · other names floated: Sugiono, Muzani",
+"storyline": "gibran-ijazah-mk",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0927",
+"date": "2026-11-18",
+"category": "POL",
+"event": "KPK spokesperson Budi Prasetyo said KPK suspects money flowed to parties within BPK RI to condition audits of the Klaten and Pemalang regional governments, and is checking whether audit decisions sit with BPK regional offices or its central leadership.",
+"key_numbers": "Klaten Regent (HWI) and head of BPK Central Java office (ALH) named suspects 16 Oct 2026 · Pemalang Regent (AW) suspended, extortion case · no amounts disclosed",
+"storyline": "corruption-cases",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0928",
+"date": "2026-11-18",
+"category": "POL",
+"event": "At the Jakarta Tipikor Court hajj-quota trial, former Yaqut special staffer Ishfah Abidal Azis (Gus Alex) testified he received USD 466,000 linked to hajj, saying he tried to return it; prosecutors allege Rp622.09 billion in state loss and say Yaqut acted jointly with others.",
+"key_numbers": "USD 466,000 total by witness account (USD 30,000 + USD 406,000 + USD 30,000) · alleged state loss Rp622,090,207,166 · hajj quota 2023-2024",
+"storyline": "corruption-cases",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0929",
+"date": "2026-11-18",
+"category": "POL",
+"event": "Polri's Propam dismissed Kombes Handik Zusen, a former subordinate of Irjen Eko Hadi, over two cases of violence against fellow officers.",
+"key_numbers": "2 violence cases · dismissal (PTDH) · police ethics hearings can now be led by officers two ranks below the accused",
+"storyline": "listyo-sigit-penyadapan",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0930",
+"date": "2026-11-18",
+"category": "POL",
+"event": "Densus 88 arrested 15 terrorism suspects linked to NII, JAD and ISIS-affiliated networks across six provinces, some of them former terror convicts.",
+"key_numbers": "15 suspects · 6 provinces",
+"storyline": "",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0932",
+"date": "2026-11-18",
+"category": "TECH",
+"event": "DataReportal's Digital 2027 Indonesia report, cited by detikInet, shows Indonesian mobile connections fell about 38 million in two years to 311 million in October 2026, which Komdigi attributes to cleaning invalid data under biometric SIM registration. (update of E0874)",
+"key_numbers": "311 million connections Oct 2026 vs 349 million Oct 2024 (-10.9%) · -19 million (-5.8%) year on year · Komdigi: active subscribers 318 million (Q1 2025) to about 291 million (Q3 2026) · churn from above 20% to 2.8% · 311 million is about 108% of 288 million population",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0933",
+"date": "2026-11-18",
+"category": "TECH",
+"event": "XLSmart reported Rp4.8 trillion (US$294 million) of cumulative merger synergy for January-September 2026 and raised its 2026 synergy target.",
+"key_numbers": "US$294 million (about Rp4.8 trillion) synergy, +80% vs US$166 million · target raised to above US$300 million · revenue Rp35.77 trillion (+17%) · normalized net profit Rp3.59 trillion (+94%) · 70 million customers Q3 · blended ARPU Rp47,500 vs Rp38,900 · 96% network integration",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0934",
+"date": "2026-11-18",
+"category": "TECH",
+"event": "Megaspeed said Alice Huang left the company effective 30 August 2025 and that it is running an internal probe, while Indonesia's police chief confirmed an FBI request over alleged Nvidia chip smuggling by PT Megaspeed International Indonesia, and Indosat spoke out on the case. (update of E0899)",
+"key_numbers": "Megaspeed total assets up about 90x end-2023 to 2024, to nearly US$3 billion · Singapore probe since Feb 2025 · Bareskrim investigating, police say no search yet (conflicts with earlier report of an early 2026 search)",
+"storyline": "ai-data-centres",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0935",
+"date": "2026-11-18",
+"category": "TECH",
+"event": "Jensen Huang said he is ready to return as Nvidia CEO if the board decides so, a day after Trump said he had no objection and Nvidia said Huang would not return. (update of E0876)",
+"key_numbers": "17 Nov: Nvidia says Huang will not return; Trump no objection · 18 Nov 09:30 WIB Huang statement (headline only)",
+"storyline": "ai-data-centres",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0936",
+"date": "2026-11-18",
+"category": "TECH",
+"event": "Apple services including iCloud, App Store and Apple Music were briefly disrupted.",
+"key_numbers": "headline only, duration and scale not verified",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0940",
+"date": "2026-11-18",
+"category": "NEWS",
+"event": "Bareskrim raided a house in Cipete, South Jakarta and several other locations suspected of serving as a makar (treason) command post linked to Irjen Eko Hadi Santoso (EHS) in the presidential wiretapping case. (update of E0793)",
+"key_numbers": "raid 18 Nov 2026 · location Cipete, South Jakarta",
+"storyline": "listyo-sigit-penyadapan",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0941",
+"date": "2026-11-18",
+"category": "POL",
+"event": "The Palace said Prabowo's inner circle is 'sterile' of Listyo's people and showed off its cyber-security team, while Bakom claimed attacks on Prabowo on social media fell after Listyo's arrest. (update of E0793)",
+"key_numbers": "Details not verified beyond headlines (full articles not opened)",
+"storyline": "listyo-sigit-penyadapan",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0942",
+"date": "2026-11-18",
+"category": "POL",
+"event": "Support for Gerindra's Sufmi Dasco Ahmad as the new vice president to replace Gibran keeps growing (senators and Gerindra branches), while CNN Indonesia analysed why coalition parties are reluctant to fill the VP seat; the MPR plenary vote was moved to 9 December. (update of E0898)",
+"key_numbers": "MPR plenary 9 Dec 2026 (moved from 2 Dec) · Dasco, Muzani and Sugiono named in the VP shortlist",
+"storyline": "gibran-ijazah-mk",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0943",
+"date": "2026-11-18",
+"category": "ENV",
+"event": "A joint team found 74 illegal gold-mining pits and cyanide ponds inside Gunung Halimun Salak National Park, and the pits were closed.",
+"key_numbers": "74 illegal pits · cyanide ponds found · Taman Nasional Gunung Halimun Salak",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0944",
+"date": "2026-11-18",
+"category": "ENV",
+"event": "BMKG recorded an M5.8 earthquake at sea about 45 km northeast of Ruteng, Manggarai, NTT, felt as far as Sumba, with no tsunami potential.",
+"key_numbers": "M5.8 · depth about 10 km · 11:41 WIB 18 Nov 2026 · 8.21S 120.55E · 17 aftershocks by 12:30 WIB, largest M4.9 · intensity IV-V MMI in Manggarai · no damage or casualties reported",
+"storyline": "",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0945",
+"date": "2026-11-18",
+"category": "NEWS",
+"event": "A PPSDM Migas oil refinery in Cepu, Blora, Central Java exploded around 10:30 WIB; police said it was empty and being cleaned, with leftover gas as a possible cause.",
+"key_numbers": "about 10:30 WIB 18 Nov 2026 · cause unconfirmed · no casualties mentioned in the first report",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0946",
+"date": "2026-11-18",
+"category": "NEWS",
+"event": "Kemenhub's pre-Nataru ramp check led to 697 buses being banned from operating over safety failures.",
+"key_numbers": "697 buses banned · Nataru 2026/27 holiday period",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0947",
+"date": "2026-11-18",
+"category": "NEWS",
+"event": "Social Affairs Minister Gus Ipul and Cak Imin addressed the Sekolah Rakyat plan near UI's Hutan Kota: Cak Imin said it will not be built in the Hutan Kota UI, while Mensos urged Brebes SRT 1 parents to pledge not to withdraw. (update of E0913)",
+"key_numbers": "Details not verified beyond headlines",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0948",
+"date": "2026-11-18",
+"category": "NEWS",
+"event": "OTT (sting) arrests a BPK auditor and a PDAM official in Bengkayang, both named suspects; KPK also responded to Raffi Ahmad's statement that he consulted KPK in 2024 and urged Kemenbud and KKP to review influencer service contracts.",
+"key_numbers": "2 suspects (BPK auditor and PDAM official) · Details of influencer contract values not verified",
+"storyline": "corruption-cases",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0949",
+"date": "2026-11-18",
+"category": "ENV",
+"event": "BNPB data showed 1,468 karhutla hotspots nationally with Papua Selatan hotspots up 66 percent, as Prabowo apologised to Malaysia and Singapore over haze at the ASEAN summit. (update of E0854)",
+"key_numbers": "1,468 hotspots · Papua Selatan +66% · 935 hotspots in East Kalimantan (Kutai Timur most) · date of the 1,468 figure not confirmed",
+"storyline": "karhutla",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0950",
+"date": "2026-11-18",
+"category": "NEWS",
+"event": "Fact-checkers (Liputan6, Riau Pos, Tribrata, Harian Negeri) flagged new hoaxes: fake Singapore PM kneeling to Prabowo, fake Gatot Nurmantyo inauguration as Menko Polhukam, fake PKH recipient claim about an MP, and fake bansos/food-aid registration links. (update of E0915)",
+"key_numbers": "Not applicable",
+"storyline": "hoax-tracker",
+"status": "partial",
+"upcoming": false
+},
+{
 "id": "E0879",
 "date": "2026-11-19",
 "category": "TECH",
@@ -7950,12 +8240,62 @@
 "upcoming": true
 },
 {
+"id": "E0923",
+"date": "2026-11-19",
+"category": "POL",
+"event": "The DPR plenary is scheduled for Thursday 19 Nov to vote on enacting the Asset Forfeiture Bill, per Komisi III chair Habiburokhman and DPR Deputy Speaker Dasco. (update of E0836)",
+"key_numbers": "Plenary Thu 19 Nov 2026 · 87 RDPU · bill includes seizure without prior criminal prosecution, asset return to victims, independent oversight body",
+"storyline": "",
+"status": "upcoming",
+"upcoming": true
+},
+{
+"id": "E0924",
+"date": "2026-11-19",
+"category": "POL",
+"event": "Bareskrim Polri will hold a case review (gelar perkara) with an internal team and expert witnesses on the alleged makar (treason) case involving ex-Kapolri Listyo Sigit Prabowo and three other officers; Dirtipidum Brigjen Susatyo said it is not about naming suspects. (update of E0562)",
+"key_numbers": "4 suspects (Listyo Sigit, Ahrie Sonta, Eko Hadi Santoso, Slamet Uliandi) · 3 detained at Mako Brimob Kelapa Dua · Slamet Uliandi not detained (recovering health) · case at penyidikan stage since 17 Nov",
+"storyline": "listyo-sigit-penyadapan",
+"status": "upcoming",
+"upcoming": true
+},
+{
+"id": "E0938",
+"date": "2026-11-19",
+"category": "TECH",
+"event": "Rockstar's GTA VI is scheduled for release on 19 November 2026, with CNN Indonesia noting about 10 years of development and over US$1 billion in production costs. (update of E0879)",
+"key_numbers": "release 19 Nov 2026 · about 10 years development · over US$1 billion cost",
+"storyline": "",
+"status": "upcoming",
+"upcoming": true
+},
+{
+"id": "E0939",
+"date": "2026-11-19",
+"category": "POL",
+"event": "The DPR and government agreed to take the Perampasan Aset (asset forfeiture) bill to a plenary session on Thursday 19 November to be passed into law.",
+"key_numbers": "397 DIM discussed, agreed 5 Nov 2026 (160 fixed, 135 wording, 40 substantive, 44 deleted, 18 new) · plenary Thu 19 Nov 2026 · Komisi III approved timus/timsin report 18 Nov",
+"storyline": "corruption-cases",
+"status": "upcoming",
+"upcoming": true
+},
+{
 "id": "E0864",
 "date": "2026-11-20",
 "category": "ECO",
 "event": "Bank Indonesia is scheduled to publish the Q3 2026 Balance of Payments on 20 November, after a Q2 deficit.",
 "key_numbers": "Q2 2026 deficit US$0.9 B · release Fri 20 Nov 2026, time not stated",
 "storyline": "rupiah",
+"status": "upcoming",
+"upcoming": true
+},
+{
+"id": "E0921",
+"date": "2026-11-21",
+"category": "ECO",
+"event": "Menaker Yassierli said provincial minimum wages (UMP 2027) must be set by 21 November 2026 and regency/city minimum wages (UMK) by 25 November. (update of E0423)",
+"key_numbers": "UMP deadline 21 Nov 2026 (Saturday) · UMK deadline 25 Nov 2026 · sectoral provincial wages about 26 Nov, sectoral regency/city about 30 Nov (calculated) · governors must set UMP, UMK optional · no official percentage rise announced",
+"storyline": "ump-2027",
 "status": "upcoming",
 "upcoming": true
 },

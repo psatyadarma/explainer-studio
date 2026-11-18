@@ -1,0 +1,111 @@
+{
+  "area": "markets",
+  "run_date": "2026-11-19",
+  "checked": [
+    "CNBC Indonesia market (search results only; section page fetch blocked)",
+    "detik finance bursa-valas (fetched, stale: newest item 17 Nov)",
+    "bisnis.com market (search results only)",
+    "antaranews ekonomi (not reached)",
+    "watch list found: IHSG close, foreign net sell, rupiah, BI rate/RDG, MSCI, Fed minutes, UMP 2027",
+    "storyline searches: rupiah/BI rate, msci-reclassification (foreign flows), survival-mode/ump-2027, chip-ram-prices (nothing new), Danantara/BUMN (only 3 Nov item, already past)"
+  ],
+  "events": [
+    {
+      "date": "2026-11-18",
+      "category": "ECO",
+      "event": "Bank Indonesia raised the BI Rate by 25 bps to 6.00% at its 17-18 November RDG, citing rupiah stability and pre-emptive control of 2026-2027 inflation.",
+      "key_numbers": "BI Rate 5.75% to 6.00% (+25 bps) · Deposit Facility 5.25% · Lending Facility 6.75% · economists split before decision: 17 of 38 polled expected a hike · macroprudential policy kept loose to support credit",
+      "storyline": "rupiah",
+      "update_of": "E0825",
+      "status": "verified",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/market/20261118142349-17-786311/bi-rate-naik-jadi-6-bos-bi-demi-jaga-rupiah-dan-inflasi"},
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/ekonomi/20261118141048-78-1428544/bank-indonesia-naikkan-suku-bunga-jadi-6-persen-per-november-2026"},
+        {"label": "Bisnis.com", "url": "https://finansial.bisnis.com/read/20261118/11/2022401/breaking-bank-indonesia-kerek-bi-rate-jadi-6-pada-november-2026"}
+      ],
+      "why_it_matters": "Higher BI Rate tends to lift loan, KPR and credit-card costs while supporting the rupiah, which sits above Rp18,000 per dollar.",
+      "signals": {"spreading": 2, "wallet": 2, "surprise": 2, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "Breaking headlines on CNBC Indonesia, CNN Indonesia, Bisnis, Kompas, Viva",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-18",
+      "category": "MKT",
+      "event": "The IHSG closed down 1.07% at 5,247.88 on 18 November after opening near 5,323 and touching 5,374, with the BI rate hike cited as the main domestic factor.",
+      "key_numbers": "Close 5,247.88 (-56.88 pts, -1.07%) · open 5,323.49 · intraday high 5,374.36, low 5,240.69 · volume 250.81 million lots · value Rp10.64 trillion · previous close 5,304.76 (17 Nov)",
+      "storyline": "msci-reclassification",
+      "update_of": "E0889",
+      "status": "verified",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/market/20261118152552-17-786366/ihsg-ditutup-melemah-107-ke-level-52478"},
+        {"label": "Kontan", "url": "https://investasi.kontan.co.id/news/ihsg-ditutup-turun-107-ke-5247-pada-rabu-1811-bumi-indy-mbma-top-losers-lq45"},
+        {"label": "Viva", "url": "https://www.viva.co.id/bisnis/1944615-ihsg-ditutup-anjlok-107-persen-ke-level-5247-dua-emiten-ini-jadi-pemberat"}
+      ],
+      "why_it_matters": "The index reversed a morning gain after the rate hike, showing how fragile sentiment is after the MSCI shock.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 0},
+      "spreading_evidence": "Daily close covered by CNBC, Kontan, Viva, Kumparan, Detik",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-18",
+      "category": "MKT",
+      "event": "The rupiah closed stronger at Rp18,232 per US dollar on 18 November after the BI rate hike, while JISDOR was set at Rp18,252.",
+      "key_numbers": "Spot close Rp18,232 vs Rp18,256 prior (+0.13%, 24 pts) · JISDOR Rp18,252 vs Rp18,264 on 17 Nov · analyst range for 19 Nov: support Rp18,150-18,200, resistance Rp18,250-18,325",
+      "storyline": "rupiah",
+      "update_of": "E0890",
+      "status": "verified",
+      "sources": [
+        {"label": "Kontan", "url": "https://investasi.kontan.co.id/news/kenaikan-bi-rate-jadi-amunisi-rupiah-menguat-ke-rp-18232-cek-proyeksi-kamis-1911"},
+        {"label": "Liputan6", "url": "https://www.liputan6.com/bisnis/read/8337928/rupiah-menguat-ke-18232-per-dolar-as-setelah-bi-rate-naik"},
+        {"label": "Okezone", "url": "https://economy.okezone.com/read/2026/11/18/320/3254787/rupiah-menguat-ke-rp18-232-per-dolar-as-usai-bi-rate-naik-jadi-6-persen"}
+      ],
+      "why_it_matters": "A 25 bps hike bought only a small rupiah gain, so the currency is still deep in the Rp18,000s.",
+      "signals": {"spreading": 1, "wallet": 2, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 0},
+      "spreading_evidence": "Multiple outlets same-day",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-18",
+      "category": "MKT",
+      "event": "Foreign investors stayed net sellers of Indonesian stocks, with Rp440 billion net sold on 17 November and a smaller session-I net sell on 18 November, while cumulative foreign net sell reached about Rp98 trillion by 6 November.",
+      "key_numbers": "17 Nov net sell Rp440 billion, BBCA sold Rp249 billion · 18 Nov session I: buy Rp1.92 trillion vs sell Rp2.26 trillion (net about Rp0.34 trillion), BBCA bought Rp203.2 billion · cumulative net sell Rp98.08 trillion through 6 Nov",
+      "storyline": "msci-reclassification",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/market/20261118131637-17-786282/asing-diam-diam-borong-10-saham-ini-sepanjang-sesi-i"},
+        {"label": "Suara.com", "url": "https://www.suara.com/bisnis/2026/11/18/130046/ihsg-terancam-outflow-rp98t-masih-aman-investasi-saham-tahun-ini"},
+        {"label": "Berita Moneter", "url": "https://beritamoneter.com/ihsg-turun-030-ke-5-30476-asing-net-sell-rp440-miliar-bbca-dilepas-rp249-miliar/"}
+      ],
+      "why_it_matters": "Foreign money leaving is what pushes the rupiah and IHSG down together; BBCA flipped from heavy selling to heavy buying in a day.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "CNBC Indonesia daily foreign-flow stories",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-21",
+      "category": "ECO",
+      "event": "Menaker Yassierli said provincial minimum wages (UMP 2027) must be set by 21 November 2026 and regency/city minimum wages (UMK) by 25 November.",
+      "key_numbers": "UMP deadline 21 Nov 2026 (Saturday) · UMK deadline 25 Nov 2026 · sectoral provincial wages about 26 Nov, sectoral regency/city about 30 Nov (calculated) · governors must set UMP, UMK optional · no official percentage rise announced",
+      "storyline": "ump-2027",
+      "update_of": "E0423",
+      "status": "upcoming",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/news/20261117133415-4-785953/menaker-penetapan-ump-2027-paling-lambat-21-november-umk-25-november"},
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/ekonomi/20261117143618-92-1428130/menaker-pastikan-penetapan-ump-2027-paling-telat-21-november-2027"},
+        {"label": "Antara", "url": "https://megapolitan.antaranews.com/berita/562927/menaker-sebut-batas-penetapan-ump-2027-pada-21-november-2026"}
+      ],
+      "why_it_matters": "Every worker on minimum wage learns their 2027 pay floor within days.",
+      "signals": {"spreading": 1, "wallet": 2, "surprise": 0, "visual": 1, "fresh": 2, "rivals": 0},
+      "spreading_evidence": "Covered by CNBC, CNN, Antara, Kontan, Liputan6",
+      "sensitivity": "normal"
+    }
+  ],
+  "gaps": [
+    "FOMC minutes (28 Oct meeting) were released 18 Nov 2:00pm EST; content not read (only Fed press-release page available).",
+    "Nvidia Q3 FY2027 results (reported revenue about US$115.8B) came from a low-quality blog that also claims Jensen Huang resigned as CEO on 12 Nov, which conflicts with known event E0876; not reported.",
+    "Detik mentioned Intel being sued by investors after a near 29% share drop; date and details unverified.",
+    "CNBC Indonesia market page fetch was blocked; antaranews and bisnis section pages not scanned; no 19 Nov morning data found.",
+    "Rumour of a 9.5% UMP 2027 rise (CNBC, 21 Oct) is unconfirmed."
+  ]
+}
