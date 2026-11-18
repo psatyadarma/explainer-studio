@@ -187,3 +187,8 @@ History moved out of HANDOFF.md (22 Oct) so fresh sessions read less. Append one
 - Producer 34.6 s, −14.4 LUFS; QA FIX 3 → PASS round 2 (length waived: short). Scheduled 19:00 at ~09:25 (job 823d19ff). Live: IG Df1xg2EIAhY · YT UijRbJDsj8k.
 - Analyst early reads: pengadaan 14 h IG 1,246 views / 55.3% (best IG start); Rusia 62 h IG 122 / 23.1%; weekly #4 72 h IG 166 / 10.0%. Health IG-missing WARN still the known false alarm.
 - 2026-11-17 20:10 WITA IG insights: pengadaan-480t 24 h (actual 25 h: 1,278 views, reach 1,121, 53.9% of 83.1 s, 2 shares, 5 saves, 0 follows) and tentara-bayaran 72 h (actual 73 h: 122 views, reach 106, 23.1% of 84.9 s, 0 follows) from Upload-Post + IG web insights. Skip rate still app-only → hold_3s n/a. No -b folders.
+
+## 2026-11-18 (Wed)
+- Sweeps 9/1/8/10 events (+28 merged; politics thin, detik/CNN/Tempo pages unreadable). Ideas: ⭐ penipuan online Rp104,3 T 10/12; light FC 3 fixes (#3 BI "21 hold" dropped, #4 8 ha beside UI forest not inside, #5 Megaspeed search was early 2026); #2 Gibran claims unverified.
+- User picked ⭐ #1 + "ok to post" ~09:07. person_collage → story fallback (no licensed face). Full FC 4 fixes. Producer 86.8 s (voice retimed +4%), −14.9 LUFS; QA FIX 1 (CTA too short) → PASS round 2. Scheduled 19:00 at ~09:35 (job 93a23efa). Live: IG Df4WTrajFwC · YT QiqWwm0keiQ.
+- Analyst early reads: udara Jakarta 14 h IG 111 views / 17.5% (weak); Minggu Depan 62 h IG 128 / 20.7%, YT 1,403. Health: IG-missing WARN (known false alarm).

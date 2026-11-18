@@ -1,185 +1,5 @@
 [
 {
-"id": "E0031",
-"date": "2026-10-18",
-"category": "POL",
-"event": "Analysis: nearly all DPR parties back Prabowo; analysts stress public oversight",
-"key_numbers": "—",
-"storyline": "",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0054",
-"date": "2026-10-18",
-"category": "MKT",
-"event": "OJK and the exchange SROs hold a Sunday 'consolidation dialogue' at BEI with analysts, economists, market players and finfluencers; BEI says it was caught off guard by MSCI and lists reform and fundamentals data in rebuttal.",
-"key_numbers": "BEI, OJK and Danantara met MSCI and other index providers in Bangkok on 13 Oct with no warning signal · MSCI usually announces its review in early November (around 12 Nov), this came about a month earlier · disclosure threshold cut 5% → 1% · investor categories 9 → 39, published monthly on the 2nd · high-shareholding-concentration (HSC) board now covers market cap >Rp5 T (was Rp10 T), HSC stocks removed from LQ45, IDX30, IDX80 · tick size 50 → 1 from 28 Sep 2026 · short selling introduced · Q2 2026 GDP 5.29% · listed-company June revenue +15.94%, net income +16.25% · 74% of issuers profitable · P/E 9.4x vs Singapore 18.5x · market cap US$589 B (2nd in ASEAN) · 31.1 M investors (11.0% of population) · BEI says FTSE Russell kept Indonesia as secondary emerging and removed it from its Watch List in Oct 2026 (single-source claim)",
-"storyline": "msci-reclassification",
-"status": "verified",
-"upcoming": false
-},
-{
-"id": "E0056",
-"date": "2026-10-18",
-"category": "BIZ",
-"event": "Forbes-based figures reported by Bisnis show Prajogo Pangestu's net worth falling to about US$11.4 billion from US$39.8 billion at end-2025, as Barito-group stocks collapse; his affiliated issuers also plan buybacks of up to Rp2.5 trillion through December.",
-"key_numbers": "Net worth US$39.8 B (end-2025) → US$11.4 B (about Rp205.5 T at Rp18,027), down about US$28 B / Rp504 T · BREN market cap Rp1,297 T (end-2025) → Rp387.98 T (Sep) → Rp248.17 T now, share price Rp1,855, -80.88% YTD (peak Rp9,700) · CUAN Rp60.7 T, -76.92% YTD · Barito group Rp610.65 T = 6.66% of IDX market cap · Robert Budi Hartono US$13.2 B (Forbes Real Time, 18 Oct), Prajogo now second · buyback up to Rp2.5 T by BREN, CUAN, BRPT through end-Dec 2026 (headline only)",
-"storyline": "msci-reclassification",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0069",
-"date": "2026-10-18",
-"category": "POL",
-"event": "KPK names five suspects in the BNPB emergency-fund (DSP) sting case, including BNPB expert staff Bima Setiawan (younger brother of former BNPB head Suharyanto), and says it will look for other parties and trace the money flow; ICW urges the probe to reach higher officials. (update of E0047)",
-"key_numbers": "5 suspects: Bima Setiawan, Richard Erlangga, Gabriel Purwaka Sigit (PPK), Syifa Nrika Ghifarin, Gery Prasetiawan · first 20-day detention 14 Oct–2 Nov · KPK coordinating with Puspom TNI on alleged involvement of active TNI members · DSP funds meant for karhutla (Kalimantan, Papua), NTT earthquake, Aceh/Sumatra floods · no sums stated · allegations, not proven in court",
-"storyline": "corruption-cases",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0070",
-"date": "2026-10-18",
-"category": "POL",
-"event": "Former members of DPR Komisi II (2019-2024), led by Golkar's Ahmad Doli Kurnia, say Article 18(3) of KPU Regulation (PKPU) 19/2023, nicknamed 'pasal Gibran banget' by petitioners in the MK diploma case, was never discussed in their consultation meetings with the KPU; Doli says the committee cannot investigate how it got in, and that the content is KPU's responsibility. (update of E0044)",
-"key_numbers": "Group met in Jakarta on 18 Oct · consultation letters from KPU dated 15 and 19 Sep (2023) · consultation meeting 20 Sep (2023) · covered 4 PKPU · MK case 01/PHPU.PRES-XXIV/2026",
-"storyline": "gibran-ijazah-mk",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0071",
-"date": "2026-10-18",
-"category": "POL",
-"event": "Prabowo receives UN Secretary-General Antonio Guterres at his Hambalang residence; the Cabinet Secretariat says Guterres praised Indonesia's foreign policy and aid to Palestinians and said farewell ahead of the end of his term in December 2026; Guterres also to honour Indonesian peacekeepers and speak at the Foreign Ministry.",
-"key_numbers": "50 Indonesian peacekeepers died in UN service · Guterres's term ends Dec 2026 · Indonesian troops about to deploy to MINUSCA (Central African Republic) · visit to TNI peacekeeping training centre (PMPP) Bogor · speech at Foreign Ministry",
-"storyline": "",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0072",
-"date": "2026-10-18",
-"category": "POL",
-"event": "Two pollsters release two-year satisfaction surveys on Prabowo: Parameter Politik Indonesia finds 65.2% satisfied and Adidaya Institute 60.3% (VP Gibran 51.4%), contrasting with the SMRC figure of 51.1% cited by critics. (update of E0036)",
-"key_numbers": "PPI: 65.2% satisfied (62.3% puas + 2.9% sangat puas), n=1,200, MoE ±2.83%, fieldwork 26 Sep–6 Oct · Adidaya: Prabowo 60.3% satisfied / 36.2% dissatisfied; Gibran 51.4% / 44.8%; government overall 52.8% / 30.4%, n=1,240, MoE ±2.78%, fieldwork 15–21 Sep · PPI also: 62.2% agree with reshuffles, 67% trust in government (headlines)",
-"storyline": "prabowo-2-years",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0073",
-"date": "2026-10-18",
-"category": "POL",
-"event": "Bakom cites BPS data for the two-year mark: poverty rate 8.07% in March 2026, 22.93 million poor people, 920,000 fewer than March 2025. (update of E0036)",
-"key_numbers": "8.07% (Mar 2026) · 22.93 juta people · -920,000 vs Mar 2025 · 2021-2025: 10.14% → 8.47% · extreme poverty 2.14% → 0.85% · Gini 0.384 → 0.375 · government claim via Bakom, no independent assessment in source",
-"storyline": "prabowo-2-years",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0074",
-"date": "2026-10-18",
-"category": "POL",
-"event": "DPR Komisi II's working committee (Panja) on the Election Bill (RUU Pemilu), formed 29 Sep, is discussing ten strategic issues including whether the parliamentary threshold rises from 4% to 5% and whether regional heads stay directly elected or go to DPRD; no decision yet.",
-"key_numbers": "threshold 4% → 5% (proposed, under discussion) · 10 strategic issues, 5 priorities (national/regional election split, threshold, direct vs DPRD election of regional heads, seat numbers, KPU/Bawaslu size) · Panja formed 29 Sep, chair Bahtra Banong named 8 Oct",
-"storyline": "ruu-pemilu",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0075",
-"date": "2026-10-18",
-"category": "POL",
-"event": "Makassar Mayor Munafri Arifuddin, who resigned from Golkar on 5 Oct, returns his candidacy form to run for chair of Partai Demokrat in South Sulawesi; the regional conference (Musda) is scheduled for 23 Oct in Makassar.",
-"key_numbers": "resigned Golkar 5 Oct · candidacy form returned 18 Oct · Musda 23 Oct · claims backing from 24 Demokrat district/city branches (unverified)",
-"storyline": "",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0094",
-"date": "2026-10-18",
-"category": "BIZ",
-"event": "Pertalite national stock falls to 16-18 days from 20-23 days, odd-even Pertalite purchasing is used at Bali SPBUs, and DEN calls for better quota and distribution governance as drivers shift from Pertamax to cheaper Pertalite.",
-"key_numbers": "Stock 16-18 days (from 20-23) · recovery expected in about a week (Bahlil) · Pertalite Rp10,000 · Pertamax Rp15,950 · Pertamax Green Rp19,150 per liter · Bali odd-even rationing reported through 19 Oct",
-"storyline": "fuel-oil",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0108",
-"date": "2026-10-18",
-"category": "ENV",
-"event": "Anak Krakatau erupts 8 times on 18 Oct, ash up to 500 m; stays at Level III (Siaga). (update of E0010)",
-"key_numbers": "8 eruptions · ash 100–500 m above summit (657 m asl) · no entry within 5 km, 1 km of new islands",
-"storyline": "volcanoes",
-"status": "verified",
-"upcoming": false
-},
-{
-"id": "E0111",
-"date": "2026-10-18",
-"category": "NEWS",
-"event": "Former Polri international relations chief Irjen (Purn) Napoleon Bonaparte dies of illness; buried in Cikeas on 19 Oct.",
-"key_numbers": "Died 18 Oct 10:32 WIB · convicted 2021 in Djoko Tjandra Interpol red-notice bribery case, 4 years · paroled Apr 2023",
-"storyline": "",
-"status": "verified",
-"upcoming": false
-},
-{
-"id": "E0114",
-"date": "2026-10-18",
-"category": "POL",
-"event": "Komisi II DPR member Ahmad Doli Kurnia says Komisi II will review the alleged 'pasal selundupan' in PKPU 19/2023 (Pasal 18(3)) that exempts candidates with a university degree from showing a foreign high-school diploma; critics link it to Gibran's 2024 candidacy. (update of E0044)",
-"key_numbers": "PKPU 19/2023 Pasal 18(3) and 13(1)r · UU 7/2017 Pasal 169r · remarks 18 Oct; MK hearing 1 Oct; ex-KPU chair Hasyim Asy'ari denies engineering",
-"storyline": "gibran-ijazah-mk",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0157",
-"date": "2026-10-18",
-"category": "ENV",
-"event": "Latest BNPB hotspot data show 7,118 hotspots in six priority provinces on 16 Oct, mostly Central Kalimantan, while Forestry Ministry SiPongi counts fall nationally to 270 on 17 Oct; BNPB and BMKG cloud seeding over South Sumatra used 2.4 tons of dry ice. (update of E0021) (update of E0021)",
-"key_numbers": "BNPB 16 Oct: 7,118 hotspots (Kalteng 4,686 · Sumsel 1,344 · Kalsel 481 · Kalbar 466 · Jambi 137 · Riau 4) + 221 fire spots · 1,150.51 ha burned in 24 h (Kalteng about 52%) · Kemenhut SiPongi 17 Oct 21:00 WIB: national 270 (from 354), six provinces 125 (from 177), Kalteng 92 (up from 19) · 61 aircraft (17 patrol/OMC, 44 water bombing) · OMC Sumsel 16-25 Oct, 2.4 tons dry ice over 15-16 Oct, 3 sorties, visibility 1,000 m to 3,000 m in Palembang · counting methods differ between BNPB and SiPongi",
-"storyline": "karhutla",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0162",
-"date": "2026-10-18",
-"category": "NEWS",
-"event": "West Java police raid an illegal-drug factory in the Bizpark complex in Kopo, Bandung, making tramadol and hexymer tablets, with an estimated capacity of 8 million tablets per day and five suspects named.",
-"key_numbers": "Capacity up to 8 million tablets/day (police estimate) · raw material could yield up to 256 million tablets · 600,000 ready tablets seized on first arrest (Fri 16 Oct, Purbaleunyi KM 125) bound for Jakarta · 5 suspects · raids 17-18 Oct · Kapolda Jabar Irjen Hengki",
-"storyline": "",
-"status": "verified",
-"upcoming": false
-},
-{
-"id": "E0166",
-"date": "2026-10-18",
-"category": "NEWS",
-"event": "Four PSS Sleman supporters die in a toll-road accident at KM 616 Ngawi-Kertosono (Madiun) on the way to the Persebaya match; both teams hold a minute's silence before the 2-2 draw in Surabaya.",
-"key_numbers": "Sun 18 Oct 2026 · tol KM 616 Ngawi-Kertosono · 4 dead · match at Gelora Bung Tomo ended 2-2 · cause of accident not stated",
-"storyline": "",
-"status": "verified",
-"upcoming": false
-},
-{
-"id": "E0193",
-"date": "2026-10-18",
-"category": "TECH",
-"event": "Security reports warn of Hirudo, an Android banking-trojan/remote-access malware that targets banking apps and spreads through fake shopping or entertainment apps, ads and fake download pages.",
-"key_numbers": "No infection counts or losses reported · steals logins and SMS, uses Android accessibility features to control the phone · attributed to ThreatFabric (per Bisnis)",
-"storyline": "",
-"status": "partial",
-"upcoming": false
-},
-{
 "id": "E0032",
 "date": "2026-10-19",
 "category": "MKT",
@@ -8067,7 +7887,7 @@
 "key_numbers": "Current BI-Rate 5.75% (held since 18 Jun 2026) · Consensus 6.00% (+25 bp) · RDG 17-18 Nov, decision Wed 18 Nov · Rupiah Rp18,206 on 13 Nov, record intraday low about Rp18,245-18,261 · Permata base case assumes Fed +25 bp in Dec · October inflation 3.23% y/y",
 "storyline": "rupiah",
 "status": "upcoming",
-"upcoming": true
+"upcoming": false
 },
 {
 "id": "E0828",
@@ -8077,7 +7897,7 @@
 "key_numbers": "Fed funds held at 3.75-4.00% on 28 Oct, with Cook and Hammack dissenting for a hike · FOMC minutes Wed 18 Nov · 25 bp hike fully priced for 9 Dec, about 10% odds of 50 bp · Bank of America sees hikes in Dec, Jan and Mar · US October retail sales Tue 17 Nov (consensus +0.2% m/m) · US October CPI +0.4% m/m",
 "storyline": "rupiah",
 "status": "upcoming",
-"upcoming": true
+"upcoming": false
 },
 {
 "id": "E0832",
@@ -8087,7 +7907,7 @@
 "key_numbers": "Deadline about 18 Nov 2026 · 2 names · at least 14 days before the plenary (Peraturan MPR 1/2024, Art. 136(1) per Okezone) · plenary Wed 2 Dec 2026 · Prabowo told parties to discuss proposals within about 1 week",
 "storyline": "gibran-ijazah-mk",
 "status": "upcoming",
-"upcoming": true
+"upcoming": false
 },
 {
 "id": "E0891",
@@ -8097,7 +7917,7 @@
 "key_numbers": "BI-Rate now 5.75% (per storyline, Jul-Sep hold) · Bloomberg survey n=32: 11 hike to 6%, about 21 hold (derived), median 5.75% · BCA chief economist David Sumual expects 6%, citing that rupiah depreciation above 2.5% wipes out foreign investors' dollar gains · LPEM FEB UI expects hold at 5.75% · RDG 17-18 Nov",
 "storyline": "rupiah",
 "status": "upcoming",
-"upcoming": true
+"upcoming": false
 },
 {
 "id": "E0898",
@@ -8107,7 +7927,7 @@
 "key_numbers": "Plenary 2 Dec -> 9 Dec 2026 · rule: names at least 14 days before plenary (Peraturan MPR 1/2024 Art. 136(1)) · implied new latest date about 25 Nov 2026 (our calculation, not stated by MPR) · 2 names required",
 "storyline": "gibran-ijazah-mk",
 "status": "partial",
-"upcoming": true
+"upcoming": false
 },
 {
 "id": "E0911",
@@ -8117,7 +7937,7 @@
 "key_numbers": "14 provinces Siaga (Aceh, Sumut, Sumbar, Riau, Sumsel, Babel, Bengkulu, Lampung, Banten, DKI, Jabar, Jateng, Jatim, Kalbar) · 21 provinces Waspada · BMKG warning for 18-19 Nov",
 "storyline": "",
 "status": "verified",
-"upcoming": true
+"upcoming": false
 },
 {
 "id": "E0879",
