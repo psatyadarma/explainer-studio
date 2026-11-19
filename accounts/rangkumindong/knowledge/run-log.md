@@ -198,3 +198,4 @@ History moved out of HANDOFF.md (22 Oct) so fresh sessions read less. Append one
 - Sweeps 5/10/7/12 events (+34 merged; CNBC/Tempo/CNN pages often blocked). Ideas: ⭐ Kepuasan Prabowo 43→62% "kata Bakom" 11/12; light FC 2 fixes (#3 no hour for gelar perkara, #4 dropped "87 RDPU"/"15 Des"), #2 BI figures unverified.
 - User picked ⭐ #1 + "ok to post" (~08:00). Story hook PICK A "Misalnya Pak Budi baca satu angka di HP."; full FC 1 fix (h2 "Katanya," + "kata Bakom" tag). Producer 42.7 s short, block subs, name tags (Commons 429, no Syahganda photo); QA FIX (empty l1 frame; length FIX rejected: short format) → PASS round 2. Scheduled 19:00 at ~08:35 (job e90250c6). 18:00 news re-check + 19:20 link check scheduled.
 - Analyst early reads: penipuan 14 h IG 180 / 19.5% (low reach), YT 440; pengadaan 62 h IG 1,284 / 53.6%, YT 209. Health: IG-missing WARN (known false alarm).
+- Live 19:00: IG Df67GxJEddo · YT kKBKooHGqg8; 18:00 news re-check no change.

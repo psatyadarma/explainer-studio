@@ -1774,5 +1774,53 @@
 "shares": 0,
 "saves": 0,
 "follows": 0
+},
+{
+"date": "2026-11-19",
+"folder": "videos/2026-11-18-penipuan-online-104t",
+"platform": "instagram",
+"hours": 14,
+"views": 180,
+"avg_watch_pct": 19.5,
+"hold_3s_pct": null,
+"shares": 0,
+"saves": 3,
+"follows": null
+},
+{
+"date": "2026-11-19",
+"folder": "videos/2026-11-18-penipuan-online-104t",
+"platform": "youtube",
+"hours": 14,
+"views": 440,
+"avg_watch_pct": null,
+"hold_3s_pct": null,
+"shares": 0,
+"saves": null,
+"follows": null
+},
+{
+"date": "2026-11-19",
+"folder": "videos/2026-11-16-pengadaan-480t-hangus",
+"platform": "instagram",
+"hours": 62,
+"views": 1284,
+"avg_watch_pct": 53.6,
+"hold_3s_pct": null,
+"shares": 2,
+"saves": 5,
+"follows": null
+},
+{
+"date": "2026-11-19",
+"folder": "videos/2026-11-16-pengadaan-480t-hangus",
+"platform": "youtube",
+"hours": 62,
+"views": 209,
+"avg_watch_pct": null,
+"hold_3s_pct": null,
+"shares": 0,
+"saves": null,
+"follows": null
 }
 ]

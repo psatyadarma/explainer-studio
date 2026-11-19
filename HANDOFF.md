@@ -1,6 +1,6 @@
 # Handoff: Rangkumin Dong (read this first in every session)
 
-Updated: Thu 19 Nov 2026, 08:40 WITA. Each daily run is a fresh session with no memory of earlier chats. **This file plus the playbook are the memory.** Whenever something here changes, update it, mirror it to the Video project (`claude/rangkumindong-handoff.md`), commit and push.
+Updated: Thu 19 Nov 2026, 19:25 WITA. Each daily run is a fresh session with no memory of earlier chats. **This file plus the playbook are the memory.** Whenever something here changes, update it, mirror it to the Video project (`claude/rangkumindong-handoff.md`), commit and push.
 
 ## Standing rules from the user
 - **Decision 8 Nov (user: "I follow your decisions", on the W44/W45 recs):** voice locked to **Pratama**; **no B version from 9 Nov** (brand.json schedule hook_b = ""; skip hook-critic PICK B, variant.py, B QA and `post.py --trial`); hook styles keep rotating on A only (schedule `hook`). This overrides the daily task prompt's B steps until Trial Reels work again.
@@ -56,7 +56,7 @@ Updated: Thu 19 Nov 2026, 08:40 WITA. Each daily run is a fresh session with no 
 - #29 Prabowo "Rp480 T uang negara hangus" (pengadaan/LKPP; user picked ⭐ + early OK; person_collage, word subs, 83.1 s) live 16 Nov 19:00 (IG https://www.instagram.com/reel/DfzMt7oCn0y/ · YT https://www.youtube.com/watch?v=jWnbOsMDdX0). Sweeps were thin (14 events; WebFetch refused cnbc/detik section pages).
 - #30 Udara Jakarta "berapa kali batas pedoman WHO?" (user picked #4 + early OK; story hook, short 34.6 s, block subs; IQAir 05.00 single source) live 17 Nov 19:00 (IG https://www.instagram.com/reel/Df1xg2EIAhY/ · YT https://www.youtube.com/watch?v=UijRbJDsj8k). Pengadaan 14 h IG 1,246 views / 55.3% = best IG start.
 - #31 Penipuan online "Rp104 T, kamu salah satunya?" (user picked ⭐ + early OK; planned person_collage → story fallback, word subs, 86.8 s) live 18 Nov 19:00 (IG https://www.instagram.com/reel/Df4WTrajFwC/ · YT https://www.youtube.com/watch?v=QiqWwm0keiQ). New storyline online-scams. Udara Jakarta 14 h IG 17.5% (weak).
-- #32 Kepuasan Prabowo 43→62% "kata Bakom" (user picked ⭐ + early OK; story hook, short 42.7 s, block subs, name tags) scheduled 19 Nov 19:00 (job e90250c6); links → covered.csv after 19:20 check.
+- #32 Kepuasan Prabowo 43→62% "kata Bakom" (user picked ⭐ + early OK; story hook, short 42.7 s, block subs, name tags) live 19 Nov 19:00 (IG https://www.instagram.com/reel/Df67GxJEddo/ · YT https://www.youtube.com/watch?v=kKBKooHGqg8).
 - Setup: `pip install soundfile` was missing on 13 Nov (weekly voice failed once) — install it at session start.
 - **Git:** run `git status` first; if HEAD is detached, `git checkout -B main origin/main` before committing (7 Nov morning commits had to be rebased).
 - **Container restarts kill background jobs:** run renders in the foreground (≤9 min per command, 2 chapters in parallel max).
