@@ -1,0 +1,149 @@
+{
+  "area": "national",
+  "run_date": "2026-11-20",
+  "checked": ["detik terpopuler (read, 20 Nov 01:19 WIB)", "CNN Indonesia nasional (read, 19 Nov items)", "CNBC Indonesia home (read, appears to be 19 Nov morning cache)", "ANTARA terkini (read)", "Search: viral PIK security guard", "Search: Bupati Kupang", "Search: hoax roundup (Liputan6/Harian Negeri)", "Search: karhutla BNPB (storyline karhutla)", "Storyline listyo-sigit-penyadapan (via CNN/ANTARA headlines)", "Watch list found: most-read, viral incident, disasters/BNPB, hoaxes, crime, public services", "Not found/no new: haji/umrah, education, BPJS, transport"],
+  "events": [
+    {
+      "date": "2026-11-19",
+      "category": "NEWS",
+      "event": "A video went viral showing a security guard clinging to the hood of a car at PIK 1, North Jakarta, as it was chased and driven toward the inner-city toll road; detik later reported the car was driven by a police officer.",
+      "key_numbers": "Incident reported 19 Nov 2026 · detik most-read #1 and #7 on 20 Nov",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "detikNews", "url": "https://news.detik.com/berita/d-8761076/mobil-ditemploki-sekuriti-di-pik-ternyata-dikemudikan-polisi-ini-kronologinya"},
+        {"label": "VIVA", "url": "https://www.viva.co.id/berita/metro/1944996-mobil-yang-ditempeli-satpam-bak-spiderman-di-pik-ternyata-dikendarai-polisi-begini-fakta-kejadian-sebenarnya"},
+        {"label": "Kompas (title only)", "url": "https://megapolitan.kompas.com/read/2026/11/19/21070161/viral-satpam-naik-kap-mobil-di-pik-1-jakut-pukul-kaca-hingga-terbawa-ke"}
+      ],
+      "why_it_matters": "A viral twist: what looked like a guard stopping a suspect turned out to involve a police officer, so people are asking who was in the wrong.",
+      "signals": {"spreading": 2, "wallet": 0, "surprise": 2, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "detik terpopuler #1 and #7 (20 Nov 01:19 WIB); also covered by VIVA, Kompas, TVOne, Merdeka fact-check",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-19",
+      "category": "NEWS",
+      "event": "Polda NTT raised the alleged sexual-violence case against Kupang Regent Yosef Lede from inquiry to investigation stage after a special case review, with the alleged victim's undergarments seized; the regent is so far only the reported party and no suspect has been named.",
+      "key_numbers": "Alleged incident 12 Nov 2026 · alleged victim 21-year-old student · 13 witnesses plus 5 more · Law 12/2022 TPKS Art 6(c) jo 15(1)(d) and KUHP Art 473(1)",
+      "storyline": "",
+      "update_of": "E0855",
+      "status": "verified",
+      "sources": [
+        {"label": "VIVA", "url": "https://www.viva.co.id/berita/nasional/1945004-babak-baru-kasus-kekerasan-seksual-oleh-bupati-kupang-kasus-naik-penyidikan-polisi-sita-pakaian-dalam"},
+        {"label": "detikNews", "url": "https://news.detik.com/berita/d-8761045/polisi-sita-pakaian-dalam-korban-dugaan-pemerkosaan-bupati-kupang"},
+        {"label": "Media Indonesia", "url": "https://mediaindonesia.com/humaniora/958312/kasus-dugaan-kekerasan-seksual-bupati-kupang-yosef-lede-naik-ke-penyidikan"}
+      ],
+      "why_it_matters": "A test of whether a sitting regent faces the same process as ordinary citizens in a sexual-violence case.",
+      "signals": {"spreading": 2, "wallet": 0, "surprise": 1, "visual": 0, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "detik terpopuler #5 (20 Nov); CNN Indonesia nasional carried Deputy Minister Veronica Tan rejecting any settlement (19 Nov)",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-19",
+      "category": "NEWS",
+      "event": "PPATK's Semester I-2026 report said it handed 15 financial-intelligence products on mining crimes to law enforcement, covering alleged proceeds of Rp167.23 trillion in gold, tin sand and coal, the largest value among predicate offences.",
+      "key_numbers": "Rp167.23 trillion alleged · 15 products (14 to police, 1 to prosecutors) · H1 2026 · networks concentrated in Kalimantan and Sulawesi",
+      "storyline": "corruption-cases",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/news/20261119072335-4-786480/jaringan-tambang-ilegal-keruk-emas-ri-pasir-timah-batu-bara-rp167-t"}
+      ],
+      "why_it_matters": "Shows how big illegal mining money flows are, in the same week Prabowo wants 70% of mining proceeds to go to the state.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 2, "visual": 2, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "CNBC Indonesia news list (19 Nov morning, 1 hour old); PPATK figures are suspected activity, not court findings",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-20",
+      "category": "NEWS",
+      "event": "KPK questioned the head of the Tanjung Emas customs office (Semarang) about containers that were seized.",
+      "key_numbers": "",
+      "storyline": "corruption-cases",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "detikNews (headline only; article fetch blocked)", "url": "https://news.detik.com/berita/d-8761062/kpk-periksa-kepala-bea-cukai-tanjung-emas-usut-soal-kontainer-yang-disita"}
+      ],
+      "why_it_matters": "Customs integrity touches import costs and smuggling, and KPK is now looking at a port head.",
+      "signals": {"spreading": 2, "wallet": 1, "surprise": 1, "visual": 0, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "detik terpopuler #2 (20 Nov 01:19 WIB)",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-19",
+      "category": "NEWS",
+      "event": "Ahead of Police Chief-level ethics proceedings for Listyo Sigit, CNN Indonesia reported new Perpol rules would allow a lower-ranked officer to try him, and Kompolnas said anyone may chair the hearing if it follows the regulation; Menko Yusril said the case review on the wiretapping allegation must be disclosed fully.",
+      "key_numbers": "",
+      "storyline": "listyo-sigit-penyadapan",
+      "update_of": "E0924",
+      "status": "partial",
+      "sources": [
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261119085323-12-1428838/aturan-baru-sidang-etik-listyo-bisa-diadili-oleh-pangkat-lebih-rendah"},
+        {"label": "CNN Indonesia (Kompolnas)", "url": "https://www.cnnindonesia.com/nasional/20261119131114-12-1428969/kompolnas-siapapun-bisa-pimpin-sidang-etik-listyo-asal-sesuai-perpol"},
+        {"label": "ANTARA video (title only)", "url": "https://www.antaranews.com/video/5863471/yusril-gelar-perkara-dugaan-penyadapan-harus-diungkap-tuntas"}
+      ],
+      "why_it_matters": "Who is allowed to judge a former top police chief decides how credible the ethics process looks.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 0, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "CNN Indonesia nasional list items 22-23; only headlines read, details unverified",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-19",
+      "category": "ENV",
+      "event": "BNPB head Kristomei Sianturi asked all regional governments to map disaster risks and prepare contingency plans for the rainy season, warning that areas burned by karhutla face higher flood risk because debris can block rivers.",
+      "key_numbers": "BNPB Surat Edaran No. 4/2026 dated 30 Oct 2026 · BPBA: 21,109 people affected by Aceh floods (17 Nov) · five subdistricts at Awas flood status (date not shown)",
+      "storyline": "karhutla",
+      "update_of": "E0949",
+      "status": "partial",
+      "sources": [
+        {"label": "ANTARA", "url": "https://www.antaranews.com/berita/5865655/bnpb-minta-pemda-proaktif-petakan-risiko-bencana-hadapi-musim-hujan"},
+        {"label": "ANTARA video (title only)", "url": "https://www.antaranews.com/video/5863511/bnpb-imbau-sejumlah-provinsi-khususnya-kalbar-siaga-cuaca-ekstrem"}
+      ],
+      "why_it_matters": "The same burned land that caused haze this year can now make floods worse as the rain begins.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "ANTARA Top News area, 19 Nov 19:30 WIB; no most-read placement seen",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-19",
+      "category": "NEWS",
+      "event": "Fact-checkers (Liputan6, Harian Negeri) flagged new hoaxes using President Prabowo's name: free electricity for three months, a plan to restrict Facebook and TikTok, and an old video passed off as Prabowo naming four replacements for Gibran as vice president.",
+      "key_numbers": "Free electricity claim: 450 VA to 2,200 VA, three months (posted 25 Oct) · social media restriction claim (posted 3 Nov) · cawapres video posted 16 Nov, actually from 2023",
+      "storyline": "hoax-tracker",
+      "update_of": "E0950",
+      "status": "partial",
+      "sources": [
+        {"label": "Liputan6 Cek Fakta", "url": "https://liputan6.com/cek-fakta/read/8337562/presiden-prabowo-subianto-jadi-sasaran-hoaks-simak-daftarnya"},
+        {"label": "Harian Negeri", "url": "https://hariannegeri.com/salah-video-prabowo-sebut-empat-nama-cawapres-pengganti-gibran"}
+      ],
+      "why_it_matters": "Fake free-electricity and social-media-ban claims can push people to click scam links or panic.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 1, "fresh": 1, "rivals": 1},
+      "spreading_evidence": "Liputan6 cek-fakta roundup; cawapres rumor is also live in CNN Indonesia headlines (Sjafrie denies, 19 Nov)",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-19",
+      "category": "ENV",
+      "event": "The Environment Minister asked that the waters around Ujung Kulon National Park be excluded from mining zones.",
+      "key_numbers": "",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "CNN Indonesia (headline only)", "url": "https://www.cnnindonesia.com/nasional/20261119141417-32-1429016/menteri-lh-minta-perairan-ujung-kulon-dikeluarkan-dari-wilayah-tambang"}
+      ],
+      "why_it_matters": "Ties mining plans to protection of a famous rhino habitat; BRIN rhino translocation was also on detik most-read (#3).",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "CNN Indonesia nasional list; detik terpopuler #3 is a related rhino translocation story",
+      "sensitivity": "normal"
+    }
+  ],
+  "gaps": [
+    "detik article pages and antaranews.com/cek-fakta were blocked (permission timeout); PIK and KPK-Bea Cukai details rest on headlines and search titles.",
+    "Headline-only, not verified: CNBC says PPATK flows linked to mining/corruption/gambling/capital market reach Rp416 trillion; Customs seized 1.7 tons of narcotics in 140 cases; Makassar court ruled for PT Hadji Kalla in a 16 ha dispute; Mount Sibayak trail event called illegal by Gov Bobby; Bea Cukai/Bareskrim Indonesia-Malaysia narcotics network.",
+    "UU Perampasan Aset reportedly passed 19 Nov (CNN photo gallery, DPR left out illicit enrichment): POL area, check E0923/E0939 follow-up with the politics sweeper.",
+    "No new verified karhutla hotspot numbers today; no haji, education, BPJS or transport items found in the pages scanned."
+  ]
+}

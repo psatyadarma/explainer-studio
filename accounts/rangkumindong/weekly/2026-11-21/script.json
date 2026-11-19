@@ -1,0 +1,365 @@
+{
+ "title": "Rangkumin Seminggu",
+ "dates": "14–20 Nov 2026",
+ "episode": 5,
+ "direction": "[clear, steady weekly recap; neutral, attributed]",
+ "voice": "male:Pratama",
+ "format": "weekly",
+ "hook_style": "question_reveal",
+ "chapters": [
+  {
+   "n": 0,
+   "kicker": "INTRO",
+   "title": "Minggu ini",
+   "lines": [
+    {
+     "id": "i1",
+     "tag": "[energetic]",
+     "text": "Bunga naik, kursi wapres kosong. Lalu apa?"
+    },
+    {
+     "id": "i2",
+     "tag": "[quick, building]",
+     "text": "Minggu ini: BI naikkan bunga ke 6 persen. Nama Dasco makin sering disebut untuk kursi wapres. Dan di kasus Listyo Sigit, polisi kini juga mengusut dugaan makar.",
+     "say": "Minggu ini: Be I naikkan bunga ke enam persen. Nama Dasco makin sering disebut untuk kursi wapres. Dan di kasus Listyo Sigit, polisi kini juga mengusut dugaan makar."
+    },
+    {
+     "id": "i3",
+     "tag": "[quick, playful]",
+     "text": "Plus: UU Perampasan Aset akhirnya sah, dan Rp104 triliun hilang karena penipuan online.",
+     "say": "Plus: undang-undang Perampasan Aset akhirnya sah, dan seratus empat triliun rupiah hilang karena penipuan online."
+    },
+    {
+     "id": "rd",
+     "tagline": true,
+     "text": "Rangkumin dong!"
+    },
+    {
+     "id": "i4",
+     "tag": "[friendly]",
+     "text": "Ini Rangkumin Seminggu, 14 sampai 20 November. Di akhir: satu tanggal minggu depan yang bisa menjawab siapa wapres berikutnya.",
+     "say": "Ini Rangkumin Seminggu, empat belas sampai dua puluh November. Di akhir: satu tanggal minggu depan, yang bisa menjawab siapa wapres berikutnya."
+    }
+   ]
+  },
+  {
+   "n": 1,
+   "kicker": "BAB 1",
+   "title": "Siapa wapres pengganti?",
+   "badge": "PART 4",
+   "lines": [
+    {
+     "id": "a1",
+     "tag": "[serious]",
+     "text": "Kursi wapres kosong sejak Kamis, 12 November. Seminggu kemudian, belum ada calon resmi.",
+     "say": "Kursi wapres kosong sejak Kamis, dua belas November. Seminggu kemudian, belum ada calon resmi."
+    },
+    {
+     "id": "a2",
+     "tag": "[explaining]",
+     "text": "Senin, kata Ketua MPR Ahmad Muzani, surat Presiden Prabowo soal pengisian wapres sudah diterima MPR.",
+     "say": "Senin, kata Ketua, Em Pe Er, Ahmad Muzani, surat Presiden Prabowo soal pengisian wapres sudah diterima, Em Pe Er."
+    },
+    {
+     "id": "a3",
+     "tag": "[matter-of-fact]",
+     "text": "Lalu paripurna pemilihan wapres digeser sepekan: dari 2 Desember ke Rabu, 9 Desember. Kata Muzani, jadwal Presiden padat, dan butuh waktu menimbang dua calon.",
+     "say": "Lalu paripurna pemilihan wapres digeser sepekan: dari dua Desember, ke Rabu, sembilan Desember. Kata Muzani, jadwal Presiden padat, dan butuh waktu menimbang dua calon."
+    },
+    {
+     "id": "a4",
+     "tag": "[explaining]",
+     "text": "Artinya, tenggat dua nama ikut bergeser. Aturannya, nama masuk paling lambat 14 hari sebelum paripurna. Jadi, 25 November.",
+     "say": "Artinya, tenggat dua nama ikut bergeser. Aturannya, nama masuk paling lambat empat belas hari sebelum paripurna. Jadi, dua puluh lima November."
+    },
+    {
+     "id": "a5",
+     "tag": "[leaning in]",
+     "text": "Siapa yang disebut? Sabtu lalu, Waketum Golkar Ahmad Doli Kurnia menyebut 8 nama potensial, dari Puan Maharani sampai Bahlil Lahadalia.",
+     "say": "Siapa yang disebut? Sabtu lalu, Waketum Golkar, Ahmad Doli Kurnia, menyebut delapan nama potensial, dari Puan Maharani sampai Bahlil Lahadalia."
+    },
+    {
+     "id": "a6",
+     "tag": "[explaining]",
+     "text": "Tapi satu nama paling sering muncul minggu ini: Wakil Ketua DPR Sufmi Dasco Ahmad, dari Gerindra. Dukungan datang dari sejumlah senator dan pengurus daerah Gerindra.",
+     "say": "Tapi satu nama paling sering muncul minggu ini: Wakil Ketua, De Pe Er, Sufmi Dasco Ahmad, dari Gerindra. Dukungan datang dari sejumlah senator dan pengurus daerah Gerindra."
+    },
+    {
+     "id": "a7",
+     "tag": "[neutral]",
+     "text": "Kata Dasco sendiri: mengusulkan nama itu hak Presiden."
+    },
+    {
+     "id": "a8",
+     "tag": "[matter-of-fact]",
+     "text": "Kamis, Menhan Sjafrie menemui Dasco di DPR. Kata Sjafrie, mereka tidak membahas soal cawapres.",
+     "say": "Kamis, Menhan Sjafrie menemui Dasco di, De Pe Er. Kata Sjafrie, mereka tidak membahas soal cawapres."
+    },
+    {
+     "id": "a9",
+     "tag": "[leaning in]",
+     "text": "Tapi hati-hati. Video Prabowo menyebut empat nama pengganti Gibran, yang beredar minggu ini? Kata pemeriksa fakta, itu video lama, dari 2023.",
+     "say": "Tapi hati-hati. Video Prabowo menyebut empat nama pengganti Gibran, yang beredar minggu ini? Kata pemeriksa fakta, itu video lama, dari dua ribu dua puluh tiga."
+    },
+    {
+     "id": "a10",
+     "tag": "[calm]",
+     "text": "Jadi sampai Kamis, belum ada nama resmi. Yang memilih nanti anggota MPR, dari dua nama usulan Presiden.",
+     "say": "Jadi sampai Kamis, belum ada nama resmi. Yang memilih nanti anggota, Em Pe Er, dari dua nama usulan Presiden."
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "kicker": "BAB 2",
+   "title": "Listyo: dari sadap ke makar?",
+   "badge": "PART 5",
+   "lines": [
+    {
+     "id": "b1",
+     "tag": "[serious]",
+     "text": "Minggu lalu, Kapolri menyebut Listyo Sigit diduga end user penyadapan. Polisi juga mulai mengusut dugaan makar.",
+     "say": "Minggu lalu, Kapolri menyebut Listyo Sigit diduga, end user penyadapan. Polisi juga mulai mengusut dugaan makar."
+    },
+    {
+     "id": "b2",
+     "tag": "[explaining]",
+     "text": "Kata Kabareskrim Komjen Asep Safrudin pekan lalu, ada bukti permulaan yang cukup untuk membuat laporan polisi soal dugaan makar. Minggu ini, kata Polri, kasus makarnya sudah naik ke penyidikan."
+    },
+    {
+     "id": "b3",
+     "tag": "[matter-of-fact]",
+     "text": "Tapi Selasa, Kapolri menegaskan: belum ada tersangka makar. Masih proses."
+    },
+    {
+     "id": "b4",
+     "tag": "[explaining]",
+     "text": "Selasa malam, polisi menggeledah sebuah rumah di Cipete, Jakarta Selatan, dan beberapa lokasi lain. Kata polisi, rumah itu diduga jadi posko makar, terkait Irjen Eko Hadi Santoso."
+    },
+    {
+     "id": "b5",
+     "tag": "[matter-of-fact]",
+     "text": "Di jalur etik: setelah Irjen Ahrie Sonta, Irjen Eko Hadi juga dijatuhi PTDH, diberhentikan tidak dengan hormat. Sidangnya Selasa, 17 November.",
+     "say": "Di jalur etik: setelah Irjen Ahrie Sonta, Irjen Eko Hadi juga dijatuhi Pe Te De Ha, diberhentikan tidak dengan hormat. Sidangnya Selasa, tujuh belas November."
+    },
+    {
+     "id": "b6",
+     "tag": "[leaning in]",
+     "text": "Giliran Listyo, kata Polri, pekan depan. Dengan aturan baru Polri, sidangnya bisa dipimpin perwira yang pangkatnya lebih rendah dari dia."
+    },
+    {
+     "id": "b7",
+     "tag": "[explaining]",
+     "text": "Dan Kamis, Bareskrim menggelar perkara dugaan makar, bersama Kompolnas dan ahli. Hasilnya belum diumumkan. Kata Dirtipidum, temuan itu akan dipaparkan ke Kejaksaan Agung."
+    },
+    {
+     "id": "b8",
+     "tag": "[calm]",
+     "text": "Ingat: semua ini masih keterangan polisi. Tersangka belum tentu bersalah. Yang memutuskan nanti pengadilan."
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "kicker": "BAB 3",
+   "title": "Bunga naik ke 6%",
+   "lines": [
+    {
+     "id": "c1",
+     "tag": "[warm, storytelling]",
+     "text": "Misalnya Pak Budi. Cicilan rumahnya masih belasan tahun lagi. Rabu siang, dia dengar kabar: bunga acuan naik."
+    },
+    {
+     "id": "c2",
+     "tag": "[explaining]",
+     "text": "Bank Indonesia menaikkan BI-Rate 0,25 poin, dari 5,75 jadi 6 persen. Kata BI, untuk menjaga rupiah dan mengendalikan inflasi.",
+     "say": "Bank Indonesia menaikkan Bi Rate, nol koma dua lima poin, dari lima koma tujuh lima, jadi enam persen. Kata Be I, untuk menjaga rupiah dan mengendalikan inflasi."
+    },
+    {
+     "id": "c3",
+     "tag": "[matter-of-fact]",
+     "text": "Ini bukan kejutan total. Sebelumnya, dari 32 ekonom yang disurvei Bloomberg, 11 memperkirakan naik. Kebanyakan memperkirakan tahan.",
+     "say": "Ini bukan kejutan total. Sebelumnya, dari tiga puluh dua ekonom yang disurvei Bloomberg, sebelas memperkirakan naik. Kebanyakan memperkirakan tahan."
+    },
+    {
+     "id": "c4",
+     "tag": "[explaining]",
+     "text": "Reaksinya? Rabu, rupiah menguat sedikit ke Rp18.232 per dolar. Kamis, melemah lagi ke Rp18.254.",
+     "say": "Reaksinya? Rabu, rupiah menguat sedikit, ke delapan belas ribu dua ratus tiga puluh dua per dolar. Kamis, melemah lagi, ke delapan belas ribu dua ratus lima puluh empat."
+    },
+    {
+     "id": "c5",
+     "tag": "[matter-of-fact]",
+     "text": "IHSG malah turun dua hari berturut-turut: minus 1,07 persen Rabu, minus 1,02 persen Kamis, ke 5.194.",
+     "say": "I H S G malah turun dua hari berturut-turut: minus satu koma nol tujuh persen Rabu, minus satu koma nol dua persen Kamis, ke lima ribu seratus sembilan puluh empat."
+    },
+    {
+     "id": "c6",
+     "tag": "[leaning in]",
+     "text": "Kenapa? Selain bunga BI, kata analis, pejabat The Fed memberi sinyal bunga AS bisa naik lagi untuk meredam inflasi.",
+     "say": "Kenapa? Selain bunga Be I, kata analis, pejabat The Fed memberi sinyal bunga Amerika bisa naik lagi, untuk meredam inflasi."
+    },
+    {
+     "id": "c7",
+     "tag": "[reassuring]",
+     "text": "Lalu cicilan Pak Budi? Kenaikan BI-Rate bisa ikut menaikkan bunga kredit, termasuk KPR. Tapi biasanya tidak langsung, dan tergantung bank serta jenis bunganya.",
+     "say": "Lalu cicilan Pak Budi? Kenaikan Bi Rate bisa ikut menaikkan bunga kredit, termasuk, Ka Pe Er. Tapi biasanya tidak langsung, dan tergantung bank, serta jenis bunganya."
+    },
+    {
+     "id": "c8",
+     "tag": "[calm]",
+     "text": "Ingat, ini bukan ajakan jual atau beli saham."
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "kicker": "BAB 4",
+   "title": "UU Perampasan Aset sah",
+   "lines": [
+    {
+     "id": "d1",
+     "tag": "[storytelling]",
+     "text": "Kamis, ruang paripurna DPR. Satu RUU yang sudah disusun sejak 2008 akhirnya diketok.",
+     "say": "Kamis, ruang paripurna, De Pe Er. Satu rancangan undang-undang yang sudah disusun sejak dua ribu delapan, akhirnya diketok."
+    },
+    {
+     "id": "d2",
+     "tag": "[clear]",
+     "text": "UU Perampasan Aset sah. Semua fraksi setuju. Rapat dipimpin Ketua DPR Puan Maharani.",
+     "say": "Undang-undang Perampasan Aset sah. Semua fraksi setuju. Rapat dipimpin Ketua, De Pe Er, Puan Maharani."
+    },
+    {
+     "id": "d3",
+     "tag": "[explaining]",
+     "text": "Intinya: negara bisa merampas aset hasil kejahatan. Bukan cuma korupsi, tapi juga narkotika, terorisme, penyelundupan, dan penipuan berbasis IT.",
+     "say": "Intinya: negara bisa merampas aset hasil kejahatan. Bukan cuma korupsi, tapi juga narkotika, terorisme, penyelundupan, dan penipuan berbasis, ai ti."
+    },
+    {
+     "id": "d4",
+     "tag": "[leaning in]",
+     "text": "Yang baru: perampasan bisa lewat putusan pidana, tapi juga tanpa harus menunggu pelakunya dipidana. Nanti ada dua badan baru di bawah Presiden: satu mengelola aset, satu mengawasi perampasannya."
+    },
+    {
+     "id": "d6",
+     "tag": "[leaning in]",
+     "text": "Tapi menurut CNN Indonesia, ada yang tidak ikut masuk: aturan illicit enrichment, alias kekayaan tak wajar yang tak bisa dijelaskan asal-usulnya. ICW mengkritik DPR soal itu.",
+     "say": "Tapi menurut Ce En En Indonesia, ada yang tidak ikut masuk: aturan illicit enrichment, alias kekayaan tak wajar yang tak bisa dijelaskan asal-usulnya. I Ce We mengkritik, De Pe Er, soal itu."
+    },
+    {
+     "id": "d7",
+     "tag": "[calm]",
+     "text": "Berikutnya: aturan turunan dan dua badan barunya. Di situ nanti kelihatan, seberapa cepat aset benar-benar kembali."
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "kicker": "BAB 5",
+   "title": "Penipuan online Rp104 T",
+   "badge": "PART 2",
+   "lines": [
+    {
+     "id": "e1",
+     "tag": "[warm, storytelling]",
+     "text": "Misalnya Pak Budi dapat WA: 'Selamat, Bapak dapat hadiah!' Rabu, kami bahas: dia tidak sendirian."
+    },
+    {
+     "id": "e2",
+     "tag": "[explaining]",
+     "text": "Menurut laporan State of Scams Indonesia 2026, warga Indonesia ditaksir rugi Rp104,3 triliun karena penipuan digital, dalam setahun.",
+     "say": "Menurut laporan State of Scams Indonesia dua ribu dua puluh enam, warga Indonesia ditaksir rugi seratus empat koma tiga triliun rupiah karena penipuan digital, dalam setahun."
+    },
+    {
+     "id": "e3",
+     "tag": "[matter-of-fact]",
+     "text": "7 dari 10 orang dewasa pernah diincar penipu. Rata-rata kerugian per korban: Rp4,89 juta.",
+     "say": "Tujuh dari sepuluh orang dewasa pernah diincar penipu. Rata-rata kerugian per korban: empat koma delapan sembilan juta rupiah."
+    },
+    {
+     "id": "e4",
+     "tag": "[shocked]",
+     "text": "Yang paling bikin kaget: 47 persen korban tertipu lebih dari sekali dalam setahun.",
+     "say": "Yang paling bikin kaget: empat puluh tujuh persen korban, tertipu lebih dari sekali dalam setahun."
+    },
+    {
+     "id": "e5",
+     "tag": "[explaining]",
+     "text": "Minggu ini juga, Komdigi bilang sedang menyiapkan portal untuk cek nomor HP yang terdaftar atas NIK-mu, dan melaporkan yang mencurigakan. Masih uji coba.",
+     "say": "Minggu ini juga, Komdigi bilang sedang menyiapkan portal untuk cek nomor HP yang terdaftar atas, Nik, mu, dan melaporkan yang mencurigakan. Masih uji coba."
+    },
+    {
+     "id": "e6",
+     "tag": "[reassuring]",
+     "text": "Buat kamu: jangan transfer karena 'hadiah', cek ulang lewat jalur resmi, dan kalau sudah kena, segera lapor ke bank."
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "kicker": "MINGGU DEPAN",
+   "title": "Catat tanggalnya",
+   "lines": [
+    {
+     "id": "g0",
+     "tag": "[friendly]",
+     "text": "Cek janji minggu lalu: rapat BI memang memutuskan Rabu, bunga naik ke 6 persen. Tenggat nama wapres 18 November? Bergeser, karena paripurnanya mundur.",
+     "say": "Cek janji minggu lalu: rapat Be I memang memutuskan Rabu, bunga naik ke enam persen. Tenggat nama wapres delapan belas November? Bergeser, karena paripurnanya mundur."
+    },
+    {
+     "id": "g1",
+     "tag": "[friendly, brisk]",
+     "text": "Oke, minggu depan. Catat tanggalnya."
+    },
+    {
+     "id": "g2",
+     "tag": "[clear]",
+     "text": "Hari ini, Sabtu 21 November: batas akhir gubernur menetapkan UMP 2027, kata Menaker. UMK, paling lambat Rabu, 25 November.",
+     "say": "Hari ini, Sabtu dua puluh satu November: batas akhir gubernur menetapkan U Em Pe dua ribu dua puluh tujuh, kata Menaker. U Em Ka, paling lambat Rabu, dua puluh lima November."
+    },
+    {
+     "id": "g3",
+     "tag": "[clear]",
+     "text": "Senin, 23 November: Danantara berencana merilis laporan keuangan pertamanya, untuk tahun 2025. Tanggalnya masih tentatif.",
+     "say": "Senin, dua puluh tiga November: Danantara berencana merilis laporan keuangan pertamanya, untuk tahun dua ribu dua puluh lima. Tanggalnya masih tentatif."
+    },
+    {
+     "id": "g4",
+     "tag": "[clear]",
+     "text": "23 November juga akhir masa penahanan Listyo saat ini, kata Kapolri. Bisa diperpanjang. Lalu sidang etiknya, kata Polri, pekan depan. Tanggal resminya belum diumumkan.",
+     "say": "Dua puluh tiga November juga akhir masa penahanan Listyo saat ini, kata Kapolri. Bisa diperpanjang. Lalu sidang etiknya, kata Polri, pekan depan. Tanggal resminya belum diumumkan."
+    },
+    {
+     "id": "g5",
+     "tag": "[leaning in]",
+     "text": "Dan ini tanggal yang kami janjikan di awal: Rabu, 25 November. Batas dua nama calon wapres masuk ke MPR, 14 hari sebelum paripurna 9 Desember.",
+     "say": "Dan ini tanggal yang kami janjikan di awal: Rabu, dua puluh lima November. Batas dua nama calon wapres masuk ke, Em Pe Er, empat belas hari sebelum paripurna sembilan Desember."
+    },
+    {
+     "id": "g6",
+     "tag": "[clear]",
+     "text": "Satu lagi buat nasabah BNI: akses BNI Mobile Banking ditutup bertahap sampai 30 November, dan layanannya berhenti total 21 Desember. Penggantinya, wondr by BNI.",
+     "say": "Satu lagi buat nasabah, Be En I: akses Be En I Mobile Banking ditutup bertahap sampai tiga puluh November, dan layanannya berhenti total dua puluh satu Desember. Penggantinya, wonder bai Be En I."
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "kicker": "OUTRO",
+   "title": "Sampai Sabtu depan",
+   "tail": 1.2,
+   "lines": [
+    {
+     "id": "o1",
+     "tag": "[warm, asking the viewer]",
+     "text": "Minggu ini banyak yang naik: bunga, satu nama, dan kasus yang melebar. Menurutmu, kabar apa yang paling kamu tunggu minggu depan? Tulis di komentar."
+    },
+    {
+     "id": "o2",
+     "tag": "[friendly, upbeat]",
+     "text": "Follow Rangkumin Dong. Rangkumin Seminggu, tiap Sabtu pagi!"
+    }
+   ]
+  }
+ ]
+}

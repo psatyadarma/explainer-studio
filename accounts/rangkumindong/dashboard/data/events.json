@@ -7360,6 +7360,16 @@
 "upcoming": false
 },
 {
+"id": "E0961",
+"date": "2026-11-17",
+"category": "POL",
+"event": "Komisi XI member Misbakhun said a Presidential Decree (Keppres) already converts LKPP into the Government Goods and Services Procurement Agency, and Komisi XI is preparing a public procurement bill.",
+"key_numbers": "Said at Baleg consultation 17 Nov 2026 · decree number and date not given · Komisi XI audience with LKPP 29 Oct · bill timeline not given · no monetary figures in the article",
+"storyline": "pengadaan-480t",
+"status": "partial",
+"upcoming": false
+},
+{
 "id": "E0825",
 "date": "2026-11-18",
 "category": "ECO",
@@ -7690,6 +7700,26 @@
 "upcoming": false
 },
 {
+"id": "E0962",
+"date": "2026-11-18",
+"category": "ECO",
+"event": "President Prabowo witnessed signings of Indonesia-China deals worth about US$71.8 billion (over Rp1,300 trillion) in Shenzhen, mostly through Danantara.",
+"key_numbers": "US$71.8 billion (> Rp1,300 T) · smart city ~US$50 B (10 initial locations, Danantara-Shaanxi consortium) · Hisense ~US$10 B · infrastructure financing ~US$10 B (Danantara-SDIC) · coal-to-ethanol US$1.8 B (MoU, Pertamina) · construction of smart city 'early next year' (Rosan)",
+"storyline": "",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0966",
+"date": "2026-11-18",
+"category": "TECH",
+"event": "Nvidia reported fiscal Q3 FY2027 results beating expectations and guided Q4 revenue excluding China data-centre compute, while interim CEO Colette Kress leads after Jensen Huang's resignation. (update of E0839)",
+"key_numbers": "Revenue US$115.8 billion (+103% y/y) vs about US$108.7 billion expected · data centre US$107.6 billion (+110% y/y) · Q4 guidance about US$130 billion +/-3% excluding China · gross margin guided 71-72% · results published 17 Nov US time",
+"storyline": "ai-data-centres",
+"status": "partial",
+"upcoming": false
+},
+{
 "id": "E0879",
 "date": "2026-11-19",
 "category": "TECH",
@@ -7740,6 +7770,256 @@
 "upcoming": false
 },
 {
+"id": "E0951",
+"date": "2026-11-19",
+"category": "MKT",
+"event": "The IHSG closed down 1.02% at 5,194.14 on 19 November, a second straight day of losses after Bank Indonesia's rate hike, with CNBC Indonesia also citing hawkish Fed minutes. (update of E0918)",
+"key_numbers": "Close 5,194.14 (-53.74 pts, -1.02%) · open 5,232.39 · intraday low 5,152.41 · value Rp7.42 trillion · 216.54 million lots · previous close 5,247.88 (18 Nov)",
+"storyline": "msci-reclassification",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0952",
+"date": "2026-11-19",
+"category": "MKT",
+"event": "The rupiah closed weaker at Rp18,254 per US dollar on 19 November, reversing part of the previous day's gain after the BI rate hike, while foreigners net sold big bank stocks. (update of E0919)",
+"key_numbers": "Rupiah Rp18,254/USD (-0.12%) · previous close Rp18,232 (18 Nov) · foreign net sell BBRI ~Rp322.77 billion · BMRI ~Rp145.42 billion · TLKM ~Rp126.97 billion · BI Rate 6.00% (+25 bps)",
+"storyline": "rupiah",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0953",
+"date": "2026-11-19",
+"category": "POL",
+"event": "The DPR plenary led by Speaker Puan Maharani enacted the Asset Forfeiture Law (UU Perampasan Aset) after all factions agreed, ending a process that began in 2008. (update of E0923)",
+"key_numbers": "Drafting since 2008 (18 years) · 361 of 573 members attended/signed in · Komisi III tingkat I approval 18 Nov, no factional notes · covers corruption, narcotics, terrorism financing, trafficking, IT-based fraud · conviction-based and non-conviction-based forfeiture · special agency formed by the President",
+"storyline": "corruption-cases",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0954",
+"date": "2026-11-19",
+"category": "POL",
+"event": "DPR left the illicit enrichment (unexplained wealth) provision out of the Asset Forfeiture Law, and ICW criticised the House for avoiding it.",
+"key_numbers": "Illicit enrichment not included in the enacted law (headline-level; details not opened)",
+"storyline": "corruption-cases",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0955",
+"date": "2026-11-19",
+"category": "POL",
+"event": "Polri set a new Perpol mechanism under which Listyo Sigit's ethics hearing can be chaired by a lower-ranking officer, and said the hearing will be held next week; two co-suspect generals were already dismissed (PTDH) by ethics panels. (update of E0761)",
+"key_numbers": "Ahrie Sonta: KKEP hearing 10 Nov, PTDH · Eko Hadi Santoso: KKEP hearing 17 Nov, PTDH · Listyo hearing 'pekan depan' (date and chair not announced; 24 Nov mentioned by Bangkapos) · panel members may be one level higher, equal, or at most two levels below the accused (Perpol 4/2026 Pasal 42) · Slamet Uliandi not detained (health)",
+"storyline": "listyo-sigit-penyadapan",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0956",
+"date": "2026-11-19",
+"category": "POL",
+"event": "Defense Minister Sjafrie visited DPR leaders and met Dasco, then denied discussing the vice-presidential slot, while support for Dasco as Gibran's replacement keeps growing. (update of E0942)",
+"key_numbers": "MPR plenary to elect VP: Wed 9 Dec 2026 (moved from 2 Dec on 16 Nov) · 2 names from Prabowo, MPR has up to 60 days · MPR formed two 36-member teams (verification, ad hoc) · no candidate officially named",
+"storyline": "gibran-ijazah-mk",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0957",
+"date": "2026-11-19",
+"category": "POL",
+"event": "DPR Deputy Speaker Dasco denied allegations that he is involved in online gambling and data dissemination.",
+"key_numbers": "Details not opened (ANTARA video headline only)",
+"storyline": "gibran-ijazah-mk",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0958",
+"date": "2026-11-19",
+"category": "POL",
+"event": "DKPP is merging four ethics cases against KPU members over the 'Pasal Gibran' issue into a single hearing.",
+"key_numbers": "4 ethics cases merged into 1 hearing (headline only; hearing date not seen)",
+"storyline": "gibran-ijazah-mk",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0959",
+"date": "2026-11-19",
+"category": "POL",
+"event": "A petition at the Constitutional Court challenges the minimum age for presidential and vice-presidential candidates and proposes a minimum of 19 years.",
+"key_numbers": "Proposed minimum age: 19 (headline only; current limit and petitioner not seen)",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0960",
+"date": "2026-11-19",
+"category": "POL",
+"event": "PPP Secretary-General Taj Yasin said he has not received an official letter about his removal from the post.",
+"key_numbers": "Details not opened (headline only; who ordered removal not seen)",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0963",
+"date": "2026-11-19",
+"category": "POL",
+"event": "President Prabowo sat next to Russian President Putin at the APEC gala dinner, per ANTARA.",
+"key_numbers": "Gala dinner seating; exact date not stated in the headline (reported 19 Nov)",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0964",
+"date": "2026-11-19",
+"category": "NEWS",
+"event": "Makassar District Court ruled for PT Hadji Kalla in a 16-hectare land dispute involving Jusuf Kalla.",
+"key_numbers": "16 hectares (headline only; opposing party and case number not seen)",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0965",
+"date": "2026-11-19",
+"category": "TECH",
+"event": "Anthropic completed a record IPO, reportedly raising about US$81 billion at US$83 per share, according to detikINET citing the BBC.",
+"key_numbers": "US$81 billion raised (about Rp1,478 trillion) · US$83 per share vs US$70-78 range · valuation about US$1.5 trillion · demand over 10x shares · extra US$26 billion private placement to tech firms incl. Nvidia (S-1 terms: Google 10, Nvidia 10, AMD 2.5, Broadcom 1, Micron 1, Microsoft 1, TSMC Partners 0.5, US$ billion) · filing had sought up to US$64.4 billion at the top of the range, Nasdaq ticker ANT",
+"storyline": "ai-ipo",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0967",
+"date": "2026-11-19",
+"category": "TECH",
+"event": "CNN Indonesia reported Nvidia has stopped supplying chips to China in the wake of the Jensen Huang scandal (headline only; article could not be opened). (update of E0876)",
+"key_numbers": "Q4 guidance excludes China data-centre compute (Nvidia results, 17 Nov) · details of scope not verified",
+"storyline": "ai-data-centres",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0968",
+"date": "2026-11-19",
+"category": "TECH",
+"event": "A hacker calling themselves The Gentleman claimed to have breached Nvidia and threatened to leak company data (claim only; headline seen, article could not be opened).",
+"key_numbers": "Claim by hacker, not confirmed by Nvidia in the headline · data volume and deadline not verified",
+"storyline": "ai-data-centres",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0969",
+"date": "2026-11-19",
+"category": "TECH",
+"event": "Komdigi questioned the basis for Google's removal of YouTube channels linked to influence operations in Indonesia, after Google's bulletins showed large takedowns.",
+"key_numbers": "23,827 Indonesia-linked YouTube channels removed Jan-Sep 2026 (Q1 3,598 · Q2 840 · Q3 19,389) per Google bulletins via Katadata (17 Nov) · most promoted pro-government content, some criticised government and parties · detik headline cites 19 thousand channels",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0970",
+"date": "2026-11-19",
+"category": "TECH",
+"event": "GTA VI was released on PS5 and Xbox, priced from about Rp1.3 million in Indonesia and needing about 212 GB of storage, with Indonesian players able to play earlier than the US. (update of E0879)",
+"key_numbers": "From Rp1.3 million (CNN Indonesia) · 212 GB storage · released 19 Nov 2026 · exact price per edition not verified (headline only)",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0971",
+"date": "2026-11-19",
+"category": "TECH",
+"event": "Loops Eargo, a USB-C earphone priced at Rp59,000, was released in Indonesia and made detikINET's most-read list (headline only).",
+"key_numbers": "Rp59 thousand price · USB-C earphones",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0972",
+"date": "2026-11-19",
+"category": "NEWS",
+"event": "A video went viral showing a security guard clinging to the hood of a car at PIK 1, North Jakarta, as it was chased and driven toward the inner-city toll road; detik later reported the car was driven by a police officer.",
+"key_numbers": "Incident reported 19 Nov 2026 · detik most-read #1 and #7 on 20 Nov",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0973",
+"date": "2026-11-19",
+"category": "NEWS",
+"event": "Polda NTT raised the alleged sexual-violence case against Kupang Regent Yosef Lede from inquiry to investigation stage after a special case review, with the alleged victim's undergarments seized; the regent is so far only the reported party and no suspect has been named. (update of E0855)",
+"key_numbers": "Alleged incident 12 Nov 2026 · alleged victim 21-year-old student · 13 witnesses plus 5 more · Law 12/2022 TPKS Art 6(c) jo 15(1)(d) and KUHP Art 473(1)",
+"storyline": "",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0974",
+"date": "2026-11-19",
+"category": "NEWS",
+"event": "PPATK's Semester I-2026 report said it handed 15 financial-intelligence products on mining crimes to law enforcement, covering alleged proceeds of Rp167.23 trillion in gold, tin sand and coal, the largest value among predicate offences.",
+"key_numbers": "Rp167.23 trillion alleged · 15 products (14 to police, 1 to prosecutors) · H1 2026 · networks concentrated in Kalimantan and Sulawesi",
+"storyline": "corruption-cases",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0976",
+"date": "2026-11-19",
+"category": "NEWS",
+"event": "Ahead of Police Chief-level ethics proceedings for Listyo Sigit, CNN Indonesia reported new Perpol rules would allow a lower-ranked officer to try him, and Kompolnas said anyone may chair the hearing if it follows the regulation; Menko Yusril said the case review on the wiretapping allegation must be disclosed fully. (update of E0924)",
+"key_numbers": "",
+"storyline": "listyo-sigit-penyadapan",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0977",
+"date": "2026-11-19",
+"category": "ENV",
+"event": "BNPB head Kristomei Sianturi asked all regional governments to map disaster risks and prepare contingency plans for the rainy season, warning that areas burned by karhutla face higher flood risk because debris can block rivers. (update of E0949)",
+"key_numbers": "BNPB Surat Edaran No. 4/2026 dated 30 Oct 2026 · BPBA: 21,109 people affected by Aceh floods (17 Nov) · five subdistricts at Awas flood status (date not shown)",
+"storyline": "karhutla",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0978",
+"date": "2026-11-19",
+"category": "NEWS",
+"event": "Fact-checkers (Liputan6, Harian Negeri) flagged new hoaxes using President Prabowo's name: free electricity for three months, a plan to restrict Facebook and TikTok, and an old video passed off as Prabowo naming four replacements for Gibran as vice president. (update of E0950)",
+"key_numbers": "Free electricity claim: 450 VA to 2,200 VA, three months (posted 25 Oct) · social media restriction claim (posted 3 Nov) · cawapres video posted 16 Nov, actually from 2023",
+"storyline": "hoax-tracker",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0979",
+"date": "2026-11-19",
+"category": "ENV",
+"event": "The Environment Minister asked that the waters around Ujung Kulon National Park be excluded from mining zones.",
+"key_numbers": "",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
 "id": "E0864",
 "date": "2026-11-20",
 "category": "ECO",
@@ -7747,6 +8027,16 @@
 "key_numbers": "Q2 2026 deficit US$0.9 B · release Fri 20 Nov 2026, time not stated",
 "storyline": "rupiah",
 "status": "upcoming",
+"upcoming": true
+},
+{
+"id": "E0975",
+"date": "2026-11-20",
+"category": "NEWS",
+"event": "KPK questioned the head of the Tanjung Emas customs office (Semarang) about containers that were seized.",
+"key_numbers": "",
+"storyline": "corruption-cases",
+"status": "partial",
 "upcoming": true
 },
 {

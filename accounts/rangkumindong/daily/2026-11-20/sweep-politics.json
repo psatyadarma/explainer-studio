@@ -1,0 +1,363 @@
+{
+ "area": "politics",
+ "run_date": "2026-11-20",
+ "checked": [
+  "Detik news index (stale ~18 Nov, relative times)",
+  "CNN Indonesia nasional (19 Nov, full)",
+  "ANTARA politik (19 Nov)",
+  "Tempo politik (robots blocked)",
+  "ANTARA hukum (not fetched)",
+  "Watch list found: DPR RUU (Perampasan Aset), Polri big case (Listyo), Istana/Wapres (VP replacement), KPU/DKPP, party moves (PPP), MK petition, Prabowo foreign trips",
+  "Storyline searches: gibran-ijazah-mk, listyo-sigit-penyadapan, corruption-cases (KPK Djarum), tentara-bayaran-rusia, pengadaan-480t, definisi-korupsi"
+ ],
+ "events": [
+  {
+   "date": "2026-11-19",
+   "category": "POL",
+   "event": "The DPR plenary led by Speaker Puan Maharani enacted the Asset Forfeiture Law (UU Perampasan Aset) after all factions agreed, ending a process that began in 2008.",
+   "key_numbers": "Drafting since 2008 (18 years) · 361 of 573 members attended/signed in · Komisi III tingkat I approval 18 Nov, no factional notes · covers corruption, narcotics, terrorism financing, trafficking, IT-based fraud · conviction-based and non-conviction-based forfeiture · special agency formed by the President",
+   "storyline": "corruption-cases",
+   "update_of": "E0923",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/nasional/20261119104313-32-1428898/dpr-resmi-sahkan-ruu-perampasan-aset-jadi-undang-undang"
+    },
+    {
+     "label": "Kompas.id",
+     "url": "https://www.kompas.id/artikel/dpr-sahkan-uu-perampasan-aset-penantian-18-tahun-berakhir"
+    },
+    {
+     "label": "DPR RI",
+     "url": "https://www.dpr.go.id/kegiatan-dpr/berita/DPR-Sahkan-RUU-Perampasan-Aset-Habiburokhman-Instrumen-Baru-Pemulihan-Kerugian-Negara-dan-Korban-70760"
+    }
+   ],
+   "why_it_matters": "A law that lets the state seize assets from crime proceeds, even without a conviction, is finally in place after 18 years.",
+   "signals": {
+    "spreading": 2,
+    "wallet": 1,
+    "surprise": 2,
+    "visual": 2,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "CNN Indonesia nasional top items 19 Nov; reported by Kompas.id, ANTARA, IDN Times",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-19",
+   "category": "POL",
+   "event": "DPR left the illicit enrichment (unexplained wealth) provision out of the Asset Forfeiture Law, and ICW criticised the House for avoiding it.",
+   "key_numbers": "Illicit enrichment not included in the enacted law (headline-level; details not opened)",
+   "storyline": "corruption-cases",
+   "update_of": "",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/nasional/20261119153017-12-1429049/dpr-tak-masukkan-illicit-enrichment-di-uu-perampasan-aset"
+    },
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/nasional/20261119143524-12-1429022/icw-sentil-dpr-takut-atur-illicit-enrichment-di-uu-perampasan-aset"
+    }
+   ],
+   "why_it_matters": "Officials whose wealth cannot be explained may still escape the new law, which is the main criticism from anti-corruption groups.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 2
+   },
+   "spreading_evidence": "two CNN Indonesia items on 19 Nov",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-19",
+   "category": "POL",
+   "event": "Polri set a new Perpol mechanism under which Listyo Sigit's ethics hearing can be chaired by a lower-ranking officer, and said the hearing will be held next week; two co-suspect generals were already dismissed (PTDH) by ethics panels.",
+   "key_numbers": "Ahrie Sonta: KKEP hearing 10 Nov, PTDH · Eko Hadi Santoso: KKEP hearing 17 Nov, PTDH · Listyo hearing 'pekan depan' (date and chair not announced; 24 Nov mentioned by Bangkapos) · panel members may be one level higher, equal, or at most two levels below the accused (Perpol 4/2026 Pasal 42) · Slamet Uliandi not detained (health)",
+   "storyline": "listyo-sigit-penyadapan",
+   "update_of": "E0761",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "Detik",
+     "url": "https://news.detik.com/berita/d-8757575/digelar-pekan-depan-siapa-yang-akan-pimpin-sidang-etik-listyo-sigit"
+    },
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/nasional/20261119085323-12-1428838/aturan-baru-sidang-etik-listyo-bisa-diadili-oleh-pangkat-lebih-rendah"
+    },
+    {
+     "label": "Kompas.id",
+     "url": "https://www.kompas.id/artikel/sidang-etik-listyo-sigit-digelar-minggu-depan-timsus-dalami-dugaan-makar"
+    }
+   ],
+   "why_it_matters": "A former police chief faces an ethics trial and critics ask whether a lower-ranking officer can fairly judge him.",
+   "signals": {
+    "spreading": 2,
+    "wallet": 0,
+    "surprise": 2,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "CNN Indonesia nasional 19 Nov (2 items); Detik, Jawapos, Liputan6",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-11-19",
+   "category": "POL",
+   "event": "Defense Minister Sjafrie visited DPR leaders and met Dasco, then denied discussing the vice-presidential slot, while support for Dasco as Gibran's replacement keeps growing.",
+   "key_numbers": "MPR plenary to elect VP: Wed 9 Dec 2026 (moved from 2 Dec on 16 Nov) · 2 names from Prabowo, MPR has up to 60 days · MPR formed two 36-member teams (verification, ad hoc) · no candidate officially named",
+   "storyline": "gibran-ijazah-mk",
+   "update_of": "E0942",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/nasional/20261119152412-32-1429044/temui-dasco-sjafrie-bantah-bahas-isu-cawapres-prabowo"
+    },
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/nasional/20261119142950-32-1429017/menhan-sjafrie-sambangi-pimpinan-dpr-di-tengah-geliat-bursa-wapres"
+    },
+    {
+     "label": "Radar Banyuwangi (Jawapos)",
+     "url": "https://radarbanyuwangi.jawapos.com/nasional/2611180056/prabowo-punya-dua-nama-mpr-siapkan-sidang-penentuan-wapres-pengganti-gibran"
+    }
+   ],
+   "why_it_matters": "Who becomes the next Vice President will be decided by the MPR in three weeks, and names are being floated now.",
+   "signals": {
+    "spreading": 2,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "4 CNN Indonesia nasional items on 19 Nov on the VP slot",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-11-19",
+   "category": "POL",
+   "event": "DPR Deputy Speaker Dasco denied allegations that he is involved in online gambling and data dissemination.",
+   "key_numbers": "Details not opened (ANTARA video headline only)",
+   "storyline": "gibran-ijazah-mk",
+   "update_of": "",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "ANTARA",
+     "url": "https://www.antaranews.com/video/5863563/dasco-bantah-tudingan-terlibat-judi-online-dan-penyebaran-data"
+    }
+   ],
+   "why_it_matters": "Allegations hit the politician most often named as the next Vice President.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 0,
+    "surprise": 2,
+    "visual": 0,
+    "fresh": 2,
+    "rivals": 2
+   },
+   "spreading_evidence": "ANTARA politik page, 19 Nov",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-11-19",
+   "category": "POL",
+   "event": "DKPP is merging four ethics cases against KPU members over the 'Pasal Gibran' issue into a single hearing.",
+   "key_numbers": "4 ethics cases merged into 1 hearing (headline only; hearing date not seen)",
+   "storyline": "gibran-ijazah-mk",
+   "update_of": "",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/nasional/20261119172005-12-1429109/dkpp-gabung-sidang-empat-kasus-etik-anggota-kpu-terkait-pasal-gibran"
+    }
+   ],
+   "why_it_matters": "Election officials face an ethics hearing over the rule that enabled Gibran's candidacy.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 0,
+    "fresh": 2,
+    "rivals": 2
+   },
+   "spreading_evidence": "CNN Indonesia nasional 19 Nov",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-11-19",
+   "category": "POL",
+   "event": "A petition at the Constitutional Court challenges the minimum age for presidential and vice-presidential candidates and proposes a minimum of 19 years.",
+   "key_numbers": "Proposed minimum age: 19 (headline only; current limit and petitioner not seen)",
+   "storyline": "",
+   "update_of": "",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/nasional/20261119143311-32-1429018/syarat-usia-capres-cawapres-digugat-ke-mk-usul-batas-minimal-19-tahun"
+    }
+   ],
+   "why_it_matters": "The age rule that let Gibran run is being tested again, now in the opposite direction.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 0,
+    "surprise": 2,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 2
+   },
+   "spreading_evidence": "CNN Indonesia nasional 19 Nov",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-19",
+   "category": "POL",
+   "event": "PPP Secretary-General Taj Yasin said he has not received an official letter about his removal from the post.",
+   "key_numbers": "Details not opened (headline only; who ordered removal not seen)",
+   "storyline": "",
+   "update_of": "",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/nasional/20261119172240-32-1429110/dicopot-dari-sekjen-ppp-taj-yasin-ngaku-belum-terima-surat-dpp"
+    }
+   ],
+   "why_it_matters": "A party shake-up inside PPP; relevant mainly to politics followers.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 0,
+    "fresh": 2,
+    "rivals": 2
+   },
+   "spreading_evidence": "CNN Indonesia nasional 19 Nov",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-17",
+   "category": "POL",
+   "event": "Komisi XI member Misbakhun said a Presidential Decree (Keppres) already converts LKPP into the Government Goods and Services Procurement Agency, and Komisi XI is preparing a public procurement bill.",
+   "key_numbers": "Said at Baleg consultation 17 Nov 2026 · decree number and date not given · Komisi XI audience with LKPP 29 Oct · bill timeline not given · no monetary figures in the article",
+   "storyline": "pengadaan-480t",
+   "update_of": "",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "CNBC Indonesia",
+     "url": "https://www.cnbcindonesia.com/news/20261118082915-4-786142/lkpp-bakal-berubah-jadi-badan-prabowo-terbitkan-keppres"
+    }
+   ],
+   "why_it_matters": "Follow-up to Prabowo's Rp480T 'hangus' claim: the single procurement agency he asked for is taking shape, but the Keppres itself is not yet public.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 1,
+    "surprise": 1,
+    "visual": 1,
+    "fresh": 1,
+    "rivals": 2
+   },
+   "spreading_evidence": "",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-18",
+   "category": "ECO",
+   "event": "President Prabowo witnessed signings of Indonesia-China deals worth about US$71.8 billion (over Rp1,300 trillion) in Shenzhen, mostly through Danantara.",
+   "key_numbers": "US$71.8 billion (> Rp1,300 T) · smart city ~US$50 B (10 initial locations, Danantara-Shaanxi consortium) · Hisense ~US$10 B · infrastructure financing ~US$10 B (Danantara-SDIC) · coal-to-ethanol US$1.8 B (MoU, Pertamina) · construction of smart city 'early next year' (Rosan)",
+   "storyline": "",
+   "update_of": "",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "ANTARA",
+     "url": "https://www.antaranews.com/berita/5863251/prabowo-saksikan-ri-china-sepakati-kerja-sama-bernilai-rp1300-triliun"
+    }
+   ],
+   "why_it_matters": "A huge headline number; whether it is real investment or MoUs, and who pays, is what viewers will ask.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 1,
+    "surprise": 2,
+    "visual": 2,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "ANTARA Top News 19 Nov",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-19",
+   "category": "POL",
+   "event": "President Prabowo sat next to Russian President Putin at the APEC gala dinner, per ANTARA.",
+   "key_numbers": "Gala dinner seating; exact date not stated in the headline (reported 19 Nov)",
+   "storyline": "",
+   "update_of": "",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "ANTARA",
+     "url": "https://www.antaranews.com/berita/5863863/presiden-prabowo-duduk-di-samping-putin-saat-jamuan-makan-malam-apec"
+    }
+   ],
+   "why_it_matters": "Prabowo's diplomacy, with Putin and Xi in the same week, draws attention given the Russian mercenary recruitment cases.",
+   "signals": {
+    "spreading": 2,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 2,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "ANTARA politik page top, 19 Nov (video + article)",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-19",
+   "category": "NEWS",
+   "event": "Makassar District Court ruled for PT Hadji Kalla in a 16-hectare land dispute involving Jusuf Kalla.",
+   "key_numbers": "16 hectares (headline only; opposing party and case number not seen)",
+   "storyline": "",
+   "update_of": "",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/nasional/20261119141736-12-1429012/gugatan-sengketa-lahan-16-hektare-pengadilan-menangkan-jusuf-kalla"
+    }
+   ],
+   "why_it_matters": "A high-profile land case in Makassar, with a former Vice President's family company.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 2
+   },
+   "spreading_evidence": "CNN Indonesia nasional 19 Nov",
+   "sensitivity": "high"
+  }
+ ],
+ "gaps": [
+  "Several CNN items (DKPP, Taj Yasin, MK age petition, illicit enrichment, Dasco) are headline-level only; article fetches were blocked",
+  "Yusril saying the wiretapping-makar link is 'makin nyata' and Bareskrim searches of posko (Detik, ~18-19 Nov) not opened; relates to E0940",
+  "KPK Djarum probe: no new suspect or search found since 12 Nov witness questioning; tentara-bayaran-rusia and definisi-korupsi: no new development found",
+  "Ethics hearing date for Listyo unconfirmed (24 Nov per Bangkapos only)",
+  "APEC gala dinner date unclear; Tempo not readable",
+  "Detik index looked about a day stale; no 20 Nov headlines seen"
+ ]
+}

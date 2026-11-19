@@ -1,0 +1,63 @@
+{
+  "area": "markets",
+  "run_date": "2026-11-20",
+  "checked": ["cnbcindonesia market (section page blocked; read via search results and one article)", "bisnis market (article fetch failed; search snippets only)", "detik finance (search only)", "antaranews ekonomi (not reached)", "IHSG close 19 Nov", "rupiah close 19 Nov", "BI rate hike aftermath", "Fed minutes", "BoP Q3 2026 (already known E0864, no result yet)", "MSCI storyline (no new items found)", "rupiah storyline"],
+  "events": [
+    {
+      "date": "2026-11-19",
+      "category": "MKT",
+      "event": "The IHSG closed down 1.02% at 5,194.14 on 19 November, a second straight day of losses after Bank Indonesia's rate hike, with CNBC Indonesia also citing hawkish Fed minutes.",
+      "key_numbers": "Close 5,194.14 (-53.74 pts, -1.02%) · open 5,232.39 · intraday low 5,152.41 · value Rp7.42 trillion · 216.54 million lots · previous close 5,247.88 (18 Nov)",
+      "storyline": "msci-reclassification",
+      "update_of": "E0918",
+      "status": "verified",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/market/20261119155231-17-786678/ihsg-berakhir-di-zona-merah-melemah-102-ke-level-519414"},
+        {"label": "Owrite", "url": "https://www.owrite.id/ekbis/2026/11/19/rupiah-ditutup-melemah-rp18-254-per-dolar-as-ihsg-merosot-102-persen/"}
+      ],
+      "why_it_matters": "The index is sliding back toward 5,100 even after BI raised rates to defend the rupiah, which hits stock investors' portfolios.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 0},
+      "spreading_evidence": "Covered by CNBC Indonesia, RRI, Suara, Balipost and others",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-19",
+      "category": "MKT",
+      "event": "The rupiah closed weaker at Rp18,254 per US dollar on 19 November, reversing part of the previous day's gain after the BI rate hike, while foreigners net sold big bank stocks.",
+      "key_numbers": "Rupiah Rp18,254/USD (-0.12%) · previous close Rp18,232 (18 Nov) · foreign net sell BBRI ~Rp322.77 billion · BMRI ~Rp145.42 billion · TLKM ~Rp126.97 billion · BI Rate 6.00% (+25 bps)",
+      "storyline": "rupiah",
+      "update_of": "E0919",
+      "status": "partial",
+      "sources": [
+        {"label": "Owrite", "url": "https://www.owrite.id/ekbis/2026/11/19/rupiah-ditutup-melemah-rp18-254-per-dolar-as-ihsg-merosot-102-persen/"},
+        {"label": "CNBC Indonesia (video)", "url": "https://www.cnbcindonesia.com/market/20261119121322-19-786588/video-bi-rate-naik-jadi-6-ihsg-volatil-rupiah-masih-melemah"}
+      ],
+      "why_it_matters": "A rate hike did not stop the rupiah from weakening, so imports, fuel and loan costs stay under pressure.",
+      "signals": {"spreading": 1, "wallet": 2, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-19",
+      "category": "GLB",
+      "event": "Minutes of the US Federal Reserve's October meeting showed concern about inflation and the possibility of rate hikes of up to 50 basis points, per CNBC Indonesia.",
+      "key_numbers": "Fed funds range 3.75%-4.00% (per Owrite) · possible hike up to 50 bps · UK October inflation 3.6% y/y · Japan October trade deficit JPY476.5 billion",
+      "storyline": "rupiah",
+      "update_of": "E0828",
+      "status": "partial",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/market/20261119155231-17-786678/ihsg-berakhir-di-zona-merah-melemah-102-ke-level-519414"}
+      ],
+      "why_it_matters": "A Fed leaning toward hikes strengthens the dollar and makes it harder for the rupiah to recover.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 0, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    }
+  ],
+  "gaps": [
+    "cnbcindonesia.com/market section page blocked (permission not answered); bisnis article fetch failed; detik/antara not read, so no section-page headline scan of 20 Nov",
+    "BI Q3 2026 Balance of Payments due 20 Nov not yet found (known E0864)",
+    "No new MSCI, OJK, BPS, PHK, Danantara or earnings items found; search index lags past 19 Nov",
+    "Fed minutes detail (50 bps hike talk) comes from one CNBC line and should be checked against Reuters/Fed"
+  ]
+}

@@ -1,0 +1,227 @@
+{
+ "area": "business",
+ "run_date": "2026-11-20",
+ "checked": [
+  "detik inet business page",
+  "CNN Indonesia teknologi page",
+  "CNBC Indonesia tech forum page (stale, May)",
+  "Katadata digital (via articles)",
+  "bisnis.com teknologi (fetch failed)",
+  "dailysocial (not reached)",
+  "storyline search chip-ram-prices",
+  "storyline search crypto-hacks (no new Nov 19-20 items found)",
+  "storyline search online-scams (OJK items older)",
+  "watch list found: Nvidia/AI chips, Komdigi vs Google, GTA VI price, hacks (IKEA/Zoom/iPhone), consumer gadget prices"
+ ],
+ "events": [
+  {
+   "date": "2026-11-19",
+   "category": "TECH",
+   "event": "Anthropic completed a record IPO, reportedly raising about US$81 billion at US$83 per share, according to detikINET citing the BBC.",
+   "key_numbers": "US$81 billion raised (about Rp1,478 trillion) · US$83 per share vs US$70-78 range · valuation about US$1.5 trillion · demand over 10x shares · extra US$26 billion private placement to tech firms incl. Nvidia (S-1 terms: Google 10, Nvidia 10, AMD 2.5, Broadcom 1, Micron 1, Microsoft 1, TSMC Partners 0.5, US$ billion) · filing had sought up to US$64.4 billion at the top of the range, Nasdaq ticker ANT",
+   "storyline": "ai-ipo",
+   "update_of": "",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "detikINET",
+     "url": "https://inet.detik.com/business/d-8760593/ipo-raksasa-ai-anthropic-raup-rekor-rp-1-478-triliun"
+    },
+    {
+     "label": "Let's Data Science (S-1 terms)",
+     "url": "https://letsdatascience.com/blog/seven-tech-giants-buy-26-billion-anthropic-ipo-shrank"
+    }
+   ],
+   "why_it_matters": "Largest tech IPO on record shows how much money is flowing into AI, the same wave pushing up chip and RAM prices.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 0,
+    "surprise": 2,
+    "visual": 2,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "detikINET business top story #1",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-18",
+   "category": "TECH",
+   "event": "Nvidia reported fiscal Q3 FY2027 results beating expectations and guided Q4 revenue excluding China data-centre compute, while interim CEO Colette Kress leads after Jensen Huang's resignation.",
+   "key_numbers": "Revenue US$115.8 billion (+103% y/y) vs about US$108.7 billion expected · data centre US$107.6 billion (+110% y/y) · Q4 guidance about US$130 billion +/-3% excluding China · gross margin guided 71-72% · results published 17 Nov US time",
+   "storyline": "ai-data-centres",
+   "update_of": "E0839",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "Constellation Research",
+     "url": "https://www.constellationr.com/insights/news/nvidia-posts-strong-q3-ups-q4-outlook-amid-huang-resignation"
+    },
+    {
+     "label": "Newsquawk",
+     "url": "https://www.newsquawk.com/headlines/nvidia-corporation-nvda-q3-fy27-usd-adj-eps-268-exp-248-revenue-1158bln-exp-109bln"
+    }
+   ],
+   "why_it_matters": "Nvidia's numbers are the scoreboard for the AI-chip boom that is tightening supply of memory and GPUs for everyone.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 0,
+    "surprise": 2,
+    "visual": 2,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "detikINET business feed has about 10 Nvidia/Huang stories",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-11-19",
+   "category": "TECH",
+   "event": "CNN Indonesia reported Nvidia has stopped supplying chips to China in the wake of the Jensen Huang scandal (headline only; article could not be opened).",
+   "key_numbers": "Q4 guidance excludes China data-centre compute (Nvidia results, 17 Nov) · details of scope not verified",
+   "storyline": "ai-data-centres",
+   "update_of": "E0876",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/teknologi/20261119075750-185-1428814/imbas-skandal-jensen-huang-nvidia-stop-pasokan-chip-ke-china"
+    }
+   ],
+   "why_it_matters": "A halt to China sales could reshape global chip supply and prices.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 1,
+    "surprise": 2,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-11-19",
+   "category": "TECH",
+   "event": "A hacker calling themselves The Gentleman claimed to have breached Nvidia and threatened to leak company data (claim only; headline seen, article could not be opened).",
+   "key_numbers": "Claim by hacker, not confirmed by Nvidia in the headline · data volume and deadline not verified",
+   "storyline": "ai-data-centres",
+   "update_of": "",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/teknologi/20261119084230-185-1428833/hacker-the-gentleman-klaim-bobol-nvidia-ancam-sebar-data-perusahaan"
+    }
+   ],
+   "why_it_matters": "Unverified breach claim at the most valuable chipmaker, in the middle of its leadership crisis.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 0,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-11-19",
+   "category": "TECH",
+   "event": "Komdigi questioned the basis for Google's removal of YouTube channels linked to influence operations in Indonesia, after Google's bulletins showed large takedowns.",
+   "key_numbers": "23,827 Indonesia-linked YouTube channels removed Jan-Sep 2026 (Q1 3,598 · Q2 840 · Q3 19,389) per Google bulletins via Katadata (17 Nov) · most promoted pro-government content, some criticised government and parties · detik headline cites 19 thousand channels",
+   "storyline": "",
+   "update_of": "",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "Katadata",
+     "url": "https://katadata.co.id/digital/teknologi/6afc2a52cf362/google-hapus-hampir-24-ribu-kanal-youtube-sebarkan-konten-pro-pemerintah-ri"
+    },
+    {
+     "label": "detikINET (headline, most popular list)",
+     "url": "https://inet.detik.com/cyberlife/d-8760670/komdigi-pertanyakan-dasar-google-tutup-19-ribu-kanal-youtube"
+    },
+    {
+     "label": "CNN Indonesia (headline)",
+     "url": "https://www.cnnindonesia.com/teknologi/20261119195039-185-1429183/komdigi-respons-laporan-google-tutup-19-ribu-kanal-buzzer-di-youtube"
+    }
+   ],
+   "why_it_matters": "Shows how large organised buzzer networks are on Indonesian social media and that the government is pushing back on the takedown.",
+   "signals": {
+    "spreading": 2,
+    "wallet": 0,
+    "surprise": 2,
+    "visual": 2,
+    "fresh": 2,
+    "rivals": 2
+   },
+   "spreading_evidence": "detikINET most popular list (Komdigi/Google)",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-11-19",
+   "category": "TECH",
+   "event": "GTA VI was released on PS5 and Xbox, priced from about Rp1.3 million in Indonesia and needing about 212 GB of storage, with Indonesian players able to play earlier than the US.",
+   "key_numbers": "From Rp1.3 million (CNN Indonesia) · 212 GB storage · released 19 Nov 2026 · exact price per edition not verified (headline only)",
+   "storyline": "",
+   "update_of": "E0879",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/teknologi/20261119152820-189-1429047/gta-vi-resmi-hadir-di-ps5-dan-xbox-dibanderol-mulai-rp13-juta"
+    },
+    {
+     "label": "CNN Indonesia (storage)",
+     "url": "https://www.cnnindonesia.com/teknologi/20261119084808-185-1428834/gta-vi-rilis-siapkan-uang-rp13-juta-dan-storage-212-gb-untuk-main"
+    }
+   ],
+   "why_it_matters": "The biggest game release ever lands with a price and a 212 GB download many gamers must budget for, amid rising storage and RAM costs.",
+   "signals": {
+    "spreading": 2,
+    "wallet": 1,
+    "surprise": 1,
+    "visual": 2,
+    "fresh": 2,
+    "rivals": 0
+   },
+   "spreading_evidence": "CNN Indonesia teknologi 5+ GTA VI stories same day",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-19",
+   "category": "TECH",
+   "event": "Loops Eargo, a USB-C earphone priced at Rp59,000, was released in Indonesia and made detikINET's most-read list (headline only).",
+   "key_numbers": "Rp59 thousand price · USB-C earphones",
+   "storyline": "",
+   "update_of": "",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "detikINET",
+     "url": "https://inet.detik.com/consumer/d-8760795/loops-eargo-rilis-di-indonesia-earphone-usb-c-harga-rp-59-ribu"
+    }
+   ],
+   "why_it_matters": "A cheap everyday gadget price point readers clicked on.",
+   "signals": {
+    "spreading": 2,
+    "wallet": 1,
+    "surprise": 0,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 2
+   },
+   "spreading_evidence": "detikINET most popular #1",
+   "sensitivity": "normal"
+  }
+ ],
+ "gaps": [
+  "Articles blocked/unfetched (permission): CNN Indonesia Nvidia China stop, Nvidia hacker claim, Komdigi/Google 19k, GTA VI price detail; items rest on headlines",
+  "Anthropic IPO: detik figures (US$81B, US$83) conflict with S-1 terms (up to US$64.4B); needs second source",
+  "Not covered: Google AI hackers; IKEA/Zoom hacked, iPhone users targeted (18 Nov); Intel shareholder lawsuit; Microsoft Windows 11 remote lock; OJK blocked 743,589 accounts (5 Nov)",
+  "Merah Putih chip: already E0905; launched 11 Nov at KSTI ITS, no specs/budget disclosed",
+  "cnbcindonesia/bisnis/dailysocial section pages not readable or stale; no Tuesday-style 5+ minimum issue"
+ ]
+}
