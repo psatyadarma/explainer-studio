@@ -1,0 +1,52 @@
+{
+ "direction": "[clear, steady weekly recap; neutral, attributed]",
+ "lines": [
+  {
+   "id": "c1",
+   "tag": "[warm, storytelling]",
+   "text": "Misalnya Pak Budi. Cicilan rumahnya masih belasan tahun lagi. Rabu siang, dia dengar kabar: bunga acuan naik."
+  },
+  {
+   "id": "c2",
+   "tag": "[explaining]",
+   "text": "Bank Indonesia menaikkan BI-Rate 0,25 poin, dari 5,75 jadi 6 persen. Kata BI, untuk menjaga rupiah dan mengendalikan inflasi.",
+   "say": "Bank Indonesia menaikkan Bi Rate, nol koma dua lima poin, dari lima koma tujuh lima, jadi enam persen. Kata Be I, untuk menjaga rupiah dan mengendalikan inflasi."
+  },
+  {
+   "id": "c3",
+   "tag": "[matter-of-fact]",
+   "text": "Ini bukan kejutan total. Sebelumnya, dari 32 ekonom yang disurvei Bloomberg, 11 memperkirakan naik. Kebanyakan memperkirakan tahan.",
+   "say": "Ini bukan kejutan total. Sebelumnya, dari tiga puluh dua ekonom yang disurvei Bloomberg, sebelas memperkirakan naik. Kebanyakan memperkirakan tahan."
+  },
+  {
+   "id": "c4",
+   "tag": "[explaining]",
+   "text": "Reaksinya? Rabu, rupiah menguat sedikit ke Rp18.232 per dolar. Kamis, melemah lagi ke Rp18.254.",
+   "say": "Reaksinya? Rabu, rupiah menguat sedikit, ke delapan belas ribu dua ratus tiga puluh dua per dolar. Kamis, melemah lagi, ke delapan belas ribu dua ratus lima puluh empat."
+  },
+  {
+   "id": "c5",
+   "tag": "[matter-of-fact]",
+   "text": "IHSG malah turun dua hari berturut-turut: minus 1,07 persen Rabu, minus 1,02 persen Kamis, ke 5.194.",
+   "say": "I H S G malah turun dua hari berturut-turut: minus satu koma nol tujuh persen Rabu, minus satu koma nol dua persen Kamis, ke lima ribu seratus sembilan puluh empat."
+  },
+  {
+   "id": "c6",
+   "tag": "[leaning in]",
+   "text": "Kenapa? Selain bunga BI, kata analis, pejabat The Fed memberi sinyal bunga AS bisa naik lagi untuk meredam inflasi.",
+   "say": "Kenapa? Selain bunga Be I, kata analis, pejabat The Fed memberi sinyal bunga Amerika bisa naik lagi, untuk meredam inflasi."
+  },
+  {
+   "id": "c7",
+   "tag": "[reassuring]",
+   "text": "Lalu cicilan Pak Budi? Kenaikan BI-Rate bisa ikut menaikkan bunga kredit, termasuk KPR. Tapi biasanya tidak langsung, dan tergantung bank serta jenis bunganya.",
+   "say": "Lalu cicilan Pak Budi? Kenaikan Bi Rate bisa ikut menaikkan bunga kredit, termasuk, Ka Pe Er. Tapi biasanya tidak langsung, dan tergantung bank, serta jenis bunganya."
+  },
+  {
+   "id": "c8",
+   "tag": "[calm]",
+   "text": "Ingat, ini bukan ajakan jual atau beli saham."
+  }
+ ],
+ "tail": 0.6
+}

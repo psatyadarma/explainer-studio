@@ -1,0 +1,47 @@
+{
+ "direction": "[clear, steady weekly recap; neutral, attributed]",
+ "lines": [
+  {
+   "id": "g0",
+   "tag": "[friendly]",
+   "text": "Cek janji minggu lalu: rapat BI memang memutuskan Rabu, bunga naik ke 6 persen. Tenggat nama wapres 18 November? Bergeser, karena paripurnanya mundur.",
+   "say": "Cek janji minggu lalu: rapat Be I memang memutuskan Rabu, bunga naik ke enam persen. Tenggat nama wapres delapan belas November? Bergeser, karena paripurnanya mundur."
+  },
+  {
+   "id": "g1",
+   "tag": "[friendly, brisk]",
+   "text": "Oke, minggu depan. Catat tanggalnya."
+  },
+  {
+   "id": "g2",
+   "tag": "[clear]",
+   "text": "Hari ini, Sabtu 21 November: batas akhir gubernur menetapkan UMP 2027, kata Menaker. UMK, paling lambat Rabu, 25 November.",
+   "say": "Hari ini, Sabtu dua puluh satu November: batas akhir gubernur menetapkan U Em Pe dua ribu dua puluh tujuh, kata Menaker. U Em Ka, paling lambat Rabu, dua puluh lima November."
+  },
+  {
+   "id": "g3",
+   "tag": "[clear]",
+   "text": "Senin, 23 November: Danantara berencana merilis laporan keuangan pertamanya, untuk tahun 2025. Tanggalnya masih tentatif.",
+   "say": "Senin, dua puluh tiga November: Danantara berencana merilis laporan keuangan pertamanya, untuk tahun dua ribu dua puluh lima. Tanggalnya masih tentatif."
+  },
+  {
+   "id": "g4",
+   "tag": "[clear]",
+   "text": "23 November juga akhir masa penahanan Listyo saat ini, kata Kapolri. Bisa diperpanjang. Lalu sidang etiknya, kata Polri, pekan depan. Tanggal resminya belum diumumkan.",
+   "say": "Dua puluh tiga November juga akhir masa penahanan Listyo saat ini, kata Kapolri. Bisa diperpanjang. Lalu sidang etiknya, kata Polri, pekan depan. Tanggal resminya belum diumumkan."
+  },
+  {
+   "id": "g5",
+   "tag": "[leaning in]",
+   "text": "Dan ini tanggal yang kami janjikan di awal: Rabu, 25 November. Batas dua nama calon wapres masuk ke MPR, 14 hari sebelum paripurna 9 Desember.",
+   "say": "Dan ini tanggal yang kami janjikan di awal: Rabu, dua puluh lima November. Batas dua nama calon wapres masuk ke, Em Pe Er, empat belas hari sebelum paripurna sembilan Desember."
+  },
+  {
+   "id": "g6",
+   "tag": "[clear]",
+   "text": "Satu lagi buat nasabah BNI: akses BNI Mobile Banking ditutup bertahap sampai 30 November, dan layanannya berhenti total 21 Desember. Penggantinya, wondr by BNI.",
+   "say": "Satu lagi buat nasabah, Be En I: akses Be En I Mobile Banking ditutup bertahap sampai tiga puluh November, dan layanannya berhenti total dua puluh satu Desember. Penggantinya, wonder bai Be En I."
+  }
+ ],
+ "tail": 0.6
+}

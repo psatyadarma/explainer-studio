@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Rangkumin Seminggu — chapter</title>
+<link rel="stylesheet" href="../../../../../../styles/sticker/sticker.css">
+<link rel="stylesheet" href="../../../../../../styles/sticker/weekly/weekly.css">
+<script src="../../../../../../styles/sticker/sticker.js"></script>
+<script src="build/timing.js"></script>
+<script src="../../build/week.js"></script>
+<script src="../../../../../../styles/sticker/weekly/weekly.js"></script>
+<style>
+  .it { position:absolute; transform:translate(-50%,-50%); opacity:0; width:max-content; max-width:1600px; box-sizing:border-box; }
+  .nw { white-space:nowrap; }
+  .big { font-weight:900; font-size:116px; letter-spacing:-4px; line-height:1.02; text-align:center; white-space:nowrap; }
+  .big .acc, .hd .acc, .card .acc { color:var(--accent); }
+  .hd { font-weight:900; font-size:66px; letter-spacing:-1.5px; text-align:center; white-space:nowrap; }
+  .stat { font-weight:900; font-size:230px; letter-spacing:-9px; color:var(--accent); line-height:1; white-space:nowrap; }
+  .stat.ink { color:var(--ink); } .stat.slate { color:var(--slate); }
+  .lab { font-weight:800; font-size:44px; color:var(--slate); text-align:center; white-space:nowrap; }
+  .card { background:#fff; border-radius:28px; padding:28px 42px; text-align:center; font-weight:900; font-size:54px; line-height:1.15;
+          box-shadow:0 0 0 9px #fff,0 18px 26px rgba(27,36,48,.22); }
+  .card small { display:block; font-weight:700; font-size:32px; color:var(--slate); margin-top:10px; line-height:1.25; }
+  .card .q { font-weight:800; font-size:30px; color:var(--slate); margin-bottom:10px; text-align:left; }
+  .card.quote { text-align:left; border-left:16px solid var(--accent); }
+  .card.ink { background:var(--ink); color:#fff; box-shadow:0 0 0 9px #fff,0 18px 26px rgba(27,36,48,.22); }
+  .card.ink small { color:#c9d3dc; }
+  .card.dim { color:var(--slate); }
+  .chip { background:var(--ink); color:#fff; font-weight:800; font-size:48px; padding:16px 30px; border-radius:18px; white-space:nowrap;
+          box-shadow:0 0 0 8px #fff,0 14px 22px rgba(27,36,48,.2); }
+  .chip.acc { background:var(--accent); } .chip.light { background:#fff; color:var(--ink); } .chip.hi { background:var(--hi); color:var(--ink); }
+  .stamp { background:var(--accent); color:#fff; font-weight:900; font-size:84px; letter-spacing:-2px; padding:12px 34px; border-radius:18px;
+           white-space:nowrap; box-shadow:0 0 0 9px #fff,0 18px 26px rgba(27,36,48,.22); }
+  .stamp.ink { background:var(--ink); }
+  .arrow { font-weight:900; font-size:120px; color:var(--accent); line-height:1; }
+  .cal { width:300px; background:#fff; border-radius:26px; overflow:hidden; text-align:center; box-shadow:0 0 0 9px #fff,0 18px 26px rgba(27,36,48,.22); }
+  .cal .d { background:var(--accent); color:#fff; font-weight:900; font-size:40px; padding:12px 0; letter-spacing:2px; }
+  .cal.ink .d { background:var(--ink); }
+  .cal .n { font-weight:900; font-size:150px; letter-spacing:-6px; line-height:1.05; padding-top:6px; }
+  .cal .m { font-weight:800; font-size:40px; color:var(--slate); padding-bottom:18px; letter-spacing:2px; }
+  .cal.sm { width:220px; } .cal.sm .n { font-size:104px; } .cal.sm .d, .cal.sm .m { font-size:32px; }
+  .strike { height:16px; background:var(--accent); border-radius:8px; }
+  .dots { display:grid; gap:18px; }
+  .dots i { display:block; border-radius:50%; background:rgba(62,85,104,.25); }
+  .dots i.on { background:var(--accent); }
+  .dots.ov i { background:transparent; } .dots.ov i.on { background:var(--accent); }
+  .person { display:flex; gap:22px; }
+  .person i { display:block; width:70px; height:150px; position:relative; }
+  .person i::before { content:''; position:absolute; left:15px; top:0; width:40px; height:40px; border-radius:50%; background:currentColor; }
+  .person i::after { content:''; position:absolute; left:0; top:48px; width:70px; height:100px; border-radius:35px 35px 12px 12px; background:currentColor; }
+  .phone { width:440px; height:620px; background:var(--ink); border-radius:56px; padding:26px; box-sizing:border-box; box-shadow:0 0 0 9px #fff,0 18px 26px rgba(27,36,48,.22); }
+  .phone .scr { background:#E9E4DA; border-radius:34px; height:100%; padding:30px 22px; box-sizing:border-box; display:flex; flex-direction:column; gap:18px; }
+  .phone .bub { background:#fff; border-radius:22px 22px 22px 6px; padding:20px 22px; font-weight:800; font-size:36px; line-height:1.2; }
+  .phone .who { font-weight:800; font-size:26px; color:var(--slate); }
+  .budi { width:340px; height:453px; }
+  .budi > div { position:absolute; inset:0; }
+  .lower { bottom:auto; top:132px; }
+</style>
+</head>
+<body>
+<!-- ch01. Numbers: 12 Nov, 2 Des, 9 Des, 14 hari, 25 Nov, 8 nama, 2023 (all spoken). -->
+<div id="stage">
+  <div id="world">
+    <div class="it hd" id="e1" style="left:960px;top:302px;">Kursi wapres</div>
+    <div class="it stamp" id="e2" style="left:960px;top:446px;">KOSONG</div>
+    <div class="it chip" id="e3" style="left:960px;top:582px;">sejak Kamis, 12 November</div>
+    <div class="it card" id="e4" style="left:960px;top:718px;">Seminggu kemudian: <span class="acc">belum ada calon resmi</span></div>
+    <div class="it chip acc" id="e5" style="left:2880px;top:294px;">Senin</div>
+    <div class="it card" id="e6" style="left:2440px;top:510px;width:560px">Surat Presiden Prabowo<small>soal pengisian wapres</small></div>
+    <div class="it arrow" id="e7" style="left:2880px;top:510px;">→</div>
+    <div class="it card ink" id="e8" style="left:3300px;top:510px;width:480px">MPR<small>sudah diterima</small></div>
+    <div class="it lab" id="e9" style="left:2880px;top:686px;">kata Ketua MPR Ahmad Muzani</div>
+    <div class="it hd" id="e10" style="left:4800px;top:286px;">Paripurna pemilihan wapres</div>
+    <div class="it x" id="e11" style="left:4380px;top:462px;"><div class="cal ink sm"><div class="d">RABU</div><div class="n">2</div><div class="m">DES</div></div></div>
+    <div class="it strike" id="e12" style="left:4380px;top:462px;width:300px;transform-origin:50% 50%"></div>
+    <div class="it chip hi" id="e13" style="left:4800px;top:462px;">digeser sepekan</div>
+    <div class="it x" id="e14" style="left:5220px;top:462px;"><div class="cal sm"><div class="d">RABU</div><div class="n">9</div><div class="m">DES</div></div></div>
+    <div class="it card quote" id="e15" style="left:4800px;top:734px;width:1300px"><div class="q">Kata Muzani</div>Jadwal Presiden padat, butuh waktu menimbang dua calon.</div>
+    <div class="it hd" id="e16" style="left:6720px;top:286px;">Tenggat dua nama <span class="acc">ikut bergeser</span></div>
+    <div class="it card" id="e17" style="left:6290px;top:510px;width:620px">Paling lambat<br><span class="acc" style="font-size:100px">14 hari</span><small>sebelum paripurna</small></div>
+    <div class="it arrow" id="e18" style="left:6720px;top:510px;">→</div>
+    <div class="it x" id="e19" style="left:7120px;top:510px;"><div class="cal "><div class="d">RABU</div><div class="n">25</div><div class="m">NOV</div></div></div>
+    <div class="it chip" id="e20" style="left:8640px;top:286px;">Waketum Golkar Ahmad Doli Kurnia, Sabtu lalu</div>
+    <div class="it big" id="e21" style="left:8640px;top:422px;"><span class="acc">8</span> nama potensial</div>
+    <div class="it x" id="e22" style="left:8640px;top:566px;"><div class="person"><i style="color:var(--accent)"></i><i style="color:var(--accent)"></i><i style="color:var(--accent)"></i><i style="color:var(--accent)"></i><i style="color:var(--accent)"></i><i style="color:var(--accent)"></i><i style="color:var(--accent)"></i><i style="color:var(--accent)"></i></div></div>
+    <div class="it card" id="e23" style="left:8080px;top:726px;">Puan Maharani</div>
+    <div class="it lab" id="e24" style="left:8640px;top:726px;">…sampai…</div>
+    <div class="it card" id="e25" style="left:9200px;top:726px;">Bahlil Lahadalia</div>
+    <div class="it hd" id="e26" style="left:10560px;top:286px;">Paling sering muncul minggu ini</div>
+    <div class="it card" id="e27" style="left:10560px;top:454px;width:1000px"><span style="font-size:96px;letter-spacing:-3px">Sufmi Dasco Ahmad</span><small>Wakil Ketua DPR · Gerindra</small></div>
+    <div class="it lab" id="e28" style="left:10560px;top:614px;">Dukungan dari:</div>
+    <div class="it chip acc" id="e29" style="left:10230px;top:702px;">sejumlah senator</div>
+    <div class="it chip" id="e30" style="left:10890px;top:702px;">pengurus daerah Gerindra</div>
+    <div class="it card quote" id="e31" style="left:12480px;top:478px;width:1300px;font-size:76px"><div class="q" style="font-size:38px">Kata Dasco sendiri</div>"Mengusulkan nama itu <span class="acc">hak Presiden</span>."</div>
+    <div class="it chip acc" id="e32" style="left:14400px;top:286px;">Kamis, di DPR</div>
+    <div class="it card" id="e33" style="left:14020px;top:462px;width:520px">Menhan Sjafrie</div>
+    <div class="it lab" id="e34" style="left:14400px;top:462px;">menemui</div>
+    <div class="it card" id="e35" style="left:14780px;top:462px;width:520px">Dasco</div>
+    <div class="it card quote" id="e36" style="left:14400px;top:670px;width:1200px"><div class="q">Kata Sjafrie</div>Tidak membahas soal cawapres.</div>
+    <div class="it stamp ink" id="e37" style="left:16320px;top:262px;z-index:3">Hati-hati</div>
+    <div class="it card" id="e38" style="left:16320px;top:446px;width:1250px">Video: Prabowo menyebut empat nama pengganti Gibran<small>beredar minggu ini</small></div>
+    <div class="it lab" id="e39" style="left:16320px;top:598px;">kata pemeriksa fakta:</div>
+    <div class="it stamp" id="e40" style="left:16320px;top:718px;">VIDEO LAMA, DARI 2023</div>
+    <div class="it card" id="e41" style="left:18240px;top:310px;">Sampai Kamis: <span class="acc">belum ada nama resmi</span></div>
+    <div class="it card ink" id="e42" style="left:17800px;top:558px;width:600px">Presiden<small>usulkan dua nama</small></div>
+    <div class="it arrow" id="e43" style="left:18240px;top:558px;">→</div>
+    <div class="it card" id="e44" style="left:18680px;top:558px;width:600px">Anggota MPR<small>yang memilih</small></div>
+  </div>
+  <div id="card"><div class="kicker" id="cKick"></div><div class="title" id="cTitle"></div><div class="sub" id="cSub"></div></div>
+  <div class="lower" id="low0">Ahmad Muzani<small>Ketua MPR</small></div><div class="lower" id="low1">Sufmi Dasco Ahmad<small>Wakil Ketua DPR, Gerindra</small></div>
+  <div id="brand"><div class="dot"></div><b>Rangkumin Dong</b></div>
+  <div id="subs"></div>
+  <div id="progress"></div>
+</div>
+<script>
+window.CHAPTER = Number(location.pathname.split('/').slice(-2)[0]);
+const $ = (id) => document.getElementById(id);
+const T = window.TIMING; window.DURATION = T.duration;
+const ch = (window.WEEK?.chapters || []).find((c) => c.n === window.CHAPTER) || {};
+$('cKick').textContent = ch.kicker || ''; $('cTitle').textContent = ch.title || ''; $('cSub').textContent = window.WEEK?.dates || '';
+const T0 = 2.15;  // nothing pops under the 2 s title card
+const IT = [{id:"e1",tin:(K.at("a1")),tout:Infinity,rot:0},{id:"e2",tin:(K.word("a1","kosong",0)),tout:Infinity,rot:-4},{id:"e3",tin:(K.word("a1","12",0)),tout:Infinity,rot:0},{id:"e4",tin:(K.word("a1","belum",0)),tout:Infinity,rot:1},{id:"e5",tin:(K.at("a2")),tout:Infinity,rot:0},{id:"e6",tin:(K.word("a2","surat",0)),tout:Infinity,rot:-2},{id:"e7",tin:(K.word("a2","diterima",0)),tout:Infinity,rot:0},{id:"e8",tin:(K.word("a2","diterima",0)),tout:Infinity,rot:2},{id:"e9",tin:(K.word("a2","Muzani",0)),tout:Infinity,rot:0},{id:"e10",tin:(K.at("a3")),tout:Infinity,rot:0},{id:"e11",tin:(K.word("a3","dari",0)),tout:Infinity,rot:0},{id:"e12",tin:(K.word("a3","ke",0)),tout:Infinity,rot:-20},{id:"e13",tin:(K.word("a3","sepekan",0)),tout:Infinity,rot:0},{id:"e14",tin:(K.word("a3","9",0)),tout:Infinity,rot:0},{id:"e15",tin:(K.word("a3","Kata",0)),tout:Infinity,rot:0},{id:"e16",tin:(K.at("a4")),tout:Infinity,rot:0},{id:"e17",tin:(K.word("a4","14",0)),tout:Infinity,rot:-1.5},{id:"e18",tin:(K.word("a4","Jadi",0)),tout:Infinity,rot:0},{id:"e19",tin:(K.word("a4","25",0)),tout:Infinity,rot:2},{id:"e20",tin:(K.word("a5","Sabtu",0)),tout:Infinity,rot:0},{id:"e21",tin:(K.word("a5","8",0)),tout:Infinity,rot:0},{id:"e22",tin:(K.word("a5","8",0)+0.3),tout:Infinity,rot:0},{id:"e23",tin:(K.word("a5","Puan",0)),tout:Infinity,rot:-2},{id:"e24",tin:(K.word("a5","sampai",0)),tout:Infinity,rot:0},{id:"e25",tin:(K.word("a5","Bahlil",0)),tout:Infinity,rot:2},{id:"e26",tin:(K.at("a6")),tout:Infinity,rot:0},{id:"e27",tin:(K.word("a6","Sufmi",0)),tout:Infinity,rot:-1},{id:"e28",tin:(K.word("a6","Dukungan",0)),tout:Infinity,rot:0},{id:"e29",tin:(K.word("a6","senator",0)),tout:Infinity,rot:-2},{id:"e30",tin:(K.word("a6","pengurus",0)),tout:Infinity,rot:2},{id:"e31",tin:(K.at("a7")),tout:Infinity,rot:0},{id:"e32",tin:(K.at("a8")),tout:Infinity,rot:0},{id:"e33",tin:(K.word("a8","Menhan",0)),tout:Infinity,rot:-2},{id:"e34",tin:(K.word("a8","menemui",0)),tout:Infinity,rot:0},{id:"e35",tin:(K.word("a8","Dasco",0)),tout:Infinity,rot:2},{id:"e36",tin:(K.word("a8","Kata",0)),tout:Infinity,rot:0},{id:"e37",tin:(K.at("a9")),tout:Infinity,rot:-3},{id:"e38",tin:(K.word("a9","Video",0)),tout:Infinity,rot:1},{id:"e39",tin:(K.word("a9","Kata",0)),tout:Infinity,rot:0},{id:"e40",tin:(K.word("a9","lama",0)),tout:Infinity,rot:-4},{id:"e41",tin:(K.at("a10")),tout:Infinity,rot:0},{id:"e42",tin:(K.word("a10","dua",0)),tout:Infinity,rot:0},{id:"e43",tin:(K.word("a10","dua",0)+0.4),tout:Infinity,rot:0},{id:"e44",tin:(K.word("a10","anggota",0)),tout:Infinity,rot:0}].map((o) => ({...o, tin: Math.max(T0, o.tin), el: $(o.id)}));
+const LOW = [["low0",(K.word("a2","Muzani",0)),(K.at("a3")-0.6)],["low1",(K.word("a6","Sufmi",0)+1.5),(K.at("a7")-0.4)]].map(([id, a, b]) => [$(id), Math.max(T0 + 0.6, a), b]);
+const CAM = [{t:0,x:960,y:540,z:1},{t:(K.at("a2"))-0.35,x:2880,y:540,z:1},{t:(K.at("a3"))-0.35,x:4800,y:540,z:1},{t:(K.at("a4"))-0.35,x:6720,y:540,z:1},{t:(K.at("a5"))-0.35,x:8640,y:540,z:1},{t:(K.at("a6"))-0.35,x:10560,y:540,z:1},{t:(K.at("a7"))-0.35,x:12480,y:540,z:1},{t:(K.at("a8"))-0.35,x:14400,y:540,z:1},{t:(K.at("a9"))-0.35,x:16320,y:540,z:1},{t:(K.at("a10"))-0.35,x:18240,y:540,z:1}];
+IT.forEach((o) => { if (o.budi) o.el.querySelectorAll('[data-ex]').forEach((d) => { d.innerHTML = K.budi(d.dataset.ex); d.classList.add('sticker-svg'); }); });
+const fmt = (v, dec) => v.toLocaleString('id-ID', { minimumFractionDigits: dec, maximumFractionDigits: dec });
+function seek(t) {
+  K.cam16($('world'), CAM, t);
+  K.titleCard($('card'), t, 2.0);
+  IT.forEach((o) => {
+    K.pop(o.el, t, o.tin, o.tout, o.rot);
+    if (o.cnt) { const [a, b, dec, t1] = o.cnt; $(o.id + 'n').textContent = fmt(a + (b - a) * K.easeOut(K.prog(t, Math.max(T0, t1), 1.0)), dec); }
+    if (o.budi) { let cur = o.budi[0][0]; o.budi.forEach(([ex, tt]) => { if (t >= tt) cur = ex; });
+      o.el.querySelectorAll('[data-ex]').forEach((d) => { d.style.display = d.dataset.ex === cur ? 'block' : 'none'; });
+      o.el.style.transform += ` translateY(${Math.sin(t * 2.2) * 6}px)`; }
+  });
+  LOW.forEach(([el, a, b]) => K.lower(el, t, a, b));
+  K.subtitles($('subs'), t);
+  K.weekly(t);
+}
+window.seek = seek;
+</script>
+</body>
+</html>

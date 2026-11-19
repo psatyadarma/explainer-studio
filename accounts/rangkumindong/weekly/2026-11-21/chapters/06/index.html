@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Rangkumin Seminggu — chapter</title>
+<link rel="stylesheet" href="../../../../../../styles/sticker/sticker.css">
+<link rel="stylesheet" href="../../../../../../styles/sticker/weekly/weekly.css">
+<script src="../../../../../../styles/sticker/sticker.js"></script>
+<script src="build/timing.js"></script>
+<script src="../../build/week.js"></script>
+<script src="../../../../../../styles/sticker/weekly/weekly.js"></script>
+<style>
+  .it { position:absolute; transform:translate(-50%,-50%); opacity:0; width:max-content; max-width:1600px; box-sizing:border-box; }
+  .nw { white-space:nowrap; }
+  .big { font-weight:900; font-size:116px; letter-spacing:-4px; line-height:1.02; text-align:center; white-space:nowrap; }
+  .big .acc, .hd .acc, .card .acc { color:var(--accent); }
+  .hd { font-weight:900; font-size:66px; letter-spacing:-1.5px; text-align:center; white-space:nowrap; }
+  .stat { font-weight:900; font-size:230px; letter-spacing:-9px; color:var(--accent); line-height:1; white-space:nowrap; }
+  .stat.ink { color:var(--ink); } .stat.slate { color:var(--slate); }
+  .lab { font-weight:800; font-size:44px; color:var(--slate); text-align:center; white-space:nowrap; }
+  .card { background:#fff; border-radius:28px; padding:28px 42px; text-align:center; font-weight:900; font-size:54px; line-height:1.15;
+          box-shadow:0 0 0 9px #fff,0 18px 26px rgba(27,36,48,.22); }
+  .card small { display:block; font-weight:700; font-size:32px; color:var(--slate); margin-top:10px; line-height:1.25; }
+  .card .q { font-weight:800; font-size:30px; color:var(--slate); margin-bottom:10px; text-align:left; }
+  .card.quote { text-align:left; border-left:16px solid var(--accent); }
+  .card.ink { background:var(--ink); color:#fff; box-shadow:0 0 0 9px #fff,0 18px 26px rgba(27,36,48,.22); }
+  .card.ink small { color:#c9d3dc; }
+  .card.dim { color:var(--slate); }
+  .chip { background:var(--ink); color:#fff; font-weight:800; font-size:48px; padding:16px 30px; border-radius:18px; white-space:nowrap;
+          box-shadow:0 0 0 8px #fff,0 14px 22px rgba(27,36,48,.2); }
+  .chip.acc { background:var(--accent); } .chip.light { background:#fff; color:var(--ink); } .chip.hi { background:var(--hi); color:var(--ink); }
+  .stamp { background:var(--accent); color:#fff; font-weight:900; font-size:84px; letter-spacing:-2px; padding:12px 34px; border-radius:18px;
+           white-space:nowrap; box-shadow:0 0 0 9px #fff,0 18px 26px rgba(27,36,48,.22); }
+  .stamp.ink { background:var(--ink); }
+  .arrow { font-weight:900; font-size:120px; color:var(--accent); line-height:1; }
+  .cal { width:300px; background:#fff; border-radius:26px; overflow:hidden; text-align:center; box-shadow:0 0 0 9px #fff,0 18px 26px rgba(27,36,48,.22); }
+  .cal .d { background:var(--accent); color:#fff; font-weight:900; font-size:40px; padding:12px 0; letter-spacing:2px; }
+  .cal.ink .d { background:var(--ink); }
+  .cal .n { font-weight:900; font-size:150px; letter-spacing:-6px; line-height:1.05; padding-top:6px; }
+  .cal .m { font-weight:800; font-size:40px; color:var(--slate); padding-bottom:18px; letter-spacing:2px; }
+  .cal.sm { width:220px; } .cal.sm .n { font-size:104px; } .cal.sm .d, .cal.sm .m { font-size:32px; }
+  .strike { height:16px; background:var(--accent); border-radius:8px; }
+  .dots { display:grid; gap:18px; }
+  .dots i { display:block; border-radius:50%; background:rgba(62,85,104,.25); }
+  .dots i.on { background:var(--accent); }
+  .dots.ov i { background:transparent; } .dots.ov i.on { background:var(--accent); }
+  .person { display:flex; gap:22px; }
+  .person i { display:block; width:70px; height:150px; position:relative; }
+  .person i::before { content:''; position:absolute; left:15px; top:0; width:40px; height:40px; border-radius:50%; background:currentColor; }
+  .person i::after { content:''; position:absolute; left:0; top:48px; width:70px; height:100px; border-radius:35px 35px 12px 12px; background:currentColor; }
+  .phone { width:440px; height:620px; background:var(--ink); border-radius:56px; padding:26px; box-sizing:border-box; box-shadow:0 0 0 9px #fff,0 18px 26px rgba(27,36,48,.22); }
+  .phone .scr { background:#E9E4DA; border-radius:34px; height:100%; padding:30px 22px; box-sizing:border-box; display:flex; flex-direction:column; gap:18px; }
+  .phone .bub { background:#fff; border-radius:22px 22px 22px 6px; padding:20px 22px; font-weight:800; font-size:36px; line-height:1.2; }
+  .phone .who { font-weight:800; font-size:26px; color:var(--slate); }
+  .budi { width:340px; height:453px; }
+  .budi > div { position:absolute; inset:0; }
+  .lower { bottom:auto; top:132px; }
+</style>
+</head>
+<body>
+<!-- ch06. Numbers: 6%, 18 Nov, 21 Nov, UMP 2027, 25 Nov, 23 Nov, 2025, 14 hari, 9 Des, 30 Nov, 21 Des (all spoken). -->
+<div id="stage">
+  <div id="world">
+    <div class="it hd" id="e1" style="left:960px;top:286px;">Cek janji minggu lalu</div>
+    <div class="it card" id="e2" style="left:530px;top:478px;width:680px">Rapat BI, Rabu<br><span class="acc">bunga naik ke 6%</span></div>
+    <div class="it chip hi" id="e3" style="left:530px;top:630px;">terjadi</div>
+    <div class="it card" id="e4" style="left:1390px;top:478px;width:680px">Tenggat nama wapres<br>18 November?</div>
+    <div class="it stamp" id="e5" style="left:1390px;top:630px;">BERGESER</div>
+    <div class="it big" id="e6" style="left:2880px;top:422px;">Minggu depan.</div>
+    <div class="it stamp" id="e7" style="left:2880px;top:574px;">Catat tanggalnya</div>
+    <div class="it x" id="e8" style="left:4240px;top:494px;"><div class="cal "><div class="d">SABTU</div><div class="n">21</div><div class="m">NOV</div></div></div>
+    <div class="it card" id="e9" style="left:5030px;top:406px;width:900px">Hari ini: batas akhir gubernur<br>menetapkan <span class="acc">UMP 2027</span><small>kata Menaker</small></div>
+    <div class="it card ink" id="e10" style="left:5030px;top:622px;width:900px">UMK: paling lambat <span style="color:var(--hi)">Rabu, 25 November</span></div>
+    <div class="it x" id="e11" style="left:6160px;top:494px;"><div class="cal ink"><div class="d">SENIN</div><div class="n">23</div><div class="m">NOV</div></div></div>
+    <div class="it card" id="e12" style="left:6950px;top:438px;width:900px">Danantara berencana merilis<br>laporan keuangan pertamanya<small>untuk tahun 2025</small></div>
+    <div class="it stamp ink" id="e13" style="left:6950px;top:638px;">Tanggal masih tentatif</div>
+    <div class="it chip hi" id="e14" style="left:8080px;top:494px;font-size:56px">Juga 23 Nov</div>
+    <div class="it card" id="e15" style="left:8870px;top:306px;width:900px">Akhir masa penahanan Listyo saat ini<small>kata Kapolri</small></div>
+    <div class="it chip light" id="e16" style="left:8870px;top:494px;">Bisa diperpanjang</div>
+    <div class="it card ink" id="e17" style="left:8870px;top:690px;width:900px">Sidang etik: pekan depan, kata Polri<small>tanggal resmi belum diumumkan</small></div>
+    <div class="it chip hi" id="e18" style="left:10560px;top:286px;">Tanggal yang kami janjikan</div>
+    <div class="it x" id="e19" style="left:10060px;top:510px;"><div class="cal "><div class="d">RABU</div><div class="n">25</div><div class="m">NOV</div></div></div>
+    <div class="it card" id="e20" style="left:10820px;top:462px;width:860px">Batas <span class="acc">dua nama calon wapres</span><br>masuk ke MPR</div>
+    <div class="it chip" id="e21" style="left:10820px;top:630px;font-size:40px">14 hari sebelum paripurna 9 Desember</div>
+    <div class="it hd" id="e22" style="left:12480px;top:286px;">Buat nasabah BNI</div>
+    <div class="it card" id="e23" style="left:12040px;top:478px;width:660px"><span class="acc">sampai 30 Nov</span><br>akses BNI Mobile Banking ditutup bertahap</div>
+    <div class="it card ink" id="e24" style="left:12920px;top:478px;width:660px"><span style="color:var(--hi)">21 Des</span><br>layanannya berhenti total</div>
+    <div class="it chip acc" id="e25" style="left:12480px;top:678px;">Penggantinya: wondr by BNI</div>
+  </div>
+  <div id="card"><div class="kicker" id="cKick"></div><div class="title" id="cTitle"></div><div class="sub" id="cSub"></div></div>
+  
+  <div id="brand"><div class="dot"></div><b>Rangkumin Dong</b></div>
+  <div id="subs"></div>
+  <div id="progress"></div>
+</div>
+<script>
+window.CHAPTER = Number(location.pathname.split('/').slice(-2)[0]);
+const $ = (id) => document.getElementById(id);
+const T = window.TIMING; window.DURATION = T.duration;
+const ch = (window.WEEK?.chapters || []).find((c) => c.n === window.CHAPTER) || {};
+$('cKick').textContent = ch.kicker || ''; $('cTitle').textContent = ch.title || ''; $('cSub').textContent = window.WEEK?.dates || '';
+const T0 = 2.15;  // nothing pops under the 2 s title card
+const IT = [{id:"e1",tin:(K.at("g0")),tout:Infinity,rot:0},{id:"e2",tin:(K.word("g0","rapat",0)),tout:Infinity,rot:-1.5},{id:"e3",tin:(K.word("g0","naik",0)),tout:Infinity,rot:-3},{id:"e4",tin:(K.word("g0","Tenggat",0)),tout:Infinity,rot:1.5},{id:"e5",tin:(K.word("g0","Bergeser",0)),tout:Infinity,rot:3},{id:"e6",tin:(K.at("g1")),tout:Infinity,rot:0},{id:"e7",tin:(K.word("g1","Catat",0)),tout:Infinity,rot:-3},{id:"e8",tin:(K.word("g2","21",0)),tout:Infinity,rot:-2},{id:"e9",tin:(K.word("g2","batas",0)),tout:Infinity,rot:0},{id:"e10",tin:(K.word("g2","UMK",0)),tout:Infinity,rot:0},{id:"e11",tin:(K.at("g3")),tout:Infinity,rot:-2},{id:"e12",tin:(K.word("g3","Danantara",0)),tout:Infinity,rot:0},{id:"e13",tin:(K.word("g3","Tanggalnya",0)),tout:Infinity,rot:2},{id:"e14",tin:(K.at("g4")),tout:Infinity,rot:-4},{id:"e15",tin:(K.word("g4","akhir",0)),tout:Infinity,rot:0},{id:"e16",tin:(K.word("g4","Bisa",0)),tout:Infinity,rot:0},{id:"e17",tin:(K.word("g4","sidang",0)),tout:Infinity,rot:0},{id:"e18",tin:(K.at("g5")),tout:Infinity,rot:0},{id:"e19",tin:(K.word("g5","25",0)),tout:Infinity,rot:-3},{id:"e20",tin:(K.word("g5","Batas",0)),tout:Infinity,rot:0},{id:"e21",tin:(K.word("g5","14",0)),tout:Infinity,rot:0},{id:"e22",tin:(K.at("g6")),tout:Infinity,rot:0},{id:"e23",tin:(K.word("g6","30",0)),tout:Infinity,rot:-1.5},{id:"e24",tin:(K.word("g6","21",0)),tout:Infinity,rot:1.5},{id:"e25",tin:(K.word("g6","Penggantinya",0)),tout:Infinity,rot:0}].map((o) => ({...o, tin: Math.max(T0, o.tin), el: $(o.id)}));
+const LOW = [].map(([id, a, b]) => [$(id), Math.max(T0 + 0.6, a), b]);
+const CAM = [{t:0,x:960,y:540,z:1},{t:(K.at("g1"))-0.35,x:2880,y:540,z:1},{t:(K.at("g2"))-0.35,x:4800,y:540,z:1},{t:(K.at("g3"))-0.35,x:6720,y:540,z:1},{t:(K.at("g4"))-0.35,x:8640,y:540,z:1},{t:(K.at("g5"))-0.35,x:10560,y:540,z:1},{t:(K.at("g6"))-0.35,x:12480,y:540,z:1}];
+IT.forEach((o) => { if (o.budi) o.el.querySelectorAll('[data-ex]').forEach((d) => { d.innerHTML = K.budi(d.dataset.ex); d.classList.add('sticker-svg'); }); });
+const fmt = (v, dec) => v.toLocaleString('id-ID', { minimumFractionDigits: dec, maximumFractionDigits: dec });
+function seek(t) {
+  K.cam16($('world'), CAM, t);
+  K.titleCard($('card'), t, 2.0);
+  IT.forEach((o) => {
+    K.pop(o.el, t, o.tin, o.tout, o.rot);
+    if (o.cnt) { const [a, b, dec, t1] = o.cnt; $(o.id + 'n').textContent = fmt(a + (b - a) * K.easeOut(K.prog(t, Math.max(T0, t1), 1.0)), dec); }
+    if (o.budi) { let cur = o.budi[0][0]; o.budi.forEach(([ex, tt]) => { if (t >= tt) cur = ex; });
+      o.el.querySelectorAll('[data-ex]').forEach((d) => { d.style.display = d.dataset.ex === cur ? 'block' : 'none'; });
+      o.el.style.transform += ` translateY(${Math.sin(t * 2.2) * 6}px)`; }
+  });
+  LOW.forEach(([el, a, b]) => K.lower(el, t, a, b));
+  K.subtitles($('subs'), t);
+  K.weekly(t);
+}
+window.seek = seek;
+</script>
+</body>
+</html>

@@ -1,0 +1,386 @@
+{
+ "duration": 29.185,
+ "voice": "Pratama",
+ "lines": [
+  {
+   "id": "i1",
+   "text": "Bunga naik, kursi wapres kosong. Lalu apa?",
+   "start": 0.306,
+   "end": 2.8810000000000002,
+   "words": [
+    {
+     "w": "Bunga",
+     "start": 0.306,
+     "end": 0.378
+    },
+    {
+     "w": "naik,",
+     "start": 0.458,
+     "end": 0.891
+    },
+    {
+     "w": "kursi",
+     "start": 0.944,
+     "end": 1.208
+    },
+    {
+     "w": "wapres",
+     "start": 1.228,
+     "end": 1.568
+    },
+    {
+     "w": "kosong.",
+     "start": 1.608,
+     "end": 1.968
+    },
+    {
+     "w": "Lalu",
+     "start": 2.161,
+     "end": 2.408
+    },
+    {
+     "w": "apa?",
+     "start": 2.488,
+     "end": 2.881
+    }
+   ]
+  },
+  {
+   "id": "i2",
+   "text": "Minggu ini: BI naikkan bunga ke 6 persen. Nama Dasco makin sering disebut untuk kursi wapres. Dan di kasus Listyo Sigit, polisi kini juga mengusut dugaan makar.",
+   "start": 3.017,
+   "end": 12.671,
+   "words": [
+    {
+     "w": "Minggu",
+     "start": 3.017,
+     "end": 3.161
+    },
+    {
+     "w": "ini:",
+     "start": 3.221,
+     "end": 3.601
+    },
+    {
+     "w": "BI",
+     "start": 3.654,
+     "end": 4.001
+    },
+    {
+     "w": "naikkan",
+     "start": 4.028,
+     "end": 4.321
+    },
+    {
+     "w": "bunga",
+     "start": 4.361,
+     "end": 4.641
+    },
+    {
+     "w": "ke",
+     "start": 4.668,
+     "end": 4.721
+    },
+    {
+     "w": "6",
+     "start": 4.769,
+     "end": 4.961
+    },
+    {
+     "w": "persen.",
+     "start": 5.025,
+     "end": 5.691
+    },
+    {
+     "w": "Nama",
+     "start": 5.731,
+     "end": 5.931
+    },
+    {
+     "w": "Dasco",
+     "start": 6.011,
+     "end": 6.411
+    },
+    {
+     "w": "makin",
+     "start": 6.478,
+     "end": 6.811
+    },
+    {
+     "w": "sering",
+     "start": 6.871,
+     "end": 7.131
+    },
+    {
+     "w": "disebut",
+     "start": 7.191,
+     "end": 7.611
+    },
+    {
+     "w": "untuk",
+     "start": 7.664,
+     "end": 7.931
+    },
+    {
+     "w": "kursi",
+     "start": 7.979,
+     "end": 8.251
+    },
+    {
+     "w": "wapres.",
+     "start": 8.291,
+     "end": 8.881
+    },
+    {
+     "w": "Dan",
+     "start": 8.881,
+     "end": 9.091
+    },
+    {
+     "w": "di",
+     "start": 9.144,
+     "end": 9.251
+    },
+    {
+     "w": "kasus",
+     "start": 9.291,
+     "end": 9.491
+    },
+    {
+     "w": "Listyo",
+     "start": 9.539,
+     "end": 9.891
+    },
+    {
+     "w": "Sigit,",
+     "start": 9.931,
+     "end": 10.391
+    },
+    {
+     "w": "polisi",
+     "start": 10.431,
+     "end": 10.791
+    },
+    {
+     "w": "kini",
+     "start": 10.831,
+     "end": 11.111
+    },
+    {
+     "w": "juga",
+     "start": 11.143,
+     "end": 11.271
+    },
+    {
+     "w": "mengusut",
+     "start": 11.303,
+     "end": 11.751
+    },
+    {
+     "w": "dugaan",
+     "start": 11.791,
+     "end": 12.071
+    },
+    {
+     "w": "makar.",
+     "start": 12.131,
+     "end": 12.671
+    }
+   ]
+  },
+  {
+   "id": "i3",
+   "text": "Plus: UU Perampasan Aset akhirnya sah, dan Rp104 triliun hilang karena penipuan online.",
+   "start": 12.921,
+   "end": 19.275,
+   "words": [
+    {
+     "w": "Plus:",
+     "start": 12.921,
+     "end": 13.065
+    },
+    {
+     "w": "UU",
+     "start": 13.221,
+     "end": 13.755
+    },
+    {
+     "w": "Perampasan",
+     "start": 13.795,
+     "end": 14.235
+    },
+    {
+     "w": "Aset",
+     "start": 14.275,
+     "end": 14.555
+    },
+    {
+     "w": "akhirnya",
+     "start": 14.608,
+     "end": 14.955
+    },
+    {
+     "w": "sah,",
+     "start": 15.035,
+     "end": 15.515
+    },
+    {
+     "w": "dan",
+     "start": 15.555,
+     "end": 15.675
+    },
+    {
+     "w": "Rp104",
+     "start": 15.735,
+     "end": 16.315
+    },
+    {
+     "w": "triliun",
+     "start": 16.395,
+     "end": 16.715
+    },
+    {
+     "w": "hilang",
+     "start": 17.255,
+     "end": 17.835
+    },
+    {
+     "w": "karena",
+     "start": 17.881,
+     "end": 18.155
+    },
+    {
+     "w": "penipuan",
+     "start": 18.195,
+     "end": 18.635
+    },
+    {
+     "w": "online.",
+     "start": 18.704,
+     "end": 19.275
+    }
+   ]
+  },
+  {
+   "id": "rd",
+   "text": "Rangkumin dong!",
+   "start": 19.502,
+   "end": 20.461,
+   "words": [
+    {
+     "w": "Rangkumin",
+     "start": 19.502,
+     "end": 19.982
+    },
+    {
+     "w": "dong!",
+     "start": 19.982,
+     "end": 20.461
+    }
+   ]
+  },
+  {
+   "id": "i4",
+   "text": "Ini Rangkumin Seminggu, 14 sampai 20 November. Di akhir: satu tanggal minggu depan yang bisa menjawab siapa wapres berikutnya.",
+   "start": 21.01224716553288,
+   "end": 28.612247165532878,
+   "words": [
+    {
+     "w": "Ini",
+     "start": 21.012,
+     "end": 21.042
+    },
+    {
+     "w": "Rangkumin",
+     "start": 21.082,
+     "end": 21.522
+    },
+    {
+     "w": "Seminggu,",
+     "start": 21.562,
+     "end": 22.162
+    },
+    {
+     "w": "14",
+     "start": 22.215,
+     "end": 22.642
+    },
+    {
+     "w": "sampai",
+     "start": 22.706,
+     "end": 23.042
+    },
+    {
+     "w": "20",
+     "start": 23.122,
+     "end": 23.602
+    },
+    {
+     "w": "November.",
+     "start": 23.664,
+     "end": 24.271
+    },
+    {
+     "w": "Di",
+     "start": 24.271,
+     "end": 24.452
+    },
+    {
+     "w": "akhir:",
+     "start": 24.505,
+     "end": 24.932
+    },
+    {
+     "w": "satu",
+     "start": 24.98,
+     "end": 25.172
+    },
+    {
+     "w": "tanggal",
+     "start": 25.212,
+     "end": 25.492
+    },
+    {
+     "w": "minggu",
+     "start": 25.524,
+     "end": 25.732
+    },
+    {
+     "w": "depan",
+     "start": 25.785,
+     "end": 26.292
+    },
+    {
+     "w": "yang",
+     "start": 26.324,
+     "end": 26.452
+    },
+    {
+     "w": "bisa",
+     "start": 26.5,
+     "end": 26.692
+    },
+    {
+     "w": "menjawab",
+     "start": 26.74,
+     "end": 27.172
+    },
+    {
+     "w": "siapa",
+     "start": 27.252,
+     "end": 27.652
+    },
+    {
+     "w": "wapres",
+     "start": 27.692,
+     "end": 28.052
+    },
+    {
+     "w": "berikutnya.",
+     "start": 28.092,
+     "end": 28.612
+    }
+   ]
+  }
+ ]
+}

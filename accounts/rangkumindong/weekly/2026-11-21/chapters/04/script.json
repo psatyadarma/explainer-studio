@@ -1,0 +1,34 @@
+{
+ "direction": "[clear, steady weekly recap; neutral, attributed]",
+ "lines": [
+  {
+   "id": "d1",
+   "tag": "[storytelling]",
+   "text": "Kamis, ruang paripurna DPR. Satu RUU yang sudah disusun sejak 2008 akhirnya diketok.",
+   "say": "Kamis, ruang paripurna, De Pe Er. Satu rancangan undang-undang yang sudah disusun sejak dua ribu delapan, akhirnya diketok."
+  },
+  {
+   "id": "d2",
+   "tag": "[clear]",
+   "text": "UU Perampasan Aset sah. Semua fraksi setuju. Rapat dipimpin Ketua DPR Puan Maharani.",
+   "say": "Undang-undang Perampasan Aset sah. Semua fraksi setuju. Rapat dipimpin Ketua, De Pe Er, Puan Maharani."
+  },
+  {
+   "id": "d3",
+   "tag": "[explaining]",
+   "text": "Intinya: negara bisa merampas aset hasil kejahatan. Bukan cuma korupsi, tapi juga narkotika, terorisme, penyelundupan, dan penipuan berbasis IT.",
+   "say": "Intinya: negara bisa merampas aset hasil kejahatan. Bukan cuma korupsi, tapi juga narkotika, terorisme, penyelundupan, dan penipuan berbasis, ai ti."
+  },
+  {
+   "id": "d4",
+   "tag": "[leaning in]",
+   "text": "Yang baru: perampasan bisa lewat putusan pidana, tapi juga tanpa harus menunggu pelakunya dipidana. Nanti ada dua badan baru di bawah Presiden: satu mengelola aset, satu mengawasi perampasannya."
+  },
+  {
+   "id": "d7",
+   "tag": "[calm]",
+   "text": "Berikutnya: aturan turunan dan dua badan barunya. Di situ nanti kelihatan, seberapa cepat aset benar-benar kembali."
+  }
+ ],
+ "tail": 0.6
+}

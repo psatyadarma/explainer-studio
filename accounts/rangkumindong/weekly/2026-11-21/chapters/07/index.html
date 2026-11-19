@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Rangkumin Seminggu — chapter</title>
+<link rel="stylesheet" href="../../../../../../styles/sticker/sticker.css">
+<link rel="stylesheet" href="../../../../../../styles/sticker/weekly/weekly.css">
+<script src="../../../../../../styles/sticker/sticker.js"></script>
+<script src="build/timing.js"></script>
+<script src="../../build/week.js"></script>
+<script src="../../../../../../styles/sticker/weekly/weekly.js"></script>
+<style>
+  .it { position:absolute; transform:translate(-50%,-50%); opacity:0; width:max-content; max-width:1600px; box-sizing:border-box; }
+  .nw { white-space:nowrap; }
+  .big { font-weight:900; font-size:116px; letter-spacing:-4px; line-height:1.02; text-align:center; white-space:nowrap; }
+  .big .acc, .hd .acc, .card .acc { color:var(--accent); }
+  .hd { font-weight:900; font-size:66px; letter-spacing:-1.5px; text-align:center; white-space:nowrap; }
+  .stat { font-weight:900; font-size:230px; letter-spacing:-9px; color:var(--accent); line-height:1; white-space:nowrap; }
+  .stat.ink { color:var(--ink); } .stat.slate { color:var(--slate); }
+  .lab { font-weight:800; font-size:44px; color:var(--slate); text-align:center; white-space:nowrap; }
+  .card { background:#fff; border-radius:28px; padding:28px 42px; text-align:center; font-weight:900; font-size:54px; line-height:1.15;
+          box-shadow:0 0 0 9px #fff,0 18px 26px rgba(27,36,48,.22); }
+  .card small { display:block; font-weight:700; font-size:32px; color:var(--slate); margin-top:10px; line-height:1.25; }
+  .card .q { font-weight:800; font-size:30px; color:var(--slate); margin-bottom:10px; text-align:left; }
+  .card.quote { text-align:left; border-left:16px solid var(--accent); }
+  .card.ink { background:var(--ink); color:#fff; box-shadow:0 0 0 9px #fff,0 18px 26px rgba(27,36,48,.22); }
+  .card.ink small { color:#c9d3dc; }
+  .card.dim { color:var(--slate); }
+  .chip { background:var(--ink); color:#fff; font-weight:800; font-size:48px; padding:16px 30px; border-radius:18px; white-space:nowrap;
+          box-shadow:0 0 0 8px #fff,0 14px 22px rgba(27,36,48,.2); }
+  .chip.acc { background:var(--accent); } .chip.light { background:#fff; color:var(--ink); } .chip.hi { background:var(--hi); color:var(--ink); }
+  .stamp { background:var(--accent); color:#fff; font-weight:900; font-size:84px; letter-spacing:-2px; padding:12px 34px; border-radius:18px;
+           white-space:nowrap; box-shadow:0 0 0 9px #fff,0 18px 26px rgba(27,36,48,.22); }
+  .stamp.ink { background:var(--ink); }
+  .arrow { font-weight:900; font-size:120px; color:var(--accent); line-height:1; }
+  .cal { width:300px; background:#fff; border-radius:26px; overflow:hidden; text-align:center; box-shadow:0 0 0 9px #fff,0 18px 26px rgba(27,36,48,.22); }
+  .cal .d { background:var(--accent); color:#fff; font-weight:900; font-size:40px; padding:12px 0; letter-spacing:2px; }
+  .cal.ink .d { background:var(--ink); }
+  .cal .n { font-weight:900; font-size:150px; letter-spacing:-6px; line-height:1.05; padding-top:6px; }
+  .cal .m { font-weight:800; font-size:40px; color:var(--slate); padding-bottom:18px; letter-spacing:2px; }
+  .cal.sm { width:220px; } .cal.sm .n { font-size:104px; } .cal.sm .d, .cal.sm .m { font-size:32px; }
+  .strike { height:16px; background:var(--accent); border-radius:8px; }
+  .dots { display:grid; gap:18px; }
+  .dots i { display:block; border-radius:50%; background:rgba(62,85,104,.25); }
+  .dots i.on { background:var(--accent); }
+  .dots.ov i { background:transparent; } .dots.ov i.on { background:var(--accent); }
+  .person { display:flex; gap:22px; }
+  .person i { display:block; width:70px; height:150px; position:relative; }
+  .person i::before { content:''; position:absolute; left:15px; top:0; width:40px; height:40px; border-radius:50%; background:currentColor; }
+  .person i::after { content:''; position:absolute; left:0; top:48px; width:70px; height:100px; border-radius:35px 35px 12px 12px; background:currentColor; }
+  .phone { width:440px; height:620px; background:var(--ink); border-radius:56px; padding:26px; box-sizing:border-box; box-shadow:0 0 0 9px #fff,0 18px 26px rgba(27,36,48,.22); }
+  .phone .scr { background:#E9E4DA; border-radius:34px; height:100%; padding:30px 22px; box-sizing:border-box; display:flex; flex-direction:column; gap:18px; }
+  .phone .bub { background:#fff; border-radius:22px 22px 22px 6px; padding:20px 22px; font-weight:800; font-size:36px; line-height:1.2; }
+  .phone .who { font-weight:800; font-size:26px; color:var(--slate); }
+  .budi { width:340px; height:453px; }
+  .budi > div { position:absolute; inset:0; }
+  .lower { bottom:auto; top:132px; }
+</style>
+</head>
+<body>
+<!-- ch07 outro. -->
+<div id="stage">
+  <div id="world">
+    <div class="it hd" id="e1" style="left:960px;top:286px;">Minggu ini banyak yang naik</div>
+    <div class="it chip acc" id="e2" style="left:490px;top:422px;">Bunga</div>
+    <div class="it chip" id="e3" style="left:870px;top:422px;">Satu nama</div>
+    <div class="it chip light" id="e4" style="left:1340px;top:422px;">Kasus yang melebar</div>
+    <div class="it card" id="e5" style="left:960px;top:598px;">Kabar apa yang paling <span class="acc">kamu tunggu</span> minggu depan?</div>
+    <div class="it chip hi" id="e6" style="left:960px;top:718px;">Tulis di komentar</div>
+    <div class="it big" id="e7" style="left:2880px;top:422px;">Follow <span class="acc">Rangkumin Dong</span></div>
+    <div class="it stamp" id="e8" style="left:2880px;top:574px;font-size:64px">Rangkumin Seminggu, tiap Sabtu pagi!</div>
+  </div>
+  <div id="card"><div class="kicker" id="cKick"></div><div class="title" id="cTitle"></div><div class="sub" id="cSub"></div></div>
+  
+  <div id="brand"><div class="dot"></div><b>Rangkumin Dong</b></div>
+  <div id="subs"></div>
+  <div id="progress"></div>
+</div>
+<script>
+window.CHAPTER = Number(location.pathname.split('/').slice(-2)[0]);
+const $ = (id) => document.getElementById(id);
+const T = window.TIMING; window.DURATION = T.duration;
+const ch = (window.WEEK?.chapters || []).find((c) => c.n === window.CHAPTER) || {};
+$('cKick').textContent = ch.kicker || ''; $('cTitle').textContent = ch.title || ''; $('cSub').textContent = window.WEEK?.dates || '';
+const T0 = 2.15;  // nothing pops under the 2 s title card
+const IT = [{id:"e1",tin:(K.at("o1")),tout:Infinity,rot:0},{id:"e2",tin:(K.word("o1","bunga",0)),tout:Infinity,rot:-3},{id:"e3",tin:(K.word("o1","satu",0)),tout:Infinity,rot:2},{id:"e4",tin:(K.word("o1","kasus",0)),tout:Infinity,rot:-2},{id:"e5",tin:(K.word("o1","Menurutmu",0)),tout:Infinity,rot:0},{id:"e6",tin:(K.word("o1","Tulis",0)),tout:Infinity,rot:-2},{id:"e7",tin:(K.at("o2")),tout:Infinity,rot:0},{id:"e8",tin:(K.word("o2","Rangkumin",0)),tout:Infinity,rot:-2}].map((o) => ({...o, tin: Math.max(T0, o.tin), el: $(o.id)}));
+const LOW = [].map(([id, a, b]) => [$(id), Math.max(T0 + 0.6, a), b]);
+const CAM = [{t:0,x:960,y:540,z:1},{t:(K.at("o2"))-0.35,x:2880,y:540,z:1}];
+IT.forEach((o) => { if (o.budi) o.el.querySelectorAll('[data-ex]').forEach((d) => { d.innerHTML = K.budi(d.dataset.ex); d.classList.add('sticker-svg'); }); });
+const fmt = (v, dec) => v.toLocaleString('id-ID', { minimumFractionDigits: dec, maximumFractionDigits: dec });
+function seek(t) {
+  K.cam16($('world'), CAM, t);
+  K.titleCard($('card'), t, 2.0);
+  IT.forEach((o) => {
+    K.pop(o.el, t, o.tin, o.tout, o.rot);
+    if (o.cnt) { const [a, b, dec, t1] = o.cnt; $(o.id + 'n').textContent = fmt(a + (b - a) * K.easeOut(K.prog(t, Math.max(T0, t1), 1.0)), dec); }
+    if (o.budi) { let cur = o.budi[0][0]; o.budi.forEach(([ex, tt]) => { if (t >= tt) cur = ex; });
+      o.el.querySelectorAll('[data-ex]').forEach((d) => { d.style.display = d.dataset.ex === cur ? 'block' : 'none'; });
+      o.el.style.transform += ` translateY(${Math.sin(t * 2.2) * 6}px)`; }
+  });
+  LOW.forEach(([el, a, b]) => K.lower(el, t, a, b));
+  K.subtitles($('subs'), t);
+  K.weekly(t);
+}
+window.seek = seek;
+</script>
+</body>
+</html>

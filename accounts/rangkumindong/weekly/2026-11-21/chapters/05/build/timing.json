@@ -1,0 +1,564 @@
+{
+ "duration": 49.266,
+ "voice": "Pratama",
+ "lines": [
+  {
+   "id": "e1",
+   "text": "Misalnya Pak Budi dapat WA: 'Selamat, Bapak dapat hadiah!' Rabu, kami bahas: dia tidak sendirian.",
+   "start": 0.255,
+   "end": 6.689,
+   "words": [
+    {
+     "w": "Misalnya",
+     "start": 0.255,
+     "end": 0.519
+    },
+    {
+     "w": "Pak",
+     "start": 0.579,
+     "end": 0.759
+    },
+    {
+     "w": "Budi",
+     "start": 0.799,
+     "end": 1.079
+    },
+    {
+     "w": "dapat",
+     "start": 1.132,
+     "end": 1.399
+    },
+    {
+     "w": "WA:",
+     "start": 1.506,
+     "end": 1.879
+    },
+    {
+     "w": "'Selamat,",
+     "start": 1.959,
+     "end": 2.509
+    },
+    {
+     "w": "Bapak",
+     "start": 2.589,
+     "end": 2.909
+    },
+    {
+     "w": "dapat",
+     "start": 2.962,
+     "end": 3.229
+    },
+    {
+     "w": "hadiah!'",
+     "start": 3.269,
+     "end": 3.709
+    },
+    {
+     "w": "Rabu,",
+     "start": 3.839,
+     "end": 4.369
+    },
+    {
+     "w": "kami",
+     "start": 4.433,
+     "end": 4.689
+    },
+    {
+     "w": "bahas:",
+     "start": 4.729,
+     "end": 5.249
+    },
+    {
+     "w": "dia",
+     "start": 5.359,
+     "end": 5.699
+    },
+    {
+     "w": "tidak",
+     "start": 5.752,
+     "end": 6.019
+    },
+    {
+     "w": "sendirian.",
+     "start": 6.051,
+     "end": 6.689
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "text": "Menurut laporan State of Scams Indonesia 2026, warga Indonesia ditaksir rugi Rp104,3 triliun karena penipuan digital, dalam setahun.",
+   "start": 6.849,
+   "end": 17.058999999999997,
+   "words": [
+    {
+     "w": "Menurut",
+     "start": 6.849,
+     "end": 7.039
+    },
+    {
+     "w": "laporan",
+     "start": 7.079,
+     "end": 7.439
+    },
+    {
+     "w": "State",
+     "start": 7.492,
+     "end": 7.759
+    },
+    {
+     "w": "of",
+     "start": 7.812,
+     "end": 7.919
+    },
+    {
+     "w": "Scams",
+     "start": 7.999,
+     "end": 8.399
+    },
+    {
+     "w": "Indonesia",
+     "start": 8.455,
+     "end": 8.959
+    },
+    {
+     "w": "2026,",
+     "start": 8.999,
+     "end": 9.999
+    },
+    {
+     "w": "warga",
+     "start": 10.159,
+     "end": 10.479
+    },
+    {
+     "w": "Indonesia",
+     "start": 10.527,
+     "end": 10.959
+    },
+    {
+     "w": "ditaksir",
+     "start": 11.019,
+     "end": 11.519
+    },
+    {
+     "w": "rugi",
+     "start": 11.559,
+     "end": 11.759
+    },
+    {
+     "w": "Rp104,3",
+     "start": 11.819,
+     "end": 13.199
+    },
+    {
+     "w": "triliun",
+     "start": 13.306,
+     "end": 13.839
+    },
+    {
+     "w": "karena",
+     "start": 14.468,
+     "end": 14.879
+    },
+    {
+     "w": "penipuan",
+     "start": 14.919,
+     "end": 15.279
+    },
+    {
+     "w": "digital,",
+     "start": 15.349,
+     "end": 16.119
+    },
+    {
+     "w": "dalam",
+     "start": 16.166,
+     "end": 16.399
+    },
+    {
+     "w": "setahun.",
+     "start": 16.439,
+     "end": 17.059
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "text": "7 dari 10 orang dewasa pernah diincar penipu. Rata-rata kerugian per korban: Rp4,89 juta.",
+   "start": 17.218,
+   "end": 24.939,
+   "words": [
+    {
+     "w": "7",
+     "start": 17.218,
+     "end": 17.431
+    },
+    {
+     "w": "dari",
+     "start": 17.479,
+     "end": 17.671
+    },
+    {
+     "w": "10",
+     "start": 17.711,
+     "end": 18.031
+    },
+    {
+     "w": "orang",
+     "start": 18.051,
+     "end": 18.151
+    },
+    {
+     "w": "dewasa",
+     "start": 18.211,
+     "end": 18.711
+    },
+    {
+     "w": "pernah",
+     "start": 18.831,
+     "end": 19.351
+    },
+    {
+     "w": "diincar",
+     "start": 19.404,
+     "end": 19.751
+    },
+    {
+     "w": "penipu.",
+     "start": 19.791,
+     "end": 20.311
+    },
+    {
+     "w": "Rata-rata",
+     "start": 20.389,
+     "end": 20.991
+    },
+    {
+     "w": "kerugian",
+     "start": 21.051,
+     "end": 21.471
+    },
+    {
+     "w": "per",
+     "start": 21.511,
+     "end": 21.631
+    },
+    {
+     "w": "korban:",
+     "start": 21.691,
+     "end": 22.289
+    },
+    {
+     "w": "Rp4,89",
+     "start": 22.388,
+     "end": 23.721
+    },
+    {
+     "w": "juta.",
+     "start": 23.881,
+     "end": 24.281
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "text": "Yang paling bikin kaget: 47 persen korban tertipu lebih dari sekali dalam setahun.",
+   "start": 25.148,
+   "end": 30.891,
+   "words": [
+    {
+     "w": "Yang",
+     "start": 25.148,
+     "end": 25.191
+    },
+    {
+     "w": "paling",
+     "start": 25.271,
+     "end": 25.591
+    },
+    {
+     "w": "bikin",
+     "start": 25.631,
+     "end": 25.831
+    },
+    {
+     "w": "kaget:",
+     "start": 25.911,
+     "end": 26.391
+    },
+    {
+     "w": "47",
+     "start": 26.419,
+     "end": 27.411
+    },
+    {
+     "w": "persen",
+     "start": 27.435,
+     "end": 27.611
+    },
+    {
+     "w": "korban",
+     "start": 27.671,
+     "end": 28.291
+    },
+    {
+     "w": "tertipu",
+     "start": 28.331,
+     "end": 28.811
+    },
+    {
+     "w": "lebih",
+     "start": 28.878,
+     "end": 29.211
+    },
+    {
+     "w": "dari",
+     "start": 29.259,
+     "end": 29.451
+    },
+    {
+     "w": "sekali",
+     "start": 29.511,
+     "end": 29.851
+    },
+    {
+     "w": "dalam",
+     "start": 29.931,
+     "end": 30.331
+    },
+    {
+     "w": "setahun.",
+     "start": 30.391,
+     "end": 30.891
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "text": "Minggu ini juga, Komdigi bilang sedang menyiapkan portal untuk cek nomor HP yang terdaftar atas NIK-mu, dan melaporkan yang mencurigakan. Masih uji coba.",
+   "start": 31.183,
+   "end": 41.379,
+   "words": [
+    {
+     "w": "Minggu",
+     "start": 31.183,
+     "end": 31.359
+    },
+    {
+     "w": "ini",
+     "start": 31.399,
+     "end": 31.519
+    },
+    {
+     "w": "juga,",
+     "start": 31.599,
+     "end": 31.999
+    },
+    {
+     "w": "Komdigi",
+     "start": 32.119,
+     "end": 32.649
+    },
+    {
+     "w": "bilang",
+     "start": 32.709,
+     "end": 33.049
+    },
+    {
+     "w": "sedang",
+     "start": 33.109,
+     "end": 33.369
+    },
+    {
+     "w": "menyiapkan",
+     "start": 33.409,
+     "end": 33.849
+    },
+    {
+     "w": "portal",
+     "start": 33.929,
+     "end": 34.409
+    },
+    {
+     "w": "untuk",
+     "start": 34.476,
+     "end": 34.809
+    },
+    {
+     "w": "cek",
+     "start": 34.889,
+     "end": 35.129
+    },
+    {
+     "w": "nomor",
+     "start": 35.169,
+     "end": 35.369
+    },
+    {
+     "w": "HP",
+     "start": 35.476,
+     "end": 35.689
+    },
+    {
+     "w": "yang",
+     "start": 35.721,
+     "end": 35.849
+    },
+    {
+     "w": "terdaftar",
+     "start": 35.909,
+     "end": 36.409
+    },
+    {
+     "w": "atas",
+     "start": 36.505,
+     "end": 36.969
+    },
+    {
+     "w": "NIK-mu,",
+     "start": 37.109,
+     "end": 38.109
+    },
+    {
+     "w": "dan",
+     "start": 38.139,
+     "end": 38.409
+    },
+    {
+     "w": "melaporkan",
+     "start": 38.449,
+     "end": 38.969
+    },
+    {
+     "w": "yang",
+     "start": 39.017,
+     "end": 39.209
+    },
+    {
+     "w": "mencurigakan.",
+     "start": 39.241,
+     "end": 40.009
+    },
+    {
+     "w": "Masih",
+     "start": 40.129,
+     "end": 40.579
+    },
+    {
+     "w": "uji",
+     "start": 40.659,
+     "end": 40.819
+    },
+    {
+     "w": "coba.",
+     "start": 40.899,
+     "end": 41.379
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "text": "Buat kamu: jangan transfer karena 'hadiah', cek ulang lewat jalur resmi, dan kalau sudah kena, segera lapor ke bank.",
+   "start": 41.507999999999996,
+   "end": 48.68,
+   "words": [
+    {
+     "w": "Buat",
+     "start": 41.508,
+     "end": 41.599
+    },
+    {
+     "w": "kamu:",
+     "start": 41.695,
+     "end": 42.159
+    },
+    {
+     "w": "jangan",
+     "start": 42.279,
+     "end": 42.719
+    },
+    {
+     "w": "transfer",
+     "start": 42.781,
+     "end": 43.279
+    },
+    {
+     "w": "karena",
+     "start": 43.325,
+     "end": 43.599
+    },
+    {
+     "w": "'hadiah',",
+     "start": 43.759,
+     "end": 44.479
+    },
+    {
+     "w": "cek",
+     "start": 44.549,
+     "end": 44.759
+    },
+    {
+     "w": "ulang",
+     "start": 44.839,
+     "end": 45.079
+    },
+    {
+     "w": "lewat",
+     "start": 45.106,
+     "end": 45.319
+    },
+    {
+     "w": "jalur",
+     "start": 45.359,
+     "end": 45.559
+    },
+    {
+     "w": "resmi,",
+     "start": 45.626,
+     "end": 46.039
+    },
+    {
+     "w": "dan",
+     "start": 46.119,
+     "end": 46.399
+    },
+    {
+     "w": "kalau",
+     "start": 46.439,
+     "end": 46.719
+    },
+    {
+     "w": "sudah",
+     "start": 46.746,
+     "end": 46.878
+    },
+    {
+     "w": "kena,",
+     "start": 46.879,
+     "end": 47.2
+    },
+    {
+     "w": "segera",
+     "start": 47.349,
+     "end": 47.96
+    },
+    {
+     "w": "lapor",
+     "start": 48.0,
+     "end": 48.2
+    },
+    {
+     "w": "ke",
+     "start": 48.253,
+     "end": 48.36
+    },
+    {
+     "w": "bank.",
+     "start": 48.408,
+     "end": 48.68
+    }
+   ]
+  }
+ ]
+}

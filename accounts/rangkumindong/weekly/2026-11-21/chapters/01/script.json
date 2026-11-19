@@ -1,0 +1,65 @@
+{
+ "direction": "[clear, steady weekly recap; neutral, attributed]",
+ "lines": [
+  {
+   "id": "a1",
+   "tag": "[serious]",
+   "text": "Kursi wapres kosong sejak Kamis, 12 November. Seminggu kemudian, belum ada calon resmi.",
+   "say": "Kursi wapres kosong sejak Kamis, dua belas November. Seminggu kemudian, belum ada calon resmi."
+  },
+  {
+   "id": "a2",
+   "tag": "[explaining]",
+   "text": "Senin, kata Ketua MPR Ahmad Muzani, surat Presiden Prabowo soal pengisian wapres sudah diterima MPR.",
+   "say": "Senin, kata Ketua, Em Pe Er, Ahmad Muzani, surat Presiden Prabowo soal pengisian wapres sudah diterima, Em Pe Er."
+  },
+  {
+   "id": "a3",
+   "tag": "[matter-of-fact]",
+   "text": "Lalu paripurna pemilihan wapres digeser sepekan: dari 2 Desember ke Rabu, 9 Desember. Kata Muzani, jadwal Presiden padat, dan butuh waktu menimbang dua calon.",
+   "say": "Lalu paripurna pemilihan wapres digeser sepekan: dari dua Desember, ke Rabu, sembilan Desember. Kata Muzani, jadwal Presiden padat, dan butuh waktu menimbang dua calon."
+  },
+  {
+   "id": "a4",
+   "tag": "[explaining]",
+   "text": "Artinya, tenggat dua nama ikut bergeser. Aturannya, nama masuk paling lambat 14 hari sebelum paripurna. Jadi, 25 November.",
+   "say": "Artinya, tenggat dua nama ikut bergeser. Aturannya, nama masuk paling lambat empat belas hari sebelum paripurna. Jadi, dua puluh lima November."
+  },
+  {
+   "id": "a5",
+   "tag": "[leaning in]",
+   "text": "Siapa yang disebut? Sabtu lalu, Waketum Golkar Ahmad Doli Kurnia menyebut 8 nama potensial, dari Puan Maharani sampai Bahlil Lahadalia.",
+   "say": "Siapa yang disebut? Sabtu lalu, Waketum Golkar, Ahmad Doli Kurnia, menyebut delapan nama potensial, dari Puan Maharani sampai Bahlil Lahadalia."
+  },
+  {
+   "id": "a6",
+   "tag": "[explaining]",
+   "text": "Tapi satu nama paling sering muncul minggu ini: Wakil Ketua DPR Sufmi Dasco Ahmad, dari Gerindra. Dukungan datang dari sejumlah senator dan pengurus daerah Gerindra.",
+   "say": "Tapi satu nama paling sering muncul minggu ini: Wakil Ketua, De Pe Er, Sufmi Dasco Ahmad, dari Gerindra. Dukungan datang dari sejumlah senator dan pengurus daerah Gerindra."
+  },
+  {
+   "id": "a7",
+   "tag": "[neutral]",
+   "text": "Kata Dasco sendiri: mengusulkan nama itu hak Presiden."
+  },
+  {
+   "id": "a8",
+   "tag": "[matter-of-fact]",
+   "text": "Kamis, Menhan Sjafrie menemui Dasco di DPR. Kata Sjafrie, mereka tidak membahas soal cawapres.",
+   "say": "Kamis, Menhan Sjafrie menemui Dasco di, De Pe Er. Kata Sjafrie, mereka tidak membahas soal cawapres."
+  },
+  {
+   "id": "a9",
+   "tag": "[leaning in]",
+   "text": "Tapi hati-hati. Video Prabowo menyebut empat nama pengganti Gibran, yang beredar minggu ini? Kata pemeriksa fakta, itu video lama, dari 2023.",
+   "say": "Tapi hati-hati. Video Prabowo menyebut empat nama pengganti Gibran, yang beredar minggu ini? Kata pemeriksa fakta, itu video lama, dari dua ribu dua puluh tiga."
+  },
+  {
+   "id": "a10",
+   "tag": "[calm]",
+   "text": "Jadi sampai Kamis, belum ada nama resmi. Yang memilih nanti anggota MPR, dari dua nama usulan Presiden.",
+   "say": "Jadi sampai Kamis, belum ada nama resmi. Yang memilih nanti anggota, Em Pe Er, dari dua nama usulan Presiden."
+  }
+ ],
+ "tail": 0.6
+}

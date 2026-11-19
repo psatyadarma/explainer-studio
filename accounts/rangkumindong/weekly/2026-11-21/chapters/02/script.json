@@ -1,0 +1,48 @@
+{
+ "direction": "[clear, steady weekly recap; neutral, attributed]",
+ "lines": [
+  {
+   "id": "b1",
+   "tag": "[serious]",
+   "text": "Minggu lalu, Kapolri menyebut Listyo Sigit diduga end user penyadapan. Polisi juga mulai mengusut dugaan makar.",
+   "say": "Minggu lalu, Kapolri menyebut Listyo Sigit diduga, end user penyadapan. Polisi juga mulai mengusut dugaan makar."
+  },
+  {
+   "id": "b2",
+   "tag": "[explaining]",
+   "text": "Kata Kabareskrim Komjen Asep Safrudin pekan lalu, ada bukti permulaan yang cukup untuk membuat laporan polisi soal dugaan makar. Minggu ini, kata Polri, kasus makarnya sudah naik ke penyidikan."
+  },
+  {
+   "id": "b3",
+   "tag": "[matter-of-fact]",
+   "text": "Tapi Selasa, Kapolri menegaskan: belum ada tersangka makar. Masih proses."
+  },
+  {
+   "id": "b4",
+   "tag": "[explaining]",
+   "text": "Selasa malam, polisi menggeledah sebuah rumah di Cipete, Jakarta Selatan, dan beberapa lokasi lain. Kata polisi, rumah itu diduga jadi posko makar, terkait Irjen Eko Hadi Santoso."
+  },
+  {
+   "id": "b5",
+   "tag": "[matter-of-fact]",
+   "text": "Di jalur etik: setelah Irjen Ahrie Sonta, Irjen Eko Hadi juga dijatuhi PTDH, diberhentikan tidak dengan hormat. Sidangnya Selasa, 17 November.",
+   "say": "Di jalur etik: setelah Irjen Ahrie Sonta, Irjen Eko Hadi juga dijatuhi Pe Te De Ha, diberhentikan tidak dengan hormat. Sidangnya Selasa, tujuh belas November."
+  },
+  {
+   "id": "b6",
+   "tag": "[leaning in]",
+   "text": "Giliran Listyo, kata Polri, pekan depan. Dengan aturan baru Polri, sidangnya bisa dipimpin perwira yang pangkatnya lebih rendah dari dia."
+  },
+  {
+   "id": "b7",
+   "tag": "[explaining]",
+   "text": "Dan Kamis, Bareskrim menggelar perkara dugaan makar, bersama Kompolnas dan ahli. Hasilnya belum diumumkan. Kata Dirtipidum, temuan itu akan dipaparkan ke Kejaksaan Agung."
+  },
+  {
+   "id": "b8",
+   "tag": "[calm]",
+   "text": "Ingat: semua ini masih keterangan polisi. Tersangka belum tentu bersalah. Yang memutuskan nanti pengadilan."
+  }
+ ],
+ "tail": 0.6
+}

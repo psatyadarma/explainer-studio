@@ -1,0 +1,34 @@
+{
+ "direction": "[clear, steady weekly recap; neutral, attributed]",
+ "lines": [
+  {
+   "id": "i1",
+   "tag": "[energetic]",
+   "text": "Bunga naik, kursi wapres kosong. Lalu apa?"
+  },
+  {
+   "id": "i2",
+   "tag": "[quick, building]",
+   "text": "Minggu ini: BI naikkan bunga ke 6 persen. Nama Dasco makin sering disebut untuk kursi wapres. Dan di kasus Listyo Sigit, polisi kini juga mengusut dugaan makar.",
+   "say": "Minggu ini: Be I naikkan bunga ke enam persen. Nama Dasco makin sering disebut untuk kursi wapres. Dan di kasus Listyo Sigit, polisi kini juga mengusut dugaan makar."
+  },
+  {
+   "id": "i3",
+   "tag": "[quick, playful]",
+   "text": "Plus: UU Perampasan Aset akhirnya sah, dan Rp104 triliun hilang karena penipuan online.",
+   "say": "Plus: undang-undang Perampasan Aset akhirnya sah, dan seratus empat triliun rupiah hilang karena penipuan online."
+  },
+  {
+   "id": "rd",
+   "tagline": true,
+   "text": "Rangkumin dong!"
+  },
+  {
+   "id": "i4",
+   "tag": "[friendly]",
+   "text": "Ini Rangkumin Seminggu, 14 sampai 20 November. Di akhir: satu tanggal minggu depan yang bisa menjawab siapa wapres berikutnya.",
+   "say": "Ini Rangkumin Seminggu, empat belas sampai dua puluh November. Di akhir: satu tanggal minggu depan, yang bisa menjawab siapa wapres berikutnya."
+  }
+ ],
+ "tail": 0.6
+}

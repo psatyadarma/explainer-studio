@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Rangkumin Seminggu — chapter</title>
+<link rel="stylesheet" href="../../../../../../styles/sticker/sticker.css">
+<link rel="stylesheet" href="../../../../../../styles/sticker/weekly/weekly.css">
+<script src="../../../../../../styles/sticker/sticker.js"></script>
+<script src="build/timing.js"></script>
+<script src="../../build/week.js"></script>
+<script src="../../../../../../styles/sticker/weekly/weekly.js"></script>
+<style>
+  .it { position:absolute; transform:translate(-50%,-50%); opacity:0; width:max-content; max-width:1600px; box-sizing:border-box; }
+  .nw { white-space:nowrap; }
+  .big { font-weight:900; font-size:116px; letter-spacing:-4px; line-height:1.02; text-align:center; white-space:nowrap; }
+  .big .acc, .hd .acc, .card .acc { color:var(--accent); }
+  .hd { font-weight:900; font-size:66px; letter-spacing:-1.5px; text-align:center; white-space:nowrap; }
+  .stat { font-weight:900; font-size:230px; letter-spacing:-9px; color:var(--accent); line-height:1; white-space:nowrap; }
+  .stat.ink { color:var(--ink); } .stat.slate { color:var(--slate); }
+  .lab { font-weight:800; font-size:44px; color:var(--slate); text-align:center; white-space:nowrap; }
+  .card { background:#fff; border-radius:28px; padding:28px 42px; text-align:center; font-weight:900; font-size:54px; line-height:1.15;
+          box-shadow:0 0 0 9px #fff,0 18px 26px rgba(27,36,48,.22); }
+  .card small { display:block; font-weight:700; font-size:32px; color:var(--slate); margin-top:10px; line-height:1.25; }
+  .card .q { font-weight:800; font-size:30px; color:var(--slate); margin-bottom:10px; text-align:left; }
+  .card.quote { text-align:left; border-left:16px solid var(--accent); }
+  .card.ink { background:var(--ink); color:#fff; box-shadow:0 0 0 9px #fff,0 18px 26px rgba(27,36,48,.22); }
+  .card.ink small { color:#c9d3dc; }
+  .card.dim { color:var(--slate); }
+  .chip { background:var(--ink); color:#fff; font-weight:800; font-size:48px; padding:16px 30px; border-radius:18px; white-space:nowrap;
+          box-shadow:0 0 0 8px #fff,0 14px 22px rgba(27,36,48,.2); }
+  .chip.acc { background:var(--accent); } .chip.light { background:#fff; color:var(--ink); } .chip.hi { background:var(--hi); color:var(--ink); }
+  .stamp { background:var(--accent); color:#fff; font-weight:900; font-size:84px; letter-spacing:-2px; padding:12px 34px; border-radius:18px;
+           white-space:nowrap; box-shadow:0 0 0 9px #fff,0 18px 26px rgba(27,36,48,.22); }
+  .stamp.ink { background:var(--ink); }
+  .arrow { font-weight:900; font-size:120px; color:var(--accent); line-height:1; }
+  .cal { width:300px; background:#fff; border-radius:26px; overflow:hidden; text-align:center; box-shadow:0 0 0 9px #fff,0 18px 26px rgba(27,36,48,.22); }
+  .cal .d { background:var(--accent); color:#fff; font-weight:900; font-size:40px; padding:12px 0; letter-spacing:2px; }
+  .cal.ink .d { background:var(--ink); }
+  .cal .n { font-weight:900; font-size:150px; letter-spacing:-6px; line-height:1.05; padding-top:6px; }
+  .cal .m { font-weight:800; font-size:40px; color:var(--slate); padding-bottom:18px; letter-spacing:2px; }
+  .cal.sm { width:220px; } .cal.sm .n { font-size:104px; } .cal.sm .d, .cal.sm .m { font-size:32px; }
+  .strike { height:16px; background:var(--accent); border-radius:8px; }
+  .dots { display:grid; gap:18px; }
+  .dots i { display:block; border-radius:50%; background:rgba(62,85,104,.25); }
+  .dots i.on { background:var(--accent); }
+  .dots.ov i { background:transparent; } .dots.ov i.on { background:var(--accent); }
+  .person { display:flex; gap:22px; }
+  .person i { display:block; width:70px; height:150px; position:relative; }
+  .person i::before { content:''; position:absolute; left:15px; top:0; width:40px; height:40px; border-radius:50%; background:currentColor; }
+  .person i::after { content:''; position:absolute; left:0; top:48px; width:70px; height:100px; border-radius:35px 35px 12px 12px; background:currentColor; }
+  .phone { width:440px; height:620px; background:var(--ink); border-radius:56px; padding:26px; box-sizing:border-box; box-shadow:0 0 0 9px #fff,0 18px 26px rgba(27,36,48,.22); }
+  .phone .scr { background:#E9E4DA; border-radius:34px; height:100%; padding:30px 22px; box-sizing:border-box; display:flex; flex-direction:column; gap:18px; }
+  .phone .bub { background:#fff; border-radius:22px 22px 22px 6px; padding:20px 22px; font-weight:800; font-size:36px; line-height:1.2; }
+  .phone .who { font-weight:800; font-size:26px; color:var(--slate); }
+  .budi { width:340px; height:453px; }
+  .budi > div { position:absolute; inset:0; }
+  .lower { bottom:auto; top:132px; }
+</style>
+</head>
+<body>
+<!-- ch04. Numbers: 2008 (spoken).  -->
+<div id="stage">
+  <div id="world">
+    <div class="it chip acc" id="e1" style="left:960px;top:286px;">Kamis, ruang paripurna DPR</div>
+    <div class="it lab" id="e2" style="left:960px;top:406px;">RUU yang disusun sejak</div>
+    <div class="it stat ink" id="e3" style="left:960px;top:534px;">2008</div>
+    <div class="it stamp" id="e4" style="left:960px;top:694px;">akhirnya diketok</div>
+    <div class="it big" id="e5" style="left:2880px;top:374px;">UU Perampasan Aset</div>
+    <div class="it stamp" id="e6" style="left:3440px;top:494px;">SAH</div>
+    <div class="it chip" id="e7" style="left:2580px;top:550px;">Semua fraksi setuju</div>
+    <div class="it card" id="e8" style="left:2880px;top:702px;">Rapat dipimpin Ketua DPR Puan Maharani</div>
+    <div class="it hd" id="e9" style="left:4800px;top:286px;">Negara bisa merampas <span class="acc">aset hasil kejahatan</span></div>
+    <div class="it chip acc" id="e10" style="left:4280px;top:446px;">Korupsi</div>
+    <div class="it chip" id="e11" style="left:4800px;top:446px;">Narkotika</div>
+    <div class="it chip" id="e12" style="left:5320px;top:446px;">Terorisme</div>
+    <div class="it chip" id="e13" style="left:4500px;top:590px;">Penyelundupan</div>
+    <div class="it chip" id="e14" style="left:5130px;top:590px;">Penipuan berbasis IT</div>
+    <div class="it lab" id="e15" style="left:4800px;top:710px;">bukan cuma korupsi</div>
+    <div class="it chip hi" id="e16" style="left:6720px;top:286px;">Yang baru</div>
+    <div class="it card" id="e17" style="left:6280px;top:478px;width:640px">Lewat putusan pidana</div>
+    <div class="it card ink" id="e18" style="left:7160px;top:478px;width:640px">Juga <span style="color:var(--hi)">tanpa menunggu</span><br>pelakunya dipidana</div>
+    <div class="it lab" id="e19" style="left:6720px;top:478px;">atau</div>
+    <div class="it hd" id="e20" style="left:8640px;top:294px;">Dua badan baru <span class="acc">di bawah Presiden</span></div>
+    <div class="it card" id="e21" style="left:8240px;top:526px;width:600px">Badan pertama<br><span class="acc">mengelola aset</span></div>
+    <div class="it card" id="e22" style="left:9040px;top:526px;width:600px">Badan kedua<br><span class="acc">mengawasi perampasan</span></div>
+    <div class="it hd" id="e23" style="left:10560px;top:286px;">Berikutnya</div>
+    <div class="it chip" id="e24" style="left:10230px;top:438px;">Aturan turunan</div>
+    <div class="it chip" id="e25" style="left:10890px;top:438px;">Dua badan barunya</div>
+    <div class="it card" id="e26" style="left:10560px;top:614px;">Seberapa cepat aset <span class="acc">benar-benar kembali?</span></div>
+  </div>
+  <div id="card"><div class="kicker" id="cKick"></div><div class="title" id="cTitle"></div><div class="sub" id="cSub"></div></div>
+  <div class="lower" id="low0">Rapat paripurna DPR<small>Kamis</small></div>
+  <div id="brand"><div class="dot"></div><b>Rangkumin Dong</b></div>
+  <div id="subs"></div>
+  <div id="progress"></div>
+</div>
+<script>
+window.CHAPTER = Number(location.pathname.split('/').slice(-2)[0]);
+const $ = (id) => document.getElementById(id);
+const T = window.TIMING; window.DURATION = T.duration;
+const ch = (window.WEEK?.chapters || []).find((c) => c.n === window.CHAPTER) || {};
+$('cKick').textContent = ch.kicker || ''; $('cTitle').textContent = ch.title || ''; $('cSub').textContent = window.WEEK?.dates || '';
+const T0 = 2.15;  // nothing pops under the 2 s title card
+const IT = [{id:"e1",tin:(K.at("d1")),tout:Infinity,rot:0},{id:"e2",tin:(K.word("d1","Satu",0)),tout:Infinity,rot:0},{id:"e3",tin:(K.word("d1","2008",0)),tout:Infinity,rot:0},{id:"e4",tin:(K.word("d1","diketok",0)),tout:Infinity,rot:-3},{id:"e5",tin:(K.at("d2")),tout:Infinity,rot:0},{id:"e6",tin:(K.word("d2","sah",0)),tout:Infinity,rot:8},{id:"e7",tin:(K.word("d2","Semua",0)),tout:Infinity,rot:-2},{id:"e8",tin:(K.word("d2","Rapat",0)),tout:Infinity,rot:0},{id:"e9",tin:(K.at("d3")),tout:Infinity,rot:0},{id:"e10",tin:(K.word("d3","korupsi",0)),tout:Infinity,rot:-2},{id:"e11",tin:(K.word("d3","narkotika",0)),tout:Infinity,rot:1},{id:"e12",tin:(K.word("d3","terorisme",0)),tout:Infinity,rot:-1},{id:"e13",tin:(K.word("d3","penyelundupan",0)),tout:Infinity,rot:2},{id:"e14",tin:(K.word("d3","penipuan",0)),tout:Infinity,rot:-2},{id:"e15",tin:(K.word("d3","Bukan",0)),tout:Infinity,rot:0},{id:"e16",tin:(K.at("d4")),tout:Infinity,rot:0},{id:"e17",tin:(K.word("d4","putusan",0)),tout:Infinity,rot:-1.5},{id:"e18",tin:(K.word("d4","tanpa",0)),tout:Infinity,rot:1.5},{id:"e19",tin:(K.word("d4","tanpa",0)),tout:Infinity,rot:0},{id:"e20",tin:(K.word("d4","Nanti",0)),tout:Infinity,rot:0},{id:"e21",tin:(K.word("d4","mengelola",0)),tout:Infinity,rot:-2},{id:"e22",tin:(K.word("d4","mengawasi",0)),tout:Infinity,rot:2},{id:"e23",tin:(K.at("d7")),tout:Infinity,rot:0},{id:"e24",tin:(K.word("d7","aturan",0)),tout:Infinity,rot:-2},{id:"e25",tin:(K.word("d7","dua",0)),tout:Infinity,rot:2},{id:"e26",tin:(K.word("d7","seberapa",0)),tout:Infinity,rot:0}].map((o) => ({...o, tin: Math.max(T0, o.tin), el: $(o.id)}));
+const LOW = [["low0",(K.at("d2")+0.8),(K.at("d3")-0.5)]].map(([id, a, b]) => [$(id), Math.max(T0 + 0.6, a), b]);
+const CAM = [{t:0,x:960,y:540,z:1},{t:(K.at("d2"))-0.35,x:2880,y:540,z:1},{t:(K.at("d3"))-0.35,x:4800,y:540,z:1},{t:(K.at("d4"))-0.35,x:6720,y:540,z:1},{t:(K.word("d4","Nanti",0))-0.35,x:8640,y:540,z:1},{t:(K.at("d7"))-0.35,x:10560,y:540,z:1}];
+IT.forEach((o) => { if (o.budi) o.el.querySelectorAll('[data-ex]').forEach((d) => { d.innerHTML = K.budi(d.dataset.ex); d.classList.add('sticker-svg'); }); });
+const fmt = (v, dec) => v.toLocaleString('id-ID', { minimumFractionDigits: dec, maximumFractionDigits: dec });
+function seek(t) {
+  K.cam16($('world'), CAM, t);
+  K.titleCard($('card'), t, 2.0);
+  IT.forEach((o) => {
+    K.pop(o.el, t, o.tin, o.tout, o.rot);
+    if (o.cnt) { const [a, b, dec, t1] = o.cnt; $(o.id + 'n').textContent = fmt(a + (b - a) * K.easeOut(K.prog(t, Math.max(T0, t1), 1.0)), dec); }
+    if (o.budi) { let cur = o.budi[0][0]; o.budi.forEach(([ex, tt]) => { if (t >= tt) cur = ex; });
+      o.el.querySelectorAll('[data-ex]').forEach((d) => { d.style.display = d.dataset.ex === cur ? 'block' : 'none'; });
+      o.el.style.transform += ` translateY(${Math.sin(t * 2.2) * 6}px)`; }
+  });
+  LOW.forEach(([el, a, b]) => K.lower(el, t, a, b));
+  K.subtitles($('subs'), t);
+  K.weekly(t);
+}
+window.seek = seek;
+</script>
+</body>
+</html>

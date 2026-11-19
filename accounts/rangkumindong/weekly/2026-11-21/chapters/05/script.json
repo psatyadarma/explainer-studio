@@ -1,0 +1,40 @@
+{
+ "direction": "[clear, steady weekly recap; neutral, attributed]",
+ "lines": [
+  {
+   "id": "e1",
+   "tag": "[warm, storytelling]",
+   "text": "Misalnya Pak Budi dapat WA: 'Selamat, Bapak dapat hadiah!' Rabu, kami bahas: dia tidak sendirian."
+  },
+  {
+   "id": "e2",
+   "tag": "[explaining]",
+   "text": "Menurut laporan State of Scams Indonesia 2026, warga Indonesia ditaksir rugi Rp104,3 triliun karena penipuan digital, dalam setahun.",
+   "say": "Menurut laporan State of Scams Indonesia dua ribu dua puluh enam, warga Indonesia ditaksir rugi seratus empat koma tiga triliun rupiah karena penipuan digital, dalam setahun."
+  },
+  {
+   "id": "e3",
+   "tag": "[matter-of-fact]",
+   "text": "7 dari 10 orang dewasa pernah diincar penipu. Rata-rata kerugian per korban: Rp4,89 juta.",
+   "say": "Tujuh dari sepuluh orang dewasa pernah diincar penipu. Rata-rata kerugian per korban: empat koma delapan sembilan juta rupiah."
+  },
+  {
+   "id": "e4",
+   "tag": "[shocked]",
+   "text": "Yang paling bikin kaget: 47 persen korban tertipu lebih dari sekali dalam setahun.",
+   "say": "Yang paling bikin kaget: empat puluh tujuh persen korban, tertipu lebih dari sekali dalam setahun."
+  },
+  {
+   "id": "e5",
+   "tag": "[explaining]",
+   "text": "Minggu ini juga, Komdigi bilang sedang menyiapkan portal untuk cek nomor HP yang terdaftar atas NIK-mu, dan melaporkan yang mencurigakan. Masih uji coba.",
+   "say": "Minggu ini juga, Komdigi bilang sedang menyiapkan portal untuk cek nomor HP yang terdaftar atas, Nik, mu, dan melaporkan yang mencurigakan. Masih uji coba."
+  },
+  {
+   "id": "e6",
+   "tag": "[reassuring]",
+   "text": "Buat kamu: jangan transfer karena 'hadiah', cek ulang lewat jalur resmi, dan kalau sudah kena, segera lapor ke bank."
+  }
+ ],
+ "tail": 0.6
+}

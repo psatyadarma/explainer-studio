@@ -1,0 +1,737 @@
+{
+ "duration": 66.551,
+ "voice": "Pratama",
+ "lines": [
+  {
+   "id": "g0",
+   "text": "Cek janji minggu lalu: rapat BI memang memutuskan Rabu, bunga naik ke 6 persen. Tenggat nama wapres 18 November? Bergeser, karena paripurnanya mundur.",
+   "start": 0.16,
+   "end": 10.040000000000001,
+   "words": [
+    {
+     "w": "Cek",
+     "start": 0.16,
+     "end": 0.253
+    },
+    {
+     "w": "janji",
+     "start": 0.333,
+     "end": 0.733
+    },
+    {
+     "w": "minggu",
+     "start": 0.781,
+     "end": 1.053
+    },
+    {
+     "w": "lalu:",
+     "start": 1.093,
+     "end": 1.373
+    },
+    {
+     "w": "rapat",
+     "start": 1.47,
+     "end": 1.903
+    },
+    {
+     "w": "BI",
+     "start": 1.93,
+     "end": 2.303
+    },
+    {
+     "w": "memang",
+     "start": 2.343,
+     "end": 2.623
+    },
+    {
+     "w": "memutuskan",
+     "start": 2.663,
+     "end": 3.103
+    },
+    {
+     "w": "Rabu,",
+     "start": 3.183,
+     "end": 3.713
+    },
+    {
+     "w": "bunga",
+     "start": 3.753,
+     "end": 4.193
+    },
+    {
+     "w": "naik",
+     "start": 4.273,
+     "end": 4.593
+    },
+    {
+     "w": "ke",
+     "start": 4.62,
+     "end": 4.673
+    },
+    {
+     "w": "6",
+     "start": 4.721,
+     "end": 4.913
+    },
+    {
+     "w": "persen.",
+     "start": 4.961,
+     "end": 5.46
+    },
+    {
+     "w": "Tenggat",
+     "start": 5.46,
+     "end": 5.833
+    },
+    {
+     "w": "nama",
+     "start": 5.881,
+     "end": 6.073
+    },
+    {
+     "w": "wapres",
+     "start": 6.113,
+     "end": 6.553
+    },
+    {
+     "w": "18",
+     "start": 6.573,
+     "end": 7.153
+    },
+    {
+     "w": "November?",
+     "start": 7.184,
+     "end": 7.6
+    },
+    {
+     "w": "Bergeser,",
+     "start": 7.6,
+     "end": 8.433
+    },
+    {
+     "w": "karena",
+     "start": 8.484,
+     "end": 8.793
+    },
+    {
+     "w": "paripurnanya",
+     "start": 8.853,
+     "end": 9.513
+    },
+    {
+     "w": "mundur.",
+     "start": 9.561,
+     "end": 10.04
+    }
+   ]
+  },
+  {
+   "id": "g1",
+   "text": "Oke, minggu depan. Catat tanggalnya.",
+   "start": 10.195,
+   "end": 12.153,
+   "words": [
+    {
+     "w": "Oke,",
+     "start": 10.195,
+     "end": 10.443
+    },
+    {
+     "w": "minggu",
+     "start": 10.491,
+     "end": 10.763
+    },
+    {
+     "w": "depan.",
+     "start": 10.816,
+     "end": 11.163
+    },
+    {
+     "w": "Catat",
+     "start": 11.29,
+     "end": 11.593
+    },
+    {
+     "w": "tanggalnya.",
+     "start": 11.633,
+     "end": 12.153
+    }
+   ]
+  },
+  {
+   "id": "g2",
+   "text": "Hari ini, Sabtu 21 November: batas akhir gubernur menetapkan UMP 2027, kata Menaker. UMK, paling lambat Rabu, 25 November.",
+   "start": 12.663,
+   "end": 22.9,
+   "words": [
+    {
+     "w": "Hari",
+     "start": 12.663,
+     "end": 12.923
+    },
+    {
+     "w": "ini,",
+     "start": 12.983,
+     "end": 13.243
+    },
+    {
+     "w": "Sabtu",
+     "start": 13.383,
+     "end": 13.943
+    },
+    {
+     "w": "21",
+     "start": 13.983,
+     "end": 14.423
+    },
+    {
+     "w": "November:",
+     "start": 14.467,
+     "end": 14.983
+    },
+    {
+     "w": "batas",
+     "start": 15.06,
+     "end": 15.533
+    },
+    {
+     "w": "akhir",
+     "start": 15.586,
+     "end": 15.773
+    },
+    {
+     "w": "gubernur",
+     "start": 15.819,
+     "end": 16.253
+    },
+    {
+     "w": "menetapkan",
+     "start": 16.313,
+     "end": 16.973
+    },
+    {
+     "w": "UMP",
+     "start": 17.133,
+     "end": 17.843
+    },
+    {
+     "w": "2027,",
+     "start": 17.843,
+     "end": 18.966
+    },
+    {
+     "w": "kata",
+     "start": 19.004,
+     "end": 19.153
+    },
+    {
+     "w": "Menaker.",
+     "start": 19.193,
+     "end": 19.713
+    },
+    {
+     "w": "UMK,",
+     "start": 19.75,
+     "end": 20.503
+    },
+    {
+     "w": "paling",
+     "start": 20.623,
+     "end": 20.963
+    },
+    {
+     "w": "lambat",
+     "start": 21.011,
+     "end": 21.363
+    },
+    {
+     "w": "Rabu,",
+     "start": 21.443,
+     "end": 21.843
+    },
+    {
+     "w": "25",
+     "start": 21.883,
+     "end": 22.483
+    },
+    {
+     "w": "November.",
+     "start": 22.51,
+     "end": 22.9
+    }
+   ]
+  },
+  {
+   "id": "g3",
+   "text": "Senin, 23 November: Danantara berencana merilis laporan keuangan pertamanya, untuk tahun 2025. Tanggalnya masih tentatif.",
+   "start": 23.4,
+   "end": 31.709999999999997,
+   "words": [
+    {
+     "w": "Senin,",
+     "start": 23.4,
+     "end": 23.903
+    },
+    {
+     "w": "23",
+     "start": 23.943,
+     "end": 24.303
+    },
+    {
+     "w": "November:",
+     "start": 24.365,
+     "end": 25.05
+    },
+    {
+     "w": "Danantara",
+     "start": 25.05,
+     "end": 25.723
+    },
+    {
+     "w": "berencana",
+     "start": 25.763,
+     "end": 26.363
+    },
+    {
+     "w": "merilis",
+     "start": 26.403,
+     "end": 26.763
+    },
+    {
+     "w": "laporan",
+     "start": 26.803,
+     "end": 27.163
+    },
+    {
+     "w": "keuangan",
+     "start": 27.216,
+     "end": 27.563
+    },
+    {
+     "w": "pertamanya,",
+     "start": 27.595,
+     "end": 28.303
+    },
+    {
+     "w": "untuk",
+     "start": 28.356,
+     "end": 28.623
+    },
+    {
+     "w": "tahun",
+     "start": 28.69,
+     "end": 29.023
+    },
+    {
+     "w": "2025.",
+     "start": 29.063,
+     "end": 30.13
+    },
+    {
+     "w": "Tanggalnya",
+     "start": 30.13,
+     "end": 30.773
+    },
+    {
+     "w": "masih",
+     "start": 30.826,
+     "end": 31.093
+    },
+    {
+     "w": "tentatif.",
+     "start": 31.125,
+     "end": 31.71
+    }
+   ]
+  },
+  {
+   "id": "g4",
+   "text": "23 November juga akhir masa penahanan Listyo saat ini, kata Kapolri. Bisa diperpanjang. Lalu sidang etiknya, kata Polri, pekan depan. Tanggal resminya belum diumumkan.",
+   "start": 32.199999999999996,
+   "end": 42.83,
+   "words": [
+    {
+     "w": "23",
+     "start": 32.2,
+     "end": 32.733
+    },
+    {
+     "w": "November",
+     "start": 32.777,
+     "end": 33.133
+    },
+    {
+     "w": "juga",
+     "start": 33.229,
+     "end": 33.613
+    },
+    {
+     "w": "akhir",
+     "start": 33.746,
+     "end": 34.173
+    },
+    {
+     "w": "masa",
+     "start": 34.221,
+     "end": 34.413
+    },
+    {
+     "w": "penahanan",
+     "start": 34.453,
+     "end": 34.893
+    },
+    {
+     "w": "Listyo",
+     "start": 34.941,
+     "end": 35.293
+    },
+    {
+     "w": "saat",
+     "start": 35.357,
+     "end": 35.613
+    },
+    {
+     "w": "ini,",
+     "start": 35.653,
+     "end": 35.853
+    },
+    {
+     "w": "kata",
+     "start": 35.933,
+     "end": 36.213
+    },
+    {
+     "w": "Kapolri.",
+     "start": 36.253,
+     "end": 36.85
+    },
+    {
+     "w": "Bisa",
+     "start": 36.85,
+     "end": 37.193
+    },
+    {
+     "w": "diperpanjang.",
+     "start": 37.233,
+     "end": 37.913
+    },
+    {
+     "w": "Lalu",
+     "start": 38.02,
+     "end": 38.403
+    },
+    {
+     "w": "sidang",
+     "start": 38.463,
+     "end": 38.723
+    },
+    {
+     "w": "etiknya,",
+     "start": 38.776,
+     "end": 39.283
+    },
+    {
+     "w": "kata",
+     "start": 39.347,
+     "end": 39.603
+    },
+    {
+     "w": "Polri,",
+     "start": 39.663,
+     "end": 40.163
+    },
+    {
+     "w": "pekan",
+     "start": 40.19,
+     "end": 40.403
+    },
+    {
+     "w": "depan.",
+     "start": 40.456,
+     "end": 40.96
+    },
+    {
+     "w": "Tanggal",
+     "start": 40.96,
+     "end": 41.233
+    },
+    {
+     "w": "resminya",
+     "start": 41.273,
+     "end": 41.713
+    },
+    {
+     "w": "belum",
+     "start": 41.78,
+     "end": 42.113
+    },
+    {
+     "w": "diumumkan.",
+     "start": 42.14,
+     "end": 42.83
+    }
+   ]
+  },
+  {
+   "id": "g5",
+   "text": "Dan ini tanggal yang kami janjikan di awal: Rabu, 25 November. Batas dua nama calon wapres masuk ke MPR, 14 hari sebelum paripurna 9 Desember.",
+   "start": 43.053,
+   "end": 53.379999999999995,
+   "words": [
+    {
+     "w": "Dan",
+     "start": 43.053,
+     "end": 43.083
+    },
+    {
+     "w": "ini",
+     "start": 43.183,
+     "end": 43.483
+    },
+    {
+     "w": "tanggal",
+     "start": 43.553,
+     "end": 44.043
+    },
+    {
+     "w": "yang",
+     "start": 44.075,
+     "end": 44.203
+    },
+    {
+     "w": "kami",
+     "start": 44.235,
+     "end": 44.363
+    },
+    {
+     "w": "janjikan",
+     "start": 44.423,
+     "end": 44.843
+    },
+    {
+     "w": "di",
+     "start": 44.896,
+     "end": 45.003
+    },
+    {
+     "w": "awal:",
+     "start": 45.056,
+     "end": 45.45
+    },
+    {
+     "w": "Rabu,",
+     "start": 45.45,
+     "end": 46.023
+    },
+    {
+     "w": "25",
+     "start": 46.063,
+     "end": 46.663
+    },
+    {
+     "w": "November.",
+     "start": 46.716,
+     "end": 47.223
+    },
+    {
+     "w": "Batas",
+     "start": 47.32,
+     "end": 47.843
+    },
+    {
+     "w": "dua",
+     "start": 47.903,
+     "end": 48.083
+    },
+    {
+     "w": "nama",
+     "start": 48.131,
+     "end": 48.323
+    },
+    {
+     "w": "calon",
+     "start": 48.363,
+     "end": 48.563
+    },
+    {
+     "w": "wapres",
+     "start": 48.643,
+     "end": 49.123
+    },
+    {
+     "w": "masuk",
+     "start": 49.183,
+     "end": 49.443
+    },
+    {
+     "w": "ke",
+     "start": 49.496,
+     "end": 49.763
+    },
+    {
+     "w": "MPR,",
+     "start": 49.816,
+     "end": 50.65
+    },
+    {
+     "w": "14",
+     "start": 50.65,
+     "end": 51.083
+    },
+    {
+     "w": "hari",
+     "start": 51.163,
+     "end": 51.483
+    },
+    {
+     "w": "sebelum",
+     "start": 51.563,
+     "end": 51.883
+    },
+    {
+     "w": "paripurna",
+     "start": 51.923,
+     "end": 52.443
+    },
+    {
+     "w": "9",
+     "start": 52.483,
+     "end": 52.763
+    },
+    {
+     "w": "Desember.",
+     "start": 52.803,
+     "end": 53.38
+    }
+   ]
+  },
+  {
+   "id": "g6",
+   "text": "Satu lagi buat nasabah BNI: akses BNI Mobile Banking ditutup bertahap sampai 30 November, dan layanannya berhenti total 21 Desember. Penggantinya, wondr by BNI.",
+   "start": 53.85,
+   "end": 66.133,
+   "words": [
+    {
+     "w": "Satu",
+     "start": 53.85,
+     "end": 54.233
+    },
+    {
+     "w": "lagi",
+     "start": 54.257,
+     "end": 54.353
+    },
+    {
+     "w": "buat",
+     "start": 54.406,
+     "end": 54.633
+    },
+    {
+     "w": "nasabah",
+     "start": 54.663,
+     "end": 55.213
+    },
+    {
+     "w": "BNI:",
+     "start": 55.293,
+     "end": 56.16
+    },
+    {
+     "w": "akses",
+     "start": 56.16,
+     "end": 56.653
+    },
+    {
+     "w": "BNI",
+     "start": 56.706,
+     "end": 57.053
+    },
+    {
+     "w": "Mobile",
+     "start": 57.099,
+     "end": 57.373
+    },
+    {
+     "w": "Banking",
+     "start": 57.423,
+     "end": 57.773
+    },
+    {
+     "w": "ditutup",
+     "start": 57.833,
+     "end": 58.173
+    },
+    {
+     "w": "bertahap",
+     "start": 58.221,
+     "end": 58.733
+    },
+    {
+     "w": "sampai",
+     "start": 58.797,
+     "end": 59.213
+    },
+    {
+     "w": "30",
+     "start": 59.253,
+     "end": 59.853
+    },
+    {
+     "w": "November,",
+     "start": 59.88,
+     "end": 60.333
+    },
+    {
+     "w": "dan",
+     "start": 60.373,
+     "end": 60.493
+    },
+    {
+     "w": "layanannya",
+     "start": 60.533,
+     "end": 61.133
+    },
+    {
+     "w": "berhenti",
+     "start": 61.193,
+     "end": 61.613
+    },
+    {
+     "w": "total",
+     "start": 61.693,
+     "end": 62.093
+    },
+    {
+     "w": "21",
+     "start": 62.133,
+     "end": 62.653
+    },
+    {
+     "w": "Desember.",
+     "start": 62.713,
+     "end": 63.34
+    },
+    {
+     "w": "Penggantinya,",
+     "start": 63.34,
+     "end": 64.213
+    },
+    {
+     "w": "wondr",
+     "start": 64.27,
+     "end": 65.117
+    },
+    {
+     "w": "by",
+     "start": 65.117,
+     "end": 65.456
+    },
+    {
+     "w": "BNI.",
+     "start": 65.456,
+     "end": 66.133
+    }
+   ]
+  }
+ ]
+}

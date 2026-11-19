@@ -1,0 +1,435 @@
+[
+ {
+  "lines": "i2, c2, g0",
+  "claim": "Bank Indonesia raised the BI-Rate by 25 bps from 5,75% to 6,00% at the 17–18 Nov RDG (announced Wed 18 Nov), citing rupiah stability and controlling inflation.",
+  "numbers": "5,75% → 6,00% · +0,25 poin · 18 Nov",
+  "sensitivity": "normal",
+  "status": "verified (E0917)",
+  "sources": [
+   "https://www.cnbcindonesia.com/market/20261118142349-17-786311/bi-rate-naik-jadi-6-bos-bi-demi-jaga-rupiah-dan-inflasi",
+   "https://www.cnnindonesia.com/ekonomi/20261118141048-78-1428544/bank-indonesia-naikkan-suku-bunga-jadi-6-persen-per-november-2026",
+   "https://finansial.bisnis.com/read/20261118/11/2022401/breaking-bank-indonesia-kerek-bi-rate-jadi-6-pada-november-2026"
+  ]
+ },
+ {
+  "lines": "i2, a6",
+  "claim": "Sufmi Dasco Ahmad (DPR Deputy Speaker, Gerindra) is the name most often raised for VP this week; support from senators (Komeng and others) and Gerindra regional boards (pengurus daerah / puluhan DPD). Fact-check FIX: not 'cabang'; other-party figures dropped.",
+  "numbers": "-",
+  "sensitivity": "high",
+  "status": "verified (E0926, E0942); 'paling sering muncul' is our editorial summary of coverage, attributed to reporting",
+  "sources": [
+   "https://katadata.co.id/berita/nasional/6af94514ebe7d/ramai-dukungan-pengurus-daerah-gerindra-untuk-sufmi-dasco-jadi-wapres",
+   "https://investortrust.id/national/122648/puluhan-dpd-partai-gerindra-dukung-dasco-jadi-wapres-ini-daftarnya",
+   "https://www.suara.com/news/2026/11/17/050000/kursi-wapres-pengganti-gibran-nama-dasco-menguat-mpr-siapkan-pemilihan-9-desember",
+   "https://news.detik.com/berita/d-8754709/komeng-dan-sejumlah-senator-nyatakan-dukung-dasco-jadi-wapres-ri",
+   "https://www.beritasatu.com/nasional/3042047/dukungan-jadi-wapres-menguat-dasco-serahkan-kepada-prabowo",
+   "https://www.cnbcindonesia.com/news/20261118154238-4-786357/ramai-didukung-jadi-wapres-pengganti-gibran-begini-reaksi-dasco"
+  ]
+ },
+ {
+  "lines": "i2, b1-b2",
+  "claim": "Police are also investigating alleged makar linked to the wiretapping case. Kabareskrim Komjen Asep Safrudin said LAST WEEK (Thu 12 Nov; report filed 11 Nov): 'bukti permulaan yang cukup' for a police report on makar. New this week (17 Nov, Kapolri / Kadiv Humas): the makar case is now at penyidikan.",
+  "numbers": "12 Nov · 17 Nov",
+  "sensitivity": "high",
+  "status": "verified (fact-check FIX 3: dated as pekan lalu)",
+  "sources": [
+   "https://www.rctiplus.com/news/detail/inews/5515205/bareskrim-temukan-bukti-awal-dugaan-makar-di-kasus-penyadapan-prabowo",
+   "https://katadata.co.id/berita/nasional/6af53f7d9695a/polri-usut-dugaan-makar-dalam-kasus-penyadapan-ilegal-eks-kapolri-listyo-sigit",
+   "https://afu.id/hukum-kriminal/penyidikan-kasus-makar-buntut-sadap-presiden-naik-penyidikan-listyo-cs-makin-merana",
+   "https://www.rctiplus.com/news/detail/terkini/5518860/polri-naikkan-dugaan-makar-kasus-penyadapan-presiden-prabowo-ke-penyidikan"
+  ]
+ },
+ {
+  "lines": "b3",
+  "claim": "Tue 17 Nov, Kapolri Suyudi Ario Seto: no makar suspect yet, 'masih dalam proses' (SPDP sent 12 Nov; Listyo's name appears in the SPDP per report — NOT used in script).",
+  "numbers": "17 Nov",
+  "sensitivity": "high",
+  "status": "verified (2 reports)",
+  "sources": [
+   "https://justisio.com/berita/2026-11-17-kapolri-pastikan-listyo-sigit-cs-belum-tersangka-dugaan-makar",
+   "https://www.rctiplus.com/news/detail/idxchannel/5519054/listyo-sigit-cs-belum-ditetapkan-tersangka-makar--kapolri--masih-proses-"
+  ]
+ },
+ {
+  "lines": "i3, d1-d2",
+  "claim": "DPR plenary (Thu 19 Nov), led by Speaker Puan Maharani, enacted the Asset Forfeiture Law; all factions agreed; drafting began 2008.",
+  "numbers": "2008 · 19 Nov",
+  "sensitivity": "normal",
+  "status": "verified (E0953)",
+  "sources": [
+   "https://www.cnnindonesia.com/nasional/20261119104313-32-1428898/dpr-resmi-sahkan-ruu-perampasan-aset-jadi-undang-undang",
+   "https://www.kompas.id/artikel/dpr-sahkan-uu-perampasan-aset-penantian-18-tahun-berakhir",
+   "https://www.dpr.go.id/kegiatan-dpr/berita/DPR-Sahkan-RUU-Perampasan-Aset-Habiburokhman-Instrumen-Baru-Pemulihan-Kerugian-Negara-dan-Korban-70760"
+  ]
+ },
+ {
+  "lines": "i3, e2",
+  "claim": "State of Scams Indonesia 2026 (GASA, Mastercard, Indosat; survey 1.160 adults, 16 Mar–13 Apr 2026): Indonesians lost an estimated Rp104,3 T to digital scams in a year.",
+  "numbers": "Rp104,3 T",
+  "sensitivity": "normal",
+  "status": "verified (E0901; daily 18 Nov fact-checked)",
+  "sources": [
+   "https://www.cnbcindonesia.com/tech/20261117144210-37-785974/setahun-warga-ri-ketipu-rp1043-triliun-ada-yang-berulang-kali",
+   "https://katadata.co.id/digital/teknologi/6afc1ffaeca3b/kerugian-warga-ri-imbas-penipuan-rp-104-triliun-rerata-korban-rugi-rp-4-9-juta",
+   "https://www.liputan6.com/bisnis/read/8336990/penipuan-digital-rugikan-masyarakat-indonesia-rp-1043-triliun"
+  ]
+ },
+ {
+  "lines": "i4, a4, g5",
+  "claim": "After the plenary moved to 9 Dec, the deadline for the President's two VP names is Wed 25 Nov (14 days before the plenary, Peraturan MPR 1/2024 Pasal 136(1)); stated by Ketua MPR Muzani on 16 Nov.",
+  "numbers": "14 hari · 25 Nov · 9 Des",
+  "sensitivity": "high",
+  "status": "verified (fact-check: Muzani press conference 16 Nov, Justisio/AFU). As of Fri 20 Nov no names submitted found",
+  "sources": [
+   "https://justisio.com/berita/2026-11-16-mpr-beri-batas-waktu-prabowo-serahkan-dua-nama-cawapres-hingga-25-nove",
+   "https://afu.id/nasional/ini-alasan-tenggat-nama-cawapres-pengganti-gibran-mundur-ke-25-november-mpr-atas-permintaan-presiden",
+   "https://www.suara.com/news/2026/11/17/050000/kursi-wapres-pengganti-gibran-nama-dasco-menguat-mpr-siapkan-pemilihan-9-desember",
+   "https://www.beritasatu.com/nasional/3042047/dukungan-jadi-wapres-menguat-dasco-serahkan-kepada-prabowo",
+   "https://news.okezone.com/read/2026/11/13/337/3253892/mpr-tunggu-dua-nama-cawapres-dari-prabowo-batas-akhir-18-november"
+  ]
+ },
+ {
+  "lines": "a1",
+  "claim": "VP seat vacant since Thu 12 Nov (Gibran's letter to Ketua MPR); no official candidate a week later.",
+  "numbers": "12 Nov",
+  "sensitivity": "high",
+  "status": "verified (E0763, E0956)",
+  "sources": [
+   "https://www.cnnindonesia.com/nasional/20261112101220-32-1426208/gibran-akhirnya-resmi-serahkan-surat-pengunduran-diri-ke-mpr",
+   "https://www.liputan6.com/news/read/8333949/ketua-mpr-sejak-hari-ini-jabatan-wapres-alami-kekosongan",
+   "https://www.cnnindonesia.com/nasional/20261119142950-32-1429017/menhan-sjafrie-sambangi-pimpinan-dpr-di-tengah-geliat-bursa-wapres"
+  ]
+ },
+ {
+  "lines": "a2",
+  "claim": "Mon 16 Nov, Ketua MPR Ahmad Muzani: MPR received President Prabowo's letter on filling the VP vacancy.",
+  "numbers": "16 Nov",
+  "sensitivity": "high",
+  "status": "verified (E0880, 3 outlets)",
+  "sources": [
+   "https://cnnindonesia.com/nasional/20261116150752-32-1427700/mpr-terima-surat-prabowo-soal-pengisian-wapres-pengganti-gibran",
+   "https://nasional.kompas.com/read/2026/11/16/12522911/mpr-terima-surat-dari-prabowo-soal-cawapres-pengganti-gibran",
+   "https://www.antaranews.com/berita/5856687/ketua-mpr-sudah-terima-surat-dari-presiden-dan-akan-dibahas-di-ragab"
+  ]
+ },
+ {
+  "lines": "a3",
+  "claim": "MPR plenary to elect the VP moved one week, 2 Dec → Wed 9 Dec; per Muzani, the President's schedule is very busy and he needs time to weigh the two candidates.",
+  "numbers": "2 Des → 9 Des · sepekan",
+  "sensitivity": "high",
+  "status": "verified (E0866 detik; 9 Des confirmed by Suara, CNN, Radar Banyuwangi)",
+  "sources": [
+   "https://news.detik.com/berita/d-8755839/sidang-mpr-pemilihan-wapres-mundur-sepekan-ini-pertimbangannya",
+   "https://www.suara.com/news/2026/11/17/050000/kursi-wapres-pengganti-gibran-nama-dasco-menguat-mpr-siapkan-pemilihan-9-desember",
+   "https://www.cnnindonesia.com/nasional/20261118135349-32-1428513/kenapa-parpol-koalisi-prabowo-ogah-isi-kursi-wapres-gantikan-gibran"
+  ]
+ },
+ {
+  "lines": "a5",
+  "claim": "Sat 14 Nov, Golkar deputy chair Ahmad Doli Kurnia named 8 potential replacements (Puan Maharani, Bahlil Lahadalia, Sufmi Dasco Ahmad, Sugiono, Ahmad Muzani, Muhaimin Iskandar, Zulkifli Hasan, AHY).",
+  "numbers": "8 nama · 14 Nov",
+  "sensitivity": "high",
+  "status": "verified (E0848)",
+  "sources": [
+   "https://news.detik.com/berita/d-8752519/soal-pengganti-gibran-golkar-sebut-8-kandidat-potensial",
+   "https://www.cnnindonesia.com/nasional/20261114093728-32-1427090/golkar-sebut-puan-hingga-bahlil-masuk-bursa-wapres-pengganti-gibran"
+  ]
+ },
+ {
+  "lines": "a7",
+  "claim": "Dasco: nominating is the President's right.",
+  "numbers": "-",
+  "sensitivity": "high",
+  "status": "verified (E0926)",
+  "sources": [
+   "https://www.beritasatu.com/nasional/3042047/dukungan-jadi-wapres-menguat-dasco-serahkan-kepada-prabowo",
+   "https://www.cnbcindonesia.com/news/20261118154238-4-786357/ramai-didukung-jadi-wapres-pengganti-gibran-begini-reaksi-dasco"
+  ]
+ },
+ {
+  "lines": "a8",
+  "claim": "Thu 19 Nov, Defense Minister Sjafrie visited DPR leaders and met Dasco; Sjafrie denied discussing the VP issue.",
+  "numbers": "19 Nov",
+  "sensitivity": "high",
+  "status": "partial (E0956, CNN ×2)",
+  "sources": [
+   "https://www.cnnindonesia.com/nasional/20261119152412-32-1429044/temui-dasco-sjafrie-bantah-bahas-isu-cawapres-prabowo",
+   "https://www.cnnindonesia.com/nasional/20261119142950-32-1429017/menhan-sjafrie-sambangi-pimpinan-dpr-di-tengah-geliat-bursa-wapres"
+  ]
+ },
+ {
+  "lines": "a9",
+  "claim": "A video of Prabowo naming four VP replacements for Gibran (posted 16 Nov) is an old 2023 video, per fact-checkers.",
+  "numbers": "4 nama · 2023",
+  "sensitivity": "high",
+  "status": "partial (E0978)",
+  "sources": [
+   "https://hariannegeri.com/salah-video-prabowo-sebut-empat-nama-cawapres-pengganti-gibran",
+   "https://liputan6.com/cek-fakta/read/8337562/presiden-prabowo-subianto-jadi-sasaran-hoaks-simak-daftarnya"
+  ]
+ },
+ {
+  "lines": "a10",
+  "claim": "MPR members elect the VP from two names proposed by the President (UUD 1945 Pasal 8 ayat 2); no official name as of Thursday.",
+  "numbers": "2 nama",
+  "sensitivity": "high",
+  "status": "verified (weekly #4 claim a8; E0956)",
+  "sources": [
+   "https://www.liputan6.com/news/read/8333949/ketua-mpr-sejak-hari-ini-jabatan-wapres-alami-kekosongan",
+   "https://www.cnnindonesia.com/nasional/20261119142950-32-1429017/menhan-sjafrie-sambangi-pimpinan-dpr-di-tengah-geliat-bursa-wapres"
+  ]
+ },
+ {
+  "lines": "b1",
+  "claim": "Last week (12 Nov, Komisi III) Kapolri said Listyo Sigit allegedly acted as 'end user' of the wiretapping.",
+  "numbers": "12 Nov",
+  "sensitivity": "high",
+  "status": "verified (weekly #4 b2)",
+  "sources": [
+   "https://www.cnnindonesia.com/nasional/20261112134056-12-1426384/kapolri-listyo-sigit-diduga-sebagai-end-user-penyadapan-prabowo"
+  ]
+ },
+ {
+  "lines": "b4",
+  "claim": "Tue evening 17 Nov (announced 18 Nov), Bareskrim searched a house in Cipete, South Jakarta (Eko Hadi's house, per Viva/Kompas) and several other locations; per police (Dirtipidum Susatyo) suspected as a makar 'posko' linked to Irjen Eko Hadi Santoso.",
+  "numbers": "17 Nov malam",
+  "sensitivity": "high",
+  "status": "verified (fact-check FIX 2: Selasa malam)",
+  "sources": [
+   "https://nasional.kompas.com/read/2026/11/18/09455971/bareskrim-polri-geledah-rumah-irjen-eko-hadi-di-cipete-terkait-kasus-dugaan",
+   "https://www.antaranews.com/berita/5861435/polri-geledah-rumah-di-cipete-diduga-jadi-posko-makar-oleh-ehs",
+   "https://news.okezone.com/read/2026/11/18/337/3254842/polri-gerebek-rumah-posko-di-cipete-dan-sejumlah-lokasi-terkait-dugaan-makar-penyadapan-presiden",
+   "https://viva.co.id/berita/nasional/1944696-geger-bukan-cuma-rumah-irjen-eko-hadi-sejumlah-posko-makar-lokasi-penyadapan-prabowo-digerebek"
+  ]
+ },
+ {
+  "lines": "b5",
+  "claim": "Ethics: after Irjen Ahrie Sonta (PTDH, 10 Nov), Irjen Eko Hadi Santoso was also given PTDH at a KKEP hearing on Tue 17 Nov.",
+  "numbers": "PTDH · 17 Nov",
+  "sensitivity": "high",
+  "status": "partial (E0955) — RECHECK the 17 Nov PTDH in the detik/Kompas.id articles",
+  "sources": [
+   "https://news.detik.com/berita/d-8757575/digelar-pekan-depan-siapa-yang-akan-pimpin-sidang-etik-listyo-sigit",
+   "https://www.kompas.id/artikel/sidang-etik-listyo-sigit-digelar-minggu-depan-timsus-dalami-dugaan-makar",
+   "https://www.cnnindonesia.com/nasional/20261119085323-12-1428838/aturan-baru-sidang-etik-listyo-bisa-diadili-oleh-pangkat-lebih-rendah"
+  ]
+ },
+ {
+  "lines": "b6, g4",
+  "claim": "Listyo's ethics hearing is next week, per Polri (date not announced; 24 Nov mentioned only by Bangkapos, not used); under new Perpol 4/2026 Pasal 42 the panel can be chaired by a lower-ranked officer (up to two levels below).",
+  "numbers": "pekan depan",
+  "sensitivity": "high",
+  "status": "partial (E0955, E0976)",
+  "sources": [
+   "https://www.cnnindonesia.com/nasional/20261119085323-12-1428838/aturan-baru-sidang-etik-listyo-bisa-diadili-oleh-pangkat-lebih-rendah",
+   "https://news.detik.com/berita/d-8757575/digelar-pekan-depan-siapa-yang-akan-pimpin-sidang-etik-listyo-sigit",
+   "https://www.cnnindonesia.com/nasional/20261119131114-12-1428969/kompolnas-siapapun-bisa-pimpin-sidang-etik-listyo-asal-sesuai-perpol"
+  ]
+ },
+ {
+  "lines": "b7",
+  "claim": "Thu 19 Nov, Bareskrim held the case review (gelar perkara) on alleged makar with internal oversight, Kompolnas and experts; no outcome announced; per Dirtipidum Susatyo the findings go to an expose at Kejaksaan Agung (Fri 20 Nov). Re-check Fri 20 Nov: no Kejagung outcome found in search.",
+  "numbers": "19 Nov · 20 Nov",
+  "sensitivity": "high",
+  "status": "verified (fact-check FIX 1)",
+  "sources": [
+   "https://www.owrite.id/hukum/2026/11/19/bareskrim-periksa-59-saksi-kasus-makar-listyo-sigit-empat-jenderal-diperiksa-bukti-dibawa-ke-kejagung/",
+   "https://www.detik.com/bali/hukum-dan-kriminal/d-8759736/kasus-dugaan-makar-listyo-sigit-bareskrim-bawa-bukti-baru-ke-kejagung",
+   "https://www.liputan6.com/news/read/8338055/kasus-dugaan-makar-listyo-cs-masuk-babak-baru",
+   "https://news.detik.com/berita/d-8759146/bareskrim-gelar-perkara-dugaan-makar-listyo-sigit-dkk-besok-libatkan-ahli",
+   "https://news.okezone.com/read/2026/11/18/337/3254847/gelar-perkara-kasus-dugaan-makar-listyo-sigit-cs-dijadwalkan-digelar-besok"
+  ]
+ },
+ {
+  "lines": "c1, e1",
+  "claim": "Pak Budi is an illustration ('misalnya'), not a real person.",
+  "numbers": "-",
+  "sensitivity": "normal",
+  "status": "n/a",
+  "sources": []
+ },
+ {
+  "lines": "c3",
+  "claim": "Bloomberg survey before the decision: 11 of 32 economists expected a hike to 6%; median expected a hold at 5,75%. (CNN/other count: 17 of 38 — not used.)",
+  "numbers": "11 dari 32",
+  "sensitivity": "normal",
+  "status": "verified (E0891)",
+  "sources": [
+   "https://www.bloombergtechnoz.com/detail-news/127940/bi-rate-diramal-bertahan-di-5-75-tapi-suara-pasar-terbelah",
+   "https://nasional.kontan.co.id/news/bi-diprediksi-tahan-bi-rate-di-575-kenaikan-baru-berpeluang-di-akhir-2026"
+  ]
+ },
+ {
+  "lines": "c4",
+  "claim": "Rupiah closed stronger at Rp18.232/US$ on Wed 18 Nov, then weaker at Rp18.254 on Thu 19 Nov.",
+  "numbers": "Rp18.232 · Rp18.254",
+  "sensitivity": "normal",
+  "status": "verified 18 Nov (E0919); 19 Nov partial (E0952, Owrite + CNBC video)",
+  "sources": [
+   "https://investasi.kontan.co.id/news/kenaikan-bi-rate-jadi-amunisi-rupiah-menguat-ke-rp-18232-cek-proyeksi-kamis-1911",
+   "https://www.liputan6.com/bisnis/read/8337928/rupiah-menguat-ke-18232-per-dolar-as-setelah-bi-rate-naik",
+   "https://www.owrite.id/ekbis/2026/11/19/rupiah-ditutup-melemah-rp18-254-per-dolar-as-ihsg-merosot-102-persen/",
+   "https://www.cnbcindonesia.com/market/20261119121322-19-786588/video-bi-rate-naik-jadi-6-ihsg-volatil-rupiah-masih-melemah"
+  ]
+ },
+ {
+  "lines": "c5",
+  "claim": "IHSG fell two straight days: −1,07% to 5.247,88 (Wed 18 Nov), −1,02% to 5.194,14 (Thu 19 Nov).",
+  "numbers": "−1,07% · −1,02% · 5.194",
+  "sensitivity": "normal",
+  "status": "verified (E0918, E0951)",
+  "sources": [
+   "https://www.cnbcindonesia.com/market/20261118152552-17-786366/ihsg-ditutup-melemah-107-ke-level-52478",
+   "https://investasi.kontan.co.id/news/ihsg-ditutup-turun-107-ke-5247-pada-rabu-1811-bumi-indy-mbma-top-losers-lq45",
+   "https://www.cnbcindonesia.com/market/20261119155231-17-786678/ihsg-berakhir-di-zona-merah-melemah-102-ke-level-519414",
+   "https://www.owrite.id/ekbis/2026/11/19/rupiah-ditutup-melemah-rp18-254-per-dolar-as-ihsg-merosot-102-persen/"
+  ]
+ },
+ {
+  "lines": "c6",
+  "claim": "Per an analyst (Ibrahim Assuaibi, via Viva 19 Nov), Fed officials signalled further US rate hikes may be needed to curb inflation. Softened from the unopened CNBC 'notulen' wording (fact-check fallback).",
+  "numbers": "-",
+  "sensitivity": "normal",
+  "status": "verified (Viva) — softened",
+  "sources": [
+   "https://www.viva.co.id/bisnis/1944893-rupiah-ditutup-melemah-ke-rp18254-per-dolar-as-ini-sentimen-penekan-kurs",
+   "https://www.cnbcindonesia.com/market/20261119155231-17-786678/ihsg-berakhir-di-zona-merah-melemah-102-ke-level-519414",
+   "https://www.newsquawk.com/headlines/week-in-focus--16-20th-november-2026-highlights-include-us-retail-sales-fomc-minutes-chinese-activity-data-pboc-lpr-rba-minutes-uk-inflation-and-uk-jobs"
+  ]
+ },
+ {
+  "lines": "c7",
+  "claim": "A BI-Rate rise can pass through to loan rates incl. KPR, usually with a lag and depending on the bank and fixed/floating rate (general mechanism, no number).",
+  "numbers": "-",
+  "sensitivity": "normal",
+  "status": "verified as general mechanism (Minggu Depan 15 Nov claim; weekly #4 g6)",
+  "sources": [
+   "https://www.cnbcindonesia.com/news/20261103104715-4-781813/tekanan-inflasi-mengkhawatirkan-ekonom-ramal-bi-rate-naik-bulan-ini",
+   "https://investor.id/macroeconomy/460342/rupiah-tertekan-bi-diprediksi-naikkan-birate-ke-6-pada-november"
+  ]
+ },
+ {
+  "lines": "d3-d4",
+  "claim": "The law covers corruption plus narcotics, terrorism, smuggling and technology-based fraud (softened to Seputarfakta's list); allows conviction-based and non-conviction-based forfeiture; creates TWO bodies under the President: Badan Pengelola Aset and Badan Pengawas Perampasan Aset.",
+  "numbers": "2 badan",
+  "sensitivity": "normal",
+  "status": "verified (fact-check FIX 4 + d3 fallback)",
+  "sources": [
+   "https://seputarfakta.com/politik/setelah-18-tahun-dpr-ri-sahkan-uu-perampasan-aset-22985",
+   "https://parepos.co.id/berita/nasional/ruu-perampasan-aset-disahkan/",
+   "https://nasional.kontan.co.id/news/dpr-sahkan-uu-perampasan-aset-bentuk-dua-badan-khusus-di-bawah-presiden",
+   "https://news.detik.com/berita/d-8759953/uu-perampasan-aset-resmi-disahkan-bakal-ada-2-badan-baru",
+   "https://www.cnnindonesia.com/nasional/20261119104313-32-1428898/dpr-resmi-sahkan-ruu-perampasan-aset-jadi-undang-undang",
+   "https://www.kompas.id/artikel/dpr-sahkan-uu-perampasan-aset-penantian-18-tahun-berakhir",
+   "https://www.antaranews.com/berita/5862059/komisi-iii-dpr-setuju-ruu-perampasan-aset-dibawa-ke-paripurna"
+  ]
+ },
+ {
+  "lines": "d6",
+  "claim": "Per CNN Indonesia, illicit enrichment (unexplained wealth) was not included in the law; ICW criticised DPR for it. Softened: attributed to CNN Indonesia in the script. Re-search 20 Nov found no second outlet; background: JAMAK/academics opposed including it (Justisio, Oct).",
+  "numbers": "-",
+  "sensitivity": "normal",
+  "status": "UNVERIFIED body text (CNN headlines ×2) — attributed; cut d6 if the CNN body does not support it",
+  "sources": [
+   "https://www.cnnindonesia.com/nasional/20261119153017-12-1429049/dpr-tak-masukkan-illicit-enrichment-di-uu-perampasan-aset",
+   "https://www.cnnindonesia.com/nasional/20261119143524-12-1429022/icw-sentil-dpr-takut-atur-illicit-enrichment-di-uu-perampasan-aset"
+  ]
+ },
+ {
+  "lines": "e3",
+  "claim": "70% of adults faced a scam attempt in 12 months ('7 dari 10'); average loss per victim Rp4,89 juta.",
+  "numbers": "70% · Rp4,89 jt",
+  "sensitivity": "normal",
+  "status": "verified (daily 18 Nov)",
+  "sources": [
+   "https://www.cnbcindonesia.com/tech/20261117144210-37-785974/setahun-warga-ri-ketipu-rp1043-triliun-ada-yang-berulang-kali",
+   "https://katadata.co.id/digital/teknologi/6afc1ffaeca3b/kerugian-warga-ri-imbas-penipuan-rp-104-triliun-rerata-korban-rugi-rp-4-9-juta"
+  ]
+ },
+ {
+  "lines": "e4",
+  "claim": "47% of victims were scammed more than once in a year.",
+  "numbers": "47%",
+  "sensitivity": "normal",
+  "status": "verified (daily 18 Nov)",
+  "sources": [
+   "https://www.cnbcindonesia.com/tech/20261117144210-37-785974/setahun-warga-ri-ketipu-rp1043-triliun-ada-yang-berulang-kali",
+   "https://katadata.co.id/digital/teknologi/6afc1ffaeca3b/kerugian-warga-ri-imbas-penipuan-rp-104-triliun-rerata-korban-rugi-rp-4-9-juta"
+  ]
+ },
+ {
+  "lines": "e5",
+  "claim": "Komdigi is building a portal (cekdomain.komdigi.go.id, in trial) to check which numbers are registered to your NIK and report suspicious ones for blocking.",
+  "numbers": "-",
+  "sensitivity": "normal",
+  "status": "partial (E0875, 2 outlets)",
+  "sources": [
+   "https://inet.detik.com/law-and-policy/d-8755364/komdigi-bikin-portal-cek-nomor-hp-cegah-nik-disalahgunakan",
+   "https://kaltimpost.jawapos.com/nasional/2611160132/cegah-nik-disalahgunakan-komdigi-bikin-situs-cek-nomor-seluler"
+  ]
+ },
+ {
+  "lines": "g0",
+  "claim": "Last week's promise: BI decided on Wed 18 Nov (rate to 6%); the 18 Nov VP-names deadline shifted because the plenary moved to 9 Dec.",
+  "numbers": "18 Nov",
+  "sensitivity": "normal",
+  "status": "verified (E0917, E0898)",
+  "sources": [
+   "https://www.cnnindonesia.com/ekonomi/20261118141048-78-1428544/bank-indonesia-naikkan-suku-bunga-jadi-6-persen-per-november-2026",
+   "https://news.detik.com/berita/d-8755839/sidang-mpr-pemilihan-wapres-mundur-sepekan-ini-pertimbangannya"
+  ]
+ },
+ {
+  "lines": "g2",
+  "claim": "Menaker Yassierli: UMP 2027 must be set by Sat 21 Nov 2026; UMK by Wed 25 Nov.",
+  "numbers": "21 Nov · 25 Nov",
+  "sensitivity": "normal",
+  "status": "verified (E0921, 3 outlets)",
+  "sources": [
+   "https://www.cnbcindonesia.com/news/20261117133415-4-785953/menaker-penetapan-ump-2027-paling-lambat-21-november-umk-25-november",
+   "https://www.cnnindonesia.com/ekonomi/20261117143618-92-1428130/menaker-pastikan-penetapan-ump-2027-paling-telat-21-november-2027",
+   "https://megapolitan.antaranews.com/berita/562927/menaker-sebut-batas-penetapan-ump-2027-pada-21-november-2026"
+  ]
+ },
+ {
+  "lines": "g3",
+  "claim": "Danantara plans to publish its first public financial report (FY2025) tentatively on Mon 23 Nov, per COO Dony Oskaria.",
+  "numbers": "23 Nov · 2025",
+  "sensitivity": "normal",
+  "status": "partial (E0862, single source)",
+  "sources": [
+   "https://www.cnbcindonesia.com/market/20261115143832-17-785355/perhatian-danantara-bakal-rilis-laporan-keuangan-23-november"
+  ]
+ },
+ {
+  "lines": "g4",
+  "claim": "Per Kapolri (12 Nov), Listyo's current detention period runs until 23 Nov; it can be extended (script: 'akhir masa penahanan saat ini … bisa diperpanjang'). No extension found as of 20 Nov.",
+  "numbers": "23 Nov",
+  "sensitivity": "high",
+  "status": "verified (weekly #4 b8) — RECHECK for an extension before render",
+  "sources": [
+   "https://www.cnnindonesia.com/nasional/20261112134056-12-1426384/kapolri-listyo-sigit-diduga-sebagai-end-user-penyadapan-prabowo",
+   "https://kumparan.com/kumparannews/kronologi-kasus-penyadapan-dan-dugaan-makar-ke-presiden-berawal-dari-perintah-listyo-sigit-28YgrE23u5J"
+  ]
+ },
+ {
+  "lines": "g6",
+  "claim": "BNI: user access to BNI Mobile Banking closed gradually UNTIL 30 Nov 2026; full service shutdown 21 Dec 2026; replacement wondr by BNI.",
+  "numbers": "30 Nov · 21 Des",
+  "sensitivity": "normal",
+  "status": "verified (fact-check FIX 5)",
+  "sources": [
+   "https://www.bloombergtechnoz.com/detail-news/127404/bni-tutup-akses-layanan-bni-mobile-banking-akhir-november",
+   "https://www.cnnindonesia.com/ekonomi/20261111120209-78-1425801/bni-tutup-layanan-mobile-banking-bertahap-mulai-30-november-2026",
+   "https://keuangan.kontan.co.id/news/bni-bakal-tutup-layanan-bni-mobile-banking-30-november-dan-21-desember-2026"
+  ]
+ },
+ {
+  "lines": "caption only",
+  "claim": "Rupiah record-weak context not used; Nvidia, GTA VI, Anthropic IPO and Rp480 T procurement not in script (see draft.md).",
+  "numbers": "-",
+  "sensitivity": "normal",
+  "status": "n/a",
+  "sources": []
+ }
+]
