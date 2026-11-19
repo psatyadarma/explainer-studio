@@ -193,3 +193,8 @@ History moved out of HANDOFF.md (22 Oct) so fresh sessions read less. Append one
 - User picked ⭐ #1 + "ok to post" ~09:07. person_collage → story fallback (no licensed face). Full FC 4 fixes. Producer 86.8 s (voice retimed +4%), −14.9 LUFS; QA FIX 1 (CTA too short) → PASS round 2. Scheduled 19:00 at ~09:35 (job 93a23efa). Live: IG Df4WTrajFwC · YT QiqWwm0keiQ.
 - Analyst early reads: udara Jakarta 14 h IG 111 views / 17.5% (weak); Minggu Depan 62 h IG 128 / 20.7%, YT 1,403. Health: IG-missing WARN (known false alarm).
 - 2026-11-18 20:10 WITA IG insights: udara-jakarta 24 h (actual 25 h: 113 views, reach 105, 17.4% of 34.6 s, 0 follows) and minggu-depan 16–22 Nov 72 h (actual 73 h: 140 views, reach 119, 25.0% of 84.4 s, 0 follows) from Upload-Post + IG web insights. Skip rate still app-only → hold_3s n/a. No -b folders.
+
+## 2026-11-19 (Thu)
+- Sweeps 5/10/7/12 events (+34 merged; CNBC/Tempo/CNN pages often blocked). Ideas: ⭐ Kepuasan Prabowo 43→62% "kata Bakom" 11/12; light FC 2 fixes (#3 no hour for gelar perkara, #4 dropped "87 RDPU"/"15 Des"), #2 BI figures unverified.
+- User picked ⭐ #1 + "ok to post" (~08:00). Story hook PICK A "Misalnya Pak Budi baca satu angka di HP."; full FC 1 fix (h2 "Katanya," + "kata Bakom" tag). Producer 42.7 s short, block subs, name tags (Commons 429, no Syahganda photo); QA FIX (empty l1 frame; length FIX rejected: short format) → PASS round 2. Scheduled 19:00 at ~08:35 (job e90250c6). 18:00 news re-check + 19:20 link check scheduled.
+- Analyst early reads: penipuan 14 h IG 180 / 19.5% (low reach), YT 440; pengadaan 62 h IG 1,284 / 53.6%, YT 209. Health: IG-missing WARN (known false alarm).

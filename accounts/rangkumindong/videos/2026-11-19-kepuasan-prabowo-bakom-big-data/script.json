@@ -1,0 +1,76 @@
+{
+ "direction": "[calm, neutral, explaining to a friend]",
+ "format": "short",
+ "hook_style": "story",
+ "lines": [
+  {
+   "id": "h1",
+   "tag": "[storytelling, light]",
+   "text": "Misalnya Pak Budi baca satu angka di HP."
+  },
+  {
+   "id": "h2",
+   "tag": "[curious, teasing]",
+   "text": "Katanya, kepuasan ke Presiden naik jadi 62 persen. Angkanya dari mana?",
+   "say": "Katanya, kepuasan ke Presiden naik jadi enam puluh dua persen. Angkanya dari mana?"
+  },
+  {
+   "id": "rd",
+   "tagline": true,
+   "text": "Rangkumin dong!"
+  },
+  {
+   "id": "l1",
+   "tag": "[matter-of-fact]",
+   "text": "Yang bilang: Kepala Bakom, Syahganda Nainggolan.",
+   "say": "Yang bilang: Kepala Bakom, Syahganda Nainggolan."
+  },
+  {
+   "id": "l2",
+   "tag": "[neutral, clear]",
+   "text": "Kata Bakom, kepuasan ke Presiden Prabowo naik dari 43 ke 62-63 persen.",
+   "say": "Kata Bakom, kepuasan ke Presiden Prabowo naik dari empat puluh tiga, ke enam puluh dua sampai enam puluh tiga persen."
+  },
+  {
+   "id": "l3",
+   "tag": "[matter-of-fact]",
+   "text": "Itu setelah Listyo Sigit dkk ditangkap, kasus dugaan penyadapan.",
+   "say": "Itu setelah Listyo Sigit dan kawan-kawan ditangkap, kasus dugaan penyadapan."
+  },
+  {
+   "id": "l4",
+   "tag": "[curious, quick]",
+   "text": "Sumbernya? Kata Bakom: pantauan big data.",
+   "say": "Sumbernya? Kata Bakom: pantauan big deta."
+  },
+  {
+   "id": "l5",
+   "tag": "[thoughtful, slower]",
+   "text": "Tapi yang belum dibuka: data dari mana, periode kapan, cara hitungnya.",
+   "say": "Tapi yang belum dibuka: data dari mana, periode kapan, cara hitungnya."
+  },
+  {
+   "id": "l6",
+   "tag": "[matter-of-fact]",
+   "text": "Sampel dan margin of error juga tidak disebut.",
+   "say": "Sampel dan margin of eror juga tidak disebut."
+  },
+  {
+   "id": "l7",
+   "tag": "[neutral, quoting]",
+   "text": "Syahganda sendiri bilang: \"Saya nggak bilang itu terkait dengan Pak Listyo Sigit.\"",
+   "say": "Syahganda sendiri bilang: saya nggak bilang itu terkait dengan Pak Listyo Sigit."
+  },
+  {
+   "id": "cta",
+   "tag": "[playful, asking the viewer]",
+   "text": "Angka kayak gini, apa yang pertama kamu cek? Komen!"
+  },
+  {
+   "id": "end",
+   "tag": "[friendly, upbeat]",
+   "text": "Follow Rangkumin Dong, biar nggak ketinggalan!"
+  }
+ ],
+ "tail": 0.9
+}

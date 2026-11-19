@@ -1,0 +1,602 @@
+{
+ "duration": 42.691,
+ "voice": "Pratama",
+ "lines": [
+  {
+   "id": "h1",
+   "text": "Misalnya Pak Budi baca satu angka di HP.",
+   "start": 0.267,
+   "end": 2.668,
+   "words": [
+    {
+     "w": "Misalnya",
+     "start": 0.267,
+     "end": 0.613
+    },
+    {
+     "w": "Pak",
+     "start": 0.653,
+     "end": 0.773
+    },
+    {
+     "w": "Budi",
+     "start": 0.813,
+     "end": 1.093
+    },
+    {
+     "w": "baca",
+     "start": 1.133,
+     "end": 1.413
+    },
+    {
+     "w": "satu",
+     "start": 1.461,
+     "end": 1.653
+    },
+    {
+     "w": "angka",
+     "start": 1.713,
+     "end": 2.053
+    },
+    {
+     "w": "di",
+     "start": 2.08,
+     "end": 2.133
+    },
+    {
+     "w": "HP.",
+     "start": 2.293,
+     "end": 2.668
+    }
+   ]
+  },
+  {
+   "id": "h2",
+   "text": "Katanya, kepuasan ke Presiden naik jadi 62 persen. Angkanya dari mana?",
+   "start": 2.879,
+   "end": 7.569,
+   "words": [
+    {
+     "w": "Katanya,",
+     "start": 2.879,
+     "end": 3.399
+    },
+    {
+     "w": "kepuasan",
+     "start": 3.479,
+     "end": 3.959
+    },
+    {
+     "w": "ke",
+     "start": 4.012,
+     "end": 4.119
+    },
+    {
+     "w": "Presiden",
+     "start": 4.167,
+     "end": 4.679
+    },
+    {
+     "w": "naik",
+     "start": 4.786,
+     "end": 5.159
+    },
+    {
+     "w": "jadi",
+     "start": 5.199,
+     "end": 5.399
+    },
+    {
+     "w": "62",
+     "start": 5.431,
+     "end": 5.879
+    },
+    {
+     "w": "persen.",
+     "start": 5.927,
+     "end": 6.529
+    },
+    {
+     "w": "Angkanya",
+     "start": 6.569,
+     "end": 6.929
+    },
+    {
+     "w": "dari",
+     "start": 6.977,
+     "end": 7.169
+    },
+    {
+     "w": "mana?",
+     "start": 7.233,
+     "end": 7.569
+    }
+   ]
+  },
+  {
+   "id": "rd",
+   "text": "Rangkumin dong!",
+   "start": 7.816,
+   "end": 8.775,
+   "words": [
+    {
+     "w": "Rangkumin",
+     "start": 7.816,
+     "end": 8.295
+    },
+    {
+     "w": "dong!",
+     "start": 8.295,
+     "end": 8.775
+    }
+   ]
+  },
+  {
+   "id": "l1",
+   "text": "Yang bilang: Kepala Bakom, Syahganda Nainggolan.",
+   "start": 9.298761904761905,
+   "end": 12.039761904761905,
+   "words": [
+    {
+     "w": "Yang",
+     "start": 9.299,
+     "end": 9.32
+    },
+    {
+     "w": "bilang:",
+     "start": 9.36,
+     "end": 9.68
+    },
+    {
+     "w": "Kepala",
+     "start": 9.7,
+     "end": 9.96
+    },
+    {
+     "w": "Bakom,",
+     "start": 10.02,
+     "end": 10.44
+    },
+    {
+     "w": "Syahganda",
+     "start": 10.547,
+     "end": 11.32
+    },
+    {
+     "w": "Nainggolan.",
+     "start": 11.373,
+     "end": 12.04
+    }
+   ]
+  },
+  {
+   "id": "l2",
+   "text": "Kata Bakom, kepuasan ke Presiden Prabowo naik dari 43 ke 62-63 persen.",
+   "start": 12.403761904761906,
+   "end": 18.589761904761907,
+   "words": [
+    {
+     "w": "Kata",
+     "start": 12.404,
+     "end": 12.43
+    },
+    {
+     "w": "Bakom,",
+     "start": 12.49,
+     "end": 12.91
+    },
+    {
+     "w": "kepuasan",
+     "start": 12.99,
+     "end": 13.55
+    },
+    {
+     "w": "ke",
+     "start": 13.577,
+     "end": 13.63
+    },
+    {
+     "w": "Presiden",
+     "start": 13.678,
+     "end": 14.03
+    },
+    {
+     "w": "Prabowo",
+     "start": 14.083,
+     "end": 14.59
+    },
+    {
+     "w": "naik",
+     "start": 14.697,
+     "end": 15.07
+    },
+    {
+     "w": "dari",
+     "start": 15.102,
+     "end": 15.23
+    },
+    {
+     "w": "43",
+     "start": 15.283,
+     "end": 16.11
+    },
+    {
+     "w": "ke",
+     "start": 16.163,
+     "end": 16.27
+    },
+    {
+     "w": "62-63",
+     "start": 16.318,
+     "end": 18.03
+    },
+    {
+     "w": "persen.",
+     "start": 18.094,
+     "end": 18.59
+    }
+   ]
+  },
+  {
+   "id": "l3",
+   "text": "Itu setelah Listyo Sigit dkk ditangkap, kasus dugaan penyadapan.",
+   "start": 18.819761904761904,
+   "end": 22.819761904761904,
+   "words": [
+    {
+     "w": "Itu",
+     "start": 18.82,
+     "end": 19.06
+    },
+    {
+     "w": "setelah",
+     "start": 19.12,
+     "end": 19.46
+    },
+    {
+     "w": "Listyo",
+     "start": 19.508,
+     "end": 19.78
+    },
+    {
+     "w": "Sigit",
+     "start": 19.82,
+     "end": 20.1
+    },
+    {
+     "w": "dkk",
+     "start": 20.14,
+     "end": 20.74
+    },
+    {
+     "w": "ditangkap,",
+     "start": 20.78,
+     "end": 21.385
+    },
+    {
+     "w": "kasus",
+     "start": 21.44,
+     "end": 21.78
+    },
+    {
+     "w": "dugaan",
+     "start": 21.82,
+     "end": 22.1
+    },
+    {
+     "w": "penyadapan.",
+     "start": 22.148,
+     "end": 22.82
+    }
+   ]
+  },
+  {
+   "id": "l4",
+   "text": "Sumbernya? Kata Bakom: pantauan big data.",
+   "start": 23.250761904761905,
+   "end": 25.719761904761903,
+   "words": [
+    {
+     "w": "Sumbernya?",
+     "start": 23.251,
+     "end": 23.645
+    },
+    {
+     "w": "Kata",
+     "start": 23.645,
+     "end": 23.85
+    },
+    {
+     "w": "Bakom:",
+     "start": 23.91,
+     "end": 24.33
+    },
+    {
+     "w": "pantauan",
+     "start": 24.426,
+     "end": 25.08
+    },
+    {
+     "w": "big",
+     "start": 25.14,
+     "end": 25.32
+    },
+    {
+     "w": "data.",
+     "start": 25.36,
+     "end": 25.72
+    }
+   ]
+  },
+  {
+   "id": "l5",
+   "text": "Tapi yang belum dibuka: data dari mana, periode kapan, cara hitungnya.",
+   "start": 26.068761904761907,
+   "end": 30.11976190476191,
+   "words": [
+    {
+     "w": "Tapi",
+     "start": 26.069,
+     "end": 26.12
+    },
+    {
+     "w": "yang",
+     "start": 26.152,
+     "end": 26.28
+    },
+    {
+     "w": "belum",
+     "start": 26.307,
+     "end": 26.44
+    },
+    {
+     "w": "dibuka:",
+     "start": 26.48,
+     "end": 27.0
+    },
+    {
+     "w": "data",
+     "start": 27.096,
+     "end": 27.4
+    },
+    {
+     "w": "dari",
+     "start": 27.432,
+     "end": 27.56
+    },
+    {
+     "w": "mana,",
+     "start": 27.64,
+     "end": 28.04
+    },
+    {
+     "w": "periode",
+     "start": 28.136,
+     "end": 28.6
+    },
+    {
+     "w": "kapan,",
+     "start": 28.68,
+     "end": 29.16
+    },
+    {
+     "w": "cara",
+     "start": 29.24,
+     "end": 29.56
+    },
+    {
+     "w": "hitungnya.",
+     "start": 29.6,
+     "end": 30.12
+    }
+   ]
+  },
+  {
+   "id": "l6",
+   "text": "Sampel dan margin of error juga tidak disebut.",
+   "start": 30.507761904761907,
+   "end": 32.5397619047619,
+   "words": [
+    {
+     "w": "Sampel",
+     "start": 30.508,
+     "end": 30.7
+    },
+    {
+     "w": "dan",
+     "start": 30.74,
+     "end": 30.86
+    },
+    {
+     "w": "margin",
+     "start": 30.906,
+     "end": 31.18
+    },
+    {
+     "w": "of",
+     "start": 31.207,
+     "end": 31.26
+    },
+    {
+     "w": "error",
+     "start": 31.34,
+     "end": 31.58
+    },
+    {
+     "w": "juga",
+     "start": 31.628,
+     "end": 31.82
+    },
+    {
+     "w": "tidak",
+     "start": 31.86,
+     "end": 32.06
+    },
+    {
+     "w": "disebut.",
+     "start": 32.1,
+     "end": 32.54
+    }
+   ]
+  },
+  {
+   "id": "l7",
+   "text": "Syahganda sendiri bilang: \"Saya nggak bilang itu terkait dengan Pak Listyo Sigit.\"",
+   "start": 32.751761904761906,
+   "end": 36.514761904761905,
+   "words": [
+    {
+     "w": "Syahganda",
+     "start": 32.752,
+     "end": 33.085
+    },
+    {
+     "w": "sendiri",
+     "start": 33.133,
+     "end": 33.405
+    },
+    {
+     "w": "bilang:",
+     "start": 33.465,
+     "end": 33.806
+    },
+    {
+     "w": "\"Saya",
+     "start": 33.901,
+     "end": 34.285
+    },
+    {
+     "w": "nggak",
+     "start": 34.312,
+     "end": 34.565
+    },
+    {
+     "w": "bilang",
+     "start": 34.595,
+     "end": 34.845
+    },
+    {
+     "w": "itu",
+     "start": 34.885,
+     "end": 35.005
+    },
+    {
+     "w": "terkait",
+     "start": 35.037,
+     "end": 35.405
+    },
+    {
+     "w": "dengan",
+     "start": 35.428,
+     "end": 35.565
+    },
+    {
+     "w": "Pak",
+     "start": 35.605,
+     "end": 35.725
+    },
+    {
+     "w": "Listyo",
+     "start": 35.757,
+     "end": 35.965
+    },
+    {
+     "w": "Sigit.\"",
+     "start": 36.045,
+     "end": 36.515
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "text": "Angka kayak gini, apa yang pertama kamu cek? Komen!",
+   "start": 36.65976190476191,
+   "end": 39.67476190476191,
+   "words": [
+    {
+     "w": "Angka",
+     "start": 36.66,
+     "end": 36.86
+    },
+    {
+     "w": "kayak",
+     "start": 36.9,
+     "end": 37.1
+    },
+    {
+     "w": "gini,",
+     "start": 37.18,
+     "end": 37.74
+    },
+    {
+     "w": "apa",
+     "start": 37.82,
+     "end": 38.06
+    },
+    {
+     "w": "yang",
+     "start": 38.092,
+     "end": 38.22
+    },
+    {
+     "w": "pertama",
+     "start": 38.252,
+     "end": 38.54
+    },
+    {
+     "w": "kamu",
+     "start": 38.572,
+     "end": 38.7
+    },
+    {
+     "w": "cek?",
+     "start": 38.78,
+     "end": 39.065
+    },
+    {
+     "w": "Komen!",
+     "start": 39.09,
+     "end": 39.675
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "text": "Follow Rangkumin Dong, biar nggak ketinggalan!",
+   "start": 39.938761904761904,
+   "end": 41.819761904761904,
+   "words": [
+    {
+     "w": "Follow",
+     "start": 39.939,
+     "end": 39.98
+    },
+    {
+     "w": "Rangkumin",
+     "start": 40.06,
+     "end": 40.38
+    },
+    {
+     "w": "Dong,",
+     "start": 40.428,
+     "end": 40.78
+    },
+    {
+     "w": "biar",
+     "start": 40.833,
+     "end": 41.02
+    },
+    {
+     "w": "nggak",
+     "start": 41.047,
+     "end": 41.22
+    },
+    {
+     "w": "ketinggalan!",
+     "start": 41.24,
+     "end": 41.82
+    }
+   ]
+  }
+ ]
+}
