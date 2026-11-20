@@ -1,0 +1,92 @@
+{
+  "area": "politics",
+  "run_date": "2026-11-21",
+  "checked": ["detik news index", "ANTARA politik (stale page 77, 29 Oct)", "jpnn indeks headline", "CNN Indonesia (not readable)", "Tempo (not reachable)", "Presiden/Wapres/Istana", "DPR bills (RUU Perampasan Aset)", "KPK", "Kejagung", "Polri", "storyline: gibran-ijazah-mk", "storyline: listyo-sigit-penyadapan", "storyline: corruption-cases", "storyline: pengadaan-480t (not searched separately)"],
+  "events": [
+    {
+      "date": "2026-11-21",
+      "category": "POL",
+      "event": "Former Polhukam minister Mahfud MD urged President Prabowo and MPR leaders to be careful in setting the schedule for choosing Gibran's replacement as Vice President.",
+      "key_numbers": "MPR plenary moved from 2 Dec to 9 Dec 2026 · Mahfud statement 21 Nov 2026 01:01 WIB",
+      "storyline": "gibran-ijazah-mk",
+      "update_of": "E0898",
+      "status": "partial",
+      "sources": [{"label": "JPNN", "url": "https://www.jpnn.com/news/mahfud-md-ingatkan-prabowo-soal-pemilihan-pengganti-gibran"}],
+      "why_it_matters": "Who becomes Indonesia's next Vice President, and how fast, is being decided now.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-20",
+      "category": "POL",
+      "event": "The one-week deadline Prabowo gave coalition party leaders at the 13 Nov Bogor Palace meeting to prepare vice-presidential nominee names fell around 20 Nov; parties are to be invited again after his overseas trip.",
+      "key_numbers": "Meeting 13 Nov 2026 · deadline about 1 week · PAN's Zulkifli Hasan says PAN will not field a cadre through 2029 and suggests a Gerindra figure",
+      "storyline": "gibran-ijazah-mk",
+      "update_of": "E0898",
+      "status": "upcoming",
+      "sources": [{"label": "Katadata", "url": "https://katadata.co.id/berita/nasional/6af7e9895ee5f/poin-hasil-pertemuan-prabowo-dan-parpol-koalisi-setor-nama-cawapres-pekan-depan"}, {"label": "JPNN", "url": "https://www.jpnn.com/news/soal-pertemuan-ketum-parpol-bahas-wapres-presiden-pks-saya-diminta-standby-di-jakarta"}],
+      "why_it_matters": "The coalition's pick for Vice President is expected to emerge from these closed-door talks.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 0, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-23",
+      "category": "POL",
+      "event": "Polri says the ethics hearing (KKEP) of former Kapolri Listyo Sigit over the alleged illegal wiretapping of President Prabowo will be held the following week; exact day and panel not yet announced.",
+      "key_numbers": "Hearing 'next week' per Polri spokesperson (reported 17 Nov 2026) · Irjen Ahrie Sonta already given PTDH (dishonourable discharge) in a related case · Sigit named a suspect",
+      "storyline": "listyo-sigit-penyadapan",
+      "update_of": "E0955",
+      "status": "upcoming",
+      "sources": [{"label": "Justisio", "url": "https://justisio.com/berita/2026-11-17-sidang-etik-mantan-kapolri-listyo-sigit-terkait-penyadapan-presiden-di"}, {"label": "Journalarta", "url": "https://journalarta.com/news/2026/11/17/jenderal-listyo-sigit-jalani-sidang-etik-kasus-penyadapan-pekan-depan/"}],
+      "why_it_matters": "A former national police chief faces possible dismissal, a first for Polri.",
+      "signals": {"spreading": 2, "wallet": 0, "surprise": 2, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "Multiple outlets covering; date given is approximate (week of 23 Nov)",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-20",
+      "category": "POL",
+      "event": "A legal observer said the newly passed Asset Forfeiture Law would let the state seize crime-derived assets even if moved to family or companies, and noted some provisions could be challenged at the Constitutional Court.",
+      "key_numbers": "Passed by DPR plenary 19 Nov 2026 · reportedly takes effect about 1 year after passage · protects good-faith third parties",
+      "storyline": "corruption-cases",
+      "update_of": "E0953",
+      "status": "partial",
+      "sources": [{"label": "detikNews", "url": "https://news.detik.com/berita/d-8761099/uu-perampasan-aset-disebut-bikin-koruptor-tak-bisa-nikmati-hasil-korupsi"}],
+      "why_it_matters": "Corruptors could lose their loot, not just serve prison time, once the law is in force.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "On detik index",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-19",
+      "category": "POL",
+      "event": "KPK questioned BNPB Secretary-General Rustian again as a witness in the disaster emergency-fund (DSP) corruption case, probing direct appointment of private vendors and kickbacks.",
+      "key_numbers": "5 suspects · alleged bribes Rp 4.8 billion + 325 grams of gold + SGD/USD sums · earlier 7-hour examination on 27 Oct 2026",
+      "storyline": "corruption-cases",
+      "update_of": "",
+      "status": "partial",
+      "sources": [{"label": "detikNews", "url": "https://news.detik.com/berita/d-8761087/kpk-cecar-sestama-bnpb-soal-plotting-anggaran-dana-bencana-ke-swasta"}],
+      "why_it_matters": "Money meant for disaster victims is alleged to have gone to favoured vendors.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-19",
+      "category": "POL",
+      "event": "KPK questioned Tanjung Emas (Semarang) customs office head Khoirul Hadziq as a witness in the Bea Cukai import bribery case, asking about a seized container.",
+      "key_numbers": "8 suspects total · BlueRay Cargo allegedly paid about Rp 61.9 billion to customs officials Jul 2025-Jan 2026 · Rp 3.25 billion to suspect Gatot Heroe Hernanda · verdicts so far: ex-director Rizal 9 years",
+      "storyline": "corruption-cases",
+      "update_of": "E0868",
+      "status": "partial",
+      "sources": [{"label": "detikNews", "url": "https://news.detik.com/berita/d-8761062/kpk-periksa-kepala-bea-cukai-tanjung-emas-usut-soal-kontainer-yang-disita"}],
+      "why_it_matters": "Shows how import routes were allegedly bought inside customs, raising prices and smuggling risk.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "",
+      "sensitivity": "high"
+    }
+  ],
+  "gaps": ["CNN Indonesia and Tempo section pages were not readable; ANTARA politik page returned was stale (29 Oct)", "PKS president 'asked to stand by in Jakarta' for a party leaders' meeting on the vice presidency: seen only as a JPNN headline, date and result unverified", "Exact date of Listyo Sigit ethics hearing and panel not announced", "Kejagung nickel-corruption and MBG case updates not verified for the last 48 hours", "No demonstrations or MK rulings found in headlines scanned"]
+}

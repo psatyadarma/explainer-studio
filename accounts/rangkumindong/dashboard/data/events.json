@@ -1,295 +1,5 @@
 [
 {
-"id": "E0057",
-"date": "2026-10-21",
-"category": "ECO",
-"event": "Bank Indonesia holds its quarterly RDG on 20-21 October with the BI-Rate decision due on the second day (21 October), under rupiah above Rp18,000 and market turmoil. (update of E0037)",
-"key_numbers": "BI-Rate 5.75% (held 23 Sep, highest since Apr 2025) · decision/press conference 21 Oct · bank credit growth data also due 21 Oct · M2 money supply due 23 Oct · next RDG 17-18 Nov (announcement 18 Nov) · BI forex reserves US$146.3 B (end-Sep) · September inflation 3.28% y/y · economist consensus for this meeting not found",
-"storyline": "rupiah",
-"status": "upcoming",
-"upcoming": false
-},
-{
-"id": "E0125",
-"date": "2026-10-21",
-"category": "ECO",
-"event": "Bank Indonesia announces its October BI-Rate decision on 21 Oct (RDG 20-21 Oct); Kontan polls and analysts split between a hold at 5.75% and a 25 bp hike to 6.00%, with Citi calling a hike a possible pre-emptive step to stop equity outflows spreading to bonds and the rupiah. (update of E0057)",
-"key_numbers": "Current BI-Rate 5.75% (held 22-23 Sep) · possible 6.00% · Deposit Facility 4.75% · Lending Facility 6.50% · 10-year SBN yield 7.169% on 16 Oct (reports of 7.46% after the MSCI news are unverified) · rupiah about Rp18,046",
-"storyline": "rupiah",
-"status": "upcoming",
-"upcoming": false
-},
-{
-"id": "E0167",
-"date": "2026-10-21",
-"category": "ECO",
-"event": "Bank Indonesia is due to announce its October BI-Rate decision on 21 October after the 20-21 October RDG; the latest pre-decision polls lean towards a 25 bp hike to 6.00% but a hold at 5.75% remains a live alternative. (update of E0125) (update of E0125)",
-"key_numbers": "Current BI-Rate 5.75% (cumulative +100 bp in May-Jun 2026 from 4.75%, held since July) · Bisnis BIG Consensus (20 Oct): 8 of 14 expect hike (7x +25 bp to 6.00%, 1x +50 bp to 6.25%), 6 of 14 hold; all 14 call stance hawkish · CNBC Indonesia Research poll (20 Oct): 10 of 13 expect +25 bp to 6.00%, 3 hold · BRI Danareksa Sekuritas and LPEM FEB UI expect hold at 5.75% · Sep inflation 3.28% y/y (core 2.84%) vs target 2.5% +/-1% · FX reserves US$146.3 B (end-Sep) · rupiah closed Rp17,995/US$ on 20 Oct · announcement time: about 14:00 WIB per coordinator, no source states a clock time yet",
-"storyline": "rupiah",
-"status": "upcoming",
-"upcoming": false
-},
-{
-"id": "E0201",
-"date": "2026-10-21",
-"category": "NEWS",
-"event": "Komdigi Minister Meutya Hafid denies that Komdigi removed or requested removal of karhutla content, after celebrities and SAFEnet complained of suspected shadowbanning on Instagram/Threads and a removed TikTok video from Siak's regent.",
-"key_numbers": "Tasya Farasya IG Story views >1 juta -> ~85.000 · Siak TikTok video removed after >5 juta views, later restored · Komdigi earlier admitted 486 content takedowns tied to Aug 2026 demonstrations",
-"storyline": "karhutla",
-"status": "verified",
-"upcoming": false
-},
-{
-"id": "E0203",
-"date": "2026-10-21",
-"category": "TECH",
-"event": "LG CNS Indonesia's president director says early Coretax problems were resolved with a Korean technical team and the system is now more stable; the firm says it does not run daily operations.",
-"key_numbers": "Coretax contract Rp1,23 triliun · consortium LG CNS + Qualysoft · nationwide use since Jan 2025 · LG CNS in Indonesia since 2006 · claim of stability not independently verified",
-"storyline": "",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0204",
-"date": "2026-10-21",
-"category": "TECH",
-"event": "LG CNS Indonesia plans a data centre with Sinar Mas, with trial operation planned for 1 December 2026, and acknowledges public concern over electricity and water use.",
-"key_numbers": "Trial operation 1 Des 2026 · no MW, investment or location disclosed · executive says facility will affect power and water use",
-"storyline": "",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0206",
-"date": "2026-10-21",
-"category": "TECH",
-"event": "Indonesia Anti-Scam Centre (OJK) data shows 637,055 financial-fraud reports between 22 Nov 2024 and 31 Jul 2026, with 607,210 accounts blocked and Rp724.1 billion in fraud funds frozen.",
-"key_numbers": "637.055 laporan · 1.179.881 rekening dilaporkan/diverifikasi · 607.210 rekening diblokir · Rp724,1 miliar diblokir · Rp204,3 miliar dikembalikan ke korban · period 22 Nov 2024-31 Jul 2026 · total victim losses not stated",
-"storyline": "",
-"status": "verified",
-"upcoming": false
-},
-{
-"id": "E0209",
-"date": "2026-10-21",
-"category": "POL",
-"event": "KPK says Rp800 million in cash handed over by Hercules Rosario de Marshal's lawyer allegedly came from PT Summarecon Agung to secure its Bogor land and to lift a land-office blockade, with ATR/BPN officials alleged to have been bribed.",
-"key_numbers": "Rp800 juta seized (KPK statement 15 Oct) · 8 suspects named (per article meta, details not read) · land in Bogor Regency",
-"storyline": "",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0211",
-"date": "2026-10-21",
-"category": "NEWS",
-"event": "Bareskrim (Dittipidter) reveals a smuggling ring that sent baby lobster seeds from Pangandaran via Depok repacking to Vietnam, allegedly 40 times in about four months.",
-"key_numbers": "73,000 seeds intercepted · ~3.5 juta seeds estimated overall at Rp80,000 each = Rp280 miliar (detik; another detik story cites Rp178 miliar) · 40 operations · 4 months · UU 31/2004 Pasal 92, >5 years, possible TPPU",
-"storyline": "",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0212",
-"date": "2026-10-21",
-"category": "NEWS",
-"event": "BRIN's Thomas Djamaluddin says metal debris found in a palm plantation in Kotawaringin Timur, Central Kalimantan, is from China's ZhuQue-2E rocket.",
-"key_numbers": "Boom heard Sun 18 Oct · debris found Mon 19 Oct · BRIN statement Wed 21 Oct · second object found (dome-shaped, ~faded yellow, dimensions not given) · PT Agro Bukit plantation km 26",
-"storyline": "",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0213",
-"date": "2026-10-21",
-"category": "ENV",
-"event": "Police name 11 corporations as karhutla suspects, three of them foreign-owned, according to a Kompas headline. (update of E0021)",
-"key_numbers": "11 corporations · 3 foreign (headline only; article body blocked by robots)",
-"storyline": "karhutla",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0214",
-"date": "2026-10-21",
-"category": "ENV",
-"event": "BNPB reports progress on karhutla in six priority provinces while Central Kalimantan remains the worst; a further 60 ha burn in Palolo, Sigi (Central Sulawesi) and the Forestry Ministry calls for public participation. (update of E0157)",
-"key_numbers": "454.25 ha extinguished of 1,024.33 ha target (as of 19 Oct) · ~570.08 ha still being handled · Kalteng target 452.49 ha: 63.10 ha out, 389.39 ha not yet · outside-priority areas 572.90 ha · Palolo Sigi 60 ha · inversion layer 6,000-7,000 ft",
-"storyline": "karhutla",
-"status": "verified",
-"upcoming": false
-},
-{
-"id": "E0215",
-"date": "2026-10-21",
-"category": "POL",
-"event": "KPK widens the BNPB disaster-fund (DSP) case: it says the alleged corruption is tied to procurement for fires, floods, landslides and aid for displaced people, with 8 locations searched and documents, money and vehicles seized. (update of E0069)",
-"key_numbers": "8 locations searched · KPK statement 20 Oct 22:51 WIB · fund misuse probed since 2022 · earlier 5 suspects (14 Oct)",
-"storyline": "karhutla",
-"status": "verified",
-"upcoming": false
-},
-{
-"id": "E0216",
-"date": "2026-10-21",
-"category": "POL",
-"event": "Pati Regent Sudewo (spelled Sudewa by ANTARA) is sentenced to 8.5 years in prison, per an ANTARA headline.",
-"key_numbers": "8.5 years (headline only; fine and charges not read) · prosecutors had demanded 8.5 years and revocation of political rights (per search snippets)",
-"storyline": "corruption-cases",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0219",
-"date": "2026-10-21",
-"category": "NEWS",
-"event": "Antara's Humaniora and terpopuler lists show MBG governance reform (BGN 'MBG 2.0') and Bulog-DPR food aid distribution covering three months' allocation. (update of E0163)",
-"key_numbers": "Bantuan pangan allocation for 3 months (amount per household not read)",
-"storyline": "",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0221",
-"date": "2026-10-21",
-"category": "ECO",
-"event": "Bank Indonesia held the BI-Rate at 5.75% at its October RDG but raised the Deposit Facility rate to 5%, citing rupiah pressure, global uncertainty and tight US monetary policy. (update of E0167)",
-"key_numbers": "BI-Rate 5.75% (hold) · Deposit Facility 5.00% (+25 bp) · Lending Facility 6.50% unchanged · Sept inflation 3.28% y/y (core 2.88%, volatile food 5.03%) · bank credit +13.21% y/y (investment credit +23.2%) · 2026 growth range 4.9-5.7%",
-"storyline": "rupiah",
-"status": "verified",
-"upcoming": false
-},
-{
-"id": "E0223",
-"date": "2026-10-21",
-"category": "MKT",
-"event": "OJK and Bareskrim detailed sanctions totalling Rp2.1 trillion in the DSSA, BREN and CUAN share cases, fining a market-manipulation customer and entities that hid the identities of share buyers. (update of E0053)",
-"key_numbers": "DSSA: PT SMT fined Rp1.5 T, nine brokers fined, one licence suspended 1 year · BREN: AH Ltd fined Rp500 B · CUAN: TC Pte Ltd fined Rp100 B, two brokers fined, one licence suspended 3 months · total Rp2.1 T",
-"storyline": "msci-reclassification",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0224",
-"date": "2026-10-21",
-"category": "MKT",
-"event": "President Prabowo said Indonesia is not afraid of MSCI, and OJK's chief responded, as Airlangga called the market tremors not disruptive and MSCI's timeline runs to a June 2027 final decision.",
-"key_numbers": "MSCI consultation until Apr 2027 · final decision by 30 Jun 2027 · IHSG 21 Oct close 5,328",
-"storyline": "msci-reclassification",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0225",
-"date": "2026-10-21",
-"category": "ECO",
-"event": "Manpower Minister Yassierli said the 2027 minimum wage formula will follow the new labour law and no percentage is set, while unions propose a 7.5-9.5% rise.",
-"key_numbers": "Union proposal 7.5-9.5% · union formula (inflation 3.20% + growth 5.43%) x index 0.9 = about 7.8% (our calc) · PP 49/2025 index 0.5-0.9 · new labour law passed by DPR 6 Oct · union protests 15-30 Oct in 38 provinces · wage setting reported scheduled around 1 Nov",
-"storyline": "",
-"status": "verified",
-"upcoming": false
-},
-{
-"id": "E0226",
-"date": "2026-10-21",
-"category": "ECO",
-"event": "Coordinating Minister Airlangga said the government has prepared about Rp31.8 trillion for a wage subsidy (BSU), rice aid and a Christmas-New Year transport discount running through end-2026.",
-"key_numbers": "Total Rp31.8 T · rice aid 10 kg per recipient (reported as 10 kg for 3 months, extended to year-end) · per-programme amounts and eligibility not stated",
-"storyline": "",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0227",
-"date": "2026-10-21",
-"category": "ECO",
-"event": "Energy Minister Bahlil said the government is considering not extending gas exports to neighbouring countries so domestic needs come first, following Prabowo's 'survival mode' call at a cabinet plenary.",
-"key_numbers": "Volumes, destinations and contract dates not stated · described as an option, not a decision",
-"storyline": "",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0228",
-"date": "2026-10-21",
-"category": "ECO",
-"event": "The government reiterated that Pertalite will not rise in price despite surging oil prices, after Deputy Energy Minister Yuliot said subsidised fuel prices are held through year-end. (update of E0094)",
-"key_numbers": "Oil about US$107 per barrel (end-Sep, US-Iran tension) · Brent about US$108-110 mid-Oct (E0127, E0174) · Pertalite and Biosolar price unchanged to end-2026 · Pertalite stock 16-18 days (E0128)",
-"storyline": "",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0230",
-"date": "2026-10-21",
-"category": "POL",
-"event": "Prabowo, at a plenary cabinet meeting on 21 Oct and again at the TPAKD national meeting on 22 Oct, says foreign companies holding concessions are suspected of contributing to karhutla, orders permits of proven violators revoked, and says company names will be announced 'pada saatnya'.",
-"key_numbers": "32 companies under forestry administrative sanctions (Forestry Minister Raja Juli Antoni, 21 Oct) · 6 Kalimantan firms newly suspended, largest burned area PT Hasil Kalimantan Jaya 4,803 ha of 36,745 ha concession · Prabowo: one firm violated 'up to 19 times', permits should go after 2 violations · no company named",
-"storyline": "karhutla",
-"status": "verified",
-"upcoming": false
-},
-{
-"id": "E0239",
-"date": "2026-10-21",
-"category": "TECH",
-"event": "PHP Foundation releases security fixes for two critical 'php2shell' flaws in the PHP core, found with AI by Wiz and Calif researchers, after details leaked; exploitation attempts reportedly climbed to millions and agencies in several countries issued warnings.",
-"key_numbers": "PHP powers ~70% of websites worldwide (Wiz estimate) · patches released Wed 21 Oct 2026 · Cloudflare exploit attempts: thousands in 10 h before announcement → tens of thousands within 45 min → hundreds of thousands within 2 h → millions · affects WordPress, Laravel, Symfony, Drupal",
-"storyline": "",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0240",
-"date": "2026-10-21",
-"category": "TECH",
-"event": "Perpres 27/2026 lets ojol drivers work with more than one app company at once and requires apps to pay drivers' share in real time after each job; the Ministry of MSMEs is designated to oversee partnership agreements. (update of E0144)",
-"key_numbers": "Perpres 27/2026 · Pasal 3(1): driver may partner with one or more platforms · Pasal 12: app fee max 8% (driver keeps 92%, previously 20% cut) · 14 mandatory partnership obligations (not listed) · commission rule effective 1 Jul 2026 per CNBC",
-"storyline": "",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0242",
-"date": "2026-10-21",
-"category": "TECH",
-"event": "Anthropic's draft IPO prospectus, per Reuters via CNBC Indonesia, shows a large first-half 2026 net loss, mostly from an accounting charge, alongside fast revenue growth; the IPO is planned for November.",
-"key_numbers": "H1 2026 net loss US$80 B (~Rp1,449 T) vs US$13 B before · US$72 B of it is a non-cash accounting charge · FY2025 net loss US$42 B · operating loss US$8.1 B on revenue US$4.6 B (period unclear) · Q3 revenue +45% to US$16.8 B · investor valuation talk ~US$1.5 T · IPO planned Nov",
-"storyline": "",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0243",
-"date": "2026-10-21",
-"category": "BIZ",
-"event": "Data-centre buyers drive Puradelta Lestari (DMAS) land sales at Kota Deltamas, Cikarang, with Microsoft Operations Indonesia the biggest buyer.",
-"key_numbers": "As of 30 Sep 2026: Microsoft Rp795.96 B (30.06%) · Digital Gayana Ekagrata Rp741.50 B · Princeton Digital Group Rp446.12 B · Indoedge Rp276.06 B · top four ~Rp2.26 T (85.35% of top-buyer list) · 9M 2026 revenue Rp2.65 T (~3.4x y/y) · industrial land Rp2.54 T (~96%)",
-"storyline": "",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0246",
-"date": "2026-10-21",
-"category": "TECH",
-"event": "Apple commits up to US$100 million of US-recycled titanium over three years from Perryman Company for the iPhone Duo and other products, under its American Manufacturing Program; CNBC Indonesia's headline frames it as TKDN, although the deal concerns US content.",
-"key_numbers": "Up to US$100 M (~Rp1.8 T) over 3 years · at least 80% recycled titanium · nearly 100 components from US firms in 12+ states · US$600 B four-year US pledge · TSMC Arizona >100 M chips for Apple in 2026",
-"storyline": "",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0343",
-"date": "2026-10-21",
-"category": "GLB",
-"event": "Malaysia banned civil servants from using Waze over fears of data reaching Israel, and PM Anwar Ibrahim urged the public to stop using it, pointing to local alternatives such as TuJu.",
-"key_numbers": "Waze founded 2008, acquired by Google 2013 · cited Citizen Lab report: Discover-Tech ads on 120,000+ websites and 75,000+ apps · France plans to drop Zoom/Teams in government by 2027",
-"storyline": "",
-"status": "verified",
-"upcoming": false
-},
-{
 "id": "E0220",
 "date": "2026-10-22",
 "category": "MKT",
@@ -7670,6 +7380,36 @@
 "upcoming": false
 },
 {
+"id": "E0985",
+"date": "2026-11-19",
+"category": "POL",
+"event": "KPK questioned BNPB Secretary-General Rustian again as a witness in the disaster emergency-fund (DSP) corruption case, probing direct appointment of private vendors and kickbacks.",
+"key_numbers": "5 suspects · alleged bribes Rp 4.8 billion + 325 grams of gold + SGD/USD sums · earlier 7-hour examination on 27 Oct 2026",
+"storyline": "corruption-cases",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0994",
+"date": "2026-11-19",
+"category": "TECH",
+"event": "Indonesia unveiled a domestically made 'Merah Putih' chip prototype, per CNN Indonesia.",
+"key_numbers": "Prototype unveiled 19 Nov 2026 · specs not verified",
+"storyline": "chip-ram-prices",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0995",
+"date": "2026-11-19",
+"category": "TECH",
+"event": "CNN Indonesia reported online fraud costs Indonesia Rp104.3 trillion, most often through WhatsApp.",
+"key_numbers": "Rp104.3 trillion losses · WhatsApp most common channel",
+"storyline": "online-scams",
+"status": "partial",
+"upcoming": false
+},
+{
 "id": "E0864",
 "date": "2026-11-20",
 "category": "ECO",
@@ -7690,6 +7430,186 @@
 "upcoming": false
 },
 {
+"id": "E0982",
+"date": "2026-11-20",
+"category": "POL",
+"event": "The one-week deadline Prabowo gave coalition party leaders at the 13 Nov Bogor Palace meeting to prepare vice-presidential nominee names fell around 20 Nov; parties are to be invited again after his overseas trip. (update of E0898)",
+"key_numbers": "Meeting 13 Nov 2026 · deadline about 1 week · PAN's Zulkifli Hasan says PAN will not field a cadre through 2029 and suggests a Gerindra figure",
+"storyline": "gibran-ijazah-mk",
+"status": "upcoming",
+"upcoming": false
+},
+{
+"id": "E0984",
+"date": "2026-11-20",
+"category": "POL",
+"event": "A legal observer said the newly passed Asset Forfeiture Law would let the state seize crime-derived assets even if moved to family or companies, and noted some provisions could be challenged at the Constitutional Court. (update of E0953)",
+"key_numbers": "Passed by DPR plenary 19 Nov 2026 · reportedly takes effect about 1 year after passage · protects good-faith third parties",
+"storyline": "corruption-cases",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0986",
+"date": "2026-11-20",
+"category": "TECH",
+"event": "Green SM Bike, the Vietnamese VinFast-backed electric ride-hailing service launched in Jakarta in September 2026, officially stopped operating in Indonesia on 20 November, per CNBC Indonesia.",
+"key_numbers": "Service stopped 20 Nov 2026 · launched Sept 2026 with 75% launch discounts (Katadata) · driver fallout not verified",
+"storyline": "ojol-green-sm",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0987",
+"date": "2026-11-20",
+"category": "TECH",
+"event": "CNBC Indonesia reported about 4,000 retired civil servants were hit by hacking and that their pension funds are at risk.",
+"key_numbers": "~4,000 retired civil servants affected (headline figure) · amounts not verified",
+"storyline": "cyber-threats-gov",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0988",
+"date": "2026-11-20",
+"category": "TECH",
+"event": "Credit card data of Visa and Mastercard holders was reported leaked and circulated online, per CNBC Indonesia.",
+"key_numbers": "Visa and Mastercard card data leaked online · volume and Indonesian exposure not verified",
+"storyline": "crypto-hacks",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0989",
+"date": "2026-11-20",
+"category": "TECH",
+"event": "Komdigi summoned Google to discuss the closure of 19,389 YouTube accounts linked to Indonesia, after Google removed channels tied to pro-government influence operations. (update of E0969)",
+"key_numbers": "19,389 YouTube accounts closed (CNBC Indonesia) · Komdigi summons Google 20 Nov · Google earlier cited 10,134 channels for one batch (Bisnis, 18 Nov)",
+"storyline": "google-youtube-channels",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0990",
+"date": "2026-11-20",
+"category": "TECH",
+"event": "CNBC Indonesia reported that people are reluctant to buy new phones in 2026 and phone sellers are struggling to sell.",
+"key_numbers": "Qualitative report; sales figures not verified · earlier CNBC (19 Oct) said rising smartphone prices cut demand",
+"storyline": "chip-ram-prices",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0991",
+"date": "2026-11-20",
+"category": "TECH",
+"event": "CNBC Indonesia reported that old phones will be blocked from WhatsApp if owners ignore warnings about unsupported OS versions.",
+"key_numbers": "Models/cutoff dates not verified",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0992",
+"date": "2026-11-20",
+"category": "TECH",
+"event": "CNBC Indonesia reported that Google will make major changes in January 2027 that could suddenly block some phone apps.",
+"key_numbers": "Effective January 2027 · details not verified",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0993",
+"date": "2026-11-20",
+"category": "TECH",
+"event": "Facebook launched a new standalone app called Forum in Indonesia.",
+"key_numbers": "Launch 20 Nov 2026 · details not verified",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0996",
+"date": "2026-11-20",
+"category": "ECO",
+"event": "Jakarta Governor Pramono Anung announced and signed the 2027 Jakarta provincial minimum wage (UMP DKI), a middle path between labour and employer proposals under PP 49/2025. (update of E0921)",
+"key_numbers": "UMP DKI 2027 Rp6,136,941 · up Rp407,065 (+7.1%) from Rp5,729,876 · unions demanded Rp6.24 million (per Liputan6 headline) · Dewan Pengupahan deliberated 3 days",
+"storyline": "ump-2027",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0997",
+"date": "2026-11-20",
+"category": "NEWS",
+"event": "West Jakarta police detailed how a PIK security guard climbing onto a car hood led to two narcotics officers being assaulted on the Sedyatmo toll road on 19 November. (update of E0972)",
+"key_numbers": "2 officers injured (Iptu Deni Tri Putra: forehead wound and thigh stab wound; Brigadir Dwi Santoso: head wound from a stone) · incident ~16:30 WIB 19 Nov · arrests not stated",
+"storyline": "",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E0998",
+"date": "2026-11-20",
+"category": "POL",
+"event": "Bareskrim searched five houses in Bogor and Curug (Tangerang) in a treason (makar) case naming Brigjen Muhammad Tedjo Kusumo and Kombes Iman Imanudin, and postponed the case presentation with Kejagung to next week. (update of E0940)",
+"key_numbers": "5 houses searched since evening 19 Nov · ekspose with Kejagung moved from 20 Nov to the following week · wiretap case: 4 suspects, 3 detained at Rutan Mako Brimob",
+"storyline": "listyo-sigit-penyadapan",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E0999",
+"date": "2026-11-20",
+"category": "POL",
+"event": "MPR started verifying documents of vice-presidential candidates to replace Gibran, while Mahfud MD argued the 9 December election could be invalid if held as planned. (update of E0898)",
+"key_numbers": "MPR plenary vote set 9 Dec · Mahfud's legal argument not read in full (headline only)",
+"storyline": "gibran-ijazah-mk",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E1000",
+"date": "2026-11-20",
+"category": "NEWS",
+"event": "Polri denied reports that the alleged rape case against Kupang Regent Yosef Lede ended in a settlement, and police have questioned more than a dozen witnesses. (update of E0973)",
+"key_numbers": "Belasan (a dozen-plus) witnesses questioned · case already at investigation stage since 19 Nov",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E1001",
+"date": "2026-11-20",
+"category": "ENV",
+"event": "Weather modification started in Aceh to shift rain out to sea after weeks of floods. (update of E0910)",
+"key_numbers": "Details (agency, aircraft, duration) not verified, headline only · earlier BPBA count: 21,109 affected in five regencies/cities (17 Nov)",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E1002",
+"date": "2026-11-20",
+"category": "NEWS",
+"event": "The Siantar Ekspres train caught fire after hitting a minibus (angkot), injuring three railway staff.",
+"key_numbers": "3 railway staff injured · time of publication 17:52 20 Nov · other casualties unknown",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E1003",
+"date": "2026-11-20",
+"category": "NEWS",
+"event": "Fact-checkers flagged new hoaxes targeting Megawati and other political figures, including fake business-capital aid and a claim she declared war on Muslims. (update of E0978)",
+"key_numbers": "3 Megawati hoaxes listed (Facebook 19 Oct 2026, Facebook Apr 2024, YouTube Jul 2021) · Liputan6 series also covers Kabinet Merah Putih, PSI, Yusril and a fake BRI prize draw",
+"storyline": "",
+"status": "verified",
+"upcoming": false
+},
+{
 "id": "E0921",
 "date": "2026-11-21",
 "category": "ECO",
@@ -7697,7 +7617,17 @@
 "key_numbers": "UMP deadline 21 Nov 2026 (Saturday) · UMK deadline 25 Nov 2026 · sectoral provincial wages about 26 Nov, sectoral regency/city about 30 Nov (calculated) · governors must set UMP, UMK optional · no official percentage rise announced",
 "storyline": "ump-2027",
 "status": "upcoming",
-"upcoming": true
+"upcoming": false
+},
+{
+"id": "E0981",
+"date": "2026-11-21",
+"category": "POL",
+"event": "Former Polhukam minister Mahfud MD urged President Prabowo and MPR leaders to be careful in setting the schedule for choosing Gibran's replacement as Vice President. (update of E0898)",
+"key_numbers": "MPR plenary moved from 2 Dec to 9 Dec 2026 · Mahfud statement 21 Nov 2026 01:01 WIB",
+"storyline": "gibran-ijazah-mk",
+"status": "partial",
+"upcoming": false
 },
 {
 "id": "E0862",
@@ -7706,6 +7636,26 @@
 "event": "Danantara plans to publish its first public financial report, for fiscal 2025, tentatively on 23 November 2026, after BPK finished its audit, according to COO Dony Oskaria.",
 "key_numbers": "23 Nov 2026 (tentative) · more than 1,000 consolidated companies (Rosan Roeslani) · over 1,070 SOE entities (Pahala Mansury) · first report since Danantara launched Feb 2025 · regulatory deadline was end of June",
 "storyline": "",
+"status": "upcoming",
+"upcoming": true
+},
+{
+"id": "E0983",
+"date": "2026-11-23",
+"category": "POL",
+"event": "Polri says the ethics hearing (KKEP) of former Kapolri Listyo Sigit over the alleged illegal wiretapping of President Prabowo will be held the following week; exact day and panel not yet announced. (update of E0955)",
+"key_numbers": "Hearing 'next week' per Polri spokesperson (reported 17 Nov 2026) · Irjen Ahrie Sonta already given PTDH (dishonourable discharge) in a related case · Sigit named a suspect",
+"storyline": "listyo-sigit-penyadapan",
+"status": "upcoming",
+"upcoming": true
+},
+{
+"id": "E0980",
+"date": "2026-11-25",
+"category": "ECO",
+"event": "Under Law No. 27 of 2026 on Worker Protection, the Ministry of Manpower set follow-on 2027 minimum-wage deadlines after the 21 November UMP deadline: UMK by 25 November, UMSP on 26 November and UMSK by 30 November. (update of E0921)",
+"key_numbers": "UMP deadline 21 Nov 2026 · UMK 25 Nov · UMSP 26 Nov · UMSK 30 Nov · index value 0.5-1.0 in formula · 3 variables: KHL, economic conditions, employment",
+"storyline": "ump-2027",
 "status": "upcoming",
 "upcoming": true
 },

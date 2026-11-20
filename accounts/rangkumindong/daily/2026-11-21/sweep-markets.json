@@ -1,0 +1,22 @@
+{
+  "area": "markets",
+  "run_date": "2026-11-21",
+  "checked": ["WebSearch cnbcindonesia market (section page fetch refused: PROVENANCE_REQUIRED)", "bisnis market IHSG headlines (via search; article fetches failed)", "detik finance (search only)", "known-events window 14d", "storyline searches: msci-reclassification, rupiah (BoP Q3), ump-2027, danantara lapkeu", "Brent/Fed/Iran search (no fresh results)", "watch-list items seen: IHSG, rupiah, BI rate (already E0917), MSCI, UMP, Danantara"],
+  "events": [
+    {
+      "date": "2026-11-25",
+      "category": "ECO",
+      "event": "Under Law No. 27 of 2026 on Worker Protection, the Ministry of Manpower set follow-on 2027 minimum-wage deadlines after the 21 November UMP deadline: UMK by 25 November, UMSP on 26 November and UMSK by 30 November.",
+      "key_numbers": "UMP deadline 21 Nov 2026 · UMK 25 Nov · UMSP 26 Nov · UMSK 30 Nov · index value 0.5-1.0 in formula · 3 variables: KHL, economic conditions, employment",
+      "storyline": "ump-2027",
+      "update_of": "E0921",
+      "status": "upcoming",
+      "sources": [{"label": "detikFinance", "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8755278/ump-2027-diumumkan-21-november"}],
+      "why_it_matters": "Workers across Indonesia will learn their 2027 minimum wage in the next days, by province then city/regency.",
+      "signals": {"spreading": 1, "wallet": 2, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    }
+  ],
+  "gaps": ["No 20-21 Nov market data found: search indexes lag; IHSG/rupiah close for 20 Nov and weekly summary not verified", "BI Q3 2026 Balance of Payments (scheduled 20 Nov, E0864) outcome not found", "cnbcindonesia section page fetch refused; bisnis article fetches (MSCI review result, Said Iqbal UMP 9.5% demand) failed, so not reported", "Danantara first financial report tentatively 23 Nov already known (E0862)"]
+}

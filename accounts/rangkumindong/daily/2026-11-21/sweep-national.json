@@ -1,0 +1,250 @@
+{
+ "area": "national",
+ "run_date": "2026-11-21",
+ "checked": [
+  "detik terpopuler (stale: 16 Nov snapshot)",
+  "CNN Indonesia nasional (20 Nov)",
+  "Liputan6 homepage terpopuler (20 Nov)",
+  "Liputan6 cek fakta",
+  "antaranews terkini (search only, titles FFI/sports)",
+  "cnbcindonesia (redirect, not read)",
+  "watch-list found: most-read, viral incident, disasters/Aceh, hoaxes, crime, public transport"
+ ],
+ "events": [
+  {
+   "date": "2026-11-20",
+   "category": "ECO",
+   "event": "Jakarta Governor Pramono Anung announced and signed the 2027 Jakarta provincial minimum wage (UMP DKI), a middle path between labour and employer proposals under PP 49/2025.",
+   "key_numbers": "UMP DKI 2027 Rp6,136,941 · up Rp407,065 (+7.1%) from Rp5,729,876 · unions demanded Rp6.24 million (per Liputan6 headline) · Dewan Pengupahan deliberated 3 days",
+   "storyline": "ump-2027",
+   "update_of": "E0921",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "Liputan6",
+     "url": "https://www.liputan6.com/news/read/8338940/pramono-ungkap-alasan-tetapkan-ump-dki-2027-rp-613-juta"
+    },
+    {
+     "label": "Liputan6 (buruh)",
+     "url": "https://www.liputan6.com/news/read/8338963/buruh-tolak-ump-dki-2027-desak-naik-jadi-rp-624-juta"
+    }
+   ],
+   "why_it_matters": "Sets the pay floor for millions of Jakarta workers in 2027 and is the template other provinces will follow.",
+   "signals": {
+    "spreading": 2,
+    "wallet": 2,
+    "surprise": 1,
+    "visual": 2,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "Liputan6 terpopuler #1, #7 and #9 (UMP DKI items) on 20 Nov",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-20",
+   "category": "NEWS",
+   "event": "West Jakarta police detailed how a PIK security guard climbing onto a car hood led to two narcotics officers being assaulted on the Sedyatmo toll road on 19 November.",
+   "key_numbers": "2 officers injured (Iptu Deni Tri Putra: forehead wound and thigh stab wound; Brigadir Dwi Santoso: head wound from a stone) · incident ~16:30 WIB 19 Nov · arrests not stated",
+   "storyline": "",
+   "update_of": "E0972",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "Liputan6",
+     "url": "https://www.liputan6.com/news/read/8339031/kronologi-satpam-pik-naik-ke-kap-mobil-berujung-2-polisi-dikeroyok"
+    }
+   ],
+   "why_it_matters": "A viral video turned out to be police mistaken for hit-and-run suspects, raising questions on vigilante mobs and mistaken identity.",
+   "signals": {
+    "spreading": 2,
+    "wallet": 0,
+    "surprise": 2,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "Liputan6 terpopuler #2 on 20 Nov; viral video noted 19 Nov",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-11-20",
+   "category": "POL",
+   "event": "Bareskrim searched five houses in Bogor and Curug (Tangerang) in a treason (makar) case naming Brigjen Muhammad Tedjo Kusumo and Kombes Iman Imanudin, and postponed the case presentation with Kejagung to next week.",
+   "key_numbers": "5 houses searched since evening 19 Nov · ekspose with Kejagung moved from 20 Nov to the following week · wiretap case: 4 suspects, 3 detained at Rutan Mako Brimob",
+   "storyline": "listyo-sigit-penyadapan",
+   "update_of": "E0940",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "Liputan6",
+     "url": "https://www.liputan6.com/news/read/8339203/bareskrim-geledah-5-rumah-terkait-kasus-dugaan-makar"
+    },
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/nasional/20261120151701-12-1429542/penggeledahan-makar-di-bogor-tangerang-terkait-brigjen-tk-kombes-im"
+    }
+   ],
+   "why_it_matters": "The police-wiretap saga widens into a treason probe, touching the top of Polri.",
+   "signals": {
+    "spreading": 2,
+    "wallet": 0,
+    "surprise": 2,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 0
+   },
+   "spreading_evidence": "Liputan6 terpopuler #4; CNN Indonesia Nasional multiple items 20 Nov",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-11-20",
+   "category": "POL",
+   "event": "MPR started verifying documents of vice-presidential candidates to replace Gibran, while Mahfud MD argued the 9 December election could be invalid if held as planned.",
+   "key_numbers": "MPR plenary vote set 9 Dec · Mahfud's legal argument not read in full (headline only)",
+   "storyline": "gibran-ijazah-mk",
+   "update_of": "E0898",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "Liputan6",
+     "url": "https://www.liputan6.com/news/read/8338978/mpr-mulai-verifikasi-dokumen-cawapres-pengganti-gibran"
+    },
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/nasional/20261120151249-32-1429534/mahfud-pemilihan-wapres-bisa-tak-sah-jika-tetap-digelar-9-desember"
+    }
+   ],
+   "why_it_matters": "Who becomes the next vice president, and whether the process is legal, is the biggest political question of the month.",
+   "signals": {
+    "spreading": 2,
+    "wallet": 0,
+    "surprise": 2,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 0
+   },
+   "spreading_evidence": "Liputan6 terpopuler #6; detik terpopuler (16 Nov snapshot) Dasco/MPR items",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-11-20",
+   "category": "NEWS",
+   "event": "Polri denied reports that the alleged rape case against Kupang Regent Yosef Lede ended in a settlement, and police have questioned more than a dozen witnesses.",
+   "key_numbers": "Belasan (a dozen-plus) witnesses questioned · case already at investigation stage since 19 Nov",
+   "storyline": "",
+   "update_of": "E0973",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/nasional/20261120152852-12-1429540/polri-bantah-kasus-dugaan-pemerkosaan-bupati-kupang-berakhir-damai"
+    },
+    {
+     "label": "CNN Indonesia (saksi)",
+     "url": "https://www.cnnindonesia.com/nasional/20261120142704-12-1429498/polisi-periksa-belasan-saksi-di-kasus-dugaan-pemerkosaan-bupati-kupang"
+    }
+   ],
+   "why_it_matters": "Tests whether a sitting regional head faces the same law as ordinary citizens.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 0,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "detik terpopuler #16 (16 Nov); two CNN Indonesia items 20 Nov",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-11-20",
+   "category": "ENV",
+   "event": "Weather modification started in Aceh to shift rain out to sea after weeks of floods.",
+   "key_numbers": "Details (agency, aircraft, duration) not verified, headline only · earlier BPBA count: 21,109 affected in five regencies/cities (17 Nov)",
+   "storyline": "",
+   "update_of": "E0910",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/nasional/20261120124112-20-1429393/modifikasi-cuaca-di-aceh-dimulai-hujan-digeser-ke-laut"
+    }
+   ],
+   "why_it_matters": "A visible government response to repeated Aceh floods; shows how cloud seeding is used to cut disaster risk.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 1,
+    "surprise": 1,
+    "visual": 2,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "CNN Indonesia Nasional list 20 Nov",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-20",
+   "category": "NEWS",
+   "event": "The Siantar Ekspres train caught fire after hitting a minibus (angkot), injuring three railway staff.",
+   "key_numbers": "3 railway staff injured · time of publication 17:52 20 Nov · other casualties unknown",
+   "storyline": "",
+   "update_of": "",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/nasional/20261120175256-20-1429617/kereta-api-siantar-ekspres-terbakar-usai-tabrak-angkot-3-petugas-luka"
+    }
+   ],
+   "why_it_matters": "Level-crossing safety remains a recurring public transport risk.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 2,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "CNN Indonesia top story 20 Nov",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-20",
+   "category": "NEWS",
+   "event": "Fact-checkers flagged new hoaxes targeting Megawati and other political figures, including fake business-capital aid and a claim she declared war on Muslims.",
+   "key_numbers": "3 Megawati hoaxes listed (Facebook 19 Oct 2026, Facebook Apr 2024, YouTube Jul 2021) · Liputan6 series also covers Kabinet Merah Putih, PSI, Yusril and a fake BRI prize draw",
+   "storyline": "",
+   "update_of": "E0978",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "Liputan6",
+     "url": "https://www.liputan6.com/cek-fakta/read/8338891/ragam-hoaks-menyasar-megawati-simak-deretannya"
+    },
+    {
+     "label": "Liputan6 (BRI)",
+     "url": "https://www.liputan6.com/cek-fakta/read/8338842/hoaks-undian-berhadiah-dari-bank-bri-beredar-di-facebook-simak-daftarnya"
+    }
+   ],
+   "why_it_matters": "Fake aid and prize offers using famous names are how many people lose money to scams.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 1,
+    "surprise": 1,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "Liputan6 cek fakta series 20 Nov",
+   "sensitivity": "normal"
+  }
+ ],
+ "gaps": [
+  "detik terpopuler page stale (16 Nov); CNBC Indonesia homepage not read",
+  "Aceh weather-modification and Siantar train articles blocked by WebFetch permission; both partial from headline",
+  "Mahfud/MPR 9 Dec legal argument not read in full",
+  "Storyline-specific searches not run: karhutla, google-youtube-channels, survival-mode, definisi-korupsi",
+  "Not verified: Taman Lawang teen killing, Baduy Luar fire (19 houses), Cak Imin 'kehendak Allah' remark"
+ ]
+}

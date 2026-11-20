@@ -1,0 +1,290 @@
+{
+ "area": "business",
+ "run_date": "2026-11-21",
+ "checked": [
+  "detik inet /news",
+  "CNBC Indonesia tech",
+  "CNN Indonesia teknologi",
+  "bisnis teknologi (fetch failed)",
+  "katadata/dailysocial (not fetched)",
+  "storyline searches: google-youtube-channels, chip-ram-prices, online-scams",
+  "watch-list found: Komdigi platform action, data leaks, ojol shutdown, phone prices, WhatsApp/Google app rules, Nvidia/Anthropic (already known)"
+ ],
+ "events": [
+  {
+   "date": "2026-11-20",
+   "category": "TECH",
+   "event": "Green SM Bike, the Vietnamese VinFast-backed electric ride-hailing service launched in Jakarta in September 2026, officially stopped operating in Indonesia on 20 November, per CNBC Indonesia.",
+   "key_numbers": "Service stopped 20 Nov 2026 · launched Sept 2026 with 75% launch discounts (Katadata) · driver fallout not verified",
+   "storyline": "ojol-green-sm",
+   "update_of": "",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "CNBC Indonesia",
+     "url": "https://www.cnbcindonesia.com/tech/20261120164656-37-787049/ojol-green-sm-bike-resmi-berhenti-beroperasi-di-ri-mulai-hari-ini"
+    },
+    {
+     "label": "CNBC Indonesia",
+     "url": "https://www.cnbcindonesia.com/tech/20261120165420-37-787052/alasan-green-sm-bike-setop-layanan-di-ri-begini-nasib-driver"
+    }
+   ],
+   "why_it_matters": "A new ojol rival shut down within about two months, leaving drivers and users to switch.",
+   "signals": {
+    "spreading": 2,
+    "wallet": 1,
+    "surprise": 2,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 2
+   },
+   "spreading_evidence": "Two CNBC Indonesia tech headlines on 20 Nov",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-20",
+   "category": "TECH",
+   "event": "CNBC Indonesia reported about 4,000 retired civil servants were hit by hacking and that their pension funds are at risk.",
+   "key_numbers": "~4,000 retired civil servants affected (headline figure) · amounts not verified",
+   "storyline": "cyber-threats-gov",
+   "update_of": "",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "CNBC Indonesia",
+     "url": "https://www.cnbcindonesia.com/tech/20261120124337-37-786962/4000-pensiunan-pns-jadi-korban-peretasan-dana-pensiun-terancam"
+    }
+   ],
+   "why_it_matters": "Pensioners' monthly income may be exposed to account takeover.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 2,
+    "surprise": 2,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 2
+   },
+   "spreading_evidence": "",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-11-20",
+   "category": "TECH",
+   "event": "Credit card data of Visa and Mastercard holders was reported leaked and circulated online, per CNBC Indonesia.",
+   "key_numbers": "Visa and Mastercard card data leaked online · volume and Indonesian exposure not verified",
+   "storyline": "crypto-hacks",
+   "update_of": "",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "CNBC Indonesia",
+     "url": "https://www.cnbcindonesia.com/tech/20261120113028-37-786931/data-kartu-kredit-visa-dan-mastercard-bocor-disebar-di-internet"
+    }
+   ],
+   "why_it_matters": "Cardholders may need to watch statements and replace cards.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 2,
+    "surprise": 1,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-20",
+   "category": "TECH",
+   "event": "Komdigi summoned Google to discuss the closure of 19,389 YouTube accounts linked to Indonesia, after Google removed channels tied to pro-government influence operations.",
+   "key_numbers": "19,389 YouTube accounts closed (CNBC Indonesia) · Komdigi summons Google 20 Nov · Google earlier cited 10,134 channels for one batch (Bisnis, 18 Nov)",
+   "storyline": "google-youtube-channels",
+   "update_of": "E0969",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "CNBC Indonesia",
+     "url": "https://www.cnbcindonesia.com/tech/20261120172122-37-787066/komdigi-panggil-google-bahas-19389-akun-youtube-yang-ditutup"
+    },
+    {
+     "label": "CNBC Indonesia",
+     "url": "https://www.cnbcindonesia.com/tech/20261119200123-37-786782/19389-akun-youtube-indonesia-ditutup-komdigi-minta-google-transparan"
+    }
+   ],
+   "why_it_matters": "The state is questioning a platform over takedowns of channels linked to government-friendly buzzers.",
+   "signals": {
+    "spreading": 2,
+    "wallet": 0,
+    "surprise": 2,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "Top of CNBC Indonesia tech 20 Nov",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-11-20",
+   "category": "TECH",
+   "event": "CNBC Indonesia reported that people are reluctant to buy new phones in 2026 and phone sellers are struggling to sell.",
+   "key_numbers": "Qualitative report; sales figures not verified · earlier CNBC (19 Oct) said rising smartphone prices cut demand",
+   "storyline": "chip-ram-prices",
+   "update_of": "",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "CNBC Indonesia",
+     "url": "https://www.cnbcindonesia.com/tech/20261120110513-37-786925/warga-ogah-beli-hp-baru-di-2026-nasib-pedagang-merana-jualan-susah"
+    }
+   ],
+   "why_it_matters": "Phone prices are rising because of the memory chip squeeze, so buyers are holding on to old phones.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 2,
+    "surprise": 1,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-20",
+   "category": "TECH",
+   "event": "CNBC Indonesia reported that old phones will be blocked from WhatsApp if owners ignore warnings about unsupported OS versions.",
+   "key_numbers": "Models/cutoff dates not verified",
+   "storyline": "",
+   "update_of": "",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "CNBC Indonesia",
+     "url": "https://www.cnbcindonesia.com/tech/20261120112742-37-786930/pemilik-hp-lama-langsung-diblokir-kalau-cuek-peringatan-whatsapp"
+    }
+   ],
+   "why_it_matters": "Users of old phones may lose WhatsApp access.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 2,
+    "surprise": 1,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-20",
+   "category": "TECH",
+   "event": "CNBC Indonesia reported that Google will make major changes in January 2027 that could suddenly block some phone apps.",
+   "key_numbers": "Effective January 2027 · details not verified",
+   "storyline": "",
+   "update_of": "",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "CNBC Indonesia",
+     "url": "https://www.cnbcindonesia.com/tech/20261120152736-37-787024/google-berubah-total-januari-2027-awas-aplikasi-hp-mendadak-diblokir"
+    }
+   ],
+   "why_it_matters": "Android users may see apps stop working.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 2,
+    "surprise": 1,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-20",
+   "category": "TECH",
+   "event": "Facebook launched a new standalone app called Forum in Indonesia.",
+   "key_numbers": "Launch 20 Nov 2026 · details not verified",
+   "storyline": "",
+   "update_of": "",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "CNBC Indonesia",
+     "url": "https://www.cnbcindonesia.com/tech/20261120153257-37-787028/facebook-rilis-aplikasi-baru-forum-di-ri-begini-cara-kerjanya"
+    }
+   ],
+   "why_it_matters": "A new Meta app for community discussion arrives for Indonesian users.",
+   "signals": {
+    "spreading": 0,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 0,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-19",
+   "category": "TECH",
+   "event": "Indonesia unveiled a domestically made 'Merah Putih' chip prototype, per CNN Indonesia.",
+   "key_numbers": "Prototype unveiled 19 Nov 2026 · specs not verified",
+   "storyline": "chip-ram-prices",
+   "update_of": "",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/teknologi/20261119063943-185-1428778/indonesia-luncurkan-prototipe-chip-merah-putih-buatan-dalam-negeri"
+    }
+   ],
+   "why_it_matters": "Local chip ambitions amid a global chip and RAM shortage.",
+   "signals": {
+    "spreading": 0,
+    "wallet": 1,
+    "surprise": 1,
+    "visual": 1,
+    "fresh": 1,
+    "rivals": 2
+   },
+   "spreading_evidence": "",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-19",
+   "category": "TECH",
+   "event": "CNN Indonesia reported online fraud costs Indonesia Rp104.3 trillion, most often through WhatsApp.",
+   "key_numbers": "Rp104.3 trillion losses · WhatsApp most common channel",
+   "storyline": "online-scams",
+   "update_of": "",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/teknologi/20261118155510-185-1428599/penipuan-online-rugikan-ri-rp104-triliun-paling-sering-via-whatsapp"
+    }
+   ],
+   "why_it_matters": "Scam losses are huge and WhatsApp is the main route.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 2,
+    "surprise": 2,
+    "visual": 2,
+    "fresh": 1,
+    "rivals": 1
+   },
+   "spreading_evidence": "",
+   "sensitivity": "normal"
+  }
+ ],
+ "gaps": [
+  "Article fetches were blocked (PROVENANCE_REQUIRED); all items rest on section-page headlines, so numbers unverified",
+  "Green SM driver count and reasons",
+  "Pension hack agency (Taspen?) and loss amounts",
+  "katadata and dailysocial not scanned",
+  "Visa/Mastercard leak scale"
+ ]
+}
