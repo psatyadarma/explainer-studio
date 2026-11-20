@@ -1,5 +1,5 @@
 {
- "duration": 66.389,
+ "duration": 62.669,
  "voice": "Pratama",
  "lines": [
   {
@@ -667,9 +667,9 @@
   },
   {
    "id": "b7",
-   "text": "Dan Kamis, Bareskrim menggelar perkara dugaan makar, bersama Kompolnas dan ahli. Hasilnya belum diumumkan. Kata Dirtipidum, temuan itu akan dipaparkan ke Kejaksaan Agung.",
+   "text": "Dan Kamis, Bareskrim menggelar perkara dugaan makar, bersama Kompolnas dan ahli. Hasilnya belum diumumkan.",
    "start": 49.495,
-   "end": 59.346,
+   "end": 55.616,
    "words": [
     {
      "w": "Dan",
@@ -740,129 +740,84 @@
      "w": "diumumkan.",
      "start": 54.842,
      "end": 55.616
-    },
-    {
-     "w": "Kata",
-     "start": 55.616,
-     "end": 55.909
-    },
-    {
-     "w": "Dirtipidum,",
-     "start": 55.957,
-     "end": 56.789
-    },
-    {
-     "w": "temuan",
-     "start": 56.829,
-     "end": 57.109
-    },
-    {
-     "w": "itu",
-     "start": 57.169,
-     "end": 57.349
-    },
-    {
-     "w": "akan",
-     "start": 57.397,
-     "end": 57.589
-    },
-    {
-     "w": "dipaparkan",
-     "start": 57.609,
-     "end": 58.149
-    },
-    {
-     "w": "ke",
-     "start": 58.202,
-     "end": 58.309
-    },
-    {
-     "w": "Kejaksaan",
-     "start": 58.336,
-     "end": 58.709
-    },
-    {
-     "w": "Agung.",
-     "start": 58.789,
-     "end": 59.346
     }
    ]
   },
   {
    "id": "b8",
    "text": "Ingat: semua ini masih keterangan polisi. Tersangka belum tentu bersalah. Yang memutuskan nanti pengadilan.",
-   "start": 59.489,
-   "end": 65.79899999999999,
+   "start": 55.769,
+   "end": 62.07899999999999,
    "words": [
     {
      "w": "Ingat:",
-     "start": 59.489,
-     "end": 59.839
+     "start": 55.769,
+     "end": 56.119
     },
     {
      "w": "semua",
-     "start": 59.846,
-     "end": 60.219
+     "start": 56.126,
+     "end": 56.499
     },
     {
      "w": "ini",
-     "start": 60.279,
-     "end": 60.459
+     "start": 56.559000000000005,
+     "end": 56.739000000000004
     },
     {
      "w": "masih",
-     "start": 60.512,
-     "end": 60.779
+     "start": 56.792,
+     "end": 57.059000000000005
     },
     {
      "w": "keterangan",
-     "start": 60.819,
-     "end": 61.179
+     "start": 57.099000000000004,
+     "end": 57.459
     },
     {
      "w": "polisi.",
-     "start": 61.239,
-     "end": 61.739
+     "start": 57.519,
+     "end": 58.019
     },
     {
      "w": "Tersangka",
-     "start": 61.896,
-     "end": 62.449
+     "start": 58.176,
+     "end": 58.729
     },
     {
      "w": "belum",
-     "start": 62.489,
-     "end": 62.689
+     "start": 58.769,
+     "end": 58.969
     },
     {
      "w": "tentu",
-     "start": 62.737,
-     "end": 63.049
+     "start": 59.017,
+     "end": 59.329
     },
     {
      "w": "bersalah.",
-     "start": 63.073,
-     "end": 63.489
+     "start": 59.353,
+     "end": 59.769
     },
     {
      "w": "Yang",
-     "start": 63.601,
-     "end": 63.799
+     "start": 59.881,
+     "end": 60.079
     },
     {
      "w": "memutuskan",
-     "start": 63.839,
-     "end": 64.439
+     "start": 60.119,
+     "end": 60.718999999999994
     },
     {
      "w": "nanti",
-     "start": 64.559,
-     "end": 64.919
+     "start": 60.839,
+     "end": 61.199
     },
     {
      "w": "pengadilan.",
-     "start": 64.951,
-     "end": 65.799
+     "start": 61.230999999999995,
+     "end": 62.07900000000001
     }
    ]
   }

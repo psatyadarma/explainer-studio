@@ -25,3 +25,6 @@ Reviewed: out/video.mp4 (417.4 s), contact sheet every 5 s, full script.json, po
 3. ch04 d6 (illicit enrichment, UNVERIFIED) cut: removed from script.json + chapter script, its audio spliced out of voice.wav (11.3 s, no new TTS; backup in chapters/04/build/pre-cut/), timing shifted, remixed, scene + CNN lower third removed. post.json caption/YouTube/TikTok/pinned sources and the tag removed; claims.json d6 marked CUT.
 All 8 chapters re-rendered (progress bar ticks depend on total length). Final: 406.2 s, 1920x1080, 30 fps, -14.3 LUFS, -1.3 dBFS. YouTube chapters: 00:00 / 00:29 / 01:41 / 02:48 / 03:53 / 04:37 / 05:27 / 06:33.
 Still open (not done here): the Friday 20 Nov rechecks named in editor-review-2 (Kejagung expose / gelar perkara outcome, Listyo detention extension) for b3, b7, g4.
+
+## News re-check 20 Nov — b7
+b7 shortened to "...Hasilnya belum diumumkan." (Kejagung presentation postponed; schedule removed). Audio after "diumumkan." spliced out (3.7 s, no new TTS; backup chapters/02/build/pre-b7/). Kejaksaan Agung card removed, "Hasil: belum diumumkan" stamp now pops at "ahli". Kejagung text removed from post.json caption/YouTube/TikTok/pinned sources; claims.json b7 annotated. All chapters re-rendered (total changed).

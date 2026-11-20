@@ -1,0 +1,122 @@
+{
+ "direction": "[calm, neutral, explaining to a friend]",
+ "format": "standard",
+ "hook_style": "story",
+ "lines": [
+  {
+   "id": "h1",
+   "tag": "[storytelling, light]",
+   "text": "Misalnya Pak Budi buka YouTube. Kanal langganannya hilang.",
+   "say": "Misalnya Pak Budi buka Yutub. Kanal langganannya hilang."
+  },
+  {
+   "id": "h2",
+   "tag": "[curious, teasing]",
+   "text": "Ternyata, Google hapus lebih dari 23 ribu kanal terkait Indonesia. Kenapa?",
+   "say": "Ternyata, Gugel hapus lebih dari dua puluh tiga ribu kanal terkait Indonesia. Kenapa?"
+  },
+  {
+   "id": "rd",
+   "tagline": true,
+   "text": "Rangkumin dong!"
+  },
+  {
+   "id": "l1",
+   "tag": "[matter-of-fact]",
+   "text": "Jadi gini. Google rutin terbitin laporan soal \"operasi pengaruh terkoordinasi\".",
+   "say": "Jadi gini. Gugel rutin terbitin laporan soal operasi pengaruh terkoordinasi."
+  },
+  {
+   "id": "l2",
+   "tag": "[explaining, quick]",
+   "text": "Singkatnya: banyak akun bergerak serempak, dorong pesan yang sama.",
+   "say": "Singkatnya: banyak akun bergerak serempak, dorong pesan yang sama."
+  },
+  {
+   "id": "l3",
+   "tag": "[neutral, clear]",
+   "text": "Januari sampai Maret 2026: 3.598 kanal terkait Indonesia.",
+   "say": "Januari sampai Maret dua ribu dua puluh enam: tiga ribu lima ratus sembilan puluh delapan kanal terkait Indonesia."
+  },
+  {
+   "id": "l3b",
+   "text": "April sampai Juni: ratusan lagi, isinya campur, ada yang pro dan ada yang kritik pemerintah.",
+   "say": "April sampai Juni: ratusan lagi, isinya campur, ada yang pro dan ada yang kritik pemerintah."
+  },
+  {
+   "id": "l4",
+   "tag": "[emphatic]",
+   "text": "Lalu Juli sampai September: 19.389 kanal. Dalam. Tiga. Bulan.",
+   "say": "Lalu Juli sampai September: sembilan belas ribu tiga ratus delapan puluh sembilan kanal. Dalam. Tiga. Bulan."
+  },
+  {
+   "id": "l5",
+   "tag": "[neutral, quoting]",
+   "text": "Isinya? Kata Google, yang Juli sampai September: konten berbahasa Indonesia yang mendukung pemerintah Indonesia.",
+   "say": "Isinya? Kata Gugel, yang Juli sampai September: konten berbahasa Indonesia yang mendukung pemerintah Indonesia."
+  },
+  {
+   "id": "l6",
+   "tag": "[matter-of-fact]",
+   "text": "Yang Agustus, menurut Google, juga mengkritik para pengkritik pemerintah.",
+   "say": "Yang Agustus, menurut Gugel, juga mengkritik para pengkritik pemerintah."
+  },
+  {
+   "id": "l7",
+   "tag": "[neutral, clear]",
+   "text": "Nah, Komdigi merespons. Katanya, Komdigi mendukung pemberantasan manipulasi informasi.",
+   "say": "Nah, Komdigi merespons. Katanya, Komdigi mendukung pemberantasan manipulasi informasi."
+  },
+  {
+   "id": "l8",
+   "tag": "[curious, quick]",
+   "text": "Tapi menurut Komdigi, laporan Google belum jelasin: akunnya jenis apa, pelanggarannya apa,",
+   "say": "Tapi menurut Komdigi, laporan Gugel belum jelasin: akunnya jenis apa, pelanggarannya apa,"
+  },
+  {
+   "id": "l8b",
+   "text": "dan apa dasarnya dikaitkan ke Indonesia.",
+   "say": "dan apa dasarnya dikaitkan ke Indonesia."
+  },
+  {
+   "id": "l9",
+   "tag": "[neutral, quoting]",
+   "text": "Komdigi juga bilang: kebebasan berekspresi berlaku buat yang mendukung maupun mengkritik pemerintah.",
+   "say": "Komdigi juga bilang: kebebasan berekspresi berlaku buat yang mendukung, maupun mengkritik pemerintah."
+  },
+  {
+   "id": "l10",
+   "tag": "[thoughtful, slower]",
+   "text": "Tapi ini yang sering kelewat: laporan Google nggak sebut nama kanal, pengelola, atau penyandang dananya.",
+   "say": "Tapi ini yang sering kelewat: laporan Gugel nggak sebut nama kanal, pengelola, atau penyandang dananya."
+  },
+  {
+   "id": "l11",
+   "tag": "[serious, punchy]",
+   "text": "Jadi siapa di balik ribuan kanal ini? Belum terjawab.",
+   "say": "Jadi siapa di balik ribuan kanal ini? Belum terjawab."
+  },
+  {
+   "id": "l12",
+   "tag": "[matter-of-fact]",
+   "text": "Berikutnya: Komdigi sudah bertemu Google dan minta penjelasan tertulis.",
+   "say": "Berikutnya: Komdigi sudah bertemu Gugel dan minta penjelasan tertulis."
+  },
+  {
+   "id": "l12b",
+   "text": "Menurut Komdigi, Google akui laporannya kurang penjelasan. Google sendiri bilang: aturannya ditegakkan, apa pun pandangan politiknya.",
+   "say": "Menurut Komdigi, Gugel akui laporannya kurang penjelasan. Gugel sendiri bilang: aturannya ditegakkan, apa pun pandangan politiknya."
+  },
+  {
+   "id": "cta",
+   "tag": "[playful, asking the viewer]",
+   "text": "Menurut kamu, apa yang paling perlu dibuka dari laporan ini? Komen!"
+  },
+  {
+   "id": "end",
+   "tag": "[friendly, upbeat]",
+   "text": "Follow Rangkumin Dong, biar nggak ketinggalan!"
+  }
+ ],
+ "tail": 0.9
+}

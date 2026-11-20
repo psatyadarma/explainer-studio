@@ -1,0 +1,127 @@
+[
+ {
+  "claim": "Google menerbitkan laporan berkala (Influence Operations Bulletin) tentang kampanye 'coordinated influence operation' yang ditutup di platformnya (l1). l2 'banyak akun bergerak serempak, dorong pesan yang sama' adalah penjelasan sederhana kami, bukan kutipan Google.",
+  "numbers": "Q1 terbit 8 Mei 2026; Q3 terbit 30 Okt 2026",
+  "sources": [
+   "https://blog.google/security/influence-operations-bulletin-q3-2026/",
+   "https://blog.google/security/influence-operations-bulletin-q1-2026/"
+  ]
+ },
+ {
+  "claim": "Google menghapus lebih dari 23 ribu kanal YouTube terkait Indonesia sepanjang Januari-September 2026 (h2, title card '23 RIBU+', caption, YT title). Q1 + Q3 saja = 22.987; ditambah Q2 (ratusan s.d. 1.115) > 23 ribu di semua hitungan; total 23.827 disebut sebagai hitungan Katadata (caption).",
+  "numbers": "Q1 3.598 + Q3 19.389 = 22.987; + Q2 (Katadata 840 → 23.827; Google Q2 entri terkait Indonesia 1.115)",
+  "sources": [
+   "https://blog.google/security/influence-operations-bulletin-q1-2026/",
+   "https://blog.google/security/influence-operations-bulletin-q2-2026/",
+   "https://blog.google/security/influence-operations-bulletin-q3-2026/",
+   "https://katadata.co.id/digital/teknologi/6afc2a52cf362/google-hapus-hampir-24-ribu-kanal-youtube-sebarkan-konten-pro-pemerintah-ri"
+  ]
+ },
+ {
+  "claim": "Januari-Maret 2026: 3.598 kanal terkait Indonesia (l3).",
+  "numbers": "Jan 352+275+71+16 = 714; Mar 2.854+30 = 2.884; total 3.598",
+  "sources": [
+   "https://blog.google/security/influence-operations-bulletin-q1-2026/",
+   "https://katadata.co.id/digital/teknologi/6afc2a52cf362/google-hapus-hampir-24-ribu-kanal-youtube-sebarkan-konten-pro-pemerintah-ri"
+  ],
+  "note": "Di buletin Q1, hanya entri 352 (Jan), 2.854 dan 30 (Mar) yang tertulis 'linked to Indonesia'; entri 275, 71, 16 berisi konten pro-pemerintah Indonesia tanpa label atribusi. Katadata menghitung semuanya."
+ },
+ {
+  "claim": "April-Juni 2026: ratusan kanal lagi, isinya campur: ada yang pro dan ada yang kritik pemerintah (l3b, caption). Angka 840 disebut sebagai hitungan Katadata (caption, end card footnote).",
+  "numbers": "Katadata 840 (209 di antaranya kritis ke pemerintah, 107 dukung partai/pejabat); Google Q2: tidak ada entri berlabel 'linked to Indonesia', entri terkait Indonesia total 1.115 (1.022 tanpa klaster pro-Malaysia)",
+  "sources": [
+   "https://blog.google/security/influence-operations-bulletin-q2-2026/",
+   "https://katadata.co.id/digital/teknologi/6afc2a52cf362/google-hapus-hampir-24-ribu-kanal-youtube-sebarkan-konten-pro-pemerintah-ri"
+  ],
+  "note": "Per factcheck.md FIX 1."
+ },
+ {
+  "claim": "Juli-September 2026: 19.389 kanal (l4).",
+  "numbers": "Jul 6.888 (+17 kanal kampanye multibahasa pro-pemerintah Indonesia, tanpa label 'linked to Indonesia') · Agu 10.134 · Sep 2.350 → 19.372 tanpa 17 / 19.389 dengan 17",
+  "sources": [
+   "https://blog.google/security/influence-operations-bulletin-q3-2026/",
+   "https://katadata.co.id/digital/teknologi/6afc2a52cf362/google-hapus-hampir-24-ribu-kanal-youtube-sebarkan-konten-pro-pemerintah-ri",
+   "https://www.bloombergtechnoz.com/detail-news/128005/19-372-kanal-youtube-disebut-sebarkan-konten-pro-pemerintah",
+   "https://www.tribunnews.com/techno/7914006/komdigi-ingatkan-google-soal-kebebasan-berekspresi-usai-tutup-19-ribu-kanal-youtube-pro-pemerintah"
+  ],
+  "note": "Bloomberg Technoz pakai 19.372; Katadata, Tribun, Harian Jogja pakai 19.389. Kami pakai 19.389 (sesuai Katadata + Tribun)."
+ },
+ {
+  "claim": "Menurut Google, kanal Juli-September (dan Jan-Mar) berisi konten berbahasa Indonesia yang mendukung pemerintah Indonesia (l5 dibatasi ke Jul-Sep; caption 'Jan-Mar & Jul-Sep'); kanal Agustus juga 'critical of critics of the Indonesian government' (l6).",
+  "numbers": "Agustus 10.134",
+  "sources": [
+   "https://blog.google/security/influence-operations-bulletin-q3-2026/",
+   "https://blog.google/security/influence-operations-bulletin-q1-2026/"
+  ]
+ },
+ {
+  "claim": "Komdigi mendukung upaya pemberantasan manipulasi informasi dan aktivitas tidak autentik (l7).",
+  "numbers": "",
+  "sources": [
+   "https://www.viva.co.id/berita/nasional/1945042-google-tutup-19-ribu-kanal-youtube-pendukung-pemerintah-indonesia-komdigi-desak-klarifikasi-dan-transparansi",
+   "https://www.tribunnews.com/techno/7914006/komdigi-ingatkan-google-soal-kebebasan-berekspresi-usai-tutup-19-ribu-kanal-youtube-pro-pemerintah"
+  ]
+ },
+ {
+  "claim": "Menurut Komdigi, laporan Google belum memberi penjelasan memadai soal jenis akun yang ditindak, bentuk pelanggaran, dan dasar mengaitkan operasi itu ke Indonesia (l8, l8b).",
+  "numbers": "",
+  "sources": [
+   "https://inet.detik.com/cyberlife/d-8760670/komdigi-pertanyakan-dasar-google-tutup-19-ribu-kanal-youtube",
+   "https://www.tribunnews.com/techno/7914006/komdigi-ingatkan-google-soal-kebebasan-berekspresi-usai-tutup-19-ribu-kanal-youtube-pro-pemerintah"
+  ]
+ },
+ {
+  "claim": "Komdigi: kebebasan berekspresi harus berlaku bagi semua pihak, baik yang mendukung maupun mengkritik pemerintah (l9).",
+  "numbers": "",
+  "sources": [
+   "https://www.tribunnews.com/techno/7914006/komdigi-ingatkan-google-soal-kebebasan-berekspresi-usai-tutup-19-ribu-kanal-youtube-pro-pemerintah",
+   "https://www.viva.co.id/berita/nasional/1945042-google-tutup-19-ribu-kanal-youtube-pendukung-pemerintah-indonesia-komdigi-desak-klarifikasi-dan-transparansi"
+  ]
+ },
+ {
+  "claim": "Laporan Google tidak menyebut nama kanal, identitas pengelola, atau penyandang dana operasi itu (l10, l11).",
+  "numbers": "",
+  "sources": [
+   "https://www.tribunnews.com/techno/7914006/komdigi-ingatkan-google-soal-kebebasan-berekspresi-usai-tutup-19-ribu-kanal-youtube-pro-pemerintah",
+   "https://blog.google/security/influence-operations-bulletin-q3-2026/",
+   "https://antaranews.com/berita/5866819/kemkomdigi-minta-google-jelaskan-metode-penutupan-ribuan-kanal-youtube"
+  ],
+  "note": "Per ANTARA, Komdigi juga menanyakan apakah Google bisa mengidentifikasi pengelola jaringan; 'belum terjawab' tetap berlaku."
+ },
+ {
+  "claim": "Komdigi bertemu Google Indonesia dan YouTube Asia Tenggara pada 19 Nov 2026 dan meminta penjelasan tertulis soal metode penindakan (l12, caption).",
+  "numbers": "19 Nov 2026",
+  "sources": [
+   "https://antaranews.com/berita/5866819/kemkomdigi-minta-google-jelaskan-metode-penutupan-ribuan-kanal-youtube",
+   "https://www.cnnindonesia.com/teknologi/20261120113917-185-1429369/19-ribu-akun-kanal-buzzer-ditutup-komdigi-tantang-google-tumpas-judol",
+   "https://katadata.co.id/digital/teknologi/6affd417698c0/komdigi-panggil-google-terkait-penghapusan-19-ribu-kanal-youtube-pro-pemerintah"
+  ]
+ },
+ {
+  "claim": "Menurut Komdigi (Mediodecci Lustarini, Sekretaris Ditjen Pengawasan Ruang Digital, keterangan tertulis 20 Nov), Google mengakui buletin Q3 kurang penjelasan dan bisa disalahartikan, menyebut kebijakan spam YouTube sebagai dasar, dan harus koordinasi dengan tim global dulu (l12b, caption). Pernyataan publik langsung dari Google belum ada (per 20 Nov siang).",
+  "numbers": "",
+  "sources": [
+   "https://antaranews.com/berita/5866819/kemkomdigi-minta-google-jelaskan-metode-penutupan-ribuan-kanal-youtube",
+   "https://www.cnnindonesia.com/teknologi/20261120113917-185-1429369/19-ribu-akun-kanal-buzzer-ditutup-komdigi-tantang-google-tumpas-judol"
+  ],
+  "note": "Atribusi 'menurut Komdigi' wajib. RE-CHECK sebelum render: pernyataan publik/penjelasan tertulis Google."
+ },
+ {
+  "claim": "Komdigi menyampaikan sikapnya lewat keterangan resmi 19-20 Nov 2026; keterangan 20 Nov oleh Sekretaris Ditjen Pengawasan Ruang Digital Mediodecci Lustarini (caption).",
+  "numbers": "19-20 Nov 2026",
+  "sources": [
+   "https://inet.detik.com/cyberlife/d-8760670/komdigi-pertanyakan-dasar-google-tutup-19-ribu-kanal-youtube",
+   "https://www.tribunnews.com/techno/7914006/komdigi-ingatkan-google-soal-kebebasan-berekspresi-usai-tutup-19-ribu-kanal-youtube-pro-pemerintah",
+   "https://www.viva.co.id/berita/nasional/1945042-google-tutup-19-ribu-kanal-youtube-pendukung-pemerintah-indonesia-komdigi-desak-klarifikasi-dan-transparansi",
+   "https://antaranews.com/berita/5866819/kemkomdigi-minta-google-jelaskan-metode-penutupan-ribuan-kanal-youtube",
+   "https://www.cnnindonesia.com/teknologi/20261120113917-185-1429369/19-ribu-akun-kanal-buzzer-ditutup-komdigi-tantang-google-tumpas-judol"
+  ]
+ },
+ {
+  "claim": "Juru bicara Google (dikutip Reuters, 20 Nov): Google rutin menindak operasi pengaruh terkoordinasi untuk melindungi platformnya termasuk YouTube, dan menegakkan kebijakannya apa pun pandangan politik yang disampaikan (l12b: 'aturannya ditegakkan, apa pun pandangan politiknya').",
+  "numbers": "",
+  "sources": [
+   "https://www.internazionale.it/ultime-notizie-reuters/2026/11/20/indonesia-asks-google-to-clarify-removal-of-19-000-youtube-channels-ministry-says"
+  ]
+ }
+]

@@ -26,6 +26,7 @@ _One dated line per piece of feedback about topics or angles. The coordinator ap
 - 2026-11-14: No pick by 14:00 (default ⭐ #1 tentara bayaran Rusia used, not a preference). ~14:50 said "Ok ti post" on the finished video.
 - 2026-11-15: "Ok to post follow your recommendations" (picked ⭐ #1 Minggu Depan; accepted the recommendations incl. W46 review: favour person-faced "what happens next" stories, drop kamu_stakes hooks for a week).
 - 2026-11-17: picked #4 (Jakarta air quality, scale angle) over the ⭐ tech idea; gave an early "ok to post".
+- 2026-11-20: No pick by 14:00 (default ⭐ #1 Google 23.827 kanal YouTube used, not a preference). Then said "Ok to post" during production.
 
 ## What the audience shows
 _Written by the analyst each Sunday from real IG/YT numbers (W46, 15 Nov). The writer weighs this next to the user's picks; it is a tiebreaker, not an override._
@@ -37,7 +38,7 @@ _Written by the analyst each Sunday from real IG/YT numbers (W46, 15 Nov). The w
 
 ## What the picks show
 
-_Recomputed by engine/prefs.py from 32 days of offers, 20 picks._
+_Recomputed by engine/prefs.py from 33 days of offers, 20 picks._
 
 - 2026-10-20: picked #3  "Rupiah Rp18.046: besok BI putuskan, tahan 5,75% atau naik ke 6%?", storyline rupiah
 - 2026-10-21: picked #?  "Karhutla: siapa yang tanggung jawab atas asap? (Lutfi vs Singapura)", storyline karhutla
@@ -70,6 +71,7 @@ _Recomputed by engine/prefs.py from 32 days of offers, 20 picks._
 - 2026-11-17: picked #4  "Udara Jakarta pagi ini: berapa kali lipat batas aman WHO?", score 9/12, storyline karhutla
 - 2026-11-18: picked #1 (recommended) "Rp104,3 triliun hilang karena penipuan online setahun: kamu salah satunya?", score 10/12, storyline scams
 - 2026-11-19: picked #?  "Kepuasan Prabowo "naik 43% ke 62%" sejak Listyo ditangkap: angkanya dari mana?", storyline listyo-sigit-penyadapan
+- 2026-11-20: no pick by the deadline (default #1 used; not counted)
 
 - Picks the recommended idea 5/20 times; average pick rank 2.4.
 - Storylines picked often when offered: definisi-korupsi, crypto-hacks, listyo-sigit-penyadapan.
