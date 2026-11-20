@@ -199,3 +199,9 @@ History moved out of HANDOFF.md (22 Oct) so fresh sessions read less. Append one
 - User picked ⭐ #1 + "ok to post" (~08:00). Story hook PICK A "Misalnya Pak Budi baca satu angka di HP."; full FC 1 fix (h2 "Katanya," + "kata Bakom" tag). Producer 42.7 s short, block subs, name tags (Commons 429, no Syahganda photo); QA FIX (empty l1 frame; length FIX rejected: short format) → PASS round 2. Scheduled 19:00 at ~08:35 (job e90250c6). 18:00 news re-check + 19:20 link check scheduled.
 - Analyst early reads: penipuan 14 h IG 180 / 19.5% (low reach), YT 440; pengadaan 62 h IG 1,284 / 53.6%, YT 209. Health: IG-missing WARN (known false alarm).
 - Live 19:00: IG Df67GxJEddo · YT kKBKooHGqg8; 18:00 news re-check no change.
+
+## 2026-11-20 (Fri, wildcard: Google 23 ribu+ kanal YouTube (default pick); Pratama, story, subs word, standard, no B) + weekly #5
+- Sweeps 3/12/7/8 events (+29 merged; markets thin, CNN/CNBC/Tempo/detik pages often blocked). Ideas: ⭐ Google 23.827 kanal 11/12; light FC 2 fixes (#2 PIK time Kamis sore, #3 illicit-enrichment claim dropped).
+- No pick by 14:00 → default ⭐ #1; user "Ok to post" ~14:10. Hook-critic PICK A 12/14. Full FC 2 fixes (Q2 840 = Katadata partial → "lebih dari 23 ribu"; Komdigi–Google meeting 19 Nov) + l12b re-voiced with Google spokesperson (Reuters). Producer 89.5 s; QA 4 rounds (end-card wording, sync lead −0.05 — qa_sync ignores SUB_LEAD, safe-zone). Live 19:00: IG Df9f6C5DYGu · YT RY5MnQHJSzQ.
+- Weekly #5 (14–20 Nov, 6:42, 8 chapters): FC 7 fixes; the producer had no Agent tool, so it built the chapters itself and self-reviewed; an independent editor review found 3 fixes (2 overlaps + unverified d6 cut). 16:30 news re-check: Kejagung makar presentation postponed → b7 trimmed. Waiting for "OK weekly"; Sat 07:00 news check + 07:40 default post scheduled.
+- Analyst: Kepuasan 24 h IG 117 / 24.4%, YT 456; udara Jakarta 72 h IG 113 / 17.7%. Health: IG-missing WARN (known false alarm).
