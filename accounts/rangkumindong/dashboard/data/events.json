@@ -1,225 +1,5 @@
 [
 {
-"id": "E0220",
-"date": "2026-10-22",
-"category": "MKT",
-"event": "IHSG closed up 1.12% at 5,387.91 for a third straight gain after opening about 2% lower, while foreign investors net sold about Rp1.49 trillion. (update of E0168)",
-"key_numbers": "Close 5,387.91 (+59.54 pts, +1.12%) · open 5,247.98 · intraday high 5,422.59 · 21 Oct close 5,328 (+0.94%) · foreign net sell Rp1.49 T (BBCA Rp624.6 B, TLKM Rp332.2 B, BBRI Rp257.9 B) · value Rp15.3-16.2 T (sources differ)",
-"storyline": "msci-reclassification",
-"status": "verified",
-"upcoming": false
-},
-{
-"id": "E0222",
-"date": "2026-10-22",
-"category": "MKT",
-"event": "The rupiah weakened past Rp18,000 per US dollar after Bank Indonesia held its policy rate. (update of E0172)",
-"key_numbers": "Reported closes Rp18,022 and Rp18,060 per USD (outlets differ) · morning level Rp18,083 · 20 Oct close Rp17,995 (E0172)",
-"storyline": "rupiah",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0231",
-"date": "2026-10-22",
-"category": "POL",
-"event": "Luhut's proposal to drop state loss from the definition of corruption draws more pushback: PKS legislators Nasir Djamil and Mardani Ali Sera (DPR Komisi III) oppose it, a Golkar-linked DPR member and a PUKAT UGM researcher weigh in, while Yusril calls it worth considering; no direct Palace statement yet.",
-"key_numbers": "Nasir Djamil: 'ahistoris dan layak ditolak' · Soedeson Tandra (ANTARA headline): state loss must stay in the definition · PUKAT UGM: adopt UNCAC offences into UU Tipikor · Luhut's claim of Prabowo approval still unconfirmed by Palace",
-"storyline": "definisi-korupsi",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0232",
-"date": "2026-10-22",
-"category": "POL",
-"event": "KPK detains 7 of 8 suspects in the expanded North Sumatra road-project corruption case, including former BBPJN Sumut head Stanley Cicero Haggard Tuapattinaja; the eighth, Dicky Erlangga, skipped the summons and is called again on 26 Oct.",
-"key_numbers": "7 detained for 20 days, 22 Oct–10 Nov · 8 suspects · 6 projects worth about Rp231.8 miliar · OTT 26 Jun 2025 · KPK says it may extend to North Sumatra provincial government and Ministry of PU parties",
-"storyline": "corruption-cases",
-"status": "verified",
-"upcoming": false
-},
-{
-"id": "E0233",
-"date": "2026-10-22",
-"category": "POL",
-"event": "TNI says it will follow up KPK's 20 Oct letter to Panglima Agus Subiyanto naming two active soldiers allegedly involved in the BNPB disaster-fund corruption case; KPK is awaiting TNI's reply. (update of E0215)",
-"key_numbers": "2 active soldiers · KPK letter 20 Oct · 5 civilian suspects named 14 Oct · KPK seizures Rp5.47 miliar (16 Oct) · Puspom TNI informed about ex-BNPB head Suharyanto's role",
-"storyline": "corruption-cases",
-"status": "verified",
-"upcoming": false
-},
-{
-"id": "E0234",
-"date": "2026-10-22",
-"category": "POL",
-"event": "GRIB Jaya says, via lawyer Wilson Colling, that the Rp800 juta Hercules handed to KPK came from PT Summarecon Agung for a 65-ha land dispute in Bogor; KPK says it is tied to the alleged bribery over Summarecon's HGB at ATR/BPN. (update of E0209)",
-"key_numbers": "Rp800 juta · 65 ha · 12 SHM → 12 SHGB · KPK: 8 suspects incl. Summarecon President Director Adrianto Pitojo Adhi · OTT 14 Sep: 19 people, Rp106.3 miliar seized · intermediary named 'MW' (GRIB) vs 'NMB' (KPK)",
-"storyline": "corruption-cases",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0235",
-"date": "2026-10-22",
-"category": "POL",
-"event": "Madiun mayor (non-active) Maidi is sentenced to 5 years by the Surabaya Tipikor court in the CSR-extortion and project-fee case, 2 years 2 months below KPK's demand.",
-"key_numbers": "5 years · fine Rp250 juta (3 months substitute) · demand 7 years 2 months · KPK demanded replacement money Rp8,005,384,790 (court order on it not confirmed)",
-"storyline": "corruption-cases",
-"status": "verified",
-"upcoming": false
-},
-{
-"id": "E0236",
-"date": "2026-10-22",
-"category": "POL",
-"event": "40 national figures file an amicus curiae at the Jakarta Tipikor court asking for acquittal of former Ombudsman chair Hery Susanto during the defence rejoinder; verdict is set for 5 Nov.",
-"key_numbers": "Alleged bribes Rp4.85 miliar · demand 5 years 6 months + Rp300 juta fine + Rp4.19 miliar restitution · 40 amicus filers · verdict 5 Nov 2026",
-"storyline": "corruption-cases",
-"status": "verified",
-"upcoming": false
-},
-{
-"id": "E0237",
-"date": "2026-10-22",
-"category": "POL",
-"event": "East Java police arrest 11 people accused of trying to provoke unrest at the student rally at Gedung Grahadi, Surabaya, which the police chief calls largely peaceful. (update of E0179)",
-"key_numbers": "11 arrested (2 students, 9 school dropouts) · thinner, arak, knuckle-dusters, phones seized · Polda Jatim chief Irjen Dekananto Eko Purwono",
-"storyline": "protests-prabowo-2-years",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0241",
-"date": "2026-10-22",
-"category": "NEWS",
-"event": "BRIN says the object that fell in a palm-oil plantation near Sampit, Central Kalimantan, is debris from a Chinese rocket (reported as a ZQ-2E), described as car-sized.",
-"key_numbers": "Debris reportedly car-sized · location: oil-palm plantation near Sampit, Kalteng · rocket model ZQ-2E per detikPedia headline (not verified in article body)",
-"storyline": "",
-"status": "verified",
-"upcoming": false
-},
-{
-"id": "E0245",
-"date": "2026-10-22",
-"category": "GLB",
-"event": "A New Mexico court reportedly fines Meta about US$25 billion (~Rp450 T) over the Cambridge Analytica case, per a CNN Indonesia headline.",
-"key_numbers": "US$25 B (~Rp450 T) per headline only · New Mexico court · article body not read",
-"storyline": "",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0255",
-"date": "2026-10-22",
-"category": "BIZ",
-"event": "Danantara CIO Pandu Sjahrir said Danantara has started buying shares through external investment partners during the MSCI sell-off and will keep buying while valuations stay attractive. (update of E0139)",
-"key_numbers": "Statement 22 Oct 2026 · no purchase amounts or stock names disclosed · partners chosen on track record, team quality and decision process",
-"storyline": "msci-reclassification",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0256",
-"date": "2026-10-22",
-"category": "MKT",
-"event": "About 336 regional and global foreign investors joined a Zoom session with OJK and BEI asking how they will respond to MSCI's possible downgrade; OJK promised stronger ownership transparency and tougher action on manipulation.",
-"key_numbers": "~336 investors · session on Monday 19 Oct · OJK's Hasan Fawzi spoke 22 Oct · no asset figures given",
-"storyline": "msci-reclassification",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0259",
-"date": "2026-10-22",
-"category": "POL",
-"event": "Prosecutors demand 10 years' prison, a Rp500 million fine and dismissal from the military for Letjen TNI Widi Prasetijono, a former aide to Jokowi, in a Cilacap state-land sale (Caruy plantation) corruption trial at the Military High Court II Jakarta; this is a demand, not a verdict.",
-"key_numbers": "Alleged state loss Rp237.09 billion · 716.2 hectares · restitution Rp21.05 billion · fine Rp500 juta · demand 10 years",
-"storyline": "",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0263",
-"date": "2026-10-22",
-"category": "TECH",
-"event": "UMKM Minister Maman Abdurrahman said his ministry has until end-December 2026 to draft its derivative rule under Perpres 27/2026 on digital-platform transport and will weigh the fate of Gojek, Grab and Maxim without rushing. (update of E0144)",
-"key_numbers": "deadline end Dec 2026 · ~5 million ojol drivers registered, only ~1 million work regularly · 13-15 million UMKM merchants sell via the platforms · Kemenhub handles passenger fares, Komdigi handles goods-delivery fares, UMKM Ministry supervises partnership agreements",
-"storyline": "ojol-regulation",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0264",
-"date": "2026-10-22",
-"category": "TECH",
-"event": "Komdigi Deputy Minister Nezar Patria set out four follow-up agendas after Bali Tech Week 2026, including a national digital infrastructure map within 30 days and a review of telecom rules to allow new technologies such as LEO satellites. (update of E0142)",
-"key_numbers": "digital infrastructure map due within 30 days (fibre, submarine cables, satellites) · 4 agendas: infrastructure map, pilot projects with BUMN/corporates/UMKM, AI talent, regulation review · announced at Sovereign Tech Summit 2026, Denpasar, 22 Oct",
-"storyline": "startup-funding",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0291",
-"date": "2026-10-22",
-"category": "TECH",
-"event": "The Pengadilan Niaga at PN Jakarta Pusat annulled the KPPU decision that found 97 P2P lending (pinjol) platforms guilty of price-fixing interest rates, saying the ceiling was OJK policy, not a cartel.",
-"key_numbers": "97 pinjol platforms · KPPU fine reported as Rp755 miliar (per Kontan/Monitor Indonesia headlines, not in CNBC text) · ruling read 22 Oct 2026 · KPPU ordered to pay court costs Rp23.592.000 · ceiling per AFPI guidelines 2018/2020/2021 and SEOJK 19/SEOJK.06/2023 effective 1 Jan 2024",
-"storyline": "",
-"status": "verified",
-"upcoming": false
-},
-{
-"id": "E0297",
-"date": "2026-10-22",
-"category": "ENV",
-"event": "BMKG head Teuku Faisal Fathani says the 2026/27 rainy season will arrive late, in November for some areas and December for others, with Central Kalimantan expected mid to late November; peak is December-February with more frequent heavy rain. (update of E0248)",
-"key_numbers": "Rainy season onset: Nov-Dec 2026 · Central Kalimantan: mid to late Nov · peak Dec-Feb · total rainfall near 30-year normal but season shorter",
-"storyline": "karhutla",
-"status": "verified",
-"upcoming": false
-},
-{
-"id": "E0302",
-"date": "2026-10-22",
-"category": "ECO",
-"event": "Bank Indonesia cut the average bank reserve requirement (GWM) by 2 percentage points alongside holding the BI-Rate and extending the LTV/FTV property-loan policy, while the rupiah still weakened. (update of E0221)",
-"key_numbers": "GWM conventional banks 9% to 7% · sharia banks and units 7.5% to 5.5% · rupiah closed Rp18,060/USD on 22 Oct, down 38 points (0.21%) from Rp18,022 · SBN yields 5Y 7.21%, 10Y 7.43%, 15Y 7.42%, 20Y 7.41% · bond volume Rp24.39 T",
-"storyline": "rupiah",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0308",
-"date": "2026-10-22",
-"category": "POL",
-"event": "DPR Commission III deputy chair Ahmad Sahroni (NasDem) backs Luhut's proposal that state loss should not count as corruption and urges a revision of the Tipikor Law; KPK chair Setyo Budiyanto on 21 Oct said the state-loss element must stay. (update of E0231)",
-"key_numbers": "Luhut met Prabowo 20 Oct 2026 · Sahroni 22 Oct · KPK response 21 Oct · UNCAC ratified via UU 7/2006 · KPK says four UNCAC offences still need provisions",
-"storyline": "definisi-korupsi",
-"status": "verified",
-"upcoming": false
-},
-{
-"id": "E0309",
-"date": "2026-10-22",
-"category": "TECH",
-"event": "Komdigi, at a Jakarta discussion, asked platforms to label AI-generated content and be transparent about AI agents after the Threads account @IbuAsihLaundry went viral as a suspected AI bot that pro-Prabowo/MBG posts.",
-"key_numbers": "Komdigi session 22 Oct 2026 · account allegedly named model 'Muse Spark' (Meta) and posted an Anthropic API-credit error · Komdigi: bot use alone is not a violation · expert Alfons Tanujaya: neat writing/high posting frequency does not prove AI",
-"storyline": "",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0313",
-"date": "2026-10-22",
-"category": "TECH",
-"event": "Kemenekraf games director Luat Sihombing said rising chip and RAM prices are squeezing Indonesia's game industry and that the ministry is preparing incentives and a revision of Perpres 19/2024.",
-"key_numbers": "Chip and RAM prices rising for 2 years · games could add up to US$3.3 bn (~Rp59 T) to GDP by 2030 · ~476,600 jobs by 2030 vs ~257,400 now (Tencent/Access Partnership white paper) · stated at WCCE 2026, 22 Oct",
-"storyline": "chip-ram-prices",
-"status": "partial",
-"upcoming": false
-},
-{
 "id": "E0229",
 "date": "2026-10-23",
 "category": "BIZ",
@@ -7610,6 +7390,86 @@
 "upcoming": false
 },
 {
+"id": "E1004",
+"date": "2026-11-20",
+"category": "MKT",
+"event": "The IHSG closed down 0.92% at 5,146.32 on Friday 20 November, its fifth straight daily decline, ending the week 3.71% lower from 5,344.40. (update of E0951)",
+"key_numbers": "IHSG 5,146.32 (-0.92% d/d) · week -3.71% from 5,344.40 · 265 stocks down vs 102 up · LQ45 535.73 (-0.80%) · energy sector -1.42% · value Rp8.09 trillion",
+"storyline": "msci-reclassification",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E1005",
+"date": "2026-11-20",
+"category": "MKT",
+"event": "The rupiah closed at Rp18,270 per US dollar on 20 November, reported by Kontan as the weakest level ever, despite BI's rate hike to 6.00% on 18 November. (update of E0952)",
+"key_numbers": "Rp18,270/USD spot (-0.09% from Rp18,254) · JISDOR Rp18,278 (per Topik) · prior close 18 Nov Rp18,232 · dollar index 103.73",
+"storyline": "rupiah",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E1006",
+"date": "2026-11-20",
+"category": "ECO",
+"event": "Bank Indonesia reported the Q3 2026 balance of payments swung to a US$100 million surplus, with the current account deficit narrowing sharply to 0.5% of GDP. (update of E0864)",
+"key_numbers": "BoP surplus US$100 million (Q2 deficit, US$9 million per CNBC Indonesia) · current account deficit US$2 billion = 0.5% of GDP vs US$12.6 billion = 3.4% in Q2 · financial account surplus US$2.1 billion · reserves US$146.3 billion end-Sep (5.4 months of imports) · portfolio investment in deficit as foreign SBN inflows fell",
+"storyline": "rupiah",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E1011",
+"date": "2026-11-20",
+"category": "NEWS",
+"event": "Polres Bogor foiled the departure of 22 Indonesian men recruited as mercenaries for Russia, arrested two recruiters, and said about 200 earlier recruits were sent via Thailand and some have joined the Russian army.",
+"key_numbers": "22 men stopped · 2 suspects (FIK 37, STH 38) · promised USD 10,000 signing + USD 3,000/month · ~200 sent earlier via Thailand · Rp50,000/day food allowance · max 15 years (TPPO Law 21/2007) · tip-off 19 Oct",
+"storyline": "tentara-bayaran-rusia",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E1017",
+"date": "2026-11-20",
+"category": "TECH",
+"event": "detikInet reported Q3 2026 subscriber numbers fell year-on-year at Telkomsel, XLSmart and Indosat while ARPU rose, as operators chase revenue over subscribers.",
+"key_numbers": "Telkomsel 151.1 juta, -4.1% · XLSmart 69.5 juta, -12.1% · Indosat 91.5 juta, -3.3% · ARPU XLSmart Rp47.500 (+22.1%), Indosat Rp46.000 (+15%), Telkomsel Rp44.900 (+3.5%)",
+"storyline": "",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E1021",
+"date": "2026-11-20",
+"category": "NEWS",
+"event": "Polres Bogor announced it foiled the recruitment of 22 Indonesian men for Russian mercenary service and arrested two recruiters who allegedly already sent about 200 people via Thailand.",
+"key_numbers": "22 WNI stopped · 2 suspects (FIK 37, STH 38) · offer: USD 10,000 signing bonus + USD 3,000/month · ~200 allegedly already sent (under verification) · USD 600 commission per recruit · max 15 years (UU 21/2007, UU 18/2017) · route Bogor-Thailand-Russia",
+"storyline": "tentara-bayaran-rusia",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E1022",
+"date": "2026-11-20",
+"category": "ECO",
+"event": "Jakarta Governor Pramono Anung's UMP 2027 of about Rp6.1 million dominated detik's most-read list on 21 Nov, with union leader Said Iqbal arguing Jakarta's wage trails Bekasi's. (update of E0996)",
+"key_numbers": "UMP DKI 2027 Rp6,136,941 · +Rp407,065 (+7.1%) · detik terpopuler #2 · Central Java UMP 2027 Rp2.65 million (+14.1%, CNBC 21 Nov)",
+"storyline": "ump-2027",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E1026",
+"date": "2026-11-20",
+"category": "NEWS",
+"event": "The ICJ ruled that Myanmar is responsible for genocide against the Rohingya; China criticised the ruling and Indonesia's DPR Commission I welcomed it and urged ASEAN to act.",
+"key_numbers": "detik terpopuler #1 on 21 Nov · DPR Komisi I backs ruling",
+"storyline": "",
+"status": "verified",
+"upcoming": false
+},
+{
 "id": "E0921",
 "date": "2026-11-21",
 "category": "ECO",
@@ -7626,6 +7486,146 @@
 "event": "Former Polhukam minister Mahfud MD urged President Prabowo and MPR leaders to be careful in setting the schedule for choosing Gibran's replacement as Vice President. (update of E0898)",
 "key_numbers": "MPR plenary moved from 2 Dec to 9 Dec 2026 · Mahfud statement 21 Nov 2026 01:01 WIB",
 "storyline": "gibran-ijazah-mk",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E1008",
+"date": "2026-11-21",
+"category": "POL",
+"event": "Bareskrim Polri said some suspects in the illegal-wiretapping case are also witnesses in a separate makar (subversion) investigation, after searching five sites incl. a post allegedly linked to ex-Kapolres Bogor Kombes IIM; no makar suspects named yet and the case presentation was postponed. (update of E0998)",
+"key_numbers": "5 locations searched (4 in Bogor area, 1 in Curug, Tangerang) · ~4 posts identified · searches began night of 19 Nov · 0 makar suspects named · statements by Brigjen Susatyo Purnomo Condro (Dir Tipidum) 20 Nov",
+"storyline": "listyo-sigit-penyadapan",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E1009",
+"date": "2026-11-21",
+"category": "POL",
+"event": "Culture Minister Fadli Zon said he was examined twice by police as a victim and learned his phone was tapped from 2021 to 2026, one of the longest-tapped numbers, in his roles at Gerindra's advisory council and party leadership. (update of E0562)",
+"key_numbers": "Tapped 2021-2026 (about 5 years) · examined 2 times · 4 suspects in case (Listyo Sigit, Ahrie Sonta, Eko Hadi Santoso, Slamet Uliandi) · 3 held at Mako Brimob Kelapa Dua, Slamet not detained (recovering from illness) per detik",
+"storyline": "listyo-sigit-penyadapan",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E1010",
+"date": "2026-11-21",
+"category": "POL",
+"event": "Polda Metro Jaya said the defamation case against social media user Cakra Adi Negara, released without detention on 21 Nov with a wajib-lapor requirement, is unrelated to DPR Deputy Speaker Dasco, while public attention links it to his 19 Nov post about Dasco's business record; Gerindra called Dasco's critics' claims on online gambling and doxxing one-sided. (update of E0942)",
+"key_numbers": "Picked up early 20 Nov · released ~02:10 WIB 21 Nov · suspect, not detained · KUHP 433 (defamation) and 434 (fitnah) · max 3 years · 2 phones held · Cakra's Threads post 19 Nov",
+"storyline": "gibran-ijazah-mk",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E1014",
+"date": "2026-11-21",
+"category": "TECH",
+"event": "CNBC Indonesia reported that eight ride-hailing (ojol) services have stopped operating in Indonesia, some after going bankrupt, and published a list.",
+"key_numbers": "8 ojol services stopped",
+"storyline": "ojol-green-sm",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E1015",
+"date": "2026-11-21",
+"category": "TECH",
+"event": "CNBC Indonesia reported that US President Trump abruptly banned the construction of data centres outside the US (headline only; article not opened).",
+"key_numbers": "",
+"storyline": "ai-data-centres",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E1016",
+"date": "2026-11-21",
+"category": "TECH",
+"event": "CNBC Indonesia reported GTA VI earned a record Rp69 trillion on its launch day (headline only; article not opened). (update of E0970)",
+"key_numbers": "Rp69 trillion first-day revenue",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E1018",
+"date": "2026-11-21",
+"category": "TECH",
+"event": "CNBC Indonesia reported that two apps favoured by scammers in Indonesia are used by almost everyone (headline only). (update of E0995)",
+"key_numbers": "",
+"storyline": "online-scams",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E1019",
+"date": "2026-11-21",
+"category": "TECH",
+"event": "detikInet reported malware attacks targeting PC gamers are rising alongside GTA VI hype, and that watching on IndoXXI/LK21 can drain bank accounts.",
+"key_numbers": "27 ribu malware attacks",
+"storyline": "online-scams",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E1020",
+"date": "2026-11-21",
+"category": "TECH",
+"event": "detikInet reported on the Google-Komdigi meeting and the sovereignty debate over the closure of about 19,000 pro-government YouTube channels. (update of E0989)",
+"key_numbers": "~19,000 channels",
+"storyline": "google-youtube-channels",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E1023",
+"date": "2026-11-21",
+"category": "ENV",
+"event": "BMKG recorded an M7.2 earthquake at sea about 43 km northwest of Maluku Barat Daya at 16:42 WIB; no tsunami, no official damage reports yet.",
+"key_numbers": "M7.2 · depth 125 km · 7.88S 127.51E · 16:42:11 WIB Sat 21 Nov · MMI IV in Tiakur, Romang, Babar · no tsunami",
+"storyline": "",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E1024",
+"date": "2026-11-21",
+"category": "POL",
+"event": "Fadli Zon, questioned by police as a victim, said his phone was wiretapped from 2021 to 2026 by ex-Kapolri Listyo Sigit's circle; four generals are named suspects. (update of E0562)",
+"key_numbers": "Tapped 2021-2026 (about 5 years) · questioned twice · 4 active generals suspects (Listyo Sigit, Ahrie Sonta, Eko Hadi Santoso, Slamet Uliandi) · 3 detained at Mako Brimob",
+"storyline": "listyo-sigit-penyadapan",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E1025",
+"date": "2026-11-21",
+"category": "NEWS",
+"event": "Bengkulu police chief Irjen Yudhi Sulistianto Wahid bowed in prostration before dozens of Cipayung Plus students, apologising for officers' conduct during demonstrations; the clip went viral.",
+"key_numbers": "Meeting 19 Nov · dozens of students · clip viral by 21 Nov · related: 3 DIY police placed in Patsus over 10 Nov Yogyakarta demo riot",
+"storyline": "",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E1027",
+"date": "2026-11-21",
+"category": "ENV",
+"event": "BNPB's operations summary listed floods, karhutla and extreme weather across 9 provinces on 20-21 Nov, including floods in 5 subdistricts of Singkawang. (update of E0949)",
+"key_numbers": "9 provinces (Sumut, Riau, Sumsel, Banten, Jabar, Jatim, Kalbar, Sulsel, Sulteng) · Singkawang flood 20 Nov, 5 subdistricts, 13 kelurahan · Kemenhut 307 hotspots on 21 Nov, most in Papua Selatan",
+"storyline": "karhutla",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E1028",
+"date": "2026-11-21",
+"category": "NEWS",
+"event": "detik's latest feed carried a thin orangutan being released back to forest after suspected karhutla exposure in Central Kalimantan, a fire in a Baduy village hitting 34 families, and a Ujung Kulon statement on a rhino transport cage.",
+"key_numbers": "Baduy fire: 34 families · orangutan release (Kalteng karhutla)",
+"storyline": "karhutla",
 "status": "partial",
 "upcoming": false
 },
@@ -7650,12 +7650,42 @@
 "upcoming": true
 },
 {
+"id": "E1012",
+"date": "2026-11-24",
+"category": "POL",
+"event": "Polri's ethics hearing (KKEP) for ex-Kapolri Listyo Sigit over the alleged illegal wiretapping is reported to be set for 24 November, possibly chaired by Kapolri Suyudi; panel not officially confirmed. (update of E0983)",
+"key_numbers": "Reported date 24 Nov (Bangkapos); Polri earlier said 'next week' · panel must be senior officers (Irjen to general) under Perpol 4/2026 Art. 42 · prior PTDH: Ahrie Sonta 10 Nov, Eko Hadi Santoso 17 Nov (both appealed)",
+"storyline": "listyo-sigit-penyadapan",
+"status": "upcoming",
+"upcoming": true
+},
+{
 "id": "E0980",
 "date": "2026-11-25",
 "category": "ECO",
 "event": "Under Law No. 27 of 2026 on Worker Protection, the Ministry of Manpower set follow-on 2027 minimum-wage deadlines after the 21 November UMP deadline: UMK by 25 November, UMSP on 26 November and UMSK by 30 November. (update of E0921)",
 "key_numbers": "UMP deadline 21 Nov 2026 · UMK 25 Nov · UMSP 26 Nov · UMSK 30 Nov · index value 0.5-1.0 in formula · 3 variables: KHL, economic conditions, employment",
 "storyline": "ump-2027",
+"status": "upcoming",
+"upcoming": true
+},
+{
+"id": "E1013",
+"date": "2026-11-25",
+"category": "POL",
+"event": "President Prabowo must submit two vice-presidential candidate names with documents to the MPR by 25 November, 14 days before the 9 December MPR plenary to elect Gibran's replacement; Dasco's name is gaining support and he asked that the President's prerogative be respected. (update of E0898)",
+"key_numbers": "Deadline 25 Nov · plenary 9 Dec 2026 (moved from 2 Dec) · 2 names · MPR mechanics target 8 Dec · Gibran resigned 12 Nov",
+"storyline": "gibran-ijazah-mk",
+"status": "upcoming",
+"upcoming": true
+},
+{
+"id": "E1007",
+"date": "2026-11-26",
+"category": "GLB",
+"event": "US markets are closed on Thursday 26 November for Thanksgiving, with a thin-liquidity shortened session on Friday 27 November.",
+"key_numbers": "NYSE/Nasdaq closed Thu 26 Nov · early close Fri 27 Nov",
+"storyline": "rupiah",
 "status": "upcoming",
 "upcoming": true
 },

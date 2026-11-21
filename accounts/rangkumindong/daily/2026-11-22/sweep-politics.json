@@ -1,0 +1,304 @@
+{
+ "area": "politics",
+ "run_date": "2026-11-22",
+ "checked": [
+  "detik news section",
+  "CNN Indonesia nasional",
+  "ANTARA hukum",
+  "Tempo politik (robots-blocked)",
+  "Presiden/Istana",
+  "Wapres/MPR",
+  "DPR/RUU (Asset Forfeiture)",
+  "Polri big cases",
+  "demonstrations (Yogyakarta)",
+  "labour/UMP (headline only; E0996 known)",
+  "storylines: listyo-sigit-penyadapan, gibran-ijazah-mk, corruption-cases, tentara-bayaran-rusia"
+ ],
+ "events": [
+  {
+   "date": "2026-11-21",
+   "category": "POL",
+   "event": "Bareskrim Polri said some suspects in the illegal-wiretapping case are also witnesses in a separate makar (subversion) investigation, after searching five sites incl. a post allegedly linked to ex-Kapolres Bogor Kombes IIM; no makar suspects named yet and the case presentation was postponed.",
+   "key_numbers": "5 locations searched (4 in Bogor area, 1 in Curug, Tangerang) · ~4 posts identified · searches began night of 19 Nov · 0 makar suspects named · statements by Brigjen Susatyo Purnomo Condro (Dir Tipidum) 20 Nov",
+   "storyline": "listyo-sigit-penyadapan",
+   "update_of": "E0998",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "ANTARA",
+     "url": "https://www.antaranews.com/berita/5867703/polri-tersangka-penyadapan-ilegal-jadi-saksi-kasus-makar"
+    },
+    {
+     "label": "ANTARA",
+     "url": "https://www.antaranews.com/berita/5867603/polri-duga-posko-kombes-iim-di-bogor-jadi-tempat-permufakatan-makar"
+    },
+    {
+     "label": "Detik",
+     "url": "https://news.detik.com/berita/d-8762026/rumah-di-bogor-diduga-dipakai-kombes-iman-imanuddin-jadi-posko-terkait-makar"
+    }
+   ],
+   "why_it_matters": "The wiretapping case may be widening into a treason probe, and Polri says being a suspect in one does not make someone a suspect in the other.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 0,
+    "surprise": 2,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "ANTARA hukum section top items, several outlets",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-11-21",
+   "category": "POL",
+   "event": "Culture Minister Fadli Zon said he was examined twice by police as a victim and learned his phone was tapped from 2021 to 2026, one of the longest-tapped numbers, in his roles at Gerindra's advisory council and party leadership.",
+   "key_numbers": "Tapped 2021-2026 (about 5 years) · examined 2 times · 4 suspects in case (Listyo Sigit, Ahrie Sonta, Eko Hadi Santoso, Slamet Uliandi) · 3 held at Mako Brimob Kelapa Dua, Slamet not detained (recovering from illness) per detik",
+   "storyline": "listyo-sigit-penyadapan",
+   "update_of": "E0562",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "Detik",
+     "url": "https://news.detik.com/berita/d-8763635/diperiksa-polisi-sebagai-korban-fadli-zon-ungkap-disadap-sejak-2021"
+    },
+    {
+     "label": "Kumparan",
+     "url": "https://kumparan.com/kumparannews/fadli-zon-dan-herzaky-ngaku-disadap-secara-ilegal-sudah-diperiksa-sebagai-saksi-28cMNcUjKPg"
+    },
+    {
+     "label": "Liputan6",
+     "url": "https://www.liputan6.com/news/read/8339859/fadli-zon-cerita-pengalaman-disadap-sejak-jadi-petinggi-gerindra"
+    }
+   ],
+   "why_it_matters": "It shows the alleged tapping reached beyond the President to other senior politicians, and ran far longer than first reported (2025).",
+   "signals": {
+    "spreading": 2,
+    "wallet": 0,
+    "surprise": 2,
+    "visual": 2,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "detik feed top, multiple outlets same day",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-11-21",
+   "category": "POL",
+   "event": "Polda Metro Jaya said the defamation case against social media user Cakra Adi Negara, released without detention on 21 Nov with a wajib-lapor requirement, is unrelated to DPR Deputy Speaker Dasco, while public attention links it to his 19 Nov post about Dasco's business record; Gerindra called Dasco's critics' claims on online gambling and doxxing one-sided.",
+   "key_numbers": "Picked up early 20 Nov · released ~02:10 WIB 21 Nov · suspect, not detained · KUHP 433 (defamation) and 434 (fitnah) · max 3 years · 2 phones held · Cakra's Threads post 19 Nov",
+   "storyline": "gibran-ijazah-mk",
+   "update_of": "E0942",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "IDN Times",
+     "url": "https://www.idntimes.com/news/indonesia/meski-dibebaskan-cakra-adi-negara-jadi-tersangka-pencemaran-nama-baik-00-bbwlv-550l73"
+    },
+    {
+     "label": "Viva",
+     "url": "https://www.viva.co.id/berita/metro/1945377-polisi-ungkap-fakta-di-balik-penangkapan-cakra-adi-negara-kasus-dipastikan-tak-terkait-dasco"
+    },
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/nasional"
+    }
+   ],
+   "why_it_matters": "It lands in the middle of the VP-replacement race, where Dasco is the most-discussed name, and raises free-speech questions.",
+   "signals": {
+    "spreading": 2,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 0,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "detik and CNN Indonesia multiple headlines 21 Nov",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-11-20",
+   "category": "NEWS",
+   "event": "Polres Bogor foiled the departure of 22 Indonesian men recruited as mercenaries for Russia, arrested two recruiters, and said about 200 earlier recruits were sent via Thailand and some have joined the Russian army.",
+   "key_numbers": "22 men stopped · 2 suspects (FIK 37, STH 38) · promised USD 10,000 signing + USD 3,000/month · ~200 sent earlier via Thailand · Rp50,000/day food allowance · max 15 years (TPPO Law 21/2007) · tip-off 19 Oct",
+   "storyline": "tentara-bayaran-rusia",
+   "update_of": "",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "ANTARA",
+     "url": "https://megapolitan.antaranews.com/berita/563703/polres-bogor-ungkap-modus-perekrutan-22-wni-untuk-tentara-bayaran-rusia"
+    },
+    {
+     "label": "JPNN",
+     "url": "https://jabar.jpnn.com/kriminal/34464/22-wni-nyaris-berangkat-jadi-tentara-bayaran-di-rusia-polisi-tangkap-2-perekrut"
+    }
+   ],
+   "why_it_matters": "New concrete numbers (200 sent, pay promised) on a recruitment scheme targeting ordinary job seekers.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 1,
+    "surprise": 2,
+    "visual": 2,
+    "fresh": 1,
+    "rivals": 1
+   },
+   "spreading_evidence": "CNN Indonesia and ANTARA headlines 20-21 Nov",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-21",
+   "category": "NEWS",
+   "event": "Police placed three Yogyakarta police officers under internal detention over alleged ethics violations during the 10 November riot.",
+   "key_numbers": "3 officers · internal (patsus) detention · riot date 10 Nov",
+   "storyline": "protests-prabowo-2-years",
+   "update_of": "E0757",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/nasional"
+    }
+   ],
+   "why_it_matters": "First visible accountability step after the Heroes' Day protest violence.",
+   "signals": {
+    "spreading": 0,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 0,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-11-21",
+   "category": "POL",
+   "event": "DPR said the absence of an illicit-enrichment provision in the new Asset Forfeiture Law does not mean it does not want to impoverish corruptors, while the Law Minister called the law an effort to minimise crime.",
+   "key_numbers": "Law enacted 19 Nov 2026 · illicit enrichment provision left out",
+   "storyline": "corruption-cases",
+   "update_of": "E0954",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "ANTARA Hukum",
+     "url": "https://www.antaranews.com/hukum"
+    }
+   ],
+   "why_it_matters": "Defines what the new law can and cannot do against unexplained wealth.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 0,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-24",
+   "category": "POL",
+   "event": "Polri's ethics hearing (KKEP) for ex-Kapolri Listyo Sigit over the alleged illegal wiretapping is reported to be set for 24 November, possibly chaired by Kapolri Suyudi; panel not officially confirmed.",
+   "key_numbers": "Reported date 24 Nov (Bangkapos); Polri earlier said 'next week' · panel must be senior officers (Irjen to general) under Perpol 4/2026 Art. 42 · prior PTDH: Ahrie Sonta 10 Nov, Eko Hadi Santoso 17 Nov (both appealed)",
+   "storyline": "listyo-sigit-penyadapan",
+   "update_of": "E0983",
+   "status": "upcoming",
+   "sources": [
+    {
+     "label": "Liputan6",
+     "url": "https://www.liputan6.com/news/read/8337394/polri-bicara-susunan-hakim-sidang-etik-listyo"
+    },
+    {
+     "label": "Bangkapos",
+     "url": "https://bangka.tribunnews.com/video/1703303/desakan-listyo-sigit-tampil-24-november-kapolri-suyudi-disebut-bakal-pimpin-sidang-etik-video"
+    }
+   ],
+   "why_it_matters": "First ethics hearing for a four-star general; outcome could mean dismissal.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-11-25",
+   "category": "POL",
+   "event": "President Prabowo must submit two vice-presidential candidate names with documents to the MPR by 25 November, 14 days before the 9 December MPR plenary to elect Gibran's replacement; Dasco's name is gaining support and he asked that the President's prerogative be respected.",
+   "key_numbers": "Deadline 25 Nov · plenary 9 Dec 2026 (moved from 2 Dec) · 2 names · MPR mechanics target 8 Dec · Gibran resigned 12 Nov",
+   "storyline": "gibran-ijazah-mk",
+   "update_of": "E0898",
+   "status": "upcoming",
+   "sources": [
+    {
+     "label": "Viva",
+     "url": "https://purwasuka.viva.co.id/nasional/22349-dukungan-dasco-jadi-cawapres-menguat-prabowo-kini-dihadapkan-tenggat-25-november"
+    },
+    {
+     "label": "ANTARA",
+     "url": "https://www.antaranews.com/video/5857967/mpr-tetapkan-sidang-paripurna-pemilihan-wapres-pada-9-desember-2026"
+    },
+    {
+     "label": "Kompas.id",
+     "url": "https://www.kompas.id/artikel/dukungan-menjadi-cawapres-menguat-dasco-minta-hormati-hak-presiden"
+    }
+   ],
+   "why_it_matters": "Names the next Vice President candidates this week; one week before the vote.",
+   "signals": {
+    "spreading": 2,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "Many outlets; detik Dasco items repeated",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-11-23",
+   "category": "NEWS",
+   "event": "Polda NTT is set to examine Kupang Regent Yosef Lede next week in the alleged rape case after police searched his residence on 21 Nov.",
+   "key_numbers": "Exam 'next week' (23-29 Nov, date not given) · residence searched 21 Nov",
+   "storyline": "",
+   "update_of": "E0973",
+   "status": "upcoming",
+   "sources": [
+    {
+     "label": "Detik",
+     "url": "https://news.detik.com/berita"
+    },
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/nasional"
+    }
+   ],
+   "why_it_matters": "Test of how a sitting regional head is handled in a sexual-violence case.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 0,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "",
+   "sensitivity": "high"
+  }
+ ],
+ "gaps": [
+  "Tempo politik page not readable; ANTARA politik not fetched",
+  "Could not verify any DPR paripurna, MK ruling or Tipikor trial dates for 23-29 Nov; DPR in session since 9 Nov",
+  "Exact date and chair of Listyo KKEP not officially confirmed (24 Nov from Bangkapos only)",
+  "Whether Prabowo already sent names to MPR (afu.id headline says MPR received names; unverified)",
+  "Kupang regent examination date not given; Said Iqbal UMP Jakarta vs Bekasi remark not checked"
+ ]
+}

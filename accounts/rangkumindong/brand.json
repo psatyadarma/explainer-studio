@@ -382,9 +382,18 @@
     "hook_b": "",
     "subs": "block",
     "format": "chapter_cut"
+   },
+   {
+    "date": "2026-11-22",
+    "voice": "male:Pratama",
+    "slot": "19:00",
+    "hook": "question_reveal",
+    "hook_b": "",
+    "subs": "word",
+    "format": "minggu_depan"
    }
   ],
-  "repeat": "rows are explicit through 2026-11-21 (each hook pair twice, sides swapped). After that the Sunday review sets the next block.",
+  "repeat": "rows are explicit through 2026-11-21 (each hook pair twice, sides swapped); 2026-11-22 added by the daily run (question_reveal, last used before 9 Nov; word subs alternating). After that the Sunday review (W47) sets the next block.",
   "trial_reels": "daily: A = main post (IG+YouTube+TikTok); B = same video, only the opening differs (hook_b style), posted to Instagram only as a Trial Reel (engine/variant.py + post.py --trial). Compare A vs B on IG 3-s hold and avg % watched.",
   "primary_metric": "avg_percent_watched",
   "review": "weekly, Sunday",

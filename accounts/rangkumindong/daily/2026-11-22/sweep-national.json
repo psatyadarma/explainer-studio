@@ -1,0 +1,271 @@
+{
+ "area": "national",
+ "run_date": "2026-11-22",
+ "checked": [
+  "detik terpopuler/news (21 Nov 07:45)",
+  "detik news latest",
+  "CNN Indonesia nasional terbaru",
+  "CNBC Indonesia homepage (popular blocks empty)",
+  "ANTARA cekfakta (stale, last Aug 2026)",
+  "ANTARA/BMKG quake",
+  "BNPB 9-province summary",
+  "storylines: tentara-bayaran-rusia, listyo-sigit-penyadapan, karhutla, ump-2027",
+  "watch list found: disasters, viral incident, crime, public figures"
+ ],
+ "events": [
+  {
+   "date": "2026-11-20",
+   "category": "NEWS",
+   "event": "Polres Bogor announced it foiled the recruitment of 22 Indonesian men for Russian mercenary service and arrested two recruiters who allegedly already sent about 200 people via Thailand.",
+   "key_numbers": "22 WNI stopped · 2 suspects (FIK 37, STH 38) · offer: USD 10,000 signing bonus + USD 3,000/month · ~200 allegedly already sent (under verification) · USD 600 commission per recruit · max 15 years (UU 21/2007, UU 18/2017) · route Bogor-Thailand-Russia",
+   "storyline": "tentara-bayaran-rusia",
+   "update_of": "",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "ANTARA",
+     "url": "https://megapolitan.antaranews.com/berita/563703/polres-bogor-ungkap-modus-perekrutan-22-wni-untuk-tentara-bayaran-rusia"
+    },
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/nasional/20261121142600-12-1429831/polisi-gagalkan-perekrutan-22-wni-untuk-tentara-bayaran-rusia"
+    },
+    {
+     "label": "Okezone",
+     "url": "https://news.okezone.com/read/2026/11/20/337/3255233/terbongkar-lewat-jalur-thailand-sindikat-di-bogor-akui-berangkatkan-200-wni-jadi-tentara-rusia"
+    }
+   ],
+   "why_it_matters": "Shows how job-seekers are lured with big salaries into a foreign war; a new, bigger scale (200 sent) than earlier cases.",
+   "signals": {
+    "spreading": 2,
+    "wallet": 1,
+    "surprise": 2,
+    "visual": 2,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "CNN Indonesia terbaru 21 Nov; detik/Okezone/Liputan6 coverage",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-20",
+   "category": "ECO",
+   "event": "Jakarta Governor Pramono Anung's UMP 2027 of about Rp6.1 million dominated detik's most-read list on 21 Nov, with union leader Said Iqbal arguing Jakarta's wage trails Bekasi's.",
+   "key_numbers": "UMP DKI 2027 Rp6,136,941 · +Rp407,065 (+7.1%) · detik terpopuler #2 · Central Java UMP 2027 Rp2.65 million (+14.1%, CNBC 21 Nov)",
+   "storyline": "ump-2027",
+   "update_of": "E0996",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "detik terpopuler",
+     "url": "https://www.detik.com/terpopuler/news"
+    },
+    {
+     "label": "Viva",
+     "url": "https://www.viva.co.id/berita/metro/1945069-resmi-pramono-anung-ketok-ump-jakarta-2027-jadi-rp61-juta-naik-rp407-ribu"
+    },
+    {
+     "label": "CNBC Indonesia",
+     "url": "https://www.cnbcindonesia.com/"
+    }
+   ],
+   "why_it_matters": "Directly sets what millions of Jakarta workers earn in 2027; regional comparisons (Bekasi, Jateng) fuel debate.",
+   "signals": {
+    "spreading": 2,
+    "wallet": 2,
+    "surprise": 1,
+    "visual": 2,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "detik terpopuler #2 (21 Nov); CNBC latest",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-21",
+   "category": "ENV",
+   "event": "BMKG recorded an M7.2 earthquake at sea about 43 km northwest of Maluku Barat Daya at 16:42 WIB; no tsunami, no official damage reports yet.",
+   "key_numbers": "M7.2 · depth 125 km · 7.88S 127.51E · 16:42:11 WIB Sat 21 Nov · MMI IV in Tiakur, Romang, Babar · no tsunami",
+   "storyline": "",
+   "update_of": "",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "ANTARA",
+     "url": "https://megapolitan.antaranews.com/berita/563947/bmkg-gempa-magnitudo-72-di-maluku-barat-daya-tidak-berpotensi-tsunami"
+    },
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/nasional"
+    }
+   ],
+   "why_it_matters": "Second M7+ Banda Sea quake in a week (E0907 was M7.1 on 17 Nov); people ask about tsunami risk.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "CNN Indonesia terbaru; detik latest",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-21",
+   "category": "POL",
+   "event": "Fadli Zon, questioned by police as a victim, said his phone was wiretapped from 2021 to 2026 by ex-Kapolri Listyo Sigit's circle; four generals are named suspects.",
+   "key_numbers": "Tapped 2021-2026 (about 5 years) · questioned twice · 4 active generals suspects (Listyo Sigit, Ahrie Sonta, Eko Hadi Santoso, Slamet Uliandi) · 3 detained at Mako Brimob",
+   "storyline": "listyo-sigit-penyadapan",
+   "update_of": "E0562",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/nasional/20261121193642-32-1429929/fadli-zon-kaget-disadap-listyo-cs-sejak-2021"
+    },
+    {
+     "label": "detik",
+     "url": "https://news.detik.com/berita/d-8763635/diperiksa-polisi-sebagai-korban-fadli-zon-ungkap-disadap-sejak-2021"
+    },
+    {
+     "label": "Viva",
+     "url": "https://www.viva.co.id/berita/nasional/1945413-pengakuan-fadli-zon-jadi-korban-penyadapan-ilegal-nomor-hp-disadap-selama-5-tahun-termasuk-yang-paling-lama"
+    }
+   ],
+   "why_it_matters": "The wiretapping scandal widens from the President to other senior figures, with the ethics hearing due this week.",
+   "signals": {
+    "spreading": 2,
+    "wallet": 0,
+    "surprise": 2,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 0
+   },
+   "spreading_evidence": "detik latest (12 min ago, 21 Nov); CNN Indonesia",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-11-21",
+   "category": "NEWS",
+   "event": "Bengkulu police chief Irjen Yudhi Sulistianto Wahid bowed in prostration before dozens of Cipayung Plus students, apologising for officers' conduct during demonstrations; the clip went viral.",
+   "key_numbers": "Meeting 19 Nov · dozens of students · clip viral by 21 Nov · related: 3 DIY police placed in Patsus over 10 Nov Yogyakarta demo riot",
+   "storyline": "",
+   "update_of": "",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/nasional/20261121170859-12-1429892/momen-viral-kapolda-bengkulu-sujud-minta-maaf-ke-mahasiswa"
+    }
+   ],
+   "why_it_matters": "Rare public apology by a senior police officer amid a police-credibility crisis.",
+   "signals": {
+    "spreading": 2,
+    "wallet": 0,
+    "surprise": 2,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 2
+   },
+   "spreading_evidence": "CNN Indonesia terbaru #1 (21 Nov) 'Momen Viral'; reported viral on social media",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-20",
+   "category": "NEWS",
+   "event": "The ICJ ruled that Myanmar is responsible for genocide against the Rohingya; China criticised the ruling and Indonesia's DPR Commission I welcomed it and urged ASEAN to act.",
+   "key_numbers": "detik terpopuler #1 on 21 Nov · DPR Komisi I backs ruling",
+   "storyline": "",
+   "update_of": "",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "detik terpopuler",
+     "url": "https://www.detik.com/terpopuler/news"
+    },
+    {
+     "label": "ANTARA",
+     "url": "https://www.antaranews.com/berita/5868919/komisi-i-dpr-dukung-putusan-icj-soal-genosida-rohingya-di-myanmar"
+    },
+    {
+     "label": "detik",
+     "url": "https://news.detik.com/internasional/d-8763460/china-kritik-putusan-icj-soal-myanmar-bersalah-atas-genosida-rohingya"
+    }
+   ],
+   "why_it_matters": "Historic ruling against an ASEAN neighbour; relevant to Indonesia's stance and Rohingya refugees in Aceh. (Global area may also cover.)",
+   "signals": {
+    "spreading": 2,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 0,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "detik terpopuler #1 (21 Nov)",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-21",
+   "category": "ENV",
+   "event": "BNPB's operations summary listed floods, karhutla and extreme weather across 9 provinces on 20-21 Nov, including floods in 5 subdistricts of Singkawang.",
+   "key_numbers": "9 provinces (Sumut, Riau, Sumsel, Banten, Jabar, Jatim, Kalbar, Sulsel, Sulteng) · Singkawang flood 20 Nov, 5 subdistricts, 13 kelurahan · Kemenhut 307 hotspots on 21 Nov, most in Papua Selatan",
+   "storyline": "karhutla",
+   "update_of": "E0949",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "Okezone",
+     "url": "https://news.okezone.com/read/2026/11/21/337/3255373/banjir-hingga-karhutla-kepung-9-provinsi-bnpb-tingkatkan-kesiapsiagaan"
+    },
+    {
+     "label": "Katadata Databoks",
+     "url": "https://databoks.katadata.co.id/demografi/statistik/fa82294fa4b51c8/kementerian-kehutanan-temukan-307-hotspot-di-indonesia-terbanyak-di-papua-selatan-sabtu-21-november-2026"
+    }
+   ],
+   "why_it_matters": "Floods and fires at once: the El Nino-hit dry spell and early rainy season both hit.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 1,
+    "surprise": 1,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "Okezone, Sindonews coverage",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-21",
+   "category": "NEWS",
+   "event": "detik's latest feed carried a thin orangutan being released back to forest after suspected karhutla exposure in Central Kalimantan, a fire in a Baduy village hitting 34 families, and a Ujung Kulon statement on a rhino transport cage.",
+   "key_numbers": "Baduy fire: 34 families · orangutan release (Kalteng karhutla)",
+   "storyline": "karhutla",
+   "update_of": "",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "detik",
+     "url": "https://news.detik.com/"
+    }
+   ],
+   "why_it_matters": "Human-interest follow-ons to the haze and Ujung Kulon rhino storylines.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 0,
+    "surprise": 0,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 2
+   },
+   "spreading_evidence": "detik news latest",
+   "sensitivity": "normal"
+  }
+ ],
+ "gaps": [
+  "Most-read lists: CNBC popular blocks blank; no turnbackhoax/hoax page readable (ANTARA cekfakta stale) - no new hoaxes recorded today",
+  "Maluku Barat Daya M7.2: damage reports pending from BPBD",
+  "Upcoming 23-29 Nov (not new events): Listyo Sigit KKEP ethics hearing 'week of 23 Nov', exact day and panel unannounced (E0983); Danantara first financial report ~23 Nov (E0862); Kemnaker UMP follow-on rules 25 Nov (E0980); Hari Guru Nasional 25 Nov is a fixed national date, not verified for events; no other dated national events found",
+  "Seen but not opened: Gerindra vs Polda Metro on CAN/Dasco case; 3 DIY police Patsus after 10 Nov Yogyakarta demo riot; 'Sekolah Rakyat Brebes' ex-ART story; Tugu Kunstkring fire; KPAI proposal to lower first-voter age to 18"
+ ]
+}

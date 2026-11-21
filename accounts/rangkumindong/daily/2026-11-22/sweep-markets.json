@@ -1,0 +1,85 @@
+{
+  "area": "markets",
+  "run_date": "2026-11-22",
+  "checked": ["WebSearch cnbcindonesia market (section page WebFetch blocked, not retried)", "bisnis/okezone/kontan rupiah close 20 Nov via search", "IHSG weekly wrap (journalarta, Kontan)", "BI Balance of Payments Q3 (CNBC Indonesia)", "CNBC Indonesia weekly calendar (16-20 Nov)", "storylines msci-reclassification, rupiah", "watch list found: IHSG close, foreign net sell, rupiah record low, BoP release", "not seen in headlines: OJK actions, PHK, Danantara news, tariffs"],
+  "events": [
+    {
+      "date": "2026-11-20",
+      "category": "MKT",
+      "event": "The IHSG closed down 0.92% at 5,146.32 on Friday 20 November, its fifth straight daily decline, ending the week 3.71% lower from 5,344.40.",
+      "key_numbers": "IHSG 5,146.32 (-0.92% d/d) · week -3.71% from 5,344.40 · 265 stocks down vs 102 up · LQ45 535.73 (-0.80%) · energy sector -1.42% · value Rp8.09 trillion",
+      "storyline": "msci-reclassification",
+      "update_of": "E0951",
+      "status": "verified",
+      "sources": [{"label": "Kontan", "url": "https://investasi.kontan.co.id/news/saham-yang-banyak-diborong-asing-saat-ihsg-terkoreksi-371-ke-5146-sepekan"}, {"label": "Journalarta", "url": "https://journalarta.com/news/2026/11/21/ihsg-hari-ini-anjlok-371-persen-ke-5146/"}, {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/market/20261120151936-17-787030/ihsg-ditutup-melemah-092-ke-level-514633"}],
+      "why_it_matters": "IHSG is back near the 5,000 level that triggered the MSCI scare, hitting retail portfolios and reksa dana.",
+      "signals": {"spreading": 2, "wallet": 1, "surprise": 1, "visual": 2, "fresh": 1, "rivals": 0},
+      "spreading_evidence": "CNBC Indonesia market headlines and many outlets reporting the weekly fall",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-20",
+      "category": "MKT",
+      "event": "Foreign investors net sold Indonesian shares for the week to 20 November, including Rp947.02 billion on Friday, even as they bought ASII, BBCA and BRIS.",
+      "key_numbers": "Friday net sell Rp947.02 billion · week net sell Rp1.89 trillion (Kontan; Journalarta says Rp2.6 trillion) · top weekly foreign net buys: ASII Rp237.59 billion, BBCA Rp148.97 billion, BRIS Rp79.61 billion",
+      "storyline": "msci-reclassification",
+      "update_of": "E0920",
+      "status": "partial",
+      "sources": [{"label": "Kontan", "url": "https://investasi.kontan.co.id/news/saham-yang-banyak-diborong-asing-saat-ihsg-terkoreksi-371-ke-5146-sepekan"}, {"label": "Journalarta", "url": "https://journalarta.com/news/2026/11/21/ihsg-hari-ini-anjlok-371-persen-ke-5146/"}],
+      "why_it_matters": "Foreign selling is what keeps pushing the IHSG and the rupiah down.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 1, "fresh": 1, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-20",
+      "category": "MKT",
+      "event": "The rupiah closed at Rp18,270 per US dollar on 20 November, reported by Kontan as the weakest level ever, despite BI's rate hike to 6.00% on 18 November.",
+      "key_numbers": "Rp18,270/USD spot (-0.09% from Rp18,254) · JISDOR Rp18,278 (per Topik) · prior close 18 Nov Rp18,232 · dollar index 103.73",
+      "storyline": "rupiah",
+      "update_of": "E0952",
+      "status": "partial",
+      "sources": [{"label": "Kontan", "url": "https://investasi.kontan.co.id/news/rupiah-spot-ditutup-melemah-009-ke-rp-18270-per-dolar-as-pada-jumat-2011"}, {"label": "Okezone", "url": "https://economy.okezone.com/read/2026/11/20/320/3255179/rupiah-ditutup-melemah-ke-rp18-270-per-dolar-as"}, {"label": "Bisnis", "url": "https://market.bisnis.com/read/20261120/93/2022878/nilai-tukar-rupiah-terhadap-dolar-as-hari-ini-jumat-20-november-2026"}],
+      "why_it_matters": "A weaker rupiah raises prices of imported goods, fuel and overseas tuition or travel.",
+      "signals": {"spreading": 2, "wallet": 2, "surprise": 2, "visual": 2, "fresh": 1, "rivals": 1},
+      "spreading_evidence": "record-low headlines across many outlets (Okezone, Kontan, Topik, Demokratis)",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-20",
+      "category": "ECO",
+      "event": "Bank Indonesia reported the Q3 2026 balance of payments swung to a US$100 million surplus, with the current account deficit narrowing sharply to 0.5% of GDP.",
+      "key_numbers": "BoP surplus US$100 million (Q2 deficit, US$9 million per CNBC Indonesia) · current account deficit US$2 billion = 0.5% of GDP vs US$12.6 billion = 3.4% in Q2 · financial account surplus US$2.1 billion · reserves US$146.3 billion end-Sep (5.4 months of imports) · portfolio investment in deficit as foreign SBN inflows fell",
+      "storyline": "rupiah",
+      "update_of": "E0864",
+      "status": "verified",
+      "sources": [{"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/news/20261120105446-4-786910/neraca-pembayaran-ri-berbalik-surplus-tembus-us-100-juta-di-q3"}, {"label": "Okezone", "url": "https://economy.okezone.com/read/2026/11/20/320/3255127/neraca-pembayaran-indonesia-surplus-usd100-juta-di-kuartal-iii-2026"}],
+      "why_it_matters": "Fundamentals look better than the rupiah suggests, but the same day the rupiah hit a record low.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 2, "visual": 2, "fresh": 1, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-26",
+      "category": "GLB",
+      "event": "US markets are closed on Thursday 26 November for Thanksgiving, with a thin-liquidity shortened session on Friday 27 November.",
+      "key_numbers": "NYSE/Nasdaq closed Thu 26 Nov · early close Fri 27 Nov",
+      "storyline": "rupiah",
+      "update_of": "",
+      "status": "upcoming",
+      "sources": [{"label": "CNBC (week-ahead outlook, page not readable; date from US calendar)", "url": "https://www.cnbc.com/2026/11/20/stock-market-next-week-outlook-for-nov-23-27-2026.html"}],
+      "why_it_matters": "Thin global trading can exaggerate rupiah and IHSG moves.",
+      "signals": {"spreading": 0, "wallet": 0, "surprise": 0, "visual": 0, "fresh": 1, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    }
+  ],
+  "gaps": [
+    "Weekly foreign net sell conflicts: Kontan Rp1.89 trillion, Journalarta Rp2.6 trillion, Media Indonesia Rp947 billion (looks like Friday only).",
+    "Q2 BoP deficit: CNBC Indonesia says US$9 million, its own weekly calendar said US$0.9 billion.",
+    "Rupiah 'weakest ever' Rp18,270 is from Kontan/small outlets; earlier record in storyline was Rp18,188 (Jun). Confirm against Bisnis/Bloomberg.",
+    "CNBC Indonesia section page WebFetch was blocked (permission not answered); no most-read list seen, so spreading scores rely on search results.",
+    "Upcoming 23-29 Nov could not be sourced beyond the known E0862 (Danantara first report, tentatively 23 Nov) and E0980 (UMP follow-ups, 25 Nov); not confirmed: any BI/BPS/OJK dated release, US PCE/GDP revision (likely 25-26 Nov), MSCI Nov review effective date (~30 Nov close). BPS Nov inflation falls on 1 Dec, outside the window.",
+    "No OJK, PHK, Danantara/BUMN or tariff headlines checked beyond search snippets."
+  ]
+}
