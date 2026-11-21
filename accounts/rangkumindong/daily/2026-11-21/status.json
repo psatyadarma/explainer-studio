@@ -20,7 +20,8 @@
   "default_pick": "done",
   "factcheck": "done",
   "qa": "done",
-  "sent": "done"
+  "sent": "done",
+  "post": "held"
  },
  "notes": [],
  "merge_stats": {

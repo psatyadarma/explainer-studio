@@ -207,3 +207,9 @@ History moved out of HANDOFF.md (22 Oct) so fresh sessions read less. Append one
 - Analyst: Kepuasan 24 h IG 117 / 24.4%, YT 456; udara Jakarta 72 h IG 113 / 17.7%. Health: IG-missing WARN (known false alarm).
 - Sat 21 Nov 07:00 news re-check: no change. 07:40: no 'OK weekly', so default-posted weekly #5 for 08:00 (job 21b5b7b1).
 - 08:00 weekly #5 live (IG Df-5LAmDq2i, YT 4X4v900ZIDE); YouTube thumbnail may need setting by hand.
+
+## 2026-11-21 (Sat, chapter cut: Mahfud "9 Des bisa tak sah" (default pick); Pratama, story, block subs, no B)
+- Sweeps 1/6/10/8 events (+24 merged; WebFetch PROVENANCE_REQUIRED on most article pages). Ideas: ⭐ Wapres/Mahfud 10/12; light FC 1 fix (#5 Kamis not Rabu), #1–#4 headline-only.
+- No pick by 14:00 → default ⭐ #1. Full FC 4 fixes (14 hari kalender; Irawan Panitia Ad Hoc Sat reply; pasal numbers; "media sosial"). Producer 76.4 s, Mahfud PD photo via upload.wikimedia (commons.py hung/429); QA FIX (block subs in bottom safe zone → ≤3-line pages) → PASS.
+- Weekly #5 live 08:00 (IG Df-5LAmDq2i, YT 4X4v900ZIDE) from Friday's session. 18:00 news check: no change.
+- 18:40 default post **denied** (no live yes today) → held, user told. Analyst: penipuan 68 h IG 200 / 19.0%, YT 660; Google 20 h IG 38 / 19.8%, YT 197 (YT Analytics quota exhausted).
