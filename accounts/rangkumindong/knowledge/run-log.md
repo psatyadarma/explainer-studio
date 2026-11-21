@@ -206,3 +206,4 @@ History moved out of HANDOFF.md (22 Oct) so fresh sessions read less. Append one
 - Weekly #5 (14–20 Nov, 6:42, 8 chapters): FC 7 fixes; the producer had no Agent tool, so it built the chapters itself and self-reviewed; an independent editor review found 3 fixes (2 overlaps + unverified d6 cut). 16:30 news re-check: Kejagung makar presentation postponed → b7 trimmed. Waiting for "OK weekly"; Sat 07:00 news check + 07:40 default post scheduled.
 - Analyst: Kepuasan 24 h IG 117 / 24.4%, YT 456; udara Jakarta 72 h IG 113 / 17.7%. Health: IG-missing WARN (known false alarm).
 - Sat 21 Nov 07:00 news re-check: no change. 07:40: no 'OK weekly', so default-posted weekly #5 for 08:00 (job 21b5b7b1).
+- 08:00 weekly #5 live (IG Df-5LAmDq2i, YT 4X4v900ZIDE); YouTube thumbnail may need setting by hand.
