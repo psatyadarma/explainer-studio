@@ -391,9 +391,72 @@
     "hook_b": "",
     "subs": "word",
     "format": "minggu_depan"
+   },
+   {
+    "date": "2026-11-23",
+    "voice": "male:Pratama",
+    "slot": "19:00",
+    "hook": "person_collage",
+    "hook_b": "",
+    "subs": "block",
+    "format": "short"
+   },
+   {
+    "date": "2026-11-24",
+    "voice": "male:Pratama",
+    "slot": "19:00",
+    "hook": "myth",
+    "hook_b": "",
+    "subs": "word",
+    "format": "short"
+   },
+   {
+    "date": "2026-11-25",
+    "voice": "male:Pratama",
+    "slot": "19:00",
+    "hook": "person_collage",
+    "hook_b": "",
+    "subs": "block",
+    "format": "standard"
+   },
+   {
+    "date": "2026-11-26",
+    "voice": "male:Pratama",
+    "slot": "19:00",
+    "hook": "question_reveal",
+    "hook_b": "",
+    "subs": "word",
+    "format": "standard"
+   },
+   {
+    "date": "2026-11-27",
+    "voice": "male:Pratama",
+    "slot": "19:00",
+    "hook": "shock_number",
+    "hook_b": "",
+    "subs": "word",
+    "format": "short"
+   },
+   {
+    "date": "2026-11-28",
+    "voice": "male:Pratama",
+    "slot": "19:00",
+    "hook": "story",
+    "hook_b": "",
+    "subs": "word",
+    "format": "chapter_cut"
+   },
+   {
+    "date": "2026-11-29",
+    "voice": "male:Pratama",
+    "slot": "19:00",
+    "hook": "question_reveal",
+    "hook_b": "",
+    "subs": "block",
+    "format": "minggu_depan"
    }
   ],
-  "repeat": "rows are explicit through 2026-11-21 (each hook pair twice, sides swapped); 2026-11-22 added by the daily run (question_reveal, last used before 9 Nov; word subs alternating). After that the Sunday review (W47) sets the next block.",
+  "repeat": "rows are explicit through 2026-11-29 (W47 review, 22 Nov). Hooks are A only. Format and subs are crossed (not alternated together) so they are no longer confounded; person_collage needs a licensed face, else use story and log it. kamu_stakes rests another week. The Sunday review (W48) sets the next block.",
   "trial_reels": "daily: A = main post (IG+YouTube+TikTok); B = same video, only the opening differs (hook_b style), posted to Instagram only as a Trial Reel (engine/variant.py + post.py --trial). Compare A vs B on IG 3-s hold and avg % watched.",
   "primary_metric": "avg_percent_watched",
   "review": "weekly, Sunday",
@@ -417,7 +480,7 @@
  "rubric_weights": {
   "spreading": 1.0,
   "wallet": 0.5,
-  "surprise": 1.0,
+  "surprise": 1.25,
   "visual": 1.0,
   "fresh": 1.0,
   "rivals": 1.0
@@ -426,6 +489,7 @@
   "2026-10-22: all 1.0 (start); the analyst adjusts weekly once ≥8 videos have 72 h metrics",
   "2026-11-01: >=8 videos with 72 h reached (11 with rubric+metrics). No signal tracked avg % watched or shares+saves per 1k (wallet 2: 21.8% vs 24.5%; total score r~0), so all weights stay 1.0. W43 'wallet up' lean withdrawn. Recheck with 15+ videos.",
   "2026-11-08: 17 videos with rubric + metrics. wallet did not track IG avg % watched for the second week and reversed sign (wallet 2 n=6 ~20.4% vs wallet 0-1 ~26%; W45 wallet 0 mean 32.8% vs wallet 2 17.6%), so wallet 1.0 -> 0.75. All other signals unchanged (constant or no relation). Low confidence: one storyline + P3 outlier dominate; recheck 15 Nov.",
-  "2026-11-15: 21 videos with rubric + metrics. wallet again did not track IG avg % watched (third week): this week wallet 0 (Gibran P1 38.7, Gibran P2 35.2, tentara 23.7 partial; mean 32.5) vs wallet 1 (Nvidia 17.1). Shares+saves per 1k ~0 on every daily, so no signal there. wallet 0.75 -> 0.5 (max step 0.25, floor 0.5). Low confidence: wallet-0 items are all politics/crime with a face, so topic is confounded with the signal. Other signals constant (spreading/fresh 2 on almost every row) or flat; unchanged. Recheck 22 Nov."
+  "2026-11-15: 21 videos with rubric + metrics. wallet again did not track IG avg % watched (third week): this week wallet 0 (Gibran P1 38.7, Gibran P2 35.2, tentara 23.7 partial; mean 32.5) vs wallet 1 (Nvidia 17.1). Shares+saves per 1k ~0 on every daily, so no signal there. wallet 0.75 -> 0.5 (max step 0.25, floor 0.5). Low confidence: wallet-0 items are all politics/crime with a face, so topic is confounded with the signal. Other signals constant (spreading/fresh 2 on almost every row) or flat; unchanged. Recheck 22 Nov.",
+  "2026-11-22: 28 videos with rubric + metrics (7 new this week). wallet at its floor 0.5: this week wallet 0 mean 25.9% (n=3), wallet 1 35.7% (n=2, Pengadaan 53.6 outlier), wallet 2 22.0% (n=2); no relation to hold, but the one wallet-2 item with real shares+saves (Penipuan, 60 per 1k) is a single video; unchanged. surprise: surprise 2 (n=5) 30.1% mean hold vs surprise 1 (n=2) 21.4%, and every video with shares+saves had surprise 2 (mean 24 per 1k vs 0); without the Pengadaan outlier still +13% on hold. surprise 1.0 -> 1.25 (max step 0.25). Low confidence: one week, n=2 on the low arm. spreading/visual/fresh/rivals constant or flat; unchanged. Recheck 29 Nov."
  ]
 }

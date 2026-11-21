@@ -75,7 +75,17 @@ def main():
     # metrics gaps (evening Instagram task needs the user's computer + Chrome)
     kn = acct / "knowledge"
     try:
-        have = {(r["folder"], r["platform"], r["hours"]) for r in csv.DictReader(open(kn / "metrics.csv"))} if (kn / "metrics.csv").exists() else set()
+        have = set()
+        if (kn / "metrics.csv").exists():
+            for r in csv.DictReader(open(kn / "metrics.csv")):
+                try:
+                    hrs = float(r["hours"])
+                except (ValueError, TypeError):
+                    continue
+                # reads are logged at their real age: accept 18-36 h as "24" and 56-84 h as "72"
+                for h, lo, hi in ((24, 18, 36), (72, 56, 84)):
+                    if lo <= hrs <= hi:
+                        have.add((r["folder"], r["platform"], str(h)))
         now = dt.datetime.now(dt.timezone(dt.timedelta(hours=8)))
         gaps = []
         for r in csv.DictReader(open(kn / "covered.csv")):
