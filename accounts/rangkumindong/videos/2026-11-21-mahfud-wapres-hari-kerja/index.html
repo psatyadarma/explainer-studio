@@ -1,0 +1,547 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Mahfud: satu kata "hari" — Rangkumin Dong</title>
+<link rel="stylesheet" href="../../../../styles/sticker/sticker.css">
+<script src="../../../../styles/sticker/sticker.js"></script>
+<script src="../../../../styles/sticker/characters/budi.js"></script>
+<script>window.SUB_MODE = "block"; window.SUB_LEAD = 0.0;</script>
+<style>#subs { top: 1250px; }</style>
+<script src="build/timing.js"></script>
+<style>
+  .zone { position: absolute; width: 1080px; height: 1920px; }
+  .note { font-weight: 700; font-size: 28px; color: var(--slate); white-space: nowrap; text-align: center; }
+  .bub { background: #fff; border-radius: 30px; padding: 20px 30px 24px; text-align: center;
+         font-weight: 900; font-size: 46px; line-height: 1.08; letter-spacing: -1px; box-shadow: 0 0 0 9px #fff, 0 18px 26px rgba(27,36,48,.2); }
+  .bub small { display: block; font-weight: 700; font-size: 28px; color: var(--slate); letter-spacing: 0; margin-top: 6px; }
+  .chip { background: #fff; border-radius: 24px; padding: 14px 26px 18px; font-weight: 900; font-size: 46px; letter-spacing: -1px; white-space: nowrap; text-align: center;
+          box-shadow: 0 0 0 8px #fff, 0 14px 24px rgba(27,36,48,.18); }
+  .chip small { display: block; font-weight: 700; font-size: 28px; color: var(--slate); letter-spacing: 0; margin-top: 2px; }
+  .tick { background: var(--ink); color: #fff; border-radius: 22px; padding: 10px 26px 14px; font-weight: 900; font-size: 54px; letter-spacing: 1px; white-space: nowrap;
+          box-shadow: 0 0 0 8px #fff, 0 14px 24px rgba(27,36,48,.2); }
+  .ill { background: var(--slate); color: #fff; font-weight: 800; font-size: 26px; padding: 4px 14px 7px; border-radius: 10px; letter-spacing: 1px; }
+  .kb { background: var(--hi); color: var(--ink); font-weight: 900; font-size: 36px; padding: 6px 18px 10px; border-radius: 14px; white-space: nowrap;
+        box-shadow: 0 0 0 6px #fff, 0 10px 16px rgba(27,36,48,.2); }
+  /* name tag: same style for every real person */
+  .ntag { display: flex; align-items: center; gap: 22px; background: #fff; border-radius: 26px; padding: 18px 30px 20px 30px; white-space: nowrap;
+          box-shadow: 0 0 0 9px #fff, 0 16px 26px rgba(27,36,48,.2); border-left: 16px solid var(--slate); }
+  .ntag b { display: block; font-weight: 900; font-size: 50px; letter-spacing: -1px; color: var(--ink); line-height: 1.05; }
+  .ntag span { display: block; font-weight: 700; font-size: 30px; color: var(--slate); margin-top: 4px; }
+  .person { position: absolute; }
+  .person img { height: 100%; display: block; }
+  .doc { background: #fff; border-radius: 14px; padding: 10px 20px 14px; font-weight: 800; font-size: 30px; white-space: nowrap; border: 5px solid var(--ink);
+         box-shadow: 0 0 0 6px #fff, 0 10px 16px rgba(27,36,48,.18); }
+  .qcard { background: #fff; border-radius: 30px; padding: 30px 40px 34px; font-weight: 900; font-size: 54px; line-height: 1.12; letter-spacing: -1px; text-align: left;
+           box-shadow: 0 0 0 9px #fff, 0 18px 26px rgba(27,36,48,.2); border-top: 16px solid var(--slate); white-space: nowrap; }
+  .qcard small { display: block; font-weight: 700; font-size: 28px; color: var(--slate); letter-spacing: 0; margin-top: 10px; }
+  .hari { background: var(--ink); color: #fff; font-weight: 900; font-size: 150px; letter-spacing: -4px; padding: 6px 48px 22px; border-radius: 34px;
+          box-shadow: 0 0 0 12px #fff, 0 22px 30px rgba(27,36,48,.25); white-space: nowrap; }
+  .hari .q { color: var(--hi); }
+  .stampx { font-weight: 900; color: var(--accent); border: 9px solid var(--accent); border-radius: 18px; padding: 6px 22px 10px; white-space: nowrap; text-align: center;
+            background: rgba(255,255,255,.88); letter-spacing: 1px; line-height: 1.05; }
+  .row { position: absolute; left: 0; display: flex; align-items: center; gap: 22px; font-weight: 900; font-size: 46px; letter-spacing: -1px; white-space: nowrap; }
+  .row .bx { width: 70px; height: 70px; border-radius: 16px; background: var(--slate); color: #fff; display: flex; align-items: center; justify-content: center; font-size: 40px; flex: none; }
+  .row small { display: block; font-weight: 700; font-size: 26px; color: var(--slate); letter-spacing: 0; }
+  .ar { fill: none; stroke: #1B2430; stroke-width: 9; stroke-linecap: round; stroke-linejoin: round; }
+  /* calendar */
+  .cal { position: absolute; width: 860px; }
+  .cal .hd { display: grid; grid-template-columns: repeat(7, 116px); gap: 8px; margin-bottom: 8px; }
+  .cal .hd div { text-align: center; font-weight: 800; font-size: 28px; color: var(--slate); }
+  .cal .gr { display: grid; grid-template-columns: repeat(7, 116px); grid-auto-rows: 104px; gap: 8px; }
+  .cell { position: relative; background: #fff; border-radius: 16px; box-shadow: 0 6px 12px rgba(27,36,48,.12); border: 4px solid #fff; }
+  .cell .d { position: absolute; left: 12px; top: 6px; font-weight: 900; font-size: 44px; letter-spacing: -1px; color: var(--ink); font-variant-numeric: tabular-nums; }
+  .cell .m { position: absolute; left: 13px; bottom: 6px; font-weight: 800; font-size: 20px; color: var(--slate); }
+  .cell .n { position: absolute; right: 8px; bottom: 4px; min-width: 40px; height: 40px; border-radius: 20px; background: var(--ink); color: #fff; font-weight: 900; font-size: 26px;
+             text-align: center; line-height: 38px; opacity: 0; }
+  .cell .x { position: absolute; inset: 0; opacity: 0; }
+  .cell .ring { position: absolute; left: -16px; top: -16px; right: -16px; bottom: -16px; border: 8px solid var(--accent); border-radius: 50%; opacity: 0; }
+  #status { position: absolute; left: 196px; top: 232px; z-index: 5; background: rgba(255,255,255,.94); color: var(--slate); font-weight: 800; font-size: 24px;
+            padding: 6px 14px 8px; border-radius: 10px; white-space: nowrap; }
+  #part { position: absolute; left: 60px; top: 226px; z-index: 5; background: var(--ink); color: #fff; font-weight: 900; font-size: 30px;
+          padding: 6px 16px 9px; border-radius: 12px; letter-spacing: 1px; }
+  #credit { position: absolute; left: 60px; top: 1164px; z-index: 6; font-weight: 700; font-size: 22px; color: var(--slate); background: rgba(243,239,230,.9);
+            padding: 2px 10px 4px; border-radius: 8px; white-space: nowrap; opacity: 0; }
+  #endcard { position: absolute; inset: 0; z-index: 8; display: flex; flex-direction: column; align-items: center; justify-content: center;
+             gap: 22px; background: var(--paper); opacity: 0; }
+  #endcard .logo { background: var(--accent); color: #fff; font-weight: 900; font-size: 116px; letter-spacing: -4px;
+                   padding: 30px 58px 40px; border-radius: 44px; line-height: .95; text-align: center; transform: rotate(-3deg); }
+  #endcard .tl2 { font-weight: 800; font-size: 54px; color: var(--slate); }
+  #endcard .h { font-weight: 900; font-size: 50px; background: var(--ink); color: #fff; padding: 12px 26px; border-radius: 16px; }
+  #endcard .src { font-weight: 700; font-size: 30px; color: var(--slate); margin-top: 6px; text-align: center; line-height: 1.4; max-width: 940px; }
+  /* hook overlay (screen coordinates) */
+  #hookA { position: absolute; inset: 0; z-index: 4; overflow: hidden;
+    background: radial-gradient(circle at 1px 1px, rgba(62,85,104,.16) 1.6px, transparent 0) 0 0 / 36px 36px, var(--paper); }
+  #hT { font-size: 84px; letter-spacing: -4px; line-height: 1; white-space: nowrap; }
+</style>
+</head>
+<body>
+<div id="stage">
+  <div id="world">
+    <!-- zT (0,0): tagline -->
+    <div id="zT" class="zone" style="left:0; top:0;">
+      <div id="stamp" class="abs stamp sticker" style="left:540px; top:960px; font-size:110px;">Rangkumin dong!</div>
+    </div>
+
+    <!-- z1 (1240,0): l1 — kursi kosong, sidang 9 Des -->
+    <div id="z1" class="zone" style="left:1240px; top:0;">
+      <div id="cKb" class="abs tick" style="left:540px; top:500px;">WAPRES</div>
+      <div id="cCh" class="abs sticker-svg" style="left:330px; top:900px;"></div>
+      <div id="cKs" class="abs chip" style="left:330px; top:1250px; font-size:40px;">kosong<small>sejak 12 Nov</small></div>
+      <div id="cAr" class="abs" style="left:560px; top:900px;">
+        <svg width="140" height="90" viewBox="0 0 140 90"><path class="ar" d="M10 45 H120 M86 12 L122 45 L86 78"/></svg></div>
+      <div id="cMp" class="abs kb" style="left:790px; top:690px;">sidang MPR</div>
+      <div id="cCl" class="abs sticker-svg" style="left:790px; top:930px;"></div>
+      <div id="cRg" class="abs" style="left:790px; top:975px;">
+        <svg width="270" height="210" viewBox="0 0 270 210"><ellipse cx="135" cy="105" rx="122" ry="92" fill="none" stroke="#FF5A36" stroke-width="10"
+          stroke-dasharray="700" id="cRgP"/></svg></div>
+    </div>
+
+    <!-- z2 (2480,0): l2 — aturan: 2 nama, 14 hari sebelum sidang -->
+    <div id="z2" class="zone" style="left:2480px; top:0;">
+      <div id="aHd" class="abs headline" style="left:540px; top:480px; font-size:92px;">Aturannya</div>
+      <div id="aEn" class="abs sticker-svg" style="left:250px; top:820px;"></div>
+      <div id="aEl" class="abs tag light sticker" style="left:250px; top:1000px; font-size:36px;">Presiden</div>
+      <div id="aN1" class="abs chip" style="left:540px; top:760px; font-size:40px; width:200px;">nama 1<small>calon wapres</small></div>
+      <div id="aN2" class="abs chip" style="left:540px; top:900px; font-size:40px; width:200px;">nama 2<small>calon wapres</small></div>
+      <div id="aBx" class="abs sticker-svg" style="left:830px; top:820px;"></div>
+      <div id="aRl" class="abs" style="left:540px; top:1180px;">
+        <svg width="760" height="90" viewBox="0 0 760 90"><rect x="6" y="20" width="748" height="50" rx="12" fill="#fff" stroke="#1B2430" stroke-width="6"/>
+          <g id="aRt"></g></svg></div>
+      <div id="aR14" class="abs bub" style="left:540px; top:1300px; font-size:46px; padding:10px 26px 14px;">paling lambat <span style="color:var(--accent)">14 hari</span> sebelum sidang</div>
+    </div>
+
+    <!-- z3 (0,2400): l3 first half — Muzani, tenggat 25 Nov -->
+    <div id="z3" class="zone" style="left:0; top:2400px;">
+      <div id="mBar" class="abs tick" style="left:540px; top:470px;">KATA KETUA MPR</div>
+      <div id="mP" class="abs person" style="left:330px; top:930px; height:520px;"><img src="../../assets/people/ahmad-muzani.png" alt=""></div>
+      <div id="mNm" class="abs ntag" style="left:330px; top:1250px;"><div><b>Ahmad Muzani</b><span>Ketua MPR</span></div></div>
+      <div id="mTg" class="abs kb" style="left:790px; top:760px;">tenggat dua nama</div>
+      <div id="mDt" class="abs bub" style="left:790px; top:930px; font-size:84px; padding:14px 30px 18px;">Rabu<br><span style="color:var(--accent)">25 Nov</span></div>
+    </div>
+
+    <!-- zC (1240,2400): l3 second half — 14 hari kalender -->
+    <div id="zC" class="zone" style="left:1240px; top:2400px;">
+      <div id="kHd" class="abs bub" style="left:540px; top:560px; font-size:62px; padding:12px 30px 16px; white-space:nowrap;"><span id="kN">0</span> hari kalender</div>
+      <div id="kCal" class="abs cal" style="left:540px; top:1000px;"></div>
+      <div id="kKb" class="abs kb" style="left:540px; top:1340px; font-size:32px;">hitungan Ketua MPR · 25 Nov → 9 Des</div>
+    </div>
+
+    <!-- z4 (2480,2400): l4 — Mahfud, "hari" = hari kerja -->
+    <div id="z4" class="zone" style="left:2480px; top:2400px;">
+      <div id="fBar" class="abs tick" style="left:540px; top:470px;">TAPI KATA MAHFUD MD</div>
+      <div id="fP" class="abs person" style="left:300px; top:980px; height:420px;"><img src="../../assets/people/mahfud-md.png" alt=""></div>
+      <div id="fNm" class="abs ntag" style="left:330px; top:1250px;"><div><b>Mahfud MD</b><span>guru besar hukum tata negara</span></div></div>
+      <div id="fQ" class="abs qcard" style="left:770px; top:760px; font-size:64px;">“hari” =<br><span style="color:var(--accent)">hari kerja</span><small>kata Mahfud</small></div>
+      <div id="fD1" class="abs doc" style="left:770px; top:1000px;">UU MD3 · Ps 1 angka 9</div>
+      <div id="fD2" class="abs doc" style="left:770px; top:1090px;">Tatib MPR · Ps 1 angka 22</div>
+    </div>
+
+    <!-- z5 (0,4800): l5 — hari kerja saja, tenggat 19 Nov -->
+    <div id="z5" class="zone" style="left:0; top:4800px;">
+      <div id="wHd" class="abs bub" style="left:540px; top:560px; font-size:56px; padding:12px 30px 16px; white-space:nowrap;">Sabtu-Minggu <span style="color:var(--accent)">tidak dihitung</span></div>
+      <div id="wHd2" class="abs bub" style="left:540px; top:560px; font-size:56px; padding:12px 30px 16px; white-space:nowrap;"><span id="wN">0</span> hari kerja · <span style="color:var(--accent)">versi Mahfud</span></div>
+      <div id="wCal" class="abs cal" style="left:540px; top:1000px;"></div>
+      <div id="wSt" class="abs stampx" style="left:330px; top:760px; font-size:40px;">SUDAH<br>LEWAT</div>
+      <div id="wNm" class="abs bub" style="left:540px; top:1350px; font-size:36px; padding:10px 24px 14px; white-space:nowrap;">☐ nama 1 &nbsp; ☐ nama 2 · <span style="color:var(--accent)">belum masuk</span></div>
+    </div>
+
+    <!-- z6 (1240,4800): l6 — bisa tak sah, usul tunda -->
+    <div id="z6" class="zone" style="left:1240px; top:4800px;">
+      <div id="uKb" class="abs kb" style="left:540px; top:450px;">kata Mahfud</div>
+      <div id="uC1" class="abs qcard" style="left:540px; top:640px; font-size:58px; text-align:center;">Sidang 9 Des:<br><span style="color:var(--accent)">bisa tak sah?</span></div>
+      <div id="uAr" class="abs" style="left:540px; top:870px;">
+        <svg width="90" height="120" viewBox="0 0 90 120"><path class="ar" d="M45 8 V104 M14 74 L45 106 L76 74"/></svg></div>
+      <div id="uC2" class="abs qcard" style="left:540px; top:1110px; font-size:56px; text-align:center;">Usul: <span style="color:var(--accent)">tunda</span><small style="font-size:34px; color:var(--ink); font-weight:800;" id="uC2s">jadi 14 hari kerja setelah nama diterima</small></div>
+    </div>
+
+    <!-- z7 (2480,4800): l7 — respons MPR -->
+    <div id="z7" class="zone" style="left:2480px; top:4800px;">
+      <div id="rHd" class="abs headline" style="left:540px; top:470px; font-size:100px;">MPR?</div>
+      <div id="rSb" class="abs tag accent sticker" style="left:800px; top:470px; font-size:36px;">Sabtu, 21 Nov</div>
+      <div id="rBg" class="abs sticker-svg" style="left:240px; top:700px;"></div>
+      <div id="rNm" class="abs ntag" style="left:650px; top:700px;"><div><b>Ahmad Irawan</b><span>Panitia Ad Hoc MPR</span></div></div>
+      <div id="rLs" class="abs" style="left:540px; top:1120px; width:820px; height:380px;">
+        <div class="row" id="rR1" style="top:0;"><div class="bx">1</div><div>catatan Mahfud: dipelajari</div></div>
+        <div class="row" id="rR2" style="top:130px;"><div class="bx">2</div><div>jadwal 9 Des: belum berubah</div></div>
+        <div class="row" id="rR3" style="top:260px;"><div class="bx">3</div><div>prinsip: tak lewat 60 hari</div></div>
+      </div>
+    </div>
+
+    <!-- z8 (0,7200): l8 — Bambang Wuryanto, nama kemungkinan 25 Nov -->
+    <div id="z8" class="zone" style="left:0; top:7200px;">
+      <div id="bBar" class="abs tick" style="left:540px; top:470px;">KATA WAKIL KETUA MPR</div>
+      <div id="bP" class="abs person" style="left:330px; top:930px; height:520px;"><img src="../../assets/people/bambang-wuryanto.png" alt=""></div>
+      <div id="bNm" class="abs ntag" style="left:330px; top:1250px;"><div><b>Bambang Wuryanto</b><span>Wakil Ketua MPR</span></div></div>
+      <div id="bEn" class="abs sticker-svg" style="left:790px; top:720px;"></div>
+      <div id="bEl" class="abs tag light sticker" style="left:790px; top:850px; font-size:34px;">2 nama</div>
+      <div id="bDt" class="abs bub" style="left:790px; top:1060px; font-size:76px; padding:14px 30px 18px;">Rabu<br><span style="color:var(--accent)">25 Nov</span></div>
+      <div id="bKb" class="abs kb" style="left:790px; top:1210px; font-size:32px;">“kemungkinan besar”</div>
+    </div>
+
+    <!-- z9 (1240,7200): l9 — satu kata menentukan -->
+    <div id="z9" class="zone" style="left:1240px; top:7200px;">
+      <div id="jH" class="abs hari" style="left:540px; top:540px;">“hari”</div>
+      <div id="jP" class="abs" style="left:540px; top:780px;">
+        <svg width="600" height="200" viewBox="0 0 600 200"><path id="jP1" class="ar" d="M300 10 V60 Q300 100 240 120 L90 180" stroke-dasharray="320"/>
+          <path id="jP2" class="ar" d="M300 10 V60 Q300 100 360 120 L510 180" stroke-dasharray="320"/></svg></div>
+      <div id="jA" class="abs bub" style="left:270px; top:960px; font-size:54px;">9 Desember</div>
+      <div id="jB" class="abs bub" style="left:810px; top:960px; font-size:54px;">digeser?</div>
+      <div id="jBu" class="abs sticker-svg" style="left:540px; top:1220px; width:240px; height:320px;"></div>
+      <div id="jIl" class="abs ill" style="left:720px; top:1300px;">ILUSTRASI</div>
+    </div>
+
+    <!-- zQ (2480,7200): CTA -->
+    <div id="zQ" class="zone" style="left:2480px; top:7200px;">
+      <div id="xHd" class="abs headline" style="left:540px; top:540px; font-size:84px; white-space:nowrap;">“Hari” dihitung<br><span class="acc">gimana?</span></div>
+      <div id="xBu" class="abs sticker-svg" style="left:300px; top:1040px; width:300px; height:400px;"></div>
+      <div id="xLs" class="abs bub" style="left:700px; top:930px; font-size:42px; text-align:left; line-height:1.5;">☐ hari kalender<br>☐ hari kerja</div>
+      <div id="xK" class="abs bub" style="left:710px; top:1170px; font-size:64px;">Komen!</div>
+    </div>
+  </div>
+
+  <!-- hook overlay: story (Pak Budi), cover from frame 0 -->
+  <div id="hookA">
+    <div id="hT" class="abs headline" style="left:500px; top:470px;">WAPRES BISA<br><span class="acc">TAK SAH?</span></div>
+    <div id="hBu" class="abs sticker-svg" style="left:290px; top:960px; width:300px; height:400px;"></div>
+    <div id="hIl" class="abs ill" style="left:180px; top:730px;">ILUSTRASI</div>
+    <div id="hPh" class="abs sticker-svg" style="left:700px; top:950px;"></div>
+    <div id="hSi" class="abs tag accent sticker" style="left:730px; top:720px; font-size:48px;">Kata siapa?</div>
+    <div id="hQ1" class="abs headline" style="left:610px; top:880px; font-size:140px; color:var(--slate);">“</div>
+    <div id="hQ2" class="abs headline" style="left:840px; top:1010px; font-size:140px; color:var(--slate);">”</div>
+    <div id="hSk" class="abs kb" style="left:720px; top:740px; font-size:36px;">soal satu kata</div>
+    <div id="hH" class="abs hari" style="left:620px; top:960px;">“hari”<span class="q">?</span></div>
+  </div>
+
+  <div id="brand"><div class="dot"></div><b>Rangkumin Dong</b></div>
+  <div id="part">PART 5</div>
+  <div id="status">Argumen Mahfud &amp; jadwal MPR · bukan penilaian</div>
+  <div id="credit"></div>
+  <div id="subs"></div>
+  <div id="endcard">
+    <div class="logo">RANGKUMIN<br>DONG</div>
+    <div class="tl2">Berita ribet? Rangkumin dong.</div>
+    <div class="h">Follow @rangkumindong</div>
+    <div class="src">Sumber: detikNews, CNN Indonesia, Hukumonline, Beritasatu,<br>Pontianak Post, Garuda TV, Memo Indonesia, Liputan6 · UU MD3, Tatib MPR<br>lengkap di komentar · status Sabtu 21 Nov 2026</div>
+    <div class="src" id="eCr" style="font-size:22px; margin-top:0; line-height:1.35;"></div>
+  </div>
+  <div id="progress"></div>
+</div>
+
+<script>
+const $ = (id) => document.getElementById(id);
+const T = window.TIMING;
+window.DURATION = T.duration;
+const at = K.at, W = K.word;
+const END = Math.min(K.line('l10').end + 0.1, T.duration - 0.6);
+
+// ---------- photos (licensed; credits from assets/people/<slug>.json) ----------
+const CR = {
+  muzani: 'Foto: MPR-RI, CC BY-SA 4.0, via Wikimedia Commons',
+  mahfud: 'Foto: Kemenko Polhukam RI, Public domain, via Wikimedia Commons',
+  bambang: 'Foto: Majelis Permusyawaratan Rakyat Republik Indonesia, Public domain, via Wikimedia Commons' };
+$('eCr').innerHTML = 'Ahmad Muzani — ' + CR.muzani + '<br>Mahfud MD — ' + CR.mahfud + '<br>Bambang Wuryanto — ' + CR.bambang + '<br>Pak Budi = ilustrasi';
+
+// ---------- SVG stickers ----------
+const phoneSVG = () => `<svg width="230" height="380" viewBox="0 0 230 380"><rect x="6" y="6" width="218" height="368" rx="34" fill="#1B2430"/>
+  <rect x="20" y="34" width="190" height="300" rx="12" fill="#fff"/>
+  <rect x="34" y="54" width="90" height="16" rx="8" fill="#FF5A36"/>
+  <rect x="34" y="88" width="160" height="12" rx="6" fill="#3E5568" opacity=".45"/><rect x="34" y="110" width="130" height="12" rx="6" fill="#3E5568" opacity=".45"/>
+  <rect x="30" y="146" width="170" height="92" rx="12" fill="#FFD23F"/>
+  <text x="115" y="186" text-anchor="middle" font-family="Inter" font-weight="900" font-size="30" fill="#1B2430">“bisa</text>
+  <text x="115" y="222" text-anchor="middle" font-family="Inter" font-weight="900" font-size="30" fill="#1B2430">tak sah”</text>
+  <rect x="34" y="258" width="160" height="12" rx="6" fill="#3E5568" opacity=".45"/><rect x="34" y="280" width="110" height="12" rx="6" fill="#3E5568" opacity=".45"/>
+  <circle cx="115" cy="354" r="9" fill="#3E5568"/></svg>`;
+const chairSVG = () => `<svg width="300" height="380" viewBox="0 0 300 380">
+  <rect x="60" y="20" width="180" height="190" rx="30" fill="#3E5568" stroke="#1B2430" stroke-width="10"/>
+  <rect x="84" y="44" width="132" height="142" rx="18" fill="#557089"/>
+  <rect x="34" y="200" width="232" height="60" rx="20" fill="#3E5568" stroke="#1B2430" stroke-width="10"/>
+  <path d="M64 258 L50 370 M236 258 L250 370 M110 258 L104 340 M190 258 L196 340" stroke="#1B2430" stroke-width="12" stroke-linecap="round"/>
+  <rect x="90" y="90" width="120" height="44" rx="10" fill="#fff"/><text x="150" y="122" text-anchor="middle" font-family="Inter" font-weight="900" font-size="26" fill="#1B2430">KOSONG</text></svg>`;
+const calSVG = (top, big, sub) => `<svg width="280" height="300" viewBox="0 0 280 300">
+  <rect x="10" y="30" width="260" height="260" rx="26" fill="#fff" stroke="#1B2430" stroke-width="10"/>
+  <path d="M10 56 Q10 30 36 30 H244 Q270 30 270 56 V100 H10 Z" fill="#FF5A36" stroke="#1B2430" stroke-width="10" stroke-linejoin="round"/>
+  <rect x="70" y="8" width="18" height="50" rx="9" fill="#1B2430"/><rect x="192" y="8" width="18" height="50" rx="9" fill="#1B2430"/>
+  <text x="140" y="88" text-anchor="middle" font-family="Inter" font-weight="900" font-size="34" fill="#fff">${top}</text>
+  <text x="140" y="214" text-anchor="middle" font-family="Inter" font-weight="900" font-size="110" fill="#1B2430">${big}</text>
+  <text x="140" y="266" text-anchor="middle" font-family="Inter" font-weight="800" font-size="34" fill="#3E5568">${sub}</text></svg>`;
+const envSVG = (w = 220) => `<svg width="${w}" height="${w * 0.7}" viewBox="0 0 220 154"><rect x="8" y="8" width="204" height="138" rx="16" fill="#fff" stroke="#1B2430" stroke-width="9"/>
+  <path d="M12 16 L110 88 L208 16" fill="none" stroke="#1B2430" stroke-width="9" stroke-linejoin="round"/></svg>`;
+const boxSVG = () => `<svg width="230" height="230" viewBox="0 0 230 230"><path d="M20 70 H210 V214 H20 Z" fill="#3E5568" stroke="#1B2430" stroke-width="10" stroke-linejoin="round"/>
+  <path d="M20 70 L50 20 H180 L210 70" fill="#557089" stroke="#1B2430" stroke-width="10" stroke-linejoin="round"/>
+  <rect x="70" y="56" width="90" height="18" rx="9" fill="#1B2430"/>
+  <text x="115" y="160" text-anchor="middle" font-family="Inter" font-weight="900" font-size="54" fill="#fff">MPR</text></svg>`;
+const bldgSVG = () => `<svg width="320" height="260" viewBox="0 0 320 260">
+  <path d="M60 110 Q60 20 160 20 Q260 20 260 110 Z" fill="#7FA36B" stroke="#1B2430" stroke-width="10" stroke-linejoin="round"/>
+  <rect x="20" y="106" width="280" height="30" rx="6" fill="#fff" stroke="#1B2430" stroke-width="9"/>
+  ${[50, 100, 150, 200, 250].map((x) => `<rect x="${x}" y="140" width="22" height="80" fill="#fff" stroke="#1B2430" stroke-width="7"/>`).join('')}
+  <rect x="10" y="220" width="300" height="30" rx="6" fill="#fff" stroke="#1B2430" stroke-width="9"/>
+  <text x="160" y="96" text-anchor="middle" font-family="Inter" font-weight="900" font-size="40" fill="#fff">MPR</text></svg>`;
+$('cCh').innerHTML = chairSVG(); $('cCl').innerHTML = calSVG('DESEMBER', '9', 'Rabu');
+$('aEn').innerHTML = envSVG(); $('aBx').innerHTML = boxSVG(); $('bEn').innerHTML = envSVG(200);
+$('rBg').innerHTML = bldgSVG(); $('hPh').innerHTML = phoneSVG();
+$('hBu').innerHTML = K.budi('shocked'); $('hBu').dataset.e = 'shocked';
+$('jBu').innerHTML = K.budi('neutral'); $('xBu').innerHTML = K.budi('neutral');
+// ruler ticks (14)
+{ let g = ''; for (let i = 0; i <= 14; i++) { const x = 20 + i * 51.4; g += `<path d="M${x} 20 V${i % 7 ? 44 : 60}" stroke="#1B2430" stroke-width="${i % 7 ? 4 : 6}"/>`; } $('aRt').innerHTML = g; }
+
+// calendar: Mon 16 Nov – Sun 13 Des 2026 (4 weeks); 9 Des = Rabu
+const DAYS = []; for (let i = 0; i < 28; i++) { const d = new Date(Date.UTC(2026, 10, 16 + i)); DAYS.push({ d: d.getUTCDate(), m: d.getUTCMonth() === 10 ? 'Nov' : 'Des', wk: i % 7 >= 5 }); }
+const idx = (d, m) => DAYS.findIndex((x) => x.d === d && x.m === m);
+const buildCal = (p) => {
+  const hd = ['Sen', 'Sel', 'Rab', 'Kam', 'Jum', 'Sab', 'Min'].map((s) => `<div>${s}</div>`).join('');
+  const cells = DAYS.map((x, i) => `<div class="cell" id="${p}${i}"><div class="d">${x.d}</div>${x.d === 16 || x.d === 1 ? `<div class="m">${x.m}</div>` : ''}
+    <div class="n"></div><svg class="x" viewBox="0 0 116 104" preserveAspectRatio="none"><path d="M14 14 L102 90 M102 14 L14 90" stroke="#8C96A0" stroke-width="7" stroke-linecap="round"/></svg>
+    <div class="ring"></div></div>`).join('');
+  $(p + 'Cal').innerHTML = `<div class="hd">${hd}</div><div class="gr">${cells}</div>`; };
+buildCal('k'); buildCal('w');
+const C = (p, i) => $(p + i);
+const I25 = idx(25, 'Nov'), I9 = idx(9, 'Des'), I19 = idx(19, 'Nov'), I21 = idx(21, 'Nov');
+// MPR count: 25 Nov .. 8 Des = 14 calendar days
+const KSEQ = []; for (let i = I25; i < I9; i++) KSEQ.push(i);
+// Mahfud count: 14 working days back from 8 Des -> 19 Nov
+const WSEQ = []; for (let i = I9 - 1; WSEQ.length < 14; i--) if (!DAYS[i].wk) WSEQ.push(i);
+
+// ---------- block subtitles in pages of at most 3 lines (QA 21 Nov: 4–5-line blocks hit the bottom UI zone) ----------
+const subPages = (L) => {
+  if (L._pages) return L._pages;
+  const out = []; let cur = [];
+  const len = (a) => a.map((i) => L.words[i].w).join(' ').length;
+  L.words.forEach((w, i) => {
+    if (cur.length && len(cur) + 1 + w.w.length > 58) { out.push(cur); cur = []; }
+    cur.push(i);
+    if (/[.?!:]$/.test(w.w) && len(cur) >= 24 && i < L.words.length - 1) { out.push(cur); cur = []; }
+  });
+  if (cur.length) out.push(cur);
+  return (L._pages = out);
+};
+K.subtitles = (box, t) => {
+  const L = window.TIMING.lines.filter((l) => t >= l.start - 0.05 && t <= l.end + 0.35).pop();
+  if (!L) { box.style.opacity = 0; return; }
+  const tt = t + (window.SUB_LEAD ?? 0.08), P = subPages(L);
+  const p = P.reduce((k, pg, j) => (t >= L.words[pg[0]].start - 0.05 ? j : k), 0), key = L.id + ':' + p;
+  if (box.dataset.id !== key) { box.dataset.id = key; box.innerHTML = P[p].map((i) => `<span data-i="${i}">${L.words[i].w}</span>`).join(' '); }
+  box.style.opacity = 1;
+  box.querySelectorAll('span').forEach((s) => { const w = L.words[+s.dataset.i];
+    s.classList.toggle('on', tt >= w.start && tt < w.end + 0.05); s.classList.toggle('said', tt >= w.start); });
+};
+
+// ---------- helpers ----------
+const pulse = (el, t, tIn, amt = 0.12, rot = 0) => { const k = K.clamp((t - tIn) / 0.45); el.style.transform = `translate(-50%,-50%) scale(${1 + amt * Math.sin(Math.PI * k)}) rotate(${rot}deg)`; };
+const slam = (el, t, tIn, rot = 0, from = 2, tOut = Infinity) => { const s = K.spring(t - tIn, 320, 18), o = K.clamp((t - tOut) / 0.25);
+  el.style.opacity = t >= tIn ? 1 - o : 0; el.style.transform = `translate(-50%,-50%) scale(${(from - (from - 1) * s) * (1 - 0.2 * o)}) rotate(${rot}deg)`; };
+const show = (el, t, tIn, rot = 0) => { el.style.opacity = t >= tIn ? 1 : 0; el.style.transform = `translate(-50%,-50%) rotate(${rot}deg)`; };
+const rise = (el, t, tIn) => { const s = K.spring(t - tIn, 140, 15); el.style.opacity = t >= tIn ? K.clamp((t - tIn) / 0.12) : 0;
+  el.style.transform = `translate(-50%,-50%) translateY(${(1 - s) * 260}px) scale(${0.92 + 0.08 * s})`; };
+const fly = (el, t, tIn, dx, dy, dur = 0.5, rot = 0) => { const k = K.easeInOut(K.prog(t, tIn, dur));
+  el.style.transform = `translate(-50%,-50%) translate(${dx * k}px, ${dy * k}px) rotate(${rot}deg)`; };
+
+const POS = { zT: [0, 0], z1: [1240, 0], z2: [2480, 0], z3: [0, 2400], zC: [1240, 2400], z4: [2480, 2400],
+  z5: [0, 4800], z6: [1240, 4800], z7: [2480, 4800], z8: [0, 7200], z9: [1240, 7200], zQ: [2480, 7200] };
+
+function seek(t) {
+  const Z = (x, y, z = 1.0) => ({ x, y: y + 200 / z, z });
+  const zc = (id, z = 1, dx = 0, dy = 0) => Z(POS[id][0] + 540 + dx, POS[id][1] + 960 + dy, z);
+  const rd = at('rd', -0.05);
+  const CUT = 0.001;
+  const ZT = [['zT', 0], ['z1', at('l1', -0.25)], ['z2', at('l2', -0.25)], ['z3', at('l3', -0.2)], ['zC', W('l3', 'itu') - 0.12],
+    ['z4', at('l4', -0.2)], ['z5', at('l5', -0.2)], ['z6', at('l6', -0.2)], ['z7', at('l7', -0.2)], ['z8', at('l8', -0.15)],
+    ['z9', at('l9', -0.15)], ['zQ', at('l10', -0.12)]];
+  const keys = [{ t: 0, ...zc('zT', 1.08) }];
+  ZT.slice(1).forEach(([id, t0]) => { keys.push({ t: t0, ...zc(id), dur: CUT }); });
+  keys.push({ t: at('l1', -0.25) + 0.01, ...zc('z1', 1.08, -170, 0), dur: CUT });
+  keys.push({ t: W('l1', 'mpr') - 0.15, ...zc('z1', 1.08, 170, 0), dur: 0.6 });
+  keys.push({ t: W('l1', 'rabu') - 0.1, ...zc('z1', 1.0, 0, 0), dur: 0.5 });
+  keys.push({ t: W('l3', 'rabu') - 0.15, ...zc('z3', 1.05, 60, 0), dur: 0.6 });
+  keys.push({ t: W('l4', 'hari') - 0.1, ...zc('z4', 1.05, 60, 0), dur: 0.6 });
+  keys.push({ t: W('l5', 'hitungan') - 0.1, ...zc('z5', 1.03, 0, 20), dur: 0.6 });
+  keys.push({ t: W('l8', 'dua') - 0.15, ...zc('z8', 1.05, 60, 0), dur: 0.6 });
+  keys.sort((a, b) => a.t - b.t);
+  K.camera($('world'), keys, t, 1080, 1920, 0.6);
+  const cur = ZT.filter(([, t0]) => t >= t0).pop()[0];
+  Object.keys(POS).forEach((id) => { $(id).style.visibility = id === cur ? 'visible' : 'hidden'; });
+
+  // ---------- hook (h1-h2), cover from frame 0 ----------
+  { const gone = K.easeInOut(K.prog(t, rd, 0.3));
+    $('hookA').style.display = gone >= 1 ? 'none' : '';
+    $('hookA').style.transform = `translateX(${-1150 * gone}px) rotate(${-3 * gone}deg)`;
+    const nud = (w, id, a) => t > W(id, w) - 0.05 ? a * Math.sin(Math.PI * K.clamp((t - W(id, w) + 0.05) / 0.45)) : 0;
+    $('hT').style.transform = `translate(-50%,-50%) scale(${1 + nud('tak', 'h1', 0.06)}) rotate(-2deg)`;
+    $('hT').style.opacity = 1;
+    show($('hIl'), 0, 0, -4);
+    // Budi: shocked reading, then neutral/curious on "Ternyata"
+    { const e = t >= W('h2', 'ternyata') - 0.1 ? 'neutral' : 'shocked';
+      if ($('hBu').dataset.e !== e) { $('hBu').innerHTML = K.budi(e); $('hBu').dataset.e = e; }
+      const tilt = e === 'neutral' ? 8 : 0;
+      $('hBu').style.transform = `translate(-50%,-50%) rotate(${tilt + 1.2 * Math.sin(t * 1.8)}deg)`; }
+    // phone pops on "baca", zooms on "bisa"; leaves on "satu"
+    { const tp = W('h1', 'baca') - 0.08, tz = W('h1', 'bisa') - 0.1, to = W('h2', 'satu') - 0.1;
+      const s = K.spring(t - tp), z = K.easeOut(K.prog(t, tz, 0.4)), o = K.clamp((t - to) / 0.2);
+      $('hPh').style.opacity = t >= tp ? 1 - o : 0;
+      $('hPh').style.transform = `translate(-50%,-50%) scale(${(0.4 + 0.6 * s) * (1 + 0.22 * z)}) rotate(${-6 + 4 * z + 2 * Math.sin(t * 2)}deg)`; }
+    // quote marks fly off on "Ternyata"
+    { const tq = W('h1', 'bisa') - 0.05, tf = W('h2', 'ternyata') - 0.05;
+      [['hQ1', -1], ['hQ2', 1]].forEach(([id, dir]) => { const el = $(id), k = K.easeInOut(K.prog(t, tf, 0.55));
+        el.style.opacity = t >= tq ? 1 - k : 0;
+        el.style.transform = `translate(-50%,-50%) translate(${dir * 500 * k}px, ${-400 * k}px) rotate(${dir * 120 * k}deg) scale(${K.clamp(0.4 + 0.6 * K.spring(t - tq))})`; }); }
+    K.pop($('hSi'), t, W('h2', 'kata') - 0.06, W('h2', 'satu') - 0.15, -4);
+    K.pop($('hSk'), t, W('h2', 'satu') - 0.08, Infinity, 3);
+    // "HARI" drops in
+    { const th = W('h2', 'hari') - 0.12, s = K.spring(t - th, 260, 13);
+      $('hH').style.opacity = t >= th ? 1 : 0;
+      $('hH').style.transform = `translate(-50%,-50%) translateY(${(1 - s) * -700}px) rotate(${-3 + 3 * Math.sin(t * 2)}deg)`;
+      const q = $('hH').querySelector('.q'), tq = th + 0.35, b = K.spring(t - tq, 200, 8);
+      q.style.display = 'inline-block'; q.style.transform = `translateY(${(1 - b) * -40}px) rotate(${12 * Math.sin(t * 5)}deg)`; } }
+
+  // ---------- tagline ----------
+  K.pop($('stamp'), t, at('rd', -0.1), at('l1', -0.2), -6);
+
+  // ---------- z1: kursi kosong ----------
+  K.pop($('cKb'), t, at('l1', -0.2), Infinity, -2);
+  K.pop($('cCh'), t, W('l1', 'kursi') - 0.1, Infinity, -3 + 1.5 * Math.sin(t * 1.6));
+  K.pop($('cKs'), t, W('l1', '12') - 0.08, Infinity, 3);
+  { const ta = W('l1', 'mpr') - 0.1, k = K.easeOut(K.prog(t, ta, 0.4));
+    $('cAr').style.opacity = t >= ta ? 1 : 0; $('cAr').style.transform = `translate(-50%,-50%) translateX(${-40 * (1 - k)}px)`; }
+  K.pop($('cMp'), t, W('l1', 'mpr') + 0.05, Infinity, 3);
+  K.pop($('cCl'), t, W('l1', 'jadwalkan') - 0.1, Infinity, 4);
+  { const tr = W('l1', '9') - 0.08, k = K.easeOut(K.prog(t, tr, 0.5));
+    $('cRg').style.opacity = t >= tr ? 1 : 0; $('cRg').style.transform = 'translate(-50%,-50%) rotate(-8deg)';
+    $('cRgP').style.strokeDashoffset = 700 * (1 - k); }
+
+  // ---------- z2: aturan ----------
+  K.pop($('aHd'), t, at('l2', -0.15), Infinity, -2);
+  K.pop($('aEn'), t, W('l2', 'presiden') - 0.1, Infinity, -4);
+  K.pop($('aEl'), t, W('l2', 'presiden') + 0.05, Infinity, 3);
+  K.pop($('aBx'), t, W('l2', 'kirim') - 0.05, Infinity, 3);
+  [['aN1', 'dua', 0], ['aN2', 'nama', 0.12]].forEach(([id, w, d]) => { const el = $(id), ti = W('l2', w) - 0.1 + d, k = K.easeInOut(K.prog(t, ti, 0.5)), s = K.spring(t - ti);
+    el.style.opacity = t >= ti ? 1 : 0; el.style.transform = `translate(-50%,-50%) translateX(${-200 * (1 - k)}px) scale(${0.6 + 0.4 * s}) rotate(${id === 'aN1' ? -3 : 2}deg)`; });
+  { const tr = W('l2', 'paling') - 0.1, s = K.spring(t - tr);
+    $('aRl').style.opacity = t >= tr ? 1 : 0; $('aRl').style.transform = `translate(-50%,-50%) scaleX(${0.3 + 0.7 * Math.min(1, s)})`; }
+  K.pop($('aR14'), t, W('l2', '14') - 0.08, Infinity, -1);
+  if (t > W('l2', 'sidang') - 0.05) pulse($('aR14'), t, W('l2', 'sidang') - 0.05, 0.05, -1);
+
+  // ---------- z3: Muzani ----------
+  slam($('mBar'), t, at('l3', -0.15), -2, 1.4);
+  rise($('mP'), t, W('l3', 'ahmad') - 0.25);
+  K.pop($('mNm'), t, W('l3', 'muzani') - 0.05, Infinity, -1);
+  K.pop($('mTg'), t, W('l3', 'tenggatnya') - 0.08, Infinity, 3);
+  slam($('mDt'), t, W('l3', '25') - 0.1, -3, 1.6);
+
+  // ---------- zC: 14 hari kalender ----------
+  { const t0 = W('l3', 'itu') - 0.1, t1 = W('l3', 'sebelum') - 0.05;
+    K.pop($('kHd'), t, t0, Infinity, -1);
+    show($('kCal'), t, t0, 0);
+    const n = t < t0 ? 0 : Math.min(14, Math.floor(1 + 14 * K.clamp((t - t0) / (t1 - t0))));
+    $('kN').textContent = n;
+    DAYS.forEach((x, i) => { const c = C('k', i), j = KSEQ.indexOf(i);
+      const on = j >= 0 && j < n;
+      c.style.background = i === I25 ? 'var(--hi)' : on ? '#FFE9A8' : '#fff';
+      c.style.opacity = x.wk ? 1 : 1;
+      const nb = c.querySelector('.n'); nb.textContent = j + 1; nb.style.opacity = on ? 1 : 0; });
+    const r = C('k', I9).querySelector('.ring'), tr = W('l3', '9') - 0.08;
+    r.style.opacity = t >= tr ? 1 : 0; r.style.transform = `scale(${0.6 + 0.4 * K.spring(t - tr)})`;
+    C('k', I9).style.background = t >= tr ? '#FFD9CF' : '#fff';
+    K.pop($('kKb'), t, W('l3', 'desember') - 0.1, Infinity, 0); }
+
+  // ---------- z4: Mahfud ----------
+  slam($('fBar'), t, at('l4', -0.15), -2, 1.4);
+  rise($('fP'), t, W('l4', 'mahfud') - 0.25);
+  K.pop($('fNm'), t, W('l4', 'guru') - 0.08, Infinity, -1);
+  K.pop($('fQ'), t, W('l4', 'hari') - 0.1, Infinity, 2);
+  K.pop($('fD1'), t, W('l4', 'uu') - 0.08, Infinity, -2);
+  K.pop($('fD2'), t, W('l4', 'tatib') - 0.08, Infinity, 2);
+  if (t > W('l4', 'hari', 1) - 0.05) pulse($('fQ'), t, W('l4', 'hari', 1) - 0.05, 0.08, 2);
+
+  // ---------- z5: hari kerja, 19 Nov ----------
+  { const t0 = at('l5', -0.15), tc = W('l5', 'hitungan') - 0.1, t1 = W('l5', '19') - 0.1;
+    K.pop($('wHd'), t, t0, tc, -1);
+    K.pop($('wHd2'), t, tc + 0.05, Infinity, -1);
+    show($('wCal'), t, t0, 0);
+    const kx = K.prog(t, W('l5', 'tidak') - 0.1, 0.35);
+    const n = t < tc ? 0 : Math.min(14, Math.floor(1 + 14 * K.clamp((t - tc) / (t1 - tc))));
+    $('wN').textContent = n;
+    DAYS.forEach((x, i) => { const c = C('w', i), j = WSEQ.indexOf(i), on = j >= 0 && j < n;
+      c.style.background = x.wk ? '#D9D5CB' : i === I19 && t >= t1 ? 'var(--accent)' : on ? '#FFD9CF' : '#fff';
+      c.querySelector('.d').style.color = x.wk ? '#8C96A0' : i === I19 && t >= t1 ? '#fff' : 'var(--ink)';
+      c.querySelector('.x').style.opacity = x.wk ? kx : 0;
+      const nb = c.querySelector('.n'); nb.textContent = j + 1; nb.style.opacity = on ? 1 : 0;
+      c.style.outline = i === I25 ? '5px dashed var(--slate)' : 'none'; c.style.outlineOffset = '-12px'; });
+    const r = C('w', I19).querySelector('.ring'); r.style.opacity = t >= t1 ? 1 : 0; r.style.transform = `scale(${0.6 + 0.4 * K.spring(t - t1)})`; }
+  // "SUDAH LEWAT" stamp lands over 19 Nov (column Kam, row 1)
+  slam($('wSt'), t, W('l5', 'sudah') - 0.08, -10, 2.2);
+  K.pop($('wNm'), t, W('l5', 'dua') - 0.1, Infinity, 1);
+
+  // ---------- z6: bisa tak sah, usul tunda ----------
+  K.pop($('uKb'), t, W('l6', 'kata') - 0.08, Infinity, 3);
+  K.pop($('uC1'), t, W('l6', 'sidang') - 0.1, Infinity, -1);
+  if (t > W('l6', 'bisa') - 0.05) pulse($('uC1'), t, W('l6', 'bisa') - 0.05, 0.06, -1);
+  { const ta = W('l6', 'usulnya') - 0.1, k = K.easeOut(K.prog(t, ta, 0.4));
+    $('uAr').style.opacity = t >= ta ? 1 : 0; $('uAr').style.transform = `translate(-50%,-50%) translateY(${-40 * (1 - k)}px)`; }
+  K.pop($('uC2'), t, W('l6', 'tunda') - 0.1, Infinity, 1);
+  $('uC2s').style.opacity = t >= W('l6', '14') - 0.1 ? 1 : 0;
+
+  // ---------- z7: respons MPR ----------
+  K.pop($('rHd'), t, at('l7', -0.15), Infinity, -2);
+  K.pop($('rSb'), t, W('l7', 'sabtu') - 0.08, Infinity, 5);
+  K.pop($('rBg'), t, W('l7', 'anggota') - 0.1, Infinity, -2);
+  slam($('rNm'), t, W('l7', 'ahmad') - 0.1, -1.5, 1.4);
+  { $('rLs').style.opacity = 1; $('rLs').style.transform = 'translate(-50%,-50%)';
+    [W('l7', 'catatan'), W('l7', 'jadwal'), W('l7', 'prinsip')].forEach((ti, i) => { const r = $('rR' + (i + 1)), s = K.spring(t - ti + 0.08);
+      r.style.opacity = t >= ti - 0.08 ? 1 : 0; r.style.transform = `translateX(${(1 - s) * 80}px)`; }); }
+  if (t > W('l7', '60') - 0.05) { const r = $('rR3'), k = K.clamp((t - W('l7', '60') + 0.05) / 0.45); r.style.transform = `scale(${1 + 0.06 * Math.sin(Math.PI * k)})`; }
+
+  // ---------- z8: Bambang ----------
+  slam($('bBar'), t, at('l8', -0.12), -2, 1.4);
+  rise($('bP'), t, W('l8', 'bambang') - 0.3);
+  K.pop($('bNm'), t, W('l8', 'wuryanto') - 0.05, Infinity, -1);
+  { const te = W('l8', 'dua') - 0.1, s = K.spring(t - te), tl = W('l8', 'diserahkan') - 0.1, k = K.easeInOut(K.prog(t, tl, 0.55));
+    [['bEn', -4], ['bEl', 3]].forEach(([id, r]) => { const el = $(id);
+      el.style.opacity = t >= te ? 1 - 0.25 * k : 0;
+      el.style.transform = `translate(-50%,-50%) translateY(${200 * k}px) scale(${(0.4 + 0.6 * s) * (1 - 0.35 * k)}) rotate(${r}deg)`; }); }
+  slam($('bDt'), t, W('l8', 'rabu') - 0.1, -3, 1.6);
+  K.pop($('bKb'), t, W('l8', 'kemungkinan') - 0.08, Infinity, 2);
+
+  // ---------- z9: satu kata menentukan ----------
+  { const th = at('l9', -0.1), s = K.spring(t - th, 260, 13);
+    $('jH').style.opacity = t >= th ? 1 : 0;
+    $('jH').style.transform = `translate(-50%,-50%) translateY(${(1 - s) * -500}px) rotate(-2deg)`;
+    if (t > W('l9', 'hari') - 0.05) pulse($('jH'), t, W('l9', 'hari') - 0.05, 0.1, -2); }
+  { const tp = W('l9', 'menentukan') - 0.1;
+    [['jP1', 0], ['jP2', 0]].forEach(([id]) => { $(id).style.strokeDashoffset = 320 * (1 - K.easeOut(K.prog(t, tp, 0.5))); });
+    $('jP').style.opacity = t >= tp ? 1 : 0; $('jP').style.transform = 'translate(-50%,-50%)'; }
+  K.pop($('jA'), t, W('l9', '9') - 0.1, Infinity, -3);
+  K.pop($('jB'), t, W('l9', 'digeser') - 0.1, Infinity, 3);
+  { const tb = W('l9', 'satu') - 0.1, s = K.spring(t - tb, 160, 15);
+    $('jBu').style.opacity = t >= tb ? 1 : 0;
+    const look = t >= W('l9', 'digeser') - 0.1 ? 10 : t >= W('l9', '9') - 0.1 ? -10 : 0;
+    $('jBu').style.transform = `translate(-50%,-50%) translateY(${(1 - s) * 300}px) rotate(${look + 1.2 * Math.sin(t * 1.8)}deg)`; }
+  show($('jIl'), t, W('l9', 'satu'), -4);
+
+  // ---------- CTA ----------
+  const xOut = END - 0.3;
+  K.pop($('xHd'), t, at('l10', -0.1), xOut, -1);
+  { const tb = W('l10', 'kamu') - 0.1, s = K.spring(t - tb, 160, 15);
+    const e = t >= W('l10', 'komen') - 0.1 ? 'happy' : 'neutral';
+    if ($('xBu').dataset.e !== e) { $('xBu').innerHTML = K.budi(e); $('xBu').dataset.e = e; }
+    $('xBu').style.opacity = t >= tb && t < xOut + 0.25 ? 1 : 0;
+    $('xBu').style.transform = `translate(-50%,-50%) translateY(${(1 - s) * 300}px) rotate(${1.5 * Math.sin(t * 1.8)}deg)`; }
+  K.pop($('xLs'), t, W('l10', 'dihitung') - 0.1, xOut, 2);
+  K.pop($('xK'), t, W('l10', 'komen') - 0.08, xOut, -3);
+
+  const en = K.prog(t, END, 0.3);
+  $('status').style.opacity = $('part').style.opacity = 1 - en;
+  $('endcard').style.opacity = en;
+  $('endcard').querySelector('.logo').style.transform = `rotate(-3deg) scale(${0.6 + 0.4 * K.spring(t - END)})`;
+  // photo credit while a photo is on screen
+  { const c = cur === 'z3' && t >= W('l3', 'ahmad') - 0.25 ? CR.muzani : cur === 'z4' && t >= W('l4', 'mahfud') - 0.25 ? CR.mahfud
+      : cur === 'z8' && t >= W('l8', 'bambang') - 0.3 ? CR.bambang : '';
+    if ($('credit').textContent !== c) $('credit').textContent = c; $('credit').style.opacity = c && en < 0.5 ? 1 : 0; }
+  K.subtitles($('subs'), t);
+  $('subs').style.visibility = en > 0.5 ? 'hidden' : 'visible';
+  $('progress').style.width = (100 * t / window.DURATION) + '%';
+  return true;
+}
+window.seek = seek; seek(0);
+</script>
+</body>
+</html>

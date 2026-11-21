@@ -1,0 +1,87 @@
+{
+  "direction": "[calm, neutral, explaining to a friend]",
+  "format": "chapter_cut",
+  "hook_style": "story",
+  "badge": "PART 5",
+  "source_chapter": "weekly/2026-11-21 ch01 (Siapa wapres pengganti?), updated with Mahfud 20 Nov + MPR 20-21 Nov",
+  "tail": 0.9,
+  "lines": [
+    {
+      "id": "h1",
+      "tag": "[storytelling, light]",
+      "text": "Misalnya Pak Budi baca: pemilihan wapres \"bisa tak sah\".",
+      "say": "Misalnya Pak Budi baca: pemilihan wapres, bisa tak sah."
+    },
+    {
+      "id": "h2",
+      "tag": "[curious, teasing]",
+      "text": "Kata siapa? Ternyata, soal satu kata: \"hari\".",
+      "say": "Kata siapa? Ternyata, soal satu kata: hari."
+    },
+    {
+      "id": "rd",
+      "tagline": true,
+      "text": "Rangkumin dong!"
+    },
+    {
+      "id": "l1",
+      "tag": "[matter-of-fact]",
+      "text": "Kursi wapres kosong sejak 12 November. MPR jadwalkan pemilihan Rabu, 9 Desember.",
+      "say": "Kursi wapres kosong sejak dua belas November. Em Pe Er jadwalkan pemilihan Rabu, sembilan Desember."
+    },
+    {
+      "id": "l2",
+      "tag": "[explaining]",
+      "text": "Aturannya, Presiden kirim dua nama paling lambat 14 hari sebelum sidang.",
+      "say": "Aturannya, Presiden kirim dua nama, paling lambat empat belas hari sebelum sidang."
+    },
+    {
+      "id": "l3",
+      "tag": "[explaining]",
+      "text": "Ketua MPR Ahmad Muzani tetapkan tenggatnya: Rabu, 25 November. Itu 14 hari kalender sebelum 9 Desember.",
+      "say": "Ketua, Em Pe Er, Ahmad Muzani tetapkan tenggatnya: Rabu, dua puluh lima November. Itu empat belas hari kalender sebelum sembilan Desember."
+    },
+    {
+      "id": "l4",
+      "tag": "[leaning in]",
+      "text": "Tapi kata Mahfud MD, guru besar hukum tata negara: \"hari\" di UU MD3 dan Tatib MPR artinya hari kerja.",
+      "say": "Tapi kata Mahfud Em De, guru besar hukum tata negara: hari, di, U U Em De tiga, dan Tatib, Em Pe Er, artinya hari kerja."
+    },
+    {
+      "id": "l5",
+      "tag": "[serious]",
+      "text": "Sabtu-Minggu tidak dihitung. Hitungan Mahfud, tenggatnya jadi 19 November. Sudah lewat, dua nama belum masuk.",
+      "say": "Sabtu Minggu, tidak dihitung. Hitungan Mahfud, tenggatnya jadi sembilan belas November. Sudah lewat. Dua nama belum masuk."
+    },
+    {
+      "id": "l6",
+      "tag": "[neutral]",
+      "text": "Makanya, kata Mahfud, sidang 9 Desember bisa tak sah. Usulnya: tunda, jadi 14 hari kerja setelah nama diterima.",
+      "say": "Makanya, kata Mahfud, sidang sembilan Desember bisa tak sah. Usulnya: tunda, jadi empat belas hari kerja setelah nama diterima."
+    },
+    {
+      "id": "l7",
+      "tag": "[matter-of-fact]",
+      "text": "MPR? Sabtu, anggota Panitia Ad Hoc MPR Ahmad Irawan bilang catatan Mahfud akan dipelajari. Jadwal 9 Desember belum berubah, yang prinsip tak lewat 60 hari.",
+      "say": "Em Pe Er? Sabtu, anggota Panitia Ad Hoc, Em Pe Er, Ahmad Irawan bilang, catatan Mahfud akan dipelajari. Jadwal sembilan Desember belum berubah. Yang prinsip, tak lewat enam puluh hari."
+    },
+    {
+      "id": "l8",
+      "tag": "[explaining]",
+      "text": "Kata Wakil Ketua MPR Bambang Wuryanto, dua nama kemungkinan besar diserahkan Rabu, 25 November.",
+      "say": "Kata Wakil Ketua, Em Pe Er, Bambang Wuryanto, dua nama kemungkinan besar diserahkan Rabu, dua puluh lima November."
+    },
+    {
+      "id": "l9",
+      "tag": "[calm]",
+      "text": "Jadi, satu kata \"hari\" bisa menentukan: wapres baru dipilih 9 Desember, atau digeser.",
+      "say": "Jadi, satu kata, hari, bisa menentukan: wapres baru dipilih sembilan Desember, atau digeser."
+    },
+    {
+      "id": "l10",
+      "tag": "[friendly, curious]",
+      "text": "Menurut kamu, \"hari\" di aturan sebaiknya dihitung gimana? Komen.",
+      "say": "Menurut kamu, hari di aturan, sebaiknya dihitung gimana? Komen."
+    }
+  ]
+}

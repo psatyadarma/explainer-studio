@@ -1,0 +1,137 @@
+[
+ {
+  "lines": "h1, l6",
+  "claim": "Mahfud MD said that if President Prabowo had not submitted the two VP names by 19 Nov 2026 00.00, the MPR 'mungkin, tidak bisa bersidang (dan tidak sah jika dilakukan)' on 9 Dec 2026. Posted on social media (X @mohmahfudmd; also Instagram per ifakta), Fri 20 Nov (post says 'sampai kemarin (19/11/2026)'). Attributed in script ('kata Mahfud'); 'bisa tak sah' in quotes in h1.",
+  "numbers": "19 Nov 00.00 · 9 Des",
+  "sensitivity": "high",
+  "sources": [
+   "https://news.detik.com/berita/d-8761430/catatan-mahfud-md-soal-waktu-sidang-mpr-pemilihan-wakil-presiden",
+   "https://www.cnnindonesia.com/nasional/20261120151249-32-1429534/mahfud-pemilihan-wapres-bisa-tak-sah-jika-tetap-digelar-9-desember",
+   "https://www.hukumonline.com/berita/a/prabowo-belum-serahkan-dua-nama-cawapres--mahfud-soroti-keabsahan-sidang-mpr-pada-9-desember-lt6b001ac92ff6f/",
+   "https://www.viva.co.id/berita/nasional/1945293-mahfud-md-ingatkan-sidang-pemilihan-wapres-9-desember-bisa-tidak-sah-ini-masalahnya"
+  ]
+ },
+ {
+  "lines": "l4",
+  "claim": "Mahfud: UU MD3 and Tatib MPR define 'hari' as hari kerja, not calendar days. Law text verified: UU 17/2014 (MD3) Pasal 1 angka 9 and Peraturan MPR 1/2024 Pasal 1 angka 22: 'Hari adalah hari kerja.' Pasal 136 ayat 1 itself writes lowercase '14 (empat belas) hari' (where the dispute sits). Mahfud = guru besar hukum tata negara (UII). Article numbers appear in captions, not in the spoken line.",
+  "numbers": "-",
+  "sensitivity": "high",
+  "sources": [
+   "https://news.detik.com/berita/d-8761430/catatan-mahfud-md-soal-waktu-sidang-mpr-pemilihan-wakil-presiden",
+   "https://www.cnnindonesia.com/nasional/20261120151249-32-1429534/mahfud-pemilihan-wapres-bisa-tak-sah-jika-tetap-digelar-9-desember",
+   "https://www.hukumonline.com/berita/a/prabowo-belum-serahkan-dua-nama-cawapres--mahfud-soroti-keabsahan-sidang-mpr-pada-9-desember-lt6b001ac92ff6f/",
+   "https://pasal.id/peraturan/uu/uu-no-17-tahun-2014/pasal-1",
+   "https://peraturan.bpk.go.id/Download/378614/Peraturan%20MPR%20no%201%20tahun%202024.pdf"
+  ]
+ },
+ {
+  "lines": "l5",
+  "claim": "Under Mahfud's reading the deadline was 19 Nov (00.00). Our check: counting 14 working days back from Wed 9 Dec (8,7,4,3,2,1 Des, 30,27,26,25,24,23,20,19 Nov) lands on Thu 19 Nov, consistent with Mahfud's date; his example 'names on 20 Nov → sitting 10 Des' is also consistent. 'Sabtu-Minggu tidak dihitung' = plain meaning of hari kerja (also excludes public holidays; none in this window). Names not yet submitted as of 21 Nov (MPR: expected 25 Nov).",
+  "numbers": "14 hari kerja · 19 Nov",
+  "sensitivity": "high",
+  "sources": [
+   "https://news.detik.com/berita/d-8761430/catatan-mahfud-md-soal-waktu-sidang-mpr-pemilihan-wakil-presiden",
+   "https://www.beritasatu.com/nasional/3042599/mpr-enggan-tanggapi-mahfud-md-soal-tenggat-waktu-pengajuan-cawapres",
+   "https://www.cnnindonesia.com/nasional/20261120222219-32-1429712/golkar-pks-sebut-prabowo-akan-kumpulkan-ketum-parpol-soal-cawapres"
+  ]
+ },
+ {
+  "lines": "l6",
+  "claim": "Mahfud's proposal: postpone the sitting to 14 working days after the MPR receives the two names, to synchronise UUD, UU MD3 and Tatib MPR (still within the 60 days after Gibran's resignation, per detik).",
+  "numbers": "14 hari kerja",
+  "sensitivity": "high",
+  "sources": [
+   "https://news.detik.com/berita/d-8761430/catatan-mahfud-md-soal-waktu-sidang-mpr-pemilihan-wakil-presiden",
+   "https://www.hukumonline.com/berita/a/prabowo-belum-serahkan-dua-nama-cawapres--mahfud-soroti-keabsahan-sidang-mpr-pada-9-desember-lt6b001ac92ff6f/"
+  ]
+ },
+ {
+  "lines": "l1",
+  "claim": "VP seat vacant since Thu 12 Nov 2026 (Gibran's letter to Ketua MPR); MPR plenary to elect the VP scheduled Wed 9 Dec 2026 (moved from 2 Dec).",
+  "numbers": "12 Nov · 9 Des",
+  "sensitivity": "high",
+  "sources": [
+   "https://www.liputan6.com/news/read/8333949/ketua-mpr-sejak-hari-ini-jabatan-wapres-alami-kekosongan",
+   "https://www.cnnindonesia.com/nasional/20261112101220-32-1426208/gibran-akhirnya-resmi-serahkan-surat-pengunduran-diri-ke-mpr",
+   "https://news.detik.com/berita/d-8755839/sidang-mpr-pemilihan-wapres-mundur-sepekan-ini-pertimbangannya",
+   "https://www.cnnindonesia.com/nasional/20261120222219-32-1429712/golkar-pks-sebut-prabowo-akan-kumpulkan-ketum-parpol-soal-cawapres"
+  ]
+ },
+ {
+  "lines": "l2",
+  "claim": "Rule: the President proposes 2 VP candidates at least 14 days before the MPR plenary (Peraturan MPR 1/2024 Pasal 136 ayat 1).",
+  "numbers": "2 nama · 14 hari",
+  "sensitivity": "high",
+  "sources": [
+   "https://news.detik.com/berita/d-8761430/catatan-mahfud-md-soal-waktu-sidang-mpr-pemilihan-wakil-presiden",
+   "https://justisio.com/berita/2026-11-16-mpr-beri-batas-waktu-prabowo-serahkan-dua-nama-cawapres-hingga-25-nove",
+   "https://peraturan.bpk.go.id/Download/378614/Peraturan%20MPR%20no%201%20tahun%202024.pdf"
+  ]
+ },
+ {
+  "lines": "l3",
+  "claim": "Ketua MPR Ahmad Muzani (Mon 16 Nov): deadline for the two names is Wed 25 Nov 2026. Script qualifies it as '14 hari kalender sebelum 9 Desember' (our arithmetic; MPR gave no counting basis), so it doesn't silently adopt one reading.",
+  "numbers": "25 Nov · 14 hari",
+  "sensitivity": "high",
+  "sources": [
+   "https://news.detik.com/berita/d-8755589/prabowo-punya-waktu-hingga-25-november-untuk-setor-2-nama-cawapres-ke-mpr",
+   "https://justisio.com/berita/2026-11-16-mpr-beri-batas-waktu-prabowo-serahkan-dua-nama-cawapres-hingga-25-nove",
+   "https://www.cnnindonesia.com/nasional/20261120151249-32-1429534/mahfud-pemilihan-wapres-bisa-tak-sah-jika-tetap-digelar-9-desember"
+  ]
+ },
+ {
+  "lines": "l7",
+  "claim": "Fri 20 Nov: MPR verification-team members Hinca Panjaitan and Hidayat Nur Wahid declined to comment. Sat 21 Nov: Panitia Ad Hoc MPR member Ahmad Irawan (Golkar): 'Belum ada perubahan jadwal.' / 'Nanti pendapat seperti yang disampaikan Pak Mahfud kami pelajari di Panitia Ad Hoc' / 'Yang prinsip sidang pemilihan tidak melewati tenggang waktu 60 hari.' Sekretaris Panitia Ad Hoc Abidin Fikri: input incl. Mahfud's considered; meeting Mon 23 Nov. Not a rebuttal of the hari-kerja reading (no outlet reports one; do not frame it as a rebuttal).",
+  "numbers": "20-21 Nov · 60 hari · 23 Nov",
+  "sensitivity": "high",
+  "sources": [
+   "https://garuda.tv/mpr-respons-mahfud-md-jadwal-pemilihan-wapres-9/",
+   "https://memoindonesia.co.id/berita/44876/sidang-wapres-pengganti-gibran-tetap-9-desember-mpr-kaji-catatan-mahfud/",
+   "https://ifakta.co/2026/11/21/panitia-ad-hoc-mpr-bahas-kritik-mahfud-jadwal-pemilihan-wapres/",
+   "https://journalarta.com/news/2026/11/21/mpr-kaji-catatan-mahfud-sidang-wapres-9-desember/",
+   "https://www.beritasatu.com/nasional/3042599/mpr-enggan-tanggapi-mahfud-md-soal-tenggat-waktu-pengajuan-cawapres"
+  ]
+ },
+ {
+  "lines": "l8",
+  "claim": "Wakil Ketua MPR / head of the MPR Panitia Ad Hoc Bambang Wuryanto: the two names will 'kemungkinan terbesar' be handed over Wed 25 Nov; time not set.",
+  "numbers": "25 Nov",
+  "sensitivity": "high",
+  "sources": [
+   "https://www.cnnindonesia.com/nasional/20261120222219-32-1429712/golkar-pks-sebut-prabowo-akan-kumpulkan-ketum-parpol-soal-cawapres",
+   "https://pontianakpost.jawapos.com/nasional/2611210062/wakil-ketua-mpr-sebut-presiden-prabowo-beri-sinyal-serahkan-dua-nama-calon-wapres-rabu-depan",
+   "https://m.antaranews.com/amp/video/5866059/mpr-sebut-presiden-prabowo-jadwalkan-serahkan-dua-nama-cawapres"
+  ]
+ },
+ {
+  "lines": "caption",
+  "claim": "Golkar's Ahmad Doli Kurnia and PKS president Almuzzammil Yusuf (20 Nov): Prabowo is expected to gather coalition party chairs this weekend before naming candidates; no date/time/place confirmed.",
+  "numbers": "21-22 Nov (perkiraan)",
+  "sensitivity": "high",
+  "sources": [
+   "https://www.cnnindonesia.com/nasional/20261120222219-32-1429712/golkar-pks-sebut-prabowo-akan-kumpulkan-ketum-parpol-soal-cawapres"
+  ]
+ },
+ {
+  "lines": "caption, l7",
+  "claim": "UUD 1945 Pasal 8 ayat 2: in a VP vacancy, the MPR holds a sitting within 60 days to elect a VP from two candidates proposed by the President. 60 days from 12 Nov 2026 = 11 Jan 2027.",
+  "numbers": "60 hari · 11 Jan 2027",
+  "sensitivity": "high",
+  "sources": [
+   "https://www.liputan6.com/news/read/8333949/ketua-mpr-sejak-hari-ini-jabatan-wapres-alami-kekosongan",
+   "https://news.detik.com/berita/d-8761430/catatan-mahfud-md-soal-waktu-sidang-mpr-pemilihan-wakil-presiden",
+   "https://garuda.tv/mpr-respons-mahfud-md-jadwal-pemilihan-wapres-9/",
+   "https://memoindonesia.co.id/berita/44876/sidang-wapres-pengganti-gibran-tetap-9-desember-mpr-kaji-catatan-mahfud/"
+  ]
+ },
+ {
+  "lines": "caption",
+  "claim": "Panitia Ad Hoc MPR meets Mon 23 Nov (Sekretaris Abidin Fikri).",
+  "numbers": "23 Nov",
+  "sensitivity": "high",
+  "sources": [
+   "https://memoindonesia.co.id/berita/44876/sidang-wapres-pengganti-gibran-tetap-9-desember-mpr-kaji-catatan-mahfud/",
+   "https://ifakta.co/2026/11/21/panitia-ad-hoc-mpr-bahas-kritik-mahfud-jadwal-pemilihan-wapres/"
+  ]
+ }
+]
