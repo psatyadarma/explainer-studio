@@ -1,6 +1,6 @@
 # Handoff: Rangkumin Dong (read this first in every session)
 
-Updated: Fri 20 Nov 2026, 19:30 WITA. Each daily run is a fresh session with no memory of earlier chats. **This file plus the playbook are the memory.** Whenever something here changes, update it, mirror it to the Video project (`claude/rangkumindong-handoff.md`), commit and push.
+Updated: Sat 21 Nov 2026, 19:30 WITA. Each daily run is a fresh session with no memory of earlier chats. **This file plus the playbook are the memory.** Whenever something here changes, update it, mirror it to the Video project (`claude/rangkumindong-handoff.md`), commit and push.
 
 ## Standing rules from the user
 - **Decision 8 Nov (user: "I follow your decisions", on the W44/W45 recs):** voice locked to **Pratama**; **no B version from 9 Nov** (brand.json schedule hook_b = ""; skip hook-critic PICK B, variant.py, B QA and `post.py --trial`); hook styles keep rotating on A only (schedule `hook`). This overrides the daily task prompt's B steps until Trial Reels work again.
@@ -58,6 +58,7 @@ Updated: Fri 20 Nov 2026, 19:30 WITA. Each daily run is a fresh session with no 
 - #31 Penipuan online "Rp104 T, kamu salah satunya?" (user picked ⭐ + early OK; planned person_collage → story fallback, word subs, 86.8 s) live 18 Nov 19:00 (IG https://www.instagram.com/reel/Df4WTrajFwC/ · YT https://www.youtube.com/watch?v=QiqWwm0keiQ). New storyline online-scams. Udara Jakarta 14 h IG 17.5% (weak).
 - #32 Kepuasan Prabowo 43→62% "kata Bakom" (user picked ⭐ + early OK; story hook, short 42.7 s, block subs, name tags) live 19 Nov 19:00 (IG https://www.instagram.com/reel/Df67GxJEddo/ · YT https://www.youtube.com/watch?v=kKBKooHGqg8).
 - #33 Google hapus 23 ribu+ kanal YouTube, Komdigi minta penjelasan (default pick 14:00; user "Ok to post"; story, word subs, 89.5 s) live 20 Nov 19:00 (IG https://www.instagram.com/reel/Df9f6C5DYGu/ · YT https://www.youtube.com/watch?v=RY5MnQHJSzQ). Weekly #5 (14–20 Nov, 6:42) default-posted, live Sat 21 Nov 08:00 (IG https://www.instagram.com/reel/Df-5LAmDq2i/ · YT https://www.youtube.com/watch?v=4X4v900ZIDE). Note: general-purpose producer agents may lack the Agent tool → run chapter-builders/editor from the coordinator, or always add an independent editor pass.
+- #34 Wapres pengganti, Mahfud 'hari kerja' (gibran PART 5; chapter cut weekly #5 ch1; default pick 14:00, user "Ok to post" ~18:44; story, block subs, 76.4 s) live 21 Nov 19:00 (IG https://www.instagram.com/reel/DgAEyHLjzFd/ · YT https://www.youtube.com/watch?v=URGLx-kvVYg). Weekly #5 live 21 Nov 08:00 (IG Df-5LAmDq2i, YT 4X4v900ZIDE).
 - Setup: `pip install soundfile` was missing on 13 Nov (weekly voice failed once) — install it at session start.
 - **Git:** run `git status` first; if HEAD is detached, `git checkout -B main origin/main` before committing (7 Nov morning commits had to be rebased).
 - **Container restarts kill background jobs:** run renders in the foreground (≤9 min per command, 2 chapters in parallel max).
@@ -76,6 +77,7 @@ Updated: Fri 20 Nov 2026, 19:30 WITA. Each daily run is a fresh session with no 
 - Sat 24 Oct 09:00 WITA (in the original chat): TikTok warm-up done. The user connects TikTok to Upload-Post profile "Rangkumindong"; then add "tiktok" to `brand.json` posting.platforms and stop the manual TikTok sends.
 
 ## Open items
+- 21 Nov: the 18:40 default post was denied again by the platform safety check without a live yes (same rule as 29-30 Oct); posted after the user's "Ok to post" ~18:44.
 - The 14:00 default-pick `send_later` can't be deleted by the session (auto-mode classifier denies `delete_trigger`): harmless, ignore it when it fires.
 - **Posting needs a live yes each day (found 29–30 Oct):** the daily task already has permission_mode "auto"; the block is the platform's safety check, which needs the user's yes in that day's chat (saved standing rules don't count; neither of us can switch it off). Ask in the morning message for "OK post hari ini" — an early yes works (30 Oct). If no yes by 18:40, try once; if denied, hold and tell the user.
 - **Back pocket (user decides later):** (1) copying finished videos to the laptop via GitHub release files picked up by the 20:07 task; (2) DONE 22 Oct: public portfolio repo github.com/psatyadarma/ai-video-studio (engine, style kit, sanitized agents, examples, case-study playbook; never keys, email or knowledge base). Update it only when the user asks.

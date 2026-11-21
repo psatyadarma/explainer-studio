@@ -1894,5 +1894,53 @@
 "shares": 0,
 "saves": null,
 "follows": 0
+},
+{
+"date": "2026-11-21",
+"folder": "videos/2026-11-18-penipuan-online-104t",
+"platform": "instagram",
+"hours": 68,
+"views": 200,
+"avg_watch_pct": 19.0,
+"hold_3s_pct": null,
+"shares": 8,
+"saves": 4,
+"follows": null
+},
+{
+"date": "2026-11-21",
+"folder": "videos/2026-11-18-penipuan-online-104t",
+"platform": "youtube",
+"hours": 68,
+"views": 660,
+"avg_watch_pct": null,
+"hold_3s_pct": null,
+"shares": null,
+"saves": null,
+"follows": null
+},
+{
+"date": "2026-11-21",
+"folder": "videos/2026-11-20-google-hapus-kanal-youtube-komdigi",
+"platform": "instagram",
+"hours": 20,
+"views": 38,
+"avg_watch_pct": 19.8,
+"hold_3s_pct": null,
+"shares": 0,
+"saves": 0,
+"follows": null
+},
+{
+"date": "2026-11-21",
+"folder": "videos/2026-11-20-google-hapus-kanal-youtube-komdigi",
+"platform": "youtube",
+"hours": 20,
+"views": 197,
+"avg_watch_pct": null,
+"hold_3s_pct": null,
+"shares": null,
+"saves": null,
+"follows": null
 }
 ]

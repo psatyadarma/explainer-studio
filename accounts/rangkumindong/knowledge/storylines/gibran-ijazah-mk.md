@@ -37,3 +37,10 @@ Status: **ACTIVE** · Category: politics/law · Sensitivity: **HIGH** (sitting V
 - 2026-11-13 PART 3 (weekly #4 ch01 covers it): MPR rapat gabungan 13 Nov 14.00 WIB held, no official outcome by Friday afternoon; Muzani: President has 14 days after receiving the MPR's letter to submit 2 names.
 
 - 2026-11-15: Minggu Depan video (IG Dfwn63lkQNE · YT GjXzveWkQxU) led with the ~18 Nov deadline for two VP names to MPR (Muzani / aturan MPR); paripurna 2 Des (IDN Times, Kompas.com). Prabowo gave coalition parties a week to prepare names; discussed after ASEAN/APEC trips. Next: watch 18 Nov whether names arrive.
+
+- 2026-11-21 PART 5 (videos/2026-11-21-mahfud-wapres-hari-kerja, IG https://www.instagram.com/reel/DgAEyHLjzFd/ · YT https://www.youtube.com/watch?v=URGLx-kvVYg, live 19:00 WITA, 76.4 s, chapter cut weekly #5 ch1, story hook "Misalnya Pak Budi baca: pemilihan wapres 'bisa tak sah'."). Content: Mahfud MD says the 14 days for Prabowo's 2 names are hari kerja (UU MD3 / Tatib MPR), so the deadline of 19 Nov has passed and he suggests postponing; MPR counts to 25 Nov. Panitia Ad Hoc (Ahmad Irawan), Sat 21 Nov: "kami pelajari", schedule unchanged. Weekly #5 (live 21 Nov 08:00, IG Df-5LAmDq2i, YT 4X4v900ZIDE) also covers it.
+
+### PART 5 next steps
+- Panitia Ad Hoc meets Mon 23 Nov: watch whether it adopts the hari-kerja reading or keeps the schedule.
+- Prabowo's 2 names expected Wed 25 Nov (MPR deadline); sitting 9 Des (unchanged as of 21 Nov).
+- Possible PART 6: outcome of the 23 Nov meeting / the 25 Nov names. Keep neutral (kata Mahfud vs kata MPR), no ruling on who is right.
