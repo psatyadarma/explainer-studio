@@ -1,0 +1,146 @@
+[
+  {
+    "claim": "Danantara is scheduled to release its first public financial report (fiscal 2025) on Monday 23 Nov 2026; COO Dony Oskaria said so; BPK audit finished",
+    "numbers": "23 Nov 2026 · FY2025",
+    "sources": [
+      "https://katadata.co.id/finansial/keuangan/6af51dd359706/bos-danantara-jadwalkan-rilis-laporan-keuangan-2025-pada-23-november",
+      "https://www.cnbcindonesia.com/market/20261115143832-17-785355/perhatian-danantara-bakal-rilis-laporan-keuangan-23-november"
+    ],
+    "lines": [
+      "d1",
+      "d2"
+    ],
+    "note": "Tentative ('dijadwalkan'). CNBC page could not be re-fetched today (permission timeout); Katadata quotes Dony: 'Laporan keuangannya 23 November.' Re-check Monday morning before posting."
+  },
+  {
+    "claim": "The release date already slipped twice: from end-June 2026, then October 2026",
+    "numbers": "Juni → Oktober → 23 Nov",
+    "sources": [
+      "https://katadata.co.id/finansial/keuangan/6af51dd359706/bos-danantara-jadwalkan-rilis-laporan-keuangan-2025-pada-23-november"
+    ],
+    "lines": [
+      "d3"
+    ],
+    "note": "Katadata; needs a second source (Kontan/Antara 'bulan ini' pieces are in the search results)."
+  },
+  {
+    "claim": "Listyo Sigit's KKEP ethics hearing is reported for Tuesday 24 Nov 2026 (Bangkapos); Polri officially only said 'pekan depan' and the panel is still being prepared by Propam",
+    "numbers": "24 Nov (reported, single source)",
+    "sources": [
+      "https://bangka.tribunnews.com/video/1703303/desakan-listyo-sigit-tampil-24-november-kapolri-suyudi-disebut-bakal-pimpin-sidang-etik-video",
+      "https://www.liputan6.com/news/read/8337394/polri-bicara-susunan-hakim-sidang-etik-listyo",
+      "https://www.detik.com/jabar/berita/d-8756734/jadwal-sidang-etik-listyo-sigit-prabowo"
+    ],
+    "lines": [
+      "h1",
+      "l1",
+      "l2"
+    ],
+    "note": "ONE source for the date: always 'dilaporkan' / 'menurut Bangkapos'. Liputan6 18 Nov: Karopenmas Trunoyudo 'akan dilaksanakan pada pekan depan'; detikJabar 17 Nov: Irjen Isir, day to be announced."
+  },
+  {
+    "claim": "Two other generals implicated in the case (Irjen Ahrie Sonta, KKEP 10 Nov; Irjen Eko Hadi Santoso, KKEP 17 Nov) were given PTDH; both appealed",
+    "numbers": "2 jenderal · PTDH · 2 banding",
+    "sources": [
+      "https://news.detik.com/berita/d-8757575/digelar-pekan-depan-siapa-yang-akan-pimpin-sidang-etik-listyo-sigit",
+      "https://www.liputan6.com/news/read/8337394/polri-bicara-susunan-hakim-sidang-etik-listyo"
+    ],
+    "lines": [
+      "l3"
+    ],
+    "note": "Appeal for both comes from the events DB (E1012) citing Liputan6/Bangkapos; fact-checker please confirm 'banding' for both. Ahrie Sonta is described in E0983 as a 'related case' — wording 'terseret kasus ini' chosen to cover that."
+  },
+  {
+    "claim": "Listyo Sigit is a named suspect (tersangka) in the alleged illegal wiretapping case; no ethics ruling yet",
+    "numbers": "",
+    "sources": [
+      "https://news.detik.com/berita/d-8757575/digelar-pekan-depan-siapa-yang-akan-pimpin-sidang-etik-listyo-sigit",
+      "https://www.cnnindonesia.com/nasional/20261119085323-12-1428838/aturan-baru-sidang-etik-listyo-bisa-diadili-oleh-pangkat-lebih-rendah"
+    ],
+    "lines": [
+      "l4"
+    ]
+  },
+  {
+    "claim": "The MPR plenary to elect a new VP was reported moved from 2 Dec to Wednesday 9 Dec 2026 (speaker not attributed)",
+    "numbers": "9 Des 2026",
+    "sources": [
+      "https://purwasuka.viva.co.id/nasional/22349-dukungan-dasco-jadi-cawapres-menguat-prabowo-kini-dihadapkan-tenggat-25-november",
+      "https://news.detik.com/berita/d-8755839/sidang-mpr-pemilihan-wapres-mundur-sepekan-ini-pertimbangannya"
+    ],
+    "lines": [
+      "w2"
+    ],
+    "note": "Fact-check 22 Nov: 'Ketua MPR' as speaker unverified (detik blocked), so wording is 'dilaporkan'. Viva confirms the move to 9 Des."
+  },
+  {
+    "claim": "MPR rules require the President's two names at least 14 days before the plenary, so the deadline is about Wed 25 Nov (as Viva writes)",
+    "numbers": "2 nama · 14 hari · ~25 Nov",
+    "sources": [
+      "https://purwasuka.viva.co.id/nasional/22349-dukungan-dasco-jadi-cawapres-menguat-prabowo-kini-dihadapkan-tenggat-25-november",
+      "https://afu.id/nasional/prabowo-beri-parpol-sepekan-dua-nama-cawapres-kejar-tenggat-mpr-18-november"
+    ],
+    "lines": [
+      "w3",
+      "w4"
+    ],
+    "note": "25 Nov is a calculation (Viva cites 'aturan yang berlaku'; Peraturan MPR 1/2024 Art. 136(1) per afu.id/Okezone), not an MPR-stated date: hence 'sekitar' + 'tulis Viva'. Mahfud MD disputes the 9 Des count (E0999) — not in script."
+  },
+  {
+    "claim": "UMSP 2027 is set on 26 Nov 2026",
+    "numbers": "26 Nov",
+    "sources": [
+      "https://finance.detik.com/berita-ekonomi-bisnis/d-8755278/ump-2027-diumumkan-21-november"
+    ],
+    "lines": [
+      "k1"
+    ],
+    "note": "detikFinance: 'pada tanggal 26 November' (government, UU 27/2026 Pasal 137-139). Second source wanted."
+  },
+  {
+    "claim": "UMK 2027 must be set by 25 Nov 2026 (Menaker Yassierli); UMK and UMSK follow the local governor's policy; UMSK by 30 Nov (five days after UMK)",
+    "numbers": "25 Nov · 30 Nov",
+    "sources": [
+      "https://finance.detik.com/berita-ekonomi-bisnis/d-8755278/ump-2027-diumumkan-21-november",
+      "https://www.cnbcindonesia.com/news/20261117133415-4-785953/menaker-penetapan-ump-2027-paling-lambat-21-november-umk-25-november",
+      "https://www.cnnindonesia.com/ekonomi/20261117143618-92-1428130/menaker-pastikan-penetapan-ump-2027-paling-telat-21-november-2027"
+    ],
+    "lines": [
+      "p1",
+      "p2",
+      "p5"
+    ]
+  },
+  {
+    "claim": "Where a UMK exists, it is the minimum (floor) wage in that regency/city",
+    "numbers": "",
+    "sources": [
+      "https://finance.detik.com/berita-ekonomi-bisnis/d-8755278/ump-2027-diumumkan-21-november"
+    ],
+    "lines": [
+      "p3"
+    ],
+    "note": "General legal meaning of upah minimum; no number."
+  },
+  {
+    "claim": "Jakarta's UMP 2027 was set at Rp6,136,941, up Rp407,065 (+7.1%) from Rp5,729,876",
+    "numbers": "Rp6.136.941 · +7,1%",
+    "sources": [
+      "https://www.liputan6.com/news/read/8338940/pramono-ungkap-alasan-tetapkan-ump-dki-2027-rp-613-juta",
+      "https://www.viva.co.id/berita/metro/1945069-resmi-pramono-anung-ketok-ump-jakarta-2027-jadi-rp61-juta-naik-rp407-ribu"
+    ],
+    "lines": [
+      "p4"
+    ],
+    "note": "407,065 / 5,729,876 = 7.10%."
+  },
+  {
+    "claim": "Five agendas across four days (Danantara 23, Listyo 24, VP names ~25, UMK 25, UMSP 26)",
+    "numbers": "4 hari · 5 agenda",
+    "sources": [],
+    "lines": [
+      "i1"
+    ],
+    "note": "Count of the items above; US Thanksgiving market holiday (26 Nov) deliberately left out."
+  }
+]

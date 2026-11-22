@@ -1,0 +1,164 @@
+{
+  "direction": "[clear, quick, neutral, no advice]",
+  "voice": "male:Pratama",
+  "format": "minggu_depan",
+  "hook_style": "question_reveal",
+  "subs": "word",
+  "storytelling": false,
+  "storyline": "minggu-depan; listyo-sigit-penyadapan; gibran-ijazah-mk; ump-2027",
+  "part": null,
+  "disclaimer": "Bukan ajakan jual/beli saham",
+  "title_card_a": "UPAH KOTAMU / TANGGAL BERAPA?",
+  "reveal": "25 (Rabu 25 Nov 2026, batas penetapan UMK 2027)",
+  "lines": [
+    {
+      "id": "h1",
+      "tag": "[curious, quick]",
+      "text": "Upah minimum kotamu diputus minggu depan. Tanggal berapa?",
+      "say": "Upah minimum kotamu diputus minggu depan. Tanggal berapa?"
+    },
+    {
+      "id": "h2",
+      "tag": "[leaning in]",
+      "text": "Jawabannya di akhir. Sebelum itu, ada sidang Listyo Sigit.",
+      "say": "Jawabannya di akhir. Sebelum itu, ada sidang Listyo Sigit."
+    },
+    {
+      "id": "rd",
+      "tagline": true,
+      "text": "Rangkumin dong!"
+    },
+    {
+      "id": "i1",
+      "tag": "[upbeat, quick]",
+      "text": "Empat hari, lima agenda.",
+      "say": "Empat hari, lima agenda."
+    },
+    {
+      "id": "d1",
+      "tag": "[matter-of-fact]",
+      "text": "Senin, 23 November. Danantara dijadwalkan rilis laporan keuangan pertamanya.",
+      "say": "Senin, dua puluh tiga November. Danantara dijadwalkan rilis laporan keuangan pertamanya."
+    },
+    {
+      "id": "d2",
+      "tag": "[explaining]",
+      "text": "Kata COO Dony Oskaria, audit BPK sudah selesai.",
+      "say": "Kata, Si O O, Dony Oskaria, audit, Be Pe Ka, sudah selesai."
+    },
+    {
+      "id": "d3",
+      "tag": "[skeptical, light]",
+      "text": "Tapi sudah mundur dua kali: dari Juni, lalu Oktober.",
+      "say": "Tapi sudah mundur dua kali: dari Juni, lalu Oktober."
+    },
+    {
+      "id": "l1",
+      "tag": "[serious, neutral]",
+      "text": "Selasa, 24 November. Sidang etik Listyo, menurut Bangkapos.",
+      "say": "Selasa, dua puluh empat November. Sidang etik Listyo, menurut Bangkapos."
+    },
+    {
+      "id": "l2",
+      "tag": "[neutral]",
+      "text": "Polri resminya baru bilang \"pekan depan\".",
+      "say": "Polri resminya baru bilang, pekan depan."
+    },
+    {
+      "id": "l3",
+      "tag": "[serious]",
+      "text": "Dua jenderal lain yang terseret kasus ini sudah diputus PTDH. Keduanya banding.",
+      "say": "Dua jenderal lain yang terseret kasus ini sudah diputus, Pe Te De Ha. Keduanya banding."
+    },
+    {
+      "id": "l4",
+      "tag": "[calm, neutral]",
+      "text": "Listyo berstatus tersangka. Putusan etiknya belum ada.",
+      "say": "Listyo berstatus tersangka. Putusan etiknya belum ada."
+    },
+    {
+      "id": "w1",
+      "tag": "[shift, quick]",
+      "text": "Rabu, 25 November.",
+      "say": "Rabu, dua puluh lima November."
+    },
+    {
+      "id": "w2",
+      "tag": "[explaining]",
+      "text": "Pemilihan wapres di MPR dilaporkan mundur ke 9 Desember.",
+      "say": "Pemilihan wapres di, Em Pe Er, dilaporkan mundur ke sembilan Desember."
+    },
+    {
+      "id": "w3",
+      "tag": "[explaining]",
+      "text": "Dua nama dari Presiden harus masuk 14 hari sebelumnya.",
+      "say": "Dua nama dari Presiden harus masuk empat belas hari sebelumnya."
+    },
+    {
+      "id": "w4",
+      "tag": "[matter-of-fact]",
+      "text": "Jadi tenggatnya sekitar Rabu ini, tulis Viva.",
+      "say": "Jadi tenggatnya sekitar Rabu ini, tulis Viva."
+    },
+    {
+      "id": "k1",
+      "tag": "[quick]",
+      "text": "Kamis, 26 November: upah minimum sektoral provinsi, UMSP.",
+      "say": "Kamis, dua puluh enam November: upah minimum sektoral provinsi, U Em Es Pe."
+    },
+    {
+      "id": "t1",
+      "tag": "[leaning in, slower]",
+      "text": "Tapi ada satu yang saya lewati di hari Rabu.",
+      "say": "Tapi... ada satu yang saya lewati di hari Rabu."
+    },
+    {
+      "id": "p1",
+      "tag": "[payoff, emphatic]",
+      "text": "Jawabannya: 25.",
+      "say": "Jawabannya: dua puluh lima."
+    },
+    {
+      "id": "p2",
+      "tag": "[explaining]",
+      "text": "Batas penetapan UMK: upah minimum kabupaten dan kota.",
+      "say": "Batas penetapan, U Em Ka: upah minimum kabupaten dan kota."
+    },
+    {
+      "id": "p3",
+      "tag": "[explaining]",
+      "text": "Di daerah ber-UMK, angka itu batas bawah gaji.",
+      "say": "Di daerah ber, U Em Ka, angka itu batas bawah gaji."
+    },
+    {
+      "id": "p4",
+      "tag": "[matter-of-fact]",
+      "text": "UMP Jakarta sudah keluar: Rp6,1 juta, naik 7,1%.",
+      "say": "U Em Pe Jakarta sudah keluar: enam koma satu juta, naik tujuh koma satu persen."
+    },
+    {
+      "id": "p5",
+      "tag": "[reassuring]",
+      "text": "UMK ikut kebijakan gubernur. UMSK menyusul, paling lambat 30 November.",
+      "say": "U Em Ka ikut kebijakan gubernur. U Em Es Ka menyusul, paling lambat tiga puluh November."
+    },
+    {
+      "id": "cta",
+      "tag": "[playful, asking the viewer]",
+      "text": "Mana yang paling ngaruh ke kamu? Komen alasannya!",
+      "say": "Mana yang paling ngaruh ke kamu? Komen alasannya!"
+    },
+    {
+      "id": "end",
+      "tag": "[friendly, upbeat]",
+      "text": "Follow biar nggak ketinggalan!",
+      "say": "Follow biar nggak ketinggalan!"
+    }
+  ],
+  "tail": 0.9,
+  "end_card": {
+    "text": "Follow Rangkumin Dong",
+    "spoken": true
+  },
+  "hook_pick": "hooks-review.md PICK A (candidate 2)"
+}
