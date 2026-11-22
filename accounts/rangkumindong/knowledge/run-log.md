@@ -218,4 +218,4 @@ History moved out of HANDOFF.md (22 Oct) so fresh sessions read less. Append one
 - brand.json schedule had ended 21 Nov → added 22 Nov row; analyst W47 set 23–29 Nov block. Sweeps 5/9/8/8 (+25 merged). Ideas ⭐ Minggu Depan 8/12 (rupiah 9/12 at #2); light FC PASS.
 - No pick by 14:00 → default ⭐. Hook-critic PICK A "Upah minimum kotamu diputus minggu depan. Tanggal berapa?". Full FC 1 FIX (minggu ini→depan) + "Ketua MPR" dropped (unverified). Producer 82.4 s (two-part render), Yassierli cut-out, Dony name tag; QA 3 rounds → PASS.
 - health.py IG-missing WARN was a false alarm → fixed (18–36 h / 56–84 h windows). W47: named person + hard claim hook drives reach; weekly 7-min weak on IG (ask: YT-only or 3-min IG cut).
-- 18:00 re-check: no date changes. 18:40 default post **denied** again (no live yes) → held, user notified (push).
+- 18:00 re-check: no date changes. 18:40 default post denied (no live yes) → held; user "Ok to post" 19:51 → posted ~19:55 (IG DgCveoNEotu, YT Wo2nWm-aQGo).

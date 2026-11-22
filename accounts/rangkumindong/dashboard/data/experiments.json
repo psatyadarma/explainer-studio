@@ -281,198 +281,205 @@
 },
 {
 "date": "2026-11-23",
-"voice": "Cahaya",
+"voice": "Pratama",
 "slot": "19:00",
-"hook": "question",
-"cycle": 2
+"hook": "person collage",
+"format": "short",
+"cycle": 1
 },
 {
 "date": "2026-11-24",
 "voice": "Pratama",
-"slot": "12:30",
-"hook": "shock number",
-"cycle": 2
+"slot": "19:00",
+"hook": "myth",
+"format": "short",
+"cycle": 1
 },
 {
 "date": "2026-11-25",
-"voice": "Cahaya",
-"slot": "12:30",
-"hook": "shock number",
-"cycle": 2
+"voice": "Pratama",
+"slot": "19:00",
+"hook": "person collage",
+"format": "standard",
+"cycle": 1
 },
 {
 "date": "2026-11-26",
 "voice": "Pratama",
 "slot": "19:00",
-"hook": "question",
-"cycle": 2
+"hook": "question reveal",
+"format": "standard",
+"cycle": 1
 },
 {
 "date": "2026-11-27",
-"voice": "Cahaya",
+"voice": "Pratama",
 "slot": "19:00",
-"hook": "question reveal",
-"cycle": 2
+"hook": "shock number",
+"format": "short",
+"cycle": 1
 },
 {
 "date": "2026-11-28",
-"voice": "Cahaya",
+"voice": "Pratama",
 "slot": "19:00",
-"hook": "kamu stakes",
-"cycle": 2
+"hook": "story",
+"format": "chapter cut",
+"cycle": 1
 },
 {
 "date": "2026-11-29",
-"voice": "Cahaya",
+"voice": "Pratama",
 "slot": "19:00",
 "hook": "question reveal",
-"cycle": 2
+"format": "minggu depan",
+"cycle": 1
 },
 {
 "date": "2026-11-30",
 "voice": "Cahaya",
 "slot": "19:00",
-"hook": "shock number",
+"hook": "question",
 "cycle": 2
 },
 {
 "date": "2026-12-01",
-"voice": "Cahaya",
-"slot": "19:00",
-"hook": "question reveal",
+"voice": "Pratama",
+"slot": "12:30",
+"hook": "shock number",
 "cycle": 2
 },
 {
 "date": "2026-12-02",
 "voice": "Cahaya",
-"slot": "19:00",
+"slot": "12:30",
 "hook": "shock number",
 "cycle": 2
 },
 {
 "date": "2026-12-03",
+"voice": "Pratama",
+"slot": "19:00",
+"hook": "question",
+"cycle": 2
+},
+{
+"date": "2026-12-04",
 "voice": "Cahaya",
 "slot": "19:00",
 "hook": "question reveal",
 "cycle": 2
 },
 {
-"date": "2026-12-04",
-"voice": "Pratama",
-"slot": "19:00",
-"hook": "shock number",
-"cycle": 2
-},
-{
 "date": "2026-12-05",
-"voice": "Pratama",
-"slot": "19:00",
-"hook": "question reveal",
-"cycle": 2
-},
-{
-"date": "2026-12-06",
-"voice": "Pratama",
+"voice": "Cahaya",
 "slot": "19:00",
 "hook": "kamu stakes",
 "cycle": 2
 },
 {
+"date": "2026-12-06",
+"voice": "Cahaya",
+"slot": "19:00",
+"hook": "question reveal",
+"cycle": 2
+},
+{
 "date": "2026-12-07",
-"voice": "Pratama",
+"voice": "Cahaya",
 "slot": "19:00",
 "hook": "shock number",
 "cycle": 2
 },
 {
 "date": "2026-12-08",
-"voice": "Pratama",
+"voice": "Cahaya",
 "slot": "19:00",
-"hook": "myth",
+"hook": "question reveal",
 "cycle": 2
 },
 {
 "date": "2026-12-09",
-"voice": "Pratama",
-"slot": "19:00",
-"hook": "kamu stakes",
-"cycle": 2
-},
-{
-"date": "2026-12-10",
-"voice": "Pratama",
-"slot": "19:00",
-"hook": "myth",
-"cycle": 2
-},
-{
-"date": "2026-12-11",
-"voice": "Cahaya",
-"slot": "19:00",
-"hook": "person collage",
-"cycle": 2
-},
-{
-"date": "2026-12-12",
 "voice": "Cahaya",
 "slot": "19:00",
 "hook": "shock number",
 "cycle": 2
 },
 {
+"date": "2026-12-10",
+"voice": "Cahaya",
+"slot": "19:00",
+"hook": "question reveal",
+"cycle": 2
+},
+{
+"date": "2026-12-11",
+"voice": "Pratama",
+"slot": "19:00",
+"hook": "shock number",
+"cycle": 2
+},
+{
+"date": "2026-12-12",
+"voice": "Pratama",
+"slot": "19:00",
+"hook": "question reveal",
+"cycle": 2
+},
+{
 "date": "2026-12-13",
-"voice": "Cahaya",
-"slot": "19:00",
-"hook": "myth",
-"cycle": 2
-},
-{
-"date": "2026-12-14",
-"voice": "Cahaya",
-"slot": "19:00",
-"hook": "person collage",
-"cycle": 2
-},
-{
-"date": "2026-12-15",
-"voice": "Cahaya",
+"voice": "Pratama",
 "slot": "19:00",
 "hook": "kamu stakes",
 "cycle": 2
 },
 {
-"date": "2026-12-16",
-"voice": "Cahaya",
+"date": "2026-12-14",
+"voice": "Pratama",
+"slot": "19:00",
+"hook": "shock number",
+"cycle": 2
+},
+{
+"date": "2026-12-15",
+"voice": "Pratama",
 "slot": "19:00",
 "hook": "myth",
 "cycle": 2
 },
 {
-"date": "2026-12-17",
-"voice": "Cahaya",
+"date": "2026-12-16",
+"voice": "Pratama",
 "slot": "19:00",
-"hook": "person collage",
+"hook": "kamu stakes",
+"cycle": 2
+},
+{
+"date": "2026-12-17",
+"voice": "Pratama",
+"slot": "19:00",
+"hook": "myth",
 "cycle": 2
 },
 {
 "date": "2026-12-18",
 "voice": "Cahaya",
 "slot": "19:00",
-"hook": "kamu stakes",
+"hook": "person collage",
 "cycle": 2
 },
 {
 "date": "2026-12-19",
 "voice": "Cahaya",
 "slot": "19:00",
-"hook": "myth",
+"hook": "shock number",
 "cycle": 2
 },
 {
 "date": "2026-12-20",
 "voice": "Cahaya",
 "slot": "19:00",
-"hook": "story",
+"hook": "myth",
 "cycle": 2
 },
 {
@@ -486,39 +493,137 @@
 "date": "2026-12-22",
 "voice": "Cahaya",
 "slot": "19:00",
-"hook": "story",
+"hook": "kamu stakes",
 "cycle": 2
 },
 {
 "date": "2026-12-23",
 "voice": "Cahaya",
 "slot": "19:00",
-"hook": "person collage",
+"hook": "myth",
 "cycle": 2
 },
 {
 "date": "2026-12-24",
 "voice": "Cahaya",
 "slot": "19:00",
-"hook": "story",
+"hook": "person collage",
 "cycle": 2
 },
 {
 "date": "2026-12-25",
 "voice": "Cahaya",
 "slot": "19:00",
-"hook": "story",
+"hook": "kamu stakes",
 "cycle": 2
 },
 {
 "date": "2026-12-26",
 "voice": "Cahaya",
 "slot": "19:00",
-"hook": "story",
+"hook": "myth",
 "cycle": 2
 },
 {
 "date": "2026-12-27",
+"voice": "Cahaya",
+"slot": "19:00",
+"hook": "story",
+"cycle": 2
+},
+{
+"date": "2026-12-28",
+"voice": "Cahaya",
+"slot": "19:00",
+"hook": "person collage",
+"cycle": 2
+},
+{
+"date": "2026-12-29",
+"voice": "Cahaya",
+"slot": "19:00",
+"hook": "story",
+"cycle": 2
+},
+{
+"date": "2026-12-30",
+"voice": "Cahaya",
+"slot": "19:00",
+"hook": "person collage",
+"cycle": 2
+},
+{
+"date": "2026-12-31",
+"voice": "Cahaya",
+"slot": "19:00",
+"hook": "story",
+"cycle": 2
+},
+{
+"date": "2027-01-01",
+"voice": "Cahaya",
+"slot": "19:00",
+"hook": "story",
+"cycle": 2
+},
+{
+"date": "2027-01-02",
+"voice": "Cahaya",
+"slot": "19:00",
+"hook": "story",
+"cycle": 2
+},
+{
+"date": "2027-01-03",
+"voice": "Cahaya",
+"slot": "19:00",
+"hook": "question reveal",
+"cycle": 2
+},
+{
+"date": "2027-01-04",
+"voice": "Cahaya",
+"slot": "19:00",
+"hook": "person collage",
+"cycle": 2
+},
+{
+"date": "2027-01-05",
+"voice": "Cahaya",
+"slot": "19:00",
+"hook": "myth",
+"cycle": 2
+},
+{
+"date": "2027-01-06",
+"voice": "Cahaya",
+"slot": "19:00",
+"hook": "person collage",
+"cycle": 2
+},
+{
+"date": "2027-01-07",
+"voice": "Cahaya",
+"slot": "19:00",
+"hook": "question reveal",
+"cycle": 2
+},
+{
+"date": "2027-01-08",
+"voice": "Cahaya",
+"slot": "19:00",
+"hook": "shock number",
+"cycle": 2
+},
+{
+"date": "2027-01-09",
+"voice": "Cahaya",
+"slot": "19:00",
+"hook": "story",
+"cycle": 2
+},
+{
+"date": "2027-01-10",
 "voice": "Cahaya",
 "slot": "19:00",
 "hook": "question reveal",
