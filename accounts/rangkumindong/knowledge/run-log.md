@@ -213,3 +213,9 @@ History moved out of HANDOFF.md (22 Oct) so fresh sessions read less. Append one
 - No pick by 14:00 → default ⭐ #1. Full FC 4 fixes (14 hari kalender; Irawan Panitia Ad Hoc Sat reply; pasal numbers; "media sosial"). Producer 76.4 s, Mahfud PD photo via upload.wikimedia (commons.py hung/429); QA FIX (block subs in bottom safe zone → ≤3-line pages) → PASS.
 - Weekly #5 live 08:00 (IG Df-5LAmDq2i, YT 4X4v900ZIDE) from Friday's session. 18:00 news check: no change.
 - 18:40 default post **denied** (no live yes today) → held, user told. Analyst: penipuan 68 h IG 200 / 19.0%, YT 660; Google 20 h IG 38 / 19.8%, YT 197 (YT Analytics quota exhausted).
+
+## 2026-11-22 (Sun, Minggu Depan 23–29 Nov (default pick); Pratama, question_reveal, word subs, no B)
+- brand.json schedule had ended 21 Nov → added 22 Nov row; analyst W47 set 23–29 Nov block. Sweeps 5/9/8/8 (+25 merged). Ideas ⭐ Minggu Depan 8/12 (rupiah 9/12 at #2); light FC PASS.
+- No pick by 14:00 → default ⭐. Hook-critic PICK A "Upah minimum kotamu diputus minggu depan. Tanggal berapa?". Full FC 1 FIX (minggu ini→depan) + "Ketua MPR" dropped (unverified). Producer 82.4 s (two-part render), Yassierli cut-out, Dony name tag; QA 3 rounds → PASS.
+- health.py IG-missing WARN was a false alarm → fixed (18–36 h / 56–84 h windows). W47: named person + hard claim hook drives reach; weekly 7-min weak on IG (ask: YT-only or 3-min IG cut).
+- 18:00 re-check: no date changes. 18:40 default post **denied** again (no live yes) → held, user notified (push).
