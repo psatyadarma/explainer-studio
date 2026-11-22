@@ -1,0 +1,92 @@
+{
+  "area": "business",
+  "run_date": "2026-11-23",
+  "checked": ["cnbcindonesia.com/tech (31 headlines, 20-22 Nov)", "inet.detik.com/business (42 headlines)", "katadata/bisnis/cnnindonesia/dailysocial not fetched (WebFetch permission not granted); katadata and bisnis seen only via search results", "watch list found: Komdigi/Google YouTube, ojol/Green SM and new Komdigi rule meeting, AI/Nvidia/Anthropic, WhatsApp/iPhone cutoff, phone prices/RAM, scams", "storyline searches: google-youtube-channels, chip-ram-prices (search snippets only), ojol", "known-event window --brief"],
+  "events": [
+    {
+      "date": "2026-11-22",
+      "category": "TECH",
+      "event": "CNBC Indonesia reported that WhatsApp will stop working on certain older iPhone models at the end of November 2026.",
+      "key_numbers": "cutoff: end of November 2026 (model list and OS version not read, article blocked)",
+      "storyline": "",
+      "update_of": "E0991",
+      "status": "partial",
+      "sources": [{"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/tech/20261122063340-37-787254/siap-siap-akhir-november-whatsapp-tak-bisa-dipakai-di-iphone-ini"}],
+      "why_it_matters": "Owners of old iPhones lose WhatsApp within about a week unless they update or replace the phone.",
+      "signals": {"spreading": 1, "wallet": 2, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-21",
+      "category": "TECH",
+      "event": "CNBC Indonesia reported that YouTube changed how it counts views and examined the effect on Indonesian influencers.",
+      "key_numbers": "details of new counting rule not read (article blocked)",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [{"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/tech/20261121174018-37-787206/youtube-ubah-hitungan-view-apa-efeknya-ke-influencer"}],
+      "why_it_matters": "Creators' view counts and income from YouTube can change under the new counting.",
+      "signals": {"spreading": 0, "wallet": 1, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-20",
+      "category": "TECH",
+      "event": "Menkomdigi gathered ojol drivers ahead of a new regulation, while CNBC Indonesia separately reported eight ojol services have stopped operating in Indonesia.",
+      "key_numbers": "8 ojol services stopped (per CNBC headline) · Gojek 8% commission since Jul 2026 (Bisnis, 8 Oct)",
+      "storyline": "ojol-green-sm",
+      "update_of": "E1014",
+      "status": "partial",
+      "sources": [{"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/tech/20261120185638-37-787119/mau-ada-peraturan-baru-menkomdigi-kumpulkan-pengemudi-ojol-ucap-ini"}, {"label": "Bisnis", "url": "https://teknologi.bisnis.com/read/20261008/266/2010956/patuhi-perpres-ojol-gojek-telah-terapkan-potongan-komisi-8-sejak-juli-2026"}],
+      "why_it_matters": "A new Komdigi rule on food and goods delivery tariffs could change what ojol drivers earn and what customers pay.",
+      "signals": {"spreading": 1, "wallet": 2, "surprise": 1, "visual": 1, "fresh": 1, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-22",
+      "category": "TECH",
+      "event": "Detik Inet reported Google explained its YouTube spam rules after Komdigi scrutinised content moderation over the closure of YouTube channels linked to Indonesia.",
+      "key_numbers": "closure counts differ by source: 19,389 (CNBC/Komdigi) · 19,372 (Investortrust) · 10,134 (Bisnis, 18 Nov)",
+      "storyline": "google-youtube-channels",
+      "update_of": "E0989",
+      "status": "partial",
+      "sources": [{"label": "detikInet", "url": "https://inet.detik.com/law-and-policy/d-8764786/disorot-komdigi-soal-moderasi-konten-google-ungkap-aturan-spam-youtube"}, {"label": "Katadata", "url": "https://katadata.co.id/digital/teknologi/6aff0b0985c45/19-ribu-kanal-youtube-pro-pemerintah-dihapus-komdigi-desak-google-transparan"}],
+      "why_it_matters": "Shows how far a government can push a US platform over who gets deleted from YouTube.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-22",
+      "category": "TECH",
+      "event": "Detik Inet reported Nvidia is close to the head of Arm as a possible successor to Jensen Huang, amid employee unrest after his departure.",
+      "key_numbers": "details not read (headline only)",
+      "storyline": "ai-data-centres",
+      "update_of": "E0935",
+      "status": "partial",
+      "sources": [{"label": "detikInet", "url": "https://inet.detik.com/cyberlife/d-8764938/nvidia-dekati-bos-arm-jadi-pengganti-jensen-huang"}],
+      "why_it_matters": "Who runs Nvidia affects AI chip supply and GPU prices worldwide.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 0, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "detik Inet runs about 8 Nvidia/Huang stories in one list",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-22",
+      "category": "TECH",
+      "event": "CNBC Indonesia reported a crowd stormed a Meta office and clashed after Instagram accounts were deleted; location and country not verified.",
+      "key_numbers": "none verified",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [{"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/tech/20261122130928-37-787306/akun-ig-dihapus-massa-ngamuk-geruduk-kantor-meta-hingga-bentrok"}],
+      "why_it_matters": "Account deletions on Instagram are a daily fear for Indonesian sellers and creators.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 2, "visual": 1, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "top of CNBC tech list, 22 Nov",
+      "sensitivity": "normal"
+    }
+  ],
+  "gaps": ["Meta office riot over deleted IG accounts: article blocked, unclear if Indonesia or abroad; read it before use", "WhatsApp iPhone cutoff: which models and exact date unknown (article blocked)", "YouTube view-count change: details unknown (article blocked)", "Ojol new rule: content of Menkomdigi's statement not read", "katadata/bisnis/cnnindonesia/dailysocial section pages not scanned; only 2 of 6 outlets read, so thin"]
+}

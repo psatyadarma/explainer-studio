@@ -1,315 +1,5 @@
 [
 {
-"id": "E0229",
-"date": "2026-10-23",
-"category": "BIZ",
-"event": "BBNI is scheduled to report Q3 2026 results on 23 October, with BMRI 27 Oct, BRIS 29 Oct and BBRI/BBTN/BDMN 30 Oct to follow amid the market sell-off. (update of E0150)",
-"key_numbers": "BBNI 23 Oct · BMRI 27 Oct · BRIS 29 Oct · BBRI, BBTN, BDMN 30 Oct · Fed meeting 28 Oct",
-"storyline": "msci-reclassification",
-"status": "upcoming",
-"upcoming": false
-},
-{
-"id": "E0238",
-"date": "2026-10-23",
-"category": "POL",
-"event": "Partai Demokrat's South Sulawesi regional conference (Musda) is scheduled in Makassar, where Mayor Munafri Arifuddin, who left Golkar on 5 Oct, is a candidate for provincial chair. (update of E0075)",
-"key_numbers": "Musda 23 Oct 2026 · Munafri resigned from Golkar 5 Oct",
-"storyline": "party-moves",
-"status": "upcoming",
-"upcoming": false
-},
-{
-"id": "E0244",
-"date": "2026-10-23",
-"category": "TECH",
-"event": "Apple's Indonesian pre-order for the iPhone Duo is reported to open on 23 Oct 2026 at 09.00 WIB; the price is still unofficial. (update of E0189)",
-"key_numbers": "Pre-order 23 Oct 2026, 09.00 WIB (per detik and several outlets) · leaked/predicted prices Rp43.99 M (256 GB) to Rp68.9 M (top model, prediction) · global price US$1,999",
-"storyline": "",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0250",
-"date": "2026-10-23",
-"category": "MKT",
-"event": "IHSG closed up 0.95% on Friday 23 October and gained 4.90% over the week, recovering part of the MSCI-driven crash. (update of E0220)",
-"key_numbers": "Close 5,439.26 (+51.35 pts, +0.95%) on 23 Oct · week: 5,185.11 (16 Oct) to 5,439.26 = +4.90% · value Rp13.85 T · 401.84 juta lot · 506 up / 192 down / 265 flat · range 5,366.29-5,455.21",
-"storyline": "msci-reclassification",
-"status": "verified",
-"upcoming": false
-},
-{
-"id": "E0251",
-"date": "2026-10-23",
-"category": "MKT",
-"event": "OJK reported cumulative capital-market administrative fines of Rp2.23 trillion, calling the Rp1.5 trillion DSSA sanction the largest in its history; sanction letters were handed over on 21 Oct. (update of E0223)",
-"key_numbers": "Total fines Rp2.23 T as of 16 Oct · DSSA Rp1.5 T (trading) · BREN Rp500 M (IPO) · CUAN Rp100 M (IPO) · late-filing fines Rp293.78 M on 805 parties · 8 suspensions, 6 licence revocations · 122 open cases (1 Oct): 28 planning, 54 preliminary, 40 examination · party count conflicts: headline 116, body 166",
-"storyline": "msci-reclassification",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0252",
-"date": "2026-10-23",
-"category": "MKT",
-"event": "OJK chair Friderica Widyasari Dewi briefed President Prabowo in a cabinet session on MSCI's possible downgrade of Indonesia from Emerging to Standalone Market and the foreign selling that followed. (update of E0224)",
-"key_numbers": "Positive on 16 of 18 indicators vs other emerging markets · gaps: float requirement 15-25%, ownership disclosure ~1% vs >5% elsewhere, 39 investor types · foreign net sell Rp3.3 T over two days, Rp1 T the day before · domestic buybacks and retail drove the rebound",
-"storyline": "msci-reclassification",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0253",
-"date": "2026-10-23",
-"category": "MKT",
-"event": "BEI announced that stocks tagged High Shareholding Concentration (HSC) will be excluded from the IHSG calculation from 2 November 2026, a tag that already covers about 80 stocks including many conglomerate names. (update of E0051)",
-"key_numbers": "Effective 2 Nov 2026 · BEI Announcement Peng-00201/BEI.POP/10-2026 · ~80 HSC stocks · e.g. PGUN 99.95%, MPRO 99.99%, DCII 99.69%, SMAR 99.58%, DSSA 95.76%, BREN 97.31% HSC ratio · foreign investors still net-bought DSSA Rp45.88 M and CUAN Rp15.77 M in the morning session of 23 Oct",
-"storyline": "msci-reclassification",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0254",
-"date": "2026-10-23",
-"category": "ECO",
-"event": "Bank Indonesia said foreign capital has been leaving stocks, government bonds (SBN) and SRBI since MSCI's 16 Oct consultation paper, but it declined to give an amount and called the rupiah move 'manageable'. (update of E0222)",
-"key_numbers": "Rupiah Rp18,075/USD at 09:21 WIB 23 Oct (Bloomberg), prior close Rp18,060 · USD +8.29% vs rupiah year to date · foreign net sell Rp744.43 M in the morning session (buy Rp2.62 T vs sell Rp3.36 T) · BI plan: DNDF if investors hold off, spot intervention if they exit at once",
-"storyline": "rupiah",
-"status": "verified",
-"upcoming": false
-},
-{
-"id": "E0258",
-"date": "2026-10-23",
-"category": "POL",
-"event": "Komisi IV DPR deputy chair Alex Indra Lukman says the Forestry Bill (RUU Kehutanan) can include prosecuting forest burning as 'terorisme ekologi', following Prabowo's call to study that classification.",
-"key_numbers": "Revision of UU 41 (Forestry) finished at Komisi IV and harmonised at Baleg · next step: presidential letter (Surpres) · Prabowo instruction made 16 Sep 2026 limited meeting",
-"storyline": "karhutla",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0260",
-"date": "2026-10-23",
-"category": "TECH",
-"event": "Cybersecurity institute CISSReC reports 71 Indonesian .go.id government websites running vulnerable, end-of-support or hidden PHP versions exposed to the PHP2Shell remote-code-execution flaw, as Komdigi urges operators to update. (update of E0239)",
-"key_numbers": "597 .go.id sites checked 22 Oct; 529 responded, 68 did not · 11 unpatched PHP · 41 past end-of-support (PHP 5.4 to 8.1) · 19 hide their PHP version (incl. esdm.go.id, kemenperin.go.id, kemkes.go.id, setneg.go.id) · CVE-2026-109618 and CVE-2026-109619, both CVSS 9.2/10 · fixed in PHP 8.2.35, 8.3.36, 8.4.27, 8.5.12 (released 21 Oct) · ~70% of websites worldwide (~760 million) use PHP",
-"storyline": "",
-"status": "verified",
-"upcoming": false
-},
-{
-"id": "E0261",
-"date": "2026-10-23",
-"category": "TECH",
-"event": "Domain registry PANDI says it will work with BSSN to form a cyber incident response team (CSIRT) at each registrar after the PHP2Shell threat, while BSSN ran a readiness drill for government incident teams on 22 Oct. (update of E0239)",
-"key_numbers": "BSSN drill 22 Oct with 289 participants from government administration, health and economy sectors · PANDI patched its own systems · flaw allows unauthenticated remote code execution",
-"storyline": "",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0265",
-"date": "2026-10-23",
-"category": "ENV",
-"event": "Prabowo allocates Rp240 billion to handle karhutla in West Kalimantan, per a CNN Indonesia headline. (update of E0021)",
-"key_numbers": "Rp240 billion · West Kalimantan · 23 Oct 2026",
-"storyline": "karhutla",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0266",
-"date": "2026-10-23",
-"category": "ENV",
-"event": "A forest fire on Gunung Sumbing has burned 779 hectares of forest and is not yet extinguished, per CNN Indonesia.",
-"key_numbers": "779 hectares · fire not yet out · 23 Oct 2026",
-"storyline": "karhutla",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0267",
-"date": "2026-10-23",
-"category": "NEWS",
-"event": "Kemenag prepares a distance-learning (PJJ) mechanism for pesantren on three islands affected by karhutla, per CNN Indonesia.",
-"key_numbers": "3 islands affected (names not confirmed) · 23 Oct 2026",
-"storyline": "karhutla",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0268",
-"date": "2026-10-23",
-"category": "POL",
-"event": "Haji and Umrah Minister Gus Irfan admits he appointed his own child as an expert staffer (tenaga ahli) at the Kemenhaj, per CNN Indonesia.",
-"key_numbers": "",
-"storyline": "",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0269",
-"date": "2026-10-23",
-"category": "POL",
-"event": "KPK searched the house of Fadia Arafiq; her husband reportedly visited Jokowi the same day, per CNN Indonesia.",
-"key_numbers": "",
-"storyline": "corruption-cases",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0270",
-"date": "2026-10-23",
-"category": "POL",
-"event": "Hercules and Maruarar Sirait trade barbs over Tanah Abang land, per CNN Indonesia; follows the Rp800 million cash Hercules' lawyer handed to KPK. (update of E0209)",
-"key_numbers": "",
-"storyline": "corruption-cases",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0271",
-"date": "2026-10-23",
-"category": "NEWS",
-"event": "38 residents of Tidarsari, Magelang Selatan fell ill with food poisoning after eating siomai at a neighbourhood gathering; health office investigating.",
-"key_numbers": "38 people · symptoms mild to moderate · 1 or 3 still hospitalised (article inconsistent) · first report 20 Oct · samples sent to provincial lab",
-"storyline": "",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0272",
-"date": "2026-10-23",
-"category": "GLB",
-"event": "A magnitude 7.0 earthquake struck Tibet, China at 22:33 local time on 22 Oct, per AFP via detik.",
-"key_numbers": "M7.0 · depth 10 km · ~390 km NE of Lhasa · China Level II emergency response · casualties unconfirmed (a related-link headline claims 16 dead, not verified)",
-"storyline": "",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0273",
-"date": "2026-10-23",
-"category": "ENV",
-"event": "A DPRD member in Mempawah, West Kalimantan was named a suspect in a land-burning case and detained immediately, per detik. (update of E0021)",
-"key_numbers": "1 legislator detained · 23 Oct 2026",
-"storyline": "karhutla",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0274",
-"date": "2026-10-23",
-"category": "ENV",
-"event": "NTB provincial government threatens heavy sanctions over shrimp-pond waste dumped into the sea off Sumbawa, per detik.",
-"key_numbers": "",
-"storyline": "",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0275",
-"date": "2026-10-23",
-"category": "NEWS",
-"event": "The search for Jessica, who drowned in Komodo National Park, was closed after 10 days without finding her, per detik.",
-"key_numbers": "10 days of search",
-"storyline": "",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0279",
-"date": "2026-10-23",
-"category": "GLB",
-"event": "Brent crude closed Friday 23 October at its highest in over five months as Houthi attacks on Saudi Arabia and reports of US-Israeli plans against Iran lifted prices. (update of E0174)",
-"key_numbers": "Brent US$117.38 per barrel (close) · WTI US$103.44, +3.99% · detik reported Brent US$115.18 (+1.8%) earlier in the session · ICP September 2026 US$112.81, +US$23.38 from August · APBN 2026 assumption US$70 · Pertalite Rp10,000, Pertamax Rp15,950 unchanged since 2 Sep (Jabodetabek)",
-"storyline": "fuel-oil",
-"status": "verified",
-"upcoming": false
-},
-{
-"id": "E0280",
-"date": "2026-10-23",
-"category": "MKT",
-"event": "Foreign investors net sold Indonesian shares worth Rp1.28 trillion in the week to 23 October even as the IHSG gained 4.9%. (update of E0250)",
-"key_numbers": "IHSG weekly +4.9% · foreign net sell Rp1.28 T for the week · 23 Oct close 5,439.26 (+0.95%) · value Rp13.85 T · 506 up / 192 down · foreign net sell Rp744.4 bn at midday 23 Oct (headline only)",
-"storyline": "msci-reclassification",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0292",
-"date": "2026-10-23",
-"category": "TECH",
-"event": "Komdigi's Digital Infrastructure DG Wayan Toni Supriyanto says Kupang and Bitung are candidate new data-centre hubs outside Java and Batam, and draft Perpres on data centres and undersea cables are in public consultation. (update of E0205)",
-"key_numbers": "Kupang and Bitung named · draft Perpres data centre and undersea cable in public consultation · no issuance date · horizon 2030 for AI support · Komdigi says 580 MW is not enough for AI sovereignty (per Feedberry headline)",
-"storyline": "ai-data-centres",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0303",
-"date": "2026-10-23",
-"category": "MKT",
-"event": "The rupiah closed Friday 23 October at Rp18,067 per USD, 0.01% weaker, and analysts see it testing Rp18,200 next week with oil prices as the main risk. (update of E0222)",
-"key_numbers": "Rupiah Rp18,067/USD (-0.01%) on 23 Oct · forecast Rp18,200 for week of 26 Oct (Bisnis headline) · IHSG 5,439.26 on 23 Oct",
-"storyline": "rupiah",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0310",
-"date": "2026-10-23",
-"category": "TECH",
-"event": "Komdigi asked Meta to clarify after Meta.ai told users that karhutla content was restricted at Komdigi's request; Komdigi says it does not restrict or shadowban karhutla content.",
-"key_numbers": "Komdigi remarks 22 Oct, reported 23 Oct 2026 · Menkomdigi denial video 21 Oct · Meta had not replied at publication · cites Surat Edaran Menkomdigi 9/2023 on AI ethics · draft Perpres on AI ethics and National AI Roadmap 2026-2029 in preparation",
-"storyline": "karhutla",
-"status": "verified",
-"upcoming": false
-},
-{
-"id": "E0311",
-"date": "2026-10-23",
-"category": "TECH",
-"event": "The PHP2Shell flaw disrupted sites worldwide as operators took pages offline to patch, including Japan's ANA, JR West and MUFG, several European government sites and Wikimedia systems; in Indonesia the Ministry of Industry (Kemenperin) temporarily shut its site. (update of E0239)",
-"key_numbers": "2 critical PHP flaws · PHP runs ~70% of websites · Wiz compares impact to Heartbleed (2014) · advisory 21 Oct, outages 22-23 Oct 2026 · Kemenperin shutdown per Bisnis headline 24 Oct (body not read)",
-"storyline": "",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0318",
-"date": "2026-10-23",
-"category": "NEWS",
-"event": "Polri and BNN seize 1.16 tons of ketamine from the foreign-flagged tanker MT Global 168 in the Malacca Strait/Belawan area; eight crew detained, a Taiwanese national reportedly named a suspect.",
-"key_numbers": "1.16 tons ketamine · Rp3.48 trillion estimated value · 8 crew detained · ship reportedly turned off AIS",
-"storyline": "",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0319",
-"date": "2026-10-23",
-"category": "NEWS",
-"event": "A BYD electric car crashed into several vehicles and ran over online motorcycle-taxi driver Hasan Syukur on Jalan Panglima Polim, Blok M, South Jakarta; the driver, identified as S, was named a suspect on 25 Oct.",
-"key_numbers": "About 16:48 WIB on 23 Oct · 6 vehicles involved · victim 56, broken left leg, surgery at RS Fatmawati · driver said he panicked, cause not concluded",
-"storyline": "",
-"status": "verified",
-"upcoming": false
-},
-{
-"id": "E0415",
-"date": "2026-10-23",
-"category": "BIZ",
-"event": "Shoe factory PT Parkland World Indonesia (PWI) in Lebak, Banten, completed the layoff of all 1,100 workers on 23 October after its building lease ended and was not renewed.",
-"key_numbers": "1,100 workers laid off · ~900 earlier furloughed · staged layoffs from late 2025 to 23 Oct 2026 · South Korean-owned",
-"storyline": "",
-"status": "verified",
-"upcoming": false
-},
-{
 "id": "E0298",
 "date": "2026-10-24",
 "category": "ENV",
@@ -7190,6 +6880,56 @@
 "upcoming": false
 },
 {
+"id": "E1030",
+"date": "2026-11-19",
+"category": "MKT",
+"event": "OJK board chair Friderica Widyasari Dewi said the IHSG's fall from about 9,134 in January 2026 to around 5,000 is a logical consequence of capital market reforms such as removing high-concentration stocks and aligning the index with MSCI, and urged investors not to panic.",
+"key_numbers": "IHSG peak about 9,134 (Jan 2026) · now about 5,100-5,200 · eight reform steps cited · HSC stocks removed from IHSG calculation",
+"storyline": "msci-reclassification",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E1031",
+"date": "2026-11-19",
+"category": "ECO",
+"event": "Bank Indonesia Governor Destry Damayanti said BI is giving up to 45% discount on hedging costs (DNDF/swap) to pull foreign capital back into Indonesian assets, with US$14.1 billion of hedging transactions so far. (update of E0917)",
+"key_numbers": "discount up to 45% on DNDF · hedging transactions US$14.1B (June to 17 Nov 2026) · stock outflow YTD Rp81.6T · SBN+SRBI inflow YTD Rp143T",
+"storyline": "rupiah",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E1033",
+"date": "2026-11-19",
+"category": "GLB",
+"event": "Anthropic priced its Nasdaq IPO (ticker ANT) at US$83 per share, above the US$70-78 range, raising about US$81.3 billion and valuing the company around US$1.1 trillion, equal to about 84% of Indonesia's GDP and 2.2 times the IDX market cap.",
+"key_numbers": "IPO price US$83 (range US$70-78) · 980M shares offered · raise about US$81.34B (about Rp1,484.6T) · market value about US$1.1T (about Rp20,000T) · 2.2x BEI market cap (Rp9,047T) · first-day close reportedly US$97.17 (+17.1%) · public float about 7% · Indonesian retail cannot buy at IPO price",
+"storyline": "",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E1037",
+"date": "2026-11-19",
+"category": "BIZ",
+"event": "The Ministry of Forestry revoked the forest utilisation permit (PBPH) of PT RAPP (Group APRIL) over 338,536 hectares via decree 971/2026, announced by Satgas PKH; the government says operations will move to a BUMN/BUMD arrangement with no mass layoffs.",
+"key_numbers": "338,536 ha PBPH revoked · SK Menhut 971/2026 dated 19 Nov · company says 41,000+ workers · about 18,363 ha oil palm in concession · 541 ha unpermitted mining · 212 ha protected area damage",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E1055",
+"date": "2026-11-19",
+"category": "POL",
+"event": "Megawati Soekarnoputri said at a STIPAN graduation oration that she will not join the Prabowo government ('Terima kasih, saya di luar saja'), also criticising wiretapping, the police and KPK; PDIP says it was not about the offer being too small. (update of E0678)",
+"key_numbers": "Said 19 Nov, 21:26 WIB · PDIP summoned by police 3 times, by prosecutors once (her account) · reactions from Gerindra and PKB on 22 Nov",
+"storyline": "listyo-sigit-penyadapan",
+"status": "verified",
+"upcoming": false
+},
+{
 "id": "E0864",
 "date": "2026-11-20",
 "category": "ECO",
@@ -7470,6 +7210,86 @@
 "upcoming": false
 },
 {
+"id": "E1029",
+"date": "2026-11-20",
+"category": "MKT",
+"event": "BEI data showed the IHSG fell 3.71% in the week of 16-20 November to 5,146.33 and market capitalisation dropped to Rp8,725 trillion, while foreign investors' cumulative 2026 net sell passed Rp100 trillion. (update of E1004)",
+"key_numbers": "IHSG 5,344.41 to 5,146.33 (-3.71% w/w) · market cap Rp9,047T to Rp8,725T (-3.56%, about Rp322T lost) · foreign net sell Fri 20 Nov Rp947.41B · foreign net sell YTD Rp100.235T · avg daily value Rp12.35T (-47.9%) · Bloomberg IDX Foreign Flow Index -US$5.68B · IHSG about -40% YTD",
+"storyline": "msci-reclassification",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E1032",
+"date": "2026-11-20",
+"category": "MKT",
+"event": "The rupiah moved close to Rp18,300 per US dollar on 20-21 November and analysts expect continued pressure next week despite BI's rate hike. (update of E1005)",
+"key_numbers": "USD/IDR about Rp18,270-18,297 (20 Nov) · BI Rate 6.00% · detik headline 'Makin Dekat ke Rp18.300'",
+"storyline": "rupiah",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E1035",
+"date": "2026-11-20",
+"category": "MKT",
+"event": "Nasdaq plans to station a team at the Indonesia Stock Exchange (BEI) from December to help strengthen trading surveillance, as BEI tightens oversight and reports 34.3 million capital market investors.",
+"key_numbers": "Nasdaq team at BEI from December 2026 · investors 34.3 million · six companies reported queuing for IPO (detik 21 Nov)",
+"storyline": "msci-reclassification",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E1036",
+"date": "2026-11-20",
+"category": "GLB",
+"event": "Brent crude closed at US$92.57 per barrel on 20 November, down 3.41% on the week and a third straight weekly decline, as Hormuz shipments recovered; OPEC+ meets 29 November on 2027 quotas.",
+"key_numbers": "Brent Jan US$92.57 (-3.41% w/w; US$95.84 on 13 Nov) · WTI about US$83.41 (-5% w/w) · Goldman sees 2027 surplus about 2M bpd, Brent avg about US$88 · OPEC+ meeting 29 Nov",
+"storyline": "fuel-oil",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E1038",
+"date": "2026-11-20",
+"category": "ECO",
+"event": "Labour group KSPI estimates layoff (PHK) victims could exceed 90,000 people by end-2026, with textiles hardest hit, while a Liputan6 tally cites about 72,000 in 2026 so far.",
+"key_numbers": "KSPI estimate 90,000+ by end-2026 · Liputan6 count about 72,000 (2026 YTD) · textile industry most affected",
+"storyline": "survival-mode",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E1047",
+"date": "2026-11-20",
+"category": "POL",
+"event": "DPR Deputy Speaker Dasco said he will consider legal action after his 17-year-old daughter was bullied on social media and pledged to speed up revision of the Child Protection Law; KPAI said parents' political differences must not make children targets.",
+"key_numbers": "Daughter aged 17 · statement 20 Nov · KPAI response 22 Nov",
+"storyline": "gibran-ijazah-mk",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E1050",
+"date": "2026-11-20",
+"category": "TECH",
+"event": "Menkomdigi gathered ojol drivers ahead of a new regulation, while CNBC Indonesia separately reported eight ojol services have stopped operating in Indonesia. (update of E1014)",
+"key_numbers": "8 ojol services stopped (per CNBC headline) · Gojek 8% commission since Jul 2026 (Bisnis, 8 Oct)",
+"storyline": "ojol-green-sm",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E1056",
+"date": "2026-11-20",
+"category": "NEWS",
+"event": "Ma'ruf Amin resigned as chair of MUI's Dewan Pertimbangan (Wantim) and kept his decision despite requests to stay; MUI is discussing a successor.",
+"key_numbers": "Resignation letter dated 23 Dec 2025, processed only the week of 20 Nov 2026 · 2025-2030 term · no successor named yet",
+"storyline": "",
+"status": "verified",
+"upcoming": false
+},
+{
 "id": "E0921",
 "date": "2026-11-21",
 "category": "ECO",
@@ -7630,6 +7450,246 @@
 "upcoming": false
 },
 {
+"id": "E1034",
+"date": "2026-11-21",
+"category": "ECO",
+"event": "Indonesia and the European Union signed the IEU-CEPA trade deal and an Investment Protection Agreement in Brussels after about 10 years of talks, targeting entry into force on 1 January 2027.",
+"key_numbers": "90.4% of Indonesian tariff lines at 0% on entry into force · 8.37% phased over 3-15 years · duty-free CPO quota 1.9M tonnes (+140,000 t palm oil) · trade about US$30B/year · EU investment about US$25B in 5 years · 72 GI products protected · EU Parliament debate begins 23 Nov",
+"storyline": "",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E1049",
+"date": "2026-11-21",
+"category": "TECH",
+"event": "CNBC Indonesia reported that YouTube changed how it counts views and examined the effect on Indonesian influencers.",
+"key_numbers": "details of new counting rule not read (article blocked)",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E1054",
+"date": "2026-11-21",
+"category": "NEWS",
+"event": "A fire at the PT Fonusa Agung Mulia candy factory in Pancatama, Cikande, Serang (Banten) killed workers and left dozens missing; the company apologised.",
+"key_numbers": "Early 22 Nov: 3 dead · 36 missing · 15 safe · 4 injured (police earlier said 42 workers unreachable) · later headlines: 6-7 body bags evacuated, BPBD Serang counts 16 employees safe · cause not stated",
+"storyline": "",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E1057",
+"date": "2026-11-21",
+"category": "NEWS",
+"event": "Kapolri Suyudi Ario Seto said Polri has seized about 600 tons of narcotics in nearly two months and busted an Indonesia-Malaysia network.",
+"key_numbers": "600 tons since taking office (~2 months) · 'hundreds of trillions' rupiah (Kapolri) · network: 4 suspects, Madura/Surabaya/Kalimantan · assets ~Rp150 billion seized · Rp2.9 trillion transactions 2018-2024 under TPPU probe",
+"storyline": "",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E1063",
+"date": "2026-11-21",
+"category": "POL",
+"event": "DPD chairman proposed that President Prabowo have three vice presidents and explained the idea on 22 Nov; Yenny Wahid called Dasco capable as VP. (update of E0942)",
+"key_numbers": "Proposal: 3 VPs · MPR plenary to pick new VP set for 9 Dec (E0898)",
+"storyline": "gibran-ijazah-mk",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E1064",
+"date": "2026-11-21",
+"category": "NEWS",
+"event": "TurnBackHoax rated false several viral claims: a video of Prabowo ordering TNI/Polri to follow up demonstrations (actually an August 2025 speech), an AI photo of Jokowi arrested by Brimob, and a claim that Sri Sultan HB X halted MBG in Yogyakarta. (update of E1003)",
+"key_numbers": "Prabowo video: from Aug 2025 speech · Jokowi photo: AI-made · MBG Jogja: 97 SPPG suspended for funding/operational reasons, not Sultan's order",
+"storyline": "hoax-tracker",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E1039",
+"date": "2026-11-22",
+"category": "POL",
+"event": "Golkar chair Bahlil Lahadalia said DPR Deputy Speaker Sufmi Dasco Ahmad is among the preferences to replace Gibran as vice president, and that Prabowo will meet coalition party chairs (Gerindra, Golkar, PAN, Demokrat) at Hambalang before 25 November to prepare two names for the MPR. (update of E0898)",
+"key_numbers": "2 names to MPR · meeting before 25 Nov 2026 · 4 coalition parties · MPR plenary 9 Dec 2026 (per storyline)",
+"storyline": "gibran-ijazah-mk",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E1040",
+"date": "2026-11-22",
+"category": "POL",
+"event": "PAN, Sandiaga Uno, Wali Nanggroe Aceh, 98 activists and Sulsel academics publicly backed Gerindra figure Dasco as vice president, while Gerindra-aligned figure Bawono called allegations against Dasco baseless. (update of E0942)",
+"key_numbers": "5+ backers named in Antara headlines 22 Nov",
+"storyline": "gibran-ijazah-mk",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E1041",
+"date": "2026-11-22",
+"category": "POL",
+"event": "DPD chair Sultan Bachtiar Najamudin proposed that Indonesia have more than one vice president (Kompas headline says three), saying the idea dates from 2019, is not for now and needs a constitutional process.",
+"key_numbers": "3 VPs (per Kompas headline) · idea first voiced 2019 · not for current vacancy",
+"storyline": "gibran-ijazah-mk",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E1042",
+"date": "2026-11-22",
+"category": "POL",
+"event": "Polri announced Kapolri Telegram ST/2598/XI/KEP/2026 (dated 20 Nov) moving three senior officers who are suspects in the alleged wiretapping of the President (initials AS, EHS, SU) to Yanma Polri, as part of a rotation of 107 officers; Polri called it routine organisational dynamics. (update of E0562)",
+"key_numbers": "3 suspects moved to Yanma · 107 officers in telegram (Suara Surabaya; other outlets report different totals) · telegram dated 20 Nov",
+"storyline": "listyo-sigit-penyadapan",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E1043",
+"date": "2026-11-22",
+"category": "POL",
+"event": "Kapolda Bengkulu Irjen Yudhi Sulistianto Wahid, who knelt and apologised to Cipayung Plus students on 19 Nov, was replaced by Brigjen Augustinus Berlianto Pangaribuan in the same 20 Nov telegram; no official statement linked the move to the kneeling.",
+"key_numbers": "Kneeling 19 Nov · telegram 20 Nov · announced 22 Nov · deputy and 6 Kapolres also moved (headline)",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E1044",
+"date": "2026-11-22",
+"category": "POL",
+"event": "Kejagung said it will continue legal proceedings against Pertamina crude-oil governance suspect Riza Chalid, a fugitive abroad, including a trial in absentia once he is listed DPO and a red notice is filed; the death penalty option is being studied but depends on legal parameters.",
+"key_numbers": "2 steps for in-absentia trial: DPO listing + Interpol red notice · death penalty option under study · no loss figure in the report",
+"storyline": "corruption-cases",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E1045",
+"date": "2026-11-22",
+"category": "POL",
+"event": "Immigration Director General Hendarsam Marantoko said two WNI suspected of being recruited as Russian mercenaries were stopped at Juanda Airport around 19-20 Nov, and immigration will screen passport applicants and step up cyber patrols.",
+"key_numbers": "2 WNI stopped at Juanda · stopped ~2 days before 22 Nov statement",
+"storyline": "tentara-bayaran-rusia",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E1046",
+"date": "2026-11-22",
+"category": "POL",
+"event": "Ma'ruf Amin, the former vice president, stood by his resignation as Ketua Dewan Pertimbangan MUI despite MUI's request that he stay; Jimly Asshiddiqie, Afifuddin Muhajir and Zainut Tauhid are named as possible successors with a new chair expected around December 2026.",
+"key_numbers": "Term 2025-2030 · successor expected ~Dec 2026 · 3 candidate names",
+"storyline": "",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E1048",
+"date": "2026-11-22",
+"category": "TECH",
+"event": "CNBC Indonesia reported that WhatsApp will stop working on certain older iPhone models at the end of November 2026. (update of E0991)",
+"key_numbers": "cutoff: end of November 2026 (model list and OS version not read, article blocked)",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E1051",
+"date": "2026-11-22",
+"category": "TECH",
+"event": "Detik Inet reported Google explained its YouTube spam rules after Komdigi scrutinised content moderation over the closure of YouTube channels linked to Indonesia. (update of E0989)",
+"key_numbers": "closure counts differ by source: 19,389 (CNBC/Komdigi) · 19,372 (Investortrust) · 10,134 (Bisnis, 18 Nov)",
+"storyline": "google-youtube-channels",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E1052",
+"date": "2026-11-22",
+"category": "TECH",
+"event": "Detik Inet reported Nvidia is close to the head of Arm as a possible successor to Jensen Huang, amid employee unrest after his departure. (update of E0935)",
+"key_numbers": "details not read (headline only)",
+"storyline": "ai-data-centres",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E1053",
+"date": "2026-11-22",
+"category": "TECH",
+"event": "CNBC Indonesia reported a crowd stormed a Meta office and clashed after Instagram accounts were deleted; location and country not verified.",
+"key_numbers": "none verified",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E1058",
+"date": "2026-11-22",
+"category": "NEWS",
+"event": "Bengkulu police chief Irjen Yudhi Sulistianto Wahid was moved from his post after his prostration video went viral, in a batch of Kapolres/Kapolda mutations by the Kapolri. (update of E1025)",
+"key_numbers": "Mutation announced 22 Nov · related video viral 21 Nov (E1025) · exact new post not confirmed from headline",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E1059",
+"date": "2026-11-22",
+"category": "ENV",
+"event": "Floods hit areas from North Sumatra to West Kalimantan, affecting hundreds of families. (update of E0910)",
+"key_numbers": "'Ratusan keluarga' affected (no exact figure read) · BMKG heavy-rain warning for Sunday 22 Nov",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E1060",
+"date": "2026-11-22",
+"category": "ENV",
+"event": "Mount Ibu (North Maluku) and Mount Semeru erupted, throwing ash hundreds of metres high.",
+"key_numbers": "Ibu ash column 400 m · Semeru ash 'hundreds of metres'",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E1061",
+"date": "2026-11-22",
+"category": "NEWS",
+"event": "The Kunstkring Paleis monument (Tugu Kunstkring, Jakarta) burned in a pre-dawn fire.",
+"key_numbers": "Fire pre-dawn 22 Nov · damage/cause not read from headline",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E1062",
+"date": "2026-11-22",
+"category": "POL",
+"event": "DPR figures (Sahroni, Golkar) said leaving illicit enrichment out of the Asset Forfeiture bill was a considered choice and that it is already covered by the Tipikor and TPPU laws. (update of E0954)",
+"key_numbers": "Illicit enrichment excluded from RUU Perampasan Aset (E0954) · Golkar: already regulated in UU Tipikor-TPPU",
+"storyline": "corruption-cases",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E1065",
+"date": "2026-11-22",
+"category": "NEWS",
+"event": "Police examined the victim in the alleged rape case against Kupang Regent Yosef Lede. (update of E0973)",
+"key_numbers": "Victim examined 22 Nov · case upgraded to investigation earlier (E0973)",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
 "id": "E0862",
 "date": "2026-11-23",
 "category": "BIZ",
@@ -7637,7 +7697,7 @@
 "key_numbers": "23 Nov 2026 (tentative) · more than 1,000 consolidated companies (Rosan Roeslani) · over 1,070 SOE entities (Pahala Mansury) · first report since Danantara launched Feb 2025 · regulatory deadline was end of June",
 "storyline": "",
 "status": "upcoming",
-"upcoming": true
+"upcoming": false
 },
 {
 "id": "E0983",
@@ -7647,7 +7707,7 @@
 "key_numbers": "Hearing 'next week' per Polri spokesperson (reported 17 Nov 2026) · Irjen Ahrie Sonta already given PTDH (dishonourable discharge) in a related case · Sigit named a suspect",
 "storyline": "listyo-sigit-penyadapan",
 "status": "upcoming",
-"upcoming": true
+"upcoming": false
 },
 {
 "id": "E1012",

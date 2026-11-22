@@ -1,0 +1,321 @@
+{
+  "area": "politics",
+  "run_date": "2026-11-23",
+  "checked": [
+    "Detik berita",
+    "CNN Indonesia nasional",
+    "ANTARA politik",
+    "ANTARA hukum",
+    "Tempo politik (page blocked by robots; search snippets only)",
+    "Watch list found: Wapres/MPR replacement, Polri big case (wiretapping), Kejagung, KPAI/children, DPD, TNI none, demonstrations none, reshuffle none",
+    "Storyline searches: gibran-ijazah-mk, listyo-sigit-penyadapan, tentara-bayaran-rusia, corruption-cases (KPK)"
+  ],
+  "events": [
+    {
+      "date": "2026-11-22",
+      "category": "POL",
+      "event": "Golkar chair Bahlil Lahadalia said DPR Deputy Speaker Sufmi Dasco Ahmad is among the preferences to replace Gibran as vice president, and that Prabowo will meet coalition party chairs (Gerindra, Golkar, PAN, Demokrat) at Hambalang before 25 November to prepare two names for the MPR.",
+      "key_numbers": "2 names to MPR · meeting before 25 Nov 2026 · 4 coalition parties · MPR plenary 9 Dec 2026 (per storyline)",
+      "storyline": "gibran-ijazah-mk",
+      "update_of": "E0898",
+      "status": "verified",
+      "sources": [
+        {
+          "label": "Detik",
+          "url": "https://news.detik.com/berita/d-8764206/bahlil-ungkap-dasco-masuk-preferensi-cawapres-komunikasi-ke-partai-lain-baik"
+        },
+        {
+          "label": "Detik",
+          "url": "https://news.detik.com/berita/d-8764710/prabowo-bakal-kumpulkan-ketum-parpol-bahas-nama-cawapres-pan-menunggu"
+        },
+        {
+          "label": "IDN Times",
+          "url": "https://www.idntimes.com/news/indonesia/bahlil-ungkap-prabowo-akan-bertemu-parpol-bahas-wapres-pengganti-gibran-00-g3crm-vljcj3"
+        }
+      ],
+      "why_it_matters": "Decides who becomes the next vice president and when the names reach the MPR.",
+      "signals": {
+        "spreading": 2,
+        "wallet": 0,
+        "surprise": 1,
+        "visual": 1,
+        "fresh": 2,
+        "rivals": 1
+      },
+      "spreading_evidence": "Detik, Antara, Viva, Okezone all carried it on 22 Nov; Antara politik page dominated by Dasco-for-VP items",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-22",
+      "category": "POL",
+      "event": "PAN, Sandiaga Uno, Wali Nanggroe Aceh, 98 activists and Sulsel academics publicly backed Gerindra figure Dasco as vice president, while Gerindra-aligned figure Bawono called allegations against Dasco baseless.",
+      "key_numbers": "5+ backers named in Antara headlines 22 Nov",
+      "storyline": "gibran-ijazah-mk",
+      "update_of": "E0942",
+      "status": "partial",
+      "sources": [
+        {
+          "label": "ANTARA",
+          "url": "https://www.antaranews.com/berita/5869791/pan-dukung-kader-gerindra-jadi-wapres-dampingi-prabowo"
+        },
+        {
+          "label": "ANTARA",
+          "url": "https://www.antaranews.com/berita/5869499/sandiaga-uno-nilai-dasco-loyal-dan-punya-kapasitas-layak-jadi-wapres"
+        },
+        {
+          "label": "ANTARA",
+          "url": "https://www.antaranews.com/berita/5869863/bawono-tuduhan-tanpa-dasar-terhadap-dasco-rugikan-demokrasi"
+        }
+      ],
+      "why_it_matters": "Shows how fast a single name is consolidating before the MPR vote.",
+      "signals": {
+        "spreading": 2,
+        "wallet": 0,
+        "surprise": 1,
+        "visual": 0,
+        "fresh": 2,
+        "rivals": 1
+      },
+      "spreading_evidence": "Seven Dasco items in ANTARA politik top 30 on 22 Nov",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-22",
+      "category": "POL",
+      "event": "DPD chair Sultan Bachtiar Najamudin proposed that Indonesia have more than one vice president (Kompas headline says three), saying the idea dates from 2019, is not for now and needs a constitutional process.",
+      "key_numbers": "3 VPs (per Kompas headline) · idea first voiced 2019 · not for current vacancy",
+      "storyline": "gibran-ijazah-mk",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {
+          "label": "Detik",
+          "url": "https://news.detik.com/berita/d-8764358/ketua-dpd-jelaskan-ide-wapres-lebih-dari-1-bukan-untuk-sekarang"
+        },
+        {
+          "label": "Kompas",
+          "url": "https://nasional.kompas.com/read/2026/11/21/14510011/ketua-dpd-ri-usulkan-wapres-ri-berjumlah-3-orang"
+        },
+        {
+          "label": "CNN Indonesia",
+          "url": "https://www.cnnindonesia.com/nasional/20261122132659-32-1430033/ketua-dpd-jelaskan-maksud-usulan-wapres-lebih-dari-satu"
+        }
+      ],
+      "why_it_matters": "A surprising constitutional idea surfacing while the VP seat is empty.",
+      "signals": {
+        "spreading": 1,
+        "wallet": 0,
+        "surprise": 2,
+        "visual": 1,
+        "fresh": 2,
+        "rivals": 2
+      },
+      "spreading_evidence": "Covered by Kompas, Detik, CNN, Jawa Pos, Viva, Sindonews",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-22",
+      "category": "POL",
+      "event": "Polri announced Kapolri Telegram ST/2598/XI/KEP/2026 (dated 20 Nov) moving three senior officers who are suspects in the alleged wiretapping of the President (initials AS, EHS, SU) to Yanma Polri, as part of a rotation of 107 officers; Polri called it routine organisational dynamics.",
+      "key_numbers": "3 suspects moved to Yanma · 107 officers in telegram (Suara Surabaya; other outlets report different totals) · telegram dated 20 Nov",
+      "storyline": "listyo-sigit-penyadapan",
+      "update_of": "E0562",
+      "status": "verified",
+      "sources": [
+        {
+          "label": "Suara Surabaya",
+          "url": "https://www.suarasurabaya.net/kelanakota/2026/kapolri-mutasi-tiga-pati-polri-tersangka-kasus-dugaan-penyadapan-presiden/"
+        },
+        {
+          "label": "ANTARA",
+          "url": "https://www.antaranews.com/berita/5870547/kapolri-mutasi-tiga-pati-yang-jadi-tersangka-kasus-dugaan-penyadapan"
+        },
+        {
+          "label": "Detik",
+          "url": "https://news.detik.com/berita/d-8764411/kapolri-mutasi-pejabat-polda-metro-hingga-kapolres-ini-daftarnya"
+        }
+      ],
+      "why_it_matters": "Shows what happens to police generals under suspect status while the case continues.",
+      "signals": {
+        "spreading": 2,
+        "wallet": 0,
+        "surprise": 2,
+        "visual": 1,
+        "fresh": 2,
+        "rivals": 1
+      },
+      "spreading_evidence": "ANTARA hukum #29, multiple outlets 22 Nov; PKS also demanded the 'user' be investigated (ANTARA 22 Nov)",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-22",
+      "category": "POL",
+      "event": "Kapolda Bengkulu Irjen Yudhi Sulistianto Wahid, who knelt and apologised to Cipayung Plus students on 19 Nov, was replaced by Brigjen Augustinus Berlianto Pangaribuan in the same 20 Nov telegram; no official statement linked the move to the kneeling.",
+      "key_numbers": "Kneeling 19 Nov · telegram 20 Nov · announced 22 Nov · deputy and 6 Kapolres also moved (headline)",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {
+          "label": "CNN Indonesia",
+          "url": "https://www.cnnindonesia.com/nasional/20261122153044-20-1430091/irjen-yudhi-dimutasi-dari-kapolda-bengkulu-usai-viral-aksi-sujud"
+        },
+        {
+          "label": "Suara.com",
+          "url": "https://sumsel.suara.com/read/2026/11/22/174032/kapolda-bengkulu-diganti-usai-sujud-di-depan-mahasiswa-wakapolda-dan-6-kapolres-ikut-dimutasi"
+        },
+        {
+          "label": "Kompas",
+          "url": "https://regional.kompas.com/read/2026/11/22/082224178/kapolda-bengkulu-diganti-usai-sujud-minta-maaf-di-hadapan-mahasiswa"
+        }
+      ],
+      "why_it_matters": "A viral apology followed by a transfer raises questions about how police leaders handle protests.",
+      "signals": {
+        "spreading": 1,
+        "wallet": 0,
+        "surprise": 2,
+        "visual": 2,
+        "fresh": 2,
+        "rivals": 2
+      },
+      "spreading_evidence": "Viral video; many outlets 22 Nov",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-22",
+      "category": "POL",
+      "event": "Kejagung said it will continue legal proceedings against Pertamina crude-oil governance suspect Riza Chalid, a fugitive abroad, including a trial in absentia once he is listed DPO and a red notice is filed; the death penalty option is being studied but depends on legal parameters.",
+      "key_numbers": "2 steps for in-absentia trial: DPO listing + Interpol red notice · death penalty option under study · no loss figure in the report",
+      "storyline": "corruption-cases",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {
+          "label": "Katadata",
+          "url": "https://katadata.co.id/finansial/makro/6b02918064238/kejagung-proses-hukum-riza-chalid-yang-masih-buron-di-luar-negeri"
+        },
+        {
+          "label": "CNN Indonesia",
+          "url": "https://www.cnnindonesia.com/nasional/20261122164159-12-1430110/kejagung-lanjutkan-proses-hukum-riza-chalid-meski-buron-di-luar-negeri"
+        },
+        {
+          "label": "ANTARA",
+          "url": "https://www.antaranews.com/berita/5870523/kejagung-proses-hukum-riza-chalid-meski-buron-di-luar-negeri"
+        }
+      ],
+      "why_it_matters": "Whether a fugitive can be tried and sentenced without showing up.",
+      "signals": {
+        "spreading": 1,
+        "wallet": 0,
+        "surprise": 2,
+        "visual": 1,
+        "fresh": 2,
+        "rivals": 1
+      },
+      "spreading_evidence": "CNN nasional #4, ANTARA hukum #32 on 22 Nov",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-22",
+      "category": "POL",
+      "event": "Immigration Director General Hendarsam Marantoko said two WNI suspected of being recruited as Russian mercenaries were stopped at Juanda Airport around 19-20 Nov, and immigration will screen passport applicants and step up cyber patrols.",
+      "key_numbers": "2 WNI stopped at Juanda · stopped ~2 days before 22 Nov statement",
+      "storyline": "tentara-bayaran-rusia",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {
+          "label": "ANTARA",
+          "url": "https://www.antaranews.com/berita/5870579/imigrasi-cegah-perekrutan-tentara-bayaran-rusia-periksa-pemohon-paspor"
+        },
+        {
+          "label": "Republika",
+          "url": "https://news.republika.co.id/berita/toqnxz377/imigrasi-gagalkan-2-wni-yang-diduga-ingin-jadi-tentara-bayaran-rusia"
+        }
+      ],
+      "why_it_matters": "Shows how Indonesians are lured abroad and what the state now checks at the passport counter.",
+      "signals": {
+        "spreading": 1,
+        "wallet": 1,
+        "surprise": 1,
+        "visual": 1,
+        "fresh": 2,
+        "rivals": 1
+      },
+      "spreading_evidence": "Antara hukum #25; Republika, Jawa Pos, IDN Times",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-22",
+      "category": "POL",
+      "event": "Ma'ruf Amin, the former vice president, stood by his resignation as Ketua Dewan Pertimbangan MUI despite MUI's request that he stay; Jimly Asshiddiqie, Afifuddin Muhajir and Zainut Tauhid are named as possible successors with a new chair expected around December 2026.",
+      "key_numbers": "Term 2025-2030 · successor expected ~Dec 2026 · 3 candidate names",
+      "storyline": "",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {
+          "label": "Detik",
+          "url": "https://news.detik.com/berita/d-8764631/maruf-amin-kukuh-mundur-dari-ketua-wantim-mui-ini-kandidat-penggantinya"
+        },
+        {
+          "label": "CNN Indonesia",
+          "url": "https://www.cnnindonesia.com/nasional/20261122173349-32-1430123/maruf-amin-kukuh-mundur-dari-ketua-wantim-mui-walau-diminta-bertahan"
+        }
+      ],
+      "why_it_matters": "Leadership change at the body that issues halal certification and fatwas.",
+      "signals": {
+        "spreading": 1,
+        "wallet": 0,
+        "surprise": 1,
+        "visual": 0,
+        "fresh": 2,
+        "rivals": 2
+      },
+      "spreading_evidence": "CNN nasional #1, detik 22 Nov",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-20",
+      "category": "POL",
+      "event": "DPR Deputy Speaker Dasco said he will consider legal action after his 17-year-old daughter was bullied on social media and pledged to speed up revision of the Child Protection Law; KPAI said parents' political differences must not make children targets.",
+      "key_numbers": "Daughter aged 17 · statement 20 Nov · KPAI response 22 Nov",
+      "storyline": "gibran-ijazah-mk",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {
+          "label": "IDN Times",
+          "url": "https://www.idntimes.com/news/indonesia/dasco-bakal-tempuh-jalur-hukum-usai-anak-diduga-dibully-di-medsos-00-xvwcc-9z14yw"
+        },
+        {
+          "label": "Detik",
+          "url": "https://news.detik.com/berita/d-8764816/kpai-perbedaan-politik-orang-tua-tak-boleh-korbankan-perlindungan-anak"
+        },
+        {
+          "label": "ANTARA",
+          "url": "https://www.antaranews.com/berita/5867663/dpr-komitmen-segera-revisi-uu-perlindungan-anak-demi-cegah-bully"
+        }
+      ],
+      "why_it_matters": "A minor is caught in politics and it is pushing a child-protection law revision.",
+      "signals": {
+        "spreading": 1,
+        "wallet": 0,
+        "surprise": 1,
+        "visual": 0,
+        "fresh": 1,
+        "rivals": 1
+      },
+      "spreading_evidence": "KPAI, BKPRMI, Wamen HAM statements 22 Nov",
+      "sensitivity": "high"
+    }
+  ],
+  "gaps": [
+    "Antara politik/hukum pages carry relative times only; dates inferred as 22 Nov",
+    "Telegram rotation total differs by outlet (107 vs 704 officers reported); Suara Surabaya figure used",
+    "Kapolri named as Suyudi Ario Seto by Suara Surabaya only; unverified elsewhere",
+    "Prabowo-party chairs Hambalang meeting time not confirmed as of 22 Nov",
+    "MPR Panitia Ad Hoc meeting 23 Nov (hari-kerja deadline question) not verified today; Kompas, Antara Kapolri and Tempo pages blocked",
+    "KPK items (Sumut road case, Dedi Congor summons, BNPB OTT) seen only in search snippets, not verified"
+  ]
+}

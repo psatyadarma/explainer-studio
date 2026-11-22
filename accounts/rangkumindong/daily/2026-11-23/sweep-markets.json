@@ -1,0 +1,196 @@
+{
+  "area": "markets",
+  "run_date": "2026-11-23",
+  "checked": ["detikFinance bursa-dan-valas section page", "CNBC Indonesia market (via IHSG sesi I article + related headlines)", "Kontan IHSG close/Monday picks", "Bloomberg Technoz foreign outflow", "watch list found: IHSG close and movers, foreign net sell, IPO pipeline (6 companies), rupiah near Rp18,300, BI hedging incentive, OJK statement, MSCI/FTSE aftermath, Anthropic IPO, IEU-CEPA, Brent oil, PHK/RAPP", "storyline searches: msci-reclassification, rupiah, fuel-oil (Pertalite held to 31 Dec, no new development), survival-mode (PHK), tax-policy (no new item), ump-2027 (no new item)", "bisnis.com and antaranews not fetched separately (no handed URL; coverage via search results)"],
+  "events": [
+    {
+      "date": "2026-11-20",
+      "category": "MKT",
+      "event": "BEI data showed the IHSG fell 3.71% in the week of 16-20 November to 5,146.33 and market capitalisation dropped to Rp8,725 trillion, while foreign investors' cumulative 2026 net sell passed Rp100 trillion.",
+      "key_numbers": "IHSG 5,344.41 to 5,146.33 (-3.71% w/w) · market cap Rp9,047T to Rp8,725T (-3.56%, about Rp322T lost) · foreign net sell Fri 20 Nov Rp947.41B · foreign net sell YTD Rp100.235T · avg daily value Rp12.35T (-47.9%) · Bloomberg IDX Foreign Flow Index -US$5.68B · IHSG about -40% YTD",
+      "storyline": "msci-reclassification",
+      "update_of": "E1004",
+      "status": "verified",
+      "sources": [
+        {"label": "detikFinance", "url": "https://finance.detik.com/bursa-dan-valas/d-8763001/modal-asing-rp-100-triliun-keluar-dari-pasar-modal-ri"},
+        {"label": "Bloomberg Technoz", "url": "https://www.bloombergtechnoz.com/detail-news/128413/alasan-investor-asing-terus-keluar-dari-bursa-saham-ri"},
+        {"label": "Suara.com", "url": "https://www.suara.com/bisnis/2026/11/22/105827/investor-ihsg-nyesek-kapitalisasi-pasar-hilang-rp322-triliun-dalam-seminggu"}
+      ],
+      "why_it_matters": "Foreign money leaving at record pace hits stock portfolios, pension funds and the rupiah.",
+      "signals": {"spreading": 2, "wallet": 1, "surprise": 2, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "Top headline on detik bursa page 21 Nov; covered by many outlets",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-19",
+      "category": "MKT",
+      "event": "OJK board chair Friderica Widyasari Dewi said the IHSG's fall from about 9,134 in January 2026 to around 5,000 is a logical consequence of capital market reforms such as removing high-concentration stocks and aligning the index with MSCI, and urged investors not to panic.",
+      "key_numbers": "IHSG peak about 9,134 (Jan 2026) · now about 5,100-5,200 · eight reform steps cited · HSC stocks removed from IHSG calculation",
+      "storyline": "msci-reclassification",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "detikFinance", "url": "https://finance.detik.com/bursa-dan-valas/d-8759780/ihsg-anjlok-dari-9-000-ke-5-000-an-bos-ojk-konsekuensi-dari-reformasi"},
+        {"label": "detik Bali", "url": "https://www.detik.com/bali/bisnis/d-8761180/ihsg-jatuh-dari-9-000-ke-5-000-bos-ojk-beri-penjelasan"}
+      ],
+      "why_it_matters": "The regulator's own explanation for a roughly 43% drop in the index many ordinary investors hold.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 2, "fresh": 1, "rivals": 1},
+      "spreading_evidence": "Two detik pieces (19 and 20 Nov), several regional outlets",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-19",
+      "category": "ECO",
+      "event": "Bank Indonesia Governor Destry Damayanti said BI is giving up to 45% discount on hedging costs (DNDF/swap) to pull foreign capital back into Indonesian assets, with US$14.1 billion of hedging transactions so far.",
+      "key_numbers": "discount up to 45% on DNDF · hedging transactions US$14.1B (June to 17 Nov 2026) · stock outflow YTD Rp81.6T · SBN+SRBI inflow YTD Rp143T",
+      "storyline": "rupiah",
+      "update_of": "E0917",
+      "status": "verified",
+      "sources": [
+        {"label": "detikFinance", "url": "https://finance.detik.com/bursa-dan-valas/d-8760490/bi-kasih-diskon-hedging-hingga-45-demi-tarik-asing-ke-bursa-ri"},
+        {"label": "Investor.id", "url": "https://investor.id/market/458916/tarik-modal-asing-bi-tingkatkan-insentif-dndf-hingga-45"}
+      ],
+      "why_it_matters": "BI is paying to keep the rupiah from sliding further past Rp18,300, which affects import prices.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 1, "fresh": 1, "rivals": 2},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-20",
+      "category": "MKT",
+      "event": "The rupiah moved close to Rp18,300 per US dollar on 20-21 November and analysts expect continued pressure next week despite BI's rate hike.",
+      "key_numbers": "USD/IDR about Rp18,270-18,297 (20 Nov) · BI Rate 6.00% · detik headline 'Makin Dekat ke Rp18.300'",
+      "storyline": "rupiah",
+      "update_of": "E1005",
+      "status": "partial",
+      "sources": [
+        {"label": "detikFinance", "url": "https://finance.detik.com/bursa-dan-valas"},
+        {"label": "Kontan", "url": "https://investasi.kontan.co.id/news/ihsg-ditutup-melemah-ini-5-saham-rekomendasi-untuk-senin-2311"}
+      ],
+      "why_it_matters": "A weaker rupiah raises prices of imported goods, fuel and electronics.",
+      "signals": {"spreading": 1, "wallet": 2, "surprise": 0, "visual": 2, "fresh": 2, "rivals": 0},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-19",
+      "category": "GLB",
+      "event": "Anthropic priced its Nasdaq IPO (ticker ANT) at US$83 per share, above the US$70-78 range, raising about US$81.3 billion and valuing the company around US$1.1 trillion, equal to about 84% of Indonesia's GDP and 2.2 times the IDX market cap.",
+      "key_numbers": "IPO price US$83 (range US$70-78) · 980M shares offered · raise about US$81.34B (about Rp1,484.6T) · market value about US$1.1T (about Rp20,000T) · 2.2x BEI market cap (Rp9,047T) · first-day close reportedly US$97.17 (+17.1%) · public float about 7% · Indonesian retail cannot buy at IPO price",
+      "storyline": "",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "detikFinance", "url": "https://finance.detik.com/bursa-dan-valas/d-8760676/harga-ipo-anthropic-resmi-us-83-per-saham-nilai-pasarnya-84-pdb-ri"},
+        {"label": "ABC News", "url": "https://abcnews.com/Business/anthropic-announces-price-83-share-ipo/story?id=138245320"},
+        {"label": "Ajaib", "url": "https://ajaib.co.id/belajar/uncategorized/harga-saham-anthropic-ant-debut-nasdaq-naik-17-persen"}
+      ],
+      "why_it_matters": "One AI company is now worth more than twice the whole Indonesian stock market, and the IDX is losing foreign money while the world buys AI.",
+      "signals": {"spreading": 2, "wallet": 1, "surprise": 2, "visual": 2, "fresh": 1, "rivals": 1},
+      "spreading_evidence": "Multiple detik/CNBC/IDN pieces; comparison to PDB RI in headline",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-21",
+      "category": "ECO",
+      "event": "Indonesia and the European Union signed the IEU-CEPA trade deal and an Investment Protection Agreement in Brussels after about 10 years of talks, targeting entry into force on 1 January 2027.",
+      "key_numbers": "90.4% of Indonesian tariff lines at 0% on entry into force · 8.37% phased over 3-15 years · duty-free CPO quota 1.9M tonnes (+140,000 t palm oil) · trade about US$30B/year · EU investment about US$25B in 5 years · 72 GI products protected · EU Parliament debate begins 23 Nov",
+      "storyline": "",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/news/20261121225455-4-787238/resmi-diteken-ini-poin-poin-penting-kesepakatan-dagang-ri-uni-eropa"},
+        {"label": "ANTARA", "url": "https://jatim.antaranews.com/berita/1121963/indonesia-uni-eropa-tandatangani-ieu-cepa-perkuat-kerja-sama-dagang"},
+        {"label": "Kontan", "url": "https://nasional.kontan.co.id/news/i-eu-cepa-ditandatangani-mendag-optimistis-pasar-uni-eropa-makin-terbuka"}
+      ],
+      "why_it_matters": "Cheaper access to the EU for palm oil, garments and footwear exporters, and cheaper imported machinery.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-23",
+      "category": "ECO",
+      "event": "The European Parliament is scheduled to begin debating ratification of the IEU-CEPA on 23 November, with both sides needing to ratify before the 1 January 2027 target as Indonesia's EU GSP preferences end on 31 December 2026.",
+      "key_numbers": "EP debate 23 Nov 2026 · GSP ends 31 Dec 2026 · target entry into force 1 Jan 2027",
+      "storyline": "",
+      "update_of": "",
+      "status": "upcoming",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/news/20261121225455-4-787238/resmi-diteken-ini-poin-poin-penting-kesepakatan-dagang-ri-uni-eropa"}
+      ],
+      "why_it_matters": "Exporters risk a tariff gap in January if ratification slips.",
+      "signals": {"spreading": 0, "wallet": 1, "surprise": 0, "visual": 0, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-20",
+      "category": "MKT",
+      "event": "Nasdaq plans to station a team at the Indonesia Stock Exchange (BEI) from December to help strengthen trading surveillance, as BEI tightens oversight and reports 34.3 million capital market investors.",
+      "key_numbers": "Nasdaq team at BEI from December 2026 · investors 34.3 million · six companies reported queuing for IPO (detik 21 Nov)",
+      "storyline": "msci-reclassification",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/market/20261120211353-17-787138/perwakilan-bursa-saham-as-nasdaq-mau-berkantor-di-bei"},
+        {"label": "Katadata", "url": "https://katadata.co.id/finansial/bursa/6b0039e8d72c7/nasdaq-siapkan-tim-berkantor-di-bei-desember-perkuat-pengawasan-transaksi-saham"},
+        {"label": "detikFinance", "url": "https://finance.detik.com/bursa-dan-valas/d-8762373/nasdaq-mau-berkantor-di-bei"}
+      ],
+      "why_it_matters": "An attempt to win back foreign trust after MSCI doubts about manipulation and transparency.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 0, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-20",
+      "category": "GLB",
+      "event": "Brent crude closed at US$92.57 per barrel on 20 November, down 3.41% on the week and a third straight weekly decline, as Hormuz shipments recovered; OPEC+ meets 29 November on 2027 quotas.",
+      "key_numbers": "Brent Jan US$92.57 (-3.41% w/w; US$95.84 on 13 Nov) · WTI about US$83.41 (-5% w/w) · Goldman sees 2027 surplus about 2M bpd, Brent avg about US$88 · OPEC+ meeting 29 Nov",
+      "storyline": "fuel-oil",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "Industry.co.id", "url": "https://www.industry.co.id/read/159654/harga-minyak-hari-ini-22-november-2026-brent-us9257-turun-3-pekan"}
+      ],
+      "why_it_matters": "Lower oil eases pressure on the subsidy budget and on the rupiah, but subsidised fuel prices are frozen through 31 Dec anyway.",
+      "signals": {"spreading": 0, "wallet": 1, "surprise": 0, "visual": 1, "fresh": 1, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-19",
+      "category": "BIZ",
+      "event": "The Ministry of Forestry revoked the forest utilisation permit (PBPH) of PT RAPP (Group APRIL) over 338,536 hectares via decree 971/2026, announced by Satgas PKH; the government says operations will move to a BUMN/BUMD arrangement with no mass layoffs.",
+      "key_numbers": "338,536 ha PBPH revoked · SK Menhut 971/2026 dated 19 Nov · company says 41,000+ workers · about 18,363 ha oil palm in concession · 541 ha unpermitted mining · 212 ha protected area damage",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "Liputan Oke", "url": "https://m.liputanoke.com/read-72089-2026-11-22-skema-pemerintah-usai-cabut%C2%A0pbph-pt-rapp-tak-ada-phk-massal-bumnbumd-berpeluang-masuk.html"}
+      ],
+      "why_it_matters": "A huge pulp-and-paper operation and tens of thousands of jobs shift to state-linked control.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 2, "visual": 1, "fresh": 1, "rivals": 2},
+      "spreading_evidence": "",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-20",
+      "category": "ECO",
+      "event": "Labour group KSPI estimates layoff (PHK) victims could exceed 90,000 people by end-2026, with textiles hardest hit, while a Liputan6 tally cites about 72,000 in 2026 so far.",
+      "key_numbers": "KSPI estimate 90,000+ by end-2026 · Liputan6 count about 72,000 (2026 YTD) · textile industry most affected",
+      "storyline": "survival-mode",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "Bloomberg Technoz", "url": "https://www.bloombergtechnoz.com/detail-news/126676/versi-buruh-angka-phk-capai-90-000-orang-per-november"},
+        {"label": "Liputan6", "url": "https://www.liputan6.com/bisnis/read/8330881/72-ribu-pekerja-kena-phk-sepanjang-2026-cek-daftar-10-provinsi-teratas"}
+      ],
+      "why_it_matters": "Job losses are the clearest sign of household pressure behind the market slump.",
+      "signals": {"spreading": 1, "wallet": 2, "surprise": 1, "visual": 1, "fresh": 0, "rivals": 0},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    }
+  ],
+  "gaps": ["IHSG/rupiah Monday 23 Nov open not yet available at run time", "Anthropic first-day close US$97.17 (+17.1%) only from search snippets/Ajaib headline, page unreadable; another source claims 34% intraday pop", "KSPI 90,000 PHK figure and Liputan6 72,000 not opened in full (snippets only; dates unclear)", "bisnis.com and antaranews section pages not read separately; BPS November inflation release (expected early Dec) not verified"]
+}

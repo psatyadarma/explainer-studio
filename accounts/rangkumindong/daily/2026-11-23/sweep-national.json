@@ -1,0 +1,390 @@
+{
+ "area": "national",
+ "run_date": "2026-11-23",
+ "checked": [
+  "detik terpopuler news (22 Nov 08:56)",
+  "CNN Indonesia nasional terbaru (to 22 Nov 17:33)",
+  "Antara homepage",
+  "CNBC Indonesia news",
+  "TurnBackHoax homepage",
+  "Watch topics found: most-read, disasters (Cikande fire, floods, Ibu/Semeru), crime (narkoba), viral (Yudhi sujud), hoaxes",
+  "Storylines: Megawati/Listyo-Sigit, Gibran VP replacement, Perampasan Aset"
+ ],
+ "events": [
+  {
+   "date": "2026-11-21",
+   "category": "NEWS",
+   "event": "A fire at the PT Fonusa Agung Mulia candy factory in Pancatama, Cikande, Serang (Banten) killed workers and left dozens missing; the company apologised.",
+   "key_numbers": "Early 22 Nov: 3 dead · 36 missing · 15 safe · 4 injured (police earlier said 42 workers unreachable) · later headlines: 6-7 body bags evacuated, BPBD Serang counts 16 employees safe · cause not stated",
+   "storyline": "",
+   "update_of": "",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/nasional/20261122100955-20-1429979/update-kebakaran-pabrik-permen-di-cikande-3-tewas-36-hilang"
+    },
+    {
+     "label": "CNN Indonesia (update)",
+     "url": "https://www.cnnindonesia.com/nasional/20261122151116-20-1430085/update-kebakaran-pabrik-permen-cikande-7-kantong-jenazah-dievakuasi"
+    },
+    {
+     "label": "detik",
+     "url": "https://news.detik.com/berita/d-8764003/bpbd-serang-catat-16-karyawan-selamat-dalam-kebakaran-pabrik-di-cikande"
+    }
+   ],
+   "why_it_matters": "Factory-safety failure with a rising death toll hits ordinary workers; the death toll and cause are still moving.",
+   "signals": {
+    "spreading": 2,
+    "wallet": 1,
+    "surprise": 2,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 2
+   },
+   "spreading_evidence": "detik terpopuler #6; CNN Indonesia nasional top 5 headlines; Antara homepage",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-19",
+   "category": "POL",
+   "event": "Megawati Soekarnoputri said at a STIPAN graduation oration that she will not join the Prabowo government ('Terima kasih, saya di luar saja'), also criticising wiretapping, the police and KPK; PDIP says it was not about the offer being too small.",
+   "key_numbers": "Said 19 Nov, 21:26 WIB · PDIP summoned by police 3 times, by prosecutors once (her account) · reactions from Gerindra and PKB on 22 Nov",
+   "storyline": "listyo-sigit-penyadapan",
+   "update_of": "E0678",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "Suara.com",
+     "url": "https://www.suara.com/news/2026/11/19/212635/megawati-tegaskan-pilih-di-luar-pemerintahan-kalau-diajak-saya-bilang-terima-kasih"
+    },
+    {
+     "label": "detik",
+     "url": "https://news.detik.com/berita/d-8763985/megawati-tolak-gabung-pemerintahan-pdip-tegaskan-bukan-gegara-tawaran-kurang"
+    }
+   ],
+   "why_it_matters": "Shows whether the largest opposition party will stay outside the government while the VP seat and wiretap case are open.",
+   "signals": {
+    "spreading": 2,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 0,
+    "fresh": 1,
+    "rivals": 1
+   },
+   "spreading_evidence": "detik terpopuler #2, #3, #4 (Megawati/Gerindra/PKB reactions)",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-11-20",
+   "category": "NEWS",
+   "event": "Ma'ruf Amin resigned as chair of MUI's Dewan Pertimbangan (Wantim) and kept his decision despite requests to stay; MUI is discussing a successor.",
+   "key_numbers": "Resignation letter dated 23 Dec 2025, processed only the week of 20 Nov 2026 · 2025-2030 term · no successor named yet",
+   "storyline": "",
+   "update_of": "",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "Liputan6",
+     "url": "https://www.liputan6.com/news/read/8338922/maruf-amin-mundur-dari-ketua-dewan-pertimbangan-mui"
+    },
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/nasional/20261122173349-32-1430123/maruf-amin-kukuh-mundur-dari-ketua-wantim-mui-walau-diminta-bertahan"
+    }
+   ],
+   "why_it_matters": "A former vice president leaving the country's top clerical body; the reason given is to be closer to the people.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 0,
+    "fresh": 1,
+    "rivals": 2
+   },
+   "spreading_evidence": "CNN Indonesia nasional #1 (22 Nov)",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-21",
+   "category": "NEWS",
+   "event": "Kapolri Suyudi Ario Seto said Polri has seized about 600 tons of narcotics in nearly two months and busted an Indonesia-Malaysia network.",
+   "key_numbers": "600 tons since taking office (~2 months) · 'hundreds of trillions' rupiah (Kapolri) · network: 4 suspects, Madura/Surabaya/Kalimantan · assets ~Rp150 billion seized · Rp2.9 trillion transactions 2018-2024 under TPPU probe",
+   "storyline": "",
+   "update_of": "",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "Viva",
+     "url": "https://www.viva.co.id/berita/nasional/1945538-polri-sita-600-ton-berbagai-jenis-narkoba-selama-2-bulan"
+    },
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/nasional/20261122143813-12-1430061/bongkar-jaringan-internasional-polri-sita-600-ton-narkoba"
+    },
+    {
+     "label": "RRI",
+     "url": "https://rri.co.id/nasional/2916026/polri-sita-600-ton-narkotika-bongkar-jaringan-internasional"
+    }
+   ],
+   "why_it_matters": "A record-scale claim (600 tons) people will want sanity-checked: what counts, how the weight is measured.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 0,
+    "surprise": 2,
+    "visual": 2,
+    "fresh": 2,
+    "rivals": 2
+   },
+   "spreading_evidence": "CNN Indonesia nasional top 10; widely covered by many outlets",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-22",
+   "category": "NEWS",
+   "event": "Bengkulu police chief Irjen Yudhi Sulistianto Wahid was moved from his post after his prostration video went viral, in a batch of Kapolres/Kapolda mutations by the Kapolri.",
+   "key_numbers": "Mutation announced 22 Nov · related video viral 21 Nov (E1025) · exact new post not confirmed from headline",
+   "storyline": "",
+   "update_of": "E1025",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/nasional/20261122153044-20-1430091/irjen-yudhi-dimutasi-dari-kapolda-bengkulu-usai-viral-aksi-sujud"
+    },
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/nasional/20261122144613-20-1430063/daftar-lengkap-kapolres-yang-dimutasi-kapolri"
+    }
+   ],
+   "why_it_matters": "Viral behaviour by a senior officer led to a quick consequence.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "CNN Indonesia nasional headlines; detik feed",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-11-22",
+   "category": "ENV",
+   "event": "Floods hit areas from North Sumatra to West Kalimantan, affecting hundreds of families.",
+   "key_numbers": "'Ratusan keluarga' affected (no exact figure read) · BMKG heavy-rain warning for Sunday 22 Nov",
+   "storyline": "",
+   "update_of": "E0910",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/nasional/20261122170404-20-1430117/banjir-di-sumut-hingga-kalbar-ratusan-keluarga-terdampak"
+    },
+    {
+     "label": "Antara",
+     "url": "https://www.antaranews.com/berita/5870391/bmkg-peringatkan-hujan-lebat-di-sejumlah-wilayah-indonesia-pada-minggu"
+    }
+   ],
+   "why_it_matters": "Rainy-season floods keep spreading across regions.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 1,
+    "surprise": 0,
+    "visual": 0,
+    "fresh": 2,
+    "rivals": 0
+   },
+   "spreading_evidence": "CNN Indonesia nasional top 3",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-22",
+   "category": "ENV",
+   "event": "Mount Ibu (North Maluku) and Mount Semeru erupted, throwing ash hundreds of metres high.",
+   "key_numbers": "Ibu ash column 400 m · Semeru ash 'hundreds of metres'",
+   "storyline": "",
+   "update_of": "",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "Antara",
+     "url": "https://www.antaranews.com/berita/5870475/gunung-ibu-erupsi-dengan-kolom-abu-setinggi-400-meter"
+    },
+    {
+     "label": "Antara",
+     "url": "https://www.antaranews.com/berita/5870347/gunung-semeru-dan-ibu-meletus-lontarkan-abu-vulkanik-ratusan-meter"
+    }
+   ],
+   "why_it_matters": "Volcano activity affects flights and nearby villages.",
+   "signals": {
+    "spreading": 0,
+    "wallet": 0,
+    "surprise": 0,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 0
+   },
+   "spreading_evidence": "Antara homepage disasters block",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-22",
+   "category": "NEWS",
+   "event": "The Kunstkring Paleis monument (Tugu Kunstkring, Jakarta) burned in a pre-dawn fire.",
+   "key_numbers": "Fire pre-dawn 22 Nov · damage/cause not read from headline",
+   "storyline": "",
+   "update_of": "",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "detik",
+     "url": "https://news.detik.com/berita/d-8763999/hangus-tugu-kunstkring-paleis-dilalap-api-saat-dini-hari"
+    }
+   ],
+   "why_it_matters": "A Jakarta heritage landmark damaged by fire.",
+   "signals": {
+    "spreading": 2,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 2,
+    "fresh": 2,
+    "rivals": 2
+   },
+   "spreading_evidence": "detik terpopuler #5",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-22",
+   "category": "POL",
+   "event": "DPR figures (Sahroni, Golkar) said leaving illicit enrichment out of the Asset Forfeiture bill was a considered choice and that it is already covered by the Tipikor and TPPU laws.",
+   "key_numbers": "Illicit enrichment excluded from RUU Perampasan Aset (E0954) · Golkar: already regulated in UU Tipikor-TPPU",
+   "storyline": "corruption-cases",
+   "update_of": "E0954",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "detik",
+     "url": "https://news.detik.com/berita/d-8763993/sahroni-illicit-enrichment-tak-masuk-uu-perampasan-aset-sudah-dipertimbangkan"
+    },
+    {
+     "label": "detik",
+     "url": "https://news.detik.com/berita/d-8763963/legislator-golkar-pastikan-illicit-enrichment-sudah-diatur-di-uu-tipikor-tppu"
+    }
+   ],
+   "why_it_matters": "Decides whether officials with unexplained wealth can have it seized.",
+   "signals": {
+    "spreading": 2,
+    "wallet": 1,
+    "surprise": 1,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "detik terpopuler #1 and #8",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-21",
+   "category": "POL",
+   "event": "DPD chairman proposed that President Prabowo have three vice presidents and explained the idea on 22 Nov; Yenny Wahid called Dasco capable as VP.",
+   "key_numbers": "Proposal: 3 VPs · MPR plenary to pick new VP set for 9 Dec (E0898)",
+   "storyline": "gibran-ijazah-mk",
+   "update_of": "E0942",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "CNBC Indonesia",
+     "url": "https://www.cnbcindonesia.com/news/20261121185001-4-787222/ketua-dpd-usul-prabowo-punya-3-wapres-ini-alasannya"
+    },
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/nasional/20261122132659-32-1430033/ketua-dpd-jelaskan-maksud-usulan-wapres-lebih-dari-satu"
+    },
+    {
+     "label": "Antara",
+     "url": "https://www.antaranews.com/berita/5870435/layak-jadi-wapres-yenny-wahid-sebut-dasco-tokoh-politik-yang-cakap"
+    }
+   ],
+   "why_it_matters": "Changes the VP succession debate from one seat to three.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 0,
+    "surprise": 2,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "CNBC Indonesia latest #5; CNN Indonesia nasional",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-11-21",
+   "category": "NEWS",
+   "event": "TurnBackHoax rated false several viral claims: a video of Prabowo ordering TNI/Polri to follow up demonstrations (actually an August 2025 speech), an AI photo of Jokowi arrested by Brimob, and a claim that Sri Sultan HB X halted MBG in Yogyakarta.",
+   "key_numbers": "Prabowo video: from Aug 2025 speech · Jokowi photo: AI-made · MBG Jogja: 97 SPPG suspended for funding/operational reasons, not Sultan's order",
+   "storyline": "hoax-tracker",
+   "update_of": "E1003",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "TurnBackHoax",
+     "url": "https://turnbackhoax.id/articles/37499-salah-prabowo-meminta-tni-dan-polri-menindaklanjuti-aksi-demonstrasi-belakangan-ini"
+    },
+    {
+     "label": "TurnBackHoax",
+     "url": "https://turnbackhoax.id/articles/37489-salah-foto-jokowi-ditangkap-pasukan-brimob"
+    },
+    {
+     "label": "TurnBackHoax",
+     "url": "https://turnbackhoax.id/articles/37488-salah-sri-sultan-hamengkubuwono-x-hentikan-mbg-di-jogja-ubah-dana-untuk-pendidikan"
+    }
+   ],
+   "why_it_matters": "Political hoaxes keep spreading using old footage and AI images.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "TurnBackHoax homepage 19-21 Nov; fact-checkers repeat",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-22",
+   "category": "NEWS",
+   "event": "Police examined the victim in the alleged rape case against Kupang Regent Yosef Lede.",
+   "key_numbers": "Victim examined 22 Nov · case upgraded to investigation earlier (E0973)",
+   "storyline": "",
+   "update_of": "E0973",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/nasional/20261122141610-12-1430052/polisi-periksa-korban-kasus-dugaan-pemerkosaan-bupati-kupang"
+    }
+   ],
+   "why_it_matters": "Tests whether the case against a sitting regent proceeds.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 0,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "CNN Indonesia nasional #11",
+   "sensitivity": "high"
+  }
+ ],
+ "gaps": [
+  "WebFetch blocked mid-run (permission timeout): Cikande 7 body-bag update, Yudhi mutation, floods and DPD articles read from headlines only (partial)",
+  "Per-storyline searches (karhutla, tentara-bayaran-rusia, pengadaan-480t etc.) not run",
+  "Cause of Cikande fire and final death toll unconfirmed",
+  "Antara/CNBC popular lists not loaded; kompas not read",
+  "Chakz (ex-PSI) defamation case and Riza Chalid Kejagung (detik/CNN headlines) not covered"
+ ]
+}
