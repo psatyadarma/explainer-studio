@@ -219,3 +219,9 @@ History moved out of HANDOFF.md (22 Oct) so fresh sessions read less. Append one
 - No pick by 14:00 → default ⭐. Hook-critic PICK A "Upah minimum kotamu diputus minggu depan. Tanggal berapa?". Full FC 1 FIX (minggu ini→depan) + "Ketua MPR" dropped (unverified). Producer 82.4 s (two-part render), Yassierli cut-out, Dony name tag; QA 3 rounds → PASS.
 - health.py IG-missing WARN was a false alarm → fixed (18–36 h / 56–84 h windows). W47: named person + hard claim hook drives reach; weekly 7-min weak on IG (ask: YT-only or 3-min IG cut).
 - 18:00 re-check: no date changes. 18:40 default post denied (no live yes) → held; user "Ok to post" 19:51 → posted ~19:55 (IG DgCveoNEotu, YT Wo2nWm-aQGo).
+
+## 2026-11-23 (Mon, Anthropic 2× BEI (default pick); Pratama, person_collage, block subs, short, no B)
+- Health all OK. Sweeps 11/9/6/12 (+37 merged; WebFetch blocks on CNN/Kompas/Tempo article pages again). Ideas ⭐ Anthropic 9/12 (IHSG/Cikande/Kapolda 10/12; ⭐ kept for the only licensed face in today's person_collage slot — light FC flagged the ranking rule, reason rewritten honestly).
+- No pick by 14:00 → default ⭐; user live "Ok to post" at ~14:05. Hook-critic PICK A "Perusahaan pria ini nilainya dua kali bursa Indonesia." Full FC 2 FIX (BEI Rp9.047 T 13 Nov → Rp8.725 T 20 Nov; drop unspoken on-screen numbers) + AI disclosure line in all captions (video about Anthropic, made with Claude).
+- Producer: Dario Amodei cut-out (Commons CC BY 2.0; rembg installed, bust crop), 49.5 s. QA 4 rounds: sync −160 ms → SUB_LEAD −0.05 + retimed 7 late words in build/timing.json; +17% badge overlap; end card hold. PASS.
+- Scheduled at 14:45 with `--when` → live 19:00 (IG DgFORiKklqf, YT SLtwl2FN9fU). Analyst: Google kanal 72 h IG 18.7% / YT 50.9%; Minggu Depan ~23 h IG 19.6%.

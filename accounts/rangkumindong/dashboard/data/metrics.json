@@ -2086,5 +2086,53 @@
 "shares": 0,
 "saves": 0,
 "follows": 0
+},
+{
+"date": "2026-11-23",
+"folder": "videos/2026-11-22-minggu-depan-23-29-nov",
+"platform": "instagram",
+"hours": 23,
+"views": 122,
+"avg_watch_pct": 19.6,
+"hold_3s_pct": null,
+"shares": 0,
+"saves": 0,
+"follows": null
+},
+{
+"date": "2026-11-23",
+"folder": "videos/2026-11-22-minggu-depan-23-29-nov",
+"platform": "youtube",
+"hours": 23,
+"views": 905,
+"avg_watch_pct": null,
+"hold_3s_pct": null,
+"shares": 0,
+"saves": null,
+"follows": 0
+},
+{
+"date": "2026-11-23",
+"folder": "videos/2026-11-20-google-hapus-kanal-youtube-komdigi",
+"platform": "instagram",
+"hours": 72,
+"views": 44,
+"avg_watch_pct": 18.7,
+"hold_3s_pct": null,
+"shares": 0,
+"saves": 2,
+"follows": null
+},
+{
+"date": "2026-11-23",
+"folder": "videos/2026-11-20-google-hapus-kanal-youtube-komdigi",
+"platform": "youtube",
+"hours": 72,
+"views": 199,
+"avg_watch_pct": 50.9,
+"hold_3s_pct": null,
+"shares": 0,
+"saves": null,
+"follows": 0
 }
 ]
