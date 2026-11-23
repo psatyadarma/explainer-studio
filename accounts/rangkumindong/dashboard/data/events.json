@@ -1,75 +1,5 @@
 [
 {
-"id": "E0298",
-"date": "2026-10-24",
-"category": "ENV",
-"event": "Central Kalimantan's emergency command post reports cumulative karhutla totals through 23 October, while thick smoke still covers Palangka Raya and Palembang and the Health Minister urges KN95 masks. (update of E0249)",
-"key_numbers": "Kalteng cumulative to 23 Oct: 6,952 incidents, 20,108.18 ha · 23 Oct alone: 51 incidents, 140.31 ha · Palangka Raya cumulative: 957 incidents, 1,286.94 ha · Palangka Raya emergency status to 9 Nov (E0249)",
-"storyline": "karhutla",
-"status": "verified",
-"upcoming": false
-},
-{
-"id": "E0299",
-"date": "2026-10-24",
-"category": "ENV",
-"event": "A fire on Gunung Ciremai (Kuningan, West Java) is reported at 10 fire points, and the West Java provincial government deploys water-bombing helicopters after the fire spread from about 5 hectares to tens of hectares.",
-"key_numbers": "Fire first seen night of 21 Oct · from ~5 ha to tens of ha (23 Oct) · 10 fire points (24 Oct, per CNN Indonesia headline) · altitude ~1,000 m asl",
-"storyline": "karhutla",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0300",
-"date": "2026-10-24",
-"category": "NEWS",
-"event": "Police in Tangerang Selatan investigate alleged bullying and extortion of 14 female students at SMP Negeri 10 Tangsel (Ciputat), reportedly forced by senior students to drink a homemade mixture; 3 needed hospital care.",
-"key_numbers": "14 victims · 3 hospitalised · demanded Rp5,000-10,000 each · mixture reportedly vinegar, garlic, coffee (unconfirmed extras)",
-"storyline": "",
-"status": "verified",
-"upcoming": false
-},
-{
-"id": "E0301",
-"date": "2026-10-24",
-"category": "POL",
-"event": "Pollster IPO releases a survey finding 66 percent of the public satisfied with Prabowo's performance, with Gerindra topping party electability and PSI at 2.9 percent; Amran is rated the best minister and Raja Juli the worst. (update of E0072)",
-"key_numbers": "66% satisfied with Prabowo · PSI electability 2.9% · Gerindra highest, then PDIP and Golkar · best minister Amran, most popular Bahlil, worst Raja Juli",
-"storyline": "prabowo-2-years",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0312",
-"date": "2026-10-24",
-"category": "TECH",
-"event": "Counterpoint Research data reported by Bisnis.com show global PC shipments fell 21% y/y in Q3 2026 because DRAM and NAND memory costs pushed laptop prices up and buyers delayed purchases.",
-"key_numbers": "57 million units in Q3 2026 (-21% y/y) · Lenovo 15 m (26.3%) · HP 10.3 m (18.1%) · Dell 7.6 m (13.3%) · Apple ~5.6 m laptops (-11%, 9.8% share) · Asus 5.2 m (+19.4% q/q) · Counterpoint sees Q4 down again, up to -27% for full 2026, flat 2027",
-"storyline": "chip-ram-prices",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0314",
-"date": "2026-10-24",
-"category": "GLB",
-"event": "Malaysia bars civil servants from using Waze on official matters over fears that data could leak to Israel, per detik and CNBC Indonesia.",
-"key_numbers": "Report dated 24 Oct 2026 · applies to ASN/PNS · reason: data-leak concern (Israel link) as reported",
-"storyline": "",
-"status": "verified",
-"upcoming": false
-},
-{
-"id": "E0323",
-"date": "2026-10-24",
-"category": "NEWS",
-"event": "Police deploy sonar and drones to search for victims of a sunken boat at Labuan Bajo, and Basarnas recovers the body of a woman believed to be a foreigner at Nyang Nyang beach, Bali. (update of E0275)",
-"key_numbers": "Details of victim count not in sources read",
-"storyline": "",
-"status": "partial",
-"upcoming": false
-},
-{
 "id": "E0145",
 "date": "2026-10-25",
 "category": "TECH",
@@ -7510,6 +7440,16 @@
 "upcoming": false
 },
 {
+"id": "E1089",
+"date": "2026-11-21",
+"category": "NEWS",
+"event": "Police confirmed 24 bodies from the 21 Nov fire at the PT Fonusa Agung Mulia candy factory in Cikande, Serang, while 43 workers were reported missing and an AC short circuit is the preliminary cause. (update of E1054)",
+"key_numbers": "24 body bags confirmed as 24 different people (+2 more at RS Bhayangkara, unidentified) · 43 employees missing per BPBD Serang · fire ~17:00 WIB Sat 21 Nov · workers trapped on second floor, few exits",
+"storyline": "",
+"status": "verified",
+"upcoming": false
+},
+{
 "id": "E1039",
 "date": "2026-11-22",
 "category": "POL",
@@ -7690,6 +7630,36 @@
 "upcoming": false
 },
 {
+"id": "E1078",
+"date": "2026-11-22",
+"category": "TECH",
+"event": "CNBC Indonesia reported that warung owners at a pujasera in Setiabudi, South Jakarta, are paid Rp10.000 per hour by a China-based company to film their cooking with head-mounted cameras, which a security expert says is data for training humanoid robots and may breach the PDP Law.",
+"key_numbers": "Rp10.000 per hour pay · head-mounted wide-angle camera + offline camera + power bank · vendor count not given · recruiter said it was AI for people with disabilities",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E1079",
+"date": "2026-11-22",
+"category": "TECH",
+"event": "DJP reported it has collected Rp2.23 trillion in tax on crypto assets since the levy began in 2022, with Rp341.61 billion collected in January-October 2026.",
+"key_numbers": "Total Rp2,23 T (2022-Oct 2026) · 2022 Rp246,54 M · 2023 Rp220,89 M · 2024 Rp620,38 M · 2025 Rp796,74 M · Jan-Oct 2026 Rp341,61 M · total digital-economy tax Rp60,1 T · PMSE VAT Rp46,36 T",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E1086",
+"date": "2026-11-22",
+"category": "TECH",
+"event": "CNBC Indonesia reported Meta restricted over 5.4 million posts and accounts in India in H1 2026 after government orders, second only to Indonesia, prompting protests at Meta offices in Hyderabad, Mumbai and Gurugram. (update of E1053)",
+"key_numbers": "5,4 juta posts/accounts restricted in India H1 2026 vs about 70.000 in prior period · India second behind Indonesia · removal deadline cut from 36 to 3 hours in Feb 2026 · protests 20-21 Nov",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
 "id": "E0862",
 "date": "2026-11-23",
 "category": "BIZ",
@@ -7710,6 +7680,246 @@
 "upcoming": false
 },
 {
+"id": "E1066",
+"date": "2026-11-23",
+"category": "MKT",
+"event": "The IHSG closed up 1.35% at 5,215.85 on Monday 23 November, rebounding after five straight daily losses and a 3.71% weekly drop. (update of E1004)",
+"key_numbers": "Close 5,215.85 (+69.52 pts, +1.35%) vs 5,146.33 prior close · open 5,134.06, low 5,062.09, high 5,244.35 · volume about 340.71 million lots · value about Rp10.41 trillion · basic materials sector +5.36%, energy +2.60% · top support BBCA, TPIA, BRPT, ASII, BRMS · top drag INDF, GOTO, UNTR, TLKM, AKRA",
+"storyline": "msci-reclassification",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E1067",
+"date": "2026-11-23",
+"category": "MKT",
+"event": "Foreign investors were net sellers of Rp673.09 billion of Indonesian stocks on 23 November even as the IHSG rose 1.35%, led by sales of BMRI, BBRI and TLKM. (update of E0920)",
+"key_numbers": "Foreign net sell Rp673.09 billion (23 Nov, full day) · midday net sell Rp512 billion (Kompas) · BMRI Rp231.26 billion · BBRI Rp187.69 billion · TLKM Rp148.34 billion · GOTO Rp122.45 billion · BBNI Rp68.99 billion · net buy BBCA Rp174.55 billion",
+"storyline": "msci-reclassification",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E1068",
+"date": "2026-11-23",
+"category": "MKT",
+"event": "Reuters, citing Bloomberg, reported that President Prabowo held a call of over an hour with MSCI CEO Henry Fernandez on 10 November, facilitated by Ray Dalio, and that Fernandez said MSCI does not necessarily intend to downgrade Indonesia.",
+"key_numbers": "Call on 10 Nov, over 1 hour · participants Prabowo, Henry Fernandez, Danantara CEO Rosan Roeslani; Ray Dalio facilitated · MSCI warned Indonesia could be removed from its index in 2027 or fall from emerging to standalone market · IHSG up 1.46% to 5,221.37 at 11:05 WIB on report · Reuters could not verify; MSCI, Dalio and palace did not comment",
+"storyline": "msci-reclassification",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E1069",
+"date": "2026-11-23",
+"category": "MKT",
+"event": "The rupiah closed stronger by 0.37% at Rp18,203 per US dollar on 23 November, and Bank Indonesia credited SRBI inflows, hedging incentives and MSCI CEO's remarks. (update of E1005)",
+"key_numbers": "Close Rp18,203 per USD (+0.37%) · previous close about Rp18,270 (20 Nov, implied) · SRBI auction last week over US$1 billion · BI interventions: offshore NDF, domestic spot and DNDF, SBN purchases",
+"storyline": "rupiah",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E1070",
+"date": "2026-11-23",
+"category": "ECO",
+"event": "Food Coordinating Minister Zulkifli Hasan said about Rp400 trillion of government aid and subsidies is misdirected each year and that subsidised goods such as LPG 3 kg, fertiliser and rice will be distributed through Kopdes Merah Putih.",
+"key_numbers": "Rp400 trillion/year misdirected (40% of a budget of nearly Rp1,000 trillion, per a study he cited) · LPG 3 kg: Pertamina Rp13,700, buyers often pay Rp23,000-24,000, Kopdes example price Rp16,500 (max about Rp18,000) · target 10,000 Kopdes operating by end-2026 · 83,359 cooperatives with legal status, 30,725 sites 100% built of 83,766 villages (22 Nov)",
+"storyline": "survival-mode",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E1071",
+"date": "2026-11-23",
+"category": "BIZ",
+"event": "Bayan Resources (BYAN) shareholders approved at an EGM a new board with Ary Bastari replacing Low Tuck Kwong as president director, after PT Jhonlin Baratama (Haji Isam) bought 10.08 billion shares for a 30.25% stake.",
+"key_numbers": "Haji Isam's PT Jhonlin Baratama: 10.08 billion shares = 30.25% · new president director Ary Bastari (replaces Low Tuck Kwong) · Budi Waseso independent president commissioner · Hatta Rajasa independent commissioner · Haji Isam's son joins as director (per CNBC/detik headlines) · share price not reported",
+"storyline": "bayan-haji-isam",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E1072",
+"date": "2026-11-23",
+"category": "ECO",
+"event": "Coordinating Minister for Downstreaming and Energy Bahlil Lahadalia said Indonesia respects its pipeline gas export contract with Singapore, blaming a roughly 8% volume cut on pipeline repairs.",
+"key_numbers": "Cut about 31 MMSCFD of about 409.5 MMSCFD total pipeline exports (about 8%) per Bahlil · SKK Migas: 15 BBTUD from Natuna and 16 BBTUD from Sumatra · cut announced 24 Oct · Bahlil says domestic needs come first · whether normal volumes resumed not confirmed",
+"storyline": "survival-mode",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E1073",
+"date": "2026-11-23",
+"category": "POL",
+"event": "President Prabowo formally submitted Sugiono and Andi Amran Sulaiman to the MPR as the two candidates to replace Gibran Rakabuming Raka as Vice President. (update of E1013)",
+"key_numbers": "2 candidates · submitted 23 Nov 2026 · MPR verification team formed 13 Nov, reportedly 36 people · verification up to 7 days (Pasal 127) · gaps fixable until 4 days before plenary (Pasal 128) · term runs to 2029",
+"storyline": "gibran-ijazah-mk",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E1074",
+"date": "2026-11-23",
+"category": "POL",
+"event": "Lawyers for ex-Deputy Minister Silmy Karim said at the Jakarta Tipikor trial that he built a system to prevent illegal levies and that the extortion allegation must be proven. (update of E0835)",
+"key_numbers": "",
+"storyline": "corruption-cases",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E1075",
+"date": "2026-11-23",
+"category": "NEWS",
+"event": "Police questioned two people identified as EK and LS for 12 hours in the alleged rape case against Kupang Regent Yosef Lede. (update of E1065)",
+"key_numbers": "12 hours of questioning · 23 Nov 2026",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E1076",
+"date": "2026-11-23",
+"category": "TECH",
+"event": "Green SM Indonesia confirmed Green SM Bike, its electric motorbike ride-hailing service, will officially stop operating on 25 November 2026 at 23:59 WIB, while its electric car services continue. (update of E0986)",
+"key_numbers": "Closure 25 Nov 2026 23:59 WIB · vehicle return window 21-25 Nov, 09:00-23:00 · refunds of deposit/e-wallet/rental fees and prorated earnings paid within 7 working days · late returns void transition benefits · priority to become Green SM car driver",
+"storyline": "ojol-green-sm",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E1077",
+"date": "2026-11-23",
+"category": "TECH",
+"event": "Telkomsel launched OCTA Token, a pay-as-you-go prepaid token pack giving access to 69 AI models from providers including OpenAI, Google, Anthropic and DeepSeek, without a subscription.",
+"key_numbers": "Rp100.000 / Rp250.000 / Rp500.000 (tax included) · 69 AI models · 500 MB data bonus valid 30 days · token balance has no expiry · bought via MyTelkomsel for Simpati and Halo",
+"storyline": "",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E1080",
+"date": "2026-11-23",
+"category": "TECH",
+"event": "The US Justice Department moved to forfeit more than US$1 billion of crypto stolen in the October Binance hack, which Binance linked to a hacking group tied to North Korea. (update of E0792)",
+"key_numbers": "Forfeiture sought about US$1,1 miliar · total theft US$6,3 miliar · US says it helped freeze/seize/return over US$2,9 miliar across cases · ADGM Courts order granted to Binance last week",
+"storyline": "crypto-hacks",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E1081",
+"date": "2026-11-23",
+"category": "TECH",
+"event": "Komdigi's written statement and Katadata/Drone Emprit figures show Google removed 19,372 Indonesia-linked YouTube channels in Q3 2026 (47% of all removals that quarter), and Google admitted its bulletin lacked explanation. (update of E0989)",
+"key_numbers": "Q3 2026: 19.372 channels (Jul 6.888 · Aug 10.134 · Sep 2.350) = 47% of all removed · cumulative Q4 2021-Q3 2026 per Drone Emprit: 27.516 Indonesian channels, third after China 275.030 (68%) and Russia 55.941 · Komdigi asked for written methodology, machine/human review roles, error rates, whether channels were based in Indonesia",
+"storyline": "google-youtube-channels",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E1082",
+"date": "2026-11-23",
+"category": "TECH",
+"event": "Anthropic (ANT) shares fell about 4.5% intraday on Monday 23 November to around US$84.87, only slightly above the US$83 IPO price, after a 9% drop on Friday following a 17% first-day gain. (update of E0965)",
+"key_numbers": "US$84,87 (-4,55%) at 15:07 ET · IPO price US$83 · Thursday +17% · Friday -9% · up to 315 juta shares (about 1/3 of the offering) eligible for sale soon · fully diluted valuation about US$1,5 T, roughly 40x trailing sales · commitments about US$900 miliar over 20 years",
+"storyline": "anthropic-ipo",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E1083",
+"date": "2026-11-23",
+"category": "TECH",
+"event": "CNBC Indonesia reported Trump threatened very large taxes on US companies that build data centres abroad, saying the US will not allow its companies to build data centres outside the country. (update of E1015)",
+"key_numbers": "No tax rate or amount given · quote at White House press conference reported by Reuters 23 Nov · Equinix and Digital Realty named as major overseas operators · US Commerce reportedly tightened AI-chip export limits to some Southeast Asian countries",
+"storyline": "ai-data-centres",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E1084",
+"date": "2026-11-23",
+"category": "TECH",
+"event": "DailySocial analysis found Indonesia's announced AI data-centre capacity of about 1,810 MW is more than three times current installed capacity, while named tenants are scarce.",
+"key_numbers": "Announced about 1.810 MW (not 2.170 MW, which double-counts Firmus 360 MW Batam) · installed national 400-580 MW · Zankore 200 MW contracted to unnamed customers (1/5 of 1 GW target), loans up to US$3,1 miliar · CoreWeave 360 MW from 2028 · Indosat AI cloud revenue US$50 juta in 9M 2026 (target US$100 juta 2026, US$300 juta 2027) · about US$50 juta per MW",
+"storyline": "ai-data-centres",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E1085",
+"date": "2026-11-23",
+"category": "TECH",
+"event": "Radar Bandung, citing OJK, reported the Indonesia Anti-Scam Centre (IASC) has blocked Rp825.2 billion in scam funds and returned Rp207.16 billion to victims between 22 November 2024 and 30 September 2026.",
+"key_numbers": "702.342 reports · 1.372.483 suspected scam accounts verified · 702.833 accounts coordinated for blocking · Rp825,2 M blocked · Rp207,16 M returned (about 25% of blocked) · period 22 Nov 2024-30 Sep 2026",
+"storyline": "online-scams",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E1087",
+"date": "2026-11-23",
+"category": "POL",
+"event": "Bareskrim Polri named ex-Kapolri Gen. Listyo Sigit Prabowo and five other officers suspects in an alleged treason (makar) plot against President Prabowo, announced by Kabareskrim Komjen Asep Safrudin. (update of E0998)",
+"key_numbers": "6 suspects (Listyo Sigit, Irjen Slamet Uliandi, Irjen Eko Hadi Santoso, Irjen Ahrie Sonta Nasution, Brigjen Tedjo Kusumo, Kombes Iman Imanuddin) · KUHP Art. 191, 193, 196 · max penalty death/life/20 years · 71 witnesses examined (Detik photo caption) · 500 three-finger shirts alleged",
+"storyline": "listyo-sigit-penyadapan",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E1088",
+"date": "2026-11-23",
+"category": "POL",
+"event": "Prabowo submitted two vice-presidential candidates, Agriculture Minister Amran Sulaiman and Coordinating Minister Sugiono, to MPR chair Ahmad Muzani to replace Gibran; Dasco was not chosen. (update of E1013)",
+"key_numbers": "2 candidates · MPR verification 23 Nov-1 Dec (report 1 Dec 10:00 WIB) · MPR vote 11 Dec 2026 · 732 MPR members (580 DPR + 152 DPD) · most votes wins (Art. 140(2))",
+"storyline": "gibran-ijazah-mk",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E1090",
+"date": "2026-11-23",
+"category": "ECO",
+"event": "Thirty-three provinces had set their 2027 UMP as of 23 Nov, with Bali up 42.15% to Rp4,559,287, DKI Jakarta highest and NTT lowest. (update of E1022)",
+"key_numbers": "33 provinces set, 5 pending · Jakarta Rp6,136,941 (highest) · NTT Rp2,602,441 (lowest) · Bali +42.15% to Rp4,559,287 (largest rise) · CNBC: most others +7-8% (Kontan headline)",
+"storyline": "ump-2027",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E1091",
+"date": "2026-11-23",
+"category": "ENV",
+"event": "PLN's CEO took personal charge of restoring power in Sulbagsel (South Sulawesi system) after El Nino-reduced hydro output cut supply by about 600 MW.",
+"key_numbers": "~600 MW supply drop · hydro >30% of Sulbagsel supply · PLTA Poso, Bakaru, Malea hit · ~700 MW new capacity planned early 2027 · recovery target first week Dec, at latest before Christmas · weather modification since 21 Oct 2026",
+"storyline": "",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E1092",
+"date": "2026-11-23",
+"category": "ENV",
+"event": "Villagers' video of a mysterious machine-like ground vibration in Silamosik village, Toba (North Sumatra), went viral; BMKG says it is not tectonic or volcanic and its source is unknown.",
+"key_numbers": "~3 months of reported noise · audible 22:00-05:00 during monitoring · seismograph installed by BBMKG Wilayah I · not tectonic/volcanic · human activity (industry, hydraulics) being checked",
+"storyline": "",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E1093",
+"date": "2026-11-23",
+"category": "NEWS",
+"event": "TurnBackHoax rated false the claim that Prabowo gathered 10 former Kapolri to discuss disbanding Polri: the meeting happened but was a courtesy gathering.",
+"key_numbers": "10 former Kapolri meeting real · claim of Polri dissolution false · rated 23 Nov 2026",
+"storyline": "hoax-tracker",
+"status": "verified",
+"upcoming": false
+},
+{
 "id": "E1012",
 "date": "2026-11-24",
 "category": "POL",
@@ -7717,7 +7927,7 @@
 "key_numbers": "Reported date 24 Nov (Bangkapos); Polri earlier said 'next week' · panel must be senior officers (Irjen to general) under Perpol 4/2026 Art. 42 · prior PTDH: Ahrie Sonta 10 Nov, Eko Hadi Santoso 17 Nov (both appealed)",
 "storyline": "listyo-sigit-penyadapan",
 "status": "upcoming",
-"upcoming": true
+"upcoming": false
 },
 {
 "id": "E0980",

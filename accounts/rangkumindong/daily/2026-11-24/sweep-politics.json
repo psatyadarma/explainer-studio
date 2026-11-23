@@ -1,0 +1,86 @@
+{
+  "area": "politics",
+  "run_date": "2026-11-24",
+  "checked": [
+    "detik news indeks (stale-ish, relative times only)",
+    "CNN Indonesia homepage/nasional (23 Nov items)",
+    "Antara Jatim politik page (stale cache, Sept-Oct content, discarded)",
+    "Tempo politik (search only, nothing usable)",
+    "Watch list found: Wapres/MPR VP replacement, Polri big case (Listyo Sigit wiretapping), KPK/Tipikor trial (Silmy Karim), regional head case (Kupang)",
+    "Storylines searched: gibran-ijazah-mk, listyo-sigit-penyadapan, corruption-cases, tentara-bayaran-rusia (search results lagged, nothing newer than known events)"
+  ],
+  "events": [
+    {
+      "date": "2026-11-23",
+      "category": "POL",
+      "event": "President Prabowo formally submitted Sugiono and Andi Amran Sulaiman to the MPR as the two candidates to replace Gibran Rakabuming Raka as Vice President.",
+      "key_numbers": "2 candidates · submitted 23 Nov 2026 · MPR verification team formed 13 Nov, reportedly 36 people · verification up to 7 days (Pasal 127) · gaps fixable until 4 days before plenary (Pasal 128) · term runs to 2029",
+      "storyline": "gibran-ijazah-mk",
+      "update_of": "E1013",
+      "status": "partial",
+      "sources": [
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261123134347-32-1430382/resmi-prabowo-usulkan-sugiono-dan-amran-jadi-calon-wapres-ke-mpr"},
+        {"label": "CNN Indonesia (tahapan)", "url": "https://www.cnnindonesia.com/nasional/20261123175154-32-1430494/tahapan-usai-sugiono-amran-sulaiman-diusulkan-jadi-cawapres-prabowo"}
+      ],
+      "why_it_matters": "Dasco, the name widely tipped, was not chosen; the surprise pick sets who becomes Indonesia's next Vice President.",
+      "signals": {"spreading": 2, "wallet": 0, "surprise": 2, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "Four CNN Indonesia items on the nasional front page on 23 Nov (13:43-18:18)",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-12-11",
+      "category": "POL",
+      "event": "CNN Indonesia reports the MPR plenary to vote for the new Vice President is set for 11 December, after earlier dates of 2 and 9 December.",
+      "key_numbers": "Plenary 11 Dec 2026 (earlier 2 Dec, then 9 Dec) · tie rule: vote repeated once, then president picks one of the two · winner confirmed by Ketetapan MPR",
+      "storyline": "gibran-ijazah-mk",
+      "update_of": "E0898",
+      "status": "upcoming",
+      "sources": [
+        {"label": "CNN Indonesia (tahapan)", "url": "https://www.cnnindonesia.com/nasional/20261123175154-32-1430494/tahapan-usai-sugiono-amran-sulaiman-diusulkan-jadi-cawapres-prabowo"}
+      ],
+      "why_it_matters": "The date for the vote has moved again, so viewers need the current schedule and how the vote works.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 2, "fresh": 1, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-23",
+      "category": "POL",
+      "event": "Lawyers for ex-Deputy Minister Silmy Karim said at the Jakarta Tipikor trial that he built a system to prevent illegal levies and that the extortion allegation must be proven.",
+      "key_numbers": "",
+      "storyline": "corruption-cases",
+      "update_of": "E0835",
+      "status": "partial",
+      "sources": [
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261123222947-12-1430607/pengacara-silmy-buat-sistem-cegah-pungli-pemerasan-harus-dibuktikan"}
+      ],
+      "why_it_matters": "A former immigration chief's defence in an extortion case shows how the trial is shaping up.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 0, "visual": 0, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-23",
+      "category": "NEWS",
+      "event": "Police questioned two people identified as EK and LS for 12 hours in the alleged rape case against Kupang Regent Yosef Lede.",
+      "key_numbers": "12 hours of questioning · 23 Nov 2026",
+      "storyline": "",
+      "update_of": "E1065",
+      "status": "partial",
+      "sources": [
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261123230539-12-1430614/kasus-dugaan-pemerkosaan-bupati-kupang-ek-dan-ls-diperiksa-12-jam"}
+      ],
+      "why_it_matters": "A sitting regional head faces a serious allegation and the investigation is still widening.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 0, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "high"
+    }
+  ],
+  "gaps": [
+    "Plenary date conflict: CNN says 11 Dec, known events say 9 Dec (E0898). Needs a second source.",
+    "Two CNN pages were blocked (alasan Prabowo pilih Sugiono & Amran; Silmy lawyer article) and the Kupang article was not opened; Silmy and Kupang events rest on headlines only.",
+    "Listyo Sigit KKEP hearing (E1012, expected 24 Nov) outcome not yet reported; worth a second look later today.",
+    "Antara Jatim page was a stale Sept-Oct cache and was ignored; antaranews.com, tempo.co and cnnindonesia.com/nasional were not reachable directly.",
+    "No fresh items found for tentara-bayaran-rusia, KPK or Kejagung beyond known events."
+  ]
+}

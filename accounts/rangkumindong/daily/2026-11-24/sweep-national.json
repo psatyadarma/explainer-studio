@@ -1,0 +1,329 @@
+{
+ "area": "national",
+ "run_date": "2026-11-24",
+ "checked": [
+  "Detik terpopuler (detikNews)",
+  "CNN Indonesia nasional",
+  "CNBC Indonesia indeks",
+  "TurnBackHoax",
+  "Storylines: listyo-sigit-penyadapan, gibran-ijazah-mk, ump-2027, karhutla (BNPB items already known)",
+  "Watch-list found: most-read, hoaxes, disasters (Klungkung, Toba, Sulbagsel power), viral incident, crime/fire"
+ ],
+ "events": [
+  {
+   "date": "2026-11-23",
+   "category": "POL",
+   "event": "Bareskrim Polri named ex-Kapolri Gen. Listyo Sigit Prabowo and five other officers suspects in an alleged treason (makar) plot against President Prabowo, announced by Kabareskrim Komjen Asep Safrudin.",
+   "key_numbers": "6 suspects (Listyo Sigit, Irjen Slamet Uliandi, Irjen Eko Hadi Santoso, Irjen Ahrie Sonta Nasution, Brigjen Tedjo Kusumo, Kombes Iman Imanuddin) · KUHP Art. 191, 193, 196 · max penalty death/life/20 years · 71 witnesses examined (Detik photo caption) · 500 three-finger shirts alleged",
+   "storyline": "listyo-sigit-penyadapan",
+   "update_of": "E0998",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "Detik",
+     "url": "https://news.detik.com/berita/d-8766528/terancam-hukuman-mati-ini-peran-listyo-sigit-dkk-tersangka-makar"
+    },
+    {
+     "label": "Detik",
+     "url": "https://news.detik.com/berita/d-8766476/listyo-sigit-dkk-dijerat-pasal-makar-terancam-hukuman-mati"
+    },
+    {
+     "label": "Katadata",
+     "url": "https://katadata.co.id/berita/nasional/6b043fb79236c/bareskrim-tetapkan-jenderal-listyo-sigit-dan-tedjo-kusumo-tersangka-dugaan-makar"
+    }
+   ],
+   "why_it_matters": "A former national police chief faces a possible death sentence in the biggest police-internal scandal in years.",
+   "signals": {
+    "spreading": 2,
+    "wallet": 0,
+    "surprise": 2,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "detikNews terpopuler #1-#5 and #8-#9 (Detik most-read list, 23 Nov)",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-11-23",
+   "category": "POL",
+   "event": "Prabowo submitted two vice-presidential candidates, Agriculture Minister Amran Sulaiman and Coordinating Minister Sugiono, to MPR chair Ahmad Muzani to replace Gibran; Dasco was not chosen.",
+   "key_numbers": "2 candidates · MPR verification 23 Nov-1 Dec (report 1 Dec 10:00 WIB) · MPR vote 11 Dec 2026 · 732 MPR members (580 DPR + 152 DPD) · most votes wins (Art. 140(2))",
+   "storyline": "gibran-ijazah-mk",
+   "update_of": "E1013",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "CNBC Indonesia",
+     "url": "https://www.cnbcindonesia.com/news/20261123175444-4-787732/prabowo-ajukan-sugiono-amran-jadi-cawapres-ini-tahapan-pemilihannya"
+    },
+    {
+     "label": "Detik",
+     "url": "https://news.detik.com/berita/d-8766620/ini-jadwal-dan-tahapan-verifikasi-cawapres-amran-dan-sugiono"
+    },
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/nasional/20261123175154-32-1430494/tahapan-usai-sugiono-amran-sulaiman-diusulkan-jadi-cawapres-prabowo"
+    }
+   ],
+   "why_it_matters": "Indonesia is about to pick a new vice president mid-term, and the timeline is now fixed.",
+   "signals": {
+    "spreading": 2,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 2,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "detikNews terpopuler #10; CNN Indonesia nasional top 6 items (23 Nov)",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-11-21",
+   "category": "NEWS",
+   "event": "Police confirmed 24 bodies from the 21 Nov fire at the PT Fonusa Agung Mulia candy factory in Cikande, Serang, while 43 workers were reported missing and an AC short circuit is the preliminary cause.",
+   "key_numbers": "24 body bags confirmed as 24 different people (+2 more at RS Bhayangkara, unidentified) · 43 employees missing per BPBD Serang · fire ~17:00 WIB Sat 21 Nov · workers trapped on second floor, few exits",
+   "storyline": "",
+   "update_of": "E1054",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "Detik",
+     "url": "https://news.detik.com/berita/d-8766683/polisi-konfirmasi-24-jenazah-korban-kebakaran-pabrik-permen-di-serang"
+    },
+    {
+     "label": "Kompas",
+     "url": "https://regional.kompas.com/read/2026/11/22/192436378/24-kantong-jenazah-dievakuasi-dari-pabrik-permen-yang-terbakar-di-cikande"
+    },
+    {
+     "label": "RRI",
+     "url": "https://rri.co.id/regional/2916577/pabrik-permen-terbakar-di-serang-24-meninggal-dua-hangus-berpelukan"
+    }
+   ],
+   "why_it_matters": "One of the deadliest factory fires in recent years raises questions about worker safety and emergency exits.",
+   "signals": {
+    "spreading": 2,
+    "wallet": 1,
+    "surprise": 2,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "detikNews terpopuler list (fire noted in other headlines, 23 Nov)",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-23",
+   "category": "ECO",
+   "event": "Thirty-three provinces had set their 2027 UMP as of 23 Nov, with Bali up 42.15% to Rp4,559,287, DKI Jakarta highest and NTT lowest.",
+   "key_numbers": "33 provinces set, 5 pending · Jakarta Rp6,136,941 (highest) · NTT Rp2,602,441 (lowest) · Bali +42.15% to Rp4,559,287 (largest rise) · CNBC: most others +7-8% (Kontan headline)",
+   "storyline": "ump-2027",
+   "update_of": "E1022",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "CNN Indonesia",
+     "url": "https://cnnindonesia.com/ekonomi/20261123154238-92-1430450/daftar-33-provinsi-yang-sudah-tetapkan-ump-2027-bali-naik-42-persen"
+    },
+    {
+     "label": "CNBC Indonesia",
+     "url": "https://www.cnbcindonesia.com/research/20261123112108-128-787522/30-provinsi-sudah-ketok-ump-2027-ini-yang-paling-gede-naiknya"
+    },
+    {
+     "label": "Kontan",
+     "url": "https://nasional.kontan.co.id/news/berikut-daftar-ump-2027-dari-30-provinsi-kebanyakan-naik-7-8"
+    }
+   ],
+   "why_it_matters": "Directly sets what millions of workers earn from January 2027; a 42% jump in Bali is a standout.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 2,
+    "surprise": 2,
+    "visual": 2,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "CNBC Indonesia latest list item #10; multiple outlets covered",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-23",
+   "category": "ENV",
+   "event": "PLN's CEO took personal charge of restoring power in Sulbagsel (South Sulawesi system) after El Nino-reduced hydro output cut supply by about 600 MW.",
+   "key_numbers": "~600 MW supply drop · hydro >30% of Sulbagsel supply · PLTA Poso, Bakaru, Malea hit · ~700 MW new capacity planned early 2027 · recovery target first week Dec, at latest before Christmas · weather modification since 21 Oct 2026",
+   "storyline": "",
+   "update_of": "",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "Katadata",
+     "url": "https://katadata.co.id/berita/energi/6b03e27dae218/dirut-pln-pimpin-langsung-upaya-pemulihan-listrik-sulawesi-selatan"
+    },
+    {
+     "label": "Tempo English",
+     "url": "https://en.tempo.co/read/2124175/what-is-causing-south-sulawesis-600-mw-power-shortfall"
+    },
+    {
+     "label": "Pontianak Post",
+     "url": "https://pontianakpost.jawapos.com/nasional/2611230136/pln-perkuat-pasokan-listrik-sulawesi-el-nino-pangkas-kemampuan-pembangkit-hingga-600-mw"
+    }
+   ],
+   "why_it_matters": "Households and businesses in South Sulawesi face a weeks-long power shortfall caused by drought.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 2,
+    "surprise": 1,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 2
+   },
+   "spreading_evidence": "CNBC Indonesia latest list item #6 (23 Nov)",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-23",
+   "category": "ENV",
+   "event": "Villagers' video of a mysterious machine-like ground vibration in Silamosik village, Toba (North Sumatra), went viral; BMKG says it is not tectonic or volcanic and its source is unknown.",
+   "key_numbers": "~3 months of reported noise · audible 22:00-05:00 during monitoring · seismograph installed by BBMKG Wilayah I · not tectonic/volcanic · human activity (industry, hydraulics) being checked",
+   "storyline": "",
+   "update_of": "",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "Detik",
+     "url": "https://news.detik.com/berita/d-8766622/viral-getaran-misterius-dari-tanah-di-toba-ini-kata-bmkg"
+    },
+    {
+     "label": "CNBC Indonesia",
+     "url": "https://www.cnbcindonesia.com/news/20261123174618-4-787731/heboh-getaran-misterius-dekat-danau-toba-badan-geologi-ingatkan-ini"
+    }
+   ],
+   "why_it_matters": "An unexplained rumble near Lake Toba, a supervolcano site, has people worried and speculating.",
+   "signals": {
+    "spreading": 2,
+    "wallet": 0,
+    "surprise": 2,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 2
+   },
+   "spreading_evidence": "detikNews terpopuler #7 (23 Nov)",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-23",
+   "category": "NEWS",
+   "event": "TurnBackHoax rated false the claim that Prabowo gathered 10 former Kapolri to discuss disbanding Polri: the meeting happened but was a courtesy gathering.",
+   "key_numbers": "10 former Kapolri meeting real · claim of Polri dissolution false · rated 23 Nov 2026",
+   "storyline": "hoax-tracker",
+   "update_of": "",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "TurnBackHoax",
+     "url": "https://turnbackhoax.id/"
+    },
+    {
+     "label": "RRI",
+     "url": "https://rri.co.id/banjarmasin/cek-fakta/2178157/cek-fakta-prabowo-kumpulkan-10-mantan-kapolri-bahas-pembubaran-polri"
+    }
+   ],
+   "why_it_matters": "Shows how a real meeting was twisted into a false narrative during the police scandal.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 0,
+    "surprise": 2,
+    "visual": 0,
+    "fresh": 2,
+    "rivals": 2
+   },
+   "spreading_evidence": "TurnBackHoax top-of-page items 23 Nov; RRI cek fakta",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-11-23",
+   "category": "NEWS",
+   "event": "TurnBackHoax also debunked a video claiming Puan Maharani's house was vandalised (it showed a PT Timah office in Belitung) and a video of Prabowo ordering TNI/Polri action after protests (21 Nov).",
+   "key_numbers": "Video was PT Timah Tbk office in Belitung · Prabowo video was a post-protest speech · both rated false, 21-23 Nov 2026",
+   "storyline": "hoax-tracker",
+   "update_of": "",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "TurnBackHoax",
+     "url": "https://turnbackhoax.id/"
+    }
+   ],
+   "why_it_matters": "Viral political videos are being recycled with false captions amid the unrest.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 2
+   },
+   "spreading_evidence": "TurnBackHoax latest list 23 Nov",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-11-23",
+   "category": "ENV",
+   "event": "Landslides and flooding hit Klungkung, Bali, after heavy rain, damaging buildings including a temple.",
+   "key_numbers": "Date 23 Nov 2026 · casualty numbers not stated in headline",
+   "storyline": "",
+   "update_of": "",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/nasional"
+    }
+   ],
+   "why_it_matters": "Rainy-season disasters are starting to hit popular regions like Bali.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 0,
+    "surprise": 0,
+    "visual": 0,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "CNN Indonesia nasional list item (15:22, 23 Nov)",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-26",
+   "category": "POL",
+   "event": "Verification of the two VP candidates reaches factual checks at Polri HQ, courts and population office on 25 Nov and health tests at RSPAD plus KPK/KPU/tax checks on 26 Nov.",
+   "key_numbers": "25 Nov factual checks (Dukcapil, courts, Polri) · 26 Nov KPK, KPU, tax, education, health tests at RSPAD Gatot Soebroto · team led by Habiburokhman",
+   "storyline": "gibran-ijazah-mk",
+   "update_of": "E1013",
+   "status": "upcoming",
+   "sources": [
+    {
+     "label": "Detik",
+     "url": "https://news.detik.com/berita/d-8766620/ini-jadwal-dan-tahapan-verifikasi-cawapres-amran-dan-sugiono"
+    }
+   ],
+   "why_it_matters": "Marks the checkpoints before the 11 Dec MPR vote, including diploma checks given the earlier ijazah row.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 0,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "",
+   "sensitivity": "high"
+  }
+ ],
+ "gaps": [
+  "Antara humaniora/terkini page blocked (WebFetch permission not answered); no Antara scan",
+  "Listyo Sigit KKEP ethics hearing (E1012, set 24 Nov) outcome not confirmed after makar suspect naming",
+  "Seized-money origin and exact witness count in makar case not verified from full articles",
+  "Fonusa fire: missing count 43 vs 24 bodies, cause only preliminary (AC short circuit per unions)",
+  "No X/TikTok trend data beyond outlet lists; Klungkung disaster casualties unknown"
+ ]
+}

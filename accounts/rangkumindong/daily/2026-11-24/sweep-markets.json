@@ -1,0 +1,142 @@
+{
+  "area": "markets",
+  "run_date": "2026-11-24",
+  "checked": [
+    "CNBC Indonesia market (section page blocked; read via search-returned articles)",
+    "detikFinance front page (headlines + terpopuler)",
+    "Bisnis market (search results only; weekly-recap page failed to fetch)",
+    "Antara ekonomi (via search-returned article)",
+    "watch list found: IHSG close and foreign net sell, rupiah, MSCI, BYAN/corporate action, subsidies/APBN, gas/energy, OJK sanctions, IEU-CEPA",
+    "storyline searches: msci-reclassification, rupiah, survival-mode"
+  ],
+  "events": [
+    {
+      "date": "2026-11-23",
+      "category": "MKT",
+      "event": "The IHSG closed up 1.35% at 5,215.85 on Monday 23 November, rebounding after five straight daily losses and a 3.71% weekly drop.",
+      "key_numbers": "Close 5,215.85 (+69.52 pts, +1.35%) vs 5,146.33 prior close · open 5,134.06, low 5,062.09, high 5,244.35 · volume about 340.71 million lots · value about Rp10.41 trillion · basic materials sector +5.36%, energy +2.60% · top support BBCA, TPIA, BRPT, ASII, BRMS · top drag INDF, GOTO, UNTR, TLKM, AKRA",
+      "storyline": "msci-reclassification",
+      "update_of": "E1004",
+      "status": "verified",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/market/20261123153712-17-787685/ihsg-ditutup-di-zona-hijau-naik-135-ke-level-521585"},
+        {"label": "Kontan", "url": "https://investasi.kontan.co.id/news/ihsg-menguat-135-pada-senin-2311-simak-proyeksinya-untuk-selasa-2411"}
+      ],
+      "why_it_matters": "Pertama kali naik setelah IHSG jatuh beruntun, jadi sinyal apakah panik MSCI mulai reda.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 0},
+      "spreading_evidence": "detikFinance feed 'IHSG Ditutup Menguat ke Level 5.200an'; multiple outlets",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-23",
+      "category": "MKT",
+      "event": "Foreign investors were net sellers of Rp673.09 billion of Indonesian stocks on 23 November even as the IHSG rose 1.35%, led by sales of BMRI, BBRI and TLKM.",
+      "key_numbers": "Foreign net sell Rp673.09 billion (23 Nov, full day) · midday net sell Rp512 billion (Kompas) · BMRI Rp231.26 billion · BBRI Rp187.69 billion · TLKM Rp148.34 billion · GOTO Rp122.45 billion · BBNI Rp68.99 billion · net buy BBCA Rp174.55 billion",
+      "storyline": "msci-reclassification",
+      "update_of": "E0920",
+      "status": "partial",
+      "sources": [
+        {"label": "Investor Trust", "url": "https://investortrust.id/market/123428/pemodal-asing-justru-net-sell-jumbo-rp-673-09-miliar-meski-ihsg-ditutup-rebound-1-35"},
+        {"label": "Kompas.com", "url": "https://money.kompas.com/read/2026/11/23/132937826/ihsg-menguat-159-persen-asing-justru-kabur-dari-bursa-ri-rp-512-miliar"}
+      ],
+      "why_it_matters": "Harga naik tapi investor asing tetap kabur, jadi rebound ini belum tentu tanda pemulihan.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 2, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-23",
+      "category": "MKT",
+      "event": "Reuters, citing Bloomberg, reported that President Prabowo held a call of over an hour with MSCI CEO Henry Fernandez on 10 November, facilitated by Ray Dalio, and that Fernandez said MSCI does not necessarily intend to downgrade Indonesia.",
+      "key_numbers": "Call on 10 Nov, over 1 hour · participants Prabowo, Henry Fernandez, Danantara CEO Rosan Roeslani; Ray Dalio facilitated · MSCI warned Indonesia could be removed from its index in 2027 or fall from emerging to standalone market · IHSG up 1.46% to 5,221.37 at 11:05 WIB on report · Reuters could not verify; MSCI, Dalio and palace did not comment",
+      "storyline": "msci-reclassification",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "CNBC Indonesia (citing Reuters/Bloomberg)", "url": "https://www.cnbcindonesia.com/market/20261123111147-17-787517/ihsg-balik-melesat-kabar-pertemuan-prabowo-dan-ceo-msci-jadi-sorotan"},
+        {"label": "Investor Trust", "url": "https://investortrust.id/macro/123429/bos-msci-bertemu-prabowo-bi-sebut-bawa-sentimen-positif-bagi-rupiah"}
+      ],
+      "why_it_matters": "Kabar satu telepon presiden ke bos MSCI cukup menggerakkan saham dan rupiah, tapi belum dikonfirmasi MSCI.",
+      "signals": {"spreading": 2, "wallet": 1, "surprise": 2, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "detikFinance feed 'Pertemuan Prabowo dan CEO MSCI Bikin Rupiah Menguat'; CNBC Indonesia market lead",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-23",
+      "category": "MKT",
+      "event": "The rupiah closed stronger by 0.37% at Rp18,203 per US dollar on 23 November, and Bank Indonesia credited SRBI inflows, hedging incentives and MSCI CEO's remarks.",
+      "key_numbers": "Close Rp18,203 per USD (+0.37%) · previous close about Rp18,270 (20 Nov, implied) · SRBI auction last week over US$1 billion · BI interventions: offshore NDF, domestic spot and DNDF, SBN purchases",
+      "storyline": "rupiah",
+      "update_of": "E1005",
+      "status": "verified",
+      "sources": [
+        {"label": "Investor Trust", "url": "https://investortrust.id/macro/123429/bos-msci-bertemu-prabowo-bi-sebut-bawa-sentimen-positif-bagi-rupiah"},
+        {"label": "IDN Times", "url": "https://www.idntimes.com/business/economy/rupiah-berhasil-menguat-ditutup-ke-rp18-203-per-dolar-as-00-gshdq-5s8vg7"}
+      ],
+      "why_it_matters": "Rupiah sempat mendekati Rp18.300; penguatan ini menentukan harga barang impor dan cicilan berdolar.",
+      "signals": {"spreading": 1, "wallet": 2, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 0},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-23",
+      "category": "ECO",
+      "event": "Food Coordinating Minister Zulkifli Hasan said about Rp400 trillion of government aid and subsidies is misdirected each year and that subsidised goods such as LPG 3 kg, fertiliser and rice will be distributed through Kopdes Merah Putih.",
+      "key_numbers": "Rp400 trillion/year misdirected (40% of a budget of nearly Rp1,000 trillion, per a study he cited) · LPG 3 kg: Pertamina Rp13,700, buyers often pay Rp23,000-24,000, Kopdes example price Rp16,500 (max about Rp18,000) · target 10,000 Kopdes operating by end-2026 · 83,359 cooperatives with legal status, 30,725 sites 100% built of 83,766 villages (22 Nov)",
+      "storyline": "survival-mode",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/ekonomi/20261123145401-92-1430416/rp400-t-salah-sasaran-barang-subsidi-akan-disalurkan-lewat-kopdes"},
+        {"label": "Kontan", "url": "https://nasional.kontan.co.id/news/zulhas-sebut-rp-400-triliun-subsidi-salah-sasaran-distribusi-dialihkan-ke-kopdes"},
+        {"label": "detikFinance", "url": "https://finance.detik.com/"}
+      ],
+      "why_it_matters": "Cara beli gas melon, pupuk dan beras subsidi bisa berubah, dan pangkalan serta agen LPG harus menyesuaikan.",
+      "signals": {"spreading": 1, "wallet": 2, "surprise": 2, "visual": 2, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "detikFinance feed (Rp400 T item) and CNBC Indonesia coverage; CNBC questions bansos data quality",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-23",
+      "category": "BIZ",
+      "event": "Bayan Resources (BYAN) shareholders approved at an EGM a new board with Ary Bastari replacing Low Tuck Kwong as president director, after PT Jhonlin Baratama (Haji Isam) bought 10.08 billion shares for a 30.25% stake.",
+      "key_numbers": "Haji Isam's PT Jhonlin Baratama: 10.08 billion shares = 30.25% · new president director Ary Bastari (replaces Low Tuck Kwong) · Budi Waseso independent president commissioner · Hatta Rajasa independent commissioner · Haji Isam's son joins as director (per CNBC/detik headlines) · share price not reported",
+      "storyline": "bayan-haji-isam",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/ekonomi/20261123134229-85-1430380/ary-bastari-jadi-dirut-baru-bayan-resources-gantikan-low-tuck-kwong"},
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/market/20261123155028-17-787679/tok-ary-bastari-dirut-byan-anak-haji-isam-masuk-jadi-direktur"},
+        {"label": "detikFinance", "url": "https://finance.detik.com/bursa-dan-valas/d-8765942/buwas-hatta-rajasa-komisaris-byan-ary-bastari-dirut-anak-haji-isam-direktur"}
+      ],
+      "why_it_matters": "Perusahaan batu bara besar berganti pemilik dan bos, dengan eks Kabulog dan eks menteri jadi komisaris.",
+      "signals": {"spreading": 2, "wallet": 0, "surprise": 2, "visual": 1, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "Three detikFinance feed items; CNBC Indonesia and CNN Indonesia both ran profile pieces",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-23",
+      "category": "ECO",
+      "event": "Coordinating Minister for Downstreaming and Energy Bahlil Lahadalia said Indonesia respects its pipeline gas export contract with Singapore, blaming a roughly 8% volume cut on pipeline repairs.",
+      "key_numbers": "Cut about 31 MMSCFD of about 409.5 MMSCFD total pipeline exports (about 8%) per Bahlil · SKK Migas: 15 BBTUD from Natuna and 16 BBTUD from Sumatra · cut announced 24 Oct · Bahlil says domestic needs come first · whether normal volumes resumed not confirmed",
+      "storyline": "survival-mode",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "Antara", "url": "https://www.antaranews.com/berita/5873027/menko-bahlil-hargai-kontrak-ekspor-gas-ke-singapura"},
+        {"label": "detikFinance", "url": "https://finance.detik.com/energi/d-8766192/bahlil-buka-bukaan-nasib-ekspor-gas-ke-singapura-masih-dipangkas"}
+      ],
+      "why_it_matters": "Menjawab apakah ekspor gas dipangkas karena 'survival' atau cuma perbaikan pipa.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "detikFinance top headline (#1 feed)",
+      "sensitivity": "normal"
+    }
+  ],
+  "gaps": [
+    "CNBC Indonesia /market section page fetch was blocked (permission not answered); not retried. Bisnis weekly-recap article also failed to fetch.",
+    "OJK sanctions on 10 capital-market violations (Kompas, 22 Nov; a 10 Nov report mentions fines of Rp2.23 trillion): Kompas robots-blocked, numbers unverified.",
+    "detikFinance headlines not opened: IEU-CEPA trade projected +40%, Indonesia-China investment commitments Rp274 T, Misbakhun asking Rp1,300 T spending acceleration, Prabowo wanting 70% of mining proceeds for state, US-Indonesia coal-to-gas project Rp36.4 T, CPNS registration 27 Nov with 167,113 posts, cabai rawit above Rp80,000 in Jakarta.",
+    "Bahlil's Menko Hilirisasi dan Energi appointment date and four agencies placed under it not verified; gas-cut article dated 23 Nov refers to a 24 Oct announcement.",
+    "No Brent, Fed or foreign YTD net sell figure for 23 Nov verified (Bisnis says foreign YTD net sell Rp100.23 trillion, unopened)."
+  ]
+}
