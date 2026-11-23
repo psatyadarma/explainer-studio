@@ -1,0 +1,67 @@
+{
+ "direction": "[energetic, conversational, explaining to a friend]",
+ "format": "short",
+ "hook_style": "person_collage",
+ "lines": [
+  {
+   "id": "h1",
+   "tag": "[amazed]",
+   "text": "Perusahaan pria ini nilainya dua kali bursa Indonesia.",
+   "say": "Perusahaan pria ini nilainya dua kali bursa Indonesia."
+  },
+  {
+   "id": "h2",
+   "tag": "[curious, teasing]",
+   "text": "Segede apa? Angka terakhirnya paling bikin kaget.",
+   "say": "Segede apa? Angka terakhirnya paling bikin kaget."
+  },
+  {
+   "id": "rd",
+   "tagline": true,
+   "text": "Rangkumin dong!"
+  },
+  {
+   "id": "l1",
+   "tag": "[matter-of-fact]",
+   "text": "Ini Dario Amodei, bos Anthropic, pembuat Claude.",
+   "say": "Ini Dario Amodei, bos Entropik, pembuat Klod."
+  },
+  {
+   "id": "l2",
+   "tag": "[explaining, quick]",
+   "text": "19 November, sahamnya debut di Nasdaq. Harga perdananya 83 dolar.",
+   "say": "Sembilan belas November, sahamnya debut di Nesdek. Harga perdananya delapan puluh tiga dolar."
+  },
+  {
+   "id": "l3",
+   "tag": "[building up]",
+   "text": "Di harga itu, nilainya sekitar 1,1 triliun dolar. Kira-kira Rp20.000 triliun.",
+   "say": "Di harga itu, nilainya sekitar satu koma satu triliun dolar. Kira-kira dua puluh ribu triliun rupiah."
+  },
+  {
+   "id": "l4",
+   "tag": "[emphatic]",
+   "text": "Seluruh Bursa Efek Indonesia, per 20 November? Rp8.725 triliun. Dua kali lipat lebih.",
+   "say": "Seluruh Bursa Efek Indonesia, per dua puluh November? Delapan ribu tujuh ratus dua puluh lima triliun rupiah. Dua kali lipat lebih."
+  },
+  {
+   "id": "l5",
+   "tag": "[surprised]",
+   "text": "Tapi itu baru harga perdana. Hari pertama, ditutup 97 dolar, naik 17 persen.",
+   "say": "Tapi itu baru harga perdana. Hari pertama, ditutup sembilan puluh tujuh dolar, naik tujuh belas persen."
+  },
+  {
+   "id": "l6",
+   "tag": "[serious, punchy]",
+   "text": "Angka terakhirnya: nilai perdana itu setara 84 persen ekonomi Indonesia. Setahun.",
+   "say": "Angka terakhirnya: nilai perdana itu setara delapan puluh empat persen ekonomi Indonesia. Setahun."
+  },
+  {
+   "id": "cta",
+   "tag": "[playful, asking the viewer]",
+   "text": "Menurut kamu, nilai segede ini wajar, atau kemahalan? Komen!",
+   "say": "Menurut kamu, nilai segede ini wajar, atau kemahalan? Komen!"
+  }
+ ],
+ "tail": 0.9
+}

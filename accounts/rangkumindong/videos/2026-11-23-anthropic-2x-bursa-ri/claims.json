@@ -1,0 +1,85 @@
+[
+ {
+  "claim": "Hook h1 (PICK A): 'Perusahaan pria ini nilainya dua kali bursa Indonesia' = Anthropic's value at the IPO price (~Rp20.000 T) vs BEI market cap Rp8.725 T (20 Nov), ~2,3x; screen chip and caption say 'di harga IPO'",
+  "numbers": "20.000/8.725 = 2,29x",
+  "sources": [
+   "https://finance.detik.com/bursa-dan-valas/d-8760676/harga-ipo-anthropic-resmi-us-83-per-saham-nilai-pasarnya-84-pdb-ri",
+   "https://finance.detik.com/bursa-dan-valas/d-8763001/modal-asing-rp-100-triliun-keluar-dari-pasar-modal-ri"
+  ]
+ },
+ {
+  "claim": "Dario Amodei is the CEO ('bos') of Anthropic, the maker of the AI Claude",
+  "numbers": "",
+  "sources": [
+   "https://abcnews.com/Business/anthropic-announces-price-83-share-ipo/story?id=138245320",
+   "https://www.nbcwashington.com/news/business/anthropic-ipo-begin-trading-nasdaq/4185456/"
+  ]
+ },
+ {
+  "claim": "Anthropic shares debuted (began trading) on Nasdaq on Thursday 19 November 2026, ticker ANT",
+  "numbers": "19 Nov 2026 (Thursday)",
+  "sources": [
+   "https://www.tradingview.com/news/invezz:f1a2ad0a9094b:0-anthropic-s-ant-closes-at-97-17-up-17-on-its-first-day-of-trading/",
+   "https://www.nbcwashington.com/news/business/anthropic-ipo-begin-trading-nasdaq/4185456/"
+  ]
+ },
+ {
+  "claim": "IPO price was US$83 per share (above the US$70-78 range)",
+  "numbers": "US$83; range US$70-78",
+  "sources": [
+   "https://finance.detik.com/bursa-dan-valas/d-8760676/harga-ipo-anthropic-resmi-us-83-per-saham-nilai-pasarnya-84-pdb-ri",
+   "https://abcnews.com/Business/anthropic-announces-price-83-share-ipo/story?id=138245320"
+  ]
+ },
+ {
+  "claim": "At the IPO price Anthropic's market value was about US$1.1 trillion, about Rp20,000 trillion (excludes options/RSU; fully diluted ~US$1.5 T)",
+  "numbers": "US$1,1 T; ~Rp20.000 T at JISDOR Rp18.252 (18 Nov); fully diluted ~US$1,5 T",
+  "sources": [
+   "https://finance.detik.com/bursa-dan-valas/d-8760676/harga-ipo-anthropic-resmi-us-83-per-saham-nilai-pasarnya-84-pdb-ri"
+  ]
+ },
+ {
+  "claim": "Total market cap of the Indonesia Stock Exchange (BEI) was Rp8,725 trillion as of 20 Nov 2026 (spoken with date); Anthropic at the IPO price is ~2.3x that ('dua kali lipat lebih'). detik's own comparison used Rp9,047 T (13 Nov) = 2.2x",
+  "numbers": "Rp8.725 T (20/11/2026); 20.000/8.725 = 2,29x; earlier Rp9.047 T (13/11) = 2,21x",
+  "sources": [
+   "https://finance.detik.com/bursa-dan-valas/d-8763001/modal-asing-rp-100-triliun-keluar-dari-pasar-modal-ri",
+   "https://finance.detik.com/bursa-dan-valas/d-8760676/harga-ipo-anthropic-resmi-us-83-per-saham-nilai-pasarnya-84-pdb-ri"
+  ]
+ },
+ {
+  "claim": "On its first trading day the stock closed at US$97.17 (spoken '97 dolar'), up about 17% from the IPO price",
+  "numbers": "US$97,17; +17,1% (97,17/83); open US$111,50; intraday high US$115,10",
+  "sources": [
+   "https://www.nbcwashington.com/news/business/anthropic-ipo-begin-trading-nasdaq/4185456/",
+   "https://www.tradingview.com/news/invezz:f1a2ad0a9094b:0-anthropic-s-ant-closes-at-97-17-up-17-on-its-first-day-of-trading/",
+   "https://fourweekmba.com/ai-anthropic-closes-day-one-at-97-17-up-17-from-83-ipo/"
+  ]
+ },
+ {
+  "claim": "(Not in script, context for the checker) Value after the first-day close: ~US$1.28 T on 13.22 bn basic shares, ~US$1.76 T on the fully-diluted basis (1.5 T x 97.17/83), which matches CNN's ~US$1.76 T. The video does not state a post-close value.",
+  "numbers": "~US$1,28 T basic; ~US$1,76 T fully diluted",
+  "sources": [
+   "https://fourweekmba.com/ai-anthropic-closes-day-one-at-97-17-up-17-from-83-ipo/",
+   "https://finance.detik.com/bursa-dan-valas/d-8760676/harga-ipo-anthropic-resmi-us-83-per-saham-nilai-pasarnya-84-pdb-ri"
+  ]
+ },
+ {
+  "claim": "The value at the IPO price equals about 84% of Indonesia's GDP for one year (2025 GDP Rp23,821.1 trillion)",
+  "numbers": "~84%; 20.000/23.821,1 = 84%",
+  "sources": [
+   "https://finance.detik.com/bursa-dan-valas/d-8760676/harga-ipo-anthropic-resmi-us-83-per-saham-nilai-pasarnya-84-pdb-ri"
+  ]
+ },
+ {
+  "claim": "Photo of Dario Amodei: TechCrunch Disrupt 2023, CC BY 2.0, via Wikimedia Commons",
+  "numbers": "",
+  "sources": [
+   "https://commons.wikimedia.org/wiki/File:Dario_Amodei_at_TechCrunch_Disrupt_2023_02.jpg"
+  ]
+ },
+ {
+  "claim": "Captions disclose: 'Catatan: riset & naskah dibantu AI, termasuk Claude buatan Anthropic.'",
+  "numbers": "",
+  "sources": []
+ }
+]

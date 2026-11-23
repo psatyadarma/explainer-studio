@@ -1,0 +1,448 @@
+{
+ "verdict": "PASS",
+ "lead": -0.05,
+ "matched_words": 83,
+ "of_words": 91,
+ "median_offset_s": -0.022,
+ "share_in_window": 1.0,
+ "share_late_over_150ms": 0.0,
+ "worst_lines": [
+  {
+   "line": "h1",
+   "median_offset_s": -0.031
+  },
+  {
+   "line": "rd",
+   "median_offset_s": 0.03
+  },
+  {
+   "line": "l4",
+   "median_offset_s": -0.029
+  },
+  {
+   "line": "l2",
+   "median_offset_s": -0.028
+  },
+  {
+   "line": "l6",
+   "median_offset_s": -0.024
+  }
+ ],
+ "pairs": [
+  {
+   "line": "h1",
+   "word": "Perusahaan",
+   "offset": 0.079
+  },
+  {
+   "line": "h1",
+   "word": "pria",
+   "offset": -0.031
+  },
+  {
+   "line": "h1",
+   "word": "ini",
+   "offset": -0.031
+  },
+  {
+   "line": "h1",
+   "word": "nilainya",
+   "offset": -0.011
+  },
+  {
+   "line": "h1",
+   "word": "dua",
+   "offset": -0.031
+  },
+  {
+   "line": "h1",
+   "word": "kali",
+   "offset": -0.031
+  },
+  {
+   "line": "h1",
+   "word": "bursa",
+   "offset": -0.031
+  },
+  {
+   "line": "h1",
+   "word": "Indonesia.",
+   "offset": 0.0
+  },
+  {
+   "line": "h2",
+   "word": "Segede",
+   "offset": 0.098
+  },
+  {
+   "line": "h2",
+   "word": "apa?",
+   "offset": 0.03
+  },
+  {
+   "line": "h2",
+   "word": "Angka",
+   "offset": -0.11
+  },
+  {
+   "line": "h2",
+   "word": "terakhirnya",
+   "offset": 0.06
+  },
+  {
+   "line": "h2",
+   "word": "paling",
+   "offset": -0.05
+  },
+  {
+   "line": "h2",
+   "word": "bikin",
+   "offset": -0.05
+  },
+  {
+   "line": "h2",
+   "word": "kaget.",
+   "offset": -0.01
+  },
+  {
+   "line": "rd",
+   "word": "dong!",
+   "offset": 0.03
+  },
+  {
+   "line": "l1",
+   "word": "Ini",
+   "offset": 0.0
+  },
+  {
+   "line": "l1",
+   "word": "Dario",
+   "offset": -0.118
+  },
+  {
+   "line": "l1",
+   "word": "Amodei,",
+   "offset": -0.005
+  },
+  {
+   "line": "l1",
+   "word": "bos",
+   "offset": -0.018
+  },
+  {
+   "line": "l1",
+   "word": "Anthropic,",
+   "offset": -0.018
+  },
+  {
+   "line": "l1",
+   "word": "pembuat",
+   "offset": 0.002
+  },
+  {
+   "line": "l1",
+   "word": "Claude.",
+   "offset": -0.005
+  },
+  {
+   "line": "l2",
+   "word": "19",
+   "offset": 0.055
+  },
+  {
+   "line": "l2",
+   "word": "November,",
+   "offset": 0.0
+  },
+  {
+   "line": "l2",
+   "word": "sahamnya",
+   "offset": -0.068
+  },
+  {
+   "line": "l2",
+   "word": "debut",
+   "offset": -0.041
+  },
+  {
+   "line": "l2",
+   "word": "di",
+   "offset": -0.021
+  },
+  {
+   "line": "l2",
+   "word": "Nasdaq.",
+   "offset": -0.028
+  },
+  {
+   "line": "l2",
+   "word": "Harga",
+   "offset": -0.071
+  },
+  {
+   "line": "l2",
+   "word": "perdananya",
+   "offset": -0.028
+  },
+  {
+   "line": "l2",
+   "word": "dolar.",
+   "offset": -0.061
+  },
+  {
+   "line": "l3",
+   "word": "Di",
+   "offset": 0.024
+  },
+  {
+   "line": "l3",
+   "word": "harga",
+   "offset": -0.036
+  },
+  {
+   "line": "l3",
+   "word": "itu,",
+   "offset": -0.009
+  },
+  {
+   "line": "l3",
+   "word": "nilainya",
+   "offset": 0.051
+  },
+  {
+   "line": "l3",
+   "word": "sekitar",
+   "offset": -0.016
+  },
+  {
+   "line": "l3",
+   "word": "triliun",
+   "offset": -0.069
+  },
+  {
+   "line": "l3",
+   "word": "dolar.",
+   "offset": -0.022
+  },
+  {
+   "line": "l3",
+   "word": "Kira-kira",
+   "offset": -0.051
+  },
+  {
+   "line": "l3",
+   "word": "triliun.",
+   "offset": -0.046
+  },
+  {
+   "line": "l4",
+   "word": "Seluruh",
+   "offset": 0.087
+  },
+  {
+   "line": "l4",
+   "word": "Bursa",
+   "offset": -0.069
+  },
+  {
+   "line": "l4",
+   "word": "Efek",
+   "offset": 0.004
+  },
+  {
+   "line": "l4",
+   "word": "Indonesia,",
+   "offset": 0.027
+  },
+  {
+   "line": "l4",
+   "word": "per",
+   "offset": -0.129
+  },
+  {
+   "line": "l4",
+   "word": "20",
+   "offset": -0.109
+  },
+  {
+   "line": "l4",
+   "word": "November?",
+   "offset": 0.0
+  },
+  {
+   "line": "l4",
+   "word": "triliun.",
+   "offset": -0.029
+  },
+  {
+   "line": "l4",
+   "word": "Dua",
+   "offset": -0.089
+  },
+  {
+   "line": "l4",
+   "word": "kali",
+   "offset": -0.105
+  },
+  {
+   "line": "l4",
+   "word": "lipat",
+   "offset": -0.029
+  },
+  {
+   "line": "l4",
+   "word": "lebih.",
+   "offset": -0.022
+  },
+  {
+   "line": "l5",
+   "word": "Tapi",
+   "offset": 0.0
+  },
+  {
+   "line": "l5",
+   "word": "itu",
+   "offset": -0.049
+  },
+  {
+   "line": "l5",
+   "word": "baru",
+   "offset": -0.061
+  },
+  {
+   "line": "l5",
+   "word": "harga",
+   "offset": -0.009
+  },
+  {
+   "line": "l5",
+   "word": "perdana.",
+   "offset": -0.001
+  },
+  {
+   "line": "l5",
+   "word": "Hari",
+   "offset": -0.071
+  },
+  {
+   "line": "l5",
+   "word": "pertama,",
+   "offset": -0.031
+  },
+  {
+   "line": "l5",
+   "word": "ditutup",
+   "offset": -0.079
+  },
+  {
+   "line": "l5",
+   "word": "dolar,",
+   "offset": 0.0
+  },
+  {
+   "line": "l5",
+   "word": "naik",
+   "offset": 0.001
+  },
+  {
+   "line": "l5",
+   "word": "persen.",
+   "offset": 0.074
+  },
+  {
+   "line": "l6",
+   "word": "Angka",
+   "offset": 0.062
+  },
+  {
+   "line": "l6",
+   "word": "terakhirnya:",
+   "offset": -0.008
+  },
+  {
+   "line": "l6",
+   "word": "nilai",
+   "offset": -0.081
+  },
+  {
+   "line": "l6",
+   "word": "perdana",
+   "offset": -0.02
+  },
+  {
+   "line": "l6",
+   "word": "itu",
+   "offset": 0.012
+  },
+  {
+   "line": "l6",
+   "word": "setara",
+   "offset": -0.028
+  },
+  {
+   "line": "l6",
+   "word": "persen",
+   "offset": -0.044
+  },
+  {
+   "line": "l6",
+   "word": "ekonomi",
+   "offset": -0.125
+  },
+  {
+   "line": "l6",
+   "word": "Indonesia.",
+   "offset": 0.0
+  },
+  {
+   "line": "l6",
+   "word": "Setahun.",
+   "offset": -0.141
+  },
+  {
+   "line": "cta",
+   "word": "Menurut",
+   "offset": 0.074
+  },
+  {
+   "line": "cta",
+   "word": "kamu,",
+   "offset": -0.018
+  },
+  {
+   "line": "cta",
+   "word": "nilai",
+   "offset": -0.185
+  },
+  {
+   "line": "cta",
+   "word": "segede",
+   "offset": -0.001
+  },
+  {
+   "line": "cta",
+   "word": "ini",
+   "offset": 0.062
+  },
+  {
+   "line": "cta",
+   "word": "wajar,",
+   "offset": -0.008
+  },
+  {
+   "line": "cta",
+   "word": "atau",
+   "offset": -0.16
+  },
+  {
+   "line": "cta",
+   "word": "kemahalan?",
+   "offset": -0.068
+  },
+  {
+   "line": "cta",
+   "word": "Komen!",
+   "offset": -0.071
+  }
+ ]
+}
