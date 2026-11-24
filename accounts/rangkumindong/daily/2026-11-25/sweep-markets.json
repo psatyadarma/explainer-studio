@@ -1,0 +1,181 @@
+{
+  "area": "markets",
+  "run_date": "2026-11-25",
+  "checked": [
+    "cnbcindonesia market (search results only, section page not fetched)",
+    "bisnis market (search results; article fetch failed)",
+    "detik finance bursa-dan-valas (page stale at 23 Nov 11:29)",
+    "antaranews ekonomi",
+    "watch list found: IHSG close, foreign net sell, rupiah, MSCI news, Danantara/BUMN, global shock (Nasdaq/Nvidia)",
+    "storyline searches: msci-reclassification, rupiah, ai-data-centres (Nvidia), BUMN/Danantara, PHK/survival-mode, fuel-oil (BBM prices unchanged 24 Nov)"
+  ],
+  "events": [
+    {
+      "date": "2026-11-24",
+      "category": "MKT",
+      "event": "MSCI issued a statement in Singapore denying reports that it had told the Indonesian government it would not downgrade Indonesia's market status, saying the proposal to move Indonesia from Emerging Market to Standalone Market still stands.",
+      "key_numbers": "Proposal first announced 15 Oct 2026 · MSCI: no change to consultation process · IHSG intraday high 5,315 then closed +0.49% at 5,241.59 on 24 Nov",
+      "storyline": "msci-reclassification",
+      "update_of": "E1068",
+      "status": "verified",
+      "sources": [
+        {"label": "IDX Channel", "url": "https://www.idxchannel.com/market-news/msci-bantah-isu-batal-turunkan-status-ri-ancaman-standalone-market-tetap-ada"},
+        {"label": "Suara.com", "url": "https://www.suara.com/bisnis/2026/11/24/170135/ihsg-sempat-sentuh-5300-penguatan-tertahan-pernyataan-terbaru-msci"},
+        {"label": "Investor.id", "url": "https://investor.id/market/463128/msci-bantah-tak-akandowngrade-indonesia-proposal-standalone-market-tetap-berlaku"}
+      ],
+      "why_it_matters": "The hope that Indonesia would dodge a downgrade after Prabowo's reported call with MSCI was hit, so the stock market stays at risk of losing its emerging-market status.",
+      "signals": {"spreading": 2, "wallet": 1, "surprise": 2, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "Covered by Kompas, Tirto, IDN Times, Investor.id, Bareksa, IDX Channel, Periskop within hours",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-24",
+      "category": "MKT",
+      "event": "The IHSG closed up 0.49% at 5,241.59 on 24 November, extending the rebound after five straight losing days, with the early 1.29% gain trimmed after the MSCI statement.",
+      "key_numbers": "IHSG 5,241.59 (+0.49%, +25.7 points) · opened +1.29% · intraday high ~5,315 · more stocks fell than rose (Viva) · analysts' range for 25 Nov 5,185-5,350 · support ~5,188-5,198, resistance 5,300-5,315",
+      "storyline": "msci-reclassification",
+      "update_of": "E1066",
+      "status": "verified",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/market/20261124153144-17-788013/ihsg-ditutup-menguat-049-ke-level-524159"},
+        {"label": "Kontan", "url": "https://investasi.kontan.co.id/news/ihsg-menguat-049-ke-5241-pada-selasa-2411-isat-cpin-icbp-top-gainers-lq45"},
+        {"label": "Industry.co.id", "url": "https://industry.co.id/read/159813/analisa-ihsg-25-november-2026-uji-5300-saat-nasdaq-turun-19"}
+      ],
+      "why_it_matters": "Shows how the index swings on each MSCI headline; it is still far below the ~9,134 level of January.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 0, "visual": 1, "fresh": 2, "rivals": 0},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-24",
+      "category": "MKT",
+      "event": "The rupiah closed 0.15% weaker at Rp18,230 per US dollar on 24 November as the dollar index stayed firm.",
+      "key_numbers": "Rp18,230/USD (spot, from Rp18,203 on 23 Nov, -0.15%) · dollar index 104.35 vs 104.31 (Kontan) · rupiah record-weak zone near Rp18,300 on 20-21 Nov",
+      "storyline": "rupiah",
+      "update_of": "E1069",
+      "status": "verified",
+      "sources": [
+        {"label": "Kontan", "url": "https://investasi.kontan.co.id/news/rupiah-spot-ditutup-melemah-015-ke-rp-18230-per-dolar-as-pada-selasa-2411"},
+        {"label": "Media Indonesia", "url": "https://mediaindonesia.com/ekonomi/959796/24-november-2026-rupiah-ditutup-melemah-ke-rp18230-per-dolar-as"},
+        {"label": "Beritasatu", "url": "https://www.beritasatu.com/ekonomi/3043514/rupiah-ditutup-melemah-015-persen-jadi-rp-18230-per-dolar-as"}
+      ],
+      "why_it_matters": "A weaker rupiah raises the price of imported goods, fuel and overseas tuition.",
+      "signals": {"spreading": 1, "wallet": 2, "surprise": 0, "visual": 2, "fresh": 2, "rivals": 0},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-24",
+      "category": "BIZ",
+      "event": "Danantara CEO Rosan Roeslani told DPR that Danantara Investment Management (DIM) now expects only Rp0.8 trillion net profit for 2026 versus the Rp3.4 trillion work plan target, blaming pressure on the stock market.",
+      "key_numbers": "DIM 2026 net profit forecast Rp0.8 triliun vs RKAP Rp3.4 triliun (-76%) · year-end 2026 balance sheet Rp248 triliun · 2027 target Rp421 triliun · Rp69 triliun invested in 39 projects in 2026 · >100,000 jobs and ~Rp200 triliun crowding-in (estimates)",
+      "storyline": "msci-reclassification",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/market/20261124123919-17-787940/danantara-pangkas-proyeksi-laba-dim-2026-jadi-rp800-m-ini-alasannya"},
+        {"label": "Kompas.com", "url": "https://money.kompas.com/read/2026/11/24/143659026/laba-danantara-investment-2026-diproyeksi-rp-800-miliar-targetnya-rp-34"},
+        {"label": "detikFinance", "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8767614/danantara-salurkan-investasi-rp-69-t-ke-39-proyek-selama-2026/amp"}
+      ],
+      "why_it_matters": "The state wealth fund's own profit was cut by three quarters because of the stock-market slump, a direct hit on the money behind Prabowo's investment plans.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 2, "visual": 2, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "Reported by CNBC Indonesia, Kompas, Sindonews, Bisnis, NTV News",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-25",
+      "category": "BIZ",
+      "event": "Danantara is due to present its first public consolidated financial report, for fiscal 2025 covering BUMN under its management, on Wednesday 25 November after receiving the BPK audit, moved from the earlier 23 November target.",
+      "key_numbers": "Report date 25 Nov 2026 (earlier target 23 Nov) · covers Feb-Dec 2025 (Danantara launched Feb 2025) · full report to be shared publicly · no figures disclosed yet",
+      "storyline": "",
+      "update_of": "E0862",
+      "status": "upcoming",
+      "sources": [
+        {"label": "Headline.co.id", "url": "https://www.headline.co.id/161587/danantara-rilis-laporan-keuangan-perdana-25-november-2026-ini-yang-akan-diungkap/"},
+        {"label": "Espos", "url": "https://ekonomi.espos.id/danantara-umumkan-laporan-keuangan-hasil-audit-bpk-besok-2269753"}
+      ],
+      "why_it_matters": "First time the public can see the books of the giant state-fund holding that controls the major state banks and companies.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-23",
+      "category": "BIZ",
+      "event": "BP BUMN head Dony Oskaria said BUMN undergoing restructuring get a three-year income tax (PPh) exemption that already applies, with the implementing regulation to follow.",
+      "key_numbers": "PPh exemption 3 years, only for BUMN being restructured · 1,074 BUMN entities in total (figure varies by source) · 360 already streamlined as of 23 Nov · 268 still in progress, target end-Dec 2026 · legal basis cited for streamlining: Inpres 7/2026, PP 38/2026",
+      "storyline": "",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "ANTARA", "url": "https://www.antaranews.com/berita/5873639/kepala-bp-bumn-pembebasan-pph-berlaku-untuk-transformasi-bumn"},
+        {"label": "Bisnis", "url": "https://ekonomi.bisnis.com/read/20261123/259/2023661/perampingan-bumn-di-bawah-danantara-dapat-bebas-pajak-pph-tiga-tahun-ini-rinciannya"},
+        {"label": "Beritasatu", "url": "https://www.beritasatu.com/ekonomi/3043325/pembebasan-pph-berlaku-3-tahun-untuk-bumn-yang-direstrukturisasi"}
+      ],
+      "why_it_matters": "Ordinary taxpayers' state firms get a tax holiday while merging or closing subsidiaries, a rare perk most businesses do not get.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 1, "fresh": 1, "rivals": 2},
+      "spreading_evidence": "Antara ekonomi page lead item; JPNN, VOI, Beritasatu",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-23",
+      "category": "BIZ",
+      "event": "Pertamina's business transformation director Agung Wicaksono said the company will finish restructuring 84 of its subsidiaries by end-2026, with 46 already done and 20 (including Pelita Air) carrying over to 2027.",
+      "key_numbers": "Pertamina 257 entities (about 25% of 1,041 BUMN entities in Danantara ecosystem) · target to restructure 104, leaving 153 · 46 done + 38 more by year-end = 84 · 20 carry over to 2027 · layers cut from 7 to 3",
+      "storyline": "",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "ANTARA", "url": "https://antaranews.com/berita/5873747/pertamina-bidik-restrukturisasi-84-anak-usaha-tuntas-pada-akhir-2026"},
+        {"label": "IDX Channel", "url": "https://www.idxchannel.com/economics/pertamina-targetkan-perampingan-84-anak-usaha-tuntas-di-akhir-2026"},
+        {"label": "Sindonews", "url": "https://ekbis.sindonews.com/read/1775335/34/pertamina-bakal-pangkas-104-anak-usaha-84-perusahaan-rampung-tahun-ini-1795425105"}
+      ],
+      "why_it_matters": "Pertamina, the fuel supplier for the whole country, runs a web of 257 entities nested seven layers deep.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 2, "visual": 2, "fresh": 1, "rivals": 2},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-23",
+      "category": "GLB",
+      "event": "Nvidia shares jumped about 31% after its board reinstated Jensen Huang as CEO, then fell roughly 7-9% intraday on 24 November as the US tech rally faded.",
+      "key_numbers": "Nvidia +31% on 23 Nov (about US$1 trillion added market value, per Fortune headline) · 24 Nov intraday -7.2% to -8.6% · Nasdaq Composite -1.9% to -2.2% intraday · Analog Devices -19% on outlook",
+      "storyline": "ai-data-centres",
+      "update_of": "E0820",
+      "status": "partial",
+      "sources": [
+        {"label": "Fortune", "url": "https://fortune.com/2026/11/23/wall-street-1-trillion-jensen-huang-nvidia-stock-market-cap/"},
+        {"label": "Motley Fool", "url": "https://www.fool.com/coverage/stock-market-today/2026/11/24/stock-market-midday-nov-24-nvidia-drops-9-as-wall-street-s-historic-ai-rally-loses-momentum/"},
+        {"label": "Industry.co.id", "url": "https://industry.co.id/read/159813/analisa-ihsg-25-november-2026-uji-5300-saat-nasdaq-turun-19"}
+      ],
+      "why_it_matters": "One chip company's boss swinging a trillion dollars of value in a day shows how fragile the AI rally is, and Indonesian tech and data-centre stocks follow it.",
+      "signals": {"spreading": 2, "wallet": 0, "surprise": 2, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "detik finance front page on 23 Nov and Anthropic/Nvidia stories widely shared; Nvidia/Huang saga ran all month",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-24",
+      "category": "GLB",
+      "event": "US stocks fell on 24 November in a tech selloff, with the dollar index at its highest since March 2025, the 10-year Treasury yield near 5% and gold down over 2%.",
+      "key_numbers": "Midday: Nasdaq -2.24% to 23,549 · S&P 500 -0.99% to 7,166 · Dow +0.24% to 49,715 · 10-year yield 4.92% · gold -2.29% to ~US$3,568 · Brent ~US$88 (sources inconsistent) vs US$92.57 on 20 Nov · US PCE inflation report due Wed 25 Nov",
+      "storyline": "rupiah",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "Motley Fool", "url": "https://www.fool.com/coverage/stock-market-today/2026/11/24/stock-market-midday-nov-24-nvidia-drops-9-as-wall-street-s-historic-ai-rally-loses-momentum/"},
+        {"label": "Industry.co.id", "url": "https://industry.co.id/read/159813/analisa-ihsg-25-november-2026-uji-5300-saat-nasdaq-turun-19"},
+        {"label": "Investor.id", "url": "https://investor.id/market/463193/arah-ihsg-rabu-25-november-2026-bersiap-ke-5350-cek-rekomendasi-saham"}
+      ],
+      "why_it_matters": "A strong dollar and high US yields keep pressure on the rupiah and on foreign money leaving Indonesian stocks.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    }
+  ],
+  "gaps": [
+    "Foreign net buy/sell total for 24 Nov not verified (BBCA reportedly bought, BBRI/BMRI/BBNI sold in session I; full-day figure not read). 23 Nov was Rp673.1 billion net sell (known E1067).",
+    "Danantara FY2025 financial report content: due 25 Nov, results not yet out at research time.",
+    "Final Wall Street closes for 24 Nov and Brent price not confirmed (sources inconsistent, intraday only); 25 Nov morning IHSG open not checked.",
+    "Section pages for CNBC Indonesia and Bisnis not fetched directly (search results only); detik bursa page was stale. KFC US franchisee (Tasty Chick'n) Chapter 11 and layoffs news (e.g. 1,646 staff) seen but no Indonesia link, not reported."
+  ]
+}

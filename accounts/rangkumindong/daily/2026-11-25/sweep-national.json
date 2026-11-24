@@ -1,0 +1,227 @@
+{
+ "area": "national",
+ "run_date": "2026-11-25",
+ "checked": [
+  "detik terpopuler (24 Nov snapshot)",
+  "CNBC Indonesia news (latest; popular list did not load)",
+  "CNN Indonesia indeks (thin)",
+  "ANTARA search (BMKG/BNPB/banjir)",
+  "TurnBackHoax home",
+  "Watch list found: most-read, viral incident, disasters (floods, rob), crime, hoaxes, Russia mercenary storyline",
+  "Storyline searches: listyo-sigit-penyadapan, tentara-bayaran-rusia, karhutla"
+ ],
+ "events": [
+  {
+   "date": "2026-11-23",
+   "category": "NEWS",
+   "event": "Bareskrim Polri named six suspects in an alleged makar (subversion) case, including ex-Kapolri Listyo Sigit Prabowo, with police alleging the motive was to keep the Kapolri post by weakening public trust in the Prabowo government.",
+   "key_numbers": "6 suspects (Listyo Sigit Prabowo, Slamet Uliandi, Eko Hadi Santoso, Ahrie Sonta Nasution, Tedjo Kusumo, Iman Imanuddin) · announced 23 Nov 2026 evening by Bareskrim head Komjen Asep Safrudin · searches at 14 locations reported",
+   "storyline": "listyo-sigit-penyadapan",
+   "update_of": "E0998",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "CNBC Indonesia",
+     "url": "https://www.cnbcindonesia.com/news/20261123194505-4-787774/breaking-news-polri-tetapkan-6-tersangka-makar-termasuk-listyo-sigit"
+    },
+    {
+     "label": "detik",
+     "url": "https://news.detik.com/berita/d-8766455/motif-dugaan-makar-listyo-sigit-dkk-ingin-pertahankan-jabatan-kapolri"
+    },
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/nasional/20261124064854-12-1430632/jenderal-listyo-sigit-di-pusaran-kasus-makar-demi-jabatan-kapolri"
+    }
+   ],
+   "why_it_matters": "A former national police chief is now a treason suspect, an unprecedented case that shapes trust in Polri.",
+   "signals": {
+    "spreading": 2,
+    "wallet": 0,
+    "surprise": 2,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "detik terpopuler #7, #9; CNBC Indonesia latest #4, #5",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-11-23",
+   "category": "NEWS",
+   "event": "A chain collision of eight vehicles in Sumedang, West Java killed seven people and injured six, with police suspecting brake failure on a bottled-water truck.",
+   "key_numbers": "8 vehicles · 7 dead · 6 injured · 23 Nov 2026 around 17:27 WIB · cause (brake failure, possible overload) not yet confirmed by technical inspection",
+   "storyline": "",
+   "update_of": "",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "ANTARA",
+     "url": "https://www.antaranews.com/berita/5872827/rem-truk-blong-diduga-jadi-penyebab-kecelakaan-beruntun-di-sumedang"
+    },
+    {
+     "label": "Viva",
+     "url": "https://www.viva.co.id/berita/nasional/1945835-diduga-karena-truk-rem-blong-begini-kronologi-kecelakaan-beruntun-di-sumedang-tewaskan-7-orang"
+    }
+   ],
+   "why_it_matters": "Truck brake failures on downhill roads repeat often and put every road user at risk, especially in the Nataru travel season.",
+   "signals": {
+    "spreading": 2,
+    "wallet": 1,
+    "surprise": 1,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "detik terpopuler #3, #10",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-21",
+   "category": "NEWS",
+   "event": "Immigration officers at Ngurah Rai airport (Bali) stopped two Indonesians, SDR (27) and MZM (36), who were allegedly heading to join the Russian military.",
+   "key_numbers": "2 people (27 and 36 years old) · flight Aeroflot SU297 · planned departure 21 Nov 2026 · Law 12/2006: citizenship can be lost by serving in a foreign army without presidential permission",
+   "storyline": "tentara-bayaran-rusia",
+   "update_of": "E1011",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "detik",
+     "url": "https://news.detik.com/berita/d-8766761/2-wni-hendak-jadi-tentara-rusia-imigrasi-ngurah-rai-gagalkan-keberangkatan"
+    },
+    {
+     "label": "Okezone",
+     "url": "https://news.okezone.com/read/2026/11/23/340/3255765/imigrasi-ngurah-rai-cegah-dua-wni-yang-diduga-akan-jadi-tentara-bayaran-di-rusia"
+    },
+    {
+     "label": "IDN Times Bali",
+     "url": "https://bali.idntimes.com/news/bali/imigrasi-ngurah-rai-gagalkan-2-wni-bergabung-militer-rusia-00-r544s-wtbmk1"
+    }
+   ],
+   "why_it_matters": "Recruitment of Indonesians for Russia's war keeps surfacing, with the risk of losing citizenship.",
+   "signals": {
+    "spreading": 2,
+    "wallet": 1,
+    "surprise": 1,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "detik terpopuler #5",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-23",
+   "category": "ENV",
+   "event": "West Kalimantan declared an emergency alert (siaga darurat) for floods, whirlwinds and landslides in Kapuas Hulu after floods following heavy rain on 21 November.",
+   "key_numbers": "11,113 families (28,875 people) affected · 7 subdistricts surrounded · 33 villages in 4 subdistricts inundated · decree valid to 31 Jan 2027 · floods recorded every November 2021-2025",
+   "storyline": "",
+   "update_of": "E0910",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "ANTARA",
+     "url": "https://www.antaranews.com/berita/5872947/bnpb-kalbar-tetapkan-darurat-bencana-usai-kapuas-hulu-dikepung-banjir"
+    }
+   ],
+   "why_it_matters": "Peak rainy-season floods are recurring in the same regions each year.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 1,
+    "surprise": 0,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-26",
+   "category": "ENV",
+   "event": "Semeru hiking reopens on 26 November after three months closed since a forest fire in late August, limited to Ranu Kumbolo with a daily quota.",
+   "key_numbers": "Open 26 Nov-30 Dec 2026 (35 days) · quota 250 hikers/day · limit Ranu Kumbolo, summit closed · fire detected 26 Aug (Ranu Kembang block) · full closure resumes 31 Dec",
+   "storyline": "karhutla",
+   "update_of": "",
+   "status": "upcoming",
+   "sources": [
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/nasional/20261124194453-20-1431020/3-bulan-tutup-pendakian-semeru-dibuka-lagi-26-november-2026/amp"
+    }
+   ],
+   "why_it_matters": "Hikers can book again, but only a short window with strict limits.",
+   "signals": {
+    "spreading": 0,
+    "wallet": 1,
+    "surprise": 0,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 2
+   },
+   "spreading_evidence": "",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-24",
+   "category": "NEWS",
+   "event": "TurnBackHoax rated five viral claims false or scams on 24 November, including a fake lifetime-SIM policy attributed to Kapolri Suyudi, an AI-made rally supposedly urging Gibran's return as VP, and an AI-faked Ustaz Adi Hidayat Rp100 million giveaway.",
+   "key_numbers": "5 debunks on 24 Nov 2026 · fake SIM seumur hidup (SIM validity stays 5 years) · Rp100 juta fake giveaway · Obama 're-election' video was campaign footage",
+   "storyline": "hoax-tracker",
+   "update_of": "E1093",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "TurnBackHoax",
+     "url": "https://turnbackhoax.id/"
+    }
+   ],
+   "why_it_matters": "AI-made fakes and prize scams target ordinary people's trust and money.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 1,
+    "surprise": 1,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-23",
+   "category": "ENV",
+   "event": "BMKG issued early warnings for tidal flooding (rob) linked to the perigee phenomenon in Bali for 23-25 November and in NTB up to 25 November.",
+   "key_numbers": "Bali warning 23-25 Nov 2026 · NTB potential rob up to two metres (per ANTARA Mataram headline)",
+   "storyline": "",
+   "update_of": "",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "ANTARA",
+     "url": "https://www.antaranews.com/berita/5870655/bbmkg-terbitkan-peringatan-dini-potensi-rob-di-bali"
+    },
+    {
+     "label": "Kompas Denpasar",
+     "url": "https://denpasar.kompas.com/read/2026/11/23/120025978/fenomena-perigee-bmkg-keluarkan-peringatan-banjir-rob-bali-2325-november"
+    }
+   ],
+   "why_it_matters": "Coastal residents and tourist areas face seawater flooding even without rain.",
+   "signals": {
+    "spreading": 0,
+    "wallet": 1,
+    "surprise": 0,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 2
+   },
+   "spreading_evidence": "",
+   "sensitivity": "normal"
+  }
+ ],
+ "gaps": [
+  "detik #1: mother and child fell into 13 m well in Lampung, mother died; headline only, not opened",
+  "Sumedang cause (brake failure/overload) awaiting police technical inspection",
+  "Window page snapshots were dated 24 Nov; 25 Nov headlines not yet visible",
+  "CNBC popular list failed to load; karhutla storyline had no newer data than 21 Nov"
+ ]
+}

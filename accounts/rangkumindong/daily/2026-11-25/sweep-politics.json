@@ -1,0 +1,177 @@
+{
+  "area": "politics",
+  "run_date": "2026-11-25",
+  "checked": [
+    "ANTARA politik (fetched, relative times)",
+    "CNN Indonesia nasional (fetched, 24 Nov items)",
+    "Detik section page (only a stale BBC feed returned, not usable)",
+    "Tempo politik (blocked by robots)",
+    "Presiden/Istana/Wapres: cawapres Amran and Sugiono, Dasco visit to Istana",
+    "Polri big cases: Listyo Sigit makar case, Tedjo dismissal, KKEP",
+    "KPK: Fahd Arafiq, Suharyanto family summons",
+    "KPU/DKPP: DKPP complaints on Pasal Gibran",
+    "TNI: OPM renamed KEB",
+    "Labour/UMK: Jatim protest",
+    "Storyline searches: gibran-ijazah-mk, listyo-sigit-penyadapan",
+    "Article pages for KM 50, UMK, KEB, KKEP blocked (WebFetch permission), so those rely on headlines"
+  ],
+  "events": [
+    {
+      "date": "2026-11-24",
+      "category": "POL",
+      "event": "MPR's verification team said it will not visit the schools of VP candidates Amran Sulaiman and Sugiono and will instead verify their diplomas in Jakarta via the Kemendikdasmen, with only high-school diplomas checked.",
+      "key_numbers": "2 candidates · verification 23 Nov-1 Dec · MPR plenary vote 9-11 Dec (date reported differently, see E1088/E1013) · MPR said both may stay ministers",
+      "storyline": "gibran-ijazah-mk",
+      "update_of": "E1088",
+      "status": "verified",
+      "sources": [
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261124193951-32-1431019/mpr-batal-ke-sekolah-sugiono-dan-amran-buat-cek-ijazah-cawapres"},
+        {"label": "Suara", "url": "https://www.suara.com/news/2026/11/24/170949/mpr-tak-datangi-sekolah-amran-dan-sugiono-verifikasi-ijazah-cawapres-dilakukan-di-kemendikdasmen"},
+        {"label": "ANTARA", "url": "https://www.antaranews.com/berita/5873435"}
+      ],
+      "why_it_matters": "After Gibran's diploma saga, how the MPR checks the next VP's diplomas is the live question.",
+      "signals": {"spreading": 2, "wallet": 0, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "ANTARA politik feed has 8+ items on the cawapres process in one morning",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-24",
+      "category": "POL",
+      "event": "Polri dismissed Brigjen Tedjo Kusumo, a suspect in the alleged treason (makar) plot involving ex-Kapolri Listyo Sigit, from the force after an ethics hearing; he is reported to have appealed, and AKBP Guntur Yayus Putra was also dismissed for helping him shadow an official.",
+      "key_numbers": "Tedjo Kusumo (ex-Densus 88 intelligence director) dismissed 24 Nov · AKBP Guntur Yayus Putra also dismissed · Tedjo is 1 of 6 named makar suspects (E1087)",
+      "storyline": "listyo-sigit-penyadapan",
+      "update_of": "E1087",
+      "status": "verified",
+      "sources": [
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261124175106-12-1430968/polri-pecat-brigjen-tedjo-buntut-kasus-makar"},
+        {"label": "Detik", "url": "https://news.detik.com/berita/d-8768272/brigjen-tedjo-kusumo-dipecat-dari-polri-buntut-kasus-makar"},
+        {"label": "Suara", "url": "https://www.suara.com/news/2026/11/24/203113/terbukti-langgar-etik-brigjen-tedjo-kusumo-dipecat-tidak-hormat-dari-polri"}
+      ],
+      "why_it_matters": "Another general is out of Polri as the makar case against the former police chief moves from suspects to sanctions.",
+      "signals": {"spreading": 2, "wallet": 0, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "Covered by CNN, Detik, Suara, Kompas TV, Jawapos, Viva, Inilah within a day",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-26",
+      "category": "POL",
+      "event": "Kadivpropam said ex-Kapolri Listyo Sigit will go through his ethics hearing (KKEP) on Thursday 26 November, over the alleged illegal wiretapping case.",
+      "key_numbers": "Hearing Thu 26 Nov 2026 · prior dismissals in related cases: Ahrie Sonta (10 Nov), Eko Hadi Santoso (17 Nov), Tedjo Kusumo (24 Nov)",
+      "storyline": "listyo-sigit-penyadapan",
+      "update_of": "E1012",
+      "status": "upcoming",
+      "sources": [
+        {"label": "ANTARA", "url": "https://www.antaranews.com/berita/5873567"}
+      ],
+      "why_it_matters": "The outcome decides whether a former national police chief is dishonourably discharged.",
+      "signals": {"spreading": 2, "wallet": 0, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "ANTARA politik feed; part of the dominant Polri story this week",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-24",
+      "category": "POL",
+      "event": "Bareskrim said suspects in the makar case carried out a conspiracy (permufakatan) and attacks on social media; Dasco visited Prabowo at Istana Merdeka the same evening.",
+      "key_numbers": "Dasco at Istana Merdeka 24 Nov, about 22:00 WIB (CNN timestamp) · Golkar had not decided between Amran and Sugiono",
+      "storyline": "listyo-sigit-penyadapan",
+      "update_of": "E1087",
+      "status": "partial",
+      "sources": [
+        {"label": "ANTARA", "url": "https://www.antaranews.com/berita/5873479"},
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261124220537-32-1431060/dasco-temui-prabowo-di-istana-merdeka"}
+      ],
+      "why_it_matters": "Shows how police describe the plot, and that Dasco, the earlier favourite for VP, is still talking to the President.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 0, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-24",
+      "category": "POL",
+      "event": "Former Army chief Dudung voiced support for reopening the KM 50 toll road case, per CNN Indonesia headline.",
+      "key_numbers": "KM 50 case (2020 shooting of FPI members)",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261124193620-12-1431016/dudung-dukung-pembukaan-kembali-kasus-km-50"}
+      ],
+      "why_it_matters": "A reopened KM 50 case would revisit one of the most contested police cases of recent years.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 2, "visual": 0, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-25",
+      "category": "POL",
+      "event": "East Java labour groups plan a rally at the Governor's office on 25 November ahead of the UMK (district minimum wage) decision.",
+      "key_numbers": "Rally 25 Nov 2026 · UMK to be set by East Java governor",
+      "storyline": "",
+      "update_of": "",
+      "status": "upcoming",
+      "sources": [
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261124192117-20-1431002/jelang-penetapan-umk-buruh-jatim-aksi-di-kantor-gubernur-besok"}
+      ],
+      "why_it_matters": "UMK decisions set the minimum pay for formal workers in each district for 2027.",
+      "signals": {"spreading": 1, "wallet": 2, "surprise": 0, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-24",
+      "category": "POL",
+      "event": "TNI changed its official term for the OPM armed group in Papua to KEB, per ANTARA.",
+      "key_numbers": "OPM renamed KEB (full expansion not confirmed from headline)",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "ANTARA", "url": "https://www.antaranews.com/berita/5872175"}
+      ],
+      "why_it_matters": "The label the military uses shapes how Papua conflict is framed and handled.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 0, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-24",
+      "category": "POL",
+      "event": "KPK moved the detention of Fahd Arafiq to a hospital (bantaran) at RS Polri, and the wife and children of ex-BNPB head Lt Gen Suharyanto did not attend a KPK summons.",
+      "key_numbers": "Fahd Arafiq treated at RS Polri · Suharyanto family absent from KPK exam on 24 Nov",
+      "storyline": "corruption-cases",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "CNN Indonesia (Fahd)", "url": "https://www.cnnindonesia.com/nasional/20261124185801-12-1430993/kpk-bantarkan-penahanan-fahd-arafiq-dirawat-di-rs-polri"},
+        {"label": "CNN Indonesia (Suharyanto)", "url": "https://www.cnnindonesia.com/nasional/20261124192318-12-1431012/anak-istri-eks-kepala-bnpb-letjen-suharyanto-tak-hadir-pemeriksaan-kpk"}
+      ],
+      "why_it_matters": "Tracks the KPK disaster-emergency procurement case that has reached a former agency head's family.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 0, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-24",
+      "category": "POL",
+      "event": "KPU asked DKPP to reject all complaints over the 'Pasal Gibran' issue and restore the commissioners' good name, while the DKPP chair asked complainants not to doubt its independence.",
+      "key_numbers": "4 ethics cases merged by DKPP (per E0958)",
+      "storyline": "gibran-ijazah-mk",
+      "update_of": "E0958",
+      "status": "partial",
+      "sources": [
+        {"label": "ANTARA", "url": "https://www.antaranews.com/berita/5873415"},
+        {"label": "ANTARA", "url": "https://www.antaranews.com/berita/5873383"}
+      ],
+      "why_it_matters": "The ruling could decide whether KPU members face sanctions over rules that let Gibran run.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 0, "visual": 0, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "",
+      "sensitivity": "high"
+    }
+  ],
+  "gaps": [
+    "Tempo politik blocked by robots; Detik section page returned only an outdated feed.",
+    "Article pages for KM 50, UMK Jatim, TNI KEB and the KKEP date were blocked by WebFetch permission; details rest on headlines and need a recheck.",
+    "MPR plenary date: E1088 says 11 Dec, E1013 says 9 Dec; not resolved today.",
+    "ANTARA relative times only (hours ago), so 24 vs 25 Nov dating of some items is inferred."
+  ]
+}

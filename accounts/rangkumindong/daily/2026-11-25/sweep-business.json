@@ -1,0 +1,245 @@
+{
+ "area": "business",
+ "run_date": "2026-11-25",
+ "checked": [
+  "CNBC Indonesia tech",
+  "detikInet front page and terpopuler",
+  "Watch list found: Komdigi ojol rules, scams, AI/chips, Google, telco",
+  "Storyline searches: anthropic-ipo, google-youtube-channels, chip-ram-prices, crypto-hacks, telco-ai-tokens, online-scams",
+  "katadata, bisnis, cnnindonesia, dailysocial not fetched directly (search only)"
+ ],
+ "events": [
+  {
+   "date": "2026-11-23",
+   "category": "TECH",
+   "event": "Nvidia's board unanimously reinstated Jensen Huang as CEO and president less than two weeks after he resigned, after consulting senior US officials and with Trump publicly backing the move; Nvidia stock surged.",
+   "key_numbers": "Close US$165.05, +31.48% (+US$39.52) on 23 Nov · best day since May 2003 · nearly US$1 trillion market cap added · resigned ~12 Nov · Colette Kress was interim CEO",
+   "storyline": "ai-data-centres",
+   "update_of": "E0935",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo/"
+    },
+    {
+     "label": "Yahoo Finance",
+     "url": "https://finance.yahoo.com/technology/article/nvidia-reinstates-jensen-huang-as-ceo-stock-rockets-141145439.html"
+    },
+    {
+     "label": "detikInet",
+     "url": "https://inet.detik.com/"
+    }
+   ],
+   "why_it_matters": "Nvidia is the AI chip giant behind data centres and phone/PC memory prices, and a single CEO swing moved nearly US$1 trillion in a day.",
+   "signals": {
+    "spreading": 2,
+    "wallet": 1,
+    "surprise": 2,
+    "visual": 2,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "detikInet terpopuler #1 and #3; CNBC Indonesia tech 7+ headlines on 24 Nov",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-24",
+   "category": "TECH",
+   "event": "Polri repatriated 139 of 141 Indonesians caught in a Philippine raid on a scam hub in Pasay City, Manila, where they allegedly impersonated police to defraud Indonesian victims.",
+   "key_numbers": "139 WNI repatriated 24 Nov (113 men, 28 women among 141) · raid at KE Towers 3 Nov 2026 · at least 87 Indonesian victims · losses Rp46.7 billion · 370 items seized · max penalty 15 years",
+   "storyline": "online-scams",
+   "update_of": "E1085",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "CNBC Indonesia",
+     "url": "https://www.cnbcindonesia.com/tech/20261124164820-37-788035/polisi-pulangkan-139-wni-terlibat-sindikat-penipuan-online-di-manila"
+    },
+    {
+     "label": "IDX Channel",
+     "url": "https://www.idxchannel.com/news/139-wni-tersangka-online-scam-dipulangkan-dari-filipina-kerugian-korban-rp467-miliar"
+    },
+    {
+     "label": "Okezone",
+     "url": "https://news.okezone.com/read/2026/11/24/337/3255975/rugikan-korban-rp46-7-miliar-139-wni-tersangka-online-scam-di-filipina-dipulangkan"
+    }
+   ],
+   "why_it_matters": "The fake courier-then-fake-police call with forced loan applications is a script anyone could receive; Polri says verify via hotline 110.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 2,
+    "surprise": 2,
+    "visual": 2,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "CNBC Indonesia tech 3 headlines on 24 Nov; widely covered by Kumparan, Okezone, iNews",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-24",
+   "category": "TECH",
+   "event": "Anthropic shares fell below the US$83 IPO price in pre-market trading on 24 November, about 25% below the 19 November opening price, amid valuation worries, a tech sell-off and insider sales.",
+   "key_numbers": "IPO price US$83 · 19 Nov open US$111.50 · 24 Nov US$83.39 (-5%) · Dario and Daniela Amodei each sold over 3.37 million shares worth over US$280 million · gross IPO proceeds record US$93.5 billion · MSCI adds Anthropic at close of 30 Nov",
+   "storyline": "anthropic-ipo",
+   "update_of": "E1082",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "Kontan",
+     "url": "https://internasional.kontan.co.id/news/saham-anthropic-anjlok-harga-turun-di-bawah-level-ipo-us-83"
+    },
+    {
+     "label": "Industry.co.id",
+     "url": "https://www.industry.co.id/read/159814/saham-anthropic-jatuh-di-bawah-harga-ipo-us83-kini-us8042"
+    }
+   ],
+   "why_it_matters": "Shows how fast hyped AI IPOs can turn for retail investors, with MSCI inclusion on 30 Nov as the next catalyst.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 1,
+    "surprise": 2,
+    "visual": 2,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "Covered by Kontan, Industry.co.id, Pluang",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-24",
+   "category": "TECH",
+   "event": "Telkom, Kemenko Polkam and seven other bodies signed a collaboration declaration on post-quantum cryptography, with BSSN forming a national PQC migration task force.",
+   "key_numbers": "9 parties signed · 3 working groups (Technical, Policy, Industry and Talent) · NIST first PQC standards Aug 2024 · no Indonesian target date given",
+   "storyline": "",
+   "update_of": "",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "Antara",
+     "url": "https://www.antaranews.com/berita/5874935/telkom-dan-kemenko-polkam-perkuat-kedaulatan-digital-di-era-kuantum"
+    },
+    {
+     "label": "CNBC Indonesia",
+     "url": "https://www.cnbcindonesia.com/tech/20261124153205-37-787998/kemenko-polkam-dan-telkom-perkuat-kedaulatan-digital-di-era-kuantum"
+    },
+    {
+     "label": "Bisnis",
+     "url": "https://teknologi.bisnis.com/read/20261124/101/2024101/kemenko-polkam-dan-telkom-tlkm-sepakat-dorong-migrasi-kriptografi-pascakuantum"
+    }
+   ],
+   "why_it_matters": "Future quantum computers could break today's encryption protecting banking and government data, so migration has to start now.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 0,
+    "fresh": 2,
+    "rivals": 2
+   },
+   "spreading_evidence": "",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-24",
+   "category": "TECH",
+   "event": "Google will shut the Nest app on 25 January 2027 and retire Google Assistant on Home devices on 2 August 2027, replacing them with Google Home and Gemini.",
+   "key_numbers": "Nest app closes 25 Jan 2027 · Google Assistant retired 2 Aug 2027 · Nest Aware becomes Google Home Premium",
+   "storyline": "",
+   "update_of": "E0992",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "Telset",
+     "url": "https://telset.id/news/google-tutup-aplikasi-nest-dan-google-assistant-mulai-2027"
+    },
+    {
+     "label": "CNBC Indonesia",
+     "url": "https://www.cnbcindonesia.com/tech/2020050406"
+    },
+    {
+     "label": "GSMArena",
+     "url": "https://www.gsmarena.com/google_is_killing_off_the_nest_app_and_google_assistant_on_home_devices-news-75580.php"
+    }
+   ],
+   "why_it_matters": "Owners of Nest cameras and Google speakers must move to Google Home, and subscriptions are renamed.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 1,
+    "surprise": 1,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "CNBC Indonesia tech #2 on 24 Nov",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-24",
+   "category": "TECH",
+   "event": "Komdigi is preparing a ministerial regulation with a tariff formula guideline for two-wheeler food and goods delivery by ojol platforms, aiming to issue it before 31 December 2026.",
+   "key_numbers": "Target before 31 Dec 2026 · implements Perpres No. 27 Tahun 2026 · no upper or lower tariff limits for delivery · factors: weight, parking, waiting time (Katadata)",
+   "storyline": "ojol-green-sm",
+   "update_of": "E1050",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "Katadata",
+     "url": "https://katadata.co.id/digital/startup/6afebdedcc52f/komdigi-siapkan-aturan-tarif-ojol-antar-makanan-dan-barang-dpr-turun-tangan"
+    },
+    {
+     "label": "CNBC Indonesia",
+     "url": "https://www.cnbcindonesia.com/tech/2020050406"
+    },
+    {
+     "label": "Bisnis",
+     "url": "https://ekonomi.bisnis.com/read/20261008/98/2010973/perpres-ojol-tarif-kirim-barang-dan-makanan-diatur-komdigi"
+    }
+   ],
+   "why_it_matters": "It could change what you pay for GoFood-style delivery and what drivers earn, and small food sellers may feel it.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 2,
+    "surprise": 1,
+    "visual": 0,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "CNBC Indonesia tech #12 on 24 Nov",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-24",
+   "category": "GLB",
+   "event": "Prediction-market platform Kalshi halted operations in Utah, losing access for more than 177,000 users, after losing a federal court challenge to a Utah law banning proposition bets.",
+   "key_numbers": "177,000+ users · Utah AG filed 12 felony counts in October 2026 · CFTC emergency motion pending",
+   "storyline": "",
+   "update_of": "",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "CNBC Indonesia",
+     "url": "https://www.cnbcindonesia.com/tech/20261124131732-37-787953/raksasa-judol-tumbang-seketika-resmi-pamit-ke-177000-pengguna"
+    }
+   ],
+   "why_it_matters": "Indonesian media frame prediction markets as legal online gambling, relevant to the judol debate at home.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 2
+   },
+   "spreading_evidence": "CNBC Indonesia tech #3 on 24 Nov",
+   "sensitivity": "normal"
+  }
+ ],
+ "gaps": [
+  "Section pages for katadata, bisnis, cnnindonesia, dailysocial were not scanned (CNBC Indonesia and detikInet only)",
+  "No new development found for google-youtube-channels, chip-ram-prices or crypto-hacks (Ansem wallet US$2.57M is minor)",
+  "CNBC Nvidia 24 Nov article on remaining investigations could not be fetched",
+  "Ministry of Education resignation over AI cheating (CNBC headline) not verified; country unclear"
+ ]
+}
