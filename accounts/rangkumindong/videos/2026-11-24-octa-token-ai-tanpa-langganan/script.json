@@ -1,0 +1,73 @@
+{
+ "direction": "[energetic, conversational, explaining to a friend]",
+ "format": "short",
+ "hook_style": "myth",
+ "lines": [
+  {
+   "id": "h1",
+   "tag": "[playful, knowing]",
+   "text": "Katanya pakai AI harus langganan bulanan.",
+   "say": "Katanya pakai e ai harus langganan bulanan."
+  },
+  {
+   "id": "h2",
+   "tag": "[surprised, teasing]",
+   "text": "Ternyata sekarang bisa isi saldo, kayak pulsa.",
+   "say": "Ternyata sekarang bisa isi saldo, kayak pulsa."
+  },
+  {
+   "id": "rd",
+   "tagline": true,
+   "text": "Rangkumin dong!"
+  },
+  {
+   "id": "l1",
+   "tag": "[matter-of-fact]",
+   "text": "23 November, Telkomsel rilis OCTA Token.",
+   "say": "Dua puluh tiga November, Telkomsel rilis Okta Token."
+  },
+  {
+   "id": "l2",
+   "tag": "[explaining, quick]",
+   "text": "Satu saldo, buat puluhan model AI. Dari OpenAI, Google, Anthropic, sampai DeepSeek.",
+   "say": "Satu saldo, buat puluhan model e ai. Dari Open e ai, Gugel, Entropik, sampai Dip-sik."
+  },
+  {
+   "id": "l3",
+   "tag": "[upbeat]",
+   "text": "Paketnya Rp100 ribu, Rp250 ribu, atau Rp500 ribu.",
+   "say": "Paketnya seratus ribu, dua ratus lima puluh ribu, atau lima ratus ribu rupiah."
+  },
+  {
+   "id": "l4",
+   "tag": "[reassuring]",
+   "text": "Bayarnya rupiah, bisa pakai pulsa. Dan saldonya nggak ada masa berlaku.",
+   "say": "Bayarnya rupiah, bisa pakai pulsa. Dan saldonya nggak ada masa berlaku."
+  },
+  {
+   "id": "l5",
+   "tag": "[matter-of-fact, quick]",
+   "text": "Belinya di MyTelkomsel, khusus Simpati dan Halo.",
+   "say": "Belinya di Mai Telkomsel, khusus Simpati dan Halo."
+  },
+  {
+   "id": "l6",
+   "tag": "[serious, slowing down]",
+   "text": "Tapi ada catatannya. Rp100 ribu itu dapat berapa kali tanya? Belum disebut.",
+   "say": "Tapi ada catatannya. Seratus ribu rupiah itu dapat berapa kali tanya? Belum disebut."
+  },
+  {
+   "id": "l7",
+   "tag": "[explaining]",
+   "text": "Saldonya berkurang tergantung model yang kamu pilih, dan seberapa sering dipakai.",
+   "say": "Saldonya berkurang tergantung model yang kamu pilih, dan seberapa sering dipakai."
+  },
+  {
+   "id": "cta",
+   "tag": "[playful, asking the viewer]",
+   "text": "Kamu lebih pilih langganan bulanan, atau bayar sesuai pakai? Komen!",
+   "say": "Kamu lebih pilih langganan bulanan, atau bayar sesuai pakai? Komen!"
+  }
+ ],
+ "tail": 0.9
+}
