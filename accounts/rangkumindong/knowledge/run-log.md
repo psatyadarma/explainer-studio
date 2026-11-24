@@ -226,3 +226,9 @@ History moved out of HANDOFF.md (22 Oct) so fresh sessions read less. Append one
 - Producer: Dario Amodei cut-out (Commons CC BY 2.0; rembg installed, bust crop), 49.5 s. QA 4 rounds: sync −160 ms → SUB_LEAD −0.05 + retimed 7 late words in build/timing.json; +17% badge overlap; end card hold. PASS.
 - Scheduled at 14:45 with `--when` → live 19:00 (IG DgFORiKklqf, YT SLtwl2FN9fU). Analyst: Google kanal 72 h IG 18.7% / YT 50.9%; Minggu Depan ~23 h IG 19.6%.
 - 2026-11-23 20:15 WITA IG insights: weekly #5 (14–20 Nov) 72 h window (actual 60 h: 23 views, reach 22, 8.0% of ~402 s, 0 follows) from Upload-Post + IG web insights. Minggu Depan 23–29 Nov 24 h and Google 72 h were already logged by the day run. Skip rate still app-only → hold_3s n/a. Old metrics blob 1bc7afd0… not deleted (delete denied by the safety check; harmless).
+
+## 2026-11-24 (Tue, Telkomsel OCTA Token (default pick 14:00); Pratama, myth, word subs, short 43.1 s, no B)
+- Sweeps: markets 7, politics 4, business 11, national 10 events (28 merged). Undone item: Listyo Sigit + 5 officers makar suspects (detik #1-5) was not among the 5 ideas on a tech day.
+- Default pick at 14:00; user live "Ok post" 18:01; scheduled via post.py --when 19:00 -> live 19:00 WITA (IG DgHzKf_DyP4, YT cnuGO8smQ6I).
+- Fact-check fixes: model count -> "puluhan" (media 69 vs Telkomsel >85), #chatgpt removed. QA PASS after one fix round (empty beats + tiny labels); QA wrongly flagged length vs 60-90 s, so qa-reviewer.md now says short = 30-45 s.
+- Analyst: Anthropic IPO 23 h IG 126 views 34.0%, YT 519; Mahfud 71 h IG 120 / 34.0%, YT 1,321; YT avg % n/a (quota).

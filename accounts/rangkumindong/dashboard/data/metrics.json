@@ -2146,5 +2146,53 @@
 "shares": 0,
 "saves": 0,
 "follows": 0
+},
+{
+"date": "2026-11-24",
+"folder": "videos/2026-11-23-anthropic-2x-bursa-ri",
+"platform": "instagram",
+"hours": 23,
+"views": 126,
+"avg_watch_pct": 34.0,
+"hold_3s_pct": null,
+"shares": 1,
+"saves": 0,
+"follows": null
+},
+{
+"date": "2026-11-24",
+"folder": "videos/2026-11-23-anthropic-2x-bursa-ri",
+"platform": "youtube",
+"hours": 23,
+"views": 519,
+"avg_watch_pct": null,
+"hold_3s_pct": null,
+"shares": 0,
+"saves": null,
+"follows": 0
+},
+{
+"date": "2026-11-24",
+"folder": "videos/2026-11-21-mahfud-wapres-hari-kerja",
+"platform": "instagram",
+"hours": 71,
+"views": 120,
+"avg_watch_pct": 34.0,
+"hold_3s_pct": null,
+"shares": 0,
+"saves": 1,
+"follows": null
+},
+{
+"date": "2026-11-24",
+"folder": "videos/2026-11-21-mahfud-wapres-hari-kerja",
+"platform": "youtube",
+"hours": 71,
+"views": 1321,
+"avg_watch_pct": null,
+"hold_3s_pct": null,
+"shares": 0,
+"saves": null,
+"follows": 0
 }
 ]
