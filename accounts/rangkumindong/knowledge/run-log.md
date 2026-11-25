@@ -232,3 +232,7 @@ History moved out of HANDOFF.md (22 Oct) so fresh sessions read less. Append one
 - Default pick at 14:00; user live "Ok post" 18:01; scheduled via post.py --when 19:00 -> live 19:00 WITA (IG DgHzKf_DyP4, YT cnuGO8smQ6I).
 - Fact-check fixes: model count -> "puluhan" (media 69 vs Telkomsel >85), #chatgpt removed. QA PASS after one fix round (empty beats + tiny labels); QA wrongly flagged length vs 60-90 s, so qa-reviewer.md now says short = 30-45 s.
 - Analyst: Anthropic IPO 23 h IG 126 views 34.0%, YT 519; Mahfud 71 h IG 120 / 34.0%, YT 1,321; YT avg % n/a (quota).
+
+## 2026-11-25 (Wed, Nvidia PART 2: Huang reinstated (default pick 14:00); Pratama, person_collage, block subs, standard 88.4 s, no B)
+- Sweeps 9/9/7/7 events (31 merged). 5 ideas, default pick ⭐#1 Nvidia. Light FC fixed a stale Rp16.000 rate; full FC 1 FIX: PART 1 probe was about foreign-intelligence-target reports per the 8-K, not the affair. QA PASS first time.
+- User "Ok post" ~15:35 with feedback "focus on his effect" (logged in preferences); scheduled 15:39, live 19:00 WITA (IG DgKX32HhCdH, YT hy4ITpC3o6w).

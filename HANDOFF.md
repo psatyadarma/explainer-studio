@@ -1,6 +1,6 @@
 # Handoff: Rangkumin Dong (read this first in every session)
 
-Updated: Tue 24 Nov 2026, ~19:30 WITA. Each daily run is a fresh session with no memory of earlier chats. **This file plus the playbook are the memory.** Whenever something here changes, update it, mirror it to the Video project (`claude/rangkumindong-handoff.md`), commit and push.
+Updated: Wed 25 Nov 2026, ~19:30 WITA. Each daily run is a fresh session with no memory of earlier chats. **This file plus the playbook are the memory.** Whenever something here changes, update it, mirror it to the Video project (`claude/rangkumindong-handoff.md`), commit and push.
 
 ## Standing rules from the user
 - **Decision 8 Nov (user: "I follow your decisions", on the W44/W45 recs):** voice locked to **Pratama**; **no B version from 9 Nov** (brand.json schedule hook_b = ""; skip hook-critic PICK B, variant.py, B QA and `post.py --trial`); hook styles keep rotating on A only (schedule `hook`). This overrides the daily task prompt's B steps until Trial Reels work again.
@@ -62,6 +62,7 @@ Updated: Tue 24 Nov 2026, ~19:30 WITA. Each daily run is a fresh session with no
 - #35 Minggu Depan 23–29 Nov (default pick; question_reveal, word subs, 82.4 s, QA PASS) live ~19:55 after the user's "Ok to post" 19:51 (18:40 default denied) (IG https://www.instagram.com/reel/DgCveoNEotu/ · YT https://www.youtube.com/watch?v=Wo2nWm-aQGo). W47 review: reviews/2026-W47.md; schedule 23–29 Nov set; open question: weekly YT-only vs 3-min IG cut. health.py IG-metrics window fixed.
 - #36 Anthropic IPO "2× seluruh bursa Indonesia" (default pick 14:00; user live "Ok to post" ~14:05; person_collage with Dario Amodei CC BY 2.0, block subs, short 49.5 s; AI-disclosure line in captions) live 23 Nov 19:00 (IG https://www.instagram.com/reel/DgFORiKklqf/ · YT https://www.youtube.com/watch?v=SLtwl2FN9fU). QA tip: when the same late words fail at every SUB_LEAD, retime them in build/timing.json.
 - #37 OCTA Token AI tanpa langganan (default pick; myth hook, word subs, short 43.1 s, QA PASS) live 24 Nov 19:00 (IG https://www.instagram.com/reel/DgHzKf_DyP4/ · YT https://www.youtube.com/watch?v=cnuGO8smQ6I). qa-reviewer: short = 30-45 s.
+- #38 Nvidia PART 2, Huang balik jadi CEO +31,48% (default pick 14:00; user "Ok post" ~15:35, feedback "focus on his effect"; person_collage, block subs, 88.4 s, QA PASS) live 25 Nov 19:00 (IG https://www.instagram.com/reel/DgKX32HhCdH/ · YT https://www.youtube.com/watch?v=hy4ITpC3o6w).
 - Setup: `pip install soundfile` was missing on 13 Nov (weekly voice failed once) — install it at session start.
 - **Git:** run `git status` first; if HEAD is detached, `git checkout -B main origin/main` before committing (7 Nov morning commits had to be rebased).
 - **Container restarts kill background jobs:** run renders in the foreground (≤9 min per command, 2 chapters in parallel max).
