@@ -28,6 +28,7 @@ _One dated line per piece of feedback about topics or angles. The coordinator ap
 - 2026-11-17: picked #4 (Jakarta air quality, scale angle) over the ⭐ tech idea; gave an early "ok to post".
 - 2026-11-20: No pick by 14:00 (default ⭐ #1 Google 23.827 kanal YouTube used, not a preference). Then said "Ok to post" during production.
 - 2026-11-21: No pick by 14:00 (default ⭐ #1 Mahfud "9 Des bisa tak sah" used, not a preference). ~18:44 said "Ok to post" after the 18:40 default post was held.
+- 2026-11-25: No pick by 14:00 (default ⭐ #1 Nvidia/Huang PART 2 used, not a preference). ~15:35 said "Ok post" and added: focus on his effect (the person's impact, e.g. one man's return moving ~US$1 T) rather than the backstory.
 
 ## What the audience shows
 _Written by the analyst each Sunday from real IG/YT numbers (W47, 22 Nov). The writer weighs this next to the user's picks; it is a tiebreaker, not an override._
@@ -41,7 +42,7 @@ _Written by the analyst each Sunday from real IG/YT numbers (W47, 22 Nov). The w
 
 ## What the picks show
 
-_Recomputed by engine/prefs.py from 34 days of offers, 20 picks._
+_Recomputed by engine/prefs.py from 38 days of offers, 20 picks._
 
 - 2026-10-20: picked #3  "Rupiah Rp18.046: besok BI putuskan, tahan 5,75% atau naik ke 6%?", storyline rupiah
 - 2026-10-21: picked #?  "Karhutla: siapa yang tanggung jawab atas asap? (Lutfi vs Singapura)", storyline karhutla
@@ -76,8 +77,12 @@ _Recomputed by engine/prefs.py from 34 days of offers, 20 picks._
 - 2026-11-19: picked #?  "Kepuasan Prabowo "naik 43% ke 62%" sejak Listyo ditangkap: angkanya dari mana?", storyline listyo-sigit-penyadapan
 - 2026-11-20: no pick by the deadline (default #1 used; not counted)
 - 2026-11-21: no pick by the deadline (default #1 used; not counted)
+- 2026-11-22: no pick by the deadline (default #1 used; not counted)
+- 2026-11-23: no pick by the deadline (default #1 used; not counted)
+- 2026-11-24: no pick by the deadline (default #1 used; not counted)
+- 2026-11-25: no pick by the deadline (default #1 used; not counted)
 
 - Picks the recommended idea 5/20 times; average pick rank 2.4.
-- Storylines picked often when offered: definisi-korupsi, crypto-hacks, listyo-sigit-penyadapan.
-- Offered 3+ times, never picked: tax-policy, msci-reclassification, ump-2027, chip-ram-prices, corruption-cases, jokowi-ijazah-roy-suryo, nvidia-huang-probe (lower priority unless big news).
+- Storylines picked often when offered: definisi-korupsi, crypto-hacks.
+- Offered 3+ times, never picked: tax-policy, msci-reclassification, ai-data-centres, ump-2027, minggu-depan, chip-ram-prices, corruption-cases, jokowi-ijazah-roy-suryo, nvidia-huang-probe (lower priority unless big news).
 - Sensitivity of picks: {'medium': 1, '?': 19}.
