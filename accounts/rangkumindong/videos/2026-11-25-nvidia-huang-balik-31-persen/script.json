@@ -1,0 +1,130 @@
+{
+ "direction": "[storyteller, brisk, a bit amazed, to a friend]",
+ "format": "standard",
+ "hook_style": "person_collage",
+ "storytelling": true,
+ "part": 2,
+ "storyline": "nvidia-huang-probe",
+ "hook_b": "",
+ "lines": [
+  {
+   "id": "h1",
+   "tag": "[intrigued, direct]",
+   "text": "Pria ini mundur, lalu dipanggil balik jadi bos.",
+   "say": "Pria ini mundur, lalu dipanggil balik jadi bos."
+  },
+  {
+   "id": "h2",
+   "tag": "[amazed, then teasing]",
+   "text": "Sehari, perusahaannya naik hampir 1 triliun dolar. Besoknya?",
+   "say": "Sehari, perusahaannya naik hampir satu triliun dolar. Besoknya?"
+  },
+  {
+   "id": "rd",
+   "tagline": true,
+   "text": "Rangkumin dong!"
+  },
+  {
+   "id": "l1",
+   "tag": "[explaining, quick]",
+   "text": "Jadi gini. Ini Jensen Huang, pendiri Nvidia, pembuat chip AI.",
+   "say": "Jadi gini. Ini Jensen Hwang, pendiri En-vidia, pembuat chip e ai."
+  },
+  {
+   "id": "l2",
+   "tag": "[recalling, measured]",
+   "text": "Di PART 1, dewannya menyelidiki laporan bahwa dia jadi sasaran intelijen asing.",
+   "say": "Di part satu, dewannya menyelidiki laporan bahwa dia jadi sasaran intelijen asing."
+  },
+  {
+   "id": "l3",
+   "tag": "[serious]",
+   "text": "12 November, Huang mundur dari Nvidia.",
+   "say": "Dua belas November, Hwang mundur dari En-vidia."
+  },
+  {
+   "id": "l4",
+   "tag": "[matter-of-fact]",
+   "text": "Direktur keuangannya, Colette Kress, jadi CEO sementara.",
+   "say": "Direktur keuangannya, Kolet Kres, jadi si i o sementara."
+  },
+  {
+   "id": "l5",
+   "tag": "[firm, quoting]",
+   "text": "17 November, ketua dewan bilang: tidak berniat mengangkat Huang lagi.",
+   "say": "Tujuh belas November, ketua dewan bilang: tidak berniat mengangkat Hwang lagi."
+  },
+  {
+   "id": "l6",
+   "tag": "[surprised, faster]",
+   "text": "Enam hari kemudian? Dewan, suara bulat, mengangkat Huang lagi jadi CEO.",
+   "say": "Enam hari kemudian? Dewan, suara bulat, mengangkat Hwang lagi jadi si i o."
+  },
+  {
+   "id": "l7",
+   "tag": "[explaining, careful]",
+   "text": "Kata dewan, setelah konsultasi pejabat AS: tak ada risiko keamanan nasional.",
+   "say": "Kata dewan, setelah konsultasi pejabat Amerika: tak ada risiko keamanan nasional."
+  },
+  {
+   "id": "l8",
+   "tag": "[building, excited]",
+   "text": "Senin itu, saham Nvidia ditutup naik 31,48 persen, ke 165 dolar.",
+   "say": "Senin itu, saham En-vidia ditutup naik tiga puluh satu koma empat delapan persen, ke seratus enam puluh lima dolar."
+  },
+  {
+   "id": "l9",
+   "tag": "[emphatic]",
+   "text": "Kenaikan sehari terbesarnya sejak Mei 2003.",
+   "say": "Kenaikan sehari terbesarnya sejak Mei dua ribu tiga."
+  },
+  {
+   "id": "l10",
+   "tag": "[slow, dramatic]",
+   "text": "Nilai pasarnya bertambah hampir 1 triliun dolar. Sekitar 17 ribu triliun rupiah. Dalam. Satu. Hari.",
+   "say": "Nilai pasarnya bertambah hampir satu triliun dolar. Sekitar tujuh belas ribu triliun rupiah. Dalam. Satu. Hari."
+  },
+  {
+   "id": "l11",
+   "tag": "[playful, comparing]",
+   "text": "Segede apa? Lebih dari 4 kali belanja APBN tahun ini: Rp3.842,7 triliun.",
+   "say": "Segede apa? Lebih dari empat kali belanja A Pe Be En tahun ini: tiga ribu delapan ratus empat puluh dua koma tujuh triliun."
+  },
+  {
+   "id": "l12",
+   "tag": "[conspiratorial, leaning in]",
+   "text": "Tapi ini yang sering kelewat.",
+   "say": "Tapi ini yang sering kelewat."
+  },
+  {
+   "id": "l13",
+   "tag": "[serious, measured]",
+   "text": "Besoknya, Selasa, saham Nvidia turun 5,86 persen, ke 155 dolar.",
+   "say": "Besoknya, Selasa, saham En-vidia turun lima koma delapan enam persen, ke seratus lima puluh lima dolar."
+  },
+  {
+   "id": "l14",
+   "tag": "[explaining]",
+   "text": "Saham chip lain ikut jatuh. Investor cemas bunga AS naik Desember.",
+   "say": "Saham chip lain ikut jatuh. Investor cemas bunga Amerika naik Desember."
+  },
+  {
+   "id": "l15",
+   "tag": "[thoughtful]",
+   "text": "Satu keputusan, satu orang. Naik cepat, turun juga cepat.",
+   "say": "Satu keputusan, satu orang. Naik cepat, turun juga cepat."
+  },
+  {
+   "id": "cta",
+   "tag": "[playful, asking the viewer]",
+   "text": "Kalau kamu dewan Nvidia, kamu panggil balik Huang atau tidak? Kenapa? Komen!",
+   "say": "Kalau kamu dewan En-vidia, kamu panggil balik Hwang atau tidak? Kenapa? Komen!"
+  },
+  {
+   "id": "end",
+   "tag": "[friendly, upbeat]",
+   "text": "Follow Rangkumin Dong, biar nggak ketinggalan!"
+  }
+ ],
+ "tail": 0.9
+}

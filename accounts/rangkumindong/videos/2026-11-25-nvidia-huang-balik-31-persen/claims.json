@@ -1,0 +1,140 @@
+[
+ {
+  "claim": "Hook (PICK A): 'Pria ini mundur, lalu dipanggil balik jadi bos.' + 'Sehari, perusahaannya naik hampir 1 triliun dolar.' Huang mundur 12 Nov, diangkat kembali 23 Nov; nilai pasar Nvidia naik hampir US$1 T pada 23 Nov.",
+  "numbers": "12 Nov; 23 Nov; hampir US$1 T",
+  "sources": [
+   "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+   "https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo/",
+   "https://fortune.com/2026/11/23/wall-street-1-trillion-jensen-huang-nvidia-stock-market-cap/"
+  ]
+ },
+ {
+  "claim": "Jensen Huang adalah pendiri (co-founder) Nvidia, pembuat chip AI.",
+  "numbers": "didirikan 1993 (caption tidak menyebut tahun)",
+  "sources": [
+   "https://inet.detik.com/business/d-8750617/resmi-jensen-huang-resign-dari-ceo-nvidia",
+   "https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo/"
+  ]
+ },
+ {
+  "claim": "l2: dewan (komite direktur independen + penasihat hukum independen) menyelidiki laporan bahwa Huang menjadi sasaran upaya intelijen asing; Huang secara terpisah mengakui hubungan di luar nikah lewat pesan ke karyawan (8 Nov).",
+  "numbers": "8 Nov 2026",
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000090/nov23pressrelease.htm",
+   "https://mixed-news.com/en/nvidia-jensen-huang-board-investigation-intelligence-reports/",
+   "https://www.aljazeera.com/news/2026/11/8/us-chipmaker-nvidia-investigates-ceo-jensen-huang-over-affair"
+  ]
+ },
+ {
+  "claim": "Huang mundur sebagai President, CEO dan anggota dewan, berlaku saat itu juga; CFO Colette Kress jadi CEO interim (tetap CFO).",
+  "numbers": "12 Nov 2026",
+  "sources": [
+   "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+   "https://inet.detik.com/business/d-8750617/resmi-jensen-huang-resign-dari-ceo-nvidia"
+  ]
+ },
+ {
+  "claim": "Ketua dewan Harvey Jones, di awal earnings call Q3, mengatakan dewan tidak berniat mengangkat Huang kembali sebagai CEO.",
+  "numbers": "17 Nov 2026 (Selasa, waktu AS; SCMP terbit 18 Nov)",
+  "sources": [
+   "https://www.scmp.com/tech/article/3374812/nvidia-board-says-it-has-no-plans-reinstate-jensen-huang-ceo",
+   "https://finance.yahoo.com/technology/article/nvidia-reinstates-jensen-huang-as-ceo-stock-rockets-141145439.html"
+  ]
+ },
+ {
+  "claim": "Enam hari kemudian dewan, dengan suara bulat, mengangkat Huang kembali sebagai CEO dan President.",
+  "numbers": "23 Nov 2026 (Senin, waktu AS); 17→23 Nov = 6 hari",
+  "sources": [
+   "https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo/",
+   "https://finance.yahoo.com/technology/article/nvidia-reinstates-jensen-huang-as-ceo-stock-rockets-141145439.html"
+  ]
+ },
+ {
+  "claim": "Kata dewan, setelah berkonsultasi dengan pejabat senior pemerintah AS, pengangkatan kembali tidak menimbulkan risiko keamanan nasional.",
+  "numbers": "",
+  "sources": [
+   "https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo/",
+   "https://finance.yahoo.com/technology/article/nvidia-reinstates-jensen-huang-as-ceo-stock-rockets-141145439.html"
+  ]
+ },
+ {
+  "claim": "Trump mendukung pengangkatan kembali (Truth Social: 'the correct and proper decision'). Hanya di draft/visual, tidak diucapkan.",
+  "numbers": "",
+  "sources": [
+   "https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo/",
+   "https://finance.yahoo.com/technology/article/nvidia-reinstates-jensen-huang-as-ceo-stock-rockets-141145439.html"
+  ]
+ },
+ {
+  "claim": "Senin 23 Nov saham Nvidia ditutup naik 31,48% ke US$165,05 (+US$39,52).",
+  "numbers": "US$165,05; +31,48%; +US$39,52; tutup 16:00 EST",
+  "sources": [
+   "https://finance.yahoo.com/technology/article/nvidia-reinstates-jensen-huang-as-ceo-stock-rockets-141145439.html",
+   "https://www.heygotrade.com/id/news/saham-nvidia-nvda-turun-25-november-2026/"
+  ]
+ },
+ {
+  "claim": "Kenaikan sehari terbesar Nvidia sejak Mei 2003.",
+  "numbers": "Mei 2003",
+  "sources": [
+   "https://finance.yahoo.com/technology/article/nvidia-reinstates-jensen-huang-as-ceo-stock-rockets-141145439.html"
+  ]
+ },
+ {
+  "claim": "Nilai pasar Nvidia bertambah hampir US$1 triliun dalam sehari (dari ±US$3 T ke ±US$4 T).",
+  "numbers": "hampir US$1 T",
+  "sources": [
+   "https://fortune.com/2026/11/23/wall-street-1-trillion-jensen-huang-nvidia-stock-market-cap/",
+   "https://finance.yahoo.com/technology/article/nvidia-reinstates-jensen-huang-as-ceo-stock-rockets-141145439.html"
+  ]
+ },
+ {
+  "claim": "Hampir US$1 triliun ≈ sekitar Rp17 ribu triliun (hitungan kami).",
+  "numbers": "US$39,52 × ±24,07 miliar saham (US$3,74 T / US$155,38, 24 Nov) ≈ US$951 miliar × JISDOR 24 Nov Rp18.204 ≈ Rp17.310 T; batas atas US$1 T × 18.204 = Rp18.204 T. 'Sekitar 17 ribu triliun' berlaku untuk US$0,93-0,99 T.",
+  "sources": [
+   "https://finance.yahoo.com/technology/article/nvidia-reinstates-jensen-huang-as-ceo-stock-rockets-141145439.html",
+   "https://www.heygotrade.com/id/news/saham-nvidia-nvda-turun-25-november-2026/",
+   "https://www.bi.go.id/id/statistik/informasi-kurs/jisdor/Default.aspx",
+   "https://fortune.com/2026/11/23/wall-street-1-trillion-jensen-huang-nvidia-stock-market-cap/"
+  ]
+ },
+ {
+  "claim": "Itu lebih dari 4 kali belanja negara APBN 2026 (Rp3.842,7 triliun).",
+  "numbers": "Rp17.310 T / Rp3.842,7 T ≈ 4,5×; dengan US$1 T ≈ 4,7×; >4× tetap benar selama kenaikan > US$845 miliar",
+  "sources": [
+   "https://news.detik.com/berita/d-8125719/paripurna-dpr-setujui-rapbn-2026-belanja-negara-rp-3-842-7-t",
+   "https://www.bi.go.id/id/statistik/informasi-kurs/jisdor/Default.aspx"
+  ]
+ },
+ {
+  "claim": "Selasa 24 Nov saham Nvidia ditutup turun 5,86% ke US$155,38 (-US$9,67).",
+  "numbers": "US$155,38; -5,86%; intraday sempat -7 s.d. -9%",
+  "sources": [
+   "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-24-dow-sp-500-nasdaq-chip-stocks-nvidia-140629923.html",
+   "https://www.heygotrade.com/id/news/saham-nvidia-nvda-turun-25-november-2026/",
+   "https://investasi.kontan.co.id/news/wall-street-ditutup-turun-saham-nvidia-anjlok-59-dan-nasdaq-turun-148"
+  ]
+ },
+ {
+  "claim": "Saham chip lain ikut jatuh (AMD, Micron, Broadcom) dan investor cemas bunga AS (Fed) naik Desember.",
+  "numbers": "Nasdaq -1,48% ke 23.733,54 (Kontan); peluang kenaikan 25 bp 95% (Yahoo)",
+  "sources": [
+   "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-24-dow-sp-500-nasdaq-chip-stocks-nvidia-140629923.html",
+   "https://investasi.kontan.co.id/news/wall-street-ditutup-turun-saham-nvidia-anjlok-59-dan-nasdaq-turun-148"
+  ]
+ },
+ {
+  "claim": "Kurs dipakai: JISDOR BI 24 Nov 2026 Rp18.204 per US$ (dicek 25 Nov).",
+  "numbers": "Rp18.204",
+  "sources": [
+   "https://www.bi.go.id/id/statistik/informasi-kurs/jisdor/Default.aspx"
+  ]
+ },
+ {
+  "claim": "Foto Jensen Huang: Anderseidesvik, CC BY-SA 4.0, via Wikimedia Commons.",
+  "numbers": "",
+  "sources": [
+   "https://commons.wikimedia.org/wiki/File:Jensen_huang_stanford_2026-04-30_010.jpg"
+  ]
+ }
+]
