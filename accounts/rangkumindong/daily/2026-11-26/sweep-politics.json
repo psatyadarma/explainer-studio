@@ -1,0 +1,143 @@
+{
+  "area": "politics",
+  "run_date": "2026-11-26",
+  "checked": [
+    "detik news index (fetched; items dated 24-25 Nov)",
+    "antaranews politik (cache stale, 5 Nov)",
+    "cnnindonesia nasional (not readable via search results)",
+    "tempo politik (not readable)",
+    "Presiden/Istana",
+    "Wapres replacement / MPR",
+    "DPR bills (UU Perampasan Aset, RUU Penyadapan)",
+    "Polri/Bareskrim big cases",
+    "KPK",
+    "Kejagung",
+    "labour/UMP (UMK/UMSP deadlines)",
+    "storyline: gibran-ijazah-mk",
+    "storyline: listyo-sigit-penyadapan",
+    "storyline: corruption-cases",
+    "storyline: tentara-bayaran-rusia",
+    "storyline: online-scams"
+  ],
+  "events": [
+    {
+      "date": "2026-11-26",
+      "category": "POL",
+      "event": "Polri's ethics panel (KKEP) of five three-star generals led by Komjen Hendro Pandowo is set to hear ex-Kapolri Listyo Sigit Prabowo at 09.00 WIB on Thursday 26 November over the alleged illegal wiretapping of President Prabowo.",
+      "key_numbers": "26 Nov 09.00 WIB · 5 panel members (all Komjen) · panel chair Komjen Hendro Pandowo · 4 officers already dismissed (Ahrie Sonta, Eko Hadi Santoso, Tedjo Kusumo, AKBP Guntur Yayus Putra)",
+      "storyline": "listyo-sigit-penyadapan",
+      "update_of": "E1105",
+      "status": "upcoming",
+      "sources": [
+        {"label": "detikNews", "url": "https://news.detik.com/berita/d-8768555/deretan-jenderal-bintang-3-yang-adili-etik-listyo-sigit"}
+      ],
+      "why_it_matters": "The first ethics hearing of a former national police chief; the outcome (possible dismissal) shows how far Polri's internal clean-up goes.",
+      "signals": {"spreading": 2, "wallet": 0, "surprise": 2, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "Top item in detik index 25 Nov; multiple outlets covering the schedule",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-24",
+      "category": "POL",
+      "event": "Bareskrim named a civilian identified only as NE a suspect in the illegal wiretapping case, alleging NE carried out orders from ex-Dirkrimum Polda Metro Jaya Kombes Iman Imanuddin to create hoaxes from a 'posko makar' in Cibinong, Bogor.",
+      "key_numbers": "Wiretapping case: 5 suspects (Listyo Sigit, Slamet Uliandi, Eko Hadi Santoso, Ahrie Sonta Nasution, NE) · makar case: 6 suspects (adds Iman Imanuddin, Brigjen Tedjo Kusumo) · max penalty 20 years or death",
+      "storyline": "listyo-sigit-penyadapan",
+      "update_of": "E1087",
+      "status": "verified",
+      "sources": [
+        {"label": "detikNews", "url": "https://news.detik.com/berita/d-8768564/tanda-tanya-siapa-tersangka-sipil-di-kasus-penyadapan"}
+      ],
+      "why_it_matters": "The case now reaches beyond the police into a civilian, raising the question of who else was behind the alleged plot.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 2, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-25",
+      "category": "POL",
+      "event": "After Prabowo nominated Andi Amran Sulaiman and Sugiono to replace VP Gibran, parties split in their reactions: Demokrat supports, Golkar calls both worthy, PKB and PDIP hold back or question the picks, and DPD says it will consult Prabowo before the vote.",
+      "key_numbers": "2 candidates (Amran Sulaiman, Sugiono) · letter delivered 23 Nov before 23.59 deadline · MPR vote about 2 weeks away (plenary set 9 Dec) · DPD 18 members on ad hoc committee/verification team",
+      "storyline": "gibran-ijazah-mk",
+      "update_of": "E1088",
+      "status": "verified",
+      "sources": [
+        {"label": "detikNews", "url": "https://news.detik.com/berita/d-8768573/kata-mereka-usai-prabowo-usulkan-amran-dan-sugiono-jadi-cawapres"}
+      ],
+      "why_it_matters": "Whether the MPR votes by ballot or consensus decides who becomes Indonesia's next vice president.",
+      "signals": {"spreading": 2, "wallet": 0, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "Three of the top ten items in detik index 25 Nov concern the nominations",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-24",
+      "category": "POL",
+      "event": "President Prabowo met DPR Deputy Speaker Sufmi Dasco Ahmad one-on-one at the Palace for about two hours, with the Setkab saying Dasco passed on public aspirations and reports received by the DPR.",
+      "key_numbers": "~2 hours · 24 Nov afternoon · same day Prabowo ordered quick follow-up of ~USD 15 billion Shenzhen investment deals",
+      "storyline": "gibran-ijazah-mk",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "detikNews", "url": "https://news.detik.com/berita/d-8768440/prabowo-bertemu-4-mata-dengan-dasco-di-istana-apa-yang-dibahas"}
+      ],
+      "why_it_matters": "Dasco was floated as a possible VP pick, so closed-door meetings with Prabowo are read as signals about the succession.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 0, "fresh": 1, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-24",
+      "category": "NEWS",
+      "event": "Polri and Philippine police named 139 Indonesians suspects in an online scam run from KE Towers in Pasay City, Manila, targeting victims in Indonesia; Komdigi minister Meutya Hafid and Kapolri Suyudi Ario Seto spoke at Soekarno-Hatta airport.",
+      "key_numbers": "139 WNI suspects (one video headline says 141) · up to 15 years prison · charges: fraud, data manipulation, TPPU",
+      "storyline": "online-scams",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "detikNews", "url": "https://news.detik.com/berita/d-8768399/menkomdigi-apresiasi-kapolri-usut-139-wni-tersangka-online-scam-di-manila"},
+        {"label": "detikNews", "url": "https://news.detik.com/berita/d-8768447/kapolri-ungkap-asal-usul-seragam-dipakai-wni-tersangka-scam-online-di-manila"}
+      ],
+      "why_it_matters": "Scam syndicates use official uniforms and state symbols to trick Indonesians out of money.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 2, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "Two items in detik index top ten, 24-25 Nov",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-24",
+      "category": "NEWS",
+      "event": "KPK seized apartment-rental income owned by a suspect in the Papua Provincial Government operational-funds corruption case, which KPK puts at Rp1.2 trillion in state loss, while pursuing sub-treasurer Deus Enumbi.",
+      "key_numbers": "Rp1.2 trillion state loss · ~Rp1 trillion annual allocation under a governor's regulation · amount seized not disclosed · Lukas Enembe died 26 Dec 2023",
+      "storyline": "corruption-cases",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "detikNews", "url": "https://news.detik.com/berita/d-8768395/kpk-sita-duit-hasil-sewa-apartemen-terkait-korupsi-dana-operasional-papua"}
+      ],
+      "why_it_matters": "Shows how KPK tries to claw back assets from a regional budget scheme worth about a trillion rupiah a year.",
+      "signals": {"spreading": 0, "wallet": 1, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-24",
+      "category": "NEWS",
+      "event": "Depok immigration refused a passport to a man identified as DA after finding Telegram chats about joining Russia as a mercenary; he said he saw the recruitment ad on TikTok and cited economic hardship, and Polda Metro Jaya is investigating other parties.",
+      "key_numbers": "Claimed offer: USD 50,000 signing · USD 3,000-6,000 monthly · USD 167,000 to family if killed · USD 100 per recruit · applied 18 Nov, questioned 23 Nov",
+      "storyline": "tentara-bayaran-rusia",
+      "update_of": "E1121",
+      "status": "partial",
+      "sources": [
+        {"label": "detikNews", "url": "https://news.detik.com/berita/d-8768374/terungkap-alasan-pria-depok-ingin-ubah-nasib-jadi-tentara-bayaran-rusia"}
+      ],
+      "why_it_matters": "Shows how TikTok ads and big dollar promises lure ordinary Indonesians toward a foreign war.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 2, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "high"
+    }
+  ],
+  "gaps": [
+    "Antara politik page was a 5 Nov cache; CNN Indonesia and Tempo section pages could not be read, so 25-26 Nov front pages are covered only via detik index (items up to 25 Nov 07.00 WIB)",
+    "KKEP result for Listyo Sigit (26 Nov 09.00 WIB) not yet reported when searched; worth a second look later today",
+    "UMK 2027 (deadline 25 Nov) and UMSP (26 Nov) results not found; ECO area may cover",
+    "Discrepancy 139 vs 141 WNI in Manila scam coverage"
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "area": "markets",
+  "run_date": "2026-11-26",
+  "checked": ["WebSearch: cnbcindonesia market / detik finance / bisnis market headlines (section pages themselves blocked by WebFetch: market.bisnis.com, cnbcindonesia.com/market)", "IHSG close and foreign flow 25 Nov", "rupiah 25 Nov", "Danantara financial report", "storyline msci-reclassification", "storyline rupiah", "Fed/PCE global shock", "UMP 2027", "PHK", "BBM/BPS/OJK (nothing new found)", "watch-list found: IHSG close, foreign net sell, rupiah, MSCI, Danantara, Fed"],
+  "events": [
+    {
+      "date": "2026-11-25",
+      "category": "BIZ",
+      "event": "Danantara published its first consolidated financial statements, for April-December 2025, at a press conference in Jakarta, reporting net profit of Rp203.4 trillion for nine months (Rp259.6 trillion annualized).",
+      "key_numbers": "Net profit Rp203.4 T (Apr-Dec 2025), Rp259.6 T annualized · Revenue Rp2,385.2 T (9 months), Rp3,073 T annualized · Total assets Rp11,607 T (+5.0%) · Equity Rp2,980 T (+5.6%) · ROE 8.7% (annualized) · EBITDA Rp552.5 T (9 months) · Dividends received Rp143 T, ~Rp11 T paid to the state · BPK opinion WTP (per Liputan6)",
+      "storyline": "",
+      "update_of": "E1098",
+      "status": "verified",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/market/20261125133940-17-788341/laporan-keuangan-selesai-danantara-cetak-laba-rp2596-triliun-di-2025"},
+        {"label": "Liputan6", "url": "https://www.liputan6.com/bisnis/read/8342221/perdana-rilis-laporan-keuangan-danantara-cetak-laba-rp-2034-triliun"},
+        {"label": "ANTARA", "url": "https://m.antaranews.com/amp/berita/5877163/danantara-cetak-laba-bersih-rp2596-triliun-pada-2025"}
+      ],
+      "why_it_matters": "Danantara controls 1,000+ BUMN and the long-delayed first report finally shows how big and how profitable it is; headlines differ (Rp203 T vs Rp259 T) because of annualization.",
+      "signals": {"spreading": 2, "wallet": 1, "surprise": 2, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "Covered by CNBC Indonesia, Bisnis, Antara, Liputan6, detik, Republika, Metro TV on 25 Nov",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-25",
+      "category": "MKT",
+      "event": "The IHSG closed down 0.84% on 25 November amid rupiah weakness, with foreign investors net selling about Rp336 billion.",
+      "key_numbers": "IHSG 5,197.61 (-43.97 pts, -0.84%) · Intraday low ~5,174 (-1.3%) at 15:15 WIB · Foreign net sell Rp336.22 B (BBRI Rp217.9 B, TLKM ~Rp131-133 B) · Foreign net buy BBCA Rp323 B, BMRI Rp134.6 B · Value Rp7.10 T, volume 20.71 B shares (Kontan) · LQ45 542.86 (-0.60%) · 43.1% below 20 Jan 2026 high of 9,134.70",
+      "storyline": "msci-reclassification",
+      "update_of": "E1095",
+      "status": "verified",
+      "sources": [
+        {"label": "Kontan", "url": "https://pusatdata.kontan.co.id/news/ihsg-melorot-ke-posisi-5197-disertai-net-sell-asing-pada-hari-ini-2511"},
+        {"label": "Journalarta", "url": "https://journalarta.com/news/2026/11/25/ihsg-ditutup-melemah-084-di-tengah-tekanan-rupiah/"},
+        {"label": "Bloomberg Technoz", "url": "https://www.bloombergtechnoz.com/detail-news/128881/ihsg-turun-1-3-pepet-level-5-100"}
+      ],
+      "why_it_matters": "IHSG is back near 5,200, still about 43% below its January peak, as foreigners keep selling big banks and Telkom.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 0},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-25",
+      "category": "MKT",
+      "event": "The rupiah weakened to about Rp18,332 per US dollar on 25 November, a new weakest level, as dollar strength, Fed hike bets and domestic politics weighed.",
+      "key_numbers": "Rp18,332/USD close, -102 pts (-0.56%) per Disway; Journalarta says Rp18,303 (+0.67% USD/IDR), unclear if close or intraday · Previous record close Rp18,268 (16 Nov, Bisnis/Kontan) · 24 Nov close Rp18,230 · Cited drivers: Fed hike expectations for December, US PCE data due Wed night, MSCI review (decision by 30 Jun 2027), Middle East tensions, VP succession politics",
+      "storyline": "rupiah",
+      "update_of": "E1096",
+      "status": "partial",
+      "sources": [
+        {"label": "Disway", "url": "https://malang.disway.id/bisnis-keuangan/read/27180/ihsg-merosot-088-rupiah-tembus-rp18332-per-dolar-as-pada-rabu"},
+        {"label": "Journalarta", "url": "https://journalarta.com/news/2026/11/25/ihsg-ditutup-melemah-084-di-tengah-tekanan-rupiah/"},
+        {"label": "Kontan", "url": "https://pusatdata.kontan.co.id/news/kurs-rupiah-melemah-ke-posisi-terburuk-sepanjang-masa-ditutup-rp-18268-hari-ini"}
+      ],
+      "why_it_matters": "A weaker rupiah raises prices of imports, fuel and electronics, and sets a fresh all-time low following the 18 Nov BI hike.",
+      "signals": {"spreading": 2, "wallet": 2, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "Multiple outlets headline 'rupiah tembus' on 25 Nov",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-26",
+      "category": "GLB",
+      "event": "US markets are closed on 26 November for Thanksgiving, leaving thin liquidity as the US October PCE inflation data and December Fed hike bets drive the dollar.",
+      "key_numbers": "US PCE (October) due Wed 25 Nov night WIB-time · Fed December hike expectations cited by BRI Danareksa Sekuritas · MSCI Asia-Pacific ex-Japan -3.2% on 25 Nov (Journalarta; not verified)",
+      "storyline": "rupiah",
+      "update_of": "E1007",
+      "status": "upcoming",
+      "sources": [
+        {"label": "Journalarta", "url": "https://journalarta.com/news/2026/11/25/ihsg-ditutup-melemah-084-di-tengah-tekanan-rupiah/"},
+        {"label": "Disway", "url": "https://malang.disway.id/bisnis-keuangan/read/27180/ihsg-merosot-088-rupiah-tembus-rp18332-per-dolar-as-pada-rabu"}
+      ],
+      "why_it_matters": "A hawkish US Fed is a main reason the rupiah and IHSG keep sliding.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 0, "visual": 0, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    }
+  ],
+  "gaps": [
+    "Section pages market.bisnis.com and cnbcindonesia.com/market could not be fetched (permission refused); headlines were scanned only via search, so most-read lists were not checked.",
+    "US October PCE result (due night of 25 Nov) not yet seen; rupiah 25 Nov close differs by source (Rp18,303 vs Rp18,332).",
+    "UMP 2027 provincial decisions (deadline 21 Nov per Kemnaker guideline, E0815 says end Nov) and any PHK, BPS or fuel price news from 24-26 Nov: no verified results found, worth a second look.",
+    "Danantara: whether the Rp203.4 T / Rp259.6 T mix-up appears in how outlets headline it; Bisnis analysis 'Mencermati Laporan Keuangan Danantara dan DIM' could not be read."
+  ]
+}

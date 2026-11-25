@@ -1,0 +1,158 @@
+{
+  "area": "national",
+  "run_date": "2026-11-26",
+  "checked": [
+    "detik terpopuler (cached snapshot 25 Nov 05:39 WIB)",
+    "CNN Indonesia nasional (25 Nov evening)",
+    "ANTARA home (25 Nov)",
+    "CNBC Indonesia home (25 Nov; popular list did not load)",
+    "TurnBackHoax/cek fakta (only old items found, nothing new for 24-26 Nov)",
+    "Storyline searches: karhutla (Semeru, hotspots), tentara-bayaran-rusia",
+    "Watch list found: most-read, viral incident, disasters/weather, public services (Mikrotrans, CPNS), crime, mining accident"
+  ],
+  "events": [
+    {
+      "date": "2026-11-25",
+      "category": "NEWS",
+      "event": "Flash flooding on 23-24 November trapped dozens of illegal gold miners (gurandil) in two pits at Gunung Butak, Nanggung, Bogor; Basarnas-led search teams had recovered 9 bodies by the evening of 25 November.",
+      "key_numbers": "9 dead (6 from Pit A, 3 from Pit B) · 17 still trapped (CNN Indonesia 20:30; detik photo-news gives the same 9/17) · earlier count 7 dead, 19 missing at 18:44 · 26 families reported missing relatives at the DVI post · pits about 100 m deep (bodies found at 40-70 m) · rain from about 18:00 on Monday, river surge about 23:00",
+      "storyline": "",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "CNN Indonesia", "url": "https://www.cnnindonesia.com/nasional/20261125203019-20-1431554/korban-tewas-di-tambang-emas-ilegal-bogor-bertambah-jadi-9-orang"},
+        {"label": "detikNews", "url": "https://news.detik.com/berita/d-8769935/gurandil-terjebak-tambang-ilegal-bogor-26-keluarga-lapor-kehilangan-ke-pos-dvi"},
+        {"label": "detikNews foto", "url": "https://news.detik.com/foto-news/d-8770069/tragedi-tambang-emas-ilegal-bogor-9-penambang-tewas-dan-17-masih-dicari"}
+      ],
+      "why_it_matters": "Illegal mining pulls in poor villagers and keeps killing them, and the death toll is still rising.",
+      "signals": {"spreading": 2, "wallet": 0, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "Several updates on CNN Indonesia nasional on 25 Nov; multiple detik pieces; death toll rising through the day",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-25",
+      "category": "NEWS",
+      "event": "BKN said the SSCASN portal is open and about 1.47 million PPPK contract workers can apply for CPNS civil-servant selection in 2026-2027, without their PPPK status automatically blocking them.",
+      "key_numbers": "1.47 million eligible PPPK of about 3.3 million · 278,241 SSCASN accounts created so far · about 3 million applicants expected (about 20 per slot) · process about 181 days, CPNS NIP targeted by 1 June 2027 · 3,995 CAT devices, about 15,980 participants per day · portal opened 17 Nov",
+      "storyline": "",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/news/20261125092519-4-788177/147-juta-pppk-bisa-ikut-cpns-portal-seleksi-sudah-dibuka"},
+        {"label": "BKN", "url": "https://www.bkn.go.id/pemerintah-matangkan-kesiapan-seleksi-casn-2026-2027-prof-zudan-portal-bkn-sudah-dibuka-dan-pppk-bisa-ikut-daftar-cpns/"},
+        {"label": "Medcom", "url": "https://www.medcom.id/pendidikan/news-pendidikan/0kpqaw7K-cpns-2026-278-ribu-orang-sudah-bikin-akun-sscasn-pppk-boleh-ikut-daftar"}
+      ],
+      "why_it_matters": "Over a million contract workers get a shot at permanent civil-servant status, and fresh graduates face far more competition.",
+      "signals": {"spreading": 2, "wallet": 2, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "CNBC Indonesia news item on 25 Nov; covered by Medcom, Alinea, BKN, regional outlets; ANTARA/CNBC front-page items",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-24",
+      "category": "NEWS",
+      "event": "DKI Jakarta's transport agency fired a Mikrotrans JAK 10A driver for refusing to let a passenger with a disability sit in a priority seat.",
+      "key_numbers": "detik most-read #10 on 25 Nov snapshot · no fine or compensation figures reported in the sources read",
+      "storyline": "",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "Kompas", "url": "https://megapolitan.kompas.com/read/2026/11/25/07440331/sopir-mikrotrans-jaklingko-dipecat-usai-tolak-penumpang-disabilitas-duduk"},
+        {"label": "Okezone", "url": "https://news.okezone.com/read/2026/11/24/338/3255998/sopir-mikrotrans-dipecat-gegara-tolak-penumpang-disabilitas-duduk-di-kursi-prioritas"},
+        {"label": "Jawapos", "url": "https://www.jawapos.com/jabodetabek/2611240461/tolak-penumpang-disabilitas-sopir-mikrotrans-jak-10a-dipecat"}
+      ],
+      "why_it_matters": "Shows how priority-seat rules on Jakarta public transport are enforced, and who they protect.",
+      "signals": {"spreading": 2, "wallet": 0, "surprise": 1, "visual": 0, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "detik terpopuler #10 (25 Nov snapshot); covered by Kompas, Okezone, Jawapos, IDN Times, Voi, Disway",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-25",
+      "category": "ENV",
+      "event": "Falling trees in bad weather killed people in at least two places: a man electrocuted while helping clear a fallen tree in Pekalongan and a motorcyclist hit by a tree in Musi Rawas, South Sumatra.",
+      "key_numbers": "detik most-read #5 (Pekalongan) and #7 (Musi Rawas) on 25 Nov snapshot · 1 death each per headline",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "detik terpopuler", "url": "https://www.detik.com/terpopuler"},
+        {"label": "Kompas Bandung (weather in Kab. Bandung)", "url": "https://bandung.kompas.com/read/2026/11/25/074034178/kabupaten-bandung-dilanda-banjir-dan-pohon-tumbang-bmkg-keluarkan-peringatan"}
+      ],
+      "why_it_matters": "Rainy-season storms are hitting several regions at once, and BMKG has issued extreme-weather warnings for the coming days.",
+      "signals": {"spreading": 2, "wallet": 0, "surprise": 0, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "detik terpopuler #5 and #7 (25 Nov snapshot)",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-25",
+      "category": "NEWS",
+      "event": "Kupang Regent Yosef Lede was questioned for more than 12 hours at Polda NTT over an alleged rape case, per CNN Indonesia.",
+      "key_numbers": "questioned over 12 hours · reported 25 Nov (22:51 WIB item)",
+      "storyline": "",
+      "update_of": "E1065",
+      "status": "partial",
+      "sources": [
+        {"label": "CNN Indonesia nasional", "url": "https://www.cnnindonesia.com/nasional"}
+      ],
+      "why_it_matters": "A sitting regional head is being examined by police in a sexual-violence case; allegation only, no ruling.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 0, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-25",
+      "category": "NEWS",
+      "event": "A fire at a Pertamina fuel station (SPBU) in Kramat Jati, East Jakarta, started from a car being refilled, briefly reached the dispenser and canopy, and operations were halted.",
+      "key_numbers": "reported by CNBC Indonesia, ANTARA Banten and others on 25 Nov · no casualty figure confirmed in the snippets read",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/news/20261125105807-4-788217/spbu-di-kramat-jati-sempat-terbakar-pertamina-buka-suara"},
+        {"label": "ANTARA Banten", "url": "https://banten.antaranews.com/berita/398243/pertamina-patra-niaga-rjbb-pastikan-penanganan-kasus-di-spbu-kramat-jati"}
+      ],
+      "why_it_matters": "Raises basic safety questions for anyone refuelling at a petrol station.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 0, "visual": 1, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "CNBC Indonesia news items on 25 Nov",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-25",
+      "category": "NEWS",
+      "event": "Police dog units were deployed to search for victims at the Cikande, Serang factory fire, per ANTARA.",
+      "key_numbers": "no new casualty figure read",
+      "storyline": "",
+      "update_of": "E1054",
+      "status": "partial",
+      "sources": [
+        {"label": "ANTARA", "url": "https://www.antaranews.com/"}
+      ],
+      "why_it_matters": "Four days on, the search for victims is still going at the Banten factory fire.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 0, "visual": 0, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-25",
+      "category": "ENV",
+      "event": "A national road in Pesisir Selatan, West Sumatra, collapsed, cutting the West Sumatra-Kerinci route, per CNN Indonesia.",
+      "key_numbers": "reported 25 Nov (20:21 WIB item)",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "CNN Indonesia nasional", "url": "https://www.cnnindonesia.com/nasional"}
+      ],
+      "why_it_matters": "A key inter-province road link is cut for travellers and goods heading into the holiday season.",
+      "signals": {"spreading": 0, "wallet": 1, "surprise": 0, "visual": 1, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    }
+  ],
+  "gaps": [
+    "Tentara bayaran Rusia: headlines on 25 Nov say 21 WNI nearly recruited and Imigrasi blocked 1,502 departures, but Kompas was robots-blocked and I did not open another article, so numbers are unverified and not logged",
+    "BMKG extreme-weather warning for the next 3 days and Kabupaten Bandung damage figures (113 houses) seen only in search snippets",
+    "detik terpopuler page was a cached 25 Nov 05:39 WIB snapshot; no 26 Nov most-read list was readable",
+    "No new TurnBackHoax items for 24-26 Nov were found beyond yesterday's roundup",
+    "Possible non-national items seen: US proposed import tariffs up to 18% on Indonesia (ANTARA), Jensen Huang apology (detik #4)"
+  ]
+}
