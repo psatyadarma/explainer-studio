@@ -1,0 +1,59 @@
+{
+ "direction": "[clear, steady weekly recap; neutral, attributed]",
+ "lines": [
+  {
+   "id": "a1",
+   "tag": "[serious]",
+   "text": "Senin, 23 November. Dua nama yang ditunggu sejak kursi wapres kosong akhirnya masuk ke MPR.",
+   "say": "Senin, dua puluh tiga November. Dua nama yang ditunggu sejak kursi wapres kosong, akhirnya masuk ke, Em Pe Er."
+  },
+  {
+   "id": "a2",
+   "tag": "[clear]",
+   "text": "Presiden Prabowo mengusulkan dua menterinya: Menteri Pertanian Andi Amran Sulaiman, dan Sugiono."
+  },
+  {
+   "id": "a3",
+   "tag": "[matter-of-fact]",
+   "text": "Nama yang paling sering disebut pekan lalu, Wakil Ketua DPR Sufmi Dasco Ahmad, tidak ada di surat itu.",
+   "say": "Nama yang paling sering disebut pekan lalu, Wakil Ketua, De Pe Er, Sufmi Dasco Ahmad, tidak ada di surat itu."
+  },
+  {
+   "id": "a4",
+   "tag": "[explaining]",
+   "text": "Selasa, Prabowo dan Dasco bertemu empat mata di Istana. Kata Sekretariat Kabinet, Dasco menyampaikan aspirasi publik dan laporan yang diterima DPR.",
+   "say": "Selasa, Prabowo dan Dasco bertemu empat mata di Istana. Kata Sekretariat Kabinet, Dasco menyampaikan aspirasi publik, dan laporan yang diterima, De Pe Er."
+  },
+  {
+   "id": "a5",
+   "tag": "[even]",
+   "text": "Reaksi partai beragam. Menurut detik, Demokrat mendukung, Golkar menyebut keduanya layak. PKB dan PDIP menahan diri, atau mempertanyakan pilihannya.",
+   "say": "Reaksi partai beragam. Menurut detik, Demokrat mendukung, Golkar menyebut keduanya layak. Pe Ka Be dan Pe De I Pe menahan diri, atau mempertanyakan pilihannya."
+  },
+  {
+   "id": "a6",
+   "tag": "[explaining]",
+   "text": "Lalu verifikasi. Tim MPR tidak mendatangi sekolah kedua calon. Ijazah SMA mereka dicek lewat Kemendikdasmen, di Jakarta.",
+   "say": "Lalu verifikasi. Tim, Em Pe Er, tidak mendatangi sekolah kedua calon. Ijazah Es Em A mereka dicek lewat Kementerian Pendidikan Dasar dan Menengah, di Jakarta."
+  },
+  {
+   "id": "a7",
+   "tag": "[matter-of-fact]",
+   "text": "Kamis, keduanya menjalani tes kesehatan di RSPAD. Hasilnya sudah diserahkan ke MPR, tapi isinya dirahasiakan, karena rekam medis.",
+   "say": "Kamis, keduanya menjalani tes kesehatan di, Er Es Pe A De. Hasilnya sudah diserahkan ke, Em Pe Er, tapi isinya dirahasiakan, karena rekam medis."
+  },
+  {
+   "id": "a8",
+   "tag": "[turning point]",
+   "text": "Tapi ingat, yang memilih nanti bukan kita lewat pemilu. Ada 732 anggota MPR: 580 dari DPR, 152 dari DPD. Suara terbanyak menang.",
+   "say": "Tapi ingat, yang memilih nanti bukan kita lewat pemilu. Ada tujuh ratus tiga puluh dua anggota, Em Pe Er: lima ratus delapan puluh dari, De Pe Er, seratus lima puluh dua dari, De Pe De. Suara terbanyak menang."
+  },
+  {
+   "id": "a9",
+   "tag": "[clear]",
+   "text": "Paripurna pemilihannya kini dijadwalkan Jumat, 11 Desember, kata MPR. Digeser dari 9 Desember, setelah ada kritik bahwa tenggat 14 hari harus dihitung hari kerja. Alasannya, kata MPR: kehati-hatian.",
+   "say": "Paripurna pemilihannya kini dijadwalkan Jumat, sebelas Desember, kata, Em Pe Er. Digeser dari sembilan Desember, setelah ada kritik bahwa tenggat empat belas hari harus dihitung hari kerja. Alasannya, kata, Em Pe Er: kehati-hatian."
+  }
+ ],
+ "tail": 0.6
+}

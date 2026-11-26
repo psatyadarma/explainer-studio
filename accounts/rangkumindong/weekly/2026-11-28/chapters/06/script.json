@@ -1,0 +1,52 @@
+{
+ "direction": "[clear, steady weekly recap; neutral, attributed]",
+ "lines": [
+  {
+   "id": "g0",
+   "tag": "[friendly]",
+   "text": "Cek janji minggu lalu. Tenggat dua nama wapres, Rabu 25 November? Namanya masuk lebih cepat, Senin.",
+   "say": "Cek janji minggu lalu. Tenggat dua nama wapres, Rabu dua puluh lima November? Namanya masuk lebih cepat, Senin."
+  },
+  {
+   "id": "g0b",
+   "tag": "[friendly, brisk]",
+   "text": "Laporan keuangan Danantara akhirnya rilis Rabu: laba bersih Rp203,4 triliun, untuk April sampai Desember 2025. Dan sidang etik Listyo memang digelar, tapi tanpa Listyo.",
+   "say": "Laporan keuangan Danantara akhirnya rilis Rabu: laba bersih dua ratus tiga koma empat triliun rupiah, untuk April sampai Desember dua ribu dua puluh lima. Dan sidang etik Listyo memang digelar, tapi tanpa Listyo."
+  },
+  {
+   "id": "g1",
+   "tag": "[friendly, brisk]",
+   "text": "Oke, minggu depan. Catat tanggalnya."
+  },
+  {
+   "id": "g2",
+   "tag": "[clear]",
+   "text": "Sejak Jumat, 27 November, pendaftaran CPNS 2026 dibuka. Ada 154.052 formasi.",
+   "say": "Sejak Jumat, dua puluh tujuh November, pendaftaran, Se Pe En Es, dua ribu dua puluh enam dibuka. Ada seratus lima puluh empat ribu, lima puluh dua formasi."
+  },
+  {
+   "id": "g3",
+   "tag": "[clear]",
+   "text": "Senin, 30 November: batas penetapan upah minimum sektoral kabupaten dan kota, UMSK. Buat nasabah BNI: akses BNI Mobile Banking ditutup bertahap sampai hari itu, dan berhenti total 21 Desember.",
+   "say": "Senin, tiga puluh November: batas penetapan upah minimum sektoral kabupaten dan kota, U Em Es Ka. Buat nasabah, Be En I: akses Be En I Mobile Banking ditutup bertahap sampai hari itu, dan berhenti total dua puluh satu Desember."
+  },
+  {
+   "id": "g4",
+   "tag": "[clear]",
+   "text": "Selasa, 1 Desember: MPR dijadwalkan mengumumkan hasil verifikasi dan tes kesehatan dua calon wapres. Pemilihannya, Jumat 11 Desember.",
+   "say": "Selasa, satu Desember: Em Pe Er dijadwalkan mengumumkan hasil verifikasi dan tes kesehatan dua calon wapres. Pemilihannya, Jumat sebelas Desember."
+  },
+  {
+   "id": "g5",
+   "tag": "[building, payoff]",
+   "text": "Dan ini hari Senin yang kami janjikan di awal: 30 November, jam 9 pagi WIB. Panggilan kedua sidang etik Listyo.",
+   "say": "Dan ini hari Senin yang kami janjikan di awal: tiga puluh November, jam sembilan pagi, We I Be. Panggilan kedua sidang etik Listyo."
+  },
+  {
+   "id": "g6",
+   "tag": "[serious, clear]",
+   "text": "Kata Polri, kalau dia absen lagi, sidang jalan tanpa dia. Putusannya final, dan hak bandingnya hilang."
+  }
+ ],
+ "tail": 0.6
+}

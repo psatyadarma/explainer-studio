@@ -1,0 +1,35 @@
+{
+ "direction": "[clear, steady weekly recap; neutral, attributed]",
+ "lines": [
+  {
+   "id": "i1",
+   "tag": "[energetic]",
+   "text": "Dua nama masuk, rupiah tembus rekor. Lalu apa?"
+  },
+  {
+   "id": "i2",
+   "tag": "[quick, building]",
+   "text": "Minggu ini: Presiden Prabowo mengusulkan dua calon wapres ke MPR. Dan Listyo Sigit jadi tersangka dugaan makar, lalu tidak hadir di sidang etiknya, kata Polri.",
+   "say": "Minggu ini: Presiden Prabowo mengusulkan dua calon wapres ke, Em Pe Er. Dan Listyo Sigit jadi tersangka dugaan makar, lalu tidak hadir di sidang etiknya, kata Polri."
+  },
+  {
+   "id": "i3",
+   "tag": "[quick, playful]",
+   "text": "Plus: rupiah cetak rekor terlemah, AS ancam tarif sampai 18 persen, dan saham raksasa AI naik-turun.",
+   "say": "Plus: rupiah cetak rekor terlemah, A Es ancam tarif sampai delapan belas persen, dan saham raksasa, E I, naik-turun."
+  },
+  {
+   "id": "rd",
+   "tag": "[bright, signature]",
+   "text": "Rangkumin dong!",
+   "tagline": true
+  },
+  {
+   "id": "i4",
+   "tag": "[friendly]",
+   "text": "Ini Rangkumin Seminggu, 21 sampai 27 November. Di akhir: satu hari Senin yang bisa menentukan sidang etik Listyo.",
+   "say": "Ini Rangkumin Seminggu, dua puluh satu sampai dua puluh tujuh November. Di akhir: satu hari Senin yang bisa menentukan sidang etik Listyo."
+  }
+ ],
+ "tail": 0.6
+}

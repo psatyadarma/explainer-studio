@@ -1,0 +1,58 @@
+{
+ "direction": "[clear, steady weekly recap; neutral, attributed]",
+ "lines": [
+  {
+   "id": "d1",
+   "tag": "[storytelling]",
+   "text": "Rabu, waktu Amerika. Kantor Perwakilan Dagang AS, USTR, merilis hasil satu penyelidikan.",
+   "say": "Rabu, waktu Amerika. Kantor Perwakilan Dagang A Es, yu es ti ar, merilis hasil satu penyelidikan."
+  },
+  {
+   "id": "d2",
+   "tag": "[explaining]",
+   "text": "Isinya soal kelebihan kapasitas produksi, di 14 negara dan wilayah ekonomi. Indonesia salah satunya.",
+   "say": "Isinya soal kelebihan kapasitas produksi, di empat belas negara dan wilayah ekonomi. Indonesia salah satunya."
+  },
+  {
+   "id": "d3",
+   "tag": "[serious]",
+   "text": "Usulannya: tarif tambahan sampai 18 persen untuk barang dari Indonesia.",
+   "say": "Usulannya: tarif tambahan sampai delapan belas persen, untuk barang dari Indonesia."
+  },
+  {
+   "id": "d4",
+   "tag": "[quick]",
+   "text": "Bukan cuma kita. Menurut USTR, Malaysia dan Kamboja juga sampai 18 persen. Vietnam sampai 35, India sampai 25, bisa turun kalau mereka capai kesepakatan dagang.",
+   "say": "Bukan cuma kita. Menurut, yu es ti ar, Malaysia dan Kamboja juga sampai delapan belas persen. Vietnam sampai tiga puluh lima, India sampai dua puluh lima, bisa turun kalau mereka capai kesepakatan dagang."
+  },
+  {
+   "id": "d5",
+   "tag": "[explaining]",
+   "text": "Sektor yang disebut untuk Indonesia: tekstil dan pakaian, tambang dan logam, serta energi terbarukan."
+  },
+  {
+   "id": "d5b",
+   "tag": "[explaining]",
+   "text": "Tarif dibayar importir di Amerika. Kalau naik, barang kita bisa jadi lebih mahal di sana, dan pesanan ke pabrik di sini bisa berkurang."
+  },
+  {
+   "id": "d6",
+   "tag": "[even]",
+   "text": "Kata Menteri Perindustrian, Indonesia akan mencari pasar ekspor baru yang terbuka. Menurut Suara.com, pemerintah juga mengejar pengecualian.",
+   "say": "Kata Menteri Perindustrian, Indonesia akan mencari pasar ekspor baru yang terbuka. Menurut Suara dot com, pemerintah juga mengejar pengecualian."
+  },
+  {
+   "id": "d7",
+   "tag": "[turning point]",
+   "text": "Tapi ini masih usulan, belum berlaku. Dengar pendapat publiknya dijadwalkan Januari 2027.",
+   "say": "Tapi ini masih usulan, belum berlaku. Dengar pendapat publiknya dijadwalkan Januari dua ribu dua puluh tujuh."
+  },
+  {
+   "id": "d8",
+   "tag": "[clear]",
+   "text": "Jadi yang ditunggu: angka 18 persen itu turun, tetap, atau ada pengecualian. Buat pekerja pabrik tekstil dan garmen, itu bukan sekadar angka.",
+   "say": "Jadi yang ditunggu: angka delapan belas persen itu turun, tetap, atau ada pengecualian. Buat pekerja pabrik tekstil dan garmen, itu bukan sekadar angka."
+  }
+ ],
+ "tail": 0.6
+}

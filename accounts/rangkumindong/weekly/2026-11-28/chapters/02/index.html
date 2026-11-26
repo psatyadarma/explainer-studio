@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Rangkumin Seminggu — chapter</title>
+<link rel="stylesheet" href="../../../../../../styles/sticker/sticker.css">
+<link rel="stylesheet" href="../../../../../../styles/sticker/weekly/weekly.css">
+<script src="../../../../../../styles/sticker/sticker.js"></script>
+<script src="build/timing.js"></script>
+<script src="../../build/week.js"></script>
+<script src="../../../../../../styles/sticker/weekly/weekly.js"></script>
+<style>
+  .it { position:absolute; transform:translate(-50%,-50%); opacity:0; width:max-content; max-width:1600px; box-sizing:border-box; }
+  .nw { white-space:nowrap; }
+  .big { font-weight:900; font-size:116px; letter-spacing:-4px; line-height:1.02; text-align:center; white-space:nowrap; }
+  .big .acc, .hd .acc, .card .acc { color:var(--accent); }
+  .hd { font-weight:900; font-size:66px; letter-spacing:-1.5px; text-align:center; white-space:nowrap; }
+  .stat { font-weight:900; font-size:230px; letter-spacing:-9px; color:var(--accent); line-height:1; white-space:nowrap; }
+  .stat.ink { color:var(--ink); } .stat.slate { color:var(--slate); }
+  .lab { font-weight:800; font-size:44px; color:var(--slate); text-align:center; white-space:nowrap; }
+  .card { background:#fff; border-radius:28px; padding:28px 42px; text-align:center; font-weight:900; font-size:54px; line-height:1.15;
+          box-shadow:0 0 0 9px #fff,0 18px 26px rgba(27,36,48,.22); }
+  .card small { display:block; font-weight:700; font-size:32px; color:var(--slate); margin-top:10px; line-height:1.25; }
+  .card .q { font-weight:800; font-size:30px; color:var(--slate); margin-bottom:10px; text-align:left; }
+  .card.quote { text-align:left; border-left:16px solid var(--accent); }
+  .card.ink { background:var(--ink); color:#fff; box-shadow:0 0 0 9px #fff,0 18px 26px rgba(27,36,48,.22); }
+  .card.ink small { color:#c9d3dc; }
+  .card.dim { color:var(--slate); }
+  .chip { background:var(--ink); color:#fff; font-weight:800; font-size:48px; padding:16px 30px; border-radius:18px; white-space:nowrap;
+          box-shadow:0 0 0 8px #fff,0 14px 22px rgba(27,36,48,.2); }
+  .chip.acc { background:var(--accent); } .chip.light { background:#fff; color:var(--ink); } .chip.hi { background:var(--hi); color:var(--ink); }
+  .stamp { background:var(--accent); color:#fff; font-weight:900; font-size:84px; letter-spacing:-2px; padding:12px 34px; border-radius:18px;
+           white-space:nowrap; box-shadow:0 0 0 9px #fff,0 18px 26px rgba(27,36,48,.22); }
+  .stamp.ink { background:var(--ink); }
+  .arrow { font-weight:900; font-size:120px; color:var(--accent); line-height:1; }
+  .cal { width:300px; background:#fff; border-radius:26px; overflow:hidden; text-align:center; box-shadow:0 0 0 9px #fff,0 18px 26px rgba(27,36,48,.22); }
+  .cal .d { background:var(--accent); color:#fff; font-weight:900; font-size:40px; padding:12px 0; letter-spacing:2px; }
+  .cal.ink .d { background:var(--ink); }
+  .cal .n { font-weight:900; font-size:150px; letter-spacing:-6px; line-height:1.05; padding-top:6px; }
+  .cal .m { font-weight:800; font-size:40px; color:var(--slate); padding-bottom:18px; letter-spacing:2px; }
+  .cal.sm { width:220px; } .cal.sm .n { font-size:104px; } .cal.sm .d, .cal.sm .m { font-size:32px; }
+  .strike { height:16px; background:var(--accent); border-radius:8px; }
+  .dots { display:grid; gap:18px; }
+  .dots i { display:block; border-radius:50%; background:rgba(62,85,104,.25); }
+  .dots i.on { background:var(--accent); }
+  .dots.ov i { background:transparent; } .dots.ov i.on { background:var(--accent); }
+  .person { display:flex; gap:22px; }
+  .person i { display:block; width:70px; height:150px; position:relative; }
+  .person i::before { content:''; position:absolute; left:15px; top:0; width:40px; height:40px; border-radius:50%; background:currentColor; }
+  .person i::after { content:''; position:absolute; left:0; top:48px; width:70px; height:100px; border-radius:35px 35px 12px 12px; background:currentColor; }
+  .phone { width:440px; height:620px; background:var(--ink); border-radius:56px; padding:26px; box-sizing:border-box; box-shadow:0 0 0 9px #fff,0 18px 26px rgba(27,36,48,.22); }
+  .phone .scr { background:#E9E4DA; border-radius:34px; height:100%; padding:30px 22px; box-sizing:border-box; display:flex; flex-direction:column; gap:18px; }
+  .phone .bub { background:#fff; border-radius:22px 22px 22px 6px; padding:20px 22px; font-weight:800; font-size:36px; line-height:1.2; }
+  .phone .who { font-weight:800; font-size:26px; color:var(--slate); }
+  .budi { width:340px; height:453px; }
+  .budi > div { position:absolute; inset:0; }
+  .lower { bottom:auto; top:132px; }
+
+  .dots i.dpd { background:var(--slate); }
+  .seat { width:200px; height:210px; border-radius:26px; background:var(--ink); color:var(--hi); font-weight:900; font-size:40px;
+          display:flex; flex-direction:column; align-items:center; justify-content:center; gap:8px; box-shadow:0 0 0 9px #fff,0 18px 26px rgba(27,36,48,.22); }
+  .seat small { color:#fff; font-size:26px; font-weight:800; }
+  .seat.empty { background:transparent; border:8px dashed var(--accent); box-shadow:none; color:var(--accent); }
+  .seat.empty small { color:var(--accent); }
+  .gbar { position:absolute; width:170px; border-radius:18px 18px 0 0; background:var(--slate); opacity:0; }
+  .gbar.acc { background:var(--accent); } .gbar.green { background:#2E8B57; } .gbar.down { border-radius:0 0 18px 18px; background:var(--accent); }
+  .icon { width:150px; height:150px; display:block; margin:0 auto 12px; }
+  .note { position:absolute; left:440px; top:50px; z-index:6; background:#fff; color:var(--slate); border:3px solid var(--slate); border-radius:12px;
+          padding:5px 14px; font-weight:800; font-size:24px; opacity:0; }
+  .check { color:#2E8B57; }
+</style>
+
+</head>
+<body>
+<!-- ch02. Listyo PART 5. Numbers: 6 (enam), 5/3/1/1, 30 Nov (spoken). Note chip: police account, no verdict. -->
+<div id="stage">
+  <div id="world">
+    <div class="it chip light" id="e1" style="left:960px;top:300px;">Minggu lalu</div>
+    <div class="it card" id="e2" style="left:960px;top:500px;width:1200px">Kata Kapolri: <span class="acc">belum ada tersangka</span><small>dugaan makar · masih proses</small></div>
+    <div class="it chip acc" id="e3" style="left:2880px;top:270px;">Senin malam</div>
+    <div class="it stamp" id="e4" style="left:2880px;top:420px;">6 TERSANGKA</div>
+    <div class="it lab" id="e5" style="left:2880px;top:540px;">dugaan makar · kata Kabareskrim</div>
+    <div class="it card" id="e6" style="left:2880px;top:690px;width:1000px"><span style="font-size:74px;letter-spacing:-2px">Listyo Sigit Prabowo</span><small>eks Kapolri · salah satunya</small></div>
+    <div class="it hd" id="e7" style="left:4800px;top:270px;">Lima lainnya <span class="acc">juga polisi</span></div>
+    <div class="it card" id="e8" style="left:4240px;top:530px;width:480px"><span class="acc" style="font-size:120px">3</span><small>jenderal bintang dua ★★</small></div>
+    <div class="it card" id="e9" style="left:4800px;top:530px;width:480px"><span class="acc" style="font-size:120px">1</span><small>jenderal bintang satu ★</small></div>
+    <div class="it card" id="e10" style="left:5360px;top:530px;width:480px"><span class="acc" style="font-size:120px">1</span><small>komisaris besar</small></div>
+    <div class="it hd" id="e11" style="left:6720px;top:260px;">Ancaman terberat di pasal yang dipakai</div>
+    <div class="it stamp ink" id="e12" style="left:6720px;top:410px;">HUKUMAN MATI</div>
+    <div class="it card quote" id="e13" style="left:6720px;top:640px;width:1100px"><div class="q">Motifnya, kata polisi</div>Mempertahankan jabatan Kapolri.</div>
+    <div class="it chip acc" id="e14" style="left:8640px;top:260px;">Selasa</div>
+    <div class="it card" id="e15" style="left:8640px;top:420px;width:1000px"><span style="font-size:74px;letter-spacing:-2px">Brigjen Tedjo Kusumo</span><small>salah satu tersangka</small></div>
+    <div class="it stamp" id="e16" style="left:8380px;top:620px;font-size:76px">DIPECAT</div>
+    <div class="it chip light" id="e17" style="left:8960px;top:620px;">lewat sidang etik</div>
+    <div class="it chip" id="e18" style="left:8640px;top:760px;">dilaporkan ajukan banding</div>
+    <div class="it hd" id="e19" style="left:10560px;top:270px;">Kasus penyadapan</div>
+    <div class="it chip light" id="e20" style="left:10560px;top:380px;">Bareskrim juga menetapkan</div>
+    <div class="it card" id="e21" style="left:10560px;top:560px;width:640px"><span style="font-size:110px">NE</span><small>warga sipil · tersangka</small></div>
+    <div class="it chip acc" id="e22" style="left:12480px;top:250px;">Kamis pagi · sidang etik Listyo</div>
+    <div class="it x" id="e23" style="left:11830px;top:470px;"><div class="seat">★★★<small>bintang tiga</small></div></div>
+    <div class="it x" id="e24" style="left:12090px;top:470px;"><div class="seat">★★★<small>bintang tiga</small></div></div>
+    <div class="it x" id="e25" style="left:12350px;top:470px;"><div class="seat">★★★<small>bintang tiga</small></div></div>
+    <div class="it x" id="e26" style="left:12610px;top:470px;"><div class="seat">★★★<small>bintang tiga</small></div></div>
+    <div class="it x" id="e27" style="left:12870px;top:470px;"><div class="seat">★★★<small>bintang tiga</small></div></div>
+    <div class="it x" id="e28" style="left:13130px;top:470px;"><div class="seat empty">?<small>Listyo</small></div></div>
+    <div class="it chip light" id="e29" style="left:12350px;top:660px;">dipimpin Komjen Hendro Pandowo</div>
+    <div class="it stamp" id="e30" style="left:13040px;top:680px;font-size:70px">KOSONG</div>
+    <div class="it card quote" id="e31" style="left:14100px;top:440px;width:1100px;font-size:48px"><div class="q">Kata Kadiv Humas Polri</div>Listyo menandatangani berita acara penolakan hadir.</div>
+    <div class="it chip light" id="e32" style="left:14100px;top:660px;">Alasannya: tidak dijelaskan</div>
+    <div class="it x" id="e33" style="left:15040px;top:460px;"><div class="cal "><div class="d">SENIN</div><div class="n">30</div><div class="m">NOV</div></div></div>
+    <div class="it lab" id="e34" style="left:15040px;top:700px;">sidang ditunda</div>
+    <div class="it stamp ink" id="e35" style="left:16320px;top:300px;font-size:70px">Masih keterangan polisi</div>
+    <div class="it card" id="e36" style="left:16320px;top:500px;width:1100px">Tersangka <span class="acc">belum tentu</span> bersalah</div>
+    <div class="it chip hi" id="e37" style="left:16320px;top:680px;">Yang memutuskan pidananya: pengadilan</div>
+  </div>
+  <div id="card"><div class="kicker" id="cKick"></div><div class="title" id="cTitle"></div><div class="sub" id="cSub"></div></div>
+  <div class="lower" id="low0">Komjen Asep Safrudin<small>Kabareskrim Polri</small></div><div class="lower" id="low1">Kadiv Humas Polri<small>yang menyampaikan</small></div><div class="note" id="note">dugaan · keterangan polisi · belum ada putusan pengadilan</div>
+  <div id="brand"><div class="dot"></div><b>Rangkumin Dong</b></div>
+  <div id="subs"></div>
+  <div id="progress"></div>
+</div>
+<script>
+window.CHAPTER = Number(location.pathname.split('/').slice(-2)[0]);
+const $ = (id) => document.getElementById(id);
+const T = window.TIMING; window.DURATION = T.duration;
+const ch = (window.WEEK?.chapters || []).find((c) => c.n === window.CHAPTER) || {};
+$('cKick').textContent = ch.kicker || ''; $('cTitle').textContent = ch.title || ''; $('cSub').textContent = window.WEEK?.dates || '';
+const T0 = 2.15;  // nothing pops under the 2 s title card
+const IT = [{id:"e1",tin:(K.at("b1")),tout:Infinity,rot:0},{id:"e2",tin:(K.word("b1","kata",0)),tout:Infinity,rot:-1},{id:"e3",tin:(K.at("b2")),tout:Infinity,rot:0},{id:"e4",tin:(K.word("b2","enam",0)),tout:Infinity,rot:-3},{id:"e5",tin:(K.word("b2","dugaan",0)),tout:Infinity,rot:0},{id:"e6",tin:(K.word("b2","listyo",0)),tout:Infinity,rot:1},{id:"e7",tin:(K.at("b3")),tout:Infinity,rot:0},{id:"e8",tin:(K.word("b3","tiga",0)),tout:Infinity,rot:-1.5},{id:"e9",tin:(K.word("b3","satu",0)),tout:Infinity,rot:1},{id:"e10",tin:(K.word("b3","komisaris",0)),tout:Infinity,rot:-1},{id:"e11",tin:(K.at("b4")),tout:Infinity,rot:0},{id:"e12",tin:(K.word("b4","hukuman",0)),tout:Infinity,rot:-2},{id:"e13",tin:(K.word("b4","motifnya",0)),tout:Infinity,rot:0},{id:"e14",tin:(K.at("b5")),tout:Infinity,rot:0},{id:"e15",tin:(K.word("b5","brigjen",0)),tout:Infinity,rot:-1},{id:"e16",tin:(K.word("b5","dipecat",0)),tout:Infinity,rot:-3},{id:"e17",tin:(K.word("b5","lewat",0)),tout:Infinity,rot:2},{id:"e18",tin:(K.word("b5","dilaporkan",0)),tout:Infinity,rot:-1},{id:"e19",tin:(K.at("b6")),tout:Infinity,rot:0},{id:"e20",tin:(K.word("b6","bareskrim",0)),tout:Infinity,rot:0},{id:"e21",tin:(K.word("b6","warga",0)),tout:Infinity,rot:-1.5},{id:"e22",tin:(K.at("b7")),tout:Infinity,rot:0},{id:"e23",tin:(K.word("b7","lima",0)),tout:Infinity,rot:0},{id:"e24",tin:(K.word("b7","lima",0)+0.15),tout:Infinity,rot:0},{id:"e25",tin:(K.word("b7","lima",0)+0.3),tout:Infinity,rot:0},{id:"e26",tin:(K.word("b7","lima",0)+0.45),tout:Infinity,rot:0},{id:"e27",tin:(K.word("b7","lima",0)+0.6),tout:Infinity,rot:0},{id:"e28",tin:(K.word("b7","kursi",0)),tout:Infinity,rot:0},{id:"e29",tin:(K.word("b7","dipimpin",0)),tout:Infinity,rot:0},{id:"e30",tin:(K.word("b7","kosong",0)),tout:Infinity,rot:4},{id:"e31",tin:(K.word("b8","listyo",0)),tout:Infinity,rot:0},{id:"e32",tin:(K.word("b8","alasannya",0)),tout:Infinity,rot:-1},{id:"e33",tin:(K.word("b8","senin",0)),tout:Infinity,rot:2},{id:"e34",tin:(K.word("b8","ditunda",0)),tout:Infinity,rot:0},{id:"e35",tin:(K.at("b9")),tout:Infinity,rot:-2},{id:"e36",tin:(K.word("b9","tersangka",0)),tout:Infinity,rot:0},{id:"e37",tin:(K.word("b9","yang",0)),tout:Infinity,rot:1}].map((o) => ({...o, tin: Math.max(T0, o.tin), el: $(o.id)}));
+const LOW = [["low0",(K.word("b2","kabareskrim",0)),(K.at("b3")-0.5)],["low1",(K.word("b8","kadiv",0)+0.3),(K.word("b8","alasannya",0))]].map(([id, a, b]) => [$(id), Math.max(T0 + 0.6, a), b]);
+const CAM = [{t:0,x:960,y:540,z:1},{t:(K.at("b2"))-0.35,x:2880,y:540,z:1},{t:(K.at("b3"))-0.35,x:4800,y:540,z:1},{t:(K.at("b4"))-0.35,x:6720,y:540,z:1},{t:(K.at("b5"))-0.35,x:8640,y:540,z:1},{t:(K.at("b6"))-0.35,x:10560,y:540,z:1},{t:(K.at("b7"))-0.35,x:12480,y:540,z:1},{t:(K.at("b8"))-0.35,x:14400,y:540,z:1},{t:(K.at("b9"))-0.35,x:16320,y:540,z:1}];
+IT.forEach((o) => { if (o.budi) o.el.querySelectorAll('[data-ex]').forEach((d) => { d.innerHTML = K.budi(d.dataset.ex); d.classList.add('sticker-svg'); }); });
+const fmt = (v, dec) => v.toLocaleString('id-ID', { minimumFractionDigits: dec, maximumFractionDigits: dec });
+function seek(t) {
+  K.cam16($('world'), CAM, t);
+  K.titleCard($('card'), t, 2.0);
+  IT.forEach((o) => {
+    if (o.grow) { const s = K.spring(t - o.tin, 180, 20); o.el.style.opacity = t >= o.tin ? 1 : 0;
+      o.el.style.transformOrigin = o.grow === 'down' ? '50% 0' : '50% 100%';
+      o.el.style.transform = `translate(-50%,${o.grow === 'down' ? '0' : '-100%'}) scaleY(${Math.max(0, s)})`; }
+    else if (o.fade) { o.el.style.opacity = K.clamp((t - o.tin) / 0.3) * (1 - K.clamp((t - o.tout) / 0.25)); o.el.style.transform = 'translate(-50%,-50%)'; }
+    else K.pop(o.el, t, o.tin, o.tout, o.rot);
+    if (o.draw) o.el.querySelectorAll('[data-draw]').forEach((p) => { p.style.strokeDashoffset = 1 - K.easeInOut(K.prog(t, o.tin, o.draw)); });
+    if (o.cnt) { const [a, b, dec, t1] = o.cnt; $(o.id + 'n').textContent = fmt(a + (b - a) * K.easeOut(K.prog(t, Math.max(T0, t1), 1.0)), dec); }
+    if (o.budi) { let cur = o.budi[0][0]; o.budi.forEach(([ex, tt]) => { if (t >= tt) cur = ex; });
+      o.el.querySelectorAll('[data-ex]').forEach((d) => { d.style.display = d.dataset.ex === cur ? 'block' : 'none'; });
+      o.el.style.transform += ` translateY(${Math.sin(t * 2.2) * 6}px)`; }
+  });
+  LOW.forEach(([el, a, b]) => K.lower(el, t, a, b));
+  $('note').style.opacity = K.clamp((t - (K.at("b1"))) / 0.3) * (1 - K.clamp((t - (K.at("b9"))) / 0.3));
+  K.subtitles($('subs'), t);
+  K.weekly(t);
+}
+window.seek = seek;
+</script>
+</body>
+</html>

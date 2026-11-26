@@ -1,0 +1,95 @@
+{
+  "area": "politics",
+  "run_date": "2026-11-27",
+  "checked": ["detik news index (scanned)", "CNN Indonesia nasional (search only, no page returned)", "Antara politik/hukum (search only, no usable page)", "Tempo politik (not reachable)", "MPR VP election / Amran-Sugiono (found)", "DPR RUU / Prolegnas 2027 (found)", "Kejagung / KPK / Polri big cases (found)", "Listyo Sigit KKEP (known E1148/E1149, no new development found)", "labour/UMP-UMK (found, headlines only)", "demonstrations (none seen on detik index)", "reshuffle (not seen)", "MK/MA (not seen)"],
+  "events": [
+    {
+      "date": "2026-11-26",
+      "category": "POL",
+      "event": "RSPAD Gatot Soebroto doctors handed the health test results of VP candidates Amran Sulaiman and Sugiono to the MPR verification team led by Habiburokhman on Thursday evening; the contents were kept confidential as medical records.",
+      "key_numbers": "2 candidates · tests 26 Nov at RSPAD · results delivered about 19.30 WIB · verification period 24-26 Nov 2026",
+      "storyline": "gibran-ijazah-mk",
+      "update_of": "E1130",
+      "status": "verified",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/news/20261126193154-4-788881/tim-dokter-rspad-serahkan-hasil-tes-kesehatan-amran-sugiono-ke-mpr"},
+        {"label": "detikNews", "url": "https://news.detik.com/berita/d-8770310/tim-verifikasi-mpr-cek-langsung-tes-kesehatan-cawapres-amran-sugiono-di-rspad"}
+      ],
+      "why_it_matters": "The replacement for Gibran as Wakil Presiden is now one step from the MPR vote.",
+      "signals": {"spreading": 2, "wallet": 0, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "Covered by detik, CNBC Indonesia, Kumparan, Sindonews, Jawapos on 26 Nov",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-12-01",
+      "category": "POL",
+      "event": "The MPR is to hold a plenary on 1 December to announce whether the documents of Amran Sulaiman and Sugiono are complete; incomplete candidates get 4 more days, ahead of an MPR plenary session that CNBC Indonesia reports as 11 December, while earlier events in the database say 9 December.",
+      "key_numbers": "1 Dec 2026: verification plenary · 4 days to complete documents · VP election session 11 Dec per CNBC (9 Dec per earlier reports, E0898/E1130) · 2 candidates",
+      "storyline": "gibran-ijazah-mk",
+      "update_of": "E1130",
+      "status": "upcoming",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/news/20261126193154-4-788881/tim-dokter-rspad-serahkan-hasil-tes-kesehatan-amran-sugiono-ke-mpr"}
+      ],
+      "why_it_matters": "Sets the real date when Indonesia gets a new Wakil Presiden, and the date is currently reported inconsistently.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-26",
+      "category": "POL",
+      "event": "MPR verification team said institutions checked the VP candidates: Polri reported no criminal record (SKCK issued 23 Nov), KPK reported no complaints and confirmed LHKPN data, Mahkamah Agung found no legal records, and the defence and education ministries verified diplomas.",
+      "key_numbers": "SKCK issued 23 Nov 2026 · 5 institutions reported (Polri, KPK, MA, Kemhan, Kemendikdasmen) plus Kemendagri population data",
+      "storyline": "gibran-ijazah-mk",
+      "update_of": "E1130",
+      "status": "partial",
+      "sources": [
+        {"label": "detikNews", "url": "https://news.detik.com/berita/d-8770310/tim-verifikasi-mpr-cek-langsung-tes-kesehatan-cawapres-amran-sugiono-di-rspad"}
+      ],
+      "why_it_matters": "After the Gibran diploma dispute, diploma and asset checks of the new candidates are being done in the open.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-25",
+      "category": "POL",
+      "event": "The DPR Baleg and the government agreed on 62 bills for the 2027 Prolegnas Priority list, including amendments to the Pemilu law, and new bills on Penyadapan, Keamanan dan Ketahanan Siber and Pelaksanaan Pidana Mati.",
+      "key_numbers": "62 RUU · 45 from DPR · 15 from government · 2 from DPD · agreed at Baleg working meeting 25 Nov 2026",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "detikNews", "url": "https://news.detik.com/berita/d-8770226/baleg-dpr-tetapkan-62-ruu-prioritas-2027-ini-daftarnya"}
+      ],
+      "why_it_matters": "The list shows which laws, such as elections and wiretapping, the DPR plans to take up next year.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-25",
+      "category": "POL",
+      "event": "Kejaksaan Agung announced it seized Rp55.8 billion in cash, foreign currency, gold and vehicles in a money-laundering (TPPU) case against Arif Kurniawan, named controller of PT Bumi Sentosa Jaya, linked to alleged nickel mining corruption in Southeast Sulawesi.",
+      "key_numbers": "Rp55,824,713,000 cash · USD 126,200 · gold 37.8 kg · 60 witnesses questioned · about 4,000 documents · case period 2013-2025, TPPU 2021-2026",
+      "storyline": "corruption-cases",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "detikNews", "url": "https://news.detik.com/berita/d-8770191/penampakan-duit-rp-55-8-m-dalam-koper-disita-terkait-tppu-arif-kurniawan"}
+      ],
+      "why_it_matters": "Piles of seized cash and gold make a clear picture of how large a mining-linked corruption case can be.",
+      "signals": {"spreading": 1, "wallet": 0, "surprise": 2, "visual": 2, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "",
+      "sensitivity": "high"
+    }
+  ],
+  "gaps": [
+    "Could not reach CNN Indonesia, Antara or Tempo section pages; detik index was a cached copy from 26 Nov, so 27 Nov headlines are not covered.",
+    "VP election session date conflict: CNBC Indonesia (26 Nov) says 11 Dec, while NU Online (16 Nov) and the database say 9 Dec. Worth one check of an MPR statement.",
+    "UMK 2027 setting (deadline 25 Nov): detik headline says Banten UMK 2027 approved, Cilegon Rp5.9 juta, and labour wants UMP up 9.5% (Bisnis headline); numbers not verified from articles.",
+    "Headline only, not opened: KPK investigator AKBP Rossa returned to Mabes Polri; KPK praised MPR use of LHKPN for VP vetting; lawmaker support for Polri's Philippines-linked online scam case.",
+    "No new Listyo Sigit KKEP development found beyond E1148/E1149 (second summons 30 Nov)."
+  ]
+}

@@ -98,9 +98,16 @@ def assemble(week):
     lst.write_text("".join(f"file '{v.resolve()}'\n" for v in vids))
     tmp = week / "out/concat.mp4"
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", str(lst), "-c", "copy", str(tmp)], check=True)
-    # one loudness pass over the whole programme (chapters were mixed separately)
+    # one loudness pass over the whole programme (chapters were mixed separately).
+    # Measured gain to -14 LUFS, then a true-peak limiter (4x oversampled) at -2.85 dBFS (AAC adds ~1 dB of overs) so the AAC file stays <= -1.5 dBTP.
+    # (single-pass dynamic loudnorm left -0.1 dBTP on weekly #6; editor fix 27 Nov)
+    m = subprocess.run(["ffmpeg", "-hide_banner", "-nostats", "-i", str(tmp), "-af", "loudnorm=I=-14:TP=-2:LRA=11:print_format=json",
+                        "-f", "null", "-"], capture_output=True, text=True).stderr
+    j = json.loads(m[m.rindex("{"):m.rindex("}") + 1])
+    gain = -14.0 - float(j["input_i"]) + 0.25   # make up what the limiter takes off
+    af = f"aresample=192000,volume={gain:.2f}dB,alimiter=limit=0.72:level=false:attack=1:release=50,aresample=48000"
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(tmp), "-c:v", "copy",
-                    "-af", "loudnorm=I=-14:TP=-2:LRA=11", "-c:a", "aac", "-b:a", "192k", "-ar", "48000",
+                    "-af", af, "-c:a", "aac", "-b:a", "192k", "-ar", "48000",
                     str(week / "out/video.mp4")], check=True)
     tmp.unlink(); lst.unlink()
     pj = week / "post.json"

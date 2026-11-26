@@ -1,0 +1,432 @@
+[
+ {
+  "lines": "i1, i2, a1, a2, g0",
+  "claim": "President Prabowo submitted two VP candidates to the MPR (Ketua MPR Ahmad Muzani) on Mon 23 Nov 2026: Agriculture Minister Andi Amran Sulaiman and Sugiono, both cabinet ministers.",
+  "numbers": "2 nama · 23 Nov 2026",
+  "sensitivity": "high",
+  "status": "verified (E1088, E1073; factcheck #16/#18: Sugiono = Menko PMK per detik, for the name tag; not spoken)",
+  "sources": [
+   "https://www.cnnindonesia.com/nasional/20261123134347-32-1430382/resmi-prabowo-usulkan-sugiono-dan-amran-jadi-calon-wapres-ke-mpr",
+   "https://www.cnbcindonesia.com/news/20261123175444-4-787732/prabowo-ajukan-sugiono-amran-jadi-cawapres-ini-tahapan-pemilihannya",
+   "https://news.detik.com/berita/d-8766620/ini-jadwal-dan-tahapan-verifikasi-cawapres-amran-dan-sugiono",
+   "https://news.detik.com/berita/d-8766856/amran-dan-sugiono-cawapres-usulan-prabowo-ini-tahapan-selanjutnya"
+  ]
+ },
+ {
+  "lines": "a1",
+  "claim": "VP seat vacant since Thu 12 Nov 2026 (Gibran's letter to Ketua MPR).",
+  "numbers": "12 Nov",
+  "sensitivity": "high",
+  "status": "verified (weekly #5, daily 21 Nov)",
+  "sources": [
+   "https://www.liputan6.com/news/read/8333949/ketua-mpr-sejak-hari-ini-jabatan-wapres-alami-kekosongan",
+   "https://www.cnnindonesia.com/nasional/20261112101220-32-1426208/gibran-akhirnya-resmi-serahkan-surat-pengunduran-diri-ke-mpr"
+  ]
+ },
+ {
+  "lines": "a3",
+  "claim": "Sufmi Dasco Ahmad (DPR Deputy Speaker), the name most raised last week (weekly #5 a6), was not among the two names.",
+  "numbers": "-",
+  "sensitivity": "high",
+  "status": "verified (E1088: 'Dasco was not chosen')",
+  "sources": [
+   "https://www.cnbcindonesia.com/news/20261123175444-4-787732/prabowo-ajukan-sugiono-amran-jadi-cawapres-ini-tahapan-pemilihannya",
+   "https://katadata.co.id/berita/nasional/6af94514ebe7d/ramai-dukungan-pengurus-daerah-gerindra-untuk-sufmi-dasco-jadi-wapres"
+  ]
+ },
+ {
+  "lines": "a4",
+  "claim": "Tue 24 Nov: Prabowo met Dasco one-on-one at the Palace; per Setkab, Dasco passed on public aspirations and reports received by the DPR.",
+  "numbers": "24 Nov",
+  "sensitivity": "high",
+  "status": "UNVERIFIED this pass (single source detik); softened per fallback: 'sekitar dua jam' dropped, Setkab attribution kept",
+  "sources": [
+   "https://news.detik.com/berita/d-8768440/prabowo-bertemu-4-mata-dengan-dasco-di-istana-apa-yang-dibahas",
+   "https://www.cnnindonesia.com/nasional/20261124220537-32-1431060/dasco-temui-prabowo-di-istana-merdeka"
+  ]
+ },
+ {
+  "lines": "a5",
+  "claim": "Per detik: Demokrat supports, Golkar calls both worthy, PKB and PDIP hold back or question the picks.",
+  "numbers": "-",
+  "sensitivity": "high",
+  "status": "verified (E1130, detik roundup); attributed 'menurut detik'",
+  "sources": [
+   "https://news.detik.com/berita/d-8768573/kata-mereka-usai-prabowo-usulkan-amran-dan-sugiono-jadi-cawapres"
+  ]
+ },
+ {
+  "lines": "a6",
+  "claim": "MPR verification team will not visit the candidates' schools; high-school diplomas verified in Jakarta via Kemendikdasmen.",
+  "numbers": "-",
+  "sensitivity": "high",
+  "status": "verified (E1103)",
+  "sources": [
+   "https://www.cnnindonesia.com/nasional/20261124193951-32-1431019/mpr-batal-ke-sekolah-sugiono-dan-amran-buat-cek-ijazah-cawapres",
+   "https://www.suara.com/news/2026/11/24/170949/mpr-tak-datangi-sekolah-amran-dan-sugiono-verifikasi-ijazah-cawapres-dilakukan-di-kemendikdasmen",
+   "https://www.antaranews.com/berita/5873435"
+  ]
+ },
+ {
+  "lines": "a7",
+  "claim": "Thu 26 Nov: both had health tests at RSPAD Gatot Soebroto; results handed to the MPR verification team (led by Habiburokhman) that evening, contents confidential as medical records.",
+  "numbers": "26 Nov · ~19.30 WIB",
+  "sensitivity": "high",
+  "status": "verified (E1158)",
+  "sources": [
+   "https://www.cnbcindonesia.com/news/20261126193154-4-788881/tim-dokter-rspad-serahkan-hasil-tes-kesehatan-amran-sugiono-ke-mpr",
+   "https://news.detik.com/berita/d-8770310/tim-verifikasi-mpr-cek-langsung-tes-kesehatan-cawapres-amran-sugiono-di-rspad"
+  ]
+ },
+ {
+  "lines": "a8",
+  "claim": "The VP is elected by the 732 MPR members (580 DPR + 152 DPD); most votes wins (Peraturan MPR, Art. 140(2)).",
+  "numbers": "732 · 580 · 152",
+  "sensitivity": "high",
+  "status": "verified (E1088)",
+  "sources": [
+   "https://www.cnbcindonesia.com/news/20261123175444-4-787732/prabowo-ajukan-sugiono-amran-jadi-cawapres-ini-tahapan-pemilihannya",
+   "https://news.detik.com/berita/d-8766620/ini-jadwal-dan-tahapan-verifikasi-cawapres-amran-dan-sugiono"
+  ]
+ },
+ {
+  "lines": "a9, g4",
+  "claim": "Mon 23 Nov: Ketua MPR Ahmad Muzani moved the VP election plenary from Wed 9 Dec to Fri 11 Dec 2026, citing 'prinsip kehati-hatian' over whether the 14 days count as calendar or working days (one session for election and inauguration, per Kompas).",
+  "numbers": "9 Des → 11 Des",
+  "sensitivity": "high",
+  "status": "verified (factcheck FIX 1)",
+  "sources": [
+   "https://www.mpr.go.id/berita/ahmad-muzani-perubahan-sidang-paripurna-11-desember",
+   "https://news.detik.com/berita/d-8765589/pertimbangan-mpr-undur-paripurna-pemilihan-wapres-jadi-11-desember",
+   "https://nasional.kompas.com/read/2026/11/23/12510181/mpr-ubah-jadwal-sidang-pemilihan-pelantikan-wapres-pengganti-gibran-jadi-11",
+   "https://www.cnbcindonesia.com/news/20261123120146-4-787559/sidang-paripurna-mpr-pemilihan-wapres-pengganti-gibran-11-desember"
+  ]
+ },
+ {
+  "lines": "a9",
+  "claim": "The move followed criticism that the 14-day deadline should count working days (Mahfud MD among the critics, 20 Nov). MPR's statement does not name Mahfud; script does not say the MPR moved the date because of him and no longer names him.",
+  "numbers": "-",
+  "sensitivity": "high",
+  "status": "verified (factcheck FIX 2: 'akan dipelajari' line dropped as stale)",
+  "sources": [
+   "https://news.detik.com/berita/d-8761430/catatan-mahfud-md-soal-waktu-sidang-mpr-pemilihan-wakil-presiden",
+   "https://memoindonesia.co.id/berita/44876/sidang-wapres-pengganti-gibran-tetap-9-desember-mpr-kaji-catatan-mahfud/",
+   "https://ifakta.co/2026/11/21/panitia-ad-hoc-mpr-bahas-kritik-mahfud-jadwal-pemilihan-wapres/"
+  ]
+ },
+ {
+  "lines": "b1",
+  "claim": "Last week (17 Nov) Kapolri said there was no makar suspect yet.",
+  "numbers": "17 Nov",
+  "sensitivity": "high",
+  "status": "verified (weekly #5 b3)",
+  "sources": [
+   "https://justisio.com/berita/2026-11-17-kapolri-pastikan-listyo-sigit-cs-belum-tersangka-dugaan-makar",
+   "https://www.rctiplus.com/news/detail/idxchannel/5519054/listyo-sigit-cs-belum-ditetapkan-tersangka-makar--kapolri--masih-proses-"
+  ]
+ },
+ {
+  "lines": "i2, b2, b3",
+  "claim": "Mon 23 Nov evening, Kabareskrim Komjen Asep Safrudin announced six makar suspects incl. ex-Kapolri Listyo Sigit Prabowo; the other five are Irjen Slamet Uliandi, Irjen Eko Hadi Santoso, Irjen Ahrie Sonta Nasution (3 two-star), Brigjen Tedjo Kusumo (1 one-star), Kombes Iman Imanuddin.",
+  "numbers": "6 tersangka · 3 Irjen · 1 Brigjen · 1 Kombes",
+  "sensitivity": "high",
+  "status": "verified (E1087, E1119)",
+  "sources": [
+   "https://www.cnbcindonesia.com/news/20261123194505-4-787774/breaking-news-polri-tetapkan-6-tersangka-makar-termasuk-listyo-sigit",
+   "https://news.detik.com/berita/d-8766528/terancam-hukuman-mati-ini-peran-listyo-sigit-dkk-tersangka-makar",
+   "https://katadata.co.id/berita/nasional/6b043fb79236c/bareskrim-tetapkan-jenderal-listyo-sigit-dan-tedjo-kusumo-tersangka-dugaan-makar"
+  ]
+ },
+ {
+  "lines": "b4",
+  "claim": "Articles used (KUHP 191, 193, 196) carry a maximum of death; police allege the motive was keeping the Kapolri post.",
+  "numbers": "maks. hukuman mati",
+  "sensitivity": "high",
+  "status": "verified (E1087, E1119); motive attributed 'kata polisi'",
+  "sources": [
+   "https://news.detik.com/berita/d-8766476/listyo-sigit-dkk-dijerat-pasal-makar-terancam-hukuman-mati",
+   "https://news.detik.com/berita/d-8766455/motif-dugaan-makar-listyo-sigit-dkk-ingin-pertahankan-jabatan-kapolri",
+   "https://www.cnnindonesia.com/nasional/20261124064854-12-1430632/jenderal-listyo-sigit-di-pusaran-kasus-makar-demi-jabatan-kapolri"
+  ]
+ },
+ {
+  "lines": "b5",
+  "claim": "Tue 24 Nov: Brigjen Tedjo Kusumo (makar suspect) dismissed from Polri after an ethics hearing; reported to have appealed.",
+  "numbers": "24 Nov",
+  "sensitivity": "high",
+  "status": "verified (E1104); appeal 'dilaporkan'",
+  "sources": [
+   "https://www.cnnindonesia.com/nasional/20261124175106-12-1430968/polri-pecat-brigjen-tedjo-buntut-kasus-makar",
+   "https://news.detik.com/berita/d-8768272/brigjen-tedjo-kusumo-dipecat-dari-polri-buntut-kasus-makar",
+   "https://www.suara.com/news/2026/11/24/203113/terbukti-langgar-etik-brigjen-tedjo-kusumo-dipecat-tidak-hormat-dari-polri"
+  ]
+ },
+ {
+  "lines": "b6",
+  "claim": "Bareskrim named a civilian, NE, a suspect in the wiretapping case (per detik).",
+  "numbers": "-",
+  "sensitivity": "high",
+  "status": "UNVERIFIED this pass (single source detik); b6b (5 vs 6 counts) CUT per fallback",
+  "sources": [
+   "https://news.detik.com/berita/d-8768564/tanda-tanya-siapa-tersangka-sipil-di-kasus-penyadapan"
+  ]
+ },
+ {
+  "lines": "i2, b7, b8, g0b",
+  "claim": "Thu 26 Nov morning (09.00 WIB): KKEP of 5 Komjen chaired by Komjen Hendro Pandowo; Listyo did not attend, signed a berita acara penolakan hadir (per Kadiv Humas Irjen Johnny Eddizon Isir), reason not explained; postponed to Mon 30 Nov.",
+  "numbers": "5 Komjen · 26 Nov · 30 Nov",
+  "sensitivity": "high",
+  "status": "verified (E1148; daily 26 Nov)",
+  "sources": [
+   "https://www.viva.co.id/berita/nasional/1946473-eks-kapolri-listyo-sigit-tolak-hadir-sidang-etik-dipanggil-lagi-30-november",
+   "https://www.detik.com/bali/hukum-dan-kriminal/d-8770603/listyo-sigit-mangkir-sidang-etik-kasus-penyadapan-ditunda",
+   "https://news.detik.com/berita/d-8768555/deretan-jenderal-bintang-3-yang-adili-etik-listyo-sigit"
+  ]
+ },
+ {
+  "lines": "b9",
+  "claim": "Framing: police statements; suspect is not guilty; court decides the criminal case.",
+  "numbers": "-",
+  "sensitivity": "high",
+  "status": "framing",
+  "sources": []
+ },
+ {
+  "lines": "c2",
+  "claim": "Mon 23 Nov rupiah closed +0,37% at Rp18.203/US$.",
+  "numbers": "Rp18.203 · +0,37%",
+  "sensitivity": "normal",
+  "status": "verified (E1069)",
+  "sources": [
+   "https://www.idntimes.com/business/economy/rupiah-berhasil-menguat-ditutup-ke-rp18-203-per-dolar-as-00-gshdq-5s8vg7",
+   "https://investortrust.id/macro/123429/bos-msci-bertemu-prabowo-bi-sebut-bawa-sentimen-positif-bagi-rupiah"
+  ]
+ },
+ {
+  "lines": "i3, c1, c3",
+  "claim": "Thu 26 Nov: rupiah briefly past Rp18.400/US$ around midday (new record low, IDN Times); closed Rp18.364 (−32 poin, −0,17%; previous close Rp18.332). The CNBC 13:32 WIB Rp18.390 figure is no longer used.",
+  "numbers": ">Rp18.400 (intraday) · Rp18.364 (close)",
+  "sensitivity": "normal",
+  "status": "verified (factcheck FIX 3). RECHECK Friday close before render.",
+  "sources": [
+   "https://www.cnnindonesia.com/ekonomi/20261126165708-78-1431961/rupiah-ditutup-melemah-di-level-rp18364-per-dolar-as-sore-ini",
+   "https://www.idntimes.com/business/finance/bi-ungkap-penyebab-rupiah-tembus-rp18-400-per-dolar-as-00-lx3cr-mrkkx8",
+   "https://www.idntimes.com/business/economy/rupiah-loyo-hari-ini-usulan-tarif-as-18-persen-jadi-ancaman-baru-00-bvq5c-cx0n4f",
+   "https://investasi.kontan.co.id/news/rupiah-spot-ditutup-melemah-015-ke-rp-18230-per-dolar-as-pada-selasa-2411"
+  ]
+ },
+ {
+  "lines": "c4, c5",
+  "claim": "Per BI: drivers are US rate-hike expectations, a strong dollar index, reclassification worries (MSCI) and month-end corporate dollar demand; BI intervenes (NDF, spot, DNDF, secondary SBN).",
+  "numbers": "-",
+  "sensitivity": "normal",
+  "status": "verified (E1151 sources); 'status pasar saham kita' = MSCI reclassification",
+  "sources": [
+   "https://www.idntimes.com/business/finance/bi-ungkap-penyebab-rupiah-tembus-rp18-400-per-dolar-as-00-lx3cr-mrkkx8",
+   "https://www.cnbcindonesia.com/news/20261126125636-4-788708/rupiah-nyaris-rp18400-us--ini-3-biang-kerok-pelemahannya"
+  ]
+ },
+ {
+  "lines": "c6",
+  "claim": "IHSG +1,35% Mon 23 Nov (5.215,85); −0,84% Wed 25 Nov (5.197,61); Thu 26 Nov close 5.242,17 (+0,86%).",
+  "numbers": "+1,35% · −0,84% · 5.242",
+  "sensitivity": "normal",
+  "status": "verified (E1066, E1126, E1152)",
+  "sources": [
+   "https://www.cnbcindonesia.com/market/20261123153712-17-787685/ihsg-ditutup-di-zona-hijau-naik-135-ke-level-521585",
+   "https://pusatdata.kontan.co.id/news/ihsg-melorot-ke-posisi-5197-disertai-net-sell-asing-pada-hari-ini-2511",
+   "https://www.cnbcindonesia.com/market/20261126154436-17-788799/ihsg-ditutup-menguat-086-ke-level-524217"
+  ]
+ },
+ {
+  "lines": "c7",
+  "claim": "Wed 25 Nov at DPR Komisi XI, BI's 2027 assumption: rupiah Rp17.800–18.200/US$ (DPR-BI agreement cited as Rp18.200 by detik).",
+  "numbers": "Rp17.800–18.200",
+  "sensitivity": "normal",
+  "status": "verified (E1155; factcheck #13: holds vs 18.364)",
+  "sources": [
+   "https://www.antaranews.com/berita/5877519/bi-tetapkan-asumsi-rupiah-rp18200-dan-bi-rate-6-persen-pada-2027",
+   "https://finance.detik.com/berita-ekonomi-bisnis/d-8771877/dpr-bi-sepakati-proyeksi-ekonomi-2027"
+  ]
+ },
+ {
+  "lines": "c8",
+  "claim": "Rp1.000.000 / Rp18.364 (Thu close) = US$54,45 → 'sekitar 54 dolar' (our arithmetic; excludes money-changer spread). Pak Budi is an illustration.",
+  "numbers": "≈US$54",
+  "sensitivity": "normal",
+  "status": "calc",
+  "sources": [
+   "https://www.cnnindonesia.com/ekonomi/20261126165708-78-1431961/rupiah-ditutup-melemah-di-level-rp18364-per-dolar-as-sore-ini"
+  ]
+ },
+ {
+  "lines": "i3, d1–d5, d7",
+  "claim": "USTR (25 Nov US time) Section 301 overcapacity determinations for 14 economies (16 investigated): proposed tariffs up to 18% on goods of Indonesia, Malaysia and Cambodia; Vietnam up to 35% and India up to 25% (lower, 20%/17%, only with a reciprocal trade deal). Indonesia's sectors: textiles and apparel, mining and metals, renewable energy (footwear is Vietnam's, not Indonesia's). Comments due 5 Jan 2027, hearing from 25 Jan 2027.",
+  "numbers": "≤18% · VN ≤35% · IN ≤25% · 14 · Jan 2027",
+  "sensitivity": "normal",
+  "status": "verified (factcheck FIX 4, FIX 5; #7–9)",
+  "sources": [
+   "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/november/ustr-makes-determinations-and-proposes-actions-14-section-301-investigations-relating-structural",
+   "https://www.kelleydrye.com/viewpoints/blogs/trade-and-manufacturing-monitor/ustr-proposes-section-301-overcapacity-tariffs-on-14-of-16-economies-investigated-public-comment-period-and-public-hearing-will-precede-any-final-action",
+   "https://www.cnbcindonesia.com/news/20261126175500-4-788866/ri-terancam-tarif-as-18-menperin-kita-cari-pasar-baru-yang-terbuka"
+  ]
+ },
+ {
+  "lines": "d6",
+  "claim": "Menperin said Indonesia will seek new open export markets; per Suara.com the government is pursuing exemptions.",
+  "numbers": "-",
+  "sensitivity": "normal",
+  "status": "verified (E1150 sources); minister not named in voice (E1150 'Sarmuji'; checker confirm before naming on screen)",
+  "sources": [
+   "https://www.cnbcindonesia.com/news/20261126175500-4-788866/ri-terancam-tarif-as-18-menperin-kita-cari-pasar-baru-yang-terbuka",
+   "https://www.suara.com/bisnis/2026/11/26/185337/trump-bidik-tarif-18-untuk-ri-pemerintah-berburu-pengecualian"
+  ]
+ },
+ {
+  "lines": "d5b",
+  "claim": "General mechanism: an import tariff is paid by the US importer; higher tariffs can make goods pricier there and reduce orders. No number.",
+  "numbers": "-",
+  "sensitivity": "normal",
+  "status": "general explanation ('bisa')",
+  "sources": [
+   "https://www.suara.com/bisnis/2026/11/26/185337/trump-bidik-tarif-18-untuk-ri-pemerintah-berburu-pengecualian"
+  ]
+ },
+ {
+  "lines": "e2",
+  "claim": "Anthropic (maker of Claude) debuted on Nasdaq Thu 19 Nov 2026 at US$83; first-day close US$97,17.",
+  "numbers": "US$83 · US$97,17",
+  "sensitivity": "normal",
+  "status": "verified (daily 23 Nov)",
+  "sources": [
+   "https://finance.detik.com/bursa-dan-valas/d-8760676/harga-ipo-anthropic-resmi-us-83-per-saham-nilai-pasarnya-84-pdb-ri",
+   "https://www.nbcwashington.com/news/business/anthropic-ipo-begin-trading-nasdaq/4185456/",
+   "https://www.tradingview.com/news/invezz:f1a2ad0a9094b:0-anthropic-s-ant-closes-at-97-17-up-17-on-its-first-day-of-trading/"
+  ]
+ },
+ {
+  "lines": "e3",
+  "claim": "Tue 24 Nov pre-market, ANT fell below the US$83 IPO price (per Kontan); Mon 23 Nov ~US$84,87 intraday.",
+  "numbers": "<US$83",
+  "sensitivity": "normal",
+  "status": "UNVERIFIED this pass (single source Kontan); kept attributed 'menurut Kontan' + 'sempat'",
+  "sources": [
+   "https://internasional.kontan.co.id/news/saham-anthropic-anjlok-harga-turun-di-bawah-level-ipo-us-83",
+   "https://finance.yahoo.com/markets/stocks/article/anthropic-stock-falls-as-mondays-tech-rally-takes-off-194812614.html"
+  ]
+ },
+ {
+  "lines": "e4–e6",
+  "claim": "Huang resigned 12 Nov; board reinstated him Mon 23 Nov (US time); NVDA closed +31,48% at US$165,05 that day; market value up almost US$1 T; Tue 24 Nov −5,86% to US$155,38.",
+  "numbers": "31,48% · ~US$1 T · −5,86%",
+  "sensitivity": "normal",
+  "status": "verified (daily 25 Nov); not reopened in full fact-check (carried from earlier checks)",
+  "sources": [
+   "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+   "https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo/",
+   "https://finance.yahoo.com/technology/article/nvidia-reinstates-jensen-huang-as-ceo-stock-rockets-141145439.html",
+   "https://fortune.com/2026/11/23/wall-street-1-trillion-jensen-huang-nvidia-stock-market-cap/",
+   "https://investasi.kontan.co.id/news/wall-street-ditutup-turun-saham-nvidia-anjlok-59-dan-nasdaq-turun-148"
+  ]
+ },
+ {
+  "lines": "e7, e8",
+  "claim": "Telkomsel launched OCTA Token 23 Nov: packages from Rp100.000 (Rp250.000, Rp500.000), dozens of AI models, no monthly subscription, balance without expiry; per-use price not published.",
+  "numbers": "Rp100rb/250rb/500rb · 'puluhan'",
+  "sensitivity": "normal",
+  "status": "verified (daily 24 Nov; count kept as 'puluhan': media 69 vs Telkomsel >85); not reopened in full fact-check (carried from earlier checks)",
+  "sources": [
+   "https://www.cnbcindonesia.com/tech/20261123144847-37-787657/telkomsel-rilis-paket-token-tanpa-langganan-bisa-akses-69-model-ai",
+   "https://www.cnnindonesia.com/teknologi/20261123171028-213-1430480/telkomsel-rilis-paket-ai-token-mulai-rp100-ribu-apa-fungsinya"
+  ]
+ },
+ {
+  "lines": "e1–e9 (captions)",
+  "claim": "Disclosure: research & script assisted by AI, including Claude made by Anthropic; not sponsored by Telkomsel.",
+  "numbers": "-",
+  "sensitivity": "normal",
+  "status": "our statement",
+  "sources": []
+ },
+ {
+  "lines": "g0",
+  "claim": "Last week's promises: deadline 25 Nov for two names → names arrived Mon 23 Nov; Danantara report (tentative 23 Nov) → released Wed 25 Nov; Listyo's ethics hearing 'pekan depan' → held 26 Nov without him.",
+  "numbers": "-",
+  "sensitivity": "high",
+  "status": "verified (E1088, E1125, E1148)",
+  "sources": [
+   "https://www.cnnindonesia.com/nasional/20261123134347-32-1430382/resmi-prabowo-usulkan-sugiono-dan-amran-jadi-calon-wapres-ke-mpr",
+   "https://www.cnbcindonesia.com/market/20261125133940-17-788341/laporan-keuangan-selesai-danantara-cetak-laba-rp2596-triliun-di-2025"
+  ]
+ },
+ {
+  "lines": "g0b",
+  "claim": "Danantara's first consolidated financial statements (Apr–Dec 2025), released 25 Nov: net profit Rp203,4 T for nine months (Rp259,6 T annualised).",
+  "numbers": "Rp203,4 T",
+  "sensitivity": "normal",
+  "status": "verified (E1125); not reopened in full fact-check (carried from earlier checks)",
+  "sources": [
+   "https://www.cnbcindonesia.com/market/20261125133940-17-788341/laporan-keuangan-selesai-danantara-cetak-laba-rp2596-triliun-di-2025",
+   "https://www.liputan6.com/bisnis/read/8342221/perdana-rilis-laporan-keuangan-danantara-cetak-laba-rp-2034-triliun",
+   "https://m.antaranews.com/amp/berita/5877163/danantara-cetak-laba-bersih-rp2596-triliun-pada-2025"
+  ]
+ },
+ {
+  "lines": "g2",
+  "claim": "CPNS 2026 registration opened Fri 27 Nov via SSCASN, 154.052 formasi.",
+  "numbers": "27 Nov · 154.052",
+  "sensitivity": "normal",
+  "status": "verified (E1170). Closing date not spoken (not in our sources).; not reopened in full fact-check (carried from earlier checks)",
+  "sources": [
+   "https://finance.detik.com/cpns/d-8768997/pendaftaran-cpns-2026-dimulai-27-november-154-052-formasi-dibuka",
+   "https://www.setneg.go.id/baca/index/seleksi_cpns_2026_dibuka_27_november_pemerintah_siapkan_154052_formasi",
+   "https://www.cnnindonesia.com/ekonomi/20261125140849-92-1431348/154-ribu-formasi-cpns-2026-dibuka-pendaftaran-mulai-27-november"
+  ]
+ },
+ {
+  "lines": "g3",
+  "claim": "UMSK 2027 deadline 30 Nov (Kemnaker, UU 27/2026).",
+  "numbers": "30 Nov",
+  "sensitivity": "normal",
+  "status": "verified (E0980, single source detikFinance; also in daily 22 Nov); not reopened in full fact-check (carried from earlier checks)",
+  "sources": [
+   "https://finance.detik.com/berita-ekonomi-bisnis/d-8755278/ump-2027-diumumkan-21-november"
+  ]
+ },
+ {
+  "lines": "g3",
+  "claim": "BNI Mobile Banking access closed gradually until 30 Nov 2026; full shutdown 21 Dec 2026.",
+  "numbers": "30 Nov · 21 Des",
+  "sensitivity": "normal",
+  "status": "verified (weekly #5 FIX 5); not reopened in full fact-check (carried from earlier checks)",
+  "sources": [
+   "https://www.bloombergtechnoz.com/detail-news/127404/bni-tutup-akses-layanan-bni-mobile-banking-akhir-november",
+   "https://www.cnnindonesia.com/ekonomi/20261111120209-78-1425801/bni-tutup-layanan-mobile-banking-bertahap-mulai-30-november-2026",
+   "https://keuangan.kontan.co.id/news/bni-bakal-tutup-layanan-bni-mobile-banking-30-november-dan-21-desember-2026"
+  ]
+ },
+ {
+  "lines": "g4",
+  "claim": "Tue 1 Dec 10.00 WIB: verification report to MPR leadership; health test results announced 1 Dec (CNN). Vote Fri 11 Dec (see a9).",
+  "numbers": "1 Des",
+  "sensitivity": "high",
+  "status": "verified (E1088, E1178). See a9 for the plenary date conflict.",
+  "sources": [
+   "https://www.cnnindonesia.com/nasional/20261126194234-32-1432040/hasil-tes-kesehatan-sugiono-dan-amran-diumumkan-1-desember",
+   "https://www.cnbcindonesia.com/news/20261123175444-4-787732/prabowo-ajukan-sugiono-amran-jadi-cawapres-ini-tahapan-pemilihannya",
+   "https://news.detik.com/berita/d-8766856/amran-dan-sugiono-cawapres-usulan-prabowo-ini-tahapan-selanjutnya"
+  ]
+ },
+ {
+  "lines": "i4, g5, g6",
+  "claim": "Mon 30 Nov 09:00 WIB: second KKEP summons for Listyo. Per Polri (Kadiv Humas Irjen Johnny Eddizon Isir), if absent again the hearing proceeds without him, the verdict is final and binding and he loses the right to appeal (Pasal 65 huruf c Perpol No. 4/2026; in-absentia rule Perpol 7/2022 Pasal 59(3)). Conditional.",
+  "numbers": "30 Nov · 09.00 WIB",
+  "sensitivity": "high",
+  "status": "verified (factcheck #15, FIX 6)",
+  "sources": [
+   "https://katadata.co.id/berita/nasional/6b07b835bfb7e/listyo-sigit-menolak-hadir-sidang-kode-etik-ditunda-ke-senin-30-november",
+   "https://www.detik.com/jatim/berita/d-8770676/ini-konsekuensi-jika-listyo-sigit-kembali-mangkir-sidang-etik-pekan-depan",
+   "https://www.peraturan.go.id/files/BN+597-2022.pdf"
+  ]
+ }
+]

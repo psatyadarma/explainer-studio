@@ -1,0 +1,928 @@
+{
+ "duration": 84.979,
+ "voice": "Pratama",
+ "lines": [
+  {
+   "id": "a1",
+   "text": "Senin, 23 November. Dua nama yang ditunggu sejak kursi wapres kosong akhirnya masuk ke MPR.",
+   "start": 0.262,
+   "end": 7.212,
+   "words": [
+    {
+     "w": "Senin,",
+     "start": 0.262,
+     "end": 0.482
+    },
+    {
+     "w": "23",
+     "start": 0.562,
+     "end": 1.282
+    },
+    {
+     "w": "November.",
+     "start": 1.344,
+     "end": 1.922
+    },
+    {
+     "w": "Dua",
+     "start": 2.02,
+     "end": 2.272
+    },
+    {
+     "w": "nama",
+     "start": 2.352,
+     "end": 2.672
+    },
+    {
+     "w": "yang",
+     "start": 2.704,
+     "end": 2.832
+    },
+    {
+     "w": "ditunggu",
+     "start": 2.872,
+     "end": 3.232
+    },
+    {
+     "w": "sejak",
+     "start": 3.259,
+     "end": 3.472
+    },
+    {
+     "w": "kursi",
+     "start": 3.536,
+     "end": 3.832
+    },
+    {
+     "w": "wapres",
+     "start": 3.852,
+     "end": 4.192
+    },
+    {
+     "w": "kosong",
+     "start": 4.252,
+     "end": 4.672
+    },
+    {
+     "w": "akhirnya",
+     "start": 4.805,
+     "end": 5.372
+    },
+    {
+     "w": "masuk",
+     "start": 5.432,
+     "end": 5.692
+    },
+    {
+     "w": "ke",
+     "start": 5.772,
+     "end": 6.172
+    },
+    {
+     "w": "MPR.",
+     "start": 6.252,
+     "end": 7.212
+    }
+   ]
+  },
+  {
+   "id": "a2",
+   "text": "Presiden Prabowo mengusulkan dua menterinya: Menteri Pertanian Andi Amran Sulaiman, dan Sugiono.",
+   "start": 7.65,
+   "end": 13.512,
+   "words": [
+    {
+     "w": "Presiden",
+     "start": 7.65,
+     "end": 8.112
+    },
+    {
+     "w": "Prabowo",
+     "start": 8.139,
+     "end": 8.592
+    },
+    {
+     "w": "mengusulkan",
+     "start": 8.64,
+     "end": 9.232
+    },
+    {
+     "w": "dua",
+     "start": 9.272,
+     "end": 9.392
+    },
+    {
+     "w": "menterinya:",
+     "start": 9.472,
+     "end": 10.032
+    },
+    {
+     "w": "Menteri",
+     "start": 10.18,
+     "end": 10.592
+    },
+    {
+     "w": "Pertanian",
+     "start": 10.616,
+     "end": 11.032
+    },
+    {
+     "w": "Andi",
+     "start": 11.112,
+     "end": 11.432
+    },
+    {
+     "w": "Amran",
+     "start": 11.485,
+     "end": 11.752
+    },
+    {
+     "w": "Sulaiman,",
+     "start": 11.812,
+     "end": 12.512
+    },
+    {
+     "w": "dan",
+     "start": 12.562,
+     "end": 12.712
+    },
+    {
+     "w": "Sugiono.",
+     "start": 12.792,
+     "end": 13.512
+    }
+   ]
+  },
+  {
+   "id": "a3",
+   "text": "Nama yang paling sering disebut pekan lalu, Wakil Ketua DPR Sufmi Dasco Ahmad, tidak ada di surat itu.",
+   "start": 13.714,
+   "end": 20.163999999999998,
+   "words": [
+    {
+     "w": "Nama",
+     "start": 13.714,
+     "end": 13.894
+    },
+    {
+     "w": "yang",
+     "start": 13.926,
+     "end": 14.054
+    },
+    {
+     "w": "paling",
+     "start": 14.094,
+     "end": 14.294
+    },
+    {
+     "w": "sering",
+     "start": 14.334,
+     "end": 14.534
+    },
+    {
+     "w": "disebut",
+     "start": 14.574,
+     "end": 14.854
+    },
+    {
+     "w": "pekan",
+     "start": 14.907,
+     "end": 15.174
+    },
+    {
+     "w": "lalu,",
+     "start": 15.214,
+     "end": 15.714
+    },
+    {
+     "w": "Wakil",
+     "start": 15.774,
+     "end": 16.034
+    },
+    {
+     "w": "Ketua",
+     "start": 16.094,
+     "end": 16.514
+    },
+    {
+     "w": "DPR",
+     "start": 16.621,
+     "end": 17.394
+    },
+    {
+     "w": "Sufmi",
+     "start": 17.554,
+     "end": 18.034
+    },
+    {
+     "w": "Dasco",
+     "start": 18.094,
+     "end": 18.434
+    },
+    {
+     "w": "Ahmad,",
+     "start": 18.501,
+     "end": 18.89
+    },
+    {
+     "w": "tidak",
+     "start": 18.89,
+     "end": 19.204
+    },
+    {
+     "w": "ada",
+     "start": 19.264,
+     "end": 19.444
+    },
+    {
+     "w": "di",
+     "start": 19.471,
+     "end": 19.524
+    },
+    {
+     "w": "surat",
+     "start": 19.584,
+     "end": 19.844
+    },
+    {
+     "w": "itu.",
+     "start": 19.904,
+     "end": 20.164
+    }
+   ]
+  },
+  {
+   "id": "a4",
+   "text": "Selasa, Prabowo dan Dasco bertemu empat mata di Istana. Kata Sekretariat Kabinet, Dasco menyampaikan aspirasi publik dan laporan yang diterima DPR.",
+   "start": 20.464,
+   "end": 29.24,
+   "words": [
+    {
+     "w": "Selasa,",
+     "start": 20.464,
+     "end": 20.814
+    },
+    {
+     "w": "Prabowo",
+     "start": 20.88,
+     "end": 21.434
+    },
+    {
+     "w": "dan",
+     "start": 21.474,
+     "end": 21.594
+    },
+    {
+     "w": "Dasco",
+     "start": 21.654,
+     "end": 21.994
+    },
+    {
+     "w": "bertemu",
+     "start": 22.026,
+     "end": 22.394
+    },
+    {
+     "w": "empat",
+     "start": 22.421,
+     "end": 22.554
+    },
+    {
+     "w": "mata",
+     "start": 22.618,
+     "end": 22.874
+    },
+    {
+     "w": "di",
+     "start": 22.927,
+     "end": 23.034
+    },
+    {
+     "w": "Istana.",
+     "start": 23.074,
+     "end": 23.514
+    },
+    {
+     "w": "Kata",
+     "start": 23.58,
+     "end": 23.874
+    },
+    {
+     "w": "Sekretariat",
+     "start": 23.914,
+     "end": 24.434
+    },
+    {
+     "w": "Kabinet,",
+     "start": 24.474,
+     "end": 25.074
+    },
+    {
+     "w": "Dasco",
+     "start": 25.154,
+     "end": 25.554
+    },
+    {
+     "w": "menyampaikan",
+     "start": 25.586,
+     "end": 26.114
+    },
+    {
+     "w": "aspirasi",
+     "start": 26.181,
+     "end": 26.674
+    },
+    {
+     "w": "publik",
+     "start": 26.743,
+     "end": 27.274
+    },
+    {
+     "w": "dan",
+     "start": 27.304,
+     "end": 27.394
+    },
+    {
+     "w": "laporan",
+     "start": 27.434,
+     "end": 27.874
+    },
+    {
+     "w": "yang",
+     "start": 27.89,
+     "end": 27.954
+    },
+    {
+     "w": "diterima",
+     "start": 27.994,
+     "end": 28.604
+    },
+    {
+     "w": "DPR.",
+     "start": 28.657,
+     "end": 29.24
+    }
+   ]
+  },
+  {
+   "id": "a5",
+   "text": "Reaksi partai beragam. Menurut detik, Demokrat mendukung, Golkar menyebut keduanya layak. PKB dan PDIP menahan diri, atau mempertanyakan pilihannya.",
+   "start": 29.348999999999997,
+   "end": 39.26,
+   "words": [
+    {
+     "w": "Reaksi",
+     "start": 29.349,
+     "end": 29.616
+    },
+    {
+     "w": "partai",
+     "start": 29.664,
+     "end": 29.936
+    },
+    {
+     "w": "beragam.",
+     "start": 29.976,
+     "end": 30.496
+    },
+    {
+     "w": "Menurut",
+     "start": 30.62,
+     "end": 31.056
+    },
+    {
+     "w": "detik,",
+     "start": 31.116,
+     "end": 31.546
+    },
+    {
+     "w": "Demokrat",
+     "start": 31.606,
+     "end": 32.026
+    },
+    {
+     "w": "mendukung,",
+     "start": 32.058,
+     "end": 32.586
+    },
+    {
+     "w": "Golkar",
+     "start": 32.68,
+     "end": 33.186
+    },
+    {
+     "w": "menyebut",
+     "start": 33.234,
+     "end": 33.586
+    },
+    {
+     "w": "keduanya",
+     "start": 33.626,
+     "end": 34.146
+    },
+    {
+     "w": "layak.",
+     "start": 34.206,
+     "end": 34.6
+    },
+    {
+     "w": "PKB",
+     "start": 34.6,
+     "end": 35.206
+    },
+    {
+     "w": "dan",
+     "start": 35.286,
+     "end": 35.526
+    },
+    {
+     "w": "PDIP",
+     "start": 35.633,
+     "end": 36.486
+    },
+    {
+     "w": "menahan",
+     "start": 36.566,
+     "end": 37.046
+    },
+    {
+     "w": "diri,",
+     "start": 37.086,
+     "end": 37.366
+    },
+    {
+     "w": "atau",
+     "start": 37.42,
+     "end": 37.826
+    },
+    {
+     "w": "mempertanyakan",
+     "start": 37.866,
+     "end": 38.546
+    },
+    {
+     "w": "pilihannya.",
+     "start": 38.586,
+     "end": 39.26
+    }
+   ]
+  },
+  {
+   "id": "a6",
+   "text": "Lalu verifikasi. Tim MPR tidak mendatangi sekolah kedua calon. Ijazah SMA mereka dicek lewat Kemendikdasmen, di Jakarta.",
+   "start": 39.524,
+   "end": 48.736,
+   "words": [
+    {
+     "w": "Lalu",
+     "start": 39.524,
+     "end": 39.596
+    },
+    {
+     "w": "verifikasi.",
+     "start": 39.656,
+     "end": 40.396
+    },
+    {
+     "w": "Tim",
+     "start": 40.44,
+     "end": 40.916
+    },
+    {
+     "w": "MPR",
+     "start": 40.969,
+     "end": 41.556
+    },
+    {
+     "w": "tidak",
+     "start": 41.623,
+     "end": 41.956
+    },
+    {
+     "w": "mendatangi",
+     "start": 41.988,
+     "end": 42.436
+    },
+    {
+     "w": "sekolah",
+     "start": 42.476,
+     "end": 42.756
+    },
+    {
+     "w": "kedua",
+     "start": 42.816,
+     "end": 43.076
+    },
+    {
+     "w": "calon.",
+     "start": 43.136,
+     "end": 43.556
+    },
+    {
+     "w": "Ijazah",
+     "start": 43.64,
+     "end": 44.176
+    },
+    {
+     "w": "SMA",
+     "start": 44.309,
+     "end": 44.896
+    },
+    {
+     "w": "mereka",
+     "start": 44.953,
+     "end": 45.296
+    },
+    {
+     "w": "dicek",
+     "start": 45.392,
+     "end": 45.856
+    },
+    {
+     "w": "lewat",
+     "start": 45.883,
+     "end": 46.096
+    },
+    {
+     "w": "Kemendikdasmen,",
+     "start": 46.136,
+     "end": 48.096
+    },
+    {
+     "w": "di",
+     "start": 48.123,
+     "end": 48.176
+    },
+    {
+     "w": "Jakarta.",
+     "start": 48.236,
+     "end": 48.736
+    }
+   ]
+  },
+  {
+   "id": "a7",
+   "text": "Kamis, keduanya menjalani tes kesehatan di RSPAD. Hasilnya sudah diserahkan ke MPR, tapi isinya dirahasiakan, karena rekam medis.",
+   "start": 48.946,
+   "end": 58.22,
+   "words": [
+    {
+     "w": "Kamis,",
+     "start": 48.946,
+     "end": 49.546
+    },
+    {
+     "w": "keduanya",
+     "start": 49.586,
+     "end": 50.026
+    },
+    {
+     "w": "menjalani",
+     "start": 50.058,
+     "end": 50.506
+    },
+    {
+     "w": "tes",
+     "start": 50.566,
+     "end": 50.746
+    },
+    {
+     "w": "kesehatan",
+     "start": 50.786,
+     "end": 51.306
+    },
+    {
+     "w": "di",
+     "start": 51.386,
+     "end": 51.706
+    },
+    {
+     "w": "RSPAD.",
+     "start": 51.759,
+     "end": 53.01
+    },
+    {
+     "w": "Hasilnya",
+     "start": 53.01,
+     "end": 53.496
+    },
+    {
+     "w": "sudah",
+     "start": 53.536,
+     "end": 53.736
+    },
+    {
+     "w": "diserahkan",
+     "start": 53.776,
+     "end": 54.296
+    },
+    {
+     "w": "ke",
+     "start": 54.376,
+     "end": 54.696
+    },
+    {
+     "w": "MPR,",
+     "start": 54.749,
+     "end": 55.566
+    },
+    {
+     "w": "tapi",
+     "start": 55.614,
+     "end": 55.806
+    },
+    {
+     "w": "isinya",
+     "start": 55.859,
+     "end": 56.126
+    },
+    {
+     "w": "dirahasiakan,",
+     "start": 56.166,
+     "end": 57.166
+    },
+    {
+     "w": "karena",
+     "start": 57.2,
+     "end": 57.406
+    },
+    {
+     "w": "rekam",
+     "start": 57.446,
+     "end": 57.646
+    },
+    {
+     "w": "medis.",
+     "start": 57.706,
+     "end": 58.22
+    }
+   ]
+  },
+  {
+   "id": "a8",
+   "text": "Tapi ingat, yang memilih nanti bukan kita lewat pemilu. Ada 732 anggota MPR: 580 dari DPR, 152 dari DPD. Suara terbanyak menang.",
+   "start": 58.417,
+   "end": 70.407,
+   "words": [
+    {
+     "w": "Tapi",
+     "start": 58.417,
+     "end": 58.497
+    },
+    {
+     "w": "ingat,",
+     "start": 58.537,
+     "end": 58.89
+    },
+    {
+     "w": "yang",
+     "start": 58.89,
+     "end": 59.157
+    },
+    {
+     "w": "memilih",
+     "start": 59.197,
+     "end": 59.477
+    },
+    {
+     "w": "nanti",
+     "start": 59.517,
+     "end": 59.877
+    },
+    {
+     "w": "bukan",
+     "start": 59.93,
+     "end": 60.197
+    },
+    {
+     "w": "kita",
+     "start": 60.261,
+     "end": 60.517
+    },
+    {
+     "w": "lewat",
+     "start": 60.57,
+     "end": 60.757
+    },
+    {
+     "w": "pemilu.",
+     "start": 60.817,
+     "end": 61.317
+    },
+    {
+     "w": "Ada",
+     "start": 61.32,
+     "end": 61.727
+    },
+    {
+     "w": "732",
+     "start": 61.78,
+     "end": 62.847
+    },
+    {
+     "w": "anggota",
+     "start": 62.907,
+     "end": 63.567
+    },
+    {
+     "w": "MPR:",
+     "start": 63.62,
+     "end": 64.637
+    },
+    {
+     "w": "580",
+     "start": 64.637,
+     "end": 65.557
+    },
+    {
+     "w": "dari",
+     "start": 65.597,
+     "end": 65.877
+    },
+    {
+     "w": "DPR,",
+     "start": 65.917,
+     "end": 66.904
+    },
+    {
+     "w": "152",
+     "start": 66.904,
+     "end": 67.727
+    },
+    {
+     "w": "dari",
+     "start": 67.807,
+     "end": 68.287
+    },
+    {
+     "w": "DPD.",
+     "start": 68.34,
+     "end": 68.98
+    },
+    {
+     "w": "Suara",
+     "start": 68.98,
+     "end": 69.367
+    },
+    {
+     "w": "terbanyak",
+     "start": 69.407,
+     "end": 69.927
+    },
+    {
+     "w": "menang.",
+     "start": 69.987,
+     "end": 70.407
+    }
+   ]
+  },
+  {
+   "id": "a9",
+   "text": "Paripurna pemilihannya kini dijadwalkan Jumat, 11 Desember, kata MPR. Digeser dari 9 Desember, setelah ada kritik bahwa tenggat 14 hari harus dihitung hari kerja. Alasannya, kata MPR: kehati-hatian.",
+   "start": 70.78,
+   "end": 84.437,
+   "words": [
+    {
+     "w": "Paripurna",
+     "start": 70.78,
+     "end": 71.317
+    },
+    {
+     "w": "pemilihannya",
+     "start": 71.357,
+     "end": 71.957
+    },
+    {
+     "w": "kini",
+     "start": 72.037,
+     "end": 72.277
+    },
+    {
+     "w": "dijadwalkan",
+     "start": 72.33,
+     "end": 72.917
+    },
+    {
+     "w": "Jumat,",
+     "start": 72.957,
+     "end": 73.477
+    },
+    {
+     "w": "11",
+     "start": 73.504,
+     "end": 73.717
+    },
+    {
+     "w": "Desember,",
+     "start": 73.777,
+     "end": 74.437
+    },
+    {
+     "w": "kata",
+     "start": 74.485,
+     "end": 74.757
+    },
+    {
+     "w": "MPR.",
+     "start": 74.81,
+     "end": 75.5
+    },
+    {
+     "w": "Digeser",
+     "start": 75.5,
+     "end": 76.167
+    },
+    {
+     "w": "dari",
+     "start": 76.215,
+     "end": 76.407
+    },
+    {
+     "w": "9",
+     "start": 76.447,
+     "end": 76.727
+    },
+    {
+     "w": "Desember,",
+     "start": 76.787,
+     "end": 77.517
+    },
+    {
+     "w": "setelah",
+     "start": 77.577,
+     "end": 77.917
+    },
+    {
+     "w": "ada",
+     "start": 77.957,
+     "end": 78.077
+    },
+    {
+     "w": "kritik",
+     "start": 78.125,
+     "end": 78.477
+    },
+    {
+     "w": "bahwa",
+     "start": 78.53,
+     "end": 78.797
+    },
+    {
+     "w": "tenggat",
+     "start": 78.845,
+     "end": 79.197
+    },
+    {
+     "w": "14",
+     "start": 79.224,
+     "end": 79.597
+    },
+    {
+     "w": "hari",
+     "start": 79.661,
+     "end": 79.917
+    },
+    {
+     "w": "harus",
+     "start": 79.984,
+     "end": 80.317
+    },
+    {
+     "w": "dihitung",
+     "start": 80.37,
+     "end": 80.797
+    },
+    {
+     "w": "hari",
+     "start": 80.829,
+     "end": 80.957
+    },
+    {
+     "w": "kerja.",
+     "start": 81.017,
+     "end": 81.46
+    },
+    {
+     "w": "Alasannya,",
+     "start": 81.46,
+     "end": 82.127
+    },
+    {
+     "w": "kata",
+     "start": 82.207,
+     "end": 82.607
+    },
+    {
+     "w": "MPR:",
+     "start": 82.66,
+     "end": 83.247
+    },
+    {
+     "w": "kehati-hatian.",
+     "start": 83.36,
+     "end": 84.437
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,788 @@
+{
+ "duration": 62.276,
+ "voice": "Pratama",
+ "lines": [
+  {
+   "id": "b1",
+   "text": "Minggu lalu, kata Kapolri, belum ada tersangka dugaan makar. Masih proses.",
+   "start": 0.185,
+   "end": 4.315,
+   "words": [
+    {
+     "w": "Minggu",
+     "start": 0.185,
+     "end": 0.297
+    },
+    {
+     "w": "lalu,",
+     "start": 0.337,
+     "end": 0.737
+    },
+    {
+     "w": "kata",
+     "start": 0.761,
+     "end": 0.857
+    },
+    {
+     "w": "Kapolri,",
+     "start": 0.897,
+     "end": 1.497
+    },
+    {
+     "w": "belum",
+     "start": 1.537,
+     "end": 1.737
+    },
+    {
+     "w": "ada",
+     "start": 1.797,
+     "end": 1.977
+    },
+    {
+     "w": "tersangka",
+     "start": 2.025,
+     "end": 2.457
+    },
+    {
+     "w": "dugaan",
+     "start": 2.497,
+     "end": 2.777
+    },
+    {
+     "w": "makar.",
+     "start": 2.837,
+     "end": 3.315
+    },
+    {
+     "w": "Masih",
+     "start": 3.337,
+     "end": 3.657
+    },
+    {
+     "w": "proses.",
+     "start": 3.705,
+     "end": 4.315
+    }
+   ]
+  },
+  {
+   "id": "b2",
+   "text": "Senin malam, itu berubah. Kabareskrim Komjen Asep Safrudin mengumumkan enam tersangka dugaan makar. Salah satunya, eks Kapolri Listyo Sigit Prabowo.",
+   "start": 4.525,
+   "end": 13.715,
+   "words": [
+    {
+     "w": "Senin",
+     "start": 4.525,
+     "end": 4.617
+    },
+    {
+     "w": "malam,",
+     "start": 4.677,
+     "end": 5.217
+    },
+    {
+     "w": "itu",
+     "start": 5.277,
+     "end": 5.457
+    },
+    {
+     "w": "berubah.",
+     "start": 5.497,
+     "end": 5.965
+    },
+    {
+     "w": "Kabareskrim",
+     "start": 5.965,
+     "end": 6.787
+    },
+    {
+     "w": "Komjen",
+     "start": 6.847,
+     "end": 7.187
+    },
+    {
+     "w": "Asep",
+     "start": 7.267,
+     "end": 7.507
+    },
+    {
+     "w": "Safrudin",
+     "start": 7.56,
+     "end": 8.147
+    },
+    {
+     "w": "mengumumkan",
+     "start": 8.179,
+     "end": 8.787
+    },
+    {
+     "w": "enam",
+     "start": 8.851,
+     "end": 9.107
+    },
+    {
+     "w": "tersangka",
+     "start": 9.155,
+     "end": 9.587
+    },
+    {
+     "w": "dugaan",
+     "start": 9.627,
+     "end": 9.907
+    },
+    {
+     "w": "makar.",
+     "start": 9.967,
+     "end": 10.435
+    },
+    {
+     "w": "Salah",
+     "start": 10.435,
+     "end": 10.687
+    },
+    {
+     "w": "satunya,",
+     "start": 10.747,
+     "end": 11.457
+    },
+    {
+     "w": "eks",
+     "start": 11.517,
+     "end": 11.697
+    },
+    {
+     "w": "Kapolri",
+     "start": 11.737,
+     "end": 12.257
+    },
+    {
+     "w": "Listyo",
+     "start": 12.337,
+     "end": 12.817
+    },
+    {
+     "w": "Sigit",
+     "start": 12.857,
+     "end": 13.057
+    },
+    {
+     "w": "Prabowo.",
+     "start": 13.11,
+     "end": 13.715
+    }
+   ]
+  },
+  {
+   "id": "b3",
+   "text": "Lima lainnya juga polisi: tiga jenderal bintang dua, satu bintang satu, dan satu komisaris besar.",
+   "start": 13.945,
+   "end": 19.107,
+   "words": [
+    {
+     "w": "Lima",
+     "start": 13.945,
+     "end": 13.977
+    },
+    {
+     "w": "lainnya",
+     "start": 14.025,
+     "end": 14.297
+    },
+    {
+     "w": "juga",
+     "start": 14.329,
+     "end": 14.457
+    },
+    {
+     "w": "polisi:",
+     "start": 14.497,
+     "end": 15.087
+    },
+    {
+     "w": "tiga",
+     "start": 15.127,
+     "end": 15.327
+    },
+    {
+     "w": "jenderal",
+     "start": 15.407,
+     "end": 15.727
+    },
+    {
+     "w": "bintang",
+     "start": 15.767,
+     "end": 15.967
+    },
+    {
+     "w": "dua,",
+     "start": 16.047,
+     "end": 16.587
+    },
+    {
+     "w": "satu",
+     "start": 16.635,
+     "end": 16.827
+    },
+    {
+     "w": "bintang",
+     "start": 16.867,
+     "end": 17.147
+    },
+    {
+     "w": "satu,",
+     "start": 17.211,
+     "end": 17.695
+    },
+    {
+     "w": "dan",
+     "start": 17.727,
+     "end": 17.907
+    },
+    {
+     "w": "satu",
+     "start": 17.971,
+     "end": 18.227
+    },
+    {
+     "w": "komisaris",
+     "start": 18.267,
+     "end": 18.707
+    },
+    {
+     "w": "besar.",
+     "start": 18.76,
+     "end": 19.107
+    }
+   ]
+  },
+  {
+   "id": "b4",
+   "text": "Ancaman terberat di pasal yang dipakai: hukuman mati. Motifnya, kata polisi, mempertahankan jabatan Kapolri.",
+   "start": 19.407,
+   "end": 25.325,
+   "words": [
+    {
+     "w": "Ancaman",
+     "start": 19.407,
+     "end": 19.587
+    },
+    {
+     "w": "terberat",
+     "start": 19.627,
+     "end": 19.987
+    },
+    {
+     "w": "di",
+     "start": 20.014,
+     "end": 20.067
+    },
+    {
+     "w": "pasal",
+     "start": 20.127,
+     "end": 20.387
+    },
+    {
+     "w": "yang",
+     "start": 20.403,
+     "end": 20.467
+    },
+    {
+     "w": "dipakai:",
+     "start": 20.507,
+     "end": 21.187
+    },
+    {
+     "w": "hukuman",
+     "start": 21.225,
+     "end": 21.597
+    },
+    {
+     "w": "mati.",
+     "start": 21.657,
+     "end": 22.085
+    },
+    {
+     "w": "Motifnya,",
+     "start": 22.085,
+     "end": 22.667
+    },
+    {
+     "w": "kata",
+     "start": 22.699,
+     "end": 22.827
+    },
+    {
+     "w": "polisi,",
+     "start": 22.887,
+     "end": 23.387
+    },
+    {
+     "w": "mempertahankan",
+     "start": 23.487,
+     "end": 24.297
+    },
+    {
+     "w": "jabatan",
+     "start": 24.337,
+     "end": 24.697
+    },
+    {
+     "w": "Kapolri.",
+     "start": 24.737,
+     "end": 25.325
+    }
+   ]
+  },
+  {
+   "id": "b5",
+   "text": "Selasa, salah satu tersangka, Brigjen Tedjo Kusumo, dipecat lewat sidang etik. Dia dilaporkan mengajukan banding.",
+   "start": 25.502,
+   "end": 31.796999999999997,
+   "words": [
+    {
+     "w": "Selasa,",
+     "start": 25.502,
+     "end": 25.917
+    },
+    {
+     "w": "salah",
+     "start": 25.984,
+     "end": 26.317
+    },
+    {
+     "w": "satu",
+     "start": 26.349,
+     "end": 26.477
+    },
+    {
+     "w": "tersangka,",
+     "start": 26.541,
+     "end": 27.117
+    },
+    {
+     "w": "Brigjen",
+     "start": 27.165,
+     "end": 27.517
+    },
+    {
+     "w": "Tedjo",
+     "start": 27.577,
+     "end": 27.837
+    },
+    {
+     "w": "Kusumo,",
+     "start": 27.877,
+     "end": 28.477
+    },
+    {
+     "w": "dipecat",
+     "start": 28.53,
+     "end": 28.957
+    },
+    {
+     "w": "lewat",
+     "start": 29.01,
+     "end": 29.197
+    },
+    {
+     "w": "sidang",
+     "start": 29.237,
+     "end": 29.437
+    },
+    {
+     "w": "etik.",
+     "start": 29.517,
+     "end": 29.885
+    },
+    {
+     "w": "Dia",
+     "start": 29.885,
+     "end": 30.117
+    },
+    {
+     "w": "dilaporkan",
+     "start": 30.157,
+     "end": 30.877
+    },
+    {
+     "w": "mengajukan",
+     "start": 30.901,
+     "end": 31.317
+    },
+    {
+     "w": "banding.",
+     "start": 31.365,
+     "end": 31.797
+    }
+   ]
+  },
+  {
+   "id": "b6",
+   "text": "Di kasus penyadapannya, Bareskrim juga menetapkan seorang warga sipil berinisial NE sebagai tersangka.",
+   "start": 32.164,
+   "end": 37.985,
+   "words": [
+    {
+     "w": "Di",
+     "start": 32.164,
+     "end": 32.191
+    },
+    {
+     "w": "kasus",
+     "start": 32.201,
+     "end": 32.311
+    },
+    {
+     "w": "penyadapannya,",
+     "start": 32.343,
+     "end": 33.191
+    },
+    {
+     "w": "Bareskrim",
+     "start": 33.271,
+     "end": 33.751
+    },
+    {
+     "w": "juga",
+     "start": 33.799,
+     "end": 33.991
+    },
+    {
+     "w": "menetapkan",
+     "start": 34.011,
+     "end": 34.551
+    },
+    {
+     "w": "seorang",
+     "start": 34.604,
+     "end": 34.951
+    },
+    {
+     "w": "warga",
+     "start": 34.991,
+     "end": 35.271
+    },
+    {
+     "w": "sipil",
+     "start": 35.351,
+     "end": 35.671
+    },
+    {
+     "w": "berinisial",
+     "start": 35.711,
+     "end": 36.391
+    },
+    {
+     "w": "NE",
+     "start": 36.471,
+     "end": 36.871
+    },
+    {
+     "w": "sebagai",
+     "start": 36.921,
+     "end": 37.271
+    },
+    {
+     "w": "tersangka.",
+     "start": 37.319,
+     "end": 37.985
+    }
+   ]
+  },
+  {
+   "id": "b7",
+   "text": "Lalu Kamis pagi, giliran sidang etik Listyo. Lima jenderal bintang tiga sudah duduk, dipimpin Komjen Hendro Pandowo. Kursi Listyo kosong.",
+   "start": 38.221,
+   "end": 46.271,
+   "words": [
+    {
+     "w": "Lalu",
+     "start": 38.221,
+     "end": 38.261
+    },
+    {
+     "w": "Kamis",
+     "start": 38.301,
+     "end": 38.501
+    },
+    {
+     "w": "pagi,",
+     "start": 38.581,
+     "end": 38.981
+    },
+    {
+     "w": "giliran",
+     "start": 39.141,
+     "end": 39.621
+    },
+    {
+     "w": "sidang",
+     "start": 39.661,
+     "end": 39.861
+    },
+    {
+     "w": "etik",
+     "start": 39.914,
+     "end": 40.181
+    },
+    {
+     "w": "Listyo.",
+     "start": 40.229,
+     "end": 40.661
+    },
+    {
+     "w": "Lima",
+     "start": 40.715,
+     "end": 41.061
+    },
+    {
+     "w": "jenderal",
+     "start": 41.141,
+     "end": 41.461
+    },
+    {
+     "w": "bintang",
+     "start": 41.501,
+     "end": 41.781
+    },
+    {
+     "w": "tiga",
+     "start": 41.821,
+     "end": 42.101
+    },
+    {
+     "w": "sudah",
+     "start": 42.141,
+     "end": 42.341
+    },
+    {
+     "w": "duduk,",
+     "start": 42.381,
+     "end": 42.771
+    },
+    {
+     "w": "dipimpin",
+     "start": 42.831,
+     "end": 43.331
+    },
+    {
+     "w": "Komjen",
+     "start": 43.411,
+     "end": 43.811
+    },
+    {
+     "w": "Hendro",
+     "start": 43.859,
+     "end": 44.131
+    },
+    {
+     "w": "Pandowo.",
+     "start": 44.195,
+     "end": 44.795
+    },
+    {
+     "w": "Kursi",
+     "start": 44.795,
+     "end": 45.221
+    },
+    {
+     "w": "Listyo",
+     "start": 45.253,
+     "end": 45.541
+    },
+    {
+     "w": "kosong.",
+     "start": 45.681,
+     "end": 46.271
+    }
+   ]
+  },
+  {
+   "id": "b8",
+   "text": "Kata Kadiv Humas Polri, Listyo menandatangani berita acara penolakan hadir. Alasannya tidak dijelaskan. Sidang ditunda ke Senin, 30 November.",
+   "start": 46.507,
+   "end": 54.925,
+   "words": [
+    {
+     "w": "Kata",
+     "start": 46.507,
+     "end": 46.571
+    },
+    {
+     "w": "Kadiv",
+     "start": 46.611,
+     "end": 46.811
+    },
+    {
+     "w": "Humas",
+     "start": 46.851,
+     "end": 47.051
+    },
+    {
+     "w": "Polri,",
+     "start": 47.131,
+     "end": 47.531
+    },
+    {
+     "w": "Listyo",
+     "start": 47.611,
+     "end": 48.091
+    },
+    {
+     "w": "menandatangani",
+     "start": 48.131,
+     "end": 48.811
+    },
+    {
+     "w": "berita",
+     "start": 48.851,
+     "end": 49.131
+    },
+    {
+     "w": "acara",
+     "start": 49.211,
+     "end": 49.531
+    },
+    {
+     "w": "penolakan",
+     "start": 49.571,
+     "end": 50.011
+    },
+    {
+     "w": "hadir.",
+     "start": 50.071,
+     "end": 50.495
+    },
+    {
+     "w": "Alasannya",
+     "start": 50.495,
+     "end": 51.141
+    },
+    {
+     "w": "tidak",
+     "start": 51.194,
+     "end": 51.461
+    },
+    {
+     "w": "dijelaskan.",
+     "start": 51.501,
+     "end": 52.181
+    },
+    {
+     "w": "Sidang",
+     "start": 52.265,
+     "end": 52.741
+    },
+    {
+     "w": "ditunda",
+     "start": 52.781,
+     "end": 53.141
+    },
+    {
+     "w": "ke",
+     "start": 53.168,
+     "end": 53.221
+    },
+    {
+     "w": "Senin,",
+     "start": 53.281,
+     "end": 53.741
+    },
+    {
+     "w": "30",
+     "start": 53.801,
+     "end": 54.501
+    },
+    {
+     "w": "November.",
+     "start": 54.528,
+     "end": 54.925
+    }
+   ]
+  },
+  {
+   "id": "b9",
+   "text": "Ingat: semua ini masih keterangan polisi. Tersangka belum tentu bersalah. Yang memutuskan pidananya nanti pengadilan.",
+   "start": 55.101,
+   "end": 61.721,
+   "words": [
+    {
+     "w": "Ingat:",
+     "start": 55.101,
+     "end": 55.491
+    },
+    {
+     "w": "semua",
+     "start": 55.544,
+     "end": 55.811
+    },
+    {
+     "w": "ini",
+     "start": 55.871,
+     "end": 56.051
+    },
+    {
+     "w": "masih",
+     "start": 56.118,
+     "end": 56.451
+    },
+    {
+     "w": "keterangan",
+     "start": 56.491,
+     "end": 56.851
+    },
+    {
+     "w": "polisi.",
+     "start": 56.911,
+     "end": 57.475
+    },
+    {
+     "w": "Tersangka",
+     "start": 57.475,
+     "end": 58.071
+    },
+    {
+     "w": "belum",
+     "start": 58.111,
+     "end": 58.311
+    },
+    {
+     "w": "tentu",
+     "start": 58.359,
+     "end": 58.631
+    },
+    {
+     "w": "bersalah.",
+     "start": 58.663,
+     "end": 59.205
+    },
+    {
+     "w": "Yang",
+     "start": 59.205,
+     "end": 59.401
+    },
+    {
+     "w": "memutuskan",
+     "start": 59.441,
+     "end": 59.881
+    },
+    {
+     "w": "pidananya",
+     "start": 59.941,
+     "end": 60.441
+    },
+    {
+     "w": "nanti",
+     "start": 60.481,
+     "end": 60.761
+    },
+    {
+     "w": "pengadilan.",
+     "start": 60.825,
+     "end": 61.721
+    }
+   ]
+  }
+ ]
+}

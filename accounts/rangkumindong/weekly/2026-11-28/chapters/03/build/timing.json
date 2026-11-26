@@ -1,0 +1,803 @@
+{
+ "duration": 73.93,
+ "voice": "Pratama",
+ "lines": [
+  {
+   "id": "c1",
+   "text": "Misalnya Pak Budi menabung Rp1 juta buat liburan ke luar negeri. Kamis siang, dia baca: rupiah cetak rekor terlemah.",
+   "start": 0.27,
+   "end": 7.711,
+   "words": [
+    {
+     "w": "Misalnya",
+     "start": 0.27,
+     "end": 0.62
+    },
+    {
+     "w": "Pak",
+     "start": 0.7,
+     "end": 0.94
+    },
+    {
+     "w": "Budi",
+     "start": 0.98,
+     "end": 1.26
+    },
+    {
+     "w": "menabung",
+     "start": 1.3,
+     "end": 1.74
+    },
+    {
+     "w": "Rp1",
+     "start": 1.788,
+     "end": 1.98
+    },
+    {
+     "w": "juta",
+     "start": 2.06,
+     "end": 2.22
+    },
+    {
+     "w": "buat",
+     "start": 2.78,
+     "end": 3.02
+    },
+    {
+     "w": "liburan",
+     "start": 3.08,
+     "end": 3.5
+    },
+    {
+     "w": "ke",
+     "start": 3.527,
+     "end": 3.58
+    },
+    {
+     "w": "luar",
+     "start": 3.62,
+     "end": 3.74
+    },
+    {
+     "w": "negeri.",
+     "start": 3.793,
+     "end": 4.281
+    },
+    {
+     "w": "Kamis",
+     "start": 4.281,
+     "end": 4.56
+    },
+    {
+     "w": "siang,",
+     "start": 4.613,
+     "end": 5.12
+    },
+    {
+     "w": "dia",
+     "start": 5.16,
+     "end": 5.28
+    },
+    {
+     "w": "baca:",
+     "start": 5.32,
+     "end": 5.821
+    },
+    {
+     "w": "rupiah",
+     "start": 5.821,
+     "end": 6.28
+    },
+    {
+     "w": "cetak",
+     "start": 6.36,
+     "end": 6.76
+    },
+    {
+     "w": "rekor",
+     "start": 6.813,
+     "end": 7.08
+    },
+    {
+     "w": "terlemah.",
+     "start": 7.14,
+     "end": 7.711
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "text": "Padahal minggu ini dibuka bagus. Senin, rupiah menguat 0,37 persen, ke Rp18.203 per dolar.",
+   "start": 7.839,
+   "end": 15.799,
+   "words": [
+    {
+     "w": "Padahal",
+     "start": 7.839,
+     "end": 8.119
+    },
+    {
+     "w": "minggu",
+     "start": 8.151,
+     "end": 8.359
+    },
+    {
+     "w": "ini",
+     "start": 8.419,
+     "end": 8.599
+    },
+    {
+     "w": "dibuka",
+     "start": 8.639,
+     "end": 8.919
+    },
+    {
+     "w": "bagus.",
+     "start": 8.999,
+     "end": 9.631
+    },
+    {
+     "w": "Senin,",
+     "start": 9.679,
+     "end": 10.379
+    },
+    {
+     "w": "rupiah",
+     "start": 10.459,
+     "end": 10.699
+    },
+    {
+     "w": "menguat",
+     "start": 10.747,
+     "end": 11.179
+    },
+    {
+     "w": "0,37",
+     "start": 11.259,
+     "end": 12.272
+    },
+    {
+     "w": "persen,",
+     "start": 12.294,
+     "end": 12.619
+    },
+    {
+     "w": "ke",
+     "start": 12.691,
+     "end": 12.919
+    },
+    {
+     "w": "Rp18.203",
+     "start": 12.959,
+     "end": 15.079
+    },
+    {
+     "w": "per",
+     "start": 15.139,
+     "end": 15.319
+    },
+    {
+     "w": "dolar.",
+     "start": 15.386,
+     "end": 15.799
+    }
+   ]
+  },
+  {
+   "id": "c3",
+   "text": "Lalu melemah lagi. Kamis siang, rupiah sempat lewat Rp18.400 per dolar, rekor terlemah baru. Sorenya ditutup di Rp18.364.",
+   "start": 16.093,
+   "end": 27.101,
+   "words": [
+    {
+     "w": "Lalu",
+     "start": 16.093,
+     "end": 16.333
+    },
+    {
+     "w": "melemah",
+     "start": 16.386,
+     "end": 16.733
+    },
+    {
+     "w": "lagi.",
+     "start": 16.797,
+     "end": 17.133
+    },
+    {
+     "w": "Kamis",
+     "start": 17.171,
+     "end": 17.463
+    },
+    {
+     "w": "siang,",
+     "start": 17.516,
+     "end": 17.863
+    },
+    {
+     "w": "rupiah",
+     "start": 17.981,
+     "end": 18.423
+    },
+    {
+     "w": "sempat",
+     "start": 18.487,
+     "end": 18.903
+    },
+    {
+     "w": "lewat",
+     "start": 18.956,
+     "end": 19.223
+    },
+    {
+     "w": "Rp18.400",
+     "start": 19.283,
+     "end": 20.823
+    },
+    {
+     "w": "per",
+     "start": 20.883,
+     "end": 21.063
+    },
+    {
+     "w": "dolar,",
+     "start": 21.13,
+     "end": 21.683
+    },
+    {
+     "w": "rekor",
+     "start": 21.763,
+     "end": 22.083
+    },
+    {
+     "w": "terlemah",
+     "start": 22.123,
+     "end": 22.483
+    },
+    {
+     "w": "baru.",
+     "start": 22.563,
+     "end": 22.931
+    },
+    {
+     "w": "Sorenya",
+     "start": 22.931,
+     "end": 23.583
+    },
+    {
+     "w": "ditutup",
+     "start": 23.703,
+     "end": 24.323
+    },
+    {
+     "w": "di",
+     "start": 24.376,
+     "end": 24.483
+    },
+    {
+     "w": "Rp18.364.",
+     "start": 24.523,
+     "end": 27.101
+    }
+   ]
+  },
+  {
+   "id": "c4",
+   "text": "Kata Bank Indonesia, penyebabnya: pasar memperkirakan bunga AS naik, dolar sedang kuat, kekhawatiran soal status pasar saham kita, dan kebutuhan dolar perusahaan di akhir bulan.",
+   "start": 27.316999999999997,
+   "end": 38.481,
+   "words": [
+    {
+     "w": "Kata",
+     "start": 27.317,
+     "end": 27.413
+    },
+    {
+     "w": "Bank",
+     "start": 27.445,
+     "end": 27.573
+    },
+    {
+     "w": "Indonesia,",
+     "start": 27.629,
+     "end": 28.213
+    },
+    {
+     "w": "penyebabnya:",
+     "start": 28.277,
+     "end": 29.093
+    },
+    {
+     "w": "pasar",
+     "start": 29.181,
+     "end": 29.673
+    },
+    {
+     "w": "memperkirakan",
+     "start": 29.713,
+     "end": 30.393
+    },
+    {
+     "w": "bunga",
+     "start": 30.433,
+     "end": 30.713
+    },
+    {
+     "w": "AS",
+     "start": 30.873,
+     "end": 31.273
+    },
+    {
+     "w": "naik,",
+     "start": 31.326,
+     "end": 31.743
+    },
+    {
+     "w": "dolar",
+     "start": 31.81,
+     "end": 32.143
+    },
+    {
+     "w": "sedang",
+     "start": 32.183,
+     "end": 32.383
+    },
+    {
+     "w": "kuat,",
+     "start": 32.463,
+     "end": 32.913
+    },
+    {
+     "w": "kekhawatiran",
+     "start": 32.94,
+     "end": 33.633
+    },
+    {
+     "w": "soal",
+     "start": 33.686,
+     "end": 33.953
+    },
+    {
+     "w": "status",
+     "start": 34.01,
+     "end": 34.353
+    },
+    {
+     "w": "pasar",
+     "start": 34.42,
+     "end": 34.753
+    },
+    {
+     "w": "saham",
+     "start": 34.806,
+     "end": 34.993
+    },
+    {
+     "w": "kita,",
+     "start": 35.073,
+     "end": 35.553
+    },
+    {
+     "w": "dan",
+     "start": 35.581,
+     "end": 35.943
+    },
+    {
+     "w": "kebutuhan",
+     "start": 35.996,
+     "end": 36.423
+    },
+    {
+     "w": "dolar",
+     "start": 36.49,
+     "end": 36.823
+    },
+    {
+     "w": "perusahaan",
+     "start": 36.863,
+     "end": 37.463
+    },
+    {
+     "w": "di",
+     "start": 37.543,
+     "end": 37.703
+    },
+    {
+     "w": "akhir",
+     "start": 37.756,
+     "end": 37.943
+    },
+    {
+     "w": "bulan.",
+     "start": 38.003,
+     "end": 38.481
+    }
+   ]
+  },
+  {
+   "id": "c5",
+   "text": "BI bilang terus masuk ke pasar untuk menahan rupiah.",
+   "start": 38.644,
+   "end": 41.521,
+   "words": [
+    {
+     "w": "BI",
+     "start": 38.644,
+     "end": 38.813
+    },
+    {
+     "w": "bilang",
+     "start": 38.853,
+     "end": 39.133
+    },
+    {
+     "w": "terus",
+     "start": 39.173,
+     "end": 39.373
+    },
+    {
+     "w": "masuk",
+     "start": 39.433,
+     "end": 39.693
+    },
+    {
+     "w": "ke",
+     "start": 39.72,
+     "end": 39.773
+    },
+    {
+     "w": "pasar",
+     "start": 39.853,
+     "end": 40.253
+    },
+    {
+     "w": "untuk",
+     "start": 40.32,
+     "end": 40.653
+    },
+    {
+     "w": "menahan",
+     "start": 40.693,
+     "end": 40.973
+    },
+    {
+     "w": "rupiah.",
+     "start": 41.053,
+     "end": 41.521
+    }
+   ]
+  },
+  {
+   "id": "c6",
+   "text": "Bursa saham naik-turun. IHSG naik 1,35 persen Senin, turun Rabu, lalu Kamis ditutup di 5.242.",
+   "start": 41.753,
+   "end": 50.811,
+   "words": [
+    {
+     "w": "Bursa",
+     "start": 41.753,
+     "end": 41.893
+    },
+    {
+     "w": "saham",
+     "start": 41.946,
+     "end": 42.133
+    },
+    {
+     "w": "naik-turun.",
+     "start": 42.186,
+     "end": 42.773
+    },
+    {
+     "w": "IHSG",
+     "start": 42.861,
+     "end": 43.623
+    },
+    {
+     "w": "naik",
+     "start": 43.703,
+     "end": 44.023
+    },
+    {
+     "w": "1,35",
+     "start": 44.087,
+     "end": 45.063
+    },
+    {
+     "w": "persen",
+     "start": 45.111,
+     "end": 45.383
+    },
+    {
+     "w": "Senin,",
+     "start": 45.443,
+     "end": 46.003
+    },
+    {
+     "w": "turun",
+     "start": 46.043,
+     "end": 46.323
+    },
+    {
+     "w": "Rabu,",
+     "start": 46.403,
+     "end": 46.913
+    },
+    {
+     "w": "lalu",
+     "start": 46.953,
+     "end": 47.153
+    },
+    {
+     "w": "Kamis",
+     "start": 47.153,
+     "end": 47.313
+    },
+    {
+     "w": "ditutup",
+     "start": 47.373,
+     "end": 47.793
+    },
+    {
+     "w": "di",
+     "start": 47.853,
+     "end": 47.973
+    },
+    {
+     "w": "5.242.",
+     "start": 48.113,
+     "end": 50.811
+    }
+   ]
+  },
+  {
+   "id": "c7",
+   "text": "Tapi ini yang menarik. Rabu di DPR, BI memakai asumsi rupiah tahun depan Rp17.800 sampai Rp18.200. Lebih kuat dari sekarang.",
+   "start": 50.964999999999996,
+   "end": 62.903,
+   "words": [
+    {
+     "w": "Tapi",
+     "start": 50.965,
+     "end": 51.133
+    },
+    {
+     "w": "ini",
+     "start": 51.193,
+     "end": 51.373
+    },
+    {
+     "w": "yang",
+     "start": 51.389,
+     "end": 51.453
+    },
+    {
+     "w": "menarik.",
+     "start": 51.493,
+     "end": 51.931
+    },
+    {
+     "w": "Rabu",
+     "start": 52.013,
+     "end": 52.583
+    },
+    {
+     "w": "di",
+     "start": 52.716,
+     "end": 53.063
+    },
+    {
+     "w": "DPR,",
+     "start": 53.17,
+     "end": 54.131
+    },
+    {
+     "w": "BI",
+     "start": 54.131,
+     "end": 54.643
+    },
+    {
+     "w": "memakai",
+     "start": 54.683,
+     "end": 55.043
+    },
+    {
+     "w": "asumsi",
+     "start": 55.123,
+     "end": 55.603
+    },
+    {
+     "w": "rupiah",
+     "start": 55.723,
+     "end": 56.243
+    },
+    {
+     "w": "tahun",
+     "start": 56.283,
+     "end": 56.483
+    },
+    {
+     "w": "depan",
+     "start": 56.536,
+     "end": 56.963
+    },
+    {
+     "w": "Rp17.800",
+     "start": 57.081,
+     "end": 58.923
+    },
+    {
+     "w": "sampai",
+     "start": 59.019,
+     "end": 59.483
+    },
+    {
+     "w": "Rp18.200.",
+     "start": 59.543,
+     "end": 61.084
+    },
+    {
+     "w": "Lebih",
+     "start": 61.361,
+     "end": 61.783
+    },
+    {
+     "w": "kuat",
+     "start": 61.863,
+     "end": 62.183
+    },
+    {
+     "w": "dari",
+     "start": 62.215,
+     "end": 62.343
+    },
+    {
+     "w": "sekarang.",
+     "start": 62.396,
+     "end": 62.903
+    }
+   ]
+  },
+  {
+   "id": "c8",
+   "text": "Lalu tabungan Pak Budi? Di kurs penutupan Kamis, Rp1 juta itu cuma sekitar 54 dolar.",
+   "start": 63.062999999999995,
+   "end": 69.573,
+   "words": [
+    {
+     "w": "Lalu",
+     "start": 63.063,
+     "end": 63.323
+    },
+    {
+     "w": "tabungan",
+     "start": 63.403,
+     "end": 63.803
+    },
+    {
+     "w": "Pak",
+     "start": 63.843,
+     "end": 63.963
+    },
+    {
+     "w": "Budi?",
+     "start": 64.003,
+     "end": 64.363
+    },
+    {
+     "w": "Di",
+     "start": 64.401,
+     "end": 64.583
+    },
+    {
+     "w": "kurs",
+     "start": 64.647,
+     "end": 64.903
+    },
+    {
+     "w": "penutupan",
+     "start": 64.923,
+     "end": 65.303
+    },
+    {
+     "w": "Kamis,",
+     "start": 65.383,
+     "end": 66.053
+    },
+    {
+     "w": "Rp1",
+     "start": 66.117,
+     "end": 66.373
+    },
+    {
+     "w": "juta",
+     "start": 66.453,
+     "end": 66.613
+    },
+    {
+     "w": "itu",
+     "start": 67.093,
+     "end": 67.333
+    },
+    {
+     "w": "cuma",
+     "start": 67.413,
+     "end": 67.733
+    },
+    {
+     "w": "sekitar",
+     "start": 67.786,
+     "end": 68.213
+    },
+    {
+     "w": "54",
+     "start": 68.293,
+     "end": 69.013
+    },
+    {
+     "w": "dolar.",
+     "start": 69.093,
+     "end": 69.573
+    }
+   ]
+  },
+  {
+   "id": "c9",
+   "text": "Ingat, ini bukan ajakan beli atau jual dolar maupun saham.",
+   "start": 69.768,
+   "end": 73.373,
+   "words": [
+    {
+     "w": "Ingat,",
+     "start": 69.768,
+     "end": 70.023
+    },
+    {
+     "w": "ini",
+     "start": 70.031,
+     "end": 70.333
+    },
+    {
+     "w": "bukan",
+     "start": 70.386,
+     "end": 70.573
+    },
+    {
+     "w": "ajakan",
+     "start": 70.653,
+     "end": 71.053
+    },
+    {
+     "w": "beli",
+     "start": 71.113,
+     "end": 71.373
+    },
+    {
+     "w": "atau",
+     "start": 71.437,
+     "end": 71.693
+    },
+    {
+     "w": "jual",
+     "start": 71.773,
+     "end": 72.013
+    },
+    {
+     "w": "dolar",
+     "start": 72.093,
+     "end": 72.493
+    },
+    {
+     "w": "maupun",
+     "start": 72.546,
+     "end": 72.893
+    },
+    {
+     "w": "saham.",
+     "start": 72.946,
+     "end": 73.373
+    }
+   ]
+  }
+ ]
+}

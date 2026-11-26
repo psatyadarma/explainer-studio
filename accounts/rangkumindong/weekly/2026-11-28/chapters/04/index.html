@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Rangkumin Seminggu — chapter</title>
+<link rel="stylesheet" href="../../../../../../styles/sticker/sticker.css">
+<link rel="stylesheet" href="../../../../../../styles/sticker/weekly/weekly.css">
+<script src="../../../../../../styles/sticker/sticker.js"></script>
+<script src="build/timing.js"></script>
+<script src="../../build/week.js"></script>
+<script src="../../../../../../styles/sticker/weekly/weekly.js"></script>
+<style>
+  .it { position:absolute; transform:translate(-50%,-50%); opacity:0; width:max-content; max-width:1600px; box-sizing:border-box; }
+  .nw { white-space:nowrap; }
+  .big { font-weight:900; font-size:116px; letter-spacing:-4px; line-height:1.02; text-align:center; white-space:nowrap; }
+  .big .acc, .hd .acc, .card .acc { color:var(--accent); }
+  .hd { font-weight:900; font-size:66px; letter-spacing:-1.5px; text-align:center; white-space:nowrap; }
+  .stat { font-weight:900; font-size:230px; letter-spacing:-9px; color:var(--accent); line-height:1; white-space:nowrap; }
+  .stat.ink { color:var(--ink); } .stat.slate { color:var(--slate); }
+  .lab { font-weight:800; font-size:44px; color:var(--slate); text-align:center; white-space:nowrap; }
+  .card { background:#fff; border-radius:28px; padding:28px 42px; text-align:center; font-weight:900; font-size:54px; line-height:1.15;
+          box-shadow:0 0 0 9px #fff,0 18px 26px rgba(27,36,48,.22); }
+  .card small { display:block; font-weight:700; font-size:32px; color:var(--slate); margin-top:10px; line-height:1.25; }
+  .card .q { font-weight:800; font-size:30px; color:var(--slate); margin-bottom:10px; text-align:left; }
+  .card.quote { text-align:left; border-left:16px solid var(--accent); }
+  .card.ink { background:var(--ink); color:#fff; box-shadow:0 0 0 9px #fff,0 18px 26px rgba(27,36,48,.22); }
+  .card.ink small { color:#c9d3dc; }
+  .card.dim { color:var(--slate); }
+  .chip { background:var(--ink); color:#fff; font-weight:800; font-size:48px; padding:16px 30px; border-radius:18px; white-space:nowrap;
+          box-shadow:0 0 0 8px #fff,0 14px 22px rgba(27,36,48,.2); }
+  .chip.acc { background:var(--accent); } .chip.light { background:#fff; color:var(--ink); } .chip.hi { background:var(--hi); color:var(--ink); }
+  .stamp { background:var(--accent); color:#fff; font-weight:900; font-size:84px; letter-spacing:-2px; padding:12px 34px; border-radius:18px;
+           white-space:nowrap; box-shadow:0 0 0 9px #fff,0 18px 26px rgba(27,36,48,.22); }
+  .stamp.ink { background:var(--ink); }
+  .arrow { font-weight:900; font-size:120px; color:var(--accent); line-height:1; }
+  .cal { width:300px; background:#fff; border-radius:26px; overflow:hidden; text-align:center; box-shadow:0 0 0 9px #fff,0 18px 26px rgba(27,36,48,.22); }
+  .cal .d { background:var(--accent); color:#fff; font-weight:900; font-size:40px; padding:12px 0; letter-spacing:2px; }
+  .cal.ink .d { background:var(--ink); }
+  .cal .n { font-weight:900; font-size:150px; letter-spacing:-6px; line-height:1.05; padding-top:6px; }
+  .cal .m { font-weight:800; font-size:40px; color:var(--slate); padding-bottom:18px; letter-spacing:2px; }
+  .cal.sm { width:220px; } .cal.sm .n { font-size:104px; } .cal.sm .d, .cal.sm .m { font-size:32px; }
+  .strike { height:16px; background:var(--accent); border-radius:8px; }
+  .dots { display:grid; gap:18px; }
+  .dots i { display:block; border-radius:50%; background:rgba(62,85,104,.25); }
+  .dots i.on { background:var(--accent); }
+  .dots.ov i { background:transparent; } .dots.ov i.on { background:var(--accent); }
+  .person { display:flex; gap:22px; }
+  .person i { display:block; width:70px; height:150px; position:relative; }
+  .person i::before { content:''; position:absolute; left:15px; top:0; width:40px; height:40px; border-radius:50%; background:currentColor; }
+  .person i::after { content:''; position:absolute; left:0; top:48px; width:70px; height:100px; border-radius:35px 35px 12px 12px; background:currentColor; }
+  .phone { width:440px; height:620px; background:var(--ink); border-radius:56px; padding:26px; box-sizing:border-box; box-shadow:0 0 0 9px #fff,0 18px 26px rgba(27,36,48,.22); }
+  .phone .scr { background:#E9E4DA; border-radius:34px; height:100%; padding:30px 22px; box-sizing:border-box; display:flex; flex-direction:column; gap:18px; }
+  .phone .bub { background:#fff; border-radius:22px 22px 22px 6px; padding:20px 22px; font-weight:800; font-size:36px; line-height:1.2; }
+  .phone .who { font-weight:800; font-size:26px; color:var(--slate); }
+  .budi { width:340px; height:453px; }
+  .budi > div { position:absolute; inset:0; }
+  .lower { bottom:auto; top:132px; }
+
+  .dots i.dpd { background:var(--slate); }
+  .seat { width:200px; height:210px; border-radius:26px; background:var(--ink); color:var(--hi); font-weight:900; font-size:40px;
+          display:flex; flex-direction:column; align-items:center; justify-content:center; gap:8px; box-shadow:0 0 0 9px #fff,0 18px 26px rgba(27,36,48,.22); }
+  .seat small { color:#fff; font-size:26px; font-weight:800; }
+  .seat.empty { background:transparent; border:8px dashed var(--accent); box-shadow:none; color:var(--accent); }
+  .seat.empty small { color:var(--accent); }
+  .gbar { position:absolute; width:170px; border-radius:18px 18px 0 0; background:var(--slate); opacity:0; }
+  .gbar.acc { background:var(--accent); } .gbar.green { background:#2E8B57; } .gbar.down { border-radius:0 0 18px 18px; background:var(--accent); }
+  .icon { width:150px; height:150px; display:block; margin:0 auto 12px; }
+  .note { position:absolute; left:440px; top:50px; z-index:6; background:#fff; color:var(--slate); border:3px solid var(--slate); border-radius:12px;
+          padding:5px 14px; font-weight:800; font-size:24px; opacity:0; }
+  .check { color:#2E8B57; }
+</style>
+
+</head>
+<body>
+<!-- ch04. Tarif AS. Numbers: 14, 18%, 35, 25, Januari 2027 (spoken). -->
+<div id="stage">
+  <div id="world">
+    <div class="it chip acc" id="e1" style="left:960px;top:270px;">Rabu, waktu Amerika</div>
+    <div class="it card ink" id="e2" style="left:960px;top:470px;width:760px"><span style="font-size:110px">USTR</span><small>Kantor Perwakilan Dagang AS</small></div>
+    <div class="it chip light" id="e3" style="left:960px;top:680px;">merilis hasil satu penyelidikan</div>
+    <div class="it hd" id="e4" style="left:2880px;top:250px;">Soal <span class="acc">kelebihan kapasitas produksi</span></div>
+    <div class="it stat ink" id="e5" style="left:2360px;top:500px;font-size:220px">14</div>
+    <div class="it lab" id="e6" style="left:2360px;top:650px;font-size:38px">negara & wilayah ekonomi</div>
+    <div class="it x" id="e7" style="left:3180px;top:500px;"><div class="dots" style="grid-template-columns:repeat(7,90px);gap:26px"><i class="" style="width:90px;height:90px"></i><i class="" style="width:90px;height:90px"></i><i class="" style="width:90px;height:90px"></i><i class="" style="width:90px;height:90px"></i><i class="" style="width:90px;height:90px"></i><i class="" style="width:90px;height:90px"></i><i class="" style="width:90px;height:90px"></i><i class="" style="width:90px;height:90px"></i><i class="" style="width:90px;height:90px"></i><i class="" style="width:90px;height:90px"></i><i class="" style="width:90px;height:90px"></i><i class="" style="width:90px;height:90px"></i><i class="" style="width:90px;height:90px"></i><i class="" style="width:90px;height:90px"></i></div></div>
+    <div class="it x" id="e8" style="left:3180px;top:500px;"><div class="dots ov" style="grid-template-columns:repeat(7,90px);gap:26px"><i class="" style="width:90px;height:90px"></i><i class="" style="width:90px;height:90px"></i><i class="" style="width:90px;height:90px"></i><i class="" style="width:90px;height:90px"></i><i class="" style="width:90px;height:90px"></i><i class="" style="width:90px;height:90px"></i><i class="" style="width:90px;height:90px"></i><i class="" style="width:90px;height:90px"></i><i class="" style="width:90px;height:90px"></i><i class="on" style="width:90px;height:90px"></i><i class="" style="width:90px;height:90px"></i><i class="" style="width:90px;height:90px"></i><i class="" style="width:90px;height:90px"></i><i class="" style="width:90px;height:90px"></i></div></div>
+    <div class="it chip acc" id="e9" style="left:3180px;top:680px;">Indonesia salah satunya</div>
+    <div class="it hd" id="e10" style="left:4800px;top:260px;">Usulannya: tarif tambahan</div>
+    <div class="it stamp" id="e11" style="left:4800px;top:450px;font-size:150px">sampai 18%</div>
+    <div class="it card" id="e12" style="left:4800px;top:660px;width:900px">untuk barang dari Indonesia</div>
+    <div class="it lab" id="e13" style="left:6720px;top:200px;">Batas atas usulan tarif · menurut USTR</div>
+    <div class="it gbar acc" id="e14" style="left:6200px;top:700px;height:195px;position:absolute"></div>
+    <div class="it lab" id="e15" style="left:6200px;top:464.57142857142856px;color:var(--ink);font-size:48px;font-weight:900">≤18%</div>
+    <div class="it lab" id="e16" style="left:6200px;top:744px;font-size:36px">Indonesia</div>
+    <div class="it gbar " id="e17" style="left:6460px;top:700px;height:195px;position:absolute"></div>
+    <div class="it lab" id="e18" style="left:6460px;top:464.57142857142856px;color:var(--ink);font-size:48px;font-weight:900">≤18%</div>
+    <div class="it lab" id="e19" style="left:6460px;top:744px;font-size:36px">Malaysia</div>
+    <div class="it gbar " id="e20" style="left:6720px;top:700px;height:195px;position:absolute"></div>
+    <div class="it lab" id="e21" style="left:6720px;top:464.57142857142856px;color:var(--ink);font-size:48px;font-weight:900">≤18%</div>
+    <div class="it lab" id="e22" style="left:6720px;top:744px;font-size:36px">Kamboja</div>
+    <div class="it gbar " id="e23" style="left:6980px;top:700px;height:380px;position:absolute"></div>
+    <div class="it lab" id="e24" style="left:6980px;top:280.0px;color:var(--ink);font-size:48px;font-weight:900">≤35%</div>
+    <div class="it lab" id="e25" style="left:6980px;top:744px;font-size:36px">Vietnam</div>
+    <div class="it gbar " id="e26" style="left:7240px;top:700px;height:271px;position:absolute"></div>
+    <div class="it lab" id="e27" style="left:7240px;top:388.57142857142856px;color:var(--ink);font-size:48px;font-weight:900">≤25%</div>
+    <div class="it lab" id="e28" style="left:7240px;top:744px;font-size:36px">India</div>
+    <div class="it card" id="e29" style="left:6300px;top:330px;width:640px;font-size:38px">Vietnam & India: <span class="acc">bisa turun</span><small>kalau capai kesepakatan dagang</small></div>
+    <div class="it hd" id="e30" style="left:8640px;top:250px;">Sektor yang disebut untuk Indonesia</div>
+    <div class="it card" id="e31" style="left:8080px;top:540px;width:480px;font-size:46px"><svg class="icon" viewBox="0 0 100 100"><path d="M34 14 L14 26 L22 44 L30 40 L30 88 L70 88 L70 40 L78 44 L86 26 L66 14 Q50 26 34 14Z" fill="#FF5A36"/></svg>Tekstil &amp; pakaian</div>
+    <div class="it card" id="e32" style="left:8640px;top:540px;width:480px;font-size:46px"><svg class="icon" viewBox="0 0 100 100"><path d="M18 70 L36 36 L60 30 L82 52 L72 80 L38 86Z" fill="#3E5568"/><path d="M36 36 L50 58 L82 52 M50 58 L38 86" stroke="#9fb0bf" stroke-width="4" fill="none"/></svg>Tambang &amp; logam</div>
+    <div class="it card" id="e33" style="left:9200px;top:540px;width:480px;font-size:46px"><svg class="icon" viewBox="0 0 100 100"><circle cx="78" cy="20" r="12" fill="#FFD23F"/><path d="M14 74 L30 38 L86 38 L70 74Z" fill="#1B2430"/><path d="M44 38 L36 74 M58 38 L52 74 M72 38 L68 74 M22 56 L78 56" stroke="#9fb0bf" stroke-width="3"/><path d="M48 74 L48 90 M38 90 L58 90" stroke="#1B2430" stroke-width="5"/></svg>Energi terbarukan</div>
+    <div class="it hd" id="e34" style="left:10560px;top:260px;">Tarif dibayar <span class="acc">importir di Amerika</span></div>
+    <div class="it card" id="e35" style="left:9960px;top:520px;width:440px">Tarif naik</div>
+    <div class="it arrow" id="e36" style="left:10260px;top:520px;">→</div>
+    <div class="it card" id="e37" style="left:10560px;top:520px;width:440px">Barang kita<small>bisa lebih mahal di sana</small></div>
+    <div class="it arrow" id="e38" style="left:10860px;top:520px;">→</div>
+    <div class="it card ink" id="e39" style="left:11160px;top:520px;width:440px">Pesanan ke pabrik di sini<small>bisa berkurang</small></div>
+    <div class="it card quote" id="e40" style="left:12480px;top:420px;width:1300px"><div class="q">Kata Menteri Perindustrian</div>Indonesia akan mencari pasar ekspor baru yang terbuka.</div>
+    <div class="it chip light" id="e41" style="left:12480px;top:640px;font-size:40px">Pemerintah juga kejar pengecualian · menurut Suara.com</div>
+    <div class="it stamp" id="e42" style="left:14400px;top:320px;">MASIH USULAN</div>
+    <div class="it chip" id="e43" style="left:14400px;top:460px;">belum berlaku</div>
+    <div class="it card" id="e44" style="left:14400px;top:650px;width:900px">Dengar pendapat publik<br><span class="acc" style="font-size:90px">Januari 2027</span></div>
+    <div class="it hd" id="e45" style="left:16320px;top:250px;">Yang ditunggu: angka <span class="acc">18%</span> itu…</div>
+    <div class="it chip light" id="e46" style="left:15840px;top:400px;">turun?</div>
+    <div class="it chip light" id="e47" style="left:16320px;top:400px;">tetap?</div>
+    <div class="it chip light" id="e48" style="left:16800px;top:400px;">ada pengecualian?</div>
+    <div class="it card ink" id="e49" style="left:16320px;top:620px;width:1100px">Buat pekerja pabrik tekstil &amp; garmen<small>bukan sekadar angka</small></div>
+  </div>
+  <div id="card"><div class="kicker" id="cKick"></div><div class="title" id="cTitle"></div><div class="sub" id="cSub"></div></div>
+  
+  <div id="brand"><div class="dot"></div><b>Rangkumin Dong</b></div>
+  <div id="subs"></div>
+  <div id="progress"></div>
+</div>
+<script>
+window.CHAPTER = Number(location.pathname.split('/').slice(-2)[0]);
+const $ = (id) => document.getElementById(id);
+const T = window.TIMING; window.DURATION = T.duration;
+const ch = (window.WEEK?.chapters || []).find((c) => c.n === window.CHAPTER) || {};
+$('cKick').textContent = ch.kicker || ''; $('cTitle').textContent = ch.title || ''; $('cSub').textContent = window.WEEK?.dates || '';
+const T0 = 2.15;  // nothing pops under the 2 s title card
+const IT = [{id:"e1",tin:(K.at("d1")),tout:Infinity,rot:0},{id:"e2",tin:(K.word("d1","kantor",0)),tout:Infinity,rot:-1.5},{id:"e3",tin:(K.word("d1","merilis",0)),tout:Infinity,rot:1},{id:"e4",tin:(K.word("d2","kelebihan",0)),tout:Infinity,rot:0},{id:"e5",tin:(K.word("d2","14",0)),tout:Infinity,rot:0},{id:"e6",tin:(K.word("d2","negara",0)),tout:Infinity,rot:0},{id:"e7",tin:(K.word("d2","14",0)),tout:Infinity,rot:0,fade:1},{id:"e8",tin:(K.word("d2","indonesia",0)),tout:Infinity,rot:0,fade:1},{id:"e9",tin:(K.word("d2","indonesia",0)),tout:Infinity,rot:-1},{id:"e10",tin:(K.at("d3")),tout:Infinity,rot:0},{id:"e11",tin:(K.word("d3","18",0)),tout:Infinity,rot:-3},{id:"e12",tin:(K.word("d3","barang",0)),tout:Infinity,rot:1},{id:"e13",tin:(K.word("d4","menurut",0)),tout:Infinity,rot:0},{id:"e14",tin:(K.at("d4")),tout:Infinity,rot:0,grow:"up"},{id:"e15",tin:(K.at("d4")+0.3),tout:Infinity,rot:0},{id:"e16",tin:(K.at("d4")),tout:Infinity,rot:0},{id:"e17",tin:(K.word("d4","malaysia",0)),tout:Infinity,rot:0,grow:"up"},{id:"e18",tin:(K.word("d4","malaysia",0)+0.3),tout:Infinity,rot:0},{id:"e19",tin:(K.word("d4","malaysia",0)),tout:Infinity,rot:0},{id:"e20",tin:(K.word("d4","kamboja",0)),tout:Infinity,rot:0,grow:"up"},{id:"e21",tin:(K.word("d4","kamboja",0)+0.3),tout:Infinity,rot:0},{id:"e22",tin:(K.word("d4","kamboja",0)),tout:Infinity,rot:0},{id:"e23",tin:(K.word("d4","vietnam",0)),tout:Infinity,rot:0,grow:"up"},{id:"e24",tin:(K.word("d4","vietnam",0)+0.3),tout:Infinity,rot:0},{id:"e25",tin:(K.word("d4","vietnam",0)),tout:Infinity,rot:0},{id:"e26",tin:(K.word("d4","india",0)),tout:Infinity,rot:0,grow:"up"},{id:"e27",tin:(K.word("d4","india",0)+0.3),tout:Infinity,rot:0},{id:"e28",tin:(K.word("d4","india",0)),tout:Infinity,rot:0},{id:"e29",tin:(K.word("d4","bisa",0)),tout:Infinity,rot:-1},{id:"e30",tin:(K.at("d5")),tout:Infinity,rot:0},{id:"e31",tin:(K.word("d5","tekstil",0)),tout:Infinity,rot:-1.5},{id:"e32",tin:(K.word("d5","tambang",0)),tout:Infinity,rot:1},{id:"e33",tin:(K.word("d5","energi",0)),tout:Infinity,rot:-1},{id:"e34",tin:(K.at("d5b")),tout:Infinity,rot:0},{id:"e35",tin:(K.word("d5b","kalau",0)),tout:Infinity,rot:-1.5},{id:"e36",tin:(K.word("d5b","barang",0)),tout:Infinity,rot:0},{id:"e37",tin:(K.word("d5b","barang",0)),tout:Infinity,rot:1},{id:"e38",tin:(K.word("d5b","pesanan",0)),tout:Infinity,rot:0},{id:"e39",tin:(K.word("d5b","pesanan",0)),tout:Infinity,rot:-1},{id:"e40",tin:(K.at("d6")),tout:Infinity,rot:0},{id:"e41",tin:(K.word("d6","menurut",0)),tout:Infinity,rot:-1},{id:"e42",tin:(K.at("d7")),tout:Infinity,rot:-3},{id:"e43",tin:(K.word("d7","belum",0)),tout:Infinity,rot:2},{id:"e44",tin:(K.word("d7","dengar",0)),tout:Infinity,rot:-1},{id:"e45",tin:(K.at("d8")),tout:Infinity,rot:0},{id:"e46",tin:(K.word("d8","turun",0)),tout:Infinity,rot:-2},{id:"e47",tin:(K.word("d8","tetap",0)),tout:Infinity,rot:1.5},{id:"e48",tin:(K.word("d8","pengecualian",0)),tout:Infinity,rot:-1},{id:"e49",tin:(K.word("d8","buat",0)),tout:Infinity,rot:1}].map((o) => ({...o, tin: Math.max(T0, o.tin), el: $(o.id)}));
+const LOW = [].map(([id, a, b]) => [$(id), Math.max(T0 + 0.6, a), b]);
+const CAM = [{t:0,x:960,y:540,z:1},{t:(K.at("d2"))-0.35,x:2880,y:540,z:1},{t:(K.at("d3"))-0.35,x:4800,y:540,z:1},{t:(K.at("d4"))-0.35,x:6720,y:540,z:1},{t:(K.at("d5"))-0.35,x:8640,y:540,z:1},{t:(K.at("d5b"))-0.35,x:10560,y:540,z:1},{t:(K.at("d6"))-0.35,x:12480,y:540,z:1},{t:(K.at("d7"))-0.35,x:14400,y:540,z:1},{t:(K.at("d8"))-0.35,x:16320,y:540,z:1}];
+IT.forEach((o) => { if (o.budi) o.el.querySelectorAll('[data-ex]').forEach((d) => { d.innerHTML = K.budi(d.dataset.ex); d.classList.add('sticker-svg'); }); });
+const fmt = (v, dec) => v.toLocaleString('id-ID', { minimumFractionDigits: dec, maximumFractionDigits: dec });
+function seek(t) {
+  K.cam16($('world'), CAM, t);
+  K.titleCard($('card'), t, 2.0);
+  IT.forEach((o) => {
+    if (o.grow) { const s = K.spring(t - o.tin, 180, 20); o.el.style.opacity = t >= o.tin ? 1 : 0;
+      o.el.style.transformOrigin = o.grow === 'down' ? '50% 0' : '50% 100%';
+      o.el.style.transform = `translate(-50%,${o.grow === 'down' ? '0' : '-100%'}) scaleY(${Math.max(0, s)})`; }
+    else if (o.fade) { o.el.style.opacity = K.clamp((t - o.tin) / 0.3) * (1 - K.clamp((t - o.tout) / 0.25)); o.el.style.transform = 'translate(-50%,-50%)'; }
+    else K.pop(o.el, t, o.tin, o.tout, o.rot);
+    if (o.draw) o.el.querySelectorAll('[data-draw]').forEach((p) => { p.style.strokeDashoffset = 1 - K.easeInOut(K.prog(t, o.tin, o.draw)); });
+    if (o.cnt) { const [a, b, dec, t1] = o.cnt; $(o.id + 'n').textContent = fmt(a + (b - a) * K.easeOut(K.prog(t, Math.max(T0, t1), 1.0)), dec); }
+    if (o.budi) { let cur = o.budi[0][0]; o.budi.forEach(([ex, tt]) => { if (t >= tt) cur = ex; });
+      o.el.querySelectorAll('[data-ex]').forEach((d) => { d.style.display = d.dataset.ex === cur ? 'block' : 'none'; });
+      o.el.style.transform += ` translateY(${Math.sin(t * 2.2) * 6}px)`; }
+  });
+  LOW.forEach(([el, a, b]) => K.lower(el, t, a, b));
+  K.subtitles($('subs'), t);
+  K.weekly(t);
+}
+window.seek = seek;
+</script>
+</body>
+</html>

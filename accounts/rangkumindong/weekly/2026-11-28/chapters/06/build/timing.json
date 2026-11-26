@@ -1,0 +1,765 @@
+{
+ "duration": 68.033,
+ "voice": "Pratama",
+ "lines": [
+  {
+   "id": "g0",
+   "text": "Cek janji minggu lalu. Tenggat dua nama wapres, Rabu 25 November? Namanya masuk lebih cepat, Senin.",
+   "start": 0.21400000000000002,
+   "end": 5.947,
+   "words": [
+    {
+     "w": "Cek",
+     "start": 0.214,
+     "end": 0.307
+    },
+    {
+     "w": "janji",
+     "start": 0.387,
+     "end": 0.707
+    },
+    {
+     "w": "minggu",
+     "start": 0.739,
+     "end": 0.947
+    },
+    {
+     "w": "lalu.",
+     "start": 0.987,
+     "end": 1.369
+    },
+    {
+     "w": "Tenggat",
+     "start": 1.369,
+     "end": 1.757
+    },
+    {
+     "w": "dua",
+     "start": 1.797,
+     "end": 1.917
+    },
+    {
+     "w": "nama",
+     "start": 1.965,
+     "end": 2.157
+    },
+    {
+     "w": "wapres,",
+     "start": 2.197,
+     "end": 2.797
+    },
+    {
+     "w": "Rabu",
+     "start": 2.877,
+     "end": 3.237
+    },
+    {
+     "w": "25",
+     "start": 3.267,
+     "end": 3.837
+    },
+    {
+     "w": "November?",
+     "start": 3.864,
+     "end": 4.199
+    },
+    {
+     "w": "Namanya",
+     "start": 4.199,
+     "end": 4.637
+    },
+    {
+     "w": "masuk",
+     "start": 4.677,
+     "end": 4.917
+    },
+    {
+     "w": "lebih",
+     "start": 4.937,
+     "end": 5.037
+    },
+    {
+     "w": "cepat,",
+     "start": 5.077,
+     "end": 5.467
+    },
+    {
+     "w": "Senin.",
+     "start": 5.527,
+     "end": 5.947
+    }
+   ]
+  },
+  {
+   "id": "g0b",
+   "text": "Laporan keuangan Danantara akhirnya rilis Rabu: laba bersih Rp203,4 triliun, untuk April sampai Desember 2025. Dan sidang etik Listyo memang digelar, tapi tanpa Listyo.",
+   "start": 6.159,
+   "end": 18.057,
+   "words": [
+    {
+     "w": "Laporan",
+     "start": 6.159,
+     "end": 6.487
+    },
+    {
+     "w": "keuangan",
+     "start": 6.54,
+     "end": 6.967
+    },
+    {
+     "w": "Danantara",
+     "start": 7.007,
+     "end": 7.527
+    },
+    {
+     "w": "akhirnya",
+     "start": 7.607,
+     "end": 8.007
+    },
+    {
+     "w": "rilis",
+     "start": 8.047,
+     "end": 8.327
+    },
+    {
+     "w": "Rabu:",
+     "start": 8.387,
+     "end": 8.727
+    },
+    {
+     "w": "laba",
+     "start": 8.769,
+     "end": 9.127
+    },
+    {
+     "w": "bersih",
+     "start": 9.175,
+     "end": 9.527
+    },
+    {
+     "w": "Rp203,4",
+     "start": 9.587,
+     "end": 11.007
+    },
+    {
+     "w": "triliun,",
+     "start": 11.047,
+     "end": 11.367
+    },
+    {
+     "w": "untuk",
+     "start": 12.037,
+     "end": 12.237
+    },
+    {
+     "w": "April",
+     "start": 12.317,
+     "end": 12.717
+    },
+    {
+     "w": "sampai",
+     "start": 12.781,
+     "end": 13.157
+    },
+    {
+     "w": "Desember",
+     "start": 13.187,
+     "end": 13.517
+    },
+    {
+     "w": "2025.",
+     "start": 13.577,
+     "end": 14.689
+    },
+    {
+     "w": "Dan",
+     "start": 14.689,
+     "end": 14.907
+    },
+    {
+     "w": "sidang",
+     "start": 14.947,
+     "end": 15.147
+    },
+    {
+     "w": "etik",
+     "start": 15.2,
+     "end": 15.387
+    },
+    {
+     "w": "Listyo",
+     "start": 15.435,
+     "end": 15.787
+    },
+    {
+     "w": "memang",
+     "start": 15.827,
+     "end": 16.027
+    },
+    {
+     "w": "digelar,",
+     "start": 16.067,
+     "end": 16.697
+    },
+    {
+     "w": "tapi",
+     "start": 16.793,
+     "end": 17.177
+    },
+    {
+     "w": "tanpa",
+     "start": 17.257,
+     "end": 17.577
+    },
+    {
+     "w": "Listyo.",
+     "start": 17.625,
+     "end": 18.057
+    }
+   ]
+  },
+  {
+   "id": "g1",
+   "text": "Oke, minggu depan. Catat tanggalnya.",
+   "start": 18.33,
+   "end": 20.13,
+   "words": [
+    {
+     "w": "Oke,",
+     "start": 18.33,
+     "end": 18.51
+    },
+    {
+     "w": "minggu",
+     "start": 18.542,
+     "end": 18.75
+    },
+    {
+     "w": "depan.",
+     "start": 18.803,
+     "end": 19.159
+    },
+    {
+     "w": "Catat",
+     "start": 19.22,
+     "end": 19.57
+    },
+    {
+     "w": "tanggalnya.",
+     "start": 19.61,
+     "end": 20.13
+    }
+   ]
+  },
+  {
+   "id": "g2",
+   "text": "Sejak Jumat, 27 November, pendaftaran CPNS 2026 dibuka. Ada 154.052 formasi.",
+   "start": 20.608999999999998,
+   "end": 29.608999999999998,
+   "words": [
+    {
+     "w": "Sejak",
+     "start": 20.609,
+     "end": 20.99
+    },
+    {
+     "w": "Jumat,",
+     "start": 21.03,
+     "end": 21.55
+    },
+    {
+     "w": "27",
+     "start": 21.57,
+     "end": 22.27
+    },
+    {
+     "w": "November,",
+     "start": 22.288,
+     "end": 22.51
+    },
+    {
+     "w": "pendaftaran",
+     "start": 22.669,
+     "end": 23.47
+    },
+    {
+     "w": "CPNS",
+     "start": 23.55,
+     "end": 24.59
+    },
+    {
+     "w": "2026",
+     "start": 24.59,
+     "end": 25.63
+    },
+    {
+     "w": "dibuka.",
+     "start": 25.71,
+     "end": 26.27
+    },
+    {
+     "w": "Ada",
+     "start": 26.309,
+     "end": 26.65
+    },
+    {
+     "w": "154.052",
+     "start": 26.69,
+     "end": 28.89
+    },
+    {
+     "w": "formasi.",
+     "start": 28.954,
+     "end": 29.609
+    }
+   ]
+  },
+  {
+   "id": "g3",
+   "text": "Senin, 30 November: batas penetapan upah minimum sektoral kabupaten dan kota, UMSK. Buat nasabah BNI: akses BNI Mobile Banking ditutup bertahap sampai hari itu, dan berhenti total 21 Desember.",
+   "start": 30.038999999999998,
+   "end": 43.393,
+   "words": [
+    {
+     "w": "Senin,",
+     "start": 30.039,
+     "end": 30.513
+    },
+    {
+     "w": "30",
+     "start": 30.553,
+     "end": 31.073
+    },
+    {
+     "w": "November:",
+     "start": 31.1,
+     "end": 31.393
+    },
+    {
+     "w": "batas",
+     "start": 31.489,
+     "end": 31.943
+    },
+    {
+     "w": "penetapan",
+     "start": 31.996,
+     "end": 32.503
+    },
+    {
+     "w": "upah",
+     "start": 32.583,
+     "end": 32.823
+    },
+    {
+     "w": "minimum",
+     "start": 32.873,
+     "end": 33.223
+    },
+    {
+     "w": "sektoral",
+     "start": 33.276,
+     "end": 33.703
+    },
+    {
+     "w": "kabupaten",
+     "start": 33.743,
+     "end": 34.183
+    },
+    {
+     "w": "dan",
+     "start": 34.223,
+     "end": 34.343
+    },
+    {
+     "w": "kota,",
+     "start": 34.423,
+     "end": 34.943
+    },
+    {
+     "w": "UMSK.",
+     "start": 35.023,
+     "end": 35.903
+    },
+    {
+     "w": "Buat",
+     "start": 35.929,
+     "end": 36.213
+    },
+    {
+     "w": "nasabah",
+     "start": 36.253,
+     "end": 36.773
+    },
+    {
+     "w": "BNI:",
+     "start": 36.849,
+     "end": 37.503
+    },
+    {
+     "w": "akses",
+     "start": 37.579,
+     "end": 38.103
+    },
+    {
+     "w": "BNI",
+     "start": 38.156,
+     "end": 38.503
+    },
+    {
+     "w": "Mobile",
+     "start": 38.56,
+     "end": 38.903
+    },
+    {
+     "w": "Banking",
+     "start": 38.953,
+     "end": 39.303
+    },
+    {
+     "w": "ditutup",
+     "start": 39.363,
+     "end": 39.703
+    },
+    {
+     "w": "bertahap",
+     "start": 39.751,
+     "end": 40.183
+    },
+    {
+     "w": "sampai",
+     "start": 40.247,
+     "end": 40.623
+    },
+    {
+     "w": "hari",
+     "start": 40.647,
+     "end": 40.743
+    },
+    {
+     "w": "itu,",
+     "start": 40.823,
+     "end": 41.143
+    },
+    {
+     "w": "dan",
+     "start": 41.189,
+     "end": 41.393
+    },
+    {
+     "w": "berhenti",
+     "start": 41.433,
+     "end": 41.713
+    },
+    {
+     "w": "total",
+     "start": 41.793,
+     "end": 42.193
+    },
+    {
+     "w": "21",
+     "start": 42.273,
+     "end": 42.833
+    },
+    {
+     "w": "Desember.",
+     "start": 42.893,
+     "end": 43.393
+    }
+   ]
+  },
+  {
+   "id": "g4",
+   "text": "Selasa, 1 Desember: MPR dijadwalkan mengumumkan hasil verifikasi dan tes kesehatan dua calon wapres. Pemilihannya, Jumat 11 Desember.",
+   "start": 43.849,
+   "end": 53.423,
+   "words": [
+    {
+     "w": "Selasa,",
+     "start": 43.849,
+     "end": 44.453
+    },
+    {
+     "w": "1",
+     "start": 44.501,
+     "end": 44.693
+    },
+    {
+     "w": "Desember:",
+     "start": 44.733,
+     "end": 45.173
+    },
+    {
+     "w": "MPR",
+     "start": 45.279,
+     "end": 45.993
+    },
+    {
+     "w": "dijadwalkan",
+     "start": 46.073,
+     "end": 46.713
+    },
+    {
+     "w": "mengumumkan",
+     "start": 46.745,
+     "end": 47.353
+    },
+    {
+     "w": "hasil",
+     "start": 47.42,
+     "end": 47.753
+    },
+    {
+     "w": "verifikasi",
+     "start": 47.813,
+     "end": 48.473
+    },
+    {
+     "w": "dan",
+     "start": 48.533,
+     "end": 48.713
+    },
+    {
+     "w": "tes",
+     "start": 48.773,
+     "end": 48.953
+    },
+    {
+     "w": "kesehatan",
+     "start": 48.993,
+     "end": 49.593
+    },
+    {
+     "w": "dua",
+     "start": 49.673,
+     "end": 49.913
+    },
+    {
+     "w": "calon",
+     "start": 49.973,
+     "end": 50.233
+    },
+    {
+     "w": "wapres.",
+     "start": 50.273,
+     "end": 50.794
+    },
+    {
+     "w": "Pemilihannya,",
+     "start": 50.909,
+     "end": 51.903
+    },
+    {
+     "w": "Jumat",
+     "start": 51.943,
+     "end": 52.383
+    },
+    {
+     "w": "11",
+     "start": 52.436,
+     "end": 52.703
+    },
+    {
+     "w": "Desember.",
+     "start": 52.763,
+     "end": 53.423
+    }
+   ]
+  },
+  {
+   "id": "g5",
+   "text": "Dan ini hari Senin yang kami janjikan di awal: 30 November, jam 9 pagi WIB. Panggilan kedua sidang etik Listyo.",
+   "start": 53.562999999999995,
+   "end": 61.113,
+   "words": [
+    {
+     "w": "Dan",
+     "start": 53.563,
+     "end": 53.583
+    },
+    {
+     "w": "ini",
+     "start": 53.643,
+     "end": 53.823
+    },
+    {
+     "w": "hari",
+     "start": 53.855,
+     "end": 53.983
+    },
+    {
+     "w": "Senin",
+     "start": 54.023,
+     "end": 54.303
+    },
+    {
+     "w": "yang",
+     "start": 54.335,
+     "end": 54.463
+    },
+    {
+     "w": "kami",
+     "start": 54.511,
+     "end": 54.703
+    },
+    {
+     "w": "janjikan",
+     "start": 54.763,
+     "end": 55.183
+    },
+    {
+     "w": "di",
+     "start": 55.21,
+     "end": 55.263
+    },
+    {
+     "w": "awal:",
+     "start": 55.316,
+     "end": 55.763
+    },
+    {
+     "w": "30",
+     "start": 55.843,
+     "end": 56.243
+    },
+    {
+     "w": "November,",
+     "start": 56.296,
+     "end": 56.943
+    },
+    {
+     "w": "jam",
+     "start": 57.003,
+     "end": 57.183
+    },
+    {
+     "w": "9",
+     "start": 57.223,
+     "end": 57.663
+    },
+    {
+     "w": "pagi",
+     "start": 57.703,
+     "end": 58.213
+    },
+    {
+     "w": "WIB.",
+     "start": 58.293,
+     "end": 59.093
+    },
+    {
+     "w": "Panggilan",
+     "start": 59.119,
+     "end": 59.673
+    },
+    {
+     "w": "kedua",
+     "start": 59.713,
+     "end": 59.993
+    },
+    {
+     "w": "sidang",
+     "start": 60.053,
+     "end": 60.313
+    },
+    {
+     "w": "etik",
+     "start": 60.366,
+     "end": 60.553
+    },
+    {
+     "w": "Listyo.",
+     "start": 60.617,
+     "end": 61.113
+    }
+   ]
+  },
+  {
+   "id": "g6",
+   "text": "Kata Polri, kalau dia absen lagi, sidang jalan tanpa dia. Putusannya final, dan hak bandingnya hilang.",
+   "start": 61.376999999999995,
+   "end": 67.483,
+   "words": [
+    {
+     "w": "Kata",
+     "start": 61.377,
+     "end": 61.403
+    },
+    {
+     "w": "Polri,",
+     "start": 61.483,
+     "end": 61.963
+    },
+    {
+     "w": "kalau",
+     "start": 62.003,
+     "end": 62.203
+    },
+    {
+     "w": "dia",
+     "start": 62.243,
+     "end": 62.363
+    },
+    {
+     "w": "absen",
+     "start": 62.423,
+     "end": 62.683
+    },
+    {
+     "w": "lagi,",
+     "start": 62.747,
+     "end": 63.243
+    },
+    {
+     "w": "sidang",
+     "start": 63.303,
+     "end": 63.643
+    },
+    {
+     "w": "jalan",
+     "start": 63.723,
+     "end": 63.963
+    },
+    {
+     "w": "tanpa",
+     "start": 64.023,
+     "end": 64.283
+    },
+    {
+     "w": "dia.",
+     "start": 64.363,
+     "end": 64.699
+    },
+    {
+     "w": "Putusannya",
+     "start": 64.699,
+     "end": 65.243
+    },
+    {
+     "w": "final,",
+     "start": 65.31,
+     "end": 65.803
+    },
+    {
+     "w": "dan",
+     "start": 65.843,
+     "end": 65.963
+    },
+    {
+     "w": "hak",
+     "start": 66.023,
+     "end": 66.203
+    },
+    {
+     "w": "bandingnya",
+     "start": 66.251,
+     "end": 66.763
+    },
+    {
+     "w": "hilang.",
+     "start": 66.863,
+     "end": 67.483
+    }
+   ]
+  }
+ ]
+}

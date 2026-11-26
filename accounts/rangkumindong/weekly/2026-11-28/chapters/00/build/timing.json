@@ -1,0 +1,391 @@
+{
+ "duration": 29.775,
+ "voice": "Pratama",
+ "lines": [
+  {
+   "id": "i1",
+   "text": "Dua nama masuk, rupiah tembus rekor. Lalu apa?",
+   "start": 0.157,
+   "end": 3.11,
+   "words": [
+    {
+     "w": "Dua",
+     "start": 0.157,
+     "end": 0.33
+    },
+    {
+     "w": "nama",
+     "start": 0.378,
+     "end": 0.57
+    },
+    {
+     "w": "masuk,",
+     "start": 0.63,
+     "end": 1.09
+    },
+    {
+     "w": "rupiah",
+     "start": 1.15,
+     "end": 1.53
+    },
+    {
+     "w": "tembus",
+     "start": 1.59,
+     "end": 1.93
+    },
+    {
+     "w": "rekor.",
+     "start": 2.01,
+     "end": 2.503
+    },
+    {
+     "w": "Lalu",
+     "start": 2.53,
+     "end": 2.79
+    },
+    {
+     "w": "apa?",
+     "start": 2.85,
+     "end": 3.11
+    }
+   ]
+  },
+  {
+   "id": "i2",
+   "text": "Minggu ini: Presiden Prabowo mengusulkan dua calon wapres ke MPR. Dan Listyo Sigit jadi tersangka dugaan makar, lalu tidak hadir di sidang etiknya, kata Polri.",
+   "start": 3.464,
+   "end": 12.813,
+   "words": [
+    {
+     "w": "Minggu",
+     "start": 3.464,
+     "end": 3.57
+    },
+    {
+     "w": "ini:",
+     "start": 3.63,
+     "end": 3.963
+    },
+    {
+     "w": "Presiden",
+     "start": 3.974,
+     "end": 4.39
+    },
+    {
+     "w": "Prabowo",
+     "start": 4.443,
+     "end": 4.87
+    },
+    {
+     "w": "mengusulkan",
+     "start": 4.902,
+     "end": 5.43
+    },
+    {
+     "w": "dua",
+     "start": 5.49,
+     "end": 5.67
+    },
+    {
+     "w": "calon",
+     "start": 5.73,
+     "end": 5.99
+    },
+    {
+     "w": "wapres",
+     "start": 6.03,
+     "end": 6.47
+    },
+    {
+     "w": "ke",
+     "start": 6.55,
+     "end": 6.87
+    },
+    {
+     "w": "MPR.",
+     "start": 6.923,
+     "end": 7.633
+    },
+    {
+     "w": "Dan",
+     "start": 7.633,
+     "end": 7.87
+    },
+    {
+     "w": "Listyo",
+     "start": 7.918,
+     "end": 8.19
+    },
+    {
+     "w": "Sigit",
+     "start": 8.23,
+     "end": 8.59
+    },
+    {
+     "w": "jadi",
+     "start": 8.67,
+     "end": 8.83
+    },
+    {
+     "w": "tersangka",
+     "start": 8.878,
+     "end": 9.39
+    },
+    {
+     "w": "dugaan",
+     "start": 9.43,
+     "end": 9.71
+    },
+    {
+     "w": "makar,",
+     "start": 9.77,
+     "end": 10.19
+    },
+    {
+     "w": "lalu",
+     "start": 10.23,
+     "end": 10.59
+    },
+    {
+     "w": "tidak",
+     "start": 10.643,
+     "end": 10.91
+    },
+    {
+     "w": "hadir",
+     "start": 10.97,
+     "end": 11.23
+    },
+    {
+     "w": "di",
+     "start": 11.283,
+     "end": 11.39
+    },
+    {
+     "w": "sidang",
+     "start": 11.43,
+     "end": 11.63
+    },
+    {
+     "w": "etiknya,",
+     "start": 11.683,
+     "end": 12.11
+    },
+    {
+     "w": "kata",
+     "start": 12.158,
+     "end": 12.35
+    },
+    {
+     "w": "Polri.",
+     "start": 12.41,
+     "end": 12.813
+    }
+   ]
+  },
+  {
+   "id": "i3",
+   "text": "Plus: rupiah cetak rekor terlemah, AS ancam tarif sampai 18 persen, dan saham raksasa AI naik-turun.",
+   "start": 13.054,
+   "end": 20.34,
+   "words": [
+    {
+     "w": "Plus:",
+     "start": 13.054,
+     "end": 13.24
+    },
+    {
+     "w": "rupiah",
+     "start": 13.313,
+     "end": 13.75
+    },
+    {
+     "w": "cetak",
+     "start": 13.81,
+     "end": 14.15
+    },
+    {
+     "w": "rekor",
+     "start": 14.203,
+     "end": 14.47
+    },
+    {
+     "w": "terlemah,",
+     "start": 14.53,
+     "end": 15.16
+    },
+    {
+     "w": "AS",
+     "start": 15.24,
+     "end": 15.56
+    },
+    {
+     "w": "ancam",
+     "start": 15.64,
+     "end": 15.96
+    },
+    {
+     "w": "tarif",
+     "start": 16.013,
+     "end": 16.28
+    },
+    {
+     "w": "sampai",
+     "start": 16.344,
+     "end": 16.68
+    },
+    {
+     "w": "18",
+     "start": 16.72,
+     "end": 17.16
+    },
+    {
+     "w": "persen,",
+     "start": 17.208,
+     "end": 17.64
+    },
+    {
+     "w": "dan",
+     "start": 17.703,
+     "end": 17.95
+    },
+    {
+     "w": "saham",
+     "start": 18.003,
+     "end": 18.27
+    },
+    {
+     "w": "raksasa",
+     "start": 18.31,
+     "end": 18.83
+    },
+    {
+     "w": "AI",
+     "start": 19.03,
+     "end": 19.58
+    },
+    {
+     "w": "naik-turun.",
+     "start": 19.647,
+     "end": 20.34
+    }
+   ]
+  },
+  {
+   "id": "rd",
+   "text": "Rangkumin dong!",
+   "start": 20.554,
+   "end": 21.513,
+   "words": [
+    {
+     "w": "Rangkumin",
+     "start": 20.554,
+     "end": 21.033
+    },
+    {
+     "w": "dong!",
+     "start": 21.033,
+     "end": 21.513
+    }
+   ]
+  },
+  {
+   "id": "i4",
+   "text": "Ini Rangkumin Seminggu, 21 sampai 27 November. Di akhir: satu hari Senin yang bisa menentukan sidang etik Listyo.",
+   "start": 22.06378911564626,
+   "end": 29.20378911564626,
+   "words": [
+    {
+     "w": "Ini",
+     "start": 22.064,
+     "end": 22.094
+    },
+    {
+     "w": "Rangkumin",
+     "start": 22.134,
+     "end": 22.494
+    },
+    {
+     "w": "Seminggu,",
+     "start": 22.554,
+     "end": 23.134
+    },
+    {
+     "w": "21",
+     "start": 23.174,
+     "end": 23.694
+    },
+    {
+     "w": "sampai",
+     "start": 23.758,
+     "end": 24.094
+    },
+    {
+     "w": "27",
+     "start": 24.154,
+     "end": 25.014
+    },
+    {
+     "w": "November.",
+     "start": 25.045,
+     "end": 25.413
+    },
+    {
+     "w": "Di",
+     "start": 25.413,
+     "end": 25.644
+    },
+    {
+     "w": "akhir:",
+     "start": 25.724,
+     "end": 26.124
+    },
+    {
+     "w": "satu",
+     "start": 26.243,
+     "end": 26.564
+    },
+    {
+     "w": "hari",
+     "start": 26.596,
+     "end": 26.724
+    },
+    {
+     "w": "Senin",
+     "start": 26.784,
+     "end": 27.044
+    },
+    {
+     "w": "yang",
+     "start": 27.092,
+     "end": 27.284
+    },
+    {
+     "w": "bisa",
+     "start": 27.332,
+     "end": 27.524
+    },
+    {
+     "w": "menentukan",
+     "start": 27.564,
+     "end": 28.004
+    },
+    {
+     "w": "sidang",
+     "start": 28.064,
+     "end": 28.324
+    },
+    {
+     "w": "etik",
+     "start": 28.404,
+     "end": 28.724
+    },
+    {
+     "w": "Listyo.",
+     "start": 28.772,
+     "end": 29.204
+    }
+   ]
+  }
+ ]
+}

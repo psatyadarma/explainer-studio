@@ -1,0 +1,187 @@
+{
+ "duration": 14.012,
+ "voice": "Pratama",
+ "lines": [
+  {
+   "id": "o1",
+   "text": "Minggu ini: dua nama masuk, satu kursi sidang kosong, dan rupiah di rekor terlemah. Menurutmu, mana yang paling menentukan minggu depan? Kenapa? Tulis di komentar.",
+   "start": 0.16699999999999998,
+   "end": 9.374,
+   "words": [
+    {
+     "w": "Minggu",
+     "start": 0.167,
+     "end": 0.274
+    },
+    {
+     "w": "ini:",
+     "start": 0.354,
+     "end": 0.814
+    },
+    {
+     "w": "dua",
+     "start": 0.814,
+     "end": 1.014
+    },
+    {
+     "w": "nama",
+     "start": 1.062,
+     "end": 1.254
+    },
+    {
+     "w": "masuk,",
+     "start": 1.334,
+     "end": 1.814
+    },
+    {
+     "w": "satu",
+     "start": 1.854,
+     "end": 2.174
+    },
+    {
+     "w": "kursi",
+     "start": 2.222,
+     "end": 2.494
+    },
+    {
+     "w": "sidang",
+     "start": 2.534,
+     "end": 2.734
+    },
+    {
+     "w": "kosong,",
+     "start": 2.794,
+     "end": 3.214
+    },
+    {
+     "w": "dan",
+     "start": 3.314,
+     "end": 3.614
+    },
+    {
+     "w": "rupiah",
+     "start": 3.694,
+     "end": 4.094
+    },
+    {
+     "w": "di",
+     "start": 4.147,
+     "end": 4.254
+    },
+    {
+     "w": "rekor",
+     "start": 4.334,
+     "end": 4.654
+    },
+    {
+     "w": "terlemah.",
+     "start": 4.694,
+     "end": 5.244
+    },
+    {
+     "w": "Menurutmu,",
+     "start": 5.244,
+     "end": 5.884
+    },
+    {
+     "w": "mana",
+     "start": 5.964,
+     "end": 6.284
+    },
+    {
+     "w": "yang",
+     "start": 6.316,
+     "end": 6.444
+    },
+    {
+     "w": "paling",
+     "start": 6.484,
+     "end": 6.604
+    },
+    {
+     "w": "menentukan",
+     "start": 6.644,
+     "end": 7.004
+    },
+    {
+     "w": "minggu",
+     "start": 7.036,
+     "end": 7.244
+    },
+    {
+     "w": "depan?",
+     "start": 7.297,
+     "end": 7.794
+    },
+    {
+     "w": "Kenapa?",
+     "start": 7.794,
+     "end": 8.254
+    },
+    {
+     "w": "Tulis",
+     "start": 8.434,
+     "end": 8.654
+    },
+    {
+     "w": "di",
+     "start": 8.681,
+     "end": 8.734
+    },
+    {
+     "w": "komentar.",
+     "start": 8.774,
+     "end": 9.374
+    }
+   ]
+  },
+  {
+   "id": "o2",
+   "text": "Follow Rangkumin Dong. Rangkumin Seminggu, tiap Sabtu pagi!",
+   "start": 9.563,
+   "end": 12.804,
+   "words": [
+    {
+     "w": "Follow",
+     "start": 9.563,
+     "end": 9.604
+    },
+    {
+     "w": "Rangkumin",
+     "start": 9.644,
+     "end": 10.004
+    },
+    {
+     "w": "Dong.",
+     "start": 10.052,
+     "end": 10.324
+    },
+    {
+     "w": "Rangkumin",
+     "start": 10.484,
+     "end": 10.964
+    },
+    {
+     "w": "Seminggu,",
+     "start": 11.004,
+     "end": 11.644
+    },
+    {
+     "w": "tiap",
+     "start": 11.711,
+     "end": 11.924
+    },
+    {
+     "w": "Sabtu",
+     "start": 11.984,
+     "end": 12.165
+    },
+    {
+     "w": "pagi!",
+     "start": 12.244,
+     "end": 12.804
+    }
+   ]
+  }
+ ]
+}

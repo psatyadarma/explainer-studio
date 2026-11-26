@@ -1,0 +1,174 @@
+{
+  "area": "markets",
+  "run_date": "2026-11-27",
+  "checked": [
+    "detikFinance section page (latest + terpopuler + komentar terbanyak)",
+    "Antara ekonomi section page",
+    "CNBC Indonesia market (via search results + IHSG close article)",
+    "Bisnis market (search results only; article fetch failed)",
+    "IHSG close and movers",
+    "foreign net buy/sell",
+    "rupiah and BI statements",
+    "BI RDG / DPR-BI 2027 assumptions",
+    "OJK statements",
+    "MSCI/FTSE/ratings",
+    "APBN, tax, subsidies",
+    "fuel (BBM) prices and stock",
+    "Danantara/BUMN",
+    "global shocks: US tariffs, Fed expectations",
+    "storyline searches: msci-reclassification, rupiah, survival-mode",
+    "not seen in headlines: BPS releases, PHK, IPO/suspensions, bankruptcies"
+  ],
+  "events": [
+    {
+      "date": "2026-11-26",
+      "category": "GLB",
+      "event": "The US Trade Representative announced the results of a Section 301 investigation into excess production capacity covering 14 economies, proposing an additional tariff of up to 18% on Indonesian goods, and Industry Minister Sarmuji said Indonesia will seek new export markets.",
+      "key_numbers": "Proposed extra tariff up to 18% (Indonesia) · Malaysia 18% · Cambodia 18% · Vietnam 20% · India 17% (per Suara.com) · 14 economies investigated · USTR announced 25 Nov US time · public hearing Jan 2027 · sectors named: textiles, footwear, metal products, renewable-energy components",
+      "storyline": "us-tariff-301",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/news/20261126175500-4-788866/ri-terancam-tarif-as-18-menperin-kita-cari-pasar-baru-yang-terbuka"},
+        {"label": "Suara.com", "url": "https://www.suara.com/bisnis/2026/11/26/185337/trump-bidik-tarif-18-untuk-ri-pemerintah-berburu-pengecualian"},
+        {"label": "detikFinance", "url": "https://finance.detik.com/industri/d-8771659/menperin-sebut-ri-siap-hadapi-ancaman-tarif-as-18"}
+      ],
+      "why_it_matters": "A new US tariff could hit Indonesian textile and footwear exporters and the jobs that depend on them, right when the rupiah is at a record low.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 2, "visual": 2, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "On detikFinance latest list (two items); covered by CNBC, Suara, Kompas.id, Kumparan",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-26",
+      "category": "MKT",
+      "event": "The rupiah hit a new record low on 26 November, trading at Rp18,390 per US dollar at 13:32 WIB and briefly breaching Rp18,400, and Bank Indonesia blamed US rate-hike expectations, a strong dollar index, reclassification worries and month-end corporate dollar demand.",
+      "key_numbers": "Rp18,390/US$ at 13:32 WIB, -0.44% (Refinitiv, via CNBC Indonesia) · briefly above Rp18,400 intraday (IDN Times) · previous weakest close Rp18,332 on 25 Nov (E1127) · rupiah -8.4% in 2026 (CNBC headline, not verified in body) · BI intervenes via NDF, spot, DNDF and secondary SBN",
+      "storyline": "rupiah",
+      "update_of": "E1127",
+      "status": "partial",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/news/20261126125636-4-788708/rupiah-nyaris-rp18400-us--ini-3-biang-kerok-pelemahannya"},
+        {"label": "IDN Times", "url": "https://www.idntimes.com/business/finance/bi-ungkap-penyebab-rupiah-tembus-rp18-400-per-dolar-as-00-lx3cr-mrkkx8"},
+        {"label": "detikFinance", "url": "https://finance.detik.com/moneter/d-8771401/ekspektasi-kenaikan-suku-bunga-as-meningkat-bi-rate-ikut-naik"}
+      ],
+      "why_it_matters": "A weaker rupiah makes imports, fuel, gadgets and overseas tuition more expensive, and raises the question of whether BI will hike rates.",
+      "signals": {"spreading": 2, "wallet": 2, "surprise": 2, "visual": 2, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "detikFinance headline 'BI Ungkap Biang Kerok Dolar AS Tembus Rp 18.400' and 'Dolar AS Cetak Rekor'; CNBC Indonesia; many regional outlets",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-26",
+      "category": "MKT",
+      "event": "The IHSG closed up 0.86% at 5,242.17 on 26 November, led by BBCA, BRPT, ASII, AADI and BUMI, while the US PCE inflation data and the new US tariff threat weighed on sentiment.",
+      "key_numbers": "Close 5,242.17, +44.56 pts, +0.86% · open 5,214.62 · high 5,297.46 · low 5,214.57 · value Rp7.78 triliun · volume 207.57 juta lot · BRPT +14.96% (regional outlet, unverified) · drags: BMRI, BBRI, ISAT, TLKM, TINS · 25 Nov close was 5,197.61 (-0.84%)",
+      "storyline": "msci-reclassification",
+      "update_of": "E1126",
+      "status": "verified",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/market/20261126154436-17-788799/ihsg-ditutup-menguat-086-ke-level-524217"},
+        {"label": "detikFinance", "url": "https://finance.detik.com/bursa-dan-valas/d-8771322/ihsg-ditutup-menguat-ke-5-242"},
+        {"label": "Bisnis", "url": "https://market.bisnis.com/read/20261126/7/2024739/ihsg-ditutup-menguat-086-ke-5242-saham-asii-bbca-hingga-brpt-kompak-hijau"}
+      ],
+      "why_it_matters": "The index is still about 43% below its January 2026 peak of about 9,134, so each day's move is read as a test of confidence.",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 0, "visual": 1, "fresh": 2, "rivals": 0},
+      "spreading_evidence": "Daily close covered by CNBC, detik, Bisnis, Viva and others",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-26",
+      "category": "BIZ",
+      "event": "Danantara COO Dony Oskaria said a Finance Ministry tax exemption for BUMN restructuring lets the state-owned enterprises streamline within 3 years, and that Danantara targets about Rp650 trillion in tax payments to the state.",
+      "key_numbers": "Tax exemption for BUMN restructuring, 3 years (incentive reported valid to 2029) · BUMN count to fall from over 1,000 to about 300 · Danantara tax payment target about Rp650 triliun vs Rp567 triliun in 2025 · article's own 'Rp100 triliun increase' does not match the difference (about Rp83 triliun)",
+      "storyline": "",
+      "update_of": "E1099",
+      "status": "verified",
+      "sources": [
+        {"label": "detikFinance", "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8771349/bumn-dapat-kado-pajak-dari-suahasil-danantara-target-setor-rp-650-t-ke-negara"},
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/market/20261126151830-17-788787/dapat-pembebasan-pajak-restrukturisasi-bumn-ini-respons-danantara"},
+        {"label": "ANTARA", "url": "https://www.antaranews.com/berita/5874275/menkeu-beri-insentif-pajak-buat-danantara-guna-dukung-restrukturisasi"}
+      ],
+      "why_it_matters": "Restructuring BUMN tax-free raises the question of who gives up revenue and whether Danantara's promised payments make up for it.",
+      "signals": {"spreading": 2, "wallet": 1, "surprise": 1, "visual": 2, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "detikFinance terpopuler #1 and #2 (Danantara items); Danantara cluster across detik, CNBC, Antara, Bisnis",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-26",
+      "category": "BIZ",
+      "event": "Danantara CEO Rosan Roeslani told House Commission VI that Danantara Asset Management has 41 strategic projects for the 2027 work plan (RKAP), covering BUMN restructuring, consolidation and a Garuda Indonesia transformation.",
+      "key_numbers": "41 projects: 16 continuing + 25 new · restructuring of PTPN, Pos Indonesia, INKA, BUMN Karya · 6 streamlining/consolidation projects · 9 enabler projects · Garuda transformation, KAI infrastructure, Krakatau Steel equity injection · investment values not stated",
+      "storyline": "",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/market/20261126131014-17-788714/danantara-bidik-41-proyek-strategis-ini-di-tahun-2027"},
+        {"label": "detikFinance", "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8771814/daftar-41-proyek-strategis-dikawal-danantara"}
+      ],
+      "why_it_matters": "These are the state companies, including Garuda and KAI, that Danantara will reshape next year.",
+      "signals": {"spreading": 2, "wallet": 0, "surprise": 0, "visual": 1, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "detikFinance terpopuler #1 'Daftar 41 Proyek Strategis Dikawal Danantara'",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-25",
+      "category": "ECO",
+      "event": "Bank Indonesia Governor Destry Damayanti told House Commission XI that BI's 2027 assumptions are a rupiah of Rp17,800-18,200 per dollar, a BI-Rate of 6% and growth of 5.2-6%, and warned of inflation risk if oil prices keep rising.",
+      "key_numbers": "Rupiah Rp17,800-18,200/US$ (2027; DPR-BI agreement cited as Rp18,200 by detik) · BI-Rate 6% · growth 5.2-6% (2026: 4.9-5.7%) · inflation within 2.5% ±1% · BI-cited 2027 budget surplus Rp65.3 triliun (headline only) · current BI-Rate 5.75% (hold since Jun, per storyline)",
+      "storyline": "rupiah",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "ANTARA", "url": "https://www.antaranews.com/berita/5877519/bi-tetapkan-asumsi-rupiah-rp18200-dan-bi-rate-6-persen-pada-2027"},
+        {"label": "detikFinance", "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8771877/dpr-bi-sepakati-proyeksi-ekonomi-2027"}
+      ],
+      "why_it_matters": "BI assuming a 6% rate in 2027 signals that rates are expected to go up from today's level, which affects loan and mortgage costs.",
+      "signals": {"spreading": 2, "wallet": 2, "surprise": 1, "visual": 1, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "detikFinance terpopuler #3 'DPR & BI Sepakati Proyeksi Ekonomi 2027'",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-26",
+      "category": "ECO",
+      "event": "The government said fuel stock for Christmas and New Year (Nataru) is kept at about 20 days of cover and that subsidised fuel prices stay unchanged despite higher world oil prices.",
+      "key_numbers": "Nataru fuel stock about 20 days · Pertalite price Rp10,000/liter held (storyline: held to end-2026) · unsubsidised Pertalite price per Suahasil/Bahlil reported mid-Nov (E0803)",
+      "storyline": "survival-mode",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {"label": "detikFinance (section page)", "url": "https://finance.detik.com/index.php"},
+        {"label": "Matamata", "url": "https://www.matamata.com/news/2026/11/26/163028/stok-bbm-jelang-nataru-20262027-dijaga-di-kisaran-20-hari-esdm-pastikan-pertalite-dan-solar-aman"}
+      ],
+      "why_it_matters": "Reassurance that fuel will not run out or get pricier before the holidays, though the state is paying the gap.",
+      "signals": {"spreading": 1, "wallet": 2, "surprise": 0, "visual": 0, "fresh": 2, "rivals": 1},
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-26",
+      "category": "BIZ",
+      "event": "President Prabowo warned conglomerates that do not pay taxes or royalties that they will face law enforcement and the new police chief, in a Teachers' Day speech.",
+      "key_numbers": "No amounts given · offences listed: unpaid tax, unpaid royalties, false reports, misuse of subsidised goods · Kapolri Suyudi Ario Seto and Attorney General ST Burhanuddin named",
+      "storyline": "",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {"label": "detikFinance", "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8771599/prabowo-kejar-konglomerat-tidak-bayar-pajak"},
+        {"label": "CNBC Indonesia", "url": "https://www.cnbcindonesia.com/news/20261126184002-4-788875/prabowo-warning-konglomerat-nakal-berhadapan-dengan-kapolri-suyudi"},
+        {"label": "Investortrust", "url": "https://investortrust.id/national/123790/prabowo-ultimatum-konglomerat-nakal-jangan-main-main-dengan-nkri-saya-punya-kapolri-baru"}
+      ],
+      "why_it_matters": "A direct threat to big taxpayers comes while the state needs about Rp514 trillion more in tax revenue (E0802).",
+      "signals": {"spreading": 1, "wallet": 1, "surprise": 1, "visual": 0, "fresh": 2, "rivals": 2},
+      "spreading_evidence": "detikFinance 'Video Prabowo Beri Peringatan Keras' on latest list",
+      "sensitivity": "high"
+    }
+  ],
+  "gaps": [
+    "Rupiah official close for 26 Nov not verified: only intraday Rp18,390/Rp18,400 from CNBC and IDN Times; low-quality aggregators say Rp18,364. Check Antara/Bisnis/JISDOR before using a closing number.",
+    "Foreign net buy/sell for 26 Nov not found (CNBC close article had none; 25 Nov was net sell Rp336.22 miliar per Buletin Finansial).",
+    "Bisnis article fetch failed and the detik 'ekspektasi kenaikan suku bunga AS' fetch was blocked; US PCE figures and Fed hike odds are unverified.",
+    "US tariff: effective date, product list and the exact comment deadline (public hearing Jan 2027) not confirmed; one source named 'up to 40%' for other economies, Suara.com did not.",
+    "Danantara COO's tax payment target: article says Rp100T increase but 650-567 is about Rp83T; confirm before use.",
+    "MSCI angle seen only as headlines: Bisnis 'Beda Sikap Indonesia dan Turki Hadapi Ancaman MSCI' (26 Nov); OJK chair's 19 Nov 'consequence of reform' remark (IHSG peak about 9,134) is older than 48h so not logged.",
+    "No BPS release, PHK, IPO or suspension headline seen on the pages scanned; 27 Nov morning market data not yet available."
+  ]
+}

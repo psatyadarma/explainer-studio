@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Rangkumin Seminggu — chapter</title>
+<link rel="stylesheet" href="../../../../../../styles/sticker/sticker.css">
+<link rel="stylesheet" href="../../../../../../styles/sticker/weekly/weekly.css">
+<script src="../../../../../../styles/sticker/sticker.js"></script>
+<script src="../../../../../../styles/sticker/characters/budi.js"></script>
+<script src="build/timing.js"></script>
+<script src="../../build/week.js"></script>
+<script src="../../../../../../styles/sticker/weekly/weekly.js"></script>
+<style>
+  .it { position:absolute; transform:translate(-50%,-50%); opacity:0; width:max-content; max-width:1600px; box-sizing:border-box; }
+  .nw { white-space:nowrap; }
+  .big { font-weight:900; font-size:116px; letter-spacing:-4px; line-height:1.02; text-align:center; white-space:nowrap; }
+  .big .acc, .hd .acc, .card .acc { color:var(--accent); }
+  .hd { font-weight:900; font-size:66px; letter-spacing:-1.5px; text-align:center; white-space:nowrap; }
+  .stat { font-weight:900; font-size:230px; letter-spacing:-9px; color:var(--accent); line-height:1; white-space:nowrap; }
+  .stat.ink { color:var(--ink); } .stat.slate { color:var(--slate); }
+  .lab { font-weight:800; font-size:44px; color:var(--slate); text-align:center; white-space:nowrap; }
+  .card { background:#fff; border-radius:28px; padding:28px 42px; text-align:center; font-weight:900; font-size:54px; line-height:1.15;
+          box-shadow:0 0 0 9px #fff,0 18px 26px rgba(27,36,48,.22); }
+  .card small { display:block; font-weight:700; font-size:32px; color:var(--slate); margin-top:10px; line-height:1.25; }
+  .card .q { font-weight:800; font-size:30px; color:var(--slate); margin-bottom:10px; text-align:left; }
+  .card.quote { text-align:left; border-left:16px solid var(--accent); }
+  .card.ink { background:var(--ink); color:#fff; box-shadow:0 0 0 9px #fff,0 18px 26px rgba(27,36,48,.22); }
+  .card.ink small { color:#c9d3dc; }
+  .card.dim { color:var(--slate); }
+  .chip { background:var(--ink); color:#fff; font-weight:800; font-size:48px; padding:16px 30px; border-radius:18px; white-space:nowrap;
+          box-shadow:0 0 0 8px #fff,0 14px 22px rgba(27,36,48,.2); }
+  .chip.acc { background:var(--accent); } .chip.light { background:#fff; color:var(--ink); } .chip.hi { background:var(--hi); color:var(--ink); }
+  .stamp { background:var(--accent); color:#fff; font-weight:900; font-size:84px; letter-spacing:-2px; padding:12px 34px; border-radius:18px;
+           white-space:nowrap; box-shadow:0 0 0 9px #fff,0 18px 26px rgba(27,36,48,.22); }
+  .stamp.ink { background:var(--ink); }
+  .arrow { font-weight:900; font-size:120px; color:var(--accent); line-height:1; }
+  .cal { width:300px; background:#fff; border-radius:26px; overflow:hidden; text-align:center; box-shadow:0 0 0 9px #fff,0 18px 26px rgba(27,36,48,.22); }
+  .cal .d { background:var(--accent); color:#fff; font-weight:900; font-size:40px; padding:12px 0; letter-spacing:2px; }
+  .cal.ink .d { background:var(--ink); }
+  .cal .n { font-weight:900; font-size:150px; letter-spacing:-6px; line-height:1.05; padding-top:6px; }
+  .cal .m { font-weight:800; font-size:40px; color:var(--slate); padding-bottom:18px; letter-spacing:2px; }
+  .cal.sm { width:220px; } .cal.sm .n { font-size:104px; } .cal.sm .d, .cal.sm .m { font-size:32px; }
+  .strike { height:16px; background:var(--accent); border-radius:8px; }
+  .dots { display:grid; gap:18px; }
+  .dots i { display:block; border-radius:50%; background:rgba(62,85,104,.25); }
+  .dots i.on { background:var(--accent); }
+  .dots.ov i { background:transparent; } .dots.ov i.on { background:var(--accent); }
+  .person { display:flex; gap:22px; }
+  .person i { display:block; width:70px; height:150px; position:relative; }
+  .person i::before { content:''; position:absolute; left:15px; top:0; width:40px; height:40px; border-radius:50%; background:currentColor; }
+  .person i::after { content:''; position:absolute; left:0; top:48px; width:70px; height:100px; border-radius:35px 35px 12px 12px; background:currentColor; }
+  .phone { width:440px; height:620px; background:var(--ink); border-radius:56px; padding:26px; box-sizing:border-box; box-shadow:0 0 0 9px #fff,0 18px 26px rgba(27,36,48,.22); }
+  .phone .scr { background:#E9E4DA; border-radius:34px; height:100%; padding:30px 22px; box-sizing:border-box; display:flex; flex-direction:column; gap:18px; }
+  .phone .bub { background:#fff; border-radius:22px 22px 22px 6px; padding:20px 22px; font-weight:800; font-size:36px; line-height:1.2; }
+  .phone .who { font-weight:800; font-size:26px; color:var(--slate); }
+  .budi { width:340px; height:453px; }
+  .budi > div { position:absolute; inset:0; }
+  .lower { bottom:auto; top:132px; }
+
+  .dots i.dpd { background:var(--slate); }
+  .seat { width:200px; height:210px; border-radius:26px; background:var(--ink); color:var(--hi); font-weight:900; font-size:40px;
+          display:flex; flex-direction:column; align-items:center; justify-content:center; gap:8px; box-shadow:0 0 0 9px #fff,0 18px 26px rgba(27,36,48,.22); }
+  .seat small { color:#fff; font-size:26px; font-weight:800; }
+  .seat.empty { background:transparent; border:8px dashed var(--accent); box-shadow:none; color:var(--accent); }
+  .seat.empty small { color:var(--accent); }
+  .gbar { position:absolute; width:170px; border-radius:18px 18px 0 0; background:var(--slate); opacity:0; }
+  .gbar.acc { background:var(--accent); } .gbar.green { background:#2E8B57; } .gbar.down { border-radius:0 0 18px 18px; background:var(--accent); }
+  .icon { width:150px; height:150px; display:block; margin:0 auto 12px; }
+  .note { position:absolute; left:440px; top:50px; z-index:6; background:#fff; color:var(--slate); border:3px solid var(--slate); border-radius:12px;
+          padding:5px 14px; font-weight:800; font-size:24px; opacity:0; }
+  .check { color:#2E8B57; }
+</style>
+
+</head>
+<body>
+<!-- ch03. Rupiah. Numbers: Rp1 juta, 0,37%, 18.203, 18.400, 18.364, 1,35%, 5.242, 17.800–18.200, 54 dolar (all spoken). -->
+<div id="stage">
+  <div id="world">
+    <div class="it budi" id="e1" style="left:440px;top:560px;"><div data-ex="neutral"></div><div data-ex="worried"></div></div>
+    <div class="it chip" id="e2" style="left:440px;top:270px;">Misalnya Pak Budi</div>
+    <div class="it lab" id="e3" style="left:440px;top:820px;font-size:28px">ilustrasi</div>
+    <div class="it card" id="e4" style="left:1340px;top:420px;width:820px">Tabungan <span class="acc">Rp1 juta</span><small>buat liburan ke luar negeri</small></div>
+    <div class="it card ink" id="e5" style="left:1340px;top:640px;width:820px">Kamis siang: rupiah<br><span style="color:var(--hi)">cetak rekor terlemah</span></div>
+    <div class="it hd" id="e6" style="left:2880px;top:230px;">Rupiah per dolar</div>
+    <div class="it x" id="e7" style="left:2880px;top:560px;"><svg width="1300" height="480" viewBox="0 0 1300 480" style="overflow:visible"><path d="M60 440 L1240 440" stroke="#3E5568" stroke-width="4"/><text x="150" y="475" text-anchor="middle" font-size="34" font-weight="800" fill="#3E5568">Sen</text><text x="480" y="475" text-anchor="middle" font-size="34" font-weight="800" fill="#3E5568">Sel</text><text x="810" y="475" text-anchor="middle" font-size="34" font-weight="800" fill="#3E5568">Rab</text><text x="1140" y="475" text-anchor="middle" font-size="34" font-weight="800" fill="#3E5568">Kam</text><text x="60" y="20" font-size="30" font-weight="800" fill="#3E5568">↑ rupiah melemah</text><circle cx="150" cy="369" r="18" fill="#FF5A36" stroke="#fff" stroke-width="6"/></svg></div>
+    <div class="it card" id="e8" style="left:2510px;top:539.3333333333333px;width:480px"><small style="margin:0 0 4px">Senin · menguat 0,37%</small><span class="acc" style="font-size:64px">Rp18.203</span></div>
+    <div class="it x" id="e9" style="left:2880px;top:560px;"><svg width="1300" height="480" viewBox="0 0 1300 480" style="overflow:visible"><path data-draw d="M150 369 L480 333 L810 197 L1140 155" pathLength="1" stroke="#FF5A36" stroke-width="12" fill="none" stroke-linecap="round" stroke-linejoin="round" style="stroke-dasharray:1;stroke-dashoffset:1"/><circle cx="480" cy="333" r="18" fill="#FF5A36" stroke="#fff" stroke-width="6"/><circle cx="810" cy="197" r="18" fill="#FF5A36" stroke="#fff" stroke-width="6"/><circle cx="1140" cy="155" r="18" fill="#FF5A36" stroke="#fff" stroke-width="6"/></svg></div>
+    <div class="it x" id="e10" style="left:2880px;top:560px;"><svg width="1300" height="480" viewBox="0 0 1300 480" style="overflow:visible"><path d="M60 107 L1240 107" stroke="#1B2430" stroke-width="5" stroke-dasharray="18 14"/><circle cx="1100" cy="107" r="14" fill="#1B2430"/></svg></div>
+    <div class="it chip" id="e11" style="left:3000px;top:356.6666666666667px;font-size:40px">Kamis siang: sempat lewat Rp18.400</div>
+    <div class="it stamp" id="e12" style="left:3440px;top:230px;font-size:70px">REKOR</div>
+    <div class="it card ink" id="e13" style="left:3330px;top:644.6666666666667px;width:420px"><small style="margin:0 0 4px">Kamis, ditutup</small><span style="font-size:64px">Rp18.364</span></div>
+    <div class="it hd" id="e14" style="left:4800px;top:250px;">Kata Bank Indonesia, penyebabnya</div>
+    <div class="it card" id="e15" style="left:4380px;top:430px;width:760px">Bunga AS<small>pasar memperkirakan naik</small></div>
+    <div class="it card" id="e16" style="left:5220px;top:430px;width:760px">Dolar<small>sedang kuat</small></div>
+    <div class="it card" id="e17" style="left:4380px;top:660px;width:760px">Status pasar saham kita<small>dikhawatirkan</small></div>
+    <div class="it card" id="e18" style="left:5220px;top:660px;width:760px">Kebutuhan dolar<small>perusahaan, di akhir bulan</small></div>
+    <div class="it card ink" id="e19" style="left:6720px;top:400px;width:420px"><span style="font-size:120px">BI</span><small>Bank Indonesia</small></div>
+    <div class="it chip acc" id="e20" style="left:6720px;top:600px;">terus masuk ke pasar</div>
+    <div class="it lab" id="e21" style="left:6720px;top:710px;">untuk menahan rupiah</div>
+    <div class="it hd" id="e22" style="left:8640px;top:260px;">Bursa saham <span class="acc">naik-turun</span></div>
+    <div class="it card" id="e23" style="left:8080px;top:520px;width:480px"><small style="margin:0 0 6px">Senin · IHSG</small><span style="font-size:96px;color:#2E8B57">+1,35%</span></div>
+    <div class="it card" id="e24" style="left:8640px;top:520px;width:480px"><small style="margin:0 0 6px">Rabu</small><span class="acc" style="font-size:96px">turun ▼</span></div>
+    <div class="it card ink" id="e25" style="left:9200px;top:520px;width:480px"><small style="margin:0 0 6px">Kamis, ditutup</small><span style="font-size:110px">5.242</span></div>
+    <div class="it hd" id="e26" style="left:10560px;top:250px;">Tapi ini yang menarik</div>
+    <div class="it chip acc" id="e27" style="left:10560px;top:350px;font-size:40px">Rabu, di DPR · asumsi BI untuk tahun depan</div>
+    <div class="it x" id="e28" style="left:10560px;top:560px;"><div style="position:relative;width:1400px;height:200px"><div style="position:absolute;left:0;right:0;top:96px;height:8px;background:#3E5568;border-radius:4px"></div><div style="position:absolute;left:175px;width:700px;top:70px;height:60px;background:#FFD23F;border-radius:14px"></div><div style="position:absolute;left:175px;top:140px;transform:translateX(-50%);font-weight:900;font-size:44px">Rp17.800</div><div style="position:absolute;left:875px;top:140px;transform:translateX(-50%);font-weight:900;font-size:44px">Rp18.200</div><div style="position:absolute;left:525px;top:76px;transform:translateX(-50%);font-weight:800;font-size:32px">asumsi BI</div></div></div>
+    <div class="it x" id="e29" style="left:11022.0px;top:560px;"><div style="position:relative;width:20px;height:200px"><div style="position:absolute;left:4px;top:40px;width:12px;height:120px;background:#FF5A36;border-radius:6px"></div><div style="position:absolute;left:10px;top:-14px;transform:translateX(-50%);white-space:nowrap;font-weight:900;font-size:40px;color:#FF5A36">sekarang Rp18.364</div></div></div>
+    <div class="it card" id="e30" style="left:10560px;top:760px;width:900px"><span class="acc">Lebih kuat</span> dari sekarang</div>
+    <div class="it budi" id="e31" style="left:11960px;top:560px;"><div data-ex="worried"></div><div data-ex="shocked"></div></div>
+    <div class="it chip" id="e32" style="left:11960px;top:270px;">Tabungan Pak Budi</div>
+    <div class="it card" id="e33" style="left:12860px;top:330px;width:620px"><span style="font-size:90px">Rp1 juta</span></div>
+    <div class="it arrow" id="e34" style="left:12860px;top:470px;">↓</div>
+    <div class="it stat" id="e35" style="left:12860px;top:610px;font-size:170px">≈ US$54</div>
+    <div class="it lab" id="e36" style="left:12860px;top:770px;font-size:30px;white-space:normal;width:900px">kurs tutup Kamis Rp18.364 · hitungan kami,<br>belum termasuk selisih money changer</div>
+    <div class="it stamp ink" id="e37" style="left:14400px;top:480px;font-size:72px">Bukan ajakan beli atau jual</div>
+    <div class="it lab" id="e38" style="left:14400px;top:620px;">dolar maupun saham</div>
+  </div>
+  <div id="card"><div class="kicker" id="cKick"></div><div class="title" id="cTitle"></div><div class="sub" id="cSub"></div></div>
+  
+  <div id="brand"><div class="dot"></div><b>Rangkumin Dong</b></div>
+  <div id="subs"></div>
+  <div id="progress"></div>
+</div>
+<script>
+window.CHAPTER = Number(location.pathname.split('/').slice(-2)[0]);
+const $ = (id) => document.getElementById(id);
+const T = window.TIMING; window.DURATION = T.duration;
+const ch = (window.WEEK?.chapters || []).find((c) => c.n === window.CHAPTER) || {};
+$('cKick').textContent = ch.kicker || ''; $('cTitle').textContent = ch.title || ''; $('cSub').textContent = window.WEEK?.dates || '';
+const T0 = 2.15;  // nothing pops under the 2 s title card
+const IT = [{id:"e1",tin:(K.at("c1")),tout:Infinity,rot:0,budi:[["neutral",(K.at("c1"))],["worried",(K.word("c1","kamis",0))]]},{id:"e2",tin:(K.at("c1")),tout:Infinity,rot:0},{id:"e3",tin:(K.at("c1")),tout:Infinity,rot:0},{id:"e4",tin:(K.word("c1","menabung",0)),tout:Infinity,rot:1.5},{id:"e5",tin:(K.word("c1","kamis",0)),tout:Infinity,rot:-1.5},{id:"e6",tin:(K.at("c2")),tout:Infinity,rot:0},{id:"e7",tin:(K.word("c2","senin",0)),tout:Infinity,rot:0,fade:1},{id:"e8",tin:(K.word("c2","037",0)),tout:Infinity,rot:-1.5},{id:"e9",tin:(K.at("c3")),tout:Infinity,rot:0,fade:1,draw:3.2},{id:"e10",tin:(K.word("c3","rp18400",0)),tout:Infinity,rot:0,fade:1},{id:"e11",tin:(K.word("c3","rp18400",0)),tout:Infinity,rot:0},{id:"e12",tin:(K.word("c3","rekor",0)),tout:Infinity,rot:-4},{id:"e13",tin:(K.word("c3","ditutup",0)),tout:Infinity,rot:1.5},{id:"e14",tin:(K.at("c4")),tout:Infinity,rot:0},{id:"e15",tin:(K.word("c4","pasar",0)),tout:Infinity,rot:-1},{id:"e16",tin:(K.word("c4","dolar",0)),tout:Infinity,rot:1},{id:"e17",tin:(K.word("c4","kekhawatiran",0)),tout:Infinity,rot:1},{id:"e18",tin:(K.word("c4","kebutuhan",0)),tout:Infinity,rot:-1},{id:"e19",tin:(K.at("c5")),tout:Infinity,rot:-1.5},{id:"e20",tin:(K.word("c5","terus",0)),tout:Infinity,rot:1},{id:"e21",tin:(K.word("c5","menahan",0)),tout:Infinity,rot:0},{id:"e22",tin:(K.at("c6")),tout:Infinity,rot:0},{id:"e23",tin:(K.word("c6","135",0)),tout:Infinity,rot:-2},{id:"e24",tin:(K.word("c6","turun",0)),tout:Infinity,rot:1},{id:"e25",tin:(K.word("c6","5242",0)),tout:Infinity,rot:2},{id:"e26",tin:(K.at("c7")),tout:Infinity,rot:0},{id:"e27",tin:(K.word("c7","rabu",0)),tout:Infinity,rot:0},{id:"e28",tin:(K.word("c7","rp17800",0)),tout:Infinity,rot:0,fade:1},{id:"e29",tin:(K.word("c7","sekarang",0)),tout:Infinity,rot:0,fade:1},{id:"e30",tin:(K.word("c7","lebih",0)),tout:Infinity,rot:-1},{id:"e31",tin:(K.at("c8")),tout:Infinity,rot:0,budi:[["worried",(K.at("c8"))],["shocked",(K.word("c8","54",0))]]},{id:"e32",tin:(K.at("c8")),tout:Infinity,rot:0},{id:"e33",tin:(K.word("c8","rp1",0)),tout:Infinity,rot:-1},{id:"e34",tin:(K.word("c8","rp1",0)+0.4),tout:Infinity,rot:0},{id:"e35",tin:(K.word("c8","54",0)),tout:Infinity,rot:0},{id:"e36",tin:(K.word("c8","54",0)+0.5),tout:Infinity,rot:0},{id:"e37",tin:(K.at("c9")),tout:Infinity,rot:-2},{id:"e38",tin:(K.word("c9","dolar",0)),tout:Infinity,rot:0}].map((o) => ({...o, tin: Math.max(T0, o.tin), el: $(o.id)}));
+const LOW = [].map(([id, a, b]) => [$(id), Math.max(T0 + 0.6, a), b]);
+const CAM = [{t:0,x:960,y:540,z:1},{t:(K.at("c2"))-0.35,x:2880,y:540,z:1},{t:(K.at("c4"))-0.35,x:4800,y:540,z:1},{t:(K.at("c5"))-0.35,x:6720,y:540,z:1},{t:(K.at("c6"))-0.35,x:8640,y:540,z:1},{t:(K.at("c7"))-0.35,x:10560,y:540,z:1},{t:(K.at("c8"))-0.35,x:12480,y:540,z:1},{t:(K.at("c9"))-0.35,x:14400,y:540,z:1}];
+IT.forEach((o) => { if (o.budi) o.el.querySelectorAll('[data-ex]').forEach((d) => { d.innerHTML = K.budi(d.dataset.ex); d.classList.add('sticker-svg'); }); });
+const fmt = (v, dec) => v.toLocaleString('id-ID', { minimumFractionDigits: dec, maximumFractionDigits: dec });
+function seek(t) {
+  K.cam16($('world'), CAM, t);
+  K.titleCard($('card'), t, 2.0);
+  IT.forEach((o) => {
+    if (o.grow) { const s = K.spring(t - o.tin, 180, 20); o.el.style.opacity = t >= o.tin ? 1 : 0;
+      o.el.style.transformOrigin = o.grow === 'down' ? '50% 0' : '50% 100%';
+      o.el.style.transform = `translate(-50%,${o.grow === 'down' ? '0' : '-100%'}) scaleY(${Math.max(0, s)})`; }
+    else if (o.fade) { o.el.style.opacity = K.clamp((t - o.tin) / 0.3) * (1 - K.clamp((t - o.tout) / 0.25)); o.el.style.transform = 'translate(-50%,-50%)'; }
+    else K.pop(o.el, t, o.tin, o.tout, o.rot);
+    if (o.draw) o.el.querySelectorAll('[data-draw]').forEach((p) => { p.style.strokeDashoffset = 1 - K.easeInOut(K.prog(t, o.tin, o.draw)); });
+    if (o.cnt) { const [a, b, dec, t1] = o.cnt; $(o.id + 'n').textContent = fmt(a + (b - a) * K.easeOut(K.prog(t, Math.max(T0, t1), 1.0)), dec); }
+    if (o.budi) { let cur = o.budi[0][0]; o.budi.forEach(([ex, tt]) => { if (t >= tt) cur = ex; });
+      o.el.querySelectorAll('[data-ex]').forEach((d) => { d.style.display = d.dataset.ex === cur ? 'block' : 'none'; });
+      o.el.style.transform += ` translateY(${Math.sin(t * 2.2) * 6}px)`; }
+  });
+  LOW.forEach(([el, a, b]) => K.lower(el, t, a, b));
+  K.subtitles($('subs'), t);
+  K.weekly(t);
+}
+window.seek = seek;
+</script>
+</body>
+</html>

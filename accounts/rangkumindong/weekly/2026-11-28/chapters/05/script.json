@@ -1,0 +1,60 @@
+{
+ "direction": "[clear, steady weekly recap; neutral, attributed]",
+ "lines": [
+  {
+   "id": "e1",
+   "tag": "[bright]",
+   "text": "Minggu ini, tiga kabar AI. Dua soal saham raksasa, satu soal dompet kamu.",
+   "say": "Minggu ini, tiga kabar, E I. Dua soal saham raksasa, satu soal dompet kamu."
+  },
+  {
+   "id": "e2",
+   "tag": "[explaining]",
+   "text": "Pertama, Anthropic, pembuat Claude. Debut di Nasdaq 19 November, harga perdananya 83 dolar. Hari pertama, ditutup 97 dolar.",
+   "say": "Pertama, Anthropic, pembuat Claude. Debut di Nasdaq sembilan belas November, harga perdananya delapan puluh tiga dolar. Hari pertama, ditutup sembilan puluh tujuh dolar."
+  },
+  {
+   "id": "e3",
+   "tag": "[matter-of-fact]",
+   "text": "Lalu turun. Selasa, sebelum pasar buka, sahamnya sempat di bawah harga IPO, menurut Kontan.",
+   "say": "Lalu turun. Selasa, sebelum pasar buka, sahamnya sempat di bawah harga, ai pi o, menurut Kontan."
+  },
+  {
+   "id": "e4",
+   "tag": "[storytelling]",
+   "text": "Kedua, Nvidia. Jensen Huang mundur sebagai CEO 12 November. Senin ini, dewan mengangkatnya lagi.",
+   "say": "Kedua, Nvidia. Jensen Huang mundur sebagai, si i o, dua belas November. Senin ini, dewan mengangkatnya lagi."
+  },
+  {
+   "id": "e5",
+   "tag": "[building]",
+   "text": "Hari itu saham Nvidia naik 31,48 persen. Nilai pasarnya bertambah hampir 1 triliun dolar, dalam sehari.",
+   "say": "Hari itu saham Nvidia naik tiga puluh satu koma empat delapan persen. Nilai pasarnya bertambah hampir satu triliun dolar, dalam sehari."
+  },
+  {
+   "id": "e6",
+   "tag": "[quick]",
+   "text": "Besoknya? Turun 5,86 persen.",
+   "say": "Besoknya? Turun lima koma delapan enam persen."
+  },
+  {
+   "id": "e7",
+   "tag": "[friendly]",
+   "text": "Ketiga, yang paling dekat: Telkomsel merilis OCTA Token. Isi saldo mulai Rp100 ribu, untuk puluhan model AI, tanpa langganan bulanan.",
+   "say": "Ketiga, yang paling dekat: Telkomsel merilis Okta Token. Isi saldo mulai seratus ribu rupiah, untuk puluhan model, E I, tanpa langganan bulanan."
+  },
+  {
+   "id": "e8",
+   "tag": "[turning point]",
+   "text": "Tapi yang belum dijawab: Rp100 ribu itu dapat berapa kali tanya? Harga per pemakaian belum disebut.",
+   "say": "Tapi yang belum dijawab: seratus ribu itu dapat berapa kali tanya? Harga per pemakaian belum disebut."
+  },
+  {
+   "id": "e9",
+   "tag": "[warm]",
+   "text": "Jadi minggu ini, angka AI di bursa naik-turun cepat. Angka di dompet kamu, masih ditunggu.",
+   "say": "Jadi minggu ini, angka, E I, di bursa naik-turun cepat. Angka di dompet kamu, masih ditunggu."
+  }
+ ],
+ "tail": 0.6
+}

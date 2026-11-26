@@ -1,0 +1,59 @@
+{
+ "direction": "[clear, steady weekly recap; neutral, attributed]",
+ "lines": [
+  {
+   "id": "c1",
+   "tag": "[warm, storytelling]",
+   "text": "Misalnya Pak Budi menabung Rp1 juta buat liburan ke luar negeri. Kamis siang, dia baca: rupiah cetak rekor terlemah.",
+   "say": "Misalnya Pak Budi menabung satu juta rupiah buat liburan ke luar negeri. Kamis siang, dia baca: rupiah cetak rekor terlemah."
+  },
+  {
+   "id": "c2",
+   "tag": "[explaining]",
+   "text": "Padahal minggu ini dibuka bagus. Senin, rupiah menguat 0,37 persen, ke Rp18.203 per dolar.",
+   "say": "Padahal minggu ini dibuka bagus. Senin, rupiah menguat nol koma tiga tujuh persen, ke delapan belas ribu dua ratus tiga rupiah per dolar."
+  },
+  {
+   "id": "c3",
+   "tag": "[building]",
+   "text": "Lalu melemah lagi. Kamis siang, rupiah sempat lewat Rp18.400 per dolar, rekor terlemah baru. Sorenya ditutup di Rp18.364.",
+   "say": "Lalu melemah lagi. Kamis siang, rupiah sempat lewat delapan belas ribu empat ratus per dolar, rekor terlemah baru. Sorenya ditutup di delapan belas ribu tiga ratus enam puluh empat."
+  },
+  {
+   "id": "c4",
+   "tag": "[explaining]",
+   "text": "Kata Bank Indonesia, penyebabnya: pasar memperkirakan bunga AS naik, dolar sedang kuat, kekhawatiran soal status pasar saham kita, dan kebutuhan dolar perusahaan di akhir bulan.",
+   "say": "Kata Bank Indonesia, penyebabnya: pasar memperkirakan bunga A Es naik, dolar sedang kuat, kekhawatiran soal status pasar saham kita, dan kebutuhan dolar perusahaan di akhir bulan."
+  },
+  {
+   "id": "c5",
+   "tag": "[matter-of-fact]",
+   "text": "BI bilang terus masuk ke pasar untuk menahan rupiah.",
+   "say": "Be I bilang terus masuk ke pasar untuk menahan rupiah."
+  },
+  {
+   "id": "c6",
+   "tag": "[quick]",
+   "text": "Bursa saham naik-turun. IHSG naik 1,35 persen Senin, turun Rabu, lalu Kamis ditutup di 5.242.",
+   "say": "Bursa saham naik-turun. I Ha Es Ge naik satu koma tiga lima persen Senin, turun Rabu, lalu Kamis ditutup di lima ribu dua ratus empat puluh dua."
+  },
+  {
+   "id": "c7",
+   "tag": "[turning point]",
+   "text": "Tapi ini yang menarik. Rabu di DPR, BI memakai asumsi rupiah tahun depan Rp17.800 sampai Rp18.200. Lebih kuat dari sekarang.",
+   "say": "Tapi ini yang menarik. Rabu di, De Pe Er, Be I memakai asumsi rupiah tahun depan, tujuh belas ribu delapan ratus, sampai delapan belas ribu dua ratus. Lebih kuat dari sekarang."
+  },
+  {
+   "id": "c8",
+   "tag": "[warm, payoff]",
+   "text": "Lalu tabungan Pak Budi? Di kurs penutupan Kamis, Rp1 juta itu cuma sekitar 54 dolar.",
+   "say": "Lalu tabungan Pak Budi? Di kurs penutupan Kamis, satu juta rupiah itu cuma sekitar lima puluh empat dolar."
+  },
+  {
+   "id": "c9",
+   "tag": "[calm]",
+   "text": "Ingat, ini bukan ajakan beli atau jual dolar maupun saham."
+  }
+ ],
+ "tail": 0.6
+}

@@ -1,0 +1,416 @@
+{
+  "title": "Rangkumin Seminggu",
+  "dates": "21–27 Nov 2026",
+  "episode": 6,
+  "direction": "[clear, steady weekly recap; neutral, attributed]",
+  "voice": "male:Pratama",
+  "format": "weekly",
+  "hook_style": "question_reveal",
+  "chapters": [
+    {
+      "n": 0,
+      "kicker": "INTRO",
+      "title": "Minggu ini",
+      "lines": [
+        {
+          "id": "i1",
+          "tag": "[energetic]",
+          "text": "Dua nama masuk, rupiah tembus rekor. Lalu apa?"
+        },
+        {
+          "id": "i2",
+          "tag": "[quick, building]",
+          "text": "Minggu ini: Presiden Prabowo mengusulkan dua calon wapres ke MPR. Dan Listyo Sigit jadi tersangka dugaan makar, lalu tidak hadir di sidang etiknya, kata Polri.",
+          "say": "Minggu ini: Presiden Prabowo mengusulkan dua calon wapres ke, Em Pe Er. Dan Listyo Sigit jadi tersangka dugaan makar, lalu tidak hadir di sidang etiknya, kata Polri."
+        },
+        {
+          "id": "i3",
+          "tag": "[quick, playful]",
+          "text": "Plus: rupiah cetak rekor terlemah, AS ancam tarif sampai 18 persen, dan saham raksasa AI naik-turun.",
+          "say": "Plus: rupiah cetak rekor terlemah, A Es ancam tarif sampai delapan belas persen, dan saham raksasa, E I, naik-turun."
+        },
+        {
+          "id": "rd",
+          "tag": "[bright, signature]",
+          "text": "Rangkumin dong!",
+          "tagline": true
+        },
+        {
+          "id": "i4",
+          "tag": "[friendly]",
+          "text": "Ini Rangkumin Seminggu, 21 sampai 27 November. Di akhir: satu hari Senin yang bisa menentukan sidang etik Listyo.",
+          "say": "Ini Rangkumin Seminggu, dua puluh satu sampai dua puluh tujuh November. Di akhir: satu hari Senin yang bisa menentukan sidang etik Listyo."
+        }
+      ]
+    },
+    {
+      "n": 1,
+      "kicker": "BAB 1",
+      "title": "Dua nama calon wapres",
+      "badge": "PART 6",
+      "lines": [
+        {
+          "id": "a1",
+          "tag": "[serious]",
+          "text": "Senin, 23 November. Dua nama yang ditunggu sejak kursi wapres kosong akhirnya masuk ke MPR.",
+          "say": "Senin, dua puluh tiga November. Dua nama yang ditunggu sejak kursi wapres kosong, akhirnya masuk ke, Em Pe Er."
+        },
+        {
+          "id": "a2",
+          "tag": "[clear]",
+          "text": "Presiden Prabowo mengusulkan dua menterinya: Menteri Pertanian Andi Amran Sulaiman, dan Sugiono."
+        },
+        {
+          "id": "a3",
+          "tag": "[matter-of-fact]",
+          "text": "Nama yang paling sering disebut pekan lalu, Wakil Ketua DPR Sufmi Dasco Ahmad, tidak ada di surat itu.",
+          "say": "Nama yang paling sering disebut pekan lalu, Wakil Ketua, De Pe Er, Sufmi Dasco Ahmad, tidak ada di surat itu."
+        },
+        {
+          "id": "a4",
+          "tag": "[explaining]",
+          "text": "Selasa, Prabowo dan Dasco bertemu empat mata di Istana. Kata Sekretariat Kabinet, Dasco menyampaikan aspirasi publik dan laporan yang diterima DPR.",
+          "say": "Selasa, Prabowo dan Dasco bertemu empat mata di Istana. Kata Sekretariat Kabinet, Dasco menyampaikan aspirasi publik, dan laporan yang diterima, De Pe Er."
+        },
+        {
+          "id": "a5",
+          "tag": "[even]",
+          "text": "Reaksi partai beragam. Menurut detik, Demokrat mendukung, Golkar menyebut keduanya layak. PKB dan PDIP menahan diri, atau mempertanyakan pilihannya.",
+          "say": "Reaksi partai beragam. Menurut detik, Demokrat mendukung, Golkar menyebut keduanya layak. Pe Ka Be dan Pe De I Pe menahan diri, atau mempertanyakan pilihannya."
+        },
+        {
+          "id": "a6",
+          "tag": "[explaining]",
+          "text": "Lalu verifikasi. Tim MPR tidak mendatangi sekolah kedua calon. Ijazah SMA mereka dicek lewat Kemendikdasmen, di Jakarta.",
+          "say": "Lalu verifikasi. Tim, Em Pe Er, tidak mendatangi sekolah kedua calon. Ijazah Es Em A mereka dicek lewat Kementerian Pendidikan Dasar dan Menengah, di Jakarta."
+        },
+        {
+          "id": "a7",
+          "tag": "[matter-of-fact]",
+          "text": "Kamis, keduanya menjalani tes kesehatan di RSPAD. Hasilnya sudah diserahkan ke MPR, tapi isinya dirahasiakan, karena rekam medis.",
+          "say": "Kamis, keduanya menjalani tes kesehatan di, Er Es Pe A De. Hasilnya sudah diserahkan ke, Em Pe Er, tapi isinya dirahasiakan, karena rekam medis."
+        },
+        {
+          "id": "a8",
+          "tag": "[turning point]",
+          "text": "Tapi ingat, yang memilih nanti bukan kita lewat pemilu. Ada 732 anggota MPR: 580 dari DPR, 152 dari DPD. Suara terbanyak menang.",
+          "say": "Tapi ingat, yang memilih nanti bukan kita lewat pemilu. Ada tujuh ratus tiga puluh dua anggota, Em Pe Er: lima ratus delapan puluh dari, De Pe Er, seratus lima puluh dua dari, De Pe De. Suara terbanyak menang."
+        },
+        {
+          "id": "a9",
+          "tag": "[clear]",
+          "text": "Paripurna pemilihannya kini dijadwalkan Jumat, 11 Desember, kata MPR. Digeser dari 9 Desember, setelah ada kritik bahwa tenggat 14 hari harus dihitung hari kerja. Alasannya, kata MPR: kehati-hatian.",
+          "say": "Paripurna pemilihannya kini dijadwalkan Jumat, sebelas Desember, kata, Em Pe Er. Digeser dari sembilan Desember, setelah ada kritik bahwa tenggat empat belas hari harus dihitung hari kerja. Alasannya, kata, Em Pe Er: kehati-hatian."
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "kicker": "BAB 2",
+      "title": "Listyo: tersangka, kursi kosong",
+      "badge": "PART 5",
+      "lines": [
+        {
+          "id": "b1",
+          "tag": "[serious]",
+          "text": "Minggu lalu, kata Kapolri, belum ada tersangka dugaan makar. Masih proses."
+        },
+        {
+          "id": "b2",
+          "tag": "[serious, building]",
+          "text": "Senin malam, itu berubah. Kabareskrim Komjen Asep Safrudin mengumumkan enam tersangka dugaan makar. Salah satunya, eks Kapolri Listyo Sigit Prabowo.",
+          "say": "Senin malam, itu berubah. Kabareskrim, Komjen Asep Safrudin, mengumumkan enam tersangka dugaan makar. Salah satunya, eks Kapolri, Listyo Sigit Prabowo."
+        },
+        {
+          "id": "b3",
+          "tag": "[explaining]",
+          "text": "Lima lainnya juga polisi: tiga jenderal bintang dua, satu bintang satu, dan satu komisaris besar."
+        },
+        {
+          "id": "b4",
+          "tag": "[matter-of-fact]",
+          "text": "Ancaman terberat di pasal yang dipakai: hukuman mati. Motifnya, kata polisi, mempertahankan jabatan Kapolri."
+        },
+        {
+          "id": "b5",
+          "tag": "[explaining]",
+          "text": "Selasa, salah satu tersangka, Brigjen Tedjo Kusumo, dipecat lewat sidang etik. Dia dilaporkan mengajukan banding.",
+          "say": "Selasa, salah satu tersangka, Brigjen Tedjo Kusumo, dipecat lewat sidang etik. Dia dilaporkan, mengajukan banding."
+        },
+        {
+          "id": "b6",
+          "tag": "[matter-of-fact]",
+          "text": "Di kasus penyadapannya, Bareskrim juga menetapkan seorang warga sipil berinisial NE sebagai tersangka.",
+          "say": "Di kasus penyadapannya, Bareskrim juga menetapkan seorang warga sipil berinisial, En E, sebagai tersangka."
+        },
+        {
+          "id": "b7",
+          "tag": "[storytelling]",
+          "text": "Lalu Kamis pagi, giliran sidang etik Listyo. Lima jenderal bintang tiga sudah duduk, dipimpin Komjen Hendro Pandowo. Kursi Listyo kosong."
+        },
+        {
+          "id": "b8",
+          "tag": "[clear]",
+          "text": "Kata Kadiv Humas Polri, Listyo menandatangani berita acara penolakan hadir. Alasannya tidak dijelaskan. Sidang ditunda ke Senin, 30 November.",
+          "say": "Kata Kadiv Humas Polri, Listyo menandatangani berita acara penolakan hadir. Alasannya tidak dijelaskan. Sidang ditunda ke Senin, tiga puluh November."
+        },
+        {
+          "id": "b9",
+          "tag": "[calm, careful]",
+          "text": "Ingat: semua ini masih keterangan polisi. Tersangka belum tentu bersalah. Yang memutuskan pidananya nanti pengadilan."
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "kicker": "BAB 3",
+      "title": "Rupiah cetak rekor terlemah",
+      "lines": [
+        {
+          "id": "c1",
+          "tag": "[warm, storytelling]",
+          "text": "Misalnya Pak Budi menabung Rp1 juta buat liburan ke luar negeri. Kamis siang, dia baca: rupiah cetak rekor terlemah.",
+          "say": "Misalnya Pak Budi menabung satu juta rupiah buat liburan ke luar negeri. Kamis siang, dia baca: rupiah cetak rekor terlemah."
+        },
+        {
+          "id": "c2",
+          "tag": "[explaining]",
+          "text": "Padahal minggu ini dibuka bagus. Senin, rupiah menguat 0,37 persen, ke Rp18.203 per dolar.",
+          "say": "Padahal minggu ini dibuka bagus. Senin, rupiah menguat nol koma tiga tujuh persen, ke delapan belas ribu dua ratus tiga rupiah per dolar."
+        },
+        {
+          "id": "c3",
+          "tag": "[building]",
+          "text": "Lalu melemah lagi. Kamis siang, rupiah sempat lewat Rp18.400 per dolar, rekor terlemah baru. Sorenya ditutup di Rp18.364.",
+          "say": "Lalu melemah lagi. Kamis siang, rupiah sempat lewat delapan belas ribu empat ratus per dolar, rekor terlemah baru. Sorenya ditutup di delapan belas ribu tiga ratus enam puluh empat."
+        },
+        {
+          "id": "c4",
+          "tag": "[explaining]",
+          "text": "Kata Bank Indonesia, penyebabnya: pasar memperkirakan bunga AS naik, dolar sedang kuat, kekhawatiran soal status pasar saham kita, dan kebutuhan dolar perusahaan di akhir bulan.",
+          "say": "Kata Bank Indonesia, penyebabnya: pasar memperkirakan bunga A Es naik, dolar sedang kuat, kekhawatiran soal status pasar saham kita, dan kebutuhan dolar perusahaan di akhir bulan."
+        },
+        {
+          "id": "c5",
+          "tag": "[matter-of-fact]",
+          "text": "BI bilang terus masuk ke pasar untuk menahan rupiah.",
+          "say": "Be I bilang terus masuk ke pasar untuk menahan rupiah."
+        },
+        {
+          "id": "c6",
+          "tag": "[quick]",
+          "text": "Bursa saham naik-turun. IHSG naik 1,35 persen Senin, turun Rabu, lalu Kamis ditutup di 5.242.",
+          "say": "Bursa saham naik-turun. I Ha Es Ge naik satu koma tiga lima persen Senin, turun Rabu, lalu Kamis ditutup di lima ribu dua ratus empat puluh dua."
+        },
+        {
+          "id": "c7",
+          "tag": "[turning point]",
+          "text": "Tapi ini yang menarik. Rabu di DPR, BI memakai asumsi rupiah tahun depan Rp17.800 sampai Rp18.200. Lebih kuat dari sekarang.",
+          "say": "Tapi ini yang menarik. Rabu di, De Pe Er, Be I memakai asumsi rupiah tahun depan, tujuh belas ribu delapan ratus, sampai delapan belas ribu dua ratus. Lebih kuat dari sekarang."
+        },
+        {
+          "id": "c8",
+          "tag": "[warm, payoff]",
+          "text": "Lalu tabungan Pak Budi? Di kurs penutupan Kamis, Rp1 juta itu cuma sekitar 54 dolar.",
+          "say": "Lalu tabungan Pak Budi? Di kurs penutupan Kamis, satu juta rupiah itu cuma sekitar lima puluh empat dolar."
+        },
+        {
+          "id": "c9",
+          "tag": "[calm]",
+          "text": "Ingat, ini bukan ajakan beli atau jual dolar maupun saham."
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "kicker": "BAB 4",
+      "title": "AS ancam tarif sampai 18%",
+      "lines": [
+        {
+          "id": "d1",
+          "tag": "[storytelling]",
+          "text": "Rabu, waktu Amerika. Kantor Perwakilan Dagang AS, USTR, merilis hasil satu penyelidikan.",
+          "say": "Rabu, waktu Amerika. Kantor Perwakilan Dagang A Es, yu es ti ar, merilis hasil satu penyelidikan."
+        },
+        {
+          "id": "d2",
+          "tag": "[explaining]",
+          "text": "Isinya soal kelebihan kapasitas produksi, di 14 negara dan wilayah ekonomi. Indonesia salah satunya.",
+          "say": "Isinya soal kelebihan kapasitas produksi, di empat belas negara dan wilayah ekonomi. Indonesia salah satunya."
+        },
+        {
+          "id": "d3",
+          "tag": "[serious]",
+          "text": "Usulannya: tarif tambahan sampai 18 persen untuk barang dari Indonesia.",
+          "say": "Usulannya: tarif tambahan sampai delapan belas persen, untuk barang dari Indonesia."
+        },
+        {
+          "id": "d4",
+          "tag": "[quick]",
+          "text": "Bukan cuma kita. Menurut USTR, Malaysia dan Kamboja juga sampai 18 persen. Vietnam sampai 35, India sampai 25, bisa turun kalau mereka capai kesepakatan dagang.",
+          "say": "Bukan cuma kita. Menurut, yu es ti ar, Malaysia dan Kamboja juga sampai delapan belas persen. Vietnam sampai tiga puluh lima, India sampai dua puluh lima, bisa turun kalau mereka capai kesepakatan dagang."
+        },
+        {
+          "id": "d5",
+          "tag": "[explaining]",
+          "text": "Sektor yang disebut untuk Indonesia: tekstil dan pakaian, tambang dan logam, serta energi terbarukan."
+        },
+        {
+          "id": "d5b",
+          "tag": "[explaining]",
+          "text": "Tarif dibayar importir di Amerika. Kalau naik, barang kita bisa jadi lebih mahal di sana, dan pesanan ke pabrik di sini bisa berkurang."
+        },
+        {
+          "id": "d6",
+          "tag": "[even]",
+          "text": "Kata Menteri Perindustrian, Indonesia akan mencari pasar ekspor baru yang terbuka. Menurut Suara.com, pemerintah juga mengejar pengecualian.",
+          "say": "Kata Menteri Perindustrian, Indonesia akan mencari pasar ekspor baru yang terbuka. Menurut Suara dot com, pemerintah juga mengejar pengecualian."
+        },
+        {
+          "id": "d7",
+          "tag": "[turning point]",
+          "text": "Tapi ini masih usulan, belum berlaku. Dengar pendapat publiknya dijadwalkan Januari 2027.",
+          "say": "Tapi ini masih usulan, belum berlaku. Dengar pendapat publiknya dijadwalkan Januari dua ribu dua puluh tujuh."
+        },
+        {
+          "id": "d8",
+          "tag": "[clear]",
+          "text": "Jadi yang ditunggu: angka 18 persen itu turun, tetap, atau ada pengecualian. Buat pekerja pabrik tekstil dan garmen, itu bukan sekadar angka.",
+          "say": "Jadi yang ditunggu: angka delapan belas persen itu turun, tetap, atau ada pengecualian. Buat pekerja pabrik tekstil dan garmen, itu bukan sekadar angka."
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "kicker": "BAB 5",
+      "title": "Minggu AI: naik, turun, isi saldo",
+      "lines": [
+        {
+          "id": "e1",
+          "tag": "[bright]",
+          "text": "Minggu ini, tiga kabar AI. Dua soal saham raksasa, satu soal dompet kamu.",
+          "say": "Minggu ini, tiga kabar, E I. Dua soal saham raksasa, satu soal dompet kamu."
+        },
+        {
+          "id": "e2",
+          "tag": "[explaining]",
+          "text": "Pertama, Anthropic, pembuat Claude. Debut di Nasdaq 19 November, harga perdananya 83 dolar. Hari pertama, ditutup 97 dolar.",
+          "say": "Pertama, Anthropic, pembuat Claude. Debut di Nasdaq sembilan belas November, harga perdananya delapan puluh tiga dolar. Hari pertama, ditutup sembilan puluh tujuh dolar."
+        },
+        {
+          "id": "e3",
+          "tag": "[matter-of-fact]",
+          "text": "Lalu turun. Selasa, sebelum pasar buka, sahamnya sempat di bawah harga IPO, menurut Kontan.",
+          "say": "Lalu turun. Selasa, sebelum pasar buka, sahamnya sempat di bawah harga, ai pi o, menurut Kontan."
+        },
+        {
+          "id": "e4",
+          "tag": "[storytelling]",
+          "text": "Kedua, Nvidia. Jensen Huang mundur sebagai CEO 12 November. Senin ini, dewan mengangkatnya lagi.",
+          "say": "Kedua, Nvidia. Jensen Huang mundur sebagai, si i o, dua belas November. Senin ini, dewan mengangkatnya lagi."
+        },
+        {
+          "id": "e5",
+          "tag": "[building]",
+          "text": "Hari itu saham Nvidia naik 31,48 persen. Nilai pasarnya bertambah hampir 1 triliun dolar, dalam sehari.",
+          "say": "Hari itu saham Nvidia naik tiga puluh satu koma empat delapan persen. Nilai pasarnya bertambah hampir satu triliun dolar, dalam sehari."
+        },
+        {
+          "id": "e6",
+          "tag": "[quick]",
+          "text": "Besoknya? Turun 5,86 persen.",
+          "say": "Besoknya? Turun lima koma delapan enam persen."
+        },
+        {
+          "id": "e7",
+          "tag": "[friendly]",
+          "text": "Ketiga, yang paling dekat: Telkomsel merilis OCTA Token. Isi saldo mulai Rp100 ribu, untuk puluhan model AI, tanpa langganan bulanan.",
+          "say": "Ketiga, yang paling dekat: Telkomsel merilis Okta Token. Isi saldo mulai seratus ribu rupiah, untuk puluhan model, E I, tanpa langganan bulanan."
+        },
+        {
+          "id": "e8",
+          "tag": "[turning point]",
+          "text": "Tapi yang belum dijawab: Rp100 ribu itu dapat berapa kali tanya? Harga per pemakaian belum disebut.",
+          "say": "Tapi yang belum dijawab: seratus ribu itu dapat berapa kali tanya? Harga per pemakaian belum disebut."
+        },
+        {
+          "id": "e9",
+          "tag": "[warm]",
+          "text": "Jadi minggu ini, angka AI di bursa naik-turun cepat. Angka di dompet kamu, masih ditunggu.",
+          "say": "Jadi minggu ini, angka, E I, di bursa naik-turun cepat. Angka di dompet kamu, masih ditunggu."
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "kicker": "MINGGU DEPAN",
+      "title": "Catat tanggalnya",
+      "lines": [
+        {
+          "id": "g0",
+          "tag": "[friendly]",
+          "text": "Cek janji minggu lalu. Tenggat dua nama wapres, Rabu 25 November? Namanya masuk lebih cepat, Senin.",
+          "say": "Cek janji minggu lalu. Tenggat dua nama wapres, Rabu dua puluh lima November? Namanya masuk lebih cepat, Senin."
+        },
+        {
+          "id": "g0b",
+          "tag": "[friendly, brisk]",
+          "text": "Laporan keuangan Danantara akhirnya rilis Rabu: laba bersih Rp203,4 triliun, untuk April sampai Desember 2025. Dan sidang etik Listyo memang digelar, tapi tanpa Listyo.",
+          "say": "Laporan keuangan Danantara akhirnya rilis Rabu: laba bersih dua ratus tiga koma empat triliun rupiah, untuk April sampai Desember dua ribu dua puluh lima. Dan sidang etik Listyo memang digelar, tapi tanpa Listyo."
+        },
+        {
+          "id": "g1",
+          "tag": "[friendly, brisk]",
+          "text": "Oke, minggu depan. Catat tanggalnya."
+        },
+        {
+          "id": "g2",
+          "tag": "[clear]",
+          "text": "Sejak Jumat, 27 November, pendaftaran CPNS 2026 dibuka. Ada 154.052 formasi.",
+          "say": "Sejak Jumat, dua puluh tujuh November, pendaftaran, Se Pe En Es, dua ribu dua puluh enam dibuka. Ada seratus lima puluh empat ribu, lima puluh dua formasi."
+        },
+        {
+          "id": "g3",
+          "tag": "[clear]",
+          "text": "Senin, 30 November: batas penetapan upah minimum sektoral kabupaten dan kota, UMSK. Buat nasabah BNI: akses BNI Mobile Banking ditutup bertahap sampai hari itu, dan berhenti total 21 Desember.",
+          "say": "Senin, tiga puluh November: batas penetapan upah minimum sektoral kabupaten dan kota, U Em Es Ka. Buat nasabah, Be En I: akses Be En I Mobile Banking ditutup bertahap sampai hari itu, dan berhenti total dua puluh satu Desember."
+        },
+        {
+          "id": "g4",
+          "tag": "[clear]",
+          "text": "Selasa, 1 Desember: MPR dijadwalkan mengumumkan hasil verifikasi dan tes kesehatan dua calon wapres. Pemilihannya, Jumat 11 Desember.",
+          "say": "Selasa, satu Desember: Em Pe Er dijadwalkan mengumumkan hasil verifikasi dan tes kesehatan dua calon wapres. Pemilihannya, Jumat sebelas Desember."
+        },
+        {
+          "id": "g5",
+          "tag": "[building, payoff]",
+          "text": "Dan ini hari Senin yang kami janjikan di awal: 30 November, jam 9 pagi WIB. Panggilan kedua sidang etik Listyo.",
+          "say": "Dan ini hari Senin yang kami janjikan di awal: tiga puluh November, jam sembilan pagi, We I Be. Panggilan kedua sidang etik Listyo."
+        },
+        {
+          "id": "g6",
+          "tag": "[serious, clear]",
+          "text": "Kata Polri, kalau dia absen lagi, sidang jalan tanpa dia. Putusannya final, dan hak bandingnya hilang."
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "kicker": "OUTRO",
+      "title": "Sampai Sabtu depan",
+      "tail": 1.2,
+      "lines": [
+        {
+          "id": "o1",
+          "tag": "[warm, asking the viewer]",
+          "text": "Minggu ini: dua nama masuk, satu kursi sidang kosong, dan rupiah di rekor terlemah. Menurutmu, mana yang paling menentukan minggu depan? Kenapa? Tulis di komentar."
+        },
+        {
+          "id": "o2",
+          "tag": "[friendly, upbeat]",
+          "text": "Follow Rangkumin Dong. Rangkumin Seminggu, tiap Sabtu pagi!"
+        }
+      ]
+    }
+  ]
+}
