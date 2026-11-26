@@ -1,0 +1,146 @@
+{
+ "direction": "[calm explainer, strictly neutral, brisk]",
+ "voice": "male:Pratama",
+ "format": "standard",
+ "hook_style": "question_reveal",
+ "subs": "word",
+ "storyline": "listyo-sigit-penyadapan",
+ "part": 4,
+ "disclaimer": "Sidang etik bukan sidang pidana. Status tersangka bukan putusan bersalah.",
+ "title_card": "TOLAK HADIR / SIDANG ETIK",
+ "hook_b": "",
+ "lines": [
+  {
+   "id": "h1",
+   "tag": "[serious, direct]",
+   "text": "Mantan Kapolri menolak datang ke sidang etiknya, kata Polri.",
+   "say": "Mantan Kapolri menolak datang ke sidang etiknya, kata Pol-ri."
+  },
+  {
+   "id": "h2",
+   "tag": "[curious, teasing]",
+   "text": "Absen berapa kali, sidang jalan tanpa dia?",
+   "say": "Absen berapa kali, sidang jalan tanpa dia?"
+  },
+  {
+   "id": "rd",
+   "tagline": true,
+   "text": "Rangkumin dong!"
+  },
+  {
+   "id": "l1",
+   "tag": "[explaining, quick]",
+   "text": "Jadi gini. Kamis pagi, Polri menggelar sidang etik Listyo Sigit Prabowo.",
+   "say": "Jadi gini. Kamis pagi, Pol-ri menggelar sidang etik Listyo Sigit Prabowo."
+  },
+  {
+   "id": "l2",
+   "tag": "[recalling, measured]",
+   "text": "Ingat PART 1? Tersangka dugaan penyadapan ilegal, sasarannya termasuk Presiden, kata polisi.",
+   "say": "Ingat part satu? Tersangka dugaan penyadapan ilegal, sasarannya termasuk Presiden, kata polisi."
+  },
+  {
+   "id": "l2b",
+   "tag": "[neutral, attributing]",
+   "text": "Sejak 23 November, Bareskrim juga menetapkannya tersangka dugaan makar.",
+   "say": "Sejak dua puluh tiga November, Bareskrim juga menetapkannya tersangka dugaan makar."
+  },
+  {
+   "id": "l3",
+   "tag": "[matter-of-fact]",
+   "text": "Yang mengadili: 5 jenderal bintang tiga. Ketuanya Komjen Hendro Pandowo.",
+   "say": "Yang mengadili: lima jenderal bintang tiga. Ketuanya Komjen Hendro Pandowo."
+  },
+  {
+   "id": "l4",
+   "tag": "[slight surprise]",
+   "text": "Tapi kursi terduga pelanggarnya kosong.",
+   "say": "Tapi kursi terduga pelanggarnya kosong."
+  },
+  {
+   "id": "l5",
+   "tag": "[neutral, attributing]",
+   "text": "Kata Kadiv Humas Polri, Listyo menandatangani berita acara penolakan hadir.",
+   "say": "Kata Kadiv Humas Pol-ri, Listyo menandatangani berita acara penolakan hadir."
+  },
+  {
+   "id": "l6",
+   "tag": "[neutral, matter-of-fact]",
+   "text": "Alasannya tidak dijelaskan. Tanggapan kuasa hukum belum ditemukan.",
+   "say": "Alasannya tidak dijelaskan. Tanggapan kuasa hukum belum ditemukan."
+  },
+  {
+   "id": "l7",
+   "tag": "[punchy]",
+   "text": "Sidang ditunda. Ke Senin, 30 November.",
+   "say": "Sidang ditunda. Ke Senin, tiga puluh November."
+  },
+  {
+   "id": "l8",
+   "tag": "[curious, explaining]",
+   "text": "Nah, sidang etik itu bisa memutus apa?",
+   "say": "Nah, sidang etik itu bisa memutus apa?"
+  },
+  {
+   "id": "l9",
+   "tag": "[explaining, quick]",
+   "text": "Menurut Perpol 7 tahun 2022: perbuatannya dinyatakan tercela, demosi minimal 1 tahun,",
+   "say": "Menurut Perpol tujuh tahun dua ribu dua puluh dua: perbuatannya dinyatakan tercela, demosi minimal satu tahun,"
+  },
+  {
+   "id": "l10",
+   "tag": "[explaining, building]",
+   "text": "ditempatkan di tempat khusus maksimal 30 hari kerja, sampai PTDH: diberhentikan tidak dengan hormat.",
+   "say": "ditempatkan di tempat khusus maksimal tiga puluh hari kerja, sampai, Pe Te De Ha: diberhentikan tidak dengan hormat."
+  },
+  {
+   "id": "l11",
+   "tag": "[clear, firm]",
+   "text": "Yang tidak ada di daftar itu: penjara. Itu jalur pidana, lewat penyidikan lalu pengadilan.",
+   "say": "Yang tidak ada di daftar itu: penjara. Itu jalur pidana, lewat penyidikan, lalu pengadilan."
+  },
+  {
+   "id": "l12",
+   "tag": "[leaning in, the turn]",
+   "text": "Tapi yang sering terlewat: absen tidak menghentikan sidang.",
+   "say": "Tapi yang sering terlewat: absen tidak menghentikan sidang."
+  },
+  {
+   "id": "l13",
+   "tag": "[reveal, dramatic beat]",
+   "text": "Jawabannya: 2 kali. Dipanggil 2 kali secara sah dan tetap tidak hadir? Sidang jalan tanpa dia. Senin nanti panggilan keduanya.",
+   "say": "Jawabannya: dua kali. Dipanggil dua kali secara sah, dan tetap tidak hadir? Sidang jalan tanpa dia. Senin nanti, panggilan keduanya."
+  },
+  {
+   "id": "l14",
+   "tag": "[serious]",
+   "text": "Dan kata Polri, kalau Senin dia absen lagi, putusannya final. Hak banding hilang.",
+   "say": "Dan kata Pol-ri, kalau Senin dia absen lagi, putusannya final. Hak banding hilang."
+  },
+  {
+   "id": "l15",
+   "tag": "[calm, reassuring]",
+   "text": "Penting: ini sidang etik, bukan pidana. Tersangka bukan berarti bersalah.",
+   "say": "Penting: ini sidang etik, bukan pidana. Tersangka bukan berarti bersalah."
+  },
+  {
+   "id": "cta",
+   "tag": "[curious, asking the viewer]",
+   "text": "Menurutmu, sidang tanpa terduga pelanggar itu adil atau tidak? Kenapa? Komen!",
+   "say": "Menurutmu, sidang tanpa terduga pelanggar itu adil atau tidak? Kenapa? Komen!"
+  },
+  {
+   "id": "end",
+   "tag": "[friendly, upbeat]",
+   "text": "Follow biar nggak ketinggalan PART 5!",
+   "say": "Follow, biar nggak ketinggalan part lima!"
+  }
+ ],
+ "tail": 0.9,
+ "end_card": {
+  "text": "Follow Rangkumin Dong",
+  "spoken": false
+ },
+ "title_card_chip": "menurut Polri",
+ "factcheck": "26 Nov full FC: 4 FIXes applied (l2 makar, h2/l13 hook logic, l14 conditional, source-2 label)"
+}
