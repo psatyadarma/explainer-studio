@@ -236,3 +236,9 @@ History moved out of HANDOFF.md (22 Oct) so fresh sessions read less. Append one
 ## 2026-11-25 (Wed, Nvidia PART 2: Huang reinstated (default pick 14:00); Pratama, person_collage, block subs, standard 88.4 s, no B)
 - Sweeps 9/9/7/7 events (31 merged). 5 ideas, default pick ⭐#1 Nvidia. Light FC fixed a stale Rp16.000 rate; full FC 1 FIX: PART 1 probe was about foreign-intelligence-target reports per the 8-K, not the affair. QA PASS first time.
 - User "Ok post" ~15:35 with feedback "focus on his effect" (logged in preferences); scheduled 15:39, live 19:00 WITA (IG DgKX32HhCdH, YT hy4ITpC3o6w).
+
+## 2026-11-26 (Thu, Listyo PART 4: tolak hadir sidang etik (default pick 14:00); Pratama, question_reveal, word subs, standard 88.2 s, no B)
+- Sweeps 4/7/8/8 events (23 merged; markets thin, bisnis/cnbc section pages refused). 5 ideas; light FC 2 FIX (UU 12/2006 unsourced; BKN "20 per formasi" = assumption).
+- No KKEP verdict: hearing postponed to 30 Nov after Listyo refused (per Kadiv Humas). Full FC 4 FIX (added makar suspect line, h2 reworded, l14 conditional, source label) → PASS. QA PASS first round (sync median -95 ms, -15.0 LUFS).
+- 18:00 news re-check: no material change. User live "OK post" 18:02 → scheduled; live 19:00 (IG DgM8uB2h4uy, YT rStC_mQqMMg).
+- Analyst: Nvidia P2 24 h IG 146 / 31.7%, YT 1,940; Anthropic IPO 72 h IG 126 / 34.0%, YT 577. IG 24 h for 24 Nov OCTA still missing (WARN).

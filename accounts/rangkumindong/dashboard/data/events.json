@@ -7910,6 +7910,16 @@
 "upcoming": false
 },
 {
+"id": "E1148",
+"date": "2026-11-26",
+"category": "POL",
+"event": "Ex-Kapolri Listyo Sigit did not attend/was not examined at his KKEP ethics hearing on 26 Nov; per Kadiv Humas Irjen Johnny Eddizon Isir he signed a berita acara penolakan hadir, no reason given. The panel postponed and set a second summons. (update of E1105, E1128)",
+"key_numbers": "Hearing 26 Nov not held for Listyo · panel 5 Komjen, chair Komjen Hendro Pandowo · 2nd summons Mon 30 Nov 09:00 WIB · no lawyer statement found",
+"storyline": "listyo-sigit-penyadapan",
+"status": "verified",
+"upcoming": false
+},
+{
 "id": "E0815",
 "date": "2026-11-30",
 "category": "ECO",
@@ -7926,6 +7936,16 @@
 "event": "BNI will begin closing BNI Mobile Banking in stages from 30 November 2026, pushing customers to the newer app; this is the countdown week-ahead reminder. (update of E0758)",
 "key_numbers": "Closure starts 30 Nov 2026 · 15 days left from 15 Nov",
 "storyline": "",
+"status": "upcoming",
+"upcoming": true
+},
+{
+"id": "E1149",
+"date": "2026-11-30",
+"category": "POL",
+"event": "Second KKEP summons for ex-Kapolri Listyo Sigit at 09:00 WIB. Per Polri, if he is absent again the verdict is read without him and he loses the right to appeal (Perpol 7/2022 Pasal 59(3), 65c); Polri says it cannot force attendance. (update of E1128)",
+"key_numbers": "Mon 30 Nov 09:00 WIB · Perpol 7/2022 Pasal 59(3), 65c · Bareskrim named him makar suspect 23 Nov",
+"storyline": "listyo-sigit-penyadapan",
 "status": "upcoming",
 "upcoming": true
 },
