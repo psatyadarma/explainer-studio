@@ -21,7 +21,8 @@
   "hook_critic": "done",
   "factcheck_full": "done",
   "produce": "done",
-  "qa": "done"
+  "qa": "done",
+  "post": "scheduled"
  },
  "notes": [],
  "merge_stats": {
