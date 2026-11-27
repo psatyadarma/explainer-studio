@@ -207,7 +207,7 @@
   "claim": "Thu 26 Nov: rupiah briefly past Rp18.400/US$ around midday (new record low, IDN Times); closed Rp18.364 (−32 poin, −0,17%; previous close Rp18.332). The CNBC 13:32 WIB Rp18.390 figure is no longer used.",
   "numbers": ">Rp18.400 (intraday) · Rp18.364 (close)",
   "sensitivity": "normal",
-  "status": "verified (factcheck FIX 3). RECHECK Friday close before render.",
+  "status": "verified (factcheck FIX 3). Friday close rechecked 27 Nov: Rp18.330 (stronger), added to c3 per coordinator.",
   "sources": [
    "https://www.cnnindonesia.com/ekonomi/20261126165708-78-1431961/rupiah-ditutup-melemah-di-level-rp18364-per-dolar-as-sore-ini",
    "https://www.idntimes.com/business/finance/bi-ungkap-penyebab-rupiah-tembus-rp18-400-per-dolar-as-00-lx3cr-mrkkx8",
@@ -427,6 +427,16 @@
    "https://katadata.co.id/berita/nasional/6b07b835bfb7e/listyo-sigit-menolak-hadir-sidang-kode-etik-ditunda-ke-senin-30-november",
    "https://www.detik.com/jatim/berita/d-8770676/ini-konsekuensi-jika-listyo-sigit-kembali-mangkir-sidang-etik-pekan-depan",
    "https://www.peraturan.go.id/files/BN+597-2022.pdf"
+  ]
+ },
+ {
+  "lines": "c3",
+  "claim": "Fri 27 Nov: rupiah spot closed Rp18.330 per US$, up 0,18% from Thursday's Rp18.364 (Kontan, 27/11 15:08 WIB).",
+  "numbers": "Rp18.330 (close Fri)",
+  "sensitivity": "normal",
+  "status": "verified 27 Nov (article read: 'Jumat (27/11/2026), rupiah spot ditutup di level Rp 18.330 per dolar AS').",
+  "sources": [
+   "https://investasi.kontan.co.id/news/rupiah-ditutup-menguat-ke-rp-18330-per-dolar-as-hari-ini-2711-asia-kompak-naik"
   ]
  }
 ]

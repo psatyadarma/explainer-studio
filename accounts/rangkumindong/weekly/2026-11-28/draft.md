@@ -63,7 +63,7 @@ b9 Ingat: semua ini masih keterangan polisi. Tersangka belum tentu bersalah. Yan
 **3 · Rupiah cetak rekor terlemah**
 c1 Misalnya Pak Budi menabung Rp1 juta buat liburan ke luar negeri. Kamis siang, dia baca: rupiah cetak rekor terlemah.
 c2 Padahal minggu ini dibuka bagus. Senin, rupiah menguat 0,37 persen, ke Rp18.203 per dolar.
-c3 Lalu melemah lagi. Kamis siang, rupiah sempat lewat Rp18.400 per dolar, rekor terlemah baru. Sorenya ditutup di Rp18.364.
+c3 Lalu melemah lagi. Kamis siang, rupiah sempat lewat Rp18.400 per dolar, rekor terlemah baru. Sorenya ditutup di Rp18.364. Jumat, sedikit menguat, ditutup di Rp18.330.
 c4 Kata Bank Indonesia, penyebabnya: pasar memperkirakan bunga AS naik, dolar sedang kuat, kekhawatiran soal status pasar saham kita, dan kebutuhan dolar perusahaan di akhir bulan.
 c5 BI bilang terus masuk ke pasar untuk menahan rupiah.
 c6 Bursa saham naik-turun. IHSG naik 1,35 persen Senin, turun Rabu, lalu Kamis ditutup di 5.242.
@@ -162,3 +162,7 @@ All 6 FIXes are in script.json, claims.json, post.json (caption, YouTube descrip
 6. **Pinned comment §2 / claims i4-g5-g6:** appeal loss cited as **Perpol 4/2026 Pasal 65 huruf c** (Katadata 26/11, Kadiv Humas).
 UNVERIFIED this pass, softened or attributed: **a4** meeting length ("sekitar dua jam") dropped, Setkab attribution kept; **b6b** (5 vs 6 suspect counts, single source) cut; **e3** kept with "menurut Kontan" + "sempat"; a5–a7, b2–b6, e4–e8, g0b, g2, g3 carried from earlier daily checks (marked in claims.json). Sugiono's name tag: "Menko PMK".
 Now 977 / 1.170 spoken words, still ~7:15–7:30. Re-voice: ch 01 (a4, a9), 02 (b6b removed), 03 (c3, c8), 04 (d4, d5, d8), 06 (g4).
+
+
+## Update Fri 27 Nov (editor fix 3)
+- Friday close rechecked: rupiah spot closed **Rp18.330** (stronger than Thursday's Rp18.364; Kontan 27/11, https://investasi.kontan.co.id/news/rupiah-ditutup-menguat-ke-rp-18330-per-dolar-as-hari-ini-2711-asia-kompak-naik). Added to c3 ("Jumat, sedikit menguat, ditutup di Rp18.330."), re-voiced c3 only; chart gets a Jum point. c8 (≈54 dolar at the Thursday close) and the ">18.400" thumbnail unchanged. Captions and pinned sources updated.
