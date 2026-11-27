@@ -2446,5 +2446,53 @@
 "shares": 0,
 "saves": null,
 "follows": 0
+},
+{
+"date": "2026-11-27",
+"folder": "videos/2026-11-26-listyo-part4-tolak-hadir-etik",
+"platform": "instagram",
+"hours": 24,
+"views": 1585,
+"avg_watch_pct": 64.6,
+"hold_3s_pct": 63.0,
+"shares": 4,
+"saves": 8,
+"follows": null
+},
+{
+"date": "2026-11-27",
+"folder": "videos/2026-11-26-listyo-part4-tolak-hadir-etik",
+"platform": "youtube",
+"hours": 24,
+"views": 1390,
+"avg_watch_pct": null,
+"hold_3s_pct": null,
+"shares": null,
+"saves": null,
+"follows": null
+},
+{
+"date": "2026-11-27",
+"folder": "videos/2026-11-24-octa-token-ai-tanpa-langganan",
+"platform": "instagram",
+"hours": 72,
+"views": 43,
+"avg_watch_pct": 15.0,
+"hold_3s_pct": 43.6,
+"shares": 0,
+"saves": 0,
+"follows": null
+},
+{
+"date": "2026-11-27",
+"folder": "videos/2026-11-24-octa-token-ai-tanpa-langganan",
+"platform": "youtube",
+"hours": 72,
+"views": 493,
+"avg_watch_pct": null,
+"hold_3s_pct": null,
+"shares": null,
+"saves": null,
+"follows": null
 }
 ]
