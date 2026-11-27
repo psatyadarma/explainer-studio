@@ -1,0 +1,414 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Tarif AS sampai 18% untuk RI — Rangkumin Dong</title>
+<link rel="stylesheet" href="../../../../styles/sticker/sticker.css">
+<script src="../../../../styles/sticker/sticker.js"></script>
+<script>window.SUB_MODE = "word"; window.SUB_LEAD = 0.05;</script>
+<script src="build/timing.js"></script>
+<style>
+  .zone { position: absolute; width: 1080px; height: 1920px; }
+  .big { font-weight: 900; letter-spacing: -6px; line-height: .9; white-space: nowrap; font-variant-numeric: tabular-nums; }
+  .chip { background: #fff; border-radius: 24px; padding: 14px 26px 18px; font-weight: 900; font-size: 46px; letter-spacing: -1px; white-space: nowrap; text-align: center;
+          box-shadow: 0 0 0 8px #fff, 0 14px 24px rgba(27,36,48,.18); line-height: 1.08; }
+  .chip small { display: block; font-weight: 700; font-size: 26px; color: var(--slate); letter-spacing: 0; margin-top: 4px; }
+  .stampx { font-weight: 900; letter-spacing: -2px; color: var(--accent); border: 10px solid var(--accent); border-radius: 22px; padding: 6px 28px 12px;
+            white-space: nowrap; background: rgba(255,255,255,.94); text-align: center; line-height: 1; font-variant-numeric: tabular-nums; }
+  .stampx small { display: block; font-size: .36em; letter-spacing: 0; font-weight: 800; margin-top: 6px; }
+  .lbar { background: var(--ink); color: var(--hi); font-weight: 900; font-size: 40px; letter-spacing: 3px; padding: 8px 22px 12px; border-radius: 8px; white-space: nowrap; }
+  .ill { background: var(--slate); color: #fff; font-weight: 800; font-size: 26px; padding: 4px 14px 7px; border-radius: 10px; letter-spacing: 1px; white-space: nowrap; }
+  .qbox { width: 200px; height: 200px; border-radius: 30px; background: var(--ink); color: var(--hi); font-weight: 900; font-size: 140px; display: flex; align-items: center; justify-content: center;
+          box-shadow: 0 0 0 9px #fff, 0 16px 24px rgba(27,36,48,.25); }
+  .card { width: 860px; height: 220px; background: #fff; border-radius: 28px; display: flex; align-items: center; gap: 30px; padding: 0 34px;
+          box-shadow: 0 0 0 8px #fff, 0 16px 24px rgba(27,36,48,.2); }
+  .card .ic { flex: 0 0 170px; height: 170px; display: flex; align-items: center; justify-content: center; }
+  .card .tx { font-weight: 900; font-size: 58px; letter-spacing: -2px; line-height: 1.02; white-space: nowrap; }
+  .card .tx small { display: block; font-size: 28px; color: var(--slate); letter-spacing: 0; font-weight: 800; margin-top: 6px; }
+  .dot14 { width: 84px; height: 84px; border-radius: 50%; background: #D9D3C6; border: 6px solid var(--ink); }
+  .dot14.on { background: var(--accent); }
+  /* bar chart */
+  .row { width: 900px; height: 118px; display: flex; align-items: center; gap: 18px; }
+  .row .lb { flex: 0 0 280px; display: flex; align-items: center; gap: 14px; font-weight: 900; font-size: 40px; letter-spacing: -1px; white-space: nowrap; }
+  .row .lb svg { flex: 0 0 auto; border-radius: 6px; box-shadow: 0 0 0 4px #fff, 0 4px 8px rgba(27,36,48,.2); }
+  .row .bar { height: 84px; border-radius: 14px; background: var(--slate); border: 6px solid var(--ink); }
+  .row .vl { font-weight: 900; font-size: 54px; letter-spacing: -2px; white-space: nowrap; font-variant-numeric: tabular-nums; }
+  .row.me .bar { background: var(--accent); }
+  .row.me .lb { color: var(--accent); }
+  #usul { position: absolute; left: 60px; top: 262px; z-index: 5; background: var(--accent); color: #fff; font-weight: 900; font-size: 30px;
+          padding: 6px 16px 9px; border-radius: 12px; letter-spacing: 1px; }
+  #endcard { position: absolute; inset: 0; z-index: 8; display: flex; flex-direction: column; align-items: center; justify-content: center;
+             gap: 22px; background: var(--paper); opacity: 0; }
+  #endcard .logo { background: var(--accent); color: #fff; font-weight: 900; font-size: 116px; letter-spacing: -4px;
+                   padding: 30px 58px 40px; border-radius: 44px; line-height: .95; text-align: center; transform: rotate(-3deg); }
+  #endcard .tl2 { font-weight: 800; font-size: 54px; color: var(--slate); }
+  #endcard .h { font-weight: 900; font-size: 50px; background: var(--ink); color: #fff; padding: 12px 26px; border-radius: 16px; }
+  #endcard .src { font-weight: 700; font-size: 32px; color: var(--slate); margin-top: 6px; text-align: center; line-height: 1.4; max-width: 900px; }
+  #endcard .p4 { font-weight: 900; font-size: 44px; color: #fff; background: var(--accent); padding: 10px 28px 14px; border-radius: 18px; text-align: center; }
+  /* hook title card */
+  .tc { font-weight: 900; font-size: 140px; letter-spacing: -6px; line-height: 1; padding: 14px 40px 26px; border-radius: 26px; white-space: nowrap; }
+  .tc.k { background: var(--ink); color: var(--hi); box-shadow: 0 0 0 10px #fff, 0 20px 30px rgba(27,36,48,.25); }
+  .tc.a { background: var(--accent); color: #fff; box-shadow: 0 0 0 10px #fff, 0 20px 30px rgba(27,36,48,.25); font-size: 116px; }
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute">
+  <filter id="stk" x="-10%" y="-10%" width="120%" height="125%">
+    <feMorphology in="SourceAlpha" operator="dilate" radius="8" result="d"/>
+    <feFlood flood-color="#fff"/><feComposite in2="d" operator="in" result="o"/>
+    <feGaussianBlur in="d" stdDeviation="10" result="b"/><feOffset in="b" dy="14" result="bo"/>
+    <feFlood flood-color="#1B2430" flood-opacity=".22"/><feComposite in2="bo" operator="in" result="sh"/>
+    <feMerge><feMergeNode in="sh"/><feMergeNode in="o"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</svg>
+<div id="stage">
+  <div id="world">
+    <!-- z0 (0,0): hook, shock_number -->
+    <div id="z0" class="zone" style="left:0; top:0;">
+      <div id="hT1" class="abs tc k" style="left:500px; top:430px;">TARIF AS</div>
+      <div id="hT2" class="abs tc a" style="left:500px; top:600px;">+18% BUAT RI?</div>
+      <div id="hBox" class="abs sticker-svg" style="left:400px; top:990px;"></div>
+      <div id="hSt" class="abs stampx" style="left:440px; top:960px; font-size:150px;"><span id="hStN">+0%</span></div>
+      <div id="hUs" class="abs sticker-svg" style="left:800px; top:790px;"></div>
+      <div id="hShip" class="abs sticker-svg" style="left:780px; top:1150px;"></div>
+      <div id="hQh" class="abs headline" style="left:500px; top:450px; font-size:92px; white-space:nowrap;">Barang <span class="acc">apa aja?</span></div>
+      <div id="q1" class="abs qbox" style="left:240px; top:690px;">?</div>
+      <div id="q2" class="abs qbox" style="left:500px; top:690px;">?</div>
+      <div id="q3" class="abs qbox" style="left:760px; top:690px;">?</div>
+      <div id="hSp" class="abs chip" style="left:500px; top:930px; font-size:64px; background:var(--hi);">siapa yang <span style="color:var(--accent)">lebih parah?</span></div>
+    </div>
+
+    <!-- zT (1240,0): tagline -->
+    <div id="zT" class="zone" style="left:1240px; top:0;">
+      <div id="stamp" class="abs stamp sticker" style="left:540px; top:860px; font-size:110px;">Rangkumin dong!</div>
+    </div>
+
+    <!-- zA (2480,0): l1 USTR -->
+    <div id="zA" class="zone" style="left:2480px; top:0;">
+      <div id="aCal" class="abs sticker-svg" style="left:260px; top:520px;"></div>
+      <div id="aBl" class="abs sticker-svg" style="left:660px; top:520px;"></div>
+      <div id="aBlL" class="abs chip" style="left:660px; top:690px; font-size:40px;">kantor dagang AS<small>USTR</small></div>
+      <div id="aDoc" class="abs sticker-svg" style="left:500px; top:1010px;"></div>
+      <div id="aS301" class="abs ill" style="left:790px; top:1180px;">Section 301</div>
+    </div>
+
+    <!-- zB (3720,0): l2 overcapacity, 14 economies -->
+    <div id="zB" class="zone" style="left:3720px; top:0;">
+      <div id="bFac" class="abs sticker-svg" style="left:500px; top:540px;"></div>
+      <div id="bFl" class="abs tag sticker" style="left:500px; top:730px; font-size:40px;">produksi berlebih</div>
+      <div id="bGrid" class="abs" style="left:500px; top:930px; display:grid; grid-template-columns:repeat(7, 84px); gap:26px 30px;"></div>
+      <div id="bN" class="abs chip" style="left:500px; top:1150px; font-size:58px;"><span id="bNn" style="color:var(--accent)">0</span> ekonomi<small>dapat usulan tarif</small></div>
+    </div>
+
+    <!-- zC (0,2400): l3 Indonesia up to 18% -->
+    <div id="zC" class="zone" style="left:0; top:2400px;">
+      <div id="cFl" class="abs sticker-svg" style="left:500px; top:540px;"></div>
+      <div id="cId" class="abs lbar" style="left:500px; top:720px;">BUAT INDONESIA</div>
+      <div id="cN" class="abs big" style="left:500px; top:930px; font-size:300px; color:var(--accent);"><span style="font-size:.6em">≤</span><span id="cNn">0</span>%</div>
+      <div id="cLb" class="abs chip" style="left:500px; top:1150px; font-size:44px;">usulan <span style="color:var(--accent)">maksimum</span><small>tambahan di atas tarif yang ada</small></div>
+    </div>
+
+    <!-- zD (1240,2400): l4 sectors -->
+    <div id="zD" class="zone" style="left:1240px; top:2400px;">
+      <div id="dHd" class="abs lbar" style="left:500px; top:420px;">SEKTOR RI · MENURUT USTR</div>
+      <div id="d1" class="abs card" style="left:500px; top:620px;"><div class="ic sticker-svg" id="d1i"></div><div class="tx">tekstil &amp;<br>pakaian</div></div>
+      <div id="d2" class="abs card" style="left:500px; top:870px;"><div class="ic sticker-svg" id="d2i"></div><div class="tx">tambang &amp;<br>logam</div></div>
+      <div id="d3" class="abs card" style="left:500px; top:1120px;"><div class="ic sticker-svg" id="d3i"></div><div class="tx">energi<br>terbarukan</div></div>
+    </div>
+
+    <!-- zE (2480,2400): l5 turn -->
+    <div id="zE" class="zone" style="left:2480px; top:2400px;">
+      <div id="eHd" class="abs headline" style="left:500px; top:560px; font-size:170px;"><span class="acc">TAPI...</span></div>
+      <div id="eFl" class="abs sticker-svg" style="left:300px; top:930px;"></div>
+      <div id="eCh" class="abs chip" style="left:640px; top:930px; font-size:52px; background:var(--hi);">kita <span style="color:var(--accent)">bukan</span><br>yang paling tinggi</div>
+    </div>
+
+    <!-- zF (3720,2400): l5b bar chart -->
+    <div id="zF" class="zone" style="left:3720px; top:2400px;">
+      <div id="fHd" class="abs lbar" style="left:500px; top:400px;">USULAN TARIF MAKSIMUM</div>
+      <div id="fRows" class="abs" style="left:500px; top:820px;"></div>
+      <div id="fSrc" class="abs ill" style="left:500px; top:1150px;">sumber: USTR, 25 Nov · semua "sampai"</div>
+      <div id="fFn" class="abs chip" style="left:500px; top:1235px; font-size:30px; font-weight:800; letter-spacing:0;">Vietnam &amp; India bisa lebih rendah<br>kalau ada kesepakatan dagang</div>
+    </div>
+
+    <!-- zG (0,4800): l6 still a proposal, hearing -->
+    <div id="zG" class="zone" style="left:0; top:4800px;">
+      <div id="gSt" class="abs stampx" style="left:500px; top:500px; font-size:130px; transform:rotate(-6deg);">USULAN</div>
+      <div id="gNo" class="abs chip" style="left:500px; top:680px; font-size:42px;">belum keputusan final</div>
+      <div id="gCal" class="abs sticker-svg" style="left:500px; top:980px;"></div>
+      <div id="gHr" class="abs tag sticker" style="left:500px; top:1200px; font-size:44px;">dengar pendapat publik</div>
+    </div>
+
+    <!-- zH (1240,4800): l7 government response -->
+    <div id="zH" class="zone" style="left:1240px; top:4800px;">
+      <div id="iHd" class="abs lbar" style="left:500px; top:400px;">LANGKAH PEMERINTAH</div>
+      <div id="iSh" class="abs sticker-svg" style="left:270px; top:720px;"></div>
+      <div id="iShL" class="abs chip" style="left:270px; top:950px; font-size:40px;">pengecualian<br>produk</div>
+      <div id="iGl" class="abs sticker-svg" style="left:730px; top:720px;"></div>
+      <div id="iGlL" class="abs chip" style="left:730px; top:950px; font-size:40px;">pasar<br>baru</div>
+      <div id="iSrc" class="abs ill" style="left:500px; top:1110px;">kata Kemenko Perekonomian &amp; Menperin</div>
+    </div>
+
+    <!-- zQ (2480,4800): CTA -->
+    <div id="zQ" class="zone" style="left:2480px; top:4800px;">
+      <div id="qShirt" class="abs sticker-svg" style="left:500px; top:600px;"></div>
+      <div id="qHd" class="abs chip" style="left:500px; top:830px; font-size:54px;">kamu <span style="color:var(--accent)">pengusaha garmen?</span></div>
+      <div id="qCm" class="abs sticker-svg" style="left:280px; top:1060px;"></div>
+      <div id="qLg" class="abs chip" style="left:620px; top:1040px; font-size:54px; background:var(--hi);">langkah<br>pertamamu?</div>
+      <div id="qKm" class="abs stamp sticker" style="left:620px; top:1210px; font-size:80px;">Komen!</div>
+    </div>
+  </div>
+
+  <div id="brand"><div class="dot"></div><b>Rangkumin Dong</b></div>
+  <div id="usul">USULAN · belum final</div>
+  <div id="subs"></div>
+  <div id="endcard">
+    <div class="logo">RANGKUMIN<br>DONG</div>
+    <div class="tl2">Berita ribet? Rangkumin dong.</div>
+    <div class="h">@rangkumindong</div>
+    <div class="p4">Follow buat update dengar pendapatnya</div>
+    <div class="src">Sumber: USTR · CNBC Indonesia · Suara.com<br>lengkap di komentar</div>
+  </div>
+  <div id="progress"></div>
+</div>
+
+<script>
+const $ = (id) => document.getElementById(id);
+const T = window.TIMING;
+window.DURATION = T.duration;
+const at = K.at, W = K.word;
+const END = K.line('cta').end + 0.15;
+
+// ---------- flags (simplified) ----------
+const flag = (c, w = 120) => { const h = Math.round(w * 2 / 3), V = 'viewBox="0 0 90 60"';
+  const st = (n, a, b) => Array.from({ length: n }, (_, i) => `<rect y="${i * 60 / n}" width="90" height="${60 / n + 0.3}" fill="${i % 2 ? b : a}"/>`).join('');
+  const star = (cx, cy, r, f) => { let p = ''; for (let i = 0; i < 10; i++) { const a = -Math.PI / 2 + i * Math.PI / 5, rr = i % 2 ? r * 0.42 : r; p += `${(cx + rr * Math.cos(a)).toFixed(2)},${(cy + rr * Math.sin(a)).toFixed(2)} `; } return `<polygon points="${p}" fill="${f}"/>`; };
+  const body = {
+    ID: `<rect width="90" height="30" fill="#E1261C"/><rect y="30" width="90" height="30" fill="#fff"/>`,
+    US: st(13, '#B22234', '#fff') + `<rect width="40" height="32" fill="#3C3B6E"/>` + [0, 1, 2, 3].map((r) => [0, 1, 2, 3, 4].map((k) => `<circle cx="${5 + k * 7.5 + (r % 2) * 3}" cy="${5 + r * 7.5}" r="1.6" fill="#fff"/>`).join('')).join(''),
+    VN: `<rect width="90" height="60" fill="#DA251D"/>` + star(45, 31, 17, '#FFDD00'),
+    IN: `<rect width="90" height="20" fill="#FF9933"/><rect y="20" width="90" height="20" fill="#fff"/><rect y="40" width="90" height="20" fill="#138808"/><circle cx="45" cy="30" r="7.5" fill="none" stroke="#000080" stroke-width="1.8"/><circle cx="45" cy="30" r="1.6" fill="#000080"/>`,
+    MY: st(14, '#CC0001', '#fff') + `<rect width="45" height="34" fill="#010066"/><circle cx="18" cy="17" r="10" fill="#FFCC00"/><circle cx="21" cy="17" r="8.4" fill="#010066"/>` + star(33, 17, 7, '#FFCC00'),
+    KH: `<rect width="90" height="15" fill="#032EA1"/><rect y="15" width="90" height="30" fill="#E00025"/><rect y="45" width="90" height="15" fill="#032EA1"/><path d="M30 38 H60 V35 H57 V29 H54 V24 H51 V20 H48 V16 H42 V20 H39 V24 H36 V29 H33 V35 H30 Z" fill="#fff"/>`,
+  }[c];
+  return `<svg width="${w}" height="${h}" ${V}>${body}<rect width="90" height="60" fill="none" stroke="rgba(27,36,48,.25)" stroke-width="1"/></svg>`; };
+
+// ---------- SVG stickers ----------
+const boxSVG = (w = 460) => `<svg width="${w}" height="${w * 0.86}" viewBox="0 0 460 396">
+  <path d="M30 120 L230 40 L430 120 L230 200 Z" fill="#E3B57A" stroke="#1B2430" stroke-width="9" stroke-linejoin="round"/>
+  <path d="M30 120 V300 L230 380 V200 Z" fill="#C8955A" stroke="#1B2430" stroke-width="9" stroke-linejoin="round"/>
+  <path d="M430 120 V300 L230 380 V200 Z" fill="#B07D45" stroke="#1B2430" stroke-width="9" stroke-linejoin="round"/>
+  <path d="M130 80 L330 160 V210" fill="none" stroke="#F3D9B0" stroke-width="16"/>
+  <g transform="matrix(1 0.4 0 1 0 0)"><rect x="56" y="170" width="150" height="58" rx="6" fill="#fff" stroke="#1B2430" stroke-width="5"/>
+  <text x="131" y="195" text-anchor="middle" font-family="Inter" font-weight="900" font-size="20" fill="#1B2430">MADE IN</text>
+  <text x="131" y="219" text-anchor="middle" font-family="Inter" font-weight="900" font-size="20" fill="#E1261C">INDONESIA</text></g></svg>`;
+const shipSVG = (w = 320) => `<svg width="${w}" height="${w * 0.55}" viewBox="0 0 320 176">
+  ${[[60, '#FF5A36'], [110, '#3E5568'], [160, '#FFD23F'], [210, '#3E5568']].map(([x, c]) => `<rect x="${x}" y="40" width="46" height="50" fill="${c}" stroke="#1B2430" stroke-width="6"/>`).join('')}
+  <rect x="236" y="20" width="44" height="70" fill="#fff" stroke="#1B2430" stroke-width="6"/>
+  <path d="M14 90 H306 L272 150 H48 Z" fill="#1B2430"/><path d="M0 164 Q40 150 80 164 T160 164 T240 164 T320 164" stroke="#5DA9E9" stroke-width="8" fill="none"/></svg>`;
+const buildingSVG = (w = 300) => `<svg width="${w}" height="${w * 0.6}" viewBox="0 0 340 205"><path d="M20 70 L170 14 L320 70 Z" fill="#fff" stroke="#1B2430" stroke-width="9" stroke-linejoin="round"/>
+  <rect x="30" y="70" width="280" height="20" fill="#9FB0BF" stroke="#1B2430" stroke-width="8"/>
+  ${[64, 122, 180, 238, 290].map((x) => `<rect x="${x - 13}" y="92" width="26" height="80" fill="#fff" stroke="#1B2430" stroke-width="7"/>`).join('')}
+  <rect x="16" y="172" width="308" height="26" rx="6" fill="#9FB0BF" stroke="#1B2430" stroke-width="8"/></svg>`;
+const calSVG = (top, num, sub = '', w = 340) => `<svg width="${w}" height="${w * 0.95}" viewBox="0 0 380 360"><rect x="20" y="40" width="340" height="300" rx="24" fill="#fff" stroke="#1B2430" stroke-width="9"/>
+  <path d="M20 64 Q20 40 44 40 H336 Q360 40 360 64 V120 H20 Z" fill="#FF5A36" stroke="#1B2430" stroke-width="9"/>
+  <text x="190" y="102" text-anchor="middle" font-family="Inter" font-weight="900" font-size="46" fill="#fff">${top}</text>
+  <rect x="90" y="14" width="22" height="60" rx="10" fill="#1B2430"/><rect x="268" y="14" width="22" height="60" rx="10" fill="#1B2430"/>
+  <text x="190" y="250" text-anchor="middle" font-family="Inter" font-weight="900" font-size="${num.length > 3 ? 104 : 130}" fill="#1B2430">${num}</text>
+  <text x="190" y="315" text-anchor="middle" font-family="Inter" font-weight="900" font-size="40" fill="#3E5568">${sub}</text></svg>`;
+const docSVG = (w = 400) => `<svg width="${w}" height="${w * 0.78}" viewBox="0 0 400 312">
+  <path d="M20 14 H320 L380 74 V298 H20 Z" fill="#fff" stroke="#1B2430" stroke-width="9" stroke-linejoin="round"/>
+  <path d="M320 14 V74 H380" fill="#E7E2D6" stroke="#1B2430" stroke-width="9" stroke-linejoin="round"/>
+  <text x="190" y="90" text-anchor="middle" font-family="Inter" font-weight="900" font-size="36" fill="#1B2430">HASIL</text>
+  <text x="190" y="134" text-anchor="middle" font-family="Inter" font-weight="900" font-size="36" fill="#FF5A36">PENYELIDIKAN</text>
+  ${[0, 1, 2].map((i) => `<rect x="60" y="${166 + i * 26}" width="${260 - i * 60}" height="10" rx="5" fill="#B9C2CB"/>`).join('')}
+  <g transform="rotate(-12 300 250)"><circle cx="300" cy="250" r="40" fill="none" stroke="#FF5A36" stroke-width="7"/>
+  <text x="300" y="260" text-anchor="middle" font-family="Inter" font-weight="900" font-size="26" fill="#FF5A36">USTR</text></g></svg>`;
+const factorySVG = (w = 520, k = 1) => `<svg width="${w}" height="${w * 0.5}" viewBox="0 0 520 260">
+  <rect x="70" y="20" width="36" height="90" fill="#3E5568" stroke="#1B2430" stroke-width="7"/>
+  <path d="M40 230 V110 L130 70 V110 L220 70 V110 L310 70 V230 Z" fill="#9FB0BF" stroke="#1B2430" stroke-width="9" stroke-linejoin="round"/>
+  ${[90, 170, 250].map((x) => `<rect x="${x - 22}" y="140" width="44" height="40" fill="#FFD23F" stroke="#1B2430" stroke-width="6"/>`).join('')}
+  ${[[340, 200], [400, 200], [460, 200], [370, 150], [430, 150], [400, 100], [470, 150]].slice(0, Math.round(7 * k)).map(([x, y], i) => `<rect x="${x - 26}" y="${y - 24}" width="52" height="48" rx="4" fill="${i % 2 ? '#C8955A' : '#E3B57A'}" stroke="#1B2430" stroke-width="6" transform="rotate(${(i % 3 - 1) * 6} ${x} ${y})"/>`).join('')}
+  <path d="M20 234 H500" stroke="#1B2430" stroke-width="9" stroke-linecap="round"/></svg>`;
+const shirtSVG = (w = 160) => `<svg width="${w}" height="${w}" viewBox="0 0 160 160"><path d="M52 14 L20 34 L6 70 L34 80 L40 64 V150 H120 V64 L126 80 L154 70 L140 34 L108 14 Q80 40 52 14 Z" fill="#FF5A36" stroke="#1B2430" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M60 100 H100 M60 120 H100" stroke="#fff" stroke-width="6" stroke-linecap="round" opacity=".6"/></svg>`;
+const oreSVG = (w = 160) => `<svg width="${w}" height="${w}" viewBox="0 0 160 160"><path d="M14 120 L34 64 L76 44 L116 66 L128 118 L80 142 Z" fill="#7C8A96" stroke="#1B2430" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M40 92 L58 80 L70 98 Z M88 70 L104 82 L92 96 Z" fill="#FFD23F" stroke="#1B2430" stroke-width="4"/>
+  <g transform="rotate(30 124 60)"><rect x="112" y="40" width="24" height="70" fill="#C9D1D8" stroke="#1B2430" stroke-width="6"/><rect x="100" y="24" width="48" height="22" rx="4" fill="#9FB0BF" stroke="#1B2430" stroke-width="6"/></g></svg>`;
+const solarSVG = (w = 160) => `<svg width="${w}" height="${w}" viewBox="0 0 160 160"><circle cx="128" cy="30" r="20" fill="#FFD23F" stroke="#1B2430" stroke-width="6"/>
+  <path d="M20 60 H120 L140 120 H40 Z" fill="#2F5D8A" stroke="#1B2430" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M53 60 L73 120 M87 60 L107 120 M30 90 H130" stroke="#9CC3E6" stroke-width="5"/><path d="M86 120 V150 M64 150 H108" stroke="#1B2430" stroke-width="8" stroke-linecap="round"/></svg>`;
+const shieldSVG = (w = 230) => `<svg width="${w}" height="${w}" viewBox="0 0 200 200"><path d="M100 14 L170 40 V96 Q170 150 100 186 Q30 150 30 96 V40 Z" fill="#3E5568" stroke="#1B2430" stroke-width="9" stroke-linejoin="round"/>
+  <path d="M68 100 L92 124 L136 76" fill="none" stroke="#FFD23F" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+const globeSVG = (w = 240, k = 1) => `<svg width="${w}" height="${w}" viewBox="0 0 220 220"><circle cx="110" cy="110" r="86" fill="#5DA9E9" stroke="#1B2430" stroke-width="9"/>
+  <path d="M60 60 Q86 50 100 70 Q96 92 74 96 Q58 86 60 60 Z M120 120 Q150 108 160 130 Q150 160 126 158 Q112 140 120 120 Z M128 50 Q156 54 168 80 Q150 86 136 76 Z" fill="#7BC47F" stroke="#1B2430" stroke-width="5"/>
+  ${[[110, 110, 196, 40], [110, 110, 20, 180], [110, 110, 210, 170]].map(([x1, y1, x2, y2]) => { const x = x1 + (x2 - x1) * k, y = y1 + (y2 - y1) * k;
+    return `<path d="M${x1} ${y1} L${x.toFixed(1)} ${y.toFixed(1)}" stroke="#FF5A36" stroke-width="9" stroke-linecap="round" stroke-dasharray="16 10"/>` + (k > 0.9 ? `<circle cx="${x2}" cy="${y2}" r="12" fill="#FF5A36" stroke="#1B2430" stroke-width="5"/>` : ''); }).join('')}
+  <circle cx="110" cy="110" r="10" fill="#1B2430"/></svg>`;
+const commentSVG = () => `<svg width="190" height="168" viewBox="0 0 260 230"><path d="M20 30 Q20 10 40 10 H220 Q240 10 240 30 V150 Q240 170 220 170 H110 L60 214 L70 170 H40 Q20 170 20 150 Z" fill="#fff" stroke="#1B2430" stroke-width="8" stroke-linejoin="round"/>
+  <circle cx="80" cy="90" r="14" fill="#1B2430"/><circle cx="130" cy="90" r="14" fill="#1B2430"/><circle cx="180" cy="90" r="14" fill="#1B2430"/></svg>`;
+
+$('hBox').innerHTML = boxSVG(440); $('hUs').innerHTML = flag('US', 170); $('hShip').innerHTML = shipSVG(300);
+$('aCal').innerHTML = calSVG('NOV', '25', '', 260); $('aBl').innerHTML = buildingSVG(300); $('aDoc').innerHTML = docSVG(420);
+$('bGrid').innerHTML = Array.from({ length: 14 }, (_, i) => `<div class="dot14" id="g${i}"></div>`).join('');
+$('cFl').innerHTML = flag('ID', 260);
+$('d1i').innerHTML = shirtSVG(160); $('d2i').innerHTML = oreSVG(160); $('d3i').innerHTML = solarSVG(160);
+$('eFl').innerHTML = flag('ID', 200);
+$('iSh').innerHTML = shieldSVG(230);
+$('qShirt').innerHTML = shirtSVG(260); $('qCm').innerHTML = commentSVG();
+// bar chart rows: verified ceilings only (USTR, 25 Nov)
+const ROWS = [['VN', 'Vietnam', 35, 'l5b', 'vietnam'], ['IN', 'India', 25, 'l5b', 'india'], ['ID', 'Indonesia', 18, 'l5', 'kita'],
+  ['MY', 'Malaysia', 18, 'l5b', 'malaysia'], ['KH', 'Kamboja', 18, 'l5b', 'kamboja']];
+$('fRows').innerHTML = ROWS.map(([c, n], i) => `<div class="row${c === 'ID' ? ' me' : ''}" id="r${i}"><div class="lb">${flag(c, 66)}${n}</div><div class="bar" id="rb${i}"></div><div class="vl" id="rv${i}"></div></div>`).join('');
+
+// ---------- helpers ----------
+const slam = (el, t, tIn, rot = 0, from = 2, tOut = Infinity) => { const s = K.spring(t - tIn, 320, 18), o = K.clamp((t - tOut) / 0.25);
+  el.style.opacity = t >= tIn && o < 1 ? 1 - o : 0; el.style.transform = `translate(-50%,-50%) scale(${(from - (from - 1) * s) * (1 - 0.2 * o)}) rotate(${rot}deg)`; };
+const drop = (el, t, tIn, rot = 0, tOut = Infinity) => { const s = K.spring(t - tIn, 260, 15), o = K.clamp((t - tOut) / 0.25);
+  el.style.opacity = t >= tIn && o < 1 ? 1 - o : 0; el.style.transform = `translate(-50%,-50%) translateY(${(1 - s) * -420}px) rotate(${rot}deg)`; };
+const slideIn = (el, t, tIn, dx = -700, tOut = Infinity) => { const s = K.spring(t - tIn, 240, 20), o = K.clamp((t - tOut) / 0.25);
+  el.style.opacity = t >= tIn && o < 1 ? 1 - o : 0; el.style.transform = `translate(-50%,-50%) translateX(${(1 - s) * dx}px)`; };
+const setTxt = (el, v) => { if (el.textContent !== v) el.textContent = v; };
+
+const POS = { z0: [0, 0], zT: [1240, 0], zA: [2480, 0], zB: [3720, 0], zC: [0, 2400], zD: [1240, 2400], zE: [2480, 2400], zF: [3720, 2400],
+  zG: [0, 4800], zH: [1240, 4800], zQ: [2480, 4800] };
+const ZT = [['z0', 0], ['zT', at('rd', -0.05)], ['zA', at('l1', -0.3)], ['zB', at('l2', -0.3)], ['zC', at('l3', -0.3)], ['zD', at('l4', -0.3)],
+  ['zE', at('l5', -0.25)], ['zF', at('l5b', -0.3)], ['zG', at('l6', -0.3)], ['zH', at('l7', -0.3)], ['zQ', at('cta', -0.3)]];
+
+function seek(t) {
+  const Z = (x, y, z = 1.0) => ({ x, y: y + 60 / z, z });
+  const zc = (id, z = 1, dx = 0, dy = 0) => Z(POS[id][0] + 540 + dx, POS[id][1] + 960 + dy, z);
+  const rd = at('rd', -0.05);
+  const keys = [{ t: 0, ...zc('z0', 1.0) },
+    { t: W('h1', 'tambahan') - 0.1, ...zc('z0', 1.05, -20, 80), dur: 0.5 },
+    { t: at('h2', -0.1), ...zc('z0', 1.0, 0, 0), dur: 0.4 }];
+  ZT.slice(1).forEach(([id, t0]) => keys.push({ t: t0, ...zc(id, id === 'zT' ? 1.08 : 1), dur: ['zA', 'zC', 'zE', 'zG', 'zQ'].includes(id) ? 0.55 : 0.001 }));
+  keys.push({ t: W('l1', 'umumkan') - 0.2, ...zc('zA', 1.04, -20, 70), dur: 0.5 },
+    { t: W('l2', '14') - 0.2, ...zc('zB', 1.04, -20, 80), dur: 0.5 },
+    { t: W('l3', 'sampai') - 0.2, ...zc('zC', 1.06, -30, 60), dur: 0.5 },
+    { t: W('l4', 'tambang') - 0.2, ...zc('zD', 1.02, -20, 40), dur: 0.5 },
+    { t: W('l5b', 'vietnam') - 0.2, ...zc('zF', 1.03, -20, 30), dur: 0.5 },
+    { t: W('l6', 'dengar') - 0.2, ...zc('zG', 1.04, -20, 60), dur: 0.5 },
+    { t: W('l7', 'pasar') - 0.2, ...zc('zH', 1.03, -20, 30), dur: 0.5 });
+  keys.sort((a, b) => a.t - b.t);
+  K.camera($('world'), keys, t, 1080, 1920, 0.6);
+
+  // ---------- hook (h1-h2): title card + box are the cover from frame 0 ----------
+  { const h2 = at('h2', -0.1);
+    const s1 = t < 0.02 ? 1 : K.spring(t + 0.25, 320, 18);
+    const off = K.clamp((t - h2) / 0.25);
+    [['hT1', -2], ['hT2', 1.5]].forEach(([id, r]) => { const el = $(id);
+      el.style.opacity = 1 - off; el.style.transform = `translate(-50%,-50%) translateY(${-260 * K.easeInOut(off)}px) scale(${(0.9 + 0.1 * s1) * (1 - 0.15 * off)}) rotate(${r}deg)`; });
+    // box on screen from frame 0, US flag + ship on "Amerika", stamp counts to 18 on "tambahan"/"18"
+    { const el = $('hBox'), o = K.clamp((t - h2) / 0.25); el.style.opacity = 1 - o;
+      const ts = W('h1', 'tambahan') - 0.05, k = t >= ts ? K.clamp((t - ts) / 0.35) : 0, sh = t >= ts ? Math.sin(t * 40) * 8 * K.clamp(1 - (t - ts) / 0.5) : 0;
+      el.style.transform = `translate(-50%,-50%) translateX(${sh}px) scale(${1 - 0.04 * Math.sin(k * Math.PI)})`; }
+    drop($('hUs'), t, W('h1', 'amerika') - 0.1, 6, h2);
+    slideIn($('hShip'), t, W('h1', 'bisa') - 0.1, -500, h2);
+    { const ts = W('h1', 'tambahan') - 0.05, t18 = W('h1', '18');
+      slam($('hSt'), t, ts, -10, 2.2, h2);
+      const k = K.easeOut(K.prog(t, ts, Math.max(0.2, t18 - ts + 0.15))); setTxt($('hStN'), '+' + Math.round(18 * k) + '%');
+      if (t >= t18 + 0.1 && t < h2) $('hSt').style.transform += ` scale(${1 + 0.1 * Math.sin(K.clamp((t - t18 - 0.1) / 0.4) * Math.PI)})`; }
+    // h2: question headline + three covered goods + "who's worse"
+    slam($('hQh'), t, W('h2', 'barang') - 0.08, -1, 1.5, rd);
+    [['q1', 'apa'], ['q2', 'aja'], ['q3', 'dan']].forEach(([id, w], i) => { const tq = W('h2', w) - 0.08; K.pop($(id), t, tq, rd, [-6, 3, -3][i]);
+      if (t >= tq) $(id).style.transform += ` rotate(${Math.sin((t - tq) * 9 + i) * 4}deg)`; });
+    slam($('hSp'), t, W('h2', 'siapa') - 0.08, -2, 1.6, rd);
+    if (t >= W('h2', 'parah') - 0.05 && t < rd) $('hSp').style.transform += ` scale(${1 + 0.08 * Math.sin(K.clamp((t - W('h2', 'parah') + 0.05) / 0.4) * Math.PI)})`;
+  }
+
+  // ---------- tagline ----------
+  K.pop($('stamp'), t, at('rd', -0.1), at('l1', -0.2), -6);
+
+  // ---------- zA: l1 ----------
+  K.pop($('aCal'), t, W('l1', '25') - 0.1, Infinity, -4);
+  K.pop($('aBl'), t, W('l1', 'kantor') - 0.1, Infinity, 0);
+  K.pop($('aBlL'), t, W('l1', 'ustr') - 0.1, Infinity, 1);
+  slideIn($('aDoc'), t, W('l1', 'hasil') - 0.12, 900);
+  K.pop($('aS301'), t, W('l1', 'penyelidikannya') - 0.05, Infinity, -3);
+
+  // ---------- zB: l2 ----------
+  { const tf = W('l2', 'produksi') - 0.1, k = K.easeOut(K.prog(t, W('l2', 'berlebih') - 0.1, 0.5)), want = String(Math.round(7 * k));
+    if ($('bFac').dataset.k !== want) { $('bFac').dataset.k = want; $('bFac').innerHTML = factorySVG(520, +want / 7); }
+    K.pop($('bFac'), t, tf, Infinity, 0); }
+  K.pop($('bFl'), t, W('l2', 'berlebih') - 0.05, Infinity, -2);
+  { const t0 = W('l2', '14') - 0.1, dt = 0.07;
+    $('bGrid').style.opacity = t >= t0 - 0.05 ? 1 : 0;
+    for (let i = 0; i < 14; i++) { const g = $('g' + i), ti = t0 + i * dt; g.classList.toggle('on', t >= ti);
+      g.style.transform = `scale(${t >= ti ? 0.6 + 0.4 * K.spring(t - ti, 400, 16) : 0.6})`; }
+    K.pop($('bN'), t, t0, Infinity, -1);
+    setTxt($('bNn'), String(Math.round(14 * K.easeOut(K.prog(t, t0, 14 * dt))))); }
+
+  // ---------- zC: l3 ----------
+  drop($('cFl'), t, W('l3', 'indonesia') - 0.12, -3);
+  K.pop($('cId'), t, at('l3', -0.1), Infinity, -1);
+  { const tn = W('l3', 'sampai') - 0.1, t18 = W('l3', '18'); slam($('cN'), t, tn, -3, 1.5);
+    setTxt($('cNn'), String(Math.round(18 * K.easeOut(K.prog(t, tn, Math.max(0.2, t18 - tn + 0.1)))))); }
+  K.pop($('cLb'), t, W('l3', 'persen') - 0.05, Infinity, 1);
+
+  // ---------- zD: l4 ----------
+  K.pop($('dHd'), t, at('l4', -0.15), Infinity, -1);
+  slideIn($('d1'), t, W('l4', 'tekstil') - 0.12, -900);
+  slideIn($('d2'), t, W('l4', 'tambang') - 0.12, 900);
+  slideIn($('d3'), t, W('l4', 'energi') - 0.12, -900);
+
+  // ---------- zE: l5 turn ----------
+  slam($('eHd'), t, at('l5', -0.05), -3, 1.8);
+  drop($('eFl'), t, W('l5', 'kita') - 0.1, -4);
+  K.pop($('eCh'), t, W('l5', 'bukan') - 0.1, Infinity, 2);
+
+  // ---------- zF: l5b chart ----------
+  K.pop($('fHd'), t, at('l5b', -0.3), Infinity, -1);
+  { const tVis = at('l5b', -0.3);
+    ROWS.forEach(([c, n, v, line, w], i) => { const el = $('r' + i);
+      const ti = line === 'l5' ? tVis : W(line, w) - 0.1;
+      { const s = K.spring(t - ti, 240, 20); el.style.opacity = t >= ti ? 1 : 0; el.style.transform = `translateX(${(1 - s) * (i % 2 ? 900 : -900)}px)`; }
+      const tg = line === 'l5' ? tVis : (c === 'VN' ? W('l5b', '35') - 0.3 : c === 'IN' ? W('l5b', '25') - 0.3 : W('l5b', '18') - 0.25);
+      const k = K.easeOut(K.prog(t, tg, 0.45)); $('rb' + i).style.width = Math.round(500 * v / 35 * k) + 'px';
+      setTxt($('rv' + i), k > 0 ? '≤' + Math.round(v * k) + '%' : '');
+      if (c === 'VN' && t >= W('l5b', '35')) el.style.transform += ` scale(${1 + 0.05 * Math.sin(K.clamp((t - W('l5b', '35')) / 0.4) * Math.PI)})`; }); }
+  K.pop($('fSrc'), t, W('l5b', 'vietnam') - 0.1, Infinity, 0);
+  K.pop($('fFn'), t, W('l5b', '25') + 0.25, Infinity, 0);
+
+  // ---------- zG: l6 ----------
+  slam($('gSt'), t, at('l6', -0.1), -6, 2.0);
+  if (t >= at('l6', -0.1)) $('gSt').style.transform += ' rotate(-6deg)';
+  K.pop($('gNo'), t, W('l6', 'usulan') + 0.25, Infinity, 1);
+  { const tf = W('l6', 'januari') - 0.1, f = K.clamp((t - tf) / 0.3), want = f < 0.5 ? 'a' : 'b';
+    if ($('gCal').dataset.v !== want) { $('gCal').dataset.v = want; $('gCal').innerHTML = want === 'a' ? calSVG('JADWAL', '?', '', 340) : calSVG('JANUARI', '2027', 'mulai', 340); }
+    K.pop($('gCal'), t, W('l6', 'dengar') - 0.1, Infinity, -2);
+    if (f > 0 && f < 1) $('gCal').style.transform += ` scaleY(${Math.max(0.05, Math.abs(Math.cos(f * Math.PI)))})`; }
+  K.pop($('gHr'), t, W('l6', 'pendapat') - 0.05, Infinity, 2);
+
+  // ---------- zH: l7 ----------
+  K.pop($('iHd'), t, at('l7', -0.15), Infinity, -1);
+  drop($('iSh'), t, W('l7', 'pengecualian') - 0.12, -4);
+  K.pop($('iShL'), t, W('l7', 'produk') - 0.1, Infinity, -2);
+  { const tg = W('l7', 'pasar') - 0.12, k = K.easeOut(K.prog(t, tg + 0.15, 0.6)), want = k.toFixed(2);
+    if ($('iGl').dataset.k !== want) { $('iGl').dataset.k = want; $('iGl').innerHTML = globeSVG(240, k); }
+    K.pop($('iGl'), t, tg, Infinity, 3); }
+  K.pop($('iGlL'), t, W('l7', 'baru') - 0.1, Infinity, 2);
+  K.pop($('iSrc'), t, W('l7', 'baru') + 0.2, Infinity, 0);
+
+  // ---------- CTA ----------
+  const qOut = END - 0.3;
+  drop($('qShirt'), t, at('cta', -0.15), -4, qOut);
+  K.pop($('qHd'), t, W('cta', 'pengusaha') - 0.1, qOut, -1);
+  K.pop($('qCm'), t, W('cta', 'apa') - 0.12, qOut, -4);
+  K.pop($('qLg'), t, W('cta', 'langkah') - 0.1, qOut, 2);
+  slam($('qKm'), t, W('cta', 'komen') - 0.08, -5, 1.8, qOut);
+
+  // ---------- overlays ----------
+  const en = K.prog(t, END, 0.3);
+  $('usul').style.opacity = 1 - en;
+  $('endcard').style.opacity = en;
+  $('endcard').querySelector('.logo').style.transform = `rotate(-3deg) scale(${0.6 + 0.4 * K.spring(t - END)})`;
+  K.subtitles($('subs'), t);
+  $('subs').style.visibility = en > 0.5 ? 'hidden' : 'visible';
+  $('progress').style.width = (100 * t / window.DURATION) + '%';
+  return true;
+}
+window.seek = seek; seek(0);
+</script>
+</body>
+</html>

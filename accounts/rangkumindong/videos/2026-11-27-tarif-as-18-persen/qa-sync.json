@@ -1,0 +1,488 @@
+{
+ "verdict": "PASS",
+ "lead": 0.05,
+ "matched_words": 91,
+ "of_words": 92,
+ "median_offset_s": -0.092,
+ "share_in_window": 0.923,
+ "share_late_over_150ms": 0.011,
+ "worst_lines": [
+  {
+   "line": "h2",
+   "median_offset_s": -0.114
+  },
+  {
+   "line": "l2",
+   "median_offset_s": -0.113
+  },
+  {
+   "line": "h1",
+   "median_offset_s": -0.101
+  },
+  {
+   "line": "l4",
+   "median_offset_s": -0.095
+  },
+  {
+   "line": "l6",
+   "median_offset_s": -0.095
+  }
+ ],
+ "pairs": [
+  {
+   "line": "h1",
+   "word": "Barang",
+   "offset": 0.126
+  },
+  {
+   "line": "h1",
+   "word": "kita",
+   "offset": -0.117
+  },
+  {
+   "line": "h1",
+   "word": "ke",
+   "offset": -0.085
+  },
+  {
+   "line": "h1",
+   "word": "Amerika",
+   "offset": -0.038
+  },
+  {
+   "line": "h1",
+   "word": "bisa",
+   "offset": -0.176
+  },
+  {
+   "line": "h1",
+   "word": "kena",
+   "offset": -0.117
+  },
+  {
+   "line": "h1",
+   "word": "tambahan",
+   "offset": -0.083
+  },
+  {
+   "line": "h1",
+   "word": "18%.",
+   "offset": -0.137
+  },
+  {
+   "line": "h2",
+   "word": "Barang",
+   "offset": 0.055
+  },
+  {
+   "line": "h2",
+   "word": "apa",
+   "offset": -0.127
+  },
+  {
+   "line": "h2",
+   "word": "aja?",
+   "offset": -0.124
+  },
+  {
+   "line": "h2",
+   "word": "Dan",
+   "offset": -0.189
+  },
+  {
+   "line": "h2",
+   "word": "siapa",
+   "offset": -0.07
+  },
+  {
+   "line": "h2",
+   "word": "yang",
+   "offset": -0.118
+  },
+  {
+   "line": "h2",
+   "word": "lebih",
+   "offset": -0.092
+  },
+  {
+   "line": "h2",
+   "word": "parah?",
+   "offset": -0.11
+  },
+  {
+   "line": "rd",
+   "word": "Rangkumin",
+   "offset": -0.064
+  },
+  {
+   "line": "rd",
+   "word": "dong!",
+   "offset": -0.085
+  },
+  {
+   "line": "l1",
+   "word": "25",
+   "offset": -0.024
+  },
+  {
+   "line": "l1",
+   "word": "November,",
+   "offset": 0.108
+  },
+  {
+   "line": "l1",
+   "word": "kantor",
+   "offset": -0.073
+  },
+  {
+   "line": "l1",
+   "word": "dagang",
+   "offset": -0.093
+  },
+  {
+   "line": "l1",
+   "word": "Amerika,",
+   "offset": -0.091
+  },
+  {
+   "line": "l1",
+   "word": "USTR,",
+   "offset": -0.154
+  },
+  {
+   "line": "l1",
+   "word": "umumkan",
+   "offset": -0.192
+  },
+  {
+   "line": "l1",
+   "word": "hasil",
+   "offset": -0.12
+  },
+  {
+   "line": "l1",
+   "word": "penyelidikannya.",
+   "offset": -0.142
+  },
+  {
+   "line": "l2",
+   "word": "Soal",
+   "offset": -0.02
+  },
+  {
+   "line": "l2",
+   "word": "produksi",
+   "offset": -0.134
+  },
+  {
+   "line": "l2",
+   "word": "berlebih.",
+   "offset": -0.073
+  },
+  {
+   "line": "l2",
+   "word": "14",
+   "offset": -0.18
+  },
+  {
+   "line": "l2",
+   "word": "ekonomi",
+   "offset": -0.161
+  },
+  {
+   "line": "l2",
+   "word": "dapat",
+   "offset": -0.115
+  },
+  {
+   "line": "l2",
+   "word": "usulan",
+   "offset": -0.111
+  },
+  {
+   "line": "l2",
+   "word": "tarif.",
+   "offset": -0.088
+  },
+  {
+   "line": "l3",
+   "word": "Buat",
+   "offset": -0.027
+  },
+  {
+   "line": "l3",
+   "word": "Indonesia:",
+   "offset": -0.091
+  },
+  {
+   "line": "l3",
+   "word": "sampai",
+   "offset": -0.079
+  },
+  {
+   "line": "l3",
+   "word": "18",
+   "offset": -0.165
+  },
+  {
+   "line": "l4",
+   "word": "Sektornya:",
+   "offset": 0.013
+  },
+  {
+   "line": "l4",
+   "word": "tekstil",
+   "offset": -0.109
+  },
+  {
+   "line": "l4",
+   "word": "dan",
+   "offset": -0.124
+  },
+  {
+   "line": "l4",
+   "word": "pakaian,",
+   "offset": -0.095
+  },
+  {
+   "line": "l4",
+   "word": "tambang",
+   "offset": -0.201
+  },
+  {
+   "line": "l4",
+   "word": "dan",
+   "offset": -0.092
+  },
+  {
+   "line": "l4",
+   "word": "logam,",
+   "offset": -0.082
+  },
+  {
+   "line": "l4",
+   "word": "energi",
+   "offset": -0.225
+  },
+  {
+   "line": "l4",
+   "word": "terbarukan.",
+   "offset": -0.025
+  },
+  {
+   "line": "l5",
+   "word": "Tapi,",
+   "offset": -0.045
+  },
+  {
+   "line": "l5",
+   "word": "kita",
+   "offset": -0.181
+  },
+  {
+   "line": "l5",
+   "word": "bukan",
+   "offset": -0.178
+  },
+  {
+   "line": "l5",
+   "word": "yang",
+   "offset": -0.1
+  },
+  {
+   "line": "l5",
+   "word": "paling",
+   "offset": -0.082
+  },
+  {
+   "line": "l5",
+   "word": "tinggi.",
+   "offset": -0.073
+  },
+  {
+   "line": "l5b",
+   "word": "Malaysia",
+   "offset": 0.186
+  },
+  {
+   "line": "l5b",
+   "word": "dan",
+   "offset": -0.084
+  },
+  {
+   "line": "l5b",
+   "word": "Kamboja",
+   "offset": -0.074
+  },
+  {
+   "line": "l5b",
+   "word": "juga",
+   "offset": -0.077
+  },
+  {
+   "line": "l5b",
+   "word": "sampai",
+   "offset": -0.076
+  },
+  {
+   "line": "l5b",
+   "word": "18.",
+   "offset": -0.101
+  },
+  {
+   "line": "l5b",
+   "word": "Vietnam",
+   "offset": -0.154
+  },
+  {
+   "line": "l5b",
+   "word": "sampai",
+   "offset": -0.094
+  },
+  {
+   "line": "l5b",
+   "word": "35,",
+   "offset": -0.06
+  },
+  {
+   "line": "l5b",
+   "word": "India",
+   "offset": -0.069
+  },
+  {
+   "line": "l5b",
+   "word": "sampai",
+   "offset": -0.107
+  },
+  {
+   "line": "l5b",
+   "word": "25.",
+   "offset": -0.112
+  },
+  {
+   "line": "l6",
+   "word": "Dan",
+   "offset": 0.042
+  },
+  {
+   "line": "l6",
+   "word": "ini",
+   "offset": -0.094
+  },
+  {
+   "line": "l6",
+   "word": "masih",
+   "offset": -0.172
+  },
+  {
+   "line": "l6",
+   "word": "usulan.",
+   "offset": -0.065
+  },
+  {
+   "line": "l6",
+   "word": "Dengar",
+   "offset": -0.206
+  },
+  {
+   "line": "l6",
+   "word": "pendapat",
+   "offset": -0.095
+  },
+  {
+   "line": "l6",
+   "word": "mulai",
+   "offset": -0.095
+  },
+  {
+   "line": "l6",
+   "word": "Januari",
+   "offset": -0.114
+  },
+  {
+   "line": "l6",
+   "word": "2027.",
+   "offset": -0.305
+  },
+  {
+   "line": "l7",
+   "word": "Pemerintah",
+   "offset": 0.064
+  },
+  {
+   "line": "l7",
+   "word": "mau",
+   "offset": -0.064
+  },
+  {
+   "line": "l7",
+   "word": "cari",
+   "offset": -0.093
+  },
+  {
+   "line": "l7",
+   "word": "pengecualian",
+   "offset": -0.087
+  },
+  {
+   "line": "l7",
+   "word": "produk",
+   "offset": -0.091
+  },
+  {
+   "line": "l7",
+   "word": "dan",
+   "offset": -0.046
+  },
+  {
+   "line": "l7",
+   "word": "pasar",
+   "offset": -0.082
+  },
+  {
+   "line": "l7",
+   "word": "baru.",
+   "offset": -0.09
+  },
+  {
+   "line": "cta",
+   "word": "Kalau",
+   "offset": 0.075
+  },
+  {
+   "line": "cta",
+   "word": "kamu",
+   "offset": 0.01
+  },
+  {
+   "line": "cta",
+   "word": "pengusaha",
+   "offset": -0.079
+  },
+  {
+   "line": "cta",
+   "word": "garmen,",
+   "offset": -0.099
+  },
+  {
+   "line": "cta",
+   "word": "apa",
+   "offset": -0.128
+  },
+  {
+   "line": "cta",
+   "word": "langkah",
+   "offset": -0.08
+  },
+  {
+   "line": "cta",
+   "word": "pertamamu?",
+   "offset": -0.078
+  },
+  {
+   "line": "cta",
+   "word": "Komen!",
+   "offset": -0.172
+  }
+ ]
+}

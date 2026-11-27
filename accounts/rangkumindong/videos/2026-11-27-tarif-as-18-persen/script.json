@@ -1,0 +1,79 @@
+{
+ "direction": "[energetic, conversational, explaining to a friend]",
+ "format": "short",
+ "hook_style": "shock_number",
+ "lines": [
+  {
+   "id": "h1",
+   "tag": "[shocked]",
+   "text": "Barang kita ke Amerika bisa kena tambahan 18%.",
+   "say": "Barang kita ke Amerika bisa kena tambahan delapan belas persen."
+  },
+  {
+   "id": "h2",
+   "tag": "[curious, teasing]",
+   "text": "Barang apa aja? Dan siapa yang lebih parah?",
+   "say": "Barang apa aja? Dan siapa yang lebih parah?"
+  },
+  {
+   "id": "rd",
+   "tagline": true,
+   "text": "Rangkumin dong!"
+  },
+  {
+   "id": "l1",
+   "tag": "[matter-of-fact, quick]",
+   "text": "25 November, kantor dagang Amerika, USTR, umumkan hasil penyelidikannya.",
+   "say": "Dua puluh lima November, kantor dagang Amerika, yu es ti ar, umumkan hasil penyelidikannya."
+  },
+  {
+   "id": "l2",
+   "tag": "[explaining]",
+   "text": "Soal produksi berlebih. 14 ekonomi dapat usulan tarif.",
+   "say": "Soal produksi berlebih. Empat belas ekonomi dapat usulan tarif."
+  },
+  {
+   "id": "l3",
+   "tag": "[serious, punchy]",
+   "text": "Buat Indonesia: sampai 18 persen.",
+   "say": "Buat Indonesia: sampai delapan belas persen."
+  },
+  {
+   "id": "l4",
+   "tag": "[explaining, quick]",
+   "text": "Sektornya: tekstil dan pakaian, tambang dan logam, energi terbarukan.",
+   "say": "Sektornya: tekstil dan pakaian, tambang dan logam, energi terbarukan."
+  },
+  {
+   "id": "l5",
+   "tag": "[surprised, slowing down]",
+   "text": "Tapi, kita bukan yang paling tinggi.",
+   "say": "Tapi, kita bukan yang paling tinggi."
+  },
+  {
+   "id": "l5b",
+   "tag": "[emphatic]",
+   "text": "Malaysia dan Kamboja juga sampai 18. Vietnam sampai 35, India sampai 25.",
+   "say": "Malaysia dan Kamboja juga sampai delapan belas. Vietnam sampai tiga puluh lima, India sampai dua puluh lima."
+  },
+  {
+   "id": "l6",
+   "tag": "[reassuring]",
+   "text": "Dan ini masih usulan. Dengar pendapat mulai Januari 2027.",
+   "say": "Dan ini masih usulan. Dengar pendapat mulai Januari dua ribu dua puluh tujuh."
+  },
+  {
+   "id": "l7",
+   "tag": "[matter-of-fact]",
+   "text": "Pemerintah mau cari pengecualian produk dan pasar baru.",
+   "say": "Pemerintah mau cari pengecualian produk dan pasar baru."
+  },
+  {
+   "id": "cta",
+   "tag": "[playful, asking the viewer]",
+   "text": "Kalau kamu pengusaha garmen, apa langkah pertamamu? Komen!",
+   "say": "Kalau kamu pengusaha garmen, apa langkah pertamamu? Komen!"
+  }
+ ],
+ "tail": 0.9
+}

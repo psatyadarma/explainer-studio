@@ -1,0 +1,562 @@
+{
+ "duration": 43.287,
+ "voice": "Pratama",
+ "lines": [
+  {
+   "id": "h1",
+   "text": "Barang kita ke Amerika bisa kena tambahan 18%.",
+   "start": 0.316,
+   "end": 3.434,
+   "words": [
+    {
+     "w": "Barang",
+     "start": 0.316,
+     "end": 0.348
+    },
+    {
+     "w": "kita",
+     "start": 0.393,
+     "end": 0.575
+    },
+    {
+     "w": "ke",
+     "start": 0.625,
+     "end": 0.725
+    },
+    {
+     "w": "Amerika",
+     "start": 0.792,
+     "end": 1.254
+    },
+    {
+     "w": "bisa",
+     "start": 1.314,
+     "end": 1.556
+    },
+    {
+     "w": "kena",
+     "start": 1.593,
+     "end": 1.782
+    },
+    {
+     "w": "tambahan",
+     "start": 1.827,
+     "end": 2.235
+    },
+    {
+     "w": "18%.",
+     "start": 2.273,
+     "end": 3.434
+    }
+   ]
+  },
+  {
+   "id": "h2",
+   "text": "Barang apa aja? Dan siapa yang lebih parah?",
+   "start": 3.685,
+   "end": 5.876,
+   "words": [
+    {
+     "w": "Barang",
+     "start": 3.685,
+     "end": 3.707
+    },
+    {
+     "w": "apa",
+     "start": 3.763,
+     "end": 3.933
+    },
+    {
+     "w": "aja?",
+     "start": 4.046,
+     "end": 4.386
+    },
+    {
+     "w": "Dan",
+     "start": 4.481,
+     "end": 4.744
+    },
+    {
+     "w": "siapa",
+     "start": 4.82,
+     "end": 5.122
+    },
+    {
+     "w": "yang",
+     "start": 5.152,
+     "end": 5.273
+    },
+    {
+     "w": "lebih",
+     "start": 5.298,
+     "end": 5.424
+    },
+    {
+     "w": "parah?",
+     "start": 5.48,
+     "end": 5.876
+    }
+   ]
+  },
+  {
+   "id": "rd",
+   "text": "Rangkumin dong!",
+   "start": 6.066,
+   "end": 7.025,
+   "words": [
+    {
+     "w": "Rangkumin",
+     "start": 6.066,
+     "end": 6.545
+    },
+    {
+     "w": "dong!",
+     "start": 6.545,
+     "end": 7.025
+    }
+   ]
+  },
+  {
+   "id": "l1",
+   "text": "25 November, kantor dagang Amerika, USTR, umumkan hasil penyelidikannya.",
+   "start": 7.425,
+   "end": 12.412,
+   "words": [
+    {
+     "w": "25",
+     "start": 7.426,
+     "end": 8.148
+    },
+    {
+     "w": "November,",
+     "start": 8.178,
+     "end": 8.639
+    },
+    {
+     "w": "kantor",
+     "start": 8.677,
+     "end": 8.941
+    },
+    {
+     "w": "dagang",
+     "start": 8.997,
+     "end": 9.243
+    },
+    {
+     "w": "Amerika,",
+     "start": 9.299,
+     "end": 9.846
+    },
+    {
+     "w": "USTR,",
+     "start": 9.896,
+     "end": 10.677
+    },
+    {
+     "w": "umumkan",
+     "start": 10.778,
+     "end": 11.28
+    },
+    {
+     "w": "hasil",
+     "start": 11.33,
+     "end": 11.582
+    },
+    {
+     "w": "penyelidikannya.",
+     "start": 11.628,
+     "end": 12.412
+    }
+   ]
+  },
+  {
+   "id": "l2",
+   "text": "Soal produksi berlebih. 14 ekonomi dapat usulan tarif.",
+   "start": 12.67,
+   "end": 15.96,
+   "words": [
+    {
+     "w": "Soal",
+     "start": 12.67,
+     "end": 12.846
+    },
+    {
+     "w": "produksi",
+     "start": 12.896,
+     "end": 13.299
+    },
+    {
+     "w": "berlebih.",
+     "start": 13.337,
+     "end": 13.752
+    },
+    {
+     "w": "14",
+     "start": 13.79,
+     "end": 14.224
+    },
+    {
+     "w": "ekonomi",
+     "start": 14.289,
+     "end": 14.752
+    },
+    {
+     "w": "dapat",
+     "start": 14.815,
+     "end": 15.129
+    },
+    {
+     "w": "usulan",
+     "start": 15.179,
+     "end": 15.507
+    },
+    {
+     "w": "tarif.",
+     "start": 15.582,
+     "end": 15.961
+    }
+   ]
+  },
+  {
+   "id": "l3",
+   "text": "Buat Indonesia: sampai 18 persen.",
+   "start": 16.262,
+   "end": 18.742,
+   "words": [
+    {
+     "w": "Buat",
+     "start": 16.262,
+     "end": 16.346
+    },
+    {
+     "w": "Indonesia:",
+     "start": 16.399,
+     "end": 17.196
+    },
+    {
+     "w": "sampai",
+     "start": 17.271,
+     "end": 17.648
+    },
+    {
+     "w": "18",
+     "start": 17.705,
+     "end": 18.177
+    },
+    {
+     "w": "persen.",
+     "start": 18.237,
+     "end": 18.743
+    }
+   ]
+  },
+  {
+   "id": "l4",
+   "text": "Sektornya: tekstil dan pakaian, tambang dan logam, energi terbarukan.",
+   "start": 18.983,
+   "end": 23.162,
+   "words": [
+    {
+     "w": "Sektornya:",
+     "start": 18.983,
+     "end": 19.691
+    },
+    {
+     "w": "tekstil",
+     "start": 19.741,
+     "end": 20.068
+    },
+    {
+     "w": "dan",
+     "start": 20.106,
+     "end": 20.219
+    },
+    {
+     "w": "pakaian,",
+     "start": 20.295,
+     "end": 20.823
+    },
+    {
+     "w": "tambang",
+     "start": 20.929,
+     "end": 21.361
+    },
+    {
+     "w": "dan",
+     "start": 21.398,
+     "end": 21.512
+    },
+    {
+     "w": "logam,",
+     "start": 21.568,
+     "end": 21.964
+    },
+    {
+     "w": "energi",
+     "start": 22.065,
+     "end": 22.596
+    },
+    {
+     "w": "terbarukan.",
+     "start": 22.625,
+     "end": 23.162
+    }
+   ]
+  },
+  {
+   "id": "l5",
+   "text": "Tapi, kita bukan yang paling tinggi.",
+   "start": 23.365,
+   "end": 25.761,
+   "words": [
+    {
+     "w": "Tapi,",
+     "start": 23.365,
+     "end": 23.898
+    },
+    {
+     "w": "kita",
+     "start": 23.989,
+     "end": 24.351
+    },
+    {
+     "w": "bukan",
+     "start": 24.452,
+     "end": 24.879
+    },
+    {
+     "w": "yang",
+     "start": 24.91,
+     "end": 25.03
+    },
+    {
+     "w": "paling",
+     "start": 25.068,
+     "end": 25.257
+    },
+    {
+     "w": "tinggi.",
+     "start": 25.317,
+     "end": 25.762
+    }
+   ]
+  },
+  {
+   "id": "l5b",
+   "text": "Malaysia dan Kamboja juga sampai 18. Vietnam sampai 35, India sampai 25.",
+   "start": 26.156,
+   "end": 31.579,
+   "words": [
+    {
+     "w": "Malaysia",
+     "start": 26.156,
+     "end": 26.268
+    },
+    {
+     "w": "dan",
+     "start": 26.306,
+     "end": 26.419
+    },
+    {
+     "w": "Kamboja",
+     "start": 26.476,
+     "end": 26.947
+    },
+    {
+     "w": "juga",
+     "start": 26.993,
+     "end": 27.174
+    },
+    {
+     "w": "sampai",
+     "start": 27.234,
+     "end": 27.551
+    },
+    {
+     "w": "18.",
+     "start": 27.589,
+     "end": 28.328
+    },
+    {
+     "w": "Vietnam",
+     "start": 28.396,
+     "end": 28.891
+    },
+    {
+     "w": "sampai",
+     "start": 28.936,
+     "end": 29.193
+    },
+    {
+     "w": "35,",
+     "start": 29.23,
+     "end": 30.032
+    },
+    {
+     "w": "India",
+     "start": 30.101,
+     "end": 30.447
+    },
+    {
+     "w": "sampai",
+     "start": 30.523,
+     "end": 30.9
+    },
+    {
+     "w": "25.",
+     "start": 30.938,
+     "end": 31.579
+    }
+   ]
+  },
+  {
+   "id": "l6",
+   "text": "Dan ini masih usulan. Dengar pendapat mulai Januari 2027.",
+   "start": 31.872,
+   "end": 36.195,
+   "words": [
+    {
+     "w": "Dan",
+     "start": 31.872,
+     "end": 31.9
+    },
+    {
+     "w": "ini",
+     "start": 31.976,
+     "end": 32.202
+    },
+    {
+     "w": "masih",
+     "start": 32.278,
+     "end": 32.655
+    },
+    {
+     "w": "usulan.",
+     "start": 32.705,
+     "end": 33.183
+    },
+    {
+     "w": "Dengar",
+     "start": 33.224,
+     "end": 33.57
+    },
+    {
+     "w": "pendapat",
+     "start": 33.615,
+     "end": 34.098
+    },
+    {
+     "w": "mulai",
+     "start": 34.155,
+     "end": 34.4
+    },
+    {
+     "w": "Januari",
+     "start": 34.476,
+     "end": 34.929
+    },
+    {
+     "w": "2027.",
+     "start": 34.985,
+     "end": 36.196
+    }
+   ]
+  },
+  {
+   "id": "l7",
+   "text": "Pemerintah mau cari pengecualian produk dan pasar baru.",
+   "start": 36.434,
+   "end": 38.956,
+   "words": [
+    {
+     "w": "Pemerintah",
+     "start": 36.434,
+     "end": 36.768
+    },
+    {
+     "w": "mau",
+     "start": 36.806,
+     "end": 36.919
+    },
+    {
+     "w": "cari",
+     "start": 36.957,
+     "end": 37.146
+    },
+    {
+     "w": "pengecualian",
+     "start": 37.183,
+     "end": 37.674
+    },
+    {
+     "w": "produk",
+     "start": 37.739,
+     "end": 38.127
+    },
+    {
+     "w": "dan",
+     "start": 38.164,
+     "end": 38.278
+    },
+    {
+     "w": "pasar",
+     "start": 38.328,
+     "end": 38.579
+    },
+    {
+     "w": "baru.",
+     "start": 38.64,
+     "end": 38.957
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "text": "Kalau kamu pengusaha garmen, apa langkah pertamamu? Komen!",
+   "start": 39.244,
+   "end": 42.504,
+   "words": [
+    {
+     "w": "Kalau",
+     "start": 39.245,
+     "end": 39.41
+    },
+    {
+     "w": "kamu",
+     "start": 39.44,
+     "end": 39.561
+    },
+    {
+     "w": "pengusaha",
+     "start": 39.591,
+     "end": 40.013
+    },
+    {
+     "w": "garmen,",
+     "start": 40.051,
+     "end": 40.636
+    },
+    {
+     "w": "apa",
+     "start": 40.702,
+     "end": 40.9
+    },
+    {
+     "w": "langkah",
+     "start": 40.93,
+     "end": 41.127
+    },
+    {
+     "w": "pertamamu?",
+     "start": 41.172,
+     "end": 41.73
+    },
+    {
+     "w": "Komen!",
+     "start": 41.818,
+     "end": 42.504
+    }
+   ]
+  }
+ ]
+}

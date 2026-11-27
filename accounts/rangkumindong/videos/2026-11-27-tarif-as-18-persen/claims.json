@@ -1,0 +1,59 @@
+[
+ {
+  "claim": "h1/l3/caption: Indonesian goods could face an additional US tariff of up to 18%; it is a USTR proposal under Section 301, not a final decision ('consider applying… up to 18 percent', net of existing 301 tariffs, with product exemptions possible).",
+  "numbers": "up to 18%",
+  "sources": [
+   "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/november/ustr-makes-determinations-and-proposes-actions-14-section-301-investigations-relating-structural",
+   "https://www.kelleydrye.com/viewpoints/blogs/trade-and-manufacturing-monitor/ustr-proposes-section-301-overcapacity-tariffs-on-14-of-16-economies-investigated-public-comment-period-and-public-hearing-will-precede-any-final-action",
+   "https://www.cnbcindonesia.com/news/20261126175500-4-788866/ri-terancam-tarif-as-18-menperin-kita-cari-pasar-baru-yang-terbuka"
+  ]
+ },
+ {
+  "claim": "l1: USTR announced the results on 25 November 2026 (US time).",
+  "numbers": "25 Nov 2026",
+  "sources": [
+   "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/november/ustr-makes-determinations-and-proposes-actions-14-section-301-investigations-relating-structural",
+   "https://www.suara.com/bisnis/2026/11/26/185337/trump-bidik-tarif-18-untuk-ri-pemerintah-berburu-pengecualian"
+  ]
+ },
+ {
+  "claim": "l2: The investigations concern structural excess capacity ('produksi berlebih'); 14 economies received determinations and proposed actions (16 were investigated; no action on Mexico or Norway). 'Ekonomi' because the list includes the EU and Taiwan.",
+  "numbers": "14 economies (of 16 investigated)",
+  "sources": [
+   "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/november/ustr-makes-determinations-and-proposes-actions-14-section-301-investigations-relating-structural",
+   "https://www.kelleydrye.com/viewpoints/blogs/trade-and-manufacturing-monitor/ustr-proposes-section-301-overcapacity-tariffs-on-14-of-16-economies-investigated-public-comment-period-and-public-hearing-will-precede-any-final-action"
+  ]
+ },
+ {
+  "claim": "l4/caption: Sectors USTR names for Indonesia: textiles and apparel, mining and metals, renewable energy. Footwear is NOT in Indonesia's list (it is listed for Vietnam); Suara.com's 'alas kaki' is not used.",
+  "numbers": "",
+  "sources": [
+   "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/november/ustr-makes-determinations-and-proposes-actions-14-section-301-investigations-relating-structural"
+  ]
+ },
+ {
+  "claim": "l5/l5b/caption: Indonesia is not the highest. Per USTR: Malaysia and Cambodia up to 18%; Vietnam up to 35%; India up to 25%. (Vietnam 20% and India 17% apply only if they reach a trade deal; not used.)",
+  "numbers": "Malaysia ≤18%, Kamboja ≤18%, Vietnam ≤35%, India ≤25%",
+  "sources": [
+   "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/november/ustr-makes-determinations-and-proposes-actions-14-section-301-investigations-relating-structural",
+   "https://www.kelleydrye.com/viewpoints/blogs/trade-and-manufacturing-monitor/ustr-proposes-section-301-overcapacity-tariffs-on-14-of-16-economies-investigated-public-comment-period-and-public-hearing-will-precede-any-final-action"
+  ]
+ },
+ {
+  "claim": "l6/caption: Still a proposal; written comments and requests to appear due 5 January 2027; public hearing from 25 January 2027; final action later.",
+  "numbers": "5 Jan 2027; 25 Jan 2027",
+  "sources": [
+   "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/november/ustr-makes-determinations-and-proposes-actions-14-section-301-investigations-relating-structural",
+   "https://www.kelleydrye.com/viewpoints/blogs/trade-and-manufacturing-monitor/ustr-proposes-section-301-overcapacity-tariffs-on-14-of-16-economies-investigated-public-comment-period-and-public-hearing-will-precede-any-final-action"
+  ]
+ },
+ {
+  "claim": "l7/caption: The government will use the USTR consultation to seek product exemptions (Suara.com) and look for new open export markets (Menperin, CNBC Indonesia headline; detik).",
+  "numbers": "",
+  "sources": [
+   "https://www.suara.com/bisnis/2026/11/26/185337/trump-bidik-tarif-18-untuk-ri-pemerintah-berburu-pengecualian",
+   "https://www.cnbcindonesia.com/news/20261126175500-4-788866/ri-terancam-tarif-as-18-menperin-kita-cari-pasar-baru-yang-terbuka",
+   "https://finance.detik.com/industri/d-8771659/menperin-sebut-ri-siap-hadapi-ancaman-tarif-as-18"
+  ]
+ }
+]
