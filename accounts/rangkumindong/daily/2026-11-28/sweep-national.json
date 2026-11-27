@@ -1,0 +1,292 @@
+{
+ "area": "national",
+ "run_date": "2026-11-28",
+ "checked": [
+  "detik terpopuler (snapshot 27 Nov 08:16 WIB)",
+  "CNBC Indonesia home (latest; popular list 'Loading')",
+  "CNN Indonesia nasional (latest to 27 Nov 23:26)",
+  "Antara home (terkini + terpopuler)",
+  "Antara cek fakta",
+  "watch-list found: crime, hoaxes, disasters/floods (BNPB), public services (biometric SIM), corruption, tentara bayaran",
+  "storylines: listyo-sigit-penyadapan, tentara-bayaran-rusia, online-scams, corruption-cases, karhutla (easing), hoax-tracker"
+ ],
+ "events": [
+  {
+   "date": "2026-11-27",
+   "category": "NEWS",
+   "event": "KPK said Klaten Regent Hamenang Wajar Ismoyo (suspended) allegedly had the price of chicken soup (sop ayam) for a MURI record marked up from about Rp10,000-15,000 to about Rp35,000 per bowl, with a vendor suspect rigging procurement.",
+   "key_numbers": "9,222 bowls · Klaten 222nd anniversary · Rp10,000-15,000 fair price per bowl · ~Rp35,000 alleged price · KPK briefing 27 Nov 2026 · BPK Central Java office head 'AL' also a suspect for allegedly removing an audit finding",
+   "storyline": "corruption-cases",
+   "update_of": "",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "JawaPos",
+     "url": "https://www.jawapos.com/kasuistika/2611270391/kpk-ungkap-mark-up-pengadaan-sop-ayam-di-klaten-yang-raih-rekor-muri-harga-naik-jadi-rp-35-ribu?page=all"
+    },
+    {
+     "label": "detik",
+     "url": "https://news.detik.com/berita/d-8773257/bupati-klaten-diduga-mark-up-sop-ayam-untuk-muri-semangkok-jadi-rp-35-ribu"
+    },
+    {
+     "label": "Antara",
+     "url": "https://www.antaranews.com/berita/5881943/kpk-duga-bupati-klaten-nonaktif-salah-gunakan-wewenang-demi-rekor-muri"
+    }
+   ],
+   "why_it_matters": "A feel-good record stunt allegedly paid for with inflated prices and regional contributions, a relatable corruption example in a bowl of soup.",
+   "signals": {
+    "spreading": 2,
+    "wallet": 0,
+    "surprise": 2,
+    "visual": 2,
+    "fresh": 2,
+    "rivals": 2
+   },
+   "spreading_evidence": "CNN Indonesia terbaru #10, Antara terkini #10, detik search results (27 Nov); about 10 outlets",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-11-27",
+   "category": "NEWS",
+   "event": "Komdigi Minister Meutya Hafid said only 41.49 million mobile customers (13.96%) have completed mandatory biometric SIM registration, and Komdigi sent warning letters to three operators that still allow NIK/KK registration.",
+   "key_numbers": "41.49 million registered · 13.96% of mobile customers · full biometric rules since 1 July 2026 · 3 operators warned · SMS 444 registration still worked on day 2 · no deadline stated in article",
+   "storyline": "online-scams",
+   "update_of": "E1171",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "CNBC Indonesia",
+     "url": "https://www.cnbcindonesia.com/tech/20261127182539-37-789195/mayoritas-pemilik-hp-belum-registrasi-biometrik-ini-kata-menkomdigi"
+    }
+   ],
+   "why_it_matters": "Most phone numbers are not yet biometrically registered, and rules against scam numbers are tightening, so many people may need to register.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 2,
+    "surprise": 1,
+    "visual": 2,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "CNBC Indonesia terbaru #4 (27 Nov); popular list not loaded",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-27",
+   "category": "BIZ",
+   "event": "AirAsia told staff in an internal email that salaries will be paid at the end of each month for five months (November-March), instead of mid-month, citing temporary operational adjustments, per Reuters/CNA via CNBC Indonesia.",
+   "key_numbers": "5 months (Nov-Mar) · pay on the 30th or last day of Feb · about 26,000 employees · email sent weekend before 27 Nov · email went to staff in Malaysia, not confirmed for Indonesia",
+   "storyline": "",
+   "update_of": "",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "CNBC Indonesia",
+     "url": "https://www.cnbcindonesia.com/news/20261127171353-4-789164/heboh-airasia-tunda-bayar-gaji-karyawan-5-bulan-staf-diminta-sabar"
+    }
+   ],
+   "why_it_matters": "Signals cash strain at a major budget airline many Indonesians fly with; unclear whether Indonesian staff or flights are affected.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 1,
+    "surprise": 1,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "CNBC Indonesia terbaru #10 (27 Nov), headline 'Heboh'",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-27",
+   "category": "POL",
+   "event": "Former Cooperatives Minister Budi Arie Setiadi was examined as a witness by Bareskrim Polri for about 10 hours on 27 November in the makar (subversion) case involving ex-Kapolri Listyo Sigit, and said he was asked 42 questions and knows only Listyo among the six suspects.",
+   "key_numbers": "~10 hours (10:00-20:01 WIB) · 42 questions · 6 suspects in makar case · Budi Arie says no contact with Listyo for almost a year",
+   "storyline": "listyo-sigit-penyadapan",
+   "update_of": "E1119",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "Suara",
+     "url": "https://www.suara.com/news/2026/11/27/204443/diperiksa-10-jam-soal-makar-budi-arie-sebut-hanya-kenal-listyo-sigit-dari-6-tersangka"
+    },
+    {
+     "label": "detik",
+     "url": "https://news.detik.com/berita/d-8773440/diperiksa-9-jam-soal-kasus-makar-listyo-dkk-budi-arie-dicecar-42-pertanyaan"
+    },
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/nasional/20261127213441-12-1432553/pernyataan-lengkap-budi-arie-usai-diperiksa-kasus-makar-listyo-sigit"
+    }
+   ],
+   "why_it_matters": "The case widens from police generals to a political figure, so more names may be summoned.",
+   "signals": {
+    "spreading": 2,
+    "wallet": 0,
+    "surprise": 2,
+    "visual": 0,
+    "fresh": 2,
+    "rivals": 0
+   },
+   "spreading_evidence": "CNN Indonesia terbaru #5, detik terpopuler #1 on Listyo Sigit ethics hearing; Antara terkini 'dugaan makar'",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-11-27",
+   "category": "NEWS",
+   "event": "A Kebumen man identified by initials HS (38) who left for Russia on a tourist visa on 13 August 2026 for a promised office-boy job was reportedly killed fighting as a mercenary on 25 September; Purworejo Immigration is investigating it as a suspected human trafficking (TPPO) case.",
+   "key_numbers": "38 years old · left 13 Aug 2026 · reported dead 25 Sep · family told 14 Oct · promised salary tens of millions rupiah · Rp1.7 billion compensation promised by an unreachable intermediary · body whereabouts unknown",
+   "storyline": "tentara-bayaran-rusia",
+   "update_of": "E1177",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "Warta Ekonomi",
+     "url": "https://wartaekonomi.co.id/read650816/tergiur-gaji-puluhan-juta-warga-kebumen-malah-jadi-tentara-bayaran-di-rusia-hingga-tewas"
+    },
+    {
+     "label": "detik",
+     "url": "https://news.detik.com/berita/d-8771968/pria-kebumen-diduga-jadi-tentara-bayaran-rusia-keluarga-dapat-kabar-meninggal"
+    }
+   ],
+   "why_it_matters": "A concrete death shows how fake job offers abroad can end in war, and the warning applies to anyone taking an overseas job through online groups.",
+   "signals": {
+    "spreading": 2,
+    "wallet": 1,
+    "surprise": 2,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "detik terpopuler #4 (27 Nov snapshot); several regional outlets",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-11-27",
+   "category": "ENV",
+   "event": "BNPB's 27 November 07:00 WIB report listed floods and landslides after heavy rain in Melawi (276 houses), Medan (237 houses, 24 evacuated), Palembang (7 kelurahan), Cianjur (bridge collapsed, 250 families isolated), Garut and North Nias, with no casualties reported.",
+   "key_numbers": "Melawi 276 houses · Medan 237 houses, 24 evacuated · North Nias 23 houses · Palembang 7 kelurahan · Cianjur 30 m bridge collapsed, 250 KK cut off · 0 casualties reported · 15 provinces on heavy-rain alert per Viva",
+   "storyline": "",
+   "update_of": "",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "Vibizmedia (BNPB report)",
+     "url": "https://www.vibizmedia.com/index.php/2026/11/27/banjir-dan-longsor-terjang-sejumlah-daerah-276-rumah-di-melawi-terdampak-dan-250-kk-di-cianjur-terisolir/"
+    },
+    {
+     "label": "Mongabay",
+     "url": "http://mongabay.co.id/2026/11/27/karhutla-reda-banjir-bandang-dan-tanah-longsor-datang/"
+    },
+    {
+     "label": "Viva",
+     "url": "https://www.viva.co.id/berita/nasional/1946632-15-provinsi-berstatus-siaga-hujan-lebat-hari-ini-ada-jakarta-hingga-sumatera-utara"
+    }
+   ],
+   "why_it_matters": "The rainy season is shifting from haze to floods, and several cities face repeat overflow.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 1,
+    "surprise": 0,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 0
+   },
+   "spreading_evidence": "",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-27",
+   "category": "NEWS",
+   "event": "Antara fact-checks flagged a new batch of AI/edited hoaxes as most-read on 27 November, including an AI-generated photo of ex-Kapolri Listyo Sigit in hospital (99.9% AI per Hive Moderation), Jokowi arrested, Purbaya made PSI secretary-general and Bahlil opening Ujung Kulon for mining.",
+   "key_numbers": "99.9% AI-generated likelihood (Hive Moderation) · Antara terpopuler #1, #3, #6 are hoax checks · Listyo hoax published 27 Nov 20:37 WIB",
+   "storyline": "hoax-tracker",
+   "update_of": "E1172",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "Antara Listyo hoax",
+     "url": "https://www.antaranews.com/berita/5883471/hoaks-foto-mantan-kapolri-listyo-sigit-di-rumah-sakit"
+    },
+    {
+     "label": "Antara Purbaya PSI hoax",
+     "url": "https://www.antaranews.com/berita/5880219/hoaks-foto-purbaya-diangkat-jadi-sekjen-psi-dan-jokowi-resmi-jadi-ketum-psi"
+    },
+    {
+     "label": "Antara Bahlil Ujung Kulon hoax",
+     "url": "https://www.antaranews.com/berita/5880235/hoaks-bahlil-disebut-resmikan-ujung-kulon-sebagai-wilayah-tambang"
+    }
+   ],
+   "why_it_matters": "Political hoaxes with AI images are spreading around the VP replacement and the police case, so people need ways to check them.",
+   "signals": {
+    "spreading": 2,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 2,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "Antara terpopuler #1, #3, #6 (hoax checks, 27 Nov)",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-11-27",
+   "category": "NEWS",
+   "event": "Four teenagers were named suspects in a fatal group assault on a high-school girl in Malang, per CNN Indonesia.",
+   "key_numbers": "4 suspects · victim a female high-school student · details not verified beyond headline",
+   "storyline": "",
+   "update_of": "",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/nasional/20261127204428-12-1432540/4-remaja-jadi-tersangka-pengeroyokan-maut-siswi-sma-di-malang"
+    }
+   ],
+   "why_it_matters": "Another case of deadly youth violence, following the Tangerang brawl.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 0,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "CNN Indonesia terbaru #9 (27 Nov)",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-11-27",
+   "category": "NEWS",
+   "event": "A rest area for Kopasgat soldiers in Pancoran, Jakarta burned, and Antara listed it among its most-read stories.",
+   "key_numbers": "Antara terpopuler #2 · no casualty or damage figures verified",
+   "storyline": "",
+   "update_of": "",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "Antara",
+     "url": "https://www.antaranews.com/berita/5881047/tempat-istirahat-prajurit-kopasgat-di-pancoran-terbakar"
+    }
+   ],
+   "why_it_matters": "Fires at military sites in Jakarta draw attention, but the cause is still unknown.",
+   "signals": {
+    "spreading": 2,
+    "wallet": 0,
+    "surprise": 0,
+    "visual": 0,
+    "fresh": 2,
+    "rivals": 0
+   },
+   "spreading_evidence": "Antara terpopuler #2 (27 Nov)",
+   "sensitivity": "normal"
+  }
+ ],
+ "gaps": [
+  "WebFetch of CNN Indonesia Budi Arie article, CNN sop ayam article and detik Kebumen article was blocked (provenance); used search results and other outlets instead",
+  "detik terpopuler is a 27 Nov 08:16 snapshot; CNBC popular list empty",
+  "Nvidia 'blokir Indonesia' (CNBC video, Airlangga) and OECD fuel-subsidy/VAT items seen but left to business/markets sweeps; Nvidia block unverified",
+  "Ulta Levenia dismissed from Bakom RI and Demokrat summons to 3 YouTube accounts seen only as CNN headlines",
+  "Malang and Kopasgat items are headline-only"
+ ]
+}

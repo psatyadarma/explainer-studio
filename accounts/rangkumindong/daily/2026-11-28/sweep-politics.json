@@ -1,0 +1,400 @@
+{
+ "area": "politics",
+ "run_date": "2026-11-28",
+ "checked": [
+  "detik news front page",
+  "ANTARA politik",
+  "CNN Indonesia nasional",
+  "Tempo politik (robots-blocked)",
+  "Presiden/Istana",
+  "DPR/RUU",
+  "MPR VP election",
+  "Polri big cases (Listyo makar, KKEP)",
+  "KPK",
+  "Kejagung",
+  "storyline searches: gibran-ijazah-mk/VP, listyo-sigit-penyadapan, corruption-cases",
+  "MK/MA: nothing new in headlines",
+  "demonstrations: nothing in headlines"
+ ],
+ "events": [
+  {
+   "date": "2026-11-27",
+   "category": "POL",
+   "event": "Bareskrim Polri questioned Projo chair Budi Arie for about 10 hours as a witness in the alleged makar (subversion) case involving ex-Kapolri Listyo Sigit; he said he knows only Listyo Sigit among the six suspects and denied his political-analysis video is linked to the case; a former Jokowi personal assistant was also summoned.",
+   "key_numbers": "~10 hours of questioning (8-10 hrs per outlets) · 6 suspects · 27 Nov 2026",
+   "storyline": "listyo-sigit-penyadapan",
+   "update_of": "E1087",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "Detik",
+     "url": "https://news.detik.com/berita/d-8773349/budi-arie-usai-diperiksa-kasus-makar-saya-cuma-kenal-listyo-sigit"
+    },
+    {
+     "label": "TVOne",
+     "url": "https://www.tvonenews.com/berita/nasional/480715-10-jam-diperiksa-budi-arie-dicecar-pertanyaan-soal-dugaan-makar-listyo-sigit-cs"
+    },
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/nasional/20261127213441-12-1432553/pernyataan-lengkap-budi-arie-usai-diperiksa-kasus-makar-listyo-sigit"
+    }
+   ],
+   "why_it_matters": "The makar case is widening from police officers to political figures; being a witness is not being a suspect.",
+   "signals": {
+    "spreading": 2,
+    "wallet": 0,
+    "surprise": 2,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "CNN Indonesia nasional front page (5 articles on Budi Arie); Detik most-commented list on the case",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-11-27",
+   "category": "POL",
+   "event": "Polri dismissed Kombes Iman Imanuddin, former Dirreskrimum, from the force after an ethics process found he ordered an investigation stopped (a case in North Jakarta); he said he will appeal.",
+   "key_numbers": "Sanction: dismissal (PTDH) · appeal filed",
+   "storyline": "",
+   "update_of": "",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/nasional/20261127202423-12-1432532/kombes-iman-imanuddin-dipecat-buntut-perintah-setop-penyidikan"
+    },
+    {
+     "label": "Detik",
+     "url": "https://news.detik.com/berita/d-8773325/dipecat-buntut-setop-kasus-eks-dirreskrimum-polda-iman-imanuddin-banding"
+    },
+    {
+     "label": "Kumparan",
+     "url": "https://kumparan.com/kumparannews/terbukti-langgar-etik-karena-hentikan-penyidikan-kasus-kombes-iman-imanuddin-dipecat-dari-polri-28ehCXu5Xog"
+    }
+   ],
+   "why_it_matters": "Shows how far Polri's clean-up under the new Kapolri goes, down to who may stop a case.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 0,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-11-26",
+   "category": "POL",
+   "event": "A military court sentenced Letjen TNI Widi Prasetijono, a former aide to Jokowi, to 5 years in prison and dismissal from the TNI in the Caruy land corruption case; he declared an appeal immediately.",
+   "key_numbers": "5 years prison · dismissal from military service · 26 Nov 2026",
+   "storyline": "corruption-cases",
+   "update_of": "",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "Kompas",
+     "url": "https://nasional.kompas.com/read/2026/11/26/20280861/letjen-widi-prasetijono-divonis-5-tahun-penjara-dan-dipecat-dari-tni"
+    },
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/nasional/20261127080140-12-1432119/mantan-ajudan-jokowi-letjen-widi-divonis-5-tahun-bui-dipecat-militer"
+    },
+    {
+     "label": "ANTARA",
+     "url": "https://www.antaranews.com/foto/5880835/letjen-tni-widi-prasetijono-divonis-lima-tahun-penjara-dan-dipecat-dari-dinas-militer"
+    }
+   ],
+   "why_it_matters": "A three-star general jailed for corruption is rare; verdict is not final because of the appeal.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 0,
+    "surprise": 2,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 2
+   },
+   "spreading_evidence": "ANTARA photo section; widely covered",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-11-26",
+   "category": "POL",
+   "event": "At Bank Indonesia's annual meeting President Prabowo said Indonesia's governance is not good enough and warned state institutions and ministries to clean themselves or be cleaned, while praising the new Kapolri.",
+   "key_numbers": "Speech 26 Nov 2026 · BI annual meeting",
+   "storyline": "",
+   "update_of": "E1157",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/nasional/20261126181505-32-1432014/prabowo-di-pertemuan-bi-our-governance-is-not-good-enough"
+    },
+    {
+     "label": "ANTARA",
+     "url": "https://www.antaranews.com/berita/5883711/prabowo-ajak-jajaran-pemerintah-bersihkan-diri-dari-praktik-korupsi"
+    },
+    {
+     "label": "Detik",
+     "url": "https://20.detik.com/detikupdate/20261126-261126070/video-prabowo-ancam-koruptor-dan-maling-saya-punya-kapolri-baru"
+    }
+   ],
+   "why_it_matters": "The president publicly admitting weak governance in front of bankers and investors, with rupiah at record lows.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 1,
+    "surprise": 1,
+    "visual": 0,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "Detik video section",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-27",
+   "category": "POL",
+   "event": "KPK said the Klaten MURI-record chicken soup procurement (9,222 portions) was marked up by Rp35,000 per bowl.",
+   "key_numbers": "9,222 portions · Rp35,000 markup per bowl",
+   "storyline": "corruption-cases",
+   "update_of": "",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "Suara.com",
+     "url": "https://www.suara.com/news/2026/11/27/184316/kpk-bongkar-dugaan-mark-up-rekor-muri-9222-porsi-sop-ayam-di-klaten-rp35-ribu-per-mangkuk"
+    },
+    {
+     "label": "Jawapos",
+     "url": "https://www.jawapos.com/kasuistika/2611270391/kpk-ungkap-mark-up-pengadaan-sop-ayam-di-klaten-yang-raih-rekor-muri-harga-naik-jadi-rp-35-ribu?page=all"
+    },
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/nasional/20261127201830-12-1432527/kpk-harga-sop-ayam-rekor-muri-klaten-dimarkup-rp35-ribu-per-mangkok"
+    }
+   ],
+   "why_it_matters": "A simple, relatable example of how a local event budget gets inflated; still an allegation by KPK.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 2,
+    "fresh": 2,
+    "rivals": 2
+   },
+   "spreading_evidence": "",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-11-27",
+   "category": "POL",
+   "event": "Kejagung is tracking nickel businessman Arif Kurniawan, a corruption and money-laundering suspect who reportedly left for China after skipping three summonses.",
+   "key_numbers": "3 summonses missed · abroad (China)",
+   "storyline": "corruption-cases",
+   "update_of": "",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "CNBC Indonesia",
+     "url": "https://www.cnbcindonesia.com/news/20261127135344-4-789078/diduga-jadi-aktor-makar-raja-nikel-arif-kurniawan-kabur-ke-china"
+    },
+    {
+     "label": "Monitor Indonesia",
+     "url": "https://monitorindonesia.com/hukum/read/2026/11/639517/arif-kurniawan-kabur-ke-china-tiga-kali-dipanggil-kejagung-tak-pernah-hadir"
+    },
+    {
+     "label": "Fin.co.id",
+     "url": "https://news.fin.co.id/2026/11/27/terdeteksi-di-luar-negeri-kejagung-terus-lacak-tersangka-korupsi-dan-tppu-nikel-arif-kurniawan"
+    }
+   ],
+   "why_it_matters": "A major nickel figure being a fugitive links the mining sector to the makar narrative; CNBC headline mentions a possible makar role, unverified.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 0,
+    "surprise": 2,
+    "visual": 0,
+    "fresh": 2,
+    "rivals": 2
+   },
+   "spreading_evidence": "",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-11-26",
+   "category": "POL",
+   "event": "DPR Komisi III chair Habiburokhman proposed electing the new vice president by deliberation (musyawarah), with voting only if deadlocked.",
+   "key_numbers": "2 candidates: Sugiono, Andi Amran Sulaiman · health results to be announced 1 Dec",
+   "storyline": "gibran-ijazah-mk",
+   "update_of": "E1130",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "Detik",
+     "url": "https://20.detik.com/detikupdate/20261126-261126068/video-habiburkohman-usul-pemilihan-wapres-dengan-musyawarah-voting-jika-buntu"
+    },
+    {
+     "label": "Detik",
+     "url": "https://news.detik.com/berita/d-8768616/nasib-amran-dan-sugiono-di-antara-voting-atau-musyawarah"
+    }
+   ],
+   "why_it_matters": "How the MPR picks the VP decides whether the two nominees pass without a contest.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 0,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-11-26",
+   "category": "POL",
+   "event": "The MPR's Mukernas II decided that LDII is barred from MUI leadership.",
+   "key_numbers": "Decision at MUI Mukernas II, 26 Nov 2026",
+   "storyline": "",
+   "update_of": "",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "ANTARA",
+     "url": "https://www.antaranews.com/berita/5881587/mukernas-ii-mui-putuskan-ldii-dilarang-masuk-kepengurusan-mui"
+    }
+   ],
+   "why_it_matters": "Touches a large religious organisation; reaction from LDII is still to come.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 0,
+    "fresh": 2,
+    "rivals": 2
+   },
+   "spreading_evidence": "",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-11-27",
+   "category": "POL",
+   "event": "Komisi X DPR is trying to get a minimum teacher salary equal to the UMP into the RUU Sisdiknas.",
+   "key_numbers": "Minimum teacher salary = UMP (proposal)",
+   "storyline": "",
+   "update_of": "",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "Detik",
+     "url": "https://news.detik.com/berita/d-8771882/komisi-x-dpr-upayakan-gaji-minimal-guru-setara-ump-masuk-ruu-sisdiknas"
+    }
+   ],
+   "why_it_matters": "Would raise pay for many teachers if it survives the bill; still only an effort.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 2,
+    "surprise": 1,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 2
+   },
+   "spreading_evidence": "",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-26",
+   "category": "POL",
+   "event": "At Hari Guru Nasional President Prabowo launched Studio Guru and said ASN teacher allowances reached Rp70.64 trillion through November.",
+   "key_numbers": "Rp70.64 trillion teacher allowance (ASN) through Nov · 4 smart screens per school target end-2026",
+   "storyline": "",
+   "update_of": "",
+   "status": "verified",
+   "sources": [
+    {
+     "label": "ANTARA",
+     "url": "https://www.antaranews.com/berita/5881231/prabowo-tunjangan-guru-asn-capai-rp7064-triliun-hingga-november"
+    },
+    {
+     "label": "ANTARA",
+     "url": "https://www.antaranews.com/berita/5881239/prabowo-studio-guru-bantu-daerah-yang-kekurangan-guru"
+    },
+    {
+     "label": "ANTARA",
+     "url": "https://www.antaranews.com/berita/5881059/prabowo-targetkan-empat-layar-pintar-di-tiap-sekolah-akhir-2026"
+    }
+   ],
+   "why_it_matters": "Concrete spending number for teachers and schools.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 1,
+    "surprise": 0,
+    "visual": 1,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "ANTARA Berita Utama",
+   "sensitivity": "normal"
+  },
+  {
+   "date": "2026-11-27",
+   "category": "POL",
+   "event": "Demokrat issued a legal warning (somasi) to three YouTube accounts that alleged SBY met Jokowi to discuss 2029.",
+   "key_numbers": "3 YouTube accounts",
+   "storyline": "",
+   "update_of": "",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/nasional/20261127224454-12-1432561/demokrat-somasi-3-akun-youtube-tuding-sby-temui-jokowi-bahas-2029"
+    }
+   ],
+   "why_it_matters": "Political rumour mill ahead of 2029; the claim is denied by Demokrat.",
+   "signals": {
+    "spreading": 0,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 0,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "",
+   "sensitivity": "high"
+  },
+  {
+   "date": "2026-11-27",
+   "category": "NEWS",
+   "event": "Gerindra Kupang said it awaits the DPP's decision on the status of Kupang Regent Yosef Lede, a rape suspect.",
+   "key_numbers": "",
+   "storyline": "",
+   "update_of": "E1169",
+   "status": "partial",
+   "sources": [
+    {
+     "label": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/nasional/20261127134536-32-1432312/gerindra-kupang-tunggu-dpp-soal-status-yosef-lede-tersangka-perkosaan"
+    }
+   ],
+   "why_it_matters": "Whether the party sanctions a regent who is a suspect.",
+   "signals": {
+    "spreading": 1,
+    "wallet": 0,
+    "surprise": 1,
+    "visual": 0,
+    "fresh": 2,
+    "rivals": 1
+   },
+   "spreading_evidence": "",
+   "sensitivity": "high"
+  }
+ ],
+ "gaps": [
+  "Article bodies could not be opened (WebFetch permission not granted), so details rest on headlines and search snippets; key numbers beyond headlines unverified.",
+  "Ulta Levenia dismissed from Bakom RI (CNN, 27 Nov): reason unknown.",
+  "Tempo politik not readable (robots).",
+  "Listyo second KKEP summons 30 Nov and MPR health-result announcement 1 Dec already known (E1149, E1178), not re-reported.",
+  "Prabowo 'old economy / no stocks' remark (CNN 27 Nov) left to the business sweep."
+ ]
+}

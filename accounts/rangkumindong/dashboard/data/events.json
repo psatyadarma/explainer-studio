@@ -1,295 +1,5 @@
 [
 {
-"id": "E0058",
-"date": "2026-10-28",
-"category": "GLB",
-"event": "US Fed meets 28 October after September minutes showed a majority of officials favouring another rate hike before year-end, with US Treasury yields at their highest since 2002.",
-"key_numbers": "FOMC 28 Oct and 9 Dec 2026 · 16 of 18 officials expect at least one more hike in 2026 · core PCE Aug 3.0% y/y, headline PCE 3.4% y/y (target 2%) · Treasury yields highest since 2002 · current fed funds level not stated in source",
-"storyline": "",
-"status": "upcoming",
-"upcoming": false
-},
-{
-"id": "E0190",
-"date": "2026-10-28",
-"category": "TECH",
-"event": "Apple will hold an event on 28 October where a touchscreen MacBook Pro is widely expected.",
-"key_numbers": "Event 28 Oct 2026 · details taken from detik and CNBC Indonesia headlines only, article not opened",
-"storyline": "",
-"status": "upcoming",
-"upcoming": false
-},
-{
-"id": "E0277",
-"date": "2026-10-28",
-"category": "GLB",
-"event": "The US Fed holds its FOMC meeting on 27-28 October, with markets pricing a smaller chance of an October hike and a near-certain December hike. (update of E0058)",
-"key_numbers": "Fed funds range 3.75-4.00% after a 25 bp hike in September (12-0) · October hike odds ~32% (CME FedWatch), down from ~54% · December hike odds ~90% · decision 28 Oct (6:00 PM per tradingeconomics calendar, time zone not stated)",
-"storyline": "rupiah",
-"status": "upcoming",
-"upcoming": false
-},
-{
-"id": "E0285",
-"date": "2026-10-28",
-"category": "POL",
-"event": "East Jakarta District Court hears witness testimony in Roy Suryo's slander/ITE trial over former President Jokowi's diploma; the prosecution plans to call three witnesses and the defendant must attend. (update of E0153)",
-"key_numbers": "Hearing Wed 28 Oct 2026, 09:00 WIB, PN Jakarta Timur (Cakung) · 3 prosecution witnesses · 19 Oct: judges rejected the defence objection and moved to evidence stage · defence asked prosecutors to bring the diploma to court",
-"storyline": "jokowi-ijazah-roy-suryo",
-"status": "upcoming",
-"upcoming": false
-},
-{
-"id": "E0286",
-"date": "2026-10-28",
-"category": "NEWS",
-"event": "Indonesia marks the 98th Hari Sumpah Pemuda (Youth Pledge Day) on 28 Oct with ceremonies under the Kemenpora theme 'Patriotik, Gigih, Berempati: Pemuda untuk Indonesia'; it is not a national holiday.",
-"key_numbers": "Wed 28 Oct 2026, ceremony from 08:00 · 98th anniversary (Youth Pledge 1928) · theme: Patriotik, Gigih, Berempati: Pemuda untuk Indonesia",
-"storyline": "",
-"status": "upcoming",
-"upcoming": false
-},
-{
-"id": "E0293",
-"date": "2026-10-28",
-"category": "TECH",
-"event": "Apple is expected to hold an event on 28 Oct 2026 where a touchscreen MacBook Pro is widely rumoured; same day Huawei starts China sales of the Pura 90 Plus (preorders open). (update of E0190)",
-"key_numbers": "Apple event 28 Oct 2026 (rumour of touchscreen MacBook Pro, per Kompas/detik headlines) · Huawei Pura 90 Plus China sales 28 Oct, up to 12 GB RAM and 1 TB, price not stated, China only",
-"storyline": "",
-"status": "upcoming",
-"upcoming": false
-},
-{
-"id": "E0344",
-"date": "2026-10-28",
-"category": "TECH",
-"event": "Apple event expected 28 October with a touchscreen MacBook Pro; already tracked, relevant to Indonesian iPhone Duo pricing of up to Rp75 million. (update of E0190)",
-"key_numbers": "event 28 Oct 2026 · iPhone Duo Indonesia price up to Rp75 juta, preorder 23 Oct sold out",
-"storyline": "",
-"status": "upcoming",
-"upcoming": false
-},
-{
-"id": "E0360",
-"date": "2026-10-28",
-"category": "POL",
-"event": "Civil-society coalition Komite Sadar (Komite Selamatkan Daulat Rakyat) and student groups incl. BEM UI hold a rally on Sumpah Pemuda day at Bundaran HI, with police warning of traffic diversions around Gedung DPR/MPR, Monas and Tugu Tani; KSPI's Said Iqbal and Jakarta Governor Pramono urge a peaceful protest. (update of E0152)",
-"key_numbers": "28 Oct 2026, from 10:00 WIB · 5 Komite Sadar demands (national disaster declaration for karhutla, budget redirect from MBG/KDMP, lower education costs, end legal abuse, end militarisation) · 4 locations to avoid · Kapolri urges body cams for security personnel · turnout and deployment numbers not stated",
-"storyline": "protests-prabowo-2-years",
-"status": "upcoming",
-"upcoming": false
-},
-{
-"id": "E0381",
-"date": "2026-10-28",
-"category": "MKT",
-"event": "The IHSG closed 28 October up 0.31% at 5,282.31 after falling to about 5,170 at midday, ahead of the Fed decision and weak SUN auction demand. (update of E0350)",
-"key_numbers": "Close 5,282.31 (+16.18 pts, +0.31%) · open 5,249.07 · session-1 close 5,179.06 (-1.65%) · volume 302.18 M lots, Rp14.48 T · gainers BBCA, ASII, AMMN, MDKA, BBRI · losers TLKM, BRPT, BREN, DSSA, MORA",
-"storyline": "msci-reclassification",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0384",
-"date": "2026-10-28",
-"category": "POL",
-"event": "Students from BEM UI and the Komite Selamatkan Daulat Rakyat (SADAR) rally at Bundaran HI, Jakarta, on Sumpah Pemuda day with five demands; the Presidential Staff Office says the government is ready to receive their aspirations and urges a peaceful protest. (update of E0360)",
-"key_numbers": "28 Oct 2026, from 14:00 WIB · 5 demands (national-disaster status for karhutla and ecological disasters, MBG/KDMP budget, education costs, legal reform, human rights and democracy) · Universitas Nasional/HMI/GMNI/PMII group at Patung Kuda est. 50–70 people (CNN Indonesia) · no total turnout or police deployment figure published",
-"storyline": "protests-prabowo-2-years",
-"status": "verified",
-"upcoming": false
-},
-{
-"id": "E0385",
-"date": "2026-10-28",
-"category": "POL",
-"event": "DPR Deputy Speaker Sufmi Dasco Ahmad says criticism of the cross-border haze from Malaysia and Singapore should be answered with 'work that can be tested' rather than taking offence, while stressing Indonesia's free-and-active foreign policy.",
-"key_numbers": "Speech at the 98th Sumpah Pemuda commemoration, DPR complex, 28 Oct 2026 · no hotspot or area figures given in the speech",
-"storyline": "karhutla",
-"status": "verified",
-"upcoming": false
-},
-{
-"id": "E0386",
-"date": "2026-10-28",
-"category": "POL",
-"event": "KPK says it has issued a new investigation warrant (sprindik) in October 2026 expanding its customs and excise (Bea Cukai) corruption case, and investigators searched the Kudus customs office and the PT Djarum office.",
-"key_numbers": "New sprindik dated Oct 2026, separate from the two developments announced 21 Jul 2026 · case began with an OTT in Feb 2026 · 8 suspects as of 26 Aug 2026 · no new suspect named",
-"storyline": "corruption-cases",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0387",
-"date": "2026-10-28",
-"category": "POL",
-"event": "KPK has not confirmed whether ATR/BPN Minister Nusron Wahid was examined on 28 Oct as MAKI's Boyamin Saiman claimed; KPK said on 27 Oct the summons was still being considered, and MAKI threatens to report KPK leadership to the Dewas if he is not produced. (update of E0333)",
-"key_numbers": "Case: alleged bribery/gratification over a PT Summarecon Agung HGB in Bogor Regency · MAKI says Nusron skipped two earlier summonses · 28 Oct 2026 claimed date · no confirmed attendance",
-"storyline": "kpk-nusron-atr-bpn",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0388",
-"date": "2026-10-28",
-"category": "POL",
-"event": "At the East Jakarta District Court hearing in Roy Suryo's slander/ITE trial, prosecution witness Maret Samuel Sueken of JPKP clashed with Roy's lawyer, and the judge asked for Jokowi to be examined as complainant on 5 Nov. (update of E0285)",
-"key_numbers": "Hearing 28 Oct 2026 · next hearing Thu 5 Nov 2026 with Jokowi and aide AKBP Syarif Muhammad Fitriansyah, same day as dr. Tifa's trial · prosecution file lists 94 witnesses and 26 experts (literasihukum.com, not verified)",
-"storyline": "jokowi-ijazah-roy-suryo",
-"status": "verified",
-"upcoming": false
-},
-{
-"id": "E0393",
-"date": "2026-10-28",
-"category": "TECH",
-"event": "Apple launched the 14-inch MacBook Pro with the M6 chip (and an iMac M6), saying official Indonesian sales will start soon with no price or date given. (update of E0190)",
-"key_numbers": "GPU up to 30% faster than M5 · Neural Engine 1.9x faster than M5 · battery up to 24 hours (claimed) · 12-core CPU/GPU · no Indonesian price announced",
-"storyline": "",
-"status": "verified",
-"upcoming": false
-},
-{
-"id": "E0401",
-"date": "2026-10-28",
-"category": "POL",
-"event": "Students from many campuses and civil-society groups (Komite Selamatkan Daulat Rakyat/SADAR, #IndonesiaSadar, BEM UI/Undip/Brawijaya) rally at Bundaran HI and Patung Kuda in Jakarta on Sumpah Pemuda day with five demands to Prabowo and Gibran, and disperse around 19:45 WIB.",
-"key_numbers": "53 demonstrations in DKI Jakarta on 28 Oct (Polda Metro Jaya) · 24 other community activities · 5 demands: national disaster status for karhutla, APBN for public interest (end MBG/KDMP spending), lower education costs, eradicate KKN, end militarisation of civilian spaces · 4 protesters in white shirts seen detained · thousands of police/TNI deployed (no exact figure) · rally started 14:00 WIB, dispersed ~19:45 WIB",
-"storyline": "student-protest-28-oct",
-"status": "verified",
-"upcoming": false
-},
-{
-"id": "E0402",
-"date": "2026-10-28",
-"category": "POL",
-"event": "KPK searches the offices of PT Djarum and the Kudus Bea Cukai office (KPPBC Madya Kudus) over suspected kickbacks for excise stamps (pita cukai), seizing documents and electronic evidence under a general investigation order with no suspect named yet.",
-"key_numbers": "Sprindik umum, 0 suspects named · follow-up to Feb 2026 Customs sting that named 7 suspects · 3 active investigation orders · prosecutors demand 11.5 yrs (Rizal), 10 yrs (Sisprian Subiaksono), 7.5 yrs (Orlando Hamonangan) for three Bea Cukai officials · Blueray Cargo trio sentenced 3 yrs / 2.5 yrs / 2.5 yrs",
-"storyline": "corruption-cases",
-"status": "verified",
-"upcoming": false
-},
-{
-"id": "E0403",
-"date": "2026-10-28",
-"category": "POL",
-"event": "KPK searches the Klaten PUPR office in the case of Bupati Hamenang Wajar Ismoyo, seizing cash and documents, as detik highlights a 'record' of regional-head corruption cases in Central Java. (update of E0064)",
-"key_numbers": "Cash and electronic evidence seized (amount not verified) · detik headline: 'Rekor Baru Korupsi Kepala Daerah di Jawa Tengah' (top of detik terpopuler)",
-"storyline": "corruption-cases",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0404",
-"date": "2026-10-28",
-"category": "POL",
-"event": "PKS Secretary-General Muhammad Kholid confirms he recently spoke with PDIP Secretary-General Hasto Kristiyanto about the Gibran diploma controversy, while the PKS faction's stance in the DPR remains undecided.",
-"key_numbers": "No formal DPR motion or vote yet · Hasto cites MK Decision No. 90/2023 · NasDem says no order yet from its chair",
-"storyline": "gibran-ijazah-mk",
-"status": "verified",
-"upcoming": false
-},
-{
-"id": "E0406",
-"date": "2026-10-28",
-"category": "ENV",
-"event": "Forest-fire hotspots keep falling: the Forestry Ministry reports 79 national high-confidence hotspots (down from 93), with the six priority provinces at zero, while BNPB counts Papua burned area at 2,393 ha. (update of E0372)",
-"key_numbers": "79 hotspots on 27 Oct 21:00 WIB vs 93 the day before · 6 priority provinces (Kalbar, Kalteng, Sumsel, Jambi, Kalsel, Riau) at 0 vs 10 the day before · Kalimantan still ~1,566 ha burning, Sumatra 23 ha (BNPB) · Papua 2,393 ha burned, 73 hotspots (Papua Barat Daya 2,131 ha, Papua Selatan 161 ha, Papua Tengah 100 ha) · Kemenhub: 3,030 flights disrupted 14 Aug-25 Oct",
-"storyline": "karhutla",
-"status": "verified",
-"upcoming": false
-},
-{
-"id": "E0407",
-"date": "2026-10-28",
-"category": "ENV",
-"event": "As the rainy transition begins, BNPB reports floods across Aceh and North Sumatra (and a Dairi landslide) plus Banjar in South Kalimantan, even as fires persist elsewhere.",
-"key_numbers": "Labuhanbatu 2,600 residents · Subulussalam 2,345 · Asahan 2,025 · Deli Serdang 730 · Banjar (Kalsel) 175 · Kalsel karhutla alert extended to 30 Nov · BMKG: thunderstorms in Kalsel until 3 Nov",
-"storyline": "karhutla",
-"status": "verified",
-"upcoming": false
-},
-{
-"id": "E0408",
-"date": "2026-10-28",
-"category": "ECO",
-"event": "National PIHPS prices on 28 Oct show red curly chilli at Rp92,800/kg and bird's-eye chilli near Rp100,000/kg, with shallots up and premium rice and beef slightly down. (update of E0088)",
-"key_numbers": "Cabai merah keriting Rp81,750 -> Rp92,800/kg · cabai rawit merah Rp94,700 -> Rp97,450 (Okezone: Rp100,350 on its measure) · bawang merah Rp36,400 -> Rp39,450 · beras Super I Rp18,300 -> Rp18,000 · beras Medium I Rp16,950 -> Rp17,100 · daging sapi kualitas 1 Rp153,550 -> Rp149,300 · minyak goreng curah Rp19,750",
-"storyline": "survival-mode",
-"status": "verified",
-"upcoming": false
-},
-{
-"id": "E0412",
-"date": "2026-10-28",
-"category": "GLB",
-"event": "The US Federal Reserve held rates at 3.75%-4.00% in a split vote, with two officials favouring a hike, and Chair Kevin Warsh declined to signal the next move. (update of E0277)",
-"key_numbers": "Fed funds 3.75%-4.00% · dissent: Lisa Cook and Beth Hammack wanted +25 bp · ~80% market odds of a December hike · US 10-year yield 5.042% · US jobless claims 194,000 vs 200,000 expected",
-"storyline": "rupiah",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0419",
-"date": "2026-10-28",
-"category": "POL",
-"event": "Thousands of students and civil groups (BEM UI, SADAR) rally at Bundaran HI on Sumpah Pemuda to evaluate two years of the Prabowo-Gibran government; Jakarta police call the rally orderly and the road reopens, while Bakom says the government is open to input. (update of E0401)",
-"key_numbers": "Organisers: 10,000-12,000 participants · 53 demonstrations secured by police in Jakarta that day · demands include economic-policy fixes, APBN cuts, declaring karhutla a national disaster · Yogyakarta rally reportedly turned chaotic (one outlet)",
-"storyline": "student-protest-28-oct",
-"status": "verified",
-"upcoming": false
-},
-{
-"id": "E0429",
-"date": "2026-10-28",
-"category": "TECH",
-"event": "CNN Indonesia reported Samsung plans to cut Galaxy A-series production by up to 20% to focus on flagships.",
-"key_numbers": "up to 20% cut in Galaxy A production · millions of units (per headline) · details not confirmed (article not opened)",
-"storyline": "chip-ram-prices",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0430",
-"date": "2026-10-28",
-"category": "TECH",
-"event": "Katadata reported the number of investors in Indonesian startups has fallen and IPOs are subdued.",
-"key_numbers": "figures not confirmed (article not opened)",
-"storyline": "startup-funding",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0437",
-"date": "2026-10-28",
-"category": "POL",
-"event": "A group calling itself Pejuang Merah Putih Indonesia delivered letters to Jokowi's Solo home demanding that he press Vice President Gibran to resign, citing the diploma dispute. (update of E0404)",
-"key_numbers": "a dozen-plus people · 2 letters · warned of impeachment if Gibran does not resign · no Jokowi response yet",
-"storyline": "gibran-ijazah-mk",
-"status": "verified",
-"upcoming": false
-},
-{
-"id": "E0452",
-"date": "2026-10-28",
-"category": "ENV",
-"event": "The Indonesian government says it is working toward forecasting forest fires up to six months ahead.",
-"key_numbers": "Forecast horizon: up to 6 months · reported 28 Oct 2026",
-"storyline": "karhutla",
-"status": "partial",
-"upcoming": false
-},
-{
-"id": "E0470",
-"date": "2026-10-28",
-"category": "MKT",
-"event": "The rupiah closed at Rp18,175 per US dollar on 28 October, a new all-time closing low per Refinitiv data, and Bank Indonesia said it keeps intervening in NDF, DNDF and spot markets and buying SBN. (update of E0351)",
-"key_numbers": "Close Rp18,175/USD (-0.17%) vs previous record Rp18,170 on 8 Jun 2026 · rupiah -1.15% m/m · FX reserves US$146.3 B end-Sep · oil above US$115/bbl · vendor variance: another outlet headline cites Rp18,183",
-"storyline": "rupiah",
-"status": "partial",
-"upcoming": false
-},
-{
 "id": "E0400",
 "date": "2026-10-29",
 "category": "TECH",
@@ -7860,6 +7570,126 @@
 "upcoming": false
 },
 {
+"id": "E1183",
+"date": "2026-11-26",
+"category": "MKT",
+"event": "The rupiah briefly breached Rp18,400 per dollar on 26 November, and Bank Indonesia blamed risk-off sentiment, US rate-hike expectations, MSCI reclassification worries and month-end corporate dollar demand. (update of E1151)",
+"key_numbers": "Rp18,403 intraday at 13:02 WIB (Bloomberg) · Rp18,364 close · Rp18,332 prior close · causes: US rate-hike expectations, MSCI fears, corporate FX demand · BI tools: NDF, spot, DNDF intervention, SBN purchases",
+"storyline": "rupiah",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E1190",
+"date": "2026-11-26",
+"category": "POL",
+"event": "A military court sentenced Letjen TNI Widi Prasetijono, a former aide to Jokowi, to 5 years in prison and dismissal from the TNI in the Caruy land corruption case; he declared an appeal immediately.",
+"key_numbers": "5 years prison · dismissal from military service · 26 Nov 2026",
+"storyline": "corruption-cases",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E1191",
+"date": "2026-11-26",
+"category": "POL",
+"event": "At Bank Indonesia's annual meeting President Prabowo said Indonesia's governance is not good enough and warned state institutions and ministries to clean themselves or be cleaned, while praising the new Kapolri. (update of E1157)",
+"key_numbers": "Speech 26 Nov 2026 · BI annual meeting",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E1194",
+"date": "2026-11-26",
+"category": "POL",
+"event": "DPR Komisi III chair Habiburokhman proposed electing the new vice president by deliberation (musyawarah), with voting only if deadlocked. (update of E1130)",
+"key_numbers": "2 candidates: Sugiono, Andi Amran Sulaiman · health results to be announced 1 Dec",
+"storyline": "gibran-ijazah-mk",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E1195",
+"date": "2026-11-26",
+"category": "POL",
+"event": "The MPR's Mukernas II decided that LDII is barred from MUI leadership.",
+"key_numbers": "Decision at MUI Mukernas II, 26 Nov 2026",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E1197",
+"date": "2026-11-26",
+"category": "POL",
+"event": "At Hari Guru Nasional President Prabowo launched Studio Guru and said ASN teacher allowances reached Rp70.64 trillion through November.",
+"key_numbers": "Rp70.64 trillion teacher allowance (ASN) through Nov · 4 smart screens per school target end-2026",
+"storyline": "",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E1200",
+"date": "2026-11-26",
+"category": "TECH",
+"event": "CNBC Indonesia reported Nvidia announced it is blocking Indonesia and Airlangga responded, raising doubts over data-centre projects, following the US licence rule for advanced chips to Indonesia.",
+"key_numbers": "US licence requirement for advanced chips to Indonesia, Malaysia, Singapore, Thailand, Brazil (announced 16 Nov 2026) · Data centres serving China-HQ firms need US licence by mid-Feb 2027 · Indonesia semiconductor imports US$3.3 bn Jan-Jul, +21.8% yoy · article text of the 26 Nov blockade not opened",
+"storyline": "ai-data-centres",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E1201",
+"date": "2026-11-26",
+"category": "TECH",
+"event": "CNBC Indonesia reported a new government rule obliging certain content types to be blocked from social media, consistent with Komdigi's takedown scheme of 4-hour and 24-hour deadlines.",
+"key_numbers": "Urgent content (terrorism, child porn, public order) 4 hours · normal content 1x24 hours · clock starts when the order enters Komdigi's monitoring system · fine amount not stated · CNBC article not opened",
+"storyline": "komdigi-content-rules",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E1202",
+"date": "2026-11-26",
+"category": "BIZ",
+"event": "CNBC Indonesia reported a Chinese e-commerce giant was accused of misleading consumers and fined about Rp1.8 trillion.",
+"key_numbers": "Fine about Rp1.8 trillion · regulator, country and company not verified (article not opened)",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E1203",
+"date": "2026-11-26",
+"category": "TECH",
+"event": "CNBC Indonesia reported a new scam mode that drains bank accounts and targets iPhone users.",
+"key_numbers": "Details and loss figures not verified (article not opened)",
+"storyline": "online-scams",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E1204",
+"date": "2026-11-26",
+"category": "TECH",
+"event": "CNBC Indonesia reported BSSN urged users to update Google Chrome after a security flaw was found.",
+"key_numbers": "CVE and severity not verified (article not opened)",
+"storyline": "cyber-threats-gov",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E1205",
+"date": "2026-11-26",
+"category": "TECH",
+"event": "detikInet headlines reported global smartphone shipments are forecast to fall 14%, described as the worst on record, and that the US plans new import tariffs on 14 countries affecting Apple products.",
+"key_numbers": "Smartphone shipments forecast -14% · tariffs on 14 countries · dates and sources of forecast not verified (undated page)",
+"storyline": "chip-ram-prices",
+"status": "partial",
+"upcoming": false
+},
+{
 "id": "E1170",
 "date": "2026-11-27",
 "category": "NEWS",
@@ -7867,6 +7697,246 @@
 "key_numbers": "154,052 formasi · registration opens 27 Nov 2026 · requirements simplified · PPPK teachers aged 35+ may apply",
 "storyline": "",
 "status": "verified",
+"upcoming": false
+},
+{
+"id": "E1179",
+"date": "2026-11-27",
+"category": "GLB",
+"event": "Coordinating Minister Airlangga Hartarto said the US set an 18% Section 301 tariff on Indonesian goods, with 2,273 commodities including CPO, rubber, coffee and cocoa at 0%, versus 25% for most other countries and 35% for Vietnam. (update of E1150)",
+"key_numbers": "18% tariff (Indonesia) · 2,273 commodities at 0% · 25% for most other countries · Vietnam 35% · earlier US rate 19% then 10% after court annulment · ART signed Feb 2026 · effective date not stated",
+"storyline": "us-tariff-301",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E1180",
+"date": "2026-11-27",
+"category": "MKT",
+"event": "Bareskrim Polri named three suspects, detained, in an alleged 2023-2025 wash-trading manipulation of PT Dian Swastatika Sentosa (DSSA) shares, based on an OJK police report of 5 November, with estimated losses of about Rp16 trillion.",
+"key_numbers": "3 suspects (GI, R, one more) · loss about Rp16 triliun (police with OJK) · manipulation 2023-2025 · DSSA price up as much as 210% (reports) · 61 witnesses + 2 experts (one passage says 51) · OJK report 5 Nov 2026 · earlier OJK fine on DSSA Rp1.5 triliun · BREN and CUAN links being examined",
+"storyline": "msci-reclassification",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E1181",
+"date": "2026-11-27",
+"category": "MKT",
+"event": "At Bank Indonesia's annual meeting, President Prabowo warned wealthy people who 'goreng saham' that millions of citizens become victims, said he does not dare trade stocks, and said about 60 people had been handed over for examination.",
+"key_numbers": "about 60 people examined (Prabowo, 'kalau tidak salah') · OJK sanctions after 10 capital-market violation cases · growth could reach 7-8% with good governance (Prabowo)",
+"storyline": "msci-reclassification",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E1182",
+"date": "2026-11-27",
+"category": "MKT",
+"event": "The IHSG closed up 1.84% at 5,338.46 on 27 November with foreign net buy of Rp1.01 trillion, for a weekly gain of 3.73%. (update of E1152)",
+"key_numbers": "IHSG 5,338.46 (+96.28 pts, +1.84%) · volume 28.58 miliar saham · value Rp8.10 triliun · 251 up / 108 down · weekly +3.73% · YTD -38.26% · foreign net buy Rp1.01 triliun (regular Rp769.18 miliar) · net buy BBCA Rp250.7 miliar, DGIK Rp229.9 miliar, BUMI Rp91.8 miliar · net sell BREN Rp94.1 miliar, BRPT Rp65.6 miliar, GOTO Rp57.9 miliar · DEWA +11.02%, BRPT +8.22%, BUMI +7.63%",
+"storyline": "msci-reclassification",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E1184",
+"date": "2026-11-27",
+"category": "ECO",
+"event": "Finance Minister Suahasil Nazara said the Rp900,000 wage subsidy (BSU) will be disbursed soon, via state banks in November-December 2026.",
+"key_numbers": "Rp900.000 per worker (Rp300.000 x 3 months, lump sum) · window Nov-Dec 2026 · via Himbara · Permenaker 16/2026 · recipient count and budget not stated in CNBC article (other outlets say 13.3 million, unverified here)",
+"storyline": "survival-mode",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E1185",
+"date": "2026-11-27",
+"category": "ECO",
+"event": "An OECD review recommended Indonesia phase out broad fuel subsidies from 2027 in favour of targeted cash aid, and Finance Minister Suahasil replied that stable fuel prices protect purchasing power and growth.",
+"key_numbers": "Q3 2026 growth 5.47% (Suahasil) · richest 20% got about 46% of subsidies, poorest 40% about 18% (2019 data) · OECD: gradual cut, targeted cash, semi-automatic price mechanism · Indonesia aims for OECD membership 2028 (Bisnis headline) · Pertalite Rp10.000/l unchanged",
+"storyline": "survival-mode",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E1186",
+"date": "2026-11-27",
+"category": "ECO",
+"event": "Airlangga announced under Perpres 98/2026 that the ministries of Manpower, Trade, Tourism, Communication and Digital, and Creative Economy now sit under the Coordinating Ministry for the Economy, after Bahlil became Coordinating Minister for Downstream Industry and Energy Transition.",
+"key_numbers": "Perpres 98/2026 · 5 ministries under Kemenko Perekonomian · Industry and Investment/Hilirisasi ministries coordinated conditionally · effective date not stated",
+"storyline": "",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E1187",
+"date": "2026-11-27",
+"category": "ECO",
+"event": "Bank Indonesia and the government projected 2027 growth of around 6% and BI said global uncertainty persists, while BI cited Q3 2026 growth of 5.47% versus 5.29% in Q2. (update of E1155)",
+"key_numbers": "Q3 2026 GDP 5.47% yoy · Q2 5.29% · BI 2027 growth forecast about 6% (detik headline) · 2027 assumptions rupiah Rp18,200, BI-Rate 6% (agreed 25 Nov)",
+"storyline": "rupiah",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E1188",
+"date": "2026-11-27",
+"category": "POL",
+"event": "Bareskrim Polri questioned Projo chair Budi Arie for about 10 hours as a witness in the alleged makar (subversion) case involving ex-Kapolri Listyo Sigit; he said he knows only Listyo Sigit among the six suspects and denied his political-analysis video is linked to the case; a former Jokowi personal assistant was also summoned. (update of E1087)",
+"key_numbers": "~10 hours of questioning (8-10 hrs per outlets) · 6 suspects · 27 Nov 2026",
+"storyline": "listyo-sigit-penyadapan",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E1189",
+"date": "2026-11-27",
+"category": "POL",
+"event": "Polri dismissed Kombes Iman Imanuddin, former Dirreskrimum, from the force after an ethics process found he ordered an investigation stopped (a case in North Jakarta); he said he will appeal.",
+"key_numbers": "Sanction: dismissal (PTDH) · appeal filed",
+"storyline": "",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E1192",
+"date": "2026-11-27",
+"category": "POL",
+"event": "KPK said the Klaten MURI-record chicken soup procurement (9,222 portions) was marked up by Rp35,000 per bowl.",
+"key_numbers": "9,222 portions · Rp35,000 markup per bowl",
+"storyline": "corruption-cases",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E1193",
+"date": "2026-11-27",
+"category": "POL",
+"event": "Kejagung is tracking nickel businessman Arif Kurniawan, a corruption and money-laundering suspect who reportedly left for China after skipping three summonses.",
+"key_numbers": "3 summonses missed · abroad (China)",
+"storyline": "corruption-cases",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E1196",
+"date": "2026-11-27",
+"category": "POL",
+"event": "Komisi X DPR is trying to get a minimum teacher salary equal to the UMP into the RUU Sisdiknas.",
+"key_numbers": "Minimum teacher salary = UMP (proposal)",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E1198",
+"date": "2026-11-27",
+"category": "POL",
+"event": "Demokrat issued a legal warning (somasi) to three YouTube accounts that alleged SBY met Jokowi to discuss 2029.",
+"key_numbers": "3 YouTube accounts",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E1199",
+"date": "2026-11-27",
+"category": "NEWS",
+"event": "Gerindra Kupang said it awaits the DPP's decision on the status of Kupang Regent Yosef Lede, a rape suspect. (update of E1169)",
+"key_numbers": "",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E1206",
+"date": "2026-11-27",
+"category": "NEWS",
+"event": "KPK said Klaten Regent Hamenang Wajar Ismoyo (suspended) allegedly had the price of chicken soup (sop ayam) for a MURI record marked up from about Rp10,000-15,000 to about Rp35,000 per bowl, with a vendor suspect rigging procurement.",
+"key_numbers": "9,222 bowls · Klaten 222nd anniversary · Rp10,000-15,000 fair price per bowl · ~Rp35,000 alleged price · KPK briefing 27 Nov 2026 · BPK Central Java office head 'AL' also a suspect for allegedly removing an audit finding",
+"storyline": "corruption-cases",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E1207",
+"date": "2026-11-27",
+"category": "NEWS",
+"event": "Komdigi Minister Meutya Hafid said only 41.49 million mobile customers (13.96%) have completed mandatory biometric SIM registration, and Komdigi sent warning letters to three operators that still allow NIK/KK registration. (update of E1171)",
+"key_numbers": "41.49 million registered · 13.96% of mobile customers · full biometric rules since 1 July 2026 · 3 operators warned · SMS 444 registration still worked on day 2 · no deadline stated in article",
+"storyline": "online-scams",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E1208",
+"date": "2026-11-27",
+"category": "BIZ",
+"event": "AirAsia told staff in an internal email that salaries will be paid at the end of each month for five months (November-March), instead of mid-month, citing temporary operational adjustments, per Reuters/CNA via CNBC Indonesia.",
+"key_numbers": "5 months (Nov-Mar) · pay on the 30th or last day of Feb · about 26,000 employees · email sent weekend before 27 Nov · email went to staff in Malaysia, not confirmed for Indonesia",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E1209",
+"date": "2026-11-27",
+"category": "POL",
+"event": "Former Cooperatives Minister Budi Arie Setiadi was examined as a witness by Bareskrim Polri for about 10 hours on 27 November in the makar (subversion) case involving ex-Kapolri Listyo Sigit, and said he was asked 42 questions and knows only Listyo among the six suspects. (update of E1119)",
+"key_numbers": "~10 hours (10:00-20:01 WIB) · 42 questions · 6 suspects in makar case · Budi Arie says no contact with Listyo for almost a year",
+"storyline": "listyo-sigit-penyadapan",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E1210",
+"date": "2026-11-27",
+"category": "NEWS",
+"event": "A Kebumen man identified by initials HS (38) who left for Russia on a tourist visa on 13 August 2026 for a promised office-boy job was reportedly killed fighting as a mercenary on 25 September; Purworejo Immigration is investigating it as a suspected human trafficking (TPPO) case. (update of E1177)",
+"key_numbers": "38 years old · left 13 Aug 2026 · reported dead 25 Sep · family told 14 Oct · promised salary tens of millions rupiah · Rp1.7 billion compensation promised by an unreachable intermediary · body whereabouts unknown",
+"storyline": "tentara-bayaran-rusia",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E1211",
+"date": "2026-11-27",
+"category": "ENV",
+"event": "BNPB's 27 November 07:00 WIB report listed floods and landslides after heavy rain in Melawi (276 houses), Medan (237 houses, 24 evacuated), Palembang (7 kelurahan), Cianjur (bridge collapsed, 250 families isolated), Garut and North Nias, with no casualties reported.",
+"key_numbers": "Melawi 276 houses · Medan 237 houses, 24 evacuated · North Nias 23 houses · Palembang 7 kelurahan · Cianjur 30 m bridge collapsed, 250 KK cut off · 0 casualties reported · 15 provinces on heavy-rain alert per Viva",
+"storyline": "",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E1212",
+"date": "2026-11-27",
+"category": "NEWS",
+"event": "Antara fact-checks flagged a new batch of AI/edited hoaxes as most-read on 27 November, including an AI-generated photo of ex-Kapolri Listyo Sigit in hospital (99.9% AI per Hive Moderation), Jokowi arrested, Purbaya made PSI secretary-general and Bahlil opening Ujung Kulon for mining. (update of E1172)",
+"key_numbers": "99.9% AI-generated likelihood (Hive Moderation) · Antara terpopuler #1, #3, #6 are hoax checks · Listyo hoax published 27 Nov 20:37 WIB",
+"storyline": "hoax-tracker",
+"status": "verified",
+"upcoming": false
+},
+{
+"id": "E1213",
+"date": "2026-11-27",
+"category": "NEWS",
+"event": "Four teenagers were named suspects in a fatal group assault on a high-school girl in Malang, per CNN Indonesia.",
+"key_numbers": "4 suspects · victim a female high-school student · details not verified beyond headline",
+"storyline": "",
+"status": "partial",
+"upcoming": false
+},
+{
+"id": "E1214",
+"date": "2026-11-27",
+"category": "NEWS",
+"event": "A rest area for Kopasgat soldiers in Pancoran, Jakarta burned, and Antara listed it among its most-read stories.",
+"key_numbers": "Antara terpopuler #2 · no casualty or damage figures verified",
+"storyline": "",
+"status": "partial",
 "upcoming": false
 },
 {

@@ -1,0 +1,213 @@
+{
+  "area": "business",
+  "run_date": "2026-11-28",
+  "checked": [
+    "detikInet news (undated)",
+    "CNBC Indonesia tech (cache dated 26 Nov, nothing from 27-28 Nov)",
+    "katadata digital (article pages only)",
+    "teknologi.bisnis.com, cnnindonesia teknologi, dailysocial (not fetched)",
+    "watch list found: Komdigi rules, AI/chips/data centres, scams, consumer tech prices, e-commerce",
+    "storyline searches: nvidia/data centre, anthropic-ipo (no new 27-28 Nov items found), online-scams"
+  ],
+  "events": [
+    {
+      "date": "2026-11-26",
+      "category": "TECH",
+      "event": "CNBC Indonesia reported Nvidia announced it is blocking Indonesia and Airlangga responded, raising doubts over data-centre projects, following the US licence rule for advanced chips to Indonesia.",
+      "key_numbers": "US licence requirement for advanced chips to Indonesia, Malaysia, Singapore, Thailand, Brazil (announced 16 Nov 2026) · Data centres serving China-HQ firms need US licence by mid-Feb 2027 · Indonesia semiconductor imports US$3.3 bn Jan-Jul, +21.8% yoy · article text of the 26 Nov blockade not opened",
+      "storyline": "ai-data-centres",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {
+          "label": "CNBC Indonesia",
+          "url": "https://www.cnbcindonesia.com/tech/20261126144612-37-788765/airlangga-buka-suara-setelah-nvidia-umumkan-blokir-indonesia"
+        },
+        {
+          "label": "CNBC Indonesia",
+          "url": "https://www.cnbcindonesia.com/tech/20261126131015-37-788713/indonesia-diblokir-nvidia-proyek-data-center-terancam-gagal"
+        },
+        {
+          "label": "Katadata",
+          "url": "https://katadata.co.id/digital/teknologi/6afd41afd5aba/as-perketat-ekspor-cip-nvidia-imbas-skandal-ri-waspadai-dampak-ke-data-center"
+        }
+      ],
+      "why_it_matters": "Indonesia's AI and data-centre build-out depends on Nvidia chips that now face US licensing and a reported Nvidia block.",
+      "signals": {
+        "spreading": 2,
+        "wallet": 1,
+        "surprise": 2,
+        "visual": 1,
+        "fresh": 2,
+        "rivals": 1
+      },
+      "spreading_evidence": "Two CNBC tech headlines plus detikInet top headlines (Nvidia halting AI server shipments to four SEA countries)",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-26",
+      "category": "TECH",
+      "event": "CNBC Indonesia reported a new government rule obliging certain content types to be blocked from social media, consistent with Komdigi's takedown scheme of 4-hour and 24-hour deadlines.",
+      "key_numbers": "Urgent content (terrorism, child porn, public order) 4 hours · normal content 1x24 hours · clock starts when the order enters Komdigi's monitoring system · fine amount not stated · CNBC article not opened",
+      "storyline": "komdigi-content-rules",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {
+          "label": "CNBC Indonesia",
+          "url": "https://www.cnbcindonesia.com/tech/20261126113659-37-788649/aturan-baru-pemerintah-konten-jenis-ini-wajib-diblokir-dari-medsos"
+        },
+        {
+          "label": "Katadata (13 Nov)",
+          "url": "https://katadata.co.id/digital/teknologi/6af6ba2d6589b/komdigi-ungkap-alur-takedown-konten-medsos-ada-batas-waktu-4-jam-dan-24-jam"
+        }
+      ],
+      "why_it_matters": "Affects what can stay online on social media and what platforms must remove fast.",
+      "signals": {
+        "spreading": 1,
+        "wallet": 1,
+        "surprise": 1,
+        "visual": 1,
+        "fresh": 2,
+        "rivals": 1
+      },
+      "spreading_evidence": "",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-26",
+      "category": "BIZ",
+      "event": "CNBC Indonesia reported a Chinese e-commerce giant was accused of misleading consumers and fined about Rp1.8 trillion.",
+      "key_numbers": "Fine about Rp1.8 trillion · regulator, country and company not verified (article not opened)",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {
+          "label": "CNBC Indonesia",
+          "url": "https://www.cnbcindonesia.com/tech/20261126125239-37-788704/raksasa-ecommerce-china-dituduh-menyesatkan-kena-denda-rp-18-triliun"
+        }
+      ],
+      "why_it_matters": "Shows how regulators treat misleading e-commerce practices, relevant to Indonesian shoppers on Chinese platforms.",
+      "signals": {
+        "spreading": 1,
+        "wallet": 1,
+        "surprise": 2,
+        "visual": 1,
+        "fresh": 2,
+        "rivals": 1
+      },
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-26",
+      "category": "TECH",
+      "event": "CNBC Indonesia reported a new scam mode that drains bank accounts and targets iPhone users.",
+      "key_numbers": "Details and loss figures not verified (article not opened)",
+      "storyline": "online-scams",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {
+          "label": "CNBC Indonesia",
+          "url": "https://www.cnbcindonesia.com/tech/20261126114639-37-788653/modus-baru-penipu-kuras-rekening-pengguna-iphone-jadi-sasaran"
+        }
+      ],
+      "why_it_matters": "Warns iPhone owners of a new way accounts get emptied.",
+      "signals": {
+        "spreading": 1,
+        "wallet": 2,
+        "surprise": 1,
+        "visual": 1,
+        "fresh": 2,
+        "rivals": 1
+      },
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-26",
+      "category": "TECH",
+      "event": "CNBC Indonesia reported BSSN urged users to update Google Chrome after a security flaw was found.",
+      "key_numbers": "CVE and severity not verified (article not opened)",
+      "storyline": "cyber-threats-gov",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {
+          "label": "CNBC Indonesia",
+          "url": "https://www.cnbcindonesia.com/tech/20261126124824-39-788700/ada-celah-keamanan-di-google-chrome-bssn-ingatkan-perbarui-aplikasi"
+        }
+      ],
+      "why_it_matters": "Chrome is used by most Indonesians; a quick update protects accounts.",
+      "signals": {
+        "spreading": 1,
+        "wallet": 1,
+        "surprise": 0,
+        "visual": 0,
+        "fresh": 2,
+        "rivals": 1
+      },
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-26",
+      "category": "TECH",
+      "event": "detikInet headlines reported global smartphone shipments are forecast to fall 14%, described as the worst on record, and that the US plans new import tariffs on 14 countries affecting Apple products.",
+      "key_numbers": "Smartphone shipments forecast -14% · tariffs on 14 countries · dates and sources of forecast not verified (undated page)",
+      "storyline": "chip-ram-prices",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {
+          "label": "detikInet",
+          "url": "https://inet.detik.com/news"
+        }
+      ],
+      "why_it_matters": "Chip and RAM shortages and tariffs may push phone prices up in Indonesia.",
+      "signals": {
+        "spreading": 1,
+        "wallet": 2,
+        "surprise": 2,
+        "visual": 2,
+        "fresh": 1,
+        "rivals": 1
+      },
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-26",
+      "category": "TECH",
+      "event": "detikInet headlines reported 41.49 million mobile subscribers have completed biometric registration and cheap ~Rp100,000 internet plans have 614,000 subscribers.",
+      "key_numbers": "41.49 million biometric-registered subscribers · 614,000 subscribers of ~Rp100,000 plans · digital social aid reached 16.94 million families · undated page",
+      "storyline": "",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {
+          "label": "detikInet",
+          "url": "https://inet.detik.com/news"
+        }
+      ],
+      "why_it_matters": "Biometric SIM registration and cheap data plans touch every mobile user.",
+      "signals": {
+        "spreading": 1,
+        "wallet": 2,
+        "surprise": 1,
+        "visual": 2,
+        "fresh": 1,
+        "rivals": 1
+      },
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    }
+  ],
+  "gaps": [
+    "CNBC articles on Nvidia block and content rule could not be opened (fetch permission refused); details unverified",
+    "No 27-28 Nov coverage reached: section pages stale at 26 Nov",
+    "Anthropic IPO and Nvidia-Huang storylines: no new developments surfaced by search"
+  ]
+}

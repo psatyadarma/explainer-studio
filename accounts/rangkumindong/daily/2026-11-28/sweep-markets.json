@@ -1,0 +1,347 @@
+{
+  "area": "markets",
+  "run_date": "2026-11-28",
+  "checked": [
+    "CNBC Indonesia market (search results only; section page fetch refused)",
+    "detikFinance front page + terpopuler",
+    "ANTARA ekonomi",
+    "Bisnis market (fetch failed)",
+    "Kontan IHSG close",
+    "watch list found: IHSG close and foreign flow, rupiah, BI, tariffs, subsidies/fuel, BSU, MSCI, OJK/Bareskrim DSSA, Kemenko restructure",
+    "storylines searched: msci-reclassification, rupiah, survival-mode (fuel), us-tariff-301"
+  ],
+  "events": [
+    {
+      "date": "2026-11-27",
+      "category": "GLB",
+      "event": "Coordinating Minister Airlangga Hartarto said the US set an 18% Section 301 tariff on Indonesian goods, with 2,273 commodities including CPO, rubber, coffee and cocoa at 0%, versus 25% for most other countries and 35% for Vietnam.",
+      "key_numbers": "18% tariff (Indonesia) · 2,273 commodities at 0% · 25% for most other countries · Vietnam 35% · earlier US rate 19% then 10% after court annulment · ART signed Feb 2026 · effective date not stated",
+      "storyline": "us-tariff-301",
+      "update_of": "E1150",
+      "status": "verified",
+      "sources": [
+        {
+          "label": "detikFinance",
+          "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8773340/as-patok-tarif-18-ke-ri-negara-negara-lain-25"
+        },
+        {
+          "label": "Liputan6",
+          "url": "https://www.liputan6.com/bisnis/read/8344040/tarif-as-untuk-indonesia-18-cpo-hingga-kopi-masuk-pengecualian"
+        },
+        {
+          "label": "Katadata",
+          "url": "https://katadata.co.id/finansial/makro/6b0979b790304/ri-dapat-tarif-as-18-pemerintah-klaim-lebih-rendah-dari-singapura-dan-vietnam"
+        }
+      ],
+      "why_it_matters": "Sets what Indonesian exporters (textiles, footwear, palm oil) pay to sell to the US, and government says it is better than rivals.",
+      "signals": {
+        "spreading": 2,
+        "wallet": 1,
+        "surprise": 2,
+        "visual": 2,
+        "fresh": 2,
+        "rivals": 1
+      },
+      "spreading_evidence": "detikFinance terpopuler #3; 4+ detik headlines",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-27",
+      "category": "MKT",
+      "event": "Bareskrim Polri named three suspects, detained, in an alleged 2023-2025 wash-trading manipulation of PT Dian Swastatika Sentosa (DSSA) shares, based on an OJK police report of 5 November, with estimated losses of about Rp16 trillion.",
+      "key_numbers": "3 suspects (GI, R, one more) · loss about Rp16 triliun (police with OJK) · manipulation 2023-2025 · DSSA price up as much as 210% (reports) · 61 witnesses + 2 experts (one passage says 51) · OJK report 5 Nov 2026 · earlier OJK fine on DSSA Rp1.5 triliun · BREN and CUAN links being examined",
+      "storyline": "msci-reclassification",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {
+          "label": "CNBC Indonesia",
+          "url": "https://www.cnbcindonesia.com/market/20261127161057-17-789136/bareskrim-tetapkan-3-pelaku-penggorengan-saham-dssa-kerugian-rp16-t"
+        },
+        {
+          "label": "Liputan6",
+          "url": "https://www.liputan6.com/news/read/8343822/bareskrim-tetapkan-3-tersangka-kasus-saham-dssa-kerugian-rp-16-t"
+        },
+        {
+          "label": "Bisnis.com",
+          "url": "https://kabar24.bisnis.com/read/20261127/16/2025004/bareskrim-bongkar-modus-perdagangan-semu-saham-dssa-periode-2023-2025"
+        }
+      ],
+      "why_it_matters": "Directly addresses the 'coordinated trading' concern behind the MSCI downgrade threat; retail investors were the losers.",
+      "signals": {
+        "spreading": 2,
+        "wallet": 1,
+        "surprise": 2,
+        "visual": 2,
+        "fresh": 2,
+        "rivals": 1
+      },
+      "spreading_evidence": "multiple outlets plus Prabowo cited it at BI annual meeting",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-27",
+      "category": "MKT",
+      "event": "At Bank Indonesia's annual meeting, President Prabowo warned wealthy people who 'goreng saham' that millions of citizens become victims, said he does not dare trade stocks, and said about 60 people had been handed over for examination.",
+      "key_numbers": "about 60 people examined (Prabowo, 'kalau tidak salah') · OJK sanctions after 10 capital-market violation cases · growth could reach 7-8% with good governance (Prabowo)",
+      "storyline": "msci-reclassification",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {
+          "label": "ANTARA",
+          "url": "https://www.antaranews.com/berita/5883831/timbulkan-korban-prabowo-ingatkan-orang-kaya-tidak-goreng-saham"
+        },
+        {
+          "label": "CNBC Indonesia",
+          "url": "https://www.cnbcindonesia.com/market/20261127210416-17-789242/singgung-pelanggaran-pasar-modal-prabowo-60-orang-diperiksa"
+        },
+        {
+          "label": "detikFinance",
+          "url": "https://finance.detik.com/foto-bisnis/d-8773458/prabowo-sentil-koruptor-di-pertemuan-tahunan-bank-indonesia-2026"
+        }
+      ],
+      "why_it_matters": "The President personally promised a crackdown on stock manipulation while the index is down about 38% this year.",
+      "signals": {
+        "spreading": 2,
+        "wallet": 1,
+        "surprise": 1,
+        "visual": 1,
+        "fresh": 2,
+        "rivals": 1
+      },
+      "spreading_evidence": "detikFinance terpopuler #2 and #4",
+      "sensitivity": "high"
+    },
+    {
+      "date": "2026-11-27",
+      "category": "MKT",
+      "event": "The IHSG closed up 1.84% at 5,338.46 on 27 November with foreign net buy of Rp1.01 trillion, for a weekly gain of 3.73%.",
+      "key_numbers": "IHSG 5,338.46 (+96.28 pts, +1.84%) · volume 28.58 miliar saham · value Rp8.10 triliun · 251 up / 108 down · weekly +3.73% · YTD -38.26% · foreign net buy Rp1.01 triliun (regular Rp769.18 miliar) · net buy BBCA Rp250.7 miliar, DGIK Rp229.9 miliar, BUMI Rp91.8 miliar · net sell BREN Rp94.1 miliar, BRPT Rp65.6 miliar, GOTO Rp57.9 miliar · DEWA +11.02%, BRPT +8.22%, BUMI +7.63%",
+      "storyline": "msci-reclassification",
+      "update_of": "E1152",
+      "status": "verified",
+      "sources": [
+        {
+          "label": "Kontan",
+          "url": "https://pusatdata.kontan.co.id/news/ihsg-melejit-ke-5338-disertai-net-buy-asing-rp-101-triliun-hari-ini-2711"
+        },
+        {
+          "label": "CNBC Indonesia",
+          "url": "https://www.cnbcindonesia.com/market/20261127160959-17-789135/ihsg-ditutup-menguat-184-ke-level-533846"
+        },
+        {
+          "label": "Kompas",
+          "url": "https://money.kompas.com/read/2026/11/27/183100126/ihsg-menguat-1-83-persen-asing-borong-saham-bbca-hingga-bumi"
+        }
+      ],
+      "why_it_matters": "Biggest weekly rebound since the MSCI-driven crash; foreigners flipped to buyers, though the rally is partly month-end/window-dressing.",
+      "signals": {
+        "spreading": 2,
+        "wallet": 1,
+        "surprise": 1,
+        "visual": 2,
+        "fresh": 2,
+        "rivals": 0
+      },
+      "spreading_evidence": "CNBC Indonesia market headlines, Kontan, Kompas",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-26",
+      "category": "MKT",
+      "event": "The rupiah briefly breached Rp18,400 per dollar on 26 November, and Bank Indonesia blamed risk-off sentiment, US rate-hike expectations, MSCI reclassification worries and month-end corporate dollar demand.",
+      "key_numbers": "Rp18,403 intraday at 13:02 WIB (Bloomberg) · Rp18,364 close · Rp18,332 prior close · causes: US rate-hike expectations, MSCI fears, corporate FX demand · BI tools: NDF, spot, DNDF intervention, SBN purchases",
+      "storyline": "rupiah",
+      "update_of": "E1151",
+      "status": "verified",
+      "sources": [
+        {
+          "label": "detikFinance",
+          "url": "https://finance.detik.com/bursa-dan-valas/d-8771879/biang-kerok-dolar-as-sempat-tembus-rp-18-400"
+        },
+        {
+          "label": "Investortrust",
+          "url": "https://investortrust.id/macro/123753/rupiah-sempat-sentuh-rp-18400-per-dolar-as-bi-risk-off-global-dan-kekhawatiran-reklasifikasi-pasar-saham"
+        },
+        {
+          "label": "Liputan6",
+          "url": "https://www.liputan6.com/bisnis/read/8343525/ihsg-melesat-di-tengah-tekanan-rupiah-ada-apa"
+        }
+      ],
+      "why_it_matters": "A weaker rupiah raises prices of imported goods, fuel and electronics for ordinary households.",
+      "signals": {
+        "spreading": 2,
+        "wallet": 2,
+        "surprise": 1,
+        "visual": 2,
+        "fresh": 2,
+        "rivals": 0
+      },
+      "spreading_evidence": "detikFinance headline 'Biang Kerok Dolar AS Sempat Tembus Rp 18.400'",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-27",
+      "category": "ECO",
+      "event": "Finance Minister Suahasil Nazara said the Rp900,000 wage subsidy (BSU) will be disbursed soon, via state banks in November-December 2026.",
+      "key_numbers": "Rp900.000 per worker (Rp300.000 x 3 months, lump sum) · window Nov-Dec 2026 · via Himbara · Permenaker 16/2026 · recipient count and budget not stated in CNBC article (other outlets say 13.3 million, unverified here)",
+      "storyline": "survival-mode",
+      "update_of": "",
+      "status": "partial",
+      "sources": [
+        {
+          "label": "CNBC Indonesia",
+          "url": "https://www.cnbcindonesia.com/market/20261127212718-17-789245/menkeu-suahasil-ungkap-proses-pencairan-bsu-rp900000-segera-cair"
+        },
+        {
+          "label": "Koran Manado",
+          "url": "https://www.koranmanado.co.id/suahasil-pastikan-bsu-segera-cair"
+        }
+      ],
+      "why_it_matters": "Cash for eligible workers within weeks, but no exact date yet.",
+      "signals": {
+        "spreading": 2,
+        "wallet": 2,
+        "surprise": 0,
+        "visual": 2,
+        "fresh": 2,
+        "rivals": 0
+      },
+      "spreading_evidence": "detikFinance terpopuler #1",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-27",
+      "category": "ECO",
+      "event": "An OECD review recommended Indonesia phase out broad fuel subsidies from 2027 in favour of targeted cash aid, and Finance Minister Suahasil replied that stable fuel prices protect purchasing power and growth.",
+      "key_numbers": "Q3 2026 growth 5.47% (Suahasil) · richest 20% got about 46% of subsidies, poorest 40% about 18% (2019 data) · OECD: gradual cut, targeted cash, semi-automatic price mechanism · Indonesia aims for OECD membership 2028 (Bisnis headline) · Pertalite Rp10.000/l unchanged",
+      "storyline": "survival-mode",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {
+          "label": "detikFinance",
+          "url": "https://finance.detik.com/energi/d-8773542/oecd-nilai-subsidi-bbm-bebani-apbn-suahasil-buka-suara"
+        },
+        {
+          "label": "CNBC Indonesia",
+          "url": "https://www.cnbcindonesia.com/news/20261127213603-4-789248/menkeu-suahasil-buka-suara-soal-subsidi-bbm-jadi-beban-apbn"
+        },
+        {
+          "label": "ANTARA",
+          "url": "https://www.antaranews.com/berita/5884079/menkeu-suahasil-kestabilan-harga-bbm-buat-gerak-ekonomi-ri-lebih-kuat"
+        }
+      ],
+      "why_it_matters": "Could eventually mean higher Pertalite and Solar prices, which almost every household and driver feels.",
+      "signals": {
+        "spreading": 2,
+        "wallet": 2,
+        "surprise": 1,
+        "visual": 1,
+        "fresh": 2,
+        "rivals": 1
+      },
+      "spreading_evidence": "detikFinance terpopuler #5",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-27",
+      "category": "ECO",
+      "event": "Airlangga announced under Perpres 98/2026 that the ministries of Manpower, Trade, Tourism, Communication and Digital, and Creative Economy now sit under the Coordinating Ministry for the Economy, after Bahlil became Coordinating Minister for Downstream Industry and Energy Transition.",
+      "key_numbers": "Perpres 98/2026 · 5 ministries under Kemenko Perekonomian · Industry and Investment/Hilirisasi ministries coordinated conditionally · effective date not stated",
+      "storyline": "",
+      "update_of": "",
+      "status": "verified",
+      "sources": [
+        {
+          "label": "CNBC Indonesia",
+          "url": "https://www.cnbcindonesia.com/news/20261127163748-4-789138/baru-airlangga-umumkan-5-kementerian-di-bawah-kemenko-perekonomian"
+        },
+        {
+          "label": "detikFinance",
+          "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8773112/airlangga-umumkan-5-kementerian-di-bawah-kemenko-perekonomian"
+        },
+        {
+          "label": "Katadata",
+          "url": "https://katadata.co.id/finansial/makro/6b097ddace3e1/bahlil-jadi-menko-hilirisasi-airlangga-kini-koordinasikan-5-menteri"
+        }
+      ],
+      "why_it_matters": "Reshuffles who coordinates jobs, trade and digital policy.",
+      "signals": {
+        "spreading": 1,
+        "wallet": 0,
+        "surprise": 1,
+        "visual": 1,
+        "fresh": 2,
+        "rivals": 2
+      },
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-27",
+      "category": "ECO",
+      "event": "Bank Indonesia and the government projected 2027 growth of around 6% and BI said global uncertainty persists, while BI cited Q3 2026 growth of 5.47% versus 5.29% in Q2.",
+      "key_numbers": "Q3 2026 GDP 5.47% yoy · Q2 5.29% · BI 2027 growth forecast about 6% (detik headline) · 2027 assumptions rupiah Rp18,200, BI-Rate 6% (agreed 25 Nov)",
+      "storyline": "rupiah",
+      "update_of": "E1155",
+      "status": "partial",
+      "sources": [
+        {
+          "label": "ANTARA",
+          "url": "https://www.antaranews.com/berita/5883831/timbulkan-korban-prabowo-ingatkan-orang-kaya-tidak-goreng-saham"
+        },
+        {
+          "label": "ANTARA",
+          "url": "https://www.antaranews.com/ekonomi"
+        }
+      ],
+      "why_it_matters": "Official optimism contrasts with a record-weak rupiah and a falling stock market.",
+      "signals": {
+        "spreading": 1,
+        "wallet": 0,
+        "surprise": 0,
+        "visual": 1,
+        "fresh": 2,
+        "rivals": 1
+      },
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    },
+    {
+      "date": "2026-11-30",
+      "category": "MKT",
+      "event": "MSCI index changes take effect after 30 November, which analysts say could pressure some Indonesian stocks, while the market awaits a possible Fed rate hike in December.",
+      "key_numbers": "effective after 30 Nov 2026 · Fed hike possible in Dec · foreign YTD net sell about Rp130 triliun (analyst) · IHSG seasonal Dec gain in 9 of 10 years (analyst)",
+      "storyline": "msci-reclassification",
+      "update_of": "",
+      "status": "upcoming",
+      "sources": [
+        {
+          "label": "Liputan6",
+          "url": "https://www.liputan6.com/bisnis/read/8343525/ihsg-melesat-di-tengah-tekanan-rupiah-ada-apa"
+        }
+      ],
+      "why_it_matters": "Possible index-rebalancing outflows right after the rebound week.",
+      "signals": {
+        "spreading": 1,
+        "wallet": 1,
+        "surprise": 0,
+        "visual": 1,
+        "fresh": 2,
+        "rivals": 1
+      },
+      "spreading_evidence": "",
+      "sensitivity": "normal"
+    }
+  ],
+  "gaps": [
+    "Liputan6 says BI raised BI-Rate to 6% while BI-Rate 5.75% is on file and 6% is only the 2027 assumption: unverified, check BI RDG date/result before any claim",
+    "BSU recipient count (13.3 million per small outlets) and budget not verified",
+    "18% US tariff effective date not stated; detik says announced 'previous night'",
+    "DSSA witness count differs within CNBC (61 vs 51); Prabowo says about 60 examined",
+    "'Rencana Besar Beres-beres BUMN' (detik) and new anti-leak budget agency not opened",
+    "Rupiah 27 Nov close not found"
+  ]
+}
