@@ -242,3 +242,9 @@ History moved out of HANDOFF.md (22 Oct) so fresh sessions read less. Append one
 - No KKEP verdict: hearing postponed to 30 Nov after Listyo refused (per Kadiv Humas). Full FC 4 FIX (added makar suspect line, h2 reworded, l14 conditional, source label) → PASS. QA PASS first round (sync median -95 ms, -15.0 LUFS).
 - 18:00 news re-check: no material change. User live "OK post" 18:02 → scheduled; live 19:00 (IG DgM8uB2h4uy, YT rStC_mQqMMg).
 - Analyst: Nvidia P2 24 h IG 146 / 31.7%, YT 1,940; Anthropic IPO 72 h IG 126 / 34.0%, YT 577. IG 24 h for 24 Nov OCTA still missing (WARN).
+
+## 2026-11-27 (Fri, wildcard: USTR tarif sampai 18% (default pick); Pratama, shock_number, word subs, short, no B) + weekly #6
+- Sweeps 8/5/7/11 events (+29 merged; detik/CNN pages were stale 26 Nov snapshots). Ideas: ⭐ USTR 18% 11/12; light FC 5 fixes (proposal not final, Pongkor ≥13, rupiah intraday vs close, Danantara target, narkoba Polri-only).
+- No pick by 14:00 → default ⭐ #1. Hook-critic PICK A 12/14. Full FC PASS (0 fixes). Producer 43.3 s (1.06× retime). QA PASS. User live "Ok to post both" ~16:50 → scheduled 19:00; live IG DgPhdxkxv5n · YT X9D_ZwAiVaY.
+- Weekly #6 (7:44, 8 ch): writer → FC 6 fixes (vote 11 Dec, rupiah, USTR VN≤35/IN≤25, Perpol 4/2026) → producer built all chapters itself → independent editor 3 fixes (TP −0.1 → −2.2 dBTP; `weekly.py assemble` now has a TP limiter; "sampai 18%") → 16:30 recheck: Fri close Rp18.330 added to c3. Scheduled Sat 08:00 (job cff8894b) after user OK; Sat 07:00 news check wake-up set.
+- Analyst (early, 16:50): Listyo P4 ~22 h IG 1,557 / 65.2% (best IG this month), YT 1,388; OCTA ~70 h IG 43 / 15.0%, YT 492. Health WARN: IG 24 h row missing for 24 Nov.
