@@ -23,9 +23,15 @@ Status: **ACTIVE** · Category: markets/economy · Started: 20 Oct 2026 · Links
 | 19 Oct 2026 | Close Rp18.046 (Antara); JISDOR Rp18.050 | Antara |
 | 20 Oct 2026 | Opens slightly stronger ≈Rp18.010 | CNBC Indonesia |
 | 17–19 Oct 2026 | Split ahead of RDG: hold (Danamon, Bisnis 17 Okt) vs hike to 6% (Bloomberg Economics; Citi: pre-emptive vs outflows spreading to bonds) | Bisnis; Buletin Finansial; CNBC Indonesia |
+| 23 Nov 2026 (Mon) | Close Rp18.203 | weekly #6 BAB 3 |
+| 26 Nov 2026 (Thu) | Record low: intraday >Rp18.400 (Rp18.403 Bloomberg 13:02 WIB), close Rp18.364 | detikFinance; Investortrust (E1183) |
+| 27 Nov 2026 (Fri) | Close Rp18.330 | weekly #6 |
+| 18 Nov 2026 | BI-Rate 6% (since 18 Nov) | weekly #6 BAB 3 |
+| 25 Nov 2026 | BI 2027 assumption: rupiah Rp17.800-18.200, BI-Rate 6% | ANTARA; detikFinance (E1155) |
 
 ## Videos
 - **20 Oct 2026** "Rupiah Rp18.046: besok BI tahan 5,75% atau naik ke 6%?" (Cahaya, shock number, 12:30) · IG https://www.instagram.com/reel/Des-m-yj_hs/ · YT https://www.youtube.com/watch?v=InOYuXQUm64 · folder `videos/2026-10-20-rupiah-18rb-bi-rate`
+- **28 Nov 2026** "Rupiah rekor terlemah" (PART 2, latest; chapter cut of weekly #6 BAB 3; Pratama, story hook, word subs, format chapter_cut, 51.7 s, 19:00) · Mon 18.203, Thu >18.400 intraday record then 18.364 close, Fri 18.330 · BI Rate 6% since 18 Nov · 2027 assumption 17.800-18.200 · IG https://www.instagram.com/reel/DgSGQm5AfCS/ · YT https://www.youtube.com/watch?v=VFmoUpxctJY · folder `videos/2026-11-28-rupiah-rekor-sejuta-54-dolar`
 
 ## Upcoming milestones
 - **Wed 21 Oct 2026, ~14:00 WIB:** BI RDG decision (hold 5,75% or hike to 6,00%) → follow-up "hasil RDG" video candidate (PART 2), reusing the staircase chart and the Tim A/Tim B framing ("kemarin kalian pilih…").

@@ -808,5 +808,41 @@
 "instagram": "",
 "youtube": "",
 "folder": "videos/2026-11-27-tarif-as-18-persen"
+},
+{
+"date": "2026-11-28",
+"title": "Rangkumin Seminggu 21–27 Nov 2026: 2 Calon Wapres, Listyo Tersangka Makar, Rupiah Rekor, Tarif AS sampai 18%",
+"storyline": "weekly",
+"part": "6",
+"status": "posted",
+"voice": "Pratama",
+"slot": "19:00",
+"hook": "story",
+"hook_b": "",
+"format": "weekly",
+"length_s": null,
+"qa_sync": null,
+"sync_median_ms": null,
+"instagram": "",
+"youtube": "",
+"folder": "weekly/2026-11-28"
+},
+{
+"date": "2026-11-28",
+"title": "Rupiah rekor terlemah: Rp1 juta jadi berapa dolar? (chapter cut weekly BAB 3)",
+"storyline": "rupiah",
+"part": "",
+"status": "posted",
+"voice": "Pratama",
+"slot": "19:00",
+"hook": "story",
+"hook_b": "",
+"format": "chapter cut",
+"length_s": 51.6,
+"qa_sync": "PASS",
+"sync_median_ms": -37,
+"instagram": "https://www.instagram.com/reel/DgSGQm5AfCS/",
+"youtube": "https://www.youtube.com/watch?v=VFmoUpxctJY",
+"folder": "videos/2026-11-28-rupiah-rekor-sejuta-54-dolar"
 }
 ]

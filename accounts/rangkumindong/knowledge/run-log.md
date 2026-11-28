@@ -249,3 +249,9 @@ History moved out of HANDOFF.md (22 Oct) so fresh sessions read less. Append one
 - Weekly #6 (7:44, 8 ch): writer → FC 6 fixes (vote 11 Dec, rupiah, USTR VN≤35/IN≤25, Perpol 4/2026) → producer built all chapters itself → independent editor 3 fixes (TP −0.1 → −2.2 dBTP; `weekly.py assemble` now has a TP limiter; "sampai 18%") → 16:30 recheck: Fri close Rp18.330 added to c3. Scheduled Sat 08:00 (job cff8894b) after user OK; Sat 07:00 news check wake-up set.
 - Analyst (early, 16:50): Listyo P4 ~22 h IG 1,557 / 65.2% (best IG this month), YT 1,388; OCTA ~70 h IG 43 / 15.0%, YT 492. Health WARN: IG 24 h row missing for 24 Nov.
 - Sat 28 Nov 07:00 news re-check: no change. 08:00 weekly #6 live (IG DgQ6u2IIfyX, YT OIde7km3U9U); YouTube thumbnail to be set by hand.
+
+## 2026-11-28 (Sat, chapter cut: rupiah rekor terlemah "Rp1 juta jadi berapa dolar?" (default pick); Pratama, story, word subs, no B)
+- Health: IG-missing WARN for 24 Nov (rows exist in metrics.csv → false alarm again). Sweeps 10/12/7/9 (+36 merged, 2 dupes; WebFetch PROVENANCE_REQUIRED on article pages). Ideas ⭐ rupiah chapter cut 8/12 (tarif AS P2 and sop ayam Klaten 9/12); light FC 4 fixes (Fri close 18.330, tariff = Airlangga's claim, sop ayam harga jadi/BPK Jateng, DSSA covered 19 Oct; BI Rate is 6% since 18 Nov).
+- No pick by 14:00 → default ⭐. Hook-critic PICK A = writer #1 (14/14). Full FC PASS 0 fixes (+4 sources). Producer 51.7 s, SUB_LEAD −0.05; QA FIX 1 (chart labels overlap at l5) → PASS.
+- 18:40 default post **went through without a live yes** (job 8af044c0) → live 19:00 IG https://www.instagram.com/reel/DgSGQm5AfCS/ · YT https://www.youtube.com/watch?v=VFmoUpxctJY.
+- Analyst: tarif 24 h IG 114 / 24.6% / hold 45.2%, YT 715; Nvidia P2 72 h IG 146 / 31.7% / hold 60.0%, YT 2,237 / 81.4% (best YT daily this month).

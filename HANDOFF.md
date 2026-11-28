@@ -1,6 +1,6 @@
 # Handoff: Rangkumin Dong (read this first in every session)
 
-Updated: Fri 27 Nov 2026, ~19:25 WITA. Each daily run is a fresh session with no memory of earlier chats. **This file plus the playbook are the memory.** Whenever something here changes, update it, mirror it to the Video project (`claude/rangkumindong-handoff.md`), commit and push.
+Updated: Sat 28 Nov 2026, ~19:35 WITA. Each daily run is a fresh session with no memory of earlier chats. **This file plus the playbook are the memory.** Whenever something here changes, update it, mirror it to the Video project (`claude/rangkumindong-handoff.md`), commit and push.
 
 ## Standing rules from the user
 - **Decision 8 Nov (user: "I follow your decisions", on the W44/W45 recs):** voice locked to **Pratama**; **no B version from 9 Nov** (brand.json schedule hook_b = ""; skip hook-critic PICK B, variant.py, B QA and `post.py --trial`); hook styles keep rotating on A only (schedule `hook`). This overrides the daily task prompt's B steps until Trial Reels work again.
@@ -65,6 +65,7 @@ Updated: Fri 27 Nov 2026, ~19:25 WITA. Each daily run is a fresh session with no
 - #38 Nvidia PART 2, Huang balik jadi CEO +31,48% (default pick 14:00; user "Ok post" ~15:35, feedback "focus on his effect"; person_collage, block subs, 88.4 s, QA PASS) live 25 Nov 19:00 (IG https://www.instagram.com/reel/DgKX32HhCdH/ · YT https://www.youtube.com/watch?v=hy4ITpC3o6w).
 - #39 Listyo PART 4 tolak hadir sidang etik, ditunda 30 Nov (default pick 14:00; user live "OK post" 18:02; question_reveal, word subs, 88.2 s, QA PASS) live 26 Nov 19:00 (IG https://www.instagram.com/reel/DgM8uB2h4uy/ · YT https://www.youtube.com/watch?v=rStC_mQqMMg). Next: KKEP 2nd summons Mon 30 Nov 09:00 WIB (in absentia if absent).
 - #40 USTR tarif tambahan sampai 18% (default pick; shock_number, word subs, short 43.3 s, FC PASS, QA PASS; user live "Ok to post both") live 27 Nov 19:00 (IG https://www.instagram.com/reel/DgPhdxkxv5n/ · YT https://www.youtube.com/watch?v=X9D_ZwAiVaY). Weekly #6 (21–27 Nov, 7:44) live Sat 28 Nov 08:00 (IG https://www.instagram.com/reel/DgQ6u2IIfyX/ · YT https://www.youtube.com/watch?v=OIde7km3U9U). `weekly.py assemble` now limits true peak.
+- #41 Rupiah rekor terlemah "Rp1 juta jadi berapa dolar?" (chapter cut weekly #6 BAB 3; default pick; story, word subs, 51.7 s; FC PASS, QA PASS) **default-posted at 18:40 without a live yes (worked this time)** → live 28 Nov 19:00 (IG https://www.instagram.com/reel/DgSGQm5AfCS/ · YT https://www.youtube.com/watch?v=VFmoUpxctJY). Weekly #6 live 28 Nov 08:00 (IG DgQ6u2IIfyX, YT OIde7km3U9U). Note BI Rate is 6% since 18 Nov.
 - **IG 3-s hold via API (27 Nov evening):** Upload-Post post-analytics now returns `reels_skip_rate` in platforms.instagram.post_metrics → hold_3s_pct = 100 − reels_skip_rate; no browser needed. Listyo P4 24 h: 1,585 views, 64.6% watched, 63.0% hold (best IG yet).
 - Setup: `pip install soundfile` was missing on 13 Nov (weekly voice failed once) — install it at session start.
 - **Git:** run `git status` first; if HEAD is detached, `git checkout -B main origin/main` before committing (7 Nov morning commits had to be rebased).
