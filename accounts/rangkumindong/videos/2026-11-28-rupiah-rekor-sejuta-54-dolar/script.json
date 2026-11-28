@@ -1,0 +1,72 @@
+{
+  "direction": "[calm, warm, explaining to a friend]",
+  "format": "chapter_cut",
+  "hook_style": "story",
+  "source_chapter": "weekly/2026-11-28 ch03 (BAB 3, Rupiah cetak rekor terlemah), tightened; Fri close Rp18.330 per factcheck",
+  "tail": 0.9,
+  "lines": [
+    {
+      "id": "h1",
+      "tag": "[warm, storytelling]",
+      "text": "Misalnya Pak Budi nabung Rp1 juta buat liburan.",
+      "say": "Misalnya Pak Budi nabung satu juta rupiah, buat liburan."
+    },
+    {
+      "id": "h2",
+      "tag": "[curious, teasing]",
+      "text": "Kamis, rupiah cetak rekor terlemah. Jadi berapa dolar?"
+    },
+    {
+      "id": "rd",
+      "tagline": true,
+      "text": "Rangkumin dong!"
+    },
+    {
+      "id": "l1",
+      "tag": "[explaining]",
+      "text": "Senin masih menguat, ke Rp18.203 per dolar.",
+      "say": "Senin masih menguat, ke delapan belas ribu dua ratus tiga per dolar."
+    },
+    {
+      "id": "l2",
+      "tag": "[building]",
+      "text": "Kamis siang, sempat lewat Rp18.400. Sorenya tutup Rp18.364.",
+      "say": "Kamis siang, sempat lewat delapan belas ribu empat ratus. Sorenya tutup, delapan belas ribu tiga ratus enam puluh empat."
+    },
+    {
+      "id": "l3",
+      "tag": "[explaining]",
+      "text": "Kata BI: bunga AS diperkirakan naik, dolar kuat, cemas soal status pasar saham kita, dan butuh dolar akhir bulan.",
+      "say": "Kata, Be I: bunga, A Es, diperkirakan naik, dolar kuat, cemas soal status pasar saham kita, dan butuh dolar akhir bulan."
+    },
+    {
+      "id": "l4",
+      "tag": "[matter-of-fact]",
+      "text": "Jumat, sedikit menguat: Rp18.330.",
+      "say": "Jumat, sedikit menguat: delapan belas ribu tiga ratus tiga puluh."
+    },
+    {
+      "id": "l5",
+      "tag": "[turning point]",
+      "text": "Tapi, asumsi BI untuk tahun depan: Rp17.800 sampai Rp18.200. Lebih kuat dari sekarang.",
+      "say": "Tapi, asumsi, Be I, untuk tahun depan: tujuh belas ribu delapan ratus, sampai delapan belas ribu dua ratus. Lebih kuat dari sekarang."
+    },
+    {
+      "id": "l6",
+      "tag": "[warm, payoff]",
+      "text": "Sejutanya Pak Budi? Di kurs tutup Kamis, cuma sekitar 54 dolar.",
+      "say": "Sejutanya Pak Budi? Di kurs tutup Kamis, cuma sekitar lima puluh empat dolar."
+    },
+    {
+      "id": "l7",
+      "tag": "[calm]",
+      "text": "Bukan ajakan beli atau jual dolar."
+    },
+    {
+      "id": "l8",
+      "tag": "[friendly, asking the viewer]",
+      "text": "Kalau kamu Pak Budi: tukar sekarang, atau tunggu? Kenapa? Komen.",
+      "say": "Kalau kamu Pak Budi: tukar sekarang, atau tunggu? Kenapa? Komen."
+    }
+  ]
+}

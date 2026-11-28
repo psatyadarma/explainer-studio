@@ -1,0 +1,574 @@
+{
+ "duration": 51.64,
+ "voice": "Pratama",
+ "lines": [
+  {
+   "id": "h1",
+   "text": "Misalnya Pak Budi nabung Rp1 juta buat liburan.",
+   "start": 0.22299999999999998,
+   "end": 3.548,
+   "words": [
+    {
+     "w": "Misalnya",
+     "start": 0.223,
+     "end": 0.508
+    },
+    {
+     "w": "Pak",
+     "start": 0.588,
+     "end": 0.828
+    },
+    {
+     "w": "Budi",
+     "start": 0.908,
+     "end": 1.228
+    },
+    {
+     "w": "nabung",
+     "start": 1.288,
+     "end": 1.548
+    },
+    {
+     "w": "Rp1",
+     "start": 1.596,
+     "end": 1.788
+    },
+    {
+     "w": "juta",
+     "start": 1.868,
+     "end": 2.028
+    },
+    {
+     "w": "buat",
+     "start": 2.615,
+     "end": 2.988
+    },
+    {
+     "w": "liburan.",
+     "start": 3.028,
+     "end": 3.548
+    }
+   ]
+  },
+  {
+   "id": "h2",
+   "text": "Kamis, rupiah cetak rekor terlemah. Jadi berapa dolar?",
+   "start": 3.858,
+   "end": 7.383,
+   "words": [
+    {
+     "w": "Kamis,",
+     "start": 3.858,
+     "end": 4.223
+    },
+    {
+     "w": "rupiah",
+     "start": 4.383,
+     "end": 4.863
+    },
+    {
+     "w": "cetak",
+     "start": 4.923,
+     "end": 5.263
+    },
+    {
+     "w": "rekor",
+     "start": 5.316,
+     "end": 5.503
+    },
+    {
+     "w": "terlemah.",
+     "start": 5.563,
+     "end": 6.063
+    },
+    {
+     "w": "Jadi",
+     "start": 6.171,
+     "end": 6.503
+    },
+    {
+     "w": "berapa",
+     "start": 6.583,
+     "end": 6.983
+    },
+    {
+     "w": "dolar?",
+     "start": 7.036,
+     "end": 7.383
+    }
+   ]
+  },
+  {
+   "id": "rd",
+   "text": "Rangkumin dong!",
+   "start": 7.637,
+   "end": 8.596,
+   "words": [
+    {
+     "w": "Rangkumin",
+     "start": 7.637,
+     "end": 8.117
+    },
+    {
+     "w": "dong!",
+     "start": 8.117,
+     "end": 8.596
+    }
+   ]
+  },
+  {
+   "id": "l1",
+   "text": "Senin masih menguat, ke Rp18.203 per dolar.",
+   "start": 9.178213151927439,
+   "end": 12.77621315192744,
+   "words": [
+    {
+     "w": "Senin",
+     "start": 9.178,
+     "end": 9.298
+    },
+    {
+     "w": "masih",
+     "start": 9.351,
+     "end": 9.618
+    },
+    {
+     "w": "menguat,",
+     "start": 9.65,
+     "end": 10.166
+    },
+    {
+     "w": "ke",
+     "start": 10.185,
+     "end": 10.238
+    },
+    {
+     "w": "Rp18.203",
+     "start": 10.298,
+     "end": 11.918
+    },
+    {
+     "w": "per",
+     "start": 11.978,
+     "end": 12.158
+    },
+    {
+     "w": "dolar.",
+     "start": 12.225,
+     "end": 12.776
+    }
+   ]
+  },
+  {
+   "id": "l2",
+   "text": "Kamis siang, sempat lewat Rp18.400. Sorenya tutup Rp18.364.",
+   "start": 12.87521315192744,
+   "end": 19.45521315192744,
+   "words": [
+    {
+     "w": "Kamis",
+     "start": 12.875,
+     "end": 13.075
+    },
+    {
+     "w": "siang,",
+     "start": 13.155,
+     "end": 13.555
+    },
+    {
+     "w": "sempat",
+     "start": 13.603,
+     "end": 13.875
+    },
+    {
+     "w": "lewat",
+     "start": 13.955,
+     "end": 14.275
+    },
+    {
+     "w": "Rp18.400.",
+     "start": 14.315,
+     "end": 16.036
+    },
+    {
+     "w": "Sorenya",
+     "start": 16.036,
+     "end": 16.505
+    },
+    {
+     "w": "tutup",
+     "start": 16.565,
+     "end": 17.056
+    },
+    {
+     "w": "Rp18.364.",
+     "start": 17.095,
+     "end": 19.455
+    }
+   ]
+  },
+  {
+   "id": "l3",
+   "text": "Kata BI: bunga AS diperkirakan naik, dolar kuat, cemas soal status pasar saham kita, dan butuh dolar akhir bulan.",
+   "start": 19.687213151927438,
+   "end": 27.84521315192744,
+   "words": [
+    {
+     "w": "Kata",
+     "start": 19.687,
+     "end": 19.935
+    },
+    {
+     "w": "BI:",
+     "start": 19.975,
+     "end": 20.535
+    },
+    {
+     "w": "bunga",
+     "start": 20.625,
+     "end": 21.145
+    },
+    {
+     "w": "AS",
+     "start": 21.296,
+     "end": 22.045
+    },
+    {
+     "w": "diperkirakan",
+     "start": 22.046,
+     "end": 22.705
+    },
+    {
+     "w": "naik,",
+     "start": 22.758,
+     "end": 23.105
+    },
+    {
+     "w": "dolar",
+     "start": 23.136,
+     "end": 23.475
+    },
+    {
+     "w": "kuat,",
+     "start": 23.555,
+     "end": 23.955
+    },
+    {
+     "w": "cemas",
+     "start": 23.986,
+     "end": 24.385
+    },
+    {
+     "w": "soal",
+     "start": 24.438,
+     "end": 24.625
+    },
+    {
+     "w": "status",
+     "start": 24.671,
+     "end": 24.945
+    },
+    {
+     "w": "pasar",
+     "start": 24.998,
+     "end": 25.265
+    },
+    {
+     "w": "saham",
+     "start": 25.292,
+     "end": 25.505
+    },
+    {
+     "w": "kita,",
+     "start": 25.585,
+     "end": 25.985
+    },
+    {
+     "w": "dan",
+     "start": 26.116,
+     "end": 26.325
+    },
+    {
+     "w": "butuh",
+     "start": 26.405,
+     "end": 26.725
+    },
+    {
+     "w": "dolar",
+     "start": 26.792,
+     "end": 27.125
+    },
+    {
+     "w": "akhir",
+     "start": 27.178,
+     "end": 27.365
+    },
+    {
+     "w": "bulan.",
+     "start": 27.425,
+     "end": 27.845
+    }
+   ]
+  },
+  {
+   "id": "l4",
+   "text": "Jumat, sedikit menguat: Rp18.330.",
+   "start": 28.294213151927437,
+   "end": 31.58621315192744,
+   "words": [
+    {
+     "w": "Jumat,",
+     "start": 28.294,
+     "end": 28.494
+    },
+    {
+     "w": "sedikit",
+     "start": 28.534,
+     "end": 28.814
+    },
+    {
+     "w": "menguat:",
+     "start": 28.862,
+     "end": 29.374
+    },
+    {
+     "w": "Rp18.330.",
+     "start": 29.396,
+     "end": 31.586
+    }
+   ]
+  },
+  {
+   "id": "l5",
+   "text": "Tapi, asumsi BI untuk tahun depan: Rp17.800 sampai Rp18.200. Lebih kuat dari sekarang.",
+   "start": 31.95421315192744,
+   "end": 39.904213151927436,
+   "words": [
+    {
+     "w": "Tapi,",
+     "start": 31.954,
+     "end": 32.254
+    },
+    {
+     "w": "asumsi",
+     "start": 32.321,
+     "end": 32.894
+    },
+    {
+     "w": "BI",
+     "start": 32.934,
+     "end": 33.334
+    },
+    {
+     "w": "untuk",
+     "start": 33.387,
+     "end": 33.654
+    },
+    {
+     "w": "tahun",
+     "start": 33.694,
+     "end": 33.894
+    },
+    {
+     "w": "depan:",
+     "start": 33.947,
+     "end": 34.374
+    },
+    {
+     "w": "Rp17.800",
+     "start": 34.506,
+     "end": 36.194
+    },
+    {
+     "w": "sampai",
+     "start": 36.286,
+     "end": 36.814
+    },
+    {
+     "w": "Rp18.200.",
+     "start": 36.874,
+     "end": 38.546
+    },
+    {
+     "w": "Lebih",
+     "start": 38.546,
+     "end": 38.864
+    },
+    {
+     "w": "kuat",
+     "start": 38.944,
+     "end": 39.264
+    },
+    {
+     "w": "dari",
+     "start": 39.296,
+     "end": 39.424
+    },
+    {
+     "w": "sekarang.",
+     "start": 39.477,
+     "end": 39.904
+    }
+   ]
+  },
+  {
+   "id": "l6",
+   "text": "Sejutanya Pak Budi? Di kurs tutup Kamis, cuma sekitar 54 dolar.",
+   "start": 40.16321315192744,
+   "end": 44.51621315192744,
+   "words": [
+    {
+     "w": "Sejutanya",
+     "start": 40.163,
+     "end": 40.654
+    },
+    {
+     "w": "Pak",
+     "start": 40.694,
+     "end": 40.814
+    },
+    {
+     "w": "Budi?",
+     "start": 40.854,
+     "end": 41.135
+    },
+    {
+     "w": "Di",
+     "start": 41.216,
+     "end": 41.364
+    },
+    {
+     "w": "kurs",
+     "start": 41.428,
+     "end": 41.684
+    },
+    {
+     "w": "tutup",
+     "start": 41.724,
+     "end": 41.924
+    },
+    {
+     "w": "Kamis,",
+     "start": 42.004,
+     "end": 42.564
+    },
+    {
+     "w": "cuma",
+     "start": 42.624,
+     "end": 42.884
+    },
+    {
+     "w": "sekitar",
+     "start": 42.937,
+     "end": 43.284
+    },
+    {
+     "w": "54",
+     "start": 43.324,
+     "end": 43.844
+    },
+    {
+     "w": "dolar.",
+     "start": 43.924,
+     "end": 44.516
+    }
+   ]
+  },
+  {
+   "id": "l7",
+   "text": "Bukan ajakan beli atau jual dolar.",
+   "start": 44.76221315192744,
+   "end": 46.43421315192744,
+   "words": [
+    {
+     "w": "Bukan",
+     "start": 44.762,
+     "end": 44.834
+    },
+    {
+     "w": "ajakan",
+     "start": 44.887,
+     "end": 45.154
+    },
+    {
+     "w": "beli",
+     "start": 45.214,
+     "end": 45.474
+    },
+    {
+     "w": "atau",
+     "start": 45.522,
+     "end": 45.714
+    },
+    {
+     "w": "jual",
+     "start": 45.794,
+     "end": 45.954
+    },
+    {
+     "w": "dolar.",
+     "start": 46.021,
+     "end": 46.434
+    }
+   ]
+  },
+  {
+   "id": "l8",
+   "text": "Kalau kamu Pak Budi: tukar sekarang, atau tunggu? Kenapa? Komen.",
+   "start": 46.71321315192744,
+   "end": 50.74821315192744,
+   "words": [
+    {
+     "w": "Kalau",
+     "start": 46.713,
+     "end": 46.808
+    },
+    {
+     "w": "kamu",
+     "start": 46.872,
+     "end": 47.128
+    },
+    {
+     "w": "Pak",
+     "start": 47.168,
+     "end": 47.288
+    },
+    {
+     "w": "Budi:",
+     "start": 47.328,
+     "end": 47.688
+    },
+    {
+     "w": "tukar",
+     "start": 47.766,
+     "end": 48.098
+    },
+    {
+     "w": "sekarang,",
+     "start": 48.151,
+     "end": 48.778
+    },
+    {
+     "w": "atau",
+     "start": 48.818,
+     "end": 48.978
+    },
+    {
+     "w": "tunggu?",
+     "start": 49.026,
+     "end": 49.458
+    },
+    {
+     "w": "Kenapa?",
+     "start": 49.516,
+     "end": 50.186
+    },
+    {
+     "w": "Komen.",
+     "start": 50.186,
+     "end": 50.748
+    }
+   ]
+  }
+ ]
+}
